@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Logan / Wolverine",
-      "characterImage": null
+      "characterName": "Logan / Wolverine"
     },
     {
       "personId": 725,
-      "characterName": "Victor Creed",
-      "characterImage": null
+      "characterName": "Victor Creed"
     },
     {
       "personId": 256,
-      "characterName": "Stryker",
-      "characterImage": null
+      "characterName": "Stryker"
     },
     {
       "personId": 1179,
-      "characterName": "John Wraith",
-      "characterImage": null
+      "characterName": "John Wraith"
     },
     {
       "personId": 757,
-      "characterName": "Kayla Silverfox",
-      "characterImage": null
+      "characterName": "Kayla Silverfox"
     },
     {
       "personId": 674,
-      "characterName": "Fred Dukes",
-      "characterImage": null
+      "characterName": "Fred Dukes"
     },
     {
       "personId": 302,
-      "characterName": "Chris Bradley / Bolt",
-      "characterImage": null
+      "characterName": "Chris Bradley / Bolt"
     },
     {
       "personId": 1106,
-      "characterName": "Remy LeBeau",
-      "characterImage": null
+      "characterName": "Remy LeBeau"
     },
     {
       "personId": 1020,
-      "characterName": "Wade Wilson",
-      "characterImage": null
+      "characterName": "Wade Wilson"
     }
   ],
   "collections": [

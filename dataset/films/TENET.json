@@ -42,38 +42,31 @@
   "cast": [
     {
       "personId": 581,
-      "characterName": "Protagonist",
-      "characterImage": null
+      "characterName": "Protagonist"
     },
     {
       "personId": 990,
-      "characterName": "Neil",
-      "characterImage": null
+      "characterName": "Neil"
     },
     {
       "personId": 328,
-      "characterName": "Katherine Barton",
-      "characterImage": null
+      "characterName": "Katherine Barton"
     },
     {
       "personId": 296,
-      "characterName": "Priya",
-      "characterImage": null
+      "characterName": "Priya"
     },
     {
       "personId": 791,
-      "characterName": "Fay",
-      "characterImage": null
+      "characterName": "Fay"
     },
     {
       "personId": 372,
-      "characterName": "Wheeler",
-      "characterImage": null
+      "characterName": "Wheeler"
     },
     {
       "personId": 666,
-      "characterName": "Andrei Sator",
-      "characterImage": null
+      "characterName": "Andrei Sator"
     }
   ],
   "collections": [

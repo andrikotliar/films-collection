@@ -30,48 +30,39 @@
   "cast": [
     {
       "personId": 251,
-      "characterName": "Harry Potter",
-      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_harry_potter.webp"
+      "characterName": "Harry Potter"
     },
     {
       "personId": 1014,
-      "characterName": "Ron Weasley",
-      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_ron_weasley.webp"
+      "characterName": "Ron Weasley"
     },
     {
       "personId": 345,
-      "characterName": "Hermione Granger",
-      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_hermione_granger.webp"
+      "characterName": "Hermione Granger"
     },
     {
       "personId": 942,
-      "characterName": "Lord Voldemort",
-      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_lord_voldemort.webp"
+      "characterName": "Lord Voldemort"
     },
     {
       "personId": 1130,
-      "characterName": "Draco Malfoy",
-      "characterImage": null
+      "characterName": "Draco Malfoy"
     },
     {
       "personId": 22,
-      "characterName": "Severus Snape",
-      "characterImage": null
+      "characterName": "Severus Snape"
     },
     {
       "personId": 1228,
-      "characterName": "Professor Minerva McGonagall",
-      "characterImage": null
+      "characterName": "Professor Minerva McGonagall"
     },
     {
       "personId": 1229,
-      "characterName": "Neville Longbottom",
-      "characterImage": null
+      "characterName": "Neville Longbottom"
     },
     {
       "personId": 981,
-      "characterName": "Rubeus Hagrid",
-      "characterImage": null
+      "characterName": "Rubeus Hagrid"
     }
   ],
   "collections": [

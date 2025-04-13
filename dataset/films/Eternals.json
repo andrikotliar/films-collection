@@ -17,63 +17,51 @@
   "cast": [
     {
       "personId": 971,
-      "characterName": "Ikaris",
-      "characterImage": null
+      "characterName": "Ikaris"
     },
     {
       "personId": 1029,
-      "characterName": "Ajak",
-      "characterImage": null
+      "characterName": "Ajak"
     },
     {
       "personId": 63,
-      "characterName": "Thena",
-      "characterImage": null
+      "characterName": "Thena"
     },
     {
       "personId": 685,
-      "characterName": "Dane Whitman / Black Knight",
-      "characterImage": null
+      "characterName": "Dane Whitman / Black Knight"
     },
     {
       "personId": 398,
-      "characterName": "Sersi",
-      "characterImage": null
+      "characterName": "Sersi"
     },
     {
       "personId": 100,
-      "characterName": "Druig",
-      "characterImage": null
+      "characterName": "Druig"
     },
     {
       "personId": 720,
-      "characterName": "Sprite",
-      "characterImage": null
+      "characterName": "Sprite"
     },
     {
       "personId": 149,
-      "characterName": "Phastos",
-      "characterImage": null
+      "characterName": "Phastos"
     },
     {
       "personId": 691,
-      "characterName": "Kingo",
-      "characterImage": null
+      "characterName": "Kingo"
     },
     {
       "personId": 705,
-      "characterName": "Makkari",
-      "characterImage": null
+      "characterName": "Makkari"
     },
     {
       "personId": 759,
-      "characterName": "Gilgamesh",
-      "characterImage": null
+      "characterName": "Gilgamesh"
     },
     {
       "personId": 429,
-      "characterName": "Karun",
-      "characterImage": null
+      "characterName": "Karun"
     }
   ],
   "collections": [

@@ -17,18 +17,15 @@
   "cast": [
     {
       "personId": 431,
-      "characterName": "John Thornton",
-      "characterImage": null
+      "characterName": "John Thornton"
     },
     {
       "personId": 893,
-      "characterName": "Perrault",
-      "characterImage": null
+      "characterName": "Perrault"
     },
     {
       "personId": 241,
-      "characterName": "Hal",
-      "characterImage": null
+      "characterName": "Hal"
     }
   ],
   "collections": [

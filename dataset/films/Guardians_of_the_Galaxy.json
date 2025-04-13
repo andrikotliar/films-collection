@@ -54,63 +54,51 @@
   "cast": [
     {
       "personId": 199,
-      "characterName": "Peter Quill / Star-Lord",
-      "characterImage": null
+      "characterName": "Peter Quill / Star-Lord"
     },
     {
       "personId": 1205,
-      "characterName": "Gamora",
-      "characterImage": "characters/guardians_of_the_galaxy_gamora.webp"
+      "characterName": "Gamora"
     },
     {
       "personId": 263,
-      "characterName": "Drax",
-      "characterImage": "characters/guardians_of_the_galaxy_drax.webp"
+      "characterName": "Drax"
     },
     {
       "personId": 1164,
-      "characterName": "Groot",
-      "characterImage": "characters/guardians_of_the_galaxy_groot.webp"
+      "characterName": "Groot"
     },
     {
       "personId": 141,
-      "characterName": "Rocket",
-      "characterImage": "characters/guardians_of_the_galaxy_rocket.webp"
+      "characterName": "Rocket"
     },
     {
       "personId": 711,
-      "characterName": "Ronan",
-      "characterImage": "characters/guardians_of_the_galaxy_ronan.webp"
+      "characterName": "Ronan"
     },
     {
       "personId": 830,
-      "characterName": "Yondu Udonta",
-      "characterImage": "characters/guardians_of_the_galaxy_yondu_udonta.webp"
+      "characterName": "Yondu Udonta"
     },
     {
       "personId": 640,
-      "characterName": "Nebula",
-      "characterImage": "characters/guardians_of_the_galaxy_nebula.webp"
+      "characterName": "Nebula"
     },
     {
       "personId": 297,
-      "characterName": "Korath",
-      "characterImage": null
+      "characterName": "Korath"
     },
     {
       "personId": 576,
-      "characterName": "Corpsman Dey",
-      "characterImage": null
+      "characterName": "Corpsman Dey"
     },
     {
       "personId": 411,
-      "characterName": "Nova Prime",
-      "characterImage": null
+      "characterName": "Nova Prime"
     },
     {
       "personId": 117,
-      "characterName": "The Collector",
-      "characterImage": null
+      "characterName": "The Collector"
     }
   ],
   "collections": [

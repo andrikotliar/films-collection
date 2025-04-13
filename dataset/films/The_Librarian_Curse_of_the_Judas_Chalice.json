@@ -22,28 +22,23 @@
   "cast": [
     {
       "personId": 879,
-      "characterName": "Flynn Carsen",
-      "characterImage": null
+      "characterName": "Flynn Carsen"
     },
     {
       "personId": 154,
-      "characterName": "Professor Lazlo / Vlad",
-      "characterImage": null
+      "characterName": "Professor Lazlo / Vlad"
     },
     {
       "personId": 1078,
-      "characterName": "Simone Renoir",
-      "characterImage": null
+      "characterName": "Simone Renoir"
     },
     {
       "personId": 133,
-      "characterName": "Judson",
-      "characterImage": null
+      "characterName": "Judson"
     },
     {
       "personId": 518,
-      "characterName": "Charlene",
-      "characterImage": null
+      "characterName": "Charlene"
     }
   ],
   "collections": [

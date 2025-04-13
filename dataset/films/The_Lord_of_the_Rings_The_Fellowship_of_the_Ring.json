@@ -114,63 +114,51 @@
   "cast": [
     {
       "personId": 323,
-      "characterName": "Frodo Baggins",
-      "characterImage": null
+      "characterName": "Frodo Baggins"
     },
     {
       "personId": 460,
-      "characterName": "Gandalf",
-      "characterImage": null
+      "characterName": "Gandalf"
     },
     {
       "personId": 1044,
-      "characterName": "Samwise Gamgee",
-      "characterImage": null
+      "characterName": "Samwise Gamgee"
     },
     {
       "personId": 1163,
-      "characterName": "Aragorn",
-      "characterImage": null
+      "characterName": "Aragorn"
     },
     {
       "personId": 127,
-      "characterName": "Pereggrin",
-      "characterImage": null
+      "characterName": "Pereggrin"
     },
     {
       "personId": 302,
-      "characterName": "Meriadoc",
-      "characterImage": null
+      "characterName": "Meriadoc"
     },
     {
       "personId": 595,
-      "characterName": "Gimli",
-      "characterImage": null
+      "characterName": "Gimli"
     },
     {
       "personId": 894,
-      "characterName": "Legolas",
-      "characterImage": null
+      "characterName": "Legolas"
     },
     {
       "personId": 1045,
-      "characterName": "Boromir",
-      "characterImage": null
+      "characterName": "Boromir"
     },
     {
       "personId": 458,
-      "characterName": "Bilbo Baggins",
-      "characterImage": null
+      "characterName": "Bilbo Baggins"
     },
     {
       "personId": 209,
-      "characterName": "Saruman",
-      "characterImage": null
+      "characterName": "Saruman"
     },
     {
       "personId": 454,
-      "characterName": "Elrond",
-      "characterImage": null
+      "characterName": "Elrond"
     }
   ],
   "collections": [

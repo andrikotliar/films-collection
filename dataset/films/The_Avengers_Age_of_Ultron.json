@@ -24,83 +24,67 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/the_avengers_age_of_ultron_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": "characters/the_avengers_age_of_ultron_thor.webp"
+      "characterName": "Thor"
     },
     {
       "personId": 786,
-      "characterName": "Bruce Banner / Hulk",
-      "characterImage": "characters/the_avengers_age_of_ultron_bruce_banner.webp"
+      "characterName": "Bruce Banner / Hulk"
     },
     {
       "personId": 194,
-      "characterName": "Steve Rogers / Captain America",
-      "characterImage": "characters/the_avengers_age_of_ultron_steve_rogers.webp"
+      "characterName": "Steve Rogers / Captain America"
     },
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow",
-      "characterImage": null
+      "characterName": "Natasha Romanoff / Black Widow"
     },
     {
       "personId": 552,
-      "characterName": "Clint Barton / Hawkeye",
-      "characterImage": null
+      "characterName": "Clint Barton / Hawkeye"
     },
     {
       "personId": 516,
-      "characterName": "Ultron",
-      "characterImage": "characters/the_avengers_age_of_ultron_ultron.webp"
+      "characterName": "Ultron"
     },
     {
       "personId": 1036,
-      "characterName": "Nick Fury",
-      "characterImage": null
+      "characterName": "Nick Fury"
     },
     {
       "personId": 304,
-      "characterName": "James Rhodes",
-      "characterImage": null
+      "characterName": "James Rhodes"
     },
     {
       "personId": 3,
-      "characterName": "Pietro Maximoff",
-      "characterImage": null
+      "characterName": "Pietro Maximoff"
     },
     {
       "personId": 329,
-      "characterName": "Wanda Maximoff / Scarlett Witch",
-      "characterImage": null
+      "characterName": "Wanda Maximoff / Scarlett Witch"
     },
     {
       "personId": 905,
-      "characterName": "Jarvis / Vision",
-      "characterImage": "characters/the_avengers_age_of_ultron_jarvis.webp"
+      "characterName": "Jarvis / Vision"
     },
     {
       "personId": 221,
-      "characterName": "Maria Hill",
-      "characterImage": null
+      "characterName": "Maria Hill"
     },
     {
       "personId": 74,
-      "characterName": "Sam Wilson",
-      "characterImage": null
+      "characterName": "Sam Wilson"
     },
     {
       "personId": 438,
-      "characterName": "Peggy Carter",
-      "characterImage": null
+      "characterName": "Peggy Carter"
     },
     {
       "personId": 463,
-      "characterName": "Heimdall",
-      "characterImage": null
+      "characterName": "Heimdall"
     }
   ],
   "collections": [

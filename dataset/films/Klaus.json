@@ -16,33 +16,27 @@
   "cast": [
     {
       "personId": 529,
-      "characterName": "Jesper",
-      "characterImage": "characters/klaus_jesper.webp"
+      "characterName": "Jesper"
     },
     {
       "personId": 475,
-      "characterName": "Klaus",
-      "characterImage": "characters/klaus_klaus.webp"
+      "characterName": "Klaus"
     },
     {
       "personId": 947,
-      "characterName": "Alva",
-      "characterImage": "characters/klaus_alva.webp"
+      "characterName": "Alva"
     },
     {
       "personId": 1177,
-      "characterName": "Mr. Ellingboe",
-      "characterImage": "characters/klaus_mr_ellingboe.webp"
+      "characterName": "Mr. Ellingboe"
     },
     {
       "personId": 1254,
-      "characterName": "Mrs. Krum",
-      "characterImage": "characters/klaus_mrs_krum.webp"
+      "characterName": "Mrs. Krum"
     },
     {
       "personId": 1255,
-      "characterName": "Mogens",
-      "characterImage": "characters/klaus_mogens.webp"
+      "characterName": "Mogens"
     }
   ],
   "collections": [

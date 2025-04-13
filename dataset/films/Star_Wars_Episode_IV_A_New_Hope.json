@@ -144,48 +144,39 @@
   "cast": [
     {
       "personId": 785,
-      "characterName": "Luke Skywalker",
-      "characterImage": null
+      "characterName": "Luke Skywalker"
     },
     {
       "personId": 431,
-      "characterName": "Han Solo",
-      "characterImage": null
+      "characterName": "Han Solo"
     },
     {
       "personId": 171,
-      "characterName": "Leia Organa",
-      "characterImage": null
+      "characterName": "Leia Organa"
     },
     {
       "personId": 919,
-      "characterName": "Moff Tarkin",
-      "characterImage": null
+      "characterName": "Moff Tarkin"
     },
     {
       "personId": 28,
-      "characterName": "Ben Obi-Wan Kenobi",
-      "characterImage": null
+      "characterName": "Ben Obi-Wan Kenobi"
     },
     {
       "personId": 72,
-      "characterName": "C-3PO",
-      "characterImage": "characters/star_wars_episode_iv_a_new_hope_c-3po.webp"
+      "characterName": "C-3PO"
     },
     {
       "personId": 667,
-      "characterName": "R2-D2",
-      "characterImage": "characters/star_wars_episode_iv_a_new_hope_r2-d2.webp"
+      "characterName": "R2-D2"
     },
     {
       "personId": 924,
-      "characterName": "Chewbacca",
-      "characterImage": "characters/star_wars_episode_iv_a_new_hope_chewbacca.webp"
+      "characterName": "Chewbacca"
     },
     {
       "personId": 276,
-      "characterName": "Darth Vader",
-      "characterImage": "characters/star_wars_episode_iv_a_new_hope_darth_vader.webp"
+      "characterName": "Darth Vader"
     }
   ],
   "collections": [

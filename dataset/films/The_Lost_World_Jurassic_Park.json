@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 542,
-      "characterName": "Malcolm",
-      "characterImage": null
+      "characterName": "Malcolm"
     },
     {
       "personId": 965,
-      "characterName": "Hammond",
-      "characterImage": null
+      "characterName": "Hammond"
     },
     {
       "personId": 628,
-      "characterName": "Sarah Harding",
-      "characterImage": null
+      "characterName": "Sarah Harding"
     },
     {
       "personId": 85,
-      "characterName": "Peter Ludlow",
-      "characterImage": null
+      "characterName": "Peter Ludlow"
     }
   ],
   "collections": [

@@ -15,38 +15,31 @@
   "cast": [
     {
       "personId": 552,
-      "characterName": "Clint Barton / Hawkeye",
-      "characterImage": null
+      "characterName": "Clint Barton / Hawkeye"
     },
     {
       "personId": 424,
-      "characterName": "Kate Bishop",
-      "characterImage": null
+      "characterName": "Kate Bishop"
     },
     {
       "personId": 1161,
-      "characterName": " Eleanor Bishop",
-      "characterImage": null
+      "characterName": " Eleanor Bishop"
     },
     {
       "personId": 1221,
-      "characterName": " Jack Duquesne",
-      "characterImage": null
+      "characterName": " Jack Duquesne"
     },
     {
       "personId": 1222,
-      "characterName": "Kazi",
-      "characterImage": null
+      "characterName": "Kazi"
     },
     {
       "personId": 1223,
-      "characterName": "Maya Lopez / Echo",
-      "characterImage": null
+      "characterName": "Maya Lopez / Echo"
     },
     {
       "personId": 1165,
-      "characterName": "Kingpin",
-      "characterImage": null
+      "characterName": "Kingpin"
     }
   ],
   "collections": [
@@ -163,13 +156,7 @@
   "seriesExtension": {
     "episodesTotal": 6,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 6,
-        "releaseDate": "2021-11-24T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2021-12-22T00:00:00.000Z"
   },
   "trailers": [
     {

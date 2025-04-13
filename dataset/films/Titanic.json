@@ -102,38 +102,31 @@
   "cast": [
     {
       "personId": 716,
-      "characterName": "Jack Dawson",
-      "characterImage": null
+      "characterName": "Jack Dawson"
     },
     {
       "personId": 648,
-      "characterName": "Rose Dewitt Bukater",
-      "characterImage": null
+      "characterName": "Rose Dewitt Bukater"
     },
     {
       "personId": 131,
-      "characterName": "Cal Hockley",
-      "characterImage": null
+      "characterName": "Cal Hockley"
     },
     {
       "personId": 651,
-      "characterName": "Molly Brown",
-      "characterImage": null
+      "characterName": "Molly Brown"
     },
     {
       "personId": 378,
-      "characterName": "Ruth Dewitt Bukater",
-      "characterImage": null
+      "characterName": "Ruth Dewitt Bukater"
     },
     {
       "personId": 1224,
-      "characterName": "Captain Smith",
-      "characterImage": null
+      "characterName": "Captain Smith"
     },
     {
       "personId": 414,
-      "characterName": "Old Rose",
-      "characterImage": null
+      "characterName": "Old Rose"
     }
   ],
   "collections": [

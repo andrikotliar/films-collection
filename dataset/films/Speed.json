@@ -48,23 +48,19 @@
   "cast": [
     {
       "personId": 657,
-      "characterName": "Jack Traven",
-      "characterImage": null
+      "characterName": "Jack Traven"
     },
     {
       "personId": 285,
-      "characterName": "Howard Payne",
-      "characterImage": null
+      "characterName": "Howard Payne"
     },
     {
       "personId": 1038,
-      "characterName": "Annie",
-      "characterImage": null
+      "characterName": "Annie"
     },
     {
       "personId": 540,
-      "characterName": "Harry",
-      "characterImage": null
+      "characterName": "Harry"
     }
   ],
   "collections": [

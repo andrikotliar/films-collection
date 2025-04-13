@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 873,
-      "characterName": "Balthazar",
-      "characterImage": null
+      "characterName": "Balthazar"
     },
     {
       "personId": 533,
-      "characterName": "Dave",
-      "characterImage": null
+      "characterName": "Dave"
     },
     {
       "personId": 36,
-      "characterName": "Horvath",
-      "characterImage": null
+      "characterName": "Horvath"
     },
     {
       "personId": 1109,
-      "characterName": "Becky",
-      "characterImage": null
+      "characterName": "Becky"
     },
     {
       "personId": 1124,
-      "characterName": "Drake Stone",
-      "characterImage": null
+      "characterName": "Drake Stone"
     },
     {
       "personId": 850,
-      "characterName": "Veronica",
-      "characterImage": null
+      "characterName": "Veronica"
     },
     {
       "personId": 40,
-      "characterName": "Morgana",
-      "characterImage": null
+      "characterName": "Morgana"
     }
   ],
   "collections": [

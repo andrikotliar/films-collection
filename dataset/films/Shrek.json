@@ -36,23 +36,19 @@
   "cast": [
     {
       "personId": 842,
-      "characterName": "Shrek",
-      "characterImage": "characters/shrek_shrek.webp"
+      "characterName": "Shrek"
     },
     {
       "personId": 319,
-      "characterName": "Donkey",
-      "characterImage": "characters/shrek_donkey.webp"
+      "characterName": "Donkey"
     },
     {
       "personId": 164,
-      "characterName": "Fiona",
-      "characterImage": "characters/shrek_fiona.webp"
+      "characterName": "Fiona"
     },
     {
       "personId": 587,
-      "characterName": "Lord Farquaad",
-      "characterImage": "characters/shrek_lord_farquaad.webp"
+      "characterName": "Lord Farquaad"
     }
   ],
   "collections": [

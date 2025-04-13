@@ -30,28 +30,23 @@
   "cast": [
     {
       "personId": 140,
-      "characterName": "Gerry Lane",
-      "characterImage": null
+      "characterName": "Gerry Lane"
     },
     {
       "personId": 848,
-      "characterName": "Karin Lane",
-      "characterImage": null
+      "characterName": "Karin Lane"
     },
     {
       "personId": 254,
-      "characterName": "Segen",
-      "characterImage": null
+      "characterName": "Segen"
     },
     {
       "personId": 501,
-      "characterName": "Captain Speke",
-      "characterImage": null
+      "characterName": "Captain Speke"
     },
     {
       "personId": 747,
-      "characterName": "Jurgen Warmbrunn",
-      "characterImage": null
+      "characterName": "Jurgen Warmbrunn"
     }
   ],
   "collections": [

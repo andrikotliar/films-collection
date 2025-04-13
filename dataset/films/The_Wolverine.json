@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Logan",
-      "characterImage": null
+      "characterName": "Logan"
     },
     {
       "personId": 1103,
-      "characterName": "Mariko Yashida",
-      "characterImage": null
+      "characterName": "Mariko Yashida"
     },
     {
       "personId": 449,
-      "characterName": "Shingen Yashida",
-      "characterImage": null
+      "characterName": "Shingen Yashida"
     },
     {
       "personId": 977,
-      "characterName": "Yukio",
-      "characterImage": null
+      "characterName": "Yukio"
     },
     {
       "personId": 1096,
-      "characterName": "Dr. Green / Viper",
-      "characterImage": null
+      "characterName": "Dr. Green / Viper"
     }
   ],
   "collections": [

@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 662,
-      "characterName": "Raya",
-      "characterImage": "characters/raya_and_the_last_dragon_raya.webp"
+      "characterName": "Raya"
     },
     {
       "personId": 97,
-      "characterName": "Sisu",
-      "characterImage": "characters/raya_and_the_last_dragon_sisu.webp"
+      "characterName": "Sisu"
     },
     {
       "personId": 474,
-      "characterName": "Boun",
-      "characterImage": "characters/raya_and_the_last_dragon_boun.webp"
+      "characterName": "Boun"
     },
     {
       "personId": 398,
-      "characterName": "Namaari",
-      "characterImage": "characters/raya_and_the_last_dragon_namaari.webp"
+      "characterName": "Namaari"
     },
     {
       "personId": 246,
-      "characterName": "Benja",
-      "characterImage": "characters/raya_and_the_last_dragon_benja.webp"
+      "characterName": "Benja"
     },
     {
       "personId": 116,
-      "characterName": "Tong",
-      "characterImage": "characters/raya_and_the_last_dragon_tong.webp"
+      "characterName": "Tong"
     }
   ],
   "collections": [

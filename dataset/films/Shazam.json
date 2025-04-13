@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 1197,
-      "characterName": "Shazam",
-      "characterImage": null
+      "characterName": "Shazam"
     },
     {
       "personId": 297,
-      "characterName": "The Wizard",
-      "characterImage": null
+      "characterName": "The Wizard"
     },
     {
       "personId": 789,
-      "characterName": "Dr. Thaddeus Sivana",
-      "characterImage": null
+      "characterName": "Dr. Thaddeus Sivana"
     },
     {
       "personId": 482,
-      "characterName": "Freddy Freeman",
-      "characterImage": null
+      "characterName": "Freddy Freeman"
     },
     {
       "personId": 811,
-      "characterName": "Darla Dudley",
-      "characterImage": null
+      "characterName": "Darla Dudley"
     },
     {
       "personId": 91,
-      "characterName": "Billy Batson",
-      "characterImage": null
+      "characterName": "Billy Batson"
     }
   ],
   "collections": [

@@ -100,43 +100,35 @@
   "cast": [
     {
       "personId": 521,
-      "characterName": "Valery Legasov",
-      "characterImage": null
+      "characterName": "Valery Legasov"
     },
     {
       "personId": 1080,
-      "characterName": "Boris Shcherbina",
-      "characterImage": null
+      "characterName": "Boris Shcherbina"
     },
     {
       "personId": 343,
-      "characterName": "Ulana Khomyuk",
-      "characterImage": null
+      "characterName": "Ulana Khomyuk"
     },
     {
       "personId": 909,
-      "characterName": "Anatoly Dyatlov",
-      "characterImage": null
+      "characterName": "Anatoly Dyatlov"
     },
     {
       "personId": 983,
-      "characterName": "Leonid Toptunov",
-      "characterImage": null
+      "characterName": "Leonid Toptunov"
     },
     {
       "personId": 1033,
-      "characterName": "Alexandr Akimov",
-      "characterImage": null
+      "characterName": "Alexandr Akimov"
     },
     {
       "personId": 560,
-      "characterName": "Lyudmilla Ignatenko",
-      "characterImage": null
+      "characterName": "Lyudmilla Ignatenko"
     },
     {
       "personId": 9,
-      "characterName": "Vasily Ignatenko",
-      "characterImage": null
+      "characterName": "Vasily Ignatenko"
     }
   ],
   "collections": [
@@ -201,13 +193,7 @@
   "seriesExtension": {
     "episodesTotal": 5,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 5,
-        "releaseDate": "2019-05-06T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2019-06-03T00:00:00.000Z"
   },
   "trailers": [
     {

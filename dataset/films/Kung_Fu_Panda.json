@@ -66,53 +66,43 @@
   "cast": [
     {
       "personId": 478,
-      "characterName": "Po",
-      "characterImage": "characters/kung_fu_panda_po.webp"
+      "characterName": "Po"
     },
     {
       "personId": 313,
-      "characterName": "Shifu",
-      "characterImage": "characters/kung_fu_panda_shifu.webp"
+      "characterName": "Shifu"
     },
     {
       "personId": 63,
-      "characterName": "Tigress",
-      "characterImage": "characters/kung_fu_panda_tigress.webp"
+      "characterName": "Tigress"
     },
     {
       "personId": 461,
-      "characterName": "Tai Lung",
-      "characterImage": "characters/kung_fu_panda_tai_lung.webp"
+      "characterName": "Tai Lung"
     },
     {
       "personId": 485,
-      "characterName": "Monkey",
-      "characterImage": "characters/kung_fu_panda_monkey.webp"
+      "characterName": "Monkey"
     },
     {
       "personId": 1055,
-      "characterName": "Mantis",
-      "characterImage": "characters/kung_fu_panda_mantis.webp"
+      "characterName": "Mantis"
     },
     {
       "personId": 745,
-      "characterName": "Viper",
-      "characterImage": "characters/kung_fu_panda_viper.webp"
+      "characterName": "Viper"
     },
     {
       "personId": 269,
-      "characterName": "Crane",
-      "characterImage": "characters/kung_fu_panda_crane.webp"
+      "characterName": "Crane"
     },
     {
       "personId": 944,
-      "characterName": "Oogway",
-      "characterImage": "characters/kung_fu_panda_oogway.webp"
+      "characterName": "Oogway"
     },
     {
       "personId": 508,
-      "characterName": "Mr. Ping",
-      "characterImage": "characters/kung_fu_panda_mr_ping.webp"
+      "characterName": "Mr. Ping"
     }
   ],
   "collections": [

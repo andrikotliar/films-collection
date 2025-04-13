@@ -108,33 +108,27 @@
   "cast": [
     {
       "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
-      "characterImage": null
+      "characterName": "Dr. Henry «Indiana» Jones, Jr."
     },
     {
       "personId": 638,
-      "characterName": "Marion",
-      "characterImage": null
+      "characterName": "Marion"
     },
     {
       "personId": 906,
-      "characterName": "Belloq",
-      "characterImage": null
+      "characterName": "Belloq"
     },
     {
       "personId": 1000,
-      "characterName": "Toht",
-      "characterImage": null
+      "characterName": "Toht"
     },
     {
       "personId": 595,
-      "characterName": "Sallah",
-      "characterImage": null
+      "characterName": "Sallah"
     },
     {
       "personId": 283,
-      "characterName": "Brody",
-      "characterImage": null
+      "characterName": "Brody"
     }
   ],
   "collections": [

@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 531,
-      "characterName": "Frank Martin",
-      "characterImage": null
+      "characterName": "Frank Martin"
     },
     {
       "personId": 30,
-      "characterName": "Gianni Chellini",
-      "characterImage": null
+      "characterName": "Gianni Chellini"
     },
     {
       "personId": 50,
-      "characterName": "Audrey Billings",
-      "characterImage": null
+      "characterName": "Audrey Billings"
     },
     {
       "personId": 646,
-      "characterName": "Lola",
-      "characterImage": null
+      "characterName": "Lola"
     },
     {
       "personId": 806,
-      "characterName": "Jefferson Billings",
-      "characterImage": null
+      "characterName": "Jefferson Billings"
     },
     {
       "personId": 455,
-      "characterName": "Jack Billings",
-      "characterImage": null
+      "characterName": "Jack Billings"
     },
     {
       "personId": 385,
-      "characterName": "Inspector Tarconi",
-      "characterImage": null
+      "characterName": "Inspector Tarconi"
     }
   ],
   "collections": [

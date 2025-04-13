@@ -17,63 +17,51 @@
   "cast": [
     {
       "personId": 511,
-      "characterName": "Professor Charles Xavier",
-      "characterImage": null
+      "characterName": "Professor Charles Xavier"
     },
     {
       "personId": 823,
-      "characterName": "Erik Lehnsherr / Magneto",
-      "characterImage": null
+      "characterName": "Erik Lehnsherr / Magneto"
     },
     {
       "personId": 547,
-      "characterName": "Raven / Mystique",
-      "characterImage": "characters/x_men_apocalypse_raven.webp"
+      "characterName": "Raven / Mystique"
     },
     {
       "personId": 870,
-      "characterName": "Hank McCoy / Beast",
-      "characterImage": "characters/x_men_apocalypse_hank_mccoy.webp"
+      "characterName": "Hank McCoy / Beast"
     },
     {
       "personId": 896,
-      "characterName": "En Sabah Nur / Apocalypse",
-      "characterImage": "characters/x_men_apocalypse_en_sabah_nur.webp"
+      "characterName": "En Sabah Nur / Apocalypse"
     },
     {
       "personId": 1005,
-      "characterName": "Moira Mactaggert",
-      "characterImage": null
+      "characterName": "Moira Mactaggert"
     },
     {
       "personId": 360,
-      "characterName": "Peter Maximoff / Quicksilver",
-      "characterImage": null
+      "characterName": "Peter Maximoff / Quicksilver"
     },
     {
       "personId": 619,
-      "characterName": "Col. William Stryker",
-      "characterImage": null
+      "characterName": "Col. William Stryker"
     },
     {
       "personId": 1077,
-      "characterName": "Jean Grey",
-      "characterImage": null
+      "characterName": "Jean Grey"
     },
     {
       "personId": 1154,
-      "characterName": "Scott Summers / Cyclops",
-      "characterImage": null
+      "characterName": "Scott Summers / Cyclops"
     },
     {
       "personId": 743,
-      "characterName": "Alex Summers / Havok",
-      "characterImage": null
+      "characterName": "Alex Summers / Havok"
     },
     {
       "personId": 686,
-      "characterName": "Kurt Wagner / Nightcrawler",
-      "characterImage": "characters/x_men_apocalypse_kurt_wagner.webp"
+      "characterName": "Kurt Wagner / Nightcrawler"
     }
   ],
   "collections": [

@@ -24,48 +24,39 @@
   "cast": [
     {
       "personId": 910,
-      "characterName": "Scott Lang / Ant-Man",
-      "characterImage": "characters/ant_man_scott_lang.webp"
+      "characterName": "Scott Lang / Ant-Man"
     },
     {
       "personId": 822,
-      "characterName": "Dr. Hank Pym",
-      "characterImage": null
+      "characterName": "Dr. Hank Pym"
     },
     {
       "personId": 361,
-      "characterName": "Hope van Dyne",
-      "characterImage": null
+      "characterName": "Hope van Dyne"
     },
     {
       "personId": 229,
-      "characterName": "Darren Cross / Yellowjacket",
-      "characterImage": "characters/ant_man_darren_cross.webp"
+      "characterName": "Darren Cross / Yellowjacket"
     },
     {
       "personId": 134,
-      "characterName": "Paxton",
-      "characterImage": null
+      "characterName": "Paxton"
     },
     {
       "personId": 828,
-      "characterName": "Luis",
-      "characterImage": null
+      "characterName": "Luis"
     },
     {
       "personId": 74,
-      "characterName": "Sam Wilson / Falcon",
-      "characterImage": null
+      "characterName": "Sam Wilson / Falcon"
     },
     {
       "personId": 625,
-      "characterName": "Maggie Lang",
-      "characterImage": null
+      "characterName": "Maggie Lang"
     },
     {
       "personId": 5,
-      "characterName": "Cassie Lang",
-      "characterImage": null
+      "characterName": "Cassie Lang"
     }
   ],
   "collections": [

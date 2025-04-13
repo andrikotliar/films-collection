@@ -24,48 +24,39 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ethan Hunt",
-      "characterImage": null
+      "characterName": "Ethan Hunt"
     },
     {
       "personId": 443,
-      "characterName": "August Walker",
-      "characterImage": null
+      "characterName": "August Walker"
     },
     {
       "personId": 1166,
-      "characterName": "Luther Stickell",
-      "characterImage": null
+      "characterName": "Luther Stickell"
     },
     {
       "personId": 1070,
-      "characterName": "Benji Dunn",
-      "characterImage": null
+      "characterName": "Benji Dunn"
     },
     {
       "personId": 954,
-      "characterName": "Ilsa Faust",
-      "characterImage": null
+      "characterName": "Ilsa Faust"
     },
     {
       "personId": 1047,
-      "characterName": "Solomon Lane",
-      "characterImage": null
+      "characterName": "Solomon Lane"
     },
     {
       "personId": 62,
-      "characterName": "Erika Sloane",
-      "characterImage": null
+      "characterName": "Erika Sloane"
     },
     {
       "personId": 1159,
-      "characterName": "The White Widow",
-      "characterImage": null
+      "characterName": "The White Widow"
     },
     {
       "personId": 836,
-      "characterName": "Julia",
-      "characterImage": null
+      "characterName": "Julia"
     }
   ],
   "collections": [

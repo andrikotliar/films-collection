@@ -36,38 +36,31 @@
   "cast": [
     {
       "personId": 409,
-      "characterName": "Judy Hopps",
-      "characterImage": "characters/zootopia_judy_hopps.webp"
+      "characterName": "Judy Hopps"
     },
     {
       "personId": 524,
-      "characterName": "Nick Wilde",
-      "characterImage": "characters/zootopia_nick_wilde.webp"
+      "characterName": "Nick Wilde"
     },
     {
       "personId": 463,
-      "characterName": "Chief Bogo",
-      "characterImage": "characters/zootopia_chief_bogo.webp"
+      "characterName": "Chief Bogo"
     },
     {
       "personId": 550,
-      "characterName": "Bellwether",
-      "characterImage": "characters/zootopia_bellwether.webp"
+      "characterName": "Bellwether"
     },
     {
       "personId": 866,
-      "characterName": "Clawhauser",
-      "characterImage": "characters/zootopia_clawhauser.webp"
+      "characterName": "Clawhauser"
     },
     {
       "personId": 136,
-      "characterName": "Bonnie Hopps",
-      "characterImage": "characters/zootopia_bonnie_hopps.webp"
+      "characterName": "Bonnie Hopps"
     },
     {
       "personId": 306,
-      "characterName": "Stu Hopps",
-      "characterImage": "characters/zootopia_stu_hopps.webp"
+      "characterName": "Stu Hopps"
     }
   ],
   "collections": [

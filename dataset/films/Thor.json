@@ -24,43 +24,35 @@
   "cast": [
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": null
+      "characterName": "Thor"
     },
     {
       "personId": 864,
-      "characterName": "Jane Foster",
-      "characterImage": null
+      "characterName": "Jane Foster"
     },
     {
       "personId": 1132,
-      "characterName": "Loki",
-      "characterImage": null
+      "characterName": "Loki"
     },
     {
       "personId": 73,
-      "characterName": "Odin",
-      "characterImage": null
+      "characterName": "Odin"
     },
     {
       "personId": 1080,
-      "characterName": "Erik Selvig",
-      "characterImage": null
+      "characterName": "Erik Selvig"
     },
     {
       "personId": 643,
-      "characterName": "Darcy Lewis",
-      "characterImage": null
+      "characterName": "Darcy Lewis"
     },
     {
       "personId": 216,
-      "characterName": "Agent Coulson",
-      "characterImage": null
+      "characterName": "Agent Coulson"
     },
     {
       "personId": 463,
-      "characterName": "Heimdall",
-      "characterImage": null
+      "characterName": "Heimdall"
     }
   ],
   "collections": [

@@ -72,28 +72,23 @@
   "cast": [
     {
       "personId": 805,
-      "characterName": "Cooper",
-      "characterImage": null
+      "characterName": "Cooper"
     },
     {
       "personId": 558,
-      "characterName": "Murph",
-      "characterImage": null
+      "characterName": "Murph"
     },
     {
       "personId": 64,
-      "characterName": "Brand",
-      "characterImage": null
+      "characterName": "Brand"
     },
     {
       "personId": 821,
-      "characterName": "Professor Brand",
-      "characterImage": null
+      "characterName": "Professor Brand"
     },
     {
       "personId": 803,
-      "characterName": "Mann",
-      "characterImage": null
+      "characterName": "Mann"
     }
   ],
   "collections": [

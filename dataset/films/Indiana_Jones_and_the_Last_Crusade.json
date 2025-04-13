@@ -36,33 +36,27 @@
   "cast": [
     {
       "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
-      "characterImage": null
+      "characterName": "Dr. Henry «Indiana» Jones, Jr."
     },
     {
       "personId": 1046,
-      "characterName": "Professor Henry Jones",
-      "characterImage": null
+      "characterName": "Professor Henry Jones"
     },
     {
       "personId": 283,
-      "characterName": "Marcus Brody",
-      "characterImage": null
+      "characterName": "Marcus Brody"
     },
     {
       "personId": 42,
-      "characterName": "Elsa",
-      "characterImage": null
+      "characterName": "Elsa"
     },
     {
       "personId": 595,
-      "characterName": "Sallah",
-      "characterImage": null
+      "characterName": "Sallah"
     },
     {
       "personId": 627,
-      "characterName": "Walter Donovan",
-      "characterImage": null
+      "characterName": "Walter Donovan"
     }
   ],
   "collections": [

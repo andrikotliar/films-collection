@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 443,
-      "characterName": "Napoleon Solo",
-      "characterImage": null
+      "characterName": "Napoleon Solo"
     },
     {
       "personId": 86,
-      "characterName": "Illya Kuryakin",
-      "characterImage": null
+      "characterName": "Illya Kuryakin"
     },
     {
       "personId": 41,
-      "characterName": "Gaby",
-      "characterImage": null
+      "characterName": "Gaby"
     },
     {
       "personId": 328,
-      "characterName": "Victoria",
-      "characterImage": null
+      "characterName": "Victoria"
     },
     {
       "personId": 741,
-      "characterName": "Alexander",
-      "characterImage": null
+      "characterName": "Alexander"
     },
     {
       "personId": 452,
-      "characterName": "Waverly",
-      "characterImage": null
+      "characterName": "Waverly"
     }
   ],
   "collections": [

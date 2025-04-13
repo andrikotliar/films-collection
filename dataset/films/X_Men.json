@@ -54,58 +54,47 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Logan / Wolverine",
-      "characterImage": null
+      "characterName": "Logan / Wolverine"
     },
     {
       "personId": 903,
-      "characterName": "Professor Charles Xavier",
-      "characterImage": null
+      "characterName": "Professor Charles Xavier"
     },
     {
       "personId": 460,
-      "characterName": "Eric Lensherr / Magneto",
-      "characterImage": null
+      "characterName": "Eric Lensherr / Magneto"
     },
     {
       "personId": 367,
-      "characterName": "Jean Grey",
-      "characterImage": null
+      "characterName": "Jean Grey"
     },
     {
       "personId": 510,
-      "characterName": "Scott Summers / Cyclops",
-      "characterImage": null
+      "characterName": "Scott Summers / Cyclops"
     },
     {
       "personId": 426,
-      "characterName": "Ororo Munroe / Storm",
-      "characterImage": null
+      "characterName": "Ororo Munroe / Storm"
     },
     {
       "personId": 66,
-      "characterName": "Rogue",
-      "characterImage": null
+      "characterName": "Rogue"
     },
     {
       "personId": 1155,
-      "characterName": "Sabretooth",
-      "characterImage": null
+      "characterName": "Sabretooth"
     },
     {
       "personId": 949,
-      "characterName": "Toad",
-      "characterImage": null
+      "characterName": "Toad"
     },
     {
       "personId": 956,
-      "characterName": "Mystique",
-      "characterImage": "characters/x_men_mystique.webp"
+      "characterName": "Mystique"
     },
     {
       "personId": 154,
-      "characterName": "Senator Kelly",
-      "characterImage": null
+      "characterName": "Senator Kelly"
     }
   ],
   "collections": [

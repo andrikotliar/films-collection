@@ -15,63 +15,51 @@
   "cast": [
     {
       "personId": 443,
-      "characterName": "Geralt of Rivia",
-      "characterImage": null
+      "characterName": "Geralt of Rivia"
     },
     {
       "personId": 389,
-      "characterName": "Ciri",
-      "characterImage": null
+      "characterName": "Ciri"
     },
     {
       "personId": 78,
-      "characterName": "Yennefer",
-      "characterImage": null
+      "characterName": "Yennefer"
     },
     {
       "personId": 858,
-      "characterName": "Tissaia",
-      "characterImage": null
+      "characterName": "Tissaia"
     },
     {
       "personId": 1186,
-      "characterName": "Dara",
-      "characterImage": null
+      "characterName": "Dara"
     },
     {
       "personId": 8,
-      "characterName": "Mousesack",
-      "characterImage": null
+      "characterName": "Mousesack"
     },
     {
       "personId": 699,
-      "characterName": "Stregobor",
-      "characterImage": null
+      "characterName": "Stregobor"
     },
     {
       "personId": 1010,
-      "characterName": "Istredd",
-      "characterImage": null
+      "characterName": "Istredd"
     },
     {
       "personId": 565,
-      "characterName": "Queen Calanthe",
-      "characterImage": null
+      "characterName": "Queen Calanthe"
     },
     {
       "personId": 1234,
-      "characterName": "Cahir",
-      "characterImage": null
+      "characterName": "Cahir"
     },
     {
       "personId": 1235,
-      "characterName": "Jaskier",
-      "characterImage": null
+      "characterName": "Jaskier"
     },
     {
       "personId": 1236,
-      "characterName": "Vilgefortz",
-      "characterImage": null
+      "characterName": "Vilgefortz"
     }
   ],
   "collections": [
@@ -234,18 +222,7 @@
   "seriesExtension": {
     "episodesTotal": 16,
     "seasonsTotal": 2,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 8,
-        "releaseDate": "2019-12-20T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 8,
-        "releaseDate": "2021-12-17T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2021-12-17T00:00:00.000Z"
   },
   "trailers": [
     {

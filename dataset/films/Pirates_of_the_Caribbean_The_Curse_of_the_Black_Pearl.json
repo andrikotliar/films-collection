@@ -42,33 +42,27 @@
   "cast": [
     {
       "personId": 598,
-      "characterName": "Captain Jack Sparrow",
-      "characterImage": "characters/pirates_of_the_caribbean_the_curse_of_the_black_pearl_captain_jack_sparrow.webp"
+      "characterName": "Captain Jack Sparrow"
     },
     {
       "personId": 401,
-      "characterName": "Barbossa",
-      "characterImage": null
+      "characterName": "Barbossa"
     },
     {
       "personId": 894,
-      "characterName": "Will Turner",
-      "characterImage": null
+      "characterName": "Will Turner"
     },
     {
       "personId": 659,
-      "characterName": "Elizabeth Swann",
-      "characterImage": null
+      "characterName": "Elizabeth Swann"
     },
     {
       "personId": 480,
-      "characterName": "Norrington",
-      "characterImage": null
+      "characterName": "Norrington"
     },
     {
       "personId": 609,
-      "characterName": "Governor Weatherby Swann",
-      "characterImage": null
+      "characterName": "Governor Weatherby Swann"
     }
   ],
   "collections": [

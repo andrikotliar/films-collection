@@ -36,18 +36,15 @@
   "cast": [
     {
       "personId": 87,
-      "characterName": "T-800",
-      "characterImage": null
+      "characterName": "T-800"
     },
     {
       "personId": 820,
-      "characterName": "Kyle Reese",
-      "characterImage": null
+      "characterName": "Kyle Reese"
     },
     {
       "personId": 728,
-      "characterName": "Sarah Connor",
-      "characterImage": "characters/the_terminator_sarah_connor.webp"
+      "characterName": "Sarah Connor"
     }
   ],
   "collections": [

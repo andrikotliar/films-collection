@@ -17,58 +17,47 @@
   "cast": [
     {
       "personId": 1065,
-      "characterName": "Sam Witwicky",
-      "characterImage": null
+      "characterName": "Sam Witwicky"
     },
     {
       "personId": 1009,
-      "characterName": "Carly",
-      "characterImage": null
+      "characterName": "Carly"
     },
     {
       "personId": 617,
-      "characterName": "Lennox",
-      "characterImage": null
+      "characterName": "Lennox"
     },
     {
       "personId": 597,
-      "characterName": "Simmons",
-      "characterImage": null
+      "characterName": "Simmons"
     },
     {
       "personId": 1156,
-      "characterName": "Epps",
-      "characterImage": null
+      "characterName": "Epps"
     },
     {
       "personId": 902,
-      "characterName": "Dylan",
-      "characterImage": null
+      "characterName": "Dylan"
     },
     {
       "personId": 379,
-      "characterName": "Mearing",
-      "characterImage": null
+      "characterName": "Mearing"
     },
     {
       "personId": 588,
-      "characterName": "Bruce Brazos",
-      "characterImage": null
+      "characterName": "Bruce Brazos"
     },
     {
       "personId": 918,
-      "characterName": "Optimus Prime",
-      "characterImage": "characters/transformers_dark_of_the_moon_optimus_prime.webp"
+      "characterName": "Optimus Prime"
     },
     {
       "personId": 454,
-      "characterName": "Megatron",
-      "characterImage": "characters/transformers_dark_of_the_moon_megatron.webp"
+      "characterName": "Megatron"
     },
     {
       "personId": 715,
-      "characterName": "Sentinel Prime",
-      "characterImage": "characters/transformers_dark_of_the_moon_sentinel_prime.webp"
+      "characterName": "Sentinel Prime"
     }
   ],
   "collections": [

@@ -28,103 +28,83 @@
   "cast": [
     {
       "personId": 519,
-      "characterName": "Korra",
-      "characterImage": "characters/the_legend_of_korra_korra.webp"
+      "characterName": "Korra"
     },
     {
       "personId": 898,
-      "characterName": "Bolin",
-      "characterImage": "characters/the_legend_of_korra_bolin.webp"
+      "characterName": "Bolin"
     },
     {
       "personId": 273,
-      "characterName": "Mako",
-      "characterImage": "characters/the_legend_of_korra_mako.webp"
+      "characterName": "Mako"
     },
     {
       "personId": 475,
-      "characterName": "Tenzin",
-      "characterImage": "characters/the_legend_of_korra_tenzin.webp"
+      "characterName": "Tenzin"
     },
     {
       "personId": 1056,
-      "characterName": "Asami Sato",
-      "characterImage": "characters/the_legend_of_korra_asami_sato.webp"
+      "characterName": "Asami Sato"
     },
     {
       "personId": 846,
-      "characterName": "Lin Beifong",
-      "characterImage": "characters/the_legend_of_korra_lin_beifong.webp"
+      "characterName": "Lin Beifong"
     },
     {
       "personId": 736,
-      "characterName": "Meelo",
-      "characterImage": "characters/the_legend_of_korra_meelo.webp"
+      "characterName": "Meelo"
     },
     {
       "personId": 682,
-      "characterName": "Jinora",
-      "characterImage": "characters/the_legend_of_korra_jinora.webp"
+      "characterName": "Jinora"
     },
     {
       "personId": 589,
-      "characterName": "Varrick",
-      "characterImage": "characters/the_legend_of_korra_varrick.webp"
+      "characterName": "Varrick"
     },
     {
       "personId": 261,
-      "characterName": "Ikki",
-      "characterImage": "characters/the_legend_of_korra_ikki.webp"
+      "characterName": "Ikki"
     },
     {
       "personId": 972,
-      "characterName": "Bumi",
-      "characterImage": "characters/the_legend_of_korra_bumi.webp"
+      "characterName": "Bumi"
     },
     {
       "personId": 515,
-      "characterName": "Tonraq",
-      "characterImage": "characters/the_legend_of_korra_tonraq.webp"
+      "characterName": "Tonraq"
     },
     {
       "personId": 13,
-      "characterName": "Unalaq",
-      "characterImage": "characters/the_legend_of_korra_unalaq.webp"
+      "characterName": "Unalaq"
     },
     {
       "personId": 447,
-      "characterName": "Zaheer",
-      "characterImage": "characters/the_legend_of_korra_zaheer.webp"
+      "characterName": "Zaheer"
     },
     {
       "personId": 1089,
-      "characterName": "Amon",
-      "characterImage": "characters/the_legend_of_korra_amon.webp"
+      "characterName": "Amon"
     },
     {
       "personId": 1200,
-      "characterName": "Kuvira",
-      "characterImage": "characters/the_legend_of_korra_kuvira.webp"
+      "characterName": "Kuvira"
     },
     {
       "personId": 606,
-      "characterName": "Vaatu",
-      "characterImage": "characters/the_legend_of_korra_vaatu.webp"
+      "characterName": "Vaatu"
     },
     {
       "personId": 81,
-      "characterName": "Raava",
-      "characterImage": "characters/the_legend_of_korra_raava.webp"
+      "characterName": "Raava"
     },
     {
       "personId": 236,
-      "characterName": "Aang",
-      "characterImage": "characters/the_legend_of_korra_aang.webp"
+      "characterName": "Aang"
     },
     {
       "personId": 358,
-      "characterName": "Katara",
-      "characterImage": "characters/the_legend_of_korra_katara.webp"
+      "characterName": "Katara"
     }
   ],
   "collections": [
@@ -236,28 +216,7 @@
   "seriesExtension": {
     "episodesTotal": 52,
     "seasonsTotal": 4,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 12,
-        "releaseDate": "2012-04-14T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 14,
-        "releaseDate": "2013-09-13T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 13,
-        "releaseDate": "2014-06-27T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 13,
-        "releaseDate": "2014-10-03T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2019-06-03T00:00:00.000Z"
   },
   "trailers": [
     {

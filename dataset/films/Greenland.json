@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 404,
-      "characterName": "John Garrity",
-      "characterImage": null
+      "characterName": "John Garrity"
     },
     {
       "personId": 853,
-      "characterName": "Allison Garrity",
-      "characterImage": null
+      "characterName": "Allison Garrity"
     },
     {
       "personId": 998,
-      "characterName": "Nathan Garrity",
-      "characterImage": null
+      "characterName": "Nathan Garrity"
     },
     {
       "personId": 1043,
-      "characterName": "Dale",
-      "characterImage": null
+      "characterName": "Dale"
     },
     {
       "personId": 272,
-      "characterName": "Ralph Vento",
-      "characterImage": null
+      "characterName": "Ralph Vento"
     },
     {
       "personId": 451,
-      "characterName": "Judy Vento",
-      "characterImage": null
+      "characterName": "Judy Vento"
     }
   ],
   "collections": [

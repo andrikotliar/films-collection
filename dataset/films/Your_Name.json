@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 1023,
-      "characterName": "Taki Tachibana",
-      "characterImage": "characters/your_name_taki_tachibana.webp"
+      "characterName": "Taki Tachibana"
     },
     {
       "personId": 849,
-      "characterName": "Mitsuha Miyamizu",
-      "characterImage": "characters/your_name_mitsuha_miyamizu.webp"
+      "characterName": "Mitsuha Miyamizu"
     },
     {
       "personId": 1022,
-      "characterName": "Katsuhiko Teshigawara",
-      "characterImage": "characters/your_name_katsuhiko_teshigawara.webp"
+      "characterName": "Katsuhiko Teshigawara"
     },
     {
       "personId": 80,
-      "characterName": "Sayaka Natori",
-      "characterImage": "characters/your_name_sayaka_natori.webp"
+      "characterName": "Sayaka Natori"
     },
     {
       "personId": 880,
-      "characterName": "Tsukasa Fujii",
-      "characterImage": "characters/your_name_tsukasa_fujii.webp"
+      "characterName": "Tsukasa Fujii"
     },
     {
       "personId": 636,
-      "characterName": "Shinta Takagi",
-      "characterImage": "characters/your_name_shinta_takagi.webp"
+      "characterName": "Shinta Takagi"
     },
     {
       "personId": 637,
-      "characterName": "Yotsuha Miyamizu",
-      "characterImage": "characters/your_name_yotsuha_miyamizu.webp"
+      "characterName": "Yotsuha Miyamizu"
     }
   ],
   "collections": [

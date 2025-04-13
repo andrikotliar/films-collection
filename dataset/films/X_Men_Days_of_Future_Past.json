@@ -24,68 +24,55 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Logan / Wolverine",
-      "characterImage": null
+      "characterName": "Logan / Wolverine"
     },
     {
       "personId": 511,
-      "characterName": "Charles Xavier",
-      "characterImage": null
+      "characterName": "Charles Xavier"
     },
     {
       "personId": 823,
-      "characterName": "Erik Lehnsherr",
-      "characterImage": null
+      "characterName": "Erik Lehnsherr"
     },
     {
       "personId": 547,
-      "characterName": "Raven / Mystique",
-      "characterImage": "characters/x_men_days_of_future_past_raven.webp"
+      "characterName": "Raven / Mystique"
     },
     {
       "personId": 426,
-      "characterName": "Storm",
-      "characterImage": null
+      "characterName": "Storm"
     },
     {
       "personId": 870,
-      "characterName": "Hank / Beast",
-      "characterImage": null
+      "characterName": "Hank / Beast"
     },
     {
       "personId": 66,
-      "characterName": "Rogue",
-      "characterImage": null
+      "characterName": "Rogue"
     },
     {
       "personId": 334,
-      "characterName": "Kitty Pryde",
-      "characterImage": null
+      "characterName": "Kitty Pryde"
     },
     {
       "personId": 920,
-      "characterName": "Dr. Bolivar Trask",
-      "characterImage": null
+      "characterName": "Dr. Bolivar Trask"
     },
     {
       "personId": 1063,
-      "characterName": "Bobby / Iceman",
-      "characterImage": null
+      "characterName": "Bobby / Iceman"
     },
     {
       "personId": 360,
-      "characterName": "Peter / Quicksilver",
-      "characterImage": null
+      "characterName": "Peter / Quicksilver"
     },
     {
       "personId": 460,
-      "characterName": "Magneto",
-      "characterImage": null
+      "characterName": "Magneto"
     },
     {
       "personId": 903,
-      "characterName": "Professor X",
-      "characterImage": null
+      "characterName": "Professor X"
     }
   ],
   "collections": [

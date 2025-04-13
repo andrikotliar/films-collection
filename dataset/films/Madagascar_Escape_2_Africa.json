@@ -17,58 +17,47 @@
   "cast": [
     {
       "personId": 113,
-      "characterName": "Alex",
-      "characterImage": "characters/madagascar_escape_2_africa_alex.webp"
+      "characterName": "Alex"
     },
     {
       "personId": 200,
-      "characterName": "Marty",
-      "characterImage": "characters/madagascar_escape_2_africa_marty.webp"
+      "characterName": "Marty"
     },
     {
       "personId": 277,
-      "characterName": "Melman",
-      "characterImage": "characters/madagascar_escape_2_africa_melman.webp"
+      "characterName": "Melman"
     },
     {
       "personId": 490,
-      "characterName": "Gloria",
-      "characterImage": "characters/madagascar_escape_2_africa_gloria.webp"
+      "characterName": "Gloria"
     },
     {
       "personId": 1025,
-      "characterName": "Julien",
-      "characterImage": "characters/madagascar_escape_2_africa_julien.webp"
+      "characterName": "Julien"
     },
     {
       "personId": 177,
-      "characterName": "Maurice",
-      "characterImage": "characters/madagascar_escape_2_africa_maurice.webp"
+      "characterName": "Maurice"
     },
     {
       "personId": 119,
-      "characterName": "Zuba",
-      "characterImage": "characters/madagascar_escape_2_africa_zuba.webp"
+      "characterName": "Zuba"
     },
     {
       "personId": 27,
-      "characterName": "Makunga",
-      "characterImage": "characters/madagascar_escape_2_africa_makunga.webp"
+      "characterName": "Makunga"
     },
     {
       "personId": 1232,
-      "characterName": "Nana",
-      "characterImage": "characters/madagascar_escape_2_africa_nana.webp"
+      "characterName": "Nana"
     },
     {
       "personId": 1136,
-      "characterName": "Skipper",
-      "characterImage": "characters/madagascar_escape_2_africa_skipper.webp"
+      "characterName": "Skipper"
     },
     {
       "personId": 1233,
-      "characterName": "Mason",
-      "characterImage": "characters/madagascar_escape_2_africa_mason.webp"
+      "characterName": "Mason"
     }
   ],
   "collections": [

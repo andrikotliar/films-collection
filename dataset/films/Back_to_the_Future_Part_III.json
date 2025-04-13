@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 824,
-      "characterName": "Marty McFly",
-      "characterImage": null
+      "characterName": "Marty McFly"
     },
     {
       "personId": 210,
-      "characterName": "Dr. Emmett Brown",
-      "characterImage": null
+      "characterName": "Dr. Emmett Brown"
     },
     {
       "personId": 799,
-      "characterName": "Clara Clayton",
-      "characterImage": null
+      "characterName": "Clara Clayton"
     },
     {
       "personId": 1114,
-      "characterName": "Biff Tannen / Griff Tannen",
-      "characterImage": null
+      "characterName": "Biff Tannen / Griff Tannen"
     }
   ],
   "collections": [

@@ -54,33 +54,27 @@
   "cast": [
     {
       "personId": 1122,
-      "characterName": "Spider-Man / Peter Parker",
-      "characterImage": "characters/spider_man_2_spider-man.webp"
+      "characterName": "Spider-Man / Peter Parker"
     },
     {
       "personId": 36,
-      "characterName": "Doc Ock / Dr. Otto Octavius",
-      "characterImage": "characters/spider_man_2_doc_ock.webp"
+      "characterName": "Doc Ock / Dr. Otto Octavius"
     },
     {
       "personId": 684,
-      "characterName": "Mary Jane Watson",
-      "characterImage": null
+      "characterName": "Mary Jane Watson"
     },
     {
       "personId": 506,
-      "characterName": "Harry Osborn",
-      "characterImage": null
+      "characterName": "Harry Osborn"
     },
     {
       "personId": 1007,
-      "characterName": "May Parker",
-      "characterImage": null
+      "characterName": "May Parker"
     },
     {
       "personId": 475,
-      "characterName": "J. Jonah Jameson",
-      "characterImage": null
+      "characterName": "J. Jonah Jameson"
     }
   ],
   "collections": [

@@ -36,68 +36,55 @@
   "cast": [
     {
       "personId": 803,
-      "characterName": "Mark Watney",
-      "characterImage": null
+      "characterName": "Mark Watney"
     },
     {
       "personId": 558,
-      "characterName": "Melissa Lewis",
-      "characterImage": null
+      "characterName": "Melissa Lewis"
     },
     {
       "personId": 687,
-      "characterName": "Annie Montrose",
-      "characterImage": null
+      "characterName": "Annie Montrose"
     },
     {
       "personId": 540,
-      "characterName": "Teddy Sanders",
-      "characterImage": null
+      "characterName": "Teddy Sanders"
     },
     {
       "personId": 828,
-      "characterName": "Rick Martinez",
-      "characterImage": null
+      "characterName": "Rick Martinez"
     },
     {
       "personId": 1045,
-      "characterName": "Mitch Henderson",
-      "characterImage": null
+      "characterName": "Mitch Henderson"
     },
     {
       "personId": 645,
-      "characterName": "Beth Johanssen",
-      "characterImage": null
+      "characterName": "Beth Johanssen"
     },
     {
       "personId": 1050,
-      "characterName": "Chris Beck",
-      "characterImage": null
+      "characterName": "Chris Beck"
     },
     {
       "personId": 20,
-      "characterName": "Alex Vogel",
-      "characterImage": null
+      "characterName": "Alex Vogel"
     },
     {
       "personId": 191,
-      "characterName": "Vincent Kapoor",
-      "characterImage": null
+      "characterName": "Vincent Kapoor"
     },
     {
       "personId": 116,
-      "characterName": "Bruce Ng",
-      "characterImage": null
+      "characterName": "Bruce Ng"
     },
     {
       "personId": 760,
-      "characterName": "Mindy Park",
-      "characterImage": null
+      "characterName": "Mindy Park"
     },
     {
       "personId": 308,
-      "characterName": "Rich Purnell",
-      "characterImage": null
+      "characterName": "Rich Purnell"
     }
   ],
   "collections": [

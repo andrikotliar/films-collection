@@ -30,33 +30,27 @@
   "cast": [
     {
       "personId": 323,
-      "characterName": "Mumble",
-      "characterImage": "characters/happy_feet_mumble.webp"
+      "characterName": "Mumble"
     },
     {
       "personId": 152,
-      "characterName": "Gloria",
-      "characterImage": "characters/happy_feet_gloria.webp"
+      "characterName": "Gloria"
     },
     {
       "personId": 453,
-      "characterName": "Memphis",
-      "characterImage": "characters/happy_feet_memphis.webp"
+      "characterName": "Memphis"
     },
     {
       "personId": 874,
-      "characterName": "Norma Jean",
-      "characterImage": "characters/happy_feet_norma_jean.webp"
+      "characterName": "Norma Jean"
     },
     {
       "personId": 454,
-      "characterName": "Noah the Elder",
-      "characterImage": "characters/happy_feet_noah_the_elder.webp"
+      "characterName": "Noah the Elder"
     },
     {
       "personId": 995,
-      "characterName": "Lovelace",
-      "characterImage": "characters/happy_feet_lovelace.webp"
+      "characterName": "Lovelace"
     }
   ],
   "collections": [

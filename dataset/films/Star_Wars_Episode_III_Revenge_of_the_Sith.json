@@ -30,28 +30,23 @@
   "cast": [
     {
       "personId": 363,
-      "characterName": "Obi-Wan Kenobi",
-      "characterImage": null
+      "characterName": "Obi-Wan Kenobi"
     },
     {
       "personId": 864,
-      "characterName": "Padme",
-      "characterImage": null
+      "characterName": "Padme"
     },
     {
       "personId": 436,
-      "characterName": "Anakin Skywalker",
-      "characterImage": null
+      "characterName": "Anakin Skywalker"
     },
     {
       "personId": 1036,
-      "characterName": "Mace Windu",
-      "characterImage": null
+      "characterName": "Mace Windu"
     },
     {
       "personId": 459,
-      "characterName": "Palpatine",
-      "characterImage": null
+      "characterName": "Palpatine"
     }
   ],
   "collections": [

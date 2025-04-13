@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 104,
-      "characterName": "Bruce Wayne / Batman",
-      "characterImage": "characters/batman_v_superman_dawn_of_justice_bruce_wayne.webp"
+      "characterName": "Bruce Wayne / Batman"
     },
     {
       "personId": 443,
-      "characterName": "Clark Kent / Superman",
-      "characterImage": "characters/batman_v_superman_dawn_of_justice_clark_kent.webp"
+      "characterName": "Clark Kent / Superman"
     },
     {
       "personId": 54,
-      "characterName": "Lois Lane",
-      "characterImage": null
+      "characterName": "Lois Lane"
     },
     {
       "personId": 555,
-      "characterName": "Lex Luthor",
-      "characterImage": null
+      "characterName": "Lex Luthor"
     },
     {
       "personId": 291,
-      "characterName": "Martha Kent",
-      "characterImage": null
+      "characterName": "Martha Kent"
     },
     {
       "personId": 707,
-      "characterName": "Perry White",
-      "characterImage": null
+      "characterName": "Perry White"
     },
     {
       "personId": 551,
-      "characterName": "Alfred Pennyworth",
-      "characterImage": null
+      "characterName": "Alfred Pennyworth"
     },
     {
       "personId": 450,
-      "characterName": "Senator Finch",
-      "characterImage": null
+      "characterName": "Senator Finch"
     },
     {
       "personId": 392,
-      "characterName": "Diana Prince / Wonder Woman",
-      "characterImage": null
+      "characterName": "Diana Prince / Wonder Woman"
     }
   ],
   "collections": [

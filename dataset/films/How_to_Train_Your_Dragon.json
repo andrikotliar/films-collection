@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 533,
-      "characterName": "Hiccup",
-      "characterImage": "characters/how_to_train_your_dragon_hiccup.webp"
+      "characterName": "Hiccup"
     },
     {
       "personId": 404,
-      "characterName": "Stoick ",
-      "characterImage": "characters/how_to_train_your_dragon_stoick.webp"
+      "characterName": "Stoick "
     },
     {
       "personId": 230,
-      "characterName": "Gobber ",
-      "characterImage": "characters/how_to_train_your_dragon_gobber.webp"
+      "characterName": "Gobber "
     },
     {
       "personId": 51,
-      "characterName": "Astrid ",
-      "characterImage": "characters/how_to_train_your_dragon_astrid.webp"
+      "characterName": "Astrid "
     },
     {
       "personId": 212,
-      "characterName": "Fishlegs ",
-      "characterImage": "characters/how_to_train_your_dragon_fishlegs.webp"
+      "characterName": "Fishlegs "
     }
   ],
   "collections": [

@@ -36,38 +36,31 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/iron_man_3_ironman.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 423,
-      "characterName": "Pepper Potts",
-      "characterImage": null
+      "characterName": "Pepper Potts"
     },
     {
       "personId": 304,
-      "characterName": "Colonel James Rhodes",
-      "characterImage": "characters/iron_man_3_warmachine.webp"
+      "characterName": "Colonel James Rhodes"
     },
     {
       "personId": 421,
-      "characterName": "Aldrich Killian",
-      "characterImage": null
+      "characterName": "Aldrich Killian"
     },
     {
       "personId": 955,
-      "characterName": "Maya Hansen",
-      "characterImage": null
+      "characterName": "Maya Hansen"
     },
     {
       "personId": 601,
-      "characterName": "Happy Hogan",
-      "characterImage": null
+      "characterName": "Happy Hogan"
     },
     {
       "personId": 109,
-      "characterName": "Trevor Slattery",
-      "characterImage": null
+      "characterName": "Trevor Slattery"
     }
   ],
   "collections": [

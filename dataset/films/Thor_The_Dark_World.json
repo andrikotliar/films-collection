@@ -17,63 +17,51 @@
   "cast": [
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": null
+      "characterName": "Thor"
     },
     {
       "personId": 864,
-      "characterName": "Jane Foster",
-      "characterImage": null
+      "characterName": "Jane Foster"
     },
     {
       "personId": 1132,
-      "characterName": "Loki",
-      "characterImage": null
+      "characterName": "Loki"
     },
     {
       "personId": 73,
-      "characterName": "Odin",
-      "characterImage": null
+      "characterName": "Odin"
     },
     {
       "personId": 207,
-      "characterName": "Malekith",
-      "characterImage": null
+      "characterName": "Malekith"
     },
     {
       "personId": 495,
-      "characterName": "Sif",
-      "characterImage": null
+      "characterName": "Sif"
     },
     {
       "personId": 1197,
-      "characterName": "Fandral",
-      "characterImage": null
+      "characterName": "Fandral"
     },
     {
       "personId": 952,
-      "characterName": "Volstagg",
-      "characterImage": null
+      "characterName": "Volstagg"
     },
     {
       "personId": 1100,
-      "characterName": "Hogun",
-      "characterImage": null
+      "characterName": "Hogun"
     },
     {
       "personId": 463,
-      "characterName": "Heimdall",
-      "characterImage": null
+      "characterName": "Heimdall"
     },
     {
       "personId": 960,
-      "characterName": "Frigga",
-      "characterImage": null
+      "characterName": "Frigga"
     },
     {
       "personId": 643,
-      "characterName": "Darcy Lewis",
-      "characterImage": null
+      "characterName": "Darcy Lewis"
     }
   ],
   "collections": [

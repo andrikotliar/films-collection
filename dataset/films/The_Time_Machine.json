@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 421,
-      "characterName": "Alexander Hartdegen",
-      "characterImage": null
+      "characterName": "Alexander Hartdegen"
     },
     {
       "personId": 781,
-      "characterName": "David Philby",
-      "characterImage": null
+      "characterName": "David Philby"
     },
     {
       "personId": 1067,
-      "characterName": "Emma",
-      "characterImage": null
+      "characterName": "Emma"
     },
     {
       "personId": 1225,
-      "characterName": "Mara",
-      "characterImage": null
+      "characterName": "Mara"
     },
     {
       "personId": 895,
-      "characterName": "Vox",
-      "characterImage": null
+      "characterName": "Vox"
     }
   ],
   "collections": [

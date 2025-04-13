@@ -84,88 +84,71 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/avengers_endgame_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 194,
-      "characterName": "Steve Rogers / Captain America",
-      "characterImage": "characters/avengers_endgame_steve_rogers.webp"
+      "characterName": "Steve Rogers / Captain America"
     },
     {
       "personId": 151,
-      "characterName": "Carol Danvers / Captain Marvel",
-      "characterImage": null
+      "characterName": "Carol Danvers / Captain Marvel"
     },
     {
       "personId": 141,
-      "characterName": "Rocket",
-      "characterImage": "characters/avengers_endgame_rocket.webp"
+      "characterName": "Rocket"
     },
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow",
-      "characterImage": null
+      "characterName": "Natasha Romanoff / Black Widow"
     },
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": null
+      "characterName": "Thor"
     },
     {
       "personId": 640,
-      "characterName": "Nebula",
-      "characterImage": "characters/avengers_endgame_nebula.webp"
+      "characterName": "Nebula"
     },
     {
       "personId": 361,
-      "characterName": "Hope van Dyne / The Wasp",
-      "characterImage": null
+      "characterName": "Hope van Dyne / The Wasp"
     },
     {
       "personId": 616,
-      "characterName": "Thanos",
-      "characterImage": "characters/avengers_endgame_thanos.webp"
+      "characterName": "Thanos"
     },
     {
       "personId": 329,
-      "characterName": "Wanda Maximoff",
-      "characterImage": null
+      "characterName": "Wanda Maximoff"
     },
     {
       "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man",
-      "characterImage": null
+      "characterName": "Peter Parker / Spider-Man"
     },
     {
       "personId": 910,
-      "characterName": "Scott Lang / Ant-Man",
-      "characterImage": "characters/avengers_endgame_scott_lang.webp"
+      "characterName": "Scott Lang / Ant-Man"
     },
     {
       "personId": 1050,
-      "characterName": "Bucky Barnes",
-      "characterImage": null
+      "characterName": "Bucky Barnes"
     },
     {
       "personId": 552,
-      "characterName": "Clint Barton / Hawkeye",
-      "characterImage": null
+      "characterName": "Clint Barton / Hawkeye"
     },
     {
       "personId": 179,
-      "characterName": "T'Challa / Black Panther",
-      "characterImage": null
+      "characterName": "T'Challa / Black Panther"
     },
     {
       "personId": 786,
-      "characterName": "Bruce Banner / The Professor Hulk",
-      "characterImage": "characters/avengers_endgame_bruce_banner.webp"
+      "characterName": "Bruce Banner / The Professor Hulk"
     },
     {
       "personId": 304,
-      "characterName": "James Rhodes / The War Machine",
-      "characterImage": "characters/avengers_endgame_james_rhodes.webp"
+      "characterName": "James Rhodes / The War Machine"
     }
   ],
   "collections": [

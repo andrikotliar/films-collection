@@ -24,113 +24,91 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/the_avengers_infinity_war_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": "characters/the_avengers_infinity_war_thor.webp"
+      "characterName": "Thor"
     },
     {
       "personId": 786,
-      "characterName": "Bruce Banner / Hulk",
-      "characterImage": "characters/the_avengers_infinity_war_bruce_banner.webp"
+      "characterName": "Bruce Banner / Hulk"
     },
     {
       "personId": 194,
-      "characterName": "Steve Rogers / Captain America",
-      "characterImage": "characters/the_avengers_infinity_war_steve_rogers.webp"
+      "characterName": "Steve Rogers / Captain America"
     },
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow",
-      "characterImage": "characters/the_avengers_infinity_war_natasha_romanoff.webp"
+      "characterName": "Natasha Romanoff / Black Widow"
     },
     {
       "personId": 304,
-      "characterName": "James Rhodes / War Machine",
-      "characterImage": null
+      "characterName": "James Rhodes / War Machine"
     },
     {
       "personId": 114,
-      "characterName": "Doctor Strange",
-      "characterImage": "characters/the_avengers_infinity_war_doctor_strange.webp"
+      "characterName": "Doctor Strange"
     },
     {
       "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man",
-      "characterImage": "characters/the_avengers_infinity_war_peter_parker.webp"
+      "characterName": "Peter Parker / Spider-Man"
     },
     {
       "personId": 179,
-      "characterName": "T'Challa / Black Panther",
-      "characterImage": null
+      "characterName": "T'Challa / Black Panther"
     },
     {
       "personId": 1205,
-      "characterName": "Gamora",
-      "characterImage": "characters/the_avengers_infinity_war_gamora.webp"
+      "characterName": "Gamora"
     },
     {
       "personId": 199,
-      "characterName": "Peter Quill / Star-Lord",
-      "characterImage": null
+      "characterName": "Peter Quill / Star-Lord"
     },
     {
       "personId": 640,
-      "characterName": "Nebula",
-      "characterImage": "characters/the_avengers_infinity_war_nebula.webp"
+      "characterName": "Nebula"
     },
     {
       "personId": 1132,
-      "characterName": "Loki",
-      "characterImage": null
+      "characterName": "Loki"
     },
     {
       "personId": 905,
-      "characterName": "Vision",
-      "characterImage": "characters/the_avengers_infinity_war_vision.webp"
+      "characterName": "Vision"
     },
     {
       "personId": 329,
-      "characterName": "Wanda Maximoff / Scarlett Witch",
-      "characterImage": null
+      "characterName": "Wanda Maximoff / Scarlett Witch"
     },
     {
       "personId": 74,
-      "characterName": "Sam Wilson / The Falcon",
-      "characterImage": null
+      "characterName": "Sam Wilson / The Falcon"
     },
     {
       "personId": 1050,
-      "characterName": "Bucky Barnes / White Wolf",
-      "characterImage": null
+      "characterName": "Bucky Barnes / White Wolf"
     },
     {
       "personId": 934,
-      "characterName": "Mantis",
-      "characterImage": "characters/the_avengers_infinity_war_mantis.webp"
+      "characterName": "Mantis"
     },
     {
       "personId": 263,
-      "characterName": "Drax",
-      "characterImage": "characters/the_avengers_infinity_war_drax.webp"
+      "characterName": "Drax"
     },
     {
       "personId": 1164,
-      "characterName": "Groot",
-      "characterImage": "characters/the_avengers_infinity_war_groot.webp"
+      "characterName": "Groot"
     },
     {
       "personId": 141,
-      "characterName": "Rocket",
-      "characterImage": "characters/the_avengers_infinity_war_rocket.webp"
+      "characterName": "Rocket"
     },
     {
       "personId": 616,
-      "characterName": "Thanos",
-      "characterImage": "characters/the_avengers_infinity_war_thanos.webp"
+      "characterName": "Thanos"
     }
   ],
   "collections": [

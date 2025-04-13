@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 57,
-      "characterName": "Spider-Man / Peter Parker",
-      "characterImage": "characters/the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
+      "characterName": "Spider-Man / Peter Parker"
     },
     {
       "personId": 344,
-      "characterName": "Gwen Stacy",
-      "characterImage": null
+      "characterName": "Gwen Stacy"
     },
     {
       "personId": 517,
-      "characterName": "Electro / Max Dillon",
-      "characterImage": "characters/the_amazing_spider_man_2_rise_of_electro_electro.webp"
+      "characterName": "Electro / Max Dillon"
     },
     {
       "personId": 243,
-      "characterName": "Green Goblin / Harry Osborn",
-      "characterImage": null
+      "characterName": "Green Goblin / Harry Osborn"
     }
   ],
   "collections": [

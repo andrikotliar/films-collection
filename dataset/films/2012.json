@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 580,
-      "characterName": "Jackson Curtis",
-      "characterImage": null
+      "characterName": "Jackson Curtis"
     },
     {
       "personId": 48,
-      "characterName": "Kate Curtis",
-      "characterImage": null
+      "characterName": "Kate Curtis"
     },
     {
       "personId": 191,
-      "characterName": "Adrian Helmsley",
-      "characterImage": null
+      "characterName": "Adrian Helmsley"
     },
     {
       "personId": 1206,
-      "characterName": "Laura Wilson",
-      "characterImage": null
+      "characterName": "Laura Wilson"
     },
     {
       "personId": 886,
-      "characterName": "Carl Anheuser",
-      "characterImage": null
+      "characterName": "Carl Anheuser"
     },
     {
       "personId": 1190,
-      "characterName": "Charlie Frost",
-      "characterImage": null
+      "characterName": "Charlie Frost"
     },
     {
       "personId": 255,
-      "characterName": "President Thomas Wilson",
-      "characterImage": null
+      "characterName": "President Thomas Wilson"
     }
   ],
   "collections": [

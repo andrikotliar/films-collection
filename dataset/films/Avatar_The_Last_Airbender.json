@@ -58,78 +58,63 @@
   "cast": [
     {
       "personId": 1196,
-      "characterName": "Aang",
-      "characterImage": "characters/avatar_the_last_airbender_aang.webp"
+      "characterName": "Aang"
     },
     {
       "personId": 763,
-      "characterName": "Katara",
-      "characterImage": "characters/avatar_the_last_airbender_katara.webp"
+      "characterName": "Katara"
     },
     {
       "personId": 481,
-      "characterName": "Sokka",
-      "characterImage": "characters/avatar_the_last_airbender_sokka.webp"
+      "characterName": "Sokka"
     },
     {
       "personId": 258,
-      "characterName": "Zuko",
-      "characterImage": "characters/avatar_the_last_airbender_zuko.webp"
+      "characterName": "Zuko"
     },
     {
       "personId": 833,
-      "characterName": "Toph",
-      "characterImage": "characters/avatar_the_last_airbender_toph.webp"
+      "characterName": "Toph"
     },
     {
       "personId": 770,
-      "characterName": "Airo",
-      "characterImage": "characters/avatar_the_last_airbender_airo.webp"
+      "characterName": "Airo"
     },
     {
       "personId": 418,
-      "characterName": "Azula",
-      "characterImage": "characters/avatar_the_last_airbender_azula.webp"
+      "characterName": "Azula"
     },
     {
       "personId": 59,
-      "characterName": "Hakoda",
-      "characterImage": "characters/avatar_the_last_airbender_hakoda.webp"
+      "characterName": "Hakoda"
     },
     {
       "personId": 231,
-      "characterName": "Mai",
-      "characterImage": "characters/avatar_the_last_airbender_mai.webp"
+      "characterName": "Mai"
     },
     {
       "personId": 889,
-      "characterName": "Ty Lee",
-      "characterImage": "characters/avatar_the_last_airbender_ty_lee.webp"
+      "characterName": "Ty Lee"
     },
     {
       "personId": 507,
-      "characterName": "Roku",
-      "characterImage": "characters/avatar_the_last_airbender_roku.webp"
+      "characterName": "Roku"
     },
     {
       "personId": 527,
-      "characterName": "Zhao",
-      "characterImage": "characters/avatar_the_last_airbender_zhao.webp"
+      "characterName": "Zhao"
     },
     {
       "personId": 215,
-      "characterName": "Long Feng",
-      "characterImage": "characters/avatar_the_last_airbender_long_feng.webp"
+      "characterName": "Long Feng"
     },
     {
       "personId": 573,
-      "characterName": "Princess Yue",
-      "characterImage": "characters/avatar_the_last_airbender_princess_yue.webp"
+      "characterName": "Princess Yue"
     },
     {
       "personId": 545,
-      "characterName": "Suki",
-      "characterImage": "characters/avatar_the_last_airbender_suki.webp"
+      "characterName": "Suki"
     }
   ],
   "collections": [
@@ -321,23 +306,7 @@
   "seriesExtension": {
     "episodesTotal": 61,
     "seasonsTotal": 3,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 20,
-        "releaseDate": "2005-02-21T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 20,
-        "releaseDate": "2006-03-17T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 21,
-        "releaseDate": "2007-09-21T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2008-07-19T00:00:00.000Z"
   },
   "trailers": [
     {

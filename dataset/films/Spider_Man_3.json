@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 1122,
-      "characterName": "Spider-Man / Peter Parker",
-      "characterImage": "characters/spider_man_3_spider-man.webp"
+      "characterName": "Spider-Man / Peter Parker"
     },
     {
       "personId": 684,
-      "characterName": "Mary Jane Watson",
-      "characterImage": null
+      "characterName": "Mary Jane Watson"
     },
     {
       "personId": 506,
-      "characterName": "New Goblin / Harry Osborn",
-      "characterImage": null
+      "characterName": "New Goblin / Harry Osborn"
     },
     {
       "personId": 1115,
-      "characterName": "Sandman / Flint Marko",
-      "characterImage": null
+      "characterName": "Sandman / Flint Marko"
     },
     {
       "personId": 1148,
-      "characterName": "Venom / Eddie Brock",
-      "characterImage": "characters/spider_man_3_venom.webp"
+      "characterName": "Venom / Eddie Brock"
     },
     {
       "personId": 157,
-      "characterName": "Gwen Stacy",
-      "characterImage": null
+      "characterName": "Gwen Stacy"
     },
     {
       "personId": 1007,
-      "characterName": "May Parker",
-      "characterImage": null
+      "characterName": "May Parker"
     },
     {
       "personId": 475,
-      "characterName": "J. Jonah Jameson",
-      "characterImage": null
+      "characterName": "J. Jonah Jameson"
     },
     {
       "personId": 503,
-      "characterName": "Captain Stacy",
-      "characterImage": null
+      "characterName": "Captain Stacy"
     },
     {
       "personId": 315,
-      "characterName": "Dr. Curt Connors",
-      "characterImage": null
+      "characterName": "Dr. Curt Connors"
     }
   ],
   "collections": [

@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 498,
-      "characterName": "Colter Stevens",
-      "characterImage": null
+      "characterName": "Colter Stevens"
     },
     {
       "personId": 836,
-      "characterName": "Christina Warren",
-      "characterImage": null
+      "characterName": "Christina Warren"
     },
     {
       "personId": 1161,
-      "characterName": "Colleen Goodwin",
-      "characterImage": null
+      "characterName": "Colleen Goodwin"
     },
     {
       "personId": 544,
-      "characterName": "Dr. Rutledge",
-      "characterImage": null
+      "characterName": "Dr. Rutledge"
     },
     {
       "personId": 817,
-      "characterName": "Derek Frost",
-      "characterImage": null
+      "characterName": "Derek Frost"
     }
   ],
   "collections": [

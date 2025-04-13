@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 547,
-      "characterName": "Aurora Lane",
-      "characterImage": null
+      "characterName": "Aurora Lane"
     },
     {
       "personId": 199,
-      "characterName": "Jim Preston",
-      "characterImage": null
+      "characterName": "Jim Preston"
     },
     {
       "personId": 832,
-      "characterName": "Arthur",
-      "characterImage": null
+      "characterName": "Arthur"
     },
     {
       "personId": 707,
-      "characterName": "Gus Mancuso",
-      "characterImage": null
+      "characterName": "Gus Mancuso"
     },
     {
       "personId": 60,
-      "characterName": "Captain Norris",
-      "characterImage": null
+      "characterName": "Captain Norris"
     }
   ],
   "collections": [

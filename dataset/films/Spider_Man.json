@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 1122,
-      "characterName": "Spider-Man / Peter Parker",
-      "characterImage": "characters/spider_man_spider-man.webp"
+      "characterName": "Spider-Man / Peter Parker"
     },
     {
       "personId": 1180,
-      "characterName": "Green Goblin / Norman Osborn",
-      "characterImage": "characters/spider_man_green_goblin.webp"
+      "characterName": "Green Goblin / Norman Osborn"
     },
     {
       "personId": 684,
-      "characterName": "Mary Jane Watson",
-      "characterImage": null
+      "characterName": "Mary Jane Watson"
     },
     {
       "personId": 506,
-      "characterName": "Harry Osborn",
-      "characterImage": null
+      "characterName": "Harry Osborn"
     },
     {
       "personId": 218,
-      "characterName": "Ben Parker",
-      "characterImage": null
+      "characterName": "Ben Parker"
     },
     {
       "personId": 1007,
-      "characterName": "May Parker",
-      "characterImage": null
+      "characterName": "May Parker"
     },
     {
       "personId": 475,
-      "characterName": "J. Jonah Jameson",
-      "characterImage": null
+      "characterName": "J. Jonah Jameson"
     }
   ],
   "collections": [

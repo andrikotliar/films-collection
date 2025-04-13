@@ -30,63 +30,51 @@
   "cast": [
     {
       "personId": 1164,
-      "characterName": "Dominic Toretto",
-      "characterImage": null
+      "characterName": "Dominic Toretto"
     },
     {
       "personId": 911,
-      "characterName": "Brian O'Conner",
-      "characterImage": null
+      "characterName": "Brian O'Conner"
     },
     {
       "personId": 531,
-      "characterName": "Deckard Shaw",
-      "characterImage": null
+      "characterName": "Deckard Shaw"
     },
     {
       "personId": 838,
-      "characterName": "Letty",
-      "characterImage": null
+      "characterName": "Letty"
     },
     {
       "personId": 613,
-      "characterName": "Mia",
-      "characterImage": null
+      "characterName": "Mia"
     },
     {
       "personId": 1156,
-      "characterName": "Roman",
-      "characterImage": null
+      "characterName": "Roman"
     },
     {
       "personId": 746,
-      "characterName": "Tej ",
-      "characterImage": null
+      "characterName": "Tej "
     },
     {
       "personId": 314,
-      "characterName": "Hobbs",
-      "characterImage": null
+      "characterName": "Hobbs"
     },
     {
       "personId": 742,
-      "characterName": "Sean Boswell",
-      "characterImage": null
+      "characterName": "Sean Boswell"
     },
     {
       "personId": 692,
-      "characterName": "Mr. Nobody",
-      "characterImage": null
+      "characterName": "Mr. Nobody"
     },
     {
       "personId": 867,
-      "characterName": "Ramsey",
-      "characterImage": null
+      "characterName": "Ramsey"
     },
     {
       "personId": 337,
-      "characterName": "Elena",
-      "characterImage": null
+      "characterName": "Elena"
     }
   ],
   "collections": [

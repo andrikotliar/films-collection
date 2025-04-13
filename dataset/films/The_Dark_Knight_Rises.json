@@ -24,68 +24,55 @@
   "cast": [
     {
       "personId": 203,
-      "characterName": "Bruce Wayne",
-      "characterImage": "characters/the_dark_knight_rises_bruce_wayne.webp"
+      "characterName": "Bruce Wayne"
     },
     {
       "personId": 395,
-      "characterName": "Commissioner Gordon",
-      "characterImage": null
+      "characterName": "Commissioner Gordon"
     },
     {
       "personId": 1131,
-      "characterName": "Bane",
-      "characterImage": null
+      "characterName": "Bane"
     },
     {
       "personId": 614,
-      "characterName": "Blake",
-      "characterImage": null
+      "characterName": "Blake"
     },
     {
       "personId": 64,
-      "characterName": "Selina",
-      "characterImage": null
+      "characterName": "Selina"
     },
     {
       "personId": 779,
-      "characterName": "Miranda",
-      "characterImage": null
+      "characterName": "Miranda"
     },
     {
       "personId": 854,
-      "characterName": "Fox",
-      "characterImage": null
+      "characterName": "Fox"
     },
     {
       "personId": 821,
-      "characterName": "Alfred",
-      "characterImage": null
+      "characterName": "Alfred"
     },
     {
       "personId": 806,
-      "characterName": "Foley",
-      "characterImage": null
+      "characterName": "Foley"
     },
     {
       "personId": 44,
-      "characterName": "Dr. Pavel",
-      "characterImage": null
+      "characterName": "Dr. Pavel"
     },
     {
       "personId": 110,
-      "characterName": "Daggett",
-      "characterImage": null
+      "characterName": "Daggett"
     },
     {
       "personId": 158,
-      "characterName": "Stryver",
-      "characterImage": null
+      "characterName": "Stryver"
     },
     {
       "personId": 252,
-      "characterName": "Captain Jones",
-      "characterImage": null
+      "characterName": "Captain Jones"
     }
   ],
   "collections": [

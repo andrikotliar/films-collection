@@ -24,33 +24,27 @@
   "cast": [
     {
       "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
-      "characterImage": null
+      "characterName": "Dr. Henry «Indiana» Jones, Jr."
     },
     {
       "personId": 175,
-      "characterName": "Irina Spalko",
-      "characterImage": null
+      "characterName": "Irina Spalko"
     },
     {
       "personId": 638,
-      "characterName": "Marion Ravenwood",
-      "characterImage": null
+      "characterName": "Marion Ravenwood"
     },
     {
       "personId": 1065,
-      "characterName": "Mutt Williams",
-      "characterImage": null
+      "characterName": "Mutt Williams"
     },
     {
       "personId": 953,
-      "characterName": "'Mac' George Michale",
-      "characterImage": null
+      "characterName": "'Mac' George Michale"
     },
     {
       "personId": 584,
-      "characterName": "Professor Oxley",
-      "characterImage": null
+      "characterName": "Professor Oxley"
     }
   ],
   "collections": [

@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Jack",
-      "characterImage": null
+      "characterName": "Jack"
     },
     {
       "personId": 854,
-      "characterName": "Beech",
-      "characterImage": null
+      "characterName": "Beech"
     },
     {
       "personId": 884,
-      "characterName": "Julia",
-      "characterImage": null
+      "characterName": "Julia"
     },
     {
       "personId": 55,
-      "characterName": "Victoria",
-      "characterImage": null
+      "characterName": "Victoria"
     },
     {
       "personId": 875,
-      "characterName": "Sykes",
-      "characterImage": null
+      "characterName": "Sykes"
     },
     {
       "personId": 814,
-      "characterName": "Sally",
-      "characterImage": null
+      "characterName": "Sally"
     },
     {
       "personId": 1203,
-      "characterName": "Kara",
-      "characterImage": null
+      "characterName": "Kara"
     }
   ],
   "collections": [

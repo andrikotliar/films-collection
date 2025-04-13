@@ -30,28 +30,23 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "Robert Neville",
-      "characterImage": null
+      "characterName": "Robert Neville"
     },
     {
       "personId": 38,
-      "characterName": "Anna",
-      "characterImage": null
+      "characterName": "Anna"
     },
     {
       "personId": 185,
-      "characterName": "Ethan",
-      "characterImage": null
+      "characterName": "Ethan"
     },
     {
       "personId": 1027,
-      "characterName": "Zoe Neville",
-      "characterImage": null
+      "characterName": "Zoe Neville"
     },
     {
       "personId": 1185,
-      "characterName": "Marley Neville",
-      "characterImage": null
+      "characterName": "Marley Neville"
     }
   ],
   "collections": [

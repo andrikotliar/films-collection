@@ -36,63 +36,51 @@
   "cast": [
     {
       "personId": 1057,
-      "characterName": "Miles Morales",
-      "characterImage": "characters/spider_man_into_the_spider_verse_miles_morales.webp"
+      "characterName": "Miles Morales"
     },
     {
       "personId": 499,
-      "characterName": "Peter B. Parker",
-      "characterImage": "characters/spider_man_into_the_spider_verse_peter_b_parker.webp"
+      "characterName": "Peter B. Parker"
     },
     {
       "personId": 424,
-      "characterName": "Gwen Stacy",
-      "characterImage": "characters/spider_man_into_the_spider_verse_gwen_stacy.webp"
+      "characterName": "Gwen Stacy"
     },
     {
       "personId": 767,
-      "characterName": "Uncle Aaron",
-      "characterImage": "characters/spider_man_into_the_spider_verse_uncle_aaron.webp"
+      "characterName": "Uncle Aaron"
     },
     {
       "personId": 149,
-      "characterName": "Jefferson Davis",
-      "characterImage": "characters/spider_man_into_the_spider_verse_jefferson_davis.webp"
+      "characterName": "Jefferson Davis"
     },
     {
       "personId": 752,
-      "characterName": "Rio Morales",
-      "characterImage": "characters/spider_man_into_the_spider_verse_rio_morales.webp"
+      "characterName": "Rio Morales"
     },
     {
       "personId": 1204,
-      "characterName": "Mary Jane",
-      "characterImage": "characters/spider_man_into_the_spider_verse_mary_jane.webp"
+      "characterName": "Mary Jane"
     },
     {
       "personId": 590,
-      "characterName": "Spider-Ham",
-      "characterImage": "characters/spider_man_into_the_spider_verse_spider-ham.webp"
+      "characterName": "Spider-Ham"
     },
     {
       "personId": 683,
-      "characterName": "Peni Parker",
-      "characterImage": "characters/spider_man_into_the_spider_verse_peni_parker.webp"
+      "characterName": "Peni Parker"
     },
     {
       "personId": 873,
-      "characterName": "Spider-Man Noir",
-      "characterImage": "characters/spider_man_into_the_spider_verse_spider-man_noir.webp"
+      "characterName": "Spider-Man Noir"
     },
     {
       "personId": 725,
-      "characterName": "Wilson Fisk",
-      "characterImage": "characters/spider_man_into_the_spider_verse_wilson_fisk.webp"
+      "characterName": "Wilson Fisk"
     },
     {
       "personId": 650,
-      "characterName": "Doc Ock",
-      "characterImage": "characters/spider_man_into_the_spider_verse_doc_ock.webp"
+      "characterName": "Doc Ock"
     }
   ],
   "collections": [

@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 555,
-      "characterName": "J. Daniel Atlas",
-      "characterImage": null
+      "characterName": "J. Daniel Atlas"
     },
     {
       "personId": 786,
-      "characterName": "Dylan Rhodes",
-      "characterImage": null
+      "characterName": "Dylan Rhodes"
     },
     {
       "personId": 1190,
-      "characterName": "Merritt McKinney",
-      "characterImage": null
+      "characterName": "Merritt McKinney"
     },
     {
       "personId": 470,
-      "characterName": "Henley Reeves",
-      "characterImage": null
+      "characterName": "Henley Reeves"
     },
     {
       "personId": 264,
-      "characterName": "Jack Wilder",
-      "characterImage": null
+      "characterName": "Jack Wilder"
     },
     {
       "personId": 860,
-      "characterName": "Alma Dray",
-      "characterImage": null
+      "characterName": "Alma Dray"
     },
     {
       "personId": 854,
-      "characterName": "Thaddeus Bradley",
-      "characterImage": null
+      "characterName": "Thaddeus Bradley"
     },
     {
       "personId": 821,
-      "characterName": "Arthur Tressler",
-      "characterImage": null
+      "characterName": "Arthur Tressler"
     }
   ],
   "collections": [

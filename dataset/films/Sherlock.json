@@ -70,48 +70,39 @@
   "cast": [
     {
       "personId": 114,
-      "characterName": "Sherlock Holmes",
-      "characterImage": null
+      "characterName": "Sherlock Holmes"
     },
     {
       "personId": 792,
-      "characterName": "Dr. John Watson",
-      "characterImage": null
+      "characterName": "Dr. John Watson"
     },
     {
       "personId": 1158,
-      "characterName": "Mrs. Hudson",
-      "characterImage": null
+      "characterName": "Mrs. Hudson"
     },
     {
       "personId": 1013,
-      "characterName": "DI Lestrade",
-      "characterImage": null
+      "characterName": "DI Lestrade"
     },
     {
       "personId": 740,
-      "characterName": "Molly Hooper",
-      "characterImage": null
+      "characterName": "Molly Hooper"
     },
     {
       "personId": 783,
-      "characterName": "Mycroft Holmes",
-      "characterImage": null
+      "characterName": "Mycroft Holmes"
     },
     {
       "personId": 58,
-      "characterName": "Jim Moriarty",
-      "characterImage": null
+      "characterName": "Jim Moriarty"
     },
     {
       "personId": 1230,
-      "characterName": "Lara Pulwer",
-      "characterImage": null
+      "characterName": "Lara Pulwer"
     },
     {
       "personId": 47,
-      "characterName": "Mary Watson",
-      "characterImage": null
+      "characterName": "Mary Watson"
     }
   ],
   "collections": [
@@ -251,28 +242,7 @@
   "seriesExtension": {
     "episodesTotal": 12,
     "seasonsTotal": 4,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 3,
-        "releaseDate": "2010-07-25T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 3,
-        "releaseDate": "2012-01-01T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 3,
-        "releaseDate": "2014-01-01T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 3,
-        "releaseDate": "2017-01-01T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2017-01-15T00:00:00.000Z"
   },
   "trailers": [
     {

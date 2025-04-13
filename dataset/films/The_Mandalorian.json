@@ -58,53 +58,43 @@
   "cast": [
     {
       "personId": 913,
-      "characterName": "The Mandalorian",
-      "characterImage": "characters/the_mandalorian_the_mandalorian.webp"
+      "characterName": "The Mandalorian"
     },
     {
       "personId": 407,
-      "characterName": "Cara Dune",
-      "characterImage": null
+      "characterName": "Cara Dune"
     },
     {
       "personId": 405,
-      "characterName": "Moff Gideon",
-      "characterImage": null
+      "characterName": "Moff Gideon"
     },
     {
       "personId": 168,
-      "characterName": "Greef Karga",
-      "characterImage": null
+      "characterName": "Greef Karga"
     },
     {
       "personId": 1107,
-      "characterName": "Boba Fett",
-      "characterImage": null
+      "characterName": "Boba Fett"
     },
     {
       "personId": 847,
-      "characterName": "Fennec Shand",
-      "characterImage": null
+      "characterName": "Fennec Shand"
     },
     {
       "personId": 1004,
-      "characterName": "Ahsoka Tano",
-      "characterImage": "characters/the_mandalorian_ahsoka_tano.webp"
+      "characterName": "Ahsoka Tano"
     },
     {
       "personId": 1101,
-      "characterName": "IG-11",
-      "characterImage": "characters/the_mandalorian_ig-11.webp"
+      "characterName": "IG-11"
     },
     {
       "personId": 871,
-      "characterName": "Kuiil",
-      "characterImage": "characters/the_mandalorian_kuiil.webp"
+      "characterName": "Kuiil"
     },
     {
       "personId": 1237,
-      "characterName": "The Armorer",
-      "characterImage": "characters/the_mandalorian_the_armorer.webp"
+      "characterName": "The Armorer"
     }
   ],
   "collections": [
@@ -274,18 +264,7 @@
   "seriesExtension": {
     "episodesTotal": 16,
     "seasonsTotal": 2,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 8,
-        "releaseDate": "2019-11-12T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 8,
-        "releaseDate": "2020-10-30T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2020-12-18T00:00:00.000Z"
   },
   "trailers": [
     {

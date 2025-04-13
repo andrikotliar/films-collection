@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 742,
-      "characterName": "Sean Boswell",
-      "characterImage": null
+      "characterName": "Sean Boswell"
     },
     {
       "personId": 868,
-      "characterName": "Neela",
-      "characterImage": null
+      "characterName": "Neela"
     },
     {
       "personId": 1095,
-      "characterName": "Han",
-      "characterImage": null
+      "characterName": "Han"
     },
     {
       "personId": 148,
-      "characterName": "Twinkie",
-      "characterImage": null
+      "characterName": "Twinkie"
     },
     {
       "personId": 137,
-      "characterName": "Takashi",
-      "characterImage": null
+      "characterName": "Takashi"
     }
   ],
   "collections": [

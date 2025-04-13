@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "Nicky",
-      "characterImage": null
+      "characterName": "Nicky"
     },
     {
       "personId": 775,
-      "characterName": "Jess",
-      "characterImage": null
+      "characterName": "Jess"
     },
     {
       "personId": 14,
-      "characterName": "Farhad",
-      "characterImage": null
+      "characterName": "Farhad"
     },
     {
       "personId": 403,
-      "characterName": "Owens",
-      "characterImage": null
+      "characterName": "Owens"
     },
     {
       "personId": 997,
-      "characterName": "Rafael Garriga",
-      "characterImage": null
+      "characterName": "Rafael Garriga"
     },
     {
       "personId": 98,
-      "characterName": "Liyuan Tse",
-      "characterImage": null
+      "characterName": "Liyuan Tse"
     }
   ],
   "collections": [

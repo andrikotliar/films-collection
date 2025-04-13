@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Charlie Kenton",
-      "characterImage": null
+      "characterName": "Charlie Kenton"
     },
     {
       "personId": 239,
-      "characterName": "Max Kenton",
-      "characterImage": null
+      "characterName": "Max Kenton"
     },
     {
       "personId": 361,
-      "characterName": "Bailey Tallet",
-      "characterImage": null
+      "characterName": "Bailey Tallet"
     },
     {
       "personId": 74,
-      "characterName": "Finn",
-      "characterImage": null
+      "characterName": "Finn"
     },
     {
       "personId": 674,
-      "characterName": "Ricky",
-      "characterImage": null
+      "characterName": "Ricky"
     },
     {
       "personId": 451,
-      "characterName": "Aunt Debra",
-      "characterImage": null
+      "characterName": "Aunt Debra"
     },
     {
       "personId": 514,
-      "characterName": "Marvin",
-      "characterImage": null
+      "characterName": "Marvin"
     }
   ],
   "collections": [

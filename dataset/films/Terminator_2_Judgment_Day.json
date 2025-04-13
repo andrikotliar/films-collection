@@ -102,28 +102,23 @@
   "cast": [
     {
       "personId": 87,
-      "characterName": "T-800",
-      "characterImage": null
+      "characterName": "T-800"
     },
     {
       "personId": 321,
-      "characterName": "John Connor",
-      "characterImage": "characters/terminator_2_judgment_day_john_connor.webp"
+      "characterName": "John Connor"
     },
     {
       "personId": 728,
-      "characterName": "Sarah Connor",
-      "characterImage": null
+      "characterName": "Sarah Connor"
     },
     {
       "personId": 989,
-      "characterName": "T-1000",
-      "characterImage": null
+      "characterName": "T-1000"
     },
     {
       "personId": 568,
-      "characterName": "Miles Bennett Dyson",
-      "characterImage": null
+      "characterName": "Miles Bennett Dyson"
     }
   ],
   "collections": [

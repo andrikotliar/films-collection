@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 203,
-      "characterName": "John Connor",
-      "characterImage": null
+      "characterName": "John Connor"
     },
     {
       "personId": 1034,
-      "characterName": "Marcus Wright",
-      "characterImage": null
+      "characterName": "Marcus Wright"
     },
     {
       "personId": 852,
-      "characterName": "Blair Williams",
-      "characterImage": null
+      "characterName": "Blair Williams"
     },
     {
       "personId": 441,
-      "characterName": "Dr. Serena Kogan",
-      "characterImage": null
+      "characterName": "Dr. Serena Kogan"
     },
     {
       "personId": 76,
-      "characterName": "Kyle Reese",
-      "characterImage": null
+      "characterName": "Kyle Reese"
     },
     {
       "personId": 491,
-      "characterName": "Star",
-      "characterImage": null
+      "characterName": "Star"
     },
     {
       "personId": 157,
-      "characterName": "Kate Connor",
-      "characterImage": null
+      "characterName": "Kate Connor"
     }
   ],
   "collections": [

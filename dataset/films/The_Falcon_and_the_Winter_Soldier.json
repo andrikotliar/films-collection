@@ -28,53 +28,43 @@
   "cast": [
     {
       "personId": 74,
-      "characterName": "Sam Wilson / Falcon / Captain America",
-      "characterImage": null
+      "characterName": "Sam Wilson / Falcon / Captain America"
     },
     {
       "personId": 1050,
-      "characterName": "James \"Bucky\" Barnes / White Wolf",
-      "characterImage": null
+      "characterName": "James \"Bucky\" Barnes / White Wolf"
     },
     {
       "personId": 1192,
-      "characterName": "John Walker / Captain America / U.S. Agent",
-      "characterImage": null
+      "characterName": "John Walker / Captain America / U.S. Agent"
     },
     {
       "personId": 354,
-      "characterName": "Karli Morgenthau",
-      "characterImage": null
+      "characterName": "Karli Morgenthau"
     },
     {
       "personId": 10,
-      "characterName": "Sarah Wilson",
-      "characterImage": null
+      "characterName": "Sarah Wilson"
     },
     {
       "personId": 304,
-      "characterName": "James \"Rhodey\" Rhodes",
-      "characterImage": null
+      "characterName": "James \"Rhodey\" Rhodes"
     },
     {
       "personId": 244,
-      "characterName": "Helmut Zemo",
-      "characterImage": null
+      "characterName": "Helmut Zemo"
     },
     {
       "personId": 342,
-      "characterName": "Sharon Carter / Power Broker",
-      "characterImage": null
+      "characterName": "Sharon Carter / Power Broker"
     },
     {
       "personId": 374,
-      "characterName": "Ayo",
-      "characterImage": null
+      "characterName": "Ayo"
     },
     {
       "personId": 626,
-      "characterName": "Valentina Allegra de Fontaine",
-      "characterImage": null
+      "characterName": "Valentina Allegra de Fontaine"
     }
   ],
   "collections": [
@@ -159,13 +149,7 @@
   "seriesExtension": {
     "episodesTotal": 6,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 6,
-        "releaseDate": "2021-03-19T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2021-04-23T00:00:00.000Z"
   },
   "trailers": [
     {

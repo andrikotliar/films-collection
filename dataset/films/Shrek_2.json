@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 842,
-      "characterName": "Shrek",
-      "characterImage": "characters/shrek_2_shrek.webp"
+      "characterName": "Shrek"
     },
     {
       "personId": 319,
-      "characterName": "Donkey",
-      "characterImage": "characters/shrek_2_donkey.webp"
+      "characterName": "Donkey"
     },
     {
       "personId": 164,
-      "characterName": "Fiona",
-      "characterImage": "characters/shrek_2_fiona.webp"
+      "characterName": "Fiona"
     },
     {
       "personId": 77,
-      "characterName": "Puss In Boots",
-      "characterImage": "characters/shrek_2_puss_in_boots.webp"
+      "characterName": "Puss In Boots"
     },
     {
       "personId": 629,
-      "characterName": "Queen",
-      "characterImage": "characters/shrek_2_queen.webp"
+      "characterName": "Queen"
     },
     {
       "personId": 579,
-      "characterName": "King",
-      "characterImage": "characters/shrek_2_king.webp"
+      "characterName": "King"
     },
     {
       "personId": 1012,
-      "characterName": "Prince Charming",
-      "characterImage": "characters/shrek_2_prince_charming.webp"
+      "characterName": "Prince Charming"
     },
     {
       "personId": 548,
-      "characterName": "Fairy Godmother",
-      "characterImage": "characters/shrek_2_fairy_godmother.webp"
+      "characterName": "Fairy Godmother"
     }
   ],
   "collections": [

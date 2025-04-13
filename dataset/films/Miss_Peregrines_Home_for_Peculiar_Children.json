@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 357,
-      "characterName": "Miss Peregrine",
-      "characterImage": null
+      "characterName": "Miss Peregrine"
     },
     {
       "personId": 90,
-      "characterName": "Jake",
-      "characterImage": null
+      "characterName": "Jake"
     },
     {
       "personId": 1036,
-      "characterName": "Barron",
-      "characterImage": null
+      "characterName": "Barron"
     },
     {
       "personId": 331,
-      "characterName": "Emma",
-      "characterImage": null
+      "characterName": "Emma"
     },
     {
       "personId": 624,
-      "characterName": "Miss Avocet",
-      "characterImage": null
+      "characterName": "Miss Avocet"
     },
     {
       "personId": 43,
-      "characterName": "Dr. Golan",
-      "characterImage": null
+      "characterName": "Dr. Golan"
     },
     {
       "personId": 1108,
-      "characterName": "Abe",
-      "characterImage": null
+      "characterName": "Abe"
     },
     {
       "personId": 370,
-      "characterName": "Enoch",
-      "characterImage": null
+      "characterName": "Enoch"
     },
     {
       "personId": 703,
-      "characterName": "Olive",
-      "characterImage": null
+      "characterName": "Olive"
     }
   ],
   "collections": [

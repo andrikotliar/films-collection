@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 533,
-      "characterName": "Hiccup",
-      "characterImage": "characters/how_to_train_your_dragon_2_hiccup.webp"
+      "characterName": "Hiccup"
     },
     {
       "personId": 175,
-      "characterName": "Valka",
-      "characterImage": "characters/how_to_train_your_dragon_2_valka.webp"
+      "characterName": "Valka"
     },
     {
       "personId": 404,
-      "characterName": "Stoick",
-      "characterImage": "characters/how_to_train_your_dragon_2_stoick.webp"
+      "characterName": "Stoick"
     },
     {
       "personId": 51,
-      "characterName": "Astrid",
-      "characterImage": "characters/how_to_train_your_dragon_2_astrid.webp"
+      "characterName": "Astrid"
     },
     {
       "personId": 297,
-      "characterName": "Drago Bludvist",
-      "characterImage": "characters/how_to_train_your_dragon_2_drago_bludvist.webp"
+      "characterName": "Drago Bludvist"
     },
     {
       "personId": 685,
-      "characterName": "Eret",
-      "characterImage": "characters/how_to_train_your_dragon_2_eret.webp"
+      "characterName": "Eret"
     }
   ],
   "collections": [

@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 1142,
-      "characterName": "K",
-      "characterImage": null
+      "characterName": "K"
     },
     {
       "personId": 1178,
-      "characterName": "J",
-      "characterImage": null
+      "characterName": "J"
     },
     {
       "personId": 979,
-      "characterName": "Z",
-      "characterImage": null
+      "characterName": "Z"
     },
     {
       "personId": 698,
-      "characterName": "Serleena",
-      "characterImage": null
+      "characterName": "Serleena"
     },
     {
       "personId": 600,
-      "characterName": "Scrad / Charlie",
-      "characterImage": null
+      "characterName": "Scrad / Charlie"
     },
     {
       "personId": 1004,
-      "characterName": "Laura Vasquez",
-      "characterImage": null
+      "characterName": "Laura Vasquez"
     }
   ],
   "collections": [

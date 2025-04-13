@@ -24,23 +24,19 @@
   "cast": [
     {
       "personId": 657,
-      "characterName": "Klaatu",
-      "characterImage": null
+      "characterName": "Klaatu"
     },
     {
       "personId": 546,
-      "characterName": "Helen Benson",
-      "characterImage": null
+      "characterName": "Helen Benson"
     },
     {
       "personId": 651,
-      "characterName": "Regina Jackson",
-      "characterImage": null
+      "characterName": "Regina Jackson"
     },
     {
       "personId": 492,
-      "characterName": "Jacob Benson",
-      "characterImage": null
+      "characterName": "Jacob Benson"
     }
   ],
   "collections": [

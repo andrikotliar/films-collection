@@ -30,28 +30,23 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ray Ferrier",
-      "characterImage": null
+      "characterName": "Ray Ferrier"
     },
     {
       "personId": 1216,
-      "characterName": "Rachel Ferrier",
-      "characterImage": null
+      "characterName": "Rachel Ferrier"
     },
     {
       "personId": 1217,
-      "characterName": "Robbie Ferrier",
-      "characterImage": null
+      "characterName": "Robbie Ferrier"
     },
     {
       "personId": 1218,
-      "characterName": "Mary-Ann",
-      "characterImage": null
+      "characterName": "Mary-Ann"
     },
     {
       "personId": 1219,
-      "characterName": "Harlan Ogilvy",
-      "characterImage": null
+      "characterName": "Harlan Ogilvy"
     }
   ],
   "collections": [

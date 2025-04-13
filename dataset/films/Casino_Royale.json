@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 245,
-      "characterName": "James Bond",
-      "characterImage": null
+      "characterName": "James Bond"
     },
     {
       "personId": 357,
-      "characterName": "Vesper Lynd",
-      "characterImage": null
+      "characterName": "Vesper Lynd"
     },
     {
       "personId": 762,
-      "characterName": "Le Chiffre",
-      "characterImage": null
+      "characterName": "Le Chiffre"
     },
     {
       "personId": 624,
-      "characterName": "M",
-      "characterImage": null
+      "characterName": "M"
     },
     {
       "personId": 544,
-      "characterName": "Felix Leiter",
-      "characterImage": null
+      "characterName": "Felix Leiter"
     },
     {
       "personId": 406,
-      "characterName": "Rene Mathis",
-      "characterImage": null
+      "characterName": "Rene Mathis"
     }
   ],
   "collections": [

@@ -17,58 +17,47 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ethan Hunt",
-      "characterImage": null
+      "characterName": "Ethan Hunt"
     },
     {
       "personId": 927,
-      "characterName": "Owen Davian",
-      "characterImage": null
+      "characterName": "Owen Davian"
     },
     {
       "personId": 1166,
-      "characterName": "Luther",
-      "characterImage": null
+      "characterName": "Luther"
     },
     {
       "personId": 128,
-      "characterName": "Musgrave",
-      "characterImage": null
+      "characterName": "Musgrave"
     },
     {
       "personId": 836,
-      "characterName": "Julia",
-      "characterImage": null
+      "characterName": "Julia"
     },
     {
       "personId": 610,
-      "characterName": "Declan",
-      "characterImage": null
+      "characterName": "Declan"
     },
     {
       "personId": 668,
-      "characterName": "Lindsey Farris",
-      "characterImage": null
+      "characterName": "Lindsey Farris"
     },
     {
       "personId": 766,
-      "characterName": "Zhen",
-      "characterImage": null
+      "characterName": "Zhen"
     },
     {
       "personId": 1070,
-      "characterName": "Benji",
-      "characterImage": null
+      "characterName": "Benji"
     },
     {
       "personId": 318,
-      "characterName": "Brownway",
-      "characterImage": null
+      "characterName": "Brownway"
     },
     {
       "personId": 707,
-      "characterName": "Theodore Brassel",
-      "characterImage": null
+      "characterName": "Theodore Brassel"
     }
   ],
   "collections": [

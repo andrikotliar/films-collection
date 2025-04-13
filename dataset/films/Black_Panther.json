@@ -114,63 +114,51 @@
   "cast": [
     {
       "personId": 179,
-      "characterName": "T'Challa / Black Panther",
-      "characterImage": "characters/black_panther_t_challa"
+      "characterName": "T'Challa / Black Panther"
     },
     {
       "personId": 818,
-      "characterName": "Erik Killmonger",
-      "characterImage": null
+      "characterName": "Erik Killmonger"
     },
     {
       "personId": 753,
-      "characterName": "Nakia",
-      "characterImage": null
+      "characterName": "Nakia"
     },
     {
       "personId": 242,
-      "characterName": "Okoye",
-      "characterImage": null
+      "characterName": "Okoye"
     },
     {
       "personId": 792,
-      "characterName": "Everett K. Ross",
-      "characterImage": null
+      "characterName": "Everett K. Ross"
     },
     {
       "personId": 249,
-      "characterName": "W'Kabi",
-      "characterImage": null
+      "characterName": "W'Kabi"
     },
     {
       "personId": 719,
-      "characterName": "Shuri",
-      "characterImage": null
+      "characterName": "Shuri"
     },
     {
       "personId": 1189,
-      "characterName": "M'Baku",
-      "characterImage": null
+      "characterName": "M'Baku"
     },
     {
       "personId": 1088,
-      "characterName": "N'Jobu",
-      "characterImage": null
+      "characterName": "N'Jobu"
     },
     {
       "personId": 62,
-      "characterName": "Ramonda",
-      "characterImage": null
+      "characterName": "Ramonda"
     },
     {
       "personId": 377,
-      "characterName": "Zuri",
-      "characterImage": null
+      "characterName": "Zuri"
     },
     {
       "personId": 61,
-      "characterName": "Ulysses Klaue",
-      "characterImage": null
+      "characterName": "Ulysses Klaue"
     }
   ],
   "collections": [

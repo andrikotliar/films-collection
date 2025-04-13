@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 805,
-      "characterName": "Michael Pearson",
-      "characterImage": null
+      "characterName": "Michael Pearson"
     },
     {
       "personId": 184,
-      "characterName": "Ray",
-      "characterImage": null
+      "characterName": "Ray"
     },
     {
       "personId": 834,
-      "characterName": "Rosalind Pearson",
-      "characterImage": null
+      "characterName": "Rosalind Pearson"
     },
     {
       "personId": 553,
-      "characterName": "Matthew",
-      "characterImage": null
+      "characterName": "Matthew"
     },
     {
       "personId": 756,
-      "characterName": "Jackie",
-      "characterImage": null
+      "characterName": "Jackie"
     },
     {
       "personId": 223,
-      "characterName": "Coach",
-      "characterImage": null
+      "characterName": "Coach"
     },
     {
       "personId": 445,
-      "characterName": "Dry Eye",
-      "characterImage": null
+      "characterName": "Dry Eye"
     },
     {
       "personId": 1140,
-      "characterName": "Lord George",
-      "characterImage": null
+      "characterName": "Lord George"
     },
     {
       "personId": 452,
-      "characterName": "Fletcher",
-      "characterImage": null
+      "characterName": "Fletcher"
     }
   ],
   "collections": [

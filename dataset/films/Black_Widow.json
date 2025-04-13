@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow",
-      "characterImage": null
+      "characterName": "Natasha Romanoff / Black Widow"
     },
     {
       "personId": 375,
-      "characterName": "Yelena Belova / Black Widow",
-      "characterImage": null
+      "characterName": "Yelena Belova / Black Widow"
     },
     {
       "personId": 940,
-      "characterName": "Melina Vostokoff / Black Widow",
-      "characterImage": null
+      "characterName": "Melina Vostokoff / Black Widow"
     },
     {
       "personId": 274,
-      "characterName": "Alexei Shostakov / Red Guardian",
-      "characterImage": null
+      "characterName": "Alexei Shostakov / Red Guardian"
     },
     {
       "personId": 882,
-      "characterName": "Rick Mason",
-      "characterImage": null
+      "characterName": "Rick Mason"
     },
     {
       "personId": 884,
-      "characterName": "Antonia Dreykov / Taskmaster",
-      "characterImage": null
+      "characterName": "Antonia Dreykov / Taskmaster"
     },
     {
       "personId": 953,
-      "characterName": "Dreykov",
-      "characterImage": null
+      "characterName": "Dreykov"
     }
   ],
   "collections": [

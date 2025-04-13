@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 1031,
-      "characterName": "Dr. Alan Grant",
-      "characterImage": null
+      "characterName": "Dr. Alan Grant"
     },
     {
       "personId": 1181,
-      "characterName": "Paul Kirby",
-      "characterImage": null
+      "characterName": "Paul Kirby"
     },
     {
       "personId": 1157,
-      "characterName": "Amanda Kirby",
-      "characterImage": null
+      "characterName": "Amanda Kirby"
     },
     {
       "personId": 32,
-      "characterName": "Billy Brennan",
-      "characterImage": null
+      "characterName": "Billy Brennan"
     },
     {
       "personId": 1152,
-      "characterName": "Eric Kirby",
-      "characterImage": null
+      "characterName": "Eric Kirby"
     }
   ],
   "collections": [

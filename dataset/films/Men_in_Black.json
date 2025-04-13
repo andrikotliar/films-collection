@@ -42,28 +42,23 @@
   "cast": [
     {
       "personId": 1142,
-      "characterName": "Agent Kay",
-      "characterImage": null
+      "characterName": "Agent Kay"
     },
     {
       "personId": 1178,
-      "characterName": "Agent Jay",
-      "characterImage": null
+      "characterName": "Agent Jay"
     },
     {
       "personId": 727,
-      "characterName": "Laurel",
-      "characterImage": null
+      "characterName": "Laurel"
     },
     {
       "personId": 1165,
-      "characterName": "Edgar",
-      "characterImage": null
+      "characterName": "Edgar"
     },
     {
       "personId": 979,
-      "characterName": "Z",
-      "characterImage": null
+      "characterName": "Z"
     }
   ],
   "collections": [

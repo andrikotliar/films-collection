@@ -36,38 +36,31 @@
   "cast": [
     {
       "personId": 316,
-      "characterName": "Thomas",
-      "characterImage": null
+      "characterName": "Thomas"
     },
     {
       "personId": 655,
-      "characterName": "Teresa",
-      "characterImage": null
+      "characterName": "Teresa"
     },
     {
       "personId": 52,
-      "characterName": "Alby",
-      "characterImage": null
+      "characterName": "Alby"
     },
     {
       "personId": 1113,
-      "characterName": "Newt",
-      "characterImage": null
+      "characterName": "Newt"
     },
     {
       "personId": 680,
-      "characterName": "Minho",
-      "characterImage": null
+      "characterName": "Minho"
     },
     {
       "personId": 1176,
-      "characterName": "Gally",
-      "characterImage": null
+      "characterName": "Gally"
     },
     {
       "personId": 900,
-      "characterName": "Ava Paige",
-      "characterImage": null
+      "characterName": "Ava Paige"
     }
   ],
   "collections": [

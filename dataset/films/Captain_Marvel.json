@@ -17,58 +17,47 @@
   "cast": [
     {
       "personId": 151,
-      "characterName": "Carol Danvers / Captain Marvel",
-      "characterImage": null
+      "characterName": "Carol Danvers / Captain Marvel"
     },
     {
       "personId": 1036,
-      "characterName": "Nick Fury",
-      "characterImage": null
+      "characterName": "Nick Fury"
     },
     {
       "personId": 110,
-      "characterName": "Talos / Keller",
-      "characterImage": "characters/captain_marvel_talos.webp"
+      "characterName": "Talos / Keller"
     },
     {
       "personId": 623,
-      "characterName": "Yon-Rogg",
-      "characterImage": null
+      "characterName": "Yon-Rogg"
     },
     {
       "personId": 70,
-      "characterName": "Supreme Intelligence / Dr. Wendy Lawson",
-      "characterImage": null
+      "characterName": "Supreme Intelligence / Dr. Wendy Lawson"
     },
     {
       "personId": 700,
-      "characterName": "Maria Rambeau",
-      "characterImage": null
+      "characterName": "Maria Rambeau"
     },
     {
       "personId": 216,
-      "characterName": "Agent Coulson",
-      "characterImage": null
+      "characterName": "Agent Coulson"
     },
     {
       "personId": 1011,
-      "characterName": "Bron-Char",
-      "characterImage": "characters/captain_marvel_bron-char.webp"
+      "characterName": "Bron-Char"
     },
     {
       "personId": 398,
-      "characterName": "Minn-Erva",
-      "characterImage": "characters/captain_marvel_minn-erva.webp"
+      "characterName": "Minn-Erva"
     },
     {
       "personId": 297,
-      "characterName": "Korath",
-      "characterImage": null
+      "characterName": "Korath"
     },
     {
       "personId": 711,
-      "characterName": "Ronan",
-      "characterImage": null
+      "characterName": "Ronan"
     }
   ],
   "collections": [

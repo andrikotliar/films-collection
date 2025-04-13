@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 144,
-      "characterName": "Rick O'Connell",
-      "characterImage": null
+      "characterName": "Rick O'Connell"
     },
     {
       "personId": 940,
-      "characterName": "Evelyn Carnahan / Nefertiri",
-      "characterImage": null
+      "characterName": "Evelyn Carnahan / Nefertiri"
     },
     {
       "personId": 583,
-      "characterName": "Jonathan",
-      "characterImage": null
+      "characterName": "Jonathan"
     },
     {
       "personId": 88,
-      "characterName": "Imhotep",
-      "characterImage": null
+      "characterName": "Imhotep"
     },
     {
       "personId": 883,
-      "characterName": "Ardeth Bay",
-      "characterImage": null
+      "characterName": "Ardeth Bay"
     },
     {
       "personId": 901,
-      "characterName": "Meela / Anck-Su-Namun",
-      "characterImage": null
+      "characterName": "Meela / Anck-Su-Namun"
     },
     {
       "personId": 388,
-      "characterName": "Alex",
-      "characterImage": null
+      "characterName": "Alex"
     },
     {
       "personId": 45,
-      "characterName": "Mr. Hafez",
-      "characterImage": null
+      "characterName": "Mr. Hafez"
     },
     {
       "personId": 314,
-      "characterName": "The Scorpion King",
-      "characterImage": null
+      "characterName": "The Scorpion King"
     },
     {
       "personId": 1061,
-      "characterName": "Izzy",
-      "characterImage": null
+      "characterName": "Izzy"
     }
   ],
   "collections": [

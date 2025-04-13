@@ -24,38 +24,31 @@
   "cast": [
     {
       "personId": 911,
-      "characterName": "Brian O'Conner",
-      "characterImage": null
+      "characterName": "Brian O'Conner"
     },
     {
       "personId": 1164,
-      "characterName": "Dominic Toretto",
-      "characterImage": null
+      "characterName": "Dominic Toretto"
     },
     {
       "personId": 838,
-      "characterName": "Letty",
-      "characterImage": null
+      "characterName": "Letty"
     },
     {
       "personId": 613,
-      "characterName": "Mia Toretto",
-      "characterImage": null
+      "characterName": "Mia Toretto"
     },
     {
       "personId": 975,
-      "characterName": "Johnny Tran",
-      "characterImage": null
+      "characterName": "Johnny Tran"
     },
     {
       "personId": 178,
-      "characterName": "Jesse",
-      "characterImage": null
+      "characterName": "Jesse"
     },
     {
       "personId": 804,
-      "characterName": "Vince",
-      "characterImage": null
+      "characterName": "Vince"
     }
   ],
   "collections": [

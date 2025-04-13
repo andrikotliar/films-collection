@@ -36,23 +36,19 @@
   "cast": [
     {
       "personId": 341,
-      "characterName": "Evelyn Abbott",
-      "characterImage": null
+      "characterName": "Evelyn Abbott"
     },
     {
       "personId": 585,
-      "characterName": "Lee Abbott",
-      "characterImage": null
+      "characterName": "Lee Abbott"
     },
     {
       "personId": 843,
-      "characterName": "Regan Abbott",
-      "characterImage": null
+      "characterName": "Regan Abbott"
     },
     {
       "personId": 877,
-      "characterName": "Marcus Abbott",
-      "characterImage": null
+      "characterName": "Marcus Abbott"
     }
   ],
   "collections": [

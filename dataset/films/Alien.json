@@ -60,43 +60,35 @@
   "cast": [
     {
       "personId": 1068,
-      "characterName": "Ripley",
-      "characterImage": null
+      "characterName": "Ripley"
     },
     {
       "personId": 1138,
-      "characterName": "Dallas",
-      "characterImage": null
+      "characterName": "Dallas"
     },
     {
       "personId": 1162,
-      "characterName": "Lambert",
-      "characterImage": null
+      "characterName": "Lambert"
     },
     {
       "personId": 432,
-      "characterName": "Brett",
-      "characterImage": null
+      "characterName": "Brett"
     },
     {
       "personId": 584,
-      "characterName": "Kane",
-      "characterImage": null
+      "characterName": "Kane"
     },
     {
       "personId": 458,
-      "characterName": "Ash",
-      "characterImage": null
+      "characterName": "Ash"
     },
     {
       "personId": 1194,
-      "characterName": "Parker",
-      "characterImage": null
+      "characterName": "Parker"
     },
     {
       "personId": 135,
-      "characterName": "Alien",
-      "characterImage": "characters/alien_alien.webp"
+      "characterName": "Alien"
     }
   ],
   "collections": [

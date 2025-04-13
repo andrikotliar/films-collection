@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 498,
-      "characterName": "Dastan",
-      "characterImage": null
+      "characterName": "Dastan"
     },
     {
       "personId": 397,
-      "characterName": "Tamina",
-      "characterImage": null
+      "characterName": "Tamina"
     },
     {
       "personId": 109,
-      "characterName": "Nizam",
-      "characterImage": null
+      "characterName": "Nizam"
     },
     {
       "personId": 36,
-      "characterName": "Sheik Amar",
-      "characterImage": null
+      "characterName": "Sheik Amar"
     },
     {
       "personId": 1092,
-      "characterName": "Seso",
-      "characterImage": null
+      "characterName": "Seso"
     },
     {
       "personId": 1124,
-      "characterName": "Garsiv",
-      "characterImage": null
+      "characterName": "Garsiv"
     },
     {
       "personId": 967,
-      "characterName": "Tus",
-      "characterImage": null
+      "characterName": "Tus"
     },
     {
       "personId": 957,
-      "characterName": "Bis",
-      "characterImage": null
+      "characterName": "Bis"
     }
   ],
   "collections": [

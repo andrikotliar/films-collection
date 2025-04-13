@@ -30,73 +30,59 @@
   "cast": [
     {
       "personId": 547,
-      "characterName": "Katniss Everdeen",
-      "characterImage": null
+      "characterName": "Katniss Everdeen"
     },
     {
       "personId": 620,
-      "characterName": "Peeta Mellark",
-      "characterImage": null
+      "characterName": "Peeta Mellark"
     },
     {
       "personId": 722,
-      "characterName": "Gale Hawthorne",
-      "characterImage": null
+      "characterName": "Gale Hawthorne"
     },
     {
       "personId": 1190,
-      "characterName": "Haymitch Abernathy",
-      "characterImage": null
+      "characterName": "Haymitch Abernathy"
     },
     {
       "personId": 327,
-      "characterName": "Effie Trinket",
-      "characterImage": null
+      "characterName": "Effie Trinket"
     },
     {
       "personId": 309,
-      "characterName": "President Coriolanus Snow",
-      "characterImage": null
+      "characterName": "President Coriolanus Snow"
     },
     {
       "personId": 927,
-      "characterName": "Plutarch Heavensbee",
-      "characterImage": null
+      "characterName": "Plutarch Heavensbee"
     },
     {
       "personId": 767,
-      "characterName": "Boggs",
-      "characterImage": null
+      "characterName": "Boggs"
     },
     {
       "personId": 1079,
-      "characterName": "Caesar Flickerman",
-      "characterImage": null
+      "characterName": "Caesar Flickerman"
     },
     {
       "personId": 1030,
-      "characterName": "Finnick Odair",
-      "characterImage": null
+      "characterName": "Finnick Odair"
     },
     {
       "personId": 863,
-      "characterName": "Cressida",
-      "characterImage": null
+      "characterName": "Cressida"
     },
     {
       "personId": 1226,
-      "characterName": "Pollux",
-      "characterImage": null
+      "characterName": "Pollux"
     },
     {
       "personId": 544,
-      "characterName": "Beetee",
-      "characterImage": null
+      "characterName": "Beetee"
     },
     {
       "personId": 628,
-      "characterName": "President Alma Coin",
-      "characterImage": null
+      "characterName": "President Alma Coin"
     }
   ],
   "collections": [

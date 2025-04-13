@@ -28,88 +28,71 @@
   "cast": [
     {
       "personId": 479,
-      "characterName": "Noah Bennet",
-      "characterImage": null
+      "characterName": "Noah Bennet"
     },
     {
       "personId": 437,
-      "characterName": "Claire Bennet",
-      "characterImage": null
+      "characterName": "Claire Bennet"
     },
     {
       "personId": 845,
-      "characterName": "Peter Petrelli",
-      "characterImage": null
+      "characterName": "Peter Petrelli"
     },
     {
       "personId": 801,
-      "characterName": "Hiro Nakamura",
-      "characterImage": null
+      "characterName": "Hiro Nakamura"
     },
     {
       "personId": 1052,
-      "characterName": "Mohinder Suresh",
-      "characterImage": null
+      "characterName": "Mohinder Suresh"
     },
     {
       "personId": 417,
-      "characterName": "Matt Parkman",
-      "characterImage": null
+      "characterName": "Matt Parkman"
     },
     {
       "personId": 509,
-      "characterName": "Ando Masahashi",
-      "characterImage": null
+      "characterName": "Ando Masahashi"
     },
     {
       "personId": 15,
-      "characterName": "Nathan Petrelli",
-      "characterImage": null
+      "characterName": "Nathan Petrelli"
     },
     {
       "personId": 1198,
-      "characterName": "Sylar",
-      "characterImage": null
+      "characterName": "Sylar"
     },
     {
       "personId": 37,
-      "characterName": "Niki Sanders",
-      "characterImage": null
+      "characterName": "Niki Sanders"
     },
     {
       "personId": 233,
-      "characterName": "Angela Petrelli",
-      "characterImage": null
+      "characterName": "Angela Petrelli"
     },
     {
       "personId": 92,
-      "characterName": "Sandra Bennet",
-      "characterImage": null
+      "characterName": "Sandra Bennet"
     },
     {
       "personId": 876,
-      "characterName": "Micah Sanders",
-      "characterImage": null
+      "characterName": "Micah Sanders"
     },
     {
       "personId": 987,
-      "characterName": "Isaac Mendez",
-      "characterImage": null
+      "characterName": "Isaac Mendez"
     },
     {
       "personId": 266,
-      "characterName": "Adam Monroe",
-      "characterImage": null
+      "characterName": "Adam Monroe"
     },
     {
       "personId": 984,
-      "characterName": "Arthur Petrelli",
-      "characterImage": null
+      "characterName": "Arthur Petrelli"
     },
     {
       "personId": 771,
-      "characterName": "Daniel Linderman",
-      "characterImage": null
+      "characterName": "Daniel Linderman"
     }
   ],
   "collections": [
@@ -471,34 +454,8 @@
   ],
   "seriesExtension": {
     "episodesTotal": 77,
-    "seasonsTotal": 5,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 23,
-        "releaseDate": "2006-09-25T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 11,
-        "releaseDate": "2007-09-24T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 18,
-        "releaseDate": "2008-09-22T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 13,
-        "releaseDate": "2009-02-02T00:00:00.000Z"
-      },
-      {
-        "number": 5,
-        "episodesCount": 12,
-        "releaseDate": "2009-09-21T00:00:00.000Z"
-      }
-    ]
+    "seasonsTotal": 4,
+    "finishedAt": "2010-02-08T00:00:00.000Z"
   },
   "trailers": [
     {

@@ -17,58 +17,47 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/iron_man_2_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 423,
-      "characterName": "Pepper Potts",
-      "characterImage": null
+      "characterName": "Pepper Potts"
     },
     {
       "personId": 304,
-      "characterName": "James Rhodes / War Machine",
-      "characterImage": "characters/iron_man_2_james_rhodes.webp"
+      "characterName": "James Rhodes / War Machine"
     },
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Whidow",
-      "characterImage": null
+      "characterName": "Natasha Romanoff / Black Whidow"
     },
     {
       "personId": 1032,
-      "characterName": "Justin Hammer",
-      "characterImage": null
+      "characterName": "Justin Hammer"
     },
     {
       "personId": 841,
-      "characterName": "Ivan Vanko",
-      "characterImage": "characters/iron_man_2_ivan_vanko.webp"
+      "characterName": "Ivan Vanko"
     },
     {
       "personId": 1036,
-      "characterName": "Nick Fury",
-      "characterImage": null
+      "characterName": "Nick Fury"
     },
     {
       "personId": 216,
-      "characterName": "Agent Coulson",
-      "characterImage": null
+      "characterName": "Agent Coulson"
     },
     {
       "personId": 596,
-      "characterName": "Howard Stark",
-      "characterImage": null
+      "characterName": "Howard Stark"
     },
     {
       "personId": 394,
-      "characterName": "Senator Stern",
-      "characterImage": null
+      "characterName": "Senator Stern"
     },
     {
       "personId": 601,
-      "characterName": "Happy Hogan",
-      "characterImage": null
+      "characterName": "Happy Hogan"
     }
   ],
   "collections": [

@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 531,
-      "characterName": "Frank Martin",
-      "characterImage": null
+      "characterName": "Frank Martin"
     },
     {
       "personId": 865,
-      "characterName": "Valentina",
-      "characterImage": null
+      "characterName": "Valentina"
     },
     {
       "personId": 385,
-      "characterName": "Tarconi",
-      "characterImage": null
+      "characterName": "Tarconi"
     },
     {
       "personId": 987,
-      "characterName": "Johnson",
-      "characterImage": null
+      "characterName": "Johnson"
     }
   ],
   "collections": [

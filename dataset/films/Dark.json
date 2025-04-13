@@ -22,128 +22,103 @@
   "cast": [
     {
       "personId": 739,
-      "characterName": "Jonas Kahnwald",
-      "characterImage": null
+      "characterName": "Jonas Kahnwald"
     },
     {
       "personId": 642,
-      "characterName": "Charlotte Doppler",
-      "characterImage": null
+      "characterName": "Charlotte Doppler"
     },
     {
       "personId": 733,
-      "characterName": "Martha Nielsen",
-      "characterImage": null
+      "characterName": "Martha Nielsen"
     },
     {
       "personId": 769,
-      "characterName": "Hannah Kahnwald",
-      "characterImage": null
+      "characterName": "Hannah Kahnwald"
     },
     {
       "personId": 1081,
-      "characterName": "Peter Doppler",
-      "characterImage": null
+      "characterName": "Peter Doppler"
     },
     {
       "personId": 635,
-      "characterName": "Katharina Nielsen",
-      "characterImage": null
+      "characterName": "Katharina Nielsen"
     },
     {
       "personId": 56,
-      "characterName": "The Stranger",
-      "characterImage": null
+      "characterName": "The Stranger"
     },
     {
       "personId": 907,
-      "characterName": "Bartosz Tiedemann",
-      "characterImage": null
+      "characterName": "Bartosz Tiedemann"
     },
     {
       "personId": 856,
-      "characterName": "Magnus Nielsen",
-      "characterImage": null
+      "characterName": "Magnus Nielsen"
     },
     {
       "personId": 205,
-      "characterName": "Magnus Nielsen",
-      "characterImage": null
+      "characterName": "Magnus Nielsen"
     },
     {
       "personId": 885,
-      "characterName": "Ulrich Nielsen",
-      "characterImage": null
+      "characterName": "Ulrich Nielsen"
     },
     {
       "personId": 917,
-      "characterName": "Aleksander Tiedemann",
-      "characterImage": null
+      "characterName": "Aleksander Tiedemann"
     },
     {
       "personId": 408,
-      "characterName": "Franziska Doppler",
-      "characterImage": null
+      "characterName": "Franziska Doppler"
     },
     {
       "personId": 281,
-      "characterName": "Regina Tiedemann",
-      "characterImage": null
+      "characterName": "Regina Tiedemann"
     },
     {
       "personId": 631,
-      "characterName": "Claudia Tiedemann (1987)",
-      "characterImage": null
+      "characterName": "Claudia Tiedemann (1987)"
     },
     {
       "personId": 170,
-      "characterName": "Elisabeth Doppler",
-      "characterImage": null
+      "characterName": "Elisabeth Doppler"
     },
     {
       "personId": 294,
-      "characterName": "Adam",
-      "characterImage": null
+      "characterName": "Adam"
     },
     {
       "personId": 790,
-      "characterName": "Noah",
-      "characterImage": null
+      "characterName": "Noah"
     },
     {
       "personId": 448,
-      "characterName": "Helge Doppler",
-      "characterImage": null
+      "characterName": "Helge Doppler"
     },
     {
       "personId": 732,
-      "characterName": "Claudia Tiedemann",
-      "characterImage": null
+      "characterName": "Claudia Tiedemann"
     },
     {
       "personId": 69,
-      "characterName": "Ines Kahnwald (1986)",
-      "characterImage": null
+      "characterName": "Ines Kahnwald (1986)"
     },
     {
       "personId": 1170,
-      "characterName": "Tronte Nielsen",
-      "characterImage": null
+      "characterName": "Tronte Nielsen"
     },
     {
       "personId": 754,
-      "characterName": "Regina Tiedemann (1986)",
-      "characterImage": null
+      "characterName": "Regina Tiedemann (1986)"
     },
     {
       "personId": 1137,
-      "characterName": "Helge Doppler (1953)",
-      "characterImage": null
+      "characterName": "Helge Doppler (1953)"
     },
     {
       "personId": 809,
-      "characterName": "Young Noah",
-      "characterImage": null
+      "characterName": "Young Noah"
     }
   ],
   "collections": [
@@ -253,23 +228,7 @@
   "seriesExtension": {
     "episodesTotal": 24,
     "seasonsTotal": 3,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 8,
-        "releaseDate": "2017-12-01T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 8,
-        "releaseDate": "2019-06-21T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 8,
-        "releaseDate": "2020-06-27T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2020-06-27T00:00:00.000Z"
   },
   "trailers": [
     {

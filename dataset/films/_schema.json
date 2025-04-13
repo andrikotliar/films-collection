@@ -198,19 +198,11 @@
           "characterName": {
             "type": "string",
             "description": "Actor's role"
-          },
-          "characterImage": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "description": "Path to the file without base URL. Shows how actor looks in the movie or which character they voiced in the ANIMATION. It's NULL if an actor in the movie is recognizable without additional image."
           }
         },
         "required": [
           "personId",
-          "characterName",
-          "characterImage"
+          "characterName"
         ]
       }
     },
@@ -253,7 +245,7 @@
     },
     "seriesExtension": {
       "type": "object",
-      "description": "Additional details about seasons and episodes for a series. This field is only present for the SERIES type.",
+      "description": "Additional series details. This field is only present for the SERIES type.",
       "properties": {
         "seasonsTotal": {
           "type": "number",
@@ -265,36 +257,15 @@
           "description": "Total episodes in a series",
           "minimum": 1
         },
-        "seasons": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "number": {
-                "type": "number",
-                "description": "Number of a season"
-              },
-              "episodesCount": {
-                "type": "number",
-                "description": "Total episodes in a season"
-              },
-              "releaseDate": {
-                "type": "string",
-                "description": "ISO date string"
-              }
-            },
-            "required": [
-              "number",
-              "episodesCount",
-              "releaseDate"
-            ]
-          }
+        "finishedAt": {
+          "type": "string",
+          "description": "The date of the last episode"
         }
       },
       "required": [
         "seasonsTotal",
         "episodesTotal",
-        "seasons"
+        "finishedAt"
       ]
     },
     "trailers": {

@@ -30,33 +30,27 @@
   "cast": [
     {
       "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man",
-      "characterImage": "characters/spider_man_far_from_home_peter_parker.webp"
+      "characterName": "Peter Parker / Spider-Man"
     },
     {
       "personId": 498,
-      "characterName": "Quentin Beck / Mysterio",
-      "characterImage": "characters/spider_man_far_from_home_quentin_beck.webp"
+      "characterName": "Quentin Beck / Mysterio"
     },
     {
       "personId": 1036,
-      "characterName": "Nick Fury",
-      "characterImage": null
+      "characterName": "Nick Fury"
     },
     {
       "personId": 780,
-      "characterName": "May Parker",
-      "characterImage": null
+      "characterName": "May Parker"
     },
     {
       "personId": 601,
-      "characterName": "Happy Hogan",
-      "characterImage": null
+      "characterName": "Happy Hogan"
     },
     {
       "personId": 1201,
-      "characterName": "MJ",
-      "characterImage": null
+      "characterName": "MJ"
     }
   ],
   "collections": [

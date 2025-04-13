@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 531,
-      "characterName": "Frank Martin",
-      "characterImage": null
+      "characterName": "Frank Martin"
     },
     {
       "personId": 935,
-      "characterName": "Lai",
-      "characterImage": null
+      "characterName": "Lai"
     },
     {
       "personId": 804,
-      "characterName": "Wall Street",
-      "characterImage": null
+      "characterName": "Wall Street"
     },
     {
       "personId": 385,
-      "characterName": "Inspector Tarconi",
-      "characterImage": null
+      "characterName": "Inspector Tarconi"
     },
     {
       "personId": 963,
-      "characterName": "Mr. Kwai",
-      "characterImage": null
+      "characterName": "Mr. Kwai"
     }
   ],
   "collections": [

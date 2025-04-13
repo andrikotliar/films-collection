@@ -10,7 +10,6 @@ import {
   FilmGenre,
   FilmStudio,
   SeriesExtension,
-  SeriesSeason,
   FilmTrailer,
 } from '@prisma/client';
 import { readdir, readFile } from 'node:fs/promises';
@@ -32,9 +31,7 @@ type FilmRelations = {
   genres: Omit<FilmGenre, FilmRelationOmitFields>[];
   studios: Omit<FilmStudio, FilmRelationOmitFields>[];
   trailers: Omit<FilmTrailer, FilmRelationOmitFields>[];
-  seriesExtension?: Omit<SeriesExtension, FilmRelationOmitFields> & {
-    seasons: Omit<SeriesSeason, 'id' | 'seriesExtensionId'>[];
-  };
+  seriesExtension?: Omit<SeriesExtension, FilmRelationOmitFields>;
 };
 type FilmSeedData = FilmBaseData & FilmRelations;
 type FilePath = keyof typeof fileToPrismaHandler;
@@ -157,15 +154,8 @@ const mapFilmDataToPrismaStructure = (
   }
 
   if (seriesExtension) {
-    const { seasons, ...extension } = seriesExtension;
-
     filmRelations.seriesExtension = {
-      create: {
-        ...extension,
-        seasons: {
-          create: seasons,
-        },
-      },
+      create: seriesExtension,
     };
   }
 

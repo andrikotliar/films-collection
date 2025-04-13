@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 322,
-      "characterName": "Bruce Banner / Hulk",
-      "characterImage": "characters/the_incredible_hulk_bruce_banner.webp"
+      "characterName": "Bruce Banner / Hulk"
     },
     {
       "personId": 734,
-      "characterName": "Betty Ross",
-      "characterImage": null
+      "characterName": "Betty Ross"
     },
     {
       "personId": 1120,
-      "characterName": "Emil Blonsky / Abomination",
-      "characterImage": "characters/the_incredible_hulk_emil_blonsky.webp"
+      "characterName": "Emil Blonsky / Abomination"
     },
     {
       "personId": 1182,
-      "characterName": "Thaddeus Ross",
-      "characterImage": null
+      "characterName": "Thaddeus Ross"
     },
     {
       "personId": 1119,
-      "characterName": "Samuel Sterns",
-      "characterImage": null
+      "characterName": "Samuel Sterns"
     }
   ],
   "collections": [

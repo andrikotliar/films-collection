@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 1071,
-      "characterName": "Shang-Chi",
-      "characterImage": null
+      "characterName": "Shang-Chi"
     },
     {
       "personId": 1143,
-      "characterName": "Wenwu / Mandarin",
-      "characterImage": null
+      "characterName": "Wenwu / Mandarin"
     },
     {
       "personId": 97,
-      "characterName": "Katy",
-      "characterImage": null
+      "characterName": "Katy"
     },
     {
       "personId": 816,
-      "characterName": "Xialing",
-      "characterImage": null
+      "characterName": "Xialing"
     },
     {
       "personId": 839,
-      "characterName": "Ying Nan",
-      "characterImage": null
+      "characterName": "Ying Nan"
     },
     {
       "personId": 116,
-      "characterName": "Wong",
-      "characterImage": null
+      "characterName": "Wong"
     },
     {
       "personId": 1120,
-      "characterName": "Abomination / Emile Blonsky",
-      "characterImage": null
+      "characterName": "Abomination / Emile Blonsky"
     },
     {
       "personId": 109,
-      "characterName": "Trevor Slattery",
-      "characterImage": null
+      "characterName": "Trevor Slattery"
     },
     {
       "personId": 376,
-      "characterName": "Razor Fist",
-      "characterImage": null
+      "characterName": "Razor Fist"
     }
   ],
   "collections": [

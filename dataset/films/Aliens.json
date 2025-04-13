@@ -90,33 +90,27 @@
   "cast": [
     {
       "personId": 1068,
-      "characterName": "Ripley",
-      "characterImage": null
+      "characterName": "Ripley"
     },
     {
       "personId": 172,
-      "characterName": "Newt",
-      "characterImage": null
+      "characterName": "Newt"
     },
     {
       "personId": 820,
-      "characterName": "Corporal Hicks",
-      "characterImage": null
+      "characterName": "Corporal Hicks"
     },
     {
       "personId": 908,
-      "characterName": "Carter J. Burke",
-      "characterImage": null
+      "characterName": "Carter J. Burke"
     },
     {
       "personId": 696,
-      "characterName": "Bishop",
-      "characterImage": null
+      "characterName": "Bishop"
     },
     {
       "personId": 125,
-      "characterName": "Private Hudson",
-      "characterImage": null
+      "characterName": "Private Hudson"
     }
   ],
   "collections": [

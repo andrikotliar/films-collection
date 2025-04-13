@@ -17,58 +17,47 @@
   "cast": [
     {
       "personId": 735,
-      "characterName": "Percy Jackson",
-      "characterImage": null
+      "characterName": "Percy Jackson"
     },
     {
       "personId": 143,
-      "characterName": "Grover",
-      "characterImage": null
+      "characterName": "Grover"
     },
     {
       "personId": 34,
-      "characterName": "Annabeth",
-      "characterImage": null
+      "characterName": "Annabeth"
     },
     {
       "personId": 496,
-      "characterName": "Luke",
-      "characterImage": null
+      "characterName": "Luke"
     },
     {
       "personId": 1045,
-      "characterName": "Zeus",
-      "characterImage": null
+      "characterName": "Zeus"
     },
     {
       "personId": 932,
-      "characterName": "Mr. Brunner / Chiron",
-      "characterImage": null
+      "characterName": "Mr. Brunner / Chiron"
     },
     {
       "personId": 1091,
-      "characterName": "Hades",
-      "characterImage": null
+      "characterName": "Hades"
     },
     {
       "personId": 1004,
-      "characterName": "Persephone",
-      "characterImage": null
+      "characterName": "Persephone"
     },
     {
       "personId": 813,
-      "characterName": "Athena",
-      "characterImage": null
+      "characterName": "Athena"
     },
     {
       "personId": 176,
-      "characterName": "Sally Jackson",
-      "characterImage": null
+      "characterName": "Sally Jackson"
     },
     {
       "personId": 677,
-      "characterName": "Poseidon",
-      "characterImage": null
+      "characterName": "Poseidon"
     }
   ],
   "collections": [

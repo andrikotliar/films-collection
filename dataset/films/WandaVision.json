@@ -40,33 +40,27 @@
   "cast": [
     {
       "personId": 329,
-      "characterName": "Wanda Maximoff / Scarlet Witch",
-      "characterImage": null
+      "characterName": "Wanda Maximoff / Scarlet Witch"
     },
     {
       "personId": 905,
-      "characterName": "Vision",
-      "characterImage": "characters/wandavision_vision.webp"
+      "characterName": "Vision"
     },
     {
       "personId": 650,
-      "characterName": "Agatha Harkness",
-      "characterImage": null
+      "characterName": "Agatha Harkness"
     },
     {
       "personId": 1112,
-      "characterName": "Monica Rambeau",
-      "characterImage": null
+      "characterName": "Monica Rambeau"
     },
     {
       "personId": 945,
-      "characterName": "Jimmy Woo",
-      "characterImage": null
+      "characterName": "Jimmy Woo"
     },
     {
       "personId": 643,
-      "characterName": "Darcy Lewis",
-      "characterImage": null
+      "characterName": "Darcy Lewis"
     }
   ],
   "collections": [
@@ -171,13 +165,7 @@
   "seriesExtension": {
     "episodesTotal": 9,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 9,
-        "releaseDate": "2021-01-15T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2021-05-05T00:00:00.000Z"
   },
   "trailers": [
     {

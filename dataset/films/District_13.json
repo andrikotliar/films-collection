@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 234,
-      "characterName": "Damien Tomaso",
-      "characterImage": null
+      "characterName": "Damien Tomaso"
     },
     {
       "personId": 267,
-      "characterName": "Le'to",
-      "characterImage": null
+      "characterName": "Le'to"
     },
     {
       "personId": 1145,
-      "characterName": "K2",
-      "characterImage": null
+      "characterName": "K2"
     },
     {
       "personId": 120,
-      "characterName": "Taha Bemamud",
-      "characterImage": null
+      "characterName": "Taha Bemamud"
     },
     {
       "personId": 259,
-      "characterName": "Lola",
-      "characterImage": null
+      "characterName": "Lola"
     }
   ],
   "collections": [

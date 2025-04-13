@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "Del Spooner",
-      "characterImage": null
+      "characterName": "Del Spooner"
     },
     {
       "personId": 150,
-      "characterName": "Susan Calvin",
-      "characterImage": null
+      "characterName": "Susan Calvin"
     },
     {
       "personId": 24,
-      "characterName": "Sonny",
-      "characterImage": "characters/i_robot_sonny.webp"
+      "characterName": "Sonny"
     },
     {
       "personId": 503,
-      "characterName": "Dr. Alfred Lanning",
-      "characterImage": null
+      "characterName": "Dr. Alfred Lanning"
     },
     {
       "personId": 155,
-      "characterName": "Lawrence Robertson",
-      "characterImage": null
+      "characterName": "Lawrence Robertson"
     },
     {
       "personId": 373,
-      "characterName": "V.I.K.I.",
-      "characterImage": "characters/i_robot_viki.webp"
+      "characterName": "V.I.K.I."
     }
   ],
   "collections": [

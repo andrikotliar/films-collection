@@ -2,10 +2,10 @@ import { FilmDetails } from '@/types';
 import { getFormattedMoneyValue, getPluralWord } from '@/helpers';
 import {
   LinksGroupWrapper,
-  ReleaseDate,
   DataLink,
   LinksGroup,
   BoxOfficeValue,
+  Dates,
 } from '../-components';
 import { SummaryConfig } from '../-types';
 
@@ -18,8 +18,13 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
     },
     {
       id: 'releaseDate',
-      title: film.type === 'SERIES' ? 'Started At' : 'Release Date',
-      content: <ReleaseDate value={film.releaseDate} />,
+      title: film.type === 'SERIES' ? 'Ongoing dates' : 'Release Date',
+      content: (
+        <Dates
+          releaseDate={film.releaseDate}
+          finishedAt={film.seriesExtension?.finishedAt}
+        />
+      ),
     },
     {
       id: 'duration',

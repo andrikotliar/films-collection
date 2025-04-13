@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": null
+      "characterName": "Thor"
     },
     {
       "personId": 1132,
-      "characterName": "Loki",
-      "characterImage": null
+      "characterName": "Loki"
     },
     {
       "personId": 175,
-      "characterName": "Hela",
-      "characterImage": null
+      "characterName": "Hela"
     },
     {
       "personId": 463,
-      "characterName": "Heimdall",
-      "characterImage": null
+      "characterName": "Heimdall"
     },
     {
       "personId": 542,
-      "characterName": "Grandmaster",
-      "characterImage": null
+      "characterName": "Grandmaster"
     },
     {
       "personId": 1111,
-      "characterName": "Valkyrie",
-      "characterImage": null
+      "characterName": "Valkyrie"
     },
     {
       "personId": 641,
-      "characterName": "Skurge",
-      "characterImage": null
+      "characterName": "Skurge"
     },
     {
       "personId": 786,
-      "characterName": "Bruce Banner / Hulk",
-      "characterImage": "characters/thor_ragnarok_bruce_banner.webp"
+      "characterName": "Bruce Banner / Hulk"
     },
     {
       "personId": 73,
-      "characterName": "Odin",
-      "characterImage": null
+      "characterName": "Odin"
     },
     {
       "personId": 114,
-      "characterName": "Doctor Strange",
-      "characterImage": null
+      "characterName": "Doctor Strange"
     }
   ],
   "collections": [

@@ -24,48 +24,39 @@
   "cast": [
     {
       "personId": 511,
-      "characterName": "Charles Xavier",
-      "characterImage": null
+      "characterName": "Charles Xavier"
     },
     {
       "personId": 823,
-      "characterName": "Erik Lensherr",
-      "characterImage": null
+      "characterName": "Erik Lensherr"
     },
     {
       "personId": 670,
-      "characterName": "Sebastian Shaw",
-      "characterImage": null
+      "characterName": "Sebastian Shaw"
     },
     {
       "personId": 1005,
-      "characterName": "Moira MacTaggert",
-      "characterImage": null
+      "characterName": "Moira MacTaggert"
     },
     {
       "personId": 547,
-      "characterName": "Raven / Mystique",
-      "characterImage": "characters/x_men_first_class_raven.webp"
+      "characterName": "Raven / Mystique"
     },
     {
       "personId": 520,
-      "characterName": "Emma Frost",
-      "characterImage": null
+      "characterName": "Emma Frost"
     },
     {
       "personId": 870,
-      "characterName": "Hank / Beast",
-      "characterImage": null
+      "characterName": "Hank / Beast"
     },
     {
       "personId": 160,
-      "characterName": "Cassidy / Banshee",
-      "characterImage": null
+      "characterName": "Cassidy / Banshee"
     },
     {
       "personId": 743,
-      "characterName": "Alex Summers / Havok",
-      "characterImage": null
+      "characterName": "Alex Summers / Havok"
     }
   ],
   "collections": [
