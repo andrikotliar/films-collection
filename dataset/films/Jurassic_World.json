@@ -30,48 +30,39 @@
   "cast": [
     {
       "personId": 199,
-      "characterName": "Owen",
-      "characterImage": null
+      "characterName": "Owen"
     },
     {
       "personId": 157,
-      "characterName": "Claire",
-      "characterImage": null
+      "characterName": "Claire"
     },
     {
       "personId": 466,
-      "characterName": "Masrani",
-      "characterImage": null
+      "characterName": "Masrani"
     },
     {
       "personId": 1165,
-      "characterName": "Hoskins",
-      "characterImage": null
+      "characterName": "Hoskins"
     },
     {
       "personId": 1153,
-      "characterName": "Gray",
-      "characterImage": null
+      "characterName": "Gray"
     },
     {
       "personId": 872,
-      "characterName": "Zach",
-      "characterImage": null
+      "characterName": "Zach"
     },
     {
       "personId": 893,
-      "characterName": "Barry",
-      "characterImage": null
+      "characterName": "Barry"
     },
     {
       "personId": 98,
-      "characterName": "Dr. Henry Wu",
-      "characterImage": null
+      "characterName": "Dr. Henry Wu"
     },
     {
       "personId": 702,
-      "characterName": "Vivian",
-      "characterImage": null
+      "characterName": "Vivian"
     }
   ],
   "collections": [

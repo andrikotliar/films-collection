@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 380,
-      "characterName": "Philippe",
-      "characterImage": null
+      "characterName": "Philippe"
     },
     {
       "personId": 893,
-      "characterName": "Driss",
-      "characterImage": null
+      "characterName": "Driss"
     },
     {
       "personId": 68,
-      "characterName": "Yvonne",
-      "characterImage": null
+      "characterName": "Yvonne"
     },
     {
       "personId": 94,
-      "characterName": "Magalie",
-      "characterImage": null
+      "characterName": "Magalie"
     }
   ],
   "collections": [

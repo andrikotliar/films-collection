@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 1164,
-      "characterName": "Dominic Toretto",
-      "characterImage": null
+      "characterName": "Dominic Toretto"
     },
     {
       "personId": 911,
-      "characterName": "Brian O'Conner",
-      "characterImage": null
+      "characterName": "Brian O'Conner"
     },
     {
       "personId": 613,
-      "characterName": "Mia",
-      "characterImage": null
+      "characterName": "Mia"
     },
     {
       "personId": 838,
-      "characterName": "Letty",
-      "characterImage": null
+      "characterName": "Letty"
     },
     {
       "personId": 591,
-      "characterName": "Campos",
-      "characterImage": null
+      "characterName": "Campos"
     },
     {
       "personId": 709,
-      "characterName": "Fenix",
-      "characterImage": null
+      "characterName": "Fenix"
     },
     {
       "personId": 392,
-      "characterName": "Gisele",
-      "characterImage": null
+      "characterName": "Gisele"
     },
     {
       "personId": 1095,
-      "characterName": "Han",
-      "characterImage": null
+      "characterName": "Han"
     }
   ],
   "collections": [

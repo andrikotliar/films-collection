@@ -162,53 +162,43 @@
   "cast": [
     {
       "personId": 1034,
-      "characterName": "Jake Sully",
-      "characterImage": "characters/avatar_jake_sully.webp"
+      "characterName": "Jake Sully"
     },
     {
       "personId": 1205,
-      "characterName": "Neytiri",
-      "characterImage": "characters/avatar_neitiri.webp"
+      "characterName": "Neytiri"
     },
     {
       "personId": 1068,
-      "characterName": "Grace Augustine",
-      "characterImage": "characters/avatar_grace_augustine.webp"
+      "characterName": "Grace Augustine"
     },
     {
       "personId": 1084,
-      "characterName": "Miles Quaritch",
-      "characterImage": null
+      "characterName": "Miles Quaritch"
     },
     {
       "personId": 838,
-      "characterName": "Trudy Chacon",
-      "characterImage": null
+      "characterName": "Trudy Chacon"
     },
     {
       "personId": 410,
-      "characterName": "Parker Selfridge",
-      "characterImage": null
+      "characterName": "Parker Selfridge"
     },
     {
       "personId": 571,
-      "characterName": "Norm Spellman",
-      "characterImage": null
+      "characterName": "Norm Spellman"
     },
     {
       "personId": 1175,
-      "characterName": "Eytukan",
-      "characterImage": "characters/avatar_eytukan.webp"
+      "characterName": "Eytukan"
     },
     {
       "personId": 709,
-      "characterName": "Tsu'tey",
-      "characterImage": "characters/avatar_tsu_tey.webp"
+      "characterName": "Tsu'tey"
     },
     {
       "personId": 1239,
-      "characterName": "Mo'at",
-      "characterImage": "characters/avatar_mo_at.webp"
+      "characterName": "Mo'at"
     }
   ],
   "collections": [

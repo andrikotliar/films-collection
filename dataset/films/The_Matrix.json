@@ -84,33 +84,27 @@
   "cast": [
     {
       "personId": 657,
-      "characterName": "Neo",
-      "characterImage": null
+      "characterName": "Neo"
     },
     {
       "personId": 707,
-      "characterName": "Morpheus",
-      "characterImage": null
+      "characterName": "Morpheus"
     },
     {
       "personId": 173,
-      "characterName": "Trinity",
-      "characterImage": null
+      "characterName": "Trinity"
     },
     {
       "personId": 454,
-      "characterName": "Agent Smith",
-      "characterImage": null
+      "characterName": "Agent Smith"
     },
     {
       "personId": 413,
-      "characterName": "Oracle",
-      "characterImage": null
+      "characterName": "Oracle"
     },
     {
       "personId": 569,
-      "characterName": "Cypher",
-      "characterImage": null
+      "characterName": "Cypher"
     }
   ],
   "collections": [

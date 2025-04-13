@@ -42,33 +42,27 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "Capt. Steven Hiller",
-      "characterImage": null
+      "characterName": "Capt. Steven Hiller"
     },
     {
       "personId": 126,
-      "characterName": "President Thomas J. Whitmore",
-      "characterImage": null
+      "characterName": "President Thomas J. Whitmore"
     },
     {
       "personId": 542,
-      "characterName": "David Levinson",
-      "characterImage": null
+      "characterName": "David Levinson"
     },
     {
       "personId": 622,
-      "characterName": "Julius Levinson",
-      "characterImage": null
+      "characterName": "Julius Levinson"
     },
     {
       "personId": 988,
-      "characterName": "General William Grey",
-      "characterImage": null
+      "characterName": "General William Grey"
     },
     {
       "personId": 946,
-      "characterName": "Russell Casse",
-      "characterImage": null
+      "characterName": "Russell Casse"
     }
   ],
   "collections": [

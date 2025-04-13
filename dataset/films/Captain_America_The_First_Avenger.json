@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 194,
-      "characterName": "Captain America / Steve Rogers",
-      "characterImage": "characters/captain_america_the_first_avenger_captain_america.webp"
+      "characterName": "Captain America / Steve Rogers"
     },
     {
       "personId": 438,
-      "characterName": "Peggy Carter",
-      "characterImage": null
+      "characterName": "Peggy Carter"
     },
     {
       "personId": 1050,
-      "characterName": "James Buchanan 'Bucky' Barnes",
-      "characterImage": null
+      "characterName": "James Buchanan 'Bucky' Barnes"
     },
     {
       "personId": 1142,
-      "characterName": "Colonel Chester Phillips",
-      "characterImage": null
+      "characterName": "Colonel Chester Phillips"
     },
     {
       "personId": 454,
-      "characterName": "Johann Schmidt / Red Skull",
-      "characterImage": "characters/captain_america_the_first_avenger_johann_schmidt.webp"
+      "characterName": "Johann Schmidt / Red Skull"
     },
     {
       "personId": 300,
-      "characterName": "Howard Stark",
-      "characterImage": null
+      "characterName": "Howard Stark"
     },
     {
       "personId": 964,
-      "characterName": "Heinz Kruger",
-      "characterImage": null
+      "characterName": "Heinz Kruger"
     },
     {
       "personId": 1079,
-      "characterName": "Dr. Abraham Erskine",
-      "characterImage": null
+      "characterName": "Dr. Abraham Erskine"
     },
     {
       "personId": 1036,
-      "characterName": "Nick Fury",
-      "characterImage": null
+      "characterName": "Nick Fury"
     },
     {
       "personId": 1123,
-      "characterName": "Dr. Arnim Zola",
-      "characterImage": null
+      "characterName": "Dr. Arnim Zola"
     }
   ],
   "collections": [

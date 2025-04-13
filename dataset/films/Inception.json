@@ -138,48 +138,39 @@
   "cast": [
     {
       "personId": 716,
-      "characterName": "Cobb",
-      "characterImage": null
+      "characterName": "Cobb"
     },
     {
       "personId": 614,
-      "characterName": "Arthur",
-      "characterImage": null
+      "characterName": "Arthur"
     },
     {
       "personId": 334,
-      "characterName": "Ariadne",
-      "characterImage": null
+      "characterName": "Ariadne"
     },
     {
       "personId": 1131,
-      "characterName": "Eames",
-      "characterImage": null
+      "characterName": "Eames"
     },
     {
       "personId": 665,
-      "characterName": "Saito",
-      "characterImage": null
+      "characterName": "Saito"
     },
     {
       "personId": 295,
-      "characterName": "Yusuf",
-      "characterImage": null
+      "characterName": "Yusuf"
     },
     {
       "personId": 214,
-      "characterName": "Robert Fischer",
-      "characterImage": null
+      "characterName": "Robert Fischer"
     },
     {
       "personId": 779,
-      "characterName": "Mal",
-      "characterImage": null
+      "characterName": "Mal"
     },
     {
       "personId": 821,
-      "characterName": "Miles",
-      "characterImage": null
+      "characterName": "Miles"
     }
   ],
   "collections": [

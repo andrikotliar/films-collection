@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 1106,
-      "characterName": "John Carter",
-      "characterImage": null
+      "characterName": "John Carter"
     },
     {
       "personId": 757,
-      "characterName": "Dejah Thoris",
-      "characterImage": null
+      "characterName": "Dejah Thoris"
     },
     {
       "personId": 1035,
-      "characterName": "Sola",
-      "characterImage": "characters/john_carter_sola.webp"
+      "characterName": "Sola"
     },
     {
       "personId": 1180,
-      "characterName": "Tars Tarkas",
-      "characterImage": "characters/john_carter_tars_tarkas.webp"
+      "characterName": "Tars Tarkas"
     },
     {
       "personId": 1115,
-      "characterName": "Tal Hajus",
-      "characterImage": "characters/john_carter_tal_hajus.webp"
+      "characterName": "Tal Hajus"
     },
     {
       "personId": 789,
-      "characterName": "Matai Shang",
-      "characterImage": null
+      "characterName": "Matai Shang"
     },
     {
       "personId": 213,
-      "characterName": "Tardos Mors",
-      "characterImage": null
+      "characterName": "Tardos Mors"
     },
     {
       "personId": 303,
-      "characterName": "Sab Than",
-      "characterImage": null
+      "characterName": "Sab Than"
     },
     {
       "personId": 513,
-      "characterName": "Kantos Kan",
-      "characterImage": null
+      "characterName": "Kantos Kan"
     }
   ],
   "collections": [

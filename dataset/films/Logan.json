@@ -30,48 +30,39 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Logan / X-24",
-      "characterImage": null
+      "characterName": "Logan / X-24"
     },
     {
       "personId": 903,
-      "characterName": "Charles",
-      "characterImage": null
+      "characterName": "Charles"
     },
     {
       "personId": 237,
-      "characterName": "Laura",
-      "characterImage": null
+      "characterName": "Laura"
     },
     {
       "personId": 138,
-      "characterName": "Pierce",
-      "characterImage": null
+      "characterName": "Pierce"
     },
     {
       "personId": 1086,
-      "characterName": "Caliban",
-      "characterImage": null
+      "characterName": "Caliban"
     },
     {
       "personId": 330,
-      "characterName": "Gabriela",
-      "characterImage": null
+      "characterName": "Gabriela"
     },
     {
       "personId": 968,
-      "characterName": "Dr. Rice",
-      "characterImage": null
+      "characterName": "Dr. Rice"
     },
     {
       "personId": 355,
-      "characterName": "Will Munson",
-      "characterImage": null
+      "characterName": "Will Munson"
     },
     {
       "personId": 324,
-      "characterName": "Kathryn Munson",
-      "characterImage": null
+      "characterName": "Kathryn Munson"
     }
   ],
   "collections": [

@@ -36,53 +36,43 @@
   "cast": [
     {
       "personId": 369,
-      "characterName": "Jyn Erso",
-      "characterImage": null
+      "characterName": "Jyn Erso"
     },
     {
       "personId": 293,
-      "characterName": "Cassian Andor",
-      "characterImage": null
+      "characterName": "Cassian Andor"
     },
     {
       "personId": 24,
-      "characterName": "K-2SO",
-      "characterImage": "characters/rogue_one_k_2so.webp"
+      "characterName": "K-2SO"
     },
     {
       "personId": 310,
-      "characterName": "Chirrut Imwe",
-      "characterImage": null
+      "characterName": "Chirrut Imwe"
     },
     {
       "personId": 1173,
-      "characterName": "Baze Malbus",
-      "characterImage": null
+      "characterName": "Baze Malbus"
     },
     {
       "personId": 110,
-      "characterName": "Orson Krennic",
-      "characterImage": null
+      "characterName": "Orson Krennic"
     },
     {
       "personId": 420,
-      "characterName": "Governor Tarkin",
-      "characterImage": null
+      "characterName": "Governor Tarkin"
     },
     {
       "personId": 377,
-      "characterName": "Saw Gerrera",
-      "characterImage": null
+      "characterName": "Saw Gerrera"
     },
     {
       "personId": 762,
-      "characterName": "Galen Erso",
-      "characterImage": null
+      "characterName": "Galen Erso"
     },
     {
       "personId": 1238,
-      "characterName": "Bodhi Rook",
-      "characterImage": null
+      "characterName": "Bodhi Rook"
     }
   ],
   "collections": [

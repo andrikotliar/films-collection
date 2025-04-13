@@ -36,58 +36,47 @@
   "cast": [
     {
       "personId": 286,
-      "characterName": "Jack Hall",
-      "characterImage": null
+      "characterName": "Jack Hall"
     },
     {
       "personId": 498,
-      "characterName": "Sam Hall",
-      "characterImage": null
+      "characterName": "Sam Hall"
     },
     {
       "personId": 349,
-      "characterName": "Laura Chapman",
-      "characterImage": null
+      "characterName": "Laura Chapman"
     },
     {
       "personId": 262,
-      "characterName": "Jason Evans",
-      "characterImage": null
+      "characterName": "Jason Evans"
     },
     {
       "personId": 535,
-      "characterName": "Frank Harris",
-      "characterImage": null
+      "characterName": "Frank Harris"
     },
     {
       "personId": 1051,
-      "characterName": "Dr. Lucy Hall",
-      "characterImage": null
+      "characterName": "Dr. Lucy Hall"
     },
     {
       "personId": 95,
-      "characterName": "J.D.",
-      "characterImage": null
+      "characterName": "J.D."
     },
     {
       "personId": 84,
-      "characterName": "Brian Parks",
-      "characterImage": null
+      "characterName": "Brian Parks"
     },
     {
       "personId": 1102,
-      "characterName": "Janet Tokada",
-      "characterImage": null
+      "characterName": "Janet Tokada"
     },
     {
       "personId": 1041,
-      "characterName": "Parker",
-      "characterImage": null
+      "characterName": "Parker"
     },
     {
       "personId": 458,
-      "characterName": "Terry Rapson",
-      "characterImage": null
+      "characterName": "Terry Rapson"
     }
   ],
   "collections": [

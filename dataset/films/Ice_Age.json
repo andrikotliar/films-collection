@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 951,
-      "characterName": "Manfred",
-      "characterImage": "characters/ice_age_manfred.webp"
+      "characterName": "Manfred"
     },
     {
       "personId": 586,
-      "characterName": "Sid",
-      "characterImage": "characters/ice_age_sid.webp"
+      "characterName": "Sid"
     },
     {
       "personId": 284,
-      "characterName": "Diego",
-      "characterImage": "characters/ice_age_diego.webp"
+      "characterName": "Diego"
     },
     {
       "personId": 415,
-      "characterName": "Soto",
-      "characterImage": "characters/ice_age_soto.webp"
+      "characterName": "Soto"
     }
   ],
   "collections": [

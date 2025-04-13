@@ -40,43 +40,35 @@
   "cast": [
     {
       "personId": 79,
-      "characterName": "Beth Harmon",
-      "characterImage": null
+      "characterName": "Beth Harmon"
     },
     {
       "personId": 121,
-      "characterName": "Mr. Shaibel",
-      "characterImage": null
+      "characterName": "Mr. Shaibel"
     },
     {
       "personId": 774,
-      "characterName": "Vasily Borgov",
-      "characterImage": null
+      "characterName": "Vasily Borgov"
     },
     {
       "personId": 778,
-      "characterName": "Alma Wheatley",
-      "characterImage": null
+      "characterName": "Alma Wheatley"
     },
     {
       "personId": 1113,
-      "characterName": "Benny Watts",
-      "characterImage": null
+      "characterName": "Benny Watts"
     },
     {
       "personId": 857,
-      "characterName": "Jolene",
-      "characterImage": null
+      "characterName": "Jolene"
     },
     {
       "personId": 435,
-      "characterName": "Harry Beltik",
-      "characterImage": null
+      "characterName": "Harry Beltik"
     },
     {
       "personId": 471,
-      "characterName": "Young Beth Harmon",
-      "characterImage": null
+      "characterName": "Young Beth Harmon"
     }
   ],
   "collections": [

@@ -84,43 +84,35 @@
   "cast": [
     {
       "personId": 203,
-      "characterName": "Bruce Wayne",
-      "characterImage": "characters/the_dark_knight_bruce_wayne.webp"
+      "characterName": "Bruce Wayne"
     },
     {
       "personId": 440,
-      "characterName": "Joker",
-      "characterImage": "characters/the_dark_knight_joker.webp"
+      "characterName": "Joker"
     },
     {
       "personId": 1,
-      "characterName": "Harvey Dent",
-      "characterImage": null
+      "characterName": "Harvey Dent"
     },
     {
       "personId": 821,
-      "characterName": "Alfred",
-      "characterImage": null
+      "characterName": "Alfred"
     },
     {
       "personId": 765,
-      "characterName": "Rachel",
-      "characterImage": null
+      "characterName": "Rachel"
     },
     {
       "personId": 395,
-      "characterName": "Gordon",
-      "characterImage": null
+      "characterName": "Gordon"
     },
     {
       "personId": 854,
-      "characterName": "Lucius Fox",
-      "characterImage": null
+      "characterName": "Lucius Fox"
     },
     {
       "personId": 214,
-      "characterName": "Scarecrow",
-      "characterImage": null
+      "characterName": "Scarecrow"
     }
   ],
   "collections": [

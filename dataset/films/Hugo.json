@@ -72,23 +72,19 @@
   "cast": [
     {
       "personId": 90,
-      "characterName": "Hugo Cabret",
-      "characterImage": null
+      "characterName": "Hugo Cabret"
     },
     {
       "personId": 109,
-      "characterName": "Georges M'li's",
-      "characterImage": null
+      "characterName": "Georges M'li's"
     },
     {
       "personId": 1025,
-      "characterName": "Station Inspector",
-      "characterImage": null
+      "characterName": "Station Inspector"
     },
     {
       "personId": 193,
-      "characterName": "Isabelle",
-      "characterImage": null
+      "characterName": "Isabelle"
     }
   ],
   "collections": [

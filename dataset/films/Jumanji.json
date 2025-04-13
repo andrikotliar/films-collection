@@ -24,28 +24,23 @@
   "cast": [
     {
       "personId": 995,
-      "characterName": "Alan Parrish",
-      "characterImage": null
+      "characterName": "Alan Parrish"
     },
     {
       "personId": 136,
-      "characterName": "Sarah Whittle",
-      "characterImage": null
+      "characterName": "Sarah Whittle"
     },
     {
       "personId": 684,
-      "characterName": "Judy Shepherd",
-      "characterImage": null
+      "characterName": "Judy Shepherd"
     },
     {
       "personId": 142,
-      "characterName": "Peter Shepherd",
-      "characterImage": null
+      "characterName": "Peter Shepherd"
     },
     {
       "personId": 607,
-      "characterName": "Van Pelt",
-      "characterImage": null
+      "characterName": "Van Pelt"
     }
   ],
   "collections": [

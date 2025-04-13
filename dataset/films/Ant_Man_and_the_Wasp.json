@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 910,
-      "characterName": "Scott Lang / Ant-Man",
-      "characterImage": "characters/ant_man_and_the_wasp_scott_lang.webp"
+      "characterName": "Scott Lang / Ant-Man"
     },
     {
       "personId": 361,
-      "characterName": "Hope Van Dyne / New Wasp",
-      "characterImage": "characters/ant_man_and_the_wasp_hope_van_dyne.webp"
+      "characterName": "Hope Van Dyne / New Wasp"
     },
     {
       "personId": 828,
-      "characterName": "Luis",
-      "characterImage": null
+      "characterName": "Luis"
     },
     {
       "personId": 427,
-      "characterName": "Ava / Ghost",
-      "characterImage": "characters/ant_man_and_the_wasp_ava.webp"
+      "characterName": "Ava / Ghost"
     },
     {
       "personId": 837,
-      "characterName": "Janet Van Dyne / First Wasp",
-      "characterImage": null
+      "characterName": "Janet Van Dyne / First Wasp"
     },
     {
       "personId": 707,
-      "characterName": "Dr. Bill Foster",
-      "characterImage": null
+      "characterName": "Dr. Bill Foster"
     },
     {
       "personId": 822,
-      "characterName": "Dr. Hank Pym",
-      "characterImage": null
+      "characterName": "Dr. Hank Pym"
     }
   ],
   "collections": [

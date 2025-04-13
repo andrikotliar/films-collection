@@ -30,68 +30,55 @@
   "cast": [
     {
       "personId": 198,
-      "characterName": "Kirk",
-      "characterImage": null
+      "characterName": "Kirk"
     },
     {
       "personId": 1198,
-      "characterName": "Spock",
-      "characterImage": null
+      "characterName": "Spock"
     },
     {
       "personId": 715,
-      "characterName": "Spock Prime",
-      "characterImage": null
+      "characterName": "Spock Prime"
     },
     {
       "personId": 351,
-      "characterName": "Nero",
-      "characterImage": null
+      "characterName": "Nero"
     },
     {
       "personId": 155,
-      "characterName": "Pike",
-      "characterImage": null
+      "characterName": "Pike"
     },
     {
       "personId": 641,
-      "characterName": "Bones",
-      "characterImage": null
+      "characterName": "Bones"
     },
     {
       "personId": 1205,
-      "characterName": "Uhura",
-      "characterImage": null
+      "characterName": "Uhura"
     },
     {
       "personId": 1070,
-      "characterName": "Scotty",
-      "characterImage": null
+      "characterName": "Scotty"
     },
     {
       "personId": 578,
-      "characterName": "Sulu",
-      "characterImage": null
+      "characterName": "Sulu"
     },
     {
       "personId": 76,
-      "characterName": "Chekov",
-      "characterImage": null
+      "characterName": "Chekov"
     },
     {
       "personId": 107,
-      "characterName": "Sarek",
-      "characterImage": null
+      "characterName": "Sarek"
     },
     {
       "personId": 1188,
-      "characterName": "Amanda Grayson",
-      "characterImage": null
+      "characterName": "Amanda Grayson"
     },
     {
       "personId": 195,
-      "characterName": "George Kirk",
-      "characterImage": null
+      "characterName": "George Kirk"
     }
   ],
   "collections": [

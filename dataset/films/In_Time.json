@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 634,
-      "characterName": "Will Salas",
-      "characterImage": null
+      "characterName": "Will Salas"
     },
     {
       "personId": 890,
-      "characterName": "Rachel Salas",
-      "characterImage": null
+      "characterName": "Rachel Salas"
     },
     {
       "personId": 1066,
-      "characterName": "Maya",
-      "characterImage": null
+      "characterName": "Maya"
     },
     {
       "personId": 599,
-      "characterName": "Borel",
-      "characterImage": null
+      "characterName": "Borel"
     }
   ],
   "collections": [

@@ -60,68 +60,55 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/the_avengers_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 194,
-      "characterName": "Steve Rogers / Captain America",
-      "characterImage": "characters/the_avengers_steve_rogers.webp"
+      "characterName": "Steve Rogers / Captain America"
     },
     {
       "personId": 786,
-      "characterName": "Bruce Banner / The Hulk",
-      "characterImage": "characters/the_avengers_bruce_banner.webp"
+      "characterName": "Bruce Banner / The Hulk"
     },
     {
       "personId": 195,
-      "characterName": "Thor",
-      "characterImage": "characters/the_avengers_thor.webp"
+      "characterName": "Thor"
     },
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow",
-      "characterImage": null
+      "characterName": "Natasha Romanoff / Black Widow"
     },
     {
       "personId": 552,
-      "characterName": "Clint Barton / Hawkeye",
-      "characterImage": null
+      "characterName": "Clint Barton / Hawkeye"
     },
     {
       "personId": 1132,
-      "characterName": "Loki",
-      "characterImage": "characters/the_avengers_loki.webp"
+      "characterName": "Loki"
     },
     {
       "personId": 216,
-      "characterName": "Agent Phil Coulson",
-      "characterImage": null
+      "characterName": "Agent Phil Coulson"
     },
     {
       "personId": 221,
-      "characterName": "Agent Maria Hill",
-      "characterImage": null
+      "characterName": "Agent Maria Hill"
     },
     {
       "personId": 1080,
-      "characterName": "Selvig",
-      "characterImage": null
+      "characterName": "Selvig"
     },
     {
       "personId": 1036,
-      "characterName": "Nick Fury",
-      "characterImage": null
+      "characterName": "Nick Fury"
     },
     {
       "personId": 423,
-      "characterName": "Pepper Potts",
-      "characterImage": null
+      "characterName": "Pepper Potts"
     },
     {
       "personId": 905,
-      "characterName": "Jarvis",
-      "characterImage": null
+      "characterName": "Jarvis"
     }
   ],
   "collections": [

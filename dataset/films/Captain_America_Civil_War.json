@@ -24,78 +24,63 @@
   "cast": [
     {
       "personId": 194,
-      "characterName": "Steve Rogers / Captain America",
-      "characterImage": "characters/captain_america_civil_war_steve_rogers.webp"
+      "characterName": "Steve Rogers / Captain America"
     },
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/captain_america_civil_war_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow",
-      "characterImage": null
+      "characterName": "Natasha Romanoff / Black Widow"
     },
     {
       "personId": 1050,
-      "characterName": "Bucky Barnes / The Winter Soldier",
-      "characterImage": null
+      "characterName": "Bucky Barnes / The Winter Soldier"
     },
     {
       "personId": 74,
-      "characterName": "Sam Wilson / The Falcon",
-      "characterImage": null
+      "characterName": "Sam Wilson / The Falcon"
     },
     {
       "personId": 304,
-      "characterName": "James Rhodes / War Machine",
-      "characterImage": "characters/captain_america_civil_war_james_rhodes.webp"
+      "characterName": "James Rhodes / War Machine"
     },
     {
       "personId": 552,
-      "characterName": "Clint Barton / Hawkeye",
-      "characterImage": null
+      "characterName": "Clint Barton / Hawkeye"
     },
     {
       "personId": 179,
-      "characterName": "T'Challa",
-      "characterImage": null
+      "characterName": "T'Challa"
     },
     {
       "personId": 905,
-      "characterName": "Vision",
-      "characterImage": "characters/captain_america_civil_war_vision.webp"
+      "characterName": "Vision"
     },
     {
       "personId": 329,
-      "characterName": "Wanda Maximoff",
-      "characterImage": null
+      "characterName": "Wanda Maximoff"
     },
     {
       "personId": 910,
-      "characterName": "Scott Lang / Ant-Man",
-      "characterImage": "characters/captain_america_civil_war_scott_lang.webp"
+      "characterName": "Scott Lang / Ant-Man"
     },
     {
       "personId": 342,
-      "characterName": "Sharon Carter",
-      "characterImage": null
+      "characterName": "Sharon Carter"
     },
     {
       "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man",
-      "characterImage": "characters/captain_america_civil_war_peter_parker.webp"
+      "characterName": "Peter Parker / Spider-Man"
     },
     {
       "personId": 244,
-      "characterName": "Zemo",
-      "characterImage": null
+      "characterName": "Zemo"
     },
     {
       "personId": 381,
-      "characterName": "Brock Rumlow",
-      "characterImage": null
+      "characterName": "Brock Rumlow"
     }
   ],
   "collections": [

@@ -15,38 +15,31 @@
   "cast": [
     {
       "personId": 552,
-      "characterName": "Clint Barton / Hawkeye",
-      "characterImage": null
+      "characterName": "Clint Barton / Hawkeye"
     },
     {
       "personId": 424,
-      "characterName": "Kate Bishop",
-      "characterImage": null
+      "characterName": "Kate Bishop"
     },
     {
       "personId": 1161,
-      "characterName": " Eleanor Bishop",
-      "characterImage": null
+      "characterName": " Eleanor Bishop"
     },
     {
       "personId": 1221,
-      "characterName": " Jack Duquesne",
-      "characterImage": null
+      "characterName": " Jack Duquesne"
     },
     {
       "personId": 1222,
-      "characterName": "Kazi",
-      "characterImage": null
+      "characterName": "Kazi"
     },
     {
       "personId": 1223,
-      "characterName": "Maya Lopez / Echo",
-      "characterImage": null
+      "characterName": "Maya Lopez / Echo"
     },
     {
       "personId": 1165,
-      "characterName": "Kingpin",
-      "characterImage": null
+      "characterName": "Kingpin"
     }
   ],
   "collections": [

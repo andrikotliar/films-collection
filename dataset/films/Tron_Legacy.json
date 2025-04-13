@@ -30,38 +30,31 @@
   "cast": [
     {
       "personId": 539,
-      "characterName": "Kevin Flynn / Clu",
-      "characterImage": null
+      "characterName": "Kevin Flynn / Clu"
     },
     {
       "personId": 393,
-      "characterName": "Sam Flynn",
-      "characterImage": null
+      "characterName": "Sam Flynn"
     },
     {
       "personId": 890,
-      "characterName": "Quorra",
-      "characterImage": null
+      "characterName": "Quorra"
     },
     {
       "personId": 153,
-      "characterName": "Alan Bradley / Tron",
-      "characterImage": null
+      "characterName": "Alan Bradley / Tron"
     },
     {
       "personId": 505,
-      "characterName": "Jarvis",
-      "characterImage": null
+      "characterName": "Jarvis"
     },
     {
       "personId": 102,
-      "characterName": "Gem",
-      "characterImage": null
+      "characterName": "Gem"
     },
     {
       "personId": 832,
-      "characterName": "Castor / Zuse",
-      "characterImage": null
+      "characterName": "Castor / Zuse"
     }
   ],
   "collections": [

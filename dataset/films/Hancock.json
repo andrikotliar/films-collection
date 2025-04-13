@@ -17,23 +17,19 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "John Hancock",
-      "characterImage": null
+      "characterName": "John Hancock"
     },
     {
       "personId": 186,
-      "characterName": "Mary",
-      "characterImage": null
+      "characterName": "Mary"
     },
     {
       "personId": 524,
-      "characterName": "Ray",
-      "characterImage": null
+      "characterName": "Ray"
     },
     {
       "personId": 318,
-      "characterName": "Kenneth \"Red\" Parker",
-      "characterImage": null
+      "characterName": "Kenneth \"Red\" Parker"
     }
   ],
   "collections": [

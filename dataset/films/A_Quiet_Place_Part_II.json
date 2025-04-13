@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 341,
-      "characterName": "Evelyn Abbott",
-      "characterImage": null
+      "characterName": "Evelyn Abbott"
     },
     {
       "personId": 585,
-      "characterName": "Lee Abbott",
-      "characterImage": null
+      "characterName": "Lee Abbott"
     },
     {
       "personId": 843,
-      "characterName": "Regan Abbott",
-      "characterImage": null
+      "characterName": "Regan Abbott"
     },
     {
       "personId": 877,
-      "characterName": "Marcus Abbott",
-      "characterImage": null
+      "characterName": "Marcus Abbott"
     },
     {
       "personId": 214,
-      "characterName": "Emmett",
-      "characterImage": null
+      "characterName": "Emmett"
     },
     {
       "personId": 297,
-      "characterName": "Man on Island",
-      "characterImage": null
+      "characterName": "Man on Island"
     }
   ],
   "collections": [

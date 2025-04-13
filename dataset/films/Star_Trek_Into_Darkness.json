@@ -17,63 +17,51 @@
   "cast": [
     {
       "personId": 198,
-      "characterName": "Kirk",
-      "characterImage": null
+      "characterName": "Kirk"
     },
     {
       "personId": 1198,
-      "characterName": "Spock",
-      "characterImage": null
+      "characterName": "Spock"
     },
     {
       "personId": 1205,
-      "characterName": "Uhura",
-      "characterImage": null
+      "characterName": "Uhura"
     },
     {
       "personId": 641,
-      "characterName": "Bones",
-      "characterImage": null
+      "characterName": "Bones"
     },
     {
       "personId": 1070,
-      "characterName": "Scotty",
-      "characterImage": null
+      "characterName": "Scotty"
     },
     {
       "personId": 578,
-      "characterName": "Sulu",
-      "characterImage": null
+      "characterName": "Sulu"
     },
     {
       "personId": 114,
-      "characterName": "Khan",
-      "characterImage": null
+      "characterName": "Khan"
     },
     {
       "personId": 76,
-      "characterName": "Chekov",
-      "characterImage": null
+      "characterName": "Chekov"
     },
     {
       "personId": 155,
-      "characterName": "Pike",
-      "characterImage": null
+      "characterName": "Pike"
     },
     {
       "personId": 925,
-      "characterName": "Marcus",
-      "characterImage": null
+      "characterName": "Marcus"
     },
     {
       "personId": 39,
-      "characterName": "Carol Marcus",
-      "characterImage": null
+      "characterName": "Carol Marcus"
     },
     {
       "personId": 881,
-      "characterName": "Thomas Harewood",
-      "characterImage": null
+      "characterName": "Thomas Harewood"
     }
   ],
   "collections": [

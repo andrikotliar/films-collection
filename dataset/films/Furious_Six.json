@@ -24,58 +24,47 @@
   "cast": [
     {
       "personId": 1164,
-      "characterName": "Dominic Toretto",
-      "characterImage": null
+      "characterName": "Dominic Toretto"
     },
     {
       "personId": 911,
-      "characterName": "Brian O'Conner",
-      "characterImage": null
+      "characterName": "Brian O'Conner"
     },
     {
       "personId": 314,
-      "characterName": "Hobbs",
-      "characterImage": null
+      "characterName": "Hobbs"
     },
     {
       "personId": 613,
-      "characterName": "Mia",
-      "characterImage": null
+      "characterName": "Mia"
     },
     {
       "personId": 838,
-      "characterName": "Letty",
-      "characterImage": null
+      "characterName": "Letty"
     },
     {
       "personId": 1156,
-      "characterName": "Roman",
-      "characterImage": null
+      "characterName": "Roman"
     },
     {
       "personId": 1095,
-      "characterName": "Han",
-      "characterImage": null
+      "characterName": "Han"
     },
     {
       "personId": 392,
-      "characterName": "Gisele",
-      "characterImage": null
+      "characterName": "Gisele"
     },
     {
       "personId": 746,
-      "characterName": "Tej",
-      "characterImage": null
+      "characterName": "Tej"
     },
     {
       "personId": 750,
-      "characterName": "Shaw",
-      "characterImage": null
+      "characterName": "Shaw"
     },
     {
       "personId": 337,
-      "characterName": "Elena",
-      "characterImage": null
+      "characterName": "Elena"
     }
   ],
   "collections": [

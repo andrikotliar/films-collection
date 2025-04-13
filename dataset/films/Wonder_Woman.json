@@ -30,43 +30,35 @@
   "cast": [
     {
       "personId": 392,
-      "characterName": "Diana",
-      "characterImage": null
+      "characterName": "Diana"
     },
     {
       "personId": 198,
-      "characterName": "Steve Trevor",
-      "characterImage": null
+      "characterName": "Steve Trevor"
     },
     {
       "personId": 226,
-      "characterName": "Hippolyta",
-      "characterImage": null
+      "characterName": "Hippolyta"
     },
     {
       "personId": 996,
-      "characterName": "Antiope",
-      "characterImage": null
+      "characterName": "Antiope"
     },
     {
       "personId": 256,
-      "characterName": "Ludendorff",
-      "characterImage": null
+      "characterName": "Ludendorff"
     },
     {
       "personId": 278,
-      "characterName": "Sir Patrick",
-      "characterImage": null
+      "characterName": "Sir Patrick"
     },
     {
       "personId": 1024,
-      "characterName": "Sameer",
-      "characterImage": null
+      "characterName": "Sameer"
     },
     {
       "personId": 364,
-      "characterName": "Charlie",
-      "characterImage": null
+      "characterName": "Charlie"
     }
   ],
   "collections": [

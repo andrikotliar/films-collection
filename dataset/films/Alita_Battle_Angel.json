@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 1003,
-      "characterName": "Alita",
-      "characterImage": "characters/alita_battle_angel_alita.webp"
+      "characterName": "Alita"
     },
     {
       "personId": 206,
-      "characterName": "Dr. Dyson Ido",
-      "characterImage": null
+      "characterName": "Dr. Dyson Ido"
     },
     {
       "personId": 546,
-      "characterName": "Chiren",
-      "characterImage": null
+      "characterName": "Chiren"
     },
     {
       "personId": 767,
-      "characterName": "Vector",
-      "characterImage": null
+      "characterName": "Vector"
     },
     {
       "personId": 317,
-      "characterName": "Zapan",
-      "characterImage": "characters/alita_battle_angel_zapan.webp"
+      "characterName": "Zapan"
     },
     {
       "personId": 486,
-      "characterName": "Grewishka",
-      "characterImage": "characters/alita_battle_angel_grewishka.webp"
+      "characterName": "Grewishka"
     },
     {
       "personId": 658,
-      "characterName": "Hugo",
-      "characterImage": null
+      "characterName": "Hugo"
     }
   ],
   "collections": [

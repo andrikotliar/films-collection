@@ -24,83 +24,67 @@
   "cast": [
     {
       "personId": 251,
-      "characterName": "Harry Potter",
-      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_harry_potter.webp"
+      "characterName": "Harry Potter"
     },
     {
       "personId": 1014,
-      "characterName": "Ron Weasley",
-      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_ron_weasley.webp"
+      "characterName": "Ron Weasley"
     },
     {
       "personId": 345,
-      "characterName": "Hermione Granger",
-      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_hermione_granger.webp"
+      "characterName": "Hermione Granger"
     },
     {
       "personId": 990,
-      "characterName": "Cedric Diggory",
-      "characterImage": null
+      "characterName": "Cedric Diggory"
     },
     {
       "personId": 942,
-      "characterName": "Lord Voldemort",
-      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_lord_voldemort.webp"
+      "characterName": "Lord Voldemort"
     },
     {
       "personId": 970,
-      "characterName": "Albus Dumbledore",
-      "characterImage": null
+      "characterName": "Albus Dumbledore"
     },
     {
       "personId": 981,
-      "characterName": "Rubeus Hagrid",
-      "characterImage": null
+      "characterName": "Rubeus Hagrid"
     },
     {
       "personId": 22,
-      "characterName": "Severus Snape",
-      "characterImage": null
+      "characterName": "Severus Snape"
     },
     {
       "personId": 1130,
-      "characterName": "Draco Malfoy",
-      "characterImage": null
+      "characterName": "Draco Malfoy"
     },
     {
       "personId": 1241,
-      "characterName": "Barty Crouch Junior",
-      "characterImage": null
+      "characterName": "Barty Crouch Junior"
     },
     {
       "personId": 1242,
-      "characterName": "Fleur Delacour",
-      "characterImage": null
+      "characterName": "Fleur Delacour"
     },
     {
       "personId": 145,
-      "characterName": "Alastor Moody",
-      "characterImage": null
+      "characterName": "Alastor Moody"
     },
     {
       "personId": 1228,
-      "characterName": "Minerva McGonagall",
-      "characterImage": null
+      "characterName": "Minerva McGonagall"
     },
     {
       "personId": 1243,
-      "characterName": "Karkaroff's Aide",
-      "characterImage": null
+      "characterName": "Karkaroff's Aide"
     },
     {
       "personId": 1244,
-      "characterName": "Barty Crouch",
-      "characterImage": null
+      "characterName": "Barty Crouch"
     },
     {
       "personId": 1245,
-      "characterName": "Madame Olympe Maxime",
-      "characterImage": null
+      "characterName": "Madame Olympe Maxime"
     }
   ],
   "collections": [

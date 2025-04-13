@@ -17,68 +17,55 @@
   "cast": [
     {
       "personId": 1150,
-      "characterName": "Anduin Lothar",
-      "characterImage": null
+      "characterName": "Anduin Lothar"
     },
     {
       "personId": 912,
-      "characterName": "Garona",
-      "characterImage": "characters/warcraft_garona.webp"
+      "characterName": "Garona"
     },
     {
       "personId": 108,
-      "characterName": "Medivh",
-      "characterImage": null
+      "characterName": "Medivh"
     },
     {
       "personId": 300,
-      "characterName": "Llane Wrynn",
-      "characterImage": null
+      "characterName": "Llane Wrynn"
     },
     {
       "personId": 1124,
-      "characterName": "Durotan / Antonidas",
-      "characterImage": "characters/warcraft_durotan.webp"
+      "characterName": "Durotan / Antonidas"
     },
     {
       "personId": 111,
-      "characterName": "Khadgar",
-      "characterImage": null
+      "characterName": "Khadgar"
     },
     {
       "personId": 986,
-      "characterName": "Orgrim",
-      "characterImage": "characters/warcraft_orgrim.webp"
+      "characterName": "Orgrim"
     },
     {
       "personId": 215,
-      "characterName": "Blackhand",
-      "characterImage": "characters/warcraft_blackhand.webp"
+      "characterName": "Blackhand"
     },
     {
       "personId": 253,
-      "characterName": "Gul'dan",
-      "characterImage": null
+      "characterName": "Gul'dan"
     },
     {
       "personId": 1019,
-      "characterName": "Lady Taria",
-      "characterImage": null
+      "characterName": "Lady Taria"
     },
     {
       "personId": 65,
-      "characterName": "Draka",
-      "characterImage": "characters/warcraft_draka.webp"
+      "characterName": "Draka"
     },
     {
       "personId": 162,
-      "characterName": "Moroes",
-      "characterImage": null
+      "characterName": "Moroes"
     },
     {
       "personId": 1220,
-      "characterName": "Callan",
-      "characterImage": null
+      "characterName": "Callan"
     }
   ],
   "collections": [

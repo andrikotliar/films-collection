@@ -17,68 +17,55 @@
   "cast": [
     {
       "personId": 1121,
-      "characterName": "Paul Atreides",
-      "characterImage": null
+      "characterName": "Paul Atreides"
     },
     {
       "personId": 954,
-      "characterName": "Lady Jessica",
-      "characterImage": null
+      "characterName": "Lady Jessica"
     },
     {
       "personId": 896,
-      "characterName": "Duke Leto Atreides",
-      "characterImage": null
+      "characterName": "Duke Leto Atreides"
     },
     {
       "personId": 528,
-      "characterName": "Duncan Idaho",
-      "characterImage": null
+      "characterName": "Duncan Idaho"
     },
     {
       "personId": 1080,
-      "characterName": "Baron Vladimir Harkonnen",
-      "characterImage": "characters/dune_baron_vladimir_harkonnen.webp"
+      "characterName": "Baron Vladimir Harkonnen"
     },
     {
       "personId": 270,
-      "characterName": "Piter De Vries",
-      "characterImage": null
+      "characterName": "Piter De Vries"
     },
     {
       "personId": 1201,
-      "characterName": "Chani",
-      "characterImage": null
+      "characterName": "Chani"
     },
     {
       "personId": 616,
-      "characterName": "Gurney Halleck",
-      "characterImage": null
+      "characterName": "Gurney Halleck"
     },
     {
       "personId": 263,
-      "characterName": "Glossu 'Beast' Rabban",
-      "characterImage": null
+      "characterName": "Glossu 'Beast' Rabban"
     },
     {
       "personId": 1085,
-      "characterName": "Thufir Hawat",
-      "characterImage": null
+      "characterName": "Thufir Hawat"
     },
     {
       "personId": 1060,
-      "characterName": "Dr. Liet Kynes",
-      "characterImage": null
+      "characterName": "Dr. Liet Kynes"
     },
     {
       "personId": 532,
-      "characterName": "Stilgar",
-      "characterImage": null
+      "characterName": "Stilgar"
     },
     {
       "personId": 190,
-      "characterName": "Dr. Wellington Yueh",
-      "characterImage": null
+      "characterName": "Dr. Wellington Yueh"
     }
   ],
   "collections": [

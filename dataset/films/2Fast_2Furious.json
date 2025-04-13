@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 911,
-      "characterName": "Brian O'Conner",
-      "characterImage": null
+      "characterName": "Brian O'Conner"
     },
     {
       "personId": 1156,
-      "characterName": "Roman Pearce",
-      "characterImage": null
+      "characterName": "Roman Pearce"
     },
     {
       "personId": 359,
-      "characterName": "Monica Fuentes",
-      "characterImage": null
+      "characterName": "Monica Fuentes"
     },
     {
       "personId": 222,
-      "characterName": "Carter Verone",
-      "characterImage": null
+      "characterName": "Carter Verone"
     },
     {
       "personId": 746,
-      "characterName": "Tej",
-      "characterImage": null
+      "characterName": "Tej"
     }
   ],
   "collections": [

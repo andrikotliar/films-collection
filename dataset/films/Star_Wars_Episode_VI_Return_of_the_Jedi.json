@@ -60,48 +60,39 @@
   "cast": [
     {
       "personId": 785,
-      "characterName": "Luke Skywalker",
-      "characterImage": null
+      "characterName": "Luke Skywalker"
     },
     {
       "personId": 431,
-      "characterName": "Han Solo",
-      "characterImage": null
+      "characterName": "Han Solo"
     },
     {
       "personId": 171,
-      "characterName": "Leia",
-      "characterImage": null
+      "characterName": "Leia"
     },
     {
       "personId": 130,
-      "characterName": "Lando Calrissian",
-      "characterImage": null
+      "characterName": "Lando Calrissian"
     },
     {
       "personId": 72,
-      "characterName": "C-3PO",
-      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_c-3po.webp"
+      "characterName": "C-3PO"
     },
     {
       "personId": 276,
-      "characterName": "Darth Vader",
-      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_darth_vader.webp"
+      "characterName": "Darth Vader"
     },
     {
       "personId": 382,
-      "characterName": "Yoda",
-      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_yoda.webp"
+      "characterName": "Yoda"
     },
     {
       "personId": 1249,
-      "characterName": "Boba Fett",
-      "characterImage": "characters/star_wars_episode_vi_return_of_the_boba_fett.webp"
+      "characterName": "Boba Fett"
     },
     {
       "personId": 459,
-      "characterName": "The Emperor",
-      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_the_emperor.webp"
+      "characterName": "The Emperor"
     }
   ],
   "collections": [

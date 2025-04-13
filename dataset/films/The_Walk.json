@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 614,
-      "characterName": "Philippe Petit",
-      "characterImage": null
+      "characterName": "Philippe Petit"
     },
     {
       "personId": 187,
-      "characterName": "Annie Allix",
-      "characterImage": null
+      "characterName": "Annie Allix"
     },
     {
       "personId": 109,
-      "characterName": "Papa Rudy",
-      "characterImage": null
+      "characterName": "Papa Rudy"
     },
     {
       "personId": 220,
-      "characterName": "Jean-Louis",
-      "characterImage": null
+      "characterName": "Jean-Louis"
     },
     {
       "personId": 501,
-      "characterName": "Jean-Pierre",
-      "characterImage": null
+      "characterName": "Jean-Pierre"
     },
     {
       "personId": 235,
-      "characterName": "Jeff",
-      "characterImage": null
+      "characterName": "Jeff"
     },
     {
       "personId": 112,
-      "characterName": "Albert",
-      "characterImage": null
+      "characterName": "Albert"
     },
     {
       "personId": 115,
-      "characterName": "David",
-      "characterImage": null
+      "characterName": "David"
     },
     {
       "personId": 1093,
-      "characterName": "Barry Greenhouse",
-      "characterImage": null
+      "characterName": "Barry Greenhouse"
     }
   ],
   "collections": [

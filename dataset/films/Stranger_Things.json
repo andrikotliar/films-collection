@@ -106,78 +106,63 @@
   "cast": [
     {
       "personId": 1188,
-      "characterName": "Joyce Byers",
-      "characterImage": null
+      "characterName": "Joyce Byers"
     },
     {
       "personId": 274,
-      "characterName": "Jim Hopper",
-      "characterImage": null
+      "characterName": "Jim Hopper"
     },
     {
       "personId": 371,
-      "characterName": "Mike Wheeler",
-      "characterImage": null
+      "characterName": "Mike Wheeler"
     },
     {
       "personId": 844,
-      "characterName": "Eleven",
-      "characterImage": null
+      "characterName": "Eleven"
     },
     {
       "personId": 396,
-      "characterName": "Dustin Henderson",
-      "characterImage": null
+      "characterName": "Dustin Henderson"
     },
     {
       "personId": 161,
-      "characterName": "Lucas Sinclair",
-      "characterImage": null
+      "characterName": "Lucas Sinclair"
     },
     {
       "personId": 862,
-      "characterName": "Nancy Wheeler",
-      "characterImage": null
+      "characterName": "Nancy Wheeler"
     },
     {
       "personId": 183,
-      "characterName": "Jonathan Byers",
-      "characterImage": null
+      "characterName": "Jonathan Byers"
     },
     {
       "personId": 566,
-      "characterName": "Steve Harrington",
-      "characterImage": null
+      "characterName": "Steve Harrington"
     },
     {
       "personId": 878,
-      "characterName": "Will Byers",
-      "characterImage": null
+      "characterName": "Will Byers"
     },
     {
       "personId": 806,
-      "characterName": "Dr. Martin Brenner",
-      "characterImage": null
+      "characterName": "Dr. Martin Brenner"
     },
     {
       "personId": 1250,
-      "characterName": "Max Mayfield",
-      "characterImage": null
+      "characterName": "Max Mayfield"
     },
     {
       "personId": 1251,
-      "characterName": "Eddie Munson",
-      "characterImage": null
+      "characterName": "Eddie Munson"
     },
     {
       "personId": 1252,
-      "characterName": "Vecna",
-      "characterImage": null
+      "characterName": "Vecna"
     },
     {
       "personId": 1253,
-      "characterName": "Billy Hargrove",
-      "characterImage": null
+      "characterName": "Billy Hargrove"
     }
   ],
   "collections": [

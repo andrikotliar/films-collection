@@ -30,28 +30,23 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ethan Hunt",
-      "characterImage": null
+      "characterName": "Ethan Hunt"
     },
     {
       "personId": 912,
-      "characterName": "Jane",
-      "characterImage": null
+      "characterName": "Jane"
     },
     {
       "personId": 1070,
-      "characterName": "Benji",
-      "characterImage": null
+      "characterName": "Benji"
     },
     {
       "personId": 552,
-      "characterName": "Brandt",
-      "characterImage": null
+      "characterName": "Brandt"
     },
     {
       "personId": 827,
-      "characterName": "Hendricks",
-      "characterImage": null
+      "characterName": "Hendricks"
     }
   ],
   "collections": [

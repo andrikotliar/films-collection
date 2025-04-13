@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 951,
-      "characterName": "Manny",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_manny.webp"
+      "characterName": "Manny"
     },
     {
       "personId": 936,
-      "characterName": "Ellie",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_ellie.webp"
+      "characterName": "Ellie"
     },
     {
       "personId": 284,
-      "characterName": "Diego",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_diego.webp"
+      "characterName": "Diego"
     },
     {
       "personId": 586,
-      "characterName": "Sid",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_sid.webp"
+      "characterName": "Sid"
     },
     {
       "personId": 621,
-      "characterName": "Eddie",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_eddie.webp"
+      "characterName": "Eddie"
     },
     {
       "personId": 1070,
-      "characterName": "Buck",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_buck.webp"
+      "characterName": "Buck"
     },
     {
       "personId": 1049,
-      "characterName": "Crash",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_crash.webp"
+      "characterName": "Crash"
     },
     {
       "personId": 202,
-      "characterName": "Scrat",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_scrat.webp"
+      "characterName": "Scrat"
     },
     {
       "personId": 639,
-      "characterName": "Scratte",
-      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_scratte.webp"
+      "characterName": "Scratte"
     }
   ],
   "collections": [

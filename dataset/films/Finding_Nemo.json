@@ -42,68 +42,55 @@
   "cast": [
     {
       "personId": 33,
-      "characterName": "Nemo",
-      "characterImage": "characters/finding_nemo_nemo.webp"
+      "characterName": "Nemo"
     },
     {
       "personId": 25,
-      "characterName": "Marlin",
-      "characterImage": "characters/finding_nemo_marlin.webp"
+      "characterName": "Marlin"
     },
     {
       "personId": 332,
-      "characterName": "Dory",
-      "characterImage": "characters/finding_nemo_dory.webp"
+      "characterName": "Dory"
     },
     {
       "personId": 1180,
-      "characterName": "Gill",
-      "characterImage": "characters/finding_nemo_gill.webp"
+      "characterName": "Gill"
     },
     {
       "personId": 139,
-      "characterName": "Bloat",
-      "characterImage": "characters/finding_nemo_bloat.webp"
+      "characterName": "Bloat"
     },
     {
       "personId": 43,
-      "characterName": "Peach",
-      "characterImage": "characters/finding_nemo_peach.webp"
+      "characterName": "Peach"
     },
     {
       "personId": 96,
-      "characterName": "Gurgle",
-      "characterImage": "characters/finding_nemo_gurgle.webp"
+      "characterName": "Gurgle"
     },
     {
       "personId": 1087,
-      "characterName": "Bubbles",
-      "characterImage": "characters/finding_nemo_bubbles.webp"
+      "characterName": "Bubbles"
     },
     {
       "personId": 1256,
-      "characterName": "Deb",
-      "characterImage": "characters/finding_nemo_deb.webp"
+      "characterName": "Deb"
     },
     {
       "personId": 1257,
-      "characterName": "Jacques",
-      "characterImage": "characters/finding_nemo_jacques.webp"
+      "characterName": "Jacques"
     },
     {
       "personId": 401,
-      "characterName": "Nigel",
-      "characterImage": "characters/finding_nemo_nigel.webp"
+      "characterName": "Nigel"
     },
     {
       "personId": 1258,
-      "characterName": "Crush",
-      "characterImage": "characters/finding_nemo_crush.webp"
+      "characterName": "Crush"
     },
     {
       "personId": 1259,
-      "characterName": "Bruce",
-      "characterImage": "characters/finding_nemo_bruce.webp"
+      "characterName": "Bruce"
     }
   ],
   "collections": [

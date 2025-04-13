@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 184,
-      "characterName": "Raleigh Becket",
-      "characterImage": null
+      "characterName": "Raleigh Becket"
     },
     {
       "personId": 463,
-      "characterName": "Stacker Pentecost",
-      "characterImage": null
+      "characterName": "Stacker Pentecost"
     },
     {
       "personId": 978,
-      "characterName": "Mako Mori",
-      "characterImage": null
+      "characterName": "Mako Mori"
     },
     {
       "personId": 182,
-      "characterName": "Dr. Newton Geiszler",
-      "characterImage": null
+      "characterName": "Dr. Newton Geiszler"
     },
     {
       "personId": 158,
-      "characterName": "Herman Gottlieb",
-      "characterImage": null
+      "characterName": "Herman Gottlieb"
     },
     {
       "personId": 808,
-      "characterName": "Herc Hansen",
-      "characterImage": null
+      "characterName": "Herc Hansen"
     },
     {
       "personId": 986,
-      "characterName": "Chuck Hansen",
-      "characterImage": null
+      "characterName": "Chuck Hansen"
     },
     {
       "personId": 999,
-      "characterName": "Hannibal Chau",
-      "characterImage": null
+      "characterName": "Hannibal Chau"
     }
   ],
   "collections": [

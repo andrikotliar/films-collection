@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 26,
-      "characterName": "Han Solo",
-      "characterImage": null
+      "characterName": "Han Solo"
     },
     {
       "personId": 611,
-      "characterName": "Chewbacca",
-      "characterImage": "characters/solo_a_star_wars_story_chewbacca.webp"
+      "characterName": "Chewbacca"
     },
     {
       "personId": 1190,
-      "characterName": "Beckett",
-      "characterImage": null
+      "characterName": "Beckett"
     },
     {
       "personId": 339,
-      "characterName": "Qi'ra",
-      "characterImage": null
+      "characterName": "Qi'ra"
     },
     {
       "personId": 308,
-      "characterName": "Lando Calrissian",
-      "characterImage": null
+      "characterName": "Lando Calrissian"
     },
     {
       "personId": 1206,
-      "characterName": "Val",
-      "characterImage": null
+      "characterName": "Val"
     },
     {
       "personId": 930,
-      "characterName": "L3-37",
-      "characterImage": "characters/solo_a_star_wars_story_l3-37.webp"
+      "characterName": "L3-37"
     },
     {
       "personId": 905,
-      "characterName": "Dryden Vos",
-      "characterImage": null
+      "characterName": "Dryden Vos"
     },
     {
       "personId": 601,
-      "characterName": "Rio Durant",
-      "characterImage": null
+      "characterName": "Rio Durant"
     }
   ],
   "collections": [

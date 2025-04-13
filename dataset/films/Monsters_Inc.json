@@ -30,33 +30,27 @@
   "cast": [
     {
       "personId": 582,
-      "characterName": "Sullivan",
-      "characterImage": "characters/monsters_inc_sullivan.webp"
+      "characterName": "Sullivan"
     },
     {
       "personId": 129,
-      "characterName": "Mike",
-      "characterImage": "characters/monsters_inc_mike.webp"
+      "characterName": "Mike"
     },
     {
       "personId": 796,
-      "characterName": "Boo",
-      "characterImage": "characters/monsters_inc_boo.webp"
+      "characterName": "Boo"
     },
     {
       "personId": 1090,
-      "characterName": "Randall",
-      "characterImage": "characters/monsters_inc_randall.webp"
+      "characterName": "Randall"
     },
     {
       "personId": 502,
-      "characterName": "Waternoose",
-      "characterImage": "characters/monsters_inc_waternoose.webp"
+      "characterName": "Waternoose"
     },
     {
       "personId": 549,
-      "characterName": "Celia",
-      "characterImage": "characters/monsters_inc_celia.webp"
+      "characterName": "Celia"
     }
   ],
   "collections": [

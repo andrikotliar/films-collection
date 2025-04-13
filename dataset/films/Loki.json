@@ -15,48 +15,39 @@
   "cast": [
     {
       "personId": 1132,
-      "characterName": "Loki",
-      "characterImage": null
+      "characterName": "Loki"
     },
     {
       "personId": 419,
-      "characterName": "Ravonna Renslayer",
-      "characterImage": null
+      "characterName": "Ravonna Renslayer"
     },
     {
       "personId": 1076,
-      "characterName": "Sylvie",
-      "characterImage": null
+      "characterName": "Sylvie"
     },
     {
       "personId": 897,
-      "characterName": "Mobius",
-      "characterImage": null
+      "characterName": "Mobius"
     },
     {
       "personId": 1191,
-      "characterName": "Hunter B-15",
-      "characterImage": null
+      "characterName": "Hunter B-15"
     },
     {
       "personId": 704,
-      "characterName": "Miss Minutes",
-      "characterImage": "characters/loki_miss_minutes.webp"
+      "characterName": "Miss Minutes"
     },
     {
       "personId": 968,
-      "characterName": "Classic Loki",
-      "characterImage": null
+      "characterName": "Classic Loki"
     },
     {
       "personId": 484,
-      "characterName": "Kid Loki",
-      "characterImage": null
+      "characterName": "Kid Loki"
     },
     {
       "personId": 608,
-      "characterName": "He Who Remains",
-      "characterImage": null
+      "characterName": "He Who Remains"
     }
   ],
   "collections": [

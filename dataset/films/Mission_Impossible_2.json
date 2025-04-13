@@ -36,43 +36,35 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ethan Hunt",
-      "characterImage": null
+      "characterName": "Ethan Hunt"
     },
     {
       "personId": 311,
-      "characterName": "Sean Ambrose",
-      "characterImage": null
+      "characterName": "Sean Ambrose"
     },
     {
       "personId": 1206,
-      "characterName": "Nyah Hall",
-      "characterImage": null
+      "characterName": "Nyah Hall"
     },
     {
       "personId": 1166,
-      "characterName": "Luther Strickell",
-      "characterImage": null
+      "characterName": "Luther Strickell"
     },
     {
       "personId": 973,
-      "characterName": "Hugh Stamp",
-      "characterImage": null
+      "characterName": "Hugh Stamp"
     },
     {
       "personId": 592,
-      "characterName": "Billy Baird",
-      "characterImage": null
+      "characterName": "Billy Baird"
     },
     {
       "personId": 145,
-      "characterName": "McCloy",
-      "characterImage": null
+      "characterName": "McCloy"
     },
     {
       "personId": 941,
-      "characterName": "Dr. Nekhorvich",
-      "characterImage": null
+      "characterName": "Dr. Nekhorvich"
     }
   ],
   "collections": [

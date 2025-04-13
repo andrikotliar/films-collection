@@ -24,33 +24,27 @@
   "cast": [
     {
       "personId": 825,
-      "characterName": "Adrian Toomes / Vulture",
-      "characterImage": "characters/spider_man_homecoming_adrian_toomes.webp"
+      "characterName": "Adrian Toomes / Vulture"
     },
     {
       "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man",
-      "characterImage": "characters/spider_man_homecoming_peter_parker.webp"
+      "characterName": "Peter Parker / Spider-Man"
     },
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/spider_man_homecoming_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 780,
-      "characterName": "May Parker",
-      "characterImage": null
+      "characterName": "May Parker"
     },
     {
       "personId": 1201,
-      "characterName": "Michelle",
-      "characterImage": null
+      "characterName": "Michelle"
     },
     {
       "personId": 489,
-      "characterName": "Ned",
-      "characterImage": null
+      "characterName": "Ned"
     }
   ],
   "collections": [

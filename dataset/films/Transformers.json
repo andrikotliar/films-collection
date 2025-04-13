@@ -36,68 +36,55 @@
   "cast": [
     {
       "personId": 1065,
-      "characterName": "Sam Witwicky",
-      "characterImage": null
+      "characterName": "Sam Witwicky"
     },
     {
       "personId": 812,
-      "characterName": "Mikaela Banes",
-      "characterImage": null
+      "characterName": "Mikaela Banes"
     },
     {
       "personId": 617,
-      "characterName": "Captain Lennox",
-      "characterImage": null
+      "characterName": "Captain Lennox"
     },
     {
       "personId": 1156,
-      "characterName": "Epps",
-      "characterImage": null
+      "characterName": "Epps"
     },
     {
       "personId": 937,
-      "characterName": "Maggie Madsen",
-      "characterImage": null
+      "characterName": "Maggie Madsen"
     },
     {
       "personId": 71,
-      "characterName": "Glen Whitmann",
-      "characterImage": null
+      "characterName": "Glen Whitmann"
     },
     {
       "personId": 603,
-      "characterName": "John Keller",
-      "characterImage": null
+      "characterName": "John Keller"
     },
     {
       "personId": 597,
-      "characterName": "Agent Simmons",
-      "characterImage": null
+      "characterName": "Agent Simmons"
     },
     {
       "personId": 918,
-      "characterName": "Optimus Prime",
-      "characterImage": "characters/transformers_optimus_prime.webp"
+      "characterName": "Optimus Prime"
     },
     {
       "personId": 787,
-      "characterName": "Bumblebee",
-      "characterImage": "characters/transformers_bumblebee.webp"
+      "characterName": "Bumblebee"
     },
     {
       "personId": 454,
-      "characterName": "Megatron",
-      "characterImage": "characters/transformers_megatron.webp"
+      "characterName": "Megatron"
     },
     {
       "personId": 961,
-      "characterName": "Frenzy",
-      "characterImage": "characters/transformers_frenzy.webp"
+      "characterName": "Frenzy"
     },
     {
       "personId": 181,
-      "characterName": "Starscream",
-      "characterImage": "characters/transformers_starscream.webp"
+      "characterName": "Starscream"
     }
   ],
   "collections": [

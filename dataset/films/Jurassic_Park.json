@@ -78,33 +78,27 @@
   "cast": [
     {
       "personId": 1031,
-      "characterName": "Grant",
-      "characterImage": null
+      "characterName": "Grant"
     },
     {
       "personId": 701,
-      "characterName": "Ellie",
-      "characterImage": null
+      "characterName": "Ellie"
     },
     {
       "personId": 542,
-      "characterName": "Malcolm",
-      "characterImage": null
+      "characterName": "Malcolm"
     },
     {
       "personId": 965,
-      "characterName": "Hammond",
-      "characterImage": null
+      "characterName": "Hammond"
     },
     {
       "personId": 615,
-      "characterName": "Tim",
-      "characterImage": null
+      "characterName": "Tim"
     },
     {
       "personId": 83,
-      "characterName": "Lex",
-      "characterImage": null
+      "characterName": "Lex"
     }
   ],
   "collections": [

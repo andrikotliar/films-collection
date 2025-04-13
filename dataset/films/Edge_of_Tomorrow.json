@@ -30,58 +30,47 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Cage",
-      "characterImage": null
+      "characterName": "Cage"
     },
     {
       "personId": 341,
-      "characterName": "Rita",
-      "characterImage": null
+      "characterName": "Rita"
     },
     {
       "personId": 145,
-      "characterName": "General Brigham",
-      "characterImage": null
+      "characterName": "General Brigham"
     },
     {
       "personId": 125,
-      "characterName": "Master Sergeant Farell",
-      "characterImage": null
+      "characterName": "Master Sergeant Farell"
     },
     {
       "personId": 605,
-      "characterName": "Skinner",
-      "characterImage": null
+      "characterName": "Skinner"
     },
     {
       "personId": 1147,
-      "characterName": "Kimmel",
-      "characterImage": null
+      "characterName": "Kimmel"
     },
     {
       "personId": 681,
-      "characterName": "Griff",
-      "characterImage": null
+      "characterName": "Griff"
     },
     {
       "personId": 384,
-      "characterName": "Ford",
-      "characterImage": null
+      "characterName": "Ford"
     },
     {
       "personId": 312,
-      "characterName": "Kuntz",
-      "characterImage": null
+      "characterName": "Kuntz"
     },
     {
       "personId": 188,
-      "characterName": "Nance",
-      "characterImage": null
+      "characterName": "Nance"
     },
     {
       "personId": 800,
-      "characterName": "Takeda",
-      "characterImage": null
+      "characterName": "Takeda"
     }
   ],
   "collections": [

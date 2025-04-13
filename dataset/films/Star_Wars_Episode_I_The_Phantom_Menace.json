@@ -36,58 +36,47 @@
   "cast": [
     {
       "personId": 724,
-      "characterName": "Qui-Gon Jinn",
-      "characterImage": null
+      "characterName": "Qui-Gon Jinn"
     },
     {
       "personId": 363,
-      "characterName": "Obi-Wan Kenobi",
-      "characterImage": null
+      "characterName": "Obi-Wan Kenobi"
     },
     {
       "personId": 864,
-      "characterName": "Padme",
-      "characterImage": null
+      "characterName": "Padme"
     },
     {
       "personId": 500,
-      "characterName": "Anakin Skywalker",
-      "characterImage": null
+      "characterName": "Anakin Skywalker"
     },
     {
       "personId": 459,
-      "characterName": "Senator Palpatine",
-      "characterImage": null
+      "characterName": "Senator Palpatine"
     },
     {
       "personId": 915,
-      "characterName": "Shmi Skywalker",
-      "characterImage": null
+      "characterName": "Shmi Skywalker"
     },
     {
       "personId": 16,
-      "characterName": "Jar Jar Binks",
-      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_jar_jar_binks.webp"
+      "characterName": "Jar Jar Binks"
     },
     {
       "personId": 72,
-      "characterName": "C-3PO",
-      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_c3po"
+      "characterName": "C-3PO"
     },
     {
       "personId": 667,
-      "characterName": "R2-D2",
-      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_r2d2"
+      "characterName": "R2-D2"
     },
     {
       "personId": 382,
-      "characterName": "Yoda",
-      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_yoda"
+      "characterName": "Yoda"
     },
     {
       "personId": 949,
-      "characterName": "Darth Maul",
-      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_darth_maul.webp"
+      "characterName": "Darth Maul"
     }
   ],
   "collections": [

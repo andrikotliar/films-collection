@@ -30,63 +30,51 @@
   "cast": [
     {
       "personId": 903,
-      "characterName": "Professor Charles Xavier",
-      "characterImage": null
+      "characterName": "Professor Charles Xavier"
     },
     {
       "personId": 453,
-      "characterName": "Logan / Wolverine",
-      "characterImage": null
+      "characterName": "Logan / Wolverine"
     },
     {
       "personId": 460,
-      "characterName": "Eric Lehnsherr / Magneto",
-      "characterImage": null
+      "characterName": "Eric Lehnsherr / Magneto"
     },
     {
       "personId": 426,
-      "characterName": "Ororo Munroe / Storm",
-      "characterImage": null
+      "characterName": "Ororo Munroe / Storm"
     },
     {
       "personId": 367,
-      "characterName": "Jean Grey",
-      "characterImage": null
+      "characterName": "Jean Grey"
     },
     {
       "personId": 510,
-      "characterName": "Scott Summers / Cyclops",
-      "characterImage": null
+      "characterName": "Scott Summers / Cyclops"
     },
     {
       "personId": 66,
-      "characterName": "Rogue",
-      "characterImage": null
+      "characterName": "Rogue"
     },
     {
       "personId": 956,
-      "characterName": "Raven Darkholme / Mystique",
-      "characterImage": "characters/x2_mystique.webp"
+      "characterName": "Raven Darkholme / Mystique"
     },
     {
       "personId": 147,
-      "characterName": "William Stryker",
-      "characterImage": null
+      "characterName": "William Stryker"
     },
     {
       "personId": 21,
-      "characterName": "Kurt Wagner / Nightcrawler",
-      "characterImage": "characters/x2_kurt_wagner.webp"
+      "characterName": "Kurt Wagner / Nightcrawler"
     },
     {
       "personId": 2,
-      "characterName": "John Allerdyce / Pyro",
-      "characterImage": null
+      "characterName": "John Allerdyce / Pyro"
     },
     {
       "personId": 1063,
-      "characterName": "Bobby Drake / Ice Man",
-      "characterImage": null
+      "characterName": "Bobby Drake / Ice Man"
     }
   ],
   "collections": [

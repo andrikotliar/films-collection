@@ -102,78 +102,63 @@
   "cast": [
     {
       "personId": 323,
-      "characterName": "Frodo Baggins",
-      "characterImage": null
+      "characterName": "Frodo Baggins"
     },
     {
       "personId": 460,
-      "characterName": "Gandalf",
-      "characterImage": null
+      "characterName": "Gandalf"
     },
     {
       "personId": 1044,
-      "characterName": "Samwise Gamgee",
-      "characterImage": null
+      "characterName": "Samwise Gamgee"
     },
     {
       "personId": 1163,
-      "characterName": "Aragorn",
-      "characterImage": null
+      "characterName": "Aragorn"
     },
     {
       "personId": 595,
-      "characterName": "Gimli",
-      "characterImage": null
+      "characterName": "Gimli"
     },
     {
       "personId": 894,
-      "characterName": "Legolas",
-      "characterImage": null
+      "characterName": "Legolas"
     },
     {
       "personId": 175,
-      "characterName": "Galadriel",
-      "characterImage": null
+      "characterName": "Galadriel"
     },
     {
       "personId": 209,
-      "characterName": "Saruman",
-      "characterImage": null
+      "characterName": "Saruman"
     },
     {
       "personId": 454,
-      "characterName": "Elrond",
-      "characterImage": null
+      "characterName": "Elrond"
     },
     {
       "personId": 61,
-      "characterName": "Gollum",
-      "characterImage": "characters/the_lord_of_the_rings_the_two_towers_gollum"
+      "characterName": "Gollum"
     },
     {
       "personId": 641,
-      "characterName": "Eomer",
-      "characterImage": null
+      "characterName": "Eomer"
     },
     {
       "personId": 1218,
-      "characterName": "Eowyn",
-      "characterImage": null
+      "characterName": "Eowyn"
     },
     {
       "personId": 1045,
-      "characterName": "Boromir",
-      "characterImage": null
+      "characterName": "Boromir"
     },
     {
       "personId": 127,
-      "characterName": "Pippin",
-      "characterImage": null
+      "characterName": "Pippin"
     },
     {
       "personId": 302,
-      "characterName": "Merry",
-      "characterImage": null
+      "characterName": "Merry"
     }
   ],
   "collections": [

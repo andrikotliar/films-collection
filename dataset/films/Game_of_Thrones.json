@@ -15,203 +15,163 @@
   "cast": [
     {
       "personId": 920,
-      "characterName": "Tyrion Lannister",
-      "characterImage": null
+      "characterName": "Tyrion Lannister"
     },
     {
       "personId": 712,
-      "characterName": "Cersei Lannister",
-      "characterImage": null
+      "characterName": "Cersei Lannister"
     },
     {
       "personId": 339,
-      "characterName": "Daenerys Targaryen",
-      "characterImage": null
+      "characterName": "Daenerys Targaryen"
     },
     {
       "personId": 685,
-      "characterName": "Jon Snow",
-      "characterImage": null
+      "characterName": "Jon Snow"
     },
     {
       "personId": 1077,
-      "characterName": "Sansa Stark",
-      "characterImage": null
+      "characterName": "Sansa Stark"
     },
     {
       "personId": 768,
-      "characterName": "Arya Stark",
-      "characterImage": null
+      "characterName": "Arya Stark"
     },
     {
       "personId": 875,
-      "characterName": "Jaime Lannister",
-      "characterImage": null
+      "characterName": "Jaime Lannister"
     },
     {
       "personId": 456,
-      "characterName": "Jorah Mormont",
-      "characterImage": null
+      "characterName": "Jorah Mormont"
     },
     {
       "personId": 575,
-      "characterName": "Samwell Tarly",
-      "characterImage": null
+      "characterName": "Samwell Tarly"
     },
     {
       "personId": 35,
-      "characterName": "Theon Greyjoy",
-      "characterImage": null
+      "characterName": "Theon Greyjoy"
     },
     {
       "personId": 225,
-      "characterName": "Lord Varys",
-      "characterImage": null
+      "characterName": "Lord Varys"
     },
     {
       "personId": 721,
-      "characterName": "Davos Seaworth",
-      "characterImage": null
+      "characterName": "Davos Seaworth"
     },
     {
       "personId": 422,
-      "characterName": "Brienne of Tarth",
-      "characterImage": null
+      "characterName": "Brienne of Tarth"
     },
     {
       "personId": 18,
-      "characterName": "Petyr 'Littlefinger' Baelish",
-      "characterImage": null
+      "characterName": "Petyr 'Littlefinger' Baelish"
     },
     {
       "personId": 467,
-      "characterName": "Bran Stark",
-      "characterImage": null
+      "characterName": "Bran Stark"
     },
     {
       "personId": 1002,
-      "characterName": "Sandor 'The Hound' Clegane",
-      "characterImage": null
+      "characterName": "Sandor 'The Hound' Clegane"
     },
     {
       "personId": 867,
-      "characterName": "Missandei",
-      "characterImage": null
+      "characterName": "Missandei"
     },
     {
       "personId": 554,
-      "characterName": "Bronn",
-      "characterImage": null
+      "characterName": "Bronn"
     },
     {
       "personId": 250,
-      "characterName": "Podrick Payne",
-      "characterImage": null
+      "characterName": "Podrick Payne"
     },
     {
       "personId": 488,
-      "characterName": "Grey Worm",
-      "characterImage": null
+      "characterName": "Grey Worm"
     },
     {
       "personId": 167,
-      "characterName": "Melisandre",
-      "characterImage": null
+      "characterName": "Melisandre"
     },
     {
       "personId": 180,
-      "characterName": "Tywin Lannister",
-      "characterImage": null
+      "characterName": "Tywin Lannister"
     },
     {
       "personId": 863,
-      "characterName": "Margaery Tyrell",
-      "characterImage": null
+      "characterName": "Margaery Tyrell"
     },
     {
       "personId": 483,
-      "characterName": "Joffrey Baratheon",
-      "characterImage": null
+      "characterName": "Joffrey Baratheon"
     },
     {
       "personId": 835,
-      "characterName": "Catelyn Stark",
-      "characterImage": null
+      "characterName": "Catelyn Stark"
     },
     {
       "personId": 1082,
-      "characterName": "Stannis Baratheon",
-      "characterImage": null
+      "characterName": "Stannis Baratheon"
     },
     {
       "personId": 688,
-      "characterName": "Hodor",
-      "characterImage": null
+      "characterName": "Hodor"
     },
     {
       "personId": 971,
-      "characterName": "Robb Stark",
-      "characterImage": null
+      "characterName": "Robb Stark"
     },
     {
       "personId": 473,
-      "characterName": "Ramsay Bolton",
-      "characterImage": null
+      "characterName": "Ramsay Bolton"
     },
     {
       "personId": 933,
-      "characterName": "Euron Greyjoy",
-      "characterImage": null
+      "characterName": "Euron Greyjoy"
     },
     {
       "personId": 290,
-      "characterName": "Olenna Tyrell",
-      "characterImage": null
+      "characterName": "Olenna Tyrell"
     },
     {
       "personId": 280,
-      "characterName": "Tommen Baratheon",
-      "characterImage": null
+      "characterName": "Tommen Baratheon"
     },
     {
       "personId": 399,
-      "characterName": "Yara Greyjoy",
-      "characterImage": null
+      "characterName": "Yara Greyjoy"
     },
     {
       "personId": 89,
-      "characterName": "Rickon Stark",
-      "characterImage": null
+      "characterName": "Rickon Stark"
     },
     {
       "personId": 1045,
-      "characterName": "Eddard 'Ned' Stark",
-      "characterImage": null
+      "characterName": "Eddard 'Ned' Stark"
     },
     {
       "personId": 781,
-      "characterName": "Robert Baratheon",
-      "characterImage": null
+      "characterName": "Robert Baratheon"
     },
     {
       "personId": 1169,
-      "characterName": "The Night King",
-      "characterImage": null
+      "characterName": "The Night King"
     },
     {
       "personId": 1006,
-      "characterName": "Ygritte",
-      "characterImage": null
+      "characterName": "Ygritte"
     },
     {
       "personId": 428,
-      "characterName": "Gilly",
-      "characterImage": null
+      "characterName": "Gilly"
     },
     {
       "personId": 690,
-      "characterName": "Tormund Giantsbane",
-      "characterImage": null
+      "characterName": "Tormund Giantsbane"
     }
   ],
   "collections": [

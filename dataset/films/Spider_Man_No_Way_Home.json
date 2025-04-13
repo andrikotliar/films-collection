@@ -17,68 +17,55 @@
   "cast": [
     {
       "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man",
-      "characterImage": "characters/spider_man_no_way_home_peter_parker.webp"
+      "characterName": "Peter Parker / Spider-Man"
     },
     {
       "personId": 1122,
-      "characterName": "Peter Parker / Spider-Man (Toby)",
-      "characterImage": "characters/spider_man_no_way_home_peter_parker_toby.webp"
+      "characterName": "Peter Parker / Spider-Man (Toby)"
     },
     {
       "personId": 57,
-      "characterName": "Peter Parker / Spider-Man (Andrew)",
-      "characterImage": "characters/spider_man_no_way_home_peter_parker_andrew.webp"
+      "characterName": "Peter Parker / Spider-Man (Andrew)"
     },
     {
       "personId": 1201,
-      "characterName": "MJ",
-      "characterImage": null
+      "characterName": "MJ"
     },
     {
       "personId": 114,
-      "characterName": "Doctor Strange",
-      "characterImage": null
+      "characterName": "Doctor Strange"
     },
     {
       "personId": 601,
-      "characterName": "Happy Hogan",
-      "characterImage": null
+      "characterName": "Happy Hogan"
     },
     {
       "personId": 780,
-      "characterName": "May Parker",
-      "characterImage": null
+      "characterName": "May Parker"
     },
     {
       "personId": 475,
-      "characterName": "J. Jonah Jameson",
-      "characterImage": null
+      "characterName": "J. Jonah Jameson"
     },
     {
       "personId": 1180,
-      "characterName": "Norman Osborn / Green Goblin",
-      "characterImage": null
+      "characterName": "Norman Osborn / Green Goblin"
     },
     {
       "personId": 116,
-      "characterName": "Wong",
-      "characterImage": null
+      "characterName": "Wong"
     },
     {
       "personId": 517,
-      "characterName": "Max Dillon / Electro",
-      "characterImage": null
+      "characterName": "Max Dillon / Electro"
     },
     {
       "personId": 36,
-      "characterName": "Otto Octavius / Doctor Octopus",
-      "characterImage": null
+      "characterName": "Otto Octavius / Doctor Octopus"
     },
     {
       "personId": 489,
-      "characterName": "Ned Leeds",
-      "characterImage": null
+      "characterName": "Ned Leeds"
     }
   ],
   "collections": [

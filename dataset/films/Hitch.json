@@ -24,28 +24,23 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "Hitch",
-      "characterImage": null
+      "characterName": "Hitch"
     },
     {
       "personId": 359,
-      "characterName": "Sara",
-      "characterImage": null
+      "characterName": "Sara"
     },
     {
       "personId": 676,
-      "characterName": "Albert",
-      "characterImage": null
+      "characterName": "Albert"
     },
     {
       "personId": 50,
-      "characterName": "Allegra",
-      "characterImage": null
+      "characterName": "Allegra"
     },
     {
       "personId": 630,
-      "characterName": "Casey",
-      "characterImage": null
+      "characterName": "Casey"
     }
   ],
   "collections": [

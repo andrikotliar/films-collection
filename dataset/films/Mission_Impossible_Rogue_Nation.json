@@ -17,33 +17,27 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ethan Hunt",
-      "characterImage": null
+      "characterName": "Ethan Hunt"
     },
     {
       "personId": 552,
-      "characterName": "William Brandt",
-      "characterImage": null
+      "characterName": "William Brandt"
     },
     {
       "personId": 1070,
-      "characterName": "Benji Dunn",
-      "characterImage": null
+      "characterName": "Benji Dunn"
     },
     {
       "personId": 954,
-      "characterName": "Ilsa Faust",
-      "characterImage": null
+      "characterName": "Ilsa Faust"
     },
     {
       "personId": 1166,
-      "characterName": "Luther Stickell",
-      "characterImage": null
+      "characterName": "Luther Stickell"
     },
     {
       "personId": 1047,
-      "characterName": "Lane",
-      "characterImage": null
+      "characterName": "Lane"
     }
   ],
   "collections": [

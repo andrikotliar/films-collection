@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 1129,
-      "characterName": "Ethan Hunt",
-      "characterImage": null
+      "characterName": "Ethan Hunt"
     },
     {
       "personId": 603,
-      "characterName": "Jim Phelps",
-      "characterImage": null
+      "characterName": "Jim Phelps"
     },
     {
       "personId": 347,
-      "characterName": "Claire",
-      "characterImage": null
+      "characterName": "Claire"
     },
     {
       "personId": 444,
-      "characterName": "Kittridge",
-      "characterImage": null
+      "characterName": "Kittridge"
     },
     {
       "personId": 536,
-      "characterName": "Krieger",
-      "characterImage": null
+      "characterName": "Krieger"
     },
     {
       "personId": 1166,
-      "characterName": "Luther",
-      "characterImage": null
+      "characterName": "Luther"
     },
     {
       "personId": 689,
-      "characterName": "Sarah Davies",
-      "characterImage": null
+      "characterName": "Sarah Davies"
     },
     {
       "personId": 1160,
-      "characterName": "Max",
-      "characterImage": null
+      "characterName": "Max"
     },
     {
       "personId": 465,
-      "characterName": "Hannah",
-      "characterImage": null
+      "characterName": "Hannah"
     }
   ],
   "collections": [

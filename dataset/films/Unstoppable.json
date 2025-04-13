@@ -17,18 +17,15 @@
   "cast": [
     {
       "personId": 287,
-      "characterName": "Frank",
-      "characterImage": null
+      "characterName": "Frank"
     },
     {
       "personId": 198,
-      "characterName": "Will",
-      "characterImage": null
+      "characterName": "Will"
     },
     {
       "personId": 1004,
-      "characterName": "Connie",
-      "characterImage": null
+      "characterName": "Connie"
     }
   ],
   "collections": [

@@ -42,53 +42,43 @@
   "cast": [
     {
       "personId": 203,
-      "characterName": "Bruce Wayne / Batman",
-      "characterImage": "characters/batman_begins_bruce_wayne.webp"
+      "characterName": "Bruce Wayne / Batman"
     },
     {
       "personId": 821,
-      "characterName": "Alfred",
-      "characterImage": null
+      "characterName": "Alfred"
     },
     {
       "personId": 724,
-      "characterName": "Anri Ducard / Ra's al Ghul",
-      "characterImage": null
+      "characterName": "Anri Ducard / Ra's al Ghul"
     },
     {
       "personId": 653,
-      "characterName": "Rachel Dawes",
-      "characterImage": null
+      "characterName": "Rachel Dawes"
     },
     {
       "personId": 395,
-      "characterName": "Jim Gordon",
-      "characterImage": null
+      "characterName": "Jim Gordon"
     },
     {
       "personId": 214,
-      "characterName": "Dr. Jonathan Crane / The Scarecrow",
-      "characterImage": null
+      "characterName": "Dr. Jonathan Crane / The Scarecrow"
     },
     {
       "personId": 1139,
-      "characterName": "Carmine Falcone",
-      "characterImage": null
+      "characterName": "Carmine Falcone"
     },
     {
       "personId": 1018,
-      "characterName": "Earle",
-      "characterImage": null
+      "characterName": "Earle"
     },
     {
       "personId": 665,
-      "characterName": "Ra's Al Ghul",
-      "characterImage": null
+      "characterName": "Ra's Al Ghul"
     },
     {
       "personId": 854,
-      "characterName": "Lucius Fox",
-      "characterImage": null
+      "characterName": "Lucius Fox"
     }
   ],
   "collections": [

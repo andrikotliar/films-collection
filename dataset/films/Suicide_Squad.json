@@ -30,48 +30,39 @@
   "cast": [
     {
       "personId": 1178,
-      "characterName": "Deadshot",
-      "characterImage": null
+      "characterName": "Deadshot"
     },
     {
       "personId": 775,
-      "characterName": "Harley Quinn",
-      "characterImage": null
+      "characterName": "Harley Quinn"
     },
     {
       "personId": 1168,
-      "characterName": "Amanda Waller",
-      "characterImage": null
+      "characterName": "Amanda Waller"
     },
     {
       "personId": 522,
-      "characterName": "The Joker",
-      "characterImage": null
+      "characterName": "The Joker"
     },
     {
       "personId": 494,
-      "characterName": "George Harkness / Captain Boomerang",
-      "characterImage": null
+      "characterName": "George Harkness / Captain Boomerang"
     },
     {
       "personId": 534,
-      "characterName": "Diablo",
-      "characterImage": null
+      "characterName": "Diablo"
     },
     {
       "personId": 11,
-      "characterName": "Killer Croc",
-      "characterImage": null
+      "characterName": "Killer Croc"
     },
     {
       "personId": 166,
-      "characterName": "June Moone / Enchantress",
-      "characterImage": null
+      "characterName": "June Moone / Enchantress"
     },
     {
       "personId": 572,
-      "characterName": "Rick Flag",
-      "characterImage": null
+      "characterName": "Rick Flag"
     }
   ],
   "collections": [

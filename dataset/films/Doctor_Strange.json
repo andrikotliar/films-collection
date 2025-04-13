@@ -30,33 +30,27 @@
   "cast": [
     {
       "personId": 114,
-      "characterName": "Dr. Stephen Strange",
-      "characterImage": null
+      "characterName": "Dr. Stephen Strange"
     },
     {
       "personId": 191,
-      "characterName": "Mordo",
-      "characterImage": null
+      "characterName": "Mordo"
     },
     {
       "personId": 939,
-      "characterName": "Dr. Christine Palmer",
-      "characterImage": null
+      "characterName": "Dr. Christine Palmer"
     },
     {
       "personId": 116,
-      "characterName": "Wong",
-      "characterImage": null
+      "characterName": "Wong"
     },
     {
       "personId": 762,
-      "characterName": "Kaecilius",
-      "characterImage": null
+      "characterName": "Kaecilius"
     },
     {
       "personId": 1118,
-      "characterName": "The Ancient One",
-      "characterImage": null
+      "characterName": "The Ancient One"
     }
   ],
   "collections": [

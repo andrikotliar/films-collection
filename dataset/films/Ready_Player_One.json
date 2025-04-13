@@ -24,53 +24,43 @@
   "cast": [
     {
       "personId": 1154,
-      "characterName": "Parzival / Wade",
-      "characterImage": "characters/ready_player_one_parzival.webp"
+      "characterName": "Parzival / Wade"
     },
     {
       "personId": 888,
-      "characterName": "Art3mis / Samantha",
-      "characterImage": "characters/ready_player_one_art3mis.webp"
+      "characterName": "Art3mis / Samantha"
     },
     {
       "personId": 110,
-      "characterName": "Sorrento",
-      "characterImage": null
+      "characterName": "Sorrento"
     },
     {
       "personId": 713,
-      "characterName": "Aech / Helen",
-      "characterImage": "characters/ready_player_one_aech.webp"
+      "characterName": "Aech / Helen"
     },
     {
       "personId": 1099,
-      "characterName": "I-R0k",
-      "characterImage": "characters/ready_player_one_i_r0k.webp"
+      "characterName": "I-R0k"
     },
     {
       "personId": 1070,
-      "characterName": "Curator / Ogden Morrow",
-      "characterImage": "characters/ready_player_one_curator.webp"
+      "characterName": "Curator / Ogden Morrow"
     },
     {
       "personId": 788,
-      "characterName": "Anorak / Halliday",
-      "characterImage": "characters/ready_player_one_anorak.webp"
+      "characterName": "Anorak / Halliday"
     },
     {
       "personId": 928,
-      "characterName": "Sho",
-      "characterImage": "characters/ready_player_one_sho.webp"
+      "characterName": "Sho"
     },
     {
       "personId": 1187,
-      "characterName": "Daito",
-      "characterImage": "characters/ready_player_one_daito.webp"
+      "characterName": "Daito"
     },
     {
       "personId": 427,
-      "characterName": "F'Nale Zandor",
-      "characterImage": null
+      "characterName": "F'Nale Zandor"
     }
   ],
   "collections": [

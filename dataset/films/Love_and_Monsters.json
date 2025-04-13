@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 316,
-      "characterName": "Joel",
-      "characterImage": null
+      "characterName": "Joel"
     },
     {
       "personId": 559,
-      "characterName": "Aimee",
-      "characterImage": null
+      "characterName": "Aimee"
     },
     {
       "personId": 830,
-      "characterName": "Clyde",
-      "characterImage": null
+      "characterName": "Clyde"
     },
     {
       "personId": 240,
-      "characterName": "Cap",
-      "characterImage": null
+      "characterName": "Cap"
     },
     {
       "personId": 82,
-      "characterName": "Minnow",
-      "characterImage": null
+      "characterName": "Minnow"
     },
     {
       "personId": 333,
-      "characterName": "Dana",
-      "characterImage": null
+      "characterName": "Dana"
     },
     {
       "personId": 1151,
-      "characterName": "Rocko",
-      "characterImage": null
+      "characterName": "Rocko"
     }
   ],
   "collections": [

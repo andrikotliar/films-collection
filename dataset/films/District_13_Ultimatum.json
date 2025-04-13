@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 234,
-      "characterName": "Damien Tomaso",
-      "characterImage": null
+      "characterName": "Damien Tomaso"
     },
     {
       "personId": 267,
-      "characterName": "Leito",
-      "characterImage": null
+      "characterName": "Leito"
     },
     {
       "personId": 929,
-      "characterName": "The President",
-      "characterImage": null
+      "characterName": "The President"
     },
     {
       "personId": 247,
-      "characterName": "Walter Gassman",
-      "characterImage": null
+      "characterName": "Walter Gassman"
     },
     {
       "personId": 335,
-      "characterName": "Tao",
-      "characterImage": null
+      "characterName": "Tao"
     },
     {
       "personId": 758,
-      "characterName": "Molko",
-      "characterImage": null
+      "characterName": "Molko"
     },
     {
       "personId": 504,
-      "characterName": "Karl le skin",
-      "characterImage": null
+      "characterName": "Karl le skin"
     },
     {
       "personId": 697,
-      "characterName": "Ali-K",
-      "characterImage": null
+      "characterName": "Ali-K"
     }
   ],
   "collections": [

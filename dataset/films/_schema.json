@@ -198,19 +198,11 @@
           "characterName": {
             "type": "string",
             "description": "Actor's role"
-          },
-          "characterImage": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "description": "Path to the file without base URL. Shows how actor looks in the movie or which character they voiced in the ANIMATION. It's NULL if an actor in the movie is recognizable without additional image."
           }
         },
         "required": [
           "personId",
-          "characterName",
-          "characterImage"
+          "characterName"
         ]
       }
     },

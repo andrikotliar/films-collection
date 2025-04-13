@@ -24,43 +24,35 @@
   "cast": [
     {
       "personId": 144,
-      "characterName": "Rick O'Connell",
-      "characterImage": null
+      "characterName": "Rick O'Connell"
     },
     {
       "personId": 940,
-      "characterName": "Evelyn Carnahan",
-      "characterImage": null
+      "characterName": "Evelyn Carnahan"
     },
     {
       "personId": 583,
-      "characterName": "Jonathan Carnahan",
-      "characterImage": null
+      "characterName": "Jonathan Carnahan"
     },
     {
       "personId": 88,
-      "characterName": "Imhotep",
-      "characterImage": null
+      "characterName": "Imhotep"
     },
     {
       "personId": 675,
-      "characterName": "Beni Gabor",
-      "characterImage": null
+      "characterName": "Beni Gabor"
     },
     {
       "personId": 607,
-      "characterName": "Dr. Allen Chamberlain",
-      "characterImage": null
+      "characterName": "Dr. Allen Chamberlain"
     },
     {
       "personId": 883,
-      "characterName": "Ardeth Bay",
-      "characterImage": null
+      "characterName": "Ardeth Bay"
     },
     {
       "personId": 353,
-      "characterName": "Dr. Terrence Bey",
-      "characterImage": null
+      "characterName": "Dr. Terrence Bey"
     }
   ],
   "collections": [

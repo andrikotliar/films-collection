@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 1037,
-      "characterName": "Daniel Morales",
-      "characterImage": null
+      "characterName": "Daniel Morales"
     },
     {
       "personId": 390,
-      "characterName": "Emilien Coutant-Kerbalec",
-      "characterImage": null
+      "characterName": "Emilien Coutant-Kerbalec"
     },
     {
       "personId": 779,
-      "characterName": "Lilly Bertineau",
-      "characterImage": null
+      "characterName": "Lilly Bertineau"
     },
     {
       "personId": 346,
-      "characterName": "Petra",
-      "characterImage": null
+      "characterName": "Petra"
     },
     {
       "personId": 118,
-      "characterName": "Commissaire Gibert",
-      "characterImage": null
+      "characterName": "Commissaire Gibert"
     }
   ],
   "collections": [

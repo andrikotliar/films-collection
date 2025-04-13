@@ -17,73 +17,59 @@
   "cast": [
     {
       "personId": 1034,
-      "characterName": "Jake Sully",
-      "characterImage": "characters/avatar_the_way_of_water_jake_sully.webp"
+      "characterName": "Jake Sully"
     },
     {
       "personId": 1205,
-      "characterName": "Neytiri",
-      "characterImage": "characters/avatar_the_way_of_water_neytiri.webp"
+      "characterName": "Neytiri"
     },
     {
       "personId": 1068,
-      "characterName": "Kiri",
-      "characterImage": "characters/avatar_the_way_of_water_kiri.webp"
+      "characterName": "Kiri"
     },
     {
       "personId": 1084,
-      "characterName": "Quaritch",
-      "characterImage": "characters/avatar_the_way_of_water_quaritch.webp"
+      "characterName": "Quaritch"
     },
     {
       "personId": 648,
-      "characterName": "Ronal",
-      "characterImage": "characters/avatar_the_way_of_water_ronal.webp"
+      "characterName": "Ronal"
     },
     {
       "personId": 1207,
-      "characterName": "Tonowari",
-      "characterImage": "characters/avatar_the_way_of_water_tonowari.webp"
+      "characterName": "Tonowari"
     },
     {
       "personId": 571,
-      "characterName": "Norm",
-      "characterImage": null
+      "characterName": "Norm"
     },
     {
       "personId": 1208,
-      "characterName": "Neteyam",
-      "characterImage": "characters/avatar_the_way_of_water_neteyam.webp"
+      "characterName": "Neteyam"
     },
     {
       "personId": 1209,
-      "characterName": "Lo'Ak",
-      "characterImage": "characters/avatar_the_way_of_water_lo_ak"
+      "characterName": "Lo'Ak"
     },
     {
       "personId": 1210,
-      "characterName": "Tuk",
-      "characterImage": "characters/avatar_the_way_of_water_tuk.webp"
+      "characterName": "Tuk"
     },
     {
       "personId": 1211,
-      "characterName": "Spider",
-      "characterImage": null
+      "characterName": "Spider"
     },
     {
       "personId": 1212,
-      "characterName": "Tsireya",
-      "characterImage": "characters/avatar_the_way_of_water_tsireya.webp"
+      "characterName": "Tsireya"
     },
     {
       "personId": 1213,
-      "characterName": "Aonung",
-      "characterImage": "characters/avatar_the_way_of_water_aonung.webp"
+      "characterName": "Aonung"
     },
     {
       "personId": 1215,
-      "characterName": "General Ardmore",
-      "characterImage": null
+      "characterName": "General Ardmore"
     }
   ],
   "collections": [

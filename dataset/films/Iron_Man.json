@@ -36,43 +36,35 @@
   "cast": [
     {
       "personId": 982,
-      "characterName": "Tony Stark / Iron Man",
-      "characterImage": "characters/iron_man_tony_stark.webp"
+      "characterName": "Tony Stark / Iron Man"
     },
     {
       "personId": 539,
-      "characterName": "Obadiah Stane",
-      "characterImage": null
+      "characterName": "Obadiah Stane"
     },
     {
       "personId": 423,
-      "characterName": "Pepper Potts",
-      "characterImage": null
+      "characterName": "Pepper Potts"
     },
     {
       "personId": 1110,
-      "characterName": "Rhodey",
-      "characterImage": null
+      "characterName": "Rhodey"
     },
     {
       "personId": 717,
-      "characterName": "Christine Everhart",
-      "characterImage": null
+      "characterName": "Christine Everhart"
     },
     {
       "personId": 1062,
-      "characterName": "Yinsen",
-      "characterImage": null
+      "characterName": "Yinsen"
     },
     {
       "personId": 368,
-      "characterName": "Raza",
-      "characterImage": null
+      "characterName": "Raza"
     },
     {
       "personId": 216,
-      "characterName": "Agent Coulson",
-      "characterImage": null
+      "characterName": "Agent Coulson"
     }
   ],
   "collections": [

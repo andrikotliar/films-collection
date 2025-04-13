@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 598,
-      "characterName": "Captain Jack Sparrow",
-      "characterImage": "characters/pirates_of_the_caribbean_on_stranger_tides_captain_jack_sparrow.webp"
+      "characterName": "Captain Jack Sparrow"
     },
     {
       "personId": 914,
-      "characterName": "Angelica",
-      "characterImage": null
+      "characterName": "Angelica"
     },
     {
       "personId": 401,
-      "characterName": "Barbossa",
-      "characterImage": null
+      "characterName": "Barbossa"
     },
     {
       "personId": 461,
-      "characterName": "Blackbeard",
-      "characterImage": null
+      "characterName": "Blackbeard"
     },
     {
       "personId": 678,
-      "characterName": "Gibbs",
-      "characterImage": null
+      "characterName": "Gibbs"
     },
     {
       "personId": 1030,
-      "characterName": "Philip",
-      "characterImage": null
+      "characterName": "Philip"
     },
     {
       "personId": 93,
-      "characterName": "Syrena",
-      "characterImage": null
+      "characterName": "Syrena"
     }
   ],
   "collections": [

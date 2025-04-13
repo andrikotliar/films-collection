@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 251,
-      "characterName": "Harry Potter",
-      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_harry_potter.webp"
+      "characterName": "Harry Potter"
     },
     {
       "personId": 1014,
-      "characterName": "Ron Weasley",
-      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_ron_weasley.webp"
+      "characterName": "Ron Weasley"
     },
     {
       "personId": 345,
-      "characterName": "Hermione Granger",
-      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_hermione_granger.webp"
+      "characterName": "Hermione Granger"
     },
     {
       "personId": 395,
-      "characterName": "Sirius Black",
-      "characterImage": null
+      "characterName": "Sirius Black"
     },
     {
       "personId": 942,
-      "characterName": "Lord Voldemort",
-      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_lord_voldemort.webp"
+      "characterName": "Lord Voldemort"
     },
     {
       "personId": 464,
-      "characterName": "Dolores Umbridge",
-      "characterImage": null
+      "characterName": "Dolores Umbridge"
     },
     {
       "personId": 970,
-      "characterName": "Albus Dumbledore",
-      "characterImage": null
+      "characterName": "Albus Dumbledore"
     },
     {
       "personId": 981,
-      "characterName": "Rubeus Hagrid",
-      "characterImage": null
+      "characterName": "Rubeus Hagrid"
     },
     {
       "personId": 1130,
-      "characterName": "Draco Malfoy",
-      "characterImage": null
+      "characterName": "Draco Malfoy"
     },
     {
       "personId": 22,
-      "characterName": "Severus Snape",
-      "characterImage": null
+      "characterName": "Severus Snape"
     }
   ],
   "collections": [

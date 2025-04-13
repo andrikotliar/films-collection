@@ -17,48 +17,39 @@
   "cast": [
     {
       "personId": 1065,
-      "characterName": "Sam Witwicky",
-      "characterImage": null
+      "characterName": "Sam Witwicky"
     },
     {
       "personId": 812,
-      "characterName": "Mikaela Banes",
-      "characterImage": null
+      "characterName": "Mikaela Banes"
     },
     {
       "personId": 617,
-      "characterName": "Major Lennox",
-      "characterImage": null
+      "characterName": "Major Lennox"
     },
     {
       "personId": 597,
-      "characterName": "Simmons",
-      "characterImage": null
+      "characterName": "Simmons"
     },
     {
       "personId": 943,
-      "characterName": "Leo Spitz",
-      "characterImage": null
+      "characterName": "Leo Spitz"
     },
     {
       "personId": 918,
-      "characterName": "Optimus Prime",
-      "characterImage": "characters/transformers_revenge_of_the_fallen_optimus_prime.webp"
+      "characterName": "Optimus Prime"
     },
     {
       "personId": 787,
-      "characterName": "Jetfire",
-      "characterImage": "characters/transformers_revenge_of_the_fallen_jetfire.webp"
+      "characterName": "Jetfire"
     },
     {
       "personId": 454,
-      "characterName": "Megatron",
-      "characterImage": "characters/transformers_revenge_of_the_fallen_megatron.webp"
+      "characterName": "Megatron"
     },
     {
       "personId": 1146,
-      "characterName": "Fallen",
-      "characterImage": "characters/transformers_revenge_of_the_fallen_fallen.webp"
+      "characterName": "Fallen"
     }
   ],
   "collections": [

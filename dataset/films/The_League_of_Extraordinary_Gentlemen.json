@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 1046,
-      "characterName": "Allan Quatermain",
-      "characterImage": null
+      "characterName": "Allan Quatermain"
     },
     {
       "personId": 861,
-      "characterName": "Captain Nemo",
-      "characterImage": null
+      "characterName": "Captain Nemo"
     },
     {
       "personId": 916,
-      "characterName": "Mina Harker",
-      "characterImage": null
+      "characterName": "Mina Harker"
     },
     {
       "personId": 1144,
-      "characterName": "Rodney Skinner",
-      "characterImage": null
+      "characterName": "Rodney Skinner"
     },
     {
       "personId": 1094,
-      "characterName": "Dorian Gray",
-      "characterImage": null
+      "characterName": "Dorian Gray"
     },
     {
       "personId": 1058,
-      "characterName": "Tom Sawyer",
-      "characterImage": null
+      "characterName": "Tom Sawyer"
     },
     {
       "personId": 526,
-      "characterName": "Dr. Henry Jekyll / Edward Hyde",
-      "characterImage": "characters/the_league_of_extraordinary_gentlemen_dr_henry_jekyll.webp"
+      "characterName": "Dr. Henry Jekyll / Edward Hyde"
     },
     {
       "personId": 973,
-      "characterName": "M",
-      "characterImage": null
+      "characterName": "M"
     }
   ],
   "collections": [

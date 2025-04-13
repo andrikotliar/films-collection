@@ -48,28 +48,23 @@
   "cast": [
     {
       "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
-      "characterImage": null
+      "characterName": "Dr. Henry «Indiana» Jones, Jr."
     },
     {
       "personId": 644,
-      "characterName": "Willie Scott",
-      "characterImage": null
+      "characterName": "Willie Scott"
     },
     {
       "personId": 656,
-      "characterName": "Short Round",
-      "characterImage": null
+      "characterName": "Short Round"
     },
     {
       "personId": 53,
-      "characterName": "Mola Ram",
-      "characterImage": null
+      "characterName": "Mola Ram"
     },
     {
       "personId": 1008,
-      "characterName": "Chattar Lal",
-      "characterImage": null
+      "characterName": "Chattar Lal"
     }
   ],
   "collections": [

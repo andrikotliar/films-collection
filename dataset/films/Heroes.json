@@ -28,88 +28,71 @@
   "cast": [
     {
       "personId": 479,
-      "characterName": "Noah Bennet",
-      "characterImage": null
+      "characterName": "Noah Bennet"
     },
     {
       "personId": 437,
-      "characterName": "Claire Bennet",
-      "characterImage": null
+      "characterName": "Claire Bennet"
     },
     {
       "personId": 845,
-      "characterName": "Peter Petrelli",
-      "characterImage": null
+      "characterName": "Peter Petrelli"
     },
     {
       "personId": 801,
-      "characterName": "Hiro Nakamura",
-      "characterImage": null
+      "characterName": "Hiro Nakamura"
     },
     {
       "personId": 1052,
-      "characterName": "Mohinder Suresh",
-      "characterImage": null
+      "characterName": "Mohinder Suresh"
     },
     {
       "personId": 417,
-      "characterName": "Matt Parkman",
-      "characterImage": null
+      "characterName": "Matt Parkman"
     },
     {
       "personId": 509,
-      "characterName": "Ando Masahashi",
-      "characterImage": null
+      "characterName": "Ando Masahashi"
     },
     {
       "personId": 15,
-      "characterName": "Nathan Petrelli",
-      "characterImage": null
+      "characterName": "Nathan Petrelli"
     },
     {
       "personId": 1198,
-      "characterName": "Sylar",
-      "characterImage": null
+      "characterName": "Sylar"
     },
     {
       "personId": 37,
-      "characterName": "Niki Sanders",
-      "characterImage": null
+      "characterName": "Niki Sanders"
     },
     {
       "personId": 233,
-      "characterName": "Angela Petrelli",
-      "characterImage": null
+      "characterName": "Angela Petrelli"
     },
     {
       "personId": 92,
-      "characterName": "Sandra Bennet",
-      "characterImage": null
+      "characterName": "Sandra Bennet"
     },
     {
       "personId": 876,
-      "characterName": "Micah Sanders",
-      "characterImage": null
+      "characterName": "Micah Sanders"
     },
     {
       "personId": 987,
-      "characterName": "Isaac Mendez",
-      "characterImage": null
+      "characterName": "Isaac Mendez"
     },
     {
       "personId": 266,
-      "characterName": "Adam Monroe",
-      "characterImage": null
+      "characterName": "Adam Monroe"
     },
     {
       "personId": 984,
-      "characterName": "Arthur Petrelli",
-      "characterImage": null
+      "characterName": "Arthur Petrelli"
     },
     {
       "personId": 771,
-      "characterName": "Daniel Linderman",
-      "characterImage": null
+      "characterName": "Daniel Linderman"
     }
   ],
   "collections": [

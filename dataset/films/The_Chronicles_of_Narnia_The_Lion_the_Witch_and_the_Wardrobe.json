@@ -48,43 +48,35 @@
   "cast": [
     {
       "personId": 402,
-      "characterName": "Lucy Pevensie",
-      "characterImage": null
+      "characterName": "Lucy Pevensie"
     },
     {
       "personId": 1072,
-      "characterName": "Edmund Pevensie",
-      "characterImage": null
+      "characterName": "Edmund Pevensie"
     },
     {
       "personId": 1184,
-      "characterName": "Peter Pevensie",
-      "characterImage": null
+      "characterName": "Peter Pevensie"
     },
     {
       "personId": 67,
-      "characterName": "Susan Pevensie",
-      "characterImage": null
+      "characterName": "Susan Pevensie"
     },
     {
       "personId": 1118,
-      "characterName": "White Witch",
-      "characterImage": null
+      "characterName": "White Witch"
     },
     {
       "personId": 511,
-      "characterName": "Mr. Tumnus",
-      "characterImage": null
+      "characterName": "Mr. Tumnus"
     },
     {
       "personId": 562,
-      "characterName": "Professor Kirke",
-      "characterImage": null
+      "characterName": "Professor Kirke"
     },
     {
       "personId": 724,
-      "characterName": "Aslan",
-      "characterImage": null
+      "characterName": "Aslan"
     }
   ],
   "collections": [

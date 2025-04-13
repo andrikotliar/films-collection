@@ -24,63 +24,51 @@
   "cast": [
     {
       "personId": 453,
-      "characterName": "Logan / Wolverine",
-      "characterImage": null
+      "characterName": "Logan / Wolverine"
     },
     {
       "personId": 426,
-      "characterName": "Ororo Munroe / Storm",
-      "characterImage": null
+      "characterName": "Ororo Munroe / Storm"
     },
     {
       "personId": 460,
-      "characterName": "Erik Lehnsherr / Magneto",
-      "characterImage": null
+      "characterName": "Erik Lehnsherr / Magneto"
     },
     {
       "personId": 903,
-      "characterName": "Charles Xavier / Professor X",
-      "characterImage": null
+      "characterName": "Charles Xavier / Professor X"
     },
     {
       "personId": 367,
-      "characterName": "Jean Grey / Phoenix",
-      "characterImage": null
+      "characterName": "Jean Grey / Phoenix"
     },
     {
       "personId": 66,
-      "characterName": "Marie / Rogue",
-      "characterImage": null
+      "characterName": "Marie / Rogue"
     },
     {
       "personId": 663,
-      "characterName": "Dr. Henry 'Hank' McCoy / Beast",
-      "characterImage": null
+      "characterName": "Dr. Henry 'Hank' McCoy / Beast"
     },
     {
       "personId": 510,
-      "characterName": "Scott Summers / Cyclops",
-      "characterImage": null
+      "characterName": "Scott Summers / Cyclops"
     },
     {
       "personId": 1063,
-      "characterName": "Bobby Drake / Iceman",
-      "characterImage": null
+      "characterName": "Bobby Drake / Iceman"
     },
     {
       "personId": 2,
-      "characterName": "John Allerdyce / Pyro",
-      "characterImage": null
+      "characterName": "John Allerdyce / Pyro"
     },
     {
       "personId": 1167,
-      "characterName": "Cain Marko / Juggernaut",
-      "characterImage": null
+      "characterName": "Cain Marko / Juggernaut"
     },
     {
       "personId": 334,
-      "characterName": "Kitty Pryde / Shadowcat",
-      "characterImage": null
+      "characterName": "Kitty Pryde / Shadowcat"
     }
   ],
   "collections": [

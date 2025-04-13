@@ -15,33 +15,27 @@
   "cast": [
     {
       "personId": 879,
-      "characterName": "Flynn Carsen",
-      "characterImage": null
+      "characterName": "Flynn Carsen"
     },
     {
       "personId": 1075,
-      "characterName": "Nicole Noone",
-      "characterImage": null
+      "characterName": "Nicole Noone"
     },
     {
       "personId": 133,
-      "characterName": "Judson",
-      "characterImage": null
+      "characterName": "Judson"
     },
     {
       "personId": 694,
-      "characterName": "Edward Wilde",
-      "characterImage": null
+      "characterName": "Edward Wilde"
     },
     {
       "personId": 518,
-      "characterName": "Charlene",
-      "characterImage": null
+      "characterName": "Charlene"
     },
     {
       "personId": 891,
-      "characterName": "Margie Carsen",
-      "characterImage": null
+      "characterName": "Margie Carsen"
     }
   ],
   "collections": [

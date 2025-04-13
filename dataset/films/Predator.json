@@ -17,43 +17,35 @@
   "cast": [
     {
       "personId": 87,
-      "characterName": "Dutch",
-      "characterImage": null
+      "characterName": "Dutch"
     },
     {
       "personId": 168,
-      "characterName": "Dillon",
-      "characterImage": null
+      "characterName": "Dillon"
     },
     {
       "personId": 336,
-      "characterName": "Anna",
-      "characterImage": null
+      "characterName": "Anna"
     },
     {
       "personId": 122,
-      "characterName": "Mac",
-      "characterImage": null
+      "characterName": "Mac"
     },
     {
       "personId": 557,
-      "characterName": "Blain",
-      "characterImage": null
+      "characterName": "Blain"
     },
     {
       "personId": 1074,
-      "characterName": "Billy",
-      "characterImage": null
+      "characterName": "Billy"
     },
     {
       "personId": 966,
-      "characterName": "Poncho",
-      "characterImage": null
+      "characterName": "Poncho"
     },
     {
       "personId": 679,
-      "characterName": "Predator",
-      "characterImage": "characters/predator_predator.webp"
+      "characterName": "Predator"
     }
   ],
   "collections": [

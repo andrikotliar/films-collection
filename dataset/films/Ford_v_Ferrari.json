@@ -17,28 +17,23 @@
   "cast": [
     {
       "personId": 803,
-      "characterName": "Carroll Shelby",
-      "characterImage": null
+      "characterName": "Carroll Shelby"
     },
     {
       "personId": 203,
-      "characterName": "Ken Miles",
-      "characterImage": null
+      "characterName": "Ken Miles"
     },
     {
       "personId": 159,
-      "characterName": "Mollie Miles",
-      "characterImage": null
+      "characterName": "Mollie Miles"
     },
     {
       "personId": 877,
-      "characterName": "Peter Miles",
-      "characterImage": null
+      "characterName": "Peter Miles"
     },
     {
       "personId": 1149,
-      "characterName": "Henry Ford II",
-      "characterImage": null
+      "characterName": "Henry Ford II"
     }
   ],
   "collections": [

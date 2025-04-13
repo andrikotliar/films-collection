@@ -22,173 +22,139 @@
   "cast": [
     {
       "personId": 326,
-      "characterName": "Clarke Griffin",
-      "characterImage": null
+      "characterName": "Clarke Griffin"
     },
     {
       "personId": 777,
-      "characterName": "Octavia Blake",
-      "characterImage": null
+      "characterName": "Octavia Blake"
     },
     {
       "personId": 132,
-      "characterName": "Bellamy Blake",
-      "characterImage": null
+      "characterName": "Bellamy Blake"
     },
     {
       "personId": 729,
-      "characterName": "Raven Reyes",
-      "characterImage": null
+      "characterName": "Raven Reyes"
     },
     {
       "personId": 969,
-      "characterName": "John Murphy",
-      "characterImage": null
+      "characterName": "John Murphy"
     },
     {
       "personId": 899,
-      "characterName": "Dr. Abigail Griffin",
-      "characterImage": null
+      "characterName": "Dr. Abigail Griffin"
     },
     {
       "personId": 446,
-      "characterName": "Marcus Kane",
-      "characterImage": null
+      "characterName": "Marcus Kane"
     },
     {
       "personId": 208,
-      "characterName": "Monty Green",
-      "characterImage": null
+      "characterName": "Monty Green"
     },
     {
       "personId": 523,
-      "characterName": "Nathan Miller",
-      "characterImage": null
+      "characterName": "Nathan Miller"
     },
     {
       "personId": 469,
-      "characterName": "Thelonious Jaha",
-      "characterImage": null
+      "characterName": "Thelonious Jaha"
     },
     {
       "personId": 1026,
-      "characterName": "Dr. Eric Jackson",
-      "characterImage": null
+      "characterName": "Dr. Eric Jackson"
     },
     {
       "personId": 1104,
-      "characterName": "Echo",
-      "characterImage": null
+      "characterName": "Echo"
     },
     {
       "personId": 12,
-      "characterName": "Indra",
-      "characterImage": null
+      "characterName": "Indra"
     },
     {
       "personId": 749,
-      "characterName": "Emori",
-      "characterImage": null
+      "characterName": "Emori"
     },
     {
       "personId": 189,
-      "characterName": "Harper McIntyre",
-      "characterImage": null
+      "characterName": "Harper McIntyre"
     },
     {
       "personId": 976,
-      "characterName": "Lincoln",
-      "characterImage": null
+      "characterName": "Lincoln"
     },
     {
       "personId": 737,
-      "characterName": "Madi Griffin",
-      "characterImage": null
+      "characterName": "Madi Griffin"
     },
     {
       "personId": 1059,
-      "characterName": "Jordan Green",
-      "characterImage": null
+      "characterName": "Jordan Green"
     },
     {
       "personId": 1105,
-      "characterName": "Gaia",
-      "characterImage": null
+      "characterName": "Gaia"
     },
     {
       "personId": 477,
-      "characterName": "Sheidheda",
-      "characterImage": null
+      "characterName": "Sheidheda"
     },
     {
       "personId": 472,
-      "characterName": "Charmaine Diyoza",
-      "characterImage": null
+      "characterName": "Charmaine Diyoza"
     },
     {
       "personId": 1117,
-      "characterName": "Finn Collins",
-      "characterImage": null
+      "characterName": "Finn Collins"
     },
     {
       "personId": 352,
-      "characterName": "A.L.I.E. / Dr. Becca Franco",
-      "characterImage": null
+      "characterName": "A.L.I.E. / Dr. Becca Franco"
     },
     {
       "personId": 31,
-      "characterName": "Jacapo Sinclair",
-      "characterImage": null
+      "characterName": "Jacapo Sinclair"
     },
     {
       "personId": 1195,
-      "characterName": "King Roan",
-      "characterImage": null
+      "characterName": "King Roan"
     },
     {
       "personId": 46,
-      "characterName": "Lexa",
-      "characterImage": null
+      "characterName": "Lexa"
     },
     {
       "personId": 819,
-      "characterName": "Charles Pike",
-      "characterImage": null
+      "characterName": "Charles Pike"
     },
     {
       "personId": 362,
-      "characterName": "Maya Vie",
-      "characterImage": null
+      "characterName": "Maya Vie"
     },
     {
       "personId": 1048,
-      "characterName": "Russell Lightbourne",
-      "characterImage": null
+      "characterName": "Russell Lightbourne"
     },
     {
       "personId": 593,
-      "characterName": "Bill Cadogan",
-      "characterImage": null
+      "characterName": "Bill Cadogan"
     },
     {
       "personId": 1039,
-      "characterName": "Josephine Lightbourne",
-      "characterImage": null
+      "characterName": "Josephine Lightbourne"
     },
     {
       "personId": 462,
-      "characterName": "Dr. Gabriel Santiago",
-      "characterImage": null
+      "characterName": "Dr. Gabriel Santiago"
     },
     {
       "personId": 869,
-      "characterName": "Anders",
-      "characterImage": null
+      "characterName": "Anders"
     },
     {
       "personId": 525,
-      "characterName": "Levitt",
-      "characterImage": null
+      "characterName": "Levitt"
     }
   ],
   "collections": [

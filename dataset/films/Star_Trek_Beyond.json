@@ -24,68 +24,55 @@
   "cast": [
     {
       "personId": 198,
-      "characterName": "Captain James T. Kirk",
-      "characterImage": null
+      "characterName": "Captain James T. Kirk"
     },
     {
       "personId": 1198,
-      "characterName": "Commander Spock",
-      "characterImage": null
+      "characterName": "Commander Spock"
     },
     {
       "personId": 641,
-      "characterName": "Doctor 'Bones' McCoy",
-      "characterImage": null
+      "characterName": "Doctor 'Bones' McCoy"
     },
     {
       "personId": 1205,
-      "characterName": "Uhura",
-      "characterImage": null
+      "characterName": "Uhura"
     },
     {
       "personId": 1070,
-      "characterName": "Montgomery 'Scotty' Scott",
-      "characterImage": null
+      "characterName": "Montgomery 'Scotty' Scott"
     },
     {
       "personId": 578,
-      "characterName": "Sulu",
-      "characterImage": null
+      "characterName": "Sulu"
     },
     {
       "personId": 76,
-      "characterName": "Chekov",
-      "characterImage": null
+      "characterName": "Chekov"
     },
     {
       "personId": 463,
-      "characterName": "Krall",
-      "characterImage": null
+      "characterName": "Krall"
     },
     {
       "personId": 1073,
-      "characterName": "Jaylah",
-      "characterImage": null
+      "characterName": "Jaylah"
     },
     {
       "personId": 570,
-      "characterName": "Manas",
-      "characterImage": null
+      "characterName": "Manas"
     },
     {
       "personId": 755,
-      "characterName": "Kalara",
-      "characterImage": null
+      "characterName": "Kalara"
     },
     {
       "personId": 282,
-      "characterName": "Keenser",
-      "characterImage": null
+      "characterName": "Keenser"
     },
     {
       "personId": 815,
-      "characterName": "Ensign Syl",
-      "characterImage": null
+      "characterName": "Ensign Syl"
     }
   ],
   "collections": [

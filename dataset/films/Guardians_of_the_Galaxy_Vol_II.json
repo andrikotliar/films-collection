@@ -24,58 +24,47 @@
   "cast": [
     {
       "personId": 199,
-      "characterName": "Peter Quill / Star-Lord",
-      "characterImage": null
+      "characterName": "Peter Quill / Star-Lord"
     },
     {
       "personId": 1205,
-      "characterName": "Gamora",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_gamora.webp"
+      "characterName": "Gamora"
     },
     {
       "personId": 263,
-      "characterName": "Drax",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_drax.webp"
+      "characterName": "Drax"
     },
     {
       "personId": 1164,
-      "characterName": "Baby Groot",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_baby_groot.webp"
+      "characterName": "Baby Groot"
     },
     {
       "personId": 141,
-      "characterName": "Rocket",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_rocket.webp"
+      "characterName": "Rocket"
     },
     {
       "personId": 830,
-      "characterName": "Yondu",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_yondu.webp"
+      "characterName": "Yondu"
     },
     {
       "personId": 640,
-      "characterName": "Nebula",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_nebula.webp"
+      "characterName": "Nebula"
     },
     {
       "personId": 934,
-      "characterName": "Mantis",
-      "characterImage": "characters/guardians_of_the_galaxy_vol_2_mantis.webp"
+      "characterName": "Mantis"
     },
     {
       "personId": 1098,
-      "characterName": "Stakar Ogord",
-      "characterImage": null
+      "characterName": "Stakar Ogord"
     },
     {
       "personId": 692,
-      "characterName": "Ego",
-      "characterImage": null
+      "characterName": "Ego"
     },
     {
       "personId": 328,
-      "characterName": "Ayesha",
-      "characterImage": null
+      "characterName": "Ayesha"
     }
   ],
   "collections": [

@@ -36,33 +36,27 @@
   "cast": [
     {
       "personId": 547,
-      "characterName": "Katniss Everdeen",
-      "characterImage": null
+      "characterName": "Katniss Everdeen"
     },
     {
       "personId": 620,
-      "characterName": "Peeta Mellark",
-      "characterImage": null
+      "characterName": "Peeta Mellark"
     },
     {
       "personId": 722,
-      "characterName": "Gale Hawthorne",
-      "characterImage": null
+      "characterName": "Gale Hawthorne"
     },
     {
       "personId": 1190,
-      "characterName": "Haymitch Abernathy",
-      "characterImage": null
+      "characterName": "Haymitch Abernathy"
     },
     {
       "personId": 327,
-      "characterName": "Effie Trinket",
-      "characterImage": null
+      "characterName": "Effie Trinket"
     },
     {
       "personId": 309,
-      "characterName": "President Coriolanus Snow",
-      "characterImage": null
+      "characterName": "President Coriolanus Snow"
     }
   ],
   "collections": [

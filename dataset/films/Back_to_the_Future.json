@@ -24,33 +24,27 @@
   "cast": [
     {
       "personId": 824,
-      "characterName": "Marty McFly",
-      "characterImage": null
+      "characterName": "Marty McFly"
     },
     {
       "personId": 210,
-      "characterName": "Dr. Emmett Brown",
-      "characterImage": null
+      "characterName": "Dr. Emmett Brown"
     },
     {
       "personId": 710,
-      "characterName": "Lorraine Baines",
-      "characterImage": null
+      "characterName": "Lorraine Baines"
     },
     {
       "personId": 232,
-      "characterName": "George McFly",
-      "characterImage": null
+      "characterName": "George McFly"
     },
     {
       "personId": 1114,
-      "characterName": "Biff Tannen",
-      "characterImage": null
+      "characterName": "Biff Tannen"
     },
     {
       "personId": 217,
-      "characterName": "Jennifer Parker",
-      "characterImage": null
+      "characterName": "Jennifer Parker"
     }
   ],
   "collections": [

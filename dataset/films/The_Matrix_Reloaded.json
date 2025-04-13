@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 657,
-      "characterName": "Neo",
-      "characterImage": null
+      "characterName": "Neo"
     },
     {
       "personId": 707,
-      "characterName": "Morpheus",
-      "characterImage": null
+      "characterName": "Morpheus"
     },
     {
       "personId": 173,
-      "characterName": "Trinity",
-      "characterImage": null
+      "characterName": "Trinity"
     },
     {
       "personId": 454,
-      "characterName": "Agent Smith",
-      "characterImage": null
+      "characterName": "Agent Smith"
     },
     {
       "personId": 413,
-      "characterName": "Oracle",
-      "characterImage": null
+      "characterName": "Oracle"
     },
     {
       "personId": 490,
-      "characterName": "Niobe",
-      "characterImage": null
+      "characterName": "Niobe"
     },
     {
       "personId": 850,
-      "characterName": "Persephone",
-      "characterImage": null
+      "characterName": "Persephone"
     },
     {
       "personId": 695,
-      "characterName": "The Merovaiingian",
-      "characterImage": null
+      "characterName": "The Merovaiingian"
     },
     {
       "personId": 944,
-      "characterName": "The Keymaker",
-      "characterImage": null
+      "characterName": "The Keymaker"
     },
     {
       "personId": 442,
-      "characterName": "The Architect",
-      "characterImage": null
+      "characterName": "The Architect"
     }
   ],
   "collections": [

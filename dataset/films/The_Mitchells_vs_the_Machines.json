@@ -15,38 +15,31 @@
   "cast": [
     {
       "personId": 4,
-      "characterName": "Katie Mitchell",
-      "characterImage": "characters/the_mitchells_vs_the_machines_katie_mitchell.webp"
+      "characterName": "Katie Mitchell"
     },
     {
       "personId": 257,
-      "characterName": "Rick Mitchell",
-      "characterImage": "characters/the_mitchells_vs_the_machines_rick_mitchell.webp"
+      "characterName": "Rick Mitchell"
     },
     {
       "personId": 810,
-      "characterName": "Linda Mitchell",
-      "characterImage": "characters/the_mitchells_vs_the_machines_linda_mitchell.webp"
+      "characterName": "Linda Mitchell"
     },
     {
       "personId": 829,
-      "characterName": "Aaron Mitchell",
-      "characterImage": "characters/the_mitchells_vs_the_machines_aaron_mitchell.webp"
+      "characterName": "Aaron Mitchell"
     },
     {
       "personId": 887,
-      "characterName": "PAL",
-      "characterImage": "characters/the_mitchells_vs_the_machines_pal.webp"
+      "characterName": "PAL"
     },
     {
       "personId": 350,
-      "characterName": "Dr. Mark Bowman",
-      "characterImage": "characters/the_mitchells_vs_the_machines_dr_mark_bowman.webp"
+      "characterName": "Dr. Mark Bowman"
     },
     {
       "personId": 386,
-      "characterName": "Deborahbot 5000",
-      "characterImage": "characters/the_mitchells_vs_the_machines_deborahbot_5000.webp"
+      "characterName": "Deborahbot 5000"
     }
   ],
   "collections": [

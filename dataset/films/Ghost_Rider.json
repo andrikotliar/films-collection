@@ -17,53 +17,43 @@
   "cast": [
     {
       "personId": 873,
-      "characterName": "Johnny Blaze / Ghost Rider",
-      "characterImage": "characters/ghost_rider_johnny_blaze.webp"
+      "characterName": "Johnny Blaze / Ghost Rider"
     },
     {
       "personId": 359,
-      "characterName": "Roxanne Simpson",
-      "characterImage": null
+      "characterName": "Roxanne Simpson"
     },
     {
       "personId": 921,
-      "characterName": "Mephistopheles",
-      "characterImage": null
+      "characterName": "Mephistopheles"
     },
     {
       "personId": 1174,
-      "characterName": "Blackheart",
-      "characterImage": null
+      "characterName": "Blackheart"
     },
     {
       "personId": 307,
-      "characterName": "Mack",
-      "characterImage": null
+      "characterName": "Mack"
     },
     {
       "personId": 706,
-      "characterName": "Gressil",
-      "characterImage": null
+      "characterName": "Gressil"
     },
     {
       "personId": 248,
-      "characterName": "Wallow",
-      "characterImage": null
+      "characterName": "Wallow"
     },
     {
       "personId": 802,
-      "characterName": "Abigor",
-      "characterImage": null
+      "characterName": "Abigor"
     },
     {
       "personId": 146,
-      "characterName": "Barton Blaze",
-      "characterImage": null
+      "characterName": "Barton Blaze"
     },
     {
       "personId": 1240,
-      "characterName": "Caretaker",
-      "characterImage": null
+      "characterName": "Caretaker"
     }
   ],
   "collections": [

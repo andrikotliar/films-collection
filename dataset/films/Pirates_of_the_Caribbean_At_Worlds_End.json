@@ -24,38 +24,31 @@
   "cast": [
     {
       "personId": 598,
-      "characterName": "Captain Jack Sparrow",
-      "characterImage": "characters/pirates_of_the_caribbean_at_world_s_end_captain_jack_sparrow"
+      "characterName": "Captain Jack Sparrow"
     },
     {
       "personId": 401,
-      "characterName": "Captain Hector Barbossa",
-      "characterImage": null
+      "characterName": "Captain Hector Barbossa"
     },
     {
       "personId": 894,
-      "characterName": "Will Turner",
-      "characterImage": null
+      "characterName": "Will Turner"
     },
     {
       "personId": 659,
-      "characterName": "Elizabeth Swann",
-      "characterImage": null
+      "characterName": "Elizabeth Swann"
     },
     {
       "personId": 480,
-      "characterName": "Norrington",
-      "characterImage": null
+      "characterName": "Norrington"
     },
     {
       "personId": 1126,
-      "characterName": "Cutler Beckett",
-      "characterImage": null
+      "characterName": "Cutler Beckett"
     },
     {
       "personId": 124,
-      "characterName": "Davy Jones",
-      "characterImage": "characters/pirates_of_the_caribbean_at_world_s_end_davy_jones"
+      "characterName": "Davy Jones"
     }
   ],
   "collections": [

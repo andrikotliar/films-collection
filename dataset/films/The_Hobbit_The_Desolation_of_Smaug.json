@@ -24,118 +24,95 @@
   "cast": [
     {
       "personId": 460,
-      "characterName": "Gendalf",
-      "characterImage": null
+      "characterName": "Gendalf"
     },
     {
       "personId": 792,
-      "characterName": "Bilbo",
-      "characterImage": null
+      "characterName": "Bilbo"
     },
     {
       "personId": 750,
-      "characterName": "Bard",
-      "characterImage": null
+      "characterName": "Bard"
     },
     {
       "personId": 114,
-      "characterName": "Smaug",
-      "characterImage": null
+      "characterName": "Smaug"
     },
     {
       "personId": 964,
-      "characterName": "Thorin",
-      "characterImage": null
+      "characterName": "Thorin"
     },
     {
       "personId": 361,
-      "characterName": "Tauriel",
-      "characterImage": null
+      "characterName": "Tauriel"
     },
     {
       "personId": 664,
-      "characterName": "Balin",
-      "characterImage": null
+      "characterName": "Balin"
     },
     {
       "personId": 416,
-      "characterName": "Dwalin",
-      "characterImage": null
+      "characterName": "Dwalin"
     },
     {
       "personId": 1183,
-      "characterName": "Bifur",
-      "characterImage": null
+      "characterName": "Bifur"
     },
     {
       "personId": 512,
-      "characterName": "Bofur",
-      "characterImage": null
+      "characterName": "Bofur"
     },
     {
       "personId": 1083,
-      "characterName": "Bombur",
-      "characterImage": null
+      "characterName": "Bombur"
     },
     {
       "personId": 279,
-      "characterName": "Fili",
-      "characterImage": null
+      "characterName": "Fili"
     },
     {
       "personId": 19,
-      "characterName": "Kili",
-      "characterImage": null
+      "characterName": "Kili"
     },
     {
       "personId": 577,
-      "characterName": "Oin",
-      "characterImage": null
+      "characterName": "Oin"
     },
     {
       "personId": 923,
-      "characterName": "Gloin",
-      "characterImage": null
+      "characterName": "Gloin"
     },
     {
       "personId": 538,
-      "characterName": "Nori",
-      "characterImage": null
+      "characterName": "Nori"
     },
     {
       "personId": 784,
-      "characterName": "Dori",
-      "characterImage": null
+      "characterName": "Dori"
     },
     {
       "personId": 6,
-      "characterName": "Ori",
-      "characterImage": null
+      "characterName": "Ori"
     },
     {
       "personId": 458,
-      "characterName": "Old Bilbo",
-      "characterImage": null
+      "characterName": "Old Bilbo"
     },
     {
       "personId": 454,
-      "characterName": "Elrond",
-      "characterImage": null
+      "characterName": "Elrond"
     },
     {
       "personId": 175,
-      "characterName": "Galadriel",
-      "characterImage": null
+      "characterName": "Galadriel"
     },
     {
       "personId": 894,
-      "characterName": "Legolas",
-      "characterImage": null
+      "characterName": "Legolas"
     },
     {
       "personId": 711,
-      "characterName": "Thranduil",
-      "characterImage": null
+      "characterName": "Thranduil"
     }
   ],
   "collections": [

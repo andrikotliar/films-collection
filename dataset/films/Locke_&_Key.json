@@ -15,48 +15,39 @@
   "cast": [
     {
       "personId": 260,
-      "characterName": "Nina Locke",
-      "characterImage": null
+      "characterName": "Nina Locke"
     },
     {
       "personId": 227,
-      "characterName": "Tyler Locke",
-      "characterImage": null
+      "characterName": "Tyler Locke"
     },
     {
       "personId": 340,
-      "characterName": "Kinsey Locke",
-      "characterImage": null
+      "characterName": "Kinsey Locke"
     },
     {
       "personId": 487,
-      "characterName": "Bode Locke",
-      "characterImage": null
+      "characterName": "Bode Locke"
     },
     {
       "personId": 926,
-      "characterName": "Scot Cavendish",
-      "characterImage": null
+      "characterName": "Scot Cavendish"
     },
     {
       "personId": 1064,
-      "characterName": "Ellie Whedon",
-      "characterImage": null
+      "characterName": "Ellie Whedon"
     },
     {
       "personId": 400,
-      "characterName": "Jackie Veda",
-      "characterImage": null
+      "characterName": "Jackie Veda"
     },
     {
       "personId": 1227,
-      "characterName": "Duncan Locke",
-      "characterImage": null
+      "characterName": "Duncan Locke"
     },
     {
       "personId": 708,
-      "characterName": "Dodge",
-      "characterImage": null
+      "characterName": "Dodge"
     }
   ],
   "collections": [

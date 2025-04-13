@@ -17,83 +17,67 @@
   "cast": [
     {
       "personId": 666,
-      "characterName": "Hercule Poirot",
-      "characterImage": null
+      "characterName": "Hercule Poirot"
     },
     {
       "personId": 914,
-      "characterName": "Pilar Estravados",
-      "characterImage": null
+      "characterName": "Pilar Estravados"
     },
     {
       "personId": 1180,
-      "characterName": "Gerhard Hardman",
-      "characterImage": null
+      "characterName": "Gerhard Hardman"
     },
     {
       "personId": 624,
-      "characterName": "Princess Dragomiroff",
-      "characterImage": null
+      "characterName": "Princess Dragomiroff"
     },
     {
       "personId": 598,
-      "characterName": "Edward Ratchett",
-      "characterImage": null
+      "characterName": "Edward Ratchett"
     },
     {
       "personId": 618,
-      "characterName": "Hector MacQueen",
-      "characterImage": null
+      "characterName": "Hector MacQueen"
     },
     {
       "personId": 288,
-      "characterName": "Edward Henry Masterman",
-      "characterImage": null
+      "characterName": "Edward Henry Masterman"
     },
     {
       "personId": 718,
-      "characterName": "Dr. Arbuthnot",
-      "characterImage": null
+      "characterName": "Dr. Arbuthnot"
     },
     {
       "personId": 837,
-      "characterName": "Caroline Hubbard",
-      "characterImage": null
+      "characterName": "Caroline Hubbard"
     },
     {
       "personId": 238,
-      "characterName": "Miss Mary Debenham",
-      "characterImage": null
+      "characterName": "Miss Mary Debenham"
     },
     {
       "personId": 1127,
-      "characterName": "Bouc",
-      "characterImage": null
+      "characterName": "Bouc"
     },
     {
       "personId": 794,
-      "characterName": "Pierre Michel",
-      "characterImage": null
+      "characterName": "Pierre Michel"
     },
     {
       "personId": 887,
-      "characterName": "Hildegarde Schmidt",
-      "characterImage": null
+      "characterName": "Hildegarde Schmidt"
     },
     {
       "personId": 744,
-      "characterName": "Countess Elena Andrenyi",
-      "characterImage": null
+      "characterName": "Countess Elena Andrenyi"
     },
     {
       "personId": 772,
-      "characterName": "Biniamino Marquez",
-      "characterImage": null
+      "characterName": "Biniamino Marquez"
     },
     {
       "personId": 1053,
-      "characterName": "Count Rudolph Andrenyi",
-      "characterImage": null
+      "characterName": "Count Rudolph Andrenyi"
     }
   ],
   "collections": [

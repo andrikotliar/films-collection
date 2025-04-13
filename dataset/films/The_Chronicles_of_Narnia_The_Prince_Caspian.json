@@ -17,38 +17,31 @@
   "cast": [
     {
       "personId": 105,
-      "characterName": "Prince Caspian",
-      "characterImage": null
+      "characterName": "Prince Caspian"
     },
     {
       "personId": 402,
-      "characterName": "Lucy Pevensie",
-      "characterImage": null
+      "characterName": "Lucy Pevensie"
     },
     {
       "personId": 1072,
-      "characterName": "Edmund Pevensie",
-      "characterImage": null
+      "characterName": "Edmund Pevensie"
     },
     {
       "personId": 1184,
-      "characterName": "Peter Pevensie",
-      "characterImage": null
+      "characterName": "Peter Pevensie"
     },
     {
       "personId": 67,
-      "characterName": "Susan Pevensie",
-      "characterImage": null
+      "characterName": "Susan Pevensie"
     },
     {
       "personId": 1054,
-      "characterName": "Miraz",
-      "characterImage": null
+      "characterName": "Miraz"
     },
     {
       "personId": 920,
-      "characterName": "Trumpkin",
-      "characterImage": null
+      "characterName": "Trumpkin"
     }
   ],
   "collections": [

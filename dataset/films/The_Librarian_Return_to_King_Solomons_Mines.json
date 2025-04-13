@@ -22,38 +22,31 @@
   "cast": [
     {
       "personId": 879,
-      "characterName": "Flynn Carsen",
-      "characterImage": null
+      "characterName": "Flynn Carsen"
     },
     {
       "personId": 391,
-      "characterName": "Emily Davenport",
-      "characterImage": null
+      "characterName": "Emily Davenport"
     },
     {
       "personId": 133,
-      "characterName": "Judson",
-      "characterImage": null
+      "characterName": "Judson"
     },
     {
       "personId": 518,
-      "characterName": "Charlene",
-      "characterImage": null
+      "characterName": "Charlene"
     },
     {
       "personId": 353,
-      "characterName": "General Samir",
-      "characterImage": null
+      "characterName": "General Samir"
     },
     {
       "personId": 425,
-      "characterName": "Jomo",
-      "characterImage": null
+      "characterName": "Jomo"
     },
     {
       "personId": 1199,
-      "characterName": "Tommy Yellow Hawk",
-      "characterImage": null
+      "characterName": "Tommy Yellow Hawk"
     }
   ],
   "collections": [

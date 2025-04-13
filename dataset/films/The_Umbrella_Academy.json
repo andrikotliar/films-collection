@@ -15,73 +15,59 @@
   "cast": [
     {
       "personId": 1134,
-      "characterName": "Luther Hargreeves",
-      "characterImage": null
+      "characterName": "Luther Hargreeves"
     },
     {
       "personId": 268,
-      "characterName": "Diego Hargreeves",
-      "characterImage": null
+      "characterName": "Diego Hargreeves"
     },
     {
       "personId": 348,
-      "characterName": "Allison Hargreeves",
-      "characterImage": null
+      "characterName": "Allison Hargreeves"
     },
     {
       "personId": 992,
-      "characterName": "Klaus Hargreeves",
-      "characterImage": null
+      "characterName": "Klaus Hargreeves"
     },
     {
       "personId": 17,
-      "characterName": "Number Five",
-      "characterImage": null
+      "characterName": "Number Five"
     },
     {
       "personId": 632,
-      "characterName": "Ben Hargreeves",
-      "characterImage": null
+      "characterName": "Ben Hargreeves"
     },
     {
       "personId": 334,
-      "characterName": "Vanya Hargreeves",
-      "characterImage": null
+      "characterName": "Vanya Hargreeves"
     },
     {
       "personId": 224,
-      "characterName": "Reginald Hargreeves",
-      "characterImage": null
+      "characterName": "Reginald Hargreeves"
     },
     {
       "personId": 980,
-      "characterName": "Lila Pitts",
-      "characterImage": null
+      "characterName": "Lila Pitts"
     },
     {
       "personId": 612,
-      "characterName": "Grace",
-      "characterImage": null
+      "characterName": "Grace"
     },
     {
       "personId": 647,
-      "characterName": "The Handler",
-      "characterImage": null
+      "characterName": "The Handler"
     },
     {
       "personId": 163,
-      "characterName": "Hazel",
-      "characterImage": null
+      "characterName": "Hazel"
     },
     {
       "personId": 797,
-      "characterName": "Cha-Cha",
-      "characterImage": null
+      "characterName": "Cha-Cha"
     },
     {
       "personId": 1231,
-      "characterName": "Pogo",
-      "characterImage": "characters/the_umbrella_academy_pogo.webp"
+      "characterName": "Pogo"
     }
   ],
   "collections": [
