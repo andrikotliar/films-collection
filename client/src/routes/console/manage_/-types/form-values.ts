@@ -9,7 +9,7 @@ export type FormValues = {
   title: string | null;
   type: TitleType;
   style: TitleStyle;
-  poster: string | null;
+  poster: string | File | null;
   rating: number;
   isDraft: boolean;
   budget: number;

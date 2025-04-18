@@ -3,6 +3,7 @@ import { PrismaClient } from '@prisma/client';
 import CorsPlugin from '@fastify/cors';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
+import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import { AuthPlugin, PrismaPlugin } from 'src/plugins';
 import { AppModule } from './app.module';
@@ -38,6 +39,13 @@ app.register(JwtPlugin, {
   cookie: {
     cookieName: CookieName.ACCESS_TOKEN,
     signed: true,
+  },
+});
+
+app.register(MultipartPlugin, {
+  limits: {
+    fileSize: 5000000,
+    files: 1,
   },
 });
 
