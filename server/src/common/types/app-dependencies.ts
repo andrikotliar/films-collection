@@ -4,6 +4,7 @@ import { CollectionEventsController } from 'src/modules/collection-events/collec
 import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
 import { CollectionsService } from 'src/modules/collections/collections.service';
 import { CountriesService } from 'src/modules/countries/countries.service';
+import { FilesController } from 'src/modules/files/files.controller';
 import { FilmsController } from 'src/modules/films/films.controller';
 import { GenresService } from 'src/modules/genres/genres.service';
 import { InitialDataController } from 'src/modules/initial-data/initial-data.controller';
@@ -26,4 +27,5 @@ export type AppDependencies = {
   initialDataController: InitialDataController;
   collectionEventsController: CollectionEventsController;
   pendingFilmsController: PendingFilmsController;
+  filesController: FilesController;
 };

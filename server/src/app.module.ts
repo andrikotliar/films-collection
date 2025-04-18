@@ -5,6 +5,7 @@ import {
   CollectionEventsModule,
   CollectionsModule,
   CountriesModule,
+  FilesModule,
   FilmsModule,
   GenresModule,
   InitialDataModule,
@@ -15,6 +16,7 @@ import {
 } from './modules';
 
 export const AppModule = async (app: FastifyInstance) => {
+  app.register(FilesModule);
   app.register(UsersModule);
   app.register(AuthModule);
   app.register(AwardsModule);
