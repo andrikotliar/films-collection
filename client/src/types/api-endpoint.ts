@@ -11,4 +11,5 @@ export type ApiEndpoint =
   | '/auth/logout'
   | '/collection-events'
   | '/collection-events/:eventId'
-  | '/collection-events/admin/list';
+  | '/collection-events/admin/list'
+  | '/files';
