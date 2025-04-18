@@ -55,9 +55,14 @@ export class ApiClient {
     try {
       const internalOptions: IFetchOptions = {
         ...options,
-        headers: options?.headers,
         credentials: 'include',
       };
+
+      internalOptions.headers = this.setHeaders(options);
+
+      if (options?.payload) {
+        internalOptions.body = this.getBody(options);
+      }
 
       const pathWithParams = this.parseRouteParams(
         path,
@@ -102,9 +107,7 @@ export class ApiClient {
   ) {
     return await this.request<T>(path, {
       ...options,
-      headers: this.setHeaders(options),
       method: 'POST',
-      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
@@ -114,9 +117,7 @@ export class ApiClient {
   ) {
     return await this.request<T>(path, {
       ...options,
-      headers: this.setHeaders(options),
       method: 'PATCH',
-      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
@@ -127,8 +128,6 @@ export class ApiClient {
     return await this.request<T>(path, {
       ...options,
       method: 'PUT',
-      headers: this.setHeaders(options),
-      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
@@ -139,8 +138,6 @@ export class ApiClient {
     return await this.request<T>(path, {
       ...options,
       method: 'DELETE',
-      headers: this.setHeaders(options),
-      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
@@ -190,13 +187,25 @@ export class ApiClient {
   private setHeaders(
     options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
-    if (!options?.payload) {
+    if (!options?.payload || options.payload instanceof FormData) {
       return undefined;
     }
 
     return {
       'Content-Type': 'application/json',
     };
+  }
+
+  private getBody(options: IFetchOptions) {
+    if (!options.payload) {
+      return undefined;
+    }
+
+    if (options.payload instanceof FormData) {
+      return options.payload;
+    }
+
+    return JSON.stringify(options.payload);
   }
 }
 
