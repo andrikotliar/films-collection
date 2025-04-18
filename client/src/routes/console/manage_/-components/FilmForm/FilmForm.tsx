@@ -111,7 +111,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
         />
       </FormRow>
       <FormTextEditor name="description" label="Description" />
-      <FormSection label="Trailers">
+      <FormSection label={`Trailers (${trailers.length})`}>
         <SortableList items={trailers} onDragEnd={handleDragEnd}>
           {({ index }) => (
             <FormVideoInput
@@ -121,6 +121,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
           )}
         </SortableList>
         <Button
+          className={styles.appendButton}
           icon={<PlusIcon />}
           variant="ghost"
           onClick={() =>

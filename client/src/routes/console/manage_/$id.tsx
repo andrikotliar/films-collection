@@ -46,6 +46,8 @@ function PageContainer() {
   });
 
   const handleSubmit = async (data: FormValues) => {
+    console.log(data);
+
     try {
       let poster = data.poster;
 
