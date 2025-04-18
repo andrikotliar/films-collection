@@ -8,6 +8,9 @@ import { FormProvider, useForm } from 'react-hook-form';
 import { object, string } from 'yup';
 import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
+import { FormValues } from '@/routes/console/manage_/-types';
+// import { FilesApi } from '@/api';
+// import { FileUploadDestination } from '@/enums';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),
@@ -42,8 +45,22 @@ function PageContainer() {
     defaultValues,
   });
 
-  const handleSubmit = (data: unknown) => {
-    console.log(data);
+  const handleSubmit = async (data: FormValues) => {
+    try {
+      let poster = data.poster;
+
+      // if (poster instanceof File) {
+      //   const formData = new FormData();
+
+      //   formData.append('title', 'Test Film Title 2: Test Part');
+      //   formData.append('destination', FileUploadDestination.POSTERS);
+      //   formData.append('file', poster);
+
+      //   await FilesApi.upload(formData);
+      // }
+    } catch (error: any) {
+      console.error('[Film Form Error]:', error?.message);
+    }
   };
 
   return (
