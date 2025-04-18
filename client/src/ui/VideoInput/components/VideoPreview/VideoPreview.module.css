@@ -1,13 +1,19 @@
-.videoPreview {
-  width: 100%;
-  border: 0;
+.previewWrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
   border-radius: 8px;
+  width: 100%;
   aspect-ratio: 16 / 9;
 }
 
-.previewPlaceholder {
-  width: 100%;
-  border-radius: 8px;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+.playIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  fill: white;
+  width: 60px;
+  height: 60px;
+  transform: translate(-50%, -50%);
 }
