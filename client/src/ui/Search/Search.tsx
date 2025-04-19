@@ -1,56 +1,62 @@
+import styles from './Search.module.css';
+import { useQuery, UseQueryOptions } from '@tanstack/react-query';
+import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
 import {
   ChangeEvent,
   FocusEventHandler,
+  ReactNode,
   useCallback,
-  useEffect,
   useRef,
   useState,
 } from 'react';
 import classNames from 'classnames';
 import { debounce } from '@/helpers';
-import { PopupMenu } from '@/ui/PopupMenu/PopupMenu';
-import styles from './Search.module.css';
-import { SearchMenuContent } from '../SearchMenuContent/SearchMenuContent';
-import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
-import { useLocation } from '@tanstack/react-router';
-import { useQuery } from '@tanstack/react-query';
-import { searchFilmsQuery } from '@/queries';
+import { PopupMenu } from '../PopupMenu/PopupMenu';
 
-export const Search = () => {
-  const location = useLocation();
+type ChildrenProps<T> = {
+  data?: T;
+  onFinishInteraction: VoidFunction;
+};
+
+type SearchProps<T> = {
+  children: (props: ChildrenProps<T>) => ReactNode;
+  query: (
+    searchString: string | null,
+  ) => UseQueryOptions<T, Error, T, (string | null)[]>;
+  theme?: 'light' | 'dark';
+  placeholder?: string;
+};
+
+export const Search = <T extends unknown>({
+  children,
+  query,
+  theme = 'light',
+  placeholder = 'Search...',
+}: SearchProps<T>) => {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchString, setSearchString] = useState<string | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const { data, isLoading } = useQuery(searchFilmsQuery(searchString));
-
-  const focusSearch = (event: KeyboardEvent) => {
-    if (event.key === 'F2' && searchInputRef.current) {
-      searchInputRef.current.focus();
-    }
-  };
+  const { data, isLoading } = useQuery(query(searchString));
 
   const handleCloseSearchDropdown = () => {
     setSearchString(null);
     setIsMenuOpen(false);
   };
 
-  const handleSearch = useCallback(
-    (event: ChangeEvent<HTMLInputElement>) => {
-      const searchValue = event.target.value;
+  const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    const searchValue = event.target.value;
 
-      if (searchValue.length) {
-        setSearchString(searchValue);
-        setIsMenuOpen(true);
+    if (searchValue.length) {
+      setSearchString(searchValue);
+      setIsMenuOpen(true);
 
-        return;
-      }
+      return;
+    }
 
-      setSearchString(null);
-      setIsMenuOpen(false);
-    },
-    [location.pathname],
-  );
+    setSearchString(null);
+    setIsMenuOpen(false);
+  }, []);
 
   const debouncedSearch = debounce(handleSearch, 1000);
 
@@ -66,18 +72,10 @@ export const Search = () => {
     }
   };
 
-  const handleOpenFilmFinish = () => {
+  const handleFinishInteraction = () => {
     handleCloseSearchDropdown();
     handleClearSearch();
   };
-
-  useEffect(() => {
-    document.addEventListener('keydown', focusSearch);
-
-    return () => {
-      document.removeEventListener('keydown', focusSearch);
-    };
-  }, []);
 
   return (
     <div className={styles.search}>
@@ -85,8 +83,8 @@ export const Search = () => {
         <input
           type="text"
           name="search"
-          className={styles.input}
-          placeholder="Search by title..."
+          className={classNames(styles.input, styles[theme])}
+          placeholder={placeholder}
           onChange={debouncedSearch}
           onFocus={handleFocus}
           ref={searchInputRef}
@@ -109,10 +107,7 @@ export const Search = () => {
         shouldFocusTriggerOnClose={false}
         className={styles.menu}
       >
-        <SearchMenuContent
-          films={data ?? []}
-          onFilmOpen={handleOpenFilmFinish}
-        />
+        {children({ onFinishInteraction: handleFinishInteraction, data })}
       </PopupMenu>
     </div>
   );

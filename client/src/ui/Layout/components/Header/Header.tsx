@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';
-import { Search } from '../Search/Search';
+import { FilmsSearch } from '../FilmsSearch/FilmsSearch';
 import styles from './Header.module.css';
 import { AppMenu } from '../AppMenu/AppMenu';
 import { Logo } from '@/ui/Logo/Logo';
@@ -47,7 +47,7 @@ export const Header = () => {
             />
           )}
         </div>
-        <Search />
+        <FilmsSearch />
         <button
           className={styles.menuButton}
           onClick={handleToggleAppMenu}
