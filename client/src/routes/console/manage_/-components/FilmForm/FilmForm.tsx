@@ -69,7 +69,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
         />
         <FormRatingInput name="rating" label="Rating" size={3} />
       </FormRow>
-      <FormFileInput label="File input" name="poster" />
+      <FormFileInput label="Poster" name="poster" />
       <FormSelect
         label="Genres"
         name="genres"
