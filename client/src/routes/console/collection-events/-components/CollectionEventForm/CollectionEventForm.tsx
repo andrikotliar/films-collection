@@ -1,12 +1,6 @@
 import { FC, FormEventHandler } from 'react';
 import styles from './CollectionEventForm.module.css';
-import {
-  Button,
-  FormTextInput,
-  FormTitle,
-  FormImageInput,
-  FormSelect,
-} from '@/ui';
+import { Button, FormTextInput, FormTitle, FormSelect } from '@/ui';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
@@ -30,12 +24,6 @@ export const CollectionEventForm: FC<CollectionEventFormProps> = ({
       <form onSubmit={onSubmit} className={styles.formWrapper}>
         <FormTitle>{title}</FormTitle>
         <FormTextInput name="title" label="Title" />
-        <FormImageInput
-          name="image"
-          label="Image path"
-          previewWidth={100}
-          previewHeight={100}
-        />
         {data && (
           <FormSelect
             label="Collection"
