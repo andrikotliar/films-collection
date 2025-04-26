@@ -2,6 +2,8 @@ import { v2 as cloudinary, UploadApiResponse } from 'cloudinary';
 import { EnvVariables } from 'src/common';
 import { UploadPayload } from './types';
 import { destinationParams } from 'src/modules/files/configs';
+import path from 'node:path';
+import crypto from 'node:crypto';
 
 export class FilesService {
   constructor(env: EnvVariables) {
@@ -24,9 +26,16 @@ export class FilesService {
     };
   }
 
+  async delete(filePath: string) {
+    const filePathData = path.parse(filePath);
+    const publicId = `${filePathData.dir}/${filePathData.name}`;
+
+    return cloudinary.uploader.destroy(publicId);
+  }
+
   private uploadStream(payload: UploadPayload) {
     const config = destinationParams[payload.destination];
-    const parsedTitle = this.parseTitle(payload.title);
+    const parsedTitle = this.parseTitle(payload);
 
     if (!config) {
       throw new Error(`Unknown destination ${payload.destination}`);
@@ -43,6 +52,8 @@ export class FilesService {
             unique_filename: false,
             resource_type: 'image',
             format: config.format,
+            overwrite: true,
+            invalidate: true,
           },
           (error, result) => {
             if (error) {
@@ -56,11 +67,19 @@ export class FilesService {
     });
   }
 
-  private parseTitle(rawTitle: string) {
-    const sanitizedString = rawTitle
+  private parseTitle(payload: UploadPayload) {
+    const sanitizedString = payload.title
       .replace(/[^a-zA-Z0-9\s]/g, '')
       .replace(/\s+/g, '_');
 
-    return sanitizedString.toLowerCase();
+    const lowercasedTitle = sanitizedString.toLowerCase();
+
+    if (payload.shouldUseUniqueIdentifier) {
+      const uuid = crypto.randomUUID();
+
+      return `${lowercasedTitle}_${uuid}`;
+    }
+
+    return lowercasedTitle;
   }
 }

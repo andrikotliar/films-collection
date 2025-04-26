@@ -25,9 +25,4 @@ dist-ssr
 *.sln
 *.sw?
 
-# local data and scripts
-
-utils/modifiers.js
-utils/list.json
-utils/temp-data
-utils/temp
+dataset/*.js

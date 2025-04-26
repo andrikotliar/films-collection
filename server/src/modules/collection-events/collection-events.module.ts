@@ -13,7 +13,7 @@ export const CollectionEventsModule = fastifyPlugin(
 
     app.decorate(
       'collectionEventsService',
-      new CollectionEventsService(collectionEventsRepository),
+      new CollectionEventsService(collectionEventsRepository, app.filesService),
     );
 
     app.decorate(

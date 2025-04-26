@@ -1,4 +1,4 @@
-import { number, object, string } from 'yup';
+import { mixed, number, object, string } from 'yup';
 
 const dateSchema = object({
   month: number().required().min(1).max(12),
@@ -7,7 +7,7 @@ const dateSchema = object({
 
 export const collectionEventSchema = object({
   title: string().required(),
-  image: string().required(),
+  image: mixed().required(),
   startDate: dateSchema.required(),
   endDate: dateSchema.required(),
   collectionId: number().required(),

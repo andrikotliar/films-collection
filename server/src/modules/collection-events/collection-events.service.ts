@@ -4,6 +4,8 @@ import {
   CollectionEventsCreatePayload,
   CollectionEventsUpdatePayload,
 } from './schemas';
+import { FilesService } from 'src/modules/files/files.service';
+import { NotFoundException } from 'src/common';
 
 type EventDate = {
   month: number;
@@ -11,7 +13,10 @@ type EventDate = {
 };
 
 export class CollectionEventsService {
-  constructor(private collectionEventsRepository: CollectionEventsRepository) {}
+  constructor(
+    private collectionEventsRepository: CollectionEventsRepository,
+    private filesService: FilesService,
+  ) {}
 
   async findTodayEvent() {
     const currentDate = new Date();
@@ -42,11 +47,30 @@ export class CollectionEventsService {
     });
   }
 
-  deleteEvent(id: number) {
+  async deleteEvent(id: number) {
+    const event = await this.collectionEventsRepository.getEventById(id);
+
+    if (!event) {
+      throw new NotFoundException({ message: `Event #${id} not found` });
+    }
+
+    await this.filesService.delete(event.image);
+
     return this.collectionEventsRepository.deleteEvent(id);
   }
 
-  updateEvent(id: number, input: CollectionEventsUpdatePayload) {
+  async updateEvent(id: number, input: CollectionEventsUpdatePayload) {
+    const eventBeforeUpdate =
+      await this.collectionEventsRepository.getEventById(id);
+
+    if (!eventBeforeUpdate) {
+      throw new NotFoundException({ message: `Event #${id} not found` });
+    }
+
+    if (eventBeforeUpdate.image !== input.image) {
+      await this.filesService.delete(eventBeforeUpdate.image);
+    }
+
     const { startDate, endDate, ...data } = input;
 
     const payload: Partial<Omit<CollectionEvent, 'id'>> = { ...data };
