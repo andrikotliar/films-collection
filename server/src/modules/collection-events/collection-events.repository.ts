@@ -4,6 +4,14 @@ import { GetEventQueryResult } from './types';
 export class CollectionEventsRepository {
   constructor(private prismaClient: PrismaClient) {}
 
+  getEventById(id: number) {
+    return this.prismaClient.collectionEvent.findUnique({
+      where: {
+        id,
+      },
+    });
+  }
+
   getEvent(date: number) {
     return this.prismaClient.$queryRaw<GetEventQueryResult[]>`
       SELECT ce.title, ce.image, c.id as "collectionId" FROM collection_events ce
