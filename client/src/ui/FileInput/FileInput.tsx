@@ -1,14 +1,15 @@
 import { images } from '@/assets/images';
 import { FieldLabel } from '@/ui/FieldLabel/FieldLabel';
 import { Image } from '@/ui/Image/Image';
-import { ChangeEvent, forwardRef, useState } from 'react';
+import { ChangeEvent, CSSProperties, forwardRef, useState } from 'react';
 import styles from './FileInput.module.css';
 import { UploadIcon } from 'lucide-react';
 
 export type FileInputProps = {
   label?: string;
   onChange: (file: File) => void;
-  width?: number;
+  width?: CSSProperties['width'];
+  height?: CSSProperties['height'];
   accept?: string;
   defaultValue?: string | null;
 };
@@ -19,6 +20,7 @@ export const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
       label,
       onChange,
       width = 250,
+      height = 'auto',
       accept = '.jpg,.png,.jpeg',
       defaultValue = null,
     },
@@ -40,7 +42,7 @@ export const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
     return (
       <label className={styles.root}>
         {label && <FieldLabel>{label}</FieldLabel>}
-        <div className={styles.inputWrapper} style={{ width }}>
+        <div className={styles.inputWrapper} style={{ width, height }}>
           <input
             type="file"
             onChange={handleChange}
@@ -55,7 +57,7 @@ export const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
             isExternal={Boolean(defaultValue)}
           />
           <div className={styles.overlay}>
-            <UploadIcon size={80} className={styles.uploadIcon} />
+            <UploadIcon size="30%" className={styles.uploadIcon} />
           </div>
         </div>
       </label>

@@ -12,3 +12,4 @@ export * from './get-priority-title';
 export * from './get-list-options';
 export * from './get-extname';
 export * from './replace-url-id';
+export * from './get-file-upload-form-data';

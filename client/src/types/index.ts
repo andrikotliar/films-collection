@@ -17,3 +17,4 @@ export * from './admin-films-filters';
 export * from './collection-event';
 export * from './sorting-order';
 export * from './form-error';
+export * from './file-upload-payload';
