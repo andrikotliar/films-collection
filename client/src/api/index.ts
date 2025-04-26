@@ -4,3 +4,4 @@ export * from './initial-data';
 export * from './authentication';
 export * from './collection-events';
 export * from './files';
+export * from './people';
