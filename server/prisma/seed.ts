@@ -40,7 +40,7 @@ type LoadJsonDataResult<T> = {
   data: T;
 };
 type FileToPrismaHandler = {
-  [fileName: string]: (data: any) => Prisma.PrismaPromise<Prisma.BatchPayload>;
+  [fileName: string]: (data: any) => Promise<void>;
 };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -52,14 +52,43 @@ const datasetFolderPath = join(__dirname, '../../dataset');
 const filmsJsonFolderPath = join(datasetFolderPath, 'films');
 const generalJsonFolderPath = join(datasetFolderPath, 'general');
 
+const alterSequence = async (tableName: string) => {
+  const sequence = `${tableName}_id_seq`;
+
+  await prisma.$executeRawUnsafe(`
+    SELECT setval('${sequence}', (SELECT MAX(id) FROM ${tableName}));
+  `);
+};
+
 const fileToPrismaHandler: FileToPrismaHandler = {
-  'awards.json': (data) => prisma.award.createMany({ data }),
-  'collections.json': (data) => prisma.collection.createMany({ data }),
-  'countries.json': (data) => prisma.country.createMany({ data }),
-  'genres.json': (data) => prisma.genre.createMany({ data }),
-  'nominations.json': (data) => prisma.nomination.createMany({ data }),
-  'people.json': (data) => prisma.person.createMany({ data }),
-  'studios.json': (data) => prisma.studio.createMany({ data }),
+  'awards.json': async (data) => {
+    await prisma.award.createMany({ data });
+    await alterSequence('awards');
+  },
+  'collections.json': async (data) => {
+    await prisma.collection.createMany({ data });
+    await alterSequence('collections');
+  },
+  'countries.json': async (data) => {
+    await prisma.country.createMany({ data });
+    await alterSequence('countries');
+  },
+  'genres.json': async (data) => {
+    await prisma.genre.createMany({ data });
+    await alterSequence('genres');
+  },
+  'nominations.json': async (data) => {
+    await prisma.nomination.createMany({ data });
+    await alterSequence('nominations');
+  },
+  'people.json': async (data) => {
+    await prisma.person.createMany({ data });
+    await alterSequence('people');
+  },
+  'studios.json': async (data) => {
+    await prisma.studio.createMany({ data });
+    await alterSequence('studios');
+  },
 };
 
 const loadJsonData = async <T = unknown>(
@@ -189,6 +218,8 @@ const main = async () => {
 
     currentDateMs += 1000;
   }
+
+  await alterSequence('films');
 };
 
 main()

@@ -1,4 +1,5 @@
 .root {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -37,4 +38,15 @@
 
 .inputWrapper:hover .overlay {
   opacity: 1;
+}
+
+.removeButton {
+  position: absolute;
+  top: 0;
+  right: -25px;
+  z-index: 10;
+}
+
+.label + .removeButton {
+  top: 23px;
 }

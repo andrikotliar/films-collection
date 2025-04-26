@@ -1,5 +1,4 @@
 .search {
-  max-width: 920px;
   width: 100%;
 }
 
@@ -17,6 +16,13 @@
   border: var(--app-border);
   border-radius: var(--app-border-radius);
   transition: 0.2s;
+}
+
+.light {
+  background-color: white;
+}
+
+.dark {
   background-color: var(--gray-light);
 }
 

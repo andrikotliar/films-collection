@@ -9,6 +9,7 @@ export type InitialData = {
     studios: ListOption[];
     types: ListOption<string>[];
     styles: ListOption<string>[];
+    roles: ListOption<string>[];
   };
   event: BaseCollectionEvent | null;
 };

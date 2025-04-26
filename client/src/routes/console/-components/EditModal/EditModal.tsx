@@ -14,7 +14,7 @@ export const EditModal: FC<EditModalProps> = ({
 }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose} className={styles.wrapper}>
-      <Modal.Content>
+      <Modal.Content className={styles.content}>
         {children}
         <Modal.CloseButton onClick={onClose} className={styles.closeButton} />
       </Modal.Content>

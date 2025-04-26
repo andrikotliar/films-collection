@@ -5,6 +5,12 @@ export type FilmFormTrailer = {
   order: number;
 };
 
+export type FormCrew = {
+  personId: number;
+  name: string;
+  position: string;
+};
+
 export type FormValues = {
   title: string | null;
   type: TitleType;
@@ -21,5 +27,6 @@ export type FormValues = {
   collections: string[];
   studios: string[];
   description: string | null;
+  crew: FormCrew[];
   trailers: FilmFormTrailer[];
 };

@@ -12,4 +12,6 @@ export type ApiEndpoint =
   | '/collection-events'
   | '/collection-events/:eventId'
   | '/collection-events/admin/list'
-  | '/files';
+  | '/files'
+  | '/people'
+  | '/people/search';

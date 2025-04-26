@@ -37,3 +37,5 @@ export * from './TextEditor';
 export * from './FormSection/FormSection';
 export * from './SortableList/SortableList';
 export * from './FileInput';
+export * from './Search/Search';
+export * from './SearchResultPeopleList/SearchResultPeopleList';

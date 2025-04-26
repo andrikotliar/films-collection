@@ -1,6 +1,6 @@
 import { convertEnumValueToLabel } from 'src/common';
 import { InitialData, InitialDataServiceDependencies } from './types';
-import { TitleStyle, TitleType } from '@prisma/client';
+import { CrewPosition, TitleStyle, TitleType } from '@prisma/client';
 
 export class InitialDataService {
   private collectionsService;
@@ -27,6 +27,7 @@ export class InitialDataService {
 
     const types = this.convertEnumValuesToOption(TitleType);
     const styles = this.convertEnumValuesToOption(TitleStyle);
+    const roles = this.convertEnumValuesToOption(CrewPosition);
 
     const todayEvent = await this.collectionEventsService.findTodayEvent();
 
@@ -38,6 +39,7 @@ export class InitialDataService {
         studios,
         types,
         styles,
+        roles,
       },
       event: todayEvent.event,
     };
