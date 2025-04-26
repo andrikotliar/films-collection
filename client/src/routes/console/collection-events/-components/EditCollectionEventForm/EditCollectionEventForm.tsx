@@ -1,12 +1,14 @@
-import { CollectionEventsApi } from '@/api';
-import { CollectionEventForm } from '@/routes/console/collection-events/-components/CollectionEventForm/CollectionEventForm';
-import { convertDateCode } from '@/routes/console/collection-events/-helpers';
-import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import { CollectionEventFilled, CollectionEventPayload } from '@/types';
+import { FC } from 'react';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation } from '@tanstack/react-query';
-import { FC } from 'react';
-import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
+import { FormProvider, useForm } from 'react-hook-form';
+import { CollectionEventsApi, FilesApi } from '@/api';
+import { getFileUploadFormData } from '@/helpers';
+import { convertDateCode } from '@/routes/console/collection-events/-helpers';
+import { FormValues } from '@/routes/console/collection-events/-types';
+import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
+import { CollectionEventFilled } from '@/types';
+import { CollectionEventForm } from '../CollectionEventForm/CollectionEventForm';
 
 type EditCollectionEventFormProps = {
   defaultValues: CollectionEventFilled;
@@ -29,21 +31,36 @@ export const EditCollectionEventForm: FC<EditCollectionEventFormProps> = ({
   });
 
   const { mutate: updateCollectionEvent, isPending } = useMutation({
-    mutationFn: CollectionEventsApi.updateEvent,
+    mutationFn: async (data: FormValues) => {
+      let image: string | File = data.image;
+
+      if (image instanceof File) {
+        const formData = getFileUploadFormData({
+          title: data.title,
+          file: image,
+          destination: 'decoration',
+        });
+
+        const response = await FilesApi.upload(formData);
+
+        image = response.filePath;
+      }
+
+      return CollectionEventsApi.updateEvent({
+        eventId: defaultValues.id,
+        payload: {
+          ...data,
+          image,
+        },
+      });
+    },
     onSuccess: onSubmitSuccess,
   });
-
-  const handleSubmit: SubmitHandler<CollectionEventPayload> = (data) => {
-    updateCollectionEvent({
-      eventId: defaultValues.id,
-      payload: data,
-    });
-  };
 
   return (
     <FormProvider {...form}>
       <CollectionEventForm
-        onSubmit={form.handleSubmit(handleSubmit)}
+        onSubmit={form.handleSubmit((data) => updateCollectionEvent(data))}
         title={`Edit ${defaultValues.title}`}
         isSaving={isPending}
       />

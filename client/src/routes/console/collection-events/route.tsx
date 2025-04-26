@@ -1,18 +1,20 @@
 import { fetchCollectionEventsQuery } from '@/queries';
 import { createFileRoute } from '@tanstack/react-router';
-import { CollectionEventsApi } from '@/api';
+import { CollectionEventsApi, FilesApi } from '@/api';
 import {
   CollectionEventForm,
   EditCollectionEventModal,
   Event,
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import { CollectionEventFilled, CollectionEventPayload } from '@/types';
+import { CollectionEventFilled } from '@/types';
 import { ConfirmModal, ConsoleContent, ConsoleTitle, Island } from '@/ui';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';
-import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
+import { FormProvider, useForm } from 'react-hook-form';
+import { FormValues } from './-types';
+import { getFileUploadFormData } from '@/helpers';
 
 type EventModifyContent = CollectionEventFilled | null;
 
@@ -27,7 +29,25 @@ const CollectionEventsContainer = () => {
   const { data, refetch } = useSuspenseQuery(fetchCollectionEventsQuery());
 
   const { mutate: createEvent, isPending: isCreating } = useMutation({
-    mutationFn: CollectionEventsApi.createEvent,
+    mutationFn: async (data: FormValues) => {
+      let image: string | File = data.image;
+
+      if (image instanceof File) {
+        const formData = getFileUploadFormData({
+          file: image,
+          title: data.title,
+          destination: 'decoration',
+        });
+        const response = await FilesApi.upload(formData);
+
+        image = response.filePath;
+      }
+
+      return CollectionEventsApi.createEvent({
+        ...data,
+        image,
+      });
+    },
     onSuccess: () => {
       form.reset();
       refetch();
@@ -42,7 +62,7 @@ const CollectionEventsContainer = () => {
     },
   });
 
-  const handleSubmit: SubmitHandler<CollectionEventPayload> = (data) => {
+  const handleSubmit = (data: FormValues) => {
     createEvent(data);
   };
 

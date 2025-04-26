@@ -18,7 +18,7 @@ export type CollectionEventFilled = CollectionEvent & {
   collection: Pick<Collection, 'id' | 'title'>;
 };
 
-type CollectionEventDate = {
+export type CollectionEventDate = {
   month: number;
   date: number;
 };
