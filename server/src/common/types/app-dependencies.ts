@@ -9,6 +9,7 @@ import { FilmsController } from 'src/modules/films/films.controller';
 import { GenresService } from 'src/modules/genres/genres.service';
 import { InitialDataController } from 'src/modules/initial-data/initial-data.controller';
 import { PendingFilmsController } from 'src/modules/pending-films/pending-films.controller';
+import { PeopleController } from 'src/modules/people/people.controller';
 import { PeopleService } from 'src/modules/people/people.service';
 import { StudiosService } from 'src/modules/studios/studios.service';
 import { UsersService } from 'src/modules/users/users.service';
@@ -22,6 +23,7 @@ export type AppDependencies = {
   countriesService: CountriesService;
   studiosService: StudiosService;
   peopleService: PeopleService;
+  peopleController: PeopleController;
   collectionEventsService: CollectionEventsService;
   authController: AuthController;
   initialDataController: InitialDataController;
