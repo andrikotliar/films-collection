@@ -15,6 +15,7 @@ import {
 } from '@/ui';
 import { FC } from 'react';
 import { FormRow } from '../FormRow/FormRow';
+import { CrewSelect } from '../CrewSelect/CrewSelect';
 import { InitialData } from '@/types';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon } from 'lucide-react';
@@ -111,6 +112,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
         />
       </FormRow>
       <FormTextEditor name="description" label="Description" />
+      <CrewSelect positionOptions={initialOptions.options.roles} />
       <FormSection label={`Trailers (${trailers.length})`}>
         <SortableList items={trailers} onDragEnd={handleDragEnd}>
           {({ index }) => (
