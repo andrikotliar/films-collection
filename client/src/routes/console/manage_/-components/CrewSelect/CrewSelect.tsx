@@ -27,16 +27,9 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
     name: 'crew',
   });
 
-  const selectedIds = fields.map((person) => person.personId);
-
   return (
     <FormSection label="Crew">
-      <Search
-        placeholder="Search person..."
-        query={(searchString) =>
-          searchPersonQuery({ query: searchString, selectedIds })
-        }
-      >
+      <Search placeholder="Search person..." query={searchPersonQuery}>
         {({ data, onFinishInteraction }) => (
           <SearchResultPeopleList
             data={data ?? []}
@@ -75,7 +68,13 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
       <CreatePersonModal
         isOpen={isCreateModalOpen}
         onClose={() => setIsCreateModalOpen(false)}
-        onSubmit={(val) => console.log(val)}
+        onCreate={(data) => {
+          append({
+            personId: data.id,
+            name: data.name,
+            position: '',
+          });
+        }}
         title="Add crew member"
       />
     </FormSection>

@@ -15,6 +15,7 @@ import { PopupMenu } from '../PopupMenu/PopupMenu';
 
 type ChildrenProps<T> = {
   data?: T;
+  searchString: string | null;
   onFinishInteraction: VoidFunction;
 };
 
@@ -108,6 +109,7 @@ export const Search = <T extends unknown>({
         {children({
           onFinishInteraction: handleFinishInteraction,
           data,
+          searchString,
         })}
       </PopupMenu>
     </div>

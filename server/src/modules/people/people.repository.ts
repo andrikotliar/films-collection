@@ -1,5 +1,8 @@
 import { Prisma, PrismaClient } from '@prisma/client';
-import { SearchPersonQuery } from 'src/modules/people/schemas';
+import {
+  CreatePersonPayload,
+  SearchPersonQuery,
+} from 'src/modules/people/schemas';
 
 export class PeopleRepository {
   constructor(private prismaClient: PrismaClient) {}
@@ -12,19 +15,19 @@ export class PeopleRepository {
     });
   }
 
-  searchPersonByName({ q, selectedIds }: SearchPersonQuery) {
+  createPerson(payload: CreatePersonPayload) {
+    return this.prismaClient.person.create({
+      data: payload,
+    });
+  }
+
+  searchPersonByName({ q }: SearchPersonQuery) {
     const whereClause: Prisma.PersonWhereInput = {
       name: {
         contains: q,
         mode: 'insensitive',
       },
     };
-
-    if (selectedIds?.length) {
-      whereClause.id = {
-        notIn: selectedIds,
-      };
-    }
 
     return this.prismaClient.person.findMany({
       select: {

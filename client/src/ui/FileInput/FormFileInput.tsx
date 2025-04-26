@@ -12,10 +12,12 @@ export const FormFileInput: FC<FormFileInputProps> = ({ name, ...props }) => {
     <Controller
       control={control}
       name={name}
-      render={({ field: { onChange, value } }) => (
+      render={({ field: { onChange, value }, fieldState: { error } }) => (
         <FileInput
           defaultValue={typeof value === 'string' ? value : null}
           onChange={onChange}
+          onRemove={() => onChange(null)}
+          error={error?.message}
           {...props}
         />
       )}

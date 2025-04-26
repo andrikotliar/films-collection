@@ -36,7 +36,11 @@ export const SearchResultPeopleList: FC<SearchResultPeopleListProps> = ({
             onClick={() => onAdd(person)}
           >
             <div className={styles.image}>
-              <Image src={person.image} errorImageSrc={images.actorNotFound} />
+              <Image
+                src={person.image}
+                errorImageSrc={images.actorNotFound}
+                isExternal
+              />
             </div>
             <div className={styles.name}>{person.name}</div>
           </button>

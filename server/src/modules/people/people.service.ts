@@ -1,4 +1,7 @@
-import { SearchPersonQuery } from 'src/modules/people/schemas';
+import {
+  CreatePersonPayload,
+  SearchPersonQuery,
+} from 'src/modules/people/schemas';
 import { PeopleRepository } from './people.repository';
 
 export class PeopleService {
@@ -10,5 +13,9 @@ export class PeopleService {
 
   async searchPersonByTitle(queries: SearchPersonQuery) {
     return this.peopleRepository.searchPersonByName(queries);
+  }
+
+  async createPerson(data: CreatePersonPayload) {
+    return this.peopleRepository.createPerson(data);
   }
 }

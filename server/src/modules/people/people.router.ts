@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { SearchPersonSchema } from 'src/modules/people/schemas';
+import { CreatePersonSchema, SearchPersonSchema } from './schemas';
 
 export const PeopleRouter = async (peopleModule: FastifyInstance) => {
   peopleModule.route({
@@ -9,5 +9,15 @@ export const PeopleRouter = async (peopleModule: FastifyInstance) => {
       querystring: SearchPersonSchema,
     },
     handler: peopleModule.peopleController.searchByName,
+  });
+
+  peopleModule.route({
+    method: 'POST',
+    url: '/',
+    schema: {
+      body: CreatePersonSchema,
+    },
+    preHandler: [peopleModule.authenticate],
+    handler: peopleModule.peopleController.createPerson,
   });
 };
