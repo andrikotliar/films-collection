@@ -20,9 +20,7 @@ type ChildrenProps<T> = {
 
 type SearchProps<T> = {
   children: (props: ChildrenProps<T>) => ReactNode;
-  query: (
-    searchString: string | null,
-  ) => UseQueryOptions<T, Error, T, (string | null)[]>;
+  query: (searchString: string | null) => UseQueryOptions<T, Error, T, any>;
   theme?: 'light' | 'dark';
   placeholder?: string;
 };
@@ -107,7 +105,10 @@ export const Search = <T extends unknown>({
         shouldFocusTriggerOnClose={false}
         className={styles.menu}
       >
-        {children({ onFinishInteraction: handleFinishInteraction, data })}
+        {children({
+          onFinishInteraction: handleFinishInteraction,
+          data,
+        })}
       </PopupMenu>
     </div>
   );

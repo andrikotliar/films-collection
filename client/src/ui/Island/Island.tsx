@@ -5,7 +5,6 @@ import styles from './Island.module.css';
 type IslandProps = PropsWithChildren<{
   hasPaddings?: boolean;
   isFlexContainer?: boolean;
-  className?: string;
 }>;
 
 export const Island: FC<IslandProps> = ({

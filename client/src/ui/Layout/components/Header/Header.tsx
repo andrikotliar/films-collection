@@ -47,7 +47,9 @@ export const Header = () => {
             />
           )}
         </div>
-        <FilmsSearch />
+        <div className={styles.searchWrapper}>
+          <FilmsSearch />
+        </div>
         <button
           className={styles.menuButton}
           onClick={handleToggleAppMenu}

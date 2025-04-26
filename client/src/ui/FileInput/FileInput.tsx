@@ -38,9 +38,9 @@ export const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
     };
 
     return (
-      <label className={styles.root}>
+      <label className={styles.root} style={{ width }}>
         {label && <FieldLabel>{label}</FieldLabel>}
-        <div className={styles.inputWrapper} style={{ width }}>
+        <div className={styles.inputWrapper}>
           <input
             type="file"
             onChange={handleChange}
