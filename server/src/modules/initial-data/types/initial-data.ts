@@ -9,6 +9,7 @@ export type InitialData = {
     collections: ListOption[];
     types: ListOption<string>[];
     styles: ListOption<string>[];
+    roles: ListOption<string>[];
   };
   event: GetEventQueryResult | null;
 };
