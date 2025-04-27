@@ -1,0 +1,18 @@
+.appendButton {
+  margin-top: 15px;
+}
+
+.removeButton {
+  color: var(--gray-dark);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+
+.removeButton:hover {
+  color: var(--blue-default);
+}

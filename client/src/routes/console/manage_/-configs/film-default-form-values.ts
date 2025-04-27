@@ -17,5 +17,6 @@ export const filmDefaultFormValues: FormValues = {
   countries: [],
   description: null,
   crew: [],
+  cast: [],
   trailers: [],
 };

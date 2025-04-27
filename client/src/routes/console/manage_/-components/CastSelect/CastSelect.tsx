@@ -1,35 +1,29 @@
+import styles from './CastSelect.module.css';
 import { searchPersonQuery } from '@/queries';
+import { CreatePersonModal } from '@/routes/console/-components';
 import { FormValues } from '@/routes/console/manage_/-types';
-import { ListOption } from '@/types';
 import {
   Button,
   FormSection,
-  FormSelect,
   FormTextInput,
   Search,
   SearchResultPeopleList,
 } from '@/ui';
 import { Trash2Icon } from 'lucide-react';
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import styles from './CrewSelect.module.css';
-import { CreatePersonModal } from '@/routes/console/-components';
 
-type CrewSelectProps = {
-  positionOptions: ListOption[];
-};
-
-export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
+export const CastSelect = () => {
   const { control } = useFormContext<FormValues>();
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
 
   const { fields, append, remove } = useFieldArray({
     control,
-    name: 'crew',
+    name: 'cast',
   });
 
   return (
-    <FormSection label="Crew">
+    <FormSection label="Cast">
       <Search placeholder="Search person..." query={searchPersonQuery}>
         {({ data, onFinishInteraction }) => (
           <SearchResultPeopleList
@@ -38,8 +32,7 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
               append({
                 personId: person.id,
                 name: person.name,
-                position: '',
-                comment: null,
+                characterName: '',
               });
               onFinishInteraction();
             }}
@@ -54,14 +47,10 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
         {fields.map((field, index) => (
           <div key={field.id} className={styles.selectedRow}>
             <div className={styles.name}>{field.name}</div>
-            <FormSelect
-              name={`crew.${index}.position`}
-              options={positionOptions}
-            />
             <div>
               <FormTextInput
-                name={`crew.${index}.comment`}
-                placeholder="Comment"
+                name={`cast.${index}.characterName`}
+                placeholder="Character name"
               />
             </div>
             <Button
@@ -80,11 +69,10 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
           append({
             personId: data.id,
             name: data.name,
-            position: '',
-            comment: null,
+            characterName: '',
           });
         }}
-        title="Add crew member"
+        title="Add actor"
       />
     </FormSection>
   );

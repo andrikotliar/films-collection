@@ -9,6 +9,13 @@ export type FormCrew = {
   personId: number;
   name: string;
   position: string;
+  comment: string | null;
+};
+
+export type FormCast = {
+  personId: number;
+  name: string;
+  characterName: string;
 };
 
 export type FormValues = {
@@ -28,5 +35,6 @@ export type FormValues = {
   studios: string[];
   description: string | null;
   crew: FormCrew[];
+  cast: FormCast[];
   trailers: FilmFormTrailer[];
 };
