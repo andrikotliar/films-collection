@@ -6,7 +6,12 @@ import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
-import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
+import {
+  AddFilmLink,
+  AdminFilm,
+  AdminFilmsGrid,
+  AdminFilmsTools,
+} from './-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string(),
@@ -54,7 +59,7 @@ function PageContainer() {
     <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
       <AdminFilmsTools />
-      {/* <AddFilmLink /> */}
+      <AddFilmLink />
       <Island>
         <AdminFilmsGrid>
           {data.films.map((film) => (
