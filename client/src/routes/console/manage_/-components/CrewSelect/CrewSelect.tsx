@@ -5,6 +5,7 @@ import {
   Button,
   FormSection,
   FormSelect,
+  FormTextInput,
   Search,
   SearchResultPeopleList,
 } from '@/ui';
@@ -38,6 +39,7 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
                 personId: person.id,
                 name: person.name,
                 position: '',
+                comment: null,
               });
               onFinishInteraction();
             }}
@@ -56,6 +58,12 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
               name={`crew.${index}.position`}
               options={positionOptions}
             />
+            <div>
+              <FormTextInput
+                name={`crew.${index}.comment`}
+                placeholder="Comment"
+              />
+            </div>
             <Button
               icon={<Trash2Icon />}
               variant="ghost"
@@ -73,6 +81,7 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
             personId: data.id,
             name: data.name,
             position: '',
+            comment: null,
           });
         }}
         title="Add crew member"

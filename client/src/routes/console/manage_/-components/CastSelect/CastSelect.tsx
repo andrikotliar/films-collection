@@ -47,10 +47,12 @@ export const CastSelect = () => {
         {fields.map((field, index) => (
           <div key={field.id} className={styles.selectedRow}>
             <div className={styles.name}>{field.name}</div>
-            <FormTextInput
-              name={`cast.${index}.characterName`}
-              placeholder="Character name"
-            />
+            <div>
+              <FormTextInput
+                name={`cast.${index}.characterName`}
+                placeholder="Character name"
+              />
+            </div>
             <Button
               icon={<Trash2Icon />}
               variant="ghost"

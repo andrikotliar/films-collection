@@ -9,6 +9,7 @@ export type FormCrew = {
   personId: number;
   name: string;
   position: string;
+  comment: string | null;
 };
 
 export type FormCast = {
