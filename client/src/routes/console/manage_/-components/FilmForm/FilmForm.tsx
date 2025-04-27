@@ -11,10 +11,11 @@ import {
   FormFileInput,
 } from '@/ui';
 import { FC } from 'react';
-import { FormRow } from '../FormRow/FormRow';
 import { InitialData } from '@/types';
+import { FormRow } from '../FormRow/FormRow';
 import { CrewSelect } from '../CrewSelect/CrewSelect';
 import { Trailers } from '../Trailers/Trailers';
+import { CastSelect } from '../CastSelect/CastSelect';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
@@ -83,6 +84,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
       </FormRow>
       <FormTextEditor name="description" label="Description" />
       <CrewSelect positionOptions={initialOptions.options.roles} />
+      <CastSelect />
       <Trailers />
       <FormRow align="center" gap={20}>
         <Button type="submit">Save</Button>
