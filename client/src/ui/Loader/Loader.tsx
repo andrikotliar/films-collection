@@ -6,11 +6,13 @@ import { LoaderCircle } from 'lucide-react';
 export type LoaderProps = {
   isFullPage?: boolean;
   iconClassName?: string;
+  size?: number;
 };
 
 export const Loader: FC<LoaderProps> = ({
   isFullPage = false,
   iconClassName,
+  size = 60,
 }) => {
   return (
     <div
@@ -20,6 +22,7 @@ export const Loader: FC<LoaderProps> = ({
     >
       <LoaderCircle
         className={classNames(styles.loader, 'spin', iconClassName)}
+        size={size}
       />
     </div>
   );

@@ -14,6 +14,7 @@ export const InitialDataModule = fastifyPlugin(
         countriesService: app.countriesService,
         studiosService: app.studiosService,
         collectionEventsService: app.collectionEventsService,
+        awardsService: app.awardsService,
       }),
     );
 

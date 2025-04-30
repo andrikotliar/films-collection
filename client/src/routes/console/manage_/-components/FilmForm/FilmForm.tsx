@@ -12,10 +12,13 @@ import {
 } from '@/ui';
 import { FC } from 'react';
 import { InitialData } from '@/types';
-import { FormRow } from '../FormRow/FormRow';
-import { CrewSelect } from '../CrewSelect/CrewSelect';
-import { Trailers } from '../Trailers/Trailers';
-import { CastSelect } from '../CastSelect/CastSelect';
+import {
+  AwardsSelect,
+  CastSelect,
+  CrewSelect,
+  FormRow,
+  Trailers,
+} from './components';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
@@ -85,6 +88,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
       <FormTextEditor name="description" label="Description" />
       <CrewSelect positionOptions={initialOptions.options.roles} />
       <CastSelect />
+      <AwardsSelect awardOptions={initialOptions.options.awards} />
       <Trailers />
       <FormRow align="center" gap={20}>
         <Button type="submit">Save</Button>

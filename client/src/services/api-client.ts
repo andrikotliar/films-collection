@@ -13,17 +13,6 @@ type ApiClientOptions = {
   baseUrl: string;
 };
 
-type ErrorInterceptorOriginalRequest = {
-  path: ApiEndpoint;
-  options?: IFetchOptions;
-  [key: string]: unknown;
-};
-
-type ErrorInterceptor = (
-  error: HttpError,
-  originalRequestParams: ErrorInterceptorOriginalRequest,
-) => Promise<ErrorInterceptorOriginalRequest>;
-
 const TOKEN_ERRORS = ['TOKEN_EXPIRED', 'TOKEN_MISSED'];
 
 export class HttpError extends Error {
@@ -42,7 +31,6 @@ export class HttpError extends Error {
 
 export class ApiClient {
   private baseUrl: string;
-  private errorInterceptor: ErrorInterceptor | null = null;
 
   constructor(config: ApiClientOptions) {
     this.baseUrl = config.baseUrl;
@@ -86,8 +74,25 @@ export class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (this.errorInterceptor) {
-        return this.errorInterceptor(error, { path, options }) as Promise<T>;
+      if (error.response.statusCode === 401) {
+        console.clear();
+
+        try {
+          if (!TOKEN_ERRORS.includes(error.response?.code)) {
+            throw error;
+          }
+
+          await this.request('/auth/refresh', {
+            method: 'POST',
+          });
+
+          return this.request(path, options);
+        } catch (error) {
+          if (!window.location.pathname.includes('login')) {
+            LocalStorage.removeItem('IS_AUTHENTICATED');
+            throw redirect({ to: '/login' });
+          }
+        }
       }
 
       throw error;
@@ -139,10 +144,6 @@ export class ApiClient {
       ...options,
       method: 'DELETE',
     });
-  }
-
-  setErrorInterceptor(interceptor: ErrorInterceptor) {
-    this.errorInterceptor = interceptor;
   }
 
   private parseQueryParams(
@@ -211,32 +212,4 @@ export class ApiClient {
 
 export const apiClient = new ApiClient({
   baseUrl: env.apiBaseUrl,
-});
-
-apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
-  if (error.response.statusCode === 401 && !originalRequestParams._isRetried) {
-    originalRequestParams._isRetried = true;
-
-    try {
-      if (!TOKEN_ERRORS.includes(error.response?.code)) {
-        throw error;
-      }
-
-      await apiClient.request('/auth/refresh', {
-        method: 'POST',
-      });
-
-      return apiClient.request(
-        originalRequestParams.path,
-        originalRequestParams.options,
-      );
-    } catch (error) {
-      if (!window.location.pathname.includes('login')) {
-        LocalStorage.removeItem('IS_AUTHENTICATED');
-        throw redirect({ to: '/login' });
-      }
-    }
-  }
-
-  throw error;
 });

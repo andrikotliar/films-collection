@@ -6,3 +6,4 @@ export * from './search-films-query';
 export * from './fetch-admin-list-query';
 export * from './fetch-collection-events-query';
 export * from './search-person-query';
+export * from './fetch-nominations-by-award-query';

@@ -1,6 +1,6 @@
-import { TitleStyle, TitleType } from '@/types';
+import { Person, TitleStyle, TitleType } from '@/types';
 
-export type FilmFormTrailer = {
+export type FormTrailer = {
   videoId: string;
   order: number;
 };
@@ -16,6 +16,13 @@ export type FormCast = {
   personId: number;
   name: string;
   characterName: string;
+};
+
+export type FormAward = {
+  awardId: number | null;
+  nominationId: number | null;
+  person: Person | null;
+  comment: number | null;
 };
 
 export type FormValues = {
@@ -36,5 +43,6 @@ export type FormValues = {
   description: string | null;
   crew: FormCrew[];
   cast: FormCast[];
-  trailers: FilmFormTrailer[];
+  awards: FormAward[];
+  trailers: FormTrailer[];
 };
