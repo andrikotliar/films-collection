@@ -30,15 +30,22 @@ A personal list of films with manually collected data. The app primarily focuses
 
 ## Start development server
 
-1. Go to the server folder and create `.env` file. Copy all required variables from the `env.sample.txt`.
-2. Repeat step 1 for the `client` folder.
-3. In the project root, run `npm run install:all` to install dependencies for both the client and server.
-4. In the project root run `npm run dev`.  This will start both the client and server using `concurrently`.
-5. Open `http://localhost:3030`
+1. In the project root, run `npm run install:all` to install dependencies for both the client and server.
+2. Go to the `server` directory and create `.env` file. Copy variables from the `env.sample.txt`.
+3. Inside the `server` directory run the following scripts to migrate and seed database:
+
+```shell
+npm run db:migrate
+npm run db:seed
+```
+
+4. Go to the `client` directory, create `.env` file and fill it with variables from the `env.sample.txt`.
+5. In the project's root run `npm run dev`.  This will start both the client and server using `concurrently`.
+6. Open `http://localhost:3030`
 
 ## Build project
 
-1. Run `npm run build` in the project root. The command builds the code into `client/dist` and `server/dist`.
+1. Run `npm run build` in the project's root. The command builds the code into `client/dist` and `server/dist`.
 
 The backend is ready to deploy to fly.io, see [docs](https://fly.io/docs/launch/deploy/)
 
