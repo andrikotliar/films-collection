@@ -13,14 +13,13 @@ import { PopupMenu } from '../PopupMenu/PopupMenu';
 import { parseSelectState } from './helpers';
 import { TextInput } from '../TextInput';
 import { useDebouncedSearch } from '@/hooks';
-import { ScrollableWrapper } from '../ScrollableWrapper/ScrollableWrapper';
 
 type InternalValue = {
   [key: string]: boolean;
 };
 
 export type SelectProps = {
-  options: ListOption[];
+  options: ListOption<any>[];
   defaultValue?: string | number | string[] | number[];
   onSelect?: (value: unknown) => void;
   placeholder?: string;

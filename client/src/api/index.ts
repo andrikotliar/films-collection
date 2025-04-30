@@ -5,3 +5,4 @@ export * from './authentication';
 export * from './collection-events';
 export * from './files';
 export * from './people';
+export * from './awards';

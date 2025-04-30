@@ -12,6 +12,7 @@ import {
 import classNames from 'classnames';
 import { debounce } from '@/helpers';
 import { PopupMenu } from '../PopupMenu/PopupMenu';
+import { FieldLabel } from '@/ui/FieldLabel/FieldLabel';
 
 type ChildrenProps<T> = {
   data?: T;
@@ -24,6 +25,7 @@ type SearchProps<T> = {
   query: (searchString: string | null) => UseQueryOptions<T, Error, T, any>;
   theme?: 'light' | 'dark';
   placeholder?: string;
+  label?: string;
 };
 
 export const Search = <T extends unknown>({
@@ -31,6 +33,7 @@ export const Search = <T extends unknown>({
   query,
   theme = 'light',
   placeholder = 'Search...',
+  label,
 }: SearchProps<T>) => {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchString, setSearchString] = useState<string | null>(null);
@@ -78,6 +81,7 @@ export const Search = <T extends unknown>({
 
   return (
     <div className={styles.search}>
+      {label && <FieldLabel>{label}</FieldLabel>}
       <div className={styles.inputWrapper}>
         <input
           type="text"

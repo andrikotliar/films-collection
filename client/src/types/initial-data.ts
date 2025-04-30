@@ -7,6 +7,7 @@ export type InitialData = {
     collections: ListOption[];
     countries: ListOption[];
     studios: ListOption[];
+    awards: ListOption<number>[];
     types: ListOption<string>[];
     styles: ListOption<string>[];
     roles: ListOption<string>[];

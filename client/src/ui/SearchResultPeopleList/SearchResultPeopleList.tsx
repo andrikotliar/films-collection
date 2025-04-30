@@ -6,7 +6,7 @@ import { images } from '@/assets/images';
 
 type SearchResultPeopleListProps = {
   data: Person[];
-  onCreate: VoidFunction;
+  onCreate?: VoidFunction;
   onAdd: (person: Person) => void;
 };
 
@@ -15,13 +15,17 @@ export const SearchResultPeopleList: FC<SearchResultPeopleListProps> = ({
   onCreate,
   onAdd,
 }) => {
+  const isCreateHandlerPresent = typeof onCreate === 'function';
+
   if (!data.length) {
     return (
       <div className={styles.noResultsWrapper}>
         <span>No search results.</span>
-        <button onClick={onCreate} className={styles.createButton}>
-          Create
-        </button>
+        {isCreateHandlerPresent && (
+          <button onClick={onCreate} className={styles.createButton}>
+            Create
+          </button>
+        )}
       </div>
     );
   }
@@ -46,9 +50,11 @@ export const SearchResultPeopleList: FC<SearchResultPeopleListProps> = ({
           </button>
         ))}
       </div>
-      <button onClick={onCreate} className={styles.createButton}>
-        Create
-      </button>
+      {isCreateHandlerPresent && (
+        <button onClick={onCreate} className={styles.createButton}>
+          Create
+        </button>
+      )}
     </div>
   );
 };

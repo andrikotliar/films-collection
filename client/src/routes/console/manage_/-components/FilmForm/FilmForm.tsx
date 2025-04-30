@@ -16,6 +16,7 @@ import { FormRow } from '../FormRow/FormRow';
 import { CrewSelect } from '../CrewSelect/CrewSelect';
 import { Trailers } from '../Trailers/Trailers';
 import { CastSelect } from '../CastSelect/CastSelect';
+import { AwardsSelect } from '../AwardsSelect/AwardsSelect';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
@@ -85,6 +86,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
       <FormTextEditor name="description" label="Description" />
       <CrewSelect positionOptions={initialOptions.options.roles} />
       <CastSelect />
+      <AwardsSelect awardOptions={initialOptions.options.awards} />
       <Trailers />
       <FormRow align="center" gap={20}>
         <Button type="submit">Save</Button>

@@ -3,12 +3,13 @@ import { fetchInitialDataQuery } from '@/queries';
 import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { object, string } from 'yup';
 import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
 import { FormValues } from './-types';
+import { LocalStorage } from '@/services';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),
@@ -33,11 +34,20 @@ function PageContainer() {
   const pageTitle = isEdit ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {
+    const localValues = LocalStorage.getItem<FormValues>('FILM_DRAFT');
+
+    if (!isEdit && localValues) {
+      return {
+        ...localValues,
+        poster: null,
+      };
+    }
+
     return {
       ...filmDefaultFormValues,
       isDraft: false,
     };
-  }, []);
+  }, [isEdit]);
 
   const form = useForm({
     defaultValues,
@@ -46,6 +56,16 @@ function PageContainer() {
   const handleSubmit = async (data: FormValues) => {
     console.log(data);
   };
+
+  const values = form.watch();
+
+  useEffect(() => {
+    if (!isEdit) {
+      const { poster: _poster, ...data } = values;
+
+      LocalStorage.setItem('FILM_DRAFT', data);
+    }
+  }, [values, isEdit]);
 
   return (
     <ConsoleContent>
