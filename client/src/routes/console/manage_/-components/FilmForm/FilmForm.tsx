@@ -12,11 +12,13 @@ import {
 } from '@/ui';
 import { FC } from 'react';
 import { InitialData } from '@/types';
-import { FormRow } from '../FormRow/FormRow';
-import { CrewSelect } from '../CrewSelect/CrewSelect';
-import { Trailers } from '../Trailers/Trailers';
-import { CastSelect } from '../CastSelect/CastSelect';
-import { AwardsSelect } from '../AwardsSelect/AwardsSelect';
+import {
+  AwardsSelect,
+  CastSelect,
+  CrewSelect,
+  FormRow,
+  Trailers,
+} from './components';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
