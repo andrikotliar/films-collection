@@ -8,6 +8,7 @@ export class InitialDataService {
   private countriesService;
   private studiosService;
   private collectionEventsService;
+  private awardsService;
 
   constructor(dependencies: InitialDataServiceDependencies) {
     this.collectionsService = dependencies.collectionsService;
@@ -15,15 +16,19 @@ export class InitialDataService {
     this.countriesService = dependencies.countriesService;
     this.studiosService = dependencies.studiosService;
     this.collectionEventsService = dependencies.collectionEventsService;
+    this.awardsService = dependencies.awardsService;
   }
 
   async getOptions(): Promise<InitialData> {
-    const [collections, genres, countries, studios] = await Promise.all([
-      this.collectionsService.getListOptions(),
-      this.genresService.getListOptions(),
-      this.countriesService.getListOptions(),
-      this.studiosService.getListOptions(),
-    ]);
+    const [collections, genres, countries, studios, awards] = await Promise.all(
+      [
+        this.collectionsService.getListOptions(),
+        this.genresService.getListOptions(),
+        this.countriesService.getListOptions(),
+        this.studiosService.getListOptions(),
+        this.awardsService.getListOptions(),
+      ],
+    );
 
     const types = this.convertEnumValuesToOption(TitleType);
     const styles = this.convertEnumValuesToOption(TitleStyle);
@@ -40,6 +45,7 @@ export class InitialDataService {
         types,
         styles,
         roles,
+        awards,
       },
       event: todayEvent.event,
     };

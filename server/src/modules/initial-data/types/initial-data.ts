@@ -10,6 +10,7 @@ export type InitialData = {
     types: ListOption<string>[];
     styles: ListOption<string>[];
     roles: ListOption<string>[];
+    awards: ListOption[];
   };
   event: GetEventQueryResult | null;
 };

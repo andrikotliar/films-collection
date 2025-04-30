@@ -1,4 +1,5 @@
 import { AuthController } from 'src/modules/auth/auth.controller';
+import { AwardsController } from 'src/modules/awards/awards.controller';
 import { AwardsService } from 'src/modules/awards/awards.service';
 import { CollectionEventsController } from 'src/modules/collection-events/collection-events.controller';
 import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
@@ -19,6 +20,7 @@ export type AppDependencies = {
   filmsController: FilmsController;
   usersService: UsersService;
   awardsService: AwardsService;
+  awardsController: AwardsController;
   collectionsService: CollectionsService;
   genresService: GenresService;
   countriesService: CountriesService;

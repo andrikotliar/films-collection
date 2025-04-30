@@ -165,11 +165,12 @@ model Award {
 }
 
 model Nomination {
-  id      Int                   @id @default(autoincrement())
-  title   String
-  award   Award                 @relation(fields: [awardId], references: [id])
-  awardId Int                   @map("award_id")
-  films   FilmAwardNomination[]
+  id                 Int                   @id @default(autoincrement())
+  title              String
+  award              Award                 @relation(fields: [awardId], references: [id])
+  awardId            Int                   @map("award_id")
+  shouldIncludeActor Boolean               @default(false) @map("should_include_actor")
+  films              FilmAwardNomination[]
 
   @@map("nominations")
 }

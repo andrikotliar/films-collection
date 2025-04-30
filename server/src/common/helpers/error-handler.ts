@@ -47,18 +47,16 @@ export const errorHandler: FastifyInstance['errorHandler'] = (
     return reply.code(response.statusCode).send(response);
   }
 
-  if (error.statusCode === ResponseCode.SERVER_ERROR) {
+  if (!error.statusCode || error.statusCode === ResponseCode.SERVER_ERROR) {
     return reply.code(ResponseCode.SERVER_ERROR).send({
       statusCode: ResponseCode.SERVER_ERROR,
       message: 'Internal Server Error',
     });
   }
 
-  const statusCode = error.statusCode ?? ResponseCode.SERVER_ERROR;
-
-  return reply.code(statusCode).send({
+  return reply.code(error.statusCode).send({
     code: error.code,
-    statusCode,
+    statusCode: error.statusCode,
     message: error.message,
   });
 };

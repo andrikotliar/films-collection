@@ -1,3 +1,4 @@
+import { AwardsService } from 'src/modules/awards/awards.service';
 import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
 import { CollectionsService } from 'src/modules/collections/collections.service';
 import { CountriesService } from 'src/modules/countries/countries.service';
@@ -10,4 +11,5 @@ export type InitialDataServiceDependencies = {
   countriesService: CountriesService;
   studiosService: StudiosService;
   collectionEventsService: CollectionEventsService;
+  awardsService: AwardsService;
 };
