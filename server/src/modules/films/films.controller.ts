@@ -2,6 +2,7 @@ import { FastifyReply, FastifyRequest } from 'fastify';
 import { NotFoundException, ResponseCode } from '../../common';
 import { FilmsService } from './films.service';
 import {
+  FilmRelatedChaptersQuery,
   FilmsAdminQuery,
   FilmsGetParams,
   FilmsQuery,
@@ -53,5 +54,14 @@ export class FilmsController {
     const data = await this.filmsService.getAdminList(request.query);
 
     return reply.code(ResponseCode.OK).send(data);
+  }
+
+  async findRelatedChapters(
+    request: FastifyRequest<{ Querystring: FilmRelatedChaptersQuery }>,
+    reply: FastifyReply,
+  ) {
+    const data = await this.filmsService.getRelatedChapters(request.query);
+
+    return reply.status(ResponseCode.OK).send(data);
   }
 }

@@ -3,6 +3,7 @@ import {
   FilmsAdminGetListQuerySchema,
   FilmsGetParamsSchema,
   FilmsQuerySchema,
+  FilmsRelatedChaptersSchema,
   FilmsSearchQuerySchema,
 } from './schemas';
 
@@ -33,6 +34,16 @@ export const FilmsRouter = async (filmsModule: FastifyInstance) => {
       querystring: FilmsAdminGetListQuerySchema,
     },
     handler: filmsModule.filmsController.getAdminList,
+  });
+
+  filmsModule.route({
+    method: 'GET',
+    url: '/chapters',
+    preHandler: [filmsModule.authenticate],
+    schema: {
+      querystring: FilmsRelatedChaptersSchema,
+    },
+    handler: filmsModule.filmsController.findRelatedChapters,
   });
 
   filmsModule.route({

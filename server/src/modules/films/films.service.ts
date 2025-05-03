@@ -1,7 +1,11 @@
 import { convertEnumValueToLabel } from 'src/common';
 import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
-import { FilmsAdminQuery, FilmsQuery } from './schemas';
+import {
+  FilmRelatedChaptersQuery,
+  FilmsAdminQuery,
+  FilmsQuery,
+} from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 
 export class FilmsService {
@@ -78,6 +82,10 @@ export class FilmsService {
       limit: 32,
       orderBy: { [orderKey]: order },
     });
+  }
+
+  getRelatedChapters(query: FilmRelatedChaptersQuery) {
+    return this.filmsRepository.findChapters(query.key, query.filmId);
   }
 
   private async populateAdditionalData(query: FilmsQuery) {
