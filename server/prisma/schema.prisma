@@ -213,6 +213,12 @@ model SeriesExtension {
   @@map("series_extensions")
 }
 
+model FilmChapterKey {
+  key String @id @unique
+
+  @@map("film_chapter_keys")
+}
+
 model User {
   id           Int      @id @default(autoincrement())
   username     String   @unique
