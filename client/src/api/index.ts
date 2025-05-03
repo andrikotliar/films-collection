@@ -6,3 +6,4 @@ export * from './collection-events';
 export * from './files';
 export * from './people';
 export * from './awards';
+export * from './chapter-keys';
