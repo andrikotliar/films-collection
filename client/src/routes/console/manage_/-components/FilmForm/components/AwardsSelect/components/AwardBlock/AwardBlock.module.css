@@ -1,0 +1,16 @@
+.awardBlock {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  border: var(--app-border);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-grow: 1;
+}
