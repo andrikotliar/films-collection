@@ -1,11 +1,11 @@
 import styles from './AwardsSelect.module.css';
 import { FC } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
+import { PlusIcon } from 'lucide-react';
 import { FormAward, FormValues } from '@/routes/console/manage_/-types';
 import { ListOption } from '@/types';
-import { Button, FormSection, FormSelect, FormTextInput } from '@/ui';
-import { NominationSelect } from './components';
-import { PlusIcon, Trash2Icon } from 'lucide-react';
+import { Button, FormSection } from '@/ui';
+import { AwardBlock } from './components';
 
 type AwardsSelectProps = {
   awardOptions: ListOption<number>[];
@@ -30,22 +30,13 @@ export const AwardsSelect: FC<AwardsSelectProps> = ({ awardOptions }) => {
     <FormSection label="Awards">
       <div className={styles.wrapper}>
         {fields.map((field, index) => (
-          <div key={field.id} className={styles.awardSelection}>
-            <div className={styles.formInputs}>
-              <FormSelect
-                name={`awards.${index}.awardId`}
-                options={awardOptions}
-                label="Award"
-              />
-              <NominationSelect index={index} onActorSelect={update} />
-              <FormTextInput name={`awards.${index}.comment`} label="Comment" />
-            </div>
-            <Button
-              icon={<Trash2Icon />}
-              onClick={() => remove(index)}
-              variant="ghost"
-            />
-          </div>
+          <AwardBlock
+            key={field.id}
+            index={index}
+            onFieldRemove={remove}
+            onFieldUpdate={update}
+            awardOptions={awardOptions}
+          />
         ))}
         <div>
           <Button

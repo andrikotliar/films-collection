@@ -1,1 +1,1 @@
-export * from './NominationSelect/NominationSelect';
+export * from './AwardBlock/AwardBlock';
