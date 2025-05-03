@@ -11,3 +11,4 @@ export * from './people/people.module';
 export * from './studios/studios.module';
 export * from './collection-events/collection-events.module';
 export * from './files/files.module';
+export * from './chapter-keys/chapter-keys.module';
