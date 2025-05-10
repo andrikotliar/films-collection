@@ -36,6 +36,7 @@ export class PendingFilmsService {
     if (queryFilters.q) {
       filters.title = {
         contains: queryFilters.q,
+        mode: 'insensitive',
       };
     }
 
