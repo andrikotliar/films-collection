@@ -6,7 +6,12 @@ export class PendingFilmsRepository {
   async getListAndCount(args: Prisma.PendingFilmFindManyArgs) {
     const list = await this.prismaClient.pendingFilm.findMany(args);
 
-    const total = await this.prismaClient.pendingFilm.count();
+    const total = await this.prismaClient.pendingFilm.count({
+      where: args.where,
+      take: args.take,
+      skip: args.skip,
+      orderBy: args.orderBy,
+    });
 
     return { list, total };
   }
