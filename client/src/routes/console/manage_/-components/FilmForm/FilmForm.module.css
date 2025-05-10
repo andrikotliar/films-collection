@@ -1,3 +1,8 @@
+.topButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -7,4 +12,21 @@
 .posterWrapper {
   width: 40%;
   flex-shrink: 0;
+}
+
+.revenue {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .revenue {
+    flex-direction: column;
+  }
 }

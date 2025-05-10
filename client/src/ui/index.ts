@@ -40,3 +40,4 @@ export * from './FileInput';
 export * from './Search/Search';
 export * from './SearchResultPeopleList/SearchResultPeopleList';
 export * from './FieldError/FieldError';
+export * from './Toggle';

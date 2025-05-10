@@ -76,6 +76,7 @@ function PageContainer() {
           <FilmForm
             onSubmit={form.handleSubmit(handleSubmit)}
             initialOptions={initialOptions}
+            filmId={id}
           />
         </FormProvider>
       </Island>

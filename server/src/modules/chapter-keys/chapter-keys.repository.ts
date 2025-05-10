@@ -10,4 +10,12 @@ export class ChapterKeysRepository {
       },
     });
   }
+
+  create(key: string) {
+    return this.databaseClient.filmChapterKey.create({
+      data: {
+        key,
+      },
+    });
+  }
 }

@@ -3,6 +3,7 @@ export type ApiEndpoint =
   | '/films/:filmId'
   | '/films/search'
   | '/films/admin'
+  | '/films/chapters'
   | '/initial-data'
   | '/pending-films'
   | '/pending-films/:filmId'
@@ -16,4 +17,5 @@ export type ApiEndpoint =
   | '/people'
   | '/people/search'
   | '/awards/nominations'
+  | '/chapter-keys'
   | '/chapter-keys/options';
