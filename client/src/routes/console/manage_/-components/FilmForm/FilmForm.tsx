@@ -19,6 +19,9 @@ import {
   CrewSelect,
   Trailers,
 } from './components';
+import { useFormContext } from 'react-hook-form';
+import { FormValues } from '@/routes/console/manage_/-types';
+import { filmDefaultFormValues } from '@/routes/console/manage_/-configs';
 
 type FilmFormProps = {
   filmId: string;
@@ -31,6 +34,12 @@ export const FilmForm: FC<FilmFormProps> = ({
   initialOptions,
   filmId,
 }) => {
+  const { reset } = useFormContext<FormValues>();
+
+  const handleResetForm = () => {
+    reset(filmDefaultFormValues);
+  };
+
   return (
     <form onSubmit={onSubmit} className={styles.form}>
       <FormTextInput name="title" label="Title" />
@@ -97,6 +106,13 @@ export const FilmForm: FC<FilmFormProps> = ({
       <div className={styles.buttons}>
         <Button type="submit">Save</Button>
         <FormCheckbox name="isDraft" type="checkbox" label="Draft" />
+        <Button
+          variant="secondary"
+          className={styles.resetButton}
+          onClick={handleResetForm}
+        >
+          Reset form
+        </Button>
       </div>
     </form>
   );

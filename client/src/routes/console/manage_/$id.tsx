@@ -55,6 +55,7 @@ function PageContainer() {
 
   const handleSubmit = async (data: FormValues) => {
     console.log(data);
+    form.reset(filmDefaultFormValues);
   };
 
   const values = form.watch();
