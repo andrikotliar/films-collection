@@ -5,7 +5,8 @@ import {
   PendingFilmsQuerySchema,
   PendingFilmsUpdateParamsSchema,
   PendingFilmsUpdateBodySchema,
-} from 'src/modules/pending-films/schemas';
+  PendingFilmsFindSchema,
+} from './schemas';
 
 export const PendingFilmsRouter = async (
   pendingFilmsModule: FastifyInstance,
@@ -18,6 +19,16 @@ export const PendingFilmsRouter = async (
       querystring: PendingFilmsQuerySchema,
     },
     handler: pendingFilmsModule.pendingFilmsController.getList,
+  });
+
+  pendingFilmsModule.route({
+    method: 'GET',
+    url: '/:id',
+    preHandler: [pendingFilmsModule.authenticate],
+    schema: {
+      params: PendingFilmsFindSchema,
+    },
+    handler: pendingFilmsModule.pendingFilmsController.findPendingFilm,
   });
 
   pendingFilmsModule.route({

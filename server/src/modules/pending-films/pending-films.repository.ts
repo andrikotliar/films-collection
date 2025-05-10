@@ -39,4 +39,18 @@ export class PendingFilmsRepository {
       data,
     });
   }
+
+  findPendingFilm(id: number) {
+    return this.prismaClient.pendingFilm.findUnique({
+      select: {
+        id: true,
+        collectionId: true,
+        title: true,
+        rating: true,
+      },
+      where: {
+        id,
+      },
+    });
+  }
 }

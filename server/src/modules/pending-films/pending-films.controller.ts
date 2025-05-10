@@ -1,7 +1,8 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
-import { ResponseCode } from 'src/common';
+import { NotFoundException, ResponseCode } from 'src/common';
 import {
+  FindPendingFilmParams,
   PendingFilmsCreatePayload,
   PendingFilmsDeleteParams,
   PendingFilmsQuery,
@@ -53,6 +54,25 @@ export class PendingFilmsController {
       request.params.id,
       request.body,
     );
+
+    return reply.code(ResponseCode.OK).send(result);
+  }
+
+  async findPendingFilm(
+    request: FastifyRequest<{
+      Params: FindPendingFilmParams;
+    }>,
+    reply: FastifyReply,
+  ) {
+    const result = await this.pendingFilmsService.getPendingFilmById(
+      request.params.id,
+    );
+
+    if (!result) {
+      throw new NotFoundException({
+        message: `Pending film ${request.params.id} not found`,
+      });
+    }
 
     return reply.code(ResponseCode.OK).send(result);
   }

@@ -30,6 +30,10 @@ export class PendingFilmsService {
     return this.pendingFilmsRepository.updateById(id, payload);
   }
 
+  getPendingFilmById(id: number) {
+    return this.pendingFilmsRepository.findPendingFilm(id);
+  }
+
   private getListFilters(queryFilters: PendingFilmsQuery) {
     const filters: Prisma.PendingFilmWhereInput = {};
 

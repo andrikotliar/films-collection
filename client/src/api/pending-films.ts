@@ -36,4 +36,10 @@ export const PendingFilmsApi = {
       params: { filmId: params.filmId },
     });
   },
+
+  getPendingFilm(id: number) {
+    return apiClient.get<PendingFilm>('/pending-films/:filmId', {
+      params: { filmId: id },
+    });
+  },
 };
