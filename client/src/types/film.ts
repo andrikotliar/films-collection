@@ -56,7 +56,9 @@ export type FilmBaseData<K extends string> = {
   [key in K]: FilmBaseDataItem;
 };
 
-export type Chapter = Pick<Film, 'id' | 'title' | 'poster' | 'chapterOrder'>;
+export type Chapter = Pick<Film, 'id' | 'title' | 'poster'> & {
+  chapterOrder: number;
+};
 
 export type Film = {
   id: number;

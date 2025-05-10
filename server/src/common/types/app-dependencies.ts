@@ -1,6 +1,7 @@
 import { AuthController } from 'src/modules/auth/auth.controller';
 import { AwardsController } from 'src/modules/awards/awards.controller';
 import { AwardsService } from 'src/modules/awards/awards.service';
+import { ChapterKeysController } from 'src/modules/chapter-keys/chapter-keys.controller';
 import { CollectionEventsController } from 'src/modules/collection-events/collection-events.controller';
 import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
 import { CollectionsService } from 'src/modules/collections/collections.service';
@@ -34,4 +35,5 @@ export type AppDependencies = {
   pendingFilmsController: PendingFilmsController;
   filesService: FilesService;
   filesController: FilesController;
+  chapterKeysController: ChapterKeysController;
 };

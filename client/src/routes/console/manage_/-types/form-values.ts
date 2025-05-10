@@ -41,8 +41,11 @@ export type FormValues = {
   collections: string[];
   studios: string[];
   description: string | null;
+  chapterKey: string | null;
+  chapterOrder: number | null;
   crew: FormCrew[];
   cast: FormCast[];
   awards: FormAward[];
   trailers: FormTrailer[];
+  shouldUseExistingKey: boolean;
 };

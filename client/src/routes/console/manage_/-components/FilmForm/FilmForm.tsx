@@ -15,35 +15,38 @@ import { InitialData } from '@/types';
 import {
   AwardsSelect,
   CastSelect,
+  ChapterSelect,
   CrewSelect,
-  FormRow,
   Trailers,
 } from './components';
 
 type FilmFormProps = {
+  filmId: string;
   onSubmit: VoidFunction;
   initialOptions: InitialData;
 };
 
-export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
+export const FilmForm: FC<FilmFormProps> = ({
+  onSubmit,
+  initialOptions,
+  filmId,
+}) => {
   return (
     <form onSubmit={onSubmit} className={styles.form}>
       <FormTextInput name="title" label="Title" />
-      <FormRow gap={40}>
-        <FormCheckboxesGroup
-          label="Type"
-          name="type"
-          options={initialOptions.options.types}
-          type="radio"
-        />
-        <FormCheckboxesGroup
-          label="Styles"
-          name="style"
-          options={initialOptions.options.styles}
-          type="radio"
-        />
-        <FormRatingInput name="rating" label="Rating" size={3} />
-      </FormRow>
+      <FormCheckboxesGroup
+        label="Type"
+        name="type"
+        options={initialOptions.options.types}
+        type="radio"
+      />
+      <FormCheckboxesGroup
+        label="Styles"
+        name="style"
+        options={initialOptions.options.styles}
+        type="radio"
+      />
+      <FormRatingInput name="rating" label="Rating" size={3} />
       <FormFileInput label="Poster" name="poster" />
       <FormSelect
         label="Genres"
@@ -76,7 +79,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
         min="0"
       />
       <FormDatePicker name="releaseDate" label="Release Date" />
-      <FormRow gap={20}>
+      <div className={styles.revenue}>
         <FormTextInput name="budget" label="Budget" type="number" min="0" />
         <FormTextInput
           name="boxOffice"
@@ -84,16 +87,17 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
           type="number"
           min="0"
         />
-      </FormRow>
+      </div>
       <FormTextEditor name="description" label="Description" />
       <CrewSelect positionOptions={initialOptions.options.roles} />
       <CastSelect />
       <AwardsSelect awardOptions={initialOptions.options.awards} />
       <Trailers />
-      <FormRow align="center" gap={20}>
+      <ChapterSelect filmId={filmId} />
+      <div className={styles.buttons}>
         <Button type="submit">Save</Button>
         <FormCheckbox name="isDraft" type="checkbox" label="Draft" />
-      </FormRow>
+      </div>
     </form>
   );
 };

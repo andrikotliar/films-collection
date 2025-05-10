@@ -7,3 +7,5 @@ export * from './fetch-admin-list-query';
 export * from './fetch-collection-events-query';
 export * from './search-person-query';
 export * from './fetch-nominations-by-award-query';
+export * from './fetch-chapter-keys-options-query';
+export * from './fetch-related-chapters-query';

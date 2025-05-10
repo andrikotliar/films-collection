@@ -20,6 +20,7 @@ model Film {
   boxOffice       BigInt                @default(0) @map("box_office")
   rating          Int                   @default(1)
   chapterKey      String?               @map("chapter_key")
+  chapterKeys     FilmChapterKey?       @relation(fields: [chapterKey], references: [key])
   chapterOrder    Int?                  @map("chapter_order")
   createdAt       DateTime              @default(now()) @map("created_at")
   updatedAt       DateTime              @updatedAt @map("updated_at")
@@ -214,7 +215,8 @@ model SeriesExtension {
 }
 
 model FilmChapterKey {
-  key String @id @unique
+  key   String @id @unique
+  films Film[]
 
   @@map("film_chapter_keys")
 }

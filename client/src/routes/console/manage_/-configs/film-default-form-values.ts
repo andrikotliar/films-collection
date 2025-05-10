@@ -16,8 +16,11 @@ export const filmDefaultFormValues: FormValues = {
   collections: [],
   countries: [],
   description: null,
+  chapterKey: null,
+  chapterOrder: null,
   crew: [],
   cast: [],
   awards: [],
   trailers: [],
+  shouldUseExistingKey: false,
 };

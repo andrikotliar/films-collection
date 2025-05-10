@@ -57,3 +57,11 @@
   max-width: 920px;
   width: 100%;
 }
+
+.searchWrapper:has(input:focus) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  background-color: white;
+}

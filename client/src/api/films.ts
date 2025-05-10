@@ -5,8 +5,14 @@ import {
   FilmsListFilters,
   FilmsListResponse,
   FilmsAdminListResponse,
+  Chapter,
 } from '@/types';
 import { AdminFilmsServerFilters } from '@/types';
+
+export type RelatedChaptersFilter = {
+  key: string;
+  filmId?: number | null;
+};
 
 export const FilmsApi = {
   getList(filters: FilmsListFilters) {
@@ -30,6 +36,20 @@ export const FilmsApi = {
   getAdminFilmsList(filters: AdminFilmsServerFilters) {
     return apiClient.get<FilmsAdminListResponse>('/films/admin', {
       queryParams: filters,
+    });
+  },
+
+  getRelatedChapters(filter: RelatedChaptersFilter) {
+    const queryParams: RelatedChaptersFilter = {
+      key: filter.key,
+    };
+
+    if (filter.filmId) {
+      queryParams.filmId = filter.filmId;
+    }
+
+    return apiClient.get<Chapter[]>('/films/chapters', {
+      queryParams,
     });
   },
 };
