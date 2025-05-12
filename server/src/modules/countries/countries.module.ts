@@ -1,14 +1,13 @@
-import { FastifyInstance } from 'fastify';
-import fastifyPlugin from 'fastify-plugin';
 import { CountriesRepository } from './countries.repository';
 import { CountriesService } from './countries.service';
+import { createModule } from 'src/common';
 
-export const CountriesModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
+export const CountriesModule = createModule({
+  prefix: 'countries',
+  service: (app) => {
     const countriesRepository = new CountriesRepository(app.database);
     const countriesService = new CountriesService(countriesRepository);
 
-    app.decorate('countriesService', countriesService);
+    return countriesService;
   },
-  { name: 'countriesModule' },
-);
+});

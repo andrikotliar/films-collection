@@ -1,67 +1,96 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { NotFoundException, ResponseCode } from '../../common';
-import { FilmsService } from './films.service';
+import { NotFoundException, router } from '../../common';
 import {
-  FilmRelatedChaptersQuery,
-  FilmsAdminQuery,
-  FilmsGetParams,
-  FilmsQuery,
-  FilmsSearchQuery,
-} from 'src/modules/films/schemas';
+  FilmsAdminGetListQuerySchema,
+  FilmsGetParamsSchema,
+  FilmsQuerySchema,
+  FilmsRelatedChaptersSchema,
+  FilmsSearchQuerySchema,
+} from './schemas';
 
-export class FilmsController {
-  filmsService!: FilmsService;
+export const FilmsController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/',
+    schema: {
+      querystring: FilmsQuerySchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.getFilteredFilms(request.query);
 
-  async findAll(
-    request: FastifyRequest<{ Querystring: FilmsQuery }>,
-    reply: FastifyReply,
-  ) {
-    const data = await this.filmsService.getFilteredFilms(request.query);
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-    return reply.code(ResponseCode.OK).send(data);
-  }
+  defineRoute({
+    method: 'GET',
+    url: '/search',
+    schema: {
+      querystring: FilmsSearchQuerySchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.searchFilm(request.query.q);
 
-  async findOne(
-    request: FastifyRequest<{ Params: FilmsGetParams }>,
-    reply: FastifyReply,
-  ) {
-    const data = await this.filmsService.getFilmDetails(request.params.id);
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-    if (!data) {
-      throw new NotFoundException({
-        message: `Film with the ${request.params.id} not found`,
-      });
-    }
+  defineRoute({
+    method: 'GET',
+    url: '/admin',
+    preHandler: [app.authenticate],
+    schema: {
+      querystring: FilmsAdminGetListQuerySchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.getAdminList(request.query);
 
-    return reply.code(ResponseCode.OK).send(data);
-  }
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-  async findFilmsBySearchString(
-    request: FastifyRequest<{ Querystring: FilmsSearchQuery }>,
-    reply: FastifyReply,
-  ) {
-    const { q } = request.query;
+  defineRoute({
+    method: 'GET',
+    url: '/chapters',
+    preHandler: [app.authenticate],
+    schema: {
+      querystring: FilmsRelatedChaptersSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.getRelatedChapters(request.query);
 
-    const data = await this.filmsService.searchFilm(q);
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-    return reply.code(ResponseCode.OK).send(data);
-  }
+  defineRoute({
+    method: 'GET',
+    url: '/:id',
+    schema: { params: FilmsGetParamsSchema },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.getFilmDetails(request.params.id);
 
-  async getAdminList(
-    request: FastifyRequest<{ Querystring: FilmsAdminQuery }>,
-    reply: FastifyReply,
-  ) {
-    const data = await this.filmsService.getAdminList(request.query);
+      if (!data) {
+        throw new NotFoundException({
+          message: `Film with the ${request.params.id} not found`,
+        });
+      }
 
-    return reply.code(ResponseCode.OK).send(data);
-  }
-
-  async findRelatedChapters(
-    request: FastifyRequest<{ Querystring: FilmRelatedChaptersQuery }>,
-    reply: FastifyReply,
-  ) {
-    const data = await this.filmsService.getRelatedChapters(request.query);
-
-    return reply.status(ResponseCode.OK).send(data);
-  }
-}
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+]);

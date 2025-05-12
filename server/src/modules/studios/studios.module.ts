@@ -1,14 +1,13 @@
-import { FastifyInstance } from 'fastify';
 import { StudiosRepository } from './studios.repository';
 import { StudiosService } from './studios.service';
-import fastifyPlugin from 'fastify-plugin';
+import { createModule } from 'src/common';
 
-export const StudiosModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
+export const StudiosModule = createModule({
+  prefix: 'studios',
+  service: (app) => {
     const studiosRepository = new StudiosRepository(app.database);
     const studiosService = new StudiosService(studiosRepository);
 
-    app.decorate('studiosService', studiosService);
+    return studiosService;
   },
-  { name: 'studiosModule' },
-);
+});

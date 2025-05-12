@@ -1,19 +1,12 @@
-import { FastifyInstance } from 'fastify';
-import fastifyPlugin from 'fastify-plugin';
-import { env } from 'src/common';
+import { createModule, env } from 'src/common';
 import { FilesController } from './files.controller';
 import { FilesService } from './files.service';
-import { FilesRouter } from './files.router';
 
-export const FilesModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
-    app.decorate('filesService', new FilesService(env));
-
-    app.decorate('filesController', new FilesController());
-
-    app.register(FilesRouter, { prefix: '/files' });
+export const FilesModule = createModule({
+  prefix: 'files',
+  service: () => {
+    const service = new FilesService(env);
+    return service;
   },
-  {
-    name: 'filesModule',
-  },
-);
+  controller: FilesController,
+});

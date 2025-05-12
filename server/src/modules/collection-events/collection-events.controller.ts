@@ -1,56 +1,80 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { ResponseCode } from 'src/common';
-import { CollectionEventsService } from './collection-events.service';
+import { router } from 'src/common';
 import {
-  CollectionEventsCreatePayload,
-  CollectionEventsDeleteParams,
-  CollectionEventsUpdateParams,
-  CollectionEventsUpdatePayload,
+  CollectionEventsCreateSchema,
+  CollectionEventsDeleteParamsSchema,
+  CollectionEventsUpdateBodySchema,
+  CollectionEventsUpdateParamsSchema,
 } from './schemas';
 
-export class CollectionEventsController {
-  collectionEventsService!: CollectionEventsService;
+export const CollectionEventsController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'POST',
+    url: '/',
+    preHandler: [app.authenticate],
+    schema: {
+      body: CollectionEventsCreateSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.collectionEventsService.createEvent(request.body);
 
-  async createEvent(
-    request: FastifyRequest<{ Body: CollectionEventsCreatePayload }>,
-    reply: FastifyReply,
-  ) {
-    const createdEvent = await this.collectionEventsService.createEvent(
-      request.body,
-    );
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-    return reply.code(ResponseCode.CREATED).send(createdEvent);
-  }
+  defineRoute({
+    method: 'GET',
+    url: '/admin/list',
+    preHandler: [app.authenticate],
+    handler: async () => {
+      const data = await app.collectionEventsService.getAllEvents();
 
-  async getAllEvents(_: FastifyRequest, reply: FastifyReply) {
-    const events = await this.collectionEventsService.getAllEvents();
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-    return reply.code(ResponseCode.OK).send(events);
-  }
+  defineRoute({
+    method: 'DELETE',
+    url: '/:id',
+    preHandler: [app.authenticate],
+    schema: {
+      params: CollectionEventsDeleteParamsSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.collectionEventsService.deleteEvent(
+        request.params.id,
+      );
 
-  async deleteEvent(
-    request: FastifyRequest<{ Params: CollectionEventsDeleteParams }>,
-    reply: FastifyReply,
-  ) {
-    const result = await this.collectionEventsService.deleteEvent(
-      request.params.id,
-    );
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
 
-    return reply.code(ResponseCode.OK).send(result);
-  }
+  defineRoute({
+    method: 'PATCH',
+    url: '/:id',
+    preHandler: [app.authenticate],
+    schema: {
+      params: CollectionEventsUpdateParamsSchema,
+      body: CollectionEventsUpdateBodySchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.collectionEventsService.updateEvent(
+        request.params.id,
+        request.body,
+      );
 
-  async updateEvent(
-    request: FastifyRequest<{
-      Params: CollectionEventsUpdateParams;
-      Body: CollectionEventsUpdatePayload;
-    }>,
-    reply: FastifyReply,
-  ) {
-    const result = await this.collectionEventsService.updateEvent(
-      request.params.id,
-      request.body,
-    );
-
-    return reply.code(ResponseCode.OK).send(result);
-  }
-}
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+]);

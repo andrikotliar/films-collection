@@ -1,14 +1,13 @@
-import { FastifyInstance } from 'fastify';
 import { UsersRepository } from './users.repository';
 import { UsersService } from './users.service';
-import fastifyPlugin from 'fastify-plugin';
+import { createModule } from 'src/common';
 
-export const UsersModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
+export const UsersModule = createModule({
+  prefix: 'users',
+  service: (app) => {
     const usersRepository = new UsersRepository(app.database);
     const usersService = new UsersService(usersRepository);
 
-    app.decorate('usersService', usersService);
+    return usersService;
   },
-  { name: 'usersModule' },
-);
+});

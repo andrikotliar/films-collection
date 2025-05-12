@@ -1,26 +1,19 @@
-import { FastifyInstance } from 'fastify';
-import fastifyPlugin from 'fastify-plugin';
 import { FilmsRepository } from './films.repository';
 import { FilmsService } from './films.service';
 import { FilmsController } from './films.controller';
-import { FilmsRouter } from './films.router';
+import { createModule } from 'src/common';
 
-export const FilmsModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
+export const FilmsModule = createModule({
+  prefix: 'films',
+  service: (app) => {
     const filmsRepository = new FilmsRepository(app.database);
+    const service = new FilmsService(filmsRepository, {
+      awardsService: app.awardsService,
+      peopleService: app.peopleService,
+      collectionsService: app.collectionsService,
+    });
 
-    app.decorate(
-      'filmsService',
-      new FilmsService(filmsRepository, {
-        awardsService: app.awardsService,
-        peopleService: app.peopleService,
-        collectionsService: app.collectionsService,
-      }),
-    );
-
-    app.decorate('filmsController', new FilmsController());
-
-    app.register(FilmsRouter, { prefix: '/films' });
+    return service;
   },
-  { name: 'filmsModule' },
-);
+  controller: FilmsController,
+});

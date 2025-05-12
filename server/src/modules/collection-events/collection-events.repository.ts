@@ -2,10 +2,10 @@ import { CollectionEvent, PrismaClient } from '@prisma/client';
 import { GetEventQueryResult } from './types';
 
 export class CollectionEventsRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   getEventById(id: number) {
-    return this.prismaClient.collectionEvent.findUnique({
+    return this.databaseClient.collectionEvent.findUnique({
       where: {
         id,
       },
@@ -13,7 +13,7 @@ export class CollectionEventsRepository {
   }
 
   getEvent(date: number) {
-    return this.prismaClient.$queryRaw<GetEventQueryResult[]>`
+    return this.databaseClient.$queryRaw<GetEventQueryResult[]>`
       SELECT ce.title, ce.image, c.id as "collectionId" FROM collection_events ce
       INNER JOIN collections c ON c.id = ce.collection_id
       WHERE
@@ -30,7 +30,7 @@ export class CollectionEventsRepository {
   }
 
   getAllEvents() {
-    return this.prismaClient.collectionEvent.findMany({
+    return this.databaseClient.collectionEvent.findMany({
       select: {
         id: true,
         title: true,
@@ -51,13 +51,13 @@ export class CollectionEventsRepository {
   }
 
   createEvent(data: Omit<CollectionEvent, 'id'>) {
-    return this.prismaClient.collectionEvent.create({
+    return this.databaseClient.collectionEvent.create({
       data,
     });
   }
 
   updateEvent(id: number, data: Partial<Omit<CollectionEvent, 'id'>>) {
-    return this.prismaClient.collectionEvent.update({
+    return this.databaseClient.collectionEvent.update({
       data,
       where: {
         id,
@@ -66,7 +66,7 @@ export class CollectionEventsRepository {
   }
 
   deleteEvent(id: number) {
-    return this.prismaClient.collectionEvent.delete({
+    return this.databaseClient.collectionEvent.delete({
       where: {
         id,
       },

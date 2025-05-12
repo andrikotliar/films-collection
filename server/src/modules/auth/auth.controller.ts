@@ -1,97 +1,121 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { AuthService } from './auth.service';
 import {
   clearCookies,
+  constants,
   getCookie,
-  MAX_AGE_24_HOURS,
-  MAX_AGE_7_DAYS,
-  ResponseCode,
+  router,
   setCookies,
   UnauthorizedException,
 } from 'src/common';
-import { AuthLoginPayload, AuthRegisterPayload } from './schemas';
+import { AuthLoginSchema, AuthRegisterSchema } from './schemas';
 
-export class AuthController {
-  authService!: AuthService;
+export const AuthController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'POST',
+    url: '/login',
+    schema: {
+      body: AuthLoginSchema,
+    },
+    async handler({ request, reply }) {
+      const data = await app.authService.login(request.body);
 
-  async login(
-    request: FastifyRequest<{ Body: AuthLoginPayload }>,
-    reply: FastifyReply,
-  ) {
-    const result = await this.authService.login(request.body);
+      if (!data) {
+        throw new UnauthorizedException({
+          code: 'INCORRECT_CREDENTIALS',
+          message: 'Incorrect credentials',
+        });
+      }
 
-    if (!result) {
-      throw new UnauthorizedException({
-        code: 'INCORRECT_CREDENTIALS',
-        message: 'Incorrect credentials',
-      });
-    }
+      setCookies(reply, [
+        {
+          name: 'ACCESS_TOKEN',
+          value: data.accessToken,
+          maxAge: constants.MAX_AGE_24_HOURS,
+        },
+        {
+          name: 'REFRESH_TOKEN',
+          value: data.refreshToken,
+          maxAge: constants.MAX_AGE_7_DAYS,
+        },
+      ]);
 
-    setCookies(reply, [
-      {
-        name: 'ACCESS_TOKEN',
-        value: result.accessToken,
-        maxAge: MAX_AGE_24_HOURS,
-      },
-      {
-        name: 'REFRESH_TOKEN',
-        value: result.refreshToken,
-        maxAge: MAX_AGE_7_DAYS,
-      },
-    ]);
+      return {
+        status: 'OK',
+        data: {
+          userId: data.userId,
+        },
+      };
+    },
+  }),
+  defineRoute({
+    method: 'POST',
+    url: '/register',
+    schema: {
+      body: AuthRegisterSchema,
+    },
+    async handler({ request }) {
+      const createdUser = await app.authService.register(request.body);
 
-    return reply.status(ResponseCode.OK).send({ userId: result.userId });
-  }
+      return {
+        status: 'CREATED',
+        data: createdUser,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'POST',
+    url: '/refresh',
+    async handler({ request, reply }) {
+      const token = getCookie(request, 'REFRESH_TOKEN');
 
-  async register(
-    request: FastifyRequest<{ Body: AuthRegisterPayload }>,
-    reply: FastifyReply,
-  ) {
-    const createdUser = await this.authService.register(request.body);
+      if (!token) {
+        throw new UnauthorizedException();
+      }
 
-    return reply.status(ResponseCode.CREATED).send(createdUser);
-  }
+      const result = await app.authService.refreshTokens(token);
 
-  async refreshTokens(request: FastifyRequest, reply: FastifyReply) {
-    const token = getCookie(request, 'REFRESH_TOKEN');
+      if (!result) {
+        throw new UnauthorizedException({
+          code: 'INVALID_TOKEN',
+        });
+      }
 
-    if (!token) {
-      throw new UnauthorizedException();
-    }
+      setCookies(reply, [
+        {
+          name: 'ACCESS_TOKEN',
+          value: result.accessToken,
+          maxAge: constants.MAX_AGE_24_HOURS,
+        },
+        {
+          name: 'REFRESH_TOKEN',
+          value: result.refreshToken,
+          maxAge: constants.MAX_AGE_7_DAYS,
+        },
+      ]);
 
-    const result = await this.authService.refreshTokens(token);
+      return {
+        status: 'OK',
+        data: {
+          userId: result.userId,
+        },
+      };
+    },
+  }),
+  defineRoute({
+    method: 'POST',
+    url: '/logout',
+    async handler({ request, reply }) {
+      const accessToken = getCookie(request, 'ACCESS_TOKEN');
 
-    if (!result) {
-      throw new UnauthorizedException({
-        code: 'INVALID_TOKEN',
-      });
-    }
+      if (accessToken) {
+        await app.authService.logout(accessToken);
+      }
 
-    setCookies(reply, [
-      {
-        name: 'ACCESS_TOKEN',
-        value: result.accessToken,
-        maxAge: MAX_AGE_24_HOURS,
-      },
-      {
-        name: 'REFRESH_TOKEN',
-        value: result.refreshToken,
-        maxAge: MAX_AGE_7_DAYS,
-      },
-    ]);
+      clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
 
-    return reply.status(ResponseCode.OK).send({ userId: result.userId });
-  }
-
-  async logout(request: FastifyRequest, reply: FastifyReply) {
-    const accessToken = getCookie(request, 'ACCESS_TOKEN');
-
-    if (accessToken) {
-      await this.authService.logout(accessToken);
-    }
-
-    clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
-
-    return reply.status(ResponseCode.OK).send({ status: 'ok' });
-  }
-}
+      return {
+        status: 'OK',
+        data: { status: 'ok' },
+      };
+    },
+  }),
+]);

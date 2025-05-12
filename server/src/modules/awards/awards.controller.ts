@@ -1,23 +1,29 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { ResponseCode } from 'src/common';
-import { AwardsService } from './awards.service';
-import { FindNominationsQuery } from './schemas';
+import { router } from 'src/common';
+import { FindNominationsSchema } from './schemas';
 
-export class AwardsController {
-  awardsService!: AwardsService;
+export const AwardsController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/nominations',
+    schema: {
+      querystring: FindNominationsSchema,
+    },
+    async handler({ request }) {
+      if (!request.query.awardId) {
+        return {
+          status: 'OK',
+          data: [],
+        };
+      }
 
-  async findNominations(
-    request: FastifyRequest<{ Querystring: FindNominationsQuery }>,
-    reply: FastifyReply,
-  ) {
-    if (!request.query.awardId) {
-      return reply.status(ResponseCode.OK).send([]);
-    }
+      const data = await app.awardsService.getNominationsListOptions(
+        request.query.awardId,
+      );
 
-    const result = await this.awardsService.getNominationsListOptions(
-      request.query.awardId,
-    );
-
-    return reply.status(ResponseCode.OK).send(result);
-  }
-}
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+]);
