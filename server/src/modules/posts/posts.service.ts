@@ -1,5 +1,5 @@
 import { PostsRepository } from './posts.repository';
-import { CreatePostPayload } from './schemas';
+import { CreatePostPayload, UpdatePostPayload } from './schemas';
 
 export class PostsService {
   constructor(private readonly postsRepository: PostsRepository) {}
@@ -10,5 +10,9 @@ export class PostsService {
 
   createPost(input: CreatePostPayload) {
     return this.postsRepository.createPost(input);
+  }
+
+  updatePost(id: number, input: UpdatePostPayload) {
+    return this.postsRepository.updatePost(id, input);
   }
 }

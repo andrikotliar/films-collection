@@ -1,5 +1,8 @@
 import { PrismaClient } from '@prisma/client';
-import { CreatePostPayload } from 'src/modules/posts/schemas';
+import {
+  CreatePostPayload,
+  UpdatePostPayload,
+} from 'src/modules/posts/schemas';
 
 export class PostsRepository {
   constructor(private readonly databaseClient: PrismaClient) {}
@@ -19,6 +22,15 @@ export class PostsRepository {
 
   createPost(input: CreatePostPayload) {
     return this.databaseClient.post.create({
+      data: input,
+    });
+  }
+
+  updatePost(id: number, input: UpdatePostPayload) {
+    return this.databaseClient.post.update({
+      where: {
+        id,
+      },
       data: input,
     });
   }
