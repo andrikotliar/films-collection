@@ -51,7 +51,7 @@ export class PendingFilmsService {
     return {
       filters,
       options: {
-        limit: 30,
+        take: 30,
         skip: queryFilters.skip ?? 0,
         orderBy: {
           [sortingKey]: queryFilters.order ?? 'desc',
