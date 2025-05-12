@@ -1,12 +1,12 @@
 import { PendingFilm, Prisma, PrismaClient } from '@prisma/client';
 
 export class PendingFilmsRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   async getListAndCount(args: Prisma.PendingFilmFindManyArgs) {
-    const list = await this.prismaClient.pendingFilm.findMany(args);
+    const list = await this.databaseClient.pendingFilm.findMany(args);
 
-    const total = await this.prismaClient.pendingFilm.count({
+    const total = await this.databaseClient.pendingFilm.count({
       where: args.where,
       take: args.take,
       skip: args.skip,
@@ -19,11 +19,11 @@ export class PendingFilmsRepository {
   create(
     data: Pick<PendingFilm, 'title' | 'priority' | 'collectionId' | 'rating'>,
   ) {
-    return this.prismaClient.pendingFilm.create({ data });
+    return this.databaseClient.pendingFilm.create({ data });
   }
 
   deleteById(id: number) {
-    return this.prismaClient.pendingFilm.delete({
+    return this.databaseClient.pendingFilm.delete({
       where: {
         id,
       },
@@ -34,7 +34,7 @@ export class PendingFilmsRepository {
   }
 
   updateById(id: number, data: Partial<PendingFilm>) {
-    return this.prismaClient.pendingFilm.update({
+    return this.databaseClient.pendingFilm.update({
       where: { id },
       data,
     });

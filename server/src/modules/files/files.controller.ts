@@ -1,39 +1,43 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { BadRequestException, ResponseCode } from 'src/common';
-import { FilesService } from './files.service';
+import { BadRequestException, router } from 'src/common';
 import { UploadPayload } from './types';
 
-export class FilesController {
-  private readonly filesService!: FilesService;
-
-  async uploadFile(request: FastifyRequest, reply: FastifyReply) {
-    if (!request.isMultipart()) {
-      throw new BadRequestException({
-        code: 'NOT_MULTIPART_DATA',
-        message: 'Request is not multipart',
-      });
-    }
-
-    const parts = request.parts();
-    const data: Record<string, unknown> = {};
-
-    for await (const part of parts) {
-      if (part.type === 'file') {
-        data.file = await part.toBuffer();
-      } else {
-        data[part.fieldname] = part.value;
+export const FilesController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'POST',
+    url: '/',
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      if (!request.isMultipart()) {
+        throw new BadRequestException({
+          code: 'NOT_MULTIPART_DATA',
+          message: 'Request is not multipart',
+        });
       }
-    }
 
-    if (!data.destination || !data.title) {
-      throw new BadRequestException({
-        code: 'MISSING_PARAMS',
-        message: 'Destination or title is missing',
-      });
-    }
+      const parts = request.parts();
+      const data: Record<string, unknown> = {};
 
-    const result = await this.filesService.upload(data as UploadPayload);
+      for await (const part of parts) {
+        if (part.type === 'file') {
+          data.file = await part.toBuffer();
+        } else {
+          data[part.fieldname] = part.value;
+        }
+      }
 
-    return reply.status(ResponseCode.OK).send(result);
-  }
-}
+      if (!data.destination || !data.title) {
+        throw new BadRequestException({
+          code: 'MISSING_PARAMS',
+          message: 'Destination or title is missing',
+        });
+      }
+
+      const result = await app.filesService.upload(data as UploadPayload);
+
+      return {
+        status: 'OK',
+        data: result,
+      };
+    },
+  }),
+]);

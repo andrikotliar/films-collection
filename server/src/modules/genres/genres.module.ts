@@ -1,14 +1,13 @@
-import { FastifyInstance } from 'fastify';
 import { GenresRepository } from './genres.repository';
 import { GenresService } from './genres.service';
-import fastifyPlugin from 'fastify-plugin';
+import { createModule } from 'src/common';
 
-export const GenresModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
+export const GenresModule = createModule({
+  prefix: 'genres',
+  service: (app) => {
     const genresRepository = new GenresRepository(app.database);
     const genresService = new GenresService(genresRepository);
 
-    app.decorate('genresService', genresService);
+    return genresService;
   },
-  { name: 'genresModule' },
-);
+});

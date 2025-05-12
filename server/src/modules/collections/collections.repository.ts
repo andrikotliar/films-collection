@@ -1,10 +1,10 @@
 import { PrismaClient } from '@prisma/client';
 
 export class CollectionsRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   getCollectionById(id: number) {
-    return this.prismaClient.collection.findUnique({
+    return this.databaseClient.collection.findUnique({
       where: {
         id,
       },
@@ -12,7 +12,7 @@ export class CollectionsRepository {
   }
 
   getAll() {
-    return this.prismaClient.collection.findMany({
+    return this.databaseClient.collection.findMany({
       select: {
         id: true,
         title: true,

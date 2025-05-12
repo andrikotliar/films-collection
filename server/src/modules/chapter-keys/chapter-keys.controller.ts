@@ -1,23 +1,33 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { ResponseCode } from 'src/common';
-import { ChapterKeysService } from 'src/modules/chapter-keys/chapter-keys.service';
-import { CreateChapterKeyPayload } from 'src/modules/chapter-keys/schemas';
+import { router } from 'src/common';
+import { CreateChapterKeySchema } from './schemas';
 
-export class ChapterKeysController {
-  chapterKeysService!: ChapterKeysService;
+export const ChapterKeysController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/options',
+    handler: async () => {
+      const data = await app.chapterKeysService.getListOptions();
 
-  async findListOptions(_: FastifyRequest, reply: FastifyReply) {
-    const data = await this.chapterKeysService.getListOptions();
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'POST',
+    url: '/',
+    schema: {
+      body: CreateChapterKeySchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.chapterKeysService.addKey(request.body);
 
-    return reply.status(ResponseCode.OK).send(data);
-  }
-
-  async addKey(
-    request: FastifyRequest<{ Body: CreateChapterKeyPayload }>,
-    reply: FastifyReply,
-  ) {
-    const data = await this.chapterKeysService.addKey(request.body);
-
-    return reply.status(ResponseCode.CREATED).send(data);
-  }
-}
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+]);

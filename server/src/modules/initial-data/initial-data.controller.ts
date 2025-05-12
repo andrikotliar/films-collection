@@ -1,13 +1,16 @@
-import { FastifyRequest, FastifyReply } from 'fastify';
-import { InitialDataService } from './initial-data.service';
-import { ResponseCode } from 'src/common';
+import { router } from 'src/common';
 
-export class InitialDataController {
-  initialDataService!: InitialDataService;
+export const InitialDataController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.initialDataService.getOptions();
 
-  async getConfig(_: FastifyRequest, reply: FastifyReply): Promise<never> {
-    const data = await this.initialDataService.getOptions();
-
-    return reply.code(ResponseCode.OK).send(data);
-  }
-}
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+]);
