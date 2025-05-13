@@ -25,6 +25,7 @@ model Film {
   createdAt       DateTime              @default(now()) @map("created_at")
   updatedAt       DateTime              @updatedAt @map("updated_at")
   draft           Boolean               @default(false)
+  deletedAt       DateTime?             @map("deleted_at") @db.Date
   crew            FilmCrew[]
   cast            FilmCast[]
   genres          FilmGenre[]
