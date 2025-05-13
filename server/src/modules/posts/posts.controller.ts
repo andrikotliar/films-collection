@@ -1,10 +1,13 @@
 import { NotFoundException, router } from 'src/common';
 import {
   CreatePostSchema,
-  GetPostParamsSchema,
+  DeletePostSchema,
+  GetListQueriesSchema,
+  GetPostByKeyParamsSchema,
+  GetPostByIdParamsSchema,
   UpdatePostParamsSchema,
   UpdatePostSchema,
-} from 'src/modules/posts/schemas';
+} from './schemas';
 
 export const PostsController = router((app, defineRoute) => [
   defineRoute({
@@ -25,9 +28,25 @@ export const PostsController = router((app, defineRoute) => [
   }),
   defineRoute({
     method: 'GET',
+    url: '/admin',
+    schema: {
+      querystring: GetListQueriesSchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.postsService.getList(request.query);
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'GET',
     url: '/page/:pageKey',
     schema: {
-      params: GetPostParamsSchema,
+      params: GetPostByKeyParamsSchema,
     },
     handler: async ({ request }) => {
       const data = await app.postsService.getPostByPageKey(
@@ -39,6 +58,21 @@ export const PostsController = router((app, defineRoute) => [
           message: `Post for page key ${request.params.pageKey} not found!`,
         });
       }
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'GET',
+    url: '/:id',
+    schema: {
+      params: GetPostByIdParamsSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.postsService.getPost(request.params.id);
 
       return {
         status: 'OK',
@@ -59,6 +93,22 @@ export const PostsController = router((app, defineRoute) => [
         request.params.id,
         request.body,
       );
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'DELETE',
+    url: '/:id',
+    schema: {
+      params: DeletePostSchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.postsService.deletePost(request.params.id);
 
       return {
         status: 'OK',
