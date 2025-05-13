@@ -1,4 +1,4 @@
-import { FILMS_ADMIN_LIST_PER_PAGE } from '@/constants';
+import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types';
@@ -6,12 +6,8 @@ import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
-import {
-  AddFilmLink,
-  AdminFilm,
-  AdminFilmsGrid,
-  AdminFilmsTools,
-} from './-components';
+import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
+import { AddItemLink } from '@/routes/console/-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string(),
@@ -59,7 +55,9 @@ function PageContainer() {
     <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
       <AdminFilmsTools />
-      <AddFilmLink />
+      <AddItemLink to="/console/manage/$id" params={{ id: NEW_FILM_ID }}>
+        Add new film
+      </AddItemLink>
       <Island>
         <AdminFilmsGrid>
           {data.films.map((film) => (

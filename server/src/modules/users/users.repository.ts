@@ -1,10 +1,10 @@
 import { PrismaClient, User } from '@prisma/client';
 
 export class UsersRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   findById(id: number) {
-    return this.prismaClient.user.findUnique({
+    return this.databaseClient.user.findUnique({
       where: {
         id,
         verified: true,
@@ -16,7 +16,7 @@ export class UsersRepository {
   }
 
   findByUsernameWithPassword(username: string) {
-    return this.prismaClient.user.findUnique({
+    return this.databaseClient.user.findUnique({
       where: {
         username,
         verified: true,
@@ -25,13 +25,13 @@ export class UsersRepository {
   }
 
   create(data: Pick<User, 'username' | 'password'>) {
-    return this.prismaClient.user.create({
+    return this.databaseClient.user.create({
       data,
     });
   }
 
   updateById(id: number, data: Partial<User>) {
-    return this.prismaClient.user.update({
+    return this.databaseClient.user.update({
       where: {
         id,
       },

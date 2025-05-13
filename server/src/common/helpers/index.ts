@@ -4,3 +4,6 @@ export * from './set-cookies';
 export * from './get-cookie';
 export * from './error-handler';
 export * from './clear-cookies';
+export * from './router';
+export * from './create-module';
+export * from './convert-kebab-case-to-camel-case';

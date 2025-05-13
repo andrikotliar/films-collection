@@ -1,10 +1,10 @@
 import { Film, Prisma, PrismaClient } from '@prisma/client';
 
 export class FilmsRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   async count(filters: Prisma.FilmWhereInput) {
-    return this.prismaClient.film.count({ where: filters });
+    return this.databaseClient.film.count({ where: filters });
   }
 
   async findAndCount(
@@ -12,7 +12,7 @@ export class FilmsRepository {
     limit: number,
     skip: number,
   ) {
-    const list = await this.prismaClient.film.findMany({
+    const list = await this.databaseClient.film.findMany({
       select: {
         id: true,
         title: true,
@@ -36,7 +36,7 @@ export class FilmsRepository {
   }
 
   findById(id: number) {
-    return this.prismaClient.film.findUnique({
+    return this.databaseClient.film.findUnique({
       select: {
         id: true,
         title: true,
@@ -142,7 +142,7 @@ export class FilmsRepository {
   }
 
   searchByTitle(query: string) {
-    return this.prismaClient.film.findMany({
+    return this.databaseClient.film.findMany({
       select: {
         id: true,
         title: true,
@@ -168,7 +168,7 @@ export class FilmsRepository {
     const date = currentDate.getDate();
     const month = currentDate.getMonth() + 1;
 
-    return this.prismaClient.$queryRaw<
+    return this.databaseClient.$queryRaw<
       Pick<Film, 'id'>[]
     >`SELECT id FROM films WHERE EXTRACT(MONTH FROM release_date) = ${month} AND EXTRACT(DAY FROM release_date) = ${date}`;
   }
@@ -184,7 +184,7 @@ export class FilmsRepository {
       };
     }
 
-    return this.prismaClient.film.findMany({
+    return this.databaseClient.film.findMany({
       where,
       select: {
         id: true,
@@ -207,7 +207,7 @@ export class FilmsRepository {
     },
   ) {
     const total = await this.count(filters);
-    const films = await this.prismaClient.film.findMany({
+    const films = await this.databaseClient.film.findMany({
       select: {
         id: true,
         title: true,

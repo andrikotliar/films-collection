@@ -1,10 +1,10 @@
 import { PrismaClient } from '@prisma/client';
 
 export class GenresRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   getAll() {
-    return this.prismaClient.genre.findMany({
+    return this.databaseClient.genre.findMany({
       select: { id: true, title: true },
       orderBy: {
         title: 'asc',

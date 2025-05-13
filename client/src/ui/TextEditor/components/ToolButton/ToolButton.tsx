@@ -19,6 +19,7 @@ export const ToolButton: FC<ToolButtonProps> = ({
         [styles.active]: isActive,
       })}
       onClick={onClick}
+      type="button"
     >
       {icon}
     </button>

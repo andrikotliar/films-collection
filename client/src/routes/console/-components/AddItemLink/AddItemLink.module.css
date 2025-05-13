@@ -1,4 +1,4 @@
-.addFilmLink {
+.addItemLink {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,6 @@
   transition: background-color 300ms;
 }
 
-.addFilmLink:hover {
+.addItemLink:hover {
   background-color: var(--green);
 }

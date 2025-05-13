@@ -1,19 +1,14 @@
-import { FastifyInstance } from 'fastify';
-import fastifyPlugin from 'fastify-plugin';
 import { AwardsRepository } from './awards.repository';
 import { AwardsService } from './awards.service';
 import { AwardsController } from './awards.controller';
-import { AwardsRouter } from './awards.router';
+import { createModule } from 'src/common';
 
-export const AwardsModule = fastifyPlugin(
-  async (app: FastifyInstance) => {
+export const AwardsModule = createModule({
+  prefix: 'awards',
+  service: (app) => {
     const awardRepository = new AwardsRepository(app.database);
-    const awardsService = new AwardsService(awardRepository);
-
-    app.decorate('awardsService', awardsService);
-    app.decorate('awardsController', new AwardsController());
-
-    app.register(AwardsRouter, { prefix: '/awards' });
+    const service = new AwardsService(awardRepository);
+    return service;
   },
-  { name: 'awardsModule' },
-);
+  controller: AwardsController,
+});

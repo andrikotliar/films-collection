@@ -1,29 +1,36 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
-import { ResponseCode } from 'src/common';
-import { PeopleService } from 'src/modules/people/people.service';
-import {
-  CreatePersonPayload,
-  SearchPersonQuery,
-} from 'src/modules/people/schemas';
+import { router } from 'src/common';
+import { CreatePersonSchema, SearchPersonSchema } from './schemas';
 
-export class PeopleController {
-  peopleService!: PeopleService;
+export const PeopleController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/search',
+    schema: {
+      querystring: SearchPersonSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.peopleService.searchPersonByTitle(request.query);
 
-  async searchByName(
-    request: FastifyRequest<{ Querystring: SearchPersonQuery }>,
-    reply: FastifyReply,
-  ) {
-    const result = await this.peopleService.searchPersonByTitle(request.query);
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'POST',
+    url: '/',
+    schema: {
+      body: CreatePersonSchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.peopleService.createPerson(request.body);
 
-    return reply.status(ResponseCode.OK).send(result);
-  }
-
-  async createPerson(
-    request: FastifyRequest<{ Body: CreatePersonPayload }>,
-    reply: FastifyReply,
-  ) {
-    const result = await this.peopleService.createPerson(request.body);
-
-    return reply.status(ResponseCode.CREATED).send(result);
-  }
-}
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+]);

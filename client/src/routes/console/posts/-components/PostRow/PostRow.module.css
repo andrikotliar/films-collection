@@ -1,0 +1,30 @@
+.row {
+  padding: 10px;
+  border-bottom: var(--app-border);
+}
+
+.row:last-child {
+  border-bottom: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.tools {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 1.5;
+}

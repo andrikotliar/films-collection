@@ -5,10 +5,10 @@ import {
 } from 'src/modules/people/schemas';
 
 export class PeopleRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   findPersonById(personId: number) {
-    return this.prismaClient.person.findUnique({
+    return this.databaseClient.person.findUnique({
       where: {
         id: personId,
       },
@@ -16,7 +16,7 @@ export class PeopleRepository {
   }
 
   createPerson(payload: CreatePersonPayload) {
-    return this.prismaClient.person.create({
+    return this.databaseClient.person.create({
       data: payload,
     });
   }
@@ -29,7 +29,7 @@ export class PeopleRepository {
       },
     };
 
-    return this.prismaClient.person.findMany({
+    return this.databaseClient.person.findMany({
       select: {
         id: true,
         name: true,

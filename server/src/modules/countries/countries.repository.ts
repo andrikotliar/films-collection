@@ -1,10 +1,10 @@
 import { PrismaClient } from '@prisma/client';
 
 export class CountriesRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   getAll() {
-    return this.prismaClient.country.findMany({
+    return this.databaseClient.country.findMany({
       select: {
         id: true,
         title: true,

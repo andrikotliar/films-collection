@@ -9,4 +9,7 @@ export * from './search-person-query';
 export * from './fetch-nominations-by-award-query';
 export * from './fetch-chapter-keys-options-query';
 export * from './fetch-related-chapters-query';
+export * from './fetch-admin-posts-list-query';
+export * from './fetch-post-by-id-query';
+export * from './fetch-post-by-key-query';
 export * from './fetch-pending-film-query';

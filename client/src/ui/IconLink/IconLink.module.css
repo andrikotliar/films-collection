@@ -1,0 +1,10 @@
+.iconLink {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconLink:hover {
+  color: var(--blue-default);
+}

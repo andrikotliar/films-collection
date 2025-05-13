@@ -1,10 +1,10 @@
 import { PrismaClient } from '@prisma/client';
 
 export class AwardsRepository {
-  constructor(private prismaClient: PrismaClient) {}
+  constructor(private databaseClient: PrismaClient) {}
 
   getById(id: number) {
-    return this.prismaClient.award.findUnique({
+    return this.databaseClient.award.findUnique({
       select: {
         id: true,
         title: true,
@@ -18,7 +18,7 @@ export class AwardsRepository {
   }
 
   getBaseDataList(ids: number[]) {
-    return this.prismaClient.award.findMany({
+    return this.databaseClient.award.findMany({
       select: {
         id: true,
         title: true,
@@ -33,7 +33,7 @@ export class AwardsRepository {
   }
 
   getListOptions() {
-    return this.prismaClient.award.findMany({
+    return this.databaseClient.award.findMany({
       select: {
         id: true,
         title: true,
@@ -45,7 +45,7 @@ export class AwardsRepository {
   }
 
   getNominationsByAward(awardId: number) {
-    return this.prismaClient.nomination.findMany({
+    return this.databaseClient.nomination.findMany({
       select: {
         id: true,
         title: true,
