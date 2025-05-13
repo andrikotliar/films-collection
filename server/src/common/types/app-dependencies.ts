@@ -9,6 +9,7 @@ import { GenresService } from 'src/modules/genres/genres.service';
 import { InitialDataService } from 'src/modules/initial-data/initial-data.service';
 import { PendingFilmsService } from 'src/modules/pending-films/pending-films.service';
 import { PeopleService } from 'src/modules/people/people.service';
+import { PostsService } from 'src/modules/posts/posts.service';
 import { StudiosService } from 'src/modules/studios/studios.service';
 import { UsersService } from 'src/modules/users/users.service';
 
@@ -26,4 +27,5 @@ export type AppDependencies = {
   filesService: FilesService;
   initialDataService: InitialDataService;
   pendingFilmsService: PendingFilmsService;
+  postsService: PostsService;
 };

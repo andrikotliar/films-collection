@@ -1,6 +1,7 @@
 import {
   clearCookies,
-  constants,
+  MAX_AGE_24_HOURS,
+  MAX_AGE_7_DAYS,
   getCookie,
   router,
   setCookies,
@@ -29,12 +30,12 @@ export const AuthController = router((app, defineRoute) => [
         {
           name: 'ACCESS_TOKEN',
           value: data.accessToken,
-          maxAge: constants.MAX_AGE_24_HOURS,
+          maxAge: MAX_AGE_24_HOURS,
         },
         {
           name: 'REFRESH_TOKEN',
           value: data.refreshToken,
-          maxAge: constants.MAX_AGE_7_DAYS,
+          maxAge: MAX_AGE_7_DAYS,
         },
       ]);
 
@@ -83,12 +84,12 @@ export const AuthController = router((app, defineRoute) => [
         {
           name: 'ACCESS_TOKEN',
           value: result.accessToken,
-          maxAge: constants.MAX_AGE_24_HOURS,
+          maxAge: MAX_AGE_24_HOURS,
         },
         {
           name: 'REFRESH_TOKEN',
           value: result.refreshToken,
-          maxAge: constants.MAX_AGE_7_DAYS,
+          maxAge: MAX_AGE_7_DAYS,
         },
       ]);
 

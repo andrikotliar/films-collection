@@ -17,10 +17,12 @@ import { Route as ConsoleRouteImport } from './routes/console/route'
 import { Route as AboutRouteImport } from './routes/about/route'
 import { Route as IndexImport } from './routes/index'
 import { Route as FilmFilmIdImport } from './routes/film/$filmId'
+import { Route as ConsolePostsRouteImport } from './routes/console/posts/route'
 import { Route as ConsolePendingRouteImport } from './routes/console/pending/route'
 import { Route as ConsoleManageRouteImport } from './routes/console/manage/route'
 import { Route as ConsoleCollectionEventsRouteImport } from './routes/console/collection-events/route'
 import { Route as ConsoleAdditionalRouteImport } from './routes/console/additional/route'
+import { Route as ConsolePostsIdImport } from './routes/console/posts_/$id'
 import { Route as ConsoleManageIdImport } from './routes/console/manage_/$id'
 
 // Create/Update Routes
@@ -61,6 +63,12 @@ const FilmFilmIdRoute = FilmFilmIdImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
+const ConsolePostsRouteRoute = ConsolePostsRouteImport.update({
+  id: '/posts',
+  path: '/posts',
+  getParentRoute: () => ConsoleRouteRoute,
+} as any)
+
 const ConsolePendingRouteRoute = ConsolePendingRouteImport.update({
   id: '/pending',
   path: '/pending',
@@ -83,6 +91,12 @@ const ConsoleCollectionEventsRouteRoute =
 const ConsoleAdditionalRouteRoute = ConsoleAdditionalRouteImport.update({
   id: '/additional',
   path: '/additional',
+  getParentRoute: () => ConsoleRouteRoute,
+} as any)
+
+const ConsolePostsIdRoute = ConsolePostsIdImport.update({
+  id: '/posts_/$id',
+  path: '/posts/$id',
   getParentRoute: () => ConsoleRouteRoute,
 } as any)
 
@@ -159,6 +173,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsolePendingRouteImport
       parentRoute: typeof ConsoleRouteImport
     }
+    '/console/posts': {
+      id: '/console/posts'
+      path: '/posts'
+      fullPath: '/console/posts'
+      preLoaderRoute: typeof ConsolePostsRouteImport
+      parentRoute: typeof ConsoleRouteImport
+    }
     '/film/$filmId': {
       id: '/film/$filmId'
       path: '/film/$filmId'
@@ -173,6 +194,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsoleManageIdImport
       parentRoute: typeof ConsoleRouteImport
     }
+    '/console/posts_/$id': {
+      id: '/console/posts_/$id'
+      path: '/posts/$id'
+      fullPath: '/console/posts/$id'
+      preLoaderRoute: typeof ConsolePostsIdImport
+      parentRoute: typeof ConsoleRouteImport
+    }
   }
 }
 
@@ -183,7 +211,9 @@ interface ConsoleRouteRouteChildren {
   ConsoleCollectionEventsRouteRoute: typeof ConsoleCollectionEventsRouteRoute
   ConsoleManageRouteRoute: typeof ConsoleManageRouteRoute
   ConsolePendingRouteRoute: typeof ConsolePendingRouteRoute
+  ConsolePostsRouteRoute: typeof ConsolePostsRouteRoute
   ConsoleManageIdRoute: typeof ConsoleManageIdRoute
+  ConsolePostsIdRoute: typeof ConsolePostsIdRoute
 }
 
 const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
@@ -191,7 +221,9 @@ const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
   ConsoleCollectionEventsRouteRoute: ConsoleCollectionEventsRouteRoute,
   ConsoleManageRouteRoute: ConsoleManageRouteRoute,
   ConsolePendingRouteRoute: ConsolePendingRouteRoute,
+  ConsolePostsRouteRoute: ConsolePostsRouteRoute,
   ConsoleManageIdRoute: ConsoleManageIdRoute,
+  ConsolePostsIdRoute: ConsolePostsIdRoute,
 }
 
 const ConsoleRouteRouteWithChildren = ConsoleRouteRoute._addFileChildren(
@@ -208,8 +240,10 @@ export interface FileRoutesByFullPath {
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
+  '/console/posts': typeof ConsolePostsRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/manage/$id': typeof ConsoleManageIdRoute
+  '/console/posts/$id': typeof ConsolePostsIdRoute
 }
 
 export interface FileRoutesByTo {
@@ -222,8 +256,10 @@ export interface FileRoutesByTo {
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
+  '/console/posts': typeof ConsolePostsRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/manage/$id': typeof ConsoleManageIdRoute
+  '/console/posts/$id': typeof ConsolePostsIdRoute
 }
 
 export interface FileRoutesById {
@@ -237,8 +273,10 @@ export interface FileRoutesById {
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
+  '/console/posts': typeof ConsolePostsRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/manage_/$id': typeof ConsoleManageIdRoute
+  '/console/posts_/$id': typeof ConsolePostsIdRoute
 }
 
 export interface FileRouteTypes {
@@ -253,8 +291,10 @@ export interface FileRouteTypes {
     | '/console/collection-events'
     | '/console/manage'
     | '/console/pending'
+    | '/console/posts'
     | '/film/$filmId'
     | '/console/manage/$id'
+    | '/console/posts/$id'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -266,8 +306,10 @@ export interface FileRouteTypes {
     | '/console/collection-events'
     | '/console/manage'
     | '/console/pending'
+    | '/console/posts'
     | '/film/$filmId'
     | '/console/manage/$id'
+    | '/console/posts/$id'
   id:
     | '__root__'
     | '/'
@@ -279,8 +321,10 @@ export interface FileRouteTypes {
     | '/console/collection-events'
     | '/console/manage'
     | '/console/pending'
+    | '/console/posts'
     | '/film/$filmId'
     | '/console/manage_/$id'
+    | '/console/posts_/$id'
   fileRoutesById: FileRoutesById
 }
 
@@ -333,7 +377,9 @@ export const routeTree = rootRoute
         "/console/collection-events",
         "/console/manage",
         "/console/pending",
-        "/console/manage_/$id"
+        "/console/posts",
+        "/console/manage_/$id",
+        "/console/posts_/$id"
       ]
     },
     "/login": {
@@ -358,11 +404,19 @@ export const routeTree = rootRoute
       "filePath": "console/pending/route.tsx",
       "parent": "/console"
     },
+    "/console/posts": {
+      "filePath": "console/posts/route.tsx",
+      "parent": "/console"
+    },
     "/film/$filmId": {
       "filePath": "film/$filmId.tsx"
     },
     "/console/manage_/$id": {
       "filePath": "console/manage_/$id.tsx",
+      "parent": "/console"
+    },
+    "/console/posts_/$id": {
+      "filePath": "console/posts_/$id.tsx",
       "parent": "/console"
     }
   }
