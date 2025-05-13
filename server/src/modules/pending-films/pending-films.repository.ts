@@ -41,7 +41,7 @@ export class PendingFilmsRepository {
   }
 
   findPendingFilm(id: number) {
-    return this.prismaClient.pendingFilm.findUnique({
+    return this.databaseClient.pendingFilm.findUnique({
       select: {
         id: true,
         collectionId: true,

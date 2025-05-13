@@ -7,6 +7,7 @@ import {
   FilmsQuery,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
+import { Prisma } from '@prisma/client';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
@@ -86,6 +87,14 @@ export class FilmsService {
 
   getRelatedChapters(query: FilmRelatedChaptersQuery) {
     return this.filmsRepository.findChapters(query.key, query.filmId);
+  }
+
+  deleteFilm(id: number) {
+    const now = new Date().toISOString();
+
+    return this.filmsRepository.updateBaseFilmData(id, {
+      deletedAt: now,
+    });
   }
 
   private async populateAdditionalData(query: FilmsQuery) {

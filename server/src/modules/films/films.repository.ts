@@ -1,7 +1,7 @@
 import { Film, Prisma, PrismaClient } from '@prisma/client';
 
 export class FilmsRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: PrismaClient) {}
 
   async count(filters: Prisma.FilmWhereInput) {
     return this.databaseClient.film.count({ where: filters });
@@ -221,5 +221,14 @@ export class FilmsRepository {
     });
 
     return { films, total };
+  }
+
+  updateBaseFilmData(id: number, input: Prisma.FilmUpdateInput) {
+    return this.databaseClient.film.update({
+      where: {
+        id,
+      },
+      data: input,
+    });
   }
 }
