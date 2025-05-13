@@ -1,5 +1,6 @@
+import { FormError } from '@/types';
 import styles from './ConfirmModal.module.css';
-import { Button, ButtonVariant, Modal } from '@/ui';
+import { Button, ButtonVariant, FieldError, Modal } from '@/ui';
 
 type ConfirmModalProps<T extends Record<string, unknown>> = {
   title?: string;
@@ -10,6 +11,7 @@ type ConfirmModalProps<T extends Record<string, unknown>> = {
   cancelButtonTitle?: string;
   confirmButtonVariant?: ButtonVariant;
   isPending?: boolean;
+  error?: FormError;
 };
 
 export const ConfirmModal = <T extends Record<string, unknown>>({
@@ -21,6 +23,7 @@ export const ConfirmModal = <T extends Record<string, unknown>>({
   cancelButtonTitle = 'Cancel',
   confirmButtonVariant = 'primary',
   isPending = false,
+  error,
 }: ConfirmModalProps<T>) => {
   const isOpen = data !== null;
 
@@ -44,6 +47,7 @@ export const ConfirmModal = <T extends Record<string, unknown>>({
             {cancelButtonTitle}
           </Button>
         </div>
+        <FieldError error={error} />
       </Modal.Content>
     </Modal>
   );

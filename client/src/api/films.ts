@@ -52,4 +52,12 @@ export const FilmsApi = {
       queryParams,
     });
   },
+
+  deleteFilm(id: number) {
+    return apiClient.delete('/films/admin/:id', {
+      params: {
+        id,
+      },
+    });
+  },
 };

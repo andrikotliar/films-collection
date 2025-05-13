@@ -74,7 +74,7 @@ export class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (error.response.statusCode === 401) {
+      if (error.response?.statusCode === 401) {
         console.clear();
 
         try {

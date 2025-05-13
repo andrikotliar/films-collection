@@ -1,13 +1,21 @@
 import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
-import { AdminFilmsQueryFilters } from '@/types';
-import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/ui';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { AdminFilmsQueryFilters, FilmsAdminListItem } from '@/types';
+import {
+  ConfirmModal,
+  ConsoleContent,
+  ConsoleTitle,
+  Island,
+  Pagination,
+} from '@/ui';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
-import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
+import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
+import { FilmsApi } from '@/api';
+import { useState } from 'react';
 
 const adminFilmsFilterSchema = object().shape({
   q: string(),
@@ -34,7 +42,23 @@ export const Route = createFileRoute('/console/manage')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+  const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+
+  const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(
+    null,
+  );
+
+  const {
+    mutate: handleDeleteFilm,
+    isPending,
+    error: deletionError,
+  } = useMutation({
+    mutationFn: FilmsApi.deleteFilm,
+    onSuccess: () => {
+      refetch();
+      setFilmToDelete(null);
+    },
+  });
 
   useDocumentTitle('Admin list');
 
@@ -61,7 +85,7 @@ function PageContainer() {
       <Island>
         <AdminFilmsGrid>
           {data.films.map((film) => (
-            <AdminFilm film={film} key={film.id} />
+            <AdminFilm film={film} key={film.id} onDelete={setFilmToDelete} />
           ))}
         </AdminFilmsGrid>
       </Island>
@@ -70,6 +94,14 @@ function PageContainer() {
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
+      />
+      <ConfirmModal
+        title={`Confirm delete ${filmToDelete?.title}`}
+        data={filmToDelete}
+        onClose={() => setFilmToDelete(null)}
+        onConfirm={(film) => handleDeleteFilm(film.id)}
+        isPending={isPending}
+        error={deletionError?.message}
       />
     </ConsoleContent>
   );
