@@ -12,6 +12,7 @@ import {
   ItalicIcon,
   ListIcon,
   ListOrdered,
+  QuoteIcon,
   Redo2Icon,
   Undo2Icon,
 } from 'lucide-react';
@@ -100,6 +101,11 @@ const toolsConfig: ToolsConfigItem[] = [
     key: 'orderedList',
     icon: <ListOrdered />,
     action: (editor) => editor.chain().focus().toggleOrderedList().run(),
+  },
+  {
+    key: 'blockquote',
+    icon: <QuoteIcon />,
+    action: (editor) => editor.chain().focus().toggleBlockquote().run(),
   },
 ];
 

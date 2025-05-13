@@ -4,6 +4,7 @@ import {
   CalendarSyncIcon,
   ClapperboardIcon,
   Grid2X2PlusIcon,
+  NewspaperIcon,
 } from 'lucide-react';
 
 export const consoleMenuConfig: MenuConfigItem[] = [
@@ -30,5 +31,11 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     route: '/console/collection-events',
     title: 'Collection Events',
     icon: <CalendarIcon />,
+  },
+  {
+    id: 'posts',
+    route: '/console/posts',
+    title: 'Posts',
+    icon: <NewspaperIcon />,
   },
 ];

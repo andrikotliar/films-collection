@@ -41,3 +41,4 @@ export * from './Search/Search';
 export * from './SearchResultPeopleList/SearchResultPeopleList';
 export * from './FieldError/FieldError';
 export * from './Toggle';
+export * from './IconLink/IconLink';

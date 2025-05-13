@@ -30,3 +30,9 @@
 .editor ol li {
   list-style-type: decimal;
 }
+
+.editor blockquote {
+  padding: 10px;
+  background-color: var(--gray-light);
+  border-radius: 5px;
+}
