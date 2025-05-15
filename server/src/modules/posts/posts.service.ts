@@ -47,13 +47,13 @@ export class PostsService {
   }
 
   async getList(queries: GetListQueries) {
-    const list = await this.postsRepository.getList(queries);
+    const data = await this.postsRepository.getList(queries);
 
-    if (!list.length) {
-      return [];
+    if (!data.list.length) {
+      return data;
     }
 
-    return list.map((post) => {
+    const mappedList = data.list.map((post) => {
       const words = post.content.split(' ').slice(0, 30);
       const shouldContainDots = words.length === 30;
 
@@ -66,6 +66,11 @@ export class PostsService {
         shortContent: words.join(' '),
       };
     });
+
+    return {
+      list: mappedList,
+      count: data.count,
+    };
   }
 
   deletePost(id: number) {
