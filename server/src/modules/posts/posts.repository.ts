@@ -22,8 +22,8 @@ export class PostsRepository {
     });
   }
 
-  getList({ skip }: GetListQueries) {
-    return this.databaseClient.post.findMany({
+  async getList({ skip }: GetListQueries) {
+    const list = await this.databaseClient.post.findMany({
       select: {
         id: true,
         title: true,
@@ -36,6 +36,13 @@ export class PostsRepository {
         updatedAt: 'desc',
       },
     });
+
+    const count = await this.databaseClient.post.count();
+
+    return {
+      list,
+      count,
+    };
   }
 
   getPostByKey(key: string) {
