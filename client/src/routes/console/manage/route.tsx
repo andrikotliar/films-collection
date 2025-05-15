@@ -52,6 +52,7 @@ function PageContainer() {
     mutate: handleDeleteFilm,
     isPending,
     error: deletionError,
+    variables,
   } = useMutation({
     mutationFn: FilmsApi.deleteFilm,
     onSuccess: () => {
@@ -101,7 +102,7 @@ function PageContainer() {
         onClose={() => setFilmToDelete(null)}
         onConfirm={(film) => handleDeleteFilm(film.id)}
         isPending={isPending}
-        error={deletionError?.message}
+        error={variables === filmToDelete?.id ? deletionError?.message : null}
       />
     </ConsoleContent>
   );
