@@ -3,3 +3,4 @@ export * from './films-search.schema';
 export * from './film-details.schema';
 export * from './films-admin.schema';
 export * from './film-related-chapters';
+export * from './get-admin-film-details.schema';

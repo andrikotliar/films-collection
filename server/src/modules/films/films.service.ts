@@ -69,6 +69,20 @@ export class FilmsService {
     return mappedFilm;
   }
 
+  async getFilmDetailsAdmin(id: number) {
+    const data = await this.filmsRepository.findByIdAdmin(id);
+
+    if (!data) {
+      return null;
+    }
+
+    console.log(data);
+
+    return {
+      data: true,
+    };
+  }
+
   searchFilm(searchString: string) {
     return this.filmsRepository.searchByTitle(searchString);
   }

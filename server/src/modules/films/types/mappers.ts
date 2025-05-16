@@ -123,3 +123,77 @@ export type GroupedAwards = {
     nominations: Array<Pick<Nomination, 'title'> & GroupedNomination>;
   };
 };
+
+export type AdminFilmWithRelations = Prisma.FilmGetPayload<{
+  select: {
+    title: true;
+    type: true;
+    style: true;
+    poster: true;
+    rating: true;
+    draft: true;
+    budget: true;
+    boxOffice: true;
+    duration: true;
+    releaseDate: true;
+    description: true;
+    chapterKey: true;
+    chapterOrder: true;
+    genres: {
+      select: {
+        genreId: true;
+      };
+    };
+    countries: {
+      select: {
+        countryId: true;
+      };
+    };
+    studios: {
+      select: {
+        studioId: true;
+      };
+    };
+    collections: {
+      select: {
+        collectionId: true;
+      };
+    };
+    trailers: {
+      select: {
+        videoId: true;
+        order: true;
+      };
+    };
+    crew: {
+      select: {
+        personId: true;
+        person: {
+          select: {
+            name: true;
+          };
+        };
+        position: true;
+        comment: true;
+      };
+    };
+    cast: {
+      select: {
+        personId: true;
+        person: {
+          select: {
+            name: true;
+          };
+        };
+      };
+    };
+    awards: {
+      select: {
+        awardId: true;
+        nominationId: true;
+        person: true;
+        comment: true;
+      };
+    };
+  };
+}>;

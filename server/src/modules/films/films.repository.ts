@@ -141,6 +141,85 @@ export class FilmsRepository {
     });
   }
 
+  findByIdAdmin(id: number) {
+    return this.databaseClient.film.findUnique({
+      where: {
+        id,
+      },
+      select: {
+        title: true,
+        type: true,
+        style: true,
+        poster: true,
+        rating: true,
+        draft: true,
+        budget: true,
+        boxOffice: true,
+        duration: true,
+        releaseDate: true,
+        description: true,
+        chapterKey: true,
+        chapterOrder: true,
+        genres: {
+          select: {
+            genreId: true,
+          },
+        },
+        countries: {
+          select: {
+            countryId: true,
+          },
+        },
+        studios: {
+          select: {
+            studioId: true,
+          },
+        },
+        collections: {
+          select: {
+            collectionId: true,
+          },
+        },
+        trailers: {
+          select: {
+            videoId: true,
+            order: true,
+          },
+        },
+        crew: {
+          select: {
+            personId: true,
+            person: {
+              select: {
+                name: true,
+              },
+            },
+            position: true,
+            comment: true,
+          },
+        },
+        cast: {
+          select: {
+            personId: true,
+            person: {
+              select: {
+                name: true,
+              },
+            },
+          },
+        },
+        awards: {
+          select: {
+            awardId: true,
+            nominationId: true,
+            person: true,
+            comment: true,
+          },
+        },
+      },
+    });
+  }
+
   searchByTitle(query: string) {
     return this.databaseClient.film.findMany({
       select: {

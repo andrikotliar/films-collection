@@ -24,9 +24,10 @@ export const Route = createFileRoute('/console/manage_/$id')({
       search,
     };
   },
-  loader: async ({ context: { queryClient }, deps }) => {
+  loader: async ({ context: { queryClient }, deps, params }) => {
     await queryClient.ensureQueryData(fetchInitialDataQuery());
-    if (deps.search.pendingFilmId) {
+
+    if (deps.search.pendingFilmId && params.id === NEW_FILM_ID) {
       await queryClient.ensureQueryData(
         fetchPendingFilmQuery(deps.search.pendingFilmId),
       );
