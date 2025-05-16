@@ -8,7 +8,7 @@ import {
   FormTextInput,
   Search,
   SearchResultPeopleList,
-} from '@/ui';
+} from '@/components';
 import { Trash2Icon } from 'lucide-react';
 import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';

@@ -5,6 +5,11 @@ export type PostsListFilters = {
   skip: number;
 };
 
+export type PostsListResponse = {
+  list: PostsListItem[];
+  count: number;
+};
+
 export const PostsApi = {
   getPostById(id: number) {
     return apiClient.get<Post>('/posts/:id', { params: { id } });
@@ -15,7 +20,7 @@ export const PostsApi = {
   },
 
   getList(filters: PostsListFilters) {
-    return apiClient.get<PostsListItem[]>('/posts/admin', {
+    return apiClient.get<PostsListResponse>('/posts/admin', {
       queryParams: filters,
     });
   },

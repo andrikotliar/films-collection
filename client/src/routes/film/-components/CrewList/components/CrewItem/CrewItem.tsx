@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { FilmCrew } from '@/types';
-import { RouterLink } from '@/ui';
+import { RouterLink } from '@/components';
 import styles from './CrewItem.module.css';
 
 type CrewItemProps = {

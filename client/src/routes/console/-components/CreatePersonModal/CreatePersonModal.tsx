@@ -5,11 +5,11 @@ import {
   FormValues,
 } from '../CreatePersonForm/CreatePersonForm';
 import { EditModal } from '../EditModal/EditModal';
-import { Island } from '@/ui';
+import { Panel } from '@/components';
 import { useMutation } from '@tanstack/react-query';
 import { getFileUploadFormData } from '@/helpers';
 import { FilesApi, PeopleApi } from '@/api';
-import { FieldError } from '@/ui/FieldError/FieldError';
+import { FieldError } from '@/components/FieldError/FieldError';
 import { Person } from '@/types';
 
 type CreatePersonModalProps = Omit<CreatePersonFormProps, 'onSubmit'> & {
@@ -54,10 +54,10 @@ export const CreatePersonModal: FC<CreatePersonModalProps> = ({
 
   return (
     <EditModal isOpen={isOpen} onClose={onClose}>
-      <Island>
+      <Panel>
         <CreatePersonForm onSubmit={mutate} isLoading={isPending} {...props} />
         {error && <FieldError error={error?.message} />}
-      </Island>
+      </Panel>
     </EditModal>
   );
 };

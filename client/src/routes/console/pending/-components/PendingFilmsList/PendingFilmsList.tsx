@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 import { PendingFilm } from '@/types';
-import { ConfirmModal, Island } from '@/ui';
+import { ConfirmModal, Panel } from '@/components';
 import { EditPendingFilmModal } from '../EditPendingFilmModal/EditPendingFilmModal';
 import { PendingFilmRow } from '../PendingFilmRow/PendingFilmRow';
 import { useMutation } from '@tanstack/react-query';
@@ -34,7 +34,7 @@ export const PendingFilmsList: FC<PendingFilmsListProps> = ({
   };
 
   return (
-    <Island hasPaddings={false}>
+    <Panel hasPaddings={false}>
       {list.map((film) => (
         <PendingFilmRow
           data={film}
@@ -59,6 +59,6 @@ export const PendingFilmsList: FC<PendingFilmsListProps> = ({
         confirmButtonTitle="Delete"
         confirmButtonVariant="danger"
       />
-    </Island>
+    </Panel>
   );
 };

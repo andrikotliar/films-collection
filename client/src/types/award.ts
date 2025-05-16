@@ -1,3 +1,4 @@
+import { ListOption } from '@/types/list-option';
 import { Person } from '@/types/person';
 
 export type Award = {
@@ -12,4 +13,8 @@ export type Nomination = {
   title: string;
   person: Person | null;
   comment: null;
+};
+
+export type AwardNomination = ListOption<number> & {
+  shouldIncludeActor: boolean;
 };

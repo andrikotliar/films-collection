@@ -2,7 +2,7 @@ import styles from './CreatePersonForm.module.css';
 import { FC } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { LoaderCircleIcon, SaveIcon } from 'lucide-react';
-import { Button, FormFileInput, FormTextInput, FormTitle } from '@/ui';
+import { Button, FormFileInput, FormTextInput, FormTitle } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { createPersonSchema } from './validation';
 

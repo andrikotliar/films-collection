@@ -1,6 +1,6 @@
 import styles from './LoginForm.module.css';
-import { Button, FormTextInput, FormPasswordInput } from '@/ui';
-import { Logo } from '@/ui/Logo/Logo';
+import { Button, FormTextInput, FormPasswordInput } from '@/components';
+import { Logo } from '@/components/Logo/Logo';
 import { LoaderIcon, LogInIcon } from 'lucide-react';
 import { FC } from 'react';
 import { SubmitHandler } from 'react-hook-form';

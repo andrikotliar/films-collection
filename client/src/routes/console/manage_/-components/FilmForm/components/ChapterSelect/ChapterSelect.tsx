@@ -13,7 +13,7 @@ import {
   Loader,
   TextInput,
   Toggle,
-} from '@/ui';
+} from '@/components';
 import { Chapters } from './components';
 
 type ChapterSelectProps = {

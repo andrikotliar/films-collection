@@ -1,5 +1,5 @@
 import styles from './PostForm.module.css';
-import { Button, FormTextEditor, FormTextInput } from '@/ui';
+import { Button, FormTextEditor, FormTextInput } from '@/components';
 import { FC } from 'react';
 
 type PostFormProps = {

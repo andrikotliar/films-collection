@@ -1,18 +1,24 @@
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminPostsListQuery } from '@/queries';
-import { ConfirmModal, ConsoleContent, ConsoleTitle, Island } from '@/ui';
+import {
+  ConfirmModal,
+  ConsoleContent,
+  ConsoleTitle,
+  Panel,
+  Pagination,
+} from '@/components';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
 import { PostRow } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
-import { NEW_POST_ID } from '@/constants';
+import { NEW_POST_ID, POSTS_ADMIN_PER_PAGE } from '@/constants';
 import { useState } from 'react';
 import { PostsListItem } from '@/types';
 import { PostsApi } from '@/api';
 
 const postsListFiltersSchema = object().shape({
-  skip: number(),
+  pageIndex: number(),
 });
 
 export const Route = createFileRoute('/console/posts')({
@@ -32,6 +38,7 @@ export const Route = createFileRoute('/console/posts')({
 
 function PageContainer() {
   const searchParams = Route.useSearch();
+  const navigate = Route.useNavigate();
   const { data, refetch } = useSuspenseQuery(
     fetchAdminPostsListQuery(searchParams),
   );
@@ -47,17 +54,33 @@ function PageContainer() {
 
   useDocumentTitle('Posts');
 
+  const handlePageChange = (pageIndex: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex,
+      }),
+    });
+  };
+
   return (
     <ConsoleContent>
       <ConsoleTitle>Posts</ConsoleTitle>
       <AddItemLink to="/console/posts/$id" params={{ id: NEW_POST_ID }}>
         Add new post
       </AddItemLink>
-      <Island hasPaddings={false}>
-        {data.map((post) => (
+      <Panel hasPaddings={false}>
+        {data.list.map((post) => (
           <PostRow data={post} key={post.id} onDelete={setPostToDelete} />
         ))}
-      </Island>
+      </Panel>
+      <Pagination
+        total={data.count}
+        onPageChange={handlePageChange}
+        perPageCounter={POSTS_ADMIN_PER_PAGE}
+        currentPageIndex={searchParams.pageIndex}
+        totalLabel="posts"
+      />
       <ConfirmModal
         title={`Delete ${postToDelete?.title} ?`}
         data={postToDelete}

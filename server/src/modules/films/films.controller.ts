@@ -1,11 +1,10 @@
 import { NotFoundException, router } from '../../common';
 import {
-  DeleteFilmParamsSchema,
-  FilmsAdminGetListQuerySchema,
-  FilmsGetParamsSchema,
-  FilmsQuerySchema,
-  FilmsRelatedChaptersSchema,
-  FilmsSearchQuerySchema,
+  GetAdminListQuerySchema,
+  GetFilmDetailsParamsSchema,
+  GetFilmsListQuerySchema,
+  GetFilmRelatedChaptersSchema,
+  SearchFilmsQuerySchema,
   GetAdminFilmParamsSchema,
 } from './schemas';
 
@@ -14,7 +13,7 @@ export const FilmsController = router((app, defineRoute) => [
     method: 'GET',
     url: '/',
     schema: {
-      querystring: FilmsQuerySchema,
+      querystring: GetFilmsListQuerySchema,
     },
     handler: async ({ request }) => {
       const data = await app.filmsService.getFilteredFilms(request.query);
@@ -30,7 +29,7 @@ export const FilmsController = router((app, defineRoute) => [
     method: 'GET',
     url: '/search',
     schema: {
-      querystring: FilmsSearchQuerySchema,
+      querystring: SearchFilmsQuerySchema,
     },
     handler: async ({ request }) => {
       const data = await app.filmsService.searchFilm(request.query.q);
@@ -47,7 +46,7 @@ export const FilmsController = router((app, defineRoute) => [
     url: '/admin',
     preHandler: [app.authenticate],
     schema: {
-      querystring: FilmsAdminGetListQuerySchema,
+      querystring: GetAdminListQuerySchema,
     },
     handler: async ({ request }) => {
       const data = await app.filmsService.getAdminList(request.query);
@@ -83,7 +82,7 @@ export const FilmsController = router((app, defineRoute) => [
     url: '/chapters',
     preHandler: [app.authenticate],
     schema: {
-      querystring: FilmsRelatedChaptersSchema,
+      querystring: GetFilmRelatedChaptersSchema,
     },
     handler: async ({ request }) => {
       const data = await app.filmsService.getRelatedChapters(request.query);
@@ -98,7 +97,7 @@ export const FilmsController = router((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/:id',
-    schema: { params: FilmsGetParamsSchema },
+    schema: { params: GetFilmDetailsParamsSchema },
     handler: async ({ request }) => {
       const data = await app.filmsService.getFilmDetails(request.params.id);
 

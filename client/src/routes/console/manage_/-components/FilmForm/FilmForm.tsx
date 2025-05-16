@@ -9,7 +9,7 @@ import {
   FormCheckbox,
   FormSelect,
   FormFileInput,
-} from '@/ui';
+} from '@/components';
 import { FC } from 'react';
 import { InitialData } from '@/types';
 import {

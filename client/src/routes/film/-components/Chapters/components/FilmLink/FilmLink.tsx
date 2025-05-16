@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
 import classNames from 'classnames';
-import { Image } from '@/ui';
+import { Image } from '@/components';
 import styles from './FilmLink.module.css';
 
 type FilmLinkProps = {

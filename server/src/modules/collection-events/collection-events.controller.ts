@@ -1,9 +1,9 @@
 import { router } from 'src/common';
 import {
-  CollectionEventsCreateSchema,
-  CollectionEventsDeleteParamsSchema,
-  CollectionEventsUpdateBodySchema,
-  CollectionEventsUpdateParamsSchema,
+  CreateCollectionEventSchema,
+  DeleteCollectionEventParamsSchema,
+  UpdateCollectionEventBodySchema,
+  UpdateCollectionEventParamsSchema,
 } from './schemas';
 
 export const CollectionEventsController = router((app, defineRoute) => [
@@ -12,7 +12,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
     url: '/',
     preHandler: [app.authenticate],
     schema: {
-      body: CollectionEventsCreateSchema,
+      body: CreateCollectionEventSchema,
     },
     handler: async ({ request }) => {
       const data = await app.collectionEventsService.createEvent(request.body);
@@ -43,7 +43,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: CollectionEventsDeleteParamsSchema,
+      params: DeleteCollectionEventParamsSchema,
     },
     handler: async ({ request }) => {
       const data = await app.collectionEventsService.deleteEvent(
@@ -62,8 +62,8 @@ export const CollectionEventsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: CollectionEventsUpdateParamsSchema,
-      body: CollectionEventsUpdateBodySchema,
+      params: UpdateCollectionEventParamsSchema,
+      body: UpdateCollectionEventBodySchema,
     },
     handler: async ({ request }) => {
       const data = await app.collectionEventsService.updateEvent(

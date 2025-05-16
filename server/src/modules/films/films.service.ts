@@ -2,9 +2,9 @@ import { convertEnumValueToLabel } from 'src/common';
 import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
 import {
-  FilmRelatedChaptersQuery,
-  FilmsAdminQuery,
-  FilmsQuery,
+  GetFilmRelatedChaptersQuery,
+  GetAdminListQuery,
+  GetFilmsListQuery,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import { Prisma } from '@prisma/client';
@@ -23,7 +23,7 @@ export class FilmsService {
     this.collectionsService = dependencies.collectionsService;
   }
 
-  async getFilteredFilms(queries: FilmsQuery) {
+  async getFilteredFilms(queries: GetFilmsListQuery) {
     const { limit, skip } = queries;
 
     const parsedFilters = mapListFilters(queries);
@@ -87,7 +87,7 @@ export class FilmsService {
     return this.filmsRepository.searchByTitle(searchString);
   }
 
-  getAdminList(query: FilmsAdminQuery) {
+  getAdminList(query: GetAdminListQuery) {
     const { skip = 0, order = 'desc', orderKey = 'createdAt' } = query;
 
     const filters = mapAdminListFilters(query);
@@ -99,7 +99,7 @@ export class FilmsService {
     });
   }
 
-  getRelatedChapters(query: FilmRelatedChaptersQuery) {
+  getRelatedChapters(query: GetFilmRelatedChaptersQuery) {
     return this.filmsRepository.findChapters(query.key, query.filmId);
   }
 
@@ -111,7 +111,7 @@ export class FilmsService {
     });
   }
 
-  private async populateAdditionalData(query: FilmsQuery) {
+  private async populateAdditionalData(query: GetFilmsListQuery) {
     const { actorId, crewMemberId, crewMemberPosition, collectionId, awardId } =
       query;
 

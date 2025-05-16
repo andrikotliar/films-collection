@@ -1,6 +1,6 @@
 import { NEW_FILM_ID } from '@/constants';
 import { fetchInitialDataQuery, fetchPendingFilmQuery } from '@/queries';
-import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/ui';
+import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useEffect, useMemo } from 'react';
@@ -96,7 +96,7 @@ function PageContainer() {
     <ConsoleContent>
       <BackLink path="/console/manage">Back to list</BackLink>
       <ConsoleTitle>{pageTitle}</ConsoleTitle>
-      <Island>
+      <Panel>
         <FormProvider {...form}>
           <FilmForm
             onSubmit={form.handleSubmit(handleSubmit)}
@@ -104,7 +104,7 @@ function PageContainer() {
             filmId={id}
           />
         </FormProvider>
-      </Island>
+      </Panel>
     </ConsoleContent>
   );
 }

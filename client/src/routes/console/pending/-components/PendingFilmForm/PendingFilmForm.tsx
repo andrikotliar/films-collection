@@ -6,10 +6,10 @@ import {
   FormStatusFilterButton,
   FieldLabel,
   FormTitle,
-  Island,
+  Panel,
   FormSelect,
   FormRatingInput,
-} from '@/ui';
+} from '@/components';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 import { StatusColor } from '@/types';
@@ -30,7 +30,7 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
   const { data } = useQuery(fetchInitialDataQuery());
 
   return (
-    <Island>
+    <Panel>
       <form onSubmit={onSubmit} className={styles.formWrapper}>
         <FormTitle>{title}</FormTitle>
         <FormTextInput
@@ -67,6 +67,6 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
           Save
         </Button>
       </form>
-    </Island>
+    </Panel>
   );
 };

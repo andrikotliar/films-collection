@@ -5,7 +5,7 @@ import { useQuery } from '@tanstack/react-query';
 import { ChapterButton } from '@/routes/console/manage_/-components/FilmForm/components/ChapterSelect/components/ChapterButton/ChapterButton';
 import { useFormContext } from 'react-hook-form';
 import { FormValues } from '@/routes/console/manage_/-types';
-import { Image } from '@/ui';
+import { Image } from '@/components';
 
 type ChaptersProps = {
   chapterKey: string;

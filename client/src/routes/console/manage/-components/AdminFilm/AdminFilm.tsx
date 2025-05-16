@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { LinkIcon, PencilIcon, Trash2Icon } from 'lucide-react';
 import { FilmsAdminListItem } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { Button, IconLink, Image } from '@/ui';
+import { Image, Button, IconLink } from '@/components';
 import styles from './AdminFilm.module.css';
 
 type AdminFilmProps = {

@@ -1,8 +1,8 @@
 import { CollectionEvent } from '@prisma/client';
 import { CollectionEventsRepository } from './collection-events.repository';
 import {
-  CollectionEventsCreatePayload,
-  CollectionEventsUpdatePayload,
+  CreateCollectionEventPayload,
+  UpdateCollectionEventPayload,
 } from './schemas';
 import { FilesService } from 'src/modules/files/files.service';
 import { NotFoundException } from 'src/common';
@@ -34,7 +34,7 @@ export class CollectionEventsService {
     };
   }
 
-  createEvent(input: CollectionEventsCreatePayload) {
+  createEvent(input: CreateCollectionEventPayload) {
     const { startDate, endDate, ...data } = input;
 
     const startDateCode = this.convertDateToCode(startDate);
@@ -59,7 +59,7 @@ export class CollectionEventsService {
     return this.collectionEventsRepository.deleteEvent(id);
   }
 
-  async updateEvent(id: number, input: CollectionEventsUpdatePayload) {
+  async updateEvent(id: number, input: UpdateCollectionEventPayload) {
     const eventBeforeUpdate =
       await this.collectionEventsRepository.getEventById(id);
 

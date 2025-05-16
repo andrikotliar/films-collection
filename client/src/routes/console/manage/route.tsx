@@ -2,15 +2,15 @@ import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters, FilmsAdminListItem } from '@/types';
-import {
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-  Island,
-  Pagination,
-} from '@/ui';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
+import {
+  ConsoleContent,
+  ConsoleTitle,
+  Panel,
+  Pagination,
+  ConfirmModal,
+} from '@/components';
 import { number, object, string } from 'yup';
 import { AddItemLink } from '@/routes/console/-components';
 import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
@@ -83,18 +83,19 @@ function PageContainer() {
       <AddItemLink to="/console/manage/$id" params={{ id: NEW_FILM_ID }}>
         Add new film
       </AddItemLink>
-      <Island>
+      <Panel>
         <AdminFilmsGrid>
           {data.films.map((film) => (
             <AdminFilm film={film} key={film.id} onDelete={setFilmToDelete} />
           ))}
         </AdminFilmsGrid>
-      </Island>
+      </Panel>
       <Pagination
         total={data.total}
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
+        totalLabel="films"
       />
       <ConfirmModal
         title={`Confirm delete ${filmToDelete?.title}`}

@@ -1,5 +1,5 @@
 import { CollectionEventFilled } from '@/types';
-import { Button, Image, RouterLink } from '@/ui';
+import { Button, Image, RouterLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 import { FC } from 'react';
 import styles from './Event.module.css';
