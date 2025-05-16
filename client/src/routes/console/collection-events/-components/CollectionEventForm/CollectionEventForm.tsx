@@ -10,7 +10,7 @@ import {
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
-import { Island } from '@/components/Island/Island';
+import { Panel } from '@/components';
 
 type CollectionEventFormProps = {
   onSubmit: FormEventHandler;
@@ -26,7 +26,7 @@ export const CollectionEventForm: FC<CollectionEventFormProps> = ({
   const { data } = useQuery(fetchInitialDataQuery());
 
   return (
-    <Island>
+    <Panel>
       <form onSubmit={onSubmit} className={styles.formWrapper}>
         <FormTitle>{title}</FormTitle>
         <FormTextInput name="title" label="Title" />
@@ -85,6 +85,6 @@ export const CollectionEventForm: FC<CollectionEventFormProps> = ({
           Save
         </Button>
       </form>
-    </Island>
+    </Panel>
   );
 };

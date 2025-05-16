@@ -1,21 +1,21 @@
 import classNames from 'classnames';
 import { FC, PropsWithChildren } from 'react';
-import styles from './Island.module.css';
+import styles from './Panel.module.css';
 
-type IslandProps = PropsWithChildren<{
+type PanelProps = PropsWithChildren<{
   hasPaddings?: boolean;
   isFlexContainer?: boolean;
 }>;
 
-export const Island: FC<IslandProps> = ({
+export const Panel: FC<PanelProps> = ({
   children,
   hasPaddings = true,
   isFlexContainer = false,
 }) => {
   return (
     <div
-      className={classNames(styles.island, {
-        [styles.islandWithPadding]: hasPaddings,
+      className={classNames(styles.panel, {
+        [styles.panelWithPadding]: hasPaddings,
         [styles.flexContainer]: isFlexContainer,
       })}
     >

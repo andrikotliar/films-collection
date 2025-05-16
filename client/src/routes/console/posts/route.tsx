@@ -4,7 +4,7 @@ import {
   ConfirmModal,
   ConsoleContent,
   ConsoleTitle,
-  Island,
+  Panel,
   Pagination,
 } from '@/components';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
@@ -69,11 +69,11 @@ function PageContainer() {
       <AddItemLink to="/console/posts/$id" params={{ id: NEW_POST_ID }}>
         Add new post
       </AddItemLink>
-      <Island hasPaddings={false}>
+      <Panel hasPaddings={false}>
         {data.list.map((post) => (
           <PostRow data={post} key={post.id} onDelete={setPostToDelete} />
         ))}
-      </Island>
+      </Panel>
       <Pagination
         total={data.count}
         onPageChange={handlePageChange}

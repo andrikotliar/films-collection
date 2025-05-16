@@ -27,7 +27,7 @@ export * from './ConsoleTitle/ConsoleTitle';
 export * from './FormTitle/FormTitle';
 export * from './Select';
 export * from './ConfirmModal/ConfirmModal';
-export * from './Island/Island';
+export * from './Panel/Panel';
 export * from './BackLink/BackLink';
 export * from './FormCheckboxesGroup/FormCheckboxesGroup';
 export * from './VideoInput';

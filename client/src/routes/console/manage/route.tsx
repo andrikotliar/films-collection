@@ -2,7 +2,7 @@ import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types';
-import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/components';
+import { ConsoleContent, ConsoleTitle, Panel, Pagination } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
@@ -58,13 +58,13 @@ function PageContainer() {
       <AddItemLink to="/console/manage/$id" params={{ id: NEW_FILM_ID }}>
         Add new film
       </AddItemLink>
-      <Island>
+      <Panel>
         <AdminFilmsGrid>
           {data.films.map((film) => (
             <AdminFilm film={film} key={film.id} />
           ))}
         </AdminFilmsGrid>
-      </Island>
+      </Panel>
       <Pagination
         total={data.total}
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}

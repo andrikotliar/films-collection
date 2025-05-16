@@ -6,7 +6,7 @@ import {
   FormStatusFilterButton,
   FieldLabel,
   FormTitle,
-  Island,
+  Panel,
   FormSelect,
   FormRatingInput,
 } from '@/components';
@@ -30,7 +30,7 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
   const { data } = useQuery(fetchInitialDataQuery());
 
   return (
-    <Island>
+    <Panel>
       <form onSubmit={onSubmit} className={styles.formWrapper}>
         <FormTitle>{title}</FormTitle>
         <FormTextInput
@@ -67,6 +67,6 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
           Save
         </Button>
       </form>
-    </Island>
+    </Panel>
   );
 };

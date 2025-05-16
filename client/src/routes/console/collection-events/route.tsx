@@ -12,7 +12,7 @@ import {
   ConfirmModal,
   ConsoleContent,
   ConsoleTitle,
-  Island,
+  Panel,
 } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
@@ -85,7 +85,7 @@ const CollectionEventsContainer = () => {
           isSaving={isCreating}
         />
       </FormProvider>
-      <Island hasPaddings={false}>
+      <Panel hasPaddings={false}>
         {data.map((event) => (
           <Event
             data={event}
@@ -94,7 +94,7 @@ const CollectionEventsContainer = () => {
             onEdit={setEventToUpdate}
           />
         ))}
-      </Island>
+      </Panel>
       <ConfirmModal
         data={eventToDelete}
         onConfirm={handleDeleteEvent}

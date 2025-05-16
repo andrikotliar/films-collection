@@ -5,7 +5,7 @@ import { PostForm } from '@/routes/console/posts_/-components/PostForm/PostForm'
 import { formDefaultValues } from '@/routes/console/posts_/-configs';
 import { FormValues } from '@/routes/console/posts_/-types';
 import { formValidation } from '@/routes/console/posts_/-validation';
-import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/components';
+import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
@@ -89,14 +89,14 @@ function RouteComponent() {
     <ConsoleContent>
       <BackLink path="/console/posts">Back to list</BackLink>
       <ConsoleTitle>{title}</ConsoleTitle>
-      <Island>
+      <Panel>
         <FormProvider {...form}>
           <PostForm
             onSubmit={form.handleSubmit(handleSubmit)}
             isLoading={isCreating || isUpdating}
           />
         </FormProvider>
-      </Island>
+      </Panel>
     </ConsoleContent>
   );
 }
