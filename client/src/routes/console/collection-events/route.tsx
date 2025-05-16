@@ -8,7 +8,12 @@ import {
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
 import { CollectionEventFilled } from '@/types';
-import { ConfirmModal, ConsoleContent, ConsoleTitle, Island } from '@/ui';
+import {
+  ConfirmModal,
+  ConsoleContent,
+  ConsoleTitle,
+  Island,
+} from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';

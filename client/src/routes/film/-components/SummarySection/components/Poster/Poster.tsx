@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from './Poster.module.css';
-import { Image } from '@/ui';
+import { Image } from '@/components';
 
 type MediaProps = {
   image: string;

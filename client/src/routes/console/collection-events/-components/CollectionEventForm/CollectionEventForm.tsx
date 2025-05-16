@@ -6,11 +6,11 @@ import {
   FormTitle,
   FormSelect,
   FormFileInput,
-} from '@/ui';
+} from '@/components';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
-import { Island } from '@/ui/Island/Island';
+import { Island } from '@/components/Island/Island';
 
 type CollectionEventFormProps = {
   onSubmit: FormEventHandler;

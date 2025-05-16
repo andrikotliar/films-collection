@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { FilmCast } from '@/types';
 import { Actor } from './components';
 import styles from './Cast.module.css';
-import { ScrollableWrapper } from '@/ui';
+import { ScrollableWrapper } from '@/components';
 
 type CastProps = {
   cast: FilmCast[];

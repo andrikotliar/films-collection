@@ -4,7 +4,7 @@ import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon } from 'lucide-react';
 import { FormAward, FormValues } from '@/routes/console/manage_/-types';
 import { ListOption } from '@/types';
-import { Button, FormSection } from '@/ui';
+import { Button, FormSection } from '@/components';
 import { AwardBlock } from './components';
 
 type AwardsSelectProps = {

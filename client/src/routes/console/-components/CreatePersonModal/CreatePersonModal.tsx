@@ -5,11 +5,11 @@ import {
   FormValues,
 } from '../CreatePersonForm/CreatePersonForm';
 import { EditModal } from '../EditModal/EditModal';
-import { Island } from '@/ui';
+import { Island } from '@/components';
 import { useMutation } from '@tanstack/react-query';
 import { getFileUploadFormData } from '@/helpers';
 import { FilesApi, PeopleApi } from '@/api';
-import { FieldError } from '@/ui/FieldError/FieldError';
+import { FieldError } from '@/components/FieldError/FieldError';
 import { Person } from '@/types';
 
 type CreatePersonModalProps = Omit<CreatePersonFormProps, 'onSubmit'> & {

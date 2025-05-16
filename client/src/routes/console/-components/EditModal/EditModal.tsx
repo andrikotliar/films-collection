@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from 'react';
-import { Modal } from '@/ui';
+import { Modal } from '@/components';
 import styles from './EditModal.module.css';
 
 type EditModalProps = PropsWithChildren<{

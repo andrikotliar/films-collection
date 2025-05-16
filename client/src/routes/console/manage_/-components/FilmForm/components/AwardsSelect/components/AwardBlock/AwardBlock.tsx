@@ -3,7 +3,7 @@ import { FC } from 'react';
 import { UseFieldArrayRemove, UseFieldArrayUpdate } from 'react-hook-form';
 import { FormValues } from '@/routes/console/manage_/-types';
 import { ListOption } from '@/types';
-import { Button, FormSelect, FormTextInput } from '@/ui';
+import { Button, FormSelect, FormTextInput } from '@/components';
 import { NominationSelect } from '../NominationSelect/NominationSelect';
 import { Trash2Icon } from 'lucide-react';
 

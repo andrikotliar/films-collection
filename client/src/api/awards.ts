@@ -1,9 +1,5 @@
 import { apiClient } from '@/services';
-import { ListOption } from '@/types';
-
-export type AwardNomination = ListOption<number> & {
-  shouldIncludeActor: boolean;
-};
+import { AwardNomination } from '@/types';
 
 export const AwardsApi = {
   getNominationsByAward(awardId: number | null) {

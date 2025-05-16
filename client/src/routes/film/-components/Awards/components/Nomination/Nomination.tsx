@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from './Nomination.module.css';
-import { RouterLink } from '@/ui';
+import { RouterLink } from '@/components';
 import { Person } from '@/types';
 
 type NominationProps = {

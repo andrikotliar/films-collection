@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { LinkIcon } from 'lucide-react';
 import { FilmsAdminListItem } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { Image } from '@/ui';
+import { Image } from '@/components';
 import styles from './AdminFilm.module.css';
 
 type AdminFilmProps = {

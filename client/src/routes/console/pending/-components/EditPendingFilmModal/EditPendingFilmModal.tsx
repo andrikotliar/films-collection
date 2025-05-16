@@ -1,4 +1,4 @@
-import { Modal } from '@/ui';
+import { Modal } from '@/components';
 import { PendingFilm } from '@/types';
 import { FC } from 'react';
 import { EditPendingFilmForm } from '../EditPendingFilmForm/EditPendingFilmForm';

@@ -1,10 +1,10 @@
 import { router } from 'src/common';
 import {
-  PendingFilmsCreateBodySchema,
-  PendingFilmsDeleteParamsSchema,
-  PendingFilmsQuerySchema,
-  PendingFilmsUpdateBodySchema,
-  PendingFilmsUpdateParamsSchema,
+  CreatePendingFilmBodySchema,
+  DeletePendingFilmParamsSchema,
+  GetPendingFilmsListQuerySchema,
+  UpdatePendingFilmBodySchema,
+  UpdatePendingFilmParamsSchema,
 } from './schemas';
 
 export const PendingFilmsController = router((app, defineRoute) => [
@@ -13,7 +13,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     url: '/',
     preHandler: [app.authenticate],
     schema: {
-      querystring: PendingFilmsQuerySchema,
+      querystring: GetPendingFilmsListQuerySchema,
     },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.getList(request.query);
@@ -28,7 +28,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     method: 'POST',
     url: '/',
     preHandler: [app.authenticate],
-    schema: { body: PendingFilmsCreateBodySchema },
+    schema: { body: CreatePendingFilmBodySchema },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.createPendingFilm(
         request.body,
@@ -45,8 +45,8 @@ export const PendingFilmsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: PendingFilmsUpdateParamsSchema,
-      body: PendingFilmsUpdateBodySchema,
+      params: UpdatePendingFilmParamsSchema,
+      body: UpdatePendingFilmBodySchema,
     },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.updatePendingFilm(
@@ -64,7 +64,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     method: 'DELETE',
     url: '/:id',
     preHandler: [app.authenticate],
-    schema: { params: PendingFilmsDeleteParamsSchema },
+    schema: { params: DeletePendingFilmParamsSchema },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.deletePendingFilm(
         request.params.id,

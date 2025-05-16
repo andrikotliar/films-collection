@@ -1,6 +1,6 @@
 import styles from './PostRow.module.css';
 import { PostsListItem } from '@/types';
-import { Button, IconLink } from '@/ui';
+import { Button, IconLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 import { FC } from 'react';
 import sanitize from 'sanitize-html';

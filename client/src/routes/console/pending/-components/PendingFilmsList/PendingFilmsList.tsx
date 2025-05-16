@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 import { PendingFilm } from '@/types';
-import { ConfirmModal, Island } from '@/ui';
+import { ConfirmModal, Island } from '@/components';
 import { EditPendingFilmModal } from '../EditPendingFilmModal/EditPendingFilmModal';
 import { PendingFilmRow } from '../PendingFilmRow/PendingFilmRow';
 import { useMutation } from '@tanstack/react-query';

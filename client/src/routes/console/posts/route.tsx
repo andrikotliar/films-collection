@@ -6,7 +6,7 @@ import {
   ConsoleTitle,
   Island,
   Pagination,
-} from '@/ui';
+} from '@/components';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';

@@ -5,7 +5,7 @@ import { PostForm } from '@/routes/console/posts_/-components/PostForm/PostForm'
 import { formDefaultValues } from '@/routes/console/posts_/-configs';
 import { FormValues } from '@/routes/console/posts_/-types';
 import { formValidation } from '@/routes/console/posts_/-validation';
-import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/ui';
+import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
