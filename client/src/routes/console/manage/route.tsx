@@ -70,6 +70,7 @@ function PageContainer() {
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
+        totalLabel="films"
       />
     </ConsoleContent>
   );

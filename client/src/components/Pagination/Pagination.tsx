@@ -7,6 +7,7 @@ export type PaginationProps = {
   total: number;
   onPageChange: (pageIndex: number) => void;
   perPageCounter: number;
+  totalLabel?: string;
 };
 
 export const Pagination: FC<PaginationProps> = ({
@@ -14,6 +15,7 @@ export const Pagination: FC<PaginationProps> = ({
   onPageChange,
   currentPageIndex = 0,
   perPageCounter,
+  totalLabel = 'items',
 }) => {
   const pagesCount = Math.ceil(total / perPageCounter);
   const currentRangeEnd =
@@ -45,7 +47,9 @@ export const Pagination: FC<PaginationProps> = ({
             {currentPageIndex * perPageCounter + 1} - {currentRangeEnd}
           </span>
           <span>/</span>
-          <span>{total} films</span>
+          <span>
+            {total} {totalLabel}
+          </span>
         </div>
       )}
     </div>

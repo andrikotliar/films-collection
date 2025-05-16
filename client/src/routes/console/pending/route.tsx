@@ -100,6 +100,7 @@ function PageContainer() {
         total={data.total}
         onPageChange={handlePageChange}
         perPageCounter={PENDING_FILMS_PER_PAGE}
+        totalLabel="films"
       />
     </ConsoleContent>
   );
