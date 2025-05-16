@@ -58,6 +58,7 @@ export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
           onPageChange={handlePageNavigation}
           currentPageIndex={searchParams.pageIndex}
           perPageCounter={PER_PAGE}
+          totalLabel="films"
         />
       </div>
     </div>

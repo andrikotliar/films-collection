@@ -79,6 +79,7 @@ function PageContainer() {
         onPageChange={handlePageChange}
         perPageCounter={POSTS_ADMIN_PER_PAGE}
         currentPageIndex={searchParams.pageIndex}
+        totalLabel="posts"
       />
       <ConfirmModal
         title={`Delete ${postToDelete?.title} ?`}
