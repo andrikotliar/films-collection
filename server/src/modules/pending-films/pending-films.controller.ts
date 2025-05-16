@@ -1,11 +1,11 @@
 import { NotFoundException, router } from 'src/common';
 import {
-  PendingFilmsFindSchema,
   CreatePendingFilmBodySchema,
   DeletePendingFilmParamsSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmBodySchema,
   UpdatePendingFilmParamsSchema,
+  GetPendingFilmParamsSchema,
 } from './schemas';
 
 export const PendingFilmsController = router((app, defineRoute) => [
@@ -30,7 +30,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: PendingFilmsFindSchema,
+      params: GetPendingFilmParamsSchema,
     },
     handler: async ({ request }) => {
       const data = app.pendingFilmsService.getPendingFilmById(

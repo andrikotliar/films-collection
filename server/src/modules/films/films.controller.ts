@@ -6,6 +6,7 @@ import {
   GetFilmRelatedChaptersSchema,
   SearchFilmsQuerySchema,
   GetAdminFilmParamsSchema,
+  DeleteFilmParamsSchema,
 } from './schemas';
 
 export const FilmsController = router((app, defineRoute) => [

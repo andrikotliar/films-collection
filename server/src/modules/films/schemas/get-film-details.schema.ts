@@ -6,5 +6,3 @@ export const GetFilmDetailsParamsSchema = Type.Object(
   },
   { additionalProperties: false },
 );
-
-export type GetFilmDetailsParams = Static<typeof GetFilmDetailsParamsSchema>;

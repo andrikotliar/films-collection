@@ -1,5 +1,5 @@
 import { Type } from '@sinclair/typebox';
 
-export const DeleteFilmParamsSchema = Type.Object({
+export const GetPendingFilmParamsSchema = Type.Object({
   id: Type.Number(),
 });
