@@ -1,5 +1,10 @@
 import styles from './Trailers.module.css';
-import { Button, FormSection, FormVideoInput, SortableList } from '@/ui';
+import {
+  Button,
+  FormSection,
+  FormVideoInput,
+  SortableList,
+} from '@/components';
 import { DragEndEvent } from '@dnd-kit/core';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
 import { useFieldArray, useFormContext } from 'react-hook-form';

@@ -1,6 +1,6 @@
 import { NEW_FILM_ID } from '@/constants';
 import { fetchInitialDataQuery } from '@/queries';
-import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/ui';
+import { BackLink, ConsoleContent, ConsoleTitle, Island } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useEffect, useMemo } from 'react';

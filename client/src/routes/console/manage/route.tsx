@@ -2,7 +2,7 @@ import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types';
-import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/ui';
+import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';

@@ -1,7 +1,7 @@
 import { PendingFilmsApi } from '@/api';
 import { fetchPendingFilmsListQuery } from '@/queries';
 import { PendingFilmQueryFilters } from '@/types';
-import { ConsoleContent, ConsoleTitle, Pagination } from '@/ui';
+import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';

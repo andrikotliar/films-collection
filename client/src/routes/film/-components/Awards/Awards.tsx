@@ -1,7 +1,7 @@
-import { FC, useMemo } from 'react';
+import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
-import { Image } from '@/ui';
+import { Image } from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 import classNames from 'classnames';

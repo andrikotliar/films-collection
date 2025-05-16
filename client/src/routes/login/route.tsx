@@ -8,7 +8,7 @@ import { createFileRoute, redirect, useNavigate } from '@tanstack/react-router';
 import { FormProvider, useForm } from 'react-hook-form';
 import { loginFormSchema } from './-validation';
 import { LoginForm, LoginLayout } from './-components';
-import { ErrorMessage } from '@/ui';
+import { ErrorMessage } from '@/components';
 
 const defaultLoginValues: LoginPayload = {
   username: '',

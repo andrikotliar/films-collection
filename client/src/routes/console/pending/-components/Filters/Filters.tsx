@@ -4,7 +4,7 @@ import {
   FieldLabel,
   TextInput,
   Checkbox,
-} from '@/ui';
+} from '@/components';
 import styles from './Filters.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';

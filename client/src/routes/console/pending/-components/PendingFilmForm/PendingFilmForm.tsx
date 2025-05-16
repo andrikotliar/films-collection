@@ -9,7 +9,7 @@ import {
   Island,
   FormSelect,
   FormRatingInput,
-} from '@/ui';
+} from '@/components';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 import { StatusColor } from '@/types';

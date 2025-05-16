@@ -10,7 +10,7 @@ import {
   Loader,
   Search,
   SearchResultPeopleList,
-} from '@/ui';
+} from '@/components';
 
 type NominationSelectProps = {
   index: number;

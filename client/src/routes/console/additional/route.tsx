@@ -1,4 +1,4 @@
-import { NotFound } from '@/ui';
+import { NotFound } from '@/components';
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/console/additional')({
