@@ -1,10 +1,8 @@
-import { router } from 'src/common';
+import { IdParamSchema, router } from 'src/common';
 import {
   CreatePendingFilmBodySchema,
-  DeletePendingFilmParamsSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmBodySchema,
-  UpdatePendingFilmParamsSchema,
 } from './schemas';
 
 export const PendingFilmsController = router((app, defineRoute) => [
@@ -45,7 +43,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: UpdatePendingFilmParamsSchema,
+      params: IdParamSchema,
       body: UpdatePendingFilmBodySchema,
     },
     handler: async ({ request }) => {
@@ -64,7 +62,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     method: 'DELETE',
     url: '/:id',
     preHandler: [app.authenticate],
-    schema: { params: DeletePendingFilmParamsSchema },
+    schema: { params: IdParamSchema },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.deletePendingFilm(
         request.params.id,

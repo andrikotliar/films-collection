@@ -10,6 +10,4 @@ export const CreatePendingFilmBodySchema = Type.Object(
   { additionalProperties: false },
 );
 
-export type CreatePendingFilmPayload = Static<
-  typeof CreatePendingFilmBodySchema
->;
+export type CreatePendingFilmInput = Static<typeof CreatePendingFilmBodySchema>;

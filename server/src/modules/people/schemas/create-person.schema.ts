@@ -5,4 +5,4 @@ export const CreatePersonSchema = Type.Object({
   image: Type.Union([Type.String(), Type.Null()]),
 });
 
-export type CreatePersonPayload = Static<typeof CreatePersonSchema>;
+export type CreatePersonInput = Static<typeof CreatePersonSchema>;

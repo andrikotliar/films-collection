@@ -1,13 +1,5 @@
 import { Static, Type } from '@sinclair/typebox';
 
-export const UpdatePendingFilmParamsSchema = Type.Object({
-  id: Type.Number(),
-});
-
-export type UpdatePendingFilmParams = Static<
-  typeof UpdatePendingFilmParamsSchema
->;
-
 export const UpdatePendingFilmBodySchema = Type.Object(
   {
     title: Type.Optional(Type.String()),
@@ -22,6 +14,4 @@ export const UpdatePendingFilmBodySchema = Type.Object(
   { additionalProperties: false },
 );
 
-export type UpdatePendingFilmPayload = Static<
-  typeof UpdatePendingFilmBodySchema
->;
+export type UpdatePendingFilmInput = Static<typeof UpdatePendingFilmBodySchema>;

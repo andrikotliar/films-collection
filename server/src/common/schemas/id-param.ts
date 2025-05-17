@@ -1,5 +1,5 @@
 import { Type } from '@sinclair/typebox';
 
-export const DeletePostSchema = Type.Object({
+export const IdParamSchema = Type.Object({
   id: Type.Number(),
 });

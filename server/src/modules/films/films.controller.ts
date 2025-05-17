@@ -1,7 +1,6 @@
-import { NotFoundException, router } from '../../common';
+import { IdParamSchema, NotFoundException, router } from '../../common';
 import {
   GetAdminListQuerySchema,
-  GetFilmDetailsParamsSchema,
   GetFilmsListQuerySchema,
   GetFilmRelatedChaptersSchema,
   SearchFilmsQuerySchema,
@@ -77,7 +76,7 @@ export const FilmsController = router((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/:id',
-    schema: { params: GetFilmDetailsParamsSchema },
+    schema: { params: IdParamSchema },
     handler: async ({ request }) => {
       const data = await app.filmsService.getFilmDetails(request.params.id);
 

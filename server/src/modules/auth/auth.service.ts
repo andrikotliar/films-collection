@@ -2,7 +2,7 @@ import { JWT } from '@fastify/jwt';
 import { compare } from 'bcrypt';
 import { AuthTokenPayload } from 'src/common';
 import { UsersService } from 'src/modules/users/users.service';
-import { AuthLoginPayload, AuthRegisterPayload } from './schemas';
+import { AuthLoginPayload, AuthRegisterInput } from './schemas';
 
 export class AuthService {
   constructor(private usersService: UsersService, private jwtService: JWT) {}
@@ -61,8 +61,8 @@ export class AuthService {
     };
   }
 
-  register(payload: AuthRegisterPayload) {
-    return this.usersService.createUser(payload);
+  register(input: AuthRegisterInput) {
+    return this.usersService.createUser(input);
   }
 
   logout(token: string) {

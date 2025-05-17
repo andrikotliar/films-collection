@@ -1,6 +1,6 @@
 import { Prisma, PrismaClient } from '@prisma/client';
 import {
-  CreatePersonPayload,
+  CreatePersonInput,
   SearchPersonQuery,
 } from 'src/modules/people/schemas';
 
@@ -15,9 +15,9 @@ export class PeopleRepository {
     });
   }
 
-  createPerson(payload: CreatePersonPayload) {
+  createPerson(input: CreatePersonInput) {
     return this.databaseClient.person.create({
-      data: payload,
+      data: input,
     });
   }
 
