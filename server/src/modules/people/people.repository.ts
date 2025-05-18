@@ -2,10 +2,11 @@ import { Prisma, PrismaClient } from '@prisma/client';
 import {
   CreatePersonInput,
   SearchPersonQuery,
-} from 'src/modules/people/schemas';
+  UpdatePersonInput,
+} from './schemas';
 
 export class PeopleRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: PrismaClient) {}
 
   findPersonById(personId: number) {
     return this.databaseClient.person.findUnique({
@@ -38,6 +39,23 @@ export class PeopleRepository {
       where: whereClause,
       orderBy: {
         name: 'asc',
+      },
+    });
+  }
+
+  update(id: number, input: UpdatePersonInput) {
+    return this.databaseClient.person.update({
+      where: {
+        id,
+      },
+      data: input,
+    });
+  }
+
+  delete(id: number) {
+    return this.databaseClient.person.delete({
+      where: {
+        id,
       },
     });
   }

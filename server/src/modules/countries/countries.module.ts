@@ -1,3 +1,4 @@
+import { CountriesController } from './countries.controller';
 import { CountriesRepository } from './countries.repository';
 import { CountriesService } from './countries.service';
 import { createModule } from 'src/common';
@@ -10,4 +11,5 @@ export const CountriesModule = createModule({
 
     return countriesService;
   },
+  controller: CountriesController,
 });

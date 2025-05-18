@@ -1,8 +1,9 @@
 import { buildListOptions } from 'src/common';
 import { AwardsRepository } from './awards.repository';
+import { CreateAwardInput } from './schemas';
 
 export class AwardsService {
-  constructor(private awardsRepository: AwardsRepository) {}
+  constructor(private readonly awardsRepository: AwardsRepository) {}
 
   getListBaseData(ids: number[]) {
     return this.awardsRepository.getBaseDataList(ids);
@@ -24,5 +25,9 @@ export class AwardsService {
     );
 
     return buildListOptions(nominations);
+  }
+
+  createAward(input: CreateAwardInput) {
+    return this.awardsRepository.createAward(input);
   }
 }

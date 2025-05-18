@@ -1,7 +1,8 @@
-import { PrismaClient } from '@prisma/client';
+import { Prisma, PrismaClient } from '@prisma/client';
+import { CreateAwardInput } from './schemas';
 
 export class AwardsRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: PrismaClient) {}
 
   getById(id: number) {
     return this.databaseClient.award.findUnique({
@@ -57,6 +58,22 @@ export class AwardsRepository {
       orderBy: {
         title: 'asc',
       },
+    });
+  }
+
+  createAward({ nominations, ...award }: CreateAwardInput) {
+    const data: Prisma.AwardCreateInput = { ...award };
+
+    if (nominations.length) {
+      data.nominations = {
+        createMany: {
+          data: nominations,
+        },
+      };
+    }
+
+    return this.databaseClient.award.create({
+      data,
     });
   }
 }

@@ -1,39 +1,19 @@
 import { IdParamSchema, router } from 'src/common';
-import {
-  CreatePersonSchema,
-  SearchPersonSchema,
-  UpdatePersonBodySchema,
-} from './schemas';
+import { ManageGenreBodySchema } from './schemas';
 
-export const PeopleController = router((app, defineRoute) => [
-  defineRoute({
-    method: 'GET',
-    url: '/search',
-    schema: {
-      querystring: SearchPersonSchema,
-    },
-    handler: async ({ request }) => {
-      const data = await app.peopleService.searchPersonByTitle(request.query);
-
-      return {
-        status: 'OK',
-        data,
-      };
-    },
-  }),
-
+export const GenresController = router((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePersonSchema,
+      body: ManageGenreBodySchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.createPerson(request.body);
+      const data = await app.genresService.createGenre(request.body);
 
       return {
-        status: 'OK',
+        status: 'CREATED',
         data,
       };
     },
@@ -44,11 +24,11 @@ export const PeopleController = router((app, defineRoute) => [
     url: '/:id',
     schema: {
       params: IdParamSchema,
-      body: UpdatePersonBodySchema,
+      body: ManageGenreBodySchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.updatePerson(
+      const data = await app.genresService.updateGenre(
         request.params.id,
         request.body,
       );
@@ -68,11 +48,13 @@ export const PeopleController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.deletePerson(request.params.id);
+      const data = await app.genresService.deleteGenre(request.params.id);
 
       return {
         status: 'OK',
-        data: { id: data.id },
+        data: {
+          id: data.id,
+        },
       };
     },
   }),

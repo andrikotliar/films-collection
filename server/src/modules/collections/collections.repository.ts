@@ -1,7 +1,9 @@
 import { PrismaClient } from '@prisma/client';
+import { CreateCollectionInput } from './schemas';
+import { UpdateCollectionInput } from 'src/modules/collections/schemas/update-collection.schema';
 
 export class CollectionsRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: PrismaClient) {}
 
   getCollectionById(id: number) {
     return this.databaseClient.collection.findUnique({
@@ -21,6 +23,25 @@ export class CollectionsRepository {
       orderBy: {
         title: 'asc',
       },
+    });
+  }
+
+  create(input: CreateCollectionInput) {
+    return this.databaseClient.collection.create({
+      data: input,
+    });
+  }
+
+  delete(id: number) {
+    return this.databaseClient.collection.delete({
+      where: { id },
+    });
+  }
+
+  update(id: number, input: UpdateCollectionInput) {
+    return this.databaseClient.collection.update({
+      where: { id },
+      data: input,
     });
   }
 }

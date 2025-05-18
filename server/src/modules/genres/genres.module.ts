@@ -1,3 +1,4 @@
+import { GenresController } from 'src/modules/genres/genres.controller';
 import { GenresRepository } from './genres.repository';
 import { GenresService } from './genres.service';
 import { createModule } from 'src/common';
@@ -10,4 +11,5 @@ export const GenresModule = createModule({
 
     return genresService;
   },
+  controller: GenresController,
 });

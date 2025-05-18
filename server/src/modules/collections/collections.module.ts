@@ -1,6 +1,7 @@
+import { createModule } from 'src/common';
+import { CollectionsController } from './collections.controller';
 import { CollectionsRepository } from './collections.repository';
 import { CollectionsService } from './collections.service';
-import { createModule } from 'src/common';
 
 export const CollectionsModule = createModule({
   prefix: 'collections',
@@ -10,4 +11,5 @@ export const CollectionsModule = createModule({
 
     return collectionsService;
   },
+  controller: CollectionsController,
 });

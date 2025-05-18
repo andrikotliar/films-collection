@@ -1,7 +1,24 @@
 import { router } from 'src/common';
-import { FindNominationsSchema } from './schemas';
+import { CreateAwardBodySchema, FindNominationsSchema } from './schemas';
 
 export const AwardsController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'POST',
+    url: '/',
+    schema: {
+      body: CreateAwardBodySchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.awardsService.createAward(request.body);
+
+      return {
+        status: 'CREATED',
+        data,
+      };
+    },
+  }),
+
   defineRoute({
     method: 'GET',
     url: '/nominations',

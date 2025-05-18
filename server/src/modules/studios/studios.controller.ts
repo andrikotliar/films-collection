@@ -1,39 +1,19 @@
 import { IdParamSchema, router } from 'src/common';
-import {
-  CreatePersonSchema,
-  SearchPersonSchema,
-  UpdatePersonBodySchema,
-} from './schemas';
+import { ManageStudioBodySchema } from 'src/modules/studios/schemas';
 
-export const PeopleController = router((app, defineRoute) => [
-  defineRoute({
-    method: 'GET',
-    url: '/search',
-    schema: {
-      querystring: SearchPersonSchema,
-    },
-    handler: async ({ request }) => {
-      const data = await app.peopleService.searchPersonByTitle(request.query);
-
-      return {
-        status: 'OK',
-        data,
-      };
-    },
-  }),
-
+export const StudiosController = router((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePersonSchema,
+      body: ManageStudioBodySchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.createPerson(request.body);
+      const data = await app.studiosService.createStudio(request.body);
 
       return {
-        status: 'OK',
+        status: 'CREATED',
         data,
       };
     },
@@ -43,12 +23,12 @@ export const PeopleController = router((app, defineRoute) => [
     method: 'PATCH',
     url: '/:id',
     schema: {
+      body: ManageStudioBodySchema,
       params: IdParamSchema,
-      body: UpdatePersonBodySchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.updatePerson(
+      const data = await app.studiosService.updateStudio(
         request.params.id,
         request.body,
       );
@@ -68,11 +48,13 @@ export const PeopleController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.deletePerson(request.params.id);
+      const data = await app.studiosService.deleteStudio(request.params.id);
 
       return {
         status: 'OK',
-        data: { id: data.id },
+        data: {
+          id: data.id,
+        },
       };
     },
   }),

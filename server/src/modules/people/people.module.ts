@@ -7,7 +7,7 @@ export const PeopleModule = createModule({
   prefix: 'people',
   service: (app) => {
     const peopleRepository = new PeopleRepository(app.database);
-    const peopleService = new PeopleService(peopleRepository);
+    const peopleService = new PeopleService(peopleRepository, app.filesService);
 
     return peopleService;
   },
