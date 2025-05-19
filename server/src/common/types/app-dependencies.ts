@@ -1,5 +1,6 @@
 import { AuthService } from 'src/modules/auth/auth.service';
 import { AwardsService } from 'src/modules/awards/awards.service';
+import { ChapterKeysService } from 'src/modules/chapter-keys/chapter-keys.service';
 import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
 import { CollectionsService } from 'src/modules/collections/collections.service';
 import { CountriesService } from 'src/modules/countries/countries.service';
@@ -28,4 +29,5 @@ export type AppDependencies = {
   initialDataService: InitialDataService;
   pendingFilmsService: PendingFilmsService;
   postsService: PostsService;
+  chapterKeysService: ChapterKeysService;
 };
