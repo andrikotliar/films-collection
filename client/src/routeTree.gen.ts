@@ -16,7 +16,7 @@ import { Route as LoginRouteImport } from './routes/login/route'
 import { Route as ConsoleRouteImport } from './routes/console/route'
 import { Route as AboutRouteImport } from './routes/about/route'
 import { Route as HomeIndexImport } from './routes/_home/index'
-import { Route as FilmFilmIdImport } from './routes/film/$filmId'
+import { Route as FilmIdImport } from './routes/film/$id'
 import { Route as ConsolePostsRouteImport } from './routes/console/posts/route'
 import { Route as ConsolePendingRouteImport } from './routes/console/pending/route'
 import { Route as ConsoleManageRouteImport } from './routes/console/manage/route'
@@ -57,9 +57,9 @@ const HomeIndexRoute = HomeIndexImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
-const FilmFilmIdRoute = FilmFilmIdImport.update({
-  id: '/film/$filmId',
-  path: '/film/$filmId',
+const FilmIdRoute = FilmIdImport.update({
+  id: '/film/$id',
+  path: '/film/$id',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -173,11 +173,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsolePostsRouteImport
       parentRoute: typeof ConsoleRouteImport
     }
-    '/film/$filmId': {
-      id: '/film/$filmId'
-      path: '/film/$filmId'
-      fullPath: '/film/$filmId'
-      preLoaderRoute: typeof FilmFilmIdImport
+    '/film/$id': {
+      id: '/film/$id'
+      path: '/film/$id'
+      fullPath: '/film/$id'
+      preLoaderRoute: typeof FilmIdImport
       parentRoute: typeof rootRoute
     }
     '/_home/': {
@@ -240,7 +240,7 @@ export interface FileRoutesByFullPath {
   '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/console/posts': typeof ConsolePostsRouteRoute
-  '/film/$filmId': typeof FilmFilmIdRoute
+  '/film/$id': typeof FilmIdRoute
   '/': typeof HomeIndexRoute
   '/console/manage/$id': typeof ConsoleManageIdRoute
   '/console/posts/$id': typeof ConsolePostsIdRoute
@@ -256,7 +256,7 @@ export interface FileRoutesByTo {
   '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/console/posts': typeof ConsolePostsRouteRoute
-  '/film/$filmId': typeof FilmFilmIdRoute
+  '/film/$id': typeof FilmIdRoute
   '/': typeof HomeIndexRoute
   '/console/manage/$id': typeof ConsoleManageIdRoute
   '/console/posts/$id': typeof ConsolePostsIdRoute
@@ -273,7 +273,7 @@ export interface FileRoutesById {
   '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/console/posts': typeof ConsolePostsRouteRoute
-  '/film/$filmId': typeof FilmFilmIdRoute
+  '/film/$id': typeof FilmIdRoute
   '/_home/': typeof HomeIndexRoute
   '/console/manage_/$id': typeof ConsoleManageIdRoute
   '/console/posts_/$id': typeof ConsolePostsIdRoute
@@ -291,7 +291,7 @@ export interface FileRouteTypes {
     | '/console/manage'
     | '/console/pending'
     | '/console/posts'
-    | '/film/$filmId'
+    | '/film/$id'
     | '/'
     | '/console/manage/$id'
     | '/console/posts/$id'
@@ -306,7 +306,7 @@ export interface FileRouteTypes {
     | '/console/manage'
     | '/console/pending'
     | '/console/posts'
-    | '/film/$filmId'
+    | '/film/$id'
     | '/'
     | '/console/manage/$id'
     | '/console/posts/$id'
@@ -321,7 +321,7 @@ export interface FileRouteTypes {
     | '/console/manage'
     | '/console/pending'
     | '/console/posts'
-    | '/film/$filmId'
+    | '/film/$id'
     | '/_home/'
     | '/console/manage_/$id'
     | '/console/posts_/$id'
@@ -333,7 +333,7 @@ export interface RootRouteChildren {
   ConsoleRouteRoute: typeof ConsoleRouteRouteWithChildren
   LoginRouteRoute: typeof LoginRouteRoute
   StatisticRouteRoute: typeof StatisticRouteRoute
-  FilmFilmIdRoute: typeof FilmFilmIdRoute
+  FilmIdRoute: typeof FilmIdRoute
   HomeIndexRoute: typeof HomeIndexRoute
 }
 
@@ -342,7 +342,7 @@ const rootRouteChildren: RootRouteChildren = {
   ConsoleRouteRoute: ConsoleRouteRouteWithChildren,
   LoginRouteRoute: LoginRouteRoute,
   StatisticRouteRoute: StatisticRouteRoute,
-  FilmFilmIdRoute: FilmFilmIdRoute,
+  FilmIdRoute: FilmIdRoute,
   HomeIndexRoute: HomeIndexRoute,
 }
 
@@ -360,7 +360,7 @@ export const routeTree = rootRoute
         "/console",
         "/login",
         "/statistic",
-        "/film/$filmId",
+        "/film/$id",
         "/_home/"
       ]
     },
@@ -405,8 +405,8 @@ export const routeTree = rootRoute
       "filePath": "console/posts/route.tsx",
       "parent": "/console"
     },
-    "/film/$filmId": {
-      "filePath": "film/$filmId.tsx"
+    "/film/$id": {
+      "filePath": "film/$id.tsx"
     },
     "/_home/": {
       "filePath": "_home/index.tsx"

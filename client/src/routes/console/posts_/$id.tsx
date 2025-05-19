@@ -1,7 +1,7 @@
 import { PostsApi } from '@/api';
 import { ALLOWED_HTML_TAGS, NEW_POST_ID } from '@/constants';
 import { fetchPostByIdQuery } from '@/queries';
-import { PostForm } from '@/routes/console/posts_/-components/PostForm/PostForm';
+import { PostForm } from './-components';
 import { formDefaultValues } from '@/routes/console/posts_/-configs';
 import { FormValues } from '@/routes/console/posts_/-types';
 import { formValidation } from '@/routes/console/posts_/-validation';

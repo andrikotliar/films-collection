@@ -1,1 +1,1 @@
-export * from './FilmForm/FilmForm';
+export * from './film-form/film-form';

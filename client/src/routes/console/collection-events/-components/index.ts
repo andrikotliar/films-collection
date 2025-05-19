@@ -1,3 +1,3 @@
-export * from './CollectionEventForm/CollectionEventForm';
-export * from './Event/Event';
-export * from './EditCollectionEventModal/EditCollectionEventModal';
+export * from './collection-event-form/collection-event-form';
+export * from './event/event';
+export * from './edit-collection-event-modal/edit-collection-event-modal';
