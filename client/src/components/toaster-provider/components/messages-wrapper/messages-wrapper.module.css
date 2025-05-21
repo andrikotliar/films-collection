@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  right: 20px;
+  top: calc(var(--header-height) + 20px);
+  z-index: 200;
+}

@@ -8,7 +8,7 @@ import { createFileRoute, redirect, useNavigate } from '@tanstack/react-router';
 import { FormProvider, useForm } from 'react-hook-form';
 import { loginFormSchema } from './-validation';
 import { LoginForm, LoginLayout } from './-components';
-import { ErrorMessage } from '@/components';
+import { useToaster } from '@/hooks';
 
 const defaultLoginValues: LoginPayload = {
   username: '',
@@ -17,8 +17,9 @@ const defaultLoginValues: LoginPayload = {
 
 const LoginContainer = () => {
   const navigate = useNavigate();
+  const toaster = useToaster();
 
-  const { mutate, error, isPending } = useMutation<
+  const { mutate, isPending } = useMutation<
     AuthResponse,
     HttpError,
     LoginPayload
@@ -30,6 +31,9 @@ const LoginContainer = () => {
 
         navigate({ to: '/console/pending' });
       }
+    },
+    onError: (error) => {
+      toaster.error(error.message);
     },
   });
 
@@ -50,7 +54,6 @@ const LoginContainer = () => {
           isSaving={isPending}
         />
       </LoginLayout>
-      <ErrorMessage error={error} />
     </FormProvider>
   );
 };
