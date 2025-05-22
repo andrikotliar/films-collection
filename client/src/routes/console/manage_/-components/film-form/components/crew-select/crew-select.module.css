@@ -8,7 +8,6 @@
 .selectedRow {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 10px;
   padding: 10px 20px;
   border: var(--app-border);
@@ -23,5 +22,30 @@
 
 .name {
   width: 200px;
+  flex-shrink: 0;
   font-weight: bold;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  flex-grow: 1;
+}
+
+@media (max-width: 760px) {
+  .selectedRow {
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inputs {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .removeButton {
+    margin-left: auto;
+  }
 }

@@ -54,11 +54,11 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
         {fields.map((field, index) => (
           <div key={field.id} className={styles.selectedRow}>
             <div className={styles.name}>{field.name}</div>
-            <FormSelect
-              name={`crew.${index}.position`}
-              options={positionOptions}
-            />
-            <div>
+            <div className={styles.inputs}>
+              <FormSelect
+                name={`crew.${index}.position`}
+                options={positionOptions}
+              />
               <FormTextInput
                 name={`crew.${index}.comment`}
                 placeholder="Comment"

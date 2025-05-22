@@ -47,7 +47,7 @@ export const CastSelect = () => {
         {fields.map((field, index) => (
           <div key={field.id} className={styles.selectedRow}>
             <div className={styles.name}>{field.name}</div>
-            <div>
+            <div className={styles.inputs}>
               <FormTextInput
                 name={`cast.${index}.characterName`}
                 placeholder="Character name"
