@@ -1,8 +1,11 @@
 import { Prisma, PrismaClient } from '@prisma/client';
-import { CreateAwardInput } from './schemas';
+import { AwardInput } from './schemas';
+import { BaseRepository } from 'src/common';
 
-export class AwardsRepository {
-  constructor(private readonly databaseClient: PrismaClient) {}
+export class AwardsRepository extends BaseRepository {
+  constructor(private readonly databaseClient: PrismaClient) {
+    super(databaseClient);
+  }
 
   getById(id: number) {
     return this.databaseClient.award.findUnique({
@@ -61,19 +64,75 @@ export class AwardsRepository {
     });
   }
 
-  createAward({ nominations, ...award }: CreateAwardInput) {
+  createAward({ nominations, ...award }: AwardInput) {
     const data: Prisma.AwardCreateInput = { ...award };
 
     if (nominations.length) {
       data.nominations = {
         createMany: {
-          data: nominations,
+          data: nominations.map((nomination) => ({
+            title: nomination.title,
+            shouldIncludeActor: nomination.shouldIncludeActor,
+          })),
         },
       };
     }
 
     return this.databaseClient.award.create({
       data,
+    });
+  }
+
+  updateAward(id: number, input: Omit<AwardInput, 'nominations'>) {
+    return this.databaseClient.award.update({
+      where: {
+        id,
+      },
+      data: input,
+    });
+  }
+
+  createManyNominations(inputs: Prisma.NominationUncheckedCreateInput[]) {
+    return this.databaseClient.nomination.createMany({
+      data: inputs,
+    });
+  }
+
+  updateNomination(id: number, input: Prisma.NominationUpdateInput) {
+    return this.databaseClient.nomination.update({
+      where: {
+        id,
+      },
+      data: input,
+    });
+  }
+
+  deleteAward(id: number) {
+    return this.databaseClient.award.delete({
+      where: {
+        id,
+      },
+    });
+  }
+
+  deleteNominations(ids: number[]) {
+    return this.databaseClient.nomination.deleteMany({
+      where: {
+        id: {
+          in: ids,
+        },
+      },
+    });
+  }
+
+  getAwardNominationIds(awardId: number) {
+    return this.databaseClient.nomination.findMany({
+      select: {
+        id: true,
+      },
+      where: {
+        awardId,
+      },
     });
   }
 }

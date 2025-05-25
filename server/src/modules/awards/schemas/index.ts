@@ -1,2 +1,2 @@
 export * from './find-nominations.schema';
-export * from './create-award.schema';
+export * from './award.schema';
