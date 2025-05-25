@@ -1,7 +1,6 @@
 import { buildListOptions } from 'src/common';
 import { CollectionsRepository } from './collections.repository';
-import { CreateCollectionInput } from 'src/modules/collections/schemas';
-import { UpdateCollectionInput } from 'src/modules/collections/schemas/update-collection.schema';
+import { CreateCollectionInput, UpdateCollectionInput } from './schemas';
 
 export class CollectionsService {
   constructor(private readonly collectionsRepository: CollectionsRepository) {}
