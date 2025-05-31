@@ -15,6 +15,10 @@ export class CollectionsService {
     return buildListOptions(collections);
   }
 
+  getGeneralDataList() {
+    return this.collectionsRepository.getAll();
+  }
+
   createCollection(input: CreateCollectionInput) {
     return this.collectionsRepository.create(input);
   }

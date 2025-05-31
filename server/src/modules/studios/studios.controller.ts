@@ -3,6 +3,19 @@ import { ManageStudioBodySchema } from 'src/modules/studios/schemas';
 
 export const StudiosController = router((app, defineRoute) => [
   defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.studiosService.getBaseDataList();
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
     method: 'POST',
     url: '/',
     schema: {

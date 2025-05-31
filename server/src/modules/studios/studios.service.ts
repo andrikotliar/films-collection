@@ -11,6 +11,10 @@ export class StudiosService {
     return buildListOptions(sortedGenres);
   }
 
+  getBaseDataList() {
+    return this.studiosRepository.getAll();
+  }
+
   createStudio(input: ManageStudioInput) {
     return this.studiosRepository.create(input);
   }

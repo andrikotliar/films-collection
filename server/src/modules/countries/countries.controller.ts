@@ -3,6 +3,19 @@ import { ManageCountryBodySchema } from './schemas';
 
 export const CountriesController = router((app, defineRoute) => [
   defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.countriesService.getBaseDataList();
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
     method: 'POST',
     url: '/',
     schema: { body: ManageCountryBodySchema },

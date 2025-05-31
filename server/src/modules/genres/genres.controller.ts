@@ -3,6 +3,19 @@ import { ManageGenreBodySchema } from './schemas';
 
 export const GenresController = router((app, defineRoute) => [
   defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.genresService.getBaseListData();
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
     method: 'POST',
     url: '/',
     schema: {

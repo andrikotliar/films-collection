@@ -11,6 +11,10 @@ export class CountriesService {
     return buildListOptions(countries);
   }
 
+  getBaseDataList() {
+    return this.countriesRepository.getAll();
+  }
+
   createCountry(input: ManageCountryInput) {
     return this.countriesRepository.create(input);
   }

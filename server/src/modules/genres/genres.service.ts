@@ -11,6 +11,10 @@ export class GenresService {
     return buildListOptions(sortedGenres);
   }
 
+  getBaseListData() {
+    return this.genresRepository.getAll();
+  }
+
   createGenre(input: ManageGenreInput) {
     return this.genresRepository.create(input);
   }

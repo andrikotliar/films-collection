@@ -1,11 +1,29 @@
 import { IdParamSchema, router } from 'src/common';
 import {
   CreatePersonSchema,
+  GetListQueriesSchema,
   SearchPersonSchema,
   UpdatePersonBodySchema,
 } from './schemas';
 
 export const PeopleController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/',
+    schema: {
+      querystring: GetListQueriesSchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.peopleService.getList(request.query);
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
   defineRoute({
     method: 'GET',
     url: '/search',

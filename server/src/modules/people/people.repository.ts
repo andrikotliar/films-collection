@@ -16,6 +16,26 @@ export class PeopleRepository {
     });
   }
 
+  getList(options: Prisma.PersonFindManyArgs) {
+    return this.databaseClient.person.findMany({
+      select: {
+        id: true,
+        name: true,
+        image: true,
+      },
+      orderBy: {
+        name: 'asc',
+      },
+      ...options,
+    });
+  }
+
+  count(filters?: Prisma.PersonWhereInput) {
+    return this.databaseClient.person.count({
+      where: filters,
+    });
+  }
+
   createPerson(input: CreatePersonInput) {
     return this.databaseClient.person.create({
       data: input,

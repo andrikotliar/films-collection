@@ -6,6 +6,19 @@ import {
 
 export const CollectionsController = router((app, defineRoute) => [
   defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.collectionsService.getGeneralDataList();
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
     method: 'POST',
     url: '/',
     schema: { body: CreateCollectionBodySchema },

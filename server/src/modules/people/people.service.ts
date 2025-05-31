@@ -1,17 +1,40 @@
 import {
   CreatePersonInput,
+  GetListQueries,
   SearchPersonQuery,
   UpdatePersonInput,
 } from './schemas';
 import { PeopleRepository } from './people.repository';
 import { FilesService } from 'src/modules/files/files.service';
 import { NotFoundException } from 'src/common';
+import { Prisma } from '@prisma/client';
 
 export class PeopleService {
   constructor(
     private readonly peopleRepository: PeopleRepository,
     private readonly filesService: FilesService,
   ) {}
+
+  async getList(queries: GetListQueries) {
+    const filters: Prisma.PersonWhereInput = {};
+    const options: Prisma.PersonFindManyArgs = {
+      where: filters,
+      take: 30,
+      skip: queries.skip,
+    };
+
+    if (queries.q) {
+      filters.name = {
+        contains: queries.q,
+        mode: 'insensitive',
+      };
+    }
+
+    const list = await this.peopleRepository.getList(options);
+    const total = await this.peopleRepository.count(filters);
+
+    return { list, total };
+  }
 
   getPersonById(personId: number) {
     return this.peopleRepository.findPersonById(personId);
@@ -22,7 +45,6 @@ export class PeopleService {
   }
 
   createPerson(input: CreatePersonInput) {
-    console.log(input);
     return this.peopleRepository.createPerson(input);
   }
 
