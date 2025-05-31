@@ -1,0 +1,88 @@
+import { CollectionsApi } from '@/api';
+import {
+  ConfirmModal,
+  ConsoleContent,
+  ConsoleTitle,
+  FormSelect,
+  FormTextArea,
+} from '@/components';
+import { useToaster } from '@/hooks';
+import { fetchCollectionsListQuery } from '@/queries';
+import { BaseForm, List } from '@/routes/console/-components';
+import { collectionFormDefaultValues } from '@/routes/console/general_/collections/-configs';
+import { createCollectionSchema } from '@/routes/console/general_/collections/-validation';
+import { Collection } from '@/types';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { createFileRoute } from '@tanstack/react-router';
+import { useState } from 'react';
+import { FormProvider, useForm } from 'react-hook-form';
+
+export const Route = createFileRoute('/console/general_/collections')({
+  loader: async ({ context: { queryClient } }) => {
+    await queryClient.ensureQueryData(fetchCollectionsListQuery());
+  },
+  component: PageContainer,
+});
+
+function PageContainer() {
+  const toaster = useToaster();
+  const { data, refetch } = useSuspenseQuery(fetchCollectionsListQuery());
+
+  const [collectionToDelete, setCollectionToDelete] =
+    useState<Collection | null>(null);
+  const [collectionToUpdate, setCollectionToUpdate] =
+    useState<Collection | null>(null);
+
+  const form = useForm({
+    defaultValues: collectionFormDefaultValues,
+    resolver: yupResolver(createCollectionSchema),
+  });
+
+  const { mutate: createCollection, isPending: isCreating } = useMutation({
+    mutationFn: CollectionsApi.createCollection,
+    onSuccess: () => {
+      refetch();
+    },
+    onError: (error) => {
+      toaster.error(error.message);
+    },
+  });
+
+  const { mutate: deleteCollection, isPending: isDeleting } = useMutation({
+    mutationFn: CollectionsApi.deleteCollection,
+    onSuccess: () => {
+      refetch();
+      setCollectionToDelete(null);
+    },
+    onError: (error) => {
+      toaster.error(error.message);
+    },
+  });
+
+  return (
+    <ConsoleContent>
+      <ConsoleTitle>Collections</ConsoleTitle>
+      <FormProvider {...form}>
+        <BaseForm
+          onSubmit={form.handleSubmit((values) => createCollection(values))}
+          isSaving={isCreating}
+        >
+          <FormSelect label="Category" options={[]} name="category" />
+          <FormTextArea label="Description" name="description" />
+        </BaseForm>
+      </FormProvider>
+      <List
+        items={data}
+        onDelete={setCollectionToDelete}
+        onEdit={setCollectionToUpdate}
+      />
+      <ConfirmModal
+        data={collectionToDelete}
+        onClose={() => setCollectionToDelete(null)}
+        onConfirm={(data) => deleteCollection(data.id)}
+        isPending={isDeleting}
+      />
+    </ConsoleContent>
+  );
+}

@@ -7,49 +7,42 @@ import { useMutation } from '@tanstack/react-query';
 import { PendingFilmsApi } from '@/api';
 
 type EditPendingFilmFormProps = {
-  defaultValues: PendingFilm;
+  initialValues: PendingFilm;
   onSubmitSuccess: VoidFunction;
 };
 
 export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
-  defaultValues,
+  initialValues,
   onSubmitSuccess,
 }) => {
   const { mutate: updatePendingFilm, isPending } = useMutation({
-    mutationFn: PendingFilmsApi.updatePendingFilm,
+    mutationFn: (data: PendingFilmFormValues) => {
+      return PendingFilmsApi.updatePendingFilm(initialValues.id, {
+        title: data.title.trim(),
+        priority: Number(data.priority),
+        rating: data.rating,
+        collectionId: data.collectionId ? Number(data.collectionId) : null,
+      });
+    },
     onSuccess: onSubmitSuccess,
   });
 
   const form = useForm<PendingFilmFormValues>({
     defaultValues: {
-      title: defaultValues.title,
-      priority: String(defaultValues.priority),
-      rating: defaultValues.rating,
-      collectionId: defaultValues.collectionId
-        ? String(defaultValues.collectionId)
+      title: initialValues.title,
+      priority: String(initialValues.priority),
+      rating: initialValues.rating,
+      collectionId: initialValues.collectionId
+        ? String(initialValues.collectionId)
         : null,
     },
   });
-
-  const handleSubmit = (data: PendingFilmFormValues) => {
-    updatePendingFilm({
-      filmId: defaultValues.id,
-      payload: {
-        title: data.title.trim(),
-        priority: Number(data.priority),
-        rating: data.rating,
-        collectionId: defaultValues.collectionId
-          ? Number(defaultValues.collectionId)
-          : null,
-      },
-    });
-  };
 
   return (
     <FormProvider {...form}>
       <PendingFilmForm
         title="Edit pending film"
-        onSubmit={form.handleSubmit(handleSubmit)}
+        onSubmit={form.handleSubmit((values) => updatePendingFilm(values))}
         isSaving={isPending}
       />
     </FormProvider>

@@ -29,7 +29,7 @@ export const ToasterProvider: FC<ToasterProviderProps> = ({ children }) => {
 
     setToasts((toasts) => [...toasts, newToast]);
 
-    // setTimeout(() => removeToast(newToast.id), messageTypeToTimeout[type]);
+    setTimeout(() => removeToast(newToast.id), messageTypeToTimeout[type]);
   };
 
   const removeToast = (id: number) => {

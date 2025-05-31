@@ -45,3 +45,10 @@
 .currentState {
   color: var(--blue-default);
 }
+
+.dots {
+  margin-top: auto;
+  font-size: 20px;
+  color: var(--gray-dark);
+  user-select: none;
+}

@@ -1,6 +1,7 @@
 import styles from './pagination.module.css';
-import { FC } from 'react';
+import { FC, useMemo } from 'react';
 import classNames from 'classnames';
+import { buildPagination } from '@/helpers';
 
 export type PaginationProps = {
   currentPageIndex?: number;
@@ -21,24 +22,35 @@ export const Pagination: FC<PaginationProps> = ({
   const currentRangeEnd =
     total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
 
+  const pages = useMemo(() => {
+    return buildPagination(currentPageIndex, total, perPageCounter);
+  }, [total, currentPageIndex, perPageCounter]);
+
   return (
     <div className={styles.pagination}>
       {pagesCount > 1 && (
         <div className={styles.pages}>
-          {Array.from(
-            { length: Math.ceil(total / perPageCounter) },
-            (_, index) => (
+          {pages.map((page, index) => {
+            if (typeof page === 'string') {
+              return (
+                <div className={styles.dots} key={index}>
+                  {page}
+                </div>
+              );
+            }
+
+            return (
               <button
                 className={classNames(styles.pageButton, {
-                  [styles.active]: currentPageIndex === index,
+                  [styles.active]: currentPageIndex === page,
                 })}
                 key={index}
-                onClick={() => onPageChange(index)}
+                onClick={() => onPageChange(page)}
               >
-                {index + 1}
+                {page + 1}
               </button>
-            ),
-          )}
+            );
+          })}
         </div>
       )}
       {total > 0 && (

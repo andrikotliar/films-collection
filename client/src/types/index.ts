@@ -19,3 +19,4 @@ export * from './sorting-order';
 export * from './form-error';
 export * from './file-upload-payload';
 export * from './post';
+export * from './general-data';

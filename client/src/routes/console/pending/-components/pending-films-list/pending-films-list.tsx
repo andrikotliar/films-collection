@@ -1,10 +1,11 @@
 import { FC, useState } from 'react';
 import { PendingFilm } from '@/types';
 import { ConfirmModal, Panel } from '@/components';
-import { EditPendingFilmModal } from '../edit-pending-film-modal/edit-pending-film-modal';
 import { PendingFilmRow } from '../pending-film-row/pending-film-row';
 import { useMutation } from '@tanstack/react-query';
 import { PendingFilmsApi } from '@/api';
+import { FormModal } from '@/routes/console/-components';
+import { EditPendingFilmForm } from '../edit-pending-film-form/edit-pending-film-form';
 
 type PendingFilmsListProps = {
   list: PendingFilm[];
@@ -15,9 +16,7 @@ export const PendingFilmsList: FC<PendingFilmsListProps> = ({
   list,
   onRefetchList,
 }) => {
-  const [editModalContent, setEditModalContent] = useState<PendingFilm | null>(
-    null,
-  );
+  const [filmToUpdate, setFilmToUpdate] = useState<PendingFilm | null>(null);
   const [filmToDelete, setFilmToDelete] = useState<PendingFilm | null>(null);
 
   const { mutate: deletePendingFilm, isPending: isDeleteInProgress } =
@@ -40,16 +39,25 @@ export const PendingFilmsList: FC<PendingFilmsListProps> = ({
           data={film}
           key={film.id}
           onDelete={() => setFilmToDelete(film)}
-          onEdit={() => setEditModalContent(film)}
+          onEdit={() => setFilmToUpdate(film)}
           isDeleteInProgress={isDeleteInProgress}
         />
       ))}
 
-      <EditPendingFilmModal
-        onClose={() => setEditModalContent(null)}
-        defaultValues={editModalContent}
-        refetch={onRefetchList}
-      />
+      <FormModal
+        isOpen={filmToUpdate !== null}
+        onClose={() => setFilmToUpdate(null)}
+      >
+        {filmToUpdate !== null && (
+          <EditPendingFilmForm
+            initialValues={filmToUpdate}
+            onSubmitSuccess={() => {
+              onRefetchList();
+              setFilmToUpdate(null);
+            }}
+          />
+        )}
+      </FormModal>
 
       <ConfirmModal
         title={`Confirm deleting ${filmToDelete?.title}`}

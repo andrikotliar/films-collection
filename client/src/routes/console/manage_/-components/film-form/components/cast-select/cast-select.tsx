@@ -1,6 +1,5 @@
 import styles from './cast-select.module.css';
 import { searchPersonQuery } from '@/queries';
-import { CreatePersonModal } from '@/routes/console/-components';
 import { FormValues } from '@/routes/console/manage_/-types';
 import {
   Button,
@@ -11,7 +10,13 @@ import {
 } from '@/components';
 import { Trash2Icon } from 'lucide-react';
 import { useState } from 'react';
-import { useFieldArray, useFormContext } from 'react-hook-form';
+import { FormProvider, useFieldArray, useFormContext } from 'react-hook-form';
+import {
+  useManagePerson,
+  usePersonForm,
+} from '@/routes/console/-components/person-form/hooks';
+import { FormModal, PersonForm } from '@/routes/console/-components';
+import { Person } from '@/types';
 
 export const CastSelect = () => {
   const { control } = useFormContext<FormValues>();
@@ -22,6 +27,23 @@ export const CastSelect = () => {
     name: 'cast',
   });
 
+  const form = usePersonForm();
+
+  const handleAddNewPerson = (data: Person) => {
+    append({
+      personId: data.id,
+      name: data.name,
+      characterName: '',
+    });
+  };
+
+  const { mutate: createPerson } = useManagePerson({
+    onSuccessHandler: (data) => {
+      handleAddNewPerson(data);
+      setIsCreateModalOpen(false);
+    },
+  });
+
   return (
     <FormSection label="Cast">
       <Search placeholder="Search person..." query={searchPersonQuery}>
@@ -29,11 +51,7 @@ export const CastSelect = () => {
           <SearchResultPeopleList
             data={data ?? []}
             onAdd={(person) => {
-              append({
-                personId: person.id,
-                name: person.name,
-                characterName: '',
-              });
+              handleAddNewPerson(person);
               onFinishInteraction();
             }}
             onCreate={() => {
@@ -62,18 +80,17 @@ export const CastSelect = () => {
           </div>
         ))}
       </div>
-      <CreatePersonModal
+      <FormModal
         isOpen={isCreateModalOpen}
         onClose={() => setIsCreateModalOpen(false)}
-        onCreate={(data) => {
-          append({
-            personId: data.id,
-            name: data.name,
-            characterName: '',
-          });
-        }}
-        title="Add actor"
-      />
+      >
+        <FormProvider {...form}>
+          <PersonForm
+            title="Create person"
+            onSubmit={form.handleSubmit((values) => createPerson(values))}
+          />
+        </FormProvider>
+      </FormModal>
     </FormSection>
   );
 };

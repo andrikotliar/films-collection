@@ -46,12 +46,9 @@ export const EditCollectionEventForm: FC<EditCollectionEventFormProps> = ({
         image = response.filePath;
       }
 
-      return CollectionEventsApi.updateEvent({
-        eventId: defaultValues.id,
-        payload: {
-          ...data,
-          image,
-        },
+      return CollectionEventsApi.updateEvent(defaultValues.id, {
+        ...data,
+        image,
       });
     },
     onSuccess: onSubmitSuccess,
