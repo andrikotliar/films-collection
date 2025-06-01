@@ -3,7 +3,7 @@ import { FormSelect, FormTextArea } from '@/components';
 import { useToaster } from '@/hooks';
 import { BaseForm } from '@/routes/console/-components';
 import { CollectionFormValues } from '@/routes/console/general_/collections/-types';
-import { Collection } from '@/types';
+import { Collection, ListOption } from '@/types';
 import { useMutation } from '@tanstack/react-query';
 import { FC } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
@@ -11,11 +11,13 @@ import { FormProvider, useForm } from 'react-hook-form';
 type EditCollectionFormProps = {
   onSuccessHandler: (data: Collection) => void;
   initialValues: Collection;
+  categories: ListOption[];
 };
 
 export const EditCollectionForm: FC<EditCollectionFormProps> = ({
   onSuccessHandler,
   initialValues,
+  categories,
 }) => {
   const { id: collectionId, ...defaultValues } = initialValues;
 
@@ -37,10 +39,11 @@ export const EditCollectionForm: FC<EditCollectionFormProps> = ({
   return (
     <FormProvider {...form}>
       <BaseForm
+        title="Edit collection"
         onSubmit={form.handleSubmit((values) => mutate(values))}
         isSaving={isPending}
       >
-        <FormSelect label="Category" options={[]} name="category" />
+        <FormSelect label="Category" options={categories} name="category" />
         <FormTextArea label="Description" name="description" />
       </BaseForm>
     </FormProvider>

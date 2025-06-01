@@ -8,7 +8,8 @@ import {
 } from '@/components';
 import { useToaster } from '@/hooks';
 import { fetchCollectionsListQuery } from '@/queries';
-import { BaseForm, List } from '@/routes/console/-components';
+import { BaseForm, FormModal, List } from '@/routes/console/-components';
+import { EditCollectionForm } from '@/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '@/routes/console/general_/collections/-configs';
 import { createCollectionSchema } from '@/routes/console/general_/collections/-validation';
 import { Collection } from '@/types';
@@ -68,21 +69,41 @@ function PageContainer() {
           onSubmit={form.handleSubmit((values) => createCollection(values))}
           isSaving={isCreating}
         >
-          <FormSelect label="Category" options={[]} name="category" />
+          <FormSelect
+            label="Category"
+            options={data.categories}
+            name="category"
+          />
           <FormTextArea label="Description" name="description" />
         </BaseForm>
       </FormProvider>
       <List
-        items={data}
+        items={data.list}
         onDelete={setCollectionToDelete}
         onEdit={setCollectionToUpdate}
       />
       <ConfirmModal
+        title={`Delete ${collectionToDelete?.title}?`}
         data={collectionToDelete}
         onClose={() => setCollectionToDelete(null)}
         onConfirm={(data) => deleteCollection(data.id)}
         isPending={isDeleting}
       />
+      <FormModal
+        isOpen={collectionToUpdate !== null}
+        onClose={() => setCollectionToUpdate(null)}
+      >
+        {collectionToUpdate && (
+          <EditCollectionForm
+            categories={data.categories}
+            onSuccessHandler={() => {
+              refetch();
+              setCollectionToUpdate(null);
+            }}
+            initialValues={collectionToUpdate}
+          />
+        )}
+      </FormModal>
     </ConsoleContent>
   );
 }

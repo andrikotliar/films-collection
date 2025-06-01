@@ -1,4 +1,4 @@
-import { convertEnumValueToLabel } from 'src/common';
+import { convertEnumValuesToOption } from 'src/common';
 import { InitialData, InitialDataServiceDependencies } from './types';
 import {
   CollectionCategory,
@@ -35,11 +35,10 @@ export class InitialDataService {
       ],
     );
 
-    const types = this.convertEnumValuesToOption(TitleType);
-    const styles = this.convertEnumValuesToOption(TitleStyle);
-    const roles = this.convertEnumValuesToOption(CrewPosition);
-    const collectionCategories =
-      this.convertEnumValuesToOption(CollectionCategory);
+    const types = convertEnumValuesToOption(TitleType);
+    const styles = convertEnumValuesToOption(TitleStyle);
+    const roles = convertEnumValuesToOption(CrewPosition);
+    const collectionCategories = convertEnumValuesToOption(CollectionCategory);
 
     const todayEvent = await this.collectionEventsService.findTodayEvent();
 
@@ -57,12 +56,5 @@ export class InitialDataService {
       },
       event: todayEvent.event,
     };
-  }
-
-  private convertEnumValuesToOption(enumObject: Record<string, string>) {
-    return Object.values(enumObject).map((value) => ({
-      value,
-      label: convertEnumValueToLabel(value),
-    }));
   }
 }

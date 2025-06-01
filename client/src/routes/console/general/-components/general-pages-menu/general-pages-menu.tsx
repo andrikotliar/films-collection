@@ -19,18 +19,6 @@ const generalPagesConfig: MenuConfigItem[] = [
     route: '/console/general/genres',
   },
   {
-    id: 'collections',
-    title: 'Collections',
-    icon: <Rows3Icon />,
-    route: '/console/general/collections',
-  },
-  {
-    id: 'awards',
-    title: 'Awards',
-    icon: <TrophyIcon />,
-    route: '/console/general/awards',
-  },
-  {
     id: 'countries',
     title: 'Countries',
     icon: <EarthIcon />,
@@ -41,6 +29,18 @@ const generalPagesConfig: MenuConfigItem[] = [
     title: 'Studios',
     icon: <Building2Icon />,
     route: '/console/general/studios',
+  },
+  {
+    id: 'collections',
+    title: 'Collections',
+    icon: <Rows3Icon />,
+    route: '/console/general/collections',
+  },
+  {
+    id: 'awards',
+    title: 'Awards',
+    icon: <TrophyIcon />,
+    route: '/console/general/awards',
   },
   {
     id: 'people',

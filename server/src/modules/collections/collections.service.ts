@@ -1,6 +1,7 @@
-import { buildListOptions } from 'src/common';
+import { buildListOptions, convertEnumValuesToOption } from 'src/common';
 import { CollectionsRepository } from './collections.repository';
 import { CreateCollectionInput, UpdateCollectionInput } from './schemas';
+import { CollectionCategory } from '@prisma/client';
 
 export class CollectionsService {
   constructor(private readonly collectionsRepository: CollectionsRepository) {}
@@ -15,8 +16,14 @@ export class CollectionsService {
     return buildListOptions(collections);
   }
 
-  getGeneralDataList() {
-    return this.collectionsRepository.getAll();
+  async getGeneralDataList() {
+    const list = await this.collectionsRepository.getAll();
+    const categories = convertEnumValuesToOption(CollectionCategory);
+
+    return {
+      list,
+      categories,
+    };
   }
 
   createCollection(input: CreateCollectionInput) {

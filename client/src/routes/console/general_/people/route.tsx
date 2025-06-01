@@ -1,5 +1,6 @@
 import { PeopleApi } from '@/api';
 import {
+  BackLink,
   ConfirmModal,
   ConsoleContent,
   ConsoleTitle,
@@ -87,6 +88,7 @@ function RouteComponent() {
 
   return (
     <ConsoleContent>
+      <BackLink path="/console/general">Back to categories</BackLink>
       <ConsoleTitle>People</ConsoleTitle>
       <FormProvider {...form}>
         <PersonForm
