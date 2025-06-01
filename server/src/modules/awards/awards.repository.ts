@@ -21,17 +21,11 @@ export class AwardsRepository extends BaseRepository {
     });
   }
 
-  getBaseDataList(ids: number[]) {
+  getBaseDataList() {
     return this.databaseClient.award.findMany({
       select: {
         id: true,
         title: true,
-        description: true,
-      },
-      where: {
-        id: {
-          in: ids,
-        },
       },
     });
   }

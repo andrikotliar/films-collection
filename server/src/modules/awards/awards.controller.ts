@@ -3,6 +3,19 @@ import { AwardBodySchema, FindNominationsSchema } from './schemas';
 
 export const AwardsController = router((app, defineRoute) => [
   defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.awardsService.getBaseDataList();
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
     method: 'POST',
     url: '/',
     schema: {

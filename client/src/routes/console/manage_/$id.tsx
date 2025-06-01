@@ -1,4 +1,4 @@
-import { NEW_FILM_ID } from '@/constants';
+import { NEW_ITEM_ID } from '@/constants';
 import { fetchInitialDataQuery } from '@/queries';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
@@ -30,7 +30,7 @@ function PageContainer() {
 
   const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
 
-  const isEdit = id !== NEW_FILM_ID;
+  const isEdit = id !== NEW_ITEM_ID;
   const pageTitle = isEdit ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {

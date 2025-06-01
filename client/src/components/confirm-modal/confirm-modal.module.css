@@ -17,6 +17,11 @@
   font-weight: normal;
 }
 
+.description {
+  color: var(--gray-dark);
+  font-size: 14px;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

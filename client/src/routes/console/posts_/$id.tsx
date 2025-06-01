@@ -1,5 +1,5 @@
 import { PostsApi } from '@/api';
-import { ALLOWED_HTML_TAGS, NEW_POST_ID } from '@/constants';
+import { ALLOWED_HTML_TAGS, NEW_ITEM_ID } from '@/constants';
 import { fetchPostByIdQuery } from '@/queries';
 import { PostForm } from './-components';
 import { formDefaultValues } from '@/routes/console/posts_/-configs';
@@ -15,7 +15,7 @@ import sanitize from 'sanitize-html';
 
 export const Route = createFileRoute('/console/posts_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
-    if (params.id !== NEW_POST_ID) {
+    if (params.id !== NEW_ITEM_ID) {
       await queryClient.ensureQueryData(fetchPostByIdQuery(params.id));
     }
   },
@@ -26,7 +26,7 @@ function RouteComponent() {
   const { id } = Route.useParams();
   const navigate = useNavigate();
 
-  const isEdit = id !== NEW_POST_ID;
+  const isEdit = id !== NEW_ITEM_ID;
   const title = isEdit ? 'Edit post' : 'Create post';
 
   const { data } = useSuspenseQuery(fetchPostByIdQuery(id));

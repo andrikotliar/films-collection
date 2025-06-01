@@ -1,6 +1,5 @@
 export const APP_TITLE = 'Films Collection';
-export const NEW_FILM_ID = 'new';
-export const NEW_POST_ID = 'new';
+export const NEW_ITEM_ID = 'new';
 
 export const PER_PAGE = 48;
 export const PENDING_FILMS_PER_PAGE = 30;

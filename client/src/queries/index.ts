@@ -17,3 +17,4 @@ export * from './fetch-countries-list-query';
 export * from './fetch-studios-list-query';
 export * from './fetch-admin-people-list-query';
 export * from './fetch-collections-list-query';
+export * from './fetch-awards-base-data-list-query';

@@ -30,6 +30,7 @@ import { Route as ConsoleGeneralGenresRouteImport } from './routes/console/gener
 import { Route as ConsoleGeneralCountriesRouteImport } from './routes/console/general_/countries/route'
 import { Route as ConsoleGeneralCollectionsRouteImport } from './routes/console/general_/collections/route'
 import { Route as ConsoleGeneralAwardsRouteImport } from './routes/console/general_/awards/route'
+import { Route as ConsoleGeneralAwardsIdImport } from './routes/console/general_/awards_/$id'
 
 // Create/Update Routes
 
@@ -149,6 +150,12 @@ const ConsoleGeneralCollectionsRouteRoute =
 const ConsoleGeneralAwardsRouteRoute = ConsoleGeneralAwardsRouteImport.update({
   id: '/general_/awards',
   path: '/general/awards',
+  getParentRoute: () => ConsoleRouteRoute,
+} as any)
+
+const ConsoleGeneralAwardsIdRoute = ConsoleGeneralAwardsIdImport.update({
+  id: '/general_/awards_/$id',
+  path: '/general/awards/$id',
   getParentRoute: () => ConsoleRouteRoute,
 } as any)
 
@@ -289,6 +296,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsolePostsIdImport
       parentRoute: typeof ConsoleRouteImport
     }
+    '/console/general_/awards_/$id': {
+      id: '/console/general_/awards_/$id'
+      path: '/general/awards/$id'
+      fullPath: '/console/general/awards/$id'
+      preLoaderRoute: typeof ConsoleGeneralAwardsIdImport
+      parentRoute: typeof ConsoleRouteImport
+    }
   }
 }
 
@@ -308,6 +322,7 @@ interface ConsoleRouteRouteChildren {
   ConsoleGeneralStudiosRouteRoute: typeof ConsoleGeneralStudiosRouteRoute
   ConsoleManageIdRoute: typeof ConsoleManageIdRoute
   ConsolePostsIdRoute: typeof ConsolePostsIdRoute
+  ConsoleGeneralAwardsIdRoute: typeof ConsoleGeneralAwardsIdRoute
 }
 
 const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
@@ -324,6 +339,7 @@ const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
   ConsoleGeneralStudiosRouteRoute: ConsoleGeneralStudiosRouteRoute,
   ConsoleManageIdRoute: ConsoleManageIdRoute,
   ConsolePostsIdRoute: ConsolePostsIdRoute,
+  ConsoleGeneralAwardsIdRoute: ConsoleGeneralAwardsIdRoute,
 }
 
 const ConsoleRouteRouteWithChildren = ConsoleRouteRoute._addFileChildren(
@@ -350,6 +366,7 @@ export interface FileRoutesByFullPath {
   '/console/general/studios': typeof ConsoleGeneralStudiosRouteRoute
   '/console/manage/$id': typeof ConsoleManageIdRoute
   '/console/posts/$id': typeof ConsolePostsIdRoute
+  '/console/general/awards/$id': typeof ConsoleGeneralAwardsIdRoute
 }
 
 export interface FileRoutesByTo {
@@ -372,6 +389,7 @@ export interface FileRoutesByTo {
   '/console/general/studios': typeof ConsoleGeneralStudiosRouteRoute
   '/console/manage/$id': typeof ConsoleManageIdRoute
   '/console/posts/$id': typeof ConsolePostsIdRoute
+  '/console/general/awards/$id': typeof ConsoleGeneralAwardsIdRoute
 }
 
 export interface FileRoutesById {
@@ -395,6 +413,7 @@ export interface FileRoutesById {
   '/console/general_/studios': typeof ConsoleGeneralStudiosRouteRoute
   '/console/manage_/$id': typeof ConsoleManageIdRoute
   '/console/posts_/$id': typeof ConsolePostsIdRoute
+  '/console/general_/awards_/$id': typeof ConsoleGeneralAwardsIdRoute
 }
 
 export interface FileRouteTypes {
@@ -419,6 +438,7 @@ export interface FileRouteTypes {
     | '/console/general/studios'
     | '/console/manage/$id'
     | '/console/posts/$id'
+    | '/console/general/awards/$id'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/about'
@@ -440,6 +460,7 @@ export interface FileRouteTypes {
     | '/console/general/studios'
     | '/console/manage/$id'
     | '/console/posts/$id'
+    | '/console/general/awards/$id'
   id:
     | '__root__'
     | '/about'
@@ -461,6 +482,7 @@ export interface FileRouteTypes {
     | '/console/general_/studios'
     | '/console/manage_/$id'
     | '/console/posts_/$id'
+    | '/console/general_/awards_/$id'
   fileRoutesById: FileRoutesById
 }
 
@@ -518,7 +540,8 @@ export const routeTree = rootRoute
         "/console/general_/people",
         "/console/general_/studios",
         "/console/manage_/$id",
-        "/console/posts_/$id"
+        "/console/posts_/$id",
+        "/console/general_/awards_/$id"
       ]
     },
     "/login": {
@@ -583,6 +606,10 @@ export const routeTree = rootRoute
     },
     "/console/posts_/$id": {
       "filePath": "console/posts_/$id.tsx",
+      "parent": "/console"
+    },
+    "/console/general_/awards_/$id": {
+      "filePath": "console/general_/awards_/$id.tsx",
       "parent": "/console"
     }
   }

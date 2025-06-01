@@ -9,8 +9,8 @@ const NEW_NOMINATION_ID = -1;
 export class AwardsService {
   constructor(private readonly awardsRepository: AwardsRepository) {}
 
-  getListBaseData(ids: number[]) {
-    return this.awardsRepository.getBaseDataList(ids);
+  getBaseDataList() {
+    return this.awardsRepository.getBaseDataList();
   }
 
   getAwardById(id: number) {

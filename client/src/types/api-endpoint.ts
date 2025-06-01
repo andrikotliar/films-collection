@@ -18,6 +18,7 @@ export type ApiEndpoint =
   | '/people/:id'
   | '/people/search'
   | '/awards'
+  | '/awards/:id'
   | '/awards/nominations'
   | '/chapter-keys'
   | '/chapter-keys/options'

@@ -3,6 +3,7 @@ import { Button, ButtonVariant, Modal } from '@/components';
 
 type ConfirmModalProps<T extends Record<string, unknown>> = {
   title?: string;
+  description?: string;
   data: T | null;
   onConfirm: (data: T) => void;
   onClose: VoidFunction;
@@ -14,12 +15,13 @@ type ConfirmModalProps<T extends Record<string, unknown>> = {
 
 export const ConfirmModal = <T extends Record<string, unknown>>({
   title = 'Confirm deleting',
+  description,
   data,
   onClose,
   onConfirm,
   confirmButtonTitle = 'Confirm',
   cancelButtonTitle = 'Cancel',
-  confirmButtonVariant = 'primary',
+  confirmButtonVariant = 'danger',
   isPending = false,
 }: ConfirmModalProps<T>) => {
   const isOpen = data !== null;
@@ -32,6 +34,7 @@ export const ConfirmModal = <T extends Record<string, unknown>>({
     <Modal isOpen={isOpen} onClose={onClose} className={styles.wrapper}>
       <Modal.Content className={styles.content}>
         <h2 className={styles.title}>{title}</h2>
+        {description && <p className={styles.description}>{description}</p>}
         <div className={styles.buttons}>
           <Button
             onClick={() => onConfirm(data)}
