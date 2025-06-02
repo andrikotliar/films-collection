@@ -24,7 +24,7 @@ export const FileInput: FC<FileInputProps> = ({
   onChange,
   width = 250,
   height = 'auto',
-  accept = '.jpg,.png,.jpeg',
+  accept = '.jpg,.png,.jpeg,.svg,.webp',
   defaultValue = null,
   onRemove,
   error,
