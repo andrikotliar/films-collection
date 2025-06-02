@@ -1,20 +1,24 @@
-import { buildListOptions } from 'src/common';
+import { buildListOptions, NotFoundException } from 'src/common';
 import { AwardsRepository } from './awards.repository';
 import { AwardInput } from './schemas';
-import { GroupedNominations } from './types';
+import { GetByIdParams, GroupedNominations } from './types';
 import { Prisma } from '@prisma/client';
+import { FilesService } from 'src/modules/files/files.service';
 
 const NEW_NOMINATION_ID = -1;
 
 export class AwardsService {
-  constructor(private readonly awardsRepository: AwardsRepository) {}
+  constructor(
+    private readonly awardsRepository: AwardsRepository,
+    private readonly filesService: FilesService,
+  ) {}
 
   getBaseDataList() {
     return this.awardsRepository.getBaseDataList();
   }
 
-  getAwardById(id: number) {
-    return this.awardsRepository.getById(id);
+  getAwardById(id: number, { includeNominations }: GetByIdParams = {}) {
+    return this.awardsRepository.getById(id, includeNominations);
   }
 
   async getListOptions() {
@@ -35,7 +39,17 @@ export class AwardsService {
     return this.awardsRepository.createAward(input);
   }
 
-  deleteAward(id: number) {
+  async deleteAward(id: number) {
+    const award = await this.getAwardById(id);
+
+    if (!award) {
+      throw new NotFoundException({
+        message: `Award #${id} not found`,
+      });
+    }
+
+    await this.filesService.delete(award.image);
+
     return this.awardsRepository.deleteAward(id);
   }
 

@@ -58,6 +58,24 @@ export const AwardsController = router((app, defineRoute) => [
   }),
 
   defineRoute({
+    method: 'GET',
+    url: '/:id',
+    schema: {
+      params: IdParamSchema,
+    },
+    async handler({ request }) {
+      const data = await app.awardsService.getAwardById(request.params.id, {
+        includeNominations: true,
+      });
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
     method: 'PATCH',
     url: '/:id',
     schema: {

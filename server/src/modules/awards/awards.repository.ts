@@ -7,13 +7,14 @@ export class AwardsRepository extends BaseRepository {
     super(databaseClient);
   }
 
-  getById(id: number) {
+  getById(id: number, shouldIncludeNominations = false) {
     return this.databaseClient.award.findUnique({
       select: {
         id: true,
         title: true,
         description: true,
         image: true,
+        nominations: shouldIncludeNominations,
       },
       where: {
         id,
