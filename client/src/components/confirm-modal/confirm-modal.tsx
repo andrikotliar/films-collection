@@ -1,7 +1,7 @@
 import styles from './confirm-modal.module.css';
 import { Button, ButtonVariant, Modal } from '@/components';
 
-type ConfirmModalProps<T extends Record<string, unknown>> = {
+type ConfirmModalProps<T> = {
   title?: string;
   description?: string;
   data: T | null;
@@ -13,7 +13,7 @@ type ConfirmModalProps<T extends Record<string, unknown>> = {
   isPending?: boolean;
 };
 
-export const ConfirmModal = <T extends Record<string, unknown>>({
+export const ConfirmModal = <T,>({
   title = 'Confirm deleting',
   description,
   data,
