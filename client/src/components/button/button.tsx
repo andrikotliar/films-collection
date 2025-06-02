@@ -1,6 +1,7 @@
 import styles from './button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
+import { Loader } from '@/components/loader/loader';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
 
@@ -9,11 +10,10 @@ export type ButtonProps = {
   type?: 'button' | 'submit';
   icon?: ReactNode;
   isHidden?: boolean;
-  isActive?: boolean;
   variant?: ButtonVariant;
-  activeClassName?: string;
   isDisabled?: boolean;
   className?: string;
+  isLoading?: boolean;
 };
 
 export const Button: FC<PropsWithChildren<ButtonProps>> = ({
@@ -24,9 +24,8 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   type = 'button',
   isHidden = false,
   variant = 'primary',
-  isActive = false,
-  activeClassName = styles.active,
   isDisabled,
+  isLoading = false,
 }) => {
   return (
     <button
@@ -34,11 +33,15 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
       type={type}
       className={classNames(styles.button, styles[variant], className, {
         [styles.hidden]: isHidden,
-        [activeClassName]: isActive,
       })}
-      disabled={isDisabled}
+      disabled={isDisabled || isLoading}
     >
-      {icon && <div className={styles.icon}>{icon}</div>}
+      {isLoading && (
+        <div className={styles.icon}>
+          <Loader size={20} shouldInheritColor />
+        </div>
+      )}
+      {icon && !isLoading && <div className={styles.icon}>{icon}</div>}
       {children}
     </button>
   );

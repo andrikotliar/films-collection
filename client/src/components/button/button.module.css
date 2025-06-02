@@ -49,6 +49,10 @@
   height: 20px;
 }
 
+.loader {
+  color: white !important;
+}
+
 .button:disabled {
   color: var(--gray-dark);
   cursor: default;

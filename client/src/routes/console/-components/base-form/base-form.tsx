@@ -1,6 +1,6 @@
 import styles from './base-form.module.css';
 import { Button, FormTextInput, FormTitle, Panel } from '@/components';
-import { LoaderCircle, SaveIcon } from 'lucide-react';
+import { SaveIcon } from 'lucide-react';
 import { FC, PropsWithChildren } from 'react';
 
 type BaseFormProps = PropsWithChildren<{
@@ -21,10 +21,7 @@ export const BaseForm: FC<BaseFormProps> = ({
         {title && <FormTitle>{title}</FormTitle>}
         <FormTextInput name="title" label="Title" />
         {children}
-        <Button
-          type="submit"
-          icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}
-        >
+        <Button type="submit" isLoading={isSaving} icon={<SaveIcon />}>
           Save
         </Button>
       </form>

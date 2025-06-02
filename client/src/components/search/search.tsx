@@ -1,6 +1,6 @@
 import styles from './search.module.css';
 import { useQuery, UseQueryOptions } from '@tanstack/react-query';
-import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
+import { SearchIcon } from 'lucide-react';
 import {
   ChangeEvent,
   FocusEventHandler,
@@ -13,6 +13,7 @@ import classNames from 'classnames';
 import { debounce } from '@/helpers';
 import { PopupMenu } from '../popup-menu/popup-menu';
 import { FieldLabel } from '@/components/field-label/field-label';
+import { Loader } from '@/components/loader/loader';
 
 type ChildrenProps<T> = {
   data?: T;
@@ -95,9 +96,7 @@ export const Search = <T extends unknown>({
         <SearchIcon className={styles.searchIcon} />
         {isLoading && (
           <div className={styles.loaderWrapper}>
-            <LoaderCircleIcon
-              className={classNames(styles.loaderIcon, 'spin')}
-            />
+            <Loader size={20} />
           </div>
         )}
       </div>

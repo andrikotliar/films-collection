@@ -95,13 +95,3 @@ input {
 body {
   font-family: 'Roboto', sans-serif;
 }
-
-.spin {
-  animation: spin 1.5s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}

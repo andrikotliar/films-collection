@@ -1,6 +1,6 @@
 import styles from './person-form.module.css';
 import { FC } from 'react';
-import { LoaderCircleIcon, SaveIcon } from 'lucide-react';
+import { SaveIcon } from 'lucide-react';
 import {
   Button,
   FormFileInput,
@@ -26,12 +26,7 @@ export const PersonForm: FC<PersonFormProps> = ({
         <FormTitle>{title}</FormTitle>
         <FormTextInput name="name" label="Person name" />
         <FormFileInput name="image" label="Person photo" width={150} />
-        <Button
-          onClick={onSubmit}
-          icon={
-            isLoading ? <LoaderCircleIcon className="spin" /> : <SaveIcon />
-          }
-        >
+        <Button onClick={onSubmit} isLoading={isLoading} icon={<SaveIcon />}>
           Submit
         </Button>
       </div>

@@ -7,7 +7,7 @@ import {
   FormSelect,
   FormFileInput,
 } from '@/components';
-import { LoaderCircle, SaveIcon } from 'lucide-react';
+import { SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
 import { Panel } from '@/components';
@@ -78,10 +78,7 @@ export const CollectionEventForm: FC<CollectionEventFormProps> = ({
             </div>
           </div>
         </div>
-        <Button
-          type="submit"
-          icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}
-        >
+        <Button type="submit" isLoading={isSaving} icon={<SaveIcon />}>
           Save
         </Button>
       </form>

@@ -10,7 +10,7 @@ import {
   FormSelect,
   FormRatingInput,
 } from '@/components';
-import { LoaderCircle, SaveIcon } from 'lucide-react';
+import { SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 import { StatusColor } from '@/types';
 import { useQuery } from '@tanstack/react-query';
@@ -60,10 +60,7 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
           />
         )}
         <FormRatingInput name="rating" size={3} label="Rating" />
-        <Button
-          type="submit"
-          icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}
-        >
+        <Button type="submit" icon={<SaveIcon />} isLoading={isSaving}>
           Save
         </Button>
       </form>
