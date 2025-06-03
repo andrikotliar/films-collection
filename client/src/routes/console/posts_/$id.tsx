@@ -12,6 +12,7 @@ import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { useMemo } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import sanitize from 'sanitize-html';
+import { useToaster } from '@/hooks';
 
 export const Route = createFileRoute('/console/posts_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
@@ -25,6 +26,7 @@ export const Route = createFileRoute('/console/posts_/$id')({
 function RouteComponent() {
   const { id } = Route.useParams();
   const navigate = useNavigate();
+  const toaster = useToaster();
 
   const isEdit = id !== NEW_ITEM_ID;
   const title = isEdit ? 'Edit post' : 'Create post';
@@ -48,12 +50,21 @@ function RouteComponent() {
     resolver: yupResolver(formValidation),
   });
 
-  const { mutate: createPost, isPending: isCreating } = useMutation({
-    mutationFn: PostsApi.createPost,
+  const { mutate: managePost, isPending } = useMutation({
+    mutationFn: (data: FormValues) => {
+      if (id !== NEW_ITEM_ID) {
+        return PostsApi.updatePost(+id, data);
+      }
+
+      return PostsApi.createPost(data);
+    },
     onSuccess: () => {
       navigate({
         to: '/console/posts',
       });
+    },
+    onError: (error) => {
+      toaster.error(error.message);
     },
   });
 
@@ -72,17 +83,10 @@ function RouteComponent() {
       allowedAttributes: {},
     });
 
-    const payload = {
+    managePost({
       ...values,
       content: sanitizedContent,
-    };
-
-    if (isEdit) {
-      updatePost(payload);
-      return;
-    }
-
-    createPost(payload);
+    });
   };
 
   return (
@@ -93,7 +97,7 @@ function RouteComponent() {
         <FormProvider {...form}>
           <PostForm
             onSubmit={form.handleSubmit(handleSubmit)}
-            isLoading={isCreating || isUpdating}
+            isLoading={isPending}
           />
         </FormProvider>
       </Panel>
