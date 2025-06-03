@@ -13,6 +13,7 @@
   border: var(--app-border);
   outline-color: var(--blue-default);
   transition: border-color 300ms;
+  resize: vertical;
 }
 
 .textArea:hover {

@@ -8,14 +8,23 @@ export class AwardsRepository extends BaseRepository {
   }
 
   getById(id: number, shouldIncludeNominations = false) {
+    const select: Prisma.AwardFindUniqueArgs['select'] = {
+      id: true,
+      title: true,
+      description: true,
+      image: true,
+    };
+
+    if (shouldIncludeNominations) {
+      select.nominations = {
+        orderBy: {
+          title: 'asc',
+        },
+      };
+    }
+
     return this.databaseClient.award.findUnique({
-      select: {
-        id: true,
-        title: true,
-        description: true,
-        image: true,
-        nominations: shouldIncludeNominations,
-      },
+      select,
       where: {
         id,
       },

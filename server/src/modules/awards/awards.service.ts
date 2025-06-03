@@ -56,6 +56,18 @@ export class AwardsService {
   async updateAward(awardId: number, input: AwardInput) {
     const { nominations, ...award } = input;
 
+    const awardBeforeUpdate = await this.getAwardById(awardId);
+
+    if (!awardBeforeUpdate) {
+      throw new NotFoundException({
+        message: `Award ${awardId} not found`,
+      });
+    }
+
+    if (award.image !== awardBeforeUpdate.image) {
+      await this.filesService.delete(award.image);
+    }
+
     const updatedAwardPromise = this.awardsRepository.updateAward(
       awardId,
       award,

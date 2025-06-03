@@ -1,15 +1,15 @@
+import { FormProvider, useForm } from 'react-hook-form';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { createFileRoute } from '@tanstack/react-router';
 import { AwardsApi, FilesApi } from '@/api';
 import { BackLink, ConsoleContent, ConsoleTitle } from '@/components';
 import { NEW_ITEM_ID } from '@/constants';
 import { getFileUploadFormData } from '@/helpers';
 import { useToaster } from '@/hooks';
 import { fetchAwardByIdQuery } from '@/queries';
-import { AwardForm } from '@/routes/console/general_/awards_/-components';
-import { awardDefaultFormValues } from '@/routes/console/general_/awards_/-configs';
-import { AwardFormValues } from '@/routes/console/general_/awards_/-types';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute } from '@tanstack/react-router';
-import { FormProvider, useForm } from 'react-hook-form';
+import { AwardForm } from './-components';
+import { getFormDefaultValues } from './-helpers';
+import { AwardFormValues } from './-types';
 
 export const Route = createFileRoute('/console/general_/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
@@ -25,16 +25,20 @@ function PageContainer() {
   const { id } = Route.useParams();
   const toaster = useToaster();
 
-  const isEdit = id !== NEW_ITEM_ID;
-
   const { data } = useSuspenseQuery(fetchAwardByIdQuery(id));
 
-  const form = useForm({
-    defaultValues: awardDefaultFormValues,
+  const form = useForm<AwardFormValues>({
+    defaultValues: getFormDefaultValues(data),
   });
 
-  const { mutate: createAward, isPending: isCreating } = useMutation({
-    mutationFn: AwardsApi.createAward,
+  const { mutate: manageAward, isPending } = useMutation({
+    mutationFn: (data: AwardFormValues) => {
+      if (id !== NEW_ITEM_ID) {
+        return AwardsApi.updateAward(+id, data);
+      }
+
+      return AwardsApi.createAward(data);
+    },
     onSuccess: () => {
       navigate({
         to: '/console/general/awards',
@@ -65,13 +69,13 @@ function PageContainer() {
       return;
     }
 
-    createAward({
+    manageAward({
       ...values,
       image,
     });
   };
 
-  const pageTitle = isEdit ? `Edit award: ${data.title}` : 'Create award';
+  const pageTitle = data ? `Edit award: ${data.title}` : 'Create award';
 
   return (
     <ConsoleContent>
@@ -80,7 +84,7 @@ function PageContainer() {
       <FormProvider {...form}>
         <AwardForm
           onSubmit={form.handleSubmit(handleSubmit)}
-          isLoading={isCreating}
+          isLoading={isPending}
         />
       </FormProvider>
     </ConsoleContent>
