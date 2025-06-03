@@ -1,6 +1,11 @@
-import { convertEnumValueToLabel } from 'src/common';
+import { convertEnumValuesToOption } from 'src/common';
 import { InitialData, InitialDataServiceDependencies } from './types';
-import { CrewPosition, TitleStyle, TitleType } from '@prisma/client';
+import {
+  CollectionCategory,
+  CrewPosition,
+  TitleStyle,
+  TitleType,
+} from '@prisma/client';
 
 export class InitialDataService {
   private collectionsService;
@@ -30,9 +35,10 @@ export class InitialDataService {
       ],
     );
 
-    const types = this.convertEnumValuesToOption(TitleType);
-    const styles = this.convertEnumValuesToOption(TitleStyle);
-    const roles = this.convertEnumValuesToOption(CrewPosition);
+    const types = convertEnumValuesToOption(TitleType);
+    const styles = convertEnumValuesToOption(TitleStyle);
+    const roles = convertEnumValuesToOption(CrewPosition);
+    const collectionCategories = convertEnumValuesToOption(CollectionCategory);
 
     const todayEvent = await this.collectionEventsService.findTodayEvent();
 
@@ -46,15 +52,9 @@ export class InitialDataService {
         styles,
         roles,
         awards,
+        collectionCategories,
       },
       event: todayEvent.event,
     };
-  }
-
-  private convertEnumValuesToOption(enumObject: Record<string, string>) {
-    return Object.values(enumObject).map((value) => ({
-      value,
-      label: convertEnumValueToLabel(value),
-    }));
   }
 }

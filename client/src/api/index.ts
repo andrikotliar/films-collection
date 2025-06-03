@@ -8,3 +8,7 @@ export * from './people';
 export * from './awards';
 export * from './chapter-keys';
 export * from './posts';
+export * from './genres';
+export * from './countries';
+export * from './studios';
+export * from './collections';

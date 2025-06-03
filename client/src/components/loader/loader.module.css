@@ -1,0 +1,25 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  animation: spin 1.5s linear infinite;
+}
+
+.defaultColor {
+  color: var(--blue-default);
+}
+
+.fullPage {
+  height: var(--app-height);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

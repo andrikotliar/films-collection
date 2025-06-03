@@ -6,8 +6,4 @@ export const UpdatePostSchema = Type.Object({
   pageKey: Type.Optional(Type.String()),
 });
 
-export const UpdatePostParamsSchema = Type.Object({
-  id: Type.Number(),
-});
-
 export type UpdatePostPayload = Static<typeof UpdatePostSchema>;

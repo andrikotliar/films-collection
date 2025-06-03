@@ -7,3 +7,4 @@ export * from './clear-cookies';
 export * from './router';
 export * from './create-module';
 export * from './convert-kebab-case-to-camel-case';
+export * from './convert-enum-values-to-option';

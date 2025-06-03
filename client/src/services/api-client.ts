@@ -75,11 +75,13 @@ export class ApiClient {
       return result as Promise<T>;
     } catch (error: any) {
       if (error.response.statusCode === 401) {
-        console.clear();
-
         try {
           if (!TOKEN_ERRORS.includes(error.response?.code)) {
-            throw error;
+            throw new HttpError(
+              error.response.status,
+              error.response.statusText,
+              error.response,
+            );
           }
 
           await this.request('/auth/refresh', {
@@ -95,7 +97,11 @@ export class ApiClient {
         }
       }
 
-      throw error;
+      throw new HttpError(
+        error.response.statusCode,
+        error.response.message,
+        error.response,
+      );
     }
   }
 

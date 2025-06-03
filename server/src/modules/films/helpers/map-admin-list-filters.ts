@@ -1,7 +1,7 @@
 import { Prisma } from '@prisma/client';
-import { FilmsAdminQuery } from '../schemas';
+import { GetAdminListQuery } from '../schemas';
 
-export const mapAdminListFilters = (plainFilters: FilmsAdminQuery) => {
+export const mapAdminListFilters = (plainFilters: GetAdminListQuery) => {
   const filters: Prisma.FilmWhereInput = {};
 
   if (plainFilters.q) {

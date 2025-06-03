@@ -21,9 +21,9 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     icon: <ClapperboardIcon />,
   },
   {
-    id: 'additional',
-    route: '/console/additional',
-    title: 'Additional data',
+    id: 'general',
+    route: '/console/general',
+    title: 'General data',
     icon: <Grid2X2PlusIcon />,
   },
   {

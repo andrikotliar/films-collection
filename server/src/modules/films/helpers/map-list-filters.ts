@@ -1,5 +1,5 @@
 import { Prisma } from '@prisma/client';
-import { FilmsQuery } from '../schemas';
+import { GetFilmsListQuery } from '../schemas';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -17,7 +17,7 @@ const getMoneyRangeFilter = (value: number) => {
   };
 };
 
-export const mapListFilters = (plainFilters: FilmsQuery) => {
+export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
   const {
     genreIds,
     collectionId,

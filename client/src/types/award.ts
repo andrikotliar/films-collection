@@ -5,7 +5,7 @@ export type Award = {
   id: number;
   title: string;
   image: string;
-  description: string;
+  description: string | null;
 };
 
 export type Nomination = {

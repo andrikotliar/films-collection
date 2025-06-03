@@ -1,6 +1,6 @@
 export type Collection = {
   id: number;
-  type: string;
+  category: string;
   title: string;
   description: string | null;
 };

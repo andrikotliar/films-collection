@@ -1,11 +1,6 @@
 import { apiClient } from '@/services';
 import { CollectionEventFilled, CollectionEventPayload } from '@/types';
 
-type UpdateEventParams = {
-  eventId: number;
-  payload: Partial<CollectionEventPayload>;
-};
-
 export const CollectionEventsApi = {
   getAdminList() {
     return apiClient.get<CollectionEventFilled[]>(
@@ -19,18 +14,18 @@ export const CollectionEventsApi = {
     });
   },
 
-  updateEvent({ eventId, payload }: UpdateEventParams) {
-    return apiClient.patch('/collection-events/:eventId', {
+  updateEvent(id: number, payload: Partial<CollectionEventPayload>) {
+    return apiClient.patch('/collection-events/:id', {
       params: {
-        eventId,
+        id,
       },
       payload,
     });
   },
 
   deleteEvent(id: number) {
-    return apiClient.delete('/collection-events/:eventId', {
-      params: { eventId: id },
+    return apiClient.delete('/collection-events/:id', {
+      params: { id },
     });
   },
 };

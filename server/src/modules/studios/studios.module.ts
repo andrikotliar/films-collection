@@ -1,6 +1,7 @@
+import { createModule } from 'src/common';
+import { StudiosController } from './studios.controller';
 import { StudiosRepository } from './studios.repository';
 import { StudiosService } from './studios.service';
-import { createModule } from 'src/common';
 
 export const StudiosModule = createModule({
   prefix: 'studios',
@@ -10,4 +11,5 @@ export const StudiosModule = createModule({
 
     return studiosService;
   },
+  controller: StudiosController,
 });

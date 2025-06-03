@@ -1,0 +1,46 @@
+.selected:not(:empty) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.selectedRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: var(--app-border);
+  border-radius: 8px;
+  background-color: white;
+  transition: border-color 300ms;
+}
+
+.selectedRow:hover {
+  border-color: black;
+}
+
+.name {
+  width: 200px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.inputs {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .selectedRow {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  .removeButton {
+    margin-left: auto;
+  }
+}

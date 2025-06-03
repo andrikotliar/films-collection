@@ -1,4 +1,4 @@
-import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
+import { FILMS_ADMIN_LIST_PER_PAGE, NEW_ITEM_ID } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types';
@@ -55,7 +55,7 @@ function PageContainer() {
     <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
       <AdminFilmsTools />
-      <AddItemLink to="/console/manage/$id" params={{ id: NEW_FILM_ID }}>
+      <AddItemLink to="/console/manage/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
       <Panel>

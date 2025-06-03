@@ -6,3 +6,4 @@ export * from './use-scroll-to-top';
 export * from './use-close-on-scroll';
 export * from './use-logo-decoration';
 export * from './use-debounced-search';
+export * from './use-toaster';

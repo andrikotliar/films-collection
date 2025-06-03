@@ -1,16 +1,5 @@
 import { Static, Type } from '@sinclair/typebox';
 
-export const UpdateCollectionEventParamsSchema = Type.Object(
-  {
-    id: Type.Number(),
-  },
-  { additionalProperties: false },
-);
-
-export type CollectionEventsUpdateParams = Static<
-  typeof UpdateCollectionEventParamsSchema
->;
-
 export const UpdateCollectionEventBodySchema = Type.Object(
   {
     title: Type.Optional(Type.String()),

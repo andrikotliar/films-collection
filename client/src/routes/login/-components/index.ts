@@ -1,2 +1,2 @@
-export * from './LoginLayout/LoginLayout';
-export * from './LoginForm/LoginForm';
+export * from './login-layout/login-layout';
+export * from './login-form/login-form';

@@ -1,27 +1,17 @@
 import { Static, Type } from '@sinclair/typebox';
 
-export const UpdatePendingFilmParamsSchema = Type.Object({
-  id: Type.Number(),
-});
-
-export type UpdatePendingFilmParams = Static<
-  typeof UpdatePendingFilmParamsSchema
->;
-
 export const UpdatePendingFilmBodySchema = Type.Object(
   {
     title: Type.Optional(Type.String()),
     priority: Type.Optional(Type.Number({ minimum: 1, maximum: 3 })),
     collectionId: Type.Optional(
-      Type.Union([Type.Number({ minimum: 1 }), Type.Null()]),
+      Type.Union([Type.Null(), Type.Number({ minimum: 1 })]),
     ),
     rating: Type.Optional(
-      Type.Union([Type.Number({ minimum: 1, maximum: 3 }), Type.Null()]),
+      Type.Union([Type.Null(), Type.Number({ minimum: 1, maximum: 3 })]),
     ),
   },
   { additionalProperties: false },
 );
 
-export type UpdatePendingFilmPayload = Static<
-  typeof UpdatePendingFilmBodySchema
->;
+export type UpdatePendingFilmInput = Static<typeof UpdatePendingFilmBodySchema>;

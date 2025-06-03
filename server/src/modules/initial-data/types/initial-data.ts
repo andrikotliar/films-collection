@@ -11,6 +11,7 @@ export type InitialData = {
     styles: ListOption<string>[];
     roles: ListOption<string>[];
     awards: ListOption[];
+    collectionCategories: ListOption<string>[];
   };
   event: GetEventQueryResult | null;
 };

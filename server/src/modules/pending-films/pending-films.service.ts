@@ -1,9 +1,9 @@
 import { Prisma } from '@prisma/client';
 import { PendingFilmsRepository } from './pending-films.repository';
 import {
-  CreatePendingFilmPayload,
+  CreatePendingFilmInput,
   GetPendingFilmsListQuery,
-  UpdatePendingFilmPayload,
+  UpdatePendingFilmInput,
 } from './schemas';
 
 export class PendingFilmsService {
@@ -18,16 +18,16 @@ export class PendingFilmsService {
     });
   }
 
-  createPendingFilm(payload: CreatePendingFilmPayload) {
-    return this.pendingFilmsRepository.create(payload);
+  createPendingFilm(input: CreatePendingFilmInput) {
+    return this.pendingFilmsRepository.create(input);
   }
 
   deletePendingFilm(id: number) {
     return this.pendingFilmsRepository.deleteById(id);
   }
 
-  updatePendingFilm(id: number, payload: UpdatePendingFilmPayload) {
-    return this.pendingFilmsRepository.updateById(id, payload);
+  updatePendingFilm(id: number, input: UpdatePendingFilmInput) {
+    return this.pendingFilmsRepository.updateById(id, input);
   }
 
   private getListFilters(queryFilters: GetPendingFilmsListQuery) {
