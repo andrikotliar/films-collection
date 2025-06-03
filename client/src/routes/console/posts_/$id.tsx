@@ -2,17 +2,16 @@ import { PostsApi } from '@/api';
 import { ALLOWED_HTML_TAGS, NEW_ITEM_ID } from '@/constants';
 import { fetchPostByIdQuery } from '@/queries';
 import { PostForm } from './-components';
-import { formDefaultValues } from '@/routes/console/posts_/-configs';
 import { FormValues } from '@/routes/console/posts_/-types';
 import { formValidation } from '@/routes/console/posts_/-validation';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
-import { useMemo } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import sanitize from 'sanitize-html';
 import { useToaster } from '@/hooks';
+import { getDefaultFormValues } from '@/routes/console/posts_/-helpers';
 
 export const Route = createFileRoute('/console/posts_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
@@ -33,20 +32,8 @@ function RouteComponent() {
 
   const { data } = useSuspenseQuery(fetchPostByIdQuery(id));
 
-  const defaultValues = useMemo(() => {
-    if (data) {
-      return {
-        title: data.title,
-        content: data.content,
-        pageKey: data.pageKey,
-      };
-    }
-
-    return formDefaultValues;
-  }, [data]);
-
-  const form = useForm<FormValues>({
-    defaultValues: defaultValues,
+  const form = useForm({
+    defaultValues: getDefaultFormValues(data),
     resolver: yupResolver(formValidation),
   });
 
@@ -65,15 +52,6 @@ function RouteComponent() {
     },
     onError: (error) => {
       toaster.error(error.message);
-    },
-  });
-
-  const { mutate: updatePost, isPending: isUpdating } = useMutation({
-    mutationFn: (values: FormValues) => PostsApi.updatePost(Number(id), values),
-    onSuccess: () => {
-      navigate({
-        to: '/console/posts',
-      });
     },
   });
 

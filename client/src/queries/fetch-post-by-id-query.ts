@@ -13,5 +13,6 @@ export const fetchPostByIdQuery = (id: string) => {
       return null;
     },
     enabled: Boolean(id),
+    gcTime: 0,
   });
 };
