@@ -215,7 +215,7 @@ model SeriesExtension {
 }
 
 model FilmChapterKey {
-  key   String @id @unique
+  key   String @id
   films Film[]
 
   @@map("film_chapter_keys")

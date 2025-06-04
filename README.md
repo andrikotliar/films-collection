@@ -30,18 +30,20 @@ A personal list of films with manually collected data. The app primarily focuses
 
 ## Start development server
 
-1. In the project root, run `npm run install:all` to install dependencies for both the client and server.
-2. Go to the `server` directory and create `.env` file. Copy variables from the `env.sample.txt`.
-3. Inside the `server` directory run the following scripts to migrate and seed database:
+1. In the project root, run `npm run install` to install dependencies for both the client and server.
+2. Create `.env` files in the `root`, `server` and `client` directories following examples from the `./env.sample.txt`, `./server/env.sample.txt` and `./client/env.sample.txt` respectively.
+3. Run `docker compose up -d` to start database and adminer services. Now you can open database client on the [http://localhost:8085/](http://localhost:8085/). Server is `database`, username, password and database are specified in the root `.env` file.
+4. Run `npm run db:init` in the root. It will run migration and seed data from the `dataset` folder. If you don't want to seed the database, run `npm run db:init:migration` instead.
+5. In the project's root run `npm run dev` to start the application.
 
-```shell
-npm run db:migrate
-npm run db:seed
-```
+The application has different images like posters or award images. It can work without them, but you will see placeholders in all places where images are used.
 
-4. Go to the `client` directory, create `.env` file and fill it with variables from the `env.sample.txt`.
-5. In the project's root run `npm run dev`.  This will start both the client and server using `concurrently`.
-6. Open `http://localhost:3030`
+Put images into a [Cloudinary](https://cloudinary.com/) storage. The dataset provides specific paths for each image, e.g.: `posters/movie_title.webp` or `awards/award_title.svg`, therefor the storage should follow strict structure of directories:
+- posters/
+- awards/
+- actors/
+
+The backend support uploading images from the admin page only to the Cloudinary, but you can put your images in any storage that provides direct links to start working on the public part of the app. You can even put images in the `public` directory and set the environment variable `VITE_BASE_MEDIA_URL=http://localhost:8080` in the `client/.env` file. Folder structure should follow the same rules.
 
 ## Build project
 
@@ -53,16 +55,8 @@ The backend is ready to deploy to fly.io, see [docs](https://fly.io/docs/launch/
 
 The dataset folder contains data to populate a database. It consists of two folders:
 
-1. `general` - collection of base data:
-- genres;
-- countries;
-- studios;
-- collections;
-- people - actors, directors, writers etc.;
-- awards;
-- nominations.
-
-2. `films` - JSON files containing film information. The folder includes a `_schema.json` file, which explains each field in the JSON files and validates them.
+1. general - collection of base data required for films (genres, countries etc.)
+2. films - JSON files containing film information. The folder includes a `_schema.json` file, which explains each field in the JSON files and validates them.
 
 To ensure proper seeding, general data should be populated before adding films, as film JSONs contain references to that data.
 
