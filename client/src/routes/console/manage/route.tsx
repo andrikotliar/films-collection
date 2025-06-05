@@ -58,12 +58,10 @@ function PageContainer() {
       <AddItemLink to="/console/manage/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
-      <Panel>
-        <AdminFilmsGrid>
-          {data.films.map((film) => (
-            <AdminFilm film={film} key={film.id} />
-          ))}
-        </AdminFilmsGrid>
+      <Panel hasPaddings={false}>
+        {data.films.map((film) => (
+          <AdminFilm film={film} key={film.id} />
+        ))}
       </Panel>
       <Pagination
         total={data.total}

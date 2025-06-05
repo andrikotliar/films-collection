@@ -1,16 +1,27 @@
-.poster {
-  aspect-ratio: 9 / 14;
-  overflow: hidden;
-  border-radius: 8px;
+.film {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  border-bottom: var(--app-border);
 }
 
-.title {
-  display: inline-block;
-  font-size: 14px;
-  margin-top: 10px;
-  line-height: 1.2;
+.film:hover {
+  background-color: var(--gray-extra-light);
+}
+
+.film:last-child {
+  border-bottom: 0;
 }
 
 .title:hover {
   color: var(--blue-default);
+  text-decoration: underline;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
