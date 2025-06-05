@@ -1,9 +1,9 @@
+import styles from './admin-film.module.css';
 import { FC } from 'react';
-import { LinkIcon } from 'lucide-react';
+import { PencilIcon, Trash2Icon } from 'lucide-react';
 import { FilmsAdminListItem } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { Image } from '@/components';
-import styles from './admin-film.module.css';
+import { Button, IconLink } from '@/components';
 
 type AdminFilmProps = {
   film: FilmsAdminListItem;
@@ -12,16 +12,21 @@ type AdminFilmProps = {
 export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
   return (
     <div className={styles.film}>
-      <div className={styles.poster}>
-        <Image src={film.poster} isExternal />
-      </div>
       <Link
         to="/film/$id"
         params={{ id: film.id.toString() }}
         className={styles.title}
       >
-        <LinkIcon size={12} /> {film.title}
+        {film.title}
       </Link>
+      <div className={styles.tools}>
+        <IconLink
+          icon={<PencilIcon size={20} />}
+          to="/console/manage/$id"
+          params={{ id: film.id.toString() }}
+        />
+        <Button icon={<Trash2Icon size={20} />} variant="ghost" />
+      </div>
     </div>
   );
 };

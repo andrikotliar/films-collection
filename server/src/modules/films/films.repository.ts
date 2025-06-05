@@ -212,7 +212,6 @@ export class FilmsRepository {
         id: true,
         title: true,
         draft: true,
-        poster: true,
       },
       where: filters,
       take: options.limit,

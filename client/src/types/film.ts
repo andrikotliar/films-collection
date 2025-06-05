@@ -165,10 +165,7 @@ export type FilmsListFilters = FilmsListPagination &
     ids: number[] | null;
   }>;
 
-export type FilmsAdminListItem = Pick<
-  Film,
-  'id' | 'title' | 'poster' | 'draft'
->;
+export type FilmsAdminListItem = Pick<Film, 'id' | 'title' | 'draft'>;
 
 export type FilmsAdminListResponse = {
   films: FilmsAdminListItem[];
