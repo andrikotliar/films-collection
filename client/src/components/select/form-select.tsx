@@ -4,7 +4,7 @@ import { Controller, useFormContext } from 'react-hook-form';
 
 type FormSelectProps = {
   name: string;
-} & Omit<SelectProps, 'onSelect' | 'defaultValue'>;
+} & Omit<SelectProps, 'onSelect' | 'initialValue'>;
 
 export const FormSelect: FC<FormSelectProps> = ({ name, ...props }) => {
   const { control } = useFormContext();
@@ -13,8 +13,8 @@ export const FormSelect: FC<FormSelectProps> = ({ name, ...props }) => {
     <Controller
       control={control}
       name={name}
-      render={({ field: { onChange, value } }) => (
-        <Select onSelect={onChange} defaultValue={value} {...props} />
+      render={({ field: { value, onChange } }) => (
+        <Select onSelect={onChange} initialValue={value} {...props} />
       )}
     />
   );

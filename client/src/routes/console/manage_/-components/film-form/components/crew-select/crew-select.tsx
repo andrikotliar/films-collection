@@ -80,6 +80,7 @@ export const CrewSelect: FC<CrewSelectProps> = ({ positionOptions }) => {
               <FormSelect
                 name={`crew.${index}.position`}
                 options={positionOptions}
+                isSearchable={false}
               />
               <FormTextInput
                 name={`crew.${index}.comment`}

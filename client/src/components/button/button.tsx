@@ -1,12 +1,12 @@
 import styles from './button.module.css';
-import { FC, PropsWithChildren, ReactNode } from 'react';
+import { FC, MouseEventHandler, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
 import { Loader } from '@/components/loader/loader';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
 
 export type ButtonProps = {
-  onClick?: VoidFunction;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
   type?: 'button' | 'submit';
   icon?: ReactNode;
   isHidden?: boolean;

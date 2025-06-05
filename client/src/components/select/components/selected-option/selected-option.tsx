@@ -1,0 +1,23 @@
+import { ListOption } from '@/types';
+import styles from './selected-option.module.css';
+import { FC } from 'react';
+import { Button } from '@/components/button/button';
+import { XIcon } from 'lucide-react';
+
+type SelectedOptionProps = {
+  onRemove: (value: ListOption<any>['value']) => void;
+  data: ListOption<any>;
+};
+
+export const SelectedOption: FC<SelectedOptionProps> = ({ onRemove, data }) => {
+  return (
+    <div className={styles.selectedOption}>
+      <span>{data.label}</span>
+      <Button
+        icon={<XIcon size={15} />}
+        variant="ghost"
+        onClick={() => onRemove(data.value)}
+      />
+    </div>
+  );
+};

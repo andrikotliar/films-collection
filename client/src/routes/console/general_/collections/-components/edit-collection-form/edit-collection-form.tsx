@@ -43,7 +43,12 @@ export const EditCollectionForm: FC<EditCollectionFormProps> = ({
         onSubmit={form.handleSubmit((values) => mutate(values))}
         isSaving={isPending}
       >
-        <FormSelect label="Category" options={categories} name="category" />
+        <FormSelect
+          label="Category"
+          options={categories}
+          name="category"
+          isSearchable={false}
+        />
         <FormTextArea label="Description" name="description" />
       </BaseForm>
     </FormProvider>
