@@ -1,232 +1,174 @@
 import styles from './select.module.css';
-import {
-  ChangeEvent,
-  FC,
-  useRef,
-  useState,
-  KeyboardEvent,
-  useEffect,
-} from 'react';
-import { CheckIcon, ChevronDown } from 'lucide-react';
-import { ListOption } from '@/types';
-import { PopupMenu } from '../popup-menu/popup-menu';
-import { parseSelectState } from './helpers';
-import { TextInput } from '../text-input';
+import { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { useDebouncedSearch } from '@/hooks';
+import { FormError, ListOption } from '@/types';
+import { FieldLabel } from '@/components/field-label/field-label';
+import { PopupMenu } from '@/components/popup-menu/popup-menu';
+import { FieldError } from '@/components/field-error/field-error';
+import {
+  Option,
+  OptionsSearch,
+  SelectedOption,
+  TriggerButton,
+} from './components';
 
-type InternalValue = {
-  [key: string]: boolean;
-};
+type SelectedValue = string | number;
 
 export type SelectProps = {
-  options: ListOption<any>[];
-  defaultValue?: string | number | string[] | number[];
-  onSelect?: (value: unknown) => void;
-  placeholder?: string;
-  isDisabled?: boolean;
-  isMulti?: boolean;
   label?: string;
+  error?: FormError;
+  options: ListOption<any>[];
+  initialValue?: string | string[] | number | number[] | null;
+  isMulti?: boolean;
+  isClearable?: boolean;
+  isSearchable?: boolean;
+  onSelect: (value: any) => void;
 };
 
 export const Select: FC<SelectProps> = ({
   options,
-  defaultValue,
-  onSelect,
-  placeholder = 'Select option',
-  isDisabled = false,
-  isMulti = false,
   label,
+  error,
+  initialValue,
+  isMulti = false,
+  isClearable = true,
+  isSearchable = true,
+  onSelect,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const optionsRef = useRef<HTMLInputElement[]>([]);
-  const [filteredOptions, setFilteredOptions] = useState(options);
-  const [internalValue, setInternalValue] = useState<InternalValue>(() => {
-    if (!defaultValue) {
-      return {};
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const optionsWrapperRef = useRef<HTMLDivElement>(null);
+  const optionsRef = useRef<HTMLButtonElement[]>([]);
+  const focusedIndex = useRef(-1);
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [internalOptions, setInternalOptions] = useState(options);
+
+  const [selectedValues, setSelectedValues] = useState<SelectedValue[]>(() => {
+    if (Array.isArray(initialValue)) {
+      return initialValue;
     }
 
-    if (Array.isArray(defaultValue)) {
-      if (isMulti) {
-        return defaultValue.reduce<InternalValue>((result, value) => {
-          result[value] = true;
-
-          return result;
-        }, {});
-      }
-
-      return {
-        [defaultValue[0]]: true,
-      };
+    if (typeof initialValue === 'string' || typeof initialValue === 'number') {
+      return [initialValue];
     }
 
-    return {
-      [defaultValue]: true,
-    };
+    return [];
   });
 
-  const inputType = isMulti ? 'checkbox' : 'radio';
-
-  useEffect(() => {
-    if (!isOpen && inputRef.current) {
-      const selectedValues = parseSelectState(internalValue);
-
-      if (!selectedValues.length) {
-        return;
-      }
-
-      if (selectedValues.length > 1) {
-        inputRef.current.value = `${selectedValues.length} selected`;
-        return;
-      }
-
-      const option = options.find(
-        (option) => option.value.toString() === selectedValues[0],
-      );
-
-      inputRef.current.value = option?.label ?? '';
-    }
-  }, [isOpen, internalValue, inputRef]);
-
-  useEffect(() => {
-    if (!defaultValue) {
-      setInternalValue({});
-
-      if (inputRef.current) {
-        inputRef.current.value = '';
-      }
-    }
-  }, [defaultValue]);
-
-  const handleChange = (
-    event: ChangeEvent<HTMLInputElement>,
-    state: InternalValue,
-  ) => {
-    const isChecked = event.target.checked;
-    const type = event.target.type;
-    const value = event.target.value;
-
-    if (type === 'radio') {
-      const result = {
-        [value]: isChecked,
-      };
-
-      setInternalValue(result);
-      setIsOpen(false);
-      onSelect?.(value);
-      setFilteredOptions(options);
-
-      return;
-    }
-
-    const result = {
-      ...state,
-      [value]: isChecked,
-    };
-
-    const selectedValues = parseSelectState(result);
-
-    setInternalValue(result);
-    onSelect?.(selectedValues);
-    setFilteredOptions(options);
-  };
-
-  const handleClearInput = () => {
-    if (inputRef.current?.value.length) {
-      inputRef.current.value = '';
-      setFilteredOptions(options);
-    }
+  const handleToggleDropdown = () => {
+    setIsDropdownOpen((isOpen) => !isOpen);
   };
 
   const handleSearch = useDebouncedSearch((value) => {
-    if (value?.length) {
-      const filtered = options.filter((option) =>
-        option.label.toLowerCase().includes(value.toLowerCase()),
-      );
-
-      setFilteredOptions(filtered);
-
+    if (!value) {
+      setInternalOptions(options);
       return;
     }
 
-    setFilteredOptions(options);
+    setInternalOptions((options) => {
+      return options.filter((option) => {
+        return option.label.toLowerCase().includes(value);
+      });
+    });
   });
 
-  const handleOpen = () => {
-    setIsOpen(true);
-    handleClearInput();
+  const handleSelectValue = (value: any, isActive: boolean) => {
+    setIsDropdownOpen(false);
+
+    if (options.length !== internalOptions.length) {
+      setInternalOptions(options);
+    }
+
+    if (!isMulti) {
+      setSelectedValues([value]);
+      onSelect(value);
+      return;
+    }
+
+    if (isActive) {
+      const newValues = selectedValues.filter((v) => v !== value);
+      onSelect(newValues);
+      setSelectedValues(newValues);
+      return;
+    }
+
+    const newValues = [...selectedValues, value];
+
+    onSelect(newValues);
+    setSelectedValues(newValues);
   };
 
-  const handleClose = () => {
-    setIsOpen(false);
+  const handleRemoveOption = (value: any) => {
+    setSelectedValues((values) => {
+      return values.filter((v) => v !== value);
+    });
   };
 
-  const handleKeyboard = (event: KeyboardEvent) => {
+  const handleClearSelection = () => {
+    setSelectedValues([]);
+
+    if (!isMulti) {
+      onSelect(null);
+      return;
+    }
+
+    onSelect([]);
+  };
+
+  const hasSelectedValues = selectedValues.length !== 0;
+  const shouldShowPlaceholder = !hasSelectedValues || isMulti;
+  const shouldShowClearButton = hasSelectedValues && isClearable;
+  const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
+
+  const selectedOptions = useMemo(() => {
+    if (!selectedValues.length) {
+      return [];
+    }
+
+    return options.filter((option) => selectedValues.includes(option.value));
+  }, [selectedValues, options]);
+
+  const handleTriggerButtonKeydown = (event: React.KeyboardEvent) => {
     switch (event.key) {
-      case 'Enter':
-        event.preventDefault();
-        handleOpen();
-        break;
-
       case 'ArrowDown': {
         event.preventDefault();
-
-        if (!isOpen) {
-          setIsOpen(true);
-          return;
-        }
-
-        if (optionsRef.current?.length) {
-          optionsRef.current[0].focus();
-        }
-
+        setIsDropdownOpen(true);
         break;
       }
-
-      case 'ArrowUp': {
-        event.preventDefault();
-
-        if (!isOpen) {
-          setIsOpen(true);
-          return;
-        }
-
-        if (optionsRef.current?.length) {
-          optionsRef.current[optionsRef.current.length - 1].focus();
-        }
-
-        break;
-      }
-
-      case 'Tab':
-        break;
-
       default:
-        if (!isOpen) {
-          setIsOpen(true);
-        }
         break;
     }
   };
 
-  const handleOptionKeyDown = (event: KeyboardEvent, index: number) => {
+  const handleDropdownKeydown = (event: KeyboardEvent) => {
     switch (event.key) {
       case 'ArrowDown':
-      case 'Tab': {
+      case 'ArrowRight': {
         event.preventDefault();
 
-        const nextIndex = (index + 1) % optionsRef.current.length;
-        optionsRef.current[nextIndex].focus();
+        if (
+          focusedIndex.current < 0 ||
+          focusedIndex.current === internalOptions.length - 1
+        ) {
+          focusedIndex.current = 0;
+        } else {
+          focusedIndex.current += 1;
+        }
 
+        optionsRef.current[focusedIndex.current]?.focus();
         break;
       }
-      case 'ArrowUp': {
+      case 'ArrowUp':
+      case 'ArrowLeft': {
         event.preventDefault();
 
-        const prevIndex =
-          (index - 1 + optionsRef.current.length) % optionsRef.current.length;
+        if (focusedIndex.current < 0 || focusedIndex.current === 0) {
+          focusedIndex.current = internalOptions.length - 1;
+        } else {
+          focusedIndex.current -= 1;
+        }
 
-        optionsRef.current[prevIndex].focus();
+        optionsRef.current[focusedIndex.current]?.focus();
         break;
       }
       default:
@@ -234,45 +176,63 @@ export const Select: FC<SelectProps> = ({
     }
   };
 
+  useEffect(() => {
+    if (isDropdownOpen) {
+      document.addEventListener('keydown', handleDropdownKeydown);
+    }
+
+    return () => {
+      focusedIndex.current = -1;
+      document.removeEventListener('keydown', handleDropdownKeydown);
+    };
+  }, [isDropdownOpen, internalOptions]);
+
   return (
-    <div className={styles.wrapper}>
-      <TextInput
-        onClick={handleOpen}
-        onChange={handleSearch}
-        label={label}
-        disabled={isDisabled}
-        placeholder={placeholder}
-        ref={inputRef}
-        icon={<ChevronDown className={styles.expandIcon} />}
-        onKeyDown={handleKeyboard}
-      />
-      <PopupMenu
-        isOpen={isOpen}
-        onClose={handleClose}
-        triggerRef={inputRef}
-        shouldAdjustToTriggerWidth
-        role="menu"
-        menuMargin={5}
+    <div className={styles.selectWrapper}>
+      {label && <FieldLabel>{label}</FieldLabel>}
+      <TriggerButton
+        ref={buttonRef}
+        onClick={handleToggleDropdown}
+        onClear={handleClearSelection}
+        onKeyDown={handleTriggerButtonKeydown}
+        isActive={isDropdownOpen}
+        shouldShowPlaceholder={shouldShowPlaceholder}
+        shouldShowClearButton={shouldShowClearButton}
       >
-        <div className={styles.menu}>
-          {filteredOptions.map((option, index) => (
-            <label key={option.value} className={styles.option}>
-              <span>{option.label}</span>
-              <input
-                name="_select_option"
-                type={inputType}
-                checked={internalValue[option.value] ?? false}
-                className={styles.input}
-                value={option.value}
-                onChange={(event) => handleChange(event, internalValue)}
-                ref={(input) => (optionsRef.current[index] = input!)}
-                onKeyDown={(e) => handleOptionKeyDown(e, index)}
-              />
-              <CheckIcon className={styles.check} />
-            </label>
+        {selectedOptions[0]?.label}
+      </TriggerButton>
+      <FieldError error={error} />
+      {shouldShowSelectedOptionsList && (
+        <div className={styles.selected}>
+          {selectedOptions.map((option) => (
+            <SelectedOption
+              data={option}
+              onRemove={handleRemoveOption}
+              key={option.value}
+            />
           ))}
-          {filteredOptions.length === 0 && (
-            <div className={styles.menuPlaceholder}>No options</div>
+        </div>
+      )}
+      <PopupMenu
+        triggerRef={buttonRef}
+        isOpen={isDropdownOpen}
+        onClose={() => setIsDropdownOpen(false)}
+        shouldAdjustToTriggerWidth
+        shouldFocusTriggerOnClose
+      >
+        <div className={styles.dropdownContainer} ref={optionsWrapperRef}>
+          {isSearchable && <OptionsSearch onSearch={handleSearch} />}
+          {internalOptions.map((option, index) => (
+            <Option
+              key={option.value}
+              data={option}
+              onSelect={handleSelectValue}
+              selectedValues={selectedValues}
+              ref={(button) => (optionsRef.current[index] = button!)}
+            />
+          ))}
+          {internalOptions.length === 0 && (
+            <span className={styles.notFoundOptions}>Options not found</span>
           )}
         </div>
       </PopupMenu>
