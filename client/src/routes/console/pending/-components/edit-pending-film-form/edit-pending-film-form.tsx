@@ -32,9 +32,7 @@ export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
       title: initialValues.title,
       priority: String(initialValues.priority),
       rating: initialValues.rating,
-      collectionId: initialValues.collectionId
-        ? String(initialValues.collectionId)
-        : null,
+      collectionId: initialValues.collectionId,
     },
   });
 

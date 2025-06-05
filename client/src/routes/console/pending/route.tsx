@@ -69,7 +69,7 @@ function PageContainer() {
     createPendingFilm({
       title: data.title.trim(),
       priority: Number(data.priority),
-      collectionId: data.collectionId ? Number(data.collectionId) : null,
+      collectionId: data.collectionId,
       rating: data.rating,
     });
   };
