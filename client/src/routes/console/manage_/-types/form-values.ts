@@ -36,10 +36,10 @@ export type FormValues = {
   boxOffice: number;
   runtime: number;
   releaseDate: string | null;
-  genres: string[];
-  countries: string[];
-  collections: string[];
-  studios: string[];
+  genres: number[];
+  countries: number[];
+  collections: number[];
+  studios: number[];
   description: string | null;
   chapterKey: string | null;
   chapterOrder: number | null;
