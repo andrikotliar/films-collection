@@ -1,5 +1,6 @@
 import { CollectionsApi } from '@/api';
 import {
+  BackLink,
   ConfirmModal,
   ConsoleContent,
   ConsoleTitle,
@@ -63,6 +64,7 @@ function PageContainer() {
 
   return (
     <ConsoleContent>
+      <BackLink path="/console/general">Back to categories</BackLink>
       <ConsoleTitle>Collections</ConsoleTitle>
       <FormProvider {...form}>
         <BaseForm
@@ -73,6 +75,7 @@ function PageContainer() {
             label="Category"
             options={data.categories}
             name="category"
+            isSearchable={false}
           />
           <FormTextArea label="Description" name="description" />
         </BaseForm>
