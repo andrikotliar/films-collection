@@ -9,7 +9,7 @@ export const useDebouncedSearch = (handler: SearchHandler) => {
       const value = event.target.value;
 
       if (value.length) {
-        handler(value);
+        handler(value.toLowerCase());
         return;
       }
 
