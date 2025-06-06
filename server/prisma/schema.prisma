@@ -43,6 +43,8 @@ model Person {
   id          Int                   @id @default(autoincrement())
   name        String
   image       String?
+  createdAt   DateTime?             @default(now()) @map("created_at")
+  updatedAt   DateTime?             @updatedAt @map("updated_at")
   filmsMember FilmCrew[]
   starredIn   FilmCast[]
   awards      FilmAwardNomination[]
@@ -51,80 +53,96 @@ model Person {
 }
 
 model FilmCrew {
-  id       Int          @id @default(autoincrement())
-  person   Person       @relation(fields: [personId], references: [id], onDelete: Cascade)
-  personId Int          @map("person_id")
-  film     Film         @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  filmId   Int          @map("film_id")
-  position CrewPosition
-  comment  String?
+  id        Int          @id @default(autoincrement())
+  person    Person       @relation(fields: [personId], references: [id], onDelete: Cascade)
+  personId  Int          @map("person_id")
+  film      Film         @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  filmId    Int          @map("film_id")
+  position  CrewPosition
+  comment   String?
+  createdAt DateTime?    @default(now()) @map("created_at")
+  updatedAt DateTime?    @updatedAt @map("updated_at")
 
   @@map("film_crew")
 }
 
 model FilmCast {
-  id            Int    @id @default(autoincrement())
-  person        Person @relation(fields: [personId], references: [id], onDelete: Cascade)
-  personId      Int    @map("person_id")
-  film          Film   @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  filmId        Int    @map("film_id")
-  characterName String @map("character_name")
+  id            Int       @id @default(autoincrement())
+  person        Person    @relation(fields: [personId], references: [id], onDelete: Cascade)
+  personId      Int       @map("person_id")
+  film          Film      @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  filmId        Int       @map("film_id")
+  characterName String    @map("character_name")
+  createdAt     DateTime? @default(now()) @map("created_at")
+  updatedAt     DateTime? @updatedAt @map("updated_at")
 
   @@map("film_cast")
 }
 
 model Genre {
-  id    Int         @id @default(autoincrement())
-  title String      @unique
-  films FilmGenre[]
+  id        Int         @id @default(autoincrement())
+  title     String      @unique
+  films     FilmGenre[]
+  createdAt DateTime?   @default(now()) @map("created_at")
+  updatedAt DateTime?   @updatedAt @map("updated_at")
 
   @@map("genres")
 }
 
 model FilmGenre {
-  id      Int   @id @default(autoincrement())
-  filmId  Int   @map("film_id")
-  film    Film  @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  genreId Int   @map("genre_id")
-  genre   Genre @relation(fields: [genreId], references: [id], onDelete: Cascade)
+  id        Int       @id @default(autoincrement())
+  filmId    Int       @map("film_id")
+  film      Film      @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  genreId   Int       @map("genre_id")
+  genre     Genre     @relation(fields: [genreId], references: [id], onDelete: Cascade)
+  createdAt DateTime? @default(now()) @map("created_at")
+  updatedAt DateTime? @updatedAt @map("updated_at")
 
   @@unique([filmId, genreId])
   @@map("films_genres")
 }
 
 model Country {
-  id    Int           @id @default(autoincrement())
-  title String        @unique
-  films FilmCountry[]
+  id        Int           @id @default(autoincrement())
+  title     String        @unique
+  films     FilmCountry[]
+  createdAt DateTime?     @default(now()) @map("created_at")
+  updatedAt DateTime?     @updatedAt @map("updated_at")
 
   @@map("countries")
 }
 
 model FilmCountry {
-  id        Int     @id @default(autoincrement())
-  filmId    Int     @map("film_id")
-  film      Film    @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  countryId Int     @map("country_id")
-  country   Country @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  id        Int       @id @default(autoincrement())
+  filmId    Int       @map("film_id")
+  film      Film      @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  countryId Int       @map("country_id")
+  country   Country   @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  createdAt DateTime? @default(now()) @map("created_at")
+  updatedAt DateTime? @updatedAt @map("updated_at")
 
   @@unique([filmId, countryId])
   @@map("films_countries")
 }
 
 model Studio {
-  id    Int          @id @default(autoincrement())
-  title String       @unique
-  films FilmStudio[]
+  id        Int          @id @default(autoincrement())
+  title     String       @unique
+  films     FilmStudio[]
+  createdAt DateTime?    @default(now()) @map("created_at")
+  updatedAt DateTime?    @updatedAt @map("updated_at")
 
   @@map("studios")
 }
 
 model FilmStudio {
-  id       Int    @id @default(autoincrement())
-  filmId   Int    @map("film_id")
-  film     Film   @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  studioId Int    @map("studio_id")
-  studio   Studio @relation(fields: [studioId], references: [id], onDelete: Cascade)
+  id        Int       @id @default(autoincrement())
+  filmId    Int       @map("film_id")
+  film      Film      @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  studioId  Int       @map("studio_id")
+  studio    Studio    @relation(fields: [studioId], references: [id], onDelete: Cascade)
+  createdAt DateTime? @default(now()) @map("created_at")
+  updatedAt DateTime? @updatedAt @map("updated_at")
 
   @@unique([filmId, studioId])
   @@map("films_studios")
@@ -138,6 +156,8 @@ model Collection {
   films        FilmCollection[]
   events       CollectionEvent[]
   pendingFilms PendingFilm[]
+  createdAt    DateTime?          @default(now()) @map("created_at")
+  updatedAt    DateTime?          @updatedAt @map("updated_at")
 
   @@map("collections")
 }
@@ -149,6 +169,8 @@ model FilmCollection {
   collectionId Int        @map("collection_id")
   collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
   order        Int?
+  createdAt    DateTime?  @default(now()) @map("created_at")
+  updatedAt    DateTime?  @updatedAt @map("updated_at")
 
   @@unique([filmId, collectionId])
   @@map("films_collections")
@@ -161,6 +183,8 @@ model Award {
   image       String
   nominations Nomination[]
   films       FilmAwardNomination[]
+  createdAt   DateTime?             @default(now()) @map("created_at")
+  updatedAt   DateTime?             @updatedAt @map("updated_at")
 
   @@map("awards")
 }
@@ -172,6 +196,8 @@ model Nomination {
   awardId            Int                   @map("award_id")
   shouldIncludeActor Boolean               @default(false) @map("should_include_actor")
   films              FilmAwardNomination[]
+  createdAt          DateTime?             @default(now()) @map("created_at")
+  updatedAt          DateTime?             @updatedAt @map("updated_at")
 
   @@map("nominations")
 }
@@ -187,17 +213,21 @@ model FilmAwardNomination {
   comment      String?
   actorId      Int?       @map("actor_id")
   person       Person?    @relation(fields: [actorId], references: [id], onDelete: Cascade)
+  createdAt    DateTime?  @default(now()) @map("created_at")
+  updatedAt    DateTime?  @updatedAt @map("updated_at")
 
   @@unique([awardId, filmId, nominationId])
   @@map("film_award_nominations")
 }
 
 model FilmTrailer {
-  id      Int    @id @default(autoincrement())
-  videoId String @map("video_id")
-  order   Int
-  filmId  Int    @map("film_id")
-  film    Film   @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  id        Int       @id @default(autoincrement())
+  videoId   String    @map("video_id")
+  order     Int
+  filmId    Int       @map("film_id")
+  film      Film      @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  createdAt DateTime? @default(now()) @map("created_at")
+  updatedAt DateTime? @updatedAt @map("updated_at")
 
   @@unique([filmId, videoId])
   @@map("film_trailers")
@@ -210,23 +240,29 @@ model SeriesExtension {
   finishedAt    DateTime? @map("finished_at") @db.Date
   filmId        Int       @unique @map("film_id")
   film          Film?     @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  createdAt     DateTime? @default(now()) @map("created_at")
+  updatedAt     DateTime? @updatedAt @map("updated_at")
 
   @@map("series_extensions")
 }
 
 model FilmChapterKey {
-  key   String @id
-  films Film[]
+  key       String    @id
+  films     Film[]
+  createdAt DateTime? @default(now()) @map("created_at")
+  updatedAt DateTime? @updatedAt @map("updated_at")
 
   @@map("film_chapter_keys")
 }
 
 model User {
-  id           Int      @id @default(autoincrement())
-  username     String   @unique
+  id           Int       @id @default(autoincrement())
+  username     String    @unique
   password     String
-  refreshToken String?  @map("refresh_token")
-  verified     Boolean? @default(false)
+  refreshToken String?   @map("refresh_token")
+  verified     Boolean?  @default(false)
+  createdAt    DateTime? @default(now()) @map("created_at")
+  updatedAt    DateTime? @updatedAt @map("updated_at")
 
   @@map("users")
 }
@@ -252,6 +288,8 @@ model CollectionEvent {
   collectionId  Int        @map("collection_id")
   startDateCode Int        @map("start_date_code")
   endDateCode   Int        @map("end_date_code")
+  createdAt     DateTime?  @default(now()) @map("created_at")
+  updatedAt     DateTime?  @updatedAt @map("updated_at")
 
   @@map("collection_events")
 }
