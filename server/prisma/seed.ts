@@ -34,6 +34,12 @@ type FilmRelations = {
   trailers: Omit<FilmTrailer, FilmRelationOmitFields>[];
   seriesExtension?: Omit<SeriesExtension, FilmRelationOmitFields>;
 };
+type BaseGeneralData = {
+  id: number;
+  createdAt: string;
+  updatedAt: string;
+  [key: string]: unknown;
+};
 type FilmSeedData = FilmBaseData & FilmRelations;
 type LoadJsonDataResult<T> = {
   filePath: string;
@@ -200,9 +206,14 @@ const mapFilmDataToPrismaStructure = (
 };
 
 const main = async () => {
-  let currentDateMs = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
+  let filmCurrentDateMs = new Date(
+    new Date().setUTCHours(0, 0, 0, 0),
+  ).getTime();
+  let generalDataCurrentDateMs = new Date(
+    new Date().setUTCHours(0, 0, 0, 0),
+  ).getTime();
 
-  const general = await loadJsonData(generalJsonFolderPath);
+  const general = await loadJsonData<BaseGeneralData>(generalJsonFolderPath);
   const films = await loadJsonData<FilmSeedData>(filmsJsonFolderPath);
   const sortedFilms = films.sort((a, b) => a.data.id - b.data.id);
 
@@ -216,20 +227,29 @@ const main = async () => {
         throw new Error(`Handler for ${table.filePath} not found`);
       }
 
+      const date = new Date(generalDataCurrentDateMs).toISOString();
+      table.data.createdAt = date;
+      table.data.updatedAt = date;
+
       await handler(table.data);
+
+      generalDataCurrentDateMs += 1000;
     }
   });
 
   const mappedFilmsData = sortedFilms.map(mapFilmDataToPrismaStructure);
 
   for (const film of mappedFilmsData) {
-    film.createdAt = new Date(currentDateMs).toISOString();
+    const date = new Date(filmCurrentDateMs).toISOString();
+
+    film.createdAt = date;
+    film.updatedAt = date;
 
     await prisma.film.create({
       data: film,
     });
 
-    currentDateMs += 1000;
+    filmCurrentDateMs += 1000;
   }
 
   await alterSequence('films');
