@@ -4,3 +4,4 @@ export * from './error-code';
 export * from './error-params';
 export * from './auth-token-payload';
 export * from './route';
+export * from './auto-fields';

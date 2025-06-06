@@ -1,5 +1,6 @@
 import { CollectionEvent, PrismaClient } from '@prisma/client';
 import { GetEventQueryResult } from './types';
+import { AutoFields } from 'src/common';
 
 export class CollectionEventsRepository {
   constructor(private databaseClient: PrismaClient) {}
@@ -50,7 +51,7 @@ export class CollectionEventsRepository {
     });
   }
 
-  createEvent(data: Omit<CollectionEvent, 'id'>) {
+  createEvent(data: Omit<CollectionEvent, AutoFields>) {
     return this.databaseClient.collectionEvent.create({
       data,
     });
