@@ -1,7 +1,7 @@
 import { SortingOrder } from '@/types/sorting-order';
 
 export type BaseAdminFilmsFilters = {
-  q: string | null;
+  q?: string | null;
   priorities: number[];
   order: SortingOrder;
   orderKey: string;

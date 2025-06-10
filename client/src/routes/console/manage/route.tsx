@@ -10,7 +10,7 @@ import { AdminFilm, AdminFilmsTools } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
 
 const adminFilmsFilterSchema = object().shape({
-  q: string().nullable().defined(),
+  q: string().nullable(),
   pageIndex: number().min(0),
   sortingField: string(),
   sortingDirection: string().oneOf(['asc', 'desc']),

@@ -74,7 +74,7 @@ export class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (error.response.statusCode === 401) {
+      if (error.response?.statusCode === 401) {
         try {
           if (!TOKEN_ERRORS.includes(error.response?.code)) {
             throw new HttpError(
@@ -98,8 +98,8 @@ export class ApiClient {
       }
 
       throw new HttpError(
-        error.response.statusCode,
-        error.response.message,
+        error.response?.statusCode,
+        error.response?.message ?? 'Unknown error',
         error.response,
       );
     }
