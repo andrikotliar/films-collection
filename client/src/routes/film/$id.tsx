@@ -43,14 +43,12 @@ function FilmPageContainer() {
         </Section>
 
         <Section title="Crew">
-          <CrewList crew={film.crew} />
+          <CrewList people={film.castAndCrew} />
         </Section>
 
-        {film.cast.length !== 0 && (
-          <Section title="Cast">
-            <Cast cast={film.cast} />
-          </Section>
-        )}
+        <Section title="Cast">
+          <Cast people={film.castAndCrew} />
+        </Section>
 
         {film.awards && film.awards.length !== 0 && (
           <Section title="Awards">

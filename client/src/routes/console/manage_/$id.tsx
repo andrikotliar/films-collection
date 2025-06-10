@@ -1,4 +1,3 @@
-import { NEW_ITEM_ID } from '@/constants';
 import { fetchInitialDataQuery } from '@/queries';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
@@ -10,6 +9,7 @@ import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
 import { FormValues } from './-types';
 import { LocalStorage } from '@/services';
+import { NEW_ITEM_ID } from '@/constants';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),
@@ -27,16 +27,16 @@ export const Route = createFileRoute('/console/manage_/$id')({
 
 function PageContainer() {
   const { id } = Route.useParams();
-
   const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
 
-  const isEdit = id !== NEW_ITEM_ID;
-  const pageTitle = isEdit ? 'Edit Film' : 'Add New Film';
+  const idValue = id === NEW_ITEM_ID ? id : Number(id);
+
+  const pageTitle = typeof id === 'number' ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {
-    const localValues = LocalStorage.getItem<FormValues>('FILM_DRAFT');
+    const localValues = LocalStorage.getItem<FormValues>(`films:${idValue}`);
 
-    if (!isEdit && localValues) {
+    if (localValues) {
       return {
         ...localValues,
         poster: null,
@@ -47,7 +47,7 @@ function PageContainer() {
       ...filmDefaultFormValues,
       isDraft: false,
     };
-  }, [isEdit]);
+  }, [idValue]);
 
   const form = useForm({
     defaultValues,
@@ -61,12 +61,10 @@ function PageContainer() {
   const values = form.watch();
 
   useEffect(() => {
-    if (!isEdit) {
-      const { poster: _poster, ...data } = values;
+    const { poster: _poster, ...data } = values;
 
-      LocalStorage.setItem('FILM_DRAFT', data);
-    }
-  }, [values, isEdit]);
+    LocalStorage.setItem(`films:${idValue}`, data);
+  }, [values, idValue]);
 
   return (
     <ConsoleContent>
@@ -77,7 +75,7 @@ function PageContainer() {
           <FilmForm
             onSubmit={form.handleSubmit(handleSubmit)}
             initialOptions={initialOptions}
-            filmId={id}
+            filmId={idValue}
           />
         </FormProvider>
       </Panel>

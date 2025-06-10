@@ -1,7 +1,7 @@
 import styles from './option.module.css';
+import { forwardRef } from 'react';
 import { ListOption } from '@/types';
 import classNames from 'classnames';
-import { FC, forwardRef } from 'react';
 
 type OptionProps = {
   onSelect: (value: ListOption<any>['value'], isActive: boolean) => void;
@@ -21,6 +21,7 @@ export const Option = forwardRef<HTMLButtonElement, OptionProps>(
           [styles.active]: isActive,
         })}
         type="button"
+        role="option"
       >
         {data.label}
       </button>

@@ -25,7 +25,7 @@ import { number, object, string } from 'yup';
 
 const peopleListFiltersSchema = object({
   page: number(),
-  q: string(),
+  q: string().nullable(),
 });
 
 export const Route = createFileRoute('/console/general_/people')({
@@ -98,7 +98,7 @@ function RouteComponent() {
       </FormProvider>
       <TextInput
         label="Search person"
-        defaultValue={search.q}
+        defaultValue={search.q ?? ''}
         onChange={handleSearch}
       />
       <List

@@ -1,53 +1,47 @@
-import styles from './awards-select.module.css';
-import { FC } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import { PlusIcon } from 'lucide-react';
 import { FormAward, FormValues } from '@/routes/console/manage_/-types';
 import { ListOption } from '@/types';
-import { Button, FormSection } from '@/components';
-import { AwardBlock } from './components';
+import { FormSection, FormSelect, FormTextInput } from '@/components';
+import {
+  ArrayFormWrapper,
+  ArrayFieldWrapper,
+} from '@/routes/console/-components';
+import { NominationSelect } from './components';
 
 type AwardsSelectProps = {
   awardOptions: ListOption<number>[];
 };
 
 const defaultAward: FormAward = {
+  personId: null,
   awardId: null,
   nominationId: null,
-  person: null,
   comment: null,
 };
 
-export const AwardsSelect: FC<AwardsSelectProps> = ({ awardOptions }) => {
+export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
   const { control } = useFormContext<FormValues>();
 
-  const { fields, append, remove, update } = useFieldArray({
+  const { fields, append, remove } = useFieldArray({
     control,
     name: 'awards',
   });
 
   return (
     <FormSection label="Awards">
-      <div className={styles.wrapper}>
+      <ArrayFormWrapper onCreate={() => append(defaultAward)}>
         {fields.map((field, index) => (
-          <AwardBlock
-            key={field.id}
-            index={index}
-            onFieldRemove={remove}
-            onFieldUpdate={update}
-            awardOptions={awardOptions}
-          />
+          <ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
+            <FormSelect
+              name={`awards.${index}.awardId`}
+              options={awardOptions}
+              label="Award"
+            />
+            <NominationSelect index={index} />
+            <FormTextInput name={`awards.${index}.comment`} label="Comment" />
+          </ArrayFieldWrapper>
         ))}
-        <div>
-          <Button
-            onClick={() => append(defaultAward)}
-            icon={<PlusIcon />}
-            variant="ghost"
-          >
-            Add award
-          </Button>
-        </div>
-      </div>
+      </ArrayFormWrapper>
     </FormSection>
   );
 };

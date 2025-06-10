@@ -91,7 +91,7 @@ export class ApiClient {
           return this.request(path, options);
         } catch (error) {
           if (!window.location.pathname.includes('login')) {
-            LocalStorage.removeItem('IS_AUTHENTICATED');
+            LocalStorage.removeItem('state:is_authenticated');
             throw redirect({ to: '/login' });
           }
         }

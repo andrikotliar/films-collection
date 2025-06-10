@@ -1,40 +1,64 @@
 import styles from './select.module.css';
-import { FC, useEffect, useMemo, useRef, useState } from 'react';
+import {
+  ChangeEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import { useDebouncedSearch } from '@/hooks';
 import { FormError, ListOption } from '@/types';
 import { FieldLabel } from '@/components/field-label/field-label';
 import { PopupMenu } from '@/components/popup-menu/popup-menu';
 import { FieldError } from '@/components/field-error/field-error';
 import {
+  NotFound,
   Option,
   OptionsSearch,
+  Placeholder,
   SelectedOption,
   TriggerButton,
 } from './components';
-
-type SelectedValue = string | number;
+import { getValue } from './helpers';
 
 export type SelectProps = {
   label?: string;
   error?: FormError;
   options: ListOption<any>[];
-  initialValue?: string | string[] | number | number[] | null;
+  value?: string | string[] | number | number[] | null;
   isMulti?: boolean;
   isClearable?: boolean;
   isSearchable?: boolean;
+  isDisabled?: boolean;
+  placeholder?: string;
+  isOptionsLoading?: boolean;
   onSelect: (value: any) => void;
+  onOptionsSearch?: (value: string | null) => void;
+  onCreateOption?: VoidFunction;
+  onClear?: VoidFunction;
 };
 
-export const Select: FC<SelectProps> = ({
+export const Select = ({
   options,
   label,
   error,
-  initialValue,
+  value = null,
   isMulti = false,
   isClearable = true,
   isSearchable = true,
+  isDisabled = false,
+  placeholder = 'Select...',
+  isOptionsLoading = false,
   onSelect,
-}) => {
+  onOptionsSearch,
+  onCreateOption,
+  onClear,
+}: SelectProps) => {
+  const selectedValues = useMemo(() => {
+    return getValue(value);
+  }, [value]);
+
   const buttonRef = useRef<HTMLButtonElement>(null);
   const optionsWrapperRef = useRef<HTMLDivElement>(null);
   const optionsRef = useRef<HTMLButtonElement[]>([]);
@@ -42,24 +66,18 @@ export const Select: FC<SelectProps> = ({
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [internalOptions, setInternalOptions] = useState(options);
+  const [searchInputValue, setSearchInputValue] = useState('');
 
-  const [selectedValues, setSelectedValues] = useState<SelectedValue[]>(() => {
-    if (Array.isArray(initialValue)) {
-      return initialValue;
-    }
-
-    if (typeof initialValue === 'string' || typeof initialValue === 'number') {
-      return [initialValue];
-    }
-
-    return [];
-  });
-
-  const handleToggleDropdown = () => {
+  const handleToggleDropdown = useCallback(() => {
     setIsDropdownOpen((isOpen) => !isOpen);
-  };
+  }, []);
 
   const handleSearch = useDebouncedSearch((value) => {
+    if (typeof onOptionsSearch === 'function') {
+      onOptionsSearch(value);
+      return;
+    }
+
     if (!value) {
       setInternalOptions(options);
       return;
@@ -72,53 +90,44 @@ export const Select: FC<SelectProps> = ({
     });
   });
 
-  const handleSelectValue = (value: any, isActive: boolean) => {
-    setIsDropdownOpen(false);
-
-    if (options.length !== internalOptions.length) {
+  const handleSelectValue = useCallback(
+    (value: unknown, isActive: boolean) => {
+      setIsDropdownOpen(false);
       setInternalOptions(options);
-    }
 
-    if (!isMulti) {
-      setSelectedValues([value]);
-      onSelect(value);
-      return;
-    }
+      if (!isMulti) {
+        onSelect(value);
+        return;
+      }
 
-    if (isActive) {
-      const newValues = selectedValues.filter((v) => v !== value);
+      if (isActive) {
+        const newValues = selectedValues.filter((v) => v !== value);
+        onSelect(newValues);
+        return;
+      }
+
+      const newValues = [...selectedValues, value];
+
       onSelect(newValues);
-      setSelectedValues(newValues);
-      return;
+    },
+    [onSelect, selectedValues],
+  );
+
+  const handleRemoveOption = useCallback(
+    (value: unknown) => {
+      onSelect(selectedValues.filter((v) => v !== value));
+    },
+    [onSelect, selectedValues],
+  );
+
+  const handleClearSelection = useCallback(() => {
+    onSelect(isMulti ? [] : null);
+    setSearchInputValue('');
+
+    if (typeof onClear === 'function') {
+      onClear();
     }
-
-    const newValues = [...selectedValues, value];
-
-    onSelect(newValues);
-    setSelectedValues(newValues);
-  };
-
-  const handleRemoveOption = (value: any) => {
-    setSelectedValues((values) => {
-      return values.filter((v) => v !== value);
-    });
-  };
-
-  const handleClearSelection = () => {
-    setSelectedValues([]);
-
-    if (!isMulti) {
-      onSelect(null);
-      return;
-    }
-
-    onSelect([]);
-  };
-
-  const hasSelectedValues = selectedValues.length !== 0;
-  const shouldShowPlaceholder = !hasSelectedValues || isMulti;
-  const shouldShowClearButton = hasSelectedValues && isClearable;
-  const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
+  }, [onSelect, onClear]);
 
   const selectedOptions = useMemo(() => {
     if (!selectedValues.length) {
@@ -128,53 +137,61 @@ export const Select: FC<SelectProps> = ({
     return options.filter((option) => selectedValues.includes(option.value));
   }, [selectedValues, options]);
 
-  const handleTriggerButtonKeydown = (event: React.KeyboardEvent) => {
-    switch (event.key) {
-      case 'ArrowDown': {
-        event.preventDefault();
-        setIsDropdownOpen(true);
-        break;
-      }
-      default:
-        break;
-    }
-  };
-
-  const handleDropdownKeydown = (event: KeyboardEvent) => {
-    switch (event.key) {
-      case 'ArrowDown':
-      case 'ArrowRight': {
-        event.preventDefault();
-
-        if (
-          focusedIndex.current < 0 ||
-          focusedIndex.current === internalOptions.length - 1
-        ) {
-          focusedIndex.current = 0;
-        } else {
-          focusedIndex.current += 1;
+  const handleTriggerButtonKeydown = useCallback(
+    (event: React.KeyboardEvent) => {
+      switch (event.key) {
+        case 'ArrowDown': {
+          event.preventDefault();
+          setIsDropdownOpen(true);
+          break;
         }
-
-        optionsRef.current[focusedIndex.current]?.focus();
-        break;
+        default:
+          break;
       }
-      case 'ArrowUp':
-      case 'ArrowLeft': {
-        event.preventDefault();
+    },
+    [],
+  );
 
-        if (focusedIndex.current < 0 || focusedIndex.current === 0) {
-          focusedIndex.current = internalOptions.length - 1;
-        } else {
-          focusedIndex.current -= 1;
+  const handleDropdownKeydown = useCallback(
+    (event: KeyboardEvent) => {
+      if (!isDropdownOpen) {
+        return;
+      }
+
+      switch (event.key) {
+        case 'ArrowDown': {
+          event.preventDefault();
+
+          if (
+            focusedIndex.current < 0 ||
+            focusedIndex.current === internalOptions.length - 1
+          ) {
+            focusedIndex.current = 0;
+          } else {
+            focusedIndex.current += 1;
+          }
+
+          optionsRef.current[focusedIndex.current]?.focus();
+          break;
         }
+        case 'ArrowUp': {
+          event.preventDefault();
 
-        optionsRef.current[focusedIndex.current]?.focus();
-        break;
+          if (focusedIndex.current < 0 || focusedIndex.current === 0) {
+            focusedIndex.current = internalOptions.length - 1;
+          } else {
+            focusedIndex.current -= 1;
+          }
+
+          optionsRef.current[focusedIndex.current]?.focus();
+          break;
+        }
+        default:
+          break;
       }
-      default:
-        break;
-    }
-  };
+    },
+    [isDropdownOpen, internalOptions],
+  );
 
   useEffect(() => {
     if (isDropdownOpen) {
@@ -187,6 +204,23 @@ export const Select: FC<SelectProps> = ({
     };
   }, [isDropdownOpen, internalOptions]);
 
+  useEffect(() => {
+    setInternalOptions(options);
+  }, [options]);
+
+  const handleSearchChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      setSearchInputValue(event.target.value);
+      handleSearch(event);
+    },
+    [],
+  );
+
+  const hasSelectedValues = selectedValues.length !== 0;
+  const shouldShowPlaceholder = !hasSelectedValues || isMulti;
+  const shouldShowClearButton = hasSelectedValues && isClearable && !isDisabled;
+  const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
+
   return (
     <div className={styles.selectWrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
@@ -196,10 +230,15 @@ export const Select: FC<SelectProps> = ({
         onClear={handleClearSelection}
         onKeyDown={handleTriggerButtonKeydown}
         isActive={isDropdownOpen}
-        shouldShowPlaceholder={shouldShowPlaceholder}
         shouldShowClearButton={shouldShowClearButton}
+        isDisabled={isDisabled}
+        isLoading={isOptionsLoading}
       >
-        {selectedOptions[0]?.label}
+        {shouldShowPlaceholder ? (
+          <Placeholder>{placeholder}</Placeholder>
+        ) : (
+          selectedOptions[0]?.label
+        )}
       </TriggerButton>
       <FieldError error={error} />
       {shouldShowSelectedOptionsList && (
@@ -209,6 +248,7 @@ export const Select: FC<SelectProps> = ({
               data={option}
               onRemove={handleRemoveOption}
               key={option.value}
+              isDisabled={isDisabled}
             />
           ))}
         </div>
@@ -219,9 +259,15 @@ export const Select: FC<SelectProps> = ({
         onClose={() => setIsDropdownOpen(false)}
         shouldAdjustToTriggerWidth
         shouldFocusTriggerOnClose
+        role="listbox"
       >
         <div className={styles.dropdownContainer} ref={optionsWrapperRef}>
-          {isSearchable && <OptionsSearch onSearch={handleSearch} />}
+          {isSearchable && (
+            <OptionsSearch
+              value={searchInputValue}
+              onSearch={handleSearchChange}
+            />
+          )}
           {internalOptions.map((option, index) => (
             <Option
               key={option.value}
@@ -232,7 +278,7 @@ export const Select: FC<SelectProps> = ({
             />
           ))}
           {internalOptions.length === 0 && (
-            <span className={styles.notFoundOptions}>Options not found</span>
+            <NotFound onCreate={onCreateOption} />
           )}
         </div>
       </PopupMenu>

@@ -16,8 +16,11 @@
   outline: 1px solid var(--blue-default);
 }
 
-.placeholder {
-  color: var(--gray-dark);
+.selectButton:disabled {
+  user-select: none;
+  pointer-events: none;
+  cursor: default;
+  background-color: var(--gray-light);
 }
 
 .selectButton:hover {
@@ -41,14 +44,10 @@
   transform: rotate(-180deg);
 }
 
-.clearButton {
+.selectIcon {
   position: absolute;
   top: 50%;
   right: 40px;
   transform: translateY(-50%);
   z-index: 10;
-}
-
-.clearButton:focus {
-  color: red !important;
 }

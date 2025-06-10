@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { Person } from '@/types';
+import { ListOption, Person } from '@/types';
 
 export type ManagePersonPayload = {
   name: string;
@@ -17,11 +17,19 @@ export type PeopleListResponse = {
 };
 
 export const PeopleApi = {
-  searchByName(searchString: string | null) {
-    return apiClient.get<Person[]>('/people/search', {
-      queryParams: {
-        q: searchString,
-      },
+  searchByName(searchString: string | null, selected?: (number | string)[]) {
+    const queryParams: Record<string, unknown> = {};
+
+    if (searchString) {
+      queryParams.q = searchString;
+    }
+
+    if (selected) {
+      queryParams.selected = selected;
+    }
+
+    return apiClient.get<ListOption<number>[]>('/people/search', {
+      queryParams,
     });
   },
 
