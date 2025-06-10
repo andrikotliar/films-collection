@@ -71,21 +71,11 @@ export class FilmsRepository {
             finishedAt: true,
           },
         },
-        crew: {
+        castAndCrew: {
           select: {
-            position: true,
+            role: true,
+            details: true,
             comment: true,
-            person: {
-              select: {
-                id: true,
-                name: true,
-              },
-            },
-          },
-        },
-        cast: {
-          select: {
-            characterName: true,
             person: {
               select: {
                 id: true,

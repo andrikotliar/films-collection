@@ -1,7 +1,6 @@
 import styles from './login-form.module.css';
 import { Button, FormTextInput, FormPasswordInput, Logo } from '@/components';
 import { LogInIcon } from 'lucide-react';
-import { FC } from 'react';
 import { SubmitHandler } from 'react-hook-form';
 
 type LoginFormProps = {
@@ -9,10 +8,12 @@ type LoginFormProps = {
   onSubmit: SubmitHandler<any>;
 };
 
-export const LoginForm: FC<LoginFormProps> = ({ onSubmit, isSaving }) => {
+export const LoginForm = ({ isSaving, onSubmit }: LoginFormProps) => {
   return (
     <form onSubmit={onSubmit} className={styles.loginForm}>
-      <Logo className={styles.loginLogo} />
+      <div className={styles.loginLogo}>
+        <Logo width={120} />
+      </div>
       <FormTextInput name="username" label="Username" />
       <FormPasswordInput name="password" label="Password" />
       <Button type="submit" icon={<LogInIcon />} isLoading={isSaving}>

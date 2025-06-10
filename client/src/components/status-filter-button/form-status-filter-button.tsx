@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import {
   StatusFilterButton,
   StatusFilterButtonProps,
@@ -9,10 +8,10 @@ type FormStatusFilterButtonProps = {
   name: string;
 } & Omit<StatusFilterButtonProps, 'onChange' | 'onBlur' | 'name'>;
 
-export const FormStatusFilterButton: FC<FormStatusFilterButtonProps> = ({
+export const FormStatusFilterButton = ({
   name,
   ...statusButtonProps
-}) => {
+}: FormStatusFilterButtonProps) => {
   const { register } = useFormContext();
 
   return <StatusFilterButton {...register(name)} {...statusButtonProps} />;

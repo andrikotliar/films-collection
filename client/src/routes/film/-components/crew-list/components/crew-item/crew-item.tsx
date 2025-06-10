@@ -1,23 +1,22 @@
-import { FC } from 'react';
-import { FilmCrew } from '@/types';
+import { FilmPerson } from '@/types';
 import { RouterLink } from '@/components';
 import styles from './crew-item.module.css';
 
 type CrewItemProps = {
-  crewItem: FilmCrew;
+  crewItem: FilmPerson;
 };
 
-export const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
+export const CrewItem = ({ crewItem }: CrewItemProps) => {
   return (
     <div className={styles.crewItem}>
-      <h3 className={styles.crewItemTitle}>{crewItem.position}:</h3>
+      <h3 className={styles.crewItemTitle}>{crewItem.role}:</h3>
       <ul className={styles.list}>
         {crewItem.people.map((person, idx) => (
           <li className={styles.person} key={idx}>
             <RouterLink
               to="/"
               search={{
-                crewMemberPosition: crewItem.position,
+                crewMemberPosition: crewItem.role,
                 crewMemberId: person.id.toString(),
               }}
               className={styles.personLink}

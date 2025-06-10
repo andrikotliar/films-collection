@@ -1,14 +1,15 @@
 import { FieldLabel } from '@/components/field-label/field-label';
-import { FC, PropsWithChildren, useState } from 'react';
+import { ReactNode, useState } from 'react';
 import styles from './form-section.module.css';
 import classNames from 'classnames';
 import { Maximize2Icon, Minimize2Icon } from 'lucide-react';
 
-type FormSectionProps = PropsWithChildren<{
+type FormSectionProps = {
   label?: string;
-}>;
+  children?: ReactNode;
+};
 
-export const FormSection: FC<FormSectionProps> = ({ children, label }) => {
+export const FormSection = ({ children, label }: FormSectionProps) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   const toggleContentVisibility = () => {

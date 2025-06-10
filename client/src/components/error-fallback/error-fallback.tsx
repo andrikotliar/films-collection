@@ -1,12 +1,11 @@
-import { Link, useLocation } from '@tanstack/react-router';
-import { FC } from 'react';
 import styles from './error-fallback.module.css';
+import { Link, useLocation } from '@tanstack/react-router';
 
 type ErrorFallbackProps = {
   message: string;
 };
 
-export const ErrorFallback: FC<ErrorFallbackProps> = ({ message }) => {
+export const ErrorFallback = ({ message }: ErrorFallbackProps) => {
   const location = useLocation();
 
   return (

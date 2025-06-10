@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Chapter } from '@/types';
 import { ScrollableWrapper } from '@/components';
 import { FilmLink } from './components';
@@ -9,7 +8,7 @@ type ChaptersFilmsProps = {
   filmId: number;
 };
 
-export const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
+export const Chapters = ({ data, filmId }: ChaptersFilmsProps) => {
   return (
     <ScrollableWrapper className={styles.chapters}>
       {data.map((film) => (

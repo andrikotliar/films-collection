@@ -4,7 +4,6 @@ import {
   usePersonForm,
 } from '@/routes/console/-components/person-form/hooks';
 import { Person } from '@/types';
-import { FC } from 'react';
 import { FormProvider } from 'react-hook-form';
 
 type EditPersonFormProps = {
@@ -12,10 +11,10 @@ type EditPersonFormProps = {
   onSuccessHandler: (data: Person) => void;
 };
 
-export const EditPersonForm: FC<EditPersonFormProps> = ({
+export const EditPersonForm = ({
   person,
   onSuccessHandler,
-}) => {
+}: EditPersonFormProps) => {
   const form = usePersonForm({
     name: person.name,
     image: person.image,

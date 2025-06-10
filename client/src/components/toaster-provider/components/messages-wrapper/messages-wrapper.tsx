@@ -1,8 +1,10 @@
 import styles from './messages-wrapper.module.css';
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 
-type MessagesWrapperProps = PropsWithChildren;
+type MessagesWrapperProps = {
+  children?: ReactNode;
+};
 
-export const MessagesWrapper: FC<MessagesWrapperProps> = ({ children }) => {
+export const MessagesWrapper = ({ children }: MessagesWrapperProps) => {
   return <div className={styles.wrapper}>{children}</div>;
 };

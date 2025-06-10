@@ -4,7 +4,7 @@ import { queryOptions } from '@tanstack/react-query';
 
 export type FetchAdminPeopleListParams = {
   page?: number;
-  q?: string;
+  q?: string | null;
 };
 
 export const fetchAdminPeopleListQuery = (

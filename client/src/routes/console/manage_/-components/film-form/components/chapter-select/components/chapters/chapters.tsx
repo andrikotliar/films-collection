@@ -1,5 +1,4 @@
 import styles from './chapters.module.css';
-import { FC } from 'react';
 import { fetchRelatedChaptersQuery } from '@/queries';
 import { useQuery } from '@tanstack/react-query';
 import { ChapterButton } from '../chapter-button/chapter-button';
@@ -13,11 +12,7 @@ type ChaptersProps = {
   filmId: number | null;
 };
 
-export const Chapters: FC<ChaptersProps> = ({
-  chapterKey,
-  filmId,
-  isEnabled,
-}) => {
+export const Chapters = ({ chapterKey, filmId, isEnabled }: ChaptersProps) => {
   const { setValue, watch } = useFormContext<FormValues>();
 
   const { data = [] } = useQuery(

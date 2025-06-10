@@ -10,30 +10,28 @@ import {
   FormSelect,
   FormFileInput,
 } from '@/components';
-import { FC } from 'react';
 import { InitialData } from '@/types';
 import {
   AwardsSelect,
-  CastSelect,
   ChapterSelect,
-  CrewSelect,
-  Trailers,
+  CastAndCrewSelect,
+  TrailersSelect,
 } from './components';
 import { useFormContext } from 'react-hook-form';
 import { FormValues } from '@/routes/console/manage_/-types';
 import { filmDefaultFormValues } from '@/routes/console/manage_/-configs';
 
 type FilmFormProps = {
-  filmId: string;
+  filmId: string | number;
   onSubmit: VoidFunction;
   initialOptions: InitialData;
 };
 
-export const FilmForm: FC<FilmFormProps> = ({
+export const FilmForm = ({
   onSubmit,
   initialOptions,
   filmId,
-}) => {
+}: FilmFormProps) => {
   const { reset } = useFormContext<FormValues>();
 
   const handleResetForm = () => {
@@ -98,10 +96,9 @@ export const FilmForm: FC<FilmFormProps> = ({
         />
       </div>
       <FormTextEditor name="description" label="Description" />
-      <CrewSelect positionOptions={initialOptions.options.roles} />
-      <CastSelect />
+      <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
       <AwardsSelect awardOptions={initialOptions.options.awards} />
-      <Trailers />
+      <TrailersSelect />
       <ChapterSelect filmId={filmId} />
       <div className={styles.buttons}>
         <Button type="submit">Save</Button>

@@ -1,18 +1,23 @@
-import { FC } from 'react';
-import { FilmCast } from '@/types';
+import { FilmPerson } from '@/types';
 import { Actor } from './components';
 import styles from './cast.module.css';
 import { ScrollableWrapper } from '@/components';
 
 type CastProps = {
-  cast: FilmCast[];
+  people: FilmPerson[];
 };
 
-export const Cast: FC<CastProps> = ({ cast }) => {
+export const Cast = ({ people }: CastProps) => {
+  const cast = people.filter((item) => item.role === 'ACTOR');
+
+  if (!cast.length || cast.length > 1) {
+    return <div>Data not found</div>;
+  }
+
   return (
     <ScrollableWrapper className={styles.cast}>
-      {cast.map((castItem) => (
-        <Actor data={castItem} key={castItem.person.id} />
+      {cast[0].people.map((castItem) => (
+        <Actor data={castItem} key={castItem.id} />
       ))}
     </ScrollableWrapper>
   );

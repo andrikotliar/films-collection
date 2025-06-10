@@ -1,4 +1,4 @@
-import { FC, FormEventHandler } from 'react';
+import { FormEventHandler } from 'react';
 import styles from './collection-event-form.module.css';
 import {
   Button,
@@ -18,11 +18,11 @@ type CollectionEventFormProps = {
   isSaving: boolean;
 };
 
-export const CollectionEventForm: FC<CollectionEventFormProps> = ({
+export const CollectionEventForm = ({
   onSubmit,
   title,
   isSaving,
-}) => {
+}: CollectionEventFormProps) => {
   const { data } = useQuery(fetchInitialDataQuery());
 
   return (

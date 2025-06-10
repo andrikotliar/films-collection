@@ -1,7 +1,6 @@
 import { CollectionEventFilled } from '@/types';
 import { Button, Image, RouterLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
-import { FC } from 'react';
 import styles from './event.module.css';
 import { convertDateCode } from '@/routes/console/collection-events/-helpers';
 
@@ -11,7 +10,7 @@ type EventProps = {
   onEdit: (event: CollectionEventFilled) => void;
 };
 
-export const Event: FC<EventProps> = ({ data, onDelete, onEdit }) => {
+export const Event = ({ data, onDelete, onEdit }: EventProps) => {
   const startDate = convertDateCode(data.startDateCode);
   const endDate = convertDateCode(data.endDateCode);
 

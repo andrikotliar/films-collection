@@ -5,6 +5,7 @@ import {
   GetPendingFilmsListQuery,
   UpdatePendingFilmInput,
 } from './schemas';
+import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
 
 export class PendingFilmsService {
   constructor(private pendingFilmsRepository: PendingFilmsRepository) {}
@@ -51,7 +52,7 @@ export class PendingFilmsService {
     return {
       filters,
       options: {
-        take: 30,
+        take: DEFAULT_PAGINATION_LIMIT,
         skip: queryFilters.skip ?? 0,
         orderBy: {
           [sortingKey]: queryFilters.order ?? 'desc',

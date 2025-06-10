@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { getFormattedMoneyValue } from '@/helpers';
 import { checkHasBoxOfficeBenefit } from './helpers';
 import { TrendingDownIcon, TrendingUpIcon } from 'lucide-react';
@@ -10,10 +9,7 @@ type BoxOfficeValueProps = {
   boxOffice: number;
 };
 
-export const BoxOfficeValue: FC<BoxOfficeValueProps> = ({
-  budget,
-  boxOffice,
-}) => {
+export const BoxOfficeValue = ({ budget, boxOffice }: BoxOfficeValueProps) => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(budget, boxOffice);
 
   return (

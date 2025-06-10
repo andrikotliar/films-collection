@@ -1,5 +1,5 @@
 import styles from './toggle.module.css';
-import { ChangeEvent, FC } from 'react';
+import { ChangeEvent } from 'react';
 
 export type ToggleProps = {
   value: boolean;
@@ -7,7 +7,7 @@ export type ToggleProps = {
   title?: string;
 };
 
-export const Toggle: FC<ToggleProps> = ({ value, onToggle, title }) => {
+export const Toggle = ({ value, onToggle, title }: ToggleProps) => {
   const handleToggle = (event: ChangeEvent<HTMLInputElement>) => {
     const isChecked = event.target.checked;
 

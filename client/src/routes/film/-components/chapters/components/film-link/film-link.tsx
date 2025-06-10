@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
 import classNames from 'classnames';
 import { Image } from '@/components';
@@ -12,13 +11,13 @@ type FilmLinkProps = {
   isActive: boolean;
 };
 
-export const FilmLink: FC<FilmLinkProps> = ({
+export const FilmLink = ({
   id,
   poster,
   title,
   chapter,
   isActive,
-}) => {
+}: FilmLinkProps) => {
   return (
     <Link
       to="/film/$id"

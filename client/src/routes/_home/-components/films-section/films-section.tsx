@@ -1,5 +1,4 @@
 import styles from './films-section.module.css';
-import { FC } from 'react';
 import { FilmsGrid, Loader, Pagination } from '@/components';
 import { FilmsNotFound, AdditionalInfoSection } from './components';
 import { FilmsListResponse } from '@/types';
@@ -13,7 +12,7 @@ type FilmsSectionProps = {
 
 const routeApi = getRouteApi('/_home/');
 
-export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
+export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
 

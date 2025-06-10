@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmSearchResult } from '@/types';
 import { getYearFromDate } from '@/helpers';
@@ -10,7 +9,7 @@ type FoundFilmProps = {
   onFilmOpen: VoidFunction;
 };
 
-export const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
+export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
   const genres = film.genres.map((genre) => genre.genre.title).join(', ');
 
   return (

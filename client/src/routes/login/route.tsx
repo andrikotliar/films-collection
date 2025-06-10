@@ -27,7 +27,7 @@ const LoginContainer = () => {
     mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
       if (result.userId) {
-        LocalStorage.setItem('IS_AUTHENTICATED', true);
+        LocalStorage.setItem('state:is_authenticated', true);
 
         navigate({ to: '/console/pending' });
       }

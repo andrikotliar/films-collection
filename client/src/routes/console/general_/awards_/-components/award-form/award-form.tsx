@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import styles from './award-form.module.css';
 import {
   Button,
@@ -19,7 +19,7 @@ type AwardFormProps = {
   onSubmit: VoidFunction;
 };
 
-export const AwardForm: FC<AwardFormProps> = ({ onSubmit, isLoading }) => {
+export const AwardForm = ({ isLoading, onSubmit }: AwardFormProps) => {
   const [nominationIndex, setNominationIndex] = useState<number | null>(null);
 
   const { control } = useFormContext<AwardFormValues>();

@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './dates.module.css';
 import { ReleaseDate } from '../release-date/release-date';
 
@@ -7,7 +6,7 @@ type DatesProps = {
   finishedAt?: string;
 };
 
-export const Dates: FC<DatesProps> = ({ releaseDate, finishedAt }) => {
+export const Dates = ({ releaseDate, finishedAt }: DatesProps) => {
   return (
     <div className={styles.dates}>
       <ReleaseDate value={releaseDate} />

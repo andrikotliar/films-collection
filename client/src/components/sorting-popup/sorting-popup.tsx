@@ -1,4 +1,4 @@
-import { FC, FormEvent, useRef, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
 import { ListOption, SortingOrder } from '@/types';
 import { SortingButton } from './components';
@@ -20,13 +20,13 @@ type SortingPopupProps = {
   buttonSize?: 'small' | 'large';
 };
 
-export const SortingPopup: FC<SortingPopupProps> = ({
+export const SortingPopup = ({
   fields,
   onSorting,
   defaultOrderKey = 'createdAt',
   defaultOrder = 'desc',
   buttonSize = 'small',
-}) => {
+}: SortingPopupProps) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 

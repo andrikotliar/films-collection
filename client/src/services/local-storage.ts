@@ -1,4 +1,4 @@
-import { LocalStorageKey } from '@/enums';
+import { LocalStorageKey } from '@/types';
 
 export const LocalStorage = {
   getItem<T>(key: LocalStorageKey): T | null {

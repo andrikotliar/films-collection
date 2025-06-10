@@ -1,14 +1,15 @@
 import { ArrowDownAZIcon, ArrowUpAZIcon } from 'lucide-react';
-import { forwardRef, PropsWithChildren } from 'react';
+import { forwardRef, ReactNode } from 'react';
 import styles from './sorting-button.module.css';
 import classNames from 'classnames';
 import { SortingOrder } from '@/types';
 
-type SortingButtonProps = PropsWithChildren<{
+type SortingButtonProps = {
   onClick: VoidFunction;
   order: SortingOrder;
   size: 'small' | 'large';
-}>;
+  children?: ReactNode;
+};
 
 export const SortingButton = forwardRef<HTMLButtonElement, SortingButtonProps>(
   ({ onClick, children, size, order }, ref) => {

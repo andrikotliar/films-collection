@@ -5,7 +5,6 @@ import { BaseForm } from '@/routes/console/-components';
 import { CollectionFormValues } from '@/routes/console/general_/collections/-types';
 import { Collection, ListOption } from '@/types';
 import { useMutation } from '@tanstack/react-query';
-import { FC } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 
 type EditCollectionFormProps = {
@@ -14,11 +13,11 @@ type EditCollectionFormProps = {
   categories: ListOption[];
 };
 
-export const EditCollectionForm: FC<EditCollectionFormProps> = ({
+export const EditCollectionForm = ({
   onSuccessHandler,
   initialValues,
   categories,
-}) => {
+}: EditCollectionFormProps) => {
   const { id: collectionId, ...defaultValues } = initialValues;
 
   const toaster = useToaster();

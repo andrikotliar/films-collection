@@ -1,15 +1,13 @@
 import styles from './console-title.module.css';
 import classNames from 'classnames';
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 
-type ConsoleTitleProps = PropsWithChildren<{
+type ConsoleTitleProps = {
   className?: string;
-}>;
+  children?: ReactNode;
+};
 
-export const ConsoleTitle: FC<ConsoleTitleProps> = ({
-  children,
-  className,
-}) => {
+export const ConsoleTitle = ({ children, className }: ConsoleTitleProps) => {
   return (
     <h1 className={classNames(styles.consolePageTitle, className)}>
       {children}

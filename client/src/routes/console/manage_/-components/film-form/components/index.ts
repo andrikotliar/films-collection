@@ -1,5 +1,4 @@
 export * from './awards-select/awards-select';
-export * from './cast-select/cast-select';
-export * from './crew-select/crew-select';
-export * from './trailers/trailers';
+export * from './cast-and-crew-select/cast-and-crew-select';
+export * from './trailers-select/trailers-select';
 export * from './chapter-select/chapter-select';

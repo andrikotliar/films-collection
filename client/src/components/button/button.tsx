@@ -1,5 +1,5 @@
 import styles from './button.module.css';
-import { FC, MouseEventHandler, PropsWithChildren, ReactNode } from 'react';
+import { MouseEventHandler, ReactNode } from 'react';
 import classNames from 'classnames';
 import { Loader } from '@/components/loader/loader';
 
@@ -7,6 +7,7 @@ export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
 
 export type ButtonProps = {
   onClick?: MouseEventHandler<HTMLButtonElement>;
+  children?: ReactNode;
   type?: 'button' | 'submit';
   icon?: ReactNode;
   isHidden?: boolean;
@@ -16,7 +17,7 @@ export type ButtonProps = {
   isLoading?: boolean;
 };
 
-export const Button: FC<PropsWithChildren<ButtonProps>> = ({
+export const Button = ({
   children,
   icon,
   onClick,
@@ -26,7 +27,7 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   variant = 'primary',
   isDisabled,
   isLoading = false,
-}) => {
+}: ButtonProps) => {
   return (
     <button
       onClick={onClick}

@@ -1,6 +1,6 @@
+import styles from './console-layout.module.css';
 import { useState } from 'react';
 import { ConsoleHeader, ConsoleMenu } from './components';
-import styles from './console-layout.module.css';
 import { Outlet } from '@tanstack/react-router';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
 import { LocalStorage } from '@/services';
@@ -12,7 +12,7 @@ export const ConsoleLayout = () => {
     }
 
     const isConsoleMenuOpen = LocalStorage.getItem<boolean>(
-      'IS_CONSOLE_MENU_OPEN',
+      'state:is_console_menu_open',
     );
 
     return isConsoleMenuOpen ?? true;
@@ -20,9 +20,9 @@ export const ConsoleLayout = () => {
 
   const handleMenuOpen = () => {
     const isConsoleMenuOpen =
-      LocalStorage.getItem<boolean>('IS_CONSOLE_MENU_OPEN') ?? true;
+      LocalStorage.getItem<boolean>('state:is_console_menu_open') ?? true;
 
-    LocalStorage.setItem('IS_CONSOLE_MENU_OPEN', !isConsoleMenuOpen);
+    LocalStorage.setItem('state:is_console_menu_open', !isConsoleMenuOpen);
 
     setIsMenuOpen((isOpen) => !isOpen);
   };

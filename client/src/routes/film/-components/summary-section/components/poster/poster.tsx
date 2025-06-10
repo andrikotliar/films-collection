@@ -1,13 +1,12 @@
-import { FC } from 'react';
 import styles from './poster.module.css';
 import { Image } from '@/components';
 
-type MediaProps = {
+type PosterProps = {
   image: string;
   title: string;
 };
 
-export const Poster: FC<MediaProps> = ({ image, title }) => {
+export const Poster = ({ image, title }: PosterProps) => {
   return (
     <div className={styles.poster}>
       <Image

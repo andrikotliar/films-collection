@@ -1,7 +1,6 @@
 import styles from './pending-film-row.module.css';
 import { PendingFilm } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { FC } from 'react';
 import { getPriorityTitle } from '@/helpers';
 import { Status, StatusProps } from '@/components';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
@@ -14,12 +13,12 @@ type PendingFilmRowProps = {
   isDeleteInProgress: boolean;
 };
 
-export const PendingFilmRow: FC<PendingFilmRowProps> = ({
+export const PendingFilmRow = ({
   data,
   onDelete,
   onEdit,
   isDeleteInProgress,
-}) => {
+}: PendingFilmRowProps) => {
   const rowPriority = getPriorityTitle(data.priority);
   const priorityColor = priorityToColor[rowPriority] as StatusProps['color'];
 

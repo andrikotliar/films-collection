@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { FilterItem } from '@/types';
 import { FormCheckbox, FormGroup, FormDateRange } from '@/components';
 
@@ -6,7 +5,7 @@ type FilterOptionsProps = {
   filter: FilterItem;
 };
 
-export const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
+export const FilterOptions = ({ filter }: FilterOptionsProps) => {
   switch (filter.type) {
     case 'checkmark':
       return (

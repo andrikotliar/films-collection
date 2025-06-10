@@ -1,4 +1,3 @@
-import { FC, PropsWithChildren } from 'react';
 import styles from './search-menu-content.module.css';
 import { FilmSearchResult } from '@/types';
 import { FoundFilm } from '../found-film/found-film';
@@ -8,9 +7,10 @@ type SearchMenuContentProps = {
   onFilmOpen: VoidFunction;
 };
 
-export const SearchMenuContent: FC<
-  PropsWithChildren<SearchMenuContentProps>
-> = ({ films, onFilmOpen }) => {
+export const SearchMenuContent = ({
+  films,
+  onFilmOpen,
+}: SearchMenuContentProps) => {
   const isEmpty = films.length === 0;
 
   if (isEmpty) {

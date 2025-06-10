@@ -1,4 +1,4 @@
-import { CrewPosition, TitleStyle, TitleType } from '@prisma/client';
+import { PersonRole, TitleStyle, TitleType } from '@prisma/client';
 import { Static, Type } from '@sinclair/typebox';
 
 export const GetFilmsListQuerySchema = Type.Object(
@@ -20,7 +20,7 @@ export const GetFilmsListQuerySchema = Type.Object(
     searchAnniversaries: Type.Optional(Type.Boolean()),
     type: Type.Optional(Type.Enum(TitleType)),
     style: Type.Optional(Type.Enum(TitleStyle)),
-    crewMemberPosition: Type.Optional(Type.Enum(CrewPosition)),
+    crewMemberPosition: Type.Optional(Type.Enum(PersonRole)),
     genreIds: Type.Optional(Type.Array(Type.Number())),
     studioIds: Type.Optional(Type.Array(Type.Number())),
     countryIds: Type.Optional(Type.Array(Type.Number())),

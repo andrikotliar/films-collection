@@ -1,4 +1,4 @@
-import { FilmWithRelations, GroupedAwards, GroupedCrew } from '../types';
+import { FilmWithRelations, GroupedAwards, GroupedPeople } from '../types';
 
 const mapNestedRelations = <T extends Record<string, unknown>>(
   values: T[],
@@ -8,18 +8,22 @@ const mapNestedRelations = <T extends Record<string, unknown>>(
 };
 
 export const mapFilmDetails = (film: FilmWithRelations) => {
-  const crew = film.crew.reduce((result, person) => {
-    if (!result[person.position]) {
-      result[person.position] = { position: person.position, people: [] };
-    }
+  const castAndCrew = film.castAndCrew.reduce(
+    (result, { role, details, comment, person }) => {
+      if (!result[role]) {
+        result[role] = { role, people: [] };
+      }
 
-    result[person.position].people.push({
-      ...person.person,
-      comment: person.comment,
-    });
+      result[role].people.push({
+        ...person,
+        comment,
+        details,
+      });
 
-    return result;
-  }, {} as GroupedCrew);
+      return result;
+    },
+    {} as GroupedPeople,
+  );
 
   const awards = film.awards.reduce((result, award) => {
     if (!result[award.award.id]) {
@@ -46,7 +50,7 @@ export const mapFilmDetails = (film: FilmWithRelations) => {
     countries: mapNestedRelations(film.countries, 'country'),
     studios: mapNestedRelations(film.studios, 'studio'),
     collections: mapNestedRelations(film.collections, 'collection'),
-    crew: Object.values(crew),
+    castAndCrew: Object.values(castAndCrew),
     awards: Object.values(awards),
   };
 };

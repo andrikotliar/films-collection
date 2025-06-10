@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './console-header.module.css';
 import { LogOutIcon, MenuIcon } from 'lucide-react';
 import classNames from 'classnames';
@@ -12,10 +11,10 @@ type ConsoleHeaderProps = {
   onMenuOpen: VoidFunction;
 };
 
-export const ConsoleHeader: FC<ConsoleHeaderProps> = ({
+export const ConsoleHeader = ({
   onMenuOpen,
   isMenuOpen,
-}) => {
+}: ConsoleHeaderProps) => {
   const navigate = useNavigate();
 
   const { mutate: logout } = useMutation({
@@ -24,7 +23,7 @@ export const ConsoleHeader: FC<ConsoleHeaderProps> = ({
 
   const handleLogout = () => {
     logout();
-    LocalStorage.removeItem('IS_AUTHENTICATED');
+    LocalStorage.removeItem('state:is_authenticated');
     navigate({ to: '/login' });
   };
 

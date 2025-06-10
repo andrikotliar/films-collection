@@ -2,16 +2,19 @@ import { Button } from '@/components/button/button';
 import styles from './trigger-button.module.css';
 import classNames from 'classnames';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
-import { forwardRef, KeyboardEvent, PropsWithChildren } from 'react';
+import { forwardRef, KeyboardEvent, ReactNode } from 'react';
+import { Loader } from '@/components/loader/loader';
 
-type TriggerButtonProps = PropsWithChildren<{
+type TriggerButtonProps = {
   onClick: VoidFunction;
   onClear: VoidFunction;
   onKeyDown: (event: KeyboardEvent) => void;
+  children: ReactNode;
   isActive: boolean;
-  shouldShowPlaceholder: boolean;
   shouldShowClearButton: boolean;
-}>;
+  isDisabled: boolean;
+  isLoading?: boolean;
+};
 
 export const TriggerButton = forwardRef<HTMLButtonElement, TriggerButtonProps>(
   (
@@ -21,8 +24,9 @@ export const TriggerButton = forwardRef<HTMLButtonElement, TriggerButtonProps>(
       onKeyDown,
       isActive,
       children,
-      shouldShowPlaceholder,
       shouldShowClearButton,
+      isDisabled,
+      isLoading,
     },
     ref,
   ) => {
@@ -36,25 +40,27 @@ export const TriggerButton = forwardRef<HTMLButtonElement, TriggerButtonProps>(
           })}
           onKeyDown={onKeyDown}
           type="button"
+          disabled={isDisabled}
+          aria-haspopup="listbox"
         >
-          <div>
-            {shouldShowPlaceholder ? (
-              <span className={styles.placeholder}>Select</span>
-            ) : (
-              <span>{children}</span>
-            )}
-          </div>
+          <div>{children}</div>
           <ChevronDownIcon
             size={20}
             className={classNames(styles.icon, styles.chevron)}
           />
         </button>
-        {shouldShowClearButton && (
+        {isLoading && (
+          <div className={styles.selectIcon}>
+            <Loader size={18} shouldInheritColor />
+          </div>
+        )}
+        {shouldShowClearButton && !isLoading && (
           <Button
             icon={<XIcon className={styles.icon} size={18} />}
             variant="ghost"
             onClick={onClear}
-            className={styles.clearButton}
+            className={styles.selectIcon}
+            aria-label="Clear selection"
           />
         )}
       </div>

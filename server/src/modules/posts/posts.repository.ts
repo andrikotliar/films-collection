@@ -1,4 +1,5 @@
 import { PrismaClient } from '@prisma/client';
+import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
 import {
   CreatePostPayload,
   GetListQueries,
@@ -30,7 +31,7 @@ export class PostsRepository {
         content: true,
         pageKey: true,
       },
-      take: 30,
+      take: DEFAULT_PAGINATION_LIMIT,
       skip,
       orderBy: {
         updatedAt: 'desc',

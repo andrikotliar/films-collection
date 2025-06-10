@@ -1,5 +1,4 @@
 import { PendingFilm } from '@/types';
-import { FC } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { PendingFilmForm } from '../pending-film-form/pending-film-form';
 import { PendingFilmFormValues } from '../../-types';
@@ -11,10 +10,10 @@ type EditPendingFilmFormProps = {
   onSubmitSuccess: VoidFunction;
 };
 
-export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
+export const EditPendingFilmForm = ({
   initialValues,
   onSubmitSuccess,
-}) => {
+}: EditPendingFilmFormProps) => {
   const { mutate: updatePendingFilm, isPending } = useMutation({
     mutationFn: (data: PendingFilmFormValues) => {
       return PendingFilmsApi.updatePendingFilm(initialValues.id, {

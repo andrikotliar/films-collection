@@ -1,12 +1,11 @@
 import { FileInputProps, FileInput } from './file-input';
-import { FC } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';
 
 type FormFileInputProps = {
   name: string;
 } & Omit<FileInputProps, 'onChange' | 'defaultValue'>;
 
-export const FormFileInput: FC<FormFileInputProps> = ({ name, ...props }) => {
+export const FormFileInput = ({ name, ...props }: FormFileInputProps) => {
   const { control } = useFormContext();
   return (
     <Controller

@@ -1,5 +1,5 @@
 import { Film, FilmTrailer } from '@/types';
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import { TrailersModal } from './components';
 import styles from './trailers.module.css';
 import { PlayIcon } from 'lucide-react';
@@ -9,7 +9,7 @@ type TrailersProps = {
   type: Film['type'];
 };
 
-export const Trailers: FC<TrailersProps> = ({ data, type }) => {
+export const Trailers = ({ data, type }: TrailersProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!data.length) {

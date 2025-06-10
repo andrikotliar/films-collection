@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './video.module.css';
 
 type VideoProps = {
@@ -6,7 +5,7 @@ type VideoProps = {
   shouldAutoPlay: boolean;
 };
 
-export const Video: FC<VideoProps> = ({ trailerId, shouldAutoPlay }) => {
+export const Video = ({ trailerId, shouldAutoPlay }: VideoProps) => {
   const autoPlayOption = shouldAutoPlay ? '1' : '0';
 
   return (

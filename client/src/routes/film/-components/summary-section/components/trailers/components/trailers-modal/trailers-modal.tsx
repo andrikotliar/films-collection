@@ -1,5 +1,4 @@
 import { Modal } from '@/components';
-import { FC } from 'react';
 import styles from './trailers-modal.module.css';
 import { Film, FilmTrailer } from '@/types';
 import { Playlist } from './components';
@@ -11,12 +10,12 @@ type TrailersModalProps = {
   type: Film['type'];
 };
 
-export const TrailersModal: FC<TrailersModalProps> = ({
+export const TrailersModal = ({
   onClose,
   isOpen,
   trailers,
   type,
-}) => {
+}: TrailersModalProps) => {
   const previewLabel = type === 'SERIES' ? 'Season' : 'Trailer #';
 
   return (

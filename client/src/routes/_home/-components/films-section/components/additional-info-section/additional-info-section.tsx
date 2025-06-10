@@ -1,12 +1,11 @@
 import { AdditionalInfo } from '@/types';
-import { FC } from 'react';
 import { InfoBlock } from '../info-block/info-block';
 
 type AdditionalInfoProps = {
   info: AdditionalInfo | null;
 };
 
-export const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
+export const AdditionalInfoSection = ({ info }: AdditionalInfoProps) => {
   if (!info) {
     return null;
   }

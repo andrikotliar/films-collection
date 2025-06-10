@@ -1,6 +1,6 @@
 import { Video } from '../video/video';
 import { FilmTrailer } from '@/types';
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import styles from './playlist.module.css';
 import { PlayIcon } from 'lucide-react';
 import classNames from 'classnames';
@@ -10,7 +10,7 @@ type PlaylistProps = {
   previewLabel: string;
 };
 
-export const Playlist: FC<PlaylistProps> = ({ trailers, previewLabel }) => {
+export const Playlist = ({ trailers, previewLabel }: PlaylistProps) => {
   const [shouldAutoPlay, setShouldAutoPlay] = useState(trailers.length === 1);
   const [activeVideoId, setActiveVideoId] = useState(trailers[0].videoId);
 

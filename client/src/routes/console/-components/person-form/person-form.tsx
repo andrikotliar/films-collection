@@ -1,5 +1,4 @@
 import styles from './person-form.module.css';
-import { FC } from 'react';
 import { SaveIcon } from 'lucide-react';
 import {
   Button,
@@ -15,11 +14,11 @@ export type PersonFormProps = {
   isLoading?: boolean;
 };
 
-export const PersonForm: FC<PersonFormProps> = ({
+export const PersonForm = ({
   onSubmit,
   title = 'Create person',
   isLoading = false,
-}) => {
+}: PersonFormProps) => {
   return (
     <Panel>
       <div className={styles.form}>

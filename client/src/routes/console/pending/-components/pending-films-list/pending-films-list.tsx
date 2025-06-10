@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import { PendingFilm } from '@/types';
 import { ConfirmModal, Panel } from '@/components';
 import { PendingFilmRow } from '../pending-film-row/pending-film-row';
@@ -12,10 +12,10 @@ type PendingFilmsListProps = {
   onRefetchList: VoidFunction;
 };
 
-export const PendingFilmsList: FC<PendingFilmsListProps> = ({
+export const PendingFilmsList = ({
   list,
   onRefetchList,
-}) => {
+}: PendingFilmsListProps) => {
   const [filmToUpdate, setFilmToUpdate] = useState<PendingFilm | null>(null);
   const [filmToDelete, setFilmToDelete] = useState<PendingFilm | null>(null);
 

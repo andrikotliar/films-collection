@@ -25,6 +25,7 @@ model Film {
   createdAt       DateTime              @default(now()) @map("created_at")
   updatedAt       DateTime              @updatedAt @map("updated_at")
   draft           Boolean               @default(false)
+  castAndCrew     FilmPerson[]
   crew            FilmCrew[]
   cast            FilmCast[]
   genres          FilmGenre[]
@@ -45,11 +46,28 @@ model Person {
   image       String?
   createdAt   DateTime              @default(now()) @map("created_at")
   updatedAt   DateTime              @updatedAt @map("updated_at")
+  selected    Boolean               @default(false)
   filmsMember FilmCrew[]
   starredIn   FilmCast[]
   awards      FilmAwardNomination[]
+  films       FilmPerson[]
 
   @@map("people")
+}
+
+model FilmPerson {
+  id        Int        @id @default(autoincrement())
+  personId  Int        @map("person_id")
+  person    Person     @relation(fields: [personId], references: [id])
+  filmId    Int        @map("film_id")
+  film      Film       @relation(fields: [filmId], references: [id])
+  role      PersonRole
+  details   String?
+  comment   String?
+  createdAt DateTime   @default(now()) @map("created_at")
+  updatedAt DateTime   @updatedAt @map("updated_at")
+
+  @@map("films_people")
 }
 
 model FilmCrew {
@@ -325,6 +343,18 @@ enum CollectionCategory {
   TOP
 
   @@map("collection_category")
+}
+
+enum PersonRole {
+  DIRECTOR
+  WRITER
+  PRODUCER
+  COMPOSER
+  CAMERAMAN
+  CREATOR
+  ACTOR
+
+  @@map("person_role")
 }
 
 enum CrewPosition {

@@ -6,11 +6,11 @@ import { ConsoleContent, ConsoleTitle, Panel, Pagination } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
-import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
+import { AdminFilm, AdminFilmsTools } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
 
 const adminFilmsFilterSchema = object().shape({
-  q: string(),
+  q: string().nullable().defined(),
   pageIndex: number().min(0),
   sortingField: string(),
   sortingDirection: string().oneOf(['asc', 'desc']),

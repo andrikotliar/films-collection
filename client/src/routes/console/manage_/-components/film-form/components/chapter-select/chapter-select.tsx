@@ -1,8 +1,7 @@
 import styles from './chapter-select.module.css';
-import { ChangeEvent, FC, useCallback, useMemo, useState } from 'react';
+import { ChangeEvent, useCallback, useMemo, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import { NEW_ITEM_ID } from '@/constants';
 import { debounce } from '@/helpers';
 import { fetchChapterKeysOptionsQuery } from '@/queries';
 import { FormValues } from '@/routes/console/manage_/-types';
@@ -17,13 +16,13 @@ import {
 import { Chapters } from './components';
 
 type ChapterSelectProps = {
-  filmId: string;
+  filmId: string | number;
 };
 
 const chapterKeyRegex = /^[a-z-]+$/;
 
-export const ChapterSelect: FC<ChapterSelectProps> = ({ filmId }) => {
-  const parsedFilmId = filmId !== NEW_ITEM_ID ? Number(filmId) : null;
+export const ChapterSelect = ({ filmId }: ChapterSelectProps) => {
+  const parsedFilmId = typeof filmId === 'number' ? Number(filmId) : null;
 
   const [manualKeyError, setManualKeyError] = useState<string | null>(null);
 

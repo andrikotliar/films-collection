@@ -1,26 +1,16 @@
 import styles from './nomination-select.module.css';
-import { FC } from 'react';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import { fetchNominationsByAwardQuery, searchPersonQuery } from '@/queries';
-import { FormAward, FormValues } from '@/routes/console/manage_/-types';
-import {
-  FieldError,
-  FormSelect,
-  Loader,
-  Search,
-  SearchResultPeopleList,
-} from '@/components';
+import { fetchNominationsByAwardQuery } from '@/queries';
+import { FormValues } from '@/routes/console/manage_/-types';
+import { FieldError, FormAsyncSelect, FormSelect, Loader } from '@/components';
+import { PeopleApi } from '@/api';
 
 type NominationSelectProps = {
   index: number;
-  onActorSelect: (index: number, value: FormAward) => void;
 };
 
-export const NominationSelect: FC<NominationSelectProps> = ({
-  index,
-  onActorSelect,
-}) => {
+export const NominationSelect = ({ index }: NominationSelectProps) => {
   const awards = useWatch<FormValues, 'awards'>({
     name: 'awards',
   });
@@ -57,31 +47,11 @@ export const NominationSelect: FC<NominationSelectProps> = ({
         label="Nomination"
       />
       {shouldShowActorSelect && (
-        <div>
-          <Search
-            placeholder="Select actor..."
-            query={searchPersonQuery}
-            label="Nominee"
-          >
-            {({ data, onFinishInteraction }) => (
-              <SearchResultPeopleList
-                data={data ?? []}
-                onAdd={(person) => {
-                  onActorSelect(index, {
-                    ...currentAward,
-                    person,
-                  });
-                  onFinishInteraction();
-                }}
-              />
-            )}
-          </Search>
-          {currentAward.person && (
-            <div className={styles.selectedNominee}>
-              <b>Selected nominee:</b> {currentAward.person.name}
-            </div>
-          )}
-        </div>
+        <FormAsyncSelect
+          name={`awards.${index}.personId`}
+          optionsLoader={PeopleApi.searchByName}
+          label="Person"
+        />
       )}
     </div>
   );

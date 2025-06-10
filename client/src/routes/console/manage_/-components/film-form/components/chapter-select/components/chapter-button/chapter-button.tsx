@@ -1,19 +1,20 @@
 import classNames from 'classnames';
 import styles from './chapter-button.module.css';
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 
-export type ChapterButtonProps = PropsWithChildren<{
+export type ChapterButtonProps = {
   selectedChapter: number | null;
   chapterOrder: number;
   onSelect: (chapterNumber: number) => void;
-}>;
+  children?: ReactNode;
+};
 
-export const ChapterButton: FC<ChapterButtonProps> = ({
+export const ChapterButton = ({
   chapterOrder,
   onSelect,
   children,
   selectedChapter,
-}) => {
+}: ChapterButtonProps) => {
   const currentNumber = chapterOrder ?? 0;
 
   const checkIsActive = () => {

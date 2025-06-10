@@ -4,25 +4,25 @@ import { Collection } from './collection';
 
 export type TitleType = 'FILM' | 'SERIES';
 export type TitleStyle = 'ANIMATION' | 'LIVE_ACTION';
-export type CrewPosition =
+export type PersonRole =
   | 'DIRECTOR'
   | 'WRITER'
   | 'COMPOSER'
   | 'CAMERAMAN'
-  | 'CREATOR';
+  | 'CREATOR'
+  | 'ACTOR';
 
-export type FilmCrew = {
-  position: CrewPosition;
-  people: {
-    id: number;
-    name: string;
-    comment: string | null;
-  }[];
+export type FilmPersonData = {
+  id: number;
+  name: string;
+  image: string;
+  comment: string | null;
+  details: string | null;
 };
 
-export type FilmCast = {
-  person: Person;
-  characterName: string;
+export type FilmPerson = {
+  role: PersonRole;
+  people: FilmPersonData[];
 };
 
 export type FilmAward = {
@@ -67,12 +67,11 @@ export type Film = {
   title: string;
   genres: FilmBaseData<'genre'>[];
   studios: FilmBaseData<'studio'>[];
-  crew: FilmCrew[];
   description: string;
   countries: FilmBaseData<'country'>[];
   releaseDate: string;
   duration: number;
-  cast: FilmCast[];
+  castAndCrew: FilmPerson[];
   collections: FilmBaseData<'collection'>[];
   budget: number | null;
   boxOffice: number | null;
