@@ -119,10 +119,10 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
   }
 
   if (crewMemberId && crewMemberPosition) {
-    filters.crew = {
+    filters.castAndCrew = {
       some: {
         AND: {
-          position: crewMemberPosition,
+          role: crewMemberPosition,
           personId: crewMemberId,
         },
       },
@@ -130,7 +130,7 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
   }
 
   if (actorId) {
-    filters.cast = {
+    filters.castAndCrew = {
       some: {
         personId: actorId,
       },
