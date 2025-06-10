@@ -2,7 +2,7 @@ import { convertEnumValuesToOption } from 'src/common';
 import { InitialData, InitialDataServiceDependencies } from './types';
 import {
   CollectionCategory,
-  CrewPosition,
+  PersonRole,
   TitleStyle,
   TitleType,
 } from '@prisma/client';
@@ -37,7 +37,7 @@ export class InitialDataService {
 
     const types = convertEnumValuesToOption(TitleType);
     const styles = convertEnumValuesToOption(TitleStyle);
-    const roles = convertEnumValuesToOption(CrewPosition);
+    const roles = convertEnumValuesToOption(PersonRole);
     const collectionCategories = convertEnumValuesToOption(CollectionCategory);
 
     const todayEvent = await this.collectionEventsService.findTodayEvent();

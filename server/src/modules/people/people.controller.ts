@@ -31,7 +31,7 @@ export const PeopleController = router((app, defineRoute) => [
       querystring: SearchPersonSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.peopleService.searchPersonByTitle(request.query);
+      const data = await app.peopleService.searchPerson(request.query);
 
       return {
         status: 'OK',

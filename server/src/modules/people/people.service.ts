@@ -6,7 +6,7 @@ import {
 } from './schemas';
 import { PeopleRepository } from './people.repository';
 import { FilesService } from 'src/modules/files/files.service';
-import { NotFoundException } from 'src/common';
+import { DEFAULT_PAGINATION_LIMIT, NotFoundException } from 'src/common';
 import { Prisma } from '@prisma/client';
 
 export class PeopleService {
@@ -19,7 +19,7 @@ export class PeopleService {
     const filters: Prisma.PersonWhereInput = {};
     const options: Prisma.PersonFindManyArgs = {
       where: filters,
-      take: 30,
+      take: DEFAULT_PAGINATION_LIMIT,
       skip: queries.skip,
     };
 
@@ -40,8 +40,13 @@ export class PeopleService {
     return this.peopleRepository.findPersonById(personId);
   }
 
-  searchPersonByTitle(queries: SearchPersonQuery) {
-    return this.peopleRepository.searchPersonByName(queries);
+  async searchPerson(queries: SearchPersonQuery) {
+    const data = await this.peopleRepository.searchPerson(queries);
+
+    return data.map((person) => ({
+      label: person.name,
+      value: person.id,
+    }));
   }
 
   createPerson(input: CreatePersonInput) {

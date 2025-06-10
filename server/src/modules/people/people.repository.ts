@@ -4,6 +4,7 @@ import {
   SearchPersonQuery,
   UpdatePersonInput,
 } from './schemas';
+import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
 
 export class PeopleRepository {
   constructor(private readonly databaseClient: PrismaClient) {}
@@ -42,25 +43,53 @@ export class PeopleRepository {
     });
   }
 
-  searchPersonByName({ q }: SearchPersonQuery) {
-    const whereClause: Prisma.PersonWhereInput = {
-      name: {
-        contains: q,
-        mode: 'insensitive',
-      },
-    };
+  async searchPerson({ q, selected }: SearchPersonQuery) {
+    const whereClause: Prisma.PersonWhereInput = {};
 
-    return this.databaseClient.person.findMany({
+    if (selected) {
+      whereClause.id = {
+        notIn: selected,
+      };
+    }
+
+    if (q) {
+      whereClause.name = {
+        contains: q.trim(),
+        mode: 'insensitive',
+      };
+    } else {
+      whereClause.selected = true;
+    }
+
+    const queryResult = await this.databaseClient.person.findMany({
       select: {
         id: true,
         name: true,
-        image: true,
       },
       where: whereClause,
+      take: DEFAULT_PAGINATION_LIMIT,
       orderBy: {
         name: 'asc',
       },
     });
+
+    if (selected) {
+      const selectedPeople = await this.databaseClient.person.findMany({
+        select: {
+          id: true,
+          name: true,
+        },
+        where: {
+          id: {
+            in: selected,
+          },
+        },
+      });
+
+      return [...queryResult, ...selectedPeople];
+    }
+
+    return queryResult;
   }
 
   update(id: number, input: UpdatePersonInput) {
