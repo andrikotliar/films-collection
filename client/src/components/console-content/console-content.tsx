@@ -1,6 +1,10 @@
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 import styles from './console-content.module.css';
 
-export const ConsoleContent: FC<PropsWithChildren> = ({ children }) => {
+type ConsoleContentProps = {
+  children?: ReactNode;
+};
+
+export const ConsoleContent = ({ children }: ConsoleContentProps) => {
   return <div className={styles.contentLayout}>{children}</div>;
 };

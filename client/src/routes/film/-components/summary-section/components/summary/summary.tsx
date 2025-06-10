@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { SummaryBlock } from '../summary-block/summary-block';
 import styles from './summary.module.css';
 import { SummaryConfig } from '@/routes/film/-types';
@@ -7,7 +6,7 @@ type SummaryProps = {
   config: SummaryConfig[];
 };
 
-export const Summary: FC<SummaryProps> = ({ config }) => {
+export const Summary = ({ config }: SummaryProps) => {
   return (
     <div className={styles.summary}>
       {config.map((item) => (

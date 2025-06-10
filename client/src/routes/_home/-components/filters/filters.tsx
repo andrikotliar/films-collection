@@ -1,5 +1,5 @@
 import styles from './filters.module.css';
-import { Dispatch, FC, SetStateAction, useEffect } from 'react';
+import { Dispatch, SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
 import { FilterOptions } from './components';
@@ -31,11 +31,11 @@ const defaultValues: FilmsListFilters = {
 
 const routeApi = getRouteApi('/_home/');
 
-export const Filters: FC<FiltersProps> = ({
+export const Filters = ({
   config,
   setIsFilterOpen,
   updateFiltersCount,
-}) => {
+}: FiltersProps) => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 
@@ -50,7 +50,7 @@ export const Filters: FC<FiltersProps> = ({
     const { searchLastVisitedFilms, ...search } = filledOptions;
 
     if (searchLastVisitedFilms) {
-      const ids = LocalStorage.getItem<number[]>('LAST_VISITED_FILMS');
+      const ids = LocalStorage.getItem<number[]>('films:last_visited');
 
       if (ids) {
         search.ids = ids;

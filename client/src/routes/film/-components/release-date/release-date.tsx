@@ -1,12 +1,11 @@
 import { getFormattedDate } from '@/helpers';
-import { FC } from 'react';
 import { DataLink } from '../data-link/data-link';
 
 type ReleaseDateProps = {
   value: string;
 };
 
-export const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
+export const ReleaseDate = ({ value }: ReleaseDateProps) => {
   const sourceDate = new Date(value);
 
   const formattedDate = getFormattedDate(value);

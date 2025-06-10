@@ -1,5 +1,4 @@
 import { DateFilter } from '@/types';
-import { FC } from 'react';
 import { FormGroup } from '../form-group/form-group';
 import { FormDatePicker } from '../date-picker';
 import { useFormContext } from 'react-hook-form';
@@ -10,7 +9,7 @@ type FormDateRangeProps = {
   title: string;
 };
 
-export const FormDateRange: FC<FormDateRangeProps> = ({ inputs, title }) => {
+export const FormDateRange = ({ inputs, title }: FormDateRangeProps) => {
   const { getValues } = useFormContext();
   const formValues = getValues();
 

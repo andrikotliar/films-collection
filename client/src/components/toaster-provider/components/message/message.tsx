@@ -8,7 +8,7 @@ import {
   TriangleAlertIcon,
   XIcon,
 } from 'lucide-react';
-import { FC, ReactNode } from 'react';
+import { ReactNode } from 'react';
 
 type MessageProps = {
   data: Toast;
@@ -29,7 +29,7 @@ const typeToIcon: Record<ToastType, ReactNode> = {
   info: <InfoIcon />,
 };
 
-export const Message: FC<MessageProps> = ({ data, onRemove }) => {
+export const Message = ({ data, onRemove }: MessageProps) => {
   return (
     <div
       className={classNames(styles.message, typeToClassName[data.type])}

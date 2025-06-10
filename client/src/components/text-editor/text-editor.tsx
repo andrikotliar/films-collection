@@ -1,5 +1,4 @@
 import styles from './text-editor.module.css';
-import { FC } from 'react';
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { FormError } from '@/types';
@@ -16,12 +15,12 @@ export type TextEditorProps = {
   onChange: (content: string) => void;
 };
 
-export const TextEditor: FC<TextEditorProps> = ({
+export const TextEditor = ({
   label,
   error,
   content = '',
   onChange,
-}) => {
+}: TextEditorProps) => {
   const editor = useEditor({
     extensions,
     content,

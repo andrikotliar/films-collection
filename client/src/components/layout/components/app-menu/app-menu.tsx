@@ -2,7 +2,7 @@ import { Menu } from '@/components/menu/menu';
 import { mainMenu } from '@/configs';
 import styles from './app-menu.module.css';
 import classNames from 'classnames';
-import { FC, RefObject, useRef } from 'react';
+import { RefObject, useRef } from 'react';
 import { useClickOutside, useCloseOnScroll } from '@/hooks';
 
 type AppMenuProps = {
@@ -11,11 +11,7 @@ type AppMenuProps = {
   menuButtonRef: RefObject<HTMLButtonElement>;
 };
 
-export const AppMenu: FC<AppMenuProps> = ({
-  isOpen,
-  onClose,
-  menuButtonRef,
-}) => {
+export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useClickOutside({

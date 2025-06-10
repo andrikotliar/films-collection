@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { FilmsListItem } from '@/types';
 import { FilmLink } from './components';
 import styles from './films-grid.module.css';
@@ -7,7 +6,7 @@ type FilmsGridProps = {
   films: FilmsListItem[];
 };
 
-export const FilmsGrid: FC<FilmsGridProps> = ({ films }) => {
+export const FilmsGrid = ({ films }: FilmsGridProps) => {
   return (
     <div className={styles.grid}>
       {films.map((film) => (

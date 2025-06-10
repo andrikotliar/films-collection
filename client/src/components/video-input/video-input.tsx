@@ -5,23 +5,42 @@ import {
   useEffect,
   useState,
 } from 'react';
-import { TextInput } from '../text-input';
+import { TextInput, TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
 import { YOUTUBE_VIDEO_DIRECT_URL } from '@/constants';
 import styles from './video-input.module.css';
+import { Button } from '@/components/button/button';
+import { Trash2Icon } from 'lucide-react';
+import { FieldLabel } from '@/components/field-label/field-label';
 
 export type VideoInputProps = {
   label?: string;
   error?: string | string[];
   externalWatchedValue?: string;
-} & Omit<ComponentProps<'input'>, 'type' | 'name'>;
+  onRemove?: VoidFunction;
+} & Omit<TextInputProps, 'type' | 'label'>;
 
 const INCORRECT_URL_ERROR = `URL should be ${YOUTUBE_VIDEO_DIRECT_URL}`;
-const REGEX_VALIDATION = /^https:\/\/www\.youtube\.com\/watch\?v=[\w-]+$/;
+const REGEX_VALIDATION = /^https:\/\/www\.youtube\.com\/watch\?v=[\w-]+(&.*)?$/;
 
 export const VideoInput = forwardRef<HTMLInputElement, VideoInputProps>(
-  ({ onBlur, externalWatchedValue, error, ...textInputProps }, ref) => {
-    const [previewId, setPreviewId] = useState(externalWatchedValue ?? '');
+  (
+    { onBlur, externalWatchedValue, error, label, onRemove, ...textInputProps },
+    ref,
+  ) => {
+    const [previewId, setPreviewId] = useState(() => {
+      if (!externalWatchedValue) {
+        return '';
+      }
+
+      if (externalWatchedValue.startsWith('http')) {
+        const urlData = new URL(externalWatchedValue);
+        const videoId = urlData.searchParams.get('v');
+        return videoId ?? '';
+      }
+
+      return externalWatchedValue;
+    });
     const [internalError, setInternalError] = useState<string | null>(null);
 
     const handleBlur: FocusEventHandler<HTMLInputElement> = (event) => {
@@ -56,13 +75,23 @@ export const VideoInput = forwardRef<HTMLInputElement, VideoInputProps>(
 
     return (
       <div className={styles.wrapper}>
-        <TextInput
-          ref={ref}
-          onBlur={handleBlur}
-          error={internalError ?? error}
-          {...textInputProps}
-        />
-        <VideoPreview videoId={previewId} />
+        {label && <FieldLabel>{label}</FieldLabel>}
+        <div className={styles.container}>
+          <VideoPreview videoId={previewId} />
+          <div className={styles.tools}>
+            <TextInput
+              ref={ref}
+              onBlur={handleBlur}
+              error={internalError ?? error}
+              {...textInputProps}
+            />
+            {onRemove && (
+              <Button icon={<Trash2Icon />} variant="ghost" onClick={onRemove}>
+                Delete
+              </Button>
+            )}
+          </div>
+        </div>
       </div>
     );
   },

@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { PasswordInput, PasswordInputProps } from './password-input';
 
@@ -6,10 +5,7 @@ type FormPasswordProps = {
   name: string;
 } & PasswordInputProps;
 
-export const FormPasswordInput: FC<FormPasswordProps> = ({
-  name,
-  ...props
-}) => {
+export const FormPasswordInput = ({ name, ...props }: FormPasswordProps) => {
   const { register, formState } = useFormContext();
 
   const { errors } = formState;

@@ -1,6 +1,10 @@
 import styles from './film-page-layout.module.css';
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 
-export const FilmPageLayout: FC<PropsWithChildren> = ({ children }) => {
+type FilmPageLayoutProps = {
+  children?: ReactNode;
+};
+
+export const FilmPageLayout = ({ children }: FilmPageLayoutProps) => {
   return <div className={styles.filmPageLayout}>{children}</div>;
 };

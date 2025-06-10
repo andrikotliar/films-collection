@@ -11,7 +11,7 @@ import {
   FormRatingInput,
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
-import { FC, FormEventHandler } from 'react';
+import { FormEventHandler } from 'react';
 import { StatusColor } from '@/types';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
@@ -22,11 +22,11 @@ type PendingFilmFormProps = {
   isSaving: boolean;
 };
 
-export const PendingFilmForm: FC<PendingFilmFormProps> = ({
+export const PendingFilmForm = ({
   onSubmit,
   isSaving,
   title,
-}) => {
+}: PendingFilmFormProps) => {
   const { data } = useQuery(fetchInitialDataQuery());
 
   return (

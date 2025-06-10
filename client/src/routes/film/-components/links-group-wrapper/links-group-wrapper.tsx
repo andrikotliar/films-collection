@@ -1,8 +1,10 @@
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 import styles from './links-group-wrapper.module.css';
 
-type LinksGroupWrapperProps = PropsWithChildren;
+type LinksGroupWrapperProps = {
+  children?: ReactNode;
+};
 
-export const LinksGroupWrapper: FC<LinksGroupWrapperProps> = ({ children }) => {
+export const LinksGroupWrapper = ({ children }: LinksGroupWrapperProps) => {
   return <div className={styles.linksGroupWrapper}>{children}</div>;
 };

@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation } from '@tanstack/react-query';
 import { FormProvider, useForm } from 'react-hook-form';
@@ -15,10 +14,10 @@ type EditCollectionEventFormProps = {
   onSubmitSuccess: VoidFunction;
 };
 
-export const EditCollectionEventForm: FC<EditCollectionEventFormProps> = ({
+export const EditCollectionEventForm = ({
   defaultValues,
   onSubmitSuccess,
-}) => {
+}: EditCollectionEventFormProps) => {
   const form = useForm({
     defaultValues: {
       title: defaultValues.title,

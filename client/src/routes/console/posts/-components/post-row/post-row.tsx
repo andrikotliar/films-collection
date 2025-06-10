@@ -2,7 +2,6 @@ import styles from './post-row.module.css';
 import { PostsListItem } from '@/types';
 import { Button, IconLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
-import { FC } from 'react';
 import sanitize from 'sanitize-html';
 
 type PostRowProps = {
@@ -10,7 +9,7 @@ type PostRowProps = {
   onDelete: (data: PostsListItem) => void;
 };
 
-export const PostRow: FC<PostRowProps> = ({ data, onDelete }) => {
+export const PostRow = ({ data, onDelete }: PostRowProps) => {
   const sanitizedText = sanitize(data.shortContent, {
     allowedTags: [],
     allowedAttributes: {},

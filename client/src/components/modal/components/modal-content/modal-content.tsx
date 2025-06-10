@@ -1,15 +1,13 @@
 import classNames from 'classnames';
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 import styles from './modal-content.module.css';
 
 type ModalContentProps = {
   className?: string;
+  children?: ReactNode;
 };
 
-export const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
-  children,
-  className,
-}) => {
+export const ModalContent = ({ children, className }: ModalContentProps) => {
   return (
     <div
       className={classNames(styles.content, className)}

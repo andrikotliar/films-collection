@@ -1,5 +1,5 @@
 import styles from './pagination.module.css';
-import { FC, useMemo } from 'react';
+import { useMemo } from 'react';
 import classNames from 'classnames';
 import { buildPagination } from '@/helpers';
 
@@ -11,13 +11,13 @@ export type PaginationProps = {
   totalLabel?: string;
 };
 
-export const Pagination: FC<PaginationProps> = ({
+export const Pagination = ({
   total,
   onPageChange,
   currentPageIndex = 0,
   perPageCounter,
   totalLabel = 'items',
-}) => {
+}: PaginationProps) => {
   const pagesCount = Math.ceil(total / perPageCounter);
   const currentRangeEnd =
     total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;

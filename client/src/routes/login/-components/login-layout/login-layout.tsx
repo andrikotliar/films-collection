@@ -1,6 +1,10 @@
 import styles from './login-layout.module.css';
-import { FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 
-export const LoginLayout: FC<PropsWithChildren> = ({ children }) => {
+type LoginLayoutProps = {
+  children: ReactNode;
+};
+
+export const LoginLayout = ({ children }: LoginLayoutProps) => {
   return <div className={styles.loginLayout}>{children}</div>;
 };

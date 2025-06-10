@@ -1,17 +1,22 @@
-import { FC } from 'react';
-import { FilmCrew } from '@/types';
+import { FilmPerson } from '@/types';
 import { CrewItem } from './components';
 import styles from './crew-list.module.css';
 
 type CrewListProps = {
-  crew: FilmCrew[];
+  people: FilmPerson[];
 };
 
-export const CrewList: FC<CrewListProps> = ({ crew }) => {
+export const CrewList = ({ people }: CrewListProps) => {
+  const crew = people.filter((item) => item.role !== 'ACTOR');
+
+  if (!crew.length) {
+    return <div>Data not found</div>;
+  }
+
   return (
     <div className={styles.list}>
       {crew.map((crewItem) => (
-        <CrewItem crewItem={crewItem} key={crewItem.position} />
+        <CrewItem crewItem={crewItem} key={crewItem.role} />
       ))}
     </div>
   );

@@ -1,5 +1,4 @@
 import styles from './admin-film.module.css';
-import { FC } from 'react';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 import { FilmsAdminListItem } from '@/types';
 import { Link } from '@tanstack/react-router';
@@ -9,7 +8,7 @@ type AdminFilmProps = {
   film: FilmsAdminListItem;
 };
 
-export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
+export const AdminFilm = ({ film }: AdminFilmProps) => {
   return (
     <div className={styles.film}>
       <Link

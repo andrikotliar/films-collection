@@ -4,7 +4,6 @@ import { useBaseForm } from '@/routes/console/-hooks';
 import { BaseFormValues } from '@/routes/console/-types';
 import { GeneralData } from '@/types';
 import { useMutation } from '@tanstack/react-query';
-import { FC } from 'react';
 import { FormProvider } from 'react-hook-form';
 
 type EditGeneralDataFormProps = {
@@ -14,12 +13,12 @@ type EditGeneralDataFormProps = {
   title?: string;
 };
 
-export const EditGeneralDataForm: FC<EditGeneralDataFormProps> = ({
+export const EditGeneralDataForm = ({
   defaultValues,
   onSubmitSuccess,
   updateHandler,
   title,
-}) => {
+}: EditGeneralDataFormProps) => {
   const toaster = useToaster();
   const form = useBaseForm({
     title: defaultValues.title,

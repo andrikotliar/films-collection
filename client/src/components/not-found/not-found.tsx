@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link, useRouter } from '@tanstack/react-router';
 import styles from './not-found.module.css';
 
@@ -10,10 +9,10 @@ type NotFoundProps = {
 const DEFAULT_TITLE = '404';
 const DEFAULT_MESSAGE = "Page you're looking for doesn't exist.";
 
-export const NotFound: FC<NotFoundProps> = ({
+export const NotFound = ({
   title = DEFAULT_TITLE,
   message = DEFAULT_MESSAGE,
-}) => {
+}: NotFoundProps) => {
   const { history } = useRouter();
 
   return (

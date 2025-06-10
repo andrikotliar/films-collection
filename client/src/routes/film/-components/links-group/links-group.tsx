@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { DataLink } from '../data-link/data-link';
 import { LinksGroupWrapper } from '../links-group-wrapper/links-group-wrapper';
 
@@ -7,7 +6,7 @@ type LinksGroupProps = {
   items: { id: number; title: string }[];
 };
 
-export const LinksGroup: FC<LinksGroupProps> = ({ basePath, items }) => {
+export const LinksGroup = ({ basePath, items }: LinksGroupProps) => {
   return (
     <LinksGroupWrapper>
       {items.map((item) => (

@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './logo-decoration.module.css';
 import { Link } from '@tanstack/react-router';
 import { Image } from '@/components/image/image';
@@ -9,11 +8,11 @@ type LogoDecorationProps = {
   collectionId: number;
 };
 
-export const LogoDecoration: FC<LogoDecorationProps> = ({
+export const LogoDecoration = ({
   src,
   title,
   collectionId,
-}) => {
+}: LogoDecorationProps) => {
   return (
     <Link
       to="/"

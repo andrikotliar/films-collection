@@ -1,7 +1,6 @@
-import { FC } from 'react';
+import styles from './form-checkboxes-group.module.css';
 import { FormCheckbox } from '../checkbox/form-checkbox';
 import { CheckboxProps } from '../checkbox';
-import styles from './form-checkboxes-group.module.css';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 import { useFormContext } from 'react-hook-form';
@@ -14,12 +13,12 @@ type FormCheckboxesGroupProps = {
   type: CheckboxProps['type'];
 };
 
-export const FormCheckboxesGroup: FC<FormCheckboxesGroupProps> = ({
+export const FormCheckboxesGroup = ({
   label,
   options,
   name,
   type,
-}) => {
+}: FormCheckboxesGroupProps) => {
   const form = useFormContext();
 
   const { errors } = form.formState;

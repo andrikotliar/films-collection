@@ -1,5 +1,5 @@
 import styles from './menu-bar.module.css';
-import { FC, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { Editor } from '@tiptap/react';
 import {
   BoldIcon,
@@ -109,7 +109,7 @@ const toolsConfig: ToolsConfigItem[] = [
   },
 ];
 
-export const MenuBar: FC<MenuBarProps> = ({ editor }) => {
+export const MenuBar = ({ editor }: MenuBarProps) => {
   if (!editor) {
     return null;
   }

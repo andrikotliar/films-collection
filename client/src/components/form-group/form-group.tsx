@@ -1,15 +1,13 @@
+import { ReactNode } from 'react';
 import styles from './form-group.module.css';
-import { FC, PropsWithChildren } from 'react';
 
 type GroupProps = {
   title: string;
   bodyClassName?: string;
+  children?: ReactNode;
 };
 
-export const FormGroup: FC<PropsWithChildren<GroupProps>> = ({
-  children,
-  title,
-}) => {
+export const FormGroup = ({ children, title }: GroupProps) => {
   return (
     <div className={styles.group}>
       <div className={styles.groupHeader}>

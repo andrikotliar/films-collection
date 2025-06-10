@@ -1,15 +1,16 @@
+import { ReactNode } from 'react';
 import { UniqueIdentifier } from '@dnd-kit/core';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { GripVerticalIcon } from 'lucide-react';
-import { FC, PropsWithChildren } from 'react';
 import styles from './sortable-item.module.css';
 
-type SortableItemProps = PropsWithChildren<{
+type SortableItemProps = {
   id: UniqueIdentifier;
-}>;
+  children?: ReactNode;
+};
 
-export const SortableItem: FC<SortableItemProps> = ({ children, id }) => {
+export const SortableItem = ({ children, id }: SortableItemProps) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
     useSortable({ id });
 

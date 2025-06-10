@@ -1,8 +1,8 @@
+import styles from './header.module.css';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';
 import { FilmsSearch } from '../films-search/films-search';
-import styles from './header.module.css';
 import { AppMenu } from '../app-menu/app-menu';
 import { Logo } from '@/components/logo/logo';
 import { useLogoDecoration } from '@/hooks';
@@ -37,7 +37,7 @@ export const Header = () => {
             search={location.pathname === '/' ? location.search : undefined}
             className={styles.logoWrapper}
           >
-            <Logo className={styles.logo} />
+            <Logo />
           </Link>
           {logoDecoration !== null && (
             <LogoDecoration

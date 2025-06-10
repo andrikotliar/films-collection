@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './rating.module.css';
 import { Link } from '@tanstack/react-router';
 import classNames from 'classnames';
@@ -10,7 +9,7 @@ type RatingProps = {
 
 const HIGHEST_RATING_VALUE = 3;
 
-export const Rating: FC<RatingProps> = ({ value }) => {
+export const Rating = ({ value }: RatingProps) => {
   const isHighestRating = value === HIGHEST_RATING_VALUE;
 
   return (

@@ -1,5 +1,5 @@
 import { FilmDetails } from '@/types';
-import { CSSProperties, FC, useMemo } from 'react';
+import { CSSProperties, useMemo } from 'react';
 import styles from './summary-section.module.css';
 import { Poster, Summary, Trailers } from './components';
 import { getFilmSummaryConfig } from '../../-helpers';
@@ -10,7 +10,7 @@ type SummarySectionProps = {
   film: FilmDetails;
 };
 
-export const SummarySection: FC<SummarySectionProps> = ({ film }) => {
+export const SummarySection = ({ film }: SummarySectionProps) => {
   const filmConfig = useMemo(() => {
     return getFilmSummaryConfig(film);
   }, [film]);

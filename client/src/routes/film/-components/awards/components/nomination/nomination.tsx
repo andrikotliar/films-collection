@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './nomination.module.css';
 import { RouterLink } from '@/components';
 import { Person } from '@/types';
@@ -9,11 +8,7 @@ type NominationProps = {
   nominee: Person | null;
 };
 
-export const Nomination: FC<NominationProps> = ({
-  title,
-  comment,
-  nominee,
-}) => {
+export const Nomination = ({ title, comment, nominee }: NominationProps) => {
   return (
     <div className={styles.nomination}>
       <div className={styles.container}>

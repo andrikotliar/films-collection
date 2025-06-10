@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './loader.module.css';
 import classNames from 'classnames';
 import { LoaderCircle } from 'lucide-react';
@@ -9,11 +8,11 @@ export type LoaderProps = {
   shouldInheritColor?: boolean;
 };
 
-export const Loader: FC<LoaderProps> = ({
+export const Loader = ({
   isFullPage = false,
   size = 60,
   shouldInheritColor = false,
-}) => {
+}: LoaderProps) => {
   return (
     <div
       className={classNames(styles.loaderContainer, {

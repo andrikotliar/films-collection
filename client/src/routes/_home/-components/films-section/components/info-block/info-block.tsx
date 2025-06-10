@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styles from './info-block.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
@@ -12,13 +11,13 @@ type InfoBlockProps = {
   description?: string | null;
 };
 
-export const InfoBlock: FC<InfoBlockProps> = ({
+export const InfoBlock = ({
   imagePath,
   imageAlt,
   label,
   title,
   description,
-}) => {
+}: InfoBlockProps) => {
   const navigate = useNavigate();
 
   const handleClearFilter = () => {

@@ -17,14 +17,9 @@ type ListItem = {
   [key: string]: unknown;
 };
 
-type ChildrenProps<T> = {
-  item: T;
-  index: number;
-};
-
 type SortableListProps<T extends ListItem> = {
   items: T[];
-  children: (props: ChildrenProps<T>) => ReactNode;
+  children: ReactNode;
   onDragEnd: (event: DragEndEvent) => void;
 };
 
@@ -36,14 +31,10 @@ export const SortableList = <T extends ListItem>({
   return (
     <DndContext collisionDetection={closestCenter} onDragEnd={onDragEnd}>
       <SortableContext items={items} strategy={verticalListSortingStrategy}>
-        <div className={styles.wrapper}>
-          {items.map((item, index) => (
-            <SortableItem key={item.id} id={item.id}>
-              {children({ item, index })}
-            </SortableItem>
-          ))}
-        </div>
+        {children}
       </SortableContext>
     </DndContext>
   );
 };
+
+SortableList.Item = SortableItem;

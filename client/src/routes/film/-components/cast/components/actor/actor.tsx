@@ -1,32 +1,31 @@
-import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
-import { FilmCast } from '@/types';
+import { FilmPersonData } from '@/types';
 import styles from './actor.module.css';
 import { Image } from '@/components';
 
 type ActorProps = {
-  data: FilmCast;
+  data: FilmPersonData;
 };
 
-export const Actor: FC<ActorProps> = ({ data }) => {
+export const Actor = ({ data }: ActorProps) => {
   return (
     <Link
       className={styles.actor}
       to="/"
-      search={{ actorId: data.person.id.toString() }}
-      key={data.person.id}
+      search={{ actorId: data.id.toString() }}
+      key={data.id}
     >
       <div className={styles.imageWrapper}>
         <Image
-          src={data.person.image}
-          alt={data.person.name}
+          src={data.image}
+          alt={data.name}
           isExternal
           className={styles.image}
         />
       </div>
 
-      <div className={styles.name}>{data.person.name}</div>
-      <p className={styles.role}>{data.characterName}</p>
+      <div className={styles.name}>{data.name}</div>
+      <p className={styles.role}>{data.details}</p>
     </Link>
   );
 };

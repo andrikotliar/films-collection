@@ -3,8 +3,9 @@
   display: block;
   overflow: hidden;
   border-radius: 8px;
-  width: 100%;
+  width: 40%;
   aspect-ratio: 16 / 9;
+  flex-shrink: 0;
 }
 
 .playIcon {

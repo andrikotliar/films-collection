@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import styles from './menu.module.css';
 import { MenuConfigItem } from '@/types';
@@ -10,11 +9,11 @@ type MenuProps = {
   isStandalone?: boolean;
 };
 
-export const Menu: FC<MenuProps> = ({
+export const Menu = ({
   config,
   className,
   isStandalone = false,
-}) => {
+}: MenuProps) => {
   const location = useLocation();
 
   const checkActiveState = (currentLink: string) => {

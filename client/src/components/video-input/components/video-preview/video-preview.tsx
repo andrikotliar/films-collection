@@ -1,5 +1,4 @@
 import { images } from '@/assets/images';
-import { FC } from 'react';
 import styles from './video-preview.module.css';
 import { Image } from '@/components/image/image';
 import { replaceUrlId } from '@/helpers';
@@ -13,7 +12,7 @@ type VideoPreviewProps = {
   videoId: string;
 };
 
-export const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
+export const VideoPreview = ({ videoId }: VideoPreviewProps) => {
   if (!videoId.length) {
     return (
       <div className={styles.previewWrapper}>

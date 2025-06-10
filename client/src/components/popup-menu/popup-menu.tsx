@@ -5,9 +5,8 @@ import {
   useFocusTrap,
 } from '@/hooks';
 import {
-  FC,
   HTMLAttributes,
-  PropsWithChildren,
+  ReactNode,
   RefObject,
   useCallback,
   useEffect,
@@ -19,9 +18,10 @@ import { createPortal } from 'react-dom';
 import classNames from 'classnames';
 
 type PopupMenuProps = {
-  isOpen: boolean;
   onClose: VoidFunction;
+  isOpen: boolean;
   triggerRef: RefObject<HTMLElement>;
+  children?: ReactNode;
   menuMargin?: number;
   positionMarker?: 'left' | 'right';
   shouldAdjustToTriggerWidth?: boolean;
@@ -35,7 +35,7 @@ type Position = {
 
 const DEFAULT_MENU_MARGIN_PX = 10;
 
-export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
+export const PopupMenu = ({
   isOpen,
   onClose,
   triggerRef,
@@ -46,7 +46,7 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose = false,
   ...divProps
-}) => {
+}: PopupMenuProps) => {
   const [position, setPosition] = useState<Position | null>(null);
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);

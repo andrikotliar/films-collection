@@ -4,9 +4,11 @@ import {
 } from '@/components/toaster-provider/components';
 import { Toast, ToastType } from '@/components/toaster-provider/types';
 import { ToasterContext, ToasterContextValues } from '@/contexts';
-import { FC, PropsWithChildren, useMemo, useState } from 'react';
+import { ReactNode, useMemo, useState } from 'react';
 
-type ToasterProviderProps = PropsWithChildren;
+type ToasterProviderProps = {
+  children?: ReactNode;
+};
 
 const messageTypeToTimeout: Record<ToastType, number> = {
   success: 3000,
@@ -15,7 +17,7 @@ const messageTypeToTimeout: Record<ToastType, number> = {
   warning: 5000,
 };
 
-export const ToasterProvider: FC<ToasterProviderProps> = ({ children }) => {
+export const ToasterProvider = ({ children }: ToasterProviderProps) => {
   const [toasts, setToasts] = useState<Toast[]>([]);
 
   const addToast = (type: ToastType, message: string) => {

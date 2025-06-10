@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
 import { Image } from '@/components';
@@ -10,7 +9,7 @@ type AwardsProps = {
   awards: FilmAward[];
 };
 
-export const Awards: FC<AwardsProps> = ({ awards }) => {
+export const Awards = ({ awards }: AwardsProps) => {
   return (
     <div className={styles.wrapper}>
       {awards.map(({ award, nominations }) => (
