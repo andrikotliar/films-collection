@@ -17,7 +17,7 @@ const defaultLoginValues: LoginPayload = {
 
 const LoginContainer = () => {
   const navigate = useNavigate();
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
 
   const { mutate, isPending } = useMutation<
     AuthResponse,
@@ -33,7 +33,7 @@ const LoginContainer = () => {
       }
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 

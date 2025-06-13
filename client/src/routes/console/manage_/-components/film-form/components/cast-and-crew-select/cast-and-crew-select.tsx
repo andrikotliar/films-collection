@@ -49,6 +49,7 @@ export const CastAndCrewSelect = ({
   const { mutate: createPerson } = useManagePerson({
     onSuccessHandler: () => {
       setIsCreateModalOpen(false);
+      form.reset();
     },
   });
 

@@ -13,6 +13,7 @@ import { FieldLabel } from '@/components/field-label/field-label';
 import { PopupMenu } from '@/components/popup-menu/popup-menu';
 import { FieldError } from '@/components/field-error/field-error';
 import {
+  CreateNewItemButton,
   NotFound,
   Option,
   OptionsSearch,
@@ -90,10 +91,19 @@ export const Select = ({
     });
   });
 
+  const handleFinishSelection = useCallback(() => {
+    setIsDropdownOpen(false);
+    setInternalOptions(options);
+    setSearchInputValue('');
+
+    if (typeof onOptionsSearch === 'function') {
+      onOptionsSearch(null);
+    }
+  }, [onOptionsSearch]);
+
   const handleSelectValue = useCallback(
     (value: unknown, isActive: boolean) => {
-      setIsDropdownOpen(false);
-      setInternalOptions(options);
+      handleFinishSelection();
 
       if (!isMulti) {
         onSelect(value);
@@ -216,6 +226,13 @@ export const Select = ({
     [],
   );
 
+  const handleClickAddItem = () => {
+    onCreateOption?.();
+    onOptionsSearch?.(null);
+    setSearchInputValue('');
+    setIsDropdownOpen(false);
+  };
+
   const hasSelectedValues = selectedValues.length !== 0;
   const shouldShowPlaceholder = !hasSelectedValues || isMulti;
   const shouldShowClearButton = hasSelectedValues && isClearable && !isDisabled;
@@ -277,8 +294,9 @@ export const Select = ({
               ref={(button) => (optionsRef.current[index] = button!)}
             />
           ))}
-          {internalOptions.length === 0 && (
-            <NotFound onCreate={onCreateOption} />
+          {internalOptions.length === 0 && <NotFound />}
+          {typeof onCreateOption === 'function' && (
+            <CreateNewItemButton onCreate={handleClickAddItem} />
           )}
         </div>
       </PopupMenu>

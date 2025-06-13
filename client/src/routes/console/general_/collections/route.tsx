@@ -28,7 +28,7 @@ export const Route = createFileRoute('/console/general_/collections')({
 });
 
 function PageContainer() {
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
   const { data, refetch } = useSuspenseQuery(fetchCollectionsListQuery());
 
   const [collectionToDelete, setCollectionToDelete] =
@@ -47,7 +47,7 @@ function PageContainer() {
       refetch();
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 
@@ -58,7 +58,7 @@ function PageContainer() {
       setCollectionToDelete(null);
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 

@@ -1,12 +1,12 @@
+import { ToastType } from '@/components/toaster-provider/types';
 import { createContext } from 'react';
 
 type ToasterMessageHandler = (message: string) => void;
 
+type ToasterHandlerKey = `show${Capitalize<ToastType>}Message`;
+
 export type ToasterContextValues = {
-  error: ToasterMessageHandler;
-  success: ToasterMessageHandler;
-  info: ToasterMessageHandler;
-  warning: ToasterMessageHandler;
+  [key in ToasterHandlerKey]: ToasterMessageHandler;
 };
 
 export const ToasterContext = createContext({} as ToasterContextValues);

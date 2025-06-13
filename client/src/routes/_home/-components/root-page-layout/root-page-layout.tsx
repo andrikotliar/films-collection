@@ -10,7 +10,7 @@ export const RootPageLayout = ({
   ...rest
 }: RootPageLayoutProps) => {
   return (
-    <div {...rest} className={classNames(styles.rootPageLayout)}>
+    <div {...rest} className={classNames(styles.rootPageLayout, className)}>
       {children}
     </div>
   );

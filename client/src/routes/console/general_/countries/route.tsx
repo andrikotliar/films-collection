@@ -29,7 +29,7 @@ export const Route = createFileRoute('/console/general_/countries')({
 
 function PageContainer() {
   const { data, refetch } = useSuspenseQuery(fetchCountriesListQuery());
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
   const form = useBaseForm();
   const [itemToUpdate, setItemToUpdate] = useState<GeneralData | null>(null);
   const [itemToDelete, setItemToDelete] = useState<GeneralData | null>(null);
@@ -41,7 +41,7 @@ function PageContainer() {
       form.reset();
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 
@@ -52,7 +52,7 @@ function PageContainer() {
       setItemToDelete(null);
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 
