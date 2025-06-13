@@ -14,28 +14,6 @@
   "chapterKey": "b13",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 234,
-      "characterName": "Damien Tomaso"
-    },
-    {
-      "personId": 267,
-      "characterName": "Le'to"
-    },
-    {
-      "personId": 1145,
-      "characterName": "K2"
-    },
-    {
-      "personId": 120,
-      "characterName": "Taha Bemamud"
-    },
-    {
-      "personId": 259,
-      "characterName": "Lola"
-    }
-  ],
   "collections": [
     {
       "collectionId": 12,
@@ -55,43 +33,6 @@
       "countryId": 4
     }
   ],
-  "crew": [
-    {
-      "personId": 1430,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1432,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1433,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1434,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1435,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 4
@@ -106,6 +47,80 @@
     {
       "videoId": "Mcmkx1klOpE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1430,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1432,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1433,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1434,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1435,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 234,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Damien Tomaso"
+    },
+    {
+      "personId": 267,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Le'to"
+    },
+    {
+      "personId": 1145,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "K2"
+    },
+    {
+      "personId": 120,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Taha Bemamud"
+    },
+    {
+      "personId": 259,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lola"
     }
   ]
 }

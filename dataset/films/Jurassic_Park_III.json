@@ -14,28 +14,6 @@
   "chapterKey": "jurassic-park",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1031,
-      "characterName": "Dr. Alan Grant"
-    },
-    {
-      "personId": 1181,
-      "characterName": "Paul Kirby"
-    },
-    {
-      "personId": 1157,
-      "characterName": "Amanda Kirby"
-    },
-    {
-      "personId": 32,
-      "characterName": "Billy Brennan"
-    },
-    {
-      "personId": 1152,
-      "characterName": "Eric Kirby"
-    }
-  ],
   "collections": [
     {
       "collectionId": 9,
@@ -45,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1400,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1740,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1741,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1742,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1382,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1738,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1743,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1401,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -109,6 +45,86 @@
     {
       "videoId": "gjIaV6CU0wA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1400,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1740,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1741,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1742,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1382,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1738,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1743,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1401,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1031,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Alan Grant"
+    },
+    {
+      "personId": 1181,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Paul Kirby"
+    },
+    {
+      "personId": 1157,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Amanda Kirby"
+    },
+    {
+      "personId": 32,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Billy Brennan"
+    },
+    {
+      "personId": 1152,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eric Kirby"
     }
   ]
 }

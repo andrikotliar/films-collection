@@ -21,36 +21,6 @@
       "comment": "Dominic Toretto and Brian O'Conner"
     }
   ],
-  "cast": [
-    {
-      "personId": 911,
-      "characterName": "Brian O'Conner"
-    },
-    {
-      "personId": 1164,
-      "characterName": "Dominic Toretto"
-    },
-    {
-      "personId": 838,
-      "characterName": "Letty"
-    },
-    {
-      "personId": 613,
-      "characterName": "Mia Toretto"
-    },
-    {
-      "personId": 975,
-      "characterName": "Johnny Tran"
-    },
-    {
-      "personId": 178,
-      "characterName": "Jesse"
-    },
-    {
-      "personId": 804,
-      "characterName": "Vince"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -63,38 +33,6 @@
     },
     {
       "countryId": 5
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2159,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2160,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2161,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1270,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2162,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2163,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -114,6 +52,86 @@
     {
       "videoId": "2TAOizOnNPo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2159,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2160,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2161,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1270,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2162,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2163,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 911,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brian O'Conner"
+    },
+    {
+      "personId": 1164,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dominic Toretto"
+    },
+    {
+      "personId": 838,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Letty"
+    },
+    {
+      "personId": 613,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mia Toretto"
+    },
+    {
+      "personId": 975,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Johnny Tran"
+    },
+    {
+      "personId": 178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jesse"
+    },
+    {
+      "personId": 804,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vince"
     }
   ]
 }

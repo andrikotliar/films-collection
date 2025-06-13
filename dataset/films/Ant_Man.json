@@ -21,44 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 910,
-      "characterName": "Scott Lang / Ant-Man"
-    },
-    {
-      "personId": 822,
-      "characterName": "Dr. Hank Pym"
-    },
-    {
-      "personId": 361,
-      "characterName": "Hope van Dyne"
-    },
-    {
-      "personId": 229,
-      "characterName": "Darren Cross / Yellowjacket"
-    },
-    {
-      "personId": 134,
-      "characterName": "Paxton"
-    },
-    {
-      "personId": 828,
-      "characterName": "Luis"
-    },
-    {
-      "personId": 74,
-      "characterName": "Sam Wilson / Falcon"
-    },
-    {
-      "personId": 625,
-      "characterName": "Maggie Lang"
-    },
-    {
-      "personId": 5,
-      "characterName": "Cassie Lang"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -68,48 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1305,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1306,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1307,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1308,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 910,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1303,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1310,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -132,6 +52,110 @@
     {
       "videoId": "pWdKf3MneyI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1305,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1306,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1307,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1308,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 910,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1303,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1310,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 910,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scott Lang / Ant-Man"
+    },
+    {
+      "personId": 822,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Hank Pym"
+    },
+    {
+      "personId": 361,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hope van Dyne"
+    },
+    {
+      "personId": 229,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darren Cross / Yellowjacket"
+    },
+    {
+      "personId": 134,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Paxton"
+    },
+    {
+      "personId": 828,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luis"
+    },
+    {
+      "personId": 74,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Wilson / Falcon"
+    },
+    {
+      "personId": 625,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maggie Lang"
+    },
+    {
+      "personId": 5,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cassie Lang"
     }
   ]
 }

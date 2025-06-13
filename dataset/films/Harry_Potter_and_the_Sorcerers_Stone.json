@@ -21,40 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 251,
-      "characterName": "Harry Potter"
-    },
-    {
-      "personId": 1014,
-      "characterName": "Ron Weasley"
-    },
-    {
-      "personId": 345,
-      "characterName": "Hermione Granger"
-    },
-    {
-      "personId": 970,
-      "characterName": "Albus Dumbledore"
-    },
-    {
-      "personId": 981,
-      "characterName": "Rubeus Hagrid"
-    },
-    {
-      "personId": 457,
-      "characterName": "Quirinus Quirrell"
-    },
-    {
-      "personId": 1130,
-      "characterName": "Draco Malfoy"
-    },
-    {
-      "personId": 22,
-      "characterName": "Severus Snape"
-    }
-  ],
   "collections": [
     {
       "collectionId": 2,
@@ -71,33 +37,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1560,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1561,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1562,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1579,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -117,6 +56,86 @@
     {
       "videoId": "VyHV0BRtdxo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1560,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1561,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1562,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1579,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 251,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Harry Potter"
+    },
+    {
+      "personId": 1014,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ron Weasley"
+    },
+    {
+      "personId": 345,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hermione Granger"
+    },
+    {
+      "personId": 970,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Albus Dumbledore"
+    },
+    {
+      "personId": 981,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rubeus Hagrid"
+    },
+    {
+      "personId": 457,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Quirinus Quirrell"
+    },
+    {
+      "personId": 1130,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Draco Malfoy"
+    },
+    {
+      "personId": 22,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Severus Snape"
     }
   ]
 }

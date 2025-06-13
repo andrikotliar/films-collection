@@ -14,24 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 380,
-      "characterName": "Philippe"
-    },
-    {
-      "personId": 893,
-      "characterName": "Driss"
-    },
-    {
-      "personId": 68,
-      "characterName": "Yvonne"
-    },
-    {
-      "personId": 94,
-      "characterName": "Magalie"
-    }
-  ],
   "collections": [
     {
       "collectionId": 3,
@@ -41,53 +23,6 @@
   "countries": [
     {
       "countryId": 4
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2185,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2186,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2187,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2186,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2188,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2189,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2190,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2191,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2192,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -113,6 +48,86 @@
     {
       "videoId": "34WIbmXkewU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2185,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2186,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2187,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2186,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2188,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2189,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2190,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2191,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2192,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 380,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Philippe"
+    },
+    {
+      "personId": 893,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Driss"
+    },
+    {
+      "personId": 68,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yvonne"
+    },
+    {
+      "personId": 94,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Magalie"
     }
   ]
 }

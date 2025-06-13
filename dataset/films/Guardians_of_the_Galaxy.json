@@ -51,56 +51,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 199,
-      "characterName": "Peter Quill / Star-Lord"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Gamora"
-    },
-    {
-      "personId": 263,
-      "characterName": "Drax"
-    },
-    {
-      "personId": 1164,
-      "characterName": "Groot"
-    },
-    {
-      "personId": 141,
-      "characterName": "Rocket"
-    },
-    {
-      "personId": 711,
-      "characterName": "Ronan"
-    },
-    {
-      "personId": 830,
-      "characterName": "Yondu Udonta"
-    },
-    {
-      "personId": 640,
-      "characterName": "Nebula"
-    },
-    {
-      "personId": 297,
-      "characterName": "Korath"
-    },
-    {
-      "personId": 576,
-      "characterName": "Corpsman Dey"
-    },
-    {
-      "personId": 411,
-      "characterName": "Nova Prime"
-    },
-    {
-      "personId": 117,
-      "characterName": "The Collector"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -110,38 +60,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1541,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1541,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1542,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1543,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1406,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -164,6 +82,116 @@
     {
       "videoId": "d96cjJhvlMA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1541,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1541,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1542,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1543,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1406,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 199,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Quill / Star-Lord"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gamora"
+    },
+    {
+      "personId": 263,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Drax"
+    },
+    {
+      "personId": 1164,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Groot"
+    },
+    {
+      "personId": 141,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rocket"
+    },
+    {
+      "personId": 711,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ronan"
+    },
+    {
+      "personId": 830,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yondu Udonta"
+    },
+    {
+      "personId": 640,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nebula"
+    },
+    {
+      "personId": 297,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Korath"
+    },
+    {
+      "personId": 576,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Corpsman Dey"
+    },
+    {
+      "personId": 411,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nova Prime"
+    },
+    {
+      "personId": 117,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Collector"
     }
   ]
 }

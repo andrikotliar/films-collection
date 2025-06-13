@@ -14,24 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "John Hancock"
-    },
-    {
-      "personId": 186,
-      "characterName": "Mary"
-    },
-    {
-      "personId": 524,
-      "characterName": "Ray"
-    },
-    {
-      "personId": 318,
-      "characterName": "Kenneth \"Red\" Parker"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -41,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1545,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1546,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1547,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1548,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1549,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1550,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1178,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1552,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -107,6 +42,86 @@
     {
       "videoId": "SkX1VuXLRSc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1545,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1546,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1547,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1548,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1549,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1550,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1552,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Hancock"
+    },
+    {
+      "personId": 186,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mary"
+    },
+    {
+      "personId": 524,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ray"
+    },
+    {
+      "personId": 318,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kenneth \"Red\" Parker"
     }
   ]
 }

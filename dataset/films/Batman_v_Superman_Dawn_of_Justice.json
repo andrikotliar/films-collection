@@ -14,44 +14,6 @@
   "chapterKey": "dceu",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 104,
-      "characterName": "Bruce Wayne / Batman"
-    },
-    {
-      "personId": 443,
-      "characterName": "Clark Kent / Superman"
-    },
-    {
-      "personId": 54,
-      "characterName": "Lois Lane"
-    },
-    {
-      "personId": 555,
-      "characterName": "Lex Luthor"
-    },
-    {
-      "personId": 291,
-      "characterName": "Martha Kent"
-    },
-    {
-      "personId": 707,
-      "characterName": "Perry White"
-    },
-    {
-      "personId": 551,
-      "characterName": "Alfred Pennyworth"
-    },
-    {
-      "personId": 450,
-      "characterName": "Senator Finch"
-    },
-    {
-      "personId": 392,
-      "characterName": "Diana Prince / Wonder Woman"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -61,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1386,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1387,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1379,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1388,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1389,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1390,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +45,110 @@
     {
       "videoId": "bha24P9uw-E",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1386,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1387,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1379,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1388,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1389,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1390,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 104,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Wayne / Batman"
+    },
+    {
+      "personId": 443,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clark Kent / Superman"
+    },
+    {
+      "personId": 54,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lois Lane"
+    },
+    {
+      "personId": 555,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lex Luthor"
+    },
+    {
+      "personId": 291,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Martha Kent"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Perry White"
+    },
+    {
+      "personId": 551,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alfred Pennyworth"
+    },
+    {
+      "personId": 450,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Senator Finch"
+    },
+    {
+      "personId": 392,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diana Prince / Wonder Woman"
     }
   ]
 }

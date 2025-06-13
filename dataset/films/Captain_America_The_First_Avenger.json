@@ -14,48 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 194,
-      "characterName": "Captain America / Steve Rogers"
-    },
-    {
-      "personId": 438,
-      "characterName": "Peggy Carter"
-    },
-    {
-      "personId": 1050,
-      "characterName": "James Buchanan 'Bucky' Barnes"
-    },
-    {
-      "personId": 1142,
-      "characterName": "Colonel Chester Phillips"
-    },
-    {
-      "personId": 454,
-      "characterName": "Johann Schmidt / Red Skull"
-    },
-    {
-      "personId": 300,
-      "characterName": "Howard Stark"
-    },
-    {
-      "personId": 964,
-      "characterName": "Heinz Kruger"
-    },
-    {
-      "personId": 1079,
-      "characterName": "Dr. Abraham Erskine"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Nick Fury"
-    },
-    {
-      "personId": 1123,
-      "characterName": "Dr. Arnim Zola"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -65,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1400,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1369,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1370,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1371,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1401,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -119,6 +45,104 @@
     {
       "videoId": "JerVrbLldXw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1400,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1369,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1370,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1371,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1401,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 194,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain America / Steve Rogers"
+    },
+    {
+      "personId": 438,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peggy Carter"
+    },
+    {
+      "personId": 1050,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James Buchanan 'Bucky' Barnes"
+    },
+    {
+      "personId": 1142,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Colonel Chester Phillips"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Johann Schmidt / Red Skull"
+    },
+    {
+      "personId": 300,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Howard Stark"
+    },
+    {
+      "personId": 964,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Heinz Kruger"
+    },
+    {
+      "personId": 1079,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Abraham Erskine"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nick Fury"
+    },
+    {
+      "personId": 1123,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Arnim Zola"
     }
   ]
 }

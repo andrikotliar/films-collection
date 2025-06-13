@@ -14,28 +14,6 @@
   "chapterKey": "transformers",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 531,
-      "characterName": "Frank Martin"
-    },
-    {
-      "personId": 935,
-      "characterName": "Lai"
-    },
-    {
-      "personId": 804,
-      "characterName": "Wall Street"
-    },
-    {
-      "personId": 385,
-      "characterName": "Inspector Tarconi"
-    },
-    {
-      "personId": 963,
-      "characterName": "Mr. Kwai"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -45,48 +23,6 @@
   "countries": [
     {
       "countryId": 4
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1862,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2261,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2262,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2264,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1430,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -106,6 +42,86 @@
     {
       "videoId": "0poXFSvX0_4",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1862,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2261,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2262,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2264,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1430,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 531,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frank Martin"
+    },
+    {
+      "personId": 935,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lai"
+    },
+    {
+      "personId": 804,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wall Street"
+    },
+    {
+      "personId": 385,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Inspector Tarconi"
+    },
+    {
+      "personId": 963,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mr. Kwai"
     }
   ]
 }

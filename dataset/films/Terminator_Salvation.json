@@ -14,36 +14,6 @@
   "chapterKey": "terminator",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 203,
-      "characterName": "John Connor"
-    },
-    {
-      "personId": 1034,
-      "characterName": "Marcus Wright"
-    },
-    {
-      "personId": 852,
-      "characterName": "Blair Williams"
-    },
-    {
-      "personId": 441,
-      "characterName": "Dr. Serena Kogan"
-    },
-    {
-      "personId": 76,
-      "characterName": "Kyle Reese"
-    },
-    {
-      "personId": 491,
-      "characterName": "Star"
-    },
-    {
-      "personId": 157,
-      "characterName": "Kate Connor"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -53,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2052,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2053,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2054,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2055,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2056,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1828,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2057,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -112,6 +45,92 @@
     {
       "videoId": "-Czz-TcWCkA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2052,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2053,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2054,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2055,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2056,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1828,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2057,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 203,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Connor"
+    },
+    {
+      "personId": 1034,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marcus Wright"
+    },
+    {
+      "personId": 852,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Blair Williams"
+    },
+    {
+      "personId": 441,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Serena Kogan"
+    },
+    {
+      "personId": 76,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kyle Reese"
+    },
+    {
+      "personId": 491,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Star"
+    },
+    {
+      "personId": 157,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kate Connor"
     }
   ]
 }

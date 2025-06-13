@@ -33,52 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 238,
-      "characterName": "Rey"
-    },
-    {
-      "personId": 7,
-      "characterName": "Kylo Ren"
-    },
-    {
-      "personId": 574,
-      "characterName": "Finn"
-    },
-    {
-      "personId": 785,
-      "characterName": "Luke Skywalker"
-    },
-    {
-      "personId": 171,
-      "characterName": "Leia"
-    },
-    {
-      "personId": 896,
-      "characterName": "Poe Dameron"
-    },
-    {
-      "personId": 61,
-      "characterName": "Snoke"
-    },
-    {
-      "personId": 753,
-      "characterName": "Maz Kanata"
-    },
-    {
-      "personId": 422,
-      "characterName": "Phasma"
-    },
-    {
-      "personId": 299,
-      "characterName": "General Hux"
-    },
-    {
-      "personId": 701,
-      "characterName": "Vice Admiral Holdo"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -88,38 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1999,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1999,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1738,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2000,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2001,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -142,6 +64,110 @@
     {
       "videoId": "Q0CbN8sfihY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1999,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1999,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1738,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2000,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2001,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 238,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rey"
+    },
+    {
+      "personId": 7,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kylo Ren"
+    },
+    {
+      "personId": 574,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Finn"
+    },
+    {
+      "personId": 785,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luke Skywalker"
+    },
+    {
+      "personId": 171,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leia"
+    },
+    {
+      "personId": 896,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Poe Dameron"
+    },
+    {
+      "personId": 61,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Snoke"
+    },
+    {
+      "personId": 753,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maz Kanata"
+    },
+    {
+      "personId": 422,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Phasma"
+    },
+    {
+      "personId": 299,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Hux"
+    },
+    {
+      "personId": 701,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vice Admiral Holdo"
     }
   ]
 }

@@ -111,56 +111,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 179,
-      "characterName": "T'Challa / Black Panther"
-    },
-    {
-      "personId": 818,
-      "characterName": "Erik Killmonger"
-    },
-    {
-      "personId": 753,
-      "characterName": "Nakia"
-    },
-    {
-      "personId": 242,
-      "characterName": "Okoye"
-    },
-    {
-      "personId": 792,
-      "characterName": "Everett K. Ross"
-    },
-    {
-      "personId": 249,
-      "characterName": "W'Kabi"
-    },
-    {
-      "personId": 719,
-      "characterName": "Shuri"
-    },
-    {
-      "personId": 1189,
-      "characterName": "M'Baku"
-    },
-    {
-      "personId": 1088,
-      "characterName": "N'Jobu"
-    },
-    {
-      "personId": 62,
-      "characterName": "Ramonda"
-    },
-    {
-      "personId": 377,
-      "characterName": "Zuri"
-    },
-    {
-      "personId": 61,
-      "characterName": "Ulysses Klaue"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -170,38 +120,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1391,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1391,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1392,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1393,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1394,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -224,6 +142,116 @@
     {
       "videoId": "xjDjIWPwcPU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1391,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1391,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1392,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1393,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1394,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 179,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "T'Challa / Black Panther"
+    },
+    {
+      "personId": 818,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Erik Killmonger"
+    },
+    {
+      "personId": 753,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nakia"
+    },
+    {
+      "personId": 242,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Okoye"
+    },
+    {
+      "personId": 792,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Everett K. Ross"
+    },
+    {
+      "personId": 249,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "W'Kabi"
+    },
+    {
+      "personId": 719,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shuri"
+    },
+    {
+      "personId": 1189,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "M'Baku"
+    },
+    {
+      "personId": 1088,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "N'Jobu"
+    },
+    {
+      "personId": 62,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ramonda"
+    },
+    {
+      "personId": 377,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zuri"
+    },
+    {
+      "personId": 61,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ulysses Klaue"
     }
   ]
 }

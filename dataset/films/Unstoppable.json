@@ -14,20 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 287,
-      "characterName": "Frank"
-    },
-    {
-      "personId": 198,
-      "characterName": "Will"
-    },
-    {
-      "personId": 1004,
-      "characterName": "Connie"
-    }
-  ],
   "collections": [
     {
       "collectionId": 3,
@@ -37,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2343,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2321,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2344,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2345,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2343,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2346,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2347,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2334,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -103,6 +42,80 @@
     {
       "videoId": "fyuoIqeL-bc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2343,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2321,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2344,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2345,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2343,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2346,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2347,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2334,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 287,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frank"
+    },
+    {
+      "personId": 198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Will"
+    },
+    {
+      "personId": 1004,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Connie"
     }
   ]
 }

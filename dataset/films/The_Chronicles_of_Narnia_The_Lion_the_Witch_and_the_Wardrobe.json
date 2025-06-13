@@ -45,40 +45,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 402,
-      "characterName": "Lucy Pevensie"
-    },
-    {
-      "personId": 1072,
-      "characterName": "Edmund Pevensie"
-    },
-    {
-      "personId": 1184,
-      "characterName": "Peter Pevensie"
-    },
-    {
-      "personId": 67,
-      "characterName": "Susan Pevensie"
-    },
-    {
-      "personId": 1118,
-      "characterName": "White Witch"
-    },
-    {
-      "personId": 511,
-      "characterName": "Mr. Tumnus"
-    },
-    {
-      "personId": 562,
-      "characterName": "Professor Kirke"
-    },
-    {
-      "personId": 724,
-      "characterName": "Aslan"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -91,53 +57,6 @@
     },
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1949,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2143,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1949,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1369,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1370,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2144,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2145,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1902,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -157,6 +76,110 @@
     {
       "videoId": "lWKj41HZBzM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1949,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2143,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1949,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1369,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1370,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2144,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2145,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1902,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 402,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lucy Pevensie"
+    },
+    {
+      "personId": 1072,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Edmund Pevensie"
+    },
+    {
+      "personId": 1184,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Pevensie"
+    },
+    {
+      "personId": 67,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Susan Pevensie"
+    },
+    {
+      "personId": 1118,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "White Witch"
+    },
+    {
+      "personId": 511,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mr. Tumnus"
+    },
+    {
+      "personId": 562,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Kirke"
+    },
+    {
+      "personId": 724,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aslan"
     }
   ]
 }

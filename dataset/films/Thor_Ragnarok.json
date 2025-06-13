@@ -14,48 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 20,
   "awards": [],
-  "cast": [
-    {
-      "personId": 195,
-      "characterName": "Thor"
-    },
-    {
-      "personId": 1132,
-      "characterName": "Loki"
-    },
-    {
-      "personId": 175,
-      "characterName": "Hela"
-    },
-    {
-      "personId": 463,
-      "characterName": "Heimdall"
-    },
-    {
-      "personId": 542,
-      "characterName": "Grandmaster"
-    },
-    {
-      "personId": 1111,
-      "characterName": "Valkyrie"
-    },
-    {
-      "personId": 641,
-      "characterName": "Skurge"
-    },
-    {
-      "personId": 786,
-      "characterName": "Bruce Banner / Hulk"
-    },
-    {
-      "personId": 73,
-      "characterName": "Odin"
-    },
-    {
-      "personId": 114,
-      "characterName": "Doctor Strange"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -65,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1101,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1396,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2327,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2222,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2243,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2328,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -124,6 +45,110 @@
     {
       "videoId": "ue80QwXMRHg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1101,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1396,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2327,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2222,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2243,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2328,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 195,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thor"
+    },
+    {
+      "personId": 1132,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Loki"
+    },
+    {
+      "personId": 175,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hela"
+    },
+    {
+      "personId": 463,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Heimdall"
+    },
+    {
+      "personId": 542,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Grandmaster"
+    },
+    {
+      "personId": 1111,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Valkyrie"
+    },
+    {
+      "personId": 641,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Skurge"
+    },
+    {
+      "personId": 786,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "personId": 73,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Odin"
+    },
+    {
+      "personId": 114,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Doctor Strange"
     }
   ]
 }

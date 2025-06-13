@@ -14,52 +14,6 @@
   "chapterKey": "mission-impossible",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Ethan Hunt"
-    },
-    {
-      "personId": 927,
-      "characterName": "Owen Davian"
-    },
-    {
-      "personId": 1166,
-      "characterName": "Luther"
-    },
-    {
-      "personId": 128,
-      "characterName": "Musgrave"
-    },
-    {
-      "personId": 836,
-      "characterName": "Julia"
-    },
-    {
-      "personId": 610,
-      "characterName": "Declan"
-    },
-    {
-      "personId": 668,
-      "characterName": "Lindsey Farris"
-    },
-    {
-      "personId": 766,
-      "characterName": "Zhen"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Benji"
-    },
-    {
-      "personId": 318,
-      "characterName": "Brownway"
-    },
-    {
-      "personId": 707,
-      "characterName": "Theodore Brassel"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -69,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1843,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1843,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1129,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1839,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1730,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -130,6 +42,122 @@
     {
       "videoId": "rl2bysiyltg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1839,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1730,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ethan Hunt"
+    },
+    {
+      "personId": 927,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Owen Davian"
+    },
+    {
+      "personId": 1166,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luther"
+    },
+    {
+      "personId": 128,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Musgrave"
+    },
+    {
+      "personId": 836,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Julia"
+    },
+    {
+      "personId": 610,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Declan"
+    },
+    {
+      "personId": 668,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lindsey Farris"
+    },
+    {
+      "personId": 766,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zhen"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Benji"
+    },
+    {
+      "personId": 318,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brownway"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Theodore Brassel"
     }
   ]
 }

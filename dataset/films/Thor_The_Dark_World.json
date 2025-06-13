@@ -14,56 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 8,
   "awards": [],
-  "cast": [
-    {
-      "personId": 195,
-      "characterName": "Thor"
-    },
-    {
-      "personId": 864,
-      "characterName": "Jane Foster"
-    },
-    {
-      "personId": 1132,
-      "characterName": "Loki"
-    },
-    {
-      "personId": 73,
-      "characterName": "Odin"
-    },
-    {
-      "personId": 207,
-      "characterName": "Malekith"
-    },
-    {
-      "personId": 495,
-      "characterName": "Sif"
-    },
-    {
-      "personId": 1197,
-      "characterName": "Fandral"
-    },
-    {
-      "personId": 952,
-      "characterName": "Volstagg"
-    },
-    {
-      "personId": 1100,
-      "characterName": "Hogun"
-    },
-    {
-      "personId": 463,
-      "characterName": "Heimdall"
-    },
-    {
-      "personId": 960,
-      "characterName": "Frigga"
-    },
-    {
-      "personId": 643,
-      "characterName": "Darcy Lewis"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -73,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1491,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2329,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1370,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1369,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1464,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1525,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -132,6 +45,122 @@
     {
       "videoId": "npvJ9FTgZbM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1491,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2329,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1370,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1369,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1464,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1525,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 195,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thor"
+    },
+    {
+      "personId": 864,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jane Foster"
+    },
+    {
+      "personId": 1132,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Loki"
+    },
+    {
+      "personId": 73,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Odin"
+    },
+    {
+      "personId": 207,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Malekith"
+    },
+    {
+      "personId": 495,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sif"
+    },
+    {
+      "personId": 1197,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fandral"
+    },
+    {
+      "personId": 952,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Volstagg"
+    },
+    {
+      "personId": 1100,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hogun"
+    },
+    {
+      "personId": 463,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Heimdall"
+    },
+    {
+      "personId": 960,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frigga"
+    },
+    {
+      "personId": 643,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darcy Lewis"
     }
   ]
 }

@@ -14,44 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 805,
-      "characterName": "Michael Pearson"
-    },
-    {
-      "personId": 184,
-      "characterName": "Ray"
-    },
-    {
-      "personId": 834,
-      "characterName": "Rosalind Pearson"
-    },
-    {
-      "personId": 553,
-      "characterName": "Matthew"
-    },
-    {
-      "personId": 756,
-      "characterName": "Jackie"
-    },
-    {
-      "personId": 223,
-      "characterName": "Coach"
-    },
-    {
-      "personId": 445,
-      "characterName": "Dry Eye"
-    },
-    {
-      "personId": 1140,
-      "characterName": "Lord George"
-    },
-    {
-      "personId": 452,
-      "characterName": "Fletcher"
-    }
-  ],
   "collections": [
     {
       "collectionId": 5,
@@ -64,43 +26,6 @@
     },
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2164,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2164,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2165,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2166,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2164,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2167,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2168,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -126,6 +51,104 @@
     {
       "videoId": "vaN8BtA8OJk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2164,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2164,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2165,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2166,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2164,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2167,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2168,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 805,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Michael Pearson"
+    },
+    {
+      "personId": 184,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ray"
+    },
+    {
+      "personId": 834,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rosalind Pearson"
+    },
+    {
+      "personId": 553,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Matthew"
+    },
+    {
+      "personId": 756,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jackie"
+    },
+    {
+      "personId": 223,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Coach"
+    },
+    {
+      "personId": 445,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dry Eye"
+    },
+    {
+      "personId": 1140,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lord George"
+    },
+    {
+      "personId": 452,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fletcher"
     }
   ]
 }

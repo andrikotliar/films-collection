@@ -21,24 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 657,
-      "characterName": "Klaatu"
-    },
-    {
-      "personId": 546,
-      "characterName": "Helen Benson"
-    },
-    {
-      "personId": 651,
-      "characterName": "Regina Jackson"
-    },
-    {
-      "personId": 492,
-      "characterName": "Jacob Benson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -48,43 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1439,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2148,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2149,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2150,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1452,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1543,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1995,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -104,6 +49,74 @@
     {
       "videoId": "6QFcZohER3s",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1439,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2148,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2149,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2150,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1452,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1543,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1995,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 657,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Klaatu"
+    },
+    {
+      "personId": 546,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Helen Benson"
+    },
+    {
+      "personId": 651,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Regina Jackson"
+    },
+    {
+      "personId": 492,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jacob Benson"
     }
   ]
 }

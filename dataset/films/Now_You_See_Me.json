@@ -14,40 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 555,
-      "characterName": "J. Daniel Atlas"
-    },
-    {
-      "personId": 786,
-      "characterName": "Dylan Rhodes"
-    },
-    {
-      "personId": 1190,
-      "characterName": "Merritt McKinney"
-    },
-    {
-      "personId": 470,
-      "characterName": "Henley Reeves"
-    },
-    {
-      "personId": 264,
-      "characterName": "Jack Wilder"
-    },
-    {
-      "personId": 860,
-      "characterName": "Alma Dray"
-    },
-    {
-      "personId": 854,
-      "characterName": "Thaddeus Bradley"
-    },
-    {
-      "personId": 821,
-      "characterName": "Arthur Tressler"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -57,58 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1862,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1825,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1863,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1864,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1865,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1464,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1866,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1390,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -128,6 +42,116 @@
     {
       "videoId": "KzJNYYkkhzc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1862,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1825,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1863,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1864,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1865,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1464,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1866,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1390,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 555,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "J. Daniel Atlas"
+    },
+    {
+      "personId": 786,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dylan Rhodes"
+    },
+    {
+      "personId": 1190,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Merritt McKinney"
+    },
+    {
+      "personId": 470,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Henley Reeves"
+    },
+    {
+      "personId": 264,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jack Wilder"
+    },
+    {
+      "personId": 860,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alma Dray"
+    },
+    {
+      "personId": 854,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thaddeus Bradley"
+    },
+    {
+      "personId": 821,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arthur Tressler"
     }
   ]
 }

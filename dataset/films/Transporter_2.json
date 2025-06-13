@@ -14,36 +14,6 @@
   "chapterKey": "transporter",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 531,
-      "characterName": "Frank Martin"
-    },
-    {
-      "personId": 30,
-      "characterName": "Gianni Chellini"
-    },
-    {
-      "personId": 50,
-      "characterName": "Audrey Billings"
-    },
-    {
-      "personId": 646,
-      "characterName": "Lola"
-    },
-    {
-      "personId": 806,
-      "characterName": "Jefferson Billings"
-    },
-    {
-      "personId": 455,
-      "characterName": "Jack Billings"
-    },
-    {
-      "personId": 385,
-      "characterName": "Inspector Tarconi"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -53,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1862,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2262,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2335,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1866,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -109,6 +42,92 @@
     {
       "videoId": "sYJ5LDoWRT4",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1862,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2262,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2335,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1866,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 531,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frank Martin"
+    },
+    {
+      "personId": 30,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gianni Chellini"
+    },
+    {
+      "personId": 50,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Audrey Billings"
+    },
+    {
+      "personId": 646,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lola"
+    },
+    {
+      "personId": 806,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jefferson Billings"
+    },
+    {
+      "personId": 455,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jack Billings"
+    },
+    {
+      "personId": 385,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Inspector Tarconi"
     }
   ]
 }

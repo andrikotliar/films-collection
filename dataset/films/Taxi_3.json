@@ -14,40 +14,6 @@
   "chapterKey": "taxi",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1037,
-      "characterName": "Daniel Morales"
-    },
-    {
-      "personId": 390,
-      "characterName": "Emilien Coutant-Kerbalec"
-    },
-    {
-      "personId": 118,
-      "characterName": "Commissaire Gibert"
-    },
-    {
-      "personId": 99,
-      "characterName": "Qiu"
-    },
-    {
-      "personId": 320,
-      "characterName": "Alain"
-    },
-    {
-      "personId": 537,
-      "characterName": "General Edmond Bertineau"
-    },
-    {
-      "personId": 346,
-      "characterName": "Petra"
-    },
-    {
-      "personId": 779,
-      "characterName": "Lilly Bertineau"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -57,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2045,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2046,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2047,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2048,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -105,6 +39,92 @@
     {
       "videoId": "XLP-rf3dHOQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2045,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2046,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2047,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2048,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1037,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Daniel Morales"
+    },
+    {
+      "personId": 390,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Emilien Coutant-Kerbalec"
+    },
+    {
+      "personId": 118,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Commissaire Gibert"
+    },
+    {
+      "personId": 99,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Qiu"
+    },
+    {
+      "personId": 320,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alain"
+    },
+    {
+      "personId": 537,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Edmond Bertineau"
+    },
+    {
+      "personId": 346,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Petra"
+    },
+    {
+      "personId": 779,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lilly Bertineau"
     }
   ]
 }

@@ -159,48 +159,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1034,
-      "characterName": "Jake Sully"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Neytiri"
-    },
-    {
-      "personId": 1068,
-      "characterName": "Grace Augustine"
-    },
-    {
-      "personId": 1084,
-      "characterName": "Miles Quaritch"
-    },
-    {
-      "personId": 838,
-      "characterName": "Trudy Chacon"
-    },
-    {
-      "personId": 410,
-      "characterName": "Parker Selfridge"
-    },
-    {
-      "personId": 571,
-      "characterName": "Norm Spellman"
-    },
-    {
-      "personId": 1175,
-      "characterName": "Eytukan"
-    },
-    {
-      "personId": 709,
-      "characterName": "Tsu'tey"
-    },
-    {
-      "personId": 1239,
-      "characterName": "Mo'at"
-    }
-  ],
   "collections": [
     {
       "collectionId": 21,
@@ -227,38 +185,6 @@
       "countryId": 2
     }
   ],
-  "crew": [
-    {
-      "personId": 1288,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1294,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1290,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1338,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 1
@@ -276,6 +202,104 @@
     {
       "videoId": "CM79GTEm2ps",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1294,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1290,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1338,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1034,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jake Sully"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neytiri"
+    },
+    {
+      "personId": 1068,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Grace Augustine"
+    },
+    {
+      "personId": 1084,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miles Quaritch"
+    },
+    {
+      "personId": 838,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Trudy Chacon"
+    },
+    {
+      "personId": 410,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Parker Selfridge"
+    },
+    {
+      "personId": 571,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Norm Spellman"
+    },
+    {
+      "personId": 1175,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eytukan"
+    },
+    {
+      "personId": 709,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tsu'tey"
+    },
+    {
+      "personId": 1239,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mo'at"
     }
   ]
 }

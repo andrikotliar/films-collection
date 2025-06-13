@@ -14,52 +14,6 @@
   "chapterKey": "transformers",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1065,
-      "characterName": "Sam Witwicky"
-    },
-    {
-      "personId": 1009,
-      "characterName": "Carly"
-    },
-    {
-      "personId": 617,
-      "characterName": "Lennox"
-    },
-    {
-      "personId": 597,
-      "characterName": "Simmons"
-    },
-    {
-      "personId": 1156,
-      "characterName": "Epps"
-    },
-    {
-      "personId": 902,
-      "characterName": "Dylan"
-    },
-    {
-      "personId": 379,
-      "characterName": "Mearing"
-    },
-    {
-      "personId": 588,
-      "characterName": "Bruce Brazos"
-    },
-    {
-      "personId": 918,
-      "characterName": "Optimus Prime"
-    },
-    {
-      "personId": 454,
-      "characterName": "Megatron"
-    },
-    {
-      "personId": 715,
-      "characterName": "Sentinel Prime"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -69,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1275,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2333,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2330,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2331,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1918,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1971,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2332,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1465,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -133,6 +45,122 @@
     {
       "videoId": "bTIrEZM-cFE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1275,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2333,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2330,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2331,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1918,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1971,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2332,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1465,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1065,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Witwicky"
+    },
+    {
+      "personId": 1009,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carly"
+    },
+    {
+      "personId": 617,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lennox"
+    },
+    {
+      "personId": 597,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Simmons"
+    },
+    {
+      "personId": 1156,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Epps"
+    },
+    {
+      "personId": 902,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dylan"
+    },
+    {
+      "personId": 379,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mearing"
+    },
+    {
+      "personId": 588,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Brazos"
+    },
+    {
+      "personId": 918,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Optimus Prime"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Megatron"
+    },
+    {
+      "personId": 715,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sentinel Prime"
     }
   ]
 }

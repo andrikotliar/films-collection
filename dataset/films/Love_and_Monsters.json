@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 316,
-      "characterName": "Joel"
-    },
-    {
-      "personId": 559,
-      "characterName": "Aimee"
-    },
-    {
-      "personId": 830,
-      "characterName": "Clyde"
-    },
-    {
-      "personId": 240,
-      "characterName": "Cap"
-    },
-    {
-      "personId": 82,
-      "characterName": "Minnow"
-    },
-    {
-      "personId": 333,
-      "characterName": "Dana"
-    },
-    {
-      "personId": 1151,
-      "characterName": "Rocko"
-    }
-  ],
   "collections": [
     {
       "collectionId": 9,
@@ -63,48 +33,6 @@
     },
     {
       "countryId": 12
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1811,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1812,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1813,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1814,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1815,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1278,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1816,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1817,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +55,98 @@
     {
       "videoId": "1dzGhJ5QGsQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1811,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1812,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1813,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1814,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1815,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1278,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1816,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1817,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 316,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Joel"
+    },
+    {
+      "personId": 559,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aimee"
+    },
+    {
+      "personId": 830,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clyde"
+    },
+    {
+      "personId": 240,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cap"
+    },
+    {
+      "personId": 82,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Minnow"
+    },
+    {
+      "personId": 333,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dana"
+    },
+    {
+      "personId": 1151,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rocko"
     }
   ]
 }

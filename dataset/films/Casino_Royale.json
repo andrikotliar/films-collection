@@ -14,32 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 245,
-      "characterName": "James Bond"
-    },
-    {
-      "personId": 357,
-      "characterName": "Vesper Lynd"
-    },
-    {
-      "personId": 762,
-      "characterName": "Le Chiffre"
-    },
-    {
-      "personId": 624,
-      "characterName": "M"
-    },
-    {
-      "personId": 544,
-      "characterName": "Felix Leiter"
-    },
-    {
-      "personId": 406,
-      "characterName": "Rene Mathis"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -63,48 +37,6 @@
       "countryId": 10
     }
   ],
-  "crew": [
-    {
-      "personId": 1407,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1408,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1409,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1410,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1411,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1412,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1271,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1413,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 4
@@ -122,6 +54,92 @@
     {
       "videoId": "36mnx8dBbGE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1407,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1408,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1409,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1410,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1411,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1412,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1271,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1413,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 245,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James Bond"
+    },
+    {
+      "personId": 357,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vesper Lynd"
+    },
+    {
+      "personId": 762,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Le Chiffre"
+    },
+    {
+      "personId": 624,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "M"
+    },
+    {
+      "personId": 544,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Felix Leiter"
+    },
+    {
+      "personId": 406,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rene Mathis"
     }
   ]
 }

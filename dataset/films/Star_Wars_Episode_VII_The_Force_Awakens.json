@@ -69,56 +69,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 238,
-      "characterName": "Rey"
-    },
-    {
-      "personId": 7,
-      "characterName": "Kylo Ren"
-    },
-    {
-      "personId": 574,
-      "characterName": "Finn"
-    },
-    {
-      "personId": 431,
-      "characterName": "Han Solo"
-    },
-    {
-      "personId": 785,
-      "characterName": "Luke Skywalker"
-    },
-    {
-      "personId": 171,
-      "characterName": "Leia"
-    },
-    {
-      "personId": 896,
-      "characterName": "Poe Dameron"
-    },
-    {
-      "personId": 61,
-      "characterName": "Snoke"
-    },
-    {
-      "personId": 924,
-      "characterName": "Chewbacca"
-    },
-    {
-      "personId": 422,
-      "characterName": "Captain Phasma"
-    },
-    {
-      "personId": 299,
-      "characterName": "General Hux"
-    },
-    {
-      "personId": 72,
-      "characterName": "C-3PO"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -128,53 +78,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1843,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1709,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2002,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2003,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1738,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2002,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1849,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1730,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -197,6 +100,134 @@
     {
       "videoId": "sGbxmsDFVnE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1709,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2002,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2003,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1738,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2002,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1849,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1730,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 238,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rey"
+    },
+    {
+      "personId": 7,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kylo Ren"
+    },
+    {
+      "personId": 574,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Finn"
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Han Solo"
+    },
+    {
+      "personId": 785,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luke Skywalker"
+    },
+    {
+      "personId": 171,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leia"
+    },
+    {
+      "personId": 896,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Poe Dameron"
+    },
+    {
+      "personId": 61,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Snoke"
+    },
+    {
+      "personId": 924,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chewbacca"
+    },
+    {
+      "personId": 422,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Phasma"
+    },
+    {
+      "personId": 299,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Hux"
+    },
+    {
+      "personId": 72,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "C-3PO"
     }
   ]
 }

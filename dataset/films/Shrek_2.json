@@ -14,40 +14,6 @@
   "chapterKey": "shrek",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 842,
-      "characterName": "Shrek"
-    },
-    {
-      "personId": 319,
-      "characterName": "Donkey"
-    },
-    {
-      "personId": 164,
-      "characterName": "Fiona"
-    },
-    {
-      "personId": 77,
-      "characterName": "Puss In Boots"
-    },
-    {
-      "personId": 629,
-      "characterName": "Queen"
-    },
-    {
-      "personId": 579,
-      "characterName": "King"
-    },
-    {
-      "personId": 1012,
-      "characterName": "Prince Charming"
-    },
-    {
-      "personId": 548,
-      "characterName": "Fairy Godmother"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -60,63 +26,6 @@
     },
     {
       "countryId": 6
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1949,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1956,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1233,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1891,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1892,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1951,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1952,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1957,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1953,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1954,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -136,6 +45,122 @@
     {
       "videoId": "xBgSfhp5Fxo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1949,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1956,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1233,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1891,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1892,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1951,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1952,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1957,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1953,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1954,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 842,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shrek"
+    },
+    {
+      "personId": 319,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Donkey"
+    },
+    {
+      "personId": 164,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fiona"
+    },
+    {
+      "personId": 77,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Puss In Boots"
+    },
+    {
+      "personId": 629,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Queen"
+    },
+    {
+      "personId": 579,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "King"
+    },
+    {
+      "personId": 1012,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Prince Charming"
+    },
+    {
+      "personId": 548,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fairy Godmother"
     }
   ]
 }

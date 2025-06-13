@@ -14,32 +14,6 @@
   "chapterKey": "dceu",
   "chapterOrder": 7,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1197,
-      "characterName": "Shazam"
-    },
-    {
-      "personId": 297,
-      "characterName": "The Wizard"
-    },
-    {
-      "personId": 789,
-      "characterName": "Dr. Thaddeus Sivana"
-    },
-    {
-      "personId": 482,
-      "characterName": "Freddy Freeman"
-    },
-    {
-      "personId": 811,
-      "characterName": "Darla Dudley"
-    },
-    {
-      "personId": 91,
-      "characterName": "Billy Batson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -49,33 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1929,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1930,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1318,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1931,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1932,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -98,6 +45,74 @@
     {
       "videoId": "go6GEIrcvFY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1929,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1930,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1318,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1931,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1932,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1197,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shazam"
+    },
+    {
+      "personId": 297,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Wizard"
+    },
+    {
+      "personId": 789,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Thaddeus Sivana"
+    },
+    {
+      "personId": 482,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Freddy Freeman"
+    },
+    {
+      "personId": 811,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darla Dudley"
+    },
+    {
+      "personId": 91,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Billy Batson"
     }
   ]
 }

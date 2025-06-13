@@ -21,32 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 825,
-      "characterName": "Adrian Toomes / Vulture"
-    },
-    {
-      "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man"
-    },
-    {
-      "personId": 982,
-      "characterName": "Tony Stark / Iron Man"
-    },
-    {
-      "personId": 780,
-      "characterName": "May Parker"
-    },
-    {
-      "personId": 1201,
-      "characterName": "Michelle"
-    },
-    {
-      "personId": 489,
-      "characterName": "Ned"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -56,53 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1976,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1979,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1980,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1976,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1981,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1977,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1982,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +52,98 @@
     {
       "videoId": "n9DwoQ7HWvI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1976,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1979,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1980,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1976,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1981,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1977,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1982,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 825,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Adrian Toomes / Vulture"
+    },
+    {
+      "personId": 1133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "personId": 982,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "personId": 780,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "May Parker"
+    },
+    {
+      "personId": 1201,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Michelle"
+    },
+    {
+      "personId": 489,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ned"
     }
   ]
 }

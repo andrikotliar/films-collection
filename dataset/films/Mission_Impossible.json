@@ -14,44 +14,6 @@
   "chapterKey": "mission-impossible",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Ethan Hunt"
-    },
-    {
-      "personId": 603,
-      "characterName": "Jim Phelps"
-    },
-    {
-      "personId": 347,
-      "characterName": "Claire"
-    },
-    {
-      "personId": 444,
-      "characterName": "Kittridge"
-    },
-    {
-      "personId": 536,
-      "characterName": "Krieger"
-    },
-    {
-      "personId": 1166,
-      "characterName": "Luther"
-    },
-    {
-      "personId": 689,
-      "characterName": "Sarah Davies"
-    },
-    {
-      "personId": 1160,
-      "characterName": "Max"
-    },
-    {
-      "personId": 465,
-      "characterName": "Hannah"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -61,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1837,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1702,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1838,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1129,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1839,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1828,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1840,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -117,6 +42,104 @@
     {
       "videoId": "Ohws8y572KE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1837,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1702,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1838,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1839,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1828,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1840,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ethan Hunt"
+    },
+    {
+      "personId": 603,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jim Phelps"
+    },
+    {
+      "personId": 347,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Claire"
+    },
+    {
+      "personId": 444,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kittridge"
+    },
+    {
+      "personId": 536,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Krieger"
+    },
+    {
+      "personId": 1166,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luther"
+    },
+    {
+      "personId": 689,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sarah Davies"
+    },
+    {
+      "personId": 1160,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Max"
+    },
+    {
+      "personId": 465,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hannah"
     }
   ]
 }

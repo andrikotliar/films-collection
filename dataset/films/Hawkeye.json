@@ -12,36 +12,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 31,
   "awards": [],
-  "cast": [
-    {
-      "personId": 552,
-      "characterName": "Clint Barton / Hawkeye"
-    },
-    {
-      "personId": 424,
-      "characterName": "Kate Bishop"
-    },
-    {
-      "personId": 1161,
-      "characterName": " Eleanor Bishop"
-    },
-    {
-      "personId": 1221,
-      "characterName": " Jack Duquesne"
-    },
-    {
-      "personId": 1222,
-      "characterName": "Kazi"
-    },
-    {
-      "personId": 1223,
-      "characterName": "Maya Lopez / Echo"
-    },
-    {
-      "personId": 1165,
-      "characterName": "Kingpin"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -51,93 +21,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1580,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1581,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1582,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1583,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1584,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1585,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1586,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1587,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1588,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1589,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1590,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1580,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1583,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1303,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1591,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1592,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -162,6 +45,152 @@
     {
       "videoId": "5VYb3B1ETlk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1580,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1581,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1582,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1583,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1584,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1585,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1586,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1587,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1588,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1589,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1590,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1580,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1583,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1303,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1591,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1592,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 552,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "personId": 424,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kate Bishop"
+    },
+    {
+      "personId": 1161,
+      "role": "ACTOR",
+      "comment": null,
+      "details": " Eleanor Bishop"
+    },
+    {
+      "personId": 1221,
+      "role": "ACTOR",
+      "comment": null,
+      "details": " Jack Duquesne"
+    },
+    {
+      "personId": 1222,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kazi"
+    },
+    {
+      "personId": 1223,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maya Lopez / Echo"
+    },
+    {
+      "personId": 1165,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kingpin"
     }
   ]
 }

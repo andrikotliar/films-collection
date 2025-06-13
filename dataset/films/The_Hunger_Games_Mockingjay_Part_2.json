@@ -21,60 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 547,
-      "characterName": "Katniss Everdeen"
-    },
-    {
-      "personId": 620,
-      "characterName": "Peeta Mellark"
-    },
-    {
-      "personId": 722,
-      "characterName": "Gale Hawthorne"
-    },
-    {
-      "personId": 1190,
-      "characterName": "Haymitch Abernathy"
-    },
-    {
-      "personId": 327,
-      "characterName": "Effie Trinket"
-    },
-    {
-      "personId": 309,
-      "characterName": "President Coriolanus Snow"
-    },
-    {
-      "personId": 927,
-      "characterName": "Plutarch Heavensbee"
-    },
-    {
-      "personId": 767,
-      "characterName": "Boggs"
-    },
-    {
-      "personId": 863,
-      "characterName": "Cressida"
-    },
-    {
-      "personId": 1226,
-      "characterName": "Pollux"
-    },
-    {
-      "personId": 544,
-      "characterName": "Beetee"
-    },
-    {
-      "personId": 422,
-      "characterName": "Commander Lyme"
-    },
-    {
-      "personId": 628,
-      "characterName": "President Alma Coin"
-    }
-  ],
   "collections": [
     {
       "collectionId": 12,
@@ -95,43 +41,6 @@
       "countryId": 4
     }
   ],
-  "crew": [
-    {
-      "personId": 1680,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2182,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2183,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2177,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2178,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1384,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2181,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 1
@@ -149,6 +58,128 @@
     {
       "videoId": "n-7K_OjsDCQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1680,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2182,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2183,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2177,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2178,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1384,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2181,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 547,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katniss Everdeen"
+    },
+    {
+      "personId": 620,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peeta Mellark"
+    },
+    {
+      "personId": 722,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gale Hawthorne"
+    },
+    {
+      "personId": 1190,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Haymitch Abernathy"
+    },
+    {
+      "personId": 327,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Effie Trinket"
+    },
+    {
+      "personId": 309,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "President Coriolanus Snow"
+    },
+    {
+      "personId": 927,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Plutarch Heavensbee"
+    },
+    {
+      "personId": 767,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boggs"
+    },
+    {
+      "personId": 863,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cressida"
+    },
+    {
+      "personId": 1226,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pollux"
+    },
+    {
+      "personId": 544,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Beetee"
+    },
+    {
+      "personId": 422,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Commander Lyme"
+    },
+    {
+      "personId": 628,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "President Alma Coin"
     }
   ]
 }

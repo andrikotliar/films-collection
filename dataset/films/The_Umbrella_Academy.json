@@ -12,64 +12,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1134,
-      "characterName": "Luther Hargreeves"
-    },
-    {
-      "personId": 268,
-      "characterName": "Diego Hargreeves"
-    },
-    {
-      "personId": 348,
-      "characterName": "Allison Hargreeves"
-    },
-    {
-      "personId": 992,
-      "characterName": "Klaus Hargreeves"
-    },
-    {
-      "personId": 17,
-      "characterName": "Number Five"
-    },
-    {
-      "personId": 632,
-      "characterName": "Ben Hargreeves"
-    },
-    {
-      "personId": 334,
-      "characterName": "Vanya Hargreeves"
-    },
-    {
-      "personId": 224,
-      "characterName": "Reginald Hargreeves"
-    },
-    {
-      "personId": 980,
-      "characterName": "Lila Pitts"
-    },
-    {
-      "personId": 612,
-      "characterName": "Grace"
-    },
-    {
-      "personId": 647,
-      "characterName": "The Handler"
-    },
-    {
-      "personId": 163,
-      "characterName": "Hazel"
-    },
-    {
-      "personId": 797,
-      "characterName": "Cha-Cha"
-    },
-    {
-      "personId": 1231,
-      "characterName": "Pogo"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -79,203 +21,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2265,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 2266,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2267,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2268,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 2269,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1777,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 2270,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 2271,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2272,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2273,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2274,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2275,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2276,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2265,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2277,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 2278,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2279,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2280,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2281,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2282,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2283,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2284,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2285,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 2286,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2287,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 2288,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 2289,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2290,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2291,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2292,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1789,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2282,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2293,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2294,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2295,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2296,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2297,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2298,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 2299,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -308,6 +53,326 @@
     {
       "videoId": "04Wns6ZHh6g",
       "order": 3
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2265,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 2266,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2267,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2268,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2269,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1777,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2270,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2271,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2272,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2273,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2274,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2275,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2276,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2265,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2277,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2278,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2279,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2280,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2281,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2282,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2283,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2284,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2285,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2286,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2287,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2288,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2289,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2290,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2291,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2292,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1789,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2282,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2293,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2294,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2295,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2296,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2297,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2298,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 2299,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1134,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luther Hargreeves"
+    },
+    {
+      "personId": 268,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diego Hargreeves"
+    },
+    {
+      "personId": 348,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Allison Hargreeves"
+    },
+    {
+      "personId": 992,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Klaus Hargreeves"
+    },
+    {
+      "personId": 17,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Number Five"
+    },
+    {
+      "personId": 632,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ben Hargreeves"
+    },
+    {
+      "personId": 334,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vanya Hargreeves"
+    },
+    {
+      "personId": 224,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Reginald Hargreeves"
+    },
+    {
+      "personId": 980,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lila Pitts"
+    },
+    {
+      "personId": 612,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Grace"
+    },
+    {
+      "personId": 647,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Handler"
+    },
+    {
+      "personId": 163,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hazel"
+    },
+    {
+      "personId": 797,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cha-Cha"
+    },
+    {
+      "personId": 1231,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pogo"
     }
   ]
 }

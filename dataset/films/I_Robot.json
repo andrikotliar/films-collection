@@ -14,32 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "Del Spooner"
-    },
-    {
-      "personId": 150,
-      "characterName": "Susan Calvin"
-    },
-    {
-      "personId": 24,
-      "characterName": "Sonny"
-    },
-    {
-      "personId": 503,
-      "characterName": "Dr. Alfred Lanning"
-    },
-    {
-      "personId": 155,
-      "characterName": "Lawrence Robertson"
-    },
-    {
-      "personId": 373,
-      "characterName": "V.I.K.I."
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -53,53 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1673,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1674,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1548,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1675,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1676,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1677,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1678,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1278,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1679,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -119,6 +46,98 @@
     {
       "videoId": "rL6RRIOZyCM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1673,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1674,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1548,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1675,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1676,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1677,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1678,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1278,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1679,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Del Spooner"
+    },
+    {
+      "personId": 150,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Susan Calvin"
+    },
+    {
+      "personId": 24,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sonny"
+    },
+    {
+      "personId": 503,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Alfred Lanning"
+    },
+    {
+      "personId": 155,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lawrence Robertson"
+    },
+    {
+      "personId": 373,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "V.I.K.I."
     }
   ]
 }

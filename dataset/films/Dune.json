@@ -14,60 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1121,
-      "characterName": "Paul Atreides"
-    },
-    {
-      "personId": 954,
-      "characterName": "Lady Jessica"
-    },
-    {
-      "personId": 896,
-      "characterName": "Duke Leto Atreides"
-    },
-    {
-      "personId": 528,
-      "characterName": "Duncan Idaho"
-    },
-    {
-      "personId": 1080,
-      "characterName": "Baron Vladimir Harkonnen"
-    },
-    {
-      "personId": 270,
-      "characterName": "Piter De Vries"
-    },
-    {
-      "personId": 1201,
-      "characterName": "Chani"
-    },
-    {
-      "personId": 616,
-      "characterName": "Gurney Halleck"
-    },
-    {
-      "personId": 263,
-      "characterName": "Glossu 'Beast' Rabban"
-    },
-    {
-      "personId": 1085,
-      "characterName": "Thufir Hawat"
-    },
-    {
-      "personId": 1060,
-      "characterName": "Dr. Liet Kynes"
-    },
-    {
-      "personId": 532,
-      "characterName": "Stilgar"
-    },
-    {
-      "personId": 190,
-      "characterName": "Dr. Wellington Yueh"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -80,58 +26,6 @@
     },
     {
       "countryId": 3
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1443,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1440,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1443,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1444,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1445,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1446,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1447,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1443,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1448,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -157,6 +51,146 @@
     {
       "videoId": "w0HgHet0sxg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1443,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1440,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1443,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1444,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1445,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1446,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1447,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1443,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1448,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1121,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Paul Atreides"
+    },
+    {
+      "personId": 954,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lady Jessica"
+    },
+    {
+      "personId": 896,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Duke Leto Atreides"
+    },
+    {
+      "personId": 528,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Duncan Idaho"
+    },
+    {
+      "personId": 1080,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Baron Vladimir Harkonnen"
+    },
+    {
+      "personId": 270,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Piter De Vries"
+    },
+    {
+      "personId": 1201,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chani"
+    },
+    {
+      "personId": 616,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gurney Halleck"
+    },
+    {
+      "personId": 263,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Glossu 'Beast' Rabban"
+    },
+    {
+      "personId": 1085,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thufir Hawat"
+    },
+    {
+      "personId": 1060,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Liet Kynes"
+    },
+    {
+      "personId": 532,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stilgar"
+    },
+    {
+      "personId": 190,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Wellington Yueh"
     }
   ]
 }

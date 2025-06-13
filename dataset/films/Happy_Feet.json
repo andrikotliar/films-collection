@@ -27,32 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 323,
-      "characterName": "Mumble"
-    },
-    {
-      "personId": 152,
-      "characterName": "Gloria"
-    },
-    {
-      "personId": 453,
-      "characterName": "Memphis"
-    },
-    {
-      "personId": 874,
-      "characterName": "Norma Jean"
-    },
-    {
-      "personId": 454,
-      "characterName": "Noah the Elder"
-    },
-    {
-      "personId": 995,
-      "characterName": "Lovelace"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -65,58 +39,6 @@
     },
     {
       "countryId": 12
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1553,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1554,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1555,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1553,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1556,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1557,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1553,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1558,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1559,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -139,6 +61,104 @@
     {
       "videoId": "hFUC5adf8FE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1553,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1554,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1555,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1553,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1556,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1557,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1553,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1558,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1559,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 323,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mumble"
+    },
+    {
+      "personId": 152,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gloria"
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Memphis"
+    },
+    {
+      "personId": 874,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Norma Jean"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Noah the Elder"
+    },
+    {
+      "personId": 995,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lovelace"
     }
   ]
 }

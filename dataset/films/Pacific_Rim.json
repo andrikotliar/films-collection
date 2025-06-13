@@ -14,40 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 184,
-      "characterName": "Raleigh Becket"
-    },
-    {
-      "personId": 463,
-      "characterName": "Stacker Pentecost"
-    },
-    {
-      "personId": 978,
-      "characterName": "Mako Mori"
-    },
-    {
-      "personId": 182,
-      "characterName": "Dr. Newton Geiszler"
-    },
-    {
-      "personId": 158,
-      "characterName": "Herman Gottlieb"
-    },
-    {
-      "personId": 808,
-      "characterName": "Herc Hansen"
-    },
-    {
-      "personId": 986,
-      "characterName": "Chuck Hansen"
-    },
-    {
-      "personId": 999,
-      "characterName": "Hannibal Chau"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -57,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1875,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1876,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1875,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1875,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1877,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1878,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1447,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1461,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1879,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -126,6 +45,110 @@
     {
       "videoId": "5guMumPFBag",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1875,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1876,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1875,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1875,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1877,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1878,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1447,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1461,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1879,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 184,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Raleigh Becket"
+    },
+    {
+      "personId": 463,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stacker Pentecost"
+    },
+    {
+      "personId": 978,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mako Mori"
+    },
+    {
+      "personId": 182,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Newton Geiszler"
+    },
+    {
+      "personId": 158,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Herman Gottlieb"
+    },
+    {
+      "personId": 808,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Herc Hansen"
+    },
+    {
+      "personId": 986,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chuck Hansen"
+    },
+    {
+      "personId": 999,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hannibal Chau"
     }
   ]
 }

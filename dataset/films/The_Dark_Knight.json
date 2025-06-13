@@ -81,40 +81,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 203,
-      "characterName": "Bruce Wayne"
-    },
-    {
-      "personId": 440,
-      "characterName": "Joker"
-    },
-    {
-      "personId": 1,
-      "characterName": "Harvey Dent"
-    },
-    {
-      "personId": 821,
-      "characterName": "Alfred"
-    },
-    {
-      "personId": 765,
-      "characterName": "Rachel"
-    },
-    {
-      "personId": 395,
-      "characterName": "Gordon"
-    },
-    {
-      "personId": 854,
-      "characterName": "Lucius Fox"
-    },
-    {
-      "personId": 214,
-      "characterName": "Scarecrow"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -124,53 +90,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1378,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1378,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1713,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1381,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1378,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1384,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1385,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -193,6 +112,110 @@
     {
       "videoId": "EXeTwQWrcwY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1713,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1381,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1384,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1385,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 203,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Wayne"
+    },
+    {
+      "personId": 440,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Joker"
+    },
+    {
+      "personId": 1,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Harvey Dent"
+    },
+    {
+      "personId": 821,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alfred"
+    },
+    {
+      "personId": 765,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rachel"
+    },
+    {
+      "personId": 395,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gordon"
+    },
+    {
+      "personId": 854,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lucius Fox"
+    },
+    {
+      "personId": 214,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scarecrow"
     }
   ]
 }

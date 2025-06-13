@@ -14,48 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 873,
-      "characterName": "Johnny Blaze / Ghost Rider"
-    },
-    {
-      "personId": 359,
-      "characterName": "Roxanne Simpson"
-    },
-    {
-      "personId": 921,
-      "characterName": "Mephistopheles"
-    },
-    {
-      "personId": 1174,
-      "characterName": "Blackheart"
-    },
-    {
-      "personId": 307,
-      "characterName": "Mack"
-    },
-    {
-      "personId": 706,
-      "characterName": "Gressil"
-    },
-    {
-      "personId": 248,
-      "characterName": "Wallow"
-    },
-    {
-      "personId": 802,
-      "characterName": "Abigor"
-    },
-    {
-      "personId": 146,
-      "characterName": "Barton Blaze"
-    },
-    {
-      "personId": 1240,
-      "characterName": "Caretaker"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -65,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1529,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1529,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1530,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1531,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1532,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1533,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1534,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -124,6 +45,110 @@
     {
       "videoId": "8M0lLJfNPds",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1529,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1529,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1530,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1531,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1532,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1533,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1534,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 873,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Johnny Blaze / Ghost Rider"
+    },
+    {
+      "personId": 359,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Roxanne Simpson"
+    },
+    {
+      "personId": 921,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mephistopheles"
+    },
+    {
+      "personId": 1174,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Blackheart"
+    },
+    {
+      "personId": 307,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mack"
+    },
+    {
+      "personId": 706,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gressil"
+    },
+    {
+      "personId": 248,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wallow"
+    },
+    {
+      "personId": 802,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Abigor"
+    },
+    {
+      "personId": 146,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barton Blaze"
+    },
+    {
+      "personId": 1240,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Caretaker"
     }
   ]
 }

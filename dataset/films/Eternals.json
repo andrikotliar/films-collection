@@ -14,56 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 30,
   "awards": [],
-  "cast": [
-    {
-      "personId": 971,
-      "characterName": "Ikaris"
-    },
-    {
-      "personId": 1029,
-      "characterName": "Ajak"
-    },
-    {
-      "personId": 63,
-      "characterName": "Thena"
-    },
-    {
-      "personId": 685,
-      "characterName": "Dane Whitman / Black Knight"
-    },
-    {
-      "personId": 398,
-      "characterName": "Sersi"
-    },
-    {
-      "personId": 100,
-      "characterName": "Druig"
-    },
-    {
-      "personId": 720,
-      "characterName": "Sprite"
-    },
-    {
-      "personId": 149,
-      "characterName": "Phastos"
-    },
-    {
-      "personId": 691,
-      "characterName": "Kingo"
-    },
-    {
-      "personId": 705,
-      "characterName": "Makkari"
-    },
-    {
-      "personId": 759,
-      "characterName": "Gilgamesh"
-    },
-    {
-      "personId": 429,
-      "characterName": "Karun"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -76,53 +26,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1456,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1456,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1457,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1458,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1459,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1460,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1461,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1406,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -148,6 +51,134 @@
     {
       "videoId": "x_me3xsvDgk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1456,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1456,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1457,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1458,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1459,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1460,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1461,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1406,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 971,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ikaris"
+    },
+    {
+      "personId": 1029,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ajak"
+    },
+    {
+      "personId": 63,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thena"
+    },
+    {
+      "personId": 685,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dane Whitman / Black Knight"
+    },
+    {
+      "personId": 398,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sersi"
+    },
+    {
+      "personId": 100,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Druig"
+    },
+    {
+      "personId": 720,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sprite"
+    },
+    {
+      "personId": 149,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Phastos"
+    },
+    {
+      "personId": 691,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kingo"
+    },
+    {
+      "personId": 705,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Makkari"
+    },
+    {
+      "personId": 759,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gilgamesh"
+    },
+    {
+      "personId": 429,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Karun"
     }
   ]
 }

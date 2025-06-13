@@ -81,32 +81,6 @@
       "comment": "Keanu Reeves and Laurence Fishburne"
     }
   ],
-  "cast": [
-    {
-      "personId": 657,
-      "characterName": "Neo"
-    },
-    {
-      "personId": 707,
-      "characterName": "Morpheus"
-    },
-    {
-      "personId": 173,
-      "characterName": "Trinity"
-    },
-    {
-      "personId": 454,
-      "characterName": "Agent Smith"
-    },
-    {
-      "personId": 413,
-      "characterName": "Oracle"
-    },
-    {
-      "personId": 569,
-      "characterName": "Cypher"
-    }
-  ],
   "collections": [
     {
       "collectionId": 1,
@@ -129,33 +103,6 @@
       "countryId": 12
     }
   ],
-  "crew": [
-    {
-      "personId": 2230,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2230,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1901,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1743,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1296,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 1
@@ -173,6 +120,74 @@
     {
       "videoId": "m8e-FF8MsqU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2230,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2230,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1901,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1743,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1296,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 657,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neo"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Morpheus"
+    },
+    {
+      "personId": 173,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Trinity"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Smith"
+    },
+    {
+      "personId": 413,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Oracle"
+    },
+    {
+      "personId": 569,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cypher"
     }
   ]
 }

@@ -14,32 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 662,
-      "characterName": "Raya"
-    },
-    {
-      "personId": 97,
-      "characterName": "Sisu"
-    },
-    {
-      "personId": 474,
-      "characterName": "Boun"
-    },
-    {
-      "personId": 398,
-      "characterName": "Namaari"
-    },
-    {
-      "personId": 246,
-      "characterName": "Benja"
-    },
-    {
-      "personId": 116,
-      "characterName": "Tong"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -49,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1906,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1907,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1908,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1909,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1910,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1384,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1911,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -105,6 +42,86 @@
     {
       "videoId": "1VIZ89FEjYI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1906,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1907,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1908,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1909,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1910,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1384,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1911,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 662,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Raya"
+    },
+    {
+      "personId": 97,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sisu"
+    },
+    {
+      "personId": 474,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boun"
+    },
+    {
+      "personId": 398,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Namaari"
+    },
+    {
+      "personId": 246,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Benja"
+    },
+    {
+      "personId": 116,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tong"
     }
   ]
 }

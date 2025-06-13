@@ -14,40 +14,6 @@
   "chapterKey": "mummy",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 144,
-      "characterName": "Rick O'Connell"
-    },
-    {
-      "personId": 561,
-      "characterName": "Emperor"
-    },
-    {
-      "personId": 776,
-      "characterName": "Evelyn O'Connell"
-    },
-    {
-      "personId": 583,
-      "characterName": "Jonathan Carnahan"
-    },
-    {
-      "personId": 839,
-      "characterName": "Zi Yuan"
-    },
-    {
-      "personId": 751,
-      "characterName": "Alex O'Connell"
-    },
-    {
-      "personId": 468,
-      "characterName": "Lin"
-    },
-    {
-      "personId": 1017,
-      "characterName": "Ming Guo"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -57,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2159,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2247,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2248,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2244,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2246,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2249,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1679,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -113,6 +42,98 @@
     {
       "videoId": "5-4qSE2Ch0Y",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2159,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2247,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2248,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2244,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2246,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2249,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1679,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 144,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick O'Connell"
+    },
+    {
+      "personId": 561,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Emperor"
+    },
+    {
+      "personId": 776,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Evelyn O'Connell"
+    },
+    {
+      "personId": 583,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jonathan Carnahan"
+    },
+    {
+      "personId": 839,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zi Yuan"
+    },
+    {
+      "personId": 751,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alex O'Connell"
+    },
+    {
+      "personId": 468,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lin"
+    },
+    {
+      "personId": 1017,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ming Guo"
     }
   ]
 }

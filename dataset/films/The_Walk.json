@@ -14,44 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 614,
-      "characterName": "Philippe Petit"
-    },
-    {
-      "personId": 187,
-      "characterName": "Annie Allix"
-    },
-    {
-      "personId": 109,
-      "characterName": "Papa Rudy"
-    },
-    {
-      "personId": 220,
-      "characterName": "Jean-Louis"
-    },
-    {
-      "personId": 501,
-      "characterName": "Jean-Pierre"
-    },
-    {
-      "personId": 235,
-      "characterName": "Jeff"
-    },
-    {
-      "personId": 112,
-      "characterName": "Albert"
-    },
-    {
-      "personId": 115,
-      "characterName": "David"
-    },
-    {
-      "personId": 1093,
-      "characterName": "Barry Greenhouse"
-    }
-  ],
   "collections": [
     {
       "collectionId": 15,
@@ -61,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1373,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1373,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2300,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2301,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2302,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1373,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1371,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1894,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -119,6 +39,110 @@
     {
       "videoId": "4W6byFcD5uE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1373,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1373,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2300,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2301,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2302,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1373,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1371,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1894,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 614,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Philippe Petit"
+    },
+    {
+      "personId": 187,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Annie Allix"
+    },
+    {
+      "personId": 109,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Papa Rudy"
+    },
+    {
+      "personId": 220,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jean-Louis"
+    },
+    {
+      "personId": 501,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jean-Pierre"
+    },
+    {
+      "personId": 235,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jeff"
+    },
+    {
+      "personId": 112,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Albert"
+    },
+    {
+      "personId": 115,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "David"
+    },
+    {
+      "personId": 1093,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barry Greenhouse"
     }
   ]
 }

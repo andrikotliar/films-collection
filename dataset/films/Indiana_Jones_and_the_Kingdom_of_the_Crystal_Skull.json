@@ -21,32 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr."
-    },
-    {
-      "personId": 175,
-      "characterName": "Irina Spalko"
-    },
-    {
-      "personId": 638,
-      "characterName": "Marion Ravenwood"
-    },
-    {
-      "personId": 1065,
-      "characterName": "Mutt Williams"
-    },
-    {
-      "personId": 953,
-      "characterName": "'Mac' George Michale"
-    },
-    {
-      "personId": 584,
-      "characterName": "Professor Oxley"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -56,38 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1375,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1702,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1704,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1705,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -113,6 +55,80 @@
     {
       "videoId": "WAdJf4wTC5Y",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1375,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1702,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1704,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1705,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Henry «Indiana» Jones, Jr."
+    },
+    {
+      "personId": 175,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Irina Spalko"
+    },
+    {
+      "personId": 638,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marion Ravenwood"
+    },
+    {
+      "personId": 1065,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mutt Williams"
+    },
+    {
+      "personId": 953,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "'Mac' George Michale"
+    },
+    {
+      "personId": 584,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Oxley"
     }
   ]
 }

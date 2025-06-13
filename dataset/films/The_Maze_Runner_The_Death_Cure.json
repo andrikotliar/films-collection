@@ -14,40 +14,6 @@
   "chapterKey": "maze-runner",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 316,
-      "characterName": "Thomas"
-    },
-    {
-      "personId": 655,
-      "characterName": "Teresa"
-    },
-    {
-      "personId": 1113,
-      "characterName": "Newt"
-    },
-    {
-      "personId": 680,
-      "characterName": "Minho"
-    },
-    {
-      "personId": 18,
-      "characterName": "Janson"
-    },
-    {
-      "personId": 405,
-      "characterName": "Jorge"
-    },
-    {
-      "personId": 1003,
-      "characterName": "Brenda"
-    },
-    {
-      "personId": 1176,
-      "characterName": "Gally"
-    }
-  ],
   "collections": [
     {
       "collectionId": 12,
@@ -57,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2231,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2234,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2235,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1678,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2236,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2237,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2238,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2240,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -118,6 +42,104 @@
     {
       "videoId": "4-BTxXm8KSg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2231,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2234,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2235,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1678,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2236,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2237,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2238,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2240,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 316,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thomas"
+    },
+    {
+      "personId": 655,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Teresa"
+    },
+    {
+      "personId": 1113,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Newt"
+    },
+    {
+      "personId": 680,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Minho"
+    },
+    {
+      "personId": 18,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Janson"
+    },
+    {
+      "personId": 405,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jorge"
+    },
+    {
+      "personId": 1003,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brenda"
+    },
+    {
+      "personId": 1176,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gally"
     }
   ]
 }

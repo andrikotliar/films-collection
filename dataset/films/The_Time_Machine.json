@@ -14,28 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 421,
-      "characterName": "Alexander Hartdegen"
-    },
-    {
-      "personId": 781,
-      "characterName": "David Philby"
-    },
-    {
-      "personId": 1067,
-      "characterName": "Emma"
-    },
-    {
-      "personId": 1225,
-      "characterName": "Mara"
-    },
-    {
-      "personId": 895,
-      "characterName": "Vox"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -49,38 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2259,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1668,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1826,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2260,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1896,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1902,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -100,6 +46,74 @@
     {
       "videoId": "90T7iLuzFgg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2259,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1668,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1826,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2260,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1896,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1902,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 421,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alexander Hartdegen"
+    },
+    {
+      "personId": 781,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "David Philby"
+    },
+    {
+      "personId": 1067,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Emma"
+    },
+    {
+      "personId": 1225,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mara"
+    },
+    {
+      "personId": 895,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vox"
     }
   ]
 }

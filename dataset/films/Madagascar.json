@@ -14,40 +14,6 @@
   "chapterKey": "madagascar",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 113,
-      "characterName": "Alex"
-    },
-    {
-      "personId": 200,
-      "characterName": "Marty"
-    },
-    {
-      "personId": 277,
-      "characterName": "Melman"
-    },
-    {
-      "personId": 490,
-      "characterName": "Gloria"
-    },
-    {
-      "personId": 1025,
-      "characterName": "Julien"
-    },
-    {
-      "personId": 1136,
-      "characterName": "Skipper"
-    },
-    {
-      "personId": 196,
-      "characterName": "Kowalski"
-    },
-    {
-      "personId": 1260,
-      "characterName": "Maurice"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -57,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1818,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1136,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1819,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1820,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1818,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1136,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1821,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -118,6 +42,104 @@
     {
       "videoId": "orAqhC-Hp_o",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1818,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1136,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1819,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1820,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1818,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1136,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1821,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 113,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alex"
+    },
+    {
+      "personId": 200,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marty"
+    },
+    {
+      "personId": 277,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Melman"
+    },
+    {
+      "personId": 490,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gloria"
+    },
+    {
+      "personId": 1025,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Julien"
+    },
+    {
+      "personId": 1136,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Skipper"
+    },
+    {
+      "personId": 196,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kowalski"
+    },
+    {
+      "personId": 1260,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maurice"
     }
   ]
 }
