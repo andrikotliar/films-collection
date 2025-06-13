@@ -3,14 +3,13 @@ import {
   Film,
   Prisma,
   FilmAwardNomination,
-  FilmCast,
   FilmCollection,
   FilmCountry,
-  FilmCrew,
   FilmGenre,
   FilmStudio,
   SeriesExtension,
   FilmTrailer,
+  FilmPerson,
 } from '@prisma/client';
 import { ITXClientDenyList } from '@prisma/client/runtime/library';
 import { readdir, readFile } from 'node:fs/promises';
@@ -25,10 +24,9 @@ type FilmRelationOmitFields = 'id' | 'filmId';
 
 type FilmRelations = {
   awards: Omit<FilmAwardNomination, FilmRelationOmitFields>[];
-  cast: Omit<FilmCast, FilmRelationOmitFields>[];
   collections: Omit<FilmCollection, FilmRelationOmitFields>[];
   countries: Omit<FilmCountry, FilmRelationOmitFields>[];
-  crew: Omit<FilmCrew, FilmRelationOmitFields>[];
+  castAndCrew: Omit<FilmPerson, FilmRelationOmitFields>[];
   genres: Omit<FilmGenre, FilmRelationOmitFields>[];
   studios: Omit<FilmStudio, FilmRelationOmitFields>[];
   trailers: Omit<FilmTrailer, FilmRelationOmitFields>[];
@@ -136,8 +134,7 @@ const mapFilmDataToPrismaStructure = (
     collections,
     countries,
     studios,
-    cast,
-    crew,
+    castAndCrew,
     trailers,
     seriesExtension,
     ...baseFilmData
@@ -175,15 +172,9 @@ const mapFilmDataToPrismaStructure = (
     };
   }
 
-  if (cast.length) {
-    filmRelations.cast = {
-      create: cast,
-    };
-  }
-
-  if (crew.length) {
-    filmRelations.crew = {
-      create: crew,
+  if (castAndCrew.length) {
+    filmRelations.castAndCrew = {
+      create: castAndCrew,
     };
   }
 

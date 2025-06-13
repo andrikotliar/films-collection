@@ -26,8 +26,6 @@ model Film {
   updatedAt       DateTime              @updatedAt @map("updated_at")
   draft           Boolean               @default(false)
   castAndCrew     FilmPerson[]
-  crew            FilmCrew[]
-  cast            FilmCast[]
   genres          FilmGenre[]
   countries       FilmCountry[]
   studios         FilmStudio[]
@@ -41,16 +39,14 @@ model Film {
 }
 
 model Person {
-  id          Int                   @id @default(autoincrement())
-  name        String
-  image       String?
-  createdAt   DateTime              @default(now()) @map("created_at")
-  updatedAt   DateTime              @updatedAt @map("updated_at")
-  selected    Boolean               @default(false)
-  filmsMember FilmCrew[]
-  starredIn   FilmCast[]
-  awards      FilmAwardNomination[]
-  films       FilmPerson[]
+  id        Int                   @id @default(autoincrement())
+  name      String
+  image     String?
+  createdAt DateTime              @default(now()) @map("created_at")
+  updatedAt DateTime              @updatedAt @map("updated_at")
+  selected  Boolean               @default(false)
+  awards    FilmAwardNomination[]
+  films     FilmPerson[]
 
   @@map("people")
 }
@@ -68,33 +64,6 @@ model FilmPerson {
   updatedAt DateTime   @updatedAt @map("updated_at")
 
   @@map("films_people")
-}
-
-model FilmCrew {
-  id        Int          @id @default(autoincrement())
-  person    Person       @relation(fields: [personId], references: [id], onDelete: Cascade)
-  personId  Int          @map("person_id")
-  film      Film         @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  filmId    Int          @map("film_id")
-  position  CrewPosition
-  comment   String?
-  createdAt DateTime     @default(now()) @map("created_at")
-  updatedAt DateTime     @updatedAt @map("updated_at")
-
-  @@map("film_crew")
-}
-
-model FilmCast {
-  id            Int      @id @default(autoincrement())
-  person        Person   @relation(fields: [personId], references: [id], onDelete: Cascade)
-  personId      Int      @map("person_id")
-  film          Film     @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  filmId        Int      @map("film_id")
-  characterName String   @map("character_name")
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
-
-  @@map("film_cast")
 }
 
 model Genre {
@@ -355,15 +324,4 @@ enum PersonRole {
   ACTOR
 
   @@map("person_role")
-}
-
-enum CrewPosition {
-  DIRECTOR
-  WRITER
-  PRODUCER
-  COMPOSER
-  CAMERAMAN
-  CREATOR
-
-  @@map("crew_position")
 }
