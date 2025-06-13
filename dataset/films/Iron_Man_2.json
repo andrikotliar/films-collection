@@ -14,52 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 4,
   "awards": [],
-  "cast": [
-    {
-      "personId": 982,
-      "characterName": "Tony Stark / Iron Man"
-    },
-    {
-      "personId": 423,
-      "characterName": "Pepper Potts"
-    },
-    {
-      "personId": 304,
-      "characterName": "James Rhodes / War Machine"
-    },
-    {
-      "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Whidow"
-    },
-    {
-      "personId": 1032,
-      "characterName": "Justin Hammer"
-    },
-    {
-      "personId": 841,
-      "characterName": "Ivan Vanko"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Nick Fury"
-    },
-    {
-      "personId": 216,
-      "characterName": "Agent Coulson"
-    },
-    {
-      "personId": 596,
-      "characterName": "Howard Stark"
-    },
-    {
-      "personId": 394,
-      "characterName": "Senator Stern"
-    },
-    {
-      "personId": 601,
-      "characterName": "Happy Hogan"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -69,33 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 601,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1721,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1722,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1720,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -118,6 +45,104 @@
     {
       "videoId": "BoohRoVA9WQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 601,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1721,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1722,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1720,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 982,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "personId": 423,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pepper Potts"
+    },
+    {
+      "personId": 304,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James Rhodes / War Machine"
+    },
+    {
+      "personId": 1042,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Natasha Romanoff / Black Whidow"
+    },
+    {
+      "personId": 1032,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Justin Hammer"
+    },
+    {
+      "personId": 841,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ivan Vanko"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nick Fury"
+    },
+    {
+      "personId": 216,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Coulson"
+    },
+    {
+      "personId": 596,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Howard Stark"
+    },
+    {
+      "personId": 394,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Senator Stern"
+    },
+    {
+      "personId": 601,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Happy Hogan"
     }
   ]
 }

@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 453,
-      "characterName": "Charlie Kenton"
-    },
-    {
-      "personId": 239,
-      "characterName": "Max Kenton"
-    },
-    {
-      "personId": 361,
-      "characterName": "Bailey Tallet"
-    },
-    {
-      "personId": 74,
-      "characterName": "Finn"
-    },
-    {
-      "personId": 674,
-      "characterName": "Ricky"
-    },
-    {
-      "personId": 451,
-      "characterName": "Aunt Debra"
-    },
-    {
-      "personId": 514,
-      "characterName": "Marvin"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -53,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1815,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1916,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1815,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1917,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1918,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1828,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1338,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -109,6 +42,92 @@
     {
       "videoId": "SwfmV3nn6QA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1815,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1916,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1815,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1917,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1918,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1828,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1338,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlie Kenton"
+    },
+    {
+      "personId": 239,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Max Kenton"
+    },
+    {
+      "personId": 361,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bailey Tallet"
+    },
+    {
+      "personId": 74,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Finn"
+    },
+    {
+      "personId": 674,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ricky"
+    },
+    {
+      "personId": 451,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aunt Debra"
+    },
+    {
+      "personId": 514,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marvin"
     }
   ]
 }

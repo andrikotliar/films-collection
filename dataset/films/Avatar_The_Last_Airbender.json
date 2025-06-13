@@ -55,68 +55,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1196,
-      "characterName": "Aang"
-    },
-    {
-      "personId": 763,
-      "characterName": "Katara"
-    },
-    {
-      "personId": 481,
-      "characterName": "Sokka"
-    },
-    {
-      "personId": 258,
-      "characterName": "Zuko"
-    },
-    {
-      "personId": 833,
-      "characterName": "Toph"
-    },
-    {
-      "personId": 770,
-      "characterName": "Airo"
-    },
-    {
-      "personId": 418,
-      "characterName": "Azula"
-    },
-    {
-      "personId": 59,
-      "characterName": "Hakoda"
-    },
-    {
-      "personId": 231,
-      "characterName": "Mai"
-    },
-    {
-      "personId": 889,
-      "characterName": "Ty Lee"
-    },
-    {
-      "personId": 507,
-      "characterName": "Roku"
-    },
-    {
-      "personId": 527,
-      "characterName": "Zhao"
-    },
-    {
-      "personId": 215,
-      "characterName": "Long Feng"
-    },
-    {
-      "personId": 573,
-      "characterName": "Princess Yue"
-    },
-    {
-      "personId": 545,
-      "characterName": "Suki"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -126,168 +64,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1339,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1340,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1339,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1341,
-      "position": "DIRECTOR",
-      "comment": "19 episodes"
-    },
-    {
-      "personId": 1342,
-      "position": "DIRECTOR",
-      "comment": "9 episodes"
-    },
-    {
-      "personId": 1343,
-      "position": "DIRECTOR",
-      "comment": "11 episodes"
-    },
-    {
-      "personId": 1344,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1345,
-      "position": "DIRECTOR",
-      "comment": "12 episodes"
-    },
-    {
-      "personId": 1340,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1346,
-      "position": "DIRECTOR",
-      "comment": "8 episodes"
-    },
-    {
-      "personId": 1339,
-      "position": "WRITER",
-      "comment": "14 episodes (written by)"
-    },
-    {
-      "personId": 1340,
-      "position": "WRITER",
-      "comment": "7 episodes (written by)"
-    },
-    {
-      "personId": 1347,
-      "position": "WRITER",
-      "comment": "12 episodes"
-    },
-    {
-      "personId": 1348,
-      "position": "WRITER",
-      "comment": "11 episodes"
-    },
-    {
-      "personId": 1349,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1350,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1351,
-      "position": "WRITER",
-      "comment": "10 episodes"
-    },
-    {
-      "personId": 1352,
-      "position": "WRITER",
-      "comment": "8 episodes"
-    },
-    {
-      "personId": 1353,
-      "position": "WRITER",
-      "comment": "7 episodes"
-    },
-    {
-      "personId": 1354,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1355,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1356,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1357,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1358,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1359,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1360,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1361,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1341,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1339,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1340,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1362,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1363,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -312,6 +88,290 @@
     {
       "videoId": "ahPeclU9VW0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1339,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1340,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1339,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1341,
+      "comment": "19 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1342,
+      "comment": "9 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1343,
+      "comment": "11 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1344,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1345,
+      "comment": "12 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1340,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1346,
+      "comment": "8 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1339,
+      "comment": "14 episodes (written by)",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1340,
+      "comment": "7 episodes (written by)",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1347,
+      "comment": "12 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1348,
+      "comment": "11 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1349,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1350,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1351,
+      "comment": "10 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1352,
+      "comment": "8 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1353,
+      "comment": "7 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1354,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1355,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1356,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1357,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1358,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1359,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1360,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1361,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1341,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1339,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1340,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1362,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1363,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1196,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aang"
+    },
+    {
+      "personId": 763,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katara"
+    },
+    {
+      "personId": 481,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sokka"
+    },
+    {
+      "personId": 258,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zuko"
+    },
+    {
+      "personId": 833,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Toph"
+    },
+    {
+      "personId": 770,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Airo"
+    },
+    {
+      "personId": 418,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Azula"
+    },
+    {
+      "personId": 59,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hakoda"
+    },
+    {
+      "personId": 231,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mai"
+    },
+    {
+      "personId": 889,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ty Lee"
+    },
+    {
+      "personId": 507,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Roku"
+    },
+    {
+      "personId": 527,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zhao"
+    },
+    {
+      "personId": 215,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Long Feng"
+    },
+    {
+      "personId": 573,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Princess Yue"
+    },
+    {
+      "personId": 545,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Suki"
     }
   ]
 }

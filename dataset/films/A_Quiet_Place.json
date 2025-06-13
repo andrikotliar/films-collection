@@ -33,24 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 341,
-      "characterName": "Evelyn Abbott"
-    },
-    {
-      "personId": 585,
-      "characterName": "Lee Abbott"
-    },
-    {
-      "personId": 843,
-      "characterName": "Regan Abbott"
-    },
-    {
-      "personId": 877,
-      "characterName": "Marcus Abbott"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -60,53 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 585,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1273,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1274,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 585,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1275,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1276,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1277,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1278,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1279,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -129,6 +64,86 @@
     {
       "videoId": "WR7cc5t7tv8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 585,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1273,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1274,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 585,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1275,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1276,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1277,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1278,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1279,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 341,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Evelyn Abbott"
+    },
+    {
+      "personId": 585,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lee Abbott"
+    },
+    {
+      "personId": 843,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Regan Abbott"
+    },
+    {
+      "personId": 877,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marcus Abbott"
     }
   ]
 }

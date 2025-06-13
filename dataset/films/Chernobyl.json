@@ -97,40 +97,6 @@
       "comment": "as Boris Shcherbina"
     }
   ],
-  "cast": [
-    {
-      "personId": 521,
-      "characterName": "Valery Legasov"
-    },
-    {
-      "personId": 1080,
-      "characterName": "Boris Shcherbina"
-    },
-    {
-      "personId": 343,
-      "characterName": "Ulana Khomyuk"
-    },
-    {
-      "personId": 909,
-      "characterName": "Anatoly Dyatlov"
-    },
-    {
-      "personId": 983,
-      "characterName": "Leonid Toptunov"
-    },
-    {
-      "personId": 1033,
-      "characterName": "Alexandr Akimov"
-    },
-    {
-      "personId": 560,
-      "characterName": "Lyudmilla Ignatenko"
-    },
-    {
-      "personId": 9,
-      "characterName": "Vasily Ignatenko"
-    }
-  ],
   "collections": [
     {
       "collectionId": 17,
@@ -143,38 +109,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1414,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1415,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1414,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1416,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1417,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1418,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -199,6 +133,92 @@
     {
       "videoId": "s9APLXM9Ei8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1414,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1415,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1414,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1416,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1417,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1418,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 521,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Valery Legasov"
+    },
+    {
+      "personId": 1080,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boris Shcherbina"
+    },
+    {
+      "personId": 343,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ulana Khomyuk"
+    },
+    {
+      "personId": 909,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anatoly Dyatlov"
+    },
+    {
+      "personId": 983,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leonid Toptunov"
+    },
+    {
+      "personId": 1033,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alexandr Akimov"
+    },
+    {
+      "personId": 560,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lyudmilla Ignatenko"
+    },
+    {
+      "personId": 9,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vasily Ignatenko"
     }
   ]
 }

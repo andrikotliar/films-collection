@@ -141,44 +141,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 785,
-      "characterName": "Luke Skywalker"
-    },
-    {
-      "personId": 431,
-      "characterName": "Han Solo"
-    },
-    {
-      "personId": 171,
-      "characterName": "Leia Organa"
-    },
-    {
-      "personId": 919,
-      "characterName": "Moff Tarkin"
-    },
-    {
-      "personId": 28,
-      "characterName": "Ben Obi-Wan Kenobi"
-    },
-    {
-      "personId": 72,
-      "characterName": "C-3PO"
-    },
-    {
-      "personId": 667,
-      "characterName": "R2-D2"
-    },
-    {
-      "personId": 924,
-      "characterName": "Chewbacca"
-    },
-    {
-      "personId": 276,
-      "characterName": "Darth Vader"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -188,33 +150,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1993,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1997,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1998,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -237,6 +172,92 @@
     {
       "videoId": "vZ734NWnAHA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1997,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1998,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 785,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luke Skywalker"
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Han Solo"
+    },
+    {
+      "personId": 171,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leia Organa"
+    },
+    {
+      "personId": 919,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Moff Tarkin"
+    },
+    {
+      "personId": 28,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ben Obi-Wan Kenobi"
+    },
+    {
+      "personId": 72,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "C-3PO"
+    },
+    {
+      "personId": 667,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "R2-D2"
+    },
+    {
+      "personId": 924,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chewbacca"
+    },
+    {
+      "personId": 276,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darth Vader"
     }
   ]
 }

@@ -27,28 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 140,
-      "characterName": "Gerry Lane"
-    },
-    {
-      "personId": 848,
-      "characterName": "Karin Lane"
-    },
-    {
-      "personId": 254,
-      "characterName": "Segen"
-    },
-    {
-      "personId": 501,
-      "characterName": "Captain Speke"
-    },
-    {
-      "personId": 747,
-      "characterName": "Jurgen Warmbrunn"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -58,48 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2366,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2367,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2226,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 140,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2368,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2369,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1278,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2334,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +61,86 @@
     {
       "videoId": "Md6Dvxdr0AQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2366,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2367,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2226,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 140,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2368,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2369,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1278,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2334,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 140,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gerry Lane"
+    },
+    {
+      "personId": 848,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Karin Lane"
+    },
+    {
+      "personId": 254,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Segen"
+    },
+    {
+      "personId": 501,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Speke"
+    },
+    {
+      "personId": 747,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jurgen Warmbrunn"
     }
   ]
 }

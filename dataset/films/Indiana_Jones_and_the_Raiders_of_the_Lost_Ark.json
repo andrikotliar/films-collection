@@ -105,32 +105,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr."
-    },
-    {
-      "personId": 638,
-      "characterName": "Marion"
-    },
-    {
-      "personId": 906,
-      "characterName": "Belloq"
-    },
-    {
-      "personId": 1000,
-      "characterName": "Toht"
-    },
-    {
-      "personId": 595,
-      "characterName": "Sallah"
-    },
-    {
-      "personId": 283,
-      "characterName": "Brody"
-    }
-  ],
   "collections": [
     {
       "collectionId": 1,
@@ -144,38 +118,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1375,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1709,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1704,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1708,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -201,6 +143,80 @@
     {
       "videoId": "Rh_BJXG1-44",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1375,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1709,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1704,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1708,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Henry «Indiana» Jones, Jr."
+    },
+    {
+      "personId": 638,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marion"
+    },
+    {
+      "personId": 906,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Belloq"
+    },
+    {
+      "personId": 1000,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Toht"
+    },
+    {
+      "personId": 595,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sallah"
+    },
+    {
+      "personId": 283,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brody"
     }
   ]
 }

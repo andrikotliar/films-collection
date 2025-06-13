@@ -27,44 +27,6 @@
       "comment": "Hugh Jackman and Dafne Keen"
     }
   ],
-  "cast": [
-    {
-      "personId": 453,
-      "characterName": "Logan / X-24"
-    },
-    {
-      "personId": 903,
-      "characterName": "Charles"
-    },
-    {
-      "personId": 237,
-      "characterName": "Laura"
-    },
-    {
-      "personId": 138,
-      "characterName": "Pierce"
-    },
-    {
-      "personId": 1086,
-      "characterName": "Caliban"
-    },
-    {
-      "personId": 330,
-      "characterName": "Gabriela"
-    },
-    {
-      "personId": 968,
-      "characterName": "Dr. Rice"
-    },
-    {
-      "personId": 355,
-      "characterName": "Will Munson"
-    },
-    {
-      "personId": 324,
-      "characterName": "Kathryn Munson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -74,48 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1478,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1795,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1478,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1629,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1796,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1797,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1278,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1798,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -138,6 +58,110 @@
     {
       "videoId": "Div0iP65aZo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1478,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1795,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1478,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1629,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1796,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1797,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1278,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1798,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Logan / X-24"
+    },
+    {
+      "personId": 903,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charles"
+    },
+    {
+      "personId": 237,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Laura"
+    },
+    {
+      "personId": 138,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pierce"
+    },
+    {
+      "personId": 1086,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Caliban"
+    },
+    {
+      "personId": 330,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gabriela"
+    },
+    {
+      "personId": 968,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Rice"
+    },
+    {
+      "personId": 355,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Will Munson"
+    },
+    {
+      "personId": 324,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kathryn Munson"
     }
   ]
 }

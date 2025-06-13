@@ -21,60 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 453,
-      "characterName": "Logan / Wolverine"
-    },
-    {
-      "personId": 511,
-      "characterName": "Charles Xavier"
-    },
-    {
-      "personId": 823,
-      "characterName": "Erik Lehnsherr"
-    },
-    {
-      "personId": 547,
-      "characterName": "Raven / Mystique"
-    },
-    {
-      "personId": 426,
-      "characterName": "Storm"
-    },
-    {
-      "personId": 870,
-      "characterName": "Hank / Beast"
-    },
-    {
-      "personId": 66,
-      "characterName": "Rogue"
-    },
-    {
-      "personId": 334,
-      "characterName": "Kitty Pryde"
-    },
-    {
-      "personId": 920,
-      "characterName": "Dr. Bolivar Trask"
-    },
-    {
-      "personId": 1063,
-      "characterName": "Bobby / Iceman"
-    },
-    {
-      "personId": 360,
-      "characterName": "Peter / Quicksilver"
-    },
-    {
-      "personId": 460,
-      "characterName": "Magneto"
-    },
-    {
-      "personId": 903,
-      "characterName": "Professor X"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -84,38 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2370,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1797,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1796,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2370,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2375,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2376,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -138,6 +52,122 @@
     {
       "videoId": "pK2zYHWDZKo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2370,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1797,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1796,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2370,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2375,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2376,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Logan / Wolverine"
+    },
+    {
+      "personId": 511,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charles Xavier"
+    },
+    {
+      "personId": 823,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Erik Lehnsherr"
+    },
+    {
+      "personId": 547,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Raven / Mystique"
+    },
+    {
+      "personId": 426,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Storm"
+    },
+    {
+      "personId": 870,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hank / Beast"
+    },
+    {
+      "personId": 66,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rogue"
+    },
+    {
+      "personId": 334,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kitty Pryde"
+    },
+    {
+      "personId": 920,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Bolivar Trask"
+    },
+    {
+      "personId": 1063,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bobby / Iceman"
+    },
+    {
+      "personId": 360,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter / Quicksilver"
+    },
+    {
+      "personId": 460,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Magneto"
+    },
+    {
+      "personId": 903,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor X"
     }
   ]
 }

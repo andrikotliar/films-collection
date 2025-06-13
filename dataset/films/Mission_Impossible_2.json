@@ -33,40 +33,6 @@
       "comment": "The motorcycle chase."
     }
   ],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Ethan Hunt"
-    },
-    {
-      "personId": 311,
-      "characterName": "Sean Ambrose"
-    },
-    {
-      "personId": 1206,
-      "characterName": "Nyah Hall"
-    },
-    {
-      "personId": 1166,
-      "characterName": "Luther Strickell"
-    },
-    {
-      "personId": 973,
-      "characterName": "Hugh Stamp"
-    },
-    {
-      "personId": 592,
-      "characterName": "Billy Baird"
-    },
-    {
-      "personId": 145,
-      "characterName": "McCloy"
-    },
-    {
-      "personId": 941,
-      "characterName": "Dr. Nekhorvich"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -76,38 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1841,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1838,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1129,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1839,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1842,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +61,92 @@
     {
       "videoId": "Aqk78Z57LGg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1841,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1838,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1839,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1842,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ethan Hunt"
+    },
+    {
+      "personId": 311,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sean Ambrose"
+    },
+    {
+      "personId": 1206,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nyah Hall"
+    },
+    {
+      "personId": 1166,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luther Strickell"
+    },
+    {
+      "personId": 973,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hugh Stamp"
+    },
+    {
+      "personId": 592,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Billy Baird"
+    },
+    {
+      "personId": 145,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "McCloy"
+    },
+    {
+      "personId": 941,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Nekhorvich"
     }
   ]
 }

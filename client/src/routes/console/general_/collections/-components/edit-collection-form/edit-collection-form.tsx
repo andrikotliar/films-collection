@@ -20,7 +20,7 @@ export const EditCollectionForm = ({
 }: EditCollectionFormProps) => {
   const { id: collectionId, ...defaultValues } = initialValues;
 
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
   const form = useForm({
     defaultValues,
   });
@@ -31,7 +31,7 @@ export const EditCollectionForm = ({
     },
     onSuccess: onSuccessHandler,
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 

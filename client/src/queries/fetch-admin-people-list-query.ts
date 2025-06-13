@@ -5,6 +5,7 @@ import { queryOptions } from '@tanstack/react-query';
 export type FetchAdminPeopleListParams = {
   page?: number;
   q?: string | null;
+  role?: string | null;
 };
 
 export const fetchAdminPeopleListQuery = (
@@ -13,7 +14,7 @@ export const fetchAdminPeopleListQuery = (
   return queryOptions({
     queryKey: ['people', 'list', params] as const,
     queryFn: ({ queryKey }) => {
-      const { page = 0, q } = queryKey[2];
+      const { page = 0, q, role } = queryKey[2];
 
       const filters: GetPeopleListQueries = {
         skip: page * PEOPLE_ADMIN_PER_PAGE,
@@ -21,6 +22,10 @@ export const fetchAdminPeopleListQuery = (
 
       if (q) {
         filters.q = q;
+      }
+
+      if (role) {
+        filters.role = role;
       }
 
       return PeopleApi.getList(filters);

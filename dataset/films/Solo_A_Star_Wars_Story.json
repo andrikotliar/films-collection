@@ -14,44 +14,6 @@
   "chapterKey": "star-wars",
   "chapterOrder": 4,
   "awards": [],
-  "cast": [
-    {
-      "personId": 26,
-      "characterName": "Han Solo"
-    },
-    {
-      "personId": 611,
-      "characterName": "Chewbacca"
-    },
-    {
-      "personId": 1190,
-      "characterName": "Beckett"
-    },
-    {
-      "personId": 339,
-      "characterName": "Qi'ra"
-    },
-    {
-      "personId": 308,
-      "characterName": "Lando Calrissian"
-    },
-    {
-      "personId": 1206,
-      "characterName": "Val"
-    },
-    {
-      "personId": 930,
-      "characterName": "L3-37"
-    },
-    {
-      "personId": 905,
-      "characterName": "Dryden Vos"
-    },
-    {
-      "personId": 601,
-      "characterName": "Rio Durant"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -61,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1958,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1959,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1709,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1738,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1923,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1922,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1960,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +42,116 @@
     {
       "videoId": "jPEYpryMp2s",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1958,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1959,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1709,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1738,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1923,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1922,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1960,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 26,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Han Solo"
+    },
+    {
+      "personId": 611,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chewbacca"
+    },
+    {
+      "personId": 1190,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Beckett"
+    },
+    {
+      "personId": 339,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Qi'ra"
+    },
+    {
+      "personId": 308,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lando Calrissian"
+    },
+    {
+      "personId": 1206,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Val"
+    },
+    {
+      "personId": 930,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "L3-37"
+    },
+    {
+      "personId": 905,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dryden Vos"
+    },
+    {
+      "personId": 601,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rio Durant"
     }
   ]
 }

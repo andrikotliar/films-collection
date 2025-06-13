@@ -14,40 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Barry Seal"
-    },
-    {
-      "personId": 299,
-      "characterName": "Monty 'Schafer'"
-    },
-    {
-      "personId": 1040,
-      "characterName": "Lucy Seal"
-    },
-    {
-      "personId": 556,
-      "characterName": "Sheriff Downing"
-    },
-    {
-      "personId": 160,
-      "characterName": "JB"
-    },
-    {
-      "personId": 228,
-      "characterName": "George W. Bush"
-    },
-    {
-      "personId": 807,
-      "characterName": "Pablo Escobar"
-    },
-    {
-      "personId": 29,
-      "characterName": "Jorge Ochoa"
-    }
-  ],
   "collections": [
     {
       "collectionId": 5,
@@ -63,48 +29,6 @@
     },
     {
       "countryId": 8
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1297,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1298,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1299,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1300,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1301,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1302,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1303,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1304,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +51,104 @@
     {
       "videoId": "AEBIJRAkujM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1297,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1298,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1299,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1300,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1301,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1302,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1303,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1304,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barry Seal"
+    },
+    {
+      "personId": 299,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Monty 'Schafer'"
+    },
+    {
+      "personId": 1040,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lucy Seal"
+    },
+    {
+      "personId": 556,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sheriff Downing"
+    },
+    {
+      "personId": 160,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "JB"
+    },
+    {
+      "personId": 228,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "George W. Bush"
+    },
+    {
+      "personId": 807,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pablo Escobar"
+    },
+    {
+      "personId": 29,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jorge Ochoa"
     }
   ]
 }

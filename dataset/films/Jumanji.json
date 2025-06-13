@@ -21,28 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 995,
-      "characterName": "Alan Parrish"
-    },
-    {
-      "personId": 136,
-      "characterName": "Sarah Whittle"
-    },
-    {
-      "personId": 684,
-      "characterName": "Judy Shepherd"
-    },
-    {
-      "personId": 142,
-      "characterName": "Peter Shepherd"
-    },
-    {
-      "personId": 607,
-      "characterName": "Van Pelt"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -52,48 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1400,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1731,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1732,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1733,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1734,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1735,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1290,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1736,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -113,6 +49,86 @@
     {
       "videoId": "5p18zqZmeiI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1400,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1731,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1732,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1733,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1734,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1735,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1290,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1736,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 995,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alan Parrish"
+    },
+    {
+      "personId": 136,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sarah Whittle"
+    },
+    {
+      "personId": 684,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Judy Shepherd"
+    },
+    {
+      "personId": 142,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Shepherd"
+    },
+    {
+      "personId": 607,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Van Pelt"
     }
   ]
 }

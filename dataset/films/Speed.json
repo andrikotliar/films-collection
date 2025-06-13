@@ -45,24 +45,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 657,
-      "characterName": "Jack Traven"
-    },
-    {
-      "personId": 285,
-      "characterName": "Howard Payne"
-    },
-    {
-      "personId": 1038,
-      "characterName": "Annie"
-    },
-    {
-      "personId": 540,
-      "characterName": "Harry"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -72,33 +54,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1966,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1967,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1968,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1969,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -118,6 +73,62 @@
     {
       "videoId": "8piqd2BWeGI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1966,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1967,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1968,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1969,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 657,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jack Traven"
+    },
+    {
+      "personId": 285,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Howard Payne"
+    },
+    {
+      "personId": 1038,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Annie"
+    },
+    {
+      "personId": 540,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Harry"
     }
   ]
 }

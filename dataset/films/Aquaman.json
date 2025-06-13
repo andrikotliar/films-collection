@@ -14,40 +14,6 @@
   "chapterKey": "dceu",
   "chapterOrder": 6,
   "awards": [],
-  "cast": [
-    {
-      "personId": 528,
-      "characterName": "Arthur Curry / Aquaman"
-    },
-    {
-      "personId": 49,
-      "characterName": "Mera"
-    },
-    {
-      "personId": 1180,
-      "characterName": "Vulko"
-    },
-    {
-      "personId": 904,
-      "characterName": "King Orm"
-    },
-    {
-      "personId": 874,
-      "characterName": "Queen Atlanna"
-    },
-    {
-      "personId": 298,
-      "characterName": "King Nereus"
-    },
-    {
-      "personId": 1193,
-      "characterName": "Black Manta"
-    },
-    {
-      "personId": 1107,
-      "characterName": "Tom Curry"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -57,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1315,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1316,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1317,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1318,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1319,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1320,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1321,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -116,6 +45,98 @@
     {
       "videoId": "WDkg3h8PCVU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1315,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1316,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1317,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1318,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1319,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1320,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1321,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 528,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arthur Curry / Aquaman"
+    },
+    {
+      "personId": 49,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mera"
+    },
+    {
+      "personId": 1180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vulko"
+    },
+    {
+      "personId": 904,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "King Orm"
+    },
+    {
+      "personId": 874,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Queen Atlanna"
+    },
+    {
+      "personId": 298,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "King Nereus"
+    },
+    {
+      "personId": 1193,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Black Manta"
+    },
+    {
+      "personId": 1107,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tom Curry"
     }
   ]
 }

@@ -14,72 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 666,
-      "characterName": "Hercule Poirot"
-    },
-    {
-      "personId": 914,
-      "characterName": "Pilar Estravados"
-    },
-    {
-      "personId": 1180,
-      "characterName": "Gerhard Hardman"
-    },
-    {
-      "personId": 624,
-      "characterName": "Princess Dragomiroff"
-    },
-    {
-      "personId": 598,
-      "characterName": "Edward Ratchett"
-    },
-    {
-      "personId": 618,
-      "characterName": "Hector MacQueen"
-    },
-    {
-      "personId": 288,
-      "characterName": "Edward Henry Masterman"
-    },
-    {
-      "personId": 718,
-      "characterName": "Dr. Arbuthnot"
-    },
-    {
-      "personId": 837,
-      "characterName": "Caroline Hubbard"
-    },
-    {
-      "personId": 238,
-      "characterName": "Miss Mary Debenham"
-    },
-    {
-      "personId": 1127,
-      "characterName": "Bouc"
-    },
-    {
-      "personId": 794,
-      "characterName": "Pierre Michel"
-    },
-    {
-      "personId": 887,
-      "characterName": "Hildegarde Schmidt"
-    },
-    {
-      "personId": 744,
-      "characterName": "Countess Elena Andrenyi"
-    },
-    {
-      "personId": 772,
-      "characterName": "Biniamino Marquez"
-    },
-    {
-      "personId": 1053,
-      "characterName": "Count Rudolph Andrenyi"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -89,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 666,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1629,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1281,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1797,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 666,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1571,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1861,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -150,6 +42,152 @@
     {
       "videoId": "Mq4m3yAoW8E",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 666,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1629,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1281,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1797,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 666,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1571,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1861,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 666,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hercule Poirot"
+    },
+    {
+      "personId": 914,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pilar Estravados"
+    },
+    {
+      "personId": 1180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gerhard Hardman"
+    },
+    {
+      "personId": 624,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Princess Dragomiroff"
+    },
+    {
+      "personId": 598,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Edward Ratchett"
+    },
+    {
+      "personId": 618,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hector MacQueen"
+    },
+    {
+      "personId": 288,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Edward Henry Masterman"
+    },
+    {
+      "personId": 718,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Arbuthnot"
+    },
+    {
+      "personId": 837,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Caroline Hubbard"
+    },
+    {
+      "personId": 238,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miss Mary Debenham"
+    },
+    {
+      "personId": 1127,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bouc"
+    },
+    {
+      "personId": 794,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pierre Michel"
+    },
+    {
+      "personId": 887,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hildegarde Schmidt"
+    },
+    {
+      "personId": 744,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Countess Elena Andrenyi"
+    },
+    {
+      "personId": 772,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Biniamino Marquez"
+    },
+    {
+      "personId": 1053,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Count Rudolph Andrenyi"
     }
   ]
 }

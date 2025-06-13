@@ -55,48 +55,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 913,
-      "characterName": "The Mandalorian"
-    },
-    {
-      "personId": 407,
-      "characterName": "Cara Dune"
-    },
-    {
-      "personId": 405,
-      "characterName": "Moff Gideon"
-    },
-    {
-      "personId": 168,
-      "characterName": "Greef Karga"
-    },
-    {
-      "personId": 1107,
-      "characterName": "Boba Fett"
-    },
-    {
-      "personId": 847,
-      "characterName": "Fennec Shand"
-    },
-    {
-      "personId": 1004,
-      "characterName": "Ahsoka Tano"
-    },
-    {
-      "personId": 1101,
-      "characterName": "IG-11"
-    },
-    {
-      "personId": 871,
-      "characterName": "Kuiil"
-    },
-    {
-      "personId": 1237,
-      "characterName": "The Armorer"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -106,143 +64,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 601,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1342,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 2219,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 2220,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 157,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1101,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 601,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1305,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 168,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1292,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2221,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1394,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1984,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 601,
-      "position": "WRITER",
-      "comment": "20 episodes"
-    },
-    {
-      "personId": 1342,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 2222,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2219,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2223,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 601,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1342,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1738,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1728,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2035,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2224,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1448,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1522,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 2225,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -274,6 +95,230 @@
     {
       "videoId": "eW7Twd85m2g",
       "order": 2
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 601,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1342,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2219,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2220,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 157,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1101,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 601,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1305,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 168,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1292,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2221,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1394,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1984,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 601,
+      "comment": "20 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1342,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2222,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2219,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2223,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 601,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1342,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1738,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1728,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2035,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2224,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1448,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1522,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 2225,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 913,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Mandalorian"
+    },
+    {
+      "personId": 407,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cara Dune"
+    },
+    {
+      "personId": 405,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Moff Gideon"
+    },
+    {
+      "personId": 168,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Greef Karga"
+    },
+    {
+      "personId": 1107,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boba Fett"
+    },
+    {
+      "personId": 847,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fennec Shand"
+    },
+    {
+      "personId": 1004,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ahsoka Tano"
+    },
+    {
+      "personId": 1101,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "IG-11"
+    },
+    {
+      "personId": 871,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kuiil"
+    },
+    {
+      "personId": 1237,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Armorer"
     }
   ]
 }

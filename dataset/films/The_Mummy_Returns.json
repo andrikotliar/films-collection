@@ -14,48 +14,6 @@
   "chapterKey": "mummy",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 144,
-      "characterName": "Rick O'Connell"
-    },
-    {
-      "personId": 940,
-      "characterName": "Evelyn Carnahan / Nefertiri"
-    },
-    {
-      "personId": 583,
-      "characterName": "Jonathan"
-    },
-    {
-      "personId": 88,
-      "characterName": "Imhotep"
-    },
-    {
-      "personId": 883,
-      "characterName": "Ardeth Bay"
-    },
-    {
-      "personId": 901,
-      "characterName": "Meela / Anck-Su-Namun"
-    },
-    {
-      "personId": 388,
-      "characterName": "Alex"
-    },
-    {
-      "personId": 45,
-      "characterName": "Mr. Hafez"
-    },
-    {
-      "personId": 314,
-      "characterName": "The Scorpion King"
-    },
-    {
-      "personId": 1061,
-      "characterName": "Izzy"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -65,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2244,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2244,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2245,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2246,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1371,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1291,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -116,6 +42,104 @@
     {
       "videoId": "3yXjs7BUKYc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2244,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2244,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2245,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2246,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1371,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1291,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 144,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick O'Connell"
+    },
+    {
+      "personId": 940,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Evelyn Carnahan / Nefertiri"
+    },
+    {
+      "personId": 583,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jonathan"
+    },
+    {
+      "personId": 88,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Imhotep"
+    },
+    {
+      "personId": 883,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ardeth Bay"
+    },
+    {
+      "personId": 901,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Meela / Anck-Su-Namun"
+    },
+    {
+      "personId": 388,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alex"
+    },
+    {
+      "personId": 45,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mr. Hafez"
+    },
+    {
+      "personId": 314,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Scorpion King"
+    },
+    {
+      "personId": 1061,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Izzy"
     }
   ]
 }

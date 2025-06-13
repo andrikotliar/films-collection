@@ -14,28 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 547,
-      "characterName": "Aurora Lane"
-    },
-    {
-      "personId": 199,
-      "characterName": "Jim Preston"
-    },
-    {
-      "personId": 832,
-      "characterName": "Arthur"
-    },
-    {
-      "personId": 707,
-      "characterName": "Gus Mancuso"
-    },
-    {
-      "personId": 60,
-      "characterName": "Captain Norris"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -49,48 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1880,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1440,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1881,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1882,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1270,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1883,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1470,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1884,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -110,6 +46,86 @@
     {
       "videoId": "7BWWWQzTpNU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1880,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1440,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1881,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1882,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1270,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1883,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1470,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1884,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 547,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aurora Lane"
+    },
+    {
+      "personId": 199,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jim Preston"
+    },
+    {
+      "personId": 832,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arthur"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gus Mancuso"
+    },
+    {
+      "personId": 60,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Norris"
     }
   ]
 }

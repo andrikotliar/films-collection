@@ -21,52 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1164,
-      "characterName": "Dominic Toretto"
-    },
-    {
-      "personId": 911,
-      "characterName": "Brian O'Conner"
-    },
-    {
-      "personId": 314,
-      "characterName": "Hobbs"
-    },
-    {
-      "personId": 613,
-      "characterName": "Mia"
-    },
-    {
-      "personId": 838,
-      "characterName": "Letty"
-    },
-    {
-      "personId": 1156,
-      "characterName": "Roman"
-    },
-    {
-      "personId": 1095,
-      "characterName": "Han"
-    },
-    {
-      "personId": 392,
-      "characterName": "Gisele"
-    },
-    {
-      "personId": 746,
-      "characterName": "Tej"
-    },
-    {
-      "personId": 750,
-      "characterName": "Shaw"
-    },
-    {
-      "personId": 337,
-      "characterName": "Elena"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -76,38 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1462,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1463,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1270,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1164,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1485,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1466,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +49,110 @@
     {
       "videoId": "dKi5XoeTN0k",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1462,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1463,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1270,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1164,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1485,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1466,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1164,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dominic Toretto"
+    },
+    {
+      "personId": 911,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brian O'Conner"
+    },
+    {
+      "personId": 314,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hobbs"
+    },
+    {
+      "personId": 613,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mia"
+    },
+    {
+      "personId": 838,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Letty"
+    },
+    {
+      "personId": 1156,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Roman"
+    },
+    {
+      "personId": 1095,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Han"
+    },
+    {
+      "personId": 392,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gisele"
+    },
+    {
+      "personId": 746,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tej"
+    },
+    {
+      "personId": 750,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shaw"
+    },
+    {
+      "personId": 337,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Elena"
     }
   ]
 }

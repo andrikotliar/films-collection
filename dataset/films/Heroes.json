@@ -25,76 +25,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 479,
-      "characterName": "Noah Bennet"
-    },
-    {
-      "personId": 437,
-      "characterName": "Claire Bennet"
-    },
-    {
-      "personId": 845,
-      "characterName": "Peter Petrelli"
-    },
-    {
-      "personId": 801,
-      "characterName": "Hiro Nakamura"
-    },
-    {
-      "personId": 1052,
-      "characterName": "Mohinder Suresh"
-    },
-    {
-      "personId": 417,
-      "characterName": "Matt Parkman"
-    },
-    {
-      "personId": 509,
-      "characterName": "Ando Masahashi"
-    },
-    {
-      "personId": 15,
-      "characterName": "Nathan Petrelli"
-    },
-    {
-      "personId": 1198,
-      "characterName": "Sylar"
-    },
-    {
-      "personId": 37,
-      "characterName": "Niki Sanders"
-    },
-    {
-      "personId": 233,
-      "characterName": "Angela Petrelli"
-    },
-    {
-      "personId": 92,
-      "characterName": "Sandra Bennet"
-    },
-    {
-      "personId": 876,
-      "characterName": "Micah Sanders"
-    },
-    {
-      "personId": 987,
-      "characterName": "Isaac Mendez"
-    },
-    {
-      "personId": 266,
-      "characterName": "Adam Monroe"
-    },
-    {
-      "personId": 984,
-      "characterName": "Arthur Petrelli"
-    },
-    {
-      "personId": 771,
-      "characterName": "Daniel Linderman"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -104,333 +34,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1593,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1594,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1595,
-      "position": "DIRECTOR",
-      "comment": "11 episodes"
-    },
-    {
-      "personId": 1596,
-      "position": "DIRECTOR",
-      "comment": "12 episodes"
-    },
-    {
-      "personId": 1597,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1598,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1599,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1600,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1601,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1602,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1603,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1604,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1605,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1606,
-      "position": "DIRECTOR",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1607,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1608,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1609,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1610,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1611,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1612,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1613,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1614,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1615,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1616,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1617,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1618,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1619,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1620,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1621,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1622,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1623,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1624,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1625,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1626,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1593,
-      "position": "WRITER",
-      "comment": "17 episodes"
-    },
-    {
-      "personId": 1627,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1628,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1629,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1630,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1631,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1632,
-      "position": "WRITER",
-      "comment": "9 episodes"
-    },
-    {
-      "personId": 1633,
-      "position": "WRITER",
-      "comment": "9 episodes"
-    },
-    {
-      "personId": 1634,
-      "position": "WRITER",
-      "comment": "7 episodes"
-    },
-    {
-      "personId": 1635,
-      "position": "WRITER",
-      "comment": "8 episodes"
-    },
-    {
-      "personId": 1636,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1637,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1638,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1639,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1640,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1641,
-      "position": "WRITER",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1642,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1643,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1644,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1645,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1646,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1647,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1648,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1649,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1650,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1651,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1652,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1653,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1654,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1606,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1655,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -473,6 +76,500 @@
     {
       "videoId": "mTzPPIEUFEs",
       "order": 4
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1593,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1594,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1595,
+      "comment": "11 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1596,
+      "comment": "12 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1597,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1598,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1599,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1600,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1601,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1602,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1603,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1604,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1605,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1606,
+      "comment": "5 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1607,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1608,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1609,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1610,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1611,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1612,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1613,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1614,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1615,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1616,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1617,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1618,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1619,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1620,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1621,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1622,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1623,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1624,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1625,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1626,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1593,
+      "comment": "17 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1627,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1628,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1629,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1630,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1631,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1632,
+      "comment": "9 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1633,
+      "comment": "9 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1634,
+      "comment": "7 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1635,
+      "comment": "8 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1636,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1637,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1638,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1639,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1640,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1641,
+      "comment": "6 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1642,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1643,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1644,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1645,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1646,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1647,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1648,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1649,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1650,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1651,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1652,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1653,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1654,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1606,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1655,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 479,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Noah Bennet"
+    },
+    {
+      "personId": 437,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Claire Bennet"
+    },
+    {
+      "personId": 845,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Petrelli"
+    },
+    {
+      "personId": 801,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hiro Nakamura"
+    },
+    {
+      "personId": 1052,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mohinder Suresh"
+    },
+    {
+      "personId": 417,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Matt Parkman"
+    },
+    {
+      "personId": 509,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ando Masahashi"
+    },
+    {
+      "personId": 15,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nathan Petrelli"
+    },
+    {
+      "personId": 1198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sylar"
+    },
+    {
+      "personId": 37,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Niki Sanders"
+    },
+    {
+      "personId": 233,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Angela Petrelli"
+    },
+    {
+      "personId": 92,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sandra Bennet"
+    },
+    {
+      "personId": 876,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Micah Sanders"
+    },
+    {
+      "personId": 987,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Isaac Mendez"
+    },
+    {
+      "personId": 266,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Adam Monroe"
+    },
+    {
+      "personId": 984,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arthur Petrelli"
+    },
+    {
+      "personId": 771,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Daniel Linderman"
     }
   ]
 }

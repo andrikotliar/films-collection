@@ -27,28 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "Robert Neville"
-    },
-    {
-      "personId": 38,
-      "characterName": "Anna"
-    },
-    {
-      "personId": 185,
-      "characterName": "Ethan"
-    },
-    {
-      "personId": 1027,
-      "characterName": "Zoe Neville"
-    },
-    {
-      "personId": 1185,
-      "characterName": "Marley Neville"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -58,53 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1680,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1681,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1548,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1548,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1549,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1562,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1270,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1384,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1682,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -124,6 +55,92 @@
     {
       "videoId": "dtKMEAXyPkg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1680,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1681,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1548,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1548,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1549,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1562,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1270,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1384,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1682,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Robert Neville"
+    },
+    {
+      "personId": 38,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anna"
+    },
+    {
+      "personId": 185,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ethan"
+    },
+    {
+      "personId": 1027,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zoe Neville"
+    },
+    {
+      "personId": 1185,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marley Neville"
     }
   ]
 }

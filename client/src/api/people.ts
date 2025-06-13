@@ -9,6 +9,7 @@ export type ManagePersonPayload = {
 export type GetPeopleListQueries = {
   skip: number;
   q?: string;
+  role?: string;
 };
 
 export type PeopleListResponse = {

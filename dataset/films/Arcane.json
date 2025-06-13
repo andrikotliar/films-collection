@@ -12,52 +12,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 424,
-      "characterName": "Vi"
-    },
-    {
-      "personId": 331,
-      "characterName": "Jinx"
-    },
-    {
-      "personId": 669,
-      "characterName": "Jayce"
-    },
-    {
-      "personId": 530,
-      "characterName": "Silco"
-    },
-    {
-      "personId": 434,
-      "characterName": "Viktor"
-    },
-    {
-      "personId": 1125,
-      "characterName": "Mel Medarda"
-    },
-    {
-      "personId": 476,
-      "characterName": "Vander"
-    },
-    {
-      "personId": 959,
-      "characterName": "Marcus"
-    },
-    {
-      "personId": 654,
-      "characterName": "Caitlyn"
-    },
-    {
-      "personId": 840,
-      "characterName": "Heimerdinger"
-    },
-    {
-      "personId": 958,
-      "characterName": "Ekko"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -70,93 +24,6 @@
     },
     {
       "countryId": 4
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1322,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1323,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1324,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1325,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1326,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1327,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1328,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1329,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1330,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1331,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1324,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1332,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1333,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1334,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1335,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1336,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1337,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -184,6 +51,176 @@
     {
       "videoId": "3Svs_hl897c",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1322,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1323,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1324,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1325,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1326,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1327,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1328,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1329,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1330,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1331,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1324,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1332,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1333,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1334,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1335,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1336,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1337,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 424,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vi"
+    },
+    {
+      "personId": 331,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jinx"
+    },
+    {
+      "personId": 669,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jayce"
+    },
+    {
+      "personId": 530,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Silco"
+    },
+    {
+      "personId": 434,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Viktor"
+    },
+    {
+      "personId": 1125,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mel Medarda"
+    },
+    {
+      "personId": 476,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vander"
+    },
+    {
+      "personId": 959,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marcus"
+    },
+    {
+      "personId": 654,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Caitlyn"
+    },
+    {
+      "personId": 840,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Heimerdinger"
+    },
+    {
+      "personId": 958,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ekko"
     }
   ]
 }

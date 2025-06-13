@@ -14,60 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 25,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man"
-    },
-    {
-      "personId": 1122,
-      "characterName": "Peter Parker / Spider-Man (Toby)"
-    },
-    {
-      "personId": 57,
-      "characterName": "Peter Parker / Spider-Man (Andrew)"
-    },
-    {
-      "personId": 1201,
-      "characterName": "MJ"
-    },
-    {
-      "personId": 114,
-      "characterName": "Doctor Strange"
-    },
-    {
-      "personId": 601,
-      "characterName": "Happy Hogan"
-    },
-    {
-      "personId": 780,
-      "characterName": "May Parker"
-    },
-    {
-      "personId": 475,
-      "characterName": "J. Jonah Jameson"
-    },
-    {
-      "personId": 1180,
-      "characterName": "Norman Osborn / Green Goblin"
-    },
-    {
-      "personId": 116,
-      "characterName": "Wong"
-    },
-    {
-      "personId": 517,
-      "characterName": "Max Dillon / Electro"
-    },
-    {
-      "personId": 36,
-      "characterName": "Otto Octavius / Doctor Octopus"
-    },
-    {
-      "personId": 489,
-      "characterName": "Ned Leeds"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -77,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1976,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1311,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1312,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1977,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -131,6 +45,122 @@
     {
       "videoId": "rt-2cxAiPJk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1976,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1311,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1312,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1977,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "personId": 1122,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Parker / Spider-Man (Toby)"
+    },
+    {
+      "personId": 57,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Parker / Spider-Man (Andrew)"
+    },
+    {
+      "personId": 1201,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "MJ"
+    },
+    {
+      "personId": 114,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Doctor Strange"
+    },
+    {
+      "personId": 601,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Happy Hogan"
+    },
+    {
+      "personId": 780,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "May Parker"
+    },
+    {
+      "personId": 475,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "J. Jonah Jameson"
+    },
+    {
+      "personId": 1180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Norman Osborn / Green Goblin"
+    },
+    {
+      "personId": 116,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wong"
+    },
+    {
+      "personId": 517,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Max Dillon / Electro"
+    },
+    {
+      "personId": 36,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Otto Octavius / Doctor Octopus"
+    },
+    {
+      "personId": 489,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ned Leeds"
     }
   ]
 }

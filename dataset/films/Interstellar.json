@@ -69,28 +69,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 805,
-      "characterName": "Cooper"
-    },
-    {
-      "personId": 558,
-      "characterName": "Murph"
-    },
-    {
-      "personId": 64,
-      "characterName": "Brand"
-    },
-    {
-      "personId": 821,
-      "characterName": "Professor Brand"
-    },
-    {
-      "personId": 803,
-      "characterName": "Mann"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -100,48 +78,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1712,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1713,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1712,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1712,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1714,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1381,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1715,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -164,6 +100,86 @@
     {
       "videoId": "zSWdZVtXT7E",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1712,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1713,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1712,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1712,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1714,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1381,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1715,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 805,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cooper"
+    },
+    {
+      "personId": 558,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Murph"
+    },
+    {
+      "personId": 64,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brand"
+    },
+    {
+      "personId": 821,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Brand"
+    },
+    {
+      "personId": 803,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mann"
     }
   ]
 }

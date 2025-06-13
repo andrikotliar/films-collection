@@ -21,40 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 144,
-      "characterName": "Rick O'Connell"
-    },
-    {
-      "personId": 940,
-      "characterName": "Evelyn Carnahan"
-    },
-    {
-      "personId": 583,
-      "characterName": "Jonathan Carnahan"
-    },
-    {
-      "personId": 88,
-      "characterName": "Imhotep"
-    },
-    {
-      "personId": 675,
-      "characterName": "Beni Gabor"
-    },
-    {
-      "personId": 607,
-      "characterName": "Dr. Allen Chamberlain"
-    },
-    {
-      "personId": 883,
-      "characterName": "Ardeth Bay"
-    },
-    {
-      "personId": 353,
-      "characterName": "Dr. Terrence Bey"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -64,38 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2244,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2244,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2245,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2246,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1286,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1291,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -115,6 +49,92 @@
     {
       "videoId": "h3ptPtxWJRs",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2244,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2244,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2245,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2246,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1286,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1291,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 144,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick O'Connell"
+    },
+    {
+      "personId": 940,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Evelyn Carnahan"
+    },
+    {
+      "personId": 583,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jonathan Carnahan"
+    },
+    {
+      "personId": 88,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Imhotep"
+    },
+    {
+      "personId": 675,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Beni Gabor"
+    },
+    {
+      "personId": 607,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Allen Chamberlain"
+    },
+    {
+      "personId": 883,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ardeth Bay"
+    },
+    {
+      "personId": 353,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Terrence Bey"
     }
   ]
 }

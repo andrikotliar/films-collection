@@ -14,40 +14,6 @@
   "chapterKey": "matrix",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 657,
-      "characterName": "Neo"
-    },
-    {
-      "personId": 707,
-      "characterName": "Morpheus"
-    },
-    {
-      "personId": 173,
-      "characterName": "Trinity"
-    },
-    {
-      "personId": 454,
-      "characterName": "Agent Smith"
-    },
-    {
-      "personId": 490,
-      "characterName": "Niobe"
-    },
-    {
-      "personId": 433,
-      "characterName": "Lock"
-    },
-    {
-      "personId": 430,
-      "characterName": "Link"
-    },
-    {
-      "personId": 795,
-      "characterName": "Oracle"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -60,33 +26,6 @@
     },
     {
       "countryId": 12
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2230,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2230,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1901,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1743,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1296,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -106,6 +45,86 @@
     {
       "videoId": "hMbexEPAOQI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2230,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2230,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1901,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1743,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1296,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 657,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neo"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Morpheus"
+    },
+    {
+      "personId": 173,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Trinity"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Smith"
+    },
+    {
+      "personId": 490,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Niobe"
+    },
+    {
+      "personId": 433,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lock"
+    },
+    {
+      "personId": 430,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Link"
+    },
+    {
+      "personId": 795,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Oracle"
     }
   ]
 }

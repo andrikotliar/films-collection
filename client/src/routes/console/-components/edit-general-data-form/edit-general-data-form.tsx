@@ -19,7 +19,7 @@ export const EditGeneralDataForm = ({
   updateHandler,
   title,
 }: EditGeneralDataFormProps) => {
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
   const form = useBaseForm({
     title: defaultValues.title,
   });
@@ -30,7 +30,7 @@ export const EditGeneralDataForm = ({
     },
     onSuccess: onSubmitSuccess,
     onError: (error) => {
-      toaster.error(error?.message);
+      showErrorMessage(error?.message);
     },
   });
 

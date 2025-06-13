@@ -14,32 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "Nicky"
-    },
-    {
-      "personId": 775,
-      "characterName": "Jess"
-    },
-    {
-      "personId": 14,
-      "characterName": "Farhad"
-    },
-    {
-      "personId": 403,
-      "characterName": "Owens"
-    },
-    {
-      "personId": 997,
-      "characterName": "Rafael Garriga"
-    },
-    {
-      "personId": 98,
-      "characterName": "Liyuan Tse"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -52,43 +26,6 @@
     },
     {
       "countryId": 11
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1473,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1474,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1473,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1474,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1475,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1476,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1477,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -111,6 +48,86 @@
     {
       "videoId": "MxCRgtdAuBo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1473,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1474,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1473,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1474,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1475,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1476,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1477,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nicky"
+    },
+    {
+      "personId": 775,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jess"
+    },
+    {
+      "personId": 14,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Farhad"
+    },
+    {
+      "personId": 403,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Owens"
+    },
+    {
+      "personId": 997,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rafael Garriga"
+    },
+    {
+      "personId": 98,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Liyuan Tse"
     }
   ]
 }

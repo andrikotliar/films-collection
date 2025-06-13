@@ -27,52 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Cage"
-    },
-    {
-      "personId": 341,
-      "characterName": "Rita"
-    },
-    {
-      "personId": 145,
-      "characterName": "General Brigham"
-    },
-    {
-      "personId": 125,
-      "characterName": "Master Sergeant Farell"
-    },
-    {
-      "personId": 605,
-      "characterName": "Skinner"
-    },
-    {
-      "personId": 1147,
-      "characterName": "Kimmel"
-    },
-    {
-      "personId": 681,
-      "characterName": "Griff"
-    },
-    {
-      "personId": 384,
-      "characterName": "Ford"
-    },
-    {
-      "personId": 312,
-      "characterName": "Kuntz"
-    },
-    {
-      "personId": 188,
-      "characterName": "Nance"
-    },
-    {
-      "personId": 800,
-      "characterName": "Takeda"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -82,53 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1297,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1449,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1450,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1451,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1452,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1453,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1454,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1303,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1455,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -148,6 +55,128 @@
     {
       "videoId": "vw61gCe2oqI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1297,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1449,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1450,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1451,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1452,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1453,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1454,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1303,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1455,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cage"
+    },
+    {
+      "personId": 341,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rita"
+    },
+    {
+      "personId": 145,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Brigham"
+    },
+    {
+      "personId": 125,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Master Sergeant Farell"
+    },
+    {
+      "personId": 605,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Skinner"
+    },
+    {
+      "personId": 1147,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kimmel"
+    },
+    {
+      "personId": 681,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Griff"
+    },
+    {
+      "personId": 384,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ford"
+    },
+    {
+      "personId": 312,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kuntz"
+    },
+    {
+      "personId": 188,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nance"
+    },
+    {
+      "personId": 800,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Takeda"
     }
   ]
 }

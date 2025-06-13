@@ -14,32 +14,6 @@
   "chapterKey": "mission-impossible",
   "chapterOrder": 5,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Ethan Hunt"
-    },
-    {
-      "personId": 552,
-      "characterName": "William Brandt"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Benji Dunn"
-    },
-    {
-      "personId": 954,
-      "characterName": "Ilsa Faust"
-    },
-    {
-      "personId": 1166,
-      "characterName": "Luther Stickell"
-    },
-    {
-      "personId": 1047,
-      "characterName": "Lane"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -49,58 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1449,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1449,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1129,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1849,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1843,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1853,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1854,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1855,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1856,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1850,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -120,6 +42,104 @@
     {
       "videoId": "gOW_azQbOjw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1449,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1449,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1849,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1853,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1854,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1855,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1856,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1850,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ethan Hunt"
+    },
+    {
+      "personId": 552,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "William Brandt"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Benji Dunn"
+    },
+    {
+      "personId": 954,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ilsa Faust"
+    },
+    {
+      "personId": 1166,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luther Stickell"
+    },
+    {
+      "personId": 1047,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lane"
     }
   ]
 }

@@ -27,28 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 363,
-      "characterName": "Obi-Wan Kenobi"
-    },
-    {
-      "personId": 864,
-      "characterName": "Padme"
-    },
-    {
-      "personId": 436,
-      "characterName": "Anakin Skywalker"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Mace Windu"
-    },
-    {
-      "personId": 459,
-      "characterName": "Palpatine"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -58,33 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1993,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1994,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1995,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -107,6 +58,68 @@
     {
       "videoId": "5UnjrG_N8hU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1994,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1995,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 363,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "personId": 864,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Padme"
+    },
+    {
+      "personId": 436,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anakin Skywalker"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mace Windu"
+    },
+    {
+      "personId": 459,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Palpatine"
     }
   ]
 }

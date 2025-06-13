@@ -39,32 +39,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "Capt. Steven Hiller"
-    },
-    {
-      "personId": 126,
-      "characterName": "President Thomas J. Whitmore"
-    },
-    {
-      "personId": 542,
-      "characterName": "David Levinson"
-    },
-    {
-      "personId": 622,
-      "characterName": "Julius Levinson"
-    },
-    {
-      "personId": 988,
-      "characterName": "General William Grey"
-    },
-    {
-      "personId": 946,
-      "characterName": "Russell Casse"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -78,38 +52,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1261,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1700,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1261,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1700,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1271,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1701,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -129,6 +71,80 @@
     {
       "videoId": "kA2WzBi2grE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1700,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1700,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1271,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1701,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Capt. Steven Hiller"
+    },
+    {
+      "personId": 126,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "President Thomas J. Whitmore"
+    },
+    {
+      "personId": 542,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "David Levinson"
+    },
+    {
+      "personId": 622,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Julius Levinson"
+    },
+    {
+      "personId": 988,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General William Grey"
+    },
+    {
+      "personId": 946,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Russell Casse"
     }
   ]
 }

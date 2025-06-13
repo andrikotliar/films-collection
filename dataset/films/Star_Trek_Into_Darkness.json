@@ -14,56 +14,6 @@
   "chapterKey": "star-trek",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 198,
-      "characterName": "Kirk"
-    },
-    {
-      "personId": 1198,
-      "characterName": "Spock"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Uhura"
-    },
-    {
-      "personId": 641,
-      "characterName": "Bones"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Scotty"
-    },
-    {
-      "personId": 578,
-      "characterName": "Sulu"
-    },
-    {
-      "personId": 114,
-      "characterName": "Khan"
-    },
-    {
-      "personId": 76,
-      "characterName": "Chekov"
-    },
-    {
-      "personId": 155,
-      "characterName": "Pike"
-    },
-    {
-      "personId": 925,
-      "characterName": "Marcus"
-    },
-    {
-      "personId": 39,
-      "characterName": "Carol Marcus"
-    },
-    {
-      "personId": 881,
-      "characterName": "Thomas Harewood"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -73,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1843,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1843,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1990,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1730,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -132,6 +45,122 @@
     {
       "videoId": "jJMYAJ3_0uw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1990,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1730,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kirk"
+    },
+    {
+      "personId": 1198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spock"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Uhura"
+    },
+    {
+      "personId": 641,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bones"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scotty"
+    },
+    {
+      "personId": 578,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sulu"
+    },
+    {
+      "personId": 114,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Khan"
+    },
+    {
+      "personId": 76,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chekov"
+    },
+    {
+      "personId": 155,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pike"
+    },
+    {
+      "personId": 925,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marcus"
+    },
+    {
+      "personId": 39,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carol Marcus"
+    },
+    {
+      "personId": 881,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thomas Harewood"
     }
   ]
 }

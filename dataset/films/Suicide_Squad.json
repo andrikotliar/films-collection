@@ -27,44 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "Deadshot"
-    },
-    {
-      "personId": 775,
-      "characterName": "Harley Quinn"
-    },
-    {
-      "personId": 1168,
-      "characterName": "Amanda Waller"
-    },
-    {
-      "personId": 522,
-      "characterName": "The Joker"
-    },
-    {
-      "personId": 494,
-      "characterName": "George Harkness / Captain Boomerang"
-    },
-    {
-      "personId": 534,
-      "characterName": "Diablo"
-    },
-    {
-      "personId": 11,
-      "characterName": "Killer Croc"
-    },
-    {
-      "personId": 166,
-      "characterName": "June Moone / Enchantress"
-    },
-    {
-      "personId": 572,
-      "characterName": "Rick Flag"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -74,38 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2030,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2030,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2031,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2032,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2033,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -128,6 +58,98 @@
     {
       "videoId": "CmRih_VtVAs",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2030,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2030,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2031,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2032,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2033,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Deadshot"
+    },
+    {
+      "personId": 775,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Harley Quinn"
+    },
+    {
+      "personId": 1168,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Amanda Waller"
+    },
+    {
+      "personId": 522,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Joker"
+    },
+    {
+      "personId": 494,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "George Harkness / Captain Boomerang"
+    },
+    {
+      "personId": 534,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diablo"
+    },
+    {
+      "personId": 11,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Killer Croc"
+    },
+    {
+      "personId": 166,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "June Moone / Enchantress"
+    },
+    {
+      "personId": 572,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick Flag"
     }
   ]
 }

@@ -14,28 +14,6 @@
   "chapterKey": "fast-and-furious",
   "chapterOrder": 6,
   "awards": [],
-  "cast": [
-    {
-      "personId": 742,
-      "characterName": "Sean Boswell"
-    },
-    {
-      "personId": 868,
-      "characterName": "Neela"
-    },
-    {
-      "personId": 1095,
-      "characterName": "Han"
-    },
-    {
-      "personId": 148,
-      "characterName": "Twinkie"
-    },
-    {
-      "personId": 137,
-      "characterName": "Takashi"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -45,33 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1462,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1463,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1270,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1464,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1466,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -91,6 +42,68 @@
     {
       "videoId": "p8HQ2JLlc4E",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1462,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1463,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1270,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1464,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1466,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 742,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sean Boswell"
+    },
+    {
+      "personId": 868,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neela"
+    },
+    {
+      "personId": 1095,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Han"
+    },
+    {
+      "personId": 148,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Twinkie"
+    },
+    {
+      "personId": 137,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Takashi"
     }
   ]
 }

@@ -46,10 +46,10 @@ export const ToasterProvider = ({ children }: ToasterProviderProps) => {
 
   const providerValue = useMemo<ToasterContextValues>(() => {
     return {
-      success: (message) => addToast('success', message),
-      error: (message) => addToast('error', message),
-      info: (message) => addToast('info', message),
-      warning: (message) => addToast('warning', message),
+      showSuccessMessage: (message) => addToast('success', message),
+      showErrorMessage: (message) => addToast('error', message),
+      showInfoMessage: (message) => addToast('info', message),
+      showWarningMessage: (message) => addToast('warning', message),
     };
   }, []);
 

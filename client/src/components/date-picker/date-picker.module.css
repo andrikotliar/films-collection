@@ -3,6 +3,7 @@
   padding: 10px;
   border: var(--app-border);
   border-radius: var(--app-border-radius);
+  background: white;
   transition: border-color 300ms;
   cursor: text;
 }

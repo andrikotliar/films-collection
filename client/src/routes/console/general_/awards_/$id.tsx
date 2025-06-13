@@ -23,7 +23,7 @@ export const Route = createFileRoute('/console/general_/awards_/$id')({
 function PageContainer() {
   const navigate = Route.useNavigate();
   const { id } = Route.useParams();
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
 
   const { data } = useSuspenseQuery(fetchAwardByIdQuery(id));
 
@@ -45,7 +45,7 @@ function PageContainer() {
       });
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 
@@ -65,7 +65,7 @@ function PageContainer() {
         image = response.filePath;
       }
     } catch (error: any) {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
       return;
     }
 

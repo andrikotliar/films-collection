@@ -10,7 +10,6 @@ import {
 } from '@dnd-kit/sortable';
 import { SortableItem } from './components';
 import { ReactNode } from 'react';
-import styles from './sortable-list.module.css';
 
 type ListItem = {
   id: UniqueIdentifier;

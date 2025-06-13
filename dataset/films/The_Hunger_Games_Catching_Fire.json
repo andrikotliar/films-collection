@@ -33,32 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 547,
-      "characterName": "Katniss Everdeen"
-    },
-    {
-      "personId": 620,
-      "characterName": "Peeta Mellark"
-    },
-    {
-      "personId": 722,
-      "characterName": "Gale Hawthorne"
-    },
-    {
-      "personId": 1190,
-      "characterName": "Haymitch Abernathy"
-    },
-    {
-      "personId": 327,
-      "characterName": "Effie Trinket"
-    },
-    {
-      "personId": 309,
-      "characterName": "President Coriolanus Snow"
-    }
-  ],
   "collections": [
     {
       "collectionId": 12,
@@ -68,43 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1680,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2180,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2003,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2177,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2178,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1384,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2181,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -124,6 +61,86 @@
     {
       "videoId": "EAzGXqJSDJ8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1680,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2180,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2003,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2177,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2178,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1384,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2181,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 547,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katniss Everdeen"
+    },
+    {
+      "personId": 620,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peeta Mellark"
+    },
+    {
+      "personId": 722,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gale Hawthorne"
+    },
+    {
+      "personId": 1190,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Haymitch Abernathy"
+    },
+    {
+      "personId": 327,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Effie Trinket"
+    },
+    {
+      "personId": 309,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "President Coriolanus Snow"
     }
   ]
 }

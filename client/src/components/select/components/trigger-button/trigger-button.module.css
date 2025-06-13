@@ -10,6 +10,7 @@
   border-radius: var(--app-border-radius);
   border: var(--app-border);
   cursor: pointer;
+  background-color: white;
 }
 
 .selectButton:focus {

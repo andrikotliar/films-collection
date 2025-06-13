@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 873,
-      "characterName": "Balthazar"
-    },
-    {
-      "personId": 533,
-      "characterName": "Dave"
-    },
-    {
-      "personId": 36,
-      "characterName": "Horvath"
-    },
-    {
-      "personId": 1109,
-      "characterName": "Becky"
-    },
-    {
-      "personId": 1124,
-      "characterName": "Drake Stone"
-    },
-    {
-      "personId": 850,
-      "characterName": "Veronica"
-    },
-    {
-      "personId": 40,
-      "characterName": "Morgana"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -57,43 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2254,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1903,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1904,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2255,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1893,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2256,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2257,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -116,6 +49,92 @@
     {
       "videoId": "v2uV0_1C4UM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2254,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1903,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1904,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2255,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1893,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2256,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2257,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 873,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Balthazar"
+    },
+    {
+      "personId": 533,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dave"
+    },
+    {
+      "personId": 36,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Horvath"
+    },
+    {
+      "personId": 1109,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Becky"
+    },
+    {
+      "personId": 1124,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Drake Stone"
+    },
+    {
+      "personId": 850,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Veronica"
+    },
+    {
+      "personId": 40,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Morgana"
     }
   ]
 }

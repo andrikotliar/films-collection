@@ -63,48 +63,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 478,
-      "characterName": "Po"
-    },
-    {
-      "personId": 313,
-      "characterName": "Shifu"
-    },
-    {
-      "personId": 63,
-      "characterName": "Tigress"
-    },
-    {
-      "personId": 461,
-      "characterName": "Tai Lung"
-    },
-    {
-      "personId": 485,
-      "characterName": "Monkey"
-    },
-    {
-      "personId": 1055,
-      "characterName": "Mantis"
-    },
-    {
-      "personId": 745,
-      "characterName": "Viper"
-    },
-    {
-      "personId": 269,
-      "characterName": "Crane"
-    },
-    {
-      "personId": 944,
-      "characterName": "Oogway"
-    },
-    {
-      "personId": 508,
-      "characterName": "Mr. Ping"
-    }
-  ],
   "collections": [
     {
       "collectionId": 23,
@@ -114,48 +72,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1759,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1760,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1761,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1762,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1763,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1764,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -175,6 +91,116 @@
     {
       "videoId": "NRc-ze7Wrxw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1759,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1760,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1761,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1762,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1763,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1764,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 478,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Po"
+    },
+    {
+      "personId": 313,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shifu"
+    },
+    {
+      "personId": 63,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tigress"
+    },
+    {
+      "personId": 461,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tai Lung"
+    },
+    {
+      "personId": 485,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Monkey"
+    },
+    {
+      "personId": 1055,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mantis"
+    },
+    {
+      "personId": 745,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Viper"
+    },
+    {
+      "personId": 269,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Crane"
+    },
+    {
+      "personId": 944,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Oogway"
+    },
+    {
+      "personId": 508,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mr. Ping"
     }
   ]
 }

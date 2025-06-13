@@ -21,84 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 460,
-      "characterName": "Gendalf"
-    },
-    {
-      "personId": 792,
-      "characterName": "Bilbo"
-    },
-    {
-      "personId": 964,
-      "characterName": "Thorin"
-    },
-    {
-      "personId": 664,
-      "characterName": "Balin"
-    },
-    {
-      "personId": 416,
-      "characterName": "Dwalin"
-    },
-    {
-      "personId": 1183,
-      "characterName": "Bifur"
-    },
-    {
-      "personId": 512,
-      "characterName": "Bofur"
-    },
-    {
-      "personId": 1083,
-      "characterName": "Bombur"
-    },
-    {
-      "personId": 279,
-      "characterName": "Fili"
-    },
-    {
-      "personId": 19,
-      "characterName": "Kili"
-    },
-    {
-      "personId": 577,
-      "characterName": "Oin"
-    },
-    {
-      "personId": 923,
-      "characterName": "Gloin"
-    },
-    {
-      "personId": 538,
-      "characterName": "Nori"
-    },
-    {
-      "personId": 784,
-      "characterName": "Dori"
-    },
-    {
-      "personId": 6,
-      "characterName": "Ori"
-    },
-    {
-      "personId": 458,
-      "characterName": "Old Bilbo"
-    },
-    {
-      "personId": 454,
-      "characterName": "Elrond"
-    },
-    {
-      "personId": 175,
-      "characterName": "Galadriel"
-    },
-    {
-      "personId": 61,
-      "characterName": "Gollum"
-    }
-  ],
   "collections": [
     {
       "collectionId": 19,
@@ -111,63 +33,6 @@
     },
     {
       "countryId": 15
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2169,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2170,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2171,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2169,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1875,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2172,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2173,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2170,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2169,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1671,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1682,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -187,6 +52,188 @@
     {
       "videoId": "JTSoD4BBCJc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2169,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2170,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2171,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2169,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1875,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2172,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2173,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2170,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2169,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1671,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1682,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 460,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gendalf"
+    },
+    {
+      "personId": 792,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bilbo"
+    },
+    {
+      "personId": 964,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thorin"
+    },
+    {
+      "personId": 664,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Balin"
+    },
+    {
+      "personId": 416,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dwalin"
+    },
+    {
+      "personId": 1183,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bifur"
+    },
+    {
+      "personId": 512,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bofur"
+    },
+    {
+      "personId": 1083,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bombur"
+    },
+    {
+      "personId": 279,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fili"
+    },
+    {
+      "personId": 19,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kili"
+    },
+    {
+      "personId": 577,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Oin"
+    },
+    {
+      "personId": 923,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gloin"
+    },
+    {
+      "personId": 538,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nori"
+    },
+    {
+      "personId": 784,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dori"
+    },
+    {
+      "personId": 6,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ori"
+    },
+    {
+      "personId": 458,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Old Bilbo"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Elrond"
+    },
+    {
+      "personId": 175,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Galadriel"
+    },
+    {
+      "personId": 61,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gollum"
     }
   ]
 }

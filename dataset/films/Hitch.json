@@ -21,28 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1178,
-      "characterName": "Hitch"
-    },
-    {
-      "personId": 359,
-      "characterName": "Sara"
-    },
-    {
-      "personId": 676,
-      "characterName": "Albert"
-    },
-    {
-      "personId": 50,
-      "characterName": "Allegra"
-    },
-    {
-      "personId": 630,
-      "characterName": "Casey"
-    }
-  ],
   "collections": [
     {
       "collectionId": 24,
@@ -52,48 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1656,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1657,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1178,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1549,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1658,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1659,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1660,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1661,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -113,6 +49,86 @@
     {
       "videoId": "pYrrEUgnT6s",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1656,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1657,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1549,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1658,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1659,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1660,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1661,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hitch"
+    },
+    {
+      "personId": 359,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sara"
+    },
+    {
+      "personId": 676,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Albert"
+    },
+    {
+      "personId": 50,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Allegra"
+    },
+    {
+      "personId": 630,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Casey"
     }
   ]
 }

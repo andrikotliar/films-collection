@@ -19,108 +19,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 739,
-      "characterName": "Jonas Kahnwald"
-    },
-    {
-      "personId": 642,
-      "characterName": "Charlotte Doppler"
-    },
-    {
-      "personId": 733,
-      "characterName": "Martha Nielsen"
-    },
-    {
-      "personId": 769,
-      "characterName": "Hannah Kahnwald"
-    },
-    {
-      "personId": 1081,
-      "characterName": "Peter Doppler"
-    },
-    {
-      "personId": 635,
-      "characterName": "Katharina Nielsen"
-    },
-    {
-      "personId": 56,
-      "characterName": "The Stranger"
-    },
-    {
-      "personId": 907,
-      "characterName": "Bartosz Tiedemann"
-    },
-    {
-      "personId": 856,
-      "characterName": "Magnus Nielsen"
-    },
-    {
-      "personId": 205,
-      "characterName": "Magnus Nielsen"
-    },
-    {
-      "personId": 885,
-      "characterName": "Ulrich Nielsen"
-    },
-    {
-      "personId": 917,
-      "characterName": "Aleksander Tiedemann"
-    },
-    {
-      "personId": 408,
-      "characterName": "Franziska Doppler"
-    },
-    {
-      "personId": 281,
-      "characterName": "Regina Tiedemann"
-    },
-    {
-      "personId": 631,
-      "characterName": "Claudia Tiedemann (1987)"
-    },
-    {
-      "personId": 170,
-      "characterName": "Elisabeth Doppler"
-    },
-    {
-      "personId": 294,
-      "characterName": "Adam"
-    },
-    {
-      "personId": 790,
-      "characterName": "Noah"
-    },
-    {
-      "personId": 448,
-      "characterName": "Helge Doppler"
-    },
-    {
-      "personId": 732,
-      "characterName": "Claudia Tiedemann"
-    },
-    {
-      "personId": 69,
-      "characterName": "Ines Kahnwald (1986)"
-    },
-    {
-      "personId": 1170,
-      "characterName": "Tronte Nielsen"
-    },
-    {
-      "personId": 754,
-      "characterName": "Regina Tiedemann (1986)"
-    },
-    {
-      "personId": 1137,
-      "characterName": "Helge Doppler (1953)"
-    },
-    {
-      "personId": 809,
-      "characterName": "Young Noah"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -133,83 +31,6 @@
     },
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1419,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1420,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1419,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1420,
-      "position": "WRITER",
-      "comment": "26 episodes"
-    },
-    {
-      "personId": 1421,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1422,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1423,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1424,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1425,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1420,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1426,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1427,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1419,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1428,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1429,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -242,6 +63,248 @@
     {
       "videoId": "cq2iTHoLrt0",
       "order": 3
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1419,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1420,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1419,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1420,
+      "comment": "26 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1421,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1422,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1423,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1424,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1425,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1420,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1426,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1427,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1419,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1428,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1429,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 739,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jonas Kahnwald"
+    },
+    {
+      "personId": 642,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlotte Doppler"
+    },
+    {
+      "personId": 733,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Martha Nielsen"
+    },
+    {
+      "personId": 769,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hannah Kahnwald"
+    },
+    {
+      "personId": 1081,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Doppler"
+    },
+    {
+      "personId": 635,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katharina Nielsen"
+    },
+    {
+      "personId": 56,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Stranger"
+    },
+    {
+      "personId": 907,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bartosz Tiedemann"
+    },
+    {
+      "personId": 856,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Magnus Nielsen"
+    },
+    {
+      "personId": 205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Magnus Nielsen"
+    },
+    {
+      "personId": 885,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ulrich Nielsen"
+    },
+    {
+      "personId": 917,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aleksander Tiedemann"
+    },
+    {
+      "personId": 408,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Franziska Doppler"
+    },
+    {
+      "personId": 281,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Regina Tiedemann"
+    },
+    {
+      "personId": 631,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Claudia Tiedemann (1987)"
+    },
+    {
+      "personId": 170,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Elisabeth Doppler"
+    },
+    {
+      "personId": 294,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Adam"
+    },
+    {
+      "personId": 790,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Noah"
+    },
+    {
+      "personId": 448,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Helge Doppler"
+    },
+    {
+      "personId": 732,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Claudia Tiedemann"
+    },
+    {
+      "personId": 69,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ines Kahnwald (1986)"
+    },
+    {
+      "personId": 1170,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tronte Nielsen"
+    },
+    {
+      "personId": 754,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Regina Tiedemann (1986)"
+    },
+    {
+      "personId": 1137,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Helge Doppler (1953)"
+    },
+    {
+      "personId": 809,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Young Noah"
     }
   ]
 }

@@ -5,17 +5,19 @@ import {
   ConsoleContent,
   ConsoleTitle,
   Pagination,
-  TextInput,
 } from '@/components';
 import { PEOPLE_ADMIN_PER_PAGE } from '@/constants';
-import { useDebouncedSearch, useToaster } from '@/hooks';
+import { useToaster } from '@/hooks';
 import { fetchAdminPeopleListQuery } from '@/queries';
 import { PersonForm, List, FormModal } from '@/routes/console/-components';
 import {
   useManagePerson,
   usePersonForm,
 } from '@/routes/console/-components/person-form/hooks';
-import { EditPersonForm } from '@/routes/console/general_/people/-components';
+import {
+  EditPersonForm,
+  Filters,
+} from '@/routes/console/general_/people/-components';
 import { Person } from '@/types';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
@@ -26,6 +28,7 @@ import { number, object, string } from 'yup';
 const peopleListFiltersSchema = object({
   page: number(),
   q: string().nullable(),
+  role: string().nullable(),
 });
 
 export const Route = createFileRoute('/console/general_/people')({
@@ -44,7 +47,7 @@ export const Route = createFileRoute('/console/general_/people')({
 function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
 
   const { data, refetch } = useSuspenseQuery(fetchAdminPeopleListQuery(search));
 
@@ -66,25 +69,17 @@ function RouteComponent() {
       refetch();
       setItemToDelete(null);
     },
-    onError: (error) => toaster.error(error.message),
+    onError: (error) => showErrorMessage(error.message),
   });
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
-      search: {
-        page: pageIndex,
-      },
-    });
-  };
-
-  const handleSearch = useDebouncedSearch((value) => {
-    navigate({
       search: (values) => ({
         ...values,
-        q: value,
+        page: pageIndex,
       }),
     });
-  });
+  };
 
   return (
     <ConsoleContent>
@@ -96,11 +91,7 @@ function RouteComponent() {
           isLoading={isCreating}
         />
       </FormProvider>
-      <TextInput
-        label="Search person"
-        defaultValue={search.q ?? ''}
-        onChange={handleSearch}
-      />
+      <Filters />
       <List
         items={data.list}
         titleSelector="name"

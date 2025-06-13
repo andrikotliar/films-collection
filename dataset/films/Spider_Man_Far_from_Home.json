@@ -27,32 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man"
-    },
-    {
-      "personId": 498,
-      "characterName": "Quentin Beck / Mysterio"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Nick Fury"
-    },
-    {
-      "personId": 780,
-      "characterName": "May Parker"
-    },
-    {
-      "personId": 601,
-      "characterName": "Happy Hogan"
-    },
-    {
-      "personId": 1201,
-      "characterName": "MJ"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -62,43 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1976,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1311,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1312,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1977,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1978,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -121,6 +58,86 @@
     {
       "videoId": "Nt9L1jCKGnE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1976,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1311,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1312,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1977,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1978,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "personId": 498,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Quentin Beck / Mysterio"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nick Fury"
+    },
+    {
+      "personId": 780,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "May Parker"
+    },
+    {
+      "personId": 601,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Happy Hogan"
+    },
+    {
+      "personId": 1201,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "MJ"
     }
   ]
 }

@@ -14,36 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 21,
   "awards": [],
-  "cast": [
-    {
-      "personId": 910,
-      "characterName": "Scott Lang / Ant-Man"
-    },
-    {
-      "personId": 361,
-      "characterName": "Hope Van Dyne / New Wasp"
-    },
-    {
-      "personId": 828,
-      "characterName": "Luis"
-    },
-    {
-      "personId": 427,
-      "characterName": "Ava / Ghost"
-    },
-    {
-      "personId": 837,
-      "characterName": "Janet Van Dyne / First Wasp"
-    },
-    {
-      "personId": 707,
-      "characterName": "Dr. Bill Foster"
-    },
-    {
-      "personId": 822,
-      "characterName": "Dr. Hank Pym"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -53,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1305,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1311,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1312,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 910,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1313,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1303,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1314,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -117,6 +45,98 @@
     {
       "videoId": "UUkn-enk2RU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1305,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1311,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1312,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 910,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1313,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1303,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1314,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 910,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scott Lang / Ant-Man"
+    },
+    {
+      "personId": 361,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hope Van Dyne / New Wasp"
+    },
+    {
+      "personId": 828,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luis"
+    },
+    {
+      "personId": 427,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ava / Ghost"
+    },
+    {
+      "personId": 837,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Janet Van Dyne / First Wasp"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Bill Foster"
+    },
+    {
+      "personId": 822,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Hank Pym"
     }
   ]
 }

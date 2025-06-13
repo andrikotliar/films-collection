@@ -111,56 +111,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 323,
-      "characterName": "Frodo Baggins"
-    },
-    {
-      "personId": 460,
-      "characterName": "Gandalf"
-    },
-    {
-      "personId": 1044,
-      "characterName": "Samwise Gamgee"
-    },
-    {
-      "personId": 1163,
-      "characterName": "Aragorn"
-    },
-    {
-      "personId": 127,
-      "characterName": "Pereggrin"
-    },
-    {
-      "personId": 302,
-      "characterName": "Meriadoc"
-    },
-    {
-      "personId": 595,
-      "characterName": "Gimli"
-    },
-    {
-      "personId": 894,
-      "characterName": "Legolas"
-    },
-    {
-      "personId": 1045,
-      "characterName": "Boromir"
-    },
-    {
-      "personId": 458,
-      "characterName": "Bilbo Baggins"
-    },
-    {
-      "personId": 209,
-      "characterName": "Saruman"
-    },
-    {
-      "personId": 454,
-      "characterName": "Elrond"
-    }
-  ],
   "collections": [
     {
       "collectionId": 19,
@@ -173,58 +123,6 @@
     },
     {
       "countryId": 15
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2169,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2170,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2171,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2169,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2169,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2216,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2170,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2215,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1671,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1682,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -244,6 +142,140 @@
     {
       "videoId": "aStYWD25fAQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2169,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2170,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2171,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2169,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2169,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2216,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2170,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2215,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1671,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1682,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 323,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frodo Baggins"
+    },
+    {
+      "personId": 460,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gandalf"
+    },
+    {
+      "personId": 1044,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Samwise Gamgee"
+    },
+    {
+      "personId": 1163,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aragorn"
+    },
+    {
+      "personId": 127,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pereggrin"
+    },
+    {
+      "personId": 302,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Meriadoc"
+    },
+    {
+      "personId": 595,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gimli"
+    },
+    {
+      "personId": 894,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Legolas"
+    },
+    {
+      "personId": 1045,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boromir"
+    },
+    {
+      "personId": 458,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bilbo Baggins"
+    },
+    {
+      "personId": 209,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Saruman"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Elrond"
     }
   ]
 }

@@ -1,10 +1,4 @@
-import {
-  ComponentProps,
-  FocusEventHandler,
-  forwardRef,
-  useEffect,
-  useState,
-} from 'react';
+import { FocusEventHandler, forwardRef, useEffect, useState } from 'react';
 import { TextInput, TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
 import { YOUTUBE_VIDEO_DIRECT_URL } from '@/constants';

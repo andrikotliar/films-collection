@@ -14,36 +14,6 @@
   "chapterKey": "pirates-of-the-caribbean",
   "chapterOrder": 4,
   "awards": [],
-  "cast": [
-    {
-      "personId": 598,
-      "characterName": "Captain Jack Sparrow"
-    },
-    {
-      "personId": 914,
-      "characterName": "Angelica"
-    },
-    {
-      "personId": 401,
-      "characterName": "Barbossa"
-    },
-    {
-      "personId": 461,
-      "characterName": "Blackbeard"
-    },
-    {
-      "personId": 678,
-      "characterName": "Gibbs"
-    },
-    {
-      "personId": 1030,
-      "characterName": "Philip"
-    },
-    {
-      "personId": 93,
-      "characterName": "Syrena"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -53,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1895,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1891,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1892,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1893,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1894,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -107,6 +45,86 @@
     {
       "videoId": "t5AqJww06bw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1895,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1891,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1892,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1893,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1894,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 598,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Jack Sparrow"
+    },
+    {
+      "personId": 914,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Angelica"
+    },
+    {
+      "personId": 401,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barbossa"
+    },
+    {
+      "personId": 461,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Blackbeard"
+    },
+    {
+      "personId": 678,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gibbs"
+    },
+    {
+      "personId": 1030,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Philip"
+    },
+    {
+      "personId": 93,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Syrena"
     }
   ]
 }

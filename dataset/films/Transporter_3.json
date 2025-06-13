@@ -14,24 +14,6 @@
   "chapterKey": "transporter",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 531,
-      "characterName": "Frank Martin"
-    },
-    {
-      "personId": 865,
-      "characterName": "Valentina"
-    },
-    {
-      "personId": 385,
-      "characterName": "Tarconi"
-    },
-    {
-      "personId": 987,
-      "characterName": "Johnson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -41,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2336,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2262,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2335,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2337,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -97,6 +42,74 @@
     {
       "videoId": "Pbh3CDBNIQA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2336,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2262,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2335,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2337,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 531,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frank Martin"
+    },
+    {
+      "personId": 865,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Valentina"
+    },
+    {
+      "personId": 385,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tarconi"
+    },
+    {
+      "personId": 987,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Johnson"
     }
   ]
 }

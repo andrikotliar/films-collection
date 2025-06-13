@@ -25,7 +25,7 @@ export const Route = createFileRoute('/console/posts_/$id')({
 function RouteComponent() {
   const { id } = Route.useParams();
   const navigate = useNavigate();
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
 
   const isEdit = id !== NEW_ITEM_ID;
   const title = isEdit ? 'Edit post' : 'Create post';
@@ -51,7 +51,7 @@ function RouteComponent() {
       });
     },
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 

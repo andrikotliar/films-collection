@@ -57,44 +57,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 785,
-      "characterName": "Luke Skywalker"
-    },
-    {
-      "personId": 431,
-      "characterName": "Han Solo"
-    },
-    {
-      "personId": 171,
-      "characterName": "Leia"
-    },
-    {
-      "personId": 130,
-      "characterName": "Lando Calrissian"
-    },
-    {
-      "personId": 72,
-      "characterName": "C-3PO"
-    },
-    {
-      "personId": 276,
-      "characterName": "Darth Vader"
-    },
-    {
-      "personId": 382,
-      "characterName": "Yoda"
-    },
-    {
-      "personId": 1249,
-      "characterName": "Boba Fett"
-    },
-    {
-      "personId": 459,
-      "characterName": "The Emperor"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -104,38 +66,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2004,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1709,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2005,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2006,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -158,6 +88,98 @@
     {
       "videoId": "5UfA_aKBGMc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2004,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1709,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2005,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2006,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 785,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Luke Skywalker"
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Han Solo"
+    },
+    {
+      "personId": 171,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leia"
+    },
+    {
+      "personId": 130,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lando Calrissian"
+    },
+    {
+      "personId": 72,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "C-3PO"
+    },
+    {
+      "personId": 276,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darth Vader"
+    },
+    {
+      "personId": 382,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yoda"
+    },
+    {
+      "personId": 1249,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boba Fett"
+    },
+    {
+      "personId": 459,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Emperor"
     }
   ]
 }

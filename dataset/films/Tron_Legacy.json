@@ -27,36 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 539,
-      "characterName": "Kevin Flynn / Clu"
-    },
-    {
-      "personId": 393,
-      "characterName": "Sam Flynn"
-    },
-    {
-      "personId": 890,
-      "characterName": "Quorra"
-    },
-    {
-      "personId": 153,
-      "characterName": "Alan Bradley / Tron"
-    },
-    {
-      "personId": 505,
-      "characterName": "Jarvis"
-    },
-    {
-      "personId": 102,
-      "characterName": "Gem"
-    },
-    {
-      "personId": 832,
-      "characterName": "Castor / Zuse"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -66,48 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1867,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2338,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2339,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2340,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2341,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1454,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2342,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1874,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +55,98 @@
     {
       "videoId": "L9szn1QQfas",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1867,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2338,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2339,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2340,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2341,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1454,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2342,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1874,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 539,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kevin Flynn / Clu"
+    },
+    {
+      "personId": 393,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Flynn"
+    },
+    {
+      "personId": 890,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Quorra"
+    },
+    {
+      "personId": 153,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alan Bradley / Tron"
+    },
+    {
+      "personId": 505,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jarvis"
+    },
+    {
+      "personId": 102,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gem"
+    },
+    {
+      "personId": 832,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Castor / Zuse"
     }
   ]
 }

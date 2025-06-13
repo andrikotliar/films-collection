@@ -12,18 +12,18 @@ export const LocalStorage = {
       const parsedData = JSON.parse(storageData);
 
       return parsedData as T;
-    } catch (error: any) {
+    } catch (_error) {
       return null;
     }
   },
 
-  setItem<T extends unknown>(key: LocalStorageKey, data: T): void {
+  setItem<T>(key: LocalStorageKey, data: T): void {
     try {
       const dataString = JSON.stringify(data);
 
       localStorage.setItem(key, dataString);
-    } catch (error: any) {
-      console.error('[Local Storage]', error?.message);
+    } catch (_error: any) {
+      return;
     }
   },
 

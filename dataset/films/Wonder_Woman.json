@@ -27,40 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 392,
-      "characterName": "Diana"
-    },
-    {
-      "personId": 198,
-      "characterName": "Steve Trevor"
-    },
-    {
-      "personId": 226,
-      "characterName": "Hippolyta"
-    },
-    {
-      "personId": 996,
-      "characterName": "Antiope"
-    },
-    {
-      "personId": 256,
-      "characterName": "Ludendorff"
-    },
-    {
-      "personId": 278,
-      "characterName": "Sir Patrick"
-    },
-    {
-      "personId": 1024,
-      "characterName": "Sameer"
-    },
-    {
-      "personId": 364,
-      "characterName": "Charlie"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -70,48 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2364,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2365,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1388,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1386,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2031,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1320,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1522,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -137,6 +61,104 @@
     {
       "videoId": "1Q8fG0TtVAY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2364,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2365,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1388,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1386,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2031,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1320,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1522,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 392,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diana"
+    },
+    {
+      "personId": 198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Steve Trevor"
+    },
+    {
+      "personId": 226,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hippolyta"
+    },
+    {
+      "personId": 996,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Antiope"
+    },
+    {
+      "personId": 256,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ludendorff"
+    },
+    {
+      "personId": 278,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sir Patrick"
+    },
+    {
+      "personId": 1024,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sameer"
+    },
+    {
+      "personId": 364,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlie"
     }
   ]
 }

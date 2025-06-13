@@ -16,7 +16,7 @@ type MutationFnParams = PersonFormValues & {
 export const useManagePerson = ({
   onSuccessHandler,
 }: UseManagePersonParams) => {
-  const toaster = useToaster();
+  const { showErrorMessage } = useToaster();
 
   return useMutation({
     mutationFn: async (data: MutationFnParams) => {
@@ -48,7 +48,7 @@ export const useManagePerson = ({
     },
     onSuccess: onSuccessHandler,
     onError: (error) => {
-      toaster.error(error.message);
+      showErrorMessage(error.message);
     },
   });
 };

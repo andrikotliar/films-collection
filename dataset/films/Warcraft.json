@@ -14,60 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1150,
-      "characterName": "Anduin Lothar"
-    },
-    {
-      "personId": 912,
-      "characterName": "Garona"
-    },
-    {
-      "personId": 108,
-      "characterName": "Medivh"
-    },
-    {
-      "personId": 300,
-      "characterName": "Llane Wrynn"
-    },
-    {
-      "personId": 1124,
-      "characterName": "Durotan / Antonidas"
-    },
-    {
-      "personId": 111,
-      "characterName": "Khadgar"
-    },
-    {
-      "personId": 986,
-      "characterName": "Orgrim"
-    },
-    {
-      "personId": 215,
-      "characterName": "Blackhand"
-    },
-    {
-      "personId": 253,
-      "characterName": "Gul'dan"
-    },
-    {
-      "personId": 1019,
-      "characterName": "Lady Taria"
-    },
-    {
-      "personId": 65,
-      "characterName": "Draka"
-    },
-    {
-      "personId": 162,
-      "characterName": "Moroes"
-    },
-    {
-      "personId": 1220,
-      "characterName": "Callan"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -77,58 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1961,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2361,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1961,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2362,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1877,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1878,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2363,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1461,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1679,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -151,6 +45,146 @@
     {
       "videoId": "2Rxoz13Bthc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1961,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2361,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1961,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2362,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1877,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1878,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2363,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1461,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1679,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1150,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anduin Lothar"
+    },
+    {
+      "personId": 912,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Garona"
+    },
+    {
+      "personId": 108,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Medivh"
+    },
+    {
+      "personId": 300,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Llane Wrynn"
+    },
+    {
+      "personId": 1124,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Durotan / Antonidas"
+    },
+    {
+      "personId": 111,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Khadgar"
+    },
+    {
+      "personId": 986,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Orgrim"
+    },
+    {
+      "personId": 215,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Blackhand"
+    },
+    {
+      "personId": 253,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gul'dan"
+    },
+    {
+      "personId": 1019,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lady Taria"
+    },
+    {
+      "personId": 65,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Draka"
+    },
+    {
+      "personId": 162,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Moroes"
+    },
+    {
+      "personId": 1220,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Callan"
     }
   ]
 }

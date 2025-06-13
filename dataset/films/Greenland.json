@@ -14,32 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 404,
-      "characterName": "John Garrity"
-    },
-    {
-      "personId": 853,
-      "characterName": "Allison Garrity"
-    },
-    {
-      "personId": 998,
-      "characterName": "Nathan Garrity"
-    },
-    {
-      "personId": 1043,
-      "characterName": "Dale"
-    },
-    {
-      "personId": 272,
-      "characterName": "Ralph Vento"
-    },
-    {
-      "personId": 451,
-      "characterName": "Judy Vento"
-    }
-  ],
   "collections": [
     {
       "collectionId": 18,
@@ -52,43 +26,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1535,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1536,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 404,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1537,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1538,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1539,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1540,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -111,6 +48,86 @@
     {
       "videoId": "RTODtIQQRpA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1535,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1536,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 404,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1537,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1538,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1539,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1540,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 404,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Garrity"
+    },
+    {
+      "personId": 853,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Allison Garrity"
+    },
+    {
+      "personId": 998,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nathan Garrity"
+    },
+    {
+      "personId": 1043,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dale"
+    },
+    {
+      "personId": 272,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ralph Vento"
+    },
+    {
+      "personId": 451,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Judy Vento"
     }
   ]
 }

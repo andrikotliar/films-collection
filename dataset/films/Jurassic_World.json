@@ -27,44 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 199,
-      "characterName": "Owen"
-    },
-    {
-      "personId": 157,
-      "characterName": "Claire"
-    },
-    {
-      "personId": 466,
-      "characterName": "Masrani"
-    },
-    {
-      "personId": 1165,
-      "characterName": "Hoskins"
-    },
-    {
-      "personId": 1153,
-      "characterName": "Gray"
-    },
-    {
-      "personId": 872,
-      "characterName": "Zach"
-    },
-    {
-      "personId": 893,
-      "characterName": "Barry"
-    },
-    {
-      "personId": 98,
-      "characterName": "Dr. Henry Wu"
-    },
-    {
-      "personId": 702,
-      "characterName": "Vivian"
-    }
-  ],
   "collections": [
     {
       "collectionId": 9,
@@ -74,53 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1744,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1364,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1365,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1745,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1744,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1704,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1746,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1747,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -140,6 +55,116 @@
     {
       "videoId": "RFinNxS5KN4",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1744,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1364,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1365,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1745,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1744,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1704,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1746,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1747,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 199,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Owen"
+    },
+    {
+      "personId": 157,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Claire"
+    },
+    {
+      "personId": 466,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Masrani"
+    },
+    {
+      "personId": 1165,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hoskins"
+    },
+    {
+      "personId": 1153,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gray"
+    },
+    {
+      "personId": 872,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zach"
+    },
+    {
+      "personId": 893,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barry"
+    },
+    {
+      "personId": 98,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Henry Wu"
+    },
+    {
+      "personId": 702,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vivian"
     }
   ]
 }

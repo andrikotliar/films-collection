@@ -30,6 +30,14 @@ export class PeopleService {
       };
     }
 
+    if (queries.role) {
+      filters.films = {
+        some: {
+          role: queries.role,
+        },
+      };
+    }
+
     const list = await this.peopleRepository.getList(options);
     const total = await this.peopleRepository.count(filters);
 

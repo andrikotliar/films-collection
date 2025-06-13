@@ -33,48 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 363,
-      "characterName": "Obi-Wan Kenobi"
-    },
-    {
-      "personId": 864,
-      "characterName": "Padme"
-    },
-    {
-      "personId": 436,
-      "characterName": "Anakin Skywalker"
-    },
-    {
-      "personId": 209,
-      "characterName": "Count Dooku"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Mace Windu"
-    },
-    {
-      "personId": 382,
-      "characterName": "Yoda"
-    },
-    {
-      "personId": 459,
-      "characterName": "Palpatine"
-    },
-    {
-      "personId": 1107,
-      "characterName": "Jango Fett"
-    },
-    {
-      "personId": 563,
-      "characterName": "Bail Organa"
-    },
-    {
-      "personId": 72,
-      "characterName": "C-3PO"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -84,38 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1993,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1996,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1994,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1995,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -138,6 +64,104 @@
     {
       "videoId": "gYbW1F_c9eM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1996,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1994,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1995,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 363,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "personId": 864,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Padme"
+    },
+    {
+      "personId": 436,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anakin Skywalker"
+    },
+    {
+      "personId": 209,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Count Dooku"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mace Windu"
+    },
+    {
+      "personId": 382,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yoda"
+    },
+    {
+      "personId": 459,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Palpatine"
+    },
+    {
+      "personId": 1107,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jango Fett"
+    },
+    {
+      "personId": 563,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bail Organa"
+    },
+    {
+      "personId": 72,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "C-3PO"
     }
   ]
 }

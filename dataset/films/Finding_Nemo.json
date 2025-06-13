@@ -39,60 +39,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 33,
-      "characterName": "Nemo"
-    },
-    {
-      "personId": 25,
-      "characterName": "Marlin"
-    },
-    {
-      "personId": 332,
-      "characterName": "Dory"
-    },
-    {
-      "personId": 1180,
-      "characterName": "Gill"
-    },
-    {
-      "personId": 139,
-      "characterName": "Bloat"
-    },
-    {
-      "personId": 43,
-      "characterName": "Peach"
-    },
-    {
-      "personId": 96,
-      "characterName": "Gurgle"
-    },
-    {
-      "personId": 1087,
-      "characterName": "Bubbles"
-    },
-    {
-      "personId": 1256,
-      "characterName": "Deb"
-    },
-    {
-      "personId": 1257,
-      "characterName": "Jacques"
-    },
-    {
-      "personId": 401,
-      "characterName": "Nigel"
-    },
-    {
-      "personId": 1258,
-      "characterName": "Crush"
-    },
-    {
-      "personId": 1259,
-      "characterName": "Bruce"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -102,48 +48,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1258,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1258,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1467,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1468,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1469,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1470,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1471,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1472,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -163,6 +67,134 @@
     {
       "videoId": "wZdpNglLbt8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1467,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1468,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1469,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1470,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1471,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1472,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 33,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nemo"
+    },
+    {
+      "personId": 25,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marlin"
+    },
+    {
+      "personId": 332,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dory"
+    },
+    {
+      "personId": 1180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gill"
+    },
+    {
+      "personId": 139,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bloat"
+    },
+    {
+      "personId": 43,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peach"
+    },
+    {
+      "personId": 96,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gurgle"
+    },
+    {
+      "personId": 1087,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bubbles"
+    },
+    {
+      "personId": 1256,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Deb"
+    },
+    {
+      "personId": 1257,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jacques"
+    },
+    {
+      "personId": 401,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nigel"
+    },
+    {
+      "personId": 1258,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Crush"
+    },
+    {
+      "personId": 1259,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce"
     }
   ]
 }

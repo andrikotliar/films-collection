@@ -14,28 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 803,
-      "characterName": "Carroll Shelby"
-    },
-    {
-      "personId": 203,
-      "characterName": "Ken Miles"
-    },
-    {
-      "personId": 159,
-      "characterName": "Mollie Miles"
-    },
-    {
-      "personId": 877,
-      "characterName": "Peter Miles"
-    },
-    {
-      "personId": 1149,
-      "characterName": "Henry Ford II"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -45,58 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1478,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1450,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1451,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1479,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1480,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1478,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1481,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1278,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1482,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1483,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -119,6 +45,98 @@
     {
       "videoId": "zyYgDtY2AMY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1478,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1450,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1451,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1479,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1480,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1478,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1481,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1278,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1482,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1483,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 803,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carroll Shelby"
+    },
+    {
+      "personId": 203,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ken Miles"
+    },
+    {
+      "personId": 159,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mollie Miles"
+    },
+    {
+      "personId": 877,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Miles"
+    },
+    {
+      "personId": 1149,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Henry Ford II"
     }
   ]
 }

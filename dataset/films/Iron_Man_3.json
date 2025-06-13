@@ -33,36 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 982,
-      "characterName": "Tony Stark / Iron Man"
-    },
-    {
-      "personId": 423,
-      "characterName": "Pepper Potts"
-    },
-    {
-      "personId": 304,
-      "characterName": "Colonel James Rhodes"
-    },
-    {
-      "personId": 421,
-      "characterName": "Aldrich Killian"
-    },
-    {
-      "personId": 955,
-      "characterName": "Maya Hansen"
-    },
-    {
-      "personId": 601,
-      "characterName": "Happy Hogan"
-    },
-    {
-      "personId": 109,
-      "characterName": "Trevor Slattery"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -72,38 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1723,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1723,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1724,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1464,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1725,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -126,6 +64,86 @@
     {
       "videoId": "Ke1Y3P9D0Bc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1723,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1723,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1724,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1464,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1725,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 982,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "personId": 423,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pepper Potts"
+    },
+    {
+      "personId": 304,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Colonel James Rhodes"
+    },
+    {
+      "personId": 421,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aldrich Killian"
+    },
+    {
+      "personId": 955,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maya Hansen"
+    },
+    {
+      "personId": 601,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Happy Hogan"
+    },
+    {
+      "personId": 109,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Trevor Slattery"
     }
   ]
 }

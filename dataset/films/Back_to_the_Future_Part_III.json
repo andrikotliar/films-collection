@@ -14,24 +14,6 @@
   "chapterKey": "back-to-the-future",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 824,
-      "characterName": "Marty McFly"
-    },
-    {
-      "personId": 210,
-      "characterName": "Dr. Emmett Brown"
-    },
-    {
-      "personId": 799,
-      "characterName": "Clara Clayton"
-    },
-    {
-      "personId": 1114,
-      "characterName": "Biff Tannen / Griff Tannen"
-    }
-  ],
   "collections": [
     {
       "collectionId": 1,
@@ -45,38 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1373,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1374,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1374,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1376,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1371,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1377,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -96,6 +46,68 @@
     {
       "videoId": "EYkguxpqsrg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1373,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1374,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1374,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1376,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1371,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1377,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 824,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marty McFly"
+    },
+    {
+      "personId": 210,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Emmett Brown"
+    },
+    {
+      "personId": 799,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clara Clayton"
+    },
+    {
+      "personId": 1114,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Biff Tannen / Griff Tannen"
     }
   ]
 }

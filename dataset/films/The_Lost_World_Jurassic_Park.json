@@ -14,24 +14,6 @@
   "chapterKey": "jurassic-park",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 542,
-      "characterName": "Malcolm"
-    },
-    {
-      "personId": 965,
-      "characterName": "Hammond"
-    },
-    {
-      "personId": 628,
-      "characterName": "Sarah Harding"
-    },
-    {
-      "personId": 85,
-      "characterName": "Peter Ludlow"
-    }
-  ],
   "collections": [
     {
       "collectionId": 9,
@@ -41,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1375,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1702,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1739,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1728,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1705,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -95,6 +45,68 @@
     {
       "videoId": "RxrvaneULkE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1375,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1702,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1739,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1728,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1705,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 542,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Malcolm"
+    },
+    {
+      "personId": 965,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hammond"
+    },
+    {
+      "personId": 628,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sarah Harding"
+    },
+    {
+      "personId": 85,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Ludlow"
     }
   ]
 }

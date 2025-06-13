@@ -37,32 +37,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 329,
-      "characterName": "Wanda Maximoff / Scarlet Witch"
-    },
-    {
-      "personId": 905,
-      "characterName": "Vision"
-    },
-    {
-      "personId": 650,
-      "characterName": "Agatha Harkness"
-    },
-    {
-      "personId": 1112,
-      "characterName": "Monica Rambeau"
-    },
-    {
-      "personId": 945,
-      "characterName": "Jimmy Woo"
-    },
-    {
-      "personId": 643,
-      "characterName": "Darcy Lewis"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -72,78 +46,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1504,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2350,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2351,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2352,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2353,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2354,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1780,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2355,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2356,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2357,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2355,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1303,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2358,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2359,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -171,6 +73,128 @@
     {
       "videoId": "sj9J2ecsSpo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1504,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2350,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2351,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2352,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2353,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2354,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1780,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2355,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2356,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2357,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2355,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1303,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2358,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2359,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 329,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wanda Maximoff / Scarlet Witch"
+    },
+    {
+      "personId": 905,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vision"
+    },
+    {
+      "personId": 650,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agatha Harkness"
+    },
+    {
+      "personId": 1112,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Monica Rambeau"
+    },
+    {
+      "personId": 945,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jimmy Woo"
+    },
+    {
+      "personId": 643,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darcy Lewis"
     }
   ]
 }

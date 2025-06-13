@@ -33,24 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 842,
-      "characterName": "Shrek"
-    },
-    {
-      "personId": 319,
-      "characterName": "Donkey"
-    },
-    {
-      "personId": 164,
-      "characterName": "Fiona"
-    },
-    {
-      "personId": 587,
-      "characterName": "Lord Farquaad"
-    }
-  ],
   "collections": [
     {
       "collectionId": 1,
@@ -63,63 +45,6 @@
     },
     {
       "countryId": 6
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1949,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1950,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1891,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1892,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1951,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1952,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1953,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1954,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1955,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -139,6 +64,98 @@
     {
       "videoId": "CwXOrWvPBPk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1949,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1950,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1891,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1892,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1951,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1952,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1953,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1954,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1955,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 842,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shrek"
+    },
+    {
+      "personId": 319,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Donkey"
+    },
+    {
+      "personId": 164,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fiona"
+    },
+    {
+      "personId": 587,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lord Farquaad"
     }
   ]
 }

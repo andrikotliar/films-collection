@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 580,
-      "characterName": "Jackson Curtis"
-    },
-    {
-      "personId": 48,
-      "characterName": "Kate Curtis"
-    },
-    {
-      "personId": 191,
-      "characterName": "Adrian Helmsley"
-    },
-    {
-      "personId": 1206,
-      "characterName": "Laura Wilson"
-    },
-    {
-      "personId": 886,
-      "characterName": "Carl Anheuser"
-    },
-    {
-      "personId": 1190,
-      "characterName": "Charlie Frost"
-    },
-    {
-      "personId": 255,
-      "characterName": "President Thomas Wilson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 18,
@@ -53,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1261,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1262,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1261,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1262,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1264,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1262,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1265,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1266,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -122,6 +45,104 @@
     {
       "videoId": "ce0N3TEcFw0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1262,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1262,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1264,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1262,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1265,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1266,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 580,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jackson Curtis"
+    },
+    {
+      "personId": 48,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kate Curtis"
+    },
+    {
+      "personId": 191,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Adrian Helmsley"
+    },
+    {
+      "personId": 1206,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Laura Wilson"
+    },
+    {
+      "personId": 886,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carl Anheuser"
+    },
+    {
+      "personId": 1190,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlie Frost"
+    },
+    {
+      "personId": 255,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "President Thomas Wilson"
     }
   ]
 }

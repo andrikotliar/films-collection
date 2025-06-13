@@ -12,44 +12,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 260,
-      "characterName": "Nina Locke"
-    },
-    {
-      "personId": 227,
-      "characterName": "Tyler Locke"
-    },
-    {
-      "personId": 340,
-      "characterName": "Kinsey Locke"
-    },
-    {
-      "personId": 487,
-      "characterName": "Bode Locke"
-    },
-    {
-      "personId": 926,
-      "characterName": "Scot Cavendish"
-    },
-    {
-      "personId": 1064,
-      "characterName": "Ellie Whedon"
-    },
-    {
-      "personId": 400,
-      "characterName": "Jackie Veda"
-    },
-    {
-      "personId": 1227,
-      "characterName": "Duncan Locke"
-    },
-    {
-      "personId": 708,
-      "characterName": "Dodge"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -62,183 +24,6 @@
     },
     {
       "countryId": 3
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1765,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1766,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1634,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1767,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1768,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1769,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1770,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1771,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1772,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1766,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1773,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1774,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1775,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1776,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1777,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1778,
-      "position": "WRITER",
-      "comment": "17 episodes"
-    },
-    {
-      "personId": 1634,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1779,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1765,
-      "position": "WRITER",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1780,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1781,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1782,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1783,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1784,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1785,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1766,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1786,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1787,
-      "position": "WRITER",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1788,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1789,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1790,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1791,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1792,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1793,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1794,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -271,6 +56,272 @@
     {
       "videoId": "PX-t1wYNtBs",
       "order": 3
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1765,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1766,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1634,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1767,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1768,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1769,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1770,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1771,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1772,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1766,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1773,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1774,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1775,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1776,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1777,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1778,
+      "comment": "17 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1634,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1779,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1765,
+      "comment": "5 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1780,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1781,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1782,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1783,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1784,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1785,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1766,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1786,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1787,
+      "comment": "6 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1788,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1789,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1790,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1791,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1792,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1793,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1794,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 260,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nina Locke"
+    },
+    {
+      "personId": 227,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tyler Locke"
+    },
+    {
+      "personId": 340,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kinsey Locke"
+    },
+    {
+      "personId": 487,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bode Locke"
+    },
+    {
+      "personId": 926,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scot Cavendish"
+    },
+    {
+      "personId": 1064,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ellie Whedon"
+    },
+    {
+      "personId": 400,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jackie Veda"
+    },
+    {
+      "personId": 1227,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Duncan Locke"
+    },
+    {
+      "personId": 708,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dodge"
     }
   ]
 }

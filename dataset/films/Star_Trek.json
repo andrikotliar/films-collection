@@ -27,60 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 198,
-      "characterName": "Kirk"
-    },
-    {
-      "personId": 1198,
-      "characterName": "Spock"
-    },
-    {
-      "personId": 715,
-      "characterName": "Spock Prime"
-    },
-    {
-      "personId": 351,
-      "characterName": "Nero"
-    },
-    {
-      "personId": 155,
-      "characterName": "Pike"
-    },
-    {
-      "personId": 641,
-      "characterName": "Bones"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Uhura"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Scotty"
-    },
-    {
-      "personId": 578,
-      "characterName": "Sulu"
-    },
-    {
-      "personId": 76,
-      "characterName": "Chekov"
-    },
-    {
-      "personId": 107,
-      "characterName": "Sarek"
-    },
-    {
-      "personId": 1188,
-      "characterName": "Amanda Grayson"
-    },
-    {
-      "personId": 195,
-      "characterName": "George Kirk"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -90,43 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1843,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1843,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1990,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1730,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -149,6 +58,128 @@
     {
       "videoId": "pKFUZ10Wmbw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1990,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1730,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kirk"
+    },
+    {
+      "personId": 1198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spock"
+    },
+    {
+      "personId": 715,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spock Prime"
+    },
+    {
+      "personId": 351,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nero"
+    },
+    {
+      "personId": 155,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pike"
+    },
+    {
+      "personId": 641,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bones"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Uhura"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scotty"
+    },
+    {
+      "personId": 578,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sulu"
+    },
+    {
+      "personId": 76,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chekov"
+    },
+    {
+      "personId": 107,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sarek"
+    },
+    {
+      "personId": 1188,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Amanda Grayson"
+    },
+    {
+      "personId": 195,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "George Kirk"
     }
   ]
 }

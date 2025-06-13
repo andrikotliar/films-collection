@@ -21,72 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 251,
-      "characterName": "Harry Potter"
-    },
-    {
-      "personId": 1014,
-      "characterName": "Ron Weasley"
-    },
-    {
-      "personId": 345,
-      "characterName": "Hermione Granger"
-    },
-    {
-      "personId": 990,
-      "characterName": "Cedric Diggory"
-    },
-    {
-      "personId": 942,
-      "characterName": "Lord Voldemort"
-    },
-    {
-      "personId": 970,
-      "characterName": "Albus Dumbledore"
-    },
-    {
-      "personId": 981,
-      "characterName": "Rubeus Hagrid"
-    },
-    {
-      "personId": 22,
-      "characterName": "Severus Snape"
-    },
-    {
-      "personId": 1130,
-      "characterName": "Draco Malfoy"
-    },
-    {
-      "personId": 1241,
-      "characterName": "Barty Crouch Junior"
-    },
-    {
-      "personId": 1242,
-      "characterName": "Fleur Delacour"
-    },
-    {
-      "personId": 145,
-      "characterName": "Alastor Moody"
-    },
-    {
-      "personId": 1228,
-      "characterName": "Minerva McGonagall"
-    },
-    {
-      "personId": 1243,
-      "characterName": "Karkaroff's Aide"
-    },
-    {
-      "personId": 1244,
-      "characterName": "Barty Crouch"
-    },
-    {
-      "personId": 1245,
-      "characterName": "Madame Olympe Maxime"
-    }
-  ],
   "collections": [
     {
       "collectionId": 2,
@@ -99,33 +33,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1570,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1561,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1562,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1571,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1564,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -145,6 +52,134 @@
     {
       "videoId": "3EGojp4Hh6I",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1570,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1561,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1562,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1571,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1564,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 251,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Harry Potter"
+    },
+    {
+      "personId": 1014,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ron Weasley"
+    },
+    {
+      "personId": 345,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hermione Granger"
+    },
+    {
+      "personId": 990,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cedric Diggory"
+    },
+    {
+      "personId": 942,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lord Voldemort"
+    },
+    {
+      "personId": 970,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Albus Dumbledore"
+    },
+    {
+      "personId": 981,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rubeus Hagrid"
+    },
+    {
+      "personId": 22,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Severus Snape"
+    },
+    {
+      "personId": 1130,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Draco Malfoy"
+    },
+    {
+      "personId": 1241,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barty Crouch Junior"
+    },
+    {
+      "personId": 1242,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fleur Delacour"
+    },
+    {
+      "personId": 145,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alastor Moody"
+    },
+    {
+      "personId": 1228,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Minerva McGonagall"
+    },
+    {
+      "personId": 1243,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Karkaroff's Aide"
+    },
+    {
+      "personId": 1244,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barty Crouch"
+    },
+    {
+      "personId": 1245,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Madame Olympe Maxime"
     }
   ]
 }

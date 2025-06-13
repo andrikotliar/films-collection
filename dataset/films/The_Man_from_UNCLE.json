@@ -14,32 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 443,
-      "characterName": "Napoleon Solo"
-    },
-    {
-      "personId": 86,
-      "characterName": "Illya Kuryakin"
-    },
-    {
-      "personId": 41,
-      "characterName": "Gaby"
-    },
-    {
-      "personId": 328,
-      "characterName": "Victoria"
-    },
-    {
-      "personId": 741,
-      "characterName": "Alexander"
-    },
-    {
-      "personId": 452,
-      "characterName": "Waverly"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -52,53 +26,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2164,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2164,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2217,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2218,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1676,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2164,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2217,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1989,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1798,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -118,6 +45,98 @@
     {
       "videoId": "CzYRlISYE8Y",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2164,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2164,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2217,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2218,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1676,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2164,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2217,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1989,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1798,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 443,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Napoleon Solo"
+    },
+    {
+      "personId": 86,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Illya Kuryakin"
+    },
+    {
+      "personId": 41,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gaby"
+    },
+    {
+      "personId": 328,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Victoria"
+    },
+    {
+      "personId": 741,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alexander"
+    },
+    {
+      "personId": 452,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Waverly"
     }
   ]
 }

@@ -135,44 +135,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 716,
-      "characterName": "Cobb"
-    },
-    {
-      "personId": 614,
-      "characterName": "Arthur"
-    },
-    {
-      "personId": 334,
-      "characterName": "Ariadne"
-    },
-    {
-      "personId": 1131,
-      "characterName": "Eames"
-    },
-    {
-      "personId": 665,
-      "characterName": "Saito"
-    },
-    {
-      "personId": 295,
-      "characterName": "Yusuf"
-    },
-    {
-      "personId": 214,
-      "characterName": "Robert Fischer"
-    },
-    {
-      "personId": 779,
-      "characterName": "Mal"
-    },
-    {
-      "personId": 821,
-      "characterName": "Miles"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -182,38 +144,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1378,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1378,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1381,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1378,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1385,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -236,6 +166,98 @@
     {
       "videoId": "YoHD9XEInc0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1381,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1385,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 716,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cobb"
+    },
+    {
+      "personId": 614,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arthur"
+    },
+    {
+      "personId": 334,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ariadne"
+    },
+    {
+      "personId": 1131,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eames"
+    },
+    {
+      "personId": 665,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Saito"
+    },
+    {
+      "personId": 295,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yusuf"
+    },
+    {
+      "personId": 214,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Robert Fischer"
+    },
+    {
+      "personId": 779,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mal"
+    },
+    {
+      "personId": 821,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miles"
     }
   ]
 }

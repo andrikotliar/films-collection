@@ -14,64 +14,6 @@
   "chapterKey": "avatar",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1034,
-      "characterName": "Jake Sully"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Neytiri"
-    },
-    {
-      "personId": 1068,
-      "characterName": "Kiri"
-    },
-    {
-      "personId": 1084,
-      "characterName": "Quaritch"
-    },
-    {
-      "personId": 648,
-      "characterName": "Ronal"
-    },
-    {
-      "personId": 1207,
-      "characterName": "Tonowari"
-    },
-    {
-      "personId": 571,
-      "characterName": "Norm"
-    },
-    {
-      "personId": 1208,
-      "characterName": "Neteyam"
-    },
-    {
-      "personId": 1209,
-      "characterName": "Lo'Ak"
-    },
-    {
-      "personId": 1210,
-      "characterName": "Tuk"
-    },
-    {
-      "personId": 1211,
-      "characterName": "Spider"
-    },
-    {
-      "personId": 1212,
-      "characterName": "Tsireya"
-    },
-    {
-      "personId": 1213,
-      "characterName": "Aonung"
-    },
-    {
-      "personId": 1215,
-      "characterName": "General Ardmore"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -89,48 +31,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1288,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1364,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1365,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1294,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1366,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1310,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -156,6 +56,140 @@
     {
       "videoId": "o5F8MOz_IDw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1364,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1365,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1294,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1366,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1310,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1034,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jake Sully"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neytiri"
+    },
+    {
+      "personId": 1068,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kiri"
+    },
+    {
+      "personId": 1084,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Quaritch"
+    },
+    {
+      "personId": 648,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ronal"
+    },
+    {
+      "personId": 1207,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tonowari"
+    },
+    {
+      "personId": 571,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Norm"
+    },
+    {
+      "personId": 1208,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neteyam"
+    },
+    {
+      "personId": 1209,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lo'Ak"
+    },
+    {
+      "personId": 1210,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tuk"
+    },
+    {
+      "personId": 1211,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spider"
+    },
+    {
+      "personId": 1212,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tsireya"
+    },
+    {
+      "personId": 1213,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aonung"
+    },
+    {
+      "personId": 1215,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Ardmore"
     }
   ]
 }

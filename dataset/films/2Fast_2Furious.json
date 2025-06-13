@@ -14,28 +14,6 @@
   "chapterKey": "fast-and-furious",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 911,
-      "characterName": "Brian O'Conner"
-    },
-    {
-      "personId": 1156,
-      "characterName": "Roman Pearce"
-    },
-    {
-      "personId": 359,
-      "characterName": "Monica Fuentes"
-    },
-    {
-      "personId": 222,
-      "characterName": "Carter Verone"
-    },
-    {
-      "personId": 746,
-      "characterName": "Tej"
-    }
-  ],
   "collections": [
     {
       "collectionId": 13,
@@ -45,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1267,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1268,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1269,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1270,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1271,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1272,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -96,6 +42,74 @@
     {
       "videoId": "F_VIM03DXWI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1267,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1268,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1269,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1270,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1271,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1272,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 911,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brian O'Conner"
+    },
+    {
+      "personId": 1156,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Roman Pearce"
+    },
+    {
+      "personId": 359,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Monica Fuentes"
+    },
+    {
+      "personId": 222,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carter Verone"
+    },
+    {
+      "personId": 746,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tej"
     }
   ]
 }

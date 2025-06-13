@@ -33,52 +33,6 @@
       "comment": "The pod race"
     }
   ],
-  "cast": [
-    {
-      "personId": 724,
-      "characterName": "Qui-Gon Jinn"
-    },
-    {
-      "personId": 363,
-      "characterName": "Obi-Wan Kenobi"
-    },
-    {
-      "personId": 864,
-      "characterName": "Padme"
-    },
-    {
-      "personId": 500,
-      "characterName": "Anakin Skywalker"
-    },
-    {
-      "personId": 459,
-      "characterName": "Senator Palpatine"
-    },
-    {
-      "personId": 915,
-      "characterName": "Shmi Skywalker"
-    },
-    {
-      "personId": 16,
-      "characterName": "Jar Jar Binks"
-    },
-    {
-      "personId": 72,
-      "characterName": "C-3PO"
-    },
-    {
-      "personId": 667,
-      "characterName": "R2-D2"
-    },
-    {
-      "personId": 382,
-      "characterName": "Yoda"
-    },
-    {
-      "personId": 949,
-      "characterName": "Darth Maul"
-    }
-  ],
   "collections": [
     {
       "collectionId": 22,
@@ -88,33 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1993,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1993,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1994,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1995,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -137,6 +64,104 @@
     {
       "videoId": "bD7bpG-zDJQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1994,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1995,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 724,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Qui-Gon Jinn"
+    },
+    {
+      "personId": 363,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "personId": 864,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Padme"
+    },
+    {
+      "personId": 500,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anakin Skywalker"
+    },
+    {
+      "personId": 459,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Senator Palpatine"
+    },
+    {
+      "personId": 915,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shmi Skywalker"
+    },
+    {
+      "personId": 16,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jar Jar Binks"
+    },
+    {
+      "personId": 72,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "C-3PO"
+    },
+    {
+      "personId": 667,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "R2-D2"
+    },
+    {
+      "personId": 382,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yoda"
+    },
+    {
+      "personId": 949,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darth Maul"
     }
   ]
 }

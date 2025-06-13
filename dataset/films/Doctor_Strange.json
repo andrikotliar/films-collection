@@ -27,32 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 114,
-      "characterName": "Dr. Stephen Strange"
-    },
-    {
-      "personId": 191,
-      "characterName": "Mordo"
-    },
-    {
-      "personId": 939,
-      "characterName": "Dr. Christine Palmer"
-    },
-    {
-      "personId": 116,
-      "characterName": "Wong"
-    },
-    {
-      "personId": 762,
-      "characterName": "Kaecilius"
-    },
-    {
-      "personId": 1118,
-      "characterName": "The Ancient One"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -62,43 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1439,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1440,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1439,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1441,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1406,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -121,6 +58,86 @@
     {
       "videoId": "HSzx-zryEgM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1439,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1440,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1439,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1441,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1406,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 114,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Stephen Strange"
+    },
+    {
+      "personId": 191,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mordo"
+    },
+    {
+      "personId": 939,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Christine Palmer"
+    },
+    {
+      "personId": 116,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wong"
+    },
+    {
+      "personId": 762,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kaecilius"
+    },
+    {
+      "personId": 1118,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Ancient One"
     }
   ]
 }
