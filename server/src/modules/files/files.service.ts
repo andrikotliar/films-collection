@@ -1,3 +1,4 @@
+import { S3 } from '@aws-sdk/client-s3';
 import { v2 as cloudinary, UploadApiResponse } from 'cloudinary';
 import { EnvVariables } from 'src/common';
 import { UploadPayload } from './types';
@@ -6,11 +7,21 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 
 export class FilesService {
+  private readonly storage: S3;
+
   constructor(env: EnvVariables) {
     cloudinary.config({
       cloud_name: env.CLOUDINARY_CLOUD_NAME,
       api_key: env.CLOUDINARY_API_KEY,
       api_secret: env.CLOUDINARY_API_SECRET,
+    });
+
+    this.storage = new S3({
+      credentials: {
+        accessKeyId: env.AWS_ACCESS_KEY,
+        secretAccessKey: env.AWS_SECRET_KEY,
+      },
+      region: env.AWS_REGION,
     });
   }
 

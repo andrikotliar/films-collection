@@ -10,6 +10,10 @@ export type EnvVariables = {
   CLOUDINARY_CLOUD_NAME: string;
   CLOUDINARY_API_KEY: string;
   CLOUDINARY_API_SECRET: string;
+  AWS_ACCESS_KEY: string;
+  AWS_SECRET_KEY: string;
+  AWS_REGION: string;
+  AWS_S3_BUCKET: string;
   HOST?: string;
   NODE_ENV?: string;
   FRONTEND_ORIGIN?: string;
@@ -24,6 +28,10 @@ const REQUIRED_VARIABLES = [
   'CLOUDINARY_CLOUD_NAME',
   'CLOUDINARY_API_KEY',
   'CLOUDINARY_API_SECRET',
+  'AWS_ACCESS_KEY',
+  'AWS_SECRET_KEY',
+  'AWS_REGION',
+  'AWS_S3_BUCKET',
 ] as const;
 
 const getEnvVariables = (): EnvVariables => {
@@ -46,6 +54,10 @@ const getEnvVariables = (): EnvVariables => {
     CLOUDINARY_CLOUD_NAME: env.CLOUDINARY_CLOUD_NAME,
     CLOUDINARY_API_KEY: env.CLOUDINARY_API_KEY,
     CLOUDINARY_API_SECRET: env.CLOUDINARY_API_SECRET,
+    AWS_ACCESS_KEY: env.AWS_ACCESS_KEY,
+    AWS_SECRET_KEY: env.AWS_SECRET_KEY,
+    AWS_REGION: env.AWS_REGION,
+    AWS_S3_BUCKET: env.AWS_S3_BUCKET,
   };
 };
 
