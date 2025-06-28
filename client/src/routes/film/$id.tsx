@@ -2,7 +2,6 @@ import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { fetchFilmQuery } from '@/queries';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { useLastVisitedFilms } from './-hooks';
 import {
   Description,
   Cast,
@@ -29,7 +28,6 @@ function FilmPageContainer() {
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);
-  useLastVisitedFilms(film?.id);
 
   return (
     <FilmPageLayout>
