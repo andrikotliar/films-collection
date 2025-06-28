@@ -37,18 +37,12 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     style,
     budget,
     boxOffice,
-    ids,
+    title,
   } = plainFilters;
 
   const filters: Prisma.FilmWhereInput = {
     draft: false,
   };
-
-  if (ids) {
-    filters.id = {
-      in: ids,
-    };
-  }
 
   if (startDate || endDate) {
     filters.releaseDate = {
@@ -151,6 +145,13 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
 
   if (boxOffice) {
     filters.boxOffice = getMoneyRangeFilter(boxOffice);
+  }
+
+  if (title) {
+    filters.title = {
+      contains: title,
+      mode: 'insensitive',
+    };
   }
 
   return filters;

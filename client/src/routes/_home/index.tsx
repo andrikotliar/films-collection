@@ -1,10 +1,10 @@
-import * as yup from 'yup'
-import { createFileRoute } from '@tanstack/react-router'
-import { fetchFilmsListQuery, fetchInitialDataQuery } from '@/queries'
-import { FilmsListFilters } from '@/types'
-import { useDocumentTitle } from '@/hooks'
-import { useSuspenseQuery } from '@tanstack/react-query'
-import { FilmsSection, RootPageLayout, Sidebar } from './-components'
+import * as yup from 'yup';
+import { createFileRoute } from '@tanstack/react-router';
+import { fetchFilmsListQuery, fetchInitialDataQuery } from '@/queries';
+import { FilmsListFilters } from '@/types';
+import { useDocumentTitle } from '@/hooks';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { FilmsSection, RootPageLayout, Sidebar } from './-components';
 
 const filmsListFilterSchema = yup.object().shape({
   pageIndex: yup.number().min(0),
@@ -21,39 +21,38 @@ const filmsListFilterSchema = yup.object().shape({
   crewMemberId: yup.string(),
   crewMemberPosition: yup.string(),
   rating: yup.string(),
-  searchAnniversaries: yup.boolean(),
-  ids: yup.array(yup.number().required()),
-})
+  title: yup.string(),
+});
 
 export const Route = createFileRoute('/_home/')({
   validateSearch: (
     search: Record<string, unknown>,
   ): Partial<FilmsListFilters> => {
-    return filmsListFilterSchema.validateSync(search)
+    return filmsListFilterSchema.validateSync(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: async ({ context, deps }) => {
-    await context.queryClient.ensureQueryData(fetchInitialDataQuery())
-    await context.queryClient.ensureQueryData(fetchFilmsListQuery(deps.search))
+    await context.queryClient.ensureQueryData(fetchInitialDataQuery());
+    await context.queryClient.ensureQueryData(fetchFilmsListQuery(deps.search));
   },
   component: RootPageContainer,
-})
+});
 
 function RootPageContainer() {
-  useDocumentTitle()
+  useDocumentTitle();
 
-  const routeSearch = Route.useSearch()
+  const routeSearch = Route.useSearch();
 
   const { data, isFetching } = useSuspenseQuery(
     fetchFilmsListQuery(routeSearch),
-  )
+  );
 
   return (
     <RootPageLayout>
       <Sidebar />
       <FilmsSection data={data} isLoading={isFetching} />
     </RootPageLayout>
-  )
+  );
 }

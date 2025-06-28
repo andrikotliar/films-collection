@@ -159,9 +159,7 @@ export type FilmsListFilters = FilmsListPagination &
     crewMemberId: string | null;
     crewMemberPosition: string | null;
     rating: string | null;
-    searchAnniversaries: boolean | null;
-    searchLastVisitedFilms: boolean | null;
-    ids: number[] | null;
+    title: string | null;
   }>;
 
 export type FilmsAdminListItem = Pick<Film, 'id' | 'title' | 'draft'>;
