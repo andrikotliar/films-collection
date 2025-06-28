@@ -1,11 +1,20 @@
 import { AdditionalInfo } from '@/types';
 import { InfoBlock } from '../info-block/info-block';
+import { getRouteApi } from '@tanstack/react-router';
 
 type AdditionalInfoProps = {
   info: AdditionalInfo | null;
 };
 
+const routeApi = getRouteApi('/_home/');
+
 export const AdditionalInfoSection = ({ info }: AdditionalInfoProps) => {
+  const queries = routeApi.useSearch();
+
+  if (queries.title) {
+    return <InfoBlock title={queries.title} label="Search results for" />;
+  }
+
   if (!info) {
     return null;
   }
