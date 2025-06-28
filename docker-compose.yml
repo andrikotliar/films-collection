@@ -3,16 +3,19 @@ services:
     image: postgres:17-bookworm
     restart: unless-stopped
     ports:
-      - "54321:5432"
+      - "5432:5432"
     volumes:
-      - fc_database:/var/lib/postgresql/data
+      - ./films_collection_database:/var/lib/postgresql/data
     env_file:
       - .env
   adminer:
-    image: adminer
+    image: adminer:latest
     restart: always
+    environment: 
+      ADMINER_DEFAULT_SERVER: database
+      ADMINER_DESIGN: galkaev
     ports:
       - 8085:8080
 
 volumes:
-  fc_database:
+  films_collection_database:
