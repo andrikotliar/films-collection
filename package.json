@@ -13,7 +13,7 @@
     "build:server": "cd server && npm run build",
     "build": "npm run build:server && npm run build:client",
     "db:init": "cd server && npm run db:migrate && npm run db:seed",
-    "db:init:migration": "cd server && npm run db:migrate"
+    "db:migration": "cd server && npm run db:migrate"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"
