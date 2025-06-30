@@ -42,7 +42,6 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
 
   const filters: Prisma.FilmWhereInput = {
     draft: false,
-    deletedAt: null,
   };
 
   if (startDate || endDate) {

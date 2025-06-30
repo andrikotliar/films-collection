@@ -5,7 +5,6 @@ import {
   GetFilmRelatedChaptersSchema,
   SearchFilmsQuerySchema,
   GetAdminFilmParamsSchema,
-  DeleteFilmParamsSchema,
 } from './schemas';
 
 export const FilmsController = router((app, defineRoute) => [
@@ -110,24 +109,6 @@ export const FilmsController = router((app, defineRoute) => [
       return {
         status: 'OK',
         data,
-      };
-    },
-  }),
-  defineRoute({
-    method: 'DELETE',
-    url: '/admin/:id',
-    preHandler: [app.authenticate],
-    schema: {
-      params: DeleteFilmParamsSchema,
-    },
-    handler: async ({ request }) => {
-      const data = await app.filmsService.deleteFilm(request.params.id);
-
-      return {
-        status: 'OK',
-        data: {
-          id: data.id,
-        },
       };
     },
   }),

@@ -94,14 +94,6 @@ export class FilmsService {
     return this.filmsRepository.findChapters(query.key, query.filmId);
   }
 
-  deleteFilm(id: number) {
-    const now = new Date().toISOString();
-
-    return this.filmsRepository.updateBaseFilmData(id, {
-      deletedAt: now,
-    });
-  }
-
   private async populateAdditionalData(query: GetFilmsListQuery) {
     const { actorId, crewMemberId, crewMemberPosition, collectionId, awardId } =
       query;

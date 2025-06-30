@@ -176,24 +176,16 @@ export class FilmsRepository {
             order: true,
           },
         },
-        crew: {
+        castAndCrew: {
           select: {
-            personId: true,
-            person: {
-              select: {
-                name: true,
-              },
-            },
-            position: true,
+            role: true,
+            details: true,
             comment: true,
-          },
-        },
-        cast: {
-          select: {
-            personId: true,
             person: {
               select: {
+                id: true,
                 name: true,
+                image: true,
               },
             },
           },
