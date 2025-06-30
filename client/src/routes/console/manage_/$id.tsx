@@ -50,19 +50,17 @@ function PageContainer() {
   const pageTitle = typeof id === 'number' ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {
-    const localValues = LocalStorage.getItem<FormValues>(`films:${idValue}`);
-
     if (pendingFilm) {
       return {
         ...filmDefaultFormValues,
         pendingFilmId: pendingFilm.id,
         title: pendingFilm.title,
         rating: pendingFilm.rating ?? filmDefaultFormValues.rating,
-        collections: pendingFilm.collectionId
-          ? [String(pendingFilm.collectionId)]
-          : [],
+        collections: pendingFilm.collectionId ? [pendingFilm.collectionId] : [],
       };
     }
+
+    const localValues = LocalStorage.getItem<FormValues>(`films:${idValue}`);
 
     if (localValues) {
       return {

@@ -41,5 +41,5 @@ export type FormValues = {
   awards: FormAward[];
   trailers: FormTrailer[];
   shouldUseExistingKey: boolean;
-  pendingFilmId: number | null;
+  pendingFilmId?: number;
 };
