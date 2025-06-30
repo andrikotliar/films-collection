@@ -5,8 +5,12 @@ export type CollectionEvent = {
   title: string;
   image: string;
   collectionId: number;
-  startDateCode: number;
-  endDateCode: number;
+  startDate: number;
+  startMonth: number;
+  endDate: number;
+  endMonth: number;
+  description: string | null;
+  background: string;
 };
 
 export type BaseCollectionEvent = Pick<
@@ -16,17 +20,4 @@ export type BaseCollectionEvent = Pick<
 
 export type CollectionEventFilled = CollectionEvent & {
   collection: Pick<Collection, 'id' | 'title'>;
-};
-
-export type CollectionEventDate = {
-  month: number;
-  date: number;
-};
-
-export type CollectionEventPayload = Omit<
-  CollectionEvent,
-  'id' | 'startDateCode' | 'endDateCode'
-> & {
-  startDate: CollectionEventDate;
-  endDate: CollectionEventDate;
 };

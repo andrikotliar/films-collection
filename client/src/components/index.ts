@@ -43,3 +43,4 @@ export * from './form-group/form-group';
 export * from './form-date-range/form-date-range';
 export * from './toggle/toggle';
 export * from './toaster-provider/toaster-provider';
+export * from './gradient-builder';

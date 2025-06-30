@@ -69,7 +69,8 @@ const CollectionEventsContainer = () => {
   });
 
   const handleSubmit = (data: FormValues) => {
-    createEvent(data);
+    // createEvent(data);
+    console.log(data);
   };
 
   const handleDeleteEvent = (collectionEvent: CollectionEventFilled) => {

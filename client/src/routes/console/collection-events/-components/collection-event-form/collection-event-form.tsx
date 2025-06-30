@@ -1,4 +1,4 @@
-import { FormEventHandler } from 'react';
+import { FormEventHandler, useState } from 'react';
 import styles from './collection-event-form.module.css';
 import {
   Button,
@@ -6,6 +6,8 @@ import {
   FormTitle,
   FormSelect,
   FormFileInput,
+  FormTextArea,
+  FormGradientBuilder,
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
@@ -25,6 +27,8 @@ export const CollectionEventForm = ({
 }: CollectionEventFormProps) => {
   const { data } = useQuery(fetchInitialDataQuery());
 
+  const [background, setBackground] = useState<any>();
+
   return (
     <Panel>
       <form onSubmit={onSubmit} className={styles.formWrapper}>
@@ -38,6 +42,13 @@ export const CollectionEventForm = ({
             name="collectionId"
           />
         )}
+        <FormTextArea name="description" label="Description" />
+        <FormGradientBuilder
+          name="background"
+          label="Background"
+          onChange={setBackground}
+          value={background}
+        />
         <div className={styles.dates}>
           <div className={styles.dateGroup}>
             <div className={styles.groupTitle}>Start date</div>

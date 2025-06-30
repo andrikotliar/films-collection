@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputs {
+  display: flex;
+  gap: 2px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 80px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.workSpace {
+  display: flex;
+  gap: 20px;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.previewLabel {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.input {
+  position: absolute;
+  border: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: -10px;
+  cursor: pointer;
+}
+
+.leftWrapper {
+  border-radius: 10px 0 0 10px;
+}
+
+.rightWrapper {
+  border-radius: 0 10px 10px 0;
+}
