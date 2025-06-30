@@ -36,4 +36,18 @@ export class PendingFilmsRepository {
       data,
     });
   }
+
+  findPendingFilm(id: number) {
+    return this.databaseClient.pendingFilm.findUnique({
+      select: {
+        id: true,
+        collectionId: true,
+        title: true,
+        rating: true,
+      },
+      where: {
+        id,
+      },
+    });
+  }
 }

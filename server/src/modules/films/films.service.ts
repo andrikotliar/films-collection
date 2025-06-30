@@ -7,6 +7,7 @@ import {
   GetFilmsListQuery,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
+import { Prisma } from '@prisma/client';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
@@ -57,6 +58,20 @@ export class FilmsService {
     }
 
     return mappedFilm;
+  }
+
+  async getFilmDetailsAdmin(id: number) {
+    const data = await this.filmsRepository.findByIdAdmin(id);
+
+    if (!data) {
+      return null;
+    }
+
+    console.log(data);
+
+    return {
+      data: true,
+    };
   }
 
   searchFilm(searchString: string) {

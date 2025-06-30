@@ -11,6 +11,7 @@ export * from './fetch-related-chapters-query';
 export * from './fetch-admin-posts-list-query';
 export * from './fetch-post-by-id-query';
 export * from './fetch-post-by-key-query';
+export * from './fetch-pending-film-query';
 export * from './fetch-genres-list-query';
 export * from './fetch-countries-list-query';
 export * from './fetch-studios-list-query';

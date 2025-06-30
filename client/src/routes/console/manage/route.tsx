@@ -1,13 +1,21 @@
 import { FILMS_ADMIN_LIST_PER_PAGE, NEW_ITEM_ID } from '@/constants';
-import { useDocumentTitle } from '@/hooks';
+import { useDocumentTitle, useToaster } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
-import { AdminFilmsQueryFilters } from '@/types';
-import { ConsoleContent, ConsoleTitle, Panel, Pagination } from '@/components';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { AdminFilmsQueryFilters, FilmsAdminListItem } from '@/types';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
+import {
+  ConsoleContent,
+  ConsoleTitle,
+  Panel,
+  Pagination,
+  ConfirmModal,
+} from '@/components';
 import { number, object, string } from 'yup';
-import { AdminFilm, AdminFilmsTools } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
+import { FilmsApi } from '@/api';
+import { useState } from 'react';
+import { AdminFilm } from '@/routes/console/manage/-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string().nullable(),
@@ -34,7 +42,23 @@ export const Route = createFileRoute('/console/manage')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+  const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+  const { showErrorMessage } = useToaster();
+
+  const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(
+    null,
+  );
+
+  const { mutate: handleDeleteFilm, isPending } = useMutation({
+    mutationFn: FilmsApi.deleteFilm,
+    onSuccess: () => {
+      refetch();
+      setFilmToDelete(null);
+    },
+    onError: (error) => {
+      showErrorMessage(error?.message);
+    },
+  });
 
   useDocumentTitle('Admin list');
 
@@ -54,7 +78,6 @@ function PageContainer() {
   return (
     <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
-      <AdminFilmsTools />
       <AddItemLink to="/console/manage/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
@@ -69,6 +92,13 @@ function PageContainer() {
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
         totalLabel="films"
+      />
+      <ConfirmModal
+        title={`Confirm delete ${filmToDelete?.title}`}
+        data={filmToDelete}
+        onClose={() => setFilmToDelete(null)}
+        onConfirm={(film) => handleDeleteFilm(film.id)}
+        isPending={isPending}
       />
     </ConsoleContent>
   );

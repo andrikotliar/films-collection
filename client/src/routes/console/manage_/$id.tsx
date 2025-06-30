@@ -1,4 +1,4 @@
-import { fetchInitialDataQuery } from '@/queries';
+import { fetchInitialDataQuery, fetchPendingFilmQuery } from '@/queries';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
@@ -19,15 +19,31 @@ export const Route = createFileRoute('/console/manage_/$id')({
   validateSearch: (search) => {
     return consoleFilmQueriesSchema.validateSync(search);
   },
-  loader: async ({ context: { queryClient } }) => {
+  loaderDeps: ({ search }) => {
+    return {
+      search,
+    };
+  },
+  loader: async ({ context: { queryClient }, deps, params }) => {
     await queryClient.ensureQueryData(fetchInitialDataQuery());
+
+    if (deps.search.pendingFilmId && params.id === NEW_ITEM_ID) {
+      await queryClient.ensureQueryData(
+        fetchPendingFilmQuery(deps.search.pendingFilmId),
+      );
+    }
   },
   component: PageContainer,
 });
 
 function PageContainer() {
   const { id } = Route.useParams();
+  const search = Route.useSearch();
+
   const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
+  const { data: pendingFilm } = useSuspenseQuery(
+    fetchPendingFilmQuery(search.pendingFilmId),
+  );
 
   const idValue = id === NEW_ITEM_ID ? id : Number(id);
 
@@ -35,6 +51,18 @@ function PageContainer() {
 
   const defaultValues = useMemo(() => {
     const localValues = LocalStorage.getItem<FormValues>(`films:${idValue}`);
+
+    if (pendingFilm) {
+      return {
+        ...filmDefaultFormValues,
+        pendingFilmId: pendingFilm.id,
+        title: pendingFilm.title,
+        rating: pendingFilm.rating ?? filmDefaultFormValues.rating,
+        collections: pendingFilm.collectionId
+          ? [String(pendingFilm.collectionId)]
+          : [],
+      };
+    }
 
     if (localValues) {
       return {

@@ -22,4 +22,5 @@ export const filmDefaultFormValues: FormValues = {
   awards: [],
   trailers: [],
   shouldUseExistingKey: false,
+  pendingFilmId: null,
 };
