@@ -99,28 +99,6 @@
       "comment": "L.A. Freeway Scene"
     }
   ],
-  "cast": [
-    {
-      "personId": 87,
-      "characterName": "T-800"
-    },
-    {
-      "personId": 321,
-      "characterName": "John Connor"
-    },
-    {
-      "personId": 728,
-      "characterName": "Sarah Connor"
-    },
-    {
-      "personId": 989,
-      "characterName": "T-1000"
-    },
-    {
-      "personId": 568,
-      "characterName": "Miles Bennett Dyson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 1,
@@ -138,38 +116,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1288,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2049,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2050,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2051,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -192,6 +138,74 @@
     {
       "videoId": "-W8CegO_Ixw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2049,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2050,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2051,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 87,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "T-800"
+    },
+    {
+      "personId": 321,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Connor"
+    },
+    {
+      "personId": 728,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sarah Connor"
+    },
+    {
+      "personId": 989,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "T-1000"
+    },
+    {
+      "personId": 568,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miles Bennett Dyson"
     }
   ]
 }

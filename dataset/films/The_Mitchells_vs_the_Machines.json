@@ -12,36 +12,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 4,
-      "characterName": "Katie Mitchell"
-    },
-    {
-      "personId": 257,
-      "characterName": "Rick Mitchell"
-    },
-    {
-      "personId": 810,
-      "characterName": "Linda Mitchell"
-    },
-    {
-      "personId": 829,
-      "characterName": "Aaron Mitchell"
-    },
-    {
-      "personId": 887,
-      "characterName": "PAL"
-    },
-    {
-      "personId": 350,
-      "characterName": "Dr. Mark Bowman"
-    },
-    {
-      "personId": 386,
-      "characterName": "Deborahbot 5000"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -57,43 +27,6 @@
     },
     {
       "countryId": 16
-    }
-  ],
-  "crew": [
-    {
-      "personId": 829,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 829,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2241,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1986,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1987,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2242,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2243,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -113,6 +46,92 @@
     {
       "videoId": "_ak5dFt8Ar0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 829,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 829,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2241,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1986,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1987,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2242,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2243,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 4,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katie Mitchell"
+    },
+    {
+      "personId": 257,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick Mitchell"
+    },
+    {
+      "personId": 810,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Linda Mitchell"
+    },
+    {
+      "personId": 829,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aaron Mitchell"
+    },
+    {
+      "personId": 887,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "PAL"
+    },
+    {
+      "personId": 350,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Mark Bowman"
+    },
+    {
+      "personId": 386,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Deborahbot 5000"
     }
   ]
 }

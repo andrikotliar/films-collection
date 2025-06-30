@@ -1,10 +1,10 @@
 import {
   Award,
-  CrewPosition,
   FilmAwardNomination,
-  FilmCrew,
+  FilmPerson,
   Nomination,
   Person,
+  PersonRole,
   Prisma,
 } from '@prisma/client';
 
@@ -42,26 +42,16 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
         finishedAt: true;
       };
     };
-    crew: {
+    castAndCrew: {
       select: {
-        position: true;
+        role: true;
+        details: true;
         comment: true;
         person: {
           select: {
             id: true;
             name: true;
             image: true;
-          };
-        };
-      };
-    };
-    cast: {
-      select: {
-        characterName: true;
-        person: {
-          select: {
-            id: true;
-            name: true;
           };
         };
       };
@@ -104,12 +94,13 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
   };
 }>;
 
-type GropedCrewPerson = Pick<Person, 'id' | 'name'> & Pick<FilmCrew, 'comment'>;
+type GropedPerson = Pick<Person, 'id' | 'name' | 'image'> &
+  Pick<FilmPerson, 'comment' | 'details'>;
 
-export type GroupedCrew = {
-  [position in CrewPosition]: {
-    position: CrewPosition;
-    people: GropedCrewPerson[];
+export type GroupedPeople = {
+  [position in PersonRole]: {
+    role: PersonRole;
+    people: GropedPerson[];
   };
 };
 

@@ -14,36 +14,6 @@
   "chapterKey": "chronicles-of-narnia",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 105,
-      "characterName": "Prince Caspian"
-    },
-    {
-      "personId": 402,
-      "characterName": "Lucy Pevensie"
-    },
-    {
-      "personId": 1072,
-      "characterName": "Edmund Pevensie"
-    },
-    {
-      "personId": 1184,
-      "characterName": "Peter Pevensie"
-    },
-    {
-      "personId": 67,
-      "characterName": "Susan Pevensie"
-    },
-    {
-      "personId": 1054,
-      "characterName": "Miraz"
-    },
-    {
-      "personId": 920,
-      "characterName": "Trumpkin"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -56,48 +26,6 @@
     },
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1949,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1949,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1369,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1370,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2144,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2145,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1701,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -117,6 +45,98 @@
     {
       "videoId": "9Q0Da4jlxBk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1949,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1949,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1369,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1370,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2144,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2145,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1701,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 105,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Prince Caspian"
+    },
+    {
+      "personId": 402,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lucy Pevensie"
+    },
+    {
+      "personId": 1072,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Edmund Pevensie"
+    },
+    {
+      "personId": 1184,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Pevensie"
+    },
+    {
+      "personId": 67,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Susan Pevensie"
+    },
+    {
+      "personId": 1054,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miraz"
+    },
+    {
+      "personId": 920,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Trumpkin"
     }
   ]
 }

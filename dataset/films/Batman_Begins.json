@@ -39,48 +39,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 203,
-      "characterName": "Bruce Wayne / Batman"
-    },
-    {
-      "personId": 821,
-      "characterName": "Alfred"
-    },
-    {
-      "personId": 724,
-      "characterName": "Anri Ducard / Ra's al Ghul"
-    },
-    {
-      "personId": 653,
-      "characterName": "Rachel Dawes"
-    },
-    {
-      "personId": 395,
-      "characterName": "Jim Gordon"
-    },
-    {
-      "personId": 214,
-      "characterName": "Dr. Jonathan Crane / The Scarecrow"
-    },
-    {
-      "personId": 1139,
-      "characterName": "Carmine Falcone"
-    },
-    {
-      "personId": 1018,
-      "characterName": "Earle"
-    },
-    {
-      "personId": 665,
-      "characterName": "Ra's Al Ghul"
-    },
-    {
-      "personId": 854,
-      "characterName": "Lucius Fox"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -90,53 +48,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1378,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1378,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1379,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1381,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1382,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1384,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1385,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -159,6 +70,122 @@
     {
       "videoId": "neY2xVmOfUM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1379,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1381,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1382,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1384,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1385,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 203,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Wayne / Batman"
+    },
+    {
+      "personId": 821,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alfred"
+    },
+    {
+      "personId": 724,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anri Ducard / Ra's al Ghul"
+    },
+    {
+      "personId": 653,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rachel Dawes"
+    },
+    {
+      "personId": 395,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jim Gordon"
+    },
+    {
+      "personId": 214,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Jonathan Crane / The Scarecrow"
+    },
+    {
+      "personId": 1139,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carmine Falcone"
+    },
+    {
+      "personId": 1018,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Earle"
+    },
+    {
+      "personId": 665,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ra's Al Ghul"
+    },
+    {
+      "personId": 854,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lucius Fox"
     }
   ]
 }

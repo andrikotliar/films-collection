@@ -20,8 +20,8 @@ export const FilmsApi = {
   },
 
   getFilm(id: string) {
-    return apiClient.get<FilmDetails>('/films/:filmId', {
-      params: { filmId: id },
+    return apiClient.get<FilmDetails>('/films/:id', {
+      params: { id },
     });
   },
 

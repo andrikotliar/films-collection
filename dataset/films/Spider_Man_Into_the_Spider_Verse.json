@@ -33,56 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1057,
-      "characterName": "Miles Morales"
-    },
-    {
-      "personId": 499,
-      "characterName": "Peter B. Parker"
-    },
-    {
-      "personId": 424,
-      "characterName": "Gwen Stacy"
-    },
-    {
-      "personId": 767,
-      "characterName": "Uncle Aaron"
-    },
-    {
-      "personId": 149,
-      "characterName": "Jefferson Davis"
-    },
-    {
-      "personId": 752,
-      "characterName": "Rio Morales"
-    },
-    {
-      "personId": 1204,
-      "characterName": "Mary Jane"
-    },
-    {
-      "personId": 590,
-      "characterName": "Spider-Ham"
-    },
-    {
-      "personId": 683,
-      "characterName": "Peni Parker"
-    },
-    {
-      "personId": 873,
-      "characterName": "Spider-Man Noir"
-    },
-    {
-      "personId": 725,
-      "characterName": "Wilson Fisk"
-    },
-    {
-      "personId": 650,
-      "characterName": "Doc Ock"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -92,63 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1983,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1984,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1985,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1986,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1985,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1530,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1977,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1986,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1987,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1988,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1989,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -174,6 +67,146 @@
     {
       "videoId": "g4Hbz2jLxvQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1983,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1984,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1985,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1986,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1985,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1530,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1977,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1986,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1987,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1988,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1989,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1057,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miles Morales"
+    },
+    {
+      "personId": 499,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter B. Parker"
+    },
+    {
+      "personId": 424,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gwen Stacy"
+    },
+    {
+      "personId": 767,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Uncle Aaron"
+    },
+    {
+      "personId": 149,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jefferson Davis"
+    },
+    {
+      "personId": 752,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rio Morales"
+    },
+    {
+      "personId": 1204,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mary Jane"
+    },
+    {
+      "personId": 590,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spider-Ham"
+    },
+    {
+      "personId": 683,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peni Parker"
+    },
+    {
+      "personId": 873,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spider-Man Noir"
+    },
+    {
+      "personId": 725,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wilson Fisk"
+    },
+    {
+      "personId": 650,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Doc Ock"
     }
   ]
 }

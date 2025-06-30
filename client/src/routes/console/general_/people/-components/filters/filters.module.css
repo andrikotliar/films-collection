@@ -1,0 +1,10 @@
+.filters {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 580px) {
+  .filters {
+    flex-direction: column;
+  }
+}

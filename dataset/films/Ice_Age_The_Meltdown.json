@@ -14,35 +14,9 @@
   "chapterKey": "ice-age",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 951,
-      "characterName": "Manny"
-    },
-    {
-      "personId": 586,
-      "characterName": "Sid"
-    },
-    {
-      "personId": 284,
-      "characterName": "Diego"
-    },
-    {
-      "personId": 1049,
-      "characterName": "Crash"
-    },
-    {
-      "personId": 621,
-      "characterName": "Eddie"
-    },
-    {
-      "personId": 936,
-      "characterName": "Ellie"
-    }
-  ],
   "collections": [
     {
-      "collectionId": 28,
+      "collectionId": 4,
       "order": null
     },
     {
@@ -53,38 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1688,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1692,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1693,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1694,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1686,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -107,6 +49,80 @@
     {
       "videoId": "s4PWGVtIZWA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1688,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1692,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1693,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1694,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1686,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 951,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Manny"
+    },
+    {
+      "personId": 586,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sid"
+    },
+    {
+      "personId": 284,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diego"
+    },
+    {
+      "personId": 1049,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Crash"
+    },
+    {
+      "personId": 621,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eddie"
+    },
+    {
+      "personId": 936,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ellie"
     }
   ]
 }

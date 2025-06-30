@@ -1,5 +1,5 @@
 import { Prisma } from '@prisma/client';
-import { FilmsQuery } from '../schemas';
+import { GetFilmsListQuery } from '../schemas';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -17,7 +17,7 @@ const getMoneyRangeFilter = (value: number) => {
   };
 };
 
-export const mapListFilters = (plainFilters: FilmsQuery) => {
+export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
   const {
     genreIds,
     collectionId,
@@ -37,19 +37,13 @@ export const mapListFilters = (plainFilters: FilmsQuery) => {
     style,
     budget,
     boxOffice,
-    ids,
+    title,
   } = plainFilters;
 
   const filters: Prisma.FilmWhereInput = {
     draft: false,
     deletedAt: null,
   };
-
-  if (ids) {
-    filters.id = {
-      in: ids,
-    };
-  }
 
   if (startDate || endDate) {
     filters.releaseDate = {
@@ -120,10 +114,10 @@ export const mapListFilters = (plainFilters: FilmsQuery) => {
   }
 
   if (crewMemberId && crewMemberPosition) {
-    filters.crew = {
+    filters.castAndCrew = {
       some: {
         AND: {
-          position: crewMemberPosition,
+          role: crewMemberPosition,
           personId: crewMemberId,
         },
       },
@@ -131,7 +125,7 @@ export const mapListFilters = (plainFilters: FilmsQuery) => {
   }
 
   if (actorId) {
-    filters.cast = {
+    filters.castAndCrew = {
       some: {
         personId: actorId,
       },
@@ -152,6 +146,13 @@ export const mapListFilters = (plainFilters: FilmsQuery) => {
 
   if (boxOffice) {
     filters.boxOffice = getMoneyRangeFilter(boxOffice);
+  }
+
+  if (title) {
+    filters.title = {
+      contains: title,
+      mode: 'insensitive',
+    };
   }
 
   return filters;

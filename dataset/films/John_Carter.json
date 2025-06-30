@@ -14,44 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1106,
-      "characterName": "John Carter"
-    },
-    {
-      "personId": 757,
-      "characterName": "Dejah Thoris"
-    },
-    {
-      "personId": 1035,
-      "characterName": "Sola"
-    },
-    {
-      "personId": 1180,
-      "characterName": "Tars Tarkas"
-    },
-    {
-      "personId": 1115,
-      "characterName": "Tal Hajus"
-    },
-    {
-      "personId": 789,
-      "characterName": "Matai Shang"
-    },
-    {
-      "personId": 213,
-      "characterName": "Tardos Mors"
-    },
-    {
-      "personId": 303,
-      "characterName": "Sab Than"
-    },
-    {
-      "personId": 513,
-      "characterName": "Kantos Kan"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -61,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1258,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1258,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1726,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1727,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1728,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1729,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1730,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -122,6 +42,110 @@
     {
       "videoId": "nlvYKl1fjBI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1726,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1727,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1728,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1729,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1730,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1106,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Carter"
+    },
+    {
+      "personId": 757,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dejah Thoris"
+    },
+    {
+      "personId": 1035,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sola"
+    },
+    {
+      "personId": 1180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tars Tarkas"
+    },
+    {
+      "personId": 1115,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tal Hajus"
+    },
+    {
+      "personId": 789,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Matai Shang"
+    },
+    {
+      "personId": 213,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tardos Mors"
+    },
+    {
+      "personId": 303,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sab Than"
+    },
+    {
+      "personId": 513,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kantos Kan"
     }
   ]
 }

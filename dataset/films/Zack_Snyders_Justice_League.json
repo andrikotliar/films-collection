@@ -13,88 +13,6 @@
   "chapterKey": "dceu",
   "chapterOrder": 5,
   "awards": [],
-  "cast": [
-    {
-      "personId": 104,
-      "characterName": "Bruce Wayne / Batman"
-    },
-    {
-      "personId": 443,
-      "characterName": "Clark Kent / Superman"
-    },
-    {
-      "personId": 54,
-      "characterName": "Lois Lane"
-    },
-    {
-      "personId": 392,
-      "characterName": "Diana Prince / Wonder Woman"
-    },
-    {
-      "personId": 365,
-      "characterName": "Barry Allen / The Flash"
-    },
-    {
-      "personId": 528,
-      "characterName": "Arthur Curry / Aquaman"
-    },
-    {
-      "personId": 948,
-      "characterName": "Victor Stone / Cyborg"
-    },
-    {
-      "personId": 551,
-      "characterName": "Alfred"
-    },
-    {
-      "personId": 291,
-      "characterName": "Martha Kent"
-    },
-    {
-      "personId": 226,
-      "characterName": "Queen Hippolyta"
-    },
-    {
-      "personId": 475,
-      "characterName": "Commissioner Gordon"
-    },
-    {
-      "personId": 213,
-      "characterName": "Steppenwolf"
-    },
-    {
-      "personId": 950,
-      "characterName": "Darkseid"
-    },
-    {
-      "personId": 1021,
-      "characterName": "Ryan Choi"
-    },
-    {
-      "personId": 49,
-      "characterName": "Mera"
-    },
-    {
-      "personId": 568,
-      "characterName": "Silas Stone"
-    },
-    {
-      "personId": 567,
-      "characterName": "Deathstroke"
-    },
-    {
-      "personId": 1180,
-      "characterName": "Vulko"
-    },
-    {
-      "personId": 433,
-      "characterName": "General Swanwick / Martian Manhunter"
-    },
-    {
-      "personId": 922,
-      "characterName": "DeSaad"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -107,38 +25,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1386,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1387,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1388,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1389,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1518,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -161,6 +47,164 @@
     {
       "videoId": "ui37YKQ9AC4",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1386,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1387,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1388,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1389,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1518,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 104,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Wayne / Batman"
+    },
+    {
+      "personId": 443,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clark Kent / Superman"
+    },
+    {
+      "personId": 54,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lois Lane"
+    },
+    {
+      "personId": 392,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diana Prince / Wonder Woman"
+    },
+    {
+      "personId": 365,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barry Allen / The Flash"
+    },
+    {
+      "personId": 528,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arthur Curry / Aquaman"
+    },
+    {
+      "personId": 948,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Victor Stone / Cyborg"
+    },
+    {
+      "personId": 551,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alfred"
+    },
+    {
+      "personId": 291,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Martha Kent"
+    },
+    {
+      "personId": 226,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Queen Hippolyta"
+    },
+    {
+      "personId": 475,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Commissioner Gordon"
+    },
+    {
+      "personId": 213,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Steppenwolf"
+    },
+    {
+      "personId": 950,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Darkseid"
+    },
+    {
+      "personId": 1021,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ryan Choi"
+    },
+    {
+      "personId": 49,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mera"
+    },
+    {
+      "personId": 568,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Silas Stone"
+    },
+    {
+      "personId": 567,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Deathstroke"
+    },
+    {
+      "personId": 1180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vulko"
+    },
+    {
+      "personId": 433,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Swanwick / Martian Manhunter"
+    },
+    {
+      "personId": 922,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "DeSaad"
     }
   ]
 }

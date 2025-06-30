@@ -14,32 +14,6 @@
   "chapterKey": "mib",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1142,
-      "characterName": "K"
-    },
-    {
-      "personId": 1178,
-      "characterName": "J"
-    },
-    {
-      "personId": 979,
-      "characterName": "Z"
-    },
-    {
-      "personId": 698,
-      "characterName": "Serleena"
-    },
-    {
-      "personId": 600,
-      "characterName": "Scrad / Charlie"
-    },
-    {
-      "personId": 1004,
-      "characterName": "Laura Vasquez"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -49,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1824,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1830,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1831,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1826,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1827,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1828,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1832,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -108,6 +45,86 @@
     {
       "videoId": "p4NJHqoojOU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1824,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1830,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1831,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1826,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1827,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1828,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1832,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1142,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "K"
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "J"
+    },
+    {
+      "personId": 979,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Z"
+    },
+    {
+      "personId": 698,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Serleena"
+    },
+    {
+      "personId": 600,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scrad / Charlie"
+    },
+    {
+      "personId": 1004,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Laura Vasquez"
     }
   ]
 }

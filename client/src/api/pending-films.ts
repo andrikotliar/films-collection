@@ -1,11 +1,6 @@
 import { apiClient } from '@/services';
 import { PendingFilm, PendingFilmServerFilters } from '@/types';
 
-type UpdatePendingFilmParams = {
-  filmId: number;
-  payload: Omit<PendingFilm, 'id' | 'createdAt'>;
-};
-
 type PendingFilmsListResponse = {
   list: PendingFilm[];
   total: number;
@@ -25,15 +20,18 @@ export const PendingFilmsApi = {
   },
 
   deletePendingFilm(id: number) {
-    return apiClient.delete('/pending-films/:filmId', {
-      params: { filmId: id },
+    return apiClient.delete('/pending-films/:id', {
+      params: { id },
     });
   },
 
-  updatePendingFilm(params: UpdatePendingFilmParams) {
-    return apiClient.patch('/pending-films/:filmId', {
-      payload: params.payload,
-      params: { filmId: params.filmId },
+  updatePendingFilm(
+    id: number,
+    payload: Partial<Omit<PendingFilm, 'id' | 'createdAt'>>,
+  ) {
+    return apiClient.patch('/pending-films/:id', {
+      payload,
+      params: { id },
     });
   },
 

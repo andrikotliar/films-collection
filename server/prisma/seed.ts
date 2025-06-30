@@ -3,15 +3,15 @@ import {
   Film,
   Prisma,
   FilmAwardNomination,
-  FilmCast,
   FilmCollection,
   FilmCountry,
-  FilmCrew,
   FilmGenre,
   FilmStudio,
   SeriesExtension,
   FilmTrailer,
+  FilmPerson,
 } from '@prisma/client';
+import { ITXClientDenyList } from '@prisma/client/runtime/library';
 import { readdir, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -24,22 +24,26 @@ type FilmRelationOmitFields = 'id' | 'filmId';
 
 type FilmRelations = {
   awards: Omit<FilmAwardNomination, FilmRelationOmitFields>[];
-  cast: Omit<FilmCast, FilmRelationOmitFields>[];
   collections: Omit<FilmCollection, FilmRelationOmitFields>[];
   countries: Omit<FilmCountry, FilmRelationOmitFields>[];
-  crew: Omit<FilmCrew, FilmRelationOmitFields>[];
+  castAndCrew: Omit<FilmPerson, FilmRelationOmitFields>[];
   genres: Omit<FilmGenre, FilmRelationOmitFields>[];
   studios: Omit<FilmStudio, FilmRelationOmitFields>[];
   trailers: Omit<FilmTrailer, FilmRelationOmitFields>[];
   seriesExtension?: Omit<SeriesExtension, FilmRelationOmitFields>;
 };
+type BaseGeneralData = {
+  id: number;
+  createdAt: string;
+  updatedAt: string;
+  [key: string]: unknown;
+};
 type FilmSeedData = FilmBaseData & FilmRelations;
-type FilePath = keyof typeof fileToPrismaHandler;
 type LoadJsonDataResult<T> = {
   filePath: string;
   data: T;
 };
-type FileToPrismaHandler = {
+type FileToPrismaHandlerConfig = {
   [fileName: string]: (data: any) => Promise<void>;
 };
 
@@ -60,7 +64,9 @@ const alterSequence = async (tableName: string) => {
   `);
 };
 
-const fileToPrismaHandler: FileToPrismaHandler = {
+const getFileToPrismaHandlerConfig = (
+  prisma: Omit<PrismaClient, ITXClientDenyList>,
+): FileToPrismaHandlerConfig => ({
   'awards.json': async (data) => {
     await prisma.award.createMany({ data });
     await alterSequence('awards');
@@ -89,7 +95,10 @@ const fileToPrismaHandler: FileToPrismaHandler = {
     await prisma.studio.createMany({ data });
     await alterSequence('studios');
   },
-};
+  'chapter-keys.json': async (data) => {
+    await prisma.filmChapterKey.createMany({ data });
+  },
+});
 
 const loadJsonData = async <T = unknown>(
   folderPath: string,
@@ -125,8 +134,7 @@ const mapFilmDataToPrismaStructure = (
     collections,
     countries,
     studios,
-    cast,
-    crew,
+    castAndCrew,
     trailers,
     seriesExtension,
     ...baseFilmData
@@ -164,15 +172,9 @@ const mapFilmDataToPrismaStructure = (
     };
   }
 
-  if (cast.length) {
-    filmRelations.cast = {
-      create: cast,
-    };
-  }
-
-  if (crew.length) {
-    filmRelations.crew = {
-      create: crew,
+  if (castAndCrew.length) {
+    filmRelations.castAndCrew = {
+      create: castAndCrew,
     };
   }
 
@@ -195,28 +197,50 @@ const mapFilmDataToPrismaStructure = (
 };
 
 const main = async () => {
-  let currentDateMs = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
+  let filmCurrentDateMs = new Date(
+    new Date().setUTCHours(0, 0, 0, 0),
+  ).getTime();
+  let generalDataCurrentDateMs = new Date(
+    new Date().setUTCHours(0, 0, 0, 0),
+  ).getTime();
 
-  const general = await loadJsonData(generalJsonFolderPath);
+  const general = await loadJsonData<BaseGeneralData>(generalJsonFolderPath);
   const films = await loadJsonData<FilmSeedData>(filmsJsonFolderPath);
   const sortedFilms = films.sort((a, b) => a.data.id - b.data.id);
 
-  for (const table of general) {
-    const handler = fileToPrismaHandler[table.filePath as FilePath];
+  await prisma.$transaction(async (trx) => {
+    const config = getFileToPrismaHandlerConfig(trx);
 
-    await handler(table.data);
-  }
+    for (const table of general) {
+      const handler = config[table.filePath];
+
+      if (typeof handler !== 'function') {
+        throw new Error(`Handler for ${table.filePath} not found`);
+      }
+
+      const date = new Date(generalDataCurrentDateMs).toISOString();
+      table.data.createdAt = date;
+      table.data.updatedAt = date;
+
+      await handler(table.data);
+
+      generalDataCurrentDateMs += 1000;
+    }
+  });
 
   const mappedFilmsData = sortedFilms.map(mapFilmDataToPrismaStructure);
 
   for (const film of mappedFilmsData) {
-    film.createdAt = new Date(currentDateMs).toISOString();
+    const date = new Date(filmCurrentDateMs).toISOString();
+
+    film.createdAt = date;
+    film.updatedAt = date;
 
     await prisma.film.create({
       data: film,
     });
 
-    currentDateMs += 1000;
+    filmCurrentDateMs += 1000;
   }
 
   await alterSequence('films');

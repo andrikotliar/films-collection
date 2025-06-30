@@ -12,32 +12,6 @@
   "chapterKey": "librarian",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 879,
-      "characterName": "Flynn Carsen"
-    },
-    {
-      "personId": 1075,
-      "characterName": "Nicole Noone"
-    },
-    {
-      "personId": 133,
-      "characterName": "Judson"
-    },
-    {
-      "personId": 694,
-      "characterName": "Edward Wilde"
-    },
-    {
-      "personId": 518,
-      "characterName": "Charlene"
-    },
-    {
-      "personId": 891,
-      "characterName": "Margie Carsen"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -47,38 +21,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2208,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2209,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2205,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2210,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2206,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2211,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -98,6 +40,80 @@
     {
       "videoId": "_LsPz8vCULE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2208,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2209,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2205,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2210,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2206,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2211,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 879,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Flynn Carsen"
+    },
+    {
+      "personId": 1075,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nicole Noone"
+    },
+    {
+      "personId": 133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Judson"
+    },
+    {
+      "personId": 694,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Edward Wilde"
+    },
+    {
+      "personId": 518,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlene"
+    },
+    {
+      "personId": 891,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Margie Carsen"
     }
   ]
 }

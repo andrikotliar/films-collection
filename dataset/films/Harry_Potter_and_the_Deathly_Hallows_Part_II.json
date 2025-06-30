@@ -27,44 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 251,
-      "characterName": "Harry Potter"
-    },
-    {
-      "personId": 1014,
-      "characterName": "Ron Weasley"
-    },
-    {
-      "personId": 345,
-      "characterName": "Hermione Granger"
-    },
-    {
-      "personId": 942,
-      "characterName": "Lord Voldemort"
-    },
-    {
-      "personId": 1130,
-      "characterName": "Draco Malfoy"
-    },
-    {
-      "personId": 22,
-      "characterName": "Severus Snape"
-    },
-    {
-      "personId": 1228,
-      "characterName": "Professor Minerva McGonagall"
-    },
-    {
-      "personId": 1229,
-      "characterName": "Neville Longbottom"
-    },
-    {
-      "personId": 981,
-      "characterName": "Rubeus Hagrid"
-    }
-  ],
   "collections": [
     {
       "collectionId": 2,
@@ -77,43 +39,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1565,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1561,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1562,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1566,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1567,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1568,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1569,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -133,6 +58,104 @@
     {
       "videoId": "5NYt1qirBWg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1565,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1561,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1562,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1566,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1567,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1568,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1569,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 251,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Harry Potter"
+    },
+    {
+      "personId": 1014,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ron Weasley"
+    },
+    {
+      "personId": 345,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hermione Granger"
+    },
+    {
+      "personId": 942,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lord Voldemort"
+    },
+    {
+      "personId": 1130,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Draco Malfoy"
+    },
+    {
+      "personId": 22,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Severus Snape"
+    },
+    {
+      "personId": 1228,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Minerva McGonagall"
+    },
+    {
+      "personId": 1229,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Neville Longbottom"
+    },
+    {
+      "personId": 981,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rubeus Hagrid"
     }
   ]
 }

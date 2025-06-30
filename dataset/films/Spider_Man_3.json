@@ -14,48 +14,6 @@
   "chapterKey": "spider-man",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1122,
-      "characterName": "Spider-Man / Peter Parker"
-    },
-    {
-      "personId": 684,
-      "characterName": "Mary Jane Watson"
-    },
-    {
-      "personId": 506,
-      "characterName": "New Goblin / Harry Osborn"
-    },
-    {
-      "personId": 1115,
-      "characterName": "Sandman / Flint Marko"
-    },
-    {
-      "personId": 1148,
-      "characterName": "Venom / Eddie Brock"
-    },
-    {
-      "personId": 157,
-      "characterName": "Gwen Stacy"
-    },
-    {
-      "personId": 1007,
-      "characterName": "May Parker"
-    },
-    {
-      "personId": 475,
-      "characterName": "J. Jonah Jameson"
-    },
-    {
-      "personId": 503,
-      "characterName": "Captain Stacy"
-    },
-    {
-      "personId": 315,
-      "characterName": "Dr. Curt Connors"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -65,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1970,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1970,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1974,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1973,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1530,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1972,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1975,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1533,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1296,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -134,6 +45,122 @@
     {
       "videoId": "wPosLpgMtTY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1970,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1970,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1974,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1973,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1530,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1972,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1975,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1533,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1296,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1122,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "personId": 684,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mary Jane Watson"
+    },
+    {
+      "personId": 506,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "New Goblin / Harry Osborn"
+    },
+    {
+      "personId": 1115,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sandman / Flint Marko"
+    },
+    {
+      "personId": 1148,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Venom / Eddie Brock"
+    },
+    {
+      "personId": 157,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gwen Stacy"
+    },
+    {
+      "personId": 1007,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "May Parker"
+    },
+    {
+      "personId": 475,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "J. Jonah Jameson"
+    },
+    {
+      "personId": 503,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Stacy"
+    },
+    {
+      "personId": 315,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Curt Connors"
     }
   ]
 }

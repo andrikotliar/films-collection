@@ -7,6 +7,8 @@ import {
 } from './schemas';
 import { ALLOWED_HTML_TAGS } from 'src/common';
 
+const MAX_WORDS_LIMIT = 30;
+
 export class PostsService {
   constructor(private readonly postsRepository: PostsRepository) {}
 
@@ -54,8 +56,8 @@ export class PostsService {
     }
 
     const mappedList = data.list.map((post) => {
-      const words = post.content.split(' ').slice(0, 30);
-      const shouldContainDots = words.length === 30;
+      const words = post.content.split(' ').slice(0, MAX_WORDS_LIMIT);
+      const shouldContainDots = words.length === MAX_WORDS_LIMIT;
 
       if (shouldContainDots) {
         words.push('...');

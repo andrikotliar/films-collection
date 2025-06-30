@@ -21,36 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 598,
-      "characterName": "Captain Jack Sparrow"
-    },
-    {
-      "personId": 401,
-      "characterName": "Captain Hector Barbossa"
-    },
-    {
-      "personId": 894,
-      "characterName": "Will Turner"
-    },
-    {
-      "personId": 659,
-      "characterName": "Elizabeth Swann"
-    },
-    {
-      "personId": 480,
-      "characterName": "Norrington"
-    },
-    {
-      "personId": 1126,
-      "characterName": "Cutler Beckett"
-    },
-    {
-      "personId": 124,
-      "characterName": "Davy Jones"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -60,38 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1890,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1891,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1892,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1893,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1894,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -114,6 +52,86 @@
     {
       "videoId": "HKSZtp_OGHY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1890,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1891,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1892,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1893,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1894,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 598,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Jack Sparrow"
+    },
+    {
+      "personId": 401,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Hector Barbossa"
+    },
+    {
+      "personId": 894,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Will Turner"
+    },
+    {
+      "personId": 659,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Elizabeth Swann"
+    },
+    {
+      "personId": 480,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Norrington"
+    },
+    {
+      "personId": 1126,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cutler Beckett"
+    },
+    {
+      "personId": 124,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Davy Jones"
     }
   ]
 }

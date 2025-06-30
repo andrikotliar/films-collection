@@ -21,60 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 198,
-      "characterName": "Captain James T. Kirk"
-    },
-    {
-      "personId": 1198,
-      "characterName": "Commander Spock"
-    },
-    {
-      "personId": 641,
-      "characterName": "Doctor 'Bones' McCoy"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Uhura"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Montgomery 'Scotty' Scott"
-    },
-    {
-      "personId": 578,
-      "characterName": "Sulu"
-    },
-    {
-      "personId": 76,
-      "characterName": "Chekov"
-    },
-    {
-      "personId": 463,
-      "characterName": "Krall"
-    },
-    {
-      "personId": 1073,
-      "characterName": "Jaylah"
-    },
-    {
-      "personId": 570,
-      "characterName": "Manas"
-    },
-    {
-      "personId": 755,
-      "characterName": "Kalara"
-    },
-    {
-      "personId": 282,
-      "characterName": "Keenser"
-    },
-    {
-      "personId": 815,
-      "characterName": "Ensign Syl"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -84,53 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1462,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1070,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1991,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1843,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1992,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1462,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1466,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -153,6 +52,140 @@
     {
       "videoId": "XRVD32rnzOw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1462,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1070,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1991,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1992,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1462,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1466,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain James T. Kirk"
+    },
+    {
+      "personId": 1198,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Commander Spock"
+    },
+    {
+      "personId": 641,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Doctor 'Bones' McCoy"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Uhura"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Montgomery 'Scotty' Scott"
+    },
+    {
+      "personId": 578,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sulu"
+    },
+    {
+      "personId": 76,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chekov"
+    },
+    {
+      "personId": 463,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Krall"
+    },
+    {
+      "personId": 1073,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jaylah"
+    },
+    {
+      "personId": 570,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Manas"
+    },
+    {
+      "personId": 755,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kalara"
+    },
+    {
+      "personId": 282,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Keenser"
+    },
+    {
+      "personId": 815,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ensign Syl"
     }
   ]
 }

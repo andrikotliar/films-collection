@@ -33,60 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 803,
-      "characterName": "Mark Watney"
-    },
-    {
-      "personId": 558,
-      "characterName": "Melissa Lewis"
-    },
-    {
-      "personId": 687,
-      "characterName": "Annie Montrose"
-    },
-    {
-      "personId": 540,
-      "characterName": "Teddy Sanders"
-    },
-    {
-      "personId": 828,
-      "characterName": "Rick Martinez"
-    },
-    {
-      "personId": 1045,
-      "characterName": "Mitch Henderson"
-    },
-    {
-      "personId": 645,
-      "characterName": "Beth Johanssen"
-    },
-    {
-      "personId": 1050,
-      "characterName": "Chris Beck"
-    },
-    {
-      "personId": 20,
-      "characterName": "Alex Vogel"
-    },
-    {
-      "personId": 191,
-      "characterName": "Vincent Kapoor"
-    },
-    {
-      "personId": 116,
-      "characterName": "Bruce Ng"
-    },
-    {
-      "personId": 760,
-      "characterName": "Mindy Park"
-    },
-    {
-      "personId": 308,
-      "characterName": "Rich Purnell"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -99,53 +45,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1281,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2226,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1797,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1281,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2227,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2228,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1513,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2229,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -165,6 +64,140 @@
     {
       "videoId": "ej3ioOneTy8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1281,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2226,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1797,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1281,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2227,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2228,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1513,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2229,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 803,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mark Watney"
+    },
+    {
+      "personId": 558,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Melissa Lewis"
+    },
+    {
+      "personId": 687,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Annie Montrose"
+    },
+    {
+      "personId": 540,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Teddy Sanders"
+    },
+    {
+      "personId": 828,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick Martinez"
+    },
+    {
+      "personId": 1045,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mitch Henderson"
+    },
+    {
+      "personId": 645,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Beth Johanssen"
+    },
+    {
+      "personId": 1050,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chris Beck"
+    },
+    {
+      "personId": 20,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alex Vogel"
+    },
+    {
+      "personId": 191,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vincent Kapoor"
+    },
+    {
+      "personId": 116,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Ng"
+    },
+    {
+      "personId": 760,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mindy Park"
+    },
+    {
+      "personId": 308,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rich Purnell"
     }
   ]
 }

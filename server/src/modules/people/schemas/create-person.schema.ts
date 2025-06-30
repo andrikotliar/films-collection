@@ -2,7 +2,7 @@ import { Static, Type } from '@sinclair/typebox';
 
 export const CreatePersonSchema = Type.Object({
   name: Type.String(),
-  image: Type.Union([Type.String(), Type.Null()]),
+  image: Type.Union([Type.Null(), Type.String()]),
 });
 
-export type CreatePersonPayload = Static<typeof CreatePersonSchema>;
+export type CreatePersonInput = Static<typeof CreatePersonSchema>;

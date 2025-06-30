@@ -1,0 +1,11 @@
+.selectedOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  background-color: var(--gray-light);
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+}

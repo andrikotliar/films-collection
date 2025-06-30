@@ -14,40 +14,6 @@
   "chapterKey": "amazing-spider-man",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 57,
-      "characterName": "Spider-Man / Peter Parker"
-    },
-    {
-      "personId": 344,
-      "characterName": "Gwen Stacy"
-    },
-    {
-      "personId": 962,
-      "characterName": "The Lizard / Dr. Curt Connors"
-    },
-    {
-      "personId": 284,
-      "characterName": "Captain Stacy"
-    },
-    {
-      "personId": 793,
-      "characterName": "Uncle Ben"
-    },
-    {
-      "personId": 1028,
-      "characterName": "Aunt May"
-    },
-    {
-      "personId": 165,
-      "characterName": "Richard Parker"
-    },
-    {
-      "personId": 338,
-      "characterName": "Mary Parker"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -57,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2132,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2133,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1973,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1561,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1530,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2134,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1972,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1290,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1747,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -126,6 +45,110 @@
     {
       "videoId": "-tnxzJ0SSOw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2132,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2133,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1973,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1561,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1530,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2134,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1972,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1290,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1747,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 57,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "personId": 344,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gwen Stacy"
+    },
+    {
+      "personId": 962,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Lizard / Dr. Curt Connors"
+    },
+    {
+      "personId": 284,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Stacy"
+    },
+    {
+      "personId": 793,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Uncle Ben"
+    },
+    {
+      "personId": 1028,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aunt May"
+    },
+    {
+      "personId": 165,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Richard Parker"
+    },
+    {
+      "personId": 338,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mary Parker"
     }
   ]
 }

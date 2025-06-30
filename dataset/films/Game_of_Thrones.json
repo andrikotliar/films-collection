@@ -12,168 +12,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 920,
-      "characterName": "Tyrion Lannister"
-    },
-    {
-      "personId": 712,
-      "characterName": "Cersei Lannister"
-    },
-    {
-      "personId": 339,
-      "characterName": "Daenerys Targaryen"
-    },
-    {
-      "personId": 685,
-      "characterName": "Jon Snow"
-    },
-    {
-      "personId": 1077,
-      "characterName": "Sansa Stark"
-    },
-    {
-      "personId": 768,
-      "characterName": "Arya Stark"
-    },
-    {
-      "personId": 875,
-      "characterName": "Jaime Lannister"
-    },
-    {
-      "personId": 456,
-      "characterName": "Jorah Mormont"
-    },
-    {
-      "personId": 575,
-      "characterName": "Samwell Tarly"
-    },
-    {
-      "personId": 35,
-      "characterName": "Theon Greyjoy"
-    },
-    {
-      "personId": 225,
-      "characterName": "Lord Varys"
-    },
-    {
-      "personId": 721,
-      "characterName": "Davos Seaworth"
-    },
-    {
-      "personId": 422,
-      "characterName": "Brienne of Tarth"
-    },
-    {
-      "personId": 18,
-      "characterName": "Petyr 'Littlefinger' Baelish"
-    },
-    {
-      "personId": 467,
-      "characterName": "Bran Stark"
-    },
-    {
-      "personId": 1002,
-      "characterName": "Sandor 'The Hound' Clegane"
-    },
-    {
-      "personId": 867,
-      "characterName": "Missandei"
-    },
-    {
-      "personId": 554,
-      "characterName": "Bronn"
-    },
-    {
-      "personId": 250,
-      "characterName": "Podrick Payne"
-    },
-    {
-      "personId": 488,
-      "characterName": "Grey Worm"
-    },
-    {
-      "personId": 167,
-      "characterName": "Melisandre"
-    },
-    {
-      "personId": 180,
-      "characterName": "Tywin Lannister"
-    },
-    {
-      "personId": 863,
-      "characterName": "Margaery Tyrell"
-    },
-    {
-      "personId": 483,
-      "characterName": "Joffrey Baratheon"
-    },
-    {
-      "personId": 835,
-      "characterName": "Catelyn Stark"
-    },
-    {
-      "personId": 1082,
-      "characterName": "Stannis Baratheon"
-    },
-    {
-      "personId": 688,
-      "characterName": "Hodor"
-    },
-    {
-      "personId": 971,
-      "characterName": "Robb Stark"
-    },
-    {
-      "personId": 473,
-      "characterName": "Ramsay Bolton"
-    },
-    {
-      "personId": 933,
-      "characterName": "Euron Greyjoy"
-    },
-    {
-      "personId": 290,
-      "characterName": "Olenna Tyrell"
-    },
-    {
-      "personId": 280,
-      "characterName": "Tommen Baratheon"
-    },
-    {
-      "personId": 399,
-      "characterName": "Yara Greyjoy"
-    },
-    {
-      "personId": 89,
-      "characterName": "Rickon Stark"
-    },
-    {
-      "personId": 1045,
-      "characterName": "Eddard 'Ned' Stark"
-    },
-    {
-      "personId": 781,
-      "characterName": "Robert Baratheon"
-    },
-    {
-      "personId": 1169,
-      "characterName": "The Night King"
-    },
-    {
-      "personId": 1006,
-      "characterName": "Ygritte"
-    },
-    {
-      "personId": 428,
-      "characterName": "Gilly"
-    },
-    {
-      "personId": 690,
-      "characterName": "Tormund Giantsbane"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -190,253 +28,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1486,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1487,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1488,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1489,
-      "position": "DIRECTOR",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 1490,
-      "position": "DIRECTOR",
-      "comment": "5 episodes"
-    },
-    {
-      "personId": 1491,
-      "position": "DIRECTOR",
-      "comment": "7 episodes"
-    },
-    {
-      "personId": 1492,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1493,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1494,
-      "position": "DIRECTOR",
-      "comment": "9 episodes"
-    },
-    {
-      "personId": 1495,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1486,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1496,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1497,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1487,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1498,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1499,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1500,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1501,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1502,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1503,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1504,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1505,
-      "position": "WRITER",
-      "comment": "2 episodes (written by), author of the original book \"A Song of Ice and Fire\""
-    },
-    {
-      "personId": 1486,
-      "position": "WRITER",
-      "comment": "13 episodes"
-    },
-    {
-      "personId": 1487,
-      "position": "WRITER",
-      "comment": "13 episodes"
-    },
-    {
-      "personId": 1506,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1507,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1508,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1509,
-      "position": "WRITER",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1510,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1511,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1512,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1513,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1514,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1461,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1515,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1516,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1517,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1518,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1519,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1520,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1521,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1522,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1492,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1523,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1524,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1525,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1526,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1527,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1528,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -489,6 +80,542 @@
     {
       "videoId": "rlR4PJn8b8I",
       "order": 8
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1486,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1487,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1488,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1489,
+      "comment": "3 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1490,
+      "comment": "5 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1491,
+      "comment": "7 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1492,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1493,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1494,
+      "comment": "9 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1495,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1486,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1496,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1497,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1487,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1498,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1499,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1500,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1501,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1502,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1503,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1504,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1505,
+      "comment": "2 episodes (written by), author of the original book \"A Song of Ice and Fire\"",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1486,
+      "comment": "13 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1487,
+      "comment": "13 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1506,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1507,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1508,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1509,
+      "comment": "4 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1510,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1511,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1512,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1513,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1514,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1461,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1515,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1516,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1517,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1518,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1519,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1520,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1521,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1522,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1492,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1523,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1524,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1525,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1526,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1527,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1528,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 920,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tyrion Lannister"
+    },
+    {
+      "personId": 712,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cersei Lannister"
+    },
+    {
+      "personId": 339,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Daenerys Targaryen"
+    },
+    {
+      "personId": 685,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jon Snow"
+    },
+    {
+      "personId": 1077,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sansa Stark"
+    },
+    {
+      "personId": 768,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Arya Stark"
+    },
+    {
+      "personId": 875,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jaime Lannister"
+    },
+    {
+      "personId": 456,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jorah Mormont"
+    },
+    {
+      "personId": 575,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Samwell Tarly"
+    },
+    {
+      "personId": 35,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Theon Greyjoy"
+    },
+    {
+      "personId": 225,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lord Varys"
+    },
+    {
+      "personId": 721,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Davos Seaworth"
+    },
+    {
+      "personId": 422,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brienne of Tarth"
+    },
+    {
+      "personId": 18,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Petyr 'Littlefinger' Baelish"
+    },
+    {
+      "personId": 467,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bran Stark"
+    },
+    {
+      "personId": 1002,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sandor 'The Hound' Clegane"
+    },
+    {
+      "personId": 867,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Missandei"
+    },
+    {
+      "personId": 554,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bronn"
+    },
+    {
+      "personId": 250,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Podrick Payne"
+    },
+    {
+      "personId": 488,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Grey Worm"
+    },
+    {
+      "personId": 167,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Melisandre"
+    },
+    {
+      "personId": 180,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tywin Lannister"
+    },
+    {
+      "personId": 863,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Margaery Tyrell"
+    },
+    {
+      "personId": 483,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Joffrey Baratheon"
+    },
+    {
+      "personId": 835,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Catelyn Stark"
+    },
+    {
+      "personId": 1082,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stannis Baratheon"
+    },
+    {
+      "personId": 688,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hodor"
+    },
+    {
+      "personId": 971,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Robb Stark"
+    },
+    {
+      "personId": 473,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ramsay Bolton"
+    },
+    {
+      "personId": 933,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Euron Greyjoy"
+    },
+    {
+      "personId": 290,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Olenna Tyrell"
+    },
+    {
+      "personId": 280,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tommen Baratheon"
+    },
+    {
+      "personId": 399,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yara Greyjoy"
+    },
+    {
+      "personId": 89,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rickon Stark"
+    },
+    {
+      "personId": 1045,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eddard 'Ned' Stark"
+    },
+    {
+      "personId": 781,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Robert Baratheon"
+    },
+    {
+      "personId": 1169,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The Night King"
+    },
+    {
+      "personId": 1006,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ygritte"
+    },
+    {
+      "personId": 428,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gilly"
+    },
+    {
+      "personId": 690,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tormund Giantsbane"
     }
   ]
 }

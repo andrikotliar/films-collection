@@ -1,0 +1,18 @@
+.option {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.option:hover {
+  background-color: var(--gray-light);
+}
+
+.option.active,
+.option:focus {
+  background-color: var(--blue-light);
+}
+
+.option.active:hover {
+  background-color: var(--blue-invisible);
+}

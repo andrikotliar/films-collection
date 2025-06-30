@@ -33,36 +33,6 @@
       "comment": "As Thomas"
     }
   ],
-  "cast": [
-    {
-      "personId": 316,
-      "characterName": "Thomas"
-    },
-    {
-      "personId": 655,
-      "characterName": "Teresa"
-    },
-    {
-      "personId": 52,
-      "characterName": "Alby"
-    },
-    {
-      "personId": 1113,
-      "characterName": "Newt"
-    },
-    {
-      "personId": 680,
-      "characterName": "Minho"
-    },
-    {
-      "personId": 1176,
-      "characterName": "Gally"
-    },
-    {
-      "personId": 900,
-      "characterName": "Ava Paige"
-    }
-  ],
   "collections": [
     {
       "collectionId": 12,
@@ -72,58 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2231,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2232,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2233,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2234,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2235,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1678,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2236,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2237,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2238,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2239,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -143,6 +61,110 @@
     {
       "videoId": "AwwbhhjQ9Xk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2231,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2232,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2233,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2234,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2235,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1678,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2236,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2237,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2238,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2239,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 316,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thomas"
+    },
+    {
+      "personId": 655,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Teresa"
+    },
+    {
+      "personId": 52,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alby"
+    },
+    {
+      "personId": 1113,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Newt"
+    },
+    {
+      "personId": 680,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Minho"
+    },
+    {
+      "personId": 1176,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gally"
+    },
+    {
+      "personId": 900,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ava Paige"
     }
   ]
 }

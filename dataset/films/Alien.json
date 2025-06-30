@@ -57,40 +57,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1068,
-      "characterName": "Ripley"
-    },
-    {
-      "personId": 1138,
-      "characterName": "Dallas"
-    },
-    {
-      "personId": 1162,
-      "characterName": "Lambert"
-    },
-    {
-      "personId": 432,
-      "characterName": "Brett"
-    },
-    {
-      "personId": 584,
-      "characterName": "Kane"
-    },
-    {
-      "personId": 458,
-      "characterName": "Ash"
-    },
-    {
-      "personId": 1194,
-      "characterName": "Parker"
-    },
-    {
-      "personId": 135,
-      "characterName": "Alien"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -113,43 +79,6 @@
       "countryId": 2
     }
   ],
-  "crew": [
-    {
-      "personId": 1281,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1282,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1283,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1284,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1285,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1286,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1287,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 1
@@ -167,6 +96,98 @@
     {
       "videoId": "jQ5lPt9edzQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1281,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1282,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1283,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1284,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1285,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1286,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1287,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1068,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ripley"
+    },
+    {
+      "personId": 1138,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dallas"
+    },
+    {
+      "personId": 1162,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lambert"
+    },
+    {
+      "personId": 432,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brett"
+    },
+    {
+      "personId": 584,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kane"
+    },
+    {
+      "personId": 458,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ash"
+    },
+    {
+      "personId": 1194,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Parker"
+    },
+    {
+      "personId": 135,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alien"
     }
   ]
 }

@@ -1,5 +1,0 @@
-import { Type } from '@sinclair/typebox';
-
-export const DeleteFilmParamsSchema = Type.Object({
-  id: Type.Number(),
-});

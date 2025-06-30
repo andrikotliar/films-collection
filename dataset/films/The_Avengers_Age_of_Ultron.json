@@ -21,72 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 982,
-      "characterName": "Tony Stark / Iron Man"
-    },
-    {
-      "personId": 195,
-      "characterName": "Thor"
-    },
-    {
-      "personId": 786,
-      "characterName": "Bruce Banner / Hulk"
-    },
-    {
-      "personId": 194,
-      "characterName": "Steve Rogers / Captain America"
-    },
-    {
-      "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow"
-    },
-    {
-      "personId": 552,
-      "characterName": "Clint Barton / Hawkeye"
-    },
-    {
-      "personId": 516,
-      "characterName": "Ultron"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Nick Fury"
-    },
-    {
-      "personId": 304,
-      "characterName": "James Rhodes"
-    },
-    {
-      "personId": 3,
-      "characterName": "Pietro Maximoff"
-    },
-    {
-      "personId": 329,
-      "characterName": "Wanda Maximoff / Scarlett Witch"
-    },
-    {
-      "personId": 905,
-      "characterName": "Jarvis / Vision"
-    },
-    {
-      "personId": 221,
-      "characterName": "Maria Hill"
-    },
-    {
-      "personId": 74,
-      "characterName": "Sam Wilson"
-    },
-    {
-      "personId": 438,
-      "characterName": "Peggy Carter"
-    },
-    {
-      "personId": 463,
-      "characterName": "Heimdall"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -96,38 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2141,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2141,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1464,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1828,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1406,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -150,6 +52,140 @@
     {
       "videoId": "tmeOjFno6Do",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2141,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2141,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1464,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1828,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1406,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 982,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "personId": 195,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Thor"
+    },
+    {
+      "personId": 786,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "personId": 194,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "personId": 1042,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "personId": 552,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "personId": 516,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ultron"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nick Fury"
+    },
+    {
+      "personId": 304,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James Rhodes"
+    },
+    {
+      "personId": 3,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Pietro Maximoff"
+    },
+    {
+      "personId": 329,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wanda Maximoff / Scarlett Witch"
+    },
+    {
+      "personId": 905,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jarvis / Vision"
+    },
+    {
+      "personId": 221,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maria Hill"
+    },
+    {
+      "personId": 74,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Wilson"
+    },
+    {
+      "personId": 438,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peggy Carter"
+    },
+    {
+      "personId": 463,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Heimdall"
     }
   ]
 }

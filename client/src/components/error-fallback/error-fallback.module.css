@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 20px;
+  border-bottom: var(--app-border);
+  padding-bottom: 10px;
+}
+
+.details {
+  color: var(--red-failure);
+  font-size: 12px;
+  text-align: center;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

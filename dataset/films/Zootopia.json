@@ -33,87 +33,15 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 409,
-      "characterName": "Judy Hopps"
-    },
-    {
-      "personId": 524,
-      "characterName": "Nick Wilde"
-    },
-    {
-      "personId": 463,
-      "characterName": "Chief Bogo"
-    },
-    {
-      "personId": 550,
-      "characterName": "Bellwether"
-    },
-    {
-      "personId": 866,
-      "characterName": "Clawhauser"
-    },
-    {
-      "personId": 136,
-      "characterName": "Bonnie Hopps"
-    },
-    {
-      "personId": 306,
-      "characterName": "Stu Hopps"
-    }
-  ],
   "collections": [
     {
-      "collectionId": 28,
+      "collectionId": 4,
       "order": null
     }
   ],
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2386,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2387,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2388,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2389,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2390,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2391,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 2392,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -133,6 +61,98 @@
     {
       "videoId": "jWM0ct-OLsM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2386,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2387,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2388,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2389,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2390,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2391,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1703,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 409,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Judy Hopps"
+    },
+    {
+      "personId": 524,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nick Wilde"
+    },
+    {
+      "personId": 463,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chief Bogo"
+    },
+    {
+      "personId": 550,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bellwether"
+    },
+    {
+      "personId": 866,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clawhauser"
+    },
+    {
+      "personId": 136,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bonnie Hopps"
+    },
+    {
+      "personId": 306,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stu Hopps"
     }
   ]
 }

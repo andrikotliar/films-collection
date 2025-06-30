@@ -1,0 +1,18 @@
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.selected {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dropdownContainer {
+  max-height: 250px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}

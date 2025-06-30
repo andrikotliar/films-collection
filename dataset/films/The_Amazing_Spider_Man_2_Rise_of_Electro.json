@@ -14,24 +14,6 @@
   "chapterKey": "amazing-spider-man",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 57,
-      "characterName": "Spider-Man / Peter Parker"
-    },
-    {
-      "personId": 344,
-      "characterName": "Gwen Stacy"
-    },
-    {
-      "personId": 517,
-      "characterName": "Electro / Max Dillon"
-    },
-    {
-      "personId": 243,
-      "characterName": "Green Goblin / Harry Osborn"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -41,78 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2132,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2135,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1530,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2134,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2136,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2137,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2138,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1389,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2139,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2140,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1730,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -135,6 +45,116 @@
     {
       "videoId": "nbp3Ra3Yp74",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2132,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2135,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1530,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2134,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2136,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2137,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2138,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1389,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2139,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2140,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1730,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 57,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "personId": 344,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gwen Stacy"
+    },
+    {
+      "personId": 517,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Electro / Max Dillon"
+    },
+    {
+      "personId": 243,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Green Goblin / Harry Osborn"
     }
   ]
 }

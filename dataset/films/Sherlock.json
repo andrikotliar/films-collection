@@ -67,44 +67,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 114,
-      "characterName": "Sherlock Holmes"
-    },
-    {
-      "personId": 792,
-      "characterName": "Dr. John Watson"
-    },
-    {
-      "personId": 1158,
-      "characterName": "Mrs. Hudson"
-    },
-    {
-      "personId": 1013,
-      "characterName": "DI Lestrade"
-    },
-    {
-      "personId": 740,
-      "characterName": "Molly Hooper"
-    },
-    {
-      "personId": 783,
-      "characterName": "Mycroft Holmes"
-    },
-    {
-      "personId": 58,
-      "characterName": "Jim Moriarty"
-    },
-    {
-      "personId": 1230,
-      "characterName": "Lara Pulwer"
-    },
-    {
-      "personId": 47,
-      "characterName": "Mary Watson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -114,113 +76,6 @@
   "countries": [
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 783,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1933,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1934,
-      "position": "DIRECTOR",
-      "comment": "4 episodes"
-    },
-    {
-      "personId": 1935,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1936,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1937,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1938,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1939,
-      "position": "DIRECTOR",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1940,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1941,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1942,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1943,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1933,
-      "position": "WRITER",
-      "comment": "9 episodes"
-    },
-    {
-      "personId": 1944,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 783,
-      "position": "WRITER",
-      "comment": "8 episodes"
-    },
-    {
-      "personId": 1945,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1946,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1271,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1947,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1518,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 1948,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -260,6 +115,188 @@
     {
       "videoId": "FOXZgRTfSUA",
       "order": 4
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 783,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1933,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1934,
+      "comment": "4 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1935,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1936,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1937,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1938,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1939,
+      "comment": "2 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1940,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1941,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1942,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1943,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1933,
+      "comment": "9 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1944,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 783,
+      "comment": "8 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1945,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1946,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1271,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1947,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1518,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1948,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 114,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sherlock Holmes"
+    },
+    {
+      "personId": 792,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. John Watson"
+    },
+    {
+      "personId": 1158,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mrs. Hudson"
+    },
+    {
+      "personId": 1013,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "DI Lestrade"
+    },
+    {
+      "personId": 740,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Molly Hooper"
+    },
+    {
+      "personId": 783,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mycroft Holmes"
+    },
+    {
+      "personId": 58,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jim Moriarty"
+    },
+    {
+      "personId": 1230,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lara Pulwer"
+    },
+    {
+      "personId": 47,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mary Watson"
     }
   ]
 }

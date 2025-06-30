@@ -1,7 +1,8 @@
 import { PrismaClient } from '@prisma/client';
+import { ManageCountryInput } from 'src/modules/countries/schemas';
 
 export class CountriesRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: PrismaClient) {}
 
   getAll() {
     return this.databaseClient.country.findMany({
@@ -12,6 +13,25 @@ export class CountriesRepository {
       orderBy: {
         title: 'asc',
       },
+    });
+  }
+
+  create(input: ManageCountryInput) {
+    return this.databaseClient.country.create({
+      data: input,
+    });
+  }
+
+  delete(id: number) {
+    return this.databaseClient.country.delete({ where: { id } });
+  }
+
+  update(id: number, input: ManageCountryInput) {
+    return this.databaseClient.country.update({
+      where: {
+        id,
+      },
+      data: input,
     });
   }
 }

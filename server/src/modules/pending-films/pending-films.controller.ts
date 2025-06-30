@@ -1,11 +1,9 @@
-import { NotFoundException, router } from 'src/common';
+import { IdParamSchema, router, NotFoundException } from 'src/common';
 import {
   CreatePendingFilmBodySchema,
-  DeletePendingFilmParamsSchema,
+  GetPendingFilmParamsSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmBodySchema,
-  UpdatePendingFilmParamsSchema,
-  GetPendingFilmParamsSchema,
 } from './schemas';
 
 export const PendingFilmsController = router((app, defineRoute) => [
@@ -70,7 +68,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: UpdatePendingFilmParamsSchema,
+      params: IdParamSchema,
       body: UpdatePendingFilmBodySchema,
     },
     handler: async ({ request }) => {
@@ -89,7 +87,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     method: 'DELETE',
     url: '/:id',
     preHandler: [app.authenticate],
-    schema: { params: DeletePendingFilmParamsSchema },
+    schema: { params: IdParamSchema },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.deletePendingFilm(
         request.params.id,

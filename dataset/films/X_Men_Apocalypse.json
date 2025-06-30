@@ -14,56 +14,6 @@
   "chapterKey": "x-men",
   "chapterOrder": 4,
   "awards": [],
-  "cast": [
-    {
-      "personId": 511,
-      "characterName": "Professor Charles Xavier"
-    },
-    {
-      "personId": 823,
-      "characterName": "Erik Lehnsherr / Magneto"
-    },
-    {
-      "personId": 547,
-      "characterName": "Raven / Mystique"
-    },
-    {
-      "personId": 870,
-      "characterName": "Hank McCoy / Beast"
-    },
-    {
-      "personId": 896,
-      "characterName": "En Sabah Nur / Apocalypse"
-    },
-    {
-      "personId": 1005,
-      "characterName": "Moira Mactaggert"
-    },
-    {
-      "personId": 360,
-      "characterName": "Peter Maximoff / Quicksilver"
-    },
-    {
-      "personId": 619,
-      "characterName": "Col. William Stryker"
-    },
-    {
-      "personId": 1077,
-      "characterName": "Jean Grey"
-    },
-    {
-      "personId": 1154,
-      "characterName": "Scott Summers / Cyclops"
-    },
-    {
-      "personId": 743,
-      "characterName": "Alex Summers / Havok"
-    },
-    {
-      "personId": 686,
-      "characterName": "Kurt Wagner / Nightcrawler"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -73,38 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2370,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1797,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1796,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2370,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2375,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2376,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -127,6 +45,116 @@
     {
       "videoId": "Jer8XjMrUB4",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2370,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1797,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1796,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2370,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2375,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2376,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 511,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Charles Xavier"
+    },
+    {
+      "personId": 823,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Erik Lehnsherr / Magneto"
+    },
+    {
+      "personId": 547,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Raven / Mystique"
+    },
+    {
+      "personId": 870,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hank McCoy / Beast"
+    },
+    {
+      "personId": 896,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "En Sabah Nur / Apocalypse"
+    },
+    {
+      "personId": 1005,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Moira Mactaggert"
+    },
+    {
+      "personId": 360,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Maximoff / Quicksilver"
+    },
+    {
+      "personId": 619,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Col. William Stryker"
+    },
+    {
+      "personId": 1077,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jean Grey"
+    },
+    {
+      "personId": 1154,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "personId": 743,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alex Summers / Havok"
+    },
+    {
+      "personId": 686,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kurt Wagner / Nightcrawler"
     }
   ]
 }

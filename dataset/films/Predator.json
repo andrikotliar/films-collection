@@ -14,40 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 87,
-      "characterName": "Dutch"
-    },
-    {
-      "personId": 168,
-      "characterName": "Dillon"
-    },
-    {
-      "personId": 336,
-      "characterName": "Anna"
-    },
-    {
-      "personId": 122,
-      "characterName": "Mac"
-    },
-    {
-      "personId": 557,
-      "characterName": "Blain"
-    },
-    {
-      "personId": 1074,
-      "characterName": "Billy"
-    },
-    {
-      "personId": 966,
-      "characterName": "Poncho"
-    },
-    {
-      "personId": 679,
-      "characterName": "Predator"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -57,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1897,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1898,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1899,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1676,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1900,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1901,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1371,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1902,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -118,6 +42,104 @@
     {
       "videoId": "_1wDBNHYDv8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1897,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1898,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1899,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1676,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1900,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1901,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1371,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1902,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 87,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dutch"
+    },
+    {
+      "personId": 168,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dillon"
+    },
+    {
+      "personId": 336,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Anna"
+    },
+    {
+      "personId": 122,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mac"
+    },
+    {
+      "personId": 557,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Blain"
+    },
+    {
+      "personId": 1074,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Billy"
+    },
+    {
+      "personId": 966,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Poncho"
+    },
+    {
+      "personId": 679,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Predator"
     }
   ]
 }

@@ -14,36 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 16,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow"
-    },
-    {
-      "personId": 375,
-      "characterName": "Yelena Belova / Black Widow"
-    },
-    {
-      "personId": 940,
-      "characterName": "Melina Vostokoff / Black Widow"
-    },
-    {
-      "personId": 274,
-      "characterName": "Alexei Shostakov / Red Guardian"
-    },
-    {
-      "personId": 882,
-      "characterName": "Rick Mason"
-    },
-    {
-      "personId": 884,
-      "characterName": "Antonia Dreykov / Taskmaster"
-    },
-    {
-      "personId": 953,
-      "characterName": "Dreykov"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -53,33 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1395,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1396,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1397,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1398,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -99,6 +42,80 @@
     {
       "videoId": "ybji16u608U",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1395,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1396,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1397,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1398,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1042,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "personId": 375,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yelena Belova / Black Widow"
+    },
+    {
+      "personId": 940,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Melina Vostokoff / Black Widow"
+    },
+    {
+      "personId": 274,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alexei Shostakov / Red Guardian"
+    },
+    {
+      "personId": 882,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rick Mason"
+    },
+    {
+      "personId": 884,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Antonia Dreykov / Taskmaster"
+    },
+    {
+      "personId": 953,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dreykov"
     }
   ]
 }

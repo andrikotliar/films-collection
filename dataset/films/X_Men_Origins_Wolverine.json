@@ -14,44 +14,6 @@
   "chapterKey": "x-men",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 453,
-      "characterName": "Logan / Wolverine"
-    },
-    {
-      "personId": 725,
-      "characterName": "Victor Creed"
-    },
-    {
-      "personId": 256,
-      "characterName": "Stryker"
-    },
-    {
-      "personId": 1179,
-      "characterName": "John Wraith"
-    },
-    {
-      "personId": 757,
-      "characterName": "Kayla Silverfox"
-    },
-    {
-      "personId": 674,
-      "characterName": "Fred Dukes"
-    },
-    {
-      "personId": 302,
-      "characterName": "Chris Bradley / Bolt"
-    },
-    {
-      "personId": 1106,
-      "characterName": "Remy LeBeau"
-    },
-    {
-      "personId": 1020,
-      "characterName": "Wade Wilson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -61,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2379,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1486,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2380,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1796,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2374,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 453,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1905,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1902,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +45,110 @@
     {
       "videoId": "QojV7s3UTu0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2379,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1486,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2380,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1796,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2374,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1905,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1902,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Logan / Wolverine"
+    },
+    {
+      "personId": 725,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Victor Creed"
+    },
+    {
+      "personId": 256,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stryker"
+    },
+    {
+      "personId": 1179,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Wraith"
+    },
+    {
+      "personId": 757,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kayla Silverfox"
+    },
+    {
+      "personId": 674,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fred Dukes"
+    },
+    {
+      "personId": 302,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chris Bradley / Bolt"
+    },
+    {
+      "personId": 1106,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Remy LeBeau"
+    },
+    {
+      "personId": 1020,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wade Wilson"
     }
   ]
 }

@@ -25,88 +25,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 519,
-      "characterName": "Korra"
-    },
-    {
-      "personId": 898,
-      "characterName": "Bolin"
-    },
-    {
-      "personId": 273,
-      "characterName": "Mako"
-    },
-    {
-      "personId": 475,
-      "characterName": "Tenzin"
-    },
-    {
-      "personId": 1056,
-      "characterName": "Asami Sato"
-    },
-    {
-      "personId": 846,
-      "characterName": "Lin Beifong"
-    },
-    {
-      "personId": 736,
-      "characterName": "Meelo"
-    },
-    {
-      "personId": 682,
-      "characterName": "Jinora"
-    },
-    {
-      "personId": 589,
-      "characterName": "Varrick"
-    },
-    {
-      "personId": 261,
-      "characterName": "Ikki"
-    },
-    {
-      "personId": 972,
-      "characterName": "Bumi"
-    },
-    {
-      "personId": 515,
-      "characterName": "Tonraq"
-    },
-    {
-      "personId": 13,
-      "characterName": "Unalaq"
-    },
-    {
-      "personId": 447,
-      "characterName": "Zaheer"
-    },
-    {
-      "personId": 1089,
-      "characterName": "Amon"
-    },
-    {
-      "personId": 1200,
-      "characterName": "Kuvira"
-    },
-    {
-      "personId": 606,
-      "characterName": "Vaatu"
-    },
-    {
-      "personId": 81,
-      "characterName": "Raava"
-    },
-    {
-      "personId": 236,
-      "characterName": "Aang"
-    },
-    {
-      "personId": 358,
-      "characterName": "Katara"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -116,88 +34,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1339,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1340,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1346,
-      "position": "DIRECTOR",
-      "comment": "12 episodes"
-    },
-    {
-      "personId": 2197,
-      "position": "DIRECTOR",
-      "comment": "12 episodes"
-    },
-    {
-      "personId": 2198,
-      "position": "DIRECTOR",
-      "comment": "15 episodes"
-    },
-    {
-      "personId": 2199,
-      "position": "DIRECTOR",
-      "comment": "15 episodes"
-    },
-    {
-      "personId": 2200,
-      "position": "DIRECTOR",
-      "comment": "9 episodes"
-    },
-    {
-      "personId": 1339,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1339,
-      "position": "WRITER",
-      "comment": "22 episodes"
-    },
-    {
-      "personId": 1340,
-      "position": "WRITER",
-      "comment": "12 episodes"
-    },
-    {
-      "personId": 1351,
-      "position": "WRITER",
-      "comment": "15 episodes"
-    },
-    {
-      "personId": 1353,
-      "position": "WRITER",
-      "comment": "15 episodes"
-    },
-    {
-      "personId": 1359,
-      "position": "WRITER",
-      "comment": "3 episodes"
-    },
-    {
-      "personId": 2201,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2202,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1363,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -222,6 +58,224 @@
     {
       "videoId": "NBNpGCIavwA",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1339,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1340,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1346,
+      "comment": "12 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2197,
+      "comment": "12 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2198,
+      "comment": "15 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2199,
+      "comment": "15 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2200,
+      "comment": "9 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1339,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1339,
+      "comment": "22 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1340,
+      "comment": "12 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1351,
+      "comment": "15 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1353,
+      "comment": "15 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1359,
+      "comment": "3 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2201,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2202,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1363,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 519,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Korra"
+    },
+    {
+      "personId": 898,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bolin"
+    },
+    {
+      "personId": 273,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mako"
+    },
+    {
+      "personId": 475,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tenzin"
+    },
+    {
+      "personId": 1056,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Asami Sato"
+    },
+    {
+      "personId": 846,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lin Beifong"
+    },
+    {
+      "personId": 736,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Meelo"
+    },
+    {
+      "personId": 682,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jinora"
+    },
+    {
+      "personId": 589,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Varrick"
+    },
+    {
+      "personId": 261,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ikki"
+    },
+    {
+      "personId": 972,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bumi"
+    },
+    {
+      "personId": 515,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tonraq"
+    },
+    {
+      "personId": 13,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Unalaq"
+    },
+    {
+      "personId": 447,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zaheer"
+    },
+    {
+      "personId": 1089,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Amon"
+    },
+    {
+      "personId": 1200,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kuvira"
+    },
+    {
+      "personId": 606,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vaatu"
+    },
+    {
+      "personId": 81,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Raava"
+    },
+    {
+      "personId": 236,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Aang"
+    },
+    {
+      "personId": 358,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katara"
     }
   ]
 }

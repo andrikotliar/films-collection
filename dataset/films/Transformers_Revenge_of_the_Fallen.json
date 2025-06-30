@@ -14,44 +14,6 @@
   "chapterKey": "transformers",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1065,
-      "characterName": "Sam Witwicky"
-    },
-    {
-      "personId": 812,
-      "characterName": "Mikaela Banes"
-    },
-    {
-      "personId": 617,
-      "characterName": "Major Lennox"
-    },
-    {
-      "personId": 597,
-      "characterName": "Simmons"
-    },
-    {
-      "personId": 943,
-      "characterName": "Leo Spitz"
-    },
-    {
-      "personId": 918,
-      "characterName": "Optimus Prime"
-    },
-    {
-      "personId": 787,
-      "characterName": "Jetfire"
-    },
-    {
-      "personId": 454,
-      "characterName": "Megatron"
-    },
-    {
-      "personId": 1146,
-      "characterName": "Fallen"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -61,58 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1275,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2333,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2330,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2331,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1918,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1971,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2332,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2334,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -135,6 +45,122 @@
     {
       "videoId": "fnXzKwUgDhg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1275,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2333,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2330,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2331,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1918,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1971,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2332,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2334,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1065,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Witwicky"
+    },
+    {
+      "personId": 812,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mikaela Banes"
+    },
+    {
+      "personId": 617,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Major Lennox"
+    },
+    {
+      "personId": 597,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Simmons"
+    },
+    {
+      "personId": 943,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leo Spitz"
+    },
+    {
+      "personId": 918,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Optimus Prime"
+    },
+    {
+      "personId": 787,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jetfire"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Megatron"
+    },
+    {
+      "personId": 1146,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Fallen"
     }
   ]
 }

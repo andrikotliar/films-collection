@@ -28,15 +28,6 @@ export class FilmsService {
 
     const parsedFilters = mapListFilters(queries);
 
-    if (queries.searchAnniversaries && !parsedFilters.id) {
-      const films = await this.filmsRepository.findAnniversariesIdsRaw();
-      const ids = films.map((film) => film.id);
-
-      parsedFilters.id = {
-        in: ids,
-      };
-    }
-
     const data = await this.filmsRepository.findAndCount(
       parsedFilters,
       limit,

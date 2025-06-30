@@ -14,44 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 29,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1071,
-      "characterName": "Shang-Chi"
-    },
-    {
-      "personId": 1143,
-      "characterName": "Wenwu / Mandarin"
-    },
-    {
-      "personId": 97,
-      "characterName": "Katy"
-    },
-    {
-      "personId": 816,
-      "characterName": "Xialing"
-    },
-    {
-      "personId": 839,
-      "characterName": "Ying Nan"
-    },
-    {
-      "personId": 116,
-      "characterName": "Wong"
-    },
-    {
-      "personId": 1120,
-      "characterName": "Abomination / Emile Blonsky"
-    },
-    {
-      "personId": 109,
-      "characterName": "Trevor Slattery"
-    },
-    {
-      "personId": 376,
-      "characterName": "Razor Fist"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -61,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1924,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1925,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1924,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1926,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1927,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1928,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1296,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +45,110 @@
     {
       "videoId": "COGg-Vjauwo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1924,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1925,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1924,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1926,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1927,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1928,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1296,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1071,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shang-Chi"
+    },
+    {
+      "personId": 1143,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wenwu / Mandarin"
+    },
+    {
+      "personId": 97,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katy"
+    },
+    {
+      "personId": 816,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Xialing"
+    },
+    {
+      "personId": 839,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ying Nan"
+    },
+    {
+      "personId": 116,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wong"
+    },
+    {
+      "personId": 1120,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Abomination / Emile Blonsky"
+    },
+    {
+      "personId": 109,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Trevor Slattery"
+    },
+    {
+      "personId": 376,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Razor Fist"
     }
   ]
 }

@@ -14,52 +14,6 @@
   "chapterKey": "dceu",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 443,
-      "characterName": "Clark Kent / Kal-El"
-    },
-    {
-      "personId": 54,
-      "characterName": "Lois Lane"
-    },
-    {
-      "personId": 831,
-      "characterName": "General Zod"
-    },
-    {
-      "personId": 291,
-      "characterName": "Martha Kent"
-    },
-    {
-      "personId": 1015,
-      "characterName": "Jor-El"
-    },
-    {
-      "personId": 75,
-      "characterName": "Faora-Ul"
-    },
-    {
-      "personId": 433,
-      "characterName": "General Swanwick"
-    },
-    {
-      "personId": 974,
-      "characterName": "Dr. Emil Hamilton"
-    },
-    {
-      "personId": 211,
-      "characterName": "Colonel Nathan Hardy"
-    },
-    {
-      "personId": 672,
-      "characterName": "Jonathan Kent"
-    },
-    {
-      "personId": 707,
-      "characterName": "Perry White"
-    }
-  ],
   "collections": [
     {
       "collectionId": 11,
@@ -69,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1386,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1379,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1378,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1380,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1381,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1388,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1465,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -133,6 +45,122 @@
     {
       "videoId": "T6DJcgm3wNY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1386,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1379,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1378,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1380,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1381,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1388,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1465,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 443,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clark Kent / Kal-El"
+    },
+    {
+      "personId": 54,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Lois Lane"
+    },
+    {
+      "personId": 831,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Zod"
+    },
+    {
+      "personId": 291,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Martha Kent"
+    },
+    {
+      "personId": 1015,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jor-El"
+    },
+    {
+      "personId": 75,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Faora-Ul"
+    },
+    {
+      "personId": 433,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Swanwick"
+    },
+    {
+      "personId": 974,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Emil Hamilton"
+    },
+    {
+      "personId": 211,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Colonel Nathan Hardy"
+    },
+    {
+      "personId": 672,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jonathan Kent"
+    },
+    {
+      "personId": 707,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Perry White"
     }
   ]
 }

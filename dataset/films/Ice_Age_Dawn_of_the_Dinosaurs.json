@@ -14,95 +14,15 @@
   "chapterKey": "ice-age",
   "chapterOrder": 3,
   "awards": [],
-  "cast": [
-    {
-      "personId": 951,
-      "characterName": "Manny"
-    },
-    {
-      "personId": 936,
-      "characterName": "Ellie"
-    },
-    {
-      "personId": 284,
-      "characterName": "Diego"
-    },
-    {
-      "personId": 586,
-      "characterName": "Sid"
-    },
-    {
-      "personId": 621,
-      "characterName": "Eddie"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Buck"
-    },
-    {
-      "personId": 1049,
-      "characterName": "Crash"
-    },
-    {
-      "personId": 202,
-      "characterName": "Scrat"
-    },
-    {
-      "personId": 639,
-      "characterName": "Scratte"
-    }
-  ],
   "collections": [
     {
-      "collectionId": 28,
+      "collectionId": 4,
       "order": null
     }
   ],
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1688,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1683,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1685,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1689,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1690,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1686,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1691,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +45,110 @@
     {
       "videoId": "Y_nSwh2WjAM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1688,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1683,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1685,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1689,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1690,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1686,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1691,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 951,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Manny"
+    },
+    {
+      "personId": 936,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ellie"
+    },
+    {
+      "personId": 284,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diego"
+    },
+    {
+      "personId": 586,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sid"
+    },
+    {
+      "personId": 621,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eddie"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Buck"
+    },
+    {
+      "personId": 1049,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Crash"
+    },
+    {
+      "personId": 202,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scrat"
+    },
+    {
+      "personId": 639,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scratte"
     }
   ]
 }

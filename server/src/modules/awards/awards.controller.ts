@@ -1,7 +1,37 @@
-import { router } from 'src/common';
-import { FindNominationsSchema } from './schemas';
+import { IdParamSchema, router } from 'src/common';
+import { AwardBodySchema, FindNominationsSchema } from './schemas';
 
 export const AwardsController = router((app, defineRoute) => [
+  defineRoute({
+    method: 'GET',
+    url: '/',
+    handler: async () => {
+      const data = await app.awardsService.getBaseDataList();
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'POST',
+    url: '/',
+    schema: {
+      body: AwardBodySchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.awardsService.createAward(request.body);
+
+      return {
+        status: 'CREATED',
+        data,
+      };
+    },
+  }),
+
   defineRoute({
     method: 'GET',
     url: '/nominations',
@@ -23,6 +53,64 @@ export const AwardsController = router((app, defineRoute) => [
       return {
         status: 'OK',
         data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'GET',
+    url: '/:id',
+    schema: {
+      params: IdParamSchema,
+    },
+    async handler({ request }) {
+      const data = await app.awardsService.getAwardById(request.params.id, {
+        includeNominations: true,
+      });
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'PATCH',
+    url: '/:id',
+    schema: {
+      params: IdParamSchema,
+      body: AwardBodySchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.awardsService.updateAward(
+        request.params.id,
+        request.body,
+      );
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'DELETE',
+    url: '/:id',
+    schema: {
+      params: IdParamSchema,
+    },
+    preHandler: [app.authenticate],
+    handler: async ({ request }) => {
+      const data = await app.awardsService.deleteAward(request.params.id);
+
+      return {
+        status: 'OK',
+        data: {
+          id: data.id,
+        },
       };
     },
   }),

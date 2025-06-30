@@ -25,48 +25,6 @@
       "comment": "Falcon and the Winter Soldier"
     }
   ],
-  "cast": [
-    {
-      "personId": 74,
-      "characterName": "Sam Wilson / Falcon / Captain America"
-    },
-    {
-      "personId": 1050,
-      "characterName": "James \"Bucky\" Barnes / White Wolf"
-    },
-    {
-      "personId": 1192,
-      "characterName": "John Walker / Captain America / U.S. Agent"
-    },
-    {
-      "personId": 354,
-      "characterName": "Karli Morgenthau"
-    },
-    {
-      "personId": 10,
-      "characterName": "Sarah Wilson"
-    },
-    {
-      "personId": 304,
-      "characterName": "James \"Rhodey\" Rhodes"
-    },
-    {
-      "personId": 244,
-      "characterName": "Helmut Zemo"
-    },
-    {
-      "personId": 342,
-      "characterName": "Sharon Carter / Power Broker"
-    },
-    {
-      "personId": 374,
-      "characterName": "Ayo"
-    },
-    {
-      "personId": 626,
-      "characterName": "Valentina Allegra de Fontaine"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -76,58 +34,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2151,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2152,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2153,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2154,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 2155,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2156,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 2157,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2158,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1399,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1521,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -155,6 +61,128 @@
     {
       "videoId": "IWBsDaFWyTE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2151,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2152,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2153,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2154,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2155,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2156,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2157,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2158,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1399,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1521,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 74,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Wilson / Falcon / Captain America"
+    },
+    {
+      "personId": 1050,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James \"Bucky\" Barnes / White Wolf"
+    },
+    {
+      "personId": 1192,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Walker / Captain America / U.S. Agent"
+    },
+    {
+      "personId": 354,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Karli Morgenthau"
+    },
+    {
+      "personId": 10,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sarah Wilson"
+    },
+    {
+      "personId": 304,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James \"Rhodey\" Rhodes"
+    },
+    {
+      "personId": 244,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Helmut Zemo"
+    },
+    {
+      "personId": 342,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sharon Carter / Power Broker"
+    },
+    {
+      "personId": 374,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ayo"
+    },
+    {
+      "personId": 626,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Valentina Allegra de Fontaine"
     }
   ]
 }

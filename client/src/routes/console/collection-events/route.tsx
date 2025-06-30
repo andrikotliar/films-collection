@@ -3,7 +3,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventsApi, FilesApi } from '@/api';
 import {
   CollectionEventForm,
-  EditCollectionEventModal,
+  EditCollectionEventForm,
   Event,
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
@@ -20,6 +20,7 @@ import { useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { FormValues } from './-types';
 import { getFileUploadFormData } from '@/helpers';
+import { FormModal } from '@/routes/console/-components';
 
 type EventModifyContent = CollectionEventFilled | null;
 
@@ -103,11 +104,20 @@ const CollectionEventsContainer = () => {
         confirmButtonVariant="danger"
         isPending={isDeleting}
       />
-      <EditCollectionEventModal
-        defaultValues={eventToUpdate}
+      <FormModal
+        isOpen={eventToUpdate !== null}
         onClose={() => setEventToUpdate(null)}
-        refetchList={refetch}
-      />
+      >
+        {eventToUpdate && (
+          <EditCollectionEventForm
+            defaultValues={eventToUpdate}
+            onSubmitSuccess={() => {
+              refetch();
+              setEventToUpdate(null);
+            }}
+          />
+        )}
+      </FormModal>
     </ConsoleContent>
   );
 };

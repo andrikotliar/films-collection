@@ -1,27 +1,21 @@
-import { Person, TitleStyle, TitleType } from '@/types';
+import { TitleStyle, TitleType } from '@/types';
 
 export type FormTrailer = {
   videoId: string;
   order: number;
 };
 
-export type FormCrew = {
-  personId: number;
-  name: string;
-  position: string;
+export type FormPerson = {
+  personId: number | null;
+  role: string;
   comment: string | null;
-};
-
-export type FormCast = {
-  personId: number;
-  name: string;
-  characterName: string;
+  details: string | null;
 };
 
 export type FormAward = {
   awardId: number | null;
   nominationId: number | null;
-  person: Person | null;
+  personId: number | null;
   comment: number | null;
 };
 
@@ -36,15 +30,14 @@ export type FormValues = {
   boxOffice: number;
   runtime: number;
   releaseDate: string | null;
-  genres: string[];
-  countries: string[];
-  collections: string[];
-  studios: string[];
+  genres: number[];
+  countries: number[];
+  collections: number[];
+  studios: number[];
   description: string | null;
   chapterKey: string | null;
   chapterOrder: number | null;
-  crew: FormCrew[];
-  cast: FormCast[];
+  castAndCrew: FormPerson[];
   awards: FormAward[];
   trailers: FormTrailer[];
   shouldUseExistingKey: boolean;

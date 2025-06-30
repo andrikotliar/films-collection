@@ -87,32 +87,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1068,
-      "characterName": "Ripley"
-    },
-    {
-      "personId": 172,
-      "characterName": "Newt"
-    },
-    {
-      "personId": 820,
-      "characterName": "Corporal Hicks"
-    },
-    {
-      "personId": 908,
-      "characterName": "Carter J. Burke"
-    },
-    {
-      "personId": 696,
-      "characterName": "Bishop"
-    },
-    {
-      "personId": 125,
-      "characterName": "Private Hudson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -129,33 +103,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1288,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1289,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1290,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1291,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -175,6 +122,74 @@
     {
       "videoId": "oSeQQlaCZgU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1289,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1290,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1291,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1068,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ripley"
+    },
+    {
+      "personId": 172,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Newt"
+    },
+    {
+      "personId": 820,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Corporal Hicks"
+    },
+    {
+      "personId": 908,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carter J. Burke"
+    },
+    {
+      "personId": 696,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bishop"
+    },
+    {
+      "personId": 125,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Private Hudson"
     }
   ]
 }

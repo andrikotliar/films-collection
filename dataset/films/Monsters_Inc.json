@@ -27,37 +27,7 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 582,
-      "characterName": "Sullivan"
-    },
-    {
-      "personId": 129,
-      "characterName": "Mike"
-    },
-    {
-      "personId": 796,
-      "characterName": "Boo"
-    },
-    {
-      "personId": 1090,
-      "characterName": "Randall"
-    },
-    {
-      "personId": 502,
-      "characterName": "Waternoose"
-    },
-    {
-      "personId": 549,
-      "characterName": "Celia"
-    }
-  ],
   "collections": [
-    {
-      "collectionId": 28,
-      "order": null
-    },
     {
       "collectionId": 9,
       "order": null
@@ -66,33 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1857,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1258,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1858,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1859,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1860,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -112,6 +55,74 @@
     {
       "videoId": "6tCxnHCqqxg",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1857,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1858,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1859,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1860,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 582,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sullivan"
+    },
+    {
+      "personId": 129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mike"
+    },
+    {
+      "personId": 796,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Boo"
+    },
+    {
+      "personId": 1090,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Randall"
+    },
+    {
+      "personId": 502,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Waternoose"
+    },
+    {
+      "personId": 549,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Celia"
     }
   ]
 }

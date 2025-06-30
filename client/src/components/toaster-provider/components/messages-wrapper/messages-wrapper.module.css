@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  right: 20px;
+  top: calc(var(--header-height) + 20px);
+  z-index: 200;
+  width: 300px;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: calc(100% - 40px);
+  }
+}

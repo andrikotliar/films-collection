@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1023,
-      "characterName": "Taki Tachibana"
-    },
-    {
-      "personId": 849,
-      "characterName": "Mitsuha Miyamizu"
-    },
-    {
-      "personId": 1022,
-      "characterName": "Katsuhiko Teshigawara"
-    },
-    {
-      "personId": 80,
-      "characterName": "Sayaka Natori"
-    },
-    {
-      "personId": 880,
-      "characterName": "Tsukasa Fujii"
-    },
-    {
-      "personId": 636,
-      "characterName": "Shinta Takagi"
-    },
-    {
-      "personId": 637,
-      "characterName": "Yotsuha Miyamizu"
-    }
-  ],
   "collections": [
     {
       "collectionId": 26,
@@ -53,38 +23,6 @@
   "countries": [
     {
       "countryId": 6
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2382,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2382,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2383,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2384,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2385,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2382,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -110,6 +48,86 @@
     {
       "videoId": "xU47nhruN-Q",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2382,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2382,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2383,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2384,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2385,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2382,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1023,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Taki Tachibana"
+    },
+    {
+      "personId": 849,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mitsuha Miyamizu"
+    },
+    {
+      "personId": 1022,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Katsuhiko Teshigawara"
+    },
+    {
+      "personId": 80,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sayaka Natori"
+    },
+    {
+      "personId": 880,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tsukasa Fujii"
+    },
+    {
+      "personId": 636,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shinta Takagi"
+    },
+    {
+      "personId": 637,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yotsuha Miyamizu"
     }
   ]
 }

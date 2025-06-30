@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1003,
-      "characterName": "Alita"
-    },
-    {
-      "personId": 206,
-      "characterName": "Dr. Dyson Ido"
-    },
-    {
-      "personId": 546,
-      "characterName": "Chiren"
-    },
-    {
-      "personId": 767,
-      "characterName": "Vector"
-    },
-    {
-      "personId": 317,
-      "characterName": "Zapan"
-    },
-    {
-      "personId": 486,
-      "characterName": "Grewishka"
-    },
-    {
-      "personId": 658,
-      "characterName": "Hugo"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -53,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1292,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1293,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1294,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1295,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1296,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -109,6 +42,92 @@
     {
       "videoId": "w7pYhpJaJW8",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1292,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1293,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1294,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1295,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1296,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1003,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alita"
+    },
+    {
+      "personId": 206,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Dyson Ido"
+    },
+    {
+      "personId": 546,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chiren"
+    },
+    {
+      "personId": 767,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vector"
+    },
+    {
+      "personId": 317,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zapan"
+    },
+    {
+      "personId": 486,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Grewishka"
+    },
+    {
+      "personId": 658,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hugo"
     }
   ]
 }

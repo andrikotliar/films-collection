@@ -21,52 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 199,
-      "characterName": "Peter Quill / Star-Lord"
-    },
-    {
-      "personId": 1205,
-      "characterName": "Gamora"
-    },
-    {
-      "personId": 263,
-      "characterName": "Drax"
-    },
-    {
-      "personId": 1164,
-      "characterName": "Baby Groot"
-    },
-    {
-      "personId": 141,
-      "characterName": "Rocket"
-    },
-    {
-      "personId": 830,
-      "characterName": "Yondu"
-    },
-    {
-      "personId": 640,
-      "characterName": "Nebula"
-    },
-    {
-      "personId": 934,
-      "characterName": "Mantis"
-    },
-    {
-      "personId": 1098,
-      "characterName": "Stakar Ogord"
-    },
-    {
-      "personId": 692,
-      "characterName": "Ego"
-    },
-    {
-      "personId": 328,
-      "characterName": "Ayesha"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -76,33 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1541,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1541,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1543,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1544,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +52,104 @@
     {
       "videoId": "wUn05hdkhjM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1541,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1541,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1543,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1544,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 199,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Quill / Star-Lord"
+    },
+    {
+      "personId": 1205,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gamora"
+    },
+    {
+      "personId": 263,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Drax"
+    },
+    {
+      "personId": 1164,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Baby Groot"
+    },
+    {
+      "personId": 141,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rocket"
+    },
+    {
+      "personId": 830,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yondu"
+    },
+    {
+      "personId": 640,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nebula"
+    },
+    {
+      "personId": 934,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mantis"
+    },
+    {
+      "personId": 1098,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stakar Ogord"
+    },
+    {
+      "personId": 692,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ego"
+    },
+    {
+      "personId": 328,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ayesha"
     }
   ]
 }

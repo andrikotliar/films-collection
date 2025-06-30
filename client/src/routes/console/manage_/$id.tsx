@@ -1,4 +1,3 @@
-import { NEW_FILM_ID } from '@/constants';
 import { fetchInitialDataQuery, fetchPendingFilmQuery } from '@/queries';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
@@ -10,6 +9,7 @@ import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
 import { FormValues } from './-types';
 import { LocalStorage } from '@/services';
+import { NEW_ITEM_ID } from '@/constants';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),
@@ -27,7 +27,7 @@ export const Route = createFileRoute('/console/manage_/$id')({
   loader: async ({ context: { queryClient }, deps, params }) => {
     await queryClient.ensureQueryData(fetchInitialDataQuery());
 
-    if (deps.search.pendingFilmId && params.id === NEW_FILM_ID) {
+    if (deps.search.pendingFilmId && params.id === NEW_ITEM_ID) {
       await queryClient.ensureQueryData(
         fetchPendingFilmQuery(deps.search.pendingFilmId),
       );
@@ -45,11 +45,12 @@ function PageContainer() {
     fetchPendingFilmQuery(search.pendingFilmId),
   );
 
-  const isEdit = id !== NEW_FILM_ID;
-  const pageTitle = isEdit ? 'Edit Film' : 'Add New Film';
+  const idValue = id === NEW_ITEM_ID ? id : Number(id);
+
+  const pageTitle = typeof id === 'number' ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {
-    const localValues = LocalStorage.getItem<FormValues>('FILM_DRAFT');
+    const localValues = LocalStorage.getItem<FormValues>(`films:${idValue}`);
 
     if (pendingFilm) {
       return {
@@ -63,34 +64,34 @@ function PageContainer() {
       };
     }
 
-    if (!isEdit && localValues) {
+    if (localValues) {
       return {
         ...localValues,
         poster: null,
       };
     }
 
-    return filmDefaultFormValues;
-  }, [isEdit, pendingFilm]);
+    return {
+      ...filmDefaultFormValues,
+      isDraft: false,
+    };
+  }, [idValue]);
 
   const form = useForm({
     defaultValues,
   });
 
-  const handleSubmit = async (data: FormValues) => {
-    console.log(data);
+  const handleSubmit = async (_data: FormValues) => {
     form.reset(filmDefaultFormValues);
   };
 
   const values = form.watch();
 
   useEffect(() => {
-    if (!isEdit) {
-      const { poster: _poster, ...data } = values;
+    const { poster: _poster, ...data } = values;
 
-      LocalStorage.setItem('FILM_DRAFT', data);
-    }
-  }, [values, isEdit]);
+    LocalStorage.setItem(`films:${idValue}`, data);
+  }, [values, idValue]);
 
   return (
     <ConsoleContent>
@@ -101,7 +102,7 @@ function PageContainer() {
           <FilmForm
             onSubmit={form.handleSubmit(handleSubmit)}
             initialOptions={initialOptions}
-            filmId={id}
+            filmId={idValue}
           />
         </FormProvider>
       </Panel>

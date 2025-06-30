@@ -1,11 +1,8 @@
-import { NotFoundException, router } from 'src/common';
+import { IdParamSchema, NotFoundException, router } from 'src/common';
 import {
   CreatePostSchema,
-  DeletePostSchema,
   GetListQueriesSchema,
   GetPostByKeyParamsSchema,
-  GetPostByIdParamsSchema,
-  UpdatePostParamsSchema,
   UpdatePostSchema,
 } from './schemas';
 
@@ -69,7 +66,7 @@ export const PostsController = router((app, defineRoute) => [
     method: 'GET',
     url: '/:id',
     schema: {
-      params: GetPostByIdParamsSchema,
+      params: IdParamSchema,
     },
     handler: async ({ request }) => {
       const data = await app.postsService.getPost(request.params.id);
@@ -85,7 +82,7 @@ export const PostsController = router((app, defineRoute) => [
     url: '/:id',
     schema: {
       body: UpdatePostSchema,
-      params: UpdatePostParamsSchema,
+      params: IdParamSchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
@@ -104,7 +101,7 @@ export const PostsController = router((app, defineRoute) => [
     method: 'DELETE',
     url: '/:id',
     schema: {
-      params: DeletePostSchema,
+      params: IdParamSchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {

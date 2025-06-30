@@ -12,44 +12,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 26,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1132,
-      "characterName": "Loki"
-    },
-    {
-      "personId": 419,
-      "characterName": "Ravonna Renslayer"
-    },
-    {
-      "personId": 1076,
-      "characterName": "Sylvie"
-    },
-    {
-      "personId": 897,
-      "characterName": "Mobius"
-    },
-    {
-      "personId": 1191,
-      "characterName": "Hunter B-15"
-    },
-    {
-      "personId": 704,
-      "characterName": "Miss Minutes"
-    },
-    {
-      "personId": 968,
-      "characterName": "Classic Loki"
-    },
-    {
-      "personId": 484,
-      "characterName": "Kid Loki"
-    },
-    {
-      "personId": 608,
-      "characterName": "He Who Remains"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -59,83 +21,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1799,
-      "position": "CREATOR",
-      "comment": null
-    },
-    {
-      "personId": 1800,
-      "position": "DIRECTOR",
-      "comment": "6 episodes"
-    },
-    {
-      "personId": 1801,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1802,
-      "position": "DIRECTOR",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1799,
-      "position": "WRITER",
-      "comment": "2 episodes"
-    },
-    {
-      "personId": 1803,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1804,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1805,
-      "position": "WRITER",
-      "comment": "8 episodes"
-    },
-    {
-      "personId": 1806,
-      "position": "WRITER",
-      "comment": "1 episode"
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1807,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1808,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1313,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1809,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1810,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -163,6 +48,152 @@
     {
       "videoId": "nW948Va-l10",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1799,
+      "comment": null,
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "personId": 1800,
+      "comment": "6 episodes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1801,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1802,
+      "comment": "1 episode",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1799,
+      "comment": "2 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1803,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1804,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1805,
+      "comment": "8 episodes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1806,
+      "comment": "1 episode",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1807,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1808,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1313,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1809,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1810,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1132,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Loki"
+    },
+    {
+      "personId": 419,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ravonna Renslayer"
+    },
+    {
+      "personId": 1076,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sylvie"
+    },
+    {
+      "personId": 897,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mobius"
+    },
+    {
+      "personId": 1191,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hunter B-15"
+    },
+    {
+      "personId": 704,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miss Minutes"
+    },
+    {
+      "personId": 968,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Classic Loki"
+    },
+    {
+      "personId": 484,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kid Loki"
+    },
+    {
+      "personId": 608,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "He Who Remains"
     }
   ]
 }

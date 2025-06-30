@@ -33,32 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr."
-    },
-    {
-      "personId": 1046,
-      "characterName": "Professor Henry Jones"
-    },
-    {
-      "personId": 283,
-      "characterName": "Marcus Brody"
-    },
-    {
-      "personId": 42,
-      "characterName": "Elsa"
-    },
-    {
-      "personId": 595,
-      "characterName": "Sallah"
-    },
-    {
-      "personId": 627,
-      "characterName": "Walter Donovan"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -68,38 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1375,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1706,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1703,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1707,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1708,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -125,6 +67,80 @@
     {
       "videoId": "sagmdpkWUqc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1375,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1706,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1707,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1708,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Henry «Indiana» Jones, Jr."
+    },
+    {
+      "personId": 1046,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Henry Jones"
+    },
+    {
+      "personId": 283,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marcus Brody"
+    },
+    {
+      "personId": 42,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Elsa"
+    },
+    {
+      "personId": 595,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sallah"
+    },
+    {
+      "personId": 627,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Walter Donovan"
     }
   ]
 }

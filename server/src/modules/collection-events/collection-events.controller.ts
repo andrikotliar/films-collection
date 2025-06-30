@@ -1,9 +1,7 @@
-import { router } from 'src/common';
+import { IdParamSchema, router } from 'src/common';
 import {
   CreateCollectionEventSchema,
-  DeleteCollectionEventParamsSchema,
   UpdateCollectionEventBodySchema,
-  UpdateCollectionEventParamsSchema,
 } from './schemas';
 
 export const CollectionEventsController = router((app, defineRoute) => [
@@ -43,7 +41,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: DeleteCollectionEventParamsSchema,
+      params: IdParamSchema,
     },
     handler: async ({ request }) => {
       const data = await app.collectionEventsService.deleteEvent(
@@ -62,7 +60,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
     url: '/:id',
     preHandler: [app.authenticate],
     schema: {
-      params: UpdateCollectionEventParamsSchema,
+      params: IdParamSchema,
       body: UpdateCollectionEventBodySchema,
     },
     handler: async ({ request }) => {

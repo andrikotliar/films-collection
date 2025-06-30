@@ -1,3 +1,2 @@
-export * from './AdminFilm/AdminFilm';
-export * from './AdminFilmsTools/AdminFilmsTools';
-export * from './AdminFilmsGrid/AdminFilmsGrid';
+export * from './admin-film/admin-film';
+export * from './admin-films-tools/admin-films-tools';

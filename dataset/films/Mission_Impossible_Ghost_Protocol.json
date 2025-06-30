@@ -27,28 +27,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Ethan Hunt"
-    },
-    {
-      "personId": 912,
-      "characterName": "Jane"
-    },
-    {
-      "personId": 1070,
-      "characterName": "Benji"
-    },
-    {
-      "personId": 552,
-      "characterName": "Brandt"
-    },
-    {
-      "personId": 827,
-      "characterName": "Hendricks"
-    }
-  ],
   "collections": [
     {
       "collectionId": 6,
@@ -58,48 +36,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1846,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1847,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1848,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1129,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1849,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1843,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1442,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1850,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -119,6 +55,86 @@
     {
       "videoId": "EDGYVFZxsXQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1846,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1847,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1848,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1849,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1843,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1442,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1850,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ethan Hunt"
+    },
+    {
+      "personId": 912,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jane"
+    },
+    {
+      "personId": 1070,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Benji"
+    },
+    {
+      "personId": 552,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brandt"
+    },
+    {
+      "personId": 827,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hendricks"
     }
   ]
 }

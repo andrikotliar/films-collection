@@ -33,52 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 286,
-      "characterName": "Jack Hall"
-    },
-    {
-      "personId": 498,
-      "characterName": "Sam Hall"
-    },
-    {
-      "personId": 349,
-      "characterName": "Laura Chapman"
-    },
-    {
-      "personId": 262,
-      "characterName": "Jason Evans"
-    },
-    {
-      "personId": 535,
-      "characterName": "Frank Harris"
-    },
-    {
-      "personId": 1051,
-      "characterName": "Dr. Lucy Hall"
-    },
-    {
-      "personId": 95,
-      "characterName": "J.D."
-    },
-    {
-      "personId": 84,
-      "characterName": "Brian Parks"
-    },
-    {
-      "personId": 1102,
-      "characterName": "Janet Tokada"
-    },
-    {
-      "personId": 1041,
-      "characterName": "Parker"
-    },
-    {
-      "personId": 458,
-      "characterName": "Terry Rapson"
-    }
-  ],
   "collections": [
     {
       "collectionId": 18,
@@ -88,43 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1261,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1261,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2146,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1261,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1263,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1262,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2147,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -141,6 +58,116 @@
     {
       "videoId": "Ku_IseK3xTc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2146,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1261,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1263,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1262,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2147,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 286,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jack Hall"
+    },
+    {
+      "personId": 498,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Hall"
+    },
+    {
+      "personId": 349,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Laura Chapman"
+    },
+    {
+      "personId": 262,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jason Evans"
+    },
+    {
+      "personId": 535,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frank Harris"
+    },
+    {
+      "personId": 1051,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Lucy Hall"
+    },
+    {
+      "personId": 95,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "J.D."
+    },
+    {
+      "personId": 84,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brian Parks"
+    },
+    {
+      "personId": 1102,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Janet Tokada"
+    },
+    {
+      "personId": 1041,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Parker"
+    },
+    {
+      "personId": 458,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Terry Rapson"
     }
   ]
 }

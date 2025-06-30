@@ -14,20 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 431,
-      "characterName": "John Thornton"
-    },
-    {
-      "personId": 893,
-      "characterName": "Perrault"
-    },
-    {
-      "personId": 241,
-      "characterName": "Hal"
-    }
-  ],
   "collections": [
     {
       "collectionId": 4,
@@ -40,38 +26,6 @@
     },
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1662,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1629,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1478,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1452,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1705,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -91,6 +45,62 @@
     {
       "videoId": "h1LG9So2ZBk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1662,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1629,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1478,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1452,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1705,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Thornton"
+    },
+    {
+      "personId": 893,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Perrault"
+    },
+    {
+      "personId": 241,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hal"
     }
   ]
 }

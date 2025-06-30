@@ -14,40 +14,6 @@
   "chapterKey": "b13",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 234,
-      "characterName": "Damien Tomaso"
-    },
-    {
-      "personId": 267,
-      "characterName": "Leito"
-    },
-    {
-      "personId": 929,
-      "characterName": "The President"
-    },
-    {
-      "personId": 247,
-      "characterName": "Walter Gassman"
-    },
-    {
-      "personId": 335,
-      "characterName": "Tao"
-    },
-    {
-      "personId": 758,
-      "characterName": "Molko"
-    },
-    {
-      "personId": 504,
-      "characterName": "Karl le skin"
-    },
-    {
-      "personId": 697,
-      "characterName": "Ali-K"
-    }
-  ],
   "collections": [
     {
       "collectionId": 12,
@@ -67,38 +33,6 @@
       "countryId": 1
     }
   ],
-  "crew": [
-    {
-      "personId": 1436,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1431,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1434,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1437,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1438,
-      "position": "CAMERAMAN",
-      "comment": null
-    }
-  ],
   "genres": [
     {
       "genreId": 4
@@ -113,6 +47,92 @@
     {
       "videoId": "jDDFNpj9xBQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1436,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1431,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1434,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1437,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1438,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 234,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Damien Tomaso"
+    },
+    {
+      "personId": 267,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Leito"
+    },
+    {
+      "personId": 929,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "The President"
+    },
+    {
+      "personId": 247,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Walter Gassman"
+    },
+    {
+      "personId": 335,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tao"
+    },
+    {
+      "personId": 758,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Molko"
+    },
+    {
+      "personId": 504,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Karl le skin"
+    },
+    {
+      "personId": 697,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ali-K"
     }
   ]
 }

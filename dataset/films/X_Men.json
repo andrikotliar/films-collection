@@ -51,52 +51,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 453,
-      "characterName": "Logan / Wolverine"
-    },
-    {
-      "personId": 903,
-      "characterName": "Professor Charles Xavier"
-    },
-    {
-      "personId": 460,
-      "characterName": "Eric Lensherr / Magneto"
-    },
-    {
-      "personId": 367,
-      "characterName": "Jean Grey"
-    },
-    {
-      "personId": 510,
-      "characterName": "Scott Summers / Cyclops"
-    },
-    {
-      "personId": 426,
-      "characterName": "Ororo Munroe / Storm"
-    },
-    {
-      "personId": 66,
-      "characterName": "Rogue"
-    },
-    {
-      "personId": 1155,
-      "characterName": "Sabretooth"
-    },
-    {
-      "personId": 949,
-      "characterName": "Toad"
-    },
-    {
-      "personId": 956,
-      "characterName": "Mystique"
-    },
-    {
-      "personId": 154,
-      "characterName": "Senator Kelly"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -106,38 +60,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2370,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2371,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1796,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2374,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2377,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2376,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -160,6 +82,110 @@
     {
       "videoId": "VNxwlx6etXI",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2370,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2371,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1796,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2374,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2377,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2376,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Logan / Wolverine"
+    },
+    {
+      "personId": 903,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Charles Xavier"
+    },
+    {
+      "personId": 460,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eric Lensherr / Magneto"
+    },
+    {
+      "personId": 367,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jean Grey"
+    },
+    {
+      "personId": 510,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "personId": 426,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ororo Munroe / Storm"
+    },
+    {
+      "personId": 66,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rogue"
+    },
+    {
+      "personId": 1155,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sabretooth"
+    },
+    {
+      "personId": 949,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Toad"
+    },
+    {
+      "personId": 956,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mystique"
+    },
+    {
+      "personId": 154,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Senator Kelly"
     }
   ]
 }

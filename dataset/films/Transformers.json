@@ -33,60 +33,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1065,
-      "characterName": "Sam Witwicky"
-    },
-    {
-      "personId": 812,
-      "characterName": "Mikaela Banes"
-    },
-    {
-      "personId": 617,
-      "characterName": "Captain Lennox"
-    },
-    {
-      "personId": 1156,
-      "characterName": "Epps"
-    },
-    {
-      "personId": 937,
-      "characterName": "Maggie Madsen"
-    },
-    {
-      "personId": 71,
-      "characterName": "Glen Whitmann"
-    },
-    {
-      "personId": 603,
-      "characterName": "John Keller"
-    },
-    {
-      "personId": 597,
-      "characterName": "Agent Simmons"
-    },
-    {
-      "personId": 918,
-      "characterName": "Optimus Prime"
-    },
-    {
-      "personId": 787,
-      "characterName": "Bumblebee"
-    },
-    {
-      "personId": 454,
-      "characterName": "Megatron"
-    },
-    {
-      "personId": 961,
-      "characterName": "Frenzy"
-    },
-    {
-      "personId": 181,
-      "characterName": "Starscream"
-    }
-  ],
   "collections": [
     {
       "collectionId": 7,
@@ -96,53 +42,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1275,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1852,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1851,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2330,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2331,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1918,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1971,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2332,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1866,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -165,6 +64,140 @@
     {
       "videoId": "dxQxgAfNzyE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1275,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1852,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1851,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2330,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2331,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1918,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1971,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2332,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1866,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1065,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Witwicky"
+    },
+    {
+      "personId": 812,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mikaela Banes"
+    },
+    {
+      "personId": 617,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Lennox"
+    },
+    {
+      "personId": 1156,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Epps"
+    },
+    {
+      "personId": 937,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maggie Madsen"
+    },
+    {
+      "personId": 71,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Glen Whitmann"
+    },
+    {
+      "personId": 603,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Keller"
+    },
+    {
+      "personId": 597,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Simmons"
+    },
+    {
+      "personId": 918,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Optimus Prime"
+    },
+    {
+      "personId": 787,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bumblebee"
+    },
+    {
+      "personId": 454,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Megatron"
+    },
+    {
+      "personId": 961,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Frenzy"
+    },
+    {
+      "personId": 181,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Starscream"
     }
   ]
 }

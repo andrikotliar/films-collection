@@ -14,103 +14,15 @@
   "chapterKey": "madagascar",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 113,
-      "characterName": "Alex"
-    },
-    {
-      "personId": 200,
-      "characterName": "Marty"
-    },
-    {
-      "personId": 277,
-      "characterName": "Melman"
-    },
-    {
-      "personId": 490,
-      "characterName": "Gloria"
-    },
-    {
-      "personId": 1025,
-      "characterName": "Julien"
-    },
-    {
-      "personId": 177,
-      "characterName": "Maurice"
-    },
-    {
-      "personId": 119,
-      "characterName": "Zuba"
-    },
-    {
-      "personId": 27,
-      "characterName": "Makunga"
-    },
-    {
-      "personId": 1232,
-      "characterName": "Nana"
-    },
-    {
-      "personId": 1136,
-      "characterName": "Skipper"
-    },
-    {
-      "personId": 1233,
-      "characterName": "Mason"
-    }
-  ],
   "collections": [
     {
-      "collectionId": 28,
+      "collectionId": 4,
       "order": null
     }
   ],
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1818,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1136,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1822,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1818,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1136,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1821,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1823,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1383,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -130,6 +42,122 @@
     {
       "videoId": "hLVjIhPYq7s",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1818,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1136,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1822,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1818,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1136,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1821,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1823,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1383,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 113,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alex"
+    },
+    {
+      "personId": 200,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marty"
+    },
+    {
+      "personId": 277,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Melman"
+    },
+    {
+      "personId": 490,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Gloria"
+    },
+    {
+      "personId": 1025,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Julien"
+    },
+    {
+      "personId": 177,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maurice"
+    },
+    {
+      "personId": 119,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zuba"
+    },
+    {
+      "personId": 27,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Makunga"
+    },
+    {
+      "personId": 1232,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nana"
+    },
+    {
+      "personId": 1136,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Skipper"
+    },
+    {
+      "personId": 1233,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mason"
     }
   ]
 }

@@ -14,44 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 357,
-      "characterName": "Miss Peregrine"
-    },
-    {
-      "personId": 90,
-      "characterName": "Jake"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Barron"
-    },
-    {
-      "personId": 331,
-      "characterName": "Emma"
-    },
-    {
-      "personId": 624,
-      "characterName": "Miss Avocet"
-    },
-    {
-      "personId": 43,
-      "characterName": "Dr. Golan"
-    },
-    {
-      "personId": 1108,
-      "characterName": "Abe"
-    },
-    {
-      "personId": 370,
-      "characterName": "Enoch"
-    },
-    {
-      "personId": 703,
-      "characterName": "Olive"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -61,43 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1833,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1834,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1480,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1481,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1835,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1836,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1573,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -120,6 +45,104 @@
     {
       "videoId": "tV_IhWE4LP0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1833,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1834,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1480,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1481,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1835,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1836,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1573,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 357,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miss Peregrine"
+    },
+    {
+      "personId": 90,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jake"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Barron"
+    },
+    {
+      "personId": 331,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Emma"
+    },
+    {
+      "personId": 624,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Miss Avocet"
+    },
+    {
+      "personId": 43,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Golan"
+    },
+    {
+      "personId": 1108,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Abe"
+    },
+    {
+      "personId": 370,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Enoch"
+    },
+    {
+      "personId": 703,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Olive"
     }
   ]
 }

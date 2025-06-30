@@ -75,11 +75,13 @@ export class ApiClient {
       return result as Promise<T>;
     } catch (error: any) {
       if (error.response?.statusCode === 401) {
-        console.clear();
-
         try {
           if (!TOKEN_ERRORS.includes(error.response?.code)) {
-            throw error;
+            throw new HttpError(
+              error.response.status,
+              error.response.statusText,
+              error.response,
+            );
           }
 
           await this.request('/auth/refresh', {
@@ -87,15 +89,19 @@ export class ApiClient {
           });
 
           return this.request(path, options);
-        } catch (error) {
+        } catch (_error) {
           if (!window.location.pathname.includes('login')) {
-            LocalStorage.removeItem('IS_AUTHENTICATED');
+            LocalStorage.removeItem('state:is_authenticated');
             throw redirect({ to: '/login' });
           }
         }
       }
 
-      throw error;
+      throw new HttpError(
+        error.response?.statusCode,
+        error.response?.message ?? 'Unknown error',
+        error.response,
+      );
     }
   }
 

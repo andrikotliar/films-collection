@@ -14,27 +14,9 @@
   "chapterKey": "ice-age",
   "chapterOrder": 1,
   "awards": [],
-  "cast": [
-    {
-      "personId": 951,
-      "characterName": "Manfred"
-    },
-    {
-      "personId": 586,
-      "characterName": "Sid"
-    },
-    {
-      "personId": 284,
-      "characterName": "Diego"
-    },
-    {
-      "personId": 415,
-      "characterName": "Soto"
-    }
-  ],
   "collections": [
     {
-      "collectionId": 28,
+      "collectionId": 4,
       "order": null
     },
     {
@@ -45,38 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 202,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1683,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1684,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1685,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1686,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1687,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -99,6 +49,68 @@
     {
       "videoId": "i4noiCRJRoE",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 202,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1683,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1684,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1685,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1686,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1687,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 951,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Manfred"
+    },
+    {
+      "personId": 586,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sid"
+    },
+    {
+      "personId": 284,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Diego"
+    },
+    {
+      "personId": 415,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Soto"
     }
   ]
 }

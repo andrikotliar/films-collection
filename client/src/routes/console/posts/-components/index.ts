@@ -1,1 +1,1 @@
-export * from './PostRow/PostRow';
+export * from './post-row/post-row';

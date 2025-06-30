@@ -21,68 +21,6 @@
       "comment": "as Peter Parker / Spider-Man"
     }
   ],
-  "cast": [
-    {
-      "personId": 194,
-      "characterName": "Steve Rogers / Captain America"
-    },
-    {
-      "personId": 982,
-      "characterName": "Tony Stark / Iron Man"
-    },
-    {
-      "personId": 1042,
-      "characterName": "Natasha Romanoff / Black Widow"
-    },
-    {
-      "personId": 1050,
-      "characterName": "Bucky Barnes / The Winter Soldier"
-    },
-    {
-      "personId": 74,
-      "characterName": "Sam Wilson / The Falcon"
-    },
-    {
-      "personId": 304,
-      "characterName": "James Rhodes / War Machine"
-    },
-    {
-      "personId": 552,
-      "characterName": "Clint Barton / Hawkeye"
-    },
-    {
-      "personId": 179,
-      "characterName": "T'Challa"
-    },
-    {
-      "personId": 905,
-      "characterName": "Vision"
-    },
-    {
-      "personId": 329,
-      "characterName": "Wanda Maximoff"
-    },
-    {
-      "personId": 910,
-      "characterName": "Scott Lang / Ant-Man"
-    },
-    {
-      "personId": 342,
-      "characterName": "Sharon Carter"
-    },
-    {
-      "personId": 1133,
-      "characterName": "Peter Parker / Spider-Man"
-    },
-    {
-      "personId": 244,
-      "characterName": "Zemo"
-    },
-    {
-      "personId": 381,
-      "characterName": "Brock Rumlow"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -92,43 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1367,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1368,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1369,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1370,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1399,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1372,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -151,6 +52,140 @@
     {
       "videoId": "dKrVegVI0Us",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1367,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1368,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1369,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1370,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1399,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1372,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 194,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "personId": 982,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "personId": 1042,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "personId": 1050,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bucky Barnes / The Winter Soldier"
+    },
+    {
+      "personId": 74,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sam Wilson / The Falcon"
+    },
+    {
+      "personId": 304,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "James Rhodes / War Machine"
+    },
+    {
+      "personId": 552,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "personId": 179,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "T'Challa"
+    },
+    {
+      "personId": 905,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Vision"
+    },
+    {
+      "personId": 329,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Wanda Maximoff"
+    },
+    {
+      "personId": 910,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scott Lang / Ant-Man"
+    },
+    {
+      "personId": 342,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sharon Carter"
+    },
+    {
+      "personId": 1133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "personId": 244,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Zemo"
+    },
+    {
+      "personId": 381,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Brock Rumlow"
     }
   ]
 }

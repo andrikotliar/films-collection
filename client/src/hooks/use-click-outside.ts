@@ -1,9 +1,10 @@
-import { RefObject, useEffect } from 'react';
+import { RefObject, useCallback, useEffect } from 'react';
 
 type Options = {
   isOpen: boolean;
   triggerElementRef: RefObject<HTMLElement>;
   containerRef: RefObject<HTMLDivElement>;
+  isEnabled?: boolean;
   closeHandler: VoidFunction;
 };
 
@@ -11,27 +12,31 @@ export const useClickOutside = ({
   isOpen,
   triggerElementRef,
   containerRef,
+  isEnabled = true,
   closeHandler,
 }: Options) => {
-  const closeMenuHandler = (event: MouseEvent) => {
-    const path = event.composedPath();
-    if (
-      path.includes(containerRef.current as EventTarget) ||
-      path.includes(triggerElementRef.current as EventTarget)
-    ) {
-      return;
-    }
+  const closeMenuHandler = useCallback(
+    (event: MouseEvent) => {
+      const path = event.composedPath();
+      if (
+        path.includes(containerRef.current as EventTarget) ||
+        path.includes(triggerElementRef.current as EventTarget)
+      ) {
+        return;
+      }
 
-    closeHandler();
-  };
+      closeHandler();
+    },
+    [closeHandler],
+  );
 
   useEffect(() => {
-    if (isOpen) {
-      document.body.addEventListener('click', closeMenuHandler);
-    }
+    if (isOpen && isEnabled) {
+      document.body.addEventListener('mousedown', closeMenuHandler);
 
-    return () => {
-      document.body.removeEventListener('click', closeMenuHandler);
-    };
-  }, [isOpen]);
+      return () => {
+        document.body.removeEventListener('mousedown', closeMenuHandler);
+      };
+    }
+  }, [isOpen, isEnabled]);
 };

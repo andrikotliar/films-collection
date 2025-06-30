@@ -14,24 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 634,
-      "characterName": "Will Salas"
-    },
-    {
-      "personId": 890,
-      "characterName": "Rachel Salas"
-    },
-    {
-      "personId": 1066,
-      "characterName": "Maya"
-    },
-    {
-      "personId": 599,
-      "characterName": "Borel"
-    }
-  ],
   "collections": [
     {
       "collectionId": 14,
@@ -45,43 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1695,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1695,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1695,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1696,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1697,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1698,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1699,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -101,6 +46,74 @@
     {
       "videoId": "fdadZ_KrZVw",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1695,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1695,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1695,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1696,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1697,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1698,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1699,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 634,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Will Salas"
+    },
+    {
+      "personId": 890,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rachel Salas"
+    },
+    {
+      "personId": 1066,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maya"
+    },
+    {
+      "personId": 599,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Borel"
     }
   ]
 }

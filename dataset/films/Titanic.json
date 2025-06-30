@@ -99,36 +99,6 @@
       "comment": "My Heart Will Go On"
     }
   ],
-  "cast": [
-    {
-      "personId": 716,
-      "characterName": "Jack Dawson"
-    },
-    {
-      "personId": 648,
-      "characterName": "Rose Dewitt Bukater"
-    },
-    {
-      "personId": 131,
-      "characterName": "Cal Hockley"
-    },
-    {
-      "personId": 651,
-      "characterName": "Molly Brown"
-    },
-    {
-      "personId": 378,
-      "characterName": "Ruth Dewitt Bukater"
-    },
-    {
-      "personId": 1224,
-      "characterName": "Captain Smith"
-    },
-    {
-      "personId": 414,
-      "characterName": "Old Rose"
-    }
-  ],
   "collections": [
     {
       "collectionId": 3,
@@ -138,38 +108,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1288,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1288,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1294,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1290,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1310,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -192,6 +130,86 @@
     {
       "videoId": "kVrqfYjkTdQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1288,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1294,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1290,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1310,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 716,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jack Dawson"
+    },
+    {
+      "personId": 648,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Rose Dewitt Bukater"
+    },
+    {
+      "personId": 131,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cal Hockley"
+    },
+    {
+      "personId": 651,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Molly Brown"
+    },
+    {
+      "personId": 378,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ruth Dewitt Bukater"
+    },
+    {
+      "personId": 1224,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain Smith"
+    },
+    {
+      "personId": 414,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Old Rose"
     }
   ]
 }

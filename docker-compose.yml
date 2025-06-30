@@ -1,0 +1,21 @@
+services:
+  database:
+    image: postgres:17-bookworm
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./films_collection_database:/var/lib/postgresql/data
+    env_file:
+      - .env
+  adminer:
+    image: adminer:latest
+    restart: always
+    environment: 
+      ADMINER_DEFAULT_SERVER: database
+      ADMINER_DESIGN: galkaev
+    ports:
+      - 8085:8080
+
+volumes:
+  films_collection_database:

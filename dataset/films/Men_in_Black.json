@@ -39,28 +39,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 1142,
-      "characterName": "Agent Kay"
-    },
-    {
-      "personId": 1178,
-      "characterName": "Agent Jay"
-    },
-    {
-      "personId": 727,
-      "characterName": "Laurel"
-    },
-    {
-      "personId": 1165,
-      "characterName": "Edgar"
-    },
-    {
-      "personId": 979,
-      "characterName": "Z"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -70,38 +48,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1824,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1825,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1826,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1827,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1828,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1829,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -124,6 +70,74 @@
     {
       "videoId": "1Q4mhYF9aQQ",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1824,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1825,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1826,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1827,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1828,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1829,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1142,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Kay"
+    },
+    {
+      "personId": 1178,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Jay"
+    },
+    {
+      "personId": 727,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Laurel"
+    },
+    {
+      "personId": 1165,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Edgar"
+    },
+    {
+      "personId": 979,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Z"
     }
   ]
 }

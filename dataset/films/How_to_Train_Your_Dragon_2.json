@@ -14,32 +14,6 @@
   "chapterKey": "how-to-train-your-dragon",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 533,
-      "characterName": "Hiccup"
-    },
-    {
-      "personId": 175,
-      "characterName": "Valka"
-    },
-    {
-      "personId": 404,
-      "characterName": "Stoick"
-    },
-    {
-      "personId": 51,
-      "characterName": "Astrid"
-    },
-    {
-      "personId": 297,
-      "characterName": "Drago Bludvist"
-    },
-    {
-      "personId": 685,
-      "characterName": "Eret"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -53,28 +27,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1663,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1663,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1665,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -94,6 +46,68 @@
     {
       "videoId": "2BP38770KNo",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1663,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1663,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1665,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 533,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Hiccup"
+    },
+    {
+      "personId": 175,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Valka"
+    },
+    {
+      "personId": 404,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Stoick"
+    },
+    {
+      "personId": 51,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Astrid"
+    },
+    {
+      "personId": 297,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Drago Bludvist"
+    },
+    {
+      "personId": 685,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Eret"
     }
   ]
 }

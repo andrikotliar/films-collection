@@ -45,28 +45,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 431,
-      "characterName": "Dr. Henry «Indiana» Jones, Jr."
-    },
-    {
-      "personId": 644,
-      "characterName": "Willie Scott"
-    },
-    {
-      "personId": 656,
-      "characterName": "Short Round"
-    },
-    {
-      "personId": 53,
-      "characterName": "Mola Ram"
-    },
-    {
-      "personId": 1008,
-      "characterName": "Chattar Lal"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -76,43 +54,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1375,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1710,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1711,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1703,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1707,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1563,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1708,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -138,6 +79,80 @@
     {
       "videoId": "WBdyLyijZhU",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1375,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1710,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1711,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1993,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1707,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1563,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1708,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 431,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Henry «Indiana» Jones, Jr."
+    },
+    {
+      "personId": 644,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Willie Scott"
+    },
+    {
+      "personId": 656,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Short Round"
+    },
+    {
+      "personId": 53,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mola Ram"
+    },
+    {
+      "personId": 1008,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Chattar Lal"
     }
   ]
 }

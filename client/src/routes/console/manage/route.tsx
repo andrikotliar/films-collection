@@ -1,5 +1,5 @@
-import { FILMS_ADMIN_LIST_PER_PAGE, NEW_FILM_ID } from '@/constants';
-import { useDocumentTitle } from '@/hooks';
+import { FILMS_ADMIN_LIST_PER_PAGE, NEW_ITEM_ID } from '@/constants';
+import { useDocumentTitle, useToaster } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters, FilmsAdminListItem } from '@/types';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
@@ -13,12 +13,12 @@ import {
 } from '@/components';
 import { number, object, string } from 'yup';
 import { AddItemLink } from '@/routes/console/-components';
-import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
 import { FilmsApi } from '@/api';
 import { useState } from 'react';
+import { AdminFilm } from '@/routes/console/manage/-components';
 
 const adminFilmsFilterSchema = object().shape({
-  q: string(),
+  q: string().nullable(),
   pageIndex: number().min(0),
   sortingField: string(),
   sortingDirection: string().oneOf(['asc', 'desc']),
@@ -43,21 +43,20 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+  const { showErrorMessage } = useToaster();
 
   const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(
     null,
   );
 
-  const {
-    mutate: handleDeleteFilm,
-    isPending,
-    error: deletionError,
-    variables,
-  } = useMutation({
+  const { mutate: handleDeleteFilm, isPending } = useMutation({
     mutationFn: FilmsApi.deleteFilm,
     onSuccess: () => {
       refetch();
       setFilmToDelete(null);
+    },
+    onError: (error) => {
+      showErrorMessage(error?.message);
     },
   });
 
@@ -79,16 +78,13 @@ function PageContainer() {
   return (
     <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
-      <AdminFilmsTools />
-      <AddItemLink to="/console/manage/$id" params={{ id: NEW_FILM_ID }}>
+      <AddItemLink to="/console/manage/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
-      <Panel>
-        <AdminFilmsGrid>
-          {data.films.map((film) => (
-            <AdminFilm film={film} key={film.id} onDelete={setFilmToDelete} />
-          ))}
-        </AdminFilmsGrid>
+      <Panel hasPaddings={false}>
+        {data.films.map((film) => (
+          <AdminFilm film={film} key={film.id} />
+        ))}
       </Panel>
       <Pagination
         total={data.total}
@@ -103,7 +99,6 @@ function PageContainer() {
         onClose={() => setFilmToDelete(null)}
         onConfirm={(film) => handleDeleteFilm(film.id)}
         isPending={isPending}
-        error={variables === filmToDelete?.id ? deletionError?.message : null}
       />
     </ConsoleContent>
   );

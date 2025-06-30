@@ -21,56 +21,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 453,
-      "characterName": "Logan / Wolverine"
-    },
-    {
-      "personId": 426,
-      "characterName": "Ororo Munroe / Storm"
-    },
-    {
-      "personId": 460,
-      "characterName": "Erik Lehnsherr / Magneto"
-    },
-    {
-      "personId": 903,
-      "characterName": "Charles Xavier / Professor X"
-    },
-    {
-      "personId": 367,
-      "characterName": "Jean Grey / Phoenix"
-    },
-    {
-      "personId": 66,
-      "characterName": "Marie / Rogue"
-    },
-    {
-      "personId": 663,
-      "characterName": "Dr. Henry 'Hank' McCoy / Beast"
-    },
-    {
-      "personId": 510,
-      "characterName": "Scott Summers / Cyclops"
-    },
-    {
-      "personId": 1063,
-      "characterName": "Bobby Drake / Iceman"
-    },
-    {
-      "personId": 2,
-      "characterName": "John Allerdyce / Pyro"
-    },
-    {
-      "personId": 1167,
-      "characterName": "Cain Marko / Juggernaut"
-    },
-    {
-      "personId": 334,
-      "characterName": "Kitty Pryde / Shadowcat"
-    }
-  ],
   "collections": [
     {
       "collectionId": 16,
@@ -80,43 +30,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2381,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1797,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1912,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1796,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2374,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1551,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1314,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -139,6 +52,122 @@
     {
       "videoId": "r8ZMvxzplwc",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2381,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1797,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1912,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1796,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2374,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1551,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1314,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 453,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Logan / Wolverine"
+    },
+    {
+      "personId": 426,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ororo Munroe / Storm"
+    },
+    {
+      "personId": 460,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Erik Lehnsherr / Magneto"
+    },
+    {
+      "personId": 903,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charles Xavier / Professor X"
+    },
+    {
+      "personId": 367,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jean Grey / Phoenix"
+    },
+    {
+      "personId": 66,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Marie / Rogue"
+    },
+    {
+      "personId": 663,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Dr. Henry 'Hank' McCoy / Beast"
+    },
+    {
+      "personId": 510,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "personId": 1063,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bobby Drake / Iceman"
+    },
+    {
+      "personId": 2,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "John Allerdyce / Pyro"
+    },
+    {
+      "personId": 1167,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Cain Marko / Juggernaut"
+    },
+    {
+      "personId": 334,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kitty Pryde / Shadowcat"
     }
   ]
 }

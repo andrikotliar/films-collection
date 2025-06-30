@@ -8,9 +8,6 @@ export class PendingFilmsRepository {
 
     const total = await this.databaseClient.pendingFilm.count({
       where: args.where,
-      take: args.take,
-      skip: args.skip,
-      orderBy: args.orderBy,
     });
 
     return { list, total };

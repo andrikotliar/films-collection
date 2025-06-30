@@ -14,52 +14,6 @@
   "chapterKey": "mcu",
   "chapterOrder": 2,
   "awards": [],
-  "cast": [
-    {
-      "personId": 151,
-      "characterName": "Carol Danvers / Captain Marvel"
-    },
-    {
-      "personId": 1036,
-      "characterName": "Nick Fury"
-    },
-    {
-      "personId": 110,
-      "characterName": "Talos / Keller"
-    },
-    {
-      "personId": 623,
-      "characterName": "Yon-Rogg"
-    },
-    {
-      "personId": 70,
-      "characterName": "Supreme Intelligence / Dr. Wendy Lawson"
-    },
-    {
-      "personId": 700,
-      "characterName": "Maria Rambeau"
-    },
-    {
-      "personId": 216,
-      "characterName": "Agent Coulson"
-    },
-    {
-      "personId": 1011,
-      "characterName": "Bron-Char"
-    },
-    {
-      "personId": 398,
-      "characterName": "Minn-Erva"
-    },
-    {
-      "personId": 297,
-      "characterName": "Korath"
-    },
-    {
-      "personId": 711,
-      "characterName": "Ronan"
-    }
-  ],
   "collections": [
     {
       "collectionId": 25,
@@ -69,48 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1402,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1403,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1402,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1403,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1404,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1309,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1405,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1406,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -133,6 +45,122 @@
     {
       "videoId": "TcMBFSGVi1c",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1402,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1403,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1402,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1403,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1404,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1309,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1405,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1406,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 151,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Carol Danvers / Captain Marvel"
+    },
+    {
+      "personId": 1036,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Nick Fury"
+    },
+    {
+      "personId": 110,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Talos / Keller"
+    },
+    {
+      "personId": 623,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Yon-Rogg"
+    },
+    {
+      "personId": 70,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Supreme Intelligence / Dr. Wendy Lawson"
+    },
+    {
+      "personId": 700,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Maria Rambeau"
+    },
+    {
+      "personId": 216,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Agent Coulson"
+    },
+    {
+      "personId": 1011,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Bron-Char"
+    },
+    {
+      "personId": 398,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Minn-Erva"
+    },
+    {
+      "personId": 297,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Korath"
+    },
+    {
+      "personId": 711,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Ronan"
     }
   ]
 }

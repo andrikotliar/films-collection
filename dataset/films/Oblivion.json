@@ -14,36 +14,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 1129,
-      "characterName": "Jack"
-    },
-    {
-      "personId": 854,
-      "characterName": "Beech"
-    },
-    {
-      "personId": 884,
-      "characterName": "Julia"
-    },
-    {
-      "personId": 55,
-      "characterName": "Victoria"
-    },
-    {
-      "personId": 875,
-      "characterName": "Sykes"
-    },
-    {
-      "personId": 814,
-      "characterName": "Sally"
-    },
-    {
-      "personId": 1203,
-      "characterName": "Kara"
-    }
-  ],
   "collections": [
     {
       "collectionId": 30,
@@ -53,53 +23,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1867,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1868,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1869,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1480,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1870,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1871,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1872,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1873,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1874,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -119,6 +42,104 @@
     {
       "videoId": "XmIIgE7eSak",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1867,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1868,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1869,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1480,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1870,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1871,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1872,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1873,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1874,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 1129,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jack"
+    },
+    {
+      "personId": 854,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Beech"
+    },
+    {
+      "personId": 884,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Julia"
+    },
+    {
+      "personId": 55,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Victoria"
+    },
+    {
+      "personId": 875,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sykes"
+    },
+    {
+      "personId": 814,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Sally"
+    },
+    {
+      "personId": 1203,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Kara"
     }
   ]
 }

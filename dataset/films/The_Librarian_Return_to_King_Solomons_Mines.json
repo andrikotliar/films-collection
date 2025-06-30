@@ -19,36 +19,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 879,
-      "characterName": "Flynn Carsen"
-    },
-    {
-      "personId": 391,
-      "characterName": "Emily Davenport"
-    },
-    {
-      "personId": 133,
-      "characterName": "Judson"
-    },
-    {
-      "personId": 518,
-      "characterName": "Charlene"
-    },
-    {
-      "personId": 353,
-      "characterName": "General Samir"
-    },
-    {
-      "personId": 425,
-      "characterName": "Jomo"
-    },
-    {
-      "personId": 1199,
-      "characterName": "Tommy Yellow Hawk"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -58,38 +28,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2203,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2204,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2212,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 879,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2206,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2213,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -109,6 +47,86 @@
     {
       "videoId": "ansvc2Muxr0",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2203,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2204,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2212,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 879,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2206,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2213,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 879,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Flynn Carsen"
+    },
+    {
+      "personId": 391,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Emily Davenport"
+    },
+    {
+      "personId": 133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Judson"
+    },
+    {
+      "personId": 518,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlene"
+    },
+    {
+      "personId": 353,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "General Samir"
+    },
+    {
+      "personId": 425,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jomo"
+    },
+    {
+      "personId": 1199,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Tommy Yellow Hawk"
     }
   ]
 }

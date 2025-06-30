@@ -45,24 +45,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 106,
-      "characterName": "WALL-E / M-O / AUTO"
-    },
-    {
-      "personId": 325,
-      "characterName": "EVE"
-    },
-    {
-      "personId": 541,
-      "characterName": "Captain"
-    },
-    {
-      "personId": 387,
-      "characterName": "Shelby Forthright"
-    }
-  ],
   "collections": [
     {
       "collectionId": 29,
@@ -76,43 +58,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1258,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1258,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2348,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1727,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1470,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 1472,
-      "position": "CAMERAMAN",
-      "comment": null
-    },
-    {
-      "personId": 2349,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -135,6 +80,74 @@
     {
       "videoId": "alIq_wG9FNk",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1258,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2348,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1727,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1470,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 1472,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 2349,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 106,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "WALL-E / M-O / AUTO"
+    },
+    {
+      "personId": 325,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "EVE"
+    },
+    {
+      "personId": 541,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Captain"
+    },
+    {
+      "personId": 387,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Shelby Forthright"
     }
   ]
 }

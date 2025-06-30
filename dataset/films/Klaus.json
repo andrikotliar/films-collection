@@ -13,32 +13,6 @@
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
-  "cast": [
-    {
-      "personId": 529,
-      "characterName": "Jesper"
-    },
-    {
-      "personId": 475,
-      "characterName": "Klaus"
-    },
-    {
-      "personId": 947,
-      "characterName": "Alva"
-    },
-    {
-      "personId": 1177,
-      "characterName": "Mr. Ellingboe"
-    },
-    {
-      "personId": 1254,
-      "characterName": "Mrs. Krum"
-    },
-    {
-      "personId": 1255,
-      "characterName": "Mogens"
-    }
-  ],
   "collections": [
     {
       "collectionId": 28,
@@ -55,68 +29,6 @@
     },
     {
       "countryId": 2
-    }
-  ],
-  "crew": [
-    {
-      "personId": 1748,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1749,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 1748,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1750,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1751,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1752,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 1753,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1754,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1755,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1756,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1757,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 1758,
-      "position": "COMPOSER",
-      "comment": null
     }
   ],
   "genres": [
@@ -139,6 +51,116 @@
     {
       "videoId": "taE3PwurhYM",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 1748,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1749,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 1748,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1750,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1751,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1752,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 1753,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1754,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1755,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1756,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1757,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 1758,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 529,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Jesper"
+    },
+    {
+      "personId": 475,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Klaus"
+    },
+    {
+      "personId": 947,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Alva"
+    },
+    {
+      "personId": 1177,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mr. Ellingboe"
+    },
+    {
+      "personId": 1254,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mrs. Krum"
+    },
+    {
+      "personId": 1255,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Mogens"
     }
   ]
 }

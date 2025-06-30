@@ -10,4 +10,4 @@ export const AuthRegisterSchema = Type.Object(
   { additionalProperties: false },
 );
 
-export type AuthRegisterPayload = Static<typeof AuthRegisterSchema>;
+export type AuthRegisterInput = Static<typeof AuthRegisterSchema>;

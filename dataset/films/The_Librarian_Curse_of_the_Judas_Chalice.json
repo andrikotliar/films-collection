@@ -19,28 +19,6 @@
       "comment": null
     }
   ],
-  "cast": [
-    {
-      "personId": 879,
-      "characterName": "Flynn Carsen"
-    },
-    {
-      "personId": 154,
-      "characterName": "Professor Lazlo / Vlad"
-    },
-    {
-      "personId": 1078,
-      "characterName": "Simone Renoir"
-    },
-    {
-      "personId": 133,
-      "characterName": "Judson"
-    },
-    {
-      "personId": 518,
-      "characterName": "Charlene"
-    }
-  ],
   "collections": [
     {
       "collectionId": 27,
@@ -50,38 +28,6 @@
   "countries": [
     {
       "countryId": 1
-    }
-  ],
-  "crew": [
-    {
-      "personId": 2203,
-      "position": "DIRECTOR",
-      "comment": null
-    },
-    {
-      "personId": 2204,
-      "position": "WRITER",
-      "comment": null
-    },
-    {
-      "personId": 2205,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 879,
-      "position": "PRODUCER",
-      "comment": null
-    },
-    {
-      "personId": 2206,
-      "position": "COMPOSER",
-      "comment": null
-    },
-    {
-      "personId": 2207,
-      "position": "CAMERAMAN",
-      "comment": null
     }
   ],
   "genres": [
@@ -101,6 +47,74 @@
     {
       "videoId": "SfONecwHgHY",
       "order": 1
+    }
+  ],
+  "castAndCrew": [
+    {
+      "personId": 2203,
+      "comment": null,
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "personId": 2204,
+      "comment": null,
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "personId": 2205,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 879,
+      "comment": null,
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "personId": 2206,
+      "comment": null,
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "personId": 2207,
+      "comment": null,
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "personId": 879,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Flynn Carsen"
+    },
+    {
+      "personId": 154,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Professor Lazlo / Vlad"
+    },
+    {
+      "personId": 1078,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Simone Renoir"
+    },
+    {
+      "personId": 133,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Judson"
+    },
+    {
+      "personId": 518,
+      "role": "ACTOR",
+      "comment": null,
+      "details": "Charlene"
     }
   ]
 }

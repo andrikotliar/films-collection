@@ -12,7 +12,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
 import { PostRow } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
-import { NEW_POST_ID, POSTS_ADMIN_PER_PAGE } from '@/constants';
+import { NEW_ITEM_ID, POSTS_ADMIN_PER_PAGE } from '@/constants';
 import { useState } from 'react';
 import { PostsListItem } from '@/types';
 import { PostsApi } from '@/api';
@@ -66,7 +66,7 @@ function PageContainer() {
   return (
     <ConsoleContent>
       <ConsoleTitle>Posts</ConsoleTitle>
-      <AddItemLink to="/console/posts/$id" params={{ id: NEW_POST_ID }}>
+      <AddItemLink to="/console/posts/$id" params={{ id: NEW_ITEM_ID }}>
         Add new post
       </AddItemLink>
       <Panel hasPaddings={false}>
