@@ -24,7 +24,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
 
   defineRoute({
     method: 'GET',
-    url: '/admin/list',
+    url: '/',
     preHandler: [app.authenticate],
     handler: async () => {
       const data = await app.collectionEventsService.getAllEvents();

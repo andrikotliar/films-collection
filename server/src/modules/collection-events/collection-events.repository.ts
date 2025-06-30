@@ -1,6 +1,9 @@
-import { CollectionEvent, PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 import { GetEventQueryResult } from './types';
-import { AutoFields } from 'src/common';
+import {
+  CreateCollectionEventPayload,
+  UpdateCollectionEventPayload,
+} from 'src/modules/collection-events/schemas';
 
 export class CollectionEventsRepository {
   constructor(private databaseClient: PrismaClient) {}
@@ -36,8 +39,11 @@ export class CollectionEventsRepository {
         id: true,
         title: true,
         image: true,
-        startDateCode: true,
-        endDateCode: true,
+        startDate: true,
+        endDate: true,
+        startMonth: true,
+        endMonth: true,
+        yearFrom: true,
         collection: {
           select: {
             id: true,
@@ -51,13 +57,13 @@ export class CollectionEventsRepository {
     });
   }
 
-  createEvent(data: Omit<CollectionEvent, AutoFields>) {
+  createEvent(data: CreateCollectionEventPayload) {
     return this.databaseClient.collectionEvent.create({
       data,
     });
   }
 
-  updateEvent(id: number, data: Partial<Omit<CollectionEvent, 'id'>>) {
+  updateEvent(id: number, data: UpdateCollectionEventPayload) {
     return this.databaseClient.collectionEvent.update({
       data,
       where: {

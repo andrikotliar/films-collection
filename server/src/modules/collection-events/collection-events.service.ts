@@ -35,16 +35,7 @@ export class CollectionEventsService {
   }
 
   createEvent(input: CreateCollectionEventPayload) {
-    const { startDate, endDate, ...data } = input;
-
-    const startDateCode = this.convertDateToCode(startDate);
-    const endDateCode = this.convertDateToCode(endDate);
-
-    return this.collectionEventsRepository.createEvent({
-      ...data,
-      startDateCode,
-      endDateCode,
-    });
+    return this.collectionEventsRepository.createEvent(input);
   }
 
   async deleteEvent(id: number) {
@@ -71,19 +62,7 @@ export class CollectionEventsService {
       await this.filesService.delete(eventBeforeUpdate.image);
     }
 
-    const { startDate, endDate, ...data } = input;
-
-    const payload: Partial<Omit<CollectionEvent, 'id'>> = { ...data };
-
-    if (startDate) {
-      payload.startDateCode = this.convertDateToCode(startDate);
-    }
-
-    if (endDate) {
-      payload.endDateCode = this.convertDateToCode(endDate);
-    }
-
-    return this.collectionEventsRepository.updateEvent(id, payload);
+    return this.collectionEventsRepository.updateEvent(id, input);
   }
 
   getAllEvents() {
