@@ -31,9 +31,9 @@ A personal list of films with manually collected data. The app primarily focuses
 ## Start development server
 
 1. In the project root, run `npm run install` to install dependencies for both the client and server.
-2. Create `.env` files in the `root`, `server` and `client` directories following examples from the `./env.sample.txt`, `./server/env.sample.txt` and `./client/env.sample.txt` respectively.
-3. Run `docker compose up -d` to start database and adminer services. Now you can open database client on the [http://localhost:8085/](http://localhost:8085/). Server is `database`, username, password and database are specified in the root `.env` file.
-4. Run `npm run db:init` in the root. It will run migration and seed data from the `dataset` folder. If you don't want to seed the database, run `npm run db:init:migration` instead.
+2. Create `.env` files in the `root`, `server` and `client` directories following examples from the `./.env.sample`, `./server/.env.sample` and `./client/env.sample.txt` respectively.
+3. Run `docker compose up -d` to spin up a database. It will take variables defined in the root `.env` file.
+4. Run `npm run db:init` in the root. It will run migration and seed data from the `dataset` folder. If you don't want to seed the database, run `npm run db:init:migration` instead. Fill `APP_ADMIN_USERNAME` and `APP_ADMIN_PASSWORD` variables to seed admin user to the database.
 5. In the project's root run `npm run dev` to start the application.
 
 The application has different images like posters or award images. It can work without them, but you will see placeholders in all places where images are used.
