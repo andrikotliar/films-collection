@@ -13,8 +13,13 @@ import {
 } from '@prisma/client';
 import { ITXClientDenyList } from '@prisma/client/runtime/library';
 import { readdir, readFile } from 'node:fs/promises';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+import { config as dotenvConfig } from 'dotenv';
+import { hash } from 'bcrypt';
+
+dotenvConfig({
+  path: join(import.meta.dirname, '../../.env'),
+});
 
 type FilmBaseData = Omit<Film, 'createdAt' | 'updatedAt' | 'draft'> & {
   $schema: string;
@@ -47,12 +52,9 @@ type FileToPrismaHandlerConfig = {
   [fileName: string]: (data: any) => Promise<void>;
 };
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
 const prisma = new PrismaClient();
 
-const datasetFolderPath = join(__dirname, '../../dataset');
+const datasetFolderPath = join(import.meta.dirname, '../../dataset');
 const filmsJsonFolderPath = join(datasetFolderPath, 'films');
 const generalJsonFolderPath = join(datasetFolderPath, 'general');
 
@@ -62,6 +64,22 @@ const alterSequence = async (tableName: string) => {
   await prisma.$executeRawUnsafe(`
     SELECT setval('${sequence}', (SELECT MAX(id) FROM ${tableName}));
   `);
+};
+
+const getAdminUser = async (): Promise<Prisma.UserCreateInput | null> => {
+  const { APP_ADMIN_USERNAME, APP_ADMIN_PASSWORD } = process.env;
+
+  if (!APP_ADMIN_USERNAME || !APP_ADMIN_PASSWORD) {
+    return null;
+  }
+
+  const password = await hash(APP_ADMIN_PASSWORD, 10);
+
+  return {
+    username: APP_ADMIN_USERNAME,
+    password,
+    verified: true,
+  };
 };
 
 const getFileToPrismaHandlerConfig = (
@@ -244,6 +262,14 @@ const main = async () => {
   }
 
   await alterSequence('films');
+
+  const adminUser = await getAdminUser();
+
+  if (adminUser) {
+    await prisma.user.create({
+      data: adminUser,
+    });
+  }
 };
 
 main()
