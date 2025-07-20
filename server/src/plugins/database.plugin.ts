@@ -2,17 +2,11 @@ import { FastifyInstance } from 'fastify';
 import { PrismaClient } from '@prisma/client';
 import fastifyPlugin from 'fastify-plugin';
 
-declare module 'fastify' {
-  export interface FastifyInstance {
-    database: PrismaClient;
-  }
-}
-
 const prisma = new PrismaClient({
   log: ['info'],
 });
 
-const prismaDecorator = async (app: FastifyInstance) => {
+const databaseDecorator = async (app: FastifyInstance) => {
   app.decorate('database', prisma);
 
   app.addHook('onClose', async (instance) => {
@@ -20,4 +14,4 @@ const prismaDecorator = async (app: FastifyInstance) => {
   });
 };
 
-export const PrismaPlugin = fastifyPlugin(prismaDecorator);
+export const DatabasePlugin = fastifyPlugin(databaseDecorator);
