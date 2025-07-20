@@ -17,7 +17,6 @@ export const EditPersonForm = ({
 }: EditPersonFormProps) => {
   const form = usePersonForm({
     name: person.name,
-    image: person.image,
   });
 
   const { mutate, isPending } = useManagePerson({

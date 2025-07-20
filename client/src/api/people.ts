@@ -3,7 +3,6 @@ import { ListOption, Person } from '@/common';
 
 export type ManagePersonPayload = {
   name: string;
-  image: string | null;
 };
 
 export type GetPeopleListQueries = {

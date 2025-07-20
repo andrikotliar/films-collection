@@ -5,7 +5,6 @@ import { createPersonSchema } from '../validation';
 
 const defaultValues: PersonFormValues = {
   name: '',
-  image: null,
 };
 
 export const usePersonForm = (initialValues?: PersonFormValues) => {
