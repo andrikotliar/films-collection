@@ -1,52 +1,33 @@
-import { config } from 'dotenv';
+import 'dotenv/config';
+import z from 'zod';
 
-config();
+const EnvSchema = z.object({
+  SERVER_PORT: z.string().transform((value) => Number(value)),
+  SERVER_HOST: z.string().optional(),
+  POSTGRES_USER: z.string(),
+  POSTGRES_PASSWORD: z.string(),
+  POSTGRES_DB: z.string(),
+  POSTGRES_HOST: z.string(),
+  POSTGRES_PORT: z.string().transform((value) => Number(value)),
+  AUTH_SECRET: z.string(),
+  COOKIE_SECRET: z.string(),
+  CLOUDINARY_CLOUD_NAME: z.string(),
+  CLOUDINARY_API_KEY: z.string(),
+  CLOUDINARY_API_SECRET: z.string(),
+  FRONTEND_ORIGIN: z.string(),
+  NODE_ENV: z.string().optional(),
+  DATABASE_URL: z.string(),
+});
 
-export type EnvVariables = {
-  PORT: number;
-  DATABASE_URL: string;
-  AUTH_SECRET: string;
-  COOKIE_SECRET: string;
-  CLOUDINARY_CLOUD_NAME: string;
-  CLOUDINARY_API_KEY: string;
-  CLOUDINARY_API_SECRET: string;
-  HOST?: string;
-  NODE_ENV?: string;
-  FRONTEND_ORIGIN?: string;
-};
-
-const REQUIRED_VARIABLES = [
-  'PORT',
-  'HOST',
-  'DATABASE_URL',
-  'AUTH_SECRET',
-  'COOKIE_SECRET',
-  'CLOUDINARY_CLOUD_NAME',
-  'CLOUDINARY_API_KEY',
-  'CLOUDINARY_API_SECRET',
-] as const;
+export type EnvVariables = z.infer<typeof EnvSchema>;
 
 const getEnvVariables = (): EnvVariables => {
-  const env = process.env as unknown as EnvVariables;
-
-  for (const variable of REQUIRED_VARIABLES) {
-    if (!env[variable]) {
-      throw new Error(`Missing environment variable: ${variable}`);
-    }
+  try {
+    return EnvSchema.parse(process.env);
+  } catch (error: any) {
+    console.error(error);
+    process.exit(1);
   }
-
-  return {
-    PORT: Number(env.PORT),
-    HOST: env.HOST,
-    DATABASE_URL: env.DATABASE_URL,
-    NODE_ENV: env.NODE_ENV,
-    FRONTEND_ORIGIN: env.FRONTEND_ORIGIN,
-    AUTH_SECRET: env.AUTH_SECRET,
-    COOKIE_SECRET: env.COOKIE_SECRET,
-    CLOUDINARY_CLOUD_NAME: env.CLOUDINARY_CLOUD_NAME,
-    CLOUDINARY_API_KEY: env.CLOUDINARY_API_KEY,
-    CLOUDINARY_API_SECRET: env.CLOUDINARY_API_SECRET,
-  };
 };
 
 export const env = getEnvVariables();
