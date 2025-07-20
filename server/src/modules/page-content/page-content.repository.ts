@@ -1,21 +1,21 @@
 import { PrismaClient } from '@prisma/client';
 import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
 import {
-  CreatePostPayload,
+  CreatePageContentPayload,
   GetListQueries,
   UpdatePostPayload,
-} from 'src/modules/posts/schemas';
+} from 'src/modules/page-content/schemas';
 
-export class PostsRepository {
+export class PageContentRepository {
   constructor(private readonly databaseClient: PrismaClient) {}
 
-  getPost(id: number) {
-    return this.databaseClient.post.findUnique({
+  getPageContent(id: number) {
+    return this.databaseClient.pageContent.findUnique({
       select: {
         id: true,
         title: true,
         content: true,
-        pageKey: true,
+        pageUrl: true,
       },
       where: {
         id,
@@ -24,12 +24,12 @@ export class PostsRepository {
   }
 
   async getList({ skip }: GetListQueries) {
-    const list = await this.databaseClient.post.findMany({
+    const list = await this.databaseClient.pageContent.findMany({
       select: {
         id: true,
         title: true,
         content: true,
-        pageKey: true,
+        pageUrl: true,
       },
       take: DEFAULT_PAGINATION_LIMIT,
       skip,
@@ -38,7 +38,7 @@ export class PostsRepository {
       },
     });
 
-    const count = await this.databaseClient.post.count();
+    const count = await this.databaseClient.pageContent.count();
 
     return {
       list,
@@ -46,27 +46,27 @@ export class PostsRepository {
     };
   }
 
-  getPostByKey(key: string) {
-    return this.databaseClient.post.findFirst({
+  getPageContentByPageUrl(url: string) {
+    return this.databaseClient.pageContent.findFirst({
       select: {
         id: true,
         content: true,
         title: true,
       },
       where: {
-        pageKey: key,
+        pageUrl: url,
       },
     });
   }
 
-  createPost(input: CreatePostPayload) {
-    return this.databaseClient.post.create({
+  createPageContent(input: CreatePageContentPayload) {
+    return this.databaseClient.pageContent.create({
       data: input,
     });
   }
 
-  updatePost(id: number, input: UpdatePostPayload) {
-    return this.databaseClient.post.update({
+  updatePageContent(id: number, input: UpdatePostPayload) {
+    return this.databaseClient.pageContent.update({
       where: {
         id,
       },
@@ -74,8 +74,8 @@ export class PostsRepository {
     });
   }
 
-  deletePost(id: number) {
-    return this.databaseClient.post.delete({
+  deletePageContent(id: number) {
+    return this.databaseClient.pageContent.delete({
       where: { id },
     });
   }

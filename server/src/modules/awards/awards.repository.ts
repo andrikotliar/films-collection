@@ -12,7 +12,6 @@ export class AwardsRepository extends BaseRepository {
       id: true,
       title: true,
       description: true,
-      image: true,
     };
 
     if (shouldIncludeNominations) {

@@ -1,21 +1,21 @@
 import { IdParamSchema, NotFoundException, router } from 'src/common';
 import {
-  CreatePostSchema,
   GetListQueriesSchema,
-  GetPostByKeyParamsSchema,
-  UpdatePostSchema,
+  UpdatePageContentSchema,
+  GetPageContentByPageUrlParamsSchema,
+  CreatePageContentSchema,
 } from './schemas';
 
-export const PostsController = router((app, defineRoute) => [
+export const PageContentController = router((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePostSchema,
+      body: CreatePageContentSchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.postsService.createPost(request.body);
+      const data = await app.pageContentService.createPageContent(request.body);
 
       return {
         status: 'CREATED',
@@ -31,7 +31,7 @@ export const PostsController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.postsService.getList(request.query);
+      const data = await app.pageContentService.getList(request.query);
 
       return {
         status: 'OK',
@@ -43,16 +43,16 @@ export const PostsController = router((app, defineRoute) => [
     method: 'GET',
     url: '/page/:pageKey',
     schema: {
-      params: GetPostByKeyParamsSchema,
+      params: GetPageContentByPageUrlParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.postsService.getPostByPageKey(
-        request.params.pageKey,
+      const data = await app.pageContentService.getPageContentByPageUrl(
+        request.params.pageUrl,
       );
 
       if (!data) {
         throw new NotFoundException({
-          message: `Post for page key ${request.params.pageKey} not found!`,
+          message: `Post for page key ${request.params.pageUrl} not found!`,
         });
       }
 
@@ -69,7 +69,9 @@ export const PostsController = router((app, defineRoute) => [
       params: IdParamSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.postsService.getPost(request.params.id);
+      const data = await app.pageContentService.getPageContent(
+        request.params.id,
+      );
 
       return {
         status: 'OK',
@@ -81,12 +83,12 @@ export const PostsController = router((app, defineRoute) => [
     method: 'PATCH',
     url: '/:id',
     schema: {
-      body: UpdatePostSchema,
+      body: UpdatePageContentSchema,
       params: IdParamSchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.postsService.updatePost(
+      const data = await app.pageContentService.updatePageContent(
         request.params.id,
         request.body,
       );
@@ -105,7 +107,9 @@ export const PostsController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.postsService.deletePost(request.params.id);
+      const data = await app.pageContentService.deletePageContent(
+        request.params.id,
+      );
 
       return {
         status: 'OK',

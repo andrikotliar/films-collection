@@ -41,7 +41,6 @@ model Film {
 model Person {
   id        Int                   @id @default(autoincrement())
   name      String
-  image     String?
   createdAt DateTime              @default(now()) @map("created_at")
   updatedAt DateTime              @updatedAt @map("updated_at")
   selected  Boolean               @default(false)
@@ -167,7 +166,6 @@ model Award {
   id          Int                   @id @default(autoincrement())
   title       String                @unique
   description String?
-  image       String
   nominations Nomination[]
   films       FilmAwardNomination[]
   createdAt   DateTime              @default(now()) @map("created_at")
@@ -290,6 +288,18 @@ model Post {
   updatedAt DateTime @default(now()) @map("updated_at")
 
   @@map("posts")
+}
+
+model PageContent {
+  id      Int    @id @default(autoincrement())
+  title   String
+  content String
+  pageUrl String @map("page_url")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @default(now()) @map("updated_at")
+
+  @@map("page_content")
 }
 
 enum TitleType {

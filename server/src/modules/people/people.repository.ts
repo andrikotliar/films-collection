@@ -22,7 +22,6 @@ export class PeopleRepository {
       select: {
         id: true,
         name: true,
-        image: true,
       },
       orderBy: {
         name: 'asc',
