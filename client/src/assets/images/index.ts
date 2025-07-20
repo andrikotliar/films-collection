@@ -1,5 +1,5 @@
-import NoImagePreviewImage from '@/assets/images/preview/no-image-preview.webp';
-import NoVideoPreviewImage from '@/assets/images/preview/no-video-preview.webp';
+import NoImagePreviewImage from './not-found/no-image-preview.webp';
+import NoVideoPreviewImage from './not-found/no-video-preview.webp';
 
 type ImageName = 'noImagePreview' | 'noVideoPreview';
 

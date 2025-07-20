@@ -1,7 +1,7 @@
-import { FormValues } from '@/routes/console/posts_/-types';
+import { FormValues } from '../-types';
 
 export const formDefaultValues: FormValues = {
   title: '',
-  pageKey: null,
+  pageKey: '',
   content: '',
 };

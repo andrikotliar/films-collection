@@ -1,8 +1,8 @@
 import { useDocumentTitle } from '@/hooks';
 import {
-  fetchAdminPostsListQuery,
+  fetchAdminPageContentListQuery,
   NEW_ITEM_ID,
-  POSTS_ADMIN_PER_PAGE,
+  PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
 } from '@/common';
 import {
@@ -15,25 +15,25 @@ import {
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
-import { PostRow } from './-components';
+import { PageContentRow } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
 import { useState } from 'react';
-import { PostsApi } from '@/api';
+import { PageContentApi } from '@/api';
 
-const postsListFiltersSchema = object().shape({
+const pageContentListFiltersSchema = object().shape({
   pageIndex: number(),
 });
 
-export const Route = createFileRoute('/console/posts')({
+export const Route = createFileRoute('/console/page-content')({
   validateSearch: (search) => {
-    return postsListFiltersSchema.validateSync(search);
+    return pageContentListFiltersSchema.validateSync(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: ({ context, deps }) => {
     return context.queryClient.ensureQueryData(
-      fetchAdminPostsListQuery(deps.search),
+      fetchAdminPageContentListQuery(deps.search),
     );
   },
   component: PageContainer,
@@ -43,21 +43,20 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, refetch } = useSuspenseQuery(
-    fetchAdminPostsListQuery(searchParams),
+    fetchAdminPageContentListQuery(searchParams),
   );
-  const [postToDelete, setPostToDelete] = useState<PageContentListItem | null>(
-    null,
-  );
+  const [pageContentToDelete, setPageContentToDelete] =
+    useState<PageContentListItem | null>(null);
 
-  const { mutate: deletePost, isPending } = useMutation({
-    mutationFn: (id: number) => PostsApi.deletePost(id),
+  const { mutate: deletePageContent, isPending } = useMutation({
+    mutationFn: (id: number) => PageContentApi.deletePageContent(id),
     onSuccess: () => {
       refetch();
-      setPostToDelete(null);
+      setPageContentToDelete(null);
     },
   });
 
-  useDocumentTitle('Posts');
+  useDocumentTitle('Page Content');
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -70,27 +69,31 @@ function PageContainer() {
 
   return (
     <ConsoleContent>
-      <ConsoleTitle>Posts</ConsoleTitle>
-      <AddItemLink to="/console/posts/$id" params={{ id: NEW_ITEM_ID }}>
-        Add new post
+      <ConsoleTitle>Pages Content</ConsoleTitle>
+      <AddItemLink to="/console/page-content/$id" params={{ id: NEW_ITEM_ID }}>
+        Add new page content
       </AddItemLink>
       <Panel hasPaddings={false}>
-        {data.list.map((post) => (
-          <PostRow data={post} key={post.id} onDelete={setPostToDelete} />
+        {data.list.map((pageContent) => (
+          <PageContentRow
+            data={pageContent}
+            key={pageContent.id}
+            onDelete={setPageContentToDelete}
+          />
         ))}
       </Panel>
       <Pagination
         total={data.count}
         onPageChange={handlePageChange}
-        perPageCounter={POSTS_ADMIN_PER_PAGE}
+        perPageCounter={PAGE_CONTENT_ADMIN_PER_PAGE}
         currentPageIndex={searchParams.pageIndex}
-        totalLabel="posts"
+        totalLabel="pages content"
       />
       <ConfirmModal
-        title={`Delete ${postToDelete?.title} ?`}
-        data={postToDelete}
-        onClose={() => setPostToDelete(null)}
-        onConfirm={(data) => deletePost(data.id)}
+        title={`Delete ${pageContentToDelete?.title} ?`}
+        data={pageContentToDelete}
+        onClose={() => setPageContentToDelete(null)}
+        onConfirm={(data) => deletePageContent(data.id)}
         isPending={isPending}
       />
     </ConsoleContent>

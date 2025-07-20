@@ -1,12 +1,12 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { fetchPostByKeyQuery } from '@/common';
+import { fetchPageContentByKeyQuery } from '@/common';
 import { ArticleContent } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/about')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(fetchPostByKeyQuery('about'));
+    await queryClient.ensureQueryData(fetchPageContentByKeyQuery('about'));
   },
   component: AboutPageContainer,
 });
@@ -15,11 +15,13 @@ function AboutPageContainer() {
   useDocumentTitle('About');
   useScrollToTop([]);
 
-  const { data: article } = useSuspenseQuery(fetchPostByKeyQuery('about'));
+  const { data: article } = useSuspenseQuery(
+    fetchPageContentByKeyQuery('about'),
+  );
 
   return (
     <ArticleContent>
-      <h1>About</h1>
+      <h1>{article.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: article.content }} />
     </ArticleContent>
   );

@@ -1,8 +1,12 @@
-import { PostsApi } from '@/api';
-import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPostByIdQuery } from '@/common';
-import { PostForm } from './-components';
-import { FormValues } from '@/routes/console/posts_/-types';
-import { formValidation } from '@/routes/console/posts_/-validation';
+import { PageContentApi } from '@/api';
+import {
+  ALLOWED_HTML_TAGS,
+  NEW_ITEM_ID,
+  fetchPageContentByIdQuery,
+} from '@/common';
+import { PageContentForm } from './-components';
+import { FormValues } from './-types';
+import { formValidation } from './-validation';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
@@ -10,12 +14,12 @@ import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { FormProvider, useForm } from 'react-hook-form';
 import sanitize from 'sanitize-html';
 import { useToaster } from '@/hooks';
-import { getDefaultFormValues } from '@/routes/console/posts_/-helpers';
+import { getDefaultFormValues } from './-helpers';
 
-export const Route = createFileRoute('/console/posts_/$id')({
+export const Route = createFileRoute('/console/page-content_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
     if (params.id !== NEW_ITEM_ID) {
-      await queryClient.ensureQueryData(fetchPostByIdQuery(params.id));
+      await queryClient.ensureQueryData(fetchPageContentByIdQuery(params.id));
     }
   },
   component: RouteComponent,
@@ -27,26 +31,26 @@ function RouteComponent() {
   const { showErrorMessage } = useToaster();
 
   const isEdit = id !== NEW_ITEM_ID;
-  const title = isEdit ? 'Edit post' : 'Create post';
+  const title = isEdit ? 'Edit page content' : 'Create page content';
 
-  const { data } = useSuspenseQuery(fetchPostByIdQuery(id));
+  const { data } = useSuspenseQuery(fetchPageContentByIdQuery(id));
 
   const form = useForm({
     defaultValues: getDefaultFormValues(data),
     resolver: yupResolver(formValidation),
   });
 
-  const { mutate: managePost, isPending } = useMutation({
+  const { mutate: managePageContent, isPending } = useMutation({
     mutationFn: (data: FormValues) => {
       if (id !== NEW_ITEM_ID) {
-        return PostsApi.updatePost(+id, data);
+        return PageContentApi.updatePageContent(Number(id), data);
       }
 
-      return PostsApi.createPost(data);
+      return PageContentApi.createPageContent(data);
     },
     onSuccess: () => {
       navigate({
-        to: '/console/posts',
+        to: '/console/page-content',
       });
     },
     onError: (error) => {
@@ -60,7 +64,7 @@ function RouteComponent() {
       allowedAttributes: {},
     });
 
-    managePost({
+    managePageContent({
       ...values,
       content: sanitizedContent,
     });
@@ -68,11 +72,11 @@ function RouteComponent() {
 
   return (
     <ConsoleContent>
-      <BackLink path="/console/posts">Back to list</BackLink>
+      <BackLink path="/console/page-content">Back to list</BackLink>
       <ConsoleTitle>{title}</ConsoleTitle>
       <Panel>
         <FormProvider {...form}>
-          <PostForm
+          <PageContentForm
             onSubmit={form.handleSubmit(handleSubmit)}
             isLoading={isPending}
           />

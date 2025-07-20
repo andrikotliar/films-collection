@@ -20,14 +20,7 @@ export const AdditionalInfoSection = ({ info }: AdditionalInfoProps) => {
   }
 
   if (info.type === 'actor') {
-    return (
-      <InfoBlock
-        imagePath={info.data.image}
-        imageAlt={`Photo of ${info.data.name}`}
-        title={info.data.name}
-        label="Filtered by Actor"
-      />
-    );
+    return <InfoBlock title={info.data.name} label="Filtered by Actor" />;
   }
 
   if (info.type === 'collection') {
@@ -50,7 +43,6 @@ export const AdditionalInfoSection = ({ info }: AdditionalInfoProps) => {
         title={info.data.title}
         label="Filtered by Award"
         description={info.data.description}
-        imagePath={info.data.image}
       />
     );
   }

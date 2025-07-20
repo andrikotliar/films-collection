@@ -1,12 +1,15 @@
-import styles from './post-form.module.css';
+import styles from './page-content-form.module.css';
 import { Button, FormTextEditor, FormTextInput } from '@/components';
 
-type PostFormProps = {
+type PageContentFormProps = {
   onSubmit: VoidFunction;
   isLoading: boolean;
 };
 
-export const PostForm = ({ isLoading, onSubmit }: PostFormProps) => {
+export const PageContentForm = ({
+  isLoading,
+  onSubmit,
+}: PageContentFormProps) => {
   return (
     <form onSubmit={onSubmit} className={styles.form}>
       <FormTextInput name="title" label="Title" />

@@ -1,5 +1,5 @@
 export type FormValues = {
   title: string;
-  pageKey: string | null;
+  pageKey: string;
   content: string;
 };

@@ -33,9 +33,9 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     icon: <CalendarIcon />,
   },
   {
-    id: 'posts',
-    route: '/console/posts',
-    title: 'Posts',
+    id: 'page-content',
+    route: '/console/page-content',
+    title: 'Pages Content',
     icon: <NewspaperIcon />,
   },
 ];

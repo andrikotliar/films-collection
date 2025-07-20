@@ -2,7 +2,7 @@ export type PageContent = {
   id: number;
   title: string;
   content: string;
-  pageUrl: string;
+  pageKey: string;
 };
 
 export type PageContentListItem = Omit<PageContent, 'content'> & {
