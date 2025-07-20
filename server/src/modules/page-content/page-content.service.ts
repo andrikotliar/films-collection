@@ -16,8 +16,8 @@ export class PageContentService {
     return this.pageContentRepository.getPageContent(id);
   }
 
-  getPageContentByPageUrl(url: string) {
-    return this.pageContentRepository.getPageContentByPageUrl(url);
+  getPageContentByKey(key: string) {
+    return this.pageContentRepository.getPageContentByKey(key);
   }
 
   createPageContent(input: CreatePageContentPayload) {

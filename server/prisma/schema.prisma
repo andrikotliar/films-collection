@@ -294,7 +294,7 @@ model PageContent {
   id      Int    @id @default(autoincrement())
   title   String
   content String
-  pageUrl String @map("page_url")
+  pageKey String @map("page_key")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @default(now()) @map("updated_at")

@@ -46,13 +46,13 @@ export const PageContentController = router((app, defineRoute) => [
       params: GetPageContentByPageUrlParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pageContentService.getPageContentByPageUrl(
-        request.params.pageUrl,
+      const data = await app.pageContentService.getPageContentByKey(
+        request.params.pageKey,
       );
 
       if (!data) {
         throw new NotFoundException({
-          message: `Post for page key ${request.params.pageUrl} not found!`,
+          message: `Post for page key ${request.params.pageKey} not found!`,
         });
       }
 

@@ -2,7 +2,7 @@ import { Static, Type } from '@sinclair/typebox';
 
 export const CreatePageContentSchema = Type.Object({
   title: Type.String(),
-  pageUrl: Type.String(),
+  pageKey: Type.String(),
   content: Type.String(),
 });
 

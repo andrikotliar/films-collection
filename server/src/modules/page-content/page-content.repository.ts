@@ -15,7 +15,7 @@ export class PageContentRepository {
         id: true,
         title: true,
         content: true,
-        pageUrl: true,
+        pageKey: true,
       },
       where: {
         id,
@@ -29,7 +29,7 @@ export class PageContentRepository {
         id: true,
         title: true,
         content: true,
-        pageUrl: true,
+        pageKey: true,
       },
       take: DEFAULT_PAGINATION_LIMIT,
       skip,
@@ -46,7 +46,7 @@ export class PageContentRepository {
     };
   }
 
-  getPageContentByPageUrl(url: string) {
+  getPageContentByKey(key: string) {
     return this.databaseClient.pageContent.findFirst({
       select: {
         id: true,
@@ -54,7 +54,7 @@ export class PageContentRepository {
         title: true,
       },
       where: {
-        pageUrl: url,
+        pageKey: key,
       },
     });
   }
