@@ -1,4 +1,4 @@
-import { NEW_ITEM_ID } from '@/constants';
+import { NEW_ITEM_ID } from '../constants';
 
 type StorageKeyType = 'films' | 'state';
 

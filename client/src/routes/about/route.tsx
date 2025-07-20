@@ -1,5 +1,5 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { fetchPostByKeyQuery } from '@/queries';
+import { fetchPostByKeyQuery } from '@/common';
 import { ArticleContent } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';

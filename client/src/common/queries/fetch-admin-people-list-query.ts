@@ -1,5 +1,5 @@
 import { GetPeopleListQueries, PeopleApi } from '@/api';
-import { PEOPLE_ADMIN_PER_PAGE } from '@/constants';
+import { PEOPLE_ADMIN_PER_PAGE } from '../constants';
 import { queryOptions } from '@tanstack/react-query';
 
 export type FetchAdminPeopleListParams = {

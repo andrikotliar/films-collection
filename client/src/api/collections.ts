@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { Collection, ListOption } from '@/types';
+import { Collection, ListOption } from '@/common';
 
 export type BaseDataListResponse = {
   list: Collection[];

@@ -1,11 +1,11 @@
 import { images } from '@/assets/images';
 import styles from './video-preview.module.css';
 import { Image } from '@/components/image/image';
-import { replaceUrlId } from '@/helpers';
 import {
+  replaceUrlId,
   EMBEDDED_YOUTUBE_VIDEO_URL,
   YOUTUBE_VIDEO_DIRECT_URL,
-} from '@/constants';
+} from '@/common';
 import { PlayIcon } from 'lucide-react';
 
 type VideoPreviewProps = {

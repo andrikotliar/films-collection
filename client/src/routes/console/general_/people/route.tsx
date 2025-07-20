@@ -6,9 +6,12 @@ import {
   ConsoleTitle,
   Pagination,
 } from '@/components';
-import { PEOPLE_ADMIN_PER_PAGE } from '@/constants';
+import {
+  PEOPLE_ADMIN_PER_PAGE,
+  fetchAdminPeopleListQuery,
+  type Person,
+} from '@/common';
 import { useToaster } from '@/hooks';
-import { fetchAdminPeopleListQuery } from '@/queries';
 import { PersonForm, List, FormModal } from '@/routes/console/-components';
 import {
   useManagePerson,
@@ -18,7 +21,6 @@ import {
   EditPersonForm,
   Filters,
 } from '@/routes/console/general_/people/-components';
-import { Person } from '@/types';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';

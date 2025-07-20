@@ -10,7 +10,7 @@ import {
   FormSelect,
   FormFileInput,
 } from '@/components';
-import { InitialData } from '@/types';
+import { InitialData } from '@/common';
 import {
   AwardsSelect,
   ChapterSelect,

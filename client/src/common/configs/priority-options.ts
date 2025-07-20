@@ -1,5 +1,5 @@
-import { Priority } from '@/enums';
-import { ListOption } from '@/types';
+import { Priority } from '../enums';
+import { ListOption } from '../types';
 import { priorityToColor } from './priority-to-color';
 
 export const priorityOptions: ListOption<number>[] = [

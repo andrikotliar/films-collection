@@ -1,5 +1,10 @@
 import { useDocumentTitle } from '@/hooks';
-import { fetchAdminPostsListQuery } from '@/queries';
+import {
+  fetchAdminPostsListQuery,
+  NEW_ITEM_ID,
+  POSTS_ADMIN_PER_PAGE,
+  type PageContentListItem,
+} from '@/common';
 import {
   ConfirmModal,
   ConsoleContent,
@@ -12,9 +17,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
 import { PostRow } from './-components';
 import { AddItemLink } from '@/routes/console/-components';
-import { NEW_ITEM_ID, POSTS_ADMIN_PER_PAGE } from '@/constants';
 import { useState } from 'react';
-import { PostsListItem } from '@/types';
 import { PostsApi } from '@/api';
 
 const postsListFiltersSchema = object().shape({
@@ -42,7 +45,9 @@ function PageContainer() {
   const { data, refetch } = useSuspenseQuery(
     fetchAdminPostsListQuery(searchParams),
   );
-  const [postToDelete, setPostToDelete] = useState<PostsListItem | null>(null);
+  const [postToDelete, setPostToDelete] = useState<PageContentListItem | null>(
+    null,
+  );
 
   const { mutate: deletePost, isPending } = useMutation({
     mutationFn: (id: number) => PostsApi.deletePost(id),

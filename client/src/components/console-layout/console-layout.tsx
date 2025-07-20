@@ -2,7 +2,7 @@ import styles from './console-layout.module.css';
 import { useMemo, useRef, useState } from 'react';
 import { ConsoleHeader, ConsoleMenu } from './components';
 import { Outlet } from '@tanstack/react-router';
-import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
+import { MOBILE_VIEW_BREAKPOINT_PX } from '@/common';
 import { LocalStorage } from '@/services';
 import { useClickOutside, useCloseOnScroll } from '@/hooks';
 

@@ -1,4 +1,4 @@
-import { debounce } from '@/helpers';
+import { debounce } from '@/common';
 import { ChangeEvent, useCallback } from 'react';
 
 type SearchHandler = (value: string | null) => void | Promise<void>;

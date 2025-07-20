@@ -1,4 +1,4 @@
-import { BaseCollectionEvent } from '@/types/collection-event';
+import { BaseCollectionEvent } from './collection-event';
 import { ListOption } from './list-option';
 
 export type InitialData = {

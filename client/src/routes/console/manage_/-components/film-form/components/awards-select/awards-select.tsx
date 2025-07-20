@@ -1,6 +1,6 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { FormAward, FormValues } from '@/routes/console/manage_/-types';
-import { ListOption } from '@/types';
+import { ListOption } from '@/common';
 import { FormSection, FormSelect, FormTextInput } from '@/components';
 import {
   ArrayFormWrapper,

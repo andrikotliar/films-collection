@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router';
-import { FilmAward } from '@/types';
+import { FilmAward } from '@/common';
 import { Image } from '@/components';
 import { Nomination } from './components';
 import styles from './awards.module.css';

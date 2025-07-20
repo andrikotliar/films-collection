@@ -1,4 +1,4 @@
-import { FileDestination } from '@/enums';
+import { FileDestination } from '../enums';
 
 export type FileUploadPayload = {
   title: string;

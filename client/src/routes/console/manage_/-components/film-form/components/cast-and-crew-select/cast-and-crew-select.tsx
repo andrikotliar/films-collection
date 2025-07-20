@@ -1,5 +1,5 @@
 import { FormValues } from '@/routes/console/manage_/-types';
-import { ListOption } from '@/types';
+import { ListOption } from '@/common';
 import {
   FormAsyncSelect,
   FormSection,

@@ -1,6 +1,6 @@
 import { PostsApi } from '@/api';
-import { POSTS_ADMIN_PER_PAGE } from '@/constants';
 import { queryOptions } from '@tanstack/react-query';
+import { POSTS_ADMIN_PER_PAGE } from '../constants';
 
 type QueryFilters = {
   pageIndex: number;

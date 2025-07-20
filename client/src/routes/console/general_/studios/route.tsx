@@ -6,7 +6,7 @@ import {
   ConsoleTitle,
 } from '@/components';
 import { useToaster } from '@/hooks';
-import { fetchStudiosListQuery } from '@/queries';
+import { fetchStudiosListQuery, GeneralData } from '@/common';
 import {
   BaseForm,
   EditGeneralDataForm,
@@ -14,7 +14,6 @@ import {
   List,
 } from '@/routes/console/-components';
 import { useBaseForm } from '@/routes/console/-hooks';
-import { GeneralData } from '@/types';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';

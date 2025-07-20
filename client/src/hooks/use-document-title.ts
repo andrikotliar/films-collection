@@ -1,5 +1,4 @@
-import { env } from '@/configs';
-import { APP_TITLE } from '@/constants';
+import { env, APP_TITLE } from '@/common';
 import { useEffect } from 'react';
 
 export const getTitle = (pageTitle?: string) => {

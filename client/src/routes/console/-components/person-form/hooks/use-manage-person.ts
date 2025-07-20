@@ -1,8 +1,8 @@
 import { useMutation } from '@tanstack/react-query';
 import { FilesApi, PeopleApi } from '@/api';
-import { getFileUploadFormData } from '@/helpers';
+import { getFileUploadFormData } from '@/common';
 import { useToaster } from '@/hooks';
-import { Person } from '@/types';
+import { Person } from '@/common';
 import { PersonFormValues } from '../types';
 
 type UseManagePersonParams = {

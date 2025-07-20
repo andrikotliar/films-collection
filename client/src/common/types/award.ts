@@ -1,10 +1,9 @@
-import { ListOption } from '@/types/list-option';
-import { Person } from '@/types/person';
+import { ListOption } from './list-option';
+import { Person } from './person';
 
 export type Award = {
   id: number;
   title: string;
-  image: string;
   description: string | null;
 };
 

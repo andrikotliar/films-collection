@@ -18,6 +18,6 @@ export * from './collection-event';
 export * from './sorting-order';
 export * from './form-error';
 export * from './file-upload-payload';
-export * from './post';
+export * from './page-content';
 export * from './general-data';
 export * from './local-storage-key';

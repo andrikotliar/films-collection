@@ -26,7 +26,7 @@ export type FilmPerson = {
 };
 
 export type FilmAward = {
-  award: Pick<Award, 'id' | 'title' | 'image'>;
+  award: Pick<Award, 'id' | 'title'>;
   nominations: Nomination[];
 };
 

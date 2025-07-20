@@ -1,4 +1,4 @@
-import { FilterItem, InitialData } from '@/types';
+import { FilterItem, InitialData } from '../types';
 
 export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
   return [

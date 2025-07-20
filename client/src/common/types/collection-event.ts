@@ -1,4 +1,4 @@
-import { Collection } from '@/types/collection';
+import { Collection } from './collection';
 
 export type CollectionEvent = {
   id: number;

@@ -1,6 +1,5 @@
-import { env } from '@/configs';
+import { env, ApiEndpoint } from '@/common';
 import { LocalStorage } from '@/services';
-import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {

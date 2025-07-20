@@ -1,6 +1,6 @@
 import { PendingFilmsApi } from '@/api';
-import { PENDING_FILMS_PER_PAGE } from '@/constants';
-import { PendingFilmQueryFilters } from '@/types';
+import { PENDING_FILMS_PER_PAGE } from '../constants';
+import { PendingFilmQueryFilters } from '../types';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchPendingFilmsListQuery = (params: PendingFilmQueryFilters) => {

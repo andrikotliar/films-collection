@@ -1,4 +1,4 @@
-import { SortingOrder } from '@/types/sorting-order';
+import { SortingOrder } from './sorting-order';
 
 export type BaseAdminFilmsFilters = {
   q?: string | null;

@@ -1,6 +1,5 @@
 import { PostsApi } from '@/api';
-import { ALLOWED_HTML_TAGS, NEW_ITEM_ID } from '@/constants';
-import { fetchPostByIdQuery } from '@/queries';
+import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPostByIdQuery } from '@/common';
 import { PostForm } from './-components';
 import { FormValues } from '@/routes/console/posts_/-types';
 import { formValidation } from '@/routes/console/posts_/-validation';

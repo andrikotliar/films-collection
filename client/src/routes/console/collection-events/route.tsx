@@ -1,4 +1,8 @@
-import { fetchCollectionEventsQuery } from '@/queries';
+import {
+  fetchCollectionEventsQuery,
+  CollectionEventFilled,
+  getFileUploadFormData,
+} from '@/common';
 import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventsApi, FilesApi } from '@/api';
 import {
@@ -7,7 +11,6 @@ import {
   Event,
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import { CollectionEventFilled } from '@/types';
 import {
   ConfirmModal,
   ConsoleContent,
@@ -19,7 +22,6 @@ import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { FormValues } from './-types';
-import { getFileUploadFormData } from '@/helpers';
 import { FormModal } from '@/routes/console/-components';
 
 type EventModifyContent = CollectionEventFilled | null;

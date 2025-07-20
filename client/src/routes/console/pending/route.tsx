@@ -1,6 +1,6 @@
 import { PendingFilmsApi } from '@/api';
-import { fetchPendingFilmsListQuery } from '@/queries';
-import { PendingFilmQueryFilters } from '@/types';
+import { fetchPendingFilmsListQuery, PENDING_FILMS_PER_PAGE } from '@/common';
+import { PendingFilmQueryFilters } from '@/common';
 import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
@@ -10,7 +10,6 @@ import { number, object, string } from 'yup';
 import { createPendingFilmSchema } from './-validation';
 import { PendingFilmFormValues } from './-types';
 import { PendingFilmForm, PendingFilmsList, Filters } from './-components';
-import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const pendingFilmsFilterSchema = object().shape({
   q: string(),

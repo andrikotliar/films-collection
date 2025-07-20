@@ -2,7 +2,7 @@ import { ArrowDownAZIcon, ArrowUpAZIcon } from 'lucide-react';
 import { forwardRef, ReactNode } from 'react';
 import styles from './sorting-button.module.css';
 import classNames from 'classnames';
-import { SortingOrder } from '@/types';
+import { SortingOrder } from '@/common';
 
 type SortingButtonProps = {
   onClick: VoidFunction;

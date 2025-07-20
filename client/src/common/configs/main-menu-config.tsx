@@ -1,4 +1,4 @@
-import { MenuConfigItem } from '@/types';
+import { MenuConfigItem } from '../types';
 import {
   FolderCogIcon,
   InfoIcon,

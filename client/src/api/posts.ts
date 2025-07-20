@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { Post, PostsListItem } from '@/types';
+import { Post, PostsListItem } from '@/common';
 
 export type PostsListFilters = {
   skip: number;

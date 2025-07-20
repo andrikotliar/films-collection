@@ -1,4 +1,4 @@
-import { ListOption } from '@/types';
+import { ListOption } from '../types';
 
 type Value = {
   title: string;

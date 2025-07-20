@@ -4,10 +4,12 @@ import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { Loader } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery } from '@/queries';
+import {
+  fetchInitialDataQuery,
+  MOBILE_VIEW_BREAKPOINT_PX,
+  getFiltersConfig,
+} from '@/common';
 import { Filters } from '../filters/filters';
-import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
-import { getFiltersConfig } from '@/configs';
 
 export const Sidebar = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);

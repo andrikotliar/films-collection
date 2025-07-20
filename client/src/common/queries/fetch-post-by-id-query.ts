@@ -1,5 +1,5 @@
 import { PostsApi } from '@/api';
-import { NEW_ITEM_ID } from '@/constants';
+import { NEW_ITEM_ID } from '../constants';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchPostByIdQuery = (id: string) => {

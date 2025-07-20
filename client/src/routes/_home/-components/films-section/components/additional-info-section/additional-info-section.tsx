@@ -1,4 +1,4 @@
-import { AdditionalInfo } from '@/types';
+import { AdditionalInfo } from '@/common';
 import { InfoBlock } from '../info-block/info-block';
 import { getRouteApi } from '@tanstack/react-router';
 

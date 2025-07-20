@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { ListOption, Person } from '@/types';
+import { ListOption, Person } from '@/common';
 
 export type ManagePersonPayload = {
   name: string;

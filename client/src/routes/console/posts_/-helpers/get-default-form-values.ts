@@ -1,5 +1,5 @@
 import { formDefaultValues } from '@/routes/console/posts_/-configs/form-default-values';
-import { Post } from '@/types';
+import { Post } from '@/common';
 
 export const getDefaultFormValues = (data: Post | null) => {
   if (data) {

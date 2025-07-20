@@ -1,6 +1,6 @@
 import styles from './option.module.css';
 import { forwardRef } from 'react';
-import { ListOption } from '@/types';
+import { ListOption } from '@/common';
 import classNames from 'classnames';
 
 type OptionProps = {

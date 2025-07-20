@@ -1,4 +1,4 @@
-import { ListOption, SortingOrder } from '@/types';
+import { ListOption, SortingOrder } from '../types';
 
 export type SortingDirectionOption = ListOption<SortingOrder>;
 

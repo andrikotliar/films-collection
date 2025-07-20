@@ -1,5 +1,5 @@
 import { AwardsApi } from '@/api';
-import { NEW_ITEM_ID } from '@/constants';
+import { NEW_ITEM_ID } from '../constants';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchAwardByIdQuery = (id: string) => {

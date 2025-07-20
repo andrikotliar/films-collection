@@ -5,10 +5,8 @@ import {
   ConsoleContent,
   ConsoleTitle,
 } from '@/components';
-import { NEW_ITEM_ID } from '@/constants';
-import { fetchAwardsBaseDataListQuery } from '@/queries';
 import { AddItemLink, List } from '@/routes/console/-components';
-import { Award } from '@/types';
+import { Award, NEW_ITEM_ID, fetchAwardsBaseDataListQuery } from '@/common';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';

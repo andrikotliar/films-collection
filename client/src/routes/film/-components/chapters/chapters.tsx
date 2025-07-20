@@ -1,4 +1,4 @@
-import { Chapter } from '@/types';
+import { Chapter } from '@/common';
 import { ScrollableWrapper } from '@/components';
 import { FilmLink } from './components';
 import styles from './chapters.module.css';

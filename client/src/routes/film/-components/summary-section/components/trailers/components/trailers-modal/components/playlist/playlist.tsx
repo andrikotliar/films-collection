@@ -1,5 +1,5 @@
 import { Video } from '../video/video';
-import { FilmTrailer } from '@/types';
+import { FilmTrailer } from '@/common';
 import { useState } from 'react';
 import styles from './playlist.module.css';
 import { PlayIcon } from 'lucide-react';

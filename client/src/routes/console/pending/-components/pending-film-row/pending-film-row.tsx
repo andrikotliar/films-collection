@@ -1,11 +1,13 @@
 import styles from './pending-film-row.module.css';
-import { PendingFilm } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { getPriorityTitle } from '@/helpers';
 import { Status, StatusProps } from '@/components';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
-import { priorityToColor } from '@/configs';
-import { NEW_ITEM_ID } from '@/constants';
+import {
+  NEW_ITEM_ID,
+  priorityToColor,
+  getPriorityTitle,
+  type PendingFilm,
+} from '@/common';
 
 type PendingFilmRowProps = {
   data: PendingFilm;

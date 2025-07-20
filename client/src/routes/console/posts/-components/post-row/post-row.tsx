@@ -1,5 +1,5 @@
 import styles from './post-row.module.css';
-import { PostsListItem } from '@/types';
+import { PostsListItem } from '@/common';
 import { Button, IconLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 import sanitize from 'sanitize-html';

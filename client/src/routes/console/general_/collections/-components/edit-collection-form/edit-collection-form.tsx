@@ -3,7 +3,7 @@ import { FormSelect, FormTextArea } from '@/components';
 import { useToaster } from '@/hooks';
 import { BaseForm } from '@/routes/console/-components';
 import { CollectionFormValues } from '@/routes/console/general_/collections/-types';
-import { Collection, ListOption } from '@/types';
+import { Collection, ListOption } from '@/common';
 import { useMutation } from '@tanstack/react-query';
 import { FormProvider, useForm } from 'react-hook-form';
 

@@ -1,4 +1,4 @@
-import { FileUploadPayload } from '@/types';
+import { FileUploadPayload } from '../types';
 
 export const getFileUploadFormData = ({
   title,
