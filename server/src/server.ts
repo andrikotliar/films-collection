@@ -5,7 +5,7 @@ import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
-import { AuthPlugin, PrismaPlugin } from 'src/plugins';
+import { AuthPlugin, DatabasePlugin } from 'src/plugins';
 import { AppModule } from './app.module';
 import { AppDependencies, CookieName, env, errorHandler } from './common';
 
@@ -49,7 +49,7 @@ app.register(MultipartPlugin, {
   },
 });
 
-app.register(PrismaPlugin);
+app.register(DatabasePlugin);
 app.register(AuthPlugin);
 
 app.register(AppModule, { prefix: '/api' });
@@ -58,7 +58,7 @@ app.setErrorHandler(errorHandler);
 
 const startServer = async () => {
   try {
-    await app.listen({ port: env.PORT, host: env.HOST });
+    await app.listen({ port: env.SERVER_PORT, host: env.SERVER_HOST });
   } catch (error: any) {
     app.log.error(error?.message);
 
