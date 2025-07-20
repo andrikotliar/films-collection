@@ -55,7 +55,7 @@ app.register(AuthPlugin);
 app.register(AppModule, { prefix: '/api' });
 
 app.setErrorHandler(errorHandler);
-
+console.log(env);
 const startServer = async () => {
   try {
     await app.listen({ port: env.SERVER_PORT, host: env.SERVER_HOST });
