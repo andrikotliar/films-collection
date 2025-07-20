@@ -31,19 +31,16 @@ A personal list of films with manually collected data. The app primarily focuses
 ## Start development server
 
 1. In the project root, run `npm run install` to install dependencies for both the client and server.
-2. Create `.env` files in the `root`, `server` and `client` directories following examples from the `./.env.sample`, `./server/.env.sample` and `./client/env.sample.txt` respectively.
-3. Run `docker compose up -d` to spin up a database. It will take variables defined in the root `.env` file.
+2. Create `.env` files in the `server` and `client` directories following examples from the `./server/.env.sample` and `./client/.env.sample` respectively.
+3. Run `docker compose up -d` to spin up a database.
 4. Run `npm run db:init` in the root. It will run migration and seed data from the `dataset` folder. If you don't want to seed the database, run `npm run db:init:migration` instead. Fill `APP_ADMIN_USERNAME` and `APP_ADMIN_PASSWORD` variables to seed admin user to the database.
 5. In the project's root run `npm run dev` to start the application.
 
-The application has different images like posters or award images. It can work without them, but you will see placeholders in all places where images are used.
+The application requires poster images. It can work without them, but you will see a placeholder instead of film posters.
 
-Put images into a [Cloudinary](https://cloudinary.com/) storage. The dataset provides specific paths for each image, e.g.: `posters/movie_title.webp` or `awards/award_title.svg`, therefor the storage should follow strict structure of directories:
-- posters/
-- awards/
-- actors/
+Put images into a [Cloudinary](https://cloudinary.com/) storage. The films dataset has property `poster` which contains path to the file. To work properly images should have the same path.
 
-The backend support uploading images from the admin page only to the Cloudinary, but you can put your images in any storage that provides direct links to start working on the public part of the app. You can even put images in the `public` directory and set the environment variable `VITE_BASE_MEDIA_URL=http://localhost:8080` in the `client/.env` file. Folder structure should follow the same rules.
+The backend support uploading images from the admin page only to the Cloudinary, but you can put your images in any storage that provides direct links to start working on the public part of the app. You can even put images in the `public` directory and set the environment variable `VITE_BASE_MEDIA_URL=http://localhost:8080` in the `client/.env` file.
 
 ## Build project
 

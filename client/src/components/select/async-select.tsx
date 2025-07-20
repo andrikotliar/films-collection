@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ListOption } from '@/types';
+import { ListOption } from '@/common';
 import { useQuery } from '@tanstack/react-query';
 import { Select, SelectProps } from './select';
 import { getValue } from './helpers';

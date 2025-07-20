@@ -1,5 +1,5 @@
-import { FilmDetails } from '@/types';
-import { getFormattedMoneyValue, getPluralWord } from '@/helpers';
+import { FilmDetails } from '@/common';
+import { getFormattedMoneyValue, getPluralWord } from '@/common';
 import {
   LinksGroupWrapper,
   DataLink,

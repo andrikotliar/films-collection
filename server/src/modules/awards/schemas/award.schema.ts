@@ -9,7 +9,6 @@ const NominationSchema = Type.Object({
 export const AwardBodySchema = Type.Object({
   title: Type.String(),
   description: Type.Union([Type.Null(), Type.String()]),
-  image: Type.String(),
   nominations: Type.Array(NominationSchema),
 });
 

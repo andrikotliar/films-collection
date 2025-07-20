@@ -1,5 +1,5 @@
 import { Rating, Title } from './components';
-import { FilmDetails } from '@/types';
+import { FilmDetails } from '@/common';
 import styles from './title-row.module.css';
 
 type TitleRowProps = {

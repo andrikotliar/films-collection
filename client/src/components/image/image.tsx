@@ -3,7 +3,7 @@ import styles from './image.module.css';
 import classNames from 'classnames';
 import { handleImageError } from './helpers';
 import { images } from '@/assets/images';
-import { env } from '@/configs';
+import { env } from '@/common';
 
 type ImageProps = {
   src?: string | null;

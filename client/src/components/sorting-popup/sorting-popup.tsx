@@ -1,8 +1,7 @@
 import { FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
-import { ListOption, SortingOrder } from '@/types';
+import { ListOption, SortingOrder, sortingDirectionOptions } from '@/common';
 import { SortingButton } from './components';
-import { sortingDirectionOptions } from '@/configs';
 import { BadgeCheckbox } from '../badge-checkbox/badge-checkbox';
 import { getDefaultLabel } from './helpers';
 import styles from './sorting-popup.module.css';

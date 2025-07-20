@@ -80,7 +80,6 @@ export class FilmsRepository {
               select: {
                 id: true,
                 name: true,
-                image: true,
               },
             },
           },
@@ -91,7 +90,6 @@ export class FilmsRepository {
               select: {
                 id: true,
                 title: true,
-                image: true,
               },
             },
             nomination: {
@@ -185,7 +183,6 @@ export class FilmsRepository {
               select: {
                 id: true,
                 name: true,
-                image: true,
               },
             },
           },

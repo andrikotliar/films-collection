@@ -1,5 +1,4 @@
 import styles from './pending-film-form.module.css';
-import { priorityOptions } from '@/configs';
 import {
   Button,
   FormTextInput,
@@ -12,9 +11,12 @@ import {
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
 import { FormEventHandler } from 'react';
-import { StatusColor } from '@/types';
 import { useQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery } from '@/queries';
+import {
+  fetchInitialDataQuery,
+  priorityOptions,
+  type StatusColor,
+} from '@/common';
 
 type PendingFilmFormProps = {
   title: string;

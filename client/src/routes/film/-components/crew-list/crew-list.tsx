@@ -1,4 +1,4 @@
-import { FilmPerson } from '@/types';
+import { FilmPerson } from '@/common';
 import { CrewItem } from './components';
 import styles from './crew-list.module.css';
 

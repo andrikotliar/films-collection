@@ -3,9 +3,9 @@ import { Dispatch, SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
 import { FilterOptions } from './components';
-import { countObjectKeys, filterValues } from '@/helpers';
+import { countObjectKeys, filterValues } from '@/common';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { FilmsListFilters, FilterItem } from '@/types';
+import { FilmsListFilters, FilterItem } from '@/common';
 import { getRouteApi } from '@tanstack/react-router';
 
 type FiltersProps = {

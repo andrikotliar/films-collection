@@ -1,10 +1,9 @@
-import { FilmDetails } from '@/types';
+import { FilmDetails, env } from '@/common';
 import { CSSProperties, useMemo } from 'react';
 import styles from './summary-section.module.css';
 import { Poster, Summary, Trailers } from './components';
 import { getFilmSummaryConfig } from '../../-helpers';
 import { TitleRow } from '../title-row/title-row';
-import { env } from '@/configs';
 
 type SummarySectionProps = {
   film: FilmDetails;

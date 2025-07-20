@@ -1,6 +1,6 @@
 import styles from './admin-film.module.css';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
-import { FilmsAdminListItem } from '@/types';
+import { FilmsAdminListItem } from '@/common';
 import { Link } from '@tanstack/react-router';
 import { Button, IconLink } from '@/components';
 

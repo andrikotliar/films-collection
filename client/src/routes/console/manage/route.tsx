@@ -1,7 +1,11 @@
-import { FILMS_ADMIN_LIST_PER_PAGE, NEW_ITEM_ID } from '@/constants';
+import {
+  FILMS_ADMIN_LIST_PER_PAGE,
+  NEW_ITEM_ID,
+  fetchAdminListQuery,
+  AdminFilmsQueryFilters,
+  FilmsAdminListItem,
+} from '@/common';
 import { useDocumentTitle, useToaster } from '@/hooks';
-import { fetchAdminListQuery } from '@/queries';
-import { AdminFilmsQueryFilters, FilmsAdminListItem } from '@/types';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {

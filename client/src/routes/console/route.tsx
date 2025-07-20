@@ -1,5 +1,5 @@
 import { ConsoleLayout } from '@/components';
-import { getIsAuthState } from '@/helpers';
+import { getIsAuthState } from '@/common';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/console')({

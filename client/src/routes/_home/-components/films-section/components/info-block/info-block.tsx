@@ -1,23 +1,14 @@
 import styles from './info-block.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
-import { Image } from '@/components';
 
 type InfoBlockProps = {
-  imagePath?: string | null;
-  imageAlt?: string;
   label: string;
   title: string;
   description?: string | null;
 };
 
-export const InfoBlock = ({
-  imagePath,
-  imageAlt,
-  label,
-  title,
-  description,
-}: InfoBlockProps) => {
+export const InfoBlock = ({ label, title, description }: InfoBlockProps) => {
   const navigate = useNavigate();
 
   const handleClearFilter = () => {
@@ -26,14 +17,6 @@ export const InfoBlock = ({
 
   return (
     <div className={styles.infoBlock}>
-      {imagePath && (
-        <Image
-          src={imagePath}
-          alt={imageAlt}
-          className={styles.image}
-          isExternal
-        />
-      )}
       <div className={styles.data}>
         <div className={styles.label}>{label}</div>
         <h2 className={styles.title}>{title}</h2>

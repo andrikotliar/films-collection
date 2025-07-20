@@ -94,7 +94,7 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
   };
 }>;
 
-type GropedPerson = Pick<Person, 'id' | 'name' | 'image'> &
+type GropedPerson = Pick<Person, 'id' | 'name'> &
   Pick<FilmPerson, 'comment' | 'details'>;
 
 export type GroupedPeople = {
@@ -110,7 +110,7 @@ export type GroupedNomination = Pick<FilmAwardNomination, 'comment'> & {
 
 export type GroupedAwards = {
   [awardId: number]: {
-    award: Pick<Award, 'id' | 'title' | 'image'>;
+    award: Pick<Award, 'id' | 'title'>;
     nominations: Array<Pick<Nomination, 'title'> & GroupedNomination>;
   };
 };

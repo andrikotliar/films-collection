@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { ComponentProps, forwardRef, ReactNode } from 'react';
 import { FieldError } from '../field-error/field-error';
 import { FieldLabel } from '../field-label/field-label';
-import { FormError } from '@/types';
+import { FormError } from '@/common';
 
 export type TextInputProps = {
   type?: 'text' | 'number' | 'password';

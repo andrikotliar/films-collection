@@ -1,5 +1,5 @@
 import { SortingParams, SortingPopup, TextInput } from '@/components';
-import { ListOption } from '@/types';
+import { ListOption } from '@/common';
 import styles from './admin-films-tools.module.css';
 import { useDebouncedSearch } from '@/hooks';
 import { getRouteApi } from '@tanstack/react-router';

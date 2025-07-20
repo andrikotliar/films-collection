@@ -1,6 +1,6 @@
 import styles from './description.module.css';
 import sanitizeHtml from 'sanitize-html';
-import { ALLOWED_HTML_TAGS } from '@/constants';
+import { ALLOWED_HTML_TAGS } from '@/common';
 
 type DescriptionProps = {
   rawHtml: string;

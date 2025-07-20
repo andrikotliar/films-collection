@@ -7,7 +7,7 @@ export * from './files';
 export * from './people';
 export * from './awards';
 export * from './chapter-keys';
-export * from './posts';
+export * from './page-content';
 export * from './genres';
 export * from './countries';
 export * from './studios';

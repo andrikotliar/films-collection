@@ -2,11 +2,11 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation } from '@tanstack/react-query';
 import { FormProvider, useForm } from 'react-hook-form';
 import { CollectionEventsApi, FilesApi } from '@/api';
-import { getFileUploadFormData } from '@/helpers';
+import { getFileUploadFormData } from '@/common';
 import { convertDateCode } from '@/routes/console/collection-events/-helpers';
 import { FormValues } from '@/routes/console/collection-events/-types';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import { CollectionEventFilled } from '@/types';
+import { CollectionEventFilled } from '@/common';
 import { CollectionEventForm } from '../collection-event-form/collection-event-form';
 
 type EditCollectionEventFormProps = {

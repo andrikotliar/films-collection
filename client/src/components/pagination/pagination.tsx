@@ -1,7 +1,7 @@
 import styles from './pagination.module.css';
 import { useMemo } from 'react';
 import classNames from 'classnames';
-import { buildPagination } from '@/helpers';
+import { buildPagination } from '@/common';
 
 export type PaginationProps = {
   currentPageIndex?: number;

@@ -1,7 +1,7 @@
 import { FocusEventHandler, forwardRef, useEffect, useState } from 'react';
 import { TextInput, TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
-import { YOUTUBE_VIDEO_DIRECT_URL } from '@/constants';
+import { YOUTUBE_VIDEO_DIRECT_URL } from '@/common';
 import styles from './video-input.module.css';
 import { Button } from '@/components/button/button';
 import { Trash2Icon } from 'lucide-react';

@@ -25,7 +25,8 @@
     "dotenv": "^16.4.5",
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.1",
-    "sanitize-html": "^2.16.0"
+    "sanitize-html": "^2.16.0",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@swc/cli": "^0.4.1-nightly.20240914",

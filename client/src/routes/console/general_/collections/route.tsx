@@ -8,12 +8,11 @@ import {
   FormTextArea,
 } from '@/components';
 import { useToaster } from '@/hooks';
-import { fetchCollectionsListQuery } from '@/queries';
+import { fetchCollectionsListQuery, Collection } from '@/common';
 import { BaseForm, FormModal, List } from '@/routes/console/-components';
 import { EditCollectionForm } from '@/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '@/routes/console/general_/collections/-configs';
 import { createCollectionSchema } from '@/routes/console/general_/collections/-validation';
-import { Collection } from '@/types';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';

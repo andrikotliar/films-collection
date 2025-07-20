@@ -1,4 +1,4 @@
-import { FilterItem } from '@/types';
+import { FilterItem } from '@/common';
 import { FormCheckbox, FormGroup, FormDateRange } from '@/components';
 
 type FilterOptionsProps = {

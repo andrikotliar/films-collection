@@ -1,5 +1,5 @@
 import styles from './console-menu.module.css';
-import { consoleMenuConfig } from '@/configs';
+import { consoleMenuConfig } from '@/common';
 import { Menu } from '@/components/menu/menu';
 import classNames from 'classnames';
 import { forwardRef } from 'react';

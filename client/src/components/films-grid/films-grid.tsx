@@ -1,4 +1,4 @@
-import { FilmsListItem } from '@/types';
+import { FilmsListItem } from '@/common';
 import { FilmLink } from './components';
 import styles from './films-grid.module.css';
 

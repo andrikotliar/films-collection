@@ -8,7 +8,7 @@ import {
   useState,
 } from 'react';
 import { useDebouncedSearch } from '@/hooks';
-import { FormError, ListOption } from '@/types';
+import { FormError, ListOption } from '@/common';
 import { FieldLabel } from '@/components/field-label/field-label';
 import { PopupMenu } from '@/components/popup-menu/popup-menu';
 import { FieldError } from '@/components/field-error/field-error';

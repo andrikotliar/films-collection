@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import {
   PrismaClient,
   Film,
@@ -14,12 +15,7 @@ import {
 import { ITXClientDenyList } from '@prisma/client/runtime/library';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { config as dotenvConfig } from 'dotenv';
 import { hash } from 'bcrypt';
-
-dotenvConfig({
-  path: join(import.meta.dirname, '../../.env'),
-});
 
 type FilmBaseData = Omit<Film, 'createdAt' | 'updatedAt' | 'draft'> & {
   $schema: string;

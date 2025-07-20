@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router';
-import { FilmPersonData } from '@/types';
+import { FilmPersonData } from '@/common';
 import styles from './actor.module.css';
 import { Image } from '@/components';
 

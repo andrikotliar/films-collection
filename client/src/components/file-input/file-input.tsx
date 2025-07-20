@@ -5,7 +5,7 @@ import { ChangeEvent, CSSProperties, useRef, useState } from 'react';
 import styles from './file-input.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '@/components/button/button';
-import { FormError } from '@/types';
+import { FormError } from '@/common';
 import { FieldError } from '@/components/field-error/field-error';
 
 export type FileInputProps = {

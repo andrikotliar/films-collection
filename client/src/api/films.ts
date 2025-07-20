@@ -6,8 +6,8 @@ import {
   FilmsListResponse,
   FilmsAdminListResponse,
   Chapter,
-} from '@/types';
-import { AdminFilmsServerFilters } from '@/types';
+} from '@/common';
+import { AdminFilmsServerFilters } from '@/common';
 
 export type RelatedChaptersFilter = {
   key: string;

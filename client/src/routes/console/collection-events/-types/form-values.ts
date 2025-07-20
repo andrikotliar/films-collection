@@ -1,4 +1,4 @@
-import { CollectionEventDate } from '@/types';
+import { CollectionEventDate } from '@/common';
 
 export type FormValues = {
   title: string;

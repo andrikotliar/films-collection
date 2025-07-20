@@ -16,6 +16,6 @@
     "noImplicitAny": true,
     "noEmit": true
   },
-  "include": ["src/**/*.ts", "prisma/**/*.ts"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules"]
 }

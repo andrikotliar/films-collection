@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { CollectionEventFilled, CollectionEventPayload } from '@/types';
+import { CollectionEventFilled, CollectionEventPayload } from '@/common';
 
 export const CollectionEventsApi = {
   getAdminList() {

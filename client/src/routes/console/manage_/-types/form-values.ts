@@ -1,4 +1,4 @@
-import { TitleStyle, TitleType } from '@/types';
+import { TitleStyle, TitleType } from '@/common';
 
 export type FormTrailer = {
   videoId: string;

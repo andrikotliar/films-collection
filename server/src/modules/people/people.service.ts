@@ -68,20 +68,10 @@ export class PeopleService {
       throw new NotFoundException({ message: `Person #${id} not found!` });
     }
 
-    if (person.image && input.image !== person.image) {
-      await this.filesService.delete(person.image);
-    }
-
     return this.peopleRepository.update(id, input);
   }
 
   async deletePerson(id: number) {
-    const person = await this.peopleRepository.findPersonById(id);
-
-    if (person?.image) {
-      await this.filesService.delete(person.image);
-    }
-
     return this.peopleRepository.delete(id);
   }
 }

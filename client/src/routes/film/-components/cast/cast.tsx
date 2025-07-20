@@ -1,4 +1,4 @@
-import { FilmPerson } from '@/types';
+import { FilmPerson } from '@/common';
 import { Actor } from './components';
 import styles from './cast.module.css';
 import { ScrollableWrapper } from '@/components';
