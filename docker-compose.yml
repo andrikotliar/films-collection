@@ -1,4 +1,17 @@
 services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    env_file:
+      - server/.env
+    depends_on:
+      database:
+        condition: service_healthy
+        restart: true
+
   database:
     image: postgres:17-bookworm
     restart: unless-stopped
@@ -7,7 +20,13 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     env_file:
-      - ./server/.env
+      - server/.env
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
 
 volumes:
   pgdata:

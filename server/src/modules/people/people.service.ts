@@ -5,15 +5,11 @@ import {
   UpdatePersonInput,
 } from './schemas';
 import { PeopleRepository } from './people.repository';
-import { FilesService } from 'src/modules/files/files.service';
 import { DEFAULT_PAGINATION_LIMIT, NotFoundException } from 'src/common';
 import { Prisma } from '@prisma/client';
 
 export class PeopleService {
-  constructor(
-    private readonly peopleRepository: PeopleRepository,
-    private readonly filesService: FilesService,
-  ) {}
+  constructor(private readonly peopleRepository: PeopleRepository) {}
 
   async getList(queries: GetListQueries) {
     const filters: Prisma.PersonWhereInput = {};

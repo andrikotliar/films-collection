@@ -52,7 +52,7 @@ export const PageContentController = router((app, defineRoute) => [
 
       if (!data) {
         throw new NotFoundException({
-          message: `Post for page key ${request.params.pageKey} not found!`,
+          message: `Content for key <${request.params.pageKey}> not found!`,
         });
       }
 

@@ -7,7 +7,6 @@ import {
   GetFilmsListQuery,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
-import { Prisma } from '@prisma/client';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
@@ -95,24 +94,10 @@ export class FilmsService {
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
-    const { actorId, crewMemberId, crewMemberPosition, collectionId, awardId } =
-      query;
+    const { personId, personRole, collectionId, awardId } = query;
 
-    if (actorId) {
-      const actorData = await this.peopleService.getPersonById(actorId);
-
-      if (!actorData) {
-        return null;
-      }
-
-      return {
-        type: 'actor',
-        data: actorData,
-      };
-    }
-
-    if (crewMemberId && crewMemberPosition) {
-      const crewMember = await this.peopleService.getPersonById(crewMemberId);
+    if (personId && personRole) {
+      const crewMember = await this.peopleService.getPersonById(personId);
 
       if (!crewMember) {
         return null;
@@ -121,7 +106,7 @@ export class FilmsService {
       return {
         type: 'crew',
         data: {
-          role: convertEnumValueToLabel(crewMemberPosition),
+          role: convertEnumValueToLabel(personRole),
           name: crewMember.name,
         },
       };

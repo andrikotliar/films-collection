@@ -4,4 +4,4 @@ export * from './console-menu-config';
 export * from './sorting-direction-options';
 export * from './priority-options';
 export * from './priority-to-color';
-export * from './env';
+export * from './person-role-to-title';
