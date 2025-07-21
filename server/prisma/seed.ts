@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import {
   PrismaClient,
   Film,
@@ -13,8 +14,7 @@ import {
 } from '@prisma/client';
 import { ITXClientDenyList } from '@prisma/client/runtime/library';
 import { readdir, readFile } from 'node:fs/promises';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
 
 type FilmBaseData = Omit<Film, 'createdAt' | 'updatedAt' | 'draft'> & {
   $schema: string;
@@ -47,12 +47,9 @@ type FileToPrismaHandlerConfig = {
   [fileName: string]: (data: any) => Promise<void>;
 };
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
 const prisma = new PrismaClient();
 
-const datasetFolderPath = join(__dirname, '../../dataset');
+const datasetFolderPath = join(import.meta.dirname, '../../dataset');
 const filmsJsonFolderPath = join(datasetFolderPath, 'films');
 const generalJsonFolderPath = join(datasetFolderPath, 'general');
 

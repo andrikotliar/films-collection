@@ -9,11 +9,12 @@
     "dev:client": "cd client && npm run dev",
     "dev:server": "cd server && npm run dev",
     "dev": "concurrently --names 'SERVER,CLIENT' --prefixColors 'cyan,green' \"npm run dev:server\" \"npm run dev:client\"",
+    "start:db": "docker compose --env-file=server/.env up database -d",
     "build:client": "cd client && npm run build",
     "build:server": "cd server && npm run build",
+    "build:container": "docker compose --env-file=server/.env up -d --build",
     "build": "npm run build:server && npm run build:client",
-    "db:init": "cd server && npm run db:migrate && npm run db:seed",
-    "db:migration": "cd server && npm run db:migrate"
+    "db:init": "cd server && npm run db:migrate"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"

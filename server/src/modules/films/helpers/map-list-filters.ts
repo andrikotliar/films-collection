@@ -30,9 +30,8 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     seasonsTotal,
     episodesTotal,
     duration,
-    crewMemberId,
-    crewMemberPosition,
-    actorId,
+    personId,
+    personRole,
     awardId,
     style,
     budget,
@@ -112,21 +111,11 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     };
   }
 
-  if (crewMemberId && crewMemberPosition) {
+  if (personId && personRole) {
     filters.castAndCrew = {
       some: {
-        AND: {
-          role: crewMemberPosition,
-          personId: crewMemberId,
-        },
-      },
-    };
-  }
-
-  if (actorId) {
-    filters.castAndCrew = {
-      some: {
-        personId: actorId,
+        role: personRole,
+        personId,
       },
     };
   }

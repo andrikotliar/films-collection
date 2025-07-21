@@ -2,7 +2,7 @@ import { useToaster } from '@/hooks';
 import { BaseForm } from '@/routes/console/-components';
 import { useBaseForm } from '@/routes/console/-hooks';
 import { BaseFormValues } from '@/routes/console/-types';
-import { GeneralData } from '@/types';
+import { GeneralData } from '@/common';
 import { useMutation } from '@tanstack/react-query';
 import { FormProvider } from 'react-hook-form';
 

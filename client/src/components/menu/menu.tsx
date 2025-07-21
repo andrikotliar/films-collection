@@ -1,6 +1,6 @@
 import { Link, useLocation } from '@tanstack/react-router';
 import styles from './menu.module.css';
-import { MenuConfigItem } from '@/types';
+import { MenuConfigItem } from '@/common';
 import classNames from 'classnames';
 
 type MenuProps = {

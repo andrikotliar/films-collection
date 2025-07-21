@@ -1,4 +1,4 @@
-import { Film, FilmTrailer } from '@/types';
+import { Film, FilmTrailer } from '@/common';
 import { useState } from 'react';
 import { TrailersModal } from './components';
 import styles from './trailers.module.css';

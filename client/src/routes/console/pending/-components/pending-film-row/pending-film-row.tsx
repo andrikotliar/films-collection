@@ -1,10 +1,13 @@
 import styles from './pending-film-row.module.css';
-import { PendingFilm } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { getPriorityTitle } from '@/helpers';
 import { Status, StatusProps } from '@/components';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
-import { priorityToColor } from '@/configs';
+import {
+  NEW_ITEM_ID,
+  priorityToColor,
+  getPriorityTitle,
+  type PendingFilm,
+} from '@/common';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
@@ -31,7 +34,12 @@ export const PendingFilmRow = ({
         <div className={styles.pendingFilmTitle}>{data.title}</div>
       </div>
       <div className={styles.rightColumn}>
-        <Link to="/console/manage" className={styles.createFilmButton}>
+        <Link
+          to="/console/manage/$id"
+          params={{ id: NEW_ITEM_ID }}
+          search={{ pendingFilmId: data.id.toString() }}
+          className={styles.createFilmButton}
+        >
           <SquarePlusIcon size={20} />
         </Link>
         <div className={styles.rowTools}>

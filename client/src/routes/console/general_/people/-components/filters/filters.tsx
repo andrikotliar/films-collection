@@ -3,7 +3,7 @@ import { useDebouncedSearch } from '@/hooks';
 import { getRouteApi } from '@tanstack/react-router';
 import styles from './filters.module.css';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery } from '@/queries';
+import { fetchInitialDataQuery } from '@/common';
 
 const routeApi = getRouteApi('/console/general_/people');
 

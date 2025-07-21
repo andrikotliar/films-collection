@@ -1,6 +1,6 @@
 import { Controller, useFormContext } from 'react-hook-form';
 import { TextEditor, TextEditorProps } from './text-editor';
-import { FormError } from '@/types';
+import { FormError } from '@/common';
 
 type FormTextEditorProps = {
   name: string;

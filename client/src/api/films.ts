@@ -6,8 +6,8 @@ import {
   FilmsListResponse,
   FilmsAdminListResponse,
   Chapter,
-} from '@/types';
-import { AdminFilmsServerFilters } from '@/types';
+} from '@/common';
+import { AdminFilmsServerFilters } from '@/common';
 
 export type RelatedChaptersFilter = {
   key: string;
@@ -50,6 +50,14 @@ export const FilmsApi = {
 
     return apiClient.get<Chapter[]>('/films/chapters', {
       queryParams,
+    });
+  },
+
+  deleteFilm(id: number) {
+    return apiClient.delete('/films/admin/:id', {
+      params: {
+        id,
+      },
     });
   },
 };

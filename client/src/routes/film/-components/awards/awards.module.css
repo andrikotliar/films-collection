@@ -17,17 +17,6 @@
   border-color: var(--yellow-saturated);
 }
 
-.award {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.awardImage {
-  width: 60px;
-  height: 60px;
-}
-
 .title:hover {
   color: var(--blue-default);
 }

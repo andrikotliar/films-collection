@@ -1,4 +1,4 @@
-import { CollectionEventFilled } from '@/types';
+import { CollectionEventFilled } from '@/common';
 import { Button, Image, RouterLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 import styles from './event.module.css';

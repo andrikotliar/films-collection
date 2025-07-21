@@ -7,7 +7,7 @@ export const AwardsModule = createModule({
   prefix: 'awards',
   service: (app) => {
     const awardRepository = new AwardsRepository(app.database);
-    const service = new AwardsService(awardRepository, app.filesService);
+    const service = new AwardsService(awardRepository);
     return service;
   },
   controller: AwardsController,

@@ -6,11 +6,9 @@ import {
   Checkbox,
 } from '@/components';
 import styles from './filters.module.css';
-import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
-import { priorityOptions } from '@/configs';
-import { SortingOrder } from '@/types';
+import { priorityOptions, SortingOrder, debounce } from '@/common';
 import { setPriorities } from './helpers';
 
 const routeApi = getRouteApi('/console/pending');

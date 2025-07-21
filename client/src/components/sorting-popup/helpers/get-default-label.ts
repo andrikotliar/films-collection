@@ -1,4 +1,4 @@
-import { ListOption } from '@/types';
+import { ListOption } from '@/common';
 
 export const getDefaultLabel = (
   fields: ListOption[],

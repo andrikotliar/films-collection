@@ -1,12 +1,7 @@
-import { env } from '@/configs';
-import { APP_TITLE } from '@/constants';
+import { APP_TITLE } from '@/common';
 import { useEffect } from 'react';
 
 export const getTitle = (pageTitle?: string) => {
-  if (env.titlePrefix) {
-    return `${env.titlePrefix} - ${APP_TITLE}`;
-  }
-
   if (pageTitle) {
     return `${pageTitle} - ${APP_TITLE}`;
   }

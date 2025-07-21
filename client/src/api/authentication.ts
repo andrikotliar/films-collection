@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { AuthResponse, LoginPayload } from '@/types';
+import { AuthResponse, LoginPayload } from '@/common';
 
 export const AuthenticationApi = {
   login(payload: LoginPayload) {

@@ -1,10 +1,9 @@
-import { FilmDetails } from '@/types';
+import { FilmDetails, IMAGES_HOSTING_BASE_URL } from '@/common';
 import { CSSProperties, useMemo } from 'react';
 import styles from './summary-section.module.css';
 import { Poster, Summary, Trailers } from './components';
 import { getFilmSummaryConfig } from '../../-helpers';
 import { TitleRow } from '../title-row/title-row';
-import { env } from '@/configs';
 
 type SummarySectionProps = {
   film: FilmDetails;
@@ -16,7 +15,7 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
   }, [film]);
 
   const style = {
-    '--bg-url': `url(${env.baseMediaUrl}/${film.poster})`,
+    '--bg-url': `url(${IMAGES_HOSTING_BASE_URL}${film.poster})`,
   } as CSSProperties;
 
   return (

@@ -3,10 +3,12 @@ import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { AwardsApi, FilesApi } from '@/api';
 import { BackLink, ConsoleContent, ConsoleTitle } from '@/components';
-import { NEW_ITEM_ID } from '@/constants';
-import { getFileUploadFormData } from '@/helpers';
 import { useToaster } from '@/hooks';
-import { fetchAwardByIdQuery } from '@/queries';
+import {
+  fetchAwardByIdQuery,
+  NEW_ITEM_ID,
+  getFileUploadFormData,
+} from '@/common';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 import { AwardFormValues } from './-types';

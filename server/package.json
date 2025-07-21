@@ -17,6 +17,7 @@
     "@fastify/jwt": "^9.0.1",
     "@fastify/multipart": "^9.0.3",
     "@fastify/one-line-logger": "^2.0.2",
+    "@fastify/static": "^8.2.0",
     "@fastify/type-provider-typebox": "^5.1.0",
     "@prisma/client": "^6.2.1",
     "@sinclair/typebox": "^0.34.28",
@@ -25,7 +26,8 @@
     "dotenv": "^16.4.5",
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.1",
-    "sanitize-html": "^2.16.0"
+    "sanitize-html": "^2.16.0",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@swc/cli": "^0.4.1-nightly.20240914",

@@ -11,7 +11,7 @@ import {
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery } from '@/queries';
+import { fetchInitialDataQuery } from '@/common';
 import { Panel } from '@/components';
 
 type CollectionEventFormProps = {

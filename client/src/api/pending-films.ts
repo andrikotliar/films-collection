@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { PendingFilm, PendingFilmServerFilters } from '@/types';
+import { PendingFilm, PendingFilmServerFilters } from '@/common';
 
 type PendingFilmsListResponse = {
   list: PendingFilm[];
@@ -31,6 +31,12 @@ export const PendingFilmsApi = {
   ) {
     return apiClient.patch('/pending-films/:id', {
       payload,
+      params: { id },
+    });
+  },
+
+  getPendingFilm(id: number) {
+    return apiClient.get<PendingFilm>('/pending-films/:id', {
       params: { id },
     });
   },

@@ -1,7 +1,7 @@
 import { Film, Prisma, PrismaClient } from '@prisma/client';
 
 export class FilmsRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: PrismaClient) {}
 
   async count(filters: Prisma.FilmWhereInput) {
     return this.databaseClient.film.count({ where: filters });
@@ -80,7 +80,6 @@ export class FilmsRepository {
               select: {
                 id: true,
                 name: true,
-                image: true,
               },
             },
           },
@@ -91,7 +90,6 @@ export class FilmsRepository {
               select: {
                 id: true,
                 title: true,
-                image: true,
               },
             },
             nomination: {
@@ -127,6 +125,76 @@ export class FilmsRepository {
       },
       where: {
         id,
+      },
+    });
+  }
+
+  findByIdAdmin(id: number) {
+    return this.databaseClient.film.findUnique({
+      where: {
+        id,
+      },
+      select: {
+        title: true,
+        type: true,
+        style: true,
+        poster: true,
+        rating: true,
+        draft: true,
+        budget: true,
+        boxOffice: true,
+        duration: true,
+        releaseDate: true,
+        description: true,
+        chapterKey: true,
+        chapterOrder: true,
+        genres: {
+          select: {
+            genreId: true,
+          },
+        },
+        countries: {
+          select: {
+            countryId: true,
+          },
+        },
+        studios: {
+          select: {
+            studioId: true,
+          },
+        },
+        collections: {
+          select: {
+            collectionId: true,
+          },
+        },
+        trailers: {
+          select: {
+            videoId: true,
+            order: true,
+          },
+        },
+        castAndCrew: {
+          select: {
+            role: true,
+            details: true,
+            comment: true,
+            person: {
+              select: {
+                id: true,
+                name: true,
+              },
+            },
+          },
+        },
+        awards: {
+          select: {
+            awardId: true,
+            nominationId: true,
+            person: true,
+            comment: true,
+          },
+        },
       },
     });
   }
@@ -210,5 +278,14 @@ export class FilmsRepository {
     });
 
     return { films, total };
+  }
+
+  updateBaseFilmData(id: number, input: Prisma.FilmUpdateInput) {
+    return this.databaseClient.film.update({
+      where: {
+        id,
+      },
+      data: input,
+    });
   }
 }

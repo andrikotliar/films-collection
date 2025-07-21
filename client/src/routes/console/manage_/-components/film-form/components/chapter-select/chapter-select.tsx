@@ -2,8 +2,8 @@ import styles from './chapter-select.module.css';
 import { ChangeEvent, useCallback, useMemo, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import { debounce } from '@/helpers';
-import { fetchChapterKeysOptionsQuery } from '@/queries';
+import { debounce } from '@/common';
+import { fetchChapterKeysOptionsQuery } from '@/common';
 import { FormValues } from '@/routes/console/manage_/-types';
 import {
   FieldError,

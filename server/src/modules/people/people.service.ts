@@ -5,15 +5,11 @@ import {
   UpdatePersonInput,
 } from './schemas';
 import { PeopleRepository } from './people.repository';
-import { FilesService } from 'src/modules/files/files.service';
 import { DEFAULT_PAGINATION_LIMIT, NotFoundException } from 'src/common';
 import { Prisma } from '@prisma/client';
 
 export class PeopleService {
-  constructor(
-    private readonly peopleRepository: PeopleRepository,
-    private readonly filesService: FilesService,
-  ) {}
+  constructor(private readonly peopleRepository: PeopleRepository) {}
 
   async getList(queries: GetListQueries) {
     const filters: Prisma.PersonWhereInput = {};
@@ -68,20 +64,10 @@ export class PeopleService {
       throw new NotFoundException({ message: `Person #${id} not found!` });
     }
 
-    if (person.image && input.image !== person.image) {
-      await this.filesService.delete(person.image);
-    }
-
     return this.peopleRepository.update(id, input);
   }
 
   async deletePerson(id: number) {
-    const person = await this.peopleRepository.findPersonById(id);
-
-    if (person?.image) {
-      await this.filesService.delete(person.image);
-    }
-
     return this.peopleRepository.delete(id);
   }
 }

@@ -4,6 +4,7 @@ import {
   GetFilmsListQuerySchema,
   GetFilmRelatedChaptersSchema,
   SearchFilmsQuerySchema,
+  GetAdminFilmParamsSchema,
 } from './schemas';
 
 export const FilmsController = router((app, defineRoute) => [
@@ -48,6 +49,25 @@ export const FilmsController = router((app, defineRoute) => [
     },
     handler: async ({ request }) => {
       const data = await app.filmsService.getAdminList(request.query);
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'GET',
+    url: '/admin/:id',
+    preHandler: [app.authenticate],
+    schema: {
+      params: GetAdminFilmParamsSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.getFilmDetailsAdmin(
+        request.params.id,
+      );
 
       return {
         status: 'OK',

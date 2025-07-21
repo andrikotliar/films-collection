@@ -1,4 +1,8 @@
-import { fetchInitialDataQuery } from '@/queries';
+import {
+  fetchInitialDataQuery,
+  fetchPendingFilmQuery,
+  NEW_ITEM_ID,
+} from '@/common';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
@@ -9,7 +13,6 @@ import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
 import { FormValues } from './-types';
 import { LocalStorage } from '@/services';
-import { NEW_ITEM_ID } from '@/constants';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),
@@ -19,21 +22,47 @@ export const Route = createFileRoute('/console/manage_/$id')({
   validateSearch: (search) => {
     return consoleFilmQueriesSchema.validateSync(search);
   },
-  loader: async ({ context: { queryClient } }) => {
+  loaderDeps: ({ search }) => {
+    return {
+      search,
+    };
+  },
+  loader: async ({ context: { queryClient }, deps, params }) => {
     await queryClient.ensureQueryData(fetchInitialDataQuery());
+
+    if (deps.search.pendingFilmId && params.id === NEW_ITEM_ID) {
+      await queryClient.ensureQueryData(
+        fetchPendingFilmQuery(deps.search.pendingFilmId),
+      );
+    }
   },
   component: PageContainer,
 });
 
 function PageContainer() {
   const { id } = Route.useParams();
+  const search = Route.useSearch();
+
   const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
+  const { data: pendingFilm } = useSuspenseQuery(
+    fetchPendingFilmQuery(search.pendingFilmId),
+  );
 
   const idValue = id === NEW_ITEM_ID ? id : Number(id);
 
   const pageTitle = typeof id === 'number' ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {
+    if (pendingFilm) {
+      return {
+        ...filmDefaultFormValues,
+        pendingFilmId: pendingFilm.id,
+        title: pendingFilm.title,
+        rating: pendingFilm.rating ?? filmDefaultFormValues.rating,
+        collections: pendingFilm.collectionId ? [pendingFilm.collectionId] : [],
+      };
+    }
+
     const localValues = LocalStorage.getItem<FormValues>(`films:${idValue}`);
 
     if (localValues) {

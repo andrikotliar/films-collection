@@ -1,6 +1,6 @@
 import { Modal } from '@/components';
 import styles from './trailers-modal.module.css';
-import { Film, FilmTrailer } from '@/types';
+import { Film, FilmTrailer } from '@/common';
 import { Playlist } from './components';
 
 type TrailersModalProps = {

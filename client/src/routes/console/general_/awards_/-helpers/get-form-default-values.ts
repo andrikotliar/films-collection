@@ -5,7 +5,6 @@ export const getFormDefaultValues = (data: AwardWithNominations | null) => {
   if (data) {
     return {
       title: data.title,
-      image: data.image,
       description: data.description,
       nominations: data.nominations,
     };

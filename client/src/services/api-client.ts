@@ -1,6 +1,5 @@
-import { env } from '@/configs';
+import { ApiEndpoint } from '@/common';
 import { LocalStorage } from '@/services';
-import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
@@ -217,5 +216,5 @@ export class ApiClient {
 }
 
 export const apiClient = new ApiClient({
-  baseUrl: env.apiBaseUrl,
+  baseUrl: '/api',
 });

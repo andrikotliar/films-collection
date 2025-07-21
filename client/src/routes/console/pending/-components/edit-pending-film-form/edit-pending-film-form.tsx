@@ -1,4 +1,4 @@
-import { PendingFilm } from '@/types';
+import { PendingFilm } from '@/common';
 import { FormProvider, useForm } from 'react-hook-form';
 import { PendingFilmForm } from '../pending-film-form/pending-film-form';
 import { PendingFilmFormValues } from '../../-types';

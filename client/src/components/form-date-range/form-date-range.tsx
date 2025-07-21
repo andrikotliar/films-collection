@@ -1,8 +1,7 @@
-import { DateFilter } from '@/types';
+import { DateFilter, MIN_DATE } from '@/common';
 import { FormGroup } from '../form-group/form-group';
 import { FormDatePicker } from '../date-picker';
 import { useFormContext } from 'react-hook-form';
-import { MIN_DATE } from '@/constants';
 
 type FormDateRangeProps = {
   inputs: DateFilter['inputs'];

@@ -3,7 +3,7 @@ import {
   useManagePerson,
   usePersonForm,
 } from '@/routes/console/-components/person-form/hooks';
-import { Person } from '@/types';
+import { Person } from '@/common';
 import { FormProvider } from 'react-hook-form';
 
 type EditPersonFormProps = {
@@ -17,7 +17,6 @@ export const EditPersonForm = ({
 }: EditPersonFormProps) => {
   const form = usePersonForm({
     name: person.name,
-    image: person.image,
   });
 
   const { mutate, isPending } = useManagePerson({

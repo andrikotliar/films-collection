@@ -1,6 +1,6 @@
 import styles from './nomination.module.css';
 import { RouterLink } from '@/components';
-import { Person } from '@/types';
+import { Person } from '@/common';
 
 type NominationProps = {
   title: string;

@@ -1,11 +1,12 @@
+import path from 'path';
 import fastify from 'fastify';
 import { PrismaClient } from '@prisma/client';
-import CorsPlugin from '@fastify/cors';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
-import { AuthPlugin, PrismaPlugin } from 'src/plugins';
+import StaticPlugin from '@fastify/static';
+import { AuthPlugin, DatabasePlugin } from 'src/plugins';
 import { AppModule } from './app.module';
 import { AppDependencies, CookieName, env, errorHandler } from './common';
 
@@ -24,11 +25,6 @@ const app = fastify({
     },
   },
 }).withTypeProvider<TypeBoxTypeProvider>();
-
-app.register(CorsPlugin, {
-  origin: env.FRONTEND_ORIGIN,
-  credentials: true,
-});
 
 app.register(CookiePlugin, {
   secret: env.COOKIE_SECRET,
@@ -49,16 +45,24 @@ app.register(MultipartPlugin, {
   },
 });
 
-app.register(PrismaPlugin);
+app.register(StaticPlugin, {
+  root: path.join(import.meta.dirname, '/public'),
+});
+
+app.register(DatabasePlugin);
 app.register(AuthPlugin);
 
 app.register(AppModule, { prefix: '/api' });
 
 app.setErrorHandler(errorHandler);
 
+app.setNotFoundHandler((_, reply) => {
+  reply.sendFile('index.html');
+});
+
 const startServer = async () => {
   try {
-    await app.listen({ port: env.PORT, host: env.HOST });
+    await app.listen({ port: env.SERVER_PORT, host: env.SERVER_HOST });
   } catch (error: any) {
     app.log.error(error?.message);
 

@@ -3,7 +3,6 @@ import styles from './award-form.module.css';
 import {
   Button,
   ConfirmModal,
-  FormFileInput,
   FormTextArea,
   FormTextInput,
   FormToggle,
@@ -33,7 +32,6 @@ export const AwardForm = ({ isLoading, onSubmit }: AwardFormProps) => {
     <Panel>
       <form className={styles.form} onSubmit={onSubmit}>
         <FormTextInput name="title" label="Title" />
-        <FormFileInput name="image" label="Image" width={150} />
         <FormTextArea name="description" label="Description" />
         <div className={styles.nominations}>
           <h3>Nominations</h3>

@@ -1,7 +1,10 @@
 import * as yup from 'yup';
 import { createFileRoute } from '@tanstack/react-router';
-import { fetchFilmsListQuery, fetchInitialDataQuery } from '@/queries';
-import { FilmsListFilters } from '@/types';
+import {
+  fetchFilmsListQuery,
+  fetchInitialDataQuery,
+  type FilmsListFilters,
+} from '@/common';
 import { useDocumentTitle } from '@/hooks';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmsSection, RootPageLayout, Sidebar } from './-components';
@@ -18,8 +21,8 @@ const filmsListFilterSchema = yup.object().shape({
   collectionId: yup.string(),
   actorId: yup.string(),
   awardId: yup.string(),
-  crewMemberId: yup.string(),
-  crewMemberPosition: yup.string(),
+  personRole: yup.string(),
+  personId: yup.string(),
   rating: yup.string(),
   title: yup.string(),
 });

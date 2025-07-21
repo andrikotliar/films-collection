@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PendingFilm } from '@/types';
+import { PendingFilm } from '@/common';
 import { ConfirmModal, Panel } from '@/components';
 import { PendingFilmRow } from '../pending-film-row/pending-film-row';
 import { useMutation } from '@tanstack/react-query';

@@ -1,6 +1,7 @@
-import { IdParamSchema, router } from 'src/common';
+import { IdParamSchema, router, NotFoundException } from 'src/common';
 import {
   CreatePendingFilmBodySchema,
+  GetPendingFilmParamsSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmBodySchema,
 } from './schemas';
@@ -15,6 +16,30 @@ export const PendingFilmsController = router((app, defineRoute) => [
     },
     handler: async ({ request }) => {
       const data = await app.pendingFilmsService.getList(request.query);
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+  defineRoute({
+    method: 'GET',
+    url: '/:id',
+    preHandler: [app.authenticate],
+    schema: {
+      params: GetPendingFilmParamsSchema,
+    },
+    handler: async ({ request }) => {
+      const data = app.pendingFilmsService.getPendingFilmById(
+        request.params.id,
+      );
+
+      if (!data) {
+        throw new NotFoundException({
+          message: `Pending film ${request.params.id} not found`,
+        });
+      }
 
       return {
         status: 'OK',

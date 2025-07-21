@@ -1,4 +1,4 @@
-import { TitleStyle, TitleType } from '@/types';
+import { TitleStyle, TitleType } from '@/common';
 
 export type FormTrailer = {
   videoId: string;
@@ -41,4 +41,5 @@ export type FormValues = {
   awards: FormAward[];
   trailers: FormTrailer[];
   shouldUseExistingKey: boolean;
+  pendingFilmId?: number;
 };

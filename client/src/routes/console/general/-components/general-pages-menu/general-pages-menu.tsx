@@ -1,5 +1,5 @@
 import styles from './general-pages-menu.module.css';
-import { MenuConfigItem } from '@/types';
+import { MenuConfigItem } from '@/common';
 import { Link } from '@tanstack/react-router';
 import {
   Building2Icon,

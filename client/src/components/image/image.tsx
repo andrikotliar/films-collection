@@ -3,7 +3,7 @@ import styles from './image.module.css';
 import classNames from 'classnames';
 import { handleImageError } from './helpers';
 import { images } from '@/assets/images';
-import { env } from '@/configs';
+import { IMAGES_HOSTING_BASE_URL } from '@/common';
 
 type ImageProps = {
   src?: string | null;
@@ -25,12 +25,12 @@ export const Image = forwardRef<HTMLImageElement, ImageProps>(
     ref,
   ) => {
     const getImageSource = () => {
-      if ((isExternal && !env.baseMediaUrl) || !src) {
+      if ((isExternal && !IMAGES_HOSTING_BASE_URL) || !src) {
         return errorImageSrc;
       }
 
       if (isExternal) {
-        return `${env.baseMediaUrl}/${src}`;
+        return `${IMAGES_HOSTING_BASE_URL}/${src}`;
       }
 
       return src;

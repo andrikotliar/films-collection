@@ -12,7 +12,7 @@ import { StudiosModule } from './studios/studios.module';
 import { CollectionEventsModule } from './collection-events/collection-events.module';
 import { FilesModule } from './files/files.module';
 import { ChapterKeysModule } from './chapter-keys/chapter-keys.module';
-import { PostsModule } from 'src/modules/posts/posts.module';
+import { PageContent } from 'src/modules/page-content/page-content.module';
 
 export const modules = [
   FilesModule,
@@ -29,5 +29,5 @@ export const modules = [
   InitialDataModule,
   PendingFilmsModule,
   ChapterKeysModule,
-  PostsModule,
+  PageContent,
 ];
