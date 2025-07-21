@@ -1,4 +1,4 @@
-import { env, ApiEndpoint } from '@/common';
+import { ApiEndpoint } from '@/common';
 import { LocalStorage } from '@/services';
 import { redirect } from '@tanstack/react-router';
 
@@ -216,5 +216,5 @@ export class ApiClient {
 }
 
 export const apiClient = new ApiClient({
-  baseUrl: env.apiBaseUrl,
+  baseUrl: '/api',
 });

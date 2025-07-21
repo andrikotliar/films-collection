@@ -1,4 +1,4 @@
-app = 'films-collection-server'
+app = 'films-collection-app'
 primary_region = 'waw'
 
 [build]
