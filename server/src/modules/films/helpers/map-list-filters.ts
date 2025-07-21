@@ -32,7 +32,6 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     duration,
     personId,
     personRole,
-    actorId,
     awardId,
     style,
     budget,
