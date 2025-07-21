@@ -1,3 +1,4 @@
+import type { PersonRole } from '@prisma/client';
 import { FilmWithRelations, GroupedAwards, GroupedPeople } from '../types';
 
 const mapNestedRelations = <T extends Record<string, unknown>>(
@@ -5,6 +6,22 @@ const mapNestedRelations = <T extends Record<string, unknown>>(
   selector: keyof T,
 ) => {
   return values.map((item) => item[selector]);
+};
+
+const rolesOrder: Record<PersonRole, number> = {
+  CREATOR: 1,
+  DIRECTOR: 2,
+  WRITER: 3,
+  PRODUCER: 4,
+  COMPOSER: 5,
+  CAMERAMAN: 6,
+  ACTOR: 7,
+};
+
+const sortGroupedPeople = (castAndCrew: GroupedPeople) => {
+  return Object.values(castAndCrew).sort((a, b) => {
+    return rolesOrder[a.role] - rolesOrder[b.role];
+  });
 };
 
 export const mapFilmDetails = (film: FilmWithRelations) => {
@@ -50,7 +67,7 @@ export const mapFilmDetails = (film: FilmWithRelations) => {
     countries: mapNestedRelations(film.countries, 'country'),
     studios: mapNestedRelations(film.studios, 'studio'),
     collections: mapNestedRelations(film.collections, 'collection'),
-    castAndCrew: Object.values(castAndCrew),
+    castAndCrew: sortGroupedPeople(castAndCrew),
     awards: Object.values(awards),
   };
 };

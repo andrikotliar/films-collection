@@ -1,4 +1,3 @@
-import { Person } from './person';
 import { Award, Nomination } from './award';
 import { Collection } from './collection';
 
@@ -6,6 +5,7 @@ export type TitleType = 'FILM' | 'SERIES';
 export type TitleStyle = 'ANIMATION' | 'LIVE_ACTION';
 export type PersonRole =
   | 'DIRECTOR'
+  | 'PRODUCER'
   | 'WRITER'
   | 'COMPOSER'
   | 'CAMERAMAN'
@@ -105,11 +105,6 @@ export type FilmSearchResult = Pick<
   'id' | 'title' | 'genres' | 'poster' | 'releaseDate'
 >;
 
-export type AdditionalActorData = {
-  type: 'actor';
-  data: Person;
-};
-
 export type AdditionalCrewInfo = {
   type: 'crew';
   data: {
@@ -129,7 +124,6 @@ export type AdditionalAwardsInfo = {
 };
 
 export type AdditionalInfo =
-  | AdditionalActorData
   | AdditionalCrewInfo
   | AdditionalCollectionInfo
   | AdditionalAwardsInfo;
@@ -156,8 +150,8 @@ export type FilmsListFilters = FilmsListPagination &
     collectionId: string | null;
     actorId: string | null;
     awardId: string | null;
-    crewMemberId: string | null;
-    crewMemberPosition: string | null;
+    personRole: string | null;
+    personId: string | null;
     rating: string | null;
     title: string | null;
   }>;

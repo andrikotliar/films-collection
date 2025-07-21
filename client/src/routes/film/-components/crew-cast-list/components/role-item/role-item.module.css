@@ -1,20 +1,26 @@
-.crewItem {
+.roleItem {
   display: flex;
   padding: 20px;
   border-bottom: var(--app-border);
 }
 
-.crewItem:last-child {
+.roleItem:last-child {
   border-bottom: 0;
 }
 
-.crewItemTitle {
+.roleItemTitle {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
   text-transform: uppercase;
-  width: 120px;
+  width: 170px;
   flex-shrink: 0;
+}
+
+.actors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .list {
@@ -33,14 +39,27 @@
   color: var(--green);
 }
 
-.personLink {
+.roleItemLink {
   line-height: 1;
 }
 
-.person {
+.roleItem {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.personDetails {
+  display: flex;
+  gap: 5px;
+}
+
+.alignTop {
+  align-items: flex-start;
+}
+
+.role {
+  color: var(--purple-light);
 }
 
 .comment {
@@ -49,18 +68,18 @@
 }
 
 @media (max-width: 540px) {
-  .crewItem {
+  .roleItem {
     flex-direction: column;
     gap: 8px;
     align-items: flex-start;
     padding: 15px;
   }
 
-  .crewItemTitle {
+  .roleItemTitle {
     font-size: 12px;
   }
 
-  .personLink {
+  .roleItemLink {
     font-size: 14px;
   }
 }

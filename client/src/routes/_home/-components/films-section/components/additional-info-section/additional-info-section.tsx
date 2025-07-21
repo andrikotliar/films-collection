@@ -19,10 +19,6 @@ export const AdditionalInfoSection = ({ info }: AdditionalInfoProps) => {
     return null;
   }
 
-  if (info.type === 'actor') {
-    return <InfoBlock title={info.data.name} label="Filtered by Actor" />;
-  }
-
   if (info.type === 'collection') {
     return (
       <InfoBlock

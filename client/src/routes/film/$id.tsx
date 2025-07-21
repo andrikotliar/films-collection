@@ -4,9 +4,8 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {
   Description,
-  Cast,
   Awards,
-  CrewList,
+  CrewCastList,
   SummarySection,
   Chapters,
   NavigationRow,
@@ -36,16 +35,12 @@ function FilmPageContainer() {
       <ContentLayout>
         <SummarySection film={film} />
 
-        <Section title="Description">
+        <Section title="Overview">
           <Description rawHtml={film.description} />
         </Section>
 
-        <Section title="Crew">
-          <CrewList people={film.castAndCrew} />
-        </Section>
-
-        <Section title="Cast">
-          <Cast people={film.castAndCrew} />
+        <Section title="Crew and Cast">
+          <CrewCastList people={film.castAndCrew} />
         </Section>
 
         {film.awards && film.awards.length !== 0 && (

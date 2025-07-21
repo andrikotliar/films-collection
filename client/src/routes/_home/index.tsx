@@ -21,8 +21,8 @@ const filmsListFilterSchema = yup.object().shape({
   collectionId: yup.string(),
   actorId: yup.string(),
   awardId: yup.string(),
-  crewMemberId: yup.string(),
-  crewMemberPosition: yup.string(),
+  personRole: yup.string(),
+  personId: yup.string(),
   rating: yup.string(),
   title: yup.string(),
 });
