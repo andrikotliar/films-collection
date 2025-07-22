@@ -12,6 +12,8 @@ RUN npm run db:client:generate
 
 WORKDIR /app/client
 
+ARG VITE_BASE_MEDIA_URL
+ENV VITE_BASE_MEDIA_URL=$VITE_BASE_MEDIA_URL
 RUN npm ci
 RUN npm run build
 
