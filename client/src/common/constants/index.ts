@@ -1,5 +1,3 @@
-export const IMAGES_HOSTING_BASE_URL = import.meta.env.VITE_BASE_MEDIA_URL;
-
 export const APP_TITLE = 'Films Collection';
 export const NEW_ITEM_ID = 'new';
 
