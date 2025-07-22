@@ -5,7 +5,12 @@ export type FormValues = {
   endMonth: number;
   endDate: number;
   description: string | null;
-  background: string;
-  image: any;
+  background: {
+    color1: string;
+    color2: string;
+    angle: string;
+  };
   collectionId: number;
+  isOneDayEvent: boolean;
+  yearFrom: number | null;
 };

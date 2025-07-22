@@ -1,1 +1,1 @@
-export * from './convert-date-code';
+export * from './get-date-month-label';

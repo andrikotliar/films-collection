@@ -1,12 +1,12 @@
+import { type ChangeEvent } from 'react';
 import styles from './gradient-builder.module.css';
 import { FieldLabel } from '@/components/field-label/field-label';
-import { BLUE_DEFAULT, GREEN_DEFAULT } from '@/constants';
-import classNames from 'classnames';
-import { ChangeEvent } from 'react';
+import { BLUE_DEFAULT, GREEN_DEFAULT, type FormError } from '@/common';
+import { FieldError } from '@/components/field-error/field-error';
 
-type BackgroundData = {
-  leftColor: string;
-  rightColor: string;
+export type BackgroundData = {
+  color1: string;
+  color2: string;
   angle: string;
 };
 
@@ -14,18 +14,20 @@ export type GradientBuilderProps = {
   label?: string;
   onChange: (value: BackgroundData) => void;
   value?: BackgroundData;
+  error?: FormError;
 };
 
 const defaultValue: BackgroundData = {
-  leftColor: BLUE_DEFAULT,
-  rightColor: GREEN_DEFAULT,
-  angle: '45deg',
+  color1: BLUE_DEFAULT,
+  color2: GREEN_DEFAULT,
+  angle: '45',
 };
 
 export const GradientBuilder = ({
   label,
   onChange,
   value = defaultValue,
+  error,
 }: GradientBuilderProps) => {
   const prefilledValue = {
     ...defaultValue,
@@ -47,34 +49,40 @@ export const GradientBuilder = ({
     <div className={styles.wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <div className={styles.workSpace}>
-        <div className={styles.inputs}>
-          <div className={classNames(styles.inputWrapper, styles.leftWrapper)}>
-            <input
-              type="color"
-              onChange={getChangeHandler('leftColor')}
-              value={value.leftColor}
-              className={styles.input}
-            />
-          </div>
-          <div className={classNames(styles.inputWrapper, styles.rightWrapper)}>
-            <input
-              type="color"
-              onChange={getChangeHandler('rightColor')}
-              value={value.rightColor}
-              className={styles.input}
-            />
-          </div>
-        </div>
-
         <div
           className={styles.preview}
           style={{
-            background: `linear-gradient(${prefilledValue.angle}, ${prefilledValue.leftColor}, ${prefilledValue.rightColor})`,
+            background: `linear-gradient(${prefilledValue.angle}deg, ${prefilledValue.color1}, ${prefilledValue.color2})`,
           }}
-        >
-          <span className={styles.previewLabel}>Preview</span>
+        />
+        <div className={styles.inputs}>
+          <div className={styles.inputWrapper}>
+            <input
+              type="color"
+              onChange={getChangeHandler('color1')}
+              value={value.color1}
+              className={styles.input}
+            />
+          </div>
+          <div className={styles.inputWrapper}>
+            <input
+              type="color"
+              onChange={getChangeHandler('color2')}
+              value={value.color2}
+              className={styles.input}
+            />
+          </div>
+          <div className={styles.angleInputWrapper}>
+            <input
+              className={styles.angleInput}
+              onChange={getChangeHandler('angle')}
+              value={value.angle}
+            />
+            <span className={styles.metric}>deg</span>
+          </div>
         </div>
       </div>
+      <FieldError error={error} />
     </div>
   );
 };

@@ -26,7 +26,7 @@ export default tseslint.config(
       'no-console': 'error',
       'no-duplicate-imports': 'error',
       '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/consistent-type-import': 'warn',
+      '@typescript-eslint/consistent-type-imports': 'warn',
       '@typescript-eslint/no-unused-vars': [
         'error',
         {

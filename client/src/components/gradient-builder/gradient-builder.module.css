@@ -6,26 +6,29 @@
 
 .inputs {
   display: flex;
-  gap: 2px;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .inputWrapper {
   position: relative;
-  width: 80px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .workSpace {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .preview {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  width: 130px;
+  aspect-ratio: 1;
   border-radius: 10px;
 }
 
@@ -46,10 +49,22 @@
   cursor: pointer;
 }
 
-.leftWrapper {
-  border-radius: 10px 0 0 10px;
+.angleInputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.rightWrapper {
-  border-radius: 0 10px 10px 0;
+.angleInput {
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  border: var(--app-border);
+  text-align: center;
+}
+
+.metric {
+  font-size: 14px;
 }

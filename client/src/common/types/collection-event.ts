@@ -1,21 +1,22 @@
-import { Collection } from './collection';
+import type { BackgroundData } from '@/components';
+import type { Collection } from './collection';
 
 export type CollectionEvent = {
   id: number;
   title: string;
-  image: string;
   collectionId: number;
   startDate: number;
   startMonth: number;
   endDate: number;
   endMonth: number;
   description: string | null;
-  background: string;
+  background: BackgroundData;
+  yearFrom: number | null;
 };
 
 export type BaseCollectionEvent = Pick<
   CollectionEvent,
-  'title' | 'image' | 'collectionId'
+  'title' | 'collectionId'
 >;
 
 export type CollectionEventFilled = CollectionEvent & {

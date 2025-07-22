@@ -1,18 +1,20 @@
-import { FormEventHandler, useState } from 'react';
+import { type FormEventHandler } from 'react';
 import styles from './collection-event-form.module.css';
 import {
   Button,
   FormTextInput,
   FormTitle,
   FormSelect,
-  FormFileInput,
   FormTextArea,
   FormGradientBuilder,
+  Panel,
+  FormCheckbox,
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/common';
-import { Panel } from '@/components';
+import { useFormContext } from 'react-hook-form';
+import type { FormValues } from '@/routes/console/collection-events/-types';
 
 type CollectionEventFormProps = {
   onSubmit: FormEventHandler;
@@ -26,15 +28,15 @@ export const CollectionEventForm = ({
   isSaving,
 }: CollectionEventFormProps) => {
   const { data } = useQuery(fetchInitialDataQuery());
+  const { watch } = useFormContext<FormValues>();
 
-  const [background, setBackground] = useState<any>();
+  const isOneDayEvent = watch('isOneDayEvent');
 
   return (
     <Panel>
       <form onSubmit={onSubmit} className={styles.formWrapper}>
         <FormTitle>{title}</FormTitle>
         <FormTextInput name="title" label="Title" />
-        <FormFileInput name="image" label="Image" width={100} height={100} />
         {data && (
           <FormSelect
             label="Collection"
@@ -43,25 +45,27 @@ export const CollectionEventForm = ({
           />
         )}
         <FormTextArea name="description" label="Description" />
-        <FormGradientBuilder
-          name="background"
-          label="Background"
-          onChange={setBackground}
-          value={background}
-        />
+        <FormGradientBuilder name="background" label="Background" />
         <div className={styles.dates}>
           <div className={styles.dateGroup}>
-            <div className={styles.groupTitle}>Start date</div>
+            <div className={styles.groupTitle}>
+              <span>Start date</span>
+              <FormCheckbox
+                label="One day event"
+                name="isOneDayEvent"
+                type="checkbox"
+              />
+            </div>
             <div className={styles.inputs}>
               <FormTextInput
-                name="startDate.month"
+                name="startMonth"
                 type="number"
                 min={1}
                 max={12}
                 label="Month"
               />
               <FormTextInput
-                name="startDate.date"
+                name="startDate"
                 type="number"
                 min={1}
                 max={31}
@@ -69,25 +73,27 @@ export const CollectionEventForm = ({
               />
             </div>
           </div>
-          <div className={styles.dateGroup}>
-            <div className={styles.groupTitle}>End date</div>
-            <div className={styles.inputs}>
-              <FormTextInput
-                name="endDate.month"
-                type="number"
-                min={1}
-                max={12}
-                label="Month"
-              />
-              <FormTextInput
-                name="endDate.date"
-                type="number"
-                min={1}
-                max={31}
-                label="Date"
-              />
+          {!isOneDayEvent && (
+            <div className={styles.dateGroup}>
+              <div className={styles.groupTitle}>End date</div>
+              <div className={styles.inputs}>
+                <FormTextInput
+                  name="endMonth"
+                  type="number"
+                  min={1}
+                  max={12}
+                  label="Month"
+                />
+                <FormTextInput
+                  name="endDate"
+                  type="number"
+                  min={1}
+                  max={31}
+                  label="Date"
+                />
+              </div>
             </div>
-          </div>
+          )}
         </div>
         <Button type="submit" isLoading={isSaving} icon={<SaveIcon />}>
           Save
