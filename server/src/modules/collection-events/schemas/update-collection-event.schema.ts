@@ -3,7 +3,6 @@ import { Static, Type } from '@sinclair/typebox';
 export const UpdateCollectionEventBodySchema = Type.Object(
   {
     title: Type.Optional(Type.String()),
-    image: Type.Optional(Type.String()),
     collectionId: Type.Optional(Type.Number()),
     startDate: Type.Optional(Type.Number()),
     startMonth: Type.Optional(Type.Number()),
@@ -22,6 +21,4 @@ export const UpdateCollectionEventBodySchema = Type.Object(
   { additionalProperties: false },
 );
 
-export type UpdateCollectionEventPayload = Static<
-  typeof UpdateCollectionEventBodySchema
->;
+export type UpdateCollectionEventPayload = Static<typeof UpdateCollectionEventBodySchema>;
