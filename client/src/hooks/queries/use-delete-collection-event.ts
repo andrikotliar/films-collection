@@ -1,14 +1,11 @@
 import { CollectionEventsApi } from '@/api';
-import { queryKeys, type CollectionEvent, type OmitId } from '@/common';
+import { queryKeys } from '@/common';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
-export const useCreateCollectionEvent = () => {
+export const useDeleteCollectionEvent = () => {
   const queryClient = useQueryClient();
-
   return useMutation({
-    mutationFn: async (data: OmitId<CollectionEvent>) => {
-      return CollectionEventsApi.createEvent(data);
-    },
+    mutationFn: CollectionEventsApi.deleteEvent,
     onSuccess: () => {
       queryClient.invalidateQueries({
         queryKey: [queryKeys.collectionEvent.adminList],

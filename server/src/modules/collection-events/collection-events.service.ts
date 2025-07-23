@@ -1,4 +1,3 @@
-import { CollectionEvent } from '@prisma/client';
 import { CollectionEventsRepository } from './collection-events.repository';
 import {
   CreateCollectionEventPayload,
@@ -51,17 +50,6 @@ export class CollectionEventsService {
   }
 
   async updateEvent(id: number, input: UpdateCollectionEventPayload) {
-    const eventBeforeUpdate =
-      await this.collectionEventsRepository.getEventById(id);
-
-    if (!eventBeforeUpdate) {
-      throw new NotFoundException({ message: `Event #${id} not found` });
-    }
-
-    if (eventBeforeUpdate.image !== input.image) {
-      await this.filesService.delete(eventBeforeUpdate.image);
-    }
-
     return this.collectionEventsRepository.updateEvent(id, input);
   }
 

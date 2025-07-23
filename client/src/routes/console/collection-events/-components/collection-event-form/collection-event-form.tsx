@@ -95,6 +95,11 @@ export const CollectionEventForm = ({
             </div>
           )}
         </div>
+        <FormTextInput
+          name="yearFrom"
+          label="First event occurrence year"
+          placeholder="E.g. 2020"
+        />
         <Button type="submit" isLoading={isSaving} icon={<SaveIcon />}>
           Save
         </Button>

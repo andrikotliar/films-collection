@@ -1,8 +1,8 @@
 import { CollectionEventFilled } from '@/common';
-import { Button, Image, RouterLink } from '@/components';
+import { Button, RouterLink } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 import styles from './event.module.css';
-import { convertDateCode } from '@/routes/console/collection-events/-helpers';
+import { getDateMonthLabel } from '@/routes/console/collection-events/-helpers';
 
 type EventProps = {
   data: CollectionEventFilled;
@@ -11,19 +11,10 @@ type EventProps = {
 };
 
 export const Event = ({ data, onDelete, onEdit }: EventProps) => {
-  const startDate = convertDateCode(data.startDateCode);
-  const endDate = convertDateCode(data.endDateCode);
-
-  const datesLabel =
-    startDate.label === endDate.label
-      ? startDate.label
-      : `${startDate.label} - ${endDate.label}`;
+  const datesLabel = getDateMonthLabel(data);
 
   return (
     <div className={styles.event}>
-      <div className={styles.image}>
-        <Image src={data.image} isExternal />
-      </div>
       <div className={styles.info}>
         <h3 className={styles.title}>{data.title}</h3>
         <div className={styles.dates}>{datesLabel}</div>

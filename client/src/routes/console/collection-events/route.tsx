@@ -1,28 +1,25 @@
 import {
   fetchCollectionEventsQuery,
-  CollectionEventFilled,
-  getFileUploadFormData,
+  type CollectionEvent,
+  type CollectionEventFilled,
+  type OmitId,
 } from '@/common';
 import { createFileRoute } from '@tanstack/react-router';
-import { CollectionEventsApi, FilesApi } from '@/api';
 import {
   CollectionEventForm,
   EditCollectionEventForm,
   Event,
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import {
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-  Panel,
-} from '@/components';
+import { ConfirmModal, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
-import { FormValues } from './-types';
+import { type FormValues } from './-types';
 import { FormModal } from '@/routes/console/-components';
+import { defaultValues } from '@/routes/console/collection-events/-configs';
+import { useCreateCollectionEvent, useDeleteCollectionEvent } from '@/hooks';
 
 type EventModifyContent = CollectionEventFilled | null;
 
@@ -31,52 +28,37 @@ const CollectionEventsContainer = () => {
   const [eventToUpdate, setEventToUpdate] = useState<EventModifyContent>(null);
 
   const form = useForm({
+    defaultValues,
     resolver: yupResolver(collectionEventSchema),
   });
 
   const { data, refetch } = useSuspenseQuery(fetchCollectionEventsQuery());
 
-  const { mutate: createEvent, isPending: isCreating } = useMutation({
-    mutationFn: async (data: FormValues) => {
-      let image: string | File = data.image;
+  const { mutateAsync: createEvent, isPending: isCreating } = useCreateCollectionEvent();
+  const { mutateAsync: deleteEvent, isPending: isDeleting } = useDeleteCollectionEvent();
 
-      if (image instanceof File) {
-        const formData = getFileUploadFormData({
-          file: image,
-          title: data.title,
-          destination: 'decoration',
-        });
-        const response = await FilesApi.upload(formData);
+  const handleSubmit = async (data: FormValues) => {
+    const { isOneDayEvent, ...event } = data;
 
-        image = response.filePath;
-      }
+    if (isOneDayEvent) {
+      const payload: OmitId<CollectionEvent> = {
+        ...event,
+        endDate: event.startDate,
+        endMonth: event.startMonth,
+      };
 
-      return CollectionEventsApi.createEvent({
-        ...data,
-        image,
-      });
-    },
-    onSuccess: () => {
+      await createEvent(payload);
       form.reset();
-      refetch();
-    },
-  });
+      return;
+    }
 
-  const { mutate: deleteEvent, isPending: isDeleting } = useMutation({
-    mutationFn: CollectionEventsApi.deleteEvent,
-    onSuccess: () => {
-      refetch();
-      setEventToDelete(null);
-    },
-  });
-
-  const handleSubmit = (data: FormValues) => {
-    // createEvent(data);
-    console.log(data);
+    await createEvent(data);
+    form.reset();
   };
 
-  const handleDeleteEvent = (collectionEvent: CollectionEventFilled) => {
-    deleteEvent(collectionEvent.id);
+  const handleDeleteEvent = async (collectionEvent: CollectionEventFilled) => {
+    await deleteEvent(collectionEvent.id);
+    setEventToDelete(null);
   };
 
   return (
@@ -107,10 +89,7 @@ const CollectionEventsContainer = () => {
         confirmButtonVariant="danger"
         isPending={isDeleting}
       />
-      <FormModal
-        isOpen={eventToUpdate !== null}
-        onClose={() => setEventToUpdate(null)}
-      >
+      <FormModal isOpen={eventToUpdate !== null} onClose={() => setEventToUpdate(null)}>
         {eventToUpdate && (
           <EditCollectionEventForm
             defaultValues={eventToUpdate}
