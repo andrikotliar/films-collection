@@ -1,5 +1,5 @@
 import { AuthService } from './auth.service';
-import { AuthController } from './auth.controller';
+import { createAuthRouter } from './auth.router';
 import { createModule } from 'src/common';
 
 export const AuthModule = createModule({
@@ -8,5 +8,5 @@ export const AuthModule = createModule({
     const service = new AuthService(app.usersService, app.jwt);
     return service;
   },
-  controller: AuthController,
+  router: createAuthRouter,
 });

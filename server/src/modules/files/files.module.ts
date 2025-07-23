@@ -1,5 +1,5 @@
 import { createModule, env } from 'src/common';
-import { FilesController } from './files.controller';
+import { createFilesRouter } from './files.router';
 import { FilesService } from './files.service';
 
 export const FilesModule = createModule({
@@ -8,5 +8,5 @@ export const FilesModule = createModule({
     const service = new FilesService(env);
     return service;
   },
-  controller: FilesController,
+  router: createFilesRouter,
 });

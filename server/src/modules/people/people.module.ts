@@ -1,7 +1,7 @@
 import { createModule } from 'src/common';
 import { PeopleRepository } from './people.repository';
 import { PeopleService } from './people.service';
-import { PeopleController } from './people.controller';
+import { createPeopleRouter } from './people.router';
 
 export const PeopleModule = createModule({
   prefix: 'people',
@@ -11,5 +11,5 @@ export const PeopleModule = createModule({
 
     return peopleService;
   },
-  controller: PeopleController,
+  router: createPeopleRouter,
 });

@@ -1,12 +1,12 @@
-import { IdParamSchema, router } from 'src/common';
-import { ManageStudioBodySchema } from 'src/modules/studios/schemas';
+import { IdParamSchema, createRouter } from 'src/common';
+import { ManageCountryBodySchema } from './schemas';
 
-export const StudiosController = router((app, defineRoute) => [
+export const createCountriesRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async () => {
-      const data = await app.studiosService.getBaseDataList();
+      const data = await app.countriesService.getBaseDataList();
 
       return {
         status: 'OK',
@@ -18,12 +18,10 @@ export const StudiosController = router((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
-    schema: {
-      body: ManageStudioBodySchema,
-    },
+    schema: { body: ManageCountryBodySchema },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.studiosService.createStudio(request.body);
+      const data = await app.countriesService.createCountry(request.body);
 
       return {
         status: 'CREATED',
@@ -35,16 +33,10 @@ export const StudiosController = router((app, defineRoute) => [
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    schema: {
-      body: ManageStudioBodySchema,
-      params: IdParamSchema,
-    },
+    schema: { body: ManageCountryBodySchema, params: IdParamSchema },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.studiosService.updateStudio(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.countriesService.updateCountry(request.params.id, request.body);
 
       return {
         status: 'OK',
@@ -56,12 +48,10 @@ export const StudiosController = router((app, defineRoute) => [
   defineRoute({
     method: 'DELETE',
     url: '/:id',
-    schema: {
-      params: IdParamSchema,
-    },
+    schema: { params: IdParamSchema },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.studiosService.deleteStudio(request.params.id);
+      const data = await app.countriesService.deleteCountry(request.params.id);
 
       return {
         status: 'OK',

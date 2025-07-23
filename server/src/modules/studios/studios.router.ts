@@ -1,12 +1,12 @@
-import { IdParamSchema, router } from 'src/common';
-import { ManageGenreBodySchema } from './schemas';
+import { IdParamSchema, createRouter } from 'src/common';
+import { ManageStudioBodySchema } from 'src/modules/studios/schemas';
 
-export const GenresController = router((app, defineRoute) => [
+export const createStudiosRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async () => {
-      const data = await app.genresService.getBaseListData();
+      const data = await app.studiosService.getBaseDataList();
 
       return {
         status: 'OK',
@@ -19,11 +19,11 @@ export const GenresController = router((app, defineRoute) => [
     method: 'POST',
     url: '/',
     schema: {
-      body: ManageGenreBodySchema,
+      body: ManageStudioBodySchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.genresService.createGenre(request.body);
+      const data = await app.studiosService.createStudio(request.body);
 
       return {
         status: 'CREATED',
@@ -36,15 +36,12 @@ export const GenresController = router((app, defineRoute) => [
     method: 'PATCH',
     url: '/:id',
     schema: {
+      body: ManageStudioBodySchema,
       params: IdParamSchema,
-      body: ManageGenreBodySchema,
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.genresService.updateGenre(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.studiosService.updateStudio(request.params.id, request.body);
 
       return {
         status: 'OK',
@@ -61,7 +58,7 @@ export const GenresController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.genresService.deleteGenre(request.params.id);
+      const data = await app.studiosService.deleteStudio(request.params.id);
 
       return {
         status: 'OK',

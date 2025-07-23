@@ -1,6 +1,6 @@
 import { AwardsRepository } from './awards.repository';
 import { AwardsService } from './awards.service';
-import { AwardsController } from './awards.controller';
+import { createAwardsRouter } from './awards.router';
 import { createModule } from 'src/common';
 
 export const AwardsModule = createModule({
@@ -10,5 +10,5 @@ export const AwardsModule = createModule({
     const service = new AwardsService(awardRepository);
     return service;
   },
-  controller: AwardsController,
+  router: createAwardsRouter,
 });

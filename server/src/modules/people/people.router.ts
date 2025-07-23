@@ -1,4 +1,4 @@
-import { IdParamSchema, router } from 'src/common';
+import { IdParamSchema, createRouter } from 'src/common';
 import {
   CreatePersonSchema,
   GetListQueriesSchema,
@@ -6,7 +6,7 @@ import {
   UpdatePersonBodySchema,
 } from './schemas';
 
-export const PeopleController = router((app, defineRoute) => [
+export const createPeopleRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
@@ -66,10 +66,7 @@ export const PeopleController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.peopleService.updatePerson(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.peopleService.updatePerson(request.params.id, request.body);
 
       return {
         status: 'OK',

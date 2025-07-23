@@ -1,5 +1,5 @@
 import { createModule } from 'src/common';
-import { CollectionsController } from './collections.controller';
+import { createCollectionsRouter } from './collections.router';
 import { CollectionsRepository } from './collections.repository';
 import { CollectionsService } from './collections.service';
 
@@ -11,5 +11,5 @@ export const CollectionsModule = createModule({
 
     return collectionsService;
   },
-  controller: CollectionsController,
+  router: createCollectionsRouter,
 });

@@ -1,12 +1,12 @@
-import { IdParamSchema, router } from 'src/common';
-import { ManageCountryBodySchema } from './schemas';
+import { IdParamSchema, createRouter } from 'src/common';
+import { ManageGenreBodySchema } from './schemas';
 
-export const CountriesController = router((app, defineRoute) => [
+export const createGenresRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async () => {
-      const data = await app.countriesService.getBaseDataList();
+      const data = await app.genresService.getBaseListData();
 
       return {
         status: 'OK',
@@ -18,10 +18,12 @@ export const CountriesController = router((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
-    schema: { body: ManageCountryBodySchema },
+    schema: {
+      body: ManageGenreBodySchema,
+    },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.countriesService.createCountry(request.body);
+      const data = await app.genresService.createGenre(request.body);
 
       return {
         status: 'CREATED',
@@ -33,13 +35,13 @@ export const CountriesController = router((app, defineRoute) => [
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    schema: { body: ManageCountryBodySchema, params: IdParamSchema },
+    schema: {
+      params: IdParamSchema,
+      body: ManageGenreBodySchema,
+    },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.countriesService.updateCountry(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.genresService.updateGenre(request.params.id, request.body);
 
       return {
         status: 'OK',
@@ -51,10 +53,12 @@ export const CountriesController = router((app, defineRoute) => [
   defineRoute({
     method: 'DELETE',
     url: '/:id',
-    schema: { params: IdParamSchema },
+    schema: {
+      params: IdParamSchema,
+    },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.countriesService.deleteCountry(request.params.id);
+      const data = await app.genresService.deleteGenre(request.params.id);
 
       return {
         status: 'OK',

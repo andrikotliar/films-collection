@@ -1,10 +1,7 @@
-import { IdParamSchema, router } from 'src/common';
-import {
-  CreateCollectionBodySchema,
-  UpdateCollectionBodySchema,
-} from './schemas';
+import { IdParamSchema, createRouter } from 'src/common';
+import { CreateCollectionBodySchema, UpdateCollectionBodySchema } from './schemas';
 
-export const CollectionsController = router((app, defineRoute) => [
+export const createCollectionsRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
@@ -39,10 +36,7 @@ export const CollectionsController = router((app, defineRoute) => [
     schema: { params: IdParamSchema, body: UpdateCollectionBodySchema },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.collectionsService.updateCollection(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.collectionsService.updateCollection(request.params.id, request.body);
 
       return {
         status: 'OK',
@@ -57,9 +51,7 @@ export const CollectionsController = router((app, defineRoute) => [
     schema: { params: IdParamSchema },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.collectionsService.deleteCollection(
-        request.params.id,
-      );
+      const data = await app.collectionsService.deleteCollection(request.params.id);
 
       return {
         status: 'OK',

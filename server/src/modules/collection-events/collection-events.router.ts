@@ -1,7 +1,7 @@
 import { IdParamSchema, createRouter } from 'src/common';
 import { CreateCollectionEventSchema, UpdateCollectionEventBodySchema } from './schemas';
 
-export const collectionEventsRouter = createRouter((app, defineRoute) => [
+export const createCollectionEventsRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',

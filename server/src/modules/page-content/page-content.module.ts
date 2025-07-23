@@ -1,5 +1,5 @@
 import { createModule } from 'src/common';
-import { PageContentController } from './page-content.controller';
+import { createPageContentRouter } from './page-content.router';
 import { PageContentRepository } from './page-content.repository';
 import { PageContentService } from './page-content.service';
 
@@ -11,5 +11,5 @@ export const PageContent = createModule({
 
     return service;
   },
-  controller: PageContentController,
+  router: createPageContentRouter,
 });
