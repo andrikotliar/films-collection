@@ -1,8 +1,5 @@
 import { CollectionEventsRepository } from './collection-events.repository';
-import {
-  CreateCollectionEventPayload,
-  UpdateCollectionEventPayload,
-} from './schemas';
+import { CreateCollectionEventPayload, UpdateCollectionEventPayload } from './schemas';
 import { FilesService } from 'src/modules/files/files.service';
 import { NotFoundException } from 'src/common';
 
@@ -22,11 +19,7 @@ export class CollectionEventsService {
     const month = currentDate.getMonth() + 1;
     const date = currentDate.getDate();
 
-    const currentDateCode = this.convertDateToCode({ month, date });
-
-    const events = await this.collectionEventsRepository.getEvent(
-      currentDateCode,
-    );
+    const events = await this.collectionEventsRepository.getEvent({ date, month });
 
     return {
       event: events[0] ?? null,
@@ -38,14 +31,6 @@ export class CollectionEventsService {
   }
 
   async deleteEvent(id: number) {
-    const event = await this.collectionEventsRepository.getEventById(id);
-
-    if (!event) {
-      throw new NotFoundException({ message: `Event #${id} not found` });
-    }
-
-    await this.filesService.delete(event.image);
-
     return this.collectionEventsRepository.deleteEvent(id);
   }
 
@@ -55,9 +40,5 @@ export class CollectionEventsService {
 
   getAllEvents() {
     return this.collectionEventsRepository.getAllEvents();
-  }
-
-  private convertDateToCode(date: EventDate) {
-    return date.month * 100 + date.date;
   }
 }

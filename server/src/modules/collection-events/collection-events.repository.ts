@@ -5,6 +5,11 @@ import {
   UpdateCollectionEventPayload,
 } from 'src/modules/collection-events/schemas';
 
+type GetEventParams = {
+  date: number;
+  month: number;
+};
+
 export class CollectionEventsRepository {
   constructor(private databaseClient: PrismaClient) {}
 
@@ -16,19 +21,24 @@ export class CollectionEventsRepository {
     });
   }
 
-  getEvent(date: number) {
+  getEvent({ date, month }: GetEventParams) {
     return this.databaseClient.$queryRaw<GetEventQueryResult[]>`
-      SELECT ce.title, ce.image, c.id as "collectionId" FROM collection_events ce
+      SELECT
+        ce.title, ce.image, c.id as "collectionId"
+      FROM collection_events ce
       INNER JOIN collections c ON c.id = ce.collection_id
       WHERE
-        ce.start_date_code = ${date}
+        ce.start_date = ${date}
+        ce.start_month = ${month}
         OR (
-          ce.start_date_code <= ce.end_date_code
-          AND ${date} BETWEEN ce.start_date_code AND ce.end_date_code
+          ce.start_month <= ce.end_month
+          AND ${date} BETWEEN ce.start_date AND ce.end_date
+          AND ${month} BETWEEN ce.start_month AND ce.end_month
         )
         OR (
-          ce.start_date_code > ce.end_date_code
-          AND (${date} >= ce.start_date_code OR ${date} <= ce.end_date_code)
+          ce.start_month > ce.end_month
+          AND (${date} >= ce.start_date OR ${date} <= ce.end_date)
+          AND (${month} >= ce.start_month OR ${month} <= ce.end_month)
         );
     `;
   }
@@ -38,7 +48,6 @@ export class CollectionEventsRepository {
       select: {
         id: true,
         title: true,
-        image: true,
         startDate: true,
         endDate: true,
         startMonth: true,

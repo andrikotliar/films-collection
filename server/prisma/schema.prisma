@@ -268,7 +268,7 @@ model PendingFilm {
 model CollectionEvent {
   id            Int        @id @default(autoincrement())
   title         String
-  image         String
+  image         String?
   collection    Collection @relation(fields: [collectionId], references: [id], onDelete: Restrict)
   collectionId  Int        @map("collection_id")
   startDateCode Int?       @map("start_date_code")

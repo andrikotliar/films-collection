@@ -2,16 +2,13 @@ import { FastifyInstance } from 'fastify';
 import { ResponseCode } from 'src/common/enums';
 import { Route, RouteSchema } from 'src/common/types';
 
-type Controller = (
-  app: FastifyInstance,
-  defineRoute: typeof defineRouteFn,
-) => Route<any>[];
+type Controller = (app: FastifyInstance, defineRoute: typeof defineRouteFn) => Route<any>[];
 
 const defineRouteFn = <S extends Partial<RouteSchema>>(route: Route<S>) => {
   return route;
 };
 
-export const router = (controller: Controller) => {
+export const createRouter = (controller: Controller) => {
   return async (app: FastifyInstance) => {
     const routes = controller(app, defineRouteFn);
 
@@ -24,9 +21,7 @@ export const router = (controller: Controller) => {
         handler: async (request: any, reply) => {
           const response = await route.handler({ request, reply });
 
-          return reply
-            .status(ResponseCode[response.status])
-            .send(response.data);
+          return reply.status(ResponseCode[response.status]).send(response.data);
         },
       });
     }
