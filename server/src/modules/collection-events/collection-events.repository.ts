@@ -24,12 +24,19 @@ export class CollectionEventsRepository {
   getEvent({ date, month }: GetEventParams) {
     return this.databaseClient.$queryRaw<GetEventQueryResult[]>`
       SELECT
-        ce.title, ce.image, c.id as "collectionId"
+        ce.title,
+        c.id as "collectionId",
+        ce.start_date as "startDate",
+        ce.start_month as "startMonth",
+        ce.end_date as "endDate",
+        ce.end_month as "endMonth",
+        ce.background,
+        ce.year_from as "yearFrom"
       FROM collection_events ce
       INNER JOIN collections c ON c.id = ce.collection_id
       WHERE
         ce.start_date = ${date}
-        ce.start_month = ${month}
+        AND ce.start_month = ${month}
         OR (
           ce.start_month <= ce.end_month
           AND ${date} BETWEEN ce.start_date AND ce.end_date
@@ -53,6 +60,7 @@ export class CollectionEventsRepository {
         startMonth: true,
         endMonth: true,
         yearFrom: true,
+        background: true,
         collection: {
           select: {
             id: true,
