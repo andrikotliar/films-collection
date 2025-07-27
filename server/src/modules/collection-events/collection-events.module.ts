@@ -8,7 +8,7 @@ export const CollectionEventsModule = createModule({
   service: (app) => {
     const collectionEventsRepository = new CollectionEventsRepository(app.database);
 
-    const service = new CollectionEventsService(collectionEventsRepository, app.filesService);
+    const service = new CollectionEventsService(collectionEventsRepository, app.collectionsService);
     return service;
   },
   router: createCollectionEventsRouter,

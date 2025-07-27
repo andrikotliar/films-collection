@@ -27,6 +27,7 @@ export const collectionEventSchema = yup.object({
       angle: yup.string().required().label('Angle'),
       color1: yup.string().required().label('Color 1'),
       color2: yup.string().required().label('Color 2'),
+      textColor: yup.string().oneOf(['black', 'white']).required().label('Text Color'),
     })
     .required()
     .label('Background'),

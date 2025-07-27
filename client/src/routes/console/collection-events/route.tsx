@@ -9,9 +9,10 @@ import {
   CollectionEventForm,
   EditCollectionEventForm,
   Event,
+  EventsList,
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import { ConfirmModal, ConsoleContent, ConsoleTitle, Panel } from '@/components';
+import { ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';
@@ -71,7 +72,7 @@ const CollectionEventsContainer = () => {
           isSaving={isCreating}
         />
       </FormProvider>
-      <Panel hasPaddings={false}>
+      <EventsList>
         {data.map((event) => (
           <Event
             data={event}
@@ -80,7 +81,7 @@ const CollectionEventsContainer = () => {
             onEdit={setEventToUpdate}
           />
         ))}
-      </Panel>
+      </EventsList>
       <ConfirmModal
         data={eventToDelete}
         onConfirm={handleDeleteEvent}

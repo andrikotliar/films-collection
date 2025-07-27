@@ -1,4 +1,5 @@
 import { Static, Type } from '@sinclair/typebox';
+import { BackgroundSchema } from './background.schema';
 
 export const UpdateCollectionEventBodySchema = Type.Object(
   {
@@ -10,13 +11,7 @@ export const UpdateCollectionEventBodySchema = Type.Object(
     endMonth: Type.Optional(Type.Number()),
     yearFrom: Type.Optional(Type.Number()),
     description: Type.String(),
-    background: Type.Optional(
-      Type.Object({
-        leftColor: Type.String(),
-        rightColor: Type.String(),
-        angle: Type.String(),
-      }),
-    ),
+    background: Type.Optional(BackgroundSchema),
   },
   { additionalProperties: false },
 );

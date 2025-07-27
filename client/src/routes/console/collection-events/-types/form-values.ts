@@ -1,3 +1,5 @@
+import type { BackgroundData } from '@/components';
+
 export type FormValues = {
   title: string;
   startDate: number;
@@ -5,11 +7,7 @@ export type FormValues = {
   endMonth: number;
   endDate: number;
   description: string | null;
-  background: {
-    color1: string;
-    color2: string;
-    angle: string;
-  };
+  background: BackgroundData;
   collectionId: number;
   isOneDayEvent: boolean;
   yearFrom: number | null;

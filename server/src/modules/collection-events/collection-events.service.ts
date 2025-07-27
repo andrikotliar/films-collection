@@ -1,29 +1,21 @@
+import type { CollectionsService } from 'src/modules/collections/collections.service';
 import { CollectionEventsRepository } from './collection-events.repository';
 import { CreateCollectionEventPayload, UpdateCollectionEventPayload } from './schemas';
-import { FilesService } from 'src/modules/files/files.service';
-import { NotFoundException } from 'src/common';
-
-type EventDate = {
-  month: number;
-  date: number;
-};
 
 export class CollectionEventsService {
   constructor(
-    private collectionEventsRepository: CollectionEventsRepository,
-    private filesService: FilesService,
+    private readonly collectionEventsRepository: CollectionEventsRepository,
+    private readonly collectionService: CollectionsService,
   ) {}
 
-  async findTodayEvent() {
+  async findTodayEvents() {
     const currentDate = new Date();
     const month = currentDate.getMonth() + 1;
     const date = currentDate.getDate();
 
-    const events = await this.collectionEventsRepository.getEvent({ date, month });
+    const events = await this.collectionEventsRepository.getEvents({ date, month });
 
-    return {
-      event: events[0] ?? null,
-    };
+    return events ?? [];
   }
 
   createEvent(input: CreateCollectionEventPayload) {
@@ -38,7 +30,18 @@ export class CollectionEventsService {
     return this.collectionEventsRepository.updateEvent(id, input);
   }
 
-  getAllEvents() {
-    return this.collectionEventsRepository.getAllEvents();
+  async getAllEvents() {
+    const events = await this.collectionEventsRepository.getAllEvents();
+
+    const eventsWithCount = events.map(async (event) => {
+      const count = await this.collectionService.countFilmsByCollection(event.collection.id);
+
+      return {
+        ...event,
+        filmsCount: count,
+      };
+    });
+
+    return await Promise.all(eventsWithCount);
   }
 }

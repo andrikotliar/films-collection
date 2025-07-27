@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { InitialData } from '@/common';
+import type { InitialData } from '@/common';
 
 export const InitialDataApi = {
   getInitialData() {

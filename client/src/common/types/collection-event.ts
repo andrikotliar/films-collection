@@ -14,11 +14,7 @@ export type CollectionEvent = {
   yearFrom: number | null;
 };
 
-export type BaseCollectionEvent = Pick<
-  CollectionEvent,
-  'title' | 'collectionId'
->;
-
 export type CollectionEventFilled = CollectionEvent & {
   collection: Pick<Collection, 'id' | 'title'>;
+  filmsCount: number;
 };

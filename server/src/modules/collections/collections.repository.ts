@@ -44,4 +44,12 @@ export class CollectionsRepository {
       data: input,
     });
   }
+
+  countFilmsByCollection(collectionId: number) {
+    return this.databaseClient.filmCollection.count({
+      where: {
+        collectionId,
+      },
+    });
+  }
 }

@@ -15,3 +15,4 @@ export * from './replace-url-id';
 export * from './get-file-upload-form-data';
 export * from './build-pagination';
 export * from './get-error-message-from-object';
+export * from './get-date-month-label';

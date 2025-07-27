@@ -21,7 +21,7 @@ export class CollectionEventsRepository {
     });
   }
 
-  getEvent({ date, month }: GetEventParams) {
+  getEvents({ date, month }: GetEventParams) {
     return this.databaseClient.$queryRaw<GetEventQueryResult[]>`
       SELECT
         ce.title,
@@ -31,7 +31,15 @@ export class CollectionEventsRepository {
         ce.end_date as "endDate",
         ce.end_month as "endMonth",
         ce.background,
-        ce.year_from as "yearFrom"
+        ce.year_from as "yearFrom",
+        json_build_object(
+          'id', c.id,
+          'title', c.title
+        ) as "collection",
+        (
+          SELECT COUNT(*)::int FROM films_collections fc
+          WHERE fc.collection_id = ce.collection_id
+        ) as "filmsCount"
       FROM collection_events ce
       INNER JOIN collections c ON c.id = ce.collection_id
       WHERE
@@ -61,6 +69,7 @@ export class CollectionEventsRepository {
         endMonth: true,
         yearFrom: true,
         background: true,
+        description: true,
         collection: {
           select: {
             id: true,

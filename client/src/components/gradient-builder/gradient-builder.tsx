@@ -8,6 +8,7 @@ export type BackgroundData = {
   color1: string;
   color2: string;
   angle: string;
+  textColor: 'black' | 'white';
 };
 
 export type GradientBuilderProps = {
@@ -21,6 +22,7 @@ const defaultValue: BackgroundData = {
   color1: BLUE_DEFAULT,
   color2: GREEN_DEFAULT,
   angle: '45',
+  textColor: 'white',
 };
 
 export const GradientBuilder = ({
@@ -45,6 +47,13 @@ export const GradientBuilder = ({
     };
   };
 
+  const handleChangeTextColor = () => {
+    onChange({
+      ...prefilledValue,
+      textColor: prefilledValue.textColor === 'white' ? 'black' : 'white',
+    });
+  };
+
   return (
     <div className={styles.wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
@@ -54,7 +63,9 @@ export const GradientBuilder = ({
           style={{
             background: `linear-gradient(${prefilledValue.angle}deg, ${prefilledValue.color1}, ${prefilledValue.color2})`,
           }}
-        />
+        >
+          <span style={{ color: value.textColor }}>Example</span>
+        </div>
         <div className={styles.inputs}>
           <div className={styles.inputWrapper}>
             <input
@@ -72,6 +83,17 @@ export const GradientBuilder = ({
               className={styles.input}
             />
           </div>
+          <button
+            type="button"
+            className={styles.textInput}
+            style={{
+              color: value.textColor === 'black' ? 'white' : 'black',
+              backgroundColor: value.textColor ?? 'white',
+            }}
+            onClick={handleChangeTextColor}
+          >
+            T
+          </button>
           <div className={styles.angleInputWrapper}>
             <input
               className={styles.angleInput}

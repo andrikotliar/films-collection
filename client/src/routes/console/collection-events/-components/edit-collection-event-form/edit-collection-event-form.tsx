@@ -20,6 +20,7 @@ export const EditCollectionEventForm = ({
   const form = useForm({
     defaultValues: {
       ...defaultValues,
+      collectionId: defaultValues.collection.id,
       isOneDayEvent: isOneDayEvent(defaultValues),
     },
     resolver: yupResolver(collectionEventSchema),

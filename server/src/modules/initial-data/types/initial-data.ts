@@ -13,5 +13,5 @@ export type InitialData = {
     awards: ListOption[];
     collectionCategories: ListOption<string>[];
   };
-  event: GetEventQueryResult | null;
+  events: GetEventQueryResult[];
 };

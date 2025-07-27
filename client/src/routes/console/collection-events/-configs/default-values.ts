@@ -9,6 +9,7 @@ export const defaultValues: FormValues = {
     angle: '45',
     color1: BLUE_DEFAULT,
     color2: GREEN_DEFAULT,
+    textColor: 'white',
   },
   startDate: 1,
   startMonth: 1,
