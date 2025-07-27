@@ -266,21 +266,19 @@ model PendingFilm {
 }
 
 model CollectionEvent {
-  id            Int        @id @default(autoincrement())
-  title         String
-  collection    Collection @relation(fields: [collectionId], references: [id], onDelete: Restrict)
-  collectionId  Int        @map("collection_id")
-  startDateCode Int?       @map("start_date_code")
-  endDateCode   Int?       @map("end_date_code")
-  startMonth    Int?       @map("start_month")
-  startDate     Int?       @map("start_date")
-  endMonth      Int?       @map("end_month")
-  endDate       Int?       @map("end_date")
-  yearFrom      Int?       @map("year_from")
-  description   String?
-  background    Json?
-  createdAt     DateTime   @default(now()) @map("created_at")
-  updatedAt     DateTime   @updatedAt @map("updated_at")
+  id           Int        @id @default(autoincrement())
+  title        String
+  collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Restrict)
+  collectionId Int        @map("collection_id")
+  startMonth   Int        @map("start_month")
+  startDate    Int        @map("start_date")
+  endMonth     Int        @map("end_month")
+  endDate      Int        @map("end_date")
+  yearFrom     Int?       @map("year_from")
+  description  String?
+  background   Json
+  createdAt    DateTime   @default(now()) @map("created_at")
+  updatedAt    DateTime   @updatedAt @map("updated_at")
 
   @@map("collection_events")
 }

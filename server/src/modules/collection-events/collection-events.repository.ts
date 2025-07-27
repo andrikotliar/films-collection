@@ -77,9 +77,12 @@ export class CollectionEventsRepository {
           },
         },
       },
-      orderBy: {
-        startDateCode: 'desc',
-      },
+      orderBy: [
+        { startMonth: 'desc' },
+        {
+          startDate: 'desc',
+        },
+      ],
     });
   }
 
