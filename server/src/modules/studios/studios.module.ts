@@ -1,5 +1,5 @@
 import { createModule } from 'src/common';
-import { StudiosController } from './studios.controller';
+import { createStudiosRouter } from './studios.router';
 import { StudiosRepository } from './studios.repository';
 import { StudiosService } from './studios.service';
 
@@ -11,5 +11,5 @@ export const StudiosModule = createModule({
 
     return studiosService;
   },
-  controller: StudiosController,
+  router: createStudiosRouter,
 });

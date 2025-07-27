@@ -1,4 +1,4 @@
-import { ChapterKeysController } from './chapter-keys.controller';
+import { createChapterKeysRouter } from './chapter-keys.router';
 import { ChapterKeysRepository } from './chapter-keys.repository';
 import { ChapterKeysService } from './chapter-keys.service';
 import { createModule } from 'src/common';
@@ -11,5 +11,5 @@ export const ChapterKeysModule = createModule({
 
     return service;
   },
-  controller: ChapterKeysController,
+  router: createChapterKeysRouter,
 });

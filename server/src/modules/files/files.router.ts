@@ -1,7 +1,7 @@
-import { BadRequestException, router } from 'src/common';
+import { BadRequestException, createRouter } from 'src/common';
 import { UploadPayload } from './types';
 
-export const FilesController = router((app, defineRoute) => [
+export const createFilesRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',

@@ -5,8 +5,6 @@ import { MenuIcon } from 'lucide-react';
 import { FilmsSearch } from '../films-search/films-search';
 import { AppMenu } from '../app-menu/app-menu';
 import { Logo } from '@/components/logo/logo';
-import { useLogoDecoration } from '@/hooks';
-import { LogoDecoration } from '../logo-decoration/logo-decoration';
 
 export const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -26,8 +24,6 @@ export const Header = () => {
     handleCloseAppMenu();
   }, [location.pathname]);
 
-  const logoDecoration = useLogoDecoration();
-
   return (
     <header className={styles.header}>
       <div className={styles.headerContainer}>
@@ -39,22 +35,11 @@ export const Header = () => {
           >
             <Logo />
           </Link>
-          {logoDecoration !== null && (
-            <LogoDecoration
-              src={logoDecoration.image}
-              title={logoDecoration.title}
-              collectionId={logoDecoration.collectionId}
-            />
-          )}
         </div>
         <div className={styles.searchWrapper}>
           <FilmsSearch />
         </div>
-        <button
-          className={styles.menuButton}
-          onClick={handleToggleAppMenu}
-          ref={menuButtonRef}
-        >
+        <button className={styles.menuButton} onClick={handleToggleAppMenu} ref={menuButtonRef}>
           <MenuIcon className={styles.menuIcon} />
         </button>
         <AppMenu

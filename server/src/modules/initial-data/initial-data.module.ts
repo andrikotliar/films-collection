@@ -1,5 +1,5 @@
 import { InitialDataService } from './initial-data.service';
-import { InitialDataController } from './initial-data.controller';
+import { createInitialDataRouter } from './initial-data.router';
 import { createModule } from 'src/common';
 
 export const InitialDataModule = createModule({
@@ -16,5 +16,5 @@ export const InitialDataModule = createModule({
 
     return service;
   },
-  controller: InitialDataController,
+  router: createInitialDataRouter,
 });

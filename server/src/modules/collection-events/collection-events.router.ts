@@ -1,10 +1,7 @@
-import { IdParamSchema, router } from 'src/common';
-import {
-  CreateCollectionEventSchema,
-  UpdateCollectionEventBodySchema,
-} from './schemas';
+import { IdParamSchema, createRouter } from 'src/common';
+import { CreateCollectionEventSchema, UpdateCollectionEventBodySchema } from './schemas';
 
-export const CollectionEventsController = router((app, defineRoute) => [
+export const createCollectionEventsRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
@@ -24,7 +21,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
 
   defineRoute({
     method: 'GET',
-    url: '/admin/list',
+    url: '/',
     preHandler: [app.authenticate],
     handler: async () => {
       const data = await app.collectionEventsService.getAllEvents();
@@ -44,9 +41,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
       params: IdParamSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.collectionEventsService.deleteEvent(
-        request.params.id,
-      );
+      const data = await app.collectionEventsService.deleteEvent(request.params.id);
 
       return {
         status: 'OK',
@@ -64,10 +59,7 @@ export const CollectionEventsController = router((app, defineRoute) => [
       body: UpdateCollectionEventBodySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.collectionEventsService.updateEvent(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.collectionEventsService.updateEvent(request.params.id, request.body);
 
       return {
         status: 'OK',

@@ -5,10 +5,10 @@ import { kebabToCamelCase } from './convert-kebab-case-to-camel-case';
 type ModuleParams = {
   prefix: string;
   service: (app: FastifyInstance) => unknown;
-  controller?: FastifyPluginCallback;
+  router?: FastifyPluginCallback;
 };
 
-export const createModule = ({ prefix, service, controller }: ModuleParams) => {
+export const createModule = ({ prefix, service, router }: ModuleParams) => {
   return fastifyPlugin(
     async (app) => {
       const serviceInstance = service(app);
@@ -17,8 +17,8 @@ export const createModule = ({ prefix, service, controller }: ModuleParams) => {
 
       app.decorate(serviceName, serviceInstance);
 
-      if (controller) {
-        app.register(controller, { prefix: `/${prefix}` });
+      if (router) {
+        app.register(router, { prefix: `/${prefix}` });
       }
     },
     { name: prefix },

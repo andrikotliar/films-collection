@@ -1,5 +1,5 @@
-import { BaseCollectionEvent } from './collection-event';
-import { ListOption } from './list-option';
+import { type CollectionEventFilled } from './collection-event';
+import { type ListOption } from './list-option';
 
 export type InitialData = {
   options: {
@@ -12,5 +12,5 @@ export type InitialData = {
     styles: ListOption<string>[];
     roles: ListOption<string>[];
   };
-  event: BaseCollectionEvent | null;
+  events: CollectionEventFilled[];
 };

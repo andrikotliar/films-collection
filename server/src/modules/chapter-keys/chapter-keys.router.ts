@@ -1,7 +1,7 @@
-import { router } from 'src/common';
+import { createRouter } from 'src/common';
 import { CreateChapterKeySchema } from './schemas';
 
-export const ChapterKeysController = router((app, defineRoute) => [
+export const createChapterKeysRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/options',

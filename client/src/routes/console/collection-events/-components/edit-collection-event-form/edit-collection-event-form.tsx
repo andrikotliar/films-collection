@@ -1,13 +1,12 @@
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation } from '@tanstack/react-query';
 import { FormProvider, useForm } from 'react-hook-form';
-import { CollectionEventsApi, FilesApi } from '@/api';
-import { getFileUploadFormData } from '@/common';
-import { convertDateCode } from '@/routes/console/collection-events/-helpers';
-import { FormValues } from '@/routes/console/collection-events/-types';
+import { CollectionEventsApi } from '@/api';
+import { type FormValues } from '@/routes/console/collection-events/-types';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
-import { CollectionEventFilled } from '@/common';
+import { type CollectionEventFilled } from '@/common';
 import { CollectionEventForm } from '../collection-event-form/collection-event-form';
+import { isOneDayEvent } from '@/routes/console/collection-events/-helpers';
 
 type EditCollectionEventFormProps = {
   defaultValues: CollectionEventFilled;
@@ -20,35 +19,16 @@ export const EditCollectionEventForm = ({
 }: EditCollectionEventFormProps) => {
   const form = useForm({
     defaultValues: {
-      title: defaultValues.title,
-      image: defaultValues.image,
-      startDate: convertDateCode(defaultValues.startDateCode),
-      endDate: convertDateCode(defaultValues.endDateCode),
+      ...defaultValues,
       collectionId: defaultValues.collection.id,
+      isOneDayEvent: isOneDayEvent(defaultValues),
     },
     resolver: yupResolver(collectionEventSchema),
   });
 
   const { mutate: updateCollectionEvent, isPending } = useMutation({
     mutationFn: async (data: FormValues) => {
-      let image: string | File = data.image;
-
-      if (image instanceof File) {
-        const formData = getFileUploadFormData({
-          title: data.title,
-          file: image,
-          destination: 'decoration',
-        });
-
-        const response = await FilesApi.upload(formData);
-
-        image = response.filePath;
-      }
-
-      return CollectionEventsApi.updateEvent(defaultValues.id, {
-        ...data,
-        image,
-      });
+      return CollectionEventsApi.updateEvent(defaultValues.id, data);
     },
     onSuccess: onSubmitSuccess,
   });

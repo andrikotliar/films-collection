@@ -1,20 +1,18 @@
 import { apiClient } from '@/services';
-import { CollectionEventFilled, CollectionEventPayload } from '@/common';
+import { type CollectionEventFilled, type CollectionEvent } from '@/common';
 
 export const CollectionEventsApi = {
   getAdminList() {
-    return apiClient.get<CollectionEventFilled[]>(
-      '/collection-events/admin/list',
-    );
+    return apiClient.get<CollectionEventFilled[]>('/collection-events');
   },
 
-  createEvent(payload: CollectionEventPayload) {
+  createEvent(payload: Omit<CollectionEvent, 'id'>) {
     return apiClient.post('/collection-events', {
       payload,
     });
   },
 
-  updateEvent(id: number, payload: Partial<CollectionEventPayload>) {
+  updateEvent(id: number, payload: Partial<Omit<CollectionEvent, 'id'>>) {
     return apiClient.patch('/collection-events/:id', {
       params: {
         id,

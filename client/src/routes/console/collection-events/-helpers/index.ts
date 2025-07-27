@@ -1,1 +1,1 @@
-export * from './convert-date-code';
+export * from './is-one-day-event';

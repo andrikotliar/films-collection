@@ -1,0 +1,82 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputs {
+  display: flex;
+  gap: 5px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.workSpace {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.previewLabel {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.input {
+  position: absolute;
+  border: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: -10px;
+  cursor: pointer;
+}
+
+.angleInputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.angleInput {
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  border: var(--app-border);
+  text-align: center;
+}
+
+.metric {
+  font-size: 14px;
+}
+
+.textInput {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}

@@ -1,6 +1,6 @@
-import { router } from 'src/common';
+import { createRouter } from 'src/common';
 
-export const InitialDataController = router((app, defineRoute) => [
+export const createInitialDataRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',

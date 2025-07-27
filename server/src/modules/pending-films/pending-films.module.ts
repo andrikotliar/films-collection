@@ -1,7 +1,7 @@
 import { createModule } from 'src/common';
 import { PendingFilmsRepository } from './pending-films.repository';
 import { PendingFilmsService } from './pending-films.service';
-import { PendingFilmsController } from './pending-films.controller';
+import { createPendingFilmsRouter } from './pending-films.router';
 
 export const PendingFilmsModule = createModule({
   prefix: 'pending-films',
@@ -11,5 +11,5 @@ export const PendingFilmsModule = createModule({
 
     return service;
   },
-  controller: PendingFilmsController,
+  router: createPendingFilmsRouter,
 });

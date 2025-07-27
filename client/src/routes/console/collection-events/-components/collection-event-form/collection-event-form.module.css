@@ -17,6 +17,9 @@
 }
 
 .groupTitle {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
   color: var(--gray-dark);
   font-weight: bold;
   margin-bottom: 10px;

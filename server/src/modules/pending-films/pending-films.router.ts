@@ -1,4 +1,4 @@
-import { IdParamSchema, router, NotFoundException } from 'src/common';
+import { IdParamSchema, createRouter, NotFoundException } from 'src/common';
 import {
   CreatePendingFilmBodySchema,
   GetPendingFilmParamsSchema,
@@ -6,7 +6,7 @@ import {
   UpdatePendingFilmBodySchema,
 } from './schemas';
 
-export const PendingFilmsController = router((app, defineRoute) => [
+export const createPendingFilmsRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
@@ -31,9 +31,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
       params: GetPendingFilmParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = app.pendingFilmsService.getPendingFilmById(
-        request.params.id,
-      );
+      const data = app.pendingFilmsService.getPendingFilmById(request.params.id);
 
       if (!data) {
         throw new NotFoundException({
@@ -53,9 +51,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     preHandler: [app.authenticate],
     schema: { body: CreatePendingFilmBodySchema },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.createPendingFilm(
-        request.body,
-      );
+      const data = await app.pendingFilmsService.createPendingFilm(request.body);
 
       return {
         status: 'CREATED',
@@ -72,10 +68,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
       body: UpdatePendingFilmBodySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.updatePendingFilm(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.pendingFilmsService.updatePendingFilm(request.params.id, request.body);
 
       return {
         status: 'OK',
@@ -89,9 +82,7 @@ export const PendingFilmsController = router((app, defineRoute) => [
     preHandler: [app.authenticate],
     schema: { params: IdParamSchema },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.deletePendingFilm(
-        request.params.id,
-      );
+      const data = await app.pendingFilmsService.deletePendingFilm(request.params.id);
 
       return {
         status: 'OK',

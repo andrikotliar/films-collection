@@ -3,13 +3,13 @@ import {
   MAX_AGE_24_HOURS,
   MAX_AGE_7_DAYS,
   getCookie,
-  router,
+  createRouter,
   setCookies,
   UnauthorizedException,
 } from 'src/common';
 import { AuthLoginSchema, AuthRegisterSchema } from './schemas';
 
-export const AuthController = router((app, defineRoute) => [
+export const createAuthRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/login',

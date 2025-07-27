@@ -1,4 +1,4 @@
-import { IdParamSchema, NotFoundException, router } from '../../common';
+import { IdParamSchema, NotFoundException, createRouter } from '../../common';
 import {
   GetAdminListQuerySchema,
   GetFilmsListQuerySchema,
@@ -7,7 +7,7 @@ import {
   GetAdminFilmParamsSchema,
 } from './schemas';
 
-export const FilmsController = router((app, defineRoute) => [
+export const createFilmsRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
@@ -65,9 +65,7 @@ export const FilmsController = router((app, defineRoute) => [
       params: GetAdminFilmParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getFilmDetailsAdmin(
-        request.params.id,
-      );
+      const data = await app.filmsService.getFilmDetailsAdmin(request.params.id);
 
       return {
         status: 'OK',

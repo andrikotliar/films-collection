@@ -1,4 +1,4 @@
-import { IdParamSchema, NotFoundException, router } from 'src/common';
+import { IdParamSchema, NotFoundException, createRouter } from 'src/common';
 import {
   GetListQueriesSchema,
   UpdatePageContentSchema,
@@ -6,7 +6,7 @@ import {
   CreatePageContentSchema,
 } from './schemas';
 
-export const PageContentController = router((app, defineRoute) => [
+export const createPageContentRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'POST',
     url: '/',
@@ -46,9 +46,7 @@ export const PageContentController = router((app, defineRoute) => [
       params: GetPageContentByPageUrlParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pageContentService.getPageContentByKey(
-        request.params.pageKey,
-      );
+      const data = await app.pageContentService.getPageContentByKey(request.params.pageKey);
 
       if (!data) {
         throw new NotFoundException({
@@ -69,9 +67,7 @@ export const PageContentController = router((app, defineRoute) => [
       params: IdParamSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pageContentService.getPageContent(
-        request.params.id,
-      );
+      const data = await app.pageContentService.getPageContent(request.params.id);
 
       return {
         status: 'OK',
@@ -88,10 +84,7 @@ export const PageContentController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.pageContentService.updatePageContent(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.pageContentService.updatePageContent(request.params.id, request.body);
 
       return {
         status: 'OK',
@@ -107,9 +100,7 @@ export const PageContentController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.pageContentService.deletePageContent(
-        request.params.id,
-      );
+      const data = await app.pageContentService.deletePageContent(request.params.id);
 
       return {
         status: 'OK',

@@ -1,7 +1,7 @@
-import { IdParamSchema, router } from 'src/common';
+import { IdParamSchema, createRouter } from 'src/common';
 import { AwardBodySchema, FindNominationsSchema } from './schemas';
 
-export const AwardsController = router((app, defineRoute) => [
+export const createAwardsRouter = createRouter((app, defineRoute) => [
   defineRoute({
     method: 'GET',
     url: '/',
@@ -46,9 +46,7 @@ export const AwardsController = router((app, defineRoute) => [
         };
       }
 
-      const data = await app.awardsService.getNominationsListOptions(
-        request.query.awardId,
-      );
+      const data = await app.awardsService.getNominationsListOptions(request.query.awardId);
 
       return {
         status: 'OK',
@@ -84,10 +82,7 @@ export const AwardsController = router((app, defineRoute) => [
     },
     preHandler: [app.authenticate],
     handler: async ({ request }) => {
-      const data = await app.awardsService.updateAward(
-        request.params.id,
-        request.body,
-      );
+      const data = await app.awardsService.updateAward(request.params.id, request.body);
 
       return {
         status: 'OK',

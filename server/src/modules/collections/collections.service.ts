@@ -37,4 +37,8 @@ export class CollectionsService {
   updateCollection(id: number, input: UpdateCollectionInput) {
     return this.collectionsRepository.update(id, input);
   }
+
+  countFilmsByCollection(id: number) {
+    return this.collectionsRepository.countFilmsByCollection(id);
+  }
 }

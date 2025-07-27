@@ -1,6 +1,6 @@
 import { FilmsRepository } from './films.repository';
 import { FilmsService } from './films.service';
-import { FilmsController } from './films.controller';
+import { createFilmsRouter } from './films.router';
 import { createModule } from 'src/common';
 
 export const FilmsModule = createModule({
@@ -15,5 +15,5 @@ export const FilmsModule = createModule({
 
     return service;
   },
-  controller: FilmsController,
+  router: createFilmsRouter,
 });
