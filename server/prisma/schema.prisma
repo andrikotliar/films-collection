@@ -8,31 +8,32 @@ datasource db {
 }
 
 model Film {
-  id              Int                   @id @default(autoincrement())
-  title           String
-  type            TitleType             @default(FILM)
-  style           TitleStyle            @default(LIVE_ACTION)
-  releaseDate     DateTime              @map("release_date") @db.Date
-  duration        Int                   @default(0)
-  description     String
-  poster          String
-  budget          BigInt                @default(0)
-  boxOffice       BigInt                @default(0) @map("box_office")
-  rating          Int                   @default(1)
-  chapterKey      String?               @map("chapter_key")
-  chapterKeys     FilmChapterKey?       @relation(fields: [chapterKey], references: [key], onDelete: SetNull)
-  chapterOrder    Int?                  @map("chapter_order")
-  createdAt       DateTime              @default(now()) @map("created_at")
-  updatedAt       DateTime              @updatedAt @map("updated_at")
-  draft           Boolean               @default(false)
-  castAndCrew     FilmPerson[]
-  genres          FilmGenre[]
-  countries       FilmCountry[]
-  studios         FilmStudio[]
-  collections     FilmCollection[]
-  awards          FilmAwardNomination[]
-  trailers        FilmTrailer[]
-  seriesExtension SeriesExtension?
+  id               Int                   @id @default(autoincrement())
+  title            String
+  type             TitleType             @default(FILM)
+  style            TitleStyle            @default(LIVE_ACTION)
+  releaseDate      DateTime              @map("release_date") @db.Date
+  duration         Int                   @default(0)
+  description      String
+  poster           String
+  budget           BigInt                @default(0)
+  boxOffice        BigInt                @default(0) @map("box_office")
+  rating           Int                   @default(1)
+  chapterKey       String?               @map("chapter_key")
+  chapterKeys      FilmChapterKey?       @relation(fields: [chapterKey], references: [key], onDelete: SetNull)
+  chapterOrder     Int?                  @map("chapter_order")
+  createdAt        DateTime              @default(now()) @map("created_at")
+  updatedAt        DateTime              @updatedAt @map("updated_at")
+  draft            Boolean               @default(false)
+  castAndCrew      FilmPerson[]
+  genres           FilmGenre[]
+  countries        FilmCountry[]
+  studios          FilmStudio[]
+  collections      FilmCollection[]
+  awards           FilmAwardNomination[]
+  trailers         FilmTrailer[]
+  seriesExtension  SeriesExtension?
+  collectionEvents CollectionEvent[]
 
   @@index([title])
   @@map("films")
@@ -270,13 +271,13 @@ model CollectionEvent {
   title        String
   collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Restrict)
   collectionId Int        @map("collection_id")
-  startMonth   Int        @map("start_month")
-  startDate    Int        @map("start_date")
-  endMonth     Int        @map("end_month")
-  endDate      Int        @map("end_date")
+  startMonth   Int?       @map("start_month")
+  startDate    String     @map("start_date")
+  endMonth     Int?       @map("end_month")
+  endDate      String     @map("end_date")
   yearFrom     Int?       @map("year_from")
-  description  String?
-  background   Json
+  titleFilmId  Int?       @map("title_film_id")
+  film         Film?      @relation(fields: [titleFilmId], references: [id])
   createdAt    DateTime   @default(now()) @map("created_at")
   updatedAt    DateTime   @updatedAt @map("updated_at")
 
