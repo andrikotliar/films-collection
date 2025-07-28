@@ -6,7 +6,6 @@ import {
   FormTitle,
   FormSelect,
   FormTextArea,
-  FormGradientBuilder,
   Panel,
   FormCheckbox,
 } from '@/components';
@@ -22,11 +21,7 @@ type CollectionEventFormProps = {
   isSaving: boolean;
 };
 
-export const CollectionEventForm = ({
-  onSubmit,
-  title,
-  isSaving,
-}: CollectionEventFormProps) => {
+export const CollectionEventForm = ({ onSubmit, title, isSaving }: CollectionEventFormProps) => {
   const { data } = useQuery(fetchInitialDataQuery());
   const { watch } = useFormContext<FormValues>();
 
@@ -38,59 +33,26 @@ export const CollectionEventForm = ({
         <FormTitle>{title}</FormTitle>
         <FormTextInput name="title" label="Title" />
         {data && (
-          <FormSelect
-            label="Collection"
-            options={data.options.collections}
-            name="collectionId"
-          />
+          <FormSelect label="Collection" options={data.options.collections} name="collectionId" />
         )}
         <FormTextArea name="description" label="Description" />
-        <FormGradientBuilder name="background" label="Background" />
         <div className={styles.dates}>
           <div className={styles.dateGroup}>
             <div className={styles.groupTitle}>
               <span>Start date</span>
-              <FormCheckbox
-                label="One day event"
-                name="isOneDayEvent"
-                type="checkbox"
-              />
+              <FormCheckbox label="One day event" name="isOneDayEvent" type="checkbox" />
             </div>
             <div className={styles.inputs}>
-              <FormTextInput
-                name="startMonth"
-                type="number"
-                min={1}
-                max={12}
-                label="Month"
-              />
-              <FormTextInput
-                name="startDate"
-                type="number"
-                min={1}
-                max={31}
-                label="Date"
-              />
+              <FormTextInput name="startMonth" type="number" min={1} max={12} label="Month" />
+              <FormTextInput name="startDate" type="number" min={1} max={31} label="Date" />
             </div>
           </div>
           {!isOneDayEvent && (
             <div className={styles.dateGroup}>
               <div className={styles.groupTitle}>End date</div>
               <div className={styles.inputs}>
-                <FormTextInput
-                  name="endMonth"
-                  type="number"
-                  min={1}
-                  max={12}
-                  label="Month"
-                />
-                <FormTextInput
-                  name="endDate"
-                  type="number"
-                  min={1}
-                  max={31}
-                  label="Date"
-                />
+                <FormTextInput name="endMonth" type="number" min={1} max={12} label="Month" />
+                <FormTextInput name="endDate" type="number" min={1} max={31} label="Date" />
               </div>
             </div>
           )}
