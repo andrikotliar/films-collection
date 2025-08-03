@@ -1,7 +1,7 @@
 import { type CollectionEventFilled } from '@/common';
-import { Button, CollectionEventBanner } from '@/components';
+import { Button, CollectionEventPoster } from '@/components';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
-import styles from './event.module.css';
+import styles from './styles.module.css';
 
 type EventProps = {
   data: CollectionEventFilled;
@@ -12,11 +12,11 @@ type EventProps = {
 export const Event = ({ data, onDelete, onEdit }: EventProps) => {
   return (
     <div className={styles.wrapper}>
+      <CollectionEventPoster event={data} />
       <div className={styles.buttons}>
         <Button variant="ghost" icon={<PencilIcon />} onClick={() => onEdit(data)} />
         <Button variant="ghost" icon={<Trash2Icon />} onClick={() => onDelete(data)} />
       </div>
-      <CollectionEventBanner data={data} />
     </div>
   );
 };

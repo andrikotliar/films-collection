@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 import fastifyPlugin from 'fastify-plugin';
 
 const prisma = new PrismaClient({
-  log: ['info', 'query'],
+  log: ['info'],
 });
 
 const databaseDecorator = async (app: FastifyInstance) => {

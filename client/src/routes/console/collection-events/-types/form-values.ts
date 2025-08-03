@@ -1,14 +1,9 @@
-import type { BackgroundData } from '@/components';
-
 export type FormValues = {
   title: string;
-  startDate: number;
-  startMonth: number;
-  endMonth: number;
-  endDate: number;
-  description: string | null;
-  background: BackgroundData;
-  collectionId: number;
+  startDate: string;
+  endDate: string;
+  collectionId: number | null;
   isOneDayEvent: boolean;
-  yearFrom: number | null;
+  yearFrom: number;
+  titleFilmId: number | null;
 };

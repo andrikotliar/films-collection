@@ -10,8 +10,10 @@ export class CollectionEventsService {
 
   async findTodayEvents() {
     const currentDate = new Date();
-    currentDate.setFullYear(2000);
-    const dateString = currentDate.toISOString();
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const date = String(currentDate.getDate()).padStart(2, '0');
+
+    const dateString = `2000-${month}-${date}`;
 
     const events = await this.collectionEventsRepository.getEvents(dateString);
 

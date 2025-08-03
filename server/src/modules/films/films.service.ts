@@ -5,6 +5,7 @@ import {
   GetFilmRelatedChaptersQuery,
   GetAdminListQuery,
   GetFilmsListQuery,
+  type FilmOptionsQueries,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 
@@ -13,10 +14,7 @@ export class FilmsService {
   private awardsService: FilmsServiceDependencies['awardsService'];
   private collectionsService: FilmsServiceDependencies['collectionsService'];
 
-  constructor(
-    private filmsRepository: FilmsRepository,
-    dependencies: FilmsServiceDependencies,
-  ) {
+  constructor(private filmsRepository: FilmsRepository, dependencies: FilmsServiceDependencies) {
     this.peopleService = dependencies.peopleService;
     this.awardsService = dependencies.awardsService;
     this.collectionsService = dependencies.collectionsService;
@@ -27,11 +25,7 @@ export class FilmsService {
 
     const parsedFilters = mapListFilters(queries);
 
-    const data = await this.filmsRepository.findAndCount(
-      parsedFilters,
-      limit,
-      skip,
-    );
+    const data = await this.filmsRepository.findAndCount(parsedFilters, limit, skip);
 
     const additionalInfo = await this.populateAdditionalData(queries);
 
@@ -113,9 +107,7 @@ export class FilmsService {
     }
 
     if (collectionId) {
-      const collection = await this.collectionsService.getCollectionById(
-        collectionId,
-      );
+      const collection = await this.collectionsService.getCollectionById(collectionId);
 
       if (!collection) {
         return null;
@@ -141,5 +133,14 @@ export class FilmsService {
     }
 
     return null;
+  }
+
+  async getFilmOptions(queries: FilmOptionsQueries) {
+    const films = await this.filmsRepository.getFilmsListByQuery(queries);
+
+    return films.map((film) => ({
+      label: film.title,
+      value: film.id,
+    }));
   }
 }

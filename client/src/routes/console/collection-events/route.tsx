@@ -1,9 +1,4 @@
-import {
-  fetchCollectionEventsQuery,
-  type CollectionEvent,
-  type CollectionEventFilled,
-  type OmitId,
-} from '@/common';
+import { fetchCollectionEventsQuery, type CollectionEventFilled } from '@/common';
 import { createFileRoute } from '@tanstack/react-router';
 import {
   CollectionEventForm,
@@ -19,7 +14,7 @@ import { useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { type FormValues } from './-types';
 import { FormModal } from '@/routes/console/-components';
-import { defaultValues } from '@/routes/console/collection-events/-configs';
+import { getDefaultValues } from '@/routes/console/collection-events/-configs';
 import { useCreateCollectionEvent, useDeleteCollectionEvent } from '@/hooks';
 
 type EventModifyContent = CollectionEventFilled | null;
@@ -29,7 +24,7 @@ const CollectionEventsContainer = () => {
   const [eventToUpdate, setEventToUpdate] = useState<EventModifyContent>(null);
 
   const form = useForm({
-    defaultValues,
+    defaultValues: getDefaultValues(),
     resolver: yupResolver(collectionEventSchema),
   });
 
@@ -42,18 +37,10 @@ const CollectionEventsContainer = () => {
     const { isOneDayEvent, ...event } = data;
 
     if (isOneDayEvent) {
-      const payload: OmitId<CollectionEvent> = {
-        ...event,
-        endDate: event.startDate,
-        endMonth: event.startMonth,
-      };
-
-      await createEvent(payload);
-      form.reset();
-      return;
+      event.endDate = event.startDate;
     }
 
-    await createEvent(data);
+    await createEvent(event);
     form.reset();
   };
 

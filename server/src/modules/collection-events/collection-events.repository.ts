@@ -1,5 +1,4 @@
-import { PrismaClient, type Collection, type CollectionEvent } from '@prisma/client';
-import type { AutoFields } from 'src/common';
+import { PrismaClient, type Collection, type CollectionEvent, type Film } from '@prisma/client';
 import {
   CreateCollectionEventPayload,
   UpdateCollectionEventPayload,
@@ -7,7 +6,7 @@ import {
 
 export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'collectionId'> & {
   collection: Pick<Collection, 'id' | 'title'>;
-  titleFilmPoster: string;
+  film: Pick<Film, 'poster'>;
   filmsCount: number;
 };
 
@@ -34,15 +33,18 @@ export class CollectionEventsRepository {
           'id', c.id,
           'title', c.title
         ) as "collection",
-        f.poster as "titleFilmPoster",
+        json_build_object(
+          'id', f.id,
+          'poster', f.poster
+        ) as "film",
         (
-          SELECT COUNT(*) FROM films_collections fc
+          SELECT COUNT(*)::int FROM films_collections fc
           WHERE fc.collection_id = ce.collection_id
         ) as "filmsCount"
       FROM collection_events ce
       INNER JOIN collections c ON ce.collection_id = c.id
       INNER JOIN films f ON ce.title_film_id = f.id
-      WHERE '${date}' BETWEEN ce.start_date AND ce.end_date
+      WHERE ${date} BETWEEN ce.start_date AND ce.end_date
     `;
   }
 
@@ -54,6 +56,12 @@ export class CollectionEventsRepository {
         startDate: true,
         endDate: true,
         yearFrom: true,
+        film: {
+          select: {
+            id: true,
+            poster: true,
+          },
+        },
         collection: {
           select: {
             id: true,

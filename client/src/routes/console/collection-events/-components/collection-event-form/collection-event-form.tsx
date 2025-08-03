@@ -1,19 +1,22 @@
 import { type FormEventHandler } from 'react';
-import styles from './collection-event-form.module.css';
+import styles from './styles.module.css';
 import {
   Button,
   FormTextInput,
   FormTitle,
   FormSelect,
-  FormTextArea,
   Panel,
   FormCheckbox,
+  FormMonthDateSelector,
+  FieldLabel,
+  FormAsyncSelect,
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/common';
 import { useFormContext } from 'react-hook-form';
 import type { FormValues } from '@/routes/console/collection-events/-types';
+import { FilmsApi } from '@/api';
 
 type CollectionEventFormProps = {
   onSubmit: FormEventHandler;
@@ -35,28 +38,28 @@ export const CollectionEventForm = ({ onSubmit, title, isSaving }: CollectionEve
         {data && (
           <FormSelect label="Collection" options={data.options.collections} name="collectionId" />
         )}
-        <FormTextArea name="description" label="Description" />
         <div className={styles.dates}>
-          <div className={styles.dateGroup}>
-            <div className={styles.groupTitle}>
-              <span>Start date</span>
-              <FormCheckbox label="One day event" name="isOneDayEvent" type="checkbox" />
+          <div className={styles.inputWrapper}>
+            <div className={styles.datesHeader}>
+              <FieldLabel>Start Date</FieldLabel>
+              <FormCheckbox name="isOneDayEvent" type="checkbox" label="One day event" />
             </div>
-            <div className={styles.inputs}>
-              <FormTextInput name="startMonth" type="number" min={1} max={12} label="Month" />
-              <FormTextInput name="startDate" type="number" min={1} max={31} label="Date" />
-            </div>
+            <FormMonthDateSelector name="startDate" initialYear={2000} />
           </div>
           {!isOneDayEvent && (
-            <div className={styles.dateGroup}>
-              <div className={styles.groupTitle}>End date</div>
-              <div className={styles.inputs}>
-                <FormTextInput name="endMonth" type="number" min={1} max={12} label="Month" />
-                <FormTextInput name="endDate" type="number" min={1} max={31} label="Date" />
+            <div className={styles.inputWrapper}>
+              <div className={styles.datesHeader}>
+                <FieldLabel>End Date</FieldLabel>
               </div>
+              <FormMonthDateSelector name="endDate" initialYear={2000} />
             </div>
           )}
         </div>
+        <FormAsyncSelect
+          name="titleFilmId"
+          optionsLoader={FilmsApi.getOptions}
+          label="Title film"
+        />
         <FormTextInput
           name="yearFrom"
           label="First event occurrence year"

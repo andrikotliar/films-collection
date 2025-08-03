@@ -1,0 +1,79 @@
+import { FieldLabel } from '@/components/field-label/field-label';
+import { monthOptions } from '@/components/month-date-selector/configs';
+import { Select } from '@/components/select';
+import { useState } from 'react';
+import styles from './styles.module.css';
+import classNames from 'classnames';
+
+export type MonthDateSelectorProps = {
+  initialYear?: number;
+  value?: string;
+  label?: string;
+  onChange?: (date: string) => void;
+};
+
+const monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+export const MonthDateSelector = ({
+  initialYear,
+  value,
+  label,
+  onChange,
+}: MonthDateSelectorProps) => {
+  const year = initialYear ? initialYear : new Date().getFullYear().toString();
+  const dateParts = value?.split('-');
+  const [selectedMonth, setSelectedMonth] = useState(() => {
+    return dateParts ? Number(dateParts[1]) : 1;
+  });
+  const [selectedDate, setSelectedDate] = useState(() => {
+    return dateParts ? Number(dateParts[2]) : 1;
+  });
+
+  const handleSelectMonth = (value: number) => {
+    setSelectedMonth(value);
+    setSelectedDate(1);
+
+    if (onChange) {
+      onChange(`${year}-${String(value).padStart(2, '0')}-01`);
+    }
+  };
+
+  const handleSelectDate = (value: number) => {
+    setSelectedDate(value);
+
+    if (onChange) {
+      onChange(
+        `${year}-${String(selectedMonth).padStart(2, '0')}-${String(value).padStart(2, '0')}`,
+      );
+    }
+  };
+
+  return (
+    <div className={styles.wrapper}>
+      {label && <FieldLabel>{label}</FieldLabel>}
+      <div className={styles.main}>
+        <Select
+          options={monthOptions}
+          value={selectedMonth}
+          onSelect={handleSelectMonth}
+          isSearchable={false}
+          onClear={() => handleSelectMonth(1)}
+        />
+        <div className={styles.grid}>
+          {Array.from({ length: monthDays[selectedMonth - 1] }, (_, index) => (
+            <button
+              type="button"
+              onClick={() => handleSelectDate(index + 1)}
+              className={classNames(styles.date, {
+                [styles.selected]: selectedDate === index + 1,
+              })}
+              key={index}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};

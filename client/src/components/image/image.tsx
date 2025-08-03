@@ -1,5 +1,5 @@
 import { type ComponentProps, forwardRef } from 'react';
-import styles from './image.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { handleImageError } from './helpers';
 import { images } from '@/assets/images';

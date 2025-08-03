@@ -1,24 +1,36 @@
 import type { CollectionEvent } from '@/common';
 
 const months = [
-  'January',
-  'February',
-  'March',
-  'April',
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
   'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
 ] as const;
 
 export const getDateMonthLabel = (data: CollectionEvent) => {
-  if (data.startDate === data.endDate && data.startMonth === data.endMonth) {
-    return `${months[data.startMonth - 1]}, ${data.startDate}`;
+  if (data.startDate === data.endDate) {
+    const dateObj = new Date(data.startDate);
+    const date = dateObj.getDate();
+    const monthIndex = dateObj.getMonth();
+
+    return `${months[monthIndex]}, ${date}`;
   }
 
-  return `${months[data.startMonth - 1]}, ${data.startDate} - ${months[data.endMonth - 1]}, ${data.endDate}`;
+  const startDateObj = new Date(data.startDate);
+  const endDateObj = new Date(data.endDate);
+
+  const startDate = startDateObj.getDate();
+  const startDateMonthIndex = startDateObj.getMonth();
+  const endDate = endDateObj.getDate();
+  const endDateMonthIndex = endDateObj.getMonth();
+
+  return `${months[startDateMonthIndex]}, ${startDate} - ${months[endDateMonthIndex]}, ${endDate}`;
 };

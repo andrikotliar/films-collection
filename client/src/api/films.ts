@@ -1,13 +1,14 @@
 import { apiClient } from '@/services';
-import {
+import type {
   FilmDetails,
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
   FilmsAdminListResponse,
   Chapter,
+  AdminFilmsServerFilters,
+  ListOption,
 } from '@/common';
-import { AdminFilmsServerFilters } from '@/common';
 
 export type RelatedChaptersFilter = {
   key: string;
@@ -58,6 +59,22 @@ export const FilmsApi = {
       params: {
         id,
       },
+    });
+  },
+
+  getOptions(searchString: string | null, selected?: (string | number)[]) {
+    const queryParams: Record<string, unknown> = {};
+
+    if (searchString) {
+      queryParams.q = searchString;
+    }
+
+    if (selected) {
+      queryParams.selected = selected;
+    }
+
+    return apiClient.get<ListOption<number>[]>('/films/options', {
+      queryParams,
     });
   },
 };

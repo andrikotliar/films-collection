@@ -21,6 +21,7 @@ export const EditCollectionEventForm = ({
     defaultValues: {
       ...defaultValues,
       collectionId: defaultValues.collection.id,
+      titleFilmId: defaultValues.film.id,
       isOneDayEvent: isOneDayEvent(defaultValues),
     },
     resolver: yupResolver(collectionEventSchema),

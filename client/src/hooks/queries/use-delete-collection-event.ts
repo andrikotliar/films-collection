@@ -10,6 +10,9 @@ export const useDeleteCollectionEvent = () => {
       queryClient.invalidateQueries({
         queryKey: [queryKeys.collectionEvent.adminList],
       });
+      queryClient.invalidateQueries({
+        queryKey: [queryKeys.initialData],
+      });
     },
   });
 };

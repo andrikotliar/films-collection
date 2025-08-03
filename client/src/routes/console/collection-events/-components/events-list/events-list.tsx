@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import styles from './events-list.module.css';
+import styles from './styles.module.css';
 
 type EventsListProps = {
   children: ReactNode;

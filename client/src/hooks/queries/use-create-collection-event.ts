@@ -13,6 +13,9 @@ export const useCreateCollectionEvent = () => {
       queryClient.invalidateQueries({
         queryKey: [queryKeys.collectionEvent.adminList],
       });
+      queryClient.invalidateQueries({
+        queryKey: [queryKeys.initialData],
+      });
     },
   });
 };
