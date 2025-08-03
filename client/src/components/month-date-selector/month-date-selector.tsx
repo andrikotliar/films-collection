@@ -4,11 +4,14 @@ import { Select } from '@/components/select';
 import { useState } from 'react';
 import styles from './styles.module.css';
 import classNames from 'classnames';
+import type { FormError } from '@/common';
+import { FieldError } from '@/components/field-error/field-error';
 
 export type MonthDateSelectorProps = {
   initialYear?: number;
   value?: string;
   label?: string;
+  error?: FormError;
   onChange?: (date: string) => void;
 };
 
@@ -18,6 +21,7 @@ export const MonthDateSelector = ({
   initialYear,
   value,
   label,
+  error,
   onChange,
 }: MonthDateSelectorProps) => {
   const year = initialYear ? initialYear : new Date().getFullYear().toString();
@@ -74,6 +78,7 @@ export const MonthDateSelector = ({
           ))}
         </div>
       </div>
+      <FieldError error={error} />
     </div>
   );
 };

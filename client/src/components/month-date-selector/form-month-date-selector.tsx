@@ -6,14 +6,21 @@ type FormMonthDateSelectorProps = {
 } & Omit<MonthDateSelectorProps, 'onChange' | 'value'>;
 
 export const FormMonthDateSelector = ({ name, ...props }: FormMonthDateSelectorProps) => {
-  const { control } = useFormContext();
+  const { control, formState } = useFormContext();
+
+  const { errors } = formState;
 
   return (
     <Controller
       control={control}
       name={name}
       render={({ field: { value, onChange } }) => (
-        <MonthDateSelector value={value} onChange={onChange} {...props} />
+        <MonthDateSelector
+          value={value}
+          onChange={onChange}
+          error={errors[name]?.message as string}
+          {...props}
+        />
       )}
     />
   );
