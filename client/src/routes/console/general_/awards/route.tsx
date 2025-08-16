@@ -1,12 +1,7 @@
 import { AwardsApi } from '@/api';
-import {
-  BackLink,
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-} from '@/components';
+import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
 import { AddItemLink, List } from '@/routes/console/-components';
-import { Award, NEW_ITEM_ID, fetchAwardsBaseDataListQuery } from '@/common';
+import { type Award, NEW_ITEM_ID, fetchAwardsBaseDataListQuery } from '@/common';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
@@ -22,10 +17,7 @@ function PageContainer() {
   const navigate = Route.useNavigate();
   const { data, refetch } = useSuspenseQuery(fetchAwardsBaseDataListQuery());
 
-  const [awardToDelete, setAwardToDelete] = useState<Pick<
-    Award,
-    'id' | 'title'
-  > | null>(null);
+  const [awardToDelete, setAwardToDelete] = useState<Pick<Award, 'id' | 'title'> | null>(null);
 
   const { mutate: deleteAward, isPending: isDeleting } = useMutation({
     mutationFn: AwardsApi.deleteAward,
@@ -48,17 +40,10 @@ function PageContainer() {
     <ConsoleContent>
       <BackLink path="/console/general">Back to categories</BackLink>
       <ConsoleTitle>Awards</ConsoleTitle>
-      <AddItemLink
-        to="/console/general/awards/$id"
-        params={{ id: NEW_ITEM_ID }}
-      >
+      <AddItemLink to="/console/general/awards/$id" params={{ id: NEW_ITEM_ID }}>
         Create award
       </AddItemLink>
-      <List
-        items={data}
-        onDelete={setAwardToDelete}
-        onEdit={(data) => handleOnEdit(data.id)}
-      />
+      <List items={data} onDelete={setAwardToDelete} onEdit={(data) => handleOnEdit(data.id)} />
       <ConfirmModal
         title={`Delete ${awardToDelete?.title}?`}
         description="All related nominations will be deleted"

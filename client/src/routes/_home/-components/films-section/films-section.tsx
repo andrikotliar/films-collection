@@ -48,7 +48,7 @@ export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
 
   return (
     <div className={styles.filmsSection}>
-      <CurrentEvents />
+      {!searchParams.collectionId && <CurrentEvents />}
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.films} />
       <div className={styles.paginationWrapper}>

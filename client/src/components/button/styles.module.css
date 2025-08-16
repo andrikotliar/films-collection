@@ -17,20 +17,26 @@
 }
 
 .secondary {
-  color: #222;
+  color: var(--black);
   background-color: #ddd;
 }
 
 .ghost {
-  color: #222;
+  color: var(--black);
   background-color: transparent;
   border-radius: 0;
   padding: 0;
 }
 
 .danger {
-  color: white;
+  color: var(--white);
   background-color: var(--red);
+}
+
+.light {
+  color: var(--black);
+  background-color: var(--white);
+  border: var(--app-border);
 }
 
 .active {

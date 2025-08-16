@@ -44,4 +44,5 @@ export * from './form-date-range/form-date-range';
 export * from './toggle/toggle';
 export * from './toaster-provider/toaster-provider';
 export * from './month-date-selector';
-export * from './collection-event-poster';
+export * from './collection-event-poster/collection-event-poster';
+export * from './dashboard-section/dashboard-section';

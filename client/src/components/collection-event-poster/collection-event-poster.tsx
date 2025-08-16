@@ -25,7 +25,7 @@ export const CollectionEventPoster = ({ event }: CollectionEventPosterProps) => 
         </div>
         <div className={styles.info}>
           <TimerIcon size={12} />
-          {event.yearFrom ? `Started ${currentYear - event.yearFrom} years ago` : 'Regular event'}
+          {event.yearFrom ? `${currentYear - event.yearFrom} years` : 'Regular event'}
         </div>
       </div>
     </Link>

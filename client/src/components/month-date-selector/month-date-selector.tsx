@@ -1,7 +1,6 @@
 import { FieldLabel } from '@/components/field-label/field-label';
 import { monthOptions } from '@/components/month-date-selector/configs';
 import { Select } from '@/components/select';
-import { useState } from 'react';
 import styles from './styles.module.css';
 import classNames from 'classnames';
 import type { FormError } from '@/common';
@@ -9,10 +8,10 @@ import { FieldError } from '@/components/field-error/field-error';
 
 export type MonthDateSelectorProps = {
   initialYear?: number;
-  value?: string;
+  value: string;
   label?: string;
   error?: FormError;
-  onChange?: (date: string) => void;
+  onChange: (date: string) => void;
 };
 
 const monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
@@ -26,30 +25,15 @@ export const MonthDateSelector = ({
 }: MonthDateSelectorProps) => {
   const year = initialYear ? initialYear : new Date().getFullYear().toString();
   const dateParts = value?.split('-');
-  const [selectedMonth, setSelectedMonth] = useState(() => {
-    return dateParts ? Number(dateParts[1]) : 1;
-  });
-  const [selectedDate, setSelectedDate] = useState(() => {
-    return dateParts ? Number(dateParts[2]) : 1;
-  });
+  const selectedMonth = Number(dateParts[1]);
+  const selectedDate = Number(dateParts[2]);
 
   const handleSelectMonth = (value: number) => {
-    setSelectedMonth(value);
-    setSelectedDate(1);
-
-    if (onChange) {
-      onChange(`${year}-${String(value).padStart(2, '0')}-01`);
-    }
+    onChange(`${year}-${String(value).padStart(2, '0')}-01`);
   };
 
   const handleSelectDate = (value: number) => {
-    setSelectedDate(value);
-
-    if (onChange) {
-      onChange(
-        `${year}-${String(selectedMonth).padStart(2, '0')}-${String(value).padStart(2, '0')}`,
-      );
-    }
+    onChange(`${year}-${String(selectedMonth).padStart(2, '0')}-${String(value).padStart(2, '0')}`);
   };
 
   return (
