@@ -8,6 +8,7 @@ export type CollectionEvent = {
   endDate: string;
   titleFilmId: number | null;
   yearFrom: number;
+  collectionId: number;
 };
 
 export type CollectionEventFilled = CollectionEvent & {
