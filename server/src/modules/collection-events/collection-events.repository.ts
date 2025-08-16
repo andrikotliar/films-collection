@@ -69,7 +69,7 @@ export class CollectionEventsRepository {
           },
         },
       },
-      orderBy: [{ startDate: 'desc' }],
+      orderBy: [{ startDate: 'asc' }],
     });
   }
 
