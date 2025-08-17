@@ -1,5 +1,5 @@
 import type { CollectionEventFilled } from '@/common';
-import { CollectionEventPoster } from '@/components';
+import { CollectionEventBanner } from '@/components';
 import styles from './styles.module.css';
 import { useEffect, useRef, useState } from 'react';
 
@@ -29,7 +29,7 @@ export const EventsList = ({ items }: EventsListProps) => {
     <div className={styles.list} ref={containerRef}>
       {items.map((event) => (
         <div key={event.id} className={styles.item}>
-          <CollectionEventPoster event={event} />
+          <CollectionEventBanner event={event} />
         </div>
       ))}
       {Array.from({ length: placeholdersCount }, (_, index) => (

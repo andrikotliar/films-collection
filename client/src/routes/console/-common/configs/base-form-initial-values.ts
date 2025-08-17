@@ -1,4 +1,4 @@
-import { BaseFormValues } from '@/routes/console/-types';
+import { BaseFormValues } from '@/routes/console/-common/types';
 
 export const baseFormInitialValues: BaseFormValues = {
   title: '',

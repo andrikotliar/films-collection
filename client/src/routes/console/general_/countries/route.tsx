@@ -1,19 +1,9 @@
 import { CountriesApi } from '@/api';
-import {
-  BackLink,
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-} from '@/components';
+import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
 import { useToaster } from '@/hooks';
 import { fetchCountriesListQuery, GeneralData } from '@/common';
-import {
-  BaseForm,
-  EditGeneralDataForm,
-  FormModal,
-  List,
-} from '@/routes/console/-components';
-import { useBaseForm } from '@/routes/console/-hooks';
+import { BaseForm, EditGeneralDataForm, FormModal, List } from '@/routes/console/-components';
+import { useBaseForm } from '@/routes/console/-common/hooks';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
@@ -74,10 +64,7 @@ function PageContainer() {
         onConfirm={(data) => deleteCountry(data.id)}
         isPending={isDeletePending}
       />
-      <FormModal
-        isOpen={itemToUpdate !== null}
-        onClose={() => setItemToUpdate(null)}
-      >
+      <FormModal isOpen={itemToUpdate !== null} onClose={() => setItemToUpdate(null)}>
         {itemToUpdate && (
           <EditGeneralDataForm
             defaultValues={itemToUpdate}

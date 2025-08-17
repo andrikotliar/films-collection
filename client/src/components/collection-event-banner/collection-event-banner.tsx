@@ -4,11 +4,11 @@ import { Link } from '@tanstack/react-router';
 import styles from './styles.module.css';
 import { CalendarIcon, TimerIcon } from 'lucide-react';
 
-type CollectionEventPosterProps = {
+type CollectionEventBannerProps = {
   event: CollectionEventFilled;
 };
 
-export const CollectionEventPoster = ({ event }: CollectionEventPosterProps) => {
+export const CollectionEventBanner = ({ event }: CollectionEventBannerProps) => {
   const currentYear = new Date().getFullYear();
 
   return (

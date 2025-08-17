@@ -1,6 +1,6 @@
-import { baseFormInitialValues } from '@/routes/console/-configs';
-import { BaseFormValues } from '@/routes/console/-types';
-import { baseFormValidation } from '@/routes/console/-validation';
+import { baseFormInitialValues } from '@/routes/console/-common/configs';
+import { type BaseFormValues } from '@/routes/console/-common/types';
+import { baseFormValidation } from '@/routes/console/-common/validation';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 

@@ -4,7 +4,7 @@ import { CollectionEventForm } from '@/routes/console/collection-events/-compone
 import { Button, ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';
-import { FormModal, List } from '@/routes/console/-components';
+import { FormModal, List } from '@/routes/console/-common';
 import { getDefaultValues } from '@/routes/console/collection-events/-configs';
 import { useDeleteCollectionEvent, type CollectionEventMutationPayload } from '@/hooks';
 import { PlusIcon } from 'lucide-react';
