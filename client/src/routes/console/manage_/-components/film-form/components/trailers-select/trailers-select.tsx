@@ -1,6 +1,6 @@
-import { ArrayFormWrapper } from '@/routes/console/-components';
+import { ArrayFormWrapper } from '@/routes/console/-common';
 import { FormSection, FormVideoInput, SortableList } from '@/components';
-import { DragEndEvent } from '@dnd-kit/core';
+import { type DragEndEvent } from '@dnd-kit/core';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 
 export const TrailersSelect = () => {

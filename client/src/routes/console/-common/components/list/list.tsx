@@ -1,6 +1,6 @@
 import { Panel } from '@/components';
 import { ItemRow, type ItemRowProps } from '../item-row/item-row';
-import { type DefaultListItem } from '@/routes/console/-common/types/default-list-item';
+import { type DefaultListItem } from '@/routes/console/-common';
 
 type ListProps<T extends DefaultListItem> = {
   items: T[];

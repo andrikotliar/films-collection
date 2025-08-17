@@ -1,9 +1,8 @@
 import { GenresApi } from '@/api';
 import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
 import { useToaster } from '@/hooks';
-import { BaseForm, EditGeneralDataForm, FormModal, List } from '@/routes/console/-components';
-import { useBaseForm } from '@/routes/console/-common/hooks';
-import { GeneralData, fetchGenresListQuery } from '@/common';
+import { BaseForm, GeneralDataForm, FormModal, List, useBaseForm } from '@/routes/console/-common';
+import { type GeneralData, fetchGenresListQuery } from '@/common';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
@@ -66,7 +65,7 @@ function PageContainer() {
       />
       <FormModal isOpen={itemToUpdate !== null} onClose={() => setItemToUpdate(null)}>
         {itemToUpdate && (
-          <EditGeneralDataForm
+          <GeneralDataForm
             defaultValues={itemToUpdate}
             onSubmitSuccess={() => {
               setItemToUpdate(null);

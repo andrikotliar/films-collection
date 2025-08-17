@@ -1,8 +1,8 @@
-import { PersonForm } from '@/routes/console/-components';
+import { PersonForm } from '@/routes/console/-common';
 import {
   useManagePerson,
   usePersonForm,
-} from '@/routes/console/-components/person-form/hooks';
+} from '@/routes/console/-common/components/person-form/hooks';
 import { Person } from '@/common';
 import { FormProvider } from 'react-hook-form';
 
@@ -11,10 +11,7 @@ type EditPersonFormProps = {
   onSuccessHandler: (data: Person) => void;
 };
 
-export const EditPersonForm = ({
-  person,
-  onSuccessHandler,
-}: EditPersonFormProps) => {
+export const EditPersonForm = ({ person, onSuccessHandler }: EditPersonFormProps) => {
   const form = usePersonForm({
     name: person.name,
   });

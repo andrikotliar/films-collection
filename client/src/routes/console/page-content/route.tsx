@@ -5,18 +5,12 @@ import {
   PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
 } from '@/common';
-import {
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-  Panel,
-  Pagination,
-} from '@/components';
+import { ConfirmModal, ConsoleContent, ConsoleTitle, Panel, Pagination } from '@/components';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
 import { PageContentRow } from './-components';
-import { AddItemLink } from '@/routes/console/-components';
+import { AddItemLink } from '@/routes/console/-common';
 import { useState } from 'react';
 import { PageContentApi } from '@/api';
 
@@ -32,9 +26,7 @@ export const Route = createFileRoute('/console/page-content')({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(
-      fetchAdminPageContentListQuery(deps.search),
-    );
+    return context.queryClient.ensureQueryData(fetchAdminPageContentListQuery(deps.search));
   },
   component: PageContainer,
 });
@@ -42,11 +34,8 @@ export const Route = createFileRoute('/console/page-content')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, refetch } = useSuspenseQuery(
-    fetchAdminPageContentListQuery(searchParams),
-  );
-  const [pageContentToDelete, setPageContentToDelete] =
-    useState<PageContentListItem | null>(null);
+  const { data, refetch } = useSuspenseQuery(fetchAdminPageContentListQuery(searchParams));
+  const [pageContentToDelete, setPageContentToDelete] = useState<PageContentListItem | null>(null);
 
   const { mutate: deletePageContent, isPending } = useMutation({
     mutationFn: (id: number) => PageContentApi.deletePageContent(id),

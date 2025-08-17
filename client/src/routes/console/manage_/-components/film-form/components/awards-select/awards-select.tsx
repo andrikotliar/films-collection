@@ -1,11 +1,8 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import { FormAward, FormValues } from '@/routes/console/manage_/-types';
-import { ListOption } from '@/common';
+import type { FormAward, FormValues } from '@/routes/console/manage_/-types';
+import { type ListOption } from '@/common';
 import { FormSection, FormSelect, FormTextInput } from '@/components';
-import {
-  ArrayFormWrapper,
-  ArrayFieldWrapper,
-} from '@/routes/console/-components';
+import { ArrayFormWrapper, ArrayFieldWrapper } from '@/routes/console/-common';
 import { NominationSelect } from './components';
 
 type AwardsSelectProps = {
@@ -32,11 +29,7 @@ export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
       <ArrayFormWrapper onCreate={() => append(defaultAward)}>
         {fields.map((field, index) => (
           <ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
-            <FormSelect
-              name={`awards.${index}.awardId`}
-              options={awardOptions}
-              label="Award"
-            />
+            <FormSelect name={`awards.${index}.awardId`} options={awardOptions} label="Award" />
             <NominationSelect index={index} />
             <FormTextInput name={`awards.${index}.comment`} label="Comment" />
           </ArrayFieldWrapper>

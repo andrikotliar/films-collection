@@ -1,26 +1,13 @@
 import { PeopleApi } from '@/api';
-import {
-  BackLink,
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-  Pagination,
-} from '@/components';
-import {
-  PEOPLE_ADMIN_PER_PAGE,
-  fetchAdminPeopleListQuery,
-  type Person,
-} from '@/common';
+import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle, Pagination } from '@/components';
+import { PEOPLE_ADMIN_PER_PAGE, fetchAdminPeopleListQuery, type Person } from '@/common';
 import { useToaster } from '@/hooks';
-import { PersonForm, List, FormModal } from '@/routes/console/-components';
+import { PersonForm, List, FormModal } from '@/routes/console/-common';
 import {
   useManagePerson,
   usePersonForm,
-} from '@/routes/console/-components/person-form/hooks';
-import {
-  EditPersonForm,
-  Filters,
-} from '@/routes/console/general_/people/-components';
+} from '@/routes/console/-common/components/person-form/hooks';
+import { EditPersonForm, Filters } from '@/routes/console/general_/people/-components';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
@@ -107,10 +94,7 @@ function RouteComponent() {
         onPageChange={handleChangePage}
         totalLabel="people"
       />
-      <FormModal
-        isOpen={itemToUpdate !== null}
-        onClose={() => setItemToUpdate(null)}
-      >
+      <FormModal isOpen={itemToUpdate !== null} onClose={() => setItemToUpdate(null)}>
         {itemToUpdate !== null && (
           <EditPersonForm
             person={itemToUpdate}

@@ -1,6 +1,6 @@
 import { AwardsApi } from '@/api';
 import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
-import { AddItemLink, List } from '@/routes/console/-components';
+import { AddItemLink, List } from '@/routes/console/-common';
 import { type Award, NEW_ITEM_ID, fetchAwardsBaseDataListQuery } from '@/common';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';

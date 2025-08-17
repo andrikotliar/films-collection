@@ -1,9 +1,9 @@
 import { CollectionsApi } from '@/api';
 import { FormSelect, FormTextArea } from '@/components';
 import { useToaster } from '@/hooks';
-import { BaseForm } from '@/routes/console/-components';
-import { CollectionFormValues } from '@/routes/console/general_/collections/-types';
-import { Collection, ListOption } from '@/common';
+import { BaseForm } from '@/routes/console/-common';
+import { type CollectionFormValues } from '@/routes/console/general_/collections/-types';
+import { type Collection, type ListOption } from '@/common';
 import { useMutation } from '@tanstack/react-query';
 import { FormProvider, useForm } from 'react-hook-form';
 
@@ -42,12 +42,7 @@ export const EditCollectionForm = ({
         onSubmit={form.handleSubmit((values) => mutate(values))}
         isSaving={isPending}
       >
-        <FormSelect
-          label="Category"
-          options={categories}
-          name="category"
-          isSearchable={false}
-        />
+        <FormSelect label="Category" options={categories} name="category" isSearchable={false} />
         <FormTextArea label="Description" name="description" />
       </BaseForm>
     </FormProvider>

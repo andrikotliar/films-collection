@@ -8,8 +8,8 @@ import {
   FormTextArea,
 } from '@/components';
 import { useToaster } from '@/hooks';
-import { fetchCollectionsListQuery, Collection } from '@/common';
-import { BaseForm, FormModal, List } from '@/routes/console/-components';
+import { fetchCollectionsListQuery, type Collection } from '@/common';
+import { BaseForm, FormModal, List } from '@/routes/console/-common';
 import { EditCollectionForm } from '@/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '@/routes/console/general_/collections/-configs';
 import { createCollectionSchema } from '@/routes/console/general_/collections/-validation';
@@ -30,10 +30,8 @@ function PageContainer() {
   const { showErrorMessage } = useToaster();
   const { data, refetch } = useSuspenseQuery(fetchCollectionsListQuery());
 
-  const [collectionToDelete, setCollectionToDelete] =
-    useState<Collection | null>(null);
-  const [collectionToUpdate, setCollectionToUpdate] =
-    useState<Collection | null>(null);
+  const [collectionToDelete, setCollectionToDelete] = useState<Collection | null>(null);
+  const [collectionToUpdate, setCollectionToUpdate] = useState<Collection | null>(null);
 
   const form = useForm({
     defaultValues: collectionFormDefaultValues,
@@ -79,11 +77,7 @@ function PageContainer() {
           <FormTextArea label="Description" name="description" />
         </BaseForm>
       </FormProvider>
-      <List
-        items={data.list}
-        onDelete={setCollectionToDelete}
-        onEdit={setCollectionToUpdate}
-      />
+      <List items={data.list} onDelete={setCollectionToDelete} onEdit={setCollectionToUpdate} />
       <ConfirmModal
         title={`Delete ${collectionToDelete?.title}?`}
         data={collectionToDelete}
@@ -91,10 +85,7 @@ function PageContainer() {
         onConfirm={(data) => deleteCollection(data.id)}
         isPending={isDeleting}
       />
-      <FormModal
-        isOpen={collectionToUpdate !== null}
-        onClose={() => setCollectionToUpdate(null)}
-      >
+      <FormModal isOpen={collectionToUpdate !== null} onClose={() => setCollectionToUpdate(null)}>
         {collectionToUpdate && (
           <EditCollectionForm
             categories={data.categories}

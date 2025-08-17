@@ -1,7 +1,7 @@
 import styles from './base-form.module.css';
 import { Button, FormTextInput, FormTitle, Panel } from '@/components';
 import { SaveIcon } from 'lucide-react';
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 
 type BaseFormProps = {
   title?: string;
@@ -10,12 +10,7 @@ type BaseFormProps = {
   children?: ReactNode;
 };
 
-export const BaseForm = ({
-  onSubmit,
-  title,
-  children,
-  isSaving,
-}: BaseFormProps) => {
+export const BaseForm = ({ onSubmit, title, children, isSaving }: BaseFormProps) => {
   return (
     <Panel>
       <form className={styles.form} onSubmit={onSubmit}>

@@ -2,21 +2,15 @@ import {
   FILMS_ADMIN_LIST_PER_PAGE,
   NEW_ITEM_ID,
   fetchAdminListQuery,
-  AdminFilmsQueryFilters,
-  FilmsAdminListItem,
+  type AdminFilmsQueryFilters,
+  type FilmsAdminListItem,
 } from '@/common';
 import { useDocumentTitle, useToaster } from '@/hooks';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  ConsoleContent,
-  ConsoleTitle,
-  Panel,
-  Pagination,
-  ConfirmModal,
-} from '@/components';
+import { ConsoleContent, ConsoleTitle, Panel, Pagination, ConfirmModal } from '@/components';
 import { number, object, string } from 'yup';
-import { AddItemLink } from '@/routes/console/-components';
+import { AddItemLink } from '@/routes/console/-common';
 import { FilmsApi } from '@/api';
 import { useState } from 'react';
 import { AdminFilm } from '@/routes/console/manage/-components';
@@ -36,9 +30,7 @@ export const Route = createFileRoute('/console/manage')({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(
-      fetchAdminListQuery(deps.search),
-    );
+    return context.queryClient.ensureQueryData(fetchAdminListQuery(deps.search));
   },
   component: PageContainer,
 });
@@ -49,9 +41,7 @@ function PageContainer() {
   const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
   const { showErrorMessage } = useToaster();
 
-  const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(
-    null,
-  );
+  const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(null);
 
   const { mutate: handleDeleteFilm, isPending } = useMutation({
     mutationFn: FilmsApi.deleteFilm,

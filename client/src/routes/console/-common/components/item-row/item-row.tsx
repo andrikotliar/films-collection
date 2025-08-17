@@ -1,6 +1,6 @@
-import styles from './item-row.module.css';
+import styles from './styles.module.css';
 import { Button } from '@/components';
-import { type DefaultListItem } from '@/routes/console/-common/types/default-list-item';
+import { type DefaultListItem } from '@/routes/console/-common';
 import { PencilIcon, Trash2Icon } from 'lucide-react';
 
 export type ItemRowProps<T extends DefaultListItem> = {

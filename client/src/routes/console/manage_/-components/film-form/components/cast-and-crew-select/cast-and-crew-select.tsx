@@ -1,11 +1,6 @@
-import { FormValues } from '@/routes/console/manage_/-types';
-import { ListOption } from '@/common';
-import {
-  FormAsyncSelect,
-  FormSection,
-  FormSelect,
-  FormTextInput,
-} from '@/components';
+import { type FormValues } from '@/routes/console/manage_/-types';
+import { type ListOption } from '@/common';
+import { FormAsyncSelect, FormSection, FormSelect, FormTextInput } from '@/components';
 import { useState } from 'react';
 import { FormProvider, useFieldArray, useFormContext } from 'react-hook-form';
 import {
@@ -13,20 +8,18 @@ import {
   ArrayFieldWrapper,
   FormModal,
   PersonForm,
-} from '@/routes/console/-components';
+} from '@/routes/console/-common';
 import {
   useManagePerson,
   usePersonForm,
-} from '@/routes/console/-components/person-form/hooks';
+} from '@/routes/console/-common/components/person-form/hooks';
 import { PeopleApi } from '@/api';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption[];
 };
 
-export const CastAndCrewSelect = ({
-  positionOptions,
-}: CastAndCrewSelectProps) => {
+export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
   const { control } = useFormContext<FormValues>();
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
 
@@ -55,10 +48,7 @@ export const CastAndCrewSelect = ({
 
   return (
     <FormSection label="Cast and Crew">
-      <ArrayFormWrapper
-        onCreate={handleAddNewPerson}
-        createButtonLabel="Create person"
-      >
+      <ArrayFormWrapper onCreate={handleAddNewPerson} createButtonLabel="Create person">
         {fields.map((field, index) => (
           <ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
             <FormAsyncSelect
@@ -78,10 +68,7 @@ export const CastAndCrewSelect = ({
           </ArrayFieldWrapper>
         ))}
       </ArrayFormWrapper>
-      <FormModal
-        isOpen={isCreateModalOpen}
-        onClose={() => setIsCreateModalOpen(false)}
-      >
+      <FormModal isOpen={isCreateModalOpen} onClose={() => setIsCreateModalOpen(false)}>
         <FormProvider {...form}>
           <PersonForm
             onSubmit={form.handleSubmit((values) => createPerson(values))}
