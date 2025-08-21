@@ -1,1 +1,1 @@
-export * from './create-person-schema';
+export * from './person-schema';

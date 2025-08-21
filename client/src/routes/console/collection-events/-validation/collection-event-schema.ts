@@ -1,8 +1,8 @@
-import type { NEW_ITEM_ID } from '@/common';
+import type { MixedId } from '@/common';
 import * as yup from 'yup';
 
 export const collectionEventSchema = yup.object({
-  id: yup.mixed<number | typeof NEW_ITEM_ID>().defined().required(),
+  id: yup.mixed<MixedId>().defined().required(),
   title: yup.string().required().label('Title'),
   startDate: yup
     .string()

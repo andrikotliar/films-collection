@@ -1,9 +1,5 @@
 import { PageContentApi } from '@/api';
-import {
-  ALLOWED_HTML_TAGS,
-  NEW_ITEM_ID,
-  fetchPageContentByIdQuery,
-} from '@/common';
+import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPageContentByIdQuery } from '@/common';
 import { PageContentForm } from './-components';
 import { FormValues } from './-types';
 import { formValidation } from './-validation';
@@ -28,7 +24,7 @@ export const Route = createFileRoute('/console/page-content_/$id')({
 function RouteComponent() {
   const { id } = Route.useParams();
   const navigate = useNavigate();
-  const { showErrorMessage } = useToaster();
+  const toaster = useToaster();
 
   const isEdit = id !== NEW_ITEM_ID;
   const title = isEdit ? 'Edit page content' : 'Create page content';
@@ -54,7 +50,7 @@ function RouteComponent() {
       });
     },
     onError: (error) => {
-      showErrorMessage(error.message);
+      toaster.error(error.message);
     },
   });
 
@@ -76,10 +72,7 @@ function RouteComponent() {
       <ConsoleTitle>{title}</ConsoleTitle>
       <Panel>
         <FormProvider {...form}>
-          <PageContentForm
-            onSubmit={form.handleSubmit(handleSubmit)}
-            isLoading={isPending}
-          />
+          <PageContentForm onSubmit={form.handleSubmit(handleSubmit)} isLoading={isPending} />
         </FormProvider>
       </Panel>
     </ConsoleContent>

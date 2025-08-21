@@ -1,7 +1,6 @@
 import { AuthenticationApi } from '@/api';
-import { getIsAuthState } from '@/common';
-import { HttpError, LocalStorage } from '@/services';
-import { AuthResponse, LoginPayload } from '@/common';
+import { getIsAuthState, type AuthResponse, type LoginPayload } from '@/common';
+import { type HttpError, LocalStorage } from '@/services';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation } from '@tanstack/react-query';
 import { createFileRoute, redirect, useNavigate } from '@tanstack/react-router';
@@ -17,13 +16,9 @@ const defaultLoginValues: LoginPayload = {
 
 const LoginContainer = () => {
   const navigate = useNavigate();
-  const { showErrorMessage } = useToaster();
+  const toaster = useToaster();
 
-  const { mutate, isPending } = useMutation<
-    AuthResponse,
-    HttpError,
-    LoginPayload
-  >({
+  const { mutate, isPending } = useMutation<AuthResponse, HttpError, LoginPayload>({
     mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
       if (result.userId) {
@@ -33,7 +28,7 @@ const LoginContainer = () => {
       }
     },
     onError: (error) => {
-      showErrorMessage(error.message);
+      toaster.error(error.message);
     },
   });
 
@@ -49,10 +44,7 @@ const LoginContainer = () => {
   return (
     <FormProvider {...methods}>
       <LoginLayout>
-        <LoginForm
-          onSubmit={methods.handleSubmit(handleLogin)}
-          isSaving={isPending}
-        />
+        <LoginForm onSubmit={methods.handleSubmit(handleLogin)} isSaving={isPending} />
       </LoginLayout>
     </FormProvider>
   );

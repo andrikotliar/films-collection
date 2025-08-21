@@ -1,27 +1,42 @@
-import styles from './person-form.module.css';
 import { SaveIcon } from 'lucide-react';
-import { Button, FormTextInput, FormTitle, Panel } from '@/components';
+import { Button, Form, FormTextInput, FormTitle } from '@/components';
+import { FormProvider, useForm } from 'react-hook-form';
+import { type FormComponentProps } from '@/common';
+import { useMutatePerson, type PersonMutationPayload } from '@/hooks';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { personSchema } from '@/routes/console/-common/components/person-form/validation';
+import { getFormTitle } from '@/routes/console/-common/helpers';
 
-export type PersonFormProps = {
-  title?: string;
-  onSubmit: VoidFunction;
-  isLoading?: boolean;
-};
+export type PersonFormProps = FormComponentProps<PersonMutationPayload>;
 
-export const PersonForm = ({
-  onSubmit,
-  title = 'Create person',
-  isLoading = false,
-}: PersonFormProps) => {
+export const PersonForm = ({ values, afterSubmitEffect }: PersonFormProps) => {
+  const form = useForm({
+    defaultValues: values,
+    resolver: yupResolver(personSchema),
+  });
+
+  const { mutateAsync, isPending } = useMutatePerson();
+
+  const title = getFormTitle({
+    values,
+    newItemTitle: 'Create person profile',
+    existingItemTitle: 'Update profile of {}',
+  });
+
+  const submit = async (data: PersonMutationPayload) => {
+    await mutateAsync(data);
+    afterSubmitEffect();
+  };
+
   return (
-    <Panel>
-      <div className={styles.form}>
+    <FormProvider {...form}>
+      <Form>
         <FormTitle>{title}</FormTitle>
         <FormTextInput name="name" label="Person name" />
-        <Button onClick={onSubmit} isLoading={isLoading} icon={<SaveIcon />}>
+        <Button onClick={form.handleSubmit(submit)} isLoading={isPending} icon={<SaveIcon />}>
           Submit
         </Button>
-      </div>
-    </Panel>
+      </Form>
+    </FormProvider>
   );
 };

@@ -1,24 +1,24 @@
 import { apiClient } from '@/services';
-import { GeneralData } from '@/common';
+import { type Studio } from '@/common';
 
 export const StudiosApi = {
   getBaseDataList() {
-    return apiClient.get<GeneralData[]>('/studios');
+    return apiClient.get<Studio[]>('/studios');
   },
 
-  createStudio(payload: Omit<GeneralData, 'id'>) {
+  create(payload: Omit<Studio, 'id'>) {
     return apiClient.post('/studios', {
       payload,
     });
   },
 
-  deleteStudio(id: number) {
+  delete(id: number) {
     return apiClient.delete('/studios/:id', {
       params: { id },
     });
   },
 
-  updateStudio(id: number, payload: Omit<GeneralData, 'id'>) {
+  update(id: number, payload: Omit<Studio, 'id'>) {
     return apiClient.patch('/studios/:id', {
       params: {
         id,

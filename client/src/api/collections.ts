@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { Collection, ListOption } from '@/common';
+import type { Collection, ListOption, OmitId } from '@/common';
 
 export type BaseDataListResponse = {
   list: Collection[];
@@ -11,21 +11,21 @@ export const CollectionsApi = {
     return apiClient.get<BaseDataListResponse>('/collections');
   },
 
-  deleteCollection(id: number) {
+  delete(id: number) {
     return apiClient.delete('/collections/:id', {
       params: { id },
     });
   },
 
-  updateCollection(id: number, payload: Partial<Omit<Collection, 'id'>>) {
+  update(id: number, payload: Partial<OmitId<Collection>>) {
     return apiClient.patch<Collection>('/collections/:id', {
       params: { id },
       payload,
     });
   },
 
-  createCollection(payload: Omit<Collection, 'id'>) {
-    return apiClient.post('/collections', {
+  create(payload: OmitId<Collection>) {
+    return apiClient.post<Collection>('/collections', {
       payload,
     });
   },

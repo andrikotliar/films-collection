@@ -6,7 +6,6 @@ export type NominationFormValue = {
 
 export type AwardFormValues = {
   title: string;
-  image: any;
   description: string | null;
   nominations: NominationFormValue[];
 };

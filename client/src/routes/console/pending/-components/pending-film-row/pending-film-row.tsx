@@ -1,13 +1,8 @@
 import styles from './pending-film-row.module.css';
 import { Link } from '@tanstack/react-router';
-import { Status, StatusProps } from '@/components';
+import { Status, type StatusProps } from '@/components';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
-import {
-  NEW_ITEM_ID,
-  priorityToColor,
-  getPriorityTitle,
-  type PendingFilm,
-} from '@/common';
+import { NEW_ITEM_ID, priorityToColor, getPriorityTitle, type PendingFilm } from '@/common';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
@@ -46,11 +41,7 @@ export const PendingFilmRow = ({
           <button className={styles.toolButton} onClick={onEdit}>
             <PencilIcon size={20} />
           </button>
-          <button
-            className={styles.toolButton}
-            onClick={onDelete}
-            disabled={isDeleteInProgress}
-          >
+          <button className={styles.toolButton} onClick={onDelete} disabled={isDeleteInProgress}>
             <Trash2Icon size={20} />
           </button>
         </div>

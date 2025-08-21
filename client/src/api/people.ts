@@ -39,19 +39,19 @@ export const PeopleApi = {
     });
   },
 
-  createPerson(payload: ManagePersonPayload) {
+  create(payload: ManagePersonPayload) {
     return apiClient.post<Person>('/people', {
       payload,
     });
   },
 
-  deletePerson(id: number) {
+  delete(id: number) {
     return apiClient.delete('/people/:id', {
       params: { id },
     });
   },
 
-  updatePerson(id: number, payload: ManagePersonPayload) {
+  update(id: number, payload: ManagePersonPayload) {
     return apiClient.patch<Person>('/people/:id', {
       params: {
         id,

@@ -1,0 +1,25 @@
+import { GenresApi } from '@/api';
+import { mutateEntity, queryKeys, type Genre, type FormValues, type OmitId } from '@/common';
+import { useToaster } from '@/hooks/use-toaster';
+import type { HttpError } from '@/services';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
+
+export type GenreMutationPayload = FormValues<OmitId<Genre>>;
+
+export const useMutateGenre = () => {
+  const queryClient = useQueryClient();
+  const toaster = useToaster();
+
+  return useMutation<unknown, HttpError, GenreMutationPayload>({
+    mutationFn: (data) => mutateEntity(GenresApi, data),
+    onError: (error) => toaster.error(error.message),
+    onSuccess: async () => {
+      await queryClient.invalidateQueries({
+        queryKey: queryKeys.genres.list,
+      });
+      await queryClient.invalidateQueries({
+        queryKey: queryKeys.initialData.config,
+      });
+    },
+  });
+};

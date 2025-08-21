@@ -4,11 +4,11 @@ import {
   FormTextInput,
   FormTitle,
   FormSelect,
-  Panel,
   FormCheckbox,
   FormMonthDateSelector,
   FieldLabel,
   FormAsyncSelect,
+  Form,
 } from '@/components';
 import { SaveIcon } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
@@ -21,7 +21,7 @@ import { collectionEventSchema } from '@/routes/console/collection-events/-valid
 
 type CollectionEventFormProps = FormComponentProps<CollectionEventMutationPayload>;
 
-export const CollectionEventForm = ({ values, onParentModalClose }: CollectionEventFormProps) => {
+export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEventFormProps) => {
   const { data } = useQuery(fetchInitialDataQuery());
   const form = useForm({
     defaultValues: values,
@@ -36,50 +36,48 @@ export const CollectionEventForm = ({ values, onParentModalClose }: CollectionEv
 
   const submit = async (data: CollectionEventMutationPayload) => {
     await mutateAsync(data);
-    onParentModalClose();
+    afterSubmitEffect();
   };
 
   return (
     <FormProvider {...form}>
-      <Panel>
-        <form onSubmit={form.handleSubmit(submit)} className={styles.formWrapper}>
-          <FormTitle>{title}</FormTitle>
-          <FormTextInput name="title" label="Title" />
-          {data && (
-            <FormSelect label="Collection" options={data.options.collections} name="collectionId" />
-          )}
-          <div className={styles.dates}>
+      <Form onSubmit={submit}>
+        <FormTitle>{title}</FormTitle>
+        <FormTextInput name="title" label="Title" />
+        {data && (
+          <FormSelect label="Collection" options={data.options.collections} name="collectionId" />
+        )}
+        <div className={styles.dates}>
+          <div className={styles.inputWrapper}>
+            <div className={styles.datesHeader}>
+              <FieldLabel>Start Date</FieldLabel>
+              <FormCheckbox name="isOneDayEvent" type="checkbox" label="One day event" />
+            </div>
+            <FormMonthDateSelector name="startDate" initialYear={2000} />
+          </div>
+          {!isOneDayEvent && (
             <div className={styles.inputWrapper}>
               <div className={styles.datesHeader}>
-                <FieldLabel>Start Date</FieldLabel>
-                <FormCheckbox name="isOneDayEvent" type="checkbox" label="One day event" />
+                <FieldLabel>End Date</FieldLabel>
               </div>
-              <FormMonthDateSelector name="startDate" initialYear={2000} />
+              <FormMonthDateSelector name="endDate" initialYear={2000} />
             </div>
-            {!isOneDayEvent && (
-              <div className={styles.inputWrapper}>
-                <div className={styles.datesHeader}>
-                  <FieldLabel>End Date</FieldLabel>
-                </div>
-                <FormMonthDateSelector name="endDate" initialYear={2000} />
-              </div>
-            )}
-          </div>
-          <FormAsyncSelect
-            name="titleFilmId"
-            optionsLoader={FilmsApi.getOptions}
-            label="Title film"
-          />
-          <FormTextInput
-            name="yearFrom"
-            label="First event occurrence year"
-            placeholder="E.g. 2020"
-          />
-          <Button type="submit" isLoading={isPending} icon={<SaveIcon />}>
-            Save
-          </Button>
-        </form>
-      </Panel>
+          )}
+        </div>
+        <FormAsyncSelect
+          name="titleFilmId"
+          optionsLoader={FilmsApi.getOptions}
+          label="Title film"
+        />
+        <FormTextInput
+          name="yearFrom"
+          label="First event occurrence year"
+          placeholder="E.g. 2020"
+        />
+        <Button type="submit" isLoading={isPending} icon={<SaveIcon />}>
+          Save
+        </Button>
+      </Form>
     </FormProvider>
   );
 };

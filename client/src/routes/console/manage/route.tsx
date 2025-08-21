@@ -39,7 +39,7 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
-  const { showErrorMessage } = useToaster();
+  const toaster = useToaster();
 
   const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(null);
 
@@ -50,7 +50,7 @@ function PageContainer() {
       setFilmToDelete(null);
     },
     onError: (error) => {
-      showErrorMessage(error?.message);
+      toaster.error(error?.message);
     },
   });
 

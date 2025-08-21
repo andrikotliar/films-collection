@@ -17,3 +17,4 @@ export * from './build-pagination';
 export * from './get-error-message-from-object';
 export * from './get-date-month-label';
 export * from './is-new-item';
+export * from './mutate-entity';

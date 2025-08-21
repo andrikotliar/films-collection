@@ -1,18 +1,18 @@
 import { apiClient } from '@/services';
-import { GeneralData } from '@/common';
+import { type Genre } from '@/common';
 
 export const GenresApi = {
   getBaseDataList() {
-    return apiClient.get<GeneralData[]>('/genres');
+    return apiClient.get<Genre[]>('/genres');
   },
 
-  createGenre(data: Omit<GeneralData, 'id'>) {
+  create(data: Omit<Genre, 'id'>) {
     return apiClient.post('/genres', {
       payload: data,
     });
   },
 
-  deleteGenre(id: number) {
+  delete(id: number) {
     return apiClient.delete('/genres/:id', {
       params: {
         id,
@@ -20,7 +20,7 @@ export const GenresApi = {
     });
   },
 
-  updateGenre(id: number, payload: Omit<GeneralData, 'id'>) {
+  update(id: number, payload: Omit<Genre, 'id'>) {
     return apiClient.patch('/genres/:id', {
       params: { id },
       payload,

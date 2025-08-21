@@ -3,5 +3,5 @@ export type FormComponentProps<
   TProps = Record<PropertyKey, unknown>,
 > = TProps & {
   values: T;
-  onParentModalClose: VoidFunction;
+  afterSubmitEffect: VoidFunction;
 };

@@ -1,24 +1,24 @@
 import { apiClient } from '@/services';
-import { GeneralData } from '@/common';
+import { type Country } from '@/common';
 
 export const CountriesApi = {
   getBaseDataList() {
-    return apiClient.get<GeneralData[]>('/countries');
+    return apiClient.get<Country[]>('/countries');
   },
 
-  createCountry(payload: Omit<GeneralData, 'id'>) {
+  create(payload: Omit<Country, 'id'>) {
     return apiClient.post('/countries', {
       payload,
     });
   },
 
-  deleteCountry(id: number) {
+  delete(id: number) {
     return apiClient.delete('/countries/:id', {
       params: { id },
     });
   },
 
-  updateCountry(id: number, payload: Omit<GeneralData, 'id'>) {
+  update(id: number, payload: Omit<Country, 'id'>) {
     return apiClient.patch('/countries/:id', {
       params: {
         id,

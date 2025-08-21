@@ -2,18 +2,16 @@ import { type FormValues } from '@/routes/console/manage_/-types';
 import { type ListOption } from '@/common';
 import { FormAsyncSelect, FormSection, FormSelect, FormTextInput } from '@/components';
 import { useState } from 'react';
-import { FormProvider, useFieldArray, useFormContext } from 'react-hook-form';
+import { useFieldArray, useFormContext } from 'react-hook-form';
 import {
   ArrayFormWrapper,
   ArrayFieldWrapper,
   FormModal,
   PersonForm,
+  defaultPersonValues,
 } from '@/routes/console/-common';
-import {
-  useManagePerson,
-  usePersonForm,
-} from '@/routes/console/-common/components/person-form/hooks';
 import { PeopleApi } from '@/api';
+import type { PersonMutationPayload } from '@/hooks';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption[];
@@ -21,9 +19,7 @@ type CastAndCrewSelectProps = {
 
 export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
   const { control } = useFormContext<FormValues>();
-  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
-
-  const form = usePersonForm();
+  const [person, setPerson] = useState<PersonMutationPayload | null>(null);
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -39,13 +35,6 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
     });
   };
 
-  const { mutate: createPerson } = useManagePerson({
-    onSuccessHandler: () => {
-      setIsCreateModalOpen(false);
-      form.reset();
-    },
-  });
-
   return (
     <FormSection label="Cast and Crew">
       <ArrayFormWrapper onCreate={handleAddNewPerson} createButtonLabel="Create person">
@@ -55,7 +44,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
               name={`crew.${index}.personId`}
               label="Person"
               optionsLoader={PeopleApi.searchByName}
-              onCreateOption={() => setIsCreateModalOpen(true)}
+              onCreateOption={() => setPerson(defaultPersonValues)}
             />
             <FormSelect
               name={`crew.${index}.role`}
@@ -68,14 +57,12 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
           </ArrayFieldWrapper>
         ))}
       </ArrayFormWrapper>
-      <FormModal isOpen={isCreateModalOpen} onClose={() => setIsCreateModalOpen(false)}>
-        <FormProvider {...form}>
-          <PersonForm
-            onSubmit={form.handleSubmit((values) => createPerson(values))}
-            title="Add crew member"
-          />
-        </FormProvider>
-      </FormModal>
+      <FormModal
+        values={person}
+        onClose={() => setPerson(null)}
+        afterSubmitEffect={() => setPerson(null)}
+        form={PersonForm}
+      />
     </FormSection>
   );
 };

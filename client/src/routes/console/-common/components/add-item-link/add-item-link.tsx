@@ -1,7 +1,7 @@
-import { Link, LinkProps } from '@tanstack/react-router';
+import { Link, type LinkProps } from '@tanstack/react-router';
 import { PlusIcon } from 'lucide-react';
 import styles from './add-item-link.module.css';
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 
 type AddItemLinkProps = Omit<LinkProps, 'className' | 'children'> & {
   children?: ReactNode;

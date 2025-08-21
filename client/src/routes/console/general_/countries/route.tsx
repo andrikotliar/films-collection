@@ -1,13 +1,13 @@
-import { CountriesApi } from '@/api';
-import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle } from '@/components';
-import { useToaster } from '@/hooks';
-import { fetchCountriesListQuery, type GeneralData } from '@/common';
-import { BaseForm, GeneralDataForm, FormModal, List } from '@/routes/console/-common';
-import { useBaseForm } from '@/routes/console/-common/hooks';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { BackLink, Button, ConsoleContent, ConsoleTitle } from '@/components';
+import { useDeleteCountry } from '@/hooks';
+import { fetchCountriesListQuery } from '@/common';
+import { FormModal, List } from '@/routes/console/-common';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
-import { FormProvider } from 'react-hook-form';
+import { PlusIcon } from 'lucide-react';
+import { CountryForm } from '@/routes/console/general_/countries/components';
+import type { CountryMutationPayload } from '@/hooks/queries/use-mutate-country';
 
 export const Route = createFileRoute('/console/general_/countries')({
   loader: async ({ context: { queryClient } }) => {
@@ -17,66 +17,28 @@ export const Route = createFileRoute('/console/general_/countries')({
 });
 
 function PageContainer() {
-  const { data, refetch } = useSuspenseQuery(fetchCountriesListQuery());
-  const { showErrorMessage } = useToaster();
-  const form = useBaseForm();
-  const [itemToUpdate, setItemToUpdate] = useState<GeneralData | null>(null);
-  const [itemToDelete, setItemToDelete] = useState<GeneralData | null>(null);
+  const { data } = useSuspenseQuery(fetchCountriesListQuery());
+  const [country, setCountry] = useState<CountryMutationPayload | null>(null);
 
-  const { mutate: createCountry, isPending: isCreating } = useMutation({
-    mutationFn: CountriesApi.createCountry,
-    onSuccess: () => {
-      refetch();
-      form.reset();
-    },
-    onError: (error) => {
-      showErrorMessage(error.message);
-    },
-  });
-
-  const { mutate: deleteCountry, isPending: isDeletePending } = useMutation({
-    mutationFn: CountriesApi.deleteCountry,
-    onSuccess: () => {
-      refetch();
-      setItemToDelete(null);
-    },
-    onError: (error) => {
-      showErrorMessage(error.message);
-    },
-  });
+  const { mutateAsync: deleteCountry, isPending: isDeletePending } = useDeleteCountry();
 
   return (
     <ConsoleContent>
       <BackLink path="/console/general">Back to categories</BackLink>
       <ConsoleTitle>Countries</ConsoleTitle>
-      <FormProvider {...form}>
-        <BaseForm
-          title="Create country"
-          onSubmit={form.handleSubmit((values) => createCountry(values))}
-          isSaving={isCreating}
-        />
-      </FormProvider>
-      <List items={data} onDelete={setItemToDelete} onEdit={setItemToUpdate} />
-      <ConfirmModal
-        title={`Delete ${itemToDelete?.title}?`}
-        onClose={() => setItemToDelete(null)}
-        data={itemToDelete}
-        onConfirm={(data) => deleteCountry(data.id)}
-        isPending={isDeletePending}
+      <Button icon={<PlusIcon />}>Add country</Button>
+      <List
+        items={data}
+        onDelete={deleteCountry}
+        onEdit={setCountry}
+        isDeletingInProgress={isDeletePending}
       />
-      <FormModal isOpen={itemToUpdate !== null} onClose={() => setItemToUpdate(null)}>
-        {itemToUpdate && (
-          <GeneralDataForm
-            defaultValues={itemToUpdate}
-            onSubmitSuccess={() => {
-              setItemToUpdate(null);
-              refetch();
-            }}
-            updateHandler={CountriesApi.updateCountry}
-            title="Edit country"
-          />
-        )}
-      </FormModal>
+      <FormModal
+        values={country}
+        onClose={() => setCountry(null)}
+        afterSubmitEffect={() => setCountry(null)}
+        form={CountryForm}
+      />
     </ConsoleContent>
   );
 }

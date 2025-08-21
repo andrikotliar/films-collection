@@ -6,13 +6,13 @@ export const CollectionEventsApi = {
     return apiClient.get<CollectionEventFilled[]>('/collection-events');
   },
 
-  createEvent(payload: Omit<CollectionEvent, 'id'>) {
-    return apiClient.post('/collection-events', {
+  create(payload: Omit<CollectionEvent, 'id'>) {
+    return apiClient.post<CollectionEvent>('/collection-events', {
       payload,
     });
   },
 
-  updateEvent(id: number, payload: Partial<Omit<CollectionEvent, 'id'>>) {
+  update(id: number, payload: Partial<Omit<CollectionEvent, 'id'>>) {
     return apiClient.patch('/collection-events/:id', {
       params: {
         id,

@@ -1,10 +1,7 @@
-import {
-  Message,
-  MessagesWrapper,
-} from '@/components/toaster-provider/components';
-import { Toast, ToastType } from '@/components/toaster-provider/types';
-import { ToasterContext, ToasterContextValues } from '@/contexts';
-import { ReactNode, useMemo, useState } from 'react';
+import { Message, MessagesWrapper } from '@/components/toaster-provider/components';
+import { type Toast, type ToastType } from '@/components/toaster-provider/types';
+import { ToasterContext, type ToasterContextValues } from '@/contexts';
+import { type ReactNode, useMemo, useState } from 'react';
 
 type ToasterProviderProps = {
   children?: ReactNode;
@@ -46,10 +43,10 @@ export const ToasterProvider = ({ children }: ToasterProviderProps) => {
 
   const providerValue = useMemo<ToasterContextValues>(() => {
     return {
-      showSuccessMessage: (message) => addToast('success', message),
-      showErrorMessage: (message) => addToast('error', message),
-      showInfoMessage: (message) => addToast('info', message),
-      showWarningMessage: (message) => addToast('warning', message),
+      success: (message) => addToast('success', message),
+      error: (message) => addToast('error', message),
+      info: (message) => addToast('info', message),
+      warning: (message) => addToast('warning', message),
     };
   }, []);
 

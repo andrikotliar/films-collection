@@ -1,1 +1,1 @@
-export * from './base-form-initial-values';
+export * from './default-person-values';

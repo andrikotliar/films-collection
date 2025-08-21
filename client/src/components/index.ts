@@ -46,3 +46,4 @@ export * from './toaster-provider/toaster-provider';
 export * from './month-date-selector';
 export * from './collection-event-banner/collection-event-banner';
 export * from './dashboard-section/dashboard-section';
+export * from './form/form';

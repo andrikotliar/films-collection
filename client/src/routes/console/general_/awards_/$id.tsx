@@ -1,17 +1,14 @@
 import { FormProvider, useForm } from 'react-hook-form';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { AwardsApi, FilesApi } from '@/api';
+import { AwardsApi } from '@/api';
 import { BackLink, ConsoleContent, ConsoleTitle } from '@/components';
 import { useToaster } from '@/hooks';
-import {
-  fetchAwardByIdQuery,
-  NEW_ITEM_ID,
-  getFileUploadFormData,
-} from '@/common';
+import { fetchAwardByIdQuery, NEW_ITEM_ID } from '@/common';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
-import { AwardFormValues } from './-types';
+import { type AwardFormValues } from './-types';
+import { getFormTitle } from '@/routes/console/-common/helpers';
 
 export const Route = createFileRoute('/console/general_/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
@@ -25,7 +22,7 @@ export const Route = createFileRoute('/console/general_/awards_/$id')({
 function PageContainer() {
   const navigate = Route.useNavigate();
   const { id } = Route.useParams();
-  const { showErrorMessage } = useToaster();
+  const toaster = useToaster();
 
   const { data } = useSuspenseQuery(fetchAwardByIdQuery(id));
 
@@ -47,47 +44,22 @@ function PageContainer() {
       });
     },
     onError: (error) => {
-      showErrorMessage(error.message);
+      toaster.error(error.message);
     },
   });
 
   const handleSubmit = async (values: AwardFormValues) => {
-    let image = values.image;
-
-    try {
-      if (image instanceof File) {
-        const formData = getFileUploadFormData({
-          title: values.title,
-          destination: 'awards',
-          file: image,
-        });
-
-        const response = await FilesApi.upload(formData);
-
-        image = response.filePath;
-      }
-    } catch (error: any) {
-      showErrorMessage(error.message);
-      return;
-    }
-
-    manageAward({
-      ...values,
-      image,
-    });
+    manageAward(values);
   };
 
-  const pageTitle = data ? `Edit award: ${data.title}` : 'Create award';
+  const pageTitle = getFormTitle(data);
 
   return (
     <ConsoleContent>
       <BackLink path="/console/general/awards">Back to list</BackLink>
       <ConsoleTitle>{pageTitle}</ConsoleTitle>
       <FormProvider {...form}>
-        <AwardForm
-          onSubmit={form.handleSubmit(handleSubmit)}
-          isLoading={isPending}
-        />
+        <AwardForm onSubmit={form.handleSubmit(handleSubmit)} isLoading={isPending} />
       </FormProvider>
     </ConsoleContent>
   );
