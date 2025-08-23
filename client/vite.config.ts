@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import ReactVite from '@vitejs/plugin-react';
 import TsConfigPaths from 'vite-tsconfig-paths';
 import { TanStackRouterVite } from '@tanstack/router-plugin/vite';
+import TailwindCss from '@tailwindcss/vite';
 
 export default defineConfig({
   server: {
@@ -23,5 +24,6 @@ export default defineConfig({
     }),
     ReactVite(),
     TsConfigPaths(),
+    TailwindCss(),
   ],
 });
