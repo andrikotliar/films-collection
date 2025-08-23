@@ -1,23 +1,35 @@
 export const queryKeys = {
+  films: {
+    adminList: 'films-admin-list',
+  },
   collectionEvent: {
-    adminList: ['collection-events-admin-list'],
+    adminList: 'collection-events-admin-list',
   },
   initialData: {
-    config: ['initial-data'],
+    config: 'initial-data',
   },
   collections: {
-    list: ['collections', 'list'],
+    list: 'collections-list',
   },
   countries: {
-    list: ['countries', 'list'],
+    list: 'countries-list',
   },
   genres: {
-    list: ['genres', 'list'],
+    list: 'genres-list',
   },
   people: {
-    adminList: ['admin', 'people', 'list'] as const,
+    adminList: 'people-admin-list',
   },
   studios: {
-    list: ['studios', 'list'],
+    list: 'studios-list',
+  },
+  awards: {
+    list: 'awards-list',
+  },
+  pageContent: {
+    list: 'page-content-list',
+  },
+  pendingFilms: {
+    list: 'pending-films-list',
   },
 };

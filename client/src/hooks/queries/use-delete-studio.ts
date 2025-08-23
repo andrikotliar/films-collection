@@ -1,24 +1,15 @@
 import { StudiosApi } from '@/api';
-import { queryKeys } from '@/common';
-import { useToaster } from '@/hooks/use-toaster';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { queryKeys, toaster } from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
+import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteStudio = () => {
-  const queryClient = useQueryClient();
-  const toaster = useToaster();
-
+  const invalidateQueries = useQueryInvalidation();
   return useMutation({
     mutationFn: StudiosApi.delete,
-    onError(error) {
-      toaster.error(error.message);
-    },
-    async onSuccess() {
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.studios.list,
-      });
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.initialData.config,
-      });
+    onError: toaster.error,
+    onSuccess: async () => {
+      await invalidateQueries([queryKeys.studios.list, queryKeys.initialData.config]);
     },
   });
 };

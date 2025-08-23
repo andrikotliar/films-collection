@@ -1,14 +1,13 @@
-import type { FormValues, UnknownEntity } from '@/common';
 import type { ReactNode } from 'react';
 import { useFormContext } from 'react-hook-form';
 import styles from './styles.module.css';
 
-type FormProps<T extends FormValues<UnknownEntity>> = {
+type FormProps<T extends Record<string, unknown>> = {
   children?: ReactNode;
-  onSubmit?: (data: T) => Promise<void>;
+  onSubmit?: (data: T) => Promise<unknown>;
 };
 
-export const Form = <T extends FormValues<UnknownEntity>>({ children, onSubmit }: FormProps<T>) => {
+export const Form = <T extends Record<string, unknown>>({ children, onSubmit }: FormProps<T>) => {
   const form = useFormContext<T>();
 
   return (

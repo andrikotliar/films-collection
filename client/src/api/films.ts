@@ -54,7 +54,7 @@ export const FilmsApi = {
     });
   },
 
-  deleteFilm(id: number) {
+  delete(id: number) {
     return apiClient.delete('/films/admin/:id', {
       params: {
         id,

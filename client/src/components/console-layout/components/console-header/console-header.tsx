@@ -5,7 +5,7 @@ import { useMutation } from '@tanstack/react-query';
 import { AuthenticationApi } from '@/api';
 import { useNavigate } from '@tanstack/react-router';
 import { LocalStorage } from '@/services';
-import { RefObject } from 'react';
+import { type RefObject } from 'react';
 
 type ConsoleHeaderProps = {
   isMenuOpen: boolean;
@@ -13,30 +13,20 @@ type ConsoleHeaderProps = {
   buttonRef: RefObject<HTMLButtonElement>;
 };
 
-export const ConsoleHeader = ({
-  onMenuOpen,
-  isMenuOpen,
-  buttonRef,
-}: ConsoleHeaderProps) => {
+export const ConsoleHeader = ({ onMenuOpen, isMenuOpen, buttonRef }: ConsoleHeaderProps) => {
   const navigate = useNavigate();
 
-  const { mutate: logout } = useMutation({
+  const { mutateAsync: logout } = useMutation({
     mutationFn: AuthenticationApi.logout,
+    onSuccess: () => {
+      LocalStorage.removeItem('state:is_authenticated');
+      navigate({ to: '/login' });
+    },
   });
-
-  const handleLogout = () => {
-    logout();
-    LocalStorage.removeItem('state:is_authenticated');
-    navigate({ to: '/login' });
-  };
 
   return (
     <div className={styles.consoleHeader}>
-      <button
-        className={styles.menuButton}
-        onClick={onMenuOpen}
-        ref={buttonRef}
-      >
+      <button className={styles.menuButton} onClick={onMenuOpen} ref={buttonRef}>
         <MenuIcon
           className={classNames(styles.menuIcon, {
             [styles.menuIconCollapsed]: !isMenuOpen,
@@ -45,7 +35,7 @@ export const ConsoleHeader = ({
         />
       </button>
       <div className={styles.consoleHeaderTitle}>Films Collection Console</div>
-      <button className={styles.logoutButton} onClick={handleLogout}>
+      <button className={styles.logoutButton} onClick={() => logout()}>
         <LogOutIcon size={18} />
       </button>
     </div>

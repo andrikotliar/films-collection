@@ -23,9 +23,9 @@ export const CollectionForm = ({ values, afterSubmitEffect }: CollectionFormProp
   };
 
   const formTitle = getFormTitle({
-    values,
-    newItemTitle: 'Create collection',
-    existingItemTitle: 'Edit collection: {}',
+    id: values.id,
+    label: 'Collection',
+    value: values.title,
   });
 
   return (

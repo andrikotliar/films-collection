@@ -1,32 +1,15 @@
-import { isNewItem, type FormValues, type UnknownEntity } from '@/common';
+import { isNewItem, type MixedId } from '@/common';
 
-type FormTitleParams<T extends FormValues<UnknownEntity>> = {
-  values: T;
-  newItemTitle: string;
-  existingItemTitle: string;
+type FormTitleParams = {
+  id: MixedId;
+  value: string;
+  label?: string;
 };
 
-export const getTitlePlaceholder = <T extends FormValues<UnknownEntity>>(values: T) => {
-  if ('title' in values) {
-    return values.title as string;
+export const getFormTitle = ({ id, value, label = 'Item' }: FormTitleParams) => {
+  if (isNewItem(id)) {
+    return `Create ${label}`;
   }
 
-  if ('name' in values) {
-    return values.name as string;
-  }
-
-  return 'Unknown';
-};
-
-export const getFormTitle = <T extends FormValues<UnknownEntity>>({
-  values,
-  newItemTitle,
-  existingItemTitle,
-}: FormTitleParams<T>) => {
-  if (isNewItem(values.id)) {
-    return newItemTitle;
-  }
-
-  const placeholder = getTitlePlaceholder(values);
-  return existingItemTitle.replace('{}', placeholder);
+  return `Edit ${label}: ${value}`;
 };

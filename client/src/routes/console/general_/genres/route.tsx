@@ -1,11 +1,12 @@
 import { BackLink, ConsoleContent, ConsoleTitle } from '@/components';
 import { useDeleteGenre, type GenreMutationPayload } from '@/hooks';
-import { FormModal, List } from '@/routes/console/-common';
+import { AddItemButton, FormModal, List } from '@/routes/console/-common';
 import { fetchGenresListQuery } from '@/common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
-import { GenresForm } from '@/routes/console/general_/genres/components';
+import { GenresForm } from '@/routes/console/general_/genres/-components';
+import { genreDefaultValues } from '@/routes/console/general_/genres/-configs';
 
 export const Route = createFileRoute('/console/general_/genres')({
   loader: async ({ context: { queryClient } }) => {
@@ -25,6 +26,7 @@ function PageContainer() {
     <ConsoleContent>
       <BackLink path="/console/general">Back to categories</BackLink>
       <ConsoleTitle>Genres</ConsoleTitle>
+      <AddItemButton onClick={() => setGenre(genreDefaultValues)}>Create genre</AddItemButton>
       <List
         items={data}
         onDelete={deleteGenre}

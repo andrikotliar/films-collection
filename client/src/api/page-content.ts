@@ -27,21 +27,19 @@ export const PageContentApi = {
     });
   },
 
-  createPageContent(
-    payload: Pick<PageContent, 'title' | 'content' | 'pageKey'>,
-  ) {
+  create(payload: Pick<PageContent, 'title' | 'content' | 'pageKey'>) {
     return apiClient.post('/page-content', {
       payload,
     });
   },
 
-  deletePageContent(id: number) {
+  delete(id: number) {
     return apiClient.delete('/page-content/:id', {
       params: { id },
     });
   },
 
-  updatePageContent(id: number, payload: Partial<PageContent>) {
+  update(id: number, payload: Partial<PageContent>) {
     return apiClient.patch('/page-content/:id', {
       payload,
       params: { id },

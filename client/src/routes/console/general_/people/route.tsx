@@ -53,7 +53,7 @@ function RouteComponent() {
       <Filters />
       <List
         items={data.list}
-        titleSelector="name"
+        titleKey="name"
         onDelete={deletePerson}
         onEdit={setPerson}
         isDeletingInProgress={isDeleting}

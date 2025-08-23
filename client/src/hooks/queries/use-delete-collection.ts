@@ -1,22 +1,16 @@
 import { CollectionsApi } from '@/api';
-import { queryKeys } from '@/common';
-import { useToaster } from '@/hooks/use-toaster';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { queryKeys, toaster } from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
+import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteCollection = () => {
-  const queryClient = useQueryClient();
-  const toaster = useToaster();
+  const invalidateQueries = useQueryInvalidation();
 
   return useMutation({
     mutationFn: CollectionsApi.delete,
     onSuccess: async () => {
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.collections.list,
-      });
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.initialData.config,
-      });
+      await invalidateQueries([queryKeys.collections.list]);
     },
-    onError: (error) => toaster.error(error.message),
+    onError: toaster.error,
   });
 };

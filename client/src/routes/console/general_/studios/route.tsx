@@ -5,9 +5,9 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
 import { useDeleteStudio } from '@/hooks';
-import { StudioForm } from '@/routes/console/general_/studios/components';
+import { StudioForm } from '@/routes/console/general_/studios/-components';
 import type { StudioMutationPayload } from '@/hooks/queries/use-mutate-studio';
-import { studioInitialValues } from '@/routes/console/general_/studios/configs';
+import { studioInitialValues } from '@/routes/console/general_/studios/-configs';
 
 export const Route = createFileRoute('/console/general_/studios')({
   loader: async ({ context: { queryClient } }) => {

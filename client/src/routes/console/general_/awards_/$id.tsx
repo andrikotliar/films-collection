@@ -9,6 +9,7 @@ import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 import { type AwardFormValues } from './-types';
 import { getFormTitle } from '@/routes/console/-common/helpers';
+import { useMemo } from 'react';
 
 export const Route = createFileRoute('/console/general_/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
@@ -26,8 +27,12 @@ function PageContainer() {
 
   const { data } = useSuspenseQuery(fetchAwardByIdQuery(id));
 
+  const defaultValues = useMemo(() => {
+    return getFormDefaultValues(data);
+  }, [data]);
+
   const form = useForm<AwardFormValues>({
-    defaultValues: getFormDefaultValues(data),
+    defaultValues,
   });
 
   const { mutate: manageAward, isPending } = useMutation({
@@ -52,7 +57,11 @@ function PageContainer() {
     manageAward(values);
   };
 
-  const pageTitle = getFormTitle(data);
+  const pageTitle = getFormTitle({
+    value: defaultValues.title,
+    id: defaultValues.id,
+    label: 'Award',
+  });
 
   return (
     <ConsoleContent>

@@ -1,24 +1,16 @@
 import { PeopleApi } from '@/api';
-import { queryKeys } from '@/common';
-import { useToaster } from '@/hooks/use-toaster';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { queryKeys, toaster } from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
+import { useMutation } from '@tanstack/react-query';
 
 export const useDeletePerson = () => {
-  const queryClient = useQueryClient();
-  const toaster = useToaster();
+  const invalidateQueries = useQueryInvalidation();
 
   return useMutation({
     mutationFn: PeopleApi.delete,
-    onError(error) {
-      toaster.error(error.message);
-    },
-    async onSuccess() {
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.people.adminList,
-      });
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.people.adminList,
-      });
+    onError: toaster.error,
+    onSuccess: async () => {
+      await invalidateQueries(queryKeys.people.adminList);
     },
   });
 };

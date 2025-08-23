@@ -1,26 +1,21 @@
 import { PeopleApi } from '@/api';
-import { mutateEntity, queryKeys, type FormValues } from '@/common';
-import { useToaster } from '@/hooks/use-toaster';
+import { mutateEntity, queryKeys, toaster, type FormValues } from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
 import type { HttpError } from '@/services';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 
 export type PersonMutationPayload = FormValues<{
   name: string;
 }>;
 
 export const useMutatePerson = () => {
-  const queryClient = useQueryClient();
-  const toaster = useToaster();
+  const invalidateQueries = useQueryInvalidation();
 
   return useMutation<unknown, HttpError, PersonMutationPayload>({
     mutationFn: (data) => mutateEntity(PeopleApi, data),
     onSuccess: async () => {
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.people.adminList,
-      });
+      await invalidateQueries(queryKeys.people.adminList);
     },
-    onError: (error) => {
-      toaster.error(error.message);
-    },
+    onError: toaster.error,
   });
 };

@@ -1,25 +1,26 @@
 import { CountriesApi } from '@/api';
-import { mutateEntity, queryKeys, type Country, type FormValues, type OmitId } from '@/common';
-import { useToaster } from '@/hooks/use-toaster';
+import {
+  mutateEntity,
+  queryKeys,
+  toaster,
+  type Country,
+  type FormValues,
+  type OmitId,
+} from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
 import type { HttpError } from '@/services';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 
 export type CountryMutationPayload = FormValues<OmitId<Country>>;
 
 export const useMutateCountry = () => {
-  const queryClient = useQueryClient();
-  const toaster = useToaster();
+  const invalidateQueries = useQueryInvalidation();
 
   return useMutation<unknown, HttpError, CountryMutationPayload>({
     mutationFn: (data) => mutateEntity(CountriesApi, data),
-    onError: (error) => toaster.error(error.message),
+    onError: toaster.error,
     onSuccess: async () => {
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.countries.list,
-      });
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.initialData.config,
-      });
+      await invalidateQueries([queryKeys.countries.list, queryKeys.initialData.config]);
     },
   });
 };

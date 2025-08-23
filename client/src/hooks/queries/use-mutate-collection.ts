@@ -1,27 +1,19 @@
 import { CollectionsApi } from '@/api';
-import { mutateEntity, queryKeys, type Collection, type FormValues } from '@/common';
-import { useToaster } from '@/hooks/use-toaster';
+import { mutateEntity, queryKeys, toaster, type Collection, type FormValues } from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
 import type { HttpError } from '@/services';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 
 export type CollectionMutationPayload = FormValues<Collection>;
 
 export const useMutateCollection = () => {
-  const queryClient = useQueryClient();
-  const toaster = useToaster();
+  const invalidateQueries = useQueryInvalidation();
 
   return useMutation<Collection | unknown, HttpError, CollectionMutationPayload>({
     mutationFn: (data) => mutateEntity(CollectionsApi, data),
-    async onSuccess() {
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.collections.list,
-      });
-      await queryClient.invalidateQueries({
-        queryKey: queryKeys.initialData.config,
-      });
+    onSuccess: async () => {
+      await invalidateQueries([queryKeys.collections.list, queryKeys.initialData.config]);
     },
-    onError(error) {
-      toaster.error(error?.message);
-    },
+    onError: toaster.error,
   });
 };

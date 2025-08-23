@@ -1,14 +1,17 @@
 import { PendingFilmsApi } from '@/api';
-import { fetchPendingFilmsListQuery, PENDING_FILMS_PER_PAGE } from '@/common';
-import { PendingFilmQueryFilters } from '@/common';
+import {
+  fetchPendingFilmsListQuery,
+  PENDING_FILMS_PER_PAGE,
+  type PendingFilmQueryFilters,
+} from '@/common';
 import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
+import { type FormProvider, type SubmitHandler, useForm } from 'react-hook-form';
 import { number, object, string } from 'yup';
 import { createPendingFilmSchema } from './-validation';
-import { PendingFilmFormValues } from './-types';
+import { type PendingFilmFormValues } from './-types';
 import { PendingFilmForm, PendingFilmsList, Filters } from './-components';
 
 const pendingFilmsFilterSchema = object().shape({
@@ -34,9 +37,7 @@ export const Route = createFileRoute('/console/pending')({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(
-      fetchPendingFilmsListQuery(deps.search),
-    );
+    return context.queryClient.ensureQueryData(fetchPendingFilmsListQuery(deps.search));
   },
   component: PageContainer,
 });
@@ -45,9 +46,7 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
 
-  const { data, refetch } = useSuspenseQuery(
-    fetchPendingFilmsListQuery(searchParams),
-  );
+  const { data, refetch } = useSuspenseQuery(fetchPendingFilmsListQuery(searchParams));
 
   const form = useForm({
     defaultValues: defaultFormValues,
@@ -62,9 +61,7 @@ function PageContainer() {
     },
   });
 
-  const handleCreatePendingFilm: SubmitHandler<PendingFilmFormValues> = (
-    data,
-  ) => {
+  const handleCreatePendingFilm: SubmitHandler<PendingFilmFormValues> = (data) => {
     createPendingFilm({
       title: data.title.trim(),
       priority: Number(data.priority),

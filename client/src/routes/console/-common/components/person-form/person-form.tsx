@@ -18,9 +18,9 @@ export const PersonForm = ({ values, afterSubmitEffect }: PersonFormProps) => {
   const { mutateAsync, isPending } = useMutatePerson();
 
   const title = getFormTitle({
-    values,
-    newItemTitle: 'Create person profile',
-    existingItemTitle: 'Update profile of {}',
+    id: values.id,
+    value: values.name,
+    label: 'Person',
   });
 
   const submit = async (data: PersonMutationPayload) => {

@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { PendingFilm, PendingFilmServerFilters } from '@/common';
+import type { PendingFilm, PendingFilmServerFilters } from '@/common';
 
 type PendingFilmsListResponse = {
   list: PendingFilm[];
@@ -13,22 +13,19 @@ export const PendingFilmsApi = {
     });
   },
 
-  createPendingFilm(data: Omit<PendingFilm, 'id' | 'createdAt'>) {
+  create(data: Omit<PendingFilm, 'id' | 'createdAt'>) {
     return apiClient.post<PendingFilm>('/pending-films', {
       payload: data,
     });
   },
 
-  deletePendingFilm(id: number) {
+  delete(id: number) {
     return apiClient.delete('/pending-films/:id', {
       params: { id },
     });
   },
 
-  updatePendingFilm(
-    id: number,
-    payload: Partial<Omit<PendingFilm, 'id' | 'createdAt'>>,
-  ) {
+  update(id: number, payload: Partial<Omit<PendingFilm, 'id' | 'createdAt'>>) {
     return apiClient.patch('/pending-films/:id', {
       payload,
       params: { id },

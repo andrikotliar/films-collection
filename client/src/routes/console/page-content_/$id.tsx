@@ -1,15 +1,13 @@
-import { PageContentApi } from '@/api';
-import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPageContentByIdQuery } from '@/common';
+import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPageContentByIdQuery, isNewItem } from '@/common';
 import { PageContentForm } from './-components';
-import { FormValues } from './-types';
-import { formValidation } from './-validation';
+import { pageContentFormValidation } from './-validation';
 import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute, useNavigate } from '@tanstack/react-router';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { createFileRoute } from '@tanstack/react-router';
 import { FormProvider, useForm } from 'react-hook-form';
 import sanitize from 'sanitize-html';
-import { useToaster } from '@/hooks';
+import { useMutatePageContent, type PageContentMutationPayload } from '@/hooks';
 import { getDefaultFormValues } from './-helpers';
 
 export const Route = createFileRoute('/console/page-content_/$id')({
@@ -23,38 +21,18 @@ export const Route = createFileRoute('/console/page-content_/$id')({
 
 function RouteComponent() {
   const { id } = Route.useParams();
-  const navigate = useNavigate();
-  const toaster = useToaster();
-
-  const isEdit = id !== NEW_ITEM_ID;
-  const title = isEdit ? 'Edit page content' : 'Create page content';
+  const title = isNewItem(Number(id)) ? 'Edit page content' : 'Create page content';
 
   const { data } = useSuspenseQuery(fetchPageContentByIdQuery(id));
 
   const form = useForm({
     defaultValues: getDefaultFormValues(data),
-    resolver: yupResolver(formValidation),
+    resolver: yupResolver(pageContentFormValidation),
   });
 
-  const { mutate: managePageContent, isPending } = useMutation({
-    mutationFn: (data: FormValues) => {
-      if (id !== NEW_ITEM_ID) {
-        return PageContentApi.updatePageContent(Number(id), data);
-      }
+  const { mutate: managePageContent, isPending } = useMutatePageContent();
 
-      return PageContentApi.createPageContent(data);
-    },
-    onSuccess: () => {
-      navigate({
-        to: '/console/page-content',
-      });
-    },
-    onError: (error) => {
-      toaster.error(error.message);
-    },
-  });
-
-  const handleSubmit = (values: FormValues) => {
+  const handleSubmit = (values: PageContentMutationPayload) => {
     const sanitizedContent = sanitize(values.content, {
       allowedTags: ALLOWED_HTML_TAGS,
       allowedAttributes: {},

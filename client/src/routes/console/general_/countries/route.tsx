@@ -1,13 +1,13 @@
-import { BackLink, Button, ConsoleContent, ConsoleTitle } from '@/components';
+import { BackLink, ConsoleContent, ConsoleTitle } from '@/components';
 import { useDeleteCountry } from '@/hooks';
 import { fetchCountriesListQuery } from '@/common';
-import { FormModal, List } from '@/routes/console/-common';
+import { AddItemButton, FormModal, List } from '@/routes/console/-common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
-import { PlusIcon } from 'lucide-react';
-import { CountryForm } from '@/routes/console/general_/countries/components';
+import { CountryForm } from '@/routes/console/general_/countries/-components';
 import type { CountryMutationPayload } from '@/hooks/queries/use-mutate-country';
+import { countryDefaultValues } from '@/routes/console/general_/countries/-configs';
 
 export const Route = createFileRoute('/console/general_/countries')({
   loader: async ({ context: { queryClient } }) => {
@@ -26,7 +26,7 @@ function PageContainer() {
     <ConsoleContent>
       <BackLink path="/console/general">Back to categories</BackLink>
       <ConsoleTitle>Countries</ConsoleTitle>
-      <Button icon={<PlusIcon />}>Add country</Button>
+      <AddItemButton onClick={() => setCountry(countryDefaultValues)}>Add country</AddItemButton>
       <List
         items={data}
         onDelete={deleteCountry}

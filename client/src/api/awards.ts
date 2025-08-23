@@ -39,7 +39,7 @@ export const AwardsApi = {
     });
   },
 
-  deleteAward(id: number) {
+  delete(id: number) {
     return apiClient.delete('/awards/:id', {
       params: { id },
     });

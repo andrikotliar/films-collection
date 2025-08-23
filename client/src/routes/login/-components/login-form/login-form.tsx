@@ -1,24 +1,36 @@
-import styles from './login-form.module.css';
-import { Button, FormTextInput, FormPasswordInput, Logo } from '@/components';
+import type { LoginPayload } from '@/common';
+import { Button, FormTextInput, FormPasswordInput, Logo, Form, CenteredBlock } from '@/components';
+import { useLogin } from '@/hooks';
+import { loginFormSchema } from '@/routes/login/-validation';
+import { yupResolver } from '@hookform/resolvers/yup';
 import { LogInIcon } from 'lucide-react';
-import { SubmitHandler } from 'react-hook-form';
+import { FormProvider, useForm } from 'react-hook-form';
 
-type LoginFormProps = {
-  isSaving: boolean;
-  onSubmit: SubmitHandler<any>;
+const defaultLoginValues: LoginPayload = {
+  username: '',
+  password: '',
 };
 
-export const LoginForm = ({ isSaving, onSubmit }: LoginFormProps) => {
+export const LoginForm = () => {
+  const { mutateAsync, isPending } = useLogin();
+
+  const form = useForm<LoginPayload>({
+    defaultValues: defaultLoginValues,
+    resolver: yupResolver(loginFormSchema),
+  });
+
   return (
-    <form onSubmit={onSubmit} className={styles.loginForm}>
-      <div className={styles.loginLogo}>
-        <Logo width={120} />
-      </div>
-      <FormTextInput name="username" label="Username" />
-      <FormPasswordInput name="password" label="Password" />
-      <Button type="submit" icon={<LogInIcon />} isLoading={isSaving}>
-        Login
-      </Button>
-    </form>
+    <FormProvider {...form}>
+      <Form onSubmit={mutateAsync}>
+        <CenteredBlock>
+          <Logo width={120} />
+        </CenteredBlock>
+        <FormTextInput name="username" label="Username" />
+        <FormPasswordInput name="password" label="Password" />
+        <Button type="submit" icon={<LogInIcon />} isLoading={isPending}>
+          Login
+        </Button>
+      </Form>
+    </FormProvider>
   );
 };
