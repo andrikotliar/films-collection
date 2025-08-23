@@ -1,18 +1,18 @@
-import { PendingFilmsApi } from '@/api';
 import {
   fetchPendingFilmsListQuery,
   PENDING_FILMS_PER_PAGE,
   type PendingFilmQueryFilters,
 } from '@/common';
 import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
-import { yupResolver } from '@hookform/resolvers/yup';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { type FormProvider, type SubmitHandler, useForm } from 'react-hook-form';
 import { number, object, string } from 'yup';
-import { createPendingFilmSchema } from './-validation';
-import { type PendingFilmFormValues } from './-types';
-import { PendingFilmForm, PendingFilmsList, Filters } from './-components';
+import { Filters, PendingFilmForm } from './-components';
+import { AddItemButton, FormModal, List } from '@/routes/console/-common';
+import { useState } from 'react';
+import type { PendingFilmMutationPayload } from '@/hooks';
+import { defaultPendingFilm } from '@/routes/console/pending/-configs/default-pending-film';
+import { useDeletePendingFilm } from '@/hooks/queries/use-delete-pending-film';
 
 const pendingFilmsFilterSchema = object().shape({
   q: string(),
@@ -21,13 +21,6 @@ const pendingFilmsFilterSchema = object().shape({
   orderKey: string(),
   order: string().oneOf(['asc', 'desc']),
 });
-
-const defaultFormValues: PendingFilmFormValues = {
-  title: '',
-  priority: '1',
-  collectionId: null,
-  rating: null,
-};
 
 export const Route = createFileRoute('/console/pending')({
   validateSearch: (search): PendingFilmQueryFilters => {
@@ -46,29 +39,11 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
 
-  const { data, refetch } = useSuspenseQuery(fetchPendingFilmsListQuery(searchParams));
+  const { data } = useSuspenseQuery(fetchPendingFilmsListQuery(searchParams));
 
-  const form = useForm({
-    defaultValues: defaultFormValues,
-    resolver: yupResolver(createPendingFilmSchema),
-  });
+  const [pendingFilm, setPendingFilm] = useState<PendingFilmMutationPayload | null>(null);
 
-  const { mutate: createPendingFilm, isPending: isSaving } = useMutation({
-    mutationFn: PendingFilmsApi.createPendingFilm,
-    onSuccess: () => {
-      refetch();
-      form.reset(defaultFormValues);
-    },
-  });
-
-  const handleCreatePendingFilm: SubmitHandler<PendingFilmFormValues> = (data) => {
-    createPendingFilm({
-      title: data.title.trim(),
-      priority: Number(data.priority),
-      collectionId: data.collectionId,
-      rating: data.rating,
-    });
-  };
+  const { mutateAsync, isPending } = useDeletePendingFilm();
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -82,21 +57,26 @@ function PageContainer() {
   return (
     <ConsoleContent>
       <ConsoleTitle>Pending Films</ConsoleTitle>
-      <FormProvider {...form}>
-        <PendingFilmForm
-          onSubmit={form.handleSubmit(handleCreatePendingFilm)}
-          isSaving={isSaving}
-          title="Add pending film"
-        />
-      </FormProvider>
+      <AddItemButton onClick={() => setPendingFilm(defaultPendingFilm)}>Create</AddItemButton>
       <Filters />
-      <PendingFilmsList list={data.list} onRefetchList={refetch} />
+      <List
+        items={data.list}
+        onDelete={mutateAsync}
+        isDeletingInProgress={isPending}
+        onEdit={setPendingFilm}
+      />
       <Pagination
         currentPageIndex={searchParams.pageIndex}
         total={data.total}
         onPageChange={handlePageChange}
         perPageCounter={PENDING_FILMS_PER_PAGE}
         totalLabel="films"
+      />
+      <FormModal
+        values={pendingFilm}
+        afterSubmitEffect={() => setPendingFilm(null)}
+        onClose={() => setPendingFilm(null)}
+        form={PendingFilmForm}
       />
     </ConsoleContent>
   );

@@ -1,1 +1,1 @@
-export * from './create-pending-film-schema';
+export * from './pending-film-schema';
