@@ -1,5 +1,5 @@
 import { apiClient } from '@/services';
-import { Award, AwardNomination, Nomination } from '@/common';
+import type { Award, AwardNomination, Nomination } from '@/common';
 
 type AwardPayload = Omit<Award, 'id'> & {
   nominations: Omit<Nomination, 'person' | 'comment'>[];
@@ -26,13 +26,13 @@ export const AwardsApi = {
     });
   },
 
-  createAward(payload: AwardPayload) {
+  create(payload: AwardPayload) {
     return apiClient.post('/awards', {
       payload,
     });
   },
 
-  updateAward(id: number, payload: AwardPayload) {
+  update(id: number, payload: AwardPayload) {
     return apiClient.patch('/awards/:id', {
       payload,
       params: { id },

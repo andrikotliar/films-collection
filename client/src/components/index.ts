@@ -46,6 +46,6 @@ export * from './toaster/toaster';
 export * from './month-date-selector';
 export * from './collection-event-banner/collection-event-banner';
 export * from './dashboard-section/dashboard-section';
-export * from './form/form';
+export * from './forms/form';
 export * from './priority-badge/priority-badge';
 export * from './centered-block/centered-block';

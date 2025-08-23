@@ -1,5 +1,5 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import type { FormAward, FormValues } from '@/routes/console/manage_/-types';
+import type { FormAward, FilmFormValues } from '@/routes/console/manage_/-types';
 import { type ListOption } from '@/common';
 import { FormSection, FormSelect, FormTextInput } from '@/components';
 import { ArrayFormWrapper, ArrayFieldWrapper } from '@/routes/console/-common';
@@ -17,7 +17,7 @@ const defaultAward: FormAward = {
 };
 
 export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
-  const { control } = useFormContext<FormValues>();
+  const { control } = useFormContext<FilmFormValues>();
 
   const { fields, append, remove } = useFieldArray({
     control,

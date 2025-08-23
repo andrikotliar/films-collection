@@ -1,8 +1,7 @@
-import type { DefaultListItem } from '@/routes/console/-common';
 import styles from './confirm-modal.module.css';
 import { Button, type ButtonVariant, Modal } from '@/components';
 
-type ConfirmModalProps<T extends DefaultListItem> = {
+type ConfirmModalProps<T> = {
   title?: string;
   description?: string;
   data: T | null;
@@ -14,7 +13,7 @@ type ConfirmModalProps<T extends DefaultListItem> = {
   isPending?: boolean;
 };
 
-export const ConfirmModal = <T extends DefaultListItem>({
+export const ConfirmModal = <T,>({
   title = 'Confirm deleting',
   description,
   data,

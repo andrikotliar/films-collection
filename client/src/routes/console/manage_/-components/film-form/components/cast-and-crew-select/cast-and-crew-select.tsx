@@ -1,25 +1,18 @@
-import { type FormValues } from '@/routes/console/manage_/-types';
+import { type FilmFormValues } from '@/routes/console/manage_/-types';
 import { type ListOption } from '@/common';
 import { FormAsyncSelect, FormSection, FormSelect, FormTextInput } from '@/components';
-import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import {
-  ArrayFormWrapper,
-  ArrayFieldWrapper,
-  FormModal,
-  PersonForm,
-  defaultPersonValues,
-} from '@/routes/console/-common';
+import { ArrayFormWrapper, ArrayFieldWrapper, defaultPersonValues } from '@/routes/console/-common';
 import { PeopleApi } from '@/api';
 import type { PersonMutationPayload } from '@/hooks';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption[];
+  onPersonChange: (person: PersonMutationPayload) => void;
 };
 
-export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
-  const { control } = useFormContext<FormValues>();
-  const [person, setPerson] = useState<PersonMutationPayload | null>(null);
+export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCrewSelectProps) => {
+  const { control } = useFormContext<FilmFormValues>();
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -44,7 +37,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
               name={`crew.${index}.personId`}
               label="Person"
               optionsLoader={PeopleApi.searchByName}
-              onCreateOption={() => setPerson(defaultPersonValues)}
+              onCreateOption={() => onPersonChange(defaultPersonValues)}
             />
             <FormSelect
               name={`crew.${index}.role`}
@@ -57,12 +50,6 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
           </ArrayFieldWrapper>
         ))}
       </ArrayFormWrapper>
-      <FormModal
-        values={person}
-        onClose={() => setPerson(null)}
-        afterSubmitEffect={() => setPerson(null)}
-        form={PersonForm}
-      />
     </FormSection>
   );
 };

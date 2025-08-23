@@ -6,6 +6,7 @@ export * from './use-mutate-collection-event';
 export * from './use-mutate-collection';
 export * from './use-mutate-person';
 export * from './use-mutate-page-content';
+export * from './use-mutate-award';
 export * from './use-delete-collection';
 export * from './use-delete-film';
 export * from './use-delete-country';

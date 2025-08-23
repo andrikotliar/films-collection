@@ -1,11 +1,10 @@
 import styles from './filters.module.css';
-import { Dispatch, SetStateAction, useEffect } from 'react';
+import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
 import { FilterOptions } from './components';
-import { countObjectKeys, filterValues } from '@/common';
+import { countObjectKeys, filterValues, type FilmsListFilters, type FilterItem } from '@/common';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { FilmsListFilters, FilterItem } from '@/common';
 import { getRouteApi } from '@tanstack/react-router';
 
 type FiltersProps = {
@@ -27,11 +26,7 @@ const defaultValues: FilmsListFilters = {
 
 const routeApi = getRouteApi('/_home/');
 
-export const Filters = ({
-  config,
-  setIsFilterOpen,
-  updateFiltersCount,
-}: FiltersProps) => {
+export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 
@@ -78,10 +73,7 @@ export const Filters = ({
 
   return (
     <FormProvider {...methods}>
-      <form
-        onSubmit={methods.handleSubmit(submitFilter)}
-        className={styles.filters}
-      >
+      <form onSubmit={methods.handleSubmit(submitFilter)} className={styles.filters}>
         <ScrollableWrapper className={styles.filterGroups}>
           {config.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
@@ -92,11 +84,7 @@ export const Filters = ({
             Search
           </Button>
           {filtersCount > 0 && (
-            <Button
-              onClick={handleReset}
-              icon={<RefreshCcwIcon />}
-              variant="secondary"
-            >
+            <Button onClick={handleReset} icon={<RefreshCcwIcon />} variant="secondary">
               Reset
             </Button>
           )}

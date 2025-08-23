@@ -1,4 +1,4 @@
-import { TitleStyle, TitleType } from '@/common';
+import { type TitleStyle, type TitleType, type MixedId } from '@/common';
 
 export type FormTrailer = {
   videoId: string;
@@ -19,7 +19,8 @@ export type FormAward = {
   comment: number | null;
 };
 
-export type FormValues = {
+export type FilmFormValues = {
+  id: MixedId;
   title: string | null;
   type: TitleType;
   style: TitleStyle;

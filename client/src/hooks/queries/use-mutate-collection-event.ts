@@ -1,11 +1,18 @@
 import { CollectionEventsApi } from '@/api';
-import { mutateEntity, queryKeys, toaster, type CollectionEvent, type FormValues } from '@/common';
+import {
+  mutateEntity,
+  queryKeys,
+  toaster,
+  type CollectionEvent,
+  type FormValues,
+  type OmitId,
+} from '@/common';
 import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
 import type { HttpError } from '@/services';
 import { useMutation } from '@tanstack/react-query';
 
 export type CollectionEventMutationPayload = FormValues<
-  CollectionEvent & {
+  OmitId<CollectionEvent> & {
     isOneDayEvent: boolean;
   }
 >;

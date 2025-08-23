@@ -3,7 +3,7 @@ import { fetchRelatedChaptersQuery } from '@/common';
 import { useQuery } from '@tanstack/react-query';
 import { ChapterButton } from '../chapter-button/chapter-button';
 import { useFormContext } from 'react-hook-form';
-import { FormValues } from '@/routes/console/manage_/-types';
+import { type FilmFormValues } from '@/routes/console/manage_/-types';
 import { Image } from '@/components';
 
 type ChaptersProps = {
@@ -13,11 +13,9 @@ type ChaptersProps = {
 };
 
 export const Chapters = ({ chapterKey, filmId, isEnabled }: ChaptersProps) => {
-  const { setValue, watch } = useFormContext<FormValues>();
+  const { setValue, watch } = useFormContext<FilmFormValues>();
 
-  const { data = [] } = useQuery(
-    fetchRelatedChaptersQuery({ key: chapterKey, filmId }, isEnabled),
-  );
+  const { data = [] } = useQuery(fetchRelatedChaptersQuery({ key: chapterKey, filmId }, isEnabled));
 
   const handleSetValue = (chapterOrder: number) => {
     setValue('chapterOrder', chapterOrder);
