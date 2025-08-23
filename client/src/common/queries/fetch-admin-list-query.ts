@@ -6,9 +6,9 @@ import { queryKeys } from '@/common/configs';
 
 export const fetchAdminListQuery = (params: AdminFilmsQueryFilters) => {
   return queryOptions({
-    queryKey: [...queryKeys.films.adminList, params] as const,
+    queryKey: [queryKeys.films.adminList, params] as const,
     queryFn: ({ queryKey }) => {
-      const { pageIndex, ...filters } = queryKey[3];
+      const { pageIndex, ...filters } = queryKey[1];
 
       return FilmsApi.getAdminFilmsList({
         ...filters,

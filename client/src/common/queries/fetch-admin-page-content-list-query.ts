@@ -9,9 +9,9 @@ type QueryFilters = {
 
 export const fetchAdminPageContentListQuery = (filters: Partial<QueryFilters>) => {
   return queryOptions({
-    queryKey: [...queryKeys.pageContent.list, filters] as const,
+    queryKey: [queryKeys.pageContent.list, filters] as const,
     queryFn: ({ queryKey }) => {
-      const { pageIndex = 0 } = queryKey[2];
+      const { pageIndex = 0 } = queryKey[1];
 
       return PageContentApi.getList({
         skip: pageIndex * PAGE_CONTENT_ADMIN_PER_PAGE,

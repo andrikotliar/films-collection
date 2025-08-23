@@ -11,9 +11,9 @@ export type FetchAdminPeopleListParams = {
 
 export const fetchAdminPeopleListQuery = (params: FetchAdminPeopleListParams) => {
   return queryOptions({
-    queryKey: [...queryKeys.people.adminList, params] as const,
+    queryKey: [queryKeys.people.adminList, params] as const,
     queryFn: ({ queryKey }) => {
-      const { page = 0, q, role } = queryKey[3];
+      const { page = 0, q, role } = queryKey[1];
 
       const filters: GetPeopleListQueries = {
         skip: page * PEOPLE_ADMIN_PER_PAGE,

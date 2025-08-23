@@ -4,7 +4,7 @@ import { queryOptions } from '@tanstack/react-query';
 
 export const fetchAwardsBaseDataListQuery = () => {
   return queryOptions({
-    queryKey: queryKeys.awards.list,
+    queryKey: [queryKeys.awards.list],
     queryFn: AwardsApi.getBaseDataList,
   });
 };

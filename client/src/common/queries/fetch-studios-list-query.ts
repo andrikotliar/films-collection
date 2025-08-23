@@ -4,7 +4,7 @@ import { queryOptions } from '@tanstack/react-query';
 
 export const fetchStudiosListQuery = () => {
   return queryOptions({
-    queryKey: queryKeys.studios.list,
+    queryKey: [queryKeys.studios.list],
     queryFn: StudiosApi.getBaseDataList,
   });
 };
