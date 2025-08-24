@@ -21,13 +21,13 @@ export class CollectionEventsRepository {
     });
   }
 
-  getEvents(date: string) {
+  getEvents(dateCode: number) {
     return this.databaseClient.$queryRaw<CurrentEvent[]>`
       SELECT
         ce.id,
         ce.title,
-        ce.start_date as "startDate",
-        ce.end_date as "endDate",
+        ce.start_date_code as "startDateCode",
+        ce.end_date_code as "endDateCode",
         ce.year_from as "yearFrom",
         json_build_object(
           'id', c.id,
@@ -44,7 +44,18 @@ export class CollectionEventsRepository {
       FROM collection_events ce
       INNER JOIN collections c ON ce.collection_id = c.id
       INNER JOIN films f ON ce.title_film_id = f.id
-      WHERE ${date} BETWEEN ce.start_date AND ce.end_date
+      WHERE
+        ce.start_date_code = ${dateCode}
+        OR (
+          (
+            ce.start_date_code <= ce.end_date_code
+            AND ${dateCode} BETWEEN ce.start_date_code AND ce.end_date_code
+          )
+          OR (
+            ce.start_date_code > ce.end_date_code
+            AND ${dateCode} >= ce.start_date_code OR ${dateCode} <= ce.end_date_code
+          )
+        )
     `;
   }
 
@@ -53,8 +64,8 @@ export class CollectionEventsRepository {
       select: {
         id: true,
         title: true,
-        startDate: true,
-        endDate: true,
+        startDateCode: true,
+        endDateCode: true,
         yearFrom: true,
         film: {
           select: {
@@ -69,7 +80,7 @@ export class CollectionEventsRepository {
           },
         },
       },
-      orderBy: [{ startDate: 'asc' }],
+      orderBy: [{ startDateCode: 'asc' }],
     });
   }
 

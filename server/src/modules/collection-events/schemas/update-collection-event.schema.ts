@@ -4,8 +4,8 @@ export const UpdateCollectionEventBodySchema = Type.Object(
   {
     title: Type.Optional(Type.String()),
     collectionId: Type.Optional(Type.Number()),
-    startDate: Type.Optional(Type.String()),
-    endDate: Type.Optional(Type.String()),
+    startDateCode: Type.Optional(Type.Number()),
+    endDateCode: Type.Optional(Type.Number()),
     yearFrom: Type.Optional(Type.Number()),
     titleFilmId: Type.Number(),
   },

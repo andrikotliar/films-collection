@@ -4,8 +4,8 @@ export const CreateCollectionEventSchema = Type.Object(
   {
     title: Type.String(),
     collectionId: Type.Number(),
-    startDate: Type.String(),
-    endDate: Type.String(),
+    startDateCode: Type.Number(),
+    endDateCode: Type.Number(),
     yearFrom: Type.Optional(Type.Number()),
     titleFilmId: Type.Number(),
   },
