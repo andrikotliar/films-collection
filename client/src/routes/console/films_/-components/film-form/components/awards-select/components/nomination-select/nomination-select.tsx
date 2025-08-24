@@ -2,7 +2,7 @@ import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
 import { fetchNominationsByAwardQuery } from '@/common';
-import { FormValues } from '@/routes/console/manage_/-types';
+import { type FilmFormValues } from '@/routes/console/films_/-types';
 import { FieldError, FormAsyncSelect, FormSelect, Loader } from '@/components';
 import { PeopleApi } from '@/api';
 
@@ -11,15 +11,13 @@ type NominationSelectProps = {
 };
 
 export const NominationSelect = ({ index }: NominationSelectProps) => {
-  const awards = useWatch<FormValues, 'awards'>({
+  const awards = useWatch<FilmFormValues, 'awards'>({
     name: 'awards',
   });
 
   const currentAward = awards[index];
 
-  const { data, isLoading } = useQuery(
-    fetchNominationsByAwardQuery(currentAward.awardId),
-  );
+  const { data, isLoading } = useQuery(fetchNominationsByAwardQuery(currentAward.awardId));
 
   if (!currentAward.awardId) {
     return null;
@@ -41,11 +39,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
 
   return (
     <div className={styles.wrapper}>
-      <FormSelect
-        name={`awards.${index}.nominationId`}
-        options={data}
-        label="Nomination"
-      />
+      <FormSelect name={`awards.${index}.nominationId`} options={data} label="Nomination" />
       {shouldShowActorSelect && (
         <FormAsyncSelect
           name={`awards.${index}.personId`}

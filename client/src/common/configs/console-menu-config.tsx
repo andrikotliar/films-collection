@@ -1,4 +1,4 @@
-import { MenuConfigItem } from '../types';
+import { type MenuConfigItem } from '../types';
 import {
   CalendarIcon,
   CalendarSyncIcon,
@@ -11,19 +11,19 @@ export const consoleMenuConfig: MenuConfigItem[] = [
   {
     id: 'pending',
     route: '/console/pending',
-    title: 'Pending films',
+    title: 'Pending Films',
     icon: <CalendarSyncIcon />,
   },
   {
-    id: 'manage',
-    route: '/console/manage',
-    title: 'Manage films',
+    id: 'films',
+    route: '/console/films',
+    title: 'Films',
     icon: <ClapperboardIcon />,
   },
   {
     id: 'general',
     route: '/console/general',
-    title: 'General data',
+    title: 'General',
     icon: <Grid2X2PlusIcon />,
   },
   {

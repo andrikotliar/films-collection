@@ -58,7 +58,7 @@ function PageContainer() {
 
   const handleCreate = (data: PendingFilm) => {
     navigate({
-      to: '/console/manage/$id',
+      to: '/console/films/$id',
       params: { id: NEW_ITEM_ID },
       search: {
         pendingFilmId: data.id.toString(),

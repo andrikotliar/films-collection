@@ -11,7 +11,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
 import { number, object, string } from 'yup';
 import { AddItemLink, List } from '@/routes/console/-common';
-import { AdminFilmsTools } from '@/routes/console/manage/-components';
+import { AdminFilmsTools } from '@/routes/console/films/-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string().nullable(),
@@ -20,7 +20,7 @@ const adminFilmsFilterSchema = object().shape({
   sortingDirection: string().oneOf(['asc', 'desc']),
 });
 
-export const Route = createFileRoute('/console/manage')({
+export const Route = createFileRoute('/console/films')({
   validateSearch: (search): AdminFilmsQueryFilters => {
     return adminFilmsFilterSchema.validateSync(search);
   },
@@ -57,7 +57,7 @@ function PageContainer() {
 
   const handleEditFilm = (data: FilmsAdminListItem) => {
     navigate({
-      to: '/console/manage/$id',
+      to: '/console/films/$id',
       params: { id: data.id.toString() },
     });
   };
@@ -71,8 +71,8 @@ function PageContainer() {
 
   return (
     <ConsoleContent>
-      <ConsoleTitle>Manage films</ConsoleTitle>
-      <AddItemLink to="/console/manage/$id" params={{ id: NEW_ITEM_ID }}>
+      <ConsoleTitle>Films</ConsoleTitle>
+      <AddItemLink to="/console/films/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
       <AdminFilmsTools />

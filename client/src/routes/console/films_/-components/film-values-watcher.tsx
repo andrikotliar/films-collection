@@ -1,5 +1,5 @@
 import type { MixedId } from '@/common';
-import type { FilmFormValues } from '@/routes/console/manage_/-types';
+import type { FilmFormValues } from '@/routes/console/films_/-types';
 import { LocalStorage } from '@/services';
 import { useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';

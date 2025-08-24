@@ -1,5 +1,5 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import type { FormAward, FilmFormValues } from '@/routes/console/manage_/-types';
+import type { FormAward, FilmFormValues } from '@/routes/console/films_/-types';
 import { type ListOption } from '@/common';
 import { FormSection, FormSelect, FormTextInput } from '@/components';
 import { ArrayFormWrapper, ArrayFieldWrapper } from '@/routes/console/-common';

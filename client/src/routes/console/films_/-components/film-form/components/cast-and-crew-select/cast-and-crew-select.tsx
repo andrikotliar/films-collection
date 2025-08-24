@@ -1,4 +1,4 @@
-import { type FilmFormValues } from '@/routes/console/manage_/-types';
+import { type FilmFormValues } from '@/routes/console/films_/-types';
 import { type ListOption } from '@/common';
 import { FormAsyncSelect, FormSection, FormSelect, FormTextInput } from '@/components';
 import { useFieldArray, useFormContext } from 'react-hook-form';

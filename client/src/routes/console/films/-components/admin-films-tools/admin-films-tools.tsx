@@ -1,5 +1,5 @@
-import { SortingParams, SortingPopup, TextInput } from '@/components';
-import { ListOption } from '@/common';
+import { type SortingParams, SortingPopup, TextInput } from '@/components';
+import { type ListOption } from '@/common';
 import styles from './admin-films-tools.module.css';
 import { useDebouncedSearch } from '@/hooks';
 import { getRouteApi } from '@tanstack/react-router';
@@ -15,7 +15,7 @@ const sortingFields: ListOption[] = [
   },
 ];
 
-const routeApi = getRouteApi('/console/manage');
+const routeApi = getRouteApi('/console/films');
 
 export const AdminFilmsTools = () => {
   const navigate = routeApi.useNavigate();
@@ -42,11 +42,7 @@ export const AdminFilmsTools = () => {
 
   return (
     <div className={styles.adminFilmsTools}>
-      <TextInput
-        placeholder="Search film"
-        className={styles.searchInput}
-        onChange={handleSearch}
-      />
+      <TextInput placeholder="Search film" className={styles.searchInput} onChange={handleSearch} />
       <div>
         <SortingPopup
           fields={sortingFields}

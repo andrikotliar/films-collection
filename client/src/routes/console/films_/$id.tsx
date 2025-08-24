@@ -7,13 +7,13 @@ import { object, string } from 'yup';
 import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
 import { LocalStorage } from '@/services';
-import type { FilmFormValues } from '@/routes/console/manage_/-types';
+import type { FilmFormValues } from '@/routes/console/films_/-types';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),
 });
 
-export const Route = createFileRoute('/console/manage_/$id')({
+export const Route = createFileRoute('/console/films_/$id')({
   validateSearch: (search) => {
     return consoleFilmQueriesSchema.validateSync(search);
   },
@@ -69,7 +69,7 @@ function PageContainer() {
 
   return (
     <ConsoleContent>
-      <BackLink path="/console/manage">Back to list</BackLink>
+      <BackLink path="/console/films">Back to list</BackLink>
       <ConsoleTitle>{pageTitle}</ConsoleTitle>
       <Panel>
         <FilmForm values={defaultValues} />
