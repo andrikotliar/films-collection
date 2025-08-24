@@ -1,11 +1,11 @@
-import { SortingParams, SortingPopup, FieldLabel, TextInput, Checkbox } from '@/components';
+import { type SortingParams, SortingPopup, FieldLabel, TextInput, Checkbox } from '@/components';
 import styles from './filters.module.css';
 import { getRouteApi } from '@tanstack/react-router';
-import { ChangeEvent, useCallback } from 'react';
-import { priorityOptions, SortingOrder, debounce } from '@/common';
+import { type ChangeEvent, useCallback } from 'react';
+import { priorityOptions, type SortingOrder, debounce } from '@/common';
 import { setPriorities } from './helpers';
 
-const routeApi = getRouteApi('/console/pending');
+const routeApi = getRouteApi('/console/pending-films');
 
 const sortingFields = [
   { label: 'Created At', value: 'createdAt' },

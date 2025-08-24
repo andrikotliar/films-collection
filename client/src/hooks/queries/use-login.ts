@@ -12,7 +12,7 @@ export const useLogin = () => {
       if (result.userId) {
         LocalStorage.setItem('state:is_authenticated', true);
 
-        navigate({ to: '/console/pending' });
+        navigate({ to: '/console/pending-films' });
       }
     },
     onError: toaster.error,

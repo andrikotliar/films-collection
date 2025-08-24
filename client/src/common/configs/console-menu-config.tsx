@@ -9,8 +9,8 @@ import {
 
 export const consoleMenuConfig: MenuConfigItem[] = [
   {
-    id: 'pending',
-    route: '/console/pending',
+    id: 'pending-films',
+    route: '/console/pending-films',
     title: 'Pending Films',
     icon: <CalendarSyncIcon />,
   },

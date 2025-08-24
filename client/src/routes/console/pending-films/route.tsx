@@ -13,7 +13,7 @@ import { Filters, PendingFilmForm } from './-components';
 import { AddItemButton, FormModal, List } from '@/routes/console/-common';
 import { useState } from 'react';
 import type { PendingFilmMutationPayload } from '@/hooks';
-import { defaultPendingFilm } from '@/routes/console/pending/-configs/default-pending-film';
+import { defaultPendingFilm } from '@/routes/console/pending-films/-configs/default-pending-film';
 import { useDeletePendingFilm } from '@/hooks/queries/use-delete-pending-film';
 
 const pendingFilmsFilterSchema = object().shape({
@@ -24,7 +24,7 @@ const pendingFilmsFilterSchema = object().shape({
   order: string().oneOf(['asc', 'desc']),
 });
 
-export const Route = createFileRoute('/console/pending')({
+export const Route = createFileRoute('/console/pending-films')({
   validateSearch: (search): PendingFilmQueryFilters => {
     return pendingFilmsFilterSchema.validateSync(search);
   },

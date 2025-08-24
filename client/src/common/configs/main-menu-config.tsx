@@ -1,10 +1,5 @@
 import { MenuConfigItem } from '../types';
-import {
-  FolderCogIcon,
-  InfoIcon,
-  LibraryBigIcon,
-  PieChartIcon,
-} from 'lucide-react';
+import { FolderCogIcon, InfoIcon, LibraryBigIcon, PieChartIcon } from 'lucide-react';
 
 export const mainMenu: MenuConfigItem[] = [
   {
@@ -28,7 +23,7 @@ export const mainMenu: MenuConfigItem[] = [
   {
     id: 'console',
     title: 'Console',
-    route: '/console/pending',
+    route: '/console/pending-films',
     icon: <FolderCogIcon />,
   },
 ];

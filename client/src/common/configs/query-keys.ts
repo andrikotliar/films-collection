@@ -33,5 +33,6 @@ export const queryKeys = {
   },
   pendingFilms: {
     list: 'pending-films-list',
+    item: 'pending-film',
   },
 };

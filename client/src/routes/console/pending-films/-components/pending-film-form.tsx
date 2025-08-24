@@ -14,7 +14,7 @@ import {
   type StatusColor,
 } from '@/common';
 import { useMutatePendingFilm, type PendingFilmMutationPayload } from '@/hooks';
-import { pendingFilmSchema } from '@/routes/console/pending/-validation';
+import { pendingFilmSchema } from '@/routes/console/pending-films/-validation';
 import { getFormTitle } from '@/routes/console/-common/helpers';
 
 type PendingFilmFormProps = FormComponentProps<PendingFilmMutationPayload>;

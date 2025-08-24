@@ -15,7 +15,7 @@ export const Route = createFileRoute('/login')({
     const isAuth = getIsAuthState();
 
     if (isAuth) {
-      throw redirect({ to: '/console/pending' });
+      throw redirect({ to: '/console/pending-films' });
     }
   },
   component: LoginContainer,
