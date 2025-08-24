@@ -14,14 +14,14 @@ export const Dates = () => {
           <FieldLabel>Start Date</FieldLabel>
           <FormCheckbox name="isOneDayEvent" type="checkbox" label="One day event" />
         </div>
-        <FormMonthDateSelector name="startDate" initialYear={2000} />
+        <FormMonthDateSelector name="startDateCode" />
       </div>
       {!isOneDayEvent && (
         <div className="flex flex-col gap-3">
           <div className="flex justify-between items-center gap-3 h-6">
             <FieldLabel>End Date</FieldLabel>
           </div>
-          <FormMonthDateSelector name="endDate" initialYear={2000} />
+          <FormMonthDateSelector name="endDateCode" />
         </div>
       )}
     </div>

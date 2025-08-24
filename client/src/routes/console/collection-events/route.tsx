@@ -21,7 +21,7 @@ const CollectionEventsContainer = () => {
       ...data,
       collectionId: data.collection.id,
       titleFilmId: data.film.id,
-      isOneDayEvent: data.startDate === data.endDate,
+      isOneDayEvent: data.startDateCode === data.endDateCode,
     });
   };
 

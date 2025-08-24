@@ -4,8 +4,8 @@ import type { Collection } from './collection';
 export type CollectionEvent = {
   id: number;
   title: string;
-  startDate: string;
-  endDate: string;
+  startDateCode: number;
+  endDateCode: number;
   titleFilmId: number | null;
   yearFrom: number;
   collectionId: number;

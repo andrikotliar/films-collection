@@ -3,37 +3,34 @@ import { monthOptions } from '@/components/month-date-selector/configs';
 import { Select } from '@/components/select';
 import styles from './styles.module.css';
 import classNames from 'classnames';
-import type { FormError } from '@/common';
+import { getDateCode, getDateCodeParts, getDefaultDateCode, type FormError } from '@/common';
 import { FieldError } from '@/components/field-error/field-error';
 
 export type MonthDateSelectorProps = {
-  initialYear?: number;
-  value: string;
+  value?: number;
   label?: string;
   error?: FormError;
-  onChange: (date: string) => void;
+  onChange: (dateCode: number) => void;
 };
 
 const monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
 export const MonthDateSelector = ({
-  initialYear,
-  value,
+  value = getDefaultDateCode(),
   label,
   error,
   onChange,
 }: MonthDateSelectorProps) => {
-  const year = initialYear ? initialYear : new Date().getFullYear().toString();
-  const dateParts = value?.split('-');
-  const selectedMonth = Number(dateParts[1]);
-  const selectedDate = Number(dateParts[2]);
+  const dateParts = getDateCodeParts(value);
+  const selectedMonth = dateParts[0];
+  const selectedDate = dateParts[1];
 
   const handleSelectMonth = (value: number) => {
-    onChange(`${year}-${String(value).padStart(2, '0')}-01`);
+    onChange(getDateCode(value, selectedDate));
   };
 
   const handleSelectDate = (value: number) => {
-    onChange(`${year}-${String(selectedMonth).padStart(2, '0')}-${String(value).padStart(2, '0')}`);
+    onChange(getDateCode(selectedMonth, value));
   };
 
   return (

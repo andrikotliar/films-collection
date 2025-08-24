@@ -1,4 +1,4 @@
-import type { CollectionEvent } from '@/common';
+import { getDateCodeParts, type CollectionEvent } from '@/common';
 
 const months = [
   'Jan',
@@ -15,22 +15,18 @@ const months = [
   'Dec',
 ] as const;
 
-export const getDateMonthLabel = (data: CollectionEvent) => {
-  if (data.startDate === data.endDate) {
-    const dateObj = new Date(data.startDate);
-    const date = dateObj.getDate();
-    const monthIndex = dateObj.getMonth();
+const convertCodeToString = (dateCode: number) => {
+  const dateCodeParts = getDateCodeParts(dateCode);
+  return `${months[dateCodeParts[0] - 1]}, ${dateCodeParts[1]}`;
+};
 
-    return `${months[monthIndex]}, ${date}`;
+export const getDateMonthLabel = (data: CollectionEvent) => {
+  if (data.startDateCode === data.endDateCode) {
+    return convertCodeToString(data.startDateCode);
   }
 
-  const startDateObj = new Date(data.startDate);
-  const endDateObj = new Date(data.endDate);
+  const startDate = convertCodeToString(data.startDateCode);
+  const endDate = convertCodeToString(data.endDateCode);
 
-  const startDate = startDateObj.getDate();
-  const startDateMonthIndex = startDateObj.getMonth();
-  const endDate = endDateObj.getDate();
-  const endDateMonthIndex = endDateObj.getMonth();
-
-  return `${months[startDateMonthIndex]}, ${startDate} - ${months[endDateMonthIndex]}, ${endDate}`;
+  return `${startDate} - ${endDate}`;
 };
