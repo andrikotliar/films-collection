@@ -1,6 +1,8 @@
 export const queryKeys = {
   films: {
+    list: 'films-list',
     adminList: 'films-admin-list',
+    search: 'films-search',
   },
   collectionEvent: {
     adminList: 'collection-events-admin-list',

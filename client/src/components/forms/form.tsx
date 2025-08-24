@@ -19,6 +19,7 @@ type FormProps<
   title?: string;
   submitIcon?: ReactNode;
   shouldShowResetButton?: boolean;
+  onReset?: VoidFunction;
 };
 
 export const Form = <
@@ -34,6 +35,7 @@ export const Form = <
   title,
   submitIcon = <SaveIcon />,
   shouldShowResetButton = false,
+  onReset,
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
     defaultValues,
@@ -50,7 +52,13 @@ export const Form = <
             {submitButtonText}
           </Button>
           {shouldShowResetButton && (
-            <Button variant="secondary" onClick={() => form.reset(defaultValues)}>
+            <Button
+              variant="secondary"
+              onClick={() => {
+                form.reset(defaultValues);
+                onReset?.();
+              }}
+            >
               Reset
             </Button>
           )}

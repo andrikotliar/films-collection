@@ -1,6 +1,6 @@
 import styles from './icon-link.module.css';
-import { Link, LinkProps } from '@tanstack/react-router';
-import { ReactNode } from 'react';
+import { Link, type LinkProps } from '@tanstack/react-router';
+import { type ReactNode } from 'react';
 
 type IconLinkProps = Omit<LinkProps, 'className' | 'children'> & {
   icon: ReactNode;

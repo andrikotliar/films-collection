@@ -1,6 +1,6 @@
 import { Link, useLocation } from '@tanstack/react-router';
 import styles from './menu.module.css';
-import { MenuConfigItem } from '@/common';
+import { type MenuConfigItem } from '@/common';
 import classNames from 'classnames';
 
 type MenuProps = {
@@ -9,11 +9,7 @@ type MenuProps = {
   isStandalone?: boolean;
 };
 
-export const Menu = ({
-  config,
-  className,
-  isStandalone = false,
-}: MenuProps) => {
+export const Menu = ({ config, className, isStandalone = false }: MenuProps) => {
   const location = useLocation();
 
   const checkActiveState = (currentLink: string) => {

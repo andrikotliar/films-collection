@@ -127,4 +127,16 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
       };
     },
   }),
+
+  defineRoute({
+    method: 'DELETE',
+    url: '/admin/:id',
+    schema: { params: IdParamSchema },
+    handler: async ({ request }) => {
+      return {
+        status: 'OK',
+        data: { id: request.params.id },
+      };
+    },
+  }),
 ]);

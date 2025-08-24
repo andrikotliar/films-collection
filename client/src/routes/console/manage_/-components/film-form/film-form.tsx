@@ -34,7 +34,13 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
   return (
     <>
-      <Form onSubmit={handleSubmit} defaultValues={values} schema={filmFormSchema}>
+      <Form
+        onSubmit={handleSubmit}
+        defaultValues={values}
+        schema={filmFormSchema}
+        onReset={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        shouldShowResetButton
+      >
         <FormTextInput name="title" label="Title" />
         <FormCheckboxesGroup
           label="Type"

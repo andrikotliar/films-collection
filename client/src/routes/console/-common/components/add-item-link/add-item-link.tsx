@@ -9,9 +9,11 @@ type AddItemLinkProps = Omit<LinkProps, 'className' | 'children'> & {
 
 export const AddItemLink = ({ children, ...props }: AddItemLinkProps) => {
   return (
-    <Link className={styles.addItemLink} {...props}>
-      <PlusIcon size={18} />
-      <span>{children}</span>
-    </Link>
+    <div>
+      <Link className={styles.addItemLink} {...props}>
+        <PlusIcon size={18} />
+        <span>{children}</span>
+      </Link>
+    </div>
   );
 };

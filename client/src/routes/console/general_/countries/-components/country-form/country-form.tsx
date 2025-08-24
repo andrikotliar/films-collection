@@ -24,7 +24,7 @@ export const CountryForm = ({ values, afterSubmitEffect }: CountryFormProps) => 
       isLoading={isPending}
       title={title}
     >
-      <FormTextInput name="title" />
+      <FormTextInput name="title" label="Title" />
     </Form>
   );
 };

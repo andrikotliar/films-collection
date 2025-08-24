@@ -65,7 +65,7 @@ function PageContainer() {
       ...filmDefaultFormValues,
       isDraft: false,
     };
-  }, [id]);
+  }, [id, pendingFilm]);
 
   return (
     <ConsoleContent>

@@ -1,14 +1,9 @@
 import { apiClient } from '@/services';
-import type { Collection, ListOption, OmitId } from '@/common';
-
-export type BaseDataListResponse = {
-  list: Collection[];
-  categories: ListOption[];
-};
+import type { Collection, OmitId } from '@/common';
 
 export const CollectionsApi = {
   getBaseDataList() {
-    return apiClient.get<BaseDataListResponse>('/collections');
+    return apiClient.get<Collection[]>('/collections');
   },
 
   delete(id: number) {

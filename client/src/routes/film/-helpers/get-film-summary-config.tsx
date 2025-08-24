@@ -1,13 +1,6 @@
-import { FilmDetails } from '@/common';
-import { getFormattedMoneyValue, getPluralWord } from '@/common';
-import {
-  LinksGroupWrapper,
-  DataLink,
-  LinksGroup,
-  BoxOfficeValue,
-  Dates,
-} from '../-components';
-import { SummaryConfig } from '../-types';
+import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '@/common';
+import { LinksGroupWrapper, DataLink, LinksGroup, BoxOfficeValue, Dates } from '../-components';
+import { type SummaryConfig } from '../-types';
 
 export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
   const values: SummaryConfig[] = [
@@ -20,10 +13,7 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'releaseDate',
       title: film.type === 'SERIES' ? 'Ongoing dates' : 'Release Date',
       content: (
-        <Dates
-          releaseDate={film.releaseDate}
-          finishedAt={film.seriesExtension?.finishedAt}
-        />
+        <Dates releaseDate={film.releaseDate} finishedAt={film.seriesExtension?.finishedAt} />
       ),
     },
     {

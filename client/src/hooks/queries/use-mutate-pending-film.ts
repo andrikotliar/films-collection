@@ -4,7 +4,11 @@ import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
 import type { HttpError } from '@/services';
 import { useMutation } from '@tanstack/react-query';
 
-export type PendingFilmMutationPayload = FormValues<Omit<PendingFilm, 'id' | 'createdAt'>>;
+export type PendingFilmMutationPayload = FormValues<
+  Omit<PendingFilm, 'id' | 'createdAt' | 'priority'> & {
+    priority: string | null;
+  }
+>;
 
 export const useMutatePendingFilm = () => {
   const invalidateQueries = useQueryInvalidation();

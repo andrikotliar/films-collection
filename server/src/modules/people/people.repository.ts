@@ -1,9 +1,5 @@
 import { Prisma, PrismaClient } from '@prisma/client';
-import {
-  CreatePersonInput,
-  SearchPersonQuery,
-  UpdatePersonInput,
-} from './schemas';
+import { CreatePersonInput, SearchPersonQuery, UpdatePersonInput } from './schemas';
 import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
 
 export class PeopleRepository {

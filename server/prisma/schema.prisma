@@ -54,9 +54,9 @@ model Person {
 model FilmPerson {
   id        Int        @id @default(autoincrement())
   personId  Int        @map("person_id")
-  person    Person     @relation(fields: [personId], references: [id])
+  person    Person     @relation(fields: [personId], references: [id], onDelete: Cascade)
   filmId    Int        @map("film_id")
-  film      Film       @relation(fields: [filmId], references: [id])
+  film      Film       @relation(fields: [filmId], references: [id], onDelete: Cascade)
   role      PersonRole
   details   String?
   comment   String?

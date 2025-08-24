@@ -2,7 +2,6 @@ import {
   FormTextInput,
   FormStatusFilterButton,
   FieldLabel,
-  FormTitle,
   FormSelect,
   FormRatingInput,
   Form,
@@ -40,7 +39,6 @@ export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormPr
       title={title}
       isLoading={isPending}
     >
-      <FormTitle>{title}</FormTitle>
       <FormTextInput name="title" label="Title" />
       <div>
         <FieldLabel>Priority</FieldLabel>

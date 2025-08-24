@@ -21,6 +21,7 @@
   border-radius: 6px;
   background-color: white;
   transition: background-color 300ms;
+  cursor: pointer;
 }
 
 .pageButton:hover {

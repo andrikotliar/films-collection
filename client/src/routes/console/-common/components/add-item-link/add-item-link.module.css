@@ -1,19 +1,15 @@
 .addItemLink {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  color: white;
-  background-color: var(--blue-default);
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
+  border: var(--app-border);
+  background-color: white;
+  padding: 10px 20px;
   border-radius: var(--app-border-radius);
   transition: background-color 300ms;
 }
 
 .addItemLink:hover {
-  background-color: var(--green);
+  border-color: var(--black);
 }

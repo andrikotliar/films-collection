@@ -1,5 +1,5 @@
 import { Film, Prisma, PrismaClient } from '@prisma/client';
-import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
+import { DEFAULT_PAGINATION_LIMIT, DEFAULT_SEARCH_LIMIT } from 'src/common';
 import type { FilmOptionsQueries } from 'src/modules/films/schemas';
 
 export class FilmsRepository {
@@ -216,6 +216,7 @@ export class FilmsRepository {
           mode: 'insensitive',
         },
       },
+      take: DEFAULT_SEARCH_LIMIT,
     });
   }
 

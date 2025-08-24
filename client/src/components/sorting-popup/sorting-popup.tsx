@@ -1,6 +1,6 @@
-import { FormEvent, useRef, useState } from 'react';
+import { type FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
-import { ListOption, SortingOrder, sortingDirectionOptions } from '@/common';
+import { type ListOption, type SortingOrder, sortingDirectionOptions } from '@/common';
 import { SortingButton } from './components';
 import { BadgeCheckbox } from '../badge-checkbox/badge-checkbox';
 import { getDefaultLabel } from './helpers';

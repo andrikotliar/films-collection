@@ -60,8 +60,6 @@ export class FilmsService {
       return null;
     }
 
-    console.log(data);
-
     return {
       data: true,
     };

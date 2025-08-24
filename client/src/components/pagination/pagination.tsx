@@ -21,8 +21,6 @@ export const Pagination = ({
   const pagesCount = Math.ceil(total / perPageCounter);
   const currentRangeEnd = total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
 
-  console.log(total / perPageCounter);
-
   const pages = useMemo(() => {
     return buildPagination(currentPageIndex + 1, Math.round(total / perPageCounter));
   }, [total, currentPageIndex, perPageCounter]);

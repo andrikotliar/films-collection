@@ -1,6 +1,8 @@
 import {
   fetchPendingFilmsListQuery,
+  NEW_ITEM_ID,
   PENDING_FILMS_PER_PAGE,
+  type PendingFilm,
   type PendingFilmQueryFilters,
 } from '@/common';
 import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
@@ -54,16 +56,34 @@ function PageContainer() {
     });
   };
 
+  const handleCreate = (data: PendingFilm) => {
+    navigate({
+      to: '/console/manage/$id',
+      params: { id: NEW_ITEM_ID },
+      search: {
+        pendingFilmId: data.id.toString(),
+      },
+    });
+  };
+
   return (
     <ConsoleContent>
       <ConsoleTitle>Pending Films</ConsoleTitle>
-      <AddItemButton onClick={() => setPendingFilm(defaultPendingFilm)}>Create</AddItemButton>
+      <AddItemButton onClick={() => setPendingFilm(defaultPendingFilm)}>
+        Create pending film
+      </AddItemButton>
       <Filters />
       <List
         items={data.list}
         onDelete={mutateAsync}
         isDeletingInProgress={isPending}
-        onEdit={setPendingFilm}
+        onCreate={handleCreate}
+        onEdit={(data) =>
+          setPendingFilm({
+            ...data,
+            priority: data.priority.toString(),
+          })
+        }
       />
       <Pagination
         currentPageIndex={searchParams.pageIndex}

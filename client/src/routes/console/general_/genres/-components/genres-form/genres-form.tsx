@@ -24,7 +24,7 @@ export const GenresForm = ({ values, afterSubmitEffect }: GenresFormProps) => {
       schema={genresFormValidation}
       isLoading={isPending}
     >
-      <FormTextInput name="title" />
+      <FormTextInput name="title" label="Title" />
     </Form>
   );
 };

@@ -8,11 +8,10 @@ import {
 import { useDeleteFilm, useDocumentTitle } from '@/hooks';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { ConsoleContent, ConsoleTitle, Panel, Pagination, ConfirmModal } from '@/components';
+import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
 import { number, object, string } from 'yup';
-import { AddItemLink } from '@/routes/console/-common';
-import { useState } from 'react';
-import { AdminFilm } from '@/routes/console/manage/-components';
+import { AddItemLink, List } from '@/routes/console/-common';
+import { AdminFilmsTools } from '@/routes/console/manage/-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string().nullable(),
@@ -39,9 +38,7 @@ function PageContainer() {
   const navigate = Route.useNavigate();
   const { data } = useSuspenseQuery(fetchAdminListQuery(searchParams));
 
-  const [filmToDelete, setFilmToDelete] = useState<FilmsAdminListItem | null>(null);
-
-  const { mutate: handleDeleteFilm, isPending } = useDeleteFilm();
+  const { mutateAsync: handleDeleteFilm, isPending } = useDeleteFilm();
 
   useDocumentTitle('Admin list');
 
@@ -58,30 +55,40 @@ function PageContainer() {
     });
   };
 
+  const handleEditFilm = (data: FilmsAdminListItem) => {
+    navigate({
+      to: '/console/manage/$id',
+      params: { id: data.id.toString() },
+    });
+  };
+
+  const handleViewFilm = (data: FilmsAdminListItem) => {
+    navigate({
+      to: '/film/$id',
+      params: { id: data.id.toString() },
+    });
+  };
+
   return (
     <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
       <AddItemLink to="/console/manage/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
-      <Panel hasPaddings={false}>
-        {data.films.map((film) => (
-          <AdminFilm film={film} key={film.id} />
-        ))}
-      </Panel>
+      <AdminFilmsTools />
+      <List
+        items={data.films}
+        onDelete={handleDeleteFilm}
+        onEdit={handleEditFilm}
+        isDeletingInProgress={isPending}
+        onView={handleViewFilm}
+      />
       <Pagination
         total={data.total}
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
         totalLabel="films"
-      />
-      <ConfirmModal
-        title={`Confirm delete ${filmToDelete?.title}`}
-        data={filmToDelete}
-        onClose={() => setFilmToDelete(null)}
-        onConfirm={(film) => handleDeleteFilm(film.id)}
-        isPending={isPending}
       />
     </ConsoleContent>
   );

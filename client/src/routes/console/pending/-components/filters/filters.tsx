@@ -1,10 +1,4 @@
-import {
-  SortingParams,
-  SortingPopup,
-  FieldLabel,
-  TextInput,
-  Checkbox,
-} from '@/components';
+import { SortingParams, SortingPopup, FieldLabel, TextInput, Checkbox } from '@/components';
 import styles from './filters.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
@@ -76,7 +70,7 @@ export const Filters = () => {
   };
 
   return (
-    <div className={styles.filters}>
+    <div>
       <div className={styles.filtersRow}>
         <TextInput
           type="text"

@@ -4,5 +4,9 @@ import { PlusIcon } from 'lucide-react';
 type AddItemButtonProps = Omit<ButtonProps, 'variant' | 'icon'>;
 
 export const AddItemButton = (props: AddItemButtonProps) => {
-  return <Button variant="light" icon={<PlusIcon />} {...props} />;
+  return (
+    <div>
+      <Button variant="light" icon={<PlusIcon />} {...props} />
+    </div>
+  );
 };

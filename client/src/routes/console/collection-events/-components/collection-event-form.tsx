@@ -1,5 +1,4 @@
-import { Button, FormTextInput, FormTitle, FormSelect, FormAsyncSelect, Form } from '@/components';
-import { SaveIcon } from 'lucide-react';
+import { FormTextInput, FormSelect, FormAsyncSelect, Form } from '@/components';
 import { useQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery, type FormComponentProps } from '@/common';
 import { FilmsApi } from '@/api';
@@ -23,8 +22,13 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
   };
 
   return (
-    <Form onSubmit={submit} defaultValues={values} title={title} schema={collectionEventSchema}>
-      <FormTitle>{title}</FormTitle>
+    <Form
+      onSubmit={submit}
+      defaultValues={values}
+      title={title}
+      schema={collectionEventSchema}
+      isLoading={isPending}
+    >
       <FormTextInput name="title" label="Title" />
       <FormSelect
         label="Collection"
@@ -34,9 +38,6 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
       <Dates />
       <FormAsyncSelect name="titleFilmId" optionsLoader={FilmsApi.getOptions} label="Title film" />
       <FormTextInput name="yearFrom" label="First event occurrence year" placeholder="E.g. 2020" />
-      <Button type="submit" isLoading={isPending} icon={<SaveIcon />}>
-        Save
-      </Button>
     </Form>
   );
 };

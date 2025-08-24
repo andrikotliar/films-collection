@@ -1,12 +1,13 @@
 import { BackLink, ConsoleContent, ConsoleTitle, Pagination } from '@/components';
-import { PEOPLE_ADMIN_PER_PAGE, fetchAdminPeopleListQuery, type Person } from '@/common';
-import { List, FormModal, PersonForm } from '@/routes/console/-common';
+import { PEOPLE_ADMIN_PER_PAGE, fetchAdminPeopleListQuery } from '@/common';
+import { List, FormModal, PersonForm, AddItemButton } from '@/routes/console/-common';
 import { Filters } from '@/routes/console/general_/people/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
 import { number, object, string } from 'yup';
-import { useDeletePerson } from '@/hooks';
+import { useDeletePerson, type PersonMutationPayload } from '@/hooks';
+import { personDefaultValues } from '@/routes/console/-common/components/person-form/configs';
 
 const peopleListFiltersSchema = object({
   page: number(),
@@ -33,7 +34,7 @@ function RouteComponent() {
 
   const { data } = useSuspenseQuery(fetchAdminPeopleListQuery(search));
 
-  const [person, setPerson] = useState<Person | null>(null);
+  const [person, setPerson] = useState<PersonMutationPayload | null>(null);
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
@@ -49,7 +50,10 @@ function RouteComponent() {
   return (
     <ConsoleContent>
       <BackLink path="/console/general">Back to categories</BackLink>
-      <ConsoleTitle>People</ConsoleTitle>
+      <ConsoleTitle>Crew and Cast</ConsoleTitle>
+      <AddItemButton onClick={() => setPerson(personDefaultValues)}>
+        Add crew or cast member
+      </AddItemButton>
       <Filters />
       <List
         items={data.list}

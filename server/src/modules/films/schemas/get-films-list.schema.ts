@@ -22,7 +22,6 @@ export const GetFilmsListQuerySchema = Type.Object(
     genreIds: Type.Optional(Type.Array(Type.Number())),
     studioIds: Type.Optional(Type.Array(Type.Number())),
     countryIds: Type.Optional(Type.Array(Type.Number())),
-    title: Type.Optional(Type.String()),
   },
   { additionalProperties: false },
 );

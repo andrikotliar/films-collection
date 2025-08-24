@@ -10,7 +10,7 @@ export const useDeleteGenre = () => {
   return useMutation<unknown, HttpError, number>({
     mutationFn: GenresApi.delete,
     onSuccess: async () => {
-      await invalidateQueries([queryKeys.collections.list, queryKeys.initialData.config]);
+      await invalidateQueries([queryKeys.genres.list, queryKeys.initialData.config]);
     },
     onError: toaster.error,
   });

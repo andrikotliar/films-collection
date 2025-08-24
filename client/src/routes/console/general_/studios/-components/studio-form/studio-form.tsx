@@ -24,7 +24,7 @@ export const StudioForm = ({ values, afterSubmitEffect }: StudioFormProps) => {
       defaultValues={values}
       schema={studioFormValidation}
     >
-      <FormTextInput name="title" />
+      <FormTextInput name="title" label="Title" />
     </Form>
   );
 };

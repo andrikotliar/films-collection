@@ -16,6 +16,7 @@
   border: var(--app-border);
   outline-color: var(--blue-default);
   transition: border-color 300ms;
+  background-color: white;
 }
 
 .textInput:hover {
