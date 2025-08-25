@@ -40,7 +40,7 @@ function PageContainer() {
 
   const pageTitle = isNewItem(id) ? 'Create Film' : 'Edit Film';
 
-  const defaultValues = useMemo(() => {
+  const defaultValues = useMemo<FilmFormValues>(() => {
     if (pendingFilm) {
       return {
         ...filmDefaultFormValues,

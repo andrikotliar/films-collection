@@ -1,14 +1,8 @@
 import styles from './message.module.css';
-import { Toast, ToastType } from '@/components/toaster-provider/types';
+import { type Toast, type ToastType } from '@/common';
 import classNames from 'classnames';
-import {
-  CircleAlertIcon,
-  CircleCheckIcon,
-  InfoIcon,
-  TriangleAlertIcon,
-  XIcon,
-} from 'lucide-react';
-import { ReactNode } from 'react';
+import { CircleAlertIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, XIcon } from 'lucide-react';
+import { type ReactNode } from 'react';
 
 type MessageProps = {
   data: Toast;

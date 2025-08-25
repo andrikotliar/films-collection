@@ -1,10 +1,17 @@
 import { CollectionsApi } from '@/api';
-import { mutateEntity, queryKeys, toaster, type Collection, type FormValues } from '@/common';
+import {
+  mutateEntity,
+  queryKeys,
+  toaster,
+  type Collection,
+  type FormValues,
+  type OmitId,
+} from '@/common';
 import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
 import type { HttpError } from '@/services';
 import { useMutation } from '@tanstack/react-query';
 
-export type CollectionMutationPayload = FormValues<Collection>;
+export type CollectionMutationPayload = FormValues<OmitId<Collection>>;
 
 export const useMutateCollection = () => {
   const invalidateQueries = useQueryInvalidation();

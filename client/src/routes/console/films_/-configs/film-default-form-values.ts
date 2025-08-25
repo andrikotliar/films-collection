@@ -1,7 +1,7 @@
 import { NEW_ITEM_ID } from '@/common';
-import { type FormValues } from '../-types';
+import { type FilmFormValues } from '../-types';
 
-export const filmDefaultFormValues: FormValues = {
+export const filmDefaultFormValues: FilmFormValues = {
   id: NEW_ITEM_ID,
   title: null,
   type: 'FILM',

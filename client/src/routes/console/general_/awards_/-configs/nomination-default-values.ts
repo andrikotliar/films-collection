@@ -1,4 +1,4 @@
-import { NominationFormValue } from '@/routes/console/general_/awards_/-types';
+import type { NominationFormValue } from '@/hooks';
 
 export const nominationDefaultValues: NominationFormValue = {
   id: -1,
