@@ -1,4 +1,6 @@
 import { Film, Prisma, PrismaClient } from '@prisma/client';
+import { DEFAULT_PAGINATION_LIMIT, DEFAULT_SEARCH_LIMIT } from 'src/common';
+import type { FilmOptionsQueries } from 'src/modules/films/schemas';
 
 export class FilmsRepository {
   constructor(private readonly databaseClient: PrismaClient) {}
@@ -7,11 +9,7 @@ export class FilmsRepository {
     return this.databaseClient.film.count({ where: filters });
   }
 
-  async findAndCount(
-    filters: Prisma.FilmWhereInput,
-    limit: number,
-    skip: number,
-  ) {
+  async findAndCount(filters: Prisma.FilmWhereInput, limit: number, skip: number) {
     const list = await this.databaseClient.film.findMany({
       select: {
         id: true,
@@ -218,6 +216,7 @@ export class FilmsRepository {
           mode: 'insensitive',
         },
       },
+      take: DEFAULT_SEARCH_LIMIT,
     });
   }
 
@@ -287,5 +286,52 @@ export class FilmsRepository {
       },
       data: input,
     });
+  }
+
+  async getFilmsListByQuery({ q, selected }: FilmOptionsQueries) {
+    const whereOptions: Prisma.FilmWhereInput = {};
+
+    if (q) {
+      whereOptions.title = {
+        contains: q,
+        mode: 'insensitive',
+      };
+    }
+
+    if (selected) {
+      whereOptions.id = {
+        notIn: selected,
+      };
+    }
+
+    const queryResult = await this.databaseClient.film.findMany({
+      select: {
+        id: true,
+        title: true,
+      },
+      take: DEFAULT_PAGINATION_LIMIT,
+      where: whereOptions,
+      orderBy: {
+        title: 'asc',
+      },
+    });
+
+    if (selected) {
+      const selectedFilms = await this.databaseClient.film.findMany({
+        select: {
+          id: true,
+          title: true,
+        },
+        where: {
+          id: {
+            in: selected,
+          },
+        },
+      });
+
+      return [...queryResult, ...selectedFilms];
+    }
+
+    return queryResult;
   }
 }

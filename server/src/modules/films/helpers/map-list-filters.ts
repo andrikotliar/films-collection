@@ -36,7 +36,6 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     style,
     budget,
     boxOffice,
-    title,
   } = plainFilters;
 
   const filters: Prisma.FilmWhereInput = {
@@ -134,13 +133,6 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
 
   if (boxOffice) {
     filters.boxOffice = getMoneyRangeFilter(boxOffice);
-  }
-
-  if (title) {
-    filters.title = {
-      contains: title,
-      mode: 'insensitive',
-    };
   }
 
   return filters;

@@ -1,1 +1,1 @@
-export * from './edit-collection-form/edit-collection-form';
+export * from './collection-form';

@@ -31,7 +31,7 @@ export const createPendingFilmsRouter = createRouter((app, defineRoute) => [
       params: GetPendingFilmParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = app.pendingFilmsService.getPendingFilmById(request.params.id);
+      const data = await app.pendingFilmsService.getPendingFilmById(request.params.id);
 
       if (!data) {
         throw new NotFoundException({

@@ -1,10 +1,6 @@
 import * as yup from 'yup';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  fetchFilmsListQuery,
-  fetchInitialDataQuery,
-  type FilmsListFilters,
-} from '@/common';
+import { fetchFilmsListQuery, fetchInitialDataQuery, type FilmsListFilters } from '@/common';
 import { useDocumentTitle } from '@/hooks';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmsSection, RootPageLayout, Sidebar } from './-components';
@@ -24,13 +20,10 @@ const filmsListFilterSchema = yup.object().shape({
   personRole: yup.string(),
   personId: yup.string(),
   rating: yup.string(),
-  title: yup.string(),
 });
 
 export const Route = createFileRoute('/_home/')({
-  validateSearch: (
-    search: Record<string, unknown>,
-  ): Partial<FilmsListFilters> => {
+  validateSearch: (search: Record<string, unknown>): Partial<FilmsListFilters> => {
     return filmsListFilterSchema.validateSync(search);
   },
   loaderDeps: ({ search }) => ({
@@ -48,9 +41,7 @@ function RootPageContainer() {
 
   const routeSearch = Route.useSearch();
 
-  const { data, isFetching } = useSuspenseQuery(
-    fetchFilmsListQuery(routeSearch),
-  );
+  const { data, isFetching } = useSuspenseQuery(fetchFilmsListQuery(routeSearch));
 
   return (
     <RootPageLayout>

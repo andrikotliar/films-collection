@@ -1,24 +1,16 @@
-import { useDocumentTitle } from '@/hooks';
+import { useDeletePageContent, useDocumentTitle } from '@/hooks';
 import {
   fetchAdminPageContentListQuery,
   NEW_ITEM_ID,
   PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
 } from '@/common';
-import {
-  ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
-  Panel,
-  Pagination,
-} from '@/components';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { ConsoleContent, ConsoleTitle, Panel, Pagination } from '@/components';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
-import { PageContentRow } from './-components';
-import { AddItemLink } from '@/routes/console/-components';
-import { useState } from 'react';
-import { PageContentApi } from '@/api';
+import { AddItemLink, List } from '@/routes/console/-common';
+import sanitize from 'sanitize-html';
 
 const pageContentListFiltersSchema = object().shape({
   pageIndex: number(),
@@ -32,9 +24,7 @@ export const Route = createFileRoute('/console/page-content')({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(
-      fetchAdminPageContentListQuery(deps.search),
-    );
+    return context.queryClient.ensureQueryData(fetchAdminPageContentListQuery(deps.search));
   },
   component: PageContainer,
 });
@@ -42,19 +32,9 @@ export const Route = createFileRoute('/console/page-content')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, refetch } = useSuspenseQuery(
-    fetchAdminPageContentListQuery(searchParams),
-  );
-  const [pageContentToDelete, setPageContentToDelete] =
-    useState<PageContentListItem | null>(null);
+  const { data } = useSuspenseQuery(fetchAdminPageContentListQuery(searchParams));
 
-  const { mutate: deletePageContent, isPending } = useMutation({
-    mutationFn: (id: number) => PageContentApi.deletePageContent(id),
-    onSuccess: () => {
-      refetch();
-      setPageContentToDelete(null);
-    },
-  });
+  const { mutateAsync: deletePageContent, isPending } = useDeletePageContent();
 
   useDocumentTitle('Page Content');
 
@@ -67,6 +47,15 @@ function PageContainer() {
     });
   };
 
+  const handleEditItem = (data: PageContentListItem) => {
+    navigate({
+      to: '/console/page-content/$id',
+      params: {
+        id: data.id.toString(),
+      },
+    });
+  };
+
   return (
     <ConsoleContent>
       <ConsoleTitle>Pages Content</ConsoleTitle>
@@ -74,13 +63,18 @@ function PageContainer() {
         Add new page content
       </AddItemLink>
       <Panel hasPaddings={false}>
-        {data.list.map((pageContent) => (
-          <PageContentRow
-            data={pageContent}
-            key={pageContent.id}
-            onDelete={setPageContentToDelete}
-          />
-        ))}
+        <List
+          items={data.list}
+          onDelete={deletePageContent}
+          onEdit={handleEditItem}
+          description={(data) => {
+            return sanitize(data.shortContent, {
+              allowedTags: [],
+              allowedAttributes: {},
+            });
+          }}
+          isDeletingInProgress={isPending}
+        />
       </Panel>
       <Pagination
         total={data.count}
@@ -88,13 +82,6 @@ function PageContainer() {
         perPageCounter={PAGE_CONTENT_ADMIN_PER_PAGE}
         currentPageIndex={searchParams.pageIndex}
         totalLabel="pages content"
-      />
-      <ConfirmModal
-        title={`Delete ${pageContentToDelete?.title} ?`}
-        data={pageContentToDelete}
-        onClose={() => setPageContentToDelete(null)}
-        onConfirm={(data) => deletePageContent(data.id)}
-        isPending={isPending}
       />
     </ConsoleContent>
   );

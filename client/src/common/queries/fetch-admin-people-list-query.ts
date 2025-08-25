@@ -1,6 +1,7 @@
-import { GetPeopleListQueries, PeopleApi } from '@/api';
+import { type GetPeopleListQueries, PeopleApi } from '@/api';
 import { PEOPLE_ADMIN_PER_PAGE } from '../constants';
 import { queryOptions } from '@tanstack/react-query';
+import { queryKeys } from '@/common/configs';
 
 export type FetchAdminPeopleListParams = {
   page?: number;
@@ -8,13 +9,11 @@ export type FetchAdminPeopleListParams = {
   role?: string | null;
 };
 
-export const fetchAdminPeopleListQuery = (
-  params: FetchAdminPeopleListParams,
-) => {
+export const fetchAdminPeopleListQuery = (params: FetchAdminPeopleListParams) => {
   return queryOptions({
-    queryKey: ['people', 'list', params] as const,
+    queryKey: [queryKeys.people.adminList, params] as const,
     queryFn: ({ queryKey }) => {
-      const { page = 0, q, role } = queryKey[2];
+      const { page = 0, q, role } = queryKey[1];
 
       const filters: GetPeopleListQueries = {
         skip: page * PEOPLE_ADMIN_PER_PAGE,

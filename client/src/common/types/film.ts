@@ -1,5 +1,5 @@
-import { Award, Nomination } from './award';
-import { Collection } from './collection';
+import { type Award, type Nomination } from './award';
+import { type Collection } from './collection';
 
 export type TitleType = 'FILM' | 'SERIES';
 export type TitleStyle = 'ANIMATION' | 'LIVE_ACTION';
@@ -85,25 +85,16 @@ export type Film = {
   draft?: boolean;
 };
 
-export type FilmDetails = Omit<
-  Film,
-  'genres' | 'countries' | 'collections' | 'studios'
-> & {
+export type FilmDetails = Omit<Film, 'genres' | 'countries' | 'collections' | 'studios'> & {
   genres: FilmBaseDataItem[];
   countries: FilmBaseDataItem[];
   collections: FilmBaseDataItem[];
   studios: FilmBaseDataItem[];
 };
 
-export type FilmsListItem = Pick<
-  Film,
-  'id' | 'title' | 'poster' | 'releaseDate'
->;
+export type FilmsListItem = Pick<Film, 'id' | 'title' | 'poster' | 'releaseDate'>;
 
-export type FilmSearchResult = Pick<
-  Film,
-  'id' | 'title' | 'genres' | 'poster' | 'releaseDate'
->;
+export type FilmSearchResult = Pick<Film, 'id' | 'title' | 'genres' | 'poster' | 'releaseDate'>;
 
 export type AdditionalCrewInfo = {
   type: 'crew';
@@ -123,10 +114,7 @@ export type AdditionalAwardsInfo = {
   data: Award;
 };
 
-export type AdditionalInfo =
-  | AdditionalCrewInfo
-  | AdditionalCollectionInfo
-  | AdditionalAwardsInfo;
+export type AdditionalInfo = AdditionalCrewInfo | AdditionalCollectionInfo | AdditionalAwardsInfo;
 
 export type FilmsListResponse = {
   films: FilmsListItem[];
@@ -153,7 +141,6 @@ export type FilmsListFilters = FilmsListPagination &
     personRole: string | null;
     personId: string | null;
     rating: string | null;
-    title: string | null;
   }>;
 
 export type FilmsAdminListItem = Pick<Film, 'id' | 'title' | 'draft'>;

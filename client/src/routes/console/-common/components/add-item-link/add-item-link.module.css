@@ -1,0 +1,15 @@
+.addItemLink {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: var(--app-border);
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: var(--app-border-radius);
+  transition: background-color 300ms;
+}
+
+.addItemLink:hover {
+  border-color: var(--black);
+}

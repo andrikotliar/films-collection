@@ -1,17 +1,13 @@
 import { Static, Type } from '@sinclair/typebox';
-import { BackgroundSchema } from './background.schema';
 
 export const CreateCollectionEventSchema = Type.Object(
   {
     title: Type.String(),
     collectionId: Type.Number(),
-    startDate: Type.Number(),
-    startMonth: Type.Number(),
-    endDate: Type.Number(),
-    endMonth: Type.Number(),
+    startDateCode: Type.Number(),
+    endDateCode: Type.Number(),
     yearFrom: Type.Optional(Type.Number()),
-    description: Type.String(),
-    background: BackgroundSchema,
+    titleFilmId: Type.Number(),
   },
   { additionalProperties: false },
 );

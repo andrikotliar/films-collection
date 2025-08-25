@@ -19,11 +19,10 @@ export const Pagination = ({
   totalLabel = 'items',
 }: PaginationProps) => {
   const pagesCount = Math.ceil(total / perPageCounter);
-  const currentRangeEnd =
-    total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
+  const currentRangeEnd = total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
 
   const pages = useMemo(() => {
-    return buildPagination(currentPageIndex, total, perPageCounter);
+    return buildPagination(currentPageIndex + 1, Math.round(total / perPageCounter));
   }, [total, currentPageIndex, perPageCounter]);
 
   return (
@@ -42,12 +41,12 @@ export const Pagination = ({
             return (
               <button
                 className={classNames(styles.pageButton, {
-                  [styles.active]: currentPageIndex === page,
+                  [styles.active]: currentPageIndex + 1 === page,
                 })}
                 key={index}
-                onClick={() => onPageChange(page)}
+                onClick={() => onPageChange(page - 1)}
               >
-                {page + 1}
+                {page}
               </button>
             );
           })}

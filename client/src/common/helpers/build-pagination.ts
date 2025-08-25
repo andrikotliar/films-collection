@@ -1,42 +1,54 @@
-export const buildPagination = (
-  currentPage: number,
-  total: number,
-  perPage: number,
-) => {
-  const pages = [0];
-  const totalPages = Math.ceil(total / perPage);
+export const buildPagination = (currentPage: number, pagesCount: number, distance: number = 4) => {
+  const pages: (string | number)[] = [];
 
-  if (totalPages <= 10) {
-    for (let i = 1; i < totalPages; i++) {
+  if (!pagesCount || !currentPage || !distance) {
+    return pages;
+  }
+
+  if (pagesCount < distance * 2) {
+    for (let i = 1; i <= pagesCount; i++) {
       pages.push(i);
     }
 
     return pages;
   }
 
-  const lastPage = totalPages - 1;
-
-  for (let i = currentPage - 1; i <= currentPage + 1; i++) {
-    if (i > 0 && i < lastPage) {
+  if (currentPage - distance < 1) {
+    for (let i = 1; i <= distance + 1; i++) {
       pages.push(i);
     }
+
+    pages.push('...', pagesCount);
+
+    return pages;
   }
 
-  pages.push(lastPage);
+  if (currentPage + distance - 1 >= pagesCount) {
+    pages.push(1, '...');
 
-  const result: (string | number)[] = [];
-
-  for (let i = 0; i < pages.length; i++) {
-    const page = pages[i];
-
-    result.push(page);
-
-    const next = pages[i + 1];
-
-    if (next !== undefined && next - page > 1) {
-      result.push('...');
+    for (let i = pagesCount - distance; i <= pagesCount; i++) {
+      pages.push(i);
     }
+
+    return pages;
   }
 
-  return result;
+  const before = currentPage - 1;
+  const after = currentPage + 1;
+
+  pages.push(1);
+
+  if (before > 2) {
+    pages.push('...');
+  }
+
+  pages.push(before, currentPage, after);
+
+  if (after < pagesCount - 1) {
+    pages.push('...');
+  }
+
+  pages.push(pagesCount);
+
+  return pages;
 };

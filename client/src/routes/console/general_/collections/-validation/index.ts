@@ -1,1 +1,1 @@
-export * from './create-collection-schema';
+export * from './collection-schema';

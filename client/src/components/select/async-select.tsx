@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { ListOption } from '@/common';
+import { type ListOption } from '@/common';
 import { useQuery } from '@tanstack/react-query';
-import { Select, SelectProps } from './select';
+import { Select, type SelectProps } from './select';
 import { getValue } from './helpers';
 
 export type AsyncSelectProps = {
@@ -13,11 +13,7 @@ export type AsyncSelectProps = {
 
 const RETRY_ATTEMPTS_COUNT = 1;
 
-export const AsyncSelect = ({
-  optionsLoader,
-  value,
-  ...props
-}: AsyncSelectProps) => {
+export const AsyncSelect = ({ optionsLoader, value, ...props }: AsyncSelectProps) => {
   const [searchString, setSearchString] = useState<string | null>(null);
 
   const { data: options, isFetching } = useQuery({

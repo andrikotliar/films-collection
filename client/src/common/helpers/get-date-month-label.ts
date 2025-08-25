@@ -1,24 +1,32 @@
-import type { CollectionEvent } from '@/common';
+import { getDateCodeParts, type CollectionEvent } from '@/common';
 
 const months = [
-  'January',
-  'February',
-  'March',
-  'April',
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
   'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
 ] as const;
 
+const convertCodeToString = (dateCode: number) => {
+  const dateCodeParts = getDateCodeParts(dateCode);
+  return `${months[dateCodeParts[0] - 1]}, ${dateCodeParts[1]}`;
+};
+
 export const getDateMonthLabel = (data: CollectionEvent) => {
-  if (data.startDate === data.endDate && data.startMonth === data.endMonth) {
-    return `${months[data.startMonth - 1]}, ${data.startDate}`;
+  if (data.startDateCode === data.endDateCode) {
+    return convertCodeToString(data.startDateCode);
   }
 
-  return `${months[data.startMonth - 1]}, ${data.startDate} - ${months[data.endMonth - 1]}, ${data.endDate}`;
+  const startDate = convertCodeToString(data.startDateCode);
+  const endDate = convertCodeToString(data.endDateCode);
+
+  return `${startDate} - ${endDate}`;
 };

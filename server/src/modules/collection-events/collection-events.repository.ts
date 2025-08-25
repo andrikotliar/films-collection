@@ -1,13 +1,13 @@
-import { PrismaClient } from '@prisma/client';
-import { GetEventQueryResult } from './types';
+import { PrismaClient, type Collection, type CollectionEvent, type Film } from '@prisma/client';
 import {
   CreateCollectionEventPayload,
   UpdateCollectionEventPayload,
 } from 'src/modules/collection-events/schemas';
 
-type GetEventParams = {
-  date: number;
-  month: number;
+export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'collectionId'> & {
+  collection: Pick<Collection, 'id' | 'title'>;
+  film: Pick<Film, 'poster'>;
+  filmsCount: number;
 };
 
 export class CollectionEventsRepository {
@@ -21,40 +21,41 @@ export class CollectionEventsRepository {
     });
   }
 
-  getEvents({ date, month }: GetEventParams) {
-    return this.databaseClient.$queryRaw<GetEventQueryResult[]>`
+  getEvents(dateCode: number) {
+    return this.databaseClient.$queryRaw<CurrentEvent[]>`
       SELECT
+        ce.id,
         ce.title,
-        c.id as "collectionId",
-        ce.start_date as "startDate",
-        ce.start_month as "startMonth",
-        ce.end_date as "endDate",
-        ce.end_month as "endMonth",
-        ce.background,
+        ce.start_date_code as "startDateCode",
+        ce.end_date_code as "endDateCode",
         ce.year_from as "yearFrom",
         json_build_object(
           'id', c.id,
           'title', c.title
         ) as "collection",
+        json_build_object(
+          'id', f.id,
+          'poster', f.poster
+        ) as "film",
         (
           SELECT COUNT(*)::int FROM films_collections fc
           WHERE fc.collection_id = ce.collection_id
         ) as "filmsCount"
       FROM collection_events ce
-      INNER JOIN collections c ON c.id = ce.collection_id
+      INNER JOIN collections c ON ce.collection_id = c.id
+      INNER JOIN films f ON ce.title_film_id = f.id
       WHERE
-        ce.start_date = ${date}
-        AND ce.start_month = ${month}
+        ce.start_date_code = ${dateCode}
         OR (
-          ce.start_month <= ce.end_month
-          AND ${date} BETWEEN ce.start_date AND ce.end_date
-          AND ${month} BETWEEN ce.start_month AND ce.end_month
+          (
+            ce.start_date_code <= ce.end_date_code
+            AND ${dateCode} BETWEEN ce.start_date_code AND ce.end_date_code
+          )
+          OR (
+            ce.start_date_code > ce.end_date_code
+            AND ${dateCode} >= ce.start_date_code OR ${dateCode} <= ce.end_date_code
+          )
         )
-        OR (
-          ce.start_month > ce.end_month
-          AND (${date} >= ce.start_date OR ${date} <= ce.end_date)
-          AND (${month} >= ce.start_month OR ${month} <= ce.end_month)
-        );
     `;
   }
 
@@ -63,13 +64,15 @@ export class CollectionEventsRepository {
       select: {
         id: true,
         title: true,
-        startDate: true,
-        endDate: true,
-        startMonth: true,
-        endMonth: true,
+        startDateCode: true,
+        endDateCode: true,
         yearFrom: true,
-        background: true,
-        description: true,
+        film: {
+          select: {
+            id: true,
+            poster: true,
+          },
+        },
         collection: {
           select: {
             id: true,
@@ -77,12 +80,7 @@ export class CollectionEventsRepository {
           },
         },
       },
-      orderBy: [
-        { startMonth: 'desc' },
-        {
-          startDate: 'desc',
-        },
-      ],
+      orderBy: [{ startDateCode: 'asc' }],
     });
   }
 

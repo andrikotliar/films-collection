@@ -1,9 +1,9 @@
-import styles from './button.module.css';
-import { MouseEventHandler, ReactNode } from 'react';
+import styles from './styles.module.css';
+import { type MouseEventHandler, type ReactNode } from 'react';
 import classNames from 'classnames';
 import { Loader } from '@/components/loader/loader';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
+export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'light';
 
 export type ButtonProps = {
   onClick?: MouseEventHandler<HTMLButtonElement>;

@@ -5,6 +5,7 @@ import {
   GetFilmRelatedChaptersSchema,
   SearchFilmsQuerySchema,
   GetAdminFilmParamsSchema,
+  GetFilmOptionsSchema,
 } from './schemas';
 
 export const createFilmsRouter = createRouter((app, defineRoute) => [
@@ -32,6 +33,22 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
     },
     handler: async ({ request }) => {
       const data = await app.filmsService.searchFilm(request.query.q);
+
+      return {
+        status: 'OK',
+        data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'GET',
+    url: '/options',
+    schema: {
+      querystring: GetFilmOptionsSchema,
+    },
+    handler: async ({ request }) => {
+      const data = await app.filmsService.getFilmOptions(request.query);
 
       return {
         status: 'OK',
@@ -107,6 +124,18 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
       return {
         status: 'OK',
         data,
+      };
+    },
+  }),
+
+  defineRoute({
+    method: 'DELETE',
+    url: '/admin/:id',
+    schema: { params: IdParamSchema },
+    handler: async ({ request }) => {
+      return {
+        status: 'OK',
+        data: { id: request.params.id },
       };
     },
   }),

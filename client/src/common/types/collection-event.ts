@@ -1,20 +1,18 @@
-import type { BackgroundData } from '@/components';
+import type { Film } from '@/common/types/film';
 import type { Collection } from './collection';
 
 export type CollectionEvent = {
   id: number;
   title: string;
+  startDateCode: number;
+  endDateCode: number;
+  titleFilmId: number | null;
+  yearFrom: number;
   collectionId: number;
-  startDate: number;
-  startMonth: number;
-  endDate: number;
-  endMonth: number;
-  description: string | null;
-  background: BackgroundData;
-  yearFrom: number | null;
 };
 
 export type CollectionEventFilled = CollectionEvent & {
   collection: Pick<Collection, 'id' | 'title'>;
+  film: Pick<Film, 'id' | 'poster'>;
   filmsCount: number;
 };

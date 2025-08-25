@@ -1,4 +1,4 @@
-import { ApiEndpoint } from '@/common';
+import { type ApiEndpoint } from '@/common';
 import { LocalStorage } from '@/services';
 import { redirect } from '@tanstack/react-router';
 
@@ -35,10 +35,7 @@ export class ApiClient {
     this.baseUrl = config.baseUrl;
   }
 
-  async request<T = unknown>(
-    path: ApiEndpoint,
-    options?: IFetchOptions,
-  ): Promise<T> {
+  async request<T = unknown>(path: ApiEndpoint, options?: IFetchOptions): Promise<T> {
     try {
       const internalOptions: IFetchOptions = {
         ...options,
@@ -51,20 +48,11 @@ export class ApiClient {
         internalOptions.body = this.getBody(options);
       }
 
-      const pathWithParams = this.parseRouteParams(
-        path,
-        internalOptions.params,
-      );
+      const pathWithParams = this.parseRouteParams(path, internalOptions.params);
 
-      const parsedPath = this.parseQueryParams(
-        pathWithParams,
-        internalOptions.queryParams,
-      );
+      const parsedPath = this.parseQueryParams(pathWithParams, internalOptions.queryParams);
 
-      const response = await fetch(
-        `${this.baseUrl}${parsedPath}`,
-        internalOptions,
-      );
+      const response = await fetch(`${this.baseUrl}${parsedPath}`, internalOptions);
       const result = await response.json();
 
       if (!response.ok) {
@@ -76,11 +64,7 @@ export class ApiClient {
       if (error.response?.statusCode === 401) {
         try {
           if (!TOKEN_ERRORS.includes(error.response?.code)) {
-            throw new HttpError(
-              error.response.status,
-              error.response.statusText,
-              error.response,
-            );
+            throw new HttpError(error.response.status, error.response.statusText, error.response);
           }
 
           await this.request('/auth/refresh', {
@@ -151,10 +135,7 @@ export class ApiClient {
     });
   }
 
-  private parseQueryParams(
-    path: string,
-    queryParams: IFetchOptions['queryParams'],
-  ) {
+  private parseQueryParams(path: string, queryParams: IFetchOptions['queryParams']) {
     if (!queryParams) {
       return path;
     }
@@ -190,9 +171,7 @@ export class ApiClient {
     });
   }
 
-  private setHeaders(
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
-  ) {
+  private setHeaders(options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>) {
     if (!options?.payload || options.payload instanceof FormData) {
       return undefined;
     }

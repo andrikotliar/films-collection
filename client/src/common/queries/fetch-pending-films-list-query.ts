@@ -1,11 +1,12 @@
 import { PendingFilmsApi } from '@/api';
 import { PENDING_FILMS_PER_PAGE } from '../constants';
-import { PendingFilmQueryFilters } from '../types';
+import { type PendingFilmQueryFilters } from '../types';
 import { queryOptions } from '@tanstack/react-query';
+import { queryKeys } from '@/common/configs';
 
 export const fetchPendingFilmsListQuery = (params: PendingFilmQueryFilters) => {
   return queryOptions({
-    queryKey: ['pending-films', params] as const,
+    queryKey: [queryKeys.pendingFilms.list, params] as const,
     queryFn: ({ queryKey }) => {
       const { pageIndex, ...filters } = queryKey[1];
 

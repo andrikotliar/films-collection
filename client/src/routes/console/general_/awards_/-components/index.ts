@@ -1,1 +1,1 @@
-export * from './award-form/award-form';
+export * from './award-form';

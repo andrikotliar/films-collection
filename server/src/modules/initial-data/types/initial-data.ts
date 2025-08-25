@@ -1,5 +1,5 @@
 import { ListOption } from 'src/common';
-import { GetEventQueryResult } from 'src/modules/collection-events/types';
+import type { CurrentEvent } from 'src/modules/collection-events/collection-events.repository';
 
 export type InitialData = {
   options: {
@@ -13,5 +13,5 @@ export type InitialData = {
     awards: ListOption[];
     collectionCategories: ListOption<string>[];
   };
-  events: GetEventQueryResult[];
+  events: CurrentEvent[];
 };

@@ -1,15 +1,17 @@
 import { CollectionEventsApi } from '@/api';
-import { queryKeys } from '@/common';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { queryKeys, toaster } from '@/common';
+import { useQueryInvalidation } from '@/hooks/use-query-invalidation';
+import type { HttpError } from '@/services';
+import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteCollectionEvent = () => {
-  const queryClient = useQueryClient();
-  return useMutation({
+  const invalidateQueries = useQueryInvalidation();
+
+  return useMutation<unknown, HttpError, number, unknown>({
     mutationFn: CollectionEventsApi.deleteEvent,
-    onSuccess: () => {
-      queryClient.invalidateQueries({
-        queryKey: [queryKeys.collectionEvent.adminList],
-      });
+    onError: toaster.error,
+    onSuccess: async () => {
+      await invalidateQueries([queryKeys.collectionEvent.adminList, queryKeys.initialData.config]);
     },
   });
 };

@@ -7,3 +7,4 @@ export * from './priority-options';
 export * from './priority-to-color';
 export * from './person-role-to-title';
 export * from './query-keys';
+export * from './priority-titles';

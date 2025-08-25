@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from 'react';
+import { type ReactNode, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './modal.module.css';
 import classNames from 'classnames';
@@ -9,6 +9,7 @@ type ModalProps = {
   onClose: VoidFunction;
   className?: string;
   children?: ReactNode;
+  isAllowedClickOutside?: boolean;
 };
 
 export const Modal = ({
@@ -16,11 +17,11 @@ export const Modal = ({
   children,
   className,
   onClose,
+  isAllowedClickOutside = true,
 }: ModalProps) => {
   useEffect(() => {
     if (isOpen) {
-      const scrollbarWidth =
-        window.innerWidth - document.documentElement.clientWidth;
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
 
       document.body.style.overflow = 'hidden';
       document.body.style.paddingRight = `${scrollbarWidth}px`;
@@ -37,7 +38,7 @@ export const Modal = ({
   return createPortal(
     <div
       className={classNames(styles.modal, className)}
-      onClick={onClose}
+      onClick={isAllowedClickOutside ? onClose : undefined}
       aria-label="Close modal window"
     >
       {children}

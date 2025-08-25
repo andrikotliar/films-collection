@@ -1,5 +1,5 @@
-import { ListOption } from './list-option';
-import { Person } from './person';
+import { type ListOption } from './list-option';
+import { type Person } from './person';
 
 export type Award = {
   id: number;
@@ -12,6 +12,7 @@ export type Nomination = {
   title: string;
   person: Person | null;
   comment: null;
+  shouldIncludeActor: boolean;
 };
 
 export type AwardNomination = ListOption<number> & {

@@ -13,7 +13,9 @@ export class CollectionEventsService {
     const month = currentDate.getMonth() + 1;
     const date = currentDate.getDate();
 
-    const events = await this.collectionEventsRepository.getEvents({ date, month });
+    const dateCode = month * 100 + date;
+
+    const events = await this.collectionEventsRepository.getEvents(dateCode);
 
     return events ?? [];
   }

@@ -1,14 +1,7 @@
 import styles from './select.module.css';
-import {
-  ChangeEvent,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from 'react';
+import { type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useDebouncedSearch } from '@/hooks';
-import { FormError, ListOption } from '@/common';
+import { type FormError, type ListOption } from '@/common';
 import { FieldLabel } from '@/components/field-label/field-label';
 import { PopupMenu } from '@/components/popup-menu/popup-menu';
 import { FieldError } from '@/components/field-error/field-error';
@@ -147,20 +140,17 @@ export const Select = ({
     return options.filter((option) => selectedValues.includes(option.value));
   }, [selectedValues, options]);
 
-  const handleTriggerButtonKeydown = useCallback(
-    (event: React.KeyboardEvent) => {
-      switch (event.key) {
-        case 'ArrowDown': {
-          event.preventDefault();
-          setIsDropdownOpen(true);
-          break;
-        }
-        default:
-          break;
+  const handleTriggerButtonKeydown = useCallback((event: React.KeyboardEvent) => {
+    switch (event.key) {
+      case 'ArrowDown': {
+        event.preventDefault();
+        setIsDropdownOpen(true);
+        break;
       }
-    },
-    [],
-  );
+      default:
+        break;
+    }
+  }, []);
 
   const handleDropdownKeydown = useCallback(
     (event: KeyboardEvent) => {
@@ -172,10 +162,7 @@ export const Select = ({
         case 'ArrowDown': {
           event.preventDefault();
 
-          if (
-            focusedIndex.current < 0 ||
-            focusedIndex.current === internalOptions.length - 1
-          ) {
+          if (focusedIndex.current < 0 || focusedIndex.current === internalOptions.length - 1) {
             focusedIndex.current = 0;
           } else {
             focusedIndex.current += 1;
@@ -218,13 +205,10 @@ export const Select = ({
     setInternalOptions(options);
   }, [options]);
 
-  const handleSearchChange = useCallback(
-    (event: ChangeEvent<HTMLInputElement>) => {
-      setSearchInputValue(event.target.value);
-      handleSearch(event);
-    },
-    [],
-  );
+  const handleSearchChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    setSearchInputValue(event.target.value);
+    handleSearch(event);
+  }, []);
 
   const handleClickAddItem = () => {
     onCreateOption?.();
@@ -279,12 +263,7 @@ export const Select = ({
         role="listbox"
       >
         <div className={styles.dropdownContainer} ref={optionsWrapperRef}>
-          {isSearchable && (
-            <OptionsSearch
-              value={searchInputValue}
-              onSearch={handleSearchChange}
-            />
-          )}
+          {isSearchable && <OptionsSearch value={searchInputValue} onSearch={handleSearchChange} />}
           {internalOptions.map((option, index) => (
             <Option
               key={option.value}

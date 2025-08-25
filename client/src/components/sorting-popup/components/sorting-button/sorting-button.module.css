@@ -9,6 +9,7 @@
   transition: background-color 300ms;
   min-width: 140px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .sortingButton:hover {

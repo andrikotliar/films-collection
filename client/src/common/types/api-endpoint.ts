@@ -2,6 +2,7 @@ export type ApiEndpoint =
   | '/films'
   | '/films/:id'
   | '/films/search'
+  | '/films/options'
   | '/films/admin'
   | '/films/admin/:id'
   | '/films/chapters'

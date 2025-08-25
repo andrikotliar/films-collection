@@ -43,6 +43,7 @@
   height: var(--icon-size);
   border-radius: var(--app-border-radius);
   border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .menuButton:focus-visible {

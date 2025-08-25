@@ -1,20 +1,17 @@
-import { BLUE_DEFAULT, GREEN_DEFAULT } from '@/common';
-import type { FormValues } from '@/routes/console/collection-events/-types';
+import { getDefaultDateCode, NEW_ITEM_ID } from '@/common';
+import type { CollectionEventMutationPayload } from '@/hooks';
 
-export const defaultValues: FormValues = {
-  title: '',
-  description: null,
-  collectionId: 0,
-  background: {
-    angle: '45',
-    color1: BLUE_DEFAULT,
-    color2: GREEN_DEFAULT,
-    textColor: 'white',
-  },
-  startDate: 1,
-  startMonth: 1,
-  endDate: 2,
-  endMonth: 2,
-  yearFrom: null,
-  isOneDayEvent: false,
+export const getDefaultValues = (): CollectionEventMutationPayload => {
+  const defaultDateCode = getDefaultDateCode();
+
+  return {
+    id: NEW_ITEM_ID,
+    title: '',
+    collectionId: 0,
+    startDateCode: defaultDateCode,
+    endDateCode: defaultDateCode + 1,
+    yearFrom: 0,
+    isOneDayEvent: false,
+    titleFilmId: null,
+  };
 };

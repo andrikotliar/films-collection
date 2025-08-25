@@ -1,4 +1,4 @@
-import { AsyncSelect, AsyncSelectProps } from './async-select';
+import { AsyncSelect, type AsyncSelectProps } from './async-select';
 import { Controller, useFormContext } from 'react-hook-form';
 
 type FormAsyncSelectProps = {

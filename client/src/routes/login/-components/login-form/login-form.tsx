@@ -1,24 +1,31 @@
-import styles from './login-form.module.css';
-import { Button, FormTextInput, FormPasswordInput, Logo } from '@/components';
+import type { LoginPayload } from '@/common';
+import { FormTextInput, FormPasswordInput, Logo, Form, CenteredBlock } from '@/components';
+import { useLogin } from '@/hooks';
+import { loginFormSchema } from '@/routes/login/-validation';
 import { LogInIcon } from 'lucide-react';
-import { SubmitHandler } from 'react-hook-form';
 
-type LoginFormProps = {
-  isSaving: boolean;
-  onSubmit: SubmitHandler<any>;
+const defaultLoginValues: LoginPayload = {
+  username: '',
+  password: '',
 };
 
-export const LoginForm = ({ isSaving, onSubmit }: LoginFormProps) => {
+export const LoginForm = () => {
+  const { mutateAsync, isPending } = useLogin();
+
   return (
-    <form onSubmit={onSubmit} className={styles.loginForm}>
-      <div className={styles.loginLogo}>
+    <Form
+      onSubmit={mutateAsync}
+      isLoading={isPending}
+      defaultValues={defaultLoginValues}
+      schema={loginFormSchema}
+      submitIcon={<LogInIcon />}
+      submitButtonText="Login"
+    >
+      <CenteredBlock>
         <Logo width={120} />
-      </div>
+      </CenteredBlock>
       <FormTextInput name="username" label="Username" />
       <FormPasswordInput name="password" label="Password" />
-      <Button type="submit" icon={<LogInIcon />} isLoading={isSaving}>
-        Login
-      </Button>
-    </form>
+    </Form>
   );
 };

@@ -1,5 +1,5 @@
 import { Priority } from '../enums';
-import { StatusColor } from '../types';
+import { type StatusColor } from '../types';
 
 type PriorityColor = {
   [key in Priority]: StatusColor;

@@ -1,14 +1,15 @@
-import { array, boolean, mixed, number, object, string } from 'yup';
+import { idSchema, titleSchema } from '@/common';
+import * as yup from 'yup';
 
-export const awardFormSchema = object({
-  title: string().required().label('Title'),
-  description: string().nullable().defined().label('Description'),
-  image: mixed().required().label('Image'),
-  nominations: array(
-    object({
-      id: number().required(),
-      title: string().required(),
-      shouldIncludeActor: boolean().required(),
+export const awardFormSchema = yup.object({
+  id: idSchema,
+  title: titleSchema,
+  description: yup.string().nullable().defined().label('Description'),
+  nominations: yup.array(
+    yup.object({
+      id: yup.number().required(),
+      title: yup.string().required(),
+      shouldIncludeActor: yup.boolean().required(),
     }),
   ),
 });

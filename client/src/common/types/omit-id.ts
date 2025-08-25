@@ -1,5 +1,5 @@
 type Entity = {
-  id: number;
+  id: number | string;
   [key: string]: unknown;
 };
 

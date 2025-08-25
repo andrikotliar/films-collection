@@ -11,6 +11,7 @@ export type InitialData = {
     types: ListOption<string>[];
     styles: ListOption<string>[];
     roles: ListOption<string>[];
+    collectionCategories: ListOption<string>[];
   };
   events: CollectionEventFilled[];
 };

@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  aspect-ratio: 9 / 14;
+  border-radius: 8px;
+  overflow: hidden;
+  border: var(--app-border);
+}
+
+.image {
+  transition: transform 300ms;
+}
+
+.wrapper:hover .image {
+  transform: scale(1.1);
+}
+
+.content {
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(255 255 255 / 0.9);
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.datesWrapper {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--gray-dark);
+  font-size: 12px;
+  margin-bottom: 5px;
+}

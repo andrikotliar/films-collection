@@ -1,8 +1,9 @@
-import { AwardFormValues } from '@/routes/console/general_/awards_/-types';
+import { NEW_ITEM_ID } from '@/common';
+import type { AwardMutationPayload } from '@/hooks';
 
-export const awardDefaultFormValues: AwardFormValues = {
+export const awardDefaultFormValues: AwardMutationPayload = {
+  id: NEW_ITEM_ID,
   title: '',
   description: null,
-  image: '',
   nominations: [],
 };

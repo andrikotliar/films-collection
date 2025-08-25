@@ -1,7 +1,4 @@
-import {
-  StatusFilterButton,
-  StatusFilterButtonProps,
-} from './status-filter-button';
+import { StatusFilterButton, type StatusFilterButtonProps } from './status-filter-button';
 import { useFormContext } from 'react-hook-form';
 
 type FormStatusFilterButtonProps = {
