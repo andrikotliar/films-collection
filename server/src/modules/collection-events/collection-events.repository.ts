@@ -47,14 +47,12 @@ export class CollectionEventsRepository {
       WHERE
         ce.start_date_code = ${dateCode}
         OR (
-          (
-            ce.start_date_code <= ce.end_date_code
-            AND ${dateCode} BETWEEN ce.start_date_code AND ce.end_date_code
-          )
-          OR (
-            ce.start_date_code > ce.end_date_code
-            AND ${dateCode} >= ce.start_date_code OR ${dateCode} <= ce.end_date_code
-          )
+          ce.start_date_code <= ce.end_date_code
+          AND ${dateCode} BETWEEN ce.start_date_code AND ce.end_date_code
+        )
+        OR (
+          ce.start_date_code > ce.end_date_code
+          AND (${dateCode} >= ce.start_date_code OR ${dateCode} <= ce.end_date_code)
         )
     `;
   }
