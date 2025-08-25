@@ -6,7 +6,7 @@ export const CreateCollectionEventSchema = Type.Object(
     collectionId: Type.Number(),
     startDateCode: Type.Number(),
     endDateCode: Type.Number(),
-    yearFrom: Type.Optional(Type.Number()),
+    yearFrom: Type.Number(),
     titleFilmId: Type.Number(),
   },
   { additionalProperties: false },
