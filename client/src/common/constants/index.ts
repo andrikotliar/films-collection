@@ -28,3 +28,8 @@ export const ALLOWED_HTML_TAGS = [
   'ol',
   'blockquote',
 ];
+
+export const BREAKPOINTS = {
+  xl: 1280,
+  xl2: 1536,
+};

@@ -1,4 +1,8 @@
-import { fetchCollectionEventsQuery, type CollectionEventFilled } from '@/common';
+import {
+  fetchCollectionEventsQuery,
+  getDateMonthLabel,
+  type CollectionEventFilled,
+} from '@/common';
 import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventForm } from '@/routes/console/collection-events/-components';
 import { Button, ConsoleContent, ConsoleTitle } from '@/components';
@@ -42,6 +46,7 @@ const CollectionEventsContainer = () => {
         onDelete={deleteEvent}
         onEdit={handleEditEvent}
         isDeletingInProgress={isDeleting}
+        description={(data) => getDateMonthLabel(data)}
       />
       <FormModal
         values={formValues}

@@ -20,7 +20,7 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
   }
 
   return (
-    <Modal isOpen onClose={onClose} className={styles.wrapper}>
+    <Modal isOpen onClose={onClose} className={styles.wrapper} isAllowedClickOutside={false}>
       <Modal.Content className={styles.content}>
         <Panel>
           <FormComponent values={values} afterSubmitEffect={afterSubmitEffect} />

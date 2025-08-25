@@ -24,7 +24,10 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
   return (
     <Form
       onSubmit={submit}
-      defaultValues={values}
+      defaultValues={{
+        ...values,
+        isOneDayEvent: values.startDateCode === values.endDateCode,
+      }}
       title={title}
       schema={collectionEventSchema}
       isLoading={isPending}

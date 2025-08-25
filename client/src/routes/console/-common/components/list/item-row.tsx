@@ -1,4 +1,3 @@
-import styles from './styles.module.css';
 import { Button, PriorityBadge } from '@/components';
 import { type DefaultListItem } from '@/routes/console/-common';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
@@ -25,15 +24,15 @@ export const ItemRow = <T extends DefaultListItem>({
   onView,
 }: ItemRowProps<T>) => {
   return (
-    <div className={styles.row}>
+    <div className="flex items-center border-b border-b-slate-300 p-3.5 justify-between last:border-0 hover:bg-slate-50 transition">
       <div className="flex items-center gap-4">
         {data.priority && <PriorityBadge value={data.priority} />}
-        <div>{data[titleKey]}</div>
+        <div className="min-w-50 max-w-80">{data[titleKey]}</div>
       </div>
       {typeof description === 'function' && (
-        <div className="text-sm text-gray-600">{description(data)}</div>
+        <div className="text-sm text-gray-600 w-50">{description(data)}</div>
       )}
-      <div className={styles.tools}>
+      <div className="flex items-center gap-5">
         {typeof onView === 'function' && (
           <Button onClick={() => onView(data)} variant="ghost" icon={<EyeIcon />} />
         )}

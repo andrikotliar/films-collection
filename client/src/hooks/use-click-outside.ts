@@ -1,4 +1,4 @@
-import { RefObject, useCallback, useEffect } from 'react';
+import { type RefObject, useCallback, useEffect } from 'react';
 
 type Options = {
   isOpen: boolean;
@@ -32,10 +32,10 @@ export const useClickOutside = ({
 
   useEffect(() => {
     if (isOpen && isEnabled) {
-      document.body.addEventListener('mousedown', closeMenuHandler);
+      document.body.addEventListener('click', closeMenuHandler);
 
       return () => {
-        document.body.removeEventListener('mousedown', closeMenuHandler);
+        document.body.removeEventListener('click', closeMenuHandler);
       };
     }
   }, [isOpen, isEnabled]);

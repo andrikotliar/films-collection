@@ -9,7 +9,7 @@ export const getDefaultValues = (): CollectionEventMutationPayload => {
     title: '',
     collectionId: 0,
     startDateCode: defaultDateCode,
-    endDateCode: defaultDateCode,
+    endDateCode: defaultDateCode + 1,
     yearFrom: 0,
     isOneDayEvent: false,
     titleFilmId: null,
