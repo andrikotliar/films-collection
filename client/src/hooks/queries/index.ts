@@ -1,4 +1,5 @@
 export * from './use-login';
+export * from './use-logout';
 export * from './use-mutate-country';
 export * from './use-mutate-genre';
 export * from './use-mutate-studio';
