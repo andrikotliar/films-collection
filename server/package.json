@@ -8,8 +8,7 @@
     "start": "node dist/server.js",
     "db:client:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
-    "db:deploy": "prisma migrate deploy",
-    "db:seed": "prisma db seed"
+    "db:deploy": "prisma migrate deploy"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.1",
@@ -43,8 +42,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/andrikotliar/films-collection/tree/main/server"
-  },
-  "prisma": {
-    "seed": "tsx prisma/seed.ts"
   }
 }
