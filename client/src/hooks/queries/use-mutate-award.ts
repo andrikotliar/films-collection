@@ -1,5 +1,5 @@
 import { AwardsApi } from '@/api';
-import { mutateEntity, toaster, type FormValues } from '@/common';
+import { mutateEntity, type FormValues } from '@/common';
 import type { HttpError } from '@/services';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
@@ -25,6 +25,5 @@ export const useMutateAward = () => {
         to: '/console/general/awards',
       });
     },
-    onError: toaster.error,
   });
 };
