@@ -1,4 +1,6 @@
 import { type ApiEndpoint } from '@/common';
+import { LocalStorage } from '@/services/local-storage';
+import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
   queryParams?: Record<string, any>;
@@ -57,6 +59,11 @@ export class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
+      if (error?.response?.statusCode === 401 && !window.location.pathname.includes('login')) {
+        LocalStorage.clearStorage();
+        throw redirect({ to: '/login' });
+      }
+
       throw new HttpError(
         error.response?.statusCode,
         error.response?.message ?? 'Unknown error',
