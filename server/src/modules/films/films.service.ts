@@ -1,5 +1,4 @@
 import { convertEnumValueToLabel } from 'src/common';
-import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
 import {
   GetFilmRelatedChaptersQuery,
@@ -8,17 +7,17 @@ import {
   type FilmOptionsQueries,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
+import type { PeopleService } from 'src/modules/people/people.service';
+import type { AwardsService } from 'src/modules/awards/awards.service';
+import type { CollectionsService } from 'src/modules/collections/collections.service';
 
 export class FilmsService {
-  private peopleService: FilmsServiceDependencies['peopleService'];
-  private awardsService: FilmsServiceDependencies['awardsService'];
-  private collectionsService: FilmsServiceDependencies['collectionsService'];
-
-  constructor(private filmsRepository: FilmsRepository, dependencies: FilmsServiceDependencies) {
-    this.peopleService = dependencies.peopleService;
-    this.awardsService = dependencies.awardsService;
-    this.collectionsService = dependencies.collectionsService;
-  }
+  constructor(
+    private readonly filmsRepository: FilmsRepository,
+    private readonly peopleService: PeopleService,
+    private readonly awardsService: AwardsService,
+    private readonly collectionsService: CollectionsService,
+  ) {}
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const { limit, skip } = queries;

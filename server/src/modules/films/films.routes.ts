@@ -1,4 +1,4 @@
-import { IdParamSchema, NotFoundException, createRouter } from '../../common';
+import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from 'src/common';
 import {
   GetAdminListQuerySchema,
   GetFilmsListQuerySchema,
@@ -7,8 +7,9 @@ import {
   GetAdminFilmParamsSchema,
   GetFilmOptionsSchema,
 } from './schemas';
+import { films } from 'src/modules/films/films.module';
 
-export const createFilmsRouter = createRouter((app, defineRoute) => [
+export const filmsRoutes = useRoutes('films', [
   defineRoute({
     method: 'GET',
     url: '/',
@@ -16,12 +17,9 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
       querystring: GetFilmsListQuerySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getFilteredFilms(request.query);
+      const data = await films.getFilteredFilms(request.query);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
@@ -32,12 +30,9 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
       querystring: SearchFilmsQuerySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.searchFilm(request.query.q);
+      const data = await films.searchFilm(request.query.q);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
@@ -48,63 +43,51 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
       querystring: GetFilmOptionsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getFilmOptions(request.query);
+      const data = await films.getFilmOptions(request.query);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/admin',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: {
       querystring: GetAdminListQuerySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getAdminList(request.query);
+      const data = await films.getAdminList(request.query);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/admin/:id',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: {
       params: GetAdminFilmParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getFilmDetailsAdmin(request.params.id);
+      const data = await films.getFilmDetailsAdmin(request.params.id);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/chapters',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: {
       querystring: GetFilmRelatedChaptersSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getRelatedChapters(request.query);
+      const data = await films.getRelatedChapters(request.query);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
@@ -113,7 +96,7 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
     url: '/:id',
     schema: { params: IdParamSchema },
     handler: async ({ request }) => {
-      const data = await app.filmsService.getFilmDetails(request.params.id);
+      const data = await films.getFilmDetails(request.params.id);
 
       if (!data) {
         throw new NotFoundException({
@@ -121,10 +104,7 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
         });
       }
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 
@@ -133,10 +113,7 @@ export const createFilmsRouter = createRouter((app, defineRoute) => [
     url: '/admin/:id',
     schema: { params: IdParamSchema },
     handler: async ({ request }) => {
-      return {
-        status: 'OK',
-        data: { id: request.params.id },
-      };
+      return { id: request.params.id };
     },
   }),
 ]);

@@ -1,27 +1,21 @@
 import { FastifyInstance } from 'fastify';
 import { ResponseCode } from 'src/common/enums';
-import { Route, RouteSchema } from 'src/common/types';
+import type { Route } from 'src/common/types';
 
-type Router = (app: FastifyInstance, defineRoute: typeof defineRouteFn) => Route<any>[];
-
-const defineRouteFn = <S extends Partial<RouteSchema>>(route: Route<S>) => {
-  return route;
-};
-
-export const createRouter = (router: Router) => {
+export const createRouter = (routes: Route[]) => {
   return async (app: FastifyInstance) => {
-    const routes = router(app, defineRouteFn);
-
     for (const route of routes) {
       app.route({
         url: route.url,
         method: route.method,
         schema: route.schema,
-        preHandler: route.preHandler,
+        preHandler: route.isPrivate ? [app.authenticate] : undefined,
         handler: async (request: any, reply) => {
-          const response = await route.handler({ request, reply });
+          const data = await route.handler({ request, reply });
 
-          return reply.status(ResponseCode[response.status]).send(response.data);
+          const code = route.successStatus ? ResponseCode[route.successStatus] : ResponseCode.OK;
+
+          return reply.status(code).send(data);
         },
       });
     }

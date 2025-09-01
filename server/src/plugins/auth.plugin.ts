@@ -1,50 +1,50 @@
 import fastifyPlugin from 'fastify-plugin';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import {
-  CookieName,
-  AuthTokenPayload,
+  ACCESS_TOKEN_MAX_AGE_SEC,
   getCookie,
+  REFRESH_TOKEN_MAX_AGE_SEC,
+  setCookie,
   UnauthorizedException,
 } from 'src/common';
+import { users } from 'src/modules/users/users.module';
+import { auth } from 'src/modules/auth/auth.module';
 
 const authDecorator = async (app: FastifyInstance) => {
-  app.decorate(
-    'authenticate',
-    async function (request: FastifyRequest, reply: FastifyReply) {
-      const token = getCookie(request, 'ACCESS_TOKEN');
+  app.decorate('authenticate', async function (request: FastifyRequest, reply: FastifyReply) {
+    const result = await auth.checkAuthStatus(
+      {
+        accessToken: getCookie(request, 'ACCESS_TOKEN'),
+        refreshToken: getCookie(request, 'REFRESH_TOKEN'),
+      },
+      app.jwt,
+    );
 
-      if (!token) {
-        throw new UnauthorizedException({
-          code: 'TOKEN_MISSED',
-          message: 'Malformed credentials',
-        });
-      }
+    if (!result) {
+      throw new UnauthorizedException();
+    }
 
-      let payload: AuthTokenPayload;
+    if (!result.newTokens) {
+      app.log.info(`User with ID [${result.id}] has valid tokens, proceed!`);
+      return;
+    }
 
-      try {
-        payload = this.jwt.verify<AuthTokenPayload>(token);
-      } catch (error: any) {
-        if (error?.code === 'FAST_JWT_EXPIRED') {
-          reply.clearCookie(CookieName.ACCESS_TOKEN);
+    await users.setRefreshToken({
+      id: result.id,
+      refreshToken: result.newTokens.refreshToken,
+    });
 
-          throw new UnauthorizedException({
-            code: 'TOKEN_EXPIRED',
-          });
-        }
-
-        throw new UnauthorizedException();
-      }
-
-      const user = await this.usersService.getUser(payload.id);
-
-      if (!user) {
-        throw new UnauthorizedException({
-          message: 'User not found or not allowed to proceed',
-        });
-      }
-    },
-  );
+    setCookie(reply, {
+      name: 'ACCESS_TOKEN',
+      value: result.newTokens.accessToken,
+      maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
+    });
+    setCookie(reply, {
+      name: 'REFRESH_TOKEN',
+      value: result.newTokens.refreshToken,
+      maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
+    });
+  });
 };
 
 export const AuthPlugin = fastifyPlugin(authDecorator, {

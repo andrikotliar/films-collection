@@ -1,20 +1,16 @@
-import { InitialDataService } from './initial-data.service';
-import { createInitialDataRouter } from './initial-data.router';
-import { createModule } from 'src/common';
+import { awards } from 'src/modules/awards/awards.module';
+import { collectionEvents } from 'src/modules/collection-events/collection-events.module';
+import { collections } from 'src/modules/collections/collections.module';
+import { countries } from 'src/modules/countries/countries.module';
+import { genres } from 'src/modules/genres/genres.module';
+import { InitialDataService } from 'src/modules/initial-data/initial-data.service';
+import { studios } from 'src/modules/studios/studios.module';
 
-export const InitialDataModule = createModule({
-  prefix: 'initial-data',
-  service: (app) => {
-    const service = new InitialDataService({
-      collectionsService: app.collectionsService,
-      genresService: app.genresService,
-      countriesService: app.countriesService,
-      studiosService: app.studiosService,
-      collectionEventsService: app.collectionEventsService,
-      awardsService: app.awardsService,
-    });
-
-    return service;
-  },
-  router: createInitialDataRouter,
-});
+export const initialData = new InitialDataService(
+  collections,
+  genres,
+  countries,
+  studios,
+  collectionEvents,
+  awards,
+);

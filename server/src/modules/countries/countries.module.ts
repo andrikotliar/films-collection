@@ -1,15 +1,6 @@
-import { createCountriesRouter } from './countries.router';
-import { CountriesRepository } from './countries.repository';
-import { CountriesService } from './countries.service';
-import { createModule } from 'src/common';
+import { CountriesRepository } from 'src/modules/countries/countries.repository';
+import { CountriesService } from 'src/modules/countries/countries.service';
+import { database } from 'src/modules/database/database.module';
 
-export const CountriesModule = createModule({
-  prefix: 'countries',
-  service: (app) => {
-    const countriesRepository = new CountriesRepository(app.database);
-    const countriesService = new CountriesService(countriesRepository);
-
-    return countriesService;
-  },
-  router: createCountriesRouter,
-});
+const repository = new CountriesRepository(database);
+export const countries = new CountriesService(repository);

@@ -1,19 +1,17 @@
 import path from 'path';
 import fastify from 'fastify';
-import { PrismaClient } from '@prisma/client';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import StaticPlugin from '@fastify/static';
-import { AuthPlugin, DatabasePlugin } from 'src/plugins';
-import { AppModule } from './app.module';
-import { AppDependencies, CookieName, env, errorHandler } from './common';
+import { AuthPlugin } from 'src/plugins';
+import { CookieName, env, errorHandler, notFoundHandler } from './common';
+import { AppModule } from 'src/app.module';
 
 declare module 'fastify' {
-  export interface FastifyInstance extends AppDependencies {
+  export interface FastifyInstance {
     authenticate: any;
-    database: PrismaClient;
   }
 }
 
@@ -49,16 +47,12 @@ app.register(StaticPlugin, {
   root: path.join(import.meta.dirname, '/public'),
 });
 
-app.register(DatabasePlugin);
 app.register(AuthPlugin);
-
 app.register(AppModule, { prefix: '/api' });
 
 app.setErrorHandler(errorHandler);
 
-app.setNotFoundHandler((_, reply) => {
-  reply.sendFile('index.html');
-});
+app.setNotFoundHandler(notFoundHandler);
 
 const startServer = async () => {
   try {

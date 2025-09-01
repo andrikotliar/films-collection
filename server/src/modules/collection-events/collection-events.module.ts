@@ -1,15 +1,7 @@
-import { createCollectionEventsRouter } from './collection-events.router';
-import { CollectionEventsRepository } from './collection-events.repository';
-import { CollectionEventsService } from './collection-events.service';
-import { createModule } from 'src/common';
+import { CollectionEventsRepository } from 'src/modules/collection-events/collection-events.repository';
+import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
+import { collections } from 'src/modules/collections/collections.module';
+import { database } from 'src/modules/database/database.module';
 
-export const CollectionEventsModule = createModule({
-  prefix: 'collection-events',
-  service: (app) => {
-    const collectionEventsRepository = new CollectionEventsRepository(app.database);
-
-    const service = new CollectionEventsService(collectionEventsRepository, app.collectionsService);
-    return service;
-  },
-  router: createCollectionEventsRouter,
-});
+const repository = new CollectionEventsRepository(database);
+export const collectionEvents = new CollectionEventsService(repository, collections);

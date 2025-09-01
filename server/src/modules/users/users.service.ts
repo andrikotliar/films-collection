@@ -1,10 +1,10 @@
 import { hash } from 'bcrypt';
 import { User } from '@prisma/client';
 import { UsersRepository } from 'src/modules/users/users.repository';
+import type { UserRefreshTokenPayload } from 'src/modules/users/types';
+import { HASH_SALT_ROUNDS } from 'src/common';
 
 export class UsersService {
-  private hashSaltRounds = 10;
-
   constructor(private usersRepository: UsersRepository) {}
 
   getUser(userId: number) {
@@ -16,7 +16,7 @@ export class UsersService {
   }
 
   async createUser(userInput: Pick<User, 'username' | 'password'>) {
-    const passwordHash = await hash(userInput.password, this.hashSaltRounds);
+    const passwordHash = await hash(userInput.password, HASH_SALT_ROUNDS);
 
     const user = await this.usersRepository.create({
       username: userInput.username,
@@ -29,9 +29,9 @@ export class UsersService {
     };
   }
 
-  async setRefreshToken(userId: number, token: string | null) {
-    return this.usersRepository.updateById(userId, {
-      refreshToken: token,
+  async setRefreshToken({ id, refreshToken }: UserRefreshTokenPayload) {
+    return this.usersRepository.updateById(id, {
+      refreshToken,
     });
   }
 }

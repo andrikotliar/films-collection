@@ -1,9 +1,9 @@
-import { PrismaClient } from '@prisma/client';
 import { CreateCollectionInput } from './schemas';
 import { UpdateCollectionInput } from 'src/modules/collections/schemas/update-collection.schema';
+import type { DatabaseClient } from 'src/common';
 
 export class CollectionsRepository {
-  constructor(private readonly databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: DatabaseClient) {}
 
   getCollectionById(id: number) {
     return this.databaseClient.collection.findUnique({

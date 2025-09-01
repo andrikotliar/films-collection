@@ -1,15 +1,6 @@
-import { createGenresRouter } from 'src/modules/genres/genres.router';
-import { GenresRepository } from './genres.repository';
-import { GenresService } from './genres.service';
-import { createModule } from 'src/common';
+import { database } from 'src/modules/database/database.module';
+import { GenresRepository } from 'src/modules/genres/genres.repository';
+import { GenresService } from 'src/modules/genres/genres.service';
 
-export const GenresModule = createModule({
-  prefix: 'genres',
-  service: (app) => {
-    const genresRepository = new GenresRepository(app.database);
-    const genresService = new GenresService(genresRepository);
-
-    return genresService;
-  },
-  router: createGenresRouter,
-});
+const repository = new GenresRepository(database);
+export const genres = new GenresService(repository);

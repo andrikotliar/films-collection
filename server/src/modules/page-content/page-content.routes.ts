@@ -1,26 +1,25 @@
-import { IdParamSchema, NotFoundException, createRouter } from 'src/common';
+import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from 'src/common';
 import {
   GetListQueriesSchema,
   UpdatePageContentSchema,
   GetPageContentByPageUrlParamsSchema,
   CreatePageContentSchema,
 } from './schemas';
+import { pageContent } from 'src/modules/page-content/page-content.module';
 
-export const createPageContentRouter = createRouter((app, defineRoute) => [
+export const pageContentRoutes = useRoutes('page-content', [
   defineRoute({
     method: 'POST',
     url: '/',
     schema: {
       body: CreatePageContentSchema,
     },
-    preHandler: [app.authenticate],
+    isPrivate: true,
+    successStatus: 'CREATED',
     handler: async ({ request }) => {
-      const data = await app.pageContentService.createPageContent(request.body);
+      const data = await pageContent.createPageContent(request.body);
 
-      return {
-        status: 'CREATED',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
@@ -29,14 +28,11 @@ export const createPageContentRouter = createRouter((app, defineRoute) => [
     schema: {
       querystring: GetListQueriesSchema,
     },
-    preHandler: [app.authenticate],
+    isPrivate: true,
     handler: async ({ request }) => {
-      const data = await app.pageContentService.getList(request.query);
+      const data = await pageContent.getList(request.query);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
@@ -46,7 +42,7 @@ export const createPageContentRouter = createRouter((app, defineRoute) => [
       params: GetPageContentByPageUrlParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pageContentService.getPageContentByKey(request.params.pageKey);
+      const data = await pageContent.getPageContentByKey(request.params.pageKey);
 
       if (!data) {
         throw new NotFoundException({
@@ -54,10 +50,7 @@ export const createPageContentRouter = createRouter((app, defineRoute) => [
         });
       }
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
@@ -67,12 +60,9 @@ export const createPageContentRouter = createRouter((app, defineRoute) => [
       params: IdParamSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pageContentService.getPageContent(request.params.id);
+      const data = await pageContent.getPageContent(request.params.id);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
@@ -82,14 +72,11 @@ export const createPageContentRouter = createRouter((app, defineRoute) => [
       body: UpdatePageContentSchema,
       params: IdParamSchema,
     },
-    preHandler: [app.authenticate],
+    isPrivate: true,
     handler: async ({ request }) => {
-      const data = await app.pageContentService.updatePageContent(request.params.id, request.body);
+      const data = await pageContent.updatePageContent(request.params.id, request.body);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
@@ -98,14 +85,11 @@ export const createPageContentRouter = createRouter((app, defineRoute) => [
     schema: {
       params: IdParamSchema,
     },
-    preHandler: [app.authenticate],
+    isPrivate: true,
     handler: async ({ request }) => {
-      const data = await app.pageContentService.deletePageContent(request.params.id);
+      const data = await pageContent.deletePageContent(request.params.id);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 ]);

@@ -1,15 +1,6 @@
-import { createModule } from 'src/common';
-import { PeopleRepository } from './people.repository';
-import { PeopleService } from './people.service';
-import { createPeopleRouter } from './people.router';
+import { database } from 'src/modules/database/database.module';
+import { PeopleRepository } from 'src/modules/people/people.repository';
+import { PeopleService } from 'src/modules/people/people.service';
 
-export const PeopleModule = createModule({
-  prefix: 'people',
-  service: (app) => {
-    const peopleRepository = new PeopleRepository(app.database);
-    const peopleService = new PeopleService(peopleRepository);
-
-    return peopleService;
-  },
-  router: createPeopleRouter,
-});
+const repository = new PeopleRepository(database);
+export const people = new PeopleService(repository);
