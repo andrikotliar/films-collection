@@ -1,15 +1,6 @@
-import { createModule } from 'src/common';
-import { createStudiosRouter } from './studios.router';
-import { StudiosRepository } from './studios.repository';
-import { StudiosService } from './studios.service';
+import { database } from 'src/modules/database/database.module';
+import { StudiosRepository } from 'src/modules/studios/studios.repository';
+import { StudiosService } from 'src/modules/studios/studios.service';
 
-export const StudiosModule = createModule({
-  prefix: 'studios',
-  service: (app) => {
-    const studiosRepository = new StudiosRepository(app.database);
-    const studiosService = new StudiosService(studiosRepository);
-
-    return studiosService;
-  },
-  router: createStudiosRouter,
-});
+const repository = new StudiosRepository(database);
+export const studios = new StudiosService(repository);

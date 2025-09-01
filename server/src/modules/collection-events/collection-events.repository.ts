@@ -1,4 +1,5 @@
-import { PrismaClient, type Collection, type CollectionEvent, type Film } from '@prisma/client';
+import { type Collection, type CollectionEvent, type Film } from '@prisma/client';
+import type { DatabaseClient } from 'src/common';
 import {
   CreateCollectionEventPayload,
   UpdateCollectionEventPayload,
@@ -11,7 +12,7 @@ export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'co
 };
 
 export class CollectionEventsRepository {
-  constructor(private databaseClient: PrismaClient) {}
+  constructor(private databaseClient: DatabaseClient) {}
 
   getEventById(id: number) {
     return this.databaseClient.collectionEvent.findUnique({

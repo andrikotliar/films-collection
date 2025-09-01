@@ -1,7 +1,7 @@
-import { PrismaClient } from '@prisma/client';
+import type { DatabaseClient } from 'src/common';
 
 export class ChapterKeysRepository {
-  constructor(private readonly databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: DatabaseClient) {}
 
   getAll() {
     return this.databaseClient.filmChapterKey.findMany({

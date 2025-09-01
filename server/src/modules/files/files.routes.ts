@@ -1,12 +1,12 @@
-import { BadRequestException, createRouter } from 'src/common';
+import { BadRequestException, defineRoute, useRoutes } from 'src/common';
 import { UploadPayload } from './types';
 
-export const createFilesRouter = createRouter((app, defineRoute) => [
+export const filesRoutes = useRoutes('files', [
   defineRoute({
     method: 'POST',
     url: '/',
-    preHandler: [app.authenticate],
-    handler: async ({ request }) => {
+    isPrivate: true,
+    handler: async ({ request }, app) => {
       if (!request.isMultipart()) {
         throw new BadRequestException({
           code: 'NOT_MULTIPART_DATA',
@@ -32,12 +32,9 @@ export const createFilesRouter = createRouter((app, defineRoute) => [
         });
       }
 
-      const result = await app.filesService.upload(data as UploadPayload);
+      const result = await files.upload(data as UploadPayload);
 
-      return {
-        status: 'OK',
-        data: result,
-      };
+      return result;
     },
   }),
 ]);

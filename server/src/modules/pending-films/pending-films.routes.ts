@@ -1,37 +1,35 @@
-import { IdParamSchema, createRouter, NotFoundException } from 'src/common';
+import { IdParamSchema, NotFoundException, useRoutes, defineRoute } from 'src/common';
 import {
   CreatePendingFilmBodySchema,
   GetPendingFilmParamsSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmBodySchema,
 } from './schemas';
+import { pendingFilms } from 'src/modules/pending-films/pending-films.module';
 
-export const createPendingFilmsRouter = createRouter((app, defineRoute) => [
+export const pendingFilmsRoutes = useRoutes('pending-films', [
   defineRoute({
     method: 'GET',
     url: '/',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: {
       querystring: GetPendingFilmsListQuerySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.getList(request.query);
+      const data = await pendingFilms.getList(request.query);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
     method: 'GET',
     url: '/:id',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: {
       params: GetPendingFilmParamsSchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.getPendingFilmById(request.params.id);
+      const data = await pendingFilms.getPendingFilmById(request.params.id);
 
       if (!data) {
         throw new NotFoundException({
@@ -39,55 +37,44 @@ export const createPendingFilmsRouter = createRouter((app, defineRoute) => [
         });
       }
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
     method: 'POST',
     url: '/',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: { body: CreatePendingFilmBodySchema },
+    successStatus: 'CREATED',
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.createPendingFilm(request.body);
+      const data = await pendingFilms.createPendingFilm(request.body);
 
-      return {
-        status: 'CREATED',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: {
       params: IdParamSchema,
       body: UpdatePendingFilmBodySchema,
     },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.updatePendingFilm(request.params.id, request.body);
+      const data = await pendingFilms.updatePendingFilm(request.params.id, request.body);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
   defineRoute({
     method: 'DELETE',
     url: '/:id',
-    preHandler: [app.authenticate],
+    isPrivate: true,
     schema: { params: IdParamSchema },
     handler: async ({ request }) => {
-      const data = await app.pendingFilmsService.deletePendingFilm(request.params.id);
+      const data = await pendingFilms.deletePendingFilm(request.params.id);
 
-      return {
-        status: 'OK',
-        data,
-      };
+      return data;
     },
   }),
 ]);

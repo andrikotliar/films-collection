@@ -7,7 +7,6 @@ export class UsersRepository {
     return this.databaseClient.user.findUnique({
       where: {
         id,
-        verified: true,
       },
       omit: {
         password: true,
@@ -19,7 +18,6 @@ export class UsersRepository {
     return this.databaseClient.user.findUnique({
       where: {
         username,
-        verified: true,
       },
     });
   }

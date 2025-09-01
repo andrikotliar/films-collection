@@ -1,12 +1,4 @@
-import { createModule, env } from 'src/common';
-import { createFilesRouter } from './files.router';
-import { FilesService } from './files.service';
+import { env } from 'src/common';
+import { FilesService } from 'src/modules/files/files.service';
 
-export const FilesModule = createModule({
-  prefix: 'files',
-  service: () => {
-    const service = new FilesService(env);
-    return service;
-  },
-  router: createFilesRouter,
-});
+export const files = new FilesService(env);

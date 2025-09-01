@@ -1,9 +1,9 @@
-import { Film, Prisma, PrismaClient } from '@prisma/client';
-import { DEFAULT_PAGINATION_LIMIT, DEFAULT_SEARCH_LIMIT } from 'src/common';
+import { Film, Prisma } from '@prisma/client';
+import { DEFAULT_PAGINATION_LIMIT, DEFAULT_SEARCH_LIMIT, type DatabaseClient } from 'src/common';
 import type { FilmOptionsQueries } from 'src/modules/films/schemas';
 
 export class FilmsRepository {
-  constructor(private readonly databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: DatabaseClient) {}
 
   async count(filters: Prisma.FilmWhereInput) {
     return this.databaseClient.film.count({ where: filters });

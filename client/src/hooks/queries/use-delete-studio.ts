@@ -7,7 +7,7 @@ export const useDeleteStudio = () => {
   return useMutation<unknown, HttpError, number>({
     mutationFn: StudiosApi.delete,
     meta: {
-      invalidateQueries: queryKeys.people.adminList,
+      invalidateQueries: [queryKeys.studios.list, queryKeys.initialData.config],
     },
   });
 };

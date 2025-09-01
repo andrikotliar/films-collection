@@ -1,15 +1,6 @@
-import { createChapterKeysRouter } from './chapter-keys.router';
-import { ChapterKeysRepository } from './chapter-keys.repository';
-import { ChapterKeysService } from './chapter-keys.service';
-import { createModule } from 'src/common';
+import { ChapterKeysRepository } from 'src/modules/chapter-keys/chapter-keys.repository';
+import { ChapterKeysService } from 'src/modules/chapter-keys/chapter-keys.service';
+import { database } from 'src/modules/database/database.module';
 
-export const ChapterKeysModule = createModule({
-  prefix: 'chapter-keys',
-  service: (app) => {
-    const chapterKeysRepository = new ChapterKeysRepository(app.database);
-    const service = new ChapterKeysService(chapterKeysRepository);
-
-    return service;
-  },
-  router: createChapterKeysRouter,
-});
+const repository = new ChapterKeysRepository(database);
+export const chapterKeys = new ChapterKeysService(repository);

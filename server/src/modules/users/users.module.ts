@@ -1,13 +1,6 @@
-import { UsersRepository } from './users.repository';
-import { UsersService } from './users.service';
-import { createModule } from 'src/common';
+import { database } from 'src/modules/database/database.module';
+import { UsersRepository } from 'src/modules/users/users.repository';
+import { UsersService } from 'src/modules/users/users.service';
 
-export const UsersModule = createModule({
-  prefix: 'users',
-  service: (app) => {
-    const usersRepository = new UsersRepository(app.database);
-    const usersService = new UsersService(usersRepository);
-
-    return usersService;
-  },
-});
+const repository = new UsersRepository(database);
+export const users = new UsersService(repository);

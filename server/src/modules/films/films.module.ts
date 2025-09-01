@@ -1,19 +1,9 @@
-import { FilmsRepository } from './films.repository';
-import { FilmsService } from './films.service';
-import { createFilmsRouter } from './films.router';
-import { createModule } from 'src/common';
+import { awards } from 'src/modules/awards/awards.module';
+import { collections } from 'src/modules/collections/collections.module';
+import { database } from 'src/modules/database/database.module';
+import { FilmsRepository } from 'src/modules/films/films.repository';
+import { FilmsService } from 'src/modules/films/films.service';
+import { people } from 'src/modules/people/people.module';
 
-export const FilmsModule = createModule({
-  prefix: 'films',
-  service: (app) => {
-    const filmsRepository = new FilmsRepository(app.database);
-    const service = new FilmsService(filmsRepository, {
-      awardsService: app.awardsService,
-      peopleService: app.peopleService,
-      collectionsService: app.collectionsService,
-    });
-
-    return service;
-  },
-  router: createFilmsRouter,
-});
+const repository = new FilmsRepository(database);
+export const films = new FilmsService(repository, people, awards, collections);

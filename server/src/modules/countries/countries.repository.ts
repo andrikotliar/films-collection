@@ -1,8 +1,8 @@
-import { PrismaClient } from '@prisma/client';
+import type { DatabaseClient } from 'src/common';
 import { ManageCountryInput } from 'src/modules/countries/schemas';
 
 export class CountriesRepository {
-  constructor(private readonly databaseClient: PrismaClient) {}
+  constructor(private readonly databaseClient: DatabaseClient) {}
 
   getAll() {
     return this.databaseClient.country.findMany({
