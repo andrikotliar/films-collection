@@ -1,12 +1,13 @@
 import { BadRequestException, defineRoute, useRoutes } from 'src/common';
 import { UploadPayload } from './types';
+import { files } from 'src/modules/files/files.module';
 
 export const filesRoutes = useRoutes('files', [
   defineRoute({
     method: 'POST',
     url: '/',
     isPrivate: true,
-    handler: async ({ request }, app) => {
+    handler: async ({ request }) => {
       if (!request.isMultipart()) {
         throw new BadRequestException({
           code: 'NOT_MULTIPART_DATA',
