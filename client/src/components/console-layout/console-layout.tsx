@@ -19,18 +19,15 @@ export const ConsoleLayout = () => {
       return false;
     }
 
-    const isConsoleMenuOpen = LocalStorage.getItem<boolean>(
-      'state:is_console_menu_open',
-    );
+    const isConsoleMenuOpen = LocalStorage.getItem<boolean>('is_console_menu_open');
 
     return isConsoleMenuOpen ?? true;
   });
 
   const handleMenuOpen = () => {
-    const isConsoleMenuOpen =
-      LocalStorage.getItem<boolean>('state:is_console_menu_open') ?? true;
+    const isConsoleMenuOpen = LocalStorage.getItem<boolean>('is_console_menu_open') ?? true;
 
-    LocalStorage.setItem('state:is_console_menu_open', !isConsoleMenuOpen);
+    LocalStorage.setItem('is_console_menu_open', !isConsoleMenuOpen);
 
     setIsMenuOpen((isOpen) => !isOpen);
   };

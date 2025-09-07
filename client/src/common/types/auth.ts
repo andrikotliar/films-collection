@@ -1,3 +1,4 @@
 export type AuthResponse = {
-  userId: string;
+  id: string;
+  exp: number;
 };
