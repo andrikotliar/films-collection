@@ -12,6 +12,8 @@ type ApiClientOptions = {
   baseUrl: string;
 };
 
+const TOKEN_ERRORS = ['TOKEN_EXPIRED', 'TOKEN_MISSED'];
+
 export class HttpError extends Error {
   readonly status: number;
   readonly message: string;
@@ -59,9 +61,23 @@ export class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (error?.response?.statusCode === 401 && !window.location.pathname.includes('login')) {
-        LocalStorage.clearStorage();
-        throw redirect({ to: '/login' });
+      if (error.response?.statusCode === 401) {
+        try {
+          if (!TOKEN_ERRORS.includes(error.response?.code)) {
+            throw new HttpError(error.response.status, error.response.statusText, error.response);
+          }
+
+          await this.request('/auth/refresh', {
+            method: 'POST',
+          });
+
+          return this.request(path, options);
+        } catch (_error) {
+          if (!window.location.pathname.includes('login')) {
+            LocalStorage.removeItem('state:is_authenticated');
+            throw redirect({ to: '/login' });
+          }
+        }
       }
 
       throw new HttpError(
