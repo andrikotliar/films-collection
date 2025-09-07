@@ -61,7 +61,7 @@ export class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (error.response?.statusCode === 401) {
+      if (error.response?.statusCode === 401 && path !== '/auth/refresh') {
         try {
           if (!TOKEN_ERRORS.includes(error.response?.code)) {
             throw new HttpError(error.response.status, error.response.statusText, error.response);
