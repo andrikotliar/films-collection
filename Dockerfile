@@ -25,7 +25,6 @@ COPY --from=builder /app/server/dist ./dist
 COPY --from=builder /app/server/node_modules ./node_modules
 COPY --from=builder /app/server/prisma ./prisma
 COPY --from=builder /app/server/package.json ./
-COPY --from=builder /app/dataset ./dataset
 
 ENV NODE_ENV=production
 EXPOSE 5000
