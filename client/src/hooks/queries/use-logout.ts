@@ -9,7 +9,7 @@ export const useLogout = () => {
   return useMutation({
     mutationFn: AuthenticationApi.logout,
     onSuccess: () => {
-      LocalStorage.removeItem('state:is_authenticated');
+      LocalStorage.removeItem('auth_exp');
       navigate({ to: '/login' });
     },
   });

@@ -1,49 +1,43 @@
 import fastifyPlugin from 'fastify-plugin';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
-import {
-  ACCESS_TOKEN_MAX_AGE_SEC,
-  getCookie,
-  REFRESH_TOKEN_MAX_AGE_SEC,
-  setCookie,
-  UnauthorizedException,
-} from 'src/common';
+import { CookieName, getCookie, UnauthorizedException } from 'src/common';
 import { users } from 'src/modules/users/users.module';
-import { auth } from 'src/modules/auth/auth.module';
+import type { VerifiedTokenData } from 'src/modules/auth/types';
 
 const authDecorator = async (app: FastifyInstance) => {
   app.decorate('authenticate', async function (request: FastifyRequest, reply: FastifyReply) {
-    const result = await auth.checkAuthStatus(
-      {
-        accessToken: getCookie(request, 'ACCESS_TOKEN'),
-        refreshToken: getCookie(request, 'REFRESH_TOKEN'),
-      },
-      app.jwt,
-    );
+    const token = getCookie(request, 'ACCESS_TOKEN');
 
-    if (!result) {
+    if (!token) {
+      throw new UnauthorizedException({
+        code: 'TOKEN_MISSED',
+        message: 'Malformed credentials',
+      });
+    }
+
+    let payload: VerifiedTokenData;
+
+    try {
+      payload = this.jwt.verify<VerifiedTokenData>(token);
+    } catch (error: any) {
+      if (error?.code === 'FAST_JWT_EXPIRED') {
+        reply.clearCookie(CookieName.ACCESS_TOKEN);
+
+        throw new UnauthorizedException({
+          code: 'TOKEN_EXPIRED',
+        });
+      }
+
       throw new UnauthorizedException();
     }
 
-    if (!result.newTokens) {
-      app.log.info(`User with ID [${result.id}] has valid tokens, proceed!`);
-      return;
+    const user = await users.getUser(payload.id);
+
+    if (!user) {
+      throw new UnauthorizedException({
+        message: 'User not found',
+      });
     }
-
-    await users.setRefreshToken({
-      id: result.id,
-      refreshToken: result.newTokens.refreshToken,
-    });
-
-    setCookie(reply, {
-      name: 'ACCESS_TOKEN',
-      value: result.newTokens.accessToken,
-      maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
-    });
-    setCookie(reply, {
-      name: 'REFRESH_TOKEN',
-      value: result.newTokens.refreshToken,
-      maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-    });
   });
 };
 

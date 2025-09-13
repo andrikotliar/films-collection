@@ -52,7 +52,7 @@ function PageContainer() {
       };
     }
 
-    const localValues = LocalStorage.getItem<FilmFormValues>(`films:${id}`);
+    const localValues = LocalStorage.getItem<FilmFormValues>(`film_${id}`);
 
     if (localValues) {
       return {

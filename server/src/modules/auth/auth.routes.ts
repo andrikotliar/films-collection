@@ -44,39 +44,41 @@ export const authRoutes = useRoutes('auth', [
       });
 
       return {
-        userId: data.id,
+        id: data.id,
       };
     },
   }),
   defineRoute({
-    method: 'GET',
-    url: '/state',
+    method: 'POST',
+    url: '/refresh',
     async handler({ request, reply }) {
-      const accessToken = getCookie(request, 'ACCESS_TOKEN');
-      const refreshToken = getCookie(request, 'REFRESH_TOKEN');
+      const token = getCookie(request, 'REFRESH_TOKEN');
 
-      const data = await auth.checkAuthStatus({ accessToken, refreshToken }, request.server.jwt);
+      if (!token) {
+        throw new UnauthorizedException();
+      }
+
+      const data = await auth.refreshTokens(token, request.server.jwt);
 
       if (!data) {
-        clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
         throw new UnauthorizedException({
-          code: 'INCORRECT_CREDENTIALS',
-          message: 'Incorrect credentials',
+          code: 'INVALID_TOKEN',
         });
       }
 
-      if (data.newTokens) {
-        setCookie(reply, {
-          name: 'ACCESS_TOKEN',
-          value: data.newTokens.accessToken,
-          maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
-        });
-        setCookie(reply, {
-          name: 'REFRESH_TOKEN',
-          value: data.newTokens.accessToken,
-          maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-        });
-      }
+      setCookie(reply, {
+        name: 'ACCESS_TOKEN',
+        value: data.accessToken,
+        maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
+      });
+
+      setCookie(reply, {
+        name: 'REFRESH_TOKEN',
+        value: data.refreshToken,
+        maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
+      });
+
+      await users.setRefreshToken(data);
 
       return {
         id: data.id,

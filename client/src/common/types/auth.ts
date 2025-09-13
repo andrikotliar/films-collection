@@ -1,3 +1,3 @@
 export type AuthResponse = {
-  userId: string;
+  id: number;
 };

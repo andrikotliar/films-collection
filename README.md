@@ -38,9 +38,9 @@ A personal list of films with manually collected data. The app primarily focuses
 
 The application requires poster images. It can work without them, but you will see a placeholder instead of film posters.
 
-Put images into a [Cloudinary](https://cloudinary.com/) storage. The films dataset has property `poster` which contains path to the file. To work properly images should have the same path.
+Put images into a [Cloudinary](https://cloudinary.com/) storage. The film schema has property `poster` which should contain path to the file.
 
-The backend support uploading images from the admin page only to the Cloudinary, but you can put your images in any storage that provides direct links to start working on the public part of the app. You can even put images in the `public` directory and set the environment variable `VITE_BASE_MEDIA_URL=http://localhost:8080` in the `client/.env` file.
+The backend supports uploading images from the admin page only to the Cloudinary, but you can put your images in any storage that provides direct links to start working on the frontend part of the app. You can even put images in the `public` directory and set the environment variable `VITE_BASE_MEDIA_URL=http://localhost:8080` in the `client/.env` file.
 
 ## Build project
 

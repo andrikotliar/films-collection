@@ -16,7 +16,7 @@ export const FilmValuesWatcher = ({ id }: FilmValuesWatcherProps) => {
   useEffect(() => {
     const { poster: _poster, ...data } = values;
 
-    LocalStorage.setItem(`films:${id}`, data);
+    LocalStorage.setItem(`film_${id}`, data);
   }, [values, id]);
 
   return null;

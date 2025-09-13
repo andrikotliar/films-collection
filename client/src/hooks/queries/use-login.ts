@@ -9,8 +9,8 @@ export const useLogin = () => {
   return useMutation<AuthResponse, HttpError, LoginPayload>({
     mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
-      if (result.userId) {
-        LocalStorage.setItem('state:is_authenticated', true);
+      if (result.id) {
+        LocalStorage.setItem('authenticated', true);
 
         navigate({ to: '/console/pending-films' });
       }

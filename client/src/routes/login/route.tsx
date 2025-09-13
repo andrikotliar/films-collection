@@ -1,4 +1,4 @@
-import { getIsAuthState } from '@/common';
+import { getAuthState } from '@/common';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { LoginForm, LoginLayout } from './-components';
 
@@ -12,9 +12,9 @@ const LoginContainer = () => {
 
 export const Route = createFileRoute('/login')({
   beforeLoad: () => {
-    const isAuth = getIsAuthState();
+    const isAuthenticated = getAuthState();
 
-    if (isAuth) {
+    if (isAuthenticated) {
       throw redirect({ to: '/console/pending-films' });
     }
   },
