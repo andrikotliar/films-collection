@@ -1,13 +1,8 @@
 import { compare } from 'bcrypt';
-import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC, TIME_1_MIN } from 'src/common';
+import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC } from 'src/common';
 import { UsersService } from 'src/modules/users/users.service';
 import { AuthLoginPayload } from './schemas';
-import type {
-  AuthTokens,
-  AuthTokensResponse,
-  VerificationResult,
-  VerifiedTokenData,
-} from 'src/modules/auth/types';
+import type { VerifiedTokenData } from 'src/modules/auth/types';
 import type { JWT } from '@fastify/jwt';
 import { JwtInstanceException } from 'src/modules/auth/exceptions';
 
@@ -41,81 +36,22 @@ export class AuthService {
     };
   }
 
-  private verifyToken(token: string): VerificationResult {
-    if (!this.jwt) {
-      throw new JwtInstanceException();
-    }
-
-    try {
-      const data = this.jwt.verify<VerifiedTokenData>(token);
-
-      return {
-        status: 'success',
-        data,
-        token,
-      };
-    } catch (error: any) {
-      if (error.code === 'FAST_JWT_EXPIRED') {
-        return {
-          status: 'error',
-          errorType: 'expired',
-        };
-      }
-
-      return {
-        status: 'error',
-        errorType: 'unauthorized',
-      };
-    }
-  }
-
-  async checkAuthStatus(tokens: Partial<AuthTokens>, jwt: JWT): Promise<AuthTokensResponse | null> {
+  async refreshTokens(token: string, jwt: JWT) {
     this.setJwtInstance(jwt);
 
-    if (!tokens.accessToken) {
-      return this.refreshTokens(tokens.refreshToken);
-    }
+    const verifiedToken = jwt.verify<VerifiedTokenData>(token);
 
-    const accessTokenResult = this.verifyToken(tokens.accessToken);
-
-    if (accessTokenResult.status === 'success') {
-      const shouldRefreshToken = this.checkShouldRefreshToken(accessTokenResult.data.ext);
-
-      if (!shouldRefreshToken) {
-        return {
-          id: accessTokenResult.data.id,
-          newTokens: null,
-        };
-      }
-
-      return this.refreshTokens(tokens.refreshToken);
-    }
-
-    if (accessTokenResult.errorType === 'unauthorized' || !tokens.refreshToken) {
+    if (!verifiedToken) {
       return null;
     }
 
-    return await this.refreshTokens(tokens.refreshToken);
-  }
-
-  private async refreshTokens(token?: string) {
-    if (!token) {
-      return null;
-    }
-
-    const refreshTokenResult = this.verifyToken(token);
-
-    if (refreshTokenResult.status === 'error') {
-      return null;
-    }
-
-    const user = await this.usersService.getUser(refreshTokenResult.data.id);
+    const user = await this.usersService.getUser(verifiedToken.id);
 
     if (!user) {
       return null;
     }
 
-    const isTokensMatched = refreshTokenResult.token === user.refreshToken;
+    const isTokensMatched = token === user.refreshToken;
 
     if (!isTokensMatched) {
       return null;
@@ -124,11 +60,9 @@ export class AuthService {
     const { accessToken, refreshToken } = this.createAuthTokens(user.id);
 
     return {
+      accessToken,
+      refreshToken,
       id: user.id,
-      newTokens: {
-        accessToken: accessToken,
-        refreshToken: refreshToken,
-      },
     };
   }
 
@@ -151,21 +85,13 @@ export class AuthService {
   }
 
   private createAuthTokens(userId: number) {
-    const accessToken = this.createToken({ id: userId }, ACCESS_TOKEN_MAX_AGE_SEC * 1000);
-    const refreshToken = this.createToken({ id: userId }, REFRESH_TOKEN_MAX_AGE_SEC * 1000);
+    const accessToken = this.createToken({ id: userId }, ACCESS_TOKEN_MAX_AGE_SEC);
+    const refreshToken = this.createToken({ id: userId }, REFRESH_TOKEN_MAX_AGE_SEC);
 
     return {
       accessToken,
       refreshToken,
     };
-  }
-
-  private checkShouldRefreshToken(expTimeSec: number) {
-    const now = Date.now();
-    const expirationMs = expTimeSec * 1000;
-    const timeLeft = expirationMs - now;
-
-    return timeLeft <= TIME_1_MIN;
   }
 
   private setJwtInstance(jwt: JWT) {

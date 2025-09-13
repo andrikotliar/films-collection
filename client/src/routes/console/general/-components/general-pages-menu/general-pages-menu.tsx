@@ -1,5 +1,4 @@
-import styles from './general-pages-menu.module.css';
-import { MenuConfigItem } from '@/common';
+import type { MenuConfigItem } from '@/common';
 import { Link } from '@tanstack/react-router';
 import {
   Building2Icon,
@@ -52,12 +51,16 @@ const generalPagesConfig: MenuConfigItem[] = [
 
 export const GeneralPagesMenu = () => {
   return (
-    <div className={styles.wrapper}>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {generalPagesConfig.map((item) => (
-        <Link to={item.route} key={item.id} className={styles.link}>
-          {item.icon}
+        <Link
+          to={item.route}
+          key={item.id}
+          className="flex gap-2 bg-white p-5 rounded-md border border-slate-300 hover:border-slate-500 hover:text-sky-700 transition"
+        >
+          <div className="shrink-0">{item.icon}</div>
           <div>{item.title}</div>
-          <ChevronRightIcon className={styles.chevronIcon} />
+          <ChevronRightIcon className="ml-auto" />
         </Link>
       ))}
     </div>

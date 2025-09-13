@@ -24,24 +24,26 @@ export const ItemRow = <T extends DefaultListItem>({
   onView,
 }: ItemRowProps<T>) => {
   return (
-    <div className="flex items-center border-b border-b-slate-300 p-3.5 justify-between last:border-0 hover:bg-slate-50 transition">
-      <div className="flex items-center gap-4">
-        {data.priority && <PriorityBadge value={data.priority} />}
-        <div className="min-w-50 max-w-80">{data[titleKey]}</div>
+    <div className="border-b border-b-slate-300 p-3.5 justify-between last:border-0 hover:bg-slate-50 transition">
+      <div className="flex justify-between gap-2">
+        <div className="flex items-center gap-4">
+          {data.priority && <PriorityBadge value={data.priority} />}
+          <div>{data[titleKey]}</div>
+        </div>
+        <div className="flex items-center justify-end gap-5">
+          {typeof onView === 'function' && (
+            <Button onClick={() => onView(data)} variant="ghost" icon={<EyeIcon />} />
+          )}
+          {typeof onCreate === 'function' && (
+            <Button onClick={() => onCreate(data)} variant="ghost" icon={<PlusSquareIcon />} />
+          )}
+          <Button onClick={() => onEdit(data)} variant="ghost" icon={<PencilIcon />} />
+          <Button onClick={() => onDelete(data)} variant="ghost" icon={<Trash2Icon />} />
+        </div>
       </div>
       {typeof description === 'function' && (
-        <div className="text-sm text-gray-600 w-50">{description(data)}</div>
+        <div className="text-xs text-gray-600 mt-1">{description(data)}</div>
       )}
-      <div className="flex items-center gap-5">
-        {typeof onView === 'function' && (
-          <Button onClick={() => onView(data)} variant="ghost" icon={<EyeIcon />} />
-        )}
-        {typeof onCreate === 'function' && (
-          <Button onClick={() => onCreate(data)} variant="ghost" icon={<PlusSquareIcon />} />
-        )}
-        <Button onClick={() => onEdit(data)} variant="ghost" icon={<PencilIcon />} />
-        <Button onClick={() => onDelete(data)} variant="ghost" icon={<Trash2Icon />} />
-      </div>
     </div>
   );
 };

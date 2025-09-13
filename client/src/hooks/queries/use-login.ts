@@ -10,7 +10,7 @@ export const useLogin = () => {
     mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
       if (result.id) {
-        LocalStorage.setItem('auth_exp', result.exp);
+        LocalStorage.setItem('authenticated', true);
 
         navigate({ to: '/console/pending-films' });
       }

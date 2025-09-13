@@ -1,4 +1,3 @@
 export type AuthResponse = {
-  id: string;
-  exp: number;
+  id: number;
 };
