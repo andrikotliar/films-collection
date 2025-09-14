@@ -19,7 +19,7 @@ export const Tabs = ({ film }: TabsProps) => {
           key={item.route}
           className={classNames('pb-1 hover:text-sky-700 hover:border-b-sky-700', {
             'text-sky-700 border-b-2 border-b-sky-700 pointer-events-none font-medium':
-              location.pathname.replace(/\d/, '$id') === item.route,
+              location.pathname.replace(/\d+/, '$id') === item.route,
           })}
         >
           {item.title}
