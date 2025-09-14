@@ -11,7 +11,13 @@ const NUMBERS_SEQUENCE_REGEX = /\d+/;
 
 export const Tabs = ({ film }: TabsProps) => {
   const location = useRouterState({ select: (s) => s.location });
-  const config = filmTabsConfig.filter((item) => film[item.condition]);
+  const config = filmTabsConfig.filter((item) => {
+    if (Array.isArray(film[item.condition])) {
+      return (film[item.condition] as Array<any>).length;
+    }
+
+    return film[item.condition];
+  });
 
   return (
     <div className="flex gap-5 py-5 overflow-auto">
