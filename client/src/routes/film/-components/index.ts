@@ -1,4 +1,4 @@
-export * from './film-page-layout/film-page-layout';
+export * from './film-page-layout';
 export * from './content-layout/content-layout';
 export * from './title-row/title-row';
 export * from './summary-section/summary-section';
@@ -14,3 +14,4 @@ export * from './links-group/links-group';
 export * from './links-group-wrapper/links-group-wrapper';
 export * from './box-office-value/box-office-value';
 export * from './dates/dates';
+export * from './tabs';

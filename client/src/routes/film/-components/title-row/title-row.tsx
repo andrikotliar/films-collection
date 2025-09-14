@@ -1,6 +1,5 @@
 import { Rating, Title } from './components';
-import { FilmDetails } from '@/common';
-import styles from './title-row.module.css';
+import { type FilmDetails } from '@/common';
 
 type TitleRowProps = {
   data: FilmDetails;
@@ -8,7 +7,7 @@ type TitleRowProps = {
 
 export const TitleRow = ({ data }: TitleRowProps) => {
   return (
-    <div className={styles.titleRow}>
+    <div className="flex gap-2.5 flex-col md:flex-row md:gap-10 justify-between items-start">
       <Title>{data.title}</Title>
       <Rating value={data.rating} />
     </div>

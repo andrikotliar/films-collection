@@ -1,0 +1,30 @@
+import type { FilmDetails } from '@/common';
+import { filmTabsConfig } from '@/routes/film/-configs/film-tabs';
+import { Link, useRouterState } from '@tanstack/react-router';
+import classNames from 'classnames';
+
+type TabsProps = {
+  film: FilmDetails;
+};
+
+export const Tabs = ({ film }: TabsProps) => {
+  const location = useRouterState({ select: (s) => s.location });
+  const config = filmTabsConfig.filter((item) => film[item.condition]);
+
+  return (
+    <div className="flex gap-5 py-5 overflow-auto">
+      {config.map((item) => (
+        <Link
+          to={item.route}
+          key={item.route}
+          className={classNames('pb-1 hover:text-sky-700 hover:border-b-sky-700', {
+            'text-sky-700 border-b-2 border-b-sky-700 pointer-events-none font-medium':
+              location.pathname.replace(/\d/, '$id') === item.route,
+          })}
+        >
+          {item.title}
+        </Link>
+      ))}
+    </div>
+  );
+};

@@ -1,6 +1,5 @@
 import { Link } from '@tanstack/react-router';
-import { FilmAward } from '@/common';
-import { Image } from '@/components';
+import { type FilmAward } from '@/common';
 import { Nomination } from './components';
 import styles from './awards.module.css';
 import classNames from 'classnames';
@@ -16,7 +15,7 @@ export const Awards = ({ awards }: AwardsProps) => {
         <div key={award.id} className={styles.row}>
           <div>
             <h3 className={styles.title}>
-              <Link to="/" search={{ awardId: String(award.id) }}>
+              <Link to="/" search={{ awardId: String(award.id) }} className="font-bold">
                 {award.title}
               </Link>
             </h3>
@@ -27,12 +26,7 @@ export const Awards = ({ awards }: AwardsProps) => {
           </div>
           <div className={classNames(styles.cell, styles.nominations)}>
             {nominations.map(({ title, person, comment }, index) => (
-              <Nomination
-                title={title}
-                key={index}
-                nominee={person}
-                comment={comment}
-              />
+              <Nomination title={title} key={index} nominee={person} comment={comment} />
             ))}
           </div>
         </div>

@@ -1,6 +1,8 @@
 .description {
   line-height: 1.5;
-  margin-top: 10px;
+  border: var(--app-border);
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .description p {
