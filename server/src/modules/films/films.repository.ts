@@ -40,13 +40,17 @@ export class FilmsRepository {
         title: true,
         poster: true,
         releaseDate: true,
-        description: true,
         duration: true,
         budget: true,
         boxOffice: true,
         rating: true,
         chapterKey: true,
         type: true,
+        overview: {
+          select: {
+            text: true,
+          },
+        },
         genres: {
           select: {
             genre: true,
@@ -143,7 +147,6 @@ export class FilmsRepository {
         boxOffice: true,
         duration: true,
         releaseDate: true,
-        description: true,
         chapterKey: true,
         chapterOrder: true,
         genres: {
