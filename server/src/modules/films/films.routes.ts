@@ -6,6 +6,7 @@ import {
   SearchFilmsQuerySchema,
   GetAdminFilmParamsSchema,
   GetFilmOptionsSchema,
+  UpdateFilmWatchCounterSchema,
 } from './schemas';
 import { films } from 'src/modules/films/films.module';
 
@@ -105,6 +106,19 @@ export const filmsRoutes = useRoutes('films', [
       }
 
       return data;
+    },
+  }),
+
+  defineRoute({
+    method: 'PATCH',
+    url: '/admin/:id/counter',
+    schema: {
+      params: IdParamSchema,
+      body: UpdateFilmWatchCounterSchema,
+    },
+    isPrivate: true,
+    handler: async ({ request }) => {
+      return await films.updateFilmWatchCount(request.params.id, request.body.counter);
     },
   }),
 

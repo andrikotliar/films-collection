@@ -140,4 +140,8 @@ export class FilmsService {
       value: film.id,
     }));
   }
+
+  updateFilmWatchCount(filmId: number, value: number) {
+    return this.filmsRepository.updateWatchCounter(filmId, value);
+  }
 }

@@ -66,6 +66,12 @@ export class FilmsRepository {
             studio: true,
           },
         },
+        watchCounter: {
+          select: {
+            realCounter: true,
+            approxCounter: true,
+          },
+        },
         seriesExtension: {
           select: {
             episodesTotal: true,
@@ -336,5 +342,16 @@ export class FilmsRepository {
     }
 
     return queryResult;
+  }
+
+  updateWatchCounter(filmId: number, value: number) {
+    return this.databaseClient.filmWatchCount.update({
+      where: {
+        filmId,
+      },
+      data: {
+        realCounter: value,
+      },
+    });
   }
 }
