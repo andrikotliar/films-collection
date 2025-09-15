@@ -4,8 +4,8 @@
   align-items: center;
   gap: 10px;
   background-color: var(--yellow-saturated);
-  padding: 5px 15px;
-  border-radius: 5px;
+  padding: 4px 16px;
+  border-radius: 4px;
   flex-shrink: 0;
 }
 
@@ -25,20 +25,4 @@
 
 .value {
   font-weight: bold;
-}
-
-@media (max-width: 980px) {
-  .rating {
-    position: absolute;
-    top: 64px;
-    right: 20px;
-  }
-}
-
-@media (max-width: 680px) {
-  .rating {
-    top: 74px;
-    right: 30px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  }
 }

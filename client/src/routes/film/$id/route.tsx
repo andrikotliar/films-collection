@@ -22,8 +22,10 @@ function FilmPageContainer() {
     <FilmPageLayout>
       <NavigationRow />
       <SummarySection film={film} />
-      <Tabs film={film} />
-      <Outlet />
+      <div className="px-5 xl:px-0">
+        <Tabs film={film} />
+        <Outlet />
+      </div>
     </FilmPageLayout>
   );
 }
