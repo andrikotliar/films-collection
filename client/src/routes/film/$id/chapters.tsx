@@ -9,7 +9,7 @@ export const Route = createFileRoute('/film/$id/chapters')({
 function RouteComponent() {
   const film = useFilm();
 
-  if (!film.chapters) {
+  if (!film.chapters?.length) {
     return <Navigate to="/film/$id" params={{ id: film.id.toString() }} />;
   }
 

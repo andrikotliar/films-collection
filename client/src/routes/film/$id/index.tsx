@@ -9,5 +9,9 @@ export const Route = createFileRoute('/film/$id/')({
 function RouteComponent() {
   const film = useFilm();
 
+  if (!film.castAndCrew?.length) {
+    return null;
+  }
+
   return <CrewCastList people={film.castAndCrew} />;
 }
