@@ -60,6 +60,11 @@ export type Chapter = Pick<Film, 'id' | 'title' | 'poster'> & {
   chapterOrder: number;
 };
 
+export type WatchCounter = {
+  realCounter: number;
+  approxCounter: number;
+};
+
 export type Film = {
   id: number;
   type: TitleType;
@@ -90,6 +95,7 @@ export type FilmDetails = Omit<Film, 'genres' | 'countries' | 'collections' | 's
   countries: FilmBaseDataItem[];
   collections: FilmBaseDataItem[];
   studios: FilmBaseDataItem[];
+  watchCounter?: WatchCounter;
 };
 
 export type FilmsListItem = Pick<Film, 'id' | 'title' | 'poster' | 'releaseDate'>;

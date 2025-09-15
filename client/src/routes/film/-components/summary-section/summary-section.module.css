@@ -34,11 +34,6 @@
 @media (max-width: 1280px) {
   .summaryLayout {
     border-radius: 0;
-  }
-}
-
-@media (max-width: 980px) {
-  .summaryLayout {
     flex-direction: column;
     padding-top: 64px;
     margin-top: -64px;

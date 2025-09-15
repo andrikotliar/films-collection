@@ -40,13 +40,17 @@ export class FilmsRepository {
         title: true,
         poster: true,
         releaseDate: true,
-        description: true,
         duration: true,
         budget: true,
         boxOffice: true,
         rating: true,
         chapterKey: true,
         type: true,
+        overview: {
+          select: {
+            text: true,
+          },
+        },
         genres: {
           select: {
             genre: true,
@@ -60,6 +64,12 @@ export class FilmsRepository {
         studios: {
           select: {
             studio: true,
+          },
+        },
+        watchCounter: {
+          select: {
+            realCounter: true,
+            approxCounter: true,
           },
         },
         seriesExtension: {
@@ -143,7 +153,6 @@ export class FilmsRepository {
         boxOffice: true,
         duration: true,
         releaseDate: true,
-        description: true,
         chapterKey: true,
         chapterOrder: true,
         genres: {
@@ -333,5 +342,16 @@ export class FilmsRepository {
     }
 
     return queryResult;
+  }
+
+  updateWatchCounter(filmId: number, value: number) {
+    return this.databaseClient.filmWatchCount.update({
+      where: {
+        filmId,
+      },
+      data: {
+        realCounter: value,
+      },
+    });
   }
 }

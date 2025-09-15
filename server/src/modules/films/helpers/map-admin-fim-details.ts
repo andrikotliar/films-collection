@@ -1,8 +1,4 @@
-import { AdminFilmWithRelations } from 'src/modules/films/types';
-
-const getIds = () => {};
-
-export const mapAdminFilmDetails = (film: AdminFilmWithRelations) => {
+export const mapAdminFilmDetails = (film: Record<string, unknown>) => {
   const {} = film;
 
   return {
