@@ -1,4 +1,4 @@
-import { Chapters } from '@/routes/film/-components';
+import { ChapterLink } from '@/routes/film/-components';
 import { useFilm } from '@/routes/film/-hooks/use-film';
 import { createFileRoute, Navigate } from '@tanstack/react-router';
 
@@ -13,5 +13,17 @@ function RouteComponent() {
     return <Navigate to="/film/$id" params={{ id: film.id.toString() }} />;
   }
 
-  return <Chapters data={film.chapters} filmId={film.id} />;
+  return (
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(100px,1fr))] gap-5">
+      {film.chapters.map((chapter) => (
+        <ChapterLink
+          id={chapter.id}
+          chapter={chapter.chapterOrder}
+          title={chapter.title}
+          isActive={chapter.id === film.id}
+          poster={chapter.poster}
+        />
+      ))}
+    </div>
+  );
 }
