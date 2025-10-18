@@ -1,5 +1,5 @@
-import { ChapterLink } from '~/routes/film/-components';
-import { useFilm } from '~/routes/film/-hooks/use-film';
+import { ChapterLink } from '~/routes/films/-components';
+import { useFilm } from '~/routes/films/-hooks/use-film';
 import { createFileRoute, Navigate } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/film/$id/chapters')({

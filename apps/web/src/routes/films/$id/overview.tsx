@@ -1,5 +1,5 @@
-import { Description } from '~/routes/film/-components';
-import { useFilm } from '~/routes/film/-hooks/use-film';
+import { Description } from '~/routes/films/-components';
+import { useFilm } from '~/routes/films/-hooks/use-film';
 import { createFileRoute, Navigate } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/film/$id/overview')({
