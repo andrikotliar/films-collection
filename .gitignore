@@ -27,8 +27,5 @@ dist
 *.sln
 *.sw?
 
-# Local files
-dataset/*.js
-
-# Docker volumes
-films_collection_database
+# Generated modules
+.tanstack

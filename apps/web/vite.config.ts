@@ -14,7 +14,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: '../server/dist/public',
+    outDir: '../api/dist/public',
     emptyOutDir: true,
   },
   plugins: [

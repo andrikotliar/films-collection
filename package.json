@@ -3,20 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "install:client": "cd client && pnpm install",
-    "install:server": "cd server && pnpm install",
-    "install:all": "pnpm install:server && pnpm install:client",
-    "dev:client": "cd client && pnpm dev",
-    "dev:server": "cd server && pnpm dev",
-    "start:db": "docker compose --env-file=server/.env up database -d",
-    "build:client": "cd client && pnpm build",
-    "build:server": "cd server && pnpm build",
-    "build:container": "docker compose --env-file=server/.env up -d --build",
-    "build:all": "pnpm build:server && pnpm build:client",
-    "db:init": "cd server && pnpm db:migrate"
-  },
-  "devDependencies": {
-    "concurrently": "^9.0.1"
+    "build": "pnpm --filter ./apps/api run build && pnpm --filter ./apps/web run build",
+    "build:container": "docker compose -f docker-compose.prod.yml up -d --build",
+    "db:client:generate": "cd apps/api && pnpm db:client:generate",
+    "db:init": "cd apps/api && pnpm db:migrate",
+    "db:start": "docker compose --env-file=apps/api/.env up database -d",
+    "dev": "pnpm db:start && pnpm run -r --parallel --aggregate-output dev",
+    "start:prod": "cd apps/api && pnpm db:deploy && pnpm start"
   },
   "author": "Andrii Kotliar",
   "repository": {

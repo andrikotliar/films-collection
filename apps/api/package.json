@@ -1,10 +1,10 @@
 {
-  "name": "films-collection-server",
+  "name": "films-collection-api",
   "private": "true",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "build": "tsc && swc src -d dist --strip-leading-paths",
+    "dev": "pnpm db:client:generate && tsx watch src/server.ts",
+    "build": "tsc && tsc-alias",
     "start": "node dist/server.js",
     "db:client:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
@@ -26,11 +26,10 @@
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.1",
     "sanitize-html": "^2.16.0",
+    "tsc-alias": "^1.8.16",
     "zod": "^4.0.5"
   },
   "devDependencies": {
-    "@swc/cli": "^0.4.1-nightly.20240914",
-    "@swc/core": "^1.7.26",
     "@types/bcrypt": "^5.0.2",
     "@types/node": "^22.13.1",
     "@types/sanitize-html": "^2.16.0",
