@@ -1,5 +1,5 @@
 {
-  "name": "films-collection-api",
+  "name": "@films-collection/api",
   "private": "true",
   "type": "module",
   "scripts": {
