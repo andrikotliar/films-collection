@@ -1,5 +1,10 @@
-import { Form, FormTextArea, FormTextInput } from '~/components';
-import { useMutateAward, type AwardMutationPayload } from '~/hooks';
+import {
+  Form,
+  FormTextArea,
+  FormTextInput,
+  useMutateAward,
+  type AwardMutationPayload,
+} from '~/common';
 import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form';
 import { awardFormSchema } from '~/routes/console/general_/awards_/-validation';
 

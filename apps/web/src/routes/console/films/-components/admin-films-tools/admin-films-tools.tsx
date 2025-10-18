@@ -1,7 +1,11 @@
-import { type SortingParams, SortingPopup, TextInput } from '~/components';
-import { type ListOption } from '~/common';
+import {
+  type SortingParams,
+  type ListOption,
+  SortingPopup,
+  TextInput,
+  useDebouncedSearch,
+} from '~/common';
 import styles from './admin-films-tools.module.css';
-import { useDebouncedSearch } from '~/hooks';
 import { getRouteApi } from '@tanstack/react-router';
 
 const sortingFields: ListOption[] = [

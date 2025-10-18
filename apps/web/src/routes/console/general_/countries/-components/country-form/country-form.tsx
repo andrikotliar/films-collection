@@ -1,6 +1,10 @@
-import type { FormComponentProps } from '~/common';
-import { Form, FormTextInput } from '~/components';
-import { type CountryMutationPayload, useMutateCountry } from '~/hooks/queries';
+import {
+  Form,
+  FormTextInput,
+  useMutateCountry,
+  type CountryMutationPayload,
+  type FormComponentProps,
+} from '~/common';
 import { getFormTitle } from '~/routes/console/-common/helpers';
 import { countryFormValidation } from '~/routes/console/general_/countries/-validation';
 

@@ -1,4 +1,4 @@
-import { Button, PriorityBadge } from '~/components';
+import { Button, PriorityBadge } from '~/common';
 import { type DefaultListItem } from '~/routes/console/-common';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
 

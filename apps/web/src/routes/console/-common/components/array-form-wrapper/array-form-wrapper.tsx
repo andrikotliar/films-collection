@@ -1,6 +1,6 @@
 import styles from './array-form-wrapper.module.css';
-import { Button } from '~/components';
-import { ReactNode } from 'react';
+import { Button } from '~/common';
+import { type ReactNode } from 'react';
 import { PlusIcon } from 'lucide-react';
 
 type ArrayFormWrapperProps = {

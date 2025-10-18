@@ -1,7 +1,12 @@
-import { BackLink, ConsoleContent, ConsoleTitle } from '~/components';
-import { useDeleteGenre, type GenreMutationPayload } from '~/hooks';
+import {
+  BackLink,
+  ConsoleContent,
+  ConsoleTitle,
+  fetchGenresListQuery,
+  useDeleteGenre,
+  type GenreMutationPayload,
+} from '~/common';
 import { AddItemButton, FormModal, List } from '~/routes/console/-common';
-import { fetchGenresListQuery } from '~/common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';

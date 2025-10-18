@@ -2,9 +2,17 @@ import styles from './chapter-select.module.css';
 import { type ChangeEvent, useCallback, useMemo, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import { debounce, fetchChapterKeysOptionsQuery } from '~/common';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { FieldError, FormSection, FormSelect, Loader, TextInput, Toggle } from '~/components';
+import {
+  FieldError,
+  FormSection,
+  FormSelect,
+  Loader,
+  TextInput,
+  Toggle,
+  debounce,
+  fetchChapterKeysOptionsQuery,
+} from '~/common';
 import { Chapters } from './components';
 
 type ChapterSelectProps = {

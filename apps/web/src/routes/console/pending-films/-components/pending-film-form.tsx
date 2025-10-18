@@ -5,15 +5,14 @@ import {
   FormSelect,
   FormRatingInput,
   Form,
-} from '~/components';
-import { useQuery } from '@tanstack/react-query';
-import {
   fetchInitialDataQuery,
   priorityOptions,
   type FormComponentProps,
   type StatusColor,
+  useMutatePendingFilm,
+  type PendingFilmMutationPayload,
 } from '~/common';
-import { useMutatePendingFilm, type PendingFilmMutationPayload } from '~/hooks';
+import { useQuery } from '@tanstack/react-query';
 import { pendingFilmSchema } from '~/routes/console/pending-films/-validation';
 import { getFormTitle } from '~/routes/console/-common/helpers';
 

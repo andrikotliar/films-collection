@@ -1,6 +1,9 @@
-import { useDocumentTitle, useScrollToTop } from '~/hooks';
-import { fetchPageContentByKeyQuery } from '~/common';
-import { ArticleContent } from '~/components';
+import {
+  fetchPageContentByKeyQuery,
+  ArticleContent,
+  useDocumentTitle,
+  useScrollToTop,
+} from '~/common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 

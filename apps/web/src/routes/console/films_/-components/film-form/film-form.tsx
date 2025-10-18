@@ -8,15 +8,15 @@ import {
   FormSelect,
   FormFileInput,
   Form,
-} from '~/components';
-import { fetchInitialDataQuery } from '~/common';
+  fetchInitialDataQuery,
+  type PersonMutationPayload,
+} from '~/common';
 import { AwardsSelect, ChapterSelect, CastAndCrewSelect, TrailersSelect } from './components';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmValuesWatcher } from '~/routes/console/films_/-components/film-values-watcher';
 import { filmFormSchema } from '~/routes/console/films_/-validation/film-form-schema';
 import { useState } from 'react';
-import type { PersonMutationPayload } from '~/hooks';
 import { FormModal, PersonForm } from '~/routes/console/-common';
 
 type FilmFormProps = {

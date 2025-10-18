@@ -1,7 +1,6 @@
-import { Modal } from '~/components';
+import { Modal, type Film, type FilmTrailer } from '~/common';
 import styles from './trailers-modal.module.css';
-import { Film, FilmTrailer } from '~/common';
-import { Playlist } from './components';
+import { Playlist } from '~/routes/films/-components/summary-section/components/trailers/components/trailers-modal/components';
 
 type TrailersModalProps = {
   onClose: VoidFunction;

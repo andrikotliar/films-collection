@@ -1,5 +1,4 @@
-import { RouterLink } from '~/components';
-import { type Person } from '~/common';
+import { type Person, RouterLink } from '~/common';
 
 type NominationProps = {
   title: string;

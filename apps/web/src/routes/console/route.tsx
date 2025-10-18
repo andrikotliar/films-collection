@@ -1,5 +1,4 @@
-import { ConsoleLayout } from '~/components';
-import { getAuthState } from '~/common';
+import { getAuthState, ConsoleLayout } from '~/common';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/console')({

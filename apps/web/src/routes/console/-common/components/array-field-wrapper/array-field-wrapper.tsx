@@ -1,7 +1,7 @@
 import styles from './array-field-wrapper.module.css';
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { Trash2Icon } from 'lucide-react';
-import { Button } from '~/components';
+import { Button } from '~/common';
 
 type ArrayFieldWrapperProps = {
   onRemove: VoidFunction;

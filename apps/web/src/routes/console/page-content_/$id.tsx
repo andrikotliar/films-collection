@@ -1,5 +1,6 @@
-import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPageContentByIdQuery, isNewItem } from '~/common';
-import { pageContentFormValidation } from './-validation';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { createFileRoute } from '@tanstack/react-router';
+import sanitize from 'sanitize-html';
 import {
   BackLink,
   ConsoleContent,
@@ -8,12 +9,15 @@ import {
   FormTextEditor,
   FormTextInput,
   Panel,
-} from '~/components';
-import { useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute } from '@tanstack/react-router';
-import sanitize from 'sanitize-html';
-import { useMutatePageContent, type PageContentMutationPayload } from '~/hooks';
-import { getDefaultFormValues } from './-helpers';
+  useMutatePageContent,
+  type PageContentMutationPayload,
+  ALLOWED_HTML_TAGS,
+  NEW_ITEM_ID,
+  fetchPageContentByIdQuery,
+  isNewItem,
+} from '~/common';
+import { getDefaultFormValues } from '~/routes/console/page-content_/-helpers';
+import { pageContentFormValidation } from '~/routes/console/page-content_/-validation';
 
 export const Route = createFileRoute('/console/page-content_/$id')({
   loader: async ({ context: { queryClient }, params }) => {

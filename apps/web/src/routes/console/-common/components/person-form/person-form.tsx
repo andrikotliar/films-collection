@@ -1,6 +1,10 @@
-import { Form, FormTextInput } from '~/components';
-import { type FormComponentProps } from '~/common';
-import { useMutatePerson, type PersonMutationPayload } from '~/hooks';
+import {
+  type FormComponentProps,
+  Form,
+  FormTextInput,
+  useMutatePerson,
+  type PersonMutationPayload,
+} from '~/common';
 import { personSchema } from '~/routes/console/-common/components/person-form/validation';
 import { getFormTitle } from '~/routes/console/-common/helpers';
 

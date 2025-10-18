@@ -4,20 +4,23 @@ import {
   fetchAdminListQuery,
   type AdminFilmsQueryFilters,
   type FilmsAdminListItem,
+  useDeleteFilm,
+  useDocumentTitle,
+  ConsoleContent,
+  ConsoleTitle,
+  Pagination,
 } from '~/common';
-import { useDeleteFilm, useDocumentTitle } from '~/hooks';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { ConsoleContent, ConsoleTitle, Pagination } from '~/components';
-import { number, object, string } from 'yup';
+import * as yup from 'yup';
 import { AddItemLink, List } from '~/routes/console/-common';
 import { AdminFilmsTools } from '~/routes/console/films/-components';
 
-const adminFilmsFilterSchema = object().shape({
-  q: string().nullable(),
-  pageIndex: number().min(0),
-  sortingField: string(),
-  sortingDirection: string().oneOf(['asc', 'desc']),
+const adminFilmsFilterSchema = yup.object().shape({
+  q: yup.string().nullable(),
+  pageIndex: yup.number().min(0),
+  sortingField: yup.string(),
+  sortingDirection: yup.string().oneOf(['asc', 'desc']),
 });
 
 export const Route = createFileRoute('/console/films')({

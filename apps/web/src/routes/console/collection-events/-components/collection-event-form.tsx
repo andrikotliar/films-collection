@@ -1,8 +1,15 @@
-import { FormTextInput, FormSelect, FormAsyncSelect, Form } from '~/components';
+import {
+  FormTextInput,
+  FormSelect,
+  FormAsyncSelect,
+  Form,
+  fetchInitialDataQuery,
+  type FormComponentProps,
+  useMutateCollectionEvent,
+  type CollectionEventMutationPayload,
+} from '~/common';
 import { useQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery, type FormComponentProps } from '~/common';
 import { FilmsApi } from '~/api';
-import { useMutateCollectionEvent, type CollectionEventMutationPayload } from '~/hooks';
 import { collectionEventSchema } from '~/routes/console/collection-events/-validation';
 import { getFormTitle } from '~/routes/console/-common/helpers';
 import { Dates } from '~/routes/console/collection-events/-components';

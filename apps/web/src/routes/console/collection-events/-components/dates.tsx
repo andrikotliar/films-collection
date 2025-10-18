@@ -1,6 +1,10 @@
 import { useFormContext } from 'react-hook-form';
-import { FieldLabel, FormCheckbox, FormMonthDateSelector } from '~/components';
-import type { CollectionEventMutationPayload } from '~/hooks';
+import {
+  FieldLabel,
+  FormCheckbox,
+  FormMonthDateSelector,
+  type CollectionEventMutationPayload,
+} from '~/common';
 
 export const Dates = () => {
   const { watch } = useFormContext<CollectionEventMutationPayload>();

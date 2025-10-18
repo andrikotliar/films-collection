@@ -1,6 +1,5 @@
-import { Modal, Panel } from '~/components';
 import styles from './form-modal.module.css';
-import type { FormComponentProps } from '~/common';
+import { type FormComponentProps, Modal, Panel } from '~/common';
 
 type FormModalProps<T extends Record<PropertyKey, unknown>> = {
   onClose: VoidFunction;

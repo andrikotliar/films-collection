@@ -1,9 +1,17 @@
-import { type SortingParams, SortingPopup, FieldLabel, TextInput, Checkbox } from '~/components';
+import {
+  type SortingParams,
+  SortingPopup,
+  FieldLabel,
+  TextInput,
+  Checkbox,
+  priorityOptions,
+  type SortingOrder,
+  debounce,
+} from '~/common';
 import styles from './filters.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { type ChangeEvent, useCallback } from 'react';
-import { priorityOptions, type SortingOrder, debounce } from '~/common';
-import { setPriorities } from './helpers';
+import { setPriorities } from '~/routes/console/pending-films/-components/filters/helpers';
 
 const routeApi = getRouteApi('/console/pending-films');
 

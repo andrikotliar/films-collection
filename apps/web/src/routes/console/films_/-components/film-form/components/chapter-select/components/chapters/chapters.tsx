@@ -1,10 +1,9 @@
 import styles from './chapters.module.css';
-import { fetchRelatedChaptersQuery } from '~/common';
+import { fetchRelatedChaptersQuery, Image } from '~/common';
 import { useQuery } from '@tanstack/react-query';
 import { ChapterButton } from '../chapter-button/chapter-button';
 import { useFormContext } from 'react-hook-form';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { Image } from '~/components';
 
 type ChaptersProps = {
   chapterKey: string;

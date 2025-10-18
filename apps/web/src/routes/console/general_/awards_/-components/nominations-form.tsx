@@ -1,5 +1,11 @@
-import { Button, ConfirmModal, FormSection, FormTextInput, FormToggle } from '~/components';
-import type { AwardMutationPayload } from '~/hooks';
+import {
+  Button,
+  ConfirmModal,
+  FormSection,
+  FormTextInput,
+  FormToggle,
+  type AwardMutationPayload,
+} from '~/common';
 import { nominationDefaultValues } from '~/routes/console/general_/awards_/-configs';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
 import { useState } from 'react';

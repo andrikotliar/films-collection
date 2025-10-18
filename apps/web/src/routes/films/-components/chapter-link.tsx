@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router';
 import classNames from 'classnames';
-import { Image } from '~/components';
+import { Image } from '~/common';
 
 type ChapterLinkProps = {
   id: number;

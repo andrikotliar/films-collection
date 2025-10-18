@@ -1,6 +1,10 @@
-import type { FormComponentProps } from '~/common';
-import { Form, FormTextInput } from '~/components';
-import { useMutateGenre, type GenreMutationPayload } from '~/hooks/queries';
+import {
+  Form,
+  FormTextInput,
+  useMutateGenre,
+  type FormComponentProps,
+  type GenreMutationPayload,
+} from '~/common';
 import { getFormTitle } from '~/routes/console/-common/helpers';
 import { genresFormValidation } from '~/routes/console/general_/genres/-validation';
 

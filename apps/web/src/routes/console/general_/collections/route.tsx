@@ -1,12 +1,17 @@
-import { BackLink, ConsoleContent, ConsoleTitle } from '~/components';
-import { useDeleteCollection, type CollectionMutationPayload } from '~/hooks';
-import { fetchCollectionsListQuery } from '~/common';
+import { useState } from 'react';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { createFileRoute } from '@tanstack/react-router';
+import {
+  fetchCollectionsListQuery,
+  useDeleteCollection,
+  type CollectionMutationPayload,
+  BackLink,
+  ConsoleContent,
+  ConsoleTitle,
+} from '~/common';
 import { AddItemButton, FormModal, List } from '~/routes/console/-common';
 import { CollectionForm } from '~/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '~/routes/console/general_/collections/-configs';
-import { useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute } from '@tanstack/react-router';
-import { useState } from 'react';
 
 export const Route = createFileRoute('/console/general_/collections')({
   loader: async ({ context: { queryClient } }) => {

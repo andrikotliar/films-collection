@@ -1,4 +1,4 @@
-import { ConsoleContent, ConsoleTitle } from '~/components';
+import { ConsoleContent, ConsoleTitle } from '~/common';
 import { GeneralPagesMenu } from '~/routes/console/general/-components';
 import { createFileRoute } from '@tanstack/react-router';
 

@@ -1,11 +1,17 @@
+import { useMemo } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '~/components';
-import { fetchAwardByIdQuery, NEW_ITEM_ID } from '~/common';
+import {
+  BackLink,
+  ConsoleContent,
+  ConsoleTitle,
+  Panel,
+  fetchAwardByIdQuery,
+  NEW_ITEM_ID,
+} from '~/common';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 import { getFormTitle } from '~/routes/console/-common/helpers';
-import { useMemo } from 'react';
 
 export const Route = createFileRoute('/console/general_/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {

@@ -1,5 +1,5 @@
 import styles from './poster.module.css';
-import { Image } from '~/components';
+import { Image } from '~/common';
 
 type PosterProps = {
   image: string;

@@ -1,10 +1,17 @@
-import { BackLink, ConfirmModal, ConsoleContent, ConsoleTitle } from '~/components';
-import { AddItemLink, List } from '~/routes/console/-common';
-import { type Award, NEW_ITEM_ID, fetchAwardsBaseDataListQuery } from '~/common';
+import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { useState } from 'react';
-import { useDeleteAward } from '~/hooks';
+import { AddItemLink, List } from '~/routes/console/-common';
+import {
+  type Award,
+  NEW_ITEM_ID,
+  fetchAwardsBaseDataListQuery,
+  BackLink,
+  ConfirmModal,
+  ConsoleContent,
+  ConsoleTitle,
+  useDeleteAward,
+} from '~/common';
 
 export const Route = createFileRoute('/console/general_/awards')({
   loader: async ({ context: { queryClient } }) => {

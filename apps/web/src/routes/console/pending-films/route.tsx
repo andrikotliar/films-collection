@@ -1,27 +1,29 @@
+import { useState } from 'react';
+import * as yup from 'yup';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { createFileRoute } from '@tanstack/react-router';
 import {
   fetchPendingFilmsListQuery,
   NEW_ITEM_ID,
   PENDING_FILMS_PER_PAGE,
+  ConsoleContent,
+  ConsoleTitle,
+  Pagination,
+  useDeletePendingFilm,
   type PendingFilm,
   type PendingFilmQueryFilters,
+  type PendingFilmMutationPayload,
 } from '~/common';
-import { ConsoleContent, ConsoleTitle, Pagination } from '~/components';
-import { useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute } from '@tanstack/react-router';
-import { number, object, string } from 'yup';
 import { Filters, PendingFilmForm } from './-components';
 import { AddItemButton, FormModal, List } from '~/routes/console/-common';
-import { useState } from 'react';
-import type { PendingFilmMutationPayload } from '~/hooks';
-import { defaultPendingFilm } from '~/routes/console/pending-films/-configs/default-pending-film';
-import { useDeletePendingFilm } from '~/hooks/queries/use-delete-pending-film';
+import { defaultPendingFilm } from '~/routes/console/pending-films/-configs';
 
-const pendingFilmsFilterSchema = object().shape({
-  q: string(),
-  priority: number().min(1).max(3),
-  pageIndex: number().min(0),
-  orderKey: string(),
-  order: string().oneOf(['asc', 'desc']),
+const pendingFilmsFilterSchema = yup.object().shape({
+  q: yup.string(),
+  priority: yup.number().min(1).max(3),
+  pageIndex: yup.number().min(0),
+  orderKey: yup.string(),
+  order: yup.string().oneOf(['asc', 'desc']),
 });
 
 export const Route = createFileRoute('/console/pending-films')({

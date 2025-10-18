@@ -1,12 +1,16 @@
-import { BackLink, ConsoleContent, ConsoleTitle } from '~/components';
-import { fetchStudiosListQuery } from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-common';
+import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { useState } from 'react';
-import { useDeleteStudio } from '~/hooks';
+import {
+  BackLink,
+  ConsoleContent,
+  ConsoleTitle,
+  fetchStudiosListQuery,
+  useDeleteStudio,
+  type StudioMutationPayload,
+} from '~/common';
+import { AddItemButton, FormModal, List } from '~/routes/console/-common';
 import { StudioForm } from '~/routes/console/general_/studios/-components';
-import type { StudioMutationPayload } from '~/hooks/queries/use-mutate-studio';
 import { studioInitialValues } from '~/routes/console/general_/studios/-configs';
 
 export const Route = createFileRoute('/console/general_/studios')({

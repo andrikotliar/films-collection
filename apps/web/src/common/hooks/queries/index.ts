@@ -13,6 +13,7 @@ export * from './use-delete-collection';
 export * from './use-delete-film';
 export * from './use-delete-country';
 export * from './use-delete-genre';
+export * from './use-delete-pending-film';
 export * from './use-delete-person';
 export * from './use-delete-studio';
 export * from './use-delete-collection-event';

@@ -2,9 +2,13 @@ import styles from './sidebar.module.css';
 import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { Loader } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery, MOBILE_VIEW_BREAKPOINT_PX, getFiltersConfig } from '~/common';
+import {
+  fetchInitialDataQuery,
+  MOBILE_VIEW_BREAKPOINT_PX,
+  getFiltersConfig,
+  Loader,
+} from '~/common';
 import { Filters } from '../filters/filters';
 
 export const Sidebar = () => {
