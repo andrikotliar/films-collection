@@ -10,7 +10,7 @@
   gap: 10px;
   align-items: center;
   padding: 10px;
-  border-bottom: var(--app-border);
+  border-bottom: var(--border);
   user-select: none;
 }
 

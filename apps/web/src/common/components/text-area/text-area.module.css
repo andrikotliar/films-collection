@@ -9,8 +9,8 @@
   font-size: inherit;
   font-family: inherit;
   padding: 10px;
-  border-radius: var(--app-border-radius);
-  border: var(--app-border);
+  border-radius: var(--border-radius);
+  border: var(--border);
   outline-color: var(--blue-default);
   transition: border-color 300ms;
   resize: vertical;

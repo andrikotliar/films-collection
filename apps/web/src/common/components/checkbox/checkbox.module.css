@@ -27,7 +27,7 @@
   border-radius: 50px;
 }
 .checkbox input:checked + .iconWrapper {
-  background-image: var(--main-gradient);
+  background-image: var(--blue-default);
   border-color: var(--blue-default);
 }
 .checkbox input:checked + .iconWrapper .icon {

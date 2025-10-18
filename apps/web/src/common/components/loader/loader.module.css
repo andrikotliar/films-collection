@@ -15,7 +15,7 @@
 }
 
 .fullPage {
-  height: var(--app-height);
+  height: var(--screen-height);
 }
 
 @keyframes spin {

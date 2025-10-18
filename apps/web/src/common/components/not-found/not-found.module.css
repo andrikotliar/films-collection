@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: var(--app-height);
+  height: var(--screen-height);
   padding: 40px;
 }
 
@@ -38,11 +38,9 @@
   color: var(--blue-default);
   padding: 10px 20px;
   border: 1px solid var(--blue-default);
-  border-radius: var(--app-border-radius);
+  border-radius: var(--border-radius);
   text-transform: uppercase;
-  transition:
-    color 0.3s,
-    background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
   text-align: center;
   flex-grow: 1;
 }

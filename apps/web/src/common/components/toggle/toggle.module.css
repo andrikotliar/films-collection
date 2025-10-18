@@ -13,7 +13,7 @@
   position: relative;
   width: 40px;
   height: 21px;
-  border: var(--app-border);
+  border: var(--border);
   background-color: var(--gray);
   border-radius: 50px;
   overflow: hidden;

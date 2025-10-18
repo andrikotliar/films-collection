@@ -5,10 +5,8 @@
   align-items: center;
   color: #fff;
   padding: 10px 20px;
-  border-radius: var(--app-border-radius);
-  transition:
-    background-color 0.3s,
-    color 0.2s;
+  border-radius: var(--border-radius);
+  transition: background-color 0.3s, color 0.2s;
   flex-shrink: 0;
   cursor: pointer;
 }
@@ -37,7 +35,7 @@
 .light {
   color: var(--black);
   background-color: var(--white);
-  border: var(--app-border);
+  border: var(--border);
 }
 
 .active {

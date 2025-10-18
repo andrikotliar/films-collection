@@ -3,8 +3,8 @@
   align-items: flex-start;
   gap: 15px;
   padding: 15px;
-  border: var(--app-border);
-  border-radius: 8px;
+  border: var(--border);
+  border-radous: var(--border-radius);
   background-color: white;
 }
 

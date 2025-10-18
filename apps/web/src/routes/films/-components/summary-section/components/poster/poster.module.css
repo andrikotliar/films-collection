@@ -1,7 +1,7 @@
 .poster {
   width: 380px;
-  border: var(--app-border);
-  border-radius: var(--app-border-radius);
+  border: var(--border);
+  border-radius: var(--border-radius);
   overflow: hidden;
   flex-shrink: 0;
 }

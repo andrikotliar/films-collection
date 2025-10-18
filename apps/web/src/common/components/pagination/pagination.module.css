@@ -15,7 +15,7 @@
 
 .pageButton {
   color: var(--gray-dark);
-  border: var(--app-border);
+  border: var(--border);
   width: 35px;
   height: 35px;
   border-radius: 6px;

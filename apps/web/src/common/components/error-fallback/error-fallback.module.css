@@ -10,7 +10,7 @@
 .title {
   font-size: 20px;
   font-weight: bold;
-  border-bottom: var(--app-border);
+  border-bottom: var(--border);
   padding-bottom: 10px;
 }
 

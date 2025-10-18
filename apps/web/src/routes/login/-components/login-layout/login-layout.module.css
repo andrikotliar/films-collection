@@ -3,6 +3,6 @@
   align-items: center;
   justify-content: center;
   padding: 40px;
-  min-height: var(--app-height);
+  min-height: var(--screen-height);
   background-color: var(--gray-extra-light);
 }

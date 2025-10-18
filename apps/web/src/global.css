@@ -37,12 +37,13 @@
   --purple-dark: #8f5bab;
   --purple-light: #dccbf2;
 
-  --main-gradient: linear-gradient(45deg, var(--blue-default), var(--green));
-  --app-border: 1px solid var(--gray);
-  --app-border-radius: 8px;
+  --border: 1px solid var(--gray);
+  --border-radius: var(--border-radius);
+  --shadow-sm: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
-  --main-padding: 20px;
+  --padding: 20px;
   --header-height: 60px;
-  --app-height: calc(100vh - var(--header-height));
-  --default-column-width: minmax(260px, 1fr);
+  --screen-height: calc(100vh - var(--header-height));
+
+  --t-timing: 300ms;
 }

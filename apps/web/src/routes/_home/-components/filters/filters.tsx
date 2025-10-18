@@ -8,7 +8,6 @@ import {
   type FilmsListFilters,
   type FilterItem,
   Button,
-  ScrollableWrapper,
 } from '~/common';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
@@ -80,11 +79,11 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
   return (
     <FormProvider {...methods}>
       <form onSubmit={methods.handleSubmit(submitFilter)} className={styles.filters}>
-        <ScrollableWrapper className={styles.filterGroups}>
+        <div className={styles.filterGroups}>
           {config.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
           ))}
-        </ScrollableWrapper>
+        </div>
         <div className={styles.controls}>
           <Button icon={<SearchIcon />} type="submit">
             Search

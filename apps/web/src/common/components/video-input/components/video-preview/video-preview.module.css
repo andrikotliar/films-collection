@@ -2,7 +2,7 @@
   position: relative;
   display: block;
   overflow: hidden;
-  border-radius: 8px;
+  border-radous: var(--border-radius);
   width: 40%;
   aspect-ratio: 16 / 9;
   flex-shrink: 0;

@@ -6,7 +6,7 @@
   width: 100%;
   background-color: #fff;
   height: var(--header-height);
-  border-bottom: var(--app-border);
+  border-bottom: var(--border);
   z-index: 100;
 }
 
@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 var(--main-padding);
+  padding: 0 var(--padding);
   gap: 20px;
   height: 100%;
 }
@@ -41,7 +41,7 @@
   align-items: center;
   width: var(--icon-size);
   height: var(--icon-size);
-  border-radius: var(--app-border-radius);
+  border-radius: var(--border-radius);
   border: 1px solid transparent;
   cursor: pointer;
 }

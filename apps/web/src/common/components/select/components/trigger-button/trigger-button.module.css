@@ -7,8 +7,8 @@
   align-items: center;
   width: 100%;
   padding: 10px;
-  border-radius: var(--app-border-radius);
-  border: var(--app-border);
+  border-radius: var(--border-radius);
+  border: var(--border);
   cursor: pointer;
   background-color: white;
 }

@@ -1,4 +1,4 @@
-import styles from './films-section.module.css';
+import styles from './styles.module.css';
 import { FilmsNotFound, AdditionalInfoSection, CurrentEvents } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import { PER_PAGE, type FilmsListResponse, FilmsGrid, Loader, Pagination } from '~/common';
