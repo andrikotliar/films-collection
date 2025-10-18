@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { ManageStudioInput } from 'src/modules/studios/schemas';
+import { ManageStudioInput } from '~/modules/studios/schemas';
 
 export class StudiosRepository {
   constructor(private readonly databaseClient: PrismaClient) {}

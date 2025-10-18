@@ -1,4 +1,4 @@
-import { env } from 'src/common';
-import { FilesService } from 'src/modules/files/files.service';
+import { env } from '~/common';
+import { FilesService } from '~/modules/files/files.service';
 
 export const files = new FilesService(env);

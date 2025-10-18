@@ -1,6 +1,6 @@
-import { defineRoute, IdParamSchema, useRoutes } from 'src/common';
+import { defineRoute, IdParamSchema, useRoutes } from '~/common';
 import { ManageGenreBodySchema } from './schemas';
-import { genres } from 'src/modules/genres/genres.module';
+import { genres } from '~/modules/genres/genres.module';
 
 export const genresRoutes = useRoutes('genres', [
   defineRoute({

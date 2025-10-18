@@ -5,9 +5,9 @@ import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import StaticPlugin from '@fastify/static';
-import { AuthPlugin } from 'src/plugins';
+import { AuthPlugin } from '~/plugins';
 import { CookieName, env, errorHandler, notFoundHandler } from './common';
-import { AppModule } from 'src/app.module';
+import { AppModule } from '~/app.module';
 
 declare module 'fastify' {
   export interface FastifyInstance {

@@ -1,4 +1,4 @@
-import { buildListOptions } from 'src/common';
+import { buildListOptions } from '~/common';
 import { CountriesRepository } from './countries.repository';
 import { ManageCountryInput } from './schemas';
 

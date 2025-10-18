@@ -1,6 +1,6 @@
-import { defineRoute, useRoutes } from 'src/common';
+import { defineRoute, useRoutes } from '~/common';
 import { CreateChapterKeySchema } from './schemas';
-import { chapterKeys } from 'src/modules/chapter-keys/chapter-keys.module';
+import { chapterKeys } from '~/modules/chapter-keys/chapter-keys.module';
 
 export const chapterKeysRoutes = useRoutes('chapter-keys', [
   defineRoute({

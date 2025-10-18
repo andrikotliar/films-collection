@@ -1,19 +1,19 @@
 import type { FastifyInstance } from 'fastify';
-import { createRouter } from 'src/common';
-import { authRoutes } from 'src/modules/auth/auth.routes';
-import { awardsRoutes } from 'src/modules/awards/awards.routes';
-import { chapterKeysRoutes } from 'src/modules/chapter-keys/chapter-keys.routes';
-import { collectionEventsRoutes } from 'src/modules/collection-events/collection-events.routes';
-import { collectionsRoutes } from 'src/modules/collections/collections.routes';
-import { countriesRoutes } from 'src/modules/countries/countries.routes';
-import { filesRoutes } from 'src/modules/files/files.routes';
-import { filmsRoutes } from 'src/modules/films/films.routes';
-import { genresRoutes } from 'src/modules/genres/genres.routes';
-import { initialDataRoutes } from 'src/modules/initial-data/initial-data.routes';
-import { pageContentRoutes } from 'src/modules/page-content/page-content.routes';
-import { pendingFilmsRoutes } from 'src/modules/pending-films/pending-films.routes';
-import { peopleRoutes } from 'src/modules/people/people.routes';
-import { studiosRoutes } from 'src/modules/studios/studios.routes';
+import { createRouter } from '~/common';
+import { authRoutes } from '~/modules/auth/auth.routes';
+import { awardsRoutes } from '~/modules/awards/awards.routes';
+import { chapterKeysRoutes } from '~/modules/chapter-keys/chapter-keys.routes';
+import { collectionEventsRoutes } from '~/modules/collection-events/collection-events.routes';
+import { collectionsRoutes } from '~/modules/collections/collections.routes';
+import { countriesRoutes } from '~/modules/countries/countries.routes';
+import { filesRoutes } from '~/modules/files/files.routes';
+import { filmsRoutes } from '~/modules/films/films.routes';
+import { genresRoutes } from '~/modules/genres/genres.routes';
+import { initialDataRoutes } from '~/modules/initial-data/initial-data.routes';
+import { pageContentRoutes } from '~/modules/page-content/page-content.routes';
+import { pendingFilmsRoutes } from '~/modules/pending-films/pending-films.routes';
+import { peopleRoutes } from '~/modules/people/people.routes';
+import { studiosRoutes } from '~/modules/studios/studios.routes';
 
 const routes = [
   authRoutes,

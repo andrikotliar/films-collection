@@ -1,4 +1,4 @@
-import { buildListOptions } from 'src/common';
+import { buildListOptions } from '~/common';
 import { StudiosRepository } from './studios.repository';
 import { ManageStudioInput } from './schemas';
 

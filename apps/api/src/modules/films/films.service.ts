@@ -1,4 +1,4 @@
-import { convertEnumValueToLabel } from 'src/common';
+import { convertEnumValueToLabel } from '~/common';
 import { FilmsRepository } from './films.repository';
 import {
   GetFilmRelatedChaptersQuery,
@@ -7,9 +7,9 @@ import {
   type FilmOptionsQueries,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
-import type { PeopleService } from 'src/modules/people/people.service';
-import type { AwardsService } from 'src/modules/awards/awards.service';
-import type { CollectionsService } from 'src/modules/collections/collections.service';
+import type { PeopleService } from '~/modules/people/people.service';
+import type { AwardsService } from '~/modules/awards/awards.service';
+import type { CollectionsService } from '~/modules/collections/collections.service';
 
 export class FilmsService {
   constructor(

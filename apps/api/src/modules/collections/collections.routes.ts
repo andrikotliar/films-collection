@@ -1,6 +1,6 @@
-import { IdParamSchema, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/common';
 import { CreateCollectionBodySchema, UpdateCollectionBodySchema } from './schemas';
-import { collections } from 'src/modules/collections/collections.module';
+import { collections } from '~/modules/collections/collections.module';
 
 export const collectionsRoutes = useRoutes('collections', [
   defineRoute({

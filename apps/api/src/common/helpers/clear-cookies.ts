@@ -1,5 +1,5 @@
 import { FastifyReply } from 'fastify';
-import { CookieName, CookieNameId } from 'src/common';
+import { CookieName, CookieNameId } from '~/common';
 
 type Cookies = CookieNameId;
 

@@ -1,13 +1,10 @@
-import { ErrorParams } from 'src/common/types';
+import { ErrorParams } from '~/common/types';
 
 export class UnauthorizedException extends Error {
   public code: ErrorParams['code'];
   public statusCode: number;
 
-  constructor({
-    code = 'UNAUTHENTICATED',
-    message = 'Unauthorized',
-  }: ErrorParams = {}) {
+  constructor({ code = 'UNAUTHENTICATED', message = 'Unauthorized' }: ErrorParams = {}) {
     super(message);
 
     this.code = code;

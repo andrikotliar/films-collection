@@ -1,10 +1,10 @@
 import { PrismaClient } from '@prisma/client';
-import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
+import { DEFAULT_PAGINATION_LIMIT } from '~/common';
 import {
   CreatePageContentPayload,
   GetListQueries,
   UpdatePostPayload,
-} from 'src/modules/page-content/schemas';
+} from '~/modules/page-content/schemas';
 
 export class PageContentRepository {
   constructor(private readonly databaseClient: PrismaClient) {}

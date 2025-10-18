@@ -1,6 +1,6 @@
-import { IdParamSchema, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/common';
 import { AwardBodySchema, FindNominationsSchema } from './schemas';
-import { awards } from 'src/modules/awards/awards.module';
+import { awards } from '~/modules/awards/awards.module';
 
 export const awardsRoutes = useRoutes('awards', [
   defineRoute({

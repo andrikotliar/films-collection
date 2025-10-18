@@ -1,6 +1,6 @@
-import { IdParamSchema, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/common';
 import { ManageCountryBodySchema } from './schemas';
-import { countries } from 'src/modules/countries/countries.module';
+import { countries } from '~/modules/countries/countries.module';
 
 export const countriesRoutes = useRoutes('countries', [
   defineRoute({

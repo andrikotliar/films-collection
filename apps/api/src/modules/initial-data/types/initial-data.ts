@@ -1,5 +1,5 @@
-import { ListOption } from 'src/common';
-import type { CurrentEvent } from 'src/modules/collection-events/collection-events.repository';
+import { ListOption } from '~/common';
+import type { CurrentEvent } from '~/modules/collection-events/collection-events.repository';
 
 export type InitialData = {
   options: {

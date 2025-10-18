@@ -1,4 +1,4 @@
-import type { CollectionsService } from 'src/modules/collections/collections.service';
+import type { CollectionsService } from '~/modules/collections/collections.service';
 import { CollectionEventsRepository } from './collection-events.repository';
 import { CreateCollectionEventPayload, UpdateCollectionEventPayload } from './schemas';
 

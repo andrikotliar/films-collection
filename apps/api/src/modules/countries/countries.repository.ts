@@ -1,5 +1,5 @@
-import type { DatabaseClient } from 'src/common';
-import { ManageCountryInput } from 'src/modules/countries/schemas';
+import type { DatabaseClient } from '~/common';
+import { ManageCountryInput } from '~/modules/countries/schemas';
 
 export class CountriesRepository {
   constructor(private readonly databaseClient: DatabaseClient) {}

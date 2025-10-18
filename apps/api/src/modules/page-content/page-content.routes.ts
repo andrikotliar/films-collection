@@ -1,11 +1,11 @@
-import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from '~/common';
 import {
   GetListQueriesSchema,
   UpdatePageContentSchema,
   GetPageContentByPageUrlParamsSchema,
   CreatePageContentSchema,
 } from './schemas';
-import { pageContent } from 'src/modules/page-content/page-content.module';
+import { pageContent } from '~/modules/page-content/page-content.module';
 
 export const pageContentRoutes = useRoutes('page-content', [
   defineRoute({

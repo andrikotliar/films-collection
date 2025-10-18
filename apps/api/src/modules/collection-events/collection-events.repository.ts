@@ -1,9 +1,9 @@
 import { type Collection, type CollectionEvent, type Film } from '@prisma/client';
-import type { DatabaseClient } from 'src/common';
+import type { DatabaseClient } from '~/common';
 import {
   CreateCollectionEventPayload,
   UpdateCollectionEventPayload,
-} from 'src/modules/collection-events/schemas';
+} from '~/modules/collection-events/schemas';
 
 export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'collectionId'> & {
   collection: Pick<Collection, 'id' | 'title'>;

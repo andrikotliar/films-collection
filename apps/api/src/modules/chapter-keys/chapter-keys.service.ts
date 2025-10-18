@@ -1,6 +1,6 @@
-import { ListOption } from 'src/common';
+import { ListOption } from '~/common';
 import { ChapterKeysRepository } from './chapter-keys.repository';
-import { CreateChapterKeyPayload } from 'src/modules/chapter-keys/schemas';
+import { CreateChapterKeyPayload } from '~/modules/chapter-keys/schemas';
 
 export class ChapterKeysService {
   constructor(private readonly chapterKeysRepository: ChapterKeysRepository) {}

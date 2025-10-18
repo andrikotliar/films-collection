@@ -1,8 +1,8 @@
 import { hash } from 'bcrypt';
 import { User } from '@prisma/client';
-import { UsersRepository } from 'src/modules/users/users.repository';
-import type { UserRefreshTokenPayload } from 'src/modules/users/types';
-import { HASH_SALT_ROUNDS } from 'src/common';
+import { UsersRepository } from '~/modules/users/users.repository';
+import type { UserRefreshTokenPayload } from '~/modules/users/types';
+import { HASH_SALT_ROUNDS } from '~/common';
 
 export class UsersService {
   constructor(private usersRepository: UsersRepository) {}

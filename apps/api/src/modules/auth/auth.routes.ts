@@ -7,10 +7,10 @@ import {
   setCookie,
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
-} from 'src/common';
+} from '~/common';
 import { AuthLoginSchema } from './schemas';
-import { auth } from 'src/modules/auth/auth.module';
-import { users } from 'src/modules/users/users.module';
+import { auth } from '~/modules/auth/auth.module';
+import { users } from '~/modules/users/users.module';
 
 export const authRoutes = useRoutes('auth', [
   defineRoute({

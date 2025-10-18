@@ -1,4 +1,4 @@
-import { buildListOptions, NotFoundException } from 'src/common';
+import { buildListOptions, NotFoundException } from '~/common';
 import { AwardsRepository } from './awards.repository';
 import { AwardInput } from './schemas';
 import { GetByIdParams, GroupedNominations } from './types';
@@ -24,9 +24,7 @@ export class AwardsService {
   }
 
   async getNominationsListOptions(awardId: number) {
-    const nominations = await this.awardsRepository.getNominationsByAward(
-      awardId,
-    );
+    const nominations = await this.awardsRepository.getNominationsByAward(awardId);
 
     return buildListOptions(nominations);
   }
@@ -58,10 +56,7 @@ export class AwardsService {
       });
     }
 
-    const updatedAwardPromise = this.awardsRepository.updateAward(
-      awardId,
-      award,
-    );
+    const updatedAwardPromise = this.awardsRepository.updateAward(awardId, award);
 
     if (!nominations.length) {
       return Promise.resolve(updatedAwardPromise);
@@ -69,16 +64,12 @@ export class AwardsService {
 
     const promises: Prisma.PrismaPromise<any>[] = [updatedAwardPromise];
 
-    const awardNominations = await this.awardsRepository.getAwardNominationIds(
-      awardId,
-    );
+    const awardNominations = await this.awardsRepository.getAwardNominationIds(awardId);
 
     const nominationIds = awardNominations.map((nomination) => nomination.id);
     const inputNominationIds = nominations.map((nomination) => nomination.id);
 
-    const nominationIdsToDelete = nominationIds.filter(
-      (id) => !inputNominationIds.includes(id),
-    );
+    const nominationIdsToDelete = nominationIds.filter((id) => !inputNominationIds.includes(id));
 
     const groupedNominations = nominations.reduce<GroupedNominations>(
       (groups, nomination) => {
@@ -101,26 +92,23 @@ export class AwardsService {
     );
 
     if (groupedNominations.create.length) {
-      const createNominationsPromise =
-        this.awardsRepository.createManyNominations(groupedNominations.create);
+      const createNominationsPromise = this.awardsRepository.createManyNominations(
+        groupedNominations.create,
+      );
 
       promises.push(createNominationsPromise);
     }
 
     if (groupedNominations.update.length) {
-      const nominationPromises = groupedNominations.update.map(
-        ({ id, ...nomination }) => {
-          return this.awardsRepository.updateNomination(id, nomination);
-        },
-      );
+      const nominationPromises = groupedNominations.update.map(({ id, ...nomination }) => {
+        return this.awardsRepository.updateNomination(id, nomination);
+      });
 
       promises.push(...nominationPromises);
     }
 
     if (nominationIdsToDelete.length) {
-      const deletePromises = this.awardsRepository.deleteNominations(
-        nominationIdsToDelete,
-      );
+      const deletePromises = this.awardsRepository.deleteNominations(nominationIdsToDelete);
 
       promises.push(deletePromises);
     }

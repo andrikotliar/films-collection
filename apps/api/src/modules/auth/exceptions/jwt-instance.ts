@@ -1,4 +1,4 @@
-import { ErrorParams } from 'src/common';
+import { ErrorParams } from '~/common';
 
 export class JwtInstanceException extends Error {
   public code: ErrorParams['code'];

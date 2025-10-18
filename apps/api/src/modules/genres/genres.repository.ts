@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { ManageGenreInput } from 'src/modules/genres/schemas';
+import { ManageGenreInput } from '~/modules/genres/schemas';
 
 export class GenresRepository {
   constructor(private readonly databaseClient: PrismaClient) {}

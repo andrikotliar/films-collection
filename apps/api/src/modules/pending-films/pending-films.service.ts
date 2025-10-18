@@ -5,7 +5,7 @@ import {
   GetPendingFilmsListQuery,
   UpdatePendingFilmInput,
 } from './schemas';
-import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
+import { DEFAULT_PAGINATION_LIMIT } from '~/common';
 
 export class PendingFilmsService {
   constructor(private pendingFilmsRepository: PendingFilmsRepository) {}

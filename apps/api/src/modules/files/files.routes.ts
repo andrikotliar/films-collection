@@ -1,6 +1,6 @@
-import { BadRequestException, defineRoute, useRoutes } from 'src/common';
+import { BadRequestException, defineRoute, useRoutes } from '~/common';
 import { UploadPayload } from './types';
-import { files } from 'src/modules/files/files.module';
+import { files } from '~/modules/files/files.module';
 
 export const filesRoutes = useRoutes('files', [
   defineRoute({

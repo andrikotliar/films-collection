@@ -1,11 +1,7 @@
 import sanitize from 'sanitize-html';
 import { PageContentRepository } from './page-content.repository';
-import {
-  CreatePageContentPayload,
-  GetListQueries,
-  UpdatePostPayload,
-} from './schemas';
-import { ALLOWED_HTML_TAGS } from 'src/common';
+import { CreatePageContentPayload, GetListQueries, UpdatePostPayload } from './schemas';
+import { ALLOWED_HTML_TAGS } from '~/common';
 
 const MAX_WORDS_LIMIT = 30;
 

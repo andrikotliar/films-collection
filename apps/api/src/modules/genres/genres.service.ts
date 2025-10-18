@@ -1,6 +1,6 @@
-import { buildListOptions } from 'src/common';
+import { buildListOptions } from '~/common';
 import { GenresRepository } from './genres.repository';
-import { ManageGenreInput } from 'src/modules/genres/schemas';
+import { ManageGenreInput } from '~/modules/genres/schemas';
 
 export class GenresService {
   constructor(private readonly genresRepository: GenresRepository) {}

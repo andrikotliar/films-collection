@@ -1,12 +1,12 @@
-import { convertEnumValuesToOption } from 'src/common';
+import { convertEnumValuesToOption } from '~/common';
 import { InitialData } from './types';
 import { CollectionCategory, PersonRole, TitleStyle, TitleType } from '@prisma/client';
-import type { CollectionsService } from 'src/modules/collections/collections.service';
-import type { GenresService } from 'src/modules/genres/genres.service';
-import type { CountriesService } from 'src/modules/countries/countries.service';
-import type { StudiosService } from 'src/modules/studios/studios.service';
-import type { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
-import type { AwardsService } from 'src/modules/awards/awards.service';
+import type { CollectionsService } from '~/modules/collections/collections.service';
+import type { GenresService } from '~/modules/genres/genres.service';
+import type { CountriesService } from '~/modules/countries/countries.service';
+import type { StudiosService } from '~/modules/studios/studios.service';
+import type { CollectionEventsService } from '~/modules/collection-events/collection-events.service';
+import type { AwardsService } from '~/modules/awards/awards.service';
 
 export class InitialDataService {
   constructor(

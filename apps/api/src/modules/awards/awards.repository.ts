@@ -1,6 +1,6 @@
 import { Prisma } from '@prisma/client';
 import { AwardInput } from './schemas';
-import { BaseRepository, type DatabaseClient } from 'src/common';
+import { BaseRepository, type DatabaseClient } from '~/common';
 
 export class AwardsRepository extends BaseRepository {
   constructor(private readonly databaseClient: DatabaseClient) {

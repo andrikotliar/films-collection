@@ -1,6 +1,6 @@
-import { IdParamSchema, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/common';
 import { CreateCollectionEventSchema, UpdateCollectionEventBodySchema } from './schemas';
-import { collectionEvents } from 'src/modules/collection-events/collection-events.module';
+import { collectionEvents } from '~/modules/collection-events/collection-events.module';
 
 export const collectionEventsRoutes = useRoutes('collection-events', [
   defineRoute({

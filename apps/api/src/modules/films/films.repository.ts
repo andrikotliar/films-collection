@@ -1,6 +1,6 @@
 import { Film, Prisma } from '@prisma/client';
-import { DEFAULT_PAGINATION_LIMIT, DEFAULT_SEARCH_LIMIT, type DatabaseClient } from 'src/common';
-import type { FilmOptionsQueries } from 'src/modules/films/schemas';
+import { DEFAULT_PAGINATION_LIMIT, DEFAULT_SEARCH_LIMIT, type DatabaseClient } from '~/common';
+import type { FilmOptionsQueries } from '~/modules/films/schemas';
 
 export class FilmsRepository {
   constructor(private readonly databaseClient: DatabaseClient) {}

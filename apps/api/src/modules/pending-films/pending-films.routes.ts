@@ -1,11 +1,11 @@
-import { IdParamSchema, NotFoundException, useRoutes, defineRoute } from 'src/common';
+import { IdParamSchema, NotFoundException, useRoutes, defineRoute } from '~/common';
 import {
   CreatePendingFilmBodySchema,
   GetPendingFilmParamsSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmBodySchema,
 } from './schemas';
-import { pendingFilms } from 'src/modules/pending-films/pending-films.module';
+import { pendingFilms } from '~/modules/pending-films/pending-films.module';
 
 export const pendingFilmsRoutes = useRoutes('pending-films', [
   defineRoute({

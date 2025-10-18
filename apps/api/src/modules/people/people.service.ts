@@ -1,11 +1,6 @@
-import {
-  CreatePersonInput,
-  GetListQueries,
-  SearchPersonQuery,
-  UpdatePersonInput,
-} from './schemas';
+import { CreatePersonInput, GetListQueries, SearchPersonQuery, UpdatePersonInput } from './schemas';
 import { PeopleRepository } from './people.repository';
-import { DEFAULT_PAGINATION_LIMIT, NotFoundException } from 'src/common';
+import { DEFAULT_PAGINATION_LIMIT, NotFoundException } from '~/common';
 import { Prisma } from '@prisma/client';
 
 export class PeopleService {

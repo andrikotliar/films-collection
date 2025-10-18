@@ -1,8 +1,8 @@
 import fastifyPlugin from 'fastify-plugin';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
-import { CookieName, getCookie, UnauthorizedException } from 'src/common';
-import { users } from 'src/modules/users/users.module';
-import type { VerifiedTokenData } from 'src/modules/auth/types';
+import { CookieName, getCookie, UnauthorizedException } from '~/common';
+import { users } from '~/modules/users/users.module';
+import type { VerifiedTokenData } from '~/modules/auth/types';
 
 const authDecorator = async (app: FastifyInstance) => {
   app.decorate('authenticate', async function (request: FastifyRequest, reply: FastifyReply) {

@@ -1,10 +1,10 @@
 import { compare } from 'bcrypt';
-import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC } from 'src/common';
-import { UsersService } from 'src/modules/users/users.service';
+import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC } from '~/common';
+import { UsersService } from '~/modules/users/users.service';
 import { AuthLoginPayload } from './schemas';
-import type { VerifiedTokenData } from 'src/modules/auth/types';
+import type { VerifiedTokenData } from '~/modules/auth/types';
 import type { JWT } from '@fastify/jwt';
-import { JwtInstanceException } from 'src/modules/auth/exceptions';
+import { JwtInstanceException } from '~/modules/auth/exceptions';
 
 export class AuthService {
   private jwt: JWT | null;

@@ -1,4 +1,4 @@
-import type { DatabaseClient } from 'src/common';
+import type { DatabaseClient } from '~/common';
 
 export class ChapterKeysRepository {
   constructor(private readonly databaseClient: DatabaseClient) {}

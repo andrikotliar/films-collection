@@ -1,6 +1,6 @@
 import { Prisma, PrismaClient } from '@prisma/client';
 import { CreatePersonInput, SearchPersonQuery, UpdatePersonInput } from './schemas';
-import { DEFAULT_PAGINATION_LIMIT } from 'src/common';
+import { DEFAULT_PAGINATION_LIMIT } from '~/common';
 
 export class PeopleRepository {
   constructor(private readonly databaseClient: PrismaClient) {}

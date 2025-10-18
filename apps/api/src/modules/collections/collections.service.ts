@@ -1,4 +1,4 @@
-import { buildListOptions } from 'src/common';
+import { buildListOptions } from '~/common';
 import { CollectionsRepository } from './collections.repository';
 import { CreateCollectionInput, UpdateCollectionInput } from './schemas';
 

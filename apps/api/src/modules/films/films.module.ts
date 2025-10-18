@@ -1,9 +1,9 @@
-import { awards } from 'src/modules/awards/awards.module';
-import { collections } from 'src/modules/collections/collections.module';
-import { database } from 'src/modules/database/database.module';
-import { FilmsRepository } from 'src/modules/films/films.repository';
-import { FilmsService } from 'src/modules/films/films.service';
-import { people } from 'src/modules/people/people.module';
+import { awards } from '~/modules/awards/awards.module';
+import { collections } from '~/modules/collections/collections.module';
+import { database } from '~/modules/database/database.module';
+import { FilmsRepository } from '~/modules/films/films.repository';
+import { FilmsService } from '~/modules/films/films.service';
+import { people } from '~/modules/people/people.module';
 
 const repository = new FilmsRepository(database);
 export const films = new FilmsService(repository, people, awards, collections);

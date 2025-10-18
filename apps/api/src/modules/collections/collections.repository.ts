@@ -1,6 +1,6 @@
 import { CreateCollectionInput } from './schemas';
-import { UpdateCollectionInput } from 'src/modules/collections/schemas/update-collection.schema';
-import type { DatabaseClient } from 'src/common';
+import { UpdateCollectionInput } from '~/modules/collections/schemas/update-collection.schema';
+import type { DatabaseClient } from '~/common';
 
 export class CollectionsRepository {
   constructor(private readonly databaseClient: DatabaseClient) {}

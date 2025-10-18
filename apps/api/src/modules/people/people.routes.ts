@@ -1,11 +1,11 @@
-import { IdParamSchema, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/common';
 import {
   CreatePersonSchema,
   GetListQueriesSchema,
   SearchPersonSchema,
   UpdatePersonBodySchema,
 } from './schemas';
-import { people } from 'src/modules/people/people.module';
+import { people } from '~/modules/people/people.module';
 
 export const peopleRoutes = useRoutes('people', [
   defineRoute({

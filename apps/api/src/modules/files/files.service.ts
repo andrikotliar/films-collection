@@ -1,7 +1,7 @@
 import { v2 as cloudinary, UploadApiResponse } from 'cloudinary';
-import { EnvVariables } from 'src/common';
+import { EnvVariables } from '~/common';
 import { UploadPayload } from './types';
-import { destinationParams } from 'src/modules/files/configs';
+import { destinationParams } from '~/modules/files/configs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
@@ -68,9 +68,7 @@ export class FilesService {
   }
 
   private parseTitle(payload: UploadPayload) {
-    const sanitizedString = payload.title
-      .replace(/[^a-zA-Z0-9\s]/g, '')
-      .replace(/\s+/g, '_');
+    const sanitizedString = payload.title.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_');
 
     const lowercasedTitle = sanitizedString.toLowerCase();
 

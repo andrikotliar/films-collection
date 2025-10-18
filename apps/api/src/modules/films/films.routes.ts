@@ -1,4 +1,4 @@
-import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from 'src/common';
+import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from '~/common';
 import {
   GetAdminListQuerySchema,
   GetFilmsListQuerySchema,
@@ -8,7 +8,7 @@ import {
   GetFilmOptionsSchema,
   UpdateFilmWatchCounterSchema,
 } from './schemas';
-import { films } from 'src/modules/films/films.module';
+import { films } from '~/modules/films/films.module';
 
 export const filmsRoutes = useRoutes('films', [
   defineRoute({
