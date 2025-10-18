@@ -5,7 +5,7 @@ import {
   type FormComponentProps,
   type GenreMutationPayload,
 } from '~/common';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { genresFormValidation } from '~/routes/console/general_/genres/-validation';
 
 type GenresFormProps = FormComponentProps<GenreMutationPayload>;

@@ -11,7 +11,7 @@ import {
 import { useQuery } from '@tanstack/react-query';
 import { FilmsApi } from '~/api';
 import { collectionEventSchema } from '~/routes/console/collection-events/-validation';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { Dates } from '~/routes/console/collection-events/-components';
 
 type CollectionEventFormProps = FormComponentProps<CollectionEventMutationPayload>;

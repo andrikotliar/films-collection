@@ -8,13 +8,13 @@ import {
   useDeletePerson,
   type PersonMutationPayload,
 } from '~/common';
-import { List, FormModal, PersonForm, AddItemButton } from '~/routes/console/-common';
+import { List, FormModal, PersonForm, AddItemButton } from '~/routes/console/-shared';
 import { Filters } from '~/routes/console/general_/people/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
 import * as yup from 'yup';
-import { personDefaultValues } from '~/routes/console/-common/components/person-form/configs';
+import { personDefaultValues } from '~/routes/console/-shared/components/person-form/configs';
 
 const peopleListFiltersSchema = yup.object({
   page: yup.number(),

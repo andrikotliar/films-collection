@@ -12,7 +12,7 @@ import {
 import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { FormModal, List } from '~/routes/console/-common';
+import { FormModal, List } from '~/routes/console/-shared';
 import { getDefaultValues } from '~/routes/console/collection-events/-configs';
 import { PlusIcon } from 'lucide-react';
 

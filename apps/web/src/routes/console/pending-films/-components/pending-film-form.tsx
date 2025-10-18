@@ -14,7 +14,7 @@ import {
 } from '~/common';
 import { useQuery } from '@tanstack/react-query';
 import { pendingFilmSchema } from '~/routes/console/pending-films/-validation';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 
 type PendingFilmFormProps = FormComponentProps<PendingFilmMutationPayload>;
 

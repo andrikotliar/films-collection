@@ -11,7 +11,7 @@ import {
 } from '~/common';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 
 export const Route = createFileRoute('/console/general_/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {

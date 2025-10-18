@@ -1,7 +1,7 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import type { FormAward, FilmFormValues } from '~/routes/console/films_/-types';
 import { type ListOption, FormSection, FormSelect, FormTextInput } from '~/common';
-import { ArrayFormWrapper, ArrayFieldWrapper } from '~/routes/console/-common';
+import { ArrayFormWrapper, ArrayFieldWrapper } from '~/routes/console/-shared';
 import { NominationSelect } from './components';
 
 type AwardsSelectProps = {

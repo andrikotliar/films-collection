@@ -5,8 +5,8 @@ import {
   useMutatePerson,
   type PersonMutationPayload,
 } from '~/common';
-import { personSchema } from '~/routes/console/-common/components/person-form/validation';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { personSchema } from '~/routes/console/-shared/components/person-form/validation';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 
 export type PersonFormProps = FormComponentProps<PersonMutationPayload>;
 

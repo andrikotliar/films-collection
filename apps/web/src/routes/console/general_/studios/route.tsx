@@ -9,7 +9,7 @@ import {
   useDeleteStudio,
   type StudioMutationPayload,
 } from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-common';
+import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/general_/studios/-components';
 import { studioInitialValues } from '~/routes/console/general_/studios/-configs';
 

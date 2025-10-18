@@ -8,7 +8,7 @@ import {
   FormTextInput,
   type PersonMutationPayload,
 } from '~/common';
-import { ArrayFormWrapper, ArrayFieldWrapper, defaultPersonValues } from '~/routes/console/-common';
+import { ArrayFormWrapper, ArrayFieldWrapper, defaultPersonValues } from '~/routes/console/-shared';
 import { PeopleApi } from '~/api';
 
 type CastAndCrewSelectProps = {

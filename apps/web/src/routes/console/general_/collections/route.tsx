@@ -9,7 +9,7 @@ import {
   ConsoleContent,
   ConsoleTitle,
 } from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-common';
+import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
 import { CollectionForm } from '~/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '~/routes/console/general_/collections/-configs';
 

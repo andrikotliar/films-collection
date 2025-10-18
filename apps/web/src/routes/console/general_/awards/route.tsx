@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { AddItemLink, List } from '~/routes/console/-common';
+import { AddItemLink, List } from '~/routes/console/-shared';
 import {
   type Award,
   NEW_ITEM_ID,

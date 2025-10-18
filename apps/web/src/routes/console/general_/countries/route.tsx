@@ -6,7 +6,7 @@ import {
   ConsoleContent,
   ConsoleTitle,
 } from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-common';
+import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';

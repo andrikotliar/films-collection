@@ -14,7 +14,7 @@ import {
   PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
 } from '~/common';
-import { AddItemLink, List } from '~/routes/console/-common';
+import { AddItemLink, List } from '~/routes/console/-shared';
 
 const pageContentListFiltersSchema = yup.object().shape({
   pageIndex: yup.number(),

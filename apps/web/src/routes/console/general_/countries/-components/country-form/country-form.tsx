@@ -5,7 +5,7 @@ import {
   type CountryMutationPayload,
   type FormComponentProps,
 } from '~/common';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { countryFormValidation } from '~/routes/console/general_/countries/-validation';
 
 type CountryFormProps = FormComponentProps<CountryMutationPayload>;

@@ -9,7 +9,7 @@ import {
   FormTextInput,
 } from '~/common';
 import { useQuery } from '@tanstack/react-query';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { collectionSchema } from '~/routes/console/general_/collections/-validation';
 
 type CollectionFormProps = FormComponentProps<CollectionMutationPayload>;

@@ -17,7 +17,7 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmValuesWatcher } from '~/routes/console/films_/-components/film-values-watcher';
 import { filmFormSchema } from '~/routes/console/films_/-validation/film-form-schema';
 import { useState } from 'react';
-import { FormModal, PersonForm } from '~/routes/console/-common';
+import { FormModal, PersonForm } from '~/routes/console/-shared';
 
 type FilmFormProps = {
   values: FilmFormValues;

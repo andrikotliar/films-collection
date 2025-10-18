@@ -5,7 +5,7 @@ import {
   type StudioMutationPayload,
   useMutateStudio,
 } from '~/common';
-import { getFormTitle } from '~/routes/console/-common/helpers';
+import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { studioFormValidation } from '~/routes/console/general_/studios/-validation';
 
 type StudioFormProps = FormComponentProps<StudioMutationPayload>;

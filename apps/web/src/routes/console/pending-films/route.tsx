@@ -15,7 +15,7 @@ import {
   type PendingFilmMutationPayload,
 } from '~/common';
 import { Filters, PendingFilmForm } from './-components';
-import { AddItemButton, FormModal, List } from '~/routes/console/-common';
+import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
 import { defaultPendingFilm } from '~/routes/console/pending-films/-configs';
 
 const pendingFilmsFilterSchema = yup.object().shape({
