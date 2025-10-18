@@ -1,5 +1,5 @@
 import type { ToastType } from '@/common/types';
-import { eventEmitter } from '@/services';
+import { eventEmitter } from '@/common/services';
 
 type MessageData = {
   message: string;

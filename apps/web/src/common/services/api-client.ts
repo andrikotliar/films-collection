@@ -1,5 +1,5 @@
 import { type ApiEndpoint } from '@/common';
-import { LocalStorage } from '@/services/local-storage';
+import { LocalStorage } from '@/common/services/local-storage';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
