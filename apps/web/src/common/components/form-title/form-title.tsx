@@ -1,9 +1,8 @@
-import { type ReactNode } from 'react';
+import styles from './styles.module.css';
+import { type PropsWithChildren } from 'react';
 
-type FormTitleProps = {
-  children?: ReactNode;
-};
+type FormTitleProps = PropsWithChildren;
 
 export const FormTitle = ({ children }: FormTitleProps) => {
-  return <h2 className="text-xl text-gray-500 font-bold">{children}</h2>;
+  return <h2 className={styles.form_title}>{children}</h2>;
 };

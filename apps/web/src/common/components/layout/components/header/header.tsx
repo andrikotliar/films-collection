@@ -2,7 +2,7 @@ import styles from './header.module.css';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';
-import { FilmsSearch } from '../films-search';
+import { FilmsSearch } from '../films-search/films-search';
 import { AppMenu } from '../app-menu/app-menu';
 import { Logo } from '~/common/components/logo/logo';
 

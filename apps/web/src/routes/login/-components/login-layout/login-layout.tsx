@@ -1,14 +1,12 @@
-import styles from './login-layout.module.css';
-import { type ReactNode } from 'react';
+import styles from './styles.module.css';
+import { type PropsWithChildren } from 'react';
 
-type LoginLayoutProps = {
-  children: ReactNode;
-};
+type LoginLayoutProps = PropsWithChildren;
 
 export const LoginLayout = ({ children }: LoginLayoutProps) => {
   return (
-    <div className={styles.loginLayout}>
-      <div className="max-w-96 w-full">{children}</div>
+    <div className={styles.login_layout}>
+      <div className={styles.login_layout_content}>{children}</div>
     </div>
   );
 };

@@ -1,7 +1,8 @@
+import styles from './styles.module.css';
 import { type ChangeEvent, useCallback, useRef, useState } from 'react';
 import { searchFilmsQuery, debounce } from '~/common';
 import { useQuery } from '@tanstack/react-query';
-import { SearchMenuContent } from './search-menu-content';
+import { SearchMenuContent } from '../search-menu-content/search-menu-content';
 import { SearchIcon } from 'lucide-react';
 import { Loader } from '~/common/components/loader/loader';
 import { PopupMenu } from '~/common/components/popup-menu/popup-menu';
@@ -52,20 +53,20 @@ export const FilmsSearch = () => {
   };
 
   return (
-    <div className="flex flex-col gap-1 w-full">
-      <div className="relative">
+    <div className={styles.films_search}>
+      <div className={styles.input_wrapper}>
         <input
           type="text"
           name="search"
-          className="peer text-sm text-sky-600 p-2.5 w-full pl-10 outline-none border border-gray-300 rounded-lg bg-gray-50 transition focus:border-sky-600 placeholder:text-gray-400"
+          className={styles.search_input}
           placeholder="Search films..."
           onChange={debouncedSearch}
           onFocus={handleFocus}
           ref={searchInputRef}
         />
-        <SearchIcon className="text-gray-400 absolute top-1/2 left-2.5 h-5 w-5 cursor-pointer transition -translate-y-1/2 peer-focus:text-sky-600" />
+        <SearchIcon className={styles.search_icon} />
         {isLoading && (
-          <div className="absolute top-1/2 right-2.5 w-5 h-5 -translate-y-1/2">
+          <div className={styles.search_loader}>
             <Loader size={20} />
           </div>
         )}
@@ -77,7 +78,7 @@ export const FilmsSearch = () => {
         menuMargin={3}
         shouldAdjustToTriggerWidth
         shouldFocusTriggerOnClose={false}
-        className="overflow-y-auto"
+        className={styles.menu}
       >
         <SearchMenuContent films={data ?? []} onFilmOpen={handleFinishInteraction} />
       </PopupMenu>

@@ -1,4 +1,5 @@
-import type { ReactNode } from 'react';
+import styles from './styles.module.css';
+import type { PropsWithChildren, ReactNode } from 'react';
 import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
 import type { ObjectSchema } from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -9,8 +10,7 @@ import { FormTitle } from '~/common/components/form-title/form-title';
 type FormProps<
   TDefaultValues extends Record<PropertyKey, unknown>,
   TSchema extends ObjectSchema<any>,
-> = {
-  children?: ReactNode;
+> = PropsWithChildren<{
   onSubmit: (data: TDefaultValues) => Promise<unknown>;
   defaultValues?: DefaultValues<TDefaultValues>;
   schema: TSchema;
@@ -20,7 +20,7 @@ type FormProps<
   submitIcon?: ReactNode;
   shouldShowResetButton?: boolean;
   onReset?: VoidFunction;
-};
+}>;
 
 export const Form = <
   TDefaultValues extends Record<PropertyKey, unknown>,
@@ -44,10 +44,10 @@ export const Form = <
 
   return (
     <FormProvider {...form}>
-      <form className="flex flex-col gap-5" onSubmit={form.handleSubmit(onSubmit)}>
+      <form className={styles.flex_wrapper} onSubmit={form.handleSubmit(onSubmit)}>
         {title && <FormTitle>{title}</FormTitle>}
         {children}
-        <div className="flex flex-col gap-5">
+        <div className={styles.flex_wrapper}>
           <Button type="submit" isDisabled={isLoading} isLoading={isLoading} icon={submitIcon}>
             {submitButtonText}
           </Button>

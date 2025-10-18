@@ -1,3 +1,4 @@
+import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
 import { type FilmSearchResult, getYearFromDate } from '~/common';
 import { Image } from '~/common/components/image/image';
@@ -16,23 +17,21 @@ export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
       params={{
         id: film.id.toString(),
       }}
-      className="flex gap-2.5 p-1 border border-transparent rounded-lg hover:border-gray-500 overflow-hidden"
+      className={styles.film_link}
       onClick={onFilmOpen}
     >
-      <div className="w-12 shrink-0">
+      <div className={styles.poster_wrapper}>
         <Image
           src={film.poster}
           alt={`Poster of the "${film.title}"`}
-          className="rounded-sm"
+          className={styles.poster_image}
           isExternal
         />
       </div>
-      <div className="flex flex-col w-full min-w-0">
-        <h3 className="text-lg transition font-bold overflow-hidden text-ellipsis whitespace-nowrap">
-          {film.title}
-        </h3>
-        <p className="text-gray-400 text-sm">{genres}</p>
-        <div className="text-emerald-500 text-sm">{getYearFromDate(film.releaseDate)}</div>
+      <div className={styles.info_wrapper}>
+        <h3 className={styles.film_title}>{film.title}</h3>
+        <p className={styles.genres_list}>{genres}</p>
+        <div className={styles.release_date}>{getYearFromDate(film.releaseDate)}</div>
       </div>
     </Link>
   );

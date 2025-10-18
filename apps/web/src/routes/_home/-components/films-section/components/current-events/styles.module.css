@@ -1,0 +1,25 @@
+.events_grid {
+  --cols: 4;
+
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  gap: 20px;
+}
+
+.event_placeholder {
+  background-color: var(--gray-light);
+  border-radius: var(--border-radius);
+  border: var(--border);
+}
+
+@media (width < 1280px) {
+  .events_grid {
+    --cols: 2;
+  }
+}
+
+@media (width < 560px) {
+  .events_grid {
+    --cols: 1;
+  }
+}

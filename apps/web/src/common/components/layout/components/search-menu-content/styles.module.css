@@ -1,0 +1,16 @@
+.search_menu_content {
+  padding: 15px;
+}
+
+.films_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+@media (max-width: 480px) {
+  .films_list {
+    grid-template-columns: 1;
+    gap: 20px;
+  }
+}

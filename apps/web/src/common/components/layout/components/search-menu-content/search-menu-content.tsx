@@ -1,5 +1,6 @@
+import styles from './styles.module.css';
 import { type FilmSearchResult } from '~/common';
-import { FoundFilm } from './found-film';
+import { FoundFilm } from '../found-film/found-film';
 
 type SearchMenuContentProps = {
   films: FilmSearchResult[];
@@ -11,15 +12,15 @@ export const SearchMenuContent = ({ films, onFilmOpen }: SearchMenuContentProps)
 
   if (isEmpty) {
     return (
-      <div className="p-4">
+      <div className={styles.search_menu_content}>
         <div>Not found</div>
       </div>
     );
   }
 
   return (
-    <div className="p-4">
-      <div className="flex flex-col gap-5 md:grid md:grid-cols-[repeat(2,1fr)] md:gap-2">
+    <div className={styles.search_menu_content}>
+      <div className={styles.films_list}>
         {films.map((film) => (
           <FoundFilm key={film.id} film={film} onFilmOpen={onFilmOpen} />
         ))}
