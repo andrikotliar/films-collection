@@ -3,9 +3,9 @@ import { TextInput, TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
 import { YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
 import styles from './video-input.module.css';
-import { Button } from '~/components/button/button';
+import { Button } from '~/common/components/button/button';
 import { Trash2Icon } from 'lucide-react';
-import { FieldLabel } from '~/components/field-label/field-label';
+import { FieldLabel } from '~/common/components/field-label/field-label';
 
 export type VideoInputProps = {
   label?: string;

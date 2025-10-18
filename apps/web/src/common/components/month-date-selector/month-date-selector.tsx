@@ -1,10 +1,10 @@
-import { FieldLabel } from '~/components/field-label/field-label';
-import { monthOptions } from '~/components/month-date-selector/configs';
-import { Select } from '~/components/select';
+import { FieldLabel } from '~/common/components/field-label/field-label';
+import { monthOptions } from '~/common/components/month-date-selector/configs';
+import { Select } from '~/common/components/select';
 import styles from './styles.module.css';
 import classNames from 'classnames';
 import { getDateCode, getDateCodeParts, getDefaultDateCode, type FormError } from '~/common';
-import { FieldError } from '~/components/field-error/field-error';
+import { FieldError } from '~/common/components/field-error/field-error';
 
 export type MonthDateSelectorProps = {
   value?: number;

@@ -1,5 +1,5 @@
 import styles from './confirm-modal.module.css';
-import { Button, type ButtonVariant, Modal } from '~/components';
+import { Button, type ButtonVariant, Modal } from '~/common/components';
 
 type ConfirmModalProps<T> = {
   title?: string;

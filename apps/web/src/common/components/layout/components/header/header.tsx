@@ -4,7 +4,7 @@ import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';
 import { FilmsSearch } from '../films-search';
 import { AppMenu } from '../app-menu/app-menu';
-import { Logo } from '~/components/logo/logo';
+import { Logo } from '~/common/components/logo/logo';
 
 export const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);

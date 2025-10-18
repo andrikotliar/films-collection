@@ -1,4 +1,4 @@
-import { type SelectProps } from '~/components/select/select';
+import { type SelectProps } from '~/common/components/select/select';
 
 export const getValue = (value: SelectProps['value']) => {
   if (Array.isArray(value)) {

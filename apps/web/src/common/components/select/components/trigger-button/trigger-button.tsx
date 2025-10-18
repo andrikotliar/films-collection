@@ -1,9 +1,9 @@
-import { Button } from '~/components/button/button';
+import { Button } from '~/common/components/button/button';
 import styles from './trigger-button.module.css';
 import classNames from 'classnames';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
 import { forwardRef, KeyboardEvent, ReactNode } from 'react';
-import { Loader } from '~/components/loader/loader';
+import { Loader } from '~/common/components/loader/loader';
 
 type TriggerButtonProps = {
   onClick: VoidFunction;

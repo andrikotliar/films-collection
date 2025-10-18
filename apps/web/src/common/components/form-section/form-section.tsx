@@ -1,4 +1,4 @@
-import { FieldLabel } from '~/components/field-label/field-label';
+import { FieldLabel } from '~/common/components/field-label/field-label';
 import { ReactNode, useState } from 'react';
 import styles from './form-section.module.css';
 import classNames from 'classnames';

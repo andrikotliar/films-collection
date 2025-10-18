@@ -1,6 +1,6 @@
 import { getDateMonthLabel, type CollectionEventFilled } from '~/common';
-import { DataRow } from '~/components/collection-event-banner/data-row';
-import { Image } from '~/components/image/image';
+import { DataRow } from '~/common/components/collection-event-banner/data-row';
+import { Image } from '~/common/components/image/image';
 import { Link } from '@tanstack/react-router';
 import { ArrowRightIcon, CalendarIcon, TimerIcon } from 'lucide-react';
 

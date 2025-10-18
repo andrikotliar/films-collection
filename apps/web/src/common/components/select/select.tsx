@@ -2,9 +2,9 @@ import styles from './select.module.css';
 import { type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useDebouncedSearch } from '~/hooks';
 import { type FormError, type ListOption } from '~/common';
-import { FieldLabel } from '~/components/field-label/field-label';
-import { PopupMenu } from '~/components/popup-menu/popup-menu';
-import { FieldError } from '~/components/field-error/field-error';
+import { FieldLabel } from '~/common/components/field-label/field-label';
+import { PopupMenu } from '~/common/components/popup-menu/popup-menu';
+import { FieldError } from '~/common/components/field-error/field-error';
 import {
   CreateNewItemButton,
   NotFound,

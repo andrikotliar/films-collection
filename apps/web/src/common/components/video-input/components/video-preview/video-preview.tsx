@@ -1,6 +1,6 @@
 import { images } from '~/assets/images';
 import styles from './video-preview.module.css';
-import { Image } from '~/components/image/image';
+import { Image } from '~/common/components/image/image';
 import { replaceUrlId, EMBEDDED_YOUTUBE_VIDEO_URL, YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
 import { PlayIcon } from 'lucide-react';
 

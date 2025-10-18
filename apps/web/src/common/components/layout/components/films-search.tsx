@@ -3,8 +3,8 @@ import { searchFilmsQuery, debounce } from '~/common';
 import { useQuery } from '@tanstack/react-query';
 import { SearchMenuContent } from './search-menu-content';
 import { SearchIcon } from 'lucide-react';
-import { Loader } from '~/components/loader/loader';
-import { PopupMenu } from '~/components/popup-menu/popup-menu';
+import { Loader } from '~/common/components/loader/loader';
+import { PopupMenu } from '~/common/components/popup-menu/popup-menu';
 
 export const FilmsSearch = () => {
   const searchInputRef = useRef<HTMLInputElement>(null);

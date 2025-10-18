@@ -1,5 +1,5 @@
 import styles from './create-new-item-button.module.css';
-import { Button } from '~/components/button/button';
+import { Button } from '~/common/components/button/button';
 import { PlusIcon } from 'lucide-react';
 
 type CreateNewItemBUttonProps = {

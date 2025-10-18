@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { type MouseEventHandler, type ReactNode } from 'react';
 import classNames from 'classnames';
-import { Loader } from '~/components/loader/loader';
+import { Loader } from '~/common/components/loader/loader';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'light';
 

@@ -1,6 +1,6 @@
 import { ListOption } from '~/common';
 import styles from './selected-option.module.css';
-import { Button } from '~/components/button/button';
+import { Button } from '~/common/components/button/button';
 import { XIcon } from 'lucide-react';
 
 type SelectedOptionProps = {

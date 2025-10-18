@@ -1,4 +1,4 @@
-import { Menu } from '~/components/menu/menu';
+import { Menu } from '~/common/components/menu/menu';
 import { mainMenu } from '~/common';
 import styles from './app-menu.module.css';
 import classNames from 'classnames';
