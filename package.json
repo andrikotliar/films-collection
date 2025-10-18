@@ -3,18 +3,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "install:client": "cd client && npm install",
-    "install:server": "cd server && npm install",
-    "install": "npm run install:server && npm run install:client",
-    "dev:client": "cd client && npm run dev",
-    "dev:server": "cd server && npm run dev",
-    "dev": "concurrently --names 'SERVER,CLIENT' --prefixColors 'cyan,green' \"npm run dev:server\" \"npm run dev:client\"",
+    "install:client": "cd client && pnpm install",
+    "install:server": "cd server && pnpm install",
+    "install:all": "pnpm install:server && pnpm install:client",
+    "dev:client": "cd client && pnpm dev",
+    "dev:server": "cd server && pnpm dev",
     "start:db": "docker compose --env-file=server/.env up database -d",
-    "build:client": "cd client && npm run build",
-    "build:server": "cd server && npm run build",
+    "build:client": "cd client && pnpm build",
+    "build:server": "cd server && pnpm build",
     "build:container": "docker compose --env-file=server/.env up -d --build",
-    "build": "npm run build:server && npm run build:client",
-    "db:init": "cd server && npm run db:migrate"
+    "build:all": "pnpm build:server && pnpm build:client",
+    "db:init": "cd server && pnpm db:migrate"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"
