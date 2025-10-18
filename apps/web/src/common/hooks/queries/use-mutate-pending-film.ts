@@ -1,6 +1,6 @@
-import { PendingFilmsApi } from '@/api';
-import { mutateEntity, queryKeys, type FormValues, type PendingFilm } from '@/common';
-import type { HttpError } from '@/services';
+import { PendingFilmsApi } from '~/api';
+import { mutateEntity, queryKeys, type FormValues, type PendingFilm } from '~/common';
+import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export type PendingFilmMutationPayload = FormValues<

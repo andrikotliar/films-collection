@@ -1,4 +1,4 @@
-import { apiClient } from '@/services';
+import { apiClient } from '~/services';
 import type {
   FilmDetails,
   FilmSearchResult,
@@ -8,7 +8,7 @@ import type {
   Chapter,
   AdminFilmsServerFilters,
   ListOption,
-} from '@/common';
+} from '~/common';
 
 export type RelatedChaptersFilter = {
   key: string;

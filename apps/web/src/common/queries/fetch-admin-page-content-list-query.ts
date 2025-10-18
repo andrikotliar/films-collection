@@ -1,7 +1,7 @@
-import { PageContentApi } from '@/api';
+import { PageContentApi } from '~/api';
 import { queryOptions } from '@tanstack/react-query';
 import { PAGE_CONTENT_ADMIN_PER_PAGE } from '../constants';
-import { queryKeys } from '@/common/configs';
+import { queryKeys } from '~/common/configs';
 
 type QueryFilters = {
   pageIndex: number;

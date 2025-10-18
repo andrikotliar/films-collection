@@ -1,4 +1,4 @@
-import type { MenuConfigItem } from '@/common';
+import type { MenuConfigItem } from '~/common';
 import { Link } from '@tanstack/react-router';
 import {
   Building2Icon,

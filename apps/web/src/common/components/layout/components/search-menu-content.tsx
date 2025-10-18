@@ -1,4 +1,4 @@
-import { type FilmSearchResult } from '@/common';
+import { type FilmSearchResult } from '~/common';
 import { FoundFilm } from './found-film';
 
 type SearchMenuContentProps = {

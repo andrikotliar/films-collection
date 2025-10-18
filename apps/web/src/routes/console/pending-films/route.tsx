@@ -4,17 +4,17 @@ import {
   PENDING_FILMS_PER_PAGE,
   type PendingFilm,
   type PendingFilmQueryFilters,
-} from '@/common';
-import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
+} from '~/common';
+import { ConsoleContent, ConsoleTitle, Pagination } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
 import { Filters, PendingFilmForm } from './-components';
-import { AddItemButton, FormModal, List } from '@/routes/console/-common';
+import { AddItemButton, FormModal, List } from '~/routes/console/-common';
 import { useState } from 'react';
-import type { PendingFilmMutationPayload } from '@/hooks';
-import { defaultPendingFilm } from '@/routes/console/pending-films/-configs/default-pending-film';
-import { useDeletePendingFilm } from '@/hooks/queries/use-delete-pending-film';
+import type { PendingFilmMutationPayload } from '~/hooks';
+import { defaultPendingFilm } from '~/routes/console/pending-films/-configs/default-pending-film';
+import { useDeletePendingFilm } from '~/hooks/queries/use-delete-pending-film';
 
 const pendingFilmsFilterSchema = object().shape({
   q: string(),

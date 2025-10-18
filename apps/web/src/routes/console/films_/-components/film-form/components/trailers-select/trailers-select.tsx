@@ -1,5 +1,5 @@
-import { ArrayFormWrapper } from '@/routes/console/-common';
-import { FormSection, FormVideoInput, SortableList } from '@/components';
+import { ArrayFormWrapper } from '~/routes/console/-common';
+import { FormSection, FormVideoInput, SortableList } from '~/components';
 import { type DragEndEvent } from '@dnd-kit/core';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 

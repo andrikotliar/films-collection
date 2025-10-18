@@ -1,4 +1,4 @@
-import { type LocalStorageKey } from '@/common';
+import { type LocalStorageKey } from '~/common';
 
 export const LocalStorage = {
   getItem<T>(key: LocalStorageKey): T | null {

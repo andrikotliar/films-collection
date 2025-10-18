@@ -1,7 +1,7 @@
-import { type GetPeopleListQueries, PeopleApi } from '@/api';
+import { type GetPeopleListQueries, PeopleApi } from '~/api';
 import { PEOPLE_ADMIN_PER_PAGE } from '../constants';
 import { queryOptions } from '@tanstack/react-query';
-import { queryKeys } from '@/common/configs';
+import { queryKeys } from '~/common/configs';
 
 export type FetchAdminPeopleListParams = {
   page?: number;

@@ -1,6 +1,6 @@
-import { ListOption } from '@/common';
+import { ListOption } from '~/common';
 import styles from './selected-option.module.css';
-import { Button } from '@/components/button/button';
+import { Button } from '~/components/button/button';
 import { XIcon } from 'lucide-react';
 
 type SelectedOptionProps = {
@@ -9,20 +9,12 @@ type SelectedOptionProps = {
   isDisabled: boolean;
 };
 
-export const SelectedOption = ({
-  onRemove,
-  data,
-  isDisabled,
-}: SelectedOptionProps) => {
+export const SelectedOption = ({ onRemove, data, isDisabled }: SelectedOptionProps) => {
   return (
     <div className={styles.selectedOption}>
       <span>{data.label}</span>
       {!isDisabled && (
-        <Button
-          icon={<XIcon size={15} />}
-          variant="ghost"
-          onClick={() => onRemove(data.value)}
-        />
+        <Button icon={<XIcon size={15} />} variant="ghost" onClick={() => onRemove(data.value)} />
       )}
     </div>
   );

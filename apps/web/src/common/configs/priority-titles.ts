@@ -1,4 +1,4 @@
-import { Priority } from '@/common/enums';
+import { Priority } from '~/common/enums';
 
 export const priorityTitles = {
   [Priority.LOW]: 'Low',

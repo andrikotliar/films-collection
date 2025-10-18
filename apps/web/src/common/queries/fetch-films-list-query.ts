@@ -1,8 +1,8 @@
-import { FilmsApi } from '@/api';
+import { FilmsApi } from '~/api';
 import { PER_PAGE } from '../constants';
 import { type FilmsListFilters } from '../types';
 import { queryOptions } from '@tanstack/react-query';
-import { queryKeys } from '@/common/configs';
+import { queryKeys } from '~/common/configs';
 
 export const fetchFilmsListQuery = (params: FilmsListFilters) => {
   return queryOptions({

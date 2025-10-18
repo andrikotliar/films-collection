@@ -2,13 +2,9 @@ import styles from './sidebar.module.css';
 import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { Loader } from '@/components';
+import { Loader } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import {
-  fetchInitialDataQuery,
-  MOBILE_VIEW_BREAKPOINT_PX,
-  getFiltersConfig,
-} from '@/common';
+import { fetchInitialDataQuery, MOBILE_VIEW_BREAKPOINT_PX, getFiltersConfig } from '~/common';
 import { Filters } from '../filters/filters';
 
 export const Sidebar = () => {
@@ -59,9 +55,7 @@ export const Sidebar = () => {
       <button onClick={toggleFilter} className={styles.filterButton}>
         <SlidersHorizontalIcon size={18} />
         <span>Filters</span>
-        {filtersCount > 0 && (
-          <span className={styles.filterButtonBadge}>{filtersCount}</span>
-        )}
+        {filtersCount > 0 && <span className={styles.filterButtonBadge}>{filtersCount}</span>}
       </button>
     </>
   );

@@ -1,5 +1,5 @@
 import styles from './array-form-wrapper.module.css';
-import { Button } from '@/components';
+import { Button } from '~/components';
 import { ReactNode } from 'react';
 import { PlusIcon } from 'lucide-react';
 

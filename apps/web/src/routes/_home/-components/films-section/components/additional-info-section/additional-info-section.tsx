@@ -1,4 +1,4 @@
-import { type AdditionalInfo } from '@/common';
+import { type AdditionalInfo } from '~/common';
 import { InfoBlock } from '../info-block/info-block';
 
 type AdditionalInfoProps = {

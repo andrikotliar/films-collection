@@ -1,4 +1,4 @@
-import { Button, type ButtonProps } from '@/components';
+import { Button, type ButtonProps } from '~/components';
 import { PlusIcon } from 'lucide-react';
 
 type AddItemButtonProps = Omit<ButtonProps, 'variant' | 'icon'>;

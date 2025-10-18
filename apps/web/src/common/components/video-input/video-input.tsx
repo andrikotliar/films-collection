@@ -1,11 +1,11 @@
 import { FocusEventHandler, forwardRef, useEffect, useState } from 'react';
 import { TextInput, TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
-import { YOUTUBE_VIDEO_DIRECT_URL } from '@/common';
+import { YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
 import styles from './video-input.module.css';
-import { Button } from '@/components/button/button';
+import { Button } from '~/components/button/button';
 import { Trash2Icon } from 'lucide-react';
-import { FieldLabel } from '@/components/field-label/field-label';
+import { FieldLabel } from '~/components/field-label/field-label';
 
 export type VideoInputProps = {
   label?: string;
@@ -18,10 +18,7 @@ const INCORRECT_URL_ERROR = `URL should be ${YOUTUBE_VIDEO_DIRECT_URL}`;
 const REGEX_VALIDATION = /^https:\/\/www\.youtube\.com\/watch\?v=[\w-]+(&.*)?$/;
 
 export const VideoInput = forwardRef<HTMLInputElement, VideoInputProps>(
-  (
-    { onBlur, externalWatchedValue, error, label, onRemove, ...textInputProps },
-    ref,
-  ) => {
+  ({ onBlur, externalWatchedValue, error, label, onRemove, ...textInputProps }, ref) => {
     const [previewId, setPreviewId] = useState(() => {
       if (!externalWatchedValue) {
         return '';

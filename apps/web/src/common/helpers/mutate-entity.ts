@@ -1,5 +1,5 @@
-import { isNewItem } from '@/common/helpers/is-new-item';
-import type { UnknownEntity, FormValues, ApiContainer } from '@/common/types';
+import { isNewItem } from '~/common/helpers/is-new-item';
+import type { UnknownEntity, FormValues, ApiContainer } from '~/common/types';
 
 export const mutateEntity = async <
   TApiContainer extends ApiContainer,

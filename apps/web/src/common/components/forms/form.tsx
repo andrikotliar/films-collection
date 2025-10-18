@@ -2,9 +2,9 @@ import type { ReactNode } from 'react';
 import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
 import type { ObjectSchema } from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { Button } from '@/components/button/button';
+import { Button } from '~/components/button/button';
 import { SaveIcon } from 'lucide-react';
-import { FormTitle } from '@/components/form-title/form-title';
+import { FormTitle } from '~/components/form-title/form-title';
 
 type FormProps<
   TDefaultValues extends Record<PropertyKey, unknown>,

@@ -1,5 +1,5 @@
-import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { fetchFilmQuery } from '@/common';
+import { useDocumentTitle, useScrollToTop } from '~/hooks';
+import { fetchFilmQuery } from '~/common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, Outlet } from '@tanstack/react-router';
 import { SummarySection, NavigationRow, FilmPageLayout, Tabs } from '../-components';

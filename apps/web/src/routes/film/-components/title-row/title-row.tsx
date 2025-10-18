@@ -1,6 +1,6 @@
-import { WatchCounterBadge } from '@/routes/film/-components/watch-counter-badge';
+import { WatchCounterBadge } from '~/routes/film/-components/watch-counter-badge';
 import { Rating, Title } from './components';
-import { type FilmDetails } from '@/common';
+import { type FilmDetails } from '~/common';
 
 type TitleRowProps = {
   data: FilmDetails;

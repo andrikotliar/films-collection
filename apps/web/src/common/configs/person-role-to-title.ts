@@ -1,4 +1,4 @@
-import type { PersonRole } from '@/common/types';
+import type { PersonRole } from '~/common/types';
 
 export const personRoleToTitle: Record<PersonRole, string> = {
   DIRECTOR: 'Directed by',

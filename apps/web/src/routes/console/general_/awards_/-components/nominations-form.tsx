@@ -1,6 +1,6 @@
-import { Button, ConfirmModal, FormSection, FormTextInput, FormToggle } from '@/components';
-import type { AwardMutationPayload } from '@/hooks';
-import { nominationDefaultValues } from '@/routes/console/general_/awards_/-configs';
+import { Button, ConfirmModal, FormSection, FormTextInput, FormToggle } from '~/components';
+import type { AwardMutationPayload } from '~/hooks';
+import { nominationDefaultValues } from '~/routes/console/general_/awards_/-configs';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
 import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';

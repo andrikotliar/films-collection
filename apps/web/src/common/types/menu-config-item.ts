@@ -1,4 +1,4 @@
-import { FileRoutesByTo } from '@/routeTree.gen';
+import { FileRoutesByTo } from '~/routeTree.gen';
 import { ReactNode } from 'react';
 
 export type MenuConfigItem = {

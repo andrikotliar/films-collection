@@ -1,4 +1,4 @@
-import type { ListOption } from '@/common';
+import type { ListOption } from '~/common';
 
 export const monthOptions: ListOption<number>[] = [
   {

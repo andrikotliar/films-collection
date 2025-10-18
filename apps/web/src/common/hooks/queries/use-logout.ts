@@ -1,5 +1,5 @@
-import { AuthenticationApi } from '@/api';
-import { LocalStorage } from '@/services';
+import { AuthenticationApi } from '~/api';
+import { LocalStorage } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 

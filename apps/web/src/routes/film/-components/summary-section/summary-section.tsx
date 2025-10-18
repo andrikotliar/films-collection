@@ -1,4 +1,4 @@
-import { type FilmDetails, env } from '@/common';
+import { type FilmDetails, env } from '~/common';
 import { type CSSProperties, useMemo } from 'react';
 import styles from './summary-section.module.css';
 import { Poster, Summary, Trailers } from './components';

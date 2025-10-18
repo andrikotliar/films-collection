@@ -1,6 +1,6 @@
-import { CountriesApi } from '@/api';
-import { queryKeys } from '@/common';
-import type { HttpError } from '@/services';
+import { CountriesApi } from '~/api';
+import { queryKeys } from '~/common';
+import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteCountry = () => {

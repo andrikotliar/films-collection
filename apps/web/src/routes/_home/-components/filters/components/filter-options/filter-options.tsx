@@ -1,5 +1,5 @@
-import { FilterItem } from '@/common';
-import { FormCheckbox, FormGroup, FormDateRange } from '@/components';
+import { FilterItem } from '~/common';
+import { FormCheckbox, FormGroup, FormDateRange } from '~/components';
 
 type FilterOptionsProps = {
   filter: FilterItem;

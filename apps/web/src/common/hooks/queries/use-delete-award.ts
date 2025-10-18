@@ -1,6 +1,6 @@
-import { AwardsApi } from '@/api';
-import { queryKeys } from '@/common';
-import type { HttpError } from '@/services';
+import { AwardsApi } from '~/api';
+import { queryKeys } from '~/common';
+import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteAward = () => {

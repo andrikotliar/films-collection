@@ -1,5 +1,4 @@
-import { apiClient } from '@/services';
-import { ListOption } from '@/common';
+import { type ListOption, apiClient } from '~/common';
 
 export type ChapterKey = {
   key: string;

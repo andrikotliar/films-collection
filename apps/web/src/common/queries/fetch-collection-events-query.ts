@@ -1,5 +1,5 @@
-import { CollectionEventsApi } from '@/api';
-import { queryKeys } from '@/common';
+import { CollectionEventsApi } from '~/api';
+import { queryKeys } from '~/common';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchCollectionEventsQuery = () => {

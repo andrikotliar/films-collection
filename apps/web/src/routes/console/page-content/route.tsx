@@ -1,15 +1,15 @@
-import { useDeletePageContent, useDocumentTitle } from '@/hooks';
+import { useDeletePageContent, useDocumentTitle } from '~/hooks';
 import {
   fetchAdminPageContentListQuery,
   NEW_ITEM_ID,
   PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
-} from '@/common';
-import { ConsoleContent, ConsoleTitle, Panel, Pagination } from '@/components';
+} from '~/common';
+import { ConsoleContent, ConsoleTitle, Panel, Pagination } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object } from 'yup';
-import { AddItemLink, List } from '@/routes/console/-common';
+import { AddItemLink, List } from '~/routes/console/-common';
 import sanitize from 'sanitize-html';
 
 const pageContentListFiltersSchema = object().shape({

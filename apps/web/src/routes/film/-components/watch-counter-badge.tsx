@@ -1,4 +1,4 @@
-import type { WatchCounter } from '@/common';
+import type { WatchCounter } from '~/common';
 import { EyeIcon } from 'lucide-react';
 
 type WatchCounterBadgeProps = {
@@ -8,7 +8,9 @@ type WatchCounterBadgeProps = {
 export const WatchCounterBadge = ({ counters }: WatchCounterBadgeProps) => {
   return (
     <div
-      title={`Accurate watch counter: ${counters.realCounter}. ${counters.approxCounter > 0 && `Approximate watch counter: >${counters.approxCounter}`}`}
+      title={`Accurate watch counter: ${counters.realCounter}. ${
+        counters.approxCounter > 0 && `Approximate watch counter: >${counters.approxCounter}`
+      }`}
       className="bg-amber-50 py-1 px-4 rounded-sm flex items-center gap-2"
     >
       <EyeIcon />

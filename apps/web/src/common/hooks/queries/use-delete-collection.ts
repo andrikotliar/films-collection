@@ -1,6 +1,6 @@
-import { CollectionsApi } from '@/api';
-import { queryKeys } from '@/common';
-import type { HttpError } from '@/services';
+import { CollectionsApi } from '~/api';
+import { queryKeys } from '~/common';
+import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteCollection = () => {

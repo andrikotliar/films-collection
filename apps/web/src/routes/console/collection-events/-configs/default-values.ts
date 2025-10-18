@@ -1,5 +1,5 @@
-import { getDefaultDateCode, NEW_ITEM_ID } from '@/common';
-import type { CollectionEventMutationPayload } from '@/hooks';
+import { getDefaultDateCode, NEW_ITEM_ID } from '~/common';
+import type { CollectionEventMutationPayload } from '~/hooks';
 
 export const getDefaultValues = (): CollectionEventMutationPayload => {
   const defaultDateCode = getDefaultDateCode();

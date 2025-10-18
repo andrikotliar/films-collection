@@ -1,9 +1,9 @@
 import styles from './filters.module.css';
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Button, ScrollableWrapper } from '@/components';
+import { Button, ScrollableWrapper } from '~/components';
 import { FilterOptions } from './components';
-import { countObjectKeys, filterValues, type FilmsListFilters, type FilterItem } from '@/common';
+import { countObjectKeys, filterValues, type FilmsListFilters, type FilterItem } from '~/common';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
 

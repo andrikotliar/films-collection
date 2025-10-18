@@ -1,13 +1,13 @@
-import { fetchInitialDataQuery, fetchPendingFilmQuery, isNewItem, NEW_ITEM_ID } from '@/common';
-import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '@/components';
+import { fetchInitialDataQuery, fetchPendingFilmQuery, isNewItem, NEW_ITEM_ID } from '~/common';
+import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';
 import { object, string } from 'yup';
 import { FilmForm } from './-components';
 import { filmDefaultFormValues } from './-configs';
-import { LocalStorage } from '@/services';
-import type { FilmFormValues } from '@/routes/console/films_/-types';
+import { LocalStorage } from '~/services';
+import type { FilmFormValues } from '~/routes/console/films_/-types';
 
 const consoleFilmQueriesSchema = object({
   pendingFilmId: string(),

@@ -1,4 +1,4 @@
-import type { MixedId } from '@/common/types';
+import type { MixedId } from '~/common/types';
 import * as yup from 'yup';
 
 export const idSchema = yup.mixed<MixedId>().defined().required().label('ID');

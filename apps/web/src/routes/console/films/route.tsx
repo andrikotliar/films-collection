@@ -4,14 +4,14 @@ import {
   fetchAdminListQuery,
   type AdminFilmsQueryFilters,
   type FilmsAdminListItem,
-} from '@/common';
-import { useDeleteFilm, useDocumentTitle } from '@/hooks';
+} from '~/common';
+import { useDeleteFilm, useDocumentTitle } from '~/hooks';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { ConsoleContent, ConsoleTitle, Pagination } from '@/components';
+import { ConsoleContent, ConsoleTitle, Pagination } from '~/components';
 import { number, object, string } from 'yup';
-import { AddItemLink, List } from '@/routes/console/-common';
-import { AdminFilmsTools } from '@/routes/console/films/-components';
+import { AddItemLink, List } from '~/routes/console/-common';
+import { AdminFilmsTools } from '~/routes/console/films/-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string().nullable(),

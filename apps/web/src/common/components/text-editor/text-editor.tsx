@@ -1,7 +1,7 @@
 import styles from './text-editor.module.css';
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
-import { FormError } from '@/common';
+import { FormError } from '~/common';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 import { MenuBar } from './components';
@@ -15,12 +15,7 @@ export type TextEditorProps = {
   onChange: (content: string) => void;
 };
 
-export const TextEditor = ({
-  label,
-  error,
-  content = '',
-  onChange,
-}: TextEditorProps) => {
+export const TextEditor = ({ label, error, content = '', onChange }: TextEditorProps) => {
   const editor = useEditor({
     extensions,
     content,

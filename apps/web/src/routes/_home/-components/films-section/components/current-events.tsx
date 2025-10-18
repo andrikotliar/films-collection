@@ -1,5 +1,5 @@
-import { BREAKPOINTS, fetchInitialDataQuery } from '@/common';
-import { CollectionEventBanner } from '@/components';
+import { BREAKPOINTS, fetchInitialDataQuery } from '~/common';
+import { CollectionEventBanner } from '~/components';
 import { useQuery } from '@tanstack/react-query';
 
 const getPlaceholdersCount = (eventsCount: number) => {

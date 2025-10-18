@@ -1,4 +1,4 @@
-import { idSchema, titleSchema } from '@/common';
+import { idSchema, titleSchema } from '~/common';
 import * as yup from 'yup';
 
 const dateCodeSchema = yup.number().min(101).max(1231).required();

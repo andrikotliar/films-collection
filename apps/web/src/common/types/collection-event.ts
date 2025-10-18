@@ -1,4 +1,4 @@
-import type { Film } from '@/common/types/film';
+import type { Film } from '~/common/types/film';
 import type { Collection } from './collection';
 
 export type CollectionEvent = {

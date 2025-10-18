@@ -1,4 +1,4 @@
-import { AwardsApi } from '@/api';
+import { AwardsApi } from '~/api';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchNominationsByAwardQuery = (awardId: number | null) => {

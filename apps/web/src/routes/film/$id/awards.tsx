@@ -1,5 +1,5 @@
-import { Nomination } from '@/routes/film/-components';
-import { useFilm } from '@/routes/film/-hooks/use-film';
+import { Nomination } from '~/routes/film/-components';
+import { useFilm } from '~/routes/film/-hooks/use-film';
 import { createFileRoute, Link, Navigate } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/film/$id/awards')({

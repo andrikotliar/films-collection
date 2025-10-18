@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import styles from './status.module.css';
-import { StatusColor } from '@/common';
+import { StatusColor } from '~/common';
 
 export type StatusProps = {
   color: StatusColor;
@@ -8,7 +8,5 @@ export type StatusProps = {
 };
 
 export const Status = ({ color, title }: StatusProps) => {
-  return (
-    <div className={classNames(styles.status, styles[color])}>{title}</div>
-  );
+  return <div className={classNames(styles.status, styles[color])}>{title}</div>;
 };

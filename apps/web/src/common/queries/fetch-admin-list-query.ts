@@ -1,8 +1,8 @@
-import { FilmsApi } from '@/api';
+import { FilmsApi } from '~/api';
 import { FILMS_ADMIN_LIST_PER_PAGE } from '../constants';
 import { queryOptions } from '@tanstack/react-query';
 import { type AdminFilmsQueryFilters } from '../types';
-import { queryKeys } from '@/common/configs';
+import { queryKeys } from '~/common/configs';
 
 export const fetchAdminListQuery = (params: AdminFilmsQueryFilters) => {
   return queryOptions({

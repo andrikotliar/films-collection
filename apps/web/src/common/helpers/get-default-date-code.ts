@@ -1,4 +1,4 @@
-import { getDateCode } from '@/common/helpers/get-date-code';
+import { getDateCode } from '~/common/helpers/get-date-code';
 
 export const getDefaultDateCode = () => {
   const currentDate = new Date();

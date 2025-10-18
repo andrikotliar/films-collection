@@ -1,4 +1,4 @@
-import { getDateCodeParts, type CollectionEvent } from '@/common';
+import { getDateCodeParts, type CollectionEvent } from '~/common';
 
 const months = [
   'Jan',

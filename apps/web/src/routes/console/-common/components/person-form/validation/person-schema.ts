@@ -1,4 +1,4 @@
-import { idSchema } from '@/common';
+import { idSchema } from '~/common';
 import * as yup from 'yup';
 
 export const personSchema = yup.object({

@@ -1,10 +1,10 @@
-import { type FilmFormValues } from '@/routes/console/films_/-types';
-import { type ListOption } from '@/common';
-import { FormAsyncSelect, FormSection, FormSelect, FormTextInput } from '@/components';
+import { type FilmFormValues } from '~/routes/console/films_/-types';
+import { type ListOption } from '~/common';
+import { FormAsyncSelect, FormSection, FormSelect, FormTextInput } from '~/components';
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import { ArrayFormWrapper, ArrayFieldWrapper, defaultPersonValues } from '@/routes/console/-common';
-import { PeopleApi } from '@/api';
-import type { PersonMutationPayload } from '@/hooks';
+import { ArrayFormWrapper, ArrayFieldWrapper, defaultPersonValues } from '~/routes/console/-common';
+import { PeopleApi } from '~/api';
+import type { PersonMutationPayload } from '~/hooks';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption[];

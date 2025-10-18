@@ -1,4 +1,4 @@
-import type { Film } from '@/common';
+import type { Film } from '~/common';
 
 export type Tab = {
   route: string;

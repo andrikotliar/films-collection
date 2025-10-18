@@ -1,4 +1,4 @@
-import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPageContentByIdQuery, isNewItem } from '@/common';
+import { ALLOWED_HTML_TAGS, NEW_ITEM_ID, fetchPageContentByIdQuery, isNewItem } from '~/common';
 import { pageContentFormValidation } from './-validation';
 import {
   BackLink,
@@ -8,11 +8,11 @@ import {
   FormTextEditor,
   FormTextInput,
   Panel,
-} from '@/components';
+} from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import sanitize from 'sanitize-html';
-import { useMutatePageContent, type PageContentMutationPayload } from '@/hooks';
+import { useMutatePageContent, type PageContentMutationPayload } from '~/hooks';
 import { getDefaultFormValues } from './-helpers';
 
 export const Route = createFileRoute('/console/page-content_/$id')({

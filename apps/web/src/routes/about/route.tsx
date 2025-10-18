@@ -1,6 +1,6 @@
-import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { fetchPageContentByKeyQuery } from '@/common';
-import { ArticleContent } from '@/components';
+import { useDocumentTitle, useScrollToTop } from '~/hooks';
+import { fetchPageContentByKeyQuery } from '~/common';
+import { ArticleContent } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 
@@ -15,9 +15,7 @@ function AboutPageContainer() {
   useDocumentTitle('About');
   useScrollToTop([]);
 
-  const { data: article } = useSuspenseQuery(
-    fetchPageContentByKeyQuery('about'),
-  );
+  const { data: article } = useSuspenseQuery(fetchPageContentByKeyQuery('about'));
 
   return (
     <ArticleContent>

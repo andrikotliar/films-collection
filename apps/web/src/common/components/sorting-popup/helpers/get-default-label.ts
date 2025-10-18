@@ -1,9 +1,6 @@
-import { ListOption } from '@/common';
+import { ListOption } from '~/common';
 
-export const getDefaultLabel = (
-  fields: ListOption[],
-  selectedSortingField?: string,
-) => {
+export const getDefaultLabel = (fields: ListOption[], selectedSortingField?: string) => {
   if (!selectedSortingField) {
     return fields[0].label;
   }

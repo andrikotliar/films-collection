@@ -1,10 +1,10 @@
 import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import { fetchNominationsByAwardQuery } from '@/common';
-import { type FilmFormValues } from '@/routes/console/films_/-types';
-import { FieldError, FormAsyncSelect, FormSelect, Loader } from '@/components';
-import { PeopleApi } from '@/api';
+import { fetchNominationsByAwardQuery } from '~/common';
+import { type FilmFormValues } from '~/routes/console/films_/-types';
+import { FieldError, FormAsyncSelect, FormSelect, Loader } from '~/components';
+import { PeopleApi } from '~/api';
 
 type NominationSelectProps = {
   index: number;

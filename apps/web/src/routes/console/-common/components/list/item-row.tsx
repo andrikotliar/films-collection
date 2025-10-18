@@ -1,5 +1,5 @@
-import { Button, PriorityBadge } from '@/components';
-import { type DefaultListItem } from '@/routes/console/-common';
+import { Button, PriorityBadge } from '~/components';
+import { type DefaultListItem } from '~/routes/console/-common';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
 
 type ActionHandler<T extends DefaultListItem> = (data: T) => void;

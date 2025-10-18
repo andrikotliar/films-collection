@@ -1,9 +1,9 @@
-import { Form, FormSelect, FormTextArea, FormTextInput } from '@/components';
-import { useMutateCollection, type CollectionMutationPayload } from '@/hooks';
-import { fetchInitialDataQuery, type FormComponentProps } from '@/common';
+import { Form, FormSelect, FormTextArea, FormTextInput } from '~/components';
+import { useMutateCollection, type CollectionMutationPayload } from '~/hooks';
+import { fetchInitialDataQuery, type FormComponentProps } from '~/common';
 import { useQuery } from '@tanstack/react-query';
-import { getFormTitle } from '@/routes/console/-common/helpers';
-import { collectionSchema } from '@/routes/console/general_/collections/-validation';
+import { getFormTitle } from '~/routes/console/-common/helpers';
+import { collectionSchema } from '~/routes/console/general_/collections/-validation';
 
 type CollectionFormProps = FormComponentProps<CollectionMutationPayload>;
 

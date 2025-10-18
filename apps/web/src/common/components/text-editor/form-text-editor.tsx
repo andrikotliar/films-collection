@@ -1,6 +1,6 @@
 import { Controller, useFormContext } from 'react-hook-form';
 import { TextEditor, TextEditorProps } from './text-editor';
-import { FormError } from '@/common';
+import { FormError } from '~/common';
 
 type FormTextEditorProps = {
   name: string;
@@ -16,12 +16,7 @@ export const FormTextEditor = ({ name, ...props }: FormTextEditorProps) => {
       control={control}
       name={name}
       render={({ field: { onChange, value } }) => (
-        <TextEditor
-          onChange={onChange}
-          content={value}
-          error={error as FormError}
-          {...props}
-        />
+        <TextEditor onChange={onChange} content={value} error={error as FormError} {...props} />
       )}
     />
   );

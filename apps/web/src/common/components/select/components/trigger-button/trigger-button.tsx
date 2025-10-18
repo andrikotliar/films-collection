@@ -1,9 +1,9 @@
-import { Button } from '@/components/button/button';
+import { Button } from '~/components/button/button';
 import styles from './trigger-button.module.css';
 import classNames from 'classnames';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
 import { forwardRef, KeyboardEvent, ReactNode } from 'react';
-import { Loader } from '@/components/loader/loader';
+import { Loader } from '~/components/loader/loader';
 
 type TriggerButtonProps = {
   onClick: VoidFunction;
@@ -44,10 +44,7 @@ export const TriggerButton = forwardRef<HTMLButtonElement, TriggerButtonProps>(
           aria-haspopup="listbox"
         >
           <div>{children}</div>
-          <ChevronDownIcon
-            size={20}
-            className={classNames(styles.icon, styles.chevron)}
-          />
+          <ChevronDownIcon size={20} className={classNames(styles.icon, styles.chevron)} />
         </button>
         {isLoading && (
           <div className={styles.selectIcon}>

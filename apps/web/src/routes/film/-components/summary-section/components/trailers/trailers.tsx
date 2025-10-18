@@ -1,4 +1,4 @@
-import { Film, FilmTrailer } from '@/common';
+import { Film, FilmTrailer } from '~/common';
 import { useState } from 'react';
 import { TrailersModal } from './components';
 import styles from './trailers.module.css';
@@ -24,9 +24,7 @@ export const Trailers = ({ data, type }: TrailersProps) => {
         onClick={() => setIsModalOpen(true)}
       >
         <PlayIcon className={styles.playIcon} />
-        <span className={styles.label}>
-          Play trailer{data.length > 1 && 's'}
-        </span>
+        <span className={styles.label}>Play trailer{data.length > 1 && 's'}</span>
       </button>
       <TrailersModal
         isOpen={isModalOpen}

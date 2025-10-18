@@ -1,4 +1,4 @@
-import { FilmsApi } from '@/api';
+import { FilmsApi } from '~/api';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchFilmQuery = (filmId: string) => {

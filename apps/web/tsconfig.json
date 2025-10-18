@@ -9,7 +9,7 @@
     "jsx": "react-jsx",
     "types": ["vite/client"],
     "paths": {
-      "@/*": ["*"]
+      "~/*": ["*"]
     }
   },
   "include": ["src", "vite.config.ts"],

@@ -1,4 +1,4 @@
-import { isNewItem, type FormValues, type UnknownEntity } from '@/common';
+import { isNewItem, type FormValues, type UnknownEntity } from '~/common';
 
 export const getFormTitle = <T extends FormValues<UnknownEntity>>(
   values: T,

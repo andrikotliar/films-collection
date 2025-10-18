@@ -1,5 +1,5 @@
-import { apiClient } from '@/services';
-import { type Genre } from '@/common';
+import { apiClient } from '~/services';
+import { type Genre } from '~/common';
 
 export const GenresApi = {
   getBaseDataList() {

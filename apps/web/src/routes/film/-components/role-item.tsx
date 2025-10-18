@@ -1,5 +1,5 @@
-import { type FilmPerson, personRoleToTitle } from '@/common';
-import { RouterLink } from '@/components';
+import { type FilmPerson, personRoleToTitle } from '~/common';
+import { RouterLink } from '~/components';
 import classNames from 'classnames';
 
 type RoleItemProps = {

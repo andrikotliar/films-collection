@@ -1,4 +1,4 @@
-import { PageContentApi } from '@/api';
+import { PageContentApi } from '~/api';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchPageContentByKeyQuery = (key: string) => {

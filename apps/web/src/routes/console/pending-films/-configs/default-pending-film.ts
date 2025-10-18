@@ -1,5 +1,5 @@
-import { NEW_ITEM_ID } from '@/common';
-import type { PendingFilmMutationPayload } from '@/hooks';
+import { NEW_ITEM_ID } from '~/common';
+import type { PendingFilmMutationPayload } from '~/hooks';
 
 export const defaultPendingFilm: PendingFilmMutationPayload = {
   id: NEW_ITEM_ID,

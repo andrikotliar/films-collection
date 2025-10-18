@@ -1,13 +1,13 @@
-import { BackLink, ConsoleContent, ConsoleTitle, Pagination } from '@/components';
-import { PEOPLE_ADMIN_PER_PAGE, fetchAdminPeopleListQuery } from '@/common';
-import { List, FormModal, PersonForm, AddItemButton } from '@/routes/console/-common';
-import { Filters } from '@/routes/console/general_/people/-components';
+import { BackLink, ConsoleContent, ConsoleTitle, Pagination } from '~/components';
+import { PEOPLE_ADMIN_PER_PAGE, fetchAdminPeopleListQuery } from '~/common';
+import { List, FormModal, PersonForm, AddItemButton } from '~/routes/console/-common';
+import { Filters } from '~/routes/console/general_/people/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
 import { number, object, string } from 'yup';
-import { useDeletePerson, type PersonMutationPayload } from '@/hooks';
-import { personDefaultValues } from '@/routes/console/-common/components/person-form/configs';
+import { useDeletePerson, type PersonMutationPayload } from '~/hooks';
+import { personDefaultValues } from '~/routes/console/-common/components/person-form/configs';
 
 const peopleListFiltersSchema = object({
   page: number(),

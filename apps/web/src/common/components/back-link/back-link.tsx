@@ -2,7 +2,7 @@ import { ArrowLeftIcon } from 'lucide-react';
 import { ReactNode } from 'react';
 import styles from './back-link.module.css';
 import { Link } from '@tanstack/react-router';
-import { FileRoutesByTo } from '@/routeTree.gen';
+import { FileRoutesByTo } from '~/routeTree.gen';
 
 type BackLinkProps = {
   path: keyof FileRoutesByTo;

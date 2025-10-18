@@ -2,7 +2,7 @@ import styles from './console-header.module.css';
 import { LogOutIcon, MenuIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { type RefObject } from 'react';
-import { useLogout } from '@/hooks';
+import { useLogout } from '~/hooks';
 
 type ConsoleHeaderProps = {
   isMenuOpen: boolean;

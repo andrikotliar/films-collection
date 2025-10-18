@@ -1,5 +1,5 @@
 import { SummaryBlock } from '../summary-block/summary-block';
-import { type SummaryConfig } from '@/routes/film/-types';
+import { type SummaryConfig } from '~/routes/film/-types';
 
 type SummaryProps = {
   config: SummaryConfig[];

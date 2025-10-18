@@ -1,6 +1,6 @@
-import { AuthenticationApi } from '@/api';
-import { type AuthResponse, type LoginPayload } from '@/common';
-import { LocalStorage, type HttpError } from '@/services';
+import { AuthenticationApi } from '~/api';
+import { type AuthResponse, type LoginPayload } from '~/common';
+import { LocalStorage, type HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 

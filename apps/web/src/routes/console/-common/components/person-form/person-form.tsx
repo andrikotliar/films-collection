@@ -1,8 +1,8 @@
-import { Form, FormTextInput } from '@/components';
-import { type FormComponentProps } from '@/common';
-import { useMutatePerson, type PersonMutationPayload } from '@/hooks';
-import { personSchema } from '@/routes/console/-common/components/person-form/validation';
-import { getFormTitle } from '@/routes/console/-common/helpers';
+import { Form, FormTextInput } from '~/components';
+import { type FormComponentProps } from '~/common';
+import { useMutatePerson, type PersonMutationPayload } from '~/hooks';
+import { personSchema } from '~/routes/console/-common/components/person-form/validation';
+import { getFormTitle } from '~/routes/console/-common/helpers';
 
 export type PersonFormProps = FormComponentProps<PersonMutationPayload>;
 

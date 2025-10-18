@@ -1,4 +1,4 @@
-import { APP_TITLE } from '@/common';
+import { APP_TITLE } from '~/common';
 import { useEffect } from 'react';
 
 export const getTitle = (pageTitle?: string) => {

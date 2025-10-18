@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { Link } from '@tanstack/react-router';
-import { FileRoutesByTo } from '@/routeTree.gen';
+import { FileRoutesByTo } from '~/routeTree.gen';
 import styles from './data-link.module.css';
 
 export type DataLinkProps = {

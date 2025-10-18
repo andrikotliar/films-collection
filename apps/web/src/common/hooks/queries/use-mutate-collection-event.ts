@@ -1,12 +1,12 @@
-import { CollectionEventsApi } from '@/api';
+import { CollectionEventsApi } from '~/api';
 import {
   mutateEntity,
   queryKeys,
   type CollectionEvent,
   type FormValues,
   type OmitId,
-} from '@/common';
-import type { HttpError } from '@/services';
+} from '~/common';
+import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export type CollectionEventMutationPayload = FormValues<

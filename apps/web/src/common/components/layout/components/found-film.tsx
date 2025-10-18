@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router';
-import { type FilmSearchResult, getYearFromDate } from '@/common';
-import { Image } from '@/components/image/image';
+import { type FilmSearchResult, getYearFromDate } from '~/common';
+import { Image } from '~/components/image/image';
 
 type FoundFilmProps = {
   film: FilmSearchResult;

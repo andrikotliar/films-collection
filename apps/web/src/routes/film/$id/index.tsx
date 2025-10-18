@@ -1,5 +1,5 @@
-import { RoleItem } from '@/routes/film/-components';
-import { useFilm } from '@/routes/film/-hooks/use-film';
+import { RoleItem } from '~/routes/film/-components';
+import { useFilm } from '~/routes/film/-hooks/use-film';
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/film/$id/')({

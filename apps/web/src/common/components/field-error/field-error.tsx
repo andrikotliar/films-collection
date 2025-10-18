@@ -1,5 +1,5 @@
 import styles from './field-error.module.css';
-import { FormError } from '@/common';
+import { FormError } from '~/common';
 
 type FieldErrorProps = {
   error?: FormError;

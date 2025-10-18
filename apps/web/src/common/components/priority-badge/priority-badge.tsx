@@ -1,6 +1,6 @@
-import { Priority, priorityTitles, priorityToColor } from '@/common';
+import { Priority, priorityTitles, priorityToColor } from '~/common';
 import styles from './styles.module.css';
-import { Status } from '@/components/status/status';
+import { Status } from '~/components/status/status';
 
 type PriorityBadgeProps = {
   value: number;

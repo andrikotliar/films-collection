@@ -1,5 +1,5 @@
-import type { FilmDetails } from '@/common';
-import { filmTabsConfig } from '@/routes/film/-configs/film-tabs';
+import type { FilmDetails } from '~/common';
+import { filmTabsConfig } from '~/routes/film/-configs/film-tabs';
 import { Link, useRouterState } from '@tanstack/react-router';
 import classNames from 'classnames';
 

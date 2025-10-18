@@ -1,6 +1,6 @@
-import { PeopleApi } from '@/api';
-import { mutateEntity, queryKeys, type FormValues } from '@/common';
-import type { HttpError } from '@/services';
+import { PeopleApi } from '~/api';
+import { mutateEntity, queryKeys, type FormValues } from '~/common';
+import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export type PersonMutationPayload = FormValues<{

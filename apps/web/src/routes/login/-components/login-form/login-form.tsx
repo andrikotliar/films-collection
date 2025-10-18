@@ -1,7 +1,7 @@
-import type { LoginPayload } from '@/common';
-import { FormTextInput, FormPasswordInput, Logo, Form, CenteredBlock } from '@/components';
-import { useLogin } from '@/hooks';
-import { loginFormSchema } from '@/routes/login/-validation';
+import type { LoginPayload } from '~/common';
+import { FormTextInput, FormPasswordInput, Logo, Form, CenteredBlock } from '~/components';
+import { useLogin } from '~/hooks';
+import { loginFormSchema } from '~/routes/login/-validation';
 import { LogInIcon } from 'lucide-react';
 
 const defaultLoginValues: LoginPayload = {

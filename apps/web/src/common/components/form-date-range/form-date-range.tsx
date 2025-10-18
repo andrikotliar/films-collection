@@ -1,4 +1,4 @@
-import { DateFilter, MIN_DATE } from '@/common';
+import { DateFilter, MIN_DATE } from '~/common';
 import { FormGroup } from '../form-group/form-group';
 import { FormDatePicker } from '../date-picker';
 import { useFormContext } from 'react-hook-form';

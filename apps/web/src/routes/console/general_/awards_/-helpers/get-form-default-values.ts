@@ -1,5 +1,5 @@
-import { type AwardWithNominations } from '@/api';
-import { awardDefaultFormValues } from '@/routes/console/general_/awards_/-configs';
+import { type AwardWithNominations } from '~/api';
+import { awardDefaultFormValues } from '~/routes/console/general_/awards_/-configs';
 
 export const getFormDefaultValues = (data: AwardWithNominations | null) => {
   if (data) {

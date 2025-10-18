@@ -1,5 +1,5 @@
-import { apiClient } from '@/services';
-import type { Collection, OmitId } from '@/common';
+import { apiClient } from '~/services';
+import type { Collection, OmitId } from '~/common';
 
 export const CollectionsApi = {
   getBaseDataList() {

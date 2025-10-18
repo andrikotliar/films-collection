@@ -1,5 +1,5 @@
-import { AwardsApi } from '@/api';
-import { queryKeys } from '@/common/configs';
+import { AwardsApi } from '~/api';
+import { queryKeys } from '~/common/configs';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchAwardsBaseDataListQuery = () => {

@@ -1,9 +1,4 @@
-import {
-  useClickOutside,
-  useCloseOnEscape,
-  useCloseOnScroll,
-  useFocusTrap,
-} from '@/hooks';
+import { useClickOutside, useCloseOnEscape, useCloseOnScroll, useFocusTrap } from '~/hooks';
 import {
   HTMLAttributes,
   ReactNode,
@@ -68,8 +63,7 @@ export const PopupMenu = ({
       const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
       const isOverflowTop = top - menuHeight <= 0;
 
-      const horizontalPosition =
-        positionMarker === 'left' ? left : right - width;
+      const horizontalPosition = positionMarker === 'left' ? left : right - width;
 
       if (isOverflowBottom && !isOverflowTop) {
         setPosition({

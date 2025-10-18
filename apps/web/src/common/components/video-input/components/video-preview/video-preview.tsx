@@ -1,11 +1,7 @@
-import { images } from '@/assets/images';
+import { images } from '~/assets/images';
 import styles from './video-preview.module.css';
-import { Image } from '@/components/image/image';
-import {
-  replaceUrlId,
-  EMBEDDED_YOUTUBE_VIDEO_URL,
-  YOUTUBE_VIDEO_DIRECT_URL,
-} from '@/common';
+import { Image } from '~/components/image/image';
+import { replaceUrlId, EMBEDDED_YOUTUBE_VIDEO_URL, YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
 import { PlayIcon } from 'lucide-react';
 
 type VideoPreviewProps = {
@@ -25,12 +21,7 @@ export const VideoPreview = ({ videoId }: VideoPreviewProps) => {
   const videoUrl = replaceUrlId(YOUTUBE_VIDEO_DIRECT_URL, videoId);
 
   return (
-    <a
-      className={styles.previewWrapper}
-      href={videoUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a className={styles.previewWrapper} href={videoUrl} target="_blank" rel="noopener noreferrer">
       <Image src={imageSrc} />
       <PlayIcon className={styles.playIcon} />
     </a>

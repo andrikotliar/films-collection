@@ -1,5 +1,5 @@
-import { InitialDataApi } from '@/api';
-import { queryKeys } from '@/common';
+import { InitialDataApi } from '~/api';
+import { queryKeys } from '~/common';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchInitialDataQuery = () => {

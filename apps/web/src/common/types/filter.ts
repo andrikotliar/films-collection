@@ -1,4 +1,4 @@
-import { FilmsListFilters } from '@/common';
+import { FilmsListFilters } from '~/common';
 import { ListOption } from './list-option';
 import { ReactNode } from 'react';
 

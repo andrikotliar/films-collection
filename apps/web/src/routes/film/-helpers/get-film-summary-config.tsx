@@ -1,4 +1,4 @@
-import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '@/common';
+import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/common';
 import { LinksGroupWrapper, DataLink, LinksGroup, BoxOfficeValue, Dates } from '../-components';
 import { type SummaryConfig } from '../-types';
 

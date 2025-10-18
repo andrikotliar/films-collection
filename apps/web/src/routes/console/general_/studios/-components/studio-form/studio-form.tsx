@@ -1,8 +1,8 @@
-import type { FormComponentProps } from '@/common';
-import { Form, FormTextInput } from '@/components';
-import { type StudioMutationPayload, useMutateStudio } from '@/hooks/queries';
-import { getFormTitle } from '@/routes/console/-common/helpers';
-import { studioFormValidation } from '@/routes/console/general_/studios/-validation';
+import type { FormComponentProps } from '~/common';
+import { Form, FormTextInput } from '~/components';
+import { type StudioMutationPayload, useMutateStudio } from '~/hooks/queries';
+import { getFormTitle } from '~/routes/console/-common/helpers';
+import { studioFormValidation } from '~/routes/console/general_/studios/-validation';
 
 type StudioFormProps = FormComponentProps<StudioMutationPayload>;
 

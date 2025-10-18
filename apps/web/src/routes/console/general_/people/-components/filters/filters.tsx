@@ -1,9 +1,9 @@
-import { Select, TextInput } from '@/components';
-import { useDebouncedSearch } from '@/hooks';
+import { Select, TextInput } from '~/components';
+import { useDebouncedSearch } from '~/hooks';
 import { getRouteApi } from '@tanstack/react-router';
 import styles from './filters.module.css';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { fetchInitialDataQuery } from '@/common';
+import { fetchInitialDataQuery } from '~/common';
 
 const routeApi = getRouteApi('/console/general_/people');
 
@@ -33,11 +33,7 @@ export const Filters = () => {
 
   return (
     <div className={styles.filters}>
-      <TextInput
-        label="Search person"
-        defaultValue={search.q ?? ''}
-        onChange={handleSearch}
-      />
+      <TextInput label="Search person" defaultValue={search.q ?? ''} onChange={handleSearch} />
       <Select
         options={data.options.roles}
         onSelect={handleSelectRole}

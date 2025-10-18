@@ -1,8 +1,8 @@
 import styles from './films-section.module.css';
-import { FilmsGrid, Loader, Pagination } from '@/components';
+import { FilmsGrid, Loader, Pagination } from '~/components';
 import { FilmsNotFound, AdditionalInfoSection, CurrentEvents } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { PER_PAGE, type FilmsListResponse } from '@/common';
+import { PER_PAGE, type FilmsListResponse } from '~/common';
 
 type FilmsSectionProps = {
   data: FilmsListResponse;
