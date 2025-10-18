@@ -1,13 +1,13 @@
-import { apiClient } from '~/services';
-import type {
-  FilmDetails,
-  FilmSearchResult,
-  FilmsListFilters,
-  FilmsListResponse,
-  FilmsAdminListResponse,
-  Chapter,
-  AdminFilmsServerFilters,
-  ListOption,
+import {
+  type FilmDetails,
+  type FilmSearchResult,
+  type FilmsListFilters,
+  type FilmsListResponse,
+  type FilmsAdminListResponse,
+  type Chapter,
+  type AdminFilmsServerFilters,
+  type ListOption,
+  apiClient,
 } from '~/common';
 
 export type RelatedChaptersFilter = {

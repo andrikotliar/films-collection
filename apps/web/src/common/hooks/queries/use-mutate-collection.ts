@@ -1,6 +1,13 @@
 import { CollectionsApi } from '~/api';
-import { mutateEntity, queryKeys, type Collection, type FormValues, type OmitId } from '~/common';
-import type { HttpError } from '~/services';
+import {
+  mutateEntity,
+  queryKeys,
+  type Collection,
+  type FormValues,
+  type HttpError,
+  type OmitId,
+} from '~/common';
+
 import { useMutation } from '@tanstack/react-query';
 
 export type CollectionMutationPayload = FormValues<OmitId<Collection>>;

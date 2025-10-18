@@ -1,6 +1,12 @@
 import { GenresApi } from '~/api';
-import { mutateEntity, queryKeys, type Genre, type FormValues, type OmitId } from '~/common';
-import type { HttpError } from '~/services';
+import {
+  mutateEntity,
+  queryKeys,
+  type Genre,
+  type FormValues,
+  type OmitId,
+  type HttpError,
+} from '~/common';
 import { useMutation } from '@tanstack/react-query';
 
 export type GenreMutationPayload = FormValues<OmitId<Genre>>;

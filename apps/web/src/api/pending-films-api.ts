@@ -1,5 +1,4 @@
-import { apiClient } from '~/services';
-import type { PendingFilm, PendingFilmServerFilters } from '~/common';
+import { apiClient, type PendingFilm, type PendingFilmServerFilters } from '~/common';
 
 type PendingFilmsListResponse = {
   list: PendingFilm[];

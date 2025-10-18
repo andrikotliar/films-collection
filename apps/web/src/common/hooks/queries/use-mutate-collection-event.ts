@@ -4,9 +4,9 @@ import {
   queryKeys,
   type CollectionEvent,
   type FormValues,
+  type HttpError,
   type OmitId,
 } from '~/common';
-import type { HttpError } from '~/services';
 import { useMutation } from '@tanstack/react-query';
 
 export type CollectionEventMutationPayload = FormValues<

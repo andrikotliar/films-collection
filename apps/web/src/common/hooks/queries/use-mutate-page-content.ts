@@ -1,6 +1,11 @@
 import { PageContentApi } from '~/api';
-import { mutateEntity, type FormValues, type OmitId, type PageContent } from '~/common';
-import type { HttpError } from '~/services';
+import {
+  mutateEntity,
+  type FormValues,
+  type HttpError,
+  type OmitId,
+  type PageContent,
+} from '~/common';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 

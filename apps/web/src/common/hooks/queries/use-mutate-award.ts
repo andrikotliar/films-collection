@@ -1,6 +1,5 @@
 import { AwardsApi } from '~/api';
-import { mutateEntity, type FormValues } from '~/common';
-import type { HttpError } from '~/services';
+import { mutateEntity, type FormValues, type HttpError } from '~/common';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 

@@ -1,5 +1,4 @@
-import { apiClient } from '~/services';
-import type { AuthResponse, LoginPayload } from '~/common';
+import { type AuthResponse, type LoginPayload, apiClient } from '~/common';
 
 export const AuthenticationApi = {
   login(payload: LoginPayload) {

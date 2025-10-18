@@ -1,6 +1,12 @@
 import { CountriesApi } from '~/api';
-import { mutateEntity, queryKeys, type Country, type FormValues, type OmitId } from '~/common';
-import type { HttpError } from '~/services';
+import {
+  mutateEntity,
+  queryKeys,
+  type Country,
+  type FormValues,
+  type HttpError,
+  type OmitId,
+} from '~/common';
 import { useMutation } from '@tanstack/react-query';
 
 export type CountryMutationPayload = FormValues<OmitId<Country>>;

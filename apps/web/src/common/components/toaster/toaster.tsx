@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import { eventEmitter } from '~/services';
-import { type Toast, type ToastType } from '~/common';
+import { eventEmitter, type Toast, type ToastType } from '~/common';
 import { Message, MessagesWrapper } from './components';
 
 const messageTypeToTimeout: Record<ToastType, number> = {

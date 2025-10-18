@@ -1,5 +1,4 @@
-import { apiClient } from '~/services';
-import { type Country } from '~/common';
+import { apiClient, type Country } from '~/common';
 
 export const CountriesApi = {
   getBaseDataList() {

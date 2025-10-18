@@ -1,4 +1,4 @@
-import { apiClient } from '~/services';
+import { apiClient } from '~/common';
 
 export type FileUploadResponse = {
   filePath: string;

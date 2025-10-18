@@ -1,16 +1,24 @@
-import { fetchInitialDataQuery, fetchPendingFilmQuery, isNewItem, NEW_ITEM_ID } from '~/common';
-import { BackLink, ConsoleContent, ConsoleTitle, Panel } from '~/components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';
-import { object, string } from 'yup';
-import { FilmForm } from './-components';
-import { filmDefaultFormValues } from './-configs';
-import { LocalStorage } from '~/services';
+import * as yup from 'yup';
+import {
+  fetchInitialDataQuery,
+  fetchPendingFilmQuery,
+  isNewItem,
+  NEW_ITEM_ID,
+  BackLink,
+  ConsoleContent,
+  ConsoleTitle,
+  Panel,
+  LocalStorage,
+} from '~/common';
+import { FilmForm } from '~/routes/console/films_/-components';
+import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 import type { FilmFormValues } from '~/routes/console/films_/-types';
 
-const consoleFilmQueriesSchema = object({
-  pendingFilmId: string(),
+const consoleFilmQueriesSchema = yup.object({
+  pendingFilmId: yup.string(),
 });
 
 export const Route = createFileRoute('/console/films_/$id')({

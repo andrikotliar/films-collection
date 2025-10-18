@@ -1,5 +1,4 @@
-import { apiClient } from '~/services';
-import { type Studio } from '~/common';
+import { apiClient, type Studio } from '~/common';
 
 export const StudiosApi = {
   getBaseDataList() {

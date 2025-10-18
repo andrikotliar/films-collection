@@ -1,6 +1,5 @@
 import { CollectionEventsApi } from '~/api';
-import { queryKeys } from '~/common';
-import type { HttpError } from '~/services';
+import { queryKeys, type HttpError } from '~/common';
 import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteCollectionEvent = () => {

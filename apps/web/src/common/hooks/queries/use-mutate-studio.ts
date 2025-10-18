@@ -1,6 +1,12 @@
 import { StudiosApi } from '~/api';
-import { mutateEntity, queryKeys, type Studio, type FormValues, type OmitId } from '~/common';
-import type { HttpError } from '~/services';
+import {
+  mutateEntity,
+  queryKeys,
+  type Studio,
+  type FormValues,
+  type OmitId,
+  type HttpError,
+} from '~/common';
 import { useMutation } from '@tanstack/react-query';
 
 export type StudioMutationPayload = FormValues<OmitId<Studio>>;
