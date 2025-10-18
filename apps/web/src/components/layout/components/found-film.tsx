@@ -12,7 +12,10 @@ export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
 
   return (
     <Link
-      to={`/film/${film.id}`}
+      to="/film/$id"
+      params={{
+        id: film.id.toString(),
+      }}
       className="flex gap-2.5 p-1 border border-transparent rounded-lg hover:border-gray-500 overflow-hidden"
       onClick={onFilmOpen}
     >

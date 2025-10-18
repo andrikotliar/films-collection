@@ -1,8 +1,7 @@
 import type { Film } from '@/common';
-import type { FileRoutesByFullPath } from '@/routeTree.gen';
 
 export type Tab = {
-  route: keyof FileRoutesByFullPath;
+  route: string;
   title: string;
   condition: keyof Film;
 };
