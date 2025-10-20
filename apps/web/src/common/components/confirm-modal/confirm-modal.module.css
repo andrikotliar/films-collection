@@ -5,7 +5,7 @@
 .content {
   background-color: white;
   padding: 30px 40px;
-  border-radous: var(--border-radius);
+  border-radous: var(--br-default);
   min-width: 300px;
   max-width: 400px;
   text-align: center;

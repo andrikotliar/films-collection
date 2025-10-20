@@ -1,10 +1,17 @@
-import { useDocumentTitle, useScrollToTop } from '~/hooks';
-import { fetchFilmQuery } from '~/common';
-import { useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute, Outlet } from '@tanstack/react-router';
-import { SummarySection, NavigationRow, FilmPageLayout, Tabs } from '../-components';
+import { createFileRoute } from '@tanstack/react-router';
+import { BackLink, fetchFilmQuery, useDocumentTitle, useScrollToTop } from '~/common';
+import {
+  Awards,
+  CastAndCrew,
+  Chapters,
+  ContentLayout,
+  Description,
+  FilmPageLayout,
+  Section,
+  SummarySection,
+} from '~/routes/films/-components';
 
-export const Route = createFileRoute('/film/$id')({
+export const Route = createFileRoute('/films/$id')({
   loader: async ({ context, params }) => {
     return context.queryClient.ensureQueryData(fetchFilmQuery(params.id));
   },
@@ -13,19 +20,37 @@ export const Route = createFileRoute('/film/$id')({
 
 function FilmPageContainer() {
   const { id } = Route.useParams();
-  const { data: film } = useSuspenseQuery(fetchFilmQuery(id));
+  const film = Route.useLoaderData();
 
   useScrollToTop([id]);
-  useDocumentTitle(film?.title);
+  useDocumentTitle(film.title);
 
   return (
     <FilmPageLayout>
-      <NavigationRow />
+      <BackLink path="/">Back to list</BackLink>
       <SummarySection film={film} />
-      <div className="px-5 xl:px-0">
-        <Tabs film={film} />
-        <Outlet />
-      </div>
+      <ContentLayout>
+        {film.description && (
+          <Section title="Overview">
+            <Description rawHtml={film.description} />
+          </Section>
+        )}
+        {film.castAndCrew.length !== 0 && (
+          <Section title="Cast and Crew">
+            <CastAndCrew data={film.castAndCrew} />
+          </Section>
+        )}
+        {film.awards.length !== 0 && (
+          <Section title="Awards">
+            <Awards data={film.awards} />
+          </Section>
+        )}
+        {film.chapters && (
+          <Section title="Chapters">
+            <Chapters data={film.chapters} filmId={film.id} />
+          </Section>
+        )}
+      </ContentLayout>
     </FilmPageLayout>
   );
 }

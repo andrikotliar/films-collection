@@ -1,10 +1,9 @@
-import { type ReactNode } from 'react';
-import styles from './section.module.css';
+import styles from './styles.module.css';
+import { type PropsWithChildren } from 'react';
 
-type SectionProps = {
+type SectionProps = PropsWithChildren<{
   title: string;
-  children?: ReactNode;
-};
+}>;
 
 export const Section = ({ title, children }: SectionProps) => {
   return (

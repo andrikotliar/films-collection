@@ -2,9 +2,9 @@
   position: relative;
   display: flex;
   background-color: var(--gray-extra-light);
-  border: var(--border);
+  border: var(--b-default);
   box-shadow: var(--shadow-sm);
-  border-radius: var(--border-radius);
+  border-radius: var(--br-default);
   transition: border-color var(--t-timing);
   overflow: hidden;
 }
@@ -37,7 +37,7 @@
 .data {
   overflow: hidden;
   flex-grow: 1;
-  border-radius: var(--border-radius);
+  border-radius: var(--br-default);
   position: relative;
   height: 100%;
   padding: 12px;

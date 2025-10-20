@@ -10,7 +10,7 @@
 .title {
   font-size: 20px;
   font-weight: bold;
-  border-bottom: var(--border);
+  border-bottom: var(--b-default);
   padding-bottom: 10px;
 }
 

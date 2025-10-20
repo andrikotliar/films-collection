@@ -4,7 +4,7 @@
   align-items: center;
   gap: 10px;
   background-color: #fff;
-  border: var(--border);
+  border: var(--b-default);
   width: 100%;
   transition: background-color 300ms;
   min-width: 140px;
@@ -29,7 +29,7 @@
 
 .sortingButton.large {
   padding: 10px;
-  border-radous: var(--border-radius);
+  border-radous: var(--br-default);
 }
 
 .sortingButton.large .label {

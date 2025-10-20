@@ -1,9 +1,13 @@
-import { type FilmDetails, env } from '~/common';
-import { type CSSProperties, useMemo } from 'react';
-import styles from './summary-section.module.css';
-import { Poster, Summary, Trailers } from './components';
-import { getFilmSummaryConfig } from '../../-helpers';
-import { TitleRow } from '../title-row/title-row';
+import styles from './styles.module.css';
+import { useMemo } from 'react';
+import { type FilmDetails, defineCssProperties, env } from '~/common';
+import {
+  Poster,
+  SummaryBlock,
+  TitleRow,
+  Trailers,
+} from '~/routes/films/-components/summary-section/components';
+import { getFilmSummaryConfig } from '~/routes/films/-helpers';
 
 type SummarySectionProps = {
   film: FilmDetails;
@@ -14,16 +18,23 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
     return getFilmSummaryConfig(film);
   }, [film]);
 
-  const style = {
-    '--bg-url': `url(${env.BASE_MEDIA_URL}${film.poster})`,
-  } as CSSProperties;
-
   return (
-    <div className={styles.summaryLayout} style={style}>
+    <div
+      className={styles.summary_layout}
+      style={defineCssProperties({
+        '--bg-url': `url(${env.BASE_MEDIA_URL}${film.poster})`,
+      })}
+    >
       <Poster image={film.poster} title={film.title} />
-      <div className={styles.info}>
+      <div className={styles.wrapper}>
         <TitleRow data={film} />
-        <Summary config={filmConfig} />
+        <div className={styles.info}>
+          {filmConfig.map((item) => (
+            <SummaryBlock label={item.title} key={item.id}>
+              {item.content}
+            </SummaryBlock>
+          ))}
+        </div>
       </div>
       <Trailers data={film.trailers} type={film.type} />
     </div>

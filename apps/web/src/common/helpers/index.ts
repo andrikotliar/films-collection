@@ -22,3 +22,4 @@ export * from './get-date-code';
 export * from './get-default-date-code';
 export * from './get-date-code-parts';
 export * from './get-auth-state';
+export * from './define-css-properties';

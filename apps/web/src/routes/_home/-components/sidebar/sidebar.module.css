@@ -4,8 +4,8 @@
   flex-shrink: 0;
   position: sticky;
   top: calc(var(--header-height) + 20px);
-  border: var(--border);
-  border-radius: var(--border-radius);
+  border: var(--b-default);
+  border-radius: var(--br-default);
 }
 
 .filterButton {
@@ -35,7 +35,7 @@
     justify-content: center;
     gap: 10px;
     background-color: var(--blue-default);
-    border-radius: var(--border-radius);
+    border-radius: var(--br-default);
     padding: 10px 20px;
     z-index: 50;
   }
@@ -61,7 +61,7 @@
     bottom: 70px;
     background-color: #fff;
     z-index: 100;
-    border-radius: var(--border-radius);
+    border-radius: var(--br-default);
     border: none;
     opacity: 0;
     visibility: hidden;

@@ -1,6 +1,13 @@
+import type { ReactNode } from 'react';
 import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/common';
 import { LinksGroupWrapper, DataLink, LinksGroup, BoxOfficeValue, Dates } from '../-components';
-import { type SummaryConfig } from '../-types';
+
+export type SummaryConfig = {
+  id: string;
+  title: string;
+  content: ReactNode;
+  isHidden?: boolean;
+};
 
 export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
   const values: SummaryConfig[] = [

@@ -6,6 +6,6 @@
   margin-bottom: 10px;
   background-color: white;
   padding: 10px;
-  border: var(--border);
-  border-radous: var(--border-radius);
+  border: var(--b-default);
+  border-radous: var(--br-default);
 }

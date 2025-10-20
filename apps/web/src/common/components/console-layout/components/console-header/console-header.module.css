@@ -5,7 +5,7 @@
   align-items: center;
   gap: 20px;
   padding: 0 20px;
-  border-bottom: var(--border);
+  border-bottom: var(--b-default);
   background-color: white;
   height: var(--console-header-height);
   z-index: 5;

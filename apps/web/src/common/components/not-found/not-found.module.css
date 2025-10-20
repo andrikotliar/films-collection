@@ -38,7 +38,7 @@
   color: var(--blue-default);
   padding: 10px 20px;
   border: 1px solid var(--blue-default);
-  border-radius: var(--border-radius);
+  border-radius: var(--br-default);
   text-transform: uppercase;
   transition: color 0.3s, background-color 0.3s;
   text-align: center;

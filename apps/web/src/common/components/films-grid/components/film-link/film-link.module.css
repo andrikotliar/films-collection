@@ -7,7 +7,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 10 / 16;
-  border-radius: var(--border-radius);
+  border-radius: var(--br-default);
   overflow: hidden;
   background-color: #f2f2f2;
 }

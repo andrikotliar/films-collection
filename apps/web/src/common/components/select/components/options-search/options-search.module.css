@@ -1,15 +1,15 @@
 .searchWrapper {
   padding: 10px;
-  border-bottom: var(--border);
+  border-bottom: var(--b-default);
 }
 
 .search {
   width: 100%;
   border-radius: 5px;
-  border: var(--border);
+  border: var(--b-default);
   padding: 10px;
   font-size: 14px;
-  border: var(--border);
+  border: var(--b-default);
   outline-color: var(--blue-default);
 }
 

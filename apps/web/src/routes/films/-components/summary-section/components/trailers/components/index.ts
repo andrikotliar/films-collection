@@ -1,1 +1,2 @@
-export * from './trailers-modal/trailers-modal';
+export * from './trailers-playlist/trailers-playlist';
+export * from './video/video';

@@ -8,8 +8,8 @@
 
 .event_placeholder {
   background-color: var(--gray-light);
-  border-radius: var(--border-radius);
-  border: var(--border);
+  border-radius: var(--br-default);
+  border: var(--b-default);
 }
 
 @media (width < 1280px) {

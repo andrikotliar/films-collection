@@ -8,7 +8,7 @@
 .inputWrapper {
   position: relative;
   display: flex;
-  border-radous: var(--border-radius);
+  border-radous: var(--br-default);
   overflow: hidden;
   cursor: pointer;
   aspect-ratio: 9 / 14;

@@ -1,8 +1,8 @@
+import { useState } from 'react';
 import type { UseMutateAsyncFunction } from '@tanstack/react-query';
 import { ConfirmModal, Panel } from '~/common';
-import { ItemRow, type ItemRowProps } from './item-row';
 import { type DefaultListItem } from '~/routes/console/-shared';
-import { useState } from 'react';
+import { ItemRow, type ItemRowProps } from '~/routes/console/-shared/components/item-row/item-row';
 
 type ListProps<T extends DefaultListItem> = {
   items: T[];

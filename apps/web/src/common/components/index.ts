@@ -47,3 +47,4 @@ export * from './dashboard-section/dashboard-section';
 export * from './form/form';
 export * from './priority-badge/priority-badge';
 export * from './centered-block/centered-block';
+export * from './scrollable-line/scrollable-line';

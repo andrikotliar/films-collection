@@ -5,8 +5,8 @@
 }
 
 .editor {
-  border: var(--border);
-  border-radous: var(--border-radius);
+  border: var(--b-default);
+  border-radous: var(--br-default);
   transition: border-color 300ms;
   padding: 10px;
   background-color: white;

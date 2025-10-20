@@ -2,8 +2,8 @@
   position: relative;
   display: flex;
   gap: 20px;
-  border: var(--border);
-  border-radius: var(--border-radius);
+  border: var(--b-default);
+  border-radius: var(--br-default);
   padding: 15px 20px;
 }
 

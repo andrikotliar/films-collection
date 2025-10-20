@@ -1,0 +1,82 @@
+.role_item {
+  display: flex;
+  padding: 20px;
+  border: var(--b-default);
+}
+
+.role_item_default {
+  align-items: flex-start;
+}
+
+.role_item_actor {
+  align-items: center;
+}
+
+.role_item:last-child {
+  border: 0;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: var(--fz-md);
+  width: 170px;
+  flex-shrink: 0;
+}
+
+.list_wrapper {
+  display: flex;
+}
+
+.list_wrapper_default {
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.list_wrapper_actor {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list_item {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.link_wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.person_link {
+  text-decoration: underline;
+  color: var(--blue-default);
+}
+
+.person_link:hover {
+  color: var(--green);
+}
+
+.person_small_text {
+  font-size: var(--fz-sm);
+  color: var(--gray-dark);
+}
+
+.person_comment {
+  color: var(--gray-dark);
+}
+
+@media (width < 480px) {
+  .role_item_actor {
+    align-items: flex-start;
+  }
+
+  .role_item {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .label {
+    font-size: var(--fz-xs);
+  }
+}

@@ -5,7 +5,7 @@
   align-items: center;
   color: #fff;
   padding: 10px 20px;
-  border-radius: var(--border-radius);
+  border-radius: var(--br-default);
   transition: background-color 0.3s, color 0.2s;
   flex-shrink: 0;
   cursor: pointer;
@@ -35,7 +35,7 @@
 .light {
   color: var(--black);
   background-color: var(--white);
-  border: var(--border);
+  border: var(--b-default);
 }
 
 .active {

@@ -5,7 +5,7 @@ import {
   useMutateAward,
   type AwardMutationPayload,
 } from '~/common';
-import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form';
+import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form/nominations-form';
 import { awardFormSchema } from '~/routes/console/general_/awards_/-validation';
 
 type AwardFormProps = {

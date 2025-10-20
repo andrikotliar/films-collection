@@ -1,0 +1,65 @@
+import styles from './styles.module.css';
+import {
+  FormTextInput,
+  FormStatusFilterButton,
+  FieldLabel,
+  FormSelect,
+  FormRatingInput,
+  Form,
+  fetchInitialDataQuery,
+  priorityOptions,
+  useMutatePendingFilm,
+  type FormComponentProps,
+  type StatusColor,
+  type PendingFilmMutationPayload,
+} from '~/common';
+import { useQuery } from '@tanstack/react-query';
+import { pendingFilmSchema } from '~/routes/console/pending-films/-validation';
+import { getFormTitle } from '~/routes/console/-shared';
+
+type PendingFilmFormProps = FormComponentProps<PendingFilmMutationPayload>;
+
+export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormProps) => {
+  const { data } = useQuery(fetchInitialDataQuery());
+
+  const { mutateAsync, isPending } = useMutatePendingFilm();
+
+  const submit = async (values: PendingFilmMutationPayload) => {
+    await mutateAsync(values);
+    afterSubmitEffect();
+  };
+
+  const title = getFormTitle(values, 'Pending Film');
+
+  return (
+    <Form
+      onSubmit={submit}
+      defaultValues={values}
+      schema={pendingFilmSchema}
+      title={title}
+      isLoading={isPending}
+    >
+      <FormTextInput name="title" label="Title" />
+      <div>
+        <FieldLabel>Priority</FieldLabel>
+        <div className={styles.priorities}>
+          {priorityOptions.map((option) => (
+            <FormStatusFilterButton
+              name="priority"
+              title={option.label}
+              value={String(option.value)}
+              key={option.value}
+              color={option.color as StatusColor}
+            />
+          ))}
+        </div>
+      </div>
+      <FormSelect
+        name="collectionId"
+        options={data?.options.collections ?? []}
+        label="Collection"
+      />
+      <FormRatingInput name="rating" size={3} label="Rating" />
+    </Form>
+  );
+};

@@ -16,8 +16,8 @@
   padding-left: 40px;
   width: 100%;
   outline: none;
-  border: var(--border);
-  border-radius: var(--border-radius);
+  border: var(--b-default);
+  border-radius: var(--br-default);
   background-color: var(--gray-invisible);
   transition: var(--t-timing);
 }

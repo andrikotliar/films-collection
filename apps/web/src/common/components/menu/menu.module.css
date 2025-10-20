@@ -10,7 +10,7 @@
   gap: 10px;
   align-items: center;
   padding: 10px;
-  border-bottom: var(--border);
+  border-bottom: var(--b-default);
   user-select: none;
 }
 

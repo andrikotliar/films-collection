@@ -1,9 +1,9 @@
 .popupMenu {
   position: fixed;
   background-color: #fff;
-  border-radius: var(--border-radius);
+  border-radius: var(--br-default);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
-  border: var(--border);
+  border: var(--b-default);
   min-width: 150px;
   z-index: 700;
 }

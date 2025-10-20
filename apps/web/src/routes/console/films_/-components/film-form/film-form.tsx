@@ -11,10 +11,15 @@ import {
   fetchInitialDataQuery,
   type PersonMutationPayload,
 } from '~/common';
-import { AwardsSelect, ChapterSelect, CastAndCrewSelect, TrailersSelect } from './components';
+import {
+  AwardsSelect,
+  ChapterSelect,
+  CastAndCrewSelect,
+  TrailersSelect,
+  FilmValuesWatcher,
+} from './components';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { FilmValuesWatcher } from '~/routes/console/films_/-components/film-values-watcher';
 import { filmFormSchema } from '~/routes/console/films_/-validation/film-form-schema';
 import { useState } from 'react';
 import { FormModal, PersonForm } from '~/routes/console/-shared';
@@ -77,10 +82,8 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         />
         <FormTextInput name="runtime" type="number" label="Runtime (min)" min="0" />
         <FormDatePicker name="releaseDate" label="Release Date" />
-        <div className="flex gap-5">
-          <FormTextInput name="budget" label="Budget" type="number" min="0" />
-          <FormTextInput name="boxOffice" label="Box Office" type="number" min="0" />
-        </div>
+        <FormTextInput name="budget" label="Budget" type="number" min="0" />
+        <FormTextInput name="boxOffice" label="Box Office" type="number" min="0" />
         <FormTextEditor name="description" label="Description" />
         <CastAndCrewSelect
           positionOptions={initialOptions.options.roles}
