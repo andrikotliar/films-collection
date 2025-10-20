@@ -37,21 +37,21 @@
   --purple-dark: #8f5bab;
   --purple-light: #dccbf2;
 
-  --border: 1px solid var(--gray);
-  --border-radius: var(--border-radius);
+  --b-default: 1px solid var(--gray);
+  --br-default: 8px;
   --shadow-sm: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
-  --padding: 20px;
+  --pd-default: 20px;
   --header-height: 60px;
   --screen-height: calc(100vh - var(--header-height));
 
   --t-timing: 300ms;
 
-  --text-xs: 12px;
-  --text-sm: 14px;
-  --text-base: 16px;
-  --text-lg: 18px;
-  --text-xl: 20px;
-  --text-2xl: 24px;
-  --text-3xl: 30px;
+  --fz-xs: 12px;
+  --fz-sm: 14px;
+  --fz-base: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-2xl: 24px;
+  --fz-3xl: 30px;
 }
