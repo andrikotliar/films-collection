@@ -1,5 +1,5 @@
 import { type CSSProperties } from 'react';
-import logoImageSrc from '~/assets/images/logos/logo.svg';
+import { mainLogoSvg } from '~/assets';
 import { Image } from '~/common/components/image/image';
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 export const Logo = ({ width = 30 }: Props) => {
   return (
     <div style={{ width }}>
-      <Image src={logoImageSrc} shouldFitContainer />
+      <Image src={mainLogoSvg} shouldFitContainer />
     </div>
   );
 };
