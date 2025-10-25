@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { type Toast, type ToastType } from '~/common';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { CircleAlertIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, XIcon } from 'lucide-react';
 import { type ReactNode } from 'react';
 
@@ -26,7 +26,7 @@ const typeToIcon: Record<ToastType, ReactNode> = {
 export const Message = ({ data, onRemove }: Props) => {
   return (
     <div
-      className={classNames(styles.message, typeToClassName[data.type])}
+      className={clsx(styles.message, typeToClassName[data.type])}
       onClick={() => onRemove(data.id)}
     >
       <div className={styles.body}>

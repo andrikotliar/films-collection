@@ -1,7 +1,7 @@
 import { Link, useLocation } from '@tanstack/react-router';
 import styles from './styles.module.css';
 import { type MenuConfigItem } from '~/common';
-import classNames from 'classnames';
+import clsx from 'clsx';
 
 type Props = {
   config: MenuConfigItem[];
@@ -17,12 +17,12 @@ export const Menu = ({ config, className, isStandalone = false }: Props) => {
   };
 
   return (
-    <div className={classNames(styles.menu, className)}>
+    <div className={clsx(styles.menu, className)}>
       {config.map((configItem) => (
         <Link
           key={configItem.id}
           to={configItem.route}
-          className={classNames(styles.link, {
+          className={clsx(styles.link, {
             [styles.active_link]: checkActiveState(configItem.route),
             [styles.standaloneMenu]: isStandalone,
           })}

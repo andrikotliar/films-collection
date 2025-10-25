@@ -1,7 +1,7 @@
 import { type ReactNode, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { ModalContent, ModalCloseButton } from './components';
 
 type Props = {
@@ -37,7 +37,7 @@ export const Modal = ({
 
   return createPortal(
     <div
-      className={classNames(styles.modal, className)}
+      className={clsx(styles.modal, className)}
       onClick={isAllowedClickOutside ? onClose : undefined}
       aria-label="Close modal window"
     >

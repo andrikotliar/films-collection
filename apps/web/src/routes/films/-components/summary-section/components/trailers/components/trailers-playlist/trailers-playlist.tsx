@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { type FilmTrailer } from '~/common';
 import { Video } from '~/routes/films/-components/summary-section/components/trailers/components/video/video';
 
@@ -32,7 +32,7 @@ export const TrailersPlaylist = ({ trailers, previewLabel }: Props) => {
           {trailers.map((trailer) => (
             <button
               key={trailer.id}
-              className={classNames(styles.trailer_button, {
+              className={clsx(styles.trailer_button, {
                 [styles.active_trailer_button]: activeVideoId === trailer.videoId,
               })}
               onClick={() => handleSetActiveVideoId(trailer.videoId)}

@@ -1,7 +1,7 @@
 import { FieldLabel } from '~/common/components/field-label/field-label';
 import { useState, type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { Maximize2Icon, Minimize2Icon } from 'lucide-react';
 
 type Props = {
@@ -24,7 +24,7 @@ export const FormSection = ({ children, label }: PropsWithChildren<Props>) => {
         </button>
       </div>
       <div
-        className={classNames({
+        className={clsx({
           [styles.hidden_content]: isCollapsed,
         })}
       >

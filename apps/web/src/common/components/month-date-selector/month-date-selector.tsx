@@ -2,7 +2,7 @@ import { FieldLabel } from '~/common/components/field-label/field-label';
 import { monthOptions } from '~/common/components/month-date-selector/configs';
 import { Select } from '~/common/components/select';
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { getDateCode, getDateCodeParts, getDefaultDateCode, type FormError } from '~/common';
 import { FieldError } from '~/common/components/field-error/field-error';
 
@@ -49,7 +49,7 @@ export const MonthDateSelector = ({
             <button
               type="button"
               onClick={() => handleSelectDate(index + 1)}
-              className={classNames(styles.date, {
+              className={clsx(styles.date, {
                 [styles.selected]: selectedDate === index + 1,
               })}
               key={index}

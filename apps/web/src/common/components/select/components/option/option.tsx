@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { forwardRef } from 'react';
 import { type ListOption } from '~/common';
-import classNames from 'classnames';
+import clsx from 'clsx';
 
 type Props = {
   onSelect: (value: ListOption<any>['value'], isActive: boolean) => void;
@@ -17,7 +17,7 @@ export const Option = forwardRef<HTMLButtonElement, Props>(
       <button
         ref={ref}
         onClick={() => onSelect(data.value, isActive)}
-        className={classNames(styles.option, {
+        className={clsx(styles.option, {
           [styles.active]: isActive,
         })}
         type="button"

@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { type ReactNode } from 'react';
 
 type Props = {
@@ -8,5 +8,5 @@ type Props = {
 };
 
 export const ConsoleTitle = ({ children, className }: Props) => {
-  return <h1 className={classNames(styles.console_page_title, className)}>{children}</h1>;
+  return <h1 className={clsx(styles.console_page_title, className)}>{children}</h1>;
 };

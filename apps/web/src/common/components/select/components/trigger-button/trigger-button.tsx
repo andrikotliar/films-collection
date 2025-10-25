@@ -1,6 +1,6 @@
 import { Button } from '~/common/components/button/button';
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
 import { forwardRef, type KeyboardEvent, type PropsWithChildren } from 'react';
 import { Loader } from '~/common/components/loader/loader';
@@ -34,7 +34,7 @@ export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
         <button
           ref={ref}
           onClick={onClick}
-          className={classNames(styles.select_button, {
+          className={clsx(styles.select_button, {
             [styles.selectButtonActive]: isActive,
           })}
           onKeyDown={onKeyDown}
@@ -43,7 +43,7 @@ export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
           aria-haspopup="listbox"
         >
           <div>{children}</div>
-          <ChevronDownIcon size={20} className={classNames(styles.icon, styles.chevron)} />
+          <ChevronDownIcon size={20} className={clsx(styles.icon, styles.chevron)} />
         </button>
         {isLoading && (
           <div className={styles.select_icon}>

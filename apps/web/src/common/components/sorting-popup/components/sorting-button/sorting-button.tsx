@@ -1,7 +1,7 @@
 import { ArrowDownAZIcon, ArrowUpAZIcon } from 'lucide-react';
 import { forwardRef, type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { type SortingOrder } from '~/common';
 
 type Props = {
@@ -13,11 +13,7 @@ type Props = {
 export const SortingButton = forwardRef<HTMLButtonElement, PropsWithChildren<Props>>(
   ({ onClick, children, size, order }, ref) => {
     return (
-      <button
-        ref={ref}
-        onClick={onClick}
-        className={classNames(styles.sorting_button, styles[size])}
-      >
+      <button ref={ref} onClick={onClick} className={clsx(styles.sorting_button, styles[size])}>
         <span className={styles.label}>{children}</span>
         {order === 'asc' ? (
           <ArrowDownAZIcon className={styles.icon} />

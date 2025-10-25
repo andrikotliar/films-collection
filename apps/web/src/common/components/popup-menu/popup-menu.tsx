@@ -9,7 +9,7 @@ import {
 } from 'react';
 import styles from './styles.module.css';
 import { createPortal } from 'react-dom';
-import classNames from 'classnames';
+import clsx from 'clsx';
 
 type Props = {
   onClose: VoidFunction;
@@ -128,7 +128,7 @@ export const PopupMenu = ({
   return createPortal(
     <div
       ref={menuRef}
-      className={classNames(styles.popup_menu, className)}
+      className={clsx(styles.popup_menu, className)}
       style={{ ...position, width: menuWidth }}
       {...divProps}
     >

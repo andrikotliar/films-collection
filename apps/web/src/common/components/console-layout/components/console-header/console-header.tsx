@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { LogOutIcon, MenuIcon } from 'lucide-react';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { type RefObject } from 'react';
 import { useLogout } from '~/common';
 
@@ -17,7 +17,7 @@ export const ConsoleHeader = ({ onMenuOpen, isMenuOpen, buttonRef }: Props) => {
     <div className={styles.console_header}>
       <button className={styles.menu_button} onClick={onMenuOpen} ref={buttonRef}>
         <MenuIcon
-          className={classNames(styles.menu_icon, {
+          className={clsx(styles.menu_icon, {
             [styles.menu_icon_collapsed]: !isMenuOpen,
           })}
           size={20}

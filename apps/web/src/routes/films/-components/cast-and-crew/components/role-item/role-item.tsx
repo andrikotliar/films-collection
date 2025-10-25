@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { type FilmPerson, personRoleToTitle, RouterLink } from '~/common';
 
 type Props = {
@@ -11,7 +11,7 @@ export const RoleItem = ({ data }: Props) => {
 
   return (
     <div
-      className={classNames(
+      className={clsx(
         styles.role_item,
         isActorRole ? styles.role_item_actor : styles.role_item_default,
       )}

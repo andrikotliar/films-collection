@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { type ReactNode } from 'react';
-import classNames from 'classnames';
+import clsx from 'clsx';
 
 type Props = {
   onClick: VoidFunction;
@@ -11,7 +11,7 @@ type Props = {
 export const ToolButton = ({ icon, onClick, isActive = false }: Props) => {
   return (
     <button
-      className={classNames(styles.button, {
+      className={clsx(styles.button, {
         [styles.active]: isActive,
       })}
       onClick={onClick}

@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import {
   fetchInitialDataQuery,
@@ -46,7 +46,7 @@ export const Sidebar = () => {
   return (
     <>
       <div
-        className={classNames(styles.sidebar_content, {
+        className={clsx(styles.sidebar_content, {
           [styles.open]: isFilterOpen,
         })}
       >

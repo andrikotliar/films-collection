@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { Link, LinkProps } from '@tanstack/react-router';
 import styles from './styles.module.css';
 
@@ -8,7 +8,7 @@ type RouterLinkProps = LinkProps & {
 
 export const RouterLink = ({ children, className, ...props }: RouterLinkProps) => {
   return (
-    <Link className={classNames(styles.link, className)} {...props}>
+    <Link className={clsx(styles.link, className)} {...props}>
       {children}
     </Link>
   );

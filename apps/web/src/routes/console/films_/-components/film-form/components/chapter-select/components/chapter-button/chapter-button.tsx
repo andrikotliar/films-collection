@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+import clsx from 'clsx';
 import styles from './styles.module.css';
 import { type PropsWithChildren } from 'react';
 
@@ -28,7 +28,7 @@ export const ChapterButton = ({
 
   return (
     <button
-      className={classNames(styles.button, {
+      className={clsx(styles.button, {
         [styles.active]: isActive,
       })}
       onClick={() => onSelect(currentNumber + 1)}

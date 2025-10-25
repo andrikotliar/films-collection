@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { consoleMenuConfig } from '~/common';
 import { Menu } from '~/common/components/menu/menu';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { forwardRef } from 'react';
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 export const ConsoleMenu = forwardRef<HTMLDivElement, Props>(({ isMenuOpen }, ref) => {
   return (
     <div
-      className={classNames(styles.menu_wrapper, {
+      className={clsx(styles.menu_wrapper, {
         [styles.menu_wrapper_hidden]: !isMenuOpen,
       })}
       ref={ref}

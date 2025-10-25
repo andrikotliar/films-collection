@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { type MouseEventHandler, type ReactNode } from 'react';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { Loader } from '~/common/components/loader/loader';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'light';
@@ -32,7 +32,7 @@ export const Button = ({
     <button
       onClick={onClick}
       type={type}
-      className={classNames(styles.button, styles[variant], className, {
+      className={clsx(styles.button, styles[variant], className, {
         [styles.hidden]: isHidden,
       })}
       disabled={isDisabled || isLoading}

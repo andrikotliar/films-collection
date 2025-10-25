@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { useMemo } from 'react';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { buildPagination } from '~/common';
 
 export type PaginationProps = {
@@ -40,7 +40,7 @@ export const Pagination = ({
 
             return (
               <button
-                className={classNames(styles.page_button, {
+                className={clsx(styles.page_button, {
                   [styles.active]: currentPageIndex + 1 === page,
                 })}
                 key={index}

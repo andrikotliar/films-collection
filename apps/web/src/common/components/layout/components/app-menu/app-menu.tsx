@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { type RefObject, useRef } from 'react';
 import { useClickOutside, useCloseOnScroll, mainMenu } from '~/common';
 import { Menu } from '~/common/components/menu/menu';
@@ -24,7 +24,7 @@ export const AppMenu = ({ isOpen, onClose, menuButtonRef }: Props) => {
 
   return (
     <div
-      className={classNames(styles.app_menu, {
+      className={clsx(styles.app_menu, {
         [styles.open_app_menu]: isOpen,
       })}
       ref={containerRef}

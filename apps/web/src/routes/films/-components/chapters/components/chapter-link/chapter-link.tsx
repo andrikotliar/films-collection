@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { Image } from '~/common';
 
 type Props = {
@@ -16,7 +16,7 @@ export const ChapterLink = ({ id, poster, title, chapter, isActive }: Props) => 
     <Link
       to="/films/$id"
       params={{ id: String(id) }}
-      className={classNames(styles.chapter, isActive && styles.chapter_disabled)}
+      className={clsx(styles.chapter, isActive && styles.chapter_disabled)}
       title={title}
     >
       <Image src={poster} alt={title} isExternal />

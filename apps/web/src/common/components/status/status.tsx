@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+import clsx from 'clsx';
 import styles from './styles.module.css';
 import { type StatusColor } from '~/common';
 
@@ -8,5 +8,5 @@ export type Props = {
 };
 
 export const Status = ({ color, title }: Props) => {
-  return <div className={classNames(styles.status, styles[color])}>{title}</div>;
+  return <div className={clsx(styles.status, styles[color])}>{title}</div>;
 };

@@ -1,6 +1,6 @@
 import { type ComponentProps, forwardRef } from 'react';
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { handleImageError } from './helpers';
 import { env } from '~/common';
 import { imageNotFoundPlaceholder } from '~/assets';
@@ -40,7 +40,7 @@ export const Image = forwardRef<HTMLImageElement, Props>(
       <img
         ref={ref}
         src={getImageSource()}
-        className={classNames(styles.image, className, {
+        className={clsx(styles.image, className, {
           [styles.fit_container]: shouldFitContainer,
         })}
         onError={handleImageError(errorImageSrc)}

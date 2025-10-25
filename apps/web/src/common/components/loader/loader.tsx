@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { LoaderCircle } from 'lucide-react';
 
 export type LoaderProps = {
@@ -15,12 +15,12 @@ export const Loader = ({
 }: LoaderProps) => {
   return (
     <div
-      className={classNames(styles.loader_container, {
+      className={clsx(styles.loader_container, {
         [styles.full_page]: isFullPage,
       })}
     >
       <LoaderCircle
-        className={classNames(styles.loader, {
+        className={clsx(styles.loader, {
           [styles.default_color]: !shouldInheritColor,
         })}
         size={size}

@@ -3,7 +3,7 @@ import { type ChangeEventHandler, forwardRef } from 'react';
 import { FieldError } from '../field-error/field-error';
 import { CheckIcon } from 'lucide-react';
 import { type StatusColor } from '~/common';
-import classNames from 'classnames';
+import clsx from 'clsx';
 
 export type StatusFilterButtonProps = {
   title: string;
@@ -23,7 +23,7 @@ export const StatusFilterButton = forwardRef<HTMLInputElement, StatusFilterButto
 
     return (
       <label>
-        <div className={classNames(styles.root_wrapper, styles[color])}>
+        <div className={clsx(styles.root_wrapper, styles[color])}>
           <input
             ref={ref}
             type={inputType}

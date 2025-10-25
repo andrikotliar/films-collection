@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
-import classNames from 'classnames';
+import clsx from 'clsx';
 import { StarIcon } from 'lucide-react';
 
 type Props = {
@@ -16,7 +16,7 @@ export const Rating = ({ value }: Props) => {
     <Link
       to="/"
       search={{ rating: String(value) }}
-      className={classNames(styles.rating, {
+      className={clsx(styles.rating, {
         [styles.highest_rating]: isHighestRating,
       })}
       title="Rating"
