@@ -79,7 +79,7 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Props) 
   return (
     <FormProvider {...methods}>
       <form onSubmit={methods.handleSubmit(submitFilter)} className={styles.filters}>
-        <div className={styles.filterGroups}>
+        <div className={styles.filter_groups}>
           {config.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
           ))}

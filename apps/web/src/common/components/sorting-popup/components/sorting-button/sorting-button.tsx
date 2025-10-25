@@ -16,7 +16,7 @@ export const SortingButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
       <button
         ref={ref}
         onClick={onClick}
-        className={classNames(styles.sortingButton, styles[size])}
+        className={classNames(styles.sorting_button, styles[size])}
       >
         <span className={styles.label}>{children}</span>
         {order === 'asc' ? (

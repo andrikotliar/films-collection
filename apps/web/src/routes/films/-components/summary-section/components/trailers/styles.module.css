@@ -4,7 +4,7 @@
   bottom: 20px;
 }
 
-.playButton {
+.play_button {
   color: white;
   display: flex;
   align-items: center;
@@ -17,11 +17,11 @@
   transition: transform 200ms;
 }
 
-.playButton:active {
+.play_button:active {
   transform: scale(0.95);
 }
 
-.playIcon {
+.play_icon {
   fill: white;
   width: 16px;
   height: 16px;
@@ -33,15 +33,15 @@
   font-weight: bold;
 }
 
-.trailersModal {
+.trailers_modal {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.trailersModalContent {
+.trailers_modal_content {
   width: 80%;
 }
 
-.trailerCloseButton {
+.trailer_close_button {
   position: absolute;
   top: -15px;
   right: 10px;
@@ -51,7 +51,7 @@
 }
 
 @media (max-width: 1360px) {
-  .trailersModalContent {
+  .trailers_modal_content {
     width: 98%;
   }
 }
@@ -62,7 +62,7 @@
     margin-top: 20px;
   }
 
-  .playButton {
+  .play_button {
     width: 100%;
     padding: 10px;
   }

@@ -5,16 +5,16 @@
   gap: 5px;
 }
 
-.inputWrapper {
+.input_wrapper {
   position: relative;
   display: flex;
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
   overflow: hidden;
   cursor: pointer;
   aspect-ratio: 9 / 14;
 }
 
-.fileInput {
+.file_input {
   display: none;
 }
 
@@ -32,20 +32,20 @@
   transition: opacity 300ms;
 }
 
-.uploadIcon {
+.upload_icon {
   color: var(--gray-dark);
 }
 
-.inputWrapper:hover .overlay {
+.input_wrapper:hover .overlay {
   opacity: 1;
 }
 
-.removeButton {
+.remove_button {
   position: absolute;
   top: 0;
   right: -25px;
 }
 
-.label + .removeButton {
+.label + .remove_button {
   top: 23px;
 }

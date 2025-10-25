@@ -1,10 +1,10 @@
-.messagesWrapper {
+.messages_wrapper {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.errorMessage {
+.error_message {
   color: var(--red-failure);
   font-size: 12px;
 }

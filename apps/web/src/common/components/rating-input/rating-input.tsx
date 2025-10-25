@@ -26,7 +26,7 @@ export const RatingInput = ({ size, name, onChange, defaultValue, label }: Ratin
                 checked={value === defaultValue}
                 onChange={() => onChange(value)}
               />
-              <StarIcon className={styles.starIcon} />
+              <StarIcon className={styles.star_icon} />
             </label>
           );
         })}

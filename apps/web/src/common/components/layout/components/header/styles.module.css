@@ -10,7 +10,7 @@
   z-index: 100;
 }
 
-.headerContainer {
+.header_container {
   position: relative;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
   height: 100%;
 }
 
-.logoWrapper {
+.logo_wrapper {
   display: flex;
   text-align: center;
 }
@@ -29,13 +29,13 @@
   width: var(--icon-size);
 }
 
-.leftColumn {
+.left_column {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.menuButton {
+.menu_button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,21 +46,21 @@
   cursor: pointer;
 }
 
-.menuButton:focus-visible {
+.menu_button:focus-visible {
   outline: auto;
 }
 
-.menuIcon {
+.menu_icon {
   pointer-events: none;
 }
 
-.searchWrapper {
+.search_wrapper {
   max-width: 920px;
   width: 100%;
 }
 
 @media (max-width: 480px) {
-  .searchWrapper:has(input:focus) {
+  .search_wrapper:has(input:focus) {
     position: absolute;
     left: 0;
     top: 0;

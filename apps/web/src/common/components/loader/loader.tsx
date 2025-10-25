@@ -15,13 +15,13 @@ export const Loader = ({
 }: LoaderProps) => {
   return (
     <div
-      className={classNames(styles.loaderContainer, {
-        [styles.fullPage]: isFullPage,
+      className={classNames(styles.loader_container, {
+        [styles.full_page]: isFullPage,
       })}
     >
       <LoaderCircle
         className={classNames(styles.loader, {
-          [styles.defaultColor]: !shouldInheritColor,
+          [styles.default_color]: !shouldInheritColor,
         })}
         size={size}
       />

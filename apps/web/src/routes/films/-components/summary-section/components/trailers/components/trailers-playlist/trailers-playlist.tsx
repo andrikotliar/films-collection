@@ -24,7 +24,7 @@ export const TrailersPlaylist = ({ trailers, previewLabel }: Props) => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.videoColumn}>
+      <div className={styles.video_column}>
         <Video trailerId={activeVideoId} shouldAutoPlay={shouldAutoPlay} />
       </div>
       {trailers.length > 1 && (
@@ -32,8 +32,8 @@ export const TrailersPlaylist = ({ trailers, previewLabel }: Props) => {
           {trailers.map((trailer) => (
             <button
               key={trailer.id}
-              className={classNames(styles.trailerButton, {
-                [styles.activeTrailerButton]: activeVideoId === trailer.videoId,
+              className={classNames(styles.trailer_button, {
+                [styles.active_trailer_button]: activeVideoId === trailer.videoId,
               })}
               onClick={() => handleSetActiveVideoId(trailer.videoId)}
               disabled={activeVideoId === trailer.videoId}
@@ -41,10 +41,10 @@ export const TrailersPlaylist = ({ trailers, previewLabel }: Props) => {
                 backgroundImage: `url(https://img.youtube.com/vi/${trailer.videoId}/default.jpg)`,
               }}
             >
-              <span className={styles.previewTitle}>
+              <span className={styles.preview_title}>
                 {previewLabel} {trailer.order}
               </span>
-              <PlayIcon className={styles.playIcon} />
+              <PlayIcon className={styles.play_icon} />
             </button>
           ))}
         </div>

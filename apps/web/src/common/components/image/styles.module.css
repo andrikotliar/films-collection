@@ -4,6 +4,6 @@
   object-fit: cover;
 }
 
-.image.fitContainer {
+.image.fit_container {
   object-fit: contain;
 }

@@ -13,7 +13,7 @@ export const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(
     return (
       <label className={styles.wrapper}>
         {label && <FieldLabel>{label}</FieldLabel>}
-        <textarea className={styles.textArea} ref={ref} {...textAreaProps} />
+        <textarea className={styles.text_area} ref={ref} {...textAreaProps} />
         <FieldError error={error} />
       </label>
     );

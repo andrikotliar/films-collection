@@ -50,15 +50,15 @@ export const ConsoleLayout = () => {
   });
 
   return (
-    <div className={styles.consoleLayout}>
+    <div className={styles.console_layout}>
       <ConsoleHeader
         isMenuOpen={isMenuOpen}
         onMenuOpen={handleMenuOpen}
         buttonRef={menuButtonRef}
       />
-      <div className={styles.consolePage}>
+      <div className={styles.console_page}>
         <ConsoleMenu isMenuOpen={isMenuOpen} ref={menuContainerRef} />
-        <div className={styles.consoleWorkingArea}>
+        <div className={styles.console_working_area}>
           <Outlet />
         </div>
       </div>

@@ -1,4 +1,4 @@
-.editorWrapper {
+.editor_wrapper {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -6,7 +6,7 @@
 
 .editor {
   border: var(--b-default);
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
   transition: border-color 300ms;
   padding: 10px;
   background-color: white;

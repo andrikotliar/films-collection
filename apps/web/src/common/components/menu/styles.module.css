@@ -14,11 +14,11 @@
   user-select: none;
 }
 
-.link:not(.activeLink):hover {
+.link:not(.active_link):hover {
   background-color: var(--gray-light);
 }
 
-.activeLink {
+.active_link {
   color: #fff;
   background-color: var(--blue-default);
   pointer-events: none;

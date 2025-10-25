@@ -1,11 +1,11 @@
-.consolePageTitle {
+.console_page_title {
   color: var(--blue-default);
   font-size: 25px;
   font-weight: 900;
 }
 
 @media (max-width: 480px) {
-  .consolePageTitle {
+  .console_page_title {
     font-size: 20px;
   }
 }

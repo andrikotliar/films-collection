@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-.textArea {
+.text_area {
   font-size: inherit;
   font-family: inherit;
   padding: 10px;
@@ -16,6 +16,6 @@
   resize: vertical;
 }
 
-.textArea:hover {
+.text_area:hover {
   border-color: var(--gray-dark);
 }

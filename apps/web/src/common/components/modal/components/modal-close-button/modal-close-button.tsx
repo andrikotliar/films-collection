@@ -9,7 +9,7 @@ type Props = PropsWithClassName<{
 
 export const ModalCloseButton = ({ onClick, className }: Props) => {
   return (
-    <button onClick={onClick} className={classNames(styles.closeButton, className)}>
+    <button onClick={onClick} className={classNames(styles.close_button, className)}>
       <XIcon size={15} />
     </button>
   );

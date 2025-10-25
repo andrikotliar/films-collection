@@ -8,7 +8,7 @@ type IconLinkProps = Omit<LinkProps, 'className' | 'children'> & {
 
 export const IconLink = ({ icon, ...props }: IconLinkProps) => {
   return (
-    <Link className={styles.iconLink} {...props}>
+    <Link className={styles.icon_link} {...props}>
       {icon}
     </Link>
   );

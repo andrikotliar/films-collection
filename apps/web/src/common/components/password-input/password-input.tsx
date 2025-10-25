@@ -25,11 +25,11 @@ export const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>((p
       ref={ref}
       type={inputType}
       icon={
-        <button onClick={handleShowPassword} type="button" className={styles.showPasswordButton}>
+        <button onClick={handleShowPassword} type="button" className={styles.show_password_button}>
           {inputType === 'password' ? (
-            <EyeIcon className={styles.eyeIcon} />
+            <EyeIcon className={styles.eye_icon} />
           ) : (
-            <EyeOffIcon className={styles.eyeIcon} />
+            <EyeOffIcon className={styles.eye_icon} />
           )}
         </button>
       }

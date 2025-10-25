@@ -1,4 +1,4 @@
-.appMenu {
+.app_menu {
   position: fixed;
   top: calc(var(--header-height) - 5px);
   right: 20px;
@@ -15,7 +15,7 @@
   z-index: 300;
 }
 
-.openAppMenu {
+.open_app_menu {
   transform: scale(1);
   visibility: visible;
 }

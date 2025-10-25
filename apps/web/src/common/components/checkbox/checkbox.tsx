@@ -13,7 +13,7 @@ export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
     return (
       <label className={styles.checkbox}>
         <input ref={ref} type={type} {...checkboxInputProps} />
-        <div className={styles.iconWrapper}>
+        <div className={styles.icon_wrapper}>
           <CheckIcon className={styles.icon} />
         </div>
         <div className={styles.title}>

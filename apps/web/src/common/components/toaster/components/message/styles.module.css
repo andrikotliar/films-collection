@@ -12,21 +12,21 @@
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-.errorMessage {
+.error_message {
   color: white;
   background-color: var(--red);
 }
 
-.successMessage {
+.success_message {
   color: white;
   background-color: var(--green-success);
 }
 
-.infoMessage {
+.info_message {
   background-color: var(--purple-light);
 }
 
-.warningMessage {
+.warning_message {
   background-color: var(--yellow-sand);
 }
 
@@ -40,19 +40,19 @@
   margin-top: 2px;
 }
 
-.typeIcon {
+.type_icon {
   font-size: 0;
 }
 
-.warningMessage .typeIcon {
+.warning_message .type_icon {
   color: var(--yellow-gold);
 }
 
-.infoMessage .typeIcon {
+.info_message .type_icon {
   color: var(--purple-dark);
 }
 
-.closeIcon {
+.close_icon {
   position: absolute;
   top: 10px;
   right: 10px;

@@ -15,8 +15,8 @@ export const Panel = ({
   return (
     <div
       className={classNames(styles.panel, {
-        [styles.panelWithPadding]: hasPaddings,
-        [styles.flexContainer]: isFlexContainer,
+        [styles.panel_with_padding]: hasPaddings,
+        [styles.flex_container]: isFlexContainer,
       })}
     >
       {children}

@@ -10,7 +10,7 @@ type Props = {
 export const FilmLink = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
   return (
     <Link
-      className={styles.filmLink}
+      className={styles.film_link}
       to="/films/$id"
       params={{ id: String(data.id) }}
       key={data.id}

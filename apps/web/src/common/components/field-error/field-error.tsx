@@ -12,9 +12,9 @@ export const FieldError = ({ error }: Props) => {
 
   if (Array.isArray(error)) {
     return (
-      <div className={styles.messagesWrapper}>
+      <div className={styles.messages_wrapper}>
         {error.map((message) => (
-          <span className={styles.errorMessage}>{message}</span>
+          <span className={styles.error_message}>{message}</span>
         ))}
       </div>
     );
@@ -22,7 +22,7 @@ export const FieldError = ({ error }: Props) => {
 
   return (
     <div>
-      <span className={styles.errorMessage}>{error}</span>
+      <span className={styles.error_message}>{error}</span>
     </div>
   );
 };

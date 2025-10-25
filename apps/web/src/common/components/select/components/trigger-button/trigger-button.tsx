@@ -34,7 +34,7 @@ export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
         <button
           ref={ref}
           onClick={onClick}
-          className={classNames(styles.selectButton, {
+          className={classNames(styles.select_button, {
             [styles.selectButtonActive]: isActive,
           })}
           onKeyDown={onKeyDown}
@@ -46,7 +46,7 @@ export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
           <ChevronDownIcon size={20} className={classNames(styles.icon, styles.chevron)} />
         </button>
         {isLoading && (
-          <div className={styles.selectIcon}>
+          <div className={styles.select_icon}>
             <Loader size={18} shouldInheritColor />
           </div>
         )}
@@ -55,7 +55,7 @@ export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
             icon={<XIcon className={styles.icon} size={18} />}
             variant="ghost"
             onClick={onClear}
-            className={styles.selectIcon}
+            className={styles.select_icon}
             aria-label="Clear selection"
           />
         )}

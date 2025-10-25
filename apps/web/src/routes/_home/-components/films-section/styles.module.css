@@ -1,4 +1,4 @@
-.filmsSection {
+.films_section {
   position: relative;
   width: 100%;
   display: flex;
@@ -7,12 +7,12 @@
   overflow: hidden;
 }
 
-.paginationWrapper {
+.pagination_wrapper {
   margin-top: auto;
 }
 
 @media (max-width: 785px) {
-  .filmsSection {
+  .films_section {
     padding-bottom: 80px;
   }
 }

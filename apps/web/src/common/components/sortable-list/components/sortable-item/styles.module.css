@@ -1,13 +1,13 @@
-.sortableItem {
+.sortable_item {
   display: flex;
   gap: 10px;
   background-color: white;
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
   padding: 10px;
   border: var(--b-default);
 }
 
-.itemContent {
+.item_content {
   flex-grow: 1;
 }
 

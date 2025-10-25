@@ -13,14 +13,14 @@ export const BoxOfficeValue = ({ budget, boxOffice }: Props) => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(budget, boxOffice);
 
   return (
-    <div className={styles.boxOffice}>
+    <div className={styles.box_office}>
       <DataLink basePath="/" query={{ boxOffice }}>
         {getFormattedMoneyValue(boxOffice)}
       </DataLink>
       {isBoxOfficeSuccessful ? (
-        <TrendingUpIcon className={styles.upIcon} />
+        <TrendingUpIcon className={styles.up_icon} />
       ) : (
-        <TrendingDownIcon className={styles.downIcon} />
+        <TrendingDownIcon className={styles.down_icon} />
       )}
     </div>
   );

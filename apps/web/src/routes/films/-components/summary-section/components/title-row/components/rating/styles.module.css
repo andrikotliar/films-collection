@@ -9,7 +9,7 @@
   flex-shrink: 0;
 }
 
-.highestRating {
+.highest_rating {
   background-color: var(--green-success);
 }
 

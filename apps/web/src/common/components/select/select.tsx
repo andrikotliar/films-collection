@@ -222,7 +222,7 @@ export const Select = ({
   const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
 
   return (
-    <div className={styles.selectWrapper}>
+    <div className={styles.select_wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <TriggerButton
         ref={buttonRef}
@@ -261,7 +261,7 @@ export const Select = ({
         shouldFocusTriggerOnClose
         role="listbox"
       >
-        <div className={styles.dropdownContainer} ref={optionsWrapperRef}>
+        <div className={styles.dropdown_container} ref={optionsWrapperRef}>
           {isSearchable && <OptionsSearch value={searchInputValue} onSearch={handleSearchChange} />}
           {internalOptions.map((option, index) => (
             <Option

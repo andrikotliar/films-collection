@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.selectButton {
+.select_button {
   display: flex;
   align-items: center;
   width: 100%;
@@ -13,18 +13,18 @@
   background-color: white;
 }
 
-.selectButton:focus {
+.select_button:focus {
   outline: 1px solid var(--blue-default);
 }
 
-.selectButton:disabled {
+.select_button:disabled {
   user-select: none;
   pointer-events: none;
   cursor: default;
   background-color: var(--gray-light);
 }
 
-.selectButton:hover {
+.select_button:hover {
   border-color: var(--gray-dark);
 }
 
@@ -32,7 +32,7 @@
   color: var(--gray);
 }
 
-.selectButton:hover .icon {
+.select_button:hover .icon {
   color: var(--gray-dark);
 }
 
@@ -45,7 +45,7 @@
   transform: rotate(-180deg);
 }
 
-.selectIcon {
+.select_icon {
   position: absolute;
   top: 50%;
   right: 40px;

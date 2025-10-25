@@ -1,4 +1,4 @@
-.addItemLink {
+.add_item_link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +10,6 @@
   transition: background-color 300ms;
 }
 
-.addItemLink:hover {
+.add_item_link:hover {
   border-color: var(--black);
 }

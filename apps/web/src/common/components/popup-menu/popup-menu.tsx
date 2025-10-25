@@ -128,7 +128,7 @@ export const PopupMenu = ({
   return createPortal(
     <div
       ref={menuRef}
-      className={classNames(styles.popupMenu, className)}
+      className={classNames(styles.popup_menu, className)}
       style={{ ...position, width: menuWidth }}
       {...divProps}
     >

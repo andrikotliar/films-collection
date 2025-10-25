@@ -8,7 +8,7 @@ type Props = {
 
 export const OptionsSearch = ({ value, onSearch }: Props) => {
   return (
-    <div className={styles.searchWrapper}>
+    <div className={styles.search_wrapper}>
       <input
         value={value}
         onChange={onSearch}

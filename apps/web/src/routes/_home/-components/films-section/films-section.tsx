@@ -16,7 +16,7 @@ export const FilmsSection = ({ data, isLoading }: Props) => {
 
   if (isLoading) {
     return (
-      <div className={styles.filmsSection}>
+      <div className={styles.films_section}>
         <Loader />
       </div>
     );
@@ -24,7 +24,7 @@ export const FilmsSection = ({ data, isLoading }: Props) => {
 
   if (!data.films.length) {
     return (
-      <div className={styles.filmsSection}>
+      <div className={styles.films_section}>
         <AdditionalInfoSection info={data.additionalInfo} />
         <FilmsNotFound />
       </div>
@@ -46,11 +46,11 @@ export const FilmsSection = ({ data, isLoading }: Props) => {
   };
 
   return (
-    <div className={styles.filmsSection}>
+    <div className={styles.films_section}>
       {!searchParams.collectionId && <CurrentEvents />}
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.films} />
-      <div className={styles.paginationWrapper}>
+      <div className={styles.pagination_wrapper}>
         <Pagination
           total={data.total}
           onPageChange={handlePageNavigation}

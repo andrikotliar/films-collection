@@ -1,15 +1,15 @@
-.inputWrapper {
+.input_wrapper {
   display: flex;
   flex-direction: column;
   gap: 5px;
   width: 100%;
 }
 
-.fieldWrapper {
+.field_wrapper {
   position: relative;
 }
 
-.textInput {
+.text_input {
   width: 100%;
   padding: 10px;
   border-radius: var(--br-default);
@@ -19,18 +19,18 @@
   background-color: white;
 }
 
-.textInput:hover {
+.text_input:hover {
   border-color: var(--gray-dark);
 }
 
-.textInput.withIcon {
+.text_input.with_icon {
   padding-right: 50px;
 }
 
-.fieldWrapper {
+.field_wrapper {
   position: relative;
 }
 
-.textInput.withIcon {
+.text_input.with_icon {
   padding-right: 50px;
 }

@@ -76,10 +76,10 @@ export const SortingPopup = ({
         triggerRef={sortingPopupButton}
         onClose={handleClose}
         positionMarker="right"
-        className={styles.sortingPopupWrapper}
+        className={styles.sorting_popup_wrapper}
       >
         <form onSubmit={handleSubmitSorting}>
-          <div className={styles.groupLabel}>Sort By</div>
+          <div className={styles.group_label}>Sort By</div>
           <div className={styles.options}>
             {fields.map((field) => (
               <BadgeCheckbox
@@ -92,7 +92,7 @@ export const SortingPopup = ({
               />
             ))}
           </div>
-          <div className={styles.groupLabel}>Sort Order</div>
+          <div className={styles.group_label}>Sort Order</div>
           <div className={styles.options}>
             {sortingDirectionOptions.map((direction) => (
               <BadgeCheckbox
@@ -105,7 +105,7 @@ export const SortingPopup = ({
               />
             ))}
           </div>
-          <button className={styles.applyButton} type="submit">
+          <button className={styles.apply_button} type="submit">
             Apply
           </button>
         </form>

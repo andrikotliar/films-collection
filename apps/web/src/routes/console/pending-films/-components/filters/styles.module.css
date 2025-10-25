@@ -1,4 +1,4 @@
-.filtersRow {
+.filters_row {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -10,7 +10,7 @@
   flex-grow: 1;
 }
 
-.prioritiesFilter {
+.priorities_filter {
   display: flex;
   align-items: center;
   flex-wrap: wrap;

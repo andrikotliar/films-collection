@@ -11,7 +11,7 @@ type Props = {
 
 export const SelectedOption = ({ onRemove, data, isDisabled }: Props) => {
   return (
-    <div className={styles.selectedOption}>
+    <div className={styles.selected_option}>
       <span>{data.label}</span>
       {!isDisabled && (
         <Button icon={<XIcon size={15} />} variant="ghost" onClick={() => onRemove(data.value)} />

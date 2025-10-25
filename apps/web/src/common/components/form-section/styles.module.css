@@ -1,11 +1,11 @@
-.formSection {
+.form_section {
   display: flex;
   flex-direction: column;
   gap: 20px;
   border: var(--b-default);
   background-color: var(--gray-invisible);
   padding: 20px;
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
 }
 
 .header {
@@ -15,7 +15,7 @@
   gap: 20px;
 }
 
-.toggleButton {
+.toggle_button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,10 +23,10 @@
   height: 20px;
 }
 
-.toggleButton:hover {
+.toggle_button:hover {
   color: var(--blue-default);
 }
 
-.hiddenContent {
+.hidden_content {
   display: none;
 }

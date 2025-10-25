@@ -37,7 +37,7 @@ export const Sidebar = () => {
 
   if (isLoading) {
     return (
-      <div className={styles.sidebarContent}>
+      <div className={styles.sidebar_content}>
         <Loader />
       </div>
     );
@@ -46,7 +46,7 @@ export const Sidebar = () => {
   return (
     <>
       <div
-        className={classNames(styles.sidebarContent, {
+        className={classNames(styles.sidebar_content, {
           [styles.open]: isFilterOpen,
         })}
       >
@@ -56,10 +56,10 @@ export const Sidebar = () => {
           updateFiltersCount={updateFiltersCount}
         />
       </div>
-      <button onClick={toggleFilter} className={styles.filterButton}>
+      <button onClick={toggleFilter} className={styles.filter_button}>
         <SlidersHorizontalIcon size={18} />
         <span>Filters</span>
-        {filtersCount > 0 && <span className={styles.filterButtonBadge}>{filtersCount}</span>}
+        {filtersCount > 0 && <span className={styles.filter_button_badge}>{filtersCount}</span>}
       </button>
     </>
   );

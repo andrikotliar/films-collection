@@ -1,4 +1,4 @@
-.consoleHeader {
+.console_header {
   position: sticky;
   top: var(--header-height);
   display: flex;
@@ -11,35 +11,35 @@
   z-index: 5;
 }
 
-.menuButton {
+.menu_button {
   display: flex;
 }
 
-.menuIcon {
+.menu_icon {
   color: var(--blue-default);
 }
 
-.menuIconCollapsed {
+.menu_icon_collapsed {
   color: var(--black);
 }
 
-.consoleHeaderTitle {
+.console_header_title {
   font-size: 14px;
   color: var(--gray-dark);
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.logoutButton {
+.logout_button {
   margin-left: auto;
 }
 
-.logoutButton:hover {
+.logout_button:hover {
   color: var(--blue-default);
 }
 
 @media (max-width: 785px) {
-  .consoleHeaderTitle {
+  .console_header_title {
     font-size: 14px;
   }
 }

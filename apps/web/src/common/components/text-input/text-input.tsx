@@ -15,14 +15,14 @@ export type TextInputProps = {
 export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
   ({ label, type = 'text', className, error, icon, ...props }, ref) => {
     return (
-      <label className={classNames(styles.inputWrapper, className)}>
+      <label className={classNames(styles.input_wrapper, className)}>
         {label && <FieldLabel>{label}</FieldLabel>}
-        <div className={styles.fieldWrapper}>
+        <div className={styles.field_wrapper}>
           <input
             ref={ref}
             type={type}
-            className={classNames(styles.textInput, {
-              [styles.withIcon]: icon !== undefined,
+            className={classNames(styles.text_input, {
+              [styles.with_icon]: icon !== undefined,
             })}
             {...props}
           />

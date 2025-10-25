@@ -1,4 +1,4 @@
-.sortingButton {
+.sorting_button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.sortingButton:hover {
+.sorting_button:hover {
   background-color: var(--gray-ultra-light);
 }
 
@@ -22,20 +22,20 @@
   flex-shrink: 0;
 }
 
-.sortingButton.small {
+.sorting_button.small {
   padding: 5px 10px;
   border-radius: 6px;
 }
 
-.sortingButton.large {
+.sorting_button.large {
   padding: 10px;
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
 }
 
-.sortingButton.large .label {
+.sorting_button.large .label {
   font-size: 14px;
 }
 
-.sortingButton.small .label {
+.sorting_button.small .label {
   font-size: 12px;
 }

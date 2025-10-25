@@ -1,4 +1,4 @@
-.infoBlock {
+.info_block {
   position: relative;
   display: flex;
   gap: 20px;
@@ -38,7 +38,7 @@
   line-height: 1.5;
 }
 
-.removeButton {
+.remove_button {
   position: absolute;
   top: 15px;
   right: 20px;

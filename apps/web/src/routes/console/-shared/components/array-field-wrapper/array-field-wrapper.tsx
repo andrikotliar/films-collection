@@ -16,7 +16,7 @@ export const ArrayFieldWrapper = ({ children, onRemove }: PropsWithChildren<Prop
         icon={<Trash2Icon />}
         variant="ghost"
         onClick={onRemove}
-        className={styles.removeButton}
+        className={styles.remove_button}
       />
     </div>
   );

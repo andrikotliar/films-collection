@@ -1,4 +1,4 @@
-.rootWrapper {
+.root_wrapper {
   --border-color: var(--gray-dark);
 
   display: flex;
@@ -12,21 +12,21 @@
   cursor: pointer;
 }
 
-.rootWrapper.red {
+.root_wrapper.red {
   --border-color: var(--red);
 
   color: var(--red);
   background-color: var(--red-failure-light);
 }
 
-.rootWrapper.yellow {
+.root_wrapper.yellow {
   --border-color: var(--yellow-saturated);
 
   color: var(--orange);
   background-color: var(--yellow-sand-light);
 }
 
-.rootWrapper.gray {
+.root_wrapper.gray {
   background-color: var(--gray);
 }
 
@@ -34,11 +34,11 @@
   display: none;
 }
 
-.checkIcon {
+.check_icon {
   display: none;
 }
 
-.iconWrapper {
+.icon_wrapper {
   width: 20px;
   height: 20px;
   display: flex;
@@ -49,16 +49,16 @@
   background-color: white;
 }
 
-.checkIcon {
+.check_icon {
   width: 12px;
   height: 12px;
 }
 
-.input[type='checkbox'] + .iconWrapper {
+.input[type='checkbox'] + .icon_wrapper {
   border-radius: 5px;
 }
 
-.input:checked + .iconWrapper .checkIcon {
+.input:checked + .icon_wrapper .check_icon {
   display: block;
 }
 

@@ -13,7 +13,7 @@ export const NotFound = ({ title = DEFAULT_TITLE, message = DEFAULT_MESSAGE }: P
   const { history } = useRouter();
 
   return (
-    <div className={styles.notFound}>
+    <div className={styles.not_found}>
       <div className={styles.container}>
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.description}>{message}</p>

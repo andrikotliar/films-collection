@@ -11,7 +11,7 @@ type Props = {
 export const VideoPreview = ({ videoId }: Props) => {
   if (!videoId.length) {
     return (
-      <div className={styles.previewWrapper}>
+      <div className={styles.preview_wrapper}>
         <Image src={videoNotFoundPlaceholder} />
       </div>
     );
@@ -21,9 +21,9 @@ export const VideoPreview = ({ videoId }: Props) => {
   const videoUrl = replaceUrlId(YOUTUBE_VIDEO_DIRECT_URL, videoId);
 
   return (
-    <a className={styles.previewWrapper} href={videoUrl} target="_blank" rel="noopener noreferrer">
+    <a className={styles.preview_wrapper} href={videoUrl} target="_blank" rel="noopener noreferrer">
       <Image src={imageSrc} />
-      <PlayIcon className={styles.playIcon} />
+      <PlayIcon className={styles.play_icon} />
     </a>
   );
 };

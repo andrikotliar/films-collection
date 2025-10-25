@@ -1,14 +1,14 @@
-.previewWrapper {
+.preview_wrapper {
   position: relative;
   display: block;
   overflow: hidden;
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
   width: 40%;
   aspect-ratio: 16 / 9;
   flex-shrink: 0;
 }
 
-.playIcon {
+.play_icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 580px) {
-  .previewWrapper {
+  .preview_wrapper {
     width: 100%;
   }
 }

@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-.filterGroups {
+.filter_groups {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -35,17 +35,17 @@
   text-align: center;
 }
 
-.headerTitle {
+.header_title {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.headerButton {
+.header_button {
   display: none;
 }
 
 @media (max-width: 785px) {
-  .headerButton {
+  .header_button {
     display: block;
     margin-left: auto;
   }

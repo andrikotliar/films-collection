@@ -14,17 +14,17 @@ export const ConsoleHeader = ({ onMenuOpen, isMenuOpen, buttonRef }: Props) => {
   const { mutate } = useLogout();
 
   return (
-    <div className={styles.consoleHeader}>
-      <button className={styles.menuButton} onClick={onMenuOpen} ref={buttonRef}>
+    <div className={styles.console_header}>
+      <button className={styles.menu_button} onClick={onMenuOpen} ref={buttonRef}>
         <MenuIcon
-          className={classNames(styles.menuIcon, {
-            [styles.menuIconCollapsed]: !isMenuOpen,
+          className={classNames(styles.menu_icon, {
+            [styles.menu_icon_collapsed]: !isMenuOpen,
           })}
           size={20}
         />
       </button>
-      <div className={styles.consoleHeaderTitle}>Films Collection Console</div>
-      <button className={styles.logoutButton} onClick={() => mutate()}>
+      <div className={styles.console_header_title}>Films Collection Console</div>
+      <button className={styles.logout_button} onClick={() => mutate()}>
         <LogOutIcon size={18} />
       </button>
     </div>

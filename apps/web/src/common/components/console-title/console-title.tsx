@@ -8,5 +8,5 @@ type Props = {
 };
 
 export const ConsoleTitle = ({ children, className }: Props) => {
-  return <h1 className={classNames(styles.consolePageTitle, className)}>{children}</h1>;
+  return <h1 className={classNames(styles.console_page_title, className)}>{children}</h1>;
 };

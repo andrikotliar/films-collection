@@ -99,7 +99,7 @@ export const ChapterSelect = ({ filmId }: Props) => {
         </div>
       )}
       {chapterKey && (
-        <div className={styles.chaptersWrapper}>
+        <div className={styles.chapters_wrapper}>
           <div className={styles.hint}>Select a chapter after which to put the current film</div>
           <Chapters chapterKey={chapterKey} filmId={parsedFilmId} isEnabled={shouldFetchChapters} />
         </div>

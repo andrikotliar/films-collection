@@ -1,14 +1,14 @@
-.consoleLayout {
+.console_layout {
   --console-header-height: 40px;
 }
 
-.consolePage {
+.console_page {
   display: flex;
   align-items: flex-start;
   background-color: var(--gray-extra-light);
 }
 
-.consoleWorkingArea {
+.console_working_area {
   flex-grow: 1;
   padding: 20px;
 }

@@ -1,4 +1,4 @@
-.loaderContainer {
+.loader_container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,11 +10,11 @@
   animation: spin 1.5s linear infinite;
 }
 
-.defaultColor {
+.default_color {
   color: var(--blue-default);
 }
 
-.fullPage {
+.full_page {
   height: var(--screen-height);
 }
 

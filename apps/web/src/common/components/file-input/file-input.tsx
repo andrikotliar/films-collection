@@ -57,15 +57,15 @@ export const FileInput = ({
         <Button
           icon={<Trash2Icon />}
           onClick={handleRemoveImage}
-          className={styles.removeButton}
+          className={styles.remove_button}
           variant="ghost"
         />
       )}
-      <label className={styles.inputWrapper} style={{ height }}>
+      <label className={styles.input_wrapper} style={{ height }}>
         <input
           type="file"
           onChange={handleChange}
-          className={styles.fileInput}
+          className={styles.file_input}
           accept={accept}
           ref={inputRef}
         />
@@ -76,7 +76,7 @@ export const FileInput = ({
           isExternal={Boolean(defaultValue)}
         />
         <div className={styles.overlay}>
-          <UploadIcon size="30%" className={styles.uploadIcon} />
+          <UploadIcon size="30%" className={styles.upload_icon} />
         </div>
       </label>
       <FieldError error={error} />

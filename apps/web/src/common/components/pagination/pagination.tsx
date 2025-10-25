@@ -40,7 +40,7 @@ export const Pagination = ({
 
             return (
               <button
-                className={classNames(styles.pageButton, {
+                className={classNames(styles.page_button, {
                   [styles.active]: currentPageIndex + 1 === page,
                 })}
                 key={index}
@@ -54,7 +54,7 @@ export const Pagination = ({
       )}
       {total > 0 && (
         <div className={styles.stats}>
-          <span className={styles.currentState}>
+          <span className={styles.current_state}>
             {currentPageIndex * perPageCounter + 1} - {currentRangeEnd}
           </span>
           <span>/</span>

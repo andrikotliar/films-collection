@@ -16,13 +16,13 @@ export const InfoBlock = ({ label, title, description }: Props) => {
   };
 
   return (
-    <div className={styles.infoBlock}>
+    <div className={styles.info_block}>
       <div className={styles.data}>
         <div className={styles.label}>{label}</div>
         <h2 className={styles.title}>{title}</h2>
         {description && <p className={styles.description}>{description}</p>}
       </div>
-      <button className={styles.removeButton} onClick={handleClearFilter}>
+      <button className={styles.remove_button} onClick={handleClearFilter}>
         <XCircleIcon size={20} />
       </button>
     </div>

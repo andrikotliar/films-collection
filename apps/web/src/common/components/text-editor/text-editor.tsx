@@ -28,7 +28,7 @@ export const TextEditor = ({ label, error, content = '', onChange }: TextEditorP
   });
 
   return (
-    <div className={styles.editorWrapper}>
+    <div className={styles.editor_wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <div>
         <MenuBar editor={editor} />

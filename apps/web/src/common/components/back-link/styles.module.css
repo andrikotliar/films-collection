@@ -1,9 +1,9 @@
-.backLink {
+.back_link {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.backLink:hover {
+.back_link:hover {
   color: var(--blue-default);
 }

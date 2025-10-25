@@ -18,8 +18,8 @@ export const SortableItem = ({ children, id }: PropsWithChildren<Props>) => {
   };
 
   return (
-    <div ref={setNodeRef} style={style} className={styles.sortableItem}>
-      <div className={styles.itemContent}>{children}</div>
+    <div ref={setNodeRef} style={style} className={styles.sortable_item}>
+      <div className={styles.item_content}>{children}</div>
       <div {...attributes} {...listeners} className={styles.handler}>
         <GripVerticalIcon />
       </div>

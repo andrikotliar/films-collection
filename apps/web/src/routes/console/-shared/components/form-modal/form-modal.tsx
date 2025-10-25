@@ -24,7 +24,7 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
         <Panel>
           <FormComponent values={values} afterSubmitEffect={afterSubmitEffect} />
         </Panel>
-        <Modal.CloseButton onClick={onClose} className={styles.closeButton} />
+        <Modal.CloseButton onClick={onClose} className={styles.close_button} />
       </Modal.Content>
     </Modal>
   );

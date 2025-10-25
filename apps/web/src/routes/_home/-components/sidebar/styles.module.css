@@ -1,4 +1,4 @@
-.sidebarContent {
+.sidebar_content {
   width: 300px;
   height: calc(var(--screen-height) - 40px);
   flex-shrink: 0;
@@ -8,11 +8,11 @@
   border-radius: var(--br-default);
 }
 
-.filterButton {
+.filter_button {
   display: none;
 }
 
-.missingFilters {
+.missing_filters {
   color: var(--gray-dark);
   font-size: 12px;
   font-weight: bold;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 785px) {
-  .filterButton {
+  .filter_button {
     position: fixed;
     bottom: 10px;
     left: 50%;
@@ -40,7 +40,7 @@
     z-index: 50;
   }
 
-  .filterButtonBadge {
+  .filter_button_badge {
     color: #000;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@
     font-size: 14px;
   }
 
-  .sidebarContent {
+  .sidebar_content {
     position: fixed;
     width: 80%;
     height: 60%;

@@ -1,4 +1,4 @@
-.showPasswordButton {
+.show_password_button {
   display: flex;
   position: absolute;
   top: 50%;
@@ -6,10 +6,10 @@
   right: 15px;
 }
 
-.eyeIcon {
+.eye_icon {
   transition: color 300ms;
 }
 
-.showPasswordButton:hover .eyeIcon {
+.show_password_button:hover .eye_icon {
   color: var(--blue-default);
 }

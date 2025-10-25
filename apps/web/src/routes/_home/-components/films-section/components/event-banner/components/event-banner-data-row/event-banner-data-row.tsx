@@ -8,7 +8,7 @@ type Props = {
 
 export const EventBannerDataRow = ({ icon, value }: Props) => {
   return (
-    <div className={styles.dataRow}>
+    <div className={styles.data_row}>
       {icon}
       {value}
     </div>

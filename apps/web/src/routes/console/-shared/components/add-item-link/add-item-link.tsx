@@ -10,7 +10,7 @@ type AddItemLinkProps = Omit<LinkProps, 'className' | 'children'> & {
 export const AddItemLink = ({ children, ...props }: AddItemLinkProps) => {
   return (
     <div>
-      <Link className={styles.addItemLink} {...props}>
+      <Link className={styles.add_item_link} {...props}>
         <PlusIcon size={18} />
         <span>{children}</span>
       </Link>

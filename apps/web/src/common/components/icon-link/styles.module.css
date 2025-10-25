@@ -1,10 +1,10 @@
-.iconLink {
+.icon_link {
   color: var(--black);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.iconLink:hover {
+.icon_link:hover {
   color: var(--blue-default);
 }

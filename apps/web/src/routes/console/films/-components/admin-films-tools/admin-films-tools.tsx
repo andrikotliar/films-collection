@@ -45,8 +45,8 @@ export const AdminFilmsTools = () => {
   };
 
   return (
-    <div className={styles.adminFilmsTools}>
-      <TextInput placeholder="Search film" className={styles.searchInput} onChange={handleSearch} />
+    <div className={styles.admin_films_tools}>
+      <TextInput placeholder="Search film" className={styles.search_input} onChange={handleSearch} />
       <div>
         <SortingPopup
           fields={sortingFields}

@@ -26,21 +26,21 @@ export const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.headerContainer}>
-        <div className={styles.leftColumn}>
+      <div className={styles.header_container}>
+        <div className={styles.left_column}>
           <Link
             to="/"
             search={location.pathname === '/' ? location.search : undefined}
-            className={styles.logoWrapper}
+            className={styles.logo_wrapper}
           >
             <Logo />
           </Link>
         </div>
-        <div className={styles.searchWrapper}>
+        <div className={styles.search_wrapper}>
           <FilmsSearch />
         </div>
-        <button className={styles.menuButton} onClick={handleToggleAppMenu} ref={menuButtonRef}>
-          <MenuIcon className={styles.menuIcon} />
+        <button className={styles.menu_button} onClick={handleToggleAppMenu} ref={menuButtonRef}>
+          <MenuIcon className={styles.menu_icon} />
         </button>
         <AppMenu
           isOpen={isAppMenuOpen}

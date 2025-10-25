@@ -16,16 +16,16 @@ export const FormSection = ({ children, label }: PropsWithChildren<Props>) => {
   };
 
   return (
-    <div className={styles.formSection}>
+    <div className={styles.form_section}>
       <div className={styles.header}>
         {label && <FieldLabel>{label}</FieldLabel>}
-        <button onClick={toggleContentVisibility} className={styles.toggleButton} type="button">
+        <button onClick={toggleContentVisibility} className={styles.toggle_button} type="button">
           {isCollapsed ? <Maximize2Icon /> : <Minimize2Icon />}
         </button>
       </div>
       <div
         className={classNames({
-          [styles.hiddenContent]: isCollapsed,
+          [styles.hidden_content]: isCollapsed,
         })}
       >
         {children}

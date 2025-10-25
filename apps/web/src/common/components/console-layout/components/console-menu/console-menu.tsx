@@ -11,12 +11,12 @@ type Props = {
 export const ConsoleMenu = forwardRef<HTMLDivElement, Props>(({ isMenuOpen }, ref) => {
   return (
     <div
-      className={classNames(styles.menuWrapper, {
-        [styles.menuWrapperHidden]: !isMenuOpen,
+      className={classNames(styles.menu_wrapper, {
+        [styles.menu_wrapper_hidden]: !isMenuOpen,
       })}
       ref={ref}
     >
-      <Menu config={consoleMenuConfig} className={styles.consoleMenu} />
+      <Menu config={consoleMenuConfig} className={styles.console_menu} />
     </div>
   );
 });

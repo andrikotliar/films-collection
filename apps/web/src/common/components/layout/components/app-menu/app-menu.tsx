@@ -24,8 +24,8 @@ export const AppMenu = ({ isOpen, onClose, menuButtonRef }: Props) => {
 
   return (
     <div
-      className={classNames(styles.appMenu, {
-        [styles.openAppMenu]: isOpen,
+      className={classNames(styles.app_menu, {
+        [styles.open_app_menu]: isOpen,
       })}
       ref={containerRef}
     >

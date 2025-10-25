@@ -23,7 +23,7 @@ export const StatusFilterButton = forwardRef<HTMLInputElement, StatusFilterButto
 
     return (
       <label>
-        <div className={classNames(styles.rootWrapper, styles[color])}>
+        <div className={classNames(styles.root_wrapper, styles[color])}>
           <input
             ref={ref}
             type={inputType}
@@ -31,8 +31,8 @@ export const StatusFilterButton = forwardRef<HTMLInputElement, StatusFilterButto
             value={value}
             {...inputProps}
           />
-          <div className={styles.iconWrapper}>
-            <CheckIcon className={styles.checkIcon} />
+          <div className={styles.icon_wrapper}>
+            <CheckIcon className={styles.check_icon} />
           </div>
           <div className={styles.title}>{title}</div>
         </div>

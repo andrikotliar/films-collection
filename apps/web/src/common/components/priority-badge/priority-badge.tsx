@@ -14,7 +14,7 @@ export const PriorityBadge = ({ value }: Props) => {
   const color = priorityToColor[priority];
 
   return (
-    <div className={styles.priorityWrapper}>
+    <div className={styles.priority_wrapper}>
       <Status color={color} title={title} />
     </div>
   );

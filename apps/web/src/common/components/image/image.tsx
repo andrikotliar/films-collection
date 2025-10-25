@@ -41,7 +41,7 @@ export const Image = forwardRef<HTMLImageElement, Props>(
         ref={ref}
         src={getImageSource()}
         className={classNames(styles.image, className, {
-          [styles.fitContainer]: shouldFitContainer,
+          [styles.fit_container]: shouldFitContainer,
         })}
         onError={handleImageError(errorImageSrc)}
         {...props}

@@ -1,13 +1,13 @@
-.boxOffice {
+.box_office {
   display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 
-.upIcon {
+.up_icon {
   color: var(--green-success);
 }
 
-.downIcon {
+.down_icon {
   color: var(--red-failure);
 }

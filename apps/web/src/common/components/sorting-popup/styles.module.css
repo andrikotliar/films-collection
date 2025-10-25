@@ -1,8 +1,8 @@
-.sortingPopupWrapper {
+.sorting_popup_wrapper {
   padding: 15px;
 }
 
-.applyButton {
+.apply_button {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -14,11 +14,11 @@
   transition: background-color 300ms;
 }
 
-.applyButton:hover {
+.apply_button:hover {
   background-color: var(--green);
 }
 
-.groupLabel {
+.group_label {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;

@@ -23,7 +23,7 @@ export const Menu = ({ config, className, isStandalone = false }: Props) => {
           key={configItem.id}
           to={configItem.route}
           className={classNames(styles.link, {
-            [styles.activeLink]: checkActiveState(configItem.route),
+            [styles.active_link]: checkActiveState(configItem.route),
             [styles.standaloneMenu]: isStandalone,
           })}
         >

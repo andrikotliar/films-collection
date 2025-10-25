@@ -79,7 +79,7 @@ export const Filters = () => {
 
   return (
     <div>
-      <div className={styles.filtersRow}>
+      <div className={styles.filters_row}>
         <TextInput
           type="text"
           onChange={debouncedSearch}
@@ -97,7 +97,7 @@ export const Filters = () => {
           />
         </div>
       </div>
-      <div className={styles.prioritiesFilter}>
+      <div className={styles.priorities_filter}>
         <FieldLabel>Filter by Priority:</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (

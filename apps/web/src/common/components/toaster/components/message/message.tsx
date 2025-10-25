@@ -10,10 +10,10 @@ type Props = {
 };
 
 const typeToClassName: Record<ToastType, string> = {
-  error: styles.errorMessage,
-  success: styles.successMessage,
-  warning: styles.warningMessage,
-  info: styles.infoMessage,
+  error: styles.error_message,
+  success: styles.success_message,
+  warning: styles.warning_message,
+  info: styles.info_message,
 };
 
 const typeToIcon: Record<ToastType, ReactNode> = {
@@ -30,10 +30,10 @@ export const Message = ({ data, onRemove }: Props) => {
       onClick={() => onRemove(data.id)}
     >
       <div className={styles.body}>
-        <div className={styles.typeIcon}>{typeToIcon[data.type]}</div>
+        <div className={styles.type_icon}>{typeToIcon[data.type]}</div>
         <div className={styles.text}>{data.message}</div>
       </div>
-      <XIcon className={styles.closeIcon} size={18} />
+      <XIcon className={styles.close_icon} size={18} />
     </div>
   );
 };

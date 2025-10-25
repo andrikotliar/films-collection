@@ -10,8 +10,8 @@ type Props = {
 
 export const BackLink = ({ path, children }: PropsWithChildren<Props>) => {
   return (
-    <Link to={path} className={styles.backLink}>
-      <ArrowLeftIcon className={styles.backLinkIcon} />
+    <Link to={path} className={styles.back_link}>
+      <ArrowLeftIcon />
       <span>{children}</span>
     </Link>
   );

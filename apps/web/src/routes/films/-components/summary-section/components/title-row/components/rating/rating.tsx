@@ -17,7 +17,7 @@ export const Rating = ({ value }: Props) => {
       to="/"
       search={{ rating: String(value) }}
       className={classNames(styles.rating, {
-        [styles.highestRating]: isHighestRating,
+        [styles.highest_rating]: isHighestRating,
       })}
       title="Rating"
     >

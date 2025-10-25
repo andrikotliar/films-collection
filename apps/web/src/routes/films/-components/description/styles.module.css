@@ -2,7 +2,7 @@
   line-height: 1.5;
   border: var(--b-default);
   padding: 20px;
-  border-radous: var(--br-default);
+  border-radius: var(--br-default);
 }
 
 .description p {
