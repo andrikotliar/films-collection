@@ -1,4 +1,4 @@
-import styles from './console-menu.module.css';
+import styles from './styles.module.css';
 import { consoleMenuConfig } from '~/common';
 import { Menu } from '~/common/components/menu/menu';
 import classNames from 'classnames';

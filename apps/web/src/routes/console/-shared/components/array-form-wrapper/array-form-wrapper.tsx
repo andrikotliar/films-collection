@@ -1,4 +1,4 @@
-import styles from './array-form-wrapper.module.css';
+import styles from './styles.module.css';
 import { Button } from '~/common';
 import { type ReactNode } from 'react';
 import { PlusIcon } from 'lucide-react';

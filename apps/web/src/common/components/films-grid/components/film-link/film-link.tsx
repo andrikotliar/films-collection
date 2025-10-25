@@ -1,7 +1,7 @@
 import { FilmsListItem } from '~/common';
 import { forwardRef } from 'react';
 import { getYearFromDate } from '~/common';
-import styles from './film-link.module.css';
+import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
 import { Image } from '~/common/components/image/image';
 

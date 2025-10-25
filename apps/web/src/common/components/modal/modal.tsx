@@ -1,6 +1,6 @@
 import { type ReactNode, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import styles from './modal.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { ModalContent, ModalCloseButton } from './components';
 

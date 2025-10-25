@@ -1,4 +1,4 @@
-import styles from './poster.module.css';
+import styles from './styles.module.css';
 import { Image } from '~/common';
 
 type PosterProps = {

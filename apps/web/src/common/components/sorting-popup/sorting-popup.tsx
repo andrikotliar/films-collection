@@ -4,7 +4,7 @@ import { type ListOption, type SortingOrder, sortingDirectionOptions } from '~/c
 import { SortingButton } from './components';
 import { BadgeCheckbox } from '../badge-checkbox/badge-checkbox';
 import { getDefaultLabel } from './helpers';
-import styles from './sorting-popup.module.css';
+import styles from './styles.module.css';
 
 export type SortingParams = {
   orderKey: string;

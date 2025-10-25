@@ -1,4 +1,4 @@
-import styles from './text-area.module.css';
+import styles from './styles.module.css';
 import { ComponentProps, forwardRef } from 'react';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';

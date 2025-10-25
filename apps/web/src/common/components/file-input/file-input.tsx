@@ -2,7 +2,7 @@ import { images } from '~/assets/images';
 import { FieldLabel } from '~/common/components/field-label/field-label';
 import { Image } from '~/common/components/image/image';
 import { ChangeEvent, CSSProperties, useRef, useState } from 'react';
-import styles from './file-input.module.css';
+import styles from './styles.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/common/components/button/button';
 import { FormError } from '~/common';

@@ -1,5 +1,5 @@
 import { Link, useLocation } from '@tanstack/react-router';
-import styles from './menu.module.css';
+import styles from './styles.module.css';
 import { type MenuConfigItem } from '~/common';
 import classNames from 'classnames';
 

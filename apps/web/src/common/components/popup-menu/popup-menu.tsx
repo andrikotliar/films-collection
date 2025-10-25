@@ -8,7 +8,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import styles from './popup-menu.module.css';
+import styles from './styles.module.css';
 import { createPortal } from 'react-dom';
 import classNames from 'classnames';
 

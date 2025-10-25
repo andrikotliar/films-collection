@@ -1,4 +1,4 @@
-import styles from './info-block.module.css';
+import styles from './styles.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
 

@@ -1,4 +1,4 @@
-import styles from './select.module.css';
+import styles from './styles.module.css';
 import { type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useDebouncedSearch } from '~/hooks';
 import { type FormError, type ListOption } from '~/common';

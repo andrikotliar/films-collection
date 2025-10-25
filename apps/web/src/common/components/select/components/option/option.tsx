@@ -1,4 +1,4 @@
-import styles from './option.module.css';
+import styles from './styles.module.css';
 import { forwardRef } from 'react';
 import { ListOption } from '~/common';
 import classNames from 'classnames';

@@ -1,4 +1,4 @@
-import styles from './console-layout.module.css';
+import styles from './styles.module.css';
 import { useMemo, useRef, useState } from 'react';
 import { ConsoleHeader, ConsoleMenu } from './components';
 import { Outlet } from '@tanstack/react-router';

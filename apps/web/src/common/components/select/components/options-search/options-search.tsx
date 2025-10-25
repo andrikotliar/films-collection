@@ -1,4 +1,4 @@
-import styles from './options-search.module.css';
+import styles from './styles.module.css';
 import { ChangeEventHandler } from 'react';
 
 type OptionsSearchProps = {

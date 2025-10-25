@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './console-content.module.css';
+import styles from './styles.module.css';
 
 type ConsoleContentProps = {
   children?: ReactNode;

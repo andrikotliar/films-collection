@@ -1,6 +1,6 @@
 import { ArrowLeftIcon } from 'lucide-react';
 import { ReactNode } from 'react';
-import styles from './back-link.module.css';
+import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
 import { FileRoutesByTo } from '~/routeTree.gen';
 

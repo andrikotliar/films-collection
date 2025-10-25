@@ -1,4 +1,4 @@
-import styles from './confirm-modal.module.css';
+import styles from './styles.module.css';
 import { Button, type ButtonVariant, Modal } from '~/common/components';
 
 type ConfirmModalProps<T> = {

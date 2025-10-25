@@ -1,4 +1,4 @@
-import styles from './rating.module.css';
+import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
 import classNames from 'classnames';
 import { StarIcon } from 'lucide-react';

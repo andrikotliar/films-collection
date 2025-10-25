@@ -1,5 +1,5 @@
 import { StarIcon } from 'lucide-react';
-import styles from './rating-input.module.css';
+import styles from './styles.module.css';
 import { FieldLabel } from '../field-label/field-label';
 
 export type RatingInputProps = {
@@ -10,13 +10,7 @@ export type RatingInputProps = {
   label?: string;
 };
 
-export const RatingInput = ({
-  size,
-  name,
-  onChange,
-  defaultValue,
-  label,
-}: RatingInputProps) => {
+export const RatingInput = ({ size, name, onChange, defaultValue, label }: RatingInputProps) => {
   return (
     <div className={styles.wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}

@@ -1,4 +1,4 @@
-import styles from './toggle.module.css';
+import styles from './styles.module.css';
 import { ChangeEvent } from 'react';
 
 export type ToggleProps = {
@@ -16,12 +16,7 @@ export const Toggle = ({ value, onToggle, title }: ToggleProps) => {
 
   return (
     <label className={styles.wrapper}>
-      <input
-        type="checkbox"
-        checked={value}
-        onChange={handleToggle}
-        className={styles.checkbox}
-      />
+      <input type="checkbox" checked={value} onChange={handleToggle} className={styles.checkbox} />
       <div className={styles.toggle} />
       {title && <div className={styles.title}>{title}</div>}
     </label>

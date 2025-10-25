@@ -1,4 +1,4 @@
-import styles from './text-input.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { type ComponentProps, forwardRef, type ReactNode } from 'react';
 import { FieldError } from '../field-error/field-error';

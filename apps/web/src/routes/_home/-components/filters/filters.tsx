@@ -1,4 +1,4 @@
-import styles from './filters.module.css';
+import styles from './styles.module.css';
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { FilterOptions } from './components';

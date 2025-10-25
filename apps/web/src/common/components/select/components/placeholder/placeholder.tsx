@@ -1,4 +1,4 @@
-import styles from './placeholder.module.css';
+import styles from './styles.module.css';
 import { ReactNode } from 'react';
 
 type PlaceholderProps = {

@@ -1,4 +1,4 @@
-import styles from './error-fallback.module.css';
+import styles from './styles.module.css';
 
 type ErrorFallbackProps = {
   message: string;

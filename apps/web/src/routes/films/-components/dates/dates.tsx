@@ -1,4 +1,4 @@
-import styles from './dates.module.css';
+import styles from './styles.module.css';
 import { ReleaseDate } from '../release-date/release-date';
 
 type DatesProps = {

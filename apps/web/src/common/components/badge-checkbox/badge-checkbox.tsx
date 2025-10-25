@@ -1,5 +1,5 @@
 import { ComponentProps, forwardRef } from 'react';
-import styles from './badge-checkbox.module.css';
+import styles from './styles.module.css';
 import { FieldError } from '../field-error/field-error';
 
 type BadgeCheckboxProps = {
@@ -12,12 +12,7 @@ export const BadgeCheckbox = forwardRef<HTMLInputElement, BadgeCheckboxProps>(
   ({ label, type, error, ...inputProps }, ref) => {
     return (
       <label>
-        <input
-          type={type}
-          ref={ref}
-          className={styles.radioButton}
-          {...inputProps}
-        />
+        <input type={type} ref={ref} className={styles.radioButton} {...inputProps} />
         <span className={styles.label}>{label}</span>
         <FieldError error={error} />
       </label>

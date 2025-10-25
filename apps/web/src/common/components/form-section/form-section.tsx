@@ -1,6 +1,6 @@
 import { FieldLabel } from '~/common/components/field-label/field-label';
 import { ReactNode, useState } from 'react';
-import styles from './form-section.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { Maximize2Icon, Minimize2Icon } from 'lucide-react';
 

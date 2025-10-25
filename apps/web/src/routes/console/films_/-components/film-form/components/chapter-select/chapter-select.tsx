@@ -1,4 +1,4 @@
-import styles from './chapter-select.module.css';
+import styles from './styles.module.css';
 import { type ChangeEvent, useCallback, useMemo, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';

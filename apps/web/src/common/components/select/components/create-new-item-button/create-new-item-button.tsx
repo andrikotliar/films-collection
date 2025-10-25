@@ -1,4 +1,4 @@
-import styles from './create-new-item-button.module.css';
+import styles from './styles.module.css';
 import { Button } from '~/common/components/button/button';
 import { PlusIcon } from 'lucide-react';
 

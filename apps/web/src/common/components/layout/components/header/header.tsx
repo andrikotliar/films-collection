@@ -1,4 +1,4 @@
-import styles from './header.module.css';
+import styles from './styles.module.css';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';

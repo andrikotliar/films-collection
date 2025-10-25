@@ -1,4 +1,4 @@
-import styles from './message.module.css';
+import styles from './styles.module.css';
 import { type Toast, type ToastType } from '~/common';
 import classNames from 'classnames';
 import { CircleAlertIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, XIcon } from 'lucide-react';

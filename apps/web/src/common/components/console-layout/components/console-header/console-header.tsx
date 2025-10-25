@@ -1,4 +1,4 @@
-import styles from './console-header.module.css';
+import styles from './styles.module.css';
 import { LogOutIcon, MenuIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { type RefObject } from 'react';

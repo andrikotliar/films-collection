@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { ReactNode } from 'react';
-import styles from './modal-content.module.css';
+import styles from './styles.module.css';
 
 type ModalContentProps = {
   className?: string;
@@ -9,10 +9,7 @@ type ModalContentProps = {
 
 export const ModalContent = ({ children, className }: ModalContentProps) => {
   return (
-    <div
-      className={classNames(styles.content, className)}
-      onClick={(e) => e.stopPropagation()}
-    >
+    <div className={classNames(styles.content, className)} onClick={(e) => e.stopPropagation()}>
       {children}
     </div>
   );

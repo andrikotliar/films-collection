@@ -1,4 +1,4 @@
-import styles from './video.module.css';
+import styles from './styles.module.css';
 
 type VideoProps = {
   trailerId: string;

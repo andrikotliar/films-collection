@@ -1,4 +1,4 @@
-import styles from './array-field-wrapper.module.css';
+import styles from './styles.module.css';
 import { type ReactNode } from 'react';
 import { Trash2Icon } from 'lucide-react';
 import { Button } from '~/common';

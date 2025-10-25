@@ -1,7 +1,7 @@
 import { getFormattedMoneyValue } from '~/common';
 import { checkHasBoxOfficeBenefit } from './helpers';
 import { TrendingDownIcon, TrendingUpIcon } from 'lucide-react';
-import styles from './box-office-value.module.css';
+import styles from './styles.module.css';
 import { DataLink } from '../data-link/data-link';
 
 type BoxOfficeValueProps = {

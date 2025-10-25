@@ -1,4 +1,4 @@
-import styles from './description.module.css';
+import styles from './styles.module.css';
 import sanitizeHtml from 'sanitize-html';
 import { ALLOWED_HTML_TAGS } from '~/common';
 

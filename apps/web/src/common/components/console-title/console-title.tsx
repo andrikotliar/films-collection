@@ -1,4 +1,4 @@
-import styles from './console-title.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { type ReactNode } from 'react';
 

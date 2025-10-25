@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './links-group-wrapper.module.css';
+import styles from './styles.module.css';
 
 type LinksGroupWrapperProps = {
   children?: ReactNode;

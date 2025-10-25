@@ -1,4 +1,4 @@
-import styles from './icon-link.module.css';
+import styles from './styles.module.css';
 import { Link, type LinkProps } from '@tanstack/react-router';
 import { type ReactNode } from 'react';
 

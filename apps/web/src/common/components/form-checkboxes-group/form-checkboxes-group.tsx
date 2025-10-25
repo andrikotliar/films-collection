@@ -1,4 +1,4 @@
-import styles from './form-checkboxes-group.module.css';
+import styles from './styles.module.css';
 import { FormCheckbox } from '../checkbox/form-checkbox';
 import { CheckboxProps } from '../checkbox';
 import { FieldLabel } from '../field-label/field-label';

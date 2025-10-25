@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import styles from './status.module.css';
+import styles from './styles.module.css';
 import { StatusColor } from '~/common';
 
 export type StatusProps = {

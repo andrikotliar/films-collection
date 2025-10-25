@@ -2,7 +2,7 @@ import { FocusEventHandler, forwardRef, useEffect, useState } from 'react';
 import { TextInput, TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
 import { YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
-import styles from './video-input.module.css';
+import styles from './styles.module.css';
 import { Button } from '~/common/components/button/button';
 import { Trash2Icon } from 'lucide-react';
 import { FieldLabel } from '~/common/components/field-label/field-label';

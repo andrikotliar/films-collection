@@ -1,4 +1,4 @@
-import styles from './content-layout.module.css';
+import styles from './styles.module.css';
 import { ReactNode } from 'react';
 
 type ContentLayoutProps = {

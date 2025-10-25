@@ -1,4 +1,4 @@
-import styles from './pagination.module.css';
+import styles from './styles.module.css';
 import { useMemo } from 'react';
 import classNames from 'classnames';
 import { buildPagination } from '~/common';

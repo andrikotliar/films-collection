@@ -1,4 +1,4 @@
-import styles from './chapters.module.css';
+import styles from './styles.module.css';
 import { fetchRelatedChaptersQuery, Image } from '~/common';
 import { useQuery } from '@tanstack/react-query';
 import { ChapterButton } from '../chapter-button/chapter-button';

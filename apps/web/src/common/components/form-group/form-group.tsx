@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './form-group.module.css';
+import styles from './styles.module.css';
 
 type GroupProps = {
   title: string;

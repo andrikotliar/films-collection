@@ -1,5 +1,5 @@
 import { Button } from '~/common/components/button/button';
-import styles from './trigger-button.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
 import { forwardRef, KeyboardEvent, ReactNode } from 'react';

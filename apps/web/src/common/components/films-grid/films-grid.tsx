@@ -1,6 +1,6 @@
 import { FilmsListItem } from '~/common';
 import { FilmLink } from './components';
-import styles from './films-grid.module.css';
+import styles from './styles.module.css';
 
 type FilmsGridProps = {
   films: FilmsListItem[];

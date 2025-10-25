@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import styles from './chapter-button.module.css';
+import styles from './styles.module.css';
 import { ReactNode } from 'react';
 
 export type ChapterButtonProps = {

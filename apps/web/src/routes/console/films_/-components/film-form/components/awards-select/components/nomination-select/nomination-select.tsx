@@ -1,4 +1,4 @@
-import styles from './nomination-select.module.css';
+import styles from './styles.module.css';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
 import {

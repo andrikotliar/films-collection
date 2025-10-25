@@ -1,4 +1,4 @@
-import styles from './menu-bar.module.css';
+import styles from './styles.module.css';
 import { ReactNode } from 'react';
 import { Editor } from '@tiptap/react';
 import {
@@ -53,43 +53,37 @@ const toolsConfig: ToolsConfigItem[] = [
   {
     key: 'heading',
     icon: <Heading1Icon />,
-    action: (editor) =>
-      editor.chain().focus().toggleHeading({ level: 1 }).run(),
+    action: (editor) => editor.chain().focus().toggleHeading({ level: 1 }).run(),
     attributes: { level: 1 },
   },
   {
     key: 'heading',
     icon: <Heading2Icon />,
-    action: (editor) =>
-      editor.chain().focus().toggleHeading({ level: 2 }).run(),
+    action: (editor) => editor.chain().focus().toggleHeading({ level: 2 }).run(),
     attributes: { level: 2 },
   },
   {
     key: 'heading',
     icon: <Heading3Icon />,
-    action: (editor) =>
-      editor.chain().focus().toggleHeading({ level: 3 }).run(),
+    action: (editor) => editor.chain().focus().toggleHeading({ level: 3 }).run(),
     attributes: { level: 3 },
   },
   {
     key: 'heading',
     icon: <Heading4Icon />,
-    action: (editor) =>
-      editor.chain().focus().toggleHeading({ level: 4 }).run(),
+    action: (editor) => editor.chain().focus().toggleHeading({ level: 4 }).run(),
     attributes: { level: 4 },
   },
   {
     key: 'heading',
     icon: <Heading5Icon />,
-    action: (editor) =>
-      editor.chain().focus().toggleHeading({ level: 5 }).run(),
+    action: (editor) => editor.chain().focus().toggleHeading({ level: 5 }).run(),
     attributes: { level: 5 },
   },
   {
     key: 'heading',
     icon: <Heading6Icon />,
-    action: (editor) =>
-      editor.chain().focus().toggleHeading({ level: 6 }).run(),
+    action: (editor) => editor.chain().focus().toggleHeading({ level: 6 }).run(),
     attributes: { level: 6 },
   },
   {

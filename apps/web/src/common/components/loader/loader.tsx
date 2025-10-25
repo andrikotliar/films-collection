@@ -1,4 +1,4 @@
-import styles from './loader.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { LoaderCircle } from 'lucide-react';
 

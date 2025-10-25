@@ -8,7 +8,7 @@ import {
   type SortingOrder,
   debounce,
 } from '~/common';
-import styles from './filters.module.css';
+import styles from './styles.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { type ChangeEvent, useCallback } from 'react';
 import { setPriorities } from '~/routes/console/pending-films/-components/filters/helpers';

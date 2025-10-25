@@ -1,5 +1,5 @@
 import { type ReactNode } from 'react';
-import styles from './summary-block.module.css';
+import styles from './styles.module.css';
 
 type SummaryBlockProps = {
   label?: string;

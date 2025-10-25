@@ -1,6 +1,6 @@
 import { Menu } from '~/common/components/menu/menu';
 import { mainMenu } from '~/common';
-import styles from './app-menu.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 import { type RefObject, useRef } from 'react';
 import { useClickOutside, useCloseOnScroll } from '~/hooks';

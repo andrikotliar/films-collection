@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './field-label.module.css';
+import styles from './styles.module.css';
 import classNames from 'classnames';
 
 type FieldLabelProps = {
@@ -8,7 +8,5 @@ type FieldLabelProps = {
 };
 
 export const FieldLabel = ({ children, className }: FieldLabelProps) => {
-  return (
-    <span className={classNames(styles.label, className)}>{children}</span>
-  );
+  return <span className={classNames(styles.label, className)}>{children}</span>;
 };
