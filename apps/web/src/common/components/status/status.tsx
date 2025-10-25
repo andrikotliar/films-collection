@@ -1,12 +1,12 @@
 import classNames from 'classnames';
 import styles from './styles.module.css';
-import { StatusColor } from '~/common';
+import { type StatusColor } from '~/common';
 
-export type StatusProps = {
+export type Props = {
   color: StatusColor;
   title: string;
 };
 
-export const Status = ({ color, title }: StatusProps) => {
+export const Status = ({ color, title }: Props) => {
   return <div className={classNames(styles.status, styles[color])}>{title}</div>;
 };

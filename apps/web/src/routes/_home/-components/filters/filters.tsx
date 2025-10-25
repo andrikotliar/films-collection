@@ -12,7 +12,7 @@ import {
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
 
-type FiltersProps = {
+type Props = {
   config: FilterItem[];
   setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
   updateFiltersCount: (value: number) => void;
@@ -31,7 +31,7 @@ const defaultValues: FilmsListFilters = {
 
 const routeApi = getRouteApi('/_home/');
 
-export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
+export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Props) => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 

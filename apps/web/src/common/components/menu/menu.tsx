@@ -3,13 +3,13 @@ import styles from './styles.module.css';
 import { type MenuConfigItem } from '~/common';
 import classNames from 'classnames';
 
-type MenuProps = {
+type Props = {
   config: MenuConfigItem[];
   className?: string;
   isStandalone?: boolean;
 };
 
-export const Menu = ({ config, className, isStandalone = false }: MenuProps) => {
+export const Menu = ({ config, className, isStandalone = false }: Props) => {
   const location = useLocation();
 
   const checkActiveState = (currentLink: string) => {

@@ -1,15 +1,15 @@
-import { ListOption } from '~/common';
+import { type ListOption } from '~/common';
 import styles from './styles.module.css';
 import { Button } from '~/common/components/button/button';
 import { XIcon } from 'lucide-react';
 
-type SelectedOptionProps = {
+type Props = {
   onRemove: (value: ListOption<any>['value']) => void;
   data: ListOption<any>;
   isDisabled: boolean;
 };
 
-export const SelectedOption = ({ onRemove, data, isDisabled }: SelectedOptionProps) => {
+export const SelectedOption = ({ onRemove, data, isDisabled }: Props) => {
   return (
     <div className={styles.selectedOption}>
       <span>{data.label}</span>

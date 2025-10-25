@@ -1,10 +1,10 @@
 import { FormCheckbox, FormGroup, FormDateRange, type FilterItem } from '~/common';
 
-type FilterOptionsProps = {
+type Props = {
   filter: FilterItem;
 };
 
-export const FilterOptions = ({ filter }: FilterOptionsProps) => {
+export const FilterOptions = ({ filter }: Props) => {
   switch (filter.type) {
     case 'checkmark':
       return (

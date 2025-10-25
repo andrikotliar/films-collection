@@ -4,11 +4,11 @@ import { Menu } from '~/common/components/menu/menu';
 import classNames from 'classnames';
 import { forwardRef } from 'react';
 
-type ConsoleMenuProps = {
+type Props = {
   isMenuOpen: boolean;
 };
 
-export const ConsoleMenu = forwardRef<HTMLDivElement, ConsoleMenuProps>(({ isMenuOpen }, ref) => {
+export const ConsoleMenu = forwardRef<HTMLDivElement, Props>(({ isMenuOpen }, ref) => {
   return (
     <div
       className={classNames(styles.menuWrapper, {

@@ -1,17 +1,16 @@
-import { Menu } from '~/common/components/menu/menu';
-import { mainMenu } from '~/common';
 import styles from './styles.module.css';
 import classNames from 'classnames';
 import { type RefObject, useRef } from 'react';
-import { useClickOutside, useCloseOnScroll } from '~/hooks';
+import { useClickOutside, useCloseOnScroll, mainMenu } from '~/common';
+import { Menu } from '~/common/components/menu/menu';
 
-type AppMenuProps = {
+type Props = {
   isOpen: boolean;
   onClose: VoidFunction;
   menuButtonRef: RefObject<HTMLButtonElement>;
 };
 
-export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {
+export const AppMenu = ({ isOpen, onClose, menuButtonRef }: Props) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useClickOutside({

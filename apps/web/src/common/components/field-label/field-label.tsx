@@ -1,12 +1,8 @@
-import { ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 import classNames from 'classnames';
+import type { PropsWithClassName } from '~/common';
 
-type FieldLabelProps = {
-  className?: string;
-  children?: ReactNode;
-};
-
-export const FieldLabel = ({ children, className }: FieldLabelProps) => {
+export const FieldLabel = ({ children, className }: PropsWithChildren<PropsWithClassName>) => {
   return <span className={classNames(styles.label, className)}>{children}</span>;
 };

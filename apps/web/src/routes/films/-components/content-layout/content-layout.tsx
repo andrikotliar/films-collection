@@ -1,10 +1,6 @@
 import styles from './styles.module.css';
-import { ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 
-type ContentLayoutProps = {
-  children?: ReactNode;
-};
-
-export const ContentLayout = ({ children }: ContentLayoutProps) => {
+export const ContentLayout = ({ children }: PropsWithChildren) => {
   return <div className={styles.content}>{children}</div>;
 };

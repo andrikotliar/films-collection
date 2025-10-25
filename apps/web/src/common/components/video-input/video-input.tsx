@@ -1,5 +1,5 @@
-import { FocusEventHandler, forwardRef, useEffect, useState } from 'react';
-import { TextInput, TextInputProps } from '../text-input';
+import { type FocusEventHandler, forwardRef, useEffect, useState } from 'react';
+import { TextInput, type TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
 import { YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
 import styles from './styles.module.css';

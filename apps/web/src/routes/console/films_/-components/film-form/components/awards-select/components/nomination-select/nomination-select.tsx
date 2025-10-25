@@ -11,11 +11,11 @@ import {
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { PeopleApi } from '~/api';
 
-type NominationSelectProps = {
+type Props = {
   index: number;
 };
 
-export const NominationSelect = ({ index }: NominationSelectProps) => {
+export const NominationSelect = ({ index }: Props) => {
   const awards = useWatch<FilmFormValues, 'awards'>({
     name: 'awards',
   });

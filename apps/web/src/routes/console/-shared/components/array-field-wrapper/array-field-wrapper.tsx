@@ -1,14 +1,14 @@
 import styles from './styles.module.css';
-import { type ReactNode } from 'react';
+
 import { Trash2Icon } from 'lucide-react';
+import type { PropsWithChildren } from 'react';
 import { Button } from '~/common';
 
-type ArrayFieldWrapperProps = {
+type Props = {
   onRemove: VoidFunction;
-  children?: ReactNode;
 };
 
-export const ArrayFieldWrapper = ({ children, onRemove }: ArrayFieldWrapperProps) => {
+export const ArrayFieldWrapper = ({ children, onRemove }: PropsWithChildren<Props>) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.inputs}>{children}</div>

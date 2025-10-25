@@ -3,14 +3,14 @@ import { FilmsNotFound, AdditionalInfoSection, CurrentEvents } from './component
 import { getRouteApi } from '@tanstack/react-router';
 import { PER_PAGE, type FilmsListResponse, FilmsGrid, Loader, Pagination } from '~/common';
 
-type FilmsSectionProps = {
+type Props = {
   data: FilmsListResponse;
   isLoading: boolean;
 };
 
 const routeApi = getRouteApi('/_home/');
 
-export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
+export const FilmsSection = ({ data, isLoading }: Props) => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
 

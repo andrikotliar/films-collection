@@ -3,13 +3,13 @@ import { Link } from '@tanstack/react-router';
 import classNames from 'classnames';
 import { StarIcon } from 'lucide-react';
 
-type RatingProps = {
+type Props = {
   value: number;
 };
 
 const HIGHEST_RATING_VALUE = 3;
 
-export const Rating = ({ value }: RatingProps) => {
+export const Rating = ({ value }: Props) => {
   const isHighestRating = value === HIGHEST_RATING_VALUE;
 
   return (

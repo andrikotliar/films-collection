@@ -1,14 +1,14 @@
 import styles from './styles.module.css';
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import classNames from 'classnames';
 
-type ToolButtonProps = {
+type Props = {
   onClick: VoidFunction;
   icon: ReactNode;
   isActive?: boolean;
 };
 
-export const ToolButton = ({ icon, onClick, isActive = false }: ToolButtonProps) => {
+export const ToolButton = ({ icon, onClick, isActive = false }: Props) => {
   return (
     <button
       className={classNames(styles.button, {

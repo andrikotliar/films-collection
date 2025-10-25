@@ -30,3 +30,5 @@ export * from './unknown-entity';
 export * from './api-container';
 export * from './mixed-id';
 export * from './toaster';
+export * from './form-field-props';
+export * from './props-with-classname';

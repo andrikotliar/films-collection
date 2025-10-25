@@ -1,8 +1,8 @@
 import styles from './styles.module.css';
-import { ChangeEventHandler, forwardRef } from 'react';
+import { type ChangeEventHandler, forwardRef } from 'react';
 import { FieldError } from '../field-error/field-error';
 import { CheckIcon } from 'lucide-react';
-import { StatusColor } from '~/common';
+import { type StatusColor } from '~/common';
 import classNames from 'classnames';
 
 export type StatusFilterButtonProps = {

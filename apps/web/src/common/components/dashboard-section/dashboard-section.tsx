@@ -1,14 +1,13 @@
-import type { ReactNode } from 'react';
+import type { PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 import classNames from 'classnames';
+import type { PropsWithClassName } from '~/common';
 
-type DashboardSectionProps = {
+type Props = PropsWithClassName<{
   title: string;
-  children?: ReactNode;
-  className?: string;
-};
+}>;
 
-export const DashboardSection = ({ title, children, className }: DashboardSectionProps) => {
+export const DashboardSection = ({ title, children, className }: PropsWithChildren<Props>) => {
   return (
     <div className={classNames(styles.section, className)}>
       <div className={styles.header}>{title}</div>

@@ -1,10 +1,6 @@
 import styles from './styles.module.css';
-import { ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 
-type PlaceholderProps = {
-  children?: ReactNode;
-};
-
-export const Placeholder = ({ children }: PlaceholderProps) => {
+export const Placeholder = ({ children }: PropsWithChildren) => {
   return <div className={styles.placeholder}>{children}</div>;
 };

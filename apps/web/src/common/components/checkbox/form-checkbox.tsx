@@ -1,11 +1,8 @@
-import { Checkbox, CheckboxProps } from './checkbox';
+import type { FormFieldProps } from '~/common/types';
+import { Checkbox, type CheckboxProps } from './checkbox';
 import { useFormContext } from 'react-hook-form';
 
-type FormCheckboxProps = {
-  name: string;
-} & CheckboxProps;
-
-export const FormCheckbox = ({ name, ...props }: FormCheckboxProps) => {
+export const FormCheckbox = ({ name, ...props }: FormFieldProps<CheckboxProps>) => {
   const { register } = useFormContext();
 
   return <Checkbox {...register(name)} {...props} />;

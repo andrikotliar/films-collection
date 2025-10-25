@@ -1,15 +1,14 @@
 import { ArrowLeftIcon } from 'lucide-react';
-import { ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
-import { FileRoutesByTo } from '~/routeTree.gen';
+import type { FileRoutesByTo } from '~/routeTree.gen';
 
-type BackLinkProps = {
+type Props = {
   path: keyof FileRoutesByTo;
-  children?: ReactNode;
 };
 
-export const BackLink = ({ path, children }: BackLinkProps) => {
+export const BackLink = ({ path, children }: PropsWithChildren<Props>) => {
   return (
     <Link to={path} className={styles.backLink}>
       <ArrowLeftIcon className={styles.backLinkIcon} />

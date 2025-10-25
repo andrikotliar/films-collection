@@ -1,12 +1,12 @@
 import styles from './styles.module.css';
 import { ReleaseDate } from '../release-date/release-date';
 
-type DatesProps = {
+type Props = {
   releaseDate: string;
   finishedAt?: string;
 };
 
-export const Dates = ({ releaseDate, finishedAt }: DatesProps) => {
+export const Dates = ({ releaseDate, finishedAt }: Props) => {
   return (
     <div className={styles.dates}>
       <ReleaseDate value={releaseDate} />

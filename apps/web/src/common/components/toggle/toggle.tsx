@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { ChangeEvent } from 'react';
+import { type ChangeEvent } from 'react';
 
 export type ToggleProps = {
   value: boolean;

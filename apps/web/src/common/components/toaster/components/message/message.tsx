@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { CircleAlertIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, XIcon } from 'lucide-react';
 import { type ReactNode } from 'react';
 
-type MessageProps = {
+type Props = {
   data: Toast;
   onRemove: (id: number) => void;
 };
@@ -23,7 +23,7 @@ const typeToIcon: Record<ToastType, ReactNode> = {
   info: <InfoIcon />,
 };
 
-export const Message = ({ data, onRemove }: MessageProps) => {
+export const Message = ({ data, onRemove }: Props) => {
   return (
     <div
       className={classNames(styles.message, typeToClassName[data.type])}

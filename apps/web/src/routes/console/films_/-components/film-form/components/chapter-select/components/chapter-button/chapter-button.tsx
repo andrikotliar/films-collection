@@ -1,13 +1,12 @@
 import classNames from 'classnames';
 import styles from './styles.module.css';
-import { ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 
-export type ChapterButtonProps = {
+export type ChapterButtonProps = PropsWithChildren<{
   selectedChapter: number | null;
   chapterOrder: number;
   onSelect: (chapterNumber: number) => void;
-  children?: ReactNode;
-};
+}>;
 
 export const ChapterButton = ({
   chapterOrder,

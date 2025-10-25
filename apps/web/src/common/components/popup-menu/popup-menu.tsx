@@ -1,8 +1,7 @@
-import { useClickOutside, useCloseOnEscape, useCloseOnScroll, useFocusTrap } from '~/hooks';
+import { useClickOutside, useCloseOnEscape, useCloseOnScroll, useFocusTrap } from '~/common';
 import {
-  HTMLAttributes,
-  ReactNode,
-  RefObject,
+  type HTMLAttributes,
+  type RefObject,
   useCallback,
   useEffect,
   useRef,
@@ -12,11 +11,10 @@ import styles from './styles.module.css';
 import { createPortal } from 'react-dom';
 import classNames from 'classnames';
 
-type PopupMenuProps = {
+type Props = {
   onClose: VoidFunction;
   isOpen: boolean;
   triggerRef: RefObject<HTMLElement>;
-  children?: ReactNode;
   menuMargin?: number;
   positionMarker?: 'left' | 'right';
   shouldAdjustToTriggerWidth?: boolean;
@@ -41,7 +39,7 @@ export const PopupMenu = ({
   shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose = false,
   ...divProps
-}: PopupMenuProps) => {
+}: Props) => {
   const [position, setPosition] = useState<Position | null>(null);
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);

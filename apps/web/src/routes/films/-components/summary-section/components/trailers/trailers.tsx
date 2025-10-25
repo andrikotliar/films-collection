@@ -4,12 +4,12 @@ import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import { TrailersPlaylist } from '~/routes/films/-components/summary-section/components/trailers/components';
 
-type TrailersProps = {
+type Props = {
   data: FilmTrailer[];
   type: Film['type'];
 };
 
-export const Trailers = ({ data, type }: TrailersProps) => {
+export const Trailers = ({ data, type }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!data.length) {

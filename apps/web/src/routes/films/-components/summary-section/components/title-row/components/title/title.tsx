@@ -1,11 +1,6 @@
-import { ReactNode } from 'react';
-
+import { type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 
-type TitleProps = {
-  children?: ReactNode;
-};
-
-export const Title = ({ children }: TitleProps) => {
+export const Title = ({ children }: PropsWithChildren) => {
   return <h1 className={styles.title}>{children}</h1>;
 };

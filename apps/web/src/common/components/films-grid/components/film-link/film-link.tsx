@@ -1,15 +1,13 @@
-import { FilmsListItem } from '~/common';
 import { forwardRef } from 'react';
-import { getYearFromDate } from '~/common';
+import { type FilmsListItem, getYearFromDate, Image } from '~/common';
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
-import { Image } from '~/common/components/image/image';
 
-type FilmLinkProps = {
+type Props = {
   data: FilmsListItem;
 };
 
-export const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(({ data }, ref) => {
+export const FilmLink = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
   return (
     <Link
       className={styles.filmLink}

@@ -2,12 +2,12 @@ import styles from './styles.module.css';
 import { type FilmSearchResult } from '~/common';
 import { FoundFilm } from '../found-film/found-film';
 
-type SearchMenuContentProps = {
+type Props = {
   films: FilmSearchResult[];
   onFilmOpen: VoidFunction;
 };
 
-export const SearchMenuContent = ({ films, onFilmOpen }: SearchMenuContentProps) => {
+export const SearchMenuContent = ({ films, onFilmOpen }: Props) => {
   const isEmpty = films.length === 0;
 
   if (isEmpty) {

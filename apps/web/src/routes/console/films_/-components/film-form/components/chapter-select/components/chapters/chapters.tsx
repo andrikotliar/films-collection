@@ -5,13 +5,13 @@ import { ChapterButton } from '../chapter-button/chapter-button';
 import { useFormContext } from 'react-hook-form';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 
-type ChaptersProps = {
+type Props = {
   chapterKey: string;
   isEnabled: boolean;
   filmId: number | null;
 };
 
-export const Chapters = ({ chapterKey, filmId, isEnabled }: ChaptersProps) => {
+export const Chapters = ({ chapterKey, filmId, isEnabled }: Props) => {
   const { setValue, watch } = useFormContext<FilmFormValues>();
 
   const { data = [] } = useQuery(fetchRelatedChaptersQuery({ key: chapterKey, filmId }, isEnabled));

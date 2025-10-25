@@ -4,7 +4,7 @@ import { type ListOption, FormSection, FormSelect, FormTextInput } from '~/commo
 import { ArrayFormWrapper, ArrayFieldWrapper } from '~/routes/console/-shared';
 import { NominationSelect } from './components';
 
-type AwardsSelectProps = {
+type Props = {
   awardOptions: ListOption<number>[];
 };
 
@@ -15,7 +15,7 @@ const defaultAward: FormAward = {
   comment: null,
 };
 
-export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
+export const AwardsSelect = ({ awardOptions }: Props) => {
   const { control } = useFormContext<FilmFormValues>();
 
   const { fields, append, remove } = useFieldArray({

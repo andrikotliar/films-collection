@@ -1,10 +1,10 @@
 import styles from './styles.module.css';
 
-type ErrorFallbackProps = {
+type Props = {
   message: string;
 };
 
-export const ErrorFallback = ({ message }: ErrorFallbackProps) => {
+export const ErrorFallback = ({ message }: Props) => {
   return (
     <div className={styles.layout}>
       <h2 className={styles.title}>Cannot display the page</h2>

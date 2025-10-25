@@ -1,10 +1,10 @@
 import styles from './styles.module.css';
 import { FormCheckbox } from '../checkbox/form-checkbox';
-import { CheckboxProps } from '../checkbox';
+import { type CheckboxProps } from '../checkbox';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 import { useFormContext } from 'react-hook-form';
-import { ListOption } from '~/common';
+import { type ListOption } from '~/common';
 
 type FormCheckboxesGroupProps = {
   label?: string;

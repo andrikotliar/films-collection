@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import classNames from 'classnames';
 import { ModalContent, ModalCloseButton } from './components';
 
-type ModalProps = {
+type Props = {
   isOpen: boolean;
   onClose: VoidFunction;
   className?: string;
@@ -18,7 +18,7 @@ export const Modal = ({
   className,
   onClose,
   isAllowedClickOutside = true,
-}: ModalProps) => {
+}: Props) => {
   useEffect(() => {
     if (isOpen) {
       const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;

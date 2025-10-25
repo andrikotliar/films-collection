@@ -1,11 +1,11 @@
-import { RatingInput, RatingInputProps } from './rating-input';
+import type { FormFieldProps } from '~/common/types';
+import { RatingInput, type RatingInputProps } from './rating-input';
 import { Controller, useFormContext } from 'react-hook-form';
 
-type FormRatingInputProps = {
-  name: string;
-} & Pick<RatingInputProps, 'size' | 'label'>;
-
-export const FormRatingInput = ({ name, ...props }: FormRatingInputProps) => {
+export const FormRatingInput = ({
+  name,
+  ...props
+}: FormFieldProps<Pick<RatingInputProps, 'size' | 'label'>>) => {
   const { control } = useFormContext();
 
   return (
@@ -13,12 +13,7 @@ export const FormRatingInput = ({ name, ...props }: FormRatingInputProps) => {
       control={control}
       name={name}
       render={({ field: { onChange, value } }) => (
-        <RatingInput
-          name={name}
-          onChange={onChange}
-          defaultValue={Number(value)}
-          {...props}
-        />
+        <RatingInput name={name} onChange={onChange} defaultValue={Number(value)} {...props} />
       )}
     />
   );

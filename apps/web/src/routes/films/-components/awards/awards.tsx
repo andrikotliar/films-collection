@@ -3,11 +3,11 @@ import { Link } from '@tanstack/react-router';
 import type { FilmAward } from '~/common';
 import { Nomination } from '~/routes/films/-components/awards/components';
 
-type AwardsProps = {
+type Props = {
   data: FilmAward[];
 };
 
-export const Awards = ({ data }: AwardsProps) => {
+export const Awards = ({ data }: Props) => {
   return (
     <div className={styles.awards}>
       {data.map(({ award, nominations }) => (

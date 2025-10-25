@@ -1,11 +1,11 @@
-import { VideoInputProps, VideoInput } from './video-input';
+import type { FormFieldProps } from '~/common/types';
+import { type VideoInputProps, VideoInput } from './video-input';
 import { useFormContext } from 'react-hook-form';
 
-type FormVideoInputProps = {
-  name: string;
-} & Omit<VideoInputProps, 'externalWatchedValue'>;
-
-export const FormVideoInput = ({ name, ...props }: FormVideoInputProps) => {
+export const FormVideoInput = ({
+  name,
+  ...props
+}: FormFieldProps<Omit<VideoInputProps, 'externalWatchedValue'>>) => {
   const { register, formState, watch } = useFormContext();
 
   const { errors } = formState;

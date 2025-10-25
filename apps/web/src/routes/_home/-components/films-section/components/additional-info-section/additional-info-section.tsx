@@ -1,11 +1,11 @@
 import { type AdditionalInfo } from '~/common';
 import { InfoBlock } from '../info-block/info-block';
 
-type AdditionalInfoProps = {
+type Props = {
   info: AdditionalInfo | null;
 };
 
-export const AdditionalInfoSection = ({ info }: AdditionalInfoProps) => {
+export const AdditionalInfoSection = ({ info }: Props) => {
   if (!info) {
     return null;
   }

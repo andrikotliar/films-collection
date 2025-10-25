@@ -11,7 +11,7 @@ export type SortingParams = {
   order: SortingOrder;
 };
 
-type SortingPopupProps = {
+type Props = {
   fields: ListOption[];
   defaultOrderKey?: string;
   defaultOrder?: SortingOrder;
@@ -25,7 +25,7 @@ export const SortingPopup = ({
   defaultOrderKey = 'createdAt',
   defaultOrder = 'desc',
   buttonSize = 'small',
-}: SortingPopupProps) => {
+}: Props) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 

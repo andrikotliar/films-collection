@@ -1,7 +1,7 @@
 import { Link, useRouter } from '@tanstack/react-router';
 import styles from './styles.module.css';
 
-type NotFoundProps = {
+type Props = {
   title?: string;
   message?: string;
 };
@@ -9,7 +9,7 @@ type NotFoundProps = {
 const DEFAULT_TITLE = '404';
 const DEFAULT_MESSAGE = "Page you're looking for doesn't exist.";
 
-export const NotFound = ({ title = DEFAULT_TITLE, message = DEFAULT_MESSAGE }: NotFoundProps) => {
+export const NotFound = ({ title = DEFAULT_TITLE, message = DEFAULT_MESSAGE }: Props) => {
   const { history } = useRouter();
 
   return (

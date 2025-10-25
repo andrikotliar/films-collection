@@ -1,11 +1,11 @@
-import { Select, SelectProps } from './select';
+import type { FormFieldProps } from '~/common/types';
+import { Select, type SelectProps } from './select';
 import { Controller, useFormContext } from 'react-hook-form';
 
-type FormSelectProps = {
-  name: string;
-} & Omit<SelectProps, 'onSelect' | 'initialValue'>;
-
-export const FormSelect = ({ name, ...props }: FormSelectProps) => {
+export const FormSelect = ({
+  name,
+  ...props
+}: FormFieldProps<Omit<SelectProps, 'onSelect' | 'initialValue'>>) => {
   const { control } = useFormContext();
 
   return (

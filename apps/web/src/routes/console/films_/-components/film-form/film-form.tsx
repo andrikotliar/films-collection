@@ -24,11 +24,11 @@ import { filmFormSchema } from '~/routes/console/films_/-validation/film-form-sc
 import { useState } from 'react';
 import { FormModal, PersonForm } from '~/routes/console/-shared';
 
-type FilmFormProps = {
+type Props = {
   values: FilmFormValues;
 };
 
-export const FilmForm = ({ values }: FilmFormProps) => {
+export const FilmForm = ({ values }: Props) => {
   const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
   const [person, setPerson] = useState<PersonMutationPayload | null>(null);
 

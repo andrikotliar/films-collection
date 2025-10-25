@@ -2,11 +2,11 @@ import styles from './styles.module.css';
 import classNames from 'classnames';
 import { type ReactNode } from 'react';
 
-type ConsoleTitleProps = {
+type Props = {
   className?: string;
   children?: ReactNode;
 };
 
-export const ConsoleTitle = ({ children, className }: ConsoleTitleProps) => {
+export const ConsoleTitle = ({ children, className }: Props) => {
   return <h1 className={classNames(styles.consolePageTitle, className)}>{children}</h1>;
 };

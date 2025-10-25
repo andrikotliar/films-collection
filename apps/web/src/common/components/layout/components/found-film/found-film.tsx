@@ -3,12 +3,12 @@ import { Link } from '@tanstack/react-router';
 import { type FilmSearchResult, getYearFromDate } from '~/common';
 import { Image } from '~/common/components/image/image';
 
-type FoundFilmProps = {
+type Props = {
   film: FilmSearchResult;
   onFilmOpen: VoidFunction;
 };
 
-export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
+export const FoundFilm = ({ film, onFilmOpen }: Props) => {
   const genres = film.genres.map((genre) => genre.genre.title).join(', ');
 
   return (

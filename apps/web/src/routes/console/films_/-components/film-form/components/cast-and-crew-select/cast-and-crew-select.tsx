@@ -11,12 +11,12 @@ import {
 import { ArrayFormWrapper, ArrayFieldWrapper, defaultPersonValues } from '~/routes/console/-shared';
 import { PeopleApi } from '~/api';
 
-type CastAndCrewSelectProps = {
+type Props = {
   positionOptions: ListOption[];
   onPersonChange: (person: PersonMutationPayload) => void;
 };
 
-export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCrewSelectProps) => {
+export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: Props) => {
   const { control } = useFormContext<FilmFormValues>();
 
   const { fields, append, remove } = useFieldArray({

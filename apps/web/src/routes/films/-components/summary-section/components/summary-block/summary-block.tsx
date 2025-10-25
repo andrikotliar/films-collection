@@ -1,12 +1,11 @@
-import { type ReactNode } from 'react';
+import type { PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 
-type SummaryBlockProps = {
+type Props = {
   label?: string;
-  children?: ReactNode;
 };
 
-export const SummaryBlock = ({ label, children }: SummaryBlockProps) => {
+export const SummaryBlock = ({ label, children }: PropsWithChildren<Props>) => {
   return (
     <div className={styles.summaryBlock}>
       {label && <div className={styles.label}>{label}:</div>}

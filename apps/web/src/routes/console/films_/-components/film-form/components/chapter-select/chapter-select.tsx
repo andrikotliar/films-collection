@@ -15,13 +15,13 @@ import {
 } from '~/common';
 import { Chapters } from './components';
 
-type ChapterSelectProps = {
+type Props = {
   filmId: string | number;
 };
 
 const chapterKeyRegex = /^[a-z-]+$/;
 
-export const ChapterSelect = ({ filmId }: ChapterSelectProps) => {
+export const ChapterSelect = ({ filmId }: Props) => {
   const parsedFilmId = typeof filmId === 'number' ? Number(filmId) : null;
 
   const [manualKeyError, setManualKeyError] = useState<string | null>(null);

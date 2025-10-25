@@ -1,12 +1,11 @@
 import { Controller, useFormContext } from 'react-hook-form';
-import { TextEditor, TextEditorProps } from './text-editor';
-import { FormError } from '~/common';
+import { TextEditor, type TextEditorProps } from './text-editor';
+import { type FormError, type FormFieldProps } from '~/common';
 
-type FormTextEditorProps = {
-  name: string;
-} & Pick<TextEditorProps, 'label'>;
-
-export const FormTextEditor = ({ name, ...props }: FormTextEditorProps) => {
+export const FormTextEditor = ({
+  name,
+  ...props
+}: FormFieldProps<Pick<TextEditorProps, 'label'>>) => {
   const { formState, control } = useFormContext();
 
   const error = formState.errors[name]?.message;

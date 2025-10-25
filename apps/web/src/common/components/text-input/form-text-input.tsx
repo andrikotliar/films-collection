@@ -1,20 +1,11 @@
 import { useFormContext } from 'react-hook-form';
-import { TextInput, TextInputProps } from './text-input';
+import { TextInput, type TextInputProps } from './text-input';
+import type { FormFieldProps } from '~/common/types';
 
-type FormInputProps = {
-  name: string;
-} & TextInputProps;
-
-export const FormTextInput = ({ name, ...props }: FormInputProps) => {
+export const FormTextInput = ({ name, ...props }: FormFieldProps<TextInputProps>) => {
   const { register, formState } = useFormContext();
 
   const { errors } = formState;
 
-  return (
-    <TextInput
-      error={errors[name]?.message as string}
-      {...register(name)}
-      {...props}
-    />
-  );
+  return <TextInput error={errors[name]?.message as string} {...register(name)} {...props} />;
 };

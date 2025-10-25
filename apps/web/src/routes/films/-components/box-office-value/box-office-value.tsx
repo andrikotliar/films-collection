@@ -4,12 +4,12 @@ import { TrendingDownIcon, TrendingUpIcon } from 'lucide-react';
 import styles from './styles.module.css';
 import { DataLink } from '../data-link/data-link';
 
-type BoxOfficeValueProps = {
+type Props = {
   budget: number;
   boxOffice: number;
 };
 
-export const BoxOfficeValue = ({ budget, boxOffice }: BoxOfficeValueProps) => {
+export const BoxOfficeValue = ({ budget, boxOffice }: Props) => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(budget, boxOffice);
 
   return (

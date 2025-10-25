@@ -1,20 +1,11 @@
 import { useFormContext } from 'react-hook-form';
-import { DatePicker, DatePickerProps } from './date-picker';
+import { DatePicker, type DatePickerProps } from './date-picker';
+import type { FormFieldProps } from '~/common';
 
-type FormDatePickerProps = {
-  name: string;
-} & DatePickerProps;
-
-export const FormDatePicker = ({ name, ...props }: FormDatePickerProps) => {
+export const FormDatePicker = ({ name, ...props }: FormFieldProps<DatePickerProps>) => {
   const { register, formState } = useFormContext();
 
   const { errors } = formState;
 
-  return (
-    <DatePicker
-      {...register(name)}
-      error={errors[name]?.message as string}
-      {...props}
-    />
-  );
+  return <DatePicker {...register(name)} error={errors[name]?.message as string} {...props} />;
 };

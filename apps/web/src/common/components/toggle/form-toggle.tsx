@@ -1,11 +1,8 @@
 import { Controller, useFormContext } from 'react-hook-form';
-import { Toggle, ToggleProps } from './toggle';
+import { Toggle, type ToggleProps } from './toggle';
+import type { FormFieldProps } from '~/common/types';
 
-type FormToggleProps = {
-  name: string;
-} & Pick<ToggleProps, 'title'>;
-
-export const FormToggle = ({ name, ...props }: FormToggleProps) => {
+export const FormToggle = ({ name, ...props }: FormFieldProps<Pick<ToggleProps, 'title'>>) => {
   const { control } = useFormContext();
 
   return (

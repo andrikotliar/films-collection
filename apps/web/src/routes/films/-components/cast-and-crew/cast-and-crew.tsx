@@ -2,11 +2,11 @@ import styles from './styles.module.css';
 import type { FilmPerson } from '~/common';
 import { RoleItem } from '~/routes/films/-components/cast-and-crew/components';
 
-type CastAndCrewProps = {
+type Props = {
   data: FilmPerson[];
 };
 
-export const CastAndCrew = ({ data }: CastAndCrewProps) => {
+export const CastAndCrew = ({ data }: Props) => {
   return (
     <div className={styles.wrapper}>
       {data.map((personData) => (

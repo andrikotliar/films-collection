@@ -1,7 +1,6 @@
 import styles from './styles.module.css';
 import { type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { useDebouncedSearch } from '~/hooks';
-import { type FormError, type ListOption } from '~/common';
+import { type FormError, type ListOption, useDebouncedSearch } from '~/common';
 import { FieldLabel } from '~/common/components/field-label/field-label';
 import { PopupMenu } from '~/common/components/popup-menu/popup-menu';
 import { FieldError } from '~/common/components/field-error/field-error';

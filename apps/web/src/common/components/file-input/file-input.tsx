@@ -1,11 +1,11 @@
-import { images } from '~/assets/images';
+import { imageNotFoundPlaceholder } from '~/assets';
 import { FieldLabel } from '~/common/components/field-label/field-label';
 import { Image } from '~/common/components/image/image';
-import { ChangeEvent, CSSProperties, useRef, useState } from 'react';
+import { type ChangeEvent, type CSSProperties, useRef, useState } from 'react';
 import styles from './styles.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/common/components/button/button';
-import { FormError } from '~/common';
+import { type FormError } from '~/common';
 import { FieldError } from '~/common/components/field-error/field-error';
 
 export type FileInputProps = {
@@ -70,7 +70,7 @@ export const FileInput = ({
           ref={inputRef}
         />
         <Image
-          errorImageSrc={images.noImagePreview}
+          errorImageSrc={imageNotFoundPlaceholder}
           src={imagePreview}
           className={styles.image}
           isExternal={Boolean(defaultValue)}

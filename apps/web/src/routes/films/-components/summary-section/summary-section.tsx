@@ -9,11 +9,11 @@ import {
 } from '~/routes/films/-components/summary-section/components';
 import { getFilmSummaryConfig } from '~/routes/films/-helpers';
 
-type SummarySectionProps = {
+type Props = {
   film: FilmDetails;
 };
 
-export const SummarySection = ({ film }: SummarySectionProps) => {
+export const SummarySection = ({ film }: Props) => {
   const filmConfig = useMemo(() => {
     return getFilmSummaryConfig(film);
   }, [film]);

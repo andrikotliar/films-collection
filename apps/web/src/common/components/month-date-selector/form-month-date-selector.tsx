@@ -1,11 +1,11 @@
 import { Controller, useFormContext } from 'react-hook-form';
 import { MonthDateSelector, type MonthDateSelectorProps } from './month-date-selector';
+import type { FormFieldProps } from '~/common';
 
-type FormMonthDateSelectorProps = {
-  name: string;
-} & Omit<MonthDateSelectorProps, 'onChange' | 'value'>;
-
-export const FormMonthDateSelector = ({ name, ...props }: FormMonthDateSelectorProps) => {
+export const FormMonthDateSelector = ({
+  name,
+  ...props
+}: FormFieldProps<Omit<MonthDateSelectorProps, 'onChange' | 'value'>>) => {
   const { control, formState } = useFormContext();
 
   const { errors } = formState;

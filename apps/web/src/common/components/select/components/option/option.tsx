@@ -1,15 +1,15 @@
 import styles from './styles.module.css';
 import { forwardRef } from 'react';
-import { ListOption } from '~/common';
+import { type ListOption } from '~/common';
 import classNames from 'classnames';
 
-type OptionProps = {
+type Props = {
   onSelect: (value: ListOption<any>['value'], isActive: boolean) => void;
   data: ListOption<any>;
   selectedValues: (string | number)[];
 };
 
-export const Option = forwardRef<HTMLButtonElement, OptionProps>(
+export const Option = forwardRef<HTMLButtonElement, Props>(
   ({ onSelect, data, selectedValues }, ref) => {
     const isActive = selectedValues.includes(data.value);
 

@@ -1,14 +1,17 @@
 import classNames from 'classnames';
-import { ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 
-type PanelProps = {
-  children?: ReactNode;
+type Props = {
   hasPaddings?: boolean;
   isFlexContainer?: boolean;
 };
 
-export const Panel = ({ children, hasPaddings = true, isFlexContainer = false }: PanelProps) => {
+export const Panel = ({
+  children,
+  hasPaddings = true,
+  isFlexContainer = false,
+}: PropsWithChildren<Props>) => {
   return (
     <div
       className={classNames(styles.panel, {

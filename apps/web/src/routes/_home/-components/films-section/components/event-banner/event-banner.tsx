@@ -3,13 +3,13 @@ import { getDateMonthLabel, type CollectionEventFilled } from '~/common';
 import { Image } from '~/common/components/image/image';
 import { Link } from '@tanstack/react-router';
 import { ArrowRightIcon, CalendarIcon, TimerIcon } from 'lucide-react';
-import { EventBannerDataRow } from '~/routes/_home/-components/event-banner/components';
+import { EventBannerDataRow } from '~/routes/_home/-components/films-section/components/event-banner/components';
 
-type CollectionEventBannerProps = {
+type Props = {
   event: CollectionEventFilled;
 };
 
-export const EventBanner = ({ event }: CollectionEventBannerProps) => {
+export const EventBanner = ({ event }: Props) => {
   const currentYear = new Date().getFullYear();
 
   return (

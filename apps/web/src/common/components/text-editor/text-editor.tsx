@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
-import { FormError } from '~/common';
+import { type FormError } from '~/common';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 import { MenuBar } from './components';

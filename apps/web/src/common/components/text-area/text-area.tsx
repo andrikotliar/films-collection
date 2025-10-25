@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { ComponentProps, forwardRef } from 'react';
+import { type ComponentProps, forwardRef } from 'react';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 

@@ -1,19 +1,12 @@
-import { TextArea, TextAreaProps } from './text-area';
+import type { FormFieldProps } from '~/common/types';
+import { TextArea, type TextAreaProps } from './text-area';
 import { useFormContext } from 'react-hook-form';
 
-type FormTextAreaProps = {
-  name: string;
-} & TextAreaProps;
-
-export const FormTextArea = ({ name, ...props }: FormTextAreaProps) => {
+export const FormTextArea = ({ name, ...props }: FormFieldProps<TextAreaProps>) => {
   const { register, formState } = useFormContext();
   const { errors } = formState;
 
   return (
-    <TextArea
-      error={errors[name]?.message as string | undefined}
-      {...register(name)}
-      {...props}
-    />
+    <TextArea error={errors[name]?.message as string | undefined} {...register(name)} {...props} />
   );
 };

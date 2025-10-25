@@ -1,9 +1,9 @@
 import styles from './styles.module.css';
 import { Button } from '~/common';
-import { type ReactNode } from 'react';
+import { type PropsWithChildren, type ReactNode } from 'react';
 import { PlusIcon } from 'lucide-react';
 
-type ArrayFormWrapperProps = {
+type Props = {
   children?: ReactNode;
   onCreate: VoidFunction;
   createButtonLabel?: string;
@@ -13,7 +13,7 @@ export const ArrayFormWrapper = ({
   children,
   onCreate,
   createButtonLabel = 'Add item',
-}: ArrayFormWrapperProps) => {
+}: PropsWithChildren<Props>) => {
   return (
     <div className={styles.wrapper}>
       {children}

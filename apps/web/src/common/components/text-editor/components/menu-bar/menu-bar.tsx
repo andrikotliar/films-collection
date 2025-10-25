@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
-import { ReactNode } from 'react';
-import { Editor } from '@tiptap/react';
+import { type ReactNode } from 'react';
+import { type Editor } from '@tiptap/react';
 import {
   BoldIcon,
   Heading1Icon,
@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 import { ToolButton } from '../tool-button/tool-button';
 
-type MenuBarProps = {
+type Props = {
   editor: Editor | null;
 };
 
@@ -103,7 +103,7 @@ const toolsConfig: ToolsConfigItem[] = [
   },
 ];
 
-export const MenuBar = ({ editor }: MenuBarProps) => {
+export const MenuBar = ({ editor }: Props) => {
   if (!editor) {
     return null;
   }

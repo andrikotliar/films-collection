@@ -3,11 +3,11 @@ import type { FilmFormValues } from '~/routes/console/films_/-types';
 import { useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';
 
-type FilmValuesWatcherProps = {
+type Props = {
   id: MixedId;
 };
 
-export const FilmValuesWatcher = ({ id }: FilmValuesWatcherProps) => {
+export const FilmValuesWatcher = ({ id }: Props) => {
   const { watch } = useFormContext<FilmFormValues>();
 
   const values = watch();

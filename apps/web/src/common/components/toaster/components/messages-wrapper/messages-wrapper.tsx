@@ -1,10 +1,6 @@
 import styles from './styles.module.css';
-import { type ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
 
-type MessagesWrapperProps = {
-  children?: ReactNode;
-};
-
-export const MessagesWrapper = ({ children }: MessagesWrapperProps) => {
+export const MessagesWrapper = ({ children }: PropsWithChildren) => {
   return <div className={styles.wrapper}>{children}</div>;
 };

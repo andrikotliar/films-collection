@@ -8,11 +8,11 @@ import {
 import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form/nominations-form';
 import { awardFormSchema } from '~/routes/console/general_/awards_/-validation';
 
-type AwardFormProps = {
+type Props = {
   values: AwardMutationPayload;
 };
 
-export const AwardForm = ({ values }: AwardFormProps) => {
+export const AwardForm = ({ values }: Props) => {
   const { mutateAsync, isPending } = useMutateAward();
 
   return (

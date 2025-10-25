@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { Button, type ButtonVariant, Modal } from '~/common/components';
 
-type ConfirmModalProps<T> = {
+type Props<T> = {
   title?: string;
   description?: string;
   data: T | null;
@@ -23,7 +23,7 @@ export const ConfirmModal = <T,>({
   cancelButtonTitle = 'Cancel',
   confirmButtonVariant = 'danger',
   isPending = false,
-}: ConfirmModalProps<T>) => {
+}: Props<T>) => {
   const isOpen = data !== null;
 
   if (!isOpen) {

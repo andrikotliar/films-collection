@@ -1,13 +1,13 @@
 import classNames from 'classnames';
 import { XIcon } from 'lucide-react';
 import styles from './styles.module.css';
+import type { PropsWithClassName } from '~/common/types';
 
-type ModalCloseButtonProps = {
-  className?: string;
+type Props = PropsWithClassName<{
   onClick: VoidFunction;
-};
+}>;
 
-export const ModalCloseButton = ({ onClick, className }: ModalCloseButtonProps) => {
+export const ModalCloseButton = ({ onClick, className }: Props) => {
   return (
     <button onClick={onClick} className={classNames(styles.closeButton, className)}>
       <XIcon size={15} />
