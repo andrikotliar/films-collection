@@ -1,5 +1,4 @@
-import { NEW_ITEM_ID } from '~/common';
-import type { CountryMutationPayload } from '~/hooks';
+import { NEW_ITEM_ID, type CountryMutationPayload } from '~/common';
 
 export const countryDefaultValues: CountryMutationPayload = {
   id: NEW_ITEM_ID,

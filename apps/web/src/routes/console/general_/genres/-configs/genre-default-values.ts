@@ -1,5 +1,4 @@
-import { NEW_ITEM_ID } from '~/common';
-import type { GenreMutationPayload } from '~/hooks';
+import { NEW_ITEM_ID, type GenreMutationPayload } from '~/common';
 
 export const genreDefaultValues: GenreMutationPayload = {
   id: NEW_ITEM_ID,

@@ -1,7 +1,11 @@
 import * as yup from 'yup';
 import { createFileRoute } from '@tanstack/react-router';
-import { fetchFilmsListQuery, fetchInitialDataQuery, type FilmsListFilters } from '~/common';
-import { useDocumentTitle } from '~/hooks';
+import {
+  fetchFilmsListQuery,
+  fetchInitialDataQuery,
+  type FilmsListFilters,
+  useDocumentTitle,
+} from '~/common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmsSection, RootPageLayout, Sidebar } from './-components';
 

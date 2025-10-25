@@ -1,5 +1,4 @@
-import { NEW_ITEM_ID } from '~/common';
-import type { PageContentMutationPayload } from '~/hooks';
+import { NEW_ITEM_ID, type PageContentMutationPayload } from '~/common';
 
 export const formDefaultValues: PageContentMutationPayload = {
   id: NEW_ITEM_ID,

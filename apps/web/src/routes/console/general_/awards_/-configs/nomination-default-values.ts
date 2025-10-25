@@ -1,4 +1,4 @@
-import type { NominationFormValue } from '~/hooks';
+import type { NominationFormValue } from '~/common';
 
 export const nominationDefaultValues: NominationFormValue = {
   id: -1,
