@@ -13,7 +13,7 @@ export const FoundFilm = ({ film, onFilmOpen }: Props) => {
 
   return (
     <Link
-      to="/film/$id"
+      to="/films/$id"
       params={{
         id: film.id.toString(),
       }}

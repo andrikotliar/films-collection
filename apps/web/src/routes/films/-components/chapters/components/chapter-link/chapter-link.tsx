@@ -14,7 +14,7 @@ type Props = {
 export const ChapterLink = ({ id, poster, title, chapter, isActive }: Props) => {
   return (
     <Link
-      to="/film/$id"
+      to="/films/$id"
       params={{ id: String(id) }}
       className={classNames(styles.chapter, isActive && styles.chapter_disabled)}
       title={title}
