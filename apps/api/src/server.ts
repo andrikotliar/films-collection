@@ -1,17 +1,19 @@
 import path from 'path';
 import fastify from 'fastify';
+import type { PrismaClient } from '@prisma/client';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import StaticPlugin from '@fastify/static';
-import { AuthPlugin } from '~/plugins';
-import { CookieName, env, errorHandler, notFoundHandler } from './common';
-import { AppModule } from '~/app.module';
+import { AuthPlugin, RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
+import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from './common';
 
 declare module 'fastify' {
   export interface FastifyInstance {
     authenticate: any;
+    databaseService: PrismaClient;
+    container: DiContainer;
   }
 }
 
@@ -38,7 +40,7 @@ app.register(JwtPlugin, {
 
 app.register(MultipartPlugin, {
   limits: {
-    fileSize: 5000000,
+    fileSize: 5_000_000,
     files: 1,
   },
 });
@@ -47,8 +49,10 @@ app.register(StaticPlugin, {
   root: path.join(import.meta.dirname, '/public'),
 });
 
+app.register(DatabasePlugin);
 app.register(AuthPlugin);
-app.register(AppModule, { prefix: '/api' });
+app.register(DiContainerPlugin);
+app.register(RoutesPlugin, { prefix: '/api' });
 
 app.setErrorHandler(errorHandler);
 

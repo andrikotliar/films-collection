@@ -1,8 +1,8 @@
 import fastifyPlugin from 'fastify-plugin';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import { CookieName, getCookie, UnauthorizedException } from '~/common';
-import { users } from '~/modules/users/users.module';
-import type { VerifiedTokenData } from '~/modules/auth/types';
+import { UsersRepository, UsersService } from '~/services/users';
+import type { VerifiedTokenData } from '~/services/auth';
 
 const authDecorator = async (app: FastifyInstance) => {
   app.decorate('authenticate', async function (request: FastifyRequest, reply: FastifyReply) {
@@ -31,7 +31,7 @@ const authDecorator = async (app: FastifyInstance) => {
       throw new UnauthorizedException();
     }
 
-    const user = await users.getUser(payload.id);
+    const user = await app.container.resolve('usersService').getUser(payload.id);
 
     if (!user) {
       throw new UnauthorizedException({

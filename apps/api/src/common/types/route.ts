@@ -22,6 +22,7 @@ type InferRequestType<S extends Partial<RouteSchema>> = {
 type HandlerContext<S extends Partial<RouteSchema>> = {
   request: FastifyRequest<InferRequestType<S>>;
   reply: FastifyReply;
+  app: FastifyInstance;
 };
 
 export type Route<S extends RouteSchema = {}, R = unknown> = {

@@ -11,7 +11,7 @@ export const createRouter = (routes: Route[]) => {
         schema: route.schema,
         preHandler: route.isPrivate ? [app.authenticate] : undefined,
         handler: async (request: any, reply) => {
-          const data = await route.handler({ request, reply });
+          const data = await route.handler({ request, reply, app });
 
           const code = route.successStatus ? ResponseCode[route.successStatus] : ResponseCode.OK;
 
