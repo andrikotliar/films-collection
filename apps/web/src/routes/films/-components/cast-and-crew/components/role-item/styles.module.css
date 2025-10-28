@@ -1,7 +1,7 @@
 .role_item {
   display: flex;
   padding: 20px;
-  border: var(--b-default);
+  border-bottom: var(--b-default);
 }
 
 .role_item_default {
@@ -18,7 +18,7 @@
 
 .label {
   text-transform: uppercase;
-  font-size: var(--fz-md);
+  font-size: var(--fz-sm);
   width: 170px;
   flex-shrink: 0;
 }
@@ -74,6 +74,7 @@
   .role_item {
     padding: 15px;
     flex-direction: column;
+    gap: 10px;
   }
 
   .label {

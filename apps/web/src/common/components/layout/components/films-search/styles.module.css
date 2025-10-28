@@ -27,11 +27,11 @@
 }
 
 .search_input::placeholder {
-  color: var(--gray-light);
+  color: var(--gray-dark);
 }
 
 .search_icon {
-  color: var(--gray);
+  color: var(--gray-dark);
   position: absolute;
   top: 50%;
   left: 10px;
@@ -39,9 +39,10 @@
   width: 20px;
   cursor: pointer;
   transition: var(--t-timing);
+  transform: translateY(-50%);
 }
 
-.search_input:focus .search_icon {
+.search_input:focus + .search_icon {
   color: var(--blue-default);
 }
 

@@ -6,3 +6,9 @@
   margin: 0 auto;
   max-width: 1280px;
 }
+
+@media (width < 1280px) {
+  .film_page_layout {
+    padding: 20px 0;
+  }
+}

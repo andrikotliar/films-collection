@@ -5,21 +5,10 @@
   gap: 20px;
 }
 
-@media (width < 768px) {
-  .general_pages_menu {
-    --cols: 2;
-  }
-}
-
-@media (width < 520px) {
-  .general_pages_menu {
-    --cols: 1;
-  }
-}
-
 .link {
   display: flex;
-  gap: 5px;
+  align-items: center;
+  gap: 8px;
   background-color: var(--white);
   padding: 20px;
   border-radius: var(--br-default);
@@ -33,9 +22,22 @@
 }
 
 .icon {
+  display: flex;
   flex-shrink: 0;
 }
 
 .chevron_icon {
   margin-left: auto;
+}
+
+@media (width < 768px) {
+  .general_pages_menu {
+    --cols: 2;
+  }
+}
+
+@media (width < 520px) {
+  .general_pages_menu {
+    --cols: 1;
+  }
 }

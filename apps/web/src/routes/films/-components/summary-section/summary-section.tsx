@@ -22,7 +22,7 @@ export const SummarySection = ({ film }: Props) => {
     <div
       className={styles.summary_layout}
       style={defineCssProperties({
-        '--bg-url': `url(${env.BASE_MEDIA_URL}${film.poster})`,
+        '--bg-url': `url(${env.BASE_MEDIA_URL}/${film.poster})`,
       })}
     >
       <Poster image={film.poster} title={film.title} />

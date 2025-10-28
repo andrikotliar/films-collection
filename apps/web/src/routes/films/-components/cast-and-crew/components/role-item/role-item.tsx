@@ -17,7 +17,12 @@ export const RoleItem = ({ data }: Props) => {
       )}
     >
       <h3 className={styles.label}>{personRoleToTitle[data.role]}:</h3>
-      <ul className={isActorRole ? styles.role_item_actor : styles.role_item_default}>
+      <ul
+        className={clsx(
+          styles.list_wrapper,
+          isActorRole ? styles.list_wrapper_actor : styles.list_wrapper_default,
+        )}
+      >
         {data.people.map((person) => (
           <li key={person.id} className={styles.list_item}>
             <div className={styles.link_wrapper}>

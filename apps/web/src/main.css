@@ -53,3 +53,56 @@
   --fz-2xl: 24px;
   --fz-3xl: 30px;
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2');
+  font-weight: bold;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-y: scroll;
+}

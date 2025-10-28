@@ -1,17 +1,20 @@
 .item_row {
-  border: var(--b-default);
+  border-bottom: var(--b-default);
   padding: 14px;
-  display: flex;
-  justify-content: space-between;
   transition: background-color var(--t-timing);
+}
+
+.item_row:first-child {
+  border-radius: var(--br-default) var(--br-default) 0 0;
 }
 
 .item_row:last-child {
   border: 0;
+  border-radius: 0 0 var(--br-default) var(--br-default);
 }
 
 .item_row:hover {
-  background-color: var(--gray-invisible);
+  background-color: var(--gray-extra-light);
 }
 
 .item_row_content {
