@@ -7,6 +7,7 @@ import {
   ContentLayout,
   Description,
   FilmPageLayout,
+  NavigationRow,
   Section,
   SummarySection,
 } from '~/routes/films/-components';
@@ -27,7 +28,7 @@ function FilmPageContainer() {
 
   return (
     <FilmPageLayout>
-      <BackLink path="/">Back to list</BackLink>
+      <NavigationRow />
       <SummarySection film={film} />
       <ContentLayout>
         {film.description && (

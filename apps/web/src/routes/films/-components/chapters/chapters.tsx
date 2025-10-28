@@ -16,6 +16,7 @@ export const Chapters = ({ data, filmId }: Props) => {
           title={chapter.title}
           isActive={chapter.id === filmId}
           poster={chapter.poster}
+          key={chapter.id}
         />
       ))}
     </ScrollableLine>

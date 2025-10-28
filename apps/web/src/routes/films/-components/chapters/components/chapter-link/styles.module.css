@@ -1,7 +1,7 @@
 .chapter {
   position: relative;
-  width: 180px;
-  height: 240px;
+  width: 120px;
+  height: 180px;
   flex-shrink: 0;
   overflow: hidden;
   border-radius: var(--br-default);

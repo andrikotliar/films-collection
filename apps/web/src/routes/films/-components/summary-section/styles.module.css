@@ -40,6 +40,12 @@
 @media (width < 1280px) {
   .summary_layout {
     border-radius: 0;
+  }
+}
+
+@media (width < 920px) {
+  .summary_layout {
+    border-radius: 0;
     flex-direction: column;
     padding-top: 64px;
     margin-top: -64px;

@@ -10,7 +10,7 @@
   gap: 10px;
 }
 
-@media (width < 780px) {
+@media (width < 768px) {
   .right_column {
     position: absolute;
     top: 74px;

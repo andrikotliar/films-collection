@@ -12,3 +12,4 @@ export * from './dates/dates';
 export * from './cast-and-crew/cast-and-crew';
 export * from './awards/awards';
 export * from './chapters/chapters';
+export * from './navigation-row/navigation-row';
