@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
-import { FilmsNotFound, AdditionalInfoSection, CurrentEvents } from './components';
+import { FilmsNotFound, AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { PER_PAGE, type FilmsListResponse, FilmsGrid, Loader, Pagination } from '~/common';
+import { PER_PAGE, type FilmsListResponse, Loader, Pagination } from '~/common';
 
 type Props = {
   data: FilmsListResponse;

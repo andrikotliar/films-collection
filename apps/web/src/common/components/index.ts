@@ -1,5 +1,4 @@
 export * from './button/button';
-export * from './films-grid/films-grid';
 export * from './checkbox';
 export * from './image/image';
 export * from './layout/layout';
@@ -40,7 +39,6 @@ export * from './form-date-range/form-date-range';
 export * from './toggle/toggle';
 export * from './toaster/toaster';
 export * from './month-date-selector';
-export * from './dashboard-section/dashboard-section';
 export * from './form/form';
 export * from './priority-badge/priority-badge';
 export * from './centered-block/centered-block';
