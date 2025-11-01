@@ -1,18 +1,18 @@
 .search_wrapper {
   padding: 10px;
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
 }
 
 .search {
   width: 100%;
   border-radius: 5px;
-  border: var(--b-default);
+  border: var(--border-default);
   padding: 10px;
   font-size: 14px;
-  border: var(--b-default);
-  outline-color: var(--blue-default);
+  border: var(--border-default);
+  outline-color: var(--color-blue-primary);
 }
 
 .search:hover {
-  border-color: var(--gray-dark);
+  border-color: var(--color-gray-dark);
 }

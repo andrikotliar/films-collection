@@ -1,5 +1,5 @@
 .root_wrapper {
-  --border-color: var(--gray-dark);
+  --border-color: var(--color-gray-dark);
 
   display: flex;
   align-items: center;
@@ -13,21 +13,21 @@
 }
 
 .root_wrapper.red {
-  --border-color: var(--red);
+  --border-color: var(--color-red-primary);
 
-  color: var(--red);
-  background-color: var(--red-failure-light);
+  color: var(--color-red-primary);
+  background-color: var(--color-red-extra-light);
 }
 
 .root_wrapper.yellow {
-  --border-color: var(--yellow-saturated);
+  --border-color: var(--color-yellow-primary);
 
-  color: var(--orange);
-  background-color: var(--yellow-sand-light);
+  color: var(--color-orange-primary);
+  background-color: var(--color-yellow-extra-light);
 }
 
 .root_wrapper.gray {
-  background-color: var(--gray);
+  background-color: var(--color-gray-primary);
 }
 
 .input {

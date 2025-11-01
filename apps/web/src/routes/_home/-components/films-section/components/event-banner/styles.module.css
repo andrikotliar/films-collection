@@ -1,16 +1,16 @@
 .event_banner_link {
   position: relative;
   display: flex;
-  background-color: var(--gray-extra-light);
-  border: var(--b-default);
+  background-color: var(--color-gray-extra-light);
+  border: var(--border-default);
   box-shadow: var(--shadow-sm);
-  border-radius: var(--br-default);
-  transition: border-color var(--t-timing);
+  border-radius: var(--rounded-default);
+  transition: border-color var(--transition-timing);
   overflow: hidden;
 }
 
 .event_banner_link:hover {
-  border-color: var(--gray-light);
+  border-color: var(--color-gray-light);
 }
 
 .poster_wrapper {
@@ -37,7 +37,7 @@
 .data {
   overflow: hidden;
   flex-grow: 1;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
   position: relative;
   height: 100%;
   padding: 12px;
@@ -49,20 +49,20 @@
 .data_title {
   font-size: 12px;
   text-transform: uppercase;
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
 }
 
 .event_title {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   font-weight: bold;
   font-size: 24px;
 }
 
 .event_banner_link:hover .event_title {
-  color: var(--gray-extra-dark);
+  color: var(--color-gray-extra-dark);
 }
 
 .event_date {
@@ -78,15 +78,15 @@
   display: flex;
   gap: 5px;
   align-items: center;
-  background-color: var(--gray-dark);
-  color: var(--white);
+  background-color: var(--color-gray-dark);
+  color: var(--color-white);
   border-top-left-radius: 6px;
   padding: 8px;
-  transition: background-color var(--t-timing);
+  transition: background-color var(--transition-timing);
 }
 
 .event_banner_link:hover .link_icon {
-  background-color: var(--gray-extra-dark);
+  background-color: var(--color-gray-extra-dark);
 }
 
 @media (width < 980px) {

@@ -9,16 +9,16 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  background-color: var(--white);
+  background-color: var(--color-white);
   padding: 20px;
-  border-radius: var(--br-default);
-  border: var(--b-default);
-  transition: var(--t-timing);
+  border-radius: var(--rounded-default);
+  border: var(--border-default);
+  transition: var(--transition-timing);
 }
 
 .link:hover {
-  border-color: var(--gray-dark);
-  color: var(--blue-default);
+  border-color: var(--color-gray-dark);
+  color: var(--color-blue-primary);
 }
 
 .icon {

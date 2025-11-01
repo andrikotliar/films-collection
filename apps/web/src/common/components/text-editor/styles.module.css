@@ -5,13 +5,13 @@
 }
 
 .editor {
-  border: var(--b-default);
-  border-radius: var(--br-default);
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
   transition: border-color 300ms;
   padding: 10px;
   background-color: white;
   min-height: 200px;
-  outline-color: var(--blue-default);
+  outline-color: var(--color-blue-primary);
 }
 
 .editor:hover {
@@ -33,6 +33,6 @@
 
 .editor blockquote {
   padding: 10px;
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
   border-radius: 5px;
 }

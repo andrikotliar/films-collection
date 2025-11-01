@@ -7,9 +7,9 @@
 }
 
 .event_placeholder {
-  background-color: var(--gray-light);
-  border-radius: var(--br-default);
-  border: var(--b-default);
+  background-color: var(--color-gray-light);
+  border-radius: var(--rounded-default);
+  border: var(--border-default);
 }
 
 @media (width < 1280px) {

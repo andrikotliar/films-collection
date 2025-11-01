@@ -1,57 +1,51 @@
 :root {
-  --blue-default: #006db7;
-  --blue-light: #e8f8fc;
-  --blue-invisible: #c8f0fd;
+  --color-blue-primary: hsl(200, 100%, 40%);
+  --color-blue-light: hsl(190, 80%, 90%);
+  --color-blue-invisible: hsl(200, 100%, 95%);
 
-  --green: #00b5c6;
-  --green-success-light: #f2fffe;
-  --green-success: #4db6ac;
-  --green-mint: #c6f5ec;
-  --green-dark: #028090;
+  --color-green-primary: hsl(180, 100%, 40%);
+  --color-green-dark: hsl(180, 100%, 20%);
 
-  --yellow-gold: #ffbf00;
-  --yellow-saturated: #ffb74d;
-  --yellow-sand: #ffedd6;
-  --yellow-sand-light: #fffbf5;
+  --color-yellow-primary: hsl(40, 100%, 50%);
+  --color-yellow-light: hsl(30, 100%, 90%);
+  --color-yellow-extra-light: hsl(30, 100%, 95%);
 
-  --orange: #ff711f;
+  --color-orange-primary: hsl(20, 70%, 50%);
 
-  --black: #232323;
-  --white: #fff;
+  --color-black: hsl(0, 0%, 14%);
+  --color-white: hsl(0, 0%, 100%);
 
-  --gray: #ddd;
-  --gray-invisible: #fdfdfd;
-  --gray-extra-light: #fbfbfb;
-  --gray-light: #f2f2f2;
-  --gray-dark: #777;
-  --gray-extra-dark: #454545;
+  --color-gray-primary: hsl(0, 0%, 80%);
+  --color-gray-light: hsl(0, 0%, 95%);
+  --color-gray-extra-light: hsl(0, 0%, 97%);
+  --color-gray-invisible: hsl(0, 0%, 99%);
+  --color-gray-dark: hsl(0, 0%, 50%);
+  --color-gray-extra-dark: hsl(0, 0%, 20%);
 
-  --red: #d32f2f;
-  --red-failure: #fe6c6c;
-  --red-failure-light: #fff3f3;
+  --color-red-primary: hsl(0, 60%, 50%);
+  --color-red-light: hsl(0, 100%, 70%);
+  --color-red-extra-light: hsl(0, 100%, 95%);
 
-  --pink-light: #ffece8;
+  --color-purple-primary: hsl(280, 30%, 50%);
+  --color-purple-light: hsl(270, 60%, 80%);
 
-  --purple-dark: #8f5bab;
-  --purple-light: #dccbf2;
-
-  --b-default: 1px solid var(--gray);
-  --br-default: 8px;
+  --border-default: 1px solid var(--color-gray-primary);
+  --rounded-default: 8px;
   --shadow-sm: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
-  --pd-default: 20px;
+  --padding-default: 20px;
   --header-height: 60px;
   --screen-height: calc(100vh - var(--header-height));
 
-  --t-timing: 300ms;
+  --transition-timing: 300ms;
 
-  --fz-xs: 12px;
-  --fz-sm: 14px;
-  --fz-base: 16px;
-  --fz-lg: 18px;
-  --fz-xl: 20px;
-  --fz-2xl: 24px;
-  --fz-3xl: 30px;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
 }
 
 @font-face {

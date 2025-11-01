@@ -27,12 +27,12 @@
   border-radius: 50px;
 }
 .checkbox input:checked + .icon_wrapper {
-  background-image: var(--blue-default);
-  border-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
+  border-color: var(--color-blue-primary);
 }
 .checkbox input:checked + .icon_wrapper .icon {
   display: block;
-  color: #fff;
+  color: var(--color-white);
 }
 .title {
   display: flex;
@@ -44,5 +44,5 @@
   user-select: none;
 }
 .checkbox:hover .title {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }

@@ -1,7 +1,7 @@
 .poster {
   width: 320px;
-  border: var(--b-default);
-  border-radius: var(--br-default);
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
   overflow: hidden;
   flex-shrink: 0;
 }

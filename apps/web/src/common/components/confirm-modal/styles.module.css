@@ -5,7 +5,7 @@
 .content {
   background-color: white;
   padding: 30px 40px;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
   min-width: 300px;
   max-width: 400px;
   text-align: center;
@@ -18,7 +18,7 @@
 }
 
 .description {
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   font-size: 14px;
 }
 

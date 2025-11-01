@@ -7,7 +7,7 @@
 }
 
 .hint {
-  color: var(--green-dark);
+  color: var(--color-green-dark);
   font-size: 14px;
   margin-bottom: 15px;
 }

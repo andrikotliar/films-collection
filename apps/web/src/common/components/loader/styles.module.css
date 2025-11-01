@@ -11,7 +11,7 @@
 }
 
 .default_color {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 .full_page {

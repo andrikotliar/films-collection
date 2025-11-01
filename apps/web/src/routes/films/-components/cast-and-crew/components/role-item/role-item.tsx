@@ -32,7 +32,6 @@ export const RoleItem = ({ data }: Props) => {
                   personRole: data.role,
                   personId: person.id.toString(),
                 }}
-                className={styles.person_link}
               >
                 {person.name}
               </RouterLink>

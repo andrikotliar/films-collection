@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: var(--b-default);
-  background-color: var(--gray-invisible);
+  border: var(--border-default);
+  background-color: var(--color-gray-invisible);
   padding: 20px;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
 }
 
 .header {
@@ -24,7 +24,7 @@
 }
 
 .toggle_button:hover {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 .hidden_content {

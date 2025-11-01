@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--color-white);
   width: 100%;
 }
 
@@ -10,17 +10,17 @@
   gap: 10px;
   align-items: center;
   padding: 10px;
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
   user-select: none;
 }
 
 .link:not(.active_link):hover {
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
 }
 
 .active_link {
-  color: #fff;
-  background-color: var(--blue-default);
+  color: var(--color-white);
+  background-color: var(--color-blue-primary);
   pointer-events: none;
 }
 

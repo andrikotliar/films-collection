@@ -16,7 +16,7 @@
 }
 
 .title {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
   font-size: 80px;
   font-weight: bold;
   text-align: center;
@@ -35,10 +35,10 @@
 }
 
 .link {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
   padding: 10px 20px;
-  border: 1px solid var(--blue-default);
-  border-radius: var(--br-default);
+  border: 1px solid var(--color-blue-primary);
+  border-radius: var(--rounded-default);
   text-transform: uppercase;
   transition: color 0.3s, background-color 0.3s;
   text-align: center;
@@ -46,8 +46,8 @@
 }
 
 .link:hover {
-  color: #fff;
-  background-color: var(--blue-default);
+  color: var(--color-white);
+  background-color: var(--color-blue-primary);
 }
 
 @media (max-width: 480px) {

@@ -1,6 +1,6 @@
 .awards {
-  border: var(--b-default);
-  border-radius: var(--br-default);
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
   overflow: hidden;
 }
 
@@ -8,13 +8,13 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 5px;
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
   padding: 20px;
-  transition: background-color var(--t-timing);
+  transition: background-color var(--transition-timing);
 }
 
 .award_grid:hover {
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
 }
 
 .award_title {
@@ -22,11 +22,11 @@
 }
 
 .award_title:hover {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 .nominations_count {
-  font-size: var(--fz-sm);
+  font-size: var(--text-sm);
 }
 
 .nominations_list {

@@ -5,14 +5,14 @@
 }
 
 .option:hover {
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
 }
 
 .option.active,
 .option:focus {
-  background-color: var(--blue-light);
+  background-color: var(--color-blue-light);
 }
 
 .option.active:hover {
-  background-color: var(--blue-invisible);
+  background-color: var(--color-blue-invisible);
 }

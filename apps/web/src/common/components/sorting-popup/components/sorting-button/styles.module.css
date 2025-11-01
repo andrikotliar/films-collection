@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  background-color: #fff;
-  border: var(--b-default);
+  background-color: var(--color-white);
+  border: var(--border-default);
   width: 100%;
   transition: background-color 300ms;
   min-width: 140px;
@@ -13,7 +13,7 @@
 }
 
 .sorting_button:hover {
-  background-color: var(--gray-ultra-light);
+  background-color: var(--color-gray-ultra-light);
 }
 
 .icon {
@@ -29,7 +29,7 @@
 
 .sorting_button.large {
   padding: 10px;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
 }
 
 .sorting_button.large .label {

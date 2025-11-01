@@ -7,33 +7,33 @@
   align-items: center;
   width: 100%;
   padding: 10px;
-  border-radius: var(--br-default);
-  border: var(--b-default);
+  border-radius: var(--rounded-default);
+  border: var(--border-default);
   cursor: pointer;
   background-color: white;
 }
 
 .select_button:focus {
-  outline: 1px solid var(--blue-default);
+  outline: 1px solid var(--color-blue-primary);
 }
 
 .select_button:disabled {
   user-select: none;
   pointer-events: none;
   cursor: default;
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
 }
 
 .select_button:hover {
-  border-color: var(--gray-dark);
+  border-color: var(--color-gray-dark);
 }
 
 .icon {
-  color: var(--gray);
+  color: var(--color-gray-primary);
 }
 
 .select_button:hover .icon {
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
 }
 
 .chevron {

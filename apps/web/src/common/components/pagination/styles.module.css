@@ -14,8 +14,8 @@
 }
 
 .page_button {
-  color: var(--gray-dark);
-  border: var(--b-default);
+  color: var(--color-gray-dark);
+  border: var(--border-default);
   width: 35px;
   height: 35px;
   border-radius: 6px;
@@ -25,14 +25,14 @@
 }
 
 .page_button:hover {
-  color: var(--black);
-  background-color: var(--gray-light);
+  color: var(--color-black);
+  background-color: var(--color-gray-light);
 }
 
 .page_button.active {
   color: white;
-  background-color: var(--blue-default);
-  border-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
+  border-color: var(--color-blue-primary);
 }
 
 .stats {
@@ -44,12 +44,12 @@
 }
 
 .current_state {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 .dots {
   margin-top: auto;
   font-size: 20px;
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   user-select: none;
 }

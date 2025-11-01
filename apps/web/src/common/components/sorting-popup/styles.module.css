@@ -7,7 +7,7 @@
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  background-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
   width: 100%;
   padding: 8px 10px;
   border-radius: 5px;
@@ -15,7 +15,7 @@
 }
 
 .apply_button:hover {
-  background-color: var(--green);
+  background-color: var(--color-green-primary);
 }
 
 .group_label {

@@ -3,13 +3,13 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
-  border: var(--b-default);
+  border: var(--border-default);
   background-color: white;
   padding: 10px 20px;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
   transition: background-color 300ms;
 }
 
 .add_item_link:hover {
-  border-color: var(--black);
+  border-color: var(--color-black);
 }

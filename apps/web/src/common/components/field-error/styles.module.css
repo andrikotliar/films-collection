@@ -5,6 +5,6 @@
 }
 
 .error_message {
-  color: var(--red-failure);
+  color: var(--color-red-light);
   font-size: 12px;
 }

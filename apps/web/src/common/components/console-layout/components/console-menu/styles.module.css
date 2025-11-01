@@ -4,11 +4,11 @@
   width: 300px;
   flex-shrink: 0;
   min-height: calc(var(--screen-height) - var(--console-header-height));
-  border-right: var(--b-default);
+  border-right: var(--border-default);
   background-color: white;
   transition: width 300ms;
   overflow: hidden;
-  border-right: var(--b-default);
+  border-right: var(--border-default);
   z-index: 50;
 }
 

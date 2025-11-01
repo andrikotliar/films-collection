@@ -3,43 +3,43 @@
   gap: 5px;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--color-white);
   padding: 10px 20px;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
   transition: background-color 0.3s, color 0.2s;
   flex-shrink: 0;
   cursor: pointer;
 }
 
 .primary {
-  background-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
 }
 
 .secondary {
-  color: var(--black);
+  color: var(--color-black);
   background-color: #ddd;
 }
 
 .ghost {
-  color: var(--black);
+  color: var(--color-black);
   background-color: transparent;
   border-radius: 0;
   padding: 0;
 }
 
 .danger {
-  color: var(--white);
-  background-color: var(--red);
+  color: var(--color-white);
+  background-color: var(--color-red-primary);
 }
 
 .light {
-  color: var(--black);
-  background-color: var(--white);
-  border: var(--b-default);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: var(--border-default);
 }
 
 .active {
-  background-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
 }
 
 .hidden {
@@ -60,22 +60,22 @@
 }
 
 .button:disabled {
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   cursor: default;
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
 }
 
 @media (hover: hover) {
   .button:not(:disabled):hover {
-    box-shadow: 0 0 0 1px var(--black);
+    box-shadow: 0 0 0 1px var(--color-black);
   }
 
   .active:hover {
-    background-color: var(--blue-default);
+    background-color: var(--color-blue-primary);
   }
 
   .ghost:hover {
-    color: var(--blue-default);
+    color: var(--color-blue-primary);
     background-color: transparent;
     box-shadow: none !important;
   }

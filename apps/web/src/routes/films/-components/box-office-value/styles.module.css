@@ -5,9 +5,9 @@
 }
 
 .up_icon {
-  color: var(--green-success);
+  color: var(--color-green-primary);
 }
 
 .down_icon {
-  color: var(--red-failure);
+  color: var(--color-red-light);
 }

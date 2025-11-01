@@ -1,7 +1,7 @@
 .role_item {
   display: flex;
   padding: 20px;
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
 }
 
 .role_item_default {
@@ -18,7 +18,7 @@
 
 .label {
   text-transform: uppercase;
-  font-size: var(--fz-sm);
+  font-size: var(--text-sm);
   width: 170px;
   flex-shrink: 0;
 }
@@ -48,22 +48,13 @@
   gap: 5px;
 }
 
-.person_link {
-  text-decoration: underline;
-  color: var(--blue-default);
-}
-
-.person_link:hover {
-  color: var(--green);
-}
-
 .person_small_text {
-  font-size: var(--fz-sm);
-  color: var(--gray-dark);
+  font-size: var(--text-sm);
+  color: var(--color-gray-dark);
 }
 
 .person_comment {
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
 }
 
 @media (width < 480px) {
@@ -78,6 +69,6 @@
   }
 
   .label {
-    font-size: var(--fz-xs);
+    font-size: var(--text-xs);
   }
 }

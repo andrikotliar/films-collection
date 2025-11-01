@@ -15,7 +15,7 @@
 .label {
   --icon-fill: transparent;
 
-  color: var(--yellow-gold);
+  color: var(--color-yellow-primary);
   cursor: pointer;
 }
 
@@ -28,13 +28,13 @@
 }
 
 .label:hover,
-.label:has(.input:checked),
-.label:has(.input:checked) ~ .label,
-.label:not(:has(.input:checked)):hover ~ .label {
-  --icon-fill: var(--yellow-gold);
+.label:hover ~ .label {
+  --icon-fill: var(--color-yellow-light) !important;
 }
 
 .label:hover,
-.label:hover ~ .label {
-  color: var(--orange);
+.label:has(.input:checked),
+.label:has(.input:checked) ~ .label,
+.label:not(:has(.input:checked)):hover ~ .label {
+  --icon-fill: var(--color-yellow-primary);
 }

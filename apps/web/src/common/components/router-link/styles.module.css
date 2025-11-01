@@ -1,9 +1,8 @@
 .link {
-  color: var(--blue-default);
-  text-decoration: underline;
+  color: var(--color-blue-primary);
   transition: color 0.3s;
 }
 
 .link:hover {
-  color: var(--green);
+  text-decoration: underline;
 }

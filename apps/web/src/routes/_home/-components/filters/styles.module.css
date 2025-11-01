@@ -28,7 +28,7 @@
   justify-content: center;
   gap: 20px;
   padding: 10px 20px;
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
   background-color: #f2f2f2;
   font-size: 16px;
   font-weight: normal;

@@ -8,7 +8,7 @@
 .input_wrapper {
   position: relative;
   display: flex;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
   overflow: hidden;
   cursor: pointer;
   aspect-ratio: 9 / 14;
@@ -33,7 +33,7 @@
 }
 
 .upload_icon {
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
 }
 
 .input_wrapper:hover .overlay {

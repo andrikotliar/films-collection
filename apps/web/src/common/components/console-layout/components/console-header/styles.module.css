@@ -5,7 +5,7 @@
   align-items: center;
   gap: 20px;
   padding: 0 20px;
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
   background-color: white;
   height: var(--console-header-height);
   z-index: 5;
@@ -16,16 +16,16 @@
 }
 
 .menu_icon {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 .menu_icon_collapsed {
-  color: var(--black);
+  color: var(--color-black);
 }
 
 .console_header_title {
   font-size: 14px;
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -35,7 +35,7 @@
 }
 
 .logout_button:hover {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 @media (max-width: 785px) {

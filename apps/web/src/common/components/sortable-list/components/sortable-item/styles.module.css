@@ -2,9 +2,9 @@
   display: flex;
   gap: 10px;
   background-color: white;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
   padding: 10px;
-  border: var(--b-default);
+  border: var(--border-default);
 }
 
 .item_content {
@@ -13,7 +13,7 @@
 
 .handler {
   flex-shrink: 0;
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   cursor: grab;
 }
 

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { Link, LinkProps } from '@tanstack/react-router';
+import { Link, type LinkProps } from '@tanstack/react-router';
 import styles from './styles.module.css';
 
 type RouterLinkProps = LinkProps & {

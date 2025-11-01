@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: var(--b-default);
+  border: var(--border-default);
   border-radius: 10px;
   padding: 20px;
 }
@@ -28,13 +28,13 @@
 }
 
 .date:hover {
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
 }
 
 .selected,
 .selected:hover {
   color: white;
-  background-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
   cursor: default;
   pointer-events: none;
 }

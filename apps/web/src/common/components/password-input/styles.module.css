@@ -11,5 +11,5 @@
 }
 
 .show_password_button:hover .eye_icon {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }

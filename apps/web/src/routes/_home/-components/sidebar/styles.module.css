@@ -4,8 +4,8 @@
   flex-shrink: 0;
   position: sticky;
   top: calc(var(--header-height) + 20px);
-  border: var(--b-default);
-  border-radius: var(--br-default);
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
 }
 
 .filter_button {
@@ -13,7 +13,7 @@
 }
 
 .missing_filters {
-  color: var(--gray-dark);
+  color: var(--color-gray-dark);
   font-size: 12px;
   font-weight: bold;
   display: flex;
@@ -29,23 +29,23 @@
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    color: #fff;
+    color: var(--color-white);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: var(--blue-default);
-    border-radius: var(--br-default);
+    background-color: var(--color-blue-primary);
+    border-radius: var(--rounded-default);
     padding: 10px 20px;
     z-index: 50;
   }
 
   .filter_button_badge {
-    color: #000;
+    color: var(--color-black);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--color-white);
     width: 20px;
     height: 20px;
     border-radius: 50px;
@@ -59,9 +59,9 @@
     left: 50%;
     top: initial;
     bottom: 70px;
-    background-color: #fff;
+    background-color: var(--color-white);
     z-index: 100;
-    border-radius: var(--br-default);
+    border-radius: var(--rounded-default);
     border: none;
     opacity: 0;
     visibility: hidden;

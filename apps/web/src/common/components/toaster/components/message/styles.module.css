@@ -2,32 +2,30 @@
   position: relative;
   border-radius: 6px;
   padding: 15px 60px 15px 20px;
-  background-color: var(--gray-light);
+  background-color: var(--color-gray-light);
   cursor: pointer;
   animation-name: slide;
   animation-duration: 500ms;
   width: 100%;
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .error_message {
   color: white;
-  background-color: var(--red);
+  background-color: var(--color-red-primary);
 }
 
 .success_message {
   color: white;
-  background-color: var(--green-success);
+  background-color: var(--color-green-primary);
 }
 
 .info_message {
-  background-color: var(--purple-light);
+  background-color: var(--color-purple-light);
 }
 
 .warning_message {
-  background-color: var(--yellow-sand);
+  background-color: var(--color-yellow-light);
 }
 
 .body {
@@ -45,11 +43,11 @@
 }
 
 .warning_message .type_icon {
-  color: var(--yellow-gold);
+  color: var(--color-yellow-primary);
 }
 
 .info_message .type_icon {
-  color: var(--purple-dark);
+  color: var(--color-purple-primary);
 }
 
 .close_icon {

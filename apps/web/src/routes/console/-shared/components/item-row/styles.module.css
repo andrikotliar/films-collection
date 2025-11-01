@@ -1,20 +1,20 @@
 .item_row {
-  border-bottom: var(--b-default);
+  border-bottom: var(--border-default);
   padding: 14px;
-  transition: background-color var(--t-timing);
+  transition: background-color var(--transition-timing);
 }
 
 .item_row:first-child {
-  border-radius: var(--br-default) var(--br-default) 0 0;
+  border-radius: var(--rounded-default) var(--rounded-default) 0 0;
 }
 
 .item_row:last-child {
   border: 0;
-  border-radius: 0 0 var(--br-default) var(--br-default);
+  border-radius: 0 0 var(--rounded-default) var(--rounded-default);
 }
 
 .item_row:hover {
-  background-color: var(--gray-extra-light);
+  background-color: var(--color-gray-extra-light);
 }
 
 .item_row_content {
@@ -37,7 +37,7 @@
 }
 
 .description {
-  font-size: var(--fz-xs);
-  color: var(--gray-dark);
+  font-size: var(--text-xs);
+  color: var(--color-gray-dark);
   margin-top: 5px;
 }

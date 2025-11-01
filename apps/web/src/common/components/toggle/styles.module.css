@@ -13,8 +13,8 @@
   position: relative;
   width: 40px;
   height: 21px;
-  border: var(--b-default);
-  background-color: var(--gray);
+  border: var(--border-default);
+  background-color: var(--color-gray-primary);
   border-radius: 50px;
   overflow: hidden;
   flex-shrink: 0;
@@ -39,11 +39,11 @@
 }
 
 .wrapper:hover .title {
-  color: var(--blue-default);
+  color: var(--color-blue-primary);
 }
 
 .checkbox:checked + .toggle {
-  background-color: var(--blue-default);
+  background-color: var(--color-blue-primary);
 }
 
 .checkbox:checked + .toggle::after {

@@ -5,12 +5,12 @@
 }
 
 .empty {
-  background-color: var(--gray);
+  background-color: var(--color-gray-primary);
   width: 100%;
   height: 100%;
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
 }
 
 .poster {
-  border-radius: var(--br-default);
+  border-radius: var(--rounded-default);
 }
