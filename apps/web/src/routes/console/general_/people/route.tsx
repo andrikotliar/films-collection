@@ -1,14 +1,17 @@
 import {
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
   Pagination,
   PEOPLE_ADMIN_PER_PAGE,
   fetchAdminPeopleListQuery,
   useDeletePerson,
   type PersonMutationPayload,
 } from '~/common';
-import { List, FormModal, PersonForm, AddItemButton } from '~/routes/console/-shared';
+import {
+  List,
+  FormModal,
+  PersonForm,
+  AddItemButton,
+  ConsoleContentLayout,
+} from '~/routes/console/-shared';
 import { Filters } from '~/routes/console/general_/people/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
@@ -55,9 +58,11 @@ function RouteComponent() {
   const { mutateAsync: deletePerson, isPending: isDeleting } = useDeletePerson();
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/general">Back to categories</BackLink>
-      <ConsoleTitle>Crew and Cast</ConsoleTitle>
+    <ConsoleContentLayout
+      title="Crew and cast"
+      backPath="/console/general"
+      backPathTitle="Back to categories"
+    >
       <AddItemButton onClick={() => setPerson(personDefaultValues)}>
         Add crew or cast member
       </AddItemButton>
@@ -82,6 +87,6 @@ function RouteComponent() {
         afterSubmitEffect={() => setPerson(null)}
         form={PersonForm}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

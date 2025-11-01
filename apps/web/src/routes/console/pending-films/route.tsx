@@ -6,8 +6,6 @@ import {
   fetchPendingFilmsListQuery,
   NEW_ITEM_ID,
   PENDING_FILMS_PER_PAGE,
-  ConsoleContent,
-  ConsoleTitle,
   Pagination,
   useDeletePendingFilm,
   type PendingFilm,
@@ -15,7 +13,7 @@ import {
   type PendingFilmMutationPayload,
 } from '~/common';
 import { Filters, PendingFilmForm } from './-components';
-import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
+import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { defaultPendingFilm } from '~/routes/console/pending-films/-configs';
 
 const pendingFilmsFilterSchema = yup.object().shape({
@@ -69,8 +67,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContent>
-      <ConsoleTitle>Pending Films</ConsoleTitle>
+    <ConsoleContentLayout title="Pending films">
       <AddItemButton onClick={() => setPendingFilm(defaultPendingFilm)}>
         Create pending film
       </AddItemButton>
@@ -100,6 +97,6 @@ function PageContainer() {
         onClose={() => setPendingFilm(null)}
         form={PendingFilmForm}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

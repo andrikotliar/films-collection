@@ -4,15 +4,13 @@ import {
   getDateMonthLabel,
   type CollectionEventFilled,
   Button,
-  ConsoleContent,
-  ConsoleTitle,
   useDeleteCollectionEvent,
   type CollectionEventMutationPayload,
 } from '~/common';
 import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { FormModal, List } from '~/routes/console/-shared';
+import { ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { getDefaultValues } from '~/routes/console/collection-events/-configs';
 import { PlusIcon } from 'lucide-react';
 
@@ -33,8 +31,7 @@ const CollectionEventsContainer = () => {
   };
 
   return (
-    <ConsoleContent>
-      <ConsoleTitle>Collection Events</ConsoleTitle>
+    <ConsoleContentLayout title="Collection Events">
       <div>
         <Button
           icon={<PlusIcon />}
@@ -57,7 +54,7 @@ const CollectionEventsContainer = () => {
         form={CollectionEventForm}
         afterSubmitEffect={() => setFormValues(null)}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 };
 

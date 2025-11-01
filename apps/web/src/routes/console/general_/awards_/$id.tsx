@@ -1,17 +1,11 @@
 import { useMemo } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
-  Panel,
-  fetchAwardByIdQuery,
-  NEW_ITEM_ID,
-} from '~/common';
+import { Panel, fetchAwardByIdQuery, NEW_ITEM_ID } from '~/common';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
+import { ConsoleContentLayout } from '~/routes/console/-shared';
 
 export const Route = createFileRoute('/console/general_/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
@@ -34,12 +28,10 @@ function PageContainer() {
   const pageTitle = getFormTitle(defaultValues, 'Award');
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/general/awards">Back to list</BackLink>
-      <ConsoleTitle>{pageTitle}</ConsoleTitle>
+    <ConsoleContentLayout title={pageTitle} backPath="/console/general/awards">
       <Panel>
         <AwardForm values={defaultValues} />
       </Panel>
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

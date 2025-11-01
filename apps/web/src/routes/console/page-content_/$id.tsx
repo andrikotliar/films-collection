@@ -2,9 +2,6 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import sanitize from 'sanitize-html';
 import {
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
   Form,
   FormTextEditor,
   FormTextInput,
@@ -16,6 +13,7 @@ import {
   fetchPageContentByIdQuery,
   isNewItem,
 } from '~/common';
+import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { getDefaultFormValues } from '~/routes/console/page-content_/-helpers';
 import { pageContentFormValidation } from '~/routes/console/page-content_/-validation';
 
@@ -49,9 +47,7 @@ function RouteComponent() {
   };
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/page-content">Back to list</BackLink>
-      <ConsoleTitle>{title}</ConsoleTitle>
+    <ConsoleContentLayout title={title} backPath="/console/page-content">
       <Panel>
         <Form
           onSubmit={handleSubmit}
@@ -64,6 +60,6 @@ function RouteComponent() {
           <FormTextInput name="pageKey" label="Page Key" />
         </Form>
       </Panel>
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

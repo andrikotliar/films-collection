@@ -1,15 +1,8 @@
 import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
-  fetchStudiosListQuery,
-  useDeleteStudio,
-  type StudioMutationPayload,
-} from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
+import { fetchStudiosListQuery, useDeleteStudio, type StudioMutationPayload } from '~/common';
+import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/general_/studios/-components';
 import { studioInitialValues } from '~/routes/console/general_/studios/-configs';
 
@@ -28,9 +21,11 @@ function PageContainer() {
   const { mutateAsync: deleteStudio, isPending: isDeletePending } = useDeleteStudio();
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/general">Back to categories</BackLink>
-      <ConsoleTitle>Studios</ConsoleTitle>
+    <ConsoleContentLayout
+      title="Studios"
+      backPath="/console/general"
+      backPathTitle="Back to categories"
+    >
       <AddItemButton onClick={() => setStudio(studioInitialValues)}>Create studio</AddItemButton>
       <List
         items={data}
@@ -44,6 +39,6 @@ function PageContainer() {
         afterSubmitEffect={() => setStudio(null)}
         form={StudioForm}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

@@ -5,3 +5,5 @@ export * from './list/list';
 export * from './array-form-wrapper/array-form-wrapper';
 export * from './array-field-wrapper/array-field-wrapper';
 export * from './add-item-button/add-item-button';
+export * from './console-root-layout/console-root-layout';
+export * from './console-content-layout/console-content-layout';

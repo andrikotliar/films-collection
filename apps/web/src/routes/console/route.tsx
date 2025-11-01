@@ -1,5 +1,6 @@
-import { getAuthState, ConsoleLayout } from '~/common';
+import { getAuthState } from '~/common';
 import { createFileRoute, redirect } from '@tanstack/react-router';
+import { ConsoleRootLayout } from '~/routes/console/-shared';
 
 export const Route = createFileRoute('/console')({
   beforeLoad: async () => {
@@ -9,5 +10,5 @@ export const Route = createFileRoute('/console')({
       throw redirect({ to: '/login' });
     }
   },
-  component: ConsoleLayout,
+  component: ConsoleRootLayout,
 });

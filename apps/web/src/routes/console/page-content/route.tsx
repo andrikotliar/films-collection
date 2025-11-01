@@ -3,8 +3,6 @@ import sanitize from 'sanitize-html';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {
-  ConsoleContent,
-  ConsoleTitle,
   Panel,
   Pagination,
   useDeletePageContent,
@@ -14,7 +12,7 @@ import {
   PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
 } from '~/common';
-import { AddItemLink, List } from '~/routes/console/-shared';
+import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 
 const pageContentListFiltersSchema = yup.object().shape({
   pageIndex: yup.number(),
@@ -61,8 +59,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContent>
-      <ConsoleTitle>Pages Content</ConsoleTitle>
+    <ConsoleContentLayout title="Pages Content">
       <AddItemLink to="/console/page-content/$id" params={{ id: NEW_ITEM_ID }}>
         Add new page content
       </AddItemLink>
@@ -87,6 +84,6 @@ function PageContainer() {
         currentPageIndex={searchParams.pageIndex}
         totalLabel="pages content"
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

@@ -1,6 +1,6 @@
-import { ConsoleContent, ConsoleTitle } from '~/common';
 import { GeneralPagesMenu } from '~/routes/console/general/-components';
 import { createFileRoute } from '@tanstack/react-router';
+import { ConsoleContentLayout } from '~/routes/console/-shared';
 
 export const Route = createFileRoute('/console/general')({
   component: PageContainer,
@@ -8,9 +8,8 @@ export const Route = createFileRoute('/console/general')({
 
 function PageContainer() {
   return (
-    <ConsoleContent>
-      <ConsoleTitle>General data</ConsoleTitle>
+    <ConsoleContentLayout title="General data">
       <GeneralPagesMenu />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

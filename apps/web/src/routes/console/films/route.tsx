@@ -6,14 +6,12 @@ import {
   type FilmsAdminListItem,
   useDeleteFilm,
   useDocumentTitle,
-  ConsoleContent,
-  ConsoleTitle,
   Pagination,
 } from '~/common';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import * as yup from 'yup';
-import { AddItemLink, List } from '~/routes/console/-shared';
+import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components';
 
 const adminFilmsFilterSchema = yup.object().shape({
@@ -73,8 +71,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContent>
-      <ConsoleTitle>Films</ConsoleTitle>
+    <ConsoleContentLayout title="Films">
       <AddItemLink to="/console/films/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>
@@ -93,6 +90,6 @@ function PageContainer() {
         currentPageIndex={searchParams.pageIndex}
         totalLabel="films"
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

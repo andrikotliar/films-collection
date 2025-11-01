@@ -9,7 +9,7 @@ import {
   useCloseOnScroll,
 } from '~/common';
 
-export const ConsoleLayout = () => {
+export const ConsoleRootLayout = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
   const menuContainerRef = useRef<HTMLDivElement>(null);
 

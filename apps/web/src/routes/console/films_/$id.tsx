@@ -7,12 +7,10 @@ import {
   fetchPendingFilmQuery,
   isNewItem,
   NEW_ITEM_ID,
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
   Panel,
   LocalStorage,
 } from '~/common';
+import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
 import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 import type { FilmFormValues } from '~/routes/console/films_/-types';
@@ -76,12 +74,10 @@ function PageContainer() {
   }, [id, pendingFilm]);
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/films">Back to list</BackLink>
-      <ConsoleTitle>{pageTitle}</ConsoleTitle>
+    <ConsoleContentLayout title={pageTitle} backPath="/console/films">
       <Panel>
         <FilmForm values={defaultValues} />
       </Panel>
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

@@ -1,15 +1,12 @@
 import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { AddItemLink, List } from '~/routes/console/-shared';
+import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 import {
   type Award,
   NEW_ITEM_ID,
   fetchAwardsBaseDataListQuery,
-  BackLink,
   ConfirmModal,
-  ConsoleContent,
-  ConsoleTitle,
   useDeleteAward,
 } from '~/common';
 
@@ -38,9 +35,11 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/general">Back to categories</BackLink>
-      <ConsoleTitle>Awards</ConsoleTitle>
+    <ConsoleContentLayout
+      title="Awards"
+      backPath="/console/general"
+      backPathTitle="Back to categories"
+    >
       <AddItemLink to="/console/general/awards/$id" params={{ id: NEW_ITEM_ID }}>
         Create award
       </AddItemLink>
@@ -53,6 +52,6 @@ function PageContainer() {
         onConfirm={(data) => deleteAward(data.id)}
         isPending={isDeleting}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

@@ -5,11 +5,8 @@ import {
   fetchCollectionsListQuery,
   useDeleteCollection,
   type CollectionMutationPayload,
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
 } from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
+import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { CollectionForm } from '~/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '~/routes/console/general_/collections/-configs';
 
@@ -28,9 +25,11 @@ function PageContainer() {
   const { mutateAsync: deleteCollection, isPending: isDeleting } = useDeleteCollection();
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/general">Back to categories</BackLink>
-      <ConsoleTitle>Collections</ConsoleTitle>
+    <ConsoleContentLayout
+      title="Collections"
+      backPath="/console/general"
+      backPathTitle="Back to categories"
+    >
       <AddItemButton onClick={() => setCollection(collectionFormDefaultValues)}>
         Add collection
       </AddItemButton>
@@ -46,6 +45,6 @@ function PageContainer() {
         form={CollectionForm}
         afterSubmitEffect={() => setCollection(null)}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }

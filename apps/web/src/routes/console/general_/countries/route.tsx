@@ -1,12 +1,5 @@
-import {
-  fetchCountriesListQuery,
-  type CountryMutationPayload,
-  useDeleteCountry,
-  BackLink,
-  ConsoleContent,
-  ConsoleTitle,
-} from '~/common';
-import { AddItemButton, FormModal, List } from '~/routes/console/-shared';
+import { fetchCountriesListQuery, type CountryMutationPayload, useDeleteCountry } from '~/common';
+import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
@@ -27,9 +20,11 @@ function PageContainer() {
   const { mutateAsync: deleteCountry, isPending: isDeletePending } = useDeleteCountry();
 
   return (
-    <ConsoleContent>
-      <BackLink path="/console/general">Back to categories</BackLink>
-      <ConsoleTitle>Countries</ConsoleTitle>
+    <ConsoleContentLayout
+      title="Countries"
+      backPath="/console/general"
+      backPathTitle="Back to categories"
+    >
       <AddItemButton onClick={() => setCountry(countryDefaultValues)}>Add country</AddItemButton>
       <List
         items={data}
@@ -43,6 +38,6 @@ function PageContainer() {
         afterSubmitEffect={() => setCountry(null)}
         form={CountryForm}
       />
-    </ConsoleContent>
+    </ConsoleContentLayout>
   );
 }
