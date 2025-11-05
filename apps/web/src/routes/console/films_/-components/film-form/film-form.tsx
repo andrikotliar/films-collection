@@ -1,28 +1,15 @@
-import {
-  FormCheckboxesGroup,
-  FormTextInput,
-  FormTextEditor,
-  FormRatingInput,
-  FormDatePicker,
-  FormCheckbox,
-  FormSelect,
-  FormFileInput,
-  Form,
-  fetchInitialDataQuery,
-  type PersonMutationPayload,
-} from '~/common';
-import {
-  AwardsSelect,
-  ChapterSelect,
-  CastAndCrewSelect,
-  TrailersSelect,
-  FilmValuesWatcher,
-} from './components';
+import { useState } from 'react';
+import { Form, fetchInitialDataQuery, type PersonMutationPayload } from '~/common';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { filmFormSchema } from '~/routes/console/films_/-validation/film-form-schema';
-import { useState } from 'react';
+import { filmFormSchema } from '~/routes/console/films_/-validation';
 import { FormModal, PersonForm } from '~/routes/console/-shared';
+import {
+  AwardsSelect,
+  CastAndCrewSelect,
+  FilmValuesWatcher,
+  TrailersSelect,
+} from '~/routes/console/films_/-components/film-form/components';
 
 type Props = {
   values: FilmFormValues;
@@ -46,53 +33,52 @@ export const FilmForm = ({ values }: Props) => {
         onReset={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         shouldShowResetButton
       >
-        <FormTextInput name="title" label="Title" />
-        <FormCheckboxesGroup
+        <Form.TextInput name="title" label="Title" />
+        <Form.CheckboxesGroup
           label="Type"
           name="type"
           options={initialOptions.options.types}
           type="radio"
         />
-        <FormCheckboxesGroup
+        <Form.CheckboxesGroup
           label="Styles"
           name="style"
           options={initialOptions.options.styles}
           type="radio"
         />
-        <FormRatingInput name="rating" label="Rating" size={3} />
-        <FormFileInput label="Poster" name="poster" />
-        <FormSelect label="Genres" name="genres" options={initialOptions.options.genres} isMulti />
-        <FormSelect
+        <Form.RatingInput name="rating" label="Rating" size={3} />
+        <Form.FileInput label="Poster" name="poster" />
+        <Form.Select label="Genres" name="genres" options={initialOptions.options.genres} isMulti />
+        <Form.Select
           label="Countries"
           name="countries"
           options={initialOptions.options.countries}
           isMulti
         />
-        <FormSelect
+        <Form.Select
           label="Studios"
           name="studios"
           options={initialOptions.options.studios}
           isMulti
         />
-        <FormSelect
+        <Form.Select
           label="Collections"
           name="collections"
           options={initialOptions.options.collections}
           isMulti
         />
-        <FormTextInput name="runtime" type="number" label="Runtime (min)" min="0" />
-        <FormDatePicker name="releaseDate" label="Release Date" />
-        <FormTextInput name="budget" label="Budget" type="number" min="0" />
-        <FormTextInput name="boxOffice" label="Box Office" type="number" min="0" />
-        <FormTextEditor name="description" label="Description" />
+        <Form.TextInput name="runtime" type="number" label="Runtime (min)" min="0" />
+        <Form.DatePicker name="releaseDate" label="Release Date" />
+        <Form.TextInput name="budget" label="Budget" type="number" min="0" />
+        <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
+        <Form.TextEditor name="description" label="Description" />
         <CastAndCrewSelect
           positionOptions={initialOptions.options.roles}
           onPersonChange={setPerson}
         />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
         <TrailersSelect />
-        <ChapterSelect filmId={values.id} />
-        <FormCheckbox name="isDraft" type="checkbox" label="Draft" />
+        <Form.Checkbox name="isDraft" type="checkbox" label="Draft" />
         <FilmValuesWatcher id={values.id} />
       </Form>
       <FormModal

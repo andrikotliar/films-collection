@@ -1,5 +1,4 @@
-import { ArrayFormWrapper } from '~/routes/console/-shared';
-import { FormSection, FormVideoInput, SortableList } from '~/common';
+import { SortableList, Form } from '~/common';
 import { type DragEndEvent } from '@dnd-kit/core';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 
@@ -38,12 +37,12 @@ export const TrailersSelect = () => {
   };
 
   return (
-    <FormSection label={`Trailers (${trailers.length})`}>
-      <ArrayFormWrapper onCreate={handleAddNewTrailer}>
+    <Form.Section label={`Trailers (${trailers.length})`}>
+      <Form.ArrayWrapper onCreate={handleAddNewTrailer}>
         <SortableList items={trailers} onDragEnd={handleDragEnd}>
           {trailers.map((trailer, index) => (
             <SortableList.Item id={trailer.id} key={trailer.id}>
-              <FormVideoInput
+              <Form.VideoInput
                 name={`trailers.${index}.videoId`}
                 label={`${trailerLabel} ${index + 1}`}
                 onRemove={() => removeTrailer(index)}
@@ -51,7 +50,7 @@ export const TrailersSelect = () => {
             </SortableList.Item>
           ))}
         </SortableList>
-      </ArrayFormWrapper>
-    </FormSection>
+      </Form.ArrayWrapper>
+    </Form.Section>
   );
 };

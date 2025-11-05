@@ -1,6 +1,6 @@
 import { FieldLabel } from '~/common/components/field-label/field-label';
 import { monthOptions } from '~/common/components/month-date-selector/configs';
-import { Select } from '~/common/components/select';
+import { Select } from '~/common/components/select/select';
 import styles from './styles.module.css';
 import clsx from 'clsx';
 import { getDateCode, getDateCodeParts, getDefaultDateCode, type FormError } from '~/common';

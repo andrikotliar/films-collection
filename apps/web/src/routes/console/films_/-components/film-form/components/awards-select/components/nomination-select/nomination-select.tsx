@@ -1,13 +1,7 @@
 import styles from './styles.module.css';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import {
-  fetchNominationsByAwardQuery,
-  FieldError,
-  FormAsyncSelect,
-  FormSelect,
-  Loader,
-} from '~/common';
+import { fetchNominationsByAwardQuery, FieldError, Form, Loader } from '~/common';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { PeopleApi } from '~/api';
 
@@ -44,9 +38,9 @@ export const NominationSelect = ({ index }: Props) => {
 
   return (
     <div className={styles.wrapper}>
-      <FormSelect name={`awards.${index}.nominationId`} options={data} label="Nomination" />
+      <Form.Select name={`awards.${index}.nominationId`} options={data} label="Nomination" />
       {shouldShowActorSelect && (
-        <FormAsyncSelect
+        <Form.AsyncSelect
           name={`awards.${index}.personId`}
           optionsLoader={PeopleApi.searchByName}
           label="Person"

@@ -1,11 +1,6 @@
 import styles from './styles.module.css';
 import { useFormContext } from 'react-hook-form';
-import {
-  FieldLabel,
-  FormCheckbox,
-  FormMonthDateSelector,
-  type CollectionEventMutationPayload,
-} from '~/common';
+import { FieldLabel, Form, type CollectionEventMutationPayload } from '~/common';
 
 export const Dates = () => {
   const { watch } = useFormContext<CollectionEventMutationPayload>();
@@ -17,16 +12,16 @@ export const Dates = () => {
       <div className={styles.column}>
         <div className={styles.date_field}>
           <FieldLabel>Start Date</FieldLabel>
-          <FormCheckbox name="isOneDayEvent" type="checkbox" label="One day event" />
+          <Form.Checkbox name="isOneDayEvent" type="checkbox" label="One day event" />
         </div>
-        <FormMonthDateSelector name="startDateCode" />
+        <Form.MonthDateSelector name="startDateCode" />
       </div>
       {!isOneDayEvent && (
         <div className={styles.column}>
           <div className={styles.date_field}>
             <FieldLabel>End Date</FieldLabel>
           </div>
-          <FormMonthDateSelector name="endDateCode" />
+          <Form.MonthDateSelector name="endDateCode" />
         </div>
       )}
     </div>

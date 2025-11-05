@@ -1,4 +1,4 @@
-import { FormCheckbox, FormGroup, FormDateRange, type FilterItem } from '~/common';
+import { Form, type FilterItem } from '~/common';
 
 type Props = {
   filter: FilterItem;
@@ -8,9 +8,9 @@ export const FilterOptions = ({ filter }: Props) => {
   switch (filter.type) {
     case 'checkmark':
       return (
-        <FormGroup title={filter.title}>
+        <Form.Group title={filter.title}>
           {filter.options.map((option) => (
-            <FormCheckbox
+            <Form.Checkbox
               type={filter.inputType}
               label={option.label}
               value={option.value}
@@ -18,17 +18,17 @@ export const FilterOptions = ({ filter }: Props) => {
               key={option.value}
             />
           ))}
-        </FormGroup>
+        </Form.Group>
       );
 
     case 'daterange':
-      return <FormDateRange title={filter.title} inputs={filter.inputs} />;
+      return <Form.DateRange title={filter.title} inputs={filter.inputs} />;
 
     case 'nested':
       return (
-        <FormGroup title={filter.title}>
+        <Form.Group title={filter.title}>
           {filter.options.map((option) => (
-            <FormCheckbox
+            <Form.Checkbox
               type="checkbox"
               label={option.label}
               name={option.id}
@@ -36,7 +36,7 @@ export const FilterOptions = ({ filter }: Props) => {
               rightIcon={option.icon}
             />
           ))}
-        </FormGroup>
+        </Form.Group>
       );
 
     default:

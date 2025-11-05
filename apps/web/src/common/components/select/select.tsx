@@ -13,7 +13,7 @@ import {
   SelectedOption,
   TriggerButton,
 } from './components';
-import { getValue } from './helpers';
+import { getSelectValue } from './helpers';
 
 export type SelectProps = {
   label?: string;
@@ -49,7 +49,7 @@ export const Select = ({
   onClear,
 }: SelectProps) => {
   const selectedValues = useMemo(() => {
-    return getValue(value);
+    return getSelectValue(value);
   }, [value]);
 
   const buttonRef = useRef<HTMLButtonElement>(null);

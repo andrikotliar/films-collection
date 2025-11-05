@@ -2,14 +2,7 @@ import styles from './styles.module.css';
 import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
-import {
-  Button,
-  ConfirmModal,
-  FormSection,
-  FormTextInput,
-  FormToggle,
-  type AwardMutationPayload,
-} from '~/common';
+import { Button, ConfirmModal, Form, type AwardMutationPayload } from '~/common';
 import { nominationDefaultValues } from '~/routes/console/general_/awards_/-configs';
 
 export const NominationsForm = () => {
@@ -23,15 +16,15 @@ export const NominationsForm = () => {
   });
 
   return (
-    <FormSection label="Nominations">
+    <Form.Section label="Nominations">
       <div className={styles.nominations_form}>
         {fields.map((_, index) => (
           <div className={styles.nomination} key={index}>
             <div className={styles.nomination_title}>
-              <FormTextInput name={`nominations.${index}.title`} label="Nomination title" />
+              <Form.TextInput name={`nominations.${index}.title`} label="Nomination title" />
             </div>
             <div className={styles.nomination_toggle}>
-              <FormToggle
+              <Form.Toggle
                 title="Should include actor"
                 name={`nominations.${index}.shouldIncludeActor`}
               />
@@ -62,6 +55,6 @@ export const NominationsForm = () => {
           }}
         />
       </div>
-    </FormSection>
+    </Form.Section>
   );
 };

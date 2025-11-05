@@ -1,6 +1,5 @@
 import {
   Form,
-  FormTextInput,
   useMutateCountry,
   type CountryMutationPayload,
   type FormComponentProps,
@@ -28,7 +27,7 @@ export const CountryForm = ({ values, afterSubmitEffect }: CountryFormProps) => 
       isLoading={isPending}
       title={title}
     >
-      <FormTextInput name="title" label="Title" />
+      <Form.TextInput name="title" label="Title" />
     </Form>
   );
 };

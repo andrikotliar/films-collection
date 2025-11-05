@@ -1,10 +1,4 @@
-import {
-  Form,
-  FormTextInput,
-  useMutateGenre,
-  type FormComponentProps,
-  type GenreMutationPayload,
-} from '~/common';
+import { Form, useMutateGenre, type FormComponentProps, type GenreMutationPayload } from '~/common';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { genresFormValidation } from '~/routes/console/general_/genres/-validation';
 
@@ -28,7 +22,7 @@ export const GenresForm = ({ values, afterSubmitEffect }: GenresFormProps) => {
       schema={genresFormValidation}
       isLoading={isPending}
     >
-      <FormTextInput name="title" label="Title" />
+      <Form.TextInput name="title" label="Title" />
     </Form>
   );
 };

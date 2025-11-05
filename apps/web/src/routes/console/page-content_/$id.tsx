@@ -3,8 +3,6 @@ import { createFileRoute } from '@tanstack/react-router';
 import sanitize from 'sanitize-html';
 import {
   Form,
-  FormTextEditor,
-  FormTextInput,
   Panel,
   useMutatePageContent,
   type PageContentMutationPayload,
@@ -55,9 +53,9 @@ function RouteComponent() {
           schema={pageContentFormValidation}
           isLoading={isPending}
         >
-          <FormTextInput name="title" label="Title" />
-          <FormTextEditor name="content" label="Content" />
-          <FormTextInput name="pageKey" label="Page Key" />
+          <Form.TextInput name="title" label="Title" />
+          <Form.TextEditor name="content" label="Content" />
+          <Form.TextInput name="pageKey" label="Page Key" />
         </Form>
       </Panel>
     </ConsoleContentLayout>

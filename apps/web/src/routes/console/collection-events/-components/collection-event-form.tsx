@@ -1,7 +1,4 @@
 import {
-  FormTextInput,
-  FormSelect,
-  FormAsyncSelect,
   Form,
   fetchInitialDataQuery,
   type FormComponentProps,
@@ -39,15 +36,15 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
       schema={collectionEventSchema}
       isLoading={isPending}
     >
-      <FormTextInput name="title" label="Title" />
-      <FormSelect
+      <Form.TextInput name="title" label="Title" />
+      <Form.Select
         label="Collection"
         options={data?.options.collections ?? []}
         name="collectionId"
       />
       <Dates />
-      <FormAsyncSelect name="titleFilmId" optionsLoader={FilmsApi.getOptions} label="Title film" />
-      <FormTextInput name="yearFrom" label="First event occurrence year" placeholder="E.g. 2020" />
+      <Form.AsyncSelect name="titleFilmId" optionsLoader={FilmsApi.getOptions} label="Title film" />
+      <Form.TextInput name="yearFrom" label="First event occurrence year" placeholder="E.g. 2020" />
     </Form>
   );
 };

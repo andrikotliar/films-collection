@@ -4,9 +4,6 @@ import {
   useMutateCollection,
   type CollectionMutationPayload,
   Form,
-  FormSelect,
-  FormTextArea,
-  FormTextInput,
 } from '~/common';
 import { useQuery } from '@tanstack/react-query';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
@@ -34,14 +31,14 @@ export const CollectionForm = ({ values, afterSubmitEffect }: CollectionFormProp
       schema={collectionSchema}
       isLoading={isPending}
     >
-      <FormTextInput type="text" name="title" label="Title" />
-      <FormSelect
+      <Form.TextInput type="text" name="title" label="Title" />
+      <Form.Select
         label="Category"
         options={data?.options.collectionCategories ?? []}
         name="category"
         isSearchable={false}
       />
-      <FormTextArea label="Description" name="description" />
+      <Form.TextArea label="Description" name="description" />
     </Form>
   );
 };

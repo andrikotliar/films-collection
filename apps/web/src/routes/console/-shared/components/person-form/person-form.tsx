@@ -1,7 +1,6 @@
 import {
   type FormComponentProps,
   Form,
-  FormTextInput,
   useMutatePerson,
   type PersonMutationPayload,
 } from '~/common';
@@ -28,7 +27,7 @@ export const PersonForm = ({ values, afterSubmitEffect }: PersonFormProps) => {
       title={title}
       isLoading={isPending}
     >
-      <FormTextInput name="name" label="Person name" />
+      <Form.TextInput name="name" label="Person name" />
     </Form>
   );
 };

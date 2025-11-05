@@ -1,26 +1,17 @@
-import {
-  closestCenter,
-  DndContext,
-  DragEndEvent,
-  UniqueIdentifier,
-} from '@dnd-kit/core';
-import {
-  SortableContext,
-  verticalListSortingStrategy,
-} from '@dnd-kit/sortable';
+import { type PropsWithChildren } from 'react';
+import { closestCenter, DndContext, type DragEndEvent, type UniqueIdentifier } from '@dnd-kit/core';
+import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import { SortableItem } from './components';
-import { ReactNode } from 'react';
 
 type ListItem = {
   id: UniqueIdentifier;
   [key: string]: unknown;
 };
 
-type SortableListProps<T extends ListItem> = {
+type SortableListProps<T extends ListItem> = PropsWithChildren<{
   items: T[];
-  children: ReactNode;
   onDragEnd: (event: DragEndEvent) => void;
-};
+}>;
 
 export const SortableList = <T extends ListItem>({
   items,

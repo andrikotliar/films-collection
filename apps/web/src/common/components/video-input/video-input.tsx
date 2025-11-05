@@ -1,11 +1,11 @@
 import { type FocusEventHandler, forwardRef, useEffect, useState } from 'react';
-import { TextInput, type TextInputProps } from '../text-input';
 import { VideoPreview } from './components';
-import { YOUTUBE_VIDEO_DIRECT_URL } from '~/common';
 import styles from './styles.module.css';
 import { Button } from '~/common/components/button/button';
 import { Trash2Icon } from 'lucide-react';
 import { FieldLabel } from '~/common/components/field-label/field-label';
+import { YOUTUBE_VIDEO_DIRECT_URL } from '~/common/constants';
+import { TextInput, type TextInputProps } from '~/common/components/text-input/text-input';
 
 export type VideoInputProps = {
   label?: string;

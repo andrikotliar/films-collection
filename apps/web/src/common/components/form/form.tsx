@@ -5,7 +5,28 @@ import type { ObjectSchema } from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Button } from '~/common/components/button/button';
 import { SaveIcon } from 'lucide-react';
-import { FormTitle } from '~/common/components/form-title/form-title';
+import {
+  FormArrayFieldWrapper,
+  FormArrayWrapper,
+  FormAsyncSelect,
+  FormCheckbox,
+  FormCheckboxesGroup,
+  FormDatePicker,
+  FormDateRange,
+  FormFileInput,
+  FormGroup,
+  FormMonthDateSelector,
+  FormRatingInput,
+  FormSection,
+  FormSelect,
+  FormStatusFilterButton,
+  FormTextArea,
+  FormTextEditor,
+  FormTextInput,
+  FormTitle,
+  FormToggle,
+  FormVideoInput,
+} from '~/common/components/form/components';
 
 type FormProps<
   TDefaultValues extends Record<PropertyKey, unknown>,
@@ -67,3 +88,24 @@ export const Form = <
     </FormProvider>
   );
 };
+
+Form.ArrayFieldWrapper = FormArrayFieldWrapper;
+Form.ArrayWrapper = FormArrayWrapper;
+Form.AsyncSelect = FormAsyncSelect;
+Form.Checkbox = FormCheckbox;
+Form.CheckboxesGroup = FormCheckboxesGroup;
+Form.DatePicker = FormDatePicker;
+Form.DateRange = FormDateRange;
+Form.FileInput = FormFileInput;
+Form.Group = FormGroup;
+Form.MonthDateSelector = FormMonthDateSelector;
+Form.RatingInput = FormRatingInput;
+Form.Section = FormSection;
+Form.Select = FormSelect;
+Form.StatusFilterButton = FormStatusFilterButton;
+Form.TextArea = FormTextArea;
+Form.TextEditor = FormTextEditor;
+Form.TextInput = FormTextInput;
+Form.Title = FormTitle;
+Form.Toggle = FormToggle;
+Form.VideoInput = FormVideoInput;

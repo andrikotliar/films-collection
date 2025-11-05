@@ -1,6 +1,5 @@
 import {
   Form,
-  FormTextInput,
   type FormComponentProps,
   type StudioMutationPayload,
   useMutateStudio,
@@ -28,7 +27,7 @@ export const StudioForm = ({ values, afterSubmitEffect }: StudioFormProps) => {
       defaultValues={values}
       schema={studioFormValidation}
     >
-      <FormTextInput name="title" label="Title" />
+      <Form.TextInput name="title" label="Title" />
     </Form>
   );
 };

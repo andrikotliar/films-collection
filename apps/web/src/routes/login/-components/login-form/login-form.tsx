@@ -1,6 +1,5 @@
 import {
   type LoginPayload,
-  FormTextInput,
   FormPasswordInput,
   Logo,
   Form,
@@ -30,7 +29,7 @@ export const LoginForm = () => {
       <CenteredBlock>
         <Logo width={120} />
       </CenteredBlock>
-      <FormTextInput name="username" label="Username" />
+      <Form.TextInput name="username" label="Username" />
       <FormPasswordInput name="password" label="Password" />
     </Form>
   );

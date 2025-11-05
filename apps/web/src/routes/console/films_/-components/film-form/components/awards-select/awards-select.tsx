@@ -1,7 +1,6 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import type { FormAward, FilmFormValues } from '~/routes/console/films_/-types';
-import { type ListOption, FormSection, FormSelect, FormTextInput } from '~/common';
-import { ArrayFormWrapper, ArrayFieldWrapper } from '~/routes/console/-shared';
+import { type ListOption, Form } from '~/common';
 import { NominationSelect } from './components';
 
 type Props = {
@@ -24,16 +23,16 @@ export const AwardsSelect = ({ awardOptions }: Props) => {
   });
 
   return (
-    <FormSection label="Awards">
-      <ArrayFormWrapper onCreate={() => append(defaultAward)}>
+    <Form.Section label="Awards">
+      <Form.ArrayWrapper onCreate={() => append(defaultAward)}>
         {fields.map((field, index) => (
-          <ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
-            <FormSelect name={`awards.${index}.awardId`} options={awardOptions} label="Award" />
+          <Form.ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
+            <Form.Select name={`awards.${index}.awardId`} options={awardOptions} label="Award" />
             <NominationSelect index={index} />
-            <FormTextInput name={`awards.${index}.comment`} label="Comment" />
-          </ArrayFieldWrapper>
+            <Form.TextInput name={`awards.${index}.comment`} label="Comment" />
+          </Form.ArrayFieldWrapper>
         ))}
-      </ArrayFormWrapper>
-    </FormSection>
+      </Form.ArrayWrapper>
+    </Form.Section>
   );
 };

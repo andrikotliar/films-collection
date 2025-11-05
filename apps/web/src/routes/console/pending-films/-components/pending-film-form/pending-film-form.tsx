@@ -1,10 +1,6 @@
 import styles from './styles.module.css';
 import {
-  FormTextInput,
-  FormStatusFilterButton,
   FieldLabel,
-  FormSelect,
-  FormRatingInput,
   Form,
   fetchInitialDataQuery,
   priorityOptions,
@@ -39,12 +35,12 @@ export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormPr
       title={title}
       isLoading={isPending}
     >
-      <FormTextInput name="title" label="Title" />
+      <Form.TextInput name="title" label="Title" />
       <div>
         <FieldLabel>Priority</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (
-            <FormStatusFilterButton
+            <Form.StatusFilterButton
               name="priority"
               title={option.label}
               value={String(option.value)}
@@ -54,12 +50,12 @@ export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormPr
           ))}
         </div>
       </div>
-      <FormSelect
+      <Form.Select
         name="collectionId"
         options={data?.options.collections ?? []}
         label="Collection"
       />
-      <FormRatingInput name="rating" size={3} label="Rating" />
+      <Form.RatingInput name="rating" size={3} label="Rating" />
     </Form>
   );
 };

@@ -1,10 +1,4 @@
-import {
-  Form,
-  FormTextArea,
-  FormTextInput,
-  useMutateAward,
-  type AwardMutationPayload,
-} from '~/common';
+import { Form, useMutateAward, type AwardMutationPayload } from '~/common';
 import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form/nominations-form';
 import { awardFormSchema } from '~/routes/console/general_/awards_/-validation';
 
@@ -22,8 +16,8 @@ export const AwardForm = ({ values }: Props) => {
       schema={awardFormSchema}
       isLoading={isPending}
     >
-      <FormTextInput name="title" label="Title" />
-      <FormTextArea name="description" label="Description" />
+      <Form.TextInput name="title" label="Title" />
+      <Form.TextArea name="description" label="Description" />
       <NominationsForm />
     </Form>
   );
