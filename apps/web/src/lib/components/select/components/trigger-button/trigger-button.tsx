@@ -51,13 +51,14 @@ export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Pro
           </div>
         )}
         {shouldShowClearButton && !isLoading && (
-          <Button
-            icon={<XIcon className={styles.icon} size={18} />}
-            variant="ghost"
-            onClick={onClear}
-            className={styles.select_icon}
-            aria-label="Clear selection"
-          />
+          <div className={styles.select_icon}>
+            <Button
+              icon={<XIcon className={styles.icon} size={18} />}
+              variant="ghost"
+              onClick={onClear}
+              aria-label="Clear selection"
+            />
+          </div>
         )}
       </div>
     );

@@ -11,12 +11,7 @@ export const FormArrayFieldWrapper = ({ children, onRemove }: PropsWithChildren<
   return (
     <div className={styles.wrapper}>
       <div className={styles.inputs}>{children}</div>
-      <Button
-        icon={<Trash2Icon />}
-        variant="ghost"
-        onClick={onRemove}
-        className={styles.remove_button}
-      />
+      <Button icon={<Trash2Icon />} variant="ghost" onClick={onRemove} />
     </div>
   );
 };

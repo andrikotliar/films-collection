@@ -1,8 +1,6 @@
 import styles from './styles.module.css';
 import type { PropsWithChildren } from 'react';
 
-type FilmPageLayoutProps = PropsWithChildren;
-
-export const FilmPageLayout = ({ children }: FilmPageLayoutProps) => {
+export const FilmPageLayout = ({ children }: PropsWithChildren) => {
   return <div className={styles.film_page_layout}>{children}</div>;
 };

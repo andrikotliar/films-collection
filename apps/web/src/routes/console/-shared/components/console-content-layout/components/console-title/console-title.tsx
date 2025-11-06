@@ -1,12 +1,8 @@
 import styles from './styles.module.css';
 import clsx from 'clsx';
-import { type ReactNode } from 'react';
+import { type PropsWithChildren } from 'react';
+import type { PropsWithClassName } from '~/lib';
 
-type Props = {
-  className?: string;
-  children?: ReactNode;
-};
-
-export const ConsoleTitle = ({ children, className }: Props) => {
+export const ConsoleTitle = ({ children, className }: PropsWithChildren<PropsWithClassName>) => {
   return <h1 className={clsx(styles.console_page_title, className)}>{children}</h1>;
 };

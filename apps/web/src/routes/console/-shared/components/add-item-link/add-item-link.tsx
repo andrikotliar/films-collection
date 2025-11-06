@@ -1,13 +1,11 @@
+import { type PropsWithChildren } from 'react';
 import { Link, type LinkProps } from '@tanstack/react-router';
 import { PlusIcon } from 'lucide-react';
 import styles from './styles.module.css';
-import { type ReactNode } from 'react';
 
-type AddItemLinkProps = Omit<LinkProps, 'className' | 'children'> & {
-  children?: ReactNode;
-};
+type AddItemLinkProps = Omit<LinkProps, 'className' | 'children'>;
 
-export const AddItemLink = ({ children, ...props }: AddItemLinkProps) => {
+export const AddItemLink = ({ children, ...props }: PropsWithChildren<AddItemLinkProps>) => {
   return (
     <div>
       <Link className={styles.add_item_link} {...props}>
