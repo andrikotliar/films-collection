@@ -1,0 +1,35 @@
+name: PR — TypeScript & ESLint checks
+
+on:
+  pull_request:
+
+jobs:
+  checks:
+    name: TypeScript and ESLint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Enable corepack and install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: TypeScript check — apps/api
+        run: pnpm -w exec tsc --project apps/api/tsconfig.json --noEmit
+
+      - name: TypeScript check — apps/web
+        run: pnpm -w exec tsc --project apps/web/tsconfig.json --noEmit
+
+      - name: ESLint check (workspace)
+        run: pnpm -w exec eslint "apps/**/*.{ts,tsx,js,jsx}" --max-warnings 0
