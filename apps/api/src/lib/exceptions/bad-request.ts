@@ -1,4 +1,4 @@
-import { ErrorParams } from '~/common/types';
+import { ErrorParams } from '~/lib/types';
 
 export class BadRequestException extends Error {
   public code: ErrorParams['code'];

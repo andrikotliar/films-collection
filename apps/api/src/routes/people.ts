@@ -1,4 +1,4 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/lib';
 import {
   CreatePersonSchema,
   GetListQueriesSchema,

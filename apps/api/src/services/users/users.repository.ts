@@ -1,5 +1,5 @@
 import { User } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/common';
+import type { DatabaseClient, Deps } from '~/lib';
 
 export class UsersRepository {
   private databaseClient: DatabaseClient;

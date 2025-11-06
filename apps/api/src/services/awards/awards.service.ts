@@ -1,5 +1,5 @@
 import { Prisma } from '@prisma/client';
-import { buildListOptions, NotFoundException, type Deps } from '~/common';
+import { buildListOptions, NotFoundException, type Deps } from '~/lib';
 import { AwardsRepository } from './awards.repository';
 import { AwardInput } from './schemas';
 import { GetByIdParams, GroupedNominations } from './types';

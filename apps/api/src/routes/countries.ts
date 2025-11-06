@@ -1,4 +1,4 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/common';
+import { IdParamSchema, defineRoute, useRoutes } from '~/lib';
 import { ManageCountryBodySchema } from '~/services/countries';
 
 export const countriesRoutes = useRoutes('countries', [

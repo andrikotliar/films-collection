@@ -1,6 +1,6 @@
 import type { JWT } from '@fastify/jwt';
 import type { PrismaClient } from '@prisma/client';
-import type { EnvVariables } from '~/common/configs';
+import type { EnvVariables } from '~/lib/configs';
 import { services } from '~/services';
 
 export type ServicesMap = typeof services;

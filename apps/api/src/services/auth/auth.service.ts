@@ -1,5 +1,5 @@
 import { compare } from 'bcrypt';
-import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC, type Deps } from '~/common';
+import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC, type Deps } from '~/lib';
 import { AuthLoginPayload } from './schemas';
 import type { JWT } from '@fastify/jwt';
 import type { UsersService } from '~/services/users';

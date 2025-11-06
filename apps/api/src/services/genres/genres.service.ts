@@ -1,4 +1,4 @@
-import { buildListOptions, type Deps } from '~/common';
+import { buildListOptions, type Deps } from '~/lib';
 import { GenresRepository } from './genres.repository';
 import { ManageGenreInput } from '~/services/genres/schemas';
 

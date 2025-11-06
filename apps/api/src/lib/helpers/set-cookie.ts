@@ -1,5 +1,5 @@
 import { FastifyReply } from 'fastify';
-import { CookieName, CookieNameId, env } from '~/common';
+import { CookieName, CookieNameId, env } from '~/lib';
 
 type Options = {
   value: string;

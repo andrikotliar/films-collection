@@ -1,5 +1,5 @@
 import { type Collection, type CollectionEvent, type Film } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/common';
+import type { DatabaseClient, Deps } from '~/lib';
 import {
   CreateCollectionEventPayload,
   UpdateCollectionEventPayload,

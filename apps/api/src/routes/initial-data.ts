@@ -1,4 +1,4 @@
-import { defineRoute, useRoutes } from '~/common';
+import { defineRoute, useRoutes } from '~/lib';
 
 export const initialDataRoutes = useRoutes('initial-data', [
   defineRoute({

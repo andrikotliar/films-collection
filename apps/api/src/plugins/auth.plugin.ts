@@ -1,6 +1,6 @@
 import fastifyPlugin from 'fastify-plugin';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
-import { CookieName, getCookie, UnauthorizedException } from '~/common';
+import { CookieName, getCookie, UnauthorizedException } from '~/lib';
 import { UsersRepository, UsersService } from '~/services/users';
 import type { VerifiedTokenData } from '~/services/auth';
 

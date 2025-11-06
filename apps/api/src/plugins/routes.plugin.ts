@@ -1,5 +1,5 @@
 import type { FastifyInstance } from 'fastify';
-import { createRouter } from '~/common';
+import { createRouter } from '~/lib';
 import { routes } from '~/routes';
 
 export const RoutesPlugin = async (app: FastifyInstance) => {

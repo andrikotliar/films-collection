@@ -3,7 +3,7 @@ import type {
   ExtendedServiceKeys,
   ServiceKeys,
   ServicesMap,
-} from '~/common/types';
+} from '~/lib/types';
 
 type DependencyValue<K extends ServiceKeys> = {
   service: ServicesMap[K] | null;

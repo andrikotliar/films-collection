@@ -1,4 +1,4 @@
-import type { DatabaseClient, Deps } from '~/common';
+import type { DatabaseClient, Deps } from '~/lib';
 import { ManageCountryInput } from '~/services/countries/schemas';
 
 export class CountriesRepository {

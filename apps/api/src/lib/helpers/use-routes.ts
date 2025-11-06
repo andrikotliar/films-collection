@@ -1,4 +1,4 @@
-import type { Route } from '~/common/types';
+import type { Route } from '~/lib/types';
 
 export const useRoutes = (prefix: string, routes: Array<Route>) => {
   return {

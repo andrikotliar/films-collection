@@ -1,4 +1,4 @@
-import type { DatabaseClient, Deps } from '~/common';
+import type { DatabaseClient, Deps } from '~/lib';
 
 export class ChapterKeysRepository {
   private readonly databaseClient: DatabaseClient;

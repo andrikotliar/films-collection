@@ -7,7 +7,7 @@ import {
   setCookie,
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
-} from '~/common';
+} from '~/lib';
 import { AuthLoginSchema } from '../services/auth/schemas';
 
 export const authRoutes = useRoutes('auth', [

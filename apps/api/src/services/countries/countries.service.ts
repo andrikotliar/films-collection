@@ -1,4 +1,4 @@
-import { buildListOptions, type DatabaseClient, type Deps } from '~/common';
+import { buildListOptions, type DatabaseClient, type Deps } from '~/lib';
 import { CountriesRepository } from './countries.repository';
 import { ManageCountryInput } from './schemas';
 

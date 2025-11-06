@@ -1,4 +1,4 @@
-import { IdParamSchema, NotFoundException, useRoutes, defineRoute } from '~/common';
+import { IdParamSchema, NotFoundException, useRoutes, defineRoute } from '~/lib';
 import {
   CreatePendingFilmBodySchema,
   GetPendingFilmParamsSchema,
