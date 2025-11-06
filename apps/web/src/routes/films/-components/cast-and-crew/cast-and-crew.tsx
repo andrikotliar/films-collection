@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import type { FilmPerson } from '~/common';
+import type { FilmPerson } from '~/lib';
 import { RoleItem } from '~/routes/films/-components/cast-and-crew/components';
 
 type Props = {

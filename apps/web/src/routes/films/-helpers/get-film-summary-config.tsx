@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/common';
+import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/lib';
 import { LinksGroupWrapper, DataLink, LinksGroup, BoxOfficeValue, Dates } from '../-components';
 
 export type SummaryConfig = {

@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
 import clsx from 'clsx';
-import { Image } from '~/common';
+import { Image } from '~/lib';
 
 type Props = {
   id: number;

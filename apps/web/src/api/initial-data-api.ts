@@ -1,4 +1,4 @@
-import { apiClient, type InitialData } from '~/common';
+import { apiClient, type InitialData } from '~/lib';
 
 export const InitialDataApi = {
   getInitialData() {

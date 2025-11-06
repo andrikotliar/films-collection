@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { Image } from '~/common';
+import { Image } from '~/lib';
 
 type Props = {
   image: string;

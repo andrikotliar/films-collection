@@ -1,4 +1,4 @@
-import { idSchema, titleSchema } from '~/common';
+import { idSchema, titleSchema } from '~/lib';
 import * as yup from 'yup';
 
 export const pendingFilmSchema = yup.object({

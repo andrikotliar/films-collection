@@ -1,4 +1,4 @@
-import { titleSchema } from '~/common';
+import { titleSchema } from '~/lib';
 import * as yup from 'yup';
 
 // TODO: extend the form validation

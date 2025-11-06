@@ -1,4 +1,4 @@
-import { type TitleStyle, type TitleType, type MixedId } from '~/common';
+import { type TitleStyle, type TitleType, type MixedId } from '~/lib';
 
 export type FormTrailer = {
   videoId: string;

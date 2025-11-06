@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
-import { Button, ConfirmModal, Form, type AwardMutationPayload } from '~/common';
+import { Button, ConfirmModal, Form, type AwardMutationPayload } from '~/lib';
 import { nominationDefaultValues } from '~/routes/console/general_/awards_/-configs';
 
 export const NominationsForm = () => {

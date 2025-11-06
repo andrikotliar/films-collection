@@ -1,4 +1,4 @@
-import { NEW_ITEM_ID, type AwardMutationPayload } from '~/common';
+import { NEW_ITEM_ID, type AwardMutationPayload } from '~/lib';
 
 export const awardDefaultFormValues: AwardMutationPayload = {
   id: NEW_ITEM_ID,

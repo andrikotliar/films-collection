@@ -1,6 +1,6 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { type ListOption, Form, type PersonMutationPayload } from '~/common';
+import { type ListOption, Form, type PersonMutationPayload } from '~/lib';
 import { defaultPersonValues } from '~/routes/console/-shared';
 import { PeopleApi } from '~/api';
 

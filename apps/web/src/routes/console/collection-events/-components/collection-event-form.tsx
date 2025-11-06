@@ -4,7 +4,7 @@ import {
   type FormComponentProps,
   useMutateCollectionEvent,
   type CollectionEventMutationPayload,
-} from '~/common';
+} from '~/lib';
 import { useQuery } from '@tanstack/react-query';
 import { FilmsApi } from '~/api';
 import { collectionEventSchema } from '~/routes/console/collection-events/-validation';

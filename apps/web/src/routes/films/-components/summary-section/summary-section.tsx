@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { useMemo } from 'react';
-import { type FilmDetails, defineCssProperties, env } from '~/common';
+import { type FilmDetails, defineCssProperties, env } from '~/lib';
 import {
   Poster,
   SummaryBlock,

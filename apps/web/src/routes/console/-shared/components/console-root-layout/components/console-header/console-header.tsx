@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import { LogOutIcon, MenuIcon } from 'lucide-react';
 import clsx from 'clsx';
 import { type RefObject } from 'react';
-import { useLogout } from '~/common';
+import { useLogout } from '~/lib';
 
 type Props = {
   isMenuOpen: boolean;

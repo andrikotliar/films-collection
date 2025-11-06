@@ -6,7 +6,7 @@ import {
   Button,
   useDeleteCollectionEvent,
   type CollectionEventMutationPayload,
-} from '~/common';
+} from '~/lib';
 import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';

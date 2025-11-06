@@ -9,7 +9,7 @@ import {
   NEW_ITEM_ID,
   Panel,
   LocalStorage,
-} from '~/common';
+} from '~/lib';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
 import { filmDefaultFormValues } from '~/routes/console/films_/-configs';

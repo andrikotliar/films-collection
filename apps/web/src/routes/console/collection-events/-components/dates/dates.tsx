@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { useFormContext } from 'react-hook-form';
-import { FieldLabel, Form, type CollectionEventMutationPayload } from '~/common';
+import { FieldLabel, Form, type CollectionEventMutationPayload } from '~/lib';
 
 export const Dates = () => {
   const { watch } = useFormContext<CollectionEventMutationPayload>();

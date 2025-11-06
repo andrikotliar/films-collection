@@ -1,4 +1,4 @@
-import { apiClient, type Award, type AwardNomination, type Nomination } from '~/common';
+import { apiClient, type Award, type AwardNomination, type Nomination } from '~/lib';
 
 type AwardPayload = Omit<Award, 'id'> & {
   nominations: Omit<Nomination, 'person' | 'comment'>[];

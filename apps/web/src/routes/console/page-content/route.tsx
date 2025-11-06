@@ -11,7 +11,7 @@ import {
   NEW_ITEM_ID,
   PAGE_CONTENT_ADMIN_PER_PAGE,
   type PageContentListItem,
-} from '~/common';
+} from '~/lib';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 
 const pageContentListFiltersSchema = yup.object().shape({

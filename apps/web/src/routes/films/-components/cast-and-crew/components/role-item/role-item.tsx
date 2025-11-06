@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import clsx from 'clsx';
-import { type FilmPerson, personRoleToTitle, RouterLink } from '~/common';
+import { type FilmPerson, personRoleToTitle, RouterLink } from '~/lib';
 
 type Props = {
   data: FilmPerson;

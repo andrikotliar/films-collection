@@ -1,4 +1,4 @@
-import { getFormattedMoneyValue } from '~/common';
+import { getFormattedMoneyValue } from '~/lib';
 import { checkHasBoxOfficeBenefit } from './helpers';
 import { TrendingDownIcon, TrendingUpIcon } from 'lucide-react';
 import styles from './styles.module.css';

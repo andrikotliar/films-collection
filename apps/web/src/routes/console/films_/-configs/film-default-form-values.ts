@@ -1,4 +1,4 @@
-import { NEW_ITEM_ID } from '~/common';
+import { NEW_ITEM_ID } from '~/lib';
 import { type FilmFormValues } from '../-types';
 
 export const filmDefaultFormValues: FilmFormValues = {

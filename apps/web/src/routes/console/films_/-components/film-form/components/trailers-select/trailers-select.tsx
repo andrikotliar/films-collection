@@ -1,4 +1,4 @@
-import { SortableList, Form } from '~/common';
+import { SortableList, Form } from '~/lib';
 import { type DragEndEvent } from '@dnd-kit/core';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 

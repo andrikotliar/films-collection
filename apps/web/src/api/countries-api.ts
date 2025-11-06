@@ -1,4 +1,4 @@
-import { apiClient, type Country } from '~/common';
+import { apiClient, type Country } from '~/lib';
 
 export const CountriesApi = {
   getBaseDataList() {

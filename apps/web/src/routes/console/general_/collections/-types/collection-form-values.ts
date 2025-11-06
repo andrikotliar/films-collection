@@ -1,3 +1,3 @@
-import { Collection } from '~/common';
+import { Collection } from '~/lib';
 
 export type CollectionFormValues = Omit<Collection, 'id'>;

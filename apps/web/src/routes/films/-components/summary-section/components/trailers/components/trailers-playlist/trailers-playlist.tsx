@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { type FilmTrailer } from '~/common';
+import { type FilmTrailer } from '~/lib';
 import { Video } from '~/routes/films/-components/summary-section/components/trailers/components/video/video';
 
 type Props = {

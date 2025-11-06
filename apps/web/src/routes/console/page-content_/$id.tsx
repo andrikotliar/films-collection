@@ -10,7 +10,7 @@ import {
   NEW_ITEM_ID,
   fetchPageContentByIdQuery,
   isNewItem,
-} from '~/common';
+} from '~/lib';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { getDefaultFormValues } from '~/routes/console/page-content_/-helpers';
 import { pageContentFormValidation } from '~/routes/console/page-content_/-validation';

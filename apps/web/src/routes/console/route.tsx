@@ -1,4 +1,4 @@
-import { getAuthState } from '~/common';
+import { getAuthState } from '~/lib';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { ConsoleRootLayout } from '~/routes/console/-shared';
 

@@ -1,4 +1,4 @@
-import { getFormattedDate } from '~/common';
+import { getFormattedDate } from '~/lib';
 import { DataLink } from '../data-link/data-link';
 
 type Props = {

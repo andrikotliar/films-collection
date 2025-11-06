@@ -1,4 +1,4 @@
-import { Form, useMutateGenre, type FormComponentProps, type GenreMutationPayload } from '~/common';
+import { Form, useMutateGenre, type FormComponentProps, type GenreMutationPayload } from '~/lib';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { genresFormValidation } from '~/routes/console/general_/genres/-validation';
 

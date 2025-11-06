@@ -1,4 +1,4 @@
-import { Form, useMutateAward, type AwardMutationPayload } from '~/common';
+import { Form, useMutateAward, type AwardMutationPayload } from '~/lib';
 import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form/nominations-form';
 import { awardFormSchema } from '~/routes/console/general_/awards_/-validation';
 

@@ -4,7 +4,7 @@ import {
   useMutateCollection,
   type CollectionMutationPayload,
   Form,
-} from '~/common';
+} from '~/lib';
 import { useQuery } from '@tanstack/react-query';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { collectionSchema } from '~/routes/console/general_/collections/-validation';

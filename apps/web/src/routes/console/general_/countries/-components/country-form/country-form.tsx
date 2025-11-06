@@ -3,7 +3,7 @@ import {
   useMutateCountry,
   type CountryMutationPayload,
   type FormComponentProps,
-} from '~/common';
+} from '~/lib';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { countryFormValidation } from '~/routes/console/general_/countries/-validation';
 

@@ -1,4 +1,4 @@
-import type { WatchCounter } from '~/common';
+import type { WatchCounter } from '~/lib';
 import { EyeIcon } from 'lucide-react';
 import styles from './styles.module.css';
 

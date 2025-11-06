@@ -5,7 +5,7 @@ import {
   fetchInitialDataQuery,
   type FilmsListFilters,
   useDocumentTitle,
-} from '~/common';
+} from '~/lib';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmsSection, RootPageLayout, Sidebar } from './-components';
 

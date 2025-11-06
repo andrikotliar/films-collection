@@ -11,7 +11,7 @@ import {
   type PendingFilm,
   type PendingFilmQueryFilters,
   type PendingFilmMutationPayload,
-} from '~/common';
+} from '~/lib';
 import { Filters, PendingFilmForm } from './-components';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { defaultPendingFilm } from '~/routes/console/pending-films/-configs';

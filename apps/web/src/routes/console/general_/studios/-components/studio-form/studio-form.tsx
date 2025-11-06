@@ -1,9 +1,4 @@
-import {
-  Form,
-  type FormComponentProps,
-  type StudioMutationPayload,
-  useMutateStudio,
-} from '~/common';
+import { Form, type FormComponentProps, type StudioMutationPayload, useMutateStudio } from '~/lib';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { studioFormValidation } from '~/routes/console/general_/studios/-validation';
 

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { Panel, fetchAwardByIdQuery, NEW_ITEM_ID } from '~/common';
+import { Panel, fetchAwardByIdQuery, NEW_ITEM_ID } from '~/lib';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 import { getFormTitle } from '~/routes/console/-shared/helpers';

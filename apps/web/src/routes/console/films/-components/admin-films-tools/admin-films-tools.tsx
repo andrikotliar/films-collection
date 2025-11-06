@@ -4,7 +4,7 @@ import {
   SortingPopup,
   TextInput,
   useDebouncedSearch,
-} from '~/common';
+} from '~/lib';
 import styles from './styles.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 
@@ -46,7 +46,11 @@ export const AdminFilmsTools = () => {
 
   return (
     <div className={styles.admin_films_tools}>
-      <TextInput placeholder="Search film" className={styles.search_input} onChange={handleSearch} />
+      <TextInput
+        placeholder="Search film"
+        className={styles.search_input}
+        onChange={handleSearch}
+      />
       <div>
         <SortingPopup
           fields={sortingFields}

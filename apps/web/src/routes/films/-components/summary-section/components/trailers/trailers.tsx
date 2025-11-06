@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { Modal, type Film, type FilmTrailer } from '~/common';
+import { Modal, type Film, type FilmTrailer } from '~/lib';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import { TrailersPlaylist } from '~/routes/films/-components/summary-section/components/trailers/components';

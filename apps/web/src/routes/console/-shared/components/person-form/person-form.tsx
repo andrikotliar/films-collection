@@ -1,9 +1,4 @@
-import {
-  type FormComponentProps,
-  Form,
-  useMutatePerson,
-  type PersonMutationPayload,
-} from '~/common';
+import { type FormComponentProps, Form, useMutatePerson, type PersonMutationPayload } from '~/lib';
 import { personSchema } from '~/routes/console/-shared/components/person-form/validation';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 

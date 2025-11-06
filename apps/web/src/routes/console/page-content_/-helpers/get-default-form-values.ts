@@ -1,5 +1,5 @@
 import { formDefaultValues } from '../-configs';
-import { type PageContent } from '~/common';
+import { type PageContent } from '~/lib';
 
 export const getDefaultFormValues = (data: PageContent | null) => {
   if (data) {

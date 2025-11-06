@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
-import { getDateMonthLabel, type CollectionEventFilled } from '~/common';
-import { Image } from '~/common/components/image/image';
+import { getDateMonthLabel, type CollectionEventFilled } from '~/lib';
+import { Image } from '~/lib/components/image/image';
 import { Link } from '@tanstack/react-router';
 import { ArrowRightIcon, CalendarIcon, TimerIcon } from 'lucide-react';
 import { EventBannerDataRow } from '~/routes/_home/-components/films-section/components/event-banner/components';

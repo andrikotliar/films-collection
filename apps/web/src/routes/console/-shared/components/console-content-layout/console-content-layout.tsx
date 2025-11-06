@@ -1,7 +1,7 @@
 import { type PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 import { ConsoleTitle } from '~/routes/console/-shared/components/console-content-layout/components';
-import { BackLink } from '~/common';
+import { BackLink } from '~/lib';
 import type { FileRoutesByTo } from '~/routeTree.gen';
 
 type Props = {

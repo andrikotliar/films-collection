@@ -1,4 +1,4 @@
-import type { NominationFormValue } from '~/common';
+import type { NominationFormValue } from '~/lib';
 
 export const nominationDefaultValues: NominationFormValue = {
   id: -1,
