@@ -1,4 +1,4 @@
-import { Button, type ButtonProps } from '~/lib';
+import { Button, type ButtonProps } from '~/shared';
 import { PlusIcon } from 'lucide-react';
 
 type AddItemButtonProps = Omit<ButtonProps, 'variant' | 'icon'>;

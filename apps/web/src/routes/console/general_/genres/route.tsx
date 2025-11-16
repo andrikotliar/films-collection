@@ -1,4 +1,4 @@
-import { fetchGenresListQuery, useDeleteGenre, type GenreMutationPayload } from '~/lib';
+import { fetchGenresListQuery, useDeleteGenre, type GenreMutationPayload } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';

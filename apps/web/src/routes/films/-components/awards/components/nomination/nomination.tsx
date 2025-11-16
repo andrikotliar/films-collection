@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { type Person, RouterLink } from '~/lib';
+import { type Person, RouterLink } from '~/shared';
 
 type Props = {
   title: string;

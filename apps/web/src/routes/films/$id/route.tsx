@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { BackLink, fetchFilmQuery, useDocumentTitle, useScrollToTop } from '~/lib';
+import { BackLink, fetchFilmQuery, useDocumentTitle, useScrollToTop } from '~/shared';
 import {
   Awards,
   CastAndCrew,

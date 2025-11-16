@@ -1,4 +1,4 @@
-import { BackLink } from '~/lib';
+import { BackLink } from '~/shared';
 import styles from './styles.module.css';
 
 export const NavigationRow = () => {

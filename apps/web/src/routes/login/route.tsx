@@ -1,4 +1,4 @@
-import { getAuthState } from '~/lib';
+import { getAuthState } from '~/shared';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { LoginForm, LoginLayout } from './-components';
 

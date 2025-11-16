@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
 import { MutationCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { routeTree } from './routeTree.gen';
-import { toaster, ErrorFallback, Loader, NotFound, Toaster } from '~/lib';
+import { toaster, ErrorFallback, Loader, NotFound, Toaster } from '~/shared';
 
 const queryClient = new QueryClient({
   defaultOptions: {

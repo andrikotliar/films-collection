@@ -8,7 +8,7 @@ import {
   type AdminFilmsServerFilters,
   type ListOption,
   apiClient,
-} from '~/lib';
+} from '~/shared';
 
 export type RelatedChaptersFilter = {
   key: string;

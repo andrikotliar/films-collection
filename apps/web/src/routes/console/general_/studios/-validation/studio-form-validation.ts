@@ -1,4 +1,4 @@
-import { idSchema, titleSchema } from '~/lib';
+import { idSchema, titleSchema } from '~/shared';
 import * as yup from 'yup';
 
 export const studioFormValidation = yup.object({

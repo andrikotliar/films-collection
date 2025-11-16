@@ -1,4 +1,4 @@
-import { idSchema, titleSchema } from '~/lib';
+import { idSchema, titleSchema } from '~/shared';
 import { object, string } from 'yup';
 
 const pageKeyRegex = /^[a-z-]*$/;

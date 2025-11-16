@@ -8,7 +8,7 @@ import {
   fetchAwardsBaseDataListQuery,
   ConfirmModal,
   useDeleteAward,
-} from '~/lib';
+} from '~/shared';
 
 export const Route = createFileRoute('/console/general_/awards')({
   loader: async ({ context: { queryClient } }) => {

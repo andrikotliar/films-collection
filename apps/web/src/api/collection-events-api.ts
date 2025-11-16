@@ -1,4 +1,4 @@
-import { type CollectionEventFilled, type CollectionEvent, apiClient } from '~/lib';
+import { type CollectionEventFilled, type CollectionEvent, apiClient } from '~/shared';
 
 export const CollectionEventsApi = {
   getAdminList() {

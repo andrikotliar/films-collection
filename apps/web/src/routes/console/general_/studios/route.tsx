@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { fetchStudiosListQuery, useDeleteStudio, type StudioMutationPayload } from '~/lib';
+import { fetchStudiosListQuery, useDeleteStudio, type StudioMutationPayload } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/general_/studios/-components';
 import { studioInitialValues } from '~/routes/console/general_/studios/-configs';

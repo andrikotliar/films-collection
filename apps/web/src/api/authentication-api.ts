@@ -1,4 +1,4 @@
-import { type AuthResponse, type LoginPayload, apiClient } from '~/lib';
+import { type AuthResponse, type LoginPayload, apiClient } from '~/shared';
 
 export const AuthenticationApi = {
   login(payload: LoginPayload) {

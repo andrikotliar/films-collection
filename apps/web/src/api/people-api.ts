@@ -1,4 +1,4 @@
-import { apiClient, type ListOption, type Person } from '~/lib';
+import { apiClient, type ListOption, type Person } from '~/shared';
 
 export type ManagePersonPayload = {
   name: string;

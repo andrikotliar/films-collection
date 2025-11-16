@@ -7,7 +7,7 @@ import {
   useDeleteFilm,
   useDocumentTitle,
   Pagination,
-} from '~/lib';
+} from '~/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import * as yup from 'yup';

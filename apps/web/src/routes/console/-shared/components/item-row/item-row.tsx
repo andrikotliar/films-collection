@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { Button, PriorityBadge } from '~/lib';
+import { Button, PriorityBadge } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
 

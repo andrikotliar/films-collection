@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
-import type { FilmAward } from '~/lib';
+import type { FilmAward } from '~/shared';
 import { Nomination } from '~/routes/films/-components/awards/components';
 
 type Props = {

@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import sanitizeHtml from 'sanitize-html';
-import { ALLOWED_HTML_TAGS } from '~/lib';
+import { ALLOWED_HTML_TAGS } from '~/shared';
 
 type Props = {
   rawHtml: string;

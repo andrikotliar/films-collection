@@ -1,4 +1,4 @@
-import { idSchema } from '~/lib';
+import { idSchema } from '~/shared';
 import * as yup from 'yup';
 
 export const personSchema = yup.object({

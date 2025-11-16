@@ -4,7 +4,7 @@ import {
   fetchAdminPeopleListQuery,
   useDeletePerson,
   type PersonMutationPayload,
-} from '~/lib';
+} from '~/shared';
 import {
   List,
   FormModal,

@@ -3,7 +3,7 @@ import {
   ArticleContent,
   useDocumentTitle,
   useScrollToTop,
-} from '~/lib';
+} from '~/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 

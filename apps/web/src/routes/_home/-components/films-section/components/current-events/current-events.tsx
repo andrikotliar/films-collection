@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { BREAKPOINTS, fetchInitialDataQuery } from '~/lib';
+import { BREAKPOINTS, fetchInitialDataQuery } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { EventBanner } from '~/routes/_home/-components/films-section/components/event-banner/event-banner';
 

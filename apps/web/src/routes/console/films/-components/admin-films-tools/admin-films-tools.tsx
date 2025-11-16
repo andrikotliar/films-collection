@@ -4,7 +4,7 @@ import {
   SortingPopup,
   TextInput,
   useDebouncedSearch,
-} from '~/lib';
+} from '~/shared';
 import styles from './styles.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 

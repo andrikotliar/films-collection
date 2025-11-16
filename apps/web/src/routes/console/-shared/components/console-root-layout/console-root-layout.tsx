@@ -2,7 +2,12 @@ import styles from './styles.module.css';
 import { useMemo, useRef, useState } from 'react';
 import { ConsoleHeader, ConsoleMenu } from './components';
 import { Outlet } from '@tanstack/react-router';
-import { LocalStorage, MOBILE_VIEW_BREAKPOINT_PX, useClickOutside, useCloseOnScroll } from '~/lib';
+import {
+  LocalStorage,
+  MOBILE_VIEW_BREAKPOINT_PX,
+  useClickOutside,
+  useCloseOnScroll,
+} from '~/shared';
 
 export const ConsoleRootLayout = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);

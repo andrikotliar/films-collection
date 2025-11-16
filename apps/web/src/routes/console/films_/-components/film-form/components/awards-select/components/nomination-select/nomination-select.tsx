@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
-import { fetchNominationsByAwardQuery, FieldError, Form, Loader } from '~/lib';
+import { fetchNominationsByAwardQuery, FieldError, Form, Loader } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { PeopleApi } from '~/api';
 

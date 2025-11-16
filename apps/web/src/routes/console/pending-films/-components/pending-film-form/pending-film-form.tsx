@@ -8,7 +8,7 @@ import {
   type FormComponentProps,
   type StatusColor,
   type PendingFilmMutationPayload,
-} from '~/lib';
+} from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { pendingFilmSchema } from '~/routes/console/pending-films/-validation';
 import { getFormTitle } from '~/routes/console/-shared';

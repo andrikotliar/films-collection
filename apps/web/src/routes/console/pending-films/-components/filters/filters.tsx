@@ -7,7 +7,7 @@ import {
   priorityOptions,
   type SortingOrder,
   debounce,
-} from '~/lib';
+} from '~/shared';
 import styles from './styles.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { type ChangeEvent, useCallback } from 'react';

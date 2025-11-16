@@ -1,6 +1,6 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import type { FormAward, FilmFormValues } from '~/routes/console/films_/-types';
-import { type ListOption, Form } from '~/lib';
+import { type ListOption, Form } from '~/shared';
 import { NominationSelect } from './components';
 
 type Props = {

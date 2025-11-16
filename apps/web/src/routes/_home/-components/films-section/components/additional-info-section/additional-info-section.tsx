@@ -1,4 +1,4 @@
-import { type AdditionalInfo } from '~/lib';
+import { type AdditionalInfo } from '~/shared';
 import { InfoBlock } from '../info-block/info-block';
 
 type Props = {

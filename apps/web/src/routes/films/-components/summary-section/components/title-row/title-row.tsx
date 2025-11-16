@@ -4,7 +4,7 @@ import {
   WatchCounterBadge,
 } from '~/routes/films/-components/summary-section/components/title-row/components';
 import styles from './styles.module.css';
-import { type FilmDetails } from '~/lib';
+import { type FilmDetails } from '~/shared';
 
 type Props = {
   data: FilmDetails;

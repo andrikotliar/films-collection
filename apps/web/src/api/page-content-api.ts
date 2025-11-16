@@ -1,4 +1,4 @@
-import { apiClient, type PageContent, type PageContentListItem } from '~/lib';
+import { apiClient, type PageContent, type PageContentListItem } from '~/shared';
 
 export type PageContentListFilters = {
   skip: number;

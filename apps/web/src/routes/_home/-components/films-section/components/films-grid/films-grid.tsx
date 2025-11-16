@@ -1,4 +1,4 @@
-import { type FilmsListItem, getYearFromDate, Image } from '~/lib';
+import { type FilmsListItem, getYearFromDate, Image } from '~/shared';
 import styles from './styles.module.css';
 import { Link } from '@tanstack/react-router';
 

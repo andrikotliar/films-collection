@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Form, fetchInitialDataQuery, type PersonMutationPayload } from '~/lib';
+import { Form, fetchInitialDataQuery, type PersonMutationPayload } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { filmFormSchema } from '~/routes/console/films_/-validation';

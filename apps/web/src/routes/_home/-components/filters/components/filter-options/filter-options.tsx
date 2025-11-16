@@ -1,4 +1,4 @@
-import { Form, type FilterItem } from '~/lib';
+import { Form, type FilterItem } from '~/shared';
 
 type Props = {
   filter: FilterItem;

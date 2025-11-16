@@ -8,7 +8,7 @@ import {
   type FilmsListFilters,
   type FilterItem,
   Button,
-} from '~/lib';
+} from '~/shared';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
 

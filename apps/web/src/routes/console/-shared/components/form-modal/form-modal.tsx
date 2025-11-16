@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { type FormComponentProps, Modal, Panel } from '~/lib';
+import { type FormComponentProps, Modal, Panel } from '~/shared';
 
 type FormModalProps<T extends Record<PropertyKey, unknown>> = {
   onClose: VoidFunction;

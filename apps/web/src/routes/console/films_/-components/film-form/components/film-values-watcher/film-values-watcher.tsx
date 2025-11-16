@@ -1,4 +1,4 @@
-import { LocalStorage, type MixedId } from '~/lib';
+import { LocalStorage, type MixedId } from '~/shared';
 import type { FilmFormValues } from '~/routes/console/films_/-types';
 import { useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';

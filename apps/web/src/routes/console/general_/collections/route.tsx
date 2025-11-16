@@ -5,7 +5,7 @@ import {
   fetchCollectionsListQuery,
   useDeleteCollection,
   type CollectionMutationPayload,
-} from '~/lib';
+} from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { CollectionForm } from '~/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '~/routes/console/general_/collections/-configs';

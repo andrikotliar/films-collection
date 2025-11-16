@@ -1,4 +1,11 @@
-import { type LoginPayload, FormPasswordInput, Logo, Form, CenteredBlock, useLogin } from '~/lib';
+import {
+  type LoginPayload,
+  FormPasswordInput,
+  Logo,
+  Form,
+  CenteredBlock,
+  useLogin,
+} from '~/shared';
 import { loginFormSchema } from '~/routes/login/-validation';
 import { LogInIcon } from 'lucide-react';
 

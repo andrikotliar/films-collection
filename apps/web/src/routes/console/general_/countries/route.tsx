@@ -1,4 +1,4 @@
-import { fetchCountriesListQuery, type CountryMutationPayload, useDeleteCountry } from '~/lib';
+import { fetchCountriesListQuery, type CountryMutationPayload, useDeleteCountry } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';

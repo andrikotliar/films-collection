@@ -1,4 +1,4 @@
-import { ScrollableLine, type Chapter } from '~/lib';
+import { ScrollableLine, type Chapter } from '~/shared';
 import { ChapterLink } from '~/routes/films/-components/chapters/components';
 
 type Props = {

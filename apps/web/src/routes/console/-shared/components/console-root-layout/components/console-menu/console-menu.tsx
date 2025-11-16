@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
-import { consoleMenuConfig } from '~/lib';
-import { Menu } from '~/lib/components/menu/menu';
+import { consoleMenuConfig } from '~/shared';
+import { Menu } from '~/shared/components/menu/menu';
 import clsx from 'clsx';
 import { forwardRef } from 'react';
 

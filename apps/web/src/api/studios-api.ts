@@ -1,4 +1,4 @@
-import { apiClient, type Studio } from '~/lib';
+import { apiClient, type Studio } from '~/shared';
 
 export const StudiosApi = {
   getBaseDataList() {
