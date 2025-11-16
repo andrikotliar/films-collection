@@ -1,5 +1,5 @@
 import { PendingFilm, Prisma } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/lib';
+import type { DatabaseClient, Deps } from '~/shared';
 
 export class PendingFilmsRepository {
   private readonly databaseClient: DatabaseClient;

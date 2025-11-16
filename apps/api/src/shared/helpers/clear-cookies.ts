@@ -1,5 +1,5 @@
 import { FastifyReply } from 'fastify';
-import { CookieName, CookieNameId } from '~/lib';
+import { CookieName, CookieNameId } from '~/shared';
 
 type Cookies = CookieNameId;
 

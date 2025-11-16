@@ -1,4 +1,4 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/lib';
+import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
 import { AwardBodySchema, FindNominationsSchema } from '~/services/awards';
 
 export const awardsRoutes = useRoutes('awards', [

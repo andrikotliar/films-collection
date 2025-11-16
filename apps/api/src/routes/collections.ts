@@ -1,4 +1,4 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/lib';
+import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
 import { CreateCollectionBodySchema, UpdateCollectionBodySchema } from '~/services/collections';
 
 export const collectionsRoutes = useRoutes('collections', [

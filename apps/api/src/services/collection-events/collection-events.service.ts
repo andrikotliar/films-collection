@@ -1,7 +1,7 @@
 import type { CollectionsService } from '~/services/collections/collections.service';
 import { CollectionEventsRepository } from './collection-events.repository';
 import { CreateCollectionEventPayload, UpdateCollectionEventPayload } from './schemas';
-import type { Deps } from '~/lib';
+import type { Deps } from '~/shared';
 
 export class CollectionEventsService {
   private readonly collectionEventsRepository: CollectionEventsRepository;

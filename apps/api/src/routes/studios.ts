@@ -1,4 +1,4 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/lib';
+import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
 import { ManageStudioBodySchema } from '~/services/studios/schemas';
 
 export const studiosRoutes = useRoutes('studios', [

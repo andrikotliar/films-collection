@@ -1,4 +1,4 @@
-import { ListOption } from '~/lib';
+import { ListOption } from '~/shared';
 import type { CurrentEvent } from '~/services/collection-events';
 
 export type InitialData = {

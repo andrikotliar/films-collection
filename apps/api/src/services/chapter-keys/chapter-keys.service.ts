@@ -1,4 +1,4 @@
-import { ListOption, type Deps } from '~/lib';
+import { ListOption, type Deps } from '~/shared';
 import { ChapterKeysRepository } from './chapter-keys.repository';
 import { CreateChapterKeyPayload } from '~/services/chapter-keys/schemas';
 

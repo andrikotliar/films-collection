@@ -1,6 +1,6 @@
 import { CreatePersonInput, GetListQueries, SearchPersonQuery, UpdatePersonInput } from './schemas';
 import { PeopleRepository } from './people.repository';
-import { DEFAULT_PAGINATION_LIMIT, NotFoundException, type Deps } from '~/lib';
+import { DEFAULT_PAGINATION_LIMIT, NotFoundException, type Deps } from '~/shared';
 import { Prisma } from '@prisma/client';
 
 export class PeopleService {

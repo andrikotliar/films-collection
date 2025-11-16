@@ -4,7 +4,7 @@ import {
   DEFAULT_SEARCH_LIMIT,
   type DatabaseClient,
   type Deps,
-} from '~/lib';
+} from '~/shared';
 import type { FilmOptionsQueries } from '~/services/films/schemas';
 
 export class FilmsRepository {

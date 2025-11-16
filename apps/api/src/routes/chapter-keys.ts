@@ -1,4 +1,4 @@
-import { defineRoute, useRoutes } from '~/lib';
+import { defineRoute, useRoutes } from '~/shared';
 import { CreateChapterKeySchema } from '~/services/chapter-keys';
 
 export const chapterKeysRoutes = useRoutes('chapter-keys', [

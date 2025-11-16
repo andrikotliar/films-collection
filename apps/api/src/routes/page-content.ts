@@ -1,4 +1,4 @@
-import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from '~/lib';
+import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from '~/shared';
 import {
   CreatePageContentSchema,
   GetListQueriesSchema,

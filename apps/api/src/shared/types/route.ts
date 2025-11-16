@@ -6,7 +6,7 @@ import {
   HTTPMethods,
   type FastifyInstance,
 } from 'fastify';
-import type { ResponseStatus } from '~/lib/enums';
+import type { ResponseStatus } from '~/shared/enums';
 
 export type RouteSchema = {
   [key in keyof FastifySchema]?: TSchema;

@@ -7,7 +7,7 @@ import MultipartPlugin from '@fastify/multipart';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import StaticPlugin from '@fastify/static';
 import { AuthPlugin, RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
-import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from '~/lib';
+import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
 
 declare module 'fastify' {
   export interface FastifyInstance {

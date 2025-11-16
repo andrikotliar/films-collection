@@ -1,4 +1,4 @@
-import { convertEnumValueToLabel, type Deps } from '~/lib';
+import { convertEnumValueToLabel, type Deps } from '~/shared';
 import { FilmsRepository } from './films.repository';
 import {
   GetFilmRelatedChaptersQuery,

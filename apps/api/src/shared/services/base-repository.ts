@@ -1,5 +1,5 @@
 import { Prisma } from '@prisma/client';
-import type { DatabaseClient } from '~/lib';
+import type { DatabaseClient } from '~/shared';
 
 export class BaseRepository {
   constructor(private readonly db: DatabaseClient) {}

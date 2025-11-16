@@ -1,4 +1,4 @@
-import { ErrorParams } from '~/lib/types';
+import { ErrorParams } from '~/shared/types';
 
 export class NotFoundException extends Error {
   public code: ErrorParams['code'];

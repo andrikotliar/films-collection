@@ -1,4 +1,4 @@
-import type { DatabaseClient, Deps } from '~/lib';
+import type { DatabaseClient, Deps } from '~/shared';
 import { ManageGenreInput } from '~/services/genres/schemas';
 
 export class GenresRepository {

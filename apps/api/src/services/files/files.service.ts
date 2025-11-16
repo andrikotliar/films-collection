@@ -1,5 +1,5 @@
 import { v2 as cloudinary, UploadApiResponse } from 'cloudinary';
-import { type Deps } from '~/lib';
+import { type Deps } from '~/shared';
 import { UploadPayload } from './types';
 import { destinationParams } from '~/services/files/configs';
 import path from 'node:path';

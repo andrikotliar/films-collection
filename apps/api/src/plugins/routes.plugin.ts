@@ -1,5 +1,5 @@
 import type { FastifyInstance } from 'fastify';
-import { createRouter } from '~/lib';
+import { createRouter } from '~/shared';
 import { routes } from '~/routes';
 
 export const RoutesPlugin = async (app: FastifyInstance) => {

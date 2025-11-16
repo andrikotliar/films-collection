@@ -1,4 +1,4 @@
-import { DEFAULT_PAGINATION_LIMIT, type DatabaseClient, type Deps } from '~/lib';
+import { DEFAULT_PAGINATION_LIMIT, type DatabaseClient, type Deps } from '~/shared';
 import {
   CreatePageContentPayload,
   GetListQueries,

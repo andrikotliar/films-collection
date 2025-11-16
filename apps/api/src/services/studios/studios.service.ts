@@ -1,4 +1,4 @@
-import { buildListOptions, type Deps } from '~/lib';
+import { buildListOptions, type Deps } from '~/shared';
 import { StudiosRepository } from './studios.repository';
 import { ManageStudioInput } from './schemas';
 

@@ -1,4 +1,4 @@
-import { buildListOptions, type Deps } from '~/lib';
+import { buildListOptions, type Deps } from '~/shared';
 import { CollectionsRepository } from './collections.repository';
 import { CreateCollectionInput, UpdateCollectionInput } from './schemas';
 

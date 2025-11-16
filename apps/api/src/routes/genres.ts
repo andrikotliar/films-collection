@@ -1,4 +1,4 @@
-import { defineRoute, IdParamSchema, useRoutes } from '~/lib';
+import { defineRoute, IdParamSchema, useRoutes } from '~/shared';
 import { ManageGenreBodySchema } from '~/services/genres';
 
 export const genresRoutes = useRoutes('genres', [

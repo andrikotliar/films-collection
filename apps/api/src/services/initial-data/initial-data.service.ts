@@ -1,4 +1,4 @@
-import { convertEnumValuesToOption, type Deps } from '~/lib';
+import { convertEnumValuesToOption, type Deps } from '~/shared';
 import { InitialData } from './types';
 import { CollectionCategory, PersonRole, TitleStyle, TitleType } from '@prisma/client';
 import type { CollectionsService } from '~/services/collections/collections.service';

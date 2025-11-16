@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
-import { ResponseCode } from '~/lib/enums';
-import type { Route } from '~/lib/types';
+import { ResponseCode } from '~/shared/enums';
+import type { Route } from '~/shared/types';
 
 export const createRouter = (routes: Route[]) => {
   return async (app: FastifyInstance) => {
