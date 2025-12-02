@@ -9,7 +9,7 @@ export default function createConfig({
   rules = {},
   plugins = {},
   ...options
-}) {
+} = {}) {
   return defineConfig({
     ignores: ['dist', 'node_modules', ...ignores],
     files: ['**/*.{ts,tsx}', ...files],

@@ -4,6 +4,7 @@
   "main": "create-config.js",
   "type": "module",
   "devDependencies": {
+    "@eslint/config-helpers": "^0.5.0",
     "@eslint/js": "^9.36.0",
     "eslint": "^9.36.0",
     "typescript": "^5.9.2",

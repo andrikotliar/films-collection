@@ -9,7 +9,8 @@
     "db:client:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "lint": "eslint . --quiet --ext .ts"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.1",
@@ -19,6 +20,7 @@
     "@fastify/one-line-logger": "^2.0.2",
     "@fastify/static": "^8.2.0",
     "@fastify/type-provider-typebox": "^5.1.0",
+    "@films-collection/eslint-config": "workspace:^",
     "@prisma/client": "^6.2.1",
     "@sinclair/typebox": "^0.34.28",
     "bcrypt": "^5.1.1",

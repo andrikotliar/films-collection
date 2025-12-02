@@ -25,11 +25,17 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate database client
+        run: pnpm run db:client:generate
+
       - name: TypeScript check — apps/api
         run: pnpm -w exec tsc --project apps/api/tsconfig.json --noEmit
 
       - name: TypeScript check — apps/web
         run: pnpm -w exec tsc --project apps/web/tsconfig.json --noEmit
 
-      - name: ESLint check (workspace)
-        run: pnpm -w exec eslint "apps/**/*.{ts,tsx,js,jsx}" --max-warnings 0
+      - name: ESLint check - apps/api
+        run: pnpm --filter ./apps/api lint
+
+      - name: ESLint check - apps/web
+        run: pnpm --filter ./apps/web lint

@@ -1,6 +1,5 @@
-import { PrismaClient } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
-import { ManageStudioInput } from '~/services/studios/schemas';
+import type { ManageStudioInput } from '~/services/studios/schemas';
 
 export class StudiosRepository {
   private readonly databaseClient: DatabaseClient;

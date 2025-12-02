@@ -1,4 +1,4 @@
-import { ConfigWithExtendsArray, Config } from '@eslint/config-helpers';
+import type { Config } from '@eslint/config-helpers';
 
-export default function createConfig(overrides: ConfigWithExtendsArray): Config[];
+export default function createConfig(overrides: Config): Config[];
 export {};

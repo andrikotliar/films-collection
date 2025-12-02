@@ -53,14 +53,7 @@ export const FileInput = ({
   return (
     <div className={styles.root} style={{ width }}>
       {label && <FieldLabel className={styles.label}>{label}</FieldLabel>}
-      {imagePreview && (
-        <Button
-          icon={<Trash2Icon />}
-          onClick={handleRemoveImage}
-          className={styles.remove_button}
-          variant="ghost"
-        />
-      )}
+      {imagePreview && <Button icon={<Trash2Icon />} onClick={handleRemoveImage} variant="ghost" />}
       <label className={styles.input_wrapper} style={{ height }}>
         <input
           type="file"
