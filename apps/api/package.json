@@ -10,7 +10,7 @@
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "check": "tsc --noEmit",
-    "lint": "eslint ./src --ext .ts"
+    "lint": "eslint . --ext .ts"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.1",
