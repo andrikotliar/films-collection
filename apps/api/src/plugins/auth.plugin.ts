@@ -1,7 +1,6 @@
 import fastifyPlugin from 'fastify-plugin';
-import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
+import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import { CookieName, getCookie, UnauthorizedException } from '~/shared';
-import { UsersRepository, UsersService } from '~/services/users';
 import type { VerifiedTokenData } from '~/services/auth';
 
 const authDecorator = async (app: FastifyInstance) => {

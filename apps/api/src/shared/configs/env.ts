@@ -24,12 +24,7 @@ const EnvSchema = z.object({
 export type EnvVariables = z.infer<typeof EnvSchema>;
 
 const getEnvVariables = (): EnvVariables => {
-  try {
-    return EnvSchema.parse(process.env);
-  } catch (error: any) {
-    console.error(error);
-    process.exit(1);
-  }
+  return EnvSchema.parse(process.env);
 };
 
 export const env = getEnvVariables();

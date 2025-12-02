@@ -1,6 +1,6 @@
-import { buildListOptions, type DatabaseClient, type Deps } from '~/shared';
-import { CountriesRepository } from './countries.repository';
-import { ManageCountryInput } from './schemas';
+import { buildListOptions, type Deps } from '~/shared';
+import type { CountriesRepository } from './countries.repository';
+import type { ManageCountryInput } from './schemas';
 
 export class CountriesService {
   private readonly countriesRepository: CountriesRepository;

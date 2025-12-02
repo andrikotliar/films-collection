@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import fastifyPlugin from 'fastify-plugin';
-import { env, DiContainer } from '~/shared';
+import { DiContainer } from '~/shared';
 import { services } from '~/services';
 
 export const diContainerDecorator = async (app: FastifyInstance) => {
