@@ -35,7 +35,7 @@ jobs:
         run: pnpm -w exec tsc --project apps/web/tsconfig.json --noEmit
 
       - name: ESLint check - apps/api
-        run: pnpm exec eslint ./apps/api/src --ext .ts
+        run: pnpm --filter ./apps/api lint
 
       - name: ESLint check - apps/web
-        run: pnpm exec eslint ./apps/web/src --ext .ts,.tsx
+        run: pnpm --filter ./apps/web lint
