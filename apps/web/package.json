@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "check": "tsc --noEmit",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint . --quiet --ext .ts,.tsx"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

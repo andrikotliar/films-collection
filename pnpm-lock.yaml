@@ -44,6 +44,9 @@ importers:
       '@fastify/type-provider-typebox':
         specifier: ^5.1.0
         version: 5.2.0(@sinclair/typebox@0.34.41)
+      '@films-collection/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
       '@prisma/client':
         specifier: ^6.2.1
         version: 6.16.2(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
