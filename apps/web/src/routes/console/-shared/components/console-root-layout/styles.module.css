@@ -1,0 +1,14 @@
+.console_layout {
+  --console-header-height: 40px;
+}
+
+.console_page {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--color-gray-invisible);
+}
+
+.console_working_area {
+  flex-grow: 1;
+  padding: 20px;
+}

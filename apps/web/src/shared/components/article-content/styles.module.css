@@ -1,0 +1,38 @@
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--padding-default);
+  line-height: 1.5;
+}
+
+.content h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  color: var(--color-blue-primary);
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 10px;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+.content a {
+  text-decoration: underline;
+}
+
+.content blockquote {
+  margin-bottom: 20px;
+  background-color: var(--color-blue-light);
+  padding: 20px;
+  border-left: 4px solid var(--color-blue-primary);
+}

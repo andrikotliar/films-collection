@@ -1,0 +1,60 @@
+.films_search {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.input_wrapper {
+  position: relative;
+}
+
+.search_input {
+  font-size: 14px;
+  color: var(--color-blue-primary);
+  padding: 10px;
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
+  background-color: var(--color-gray-invisible);
+  transition: var(--transition-timing);
+}
+
+.search_input:focus {
+  border-color: var(--color-blue-primary);
+}
+
+.search_input::placeholder {
+  color: var(--color-gray-dark);
+}
+
+.search_icon {
+  color: var(--color-gray-dark);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  transition: var(--transition-timing);
+  transform: translateY(-50%);
+}
+
+.search_input:focus + .search_icon {
+  color: var(--color-blue-primary);
+}
+
+.search_loader {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+}
+
+.menu {
+  overflow-y: auto;
+}

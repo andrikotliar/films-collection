@@ -1,0 +1,18 @@
+.films_section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.pagination_wrapper {
+  margin-top: auto;
+}
+
+@media (max-width: 785px) {
+  .films_section {
+    padding-bottom: 80px;
+  }
+}

@@ -1,0 +1,28 @@
+.rating {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-yellow-primary);
+  padding: 4px 16px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.highest_rating {
+  background-color: var(--color-green-primary);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.value {
+  font-weight: bold;
+}

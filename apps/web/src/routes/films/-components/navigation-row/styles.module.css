@@ -1,0 +1,14 @@
+@media (width < 1280px) {
+  .navigation_row {
+    padding: 0 20px;
+  }
+}
+
+@media (width < 920px) {
+  .navigation_row {
+    position: relative;
+    color: var(--color-white);
+    padding: 0 20px;
+    z-index: 3;
+  }
+}

@@ -1,0 +1,32 @@
+.form_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: var(--border-default);
+  background-color: var(--color-gray-invisible);
+  padding: 20px;
+  border-radius: var(--rounded-default);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.toggle_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.toggle_button:hover {
+  color: var(--color-blue-primary);
+}
+
+.hidden_content {
+  display: none;
+}

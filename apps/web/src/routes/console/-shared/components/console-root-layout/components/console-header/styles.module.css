@@ -1,0 +1,45 @@
+.console_header {
+  position: sticky;
+  top: var(--header-height);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+  border-bottom: var(--border-default);
+  background-color: white;
+  height: var(--console-header-height);
+  z-index: 5;
+}
+
+.menu_button {
+  display: flex;
+}
+
+.menu_icon {
+  color: var(--color-blue-primary);
+}
+
+.menu_icon_collapsed {
+  color: var(--color-black);
+}
+
+.console_header_title {
+  font-size: 14px;
+  color: var(--color-gray-dark);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logout_button {
+  margin-left: auto;
+}
+
+.logout_button:hover {
+  color: var(--color-blue-primary);
+}
+
+@media (max-width: 785px) {
+  .console_header_title {
+    font-size: 14px;
+  }
+}

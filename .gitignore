@@ -10,6 +10,7 @@ lerna-debug.log*
 # Local modules and build folders
 node_modules
 dist
+target
 
 # Environment files
 *.local
@@ -27,8 +28,5 @@ dist
 *.sln
 *.sw?
 
-# Local files
-dataset/*.js
-
-# Docker volumes
-films_collection_database
+# Generated modules
+.tanstack

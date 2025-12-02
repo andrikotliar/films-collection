@@ -1,0 +1,14 @@
+.watch_counter_badge {
+  padding: 5px 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--color-yellow-light);
+}
+
+.counters {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

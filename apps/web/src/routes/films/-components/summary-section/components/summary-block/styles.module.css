@@ -1,0 +1,19 @@
+.summary_block {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .summary_block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

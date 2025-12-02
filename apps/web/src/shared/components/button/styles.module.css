@@ -1,0 +1,77 @@
+.button {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: var(--rounded-default);
+  transition: background-color 0.3s, color 0.2s;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--color-blue-primary);
+}
+
+.secondary {
+  color: var(--color-black);
+  background-color: #ddd;
+}
+
+.ghost {
+  color: var(--color-black);
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.danger {
+  color: var(--color-white);
+  background-color: var(--color-red-primary);
+}
+
+.light {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: var(--border-default);
+}
+
+.active {
+  background-color: var(--color-blue-primary);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.loader {
+  color: white !important;
+}
+
+.button:disabled {
+  color: var(--color-gray-dark);
+  cursor: default;
+  background-color: var(--color-gray-light);
+}
+
+@media (hover: hover) {
+  .button:not(:disabled):hover {
+    box-shadow: 0 0 0 1px var(--color-black);
+  }
+
+  .active:hover {
+    background-color: var(--color-blue-primary);
+  }
+
+  .ghost:hover {
+    color: var(--color-blue-primary);
+    background-color: transparent;
+    box-shadow: none !important;
+  }
+}

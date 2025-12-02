@@ -1,0 +1,43 @@
+.general_pages_menu {
+  --cols: 3;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: var(--rounded-default);
+  border: var(--border-default);
+  transition: var(--transition-timing);
+}
+
+.link:hover {
+  border-color: var(--color-gray-dark);
+  color: var(--color-blue-primary);
+}
+
+.icon {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.chevron_icon {
+  margin-left: auto;
+}
+
+@media (width < 768px) {
+  .general_pages_menu {
+    --cols: 2;
+  }
+}
+
+@media (width < 520px) {
+  .general_pages_menu {
+    --cols: 1;
+  }
+}

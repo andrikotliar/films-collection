@@ -1,0 +1,15 @@
+.show_password_button {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+.eye_icon {
+  transition: color 300ms;
+}
+
+.show_password_button:hover .eye_icon {
+  color: var(--color-blue-primary);
+}

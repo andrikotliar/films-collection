@@ -1,0 +1,45 @@
+.film_link {
+  display: flex;
+  gap: 10px;
+  border: 1px solid transparent;
+  border-radius: var(--rounded-default);
+  overflow: hidden;
+}
+
+.film_link:hover {
+  border: var(--border-default);
+}
+
+.poster_wrapper {
+  width: 48px;
+  flex-shrink: 0;
+}
+
+.poster_image {
+  border-radius: 4px;
+}
+
+.info_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+
+.film_title {
+  font-size: var(--text-lg);
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.genres_list {
+  color: var(--color-gray-primary);
+  font-size: var(--text-sm);
+}
+
+.release_date {
+  color: var(--color-green-primary);
+  font-size: var(--text-sm);
+}

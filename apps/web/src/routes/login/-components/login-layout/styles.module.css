@@ -1,0 +1,13 @@
+.login_layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: var(--screen-height);
+  background-color: var(--color-gray-extra-light);
+}
+
+.login_layout_content {
+  max-width: 380px;
+  width: 100%;
+}

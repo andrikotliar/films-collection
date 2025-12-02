@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
+  background-color: white;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-grow: 1;
+}

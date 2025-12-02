@@ -1,0 +1,23 @@
+.filters_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.search {
+  flex-grow: 1;
+}
+
+.priorities_filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.priorities {
+  display: flex;
+  gap: 10px;
+}

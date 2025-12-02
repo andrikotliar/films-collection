@@ -1,0 +1,11 @@
+.console_page_title {
+  color: var(--color-blue-primary);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+@media (max-width: 480px) {
+  .console_page_title {
+    font-size: 20px;
+  }
+}

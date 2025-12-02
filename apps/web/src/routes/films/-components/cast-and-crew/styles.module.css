@@ -1,0 +1,4 @@
+.wrapper {
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
+}

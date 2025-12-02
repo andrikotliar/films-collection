@@ -1,0 +1,13 @@
+.input {
+  width: 100%;
+  padding: 10px;
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
+  background: white;
+  transition: border-color 300ms;
+  cursor: text;
+}
+
+.input:hover {
+  border-color: black;
+}

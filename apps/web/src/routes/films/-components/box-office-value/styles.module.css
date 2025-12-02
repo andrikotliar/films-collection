@@ -1,0 +1,13 @@
+.box_office {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.up_icon {
+  color: var(--color-green-primary);
+}
+
+.down_icon {
+  color: var(--color-red-light);
+}

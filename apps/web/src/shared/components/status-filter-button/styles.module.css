@@ -1,0 +1,68 @@
+.root_wrapper {
+  --border-color: var(--color-gray-dark);
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 20px 5px 10px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  border-color: var(--border-color);
+
+  cursor: pointer;
+}
+
+.root_wrapper.red {
+  --border-color: var(--color-red-primary);
+
+  color: var(--color-red-primary);
+  background-color: var(--color-red-extra-light);
+}
+
+.root_wrapper.yellow {
+  --border-color: var(--color-yellow-primary);
+
+  color: var(--color-orange-primary);
+  background-color: var(--color-yellow-extra-light);
+}
+
+.root_wrapper.gray {
+  background-color: var(--color-gray-primary);
+}
+
+.input {
+  display: none;
+}
+
+.check_icon {
+  display: none;
+}
+
+.icon_wrapper {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  background-color: white;
+}
+
+.check_icon {
+  width: 12px;
+  height: 12px;
+}
+
+.input[type='checkbox'] + .icon_wrapper {
+  border-radius: 5px;
+}
+
+.input:checked + .icon_wrapper .check_icon {
+  display: block;
+}
+
+.title {
+  font-size: 12px;
+  text-transform: uppercase;
+}

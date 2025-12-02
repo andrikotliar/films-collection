@@ -1,0 +1,10 @@
+.messages_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.error_message {
+  color: var(--color-red-light);
+  font-size: 12px;
+}

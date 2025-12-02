@@ -1,0 +1,19 @@
+.nomination {
+  display: flex;
+  padding-right: 5px;
+  gap: 5px;
+}
+
+.nomination::before {
+  content: '—';
+  color: var(--color-yellow-primary);
+}
+
+.nominee_link {
+  font-size: var(--text-sm);
+}
+
+.nomination_comment {
+  font-size: var(--text-xs);
+  color: var(--color-gray-dark);
+}
