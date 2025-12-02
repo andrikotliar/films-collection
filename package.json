@@ -9,7 +9,9 @@
     "db:init": "cd apps/api && pnpm db:migrate",
     "db:start": "docker compose --env-file=apps/api/.env up database -d",
     "dev": "pnpm db:start && pnpm run -r --parallel --aggregate-output dev",
-    "start:prod": "cd apps/api && pnpm db:deploy && pnpm start"
+    "start:prod": "cd apps/api && pnpm db:deploy && pnpm start",
+    "lint:api": "cd apps/api && pnpm run lint",
+    "lint:web": "cd apps/web && pnpm run lint"
   },
   "author": "Andrii Kotliar",
   "repository": {
