@@ -4,7 +4,7 @@ import type { PrismaClient } from '@prisma/client';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
-import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
+import type { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import StaticPlugin from '@fastify/static';
 import { AuthPlugin, RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
 import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from '~/shared';

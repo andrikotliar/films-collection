@@ -1,10 +1,10 @@
 import { convertEnumValueToLabel, type Deps } from '~/shared';
-import { FilmsRepository } from './films.repository';
-import {
+import type { FilmsRepository } from './films.repository';
+import type {
   GetFilmRelatedChaptersQuery,
   GetAdminListQuery,
   GetFilmsListQuery,
-  type FilmOptionsQueries,
+  FilmOptionsQueries,
 } from './schemas';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
@@ -150,5 +150,9 @@ export class FilmsService {
 
   updateFilmWatchCount(filmId: number, value: number) {
     return this.filmsRepository.updateWatchCounter(filmId, value);
+  }
+
+  deleteFilm(id: number) {
+    return this.filmsRepository.delete(id, new Date());
   }
 }

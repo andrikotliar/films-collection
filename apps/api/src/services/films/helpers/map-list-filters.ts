@@ -1,5 +1,5 @@
-import { Prisma } from '@prisma/client';
-import { GetFilmsListQuery } from '../schemas';
+import type { Prisma } from '@prisma/client';
+import type { GetFilmsListQuery } from '../schemas';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -40,6 +40,7 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
 
   const filters: Prisma.FilmWhereInput = {
     draft: false,
+    deletedAt: null,
   };
 
   if (startDate || endDate) {
