@@ -129,8 +129,8 @@ export const filmsRoutes = useRoutes('films', [
     method: 'DELETE',
     url: '/admin/:id',
     schema: { params: IdParamSchema },
-    handler: async ({ request }) => {
-      return { id: request.params.id };
+    handler: async ({ request, app }) => {
+      return app.container.resolve('filmsService').deleteFilm(request.params.id);
     },
   }),
 ]);
