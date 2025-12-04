@@ -1,4 +1,5 @@
 .poster {
+  display: flex;
   width: 320px;
   border: var(--border-default);
   border-radius: var(--rounded-default);

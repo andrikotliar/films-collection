@@ -8,10 +8,6 @@
   align-items: flex-start;
 }
 
-.role_item_actor {
-  align-items: center;
-}
-
 .role_item:last-child {
   border: 0;
 }
@@ -57,11 +53,7 @@
   color: var(--color-gray-dark);
 }
 
-@media (width < 480px) {
-  .role_item_actor {
-    align-items: flex-start;
-  }
-
+@media (width < 520px) {
   .role_item {
     padding: 15px;
     flex-direction: column;

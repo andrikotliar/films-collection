@@ -1,7 +1,7 @@
 import type { JWT } from '@fastify/jwt';
 import type { PrismaClient } from '@prisma/client';
 import type { EnvVariables } from '~/shared/configs';
-import { services } from '~/services';
+import type { services } from '~/services';
 
 export type ServicesMap = typeof services;
 export type ServiceKeys = keyof ServicesMap;

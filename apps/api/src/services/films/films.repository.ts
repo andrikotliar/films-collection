@@ -1,4 +1,4 @@
-import { Film, Prisma } from '@prisma/client';
+import type { Film, Prisma } from '@prisma/client';
 import {
   DEFAULT_PAGINATION_LIMIT,
   DEFAULT_SEARCH_LIMIT,
@@ -142,6 +142,7 @@ export class FilmsRepository {
       },
       where: {
         id,
+        deletedAt: null,
       },
     });
   }
@@ -150,6 +151,7 @@ export class FilmsRepository {
     return this.databaseClient.film.findUnique({
       where: {
         id,
+        deletedAt: null,
       },
       select: {
         title: true,
@@ -233,6 +235,7 @@ export class FilmsRepository {
           contains: query,
           mode: 'insensitive',
         },
+        deletedAt: null,
       },
       take: DEFAULT_SEARCH_LIMIT,
     });
@@ -251,6 +254,7 @@ export class FilmsRepository {
   findChapters(chapterKey: string, filmId?: number) {
     const where: Prisma.FilmWhereInput = {
       chapterKey,
+      deletedAt: null,
     };
 
     if (filmId) {
@@ -307,7 +311,9 @@ export class FilmsRepository {
   }
 
   async getFilmsListByQuery({ q, selected }: FilmOptionsQueries) {
-    const whereOptions: Prisma.FilmWhereInput = {};
+    const whereOptions: Prisma.FilmWhereInput = {
+      deletedAt: null,
+    };
 
     if (q) {
       whereOptions.title = {
@@ -360,6 +366,17 @@ export class FilmsRepository {
       },
       data: {
         realCounter: value,
+      },
+    });
+  }
+
+  delete(id: number, date: Date) {
+    return this.databaseClient.film.update({
+      where: {
+        id,
+      },
+      data: {
+        deletedAt: date,
       },
     });
   }
