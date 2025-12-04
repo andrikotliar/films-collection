@@ -11,6 +11,6 @@ primary_region = 'fra'
 
 [[vm]]
   size = 'shared-cpu-1x'
-  memory = '256'
+  memory = '512'
   cpu_kind = 'shared'
   cpus = 1
