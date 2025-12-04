@@ -152,7 +152,9 @@ export class FilmsService {
     return this.filmsRepository.updateWatchCounter(filmId, value);
   }
 
-  deleteFilm(id: number) {
-    return this.filmsRepository.delete(id, new Date());
+  async deleteFilm(id: number) {
+    const deleteFilm = await this.filmsRepository.delete(id, new Date());
+
+    return { id: deleteFilm.id };
   }
 }

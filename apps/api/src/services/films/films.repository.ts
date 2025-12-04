@@ -235,6 +235,7 @@ export class FilmsRepository {
           contains: query,
           mode: 'insensitive',
         },
+        deletedAt: null,
       },
       take: DEFAULT_SEARCH_LIMIT,
     });
@@ -253,6 +254,7 @@ export class FilmsRepository {
   findChapters(chapterKey: string, filmId?: number) {
     const where: Prisma.FilmWhereInput = {
       chapterKey,
+      deletedAt: null,
     };
 
     if (filmId) {
