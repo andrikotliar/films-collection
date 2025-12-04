@@ -50,6 +50,7 @@ export const AdminFilmsTools = () => {
         placeholder="Search film"
         className={styles.search_input}
         onChange={handleSearch}
+        defaultValue={searchParams.q ?? ''}
       />
       <div>
         <SortingPopup

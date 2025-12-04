@@ -13,6 +13,10 @@
   transition: background-color var(--transition-timing);
 }
 
+.award_grid:last-child {
+  border-bottom: 0;
+}
+
 .award_grid:hover {
   background-color: var(--color-gray-light);
 }
