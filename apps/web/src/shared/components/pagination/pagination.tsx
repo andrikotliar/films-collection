@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./pagination.module.css";
 import { useMemo } from 'react';
 import clsx from 'clsx';
 import { buildPagination } from '~/shared';

@@ -1,15 +1,15 @@
-import styles from './styles.module.css';
+import styles from './trailers.module.css';
 import { Modal, type Film, type FilmTrailer } from '~/shared';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import { TrailersPlaylist } from '~/routes/films/-components/summary-section/components/trailers/components';
 
-type Props = {
+type TrailersProps = {
   data: FilmTrailer[];
   type: Film['type'];
 };
 
-export const Trailers = ({ data, type }: Props) => {
+export const Trailers = ({ data, type }: TrailersProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!data.length) {

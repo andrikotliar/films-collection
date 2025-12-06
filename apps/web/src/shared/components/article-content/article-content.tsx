@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./article-content.module.css";
 import clsx from 'clsx';
 import { type ComponentProps } from 'react';
 

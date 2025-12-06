@@ -3,7 +3,7 @@ import type { FormAward, FilmFormValues } from '~/routes/console/films_/-types';
 import { type ListOption, Form } from '~/shared';
 import { NominationSelect } from './components';
 
-type Props = {
+type AwardsSelectProps = {
   awardOptions: ListOption<number>[];
 };
 
@@ -14,7 +14,7 @@ const defaultAward: FormAward = {
   comment: null,
 };
 
-export const AwardsSelect = ({ awardOptions }: Props) => {
+export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
   const { control } = useFormContext<FilmFormValues>();
 
   const { fields, append, remove } = useFieldArray({

@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./dates.module.css";
 import { useFormContext } from 'react-hook-form';
 import { FieldLabel, Form, type CollectionEventMutationPayload } from '~/shared';
 

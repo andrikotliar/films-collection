@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./form-modal.module.css";
 import { type FormComponentProps, Modal, Panel } from '~/shared';
 
 type FormModalProps<T extends Record<PropertyKey, unknown>> = {

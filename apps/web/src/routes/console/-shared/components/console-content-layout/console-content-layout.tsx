@@ -1,10 +1,10 @@
 import { type PropsWithChildren } from 'react';
-import styles from './styles.module.css';
+import styles from './console-content-layout.module.css';
 import { ConsoleTitle } from '~/routes/console/-shared/components/console-content-layout/components';
 import { BackLink } from '~/shared';
 import type { FileRoutesByTo } from '~/routeTree.gen';
 
-type Props = {
+type ConsoleContentLayoutProps = {
   title: string;
   backPath?: keyof FileRoutesByTo;
   backPathTitle?: string;
@@ -17,7 +17,7 @@ export const ConsoleContentLayout = ({
   title,
   backPath,
   backPathTitle = DEFAULT_BACK_LINK_TITLE,
-}: PropsWithChildren<Props>) => {
+}: PropsWithChildren<ConsoleContentLayoutProps>) => {
   return (
     <div className={styles.content_layout}>
       {backPath && <BackLink path={backPath}>{backPathTitle}</BackLink>}

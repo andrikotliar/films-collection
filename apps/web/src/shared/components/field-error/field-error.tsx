@@ -1,11 +1,11 @@
-import styles from './styles.module.css';
+import styles from './field-error.module.css';
 import { type FormError } from '~/shared';
 
-type Props = {
+type FieldErrorProps = {
   error?: FormError;
 };
 
-export const FieldError = ({ error }: Props) => {
+export const FieldError = ({ error }: FieldErrorProps) => {
   if (!error) {
     return null;
   }

@@ -3,13 +3,13 @@ import { type UniqueIdentifier } from '@dnd-kit/core';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { GripVerticalIcon } from 'lucide-react';
-import styles from './styles.module.css';
+import styles from './sortable-item.module.css';
 
-type Props = {
+type SortableItemProps = {
   id: UniqueIdentifier;
 };
 
-export const SortableItem = ({ children, id }: PropsWithChildren<Props>) => {
+export const SortableItem = ({ children, id }: PropsWithChildren<SortableItemProps>) => {
   const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id });
 
   const style = {

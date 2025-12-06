@@ -1,10 +1,10 @@
-import styles from './styles.module.css';
+import styles from './message.module.css';
 import { type Toast, type ToastType } from '~/shared';
 import clsx from 'clsx';
 import { CircleAlertIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, XIcon } from 'lucide-react';
 import { type ReactNode } from 'react';
 
-type Props = {
+type MessageProps = {
   data: Toast;
   onRemove: (id: number) => void;
 };
@@ -23,7 +23,7 @@ const typeToIcon: Record<ToastType, ReactNode> = {
   info: <InfoIcon />,
 };
 
-export const Message = ({ data, onRemove }: Props) => {
+export const Message = ({ data, onRemove }: MessageProps) => {
   return (
     <div
       className={clsx(styles.message, typeToClassName[data.type])}

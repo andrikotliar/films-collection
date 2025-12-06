@@ -1,12 +1,12 @@
-import styles from './styles.module.css';
+import styles from './role-item.module.css';
 import clsx from 'clsx';
 import { type FilmPerson, personRoleToTitle, RouterLink } from '~/shared';
 
-type Props = {
+type RoleItemProps = {
   data: FilmPerson;
 };
 
-export const RoleItem = ({ data }: Props) => {
+export const RoleItem = ({ data }: RoleItemProps) => {
   const isActorRole = data.role === 'ACTOR';
 
   return (

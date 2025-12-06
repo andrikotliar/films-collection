@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./console-title.module.css";
 import clsx from 'clsx';
 import { type PropsWithChildren } from 'react';
 import type { PropsWithClassName } from '~/shared';

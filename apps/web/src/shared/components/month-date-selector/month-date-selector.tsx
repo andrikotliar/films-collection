@@ -1,7 +1,7 @@
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { monthOptions } from '~/shared/components/month-date-selector/configs';
 import { Select } from '~/shared/components/select/select';
-import styles from './styles.module.css';
+import styles from "./month-date-selector.module.css";
 import clsx from 'clsx';
 import { getDateCode, getDateCodeParts, getDefaultDateCode, type FormError } from '~/shared';
 import { FieldError } from '~/shared/components/field-error/field-error';

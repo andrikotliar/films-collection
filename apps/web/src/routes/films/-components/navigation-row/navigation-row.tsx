@@ -1,5 +1,5 @@
 import { BackLink } from '~/shared';
-import styles from './styles.module.css';
+import styles from "./navigation-row.module.css";
 
 export const NavigationRow = () => {
   return (

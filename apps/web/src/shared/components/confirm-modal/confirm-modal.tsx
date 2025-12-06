@@ -1,7 +1,7 @@
-import styles from './styles.module.css';
+import styles from './confirm-modal.module.css';
 import { Button, type ButtonVariant, Modal } from '~/shared/components';
 
-type Props<T> = {
+type ConfirmModalProps<T> = {
   title?: string;
   description?: string;
   data: T | null;
@@ -23,7 +23,7 @@ export const ConfirmModal = <T,>({
   cancelButtonTitle = 'Cancel',
   confirmButtonVariant = 'danger',
   isPending = false,
-}: Props<T>) => {
+}: ConfirmModalProps<T>) => {
   const isOpen = data !== null;
 
   if (!isOpen) {

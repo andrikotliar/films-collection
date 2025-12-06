@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import { type PropsWithChildren } from 'react';
-import styles from './styles.module.css';
+import styles from './panel.module.css';
 
-type Props = {
+type PanelProps = {
   hasPaddings?: boolean;
   isFlexContainer?: boolean;
 };
@@ -11,7 +11,7 @@ export const Panel = ({
   children,
   hasPaddings = true,
   isFlexContainer = false,
-}: PropsWithChildren<Props>) => {
+}: PropsWithChildren<PanelProps>) => {
   return (
     <div
       className={clsx(styles.panel, {

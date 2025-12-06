@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./form-checkboxes-group.module.css";
 import { useFormContext } from 'react-hook-form';
 import { FieldError, FieldLabel, type CheckboxProps, type ListOption } from '~/shared';
 import { FormCheckbox } from '~/shared/components/form/components/form-checkbox/form-checkbox';

@@ -4,12 +4,12 @@ import { type ListOption, Form, type PersonMutationPayload } from '~/shared';
 import { defaultPersonValues } from '~/routes/console/-shared';
 import { PeopleApi } from '~/api';
 
-type Props = {
+type CastAndCrewSelectProps = {
   positionOptions: ListOption[];
   onPersonChange: (person: PersonMutationPayload) => void;
 };
 
-export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: Props) => {
+export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCrewSelectProps) => {
   const { control } = useFormContext<FilmFormValues>();
 
   const { fields, append, remove } = useFieldArray({

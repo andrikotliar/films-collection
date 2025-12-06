@@ -1,9 +1,9 @@
-import styles from './styles.module.css';
+import styles from './form-array-wrapper.module.css';
 import { type PropsWithChildren } from 'react';
 import { PlusIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
 
-type Props = {
+type FormArrayWrapperProps = {
   onCreate: VoidFunction;
   createButtonLabel?: string;
 };
@@ -12,7 +12,7 @@ export const FormArrayWrapper = ({
   children,
   onCreate,
   createButtonLabel = 'Add item',
-}: PropsWithChildren<Props>) => {
+}: PropsWithChildren<FormArrayWrapperProps>) => {
   return (
     <div className={styles.wrapper}>
       {children}

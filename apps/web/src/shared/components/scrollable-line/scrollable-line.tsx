@@ -1,8 +1,8 @@
-import styles from './styles.module.css';
+import styles from './scrollable-line.module.css';
 import type { PropsWithChildren } from 'react';
 
-type Props = PropsWithChildren;
+type ScrollableLineProps = PropsWithChildren;
 
-export const ScrollableLine = ({ children }: Props) => {
+export const ScrollableLine = ({ children }: ScrollableLineProps) => {
   return <div className={styles.scrollable_line}>{children}</div>;
 };

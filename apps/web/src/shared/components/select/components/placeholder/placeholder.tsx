@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./placeholder.module.css";
 import { type PropsWithChildren } from 'react';
 
 export const Placeholder = ({ children }: PropsWithChildren) => {

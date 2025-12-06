@@ -1,18 +1,18 @@
 import { type ComponentProps, forwardRef } from 'react';
-import styles from './styles.module.css';
+import styles from './image.module.css';
 import clsx from 'clsx';
 import { handleImageError } from './helpers';
 import { env } from '~/shared';
 import { imageNotFoundPlaceholder } from '~/assets';
 
-type Props = {
+type ImageProps = {
   src?: string | null;
   errorImageSrc?: string;
   isExternal?: boolean;
   shouldFitContainer?: boolean;
 } & Omit<ComponentProps<'img'>, 'onError' | 'src'>;
 
-export const Image = forwardRef<HTMLImageElement, Props>(
+export const Image = forwardRef<HTMLImageElement, ImageProps>(
   (
     {
       src,

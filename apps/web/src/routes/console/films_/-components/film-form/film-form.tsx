@@ -11,11 +11,11 @@ import {
   TrailersSelect,
 } from '~/routes/console/films_/-components/film-form/components';
 
-type Props = {
+type FilmFormProps = {
   values: FilmFormValues;
 };
 
-export const FilmForm = ({ values }: Props) => {
+export const FilmForm = ({ values }: FilmFormProps) => {
   const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
   const [person, setPerson] = useState<PersonMutationPayload | null>(null);
 

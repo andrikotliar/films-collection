@@ -1,9 +1,9 @@
-import styles from './styles.module.css';
+import styles from './chapter-link.module.css';
 import { Link } from '@tanstack/react-router';
 import clsx from 'clsx';
 import { Image } from '~/shared';
 
-type Props = {
+type ChapterLinkProps = {
   id: number;
   poster: string;
   title: string;
@@ -11,7 +11,7 @@ type Props = {
   isActive: boolean;
 };
 
-export const ChapterLink = ({ id, poster, title, chapter, isActive }: Props) => {
+export const ChapterLink = ({ id, poster, title, chapter, isActive }: ChapterLinkProps) => {
   return (
     <Link
       to="/films/$id"

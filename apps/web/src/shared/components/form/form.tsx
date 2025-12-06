@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./form.module.css";
 import type { PropsWithChildren, ReactNode } from 'react';
 import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
 import type { ObjectSchema } from 'yup';

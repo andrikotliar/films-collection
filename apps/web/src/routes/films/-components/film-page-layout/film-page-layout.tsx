@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./film-page-layout.module.css";
 import type { PropsWithChildren } from 'react';
 
 export const FilmPageLayout = ({ children }: PropsWithChildren) => {

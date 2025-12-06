@@ -1,12 +1,12 @@
-import styles from './styles.module.css';
+import styles from './options-search.module.css';
 import { type ChangeEventHandler } from 'react';
 
-type Props = {
+type OptionsSearchProps = {
   value: string;
   onSearch: ChangeEventHandler<HTMLInputElement>;
 };
 
-export const OptionsSearch = ({ value, onSearch }: Props) => {
+export const OptionsSearch = ({ value, onSearch }: OptionsSearchProps) => {
   return (
     <div className={styles.search_wrapper}>
       <input

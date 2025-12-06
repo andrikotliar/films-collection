@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./login-layout.module.css";
 import { type PropsWithChildren } from 'react';
 
 type LoginLayoutProps = PropsWithChildren;

@@ -1,13 +1,13 @@
-import styles from './styles.module.css';
+import styles from './nomination.module.css';
 import { type Person, RouterLink } from '~/shared';
 
-type Props = {
+type NominationProps = {
   title: string;
   comment: string | null;
   nominee: Person | null;
 };
 
-export const Nomination = ({ title, comment, nominee }: Props) => {
+export const Nomination = ({ title, comment, nominee }: NominationProps) => {
   return (
     <div className={styles.nomination}>
       <div>

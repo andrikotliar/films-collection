@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./text-editor.module.css";
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { type FormError } from '~/shared';

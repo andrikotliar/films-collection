@@ -1,6 +1,6 @@
 import { Select, TextInput, useDebouncedSearch, fetchInitialDataQuery } from '~/shared';
 import { getRouteApi } from '@tanstack/react-router';
-import styles from './styles.module.css';
+import styles from "./filters.module.css";
 import { useSuspenseQuery } from '@tanstack/react-query';
 
 const routeApi = getRouteApi('/console/general_/people');

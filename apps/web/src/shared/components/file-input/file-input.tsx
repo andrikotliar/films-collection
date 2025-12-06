@@ -2,7 +2,7 @@ import { imageNotFoundPlaceholder } from '~/assets';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { Image } from '~/shared/components/image/image';
 import { type ChangeEvent, type CSSProperties, useRef, useState } from 'react';
-import styles from './styles.module.css';
+import styles from "./file-input.module.css";
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
 import { type FormError } from '~/shared';

@@ -1,15 +1,15 @@
-import styles from './styles.module.css';
+import styles from './rating.module.css';
 import { Link } from '@tanstack/react-router';
 import clsx from 'clsx';
 import { StarIcon } from 'lucide-react';
 
-type Props = {
+type RatingProps = {
   value: number;
 };
 
 const HIGHEST_RATING_VALUE = 3;
 
-export const Rating = ({ value }: Props) => {
+export const Rating = ({ value }: RatingProps) => {
   const isHighestRating = value === HIGHEST_RATING_VALUE;
 
   return (

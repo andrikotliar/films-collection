@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./messages-wrapper.module.css";
 import { type PropsWithChildren } from 'react';
 
 export const MessagesWrapper = ({ children }: PropsWithChildren) => {

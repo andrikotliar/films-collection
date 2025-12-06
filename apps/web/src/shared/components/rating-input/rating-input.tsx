@@ -1,5 +1,5 @@
 import { StarIcon } from 'lucide-react';
-import styles from './styles.module.css';
+import styles from "./rating-input.module.css";
 import { FieldLabel } from '../field-label/field-label';
 
 export type RatingInputProps = {

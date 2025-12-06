@@ -7,11 +7,11 @@ import {
   useRef,
   useState,
 } from 'react';
-import styles from './styles.module.css';
+import styles from './popup-menu.module.css';
 import { createPortal } from 'react-dom';
 import clsx from 'clsx';
 
-type Props = {
+type PopupMenuProps = {
   onClose: VoidFunction;
   isOpen: boolean;
   triggerRef: RefObject<HTMLElement>;
@@ -39,7 +39,7 @@ export const PopupMenu = ({
   shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose = false,
   ...divProps
-}: Props) => {
+}: PopupMenuProps) => {
   const [position, setPosition] = useState<Position | null>(null);
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);

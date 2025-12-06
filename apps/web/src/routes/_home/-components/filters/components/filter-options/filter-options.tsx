@@ -1,10 +1,10 @@
 import { Form, type FilterItem } from '~/shared';
 
-type Props = {
+type FilterOptionsProps = {
   filter: FilterItem;
 };
 
-export const FilterOptions = ({ filter }: Props) => {
+export const FilterOptions = ({ filter }: FilterOptionsProps) => {
   switch (filter.type) {
     case 'checkmark':
       return (

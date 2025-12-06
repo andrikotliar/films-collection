@@ -1,11 +1,11 @@
-import styles from './styles.module.css';
+import styles from './video.module.css';
 
-type Props = {
+type VideoProps = {
   trailerId: string;
   shouldAutoPlay: boolean;
 };
 
-export const Video = ({ trailerId, shouldAutoPlay }: Props) => {
+export const Video = ({ trailerId, shouldAutoPlay }: VideoProps) => {
   const autoPlayOption = shouldAutoPlay ? '1' : '0';
 
   return (
