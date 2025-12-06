@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./general-pages-menu.module.css";
 import type { MenuConfigItem } from '~/shared';
 import { Link } from '@tanstack/react-router';
 import {

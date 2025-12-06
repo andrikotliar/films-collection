@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./item-row.module.css";
 import { Button, PriorityBadge } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';

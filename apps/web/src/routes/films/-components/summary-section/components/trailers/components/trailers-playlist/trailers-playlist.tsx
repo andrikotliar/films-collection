@@ -1,16 +1,16 @@
-import styles from './styles.module.css';
+import styles from './trailers-playlist.module.css';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import clsx from 'clsx';
 import { type FilmTrailer } from '~/shared';
 import { Video } from '~/routes/films/-components/summary-section/components/trailers/components/video/video';
 
-type Props = {
+type TrailersPlaylistProps = {
   trailers: FilmTrailer[];
   previewLabel: string;
 };
 
-export const TrailersPlaylist = ({ trailers, previewLabel }: Props) => {
+export const TrailersPlaylist = ({ trailers, previewLabel }: TrailersPlaylistProps) => {
   const [shouldAutoPlay, setShouldAutoPlay] = useState(trailers.length === 1);
   const [activeVideoId, setActiveVideoId] = useState(trailers[0].videoId);
 

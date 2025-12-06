@@ -1,16 +1,16 @@
-import styles from './styles.module.css';
+import styles from './films-section.module.css';
 import { FilmsNotFound, AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import { PER_PAGE, type FilmsListResponse, Loader, Pagination } from '~/shared';
 
-type Props = {
+type FilmsSectionProps = {
   data: FilmsListResponse;
   isLoading: boolean;
 };
 
 const routeApi = getRouteApi('/_home/');
 
-export const FilmsSection = ({ data, isLoading }: Props) => {
+export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
 

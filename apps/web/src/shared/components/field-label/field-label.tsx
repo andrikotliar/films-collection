@@ -1,5 +1,5 @@
 import { type PropsWithChildren } from 'react';
-import styles from './styles.module.css';
+import styles from "./field-label.module.css";
 import clsx from 'clsx';
 import type { PropsWithClassName } from '~/shared';
 

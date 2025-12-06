@@ -1,15 +1,15 @@
-import styles from './styles.module.css';
+import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
 import { useQuery } from '@tanstack/react-query';
 import { fetchNominationsByAwardQuery, FieldError, Form, Loader } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { PeopleApi } from '~/api';
 
-type Props = {
+type NominationSelectProps = {
   index: number;
 };
 
-export const NominationSelect = ({ index }: Props) => {
+export const NominationSelect = ({ index }: NominationSelectProps) => {
   const awards = useWatch<FilmFormValues, 'awards'>({
     name: 'awards',
   });

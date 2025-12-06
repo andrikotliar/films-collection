@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./toggle.module.css";
 import { type ChangeEvent } from 'react';
 
 export type ToggleProps = {

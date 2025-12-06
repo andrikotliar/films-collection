@@ -1,15 +1,15 @@
-import styles from './styles.module.css';
+import styles from './event-banner.module.css';
 import { getDateMonthLabel, type CollectionEventFilled } from '~/shared';
 import { Image } from '~/shared/components/image/image';
 import { Link } from '@tanstack/react-router';
 import { ArrowRightIcon, CalendarIcon, TimerIcon } from 'lucide-react';
 import { EventBannerDataRow } from '~/routes/_home/-components/films-section/components/event-banner/components';
 
-type Props = {
+type EventBannerProps = {
   event: CollectionEventFilled;
 };
 
-export const EventBanner = ({ event }: Props) => {
+export const EventBanner = ({ event }: EventBannerProps) => {
   const currentYear = new Date().getFullYear();
 
   return (

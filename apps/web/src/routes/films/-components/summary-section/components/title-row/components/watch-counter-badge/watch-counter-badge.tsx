@@ -1,12 +1,12 @@
 import type { WatchCounter } from '~/shared';
 import { EyeIcon } from 'lucide-react';
-import styles from './styles.module.css';
+import styles from './watch-counter-badge.module.css';
 
-type Props = {
+type WatchCounterBadgeProps = {
   counters: WatchCounter;
 };
 
-export const WatchCounterBadge = ({ counters }: Props) => {
+export const WatchCounterBadge = ({ counters }: WatchCounterBadgeProps) => {
   return (
     <div
       title={`Accurate watch counter: ${counters.realCounter}. ${

@@ -1,11 +1,11 @@
 import clsx from 'clsx';
-import styles from './styles.module.css';
+import styles from './modal-content.module.css';
 import type { PropsWithChildren } from 'react';
 import type { PropsWithClassName } from '~/shared';
 
-type Props = PropsWithChildren<PropsWithClassName>;
+type ModalContentProps = PropsWithChildren<PropsWithClassName>;
 
-export const ModalContent = ({ children, className }: Props) => {
+export const ModalContent = ({ children, className }: ModalContentProps) => {
   return (
     <div className={clsx(styles.content, className)} onClick={(e) => e.stopPropagation()}>
       {children}

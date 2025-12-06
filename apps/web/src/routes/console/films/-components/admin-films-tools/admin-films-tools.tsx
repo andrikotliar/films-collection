@@ -5,7 +5,7 @@ import {
   TextInput,
   useDebouncedSearch,
 } from '~/shared';
-import styles from './styles.module.css';
+import styles from "./admin-films-tools.module.css";
 import { getRouteApi } from '@tanstack/react-router';
 
 const sortingFields: ListOption[] = [

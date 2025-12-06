@@ -1,11 +1,11 @@
 import { type PropsWithChildren, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import styles from './styles.module.css';
+import styles from './modal.module.css';
 import clsx from 'clsx';
 import type { PropsWithClassName } from '~/shared/types';
 import { ModalCloseButton, ModalContent } from '~/shared/components/modal/components';
 
-type Props = PropsWithClassName<{
+type ModalProps = PropsWithClassName<{
   isOpen: boolean;
   onClose: VoidFunction;
   isAllowedClickOutside?: boolean;
@@ -17,7 +17,7 @@ export const Modal = ({
   className,
   onClose,
   isAllowedClickOutside = true,
-}: PropsWithChildren<Props>) => {
+}: PropsWithChildren<ModalProps>) => {
   useEffect(() => {
     if (isOpen) {
       const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;

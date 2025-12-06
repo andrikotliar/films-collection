@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./select.module.css";
 import { type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { type FormError, type ListOption, useDebouncedSearch } from '~/shared';
 import { FieldLabel } from '~/shared/components/field-label/field-label';

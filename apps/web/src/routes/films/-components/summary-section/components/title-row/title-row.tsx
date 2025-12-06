@@ -3,14 +3,14 @@ import {
   Title,
   WatchCounterBadge,
 } from '~/routes/films/-components/summary-section/components/title-row/components';
-import styles from './styles.module.css';
+import styles from './title-row.module.css';
 import { type FilmDetails } from '~/shared';
 
-type Props = {
+type TitleRowProps = {
   data: FilmDetails;
 };
 
-export const TitleRow = ({ data }: Props) => {
+export const TitleRow = ({ data }: TitleRowProps) => {
   return (
     <div className={styles.title_row}>
       <Title>{data.title}</Title>

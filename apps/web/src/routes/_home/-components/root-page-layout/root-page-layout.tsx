@@ -1,5 +1,5 @@
 import { type ComponentProps } from 'react';
-import styles from './styles.module.css';
+import styles from "./root-page-layout.module.css";
 import clsx from 'clsx';
 
 type RootPageLayoutProps = ComponentProps<'div'>;

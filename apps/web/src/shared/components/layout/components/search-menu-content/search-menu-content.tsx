@@ -1,13 +1,13 @@
-import styles from './styles.module.css';
+import styles from './search-menu-content.module.css';
 import { type FilmSearchResult } from '~/shared';
 import { FoundFilm } from '../found-film/found-film';
 
-type Props = {
+type SearchMenuContentProps = {
   films: FilmSearchResult[];
   onFilmOpen: VoidFunction;
 };
 
-export const SearchMenuContent = ({ films, onFilmOpen }: Props) => {
+export const SearchMenuContent = ({ films, onFilmOpen }: SearchMenuContentProps) => {
   const isEmpty = films.length === 0;
 
   if (isEmpty) {

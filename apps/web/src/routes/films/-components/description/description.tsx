@@ -1,12 +1,12 @@
-import styles from './styles.module.css';
+import styles from './description.module.css';
 import sanitizeHtml from 'sanitize-html';
 import { ALLOWED_HTML_TAGS } from '~/shared';
 
-type Props = {
+type DescriptionProps = {
   rawHtml: string;
 };
 
-export const Description = ({ rawHtml }: Props) => {
+export const Description = ({ rawHtml }: DescriptionProps) => {
   const content = sanitizeHtml(rawHtml, {
     allowedTags: ALLOWED_HTML_TAGS,
   });

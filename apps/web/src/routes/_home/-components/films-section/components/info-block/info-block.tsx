@@ -1,14 +1,14 @@
-import styles from './styles.module.css';
+import styles from './info-block.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
 
-type Props = {
+type InfoBlockProps = {
   label: string;
   title: string;
   description?: string | null;
 };
 
-export const InfoBlock = ({ label, title, description }: Props) => {
+export const InfoBlock = ({ label, title, description }: InfoBlockProps) => {
   const navigate = useNavigate();
 
   const handleClearFilter = () => {

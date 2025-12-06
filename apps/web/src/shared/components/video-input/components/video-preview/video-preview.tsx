@@ -1,14 +1,14 @@
-import styles from './styles.module.css';
+import styles from './video-preview.module.css';
 import { Image } from '~/shared/components/image/image';
 import { replaceUrlId, EMBEDDED_YOUTUBE_VIDEO_URL, YOUTUBE_VIDEO_DIRECT_URL } from '~/shared';
 import { PlayIcon } from 'lucide-react';
 import { videoNotFoundPlaceholder } from '~/assets';
 
-type Props = {
+type VideoPreviewProps = {
   videoId: string;
 };
 
-export const VideoPreview = ({ videoId }: Props) => {
+export const VideoPreview = ({ videoId }: VideoPreviewProps) => {
   if (!videoId.length) {
     return (
       <div className={styles.preview_wrapper}>

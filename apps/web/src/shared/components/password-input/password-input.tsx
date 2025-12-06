@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./password-input.module.css";
 import { EyeIcon, EyeOffIcon } from 'lucide-react';
 import { forwardRef, useState } from 'react';
 import { TextInput, TextInputProps } from '../text-input/text-input';

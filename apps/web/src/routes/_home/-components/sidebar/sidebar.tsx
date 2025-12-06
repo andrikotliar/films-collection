@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./sidebar.module.css";
 import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import clsx from 'clsx';

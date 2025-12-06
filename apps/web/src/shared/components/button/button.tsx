@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./button.module.css";
 import { type MouseEventHandler, type PropsWithChildren, type ReactNode } from 'react';
 import clsx from 'clsx';
 import { Loader } from '~/shared/components/loader/loader';

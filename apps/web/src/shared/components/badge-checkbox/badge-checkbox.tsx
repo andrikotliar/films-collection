@@ -1,14 +1,14 @@
 import { type ComponentProps, forwardRef } from 'react';
-import styles from './styles.module.css';
+import styles from './badge-checkbox.module.css';
 import { FieldError } from '../field-error/field-error';
 
-type Props = {
+type BadgeCheckboxProps = {
   label: string;
   type?: 'radio' | 'checkbox';
   error?: string | string[];
 } & Omit<ComponentProps<'input'>, 'type'>;
 
-export const BadgeCheckbox = forwardRef<HTMLInputElement, Props>(
+export const BadgeCheckbox = forwardRef<HTMLInputElement, BadgeCheckboxProps>(
   ({ label, type, error, ...inputProps }, ref) => {
     return (
       <label>

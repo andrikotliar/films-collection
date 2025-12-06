@@ -1,12 +1,12 @@
 import { type FilmsListItem, getYearFromDate, Image } from '~/shared';
-import styles from './styles.module.css';
+import styles from './films-grid.module.css';
 import { Link } from '@tanstack/react-router';
 
-type Props = {
+type FilmsGridProps = {
   films: FilmsListItem[];
 };
 
-export const FilmsGrid = ({ films }: Props) => {
+export const FilmsGrid = ({ films }: FilmsGridProps) => {
   return (
     <div className={styles.grid}>
       {films.map((film) => (

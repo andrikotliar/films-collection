@@ -1,11 +1,11 @@
 import { getFormattedDate } from '~/shared';
 import { DataLink } from '../data-link/data-link';
 
-type Props = {
+type ReleaseDateProps = {
   value: string;
 };
 
-export const ReleaseDate = ({ value }: Props) => {
+export const ReleaseDate = ({ value }: ReleaseDateProps) => {
   const sourceDate = new Date(value);
 
   const formattedDate = getFormattedDate(value);

@@ -1,5 +1,5 @@
 import { type ComponentProps, forwardRef } from 'react';
-import styles from './styles.module.css';
+import styles from "./date-picker.module.css";
 import { FieldError } from '../field-error/field-error';
 import { FieldLabel } from '../field-label/field-label';
 

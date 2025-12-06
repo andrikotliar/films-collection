@@ -1,14 +1,14 @@
-import styles from './styles.module.css';
+import styles from './found-film.module.css';
 import { Link } from '@tanstack/react-router';
 import { type FilmSearchResult, getYearFromDate } from '~/shared';
 import { Image } from '~/shared/components/image/image';
 
-type Props = {
+type FoundFilmProps = {
   film: FilmSearchResult;
   onFilmOpen: VoidFunction;
 };
 
-export const FoundFilm = ({ film, onFilmOpen }: Props) => {
+export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
   const genres = film.genres.map((genre) => genre.genre.title).join(', ');
 
   return (

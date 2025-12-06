@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./section.module.css";
 import { type PropsWithChildren } from 'react';
 
 type SectionProps = PropsWithChildren<{

@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./films-search.module.css";
 import { type ChangeEvent, useCallback, useRef, useState } from 'react';
 import { searchFilmsQuery, debounce } from '~/shared';
 import { useQuery } from '@tanstack/react-query';

@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./pending-film-form.module.css";
 import {
   FieldLabel,
   Form,

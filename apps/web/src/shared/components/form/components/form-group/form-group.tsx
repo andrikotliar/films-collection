@@ -1,12 +1,12 @@
 import { type PropsWithChildren } from 'react';
-import styles from './styles.module.css';
+import styles from './form-group.module.css';
 
-type Props = {
+type FormGroupProps = {
   title: string;
   bodyClassName?: string;
 };
 
-export const FormGroup = ({ children, title }: PropsWithChildren<Props>) => {
+export const FormGroup = ({ children, title }: PropsWithChildren<FormGroupProps>) => {
   return (
     <div className={styles.group}>
       <div className={styles.group_header}>

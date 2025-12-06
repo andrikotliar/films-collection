@@ -1,12 +1,12 @@
-import styles from './styles.module.css';
+import styles from './create-new-item-button.module.css';
 import { Button } from '~/shared/components/button/button';
 import { PlusIcon } from 'lucide-react';
 
-type Props = {
+type CreateNewItemButtonProps = {
   onCreate: VoidFunction;
 };
 
-export const CreateNewItemButton = ({ onCreate }: Props) => {
+export const CreateNewItemButton = ({ onCreate }: CreateNewItemButtonProps) => {
   return (
     <div className={styles.wrapper}>
       <Button variant="ghost" icon={<PlusIcon />} onClick={onCreate}>

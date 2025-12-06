@@ -1,13 +1,13 @@
-import styles from './styles.module.css';
+import styles from './awards.module.css';
 import { Link } from '@tanstack/react-router';
 import type { FilmAward } from '~/shared';
 import { Nomination } from '~/routes/films/-components/awards/components';
 
-type Props = {
+type AwardsProps = {
   data: FilmAward[];
 };
 
-export const Awards = ({ data }: Props) => {
+export const Awards = ({ data }: AwardsProps) => {
   return (
     <div className={styles.awards}>
       {data.map(({ award, nominations }) => (

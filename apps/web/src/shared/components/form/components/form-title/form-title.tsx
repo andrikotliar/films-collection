@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./form-title.module.css";
 import { type PropsWithChildren } from 'react';
 
 type FormTitleProps = PropsWithChildren;

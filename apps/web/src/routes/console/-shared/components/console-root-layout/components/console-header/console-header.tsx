@@ -1,16 +1,16 @@
-import styles from './styles.module.css';
+import styles from './console-header.module.css';
 import { LogOutIcon, MenuIcon } from 'lucide-react';
 import clsx from 'clsx';
 import { type RefObject } from 'react';
 import { useLogout } from '~/shared';
 
-type Props = {
+type ConsoleHeaderProps = {
   isMenuOpen: boolean;
   onMenuOpen: VoidFunction;
   buttonRef: RefObject<HTMLButtonElement>;
 };
 
-export const ConsoleHeader = ({ onMenuOpen, isMenuOpen, buttonRef }: Props) => {
+export const ConsoleHeader = ({ onMenuOpen, isMenuOpen, buttonRef }: ConsoleHeaderProps) => {
   const { mutate } = useLogout();
 
   return (

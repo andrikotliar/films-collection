@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from './filters.module.css';
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { FilterOptions } from './components';
@@ -12,7 +12,7 @@ import {
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
 
-type Props = {
+type FiltersProps = {
   config: FilterItem[];
   setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
   updateFiltersCount: (value: number) => void;
@@ -31,7 +31,7 @@ const defaultValues: FilmsListFilters = {
 
 const routeApi = getRouteApi('/_home/');
 
-export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Props) => {
+export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 

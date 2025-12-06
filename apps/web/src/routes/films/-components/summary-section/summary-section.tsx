@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from './summary-section.module.css';
 import { useMemo } from 'react';
 import { type FilmDetails, defineCssProperties, env } from '~/shared';
 import {
@@ -9,11 +9,11 @@ import {
 } from '~/routes/films/-components/summary-section/components';
 import { getFilmSummaryConfig } from '~/routes/films/-helpers';
 
-type Props = {
+type SummarySectionProps = {
   film: FilmDetails;
 };
 
-export const SummarySection = ({ film }: Props) => {
+export const SummarySection = ({ film }: SummarySectionProps) => {
   const filmConfig = useMemo(() => {
     return getFilmSummaryConfig(film);
   }, [film]);

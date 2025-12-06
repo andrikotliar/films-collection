@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from "./nominations-form.module.css";
 import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon, Trash2Icon } from 'lucide-react';

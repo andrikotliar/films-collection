@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react';
-import styles from './styles.module.css';
+import styles from './event-banner-data-row.module.css';
 
-type Props = {
+type EventBannerDataRowProps = {
   icon: ReactNode;
   value: string;
 };
 
-export const EventBannerDataRow = ({ icon, value }: Props) => {
+export const EventBannerDataRow = ({ icon, value }: EventBannerDataRowProps) => {
   return (
     <div className={styles.data_row}>
       {icon}

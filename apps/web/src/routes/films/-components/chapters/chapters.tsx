@@ -1,12 +1,12 @@
 import { ScrollableLine, type Chapter } from '~/shared';
 import { ChapterLink } from '~/routes/films/-components/chapters/components';
 
-type Props = {
+type ChaptersProps = {
   data: Chapter[];
   filmId: number;
 };
 
-export const Chapters = ({ data, filmId }: Props) => {
+export const Chapters = ({ data, filmId }: ChaptersProps) => {
   return (
     <ScrollableLine>
       {data.map((chapter) => (

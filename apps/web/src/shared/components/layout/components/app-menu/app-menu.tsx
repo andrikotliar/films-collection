@@ -1,16 +1,16 @@
-import styles from './styles.module.css';
+import styles from './app-menu.module.css';
 import clsx from 'clsx';
 import { type RefObject, useRef } from 'react';
 import { useClickOutside, useCloseOnScroll, mainMenu } from '~/shared';
 import { Menu } from '~/shared/components/menu/menu';
 
-type Props = {
+type AppMenuProps = {
   isOpen: boolean;
   onClose: VoidFunction;
   menuButtonRef: RefObject<HTMLButtonElement>;
 };
 
-export const AppMenu = ({ isOpen, onClose, menuButtonRef }: Props) => {
+export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useClickOutside({

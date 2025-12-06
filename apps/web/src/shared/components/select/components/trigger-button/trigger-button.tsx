@@ -1,11 +1,11 @@
 import { Button } from '~/shared/components/button/button';
-import styles from './styles.module.css';
+import styles from './trigger-button.module.css';
 import clsx from 'clsx';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
 import { forwardRef, type KeyboardEvent, type PropsWithChildren } from 'react';
 import { Loader } from '~/shared/components/loader/loader';
 
-type Props = {
+type TriggerButtonProps = {
   onClick: VoidFunction;
   onClear: VoidFunction;
   onKeyDown: (event: KeyboardEvent) => void;
@@ -15,7 +15,7 @@ type Props = {
   isLoading?: boolean;
 };
 
-export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<Props>>(
+export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<TriggerButtonProps>>(
   (
     {
       onClick,

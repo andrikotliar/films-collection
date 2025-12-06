@@ -4,14 +4,14 @@ import { type ListOption, type SortingOrder, sortingDirectionOptions } from '~/s
 import { SortingButton } from './components';
 import { BadgeCheckbox } from '../badge-checkbox/badge-checkbox';
 import { getDefaultLabel } from './helpers';
-import styles from './styles.module.css';
+import styles from './sorting-popup.module.css';
 
 export type SortingParams = {
   orderKey: string;
   order: SortingOrder;
 };
 
-type Props = {
+type SortingPopupProps = {
   fields: ListOption[];
   defaultOrderKey?: string;
   defaultOrder?: SortingOrder;
@@ -25,7 +25,7 @@ export const SortingPopup = ({
   defaultOrderKey = 'createdAt',
   defaultOrder = 'desc',
   buttonSize = 'small',
-}: Props) => {
+}: SortingPopupProps) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 
