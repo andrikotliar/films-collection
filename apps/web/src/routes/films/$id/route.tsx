@@ -1,14 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router';
+import { createFileRoute, Outlet } from '@tanstack/react-router';
 import { fetchFilmQuery, useDocumentTitle, useScrollToTop } from '~/shared';
 import {
-  Awards,
-  CastAndCrew,
-  Chapters,
-  ContentLayout,
-  Description,
+  FilmDetailsTabs,
   FilmPageLayout,
   NavigationRow,
-  Section,
   SummarySection,
 } from '~/routes/films/$id/-components';
 
@@ -30,28 +25,21 @@ function FilmPageContainer() {
     <FilmPageLayout>
       <NavigationRow />
       <SummarySection film={film} />
-      <ContentLayout>
-        {film.description && (
-          <Section title="Overview">
-            <Description rawHtml={film.description} />
-          </Section>
-        )}
-        {film.castAndCrew.length !== 0 && (
-          <Section title="Cast and Crew">
-            <CastAndCrew data={film.castAndCrew} />
-          </Section>
-        )}
-        {film.awards.length !== 0 && (
-          <Section title="Awards">
-            <Awards data={film.awards} />
-          </Section>
-        )}
-        {film.chapters && (
-          <Section title="Chapters">
-            <Chapters data={film.chapters} filmId={film.id} />
-          </Section>
-        )}
-      </ContentLayout>
+      <FilmDetailsTabs
+        config={[
+          {
+            title: 'Overview',
+            route: '/films/$id',
+          },
+          {
+            title: 'Related films',
+            route: '/films/$id/related',
+            isVisible: !!film.chapters?.length,
+          },
+        ]}
+        filmId={film.id}
+      />
+      <Outlet />
     </FilmPageLayout>
   );
 }

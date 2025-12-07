@@ -1,8 +1,5 @@
 .description {
   line-height: 1.5;
-  border: var(--border-default);
-  padding: 20px;
-  border-radius: var(--rounded-default);
 }
 
 .description p {

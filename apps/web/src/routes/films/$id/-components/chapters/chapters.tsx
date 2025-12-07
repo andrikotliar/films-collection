@@ -1,5 +1,6 @@
-import { ScrollableLine, type Chapter } from '~/shared';
+import { type Chapter } from '~/shared';
 import { ChapterLink } from '~/routes/films/$id/-components/chapters/components';
+import styles from './chapters.module.css';
 
 type ChaptersProps = {
   data: Chapter[];
@@ -8,7 +9,7 @@ type ChaptersProps = {
 
 export const Chapters = ({ data, filmId }: ChaptersProps) => {
   return (
-    <ScrollableLine>
+    <div className={styles.chapters}>
       {data.map((chapter) => (
         <ChapterLink
           id={chapter.id}
@@ -19,6 +20,6 @@ export const Chapters = ({ data, filmId }: ChaptersProps) => {
           key={chapter.id}
         />
       ))}
-    </ScrollableLine>
+    </div>
   );
 };

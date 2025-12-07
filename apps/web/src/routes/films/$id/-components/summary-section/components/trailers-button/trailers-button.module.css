@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
-  background-color: var(--color-blue-primary);
+  background-image: linear-gradient(to bottom, var(--color-blue-primary), var(--color-blue-dark));
   border-radius: var(--rounded-default);
   padding: 10px;
   transition: transform 200ms;
@@ -24,6 +24,11 @@
   fill: white;
   width: 20px;
   height: 20px;
+}
+
+.play_button_label {
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .trailers_modal {
