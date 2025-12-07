@@ -10,7 +10,7 @@
 }
 
 .event_banner_link:hover {
-  border-color: var(--color-gray-light);
+  border-color: var(--color-gray-dark);
 }
 
 .poster_wrapper {
@@ -59,16 +59,18 @@
   color: var(--color-gray-dark);
   font-weight: bold;
   font-size: 24px;
+  margin: auto 0;
 }
 
 .event_banner_link:hover .event_title {
   color: var(--color-gray-extra-dark);
 }
 
-.event_date {
+.event_data {
   display: flex;
   flex-direction: column;
   margin-top: auto;
+  gap: 2px;
 }
 
 .link_icon {

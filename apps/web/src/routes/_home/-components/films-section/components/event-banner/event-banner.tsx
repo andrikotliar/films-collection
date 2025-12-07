@@ -26,8 +26,8 @@ export const EventBanner = ({ event }: EventBannerProps) => {
         <div className={styles.data_title}>
           <span>Ongoing event</span>
         </div>
-        <div className={styles.data_title}>{event.title}</div>
-        <div className={styles.event_date}>
+        <div className={styles.event_title}>{event.title}</div>
+        <div className={styles.event_data}>
           <EventBannerDataRow icon={<CalendarIcon size={16} />} value={getDateMonthLabel(event)} />
           <EventBannerDataRow
             icon={<TimerIcon size={16} />}

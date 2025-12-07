@@ -1,0 +1,17 @@
+.description {
+  line-height: 1.5;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .description {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,16 @@
+.poster {
+  display: flex;
+  width: 330px;
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .poster {
+    width: 100%;
+  }
+}
