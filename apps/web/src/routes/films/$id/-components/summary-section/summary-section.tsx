@@ -6,8 +6,8 @@ import {
   SummaryBlock,
   TitleRow,
   Trailers,
-} from '~/routes/films/-components/summary-section/components';
-import { getFilmSummaryConfig } from '~/routes/films/-helpers';
+} from '~/routes/films/$id/-components/summary-section/components';
+import { getFilmSummaryConfig } from '~/routes/films/$id/-helpers';
 
 type SummarySectionProps = {
   film: FilmDetails;

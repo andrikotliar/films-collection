@@ -1,7 +1,7 @@
 import styles from './awards.module.css';
 import { Link } from '@tanstack/react-router';
 import type { FilmAward } from '~/shared';
-import { Nomination } from '~/routes/films/-components/awards/components';
+import { Nomination } from '~/routes/films/$id/-components/awards/components';
 
 type AwardsProps = {
   data: FilmAward[];

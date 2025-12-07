@@ -2,7 +2,7 @@ import {
   Rating,
   Title,
   WatchCounterBadge,
-} from '~/routes/films/-components/summary-section/components/title-row/components';
+} from '~/routes/films/$id/-components/summary-section/components/title-row/components';
 import styles from './title-row.module.css';
 import { type FilmDetails } from '~/shared';
 

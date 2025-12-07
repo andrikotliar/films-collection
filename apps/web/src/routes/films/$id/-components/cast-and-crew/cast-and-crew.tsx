@@ -1,6 +1,6 @@
 import styles from './cast-and-crew.module.css';
 import type { FilmPerson } from '~/shared';
-import { RoleItem } from '~/routes/films/-components/cast-and-crew/components';
+import { RoleItem } from '~/routes/films/$id/-components/cast-and-crew/components';
 
 type CastAndCrewProps = {
   data: FilmPerson[];

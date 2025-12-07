@@ -1,5 +1,5 @@
 import { ScrollableLine, type Chapter } from '~/shared';
-import { ChapterLink } from '~/routes/films/-components/chapters/components';
+import { ChapterLink } from '~/routes/films/$id/-components/chapters/components';
 
 type ChaptersProps = {
   data: Chapter[];

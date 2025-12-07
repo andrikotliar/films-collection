@@ -10,7 +10,7 @@ import {
   NavigationRow,
   Section,
   SummarySection,
-} from '~/routes/films/-components';
+} from '~/routes/films/$id/-components';
 
 export const Route = createFileRoute('/films/$id')({
   loader: async ({ context, params }) => {
