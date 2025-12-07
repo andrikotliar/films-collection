@@ -5,6 +5,7 @@ import {
   FilmPageLayout,
   NavigationRow,
   SummarySection,
+  TabWrapper,
 } from '~/routes/films/$id/-components';
 
 export const Route = createFileRoute('/films/$id')({
@@ -39,7 +40,9 @@ function FilmPageContainer() {
         ]}
         filmId={film.id}
       />
-      <Outlet />
+      <TabWrapper>
+        <Outlet />
+      </TabWrapper>
     </FilmPageLayout>
   );
 }

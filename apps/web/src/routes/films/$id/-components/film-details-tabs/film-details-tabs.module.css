@@ -50,3 +50,9 @@
   right: -20px;
   box-shadow: -5px 5px 0 var(--color-white);
 }
+
+@media (width < 480px) {
+  .tabs {
+    padding: 0 5px;
+  }
+}
