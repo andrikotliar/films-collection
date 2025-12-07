@@ -20,7 +20,9 @@ const getDivisor = (length: number) => {
 };
 
 export const getFormattedMoneyValue = (value: number | null): string | null => {
-  if (!value) return null;
+  if (!value) {
+    return 'N/A';
+  }
 
   const valueLength = value.toString().length;
   const divisor = getDivisor(valueLength);

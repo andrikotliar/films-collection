@@ -69,13 +69,9 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       title: 'Budget',
       content: (
         <div>
-          {film.budget ? (
-            <DataLink basePath="/" query={{ budget: film.budget }}>
-              {getFormattedMoneyValue(film.budget)}
-            </DataLink>
-          ) : (
-            'N/A'
-          )}
+          <DataLink basePath="/" query={{ budget: film.budget }}>
+            {getFormattedMoneyValue(film.budget)}
+          </DataLink>
         </div>
       ),
       isHidden: film.type === 'SERIES',
