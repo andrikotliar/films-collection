@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/shared';
-import { LinksGroupWrapper, DataLink, LinksGroup, BoxOfficeValue, Dates } from '../-components';
+import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
+import { isProfitable } from '~/routes/films/$id/-helpers/is-profitable';
 
 export type SummaryConfig = {
   id: string;
@@ -68,11 +69,9 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'budget',
       title: 'Budget',
       content: (
-        <div>
-          <DataLink basePath="/" query={{ budget: film.budget }}>
-            {getFormattedMoneyValue(film.budget)}
-          </DataLink>
-        </div>
+        <DataLink basePath="/" query={{ budget: film.budget }}>
+          {getFormattedMoneyValue(film.budget)}
+        </DataLink>
       ),
       isHidden: film.type === 'SERIES',
     },
@@ -80,13 +79,9 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'boxOffice',
       title: 'Box Office',
       content: (
-        <div>
-          {film.budget && film.boxOffice ? (
-            <BoxOfficeValue budget={film.budget} boxOffice={film.boxOffice} />
-          ) : (
-            'N/A'
-          )}
-        </div>
+        <DataLink basePath="/" query={{ budget: film.boxOffice }} markerColor={isProfitable(film)}>
+          {getFormattedMoneyValue(film.boxOffice)}
+        </DataLink>
       ),
       isHidden: film.type === 'SERIES',
     },

@@ -7,7 +7,6 @@ export * from './release-date/release-date';
 export * from './data-link/data-link';
 export * from './links-group/links-group';
 export * from './links-group-wrapper/links-group-wrapper';
-export * from './box-office-value/box-office-value';
 export * from './dates/dates';
 export * from './cast-and-crew/cast-and-crew';
 export * from './awards/awards';
