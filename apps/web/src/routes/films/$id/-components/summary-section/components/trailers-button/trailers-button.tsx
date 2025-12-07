@@ -1,15 +1,15 @@
-import styles from './trailers.module.css';
+import styles from './trailers-button.module.css';
 import { Modal, type Film, type FilmTrailer } from '~/shared';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
-import { TrailersPlaylist } from '~/routes/films/$id/-components/summary-section/components/trailers/components';
+import { TrailersPlaylist } from '~/routes/films/$id/-components/summary-section/components/trailers-button/components';
 
-type TrailersProps = {
+type TrailersButtonProps = {
   data: FilmTrailer[];
   type: Film['type'];
 };
 
-export const Trailers = ({ data, type }: TrailersProps) => {
+export const TrailersButton = ({ data, type }: TrailersButtonProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!data.length) {
@@ -23,14 +23,14 @@ export const Trailers = ({ data, type }: TrailersProps) => {
   const previewLabel = type === 'SERIES' ? 'Season' : 'Trailer #';
 
   return (
-    <div className={styles.trailers}>
+    <>
       <button
         className={styles.play_button}
         title="Play trailer"
         onClick={() => setIsModalOpen(true)}
       >
         <PlayIcon className={styles.play_icon} />
-        <span className={styles.label}>Play trailer{data.length > 1 && 's'}</span>
+        <span>Play Trailer{data.length > 1 && 's'}</span>
       </button>
       <Modal isOpen={isModalOpen} onClose={handleClose} className={styles.trailers_modal}>
         <Modal.Content className={styles.trailers_modal_content}>
@@ -39,6 +39,6 @@ export const Trailers = ({ data, type }: TrailersProps) => {
           <Modal.CloseButton onClick={handleClose} className={styles.trailer_close_button} />
         </Modal.Content>
       </Modal>
-    </div>
+    </>
   );
 };

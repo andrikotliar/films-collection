@@ -1,6 +1,6 @@
 .poster {
   display: flex;
-  width: 320px;
+  width: 360px;
   border: var(--border-default);
   border-radius: var(--rounded-default);
   overflow: hidden;

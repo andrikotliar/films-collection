@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import clsx from 'clsx';
 import { type FilmTrailer } from '~/shared';
-import { Video } from '~/routes/films/$id/-components/summary-section/components/trailers/components/video/video';
+import { Video } from '~/routes/films/$id/-components/summary-section/components/trailers-button/components/video/video';
 
 type TrailersPlaylistProps = {
   trailers: FilmTrailer[];

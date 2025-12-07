@@ -1,20 +1,15 @@
-.trailers {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-}
-
 .play_button {
-  color: white;
+  position: relative;
+  color: var(--color-white);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
   background-color: var(--color-blue-primary);
   border-radius: 4px;
-  padding: 8px 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
   transition: transform 200ms;
+  width: 100%;
 }
 
 .play_button:active {
@@ -22,15 +17,11 @@
 }
 
 .play_icon {
+  position: absolute;
+  left: 10px;
   fill: white;
-  width: 16px;
-  height: 16px;
-}
-
-.label {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
+  width: 20px;
+  height: 20px;
 }
 
 .trailers_modal {

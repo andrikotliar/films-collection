@@ -5,7 +5,7 @@ import {
   Poster,
   SummaryBlock,
   TitleRow,
-  Trailers,
+  TrailersButton,
 } from '~/routes/films/$id/-components/summary-section/components';
 import { getFilmSummaryConfig } from '~/routes/films/$id/-helpers';
 
@@ -25,7 +25,10 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
         '--bg-url': `url(${env.BASE_MEDIA_URL}/${film.poster})`,
       })}
     >
-      <Poster image={film.poster} title={film.title} />
+      <div className={styles.left_column}>
+        <Poster image={film.poster} title={film.title} />
+        <TrailersButton data={film.trailers} type={film.type} />
+      </div>
       <div className={styles.wrapper}>
         <TitleRow data={film} />
         <div className={styles.info}>
@@ -36,7 +39,6 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
           ))}
         </div>
       </div>
-      <Trailers data={film.trailers} type={film.type} />
     </div>
   );
 };
