@@ -6,6 +6,7 @@ RUN npm install -g pnpm
 
 COPY pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY package.json ./
+COPY packages/shared/package.json ./packages/shared/package.json
 COPY apps/api/package.json ./api/
 COPY apps/web/package.json ./web/
 
@@ -26,6 +27,7 @@ WORKDIR /app
 
 RUN npm install -g pnpm
 
+COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
 COPY --from=builder /app/apps/api/dist ./apps/api/dist
 COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
 COPY --from=builder /app/apps/api/prisma ./apps/api/prisma
