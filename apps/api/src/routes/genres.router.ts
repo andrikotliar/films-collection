@@ -1,14 +1,14 @@
-import { defineRoute, IdParamSchema, useRoutes } from '~/shared';
+import { defineRoute, IdParamSchema, createRouter, validateAuth } from '~/shared';
 import { ManageGenreBodySchema } from '~/services/genres';
 
-export const genresRoutes = useRoutes('genres', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async ({ app }) => {
       const data = await app.container.resolve('genresService').getBaseListData();
 
-      return data;
+      return { data };
     },
   }),
 
@@ -18,12 +18,12 @@ export const genresRoutes = useRoutes('genres', [
     schema: {
       body: ManageGenreBodySchema,
     },
-    successStatus: 'CREATED',
-    isPrivate: true,
+
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('genresService').createGenre(request.body);
 
-      return data;
+      return { data, status: 'CREATED' };
     },
   }),
 
@@ -34,13 +34,13 @@ export const genresRoutes = useRoutes('genres', [
       params: IdParamSchema,
       body: ManageGenreBodySchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('genresService')
         .updateGenre(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -50,12 +50,12 @@ export const genresRoutes = useRoutes('genres', [
     schema: {
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('genresService').deleteGenre(request.params.id);
 
       return {
-        id: data.id,
+        data: { id: data.id },
       };
     },
   }),

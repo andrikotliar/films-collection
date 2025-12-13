@@ -3,14 +3,14 @@ import {
   getCookie,
   UnauthorizedException,
   defineRoute,
-  useRoutes,
+  createRouter,
   setCookie,
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
 } from '~/shared';
 import { AuthLoginSchema } from '../services/auth/schemas';
 
-export const authRoutes = useRoutes('auth', [
+export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/login',
@@ -42,7 +42,7 @@ export const authRoutes = useRoutes('auth', [
       });
 
       return {
-        id: data.id,
+        data: { id: data.id },
       };
     },
   }),
@@ -79,7 +79,7 @@ export const authRoutes = useRoutes('auth', [
       await app.container.resolve('usersService').setRefreshToken(data);
 
       return {
-        id: data.id,
+        data: { id: data.id },
       };
     },
   }),
@@ -95,7 +95,7 @@ export const authRoutes = useRoutes('auth', [
 
       clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
 
-      return { status: 'ok' };
+      return { data: { status: 'ok' } };
     },
   }),
 ]);

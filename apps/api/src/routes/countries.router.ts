@@ -1,14 +1,14 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
+import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
 import { ManageCountryBodySchema } from '~/services/countries';
 
-export const countriesRoutes = useRoutes('countries', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async ({ app }) => {
       const data = await app.container.resolve('countriesService').getBaseDataList();
 
-      return data;
+      return { data };
     },
   }),
 
@@ -16,12 +16,11 @@ export const countriesRoutes = useRoutes('countries', [
     method: 'POST',
     url: '/',
     schema: { body: ManageCountryBodySchema },
-    successStatus: 'CREATED',
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('countriesService').createCountry(request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -29,13 +28,13 @@ export const countriesRoutes = useRoutes('countries', [
     method: 'PATCH',
     url: '/:id',
     schema: { body: ManageCountryBodySchema, params: IdParamSchema },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('countriesService')
         .updateCountry(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -43,12 +42,12 @@ export const countriesRoutes = useRoutes('countries', [
     method: 'DELETE',
     url: '/:id',
     schema: { params: IdParamSchema },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('countriesService').deleteCountry(request.params.id);
 
       return {
-        id: data.id,
+        data: { id: data.id },
       };
     },
   }),

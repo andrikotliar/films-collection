@@ -1,35 +1,41 @@
-import { Static, TSchema } from '@sinclair/typebox';
-import {
-  FastifyReply,
-  FastifyRequest,
-  FastifySchema,
-  HTTPMethods,
-  type FastifyInstance,
-} from 'fastify';
+import type { Static, TSchema } from '@sinclair/typebox';
+import type { FastifyReply, FastifyRequest, FastifyInstance } from 'fastify';
 import type { ResponseStatus } from '~/shared/enums';
 
 export type RouteSchema = {
-  [key in keyof FastifySchema]?: TSchema;
+  body?: TSchema;
+  querystring?: TSchema;
+  params?: TSchema;
+  response?: TSchema;
 };
 
-type InferRequestType<S extends Partial<RouteSchema>> = {
+type InferRequest<S extends Partial<RouteSchema>> = {
   Body: S['body'] extends TSchema ? Static<S['body']> : undefined;
   Querystring: S['querystring'] extends TSchema ? Static<S['querystring']> : undefined;
   Params: S['params'] extends TSchema ? Static<S['params']> : undefined;
-  Headers: S['headers'] extends TSchema ? Static<S['headers']> : undefined;
 };
 
+type InferResponse<S extends Partial<RouteSchema>> = S['response'] extends TSchema
+  ? Static<S['response']>
+  : unknown;
+
 type HandlerContext<S extends Partial<RouteSchema>> = {
-  request: FastifyRequest<InferRequestType<S>>;
+  request: FastifyRequest<InferRequest<S>>;
   reply: FastifyReply;
   app: FastifyInstance;
 };
 
-export type Route<S extends RouteSchema = {}, R = unknown> = {
-  method: HTTPMethods;
+type PreHandler = (request: FastifyRequest, reply: FastifyReply) => void;
+
+type HandlerReturn<S extends Partial<RouteSchema>> = {
+  status?: ResponseStatus;
+  data: InferResponse<S>;
+};
+
+export type Route<S extends RouteSchema = {}> = {
+  method: 'GET' | 'POST' | 'PATCH' | 'PUT' | 'DELETE';
   url: string;
   schema?: S;
-  isPrivate?: boolean;
-  successStatus?: ResponseStatus;
-  handler: (ctx: HandlerContext<S>) => Promise<R>;
+  preHandler?: PreHandler[];
+  handler: (ctx: HandlerContext<S>) => Promise<HandlerReturn<S>>;
 };

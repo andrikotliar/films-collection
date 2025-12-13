@@ -1,11 +1,11 @@
-import { BadRequestException, defineRoute, useRoutes } from '~/shared';
+import { BadRequestException, defineRoute, createRouter, validateAuth } from '~/shared';
 import type { UploadPayload } from '~/services/files/types';
 
-export const filesRoutes = useRoutes('files', [
+export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       if (!request.isMultipart()) {
         throw new BadRequestException({
@@ -34,7 +34,7 @@ export const filesRoutes = useRoutes('files', [
 
       const result = await app.container.resolve('filesService').upload(data as UploadPayload);
 
-      return result;
+      return { data: result };
     },
   }),
 ]);

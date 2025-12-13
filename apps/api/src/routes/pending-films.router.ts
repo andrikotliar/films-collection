@@ -1,4 +1,10 @@
-import { IdParamSchema, NotFoundException, useRoutes, defineRoute } from '~/shared';
+import {
+  IdParamSchema,
+  NotFoundException,
+  createRouter,
+  defineRoute,
+  validateAuth,
+} from '~/shared';
 import {
   CreatePendingFilmBodySchema,
   GetPendingFilmParamsSchema,
@@ -6,24 +12,24 @@ import {
   UpdatePendingFilmBodySchema,
 } from '~/services/pending-films';
 
-export const pendingFilmsRoutes = useRoutes('pending-films', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       querystring: GetPendingFilmsListQuerySchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('pendingFilmsService').getList(request.query);
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
     method: 'GET',
     url: '/:id',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       params: GetPendingFilmParamsSchema,
     },
@@ -38,27 +44,27 @@ export const pendingFilmsRoutes = useRoutes('pending-films', [
         });
       }
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
     method: 'POST',
     url: '/',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: { body: CreatePendingFilmBodySchema },
-    successStatus: 'CREATED',
+
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
         .createPendingFilm(request.body);
 
-      return data;
+      return { data, status: 'CREATED' };
     },
   }),
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
       body: UpdatePendingFilmBodySchema,
@@ -68,20 +74,20 @@ export const pendingFilmsRoutes = useRoutes('pending-films', [
         .resolve('pendingFilmsService')
         .updatePendingFilm(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
     method: 'DELETE',
     url: '/:id',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: { params: IdParamSchema },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
         .deletePendingFilm(request.params.id);
 
-      return data;
+      return { data };
     },
   }),
 ]);

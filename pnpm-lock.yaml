@@ -47,6 +47,9 @@ importers:
       '@films-collection/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
+      '@films-collection/shared':
+        specifier: workspace:^
+        version: link:../../packages/shared
       '@prisma/client':
         specifier: ^6.2.1
         version: 6.16.2(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
@@ -214,6 +217,19 @@ importers:
       typescript-eslint:
         specifier: ^8.44.0
         version: 8.44.0(eslint@9.36.0(jiti@2.5.1))(typescript@5.9.2)
+
+  packages/shared:
+    dependencies:
+      '@films-collection/eslint-config':
+        specifier: workspace:^
+        version: link:../eslint-config
+    devDependencies:
+      '@types/node':
+        specifier: ^25.0.1
+        version: 25.0.1
+      tsc-alias:
+        specifier: ^1.8.16
+        version: 1.8.16
 
 packages:
 
@@ -1090,6 +1106,9 @@ packages:
 
   '@types/node@22.18.6':
     resolution: {integrity: sha512-r8uszLPpeIWbNKtvWRt/DbVi5zbqZyj1PTmhRMqBMvDnaz1QpmSKujUtJLrqGZeoM8v72MfYggDceY4K1itzWQ==}
+
+  '@types/node@25.0.1':
+    resolution: {integrity: sha512-czWPzKIAXucn9PtsttxmumiQ9N0ok9FrBwgRWrwmVLlp86BrMExzvXRLFYRJ+Ex3g6yqj+KuaxfX1JTgV2lpfg==}
 
   '@types/prop-types@15.7.15':
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
@@ -2604,6 +2623,9 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
   unplugin@2.3.10:
     resolution: {integrity: sha512-6NCPkv1ClwH+/BGE9QeoTIl09nuiAt0gS28nn1PvYXsGKRwM2TCbFA2QiilmehPDTXIe684k4rZI1yl3A1PCUw==}
     engines: {node: '>=18.12.0'}
@@ -3639,6 +3661,10 @@ snapshots:
   '@types/node@22.18.6':
     dependencies:
       undici-types: 6.21.0
+
+  '@types/node@25.0.1':
+    dependencies:
+      undici-types: 7.16.0
 
   '@types/prop-types@15.7.15': {}
 
@@ -5207,6 +5233,8 @@ snapshots:
   uc.micro@2.1.0: {}
 
   undici-types@6.21.0: {}
+
+  undici-types@7.16.0: {}
 
   unplugin@2.3.10:
     dependencies:

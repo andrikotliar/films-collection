@@ -1,14 +1,14 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
+import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
 import { ManageStudioBodySchema } from '~/services/studios/schemas';
 
-export const studiosRoutes = useRoutes('studios', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async ({ app }) => {
       const data = await app.container.resolve('studiosService').getBaseDataList();
 
-      return data;
+      return { data };
     },
   }),
 
@@ -18,12 +18,12 @@ export const studiosRoutes = useRoutes('studios', [
     schema: {
       body: ManageStudioBodySchema,
     },
-    successStatus: 'CREATED',
-    isPrivate: true,
+
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('studiosService').createStudio(request.body);
 
-      return data;
+      return { data, status: 'CREATED' };
     },
   }),
 
@@ -34,13 +34,13 @@ export const studiosRoutes = useRoutes('studios', [
       body: ManageStudioBodySchema,
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('studiosService')
         .updateStudio(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -50,12 +50,12 @@ export const studiosRoutes = useRoutes('studios', [
     schema: {
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('studiosService').deleteStudio(request.params.id);
 
       return {
-        id: data.id,
+        data: { id: data.id },
       };
     },
   }),

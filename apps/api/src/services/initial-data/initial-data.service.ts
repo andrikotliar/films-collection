@@ -1,5 +1,5 @@
 import { convertEnumValuesToOption, type Deps } from '~/shared';
-import { InitialData } from './types';
+import type { InitialData } from './types';
 import { CollectionCategory, PersonRole, TitleStyle, TitleType } from '@prisma/client';
 import type { CollectionsService } from '~/services/collections/collections.service';
 import type { GenresService } from '~/services/genres/genres.service';

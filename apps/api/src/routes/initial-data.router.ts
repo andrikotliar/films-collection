@@ -1,13 +1,13 @@
-import { defineRoute, useRoutes } from '~/shared';
+import { defineRoute, createRouter } from '~/shared';
 
-export const initialDataRoutes = useRoutes('initial-data', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async ({ app }) => {
       const data = await app.container.resolve('initialDataService').getOptions();
 
-      return data;
+      return { data };
     },
   }),
 ]);

@@ -1,14 +1,14 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
+import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
 import { AwardBodySchema, FindNominationsSchema } from '~/services/awards';
 
-export const awardsRoutes = useRoutes('awards', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async ({ app }) => {
       const data = await app.container.resolve('awardsService').getBaseDataList();
 
-      return data;
+      return { data };
     },
   }),
 
@@ -18,12 +18,11 @@ export const awardsRoutes = useRoutes('awards', [
     schema: {
       body: AwardBodySchema,
     },
-    successStatus: 'CREATED',
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('awardsService').createAward(request.body);
 
-      return data;
+      return { data, status: 'CREATED' };
     },
   }),
 
@@ -35,14 +34,14 @@ export const awardsRoutes = useRoutes('awards', [
     },
     async handler({ request, app }) {
       if (!request.query.awardId) {
-        return [];
+        return { data: [] };
       }
 
       const data = await app.container
         .resolve('awardsService')
         .getNominationsListOptions(request.query.awardId);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -57,7 +56,7 @@ export const awardsRoutes = useRoutes('awards', [
         includeNominations: true,
       });
 
-      return data;
+      return { data };
     },
   }),
 
@@ -68,13 +67,13 @@ export const awardsRoutes = useRoutes('awards', [
       params: IdParamSchema,
       body: AwardBodySchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('awardsService')
         .updateAward(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -84,12 +83,14 @@ export const awardsRoutes = useRoutes('awards', [
     schema: {
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('awardsService').deleteAward(request.params.id);
 
       return {
-        id: data.id,
+        data: {
+          id: data.id,
+        },
       };
     },
   }),

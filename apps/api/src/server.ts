@@ -11,7 +11,6 @@ import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from
 
 declare module 'fastify' {
   export interface FastifyInstance {
-    authenticate: any;
     databaseService: PrismaClient;
     container: DiContainer;
   }

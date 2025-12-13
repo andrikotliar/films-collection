@@ -1,14 +1,14 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
+import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
 import { CreateCollectionBodySchema, UpdateCollectionBodySchema } from '~/services/collections';
 
-export const collectionsRoutes = useRoutes('collections', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     handler: async ({ app }) => {
       const data = await app.container.resolve('collectionsService').getGeneralDataList();
 
-      return data;
+      return { data };
     },
   }),
 
@@ -16,12 +16,11 @@ export const collectionsRoutes = useRoutes('collections', [
     method: 'POST',
     url: '/',
     schema: { body: CreateCollectionBodySchema },
-    successStatus: 'CREATED',
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionsService').createCollection(request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -29,13 +28,13 @@ export const collectionsRoutes = useRoutes('collections', [
     method: 'PATCH',
     url: '/:id',
     schema: { params: IdParamSchema, body: UpdateCollectionBodySchema },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('collectionsService')
         .updateCollection(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -43,13 +42,13 @@ export const collectionsRoutes = useRoutes('collections', [
     method: 'DELETE',
     url: '/:id',
     schema: { params: IdParamSchema },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('collectionsService')
         .deleteCollection(request.params.id);
 
-      return { id: data.id };
+      return { data: { id: data.id } };
     },
   }),
 ]);

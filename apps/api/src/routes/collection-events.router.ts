@@ -1,40 +1,39 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
+import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   CreateCollectionEventSchema,
   UpdateCollectionEventBodySchema,
 } from '~/services/collection-events';
 
-export const collectionEventsRoutes = useRoutes('collection-events', [
+export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
-    isPrivate: true,
-    successStatus: 'CREATED',
+    preHandler: [validateAuth],
     schema: {
       body: CreateCollectionEventSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionEventsService').createEvent(request.body);
 
-      return data;
+      return { data };
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/',
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ app }) => {
       const data = await app.container.resolve('collectionEventsService').getAllEvents();
 
-      return data;
+      return { data };
     },
   }),
 
   defineRoute({
     method: 'DELETE',
     url: '/:id',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
     },
@@ -43,14 +42,14 @@ export const collectionEventsRoutes = useRoutes('collection-events', [
         .resolve('collectionEventsService')
         .deleteEvent(request.params.id);
 
-      return data;
+      return { data };
     },
   }),
 
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
       body: UpdateCollectionEventBodySchema,
@@ -60,7 +59,7 @@ export const collectionEventsRoutes = useRoutes('collection-events', [
         .resolve('collectionEventsService')
         .updateEvent(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 ]);

@@ -1,14 +1,14 @@
-import { defineRoute, useRoutes } from '~/shared';
+import { defineRoute, createRouter, validateAuth } from '~/shared';
 import { CreateChapterKeySchema } from '~/services/chapter-keys';
 
-export const chapterKeysRoutes = useRoutes('chapter-keys', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/options',
     handler: async ({ app }) => {
       const data = await app.container.resolve('chapterKeysService').getListOptions();
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
@@ -17,11 +17,11 @@ export const chapterKeysRoutes = useRoutes('chapter-keys', [
     schema: {
       body: CreateChapterKeySchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('chapterKeysService').addKey(request.body);
 
-      return data;
+      return { data };
     },
   }),
 ]);

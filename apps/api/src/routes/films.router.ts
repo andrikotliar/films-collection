@@ -1,4 +1,10 @@
-import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from '~/shared';
+import {
+  IdParamSchema,
+  NotFoundException,
+  defineRoute,
+  createRouter,
+  validateAuth,
+} from '~/shared';
 import {
   GetAdminFilmParamsSchema,
   GetAdminListQuerySchema,
@@ -9,7 +15,7 @@ import {
   UpdateFilmWatchCounterSchema,
 } from '~/services/films';
 
-export const filmsRoutes = useRoutes('films', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
@@ -19,7 +25,7 @@ export const filmsRoutes = useRoutes('films', [
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilteredFilms(request.query);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -32,7 +38,7 @@ export const filmsRoutes = useRoutes('films', [
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').searchFilm(request.query.q);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -45,28 +51,28 @@ export const filmsRoutes = useRoutes('films', [
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilmOptions(request.query);
 
-      return data;
+      return { data };
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/admin',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       querystring: GetAdminListQuerySchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getAdminList(request.query);
 
-      return data;
+      return { data };
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/admin/:id',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       params: GetAdminFilmParamsSchema,
     },
@@ -75,21 +81,21 @@ export const filmsRoutes = useRoutes('films', [
         .resolve('filmsService')
         .getFilmDetailsAdmin(request.params.id);
 
-      return data;
+      return { data };
     },
   }),
 
   defineRoute({
     method: 'GET',
     url: '/chapters',
-    isPrivate: true,
+    preHandler: [validateAuth],
     schema: {
       querystring: GetFilmRelatedChaptersSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getRelatedChapters(request.query);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -106,7 +112,7 @@ export const filmsRoutes = useRoutes('films', [
         });
       }
 
-      return data;
+      return { data };
     },
   }),
 
@@ -117,11 +123,13 @@ export const filmsRoutes = useRoutes('films', [
       params: IdParamSchema,
       body: UpdateFilmWatchCounterSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      return await app.container
+      const data = await app.container
         .resolve('filmsService')
         .updateFilmWatchCount(request.params.id, request.body.counter);
+
+      return { data };
     },
   }),
 
@@ -130,7 +138,9 @@ export const filmsRoutes = useRoutes('films', [
     url: '/admin/:id',
     schema: { params: IdParamSchema },
     handler: async ({ request, app }) => {
-      return app.container.resolve('filmsService').deleteFilm(request.params.id);
+      const data = await app.container.resolve('filmsService').deleteFilm(request.params.id);
+
+      return { data };
     },
   }),
 ]);

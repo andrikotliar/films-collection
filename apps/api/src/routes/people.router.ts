@@ -1,4 +1,4 @@
-import { IdParamSchema, defineRoute, useRoutes } from '~/shared';
+import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   CreatePersonSchema,
   GetListQueriesSchema,
@@ -6,18 +6,18 @@ import {
   UpdatePersonBodySchema,
 } from '~/services/people';
 
-export const peopleRoutes = useRoutes('people', [
+export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
     schema: {
       querystring: GetListQueriesSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').getList(request.query);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -30,7 +30,7 @@ export const peopleRoutes = useRoutes('people', [
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').searchPerson(request.query);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -40,11 +40,11 @@ export const peopleRoutes = useRoutes('people', [
     schema: {
       body: CreatePersonSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').createPerson(request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -55,13 +55,13 @@ export const peopleRoutes = useRoutes('people', [
       params: IdParamSchema,
       body: UpdatePersonBodySchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('peopleService')
         .updatePerson(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
 
@@ -71,11 +71,11 @@ export const peopleRoutes = useRoutes('people', [
     schema: {
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').deletePerson(request.params.id);
 
-      return { id: data.id };
+      return { data: { id: data.id } };
     },
   }),
 ]);

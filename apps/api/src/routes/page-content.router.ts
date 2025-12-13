@@ -1,4 +1,10 @@
-import { IdParamSchema, NotFoundException, defineRoute, useRoutes } from '~/shared';
+import {
+  IdParamSchema,
+  NotFoundException,
+  defineRoute,
+  createRouter,
+  validateAuth,
+} from '~/shared';
 import {
   CreatePageContentSchema,
   GetListQueriesSchema,
@@ -6,21 +12,20 @@ import {
   UpdatePageContentSchema,
 } from '~/services/page-content';
 
-export const pageContentRoutes = useRoutes('page-content', [
+export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
     schema: {
       body: CreatePageContentSchema,
     },
-    isPrivate: true,
-    successStatus: 'CREATED',
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pageContentService')
         .createPageContent(request.body);
 
-      return data;
+      return { data, status: 'CREATED' };
     },
   }),
   defineRoute({
@@ -29,11 +34,11 @@ export const pageContentRoutes = useRoutes('page-content', [
     schema: {
       querystring: GetListQueriesSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('pageContentService').getList(request.query);
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
@@ -53,7 +58,7 @@ export const pageContentRoutes = useRoutes('page-content', [
         });
       }
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
@@ -67,7 +72,7 @@ export const pageContentRoutes = useRoutes('page-content', [
         .resolve('pageContentService')
         .getPageContent(request.params.id);
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
@@ -77,13 +82,13 @@ export const pageContentRoutes = useRoutes('page-content', [
       body: UpdatePageContentSchema,
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pageContentService')
         .updatePageContent(request.params.id, request.body);
 
-      return data;
+      return { data };
     },
   }),
   defineRoute({
@@ -92,13 +97,13 @@ export const pageContentRoutes = useRoutes('page-content', [
     schema: {
       params: IdParamSchema,
     },
-    isPrivate: true,
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pageContentService')
         .deletePageContent(request.params.id);
 
-      return data;
+      return { data };
     },
   }),
 ]);
