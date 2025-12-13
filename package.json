@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "pnpm --filter ./apps/api run build && pnpm --filter ./apps/web run build",
+    "build": "pnpm --filter ./packages/shared run build && pnpm --filter ./apps/api run build && pnpm --filter ./apps/web run build",
     "build:container": "docker compose -f docker-compose.yml up -d --build",
     "db:client:generate": "cd apps/api && pnpm db:client:generate",
     "db:init": "cd apps/api && pnpm db:migrate",
