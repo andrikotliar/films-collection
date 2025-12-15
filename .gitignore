@@ -30,3 +30,4 @@ target
 
 # Generated modules
 .tanstack
+**/generated

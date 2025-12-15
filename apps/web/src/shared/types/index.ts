@@ -12,7 +12,6 @@ export * from './initial-data';
 export * from './auth';
 export * from './pending-film';
 export * from './list-option';
-export * from './api-endpoint';
 export * from './sorting-order';
 export * from './login-payload';
 export * from './status-color';
