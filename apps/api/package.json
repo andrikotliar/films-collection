@@ -10,7 +10,8 @@
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "check": "tsc --noEmit",
-    "lint": "eslint . --quiet --ext .ts"
+    "lint": "eslint . --quiet --ext .ts",
+    "api:generate": "tsx src/scripts/generate-client.ts"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.1",
