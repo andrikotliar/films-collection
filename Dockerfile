@@ -7,6 +7,7 @@ RUN npm install -g pnpm
 COPY pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY package.json ./
 COPY packages/shared/package.json ./packages/shared/package.json
+COPY packages/fetch-wrapper/package.json ./packages/fetch-wrapper/package.json
 COPY apps/api/package.json ./api/
 COPY apps/web/package.json ./web/
 
@@ -19,6 +20,7 @@ ENV VITE_BASE_MEDIA_URL=$VITE_BASE_MEDIA_URL
 
 RUN pnpm install --offline --frozen-lockfile
 RUN pnpm db:client:generate
+RUN pnpm api:generate
 RUN pnpm build
 
 FROM node:24-alpine AS production
@@ -28,6 +30,7 @@ WORKDIR /app
 RUN npm install -g pnpm
 
 COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
+COPY --from=builder /app/packages/fetch-wrapper/dist ./packages/fetch-wrapper/dist
 COPY --from=builder /app/apps/api/dist ./apps/api/dist
 COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
 COPY --from=builder /app/apps/api/prisma ./apps/api/prisma
