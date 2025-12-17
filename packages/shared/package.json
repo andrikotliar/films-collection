@@ -10,14 +10,15 @@
     }
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && tsc-alias",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "dev": "tsc -w"
   },
   "packageManager": "pnpm@10.17.0",
   "dependencies": {
-    "@films-collection/eslint-config": "workspace:^"
+    "@films-collection/eslint-config": "workspace:^",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "@types/node": "^25.0.1",
