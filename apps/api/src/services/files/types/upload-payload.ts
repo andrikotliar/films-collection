@@ -1,4 +1,4 @@
-export type FileDestination = 'posters' | 'awards' | 'actors' | 'decoration';
+export type FileDestination = 'posters';
 
 export type UploadPayload = {
   title: string;

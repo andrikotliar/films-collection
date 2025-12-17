@@ -1,9 +1,9 @@
-import { v2 as cloudinary, UploadApiResponse } from 'cloudinary';
-import { type Deps } from '~/shared';
-import { UploadPayload } from './types';
-import { destinationParams } from '~/services/files/configs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { v2 as cloudinary, type UploadApiResponse } from 'cloudinary';
+import { type Deps } from '~/shared';
+import type { UploadPayload } from './types';
+import { destinationParams } from '~/services/files/configs';
 
 export class FilesService {
   constructor({ env }: Deps<'env'>) {

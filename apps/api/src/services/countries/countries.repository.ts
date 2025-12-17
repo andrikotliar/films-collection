@@ -1,5 +1,5 @@
 import type { DatabaseClient, Deps } from '~/shared';
-import { ManageCountryInput } from '~/services/countries/schemas';
+import type { CountryInput } from '@films-collection/shared';
 
 export class CountriesRepository {
   private readonly databaseClient: DatabaseClient;
@@ -20,7 +20,7 @@ export class CountriesRepository {
     });
   }
 
-  create(input: ManageCountryInput) {
+  create(input: CountryInput) {
     return this.databaseClient.country.create({
       data: input,
     });
@@ -30,7 +30,7 @@ export class CountriesRepository {
     return this.databaseClient.country.delete({ where: { id } });
   }
 
-  update(id: number, input: ManageCountryInput) {
+  update(id: number, input: CountryInput) {
     return this.databaseClient.country.update({
       where: {
         id,

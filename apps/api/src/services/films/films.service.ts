@@ -1,11 +1,11 @@
 import { convertEnumValueToLabel, type Deps } from '~/shared';
 import type { FilmsRepository } from './films.repository';
 import type {
-  GetFilmRelatedChaptersQuery,
+  GetFilmRelatedChapters,
   GetAdminListQuery,
   GetFilmsListQuery,
-  FilmOptionsQueries,
-} from './schemas';
+  GetFilmOptionsQuery,
+} from '@films-collection/shared';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
 import type { AwardsService } from '~/services/awards/awards.service';
@@ -87,7 +87,7 @@ export class FilmsService {
     });
   }
 
-  getRelatedChapters(query: GetFilmRelatedChaptersQuery) {
+  getRelatedChapters(query: GetFilmRelatedChapters) {
     return this.filmsRepository.findChapters(query.key, query.filmId);
   }
 
@@ -139,7 +139,7 @@ export class FilmsService {
     return null;
   }
 
-  async getFilmOptions(queries: FilmOptionsQueries) {
+  async getFilmOptions(queries: GetFilmOptionsQuery) {
     const films = await this.filmsRepository.getFilmsListByQuery(queries);
 
     return films.map((film) => ({

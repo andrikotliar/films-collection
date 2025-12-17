@@ -8,14 +8,14 @@ import {
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
 } from '~/shared';
-import { AuthLoginSchema } from '../services/auth/schemas';
+import { LoginSchema } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/login',
     schema: {
-      body: AuthLoginSchema,
+      body: LoginSchema,
     },
     async handler({ request, reply, app }) {
       const data = await app.container.resolve('authService').login(request.body);

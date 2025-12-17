@@ -1,16 +1,10 @@
+import { NotFoundException, createRouter, defineRoute, validateAuth } from '~/shared';
 import {
   IdParamSchema,
-  NotFoundException,
-  createRouter,
-  defineRoute,
-  validateAuth,
-} from '~/shared';
-import {
-  CreatePendingFilmBodySchema,
-  GetPendingFilmParamsSchema,
+  CreatePendingFilmInputSchema,
   GetPendingFilmsListQuerySchema,
-  UpdatePendingFilmBodySchema,
-} from '~/services/pending-films';
+  UpdatePendingFilmInputSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -31,7 +25,7 @@ export default createRouter([
     url: '/:id',
     preHandler: [validateAuth],
     schema: {
-      params: GetPendingFilmParamsSchema,
+      params: IdParamSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -51,7 +45,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     preHandler: [validateAuth],
-    schema: { body: CreatePendingFilmBodySchema },
+    schema: { body: CreatePendingFilmInputSchema },
 
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -67,7 +61,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
-      body: UpdatePendingFilmBodySchema,
+      body: UpdatePendingFilmInputSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container

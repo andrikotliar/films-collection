@@ -1,5 +1,5 @@
-import { CommonTransformationOptions, ImageFormat } from 'cloudinary';
-import { FileDestination } from '../types';
+import type { CommonTransformationOptions, ImageFormat } from 'cloudinary';
+import type { FileDestination } from '../types';
 
 type DestinationParams = {
   [key in FileDestination]: {
@@ -16,20 +16,5 @@ export const destinationParams: DestinationParams = {
       height: 600,
     },
     format: 'webp',
-  },
-  actors: {
-    path: 'actors',
-    transformation: {
-      width: 200,
-      height: 300,
-      crop: 'fill',
-    },
-    format: 'webp',
-  },
-  decoration: {
-    path: 'decoration',
-  },
-  awards: {
-    path: 'awards',
   },
 };

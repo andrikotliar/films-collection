@@ -1,19 +1,13 @@
+import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   IdParamSchema,
-  NotFoundException,
-  defineRoute,
-  createRouter,
-  validateAuth,
-} from '~/shared';
-import {
-  GetAdminFilmParamsSchema,
   GetAdminListQuerySchema,
-  GetFilmOptionsSchema,
+  GetFilmOptionsQuerySchema,
   GetFilmRelatedChaptersSchema,
   GetFilmsListQuerySchema,
   SearchFilmsQuerySchema,
-  UpdateFilmWatchCounterSchema,
-} from '~/services/films';
+  UpdateFilmWatchCounterInputSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -46,7 +40,7 @@ export default createRouter([
     method: 'GET',
     url: '/options',
     schema: {
-      querystring: GetFilmOptionsSchema,
+      querystring: GetFilmOptionsQuerySchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilmOptions(request.query);
@@ -74,7 +68,7 @@ export default createRouter([
     url: '/admin/:id',
     preHandler: [validateAuth],
     schema: {
-      params: GetAdminFilmParamsSchema,
+      params: IdParamSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -121,7 +115,7 @@ export default createRouter([
     url: '/admin/:id/counter',
     schema: {
       params: IdParamSchema,
-      body: UpdateFilmWatchCounterSchema,
+      body: UpdateFilmWatchCounterInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

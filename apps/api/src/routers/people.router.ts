@@ -1,10 +1,11 @@
-import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
+import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
+  IdParamSchema,
   CreatePersonSchema,
   GetListQueriesSchema,
   SearchPersonSchema,
-  UpdatePersonBodySchema,
-} from '~/services/people';
+  UpdatePersonInputSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -53,7 +54,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
-      body: UpdatePersonBodySchema,
+      body: UpdatePersonInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

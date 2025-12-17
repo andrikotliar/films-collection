@@ -1,5 +1,5 @@
-import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
-import { ManageCountryBodySchema } from '~/services/countries';
+import { defineRoute, createRouter, validateAuth } from '~/shared';
+import { IdParamSchema, CountryInputSchema } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -15,7 +15,7 @@ export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
-    schema: { body: ManageCountryBodySchema },
+    schema: { body: CountryInputSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('countriesService').createCountry(request.body);
@@ -27,7 +27,7 @@ export default createRouter([
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    schema: { body: ManageCountryBodySchema, params: IdParamSchema },
+    schema: { body: CountryInputSchema, params: IdParamSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container

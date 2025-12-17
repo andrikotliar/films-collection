@@ -1,6 +1,6 @@
 import { buildListOptions, type Deps } from '~/shared';
-import { GenresRepository } from './genres.repository';
-import { ManageGenreInput } from '~/services/genres/schemas';
+import type { GenresRepository } from './genres.repository';
+import type { GenreInput } from '@films-collection/shared';
 
 export class GenresService {
   private readonly genresRepository: GenresRepository;
@@ -19,7 +19,7 @@ export class GenresService {
     return this.genresRepository.getAll();
   }
 
-  createGenre(input: ManageGenreInput) {
+  createGenre(input: GenreInput) {
     return this.genresRepository.create(input);
   }
 
@@ -27,7 +27,7 @@ export class GenresService {
     return this.genresRepository.delete(id);
   }
 
-  updateGenre(id: number, input: ManageGenreInput) {
+  updateGenre(id: number, input: GenreInput) {
     return this.genresRepository.update(id, input);
   }
 }

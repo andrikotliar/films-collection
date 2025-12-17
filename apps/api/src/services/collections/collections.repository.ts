@@ -1,5 +1,4 @@
-import { CreateCollectionInput } from './schemas';
-import { UpdateCollectionInput } from '~/services/collections/schemas/update-collection.schema';
+import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
 import type { DatabaseClient, Deps } from '~/shared';
 
 export class CollectionsRepository {

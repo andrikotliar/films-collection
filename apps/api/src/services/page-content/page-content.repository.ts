@@ -1,9 +1,10 @@
-import { DEFAULT_PAGINATION_LIMIT, type DatabaseClient, type Deps } from '~/shared';
+import type { DatabaseClient, Deps } from '~/shared';
 import {
-  CreatePageContentPayload,
-  GetListQueries,
-  UpdatePostPayload,
-} from '~/services/page-content/schemas';
+  DEFAULT_PAGINATION_LIMIT,
+  type CreatePageContentInput,
+  type GetListQueries,
+  type UpdatePageContentInput,
+} from '@films-collection/shared';
 
 export class PageContentRepository {
   private readonly databaseClient: DatabaseClient;
@@ -62,13 +63,13 @@ export class PageContentRepository {
     });
   }
 
-  createPageContent(input: CreatePageContentPayload) {
+  createPageContent(input: CreatePageContentInput) {
     return this.databaseClient.pageContent.create({
       data: input,
     });
   }
 
-  updatePageContent(id: number, input: UpdatePostPayload) {
+  updatePageContent(id: number, input: UpdatePageContentInput) {
     return this.databaseClient.pageContent.update({
       where: {
         id,

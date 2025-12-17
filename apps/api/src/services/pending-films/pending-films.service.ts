@@ -1,11 +1,12 @@
-import { Prisma } from '@prisma/client';
-import { PendingFilmsRepository } from './pending-films.repository';
+import type { Prisma } from '@prisma/client';
+import type { PendingFilmsRepository } from './pending-films.repository';
 import {
-  CreatePendingFilmInput,
-  GetPendingFilmsListQuery,
-  UpdatePendingFilmInput,
-} from './schemas';
-import { DEFAULT_PAGINATION_LIMIT, type Deps } from '~/shared';
+  type CreatePendingFilmInput,
+  type GetPendingFilmsListQuery,
+  type UpdatePendingFilmInput,
+  DEFAULT_PAGINATION_LIMIT,
+} from '@films-collection/shared';
+import type { Deps } from '~/shared';
 
 export class PendingFilmsService {
   private readonly pendingFilmsRepository: PendingFilmsRepository;

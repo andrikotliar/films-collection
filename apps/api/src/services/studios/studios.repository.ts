@@ -1,5 +1,5 @@
 import type { DatabaseClient, Deps } from '~/shared';
-import type { ManageStudioInput } from '~/services/studios/schemas';
+import type { StudioInput } from '@films-collection/shared';
 
 export class StudiosRepository {
   private readonly databaseClient: DatabaseClient;
@@ -17,7 +17,7 @@ export class StudiosRepository {
     });
   }
 
-  create(input: ManageStudioInput) {
+  create(input: StudioInput) {
     return this.databaseClient.studio.create({ data: input });
   }
 
@@ -25,7 +25,7 @@ export class StudiosRepository {
     return this.databaseClient.studio.delete({ where: { id } });
   }
 
-  update(id: number, input: ManageStudioInput) {
+  update(id: number, input: StudioInput) {
     return this.databaseClient.studio.update({
       where: {
         id,

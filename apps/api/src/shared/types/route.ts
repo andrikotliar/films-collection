@@ -1,25 +1,26 @@
-import type { Static, TSchema } from '@sinclair/typebox';
+import type { SchemaRef } from '@films-collection/shared';
 import type { FastifyReply, FastifyRequest, FastifyInstance } from 'fastify';
+import type z from 'zod';
 import type { ResponseStatus } from '~/shared/enums';
 
 export type RouteSchema = {
-  body?: TSchema;
-  querystring?: TSchema;
-  params?: TSchema;
-  response?: TSchema;
+  body?: SchemaRef<string, z.ZodType>;
+  querystring?: SchemaRef<string, z.ZodType>;
+  params?: SchemaRef<string, z.ZodType>;
+  response?: SchemaRef<string, z.ZodType>;
 };
 
-type InferRequest<S extends Partial<RouteSchema>> = {
-  Body: S['body'] extends TSchema ? Static<S['body']> : undefined;
-  Querystring: S['querystring'] extends TSchema ? Static<S['querystring']> : undefined;
-  Params: S['params'] extends TSchema ? Static<S['params']> : undefined;
+type InferZod<T, R = undefined> = T extends SchemaRef<string, infer S> ? z.infer<S> : R;
+
+type InferRequest<S extends RouteSchema> = {
+  Body: InferZod<S['body']>;
+  Querystring: InferZod<S['querystring']>;
+  Params: InferZod<S['params']>;
 };
 
-type InferResponse<S extends Partial<RouteSchema>> = S['response'] extends TSchema
-  ? Static<S['response']>
-  : unknown;
+type InferResponse<S extends RouteSchema> = InferZod<S['response'], unknown>;
 
-type HandlerContext<S extends Partial<RouteSchema>> = {
+type HandlerContext<S extends RouteSchema> = {
   request: FastifyRequest<InferRequest<S>>;
   reply: FastifyReply;
   app: FastifyInstance;
@@ -27,7 +28,7 @@ type HandlerContext<S extends Partial<RouteSchema>> = {
 
 type PreHandler = (request: FastifyRequest, reply: FastifyReply) => void;
 
-type HandlerReturn<S extends Partial<RouteSchema>> = {
+type HandlerReturn<S extends RouteSchema> = {
   status?: ResponseStatus;
   data: InferResponse<S>;
 };

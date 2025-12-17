@@ -1,11 +1,10 @@
 import type { Film, Prisma } from '@prisma/client';
+import type { DatabaseClient, Deps } from '~/shared';
 import {
   DEFAULT_PAGINATION_LIMIT,
   DEFAULT_SEARCH_LIMIT,
-  type DatabaseClient,
-  type Deps,
-} from '~/shared';
-import type { FilmOptionsQueries } from '~/services/films/schemas';
+  type GetFilmOptionsQuery,
+} from '@films-collection/shared';
 
 export class FilmsRepository {
   private readonly databaseClient: DatabaseClient;
@@ -310,7 +309,7 @@ export class FilmsRepository {
     });
   }
 
-  async getFilmsListByQuery({ q, selected }: FilmOptionsQueries) {
+  async getFilmsListByQuery({ q, selected }: GetFilmOptionsQuery) {
     const whereOptions: Prisma.FilmWhereInput = {
       deletedAt: null,
     };

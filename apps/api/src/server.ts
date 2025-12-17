@@ -4,9 +4,13 @@ import type { PrismaClient } from '@prisma/client';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
-import type { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import StaticPlugin from '@fastify/static';
-import { AuthPlugin, RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
+import {
+  type ZodTypeProvider,
+  serializerCompiler,
+  validatorCompiler,
+} from 'fastify-type-provider-zod';
+import { RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
 import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
 
 declare module 'fastify' {
@@ -23,7 +27,10 @@ const app = fastify({
       target: '@fastify/one-line-logger',
     },
   },
-}).withTypeProvider<TypeBoxTypeProvider>();
+}).withTypeProvider<ZodTypeProvider>();
+
+app.setValidatorCompiler(validatorCompiler);
+app.setSerializerCompiler(serializerCompiler);
 
 app.register(CookiePlugin, {
   secret: env.COOKIE_SECRET,
@@ -49,7 +56,6 @@ app.register(StaticPlugin, {
 });
 
 app.register(DatabasePlugin);
-app.register(AuthPlugin);
 app.register(DiContainerPlugin);
 app.register(RoutesPlugin, { prefix: '/api' });
 

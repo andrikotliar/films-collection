@@ -1,4 +1,4 @@
-import { ListOption } from '~/shared';
+import type { ListOption } from '@films-collection/shared';
 import type { CurrentEvent } from '~/services/collection-events';
 
 export type InitialData = {

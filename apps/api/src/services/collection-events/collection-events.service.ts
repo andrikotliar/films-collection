@@ -1,6 +1,9 @@
 import type { CollectionsService } from '~/services/collections/collections.service';
-import { CollectionEventsRepository } from './collection-events.repository';
-import { CreateCollectionEventPayload, UpdateCollectionEventPayload } from './schemas';
+import type { CollectionEventsRepository } from './collection-events.repository';
+import type {
+  CreateCollectionEventInput,
+  UpdateCollectionEventInput,
+} from '@films-collection/shared';
 import type { Deps } from '~/shared';
 
 export class CollectionEventsService {
@@ -24,7 +27,7 @@ export class CollectionEventsService {
     return events ?? [];
   }
 
-  createEvent(input: CreateCollectionEventPayload) {
+  createEvent(input: CreateCollectionEventInput) {
     return this.collectionEventsRepository.createEvent(input);
   }
 
@@ -32,7 +35,7 @@ export class CollectionEventsService {
     return this.collectionEventsRepository.deleteEvent(id);
   }
 
-  async updateEvent(id: number, input: UpdateCollectionEventPayload) {
+  async updateEvent(id: number, input: UpdateCollectionEventInput) {
     return this.collectionEventsRepository.updateEvent(id, input);
   }
 

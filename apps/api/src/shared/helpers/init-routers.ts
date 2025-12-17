@@ -1,5 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { ResponseCode } from '~/shared/enums';
+import { unwrapSchema } from '~/shared/helpers/unwrap-schema';
 import type { Route } from '~/shared/types';
 
 export const initRouters = (routes: Route[]) => {
@@ -8,7 +9,7 @@ export const initRouters = (routes: Route[]) => {
       app.route({
         url: route.url,
         method: route.method,
-        schema: route.schema,
+        schema: unwrapSchema(route.schema),
         preHandler: route.preHandler,
         handler: async (request: any, reply) => {
           const result = await route.handler({ request, reply, app });

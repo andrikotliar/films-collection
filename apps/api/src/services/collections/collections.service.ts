@@ -1,6 +1,6 @@
 import { buildListOptions, type Deps } from '~/shared';
-import { CollectionsRepository } from './collections.repository';
-import { CreateCollectionInput, UpdateCollectionInput } from './schemas';
+import type { CollectionsRepository } from './collections.repository';
+import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
 
 export class CollectionsService {
   private readonly collectionsRepository: CollectionsRepository;

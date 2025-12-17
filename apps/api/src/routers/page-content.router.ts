@@ -1,23 +1,18 @@
+import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   IdParamSchema,
-  NotFoundException,
-  defineRoute,
-  createRouter,
-  validateAuth,
-} from '~/shared';
-import {
-  CreatePageContentSchema,
+  CreatePageContentInputSchema,
   GetListQueriesSchema,
   GetPageContentByPageUrlParamsSchema,
-  UpdatePageContentSchema,
-} from '~/services/page-content';
+  UpdatePageContentInputSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePageContentSchema,
+      body: CreatePageContentInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -79,7 +74,7 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      body: UpdatePageContentSchema,
+      body: UpdatePageContentInputSchema,
       params: IdParamSchema,
     },
     preHandler: [validateAuth],

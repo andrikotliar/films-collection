@@ -1,5 +1,9 @@
-import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
-import { CreateCollectionBodySchema, UpdateCollectionBodySchema } from '~/services/collections';
+import { defineRoute, createRouter, validateAuth } from '~/shared';
+import {
+  IdParamSchema,
+  CreateCollectionInputSchema,
+  UpdateCollectionInputSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -15,7 +19,7 @@ export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
-    schema: { body: CreateCollectionBodySchema },
+    schema: { body: CreateCollectionInputSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionsService').createCollection(request.body);
@@ -27,7 +31,7 @@ export default createRouter([
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    schema: { params: IdParamSchema, body: UpdateCollectionBodySchema },
+    schema: { params: IdParamSchema, body: UpdateCollectionInputSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container

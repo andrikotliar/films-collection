@@ -1,5 +1,10 @@
-import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
-import { AwardBodySchema, FindNominationsSchema } from '~/services/awards';
+import { defineRoute, createRouter, validateAuth } from '~/shared';
+import {
+  CreateAwardInputSchema,
+  UpdateAwardInputSchema,
+  FindNominationsQuerySchema,
+  IdParamSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -16,7 +21,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: AwardBodySchema,
+      body: CreateAwardInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -30,7 +35,7 @@ export default createRouter([
     method: 'GET',
     url: '/nominations',
     schema: {
-      querystring: FindNominationsSchema,
+      querystring: FindNominationsQuerySchema,
     },
     async handler({ request, app }) {
       if (!request.query.awardId) {
@@ -65,7 +70,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
-      body: AwardBodySchema,
+      body: UpdateAwardInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

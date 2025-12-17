@@ -1,5 +1,5 @@
-import { IdParamSchema, defineRoute, createRouter, validateAuth } from '~/shared';
-import { ManageStudioBodySchema } from '~/services/studios/schemas';
+import { defineRoute, createRouter, validateAuth } from '~/shared';
+import { IdParamSchema, StudioInputSchema } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -16,7 +16,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: ManageStudioBodySchema,
+      body: StudioInputSchema,
     },
 
     preHandler: [validateAuth],
@@ -31,7 +31,7 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      body: ManageStudioBodySchema,
+      body: StudioInputSchema,
       params: IdParamSchema,
     },
     preHandler: [validateAuth],

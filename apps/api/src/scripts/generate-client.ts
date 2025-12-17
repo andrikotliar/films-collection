@@ -2,7 +2,7 @@ import { convertCamelCaseToKebabCase } from '@films-collection/shared';
 import fs from 'node:fs';
 import path from 'node:path';
 import { routers } from '~/routers';
-import type { Route } from '~/shared';
+import type { Route, RouteSchema } from '~/shared';
 
 const appsFolder = import.meta.dirname.split('/api/')[0];
 const outDir = path.join(appsFolder, '/web/src/generated');
@@ -38,38 +38,6 @@ const verbName = (method: string, hasParams: boolean) => {
       return method.toLowerCase();
   }
 };
-
-const typeHeader = `
-import type { z } from "zod";
-
-type RouteSchema = {
-  body?: z.ZodTypeAny;
-  querystring?: z.ZodTypeAny;
-  params?: z.ZodTypeAny;
-  response?: z.ZodTypeAny;
-};
-
-type HttpMethod = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
-
-type OptsFromSchema<S extends RouteSchema | undefined> = S extends undefined
-  ? undefined
-  : {
-      input: S extends { body: z.ZodTypeAny } ? z.infer<S["body"]> : never;
-      queryParams: S extends { querystring: z.ZodTypeAny } ? z.infer<S["querystring"]> : never;
-      params: S extends { params: z.ZodTypeAny } ? z.infer<S["params"]> : never;
-    } extends infer O
-  ? { [K in keyof O as O[K] extends never ? never : K]: O[K] }
-  : never;
-
-type ResponseFromSchema<S extends RouteSchema | undefined> =
-  S extends { response: z.ZodTypeAny } ? z.infer<S["response"]> : unknown;
-
-type RequestFn = <S extends RouteSchema | undefined>(
-  method: HttpMethod,
-  path: string,
-  opts?: OptsFromSchema<S>
-) => Promise<ResponseFromSchema<S>>;
-`;
 
 type Node = {
   children: Record<string, Node>;
@@ -115,7 +83,15 @@ const emitRuntime = (node: Node, indent = 2): string => {
 
   for (const [key, value] of Object.entries(node.children)) {
     if (value.fn) {
-      lines.push(`${pad}${key}: (opts) => request('${value.fn.method}', '${value.fn.path}', opts)`);
+      const isQuery = value.fn.method === 'GET';
+
+      const fn = `(opts) => request('${value.fn.method}', '${value.fn.path}', opts)`;
+
+      const keyFn = isQuery
+        ? `(opts) => ['${value.fn.path}', opts?.params, opts?.queryParams]`
+        : `['${value.fn.path}']`;
+
+      lines.push(`${pad}${key}: Object.assign(${fn}, { key: ${keyFn} })`);
     } else {
       lines.push(`${pad}${key}: {\n${emitRuntime(value, indent + 2)}\n${pad}}`);
     }
@@ -130,13 +106,22 @@ const emitTypes = (node: Node, indent = 2): string => {
 
   for (const [key, value] of Object.entries(node.children)) {
     if (value.fn) {
+      const schema = value.fn.schema as RouteSchema;
+
+      const schemaType = schema
+        ? `{
+            body: ${schema.body ? schema.body.def : 'never'};
+            querystring: ${schema.querystring ? `typeof Schemas.${schema.querystring}` : 'never'};
+            params: ${schema.params ? `typeof Schemas.${schema.params}` : 'never'};
+            response: ${schema.response ? `typeof Schemas.${schema.response}` : 'never'};
+          }`
+        : 'undefined';
+
       lines.push(
         `${pad}${key}: (` +
-          `(opts${value.fn.schema ? '?' : ''}: OptsFromSchema<${JSON.stringify(
-            value.fn.schema,
-          )}>)` +
-          ` => Promise<ResponseFromSchema<${JSON.stringify(value.fn.schema)}>>` +
-          `) & { path: string }`,
+          `(opts${schema ? '?' : ''}: OptsFromSchema<${schemaType}>)` +
+          ` => Promise<ResponseFromSchema<${schemaType}>>` +
+          `) & { key: readonly unknown[]; }`,
       );
     } else {
       lines.push(`${pad}${key}: {\n${emitTypes(value, indent + 2)}\n${pad}}`);
@@ -155,9 +140,17 @@ ${emitRuntime(root, 4)}
 `;
 
 const types = `
-${typeHeader}
+import type * as Schemas from '@films-collection/shared';
 
-export declare function createApi(request: RequestFn): {
+export declare function createApi(request: (
+  method: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE',
+  path: string,
+  opts?: Partial<{
+    input: Record<string, unknown>;
+    queryParams: Record<string, unknown>;
+    params: Record<string, unknown>;
+  }>
+) => Promise<unknown>): {
 ${emitTypes(root, 2)}
 };
 `;
