@@ -28,7 +28,7 @@ jobs:
       - name: Generate database client
         run: pnpm run db:client:generate
 
-        - name: TypeScript check — packages/shared
+      - name: TypeScript check — packages/shared
         run: pnpm -w exec tsc --project packages/shared/tsconfig.json --noEmit
 
       - name: TypeScript check — apps/api
