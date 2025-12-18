@@ -1,8 +1,8 @@
-import { Prisma } from '@prisma/client';
+import type { Prisma } from '@prisma/client';
 import { buildListOptions, NotFoundException, type Deps } from '~/shared';
-import { AwardsRepository } from './awards.repository';
-import { AwardInput } from './schemas';
-import { GetByIdParams, GroupedNominations } from './types';
+import type { AwardsRepository } from './awards.repository';
+import type { GetByIdParams, GroupedNominations } from './types';
+import type { CreateAwardInput } from '@films-collection/shared';
 
 const NEW_NOMINATION_ID = -1;
 
@@ -33,7 +33,7 @@ export class AwardsService {
     return buildListOptions(nominations);
   }
 
-  createAward(input: AwardInput) {
+  createAward(input: CreateAwardInput) {
     return this.awardsRepository.createAward(input);
   }
 
@@ -49,7 +49,7 @@ export class AwardsService {
     return this.awardsRepository.deleteAward(id);
   }
 
-  async updateAward(awardId: number, input: AwardInput) {
+  async updateAward(awardId: number, input: CreateAwardInput) {
     const { nominations, ...award } = input;
 
     const awardBeforeUpdate = await this.getAwardById(awardId);

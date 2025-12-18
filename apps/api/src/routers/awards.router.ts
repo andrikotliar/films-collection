@@ -1,7 +1,6 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   CreateAwardInputSchemaRef,
-  UpdateAwardInputSchemaRef,
   FindNominationsQuerySchemaRef,
   IdParamSchemaRef,
 } from '@films-collection/shared';
@@ -70,7 +69,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchemaRef,
-      body: UpdateAwardInputSchemaRef,
+      body: CreateAwardInputSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

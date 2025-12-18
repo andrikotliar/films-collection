@@ -2,7 +2,7 @@ import type { DatabaseClient, Deps } from '~/shared';
 import {
   DEFAULT_PAGINATION_LIMIT,
   type CreatePageContentInput,
-  type GetListQueries,
+  type GetPageContentListQueries,
   type UpdatePageContentInput,
 } from '@films-collection/shared';
 
@@ -27,7 +27,7 @@ export class PageContentRepository {
     });
   }
 
-  async getList({ skip }: GetListQueries) {
+  async getList({ skip }: GetPageContentListQueries) {
     const list = await this.databaseClient.pageContent.findMany({
       select: {
         id: true,

@@ -1,7 +1,11 @@
 import sanitize from 'sanitize-html';
-import { PageContentRepository } from './page-content.repository';
-import { CreatePageContentPayload, GetListQueries, UpdatePostPayload } from './schemas';
+import type { PageContentRepository } from './page-content.repository';
 import { ALLOWED_HTML_TAGS, type Deps } from '~/shared';
+import type {
+  CreatePageContentInput,
+  GetPageContentListQueries,
+  UpdatePageContentInput,
+} from '@films-collection/shared';
 
 const MAX_WORDS_LIMIT = 30;
 
@@ -20,7 +24,7 @@ export class PageContentService {
     return this.pageContentRepository.getPageContentByKey(key);
   }
 
-  createPageContent(input: CreatePageContentPayload) {
+  createPageContent(input: CreatePageContentInput) {
     const sanitizedContent = sanitize(input.content, {
       allowedTags: ALLOWED_HTML_TAGS,
       allowedAttributes: {},
@@ -32,7 +36,7 @@ export class PageContentService {
     });
   }
 
-  updatePageContent(id: number, input: UpdatePostPayload) {
+  updatePageContent(id: number, input: UpdatePageContentInput) {
     if (input.content) {
       const sanitizedContent = sanitize(input.content, {
         allowedTags: ALLOWED_HTML_TAGS,
@@ -48,7 +52,7 @@ export class PageContentService {
     return this.pageContentRepository.updatePageContent(id, input);
   }
 
-  async getList(queries: GetListQueries) {
+  async getList(queries: GetPageContentListQueries) {
     const data = await this.pageContentRepository.getList(queries);
 
     if (!data.list.length) {

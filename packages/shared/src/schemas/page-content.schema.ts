@@ -33,6 +33,6 @@ export const UpdatePageContentInputSchemaRef = schemaRef(
 export type GetPageContentByPageUrlParams = InferSchema<
   typeof GetPageContentByPageUrlParamsSchemaRef
 >;
-export type GetListQueries = InferSchema<typeof GetPageContentListQueriesSchemaRef>;
+export type GetPageContentListQueries = InferSchema<typeof GetPageContentListQueriesSchemaRef>;
 export type CreatePageContentInput = InferSchema<typeof CreatePageContentInputSchemaRef>;
 export type UpdatePageContentInput = InferSchema<typeof UpdatePageContentInputSchemaRef>;
