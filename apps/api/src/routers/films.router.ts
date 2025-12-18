@@ -1,12 +1,12 @@
 import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
-  IdParamSchema,
-  GetAdminListQuerySchema,
-  GetFilmOptionsQuerySchema,
-  GetFilmRelatedChaptersSchema,
-  GetFilmsListQuerySchema,
-  SearchFilmsQuerySchema,
-  UpdateFilmWatchCounterInputSchema,
+  IdParamSchemaRef,
+  GetAdminListQuerySchemaRef,
+  GetFilmOptionsQuerySchemaRef,
+  GetFilmRelatedChaptersSchemaRef,
+  GetFilmsListQuerySchemaRef,
+  SearchFilmsQuerySchemaRef,
+  UpdateFilmWatchCounterInputSchemaRef,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -14,7 +14,7 @@ export default createRouter([
     method: 'GET',
     url: '/',
     schema: {
-      querystring: GetFilmsListQuerySchema,
+      querystring: GetFilmsListQuerySchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilteredFilms(request.query);
@@ -27,7 +27,7 @@ export default createRouter([
     method: 'GET',
     url: '/search',
     schema: {
-      querystring: SearchFilmsQuerySchema,
+      querystring: SearchFilmsQuerySchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').searchFilm(request.query.q);
@@ -40,7 +40,7 @@ export default createRouter([
     method: 'GET',
     url: '/options',
     schema: {
-      querystring: GetFilmOptionsQuerySchema,
+      querystring: GetFilmOptionsQuerySchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilmOptions(request.query);
@@ -54,7 +54,7 @@ export default createRouter([
     url: '/admin',
     preHandler: [validateAuth],
     schema: {
-      querystring: GetAdminListQuerySchema,
+      querystring: GetAdminListQuerySchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getAdminList(request.query);
@@ -68,7 +68,7 @@ export default createRouter([
     url: '/admin/:id',
     preHandler: [validateAuth],
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -84,7 +84,7 @@ export default createRouter([
     url: '/chapters',
     preHandler: [validateAuth],
     schema: {
-      querystring: GetFilmRelatedChaptersSchema,
+      querystring: GetFilmRelatedChaptersSchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getRelatedChapters(request.query);
@@ -96,7 +96,7 @@ export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/:id',
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchemaRef },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilmDetails(request.params.id);
 
@@ -114,8 +114,8 @@ export default createRouter([
     method: 'PATCH',
     url: '/admin/:id/counter',
     schema: {
-      params: IdParamSchema,
-      body: UpdateFilmWatchCounterInputSchema,
+      params: IdParamSchemaRef,
+      body: UpdateFilmWatchCounterInputSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -130,7 +130,7 @@ export default createRouter([
   defineRoute({
     method: 'DELETE',
     url: '/admin/:id',
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchemaRef },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').deleteFilm(request.params.id);
 

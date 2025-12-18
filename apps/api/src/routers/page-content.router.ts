@@ -1,10 +1,10 @@
 import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
-  IdParamSchema,
-  CreatePageContentInputSchema,
-  GetListQueriesSchema,
-  GetPageContentByPageUrlParamsSchema,
-  UpdatePageContentInputSchema,
+  IdParamSchemaRef,
+  CreatePageContentInputSchemaRef,
+  GetPageContentListQueriesSchemaRef,
+  GetPageContentByPageUrlParamsSchemaRef,
+  UpdatePageContentInputSchemaRef,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -12,7 +12,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePageContentInputSchema,
+      body: CreatePageContentInputSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -27,7 +27,7 @@ export default createRouter([
     method: 'GET',
     url: '/admin',
     schema: {
-      querystring: GetListQueriesSchema,
+      querystring: GetPageContentListQueriesSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -40,7 +40,7 @@ export default createRouter([
     method: 'GET',
     url: '/page/:pageKey',
     schema: {
-      params: GetPageContentByPageUrlParamsSchema,
+      params: GetPageContentByPageUrlParamsSchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -60,7 +60,7 @@ export default createRouter([
     method: 'GET',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -74,8 +74,8 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      body: UpdatePageContentInputSchema,
-      params: IdParamSchema,
+      body: UpdatePageContentInputSchemaRef,
+      params: IdParamSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -90,7 +90,7 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

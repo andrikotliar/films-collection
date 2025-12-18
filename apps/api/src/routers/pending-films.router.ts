@@ -1,9 +1,9 @@
 import { NotFoundException, createRouter, defineRoute, validateAuth } from '~/shared';
 import {
-  IdParamSchema,
-  CreatePendingFilmInputSchema,
-  GetPendingFilmsListQuerySchema,
-  UpdatePendingFilmInputSchema,
+  IdParamSchemaRef,
+  CreatePendingFilmInputSchemaRef,
+  GetPendingFilmsListQuerySchemaRef,
+  UpdatePendingFilmInputSchemaRef,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -12,7 +12,7 @@ export default createRouter([
     url: '/',
     preHandler: [validateAuth],
     schema: {
-      querystring: GetPendingFilmsListQuerySchema,
+      querystring: GetPendingFilmsListQuerySchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('pendingFilmsService').getList(request.query);
@@ -25,7 +25,7 @@ export default createRouter([
     url: '/:id',
     preHandler: [validateAuth],
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -45,7 +45,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     preHandler: [validateAuth],
-    schema: { body: CreatePendingFilmInputSchema },
+    schema: { body: CreatePendingFilmInputSchemaRef },
 
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -60,8 +60,8 @@ export default createRouter([
     url: '/:id',
     preHandler: [validateAuth],
     schema: {
-      params: IdParamSchema,
-      body: UpdatePendingFilmInputSchema,
+      params: IdParamSchemaRef,
+      body: UpdatePendingFilmInputSchemaRef,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -75,7 +75,7 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     preHandler: [validateAuth],
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchemaRef },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')

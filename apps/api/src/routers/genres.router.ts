@@ -1,5 +1,5 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { IdParamSchema, GenreInputSchema } from '@films-collection/shared';
+import { IdParamSchemaRef, GenreInputSchemaRef } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -16,7 +16,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: GenreInputSchema,
+      body: GenreInputSchemaRef,
     },
 
     preHandler: [validateAuth],
@@ -31,8 +31,8 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
-      body: GenreInputSchema,
+      params: IdParamSchemaRef,
+      body: GenreInputSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -48,7 +48,7 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

@@ -1,9 +1,9 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
-  CreateAwardInputSchema,
-  UpdateAwardInputSchema,
-  FindNominationsQuerySchema,
-  IdParamSchema,
+  CreateAwardInputSchemaRef,
+  UpdateAwardInputSchemaRef,
+  FindNominationsQuerySchemaRef,
+  IdParamSchemaRef,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -21,7 +21,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: CreateAwardInputSchema,
+      body: CreateAwardInputSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -35,7 +35,7 @@ export default createRouter([
     method: 'GET',
     url: '/nominations',
     schema: {
-      querystring: FindNominationsQuerySchema,
+      querystring: FindNominationsQuerySchemaRef,
     },
     async handler({ request, app }) {
       if (!request.query.awardId) {
@@ -54,7 +54,7 @@ export default createRouter([
     method: 'GET',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     async handler({ request, app }) {
       const data = await app.container.resolve('awardsService').getAwardById(request.params.id, {
@@ -69,8 +69,8 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
-      body: UpdateAwardInputSchema,
+      params: IdParamSchemaRef,
+      body: UpdateAwardInputSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -86,7 +86,7 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     schema: {
-      params: IdParamSchema,
+      params: IdParamSchemaRef,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
