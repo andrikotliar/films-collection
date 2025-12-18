@@ -100,28 +100,57 @@ const emitRuntime = (node: Node, indent = 2): string => {
   return lines.join(',\n');
 };
 
+const buildOptionsParameterType = (
+  param: 'input' | 'queryParams' | 'params',
+  schemaName: string,
+) => {
+  return `${param}: z.infer<typeof Schemas.${schemaName}.value>`;
+};
+
+const buildOptionsType = (schema?: RouteSchema) => {
+  if (!schema) {
+    return null;
+  }
+
+  const options: string[] = [];
+
+  if (schema.body) {
+    options.push(buildOptionsParameterType('input', schema.body.__schemaName));
+  }
+
+  if (schema.params) {
+    options.push(buildOptionsParameterType('params', schema.params.__schemaName));
+  }
+
+  if (schema.querystring) {
+    options.push(buildOptionsParameterType('queryParams', schema.querystring.__schemaName));
+  }
+
+  return `{
+      ${options.join(',\n')}
+  }`;
+};
+
+const buildResponseType = (schema?: RouteSchema) => {
+  if (!schema?.response) {
+    return 'unknown';
+  }
+
+  return `z.infer<typeof Schemas.${schema.response.__schemaName}>`;
+};
+
 const emitTypes = (node: Node, indent = 2): string => {
   const pad = ' '.repeat(indent);
   const lines: string[] = [];
 
   for (const [key, value] of Object.entries(node.children)) {
     if (value.fn) {
-      const schema = value.fn.schema as RouteSchema;
-
-      const schemaType = schema
-        ? `{
-            body: ${schema.body ? schema.body.def : 'never'};
-            querystring: ${schema.querystring ? `typeof Schemas.${schema.querystring}` : 'never'};
-            params: ${schema.params ? `typeof Schemas.${schema.params}` : 'never'};
-            response: ${schema.response ? `typeof Schemas.${schema.response}` : 'never'};
-          }`
-        : 'undefined';
+      const optionsType = buildOptionsType(value.fn.schema);
 
       lines.push(
-        `${pad}${key}: (` +
-          `(opts${schema ? '?' : ''}: OptsFromSchema<${schemaType}>)` +
-          ` => Promise<ResponseFromSchema<${schemaType}>>` +
-          `) & { key: readonly unknown[]; }`,
+        `${pad}${key}: ((${
+          optionsType ? `opts: ${optionsType}` : ''
+        }) => Promise<${buildResponseType(value.fn.schema)}>) & { key: readonly unknown[]; }`,
       );
     } else {
       lines.push(`${pad}${key}: {\n${emitTypes(value, indent + 2)}\n${pad}}`);
@@ -140,17 +169,24 @@ ${emitRuntime(root, 4)}
 `;
 
 const types = `
+import type z from 'zod';
 import type * as Schemas from '@films-collection/shared';
 
-export declare function createApi(request: (
-  method: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE',
+type RequestOptions = {
+  input?: z.ZodType;
+  queryParams?: z.ZodType;
+  params?: z.ZodType;
+};
+
+type HttpMethod = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
+
+type RequestFn = (
+  method: HttpMethod,
   path: string,
-  opts?: Partial<{
-    input: Record<string, unknown>;
-    queryParams: Record<string, unknown>;
-    params: Record<string, unknown>;
-  }>
-) => Promise<unknown>): {
+  opts?: RequestOptions
+) => Promise<unknown>;
+
+export declare function createApi(request: RequestFn): {
 ${emitTypes(root, 2)}
 };
 `;
