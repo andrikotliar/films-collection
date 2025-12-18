@@ -1,7 +1,12 @@
 import z from 'zod';
+import { schemaRef } from '~/helpers';
+import type { InferSchema } from '~/types';
 
-export const CountryInputSchema = z.object({
-  title: z.string(),
-});
+export const CountryInputSchemaRef = schemaRef(
+  'CountryInputSchemaRef',
+  z.object({
+    title: z.string(),
+  }),
+);
 
-export type CountryInput = z.infer<typeof CountryInputSchema>;
+export type CountryInput = InferSchema<typeof CountryInputSchemaRef>;

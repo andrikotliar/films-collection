@@ -1,7 +1,12 @@
 import z from 'zod';
+import { schemaRef } from '~/helpers';
+import type { InferSchema } from '~/types';
 
-export const StudioInputSchema = z.object({
-  title: z.string(),
-});
+export const StudioInputSchemaRef = schemaRef(
+  'StudioInputSchemaRef',
+  z.object({
+    title: z.string(),
+  }),
+);
 
-export type StudioInput = z.infer<typeof StudioInputSchema>;
+export type StudioInput = InferSchema<typeof StudioInputSchemaRef>;

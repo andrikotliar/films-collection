@@ -1,7 +1,12 @@
 import z from 'zod';
+import { schemaRef } from '~/helpers';
+import type { InferSchema } from '~/types';
 
-export const GenreInputSchema = z.object({
-  title: z.string(),
-});
+export const GenreInputSchemaRef = schemaRef(
+  'GenreInputSchemaRef',
+  z.object({
+    title: z.string(),
+  }),
+);
 
-export type GenreInput = z.infer<typeof GenreInputSchema>;
+export type GenreInput = InferSchema<typeof GenreInputSchemaRef>;

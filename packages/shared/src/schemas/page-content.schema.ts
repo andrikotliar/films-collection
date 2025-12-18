@@ -1,22 +1,38 @@
 import z from 'zod';
+import { schemaRef } from '~/helpers';
+import type { InferSchema } from '~/types';
 
-export const GetPageContentByPageUrlParamsSchema = z.object({
-  pageKey: z.string(),
-});
+export const GetPageContentByPageUrlParamsSchemaRef = schemaRef(
+  'GetPageContentByPageUrlParamsSchemaRef',
+  z.object({
+    pageKey: z.string(),
+  }),
+);
 
-export const GetListQueriesSchema = z.object({
-  skip: z.number(),
-});
+export const GetPageContentListQueriesSchemaRef = schemaRef(
+  'GetListQueriesSchemaRef',
+  z.object({
+    skip: z.number(),
+  }),
+);
 
-export const CreatePageContentInputSchema = z.object({
-  title: z.string(),
-  pageKey: z.string(),
-  content: z.string(),
-});
+export const CreatePageContentInputSchemaRef = schemaRef(
+  'CreatePageContentInputSchemaRef',
+  z.object({
+    title: z.string(),
+    pageKey: z.string(),
+    content: z.string(),
+  }),
+);
 
-export const UpdatePageContentInputSchema = CreatePageContentInputSchema.partial();
+export const UpdatePageContentInputSchemaRef = schemaRef(
+  'UpdatePageContentInputSchemaRef',
+  CreatePageContentInputSchemaRef.value.partial(),
+);
 
-export type GetPageContentByPageUrlParams = z.infer<typeof GetPageContentByPageUrlParamsSchema>;
-export type GetListQueries = z.infer<typeof GetListQueriesSchema>;
-export type CreatePageContentInput = z.infer<typeof CreatePageContentInputSchema>;
-export type UpdatePageContentInput = z.infer<typeof UpdatePageContentInputSchema>;
+export type GetPageContentByPageUrlParams = InferSchema<
+  typeof GetPageContentByPageUrlParamsSchemaRef
+>;
+export type GetListQueries = InferSchema<typeof GetPageContentListQueriesSchemaRef>;
+export type CreatePageContentInput = InferSchema<typeof CreatePageContentInputSchemaRef>;
+export type UpdatePageContentInput = InferSchema<typeof UpdatePageContentInputSchemaRef>;

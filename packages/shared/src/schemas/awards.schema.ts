@@ -1,8 +1,9 @@
 import z from 'zod';
 import { schemaRef } from '~/helpers/schema-ref.helper';
+import type { InferSchema } from '~/types';
 
-const NominationInputSchema = schemaRef(
-  'NominationInputSchema',
+const NominationInputSchemaRef = schemaRef(
+  'NominationInputSchemaRef',
   z.object({
     id: z.number(),
     title: z.string(),
@@ -15,27 +16,27 @@ const BaseAwardSchema = z.object({
   description: z.string().nullable(),
 });
 
-export const CreateAwardInputSchema = schemaRef(
-  'CreateAwardInputSchema',
+export const CreateAwardInputSchemaRef = schemaRef(
+  'CreateAwardInputSchemaRef',
   z.object({
     ...BaseAwardSchema.shape,
-    nominations: z.array(NominationInputSchema.value),
+    nominations: z.array(NominationInputSchemaRef.value),
   }),
 );
 
-export const FindNominationsQuerySchema = schemaRef(
-  'FindNominationsQuerySchema',
+export const FindNominationsQuerySchemaRef = schemaRef(
+  'FindNominationsQuerySchemaRef',
   z.object({
     awardId: z.number().nullable(),
   }),
 );
 
-export const UpdateAwardInputSchema = schemaRef(
-  'UpdateAwardInputSchema',
+export const UpdateAwardInputSchemaRef = schemaRef(
+  'UpdateAwardInputSchemaRef',
   BaseAwardSchema.partial(),
 );
 
-export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
-export type NominationInput = z.infer<typeof NominationInputSchema>;
-export type FindNominationsQuery = z.infer<typeof FindNominationsQuerySchema>;
-export type UpdateAwardInput = z.infer<typeof UpdateAwardInputSchema>;
+export type CreateAwardInput = InferSchema<typeof CreateAwardInputSchemaRef>;
+export type NominationInput = InferSchema<typeof NominationInputSchemaRef>;
+export type FindNominationsQuery = InferSchema<typeof FindNominationsQuerySchemaRef>;
+export type UpdateAwardInput = InferSchema<typeof UpdateAwardInputSchemaRef>;

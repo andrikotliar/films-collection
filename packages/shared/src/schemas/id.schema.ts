@@ -1,5 +1,9 @@
 import z from 'zod';
+import { schemaRef } from '~/helpers';
 
-export const IdParamSchema = z.object({
-  id: z.number(),
-});
+export const IdParamSchemaRef = schemaRef(
+  'IdParamSchemaRef',
+  z.object({
+    id: z.number(),
+  }),
+);

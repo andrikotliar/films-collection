@@ -1,7 +1,12 @@
 import z from 'zod';
+import { schemaRef } from '~/helpers';
+import type { InferSchema } from '~/types';
 
-export const CreateChapterKeyInputSchema = z.object({
-  key: z.string(),
-});
+export const CreateChapterKeyInputSchemaRef = schemaRef(
+  'CreateChapterKeyInputSchemaRef',
+  z.object({
+    key: z.string(),
+  }),
+);
 
-export type CreateChapterKeyInput = z.infer<typeof CreateChapterKeyInputSchema>;
+export type CreateChapterKeyInput = InferSchema<typeof CreateChapterKeyInputSchemaRef>;
