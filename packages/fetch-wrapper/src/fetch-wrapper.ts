@@ -3,7 +3,7 @@ import { HttpError } from './http-error';
 type FetchOptions = {
   queryParams?: Record<string, any>;
   input?: Record<string, any>;
-  params?: Record<string, string | number>;
+  params?: Record<string, any>;
 };
 
 type FetchWrapperOptions = {
