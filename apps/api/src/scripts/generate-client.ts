@@ -1,8 +1,10 @@
 import { convertCamelCaseToKebabCase } from '@films-collection/shared';
 import fs from 'node:fs';
 import path from 'node:path';
+import type z from 'zod';
 import { routers } from '~/routers';
 import type { Route, RouteSchema } from '~/shared';
+import { createAuxiliaryTypeStore, printNode, zodToTs } from 'zod-to-ts';
 
 const appsFolder = import.meta.dirname.split('/api/')[0];
 const outDir = path.join(appsFolder, '/web/src/generated');
@@ -83,15 +85,9 @@ const emitRuntime = (node: Node, indent = 2): string => {
 
   for (const [key, value] of Object.entries(node.children)) {
     if (value.fn) {
-      const isQuery = value.fn.method === 'GET';
-
       const fn = `(opts) => request('${value.fn.method}', '${value.fn.path}', opts)`;
 
-      const keyFn = isQuery
-        ? `(opts) => ['${value.fn.path}', opts?.params, opts?.queryParams]`
-        : `['${value.fn.path}']`;
-
-      lines.push(`${pad}${key}: Object.assign(${fn}, { key: ${keyFn} })`);
+      lines.push(`${pad}${key}: ${fn}`);
     } else {
       lines.push(`${pad}${key}: {\n${emitRuntime(value, indent + 2)}\n${pad}}`);
     }
@@ -100,11 +96,58 @@ const emitRuntime = (node: Node, indent = 2): string => {
   return lines.join(',\n');
 };
 
+const emitKeysRuntime = (node: Node, path: string[] = [], indent = 2): string => {
+  const pad = ' '.repeat(indent);
+  const parts: string[] = [];
+
+  for (const [key, child] of Object.entries(node.children)) {
+    const nextPath = [...path, key];
+
+    if (child.fn) {
+      const schema = child.fn.schema as RouteSchema;
+      const base = nextPath.map((p) => `'${p}'`).join(', ');
+
+      const hasParams = !!schema?.params;
+      const hasQuery = !!schema?.querystring;
+      const hasOptions = hasParams || hasQuery;
+
+      if (child.fn.method === 'GET') {
+        parts.push(
+          `${pad}${key}: (${hasOptions ? 'opts' : ''}) => [
+${pad}  ${base}${
+            hasOptions
+              ? `,
+${pad}  { ${hasParams ? 'params: opts?.params,' : ''} ${hasQuery ? 'query: opts?.query' : ''} }`
+              : ''
+          }
+${pad}]`,
+        );
+        continue;
+      }
+
+      parts.push(`${pad}${key}: () => [${base}]`);
+      continue;
+    }
+
+    parts.push(
+      `${pad}${key}: {
+${emitKeysRuntime(child, nextPath, indent + 2)}
+${pad}}`,
+    );
+  }
+
+  return parts.join(',\n');
+};
+
 const buildOptionsParameterType = (
   param: 'input' | 'queryParams' | 'params',
-  schemaName: string,
+  schema: z.ZodType,
 ) => {
-  return `${param}: z.infer<typeof Schemas.${schemaName}.value>`;
+  const auxiliaryTypeStore = createAuxiliaryTypeStore();
+  const { node } = zodToTs(schema, { auxiliaryTypeStore });
+  const typeString = printNode(node);
+
+  return `${param}: ${typeString}`;
 };
 
 const buildOptionsType = (schema?: RouteSchema) => {
@@ -115,15 +158,15 @@ const buildOptionsType = (schema?: RouteSchema) => {
   const options: string[] = [];
 
   if (schema.body) {
-    options.push(buildOptionsParameterType('input', schema.body.__schemaName));
+    options.push(buildOptionsParameterType('input', schema.body));
   }
 
   if (schema.params) {
-    options.push(buildOptionsParameterType('params', schema.params.__schemaName));
+    options.push(buildOptionsParameterType('params', schema.params));
   }
 
   if (schema.querystring) {
-    options.push(buildOptionsParameterType('queryParams', schema.querystring.__schemaName));
+    options.push(buildOptionsParameterType('queryParams', schema.querystring));
   }
 
   return `{
@@ -136,7 +179,11 @@ const buildResponseType = (schema?: RouteSchema) => {
     return 'unknown';
   }
 
-  return `z.infer<typeof Schemas.${schema.response.__schemaName}>`;
+  const auxiliaryTypeStore = createAuxiliaryTypeStore();
+  const { node } = zodToTs(schema.response, { auxiliaryTypeStore });
+  const typeString = printNode(node);
+
+  return typeString;
 };
 
 const emitTypes = (node: Node, indent = 2): string => {
@@ -148,9 +195,9 @@ const emitTypes = (node: Node, indent = 2): string => {
       const optionsType = buildOptionsType(value.fn.schema);
 
       lines.push(
-        `${pad}${key}: ((${
+        `${pad}${key}: (${
           optionsType ? `opts: ${optionsType}` : ''
-        }) => Promise<${buildResponseType(value.fn.schema)}>) & { key: readonly unknown[]; }`,
+        }) => Promise<${buildResponseType(value.fn.schema)}>`,
       );
     } else {
       lines.push(`${pad}${key}: {\n${emitTypes(value, indent + 2)}\n${pad}}`);
@@ -163,19 +210,19 @@ const emitTypes = (node: Node, indent = 2): string => {
 const runtime = `
 export function createApi(request) {
   return {
-${emitRuntime(root, 4)}
+${emitRuntime(root, 4)},
+    keys: {
+${emitKeysRuntime(root, [], 6)}
+    }
   };
 }
 `;
 
 const types = `
-import type z from 'zod';
-import type * as Schemas from '@films-collection/shared';
-
 type RequestOptions = {
-  input?: z.ZodType;
-  queryParams?: z.ZodType;
-  params?: z.ZodType;
+  input?: Record<string, any>;
+  queryParams?: Record<string, any>;
+  params?: Record<string, any>;
 };
 
 type HttpMethod = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
