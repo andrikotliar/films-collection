@@ -1,8 +1,8 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
-  CreateCollectionEventInputSchemaRef,
-  UpdateCollectionEventInputSchemaRef,
-  IdParamSchemaRef,
+  CreateCollectionEventInputSchema,
+  UpdateCollectionEventInputSchema,
+  IdParamSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -11,7 +11,7 @@ export default createRouter([
     url: '/',
     preHandler: [validateAuth],
     schema: {
-      body: CreateCollectionEventInputSchemaRef,
+      body: CreateCollectionEventInputSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionEventsService').createEvent(request.body);
@@ -36,7 +36,7 @@ export default createRouter([
     url: '/:id',
     preHandler: [validateAuth],
     schema: {
-      params: IdParamSchemaRef,
+      params: IdParamSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -52,8 +52,8 @@ export default createRouter([
     url: '/:id',
     preHandler: [validateAuth],
     schema: {
-      params: IdParamSchemaRef,
-      body: UpdateCollectionEventInputSchemaRef,
+      params: IdParamSchema,
+      body: UpdateCollectionEventInputSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container

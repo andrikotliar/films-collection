@@ -1,10 +1,10 @@
 import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
 import {
-  IdParamSchemaRef,
-  CreatePageContentInputSchemaRef,
-  GetPageContentListQueriesSchemaRef,
-  GetPageContentByPageUrlParamsSchemaRef,
-  UpdatePageContentInputSchemaRef,
+  IdParamSchema,
+  CreatePageContentInputSchema,
+  GetPageContentListQueriesSchema,
+  GetPageContentByPageUrlParamsSchema,
+  UpdatePageContentInputSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -12,7 +12,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePageContentInputSchemaRef,
+      body: CreatePageContentInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -27,7 +27,7 @@ export default createRouter([
     method: 'GET',
     url: '/admin',
     schema: {
-      querystring: GetPageContentListQueriesSchemaRef,
+      querystring: GetPageContentListQueriesSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -40,7 +40,7 @@ export default createRouter([
     method: 'GET',
     url: '/page/:pageKey',
     schema: {
-      params: GetPageContentByPageUrlParamsSchemaRef,
+      params: GetPageContentByPageUrlParamsSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -60,7 +60,7 @@ export default createRouter([
     method: 'GET',
     url: '/:id',
     schema: {
-      params: IdParamSchemaRef,
+      params: IdParamSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -74,8 +74,8 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      body: UpdatePageContentInputSchemaRef,
-      params: IdParamSchemaRef,
+      body: UpdatePageContentInputSchema,
+      params: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -90,7 +90,7 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     schema: {
-      params: IdParamSchemaRef,
+      params: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

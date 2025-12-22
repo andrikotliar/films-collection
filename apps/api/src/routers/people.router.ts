@@ -1,10 +1,10 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
-  IdParamSchemaRef,
-  CreatePersonSchemaRef,
-  GetPeopleListQuerySchemaRef,
-  SearchPersonSchemaRef,
-  UpdatePersonInputSchemaRef,
+  IdParamSchema,
+  CreatePersonSchema,
+  GetPeopleListQuerySchema,
+  SearchPersonSchema,
+  UpdatePersonInputSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -12,7 +12,7 @@ export default createRouter([
     method: 'GET',
     url: '/',
     schema: {
-      querystring: GetPeopleListQuerySchemaRef,
+      querystring: GetPeopleListQuerySchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -26,7 +26,7 @@ export default createRouter([
     method: 'GET',
     url: '/search',
     schema: {
-      querystring: SearchPersonSchemaRef,
+      querystring: SearchPersonSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').searchPerson(request.query);
@@ -39,7 +39,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: CreatePersonSchemaRef,
+      body: CreatePersonSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -53,8 +53,8 @@ export default createRouter([
     method: 'PATCH',
     url: '/:id',
     schema: {
-      params: IdParamSchemaRef,
-      body: UpdatePersonInputSchemaRef,
+      params: IdParamSchema,
+      body: UpdatePersonInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -70,7 +70,7 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     schema: {
-      params: IdParamSchemaRef,
+      params: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

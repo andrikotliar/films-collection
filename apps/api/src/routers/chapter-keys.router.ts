@@ -1,5 +1,5 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { CreateChapterKeyInputSchemaRef } from '@films-collection/shared';
+import { CreateChapterKeyInputSchema } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -15,7 +15,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     schema: {
-      body: CreateChapterKeyInputSchemaRef,
+      body: CreateChapterKeyInputSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

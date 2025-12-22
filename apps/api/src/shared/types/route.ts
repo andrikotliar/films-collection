@@ -1,16 +1,15 @@
-import type { SchemaRef } from '@films-collection/shared';
 import type { FastifyReply, FastifyRequest, FastifyInstance } from 'fastify';
 import type z from 'zod';
 import type { ResponseStatus } from '~/shared/enums';
 
 export type RouteSchema = {
-  body?: SchemaRef<string, z.ZodType>;
-  querystring?: SchemaRef<string, z.ZodType>;
-  params?: SchemaRef<string, z.ZodType>;
-  response?: SchemaRef<string, z.ZodType>;
+  body?: z.ZodType;
+  querystring?: z.ZodType;
+  params?: z.ZodType;
+  response?: z.ZodType;
 };
 
-type InferZod<T, R = undefined> = T extends SchemaRef<string, infer S> ? z.infer<S> : R;
+type InferZod<S, R = undefined> = S extends z.ZodType ? z.infer<S> : R;
 
 type InferRequest<S extends RouteSchema> = {
   Body: InferZod<S['body']>;
