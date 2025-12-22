@@ -1,38 +1,24 @@
 import z from 'zod';
 import { PersonRole } from '~/enums';
-import { schemaRef } from '~/helpers';
-import type { InferSchema } from '~/types';
 
-export const CreatePersonSchemaRef = schemaRef(
-  'CreatePersonSchemaRef',
-  z.object({
-    name: z.string(),
-  }),
-);
+export const CreatePersonSchema = z.object({
+  name: z.string(),
+});
 
-export const GetPeopleListQuerySchemaRef = schemaRef(
-  'GetPeopleListQuerySchemaRef',
-  z.object({
-    skip: z.number(),
-    q: z.string().optional(),
-    role: z.enum(PersonRole),
-  }),
-);
+export const GetPeopleListQuerySchema = z.object({
+  skip: z.number(),
+  q: z.string().optional(),
+  role: z.enum(PersonRole),
+});
 
-export const SearchPersonSchemaRef = schemaRef(
-  'SearchPersonSchemaRef',
-  z.object({
-    q: z.string(),
-    selected: z.array(z.number()),
-  }),
-);
+export const SearchPersonSchema = z.object({
+  q: z.string(),
+  selected: z.array(z.number()),
+});
 
-export const UpdatePersonInputSchemaRef = schemaRef(
-  'UpdatePersonInputSchemaRef',
-  CreatePersonSchemaRef.value.partial(),
-);
+export const UpdatePersonInputSchema = CreatePersonSchema.partial();
 
-export type GetPeopleListQuery = InferSchema<typeof GetPeopleListQuerySchemaRef>;
-export type CreatePersonInput = InferSchema<typeof CreatePersonSchemaRef>;
-export type UpdatePersonInput = InferSchema<typeof UpdatePersonInputSchemaRef>;
-export type SearchPersonQuery = InferSchema<typeof SearchPersonSchemaRef>;
+export type GetPeopleListQuery = z.infer<typeof GetPeopleListQuerySchema>;
+export type CreatePersonInput = z.infer<typeof CreatePersonSchema>;
+export type UpdatePersonInput = z.infer<typeof UpdatePersonInputSchema>;
+export type SearchPersonQuery = z.infer<typeof SearchPersonSchema>;
