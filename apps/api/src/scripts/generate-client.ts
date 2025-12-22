@@ -186,6 +186,30 @@ const buildResponseType = (schema?: RouteSchema) => {
   return typeString;
 };
 
+const emitKeysTypes = (node: Node, path: string[] = [], indent = 2): string => {
+  const pad = ' '.repeat(indent);
+  const lines: string[] = [];
+
+  for (const [key, child] of Object.entries(node.children)) {
+    if (child.fn) {
+      lines.push(
+        `${pad}${key}: (${
+          child.fn.schema ? 'opts: Record<string, unknown>' : ''
+        }) => readonly unknown[];`,
+      );
+      continue;
+    }
+
+    lines.push(
+      `${pad}${key}: {
+${emitKeysTypes(child, [...path, key], indent + 2)}
+${pad}};`,
+    );
+  }
+
+  return lines.join('\n');
+};
+
 const emitTypes = (node: Node, indent = 2): string => {
   const pad = ' '.repeat(indent);
   const lines: string[] = [];
@@ -235,6 +259,9 @@ type RequestFn = (
 
 export declare function createApi(request: RequestFn): {
 ${emitTypes(root, 2)}
+  keys: {
+${emitKeysTypes(root, [], 4)}
+  }
 };
 `;
 
