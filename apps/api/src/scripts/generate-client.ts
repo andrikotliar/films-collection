@@ -79,64 +79,33 @@ for (const [prefix, routes] of Object.entries(routers)) {
   }
 }
 
-const emitRuntime = (node: Node, indent = 2): string => {
+const emitRuntime = (node: Node, path: string[] = [], indent = 2): string => {
   const pad = ' '.repeat(indent);
   const lines: string[] = [];
 
   for (const [key, value] of Object.entries(node.children)) {
     if (value.fn) {
-      const fn = `(opts) => request('${value.fn.method}', '${value.fn.path}', opts)`;
-
-      lines.push(`${pad}${key}: ${fn}`);
+      const fullPath = [...path, key];
+      lines.push(
+        `${pad}${key}: {
+${pad}  ${value.fn.method === 'GET' ? 'query' : 'mutation'}: (opts) => request('${
+          value.fn.method
+        }', '${value.fn.path}', opts),
+${pad}  getKeys: (opts) => [${fullPath
+          .map((s) => `'${s}'`)
+          .join(', ')}, opts?.params, opts?.query, opts?.input],
+${pad}}`,
+      );
     } else {
-      lines.push(`${pad}${key}: {\n${emitRuntime(value, indent + 2)}\n${pad}}`);
+      lines.push(
+        `${pad}${key}: {
+${emitRuntime(value, [...path, key], indent + 2)}
+${pad}}`,
+      );
     }
   }
 
   return lines.join(',\n');
-};
-
-const emitKeysRuntime = (node: Node, path: string[] = [], indent = 2): string => {
-  const pad = ' '.repeat(indent);
-  const parts: string[] = [];
-
-  for (const [key, child] of Object.entries(node.children)) {
-    const nextPath = [...path, key];
-
-    if (child.fn) {
-      const schema = child.fn.schema as RouteSchema;
-      const base = nextPath.map((p) => `'${p}'`).join(', ');
-
-      const hasParams = !!schema?.params;
-      const hasQuery = !!schema?.querystring;
-      const hasOptions = hasParams || hasQuery;
-
-      if (child.fn.method === 'GET') {
-        parts.push(
-          `${pad}${key}: (${hasOptions ? 'opts' : ''}) => [
-${pad}  ${base}${
-            hasOptions
-              ? `,
-${pad}  { ${hasParams ? 'params: opts?.params,' : ''} ${hasQuery ? 'query: opts?.query' : ''} }`
-              : ''
-          }
-${pad}]`,
-        );
-        continue;
-      }
-
-      parts.push(`${pad}${key}: () => [${base}]`);
-      continue;
-    }
-
-    parts.push(
-      `${pad}${key}: {
-${emitKeysRuntime(child, nextPath, indent + 2)}
-${pad}}`,
-    );
-  }
-
-  return parts.join(',\n');
 };
 
 const buildOptionsParameterType = (
@@ -186,58 +155,43 @@ const buildResponseType = (schema?: RouteSchema) => {
   return typeString;
 };
 
-const emitKeysTypes = (node: Node, path: string[] = [], indent = 2): string => {
+const emitTypes = (node: Node, path: string[] = [], indent = 2): string => {
   const pad = ' '.repeat(indent);
   const lines: string[] = [];
 
-  for (const [key, child] of Object.entries(node.children)) {
-    if (child.fn) {
-      lines.push(
-        `${pad}${key}: (${
-          child.fn.schema ? 'opts: Record<string, unknown>' : ''
-        }) => readonly unknown[];`,
-      );
-      continue;
-    }
+  for (const [key, value] of Object.entries(node.children)) {
+    const fullPath = [...path, key];
 
-    lines.push(
-      `${pad}${key}: {
-${emitKeysTypes(child, [...path, key], indent + 2)}
-${pad}};`,
-    );
+    if (value.fn) {
+      const action = value.fn.method === 'GET' ? 'query' : 'mutation';
+      const opts = buildOptionsType(value.fn.schema);
+      const responseType = buildResponseType(value.fn.schema);
+      const optionsString = opts ? `opts: ${opts}` : '';
+
+      lines.push(
+        `${pad}${key}: {
+          ${pad}  ${action}: (${optionsString}) => Promise<${responseType}>;
+          ${pad}  getKeys: (${optionsString}) => readonly unknown[];
+          ${pad}};
+        `,
+      );
+    } else {
+      lines.push(
+        `${pad}${key}: {
+          ${emitTypes(value, fullPath, indent + 2)}
+          ${pad}
+        };`,
+      );
+    }
   }
 
   return lines.join('\n');
 };
 
-const emitTypes = (node: Node, indent = 2): string => {
-  const pad = ' '.repeat(indent);
-  const lines: string[] = [];
-
-  for (const [key, value] of Object.entries(node.children)) {
-    if (value.fn) {
-      const optionsType = buildOptionsType(value.fn.schema);
-
-      lines.push(
-        `${pad}${key}: (${
-          optionsType ? `opts: ${optionsType}` : ''
-        }) => Promise<${buildResponseType(value.fn.schema)}>`,
-      );
-    } else {
-      lines.push(`${pad}${key}: {\n${emitTypes(value, indent + 2)}\n${pad}}`);
-    }
-  }
-
-  return lines.join(';\n');
-};
-
 const runtime = `
 export function createApi(request) {
   return {
-${emitRuntime(root, 4)},
-    keys: {
-${emitKeysRuntime(root, [], 6)}
-    }
+${emitRuntime(root, [], 4)},
   };
 }
 `;
@@ -258,10 +212,7 @@ type RequestFn = (
 ) => Promise<unknown>;
 
 export declare function createApi(request: RequestFn): {
-${emitTypes(root, 2)}
-  keys: {
-${emitKeysTypes(root, [], 4)}
-  }
+${emitTypes(root, [], 2)}
 };
 `;
 
