@@ -149,6 +149,13 @@ ${pad}}`,
   return lines.join(',\n');
 };
 
+const getOptionsType = (schema?: RouteSchema) => {
+  const opts = buildOptionsType(schema);
+  const optionsString = opts ? `opts: ${opts}` : '';
+
+  return optionsString;
+};
+
 const emitTypes = (node: Node, path: string[] = [], indent = INDENTATION): string => {
   const lines: string[] = [];
   const pad = ' '.repeat(indent);
@@ -157,9 +164,8 @@ const emitTypes = (node: Node, path: string[] = [], indent = INDENTATION): strin
     const fullPath = [...path, key];
 
     if (value.fn) {
-      const opts = buildOptionsType(value.fn.schema);
       const responseType = buildResponseType(value.fn.schema);
-      const optionsString = opts ? `opts: ${opts}` : '';
+      const optionsString = getOptionsType(value.fn.schema);
 
       lines.push(`${pad}${key}: (${optionsString}) => Promise<${responseType}>`);
     } else {
@@ -217,6 +223,28 @@ ${pad}}`);
   return parts.join(',\n');
 };
 
+const emitKeyTypes = (node: Node, path: string[] = [], indent = 2): string => {
+  const pad = ' '.repeat(indent);
+  const lines: string[] = [];
+
+  for (const [key, child] of Object.entries(node.children)) {
+    if (child.fn) {
+      const optsType = getOptionsType(child.fn.schema);
+
+      lines.push(`${pad}${key}: (${optsType}) => readonly unknown[];`);
+      continue;
+    }
+
+    lines.push(
+      `${pad}${key}: {
+${emitKeyTypes(child, [...path, key], indent + 2)}
+${pad}};`,
+    );
+  }
+
+  return lines.join('\n');
+};
+
 const buildApiClientString = (runtime: string, queryKeys: string): string => {
   return `
 export function createApi(request) {
@@ -231,7 +259,7 @@ ${queryKeys}
   `;
 };
 
-const buildApiClientTypes = (typesDef: string) => {
+const buildApiClientTypes = (typesDef: string, keyTypes: string) => {
   const types = `
 type RequestOptions = {
   input?: Record<string, any>;
@@ -250,6 +278,10 @@ type RequestFn = (
 export declare function createApi(request: RequestFn): {
 ${typesDef}
 };
+
+export declare const keys: {
+${keyTypes}
+}
 `;
 
   return types;
@@ -268,8 +300,9 @@ const main = () => {
   const runtime = emitRuntime(nodes);
   const types = emitTypes(nodes);
   const queryKeys = emitKeysRuntime(nodes);
+  const keyTypes = emitKeyTypes(nodes);
   const apiClientStr = buildApiClientString(runtime, queryKeys);
-  const apiClientTypesStr = buildApiClientTypes(types);
+  const apiClientTypesStr = buildApiClientTypes(types, keyTypes);
 
   fs.writeFileSync(path.join(outDir, 'index.js'), apiClientStr.trim());
   fs.writeFileSync(path.join(outDir, 'index.d.ts'), apiClientTypesStr.trim());
