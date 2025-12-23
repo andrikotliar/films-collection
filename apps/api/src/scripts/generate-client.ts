@@ -17,6 +17,7 @@ type Node = {
 
 const OUTPUT_DIR = '/web/src/generated';
 const API_FOLDER_DIVIDER = '/api/';
+const INDENTATION = 2;
 
 const normalizePath = (path: string) => {
   return path.replace(/\/+/g, '/').replace(/\/$/, '');
@@ -127,24 +128,30 @@ const buildResponseType = (schema?: RouteSchema) => {
   return typeString;
 };
 
-const emitRuntime = (node: Node, path: string[] = []): string => {
+const emitRuntime = (node: Node, path: string[] = [], indent = INDENTATION): string => {
   const lines: string[] = [];
+  const pad = ' '.repeat(indent);
 
   for (const [key, value] of Object.entries(node.children)) {
     if (value.fn) {
       const fn = `(opts) => request('${value.fn.method}', '${value.fn.path}', opts)`;
 
-      lines.push(`${key}: ${fn}`);
+      lines.push(`${pad}${key}: ${fn}`);
     } else {
-      lines.push(`${key}: { ${emitRuntime(value, [...path, key])} }`);
+      lines.push(
+        `${pad}${key}: {
+${emitRuntime(value, [...path, key], indent + 2)}
+${pad}}`,
+      );
     }
   }
 
   return lines.join(',\n');
 };
 
-const emitTypes = (node: Node, path: string[] = []): string => {
+const emitTypes = (node: Node, path: string[] = [], indent = INDENTATION): string => {
   const lines: string[] = [];
+  const pad = ' '.repeat(indent);
 
   for (const [key, value] of Object.entries(node.children)) {
     const fullPath = [...path, key];
@@ -154,9 +161,11 @@ const emitTypes = (node: Node, path: string[] = []): string => {
       const responseType = buildResponseType(value.fn.schema);
       const optionsString = opts ? `opts: ${opts}` : '';
 
-      lines.push(`${key}: (${optionsString}) => Promise<${responseType}>`);
+      lines.push(`${pad}${key}: (${optionsString}) => Promise<${responseType}>`);
     } else {
-      lines.push(`${key}: { ${emitTypes(value, fullPath)} };`);
+      lines.push(`${pad}${key}: {
+${emitTypes(value, fullPath)}
+${pad}};`);
     }
   }
 
@@ -167,8 +176,9 @@ const getKeyOptionsValue = (type: 'params' | 'queryParams'): string => {
   return `opts.${type}`;
 };
 
-const emitKeysRuntime = (node: Node, path: string[] = []): string => {
+const emitKeysRuntime = (node: Node, path: string[] = [], indent = INDENTATION): string => {
   const parts: string[] = [];
+  const pad = ' '.repeat(indent);
 
   for (const [key, child] of Object.entries(node.children)) {
     const nextPath = [...path, key];
@@ -190,16 +200,18 @@ const emitKeysRuntime = (node: Node, path: string[] = []): string => {
           keys.push(getKeyOptionsValue('queryParams'));
         }
 
-        parts.push(`${key}: (${hasOptions ? 'opts' : ''}) => [${keys.join(', ')}]`);
+        parts.push(`${pad}${key}: (${hasOptions ? 'opts' : ''}) => [${keys.join(', ')}]`);
 
         continue;
       }
 
-      parts.push(`${key}: () => [${base}]`);
+      parts.push(`${pad}${key}: () => [${base}]`);
       continue;
     }
 
-    parts.push(`${key}: {${emitKeysRuntime(child, nextPath)}}`);
+    parts.push(`${pad}${key}: {
+${emitKeysRuntime(child, nextPath, indent + 2)}
+${pad}}`);
   }
 
   return parts.join(',\n');
@@ -209,12 +221,12 @@ const buildApiClientString = (runtime: string, queryKeys: string): string => {
   return `
 export function createApi(request) {
   return {
-    ${runtime},
+${runtime}
   };
 }
 
 export const keys = {
-  ${queryKeys}
+${queryKeys}
 };
   `;
 };
