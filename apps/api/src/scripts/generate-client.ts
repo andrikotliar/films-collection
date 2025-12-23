@@ -6,12 +6,17 @@ import { routers } from '~/routers';
 import type { Route, RouteSchema } from '~/shared';
 import { createAuxiliaryTypeStore, printNode, zodToTs } from 'zod-to-ts';
 
-const appsFolder = import.meta.dirname.split('/api/')[0];
-const outDir = path.join(appsFolder, '/web/src/generated');
+type Node = {
+  children: Record<string, Node>;
+  fn?: {
+    method: Route['method'];
+    path: Route['url'];
+    schema?: Route['schema'];
+  };
+};
 
-if (!fs.existsSync(outDir)) {
-  fs.mkdirSync(outDir, { recursive: true });
-}
+const OUTPUT_DIR = '/web/src/generated';
+const API_FOLDER_DIVIDER = '/api/';
 
 const normalizePath = (path: string) => {
   return path.replace(/\/+/g, '/').replace(/\/$/, '');
@@ -24,7 +29,7 @@ const splitPath = (path: string) => {
     .filter((p) => !p.startsWith(':'));
 };
 
-const verbName = (method: string, hasParams: boolean) => {
+const getActionName = (method: string, hasParams: boolean) => {
   switch (method) {
     case 'GET':
       return hasParams ? 'get' : 'list';
@@ -41,19 +46,9 @@ const verbName = (method: string, hasParams: boolean) => {
   }
 };
 
-type Node = {
-  children: Record<string, Node>;
-  fn?: {
-    method: string;
-    path: string;
-    schema?: Route['schema'];
-  };
-};
+const insertNode = (rootNode: Node, pathSegments: string[], fn: Node['fn']): void => {
+  let node = rootNode;
 
-const root: Node = { children: {} };
-
-const insertRoute = (pathSegments: string[], fn: Node['fn']) => {
-  let node = root;
   for (const seg of pathSegments) {
     if (!node.children[seg]) {
       node.children[seg] = { children: {} };
@@ -63,49 +58,26 @@ const insertRoute = (pathSegments: string[], fn: Node['fn']) => {
   node.fn = fn;
 };
 
-for (const [prefix, routes] of Object.entries(routers)) {
-  for (const route of routes) {
-    const apiPath = convertCamelCaseToKebabCase(prefix);
-    const fullPath = normalizePath(`/${apiPath}${route.url}`);
-    const segments = splitPath(route.url);
-    const hasParams = fullPath.includes(':');
-    const name = verbName(route.method, hasParams);
+const generateNodes = (): Node => {
+  const nodes: Node = { children: {} };
 
-    insertRoute([prefix, ...segments, name], {
-      method: route.method,
-      path: fullPath,
-      schema: route.schema,
-    });
-  }
-}
+  for (const [prefix, routes] of Object.entries(routers)) {
+    for (const route of routes) {
+      const apiPath = convertCamelCaseToKebabCase(prefix);
+      const fullPath = normalizePath(`/${apiPath}${route.url}`);
+      const segments = splitPath(route.url);
+      const hasParams = fullPath.includes(':');
+      const action = getActionName(route.method, hasParams);
 
-const emitRuntime = (node: Node, path: string[] = [], indent = 2): string => {
-  const pad = ' '.repeat(indent);
-  const lines: string[] = [];
-
-  for (const [key, value] of Object.entries(node.children)) {
-    if (value.fn) {
-      const fullPath = [...path, key];
-      lines.push(
-        `${pad}${key}: {
-${pad}  ${value.fn.method === 'GET' ? 'query' : 'mutation'}: (opts) => request('${
-          value.fn.method
-        }', '${value.fn.path}', opts),
-${pad}  getKeys: (opts) => [${fullPath
-          .map((s) => `'${s}'`)
-          .join(', ')}, opts?.params, opts?.query, opts?.input],
-${pad}}`,
-      );
-    } else {
-      lines.push(
-        `${pad}${key}: {
-${emitRuntime(value, [...path, key], indent + 2)}
-${pad}}`,
-      );
+      insertNode(nodes, [prefix, ...segments, action], {
+        method: route.method,
+        path: fullPath,
+        schema: route.schema,
+      });
     }
   }
 
-  return lines.join(',\n');
+  return nodes;
 };
 
 const buildOptionsParameterType = (
@@ -155,48 +127,100 @@ const buildResponseType = (schema?: RouteSchema) => {
   return typeString;
 };
 
-const emitTypes = (node: Node, path: string[] = [], indent = 2): string => {
-  const pad = ' '.repeat(indent);
+const emitRuntime = (node: Node, path: string[] = []): string => {
+  const lines: string[] = [];
+
+  for (const [key, value] of Object.entries(node.children)) {
+    if (value.fn) {
+      const fn = `(opts) => request('${value.fn.method}', '${value.fn.path}', opts)`;
+
+      lines.push(`${key}: ${fn}`);
+    } else {
+      lines.push(`${key}: { ${emitRuntime(value, [...path, key])} }`);
+    }
+  }
+
+  return lines.join(',\n');
+};
+
+const emitTypes = (node: Node, path: string[] = []): string => {
   const lines: string[] = [];
 
   for (const [key, value] of Object.entries(node.children)) {
     const fullPath = [...path, key];
 
     if (value.fn) {
-      const action = value.fn.method === 'GET' ? 'query' : 'mutation';
       const opts = buildOptionsType(value.fn.schema);
       const responseType = buildResponseType(value.fn.schema);
       const optionsString = opts ? `opts: ${opts}` : '';
 
-      lines.push(
-        `${pad}${key}: {
-          ${pad}  ${action}: (${optionsString}) => Promise<${responseType}>;
-          ${pad}  getKeys: (${optionsString}) => readonly unknown[];
-          ${pad}};
-        `,
-      );
+      lines.push(`${key}: (${optionsString}) => Promise<${responseType}>`);
     } else {
-      lines.push(
-        `${pad}${key}: {
-          ${emitTypes(value, fullPath, indent + 2)}
-          ${pad}
-        };`,
-      );
+      lines.push(`${key}: { ${emitTypes(value, fullPath)} };`);
     }
   }
 
   return lines.join('\n');
 };
 
-const runtime = `
+const getKeyOptionsValue = (type: 'params' | 'queryParams'): string => {
+  return `opts.${type}`;
+};
+
+const emitKeysRuntime = (node: Node, path: string[] = []): string => {
+  const parts: string[] = [];
+
+  for (const [key, child] of Object.entries(node.children)) {
+    const nextPath = [...path, key];
+
+    if (child.fn) {
+      const base = nextPath.map((p) => `'${p}'`).join(', ');
+
+      if (child.fn.method === 'GET') {
+        const schema = child.fn.schema as RouteSchema | undefined;
+
+        const keys: string[] = [base];
+        const hasOptions = !!schema?.params || !!schema?.querystring;
+
+        if (schema?.params) {
+          keys.push(getKeyOptionsValue('params'));
+        }
+
+        if (schema?.querystring) {
+          keys.push(getKeyOptionsValue('queryParams'));
+        }
+
+        parts.push(`${key}: (${hasOptions ? 'opts' : ''}) => [${keys.join(', ')}]`);
+
+        continue;
+      }
+
+      parts.push(`${key}: () => [${base}]`);
+      continue;
+    }
+
+    parts.push(`${key}: {${emitKeysRuntime(child, nextPath)}}`);
+  }
+
+  return parts.join(',\n');
+};
+
+const buildApiClientString = (runtime: string, queryKeys: string): string => {
+  return `
 export function createApi(request) {
   return {
-${emitRuntime(root, [], 4)},
+    ${runtime},
   };
 }
-`;
 
-const types = `
+export const keys = {
+  ${queryKeys}
+};
+  `;
+};
+
+const buildApiClientTypes = (typesDef: string) => {
+  const types = `
 type RequestOptions = {
   input?: Record<string, any>;
   queryParams?: Record<string, any>;
@@ -212,9 +236,31 @@ type RequestFn = (
 ) => Promise<unknown>;
 
 export declare function createApi(request: RequestFn): {
-${emitTypes(root, [], 2)}
+${typesDef}
 };
 `;
 
-fs.writeFileSync(path.join(outDir, 'index.js'), runtime.trim());
-fs.writeFileSync(path.join(outDir, 'index.d.ts'), types.trim());
+  return types;
+};
+
+const main = () => {
+  const appsFolder = import.meta.dirname.split(API_FOLDER_DIVIDER)[0];
+  const outDir = path.join(appsFolder, OUTPUT_DIR);
+
+  if (!fs.existsSync(outDir)) {
+    fs.mkdirSync(outDir, { recursive: true });
+  }
+
+  const nodes = generateNodes();
+
+  const runtime = emitRuntime(nodes);
+  const types = emitTypes(nodes);
+  const queryKeys = emitKeysRuntime(nodes);
+  const apiClientStr = buildApiClientString(runtime, queryKeys);
+  const apiClientTypesStr = buildApiClientTypes(types);
+
+  fs.writeFileSync(path.join(outDir, 'index.js'), apiClientStr.trim());
+  fs.writeFileSync(path.join(outDir, 'index.d.ts'), apiClientTypesStr.trim());
+};
+
+main();
