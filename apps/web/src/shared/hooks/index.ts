@@ -1,4 +1,5 @@
 export * from './mutations';
+export * from './queries';
 export * from './use-document-title';
 export * from './use-click-outside';
 export * from './use-focus-trap';
