@@ -1,7 +1,6 @@
 import { convertEnumValueToLabel, type Deps } from '~/shared';
 import type { FilmsRepository } from './films.repository';
 import type {
-  GetFilmRelatedChapters,
   GetAdminListQuery,
   GetFilmsListQuery,
   GetFilmOptionsQuery,
@@ -48,7 +47,7 @@ export class FilmsService {
     const mappedFilm = mapFilmDetails(film);
 
     if (film.chapterKey) {
-      const chapters = await this.filmsRepository.findChapters(film.chapterKey);
+      const chapters = await this.filmsRepository.findChapters(film.id, film.chapterKey);
 
       return {
         ...mappedFilm,
@@ -87,8 +86,8 @@ export class FilmsService {
     });
   }
 
-  getRelatedChapters(query: GetFilmRelatedChapters) {
-    return this.filmsRepository.findChapters(query.key, query.filmId);
+  getRelatedChapters(filmId: number, chapterKey: string) {
+    return this.filmsRepository.findChapters(filmId, chapterKey);
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {

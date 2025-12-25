@@ -33,8 +33,8 @@ export const GetFilmOptionsQuerySchema = z.object({
 });
 
 export const GetFilmRelatedChaptersSchema = z.object({
+  id: z.number(),
   key: z.string(),
-  filmId: z.number().optional(),
 });
 
 export const GetAdminListQuerySchema = z.object({

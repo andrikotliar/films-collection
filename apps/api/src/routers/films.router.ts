@@ -81,13 +81,15 @@ export default createRouter([
 
   defineRoute({
     method: 'GET',
-    url: '/chapters',
+    url: '/:id/chapters/:key',
     preHandler: [validateAuth],
     schema: {
-      querystring: GetFilmRelatedChaptersSchema,
+      params: GetFilmRelatedChaptersSchema,
     },
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getRelatedChapters(request.query);
+      const data = await app.container
+        .resolve('filmsService')
+        .getRelatedChapters(request.params.id, request.params.key);
 
       return { data };
     },

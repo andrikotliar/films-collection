@@ -1,8 +1,8 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   CreateAwardInputSchema,
-  FindNominationsQuerySchema,
   IdParamSchema,
+  NullableIdParamSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -32,18 +32,18 @@ export default createRouter([
 
   defineRoute({
     method: 'GET',
-    url: '/nominations',
+    url: '/:id/nominations',
     schema: {
-      querystring: FindNominationsQuerySchema,
+      params: NullableIdParamSchema,
     },
     async handler({ request, app }) {
-      if (!request.query.awardId) {
+      if (!request.params.id) {
         return { data: [] };
       }
 
       const data = await app.container
         .resolve('awardsService')
-        .getNominationsListOptions(request.query.awardId);
+        .getNominationsListOptions(request.params.id);
 
       return { data };
     },

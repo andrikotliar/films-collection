@@ -2,7 +2,7 @@ import type { Film, Prisma } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
 import {
   DEFAULT_PAGINATION_LIMIT,
-  DEFAULT_SEARCH_LIMIT,
+  DEFAULT_SEARCH_PAGINATION_LIMIT,
   type GetFilmOptionsQuery,
 } from '@films-collection/shared';
 
@@ -236,7 +236,7 @@ export class FilmsRepository {
         },
         deletedAt: null,
       },
-      take: DEFAULT_SEARCH_LIMIT,
+      take: DEFAULT_SEARCH_PAGINATION_LIMIT,
     });
   }
 
@@ -250,17 +250,12 @@ export class FilmsRepository {
     >`SELECT id FROM films WHERE EXTRACT(MONTH FROM release_date) = ${month} AND EXTRACT(DAY FROM release_date) = ${date}`;
   }
 
-  findChapters(chapterKey: string, filmId?: number) {
+  findChapters(filmId: number, chapterKey: string) {
     const where: Prisma.FilmWhereInput = {
       chapterKey,
       deletedAt: null,
+      id: filmId,
     };
-
-    if (filmId) {
-      where.id = {
-        not: filmId,
-      };
-    }
 
     return this.databaseClient.film.findMany({
       where,

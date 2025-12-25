@@ -16,13 +16,8 @@ export const CreateAwardInputSchema = z.object({
   nominations: z.array(NominationInputSchema),
 });
 
-export const FindNominationsQuerySchema = z.object({
-  awardId: z.number().nullable(),
-});
-
 export const UpdateAwardInputSchema = BaseAwardSchema.partial();
 
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
 export type NominationInput = z.infer<typeof NominationInputSchema>;
-export type FindNominationsQuery = z.infer<typeof FindNominationsQuerySchema>;
 export type UpdateAwardInput = z.infer<typeof UpdateAwardInputSchema>;

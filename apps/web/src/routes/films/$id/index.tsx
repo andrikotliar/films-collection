@@ -6,14 +6,15 @@ import {
   Description,
   Section,
 } from '~/routes/films/$id/-components';
-import { useFilm } from '~/routes/films/$id/-hooks';
+import { useSuspenseFilm } from '~/shared';
 
 export const Route = createFileRoute('/films/$id/')({
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  const { data: film } = useFilm();
+  const params = Route.useParams();
+  const { data: film } = useSuspenseFilm(+params.id);
   return (
     <ContentLayout>
       {film.description && <Description rawHtml={film.description} />}
