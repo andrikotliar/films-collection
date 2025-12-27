@@ -19,6 +19,26 @@ export const GetPendingFilmsListQuerySchema = z
 
 export const UpdatePendingFilmInputSchema = CreatePendingFilmInputSchema.partial();
 
+export const PendingFilmResponseSchema = z.object({
+  id: z.number(),
+  title: z.string(),
+  priority: z.number().min(1).max(3),
+  rating: z.number().min(1).max(3).nullable(),
+  collectionId: z.number().nullable(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+});
+
+export const PendingFilmsListResponseSchema = z.object({
+  list: z.array(PendingFilmResponseSchema),
+  total: z.number(),
+});
+
+export const PendingFilmByIdResponseSchema = PendingFilmResponseSchema.omit({
+  createdAt: true,
+  updatedAt: true,
+});
+
 export type CreatePendingFilmInput = z.infer<typeof CreatePendingFilmInputSchema>;
 export type UpdatePendingFilmInput = z.infer<typeof UpdatePendingFilmInputSchema>;
 export type GetPendingFilmsListQuery = z.infer<typeof GetPendingFilmsListQuerySchema>;

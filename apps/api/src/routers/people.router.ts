@@ -5,7 +5,9 @@ import {
   GetPeopleListQuerySchema,
   SearchPersonSchema,
   UpdatePersonInputSchema,
+  buildListOptionSchema,
 } from '@films-collection/shared';
+import z from 'zod';
 
 export default createRouter([
   defineRoute({
@@ -27,6 +29,7 @@ export default createRouter([
     url: '/search',
     schema: {
       querystring: SearchPersonSchema,
+      response: buildListOptionSchema(z.number()),
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').searchPerson(request.query);
@@ -71,6 +74,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
+      response: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

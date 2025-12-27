@@ -41,7 +41,7 @@ export default createRouter([
   defineRoute({
     method: 'DELETE',
     url: '/:id',
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchema, response: IdParamSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('countriesService').deleteCountry(request.params.id);

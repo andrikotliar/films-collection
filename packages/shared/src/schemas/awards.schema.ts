@@ -14,6 +14,26 @@ export const CreateAwardInputSchema = z.object({
 
 export const UpdateAwardInputSchema = CreateAwardInputSchema.partial();
 
+export const AwardResponseSchema = z.object({
+  id: z.number(),
+  title: z.string(),
+  description: z.string().nullable(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+});
+
+export const AwardsListResponseSchema = z.array(
+  AwardResponseSchema.pick({
+    id: true,
+    title: true,
+  }),
+);
+
+export const AwardWithNominationsResponseSchema = z.object({
+  ...AwardResponseSchema.shape,
+  nominations: NominationInputSchema,
+});
+
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
 export type NominationInput = z.infer<typeof NominationInputSchema>;
 export type UpdateAwardInput = z.infer<typeof UpdateAwardInputSchema>;

@@ -49,6 +49,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
+      response: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

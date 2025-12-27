@@ -8,7 +8,7 @@ import {
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
 } from '~/shared';
-import { LoginSchema } from '@films-collection/shared';
+import { IdParamSchema, LoginSchema, LogoutResponseSchema } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -16,6 +16,7 @@ export default createRouter([
     url: '/login',
     schema: {
       body: LoginSchema,
+      response: IdParamSchema,
     },
     async handler({ request, reply, app }) {
       const data = await app.container.resolve('authService').login(request.body);
@@ -49,6 +50,9 @@ export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/refresh',
+    schema: {
+      response: IdParamSchema,
+    },
     async handler({ request, reply, app }) {
       const token = getCookie(request, 'REFRESH_TOKEN');
 
@@ -86,6 +90,9 @@ export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/logout',
+    schema: {
+      response: LogoutResponseSchema,
+    },
     async handler({ request, reply, app }) {
       const accessToken = getCookie(request, 'ACCESS_TOKEN');
 
@@ -95,7 +102,7 @@ export default createRouter([
 
       clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
 
-      return { data: { status: 'ok' } };
+      return { data: { status: 'ok' as const } };
     },
   }),
 ]);

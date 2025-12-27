@@ -18,6 +18,19 @@ export const SearchPersonSchema = z.object({
 
 export const UpdatePersonInputSchema = CreatePersonSchema.partial();
 
+export const PersonResponseSchema = z.object({
+  id: z.number(),
+  name: z.string(),
+  selected: z.boolean(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+});
+
+export const PeopleListResponseSchema = z.object({
+  list: z.array(PersonResponseSchema),
+  total: z.number(),
+});
+
 export type GetPeopleListQuery = z.infer<typeof GetPeopleListQuerySchema>;
 export type CreatePersonInput = z.infer<typeof CreatePersonSchema>;
 export type UpdatePersonInput = z.infer<typeof UpdatePersonInputSchema>;

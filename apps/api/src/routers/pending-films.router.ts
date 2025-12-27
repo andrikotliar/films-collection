@@ -75,13 +75,13 @@ export default createRouter([
     method: 'DELETE',
     url: '/:id',
     preHandler: [validateAuth],
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchema, response: IdParamSchema },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
         .deletePendingFilm(request.params.id);
 
-      return { data };
+      return { data: { id: data.id } };
     },
   }),
 ]);

@@ -66,7 +66,8 @@ export class FilmsService {
     }
 
     return {
-      data: true,
+      id: data.id,
+      title: data.title,
     };
   }
 
@@ -101,7 +102,7 @@ export class FilmsService {
       }
 
       return {
-        type: 'crew',
+        type: 'crew' as const,
         data: {
           role: convertEnumValueToLabel(personRole),
           name: crewMember.name,
@@ -117,20 +118,20 @@ export class FilmsService {
       }
 
       return {
-        type: 'collection',
+        type: 'collection' as const,
         data: collection,
       };
     }
 
     if (awardId) {
-      const award = await this.awardsService.getAwardById(awardId);
+      const award = await this.awardsService.getBaseAwardData(awardId);
 
       if (!award) {
         return null;
       }
 
       return {
-        type: 'award',
+        type: 'award' as const,
         data: award,
       };
     }

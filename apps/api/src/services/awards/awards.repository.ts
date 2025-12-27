@@ -33,6 +33,19 @@ export class AwardsRepository extends BaseRepository {
     });
   }
 
+  getBaseData(awardId: number) {
+    return this.databaseClient.award.findUnique({
+      where: {
+        id: awardId,
+      },
+      select: {
+        id: true,
+        title: true,
+        description: true,
+      },
+    });
+  }
+
   getBaseDataList() {
     return this.databaseClient.award.findMany({
       select: {
@@ -89,7 +102,7 @@ export class AwardsRepository extends BaseRepository {
     });
   }
 
-  updateAward(id: number, input: UpdateAwardInput) {
+  updateAward(id: number, input: Omit<UpdateAwardInput, 'nominations'>) {
     return this.databaseClient.award.update({
       where: {
         id,

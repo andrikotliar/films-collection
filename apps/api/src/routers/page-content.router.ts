@@ -91,6 +91,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
+      response: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -98,7 +99,7 @@ export default createRouter([
         .resolve('pageContentService')
         .deletePageContent(request.params.id);
 
-      return { data };
+      return { data: { id: data.id } };
     },
   }),
 ]);

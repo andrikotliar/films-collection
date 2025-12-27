@@ -153,6 +153,7 @@ export class FilmsRepository {
         deletedAt: null,
       },
       select: {
+        id: true,
         title: true,
         type: true,
         style: true,

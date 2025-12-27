@@ -6,8 +6,10 @@ import {
   GetFilmRelatedChaptersSchema,
   GetFilmsListQuerySchema,
   SearchFilmsQuerySchema,
-  UpdateFilmWatchCounterInputSchema,
+  buildListOptionSchema,
+  FilmsListResponseSchema,
 } from '@films-collection/shared';
+import z from 'zod';
 
 export default createRouter([
   defineRoute({
@@ -15,6 +17,7 @@ export default createRouter([
     url: '/',
     schema: {
       querystring: GetFilmsListQuerySchema,
+      response: FilmsListResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilteredFilms(request.query);
@@ -41,6 +44,7 @@ export default createRouter([
     url: '/options',
     schema: {
       querystring: GetFilmOptionsQuerySchema,
+      response: buildListOptionSchema(z.number()),
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilmOptions(request.query);
@@ -113,26 +117,9 @@ export default createRouter([
   }),
 
   defineRoute({
-    method: 'PATCH',
-    url: '/admin/:id/counter',
-    schema: {
-      params: IdParamSchema,
-      body: UpdateFilmWatchCounterInputSchema,
-    },
-    preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .updateFilmWatchCount(request.params.id, request.body.counter);
-
-      return { data };
-    },
-  }),
-
-  defineRoute({
     method: 'DELETE',
     url: '/admin/:id',
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchema, response: IdParamSchema },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').deleteFilm(request.params.id);
 

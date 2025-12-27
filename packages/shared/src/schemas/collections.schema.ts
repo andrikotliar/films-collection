@@ -8,5 +8,22 @@ export const CreateCollectionInputSchema = z.object({
 
 export const UpdateCollectionInputSchema = CreateCollectionInputSchema.partial();
 
+export const CollectionResponseSchema = z.object({
+  id: z.number(),
+  title: z.string(),
+  description: z.string().nullable(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+  category: z.enum(CollectionCategory),
+});
+
+export const CollectionsListResponseSchema = z.array(
+  CollectionResponseSchema.pick({
+    id: true,
+    title: true,
+    category: true,
+  }),
+);
+
 export type CreateCollectionInput = z.infer<typeof CreateCollectionInputSchema>;
 export type UpdateCollectionInput = z.infer<typeof UpdateCollectionInputSchema>;

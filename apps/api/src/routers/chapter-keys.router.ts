@@ -1,10 +1,14 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { CreateChapterKeyInputSchema } from '@films-collection/shared';
+import { buildListOptionSchema, CreateChapterKeyInputSchema } from '@films-collection/shared';
+import z from 'zod';
 
 export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/options',
+    schema: {
+      response: buildListOptionSchema(z.string()),
+    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('chapterKeysService').getListOptions();
 

@@ -21,6 +21,10 @@ export class AwardsService {
     return this.awardsRepository.getById(id, includeNominations);
   }
 
+  getBaseAwardData(id: number) {
+    return this.awardsRepository.getBaseData(id);
+  }
+
   async getListOptions() {
     const awards = await this.awardsRepository.getListOptions();
 
