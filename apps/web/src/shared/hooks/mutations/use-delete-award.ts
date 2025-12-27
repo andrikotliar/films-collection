@@ -1,12 +1,11 @@
-import { AwardsApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
+import { api, queryKeys } from '~/shared/services';
 import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteAward = () => {
-  return useMutation<unknown, HttpError, number>({
-    mutationFn: AwardsApi.delete,
+  return useMutation({
+    mutationFn: (id: number) => api.awards.remove({ params: { id } }),
     meta: {
-      invalidateQueries: queryKeys.awards.list,
+      invalidateQueries: [queryKeys.awards.list()],
     },
   });
 };

@@ -1,16 +1,12 @@
-import { PeopleApi } from '~/api';
-import { mutateEntity, queryKeys, type FormValues, type HttpError } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
-
-export type PersonMutationPayload = FormValues<{
-  name: string;
-}>;
+import { mutateEntity } from '~/shared/helpers';
+import { api, queryKeys } from '~/shared/services';
 
 export const useMutatePerson = () => {
-  return useMutation<unknown, HttpError, PersonMutationPayload>({
-    mutationFn: (data) => mutateEntity(PeopleApi, data),
+  return useMutation({
+    mutationFn: mutateEntity(api.people.create, api.people.patch),
     meta: {
-      invalidateQueries: queryKeys.people.adminList,
+      invalidateQueries: [queryKeys.people.list()],
     },
   });
 };

@@ -1,9 +1,9 @@
-import { Form, useMutateAward, type AwardMutationPayload } from '~/shared';
+import { Form, useMutateAward, type api, type ExtractInputParams } from '~/shared';
 import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form/nominations-form';
-import { awardFormSchema } from '~/routes/console/general_/awards_/-validation';
+import { CreateAwardInputSchema } from '@films-collection/shared';
 
 type AwardFormProps = {
-  values: AwardMutationPayload;
+  values: ExtractInputParams<typeof api.awards.create>;
 };
 
 export const AwardForm = ({ values }: AwardFormProps) => {
@@ -13,7 +13,7 @@ export const AwardForm = ({ values }: AwardFormProps) => {
     <Form
       onSubmit={mutateAsync}
       defaultValues={values}
-      schema={awardFormSchema}
+      schema={CreateAwardInputSchema}
       isLoading={isPending}
     >
       <Form.TextInput name="title" label="Title" />

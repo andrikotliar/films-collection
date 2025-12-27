@@ -1,12 +1,13 @@
-import { CollectionEventsApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
+import { api, queryKeys } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
 
 export const useDeleteCollectionEvent = () => {
-  return useMutation<unknown, HttpError, number, unknown>({
-    mutationFn: CollectionEventsApi.deleteEvent,
+  return useMutation({
+    mutationFn: (id: number) => {
+      return api.collectionEvents.remove({ params: { id } });
+    },
     meta: {
-      invalidateQueries: [queryKeys.collectionEvent.adminList, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.collectionEvents.list(), queryKeys.initialData.list()],
     },
   });
 };

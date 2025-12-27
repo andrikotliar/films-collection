@@ -1,12 +1,11 @@
-import { PageContentApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
+import { api, queryKeys } from '~/shared/services';
 
 export const useDeletePageContent = () => {
-  return useMutation<unknown, HttpError, number>({
-    mutationFn: PageContentApi.delete,
+  return useMutation({
+    mutationFn: (id: number) => api.pageContent.remove({ params: { id } }),
     meta: {
-      invalidateQueries: queryKeys.pageContent.list,
+      invalidateQueries: [queryKeys.pageContent.admin.list()],
     },
   });
 };

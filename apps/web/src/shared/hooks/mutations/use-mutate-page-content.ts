@@ -1,23 +1,13 @@
-import { PageContentApi } from '~/api';
-import {
-  mutateEntity,
-  type FormValues,
-  type HttpError,
-  type OmitId,
-  type PageContent,
-} from '~/shared';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
-
-export type PageContentMutationPayload = FormValues<OmitId<PageContent>>;
+import { mutateEntity } from '~/shared/helpers';
+import { api } from '~/shared/services';
 
 export const useMutatePageContent = () => {
   const navigate = useNavigate();
 
-  return useMutation<unknown, HttpError, PageContentMutationPayload>({
-    mutationFn: (data) => {
-      return mutateEntity(PageContentApi, data);
-    },
+  return useMutation({
+    mutationFn: mutateEntity(api.pageContent.create, api.pageContent.patch),
     onSuccess: () => {
       navigate({
         to: '/console/page-content',

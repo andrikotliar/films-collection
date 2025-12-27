@@ -1,21 +1,11 @@
-import { GenresApi } from '~/api';
-import {
-  mutateEntity,
-  queryKeys,
-  type Genre,
-  type FormValues,
-  type OmitId,
-  type HttpError,
-} from '~/shared';
+import { mutateEntity, queryKeys, api } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
 
-export type GenreMutationPayload = FormValues<OmitId<Genre>>;
-
 export const useMutateGenre = () => {
-  return useMutation<unknown, HttpError, GenreMutationPayload>({
-    mutationFn: (data) => mutateEntity(GenresApi, data),
+  return useMutation({
+    mutationFn: mutateEntity(api.genres.create, api.genres.patch),
     meta: {
-      invalidateQueries: [queryKeys.genres.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.genres.list(), queryKeys.initialData.list()],
     },
   });
 };

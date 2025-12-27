@@ -1,27 +1,11 @@
-import { CollectionEventsApi } from '~/api';
-import {
-  mutateEntity,
-  queryKeys,
-  type CollectionEvent,
-  type FormValues,
-  type HttpError,
-  type OmitId,
-} from '~/shared';
+import { api, mutateEntity, queryKeys } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
 
-export type CollectionEventMutationPayload = FormValues<
-  OmitId<CollectionEvent> & {
-    isOneDayEvent: boolean;
-  }
->;
-
 export const useMutateCollectionEvent = () => {
-  return useMutation<unknown, HttpError, CollectionEventMutationPayload>({
-    mutationFn: (payload) => {
-      return mutateEntity(CollectionEventsApi, payload);
-    },
+  return useMutation({
+    mutationFn: mutateEntity(api.collectionEvents.create, api.collectionEvents.patch),
     meta: {
-      invalidateQueries: [queryKeys.collectionEvent.adminList, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.collectionEvents.list(), queryKeys.initialData.list()],
     },
   });
 };

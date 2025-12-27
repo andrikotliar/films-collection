@@ -1,21 +1,12 @@
-import { StudiosApi } from '~/api';
-import {
-  mutateEntity,
-  queryKeys,
-  type Studio,
-  type FormValues,
-  type OmitId,
-  type HttpError,
-} from '~/shared';
 import { useMutation } from '@tanstack/react-query';
-
-export type StudioMutationPayload = FormValues<OmitId<Studio>>;
+import { mutateEntity } from '~/shared/helpers';
+import { api, queryKeys } from '~/shared/services';
 
 export const useMutateStudio = () => {
-  return useMutation<unknown, HttpError, StudioMutationPayload>({
-    mutationFn: (data) => mutateEntity(StudiosApi, data),
+  return useMutation({
+    mutationFn: mutateEntity(api.studios.create, api.studios.patch),
     meta: {
-      invalidateQueries: [queryKeys.studios.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.studios.list(), queryKeys.initialData.list()],
     },
   });
 };

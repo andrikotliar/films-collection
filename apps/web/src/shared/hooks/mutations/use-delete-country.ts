@@ -1,12 +1,11 @@
-import { CountriesApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
+import { api, queryKeys } from '~/shared/services';
 
 export const useDeleteCountry = () => {
-  return useMutation<unknown, HttpError, number, unknown>({
-    mutationFn: CountriesApi.delete,
+  return useMutation({
+    mutationFn: (id: number) => api.countries.remove({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.countries.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.countries.list(), queryKeys.initialData.list()],
     },
   });
 };

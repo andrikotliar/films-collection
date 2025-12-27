@@ -1,12 +1,11 @@
-import { CollectionsApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
+import { api, queryKeys } from '~/shared/services';
 
 export const useDeleteCollection = () => {
-  return useMutation<unknown, HttpError, number>({
-    mutationFn: CollectionsApi.delete,
+  return useMutation({
+    mutationFn: (id: number) => api.collections.remove({ params: { id } }),
     meta: {
-      invalidateQueries: queryKeys.collections.list,
+      invalidateQueries: [queryKeys.collections.list()],
     },
   });
 };

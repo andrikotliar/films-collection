@@ -1,1 +1,1 @@
-export * from './get-form-default-values';
+export * from './get-award-default-form-values';

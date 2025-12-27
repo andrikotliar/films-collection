@@ -1,21 +1,11 @@
-import { CountriesApi } from '~/api';
-import {
-  mutateEntity,
-  queryKeys,
-  type Country,
-  type FormValues,
-  type HttpError,
-  type OmitId,
-} from '~/shared';
+import { api, mutateEntity, queryKeys } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
 
-export type CountryMutationPayload = FormValues<OmitId<Country>>;
-
 export const useMutateCountry = () => {
-  return useMutation<unknown, HttpError, CountryMutationPayload>({
-    mutationFn: (data) => mutateEntity(CountriesApi, data),
+  return useMutation({
+    mutationFn: mutateEntity(api.countries.create, api.countries.patch),
     meta: {
-      invalidateQueries: [queryKeys.countries.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.countries.list(), queryKeys.initialData.list()],
     },
   });
 };

@@ -149,9 +149,9 @@ ${pad}}`,
   return lines.join(',\n');
 };
 
-const getOptionsType = (schema?: RouteSchema) => {
+const getOptionsType = (schema?: RouteSchema, isOptional = false) => {
   const opts = buildOptionsType(schema);
-  const optionsString = opts ? `opts: ${opts}` : '';
+  const optionsString = opts ? `opts${isOptional ? '?' : ''}: ${opts}` : '';
 
   return optionsString;
 };
@@ -179,7 +179,7 @@ ${pad}};`);
 };
 
 const getKeyOptionsValue = (type: 'params' | 'queryParams'): string => {
-  return `opts.${type}`;
+  return `opts?.${type}`;
 };
 
 const emitKeysRuntime = (node: Node, path: string[] = [], indent = INDENTATION): string => {
@@ -229,7 +229,7 @@ const emitKeyTypes = (node: Node, path: string[] = [], indent = 2): string => {
 
   for (const [key, child] of Object.entries(node.children)) {
     if (child.fn) {
-      const optsType = getOptionsType(child.fn.schema);
+      const optsType = getOptionsType(child.fn.schema, true);
 
       lines.push(`${pad}${key}: (${optsType}) => readonly unknown[];`);
       continue;

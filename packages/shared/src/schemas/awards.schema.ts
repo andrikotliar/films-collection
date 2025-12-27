@@ -6,17 +6,13 @@ const NominationInputSchema = z.object({
   shouldIncludeActor: z.boolean(),
 });
 
-const BaseAwardSchema = z.object({
+export const CreateAwardInputSchema = z.object({
   title: z.string(),
   description: z.string().nullable(),
-});
-
-export const CreateAwardInputSchema = z.object({
-  ...BaseAwardSchema.shape,
   nominations: z.array(NominationInputSchema),
 });
 
-export const UpdateAwardInputSchema = BaseAwardSchema.partial();
+export const UpdateAwardInputSchema = CreateAwardInputSchema.partial();
 
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
 export type NominationInput = z.infer<typeof NominationInputSchema>;

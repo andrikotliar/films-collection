@@ -1,12 +1,11 @@
-import { GenresApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
+import { api, queryKeys } from '~/shared/services';
 
 export const useDeleteGenre = () => {
-  return useMutation<unknown, HttpError, number>({
-    mutationFn: GenresApi.delete,
+  return useMutation({
+    mutationFn: (id: number) => api.genres.remove({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.genres.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.genres.list(), queryKeys.initialData.list()],
     },
   });
 };

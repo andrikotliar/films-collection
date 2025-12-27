@@ -1,22 +1,11 @@
-import { CollectionsApi } from '~/api';
-import {
-  mutateEntity,
-  queryKeys,
-  type Collection,
-  type FormValues,
-  type HttpError,
-  type OmitId,
-} from '~/shared';
-
+import { api, mutateEntity, queryKeys } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
 
-export type CollectionMutationPayload = FormValues<OmitId<Collection>>;
-
 export const useMutateCollection = () => {
-  return useMutation<Collection | unknown, HttpError, CollectionMutationPayload>({
-    mutationFn: (data) => mutateEntity(CollectionsApi, data),
+  return useMutation({
+    mutationFn: mutateEntity(api.collections.create, api.collections.patch),
     meta: {
-      invalidateQueries: [queryKeys.collections.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.collections.list(), queryKeys.initialData.list()],
     },
   });
 };

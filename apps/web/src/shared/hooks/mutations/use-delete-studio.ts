@@ -1,12 +1,11 @@
-import { StudiosApi } from '~/api';
-import { queryKeys, type HttpError } from '~/shared';
 import { useMutation } from '@tanstack/react-query';
+import { api, queryKeys } from '~/shared/services';
 
 export const useDeleteStudio = () => {
-  return useMutation<unknown, HttpError, number>({
-    mutationFn: StudiosApi.delete,
+  return useMutation({
+    mutationFn: (id: number) => api.studios.remove({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.studios.list, queryKeys.initialData.config],
+      invalidateQueries: [queryKeys.studios.list(), queryKeys.initialData.list()],
     },
   });
 };
