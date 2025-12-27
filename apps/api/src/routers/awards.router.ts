@@ -1,5 +1,6 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
+  AwardResponseSchema,
   CreateAwardInputSchema,
   IdParamSchema,
   NullableIdParamSchema,
@@ -21,6 +22,7 @@ export default createRouter([
     url: '/',
     schema: {
       body: CreateAwardInputSchema,
+      response: AwardResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

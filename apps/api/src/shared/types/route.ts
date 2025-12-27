@@ -6,7 +6,7 @@ export type RouteSchema = {
   body?: z.ZodType;
   querystring?: z.ZodType;
   params?: z.ZodType;
-  response?: z.ZodType;
+  response: z.ZodType;
 };
 
 type InferZod<S, R = undefined> = S extends z.ZodType ? z.infer<S> : R;
@@ -32,7 +32,7 @@ type HandlerReturn<S extends RouteSchema> = {
   data: InferResponse<S>;
 };
 
-export type Route<S extends RouteSchema = {}> = {
+export type Route<S extends RouteSchema = { response: z.ZodType }> = {
   method: 'GET' | 'POST' | 'PATCH' | 'PUT' | 'DELETE';
   url: string;
   schema?: S;
