@@ -1,11 +1,15 @@
 import { BadRequestException, defineRoute, createRouter, validateAuth } from '~/shared';
 import type { UploadPayload } from '~/services/files/types';
+import { CreateFileResponseSchema } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
     preHandler: [validateAuth],
+    schema: {
+      response: CreateFileResponseSchema,
+    },
     handler: async ({ request, app }) => {
       if (!request.isMultipart()) {
         throw new BadRequestException({

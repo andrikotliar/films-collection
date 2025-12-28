@@ -1,10 +1,18 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { IdParamSchema, StudioInputSchema } from '@films-collection/shared';
+import {
+  IdParamSchema,
+  StudioInputSchema,
+  StudioResponseSchema,
+  StudiosResponseSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
+    schema: {
+      response: StudiosResponseSchema,
+    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('studiosService').getBaseDataList();
 
@@ -17,8 +25,8 @@ export default createRouter([
     url: '/',
     schema: {
       body: StudioInputSchema,
+      response: StudioResponseSchema,
     },
-
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('studiosService').createStudio(request.body);
@@ -33,6 +41,7 @@ export default createRouter([
     schema: {
       body: StudioInputSchema,
       params: IdParamSchema,
+      response: StudioResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

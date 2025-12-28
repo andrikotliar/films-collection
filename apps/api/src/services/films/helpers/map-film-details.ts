@@ -5,14 +5,22 @@ import type {
   FilmAwardNomination,
   Award,
   Nomination,
+  Film,
+  Genre,
+  Studio,
+  Country,
+  Collection,
+  FilmWatchCount,
+  SeriesExtension,
+  FilmTrailer,
 } from '@prisma/client';
 
-type GropedPerson = Pick<Person, 'id' | 'name'> & Pick<FilmPerson, 'comment' | 'details'>;
+type GroupedPerson = Pick<Person, 'id' | 'name'> & Pick<FilmPerson, 'comment' | 'details'>;
 
 export type GroupedPeople = {
   [position in PersonRole]: {
     role: PersonRole;
-    people: GropedPerson[];
+    people: GroupedPerson[];
   };
 };
 
@@ -25,6 +33,31 @@ export type GroupedAwards = {
     award: Pick<Award, 'id' | 'title'>;
     nominations: Array<Pick<Nomination, 'title'> & GroupedNomination>;
   };
+};
+
+type ExtendedFilm = Omit<Film, 'createdAt' | 'updatedAt' | 'style' | 'deletedAt'> & {
+  genres: Array<{ genre: Genre }>;
+  studios: Array<{ studio: Studio }>;
+  countries: Array<{ country: Country }>;
+  collections: Array<{ collection: Pick<Collection, 'id' | 'title'> }>;
+  overview: {
+    text: string;
+  } | null;
+  castAndCrew: Array<
+    Pick<FilmPerson, 'role' | 'comment' | 'details'> & {
+      person: Pick<Person, 'id' | 'name'>;
+    }
+  >;
+  awards: Array<
+    Pick<FilmAwardNomination, 'comment'> & {
+      award: Pick<Award, 'id' | 'title'>;
+      nomination: Pick<Nomination, 'id' | 'title'>;
+      person: Pick<Person, 'id' | 'name'> | null;
+    }
+  >;
+  watchCounter: Pick<FilmWatchCount, 'realCounter' | 'approxCounter'> | null;
+  seriesExtension: Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'> | null;
+  trailers: FilmTrailer[];
 };
 
 const mapNestedRelations = <T extends Record<string, unknown>>(values: T[], selector: keyof T) => {
@@ -47,54 +80,40 @@ const sortGroupedPeople = (castAndCrew: GroupedPeople) => {
   });
 };
 
-export const mapFilmDetails = (film: Record<string, any>) => {
-  const castAndCrew = film.castAndCrew.reduce(
-    (
-      result: GroupedPeople,
-      {
-        role,
-        details,
-        comment,
-        person,
-      }: { role: PersonRole; details: string; comment: string | null; person: Person },
-    ) => {
-      if (!result[role]) {
-        result[role] = { role, people: [] };
-      }
+export const mapFilmDetails = (
+  film: ExtendedFilm,
+  chapters: Array<Pick<Film, 'id' | 'title' | 'poster' | 'chapterOrder'>> | null,
+) => {
+  const castAndCrew = film.castAndCrew.reduce((result, { role, details, comment, person }) => {
+    if (!result[role]) {
+      result[role] = { role, people: [] };
+    }
 
-      result[role].people.push({
-        ...person,
-        comment,
-        details,
-      });
+    result[role].people.push({
+      ...person,
+      comment,
+      details,
+    });
 
-      return result;
-    },
-    {} as GroupedPeople,
-  );
+    return result;
+  }, {} as GroupedPeople);
 
-  const awards = film.awards.reduce(
-    (
-      result: GroupedAwards,
-      award: { award: Award; nomination: Nomination; comment: string; person: Person },
-    ) => {
-      if (!result[award.award.id]) {
-        result[award.award.id] = {
-          award: award.award,
-          nominations: [],
-        };
-      }
+  const awards = film.awards.reduce((result, award) => {
+    if (!result[award.award.id]) {
+      result[award.award.id] = {
+        award: award.award,
+        nominations: [],
+      };
+    }
 
-      result[award.award.id].nominations.push({
-        title: award.nomination.title,
-        comment: award.comment,
-        person: award.person,
-      });
+    result[award.award.id].nominations.push({
+      title: award.nomination.title,
+      comment: award.comment,
+      person: award.person,
+    });
 
-      return result;
-    },
-    {} as GroupedAwards,
-  );
+    return result;
+  }, {} as GroupedAwards);
 
   return {
     ...film,
@@ -107,5 +126,6 @@ export const mapFilmDetails = (film: Record<string, any>) => {
     collections: mapNestedRelations(film.collections, 'collection'),
     castAndCrew: sortGroupedPeople(castAndCrew),
     awards: Object.values(awards),
+    chapters: chapters ?? [],
   };
 };

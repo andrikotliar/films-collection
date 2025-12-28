@@ -11,7 +11,7 @@ type Node = {
   fn?: {
     method: Route['method'];
     path: Route['url'];
-    schema?: Route['schema'];
+    schema: Route['schema'];
   };
 };
 
@@ -193,16 +193,16 @@ const emitKeysRuntime = (node: Node, path: string[] = [], indent = INDENTATION):
       const base = nextPath.map((p) => `'${p}'`).join(', ');
 
       if (child.fn.method === 'GET') {
-        const schema = child.fn.schema as RouteSchema | undefined;
+        const schema = child.fn.schema as RouteSchema;
 
         const keys: string[] = [base];
-        const hasOptions = !!schema?.params || !!schema?.querystring;
+        const hasOptions = !!schema.params || !!schema.querystring;
 
-        if (schema?.params) {
+        if (schema.params) {
           keys.push(getKeyOptionsValue('params'));
         }
 
-        if (schema?.querystring) {
+        if (schema.querystring) {
           keys.push(getKeyOptionsValue('queryParams'));
         }
 

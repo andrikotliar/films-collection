@@ -6,6 +6,8 @@ import {
   SearchPersonSchema,
   UpdatePersonInputSchema,
   buildListOptionSchema,
+  PeopleListResponseSchema,
+  PersonResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -15,6 +17,7 @@ export default createRouter([
     url: '/',
     schema: {
       querystring: GetPeopleListQuerySchema,
+      response: PeopleListResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -43,6 +46,7 @@ export default createRouter([
     url: '/',
     schema: {
       body: CreatePersonSchema,
+      response: PersonResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -58,6 +62,7 @@ export default createRouter([
     schema: {
       params: IdParamSchema,
       body: UpdatePersonInputSchema,
+      response: PersonResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

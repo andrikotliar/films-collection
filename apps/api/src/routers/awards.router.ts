@@ -1,15 +1,22 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
 import {
   AwardResponseSchema,
+  AwardsListResponseSchema,
+  AwardWithNominationsResponseSchema,
+  buildListOptionSchema,
   CreateAwardInputSchema,
   IdParamSchema,
   NullableIdParamSchema,
 } from '@films-collection/shared';
+import z from 'zod';
 
 export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
+    schema: {
+      response: AwardsListResponseSchema,
+    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('awardsService').getBaseDataList();
 
@@ -37,6 +44,7 @@ export default createRouter([
     url: '/:id/nominations',
     schema: {
       params: NullableIdParamSchema,
+      response: buildListOptionSchema(z.number()),
     },
     async handler({ request, app }) {
       if (!request.params.id) {
@@ -56,6 +64,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
+      response: AwardWithNominationsResponseSchema,
     },
     async handler({ request, app }) {
       const data = await app.container.resolve('awardsService').getAwardById(request.params.id, {
@@ -72,6 +81,7 @@ export default createRouter([
     schema: {
       params: IdParamSchema,
       body: CreateAwardInputSchema,
+      response: AwardResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -88,6 +98,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
+      response: IdParamSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

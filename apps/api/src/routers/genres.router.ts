@@ -1,10 +1,18 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { IdParamSchema, GenreInputSchema } from '@films-collection/shared';
+import {
+  IdParamSchema,
+  GenreInputSchema,
+  GenresListResponseSchema,
+  GenreResponseSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
+    schema: {
+      response: GenresListResponseSchema,
+    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('genresService').getBaseListData();
 
@@ -17,6 +25,7 @@ export default createRouter([
     url: '/',
     schema: {
       body: GenreInputSchema,
+      response: GenreResponseSchema,
     },
 
     preHandler: [validateAuth],
@@ -33,6 +42,7 @@ export default createRouter([
     schema: {
       params: IdParamSchema,
       body: GenreInputSchema,
+      response: GenreResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

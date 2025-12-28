@@ -3,6 +3,8 @@ import {
   CreateCollectionEventInputSchema,
   UpdateCollectionEventInputSchema,
   IdParamSchema,
+  CollectionEventResponseSchema,
+  CollectionEventsListResponseSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -12,6 +14,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       body: CreateCollectionEventInputSchema,
+      response: CollectionEventResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionEventsService').createEvent(request.body);
@@ -24,6 +27,9 @@ export default createRouter([
     method: 'GET',
     url: '/',
     preHandler: [validateAuth],
+    schema: {
+      response: CollectionEventsListResponseSchema,
+    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('collectionEventsService').getAllEvents();
 
@@ -37,13 +43,14 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
+      response: IdParamSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('collectionEventsService')
         .deleteEvent(request.params.id);
 
-      return { data };
+      return { data: { id: data.id } };
     },
   }),
 
@@ -54,6 +61,7 @@ export default createRouter([
     schema: {
       params: IdParamSchema,
       body: UpdateCollectionEventInputSchema,
+      response: CollectionEventResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container

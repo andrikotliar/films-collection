@@ -8,6 +8,11 @@ import {
   SearchFilmsQuerySchema,
   buildListOptionSchema,
   FilmsListResponseSchema,
+  FilmsSearchResponseSchema,
+  FilmsAdminListResponseSchema,
+  FilmAdminResponseSchema,
+  FilmChaptersResponseSchema,
+  FilmResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -31,6 +36,7 @@ export default createRouter([
     url: '/search',
     schema: {
       querystring: SearchFilmsQuerySchema,
+      response: FilmsSearchResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').searchFilm(request.query.q);
@@ -59,6 +65,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       querystring: GetAdminListQuerySchema,
+      response: FilmsAdminListResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getAdminList(request.query);
@@ -73,6 +80,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
+      response: FilmAdminResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -89,6 +97,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: GetFilmRelatedChaptersSchema,
+      response: FilmChaptersResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -102,7 +111,7 @@ export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/:id',
-    schema: { params: IdParamSchema },
+    schema: { params: IdParamSchema, response: FilmResponseSchema },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilmDetails(request.params.id);
 

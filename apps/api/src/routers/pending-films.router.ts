@@ -4,6 +4,9 @@ import {
   CreatePendingFilmInputSchema,
   GetPendingFilmsListQuerySchema,
   UpdatePendingFilmInputSchema,
+  PendingFilmsListResponseSchema,
+  PendingFilmResponseSchema,
+  PendingFilmByIdResponseSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -13,6 +16,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       querystring: GetPendingFilmsListQuerySchema,
+      response: PendingFilmsListResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('pendingFilmsService').getList(request.query);
@@ -26,6 +30,7 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
+      response: PendingFilmByIdResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -45,8 +50,7 @@ export default createRouter([
     method: 'POST',
     url: '/',
     preHandler: [validateAuth],
-    schema: { body: CreatePendingFilmInputSchema },
-
+    schema: { body: CreatePendingFilmInputSchema, response: PendingFilmResponseSchema },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
@@ -62,6 +66,7 @@ export default createRouter([
     schema: {
       params: IdParamSchema,
       body: UpdatePendingFilmInputSchema,
+      response: PendingFilmResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container

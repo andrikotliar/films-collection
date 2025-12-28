@@ -29,10 +29,12 @@ export const AwardsListResponseSchema = z.array(
   }),
 );
 
-export const AwardWithNominationsResponseSchema = z.object({
-  ...AwardResponseSchema.shape,
-  nominations: NominationInputSchema,
-});
+export const AwardWithNominationsResponseSchema = z
+  .object({
+    ...AwardResponseSchema.shape,
+    nominations: z.array(NominationInputSchema),
+  })
+  .nullable();
 
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
 export type NominationInput = z.infer<typeof NominationInputSchema>;

@@ -8,6 +8,7 @@ export * from './files.schema';
 export * from './films.schema';
 export * from './genres.schema';
 export * from './id.schema';
+export * from './initial-data.schema';
 export * from './list-options.schema';
 export * from './page-content.schema';
 export * from './pending-films.schema';

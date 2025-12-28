@@ -75,7 +75,12 @@ export const FilmResponseSchema = z.object({
   duration: z.number(),
   description: z.string().nullable(),
   rating: z.number(),
-  watchCounter: z.number(),
+  watchCounter: z
+    .object({
+      realCounter: z.number().nullable(),
+      approxCounter: z.number().nullable(),
+    })
+    .nullable(),
   releaseDate: z.date(),
   budget: z.number().nullable(),
   boxOffice: z.number().nullable(),
@@ -87,6 +92,13 @@ export const FilmResponseSchema = z.object({
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   trailers: z.array(TrailerSchema),
   chapters: z.array(ChapterSchema),
+  seriesExtension: z
+    .object({
+      episodesTotal: z.number(),
+      seasonsTotal: z.number(),
+      finishedAt: z.date().nullable(),
+    })
+    .nullable(),
   castAndCrew: z.array(
     z.object({
       role: z.enum(PersonRole),
@@ -143,9 +155,10 @@ export const FilmsAdminListResponseSchema = z.object({
   total: z.number(),
 });
 
-export const FilmAdminResponseSchema = z
-  .object(FilmResponseSchema.pick({ id: true, title: true }))
-  .nullable();
+export const FilmAdminResponseSchema = FilmResponseSchema.pick({
+  id: true,
+  title: true,
+}).nullable();
 
 export const FilmChaptersResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true, chapterOrder: true }),

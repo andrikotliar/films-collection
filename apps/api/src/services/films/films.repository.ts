@@ -54,6 +54,8 @@ export class FilmsRepository {
         rating: true,
         chapterKey: true,
         type: true,
+        draft: true,
+        chapterOrder: true,
         overview: {
           select: {
             text: true,

@@ -35,7 +35,7 @@ type HandlerReturn<S extends RouteSchema> = {
 export type Route<S extends RouteSchema = { response: z.ZodType }> = {
   method: 'GET' | 'POST' | 'PATCH' | 'PUT' | 'DELETE';
   url: string;
-  schema?: S;
+  schema: S;
   preHandler?: PreHandler[];
   handler: (ctx: HandlerContext<S>) => Promise<HandlerReturn<S>>;
 };

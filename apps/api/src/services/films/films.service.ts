@@ -44,16 +44,11 @@ export class FilmsService {
       return null;
     }
 
-    const mappedFilm = mapFilmDetails(film);
+    const chapters = film.chapterKey
+      ? await this.filmsRepository.findChapters(film.id, film.chapterKey)
+      : null;
 
-    if (film.chapterKey) {
-      const chapters = await this.filmsRepository.findChapters(film.id, film.chapterKey);
-
-      return {
-        ...mappedFilm,
-        chapters,
-      };
-    }
+    const mappedFilm = mapFilmDetails(film, chapters);
 
     return mappedFilm;
   }
@@ -71,8 +66,13 @@ export class FilmsService {
     };
   }
 
-  searchFilm(searchString: string) {
-    return this.filmsRepository.searchByTitle(searchString);
+  async searchFilm(searchString: string) {
+    const films = await this.filmsRepository.searchByTitle(searchString);
+
+    return films.map((film) => ({
+      ...film,
+      genres: film.genres.map((g) => g.genre),
+    }));
   }
 
   getAdminList(query: GetAdminListQuery) {

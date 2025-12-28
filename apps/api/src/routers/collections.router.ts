@@ -3,12 +3,17 @@ import {
   IdParamSchema,
   CreateCollectionInputSchema,
   UpdateCollectionInputSchema,
+  CollectionsListResponseSchema,
+  CollectionResponseSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
     method: 'GET',
     url: '/',
+    schema: {
+      response: CollectionsListResponseSchema,
+    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('collectionsService').getGeneralDataList();
 
@@ -19,7 +24,7 @@ export default createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
-    schema: { body: CreateCollectionInputSchema },
+    schema: { body: CreateCollectionInputSchema, response: CollectionResponseSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionsService').createCollection(request.body);
@@ -31,7 +36,11 @@ export default createRouter([
   defineRoute({
     method: 'PATCH',
     url: '/:id',
-    schema: { params: IdParamSchema, body: UpdateCollectionInputSchema },
+    schema: {
+      params: IdParamSchema,
+      body: UpdateCollectionInputSchema,
+      response: CollectionResponseSchema,
+    },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container

@@ -1,5 +1,9 @@
 import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { buildListOptionSchema, CreateChapterKeyInputSchema } from '@films-collection/shared';
+import {
+  buildListOptionSchema,
+  ChapterKeyResponseSchema,
+  CreateChapterKeyInputSchema,
+} from '@films-collection/shared';
 import z from 'zod';
 
 export default createRouter([
@@ -20,6 +24,7 @@ export default createRouter([
     url: '/',
     schema: {
       body: CreateChapterKeyInputSchema,
+      response: ChapterKeyResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

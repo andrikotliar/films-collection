@@ -5,6 +5,10 @@ import {
   GetPageContentListQueriesSchema,
   GetPageContentByPageUrlParamsSchema,
   UpdatePageContentInputSchema,
+  PageContentResponseSchema,
+  PageContentsListResponseSchema,
+  PageContentByKeyResponseSchema,
+  PageContentByIdResponseSchema,
 } from '@films-collection/shared';
 
 export default createRouter([
@@ -13,6 +17,7 @@ export default createRouter([
     url: '/',
     schema: {
       body: CreatePageContentInputSchema,
+      response: PageContentResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -28,6 +33,7 @@ export default createRouter([
     url: '/admin',
     schema: {
       querystring: GetPageContentListQueriesSchema,
+      response: PageContentsListResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -41,6 +47,7 @@ export default createRouter([
     url: '/page/:pageKey',
     schema: {
       params: GetPageContentByPageUrlParamsSchema,
+      response: PageContentByKeyResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -61,6 +68,7 @@ export default createRouter([
     url: '/:id',
     schema: {
       params: IdParamSchema,
+      response: PageContentByIdResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -76,6 +84,7 @@ export default createRouter([
     schema: {
       body: UpdatePageContentInputSchema,
       params: IdParamSchema,
+      response: PageContentResponseSchema,
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

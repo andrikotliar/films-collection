@@ -20,16 +20,21 @@ export const CollectionEventResponseSchema = z.object({
 
 export const CollectionEventsListResponseSchema = z.array(
   z.object({
-    ...CollectionEventResponseSchema.shape,
+    ...CollectionEventResponseSchema.omit({
+      titleFilmId: true,
+      collectionId: true,
+      createdAt: true,
+      updatedAt: true,
+    }).shape,
     filmsCount: z.number(),
     collection: z.object({
       id: z.number(),
-      title: z.number(),
+      title: z.string(),
     }),
     film: z
       .object({
         id: z.number(),
-        title: z.string(),
+        poster: z.string(),
       })
       .nullable(),
   }),

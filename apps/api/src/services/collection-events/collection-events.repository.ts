@@ -7,7 +7,7 @@ import type {
 
 export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'collectionId'> & {
   collection: Pick<Collection, 'id' | 'title'>;
-  film: Pick<Film, 'poster'>;
+  film: Pick<Film, 'id' | 'poster'>;
   filmsCount: number;
 };
 

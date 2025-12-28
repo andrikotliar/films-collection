@@ -47,6 +47,7 @@ export class PendingFilmsRepository {
         collectionId: true,
         title: true,
         rating: true,
+        priority: true,
       },
       where: {
         id,

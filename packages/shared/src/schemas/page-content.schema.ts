@@ -18,7 +18,7 @@ export const UpdatePageContentInputSchema = CreatePageContentInputSchema.partial
 
 export const PageContentResponseSchema = z.object({
   id: z.number(),
-  title: z.number(),
+  title: z.string(),
   content: z.string(),
   pageKey: z.string(),
   createdAt: z.date(),
