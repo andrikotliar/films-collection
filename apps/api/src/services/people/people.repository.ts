@@ -1,6 +1,6 @@
 import type { Prisma } from '@prisma/client';
 import {
-  DEFAULT_PAGINATION_LIMIT,
+  PAGE_LIMITS,
   type CreatePersonInput,
   type SearchPersonQuery,
   type UpdatePersonInput,
@@ -71,7 +71,7 @@ export class PeopleRepository {
         name: true,
       },
       where: whereClause,
-      take: DEFAULT_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
       orderBy: {
         name: 'asc',
       },

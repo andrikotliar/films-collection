@@ -1,9 +1,11 @@
 import { convertEnumValueToLabel, type Deps } from '~/shared';
 import type { FilmsRepository } from './films.repository';
-import type {
-  GetAdminListQuery,
-  GetFilmsListQuery,
-  GetFilmOptionsQuery,
+import {
+  type GetAdminListQuery,
+  type GetFilmsListQuery,
+  type GetFilmOptionsQuery,
+  PAGE_LIMITS,
+  getSkipValue,
 } from '@films-collection/shared';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
@@ -26,11 +28,15 @@ export class FilmsService {
   }
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
-    const { limit, skip } = queries;
+    const { pageIndex } = queries;
 
     const parsedFilters = mapListFilters(queries);
 
-    const data = await this.filmsRepository.findAndCount(parsedFilters, limit, skip);
+    const data = await this.filmsRepository.findAndCount(
+      parsedFilters,
+      PAGE_LIMITS.filmsList,
+      getSkipValue('filmsList', pageIndex),
+    );
 
     const additionalInfo = await this.populateAdditionalData(queries);
 

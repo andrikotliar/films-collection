@@ -1,10 +1,6 @@
 import type { Film, Prisma } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
-import {
-  DEFAULT_PAGINATION_LIMIT,
-  DEFAULT_SEARCH_PAGINATION_LIMIT,
-  type GetFilmOptionsQuery,
-} from '@films-collection/shared';
+import { PAGE_LIMITS, type GetFilmOptionsQuery } from '@films-collection/shared';
 
 export class FilmsRepository {
   private readonly databaseClient: DatabaseClient;
@@ -239,7 +235,7 @@ export class FilmsRepository {
         },
         deletedAt: null,
       },
-      take: DEFAULT_SEARCH_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
     });
   }
 
@@ -330,7 +326,7 @@ export class FilmsRepository {
         id: true,
         title: true,
       },
-      take: DEFAULT_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
       where: whereOptions,
       orderBy: {
         title: 'asc',

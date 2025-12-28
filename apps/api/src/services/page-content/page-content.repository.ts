@@ -1,6 +1,6 @@
 import type { DatabaseClient, Deps } from '~/shared';
 import {
-  DEFAULT_PAGINATION_LIMIT,
+  PAGE_LIMITS,
   type CreatePageContentInput,
   type GetPageContentListQueries,
   type UpdatePageContentInput,
@@ -35,7 +35,7 @@ export class PageContentRepository {
         content: true,
         pageKey: true,
       },
-      take: DEFAULT_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
       skip,
       orderBy: {
         updatedAt: 'desc',

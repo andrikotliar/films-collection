@@ -2,7 +2,7 @@ import type { PeopleRepository } from './people.repository';
 import { NotFoundException, type Deps } from '~/shared';
 import type { Prisma } from '@prisma/client';
 import {
-  DEFAULT_PAGINATION_LIMIT,
+  PAGE_LIMITS,
   type CreatePersonInput,
   type GetPeopleListQuery,
   type SearchPersonQuery,
@@ -20,7 +20,7 @@ export class PeopleService {
     const filters: Prisma.PersonWhereInput = {};
     const options: Prisma.PersonFindManyArgs = {
       where: filters,
-      take: DEFAULT_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
       skip: queries.skip,
     };
 
