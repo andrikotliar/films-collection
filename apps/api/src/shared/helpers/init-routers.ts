@@ -8,7 +8,12 @@ export const initRouters = (routes: Route[]) => {
       app.route({
         url: route.url,
         method: route.method,
-        schema: route.schema,
+        schema: {
+          ...route.schema,
+          response: {
+            default: route.schema.response,
+          },
+        },
         preHandler: route.preHandler,
         handler: async (request: any, reply) => {
           const result = await route.handler({ request, reply, app });
