@@ -1,15 +1,15 @@
 import {
-  fetchPageContentByKeyQuery,
   ArticleContent,
+  getPageContentByKeyQueryOptions,
   useDocumentTitle,
   useScrollToTop,
+  useSuspensePageContentByKey,
 } from '~/shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/about')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(fetchPageContentByKeyQuery('about'));
+    await queryClient.ensureQueryData(getPageContentByKeyQueryOptions('about'));
   },
   component: AboutPageContainer,
 });
@@ -18,7 +18,7 @@ function AboutPageContainer() {
   useDocumentTitle('About');
   useScrollToTop([]);
 
-  const { data: article } = useSuspenseQuery(fetchPageContentByKeyQuery('about'));
+  const { data: article } = useSuspensePageContentByKey('about');
 
   return (
     <ArticleContent>
