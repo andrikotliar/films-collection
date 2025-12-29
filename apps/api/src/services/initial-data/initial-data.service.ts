@@ -7,6 +7,7 @@ import type { CountriesService } from '~/services/countries/countries.service';
 import type { StudiosService } from '~/services/studios/studios.service';
 import type { CollectionEventsService } from '~/services/collection-events/collection-events.service';
 import type { AwardsService } from '~/services/awards/awards.service';
+import type { FilmsService } from '~/services/films';
 
 export class InitialDataService {
   private readonly collectionsService: CollectionsService;
@@ -15,6 +16,7 @@ export class InitialDataService {
   private readonly studiosService: StudiosService;
   private readonly collectionEventsService: CollectionEventsService;
   private readonly awardsService: AwardsService;
+  private readonly filmsService: FilmsService;
 
   constructor(
     deps: Deps<
@@ -24,6 +26,7 @@ export class InitialDataService {
       | 'studiosService'
       | 'collectionEventsService'
       | 'awardsService'
+      | 'filmsService'
     >,
   ) {
     this.awardsService = deps.awardsService;
@@ -32,15 +35,17 @@ export class InitialDataService {
     this.collectionsService = deps.collectionsService;
     this.studiosService = deps.studiosService;
     this.collectionEventsService = deps.collectionEventsService;
+    this.filmsService = deps.filmsService;
   }
 
   async getOptions(): Promise<InitialData> {
-    const [collections, genres, countries, studios, awards] = await Promise.all([
+    const [collections, genres, countries, studios, awards, filmsTotal] = await Promise.all([
       this.collectionsService.getListOptions(),
       this.genresService.getListOptions(),
       this.countriesService.getListOptions(),
       this.studiosService.getListOptions(),
       this.awardsService.getListOptions(),
+      this.filmsService.getFilmsTotal(),
     ]);
 
     const types = convertEnumValuesToOption(TitleType);
@@ -63,6 +68,7 @@ export class InitialDataService {
         collectionCategories,
       },
       events,
+      filmsTotal,
     };
   }
 }
