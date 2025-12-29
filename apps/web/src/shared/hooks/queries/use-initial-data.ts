@@ -1,5 +1,5 @@
 import { api, queryKeys } from '~/shared/services';
-import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { queryOptions, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 
 export const getInitialDataQueryOptions = () => {
   return queryOptions({
@@ -11,4 +11,8 @@ export const getInitialDataQueryOptions = () => {
 
 export const useSuspenseInitialData = () => {
   return useSuspenseQuery(getInitialDataQueryOptions());
+};
+
+export const useInitialData = () => {
+  return useQuery(getInitialDataQueryOptions());
 };

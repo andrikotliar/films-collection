@@ -1,4 +1,4 @@
-import { MenuConfigItem } from '../types';
+import type { MenuConfigItem } from '../types';
 import { FolderCogIcon, InfoIcon, LibraryBigIcon, PieChartIcon } from 'lucide-react';
 
 export const mainMenu: MenuConfigItem[] = [
