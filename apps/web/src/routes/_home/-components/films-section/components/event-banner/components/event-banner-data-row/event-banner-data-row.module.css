@@ -1,7 +1,0 @@
-.data_row {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 14px;
-  color: var(--color-gray-dark);
-}

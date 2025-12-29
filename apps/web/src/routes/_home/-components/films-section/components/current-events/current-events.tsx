@@ -1,40 +1,29 @@
-import styles from "./current-events.module.css";
-import { BREAKPOINTS, fetchInitialDataQuery } from '~/shared';
+import styles from './current-events.module.css';
+import { fetchInitialDataQuery } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { EventBanner } from '~/routes/_home/-components/films-section/components/event-banner/event-banner';
-
-const getPlaceholdersCount = (eventsCount: number) => {
-  const screenWidth = window.innerWidth;
-
-  if (screenWidth >= BREAKPOINTS.xl2) {
-    return 4 - eventsCount;
-  }
-
-  if (screenWidth >= BREAKPOINTS.xl) {
-    return eventsCount % 2;
-  }
-
-  return 0;
-};
+import { Link, useSearch } from '@tanstack/react-router';
 
 export const CurrentEvents = () => {
+  const search = useSearch({ from: '/_home/' });
+
   const { data: initialData } = useQuery(fetchInitialDataQuery());
 
   if (!initialData?.events.length) {
     return null;
   }
 
-  const placeholdersCount = getPlaceholdersCount(initialData.events.length);
-
   return (
-    <div className={styles.events_grid}>
+    <div className={styles.events_track}>
+      {search.collectionId && (
+        <Link className={styles.all_films_link} to="/">
+          <div className={styles.all_films_link_inner}>{initialData?.filmsTotal ?? ''}</div>
+          <div className={styles.all_films_link_title}>All films</div>
+        </Link>
+      )}
       {initialData.events.map((event) => (
-        <EventBanner event={event} key={event.id} />
+        <EventBanner event={event} key={event.id} selectedEventId={search.collectionId} />
       ))}
-      {placeholdersCount > 0 &&
-        Array.from({ length: placeholdersCount }, (_, index) => (
-          <div className={styles.event_placeholder} key={index} />
-        ))}
     </div>
   );
 };

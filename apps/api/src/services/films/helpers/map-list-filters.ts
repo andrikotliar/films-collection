@@ -91,7 +91,7 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
   if (collectionId) {
     filters.collections = {
       some: {
-        collectionId,
+        collectionId: collectionId,
       },
     };
   }

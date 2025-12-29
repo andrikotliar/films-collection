@@ -21,7 +21,10 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
   const title = getFormTitle(values, 'Collection Event');
 
   const submit = async (data: CollectionEventMutationPayload) => {
-    await mutateAsync(data);
+    await mutateAsync({
+      ...data,
+      endDateCode: data.isOneDayEvent ? data.startDateCode : data.endDateCode,
+    });
     afterSubmitEffect();
   };
 

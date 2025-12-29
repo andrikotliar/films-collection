@@ -91,6 +91,10 @@ export class FilmsService {
     return this.filmsRepository.findChapters(query.key, query.filmId);
   }
 
+  getFilmsTotal() {
+    return this.filmsRepository.count();
+  }
+
   private async populateAdditionalData(query: GetFilmsListQuery) {
     const { personId, personRole, collectionId, awardId } = query;
 
