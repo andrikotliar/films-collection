@@ -1,15 +1,16 @@
 import {
-  type LoginPayload,
   FormPasswordInput,
   Logo,
   Form,
   CenteredBlock,
   useLogin,
+  type api,
+  type ExtractInputParams,
 } from '~/shared';
-import { loginFormSchema } from '~/routes/login/-validation';
 import { LogInIcon } from 'lucide-react';
+import { LoginSchema } from '@films-collection/shared';
 
-const defaultLoginValues: LoginPayload = {
+const defaultLoginValues: ExtractInputParams<typeof api.auth.login.create> = {
   username: '',
   password: '',
 };
@@ -22,7 +23,7 @@ export const LoginForm = () => {
       onSubmit={mutateAsync}
       isLoading={isPending}
       defaultValues={defaultLoginValues}
-      schema={loginFormSchema}
+      schema={LoginSchema}
       submitIcon={<LogInIcon />}
       submitButtonText="Login"
     >
