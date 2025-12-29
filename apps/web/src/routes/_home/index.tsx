@@ -24,6 +24,7 @@ const filmsListFilterSchema = yup.object().shape({
   personRole: yup.string(),
   personId: yup.string(),
   rating: yup.string(),
+  eventCollectionId: yup.string(),
 });
 
 export const Route = createFileRoute('/_home/')({

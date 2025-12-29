@@ -14,4 +14,5 @@ export type InitialData = {
     collectionCategories: ListOption<string>[];
   };
   events: CurrentEvent[];
+  filmsTotal: number;
 };

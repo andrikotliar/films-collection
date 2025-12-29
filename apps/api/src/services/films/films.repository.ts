@@ -14,7 +14,7 @@ export class FilmsRepository {
     this.databaseClient = deps.databaseService;
   }
 
-  async count(filters: Prisma.FilmWhereInput) {
+  async count(filters?: Prisma.FilmWhereInput) {
     return this.databaseClient.film.count({ where: filters });
   }
 

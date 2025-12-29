@@ -2,8 +2,11 @@ import styles from './current-events.module.css';
 import { fetchInitialDataQuery } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { EventBanner } from '~/routes/_home/-components/films-section/components/event-banner/event-banner';
+import { Link, useSearch } from '@tanstack/react-router';
 
 export const CurrentEvents = () => {
+  const search = useSearch({ from: '/_home/' });
+
   const { data: initialData } = useQuery(fetchInitialDataQuery());
 
   if (!initialData?.events.length) {
@@ -12,8 +15,14 @@ export const CurrentEvents = () => {
 
   return (
     <div className={styles.events_track}>
+      {search.eventCollectionId && (
+        <Link className={styles.all_films_link} to="/">
+          <div className={styles.all_films_link_inner}>{initialData?.filmsTotal ?? ''}</div>
+          <div className={styles.all_films_link_title}>All films</div>
+        </Link>
+      )}
       {initialData.events.map((event) => (
-        <EventBanner event={event} key={event.id} />
+        <EventBanner event={event} key={event.id} selectedEventId={search.eventCollectionId} />
       ))}
     </div>
   );

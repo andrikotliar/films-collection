@@ -36,6 +36,7 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     style,
     budget,
     boxOffice,
+    eventCollectionId,
   } = plainFilters;
 
   const filters: Prisma.FilmWhereInput = {
@@ -88,10 +89,10 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     };
   }
 
-  if (collectionId) {
+  if (collectionId || eventCollectionId) {
     filters.collections = {
       some: {
-        collectionId,
+        collectionId: collectionId || eventCollectionId,
       },
     };
   }
