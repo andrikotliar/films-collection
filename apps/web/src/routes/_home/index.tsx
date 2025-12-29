@@ -1,41 +1,24 @@
-import * as yup from 'yup';
+import type z from 'zod';
 import { createFileRoute } from '@tanstack/react-router';
 import {
-  fetchFilmsListQuery,
-  fetchInitialDataQuery,
-  type FilmsListFilters,
+  getFilmsListQueryOptions,
+  getInitialDataQueryOptions,
   useDocumentTitle,
+  useSuspenseFilmsList,
 } from '~/shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { FilmsSection, RootPageLayout, Sidebar } from './-components';
-
-const filmsListFilterSchema = yup.object().shape({
-  pageIndex: yup.number().min(0),
-  type: yup.string(),
-  style: yup.string(),
-  genreIds: yup.array(yup.string().required()),
-  startDate: yup.string(),
-  endDate: yup.string(),
-  countryIds: yup.array(yup.string().required()),
-  studioIds: yup.array(yup.string().required()),
-  collectionId: yup.string(),
-  actorId: yup.string(),
-  awardId: yup.string(),
-  personRole: yup.string(),
-  personId: yup.string(),
-  rating: yup.string(),
-});
+import { GetFilmsListQuerySchema } from '@films-collection/shared';
 
 export const Route = createFileRoute('/_home/')({
-  validateSearch: (search: Record<string, unknown>): Partial<FilmsListFilters> => {
-    return filmsListFilterSchema.validateSync(search);
+  validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
+    return GetFilmsListQuerySchema.parse(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: async ({ context, deps }) => {
-    await context.queryClient.ensureQueryData(fetchInitialDataQuery());
-    await context.queryClient.ensureQueryData(fetchFilmsListQuery(deps.search));
+    await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
+    await context.queryClient.ensureQueryData(getFilmsListQueryOptions(deps.search));
   },
   component: RootPageContainer,
 });
@@ -45,7 +28,7 @@ function RootPageContainer() {
 
   const routeSearch = Route.useSearch();
 
-  const { data, isFetching } = useSuspenseQuery(fetchFilmsListQuery(routeSearch));
+  const { data, isFetching } = useSuspenseFilmsList(routeSearch);
 
   return (
     <RootPageLayout>

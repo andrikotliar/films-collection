@@ -7,8 +7,7 @@ import { GenreResponseSchema } from '~/schemas/genres.schema';
 import { StudioResponseSchema } from '~/schemas/studios.schema';
 
 export const GetFilmsListQuerySchema = z.object({
-  limit: z.number(),
-  skip: z.number(),
+  pageIndex: z.number().min(0).optional(),
   startDate: z.string().optional(),
   endDate: z.string().optional(),
   collectionId: z.number().optional(),

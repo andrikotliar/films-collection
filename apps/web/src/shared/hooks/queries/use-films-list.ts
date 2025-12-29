@@ -1,7 +1,8 @@
 import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
 import { queryKeys, api } from '~/shared/services';
+import type { ExtractParams } from '~/shared/types';
 
-type FilmsListParams = Parameters<typeof api.films.list>[0];
+type FilmsListParams = ExtractParams<typeof api.films.list>;
 
 export const getFilmsListQueryOptions = (queryParams: FilmsListParams['queryParams']) => {
   return queryOptions({
