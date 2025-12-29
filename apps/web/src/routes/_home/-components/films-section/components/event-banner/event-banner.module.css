@@ -1,16 +1,18 @@
 .event_banner_button {
   width: 80px;
+  position: relative;
 }
 
 .event_banner_inner {
   --shadow-weight: 2px;
+  --shadow-color: var(--color-blue-primary);
   position: relative;
   width: 80px;
   height: 80px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--color-white);
-  box-shadow: 0 0 0 var(--shadow-weight) var(--color-blue-primary);
+  box-shadow: 0 0 0 var(--shadow-weight) var(--shadow-color);
 }
 
 .event_banner_inner::after {
@@ -43,34 +45,5 @@
 
 .selected_event .event_banner_inner {
   --shadow-weight: 4px;
-}
-
-.selected_event .event_title {
-  animation: 3s linear infinite selected-title;
-}
-
-@keyframes selected-title {
-  0% {
-    color: var(--color-blue-primary);
-  }
-
-  25% {
-    color: var(--color-blue-dark);
-  }
-
-  50% {
-    color: var(--color-yellow-primary);
-  }
-
-  75% {
-    color: var(--color-orange-primary);
-  }
-
-  85% {
-    color: var(--color-blue-dark);
-  }
-
-  100% {
-    color: var(--color-blue-primary);
-  }
+  --shadow-color: var(--color-green-primary);
 }

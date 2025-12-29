@@ -147,7 +147,6 @@ export type FilmsListFilters = FilmsListPagination &
     personRole: string | null;
     personId: string | null;
     rating: string | null;
-    eventCollectionId: string | null;
   }>;
 
 export type FilmsAdminListItem = Pick<Film, 'id' | 'title' | 'draft'>;

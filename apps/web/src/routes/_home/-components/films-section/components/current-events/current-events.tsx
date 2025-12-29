@@ -15,14 +15,14 @@ export const CurrentEvents = () => {
 
   return (
     <div className={styles.events_track}>
-      {search.eventCollectionId && (
+      {search.collectionId && (
         <Link className={styles.all_films_link} to="/">
           <div className={styles.all_films_link_inner}>{initialData?.filmsTotal ?? ''}</div>
           <div className={styles.all_films_link_title}>All films</div>
         </Link>
       )}
       {initialData.events.map((event) => (
-        <EventBanner event={event} key={event.id} selectedEventId={search.eventCollectionId} />
+        <EventBanner event={event} key={event.id} selectedEventId={search.collectionId} />
       ))}
     </div>
   );
