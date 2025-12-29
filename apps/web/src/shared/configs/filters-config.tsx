@@ -1,6 +1,7 @@
-import { FilterItem, InitialData } from '../types';
+import type { InitialDataResponse } from '@films-collection/shared';
+import type { FilterItem } from '../types';
 
-export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
+export const getFiltersConfig = (initialData: InitialDataResponse): FilterItem[] => {
   return [
     {
       title: 'Type',

@@ -15,4 +15,7 @@ export const InitialDataResponseSchema = z.object({
     collectionCategories: buildListOptionSchema(z.string()),
   }),
   events: CollectionEventsListResponseSchema,
+  filmsTotal: z.number(),
 });
+
+export type InitialDataResponse = z.infer<typeof InitialDataResponseSchema>;

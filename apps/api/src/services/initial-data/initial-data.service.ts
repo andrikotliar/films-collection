@@ -1,5 +1,4 @@
 import { convertEnumValuesToOption, type Deps } from '~/shared';
-import type { InitialData } from './types';
 import { CollectionCategory, PersonRole, TitleStyle, TitleType } from '@prisma/client';
 import type { CollectionsService } from '~/services/collections/collections.service';
 import type { GenresService } from '~/services/genres/genres.service';
@@ -8,6 +7,7 @@ import type { StudiosService } from '~/services/studios/studios.service';
 import type { CollectionEventsService } from '~/services/collection-events/collection-events.service';
 import type { AwardsService } from '~/services/awards/awards.service';
 import type { FilmsService } from '~/services/films';
+import type { InitialDataResponse } from '@films-collection/shared';
 
 export class InitialDataService {
   private readonly collectionsService: CollectionsService;
@@ -38,7 +38,7 @@ export class InitialDataService {
     this.filmsService = deps.filmsService;
   }
 
-  async getOptions(): Promise<InitialData> {
+  async getOptions(): Promise<InitialDataResponse> {
     const [collections, genres, countries, studios, awards, filmsTotal] = await Promise.all([
       this.collectionsService.getListOptions(),
       this.genresService.getListOptions(),
