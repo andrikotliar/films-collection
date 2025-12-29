@@ -1,10 +1,11 @@
 import sanitize from 'sanitize-html';
 import type { PageContentRepository } from './page-content.repository';
-import { ALLOWED_HTML_TAGS, type Deps } from '~/shared';
-import type {
-  CreatePageContentInput,
-  GetPageContentListQueries,
-  UpdatePageContentInput,
+import { type Deps } from '~/shared';
+import {
+  ALLOWED_HTML_TAGS,
+  type CreatePageContentInput,
+  type GetPageContentListQueries,
+  type UpdatePageContentInput,
 } from '@films-collection/shared';
 
 const MAX_WORDS_LIMIT = 30;

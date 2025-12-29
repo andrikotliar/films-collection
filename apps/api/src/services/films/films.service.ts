@@ -1,4 +1,4 @@
-import { convertEnumValueToLabel, type Deps } from '~/shared';
+import { type Deps } from '~/shared';
 import type { FilmsRepository } from './films.repository';
 import {
   type GetAdminListQuery,
@@ -6,6 +6,7 @@ import {
   type GetFilmOptionsQuery,
   PAGE_LIMITS,
   getSkipValue,
+  convertEnumValueToLabel,
 } from '@films-collection/shared';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
