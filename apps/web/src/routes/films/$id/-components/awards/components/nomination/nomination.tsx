@@ -1,10 +1,12 @@
 import styles from './nomination.module.css';
-import { type Person, RouterLink } from '~/shared';
+import { RouterLink, type api, type ExtractResponseType } from '~/shared';
 
 type NominationProps = {
   title: string;
   comment: string | null;
-  nominee: Person | null;
+  nominee: ExtractResponseType<
+    typeof api.films.get
+  >['awards'][number]['nominations'][number]['person'];
 };
 
 export const Nomination = ({ title, comment, nominee }: NominationProps) => {

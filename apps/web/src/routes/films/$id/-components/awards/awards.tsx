@@ -1,10 +1,10 @@
 import styles from './awards.module.css';
 import { Link } from '@tanstack/react-router';
-import type { FilmAward } from '~/shared';
 import { Nomination } from '~/routes/films/$id/-components/awards/components';
+import type { api, ExtractResponseType } from '~/shared';
 
 type AwardsProps = {
-  data: FilmAward[];
+  data: ExtractResponseType<typeof api.films.get>['awards'];
 };
 
 export const Awards = ({ data }: AwardsProps) => {
@@ -14,7 +14,7 @@ export const Awards = ({ data }: AwardsProps) => {
         <div key={award.id} className={styles.award_grid}>
           <div>
             <h3 className={styles.award_title}>
-              <Link to="/" search={{ awardId: String(award.id) }}>
+              <Link to="/" search={{ awardId: award.id }}>
                 {award.title}
               </Link>
             </h3>

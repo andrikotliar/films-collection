@@ -1,5 +1,10 @@
 import type { ReactNode } from 'react';
-import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/shared';
+import {
+  getFormattedMoneyValue,
+  getPluralWord,
+  type api,
+  type ExtractResponseType,
+} from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
 import { isProfitable } from '~/routes/films/$id/-helpers/is-profitable';
 
@@ -10,7 +15,9 @@ export type SummaryConfig = {
   isHidden?: boolean;
 };
 
-export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
+export const getFilmSummaryConfig = (
+  film: ExtractResponseType<typeof api.films.get>,
+): SummaryConfig[] => {
   const values: SummaryConfig[] = [
     {
       id: 'genres',
@@ -21,7 +28,10 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'releaseDate',
       title: film.type === 'SERIES' ? 'Ongoing dates' : 'Release Date',
       content: (
-        <Dates releaseDate={film.releaseDate} finishedAt={film.seriesExtension?.finishedAt} />
+        <Dates
+          releaseDate={film.releaseDate.toString()}
+          finishedAt={film.seriesExtension?.finishedAt?.toString()}
+        />
       ),
     },
     {

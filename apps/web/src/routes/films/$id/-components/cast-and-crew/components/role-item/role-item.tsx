@@ -1,9 +1,9 @@
 import styles from './role-item.module.css';
 import clsx from 'clsx';
-import { type FilmPerson, personRoleToTitle, RouterLink } from '~/shared';
+import { personRoleToTitle, RouterLink, type api, type ExtractResponseType } from '~/shared';
 
 type RoleItemProps = {
-  data: FilmPerson;
+  data: ExtractResponseType<typeof api.films.get>['castAndCrew'][number];
 };
 
 export const RoleItem = ({ data }: RoleItemProps) => {

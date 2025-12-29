@@ -1,5 +1,5 @@
 import { createFileRoute, Outlet } from '@tanstack/react-router';
-import { fetchFilmQuery, useDocumentTitle, useScrollToTop } from '~/shared';
+import { getFilmQueryOptions, useDocumentTitle, useScrollToTop } from '~/shared';
 import {
   FilmDetailsTabs,
   FilmPageLayout,
@@ -10,7 +10,7 @@ import {
 
 export const Route = createFileRoute('/films/$id')({
   loader: async ({ context, params }) => {
-    return context.queryClient.ensureQueryData(fetchFilmQuery(params.id));
+    return context.queryClient.ensureQueryData(getFilmQueryOptions(Number(params.id)));
   },
   component: FilmPageContainer,
 });

@@ -4,6 +4,7 @@ import { AwardResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
 import { CountryResponseSchema } from '~/schemas/countries.schema';
 import { GenreResponseSchema } from '~/schemas/genres.schema';
+import { PersonResponseSchema } from '~/schemas/people.schema';
 import { StudioResponseSchema } from '~/schemas/studios.schema';
 
 export const GetFilmsListQuerySchema = z.object({
@@ -91,6 +92,18 @@ export const FilmResponseSchema = z.object({
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   trailers: z.array(TrailerSchema),
   chapters: z.array(ChapterSchema),
+  awards: z.array(
+    z.object({
+      award: AwardResponseSchema.pick({ id: true, title: true }),
+      nominations: z.array(
+        z.object({
+          title: z.string(),
+          comment: z.string().nullable(),
+          person: PersonResponseSchema.pick({ id: true, name: true }).nullable(),
+        }),
+      ),
+    }),
+  ),
   seriesExtension: z
     .object({
       episodesTotal: z.number(),

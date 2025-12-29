@@ -1,4 +1,4 @@
-import { queryOptions, useQuery, useSuspenseQuery } from '@tanstack/react-query';
+import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
 import { api, queryKeys } from '~/shared/services';
 
 export const getFilmQueryOptions = (filmId: number) => {
@@ -6,10 +6,6 @@ export const getFilmQueryOptions = (filmId: number) => {
     queryKey: queryKeys.films.get({ params: { id: filmId } }),
     queryFn: () => api.films.get({ params: { id: filmId } }),
   });
-};
-
-export const useFilm = (filmId: number) => {
-  return useQuery(getFilmQueryOptions(filmId));
 };
 
 export const useSuspenseFilm = (filmId: number) => {
