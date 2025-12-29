@@ -1,25 +1,7 @@
-.events_grid {
-  --cols: 4;
-
-  display: grid;
-  grid-template-columns: repeat(var(--cols), 1fr);
+.events_track {
+  display: flex;
+  align-items: flex-start;
   gap: 20px;
-}
-
-.event_placeholder {
-  background-color: var(--color-gray-light);
-  border-radius: var(--rounded-default);
-  border: var(--border-default);
-}
-
-@media (width < 1280px) {
-  .events_grid {
-    --cols: 2;
-  }
-}
-
-@media (width < 560px) {
-  .events_grid {
-    --cols: 1;
-  }
+  padding: 2px;
+  overflow-x: auto;
 }
