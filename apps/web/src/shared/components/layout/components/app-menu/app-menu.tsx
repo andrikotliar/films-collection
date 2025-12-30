@@ -29,7 +29,7 @@ export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {
       })}
       ref={containerRef}
     >
-      <Menu config={mainMenu} isStandalone />
+      <Menu config={mainMenu} />
     </div>
   );
 };

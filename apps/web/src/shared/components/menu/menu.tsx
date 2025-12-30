@@ -5,14 +5,9 @@ import clsx from 'clsx';
 
 type MenuProps = {
   config: MenuConfigItem[];
-  isStandalone?: boolean;
 };
 
-export const Menu = ({
-  config,
-  className,
-  isStandalone = false,
-}: PropsWithClassName<MenuProps>) => {
+export const Menu = ({ config, className }: PropsWithClassName<MenuProps>) => {
   const location = useLocation();
 
   const checkActiveState = (currentLink: string) => {
@@ -27,7 +22,6 @@ export const Menu = ({
           to={configItem.route}
           className={clsx(styles.link, {
             [styles.active_link]: checkActiveState(configItem.route),
-            [styles.standaloneMenu]: isStandalone,
           })}
         >
           {configItem.icon} <span>{configItem.title}</span>

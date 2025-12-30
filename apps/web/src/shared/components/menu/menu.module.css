@@ -18,12 +18,12 @@
   background-color: var(--color-gray-light);
 }
 
+.link:last-child {
+  border-bottom: 0;
+}
+
 .active_link {
   color: var(--color-white);
   background-color: var(--color-blue-primary);
   pointer-events: none;
-}
-
-.standalone:last-child {
-  border-bottom: 0;
 }
