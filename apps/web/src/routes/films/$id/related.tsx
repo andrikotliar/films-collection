@@ -1,13 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { Chapters } from '~/routes/films/$id/-components';
-import { useFilm } from '~/routes/films/$id/-hooks';
+import { useSuspenseFilm } from '~/shared';
 
 export const Route = createFileRoute('/films/$id/related')({
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  const { data: film } = useFilm();
+  const params = Route.useParams();
+  const { data: film } = useSuspenseFilm(+params.id);
 
   if (!film.chapters) {
     return <div>Film doesn't have related titles</div>;

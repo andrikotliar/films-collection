@@ -1,9 +1,10 @@
 import styles from './search-menu-content.module.css';
-import { type FilmSearchResult } from '~/shared';
 import { FoundFilm } from '../found-film/found-film';
+import type { ApiResponse } from '~/shared/types';
+import type { api } from '~/shared/services';
 
 type SearchMenuContentProps = {
-  films: FilmSearchResult[];
+  films: ApiResponse<typeof api.films.search.list>;
   onFilmOpen: VoidFunction;
 };
 

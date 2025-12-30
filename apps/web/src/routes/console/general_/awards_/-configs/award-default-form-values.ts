@@ -1,8 +1,7 @@
-import { NEW_ITEM_ID, type AwardMutationPayload } from '~/shared';
+import { getEmptyFormValues } from '~/shared';
 
-export const awardDefaultFormValues: AwardMutationPayload = {
-  id: NEW_ITEM_ID,
+export const awardDefaultFormValues = getEmptyFormValues({
   title: '',
   description: null,
   nominations: [],
-};
+});

@@ -24,7 +24,7 @@ export const ConsoleHeader = ({ onMenuOpen, isMenuOpen, buttonRef }: ConsoleHead
         />
       </button>
       <div className={styles.console_header_title}>Films Collection Console</div>
-      <button className={styles.logout_button} onClick={() => mutate()}>
+      <button className={styles.logout_button} onClick={() => mutate({})}>
         <LogOutIcon size={18} />
       </button>
     </div>

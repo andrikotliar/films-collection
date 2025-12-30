@@ -1,14 +1,8 @@
-import styles from "./sidebar.module.css";
+import styles from './sidebar.module.css';
 import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { useSuspenseQuery } from '@tanstack/react-query';
-import {
-  fetchInitialDataQuery,
-  MOBILE_VIEW_BREAKPOINT_PX,
-  getFiltersConfig,
-  Loader,
-} from '~/shared';
+import { MOBILE_VIEW_BREAKPOINT_PX, getFiltersConfig, Loader, useInitialData } from '~/shared';
 import { Filters } from '../filters/filters';
 
 export const Sidebar = () => {
@@ -25,7 +19,7 @@ export const Sidebar = () => {
     setIsFilterOpen((isOpen) => !isOpen);
   };
 
-  const { data, isLoading } = useSuspenseQuery(fetchInitialDataQuery());
+  const { data, isLoading } = useInitialData();
 
   const filtersConfig = useMemo(() => {
     if (!data) {

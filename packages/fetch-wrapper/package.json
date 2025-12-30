@@ -1,0 +1,20 @@
+{
+  "name": "@films-collection/fetch-wrapper",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@films-collection/eslint-config": "workspace:^"
+  },
+  "packageManager": "pnpm@10.17.0"
+}

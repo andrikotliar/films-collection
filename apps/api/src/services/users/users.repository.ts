@@ -1,4 +1,4 @@
-import { User } from '@prisma/client';
+import type { User } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
 
 export class UsersRepository {

@@ -1,38 +1,27 @@
 import { useState } from 'react';
-import * as yup from 'yup';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {
-  fetchPendingFilmsListQuery,
-  NEW_ITEM_ID,
-  PENDING_FILMS_PER_PAGE,
+  getPendingFilmsListQuery,
   Pagination,
   useDeletePendingFilm,
-  type PendingFilm,
-  type PendingFilmQueryFilters,
-  type PendingFilmMutationPayload,
+  useSuspensePendingFilmsList,
 } from '~/shared';
 import { Filters, PendingFilmForm } from './-components';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { defaultPendingFilm } from '~/routes/console/pending-films/-configs';
-
-const pendingFilmsFilterSchema = yup.object().shape({
-  q: yup.string(),
-  priority: yup.number().min(1).max(3),
-  pageIndex: yup.number().min(0),
-  orderKey: yup.string(),
-  order: yup.string().oneOf(['asc', 'desc']),
-});
+import { GetPendingFilmsListQuerySchema, NEW_ITEM_ID, PAGE_LIMITS } from '@films-collection/shared';
+import type z from 'zod';
+import type { PendingFilmFormSchema } from '~/routes/console/pending-films/-schemas';
 
 export const Route = createFileRoute('/console/pending-films')({
-  validateSearch: (search): PendingFilmQueryFilters => {
-    return pendingFilmsFilterSchema.validateSync(search);
+  validateSearch: (search) => {
+    return GetPendingFilmsListQuerySchema.parse(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(fetchPendingFilmsListQuery(deps.search));
+    return context.queryClient.ensureQueryData(getPendingFilmsListQuery(deps.search));
   },
   component: PageContainer,
 });
@@ -41,9 +30,11 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
 
-  const { data } = useSuspenseQuery(fetchPendingFilmsListQuery(searchParams));
+  const { data } = useSuspensePendingFilmsList(searchParams);
 
-  const [pendingFilm, setPendingFilm] = useState<PendingFilmMutationPayload | null>(null);
+  const [pendingFilm, setPendingFilm] = useState<z.infer<typeof PendingFilmFormSchema> | null>(
+    null,
+  );
 
   const { mutateAsync, isPending } = useDeletePendingFilm();
 
@@ -56,7 +47,7 @@ function PageContainer() {
     });
   };
 
-  const handleCreate = (data: PendingFilm) => {
+  const handleCreate = (data: { id: number }) => {
     navigate({
       to: '/console/films/$id',
       params: { id: NEW_ITEM_ID },
@@ -77,18 +68,13 @@ function PageContainer() {
         onDelete={mutateAsync}
         isDeletingInProgress={isPending}
         onCreate={handleCreate}
-        onEdit={(data) =>
-          setPendingFilm({
-            ...data,
-            priority: data.priority.toString(),
-          })
-        }
+        onEdit={(data) => setPendingFilm(data)}
       />
       <Pagination
         currentPageIndex={searchParams.pageIndex}
         total={data.total}
         onPageChange={handlePageChange}
-        perPageCounter={PENDING_FILMS_PER_PAGE}
+        perPageCounter={PAGE_LIMITS.default}
         totalLabel="films"
       />
       <FormModal

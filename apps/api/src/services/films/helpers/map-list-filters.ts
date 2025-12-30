@@ -1,5 +1,5 @@
 import type { Prisma } from '@prisma/client';
-import type { GetFilmsListQuery } from '../schemas';
+import type { GetFilmsListQuery } from '@films-collection/shared';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 

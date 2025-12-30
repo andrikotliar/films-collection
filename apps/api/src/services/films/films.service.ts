@@ -1,11 +1,13 @@
-import { convertEnumValueToLabel, type Deps } from '~/shared';
+import { type Deps } from '~/shared';
 import type { FilmsRepository } from './films.repository';
-import type {
-  GetFilmRelatedChaptersQuery,
-  GetAdminListQuery,
-  GetFilmsListQuery,
-  FilmOptionsQueries,
-} from './schemas';
+import {
+  type GetAdminListQuery,
+  type GetFilmsListQuery,
+  type GetFilmOptionsQuery,
+  PAGE_LIMITS,
+  getSkipValue,
+  convertEnumValueToLabel,
+} from '@films-collection/shared';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
 import type { AwardsService } from '~/services/awards/awards.service';
@@ -27,11 +29,15 @@ export class FilmsService {
   }
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
-    const { limit, skip } = queries;
+    const { pageIndex } = queries;
 
     const parsedFilters = mapListFilters(queries);
 
-    const data = await this.filmsRepository.findAndCount(parsedFilters, limit, skip);
+    const data = await this.filmsRepository.findAndCount(
+      parsedFilters,
+      PAGE_LIMITS.filmsList,
+      getSkipValue('filmsList', pageIndex),
+    );
 
     const additionalInfo = await this.populateAdditionalData(queries);
 
@@ -45,16 +51,11 @@ export class FilmsService {
       return null;
     }
 
-    const mappedFilm = mapFilmDetails(film);
+    const chapters = film.chapterKey
+      ? await this.filmsRepository.findChapters(film.chapterKey)
+      : null;
 
-    if (film.chapterKey) {
-      const chapters = await this.filmsRepository.findChapters(film.chapterKey);
-
-      return {
-        ...mappedFilm,
-        chapters,
-      };
-    }
+    const mappedFilm = mapFilmDetails(film, chapters);
 
     return mappedFilm;
   }
@@ -67,28 +68,37 @@ export class FilmsService {
     }
 
     return {
-      data: true,
+      id: data.id,
+      title: data.title,
     };
   }
 
-  searchFilm(searchString: string) {
-    return this.filmsRepository.searchByTitle(searchString);
+  async searchFilm(searchString?: string | null) {
+    if (!searchString) {
+      return [];
+    }
+    const films = await this.filmsRepository.searchByTitle(searchString);
+
+    return films.map((film) => ({
+      ...film,
+      genres: film.genres.map((g) => g.genre),
+    }));
   }
 
   getAdminList(query: GetAdminListQuery) {
-    const { skip = 0, order = 'desc', orderKey = 'createdAt' } = query;
+    const { pageIndex = 0, order = 'desc', orderKey = 'createdAt' } = query;
 
     const filters = mapAdminListFilters(query);
+    const skip = getSkipValue('default', pageIndex);
 
     return this.filmsRepository.findAndCountAdmin(filters, {
       skip,
-      limit: 32,
       orderBy: { [orderKey]: order },
     });
   }
 
-  getRelatedChapters(query: GetFilmRelatedChaptersQuery) {
-    return this.filmsRepository.findChapters(query.key, query.filmId);
+  getRelatedChapters(chapterKey: string) {
+    return this.filmsRepository.findChapters(chapterKey);
   }
 
   getFilmsTotal() {
@@ -106,7 +116,7 @@ export class FilmsService {
       }
 
       return {
-        type: 'crew',
+        type: 'crew' as const,
         data: {
           role: convertEnumValueToLabel(personRole),
           name: crewMember.name,
@@ -122,20 +132,20 @@ export class FilmsService {
       }
 
       return {
-        type: 'collection',
+        type: 'collection' as const,
         data: collection,
       };
     }
 
     if (awardId) {
-      const award = await this.awardsService.getAwardById(awardId);
+      const award = await this.awardsService.getBaseAwardData(awardId);
 
       if (!award) {
         return null;
       }
 
       return {
-        type: 'award',
+        type: 'award' as const,
         data: award,
       };
     }
@@ -143,7 +153,7 @@ export class FilmsService {
     return null;
   }
 
-  async getFilmOptions(queries: FilmOptionsQueries) {
+  async getFilmOptions(queries: GetFilmOptionsQuery) {
     const films = await this.filmsRepository.getFilmsListByQuery(queries);
 
     return films.map((film) => ({

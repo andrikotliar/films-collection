@@ -1,6 +1,6 @@
 import styles from './summary-section.module.css';
 import { useMemo } from 'react';
-import { type FilmDetails, defineCssProperties, env } from '~/shared';
+import { defineCssProperties, env, type api, type ApiResponse } from '~/shared';
 import {
   Poster,
   SummaryBlock,
@@ -10,7 +10,7 @@ import {
 import { getFilmSummaryConfig } from '~/routes/films/$id/-helpers';
 
 type SummarySectionProps = {
-  film: FilmDetails;
+  film: ApiResponse<typeof api.films.get>;
 };
 
 export const SummarySection = ({ film }: SummarySectionProps) => {

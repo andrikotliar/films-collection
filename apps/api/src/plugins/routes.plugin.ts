@@ -1,10 +1,12 @@
 import type { FastifyInstance } from 'fastify';
-import { createRouter } from '~/shared';
-import { routes } from '~/routes';
+import { initRouters } from '~/shared';
+import { routers } from '~/routers';
+import { convertCamelCaseToKebabCase } from '@films-collection/shared';
 
 export const RoutesPlugin = async (app: FastifyInstance) => {
-  for (const config of routes) {
-    app.register(createRouter(config.routes), { prefix: `/${config.prefix}` });
-    app.log.info(`[Registered Route]: /api/${config.prefix}`);
+  for (const [key, routes] of Object.entries(routers)) {
+    const prefix = convertCamelCaseToKebabCase(key);
+    app.register(initRouters(routes), { prefix: `/${prefix}` });
+    app.log.info(`[Registered Route]: /api/${prefix}`);
   }
 };

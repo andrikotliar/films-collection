@@ -1,7 +1,14 @@
-import { CreatePersonInput, GetListQueries, SearchPersonQuery, UpdatePersonInput } from './schemas';
-import { PeopleRepository } from './people.repository';
-import { DEFAULT_PAGINATION_LIMIT, NotFoundException, type Deps } from '~/shared';
-import { Prisma } from '@prisma/client';
+import type { PeopleRepository } from './people.repository';
+import { NotFoundException, type Deps } from '~/shared';
+import type { Prisma } from '@prisma/client';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CreatePersonInput,
+  type GetPeopleListQuery,
+  type SearchPersonQuery,
+  type UpdatePersonInput,
+} from '@films-collection/shared';
 
 export class PeopleService {
   private readonly peopleRepository: PeopleRepository;
@@ -10,12 +17,12 @@ export class PeopleService {
     this.peopleRepository = deps.peopleRepository;
   }
 
-  async getList(queries: GetListQueries) {
+  async getList(queries: GetPeopleListQuery) {
     const filters: Prisma.PersonWhereInput = {};
     const options: Prisma.PersonFindManyArgs = {
       where: filters,
-      take: DEFAULT_PAGINATION_LIMIT,
-      skip: queries.skip,
+      take: PAGE_LIMITS.default,
+      skip: getSkipValue('default', queries.pageIndex),
     };
 
     if (queries.q) {

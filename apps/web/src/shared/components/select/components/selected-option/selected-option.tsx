@@ -1,7 +1,7 @@
-import { type ListOption } from '~/shared';
 import styles from './selected-option.module.css';
 import { Button } from '~/shared/components/button/button';
 import { XIcon } from 'lucide-react';
+import type { ListOption } from '@films-collection/shared';
 
 type SelectedOptionProps = {
   onRemove: (value: ListOption<any>['value']) => void;

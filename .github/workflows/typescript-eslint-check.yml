@@ -3,6 +3,22 @@ name: PR — TypeScript & ESLint checks
 on:
   pull_request:
 
+env:
+  NODE_ENV: development
+  SERVER_PORT: 5000
+  SERVER_HOST: localhost
+  POSTGRES_USER: ts-check
+  POSTGRES_PASSWORD: ts-check
+  POSTGRES_DB: ts-check
+  POSTGRES_HOST: ts-check
+  POSTGRES_PORT: ts-check
+  DATABASE_URL: ts-check
+  AUTH_SECRET: ts-check
+  COOKIE_SECRET: ts-check
+  CLOUDINARY_CLOUD_NAME: ts-check
+  CLOUDINARY_API_KEY: ts-check
+  CLOUDINARY_API_SECRET: ts-check
+
 jobs:
   checks:
     name: TypeScript and ESLint
@@ -27,6 +43,21 @@ jobs:
 
       - name: Generate database client
         run: pnpm run db:client:generate
+
+      - name: ESLint check - packages/shared
+        run: pnpm --filter ./packages/shared lint
+
+      - name: TypeScript check — packages/shared
+        run: pnpm -w exec tsc --project packages/shared/tsconfig.json --noEmit
+
+      - name: Build shared
+        run: pnpm --filter ./packages/shared build
+
+      - name: Build fetch wrapper
+        run: pnpm --filter ./packages/fetch-wrapper build
+
+      - name: Generate api client
+        run: pnpm run api:generate
 
       - name: TypeScript check — apps/api
         run: pnpm -w exec tsc --project apps/api/tsconfig.json --noEmit

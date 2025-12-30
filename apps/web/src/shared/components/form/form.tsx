@@ -1,8 +1,8 @@
-import styles from "./form.module.css";
+import styles from './form.module.css';
 import type { PropsWithChildren, ReactNode } from 'react';
 import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
-import type { ObjectSchema } from 'yup';
-import { yupResolver } from '@hookform/resolvers/yup';
+import type z from 'zod';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from '~/shared/components/button/button';
 import { SaveIcon } from 'lucide-react';
 import {
@@ -30,7 +30,7 @@ import {
 
 type FormProps<
   TDefaultValues extends Record<PropertyKey, unknown>,
-  TSchema extends ObjectSchema<any>,
+  TSchema extends z.ZodType,
 > = PropsWithChildren<{
   onSubmit: (data: TDefaultValues) => Promise<unknown>;
   defaultValues?: DefaultValues<TDefaultValues>;
@@ -45,7 +45,7 @@ type FormProps<
 
 export const Form = <
   TDefaultValues extends Record<PropertyKey, unknown>,
-  TSchema extends ObjectSchema<any>,
+  TSchema extends z.ZodType,
 >({
   children,
   onSubmit,
@@ -60,7 +60,7 @@ export const Form = <
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
     defaultValues,
-    resolver: yupResolver(schema),
+    resolver: zodResolver(schema),
   });
 
   return (

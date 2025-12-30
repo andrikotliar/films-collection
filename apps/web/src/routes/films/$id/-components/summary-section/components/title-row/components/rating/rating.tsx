@@ -15,7 +15,7 @@ export const Rating = ({ value }: RatingProps) => {
   return (
     <Link
       to="/"
-      search={{ rating: String(value) }}
+      search={{ rating: value }}
       className={clsx(styles.rating, {
         [styles.highest_rating]: isHighestRating,
       })}

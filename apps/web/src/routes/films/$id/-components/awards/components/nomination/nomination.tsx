@@ -1,10 +1,10 @@
 import styles from './nomination.module.css';
-import { type Person, RouterLink } from '~/shared';
+import { RouterLink, type api, type ApiResponse } from '~/shared';
 
 type NominationProps = {
   title: string;
   comment: string | null;
-  nominee: Person | null;
+  nominee: ApiResponse<typeof api.films.get>['awards'][number]['nominations'][number]['person'];
 };
 
 export const Nomination = ({ title, comment, nominee }: NominationProps) => {
@@ -13,11 +13,7 @@ export const Nomination = ({ title, comment, nominee }: NominationProps) => {
       <div>
         <div>{title}</div>
         {nominee && (
-          <RouterLink
-            to="/"
-            search={{ actorId: String(nominee.id) }}
-            className={styles.nominee_link}
-          >
+          <RouterLink to="/" search={{ personId: nominee.id }} className={styles.nominee_link}>
             {nominee.name}
           </RouterLink>
         )}

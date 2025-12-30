@@ -1,5 +1,5 @@
-import { Prisma } from '@prisma/client';
-import { AwardInput } from './schemas';
+import type { Prisma } from '@prisma/client';
+import type { CreateAwardInput, UpdateAwardInput } from '@films-collection/shared';
 import { BaseRepository, type DatabaseClient, type Deps } from '~/shared';
 
 export class AwardsRepository extends BaseRepository {
@@ -29,6 +29,19 @@ export class AwardsRepository extends BaseRepository {
       select,
       where: {
         id,
+      },
+    });
+  }
+
+  getBaseData(awardId: number) {
+    return this.databaseClient.award.findUnique({
+      where: {
+        id: awardId,
+      },
+      select: {
+        id: true,
+        title: true,
+        description: true,
       },
     });
   }
@@ -70,7 +83,7 @@ export class AwardsRepository extends BaseRepository {
     });
   }
 
-  createAward({ nominations, ...award }: AwardInput) {
+  createAward({ nominations, ...award }: CreateAwardInput) {
     const data: Prisma.AwardCreateInput = { ...award };
 
     if (nominations.length) {
@@ -89,7 +102,7 @@ export class AwardsRepository extends BaseRepository {
     });
   }
 
-  updateAward(id: number, input: Omit<AwardInput, 'nominations'>) {
+  updateAward(id: number, input: Omit<UpdateAwardInput, 'nominations'>) {
     return this.databaseClient.award.update({
       where: {
         id,

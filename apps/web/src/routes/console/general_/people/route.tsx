@@ -1,9 +1,8 @@
 import {
+  getPeopleAdminListQueryOptions,
   Pagination,
-  PEOPLE_ADMIN_PER_PAGE,
-  fetchAdminPeopleListQuery,
   useDeletePerson,
-  type PersonMutationPayload,
+  useSuspensePeopleAdminList,
 } from '~/shared';
 import {
   List,
@@ -11,29 +10,24 @@ import {
   PersonForm,
   AddItemButton,
   ConsoleContentLayout,
+  type PersonFormSchema,
 } from '~/routes/console/-shared';
 import { Filters } from '~/routes/console/general_/people/-components';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
-import * as yup from 'yup';
 import { personDefaultValues } from '~/routes/console/-shared/components/person-form/configs';
-
-const peopleListFiltersSchema = yup.object({
-  page: yup.number(),
-  q: yup.string().nullable(),
-  role: yup.string().nullable(),
-});
+import { GetPeopleListQuerySchema, PAGE_LIMITS } from '@films-collection/shared';
+import type z from 'zod';
 
 export const Route = createFileRoute('/console/general_/people')({
   validateSearch: (search) => {
-    return peopleListFiltersSchema.validateSync(search);
+    return GetPeopleListQuerySchema.parse(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: async ({ context: { queryClient }, deps: { search } }) => {
-    await queryClient.ensureQueryData(fetchAdminPeopleListQuery(search));
+    return await queryClient.ensureQueryData(getPeopleAdminListQueryOptions(search));
   },
   component: RouteComponent,
 });
@@ -42,9 +36,9 @@ function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
 
-  const { data } = useSuspenseQuery(fetchAdminPeopleListQuery(search));
+  const { data: people } = useSuspensePeopleAdminList(search);
 
-  const [person, setPerson] = useState<PersonMutationPayload | null>(null);
+  const [person, setPerson] = useState<z.infer<typeof PersonFormSchema> | null>(null);
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
@@ -68,16 +62,16 @@ function RouteComponent() {
       </AddItemButton>
       <Filters />
       <List
-        items={data.list}
+        items={people.list}
         titleKey="name"
         onDelete={deletePerson}
         onEdit={setPerson}
         isDeletingInProgress={isDeleting}
       />
       <Pagination
-        total={data.total}
-        currentPageIndex={search.page}
-        perPageCounter={PEOPLE_ADMIN_PER_PAGE}
+        total={people.total}
+        currentPageIndex={search.pageIndex}
+        perPageCounter={PAGE_LIMITS.default}
         onPageChange={handleChangePage}
         totalLabel="people"
       />

@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { Form, fetchInitialDataQuery, type PersonMutationPayload } from '~/shared';
+import { Form, useSuspenseInitialData, type api, type FormValues, type Input } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { useSuspenseQuery } from '@tanstack/react-query';
-import { filmFormSchema } from '~/routes/console/films_/-validation';
+import { FilmFormSchema } from '~/routes/console/films_/-schemas';
 import { FormModal, PersonForm } from '~/routes/console/-shared';
 import {
   AwardsSelect,
@@ -16,8 +15,8 @@ type FilmFormProps = {
 };
 
 export const FilmForm = ({ values }: FilmFormProps) => {
-  const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
-  const [person, setPerson] = useState<PersonMutationPayload | null>(null);
+  const { data: initialOptions } = useSuspenseInitialData();
+  const [person, setPerson] = useState<FormValues<Input<typeof api.people.create>> | null>(null);
 
   const handleSubmit = async (_data: FilmFormValues) => {
     // eslint-disable-next-line
@@ -29,7 +28,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       <Form
         onSubmit={handleSubmit}
         defaultValues={values}
-        schema={filmFormSchema}
+        schema={FilmFormSchema}
         onReset={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         shouldShowResetButton
       >

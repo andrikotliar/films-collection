@@ -1,16 +1,25 @@
 import { isNewItem } from '~/shared/helpers/is-new-item';
-import type { UnknownEntity, FormValues, ApiContainer } from '~/shared/types';
+import type { Input, FormValues } from '~/shared/types';
 
-export const mutateEntity = async <
-  TApiContainer extends ApiContainer,
-  TPayload extends FormValues<UnknownEntity>,
+export const mutateEntity = <
+  TCreateFunction extends (args: { input: any }) => Promise<unknown>,
+  TUpdateFunction extends (args: { input: any; params: { id: number } }) => Promise<unknown>,
 >(
-  apiContainer: TApiContainer,
-  { id, ...args }: TPayload,
+  createFn: TCreateFunction,
+  updateFn: TUpdateFunction,
 ) => {
-  if (isNewItem(id)) {
-    return apiContainer.create(args);
-  }
+  return ({ id, ...input }: FormValues<Input<TCreateFunction>>) => {
+    if (isNewItem(id)) {
+      return createFn({
+        input,
+      });
+    }
 
-  return apiContainer.update(id, args);
+    return updateFn({
+      params: {
+        id,
+      },
+      input,
+    });
+  };
 };

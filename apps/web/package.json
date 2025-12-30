@@ -13,6 +13,8 @@
     "@dnd-kit/sortable": "^10.0.0",
     "@dnd-kit/utilities": "^3.2.2",
     "@films-collection/eslint-config": "workspace:^",
+    "@films-collection/fetch-wrapper": "workspace:^",
+    "@films-collection/shared": "workspace:^",
     "@hookform/resolvers": "^3.9.1",
     "@tanstack/react-query": "^5.56.2",
     "@tanstack/react-router": "^1.85.0",
@@ -25,7 +27,7 @@
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.4",
     "sanitize-html": "^2.15.0",
-    "yup": "^1.4.0"
+    "zod": "4.1.11"
   },
   "devDependencies": {
     "@tanstack/router-plugin": "^1.84.4",

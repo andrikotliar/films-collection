@@ -9,4 +9,5 @@ export default createConfig({
       tsconfigRootDir: import.meta.dirname,
     },
   },
+  ignores: ['node_modules'],
 });

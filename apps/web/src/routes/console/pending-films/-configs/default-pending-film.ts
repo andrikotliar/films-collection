@@ -1,9 +1,8 @@
-import { NEW_ITEM_ID, type PendingFilmMutationPayload } from '~/shared';
+import { getEmptyFormValues } from '~/shared';
 
-export const defaultPendingFilm: PendingFilmMutationPayload = {
-  id: NEW_ITEM_ID,
+export const defaultPendingFilm = getEmptyFormValues({
   title: '',
-  priority: '1',
+  priority: 1,
   collectionId: null,
   rating: null,
-};
+});

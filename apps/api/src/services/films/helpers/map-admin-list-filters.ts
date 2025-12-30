@@ -1,5 +1,5 @@
 import type { Prisma } from '@prisma/client';
-import type { GetAdminListQuery } from '../schemas';
+import type { GetAdminListQuery } from '@films-collection/shared';
 
 export const mapAdminListFilters = (plainFilters: GetAdminListQuery) => {
   const filters: Prisma.FilmWhereInput = {

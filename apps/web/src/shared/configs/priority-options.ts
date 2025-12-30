@@ -1,6 +1,6 @@
-import { Priority } from '../enums';
-import { type ListOption } from '../types';
-import { priorityToColor } from './priority-to-color';
+import type { ListOption } from '@films-collection/shared';
+import { priorityToColor } from '~/shared/configs/priority-to-color';
+import { Priority } from '~/shared/enums';
 
 export const priorityOptions: ListOption<number>[] = [
   {

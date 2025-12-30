@@ -1,4 +1,5 @@
-import { type TitleStyle, type TitleType, type MixedId } from '~/shared';
+import type { Enum, TitleStyle, TitleType } from '@films-collection/shared';
+import { type MixedId } from '~/shared';
 
 export type FormTrailer = {
   videoId: string;
@@ -22,8 +23,8 @@ export type FormAward = {
 export type FilmFormValues = {
   id: MixedId;
   title: string | null;
-  type: TitleType;
-  style: TitleStyle;
+  type: Enum<typeof TitleType>;
+  style: Enum<typeof TitleStyle>;
   poster: string | File | null;
   rating: number;
   isDraft: boolean;

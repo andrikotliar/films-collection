@@ -1,6 +1,6 @@
-import styles from "./select.module.css";
+import styles from './select.module.css';
 import { type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { type FormError, type ListOption, useDebouncedSearch } from '~/shared';
+import { type FormError, useDebouncedSearch } from '~/shared';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { PopupMenu } from '~/shared/components/popup-menu/popup-menu';
 import { FieldError } from '~/shared/components/field-error/field-error';
@@ -14,6 +14,7 @@ import {
   TriggerButton,
 } from './components';
 import { getSelectValue } from './helpers';
+import type { ListOption } from '@films-collection/shared';
 
 export type SelectProps = {
   label?: string;

@@ -1,27 +1,27 @@
-import type { WatchCounter } from '~/shared';
 import { EyeIcon } from 'lucide-react';
 import styles from './watch-counter-badge.module.css';
 
 type WatchCounterBadgeProps = {
-  counters: WatchCounter;
+  realCounter: number;
+  approxCounter: number;
 };
 
-export const WatchCounterBadge = ({ counters }: WatchCounterBadgeProps) => {
+export const WatchCounterBadge = ({ realCounter, approxCounter }: WatchCounterBadgeProps) => {
   return (
     <div
-      title={`Accurate watch counter: ${counters.realCounter}. ${
-        counters.approxCounter > 0 && `Approximate watch counter: >${counters.approxCounter}`
+      title={`Accurate watch counter: ${realCounter}. ${
+        approxCounter > 0 && `Approximate watch counter: >${approxCounter}`
       }`}
       className={styles.watch_counter_badge}
     >
       <EyeIcon />
-      {counters.realCounter > 0 && (
+      {realCounter > 0 && (
         <div className={styles.counters}>
-          <span>{counters.realCounter}</span>
-          {counters.approxCounter > 0 && (
+          <span>{realCounter}</span>
+          {approxCounter > 0 && (
             <span>
               ({'>'}
-              {counters.approxCounter})
+              {approxCounter})
             </span>
           )}
         </div>

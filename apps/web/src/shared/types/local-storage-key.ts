@@ -1,4 +1,4 @@
-import { type NEW_ITEM_ID } from '../constants';
+import type { NEW_ITEM_ID } from '@films-collection/shared';
 
 type StorageFilmsValue = typeof NEW_ITEM_ID | number | string;
 

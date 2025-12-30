@@ -1,5 +1,5 @@
-import { NEW_ITEM_ID } from '~/shared';
-import { type FilmFormValues } from '../-types';
+import { NEW_ITEM_ID } from '@films-collection/shared';
+import type { FilmFormValues } from '~/routes/console/films_/-types';
 
 export const filmDefaultFormValues: FilmFormValues = {
   id: NEW_ITEM_ID,

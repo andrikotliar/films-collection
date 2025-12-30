@@ -10,6 +10,7 @@ const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       refetchOnWindowFocus: false,
+      retry: false,
     },
   },
   mutationCache: new MutationCache({
@@ -19,19 +20,8 @@ const queryClient = new QueryClient({
       }
 
       if (mutation.meta?.invalidateQueries) {
-        const queriesList = mutation.meta.invalidateQueries;
-
-        if (typeof queriesList === 'string') {
-          queryClient.invalidateQueries({
-            queryKey: [mutation.meta.invalidateQueries],
-          });
-          return;
-        }
-
-        for (const queryKeys of queriesList) {
-          queryClient.invalidateQueries({
-            queryKey: [queryKeys],
-          });
+        for (const keys of mutation.meta.invalidateQueries) {
+          queryClient.invalidateQueries({ queryKey: keys.filter(Boolean) });
         }
       }
     },
@@ -66,7 +56,7 @@ declare module '@tanstack/react-router' {
 declare module '@tanstack/react-query' {
   interface Register {
     mutationMeta: {
-      invalidateQueries?: string | (string | string[])[];
+      invalidateQueries?: Array<readonly unknown[]>;
       successMessage?: string;
       skipErrorToast?: boolean;
     };

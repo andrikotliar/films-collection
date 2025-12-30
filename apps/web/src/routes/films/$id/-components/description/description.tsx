@@ -1,6 +1,6 @@
+import { ALLOWED_HTML_TAGS } from '@films-collection/shared';
 import styles from './description.module.css';
 import sanitizeHtml from 'sanitize-html';
-import { ALLOWED_HTML_TAGS } from '~/shared';
 
 type DescriptionProps = {
   rawHtml: string;

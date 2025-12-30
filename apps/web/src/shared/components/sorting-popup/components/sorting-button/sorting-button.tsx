@@ -2,7 +2,7 @@ import { ArrowDownAZIcon, ArrowUpAZIcon } from 'lucide-react';
 import { forwardRef, type PropsWithChildren } from 'react';
 import styles from './sorting-button.module.css';
 import clsx from 'clsx';
-import { type SortingOrder } from '~/shared';
+import type { SortingOrder } from '@films-collection/shared';
 
 type SortingButtonProps = {
   onClick: VoidFunction;

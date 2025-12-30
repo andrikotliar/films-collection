@@ -1,5 +1,5 @@
 import { Prisma } from '@prisma/client';
-import { FastifyInstance } from 'fastify';
+import type { FastifyInstance } from 'fastify';
 import { ResponseCode } from '../enums';
 
 type PrismaErrorResponse = {
@@ -7,9 +7,7 @@ type PrismaErrorResponse = {
   message: string;
 };
 
-const prismaErrorResponse = (
-  error: Prisma.PrismaClientKnownRequestError,
-): PrismaErrorResponse => {
+const prismaErrorResponse = (error: Prisma.PrismaClientKnownRequestError): PrismaErrorResponse => {
   switch (error.code) {
     case 'P2002':
       return {
@@ -34,11 +32,7 @@ const prismaErrorResponse = (
   }
 };
 
-export const errorHandler: FastifyInstance['errorHandler'] = (
-  error,
-  request,
-  reply,
-) => {
+export const errorHandler: FastifyInstance['errorHandler'] = (error, request, reply) => {
   request.log.error(error);
 
   if (error instanceof Prisma.PrismaClientKnownRequestError) {

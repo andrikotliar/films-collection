@@ -19,5 +19,6 @@ export default createConfig({
     ...reactHooks.configs.recommended.rules,
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'react-hooks/exhaustive-deps': 'off',
+    '@typescript-eslint/no-empty-object-type': 'off',
   },
 });

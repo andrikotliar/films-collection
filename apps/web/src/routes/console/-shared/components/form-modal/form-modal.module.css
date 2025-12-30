@@ -6,6 +6,8 @@
 .content {
   position: relative;
   max-width: 800px;
+  max-height: 90%;
+  overflow-y: auto;
 }
 
 .close_button {

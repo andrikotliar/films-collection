@@ -1,9 +1,11 @@
-import { DEFAULT_PAGINATION_LIMIT, type DatabaseClient, type Deps } from '~/shared';
+import type { DatabaseClient, Deps } from '~/shared';
 import {
-  CreatePageContentPayload,
-  GetListQueries,
-  UpdatePostPayload,
-} from '~/services/page-content/schemas';
+  getSkipValue,
+  PAGE_LIMITS,
+  type CreatePageContentInput,
+  type GetPageContentListQueries,
+  type UpdatePageContentInput,
+} from '@films-collection/shared';
 
 export class PageContentRepository {
   private readonly databaseClient: DatabaseClient;
@@ -26,7 +28,7 @@ export class PageContentRepository {
     });
   }
 
-  async getList({ skip }: GetListQueries) {
+  async getList({ pageIndex }: GetPageContentListQueries) {
     const list = await this.databaseClient.pageContent.findMany({
       select: {
         id: true,
@@ -34,8 +36,8 @@ export class PageContentRepository {
         content: true,
         pageKey: true,
       },
-      take: DEFAULT_PAGINATION_LIMIT,
-      skip,
+      take: PAGE_LIMITS.default,
+      skip: getSkipValue('default', pageIndex),
       orderBy: {
         updatedAt: 'desc',
       },
@@ -62,13 +64,13 @@ export class PageContentRepository {
     });
   }
 
-  createPageContent(input: CreatePageContentPayload) {
+  createPageContent(input: CreatePageContentInput) {
     return this.databaseClient.pageContent.create({
       data: input,
     });
   }
 
-  updatePageContent(id: number, input: UpdatePostPayload) {
+  updatePageContent(id: number, input: UpdatePageContentInput) {
     return this.databaseClient.pageContent.update({
       where: {
         id,

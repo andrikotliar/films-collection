@@ -1,6 +1,11 @@
-import { Prisma } from '@prisma/client';
-import { CreatePersonInput, SearchPersonQuery, UpdatePersonInput } from './schemas';
-import { DEFAULT_PAGINATION_LIMIT, type DatabaseClient, type Deps } from '~/shared';
+import type { Prisma } from '@prisma/client';
+import {
+  PAGE_LIMITS,
+  type CreatePersonInput,
+  type SearchPersonQuery,
+  type UpdatePersonInput,
+} from '@films-collection/shared';
+import { type DatabaseClient, type Deps } from '~/shared';
 
 export class PeopleRepository {
   private readonly databaseClient: DatabaseClient;
@@ -66,7 +71,7 @@ export class PeopleRepository {
         name: true,
       },
       where: whereClause,
-      take: DEFAULT_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
       orderBy: {
         name: 'asc',
       },

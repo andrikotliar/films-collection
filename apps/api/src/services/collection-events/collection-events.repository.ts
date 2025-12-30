@@ -1,13 +1,13 @@
 import { type Collection, type CollectionEvent, type Film } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
-import {
-  CreateCollectionEventPayload,
-  UpdateCollectionEventPayload,
-} from '~/services/collection-events/schemas';
+import type {
+  CreateCollectionEventInput,
+  UpdateCollectionEventInput,
+} from '@films-collection/shared';
 
 export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'collectionId'> & {
   collection: Pick<Collection, 'id' | 'title'>;
-  film: Pick<Film, 'poster'>;
+  film: Pick<Film, 'id' | 'poster'>;
   filmsCount: number;
 };
 
@@ -87,13 +87,13 @@ export class CollectionEventsRepository {
     });
   }
 
-  createEvent(data: CreateCollectionEventPayload) {
+  createEvent(data: CreateCollectionEventInput) {
     return this.databaseClient.collectionEvent.create({
       data,
     });
   }
 
-  updateEvent(id: number, data: UpdateCollectionEventPayload) {
+  updateEvent(id: number, data: UpdateCollectionEventInput) {
     return this.databaseClient.collectionEvent.update({
       data,
       where: {

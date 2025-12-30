@@ -1,20 +1,20 @@
-import {
-  type FormComponentProps,
-  Form,
-  useMutatePerson,
-  type PersonMutationPayload,
-} from '~/shared';
-import { personSchema } from '~/routes/console/-shared/components/person-form/validation';
+import { type FormComponentProps, Form, IdSchema, useMutatePerson } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
+import type z from 'zod';
+import { CreatePersonSchema } from '@films-collection/shared';
 
-export type PersonFormProps = FormComponentProps<PersonMutationPayload>;
+export const PersonFormSchema = CreatePersonSchema.extend({
+  id: IdSchema,
+});
+
+export type PersonFormProps = FormComponentProps<z.infer<typeof PersonFormSchema>>;
 
 export const PersonForm = ({ values, afterSubmitEffect }: PersonFormProps) => {
   const { mutateAsync, isPending } = useMutatePerson();
 
   const title = getFormTitle(values, 'Person', 'name');
 
-  const submit = async (data: PersonMutationPayload) => {
+  const submit = async (data: z.infer<typeof PersonFormSchema>) => {
     await mutateAsync(data);
     afterSubmitEffect();
   };
@@ -23,7 +23,7 @@ export const PersonForm = ({ values, afterSubmitEffect }: PersonFormProps) => {
     <Form
       onSubmit={submit}
       defaultValues={values}
-      schema={personSchema}
+      schema={PersonFormSchema}
       title={title}
       isLoading={isPending}
     >

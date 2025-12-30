@@ -1,7 +1,7 @@
-import { Select, TextInput, useDebouncedSearch, fetchInitialDataQuery } from '~/shared';
+import { Select, TextInput, useDebouncedSearch, useSuspenseInitialData } from '~/shared';
 import { getRouteApi } from '@tanstack/react-router';
-import styles from "./filters.module.css";
-import { useSuspenseQuery } from '@tanstack/react-query';
+import styles from './filters.module.css';
+import type { Enum, PersonRole } from '@films-collection/shared';
 
 const routeApi = getRouteApi('/console/general_/people');
 
@@ -9,7 +9,7 @@ export const Filters = () => {
   const navigate = routeApi.useNavigate();
   const search = routeApi.useSearch();
 
-  const { data } = useSuspenseQuery(fetchInitialDataQuery());
+  const { data } = useSuspenseInitialData();
 
   const handleSearch = useDebouncedSearch((value) => {
     navigate({
@@ -20,7 +20,7 @@ export const Filters = () => {
     });
   });
 
-  const handleSelectRole = (value: string) => {
+  const handleSelectRole = (value: Enum<typeof PersonRole>) => {
     navigate({
       search: (values) => ({
         ...values,

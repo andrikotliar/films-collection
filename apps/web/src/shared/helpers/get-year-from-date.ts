@@ -1,4 +1,8 @@
-export const getYearFromDate = (dateString?: string) => {
+export const getYearFromDate = (dateString?: string | Date) => {
+  if (dateString instanceof Date) {
+    return dateString.getFullYear();
+  }
+
   if (!dateString) {
     return 'N/A';
   }

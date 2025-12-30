@@ -13,7 +13,7 @@ export const FilterOptions = ({ filter }: FilterOptionsProps) => {
             <Form.Checkbox
               type={filter.inputType}
               label={option.label}
-              value={option.value}
+              value={option.value.toString()}
               name={filter.id}
               key={option.value}
             />

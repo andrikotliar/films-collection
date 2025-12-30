@@ -1,11 +1,6 @@
 import type { Film, Prisma } from '@prisma/client';
-import {
-  DEFAULT_PAGINATION_LIMIT,
-  DEFAULT_SEARCH_LIMIT,
-  type DatabaseClient,
-  type Deps,
-} from '~/shared';
-import type { FilmOptionsQueries } from '~/services/films/schemas';
+import type { DatabaseClient, Deps } from '~/shared';
+import { PAGE_LIMITS, type GetFilmOptionsQuery } from '@films-collection/shared';
 
 export class FilmsRepository {
   private readonly databaseClient: DatabaseClient;
@@ -55,6 +50,8 @@ export class FilmsRepository {
         rating: true,
         chapterKey: true,
         type: true,
+        draft: true,
+        chapterOrder: true,
         overview: {
           select: {
             text: true,
@@ -154,6 +151,7 @@ export class FilmsRepository {
         deletedAt: null,
       },
       select: {
+        id: true,
         title: true,
         type: true,
         style: true,
@@ -237,7 +235,7 @@ export class FilmsRepository {
         },
         deletedAt: null,
       },
-      take: DEFAULT_SEARCH_LIMIT,
+      take: PAGE_LIMITS.default,
     });
   }
 
@@ -251,17 +249,11 @@ export class FilmsRepository {
     >`SELECT id FROM films WHERE EXTRACT(MONTH FROM release_date) = ${month} AND EXTRACT(DAY FROM release_date) = ${date}`;
   }
 
-  findChapters(chapterKey: string, filmId?: number) {
+  findChapters(chapterKey: string) {
     const where: Prisma.FilmWhereInput = {
       chapterKey,
       deletedAt: null,
     };
-
-    if (filmId) {
-      where.id = {
-        not: filmId,
-      };
-    }
 
     return this.databaseClient.film.findMany({
       where,
@@ -280,7 +272,6 @@ export class FilmsRepository {
   async findAndCountAdmin(
     filters: Prisma.FilmWhereInput,
     options: {
-      limit: number;
       skip: number;
       orderBy: Prisma.FilmOrderByWithRelationInput;
     },
@@ -293,7 +284,7 @@ export class FilmsRepository {
         draft: true,
       },
       where: filters,
-      take: options.limit,
+      take: PAGE_LIMITS.default,
       skip: options.skip,
       orderBy: [options.orderBy, { id: 'asc' }],
     });
@@ -310,7 +301,7 @@ export class FilmsRepository {
     });
   }
 
-  async getFilmsListByQuery({ q, selected }: FilmOptionsQueries) {
+  async getFilmsListByQuery({ q, selected }: GetFilmOptionsQuery) {
     const whereOptions: Prisma.FilmWhereInput = {
       deletedAt: null,
     };
@@ -333,7 +324,7 @@ export class FilmsRepository {
         id: true,
         title: true,
       },
-      take: DEFAULT_PAGINATION_LIMIT,
+      take: PAGE_LIMITS.default,
       where: whereOptions,
       orderBy: {
         title: 'asc',

@@ -1,9 +1,10 @@
+import type { api, ApiResponse } from '~/shared';
 import styles from './cast-and-crew.module.css';
-import type { FilmPerson } from '~/shared';
+
 import { RoleItem } from '~/routes/films/$id/-components/cast-and-crew/components';
 
 type CastAndCrewProps = {
-  data: FilmPerson[];
+  data: ApiResponse<typeof api.films.get>['castAndCrew'];
 };
 
 export const CastAndCrew = ({ data }: CastAndCrewProps) => {

@@ -1,11 +1,13 @@
-import { Prisma } from '@prisma/client';
-import { PendingFilmsRepository } from './pending-films.repository';
+import type { Prisma } from '@prisma/client';
+import type { PendingFilmsRepository } from './pending-films.repository';
 import {
-  CreatePendingFilmInput,
-  GetPendingFilmsListQuery,
-  UpdatePendingFilmInput,
-} from './schemas';
-import { DEFAULT_PAGINATION_LIMIT, type Deps } from '~/shared';
+  getSkipValue,
+  PAGE_LIMITS,
+  type CreatePendingFilmInput,
+  type GetPendingFilmsListQuery,
+  type UpdatePendingFilmInput,
+} from '@films-collection/shared';
+import type { Deps } from '~/shared';
 
 export class PendingFilmsService {
   private readonly pendingFilmsRepository: PendingFilmsRepository;
@@ -60,8 +62,8 @@ export class PendingFilmsService {
     return {
       filters,
       options: {
-        take: DEFAULT_PAGINATION_LIMIT,
-        skip: queryFilters.skip ?? 0,
+        take: PAGE_LIMITS.default,
+        skip: getSkipValue('default', queryFilters.pageIndex),
         orderBy: {
           [sortingKey]: queryFilters.order ?? 'desc',
         },

@@ -1,6 +1,6 @@
 import { buildListOptions, type Deps } from '~/shared';
 import type { CountriesRepository } from './countries.repository';
-import type { ManageCountryInput } from './schemas';
+import type { CountryInput } from '@films-collection/shared';
 
 export class CountriesService {
   private readonly countriesRepository: CountriesRepository;
@@ -19,7 +19,7 @@ export class CountriesService {
     return this.countriesRepository.getAll();
   }
 
-  createCountry(input: ManageCountryInput) {
+  createCountry(input: CountryInput) {
     return this.countriesRepository.create(input);
   }
 
@@ -27,7 +27,7 @@ export class CountriesService {
     return this.countriesRepository.delete(id);
   }
 
-  updateCountry(id: number, input: ManageCountryInput) {
+  updateCountry(id: number, input: CountryInput) {
     return this.countriesRepository.update(id, input);
   }
 }

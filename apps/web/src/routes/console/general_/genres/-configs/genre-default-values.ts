@@ -1,6 +1,5 @@
-import { NEW_ITEM_ID, type GenreMutationPayload } from '~/shared';
+import { getEmptyFormValues } from '~/shared';
 
-export const genreDefaultValues: GenreMutationPayload = {
-  id: NEW_ITEM_ID,
+export const genreDefaultValues = getEmptyFormValues({
   title: '',
-};
+});

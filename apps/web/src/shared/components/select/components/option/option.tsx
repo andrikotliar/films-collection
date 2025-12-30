@@ -1,7 +1,7 @@
 import styles from './option.module.css';
 import { forwardRef } from 'react';
-import { type ListOption } from '~/shared';
 import clsx from 'clsx';
+import type { ListOption } from '@films-collection/shared';
 
 type OptionProps = {
   onSelect: (value: ListOption<any>['value'], isActive: boolean) => void;

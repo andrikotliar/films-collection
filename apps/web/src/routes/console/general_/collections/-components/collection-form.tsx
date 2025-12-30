@@ -1,22 +1,27 @@
 import {
-  fetchInitialDataQuery,
   type FormComponentProps,
   useMutateCollection,
-  type CollectionMutationPayload,
   Form,
+  type FormValues,
+  type Input,
+  type api,
+  useInitialData,
+  IdSchema,
 } from '~/shared';
-import { useQuery } from '@tanstack/react-query';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
-import { collectionSchema } from '~/routes/console/general_/collections/-validation';
+import { CreateCollectionInputSchema } from '@films-collection/shared';
+import type z from 'zod';
 
-type CollectionFormProps = FormComponentProps<CollectionMutationPayload>;
+export const CollectionFormSchema = CreateCollectionInputSchema.extend({ id: IdSchema });
+
+type CollectionFormProps = FormComponentProps<z.infer<typeof CollectionFormSchema>>;
 
 export const CollectionForm = ({ values, afterSubmitEffect }: CollectionFormProps) => {
-  const { data } = useQuery(fetchInitialDataQuery());
+  const { data } = useInitialData();
 
   const { mutateAsync, isPending } = useMutateCollection();
 
-  const submit = async (data: CollectionMutationPayload) => {
+  const submit = async (data: FormValues<Input<typeof api.collections.create>>) => {
     await mutateAsync(data);
     afterSubmitEffect();
   };
@@ -28,7 +33,7 @@ export const CollectionForm = ({ values, afterSubmitEffect }: CollectionFormProp
       onSubmit={submit}
       defaultValues={values}
       title={title}
-      schema={collectionSchema}
+      schema={CollectionFormSchema}
       isLoading={isPending}
     >
       <Form.TextInput type="text" name="title" label="Title" />

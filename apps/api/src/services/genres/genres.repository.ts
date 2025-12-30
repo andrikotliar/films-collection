@@ -1,5 +1,5 @@
 import type { DatabaseClient, Deps } from '~/shared';
-import { ManageGenreInput } from '~/services/genres/schemas';
+import type { GenreInput } from '@films-collection/shared';
 
 export class GenresRepository {
   private readonly databaseClient: DatabaseClient;
@@ -17,7 +17,7 @@ export class GenresRepository {
     });
   }
 
-  create(input: ManageGenreInput) {
+  create(input: GenreInput) {
     return this.databaseClient.genre.create({
       data: input,
     });
@@ -29,7 +29,7 @@ export class GenresRepository {
     });
   }
 
-  update(id: number, input: ManageGenreInput) {
+  update(id: number, input: GenreInput) {
     return this.databaseClient.genre.update({
       data: input,
       where: {

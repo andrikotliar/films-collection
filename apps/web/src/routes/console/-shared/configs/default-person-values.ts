@@ -1,6 +1,7 @@
-import { NEW_ITEM_ID, type PersonMutationPayload } from '~/shared';
+import { NEW_ITEM_ID } from '@films-collection/shared';
+import type { api, Input, FormValues } from '~/shared';
 
-export const defaultPersonValues: PersonMutationPayload = {
+export const defaultPersonValues: FormValues<Input<typeof api.people.create>> = {
   id: NEW_ITEM_ID,
   name: '',
 };

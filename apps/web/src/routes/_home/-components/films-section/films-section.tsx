@@ -1,10 +1,11 @@
 import styles from './films-section.module.css';
 import { FilmsNotFound, AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { PER_PAGE, type FilmsListResponse, Loader, Pagination } from '~/shared';
+import { Loader, Pagination, type api, type ApiResponse } from '~/shared';
+import { PAGE_LIMITS } from '@films-collection/shared';
 
 type FilmsSectionProps = {
-  data: FilmsListResponse;
+  data: ApiResponse<typeof api.films.list>;
   isLoading: boolean;
 };
 
@@ -55,7 +56,7 @@ export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
           total={data.total}
           onPageChange={handlePageNavigation}
           currentPageIndex={searchParams.pageIndex}
-          perPageCounter={PER_PAGE}
+          perPageCounter={PAGE_LIMITS.filmsList}
           totalLabel="films"
         />
       </div>

@@ -1,5 +1,5 @@
 import { hash } from 'bcrypt';
-import { User } from '@prisma/client';
+import type { User } from '@prisma/client';
 import { HASH_SALT_ROUNDS, type Deps } from '~/shared';
 import type { UsersRepository } from '~/services/users/users.repository';
 

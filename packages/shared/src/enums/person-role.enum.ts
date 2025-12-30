@@ -1,0 +1,9 @@
+export const PersonRole = {
+  DIRECTOR: 'DIRECTOR',
+  WRITER: 'WRITER',
+  PRODUCER: 'PRODUCER',
+  COMPOSER: 'COMPOSER',
+  CAMERAMAN: 'CAMERAMAN',
+  CREATOR: 'CREATOR',
+  ACTOR: 'ACTOR',
+} as const;

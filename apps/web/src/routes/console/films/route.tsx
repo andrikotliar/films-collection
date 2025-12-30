@@ -1,35 +1,24 @@
 import {
-  FILMS_ADMIN_LIST_PER_PAGE,
-  NEW_ITEM_ID,
-  fetchAdminListQuery,
-  type AdminFilmsQueryFilters,
-  type FilmsAdminListItem,
   useDeleteFilm,
   useDocumentTitle,
   Pagination,
+  getFilmsAdminListQueryOptions,
+  useSuspenseFilmsAdminList,
 } from '~/shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import * as yup from 'yup';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components';
-
-const adminFilmsFilterSchema = yup.object().shape({
-  q: yup.string().nullable(),
-  pageIndex: yup.number().min(0),
-  sortingField: yup.string(),
-  sortingDirection: yup.string().oneOf(['asc', 'desc']),
-});
+import { GetAdminListQuerySchema, NEW_ITEM_ID, PAGE_LIMITS } from '@films-collection/shared';
 
 export const Route = createFileRoute('/console/films')({
-  validateSearch: (search): AdminFilmsQueryFilters => {
-    return adminFilmsFilterSchema.validateSync(search);
+  validateSearch: (search) => {
+    return GetAdminListQuerySchema.parse(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(fetchAdminListQuery(deps.search));
+    return context.queryClient.ensureQueryData(getFilmsAdminListQueryOptions(deps.search));
   },
   component: PageContainer,
 });
@@ -37,7 +26,7 @@ export const Route = createFileRoute('/console/films')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+  const { data } = useSuspenseFilmsAdminList(searchParams);
 
   const { mutateAsync: handleDeleteFilm, isPending } = useDeleteFilm();
 
@@ -56,14 +45,14 @@ function PageContainer() {
     });
   };
 
-  const handleEditFilm = (data: FilmsAdminListItem) => {
+  const handleEditFilm = (data: { id: number }) => {
     navigate({
       to: '/console/films/$id',
       params: { id: data.id.toString() },
     });
   };
 
-  const handleViewFilm = (data: FilmsAdminListItem) => {
+  const handleViewFilm = (data: { id: number }) => {
     navigate({
       to: '/films/$id',
       params: { id: data.id.toString() },
@@ -85,7 +74,7 @@ function PageContainer() {
       />
       <Pagination
         total={data.total}
-        perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
+        perPageCounter={PAGE_LIMITS.default}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
         totalLabel="films"

@@ -1,6 +1,6 @@
 import { buildListOptions, type Deps } from '~/shared';
-import { StudiosRepository } from './studios.repository';
-import { ManageStudioInput } from './schemas';
+import type { StudiosRepository } from './studios.repository';
+import type { StudioInput } from '@films-collection/shared';
 
 export class StudiosService {
   private readonly studiosRepository: StudiosRepository;
@@ -19,7 +19,7 @@ export class StudiosService {
     return this.studiosRepository.getAll();
   }
 
-  createStudio(input: ManageStudioInput) {
+  createStudio(input: StudioInput) {
     return this.studiosRepository.create(input);
   }
 
@@ -27,7 +27,7 @@ export class StudiosService {
     return this.studiosRepository.delete(id);
   }
 
-  updateStudio(id: number, input: ManageStudioInput) {
+  updateStudio(id: number, input: StudioInput) {
     return this.studiosRepository.update(id, input);
   }
 }

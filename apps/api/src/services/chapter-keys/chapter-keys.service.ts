@@ -1,6 +1,6 @@
-import { ListOption, type Deps } from '~/shared';
-import { ChapterKeysRepository } from './chapter-keys.repository';
-import { CreateChapterKeyPayload } from '~/services/chapter-keys/schemas';
+import type { Deps } from '~/shared';
+import type { ChapterKeysRepository } from './chapter-keys.repository';
+import type { CreateChapterKeyInput, ListOption } from '@films-collection/shared';
 
 export class ChapterKeysService {
   private readonly chapterKeysRepository: ChapterKeysRepository;
@@ -18,7 +18,7 @@ export class ChapterKeysService {
     }));
   }
 
-  addKey({ key }: CreateChapterKeyPayload) {
+  addKey({ key }: CreateChapterKeyInput) {
     return this.chapterKeysRepository.create(key);
   }
 }

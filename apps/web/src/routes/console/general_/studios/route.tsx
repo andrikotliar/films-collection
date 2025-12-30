@@ -1,22 +1,24 @@
 import { useState } from 'react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { fetchStudiosListQuery, useDeleteStudio, type StudioMutationPayload } from '~/shared';
+import { getStudiosListQueryOptions, useDeleteStudio } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/general_/studios/-components';
 import { studioInitialValues } from '~/routes/console/general_/studios/-configs';
+import type z from 'zod';
+import type { StudioFormSchema } from '~/routes/console/general_/studios/-schemas';
 
 export const Route = createFileRoute('/console/general_/studios')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(fetchStudiosListQuery());
+    await queryClient.ensureQueryData(getStudiosListQueryOptions());
   },
   component: PageContainer,
 });
 
 function PageContainer() {
-  const { data } = useSuspenseQuery(fetchStudiosListQuery());
+  const { data } = useSuspenseQuery(getStudiosListQueryOptions());
 
-  const [studio, setStudio] = useState<StudioMutationPayload | null>(null);
+  const [studio, setStudio] = useState<z.infer<typeof StudioFormSchema> | null>(null);
 
   const { mutateAsync: deleteStudio, isPending: isDeletePending } = useDeleteStudio();
 

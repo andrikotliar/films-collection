@@ -1,16 +1,19 @@
 import styles from './filters.module.css';
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import { FilterOptions } from './components';
+import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
+import { getRouteApi } from '@tanstack/react-router';
 import {
   countObjectKeys,
   filterValues,
-  type FilmsListFilters,
   type FilterItem,
   Button,
+  type api,
+  type QueryParams,
 } from '~/shared';
-import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { getRouteApi } from '@tanstack/react-router';
+import { FilterOptions } from '~/routes/_home/-components/filters/components';
+import { zodResolver } from '@hookform/resolvers/zod';
+import z from 'zod';
 
 type FiltersProps = {
   config: FilterItem[];
@@ -18,18 +21,37 @@ type FiltersProps = {
   updateFiltersCount: (value: number) => void;
 };
 
-const defaultValues: FilmsListFilters = {
+const defaultValues = {
+  genreIds: [],
+  countryIds: [],
+  studioIds: [],
   type: null,
   style: null,
-  collectionId: null,
-  genreIds: null,
-  startDate: null,
-  endDate: null,
-  countryIds: null,
-  studioIds: null,
+  collectionId: '0',
 };
 
 const routeApi = getRouteApi('/_home/');
+
+const FiltersSchema = z.object({
+  genreIds: z.array(z.coerce.number()),
+  countryIds: z.array(z.coerce.number()),
+  studioIds: z.array(z.coerce.number()),
+  type: z.string().nullable(),
+  style: z.string().nullable(),
+  startDate: z.string(),
+  endDate: z.string(),
+  collectionId: z.coerce.number(),
+});
+
+const getDefaultValues = (search: QueryParams<typeof api.films.list>) => {
+  return {
+    ...search,
+    genreIds: search.genreIds?.map((genre) => String(genre)),
+    countryIds: search.countryIds?.map((country) => String(country)),
+    collectionId: search.collectionId?.toString(),
+    studioIds: search.studioIds?.map((studio) => String(studio)),
+  };
+};
 
 export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
   const navigate = routeApi.useNavigate();
@@ -37,11 +59,15 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
 
   const filtersCount = countObjectKeys(routeSearch, ['skip', 'limit']);
 
-  const methods = useForm({
-    defaultValues,
+  const filtersForm = useForm({
+    defaultValues: {
+      ...defaultValues,
+      ...getDefaultValues(routeSearch),
+    },
+    resolver: zodResolver(FiltersSchema),
   });
 
-  const submitFilter = (data: FilmsListFilters) => {
+  const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
 
     navigate({
@@ -58,27 +84,26 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
 
   useEffect(() => {
     if (filtersCount > 0) {
-      methods.reset(routeSearch);
       updateFiltersCount(filtersCount);
     } else {
-      methods.reset(defaultValues);
+      filtersForm.reset(defaultValues);
       updateFiltersCount(0);
     }
-  }, [routeSearch, filtersCount]);
+  }, [filtersCount]);
 
   const handleReset = () => {
     navigate({
       to: '/',
     });
-    methods.reset(defaultValues);
+    filtersForm.reset(defaultValues);
     window.scrollTo(0, 0);
     updateFiltersCount(0);
     setIsFilterOpen(false);
   };
 
   return (
-    <FormProvider {...methods}>
-      <form onSubmit={methods.handleSubmit(submitFilter)} className={styles.filters}>
+    <FormProvider {...filtersForm}>
+      <form onSubmit={filtersForm.handleSubmit(submitFilter)} className={styles.filters}>
         <div className={styles.filter_groups}>
           {config.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />

@@ -1,4 +1,4 @@
-import { PendingFilm, Prisma } from '@prisma/client';
+import type { PendingFilm, Prisma } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
 
 export class PendingFilmsRepository {
@@ -47,6 +47,7 @@ export class PendingFilmsRepository {
         collectionId: true,
         title: true,
         rating: true,
+        priority: true,
       },
       where: {
         id,

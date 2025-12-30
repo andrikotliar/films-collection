@@ -1,4 +1,4 @@
-import { ListOption } from '../types';
+import type { ListOption } from '@films-collection/shared';
 
 type ListItem = {
   id: number;

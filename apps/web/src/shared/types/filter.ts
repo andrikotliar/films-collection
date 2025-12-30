@@ -1,9 +1,12 @@
-import { FilmsListFilters } from '~/shared';
-import { ListOption } from './list-option';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
+import type { ListOption } from '@films-collection/shared';
+import type { api } from '~/shared/services';
+import type { QueryParams } from '~/shared/types/extract-params';
+
+type FilterIds = keyof QueryParams<typeof api.films.list>;
 
 export type CheckboxFilter = {
-  id: keyof FilmsListFilters;
+  id: FilterIds;
   type: 'checkmark';
   options: ListOption<string | number>[];
   inputType: 'checkbox' | 'radio';
@@ -23,7 +26,7 @@ export type DateFilter = {
 };
 
 export type NestedFiltersOption = {
-  id: keyof FilmsListFilters;
+  id: FilterIds;
   label: string;
   icon?: ReactNode;
 };

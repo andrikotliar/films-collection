@@ -1,8 +1,8 @@
-import { type AdditionalInfo } from '~/shared';
+import type { api, ApiResponse } from '~/shared';
 import { InfoBlock } from '../info-block/info-block';
 
 type FilmsSectionProps = {
-  info: AdditionalInfo | null;
+  info: ApiResponse<typeof api.films.list>['additionalInfo'];
 };
 
 export const AdditionalInfoSection = ({ info }: FilmsSectionProps) => {

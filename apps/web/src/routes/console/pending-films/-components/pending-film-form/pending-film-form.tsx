@@ -1,26 +1,26 @@
-import styles from "./pending-film-form.module.css";
+import styles from './pending-film-form.module.css';
 import {
   FieldLabel,
   Form,
-  fetchInitialDataQuery,
   priorityOptions,
+  useInitialData,
   useMutatePendingFilm,
   type FormComponentProps,
   type StatusColor,
-  type PendingFilmMutationPayload,
 } from '~/shared';
-import { useQuery } from '@tanstack/react-query';
-import { pendingFilmSchema } from '~/routes/console/pending-films/-validation';
-import { getFormTitle } from '~/routes/console/-shared';
 
-type PendingFilmFormProps = FormComponentProps<PendingFilmMutationPayload>;
+import { getFormTitle } from '~/routes/console/-shared';
+import type z from 'zod';
+import { PendingFilmFormSchema } from '~/routes/console/pending-films/-schemas';
+
+type PendingFilmFormProps = FormComponentProps<z.infer<typeof PendingFilmFormSchema>>;
 
 export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormProps) => {
-  const { data } = useQuery(fetchInitialDataQuery());
+  const { data } = useInitialData();
 
   const { mutateAsync, isPending } = useMutatePendingFilm();
 
-  const submit = async (values: PendingFilmMutationPayload) => {
+  const submit = async (values: z.infer<typeof PendingFilmFormSchema>) => {
     await mutateAsync(values);
     afterSubmitEffect();
   };
@@ -31,7 +31,7 @@ export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormPr
     <Form
       onSubmit={submit}
       defaultValues={values}
-      schema={pendingFilmSchema}
+      schema={PendingFilmFormSchema}
       title={title}
       isLoading={isPending}
     >

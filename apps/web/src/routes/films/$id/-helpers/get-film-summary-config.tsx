@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
-import { type FilmDetails, getFormattedMoneyValue, getPluralWord } from '~/shared';
+import { getFormattedMoneyValue, getPluralWord, type api, type ApiResponse } from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
-import { isProfitable } from '~/routes/films/$id/-helpers/is-profitable';
 
 export type SummaryConfig = {
   id: string;
@@ -10,7 +9,7 @@ export type SummaryConfig = {
   isHidden?: boolean;
 };
 
-export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
+export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): SummaryConfig[] => {
   const values: SummaryConfig[] = [
     {
       id: 'genres',
@@ -21,7 +20,10 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'releaseDate',
       title: film.type === 'SERIES' ? 'Ongoing dates' : 'Release Date',
       content: (
-        <Dates releaseDate={film.releaseDate} finishedAt={film.seriesExtension?.finishedAt} />
+        <Dates
+          releaseDate={film.releaseDate.toString()}
+          finishedAt={film.seriesExtension?.finishedAt?.toString()}
+        />
       ),
     },
     {
@@ -79,7 +81,7 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'boxOffice',
       title: 'Box Office',
       content: (
-        <DataLink basePath="/" query={{ budget: film.boxOffice }} markerColor={isProfitable(film)}>
+        <DataLink basePath="/" query={{ budget: film.boxOffice }}>
           {getFormattedMoneyValue(film.boxOffice)}
         </DataLink>
       ),

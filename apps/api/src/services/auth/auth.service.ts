@@ -1,6 +1,6 @@
 import { compare } from 'bcrypt';
 import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC, type Deps } from '~/shared';
-import { AuthLoginPayload } from './schemas';
+import type { LoginInput } from '@films-collection/shared';
 import type { JWT } from '@fastify/jwt';
 import type { UsersService } from '~/services/users';
 import type { VerifiedTokenData } from '~/services/auth/types';
@@ -14,7 +14,7 @@ export class AuthService {
     this.usersService = deps.usersService;
   }
 
-  async login({ username, password }: AuthLoginPayload) {
+  async login({ username, password }: LoginInput) {
     const user = await this.usersService.getUserByUsername(username);
     if (!user) {
       return null;

@@ -1,26 +1,29 @@
 import { useState } from 'react';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {
-  fetchCollectionsListQuery,
+  getCollectionsListQueryOptions,
   useDeleteCollection,
-  type CollectionMutationPayload,
+  useSuspenseCollectionsList,
 } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
-import { CollectionForm } from '~/routes/console/general_/collections/-components';
+import {
+  CollectionForm,
+  type CollectionFormSchema,
+} from '~/routes/console/general_/collections/-components';
 import { collectionFormDefaultValues } from '~/routes/console/general_/collections/-configs';
+import type z from 'zod';
 
 export const Route = createFileRoute('/console/general_/collections')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(fetchCollectionsListQuery());
+    await queryClient.ensureQueryData(getCollectionsListQueryOptions());
   },
   component: PageContainer,
 });
 
 function PageContainer() {
-  const { data } = useSuspenseQuery(fetchCollectionsListQuery());
+  const { data } = useSuspenseCollectionsList();
 
-  const [collection, setCollection] = useState<CollectionMutationPayload | null>(null);
+  const [collection, setCollection] = useState<z.infer<typeof CollectionFormSchema> | null>(null);
 
   const { mutateAsync: deleteCollection, isPending: isDeleting } = useDeleteCollection();
 
