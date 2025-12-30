@@ -44,6 +44,12 @@ jobs:
       - name: Generate database client
         run: pnpm run db:client:generate
 
+      - name: ESLint check - packages/shared
+        run: pnpm --filter ./packages/shared lint
+
+      - name: TypeScript check — packages/shared
+        run: pnpm -w exec tsc --project packages/shared/tsconfig.json --noEmit
+
       - name: Build shared
         run: pnpm --filter ./packages/shared build
 
@@ -53,17 +59,11 @@ jobs:
       - name: Generate api client
         run: pnpm run api:generate
 
-      - name: TypeScript check — packages/shared
-        run: pnpm -w exec tsc --project packages/shared/tsconfig.json --noEmit
-
       - name: TypeScript check — apps/api
         run: pnpm -w exec tsc --project apps/api/tsconfig.json --noEmit
 
       - name: TypeScript check — apps/web
         run: pnpm -w exec tsc --project apps/web/tsconfig.json --noEmit
-
-      - name: ESLint check - packages/shared
-        run: pnpm --filter ./packages/shared lint
 
       - name: ESLint check - apps/api
         run: pnpm --filter ./apps/api lint
