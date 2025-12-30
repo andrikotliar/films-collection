@@ -21,7 +21,6 @@ ENV VITE_BASE_MEDIA_URL=$VITE_BASE_MEDIA_URL
 RUN pnpm install --offline --frozen-lockfile
 RUN pnpm db:client:generate
 RUN pnpm build
-RUN pnpm api:generate
 
 FROM node:24-alpine AS production
 
