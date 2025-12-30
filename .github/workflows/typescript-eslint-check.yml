@@ -47,6 +47,9 @@ jobs:
       - name: Build shared
         run: pnpm --filter ./packages/shared build
 
+      - name: Build fetch wrapper
+        run: pnpm --filter ./packages/fetch-wrapper build
+
       - name: Generate api client
         run: pnpm run api:generate
 
