@@ -28,6 +28,9 @@ jobs:
       - name: Generate database client
         run: pnpm run db:client:generate
 
+      - name: Build shared
+        run: pnpm --filter ./packages/shared build
+
       - name: Generate api client
         run: pnpm run api:generate
 
