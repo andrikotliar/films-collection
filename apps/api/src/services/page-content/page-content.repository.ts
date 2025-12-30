@@ -1,5 +1,6 @@
 import type { DatabaseClient, Deps } from '~/shared';
 import {
+  getSkipValue,
   PAGE_LIMITS,
   type CreatePageContentInput,
   type GetPageContentListQueries,
@@ -27,7 +28,7 @@ export class PageContentRepository {
     });
   }
 
-  async getList({ skip }: GetPageContentListQueries) {
+  async getList({ pageIndex }: GetPageContentListQueries) {
     const list = await this.databaseClient.pageContent.findMany({
       select: {
         id: true,
@@ -36,7 +37,7 @@ export class PageContentRepository {
         pageKey: true,
       },
       take: PAGE_LIMITS.default,
-      skip,
+      skip: getSkipValue('default', pageIndex),
       orderBy: {
         updatedAt: 'desc',
       },

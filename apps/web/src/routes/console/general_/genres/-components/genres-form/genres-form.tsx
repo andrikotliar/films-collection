@@ -1,13 +1,14 @@
-import { Form, useMutateGenre, type FormComponentProps, type GenreMutationPayload } from '~/shared';
+import { Form, useMutateGenre, type FormComponentProps } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
-import { genresFormValidation } from '~/routes/console/general_/genres/-validation';
+import type z from 'zod';
+import { GenreFormSchema } from '~/routes/console/general_/genres/-schemas';
 
-type GenresFormProps = FormComponentProps<GenreMutationPayload>;
+type GenresFormProps = FormComponentProps<z.infer<typeof GenreFormSchema>>;
 
 export const GenresForm = ({ values, afterSubmitEffect }: GenresFormProps) => {
   const { mutateAsync, isPending } = useMutateGenre();
 
-  const submit = async (data: GenreMutationPayload) => {
+  const submit = async (data: z.infer<typeof GenreFormSchema>) => {
     await mutateAsync(data);
     afterSubmitEffect();
   };
@@ -19,7 +20,7 @@ export const GenresForm = ({ values, afterSubmitEffect }: GenresFormProps) => {
       onSubmit={submit}
       title={title}
       defaultValues={values}
-      schema={genresFormValidation}
+      schema={GenreFormSchema}
       isLoading={isPending}
     >
       <Form.TextInput name="title" label="Title" />

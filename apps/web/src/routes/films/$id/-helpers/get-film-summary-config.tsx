@@ -1,10 +1,5 @@
 import type { ReactNode } from 'react';
-import {
-  getFormattedMoneyValue,
-  getPluralWord,
-  type api,
-  type ExtractResponseType,
-} from '~/shared';
+import { getFormattedMoneyValue, getPluralWord, type api, type ApiResponse } from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
 import { isProfitable } from '~/routes/films/$id/-helpers/is-profitable';
 
@@ -15,9 +10,7 @@ export type SummaryConfig = {
   isHidden?: boolean;
 };
 
-export const getFilmSummaryConfig = (
-  film: ExtractResponseType<typeof api.films.get>,
-): SummaryConfig[] => {
+export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): SummaryConfig[] => {
   const values: SummaryConfig[] = [
     {
       id: 'genres',

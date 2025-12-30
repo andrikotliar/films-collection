@@ -1,6 +1,7 @@
 import type { Prisma } from '@prisma/client';
 import type { PendingFilmsRepository } from './pending-films.repository';
 import {
+  getSkipValue,
   PAGE_LIMITS,
   type CreatePendingFilmInput,
   type GetPendingFilmsListQuery,
@@ -62,7 +63,7 @@ export class PendingFilmsService {
       filters,
       options: {
         take: PAGE_LIMITS.default,
-        skip: queryFilters.skip ?? 0,
+        skip: getSkipValue('default', queryFilters.pageIndex),
         orderBy: {
           [sortingKey]: queryFilters.order ?? 'desc',
         },

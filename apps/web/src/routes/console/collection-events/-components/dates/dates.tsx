@@ -1,9 +1,11 @@
-import styles from "./dates.module.css";
+import styles from './dates.module.css';
 import { useFormContext } from 'react-hook-form';
-import { FieldLabel, Form, type CollectionEventMutationPayload } from '~/shared';
+import type z from 'zod';
+import type { CollectionEventFormSchema } from '~/routes/console/collection-events/route';
+import { FieldLabel, Form } from '~/shared';
 
 export const Dates = () => {
-  const { watch } = useFormContext<CollectionEventMutationPayload>();
+  const { watch } = useFormContext<z.infer<typeof CollectionEventFormSchema>>();
 
   const isOneDayEvent = watch('isOneDayEvent');
 

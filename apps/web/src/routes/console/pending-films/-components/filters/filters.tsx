@@ -5,10 +5,9 @@ import {
   TextInput,
   Checkbox,
   priorityOptions,
-  type SortingOrder,
   debounce,
 } from '~/shared';
-import styles from "./filters.module.css";
+import styles from './filters.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { type ChangeEvent, useCallback } from 'react';
 import { setPriorities } from '~/routes/console/pending-films/-components/filters/helpers';
@@ -91,7 +90,7 @@ export const Filters = () => {
           <SortingPopup
             fields={sortingFields}
             onSorting={handleApplySorting}
-            defaultOrder={searchParams.order as SortingOrder}
+            defaultOrder={searchParams.order}
             defaultOrderKey={searchParams.orderKey}
             buttonSize="large"
           />

@@ -1,6 +1,6 @@
-import type { ListOption } from '~/shared';
+import type { ListOption } from '@films-collection/shared';
 
-export const monthOptions: ListOption<number>[] = [
+export const monthOptions: ListOption[] = [
   {
     label: 'January',
     value: 1,

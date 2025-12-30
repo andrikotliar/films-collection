@@ -1,5 +1,5 @@
 import { api, queryKeys } from '~/shared/services';
-import { queryOptions, useQuery } from '@tanstack/react-query';
+import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
 
 export const getFilmsSearchQueryOptions = (searchString: string | null) => {
   return queryOptions({

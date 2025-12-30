@@ -2,11 +2,11 @@ import styles from './trailers-playlist.module.css';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { type FilmTrailer } from '~/shared';
 import { Video } from '~/routes/films/$id/-components/summary-section/components/trailers-button/components/video/video';
+import type { api, ApiResponse } from '~/shared';
 
 type TrailersPlaylistProps = {
-  trailers: FilmTrailer[];
+  trailers: ApiResponse<typeof api.films.get>['trailers'];
   previewLabel: string;
 };
 

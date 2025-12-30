@@ -1,10 +1,11 @@
 import { type FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
-import { type ListOption, type SortingOrder, sortingDirectionOptions } from '~/shared';
+import { sortingDirectionOptions } from '~/shared';
 import { SortingButton } from './components';
 import { BadgeCheckbox } from '../badge-checkbox/badge-checkbox';
 import { getDefaultLabel } from './helpers';
 import styles from './sorting-popup.module.css';
+import type { ListOption, SortingOrder } from '@films-collection/shared';
 
 export type SortingParams = {
   orderKey: string;
@@ -12,7 +13,7 @@ export type SortingParams = {
 };
 
 type SortingPopupProps = {
-  fields: ListOption[];
+  fields: ListOption<string>[];
   defaultOrderKey?: string;
   defaultOrder?: SortingOrder;
   onSorting: (params: SortingParams) => void;

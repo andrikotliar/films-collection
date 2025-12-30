@@ -1,10 +1,10 @@
 import styles from './awards.module.css';
 import { Link } from '@tanstack/react-router';
 import { Nomination } from '~/routes/films/$id/-components/awards/components';
-import type { api, ExtractResponseType } from '~/shared';
+import type { api, ApiResponse } from '~/shared';
 
 type AwardsProps = {
-  data: ExtractResponseType<typeof api.films.get>['awards'];
+  data: ApiResponse<typeof api.films.get>['awards'];
 };
 
 export const Awards = ({ data }: AwardsProps) => {

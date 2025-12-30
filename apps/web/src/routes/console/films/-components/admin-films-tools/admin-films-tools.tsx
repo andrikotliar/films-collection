@@ -1,14 +1,9 @@
-import {
-  type SortingParams,
-  type ListOption,
-  SortingPopup,
-  TextInput,
-  useDebouncedSearch,
-} from '~/shared';
-import styles from "./admin-films-tools.module.css";
+import { type SortingParams, SortingPopup, TextInput, useDebouncedSearch } from '~/shared';
+import styles from './admin-films-tools.module.css';
 import { getRouteApi } from '@tanstack/react-router';
+import type { ListOption } from '@films-collection/shared';
 
-const sortingFields: ListOption[] = [
+const sortingFields: ListOption<string>[] = [
   {
     label: 'Created At',
     value: 'createdAt',

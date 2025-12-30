@@ -10,9 +10,9 @@ export const CreatePendingFilmInputSchema = z.object({
 export const GetPendingFilmsListQuerySchema = z
   .object({
     q: z.string(),
-    skip: z.number(),
+    pageIndex: z.number(),
     orderKey: z.string(),
-    order: z.string(),
+    order: z.enum(['asc', 'desc']),
     priorities: z.array(z.number().min(1).max(3)),
   })
   .partial();

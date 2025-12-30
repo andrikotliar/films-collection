@@ -1,4 +1,4 @@
-import { convertEnumValuesToOption, type Deps } from '~/shared';
+import { type Deps } from '~/shared';
 import { CollectionCategory, PersonRole, TitleStyle, TitleType } from '@prisma/client';
 import type { CollectionsService } from '~/services/collections/collections.service';
 import type { GenresService } from '~/services/genres/genres.service';
@@ -7,7 +7,7 @@ import type { StudiosService } from '~/services/studios/studios.service';
 import type { CollectionEventsService } from '~/services/collection-events/collection-events.service';
 import type { AwardsService } from '~/services/awards/awards.service';
 import type { FilmsService } from '~/services/films';
-import type { InitialDataResponse } from '@films-collection/shared';
+import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
 
 export class InitialDataService {
   private readonly collectionsService: CollectionsService;

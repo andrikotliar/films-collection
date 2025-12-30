@@ -6,7 +6,7 @@ export const useLogout = () => {
   const navigate = useNavigate();
 
   return useMutation({
-    mutationFn: () => api.auth.logout.create(),
+    mutationFn: api.auth.logout.create,
     onSuccess: () => {
       LocalStorage.removeItem('authenticated');
       navigate({ to: '/login' });

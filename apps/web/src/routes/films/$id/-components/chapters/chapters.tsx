@@ -1,9 +1,9 @@
 import { ChapterLink } from '~/routes/films/$id/-components/chapters/components';
 import styles from './chapters.module.css';
-import type { api, ExtractResponseType } from '~/shared';
+import type { api, ApiResponse } from '~/shared';
 
 type ChaptersProps = {
-  data: ExtractResponseType<typeof api.films.get>['chapters'];
+  data: ApiResponse<typeof api.films.get>['chapters'];
   filmId: number;
 };
 

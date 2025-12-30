@@ -1,9 +1,9 @@
-import { Form, useMutateAward, type api, type ExtractInputParams } from '~/shared';
+import { Form, useMutateAward, type api, type Input } from '~/shared';
 import { NominationsForm } from '~/routes/console/general_/awards_/-components/nominations-form/nominations-form';
 import { CreateAwardInputSchema } from '@films-collection/shared';
 
 type AwardFormProps = {
-  values: ExtractInputParams<typeof api.awards.create>;
+  values: Input<typeof api.awards.create>;
 };
 
 export const AwardForm = ({ values }: AwardFormProps) => {

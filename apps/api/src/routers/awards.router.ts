@@ -44,7 +44,12 @@ export default createRouter([
     url: '/:id/nominations',
     schema: {
       params: NullableIdParamSchema,
-      response: buildListOptionSchema(z.number()),
+      response: buildListOptionSchema(
+        z.number(),
+        z.object({
+          shouldIncludeActor: z.boolean(),
+        }),
+      ),
     },
     async handler({ request, app }) {
       if (!request.params.id) {

@@ -5,12 +5,12 @@ import {
   CenteredBlock,
   useLogin,
   type api,
-  type ExtractInputParams,
+  type Input,
 } from '~/shared';
 import { LogInIcon } from 'lucide-react';
 import { LoginSchema } from '@films-collection/shared';
 
-const defaultLoginValues: ExtractInputParams<typeof api.auth.login.create> = {
+const defaultLoginValues: Input<typeof api.auth.login.create> = {
   username: '',
   password: '',
 };

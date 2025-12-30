@@ -3,8 +3,8 @@ import z from 'zod';
 export const CreateCollectionEventInputSchema = z.object({
   title: z.string(),
   collectionId: z.number(),
-  startDateCode: z.number(),
-  endDateCode: z.number(),
+  startDateCode: z.number().min(101).max(1231),
+  endDateCode: z.number().min(101).max(1231),
   yearFrom: z.number(),
   titleFilmId: z.number(),
 });

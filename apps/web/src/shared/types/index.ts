@@ -14,4 +14,3 @@ export * from './toaster';
 export * from './form-field-props';
 export * from './props-with-classname';
 export * from './extract-params';
-export * from './extract-response-type';

@@ -1,9 +1,7 @@
 import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
-import { useQuery } from '@tanstack/react-query';
-import { fetchNominationsByAwardQuery, FieldError, Form, Loader } from '~/shared';
+import { api, FieldError, Form, Loader, useAwardNominations } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { PeopleApi } from '~/api';
 
 type NominationSelectProps = {
   index: number;
@@ -16,7 +14,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
 
   const currentAward = awards[index];
 
-  const { data, isLoading } = useQuery(fetchNominationsByAwardQuery(currentAward.awardId));
+  const { data, isLoading } = useAwardNominations(currentAward.awardId);
 
   if (!currentAward.awardId) {
     return null;
@@ -42,7 +40,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       {shouldShowActorSelect && (
         <Form.AsyncSelect
           name={`awards.${index}.personId`}
-          optionsLoader={PeopleApi.searchByName}
+          optionsLoader={api.people.search.list}
           label="Person"
         />
       )}

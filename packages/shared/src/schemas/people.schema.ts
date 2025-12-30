@@ -6,15 +6,17 @@ export const CreatePersonSchema = z.object({
 });
 
 export const GetPeopleListQuerySchema = z.object({
-  skip: z.number(),
-  q: z.string().optional(),
+  pageIndex: z.number(),
+  q: z.string().optional().nullable(),
   role: z.enum(PersonRole),
 });
 
-export const SearchPersonSchema = z.object({
-  q: z.string(),
-  selected: z.array(z.number()),
-});
+export const SearchPersonSchema = z
+  .object({
+    q: z.string(),
+    selected: z.array(z.number()),
+  })
+  .partial();
 
 export const UpdatePersonInputSchema = CreatePersonSchema.partial();
 

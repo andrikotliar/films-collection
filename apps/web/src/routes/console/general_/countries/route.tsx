@@ -1,21 +1,24 @@
-import { fetchCountriesListQuery, type CountryMutationPayload, useDeleteCountry } from '~/shared';
+import { getCountriesListQueryOptions, useDeleteCountry, useSuspenseCountries } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
-import { CountryForm } from '~/routes/console/general_/countries/-components';
+import {
+  CountryForm,
+  type CountryFormSchema,
+} from '~/routes/console/general_/countries/-components';
 import { countryDefaultValues } from '~/routes/console/general_/countries/-configs';
+import type z from 'zod';
 
 export const Route = createFileRoute('/console/general_/countries')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(fetchCountriesListQuery());
+    return await queryClient.ensureQueryData(getCountriesListQueryOptions());
   },
   component: PageContainer,
 });
 
 function PageContainer() {
-  const { data } = useSuspenseQuery(fetchCountriesListQuery());
-  const [country, setCountry] = useState<CountryMutationPayload | null>(null);
+  const { data: countries } = useSuspenseCountries();
+  const [country, setCountry] = useState<z.infer<typeof CountryFormSchema> | null>(null);
 
   const { mutateAsync: deleteCountry, isPending: isDeletePending } = useDeleteCountry();
 
@@ -27,7 +30,7 @@ function PageContainer() {
     >
       <AddItemButton onClick={() => setCountry(countryDefaultValues)}>Add country</AddItemButton>
       <List
-        items={data}
+        items={countries}
         onDelete={deleteCountry}
         onEdit={setCountry}
         isDeletingInProgress={isDeletePending}

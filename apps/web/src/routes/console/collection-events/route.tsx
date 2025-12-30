@@ -1,33 +1,52 @@
+import z from 'zod';
 import { useState } from 'react';
+import { PlusIcon } from 'lucide-react';
 import {
-  fetchCollectionEventsQuery,
   getDateMonthLabel,
-  type CollectionEventFilled,
   Button,
   useDeleteCollectionEvent,
-  type CollectionEventMutationPayload,
+  getCollectionEventsQueryOptions,
+  type api,
+  type ApiResponse,
+  IdSchema,
+  useSuspenseCollectionEvents,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
-import { getDefaultValues } from '~/routes/console/collection-events/-configs';
-import { PlusIcon } from 'lucide-react';
+import { getCollectionEventDefaultValues } from '~/routes/console/collection-events/-configs';
+import { CreateCollectionEventInputSchema } from '@films-collection/shared';
 
-const CollectionEventsContainer = () => {
-  const [formValues, setFormValues] = useState<CollectionEventMutationPayload | null>(null);
+export const CollectionEventFormSchema = CreateCollectionEventInputSchema.extend({
+  id: IdSchema,
+  isOneDayEvent: z.boolean().default(false),
+});
 
-  const { data } = useSuspenseQuery(fetchCollectionEventsQuery());
+export const Route = createFileRoute('/console/collection-events')({
+  component: CollectionEventsContainer,
+  loader: ({ context }) => {
+    return context.queryClient.ensureQueryData(getCollectionEventsQueryOptions());
+  },
+});
+
+function CollectionEventsContainer() {
+  const [formValues, setFormValues] = useState<z.infer<typeof CollectionEventFormSchema> | null>(
+    null,
+  );
+
+  const { data } = useSuspenseCollectionEvents();
 
   const { mutateAsync: deleteEvent, isPending: isDeleting } = useDeleteCollectionEvent();
 
-  const handleEditEvent = (data: CollectionEventFilled) => {
-    setFormValues({
-      ...data,
-      collectionId: data.collection.id,
-      titleFilmId: data.film.id,
-      isOneDayEvent: data.startDateCode === data.endDateCode,
-    });
+  const handleEditEvent = (data: ApiResponse<typeof api.collectionEvents.list>[number]) => {
+    if (data.film) {
+      setFormValues({
+        ...data,
+        collectionId: data.collection.id,
+        titleFilmId: data.film.id,
+        isOneDayEvent: data.startDateCode === data.endDateCode,
+      });
+    }
   };
 
   return (
@@ -35,7 +54,7 @@ const CollectionEventsContainer = () => {
       <div>
         <Button
           icon={<PlusIcon />}
-          onClick={() => setFormValues(getDefaultValues())}
+          onClick={() => setFormValues(getCollectionEventDefaultValues())}
           variant="light"
         >
           Create event
@@ -56,11 +75,4 @@ const CollectionEventsContainer = () => {
       />
     </ConsoleContentLayout>
   );
-};
-
-export const Route = createFileRoute('/console/collection-events')({
-  component: CollectionEventsContainer,
-  loader: ({ context }) => {
-    return context.queryClient.ensureQueryData(fetchCollectionEventsQuery());
-  },
-});
+}

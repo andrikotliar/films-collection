@@ -1,9 +1,9 @@
 import styles from './role-item.module.css';
 import clsx from 'clsx';
-import { personRoleToTitle, RouterLink, type api, type ExtractResponseType } from '~/shared';
+import { personRoleToTitle, RouterLink, type api, type ApiResponse } from '~/shared';
 
 type RoleItemProps = {
-  data: ExtractResponseType<typeof api.films.get>['castAndCrew'][number];
+  data: ApiResponse<typeof api.films.get>['castAndCrew'][number];
 };
 
 export const RoleItem = ({ data }: RoleItemProps) => {
@@ -30,7 +30,7 @@ export const RoleItem = ({ data }: RoleItemProps) => {
                 to="/"
                 search={{
                   personRole: data.role,
-                  personId: person.id.toString(),
+                  personId: person.id,
                 }}
               >
                 {person.name}

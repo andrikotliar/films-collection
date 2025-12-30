@@ -1,27 +1,29 @@
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';
-import * as yup from 'yup';
 import {
-  fetchInitialDataQuery,
-  fetchPendingFilmQuery,
   isNewItem,
-  NEW_ITEM_ID,
   Panel,
   LocalStorage,
+  getInitialDataQueryOptions,
+  getPendingFilmQueryOptions,
+  useSuspensePendingFilm,
 } from '~/shared';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
 import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 import type { FilmFormValues } from '~/routes/console/films_/-types';
+import z from 'zod';
+import { NEW_ITEM_ID } from '@films-collection/shared';
 
-const consoleFilmQueriesSchema = yup.object({
-  pendingFilmId: yup.string(),
-});
+const ConsoleFilmQueriesSchema = z
+  .object({
+    pendingFilmId: z.string(),
+  })
+  .partial();
 
 export const Route = createFileRoute('/console/films_/$id')({
   validateSearch: (search) => {
-    return consoleFilmQueriesSchema.validateSync(search);
+    return ConsoleFilmQueriesSchema.parse(search);
   },
   loaderDeps: ({ search }) => {
     return {
@@ -29,10 +31,10 @@ export const Route = createFileRoute('/console/films_/$id')({
     };
   },
   loader: async ({ context: { queryClient }, deps, params }) => {
-    await queryClient.ensureQueryData(fetchInitialDataQuery());
+    await queryClient.ensureQueryData(getInitialDataQueryOptions());
 
     if (deps.search.pendingFilmId && params.id === NEW_ITEM_ID) {
-      await queryClient.ensureQueryData(fetchPendingFilmQuery(deps.search.pendingFilmId));
+      await queryClient.ensureQueryData(getPendingFilmQueryOptions(deps.search.pendingFilmId));
     }
   },
   component: PageContainer,
@@ -42,7 +44,7 @@ function PageContainer() {
   const { id } = Route.useParams();
   const search = Route.useSearch();
 
-  const { data: pendingFilm } = useSuspenseQuery(fetchPendingFilmQuery(search.pendingFilmId));
+  const { data: pendingFilm } = useSuspensePendingFilm(search.pendingFilmId);
 
   const pageTitle = isNewItem(id) ? 'Create Film' : 'Edit Film';
 

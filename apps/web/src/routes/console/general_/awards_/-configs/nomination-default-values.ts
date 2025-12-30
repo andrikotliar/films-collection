@@ -1,6 +1,4 @@
-import type { NominationFormValue } from '~/shared';
-
-export const nominationDefaultValues: NominationFormValue = {
+export const nominationDefaultValues = {
   id: -1,
   title: '',
   shouldIncludeActor: false,

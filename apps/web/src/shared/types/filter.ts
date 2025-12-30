@@ -1,9 +1,9 @@
 import type { ReactNode } from 'react';
 import type { ListOption } from '@films-collection/shared';
-import type { ExtractParams } from '~/shared/types/extract-params';
 import type { api } from '~/shared/services';
+import type { QueryParams } from '~/shared/types/extract-params';
 
-type FilterIds = keyof ExtractParams<typeof api.films.list>['queryParams'];
+type FilterIds = keyof QueryParams<typeof api.films.list>;
 
 export type CheckboxFilter = {
   id: FilterIds;

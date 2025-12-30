@@ -1,9 +1,9 @@
-import { getYearFromDate, Image, type api, type ExtractResponseType } from '~/shared';
+import { getYearFromDate, Image, type api, type ApiResponse } from '~/shared';
 import styles from './films-grid.module.css';
 import { Link } from '@tanstack/react-router';
 
 type FilmsGridProps = {
-  films: ExtractResponseType<typeof api.films.list>['films'];
+  films: ApiResponse<typeof api.films.list>['films'];
 };
 
 export const FilmsGrid = ({ films }: FilmsGridProps) => {

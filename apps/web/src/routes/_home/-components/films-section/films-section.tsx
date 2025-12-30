@@ -1,11 +1,11 @@
 import styles from './films-section.module.css';
 import { FilmsNotFound, AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { Loader, Pagination, type api, type ExtractResponseType } from '~/shared';
+import { Loader, Pagination, type api, type ApiResponse } from '~/shared';
 import { PAGE_LIMITS } from '@films-collection/shared';
 
 type FilmsSectionProps = {
-  data: ExtractResponseType<typeof api.films.list>;
+  data: ApiResponse<typeof api.films.list>;
   isLoading: boolean;
 };
 

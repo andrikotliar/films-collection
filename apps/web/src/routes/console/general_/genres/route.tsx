@@ -1,22 +1,23 @@
-import { fetchGenresListQuery, useDeleteGenre, type GenreMutationPayload } from '~/shared';
+import { getGenresListQueryOptions, useDeleteGenre, useSuspenseGenresList } from '~/shared';
 import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
 import { GenresForm } from '~/routes/console/general_/genres/-components';
 import { genreDefaultValues } from '~/routes/console/general_/genres/-configs';
+import type z from 'zod';
+import type { GenreFormSchema } from '~/routes/console/general_/genres/-schemas';
 
 export const Route = createFileRoute('/console/general_/genres')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(fetchGenresListQuery());
+    return await queryClient.ensureQueryData(getGenresListQueryOptions());
   },
   component: PageContainer,
 });
 
 function PageContainer() {
-  const { data } = useSuspenseQuery(fetchGenresListQuery());
+  const { data: genres } = useSuspenseGenresList();
 
-  const [genre, setGenre] = useState<GenreMutationPayload | null>(null);
+  const [genre, setGenre] = useState<z.infer<typeof GenreFormSchema> | null>(null);
 
   const { mutateAsync: deleteGenre, isPending: isDeletePending } = useDeleteGenre();
 
@@ -28,7 +29,7 @@ function PageContainer() {
     >
       <AddItemButton onClick={() => setGenre(genreDefaultValues)}>Create genre</AddItemButton>
       <List
-        items={data}
+        items={genres}
         onDelete={deleteGenre}
         onEdit={setGenre}
         isDeletingInProgress={isDeletePending}

@@ -1,24 +1,23 @@
-import { useSuspenseQuery } from '@tanstack/react-query';
-import { createFileRoute } from '@tanstack/react-router';
+import type z from 'zod';
 import sanitize from 'sanitize-html';
+import { createFileRoute } from '@tanstack/react-router';
 import {
   Form,
   Panel,
   useMutatePageContent,
-  type PageContentMutationPayload,
-  ALLOWED_HTML_TAGS,
-  NEW_ITEM_ID,
-  fetchPageContentByIdQuery,
   isNewItem,
+  getPageContentByIdQueryOptions,
+  useSuspensePageContent,
 } from '~/shared';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { getDefaultFormValues } from '~/routes/console/page-content_/-helpers';
-import { pageContentFormValidation } from '~/routes/console/page-content_/-validation';
+import { ALLOWED_HTML_TAGS, NEW_ITEM_ID } from '@films-collection/shared';
+import { PageContentFormSchema } from '~/routes/console/page-content_/-schemas';
 
 export const Route = createFileRoute('/console/page-content_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
     if (params.id !== NEW_ITEM_ID) {
-      await queryClient.ensureQueryData(fetchPageContentByIdQuery(params.id));
+      await queryClient.ensureQueryData(getPageContentByIdQueryOptions(params.id));
     }
   },
   component: RouteComponent,
@@ -28,11 +27,11 @@ function RouteComponent() {
   const { id } = Route.useParams();
   const title = isNewItem(id) ? 'Create page content' : 'Edit page content';
 
-  const { data } = useSuspenseQuery(fetchPageContentByIdQuery(id));
+  const { data } = useSuspensePageContent(id);
 
   const { mutateAsync, isPending } = useMutatePageContent();
 
-  const handleSubmit = async (values: PageContentMutationPayload) => {
+  const handleSubmit = async (values: z.infer<typeof PageContentFormSchema>) => {
     const sanitizedContent = sanitize(values.content, {
       allowedTags: ALLOWED_HTML_TAGS,
       allowedAttributes: {},
@@ -50,7 +49,7 @@ function RouteComponent() {
         <Form
           onSubmit={handleSubmit}
           defaultValues={getDefaultFormValues(data)}
-          schema={pageContentFormValidation}
+          schema={PageContentFormSchema}
           isLoading={isPending}
         >
           <Form.TextInput name="title" label="Title" />

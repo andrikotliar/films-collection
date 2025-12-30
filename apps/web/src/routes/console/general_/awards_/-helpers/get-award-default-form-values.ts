@@ -1,7 +1,7 @@
-import type { UpdateAwardInput } from '@films-collection/shared';
 import { awardDefaultFormValues } from '~/routes/console/general_/awards_/-configs';
+import type { api, ApiResponse } from '~/shared';
 
-export const getFormDefaultValues = (data: UpdateAwardInput | null) => {
+export const getFormDefaultValues = (data: ApiResponse<typeof api.awards.get> | null) => {
   if (data) {
     return {
       id: data.id,

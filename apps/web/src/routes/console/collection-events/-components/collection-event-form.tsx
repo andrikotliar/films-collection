@@ -1,26 +1,25 @@
+import type z from 'zod';
 import {
+  api,
   Form,
-  fetchInitialDataQuery,
   type FormComponentProps,
   useMutateCollectionEvent,
-  type CollectionEventMutationPayload,
+  useSuspenseInitialData,
 } from '~/shared';
-import { useQuery } from '@tanstack/react-query';
-import { FilmsApi } from '~/api';
-import { collectionEventSchema } from '~/routes/console/collection-events/-validation';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { Dates } from '~/routes/console/collection-events/-components';
+import { CollectionEventFormSchema } from '~/routes/console/collection-events/route';
 
-type CollectionEventFormProps = FormComponentProps<CollectionEventMutationPayload>;
+type CollectionEventFormProps = FormComponentProps<z.infer<typeof CollectionEventFormSchema>>;
 
 export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEventFormProps) => {
-  const { data } = useQuery(fetchInitialDataQuery());
+  const { data } = useSuspenseInitialData();
 
   const { mutateAsync, isPending } = useMutateCollectionEvent();
 
   const title = getFormTitle(values, 'Collection Event');
 
-  const submit = async (data: CollectionEventMutationPayload) => {
+  const submit = async (data: z.infer<typeof CollectionEventFormSchema>) => {
     await mutateAsync({
       ...data,
       endDateCode: data.isOneDayEvent ? data.startDateCode : data.endDateCode,
@@ -36,7 +35,7 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
         isOneDayEvent: values.startDateCode === values.endDateCode,
       }}
       title={title}
-      schema={collectionEventSchema}
+      schema={CollectionEventFormSchema}
       isLoading={isPending}
     >
       <Form.TextInput name="title" label="Title" />
@@ -46,7 +45,11 @@ export const CollectionEventForm = ({ values, afterSubmitEffect }: CollectionEve
         name="collectionId"
       />
       <Dates />
-      <Form.AsyncSelect name="titleFilmId" optionsLoader={FilmsApi.getOptions} label="Title film" />
+      <Form.AsyncSelect
+        name="titleFilmId"
+        optionsLoader={api.films.options.list}
+        label="Title film"
+      />
       <Form.TextInput name="yearFrom" label="First event occurrence year" placeholder="E.g. 2020" />
     </Form>
   );

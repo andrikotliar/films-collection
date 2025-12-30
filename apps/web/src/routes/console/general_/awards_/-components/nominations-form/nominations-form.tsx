@@ -1,14 +1,14 @@
-import styles from "./nominations-form.module.css";
+import styles from './nominations-form.module.css';
 import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
-import { Button, ConfirmModal, Form, type AwardMutationPayload } from '~/shared';
+import { Button, ConfirmModal, Form, type api, type Input } from '~/shared';
 import { nominationDefaultValues } from '~/routes/console/general_/awards_/-configs';
 
 export const NominationsForm = () => {
   const [nominationIndex, setNominationIndex] = useState<number | null>(null);
 
-  const { control } = useFormContext<AwardMutationPayload>();
+  const { control } = useFormContext<Input<typeof api.awards.create>>();
 
   const { fields, append, remove } = useFieldArray({
     name: 'nominations',

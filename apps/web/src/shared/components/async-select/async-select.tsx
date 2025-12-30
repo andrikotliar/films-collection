@@ -1,14 +1,16 @@
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getSelectValue } from '~/shared/components/select/helpers';
-import type { ListOption } from '~/shared/types';
 import { Select, type SelectProps } from '~/shared/components/select/select';
+import type { ListOption } from '@films-collection/shared';
 
 export type AsyncSelectProps = {
-  optionsLoader: (
-    searchString: string | null,
-    selected?: (string | number)[],
-  ) => Promise<ListOption<any>[]>;
+  optionsLoader: (params: {
+    queryParams: {
+      q?: string;
+      selected?: any[];
+    };
+  }) => Promise<ListOption<any>[]>;
 } & Omit<SelectProps, 'onOptionsSearch' | 'options' | 'isOptionsLoading'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
@@ -20,7 +22,9 @@ export const AsyncSelect = ({ optionsLoader, value, ...props }: AsyncSelectProps
     queryKey: [optionsLoader.name, searchString, value] as const,
     queryFn: async ({ queryKey }) => {
       const selectedValues = getSelectValue(queryKey[2]);
-      return optionsLoader(queryKey[1], selectedValues);
+      return optionsLoader({
+        queryParams: { q: queryKey[1] ?? undefined, selected: selectedValues },
+      });
     },
     placeholderData: (prev) => prev,
     retry: RETRY_ATTEMPTS_COUNT,

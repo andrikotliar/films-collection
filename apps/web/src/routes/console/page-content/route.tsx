@@ -1,32 +1,29 @@
-import * as yup from 'yup';
 import sanitize from 'sanitize-html';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {
   Panel,
   Pagination,
   useDeletePageContent,
   useDocumentTitle,
-  fetchAdminPageContentListQuery,
-  NEW_ITEM_ID,
-  PAGE_CONTENT_ADMIN_PER_PAGE,
-  type PageContentListItem,
+  getPageContentAdminListQueryOptions,
+  useSuspensePageContentAdminList,
 } from '~/shared';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
-
-const pageContentListFiltersSchema = yup.object().shape({
-  pageIndex: yup.number(),
-});
+import {
+  GetPageContentListQueriesSchema,
+  NEW_ITEM_ID,
+  PAGE_LIMITS,
+} from '@films-collection/shared';
 
 export const Route = createFileRoute('/console/page-content')({
   validateSearch: (search) => {
-    return pageContentListFiltersSchema.validateSync(search);
+    return GetPageContentListQueriesSchema.parse(search);
   },
   loaderDeps: ({ search }) => ({
     search,
   }),
   loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(fetchAdminPageContentListQuery(deps.search));
+    return context.queryClient.ensureQueryData(getPageContentAdminListQueryOptions(deps.search));
   },
   component: PageContainer,
 });
@@ -34,7 +31,7 @@ export const Route = createFileRoute('/console/page-content')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(fetchAdminPageContentListQuery(searchParams));
+  const { data } = useSuspensePageContentAdminList(searchParams);
 
   const { mutateAsync: deletePageContent, isPending } = useDeletePageContent();
 
@@ -49,7 +46,7 @@ function PageContainer() {
     });
   };
 
-  const handleEditItem = (data: PageContentListItem) => {
+  const handleEditItem = (data: { id: number }) => {
     navigate({
       to: '/console/page-content/$id',
       params: {
@@ -80,7 +77,7 @@ function PageContainer() {
       <Pagination
         total={data.count}
         onPageChange={handlePageChange}
-        perPageCounter={PAGE_CONTENT_ADMIN_PER_PAGE}
+        perPageCounter={PAGE_LIMITS.default}
         currentPageIndex={searchParams.pageIndex}
         totalLabel="pages content"
       />

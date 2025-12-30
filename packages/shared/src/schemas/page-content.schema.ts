@@ -4,13 +4,15 @@ export const GetPageContentByPageUrlParamsSchema = z.object({
   pageKey: z.string(),
 });
 
-export const GetPageContentListQueriesSchema = z.object({
-  skip: z.number(),
-});
+export const GetPageContentListQueriesSchema = z
+  .object({
+    pageIndex: z.number(),
+  })
+  .partial();
 
 export const CreatePageContentInputSchema = z.object({
   title: z.string(),
-  pageKey: z.string(),
+  pageKey: z.string().regex(/^[a-z-]*$/),
   content: z.string(),
 });
 
@@ -26,7 +28,11 @@ export const PageContentResponseSchema = z.object({
 });
 
 export const PageContentsListResponseSchema = z.object({
-  list: z.array(PageContentResponseSchema.omit({ createdAt: true, updatedAt: true })),
+  list: z.array(
+    PageContentResponseSchema.omit({ createdAt: true, updatedAt: true }).extend({
+      shortContent: z.string(),
+    }),
+  ),
   count: z.number(),
 });
 

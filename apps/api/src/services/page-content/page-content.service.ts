@@ -57,7 +57,10 @@ export class PageContentService {
     const data = await this.pageContentRepository.getList(queries);
 
     if (!data.list.length) {
-      return data;
+      return {
+        list: [],
+        count: 0,
+      };
     }
 
     const mappedList = data.list.map((pageContent) => {

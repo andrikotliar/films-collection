@@ -2,6 +2,7 @@ import type { PeopleRepository } from './people.repository';
 import { NotFoundException, type Deps } from '~/shared';
 import type { Prisma } from '@prisma/client';
 import {
+  getSkipValue,
   PAGE_LIMITS,
   type CreatePersonInput,
   type GetPeopleListQuery,
@@ -21,7 +22,7 @@ export class PeopleService {
     const options: Prisma.PersonFindManyArgs = {
       where: filters,
       take: PAGE_LIMITS.default,
-      skip: queries.skip,
+      skip: getSkipValue('default', queries.pageIndex),
     };
 
     if (queries.q) {

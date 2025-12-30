@@ -1,11 +1,11 @@
 import { Link } from '@tanstack/react-router';
 import styles from './event-banner.module.css';
-import { getPluralWord, type api, type ExtractResponseType } from '~/shared';
+import { getPluralWord, type api, type ApiResponse } from '~/shared';
 import { Image } from '~/shared/components/image/image';
 import clsx from 'clsx';
 
 type EventBannerProps = {
-  event: ExtractResponseType<typeof api.collectionEvents.list>[number];
+  event: ApiResponse<typeof api.collectionEvents.list>[number];
   selectedEventId?: number | null;
 };
 

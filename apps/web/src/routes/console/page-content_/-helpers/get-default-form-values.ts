@@ -1,7 +1,6 @@
-import { formDefaultValues } from '../-configs';
-import { type PageContent } from '~/shared';
+import { getEmptyFormValues, type api, type ApiResponse } from '~/shared';
 
-export const getDefaultFormValues = (data: PageContent | null) => {
+export const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.get> | null) => {
   if (data) {
     return {
       id: data.id,
@@ -11,5 +10,9 @@ export const getDefaultFormValues = (data: PageContent | null) => {
     };
   }
 
-  return formDefaultValues;
+  return getEmptyFormValues({
+    title: '',
+    pageKey: '',
+    content: '',
+  });
 };

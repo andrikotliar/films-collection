@@ -1,12 +1,12 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { type ListOption, Form, type PersonMutationPayload } from '~/shared';
+import { Form, api, type FormValues, type Input } from '~/shared';
 import { defaultPersonValues } from '~/routes/console/-shared';
-import { PeopleApi } from '~/api';
+import type { ListOption } from '@films-collection/shared';
 
 type CastAndCrewSelectProps = {
-  positionOptions: ListOption[];
-  onPersonChange: (person: PersonMutationPayload) => void;
+  positionOptions: ListOption<string>[];
+  onPersonChange: (person: FormValues<Input<typeof api.people.create>>) => void;
 };
 
 export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCrewSelectProps) => {
@@ -34,7 +34,7 @@ export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCr
             <Form.AsyncSelect
               name={`crew.${index}.personId`}
               label="Person"
-              optionsLoader={PeopleApi.searchByName}
+              optionsLoader={api.people.search.list}
               onCreateOption={() => onPersonChange(defaultPersonValues)}
             />
             <Form.Select

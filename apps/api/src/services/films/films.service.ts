@@ -83,13 +83,13 @@ export class FilmsService {
   }
 
   getAdminList(query: GetAdminListQuery) {
-    const { skip = 0, order = 'desc', orderKey = 'createdAt' } = query;
+    const { pageIndex = 0, order = 'desc', orderKey = 'createdAt' } = query;
 
     const filters = mapAdminListFilters(query);
+    const skip = getSkipValue('default', pageIndex);
 
     return this.filmsRepository.findAndCountAdmin(filters, {
       skip,
-      limit: 32,
       orderBy: { [orderKey]: order },
     });
   }

@@ -42,12 +42,14 @@ export const GetFilmRelatedChaptersSchema = z.object({
   key: z.string(),
 });
 
-export const GetAdminListQuerySchema = z.object({
-  q: z.string().optional(),
-  skip: z.number().optional(),
-  orderKey: z.string().optional(),
-  order: z.string().optional(),
-});
+export const GetAdminListQuerySchema = z
+  .object({
+    q: z.string().optional().nullable(),
+    pageIndex: z.number().optional(),
+    orderKey: z.string().optional(),
+    order: z.enum(['asc', 'desc']).optional(),
+  })
+  .partial();
 
 export const UpdateFilmWatchCounterInputSchema = z.object({
   counter: z.number().min(0).max(1000),

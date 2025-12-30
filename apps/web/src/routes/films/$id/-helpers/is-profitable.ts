@@ -1,8 +1,8 @@
 import type { DataLinkProps } from '~/routes/films/$id/-components';
-import type { api, ExtractResponseType } from '~/shared';
+import type { api, ApiResponse } from '~/shared';
 
 export const isProfitable = (
-  film: ExtractResponseType<typeof api.films.get>,
+  film: ApiResponse<typeof api.films.get>,
 ): DataLinkProps['markerColor'] => {
   if (!film.budget || !film.boxOffice) {
     return 'white';

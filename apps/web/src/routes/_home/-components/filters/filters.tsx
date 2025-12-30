@@ -1,17 +1,17 @@
 import styles from './filters.module.css';
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import { FilterOptions } from './components';
+import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
+import { getRouteApi } from '@tanstack/react-router';
 import {
   countObjectKeys,
   filterValues,
   type FilterItem,
   Button,
-  type ExtractParams,
   type api,
+  type QueryParams,
 } from '~/shared';
-import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { getRouteApi } from '@tanstack/react-router';
+import { FilterOptions } from '~/routes/_home/-components/filters/components';
 
 type FiltersProps = {
   config: FilterItem[];
@@ -19,7 +19,7 @@ type FiltersProps = {
   updateFiltersCount: (value: number) => void;
 };
 
-type FilmsListFilters = ExtractParams<typeof api.films.list>['queryParams'];
+type FilmsListFilters = QueryParams<typeof api.films.list>;
 
 const defaultValues: FilmsListFilters = {
   type: undefined,

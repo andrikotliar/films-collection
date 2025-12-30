@@ -1,6 +1,6 @@
-import { ListOption } from '~/shared';
+import type { ListOption } from '@films-collection/shared';
 
-export const getDefaultLabel = (fields: ListOption[], selectedSortingField?: string) => {
+export const getDefaultLabel = (fields: ListOption<string>[], selectedSortingField?: string) => {
   if (!selectedSortingField) {
     return fields[0].label;
   }

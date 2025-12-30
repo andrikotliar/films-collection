@@ -273,7 +273,6 @@ export class FilmsRepository {
   async findAndCountAdmin(
     filters: Prisma.FilmWhereInput,
     options: {
-      limit: number;
       skip: number;
       orderBy: Prisma.FilmOrderByWithRelationInput;
     },
@@ -286,7 +285,7 @@ export class FilmsRepository {
         draft: true,
       },
       where: filters,
-      take: options.limit,
+      take: PAGE_LIMITS.default,
       skip: options.skip,
       orderBy: [options.orderBy, { id: 'asc' }],
     });

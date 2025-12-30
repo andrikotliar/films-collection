@@ -1,6 +1,5 @@
-import { NEW_ITEM_ID, type StudioMutationPayload } from '~/shared';
+import { getEmptyFormValues } from '~/shared';
 
-export const studioInitialValues: StudioMutationPayload = {
-  id: NEW_ITEM_ID,
+export const studioInitialValues = getEmptyFormValues({
   title: '',
-};
+});
