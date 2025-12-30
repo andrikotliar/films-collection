@@ -20,6 +20,8 @@ ENV VITE_BASE_MEDIA_URL=$VITE_BASE_MEDIA_URL
 
 RUN pnpm install --offline --frozen-lockfile
 RUN pnpm db:client:generate
+
+ENV SKIP_ENV_VALIDATION=true
 RUN pnpm build
 
 FROM node:24-alpine AS production
