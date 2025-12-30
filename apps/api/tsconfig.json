@@ -10,10 +10,6 @@
   "tsc-alias": {
     "resolveFullPaths": true
   },
-  "include": [
-    "src",
-    "../../packages/shared/src/helpers/convert-enum-values-to-option.ts",
-    "../../packages/shared/src/helpers/convert-enum-value-to-label.ts"
-  ],
+  "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }

@@ -2,40 +2,44 @@ FROM node:24-alpine AS builder
 
 WORKDIR /app
 
-RUN npm install -g pnpm
-
-COPY pnpm-lock.yaml pnpm-workspace.yaml ./
-COPY package.json ./
-COPY packages/shared/package.json ./packages/shared/package.json
-COPY packages/fetch-wrapper/package.json ./packages/fetch-wrapper/package.json
-COPY apps/api/package.json ./api/
-COPY apps/web/package.json ./web/
-
-RUN pnpm fetch
+RUN corepack enable
 
 COPY . .
 
 ARG VITE_BASE_MEDIA_URL
 ENV VITE_BASE_MEDIA_URL=$VITE_BASE_MEDIA_URL
 
-RUN pnpm install --offline --frozen-lockfile
+RUN pnpm install --frozen-lockfile
+
+RUN pnpm --filter ./packages/shared build
+RUN pnpm --filter ./packages/fetch-wrapper build
+
 RUN pnpm db:client:generate
 
 ENV SKIP_ENV_VALIDATION=true
-RUN pnpm build
+
+RUN pnpm --filter ./apps/api build
+
+RUN pnpm api:generate
+
+RUN pnpm --filter ./apps/web build
 
 FROM node:24-alpine AS production
 
 WORKDIR /app
 
-RUN npm install -g pnpm
+RUN corepack enable
 
-COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
-COPY --from=builder /app/packages/fetch-wrapper/dist ./packages/fetch-wrapper/dist
-COPY --from=builder /app/apps/api/dist ./apps/api/dist
+COPY pnpm-workspace.yaml package.json pnpm-lock.yaml ./
+COPY apps/api/package.json ./apps/api/package.json
+COPY packages/shared/package.json ./packages/shared/package.json
+
+RUN pnpm install --prod --filter api...
+
 COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
 COPY --from=builder /app/apps/api/prisma ./apps/api/prisma
-COPY --from=builder /app/apps/api/package.json ./apps/api/package.json
+COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
+COPY --from=builder /app/apps/api/dist ./apps/api/dist
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./
 COPY --from=builder /app/pnpm-lock.yaml ./
