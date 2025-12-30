@@ -23,7 +23,7 @@ export const AsyncSelect = ({ optionsLoader, value, ...props }: AsyncSelectProps
     queryFn: async ({ queryKey }) => {
       const selectedValues = getSelectValue(queryKey[2]);
       return optionsLoader({
-        queryParams: { q: queryKey[1] ?? undefined, selected: selectedValues },
+        queryParams: { q: queryKey[1] ?? '', selected: selectedValues },
       });
     },
     placeholderData: (prev) => prev,

@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
 
       if (mutation.meta?.invalidateQueries) {
         for (const keys of mutation.meta.invalidateQueries) {
-          queryClient.invalidateQueries({ queryKey: keys });
+          queryClient.invalidateQueries({ queryKey: keys.filter(Boolean) });
         }
       }
     },

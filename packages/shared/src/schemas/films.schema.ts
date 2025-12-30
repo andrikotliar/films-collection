@@ -1,5 +1,6 @@
 import z from 'zod';
 import { PersonRole, TitleStyle, TitleType } from '~/enums';
+import { getArrayFromQuery } from '~/helpers';
 import { AwardResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
 import { CountryResponseSchema } from '~/schemas/countries.schema';
@@ -8,84 +9,84 @@ import { PersonResponseSchema } from '~/schemas/people.schema';
 import { StudioResponseSchema } from '~/schemas/studios.schema';
 
 export const GetFilmsListQuerySchema = z.object({
-  pageIndex: z.number().min(0).optional(),
+  pageIndex: z.coerce.number().min(0).optional(),
   startDate: z.string().optional(),
   endDate: z.string().optional(),
-  collectionId: z.number().optional(),
-  duration: z.number().optional(),
-  rating: z.number().optional(),
-  seasonsTotal: z.number().optional(),
-  episodesTotal: z.number().optional(),
-  personId: z.number().optional(),
-  awardId: z.number().optional(),
-  budget: z.number().optional(),
-  boxOffice: z.number().optional(),
+  collectionId: z.coerce.number().optional(),
+  duration: z.coerce.number().optional(),
+  rating: z.coerce.number().optional(),
+  seasonsTotal: z.coerce.number().optional(),
+  episodesTotal: z.coerce.number().optional(),
+  personId: z.coerce.number().optional(),
+  awardId: z.coerce.number().optional(),
+  budget: z.coerce.number().optional(),
+  boxOffice: z.coerce.number().optional(),
   type: z.enum(TitleType).optional(),
   style: z.enum(TitleStyle).optional(),
   personRole: z.enum(PersonRole).optional(),
-  genreIds: z.array(z.number()).optional(),
-  studioIds: z.array(z.number()).optional(),
-  countryIds: z.array(z.number()).optional(),
+  genreIds: getArrayFromQuery(z.coerce.number()).optional(),
+  studioIds: getArrayFromQuery(z.coerce.number()).optional(),
+  countryIds: getArrayFromQuery(z.coerce.number()).optional(),
 });
 
 export const SearchFilmsQuerySchema = z.object({
-  q: z.string(),
+  q: z.string().nullable().optional(),
 });
 
 export const GetFilmOptionsQuerySchema = z.object({
   q: z.string().optional(),
-  selected: z.array(z.number()).optional(),
+  selected: getArrayFromQuery(z.coerce.number()).optional(),
 });
 
 export const GetFilmRelatedChaptersSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   key: z.string(),
 });
 
 export const GetAdminListQuerySchema = z
   .object({
     q: z.string().optional().nullable(),
-    pageIndex: z.number().optional(),
+    pageIndex: z.coerce.number().optional(),
     orderKey: z.string().optional(),
     order: z.enum(['asc', 'desc']).optional(),
   })
   .partial();
 
 export const UpdateFilmWatchCounterInputSchema = z.object({
-  counter: z.number().min(0).max(1000),
+  counter: z.coerce.number().min(0).max(1000),
 });
 
 const TrailerSchema = z.object({
-  id: z.number(),
-  filmId: z.number(),
+  id: z.coerce.number(),
+  filmId: z.coerce.number(),
   videoId: z.string(),
-  order: z.number(),
+  order: z.coerce.number(),
   createdAt: z.date(),
   updatedAt: z.date(),
 });
 
 const ChapterSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   poster: z.string(),
-  chapterOrder: z.number().nullable(),
+  chapterOrder: z.coerce.number().nullable(),
 });
 
 export const FilmResponseSchema = z.object({
   ...ChapterSchema.shape,
   type: z.enum(TitleType),
-  duration: z.number(),
+  duration: z.coerce.number(),
   description: z.string().nullable(),
-  rating: z.number(),
+  rating: z.coerce.number(),
   watchCounter: z
     .object({
-      realCounter: z.number().nullable(),
-      approxCounter: z.number().nullable(),
+      realCounter: z.coerce.number().nullable(),
+      approxCounter: z.coerce.number().nullable(),
     })
     .nullable(),
   releaseDate: z.date(),
-  budget: z.number().nullable(),
-  boxOffice: z.number().nullable(),
+  budget: z.coerce.number().nullable(),
+  boxOffice: z.coerce.number().nullable(),
   draft: z.boolean(),
   chapterKey: z.string().nullable(),
   genres: z.array(GenreResponseSchema),
@@ -108,8 +109,8 @@ export const FilmResponseSchema = z.object({
   ),
   seriesExtension: z
     .object({
-      episodesTotal: z.number(),
-      seasonsTotal: z.number(),
+      episodesTotal: z.coerce.number(),
+      seasonsTotal: z.coerce.number(),
       finishedAt: z.date().nullable(),
     })
     .nullable(),
@@ -118,7 +119,7 @@ export const FilmResponseSchema = z.object({
       role: z.enum(PersonRole),
       people: z.array(
         z.object({
-          id: z.number(),
+          id: z.coerce.number(),
           name: z.string(),
           comment: z.string().nullable(),
           details: z.string().nullable(),
@@ -132,7 +133,7 @@ export const FilmsListResponseSchema = z.object({
   films: z.array(
     FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true }),
   ),
-  total: z.number(),
+  total: z.coerce.number(),
   additionalInfo: z
     .object({
       type: z.enum(['crew']),
@@ -166,7 +167,7 @@ export const FilmsSearchResponseSchema = z.array(
 
 export const FilmsAdminListResponseSchema = z.object({
   films: z.array(FilmResponseSchema.pick({ id: true, title: true, draft: true })),
-  total: z.number(),
+  total: z.coerce.number(),
 });
 
 export const FilmAdminResponseSchema = FilmResponseSchema.pick({

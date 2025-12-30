@@ -18,7 +18,7 @@ export const fetchWrapper = createFetchWrapper({
           throw new HttpError(error.response.status, error.response.statusText, error.response);
         }
 
-        const res = await fetch('/auth/refresh', {
+        const res = await fetch('/api/auth/refresh', {
           method: 'POST',
           credentials: 'include',
         });

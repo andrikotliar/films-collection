@@ -102,7 +102,7 @@ export default createRouter([
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('filmsService')
-        .getRelatedChapters(request.params.id, request.params.key);
+        .getRelatedChapters(request.params.key);
 
       return { data };
     },

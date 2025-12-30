@@ -12,6 +12,8 @@ import {
   type QueryParams,
 } from '~/shared';
 import { FilterOptions } from '~/routes/_home/-components/filters/components';
+import { zodResolver } from '@hookform/resolvers/zod';
+import z from 'zod';
 
 type FiltersProps = {
   config: FilterItem[];
@@ -19,20 +21,37 @@ type FiltersProps = {
   updateFiltersCount: (value: number) => void;
 };
 
-type FilmsListFilters = QueryParams<typeof api.films.list>;
-
-const defaultValues: FilmsListFilters = {
-  type: undefined,
-  style: undefined,
-  collectionId: undefined,
-  genreIds: undefined,
-  startDate: undefined,
-  endDate: undefined,
-  countryIds: undefined,
-  studioIds: undefined,
+const defaultValues = {
+  genreIds: [],
+  countryIds: [],
+  studioIds: [],
+  type: null,
+  style: null,
+  collectionId: '0',
 };
 
 const routeApi = getRouteApi('/_home/');
+
+const FiltersSchema = z.object({
+  genreIds: z.array(z.coerce.number()),
+  countryIds: z.array(z.coerce.number()),
+  studioIds: z.array(z.coerce.number()),
+  type: z.string().nullable(),
+  style: z.string().nullable(),
+  startDate: z.string(),
+  endDate: z.string(),
+  collectionId: z.coerce.number(),
+});
+
+const getDefaultValues = (search: QueryParams<typeof api.films.list>) => {
+  return {
+    ...search,
+    genreIds: search.genreIds?.map((genre) => String(genre)),
+    countryIds: search.countryIds?.map((country) => String(country)),
+    collectionId: search.collectionId?.toString(),
+    studioIds: search.studioIds?.map((studio) => String(studio)),
+  };
+};
 
 export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
   const navigate = routeApi.useNavigate();
@@ -41,10 +60,14 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
   const filtersCount = countObjectKeys(routeSearch, ['skip', 'limit']);
 
   const filtersForm = useForm({
-    defaultValues,
+    defaultValues: {
+      ...defaultValues,
+      ...getDefaultValues(routeSearch),
+    },
+    resolver: zodResolver(FiltersSchema),
   });
 
-  const submitFilter = (data: FilmsListFilters) => {
+  const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
 
     navigate({
@@ -61,13 +84,12 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
 
   useEffect(() => {
     if (filtersCount > 0) {
-      filtersForm.reset(routeSearch);
       updateFiltersCount(filtersCount);
     } else {
       filtersForm.reset(defaultValues);
       updateFiltersCount(0);
     }
-  }, [routeSearch, filtersCount]);
+  }, [filtersCount]);
 
   const handleReset = () => {
     navigate({

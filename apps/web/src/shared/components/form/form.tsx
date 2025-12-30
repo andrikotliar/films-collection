@@ -1,7 +1,7 @@
 import styles from './form.module.css';
 import type { PropsWithChildren, ReactNode } from 'react';
 import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
-import z from 'zod';
+import type z from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from '~/shared/components/button/button';
 import { SaveIcon } from 'lucide-react';
@@ -60,12 +60,7 @@ export const Form = <
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
     defaultValues,
-    resolver: zodResolver(
-      z.object({
-        ...schema,
-        id: z.union([z.string(), z.number()]),
-      }),
-    ),
+    resolver: zodResolver(schema),
   });
 
   return (

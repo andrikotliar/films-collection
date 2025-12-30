@@ -52,7 +52,7 @@ export class FilmsService {
     }
 
     const chapters = film.chapterKey
-      ? await this.filmsRepository.findChapters(film.id, film.chapterKey)
+      ? await this.filmsRepository.findChapters(film.chapterKey)
       : null;
 
     const mappedFilm = mapFilmDetails(film, chapters);
@@ -73,7 +73,10 @@ export class FilmsService {
     };
   }
 
-  async searchFilm(searchString: string) {
+  async searchFilm(searchString?: string | null) {
+    if (!searchString) {
+      return [];
+    }
     const films = await this.filmsRepository.searchByTitle(searchString);
 
     return films.map((film) => ({
@@ -94,8 +97,8 @@ export class FilmsService {
     });
   }
 
-  getRelatedChapters(filmId: number, chapterKey: string) {
-    return this.filmsRepository.findChapters(filmId, chapterKey);
+  getRelatedChapters(chapterKey: string) {
+    return this.filmsRepository.findChapters(chapterKey);
   }
 
   getFilmsTotal() {

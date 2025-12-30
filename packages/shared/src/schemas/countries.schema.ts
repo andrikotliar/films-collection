@@ -5,7 +5,7 @@ export const CountryInputSchema = z.object({
 });
 
 export const CountryResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   createdAt: z.date(),
   updatedAt: z.date(),

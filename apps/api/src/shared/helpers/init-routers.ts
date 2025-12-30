@@ -1,6 +1,13 @@
 import type { FastifyInstance } from 'fastify';
+import z from 'zod';
 import { ResponseCode } from '~/shared/enums';
 import type { Route } from '~/shared/types';
+
+const ErrorSchema = z.object({
+  code: z.string().optional(),
+  message: z.string(),
+  statusCode: z.number().optional(),
+});
 
 export const initRouters = (routes: Route[]) => {
   return async (app: FastifyInstance) => {
@@ -11,7 +18,13 @@ export const initRouters = (routes: Route[]) => {
         schema: {
           ...route.schema,
           response: {
-            default: route.schema.response,
+            200: route.schema.response,
+            201: route.schema.response,
+            204: route.schema.response,
+            400: ErrorSchema,
+            401: ErrorSchema,
+            404: ErrorSchema,
+            500: ErrorSchema,
           },
         },
         preHandler: route.preHandler,

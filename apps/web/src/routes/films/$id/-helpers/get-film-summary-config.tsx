@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 import { getFormattedMoneyValue, getPluralWord, type api, type ApiResponse } from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
-import { isProfitable } from '~/routes/films/$id/-helpers/is-profitable';
 
 export type SummaryConfig = {
   id: string;
@@ -82,7 +81,7 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
       id: 'boxOffice',
       title: 'Box Office',
       content: (
-        <DataLink basePath="/" query={{ budget: film.boxOffice }} markerColor={isProfitable(film)}>
+        <DataLink basePath="/" query={{ budget: film.boxOffice }}>
           {getFormattedMoneyValue(film.boxOffice)}
         </DataLink>
       ),

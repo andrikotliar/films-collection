@@ -6,7 +6,7 @@ export const GetPageContentByPageUrlParamsSchema = z.object({
 
 export const GetPageContentListQueriesSchema = z
   .object({
-    pageIndex: z.number(),
+    pageIndex: z.coerce.number(),
   })
   .partial();
 
@@ -19,7 +19,7 @@ export const CreatePageContentInputSchema = z.object({
 export const UpdatePageContentInputSchema = CreatePageContentInputSchema.partial();
 
 export const PageContentResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   content: z.string(),
   pageKey: z.string(),
@@ -33,7 +33,7 @@ export const PageContentsListResponseSchema = z.object({
       shortContent: z.string(),
     }),
   ),
-  count: z.number(),
+  count: z.coerce.number(),
 });
 
 export const PageContentByKeyResponseSchema = PageContentResponseSchema.pick({

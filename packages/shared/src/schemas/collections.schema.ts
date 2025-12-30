@@ -9,7 +9,7 @@ export const CreateCollectionInputSchema = z.object({
 export const UpdateCollectionInputSchema = CreateCollectionInputSchema.partial();
 
 export const CollectionResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   description: z.string().nullable(),
   createdAt: z.date(),

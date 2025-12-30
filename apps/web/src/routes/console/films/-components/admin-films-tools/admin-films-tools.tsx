@@ -25,7 +25,7 @@ export const AdminFilmsTools = () => {
       search: (params) => ({
         ...params,
         pageIndex: 0,
-        q: value,
+        q: value ?? '',
       }),
     });
   });

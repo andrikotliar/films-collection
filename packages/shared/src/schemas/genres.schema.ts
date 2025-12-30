@@ -5,7 +5,7 @@ export const GenreInputSchema = z.object({
 });
 
 export const GenreResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   createdAt: z.date(),
   updatedAt: z.date(),

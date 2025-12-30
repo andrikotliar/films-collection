@@ -6,21 +6,3 @@
   background-color: var(--color-white);
   border-radius: 5px;
 }
-
-.whiteMarker {
-  background-color: var(--color-white);
-}
-
-.greenMarker {
-  padding-left: 30px;
-  background-image: linear-gradient(
-    to right,
-    var(--color-green-primary) 20%,
-    var(--color-white) 20%
-  );
-}
-
-.redMarker {
-  padding-left: 30px;
-  background-image: linear-gradient(to right, var(--color-red-light) 20%, var(--color-white) 20%);
-}

@@ -5,23 +5,25 @@ export const CreatePersonSchema = z.object({
   name: z.string(),
 });
 
-export const GetPeopleListQuerySchema = z.object({
-  pageIndex: z.number(),
-  q: z.string().optional().nullable(),
-  role: z.enum(PersonRole),
-});
+export const GetPeopleListQuerySchema = z
+  .object({
+    pageIndex: z.coerce.number(),
+    q: z.string().optional().nullable(),
+    role: z.enum(PersonRole),
+  })
+  .partial();
 
 export const SearchPersonSchema = z
   .object({
     q: z.string(),
-    selected: z.array(z.number()),
+    selected: z.array(z.coerce.number()),
   })
   .partial();
 
 export const UpdatePersonInputSchema = CreatePersonSchema.partial();
 
 export const PersonResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   name: z.string(),
   selected: z.boolean(),
   createdAt: z.date(),
@@ -29,8 +31,8 @@ export const PersonResponseSchema = z.object({
 });
 
 export const PeopleListResponseSchema = z.object({
-  list: z.array(PersonResponseSchema),
-  total: z.number(),
+  list: z.array(PersonResponseSchema.pick({ id: true, name: true })),
+  total: z.coerce.number(),
 });
 
 export type GetPeopleListQuery = z.infer<typeof GetPeopleListQuerySchema>;

@@ -249,11 +249,10 @@ export class FilmsRepository {
     >`SELECT id FROM films WHERE EXTRACT(MONTH FROM release_date) = ${month} AND EXTRACT(DAY FROM release_date) = ${date}`;
   }
 
-  findChapters(filmId: number, chapterKey: string) {
+  findChapters(chapterKey: string) {
     const where: Prisma.FilmWhereInput = {
       chapterKey,
       deletedAt: null,
-      id: filmId,
     };
 
     return this.databaseClient.film.findMany({

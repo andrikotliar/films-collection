@@ -1,5 +1,5 @@
 import { CheckIcon } from 'lucide-react';
-import styles from "./checkbox.module.css";
+import styles from './checkbox.module.css';
 import { type ComponentProps, forwardRef, type ReactNode } from 'react';
 
 export type CheckboxProps = {

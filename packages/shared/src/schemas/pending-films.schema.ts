@@ -1,37 +1,38 @@
 import z from 'zod';
+import { getArrayFromQuery } from '~/helpers';
 
 export const CreatePendingFilmInputSchema = z.object({
   title: z.string(),
-  priority: z.number().min(1).max(3),
-  collectionId: z.number().min(1).nullable(),
-  rating: z.number().min(1).max(3).nullable(),
+  priority: z.coerce.number().min(1).max(3),
+  collectionId: z.coerce.number().min(1).nullable(),
+  rating: z.coerce.number().min(1).max(3).nullable(),
 });
 
 export const GetPendingFilmsListQuerySchema = z
   .object({
     q: z.string(),
-    pageIndex: z.number(),
+    pageIndex: z.coerce.number(),
     orderKey: z.string(),
     order: z.enum(['asc', 'desc']),
-    priorities: z.array(z.number().min(1).max(3)),
+    priorities: getArrayFromQuery(z.coerce.number().min(1).max(3)),
   })
   .partial();
 
 export const UpdatePendingFilmInputSchema = CreatePendingFilmInputSchema.partial();
 
 export const PendingFilmResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
-  priority: z.number().min(1).max(3),
-  rating: z.number().min(1).max(3).nullable(),
-  collectionId: z.number().nullable(),
+  priority: z.coerce.number().min(1).max(3),
+  rating: z.coerce.number().min(1).max(3).nullable(),
+  collectionId: z.coerce.number().nullable(),
   createdAt: z.date(),
   updatedAt: z.date(),
 });
 
 export const PendingFilmsListResponseSchema = z.object({
   list: z.array(PendingFilmResponseSchema),
-  total: z.number(),
+  total: z.coerce.number(),
 });
 
 export const PendingFilmByIdResponseSchema = PendingFilmResponseSchema.omit({

@@ -1,7 +1,7 @@
 import z from 'zod';
 
 const NominationInputSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   shouldIncludeActor: z.boolean(),
 });
@@ -15,7 +15,7 @@ export const CreateAwardInputSchema = z.object({
 export const UpdateAwardInputSchema = CreateAwardInputSchema.partial();
 
 export const AwardResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   description: z.string().nullable(),
   createdAt: z.date(),
@@ -31,7 +31,7 @@ export const AwardsListResponseSchema = z.array(
 
 export const AwardWithNominationsResponseSchema = z
   .object({
-    ...AwardResponseSchema.shape,
+    ...AwardResponseSchema.omit({ createdAt: true, updatedAt: true }).shape,
     nominations: z.array(NominationInputSchema),
   })
   .nullable();

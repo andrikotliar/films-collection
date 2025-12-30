@@ -5,7 +5,7 @@ export const StudioInputSchema = z.object({
 });
 
 export const StudioResponseSchema = z.object({
-  id: z.number(),
+  id: z.coerce.number(),
   title: z.string(),
   createdAt: z.date(),
   updatedAt: z.date(),

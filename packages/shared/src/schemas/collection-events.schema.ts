@@ -2,18 +2,18 @@ import z from 'zod';
 
 export const CreateCollectionEventInputSchema = z.object({
   title: z.string(),
-  collectionId: z.number(),
-  startDateCode: z.number().min(101).max(1231),
-  endDateCode: z.number().min(101).max(1231),
-  yearFrom: z.number(),
-  titleFilmId: z.number(),
+  collectionId: z.coerce.number(),
+  startDateCode: z.coerce.number().min(101).max(1231),
+  endDateCode: z.coerce.number().min(101).max(1231),
+  yearFrom: z.coerce.number(),
+  titleFilmId: z.coerce.number(),
 });
 
 export const UpdateCollectionEventInputSchema = CreateCollectionEventInputSchema.partial();
 
 export const CollectionEventResponseSchema = z.object({
   ...CreateCollectionEventInputSchema.shape,
-  id: z.number(),
+  id: z.coerce.number(),
   createdAt: z.date(),
   updatedAt: z.date(),
 });
@@ -26,14 +26,14 @@ export const CollectionEventsListResponseSchema = z.array(
       createdAt: true,
       updatedAt: true,
     }).shape,
-    filmsCount: z.number(),
+    filmsCount: z.coerce.number(),
     collection: z.object({
-      id: z.number(),
+      id: z.coerce.number(),
       title: z.string(),
     }),
     film: z
       .object({
-        id: z.number(),
+        id: z.coerce.number(),
         poster: z.string(),
       })
       .nullable(),
