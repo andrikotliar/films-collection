@@ -24,6 +24,9 @@ const EnvSchema = z.object({
 export type EnvVariables = z.infer<typeof EnvSchema>;
 
 const getEnvVariables = (): EnvVariables => {
+  if (process.env.SKIP_ENV_VALIDATION) {
+    return process.env as unknown as EnvVariables;
+  }
   return EnvSchema.parse(process.env);
 };
 
