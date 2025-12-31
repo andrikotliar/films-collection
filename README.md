@@ -13,10 +13,10 @@ A personal list of films with manually collected data. The app primarily focuses
 - React
 - Vite
 - TypeScript
-- *TanStack Router*
-- *TanStack Query*
-- *React Hook Form*
-- *Lucide Icons*
+- TanStack Router
+- TanStack Query
+- React Hook Form
+- Zod
 
 ### Backend
 
@@ -24,9 +24,8 @@ A personal list of films with manually collected data. The app primarily focuses
 - PostgreSQL
 - TypeScript
 - Docker
-- *Prisma*
-- *SWC*
-- *tsx*
+- Prisma
+- Zod
 
 ## Start development server
 
