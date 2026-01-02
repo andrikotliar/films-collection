@@ -25,7 +25,7 @@ export const RoleItem = ({ data }: RoleItemProps) => {
       >
         {data.people.map((person) => (
           <li key={person.id} className={styles.list_item}>
-            <div className={styles.link_wrapper}>
+            <div className={clsx(!isActorRole && styles.link_wrapper)}>
               <RouterLink
                 to="/"
                 search={{
@@ -36,9 +36,9 @@ export const RoleItem = ({ data }: RoleItemProps) => {
                 {person.name}
               </RouterLink>
               {isActorRole && (
-                <div>
-                  <span className={styles.person_small_text}>as</span> {person.details}
-                </div>
+                <>
+                  <span className={styles.person_as_text}>as</span> {person.details}
+                </>
               )}
             </div>
             {person.comment && <span className={styles.person_small_text}>({person.comment})</span>}
