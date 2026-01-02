@@ -6,11 +6,11 @@ import type { UploadPayload } from './types';
 import { destinationParams } from '~/services/files/configs';
 
 export class FilesService {
-  constructor({ env }: Deps<'env'>) {
+  constructor({ configService }: Deps<'configService'>) {
     cloudinary.config({
-      cloud_name: env.CLOUDINARY_CLOUD_NAME,
-      api_key: env.CLOUDINARY_API_KEY,
-      api_secret: env.CLOUDINARY_API_SECRET,
+      cloud_name: configService.getKey('CLOUDINARY_CLOUD_NAME'),
+      api_key: configService.getKey('CLOUDINARY_API_KEY'),
+      api_secret: configService.getKey('CLOUDINARY_API_SECRET'),
     });
   }
 

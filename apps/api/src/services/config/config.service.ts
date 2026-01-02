@@ -23,11 +23,16 @@ const EnvSchema = z.object({
 
 export type EnvVariables = z.infer<typeof EnvSchema>;
 
-const getEnvVariables = (): EnvVariables => {
-  if (process.env.SKIP_ENV_VALIDATION) {
-    return process.env as unknown as EnvVariables;
-  }
-  return EnvSchema.parse(process.env);
-};
+export class ConfigService {
+  private env: EnvVariables | undefined;
 
-export const env = getEnvVariables();
+  getKey<K extends keyof EnvVariables>(key: K): z.infer<typeof EnvSchema>[K] {
+    if (!this.env) {
+      this.env = EnvSchema.parse(process.env);
+
+      return this.env[key];
+    }
+
+    return this.env[key];
+  }
+}

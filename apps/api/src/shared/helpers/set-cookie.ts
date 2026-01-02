@@ -1,14 +1,16 @@
-import { FastifyReply } from 'fastify';
-import { CookieName, CookieNameId, env } from '~/shared';
+import type { FastifyReply } from 'fastify';
+import type { ConfigService } from '~/services/config';
+import { CookieName, type CookieNameId } from '~/shared';
 
 type Options = {
   value: string;
   name: CookieNameId;
   maxAge: number;
+  configService: ConfigService;
 };
 
 export const setCookie = (reply: FastifyReply, options: Options) => {
-  const isDevelopment = env.NODE_ENV === 'development';
+  const isDevelopment = options.configService.getKey('NODE_ENV') === 'development';
 
   const cookieName = CookieName[options.name];
 

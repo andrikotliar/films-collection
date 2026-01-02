@@ -16,8 +16,6 @@ RUN pnpm --filter ./packages/fetch-wrapper build
 
 RUN pnpm db:client:generate
 
-ENV SKIP_ENV_VALIDATION=true
-
 RUN pnpm --filter ./apps/api build
 
 RUN pnpm api:generate

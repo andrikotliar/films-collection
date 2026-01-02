@@ -13,6 +13,7 @@ import { PendingFilmsRepository, PendingFilmsService } from '~/services/pending-
 import { PeopleRepository, PeopleService } from '~/services/people';
 import { StudiosRepository, StudiosService } from '~/services/studios';
 import { UsersRepository, UsersService } from '~/services/users';
+import { ConfigService } from '~/services/config';
 
 export const services = {
   authService: AuthService,
@@ -42,4 +43,5 @@ export const services = {
   studiosService: StudiosService,
   usersRepository: UsersRepository,
   usersService: UsersService,
+  configService: ConfigService,
 };
