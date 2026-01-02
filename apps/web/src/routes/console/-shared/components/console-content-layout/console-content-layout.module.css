@@ -1,6 +1,7 @@
 .content_layout {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 20px;
   max-width: 1024px;
   margin: 0 auto;

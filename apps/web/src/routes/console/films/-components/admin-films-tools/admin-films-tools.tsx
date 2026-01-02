@@ -47,15 +47,13 @@ export const AdminFilmsTools = () => {
         onChange={handleSearch}
         defaultValue={searchParams.q ?? ''}
       />
-      <div>
-        <SortingPopup
-          fields={sortingFields}
-          onSorting={handleApplySorting}
-          buttonSize="large"
-          defaultOrderKey={searchParams.orderKey}
-          defaultOrder={searchParams.order}
-        />
-      </div>
+      <SortingPopup
+        fields={sortingFields}
+        onSorting={handleApplySorting}
+        buttonSize="large"
+        defaultOrderKey={searchParams.orderKey}
+        defaultOrder={searchParams.order}
+      />
     </div>
   );
 };
