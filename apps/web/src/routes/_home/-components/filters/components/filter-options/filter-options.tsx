@@ -13,9 +13,10 @@ export const FilterOptions = ({ filter }: FilterOptionsProps) => {
             <Form.Checkbox
               type={filter.inputType}
               label={option.label}
-              value={option.value.toString()}
+              value={option.value}
               name={filter.id}
               key={option.value}
+              isNumeric={typeof option.value === 'number'}
             />
           ))}
         </Form.Group>
