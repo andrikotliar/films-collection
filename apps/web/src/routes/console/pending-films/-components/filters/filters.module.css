@@ -1,9 +1,9 @@
 .filters_row {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   gap: 20px;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .search {

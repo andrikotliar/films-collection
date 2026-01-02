@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(var(--cols), 1fr);
   gap: 20px;
+  width: 100%;
 }
 
 .link {

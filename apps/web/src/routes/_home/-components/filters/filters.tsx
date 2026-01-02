@@ -3,14 +3,7 @@ import { type Dispatch, type SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
-import {
-  countObjectKeys,
-  filterValues,
-  type FilterItem,
-  Button,
-  type api,
-  type QueryParams,
-} from '~/shared';
+import { countObjectKeys, filterValues, type FilterItem, Button } from '~/shared';
 import { FilterOptions } from '~/routes/_home/-components/filters/components';
 import { zodResolver } from '@hookform/resolvers/zod';
 import z from 'zod';
@@ -21,37 +14,26 @@ type FiltersProps = {
   updateFiltersCount: (value: number) => void;
 };
 
-const defaultValues = {
-  genreIds: [],
-  countryIds: [],
-  studioIds: [],
-  type: null,
-  style: null,
-  collectionId: '0',
-};
-
-const routeApi = getRouteApi('/_home/');
-
 const FiltersSchema = z.object({
   genreIds: z.array(z.coerce.number()),
   countryIds: z.array(z.coerce.number()),
   studioIds: z.array(z.coerce.number()),
   type: z.string().nullable(),
   style: z.string().nullable(),
-  startDate: z.string(),
-  endDate: z.string(),
-  collectionId: z.coerce.number(),
+  startDate: z.string().optional(),
+  endDate: z.string().optional(),
+  collectionId: z.coerce.number().optional(),
 });
 
-const getDefaultValues = (search: QueryParams<typeof api.films.list>) => {
-  return {
-    ...search,
-    genreIds: search.genreIds?.map((genre) => String(genre)),
-    countryIds: search.countryIds?.map((country) => String(country)),
-    collectionId: search.collectionId?.toString(),
-    studioIds: search.studioIds?.map((studio) => String(studio)),
-  };
+const defaultValues: z.infer<typeof FiltersSchema> = {
+  genreIds: [],
+  countryIds: [],
+  studioIds: [],
+  type: null,
+  style: null,
 };
+
+const routeApi = getRouteApi('/_home/');
 
 export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
   const navigate = routeApi.useNavigate();
@@ -62,7 +44,7 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
   const filtersForm = useForm({
     defaultValues: {
       ...defaultValues,
-      ...getDefaultValues(routeSearch),
+      ...routeSearch,
     },
     resolver: zodResolver(FiltersSchema),
   });

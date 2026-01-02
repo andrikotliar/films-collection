@@ -29,7 +29,7 @@ A personal list of films with manually collected data. The app primarily focuses
 
 ## Start development server
 
-1. In the project root, run `pnpm i` to install dependencies for both the frontend and backend.
+1. In the project root, run `pnpm install` to install dependencies for both the frontend and backend.
 2. Create `.env` files in the `apps/api` and `apps/web` directories following examples from the `./apps/api/.env.sample` and `./apps/web/.env.sample` respectively.
 3. Run `pnpm db:start` to spin up a database.
 4. Run `pnpm db:init` in the root. It will run migrations.

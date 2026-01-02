@@ -1,5 +1,5 @@
 import { api, queryKeys } from '~/shared/services';
-import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { queryOptions, useQuery } from '@tanstack/react-query';
 
 export const getFilmsSearchQueryOptions = (searchString: string | null) => {
   return queryOptions({
@@ -15,5 +15,5 @@ export const getFilmsSearchQueryOptions = (searchString: string | null) => {
 };
 
 export const useFilmsSearch = (searchString: string | null) => {
-  return useSuspenseQuery(getFilmsSearchQueryOptions(searchString));
+  return useQuery(getFilmsSearchQueryOptions(searchString));
 };

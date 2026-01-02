@@ -60,7 +60,8 @@
 }
 
 @media (max-width: 480px) {
-  .search_wrapper:has(input:focus) {
+  .search_wrapper:has(input:focus),
+  .search_wrapper:has(input:not(:placeholder-shown)) {
     position: absolute;
     left: 0;
     top: 0;

@@ -33,20 +33,15 @@
   gap: 10px;
 }
 
-.list_item {
-  border: 0;
-  display: flex;
-  flex-direction: column;
-}
-
 .link_wrapper {
   display: flex;
   gap: 5px;
 }
 
-.person_small_text {
-  font-size: var(--text-sm);
+.person_as_text {
   color: var(--color-gray-dark);
+  font-size: var(--text-sm);
+  margin-left: 5px;
 }
 
 .person_comment {

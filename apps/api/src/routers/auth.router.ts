@@ -29,17 +29,20 @@ export default createRouter([
       }
 
       await app.container.resolve('usersService').setRefreshToken(data);
+      const configService = app.container.resolve('configService');
 
       setCookie(reply, {
         name: 'ACCESS_TOKEN',
         value: data.accessToken,
         maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
+        configService,
       });
 
       setCookie(reply, {
         name: 'REFRESH_TOKEN',
         value: data.refreshToken,
         maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
+        configService,
       });
 
       return {
@@ -68,16 +71,20 @@ export default createRouter([
         });
       }
 
+      const configService = app.container.resolve('configService');
+
       setCookie(reply, {
         name: 'ACCESS_TOKEN',
         value: data.accessToken,
         maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
+        configService,
       });
 
       setCookie(reply, {
         name: 'REFRESH_TOKEN',
         value: data.refreshToken,
         maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
+        configService,
       });
 
       await app.container.resolve('usersService').setRefreshToken(data);

@@ -11,7 +11,8 @@ import {
   validatorCompiler,
 } from 'fastify-type-provider-zod';
 import { RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
-import { CookieName, env, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
+import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
+import { ConfigService } from '~/services/config';
 
 declare module 'fastify' {
   export interface FastifyInstance {
@@ -20,52 +21,60 @@ declare module 'fastify' {
   }
 }
 
-const app = fastify({
-  logger: {
-    enabled: env.NODE_ENV === 'development',
-    transport: {
-      target: '@fastify/one-line-logger',
-    },
-  },
-}).withTypeProvider<ZodTypeProvider>();
-
-app.setValidatorCompiler(validatorCompiler);
-app.setSerializerCompiler(serializerCompiler);
-
-app.register(CookiePlugin, {
-  secret: env.COOKIE_SECRET,
-});
-
-app.register(JwtPlugin, {
-  secret: env.AUTH_SECRET,
-  cookie: {
-    cookieName: CookieName.ACCESS_TOKEN,
-    signed: true,
-  },
-});
-
-app.register(MultipartPlugin, {
-  limits: {
-    fileSize: 5_000_000,
-    files: 1,
-  },
-});
-
-app.register(StaticPlugin, {
-  root: path.join(import.meta.dirname, '/public'),
-});
-
-app.register(DatabasePlugin);
-app.register(DiContainerPlugin);
-app.register(RoutesPlugin, { prefix: '/api' });
-
-app.setErrorHandler(errorHandler);
-
-app.setNotFoundHandler(notFoundHandler);
-
 const startServer = async () => {
+  const app = fastify({
+    logger: {
+      enabled: process.env.NODE_ENV === 'development',
+      transport: {
+        target: '@fastify/one-line-logger',
+      },
+    },
+  }).withTypeProvider<ZodTypeProvider>();
+
+  app.setValidatorCompiler(validatorCompiler);
+  app.setSerializerCompiler(serializerCompiler);
+
+  let configService: ConfigService | null = new ConfigService();
+
+  app.register(CookiePlugin, {
+    secret: configService.getKey('COOKIE_SECRET'),
+  });
+
+  app.register(JwtPlugin, {
+    secret: configService.getKey('AUTH_SECRET'),
+    cookie: {
+      cookieName: CookieName.ACCESS_TOKEN,
+      signed: true,
+    },
+  });
+
+  app.register(MultipartPlugin, {
+    limits: {
+      fileSize: 5_000_000,
+      files: 1,
+    },
+  });
+
+  app.register(StaticPlugin, {
+    root: path.join(import.meta.dirname, '/public'),
+  });
+
+  app.register(RoutesPlugin, { prefix: '/api' });
+
+  app.setErrorHandler(errorHandler);
+
+  app.setNotFoundHandler(notFoundHandler);
+
+  await app.register(DatabasePlugin);
+  await app.register(DiContainerPlugin);
+
   try {
-    await app.listen({ port: env.SERVER_PORT, host: env.SERVER_HOST });
+    await app.listen({
+      port: configService.getKey('SERVER_PORT'),
+      host: configService.getKey('SERVER_HOST'),
+    });
+
+    configService = null;
   } catch (error: any) {
     app.log.error(error?.message);
 

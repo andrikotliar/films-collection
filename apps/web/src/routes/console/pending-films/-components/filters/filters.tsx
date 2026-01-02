@@ -77,7 +77,7 @@ export const Filters = () => {
   };
 
   return (
-    <div>
+    <>
       <div className={styles.filters_row}>
         <TextInput
           type="text"
@@ -86,15 +86,13 @@ export const Filters = () => {
           className={styles.search}
           placeholder="Search a film"
         />
-        <div className={styles.sortingWrapper}>
-          <SortingPopup
-            fields={sortingFields}
-            onSorting={handleApplySorting}
-            defaultOrder={searchParams.order}
-            defaultOrderKey={searchParams.orderKey}
-            buttonSize="large"
-          />
-        </div>
+        <SortingPopup
+          fields={sortingFields}
+          onSorting={handleApplySorting}
+          defaultOrder={searchParams.order}
+          defaultOrderKey={searchParams.orderKey}
+          buttonSize="large"
+        />
       </div>
       <div className={styles.priorities_filter}>
         <FieldLabel>Filter by Priority:</FieldLabel>
@@ -111,6 +109,6 @@ export const Filters = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
