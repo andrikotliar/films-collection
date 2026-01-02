@@ -12,6 +12,7 @@ import {
 } from 'fastify-type-provider-zod';
 import { RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
 import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
+import { ConfigService } from '~/services/config';
 
 declare module 'fastify' {
   export interface FastifyInstance {
@@ -33,10 +34,7 @@ const startServer = async () => {
   app.setValidatorCompiler(validatorCompiler);
   app.setSerializerCompiler(serializerCompiler);
 
-  await app.register(DatabasePlugin);
-  await app.register(DiContainerPlugin);
-
-  const configService = app.container.resolve('configService');
+  let configService: ConfigService | null = new ConfigService();
 
   app.register(CookiePlugin, {
     secret: configService.getKey('COOKIE_SECRET'),
@@ -67,12 +65,16 @@ const startServer = async () => {
 
   app.setNotFoundHandler(notFoundHandler);
 
+  await app.register(DatabasePlugin);
+  await app.register(DiContainerPlugin);
+
   try {
     await app.listen({
-      // port: configService.getKey('SERVER_PORT'),
-      // host: configService.getKey('SERVER_HOST'),
-      port: 5000,
+      port: configService.getKey('SERVER_PORT'),
+      host: configService.getKey('SERVER_HOST'),
     });
+
+    configService = null;
   } catch (error: any) {
     app.log.error(error?.message);
 
