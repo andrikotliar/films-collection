@@ -16,7 +16,6 @@ export const FilterOptions = ({ filter }: FilterOptionsProps) => {
               value={option.value}
               name={filter.id}
               key={option.value}
-              isNumeric={typeof option.value === 'number'}
             />
           ))}
         </Form.Group>

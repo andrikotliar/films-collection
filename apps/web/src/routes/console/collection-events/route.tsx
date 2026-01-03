@@ -19,7 +19,7 @@ import { CreateCollectionEventInputSchema } from '@films-collection/shared';
 
 export const CollectionEventFormSchema = CreateCollectionEventInputSchema.extend({
   id: IdSchema,
-  isOneDayEvent: z.boolean().default(false),
+  isOneDayEvent: z.boolean(),
 });
 
 export const Route = createFileRoute('/console/collection-events')({

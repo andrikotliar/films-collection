@@ -6,7 +6,7 @@ export const CreateCollectionEventInputSchema = z.object({
   startDateCode: z.coerce.number().min(101).max(1231),
   endDateCode: z.coerce.number().min(101).max(1231),
   yearFrom: z.coerce.number(),
-  titleFilmId: z.coerce.number(),
+  titleFilmId: z.coerce.number().min(1, { error: 'Title film cannot be empty' }),
 });
 
 export const UpdateCollectionEventInputSchema = CreateCollectionEventInputSchema.partial();

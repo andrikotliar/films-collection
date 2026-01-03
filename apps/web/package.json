@@ -15,7 +15,7 @@
     "@films-collection/eslint-config": "workspace:^",
     "@films-collection/fetch-wrapper": "workspace:^",
     "@films-collection/shared": "workspace:^",
-    "@hookform/resolvers": "^3.9.1",
+    "@hookform/resolvers": "^5.2.2",
     "@tanstack/react-query": "^5.56.2",
     "@tanstack/react-router": "^1.85.0",
     "@tiptap/pm": "^2.11.7",
@@ -25,7 +25,7 @@
     "lucide-react": "^0.466.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-hook-form": "^7.51.4",
+    "react-hook-form": "^7.69.0",
     "sanitize-html": "^2.15.0",
     "zod": "4.1.11"
   },
