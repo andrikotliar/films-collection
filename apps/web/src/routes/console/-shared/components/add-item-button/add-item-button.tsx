@@ -5,9 +5,5 @@ import type { PropsWithChildren } from 'react';
 type AddItemButtonProps = Omit<ButtonProps, 'variant' | 'icon'>;
 
 export const AddItemButton = (props: PropsWithChildren<AddItemButtonProps>) => {
-  return (
-    <div>
-      <Button variant="light" icon={<PlusIcon />} {...props} />
-    </div>
-  );
+  return <Button variant="light" icon={<PlusIcon />} {...props} />;
 };

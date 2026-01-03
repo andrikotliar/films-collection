@@ -8,7 +8,6 @@ import {
   type FormComponentProps,
   type StatusColor,
 } from '~/shared';
-
 import { getFormTitle } from '~/routes/console/-shared';
 import type z from 'zod';
 import { PendingFilmFormSchema } from '~/routes/console/pending-films/-schemas';
@@ -40,12 +39,13 @@ export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormPr
         <FieldLabel>Priority</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (
-            <Form.StatusFilterButton
-              name="priority"
-              title={option.label}
-              value={String(option.value)}
+            <Form.Checkbox
               key={option.value}
-              color={option.color as StatusColor}
+              label={option.label}
+              value={option.value}
+              name="priority"
+              type="checkbox"
+              theme={option.color as StatusColor}
             />
           ))}
         </div>

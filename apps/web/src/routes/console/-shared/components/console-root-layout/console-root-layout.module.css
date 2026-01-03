@@ -1,14 +1,16 @@
 .console_layout {
-  --console-header-height: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--header-height));
+  background-color: var(--color-gray-invisible);
 }
 
 .console_page {
   display: flex;
   align-items: flex-start;
-  background-color: var(--color-gray-invisible);
-}
-
-.console_working_area {
-  flex-grow: 1;
   padding: 20px;
+  flex-grow: 1;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
 }

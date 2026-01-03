@@ -1,10 +1,15 @@
 import { type MenuConfigItem } from '../types';
 import {
+  BuildingIcon,
   CalendarIcon,
   CalendarSyncIcon,
   ClapperboardIcon,
-  Grid2X2PlusIcon,
+  LibraryIcon,
+  MapIcon,
   NewspaperIcon,
+  TrophyIcon,
+  UserIcon,
+  VideotapeIcon,
 } from 'lucide-react';
 
 export const consoleMenuConfig: MenuConfigItem[] = [
@@ -21,10 +26,40 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     icon: <ClapperboardIcon />,
   },
   {
-    id: 'general',
-    route: '/console/general',
-    title: 'General',
-    icon: <Grid2X2PlusIcon />,
+    id: 'genres',
+    route: '/console/genres',
+    title: 'Genres',
+    icon: <VideotapeIcon />,
+  },
+  {
+    id: 'countries',
+    route: '/console/countries',
+    title: 'Countries',
+    icon: <MapIcon />,
+  },
+  {
+    id: 'studios',
+    route: '/console/studios',
+    title: 'Studios',
+    icon: <BuildingIcon />,
+  },
+  {
+    id: 'collections',
+    route: '/console/collections',
+    title: 'Collections',
+    icon: <LibraryIcon />,
+  },
+  {
+    id: 'awards',
+    route: '/console/awards',
+    title: 'Awards',
+    icon: <TrophyIcon />,
+  },
+  {
+    id: 'people',
+    route: '/console/people',
+    title: 'Actors and Creators',
+    icon: <UserIcon />,
   },
   {
     id: 'collection-events',

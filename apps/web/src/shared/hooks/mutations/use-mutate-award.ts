@@ -8,7 +8,7 @@ export const useMutateAward = () => {
     mutationFn: mutateEntity(api.awards.create, api.awards.patch),
     onSuccess: () => {
       navigate({
-        to: '/console/general/awards',
+        to: '/console/awards',
       });
     },
   });

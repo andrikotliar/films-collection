@@ -7,7 +7,7 @@
   padding: 0 20px;
   border-bottom: var(--border-default);
   background-color: white;
-  height: var(--console-header-height);
+  height: 40px;
   z-index: 5;
 }
 
@@ -38,8 +38,30 @@
   color: var(--color-blue-primary);
 }
 
+.console_menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 20px;
+}
+
+.console_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.console_link:hover {
+  color: var(--color-blue-primary);
+}
+
 @media (max-width: 785px) {
   .console_header_title {
     font-size: 14px;
+  }
+
+  .console_menu {
+    grid-template-columns: 1fr;
   }
 }
