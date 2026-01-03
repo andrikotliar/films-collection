@@ -23,7 +23,7 @@ export const mainMenu: MenuConfigItem[] = [
   {
     id: 'console',
     title: 'Console',
-    route: '/console/pending-films',
+    route: '/console',
     icon: <FolderCogIcon />,
   },
 ];
