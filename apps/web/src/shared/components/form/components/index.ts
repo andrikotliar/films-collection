@@ -11,7 +11,6 @@ export * from './form-month-date-selector/form-month-date-selector';
 export * from './form-rating-input/form-rating-input';
 export * from './form-section/form-section';
 export * from './form-select/form-select';
-export * from './form-status-filter-button/form-status-filter-button';
 export * from './form-text-area/form-text-area';
 export * from './form-text-editor/form-text-editor';
 export * from './form-text-input/form-text-input';

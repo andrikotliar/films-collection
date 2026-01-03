@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #c6c6c6;
+  border: 1px solid var(--checkbox-theme-border);
   width: 22px;
   height: 22px;
   padding: 3px;
@@ -27,12 +27,12 @@
   border-radius: 50px;
 }
 .checkbox input:checked + .icon_wrapper {
-  background-color: var(--color-blue-primary);
-  border-color: var(--color-blue-primary);
+  background-color: var(--checkbox-theme-bg);
+  border-color: var(--checkbox-theme-border);
 }
 .checkbox input:checked + .icon_wrapper .icon {
   display: block;
-  color: var(--color-white);
+  color: var(--checkbox-theme-text, var(--color-black));
 }
 .title {
   display: flex;
@@ -44,5 +44,32 @@
   user-select: none;
 }
 .checkbox:hover .title {
-  color: var(--color-blue-primary);
+  color: var(--checkbox-theme-border);
+}
+
+.blueTheme {
+  --checkbox-theme-bg: var(--color-blue-primary);
+  --checkbox-theme-border: var(--color-blue-primary);
+  --checkbox-theme-text: var(--color-white);
+}
+
+.redTheme {
+  --checkbox-theme-bg: var(--color-red-primary);
+  --checkbox-theme-border: var(--color-red-primary);
+  --checkbox-theme-text: var(--color-white);
+}
+
+.yellowTheme {
+  --checkbox-theme-bg: var(--color-yellow-primary);
+  --checkbox-theme-border: var(--color-yellow-primary);
+}
+
+.grayTheme {
+  --checkbox-theme-bg: var(--color-gray-primary);
+  --checkbox-theme-border: var(--color-gray-primary);
+}
+
+.greenTheme {
+  --checkbox-theme-bg: var(--color-green-dark);
+  --checkbox-theme-border: var(--color-green-primary);
 }

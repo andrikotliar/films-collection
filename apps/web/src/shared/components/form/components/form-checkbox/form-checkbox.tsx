@@ -23,7 +23,7 @@ export const FormCheckbox = ({ name, ...props }: FormFieldProps<CheckboxProps>) 
     formValue: string | number | any[] | boolean,
     onChange: (...event: any[]) => void,
   ) => {
-    if (typeof formValue === 'boolean') {
+    if (typeof formValue === 'boolean' && !checkboxValue) {
       onChange(!formValue);
       return;
     }

@@ -19,7 +19,6 @@ import {
   FormRatingInput,
   FormSection,
   FormSelect,
-  FormStatusFilterButton,
   FormTextArea,
   FormTextEditor,
   FormTextInput,
@@ -103,7 +102,6 @@ Form.MonthDateSelector = FormMonthDateSelector;
 Form.RatingInput = FormRatingInput;
 Form.Section = FormSection;
 Form.Select = FormSelect;
-Form.StatusFilterButton = FormStatusFilterButton;
 Form.TextArea = FormTextArea;
 Form.TextEditor = FormTextEditor;
 Form.TextInput = FormTextInput;
