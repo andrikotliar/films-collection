@@ -2,22 +2,36 @@ import type { FormFieldProps } from '~/shared/types';
 import { Controller, useFormContext } from 'react-hook-form';
 import { Checkbox, type CheckboxProps } from '~/shared/components/checkbox/checkbox';
 
-export const FormCheckbox = ({
-  name,
-  isNumeric = false,
-  type = 'checkbox',
-  ...props
-}: FormFieldProps<
-  CheckboxProps & {
-    isNumeric?: boolean;
+const getCheckedValue = (formValue: unknown, checkboxValue: unknown) => {
+  if (typeof formValue === 'boolean') {
+    return formValue;
   }
->) => {
+
+  if (Array.isArray(formValue)) {
+    return formValue.includes(checkboxValue);
+  }
+
+  return formValue === checkboxValue;
+};
+
+export const FormCheckbox = ({ name, ...props }: FormFieldProps<CheckboxProps>) => {
   const { control, watch } = useFormContext();
   const watchedValue = watch(name);
 
-  const handleChange = (value: any, onChange: (...event: any[]) => void) => {
-    const transformedValue = isNumeric && !isNaN(value) ? Number(value) : value;
-    if (type === 'radio') {
+  const handleChange = (
+    checkboxValue: any,
+    formValue: string | number | any[] | boolean,
+    onChange: (...event: any[]) => void,
+  ) => {
+    if (typeof formValue === 'boolean') {
+      onChange(!formValue);
+      return;
+    }
+
+    const transformedValue =
+      typeof checkboxValue === 'number' ? Number(checkboxValue) : checkboxValue;
+
+    if (!Array.isArray(formValue)) {
       onChange(transformedValue);
       return;
     }
@@ -35,13 +49,12 @@ export const FormCheckbox = ({
     <Controller
       control={control}
       name={name}
-      defaultValue={type === 'checkbox' ? [] : undefined}
+      defaultValue={props.type === 'checkbox' && props.value !== undefined && []}
       render={({ field: { onChange, value } }) => {
         return (
           <Checkbox
-            type={type}
-            onChange={() => handleChange(props.value, onChange)}
-            checked={type === 'checkbox' ? value.includes(props.value) : value === props.value}
+            onChange={() => handleChange(props.value, value, onChange)}
+            checked={getCheckedValue(value, props.value)}
             {...props}
           />
         );

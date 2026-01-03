@@ -45,7 +45,7 @@ type FormProps<
 
 export const Form = <
   TDefaultValues extends Record<PropertyKey, unknown>,
-  TSchema extends z.ZodType,
+  TSchema extends z.ZodType<unknown>,
 >({
   children,
   onSubmit,
@@ -60,7 +60,8 @@ export const Form = <
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
     defaultValues,
-    resolver: zodResolver(schema),
+    // TODO: fix types for zod schema
+    resolver: zodResolver(schema as any),
   });
 
   return (
