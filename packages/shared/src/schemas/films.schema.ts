@@ -78,12 +78,7 @@ export const FilmResponseSchema = z.object({
   duration: z.coerce.number(),
   description: z.string().nullable(),
   rating: z.coerce.number(),
-  watchCounter: z
-    .object({
-      realCounter: z.coerce.number().nullable(),
-      approxCounter: z.coerce.number().nullable(),
-    })
-    .nullable(),
+  watchCount: z.coerce.number(),
   releaseDate: z.date(),
   budget: z.coerce.number().nullable(),
   boxOffice: z.coerce.number().nullable(),
