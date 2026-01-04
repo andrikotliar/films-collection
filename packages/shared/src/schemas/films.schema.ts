@@ -27,6 +27,7 @@ export const GetFilmsListQuerySchema = z.object({
   genreIds: getArrayFromQuery(z.coerce.number()).optional(),
   studioIds: getArrayFromQuery(z.coerce.number()).optional(),
   countryIds: getArrayFromQuery(z.coerce.number()).optional(),
+  watchCount: z.coerce.number().optional(),
 });
 
 export const SearchFilmsQuerySchema = z.object({
