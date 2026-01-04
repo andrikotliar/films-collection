@@ -1,46 +1,74 @@
 .awards {
-  border: var(--border-default);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.award {
+  font-size: 14px;
+  color: var(--color-orange-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--color-yellow-primary);
+  padding: 0 15px;
+  background-color: var(--color-yellow-extra-light);
   border-radius: var(--rounded-default);
-  overflow: hidden;
 }
 
-.award_grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 5px;
-  border-bottom: var(--border-default);
-  padding: 20px;
-  transition: background-color var(--transition-timing);
-}
-
-.award_grid:last-child {
-  border-bottom: 0;
-}
-
-.award_grid:hover {
-  background-color: var(--color-gray-light);
-}
-
-.award_title {
-  font-weight: bold;
-}
-
-.award_title:hover {
-  color: var(--color-blue-primary);
+.award_icon {
+  width: 18px;
+  height: 18px;
 }
 
 .nominations_count {
-  font-size: var(--text-sm);
+  font-weight: bold;
+  border-right: 1px solid var(--color-yellow-primary);
+  border-left: 1px solid var(--color-yellow-primary);
+  padding: 5px 10px;
+  background-color: var(--color-white);
 }
 
-.nominations_list {
+.award_modal_wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 600;
+}
+
+.award_modal_content {
+  position: relative;
+  max-width: 800px;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.close_button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nominations {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-@media (width < 480px) {
-  .award_grid {
-    grid-template-columns: 1fr;
-  }
+.award_modal_title {
+  font-size: 18px;
+  color: var(--color-yellow-primary);
+}
+
+.more_link {
+  border: 2px solid var(--color-blue-primary);
+  font-size: 14px;
+  padding: 10px 20px;
+  width: fit-content;
+  color: var(--color-blue-primary);
+  border-radius: var(--rounded-default);
+  background-color: var(--color-blue-invisible);
+  transition: background-color 300ms;
+}
+
+.more_link:hover {
+  background-color: var(--color-blue-extra-light);
 }

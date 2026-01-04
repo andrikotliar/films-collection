@@ -4,10 +4,10 @@ import { defineCssProperties, env, type api, type ApiResponse } from '~/shared';
 import {
   Poster,
   SummaryBlock,
-  TitleRow,
   TrailersButton,
 } from '~/routes/films/$id/-components/summary-section/components';
 import { getFilmSummaryConfig } from '~/routes/films/$id/-helpers';
+import { Title } from '~/routes/films/$id/-components/summary-section/components/title/title';
 
 type SummarySectionProps = {
   film: ApiResponse<typeof api.films.get>;
@@ -30,14 +30,12 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
         <TrailersButton data={film.trailers} type={film.type} />
       </div>
       <div className={styles.wrapper}>
-        <TitleRow data={film} />
-        <div className={styles.info}>
-          {filmConfig.map((item) => (
-            <SummaryBlock label={item.title} key={item.id}>
-              {item.content}
-            </SummaryBlock>
-          ))}
-        </div>
+        <Title>{film.title}</Title>
+        {filmConfig.map((item) => (
+          <SummaryBlock label={item.title} key={item.id}>
+            {item.content}
+          </SummaryBlock>
+        ))}
       </div>
     </div>
   );

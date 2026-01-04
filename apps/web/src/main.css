@@ -1,7 +1,8 @@
 :root {
   --color-blue-primary: hsl(200, 100%, 40%);
   --color-blue-light: hsl(190, 80%, 90%);
-  --color-blue-invisible: hsl(200, 100%, 95%);
+  --color-blue-extra-light: hsl(200, 100%, 95%);
+  --color-blue-invisible: hsl(200, 100%, 98%);
   --color-blue-dark: hsl(200, 100%, 30%);
 
   --color-green-primary: hsl(180, 100%, 40%);
