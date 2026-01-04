@@ -6,4 +6,5 @@ export type MenuConfigItem = {
   route: keyof FileRoutesByTo;
   title: string;
   icon: ReactNode;
+  color?: string;
 };

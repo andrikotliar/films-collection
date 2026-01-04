@@ -20,7 +20,7 @@ function PageContainer() {
   const { mutateAsync: deleteCountry, isPending: isDeletePending } = useDeleteCountry();
 
   return (
-    <ConsoleContentLayout title="Countries" backPath="/console" backPathTitle="Back to categories">
+    <ConsoleContentLayout title="Countries" backPath="/console">
       <AddItemButton onClick={() => setCountry(countryDefaultValues)}>Add country</AddItemButton>
       <List
         items={countries}

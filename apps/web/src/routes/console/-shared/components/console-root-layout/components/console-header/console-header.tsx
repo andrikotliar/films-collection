@@ -1,7 +1,7 @@
 import styles from './console-header.module.css';
 import { LayoutGridIcon, LogOutIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { Button, consoleMenuConfig, PopupMenu, useLogout } from '~/shared';
+import { Button, consoleMenuConfig, defineCssProperties, PopupMenu, useLogout } from '~/shared';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 
@@ -17,19 +17,21 @@ export const ConsoleHeader = () => {
 
   return (
     <div className={styles.console_header}>
-      <Button
-        icon={
-          <LayoutGridIcon
-            className={clsx(styles.menu_icon, {
-              [styles.menu_icon_collapsed]: !isMenuOpen,
-            })}
-            size={20}
-          />
-        }
-        variant="ghost"
-        onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
-        ref={buttonRef}
-      />
+      {location.pathname !== '/console' && (
+        <Button
+          icon={
+            <LayoutGridIcon
+              className={clsx(styles.menu_icon, {
+                [styles.menu_icon_collapsed]: !isMenuOpen,
+              })}
+              size={20}
+            />
+          }
+          variant="ghost"
+          onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
+          ref={buttonRef}
+        />
+      )}
       <div className={styles.console_header_title}>Films Collection Console</div>
       <button className={styles.logout_button} onClick={() => mutate({})}>
         <LogOutIcon size={18} />
@@ -42,7 +44,14 @@ export const ConsoleHeader = () => {
       >
         <div className={styles.console_menu}>
           {consoleMenuConfig.map((item) => (
-            <Link key={item.id} to={item.route} className={styles.console_link}>
+            <Link
+              key={item.id}
+              to={item.route}
+              className={styles.console_link}
+              style={defineCssProperties({
+                '--console-float-menu-color': `var(--${item.color})`,
+              })}
+            >
               {item.icon}
               {item.title}
             </Link>

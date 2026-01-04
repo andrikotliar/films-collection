@@ -56,7 +56,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContentLayout title="Pages Content">
+    <ConsoleContentLayout title="Pages Content" backPath="/console">
       <AddItemLink to="/console/page-content/$id" params={{ id: NEW_ITEM_ID }}>
         Add new page content
       </AddItemLink>

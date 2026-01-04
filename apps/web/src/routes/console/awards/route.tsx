@@ -30,7 +30,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContentLayout title="Awards" backPath="/console" backPathTitle="Back to categories">
+    <ConsoleContentLayout title="Awards" backPath="/console">
       <AddItemLink to="/console/awards/$id" params={{ id: NEW_ITEM_ID }}>
         Create award
       </AddItemLink>

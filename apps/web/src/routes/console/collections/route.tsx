@@ -28,11 +28,7 @@ function PageContainer() {
   const { mutateAsync: deleteCollection, isPending: isDeleting } = useDeleteCollection();
 
   return (
-    <ConsoleContentLayout
-      title="Collections"
-      backPath="/console"
-      backPathTitle="Back to categories"
-    >
+    <ConsoleContentLayout title="Collections" backPath="/console">
       <AddItemButton onClick={() => setCollection(collectionFormDefaultValues)}>
         Add collection
       </AddItemButton>

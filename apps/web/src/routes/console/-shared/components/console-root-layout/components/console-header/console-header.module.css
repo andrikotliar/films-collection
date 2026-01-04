@@ -39,21 +39,27 @@
 }
 
 .console_menu {
+  --console-menu-cols: 3;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(var(--console-menu-cols), 1fr);
   padding: 20px;
   gap: 20px;
 }
 
 .console_link {
+  color: var(--console-float-menu-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  padding: 5px;
+  border-radius: var(--rounded-default);
+  border: 1px solid transparent;
 }
 
 .console_link:hover {
-  color: var(--color-blue-primary);
+  border-color: var(--console-float-menu-color);
+  background-color: hsl(from var(--console-float-menu-color) h s l / 0.05);
 }
 
 @media (max-width: 785px) {
@@ -62,6 +68,6 @@
   }
 
   .console_menu {
-    grid-template-columns: 1fr;
+    --console-menu-cols: 2;
   }
 }

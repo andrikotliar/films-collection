@@ -52,11 +52,7 @@ function RouteComponent() {
   const { mutateAsync: deletePerson, isPending: isDeleting } = useDeletePerson();
 
   return (
-    <ConsoleContentLayout
-      title="Crew and cast"
-      backPath="/console"
-      backPathTitle="Back to categories"
-    >
+    <ConsoleContentLayout title="Crew and cast" backPath="/console">
       <AddItemButton onClick={() => setPerson(personDefaultValues)}>
         Add crew or cast member
       </AddItemButton>
