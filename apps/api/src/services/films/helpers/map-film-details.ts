@@ -10,7 +10,6 @@ import type {
   Studio,
   Country,
   Collection,
-  FilmWatchCount,
   SeriesExtension,
   FilmTrailer,
 } from '@prisma/client';
@@ -40,9 +39,6 @@ type ExtendedFilm = Omit<Film, 'createdAt' | 'updatedAt' | 'style' | 'deletedAt'
   studios: Array<{ studio: Studio }>;
   countries: Array<{ country: Country }>;
   collections: Array<{ collection: Pick<Collection, 'id' | 'title'> }>;
-  overview: {
-    text: string;
-  } | null;
   castAndCrew: Array<
     Pick<FilmPerson, 'role' | 'comment' | 'details'> & {
       person: Pick<Person, 'id' | 'name'>;
@@ -55,7 +51,6 @@ type ExtendedFilm = Omit<Film, 'createdAt' | 'updatedAt' | 'style' | 'deletedAt'
       person: Pick<Person, 'id' | 'name'> | null;
     }
   >;
-  watchCounter: Pick<FilmWatchCount, 'realCounter' | 'approxCounter'> | null;
   seriesExtension: Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'> | null;
   trailers: FilmTrailer[];
 };
@@ -117,7 +112,7 @@ export const mapFilmDetails = (
 
   return {
     ...film,
-    description: film.overview?.text ?? null,
+    description: film.overview,
     budget: film.budget ? Number(film.budget) : null,
     boxOffice: film.boxOffice ? Number(film.boxOffice) : null,
     genres: mapNestedRelations(film.genres, 'genre'),

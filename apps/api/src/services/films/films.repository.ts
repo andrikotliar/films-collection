@@ -52,11 +52,8 @@ export class FilmsRepository {
         type: true,
         draft: true,
         chapterOrder: true,
-        overview: {
-          select: {
-            text: true,
-          },
-        },
+        overview: true,
+        watchCount: true,
         genres: {
           select: {
             genre: true,
@@ -70,12 +67,6 @@ export class FilmsRepository {
         studios: {
           select: {
             studio: true,
-          },
-        },
-        watchCounter: {
-          select: {
-            realCounter: true,
-            approxCounter: true,
           },
         },
         seriesExtension: {
@@ -351,12 +342,12 @@ export class FilmsRepository {
   }
 
   updateWatchCounter(filmId: number, value: number) {
-    return this.databaseClient.filmWatchCount.update({
+    return this.databaseClient.film.update({
       where: {
-        filmId,
+        id: filmId,
       },
       data: {
-        realCounter: value,
+        watchCount: value,
       },
     });
   }

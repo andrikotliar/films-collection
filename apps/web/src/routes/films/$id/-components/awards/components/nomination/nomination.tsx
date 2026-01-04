@@ -1,3 +1,4 @@
+import { PersonRole } from '@films-collection/shared';
 import styles from './nomination.module.css';
 import { RouterLink, type api, type ApiResponse } from '~/shared';
 
@@ -13,7 +14,11 @@ export const Nomination = ({ title, comment, nominee }: NominationProps) => {
       <div>
         <div>{title}</div>
         {nominee && (
-          <RouterLink to="/" search={{ personId: nominee.id }} className={styles.nominee_link}>
+          <RouterLink
+            to="/"
+            search={{ personId: nominee.id, personRole: PersonRole.ACTOR }}
+            className={styles.nominee_link}
+          >
             {nominee.name}
           </RouterLink>
         )}

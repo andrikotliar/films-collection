@@ -1,46 +1,57 @@
 .awards {
-  border: var(--border-default);
-  border-radius: var(--rounded-default);
-  overflow: hidden;
-}
-
-.award_grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 5px;
-  border-bottom: var(--border-default);
-  padding: 20px;
-  transition: background-color var(--transition-timing);
-}
-
-.award_grid:last-child {
-  border-bottom: 0;
-}
-
-.award_grid:hover {
-  background-color: var(--color-gray-light);
-}
-
-.award_title {
-  font-weight: bold;
-}
-
-.award_title:hover {
-  color: var(--color-blue-primary);
-}
-
-.nominations_count {
-  font-size: var(--text-sm);
-}
-
-.nominations_list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
-@media (width < 480px) {
-  .award_grid {
-    grid-template-columns: 1fr;
-  }
+.award_wrapper {
+  position: relative;
+}
+
+.award {
+  font-size: 14px;
+  color: var(--color-orange-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--color-yellow-primary);
+  padding: 0 15px;
+  background-color: var(--color-yellow-extra-light);
+  border-radius: var(--rounded-default);
+}
+
+.award_icon {
+  width: 18px;
+  height: 18px;
+}
+
+.nominations_count {
+  font-weight: bold;
+  border-right: 1px solid var(--color-yellow-primary);
+  border-left: 1px solid var(--color-yellow-primary);
+  padding: 5px 10px;
+  background-color: var(--color-white);
+}
+
+.nominations_wrapper {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  background-color: var(--color-white);
+  padding: 10px;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  border-radius: var(--rounded-default);
+  box-shadow: var(--shadow-sm);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.award_wrapper:hover .nominations_wrapper {
+  visibility: visible;
+  opacity: 1;
 }

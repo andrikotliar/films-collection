@@ -17,8 +17,9 @@ model Film {
   poster           String
   budget           BigInt                @default(0)
   boxOffice        BigInt                @default(0) @map("box_office")
-  overview         FilmOverview?
+  overview         String?
   rating           Int                   @default(1)
+  watchCount       Int                   @default(0) @map("watch_count")
   chapterKey       String?               @map("chapter_key")
   chapterKeys      FilmChapterKey?       @relation(fields: [chapterKey], references: [key], onDelete: SetNull)
   chapterOrder     Int?                  @map("chapter_order")
@@ -35,7 +36,6 @@ model Film {
   trailers         FilmTrailer[]
   seriesExtension  SeriesExtension?
   collectionEvents CollectionEvent[]
-  watchCounter     FilmWatchCount?
 
   @@index([title])
   @@map("films")
@@ -51,29 +51,6 @@ model Person {
   films     FilmPerson[]
 
   @@map("people")
-}
-
-model FilmOverview {
-  id        Int      @id @default(autoincrement())
-  text      String
-  filmId    Int      @unique @map("film_id")
-  film      Film?    @relation(fields: [filmId], references: [id], onDelete: Cascade)
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
-
-  @@map("film_overview")
-}
-
-model FilmWatchCount {
-  id            Int      @id @default(autoincrement())
-  realCounter   Int      @default(0) @map("real_counter")
-  approxCounter Int      @default(0) @map("approx_counter")
-  filmId        Int      @unique @map("film_id")
-  film          Film     @relation(fields: [filmId], references: [id])
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
-
-  @@map("film_watch_counts")
 }
 
 model FilmPerson {

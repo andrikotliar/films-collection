@@ -6,19 +6,16 @@ type ReleaseDateProps = {
 };
 
 export const ReleaseDate = ({ value }: ReleaseDateProps) => {
-  const sourceDate = new Date(value);
-
   const formattedDate = getFormattedDate(value);
 
-  const startDate = `${sourceDate.getFullYear()}-01-01`;
-  const endDate = `${sourceDate.getFullYear()}-12-31`;
+  const dateOnly = value.split('T')[0];
 
   return (
     <DataLink
       basePath="/"
       query={{
-        startDate,
-        endDate,
+        startDate: dateOnly,
+        endDate: dateOnly,
       }}
     >
       {formattedDate}

@@ -2,7 +2,6 @@ export * from './film-page-layout/film-page-layout';
 export * from './content-layout/content-layout';
 export * from './summary-section/summary-section';
 export * from './description/description';
-export * from './section/section';
 export * from './release-date/release-date';
 export * from './data-link/data-link';
 export * from './links-group/links-group';

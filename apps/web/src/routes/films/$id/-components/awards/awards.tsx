@@ -1,7 +1,8 @@
+import { TrophyIcon } from 'lucide-react';
 import styles from './awards.module.css';
 import { Link } from '@tanstack/react-router';
+import { type api, type ApiResponse } from '~/shared';
 import { Nomination } from '~/routes/films/$id/-components/awards/components';
-import type { api, ApiResponse } from '~/shared';
 
 type AwardsProps = {
   data: ApiResponse<typeof api.films.get>['awards'];
@@ -10,22 +11,20 @@ type AwardsProps = {
 export const Awards = ({ data }: AwardsProps) => {
   return (
     <div className={styles.awards}>
-      {data.map(({ award, nominations }) => (
-        <div key={award.id} className={styles.award_grid}>
-          <div>
-            <h3 className={styles.award_title}>
-              <Link to="/" search={{ awardId: award.id }}>
-                {award.title}
-              </Link>
-            </h3>
-            <p className={styles.nominations_count}>
-              {nominations.length} nomination
-              {nominations.length > 1 && 's'}
-            </p>
-          </div>
-          <div className={styles.nominations_list}>
-            {nominations.map(({ title, person, comment }, index) => (
-              <Nomination title={title} key={index} nominee={person} comment={comment} />
+      {data.map((award) => (
+        <div key={award.award.id} className={styles.award_wrapper}>
+          <Link to="/" search={{ awardId: award.award.id }} className={styles.award}>
+            <TrophyIcon className={styles.award_icon} />
+            <span className={styles.award_title}>{award.award.title}</span>
+            <span className={styles.nominations_count}>{award.nominations.length}</span>
+          </Link>
+          <div className={styles.nominations_wrapper}>
+            {award.nominations.map((nomination) => (
+              <Nomination
+                title={nomination.title}
+                comment={nomination.comment}
+                nominee={nomination.person}
+              />
             ))}
           </div>
         </div>
