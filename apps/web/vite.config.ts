@@ -30,6 +30,7 @@ export default defineConfig({
         short_name: 'Films',
         background_color: '#0088cc',
         theme_color: '#0088cc',
+        display: 'standalone',
         icons: [
           {
             src: '/icons/icon-512-512.png',
