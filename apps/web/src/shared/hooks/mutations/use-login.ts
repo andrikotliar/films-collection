@@ -12,7 +12,7 @@ export const useLogin = () => {
       if (result.id) {
         LocalStorage.setItem('authenticated', true);
 
-        navigate({ to: '/console/pending-films' });
+        navigate({ to: '/console' });
       }
     },
   });
