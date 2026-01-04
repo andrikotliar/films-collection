@@ -23,7 +23,7 @@ function PageContainer() {
   const { mutateAsync: deleteStudio, isPending: isDeletePending } = useDeleteStudio();
 
   return (
-    <ConsoleContentLayout title="Studios" backPath="/console" backPathTitle="Back to categories">
+    <ConsoleContentLayout title="Studios" backPath="/console">
       <AddItemButton onClick={() => setStudio(studioInitialValues)}>Create studio</AddItemButton>
       <List
         items={data}

@@ -22,7 +22,7 @@ function PageContainer() {
   const { mutateAsync: deleteGenre, isPending: isDeletePending } = useDeleteGenre();
 
   return (
-    <ConsoleContentLayout title="Genres" backPath="/console" backPathTitle="Back to categories">
+    <ConsoleContentLayout title="Genres" backPath="/console">
       <AddItemButton onClick={() => setGenre(genreDefaultValues)}>Create genre</AddItemButton>
       <List
         items={genres}

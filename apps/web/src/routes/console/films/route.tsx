@@ -60,7 +60,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContentLayout title="Films">
+    <ConsoleContentLayout title="Films" backPath="/console">
       <AddItemLink to="/console/films/$id" params={{ id: NEW_ITEM_ID }}>
         Add new film
       </AddItemLink>

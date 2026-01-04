@@ -58,7 +58,7 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContentLayout title="Pending films">
+    <ConsoleContentLayout title="Pending films" backPath="/console">
       <AddItemButton onClick={() => setPendingFilm(defaultPendingFilm)}>
         Create pending film
       </AddItemButton>

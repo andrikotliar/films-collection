@@ -50,7 +50,7 @@ function CollectionEventsContainer() {
   };
 
   return (
-    <ConsoleContentLayout title="Collection Events">
+    <ConsoleContentLayout title="Collection Events" backPath="/console">
       <div>
         <Button
           icon={<PlusIcon />}

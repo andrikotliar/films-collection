@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { ConsoleTitle } from '~/routes/console/-shared/components/console-content-layout/components';
+import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { RootMenu } from '~/routes/console/_root/-components';
 
 export const Route = createFileRoute('/console/_root/')({
@@ -8,9 +8,8 @@ export const Route = createFileRoute('/console/_root/')({
 
 function RouteComponent() {
   return (
-    <div>
-      <ConsoleTitle>Console</ConsoleTitle>
+    <ConsoleContentLayout title="Console">
       <RootMenu />
-    </div>
+    </ConsoleContentLayout>
   );
 }
