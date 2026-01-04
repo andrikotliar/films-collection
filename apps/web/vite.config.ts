@@ -25,7 +25,9 @@ export default defineConfig({
     ReactVite(),
     TsConfigPaths(),
     VitePWA({
+      registerType: 'autoUpdate',
       manifest: {
+        id: '/',
         name: 'Films Collection',
         short_name: 'Films',
         background_color: '#0088cc',
@@ -35,10 +37,12 @@ export default defineConfig({
           {
             src: '/icons/icon-512-512.png',
             sizes: '512x512',
+            purpose: 'any maskable',
           },
           {
             src: '/icons/icon-192-192.png',
             sizes: '192x192',
+            purpose: 'any maskable',
           },
           {
             src: '/icons/icon-144-144.png',
@@ -47,14 +51,17 @@ export default defineConfig({
           {
             src: '/icons/icon-96-96.png',
             sizes: '96x96',
+            purpose: 'any maskable',
           },
           {
             src: '/icons/icon-72-72.png',
             sizes: '72x72',
+            purpose: 'any maskable',
           },
           {
             src: '/icons/icon-48-48.png',
             sizes: '48x48',
+            purpose: 'any maskable',
           },
         ],
       },
