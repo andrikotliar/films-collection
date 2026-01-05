@@ -1,12 +1,13 @@
 import styles from './current-events.module.css';
 import { EventBanner } from '~/routes/_home/-components/films-section/components/event-banner/event-banner';
 import { Link, useSearch } from '@tanstack/react-router';
-import { useInitialData } from '~/shared';
+import { getInitialDataQueryOptions } from '~/shared';
+import { useQuery } from '@tanstack/react-query';
 
 export const CurrentEvents = () => {
   const search = useSearch({ from: '/_home/' });
 
-  const { data: initialData } = useInitialData();
+  const { data: initialData } = useQuery(getInitialDataQueryOptions());
 
   if (!initialData?.events.length) {
     return null;

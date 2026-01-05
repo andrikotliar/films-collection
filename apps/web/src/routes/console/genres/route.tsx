@@ -1,40 +1,51 @@
-import { getGenresListQueryOptions, useDeleteGenre, useSuspenseGenresList } from '~/shared';
-import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
+import {
+  api,
+  getEmptyFormValues,
+  getGenresListQueryOptions,
+  queryKeys,
+  type Input,
+} from '~/shared';
+import {
+  AddItemButton,
+  ConsoleContentLayout,
+  List,
+  useFormModal,
+  withFormModal,
+} from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
-import { useState } from 'react';
 import { GenresForm } from '~/routes/console/genres/-components';
-import { genreDefaultValues } from '~/routes/console/genres/-configs';
-import type z from 'zod';
-import type { GenreFormSchema } from '~/routes/console/genres/-schemas';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/genres')({
   loader: async ({ context: { queryClient } }) => {
     return await queryClient.ensureQueryData(getGenresListQueryOptions());
   },
-  component: PageContainer,
+  component: withFormModal(GenresForm, PageContainer),
+});
+
+const genreDefaultValues = getEmptyFormValues<Input<typeof api.genres.create>>({
+  title: '',
 });
 
 function PageContainer() {
-  const { data: genres } = useSuspenseGenresList();
+  const { data: genres } = useSuspenseQuery(getGenresListQueryOptions());
+  const { onOpen } = useFormModal();
 
-  const [genre, setGenre] = useState<z.infer<typeof GenreFormSchema> | null>(null);
-
-  const { mutateAsync: deleteGenre, isPending: isDeletePending } = useDeleteGenre();
+  const { mutateAsync: deleteGenre, isPending: isDeletePending } = useMutation({
+    mutationFn: (id: number) => api.genres.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.genres.list(), queryKeys.initialData.list()],
+    },
+  });
 
   return (
     <ConsoleContentLayout title="Genres" backPath="/console">
-      <AddItemButton onClick={() => setGenre(genreDefaultValues)}>Create genre</AddItemButton>
+      <AddItemButton onClick={() => onOpen(genreDefaultValues)}>Create genre</AddItemButton>
       <List
         items={genres}
         onDelete={deleteGenre}
-        onEdit={setGenre}
+        onEdit={onOpen}
         isDeletingInProgress={isDeletePending}
-      />
-      <FormModal
-        values={genre}
-        onClose={() => setGenre(null)}
-        afterSubmitEffect={() => setGenre(null)}
-        form={GenresForm}
       />
     </ConsoleContentLayout>
   );

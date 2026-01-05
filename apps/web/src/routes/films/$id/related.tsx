@@ -1,6 +1,7 @@
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { Chapters } from '~/routes/films/$id/-components';
-import { useSuspenseFilm } from '~/shared';
+import { getFilmQueryOptions } from '~/shared';
 
 export const Route = createFileRoute('/films/$id/related')({
   component: RouteComponent,
@@ -8,7 +9,7 @@ export const Route = createFileRoute('/films/$id/related')({
 
 function RouteComponent() {
   const params = Route.useParams();
-  const { data: film } = useSuspenseFilm(+params.id);
+  const { data: film } = useSuspenseQuery(getFilmQueryOptions(+params.id));
 
   if (!film.chapters) {
     return <div>Film doesn't have related titles</div>;

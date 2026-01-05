@@ -1,23 +1,25 @@
 import {
+  api,
+  getEmptyFormValues,
   getPeopleAdminListQueryOptions,
   Pagination,
-  useDeletePerson,
-  useSuspensePeopleAdminList,
+  queryKeys,
+  type Input,
 } from '~/shared';
 import {
   List,
-  FormModal,
-  PersonForm,
   AddItemButton,
   ConsoleContentLayout,
-  type PersonFormSchema,
+  useFormModal,
+  withFormModal,
+  PersonForm,
 } from '~/routes/console/-shared';
 import { Filters } from '~/routes/console/people/-components';
 import { createFileRoute } from '@tanstack/react-router';
-import { useState } from 'react';
-import { personDefaultValues } from '~/routes/console/-shared/components/person-form/configs';
 import { GetPeopleListQuerySchema, PAGE_LIMITS } from '@films-collection/shared';
-import type z from 'zod';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+
+const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create>>({ name: '' });
 
 export const Route = createFileRoute('/console/people')({
   validateSearch: (search) => {
@@ -29,16 +31,15 @@ export const Route = createFileRoute('/console/people')({
   loader: async ({ context: { queryClient }, deps: { search } }) => {
     return await queryClient.ensureQueryData(getPeopleAdminListQueryOptions(search));
   },
-  component: RouteComponent,
+  component: withFormModal(PersonForm, RouteComponent),
 });
 
 function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
+  const { onOpen } = useFormModal();
 
-  const { data: people } = useSuspensePeopleAdminList(search);
-
-  const [person, setPerson] = useState<z.infer<typeof PersonFormSchema> | null>(null);
+  const { data: people } = useSuspenseQuery(getPeopleAdminListQueryOptions(search));
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
@@ -49,11 +50,16 @@ function RouteComponent() {
     });
   };
 
-  const { mutateAsync: deletePerson, isPending: isDeleting } = useDeletePerson();
+  const { mutateAsync: deletePerson, isPending: isDeleting } = useMutation({
+    mutationFn: (id: number) => api.people.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.people.list()],
+    },
+  });
 
   return (
     <ConsoleContentLayout title="Crew and cast" backPath="/console">
-      <AddItemButton onClick={() => setPerson(personDefaultValues)}>
+      <AddItemButton onClick={() => onOpen(personDefaultValues)}>
         Add crew or cast member
       </AddItemButton>
       <Filters />
@@ -61,7 +67,7 @@ function RouteComponent() {
         items={people.list}
         titleKey="name"
         onDelete={deletePerson}
-        onEdit={setPerson}
+        onEdit={onOpen}
         isDeletingInProgress={isDeleting}
       />
       <Pagination
@@ -70,12 +76,6 @@ function RouteComponent() {
         perPageCounter={PAGE_LIMITS.default}
         onPageChange={handleChangePage}
         totalLabel="people"
-      />
-      <FormModal
-        values={person}
-        onClose={() => setPerson(null)}
-        afterSubmitEffect={() => setPerson(null)}
-        form={PersonForm}
       />
     </ConsoleContentLayout>
   );

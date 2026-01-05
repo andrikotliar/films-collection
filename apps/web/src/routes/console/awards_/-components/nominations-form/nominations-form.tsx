@@ -3,7 +3,12 @@ import { useState } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
 import { Button, ConfirmModal, Form, type api, type Input } from '~/shared';
-import { nominationDefaultValues } from '~/routes/console/awards_/-configs';
+
+const nominationDefaultValues = {
+  id: -1,
+  title: '',
+  shouldIncludeActor: false,
+};
 
 export const NominationsForm = () => {
   const [nominationIndex, setNominationIndex] = useState<number | null>(null);

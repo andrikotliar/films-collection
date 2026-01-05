@@ -4,32 +4,62 @@ import { createFileRoute } from '@tanstack/react-router';
 import {
   Form,
   Panel,
-  useMutatePageContent,
   isNewItem,
   getPageContentByIdQueryOptions,
-  useSuspensePageContent,
+  type ApiResponse,
+  api,
+  getEmptyFormValues,
+  type Input,
+  getMixedId,
+  mutateEntity,
 } from '~/shared';
-import { ConsoleContentLayout } from '~/routes/console/-shared';
-import { getDefaultFormValues } from '~/routes/console/page-content_/-helpers';
-import { ALLOWED_HTML_TAGS, NEW_ITEM_ID } from '@films-collection/shared';
+import { ConsoleContentLayout, getFormTitle } from '~/routes/console/-shared';
+import { ALLOWED_HTML_TAGS } from '@films-collection/shared';
 import { PageContentFormSchema } from '~/routes/console/page-content_/-schemas';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+
+const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.get> | null) => {
+  if (data) {
+    return {
+      id: data.id,
+      title: data.title,
+      content: data.content,
+      pageKey: data.pageKey,
+    };
+  }
+
+  return getEmptyFormValues<Input<typeof api.pageContent.create>>({
+    title: '',
+    pageKey: '',
+    content: '',
+  });
+};
 
 export const Route = createFileRoute('/console/page-content_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
-    if (params.id !== NEW_ITEM_ID) {
-      await queryClient.ensureQueryData(getPageContentByIdQueryOptions(params.id));
+    if (!isNewItem(params.id)) {
+      await queryClient.ensureQueryData(getPageContentByIdQueryOptions(+params.id));
     }
   },
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  const { id } = Route.useParams();
-  const title = isNewItem(id) ? 'Create page content' : 'Edit page content';
+  const params = Route.useParams();
+  const navigate = Route.useNavigate();
 
-  const { data } = useSuspensePageContent(id);
+  const mixedId = getMixedId(params.id);
 
-  const { mutateAsync, isPending } = useMutatePageContent();
+  const { data } = useSuspenseQuery(getPageContentByIdQueryOptions(mixedId));
+
+  const { mutateAsync, isPending } = useMutation({
+    mutationFn: mutateEntity(api.pageContent.create, api.pageContent.patch),
+    onSuccess: () => {
+      navigate({
+        to: '/console/page-content',
+      });
+    },
+  });
 
   const handleSubmit = async (values: z.infer<typeof PageContentFormSchema>) => {
     const sanitizedContent = sanitize(values.content, {
@@ -44,7 +74,10 @@ function RouteComponent() {
   };
 
   return (
-    <ConsoleContentLayout title={title} backPath="/console/page-content">
+    <ConsoleContentLayout
+      title={getFormTitle({ id: mixedId }, 'Page content')}
+      backPath="/console/page-content"
+    >
       <Panel>
         <Form
           onSubmit={handleSubmit}

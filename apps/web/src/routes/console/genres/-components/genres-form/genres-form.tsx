@@ -1,24 +1,31 @@
-import { Form, useMutateGenre, type FormComponentProps } from '~/shared';
+import { api, Form, mutateEntity, queryKeys, type FormComponentProps } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import type z from 'zod';
 import { GenreFormSchema } from '~/routes/console/genres/-schemas';
+import { useMutation } from '@tanstack/react-query';
+import { useFormModal } from '~/routes/console/-shared';
 
 type GenresFormProps = FormComponentProps<z.infer<typeof GenreFormSchema>>;
 
-export const GenresForm = ({ values, afterSubmitEffect }: GenresFormProps) => {
-  const { mutateAsync, isPending } = useMutateGenre();
+export const GenresForm = ({ values }: GenresFormProps) => {
+  const { onClose } = useFormModal();
+
+  const { mutateAsync, isPending } = useMutation({
+    mutationFn: mutateEntity(api.genres.create, api.genres.patch),
+    meta: {
+      invalidateQueries: [queryKeys.genres.list(), queryKeys.initialData.list()],
+    },
+  });
 
   const submit = async (data: z.infer<typeof GenreFormSchema>) => {
     await mutateAsync(data);
-    afterSubmitEffect();
+    onClose();
   };
-
-  const title = getFormTitle(values, 'Genre');
 
   return (
     <Form
       onSubmit={submit}
-      title={title}
+      title={getFormTitle(values, 'Genre')}
       defaultValues={values}
       schema={GenreFormSchema}
       isLoading={isPending}

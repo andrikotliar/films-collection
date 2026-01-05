@@ -6,7 +6,6 @@ import {
   LocalStorage,
   getInitialDataQueryOptions,
   getPendingFilmQueryOptions,
-  useSuspensePendingFilm,
 } from '~/shared';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
@@ -14,6 +13,7 @@ import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 import type { FilmFormValues } from '~/routes/console/films_/-types';
 import z from 'zod';
 import { NEW_ITEM_ID } from '@films-collection/shared';
+import { useSuspenseQuery } from '@tanstack/react-query';
 
 const ConsoleFilmQueriesSchema = z
   .object({
@@ -44,7 +44,7 @@ function PageContainer() {
   const { id } = Route.useParams();
   const search = Route.useSearch();
 
-  const { data: pendingFilm } = useSuspensePendingFilm(search.pendingFilmId);
+  const { data: pendingFilm } = useSuspenseQuery(getPendingFilmQueryOptions(search.pendingFilmId));
 
   const pageTitle = isNewItem(id) ? 'Create Film' : 'Edit Film';
 

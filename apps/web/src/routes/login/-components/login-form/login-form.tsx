@@ -3,12 +3,14 @@ import {
   Logo,
   Form,
   CenteredBlock,
-  useLogin,
-  type api,
+  api,
   type Input,
+  LocalStorage,
 } from '~/shared';
 import { LogInIcon } from 'lucide-react';
 import { LoginSchema } from '@films-collection/shared';
+import { useNavigate } from '@tanstack/react-router';
+import { useMutation } from '@tanstack/react-query';
 
 const defaultLoginValues: Input<typeof api.auth.login.create> = {
   username: '',
@@ -16,7 +18,19 @@ const defaultLoginValues: Input<typeof api.auth.login.create> = {
 };
 
 export const LoginForm = () => {
-  const { mutateAsync, isPending } = useLogin();
+  const navigate = useNavigate();
+  const { mutateAsync, isPending } = useMutation({
+    mutationFn: (input: Parameters<typeof api.auth.login.create>[0]['input']) => {
+      return api.auth.login.create({ input });
+    },
+    onSuccess: (result) => {
+      if (result.id) {
+        LocalStorage.setItem('authenticated', true);
+
+        navigate({ to: '/console' });
+      }
+    },
+  });
 
   return (
     <Form

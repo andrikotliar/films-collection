@@ -1,7 +1,8 @@
 import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
-import { api, FieldError, Form, Loader, useAwardNominations } from '~/shared';
+import { api, FieldError, Form, getNominationsByAwardQueryOptions, Loader } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
+import { useQuery } from '@tanstack/react-query';
 
 type NominationSelectProps = {
   index: number;
@@ -14,7 +15,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
 
   const currentAward = awards[index];
 
-  const { data, isLoading } = useAwardNominations(currentAward.awardId);
+  const { data, isLoading } = useQuery(getNominationsByAwardQueryOptions(currentAward.awardId));
 
   if (!currentAward.awardId) {
     return null;

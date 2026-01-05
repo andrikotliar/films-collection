@@ -1,14 +1,15 @@
 import {
-  useDeleteFilm,
   useDocumentTitle,
   Pagination,
   getFilmsAdminListQueryOptions,
-  useSuspenseFilmsAdminList,
+  api,
+  queryKeys,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components';
 import { GetAdminListQuerySchema, NEW_ITEM_ID, PAGE_LIMITS } from '@films-collection/shared';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/films')({
   validateSearch: (search) => {
@@ -26,9 +27,14 @@ export const Route = createFileRoute('/console/films')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseFilmsAdminList(searchParams);
+  const { data } = useSuspenseQuery(getFilmsAdminListQueryOptions(searchParams));
 
-  const { mutateAsync: handleDeleteFilm, isPending } = useDeleteFilm();
+  const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
+    mutationFn: (id: number) => api.films.admin.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.films.admin.list()],
+    },
+  });
 
   useDocumentTitle('Admin list');
 

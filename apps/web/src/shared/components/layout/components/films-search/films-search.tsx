@@ -1,17 +1,18 @@
 import styles from './films-search.module.css';
 import { type ChangeEvent, useCallback, useRef, useState } from 'react';
-import { debounce, useFilmsSearch } from '~/shared';
+import { debounce, getFilmsSearchQueryOptions } from '~/shared';
 import { SearchMenuContent } from '../search-menu-content/search-menu-content';
 import { SearchIcon } from 'lucide-react';
 import { Loader } from '~/shared/components/loader/loader';
 import { PopupMenu } from '~/shared/components/popup-menu/popup-menu';
+import { useQuery } from '@tanstack/react-query';
 
 export const FilmsSearch = () => {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchString, setSearchString] = useState<string | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const { data, isLoading } = useFilmsSearch(searchString);
+  const { data, isLoading } = useQuery(getFilmsSearchQueryOptions(searchString));
 
   const handleCloseSearchDropdown = () => {
     setSearchString(null);

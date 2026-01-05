@@ -1,37 +1,44 @@
 import styles from './pending-film-form.module.css';
 import {
+  api,
   FieldLabel,
   Form,
+  getInitialDataQueryOptions,
+  mutateEntity,
   priorityOptions,
-  useInitialData,
-  useMutatePendingFilm,
+  queryKeys,
   type FormComponentProps,
   type StatusColor,
 } from '~/shared';
-import { getFormTitle } from '~/routes/console/-shared';
+import { getFormTitle, useFormModal } from '~/routes/console/-shared';
 import type z from 'zod';
 import { PendingFilmFormSchema } from '~/routes/console/pending-films/-schemas';
+import { useMutation, useQuery } from '@tanstack/react-query';
 
 type PendingFilmFormProps = FormComponentProps<z.infer<typeof PendingFilmFormSchema>>;
 
-export const PendingFilmForm = ({ values, afterSubmitEffect }: PendingFilmFormProps) => {
-  const { data } = useInitialData();
+export const PendingFilmForm = ({ values }: PendingFilmFormProps) => {
+  const { data } = useQuery(getInitialDataQueryOptions());
+  const { onClose } = useFormModal();
 
-  const { mutateAsync, isPending } = useMutatePendingFilm();
+  const { mutateAsync, isPending } = useMutation({
+    mutationFn: mutateEntity(api.pendingFilms.create, api.pendingFilms.patch),
+    meta: {
+      invalidateQueries: [queryKeys.pendingFilms.list()],
+    },
+  });
 
   const submit = async (values: z.infer<typeof PendingFilmFormSchema>) => {
     await mutateAsync(values);
-    afterSubmitEffect();
+    onClose();
   };
-
-  const title = getFormTitle(values, 'Pending Film');
 
   return (
     <Form
       onSubmit={submit}
       defaultValues={values}
       schema={PendingFilmFormSchema}
-      title={title}
+      title={getFormTitle(values, 'Pending Film')}
       isLoading={isPending}
     >
       <Form.TextInput name="title" label="Title" />

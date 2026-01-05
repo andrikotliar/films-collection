@@ -1,11 +1,8 @@
+import { NEW_ITEM_ID } from '@films-collection/shared';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
-import {
-  getAwardsBaseDataListQueryOptions,
-  useDeleteAward,
-  useSuspenseAwardsBaseDataList,
-} from '~/shared';
-import { NEW_ITEM_ID } from '@films-collection/shared';
+import { api, getAwardsBaseDataListQueryOptions, queryKeys } from '~/shared';
 
 export const Route = createFileRoute('/console/awards')({
   loader: async ({ context: { queryClient } }) => {
@@ -16,9 +13,14 @@ export const Route = createFileRoute('/console/awards')({
 
 function PageContainer() {
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseAwardsBaseDataList();
+  const { data } = useSuspenseQuery(getAwardsBaseDataListQueryOptions());
 
-  const { mutateAsync: deleteAward, isPending: isDeleting } = useDeleteAward();
+  const { mutateAsync: deleteAward, isPending: isDeleting } = useMutation({
+    mutationFn: (id: number) => api.awards.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.awards.list()],
+    },
+  });
 
   const handleOnEdit = (id: number) => {
     navigate({

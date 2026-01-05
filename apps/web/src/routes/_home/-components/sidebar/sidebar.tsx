@@ -2,8 +2,14 @@ import styles from './sidebar.module.css';
 import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { MOBILE_VIEW_BREAKPOINT_PX, getFiltersConfig, Loader, useInitialData } from '~/shared';
+import {
+  MOBILE_VIEW_BREAKPOINT_PX,
+  getFiltersConfig,
+  Loader,
+  getInitialDataQueryOptions,
+} from '~/shared';
 import { Filters } from '../filters/filters';
+import { useQuery } from '@tanstack/react-query';
 
 export const Sidebar = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -19,7 +25,7 @@ export const Sidebar = () => {
     setIsFilterOpen((isOpen) => !isOpen);
   };
 
-  const { data, isLoading } = useInitialData();
+  const { data, isLoading } = useQuery(getInitialDataQueryOptions());
 
   const filtersConfig = useMemo(() => {
     if (!data) {

@@ -1,9 +1,8 @@
-import styles from "./form-modal.module.css";
+import styles from './form-modal.module.css';
 import { type FormComponentProps, Modal, Panel } from '~/shared';
 
 type FormModalProps<T extends Record<PropertyKey, unknown>> = {
   onClose: VoidFunction;
-  afterSubmitEffect: FormComponentProps<T>['afterSubmitEffect'];
   values: T | null;
   form: (props: FormComponentProps<T>) => JSX.Element;
 };
@@ -11,7 +10,6 @@ type FormModalProps<T extends Record<PropertyKey, unknown>> = {
 export const FormModal = <T extends Record<PropertyKey, unknown>>({
   values,
   onClose,
-  afterSubmitEffect,
   form: FormComponent,
 }: FormModalProps<T>) => {
   if (!values) {
@@ -22,7 +20,7 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
     <Modal isOpen onClose={onClose} className={styles.wrapper} isAllowedClickOutside={false}>
       <Modal.Content className={styles.content}>
         <Panel>
-          <FormComponent values={values} afterSubmitEffect={afterSubmitEffect} />
+          <FormComponent values={values} />
         </Panel>
         <Modal.CloseButton onClick={onClose} className={styles.close_button} />
       </Modal.Content>

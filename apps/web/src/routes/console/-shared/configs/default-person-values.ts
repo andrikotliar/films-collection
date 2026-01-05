@@ -1,7 +1,5 @@
-import { NEW_ITEM_ID } from '@films-collection/shared';
-import type { api, Input, FormValues } from '~/shared';
+import { type api, type Input, getEmptyFormValues } from '~/shared';
 
-export const defaultPersonValues: FormValues<Input<typeof api.people.create>> = {
-  id: NEW_ITEM_ID,
+export const defaultPersonValues = getEmptyFormValues<Input<typeof api.people.create>>({
   name: '',
-};
+});

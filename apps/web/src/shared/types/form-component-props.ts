@@ -3,5 +3,4 @@ export type FormComponentProps<
   TProps = Record<PropertyKey, unknown>,
 > = TProps & {
   values: T;
-  afterSubmitEffect: VoidFunction;
 };

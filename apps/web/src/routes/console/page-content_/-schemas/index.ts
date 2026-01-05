@@ -1,1 +1,1 @@
-export * from './page-content-form-validation';
+export * from './page-content-form-schema';

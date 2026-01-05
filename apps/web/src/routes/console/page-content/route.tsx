@@ -3,10 +3,10 @@ import { createFileRoute } from '@tanstack/react-router';
 import {
   Panel,
   Pagination,
-  useDeletePageContent,
   useDocumentTitle,
   getPageContentAdminListQueryOptions,
-  useSuspensePageContentAdminList,
+  api,
+  queryKeys,
 } from '~/shared';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 import {
@@ -14,6 +14,7 @@ import {
   NEW_ITEM_ID,
   PAGE_LIMITS,
 } from '@films-collection/shared';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/page-content')({
   validateSearch: (search) => {
@@ -31,9 +32,14 @@ export const Route = createFileRoute('/console/page-content')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspensePageContentAdminList(searchParams);
+  const { data } = useSuspenseQuery(getPageContentAdminListQueryOptions(searchParams));
 
-  const { mutateAsync: deletePageContent, isPending } = useDeletePageContent();
+  const { mutateAsync: deletePageContent, isPending } = useMutation({
+    mutationFn: (id: number) => api.pageContent.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.pageContent.admin.list()],
+    },
+  });
 
   useDocumentTitle('Page Content');
 
