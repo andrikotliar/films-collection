@@ -1,17 +1,28 @@
-import { Form, IdSchema, useMutateAward, type api, type Input } from '~/shared';
+import { api, Form, FormIdParamSchema, mutateEntity, type Input } from '~/shared';
 import { NominationsForm } from '~/routes/console/awards_/-components/nominations-form/nominations-form';
 import { CreateAwardInputSchema } from '@films-collection/shared';
+import { useMutation } from '@tanstack/react-query';
+import { useNavigate } from '@tanstack/react-router';
 
 type AwardFormProps = {
   values: Input<typeof api.awards.create>;
 };
 
 const AwardFormSchema = CreateAwardInputSchema.extend({
-  id: IdSchema,
+  id: FormIdParamSchema,
 });
 
 export const AwardForm = ({ values }: AwardFormProps) => {
-  const { mutateAsync, isPending } = useMutateAward();
+  const navigate = useNavigate();
+
+  const { mutateAsync, isPending } = useMutation({
+    mutationFn: mutateEntity(api.awards.create, api.awards.patch),
+    onSuccess: () => {
+      navigate({
+        to: '/console/awards',
+      });
+    },
+  });
 
   return (
     <Form

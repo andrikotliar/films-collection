@@ -1,22 +1,22 @@
-import { useState } from 'react';
-import { Form, useSuspenseInitialData, type api, type FormValues, type Input } from '~/shared';
+import { Form, getInitialDataQueryOptions } from '~/shared';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
-import { FormModal, PersonForm } from '~/routes/console/-shared';
+import { PersonForm } from '~/routes/console/-shared';
 import {
   AwardsSelect,
   CastAndCrewSelect,
   FilmValuesWatcher,
   TrailersSelect,
 } from '~/routes/console/films_/-components/film-form/components';
+import { FormModalProvider } from '~/routes/console/-shared/components/form-modal-provider/form-modal-provider';
+import { useSuspenseQuery } from '@tanstack/react-query';
 
 type FilmFormProps = {
   values: FilmFormValues;
 };
 
 export const FilmForm = ({ values }: FilmFormProps) => {
-  const { data: initialOptions } = useSuspenseInitialData();
-  const [person, setPerson] = useState<FormValues<Input<typeof api.people.create>> | null>(null);
+  const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
 
   const handleSubmit = async (_data: FilmFormValues) => {
     // eslint-disable-next-line
@@ -24,7 +24,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   };
 
   return (
-    <>
+    <FormModalProvider form={PersonForm}>
       <Form
         onSubmit={handleSubmit}
         defaultValues={values}
@@ -71,21 +71,12 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <Form.TextInput name="budget" label="Budget" type="number" min="0" />
         <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
         <Form.TextEditor name="description" label="Description" />
-        <CastAndCrewSelect
-          positionOptions={initialOptions.options.roles}
-          onPersonChange={setPerson}
-        />
+        <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
         <TrailersSelect />
         <Form.Checkbox name="isDraft" type="checkbox" label="Draft" />
         <FilmValuesWatcher id={values.id} />
       </Form>
-      <FormModal
-        values={person}
-        onClose={() => setPerson(null)}
-        afterSubmitEffect={() => setPerson(null)}
-        form={PersonForm}
-      />
-    </>
+    </FormModalProvider>
   );
 };

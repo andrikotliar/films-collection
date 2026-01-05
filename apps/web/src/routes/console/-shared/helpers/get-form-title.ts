@@ -1,6 +1,6 @@
-import { isNewItem, type FormValues, type UnknownEntity } from '~/shared';
+import { isNewItem, type Entity } from '~/shared';
 
-export const getFormTitle = <T extends FormValues<UnknownEntity>>(
+export const getFormTitle = <T extends Entity>(
   values: T,
   label = 'Item',
   titleKey: keyof T = 'title',

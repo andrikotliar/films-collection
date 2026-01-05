@@ -1,16 +1,16 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { type FilmFormValues } from '~/routes/console/films_/-types';
-import { Form, api, type FormValues, type Input } from '~/shared';
-import { defaultPersonValues } from '~/routes/console/-shared';
+import { Form, api } from '~/shared';
+import { defaultPersonValues, useFormModal } from '~/routes/console/-shared';
 import type { ListOption } from '@films-collection/shared';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption<string>[];
-  onPersonChange: (person: FormValues<Input<typeof api.people.create>>) => void;
 };
 
-export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCrewSelectProps) => {
+export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
   const { control } = useFormContext<FilmFormValues>();
+  const { onOpen } = useFormModal();
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -35,7 +35,7 @@ export const CastAndCrewSelect = ({ positionOptions, onPersonChange }: CastAndCr
               name={`crew.${index}.personId`}
               label="Person"
               optionsLoader={api.people.search.list}
-              onCreateOption={() => onPersonChange(defaultPersonValues)}
+              onCreateOption={() => onOpen(defaultPersonValues)}
             />
             <Form.Select
               name={`crew.${index}.role`}

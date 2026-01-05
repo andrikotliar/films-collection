@@ -1,6 +1,6 @@
-import { IdSchema } from '~/shared';
 import { GenreInputSchema } from '@films-collection/shared';
+import { FormIdParamSchema } from '~/shared';
 
 export const GenreFormSchema = GenreInputSchema.extend({
-  id: IdSchema,
+  id: FormIdParamSchema,
 });

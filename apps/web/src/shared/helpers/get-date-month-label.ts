@@ -1,4 +1,4 @@
-import { getDateCodeParts, type api, type ApiResponse } from '~/shared';
+import { getDateCodeParts } from '~/shared';
 
 const months = [
   'Jan',
@@ -20,7 +20,9 @@ const convertCodeToString = (dateCode: number) => {
   return `${months[dateCodeParts[0] - 1]}, ${dateCodeParts[1]}`;
 };
 
-export const getDateMonthLabel = (data: ApiResponse<typeof api.collectionEvents.list>[number]) => {
+export const getDateMonthLabel = <T extends { startDateCode: number; endDateCode: number }>(
+  data: T,
+) => {
   if (data.startDateCode === data.endDateCode) {
     return convertCodeToString(data.startDateCode);
   }

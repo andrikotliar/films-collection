@@ -1,41 +1,49 @@
-import { useState } from 'react';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { getStudiosListQueryOptions, useDeleteStudio } from '~/shared';
-import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
+import {
+  api,
+  getEmptyFormValues,
+  getStudiosListQueryOptions,
+  queryKeys,
+  type Input,
+} from '~/shared';
+import {
+  AddItemButton,
+  ConsoleContentLayout,
+  List,
+  useFormModal,
+  withFormModal,
+} from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/studios/-components';
-import { studioInitialValues } from '~/routes/console/studios/-configs';
-import type z from 'zod';
-import type { StudioFormSchema } from '~/routes/console/studios/-schemas';
+
+const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create>>({ title: '' });
 
 export const Route = createFileRoute('/console/studios')({
   loader: async ({ context: { queryClient } }) => {
     await queryClient.ensureQueryData(getStudiosListQueryOptions());
   },
-  component: PageContainer,
+  component: withFormModal(StudioForm, PageContainer),
 });
 
 function PageContainer() {
   const { data } = useSuspenseQuery(getStudiosListQueryOptions());
+  const { onOpen } = useFormModal();
 
-  const [studio, setStudio] = useState<z.infer<typeof StudioFormSchema> | null>(null);
-
-  const { mutateAsync: deleteStudio, isPending: isDeletePending } = useDeleteStudio();
+  const { mutateAsync: deleteStudio, isPending: isDeletePending } = useMutation({
+    mutationFn: (id: number) => api.studios.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.studios.list()],
+    },
+  });
 
   return (
     <ConsoleContentLayout title="Studios" backPath="/console">
-      <AddItemButton onClick={() => setStudio(studioInitialValues)}>Create studio</AddItemButton>
+      <AddItemButton onClick={() => onOpen(studioInitialValues)}>Create studio</AddItemButton>
       <List
         items={data}
         onDelete={deleteStudio}
-        onEdit={setStudio}
+        onEdit={onOpen}
         isDeletingInProgress={isDeletePending}
-      />
-      <FormModal
-        values={studio}
-        onClose={() => setStudio(null)}
-        afterSubmitEffect={() => setStudio(null)}
-        form={StudioForm}
       />
     </ConsoleContentLayout>
   );

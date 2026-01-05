@@ -1,7 +1,8 @@
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { Awards, CastAndCrew, ContentLayout, Description } from '~/routes/films/$id/-components';
 import { Stats } from '~/routes/films/$id/-components/stats/stats';
-import { useSuspenseFilm } from '~/shared';
+import { getFilmQueryOptions } from '~/shared';
 
 export const Route = createFileRoute('/films/$id/')({
   component: RouteComponent,
@@ -9,7 +10,7 @@ export const Route = createFileRoute('/films/$id/')({
 
 function RouteComponent() {
   const params = Route.useParams();
-  const { data: film } = useSuspenseFilm(+params.id);
+  const { data: film } = useSuspenseQuery(getFilmQueryOptions(+params.id));
   return (
     <ContentLayout>
       {film.awards.length > 0 && <Awards data={film.awards} />}

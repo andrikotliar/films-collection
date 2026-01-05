@@ -1,38 +1,40 @@
+import type z from 'zod';
 import {
   type FormComponentProps,
-  useMutateCollection,
   Form,
-  type FormValues,
-  type Input,
-  type api,
-  useInitialData,
-  IdSchema,
+  api,
+  getInitialDataQueryOptions,
+  mutateEntity,
+  queryKeys,
 } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
-import { CreateCollectionInputSchema } from '@films-collection/shared';
-import type z from 'zod';
-
-export const CollectionFormSchema = CreateCollectionInputSchema.extend({ id: IdSchema });
+import { useMutation, useQuery } from '@tanstack/react-query';
+import { CollectionFormSchema } from '~/routes/console/collections/-schemas';
+import { useFormModal } from '~/routes/console/-shared';
 
 type CollectionFormProps = FormComponentProps<z.infer<typeof CollectionFormSchema>>;
 
-export const CollectionForm = ({ values, afterSubmitEffect }: CollectionFormProps) => {
-  const { data } = useInitialData();
+export const CollectionForm = ({ values }: CollectionFormProps) => {
+  const { data } = useQuery(getInitialDataQueryOptions());
+  const { onClose } = useFormModal();
 
-  const { mutateAsync, isPending } = useMutateCollection();
+  const { mutateAsync, isPending } = useMutation({
+    mutationFn: mutateEntity(api.collections.create, api.collections.patch),
+    meta: {
+      invalidateQueries: [queryKeys.collections.list(), queryKeys.initialData.list()],
+    },
+  });
 
-  const submit = async (data: FormValues<Input<typeof api.collections.create>>) => {
+  const submit = async (data: z.infer<typeof CollectionFormSchema>) => {
     await mutateAsync(data);
-    afterSubmitEffect();
+    onClose();
   };
-
-  const title = getFormTitle(values, 'Collection');
 
   return (
     <Form
       onSubmit={submit}
       defaultValues={values}
-      title={title}
+      title={getFormTitle(values, 'Collection')}
       schema={CollectionFormSchema}
       isLoading={isPending}
     >

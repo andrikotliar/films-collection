@@ -1,5 +1,4 @@
-import { awardDefaultFormValues } from '~/routes/console/awards_/-configs';
-import type { api, ApiResponse } from '~/shared';
+import { getEmptyFormValues, type api, type ApiResponse } from '~/shared';
 
 export const getFormDefaultValues = (data: ApiResponse<typeof api.awards.get> | null) => {
   if (data) {
@@ -11,5 +10,9 @@ export const getFormDefaultValues = (data: ApiResponse<typeof api.awards.get> | 
     };
   }
 
-  return awardDefaultFormValues;
+  return getEmptyFormValues({
+    title: '',
+    description: null,
+    nominations: [],
+  });
 };

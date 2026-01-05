@@ -1,15 +1,31 @@
 import styles from './console-header.module.css';
 import { LayoutGridIcon, LogOutIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { Button, consoleMenuConfig, defineCssProperties, PopupMenu, useLogout } from '~/shared';
+import {
+  api,
+  Button,
+  consoleMenuConfig,
+  defineCssProperties,
+  LocalStorage,
+  PopupMenu,
+} from '~/shared';
 import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation } from '@tanstack/react-router';
+import { Link, useLocation, useNavigate } from '@tanstack/react-router';
+import { useMutation } from '@tanstack/react-query';
 
 export const ConsoleHeader = () => {
   const buttonRef = useRef<HTMLButtonElement>(null);
-  const { mutate } = useLogout();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const { mutate: logout } = useMutation({
+    mutationFn: api.auth.logout.create,
+    onSuccess: () => {
+      LocalStorage.removeItem('authenticated');
+      navigate({ to: '/login' });
+    },
+  });
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -33,7 +49,7 @@ export const ConsoleHeader = () => {
         />
       )}
       <div className={styles.console_header_title}>Films Collection Console</div>
-      <button className={styles.logout_button} onClick={() => mutate({})}>
+      <button className={styles.logout_button} onClick={() => logout({})}>
         <LogOutIcon size={18} />
       </button>
       <PopupMenu

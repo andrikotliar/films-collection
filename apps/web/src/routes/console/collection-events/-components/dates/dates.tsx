@@ -1,7 +1,7 @@
 import styles from './dates.module.css';
 import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
-import type { CollectionEventFormSchema } from '~/routes/console/collection-events/route';
+import type { CollectionEventFormSchema } from '~/routes/console/collection-events/-schemas';
 import { FieldLabel, Form } from '~/shared';
 
 export const Dates = () => {

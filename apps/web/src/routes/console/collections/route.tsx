@@ -1,48 +1,56 @@
-import { useState } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
 import {
   getCollectionsListQueryOptions,
-  useDeleteCollection,
-  useSuspenseCollectionsList,
+  getEmptyFormValues,
+  api,
+  type Input,
+  queryKeys,
 } from '~/shared';
-import { AddItemButton, ConsoleContentLayout, FormModal, List } from '~/routes/console/-shared';
 import {
-  CollectionForm,
-  type CollectionFormSchema,
-} from '~/routes/console/collections/-components';
-import { collectionFormDefaultValues } from '~/routes/console/collections/-configs';
+  AddItemButton,
+  ConsoleContentLayout,
+  List,
+  useFormModal,
+  withFormModal,
+} from '~/routes/console/-shared';
+import { CollectionForm } from '~/routes/console/collections/-components';
 import type z from 'zod';
+import type { CollectionFormSchema } from '~/routes/console/collections/-schemas';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+
+const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create>>({
+  title: '',
+  category: 'GENERAL',
+});
 
 export const Route = createFileRoute('/console/collections')({
   loader: async ({ context: { queryClient } }) => {
     await queryClient.ensureQueryData(getCollectionsListQueryOptions());
   },
-  component: PageContainer,
+  component: withFormModal(CollectionForm, PageContainer),
 });
 
 function PageContainer() {
-  const { data } = useSuspenseCollectionsList();
+  const { data } = useSuspenseQuery(getCollectionsListQueryOptions());
+  const { onOpen } = useFormModal<z.infer<typeof CollectionFormSchema>>();
 
-  const [collection, setCollection] = useState<z.infer<typeof CollectionFormSchema> | null>(null);
-
-  const { mutateAsync: deleteCollection, isPending: isDeleting } = useDeleteCollection();
+  const { mutateAsync: deleteCollection, isPending: isDeleting } = useMutation({
+    mutationFn: (id: number) => api.collections.remove({ params: { id } }),
+    meta: {
+      invalidateQueries: [queryKeys.collections.list()],
+    },
+  });
 
   return (
     <ConsoleContentLayout title="Collections" backPath="/console">
-      <AddItemButton onClick={() => setCollection(collectionFormDefaultValues)}>
+      <AddItemButton onClick={() => onOpen(collectionFormDefaultValues)}>
         Add collection
       </AddItemButton>
       <List
         items={data}
         onDelete={deleteCollection}
-        onEdit={setCollection}
+        onEdit={onOpen}
         isDeletingInProgress={isDeleting}
-      />
-      <FormModal
-        values={collection}
-        onClose={() => setCollection(null)}
-        form={CollectionForm}
-        afterSubmitEffect={() => setCollection(null)}
       />
     </ConsoleContentLayout>
   );

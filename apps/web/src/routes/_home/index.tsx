@@ -1,13 +1,9 @@
 import type z from 'zod';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  getFilmsListQueryOptions,
-  getInitialDataQueryOptions,
-  useDocumentTitle,
-  useSuspenseFilmsList,
-} from '~/shared';
-import { FilmsSection, RootPageLayout, Sidebar } from './-components';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
+import { getFilmsListQueryOptions, getInitialDataQueryOptions, useDocumentTitle } from '~/shared';
+import { FilmsSection, RootPageLayout, Sidebar } from './-components';
 
 export const Route = createFileRoute('/_home/')({
   validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
@@ -28,7 +24,7 @@ function RootPageContainer() {
 
   const routeSearch = Route.useSearch();
 
-  const { data, isFetching } = useSuspenseFilmsList(routeSearch);
+  const { data, isFetching } = useSuspenseQuery(getFilmsListQueryOptions(routeSearch));
 
   return (
     <RootPageLayout>

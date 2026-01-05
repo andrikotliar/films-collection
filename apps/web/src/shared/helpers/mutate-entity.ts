@@ -1,5 +1,5 @@
 import { isNewItem } from '~/shared/helpers/is-new-item';
-import type { Input, FormValues } from '~/shared/types';
+import type { Input, Entity } from '~/shared/types';
 
 export const mutateEntity = <
   TCreateFunction extends (args: { input: any }) => Promise<unknown>,
@@ -8,7 +8,7 @@ export const mutateEntity = <
   createFn: TCreateFunction,
   updateFn: TUpdateFunction,
 ) => {
-  return ({ id, ...input }: FormValues<Input<TCreateFunction>>) => {
+  return ({ id, ...input }: Entity<Input<TCreateFunction>>) => {
     if (isNewItem(id)) {
       return createFn({
         input,
