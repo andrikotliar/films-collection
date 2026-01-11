@@ -7,25 +7,35 @@ import {
   PAGE_LIMITS,
   getSkipValue,
   convertEnumValueToLabel,
+  type CreateFilmInput,
 } from '@films-collection/shared';
 import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
 import type { AwardsService } from '~/services/awards/awards.service';
 import type { CollectionsService } from '~/services/collections/collections.service';
+import type { PendingFilmsService } from '~/services/pending-films';
 
 export class FilmsService {
   private readonly filmsRepository: FilmsRepository;
   private readonly peopleService: PeopleService;
   private readonly awardsService: AwardsService;
   private readonly collectionsService: CollectionsService;
+  private readonly pendingFilmsService: PendingFilmsService;
 
   constructor(
-    deps: Deps<'filmsRepository' | 'peopleService' | 'awardsService' | 'collectionsService'>,
+    deps: Deps<
+      | 'filmsRepository'
+      | 'peopleService'
+      | 'awardsService'
+      | 'collectionsService'
+      | 'pendingFilmsService'
+    >,
   ) {
     this.filmsRepository = deps.filmsRepository;
     this.peopleService = deps.peopleService;
     this.awardsService = deps.awardsService;
     this.collectionsService = deps.collectionsService;
+    this.pendingFilmsService = deps.pendingFilmsService;
   }
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
@@ -103,6 +113,18 @@ export class FilmsService {
 
   getFilmsTotal() {
     return this.filmsRepository.count();
+  }
+
+  async createFilm(input: CreateFilmInput) {
+    const { pendingFilmId, ...payload } = input;
+
+    const newFilm = await this.filmsRepository.create(payload);
+
+    if (pendingFilmId) {
+      await this.pendingFilmsService.deletePendingFilm(pendingFilmId);
+    }
+
+    return await this.getFilmDetails(newFilm.id);
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {

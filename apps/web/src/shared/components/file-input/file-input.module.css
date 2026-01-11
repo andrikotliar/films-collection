@@ -40,12 +40,12 @@
   opacity: 1;
 }
 
-.remove_button {
+.tools {
   position: absolute;
   top: 0;
   right: -25px;
 }
 
-.label + .remove_button {
+.label + .tools {
   top: 23px;
 }

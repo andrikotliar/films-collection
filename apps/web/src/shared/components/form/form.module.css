@@ -3,3 +3,13 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.actions {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.actions button {
+  flex-grow: 1;
+}

@@ -2,7 +2,7 @@ import { imageNotFoundPlaceholder } from '~/assets';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { Image } from '~/shared/components/image/image';
 import { type ChangeEvent, type CSSProperties, useRef, useState } from 'react';
-import styles from "./file-input.module.css";
+import styles from './file-input.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
 import { type FormError } from '~/shared';
@@ -53,7 +53,11 @@ export const FileInput = ({
   return (
     <div className={styles.root} style={{ width }}>
       {label && <FieldLabel className={styles.label}>{label}</FieldLabel>}
-      {imagePreview && <Button icon={<Trash2Icon />} onClick={handleRemoveImage} variant="ghost" />}
+      <div className={styles.tools}>
+        {imagePreview && (
+          <Button icon={<Trash2Icon />} onClick={handleRemoveImage} variant="ghost" />
+        )}
+      </div>
       <label className={styles.input_wrapper} style={{ height }}>
         <input
           type="file"

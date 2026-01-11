@@ -1,7 +1,7 @@
 import z from 'zod';
 
 export const CreateChapterKeyInputSchema = z.object({
-  key: z.string(),
+  key: z.string().regex(/^[a-z-]+$/),
 });
 
 export const ChapterKeyResponseSchema = z.object({

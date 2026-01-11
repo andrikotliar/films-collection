@@ -1,22 +1,23 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import type { FormAward, FilmFormValues } from '~/routes/console/films_/-types';
 import { Form } from '~/shared';
 import { NominationSelect } from './components';
 import type { ListOption } from '@films-collection/shared';
+import type z from 'zod';
+import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 
 type AwardsSelectProps = {
   awardOptions: ListOption<number>[];
 };
 
-const defaultAward: FormAward = {
+const defaultAward: z.infer<typeof FilmFormSchema>['awards'][number] = {
   personId: null,
-  awardId: null,
-  nominationId: null,
+  awardId: 0,
+  nominationId: 0,
   comment: null,
 };
 
 export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
-  const { control } = useFormContext<FilmFormValues>();
+  const { control } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const { fields, append, remove } = useFieldArray({
     control,

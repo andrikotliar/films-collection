@@ -1,18 +1,21 @@
+import type z from 'zod';
 import { NEW_ITEM_ID } from '@films-collection/shared';
-import type { FilmFormValues } from '~/routes/console/films_/-types';
+import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import { getTodayString } from '~/shared';
 
-export const filmDefaultFormValues: FilmFormValues = {
+export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
   id: NEW_ITEM_ID,
-  title: null,
+  title: '',
   type: 'FILM',
   style: 'LIVE_ACTION',
-  poster: null,
+  poster: '',
   rating: 1,
   isDraft: false,
   budget: 0,
   boxOffice: 0,
-  runtime: 0,
-  releaseDate: null,
+  duration: 0,
+  watchCount: 0,
+  releaseDate: getTodayString(),
   genres: [],
   studios: [],
   collections: [],
@@ -23,5 +26,4 @@ export const filmDefaultFormValues: FilmFormValues = {
   castAndCrew: [],
   awards: [],
   trailers: [],
-  shouldUseExistingKey: false,
 };

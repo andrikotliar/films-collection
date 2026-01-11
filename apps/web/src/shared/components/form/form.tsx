@@ -4,7 +4,7 @@ import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
 import type z from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from '~/shared/components/button/button';
-import { SaveIcon } from 'lucide-react';
+import { RotateCwIcon, SaveIcon } from 'lucide-react';
 import {
   FormArrayFieldWrapper,
   FormArrayWrapper,
@@ -38,8 +38,7 @@ type FormProps<
   submitButtonText?: string;
   title?: string;
   submitIcon?: ReactNode;
-  shouldShowResetButton?: boolean;
-  onReset?: VoidFunction;
+  onReset?: (formReset: (values: TDefaultValues) => void) => void;
 }>;
 
 export const Form = <
@@ -54,7 +53,6 @@ export const Form = <
   submitButtonText = 'Save',
   title,
   submitIcon = <SaveIcon />,
-  shouldShowResetButton = false,
   onReset,
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
@@ -68,21 +66,15 @@ export const Form = <
       <form className={styles.flex_wrapper} onSubmit={form.handleSubmit(onSubmit)}>
         {title && <FormTitle>{title}</FormTitle>}
         {children}
-        <div className={styles.flex_wrapper}>
-          <Button type="submit" isDisabled={isLoading} isLoading={isLoading} icon={submitIcon}>
-            {submitButtonText}
-          </Button>
-          {shouldShowResetButton && (
-            <Button
-              variant="secondary"
-              onClick={() => {
-                form.reset(defaultValues);
-                onReset?.();
-              }}
-            >
+        <div className={styles.actions}>
+          {onReset && (
+            <Button variant="secondary" onClick={() => onReset(form.reset)} icon={<RotateCwIcon />}>
               Reset
             </Button>
           )}
+          <Button type="submit" isDisabled={isLoading} isLoading={isLoading} icon={submitIcon}>
+            {submitButtonText}
+          </Button>
         </div>
       </form>
     </FormProvider>

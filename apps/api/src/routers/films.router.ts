@@ -13,6 +13,7 @@ import {
   FilmAdminResponseSchema,
   FilmChaptersResponseSchema,
   FilmResponseSchema,
+  CreateFilmInputSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -93,7 +94,7 @@ export default createRouter([
 
   defineRoute({
     method: 'GET',
-    url: '/:id/chapters/:key',
+    url: '/chapters/:key',
     preHandler: [validateAuth],
     schema: {
       params: GetFilmRelatedChaptersSchema,
@@ -126,9 +127,28 @@ export default createRouter([
   }),
 
   defineRoute({
+    method: 'POST',
+    url: '/admin',
+    schema: { body: CreateFilmInputSchema, response: FilmResponseSchema },
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container.resolve('filmsService').createFilm(request.body);
+
+      if (!data) {
+        throw new NotFoundException({
+          message: 'Create film not found',
+        });
+      }
+
+      return { data, status: 'CREATED' };
+    },
+  }),
+
+  defineRoute({
     method: 'DELETE',
     url: '/admin/:id',
     schema: { params: IdParamSchema, response: IdParamSchema },
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').deleteFilm(request.params.id);
 

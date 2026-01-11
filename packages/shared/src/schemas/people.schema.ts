@@ -1,5 +1,6 @@
 import z from 'zod';
 import { PersonRole } from '~/enums';
+import { getArrayFromQuery } from '~/helpers';
 
 export const CreatePersonSchema = z.object({
   name: z.string(),
@@ -16,7 +17,7 @@ export const GetPeopleListQuerySchema = z
 export const SearchPersonSchema = z
   .object({
     q: z.string(),
-    selected: z.array(z.coerce.number()),
+    selected: getArrayFromQuery(z.coerce.number()),
   })
   .partial();
 

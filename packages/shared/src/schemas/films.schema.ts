@@ -8,6 +8,55 @@ import { GenreResponseSchema } from '~/schemas/genres.schema';
 import { PersonResponseSchema } from '~/schemas/people.schema';
 import { StudioResponseSchema } from '~/schemas/studios.schema';
 
+export const CreateFilmInputSchema = z.object({
+  title: z.string().nonempty(),
+  type: z.enum(TitleType),
+  style: z.enum(TitleStyle),
+  rating: z.coerce.number().min(1).max(3),
+  poster: z.string().nonempty(),
+  genres: z.array(z.number()),
+  studios: z.array(z.number()),
+  countries: z.array(z.number()),
+  collections: z.array(z.number()),
+  duration: z.coerce.number().min(1),
+  watchCount: z.coerce.number().min(0),
+  releaseDate: z
+    .string()
+    .regex(/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/, 'Date must be in YYYY-MM-DD format'),
+  budget: z.coerce.number(),
+  boxOffice: z.coerce.number(),
+  description: z.string().nullable(),
+  chapterKey: z
+    .string()
+    .regex(/^[a-z-]+$/)
+    .nullable(),
+  chapterOrder: z.coerce.number().nullable(),
+  castAndCrew: z.array(
+    z.object({
+      personId: z.coerce.number().min(1),
+      comment: z.string().nullable(),
+      role: z.enum(PersonRole),
+      details: z.string().nullable(),
+    }),
+  ),
+  awards: z.array(
+    z.object({
+      awardId: z.number().min(1),
+      nominationId: z.number().min(1),
+      comment: z.string().nonempty().nullable(),
+      personId: z.number().nullable(),
+    }),
+  ),
+  trailers: z.array(
+    z.object({
+      videoId: z.string().nonempty(),
+      order: z.number(),
+    }),
+  ),
+  isDraft: z.boolean(),
+  pendingFilmId: z.coerce.number().nullable().optional(),
+});
+
 export const GetFilmsListQuerySchema = z.object({
   pageIndex: z.coerce.number().min(0).optional(),
   startDate: z.string().optional(),
@@ -40,7 +89,6 @@ export const GetFilmOptionsQuerySchema = z.object({
 });
 
 export const GetFilmRelatedChaptersSchema = z.object({
-  id: z.coerce.number(),
   key: z.string(),
 });
 
@@ -181,3 +229,4 @@ export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
 export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema>;
 export type GetAdminListQuery = z.infer<typeof GetAdminListQuerySchema>;
 export type UpdateFilmWatchCounterInput = z.infer<typeof UpdateFilmWatchCounterInputSchema>;
+export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;

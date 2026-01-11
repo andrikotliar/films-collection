@@ -1,6 +1,10 @@
 import type { Film, Prisma } from '@prisma/client';
 import type { DatabaseClient, Deps } from '~/shared';
-import { PAGE_LIMITS, type GetFilmOptionsQuery } from '@films-collection/shared';
+import {
+  PAGE_LIMITS,
+  type CreateFilmInput,
+  type GetFilmOptionsQuery,
+} from '@films-collection/shared';
 
 export class FilmsRepository {
   private readonly databaseClient: DatabaseClient;
@@ -360,6 +364,75 @@ export class FilmsRepository {
       data: {
         deletedAt: date,
       },
+    });
+  }
+
+  create(input: CreateFilmInput) {
+    const {
+      isDraft,
+      castAndCrew,
+      awards,
+      genres,
+      countries,
+      studios,
+      collections,
+      trailers,
+      releaseDate,
+      description,
+      ...filmInput
+    } = input;
+
+    const data: Prisma.FilmCreateInput = {
+      ...filmInput,
+      releaseDate: new Date(releaseDate).toISOString(),
+      draft: isDraft,
+      overview: description,
+    };
+
+    if (castAndCrew.length) {
+      data.castAndCrew = {
+        create: castAndCrew,
+      };
+    }
+
+    if (awards.length) {
+      data.awards = {
+        create: awards,
+      };
+    }
+
+    if (genres.length) {
+      data.genres = {
+        create: genres.map((genreId) => ({ genreId })),
+      };
+    }
+
+    if (countries.length) {
+      data.countries = {
+        create: countries.map((countryId) => ({ countryId })),
+      };
+    }
+
+    if (studios.length) {
+      data.studios = {
+        create: studios.map((studioId) => ({ studioId })),
+      };
+    }
+
+    if (collections.length) {
+      data.collections = {
+        create: collections.map((collectionId) => ({ collectionId })),
+      };
+    }
+
+    if (trailers.length) {
+      data.trailers = {
+        create: trailers,
+      };
+    }
+
+    return this.databaseClient.film.create({
+      data,
     });
   }
 }

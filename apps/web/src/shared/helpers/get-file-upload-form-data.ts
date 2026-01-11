@@ -1,11 +1,11 @@
-import { FileUploadPayload } from '../types';
+import type { FileUploadPayload } from '@films-collection/shared';
 
 export const getFileUploadFormData = ({
   title,
   file,
   destination,
   shouldUseUniqueIdentifier,
-}: FileUploadPayload) => {
+}: FileUploadPayload<File>) => {
   const formData = new FormData();
 
   formData.append('title', title);
@@ -13,10 +13,7 @@ export const getFileUploadFormData = ({
   formData.append('file', file);
 
   if (shouldUseUniqueIdentifier) {
-    formData.append(
-      'shouldUseUniqueIdentifier',
-      shouldUseUniqueIdentifier.toString(),
-    );
+    formData.append('shouldUseUniqueIdentifier', shouldUseUniqueIdentifier.toString());
   }
 
   return formData;

@@ -10,10 +10,10 @@ import {
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
 import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
-import type { FilmFormValues } from '~/routes/console/films_/-types';
 import z from 'zod';
 import { NEW_ITEM_ID } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
+import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 
 const ConsoleFilmQueriesSchema = z
   .object({
@@ -48,7 +48,7 @@ function PageContainer() {
 
   const pageTitle = isNewItem(id) ? 'Create Film' : 'Edit Film';
 
-  const defaultValues = useMemo<FilmFormValues>(() => {
+  const defaultValues = useMemo<z.infer<typeof FilmFormSchema>>(() => {
     if (pendingFilm) {
       return {
         ...filmDefaultFormValues,
@@ -60,12 +60,12 @@ function PageContainer() {
       };
     }
 
-    const localValues = LocalStorage.getItem<FilmFormValues>(`film_${id}`);
+    const localValues = LocalStorage.getItem<z.infer<typeof FilmFormSchema>>(`film_${id}`);
 
     if (localValues) {
       return {
         ...localValues,
-        poster: null,
+        poster: '',
       };
     }
 
