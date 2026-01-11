@@ -33,7 +33,7 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     countries: mapInnerId(film.countries, 'countryId'),
     studios: mapInnerId(film.studios, 'studioId'),
     collections: mapInnerId(film.collections, 'collectionId'),
-    releaseDate: film.releaseDate.toString(),
+    releaseDate: film.releaseDate.toISOString().split('T')[0],
     budget: Number(film.budget),
     boxOffice: Number(film.boxOffice),
     awards: film.awards.map((award) => ({

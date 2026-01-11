@@ -49,16 +49,18 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         videoId: new URL(trailer.videoId).searchParams.get('v') ?? '',
       }));
 
+      const input = {
+        ...data,
+        poster,
+        trailers,
+      };
+
       return await api.films.admin.create({
-        input: {
-          ...data,
-          poster,
-          trailers,
-        },
+        input,
       });
     },
     onSuccess: () => {
-      LocalStorage.removeItem(`film_${values.id}`);
+      LocalStorage.removeItem('film_new');
       navigate({ to: '/console/films' });
     },
   });
