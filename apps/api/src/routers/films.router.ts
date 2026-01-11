@@ -10,7 +10,6 @@ import {
   FilmsListResponseSchema,
   FilmsSearchResponseSchema,
   FilmsAdminListResponseSchema,
-  FilmAdminResponseSchema,
   FilmChaptersResponseSchema,
   FilmResponseSchema,
   CreateFilmInputSchema,
@@ -81,12 +80,10 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
-      response: FilmAdminResponseSchema,
+      response: CreateFilmInputSchema,
     },
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getFilmDetailsAdmin(request.params.id);
+      const data = await app.container.resolve('filmsService').getEditableFilm(request.params.id);
 
       return { data };
     },

@@ -214,14 +214,11 @@ export const FilmsAdminListResponseSchema = z.object({
   total: z.coerce.number(),
 });
 
-export const FilmAdminResponseSchema = FilmResponseSchema.pick({
-  id: true,
-  title: true,
-}).nullable();
-
 export const FilmChaptersResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true, chapterOrder: true }),
 );
+
+export const UpdateFilmInputSchema = CreateFilmInputSchema.partial();
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
@@ -230,3 +227,4 @@ export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema
 export type GetAdminListQuery = z.infer<typeof GetAdminListQuerySchema>;
 export type UpdateFilmWatchCounterInput = z.infer<typeof UpdateFilmWatchCounterInputSchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
+export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;

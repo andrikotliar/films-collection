@@ -435,4 +435,70 @@ export class FilmsRepository {
       data,
     });
   }
+
+  getEditableFilm(id: number) {
+    return this.databaseClient.film.findUnique({
+      where: {
+        id,
+      },
+      select: {
+        title: true,
+        type: true,
+        style: true,
+        rating: true,
+        poster: true,
+        duration: true,
+        watchCount: true,
+        releaseDate: true,
+        budget: true,
+        boxOffice: true,
+        overview: true,
+        chapterKey: true,
+        chapterOrder: true,
+        draft: true,
+        genres: {
+          select: {
+            genreId: true,
+          },
+        },
+        studios: {
+          select: {
+            studioId: true,
+          },
+        },
+        countries: {
+          select: {
+            countryId: true,
+          },
+        },
+        collections: {
+          select: {
+            collectionId: true,
+          },
+        },
+        castAndCrew: {
+          select: {
+            personId: true,
+            comment: true,
+            role: true,
+            details: true,
+          },
+        },
+        awards: {
+          select: {
+            awardId: true,
+            nominationId: true,
+            comment: true,
+            actorId: true,
+          },
+        },
+        trailers: {
+          select: {
+            videoId: true,
+            order: true,
+          },
+        },
+      },
+    });
+  }
 }

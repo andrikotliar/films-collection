@@ -1,4 +1,4 @@
-import { type Deps } from '~/shared';
+import { NotFoundException, type Deps } from '~/shared';
 import type { FilmsRepository } from './films.repository';
 import {
   type GetAdminListQuery,
@@ -9,7 +9,12 @@ import {
   convertEnumValueToLabel,
   type CreateFilmInput,
 } from '@films-collection/shared';
-import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
+import {
+  mapAdminListFilters,
+  mapFilmDetails,
+  mapListFilters,
+  mapAdminFilmDetails,
+} from './helpers';
 import type { PeopleService } from '~/services/people/people.service';
 import type { AwardsService } from '~/services/awards/awards.service';
 import type { CollectionsService } from '~/services/collections/collections.service';
@@ -70,19 +75,6 @@ export class FilmsService {
     return mappedFilm;
   }
 
-  async getFilmDetailsAdmin(id: number) {
-    const data = await this.filmsRepository.findByIdAdmin(id);
-
-    if (!data) {
-      return null;
-    }
-
-    return {
-      id: data.id,
-      title: data.title,
-    };
-  }
-
   async searchFilm(searchString?: string | null) {
     if (!searchString) {
       return [];
@@ -113,6 +105,16 @@ export class FilmsService {
 
   getFilmsTotal() {
     return this.filmsRepository.count();
+  }
+
+  async getEditableFilm(id: number) {
+    const film = await this.filmsRepository.getEditableFilm(id);
+
+    if (!film) {
+      throw new NotFoundException();
+    }
+
+    return mapAdminFilmDetails(film);
   }
 
   async createFilm(input: CreateFilmInput) {
