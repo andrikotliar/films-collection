@@ -9,6 +9,7 @@ import {
   getObjectsDiff,
   isNewItem,
   LocalStorage,
+  queryKeys,
 } from '~/shared';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
 import { FormModalProvider } from '~/routes/console/-shared';
@@ -79,6 +80,11 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     onSuccess: () => {
       LocalStorage.removeItem(`film_${values.id}`);
       navigate({ to: '/console/films' });
+    },
+    meta: {
+      invalidateQueries: !isNewItem(values.id)
+        ? [queryKeys.films.get({ params: { id: values.id } })]
+        : undefined,
     },
   });
 
