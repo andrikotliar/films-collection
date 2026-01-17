@@ -10,9 +10,10 @@ import {
   FilmsListResponseSchema,
   FilmsSearchResponseSchema,
   FilmsAdminListResponseSchema,
-  FilmAdminResponseSchema,
   FilmChaptersResponseSchema,
   FilmResponseSchema,
+  CreateFilmInputSchema,
+  UpdateFilmInputSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -80,12 +81,10 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: {
       params: IdParamSchema,
-      response: FilmAdminResponseSchema,
+      response: CreateFilmInputSchema,
     },
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getFilmDetailsAdmin(request.params.id);
+      const data = await app.container.resolve('filmsService').getEditableFilm(request.params.id);
 
       return { data };
     },
@@ -93,7 +92,7 @@ export default createRouter([
 
   defineRoute({
     method: 'GET',
-    url: '/:id/chapters/:key',
+    url: '/chapters/:key',
     preHandler: [validateAuth],
     schema: {
       params: GetFilmRelatedChaptersSchema,
@@ -126,9 +125,48 @@ export default createRouter([
   }),
 
   defineRoute({
+    method: 'POST',
+    url: '/admin',
+    schema: { body: CreateFilmInputSchema, response: FilmResponseSchema },
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container.resolve('filmsService').createFilm(request.body);
+
+      if (!data) {
+        throw new NotFoundException({
+          message: 'Create film not found',
+        });
+      }
+
+      return { data, status: 'CREATED' };
+    },
+  }),
+
+  defineRoute({
+    method: 'PATCH',
+    url: '/admin/:id',
+    schema: { body: UpdateFilmInputSchema, params: IdParamSchema, response: FilmResponseSchema },
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .updateFilm(request.params.id, request.body);
+
+      if (!data) {
+        throw new NotFoundException({
+          message: `Film ${request.params.id} not found`,
+        });
+      }
+
+      return { data };
+    },
+  }),
+
+  defineRoute({
     method: 'DELETE',
     url: '/admin/:id',
     schema: { params: IdParamSchema, response: IdParamSchema },
+    preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').deleteFilm(request.params.id);
 

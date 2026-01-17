@@ -19,3 +19,4 @@ export * from './get-pending-film-query-params';
 export * from './get-pending-films-list-query-options';
 export * from './get-people-admin-list-query-options';
 export * from './get-studios-list-query-options';
+export * from './get-admin-film-details-query-options';

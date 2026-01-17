@@ -8,7 +8,7 @@
   border-bottom: var(--border-default);
   background-color: white;
   height: 40px;
-  z-index: 5;
+  z-index: 50;
 }
 
 .menu_button {

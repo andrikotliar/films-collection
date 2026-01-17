@@ -2,8 +2,8 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { v2 as cloudinary, type UploadApiResponse } from 'cloudinary';
 import { type Deps } from '~/shared';
-import type { UploadPayload } from './types';
 import { destinationParams } from '~/services/files/configs';
+import type { FileUploadPayload } from '@films-collection/shared';
 
 export class FilesService {
   constructor({ configService }: Deps<'configService'>) {
@@ -14,7 +14,7 @@ export class FilesService {
     });
   }
 
-  async upload(payload: UploadPayload) {
+  async upload(payload: FileUploadPayload<Buffer>) {
     const result = await this.uploadStream(payload);
 
     if (!result) {
@@ -33,7 +33,7 @@ export class FilesService {
     return cloudinary.uploader.destroy(publicId);
   }
 
-  private uploadStream(payload: UploadPayload) {
+  private uploadStream(payload: FileUploadPayload<Buffer>) {
     const config = destinationParams[payload.destination];
     const parsedTitle = this.parseTitle(payload);
 
@@ -67,7 +67,7 @@ export class FilesService {
     });
   }
 
-  private parseTitle(payload: UploadPayload) {
+  private parseTitle(payload: FileUploadPayload<Buffer>) {
     const sanitizedString = payload.title.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_');
 
     const lowercasedTitle = sanitizedString.toLowerCase();

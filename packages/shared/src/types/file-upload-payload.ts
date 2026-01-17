@@ -1,8 +1,8 @@
 export type FileDestination = 'posters';
 
-export type UploadPayload = {
+export type FileUploadPayload<F> = {
   title: string;
   destination: FileDestination;
-  file: Buffer;
+  file: F;
   shouldUseUniqueIdentifier?: boolean;
 };

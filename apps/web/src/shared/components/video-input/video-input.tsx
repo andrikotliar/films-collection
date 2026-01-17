@@ -1,6 +1,6 @@
 import { type FocusEventHandler, forwardRef, useEffect, useState } from 'react';
 import { VideoPreview } from './components';
-import styles from "./video-input.module.css";
+import styles from './video-input.module.css';
 import { Button } from '~/shared/components/button/button';
 import { Trash2Icon } from 'lucide-react';
 import { FieldLabel } from '~/shared/components/field-label/field-label';

@@ -1,6 +1,5 @@
 import { BadRequestException, defineRoute, createRouter, validateAuth } from '~/shared';
-import type { UploadPayload } from '~/services/files/types';
-import { CreateFileResponseSchema } from '@films-collection/shared';
+import { CreateFileResponseSchema, type FileUploadPayload } from '@films-collection/shared';
 
 export default createRouter([
   defineRoute({
@@ -36,7 +35,9 @@ export default createRouter([
         });
       }
 
-      const result = await app.container.resolve('filesService').upload(data as UploadPayload);
+      const result = await app.container
+        .resolve('filesService')
+        .upload(data as FileUploadPayload<Buffer>);
 
       return { data: result };
     },

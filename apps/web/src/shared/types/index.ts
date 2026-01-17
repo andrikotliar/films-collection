@@ -3,7 +3,6 @@ export * from './nav-link';
 export * from './menu-config-item';
 export * from './status-color';
 export * from './form-error';
-export * from './file-upload-payload';
 export * from './local-storage-key';
 export * from './omit-id';
 export * from './form-component-props';

@@ -1,0 +1,100 @@
+import type z from 'zod';
+import { useFormContext } from 'react-hook-form';
+import { useQuery } from '@tanstack/react-query';
+import {
+  FieldError,
+  FieldLabel,
+  Form,
+  getChapterKeysOptionsQueryOptions,
+  getFilmChaptersQueryOptions,
+  Image,
+  Loader,
+  ScrollableLine,
+} from '~/shared';
+import styles from './chapters-select.module.css';
+import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import clsx from 'clsx';
+import { useFormModal } from '~/routes/console/-shared';
+import { getVirtualChapterValue } from '~/routes/console/films_/-helpers';
+
+export const ChaptersSelect = () => {
+  const { watch, register, formState, setValue } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { data = [] } = useQuery(getChapterKeysOptionsQueryOptions());
+  const { onOpen } = useFormModal();
+
+  const chapterKey = watch('chapterKey');
+  const chapterOrder = watch('chapterOrder');
+
+  const { data: films = [], isLoading: isFilmsLoading } = useQuery(
+    getFilmChaptersQueryOptions(chapterKey),
+  );
+
+  const startingVirtualChapter = getVirtualChapterValue(0, films[0]?.chapterOrder);
+
+  return (
+    <Form.Section label="Chapters">
+      <Form.Select
+        options={data}
+        name="chapterKey"
+        placeholder="Select existing key"
+        onClear={() => setValue('chapterOrder', null)}
+        onCreateOption={() => onOpen({ key: '' })}
+      />
+      {isFilmsLoading && <Loader />}
+      {chapterKey && (
+        <div className={styles.films}>
+          <FieldLabel>Select position</FieldLabel>
+          <ScrollableLine>
+            {films.length === 0 && (
+              <label className={clsx(styles.film, styles.position_select)}>
+                <input type="radio" {...register('chapterOrder')} />
+              </label>
+            )}
+            {films.map((film, index) => {
+              const virtualChapter = getVirtualChapterValue(
+                film.chapterOrder,
+                films[index + 1]?.chapterOrder,
+              );
+              const isChapterSelected = film.chapterOrder === chapterOrder;
+              const isNextChapterSelected = films[index + 1]?.chapterOrder === chapterOrder;
+              return (
+                <div key={film.id} className={styles.chapter_section}>
+                  {index === 0 && (
+                    <label className={clsx(styles.film, styles.position_select)}>
+                      <input
+                        type="radio"
+                        {...register('chapterOrder')}
+                        value={startingVirtualChapter}
+                        defaultChecked={film.chapterOrder === startingVirtualChapter}
+                      />
+                      <span className={styles.chapter_number}>{index + 1}</span>
+                    </label>
+                  )}
+                  <div
+                    className={clsx(styles.film, {
+                      [styles.selected_film]: isChapterSelected,
+                    })}
+                  >
+                    <Image isExternal src={film.poster} className={styles.poster_select_image} />
+                  </div>
+                  {!isChapterSelected && !isNextChapterSelected && (
+                    <label className={clsx(styles.film, styles.position_select)}>
+                      <input
+                        type="radio"
+                        {...register('chapterOrder')}
+                        value={virtualChapter}
+                        defaultChecked={film.chapterOrder === virtualChapter}
+                      />
+                      <span className={styles.chapter_number}>{index + 2}</span>
+                    </label>
+                  )}
+                </div>
+              );
+            })}
+          </ScrollableLine>
+        </div>
+      )}
+      <FieldError error={formState.errors.chapterOrder?.message} />
+    </Form.Section>
+  );
+};

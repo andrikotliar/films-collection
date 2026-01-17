@@ -1,5 +1,5 @@
+import type { FileDestination } from '@films-collection/shared';
 import type { CommonTransformationOptions, ImageFormat } from 'cloudinary';
-import type { FileDestination } from '../types';
 
 type DestinationParams = {
   [key in FileDestination]: {
