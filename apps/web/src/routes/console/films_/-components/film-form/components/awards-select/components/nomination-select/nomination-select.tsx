@@ -1,15 +1,16 @@
 import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
 import { api, FieldError, Form, getNominationsByAwardQueryOptions, Loader } from '~/shared';
-import { type FilmFormValues } from '~/routes/console/films_/-types';
 import { useQuery } from '@tanstack/react-query';
+import type z from 'zod';
+import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 
 type NominationSelectProps = {
   index: number;
 };
 
 export const NominationSelect = ({ index }: NominationSelectProps) => {
-  const awards = useWatch<FilmFormValues, 'awards'>({
+  const awards = useWatch<z.infer<typeof FilmFormSchema>, 'awards'>({
     name: 'awards',
   });
 
