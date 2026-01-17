@@ -15,23 +15,7 @@ import styles from './chapters-select.module.css';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 import clsx from 'clsx';
 import { useFormModal } from '~/routes/console/-shared';
-
-type DefineValueParams = {
-  chapterOrder: number | null;
-  nextChapterOrder?: number | null;
-};
-
-const defineValue = ({ chapterOrder, nextChapterOrder }: DefineValueParams) => {
-  if (chapterOrder === null) {
-    return 1;
-  }
-
-  if (!nextChapterOrder) {
-    return chapterOrder + 1;
-  }
-
-  return (chapterOrder + nextChapterOrder) / 2;
-};
+import { getVirtualChapterValue } from '~/routes/console/films_/-helpers';
 
 export const ChaptersSelect = () => {
   const { watch, register, formState, setValue } = useFormContext<z.infer<typeof FilmFormSchema>>();
@@ -45,6 +29,8 @@ export const ChaptersSelect = () => {
     getFilmChaptersQueryOptions(chapterKey),
   );
 
+  const startingVirtualChapter = getVirtualChapterValue(0, films[0]?.chapterOrder);
+
   return (
     <Form.Section label="Chapters">
       <Form.Select
@@ -57,35 +43,52 @@ export const ChaptersSelect = () => {
       {isFilmsLoading && <Loader />}
       {chapterKey && (
         <div className={styles.films}>
-          <FieldLabel>Select previous chapter</FieldLabel>
+          <FieldLabel>Select position</FieldLabel>
           <ScrollableLine>
-            <label className={clsx(styles.film_select, styles.empty_film)}>
-              <input
-                type="radio"
-                value={defineValue({
-                  chapterOrder: 0,
-                  nextChapterOrder: films[0]?.chapterOrder,
-                })}
-                {...register('chapterOrder')}
-                defaultChecked={!!chapterOrder && chapterOrder <= 1}
-                key={chapterKey}
-              />
-            </label>
+            {films.length === 0 && (
+              <label className={clsx(styles.film, styles.position_select)}>
+                <input type="radio" {...register('chapterOrder')} />
+              </label>
+            )}
             {films.map((film, index) => {
-              const value = defineValue({
-                chapterOrder: film.chapterOrder,
-                nextChapterOrder: films[index + 1]?.chapterOrder,
-              });
+              const virtualChapter = getVirtualChapterValue(
+                film.chapterOrder,
+                films[index + 1]?.chapterOrder,
+              );
+              const isChapterSelected = film.chapterOrder === chapterOrder;
+              const isNextChapterSelected = films[index + 1]?.chapterOrder === chapterOrder;
               return (
-                <label key={film.id} className={styles.film_select}>
-                  <input
-                    type="radio"
-                    value={value}
-                    {...register('chapterOrder')}
-                    defaultChecked={chapterOrder === value}
-                  />
-                  <Image isExternal src={film.poster} className={styles.poster_select_image} />
-                </label>
+                <div key={film.id} className={styles.chapter_section}>
+                  {index === 0 && (
+                    <label className={clsx(styles.film, styles.position_select)}>
+                      <input
+                        type="radio"
+                        {...register('chapterOrder')}
+                        value={startingVirtualChapter}
+                        defaultChecked={film.chapterOrder === startingVirtualChapter}
+                      />
+                      <span className={styles.chapter_number}>{index + 1}</span>
+                    </label>
+                  )}
+                  <div
+                    className={clsx(styles.film, {
+                      [styles.selected_film]: isChapterSelected,
+                    })}
+                  >
+                    <Image isExternal src={film.poster} className={styles.poster_select_image} />
+                  </div>
+                  {!isChapterSelected && !isNextChapterSelected && (
+                    <label className={clsx(styles.film, styles.position_select)}>
+                      <input
+                        type="radio"
+                        {...register('chapterOrder')}
+                        value={virtualChapter}
+                        defaultChecked={film.chapterOrder === virtualChapter}
+                      />
+                      <span className={styles.chapter_number}>{index + 2}</span>
+                    </label>
+                  )}
+                </div>
               );
             })}
           </ScrollableLine>

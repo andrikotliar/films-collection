@@ -6,6 +6,8 @@ import {
   Form,
   getFileUploadFormData,
   getInitialDataQueryOptions,
+  getObjectsDiff,
+  isNewItem,
   LocalStorage,
 } from '~/shared';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
@@ -46,7 +48,9 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
       const trailers = data.trailers.map((trailer) => ({
         ...trailer,
-        videoId: new URL(trailer.videoId).searchParams.get('v') ?? '',
+        videoId: trailer.videoId.startsWith('http')
+          ? new URL(trailer.videoId).searchParams.get('v') ?? ''
+          : trailer.videoId,
       }));
 
       const input = {
@@ -55,12 +59,25 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         trailers,
       };
 
+      if (!isNewItem(values.id)) {
+        const diff = getObjectsDiff(values, input);
+
+        if (!diff) {
+          return;
+        }
+
+        return await api.films.admin.patch({
+          params: { id: values.id },
+          input: diff,
+        });
+      }
+
       return await api.films.admin.create({
         input,
       });
     },
     onSuccess: () => {
-      LocalStorage.removeItem('film_new');
+      LocalStorage.removeItem(`film_${values.id}`);
       navigate({ to: '/console/films' });
     },
   });
