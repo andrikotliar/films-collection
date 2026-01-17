@@ -8,6 +8,7 @@ import {
   getSkipValue,
   convertEnumValueToLabel,
   type CreateFilmInput,
+  type UpdateFilmInput,
 } from '@films-collection/shared';
 import {
   mapAdminListFilters,
@@ -19,6 +20,7 @@ import type { PeopleService } from '~/services/people/people.service';
 import type { AwardsService } from '~/services/awards/awards.service';
 import type { CollectionsService } from '~/services/collections/collections.service';
 import type { PendingFilmsService } from '~/services/pending-films';
+import type { Prisma } from '@prisma/client';
 
 export class FilmsService {
   private readonly filmsRepository: FilmsRepository;
@@ -194,5 +196,65 @@ export class FilmsService {
     const deleteFilm = await this.filmsRepository.delete(id, new Date());
 
     return { id: deleteFilm.id };
+  }
+
+  async updateFilm(filmId: number, input: UpdateFilmInput) {
+    const {
+      trailers,
+      studios,
+      countries,
+      collections,
+      castAndCrew,
+      awards,
+      genres,
+      description,
+      ...updatedParams
+    } = input;
+
+    const updateFilmPromise = this.filmsRepository.updateFilm(filmId, {
+      ...updatedParams,
+      overview: description,
+    });
+
+    const promises: Prisma.PrismaPromise<any>[] = [updateFilmPromise];
+
+    if (awards) {
+      const promise = await this.filmsRepository.updateFilmAwards(filmId, awards);
+      promises.push(promise());
+    }
+
+    if (trailers) {
+      const promise = await this.filmsRepository.updateFilmTrailers(filmId, trailers);
+      promises.push(promise());
+    }
+
+    if (studios) {
+      const promise = await this.filmsRepository.updateFilmStudios(filmId, studios);
+      promises.push(promise());
+    }
+
+    if (countries) {
+      const promise = await this.filmsRepository.updateFilmCountries(filmId, countries);
+      promises.push(promise());
+    }
+
+    if (collections) {
+      const promise = await this.filmsRepository.updateFilmCollections(filmId, collections);
+      promises.push(promise());
+    }
+
+    if (castAndCrew) {
+      const promise = await this.filmsRepository.updateFilmCastAndCrew(filmId, castAndCrew);
+      promises.push(promise());
+    }
+
+    if (genres) {
+      const promise = await this.filmsRepository.updateFilmGenres(filmId, genres);
+      promises.push(promise());
+    }
+
+    await this.filmsRepository.transaction(promises);
+
+    return this.getFilmDetails(filmId);
   }
 }

@@ -1,15 +1,16 @@
 import type { Film, Prisma } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/shared';
+import { BaseRepository, type DatabaseClient, type Deps } from '~/shared';
 import {
   PAGE_LIMITS,
   type CreateFilmInput,
   type GetFilmOptionsQuery,
 } from '@films-collection/shared';
 
-export class FilmsRepository {
+export class FilmsRepository extends BaseRepository {
   private readonly databaseClient: DatabaseClient;
 
   constructor(deps: Deps<'databaseService'>) {
+    super(deps.databaseService);
     this.databaseClient = deps.databaseService;
   }
 
@@ -500,5 +501,106 @@ export class FilmsRepository {
         },
       },
     });
+  }
+
+  updateFilm(filmId: number, data: Prisma.FilmUpdateInput) {
+    return this.databaseClient.film.update({
+      where: {
+        id: filmId,
+      },
+      data,
+    });
+  }
+
+  async updateFilmAwards(filmId: number, data: CreateFilmInput['awards']) {
+    await this.databaseClient.filmAwardNomination.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmAwardNomination.createMany({
+        data: data.map((award) => ({
+          ...award,
+          actorId: award.personId,
+          filmId,
+        })),
+      });
+    };
+  }
+
+  async updateFilmStudios(filmId: number, data: CreateFilmInput['studios']) {
+    await this.databaseClient.filmStudio.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmStudio.createMany({
+        data: data.map((studioId) => ({
+          studioId,
+          filmId,
+        })),
+      });
+    };
+  }
+
+  async updateFilmCountries(filmId: number, data: CreateFilmInput['countries']) {
+    await this.databaseClient.filmCountry.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmCountry.createMany({
+        data: data.map((countryId) => ({
+          countryId,
+          filmId,
+        })),
+      });
+    };
+  }
+
+  async updateFilmCollections(filmId: number, data: CreateFilmInput['collections']) {
+    await this.databaseClient.filmCollection.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmCollection.createMany({
+        data: data.map((collectionId) => ({
+          collectionId,
+          filmId,
+        })),
+      });
+    };
+  }
+
+  async updateFilmGenres(filmId: number, data: CreateFilmInput['genres']) {
+    await this.databaseClient.filmGenre.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmGenre.createMany({
+        data: data.map((genreId) => ({
+          genreId,
+          filmId,
+        })),
+      });
+    };
+  }
+
+  async updateFilmTrailers(filmId: number, data: CreateFilmInput['trailers']) {
+    await this.databaseClient.filmTrailer.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmTrailer.createMany({
+        data: data.map((trailer) => ({
+          ...trailer,
+          filmId,
+        })),
+      });
+    };
+  }
+
+  async updateFilmCastAndCrew(filmId: number, data: CreateFilmInput['castAndCrew']) {
+    await this.databaseClient.filmPerson.deleteMany({ where: { filmId } });
+
+    return () => {
+      return this.databaseClient.filmPerson.createMany({
+        data: data.map((person) => ({
+          ...person,
+          filmId,
+        })),
+      });
+    };
   }
 }

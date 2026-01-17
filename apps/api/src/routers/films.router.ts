@@ -13,6 +13,7 @@ import {
   FilmChaptersResponseSchema,
   FilmResponseSchema,
   CreateFilmInputSchema,
+  UpdateFilmInputSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -138,6 +139,26 @@ export default createRouter([
       }
 
       return { data, status: 'CREATED' };
+    },
+  }),
+
+  defineRoute({
+    method: 'PATCH',
+    url: '/admin/:id',
+    schema: { body: UpdateFilmInputSchema, params: IdParamSchema, response: FilmResponseSchema },
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .updateFilm(request.params.id, request.body);
+
+      if (!data) {
+        throw new NotFoundException({
+          message: `Film ${request.params.id} not found`,
+        });
+      }
+
+      return { data };
     },
   }),
 
