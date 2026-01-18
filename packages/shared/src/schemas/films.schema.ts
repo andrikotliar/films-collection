@@ -8,6 +8,10 @@ import { GenreResponseSchema } from '~/schemas/genres.schema';
 import { PersonResponseSchema } from '~/schemas/people.schema';
 import { StudioResponseSchema } from '~/schemas/studios.schema';
 
+const DateStringSchema = z
+  .string()
+  .regex(/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/, 'Date must be in YYYY-MM-DD format');
+
 export const CreateFilmInputSchema = z.object({
   title: z.string().nonempty(),
   type: z.enum(TitleType),
@@ -20,9 +24,7 @@ export const CreateFilmInputSchema = z.object({
   collections: z.array(z.number()),
   duration: z.coerce.number().min(1),
   watchCount: z.coerce.number().min(0),
-  releaseDate: z
-    .string()
-    .regex(/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/, 'Date must be in YYYY-MM-DD format'),
+  releaseDate: DateStringSchema,
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
   description: z.string().nullable(),
@@ -55,6 +57,13 @@ export const CreateFilmInputSchema = z.object({
   ),
   isDraft: z.boolean(),
   pendingFilmId: z.coerce.number().nullable().optional(),
+  seriesExtension: z
+    .object({
+      episodesTotal: z.coerce.number(),
+      seasonsTotal: z.coerce.number(),
+      finishedAt: DateStringSchema.nullable(),
+    })
+    .nullable(),
 });
 
 export const GetFilmsListQuerySchema = z.object({

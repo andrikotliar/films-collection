@@ -3,3 +3,4 @@ export * from './enum.type';
 export * from './list-option.type';
 export * from './sorting-order';
 export * from './file-upload-payload';
+export * from './not-null.type';
