@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  border-radius: var(--rounded-default);
+  overflow: hidden;
+  position: relative;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255 255 255 / 0.95);
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 20px;
+}
