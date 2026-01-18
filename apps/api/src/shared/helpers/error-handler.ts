@@ -34,6 +34,7 @@ const prismaErrorResponse = (error: Prisma.PrismaClientKnownRequestError): Prism
 
 export const errorHandler: FastifyInstance['errorHandler'] = (error, request, reply) => {
   request.log.error(error);
+  request.log.error(error.cause);
 
   if (error instanceof Prisma.PrismaClientKnownRequestError) {
     const response = prismaErrorResponse(error);

@@ -49,7 +49,7 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
           episodesTotal: film.seriesExtension.episodesTotal,
           seasonsTotal: film.seriesExtension.seasonsTotal,
           finishedAt: film.seriesExtension.finishedAt
-            ? film.seriesExtension.finishedAt.toString()
+            ? film.seriesExtension.finishedAt.toISOString().split('T')[0]
             : null,
         }
       : null,
