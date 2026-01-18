@@ -19,9 +19,9 @@ import {
   ChaptersSelect,
   ConditionalFormModalContent,
   FilmValuesWatcher,
+  SeriesExtension,
   TrailersSelect,
 } from '~/routes/console/films_/-components/film-form/components';
-import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -95,7 +95,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         defaultValues={values}
         schema={FilmFormSchema}
         onReset={(reset) => {
-          reset(filmDefaultFormValues);
+          reset(values);
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }}
         isLoading={isPending}
@@ -116,6 +116,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <Form.RatingInput name="rating" label="Rating" size={3} />
         <Form.FileInput label="Poster" name="poster" />
         <Form.TextInput name="watchCount" type="number" label="Watch count" min="0" />
+        <SeriesExtension />
         <Form.Select label="Genres" name="genres" options={initialOptions.options.genres} isMulti />
         <Form.Select
           label="Countries"

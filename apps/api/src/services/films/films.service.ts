@@ -208,6 +208,7 @@ export class FilmsService {
       awards,
       genres,
       description,
+      seriesExtension,
       ...updatedParams
     } = input;
 
@@ -251,6 +252,11 @@ export class FilmsService {
     if (genres) {
       const promise = await this.filmsRepository.updateFilmGenres(filmId, genres);
       promises.push(promise());
+    }
+
+    if (seriesExtension) {
+      const promise = this.filmsRepository.updateSeriesExtension(filmId, seriesExtension);
+      promises.push(promise);
     }
 
     await this.filmsRepository.transaction(promises);

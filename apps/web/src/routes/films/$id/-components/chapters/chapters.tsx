@@ -10,10 +10,10 @@ type ChaptersProps = {
 export const Chapters = ({ data, filmId }: ChaptersProps) => {
   return (
     <div className={styles.chapters}>
-      {data.map((chapter) => (
+      {data.map((chapter, index) => (
         <ChapterLink
           id={chapter.id}
-          chapter={chapter.chapterOrder}
+          chapter={index + 1}
           title={chapter.title}
           isActive={chapter.id === filmId}
           poster={chapter.poster}

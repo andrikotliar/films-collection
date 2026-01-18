@@ -4,6 +4,7 @@ import {
   PAGE_LIMITS,
   type CreateFilmInput,
   type GetFilmOptionsQuery,
+  type NotNull,
 } from '@films-collection/shared';
 
 export class FilmsRepository extends BaseRepository {
@@ -380,6 +381,7 @@ export class FilmsRepository extends BaseRepository {
       trailers,
       releaseDate,
       description,
+      seriesExtension,
       ...filmInput
     } = input;
 
@@ -429,6 +431,12 @@ export class FilmsRepository extends BaseRepository {
     if (trailers.length) {
       data.trailers = {
         create: trailers,
+      };
+    }
+
+    if (seriesExtension) {
+      data.seriesExtension = {
+        create: seriesExtension,
       };
     }
 
@@ -499,6 +507,7 @@ export class FilmsRepository extends BaseRepository {
             order: true,
           },
         },
+        seriesExtension: true,
       },
     });
   }
@@ -602,5 +611,15 @@ export class FilmsRepository extends BaseRepository {
         })),
       });
     };
+  }
+
+  updateSeriesExtension(
+    filmId: number,
+    data: Partial<NotNull<CreateFilmInput['seriesExtension']>>,
+  ) {
+    return this.databaseClient.seriesExtension.update({
+      where: { filmId },
+      data,
+    });
   }
 }
