@@ -507,6 +507,7 @@ export class FilmsRepository extends BaseRepository {
             order: true,
           },
         },
+        seriesExtension: true,
       },
     });
   }

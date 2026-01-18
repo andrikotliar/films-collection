@@ -8,6 +8,7 @@ import type {
   FilmPerson,
   FilmStudio,
   FilmTrailer,
+  SeriesExtension,
 } from '@prisma/client';
 
 type Timestamps = 'createdAt' | 'updatedAt';
@@ -20,6 +21,7 @@ type EditableFilm = Omit<Film, Timestamps | 'deletedAt' | 'id'> & {
   trailers: Pick<FilmTrailer, 'order' | 'videoId'>[];
   castAndCrew: Omit<FilmPerson, 'filmId' | Timestamps | 'id'>[];
   awards: Omit<FilmAwardNomination, Timestamps | 'filmId' | 'id'>[];
+  seriesExtension: SeriesExtension | null;
 };
 
 const mapInnerId = <T extends Record<string, number>>(entities: T[], key: keyof T): number[] => {
@@ -42,5 +44,14 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     })),
     description: film.overview,
     isDraft: film.draft,
+    seriesExtension: film.seriesExtension
+      ? {
+          episodesTotal: film.seriesExtension.episodesTotal,
+          seasonsTotal: film.seriesExtension.seasonsTotal,
+          finishedAt: film.seriesExtension.finishedAt
+            ? film.seriesExtension.finishedAt.toString()
+            : null,
+        }
+      : null,
   };
 };
