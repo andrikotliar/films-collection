@@ -14,6 +14,7 @@ import {
   FilmResponseSchema,
   CreateFilmInputSchema,
   UpdateFilmInputSchema,
+  UpdateFilmWatchCounterInputSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -139,6 +140,30 @@ export default createRouter([
       }
 
       return { data, status: 'CREATED' };
+    },
+  }),
+
+  defineRoute({
+    method: 'PATCH',
+    url: '/admin/:id/watchcounter',
+    schema: {
+      body: UpdateFilmWatchCounterInputSchema,
+      params: IdParamSchema,
+      response: IdParamSchema,
+    },
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .updateFilmWatchCount(request.params.id, request.body.counter);
+
+      if (!data) {
+        throw new NotFoundException({
+          message: `Film ${request.params.id} not found`,
+        });
+      }
+
+      return { data: { id: request.params.id } };
     },
   }),
 

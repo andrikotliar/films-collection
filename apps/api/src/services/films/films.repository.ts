@@ -278,6 +278,8 @@ export class FilmsRepository extends BaseRepository {
         id: true,
         title: true,
         draft: true,
+        poster: true,
+        watchCount: true,
       },
       where: filters,
       take: PAGE_LIMITS.default,

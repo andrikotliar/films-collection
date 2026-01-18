@@ -4,6 +4,7 @@ import {
   CalendarIcon,
   CalendarSyncIcon,
   ClapperboardIcon,
+  EyeIcon,
   LibraryIcon,
   MapIcon,
   NewspaperIcon,
@@ -82,5 +83,12 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     title: 'Pages Content',
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
+  },
+  {
+    id: 'watch-counter',
+    route: '/console/watchcounts',
+    title: 'Films Watch Counts',
+    icon: <EyeIcon />,
+    color: 'color-purple-dark',
   },
 ];

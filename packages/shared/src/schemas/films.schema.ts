@@ -102,7 +102,7 @@ export const GetAdminListQuerySchema = z
   .partial();
 
 export const UpdateFilmWatchCounterInputSchema = z.object({
-  counter: z.coerce.number().min(0).max(1000),
+  counter: z.number().min(0).max(1000),
 });
 
 const TrailerSchema = z.object({
@@ -210,7 +210,9 @@ export const FilmsSearchResponseSchema = z.array(
 );
 
 export const FilmsAdminListResponseSchema = z.object({
-  films: z.array(FilmResponseSchema.pick({ id: true, title: true, draft: true })),
+  films: z.array(
+    FilmResponseSchema.pick({ id: true, title: true, draft: true, watchCount: true, poster: true }),
+  ),
   total: z.coerce.number(),
 });
 
