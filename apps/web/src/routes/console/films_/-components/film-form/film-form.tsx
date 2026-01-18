@@ -21,7 +21,6 @@ import {
   FilmValuesWatcher,
   TrailersSelect,
 } from '~/routes/console/films_/-components/film-form/components';
-import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -95,7 +94,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         defaultValues={values}
         schema={FilmFormSchema}
         onReset={(reset) => {
-          reset(filmDefaultFormValues);
+          reset(values);
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }}
         isLoading={isPending}
