@@ -16,8 +16,10 @@ import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 import clsx from 'clsx';
 import { useFormModal } from '~/routes/console/-shared';
 import { getVirtualChapterValue } from '~/routes/console/films_/-helpers';
+import { useParams } from '@tanstack/react-router';
 
 export const ChaptersSelect = () => {
+  const { id } = useParams({ from: '/console/films_/$id' });
   const { watch, register, formState, setValue } = useFormContext<z.infer<typeof FilmFormSchema>>();
   const { data = [] } = useQuery(getChapterKeysOptionsQueryOptions());
   const { onOpen } = useFormModal();
@@ -47,7 +49,7 @@ export const ChaptersSelect = () => {
           <ScrollableLine>
             {films.length === 0 && (
               <label className={clsx(styles.film, styles.position_select)}>
-                <input type="radio" {...register('chapterOrder')} />
+                <input type="radio" {...register('chapterOrder')} value={startingVirtualChapter} />
               </label>
             )}
             {films.map((film, index) => {
@@ -77,7 +79,7 @@ export const ChaptersSelect = () => {
                   >
                     <Image isExternal src={film.poster} className={styles.poster_select_image} />
                   </div>
-                  {!isChapterSelected && !isNextChapterSelected && (
+                  {film.id !== Number(id) && !isNextChapterSelected && (
                     <label className={clsx(styles.film, styles.position_select)}>
                       <input
                         type="radio"
