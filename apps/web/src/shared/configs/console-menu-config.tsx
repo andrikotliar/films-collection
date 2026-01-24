@@ -87,7 +87,7 @@ export const consoleMenuConfig: MenuConfigItem[] = [
   {
     id: 'watch-counter',
     route: '/console/watchcounts',
-    title: 'Films Watch Counts',
+    title: 'Watch Counts',
     icon: <EyeIcon />,
     color: 'color-purple-dark',
   },

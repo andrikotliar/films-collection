@@ -10,11 +10,12 @@
   justify-content: center;
   gap: 10px;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
   padding: 10px;
-  background-color: rgb(255 255 255 / 0.95);
+  background-color: rgb(255 255 255 / 0.9);
+  border-radius: var(--rounded-default);
 }
 
 .counter {
