@@ -60,3 +60,30 @@ A personal list of films with manually collected data. The app primarily focuses
 1. Run `pnpm build:container`. It will build the app and spin up the database.
 
 2. Open the app `http://localhost:5000`
+
+
+## Database backup and restore
+
+### Backup database
+
+docker run --rm \
+  -v "$PWD:/dump" \
+  postgres:17-bookworm \
+  pg_dump "postgresql://USER:PASSWORD@HOST:5432/DBNAME" \
+  -F c \
+  -f /dump/db.dump
+
+### Restore command
+
+```shell
+docker run --rm \
+  --network container:CONTAINER_ID \
+  -v "$PWD:/dump" \
+  postgres:17-bookworm \
+  pg_restore \
+  -p 5432 \
+  -h localhost \
+  -U USERNAME \
+  -d DATABASE \
+  /dump/db.dump
+```
