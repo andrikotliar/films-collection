@@ -1,6 +1,6 @@
 import { api, Button, debounce, Image, type ApiResponse } from '~/shared';
 import styles from './film-counter.module.css';
-import { MinusIcon, PlusIcon } from 'lucide-react';
+import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 import { useCallback, useState } from 'react';
 
 type FilmCounterProps = {
@@ -34,9 +34,17 @@ export const FilmCounter = ({ data }: FilmCounterProps) => {
     <div className={styles.wrapper}>
       <Image isExternal src={data.poster} />
       <div className={styles.actions}>
-        <Button variant="ghost" icon={<MinusIcon />} onClick={() => decreaseCounter(counter)} />
+        <Button
+          variant="ghost"
+          icon={<ChevronLeftIcon />}
+          onClick={() => decreaseCounter(counter)}
+        />
         <span className={styles.counter}>{counter}</span>
-        <Button variant="ghost" icon={<PlusIcon />} onClick={() => increaseCounter(counter)} />
+        <Button
+          variant="ghost"
+          icon={<ChevronRightIcon />}
+          onClick={() => increaseCounter(counter)}
+        />
       </div>
     </div>
   );

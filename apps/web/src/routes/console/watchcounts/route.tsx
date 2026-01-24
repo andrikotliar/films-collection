@@ -33,7 +33,7 @@ function RouteComponent() {
   };
 
   return (
-    <ConsoleContentLayout title="Films watch count">
+    <ConsoleContentLayout title="Films watch count" backPath="/console">
       <FilmsGrid>
         {data.films.map((film) => (
           <FilmCounter data={film} key={film.id} />
