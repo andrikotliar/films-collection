@@ -402,7 +402,11 @@ export class FilmsRepository extends BaseRepository {
 
     if (awards.length) {
       data.awards = {
-        create: awards,
+        create: awards.map(({ personId, ...award }) => ({
+          ...award,
+          actorId: personId,
+          comment: award.comment ?? null,
+        })),
       };
     }
 

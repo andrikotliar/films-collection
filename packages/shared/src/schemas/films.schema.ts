@@ -45,7 +45,7 @@ export const CreateFilmInputSchema = z.object({
     z.object({
       awardId: z.number().min(1),
       nominationId: z.number().min(1),
-      comment: z.string().nonempty().nullable(),
+      comment: z.string().nullable(),
       personId: z.number().nullable(),
     }),
   ),
