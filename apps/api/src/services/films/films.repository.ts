@@ -442,7 +442,12 @@ export class FilmsRepository extends BaseRepository {
 
     if (seriesExtension) {
       data.seriesExtension = {
-        create: seriesExtension,
+        create: {
+          ...seriesExtension,
+          finishedAt: seriesExtension.finishedAt
+            ? new Date(seriesExtension.finishedAt).toISOString()
+            : null,
+        },
       };
     }
 
