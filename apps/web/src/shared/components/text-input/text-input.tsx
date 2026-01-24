@@ -1,4 +1,4 @@
-import styles from "./text-input.module.css";
+import styles from './text-input.module.css';
 import clsx from 'clsx';
 import { type ComponentProps, forwardRef, type ReactNode } from 'react';
 import { FieldError } from '../field-error/field-error';
@@ -26,7 +26,7 @@ export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
             })}
             {...props}
           />
-          {icon}
+          <div className={styles.icon_wrapper}>{icon}</div>
         </div>
         <FieldError error={error} />
       </label>

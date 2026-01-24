@@ -1,6 +1,7 @@
 import { TextInput, useDebouncedSearch } from '~/shared';
 import { getRouteApi } from '@tanstack/react-router';
 import styles from './filters.module.css';
+import { SearchIcon } from 'lucide-react';
 
 const routeApi = getRouteApi('/console/people');
 
@@ -19,7 +20,12 @@ export const Filters = () => {
 
   return (
     <div className={styles.filters}>
-      <TextInput label="Search person" defaultValue={search.q ?? ''} onChange={handleSearch} />
+      <TextInput
+        placeholder="Search person"
+        defaultValue={search.q ?? ''}
+        onChange={handleSearch}
+        icon={<SearchIcon />}
+      />
     </div>
   );
 };

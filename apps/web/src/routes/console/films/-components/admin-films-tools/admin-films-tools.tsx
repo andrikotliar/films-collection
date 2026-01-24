@@ -2,6 +2,7 @@ import { type SortingParams, SortingPopup, TextInput, useDebouncedSearch } from 
 import styles from './admin-films-tools.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import type { ListOption } from '@films-collection/shared';
+import { SearchIcon } from 'lucide-react';
 
 const sortingFields: ListOption<string>[] = [
   {
@@ -25,7 +26,7 @@ export const AdminFilmsTools = () => {
       search: (params) => ({
         ...params,
         pageIndex: 0,
-        q: value ?? '',
+        q: value,
       }),
     });
   });
@@ -46,6 +47,7 @@ export const AdminFilmsTools = () => {
         className={styles.search_input}
         onChange={handleSearch}
         defaultValue={searchParams.q ?? ''}
+        icon={<SearchIcon />}
       />
       <SortingPopup
         fields={sortingFields}

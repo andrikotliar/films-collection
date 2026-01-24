@@ -3,6 +3,7 @@ import type { UseMutateAsyncFunction } from '@tanstack/react-query';
 import { ConfirmModal, Panel } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { ItemRow, type ItemRowProps } from '~/routes/console/-shared/components/item-row/item-row';
+import styles from './list.module.css';
 
 type ListProps<T extends DefaultListItem> = {
   items: T[];
@@ -22,6 +23,10 @@ export const List = <T extends DefaultListItem>({
     await onDelete(data.id);
     setItemToDelete(null);
   };
+
+  if (items.length === 0) {
+    return <div className={styles.placeholder}>No items found</div>;
+  }
 
   return (
     <Panel hasPaddings={false}>
