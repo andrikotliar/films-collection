@@ -7,7 +7,7 @@ export const Route = createFileRoute('/console')({
     const isAuthenticated = getAuthState();
 
     if (!isAuthenticated) {
-      throw redirect({ to: '/login' });
+      throw redirect({ to: '/login', search: { from: window.location.pathname } });
     }
   },
   component: ConsoleRootLayout,
