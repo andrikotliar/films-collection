@@ -72,6 +72,7 @@ function PageContainer() {
     if (pendingFilm) {
       return {
         ...filmDefaultFormValues,
+        ...localValues,
         id: NEW_ITEM_ID,
         pendingFilmId: pendingFilm.id,
         title: pendingFilm.title,
