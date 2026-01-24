@@ -3,6 +3,7 @@ import { useMemo } from 'react';
 import { defineCssProperties, env, type api, type ApiResponse } from '~/shared';
 import {
   Poster,
+  Stats,
   SummaryBlock,
   TrailersButton,
 } from '~/routes/films/$id/-components/summary-section/components';
@@ -30,7 +31,10 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
         <TrailersButton data={film.trailers} type={film.type} />
       </div>
       <div className={styles.wrapper}>
-        <Title>{film.title}</Title>
+        <div className={styles.top_row}>
+          <Title>{film.title}</Title>
+          <Stats watchCount={film.watchCount} rating={film.rating} />
+        </div>
         {filmConfig.map((item) => (
           <SummaryBlock label={item.title} key={item.id}>
             {item.content}
