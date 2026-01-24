@@ -12,6 +12,12 @@ const DateStringSchema = z
   .string()
   .regex(/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/, 'Date must be in YYYY-MM-DD format');
 
+const SeriesExtensionSchema = z.object({
+  episodesTotal: z.coerce.number(),
+  seasonsTotal: z.coerce.number(),
+  finishedAt: DateStringSchema.nullable(),
+});
+
 export const CreateFilmInputSchema = z.object({
   title: z.string().nonempty(),
   type: z.enum(TitleType),
@@ -57,13 +63,7 @@ export const CreateFilmInputSchema = z.object({
   ),
   isDraft: z.boolean(),
   pendingFilmId: z.coerce.number().nullable().optional(),
-  seriesExtension: z
-    .object({
-      episodesTotal: z.coerce.number(),
-      seasonsTotal: z.coerce.number(),
-      finishedAt: DateStringSchema.nullable(),
-    })
-    .nullable(),
+  seriesExtension: SeriesExtensionSchema.nullable(),
 });
 
 export const GetFilmsListQuerySchema = z.object({
@@ -229,7 +229,13 @@ export const FilmChaptersResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true, chapterOrder: true }),
 );
 
-export const UpdateFilmInputSchema = CreateFilmInputSchema.partial();
+export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
+  .omit({
+    seriesExtension: true,
+  })
+  .extend({
+    seriesExtension: SeriesExtensionSchema.partial().nullable(),
+  });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
