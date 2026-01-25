@@ -1,7 +1,6 @@
 .award_wrapper {
   flex-shrink: 0;
-  width: 230px;
-  padding-bottom: 10px;
+  width: 100%;
 }
 
 .award {
@@ -32,7 +31,13 @@
   border-radius: 0 0 8px 8px;
   transition: opacity 300ms;
   border: 1px solid var(--color-yellow-primary);
-  max-height: 120px;
+  height: 150px;
   overflow-y: auto;
   margin-top: -1px;
+}
+
+@media (width <= 520px) {
+  .nominations_wrapper {
+    height: auto;
+  }
 }

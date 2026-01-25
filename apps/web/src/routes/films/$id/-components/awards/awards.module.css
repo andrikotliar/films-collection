@@ -1,5 +1,16 @@
 .awards {
   display: flex;
-  gap: 15px;
-  overflow-x: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: var(--text-base);
+  color: var(--color-orange-primary);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
 }

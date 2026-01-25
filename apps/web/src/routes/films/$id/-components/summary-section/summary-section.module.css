@@ -32,9 +32,8 @@
 }
 
 .top_row {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+  position: relative;
+  padding-right: 100px;
 }
 
 .left_column {

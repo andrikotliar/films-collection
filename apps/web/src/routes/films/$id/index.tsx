@@ -12,8 +12,8 @@ function RouteComponent() {
   const { data: film } = useSuspenseQuery(getFilmQueryOptions(+params.id));
   return (
     <ContentLayout>
-      {film.awards.length > 0 && <Awards data={film.awards} />}
       {film.description && <Description rawHtml={film.description} />}
+      {film.awards.length > 0 && <Awards data={film.awards} />}
       {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
     </ContentLayout>
   );

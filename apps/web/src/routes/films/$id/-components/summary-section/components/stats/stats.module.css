@@ -1,7 +1,11 @@
 .stats {
+  position: absolute;
   display: flex;
-  align-items: center;
-  gap: 20px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  top: 5px;
+  right: 0;
 }
 
 .rating {
@@ -24,6 +28,10 @@
 }
 
 .watchcount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--color-white);
+  font-weight: bold;
   line-height: 28px;
 }
