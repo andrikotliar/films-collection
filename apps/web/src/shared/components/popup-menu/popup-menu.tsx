@@ -19,6 +19,7 @@ type PopupMenuProps = {
   positionMarker?: 'left' | 'right';
   shouldAdjustToTriggerWidth?: boolean;
   shouldFocusTriggerOnClose?: boolean;
+  shouldCloseOnScroll?: boolean;
 } & HTMLAttributes<HTMLDivElement>;
 
 type Position = {
@@ -38,13 +39,14 @@ export const PopupMenu = ({
   positionMarker = 'left',
   shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose = false,
+  shouldCloseOnScroll = true,
   ...divProps
 }: PopupMenuProps) => {
   const [position, setPosition] = useState<Position | null>(null);
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);
 
-  useCloseOnScroll(onClose);
+  useCloseOnScroll(onClose, shouldCloseOnScroll);
 
   const updateMenuPosition = useCallback(
     (menuElement: HTMLDivElement, triggerElement: HTMLElement) => {

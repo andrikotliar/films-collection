@@ -1,16 +1,17 @@
 .wrapper {
   position: relative;
+  background-color: var(--color-white);
+  border-radius: var(--rounded-default);
 }
 
 .select_button {
-  display: flex;
-  align-items: center;
+  position: relative;
   width: 100%;
   padding: 10px;
   border-radius: var(--rounded-default);
   border: var(--border-default);
-  cursor: pointer;
-  background-color: white;
+  background-color: transparent;
+  z-index: 2;
 }
 
 .select_button:focus {
@@ -41,14 +42,32 @@
   transition: transform 300ms;
 }
 
-.selectButtonActive .chevron {
+.select_button_active .chevron {
   transform: rotate(-180deg);
 }
 
-.select_icon {
+.icons {
+  display: flex;
+  gap: 5px;
   position: absolute;
   top: 50%;
-  right: 40px;
+  right: 10px;
   transform: translateY(-50%);
   z-index: 10;
+}
+
+.displayed_value {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.select_button:not(:placeholder-shown) + .displayed_value {
+  opacity: 0;
+}
+
+.select_button:read-only {
+  cursor: pointer;
 }

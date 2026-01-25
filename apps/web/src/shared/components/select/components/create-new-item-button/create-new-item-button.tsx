@@ -10,7 +10,7 @@ export const CreateNewItemButton = ({ onCreate }: CreateNewItemButtonProps) => {
   return (
     <div className={styles.wrapper}>
       <Button variant="ghost" icon={<PlusIcon />} onClick={onCreate}>
-        Create new item
+        Create item
       </Button>
     </div>
   );

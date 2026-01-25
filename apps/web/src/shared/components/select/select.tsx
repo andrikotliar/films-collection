@@ -4,15 +4,7 @@ import { type FormError, useDebouncedSearch } from '~/shared';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { PopupMenu } from '~/shared/components/popup-menu/popup-menu';
 import { FieldError } from '~/shared/components/field-error/field-error';
-import {
-  CreateNewItemButton,
-  NotFound,
-  Option,
-  OptionsSearch,
-  Placeholder,
-  SelectedOption,
-  TriggerButton,
-} from './components';
+import { CreateNewItemButton, NotFound, Option, SelectedOption, TriggerButton } from './components';
 import { getSelectValue } from './helpers';
 import type { ListOption } from '@films-collection/shared';
 
@@ -53,20 +45,23 @@ export const Select = ({
     return getSelectValue(value);
   }, [value]);
 
-  const buttonRef = useRef<HTMLButtonElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const optionsWrapperRef = useRef<HTMLDivElement>(null);
   const optionsRef = useRef<HTMLButtonElement[]>([]);
   const focusedIndex = useRef(-1);
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [internalOptions, setInternalOptions] = useState(options);
-  const [searchInputValue, setSearchInputValue] = useState('');
 
   const handleToggleDropdown = useCallback(() => {
     setIsDropdownOpen((isOpen) => !isOpen);
   }, []);
 
   const handleSearch = useDebouncedSearch((value) => {
+    if (!isDropdownOpen) {
+      setIsDropdownOpen(true);
+    }
+
     if (typeof onOptionsSearch === 'function') {
       onOptionsSearch(value);
       return;
@@ -84,10 +79,16 @@ export const Select = ({
     });
   });
 
+  const setInputValue = (value: string) => {
+    if (inputRef?.current) {
+      inputRef.current.value = value;
+    }
+  };
+
   const handleFinishSelection = useCallback(() => {
     setIsDropdownOpen(false);
     setInternalOptions(options);
-    setSearchInputValue('');
+    setInputValue('');
 
     if (typeof onOptionsSearch === 'function') {
       onOptionsSearch(null);
@@ -125,7 +126,7 @@ export const Select = ({
 
   const handleClearSelection = useCallback(() => {
     onSelect(isMulti ? [] : null);
-    setSearchInputValue('');
+    setInputValue('');
 
     if (typeof onClear === 'function') {
       onClear();
@@ -206,14 +207,13 @@ export const Select = ({
   }, [options]);
 
   const handleSearchChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    setSearchInputValue(event.target.value);
     handleSearch(event);
   }, []);
 
   const handleClickAddItem = () => {
     onCreateOption?.();
     onOptionsSearch?.(null);
-    setSearchInputValue('');
+    setInputValue('');
     setIsDropdownOpen(false);
   };
 
@@ -221,26 +221,24 @@ export const Select = ({
   const shouldShowPlaceholder = !hasSelectedValues || isMulti;
   const shouldShowClearButton = hasSelectedValues && isClearable && !isDisabled;
   const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
+  const displayedValue = shouldShowPlaceholder ? placeholder : selectedOptions[0]?.label;
 
   return (
     <div className={styles.select_wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <TriggerButton
-        ref={buttonRef}
+        ref={inputRef}
         onClick={handleToggleDropdown}
         onClear={handleClearSelection}
         onKeyDown={handleTriggerButtonKeydown}
+        onChange={handleSearchChange}
         isActive={isDropdownOpen}
         shouldShowClearButton={shouldShowClearButton}
         isDisabled={isDisabled}
         isLoading={isOptionsLoading}
-      >
-        {shouldShowPlaceholder ? (
-          <Placeholder>{placeholder}</Placeholder>
-        ) : (
-          selectedOptions[0]?.label
-        )}
-      </TriggerButton>
+        displayedValue={displayedValue}
+        isSearchable={isSearchable}
+      />
       <FieldError error={error} />
       {shouldShowSelectedOptionsList && (
         <div className={styles.selected}>
@@ -255,15 +253,14 @@ export const Select = ({
         </div>
       )}
       <PopupMenu
-        triggerRef={buttonRef}
+        triggerRef={inputRef}
         isOpen={isDropdownOpen}
         onClose={() => setIsDropdownOpen(false)}
         shouldAdjustToTriggerWidth
-        shouldFocusTriggerOnClose
+        shouldFocusTriggerOnClose={false}
         role="listbox"
       >
         <div className={styles.dropdown_container} ref={optionsWrapperRef}>
-          {isSearchable && <OptionsSearch value={searchInputValue} onSearch={handleSearchChange} />}
           {internalOptions.map((option, index) => (
             <Option
               key={option.value}
