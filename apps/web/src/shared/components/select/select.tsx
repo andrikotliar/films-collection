@@ -21,7 +21,7 @@ export type SelectProps = {
   isOptionsLoading?: boolean;
   onSelect: (value: any) => void;
   onOptionsSearch?: (value: string | null) => void;
-  onCreateOption?: VoidFunction;
+  onCreateOption?: (value: string) => Promise<ListOption<any>>;
   onClear?: VoidFunction;
 };
 
@@ -72,7 +72,7 @@ export const Select = ({
       return;
     }
 
-    setInternalOptions((options) => {
+    setInternalOptions(() => {
       return options.filter((option) => {
         return option.label.toLowerCase().includes(value);
       });
@@ -210,11 +210,15 @@ export const Select = ({
     handleSearch(event);
   }, []);
 
-  const handleClickAddItem = () => {
-    onCreateOption?.();
-    onOptionsSearch?.(null);
-    setInputValue('');
-    setIsDropdownOpen(false);
+  const handleClickAddItem = async () => {
+    const value = inputRef?.current?.value ?? '';
+
+    const createdOption = await onCreateOption?.(value);
+
+    if (createdOption) {
+      setInternalOptions((prev) => [...prev, createdOption]);
+      handleSelectValue(createdOption.value, false);
+    }
   };
 
   const hasSelectedValues = selectedValues.length !== 0;
@@ -271,7 +275,7 @@ export const Select = ({
             />
           ))}
           {internalOptions.length === 0 && <NotFound />}
-          {typeof onCreateOption === 'function' && (
+          {typeof onCreateOption === 'function' && !internalOptions.length && (
             <CreateNewItemButton onCreate={handleClickAddItem} />
           )}
         </div>
