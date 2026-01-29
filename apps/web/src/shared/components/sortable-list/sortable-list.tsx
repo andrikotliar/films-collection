@@ -1,4 +1,3 @@
-import { type PropsWithChildren } from 'react';
 import { closestCenter, DndContext, type DragEndEvent, type UniqueIdentifier } from '@dnd-kit/core';
 import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import { SortableItem } from './components';
@@ -8,10 +7,11 @@ type ListItem = {
   [key: string]: unknown;
 };
 
-type SortableListProps<T extends ListItem> = PropsWithChildren<{
+type SortableListProps<T extends ListItem> = {
   items: T[];
   onDragEnd: (event: DragEndEvent) => void;
-}>;
+  children?: React.ReactNode;
+};
 
 export const SortableList = <T extends ListItem>({
   items,

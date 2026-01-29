@@ -79,6 +79,7 @@ export const FilmsSearch = () => {
         shouldAdjustToTriggerWidth
         shouldFocusTriggerOnClose={false}
         className={styles.menu}
+        isFixed
       >
         <SearchMenuContent films={data ?? []} onFilmOpen={handleFinishInteraction} />
       </PopupMenu>

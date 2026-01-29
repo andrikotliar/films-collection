@@ -76,7 +76,7 @@ export const SortingPopup = ({
         isOpen={isOpen}
         triggerRef={sortingPopupButton}
         onClose={handleClose}
-        positionMarker="right"
+        shouldAdjustToTriggerWidth
         className={styles.sorting_popup_wrapper}
       >
         <form onSubmit={handleSubmitSorting}>

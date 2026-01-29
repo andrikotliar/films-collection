@@ -12,7 +12,7 @@
   transform-origin: right top;
   transition: transform 200ms, visibility 200ms;
   visibility: hidden;
-  z-index: 300;
+  z-index: 1000;
 }
 
 .open_app_menu {

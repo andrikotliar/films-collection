@@ -1,6 +1,5 @@
-import styles from "./events-list.module.css";
-import type { PropsWithChildren } from 'react';
+import styles from './events-list.module.css';
 
-export const EventsList = ({ children }: PropsWithChildren) => {
+export const EventsList = ({ children }: React.PropsWithChildren) => {
   return <div className={styles.events_list}>{children}</div>;
 };

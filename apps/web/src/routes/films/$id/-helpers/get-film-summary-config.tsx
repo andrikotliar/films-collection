@@ -1,11 +1,10 @@
-import type { ReactNode } from 'react';
 import { getFormattedMoneyValue, getPluralWord, type api, type ApiResponse } from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
 
 export type SummaryConfig = {
   id: string;
   title: string;
-  content: ReactNode;
+  content: React.ReactNode;
   isHidden?: boolean;
 };
 

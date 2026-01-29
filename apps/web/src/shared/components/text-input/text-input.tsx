@@ -1,6 +1,6 @@
 import styles from './text-input.module.css';
 import clsx from 'clsx';
-import { type ComponentProps, forwardRef, type ReactNode } from 'react';
+import { type ComponentProps, forwardRef } from 'react';
 import { FieldError } from '../field-error/field-error';
 import { FieldLabel } from '../field-label/field-label';
 import { type FormError } from '~/shared';
@@ -9,7 +9,7 @@ export type TextInputProps = {
   type?: 'text' | 'number' | 'password';
   label?: string;
   error?: FormError;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
 } & Omit<ComponentProps<'input'>, 'type' | 'name'>;
 
 export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(

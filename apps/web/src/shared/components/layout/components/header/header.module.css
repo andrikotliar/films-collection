@@ -7,7 +7,7 @@
   background-color: var(--color-white);
   height: var(--header-height);
   border-bottom: var(--border-default);
-  z-index: 100;
+  z-index: 800;
 }
 
 .header_container {

@@ -11,23 +11,29 @@ export type AsyncSelectProps = {
       selected?: any[];
     };
   }) => Promise<ListOption<any>[]>;
-} & Omit<SelectProps, 'onOptionsSearch' | 'options' | 'isOptionsLoading'>;
+} & Omit<SelectProps, 'onOptionsSearch' | 'options'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
 
-export const AsyncSelect = ({ optionsLoader, value, ...props }: AsyncSelectProps) => {
+export const AsyncSelect = ({
+  optionsLoader,
+  value,
+  isOptionsLoading,
+  ...props
+}: AsyncSelectProps) => {
   const [searchString, setSearchString] = useState<string | null>(null);
 
   const { data: options, isFetching } = useQuery({
-    queryKey: [optionsLoader.name, searchString, value] as const,
-    queryFn: async ({ queryKey }) => {
-      const selectedValues = getSelectValue(queryKey[2]);
+    queryKey: [optionsLoader.name, searchString] as const,
+    queryFn: async () => {
+      const selectedValues = getSelectValue(value);
       return optionsLoader({
-        queryParams: { q: queryKey[1] ?? '', selected: selectedValues },
+        queryParams: { q: searchString ?? '', selected: selectedValues },
       });
     },
     placeholderData: (prev) => prev,
     retry: RETRY_ATTEMPTS_COUNT,
+    enabled: !!searchString?.length,
   });
 
   return (
@@ -36,7 +42,7 @@ export const AsyncSelect = ({ optionsLoader, value, ...props }: AsyncSelectProps
       onOptionsSearch={setSearchString}
       value={value}
       onClear={() => setSearchString(null)}
-      isOptionsLoading={isFetching}
+      isOptionsLoading={isFetching || isOptionsLoading}
       {...props}
     />
   );

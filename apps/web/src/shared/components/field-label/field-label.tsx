@@ -1,8 +1,11 @@
-import { type PropsWithChildren } from 'react';
-import styles from "./field-label.module.css";
+import styles from './field-label.module.css';
 import clsx from 'clsx';
-import type { PropsWithClassName } from '~/shared';
 
-export const FieldLabel = ({ children, className }: PropsWithChildren<PropsWithClassName>) => {
+type FieldLabelProps = {
+  children: React.ReactNode;
+  className?: string;
+};
+
+export const FieldLabel = ({ children, className }: FieldLabelProps) => {
   return <span className={clsx(styles.label, className)}>{children}</span>;
 };

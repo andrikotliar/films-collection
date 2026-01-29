@@ -1,13 +1,13 @@
 import { CheckIcon } from 'lucide-react';
 import styles from './checkbox.module.css';
-import { type ComponentProps, forwardRef, type ReactNode } from 'react';
+import { type ComponentProps, forwardRef } from 'react';
 import type { StatusColor } from '~/shared/types';
 import clsx from 'clsx';
 
 export type CheckboxProps = {
   type: 'checkbox' | 'radio';
   label: string;
-  rightIcon?: ReactNode;
+  rightIcon?: React.ReactNode;
   theme?: StatusColor;
 } & Omit<ComponentProps<'input'>, 'type'>;
 

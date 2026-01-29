@@ -1,16 +1,17 @@
-import { useState, type PropsWithChildren } from 'react';
+import { useState } from 'react';
 import { FormModal } from '~/routes/console/-shared/components/form-modal/form-modal';
 import { FormModalContext } from '~/routes/console/-shared/context';
 import type { FormComponentProps, Entity } from '~/shared';
 
 type FormModalProviderProps<T extends Entity> = {
   form: (props: FormComponentProps<T>) => JSX.Element;
+  children?: React.ReactNode;
 };
 
 export const FormModalProvider = <T extends Entity>({
   children,
   form,
-}: PropsWithChildren<FormModalProviderProps<T>>) => {
+}: FormModalProviderProps<T>) => {
   const [data, setData] = useState<T | null>(null);
 
   const handleClose = () => {
