@@ -9,9 +9,12 @@ type AwardsProps = {
 export const Awards = ({ data }: AwardsProps) => {
   return (
     <div className={styles.awards}>
-      {data.map((award) => (
-        <Award data={award} key={award.award.id} />
-      ))}
+      <h2 className={styles.title}>Awards</h2>
+      <div className={styles.list}>
+        {data.map((award) => (
+          <Award data={award} key={award.award.id} />
+        ))}
+      </div>
     </div>
   );
 };

@@ -21,7 +21,7 @@ export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
       onClick={onFilmOpen}
     >
       <div className={styles.poster_wrapper}>
-        <Image src={film.poster} alt={`Poster of the "${film.title}"`} isExternal />
+        <Image src={film.poster} alt={`Poster of the "${film.title}"`} />
       </div>
       <div className={styles.info_wrapper}>
         <h3 className={styles.film_title}>{film.title}</h3>

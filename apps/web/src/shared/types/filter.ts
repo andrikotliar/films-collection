@@ -1,4 +1,3 @@
-import type { ReactNode } from 'react';
 import type { ListOption } from '@films-collection/shared';
 import type { api } from '~/shared/services';
 import type { QueryParams } from '~/shared/types/extract-params';
@@ -28,7 +27,7 @@ export type DateFilter = {
 export type NestedFiltersOption = {
   id: FilterIds;
   label: string;
-  icon?: ReactNode;
+  icon?: React.ReactNode;
 };
 
 export type NestedFilters = {

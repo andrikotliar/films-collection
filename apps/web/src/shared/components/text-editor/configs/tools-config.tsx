@@ -14,11 +14,10 @@ import {
   Redo2Icon,
   Undo2Icon,
 } from 'lucide-react';
-import type { ReactNode } from 'react';
 
 type ToolsConfigItem = {
   key: string;
-  icon: ReactNode;
+  icon: React.ReactNode;
   action: (editor: Editor) => boolean;
   attributes?: Record<string, unknown>;
 };

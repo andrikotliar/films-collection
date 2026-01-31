@@ -2,7 +2,6 @@ import styles from './message.module.css';
 import { type Toast, type ToastType } from '~/shared';
 import clsx from 'clsx';
 import { CircleAlertIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, XIcon } from 'lucide-react';
-import { type ReactNode } from 'react';
 
 type MessageProps = {
   data: Toast;
@@ -16,7 +15,7 @@ const typeToClassName: Record<ToastType, string> = {
   info: styles.info_message,
 };
 
-const typeToIcon: Record<ToastType, ReactNode> = {
+const typeToIcon: Record<ToastType, React.ReactNode> = {
   error: <CircleAlertIcon />,
   success: <CircleCheckIcon />,
   warning: <TriangleAlertIcon />,

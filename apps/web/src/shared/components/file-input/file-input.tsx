@@ -70,7 +70,6 @@ export const FileInput = ({
           errorImageSrc={imageNotFoundPlaceholder}
           src={imagePreview}
           className={styles.image}
-          isExternal={Boolean(defaultValue)}
         />
         <div className={styles.overlay}>
           <UploadIcon size="30%" className={styles.upload_icon} />

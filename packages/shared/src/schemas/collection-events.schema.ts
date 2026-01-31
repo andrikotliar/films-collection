@@ -34,7 +34,7 @@ export const CollectionEventsListResponseSchema = z.array(
     film: z
       .object({
         id: z.coerce.number(),
-        poster: z.string(),
+        poster: z.string().nullable(),
       })
       .nullable(),
   }),

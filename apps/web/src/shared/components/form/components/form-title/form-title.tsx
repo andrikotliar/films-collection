@@ -1,8 +1,5 @@
-import styles from "./form-title.module.css";
-import { type PropsWithChildren } from 'react';
+import styles from './form-title.module.css';
 
-type FormTitleProps = PropsWithChildren;
-
-export const FormTitle = ({ children }: FormTitleProps) => {
+export const FormTitle = ({ children }: React.PropsWithChildren) => {
   return <h2 className={styles.form_title}>{children}</h2>;
 };

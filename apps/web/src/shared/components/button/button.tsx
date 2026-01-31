@@ -1,20 +1,21 @@
 import styles from './button.module.css';
-import { forwardRef, type MouseEventHandler, type PropsWithChildren, type ReactNode } from 'react';
+import { forwardRef } from 'react';
 import clsx from 'clsx';
 import { Loader } from '~/shared/components/loader/loader';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'light';
 
 export type ButtonProps = {
-  onClick?: MouseEventHandler<HTMLButtonElement>;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
   type?: 'button' | 'submit';
-  icon?: ReactNode;
+  icon?: React.ReactNode;
   variant?: ButtonVariant;
   isDisabled?: boolean;
   isLoading?: boolean;
+  children?: React.ReactNode;
 };
 
-export const Button = forwardRef<HTMLButtonElement, PropsWithChildren<ButtonProps>>(
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
       children,

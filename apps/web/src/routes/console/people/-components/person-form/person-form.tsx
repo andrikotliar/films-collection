@@ -41,6 +41,7 @@ export const PersonForm = ({ values }: PersonFormProps) => {
       isLoading={isPending}
     >
       <Form.TextInput name="name" label="Person name" />
+      <Form.Checkbox name="selected" label="Selected" type="checkbox" />
     </Form>
   );
 };

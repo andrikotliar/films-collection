@@ -5,7 +5,7 @@ import { Image } from '~/shared';
 
 type ChapterLinkProps = {
   id: number;
-  poster: string;
+  poster: string | null;
   title: string;
   chapter: number | null;
   isActive: boolean;
@@ -19,7 +19,7 @@ export const ChapterLink = ({ id, poster, title, chapter, isActive }: ChapterLin
       className={clsx(styles.chapter, isActive && styles.chapter_disabled)}
       title={title}
     >
-      <Image src={poster} alt={title} isExternal />
+      <Image src={poster} alt={title} />
       {chapter && <span className={styles.order}>{chapter}</span>}
     </Link>
   );

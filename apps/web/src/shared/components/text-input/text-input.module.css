@@ -31,6 +31,20 @@
   position: relative;
 }
 
-.text_input.with_icon {
-  padding-right: 50px;
+.icon_wrapper {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon_wrapper svg {
+  color: var(--color-gray-primary);
+  width: 20px;
+  height: 20px;
+}
+
+.text_input:focus + .icon_wrapper svg {
+  color: var(--color-blue-primary);
 }

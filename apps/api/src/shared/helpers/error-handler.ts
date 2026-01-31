@@ -1,6 +1,7 @@
 import { Prisma } from '@prisma/client';
 import type { FastifyInstance } from 'fastify';
 import { ResponseCode } from '../enums';
+import { UploadingError } from '~/shared/exceptions';
 
 type PrismaErrorResponse = {
   statusCode: number;
@@ -32,9 +33,17 @@ const prismaErrorResponse = (error: Prisma.PrismaClientKnownRequestError): Prism
   }
 };
 
-export const errorHandler: FastifyInstance['errorHandler'] = (error, request, reply) => {
-  request.log.error(error);
-  request.log.error(error.cause);
+export const errorHandler: FastifyInstance['errorHandler'] = (error, _, reply) => {
+  // eslint-disable-next-line
+  console.error(error);
+
+  if (error instanceof UploadingError) {
+    return reply.code(error.statusCode).send({
+      code: error.name,
+      statusCode: error.statusCode,
+      message: error.message,
+    });
+  }
 
   if (error instanceof Prisma.PrismaClientKnownRequestError) {
     const response = prismaErrorResponse(error);

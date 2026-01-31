@@ -1,7 +1,7 @@
 import styles from './app-menu.module.css';
 import clsx from 'clsx';
 import { type RefObject, useRef } from 'react';
-import { useClickOutside, useCloseOnScroll, mainMenu } from '~/shared';
+import { useClickOutside, mainMenu } from '~/shared';
 import { Menu } from '~/shared/components/menu/menu';
 
 type AppMenuProps = {
@@ -19,8 +19,6 @@ export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {
     triggerElementRef: menuButtonRef,
     containerRef,
   });
-
-  useCloseOnScroll(onClose);
 
   return (
     <div

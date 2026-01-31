@@ -1,12 +1,11 @@
-import { TextInput, useDebouncedSearch } from '~/shared';
-import { getRouteApi } from '@tanstack/react-router';
+import { Checkbox, TextInput, useDebouncedSearch } from '~/shared';
+import { useNavigate, useSearch } from '@tanstack/react-router';
 import styles from './filters.module.css';
-
-const routeApi = getRouteApi('/console/people');
+import { SearchIcon } from 'lucide-react';
 
 export const Filters = () => {
-  const navigate = routeApi.useNavigate();
-  const search = routeApi.useSearch();
+  const navigate = useNavigate({ from: '/console/people' });
+  const search = useSearch({ from: '/console/people' });
 
   const handleSearch = useDebouncedSearch((value) => {
     navigate({
@@ -17,9 +16,29 @@ export const Filters = () => {
     });
   });
 
+  const handleFilterSelected = (event: React.ChangeEvent<HTMLInputElement>) => {
+    navigate({
+      search: (values) => ({
+        ...values,
+        selected: event.target.checked,
+      }),
+    });
+  };
+
   return (
     <div className={styles.filters}>
-      <TextInput label="Search person" defaultValue={search.q ?? ''} onChange={handleSearch} />
+      <TextInput
+        placeholder="Search person"
+        defaultValue={search.q ?? ''}
+        onChange={handleSearch}
+        icon={<SearchIcon />}
+      />
+      <Checkbox
+        onChange={handleFilterSelected}
+        checked={search.selected}
+        type="checkbox"
+        label="Filter selected"
+      />
     </div>
   );
 };

@@ -10,7 +10,6 @@ export * from './entity';
 export * from './mixed-id';
 export * from './toaster';
 export * from './form-field-props';
-export * from './props-with-classname';
 export * from './extract-params';
 export * from './entity';
 export * from './component';

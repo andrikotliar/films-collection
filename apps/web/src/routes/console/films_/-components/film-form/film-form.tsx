@@ -12,12 +12,10 @@ import {
   queryKeys,
 } from '~/shared';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
-import { FormModalProvider } from '~/routes/console/-shared';
 import {
   AwardsSelect,
   CastAndCrewSelect,
   ChaptersSelect,
-  ConditionalFormModalContent,
   FilmValuesWatcher,
   SeriesExtension,
   TrailersSelect,
@@ -44,7 +42,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
         const posterData = await api.files.create({ input: formData });
 
-        poster = posterData.filePath;
+        poster = posterData.url;
       }
 
       const trailers = data.trailers.map((trailer) => ({
@@ -89,65 +87,63 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   });
 
   return (
-    <FormModalProvider form={ConditionalFormModalContent}>
-      <Form
-        onSubmit={handleSubmit}
-        defaultValues={values}
-        schema={FilmFormSchema}
-        onReset={(reset) => {
-          reset(values);
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}
-        isLoading={isPending}
-      >
-        <Form.TextInput name="title" label="Title" />
-        <Form.CheckboxesGroup
-          label="Type"
-          name="type"
-          options={initialOptions.options.types}
-          type="radio"
-        />
-        <Form.CheckboxesGroup
-          label="Styles"
-          name="style"
-          options={initialOptions.options.styles}
-          type="radio"
-        />
-        <Form.RatingInput name="rating" label="Rating" size={3} />
-        <Form.FileInput label="Poster" name="poster" />
-        <Form.TextInput name="watchCount" type="number" label="Watch count" min="0" />
-        <SeriesExtension />
-        <Form.Select label="Genres" name="genres" options={initialOptions.options.genres} isMulti />
-        <Form.Select
-          label="Countries"
-          name="countries"
-          options={initialOptions.options.countries}
-          isMulti
-        />
-        <Form.Select
-          label="Studios"
-          name="studios"
-          options={initialOptions.options.studios}
-          isMulti
-        />
-        <Form.Select
-          label="Collections"
-          name="collections"
-          options={initialOptions.options.collections}
-          isMulti
-        />
-        <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
-        <Form.DatePicker name="releaseDate" label="Release Date" />
-        <Form.TextInput name="budget" label="Budget" type="number" min="0" />
-        <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
-        <Form.TextEditor name="description" label="Description" />
-        <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
-        <AwardsSelect awardOptions={initialOptions.options.awards} />
-        <TrailersSelect />
-        <ChaptersSelect />
-        <Form.Checkbox name="isDraft" type="checkbox" label="Draft" />
-        <FilmValuesWatcher id={values.id} />
-      </Form>
-    </FormModalProvider>
+    <Form
+      onSubmit={handleSubmit}
+      defaultValues={values}
+      schema={FilmFormSchema}
+      onReset={(reset) => {
+        reset(values);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }}
+      isLoading={isPending}
+    >
+      <Form.TextInput name="title" label="Title" />
+      <Form.CheckboxesGroup
+        label="Type"
+        name="type"
+        options={initialOptions.options.types}
+        type="radio"
+      />
+      <Form.CheckboxesGroup
+        label="Styles"
+        name="style"
+        options={initialOptions.options.styles}
+        type="radio"
+      />
+      <Form.RatingInput name="rating" label="Rating" size={3} />
+      <Form.FileInput label="Poster" name="poster" />
+      <Form.TextInput name="watchCount" type="number" label="Watch count" min="0" />
+      <SeriesExtension />
+      <Form.Select label="Genres" name="genres" options={initialOptions.options.genres} isMulti />
+      <Form.Select
+        label="Countries"
+        name="countries"
+        options={initialOptions.options.countries}
+        isMulti
+      />
+      <Form.Select
+        label="Studios"
+        name="studios"
+        options={initialOptions.options.studios}
+        isMulti
+      />
+      <Form.Select
+        label="Collections"
+        name="collections"
+        options={initialOptions.options.collections}
+        isMulti
+      />
+      <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
+      <Form.DatePicker name="releaseDate" label="Release Date" />
+      <Form.TextInput name="budget" label="Budget" type="number" min="0" />
+      <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
+      <Form.TextEditor name="description" label="Description" />
+      <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
+      <AwardsSelect awardOptions={initialOptions.options.awards} />
+      <TrailersSelect />
+      <ChaptersSelect />
+      <Form.Checkbox name="isDraft" type="checkbox" label="Draft" />
+      <FilmValuesWatcher id={values.id} />
+    </Form>
   );
 };

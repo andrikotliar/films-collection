@@ -13,10 +13,6 @@ type TrailersButtonProps = {
 export const TrailersButton = ({ data, type }: TrailersButtonProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  if (!data.length) {
-    return null;
-  }
-
   const handleClose = () => {
     setIsModalOpen(false);
   };

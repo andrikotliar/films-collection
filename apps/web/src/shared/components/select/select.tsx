@@ -4,15 +4,7 @@ import { type FormError, useDebouncedSearch } from '~/shared';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { PopupMenu } from '~/shared/components/popup-menu/popup-menu';
 import { FieldError } from '~/shared/components/field-error/field-error';
-import {
-  CreateNewItemButton,
-  NotFound,
-  Option,
-  OptionsSearch,
-  Placeholder,
-  SelectedOption,
-  TriggerButton,
-} from './components';
+import { CreateNewItemButton, NotFound, Option, SelectedOption, TriggerButton } from './components';
 import { getSelectValue } from './helpers';
 import type { ListOption } from '@films-collection/shared';
 
@@ -29,7 +21,7 @@ export type SelectProps = {
   isOptionsLoading?: boolean;
   onSelect: (value: any) => void;
   onOptionsSearch?: (value: string | null) => void;
-  onCreateOption?: VoidFunction;
+  onCreateOption?: (value: string) => Promise<ListOption<any>>;
   onClear?: VoidFunction;
 };
 
@@ -53,20 +45,23 @@ export const Select = ({
     return getSelectValue(value);
   }, [value]);
 
-  const buttonRef = useRef<HTMLButtonElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const optionsWrapperRef = useRef<HTMLDivElement>(null);
   const optionsRef = useRef<HTMLButtonElement[]>([]);
   const focusedIndex = useRef(-1);
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [internalOptions, setInternalOptions] = useState(options);
-  const [searchInputValue, setSearchInputValue] = useState('');
 
   const handleToggleDropdown = useCallback(() => {
     setIsDropdownOpen((isOpen) => !isOpen);
   }, []);
 
   const handleSearch = useDebouncedSearch((value) => {
+    if (!isDropdownOpen) {
+      setIsDropdownOpen(true);
+    }
+
     if (typeof onOptionsSearch === 'function') {
       onOptionsSearch(value);
       return;
@@ -77,43 +72,52 @@ export const Select = ({
       return;
     }
 
-    setInternalOptions((options) => {
+    setInternalOptions(() => {
       return options.filter((option) => {
         return option.label.toLowerCase().includes(value);
       });
     });
   });
 
-  const handleFinishSelection = useCallback(() => {
-    setIsDropdownOpen(false);
-    setInternalOptions(options);
-    setSearchInputValue('');
-
-    if (typeof onOptionsSearch === 'function') {
-      onOptionsSearch(null);
+  const setInputValue = (value: string) => {
+    if (inputRef?.current) {
+      inputRef.current.value = value;
     }
-  }, [onOptionsSearch]);
+  };
+
+  const handleFinishSelection = useCallback(
+    (newOption?: ListOption) => {
+      setIsDropdownOpen(false);
+      const resetOptions = [...options];
+      if (newOption) {
+        resetOptions.push(newOption);
+      }
+      setInternalOptions(resetOptions);
+      setInputValue('');
+    },
+    [onOptionsSearch, options],
+  );
 
   const handleSelectValue = useCallback(
-    (value: unknown, isActive: boolean) => {
-      handleFinishSelection();
+    (option: ListOption, isActive: boolean, append?: boolean) => {
+      handleFinishSelection(append ? option : undefined);
 
       if (!isMulti) {
-        onSelect(value);
+        onSelect(option.value);
         return;
       }
 
       if (isActive) {
-        const newValues = selectedValues.filter((v) => v !== value);
+        const newValues = selectedValues.filter((v) => v !== option.value);
         onSelect(newValues);
         return;
       }
 
-      const newValues = [...selectedValues, value];
+      const newValues = [...selectedValues, option.value];
 
       onSelect(newValues);
     },
-    [onSelect, selectedValues],
+    [onSelect, selectedValues, handleFinishSelection],
   );
 
   const handleRemoveOption = useCallback(
@@ -125,7 +129,7 @@ export const Select = ({
 
   const handleClearSelection = useCallback(() => {
     onSelect(isMulti ? [] : null);
-    setSearchInputValue('');
+    setInputValue('');
 
     if (typeof onClear === 'function') {
       onClear();
@@ -137,8 +141,8 @@ export const Select = ({
       return [];
     }
 
-    return options.filter((option) => selectedValues.includes(option.value));
-  }, [selectedValues, options]);
+    return internalOptions.filter((option) => selectedValues.includes(option.value));
+  }, [selectedValues, internalOptions]);
 
   const handleTriggerButtonKeydown = useCallback((event: React.KeyboardEvent) => {
     switch (event.key) {
@@ -206,41 +210,41 @@ export const Select = ({
   }, [options]);
 
   const handleSearchChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    setSearchInputValue(event.target.value);
     handleSearch(event);
   }, []);
 
-  const handleClickAddItem = () => {
-    onCreateOption?.();
-    onOptionsSearch?.(null);
-    setSearchInputValue('');
-    setIsDropdownOpen(false);
+  const handleClickAddItem = async () => {
+    const value = inputRef?.current?.value ?? '';
+
+    const createdOption = await onCreateOption?.(value);
+
+    if (createdOption) {
+      handleSelectValue(createdOption, false, true);
+    }
   };
 
-  const hasSelectedValues = selectedValues.length !== 0;
+  const hasSelectedValues = selectedOptions.length !== 0;
   const shouldShowPlaceholder = !hasSelectedValues || isMulti;
   const shouldShowClearButton = hasSelectedValues && isClearable && !isDisabled;
   const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
+  const displayedValue = shouldShowPlaceholder ? placeholder : selectedOptions[0]?.label;
 
   return (
     <div className={styles.select_wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <TriggerButton
-        ref={buttonRef}
+        ref={inputRef}
         onClick={handleToggleDropdown}
         onClear={handleClearSelection}
         onKeyDown={handleTriggerButtonKeydown}
+        onChange={handleSearchChange}
         isActive={isDropdownOpen}
         shouldShowClearButton={shouldShowClearButton}
         isDisabled={isDisabled}
         isLoading={isOptionsLoading}
-      >
-        {shouldShowPlaceholder ? (
-          <Placeholder>{placeholder}</Placeholder>
-        ) : (
-          selectedOptions[0]?.label
-        )}
-      </TriggerButton>
+        displayedValue={displayedValue}
+        isSearchable={isSearchable}
+      />
       <FieldError error={error} />
       {shouldShowSelectedOptionsList && (
         <div className={styles.selected}>
@@ -255,15 +259,14 @@ export const Select = ({
         </div>
       )}
       <PopupMenu
-        triggerRef={buttonRef}
+        triggerRef={inputRef}
         isOpen={isDropdownOpen}
         onClose={() => setIsDropdownOpen(false)}
         shouldAdjustToTriggerWidth
-        shouldFocusTriggerOnClose
+        shouldFocusTriggerOnClose={false}
         role="listbox"
       >
         <div className={styles.dropdown_container} ref={optionsWrapperRef}>
-          {isSearchable && <OptionsSearch value={searchInputValue} onSearch={handleSearchChange} />}
           {internalOptions.map((option, index) => (
             <Option
               key={option.value}

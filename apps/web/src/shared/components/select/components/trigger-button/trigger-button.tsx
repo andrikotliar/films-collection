@@ -2,64 +2,69 @@ import { Button } from '~/shared/components/button/button';
 import styles from './trigger-button.module.css';
 import clsx from 'clsx';
 import { ChevronDownIcon, XIcon } from 'lucide-react';
-import { forwardRef, type KeyboardEvent, type PropsWithChildren } from 'react';
+import { forwardRef, type ChangeEventHandler, type KeyboardEvent } from 'react';
 import { Loader } from '~/shared/components/loader/loader';
 
 type TriggerButtonProps = {
   onClick: VoidFunction;
   onClear: VoidFunction;
+  onChange: ChangeEventHandler<HTMLInputElement>;
   onKeyDown: (event: KeyboardEvent) => void;
+  displayedValue?: string;
   isActive: boolean;
-  shouldShowClearButton: boolean;
   isDisabled: boolean;
   isLoading?: boolean;
+  isSearchable?: boolean;
+  shouldShowClearButton: boolean;
 };
 
-export const TriggerButton = forwardRef<HTMLButtonElement, PropsWithChildren<TriggerButtonProps>>(
+export const TriggerButton = forwardRef<HTMLInputElement, TriggerButtonProps>(
   (
     {
       onClick,
       onClear,
       onKeyDown,
+      onChange,
+      displayedValue,
       isActive,
-      children,
-      shouldShowClearButton,
       isDisabled,
       isLoading,
+      isSearchable = true,
+      shouldShowClearButton,
     },
     ref,
   ) => {
     return (
-      <div className={styles.wrapper}>
-        <button
+      <div
+        className={clsx(styles.wrapper, {
+          [styles.select_button_active]: isActive,
+        })}
+      >
+        <input
           ref={ref}
           onClick={onClick}
-          className={clsx(styles.select_button, {
-            [styles.selectButtonActive]: isActive,
-          })}
+          className={styles.select_button}
           onKeyDown={onKeyDown}
-          type="button"
+          onChange={onChange}
+          type="text"
           disabled={isDisabled}
           aria-haspopup="listbox"
-        >
-          <div>{children}</div>
-          <ChevronDownIcon size={20} className={clsx(styles.icon, styles.chevron)} />
-        </button>
-        {isLoading && (
-          <div className={styles.select_icon}>
-            <Loader size={18} shouldInheritColor />
-          </div>
-        )}
-        {shouldShowClearButton && !isLoading && (
-          <div className={styles.select_icon}>
+          readOnly={!isSearchable}
+          placeholder=""
+        />
+        <div className={styles.displayed_value}>{displayedValue}</div>
+        <div className={styles.icons}>
+          {isLoading && <Loader size={18} shouldInheritColor />}
+          {shouldShowClearButton && !isLoading && (
             <Button
               icon={<XIcon className={styles.icon} size={18} />}
               variant="ghost"
               onClick={onClear}
               aria-label="Clear selection"
             />
-          </div>
-        )}
+          )}
+          <ChevronDownIcon size={20} className={clsx(styles.icon, styles.chevron)} />
+        </div>
       </div>
     );
   },

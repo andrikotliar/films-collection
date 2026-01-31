@@ -1,9 +1,10 @@
 import clsx from 'clsx';
 import styles from './modal-content.module.css';
-import type { PropsWithChildren } from 'react';
-import type { PropsWithClassName } from '~/shared';
 
-type ModalContentProps = PropsWithChildren<PropsWithClassName>;
+type ModalContentProps = {
+  children: React.ReactNode;
+  className?: string;
+};
 
 export const ModalContent = ({ children, className }: ModalContentProps) => {
   return (

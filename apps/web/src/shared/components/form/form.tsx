@@ -1,5 +1,4 @@
 import styles from './form.module.css';
-import type { PropsWithChildren, ReactNode } from 'react';
 import { FormProvider, useForm, type DefaultValues } from 'react-hook-form';
 import type z from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -27,19 +26,17 @@ import {
   FormVideoInput,
 } from '~/shared/components/form/components';
 
-type FormProps<
-  TDefaultValues extends Record<PropertyKey, unknown>,
-  TSchema extends z.ZodType,
-> = PropsWithChildren<{
+type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema extends z.ZodType> = {
   onSubmit: (data: TDefaultValues) => Promise<unknown>;
   defaultValues?: DefaultValues<TDefaultValues>;
   schema: TSchema;
   isLoading?: boolean;
   submitButtonText?: string;
   title?: string;
-  submitIcon?: ReactNode;
+  submitIcon?: React.ReactNode;
+  children?: React.ReactNode;
   onReset?: (formReset: (values: TDefaultValues) => void) => void;
-}>;
+};
 
 export const Form = <
   TDefaultValues extends Record<PropertyKey, unknown>,

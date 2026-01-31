@@ -11,6 +11,7 @@ import styles from './filters.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { type ChangeEvent, useCallback } from 'react';
 import { setPriorities } from '~/routes/console/pending-films/-components/filters/helpers';
+import { SearchIcon } from 'lucide-react';
 
 const routeApi = getRouteApi('/console/pending-films');
 
@@ -84,7 +85,8 @@ export const Filters = () => {
           onChange={debouncedSearch}
           defaultValue={searchParams.q}
           className={styles.search}
-          placeholder="Search a film"
+          placeholder="Search pending film"
+          icon={<SearchIcon />}
         />
         <SortingPopup
           fields={sortingFields}

@@ -38,10 +38,12 @@ A personal list of films with manually collected data. The app primarily focuses
 ### Start dev server
 
 1. In the project root, run `pnpm install` to install dependencies for both the frontend and backend.
-2. Create `.env` files in the `apps/api` and `apps/web` directories following examples from the `./apps/api/.env.sample` and `./apps/web/.env.sample` respectively.
-3. Run `pnpm db:start` to spin up a database.
-4. Run `pnpm db:init` in the root. It will run migrations.
-5. In the project's root run `pnpm dev` to start the application.
+2. Create `.env` file in the `apps/api` directory following the `./apps/api/.env.sample`.
+3. In the project's root run `pnpm dev` to start the application. It automatically run all necessary commands for the DEV server:
+- spin up a database in the docker container;
+- run pending migrations;
+- build the API client;
+- start frontend and backend;
 
 ## Build project
 
@@ -87,3 +89,10 @@ docker run --rm \
   -d DATABASE \
   /dump/db.dump
 ```
+
+## Migrations
+
+1. Update `apps/api/prisma/schema.prisma` file.
+2. Navigate to the `apps/api` folder.
+3. Run `pnpm db:migrate`. It will prompt to create a migration file and apply migrations to the database.
+4. Run `pnpm db:client:generate` to update prisma client and prisma types.

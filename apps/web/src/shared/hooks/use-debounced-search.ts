@@ -1,7 +1,7 @@
 import { debounce } from '~/shared';
-import { ChangeEvent, useCallback } from 'react';
+import { type ChangeEvent, useCallback } from 'react';
 
-type SearchHandler = (value: string | null) => void | Promise<void>;
+type SearchHandler = (value: string) => void | Promise<void>;
 
 export const useDebouncedSearch = (handler: SearchHandler) => {
   const handleSearch = useCallback(
@@ -13,7 +13,7 @@ export const useDebouncedSearch = (handler: SearchHandler) => {
         return;
       }
 
-      handler(null);
+      handler('');
     },
     [handler],
   );

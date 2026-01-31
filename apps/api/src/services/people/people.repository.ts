@@ -27,6 +27,7 @@ export class PeopleRepository {
       select: {
         id: true,
         name: true,
+        selected: true,
       },
       orderBy: {
         name: 'asc',
@@ -109,6 +110,23 @@ export class PeopleRepository {
     return this.databaseClient.person.delete({
       where: {
         id,
+      },
+    });
+  }
+
+  getSelected() {
+    return this.databaseClient.person.findMany({
+      select: {
+        id: true,
+        name: true,
+      },
+      where: {
+        selected: true,
+      },
+      orderBy: {
+        films: {
+          _count: 'asc',
+        },
       },
     });
   }

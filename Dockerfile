@@ -6,9 +6,6 @@ RUN corepack enable
 
 COPY . .
 
-ARG VITE_BASE_MEDIA_URL
-ENV VITE_BASE_MEDIA_URL=$VITE_BASE_MEDIA_URL
-
 RUN pnpm install --frozen-lockfile
 
 RUN pnpm --filter ./packages/shared build

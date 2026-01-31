@@ -1,10 +1,10 @@
 import styles from './tool-button.module.css';
-import { type ReactNode } from 'react';
+
 import clsx from 'clsx';
 
 type ToolButtonProps = {
   onClick: VoidFunction;
-  icon: ReactNode;
+  icon: React.ReactNode;
   isActive?: boolean;
 };
 

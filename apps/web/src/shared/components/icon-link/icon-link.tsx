@@ -1,9 +1,8 @@
-import styles from "./icon-link.module.css";
+import styles from './icon-link.module.css';
 import { Link, type LinkProps } from '@tanstack/react-router';
-import { type ReactNode } from 'react';
 
 type IconLinkProps = Omit<LinkProps, 'className' | 'children'> & {
-  icon: ReactNode;
+  icon: React.ReactNode;
 };
 
 export const IconLink = ({ icon, ...props }: IconLinkProps) => {

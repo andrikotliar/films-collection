@@ -17,7 +17,7 @@ export const FilmsGrid = ({ films }: FilmsGridProps) => {
           key={film.id}
         >
           <div className={styles.cover}>
-            <Image src={film.poster} alt={film.title} isExternal />
+            <Image src={film.poster} alt={film.title} />
           </div>
           <h3 className={styles.title}>{film.title}</h3>
           <p className={styles.year}>{getYearFromDate(film.releaseDate)}</p>
