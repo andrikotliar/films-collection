@@ -5,7 +5,9 @@ import { FormIdParamSchema } from '~/shared';
 export const FilmFormSchema = z
   .object({
     ...CreateFilmInputSchema.shape,
-    poster: z.union([z.string().nonempty({ error: 'Poster cannot be empty' }), z.file()]),
+    poster: z
+      .union([z.string().nonempty({ error: 'Poster cannot be empty' }), z.file()])
+      .nullable(),
     id: FormIdParamSchema,
   })
   .superRefine((data, ctx) => {

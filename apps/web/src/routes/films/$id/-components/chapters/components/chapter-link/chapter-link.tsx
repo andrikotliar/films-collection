@@ -5,7 +5,7 @@ import { Image } from '~/shared';
 
 type ChapterLinkProps = {
   id: number;
-  poster: string;
+  poster: string | null;
   title: string;
   chapter: number | null;
   isActive: boolean;
