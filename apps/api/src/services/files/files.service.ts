@@ -1,7 +1,7 @@
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { v2 as cloudinary, type UploadApiResponse } from 'cloudinary';
-import { type Deps } from '~/shared';
+import { UploadingError, type Deps } from '~/shared';
 import { destinationParams } from '~/services/files/configs';
 import type { FileUploadPayload } from '@films-collection/shared';
 
@@ -15,15 +15,23 @@ export class FilesService {
   }
 
   async upload(payload: FileUploadPayload<Buffer>) {
-    const result = await this.uploadStream(payload);
+    try {
+      const result = await this.uploadStream(payload);
 
-    if (!result) {
-      throw new Error('Upload result is not defined');
+      if (!result) {
+        throw new UploadingError({
+          http_code: 400,
+          message: 'Missing uploading result',
+          name: 'BadRequest',
+        });
+      }
+
+      return {
+        url: result.url,
+      };
+    } catch (error: any) {
+      throw new UploadingError(error);
     }
-
-    return {
-      filePath: `${result.public_id}.${result.format}`,
-    };
   }
 
   async delete(filePath: string) {
