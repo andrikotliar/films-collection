@@ -1,6 +1,6 @@
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { v2 as cloudinary, type UploadApiResponse } from 'cloudinary';
+import { v2 as cloudinary, type UploadApiOptions } from 'cloudinary';
 import { UploadingError, type Deps } from '~/shared';
 import { destinationParams } from '~/services/files/configs';
 import type { FileUploadPayload } from '@films-collection/shared';
@@ -15,22 +15,40 @@ export class FilesService {
   }
 
   async upload(payload: FileUploadPayload<Buffer>) {
-    try {
-      const result = await this.uploadStream(payload);
+    const config = destinationParams[payload.destination];
+    const parsedTitle = this.parseTitle(payload);
 
-      if (!result) {
-        throw new UploadingError({
-          http_code: 400,
-          message: 'Missing uploading result',
-          name: 'BadRequest',
-        });
-      }
+    if (!config) {
+      throw new UploadingError({
+        name: 'BadRequest',
+        message: `Unknown destination ${payload.destination}`,
+        http_code: 400,
+      });
+    }
+
+    try {
+      const options: UploadApiOptions = {
+        folder: config.path,
+        transformation: config.transformation,
+        public_id: parsedTitle,
+        filename_override: parsedTitle,
+        unique_filename: false,
+        resource_type: 'image',
+        format: config.format,
+        overwrite: true,
+        invalidate: true,
+      };
+
+      const result = await cloudinary.uploader.upload(
+        `data:image/png;base64,${payload.file.toString('base64')}`,
+        options,
+      );
 
       return {
         url: result.url,
       };
-    } catch (error: any) {
-      throw new UploadingError(error);
+    } catch (uploadingError: any) {
+      throw new UploadingError(uploadingError.error);
     }
   }
 
@@ -39,40 +57,6 @@ export class FilesService {
     const publicId = `${filePathData.dir}/${filePathData.name}`;
 
     return cloudinary.uploader.destroy(publicId);
-  }
-
-  private uploadStream(payload: FileUploadPayload<Buffer>) {
-    const config = destinationParams[payload.destination];
-    const parsedTitle = this.parseTitle(payload);
-
-    if (!config) {
-      throw new Error(`Unknown destination ${payload.destination}`);
-    }
-
-    return new Promise<UploadApiResponse | undefined>((resolve, reject) => {
-      cloudinary.uploader
-        .upload_stream(
-          {
-            folder: config.path,
-            transformation: config.transformation,
-            public_id: parsedTitle,
-            filename_override: parsedTitle,
-            unique_filename: false,
-            resource_type: 'image',
-            format: config.format,
-            overwrite: true,
-            invalidate: true,
-          },
-          (error, result) => {
-            if (error) {
-              reject(error);
-            } else {
-              resolve(result);
-            }
-          },
-        )
-        .end(payload.file);
-    });
   }
 
   private parseTitle(payload: FileUploadPayload<Buffer>) {
