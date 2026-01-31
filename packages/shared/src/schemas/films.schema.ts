@@ -23,7 +23,7 @@ export const CreateFilmInputSchema = z.object({
   type: z.enum(TitleType),
   style: z.enum(TitleStyle),
   rating: z.coerce.number().min(1).max(3),
-  poster: z.string().nonempty(),
+  poster: z.string().nullable(),
   genres: z.array(z.number()),
   studios: z.array(z.number()),
   countries: z.array(z.number()),
@@ -126,7 +126,7 @@ const TrailerSchema = z.object({
 const ChapterSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
-  poster: z.string(),
+  poster: z.string().nullable(),
   chapterOrder: z.coerce.number().nullable(),
 });
 

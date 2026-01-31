@@ -89,3 +89,10 @@ docker run --rm \
   -d DATABASE \
   /dump/db.dump
 ```
+
+## Migrations
+
+1. Update `apps/api/prisma/schema.prisma` file.
+2. Navigate to the `apps/api` folder.
+3. Run `pnpm db:migrate`. It will prompt to create a migration file and apply migrations to the database.
+4. Run `pnpm db:client:generate` to update prisma client and prisma types.
