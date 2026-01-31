@@ -8,6 +8,7 @@ import type { CollectionEventsService } from '~/services/collection-events/colle
 import type { AwardsService } from '~/services/awards/awards.service';
 import type { FilmsService } from '~/services/films';
 import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
+import type { PeopleService } from '~/services/people';
 
 export class InitialDataService {
   private readonly collectionsService: CollectionsService;
@@ -17,6 +18,7 @@ export class InitialDataService {
   private readonly collectionEventsService: CollectionEventsService;
   private readonly awardsService: AwardsService;
   private readonly filmsService: FilmsService;
+  private readonly peopleService: PeopleService;
 
   constructor(
     deps: Deps<
@@ -27,6 +29,7 @@ export class InitialDataService {
       | 'collectionEventsService'
       | 'awardsService'
       | 'filmsService'
+      | 'peopleService'
     >,
   ) {
     this.awardsService = deps.awardsService;
@@ -36,17 +39,20 @@ export class InitialDataService {
     this.studiosService = deps.studiosService;
     this.collectionEventsService = deps.collectionEventsService;
     this.filmsService = deps.filmsService;
+    this.peopleService = deps.peopleService;
   }
 
   async getOptions(): Promise<InitialDataResponse> {
-    const [collections, genres, countries, studios, awards, filmsTotal] = await Promise.all([
-      this.collectionsService.getListOptions(),
-      this.genresService.getListOptions(),
-      this.countriesService.getListOptions(),
-      this.studiosService.getListOptions(),
-      this.awardsService.getListOptions(),
-      this.filmsService.getFilmsTotal(),
-    ]);
+    const [collections, genres, countries, studios, awards, filmsTotal, selectedPeople] =
+      await Promise.all([
+        this.collectionsService.getListOptions(),
+        this.genresService.getListOptions(),
+        this.countriesService.getListOptions(),
+        this.studiosService.getListOptions(),
+        this.awardsService.getListOptions(),
+        this.filmsService.getFilmsTotal(),
+        this.peopleService.getSelectedListOptions(),
+      ]);
 
     const types = convertEnumValuesToOption(TitleType);
     const styles = convertEnumValuesToOption(TitleStyle);
@@ -66,6 +72,7 @@ export class InitialDataService {
         roles,
         awards,
         collectionCategories,
+        selectedPeople,
       },
       events,
       filmsTotal,

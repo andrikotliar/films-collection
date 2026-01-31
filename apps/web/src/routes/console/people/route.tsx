@@ -18,7 +18,10 @@ import { createFileRoute } from '@tanstack/react-router';
 import { GetPeopleListQuerySchema, PAGE_LIMITS } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create>>({ name: '' });
+const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create>>({
+  name: '',
+  selected: false,
+});
 
 export const Route = createFileRoute('/console/people')({
   validateSearch: (search) => {

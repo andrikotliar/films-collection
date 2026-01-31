@@ -13,6 +13,7 @@ export const InitialDataResponseSchema = z.object({
     roles: buildListOptionSchema(z.string()),
     awards: buildListOptionSchema(z.coerce.number()),
     collectionCategories: buildListOptionSchema(z.string()),
+    selectedPeople: buildListOptionSchema(z.coerce.number()),
   }),
   events: CollectionEventsListResponseSchema,
   filmsTotal: z.coerce.number(),

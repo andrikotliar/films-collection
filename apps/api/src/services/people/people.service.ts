@@ -6,6 +6,7 @@ import {
   PAGE_LIMITS,
   type CreatePersonInput,
   type GetPeopleListQuery,
+  type ListOption,
   type SearchPersonQuery,
   type UpdatePersonInput,
 } from '@films-collection/shared';
@@ -38,6 +39,10 @@ export class PeopleService {
           role: queries.role,
         },
       };
+    }
+
+    if (queries.selected) {
+      filters.selected = true;
     }
 
     const list = await this.peopleRepository.getList(options);
@@ -75,5 +80,14 @@ export class PeopleService {
 
   async deletePerson(id: number) {
     return this.peopleRepository.delete(id);
+  }
+
+  async getSelectedListOptions(): Promise<ListOption<number>[]> {
+    const people = await this.peopleRepository.getSelected();
+
+    return people.map((person) => ({
+      value: person.id,
+      label: person.name,
+    }));
   }
 }

@@ -1,9 +1,10 @@
 import z from 'zod';
 import { PersonRole } from '~/enums';
-import { getArrayFromQuery } from '~/helpers';
+import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 
 export const CreatePersonSchema = z.object({
   name: z.string(),
+  selected: z.boolean().optional(),
 });
 
 export const GetPeopleListQuerySchema = z
@@ -11,6 +12,7 @@ export const GetPeopleListQuerySchema = z
     pageIndex: z.coerce.number(),
     q: z.string().optional().nullable(),
     role: z.enum(PersonRole),
+    selected: getBoolFromQuery.optional(),
   })
   .partial();
 
@@ -32,7 +34,7 @@ export const PersonResponseSchema = z.object({
 });
 
 export const PeopleListResponseSchema = z.object({
-  list: z.array(PersonResponseSchema.pick({ id: true, name: true })),
+  list: z.array(PersonResponseSchema.pick({ id: true, name: true, selected: true })),
   total: z.coerce.number(),
 });
 
