@@ -32,7 +32,7 @@ export const FilmCounter = ({ data }: FilmCounterProps) => {
 
   return (
     <div className={styles.wrapper}>
-      <Image isExternal src={data.poster} />
+      <Image src={data.poster} />
       <div className={styles.actions}>
         <Button
           variant="ghost"

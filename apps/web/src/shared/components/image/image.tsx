@@ -2,13 +2,11 @@ import { type ComponentProps, forwardRef } from 'react';
 import styles from './image.module.css';
 import clsx from 'clsx';
 import { handleImageError } from './helpers';
-import { env } from '~/shared';
 import { imageNotFoundPlaceholder } from '~/assets';
 
 type ImageProps = {
   src?: string | null;
   errorImageSrc?: string;
-  isExternal?: boolean;
   shouldFitContainer?: boolean;
 } & Omit<ComponentProps<'img'>, 'onError' | 'src'>;
 
@@ -17,7 +15,6 @@ export const Image = forwardRef<HTMLImageElement, ImageProps>(
     {
       src,
       className,
-      isExternal = false,
       errorImageSrc = imageNotFoundPlaceholder,
       shouldFitContainer = false,
       ...props
@@ -25,12 +22,8 @@ export const Image = forwardRef<HTMLImageElement, ImageProps>(
     ref,
   ) => {
     const getImageSource = () => {
-      if ((isExternal && !env.BASE_MEDIA_URL) || !src) {
+      if (!src) {
         return errorImageSrc;
-      }
-
-      if (isExternal) {
-        return `${env.BASE_MEDIA_URL}/${src}`;
       }
 
       return src;

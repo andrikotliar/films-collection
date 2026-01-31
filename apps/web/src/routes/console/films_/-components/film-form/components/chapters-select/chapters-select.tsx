@@ -97,7 +97,7 @@ export const ChaptersSelect = () => {
                       [styles.selected_film]: isChapterSelected,
                     })}
                   >
-                    <Image isExternal src={film.poster} className={styles.poster_select_image} />
+                    <Image src={film.poster} className={styles.poster_select_image} />
                   </div>
                   {film.id !== Number(id) && !isNextChapterSelected && (
                     <label className={clsx(styles.film, styles.position_select)}>

@@ -23,7 +23,7 @@ export const EventBanner = ({ event, selectedEventId }: EventBannerProps) => {
       className={clsx(styles.event_banner_button, isSelected && styles.selected_event)}
     >
       <div className={styles.event_banner_inner}>
-        <Image src={event.film?.poster} isExternal className={styles.poster_image} />
+        <Image src={event.film?.poster} className={styles.poster_image} />
       </div>
       <div className={styles.event_title}>
         {subTitle} {event.title}

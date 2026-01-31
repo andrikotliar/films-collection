@@ -1,6 +1,6 @@
 import styles from './summary-section.module.css';
 import { useMemo } from 'react';
-import { defineCssProperties, env, type api, type ApiResponse } from '~/shared';
+import { defineCssProperties, type api, type ApiResponse } from '~/shared';
 import {
   Poster,
   Stats,
@@ -23,7 +23,7 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
     <div
       className={styles.summary_layout}
       style={defineCssProperties({
-        '--bg-url': `url(${env.BASE_MEDIA_URL}/${film.poster})`,
+        '--bg-url': `url(${film.poster})`,
       })}
     >
       <div className={styles.left_column}>
