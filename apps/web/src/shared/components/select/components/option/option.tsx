@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import type { ListOption } from '@films-collection/shared';
 
 type OptionProps = {
-  onSelect: (value: ListOption<any>['value'], isActive: boolean) => void;
+  onSelect: (value: ListOption, isActive: boolean) => void;
   data: ListOption<any>;
   selectedValues: (string | number)[];
 };
@@ -16,7 +16,7 @@ export const Option = forwardRef<HTMLButtonElement, OptionProps>(
     return (
       <button
         ref={ref}
-        onClick={() => onSelect(data.value, isActive)}
+        onClick={() => onSelect(data, isActive)}
         className={clsx(styles.option, {
           [styles.active]: isActive,
         })}

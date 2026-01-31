@@ -49,7 +49,6 @@ export const Select = ({
   const optionsWrapperRef = useRef<HTMLDivElement>(null);
   const optionsRef = useRef<HTMLButtonElement[]>([]);
   const focusedIndex = useRef(-1);
-  const initialOptions = useRef(options);
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [internalOptions, setInternalOptions] = useState(options);
@@ -69,7 +68,7 @@ export const Select = ({
     }
 
     if (!value) {
-      setInternalOptions(initialOptions.current);
+      setInternalOptions(options);
       return;
     }
 
@@ -86,31 +85,39 @@ export const Select = ({
     }
   };
 
-  const handleFinishSelection = useCallback(() => {
-    setIsDropdownOpen(false);
-    setInputValue('');
-  }, [onOptionsSearch]);
+  const handleFinishSelection = useCallback(
+    (newOption?: ListOption) => {
+      setIsDropdownOpen(false);
+      const resetOptions = [...options];
+      if (newOption) {
+        resetOptions.push(newOption);
+      }
+      setInternalOptions(resetOptions);
+      setInputValue('');
+    },
+    [onOptionsSearch, options],
+  );
 
   const handleSelectValue = useCallback(
-    (value: unknown, isActive: boolean) => {
-      handleFinishSelection();
+    (option: ListOption, isActive: boolean, append?: boolean) => {
+      handleFinishSelection(append ? option : undefined);
 
       if (!isMulti) {
-        onSelect(value);
+        onSelect(option.value);
         return;
       }
 
       if (isActive) {
-        const newValues = selectedValues.filter((v) => v !== value);
+        const newValues = selectedValues.filter((v) => v !== option.value);
         onSelect(newValues);
         return;
       }
 
-      const newValues = [...selectedValues, value];
+      const newValues = [...selectedValues, option.value];
 
       onSelect(newValues);
     },
-    [onSelect, selectedValues],
+    [onSelect, selectedValues, handleFinishSelection],
   );
 
   const handleRemoveOption = useCallback(
@@ -212,9 +219,7 @@ export const Select = ({
     const createdOption = await onCreateOption?.(value);
 
     if (createdOption) {
-      setInternalOptions((prev) => [...prev, createdOption]);
-      initialOptions.current = [...initialOptions.current, createdOption];
-      handleSelectValue(createdOption.value, false);
+      handleSelectValue(createdOption, false, true);
     }
   };
 
