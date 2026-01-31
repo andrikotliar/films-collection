@@ -42,7 +42,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
         const posterData = await api.files.create({ input: formData });
 
-        poster = posterData.filePath;
+        poster = posterData.url;
       }
 
       const trailers = data.trailers.map((trailer) => ({
