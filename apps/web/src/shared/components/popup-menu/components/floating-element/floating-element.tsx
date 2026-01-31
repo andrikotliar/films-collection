@@ -4,8 +4,6 @@ import { createPortal } from 'react-dom';
 import styles from './floating-element.module.css';
 import { useClickOutside, useCloseOnEscape, useFocusTrap, useResizeObserver } from '~/shared/hooks';
 
-type Position = 'left' | 'right';
-
 type Styles = {
   left: number;
   top: number;
@@ -16,8 +14,8 @@ type UpdateMenuPositionProps = {
   menuElement: HTMLDivElement | null;
   triggerElement: HTMLElement | null;
   menuMargin: number;
-  position: Position;
   shouldAdjustToTriggerWidth: boolean;
+  isFixed: boolean;
 };
 
 export type FloatingElementProps = {
@@ -27,13 +25,17 @@ export type FloatingElementProps = {
    * Defines from where calculate position depending on triggerRef
    * @default left
    */
-  position?: Position;
+  /**
+   * Top offset from the trigger
+   */
   menuMargin?: number;
   /**
-   * Avoid scrolling the element with the page
-   * @default false
+   * Define the element position on the page
+   * * scroll - the element follow the page scroll
+   * * fixed - the element keeps its position on the page
+   * @default scroll
    */
-  isFixed?: boolean;
+  positionState?: 'scroll' | 'fixed';
   shouldAdjustToTriggerWidth?: boolean;
   shouldFocusTriggerOnClose?: boolean;
   onClose: VoidFunction;
@@ -46,8 +48,8 @@ const updateMenuPosition = ({
   menuElement,
   triggerElement,
   menuMargin,
-  position,
   shouldAdjustToTriggerWidth,
+  isFixed,
 }: UpdateMenuPositionProps): Styles => {
   if (!menuElement || !triggerElement) {
     return {
@@ -56,20 +58,21 @@ const updateMenuPosition = ({
     };
   }
 
-  const { width, height: menuHeight } = menuElement.getBoundingClientRect();
+  const { height: menuHeight } = menuElement.getBoundingClientRect();
 
-  const { left, bottom, right, top, width: buttonWidth } = triggerElement.getBoundingClientRect();
+  const { left, bottom, top, width: buttonWidth } = triggerElement.getBoundingClientRect();
 
   const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
   const isOverflowTop = top - menuHeight <= 0;
 
-  const horizontalPosition = position === 'left' ? left : right - width;
   const verticalPosition =
     isOverflowBottom && !isOverflowTop ? top - menuHeight - menuMargin : bottom + menuMargin;
 
+  const scrollHight = isFixed ? 0 : window.scrollY;
+
   return {
-    left: horizontalPosition,
-    top: verticalPosition + window.scrollY,
+    left: left,
+    top: verticalPosition + scrollHight,
     width: shouldAdjustToTriggerWidth ? buttonWidth : undefined,
   };
 };
@@ -91,13 +94,12 @@ export const FloatingElement = ({
   triggerRef,
   menuMargin = DEFAULT_MENU_MARGIN_PX,
   className,
-  position = 'left',
   children,
   isOpen,
   shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose = false,
   onClose,
-  isFixed = false,
+  positionState = 'scroll',
   ...divProps
 }: FloatingElementProps) => {
   const menuRef = useRef<HTMLDivElement>(null);
@@ -109,8 +111,8 @@ export const FloatingElement = ({
         menuElement: menuRef.current,
         triggerElement: triggerRef.current,
         menuMargin,
-        position,
         shouldAdjustToTriggerWidth,
+        isFixed: positionState === 'fixed',
       }),
     );
   }, []);
@@ -138,8 +140,8 @@ export const FloatingElement = ({
         menuElement: menuRef.current,
         triggerElement: triggerRef.current,
         menuMargin,
-        position,
         shouldAdjustToTriggerWidth,
+        isFixed: positionState === 'fixed',
       }),
     );
   }, [menuRef, triggerRef]);
@@ -149,7 +151,11 @@ export const FloatingElement = ({
   return createPortal(
     <div
       ref={menuRef}
-      className={clsx(styles.popup_menu, className, isFixed && styles.fixed_popup_menu)}
+      className={clsx(
+        styles.popup_menu,
+        className,
+        positionState === 'fixed' && styles.fixed_popup_menu,
+      )}
       {...divProps}
     >
       {children}

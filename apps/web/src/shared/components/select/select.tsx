@@ -49,6 +49,7 @@ export const Select = ({
   const optionsWrapperRef = useRef<HTMLDivElement>(null);
   const optionsRef = useRef<HTMLButtonElement[]>([]);
   const focusedIndex = useRef(-1);
+  const initialOptions = useRef(options);
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [internalOptions, setInternalOptions] = useState(options);
@@ -68,7 +69,7 @@ export const Select = ({
     }
 
     if (!value) {
-      setInternalOptions(options);
+      setInternalOptions(initialOptions.current);
       return;
     }
 
@@ -87,12 +88,7 @@ export const Select = ({
 
   const handleFinishSelection = useCallback(() => {
     setIsDropdownOpen(false);
-    setInternalOptions(options);
     setInputValue('');
-
-    if (typeof onOptionsSearch === 'function') {
-      onOptionsSearch(null);
-    }
   }, [onOptionsSearch]);
 
   const handleSelectValue = useCallback(
@@ -138,8 +134,8 @@ export const Select = ({
       return [];
     }
 
-    return options.filter((option) => selectedValues.includes(option.value));
-  }, [selectedValues, options]);
+    return internalOptions.filter((option) => selectedValues.includes(option.value));
+  }, [selectedValues, internalOptions]);
 
   const handleTriggerButtonKeydown = useCallback((event: React.KeyboardEvent) => {
     switch (event.key) {
@@ -217,11 +213,12 @@ export const Select = ({
 
     if (createdOption) {
       setInternalOptions((prev) => [...prev, createdOption]);
+      initialOptions.current = [...initialOptions.current, createdOption];
       handleSelectValue(createdOption.value, false);
     }
   };
 
-  const hasSelectedValues = selectedValues.length !== 0;
+  const hasSelectedValues = selectedOptions.length !== 0;
   const shouldShowPlaceholder = !hasSelectedValues || isMulti;
   const shouldShowClearButton = hasSelectedValues && isClearable && !isDisabled;
   const shouldShowSelectedOptionsList = isMulti && hasSelectedValues;
@@ -275,7 +272,7 @@ export const Select = ({
             />
           ))}
           {internalOptions.length === 0 && <NotFound />}
-          {typeof onCreateOption === 'function' && !internalOptions.length && (
+          {typeof onCreateOption === 'function' && (
             <CreateNewItemButton onCreate={handleClickAddItem} />
           )}
         </div>

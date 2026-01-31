@@ -1,9 +1,9 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import { Form, api } from '~/shared';
+import { Form, api, getInitialDataQueryOptions } from '~/shared';
 import type { ListOption } from '@films-collection/shared';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQuery } from '@tanstack/react-query';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption<string>[];
@@ -11,6 +11,7 @@ type CastAndCrewSelectProps = {
 
 export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
   const { control } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { data } = useQuery(getInitialDataQueryOptions());
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -63,6 +64,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
               optionsLoader={api.people.search.list}
               onCreateOption={(value) => mutateAsync({ value, index })}
               isOptionsLoading={isPending && variables.index === index}
+              defaultOptions={data?.options.selectedPeople}
             />
             <Form.Select
               name={`castAndCrew.${index}.role`}

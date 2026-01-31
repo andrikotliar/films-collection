@@ -11,6 +11,7 @@ export type AsyncSelectProps = {
       selected?: any[];
     };
   }) => Promise<ListOption<any>[]>;
+  defaultOptions?: ListOption<any>[];
 } & Omit<SelectProps, 'onOptionsSearch' | 'options'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
@@ -19,6 +20,7 @@ export const AsyncSelect = ({
   optionsLoader,
   value,
   isOptionsLoading,
+  defaultOptions,
   ...props
 }: AsyncSelectProps) => {
   const [searchString, setSearchString] = useState<string | null>(null);
@@ -31,7 +33,7 @@ export const AsyncSelect = ({
         queryParams: { q: searchString ?? '', selected: selectedValues },
       });
     },
-    placeholderData: (prev) => prev,
+    placeholderData: () => defaultOptions,
     retry: RETRY_ATTEMPTS_COUNT,
     enabled: !!searchString?.length,
   });
