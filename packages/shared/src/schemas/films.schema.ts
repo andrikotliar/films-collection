@@ -234,7 +234,7 @@ export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
     seriesExtension: true,
   })
   .extend({
-    seriesExtension: SeriesExtensionSchema.partial().nullable(),
+    seriesExtension: SeriesExtensionSchema.partial().nullable().optional(),
   });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
