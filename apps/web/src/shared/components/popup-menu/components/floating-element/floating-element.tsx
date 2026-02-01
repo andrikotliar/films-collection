@@ -58,15 +58,9 @@ const updateMenuPosition = ({
     };
   }
 
-  const { height: menuHeight } = menuElement.getBoundingClientRect();
+  const { left, bottom, width: buttonWidth } = triggerElement.getBoundingClientRect();
 
-  const { left, bottom, top, width: buttonWidth } = triggerElement.getBoundingClientRect();
-
-  const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
-  const isOverflowTop = top - menuHeight <= 0;
-
-  const verticalPosition =
-    isOverflowBottom && !isOverflowTop ? top - menuHeight - menuMargin : bottom + menuMargin;
+  const verticalPosition = bottom + menuMargin;
 
   const scrollHight = isFixed ? 0 : window.scrollY;
 

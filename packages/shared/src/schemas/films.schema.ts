@@ -29,11 +29,12 @@ export const CreateFilmInputSchema = z.object({
   countries: z.array(z.number()),
   collections: z.array(z.number()),
   duration: z.coerce.number().min(1),
-  watchCount: z.coerce.number().min(0),
   releaseDate: DateStringSchema,
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
   description: z.string().nullable(),
+  mostWatched: z.boolean(),
+  watchedInCinema: z.boolean(),
   chapterKey: z
     .string()
     .regex(/^[a-z-]+$/)
@@ -85,7 +86,6 @@ export const GetFilmsListQuerySchema = z.object({
   genreIds: getArrayFromQuery(z.coerce.number()).optional(),
   studioIds: getArrayFromQuery(z.coerce.number()).optional(),
   countryIds: getArrayFromQuery(z.coerce.number()).optional(),
-  watchCount: z.coerce.number().optional(),
 });
 
 export const SearchFilmsQuerySchema = z.object({
@@ -110,10 +110,6 @@ export const GetAdminListQuerySchema = z
   })
   .partial();
 
-export const UpdateFilmWatchCounterInputSchema = z.object({
-  counter: z.number().min(0).max(1000),
-});
-
 const TrailerSchema = z.object({
   id: z.coerce.number(),
   filmId: z.coerce.number(),
@@ -136,7 +132,6 @@ export const FilmResponseSchema = z.object({
   duration: z.coerce.number(),
   description: z.string().nullable(),
   rating: z.coerce.number(),
-  watchCount: z.coerce.number(),
   releaseDate: z.date(),
   budget: z.coerce.number().nullable(),
   boxOffice: z.coerce.number().nullable(),
@@ -148,6 +143,8 @@ export const FilmResponseSchema = z.object({
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   trailers: z.array(TrailerSchema),
   chapters: z.array(ChapterSchema),
+  mostWatched: z.boolean(),
+  watchedInCinema: z.boolean(),
   awards: z.array(
     z.object({
       award: AwardResponseSchema.pick({ id: true, title: true }),
@@ -219,9 +216,7 @@ export const FilmsSearchResponseSchema = z.array(
 );
 
 export const FilmsAdminListResponseSchema = z.object({
-  films: z.array(
-    FilmResponseSchema.pick({ id: true, title: true, draft: true, watchCount: true, poster: true }),
-  ),
+  films: z.array(FilmResponseSchema.pick({ id: true, title: true, draft: true, poster: true })),
   total: z.coerce.number(),
 });
 
@@ -242,6 +237,5 @@ export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
 export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema>;
 export type GetAdminListQuery = z.infer<typeof GetAdminListQuerySchema>;
-export type UpdateFilmWatchCounterInput = z.infer<typeof UpdateFilmWatchCounterInputSchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;

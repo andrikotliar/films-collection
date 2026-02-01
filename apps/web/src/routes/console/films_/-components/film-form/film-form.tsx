@@ -25,6 +25,11 @@ type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
 };
 
+type CreateNewEntityInput = {
+  value: string;
+  type: 'genres' | 'countries' | 'studios' | 'collections';
+};
+
 export const FilmForm = ({ values }: FilmFormProps) => {
   const navigate = useNavigate();
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
@@ -86,6 +91,51 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     },
   });
 
+  const { mutateAsync: createNewEntity } = useMutation({
+    mutationFn: async ({ value, type }: CreateNewEntityInput) => {
+      switch (type) {
+        case 'collections': {
+          const result = await api.collections.create({
+            input: {
+              title: value,
+              category: 'GENERAL',
+            },
+          });
+          return {
+            value: result.id,
+            label: result.title,
+          };
+        }
+        case 'genres': {
+          const result = await api.genres.create({ input: { title: value } });
+          return {
+            value: result.id,
+            label: result.title,
+          };
+        }
+        case 'countries': {
+          const result = await api.countries.create({ input: { title: value } });
+          return {
+            value: result.id,
+            label: result.title,
+          };
+        }
+        case 'studios': {
+          const result = await api.studios.create({ input: { title: value } });
+          return {
+            value: result.id,
+            label: result.title,
+          };
+        }
+        default:
+          throw new Error('Unknown type');
+      }
+    },
+    meta: {
+      invalidateQueries: [queryKeys.initialData.list()],
+    },
+  });
+
   return (
     <Form
       onSubmit={handleSubmit}
@@ -111,26 +161,36 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         type="radio"
       />
       <Form.RatingInput name="rating" label="Rating" size={3} />
+      <Form.Checkbox name="mostWatched" label="Is most watched" type="checkbox" />
+      <Form.Checkbox name="watchedInCinema" label="Is watched in cinema" type="checkbox" />
       <Form.FileInput label="Poster" name="poster" />
-      <Form.TextInput name="watchCount" type="number" label="Watch count" min="0" />
       <SeriesExtension />
-      <Form.Select label="Genres" name="genres" options={initialOptions.options.genres} isMulti />
+      <Form.Select
+        label="Genres"
+        name="genres"
+        options={initialOptions.options.genres}
+        isMulti
+        onCreateOption={(value) => createNewEntity({ value, type: 'genres' })}
+      />
       <Form.Select
         label="Countries"
         name="countries"
         options={initialOptions.options.countries}
+        onCreateOption={(value) => createNewEntity({ value, type: 'countries' })}
         isMulti
       />
       <Form.Select
         label="Studios"
         name="studios"
         options={initialOptions.options.studios}
+        onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
         isMulti
       />
       <Form.Select
         label="Collections"
         name="collections"
         options={initialOptions.options.collections}
+        onCreateOption={(value) => createNewEntity({ value, type: 'collections' })}
         isMulti
       />
       <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />

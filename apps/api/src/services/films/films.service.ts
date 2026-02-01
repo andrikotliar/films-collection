@@ -188,10 +188,6 @@ export class FilmsService {
     }));
   }
 
-  updateFilmWatchCount(filmId: number, value: number) {
-    return this.filmsRepository.updateWatchCounter(filmId, value);
-  }
-
   async deleteFilm(id: number) {
     const deleteFilm = await this.filmsRepository.delete(id, new Date());
 
@@ -209,13 +205,23 @@ export class FilmsService {
       genres,
       description,
       seriesExtension,
+      releaseDate,
       ...updatedParams
     } = input;
 
-    const updateFilmPromise = this.filmsRepository.updateFilm(filmId, {
+    const params: Prisma.FilmUpdateInput = {
       ...updatedParams,
-      overview: description,
-    });
+    };
+
+    if (description) {
+      params.overview = description;
+    }
+
+    if (releaseDate) {
+      params.releaseDate = new Date(releaseDate).toISOString();
+    }
+
+    const updateFilmPromise = this.filmsRepository.updateFilm(filmId, params);
 
     const promises: Prisma.PrismaPromise<any>[] = [updateFilmPromise];
 

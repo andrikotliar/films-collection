@@ -36,6 +36,7 @@
 
   --border-default: 1px solid var(--color-gray-primary);
   --rounded-default: 8px;
+  --rounded-sm: 5px;
   --shadow-sm: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
   --padding-default: 20px;

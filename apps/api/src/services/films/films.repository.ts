@@ -58,8 +58,9 @@ export class FilmsRepository extends BaseRepository {
         type: true,
         draft: true,
         chapterOrder: true,
+        mostWatched: true,
+        watchedInCinema: true,
         overview: true,
-        watchCount: true,
         genres: {
           select: {
             genre: true,
@@ -160,6 +161,8 @@ export class FilmsRepository extends BaseRepository {
         duration: true,
         releaseDate: true,
         chapterKey: true,
+        mostWatched: true,
+        watchedInCinema: true,
         chapterOrder: true,
         genres: {
           select: {
@@ -280,7 +283,6 @@ export class FilmsRepository extends BaseRepository {
         title: true,
         draft: true,
         poster: true,
-        watchCount: true,
       },
       where: filters,
       take: PAGE_LIMITS.default,
@@ -347,17 +349,6 @@ export class FilmsRepository extends BaseRepository {
     }
 
     return queryResult;
-  }
-
-  updateWatchCounter(filmId: number, value: number) {
-    return this.databaseClient.film.update({
-      where: {
-        id: filmId,
-      },
-      data: {
-        watchCount: value,
-      },
-    });
   }
 
   delete(id: number, date: Date) {
@@ -468,13 +459,14 @@ export class FilmsRepository extends BaseRepository {
         rating: true,
         poster: true,
         duration: true,
-        watchCount: true,
         releaseDate: true,
         budget: true,
         boxOffice: true,
         overview: true,
         chapterKey: true,
         chapterOrder: true,
+        mostWatched: true,
+        watchedInCinema: true,
         draft: true,
         genres: {
           select: {
