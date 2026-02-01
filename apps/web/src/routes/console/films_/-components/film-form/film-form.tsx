@@ -162,7 +162,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       />
       <Form.RatingInput name="rating" label="Rating" size={3} />
       <Form.FileInput label="Poster" name="poster" />
-      <Form.TextInput name="watchCount" type="number" label="Watch count" min="0" />
       <SeriesExtension />
       <Form.Select
         label="Genres"

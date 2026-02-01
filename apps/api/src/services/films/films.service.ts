@@ -188,10 +188,6 @@ export class FilmsService {
     }));
   }
 
-  updateFilmWatchCount(filmId: number, value: number) {
-    return this.filmsRepository.updateWatchCounter(filmId, value);
-  }
-
   async deleteFilm(id: number) {
     const deleteFilm = await this.filmsRepository.delete(id, new Date());
 

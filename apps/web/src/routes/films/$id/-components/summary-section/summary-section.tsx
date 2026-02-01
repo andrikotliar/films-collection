@@ -35,7 +35,7 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
       <div className={styles.wrapper}>
         <div className={styles.top_row}>
           <Title>{film.title}</Title>
-          <Stats watchCount={film.watchCount} rating={film.rating} />
+          <Stats rating={film.rating} />
         </div>
         {filmConfig.map((item) => (
           <SummaryBlock label={item.title} key={item.id}>

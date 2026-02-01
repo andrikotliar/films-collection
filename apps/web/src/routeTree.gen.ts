@@ -15,7 +15,6 @@ import { Route as ConsoleRouteRouteImport } from './routes/console/route'
 import { Route as AboutRouteRouteImport } from './routes/about/route'
 import { Route as HomeIndexRouteImport } from './routes/_home/index'
 import { Route as FilmsIdRouteRouteImport } from './routes/films/$id/route'
-import { Route as ConsoleWatchcountsRouteRouteImport } from './routes/console/watchcounts/route'
 import { Route as ConsoleStudiosRouteRouteImport } from './routes/console/studios/route'
 import { Route as ConsolePeopleRouteRouteImport } from './routes/console/people/route'
 import { Route as ConsolePendingFilmsRouteRouteImport } from './routes/console/pending-films/route'
@@ -62,11 +61,6 @@ const FilmsIdRouteRoute = FilmsIdRouteRouteImport.update({
   id: '/films/$id',
   path: '/films/$id',
   getParentRoute: () => rootRouteImport,
-} as any)
-const ConsoleWatchcountsRouteRoute = ConsoleWatchcountsRouteRouteImport.update({
-  id: '/watchcounts',
-  path: '/watchcounts',
-  getParentRoute: () => ConsoleRouteRoute,
 } as any)
 const ConsoleStudiosRouteRoute = ConsoleStudiosRouteRouteImport.update({
   id: '/studios',
@@ -166,7 +160,6 @@ export interface FileRoutesByFullPath {
   '/console/pending-films': typeof ConsolePendingFilmsRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
-  '/console/watchcounts': typeof ConsoleWatchcountsRouteRoute
   '/films/$id': typeof FilmsIdRouteRouteWithChildren
   '/': typeof HomeIndexRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -190,7 +183,6 @@ export interface FileRoutesByTo {
   '/console/pending-films': typeof ConsolePendingFilmsRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
-  '/console/watchcounts': typeof ConsoleWatchcountsRouteRoute
   '/': typeof HomeIndexRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
   '/console/films/$id': typeof ConsoleFilmsIdRoute
@@ -215,7 +207,6 @@ export interface FileRoutesById {
   '/console/pending-films': typeof ConsolePendingFilmsRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
-  '/console/watchcounts': typeof ConsoleWatchcountsRouteRoute
   '/films/$id': typeof FilmsIdRouteRouteWithChildren
   '/_home/': typeof HomeIndexRoute
   '/console/awards_/$id': typeof ConsoleAwardsIdRoute
@@ -242,7 +233,6 @@ export interface FileRouteTypes {
     | '/console/pending-films'
     | '/console/people'
     | '/console/studios'
-    | '/console/watchcounts'
     | '/films/$id'
     | '/'
     | '/console/awards/$id'
@@ -266,7 +256,6 @@ export interface FileRouteTypes {
     | '/console/pending-films'
     | '/console/people'
     | '/console/studios'
-    | '/console/watchcounts'
     | '/'
     | '/console/awards/$id'
     | '/console/films/$id'
@@ -290,7 +279,6 @@ export interface FileRouteTypes {
     | '/console/pending-films'
     | '/console/people'
     | '/console/studios'
-    | '/console/watchcounts'
     | '/films/$id'
     | '/_home/'
     | '/console/awards_/$id'
@@ -353,13 +341,6 @@ declare module '@tanstack/react-router' {
       fullPath: '/films/$id'
       preLoaderRoute: typeof FilmsIdRouteRouteImport
       parentRoute: typeof rootRouteImport
-    }
-    '/console/watchcounts': {
-      id: '/console/watchcounts'
-      path: '/watchcounts'
-      fullPath: '/console/watchcounts'
-      preLoaderRoute: typeof ConsoleWatchcountsRouteRouteImport
-      parentRoute: typeof ConsoleRouteRoute
     }
     '/console/studios': {
       id: '/console/studios'
@@ -487,7 +468,6 @@ interface ConsoleRouteRouteChildren {
   ConsolePendingFilmsRouteRoute: typeof ConsolePendingFilmsRouteRoute
   ConsolePeopleRouteRoute: typeof ConsolePeopleRouteRoute
   ConsoleStudiosRouteRoute: typeof ConsoleStudiosRouteRoute
-  ConsoleWatchcountsRouteRoute: typeof ConsoleWatchcountsRouteRoute
   ConsoleAwardsIdRoute: typeof ConsoleAwardsIdRoute
   ConsoleFilmsIdRoute: typeof ConsoleFilmsIdRoute
   ConsolePageContentIdRoute: typeof ConsolePageContentIdRoute
@@ -505,7 +485,6 @@ const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
   ConsolePendingFilmsRouteRoute: ConsolePendingFilmsRouteRoute,
   ConsolePeopleRouteRoute: ConsolePeopleRouteRoute,
   ConsoleStudiosRouteRoute: ConsoleStudiosRouteRoute,
-  ConsoleWatchcountsRouteRoute: ConsoleWatchcountsRouteRoute,
   ConsoleAwardsIdRoute: ConsoleAwardsIdRoute,
   ConsoleFilmsIdRoute: ConsoleFilmsIdRoute,
   ConsolePageContentIdRoute: ConsolePageContentIdRoute,

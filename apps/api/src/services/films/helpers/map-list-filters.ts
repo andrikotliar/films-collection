@@ -36,7 +36,6 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     style,
     budget,
     boxOffice,
-    watchCount,
   } = plainFilters;
 
   const filters: Prisma.FilmWhereInput = {
@@ -135,10 +134,6 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
 
   if (boxOffice) {
     filters.boxOffice = getMoneyRangeFilter(boxOffice);
-  }
-
-  if (watchCount) {
-    filters.watchCount = watchCount;
   }
 
   return filters;

@@ -14,7 +14,6 @@ export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
   budget: 0,
   boxOffice: 0,
   duration: 0,
-  watchCount: 0,
   releaseDate: getTodayString(),
   genres: [],
   studios: [],

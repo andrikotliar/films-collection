@@ -26,12 +26,3 @@
   stroke: var(--color-yellow-primary);
   opacity: 1;
 }
-
-.watchcount {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--color-white);
-  font-weight: bold;
-  line-height: 28px;
-}

@@ -1,14 +1,13 @@
-import { EyeIcon, StarIcon } from 'lucide-react';
+import { StarIcon } from 'lucide-react';
 import styles from './stats.module.css';
 import clsx from 'clsx';
 import { Link } from '@tanstack/react-router';
 
 type StatsProps = {
-  watchCount: number;
   rating: number;
 };
 
-export const Stats = ({ watchCount, rating }: StatsProps) => {
+export const Stats = ({ rating }: StatsProps) => {
   return (
     <div className={styles.stats}>
       <Link className={styles.rating} to="/" search={{ rating }}>
@@ -20,10 +19,6 @@ export const Stats = ({ watchCount, rating }: StatsProps) => {
             })}
           />
         ))}
-      </Link>
-      <Link to="/" search={{ watchCount }} className={styles.watchcount}>
-        <EyeIcon />
-        {watchCount}
       </Link>
     </div>
   );
