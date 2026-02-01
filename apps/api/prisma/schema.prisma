@@ -19,6 +19,8 @@ model Film {
   boxOffice        BigInt                @default(0) @map("box_office")
   overview         String?
   rating           Int                   @default(1)
+  mostWatched      Boolean               @default(false) @map("most_watched")
+  watchedInCinema  Boolean               @default(false) @map("watched_in_cinema")
   chapterKey       String?               @map("chapter_key")
   chapterKeys      FilmChapterKey?       @relation(fields: [chapterKey], references: [key], onDelete: SetNull)
   chapterOrder     Int?                  @map("chapter_order")

@@ -33,6 +33,8 @@ export const CreateFilmInputSchema = z.object({
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
   description: z.string().nullable(),
+  mostWatched: z.boolean(),
+  watchedInCinema: z.boolean(),
   chapterKey: z
     .string()
     .regex(/^[a-z-]+$/)
@@ -141,6 +143,8 @@ export const FilmResponseSchema = z.object({
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   trailers: z.array(TrailerSchema),
   chapters: z.array(ChapterSchema),
+  mostWatched: z.boolean(),
+  watchedInCinema: z.boolean(),
   awards: z.array(
     z.object({
       award: AwardResponseSchema.pick({ id: true, title: true }),

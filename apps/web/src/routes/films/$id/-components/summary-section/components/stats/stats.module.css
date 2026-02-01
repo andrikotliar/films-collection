@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 5px;
+  gap: 15px;
   top: 5px;
   right: 0;
 }
@@ -25,4 +25,27 @@
   fill: var(--color-yellow-primary);
   stroke: var(--color-yellow-primary);
   opacity: 1;
+}
+
+.badge {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  padding: 5px 0 5px 10px;
+  background-color: var(--badge-color);
+  border-radius: var(--rounded-sm) 0 0 var(--rounded-sm);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.badge::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: var(--badge-color);
+  top: 0;
+  right: -20px;
 }

@@ -58,6 +58,8 @@ export class FilmsRepository extends BaseRepository {
         type: true,
         draft: true,
         chapterOrder: true,
+        mostWatched: true,
+        watchedInCinema: true,
         overview: true,
         genres: {
           select: {
@@ -159,6 +161,8 @@ export class FilmsRepository extends BaseRepository {
         duration: true,
         releaseDate: true,
         chapterKey: true,
+        mostWatched: true,
+        watchedInCinema: true,
         chapterOrder: true,
         genres: {
           select: {
@@ -461,6 +465,8 @@ export class FilmsRepository extends BaseRepository {
         overview: true,
         chapterKey: true,
         chapterOrder: true,
+        mostWatched: true,
+        watchedInCinema: true,
         draft: true,
         genres: {
           select: {
