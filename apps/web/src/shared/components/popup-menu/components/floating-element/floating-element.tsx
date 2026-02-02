@@ -76,8 +76,8 @@ const updateMenuPosition = ({
     params.width = buttonWidth;
   }
 
-  if (isOverflowBottom && !isOverflowTop) {
-    params.bottom = document.body.scrollHeight - top + menuMargin;
+  if (isOverflowBottom && !isOverflowTop && !isFixed) {
+    params.bottom = document.body.scrollHeight - top + menuMargin - scrollHight;
   } else {
     params.top = bottom + menuMargin + scrollHight;
   }
