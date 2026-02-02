@@ -4,14 +4,14 @@ import { getSelectValue } from '~/shared/components/select/helpers';
 import { Select, type SelectProps } from '~/shared/components/select/select';
 import type { ListOption } from '@films-collection/shared';
 
+type QueryParams = {
+  q?: string;
+  selected?: any[];
+};
+
 export type AsyncSelectProps = {
-  optionsLoader: (params: {
-    queryParams: {
-      q?: string;
-      selected?: any[];
-    };
-  }) => Promise<ListOption<any>[]>;
-  defaultOptions?: ListOption<any>[];
+  optionsLoader: (params: { queryParams: QueryParams }) => Promise<ListOption<any>[]>;
+  queryKey: string | number;
 } & Omit<SelectProps, 'onOptionsSearch' | 'options'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
@@ -20,22 +20,29 @@ export const AsyncSelect = ({
   optionsLoader,
   value,
   isOptionsLoading,
-  defaultOptions,
+  queryKey,
   ...props
 }: AsyncSelectProps) => {
   const [searchString, setSearchString] = useState<string | null>(null);
 
   const { data: options, isFetching } = useQuery({
-    queryKey: [optionsLoader.name, searchString] as const,
+    queryKey: [optionsLoader.name, queryKey, searchString] as const,
     queryFn: async () => {
-      const selectedValues = getSelectValue(value);
+      const selectedValues = value ? getSelectValue(value) : [];
+
+      const queryParams: QueryParams = {
+        selected: selectedValues,
+      };
+
+      if (searchString) {
+        queryParams.q = searchString;
+      }
+
       return optionsLoader({
-        queryParams: { q: searchString ?? '', selected: selectedValues },
+        queryParams,
       });
     },
-    placeholderData: () => defaultOptions,
     retry: RETRY_ATTEMPTS_COUNT,
-    enabled: !!searchString?.length,
   });
 
   return (
