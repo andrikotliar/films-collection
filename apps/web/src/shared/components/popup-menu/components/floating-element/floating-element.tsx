@@ -1,12 +1,13 @@
 import clsx from 'clsx';
-import { useCallback, useLayoutEffect, useRef } from 'react';
+import { useLayoutEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './floating-element.module.css';
 import { useClickOutside, useCloseOnEscape, useFocusTrap, useResizeObserver } from '~/shared/hooks';
 
 type Styles = {
   left: number;
-  top: number;
+  top?: number;
+  bottom?: number;
   width?: number;
 };
 
@@ -58,17 +59,30 @@ const updateMenuPosition = ({
     };
   }
 
-  const { left, bottom, width: buttonWidth } = triggerElement.getBoundingClientRect();
+  const { height: menuHeight } = menuElement.getBoundingClientRect();
 
-  const verticalPosition = bottom + menuMargin;
+  const { left, bottom, top, width: buttonWidth } = triggerElement.getBoundingClientRect();
+
+  const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
+  const isOverflowTop = top - menuHeight <= 0;
 
   const scrollHight = isFixed ? 0 : window.scrollY;
 
-  return {
-    left: left,
-    top: verticalPosition + scrollHight,
-    width: shouldAdjustToTriggerWidth ? buttonWidth : undefined,
+  const params: Styles = {
+    left,
   };
+
+  if (shouldAdjustToTriggerWidth) {
+    params.width = buttonWidth;
+  }
+
+  if (isOverflowBottom && !isOverflowTop) {
+    params.bottom = document.body.scrollHeight - top + menuMargin;
+  } else {
+    params.top = bottom + menuMargin + scrollHight;
+  }
+
+  return params;
 };
 
 const setPosition = (menuElem: HTMLDivElement | null, styles: Styles) => {
@@ -80,7 +94,16 @@ const setPosition = (menuElem: HTMLDivElement | null, styles: Styles) => {
     menuElem.style.width = styles.width + 'px';
   }
 
-  menuElem.style.top = styles.top + 'px';
+  if (styles.top) {
+    menuElem.style.top = styles.top + 'px';
+    menuElem.style.bottom = '';
+  }
+
+  if (styles.bottom) {
+    menuElem.style.bottom = styles.bottom + 'px';
+    menuElem.style.top = '';
+  }
+
   menuElem.style.left = styles.left + 'px';
 };
 
@@ -127,7 +150,7 @@ export const FloatingElement = ({
     containerRef: menuRef,
   });
 
-  const resizeObserver = useCallback(() => {
+  const resizeObserver = () => {
     setPosition(
       menuRef.current,
       updateMenuPosition({
@@ -138,7 +161,7 @@ export const FloatingElement = ({
         isFixed: positionState === 'fixed',
       }),
     );
-  }, [menuRef, triggerRef]);
+  };
 
   useResizeObserver(resizeObserver, document.body);
 

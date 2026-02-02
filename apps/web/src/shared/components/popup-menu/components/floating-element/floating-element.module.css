@@ -1,7 +1,5 @@
 .popup_menu {
   position: absolute;
-  top: 0;
-  left: 0;
   background-color: var(--color-white);
   border-radius: var(--rounded-default);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);

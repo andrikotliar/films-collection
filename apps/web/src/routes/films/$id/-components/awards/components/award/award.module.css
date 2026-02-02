@@ -31,7 +31,8 @@
   border-radius: 0 0 8px 8px;
   transition: opacity 300ms;
   border: 1px solid var(--color-yellow-primary);
-  height: 150px;
+  max-height: 150px;
+  height: 100%;
   overflow-y: auto;
   margin-top: -1px;
 }

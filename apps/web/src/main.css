@@ -105,4 +105,5 @@ input {
 body {
   font-family: 'Roboto', sans-serif;
   overflow-y: scroll;
+  position: relative;
 }

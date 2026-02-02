@@ -10,7 +10,7 @@ export const Awards = ({ data }: AwardsProps) => {
   return (
     <div className={styles.awards}>
       <h2 className={styles.title}>Awards</h2>
-      <div className={styles.list}>
+      <div className={styles.grid}>
         {data.map((award) => (
           <Award data={award} key={award.award.id} />
         ))}

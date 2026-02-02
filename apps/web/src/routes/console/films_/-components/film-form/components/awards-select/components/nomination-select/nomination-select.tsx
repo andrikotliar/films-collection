@@ -1,7 +1,14 @@
 import styles from './nomination-select.module.css';
 import { useWatch } from 'react-hook-form';
-import { api, FieldError, Form, getNominationsByAwardQueryOptions, Loader } from '~/shared';
-import { useQuery } from '@tanstack/react-query';
+import {
+  api,
+  FieldError,
+  Form,
+  getNominationsByAwardQueryOptions,
+  Loader,
+  queryKeys,
+} from '~/shared';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 
@@ -17,6 +24,22 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
   const currentAward = awards[index];
 
   const { data, isLoading } = useQuery(getNominationsByAwardQueryOptions(currentAward.awardId));
+
+  const { mutateAsync: createPerson, isPending } = useMutation({
+    mutationFn: async (value: string) => {
+      const createdPerson = await api.people.create({
+        input: { name: value },
+      });
+
+      return {
+        value: createdPerson.id,
+        label: createdPerson.name,
+      };
+    },
+    meta: {
+      invalidateQueries: [queryKeys.people.list()],
+    },
+  });
 
   if (!currentAward.awardId) {
     return null;
@@ -44,6 +67,9 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
           name={`awards.${index}.personId`}
           optionsLoader={api.people.search.list}
           label="Person"
+          queryKey={index}
+          onCreateOption={createPerson}
+          isOptionsLoading={isPending}
         />
       )}
     </div>
