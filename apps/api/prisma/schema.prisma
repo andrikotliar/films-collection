@@ -211,15 +211,14 @@ model FilmAwardNomination {
 
 model FilmTrailer {
   id        Int      @id @default(autoincrement())
-  videoId   String   @map("video_id")
-  url       String?
+  url       String
   order     Int
   filmId    Int      @map("film_id")
   film      Film     @relation(fields: [filmId], references: [id], onDelete: Cascade)
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  @@unique([filmId, videoId])
+  @@unique([filmId, url])
   @@map("film_trailers")
 }
 

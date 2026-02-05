@@ -186,7 +186,7 @@ export class FilmsRepository extends BaseRepository {
         },
         trailers: {
           select: {
-            videoId: true,
+            url: true,
             order: true,
           },
         },
@@ -427,11 +427,7 @@ export class FilmsRepository extends BaseRepository {
 
     if (trailers.length) {
       data.trailers = {
-        create: trailers.map((trailer) => ({
-          ...trailer,
-          // TODO: delete this option after migration to the url
-          videoId: '',
-        })),
+        create: trailers,
       };
     }
 
@@ -510,7 +506,6 @@ export class FilmsRepository extends BaseRepository {
         },
         trailers: {
           select: {
-            videoId: true,
             order: true,
             url: true,
           },
@@ -602,8 +597,6 @@ export class FilmsRepository extends BaseRepository {
       return this.databaseClient.filmTrailer.createMany({
         data: data.map((trailer) => ({
           ...trailer,
-          // TODO: delete this option after migration to the url column
-          videoId: '',
           filmId,
         })),
       });

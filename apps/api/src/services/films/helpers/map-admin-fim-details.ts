@@ -18,7 +18,7 @@ type EditableFilm = Omit<Film, Timestamps | 'deletedAt' | 'id'> & {
   genres: Pick<FilmGenre, 'genreId'>[];
   countries: Pick<FilmCountry, 'countryId'>[];
   studios: Pick<FilmStudio, 'studioId'>[];
-  trailers: Pick<FilmTrailer, 'order' | 'videoId' | 'url'>[];
+  trailers: Pick<FilmTrailer, 'order' | 'url'>[];
   castAndCrew: Omit<FilmPerson, 'filmId' | Timestamps | 'id'>[];
   awards: Omit<FilmAwardNomination, Timestamps | 'filmId' | 'id'>[];
   seriesExtension: SeriesExtension | null;

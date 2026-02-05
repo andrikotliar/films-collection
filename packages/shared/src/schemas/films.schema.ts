@@ -59,7 +59,7 @@ export const CreateFilmInputSchema = z.object({
   trailers: z.array(
     z.object({
       order: z.number(),
-      url: z.string().nullable(),
+      url: z.string(),
     }),
   ),
   isDraft: z.boolean(),
@@ -113,7 +113,6 @@ export const GetAdminListQuerySchema = z
 const TrailerSchema = z.object({
   id: z.coerce.number(),
   filmId: z.coerce.number(),
-  videoId: z.string(),
   url: z.string().nullable(),
   order: z.coerce.number(),
   createdAt: z.date(),
