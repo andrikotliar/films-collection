@@ -14,6 +14,7 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
       id: 'genres',
       title: 'Genres',
       content: <LinksGroup items={film.genres} basePath="genreIds" />,
+      isHidden: film.genres.length === 0,
     },
     {
       id: 'releaseDate',

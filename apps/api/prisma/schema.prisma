@@ -212,6 +212,7 @@ model FilmAwardNomination {
 model FilmTrailer {
   id        Int      @id @default(autoincrement())
   videoId   String   @map("video_id")
+  url       String?
   order     Int
   filmId    Int      @map("film_id")
   film      Film     @relation(fields: [filmId], references: [id], onDelete: Cascade)

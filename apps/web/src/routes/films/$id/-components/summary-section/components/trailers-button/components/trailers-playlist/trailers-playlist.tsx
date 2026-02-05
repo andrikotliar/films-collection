@@ -1,9 +1,9 @@
 import styles from './trailers-playlist.module.css';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import clsx from 'clsx';
 import { Video } from '~/routes/films/$id/-components/summary-section/components/trailers-button/components/video/video';
-import type { api, ApiResponse } from '~/shared';
+import { getEmbeddableYoutubeUrl, type api, type ApiResponse } from '~/shared';
 
 type TrailersPlaylistProps = {
   trailers: ApiResponse<typeof api.films.get>['trailers'];
@@ -12,33 +12,44 @@ type TrailersPlaylistProps = {
 
 export const TrailersPlaylist = ({ trailers, previewLabel }: TrailersPlaylistProps) => {
   const [shouldAutoPlay, setShouldAutoPlay] = useState(trailers.length === 1);
-  const [activeVideoId, setActiveVideoId] = useState(trailers[0].videoId);
+  const [activeVideoIndex, setActiveVideoIndex] = useState(0);
 
-  const handleSetActiveVideoId = (id: string) => {
-    setActiveVideoId(id);
+  const handleSetActiveVideoIndex = (index: number) => {
+    setActiveVideoIndex(index);
 
     if (!shouldAutoPlay) {
       setShouldAutoPlay(true);
     }
   };
 
+  const videoUrls = useMemo(() => {
+    return trailers.map((trailer) =>
+      // TODO: remove type assertion after migration to url column
+      getEmbeddableYoutubeUrl(trailer.url!, {
+        rel: '0',
+        showinfo: '0',
+        autoplay: shouldAutoPlay ? '1' : '0',
+      }),
+    );
+  }, [trailers, shouldAutoPlay]);
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.video_column}>
-        <Video trailerId={activeVideoId} shouldAutoPlay={shouldAutoPlay} />
+        <Video url={videoUrls[activeVideoIndex].value} />
       </div>
       {trailers.length > 1 && (
         <div className={styles.track}>
-          {trailers.map((trailer) => (
+          {trailers.map((trailer, index) => (
             <button
               key={trailer.id}
               className={clsx(styles.trailer_button, {
-                [styles.active_trailer_button]: activeVideoId === trailer.videoId,
+                [styles.active_trailer_button]: activeVideoIndex === index,
               })}
-              onClick={() => handleSetActiveVideoId(trailer.videoId)}
-              disabled={activeVideoId === trailer.videoId}
+              onClick={() => handleSetActiveVideoIndex(index)}
+              disabled={activeVideoIndex === index}
               style={{
-                backgroundImage: `url(https://img.youtube.com/vi/${trailer.videoId}/default.jpg)`,
+                backgroundImage: `url(${videoUrls[index].preview})`,
               }}
             >
               <span className={styles.preview_title}>

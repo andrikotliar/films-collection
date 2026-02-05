@@ -31,7 +31,7 @@ export const TrailersSelect = () => {
 
   const handleAddNewTrailer = () => {
     appendTrailers({
-      videoId: '',
+      url: '',
       order: trailers.length + 1,
     });
   };
@@ -43,7 +43,7 @@ export const TrailersSelect = () => {
           {trailers.map((trailer, index) => (
             <SortableList.Item id={trailer.id} key={trailer.id}>
               <Form.VideoInput
-                name={`trailers.${index}.videoId`}
+                name={`trailers.${index}.url`}
                 label={`${trailerLabel} ${index + 1}`}
                 onRemove={() => removeTrailer(index)}
               />
