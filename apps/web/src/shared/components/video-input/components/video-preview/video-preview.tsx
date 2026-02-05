@@ -1,15 +1,15 @@
 import styles from './video-preview.module.css';
 import { Image } from '~/shared/components/image/image';
-import { replaceUrlId, EMBEDDED_YOUTUBE_VIDEO_URL, YOUTUBE_VIDEO_DIRECT_URL } from '~/shared';
 import { PlayIcon } from 'lucide-react';
 import { videoNotFoundPlaceholder } from '~/assets';
 
 type VideoPreviewProps = {
-  videoId: string;
+  imageUrl: string;
+  videoUrl: string;
 };
 
-export const VideoPreview = ({ videoId }: VideoPreviewProps) => {
-  if (!videoId.length) {
+export const VideoPreview = ({ imageUrl, videoUrl }: VideoPreviewProps) => {
+  if (!videoUrl.length) {
     return (
       <div className={styles.preview_wrapper}>
         <Image src={videoNotFoundPlaceholder} />
@@ -17,12 +17,9 @@ export const VideoPreview = ({ videoId }: VideoPreviewProps) => {
     );
   }
 
-  const imageSrc = replaceUrlId(EMBEDDED_YOUTUBE_VIDEO_URL, videoId);
-  const videoUrl = replaceUrlId(YOUTUBE_VIDEO_DIRECT_URL, videoId);
-
   return (
     <a className={styles.preview_wrapper} href={videoUrl} target="_blank" rel="noopener noreferrer">
-      <Image src={imageSrc} />
+      <Image src={imageUrl} />
       <PlayIcon className={styles.play_icon} />
     </a>
   );

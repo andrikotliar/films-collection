@@ -1,20 +1,13 @@
 import styles from './video.module.css';
 
 type VideoProps = {
-  trailerId: string;
-  shouldAutoPlay: boolean;
+  url: string;
 };
 
-export const Video = ({ trailerId, shouldAutoPlay }: VideoProps) => {
-  const autoPlayOption = shouldAutoPlay ? '1' : '0';
-
+export const Video = ({ url }: VideoProps) => {
   return (
     <div className={styles.video}>
-      <iframe
-        src={`https://www.youtube-nocookie.com/embed/${trailerId}?rel=0&showinfo=0&autoplay=${autoPlayOption}`}
-        allow="autoplay"
-        allowFullScreen
-      />
+      <iframe src={url} allow="autoplay" allowFullScreen />
     </div>
   );
 };

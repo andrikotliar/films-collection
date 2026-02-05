@@ -50,17 +50,9 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         poster = posterData.url;
       }
 
-      const trailers = data.trailers.map((trailer) => ({
-        ...trailer,
-        videoId: trailer.videoId.startsWith('http')
-          ? new URL(trailer.videoId).searchParams.get('v') ?? ''
-          : trailer.videoId,
-      }));
-
       const input = {
         ...data,
         poster,
-        trailers,
       };
 
       if (!isNewItem(values.id)) {
