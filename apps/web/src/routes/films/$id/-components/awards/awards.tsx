@@ -1,5 +1,4 @@
-import styles from './awards.module.css';
-import { type api, type ApiResponse } from '~/shared';
+import { ScrollableLine, type api, type ApiResponse } from '~/shared';
 import { Award } from '~/routes/films/$id/-components/awards/components';
 
 type AwardsProps = {
@@ -8,13 +7,10 @@ type AwardsProps = {
 
 export const Awards = ({ data }: AwardsProps) => {
   return (
-    <div className={styles.awards}>
-      <h2 className={styles.title}>Awards</h2>
-      <div className={styles.grid}>
-        {data.map((award) => (
-          <Award data={award} key={award.award.id} />
-        ))}
-      </div>
-    </div>
+    <ScrollableLine>
+      {data.map((award) => (
+        <Award data={award} key={award.award.id} />
+      ))}
+    </ScrollableLine>
   );
 };
