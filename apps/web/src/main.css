@@ -2,7 +2,7 @@
   --color-blue-primary: hsl(200, 100%, 40%);
   --color-blue-light: hsl(190, 80%, 90%);
   --color-blue-extra-light: hsl(200, 100%, 95%);
-  --color-blue-invisible: hsl(200, 100%, 98%);
+  --color-blue-invisible: hsl(220, 37%, 97%);
   --color-blue-dark: hsl(200, 100%, 30%);
 
   --color-green-primary: hsl(180, 100%, 40%);
@@ -66,6 +66,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Roboto-Condensed';
+  src: url('/fonts/Roboto-Condensed-Medium.woff2');
+  font-weight: 500;
+}
+
 *,
 ::before,
 ::after {
@@ -106,4 +112,5 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-y: scroll;
   position: relative;
+  background-color: var(--color-blue-invisible);
 }

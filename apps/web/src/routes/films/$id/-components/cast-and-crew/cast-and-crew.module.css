@@ -1,4 +1,5 @@
 .wrapper {
   border: var(--border-default);
   border-radius: var(--rounded-default);
+  background-color: rgb(255 255 255 / 0.8);
 }

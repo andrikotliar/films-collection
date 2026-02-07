@@ -1,10 +1,22 @@
 import { getFormattedMoneyValue, getPluralWord, type api, type ApiResponse } from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
+import {
+  BookIcon,
+  BuildingIcon,
+  CalendarIcon,
+  ClockIcon,
+  GlobeIcon,
+  GroupIcon,
+  HandCoinsIcon,
+  TvIcon,
+  WalletIcon,
+} from 'lucide-react';
 
 export type SummaryConfig = {
   id: string;
   title: string;
   content: React.ReactNode;
+  icon: React.ReactNode;
   isHidden?: boolean;
 };
 
@@ -14,11 +26,12 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
       id: 'genres',
       title: 'Genres',
       content: <LinksGroup items={film.genres} basePath="genreIds" />,
-      isHidden: film.genres.length === 0,
+      icon: <BookIcon />,
     },
     {
       id: 'releaseDate',
       title: film.type === 'SERIES' ? 'Ongoing dates' : 'Release Date',
+      icon: <CalendarIcon />,
       content: (
         <Dates
           releaseDate={film.releaseDate.toString()}
@@ -29,6 +42,7 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
     {
       id: 'duration',
       title: 'Runtime',
+      icon: <ClockIcon />,
       content: (
         <DataLink basePath="/" query={{ duration: film.duration }}>
           {film.duration} min
@@ -38,38 +52,25 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
     {
       id: 'countries',
       title: 'Origin countries',
+      icon: <GlobeIcon />,
       content: <LinksGroup basePath="countryIds" items={film.countries} />,
-      isHidden: film.countries.length === 0,
     },
     {
       id: 'studios',
       title: 'Production studios',
+      icon: <BuildingIcon />,
       content: <LinksGroup basePath="studioIds" items={film.studios} />,
-      isHidden: film.studios.length === 0,
     },
     {
       id: 'collections',
       title: 'Collections',
-      content: (
-        <LinksGroupWrapper>
-          {film.collections.map((item) => (
-            <DataLink
-              basePath="/"
-              query={{
-                collectionId: item.id,
-              }}
-              key={item.id}
-            >
-              {item.title}
-            </DataLink>
-          ))}
-        </LinksGroupWrapper>
-      ),
-      isHidden: film.collections.length === 0,
+      icon: <GroupIcon />,
+      content: <LinksGroup basePath="collectionId" items={film.collections} />,
     },
     {
       id: 'budget',
       title: 'Budget',
+      icon: <WalletIcon />,
       content: (
         <DataLink basePath="/" query={{ budget: film.budget }}>
           {getFormattedMoneyValue(film.budget)}
@@ -80,6 +81,7 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
     {
       id: 'boxOffice',
       title: 'Box Office',
+      icon: <HandCoinsIcon />,
       content: (
         <DataLink basePath="/" query={{ budget: film.boxOffice }}>
           {getFormattedMoneyValue(film.boxOffice)}
@@ -90,6 +92,7 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
     {
       id: 'seriesStats',
       title: 'Series Summary',
+      icon: <TvIcon />,
       content: (
         <LinksGroupWrapper>
           <DataLink

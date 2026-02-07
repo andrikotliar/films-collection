@@ -18,7 +18,7 @@ export type EmbeddableYoutubeUrlResult = {
 const YOUTUBE_DOMAIN_REGEX = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)$/;
 const EMBEDDABLE_URL_PREFIX = 'https://www.youtube-nocookie.com/embed';
 const YOUTUBE_VIDEO_BASE_URL = 'https://img.youtube.com/vi';
-const VIDEO_IMAGE = 'hqdefault.jpg';
+const VIDEO_IMAGE = 'default.jpg';
 
 type EmbeddableUrlQueryParams = Record<string, string>;
 

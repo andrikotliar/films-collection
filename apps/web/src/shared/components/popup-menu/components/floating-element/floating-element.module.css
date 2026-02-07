@@ -5,7 +5,7 @@
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
   border: var(--border-default);
   min-width: 150px;
-  z-index: 700;
+  z-index: 1100;
 }
 
 .fixed_popup_menu {

@@ -16,7 +16,7 @@ export const RoleItem = ({ data }: RoleItemProps) => {
         isActorRole ? styles.role_item_actor : styles.role_item_default,
       )}
     >
-      <h3 className={styles.label}>{personRoleToTitle[data.role]}:</h3>
+      <h3 className={styles.label}>{personRoleToTitle[data.role]}</h3>
       <ul
         className={clsx(
           styles.list_wrapper,

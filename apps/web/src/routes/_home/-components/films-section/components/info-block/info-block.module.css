@@ -5,6 +5,7 @@
   border: var(--border-default);
   border-radius: var(--rounded-default);
   padding: 15px 20px;
+  background-color: var(--color-white);
 }
 
 .image {

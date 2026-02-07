@@ -1,4 +1,4 @@
 export * from './poster/poster';
 export * from './trailers-button/trailers-button';
 export * from './summary-block/summary-block';
-export * from './stats/stats';
+export * from './rating/rating';
