@@ -1,5 +1,9 @@
 .description {
   line-height: 1.5;
+  padding: 20px;
+  background-color: rgb(255 255 255 / 0.8);
+  border-radius: var(--rounded-default);
+  border: var(--border-default);
 }
 
 .description p {

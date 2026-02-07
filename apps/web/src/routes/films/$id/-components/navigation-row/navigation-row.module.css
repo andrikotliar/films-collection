@@ -4,7 +4,7 @@
   }
 }
 
-@media (width < 920px) {
+@media (width < 1280px) {
   .navigation_row {
     position: relative;
     color: var(--color-white);

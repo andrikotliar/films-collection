@@ -9,6 +9,14 @@
   font-size: 12px;
   text-transform: uppercase;
   flex-shrink: 0;
+  letter-spacing: 2px;
+}
+
+.row {
+  background-color: rgb(255 255 255 / 0.1);
+  padding: 11px 15px;
+  border-radius: var(--rounded-default);
+  width: 100%;
 }
 
 @media (max-width: 480px) {

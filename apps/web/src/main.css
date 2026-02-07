@@ -66,6 +66,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Roboto-Condensed';
+  src: url('/fonts/Roboto-Condensed-Medium.woff2');
+  font-weight: 500;
+}
+
 *,
 ::before,
 ::after {
@@ -106,4 +112,5 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-y: scroll;
   position: relative;
+  background-color: var(--color-blue-invisible);
 }

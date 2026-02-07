@@ -1,12 +1,13 @@
 .title {
   color: white;
-  font-size: 38px;
-  font-weight: bold;
-  line-height: 1.2;
+  font-family: 'Roboto-Condensed';
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1;
 }
 
 @media (max-width: 580px) {
   .title {
-    font-size: 25px;
+    font-size: 30px;
   }
 }

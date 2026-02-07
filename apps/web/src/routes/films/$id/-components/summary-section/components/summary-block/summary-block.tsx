@@ -8,8 +8,8 @@ type SummaryBlockProps = {
 export const SummaryBlock = ({ label, children }: SummaryBlockProps) => {
   return (
     <div className={styles.summary_block}>
-      {label && <div className={styles.label}>{label}:</div>}
-      <div>{children}</div>
+      {label && <div className={styles.label}>{label}</div>}
+      <div className={styles.row}>{children}</div>
     </div>
   );
 };

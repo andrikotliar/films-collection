@@ -1,8 +1,8 @@
 .link {
   display: inline-block;
-  color: var(--color-black);
-  font-size: 14px;
-  padding: 6px 10px;
-  background-color: var(--color-white);
-  border-radius: 5px;
+  font-size: var(--text-base);
+}
+
+.link:hover {
+  text-decoration: underline;
 }

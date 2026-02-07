@@ -1,15 +1,13 @@
 .play_button {
   position: relative;
-  color: var(--color-white);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
-  background-image: linear-gradient(to bottom, var(--color-blue-primary), var(--color-blue-dark));
   border-radius: var(--rounded-default);
   padding: 10px;
   transition: transform 200ms;
-  width: 100%;
   width: 330px;
   margin: 0 auto;
 }
@@ -19,15 +17,14 @@
 }
 
 .play_icon {
-  position: absolute;
-  left: 10px;
   fill: white;
   width: 20px;
   height: 20px;
 }
 
 .play_button_label {
-  font-size: 14px;
+  font-family: 'Roboto-Condensed';
+  font-size: var(--text-base);
   text-transform: uppercase;
 }
 
@@ -41,11 +38,13 @@
 
 .trailer_close_button {
   position: absolute;
-  top: -15px;
-  right: 10px;
+  top: 0;
+  right: 0;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 0 8px 0 8px;
   z-index: 3;
+  width: 40px;
+  height: 40px;
 }
 
 @media (width < 1360px) {
@@ -55,7 +54,7 @@
   }
 }
 
-@media (width < 768px) {
+@media (width < 725px) {
   .play_button {
     width: 100%;
   }

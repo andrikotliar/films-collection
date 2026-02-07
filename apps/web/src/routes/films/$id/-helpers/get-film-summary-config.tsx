@@ -50,21 +50,7 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
     {
       id: 'collections',
       title: 'Collections',
-      content: (
-        <LinksGroupWrapper>
-          {film.collections.map((item) => (
-            <DataLink
-              basePath="/"
-              query={{
-                collectionId: item.id,
-              }}
-              key={item.id}
-            >
-              {item.title}
-            </DataLink>
-          ))}
-        </LinksGroupWrapper>
-      ),
+      content: <LinksGroup basePath="collectionId" items={film.collections} />,
       isHidden: film.collections.length === 0,
     },
     {
