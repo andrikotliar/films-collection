@@ -1,7 +1,6 @@
 .console_page_title {
-  color: var(--color-blue-primary);
-  font-size: 25px;
-  font-weight: 900;
+  font-family: 'Roboto-Condensed';
+  font-size: 40px;
 }
 
 @media (max-width: 480px) {

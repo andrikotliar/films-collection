@@ -15,9 +15,5 @@ function RouteComponent() {
     return <div>Film doesn't have related titles</div>;
   }
 
-  return (
-    <div>
-      <Chapters data={film.chapters} filmId={film.id} />
-    </div>
-  );
+  return <Chapters data={film.chapters} filmId={film.id} />;
 }
