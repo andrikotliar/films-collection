@@ -39,7 +39,7 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
 
         <div className={styles.right_column}>
           {filmConfig.map((item) => (
-            <SummaryBlock label={item.title} key={item.id}>
+            <SummaryBlock label={item.title} key={item.id} icon={item.icon}>
               {item.content}
             </SummaryBlock>
           ))}

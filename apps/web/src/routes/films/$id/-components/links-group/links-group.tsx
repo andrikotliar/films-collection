@@ -7,6 +7,10 @@ type LinksGroupProps = {
 };
 
 export const LinksGroup = ({ basePath, items }: LinksGroupProps) => {
+  if (items.length === 0) {
+    return <span>N/A</span>;
+  }
+
   return (
     <LinksGroupWrapper>
       {items.map((item) => (
