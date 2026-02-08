@@ -7,10 +7,31 @@ import {
   setCookie,
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
+  validateAuth,
 } from '~/shared';
-import { IdParamSchema, LoginSchema, LogoutResponseSchema } from '@films-collection/shared';
+import {
+  AuthStateResponseSchema,
+  IdParamSchema,
+  LoginSchema,
+  LogoutResponseSchema,
+} from '@films-collection/shared';
 
 export default createRouter([
+  defineRoute({
+    method: 'GET',
+    url: '/state',
+    schema: {
+      response: AuthStateResponseSchema,
+    },
+    preHandler: [validateAuth],
+    async handler() {
+      return {
+        data: {
+          isAuthenticated: true,
+        },
+      };
+    },
+  }),
   defineRoute({
     method: 'POST',
     url: '/login',
