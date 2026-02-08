@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-family: 'Roboto-Condensed', sans-serif;
+  line-height: 1;
+}
+
+.icon {
+  transform: rotate(-10deg);
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+}

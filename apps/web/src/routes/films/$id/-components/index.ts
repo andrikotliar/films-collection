@@ -13,3 +13,4 @@ export * from './chapters/chapters';
 export * from './navigation-row/navigation-row';
 export * from './film-details-tabs/film-details-tabs';
 export * from './tab-wrapper/tab-wrapper';
+export * from './section/section';
