@@ -24,8 +24,7 @@ export const TrailersPlaylist = ({ trailers, previewLabel }: TrailersPlaylistPro
 
   const videoUrls = useMemo(() => {
     return trailers.map((trailer) =>
-      // TODO: remove type assertion after migration to url column
-      getEmbeddableYoutubeUrl(trailer.url!, {
+      getEmbeddableYoutubeUrl(trailer.url, {
         rel: '0',
         showinfo: '0',
         autoplay: shouldAutoPlay ? '1' : '0',

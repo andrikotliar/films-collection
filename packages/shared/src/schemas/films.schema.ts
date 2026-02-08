@@ -113,7 +113,7 @@ export const GetAdminListQuerySchema = z
 const TrailerSchema = z.object({
   id: z.coerce.number(),
   filmId: z.coerce.number(),
-  url: z.string().nullable(),
+  url: z.string(),
   order: z.coerce.number(),
   createdAt: z.date(),
   updatedAt: z.date(),
