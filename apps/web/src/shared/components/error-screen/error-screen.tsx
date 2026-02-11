@@ -1,12 +1,5 @@
 import { HttpError } from '@films-collection/fetch-wrapper';
 import { onlineManager } from '@tanstack/react-query';
-import {
-  appError,
-  internalServerError,
-  noInternetError,
-  notFoundError,
-  unknownError,
-} from '~/assets';
 import { Status } from '~/shared/components/error-screen/components';
 
 type ErrorScreenProps = {
@@ -19,7 +12,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
       <Status
         title="No internet connection"
         message="Fix a connection issue and reload the page"
-        imageSrc={noInternetError}
+        imageSrc="/images/errors/no-internet.webp"
         isRecoverable
       />
     );
@@ -31,7 +24,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
         <Status
           title="Not found"
           message="The page with given URL doesn't exist or is under construction"
-          imageSrc={notFoundError}
+          imageSrc="/images/errors/not-found-error.webp"
         />
       );
     }
@@ -39,21 +32,26 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
       <Status
         title="Internal Server Error"
         message="Server returned incorrect response. Reload the page"
-        imageSrc={internalServerError}
+        imageSrc="/images/errors/server-error.webp"
         isRecoverable
       />
     );
   }
 
   if (error instanceof Error) {
-    <Status title="App crashed" message={error.message} imageSrc={appError} isRecoverable />;
+    <Status
+      title="App crashed"
+      message={error.message}
+      imageSrc="/images/errors/app-error.webp"
+      isRecoverable
+    />;
   }
 
   return (
     <Status
       title="Unknown error"
       message="The app currently is not working"
-      imageSrc={unknownError}
+      imageSrc="/images/errors/unknown-error.webp"
       isRecoverable
     />
   );
