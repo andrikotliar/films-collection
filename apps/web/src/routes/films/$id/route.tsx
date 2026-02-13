@@ -1,12 +1,17 @@
-import { createFileRoute, Outlet } from '@tanstack/react-router';
+import { createFileRoute } from '@tanstack/react-router';
 import { getFilmQueryOptions, useDocumentTitle, useScrollToTop } from '~/shared';
 import {
-  FilmDetailsTabs,
+  Awards,
+  CastAndCrew,
+  Chapters,
+  ContentLayout,
+  Description,
   FilmPageLayout,
   NavigationRow,
+  Section,
   SummarySection,
-  TabWrapper,
 } from '~/routes/films/$id/-components';
+import { AwardIcon, FileTextIcon, UsersIcon } from 'lucide-react';
 
 export const Route = createFileRoute('/films/$id')({
   loader: async ({ context, params }) => {
@@ -26,23 +31,24 @@ function FilmPageContainer() {
     <FilmPageLayout>
       <NavigationRow />
       <SummarySection film={film} />
-      <FilmDetailsTabs
-        config={[
-          {
-            title: 'Overview',
-            route: '/films/$id',
-          },
-          {
-            title: 'Related films',
-            route: '/films/$id/related',
-            isVisible: !!film.chapters?.length,
-          },
-        ]}
-        filmId={film.id}
-      />
-      <TabWrapper>
-        <Outlet />
-      </TabWrapper>
+      <ContentLayout>
+        {film.description && film.description.length > 50 && (
+          <Section title="Description" icon={<FileTextIcon />}>
+            <Description rawHtml={film.description} />
+          </Section>
+        )}
+        {film.awards.length > 0 && (
+          <Section title="Awards" icon={<AwardIcon />}>
+            <Awards data={film.awards} />
+          </Section>
+        )}
+        {film.castAndCrew.length !== 0 && (
+          <Section title="Cast and Crew" icon={<UsersIcon />}>
+            <CastAndCrew data={film.castAndCrew} />
+          </Section>
+        )}
+        {film.chapters.length > 0 && <Chapters data={film.chapters} filmId={film.id} />}
+      </ContentLayout>
     </FilmPageLayout>
   );
 }

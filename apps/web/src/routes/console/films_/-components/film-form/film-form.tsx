@@ -153,8 +153,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         type="radio"
       />
       <Form.RatingInput name="rating" label="Rating" size={3} />
-      <Form.Checkbox name="mostWatched" label="Is most watched" type="checkbox" />
-      <Form.Checkbox name="watchedInCinema" label="Is watched in cinema" type="checkbox" />
       <Form.FileInput label="Poster" name="poster" />
       <SeriesExtension />
       <Form.Select

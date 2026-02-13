@@ -1,0 +1,21 @@
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.collection_link {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: var(--color-white);
+  padding: 2px 15px;
+  border-radius: 6px;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  font-family: 'Roboto-Condensed', sans-serif;
+}
+
+.hash {
+  font-size: var(--text-xl);
+}

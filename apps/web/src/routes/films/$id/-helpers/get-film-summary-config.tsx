@@ -6,7 +6,6 @@ import {
   CalendarIcon,
   ClockIcon,
   GlobeIcon,
-  GroupIcon,
   HandCoinsIcon,
   TvIcon,
   WalletIcon,
@@ -60,12 +59,6 @@ export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): S
       title: 'Production studios',
       icon: <BuildingIcon />,
       content: <LinksGroup basePath="studioIds" items={film.studios} />,
-    },
-    {
-      id: 'collections',
-      title: 'Collections',
-      icon: <GroupIcon />,
-      content: <LinksGroup basePath="collectionId" items={film.collections} />,
     },
     {
       id: 'budget',
