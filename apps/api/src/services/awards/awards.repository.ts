@@ -49,6 +49,9 @@ export class AwardsRepository extends BaseRepository {
         id: true,
         title: true,
       },
+      orderBy: {
+        title: 'asc',
+      },
     });
   }
 

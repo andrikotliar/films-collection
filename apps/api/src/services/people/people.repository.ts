@@ -69,9 +69,14 @@ export class PeopleRepository {
       },
       where: whereClause,
       take: PAGE_LIMITS.default,
-      orderBy: {
-        name: 'asc',
-      },
+      orderBy: [
+        {
+          name: 'asc',
+        },
+        {
+          id: 'asc',
+        },
+      ],
     });
 
     if (selected) {
