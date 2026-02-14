@@ -42,7 +42,7 @@ export const Route = createFileRoute('/console/collection-events')({
 function CollectionEventsContainer() {
   const { onOpen } = useFormModal<FormModalValues<typeof CollectionEventForm>>();
 
-  const { data } = useSuspenseQuery(getCollectionEventsQueryOptions());
+  const { data, isFetching } = useSuspenseQuery(getCollectionEventsQueryOptions());
 
   const { mutateAsync: deleteEvent, isPending: isDeleting } = useMutation({
     mutationFn: (id: number) => {
@@ -71,6 +71,7 @@ function CollectionEventsContainer() {
         }
         isDeletingInProgress={isDeleting}
         description={getDateMonthLabel}
+        isFetching={isFetching}
       />
     </ConsoleContentLayout>
   );

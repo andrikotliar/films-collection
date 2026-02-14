@@ -32,7 +32,7 @@ export const Route = createFileRoute('/console/page-content')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(getPageContentAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useSuspenseQuery(getPageContentAdminListQueryOptions(searchParams));
 
   const { mutateAsync: deletePageContent, isPending } = useMutation({
     mutationFn: (id: number) => api.pageContent.remove({ params: { id } }),
@@ -78,6 +78,7 @@ function PageContainer() {
             });
           }}
           isDeletingInProgress={isPending}
+          isFetching={isFetching}
         />
       </Panel>
       <Pagination

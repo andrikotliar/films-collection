@@ -41,7 +41,7 @@ function RouteComponent() {
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
 
-  const { data: people } = useSuspenseQuery(getPeopleAdminListQueryOptions(search));
+  const { data: people, isFetching } = useSuspenseQuery(getPeopleAdminListQueryOptions(search));
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
@@ -71,6 +71,7 @@ function RouteComponent() {
         onDelete={deletePerson}
         onEdit={onOpen}
         isDeletingInProgress={isDeleting}
+        isFetching={isFetching}
       />
       <Pagination
         total={people.total}

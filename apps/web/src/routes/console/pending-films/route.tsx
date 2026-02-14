@@ -43,7 +43,7 @@ function PageContainer() {
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
 
-  const { data } = useSuspenseQuery(getPendingFilmsListQueryOptions(searchParams));
+  const { data, isFetching } = useSuspenseQuery(getPendingFilmsListQueryOptions(searchParams));
 
   const { mutateAsync, isPending } = useMutation({
     mutationFn: (id: number) => api.pendingFilms.remove({ params: { id } }),
@@ -81,6 +81,7 @@ function PageContainer() {
         isDeletingInProgress={isPending}
         onCreate={handleCreate}
         onEdit={onOpen}
+        isFetching={isFetching}
       />
       <Pagination
         currentPageIndex={searchParams.pageIndex}

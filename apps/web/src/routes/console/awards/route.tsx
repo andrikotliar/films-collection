@@ -13,7 +13,7 @@ export const Route = createFileRoute('/console/awards')({
 
 function PageContainer() {
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(getAwardsBaseDataListQueryOptions());
+  const { data, isFetching } = useSuspenseQuery(getAwardsBaseDataListQueryOptions());
 
   const { mutateAsync: deleteAward, isPending: isDeleting } = useMutation({
     mutationFn: (id: number) => api.awards.remove({ params: { id } }),
@@ -41,6 +41,7 @@ function PageContainer() {
         onDelete={deleteAward}
         onEdit={(data) => handleOnEdit(data.id)}
         isDeletingInProgress={isDeleting}
+        isFetching={isFetching}
       />
     </ConsoleContentLayout>
   );

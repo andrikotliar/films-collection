@@ -28,7 +28,7 @@ const genreDefaultValues = getEmptyFormValues<Input<typeof api.genres.create>>({
 });
 
 function PageContainer() {
-  const { data: genres } = useSuspenseQuery(getGenresListQueryOptions());
+  const { data: genres, isFetching } = useSuspenseQuery(getGenresListQueryOptions());
   const { onOpen } = useFormModal();
 
   const { mutateAsync: deleteGenre, isPending: isDeletePending } = useMutation({
@@ -46,6 +46,7 @@ function PageContainer() {
         onDelete={deleteGenre}
         onEdit={onOpen}
         isDeletingInProgress={isDeletePending}
+        isFetching={isFetching}
       />
     </ConsoleContentLayout>
   );

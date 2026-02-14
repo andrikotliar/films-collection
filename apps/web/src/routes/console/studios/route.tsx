@@ -26,7 +26,7 @@ export const Route = createFileRoute('/console/studios')({
 });
 
 function PageContainer() {
-  const { data } = useSuspenseQuery(getStudiosListQueryOptions());
+  const { data, isFetching } = useSuspenseQuery(getStudiosListQueryOptions());
   const { onOpen } = useFormModal();
 
   const { mutateAsync: deleteStudio, isPending: isDeletePending } = useMutation({
@@ -44,6 +44,7 @@ function PageContainer() {
         onDelete={deleteStudio}
         onEdit={onOpen}
         isDeletingInProgress={isDeletePending}
+        isFetching={isFetching}
       />
     </ConsoleContentLayout>
   );
