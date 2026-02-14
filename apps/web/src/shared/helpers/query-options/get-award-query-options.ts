@@ -13,7 +13,5 @@ export const getAwardQueryOptions = (id: MixedId) => {
 
       return api.awards.get({ params: { id } });
     },
-    enabled: !isNewItem(id),
-    gcTime: 0,
   });
 };
