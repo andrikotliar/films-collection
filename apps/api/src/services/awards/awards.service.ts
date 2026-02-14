@@ -1,44 +1,39 @@
 import type { Prisma } from '@prisma/client';
 import { buildListOptions, NotFoundException, type Deps } from '~/shared';
-import type { AwardsRepository } from './awards.repository';
 import type { GetByIdParams, GroupedNominations } from './types';
-import type { CreateAwardInput } from '@films-collection/shared';
+import type { CreateAwardInput, NominationInput } from '@films-collection/shared';
 
 const NEW_NOMINATION_ID = -1;
 
 export class AwardsService {
-  private readonly awardsRepository: AwardsRepository;
-
-  constructor(deps: Deps<'awardsRepository'>) {
-    this.awardsRepository = deps.awardsRepository;
-  }
+  constructor(private readonly deps: Deps<'awardsRepository'>) {}
 
   getBaseDataList() {
-    return this.awardsRepository.getBaseDataList();
+    return this.deps.awardsRepository.getBaseDataList();
   }
 
   getAwardById(id: number, { includeNominations }: GetByIdParams = {}) {
-    return this.awardsRepository.getById(id, includeNominations);
+    return this.deps.awardsRepository.getById(id, includeNominations);
   }
 
   getBaseAwardData(id: number) {
-    return this.awardsRepository.getBaseData(id);
+    return this.deps.awardsRepository.getBaseData(id);
   }
 
   async getListOptions() {
-    const awards = await this.awardsRepository.getListOptions();
+    const awards = await this.deps.awardsRepository.getListOptions();
 
     return buildListOptions(awards);
   }
 
   async getNominationsListOptions(awardId: number) {
-    const nominations = await this.awardsRepository.getNominationsByAward(awardId);
+    const nominations = await this.deps.awardsRepository.getNominationsByAward(awardId);
 
     return buildListOptions(nominations);
   }
 
   createAward(input: CreateAwardInput) {
-    return this.awardsRepository.createAward(input);
+    return this.deps.awardsRepository.createAward(input);
   }
 
   async deleteAward(id: number) {
@@ -50,7 +45,7 @@ export class AwardsService {
       });
     }
 
-    return this.awardsRepository.deleteAward(id);
+    return this.deps.awardsRepository.deleteAward(id);
   }
 
   async updateAward(awardId: number, input: CreateAwardInput) {
@@ -64,7 +59,7 @@ export class AwardsService {
       });
     }
 
-    const updatedAwardPromise = this.awardsRepository.updateAward(awardId, award);
+    const updatedAwardPromise = this.deps.awardsRepository.updateAward(awardId, award);
 
     if (!nominations.length) {
       return Promise.resolve(updatedAwardPromise);
@@ -72,7 +67,7 @@ export class AwardsService {
 
     const promises: Prisma.PrismaPromise<any>[] = [updatedAwardPromise];
 
-    const awardNominations = await this.awardsRepository.getAwardNominationIds(awardId);
+    const awardNominations = await this.deps.awardsRepository.getAwardNominationIds(awardId);
 
     const nominationIds = awardNominations.map((nomination) => nomination.id);
     const inputNominationIds = nominations.map((nomination) => nomination.id);
@@ -100,7 +95,7 @@ export class AwardsService {
     );
 
     if (groupedNominations.create.length) {
-      const createNominationsPromise = this.awardsRepository.createManyNominations(
+      const createNominationsPromise = this.deps.awardsRepository.createManyNominations(
         groupedNominations.create,
       );
 
@@ -109,20 +104,24 @@ export class AwardsService {
 
     if (groupedNominations.update.length) {
       const nominationPromises = groupedNominations.update.map(({ id, ...nomination }) => {
-        return this.awardsRepository.updateNomination(id, nomination);
+        return this.deps.awardsRepository.updateNomination(id, nomination);
       });
 
       promises.push(...nominationPromises);
     }
 
     if (nominationIdsToDelete.length) {
-      const deletePromises = this.awardsRepository.deleteNominations(nominationIdsToDelete);
+      const deletePromises = this.deps.awardsRepository.deleteNominations(nominationIdsToDelete);
 
       promises.push(deletePromises);
     }
 
-    const [updatedAward] = await this.awardsRepository.transaction(promises);
+    const [updatedAward] = await this.deps.awardsRepository.transaction(promises);
 
     return updatedAward;
+  }
+
+  createNomination(awardId: number, input: NominationInput) {
+    return this.deps.awardsRepository.createNomination(awardId, input);
   }
 }

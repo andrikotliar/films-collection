@@ -6,6 +6,8 @@ import {
   buildListOptionSchema,
   CreateAwardInputSchema,
   IdParamSchema,
+  NominationInputSchema,
+  NominationResponseSchema,
   NullableIdParamSchema,
 } from '@films-collection/shared';
 import z from 'zod';
@@ -34,6 +36,24 @@ export default createRouter([
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('awardsService').createAward(request.body);
+
+      return { data, status: 'CREATED' };
+    },
+  }),
+
+  defineRoute({
+    method: 'POST',
+    url: '/:id/nominations',
+    schema: {
+      body: NominationInputSchema,
+      params: IdParamSchema,
+      response: NominationResponseSchema,
+    },
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('awardsService')
+        .createNomination(request.params.id, request.body);
 
       return { data, status: 'CREATED' };
     },

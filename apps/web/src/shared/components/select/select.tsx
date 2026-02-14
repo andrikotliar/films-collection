@@ -209,9 +209,12 @@ export const Select = ({
     setInternalOptions(options);
   }, [options]);
 
-  const handleSearchChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    handleSearch(event);
-  }, []);
+  const handleSearchChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      handleSearch(event);
+    },
+    [options],
+  );
 
   const handleClickAddItem = async () => {
     const value = inputRef?.current?.value ?? '';

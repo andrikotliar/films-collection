@@ -1,5 +1,5 @@
 import type { Film, Prisma } from '@prisma/client';
-import { BaseRepository, type DatabaseClient, type Deps } from '~/shared';
+import { BaseRepository, type Deps } from '~/shared';
 import {
   PAGE_LIMITS,
   type CreateFilmInput,
@@ -8,19 +8,16 @@ import {
 } from '@films-collection/shared';
 
 export class FilmsRepository extends BaseRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
+  constructor(private readonly deps: Deps<'databaseService'>) {
     super(deps.databaseService);
-    this.databaseClient = deps.databaseService;
   }
 
   async count(filters?: Prisma.FilmWhereInput) {
-    return this.databaseClient.film.count({ where: filters });
+    return this.deps.databaseService.film.count({ where: filters });
   }
 
   async findAndCount(filters: Prisma.FilmWhereInput, limit: number, skip: number) {
-    const list = await this.databaseClient.film.findMany({
+    const list = await this.deps.databaseService.film.findMany({
       select: {
         id: true,
         title: true,
@@ -44,7 +41,7 @@ export class FilmsRepository extends BaseRepository {
   }
 
   findById(id: number) {
-    return this.databaseClient.film.findUnique({
+    return this.deps.databaseService.film.findUnique({
       select: {
         id: true,
         title: true,
@@ -58,8 +55,6 @@ export class FilmsRepository extends BaseRepository {
         type: true,
         draft: true,
         chapterOrder: true,
-        mostWatched: true,
-        watchedInCinema: true,
         overview: true,
         genres: {
           select: {
@@ -143,7 +138,7 @@ export class FilmsRepository extends BaseRepository {
   }
 
   findByIdAdmin(id: number) {
-    return this.databaseClient.film.findUnique({
+    return this.deps.databaseService.film.findUnique({
       where: {
         id,
         deletedAt: null,
@@ -161,8 +156,6 @@ export class FilmsRepository extends BaseRepository {
         duration: true,
         releaseDate: true,
         chapterKey: true,
-        mostWatched: true,
-        watchedInCinema: true,
         chapterOrder: true,
         genres: {
           select: {
@@ -216,7 +209,7 @@ export class FilmsRepository extends BaseRepository {
   }
 
   searchByTitle(query: string) {
-    return this.databaseClient.film.findMany({
+    return this.deps.databaseService.film.findMany({
       select: {
         id: true,
         title: true,
@@ -244,7 +237,7 @@ export class FilmsRepository extends BaseRepository {
     const date = currentDate.getDate();
     const month = currentDate.getMonth() + 1;
 
-    return this.databaseClient.$queryRaw<
+    return this.deps.databaseService.$queryRaw<
       Pick<Film, 'id'>[]
     >`SELECT id FROM films WHERE EXTRACT(MONTH FROM release_date) = ${month} AND EXTRACT(DAY FROM release_date) = ${date}`;
   }
@@ -255,7 +248,7 @@ export class FilmsRepository extends BaseRepository {
       deletedAt: null,
     };
 
-    return this.databaseClient.film.findMany({
+    return this.deps.databaseService.film.findMany({
       where,
       select: {
         id: true,
@@ -277,7 +270,7 @@ export class FilmsRepository extends BaseRepository {
     },
   ) {
     const total = await this.count(filters);
-    const films = await this.databaseClient.film.findMany({
+    const films = await this.deps.databaseService.film.findMany({
       select: {
         id: true,
         title: true,
@@ -294,7 +287,7 @@ export class FilmsRepository extends BaseRepository {
   }
 
   updateBaseFilmData(id: number, input: Prisma.FilmUpdateInput) {
-    return this.databaseClient.film.update({
+    return this.deps.databaseService.film.update({
       where: {
         id,
       },
@@ -320,7 +313,7 @@ export class FilmsRepository extends BaseRepository {
       };
     }
 
-    const queryResult = await this.databaseClient.film.findMany({
+    const queryResult = await this.deps.databaseService.film.findMany({
       select: {
         id: true,
         title: true,
@@ -333,7 +326,7 @@ export class FilmsRepository extends BaseRepository {
     });
 
     if (selected) {
-      const selectedFilms = await this.databaseClient.film.findMany({
+      const selectedFilms = await this.deps.databaseService.film.findMany({
         select: {
           id: true,
           title: true,
@@ -352,7 +345,7 @@ export class FilmsRepository extends BaseRepository {
   }
 
   delete(id: number, date: Date) {
-    return this.databaseClient.film.update({
+    return this.deps.databaseService.film.update({
       where: {
         id,
       },
@@ -442,13 +435,13 @@ export class FilmsRepository extends BaseRepository {
       };
     }
 
-    return this.databaseClient.film.create({
+    return this.deps.databaseService.film.create({
       data,
     });
   }
 
   getEditableFilm(id: number) {
-    return this.databaseClient.film.findUnique({
+    return this.deps.databaseService.film.findUnique({
       where: {
         id,
       },
@@ -465,8 +458,6 @@ export class FilmsRepository extends BaseRepository {
         overview: true,
         chapterKey: true,
         chapterOrder: true,
-        mostWatched: true,
-        watchedInCinema: true,
         draft: true,
         genres: {
           select: {
@@ -516,7 +507,7 @@ export class FilmsRepository extends BaseRepository {
   }
 
   updateFilm(filmId: number, data: Prisma.FilmUpdateInput) {
-    return this.databaseClient.film.update({
+    return this.deps.databaseService.film.update({
       where: {
         id: filmId,
       },
@@ -525,10 +516,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmAwards(filmId: number, data: CreateFilmInput['awards']) {
-    await this.databaseClient.filmAwardNomination.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmAwardNomination.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmAwardNomination.createMany({
+      return this.deps.databaseService.filmAwardNomination.createMany({
         data: data.map((award) => ({
           ...award,
           actorId: award.personId,
@@ -539,10 +530,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmStudios(filmId: number, data: CreateFilmInput['studios']) {
-    await this.databaseClient.filmStudio.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmStudio.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmStudio.createMany({
+      return this.deps.databaseService.filmStudio.createMany({
         data: data.map((studioId) => ({
           studioId,
           filmId,
@@ -552,10 +543,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmCountries(filmId: number, data: CreateFilmInput['countries']) {
-    await this.databaseClient.filmCountry.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmCountry.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmCountry.createMany({
+      return this.deps.databaseService.filmCountry.createMany({
         data: data.map((countryId) => ({
           countryId,
           filmId,
@@ -565,10 +556,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmCollections(filmId: number, data: CreateFilmInput['collections']) {
-    await this.databaseClient.filmCollection.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmCollection.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmCollection.createMany({
+      return this.deps.databaseService.filmCollection.createMany({
         data: data.map((collectionId) => ({
           collectionId,
           filmId,
@@ -578,10 +569,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmGenres(filmId: number, data: CreateFilmInput['genres']) {
-    await this.databaseClient.filmGenre.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmGenre.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmGenre.createMany({
+      return this.deps.databaseService.filmGenre.createMany({
         data: data.map((genreId) => ({
           genreId,
           filmId,
@@ -591,10 +582,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmTrailers(filmId: number, data: CreateFilmInput['trailers']) {
-    await this.databaseClient.filmTrailer.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmTrailer.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmTrailer.createMany({
+      return this.deps.databaseService.filmTrailer.createMany({
         data: data.map((trailer) => ({
           ...trailer,
           filmId,
@@ -604,10 +595,10 @@ export class FilmsRepository extends BaseRepository {
   }
 
   async updateFilmCastAndCrew(filmId: number, data: CreateFilmInput['castAndCrew']) {
-    await this.databaseClient.filmPerson.deleteMany({ where: { filmId } });
+    await this.deps.databaseService.filmPerson.deleteMany({ where: { filmId } });
 
     return () => {
-      return this.databaseClient.filmPerson.createMany({
+      return this.deps.databaseService.filmPerson.createMany({
         data: data.map((person) => ({
           ...person,
           filmId,
@@ -620,7 +611,7 @@ export class FilmsRepository extends BaseRepository {
     filmId: number,
     data: Partial<NotNull<CreateFilmInput['seriesExtension']>>,
   ) {
-    return this.databaseClient.seriesExtension.update({
+    return this.deps.databaseService.seriesExtension.update({
       where: { filmId },
       data,
     });

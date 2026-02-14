@@ -31,7 +31,7 @@ export const Route = createFileRoute('/console/collections')({
 });
 
 function PageContainer() {
-  const { data } = useSuspenseQuery(getCollectionsListQueryOptions());
+  const { data, isFetching } = useSuspenseQuery(getCollectionsListQueryOptions());
   const { onOpen } = useFormModal<z.infer<typeof CollectionFormSchema>>();
 
   const { mutateAsync: deleteCollection, isPending: isDeleting } = useMutation({
@@ -51,6 +51,7 @@ function PageContainer() {
         onDelete={deleteCollection}
         onEdit={onOpen}
         isDeletingInProgress={isDeleting}
+        isFetching={isFetching}
       />
     </ConsoleContentLayout>
   );

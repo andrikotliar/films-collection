@@ -15,6 +15,11 @@
   gap: 20px;
 }
 
+.label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .toggle_button {
   display: flex;
   align-items: center;

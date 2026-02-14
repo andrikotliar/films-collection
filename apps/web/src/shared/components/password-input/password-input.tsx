@@ -1,7 +1,7 @@
-import styles from "./password-input.module.css";
+import styles from './password-input.module.css';
 import { EyeIcon, EyeOffIcon } from 'lucide-react';
 import { forwardRef, useState } from 'react';
-import { TextInput, TextInputProps } from '../text-input/text-input';
+import { TextInput, type TextInputProps } from '../text-input/text-input';
 
 export type PasswordInputProps = Omit<TextInputProps, 'type'>;
 

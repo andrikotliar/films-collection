@@ -1,16 +1,11 @@
 import type { Deps } from '~/shared';
-import type { ChapterKeysRepository } from './chapter-keys.repository';
 import type { CreateChapterKeyInput, ListOption } from '@films-collection/shared';
 
 export class ChapterKeysService {
-  private readonly chapterKeysRepository: ChapterKeysRepository;
-
-  constructor(deps: Deps<'chapterKeysRepository'>) {
-    this.chapterKeysRepository = deps.chapterKeysRepository;
-  }
+  constructor(private readonly deps: Deps<'chapterKeysRepository'>) {}
 
   async getListOptions(): Promise<ListOption<string>[]> {
-    const keys = await this.chapterKeysRepository.getAll();
+    const keys = await this.deps.chapterKeysRepository.getAll();
 
     return keys.map((item) => ({
       label: item.key,
@@ -19,6 +14,6 @@ export class ChapterKeysService {
   }
 
   addKey({ key }: CreateChapterKeyInput) {
-    return this.chapterKeysRepository.create(key);
+    return this.deps.chapterKeysRepository.create(key);
   }
 }

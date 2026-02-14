@@ -28,7 +28,7 @@ export const Route = createFileRoute('/console/countries')({
 });
 
 function PageContainer() {
-  const { data: countries } = useSuspenseQuery(getCountriesListQueryOptions());
+  const { data: countries, isFetching } = useSuspenseQuery(getCountriesListQueryOptions());
   const { onOpen } = useFormModal();
 
   const { mutateAsync: deleteCountry, isPending: isDeletePending } = useMutation({
@@ -46,6 +46,7 @@ function PageContainer() {
         onDelete={deleteCountry}
         onEdit={onOpen}
         isDeletingInProgress={isDeletePending}
+        isFetching={isFetching}
       />
     </ConsoleContentLayout>
   );

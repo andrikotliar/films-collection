@@ -15,7 +15,7 @@ export const Status = ({ title, message, imageSrc, isRecoverable = false }: Stat
   return (
     <div className={styles.error_screen}>
       <div className={styles.container}>
-        <Image src={imageSrc} />
+        <Image src={imageSrc} className={styles.image} />
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.description}>{message}</p>
         {isRecoverable ? (

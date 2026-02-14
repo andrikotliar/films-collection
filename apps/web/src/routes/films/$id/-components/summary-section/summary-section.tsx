@@ -2,6 +2,7 @@ import styles from './summary-section.module.css';
 import { useMemo } from 'react';
 import { defineCssProperties, type api, type ApiResponse } from '~/shared';
 import {
+  Collections,
   Poster,
   Rating,
   SummaryBlock,
@@ -44,6 +45,7 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
               {item.content}
             </SummaryBlock>
           ))}
+          {film.collections.length > 0 && <Collections list={film.collections} />}
         </div>
       </div>
     </div>

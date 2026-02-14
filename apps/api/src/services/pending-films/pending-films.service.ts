@@ -1,5 +1,4 @@
 import type { Prisma } from '@prisma/client';
-import type { PendingFilmsRepository } from './pending-films.repository';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -10,35 +9,31 @@ import {
 import type { Deps } from '~/shared';
 
 export class PendingFilmsService {
-  private readonly pendingFilmsRepository: PendingFilmsRepository;
-
-  constructor(deps: Deps<'pendingFilmsRepository'>) {
-    this.pendingFilmsRepository = deps.pendingFilmsRepository;
-  }
+  constructor(private readonly deps: Deps<'pendingFilmsRepository'>) {}
 
   async getList(queryFilters: GetPendingFilmsListQuery) {
     const { filters, options } = this.getListFilters(queryFilters);
 
-    return this.pendingFilmsRepository.getListAndCount({
+    return this.deps.pendingFilmsRepository.getListAndCount({
       ...options,
       where: filters,
     });
   }
 
   createPendingFilm(input: CreatePendingFilmInput) {
-    return this.pendingFilmsRepository.create(input);
+    return this.deps.pendingFilmsRepository.create(input);
   }
 
   deletePendingFilm(id: number) {
-    return this.pendingFilmsRepository.deleteById(id);
+    return this.deps.pendingFilmsRepository.deleteById(id);
   }
 
   updatePendingFilm(id: number, input: UpdatePendingFilmInput) {
-    return this.pendingFilmsRepository.updateById(id, input);
+    return this.deps.pendingFilmsRepository.updateById(id, input);
   }
 
   getPendingFilmById(id: number) {
-    return this.pendingFilmsRepository.findPendingFilm(id);
+    return this.deps.pendingFilmsRepository.findPendingFilm(id);
   }
 
   private getListFilters(queryFilters: GetPendingFilmsListQuery) {

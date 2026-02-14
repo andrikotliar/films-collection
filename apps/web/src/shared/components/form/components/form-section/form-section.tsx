@@ -1,4 +1,3 @@
-import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { useState } from 'react';
 import styles from './form-section.module.css';
 import clsx from 'clsx';
@@ -19,7 +18,7 @@ export const FormSection = ({ children, label }: FormSectionProps) => {
   return (
     <div className={styles.form_section}>
       <div className={styles.header}>
-        {label && <FieldLabel>{label}</FieldLabel>}
+        {label && <div className={styles.label}>{label}</div>}
         <button onClick={toggleContentVisibility} className={styles.toggle_button} type="button">
           {isCollapsed ? <Maximize2Icon /> : <Minimize2Icon />}
         </button>

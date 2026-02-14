@@ -27,7 +27,7 @@ export const Route = createFileRoute('/console/films')({
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data } = useSuspenseQuery(getFilmsAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useSuspenseQuery(getFilmsAdminListQueryOptions(searchParams));
 
   const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
     mutationFn: (id: number) => api.films.admin.remove({ params: { id } }),
@@ -77,6 +77,7 @@ function PageContainer() {
         onEdit={handleEditFilm}
         isDeletingInProgress={isPending}
         onView={handleViewFilm}
+        isFetching={isFetching}
       />
       <Pagination
         total={data.total}

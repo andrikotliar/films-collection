@@ -38,17 +38,3 @@
   width: 40px;
   height: 40px;
 }
-
-@media (width <= 420px) {
-  .root_menu {
-    justify-content: center;
-  }
-  .root_menu_item {
-    width: 130px;
-    height: 130px;
-  }
-  .root_menu_icon svg {
-    width: 30px;
-    height: 30px;
-  }
-}

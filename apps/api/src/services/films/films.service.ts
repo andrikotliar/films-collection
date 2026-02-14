@@ -1,5 +1,4 @@
 import { NotFoundException, type Deps } from '~/shared';
-import type { FilmsRepository } from './films.repository';
 import {
   type GetAdminListQuery,
   type GetFilmsListQuery,
@@ -16,41 +15,25 @@ import {
   mapListFilters,
   mapAdminFilmDetails,
 } from './helpers';
-import type { PeopleService } from '~/services/people/people.service';
-import type { AwardsService } from '~/services/awards/awards.service';
-import type { CollectionsService } from '~/services/collections/collections.service';
-import type { PendingFilmsService } from '~/services/pending-films';
 import type { Prisma } from '@prisma/client';
 
 export class FilmsService {
-  private readonly filmsRepository: FilmsRepository;
-  private readonly peopleService: PeopleService;
-  private readonly awardsService: AwardsService;
-  private readonly collectionsService: CollectionsService;
-  private readonly pendingFilmsService: PendingFilmsService;
-
   constructor(
-    deps: Deps<
+    private readonly deps: Deps<
       | 'filmsRepository'
       | 'peopleService'
       | 'awardsService'
       | 'collectionsService'
       | 'pendingFilmsService'
     >,
-  ) {
-    this.filmsRepository = deps.filmsRepository;
-    this.peopleService = deps.peopleService;
-    this.awardsService = deps.awardsService;
-    this.collectionsService = deps.collectionsService;
-    this.pendingFilmsService = deps.pendingFilmsService;
-  }
+  ) {}
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const { pageIndex } = queries;
 
     const parsedFilters = mapListFilters(queries);
 
-    const data = await this.filmsRepository.findAndCount(
+    const data = await this.deps.filmsRepository.findAndCount(
       parsedFilters,
       PAGE_LIMITS.filmsList,
       getSkipValue('filmsList', pageIndex),
@@ -62,14 +45,14 @@ export class FilmsService {
   }
 
   async getFilmDetails(id: number) {
-    const film = await this.filmsRepository.findById(id);
+    const film = await this.deps.filmsRepository.findById(id);
 
     if (!film) {
       return null;
     }
 
     const chapters = film.chapterKey
-      ? await this.filmsRepository.findChapters(film.chapterKey)
+      ? await this.deps.filmsRepository.findChapters(film.chapterKey)
       : null;
 
     const mappedFilm = mapFilmDetails(film, chapters);
@@ -81,7 +64,7 @@ export class FilmsService {
     if (!searchString) {
       return [];
     }
-    const films = await this.filmsRepository.searchByTitle(searchString);
+    const films = await this.deps.filmsRepository.searchByTitle(searchString);
 
     return films.map((film) => ({
       ...film,
@@ -95,22 +78,22 @@ export class FilmsService {
     const filters = mapAdminListFilters(query);
     const skip = getSkipValue('default', pageIndex);
 
-    return this.filmsRepository.findAndCountAdmin(filters, {
+    return this.deps.filmsRepository.findAndCountAdmin(filters, {
       skip,
       orderBy: { [orderKey]: order },
     });
   }
 
   getRelatedChapters(chapterKey: string) {
-    return this.filmsRepository.findChapters(chapterKey);
+    return this.deps.filmsRepository.findChapters(chapterKey);
   }
 
   getFilmsTotal() {
-    return this.filmsRepository.count();
+    return this.deps.filmsRepository.count();
   }
 
   async getEditableFilm(id: number) {
-    const film = await this.filmsRepository.getEditableFilm(id);
+    const film = await this.deps.filmsRepository.getEditableFilm(id);
 
     if (!film) {
       throw new NotFoundException();
@@ -122,10 +105,10 @@ export class FilmsService {
   async createFilm(input: CreateFilmInput) {
     const { pendingFilmId, ...payload } = input;
 
-    const newFilm = await this.filmsRepository.create(payload);
+    const newFilm = await this.deps.filmsRepository.create(payload);
 
     if (pendingFilmId) {
-      await this.pendingFilmsService.deletePendingFilm(pendingFilmId);
+      await this.deps.pendingFilmsService.deletePendingFilm(pendingFilmId);
     }
 
     return await this.getFilmDetails(newFilm.id);
@@ -135,7 +118,7 @@ export class FilmsService {
     const { personId, personRole, collectionId, awardId } = query;
 
     if (personId && personRole) {
-      const crewMember = await this.peopleService.getPersonById(personId);
+      const crewMember = await this.deps.peopleService.getPersonById(personId);
 
       if (!crewMember) {
         return null;
@@ -151,7 +134,7 @@ export class FilmsService {
     }
 
     if (collectionId) {
-      const collection = await this.collectionsService.getCollectionById(collectionId);
+      const collection = await this.deps.collectionsService.getCollectionById(collectionId);
 
       if (!collection) {
         return null;
@@ -164,7 +147,7 @@ export class FilmsService {
     }
 
     if (awardId) {
-      const award = await this.awardsService.getBaseAwardData(awardId);
+      const award = await this.deps.awardsService.getBaseAwardData(awardId);
 
       if (!award) {
         return null;
@@ -180,7 +163,7 @@ export class FilmsService {
   }
 
   async getFilmOptions(queries: GetFilmOptionsQuery) {
-    const films = await this.filmsRepository.getFilmsListByQuery(queries);
+    const films = await this.deps.filmsRepository.getFilmsListByQuery(queries);
 
     return films.map((film) => ({
       label: film.title,
@@ -189,7 +172,7 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    const deleteFilm = await this.filmsRepository.delete(id, new Date());
+    const deleteFilm = await this.deps.filmsRepository.delete(id, new Date());
 
     return { id: deleteFilm.id };
   }
@@ -221,51 +204,51 @@ export class FilmsService {
       params.releaseDate = new Date(releaseDate).toISOString();
     }
 
-    const updateFilmPromise = this.filmsRepository.updateFilm(filmId, params);
+    const updateFilmPromise = this.deps.filmsRepository.updateFilm(filmId, params);
 
     const promises: Prisma.PrismaPromise<any>[] = [updateFilmPromise];
 
     if (awards) {
-      const promise = await this.filmsRepository.updateFilmAwards(filmId, awards);
+      const promise = await this.deps.filmsRepository.updateFilmAwards(filmId, awards);
       promises.push(promise());
     }
 
     if (trailers) {
-      const promise = await this.filmsRepository.updateFilmTrailers(filmId, trailers);
+      const promise = await this.deps.filmsRepository.updateFilmTrailers(filmId, trailers);
       promises.push(promise());
     }
 
     if (studios) {
-      const promise = await this.filmsRepository.updateFilmStudios(filmId, studios);
+      const promise = await this.deps.filmsRepository.updateFilmStudios(filmId, studios);
       promises.push(promise());
     }
 
     if (countries) {
-      const promise = await this.filmsRepository.updateFilmCountries(filmId, countries);
+      const promise = await this.deps.filmsRepository.updateFilmCountries(filmId, countries);
       promises.push(promise());
     }
 
     if (collections) {
-      const promise = await this.filmsRepository.updateFilmCollections(filmId, collections);
+      const promise = await this.deps.filmsRepository.updateFilmCollections(filmId, collections);
       promises.push(promise());
     }
 
     if (castAndCrew) {
-      const promise = await this.filmsRepository.updateFilmCastAndCrew(filmId, castAndCrew);
+      const promise = await this.deps.filmsRepository.updateFilmCastAndCrew(filmId, castAndCrew);
       promises.push(promise());
     }
 
     if (genres) {
-      const promise = await this.filmsRepository.updateFilmGenres(filmId, genres);
+      const promise = await this.deps.filmsRepository.updateFilmGenres(filmId, genres);
       promises.push(promise());
     }
 
     if (seriesExtension) {
-      const promise = this.filmsRepository.updateSeriesExtension(filmId, seriesExtension);
+      const promise = this.deps.filmsRepository.updateSeriesExtension(filmId, seriesExtension);
       promises.push(promise);
     }
 
-    await this.filmsRepository.transaction(promises);
+    await this.deps.filmsRepository.transaction(promises);
 
     return this.getFilmDetails(filmId);
   }

@@ -1,5 +1,5 @@
 import { type Collection, type CollectionEvent, type Film } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 import type {
   CreateCollectionEventInput,
   UpdateCollectionEventInput,
@@ -12,14 +12,10 @@ export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'co
 };
 
 export class CollectionEventsRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   getEventById(id: number) {
-    return this.databaseClient.collectionEvent.findUnique({
+    return this.deps.databaseService.collectionEvent.findUnique({
       where: {
         id,
       },
@@ -27,7 +23,7 @@ export class CollectionEventsRepository {
   }
 
   getEvents(dateCode: number) {
-    return this.databaseClient.$queryRaw<CurrentEvent[]>`
+    return this.deps.databaseService.$queryRaw<CurrentEvent[]>`
       SELECT
         ce.id,
         ce.title,
@@ -63,7 +59,7 @@ export class CollectionEventsRepository {
   }
 
   getAllEvents() {
-    return this.databaseClient.collectionEvent.findMany({
+    return this.deps.databaseService.collectionEvent.findMany({
       select: {
         id: true,
         title: true,
@@ -88,13 +84,13 @@ export class CollectionEventsRepository {
   }
 
   createEvent(data: CreateCollectionEventInput) {
-    return this.databaseClient.collectionEvent.create({
+    return this.deps.databaseService.collectionEvent.create({
       data,
     });
   }
 
   updateEvent(id: number, data: UpdateCollectionEventInput) {
-    return this.databaseClient.collectionEvent.update({
+    return this.deps.databaseService.collectionEvent.update({
       data,
       where: {
         id,
@@ -103,7 +99,7 @@ export class CollectionEventsRepository {
   }
 
   deleteEvent(id: number) {
-    return this.databaseClient.collectionEvent.delete({
+    return this.deps.databaseService.collectionEvent.delete({
       where: {
         id,
       },

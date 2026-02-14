@@ -37,3 +37,7 @@
 .home_link:hover {
   border-color: var(--color-black);
 }
+
+.image {
+  max-height: 300px;
+}

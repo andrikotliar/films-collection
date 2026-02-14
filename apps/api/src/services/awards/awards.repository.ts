@@ -1,13 +1,10 @@
 import type { Prisma } from '@prisma/client';
-import type { CreateAwardInput, UpdateAwardInput } from '@films-collection/shared';
-import { BaseRepository, type DatabaseClient, type Deps } from '~/shared';
+import type { CreateAwardInput, NominationInput, UpdateAwardInput } from '@films-collection/shared';
+import { BaseRepository, type Deps } from '~/shared';
 
 export class AwardsRepository extends BaseRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
+  constructor(private readonly deps: Deps<'databaseService'>) {
     super(deps.databaseService);
-    this.databaseClient = deps.databaseService;
   }
 
   getById(id: number, shouldIncludeNominations = false) {
@@ -25,7 +22,7 @@ export class AwardsRepository extends BaseRepository {
       };
     }
 
-    return this.databaseClient.award.findUnique({
+    return this.deps.databaseService.award.findUnique({
       select,
       where: {
         id,
@@ -34,7 +31,7 @@ export class AwardsRepository extends BaseRepository {
   }
 
   getBaseData(awardId: number) {
-    return this.databaseClient.award.findUnique({
+    return this.deps.databaseService.award.findUnique({
       where: {
         id: awardId,
       },
@@ -47,16 +44,19 @@ export class AwardsRepository extends BaseRepository {
   }
 
   getBaseDataList() {
-    return this.databaseClient.award.findMany({
+    return this.deps.databaseService.award.findMany({
       select: {
         id: true,
         title: true,
+      },
+      orderBy: {
+        title: 'asc',
       },
     });
   }
 
   getListOptions() {
-    return this.databaseClient.award.findMany({
+    return this.deps.databaseService.award.findMany({
       select: {
         id: true,
         title: true,
@@ -68,7 +68,7 @@ export class AwardsRepository extends BaseRepository {
   }
 
   getNominationsByAward(awardId: number) {
-    return this.databaseClient.nomination.findMany({
+    return this.deps.databaseService.nomination.findMany({
       select: {
         id: true,
         title: true,
@@ -97,13 +97,13 @@ export class AwardsRepository extends BaseRepository {
       };
     }
 
-    return this.databaseClient.award.create({
+    return this.deps.databaseService.award.create({
       data,
     });
   }
 
   updateAward(id: number, input: Omit<UpdateAwardInput, 'nominations'>) {
-    return this.databaseClient.award.update({
+    return this.deps.databaseService.award.update({
       where: {
         id,
       },
@@ -112,13 +112,13 @@ export class AwardsRepository extends BaseRepository {
   }
 
   createManyNominations(inputs: Prisma.NominationUncheckedCreateInput[]) {
-    return this.databaseClient.nomination.createMany({
+    return this.deps.databaseService.nomination.createMany({
       data: inputs,
     });
   }
 
   updateNomination(id: number, input: Prisma.NominationUpdateInput) {
-    return this.databaseClient.nomination.update({
+    return this.deps.databaseService.nomination.update({
       where: {
         id,
       },
@@ -127,7 +127,7 @@ export class AwardsRepository extends BaseRepository {
   }
 
   deleteAward(id: number) {
-    return this.databaseClient.award.delete({
+    return this.deps.databaseService.award.delete({
       where: {
         id,
       },
@@ -135,7 +135,7 @@ export class AwardsRepository extends BaseRepository {
   }
 
   deleteNominations(ids: number[]) {
-    return this.databaseClient.nomination.deleteMany({
+    return this.deps.databaseService.nomination.deleteMany({
       where: {
         id: {
           in: ids,
@@ -145,11 +145,21 @@ export class AwardsRepository extends BaseRepository {
   }
 
   getAwardNominationIds(awardId: number) {
-    return this.databaseClient.nomination.findMany({
+    return this.deps.databaseService.nomination.findMany({
       select: {
         id: true,
       },
       where: {
+        awardId,
+      },
+    });
+  }
+
+  createNomination(awardId: number, data: NominationInput) {
+    return this.deps.databaseService.nomination.create({
+      data: {
+        title: data.title,
+        shouldIncludeActor: data.shouldIncludeActor,
         awardId,
       },
     });

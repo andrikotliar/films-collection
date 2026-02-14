@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
-import { getAwardQueryOptions, getMixedId, isNewItem, Panel } from '~/shared';
+import { getAwardQueryOptions, getMixedId, Panel } from '~/shared';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
@@ -9,9 +9,7 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
-    if (!isNewItem(params.id)) {
-      await queryClient.ensureQueryData(getAwardQueryOptions(+params.id));
-    }
+    await queryClient.ensureQueryData(getAwardQueryOptions(getMixedId(params.id)));
   },
   component: PageContainer,
 });
