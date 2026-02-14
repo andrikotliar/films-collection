@@ -29,8 +29,8 @@ export default defineConfig({
       manifest: {
         name: 'Films Collection',
         short_name: 'Films',
-        background_color: '#0088cc',
-        theme_color: '#0088cc',
+        background_color: '#fff',
+        theme_color: '#fff',
         display: 'standalone',
         icons: [
           {
