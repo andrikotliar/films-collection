@@ -5,17 +5,13 @@ import {
   type SearchPersonQuery,
   type UpdatePersonInput,
 } from '@films-collection/shared';
-import { type DatabaseClient, type Deps } from '~/shared';
+import { type Deps } from '~/shared';
 
 export class PeopleRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   findPersonById(personId: number) {
-    return this.databaseClient.person.findUnique({
+    return this.deps.databaseService.person.findUnique({
       where: {
         id: personId,
       },
@@ -23,7 +19,7 @@ export class PeopleRepository {
   }
 
   getList(options: Prisma.PersonFindManyArgs) {
-    return this.databaseClient.person.findMany({
+    return this.deps.databaseService.person.findMany({
       select: {
         id: true,
         name: true,
@@ -37,13 +33,13 @@ export class PeopleRepository {
   }
 
   count(filters?: Prisma.PersonWhereInput) {
-    return this.databaseClient.person.count({
+    return this.deps.databaseService.person.count({
       where: filters,
     });
   }
 
   createPerson(input: CreatePersonInput) {
-    return this.databaseClient.person.create({
+    return this.deps.databaseService.person.create({
       data: input,
     });
   }
@@ -66,7 +62,7 @@ export class PeopleRepository {
       whereClause.selected = true;
     }
 
-    const queryResult = await this.databaseClient.person.findMany({
+    const queryResult = await this.deps.databaseService.person.findMany({
       select: {
         id: true,
         name: true,
@@ -79,7 +75,7 @@ export class PeopleRepository {
     });
 
     if (selected) {
-      const selectedPeople = await this.databaseClient.person.findMany({
+      const selectedPeople = await this.deps.databaseService.person.findMany({
         select: {
           id: true,
           name: true,
@@ -98,7 +94,7 @@ export class PeopleRepository {
   }
 
   update(id: number, input: UpdatePersonInput) {
-    return this.databaseClient.person.update({
+    return this.deps.databaseService.person.update({
       where: {
         id,
       },
@@ -107,7 +103,7 @@ export class PeopleRepository {
   }
 
   delete(id: number) {
-    return this.databaseClient.person.delete({
+    return this.deps.databaseService.person.delete({
       where: {
         id,
       },
@@ -115,7 +111,7 @@ export class PeopleRepository {
   }
 
   getSelected() {
-    return this.databaseClient.person.findMany({
+    return this.deps.databaseService.person.findMany({
       select: {
         id: true,
         name: true,

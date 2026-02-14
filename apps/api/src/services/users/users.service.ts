@@ -1,27 +1,22 @@
 import { hash } from 'bcrypt';
 import type { User } from '@prisma/client';
 import { HASH_SALT_ROUNDS, type Deps } from '~/shared';
-import type { UsersRepository } from '~/services/users/users.repository';
 
 export class UsersService {
-  private readonly usersRepository: UsersRepository;
-
-  constructor(deps: Deps<'usersRepository'>) {
-    this.usersRepository = deps.usersRepository;
-  }
+  constructor(private readonly deps: Deps<'usersRepository'>) {}
 
   getUser(userId: number) {
-    return this.usersRepository.findById(userId);
+    return this.deps.usersRepository.findById(userId);
   }
 
   async getUserByUsername(username: string) {
-    return this.usersRepository.findByUsernameWithPassword(username);
+    return this.deps.usersRepository.findByUsernameWithPassword(username);
   }
 
   async createUser(userInput: Pick<User, 'username' | 'password'>) {
     const passwordHash = await hash(userInput.password, HASH_SALT_ROUNDS);
 
-    const user = await this.usersRepository.create({
+    const user = await this.deps.usersRepository.create({
       username: userInput.username,
       password: passwordHash,
     });
@@ -33,7 +28,7 @@ export class UsersService {
   }
 
   async setRefreshToken({ id, refreshToken }: Pick<User, 'id' | 'refreshToken'>) {
-    return this.usersRepository.updateById(id, {
+    return this.deps.usersRepository.updateById(id, {
       refreshToken,
     });
   }

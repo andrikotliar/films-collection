@@ -1,33 +1,28 @@
 import { buildListOptions, type Deps } from '~/shared';
-import type { CountriesRepository } from './countries.repository';
 import type { CountryInput } from '@films-collection/shared';
 
 export class CountriesService {
-  private readonly countriesRepository: CountriesRepository;
-
-  constructor(deps: Deps<'countriesRepository'>) {
-    this.countriesRepository = deps.countriesRepository;
-  }
+  constructor(private readonly deps: Deps<'countriesRepository'>) {}
 
   async getListOptions() {
-    const countries = await this.countriesRepository.getAll();
+    const countries = await this.deps.countriesRepository.getAll();
 
     return buildListOptions(countries);
   }
 
   getBaseDataList() {
-    return this.countriesRepository.getAll();
+    return this.deps.countriesRepository.getAll();
   }
 
   createCountry(input: CountryInput) {
-    return this.countriesRepository.create(input);
+    return this.deps.countriesRepository.create(input);
   }
 
   deleteCountry(id: number) {
-    return this.countriesRepository.delete(id);
+    return this.deps.countriesRepository.delete(id);
   }
 
   updateCountry(id: number, input: CountryInput) {
-    return this.countriesRepository.update(id, input);
+    return this.deps.countriesRepository.update(id, input);
   }
 }

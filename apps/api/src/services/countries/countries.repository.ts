@@ -1,15 +1,11 @@
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 import type { CountryInput } from '@films-collection/shared';
 
 export class CountriesRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   getAll() {
-    return this.databaseClient.country.findMany({
+    return this.deps.databaseService.country.findMany({
       select: {
         id: true,
         title: true,
@@ -21,17 +17,17 @@ export class CountriesRepository {
   }
 
   create(input: CountryInput) {
-    return this.databaseClient.country.create({
+    return this.deps.databaseService.country.create({
       data: input,
     });
   }
 
   delete(id: number) {
-    return this.databaseClient.country.delete({ where: { id } });
+    return this.deps.databaseService.country.delete({ where: { id } });
   }
 
   update(id: number, input: CountryInput) {
-    return this.databaseClient.country.update({
+    return this.deps.databaseService.country.update({
       where: {
         id,
       },

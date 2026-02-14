@@ -1,41 +1,37 @@
 import { buildListOptions, type Deps } from '~/shared';
-import type { CollectionsRepository } from './collections.repository';
+
 import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
 
 export class CollectionsService {
-  private readonly collectionsRepository: CollectionsRepository;
-
-  constructor(deps: Deps<'collectionsRepository'>) {
-    this.collectionsRepository = deps.collectionsRepository;
-  }
+  constructor(private readonly deps: Deps<'collectionsRepository'>) {}
 
   async getCollectionById(id: number) {
-    return this.collectionsRepository.getCollectionById(id);
+    return this.deps.collectionsRepository.getCollectionById(id);
   }
 
   async getListOptions() {
-    const collections = await this.collectionsRepository.getAll();
+    const collections = await this.deps.collectionsRepository.getAll();
 
     return buildListOptions(collections);
   }
 
   async getGeneralDataList() {
-    return this.collectionsRepository.getAll();
+    return this.deps.collectionsRepository.getAll();
   }
 
   createCollection(input: CreateCollectionInput) {
-    return this.collectionsRepository.create(input);
+    return this.deps.collectionsRepository.create(input);
   }
 
   deleteCollection(id: number) {
-    return this.collectionsRepository.delete(id);
+    return this.deps.collectionsRepository.delete(id);
   }
 
   updateCollection(id: number, input: UpdateCollectionInput) {
-    return this.collectionsRepository.update(id, input);
+    return this.deps.collectionsRepository.update(id, input);
   }
 
   countFilmsByCollection(id: number) {
-    return this.collectionsRepository.countFilmsByCollection(id);
+    return this.deps.collectionsRepository.countFilmsByCollection(id);
   }
 }

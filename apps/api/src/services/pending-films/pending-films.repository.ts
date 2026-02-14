@@ -1,17 +1,13 @@
 import type { PendingFilm, Prisma } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 
 export class PendingFilmsRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   async getListAndCount(args: Prisma.PendingFilmFindManyArgs) {
-    const list = await this.databaseClient.pendingFilm.findMany(args);
+    const list = await this.deps.databaseService.pendingFilm.findMany(args);
 
-    const total = await this.databaseClient.pendingFilm.count({
+    const total = await this.deps.databaseService.pendingFilm.count({
       where: args.where,
     });
 
@@ -19,11 +15,11 @@ export class PendingFilmsRepository {
   }
 
   create(data: Pick<PendingFilm, 'title' | 'priority' | 'collectionId' | 'rating'>) {
-    return this.databaseClient.pendingFilm.create({ data });
+    return this.deps.databaseService.pendingFilm.create({ data });
   }
 
   deleteById(id: number) {
-    return this.databaseClient.pendingFilm.delete({
+    return this.deps.databaseService.pendingFilm.delete({
       where: {
         id,
       },
@@ -34,14 +30,14 @@ export class PendingFilmsRepository {
   }
 
   updateById(id: number, data: Partial<PendingFilm>) {
-    return this.databaseClient.pendingFilm.update({
+    return this.deps.databaseService.pendingFilm.update({
       where: { id },
       data,
     });
   }
 
   findPendingFilm(id: number) {
-    return this.databaseClient.pendingFilm.findUnique({
+    return this.deps.databaseService.pendingFilm.findUnique({
       select: {
         id: true,
         collectionId: true,

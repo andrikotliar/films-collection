@@ -1,14 +1,10 @@
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 
 export class ChapterKeysRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   getAll() {
-    return this.databaseClient.filmChapterKey.findMany({
+    return this.deps.databaseService.filmChapterKey.findMany({
       select: {
         key: true,
       },
@@ -16,7 +12,7 @@ export class ChapterKeysRepository {
   }
 
   create(key: string) {
-    return this.databaseClient.filmChapterKey.create({
+    return this.deps.databaseService.filmChapterKey.create({
       data: {
         key,
       },

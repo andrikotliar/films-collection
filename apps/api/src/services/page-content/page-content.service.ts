@@ -1,5 +1,4 @@
 import sanitize from 'sanitize-html';
-import type { PageContentRepository } from './page-content.repository';
 import { type Deps } from '~/shared';
 import {
   ALLOWED_HTML_TAGS,
@@ -11,18 +10,14 @@ import {
 const MAX_WORDS_LIMIT = 30;
 
 export class PageContentService {
-  private readonly pageContentRepository: PageContentRepository;
-
-  constructor(deps: Deps<'pageContentRepository'>) {
-    this.pageContentRepository = deps.pageContentRepository;
-  }
+  constructor(private readonly deps: Deps<'pageContentRepository'>) {}
 
   getPageContent(id: number) {
-    return this.pageContentRepository.getPageContent(id);
+    return this.deps.pageContentRepository.getPageContent(id);
   }
 
   getPageContentByKey(key: string) {
-    return this.pageContentRepository.getPageContentByKey(key);
+    return this.deps.pageContentRepository.getPageContentByKey(key);
   }
 
   createPageContent(input: CreatePageContentInput) {
@@ -31,7 +26,7 @@ export class PageContentService {
       allowedAttributes: {},
     });
 
-    return this.pageContentRepository.createPageContent({
+    return this.deps.pageContentRepository.createPageContent({
       ...input,
       content: sanitizedContent,
     });
@@ -44,17 +39,17 @@ export class PageContentService {
         allowedAttributes: {},
       });
 
-      return this.pageContentRepository.updatePageContent(id, {
+      return this.deps.pageContentRepository.updatePageContent(id, {
         ...input,
         content: sanitizedContent,
       });
     }
 
-    return this.pageContentRepository.updatePageContent(id, input);
+    return this.deps.pageContentRepository.updatePageContent(id, input);
   }
 
   async getList(queries: GetPageContentListQueries) {
-    const data = await this.pageContentRepository.getList(queries);
+    const data = await this.deps.pageContentRepository.getList(queries);
 
     if (!data.list.length) {
       return {
@@ -84,6 +79,6 @@ export class PageContentService {
   }
 
   deletePageContent(id: number) {
-    return this.pageContentRepository.deletePageContent(id);
+    return this.deps.pageContentRepository.deletePageContent(id);
   }
 }

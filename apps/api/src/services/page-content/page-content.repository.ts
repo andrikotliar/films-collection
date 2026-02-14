@@ -1,4 +1,4 @@
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -8,14 +8,10 @@ import {
 } from '@films-collection/shared';
 
 export class PageContentRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   getPageContent(id: number) {
-    return this.databaseClient.pageContent.findUnique({
+    return this.deps.databaseService.pageContent.findUnique({
       select: {
         id: true,
         title: true,
@@ -29,7 +25,7 @@ export class PageContentRepository {
   }
 
   async getList({ pageIndex }: GetPageContentListQueries) {
-    const list = await this.databaseClient.pageContent.findMany({
+    const list = await this.deps.databaseService.pageContent.findMany({
       select: {
         id: true,
         title: true,
@@ -43,7 +39,7 @@ export class PageContentRepository {
       },
     });
 
-    const count = await this.databaseClient.pageContent.count();
+    const count = await this.deps.databaseService.pageContent.count();
 
     return {
       list,
@@ -52,7 +48,7 @@ export class PageContentRepository {
   }
 
   getPageContentByKey(key: string) {
-    return this.databaseClient.pageContent.findFirst({
+    return this.deps.databaseService.pageContent.findFirst({
       select: {
         id: true,
         content: true,
@@ -65,13 +61,13 @@ export class PageContentRepository {
   }
 
   createPageContent(input: CreatePageContentInput) {
-    return this.databaseClient.pageContent.create({
+    return this.deps.databaseService.pageContent.create({
       data: input,
     });
   }
 
   updatePageContent(id: number, input: UpdatePageContentInput) {
-    return this.databaseClient.pageContent.update({
+    return this.deps.databaseService.pageContent.update({
       where: {
         id,
       },
@@ -80,7 +76,7 @@ export class PageContentRepository {
   }
 
   deletePageContent(id: number) {
-    return this.databaseClient.pageContent.delete({
+    return this.deps.databaseService.pageContent.delete({
       where: { id },
     });
   }

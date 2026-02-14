@@ -1,15 +1,11 @@
 import type { User } from '@prisma/client';
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 
 export class UsersRepository {
-  private databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   findById(id: number) {
-    return this.databaseClient.user.findUnique({
+    return this.deps.databaseService.user.findUnique({
       where: {
         id,
       },
@@ -20,7 +16,7 @@ export class UsersRepository {
   }
 
   findByUsernameWithPassword(username: string) {
-    return this.databaseClient.user.findUnique({
+    return this.deps.databaseService.user.findUnique({
       where: {
         username,
       },
@@ -28,13 +24,13 @@ export class UsersRepository {
   }
 
   create(data: Pick<User, 'username' | 'password'>) {
-    return this.databaseClient.user.create({
+    return this.deps.databaseService.user.create({
       data,
     });
   }
 
   updateById(id: number, data: Partial<User>) {
-    return this.databaseClient.user.update({
+    return this.deps.databaseService.user.update({
       where: {
         id,
       },

@@ -1,33 +1,28 @@
 import { buildListOptions, type Deps } from '~/shared';
-import type { GenresRepository } from './genres.repository';
 import type { GenreInput } from '@films-collection/shared';
 
 export class GenresService {
-  private readonly genresRepository: GenresRepository;
-
-  constructor(deps: Deps<'genresRepository'>) {
-    this.genresRepository = deps.genresRepository;
-  }
+  constructor(private readonly deps: Deps<'genresRepository'>) {}
 
   async getListOptions() {
-    const sortedGenres = await this.genresRepository.getAll();
+    const sortedGenres = await this.deps.genresRepository.getAll();
 
     return buildListOptions(sortedGenres);
   }
 
   getBaseListData() {
-    return this.genresRepository.getAll();
+    return this.deps.genresRepository.getAll();
   }
 
   createGenre(input: GenreInput) {
-    return this.genresRepository.create(input);
+    return this.deps.genresRepository.create(input);
   }
 
   deleteGenre(id: number) {
-    return this.genresRepository.delete(id);
+    return this.deps.genresRepository.delete(id);
   }
 
   updateGenre(id: number, input: GenreInput) {
-    return this.genresRepository.update(id, input);
+    return this.deps.genresRepository.update(id, input);
   }
 }

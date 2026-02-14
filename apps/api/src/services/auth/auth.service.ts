@@ -2,20 +2,13 @@ import { compare } from 'bcrypt';
 import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC, type Deps } from '~/shared';
 import type { LoginInput } from '@films-collection/shared';
 import type { JWT } from '@fastify/jwt';
-import type { UsersService } from '~/services/users';
 import type { VerifiedTokenData } from '~/services/auth/types';
 
 export class AuthService {
-  private readonly jwtService: JWT;
-  private readonly usersService: UsersService;
-
-  constructor(deps: Deps<'usersService' | 'jwtService'>) {
-    this.jwtService = deps.jwtService;
-    this.usersService = deps.usersService;
-  }
+  constructor(private readonly deps: Deps<'usersService' | 'jwtService'>) {}
 
   async login({ username, password }: LoginInput) {
-    const user = await this.usersService.getUserByUsername(username);
+    const user = await this.deps.usersService.getUserByUsername(username);
     if (!user) {
       return null;
     }
@@ -36,13 +29,13 @@ export class AuthService {
   }
 
   async refreshTokens(token: string) {
-    const verifiedToken = this.jwtService.verify<VerifiedTokenData>(token);
+    const verifiedToken = this.deps.jwtService.verify<VerifiedTokenData>(token);
 
     if (!verifiedToken) {
       return null;
     }
 
-    const user = await this.usersService.getUser(verifiedToken.id);
+    const user = await this.deps.usersService.getUser(verifiedToken.id);
 
     if (!user) {
       return null;
@@ -70,11 +63,11 @@ export class AuthService {
       return null;
     }
 
-    return this.usersService.setRefreshToken({ id: decodedToken.id, refreshToken: null });
+    return this.deps.usersService.setRefreshToken({ id: decodedToken.id, refreshToken: null });
   }
 
   private createToken(payload: Record<string, unknown>, expTime: number) {
-    return this.jwtService.sign(payload, { expiresIn: expTime });
+    return this.deps.jwtService.sign(payload, { expiresIn: expTime });
   }
 
   private createAuthTokens(userId: number) {

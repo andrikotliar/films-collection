@@ -1,15 +1,11 @@
 import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 
 export class CollectionsRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   getCollectionById(id: number) {
-    return this.databaseClient.collection.findUnique({
+    return this.deps.databaseService.collection.findUnique({
       where: {
         id,
       },
@@ -17,7 +13,7 @@ export class CollectionsRepository {
   }
 
   getAll() {
-    return this.databaseClient.collection.findMany({
+    return this.deps.databaseService.collection.findMany({
       select: {
         id: true,
         title: true,
@@ -30,26 +26,26 @@ export class CollectionsRepository {
   }
 
   create(input: CreateCollectionInput) {
-    return this.databaseClient.collection.create({
+    return this.deps.databaseService.collection.create({
       data: input,
     });
   }
 
   delete(id: number) {
-    return this.databaseClient.collection.delete({
+    return this.deps.databaseService.collection.delete({
       where: { id },
     });
   }
 
   update(id: number, input: UpdateCollectionInput) {
-    return this.databaseClient.collection.update({
+    return this.deps.databaseService.collection.update({
       where: { id },
       data: input,
     });
   }
 
   countFilmsByCollection(collectionId: number) {
-    return this.databaseClient.filmCollection.count({
+    return this.deps.databaseService.filmCollection.count({
       where: {
         collectionId,
       },

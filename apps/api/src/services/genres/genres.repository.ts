@@ -1,15 +1,11 @@
-import type { DatabaseClient, Deps } from '~/shared';
+import type { Deps } from '~/shared';
 import type { GenreInput } from '@films-collection/shared';
 
 export class GenresRepository {
-  private readonly databaseClient: DatabaseClient;
-
-  constructor(deps: Deps<'databaseService'>) {
-    this.databaseClient = deps.databaseService;
-  }
+  constructor(private readonly deps: Deps<'databaseService'>) {}
 
   getAll() {
-    return this.databaseClient.genre.findMany({
+    return this.deps.databaseService.genre.findMany({
       select: { id: true, title: true },
       orderBy: {
         title: 'asc',
@@ -18,19 +14,19 @@ export class GenresRepository {
   }
 
   create(input: GenreInput) {
-    return this.databaseClient.genre.create({
+    return this.deps.databaseService.genre.create({
       data: input,
     });
   }
 
   delete(id: number) {
-    return this.databaseClient.genre.delete({
+    return this.deps.databaseService.genre.delete({
       where: { id },
     });
   }
 
   update(id: number, input: GenreInput) {
-    return this.databaseClient.genre.update({
+    return this.deps.databaseService.genre.update({
       data: input,
       where: {
         id,
