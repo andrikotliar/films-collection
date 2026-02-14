@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
 import { MutationCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { routeTree } from './routeTree.gen';
-import { toaster, NotFound, Toaster, ErrorScreen } from '~/shared';
+import { toaster, NotFound, Toaster, ErrorScreen, Loader } from '~/shared';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -40,6 +40,9 @@ const router = createRouter({
   defaultNotFoundComponent: () => <NotFound />,
   defaultErrorComponent: ({ error }) => {
     return <ErrorScreen error={error} />;
+  },
+  defaultPendingComponent: () => {
+    return <Loader isFullPage />;
   },
   defaultPendingMs: 0,
   defaultPendingMinMs: 0,
