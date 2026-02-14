@@ -186,6 +186,7 @@ model Nomination {
   createdAt          DateTime              @default(now()) @map("created_at")
   updatedAt          DateTime              @updatedAt @map("updated_at")
 
+  @@unique([awardId, title])
   @@map("nominations")
 }
 
