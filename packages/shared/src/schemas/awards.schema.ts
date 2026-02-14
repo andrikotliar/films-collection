@@ -1,6 +1,6 @@
 import z from 'zod';
 
-const NominationInputSchema = z.object({
+export const NominationInputSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
   shouldIncludeActor: z.boolean(),
@@ -35,6 +35,12 @@ export const AwardWithNominationsResponseSchema = z
     nominations: z.array(NominationInputSchema),
   })
   .nullable();
+
+export const NominationResponseSchema = z.object({
+  ...NominationInputSchema.shape,
+  createdAt: z.date(),
+  updatedAt: z.date(),
+});
 
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
 export type NominationInput = z.infer<typeof NominationInputSchema>;

@@ -1,7 +1,7 @@
 import type { Prisma } from '@prisma/client';
 import { buildListOptions, NotFoundException, type Deps } from '~/shared';
 import type { GetByIdParams, GroupedNominations } from './types';
-import type { CreateAwardInput } from '@films-collection/shared';
+import type { CreateAwardInput, NominationInput } from '@films-collection/shared';
 
 const NEW_NOMINATION_ID = -1;
 
@@ -119,5 +119,9 @@ export class AwardsService {
     const [updatedAward] = await this.deps.awardsRepository.transaction(promises);
 
     return updatedAward;
+  }
+
+  createNomination(awardId: number, input: NominationInput) {
+    return this.deps.awardsRepository.createNomination(awardId, input);
   }
 }

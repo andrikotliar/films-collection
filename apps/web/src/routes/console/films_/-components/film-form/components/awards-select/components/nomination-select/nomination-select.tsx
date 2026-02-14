@@ -11,6 +11,7 @@ import {
 import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import { autoDetectShouldIncludeActor } from '~/routes/console/films_/-components/film-form/components/awards-select/helpers';
 
 type NominationSelectProps = {
   index: number;
@@ -41,6 +42,31 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
     },
   });
 
+  const { mutateAsync: createNomination, isPending: isNominationCreating } = useMutation({
+    mutationFn: async (value: string) => {
+      const createdNomination = await api.awards.nominations.create({
+        input: {
+          id: -1,
+          title: value,
+          shouldIncludeActor: autoDetectShouldIncludeActor(value),
+        },
+        params: {
+          id: currentAward.awardId,
+        },
+      });
+
+      return {
+        value: createdNomination.id,
+        label: createdNomination.title,
+      };
+    },
+    meta: {
+      invalidateQueries: [
+        queryKeys.awards.nominations.get({ params: { id: currentAward.awardId } }),
+      ],
+    },
+  });
+
   if (!currentAward.awardId) {
     return null;
   }
@@ -61,7 +87,13 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
 
   return (
     <div className={styles.wrapper}>
-      <Form.Select name={`awards.${index}.nominationId`} options={data} label="Nomination" />
+      <Form.Select
+        name={`awards.${index}.nominationId`}
+        options={data}
+        label="Nomination"
+        onCreateOption={createNomination}
+        isOptionsLoading={isNominationCreating}
+      />
       {shouldShowActorSelect && (
         <Form.AsyncSelect
           name={`awards.${index}.personId`}

@@ -1,5 +1,5 @@
 import type { Prisma } from '@prisma/client';
-import type { CreateAwardInput, UpdateAwardInput } from '@films-collection/shared';
+import type { CreateAwardInput, NominationInput, UpdateAwardInput } from '@films-collection/shared';
 import { BaseRepository, type Deps } from '~/shared';
 
 export class AwardsRepository extends BaseRepository {
@@ -150,6 +150,16 @@ export class AwardsRepository extends BaseRepository {
         id: true,
       },
       where: {
+        awardId,
+      },
+    });
+  }
+
+  createNomination(awardId: number, data: NominationInput) {
+    return this.deps.databaseService.nomination.create({
+      data: {
+        title: data.title,
+        shouldIncludeActor: data.shouldIncludeActor,
         awardId,
       },
     });
