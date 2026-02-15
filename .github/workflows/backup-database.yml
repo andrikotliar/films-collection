@@ -24,7 +24,7 @@ jobs:
       - name: Create backup
         run: |
           TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)
-          BACKUP_FILE="backup_$TIMESTAMP.sql"
+          BACKUP_FILE="backup_$TIMESTAMP.dump"
 
           /usr/lib/postgresql/17/bin/pg_dump "${{ secrets.DB_CONNECTION_STR }}" -F c > $BACKUP_FILE
 
@@ -52,11 +52,9 @@ jobs:
             --bucket "$BUCKET" \
             --prefix "$PREFIX" \
             --query 'Contents[].Key' \
-            --output text > all_files.txt
-
-          while read -r FILE; do
-            if [ "$FILE" != "$PREFIX$BACKUP_FILE" ]; then
-              echo "Deleting old backup: $FILE"
-              aws s3 rm "s3://$BUCKET/$FILE"
-            fi
-          done < all_files.txt
+            --output text | tr '\t' '\n' | while read -r FILE; do
+              if [ "$FILE" != "$PREFIX$BACKUP_FILE" ]; then
+                echo "Deleting old backup: $FILE"
+                aws s3 rm "s3://$BUCKET/$FILE"
+              fi
+          done
