@@ -1,0 +1,54 @@
+name: Weekly DB Backup to S3
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * 0" # Sunday 18:00 UTC
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install PostgreSQL client
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+
+      - name: Create backup
+        run: |
+          TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)
+          BACKUP_FILE="backup_$TIMESTAMP.sql"
+
+          pg_dump "${{ secrets.DB_CONNECTION_STR }}" -F p > $BACKUP_FILE
+
+          gzip $BACKUP_FILE
+          echo "BACKUP_FILE=$BACKUP_FILE.gz" >> $GITHUB_ENV
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+
+      - name: Upload new backup to S3
+        run: |
+          aws s3 cp "$BACKUP_FILE" \
+            "s3://${{ secrets.S3_BUCKET }}/database-backups/$BACKUP_FILE"
+
+      - name: Remove old backups from S3
+        run: |
+          BUCKET=${{ secrets.S3_BUCKET }}
+          PREFIX="database-backups/"
+
+          aws s3api list-objects-v2 \
+            --bucket "$BUCKET" \
+            --prefix "$PREFIX" \
+            --query 'Contents[].Key' \
+            --output text > all_files.txt
+
+          while read -r FILE; do
+            if [ "$FILE" != "$PREFIX$BACKUP_FILE" ]; then
+              echo "Deleting old backup: $FILE"
+              aws s3 rm "s3://$BUCKET/$FILE"
+            fi
+          done < all_files.txt

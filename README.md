@@ -68,12 +68,14 @@ A personal list of films with manually collected data. The app primarily focuses
 
 ### Backup database
 
+```shell
 docker run --rm \
   -v "$PWD:/dump" \
   postgres:17-bookworm \
   pg_dump "postgresql://USER:PASSWORD@HOST:5432/DBNAME" \
   -F c \
   -f /dump/db.dump
+```
 
 ### Restore command
 
