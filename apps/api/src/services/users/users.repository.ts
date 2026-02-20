@@ -1,44 +1,34 @@
-import type { User } from '@prisma/client';
-import type { Deps } from '~/shared';
+import { eq } from 'drizzle-orm';
+import { users } from '~/database/schema';
+import { getFirstValue, type Deps } from '~/shared';
 
 export class UsersRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
-  findById(id: number) {
-    return this.deps.databaseService.user.findUnique({
-      where: {
-        id,
-      },
-      omit: {
-        password: true,
-      },
-    });
+  async findById(id: number) {
+    return getFirstValue(
+      await this.deps.db
+        .select({
+          id: users.id,
+          username: users.username,
+          refreshToken: users.refreshToken,
+        })
+        .from(users)
+        .where(eq(users.id, id))
+        .limit(1),
+    );
   }
 
-  findByUsernameWithPassword(username: string) {
-    return this.deps.databaseService.user.findUnique({
-      where: {
-        username,
-      },
-    });
+  async findByUsernameWithPassword(username: string) {
+    return getFirstValue(
+      await this.deps.db.select().from(users).where(eq(users.username, username)).limit(1),
+    );
   }
 
-  create(data: Pick<User, 'username' | 'password'>) {
-    return this.deps.databaseService.user.create({
-      data,
-    });
-  }
-
-  updateById(id: number, data: Partial<User>) {
-    return this.deps.databaseService.user.update({
-      where: {
-        id,
-      },
-      data,
-      select: {
-        id: true,
-        refreshToken: true,
-      },
+  updateById(id: number, data: Partial<typeof users.$inferInsert>) {
+    return this.deps.db.update(users).set(data).where(eq(users.id, id)).returning({
+      id: users.id,
+      refreshToken: users.refreshToken,
     });
   }
 }
