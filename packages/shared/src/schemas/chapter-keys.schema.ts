@@ -6,8 +6,8 @@ export const CreateChapterKeyInputSchema = z.object({
 
 export const ChapterKeyResponseSchema = z.object({
   key: z.string(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export type CreateChapterKeyInput = z.infer<typeof CreateChapterKeyInputSchema>;

@@ -18,8 +18,8 @@ export const AwardResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
   description: z.string().nullable(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export const AwardsListResponseSchema = z.array(
@@ -38,8 +38,8 @@ export const AwardWithNominationsResponseSchema = z
 
 export const NominationResponseSchema = z.object({
   ...NominationInputSchema.shape,
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;

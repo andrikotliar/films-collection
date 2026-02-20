@@ -23,8 +23,8 @@ export const PageContentResponseSchema = z.object({
   title: z.string(),
   content: z.string(),
   pageKey: z.string(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export const PageContentsListResponseSchema = z.object({

@@ -12,8 +12,8 @@ export const CollectionResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
   description: z.string().nullable(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
   category: z.enum(CollectionCategory),
 });
 

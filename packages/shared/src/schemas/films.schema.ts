@@ -113,8 +113,8 @@ const TrailerSchema = z.object({
   filmId: z.coerce.number(),
   url: z.string(),
   order: z.coerce.number(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 const ChapterSchema = z.object({
@@ -130,7 +130,7 @@ export const FilmResponseSchema = z.object({
   duration: z.coerce.number(),
   description: z.string().nullable(),
   rating: z.coerce.number(),
-  releaseDate: z.date(),
+  releaseDate: z.string(),
   budget: z.coerce.number().nullable(),
   boxOffice: z.coerce.number().nullable(),
   draft: z.boolean(),
@@ -157,7 +157,7 @@ export const FilmResponseSchema = z.object({
     .object({
       episodesTotal: z.coerce.number(),
       seasonsTotal: z.coerce.number(),
-      finishedAt: z.date().nullable(),
+      finishedAt: z.string().nullable(),
     })
     .nullable(),
   castAndCrew: z.array(
