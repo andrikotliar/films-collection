@@ -15,7 +15,7 @@ import { ConfigService } from '~/services/config';
 
 declare module 'fastify' {
   export interface FastifyInstance {
-    databaseService: Database;
+    db: Database;
     container: DiContainer;
   }
 }
