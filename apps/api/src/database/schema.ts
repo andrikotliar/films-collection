@@ -217,7 +217,9 @@ export const filmTrailers = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
     url: text().notNull(),
   },
   (table) => [
@@ -244,7 +246,9 @@ export const countries = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('countries_title_key').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -263,7 +267,9 @@ export const filmAwardNominations = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('film_award_nominations_award_id_film_id_nomination_id_key').using(
@@ -308,7 +314,9 @@ export const filmChapterKeys = pgTable('film_chapter_keys', {
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
     .default(sql`CURRENT_TIMESTAMP`)
     .notNull(),
-  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .notNull()
+    .default(sql`CURRENT_TIMESTAMP`),
 });
 
 export const filmsCountries = pgTable(
@@ -320,7 +328,9 @@ export const filmsCountries = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('films_countries_film_id_country_id_key').using(
@@ -354,7 +364,9 @@ export const filmsGenres = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('films_genres_film_id_genre_id_key').using(
@@ -388,7 +400,9 @@ export const filmsStudios = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('films_studios_film_id_studio_id_key').using(
@@ -421,7 +435,9 @@ export const genres = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('genres_title_key').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -433,12 +449,16 @@ export const nominations = pgTable(
   {
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
-    awardId: integer('award_id').notNull(),
+    awardId: integer('award_id')
+      .notNull()
+      .references(() => awards.id),
     shouldIncludeActor: boolean('should_include_actor').default(false).notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('nominations_award_id_title_key').using(
@@ -467,7 +487,9 @@ export const seriesExtensions = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('series_extensions_film_id_key').using(
@@ -492,7 +514,9 @@ export const studios = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('studios_title_key').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -509,7 +533,9 @@ export const users = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     uniqueIndex('users_username_key').using(
@@ -531,7 +557,9 @@ export const filmsPeople = pgTable(
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .notNull()
+      .default(sql`CURRENT_TIMESTAMP`),
   },
   (table) => [
     foreignKey({
@@ -557,7 +585,9 @@ export const people = pgTable('people', {
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
     .default(sql`CURRENT_TIMESTAMP`)
     .notNull(),
-  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' }).notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .notNull()
+    .default(sql`CURRENT_TIMESTAMP`),
   selected: boolean().default(false).notNull(),
 });
 
