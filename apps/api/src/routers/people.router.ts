@@ -83,9 +83,9 @@ export default createRouter([
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('peopleService').deletePerson(request.params.id);
+      await app.container.resolve('peopleService').deletePerson(request.params.id);
 
-      return { data: { id: data.id } };
+      return { data: { id: request.params.id } };
     },
   }),
 ]);

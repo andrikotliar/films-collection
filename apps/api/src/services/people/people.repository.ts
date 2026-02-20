@@ -1,96 +1,99 @@
-import type { Prisma } from '@prisma/client';
 import {
+  getSkipValue,
   PAGE_LIMITS,
   type CreatePersonInput,
+  type GetPeopleListQuery,
   type SearchPersonQuery,
   type UpdatePersonInput,
 } from '@films-collection/shared';
-import { type Deps } from '~/shared';
+import { and, asc, count, eq, exists, ilike, inArray, notInArray, type SQL } from 'drizzle-orm';
+import { filmsPeople, people } from '~/database/schema';
+import { getFirstValue, type Deps } from '~/shared';
 
 export class PeopleRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
-  findPersonById(personId: number) {
-    return this.deps.databaseService.person.findUnique({
-      where: {
-        id: personId,
-      },
-    });
+  async findPersonById(personId: number) {
+    return getFirstValue(await this.deps.db.select().from(people).where(eq(people.id, personId)));
   }
 
-  getList(options: Prisma.PersonFindManyArgs) {
-    return this.deps.databaseService.person.findMany({
-      select: {
-        id: true,
-        name: true,
-        selected: true,
-      },
-      orderBy: {
-        name: 'asc',
-      },
-      ...options,
-    });
+  getList(queries: GetPeopleListQuery) {
+    const filters = this.getListFilters(queries);
+
+    const baseQuery = this.deps.db
+      .select({
+        id: people.id,
+        name: people.name,
+        selected: people.selected,
+      })
+      .from(people)
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex))
+      .orderBy(asc(people.name));
+
+    if (filters.length) {
+      return baseQuery.where(and(...filters));
+    }
+
+    return baseQuery;
   }
 
-  count(filters?: Prisma.PersonWhereInput) {
-    return this.deps.databaseService.person.count({
-      where: filters,
-    });
+  async count(queries?: GetPeopleListQuery) {
+    const filters = this.getListFilters(queries);
+
+    const baseQuery = this.deps.db
+      .select({
+        count: count(),
+      })
+      .from(people);
+
+    if (filters.length) {
+      const result = await baseQuery.where(and(...filters));
+
+      return result[0].count;
+    }
+
+    const result = await baseQuery;
+
+    return result[0].count;
   }
 
-  createPerson(input: CreatePersonInput) {
-    return this.deps.databaseService.person.create({
-      data: input,
-    });
+  async createPerson(input: CreatePersonInput) {
+    return getFirstValue(await this.deps.db.insert(people).values(input).returning());
   }
 
   async searchPerson({ q, selected }: SearchPersonQuery) {
-    const whereClause: Prisma.PersonWhereInput = {};
+    const filters: SQL[] = [];
 
     if (selected) {
-      whereClause.id = {
-        notIn: selected,
-      };
+      filters.push(notInArray(people.id, selected));
     }
 
     if (q) {
-      whereClause.name = {
-        contains: q.trim(),
-        mode: 'insensitive',
-      };
+      filters.push(ilike(people.name, q.trim()));
     } else {
-      whereClause.selected = true;
+      filters.push(eq(people.selected, true));
     }
 
-    const queryResult = await this.deps.databaseService.person.findMany({
-      select: {
-        id: true,
-        name: true,
-      },
-      where: whereClause,
-      take: PAGE_LIMITS.default,
-      orderBy: [
-        {
-          name: 'asc',
-        },
-        {
-          id: 'asc',
-        },
-      ],
-    });
+    const queryResult = await this.deps.db
+      .select({
+        id: people.id,
+        name: people.name,
+      })
+      .from(people)
+      .where(and(...filters))
+      .limit(PAGE_LIMITS.default)
+      .orderBy(asc(people.name), asc(people.id));
 
     if (selected) {
-      const selectedPeople = await this.deps.databaseService.person.findMany({
-        select: {
-          id: true,
-          name: true,
-        },
-        where: {
-          id: {
-            in: selected,
-          },
-        },
-      });
+      const selectedPeople = await this.deps.db
+        .select({
+          id: people.id,
+          name: people.name,
+        })
+        .from(people)
+        .where(inArray(people.id, selected))
+        .orderBy(asc(people.name), asc(people.id));
 
       return [...queryResult, ...selectedPeople];
     }
@@ -98,37 +101,48 @@ export class PeopleRepository {
     return queryResult;
   }
 
-  update(id: number, input: UpdatePersonInput) {
-    return this.deps.databaseService.person.update({
-      where: {
-        id,
-      },
-      data: input,
-    });
+  async update(id: number, input: UpdatePersonInput) {
+    return getFirstValue(
+      await this.deps.db.update(people).set(input).where(eq(people.id, id)).returning(),
+    );
   }
 
-  delete(id: number) {
-    return this.deps.databaseService.person.delete({
-      where: {
-        id,
-      },
-    });
+  async delete(id: number) {
+    await this.deps.db.delete(people).where(eq(people.id, id));
   }
 
   getSelected() {
-    return this.deps.databaseService.person.findMany({
-      select: {
-        id: true,
-        name: true,
-      },
-      where: {
-        selected: true,
-      },
-      orderBy: {
-        films: {
-          _count: 'asc',
-        },
-      },
-    });
+    return this.deps.db
+      .select({ id: people.id, name: people.name })
+      .from(people)
+      .where(eq(people.selected, true))
+      .orderBy(asc(people.name));
+  }
+
+  private getListFilters(queries?: GetPeopleListQuery): SQL[] {
+    if (!queries) {
+      return [];
+    }
+
+    const filters: SQL[] = [];
+
+    if (queries.q) {
+      filters.push(ilike(people.name, queries.q));
+    }
+
+    if (queries.selected) {
+      filters.push(eq(people.selected, true));
+    }
+
+    if (queries.role) {
+      const subquery = this.deps.db
+        .select()
+        .from(filmsPeople)
+        .where(and(eq(filmsPeople.personId, people.id), eq(filmsPeople.role, queries.role)));
+
+      filters.push(exists(subquery));
+    }
+
+    return filters;
   }
 }
