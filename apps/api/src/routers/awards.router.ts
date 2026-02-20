@@ -92,9 +92,7 @@ export default createRouter([
       response: AwardWithNominationsResponseSchema,
     },
     async handler({ request, app }) {
-      const data = await app.container.resolve('awardsService').getAwardById(request.params.id, {
-        includeNominations: true,
-      });
+      const data = await app.container.resolve('awardsService').getAwardById(request.params.id);
 
       return { data };
     },
@@ -127,11 +125,11 @@ export default createRouter([
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('awardsService').deleteAward(request.params.id);
+      await app.container.resolve('awardsService').deleteAward(request.params.id);
 
       return {
         data: {
-          id: data.id,
+          id: request.params.id,
         },
       };
     },
