@@ -9,7 +9,7 @@ export type ServiceInstances = {
 };
 
 export type ExtendedServiceInstances = ServiceInstances & {
-  databaseService: Database;
+  db: Database;
   jwtService: JWT;
 };
 
