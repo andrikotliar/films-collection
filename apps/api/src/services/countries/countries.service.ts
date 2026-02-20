@@ -1,4 +1,4 @@
-import { buildListOptions, type Deps } from '~/shared';
+import { buildListOptions, throwIfNotFound, type Deps } from '~/shared';
 import type { CountryInput } from '@films-collection/shared';
 
 export class CountriesService {
@@ -15,7 +15,7 @@ export class CountriesService {
   }
 
   createCountry(input: CountryInput) {
-    return this.deps.countriesRepository.create(input);
+    return throwIfNotFound(this.deps.countriesRepository.create(input));
   }
 
   deleteCountry(id: number) {
@@ -23,6 +23,6 @@ export class CountriesService {
   }
 
   updateCountry(id: number, input: CountryInput) {
-    return this.deps.countriesRepository.update(id, input);
+    return throwIfNotFound(this.deps.countriesRepository.update(id, input));
   }
 }
