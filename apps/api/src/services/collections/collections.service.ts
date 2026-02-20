@@ -1,4 +1,4 @@
-import { buildListOptions, type Deps } from '~/shared';
+import { buildListOptions, throwIfNotFound, type Deps } from '~/shared';
 
 import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
 
@@ -20,7 +20,7 @@ export class CollectionsService {
   }
 
   createCollection(input: CreateCollectionInput) {
-    return this.deps.collectionsRepository.create(input);
+    return throwIfNotFound(this.deps.collectionsRepository.create(input));
   }
 
   deleteCollection(id: number) {
