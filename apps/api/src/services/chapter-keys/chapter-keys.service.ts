@@ -1,4 +1,4 @@
-import type { Deps } from '~/shared';
+import { type Deps, throwIfNotFound } from '~/shared';
 import type { CreateChapterKeyInput, ListOption } from '@films-collection/shared';
 
 export class ChapterKeysService {
@@ -14,6 +14,6 @@ export class ChapterKeysService {
   }
 
   addKey({ key }: CreateChapterKeyInput) {
-    return this.deps.chapterKeysRepository.create(key);
+    return throwIfNotFound(this.deps.chapterKeysRepository.create(key));
   }
 }
