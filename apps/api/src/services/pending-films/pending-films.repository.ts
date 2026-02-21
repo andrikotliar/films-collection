@@ -1,53 +1,99 @@
-import type { PendingFilm, Prisma } from '@prisma/client';
-import type { Deps } from '~/shared';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CreatePendingFilmInput,
+  type GetPendingFilmsListQuery,
+  type SortingOrder,
+  type UpdatePendingFilmInput,
+} from '@films-collection/shared';
+import { and, asc, count, desc, eq, ilike, inArray, type AnyColumn, type SQL } from 'drizzle-orm';
+import { pendingFilms } from '~/database/schema';
+import { getFirstValue, type Deps } from '~/shared';
 
 export class PendingFilmsRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
-  async getListAndCount(args: Prisma.PendingFilmFindManyArgs) {
-    const list = await this.deps.databaseService.pendingFilm.findMany(args);
+  async getListAndCount(queries: GetPendingFilmsListQuery) {
+    const filters = this.getListFilters(queries);
+    const andFilter = and(...filters);
+    const sorting = this.getOrderParams(queries.orderKey, queries.order);
 
-    const total = await this.deps.databaseService.pendingFilm.count({
-      where: args.where,
-    });
+    const list = await this.deps.db
+      .select()
+      .from(pendingFilms)
+      .where(andFilter)
+      .orderBy(sorting)
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
 
-    return { list, total };
+    const countResult = await this.deps.db
+      .select({ count: count() })
+      .from(pendingFilms)
+      .where(andFilter);
+
+    return { list, total: countResult[0].count };
   }
 
-  create(data: Pick<PendingFilm, 'title' | 'priority' | 'collectionId' | 'rating'>) {
-    return this.deps.databaseService.pendingFilm.create({ data });
+  async create(data: CreatePendingFilmInput) {
+    return getFirstValue(await this.deps.db.insert(pendingFilms).values(data).returning());
   }
 
-  deleteById(id: number) {
-    return this.deps.databaseService.pendingFilm.delete({
-      where: {
-        id,
-      },
-      select: {
-        id: true,
-      },
-    });
+  async deleteById(id: number) {
+    await this.deps.db.delete(pendingFilms).where(eq(pendingFilms.id, id));
   }
 
-  updateById(id: number, data: Partial<PendingFilm>) {
-    return this.deps.databaseService.pendingFilm.update({
-      where: { id },
-      data,
-    });
+  async updateById(id: number, data: UpdatePendingFilmInput) {
+    return getFirstValue(
+      await this.deps.db.update(pendingFilms).set(data).where(eq(pendingFilms.id, id)).returning(),
+    );
   }
 
-  findPendingFilm(id: number) {
-    return this.deps.databaseService.pendingFilm.findUnique({
-      select: {
-        id: true,
-        collectionId: true,
-        title: true,
-        rating: true,
-        priority: true,
-      },
-      where: {
-        id,
-      },
-    });
+  async findPendingFilm(id: number) {
+    return getFirstValue(
+      await this.deps.db
+        .select({
+          id: pendingFilms.id,
+          collectionId: pendingFilms.collectionId,
+          title: pendingFilms.title,
+          rating: pendingFilms.rating,
+          priority: pendingFilms.priority,
+        })
+        .from(pendingFilms)
+        .where(eq(pendingFilms.id, id)),
+    );
+  }
+
+  private getOrderParams(key: string = 'createdAt', direction: SortingOrder = 'desc') {
+    const orderingFunction: Record<SortingOrder, (column: AnyColumn) => SQL> = {
+      asc,
+      desc,
+    };
+
+    const fn = orderingFunction[direction];
+
+    switch (key) {
+      case 'title':
+        return fn(pendingFilms.title);
+      case 'createdAt':
+        return fn(pendingFilms.createdAt);
+      case 'priority':
+        return fn(pendingFilms.priority);
+      default:
+        return desc(pendingFilms.createdAt);
+    }
+  }
+
+  private getListFilters({ q, priorities }: GetPendingFilmsListQuery) {
+    const filters: SQL[] = [];
+
+    if (q) {
+      filters.push(ilike(pendingFilms.title, q.trim()));
+    }
+
+    if (priorities?.length) {
+      filters.push(inArray(pendingFilms.priority, priorities));
+    }
+
+    return filters;
   }
 }
