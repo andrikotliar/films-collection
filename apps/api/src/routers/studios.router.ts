@@ -62,10 +62,10 @@ export default createRouter([
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('studiosService').deleteStudio(request.params.id);
+      await app.container.resolve('studiosService').deleteStudio(request.params.id);
 
       return {
-        data: { id: data.id },
+        data: { id: request.params.id },
       };
     },
   }),
