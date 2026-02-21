@@ -104,11 +104,9 @@ export default createRouter([
     },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('pageContentService')
-        .deletePageContent(request.params.id);
+      await app.container.resolve('pageContentService').deletePageContent(request.params.id);
 
-      return { data: { id: data.id } };
+      return { data: { id: request.params.id } };
     },
   }),
 ]);

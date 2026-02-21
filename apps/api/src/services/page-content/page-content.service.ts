@@ -1,5 +1,5 @@
 import sanitize from 'sanitize-html';
-import { type Deps } from '~/shared';
+import { throwIfNotFound, type Deps } from '~/shared';
 import {
   ALLOWED_HTML_TAGS,
   type CreatePageContentInput,
@@ -13,11 +13,11 @@ export class PageContentService {
   constructor(private readonly deps: Deps<'pageContentRepository'>) {}
 
   getPageContent(id: number) {
-    return this.deps.pageContentRepository.getPageContent(id);
+    return throwIfNotFound(this.deps.pageContentRepository.getPageContent(id));
   }
 
   getPageContentByKey(key: string) {
-    return this.deps.pageContentRepository.getPageContentByKey(key);
+    return throwIfNotFound(this.deps.pageContentRepository.getPageContentByKey(key));
   }
 
   createPageContent(input: CreatePageContentInput) {
@@ -26,10 +26,12 @@ export class PageContentService {
       allowedAttributes: {},
     });
 
-    return this.deps.pageContentRepository.createPageContent({
-      ...input,
-      content: sanitizedContent,
-    });
+    return throwIfNotFound(
+      this.deps.pageContentRepository.createPageContent({
+        ...input,
+        content: sanitizedContent,
+      }),
+    );
   }
 
   updatePageContent(id: number, input: UpdatePageContentInput) {
@@ -39,13 +41,15 @@ export class PageContentService {
         allowedAttributes: {},
       });
 
-      return this.deps.pageContentRepository.updatePageContent(id, {
-        ...input,
-        content: sanitizedContent,
-      });
+      return throwIfNotFound(
+        this.deps.pageContentRepository.updatePageContent(id, {
+          ...input,
+          content: sanitizedContent,
+        }),
+      );
     }
 
-    return this.deps.pageContentRepository.updatePageContent(id, input);
+    return throwIfNotFound(this.deps.pageContentRepository.updatePageContent(id, input));
   }
 
   async getList(queries: GetPageContentListQueries) {
@@ -78,7 +82,7 @@ export class PageContentService {
     };
   }
 
-  deletePageContent(id: number) {
-    return this.deps.pageContentRepository.deletePageContent(id);
+  async deletePageContent(id: number) {
+    await this.deps.pageContentRepository.deletePageContent(id);
   }
 }
