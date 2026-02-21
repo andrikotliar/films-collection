@@ -6,7 +6,7 @@ import { services } from '~/services';
 export const diContainerDecorator = async (app: FastifyInstance) => {
   const container = new DiContainer();
 
-  container.setInstance('databaseService', app.databaseService);
+  container.setInstance('db', app.db);
   container.setInstance('jwtService', app.jwt);
 
   container.registerServices(services);
