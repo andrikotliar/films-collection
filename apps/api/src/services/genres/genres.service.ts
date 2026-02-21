@@ -1,4 +1,4 @@
-import { buildListOptions, type Deps } from '~/shared';
+import { buildListOptions, throwIfNotFound, type Deps } from '~/shared';
 import type { GenreInput } from '@films-collection/shared';
 
 export class GenresService {
@@ -15,7 +15,7 @@ export class GenresService {
   }
 
   createGenre(input: GenreInput) {
-    return this.deps.genresRepository.create(input);
+    return throwIfNotFound(this.deps.genresRepository.create(input));
   }
 
   deleteGenre(id: number) {
@@ -23,6 +23,6 @@ export class GenresService {
   }
 
   updateGenre(id: number, input: GenreInput) {
-    return this.deps.genresRepository.update(id, input);
+    return throwIfNotFound(this.deps.genresRepository.update(id, input));
   }
 }
