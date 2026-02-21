@@ -20,13 +20,10 @@ export const CollectionEventResponseSchema = z.object({
 
 export const CollectionEventsListResponseSchema = z.array(
   z.object({
-    ...CollectionEventResponseSchema.pick({
-      id: true,
-      title: true,
-      yearFrom: true,
-      collectionId: true,
+    ...CollectionEventResponseSchema.omit({
+      createdAt: true,
+      updatedAt: true,
     }).shape,
-    poster: z.string().nullable(),
   }),
 );
 

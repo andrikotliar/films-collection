@@ -43,7 +43,7 @@ export class CollectionEventsService {
     const events = await this.deps.collectionEventsRepository.getAllEvents();
 
     const eventsWithCount = events.map(async (event) => {
-      const count = await this.deps.collectionsService.countFilmsByCollection(event.collection.id);
+      const count = await this.deps.collectionsService.countFilmsByCollection(event.collectionId);
 
       return {
         ...event,

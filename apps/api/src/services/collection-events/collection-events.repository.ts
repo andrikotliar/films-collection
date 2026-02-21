@@ -45,30 +45,18 @@ export class CollectionEventsRepository {
   }
 
   getAllEvents() {
-    return this.deps.db.query.collectionEvents.findMany({
-      columns: {
-        id: true,
-        title: true,
-        startDateCode: true,
-        endDateCode: true,
-        yearFrom: true,
-      },
-      with: {
-        film: {
-          columns: {
-            id: true,
-            poster: true,
-          },
-        },
-        collection: {
-          columns: {
-            id: true,
-            title: true,
-          },
-        },
-      },
-      orderBy: asc(collectionEvents.startDateCode),
-    });
+    return this.deps.db
+      .select({
+        id: collectionEvents.id,
+        title: collectionEvents.title,
+        yearFrom: collectionEvents.yearFrom,
+        startDateCode: collectionEvents.startDateCode,
+        endDateCode: collectionEvents.endDateCode,
+        titleFilmId: collectionEvents.titleFilmId,
+        collectionId: collectionEvents.collectionId,
+      })
+      .from(collectionEvents)
+      .orderBy(asc(collectionEvents.startDateCode));
   }
 
   createEvent(data: CreateCollectionEventInput) {
