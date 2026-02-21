@@ -13,17 +13,17 @@ export class CountriesRepository {
       .orderBy(asc(countries.title));
   }
 
-  async create(input: CountryInput) {
-    return getFirstValue(await this.deps.db.insert(countries).values(input).returning());
+  create(input: CountryInput) {
+    return getFirstValue(this.deps.db.insert(countries).values(input).returning());
   }
 
   async delete(id: number) {
     await this.deps.db.delete(countries).where(eq(countries.id, id));
   }
 
-  async update(id: number, input: CountryInput) {
+  update(id: number, input: CountryInput) {
     return getFirstValue(
-      await this.deps.db.update(countries).set(input).where(eq(countries.id, id)).returning(),
+      this.deps.db.update(countries).set(input).where(eq(countries.id, id)).returning(),
     );
   }
 }

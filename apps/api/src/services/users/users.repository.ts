@@ -5,9 +5,9 @@ import { getFirstValue, type Deps } from '~/shared';
 export class UsersRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  async findById(id: number) {
+  findById(id: number) {
     return getFirstValue(
-      await this.deps.db
+      this.deps.db
         .select({
           id: users.id,
           username: users.username,
@@ -19,9 +19,9 @@ export class UsersRepository {
     );
   }
 
-  async findByUsernameWithPassword(username: string) {
+  findByUsernameWithPassword(username: string) {
     return getFirstValue(
-      await this.deps.db.select().from(users).where(eq(users.username, username)).limit(1),
+      this.deps.db.select().from(users).where(eq(users.username, username)).limit(1),
     );
   }
 

@@ -23,9 +23,9 @@ export class AwardsRepository {
     });
   }
 
-  async getBaseData(awardId: number) {
+  getBaseData(awardId: number) {
     return getFirstValue(
-      await this.deps.db
+      this.deps.db
         .select({
           id: awards.id,
           title: awards.title,

@@ -9,6 +9,6 @@ export class ChapterKeysRepository {
   }
 
   async create(key: string) {
-    return getFirstValue(await this.deps.db.insert(filmChapterKeys).values({ key }).returning());
+    return getFirstValue(this.deps.db.insert(filmChapterKeys).values({ key }).returning());
   }
 }

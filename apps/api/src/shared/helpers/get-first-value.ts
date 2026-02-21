@@ -1,5 +1,6 @@
 import { nullable } from '~/shared/helpers/nullable';
 
-export const getFirstValue = <T extends unknown[]>(value: T): T[number] | null => {
-  return nullable(value[0]);
+export const getFirstValue = async <T>(promise: Promise<T[]>): Promise<T | null> => {
+  const result = await promise;
+  return nullable(result[0]);
 };

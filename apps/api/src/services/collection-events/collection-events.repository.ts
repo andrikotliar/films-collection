@@ -11,7 +11,7 @@ export class CollectionEventsRepository {
 
   async getEventById(id: number) {
     return getFirstValue(
-      await this.deps.db.select().from(collectionEvents).where(eq(collectionEvents.id, id)),
+      this.deps.db.select().from(collectionEvents).where(eq(collectionEvents.id, id)),
     );
   }
 

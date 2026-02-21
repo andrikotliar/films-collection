@@ -34,23 +34,23 @@ export class PendingFilmsRepository {
     return { list, total: countResult[0].count };
   }
 
-  async create(data: CreatePendingFilmInput) {
-    return getFirstValue(await this.deps.db.insert(pendingFilms).values(data).returning());
+  create(data: CreatePendingFilmInput) {
+    return getFirstValue(this.deps.db.insert(pendingFilms).values(data).returning());
   }
 
   async deleteById(id: number) {
     await this.deps.db.delete(pendingFilms).where(eq(pendingFilms.id, id));
   }
 
-  async updateById(id: number, data: UpdatePendingFilmInput) {
+  updateById(id: number, data: UpdatePendingFilmInput) {
     return getFirstValue(
-      await this.deps.db.update(pendingFilms).set(data).where(eq(pendingFilms.id, id)).returning(),
+      this.deps.db.update(pendingFilms).set(data).where(eq(pendingFilms.id, id)).returning(),
     );
   }
 
-  async findPendingFilm(id: number) {
+  findPendingFilm(id: number) {
     return getFirstValue(
-      await this.deps.db
+      this.deps.db
         .select({
           id: pendingFilms.id,
           collectionId: pendingFilms.collectionId,

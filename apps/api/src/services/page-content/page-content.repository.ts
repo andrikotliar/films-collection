@@ -8,10 +8,10 @@ import {
 } from '@films-collection/shared';
 
 export class PageContentRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   getPageContent(id: number) {
-    return this.deps.databaseService.pageContent.findUnique({
+    return this.deps.db.pageContent.findUnique({
       select: {
         id: true,
         title: true,
@@ -25,7 +25,7 @@ export class PageContentRepository {
   }
 
   async getList({ pageIndex }: GetPageContentListQueries) {
-    const list = await this.deps.databaseService.pageContent.findMany({
+    const list = await this.deps.db.pageContent.findMany({
       select: {
         id: true,
         title: true,
@@ -39,7 +39,7 @@ export class PageContentRepository {
       },
     });
 
-    const count = await this.deps.databaseService.pageContent.count();
+    const count = await this.deps.db.pageContent.count();
 
     return {
       list,
@@ -48,7 +48,7 @@ export class PageContentRepository {
   }
 
   getPageContentByKey(key: string) {
-    return this.deps.databaseService.pageContent.findFirst({
+    return this.deps.db.pageContent.findFirst({
       select: {
         id: true,
         content: true,
@@ -61,13 +61,13 @@ export class PageContentRepository {
   }
 
   createPageContent(input: CreatePageContentInput) {
-    return this.deps.databaseService.pageContent.create({
+    return this.deps.db.pageContent.create({
       data: input,
     });
   }
 
   updatePageContent(id: number, input: UpdatePageContentInput) {
-    return this.deps.databaseService.pageContent.update({
+    return this.deps.db.pageContent.update({
       where: {
         id,
       },
@@ -76,7 +76,7 @@ export class PageContentRepository {
   }
 
   deletePageContent(id: number) {
-    return this.deps.databaseService.pageContent.delete({
+    return this.deps.db.pageContent.delete({
       where: { id },
     });
   }

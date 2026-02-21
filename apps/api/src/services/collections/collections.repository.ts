@@ -6,10 +6,8 @@ import { getFirstValue, type Deps } from '~/shared';
 export class CollectionsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  async getCollectionById(id: number) {
-    return getFirstValue(
-      await this.deps.db.select().from(collections).where(eq(collections.id, id)),
-    );
+  getCollectionById(id: number) {
+    return getFirstValue(this.deps.db.select().from(collections).where(eq(collections.id, id)));
   }
 
   getAll() {
@@ -23,8 +21,8 @@ export class CollectionsRepository {
       .orderBy(asc(collections.title));
   }
 
-  async create(input: CreateCollectionInput) {
-    return getFirstValue(await this.deps.db.insert(collections).values(input).returning());
+  create(input: CreateCollectionInput) {
+    return getFirstValue(this.deps.db.insert(collections).values(input).returning());
   }
 
   async delete(id: number) {

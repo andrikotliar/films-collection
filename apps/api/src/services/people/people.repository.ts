@@ -14,7 +14,7 @@ export class PeopleRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
   async findPersonById(personId: number) {
-    return getFirstValue(await this.deps.db.select().from(people).where(eq(people.id, personId)));
+    return getFirstValue(this.deps.db.select().from(people).where(eq(people.id, personId)));
   }
 
   getList(queries: GetPeopleListQuery) {
@@ -59,7 +59,7 @@ export class PeopleRepository {
   }
 
   async createPerson(input: CreatePersonInput) {
-    return getFirstValue(await this.deps.db.insert(people).values(input).returning());
+    return getFirstValue(this.deps.db.insert(people).values(input).returning());
   }
 
   async searchPerson({ q, selected }: SearchPersonQuery) {
@@ -103,7 +103,7 @@ export class PeopleRepository {
 
   async update(id: number, input: UpdatePersonInput) {
     return getFirstValue(
-      await this.deps.db.update(people).set(input).where(eq(people.id, id)).returning(),
+      this.deps.db.update(people).set(input).where(eq(people.id, id)).returning(),
     );
   }
 
