@@ -1,6 +1,6 @@
 import { type Deps } from '~/shared';
-import { CollectionCategory, PersonRole, TitleStyle, TitleType } from '@prisma/client';
 import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
+import { collectionCategory, personRole, titleStyle, titleType } from '~/database/schema';
 
 export class InitialDataService {
   constructor(
@@ -28,10 +28,10 @@ export class InitialDataService {
         this.deps.peopleService.getSelectedListOptions(),
       ]);
 
-    const types = convertEnumValuesToOption(TitleType);
-    const styles = convertEnumValuesToOption(TitleStyle);
-    const roles = convertEnumValuesToOption(PersonRole);
-    const collectionCategories = convertEnumValuesToOption(CollectionCategory);
+    const types = convertEnumValuesToOption(titleType.enumValues);
+    const styles = convertEnumValuesToOption(titleStyle.enumValues);
+    const roles = convertEnumValuesToOption(personRole.enumValues);
+    const collectionCategories = convertEnumValuesToOption(collectionCategory.enumValues);
 
     const events = await this.deps.collectionEventsService.findTodayEvents();
 
