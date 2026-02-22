@@ -96,4 +96,5 @@ docker run --rm \
 
 1. Update `apps/api/src/database/schema.ts` file.
 2. Navigate to the `apps/api` folder.
-3. Run `pnpm db:migrate`.
+3. Run `pnpm db:migration:gen` to create migration file from the latest changes.
+4. Run `pnpm db:migration:apply` to apply changes to the database.
