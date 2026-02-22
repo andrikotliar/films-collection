@@ -34,7 +34,7 @@ export const filmsRelations = relations(films, ({ one, many }) => ({
   genres: many(filmsGenres),
   studios: many(filmsStudios),
   seriesExtensions: many(seriesExtensions),
-  filmsPeople: many(filmsPeople),
+  castAndCrew: many(filmsPeople),
 }));
 
 export const filmChapterKeysRelations = relations(filmChapterKeys, ({ many }) => ({
