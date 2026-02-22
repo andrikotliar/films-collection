@@ -7,7 +7,7 @@
     "build": "pnpm --filter ./packages/shared run build && pnpm --filter ./packages/fetch-wrapper run build && pnpm --filter ./apps/api run build && pnpm api:generate && pnpm --filter ./apps/web run build",
     "build:container": "docker compose -f docker-compose.yml up -d --build",
     "db:start": "docker compose up database -d",
-    "dev": "pnpm api:generate && pnpm db:start && pnpm db:init && pnpm run -r --parallel --aggregate-output dev",
+    "dev": "pnpm api:generate && pnpm run -r --parallel --aggregate-output dev",
     "start:prod": "cd apps/api && pnpm db:migration:apply && pnpm start"
   },
   "devDependencies": {
