@@ -1,16 +1,12 @@
-import type { Prisma } from '@prisma/client';
 import type { GetAdminListQuery } from '@films-collection/shared';
+import { ilike, isNull, type SQL } from 'drizzle-orm';
+import { films } from '~/database/schema';
 
-export const mapAdminListFilters = (plainFilters: GetAdminListQuery) => {
-  const filters: Prisma.FilmWhereInput = {
-    deletedAt: null,
-  };
+export const mapAdminListFilters = ({ q }: GetAdminListQuery): SQL[] => {
+  const filters: SQL[] = [isNull(films.deletedAt)];
 
-  if (plainFilters.q) {
-    filters.title = {
-      contains: plainFilters.q,
-      mode: 'insensitive',
-    };
+  if (q) {
+    filters.push(ilike(films.title, q));
   }
 
   return filters;

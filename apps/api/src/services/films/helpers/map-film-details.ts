@@ -1,18 +1,22 @@
+import type { FilmResponseSchema } from '@films-collection/shared';
+import type z from 'zod';
 import type {
-  Person,
-  FilmPerson,
-  PersonRole,
-  FilmAwardNomination,
   Award,
-  Nomination,
-  Film,
-  Genre,
-  Studio,
-  Country,
   Collection,
-  SeriesExtension,
+  Country,
+  Film,
+  FilmAwardNomination,
+  FilmPerson,
   FilmTrailer,
-} from '@prisma/client';
+  Genre,
+  Nomination,
+  Person,
+  PersonRole,
+  SeriesExtension,
+  Studio,
+} from '~/database/schema';
+
+type PickBaseData<T extends { id: number; title: string }> = Pick<T, 'id' | 'title'>;
 
 type GroupedPerson = Pick<Person, 'id' | 'name'> & Pick<FilmPerson, 'comment' | 'details'>;
 
@@ -35,10 +39,10 @@ export type GroupedAwards = {
 };
 
 type ExtendedFilm = Omit<Film, 'createdAt' | 'updatedAt' | 'style' | 'deletedAt'> & {
-  genres: Array<{ genre: Genre }>;
-  studios: Array<{ studio: Studio }>;
-  countries: Array<{ country: Country }>;
-  collections: Array<{ collection: Pick<Collection, 'id' | 'title'> }>;
+  genres: Array<{ genre: PickBaseData<Genre> }>;
+  studios: Array<{ studio: PickBaseData<Studio> }>;
+  countries: Array<{ country: PickBaseData<Country> }>;
+  collections: Array<{ collection: PickBaseData<Collection> }>;
   castAndCrew: Array<
     Pick<FilmPerson, 'role' | 'comment' | 'details'> & {
       person: Pick<Person, 'id' | 'name'>;
@@ -51,7 +55,7 @@ type ExtendedFilm = Omit<Film, 'createdAt' | 'updatedAt' | 'style' | 'deletedAt'
       person: Pick<Person, 'id' | 'name'> | null;
     }
   >;
-  seriesExtension: Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'> | null;
+  seriesExtensions: Array<Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'>>;
   trailers: FilmTrailer[];
 };
 
@@ -78,7 +82,7 @@ const sortGroupedPeople = (castAndCrew: GroupedPeople) => {
 export const mapFilmDetails = (
   film: ExtendedFilm,
   chapters: Array<Pick<Film, 'id' | 'title' | 'poster' | 'chapterOrder'>> | null,
-) => {
+): z.infer<typeof FilmResponseSchema> => {
   const castAndCrew = film.castAndCrew.reduce((result, { role, details, comment, person }) => {
     if (!result[role]) {
       result[role] = { role, people: [] };
@@ -112,7 +116,6 @@ export const mapFilmDetails = (
 
   return {
     ...film,
-    description: film.overview,
     budget: film.budget ? Number(film.budget) : null,
     boxOffice: film.boxOffice ? Number(film.boxOffice) : null,
     genres: mapNestedRelations(film.genres, 'genre'),
@@ -121,6 +124,7 @@ export const mapFilmDetails = (
     collections: mapNestedRelations(film.collections, 'collection'),
     castAndCrew: sortGroupedPeople(castAndCrew),
     awards: Object.values(awards),
+    seriesExtension: film.seriesExtensions[0],
     chapters: chapters ?? [],
   };
 };

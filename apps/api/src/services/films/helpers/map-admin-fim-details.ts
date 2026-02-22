@@ -9,7 +9,7 @@ import type {
   FilmStudio,
   FilmTrailer,
   SeriesExtension,
-} from '@prisma/client';
+} from '~/database/schema';
 
 type Timestamps = 'createdAt' | 'updatedAt';
 
@@ -21,7 +21,7 @@ type EditableFilm = Omit<Film, Timestamps | 'deletedAt' | 'id'> & {
   trailers: Pick<FilmTrailer, 'order' | 'url'>[];
   castAndCrew: Omit<FilmPerson, 'filmId' | Timestamps | 'id'>[];
   awards: Omit<FilmAwardNomination, Timestamps | 'filmId' | 'id'>[];
-  seriesExtension: SeriesExtension | null;
+  seriesExtensions: SeriesExtension[];
 };
 
 const mapInnerId = <T extends Record<string, number>>(entities: T[], key: keyof T): number[] => {
@@ -35,21 +35,17 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     countries: mapInnerId(film.countries, 'countryId'),
     studios: mapInnerId(film.studios, 'studioId'),
     collections: mapInnerId(film.collections, 'collectionId'),
-    releaseDate: film.releaseDate.toISOString().split('T')[0],
-    budget: Number(film.budget),
-    boxOffice: Number(film.boxOffice),
+    releaseDate: film.releaseDate.split('T')[0],
     awards: film.awards.map((award) => ({
       ...award,
       personId: award.actorId,
     })),
-    description: film.overview,
-    isDraft: film.draft,
-    seriesExtension: film.seriesExtension
+    seriesExtension: film.seriesExtensions.length
       ? {
-          episodesTotal: film.seriesExtension.episodesTotal,
-          seasonsTotal: film.seriesExtension.seasonsTotal,
-          finishedAt: film.seriesExtension.finishedAt
-            ? film.seriesExtension.finishedAt.toISOString().split('T')[0]
+          episodesTotal: film.seriesExtensions[0].episodesTotal,
+          seasonsTotal: film.seriesExtensions[0].seasonsTotal,
+          finishedAt: film.seriesExtensions[0].finishedAt
+            ? film.seriesExtensions[0].finishedAt.split('T')[0]
             : null,
         }
       : null,

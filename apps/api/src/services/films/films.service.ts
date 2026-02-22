@@ -1,21 +1,13 @@
-import { NotFoundException, type Deps } from '~/shared';
+import { type Deps, throwIfNotFound } from '~/shared';
 import {
   type GetAdminListQuery,
   type GetFilmsListQuery,
   type GetFilmOptionsQuery,
-  PAGE_LIMITS,
-  getSkipValue,
   convertEnumValueToLabel,
   type CreateFilmInput,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import {
-  mapAdminListFilters,
-  mapFilmDetails,
-  mapListFilters,
-  mapAdminFilmDetails,
-} from './helpers';
-import type { Prisma } from '@prisma/client';
+import { mapFilmDetails, mapAdminFilmDetails } from './helpers';
 
 export class FilmsService {
   constructor(
@@ -29,19 +21,11 @@ export class FilmsService {
   ) {}
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
-    const { pageIndex } = queries;
-
-    const parsedFilters = mapListFilters(queries);
-
-    const data = await this.deps.filmsRepository.findAndCount(
-      parsedFilters,
-      PAGE_LIMITS.filmsList,
-      getSkipValue('filmsList', pageIndex),
-    );
+    const data = await this.deps.filmsRepository.findAndCount(queries);
 
     const additionalInfo = await this.populateAdditionalData(queries);
 
-    return { films: data.list, total: data.total, additionalInfo };
+    return { list: data.list, total: data.total, additionalInfo };
   }
 
   async getFilmDetails(id: number) {
@@ -72,16 +56,8 @@ export class FilmsService {
     }));
   }
 
-  getAdminList(query: GetAdminListQuery) {
-    const { pageIndex = 0, order = 'desc', orderKey = 'createdAt' } = query;
-
-    const filters = mapAdminListFilters(query);
-    const skip = getSkipValue('default', pageIndex);
-
-    return this.deps.filmsRepository.findAndCountAdmin(filters, {
-      skip,
-      orderBy: { [orderKey]: order },
-    });
+  getAdminList(queries: GetAdminListQuery) {
+    return this.deps.filmsRepository.findAndCountAdmin(queries);
   }
 
   getRelatedChapters(chapterKey: string) {
@@ -93,11 +69,7 @@ export class FilmsService {
   }
 
   async getEditableFilm(id: number) {
-    const film = await this.deps.filmsRepository.getEditableFilm(id);
-
-    if (!film) {
-      throw new NotFoundException();
-    }
+    const film = await throwIfNotFound(this.deps.filmsRepository.getEditableFilm(id));
 
     return mapAdminFilmDetails(film);
   }
@@ -105,13 +77,13 @@ export class FilmsService {
   async createFilm(input: CreateFilmInput) {
     const { pendingFilmId, ...payload } = input;
 
-    const newFilm = await this.deps.filmsRepository.create(payload);
+    const newFilmId = await this.deps.filmsRepository.create(payload);
 
     if (pendingFilmId) {
       await this.deps.pendingFilmsService.deletePendingFilm(pendingFilmId);
     }
 
-    return await this.getFilmDetails(newFilm.id);
+    return await this.getFilmDetails(newFilmId);
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
@@ -172,84 +144,13 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    const deleteFilm = await this.deps.filmsRepository.delete(id, new Date());
+    await this.deps.filmsRepository.delete(id, new Date().toISOString());
 
-    return { id: deleteFilm.id };
+    return { id };
   }
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
-    const {
-      trailers,
-      studios,
-      countries,
-      collections,
-      castAndCrew,
-      awards,
-      genres,
-      description,
-      seriesExtension,
-      releaseDate,
-      ...updatedParams
-    } = input;
-
-    const params: Prisma.FilmUpdateInput = {
-      ...updatedParams,
-    };
-
-    if (description) {
-      params.overview = description;
-    }
-
-    if (releaseDate) {
-      params.releaseDate = new Date(releaseDate).toISOString();
-    }
-
-    const updateFilmPromise = this.deps.filmsRepository.updateFilm(filmId, params);
-
-    const promises: Prisma.PrismaPromise<any>[] = [updateFilmPromise];
-
-    if (awards) {
-      const promise = await this.deps.filmsRepository.updateFilmAwards(filmId, awards);
-      promises.push(promise());
-    }
-
-    if (trailers) {
-      const promise = await this.deps.filmsRepository.updateFilmTrailers(filmId, trailers);
-      promises.push(promise());
-    }
-
-    if (studios) {
-      const promise = await this.deps.filmsRepository.updateFilmStudios(filmId, studios);
-      promises.push(promise());
-    }
-
-    if (countries) {
-      const promise = await this.deps.filmsRepository.updateFilmCountries(filmId, countries);
-      promises.push(promise());
-    }
-
-    if (collections) {
-      const promise = await this.deps.filmsRepository.updateFilmCollections(filmId, collections);
-      promises.push(promise());
-    }
-
-    if (castAndCrew) {
-      const promise = await this.deps.filmsRepository.updateFilmCastAndCrew(filmId, castAndCrew);
-      promises.push(promise());
-    }
-
-    if (genres) {
-      const promise = await this.deps.filmsRepository.updateFilmGenres(filmId, genres);
-      promises.push(promise());
-    }
-
-    if (seriesExtension) {
-      const promise = this.deps.filmsRepository.updateSeriesExtension(filmId, seriesExtension);
-      promises.push(promise);
-    }
-
-    await this.deps.filmsRepository.transaction(promises);
-
+    await this.deps.filmsRepository.updateFilm(filmId, input);
     return this.getFilmDetails(filmId);
   }
 }

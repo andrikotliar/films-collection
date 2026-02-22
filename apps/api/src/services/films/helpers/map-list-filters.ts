@@ -1,23 +1,29 @@
-import type { Prisma } from '@prisma/client';
 import type { GetFilmsListQuery } from '@films-collection/shared';
+import { and, between, eq, exists, gte, inArray, isNull, lte, type SQL } from 'drizzle-orm';
+import type { PgColumn } from 'drizzle-orm/pg-core';
+import {
+  filmAwardNominations,
+  films,
+  filmsCollections,
+  filmsCountries,
+  filmsGenres,
+  filmsPeople,
+  filmsStudios,
+  seriesExtensions,
+} from '~/database/schema';
+import type { Database } from '~/plugins';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
-const getMoneyRangeFilter = (value: number) => {
+const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   if (value < MONEY_RANGE_MILLIONS) {
-    return {
-      lte: value + MONEY_RANGE_MILLIONS,
-      gte: 0,
-    };
+    return between(column, 0, value + MONEY_RANGE_MILLIONS);
   }
 
-  return {
-    lte: value + MONEY_RANGE_MILLIONS,
-    gte: value - MONEY_RANGE_MILLIONS,
-  };
+  return between(column, value - MONEY_RANGE_MILLIONS, value + MONEY_RANGE_MILLIONS);
 };
 
-export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
+export const mapListFilters = (plainFilters: GetFilmsListQuery, db: Database): SQL[] => {
   const {
     genreIds,
     collectionId,
@@ -38,102 +44,154 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery) => {
     boxOffice,
   } = plainFilters;
 
-  const filters: Prisma.FilmWhereInput = {
-    draft: false,
-    deletedAt: null,
-  };
+  const filters: SQL[] = [eq(films.draft, false), isNull(films.deletedAt)];
 
-  if (startDate || endDate) {
-    filters.releaseDate = {
-      gte: startDate && new Date(startDate),
-      lte: endDate && new Date(endDate),
-    };
+  if (startDate) {
+    filters.push(gte(films.releaseDate, startDate));
+  }
+
+  if (endDate) {
+    filters.push(lte(films.releaseDate, endDate));
   }
 
   if (type) {
-    filters.type = type;
+    filters.push(eq(films.type, type));
   }
 
   if (style) {
-    filters.style = style;
+    filters.push(eq(films.style, style));
   }
 
   if (genreIds) {
-    filters.genres = {
-      some: {
-        genreId: {
-          in: genreIds,
-        },
-      },
-    };
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(filmsGenres)
+          .where(and(eq(films.id, filmsGenres.filmId), inArray(filmsGenres.genreId, genreIds))),
+      ),
+    );
   }
 
   if (studioIds) {
-    filters.studios = {
-      some: {
-        studioId: {
-          in: studioIds,
-        },
-      },
-    };
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(filmsStudios)
+          .where(and(eq(films.id, filmsStudios.filmId), inArray(filmsStudios.studioId, studioIds))),
+      ),
+    );
   }
 
   if (countryIds) {
-    filters.countries = {
-      some: {
-        countryId: {
-          in: countryIds,
-        },
-      },
-    };
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(filmsStudios)
+          .where(
+            and(eq(films.id, filmsCountries.filmId), inArray(filmsCountries.countryId, countryIds)),
+          ),
+      ),
+    );
   }
 
   if (collectionId) {
-    filters.collections = {
-      some: {
-        collectionId: collectionId,
-      },
-    };
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(filmsCollections)
+          .where(
+            and(
+              eq(films.id, filmsCollections.filmId),
+              eq(filmsCollections.collectionId, collectionId),
+            ),
+          ),
+      ),
+    );
   }
 
   if (rating) {
-    filters.rating = rating;
+    filters.push(eq(films.rating, rating));
   }
 
   if (duration) {
-    filters.duration = duration;
+    filters.push(eq(films.duration, duration));
   }
 
-  if (seasonsTotal || episodesTotal) {
-    filters.seriesExtension = {
-      seasonsTotal,
-      episodesTotal,
-    };
+  if (seasonsTotal) {
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(seriesExtensions)
+          .where(
+            and(
+              eq(films.id, seriesExtensions.filmId),
+              eq(seriesExtensions.seasonsTotal, seasonsTotal),
+            ),
+          ),
+      ),
+    );
+  }
+
+  if (episodesTotal) {
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(seriesExtensions)
+          .where(
+            and(
+              eq(films.id, seriesExtensions.filmId),
+              eq(seriesExtensions.episodesTotal, episodesTotal),
+            ),
+          ),
+      ),
+    );
   }
 
   if (personId && personRole) {
-    filters.castAndCrew = {
-      some: {
-        role: personRole,
-        personId,
-      },
-    };
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(filmsPeople)
+          .where(
+            and(
+              eq(filmsPeople.filmId, films.id),
+              eq(filmsPeople.personId, personId),
+              eq(filmsPeople.role, personRole),
+            ),
+          ),
+      ),
+    );
   }
 
   if (awardId) {
-    filters.awards = {
-      some: {
-        awardId,
-      },
-    };
+    filters.push(
+      exists(
+        db
+          .select()
+          .from(filmAwardNominations)
+          .where(
+            and(
+              eq(films.id, filmAwardNominations.filmId),
+              eq(filmAwardNominations.awardId, awardId),
+            ),
+          ),
+      ),
+    );
   }
 
   if (budget) {
-    filters.budget = getMoneyRangeFilter(budget);
+    filters.push(getMoneyRangeFilter(films.budget, budget));
   }
 
   if (boxOffice) {
-    filters.boxOffice = getMoneyRangeFilter(boxOffice);
+    filters.push(getMoneyRangeFilter(films.boxOffice, boxOffice));
   }
 
   return filters;
