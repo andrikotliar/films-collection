@@ -3,12 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "api:generate": "pnpm --filter ./packages/shared run build && pnpm --filter ./apps/api run api:generate",
     "build": "pnpm --filter ./packages/shared run build && pnpm --filter ./packages/fetch-wrapper run build && pnpm --filter ./apps/api run build && pnpm api:generate && pnpm --filter ./apps/web run build",
     "build:container": "docker compose -f docker-compose.yml up -d --build",
-    "db:start": "docker compose --env-file=apps/api/.env up database -d",
-    "api:generate": "pnpm --filter ./packages/shared run build && pnpm --filter ./apps/api run api:generate",
+    "db:start": "docker compose up database -d",
     "dev": "pnpm api:generate && pnpm db:start && pnpm db:init && pnpm run -r --parallel --aggregate-output dev",
-    "start:prod": "cd apps/api && pnpm db:deploy && pnpm start"
+    "start:prod": "cd apps/api && db:migration:apply && pnpm start"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

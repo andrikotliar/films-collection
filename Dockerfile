@@ -10,9 +10,6 @@ RUN pnpm install --frozen-lockfile
 
 RUN pnpm --filter ./packages/shared build
 RUN pnpm --filter ./packages/fetch-wrapper build
-
-RUN pnpm db:client:generate
-
 RUN pnpm --filter ./apps/api build
 
 RUN pnpm api:generate
@@ -32,7 +29,6 @@ COPY packages/shared/package.json ./packages/shared/package.json
 RUN pnpm install --prod --filter api...
 
 COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
-COPY --from=builder /app/apps/api/prisma ./apps/api/prisma
 COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
 COPY --from=builder /app/apps/api/dist ./apps/api/dist
 COPY --from=builder /app/node_modules ./node_modules
