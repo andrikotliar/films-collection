@@ -27,5 +27,17 @@ export const CollectionEventsListResponseSchema = z.array(
   }),
 );
 
+export const CollectionCurrentEventsListResponseSchema = z.array(
+  z.object({
+    ...CollectionEventResponseSchema.pick({
+      id: true,
+      title: true,
+      yearFrom: true,
+      collectionId: true,
+    }).shape,
+    poster: z.string().nullable(),
+  }),
+);
+
 export type CreateCollectionEventInput = z.infer<typeof CreateCollectionEventInputSchema>;
 export type UpdateCollectionEventInput = z.infer<typeof UpdateCollectionEventInputSchema>;

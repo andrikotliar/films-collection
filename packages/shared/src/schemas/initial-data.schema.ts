@@ -1,5 +1,5 @@
 import z from 'zod';
-import { CollectionEventsListResponseSchema } from '~/schemas/collection-events.schema';
+import { CollectionCurrentEventsListResponseSchema } from '~/schemas/collection-events.schema';
 import { buildListOptionSchema } from '~/schemas/list-options.schema';
 
 export const InitialDataResponseSchema = z.object({
@@ -15,7 +15,7 @@ export const InitialDataResponseSchema = z.object({
     collectionCategories: buildListOptionSchema(z.string()),
     selectedPeople: buildListOptionSchema(z.coerce.number()),
   }),
-  events: CollectionEventsListResponseSchema,
+  events: CollectionCurrentEventsListResponseSchema,
   filmsTotal: z.coerce.number(),
 });
 

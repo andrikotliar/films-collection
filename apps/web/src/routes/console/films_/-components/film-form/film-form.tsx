@@ -187,12 +187,12 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       <Form.DatePicker name="releaseDate" label="Release Date" />
       <Form.TextInput name="budget" label="Budget" type="number" min="0" />
       <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
-      <Form.TextEditor name="description" label="Description" />
+      <Form.TextEditor name="overview" label="Description" />
       <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
       <AwardsSelect awardOptions={initialOptions.options.awards} />
       <TrailersSelect />
       <ChaptersSelect />
-      <Form.Checkbox name="isDraft" type="checkbox" label="Draft" />
+      <Form.Checkbox name="draft" type="checkbox" label="Draft" />
       <FilmValuesWatcher id={values.id} />
     </Form>
   );

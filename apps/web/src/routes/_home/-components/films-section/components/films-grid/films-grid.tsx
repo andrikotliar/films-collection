@@ -3,7 +3,7 @@ import styles from './films-grid.module.css';
 import { Link } from '@tanstack/react-router';
 
 type FilmsGridProps = {
-  films: ApiResponse<typeof api.films.list>['films'];
+  films: ApiResponse<typeof api.films.list>['list'];
 };
 
 export const FilmsGrid = ({ films }: FilmsGridProps) => {

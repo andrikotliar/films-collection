@@ -72,7 +72,7 @@ function PageContainer() {
       </AddItemLink>
       <AdminFilmsTools />
       <List
-        items={data.films}
+        items={data.list}
         onDelete={handleDeleteFilm}
         onEdit={handleEditFilm}
         isDeletingInProgress={isPending}
