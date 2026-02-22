@@ -1,9 +1,9 @@
-import type { FastifyInstance } from 'fastify';
+import type { FastifyError, FastifyReply, FastifyRequest } from 'fastify';
 import { ResponseCode } from '../enums';
 import { UploadingError } from '~/shared/exceptions';
 import { DrizzleQueryError } from 'drizzle-orm';
 
-export const errorHandler: FastifyInstance['errorHandler'] = (error, _, reply) => {
+export const errorHandler = (error: FastifyError, _: FastifyRequest, reply: FastifyReply) => {
   // eslint-disable-next-line
   console.error(error);
 
