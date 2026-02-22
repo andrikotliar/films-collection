@@ -24,7 +24,7 @@ A personal list of films with manually collected data. The app primarily focuses
 - PostgreSQL
 - TypeScript
 - Docker
-- Prisma
+- Drizzle
 - Zod
 
 ## Development server
@@ -94,7 +94,6 @@ docker run --rm \
 
 ## Migrations
 
-1. Update `apps/api/prisma/schema.prisma` file.
+1. Update `apps/api/src/database/schema.ts` file.
 2. Navigate to the `apps/api` folder.
-3. Run `pnpm db:migrate`. It will prompt to create a migration file and apply migrations to the database.
-4. Run `pnpm db:client:generate` to update prisma client and prisma types.
+3. Run `pnpm db:migrate`.
