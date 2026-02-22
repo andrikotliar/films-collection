@@ -1,5 +1,5 @@
 import type { GetFilmsListQuery } from '@films-collection/shared';
-import { and, between, eq, exists, gte, inArray, isNull, lte, type SQL } from 'drizzle-orm';
+import { and, between, eq, exists, gte, inArray, isNull, lte, sql, type SQL } from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
 import {
   filmAwardNominations,
@@ -44,7 +44,7 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery, db: Database): S
     boxOffice,
   } = plainFilters;
 
-  const filters: SQL[] = [eq(films.draft, false), isNull(films.deletedAt)];
+  const filters: SQL[] = [eq(films.draft, sql`false`), isNull(films.deletedAt)];
 
   if (startDate) {
     filters.push(gte(films.releaseDate, startDate));
