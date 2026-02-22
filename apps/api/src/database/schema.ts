@@ -603,3 +603,21 @@ export const pageContent = pgTable('page_content', {
     .notNull(),
   pageKey: text('page_key').notNull(),
 });
+
+export type Film = typeof films.$inferSelect;
+export type Genre = typeof genres.$inferSelect;
+export type Person = typeof people.$inferSelect;
+export type FilmPerson = typeof filmsPeople.$inferSelect;
+export type PersonRole = (typeof personRole.enumValues)[number];
+export type FilmAwardNomination = typeof filmAwardNominations.$inferSelect;
+export type Award = typeof awards.$inferSelect;
+export type Nomination = typeof nominations.$inferSelect;
+export type Studio = typeof studios.$inferSelect;
+export type Country = typeof countries.$inferSelect;
+export type Collection = typeof collections.$inferSelect;
+export type SeriesExtension = typeof seriesExtensions.$inferSelect;
+export type FilmTrailer = typeof filmTrailers.$inferSelect;
+export type FilmCollection = typeof filmsCollections.$inferSelect;
+export type FilmGenre = typeof filmsGenres.$inferInsert;
+export type FilmStudio = typeof filmsStudios.$inferInsert;
+export type FilmCountry = typeof filmsCountries.$inferInsert;
