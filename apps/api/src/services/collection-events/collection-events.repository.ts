@@ -22,6 +22,9 @@ export class CollectionEventsRepository {
         title: collectionEvents.title,
         yearFrom: collectionEvents.yearFrom,
         collectionId: collectionEvents.collectionId,
+        startDateCode: collectionEvents.startDateCode,
+        endDateCode: collectionEvents.endDateCode,
+        titleFilmId: collectionEvents.titleFilmId,
         poster: films.poster,
       })
       .from(collectionEvents)
