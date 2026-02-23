@@ -15,6 +15,7 @@ import type {
   SeriesExtension,
   Studio,
 } from '~/database/schema';
+import { nullable } from '~/shared';
 
 type PickBaseData<T extends { id: number; title: string }> = Pick<T, 'id' | 'title'>;
 
@@ -124,7 +125,7 @@ export const mapFilmDetails = (
     collections: mapNestedRelations(film.collections, 'collection'),
     castAndCrew: sortGroupedPeople(castAndCrew),
     awards: Object.values(awards),
-    seriesExtension: film.seriesExtensions[0],
+    seriesExtension: nullable(film.seriesExtensions[0]),
     chapters: chapters ?? [],
   };
 };

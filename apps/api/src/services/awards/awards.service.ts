@@ -36,7 +36,13 @@ export class AwardsService {
   }
 
   async deleteAward(id: number) {
-    await throwIfNotFound(this.getAwardById(id));
+    const award = await throwIfNotFound(this.getAwardById(id));
+
+    if (award.nominations.length) {
+      await this.deps.awardsRepository.deleteNominations(
+        award.nominations.map((nomination) => nomination.id),
+      );
+    }
 
     return this.deps.awardsRepository.deleteAward(id);
   }
