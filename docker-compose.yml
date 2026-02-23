@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     env_file:
-      - apps/api/.env
+      - apps/api/.env.docker
     depends_on:
       database:
         condition: service_healthy

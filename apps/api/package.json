@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc && tsc-alias",
+    "build": "tsc -p tsconfig.build.json && tsc-alias",
     "start": "node dist/server.js",
     "db:migration:gen": "drizzle-kit generate",
     "db:migration:apply": "drizzle-kit migrate",

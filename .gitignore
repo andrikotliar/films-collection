@@ -15,7 +15,9 @@ target
 # Environment files
 *.local
 *.prod
-.env
+**/.env
+**/.env.*
+!.env.sample
 
 # Editor directories and files
 .vscode
