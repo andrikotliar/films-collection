@@ -29,6 +29,8 @@ COPY packages/shared/package.json ./packages/shared/package.json
 RUN pnpm install --prod --filter api...
 
 COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
+COPY --from=builder /app/apps/api/src/database/migrations ./apps/api/src/database/migrations
+COPY --from=builder /app/apps/api/drizzle.config.ts ./apps/api/drizzle.config.ts
 COPY --from=builder /app/apps/api/dist ./apps/api/dist
 COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
 COPY --from=builder /app/node_modules ./node_modules
