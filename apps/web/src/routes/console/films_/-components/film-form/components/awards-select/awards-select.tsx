@@ -10,7 +10,7 @@ type AwardsSelectProps = {
 };
 
 const defaultAward: z.infer<typeof FilmFormSchema>['awards'][number] = {
-  personId: null,
+  actorId: null,
   awardId: 0,
   nominationId: 0,
   comment: null,

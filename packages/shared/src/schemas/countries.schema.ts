@@ -7,8 +7,8 @@ export const CountryInputSchema = z.object({
 export const CountryResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export const CountriesListResponseSchema = z.array(

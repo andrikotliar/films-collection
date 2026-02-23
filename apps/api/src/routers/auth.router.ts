@@ -49,7 +49,7 @@ export default createRouter([
         });
       }
 
-      await app.container.resolve('usersService').setRefreshToken(data);
+      await app.container.resolve('usersService').setRefreshToken(data.id, data.refreshToken);
       const configService = app.container.resolve('configService');
 
       setCookie(reply, {
@@ -108,7 +108,7 @@ export default createRouter([
         configService,
       });
 
-      await app.container.resolve('usersService').setRefreshToken(data);
+      await app.container.resolve('usersService').setRefreshToken(data.id, data.refreshToken);
 
       return {
         data: { id: data.id },

@@ -52,10 +52,10 @@ export default createRouter([
     schema: { params: IdParamSchema, response: IdParamSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('countriesService').deleteCountry(request.params.id);
+      await app.container.resolve('countriesService').deleteCountry(request.params.id);
 
       return {
-        data: { id: data.id },
+        data: { id: request.params.id },
       };
     },
   }),

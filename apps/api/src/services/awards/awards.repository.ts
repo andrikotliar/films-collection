@@ -1,167 +1,155 @@
-import type { Prisma } from '@prisma/client';
 import type { CreateAwardInput, NominationInput, UpdateAwardInput } from '@films-collection/shared';
-import { BaseRepository, type Deps } from '~/shared';
+import { asc, eq, inArray } from 'drizzle-orm';
+import { awards, nominations } from '~/database/schema';
+import type { UpdateAwardParams } from '~/services/awards/types/update-award-params';
+import { getFirstValue, type Deps } from '~/shared';
 
-export class AwardsRepository extends BaseRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {
-    super(deps.databaseService);
-  }
+export class AwardsRepository {
+  constructor(private readonly deps: Deps<'db'>) {}
 
-  getById(id: number, shouldIncludeNominations = false) {
-    const select: Prisma.AwardFindUniqueArgs['select'] = {
-      id: true,
-      title: true,
-      description: true,
-    };
-
-    if (shouldIncludeNominations) {
-      select.nominations = {
-        orderBy: {
-          title: 'asc',
+  getById(id: number) {
+    return this.deps.db.query.awards.findFirst({
+      columns: {
+        id: true,
+        title: true,
+        description: true,
+      },
+      where: eq(awards.id, id),
+      with: {
+        nominations: {
+          orderBy: (nominations, { desc }) => [desc(nominations.title)],
         },
-      };
-    }
-
-    return this.deps.databaseService.award.findUnique({
-      select,
-      where: {
-        id,
       },
     });
   }
 
   getBaseData(awardId: number) {
-    return this.deps.databaseService.award.findUnique({
-      where: {
-        id: awardId,
-      },
-      select: {
-        id: true,
-        title: true,
-        description: true,
-      },
-    });
+    return getFirstValue(
+      this.deps.db
+        .select({
+          id: awards.id,
+          title: awards.title,
+          description: awards.description,
+        })
+        .from(awards)
+        .where(eq(awards.id, awardId)),
+    );
   }
 
   getBaseDataList() {
-    return this.deps.databaseService.award.findMany({
-      select: {
-        id: true,
-        title: true,
-      },
-      orderBy: {
-        title: 'asc',
-      },
-    });
+    return this.deps.db
+      .select({ id: awards.id, title: awards.title })
+      .from(awards)
+      .orderBy(asc(awards.title));
   }
 
   getListOptions() {
-    return this.deps.databaseService.award.findMany({
-      select: {
-        id: true,
-        title: true,
-      },
-      orderBy: {
-        title: 'asc',
-      },
-    });
+    return this.deps.db
+      .select({ id: awards.id, title: awards.title })
+      .from(awards)
+      .orderBy(asc(awards.title));
   }
 
   getNominationsByAward(awardId: number) {
-    return this.deps.databaseService.nomination.findMany({
-      select: {
-        id: true,
-        title: true,
-        shouldIncludeActor: true,
-      },
-      where: {
-        awardId,
-      },
-      orderBy: {
-        title: 'asc',
-      },
-    });
+    return this.deps.db
+      .select({
+        id: nominations.id,
+        title: nominations.title,
+        shouldIncludeActor: nominations.shouldIncludeActor,
+      })
+      .from(nominations)
+      .where(eq(nominations.awardId, awardId))
+      .orderBy(asc(nominations.title));
   }
 
-  createAward({ nominations, ...award }: CreateAwardInput) {
-    const data: Prisma.AwardCreateInput = { ...award };
+  createAward({ nominations: nominationsPayload, ...award }: CreateAwardInput) {
+    return this.deps.db.transaction(async (tr) => {
+      const [newAward] = await tr.insert(awards).values(award).returning();
 
-    if (nominations.length) {
-      data.nominations = {
-        createMany: {
-          data: nominations.map((nomination) => ({
+      if (nominationsPayload.length) {
+        await tr.insert(nominations).values(
+          nominationsPayload.map((nomination) => ({
             title: nomination.title,
             shouldIncludeActor: nomination.shouldIncludeActor,
+            awardId: newAward.id,
           })),
-        },
-      };
-    }
+        );
+      }
 
-    return this.deps.databaseService.award.create({
-      data,
+      return newAward;
     });
   }
 
-  updateAward(id: number, input: Omit<UpdateAwardInput, 'nominations'>) {
-    return this.deps.databaseService.award.update({
-      where: {
-        id,
-      },
-      data: input,
-    });
-  }
+  async updateAward(id: number, input: Omit<UpdateAwardInput, 'nominations'>) {
+    const [updatedAward] = await this.deps.db
+      .update(awards)
+      .set(input)
+      .where(eq(awards.id, id))
+      .returning();
 
-  createManyNominations(inputs: Prisma.NominationUncheckedCreateInput[]) {
-    return this.deps.databaseService.nomination.createMany({
-      data: inputs,
-    });
-  }
-
-  updateNomination(id: number, input: Prisma.NominationUpdateInput) {
-    return this.deps.databaseService.nomination.update({
-      where: {
-        id,
-      },
-      data: input,
-    });
+    return updatedAward;
   }
 
   deleteAward(id: number) {
-    return this.deps.databaseService.award.delete({
-      where: {
-        id,
-      },
-    });
+    return this.deps.db.delete(awards).where(eq(awards.id, id));
   }
 
   deleteNominations(ids: number[]) {
-    return this.deps.databaseService.nomination.deleteMany({
-      where: {
-        id: {
-          in: ids,
-        },
-      },
-    });
+    return this.deps.db.delete(nominations).where(inArray(nominations.id, ids));
   }
 
   getAwardNominationIds(awardId: number) {
-    return this.deps.databaseService.nomination.findMany({
-      select: {
-        id: true,
-      },
-      where: {
-        awardId,
-      },
-    });
+    return this.deps.db
+      .select({
+        id: nominations.id,
+      })
+      .from(nominations)
+      .where(eq(nominations.awardId, awardId));
   }
 
-  createNomination(awardId: number, data: NominationInput) {
-    return this.deps.databaseService.nomination.create({
-      data: {
-        title: data.title,
-        shouldIncludeActor: data.shouldIncludeActor,
+  async createNomination(awardId: number, data: NominationInput) {
+    const [updatedNomination] = await this.deps.db
+      .insert(nominations)
+      .values({
+        ...data,
         awardId,
-      },
+      })
+      .returning();
+
+    return updatedNomination;
+  }
+
+  async updateAwardWithNominations({
+    awardId,
+    award,
+    updateNominations,
+    createNominations,
+    deleteNominations,
+  }: UpdateAwardParams) {
+    return this.deps.db.transaction(async (tr) => {
+      const [updatedAward] = await tr
+        .update(awards)
+        .set(award)
+        .where(eq(awards.id, awardId))
+        .returning();
+
+      if (createNominations.length) {
+        await tr.insert(nominations).values(createNominations);
+      }
+
+      if (updateNominations.length) {
+        await Promise.all(
+          updateNominations.map(({ id, ...nomination }) =>
+            tr.update(nominations).set(nomination).where(eq(nominations.id, id)),
+          ),
+        );
+      }
+
+      if (deleteNominations.length) {
+        await tr.delete(nominations).where(inArray(nominations.id, deleteNominations));
+      }
+
+      return updatedAward;
     });
   }
 }

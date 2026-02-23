@@ -1,27 +1,19 @@
-import type { Prisma } from '@prisma/client';
 import {
-  getSkipValue,
-  PAGE_LIMITS,
   type CreatePendingFilmInput,
   type GetPendingFilmsListQuery,
   type UpdatePendingFilmInput,
 } from '@films-collection/shared';
-import type { Deps } from '~/shared';
+import { throwIfNotFound, type Deps } from '~/shared';
 
 export class PendingFilmsService {
   constructor(private readonly deps: Deps<'pendingFilmsRepository'>) {}
 
   async getList(queryFilters: GetPendingFilmsListQuery) {
-    const { filters, options } = this.getListFilters(queryFilters);
-
-    return this.deps.pendingFilmsRepository.getListAndCount({
-      ...options,
-      where: filters,
-    });
+    return this.deps.pendingFilmsRepository.getListAndCount(queryFilters);
   }
 
   createPendingFilm(input: CreatePendingFilmInput) {
-    return this.deps.pendingFilmsRepository.create(input);
+    return throwIfNotFound(this.deps.pendingFilmsRepository.create(input));
   }
 
   deletePendingFilm(id: number) {
@@ -29,40 +21,10 @@ export class PendingFilmsService {
   }
 
   updatePendingFilm(id: number, input: UpdatePendingFilmInput) {
-    return this.deps.pendingFilmsRepository.updateById(id, input);
+    return throwIfNotFound(this.deps.pendingFilmsRepository.updateById(id, input));
   }
 
   getPendingFilmById(id: number) {
-    return this.deps.pendingFilmsRepository.findPendingFilm(id);
-  }
-
-  private getListFilters(queryFilters: GetPendingFilmsListQuery) {
-    const filters: Prisma.PendingFilmWhereInput = {};
-
-    if (queryFilters.q) {
-      filters.title = {
-        contains: queryFilters.q,
-        mode: 'insensitive',
-      };
-    }
-
-    if (queryFilters.priorities?.length) {
-      filters.priority = {
-        in: queryFilters.priorities,
-      };
-    }
-
-    const sortingKey = queryFilters.orderKey ?? 'createdAt';
-
-    return {
-      filters,
-      options: {
-        take: PAGE_LIMITS.default,
-        skip: getSkipValue('default', queryFilters.pageIndex),
-        orderBy: {
-          [sortingKey]: queryFilters.order ?? 'desc',
-        },
-      },
-    };
+    return throwIfNotFound(this.deps.pendingFilmsRepository.findPendingFilm(id));
   }
 }

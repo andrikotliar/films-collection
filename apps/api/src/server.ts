@@ -1,6 +1,5 @@
 import path from 'path';
 import fastify from 'fastify';
-import type { PrismaClient } from '@prisma/client';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
@@ -10,13 +9,13 @@ import {
   serializerCompiler,
   validatorCompiler,
 } from 'fastify-type-provider-zod';
-import { RoutesPlugin, DatabasePlugin, DiContainerPlugin } from '~/plugins';
+import { RoutesPlugin, DatabasePlugin, DiContainerPlugin, type Database } from '~/plugins';
 import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
 import { ConfigService } from '~/services/config';
 
 declare module 'fastify' {
   export interface FastifyInstance {
-    databaseService: PrismaClient;
+    db: Database;
     container: DiContainer;
   }
 }

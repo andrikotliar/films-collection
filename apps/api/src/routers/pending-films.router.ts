@@ -82,11 +82,9 @@ export default createRouter([
     preHandler: [validateAuth],
     schema: { params: IdParamSchema, response: IdParamSchema },
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('pendingFilmsService')
-        .deletePendingFilm(request.params.id);
+      await app.container.resolve('pendingFilmsService').deletePendingFilm(request.params.id);
 
-      return { data: { id: data.id } };
+      return { data: { id: request.params.id } };
     },
   }),
 ]);

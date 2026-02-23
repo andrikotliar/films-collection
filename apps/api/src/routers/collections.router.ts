@@ -57,11 +57,9 @@ export default createRouter([
     schema: { params: IdParamSchema, response: IdParamSchema },
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('collectionsService')
-        .deleteCollection(request.params.id);
+      await app.container.resolve('collectionsService').deleteCollection(request.params.id);
 
-      return { data: { id: data.id } };
+      return { data: { id: request.params.id } };
     },
   }),
 ]);

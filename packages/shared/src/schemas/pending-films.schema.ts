@@ -26,8 +26,8 @@ export const PendingFilmResponseSchema = z.object({
   priority: z.coerce.number().min(1).max(3),
   rating: z.coerce.number().min(1).max(3).nullable(),
   collectionId: z.coerce.number().nullable(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export const PendingFilmsListResponseSchema = z.object({

@@ -1,8 +1,5 @@
-import { NotFoundException, type Deps } from '~/shared';
-import type { Prisma } from '@prisma/client';
+import { throwIfNotFound, type Deps } from '~/shared';
 import {
-  getSkipValue,
-  PAGE_LIMITS,
   type CreatePersonInput,
   type GetPeopleListQuery,
   type ListOption,
@@ -14,40 +11,14 @@ export class PeopleService {
   constructor(private readonly deps: Deps<'peopleRepository'>) {}
 
   async getList(queries: GetPeopleListQuery) {
-    const filters: Prisma.PersonWhereInput = {};
-    const options: Prisma.PersonFindManyArgs = {
-      where: filters,
-      take: PAGE_LIMITS.default,
-      skip: getSkipValue('default', queries.pageIndex),
-    };
-
-    if (queries.q) {
-      filters.name = {
-        contains: queries.q,
-        mode: 'insensitive',
-      };
-    }
-
-    if (queries.role) {
-      filters.films = {
-        some: {
-          role: queries.role,
-        },
-      };
-    }
-
-    if (queries.selected) {
-      filters.selected = true;
-    }
-
-    const list = await this.deps.peopleRepository.getList(options);
-    const total = await this.deps.peopleRepository.count(filters);
+    const list = await this.deps.peopleRepository.getList(queries);
+    const total = await this.deps.peopleRepository.count(queries);
 
     return { list, total };
   }
 
   getPersonById(personId: number) {
-    return this.deps.peopleRepository.findPersonById(personId);
+    return throwIfNotFound(this.deps.peopleRepository.findPersonById(personId));
   }
 
   async searchPerson(queries: SearchPersonQuery) {
@@ -60,21 +31,16 @@ export class PeopleService {
   }
 
   createPerson(input: CreatePersonInput) {
-    return this.deps.peopleRepository.createPerson(input);
+    return throwIfNotFound(this.deps.peopleRepository.createPerson(input));
   }
 
   async updatePerson(id: number, input: UpdatePersonInput) {
-    const person = await this.deps.peopleRepository.findPersonById(id);
-
-    if (!person) {
-      throw new NotFoundException({ message: `Person #${id} not found!` });
-    }
-
-    return this.deps.peopleRepository.update(id, input);
+    await throwIfNotFound(this.deps.peopleRepository.findPersonById(id));
+    return throwIfNotFound(this.deps.peopleRepository.update(id, input));
   }
 
   async deletePerson(id: number) {
-    return this.deps.peopleRepository.delete(id);
+    await this.deps.peopleRepository.delete(id);
   }
 
   async getSelectedListOptions(): Promise<ListOption<number>[]> {

@@ -1,108 +1,73 @@
-import { type Collection, type CollectionEvent, type Film } from '@prisma/client';
-import type { Deps } from '~/shared';
+import { getFirstValue, type Deps } from '~/shared';
 import type {
   CreateCollectionEventInput,
   UpdateCollectionEventInput,
 } from '@films-collection/shared';
-
-export type CurrentEvent = Omit<CollectionEvent, 'createdAt' | 'updatedAt' | 'collectionId'> & {
-  collection: Pick<Collection, 'id' | 'title'>;
-  film: Pick<Film, 'id' | 'poster'>;
-  filmsCount: number;
-};
+import { collectionEvents, films } from '~/database/schema';
+import { and, asc, between, eq, gt, gte, lte, or, sql } from 'drizzle-orm';
 
 export class CollectionEventsRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
-  getEventById(id: number) {
-    return this.deps.databaseService.collectionEvent.findUnique({
-      where: {
-        id,
-      },
-    });
+  async getEventById(id: number) {
+    return getFirstValue(
+      this.deps.db.select().from(collectionEvents).where(eq(collectionEvents.id, id)),
+    );
   }
 
   getEvents(dateCode: number) {
-    return this.deps.databaseService.$queryRaw<CurrentEvent[]>`
-      SELECT
-        ce.id,
-        ce.title,
-        ce.start_date_code as "startDateCode",
-        ce.end_date_code as "endDateCode",
-        ce.year_from as "yearFrom",
-        json_build_object(
-          'id', c.id,
-          'title', c.title
-        ) as "collection",
-        json_build_object(
-          'id', f.id,
-          'poster', f.poster
-        ) as "film",
-        (
-          SELECT COUNT(*)::int FROM films_collections fc
-          WHERE fc.collection_id = ce.collection_id
-        ) as "filmsCount"
-      FROM collection_events ce
-      INNER JOIN collections c ON ce.collection_id = c.id
-      INNER JOIN films f ON ce.title_film_id = f.id
-      WHERE
-        ce.start_date_code = ${dateCode}
-        OR (
-          ce.start_date_code <= ce.end_date_code
-          AND ${dateCode} BETWEEN ce.start_date_code AND ce.end_date_code
-        )
-        OR (
-          ce.start_date_code > ce.end_date_code
-          AND (${dateCode} >= ce.start_date_code OR ${dateCode} <= ce.end_date_code)
-        )
-    `;
+    return this.deps.db
+      .select({
+        id: collectionEvents.id,
+        title: collectionEvents.title,
+        yearFrom: collectionEvents.yearFrom,
+        collectionId: collectionEvents.collectionId,
+        poster: films.poster,
+      })
+      .from(collectionEvents)
+      .innerJoin(films, eq(films.id, collectionEvents.titleFilmId))
+      .where(
+        or(
+          eq(collectionEvents.startDateCode, dateCode),
+          and(
+            lte(collectionEvents.startDateCode, collectionEvents.endDateCode),
+            between(sql`${dateCode}`, collectionEvents.startDateCode, collectionEvents.endDateCode),
+          ),
+          and(
+            gt(collectionEvents.startDateCode, collectionEvents.endDateCode),
+            or(
+              gte(sql`${dateCode}`, collectionEvents.startDateCode),
+              lte(sql`${dateCode}`, collectionEvents.endDateCode),
+            ),
+          ),
+        ),
+      );
   }
 
   getAllEvents() {
-    return this.deps.databaseService.collectionEvent.findMany({
-      select: {
-        id: true,
-        title: true,
-        startDateCode: true,
-        endDateCode: true,
-        yearFrom: true,
-        film: {
-          select: {
-            id: true,
-            poster: true,
-          },
-        },
-        collection: {
-          select: {
-            id: true,
-            title: true,
-          },
-        },
-      },
-      orderBy: [{ startDateCode: 'asc' }],
-    });
+    return this.deps.db
+      .select({
+        id: collectionEvents.id,
+        title: collectionEvents.title,
+        yearFrom: collectionEvents.yearFrom,
+        startDateCode: collectionEvents.startDateCode,
+        endDateCode: collectionEvents.endDateCode,
+        titleFilmId: collectionEvents.titleFilmId,
+        collectionId: collectionEvents.collectionId,
+      })
+      .from(collectionEvents)
+      .orderBy(asc(collectionEvents.startDateCode));
   }
 
   createEvent(data: CreateCollectionEventInput) {
-    return this.deps.databaseService.collectionEvent.create({
-      data,
-    });
+    return this.deps.db.insert(collectionEvents).values(data);
   }
 
   updateEvent(id: number, data: UpdateCollectionEventInput) {
-    return this.deps.databaseService.collectionEvent.update({
-      data,
-      where: {
-        id,
-      },
-    });
+    return this.deps.db.update(collectionEvents).set(data).where(eq(collectionEvents.id, id));
   }
 
   deleteEvent(id: number) {
-    return this.deps.databaseService.collectionEvent.delete({
-      where: {
-        id,
-      },
-    });
+    return this.deps.db.delete(collectionEvents).where(eq(collectionEvents.id, id));
   }
 }

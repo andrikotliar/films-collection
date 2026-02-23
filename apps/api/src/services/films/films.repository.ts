@@ -1,39 +1,89 @@
-import type { Film, Prisma } from '@prisma/client';
-import { BaseRepository, type Deps } from '~/shared';
+import { getFirstValue, type Deps } from '~/shared';
 import {
+  getSkipValue,
   PAGE_LIMITS,
   type CreateFilmInput,
+  type GetAdminListQuery,
   type GetFilmOptionsQuery,
-  type NotNull,
+  type GetFilmsListQuery,
+  type SortingOrder,
+  type UpdateFilmInput,
 } from '@films-collection/shared';
+import { mapAdminListFilters, mapListFilters } from '~/services/films/helpers';
+import {
+  and,
+  asc,
+  count,
+  desc,
+  eq,
+  ilike,
+  inArray,
+  isNull,
+  notInArray,
+  type SQL,
+} from 'drizzle-orm';
+import {
+  filmAwardNominations,
+  films,
+  filmsCollections,
+  filmsCountries,
+  filmsGenres,
+  filmsPeople,
+  filmsStudios,
+  filmTrailers,
+  seriesExtensions,
+} from '~/database/schema';
+import type {
+  PgColumn,
+  PgInsertValue,
+  PgTableWithColumns,
+  PgTransaction,
+} from 'drizzle-orm/pg-core';
 
-export class FilmsRepository extends BaseRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {
-    super(deps.databaseService);
+type AnyTable = {
+  name: string;
+  columns: { id: PgColumn; [key: string]: any };
+  schema: undefined;
+  dialect: 'pg';
+};
+
+type UpdateRelationsParams<T extends PgTableWithColumns<AnyTable>, V extends PgInsertValue<T>> = {
+  filmId: number;
+  transaction: PgTransaction<any, any, any>;
+  table: T;
+  values: V[];
+};
+
+export class FilmsRepository {
+  constructor(private readonly deps: Deps<'db'>) {}
+
+  async count(filters?: SQL[]) {
+    if (filters) {
+      const result = await getFirstValue(
+        this.deps.db
+          .select({ count: count() })
+          .from(films)
+          .where(and(...filters)),
+      );
+
+      return result?.count ?? 0;
+    }
+
+    const result = await getFirstValue(this.deps.db.select({ count: count() }).from(films));
+
+    return result?.count ?? 0;
   }
 
-  async count(filters?: Prisma.FilmWhereInput) {
-    return this.deps.databaseService.film.count({ where: filters });
-  }
+  async findAndCount(queries: GetFilmsListQuery) {
+    const filters = mapListFilters(queries, this.deps.db);
 
-  async findAndCount(filters: Prisma.FilmWhereInput, limit: number, skip: number) {
-    const list = await this.deps.databaseService.film.findMany({
-      select: {
-        id: true,
-        title: true,
-        poster: true,
-        releaseDate: true,
-      },
-      where: filters,
-      take: limit,
-      skip,
-      orderBy: [
-        {
-          releaseDate: 'desc',
-        },
-        { id: 'asc' },
-      ],
-    });
+    const list = await this.deps.db
+      .select()
+      .from(films)
+      .where(and(...filters))
+      .limit(PAGE_LIMITS.filmsList)
+      .offset(getSkipValue('filmsList', queries.pageIndex))
+      .orderBy(desc(films.releaseDate), asc(films.id));
 
     const total = await this.count(filters);
 
@@ -41,8 +91,8 @@ export class FilmsRepository extends BaseRepository {
   }
 
   findById(id: number) {
-    return this.deps.databaseService.film.findUnique({
-      select: {
+    return this.deps.db.query.films.findFirst({
+      columns: {
         id: true,
         title: true,
         poster: true,
@@ -56,35 +106,54 @@ export class FilmsRepository extends BaseRepository {
         draft: true,
         chapterOrder: true,
         overview: true,
+      },
+      with: {
         genres: {
-          select: {
-            genre: true,
+          with: {
+            genre: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
           },
         },
         countries: {
-          select: {
-            country: true,
+          with: {
+            country: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
           },
         },
         studios: {
-          select: {
-            studio: true,
+          with: {
+            studio: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
           },
         },
-        seriesExtension: {
-          select: {
-            episodesTotal: true,
+        seriesExtensions: {
+          columns: {
             seasonsTotal: true,
+            episodesTotal: true,
             finishedAt: true,
           },
         },
         castAndCrew: {
-          select: {
+          columns: {
             role: true,
             details: true,
             comment: true,
+          },
+          with: {
             person: {
-              select: {
+              columns: {
                 id: true,
                 name: true,
               },
@@ -92,32 +161,34 @@ export class FilmsRepository extends BaseRepository {
           },
         },
         awards: {
-          select: {
+          with: {
             award: {
-              select: {
+              columns: {
                 id: true,
                 title: true,
               },
             },
             nomination: {
-              select: {
+              columns: {
                 id: true,
                 title: true,
               },
             },
-            comment: true,
             person: {
-              select: {
+              columns: {
                 id: true,
                 name: true,
               },
             },
           },
+          columns: {
+            comment: true,
+          },
         },
         collections: {
-          select: {
+          with: {
             collection: {
-              select: {
+              columns: {
                 id: true,
                 title: true,
               },
@@ -125,25 +196,17 @@ export class FilmsRepository extends BaseRepository {
           },
         },
         trailers: {
-          orderBy: {
-            order: 'asc',
-          },
+          orderBy: asc(filmTrailers.order),
         },
       },
-      where: {
-        id,
-        deletedAt: null,
-      },
+      where: and(eq(films.id, id), isNull(films.deletedAt)),
     });
   }
 
   findByIdAdmin(id: number) {
-    return this.deps.databaseService.film.findUnique({
-      where: {
-        id,
-        deletedAt: null,
-      },
-      select: {
+    return this.deps.db.query.films.findFirst({
+      where: and(eq(films.id, id), isNull(films.deletedAt)),
+      columns: {
         id: true,
         title: true,
         type: true,
@@ -157,39 +220,43 @@ export class FilmsRepository extends BaseRepository {
         releaseDate: true,
         chapterKey: true,
         chapterOrder: true,
+      },
+      with: {
         genres: {
-          select: {
+          columns: {
             genreId: true,
           },
         },
         countries: {
-          select: {
+          columns: {
             countryId: true,
           },
         },
         studios: {
-          select: {
+          columns: {
             studioId: true,
           },
         },
         collections: {
-          select: {
+          columns: {
             collectionId: true,
           },
         },
         trailers: {
-          select: {
+          columns: {
             url: true,
             order: true,
           },
         },
         castAndCrew: {
-          select: {
+          columns: {
             role: true,
             details: true,
             comment: true,
+          },
+          with: {
             person: {
-              select: {
+              columns: {
                 id: true,
                 name: true,
               },
@@ -197,11 +264,13 @@ export class FilmsRepository extends BaseRepository {
           },
         },
         awards: {
-          select: {
+          columns: {
             awardId: true,
             nominationId: true,
-            person: true,
             comment: true,
+          },
+          with: {
+            person: true,
           },
         },
       },
@@ -209,134 +278,82 @@ export class FilmsRepository extends BaseRepository {
   }
 
   searchByTitle(query: string) {
-    return this.deps.databaseService.film.findMany({
-      select: {
+    return this.deps.db.query.films.findMany({
+      columns: {
         id: true,
         title: true,
         poster: true,
+        releaseDate: true,
+      },
+      with: {
         genres: {
-          select: {
+          with: {
             genre: true,
           },
         },
-        releaseDate: true,
       },
-      where: {
-        title: {
-          contains: query,
-          mode: 'insensitive',
-        },
-        deletedAt: null,
-      },
-      take: PAGE_LIMITS.default,
+      where: and(isNull(films.deletedAt), ilike(films.title, query)),
+      limit: PAGE_LIMITS.default,
     });
-  }
-
-  findAnniversariesIdsRaw() {
-    const currentDate = new Date();
-    const date = currentDate.getDate();
-    const month = currentDate.getMonth() + 1;
-
-    return this.deps.databaseService.$queryRaw<
-      Pick<Film, 'id'>[]
-    >`SELECT id FROM films WHERE EXTRACT(MONTH FROM release_date) = ${month} AND EXTRACT(DAY FROM release_date) = ${date}`;
   }
 
   findChapters(chapterKey: string) {
-    const where: Prisma.FilmWhereInput = {
-      chapterKey,
-      deletedAt: null,
-    };
-
-    return this.deps.databaseService.film.findMany({
-      where,
-      select: {
-        id: true,
-        poster: true,
-        title: true,
-        chapterOrder: true,
-      },
-      orderBy: {
-        chapterOrder: 'asc',
-      },
-    });
+    return this.deps.db
+      .select({
+        id: films.id,
+        poster: films.poster,
+        title: films.title,
+        chapterOrder: films.chapterOrder,
+      })
+      .from(films)
+      .where(and(isNull(films.deletedAt), eq(films.chapterKey, chapterKey)))
+      .orderBy(asc(films.chapterOrder));
   }
 
-  async findAndCountAdmin(
-    filters: Prisma.FilmWhereInput,
-    options: {
-      skip: number;
-      orderBy: Prisma.FilmOrderByWithRelationInput;
-    },
-  ) {
+  async findAndCountAdmin(queries: GetAdminListQuery) {
+    const filters = mapAdminListFilters(queries);
+
     const total = await this.count(filters);
-    const films = await this.deps.databaseService.film.findMany({
-      select: {
-        id: true,
-        title: true,
-        draft: true,
-        poster: true,
-      },
-      where: filters,
-      take: PAGE_LIMITS.default,
-      skip: options.skip,
-      orderBy: [options.orderBy, { id: 'asc' }],
-    });
 
-    return { films, total };
-  }
+    const list = await this.deps.db
+      .select({
+        id: films.id,
+        title: films.title,
+        draft: films.draft,
+        poster: films.poster,
+      })
+      .from(films)
+      .where(and(...filters))
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex))
+      .orderBy(this.mapSorting(queries.orderKey, queries.order), asc(films.id));
 
-  updateBaseFilmData(id: number, input: Prisma.FilmUpdateInput) {
-    return this.deps.databaseService.film.update({
-      where: {
-        id,
-      },
-      data: input,
-    });
+    return { list, total };
   }
 
   async getFilmsListByQuery({ q, selected }: GetFilmOptionsQuery) {
-    const whereOptions: Prisma.FilmWhereInput = {
-      deletedAt: null,
-    };
+    const filters: SQL[] = [isNull(films.deletedAt)];
 
     if (q) {
-      whereOptions.title = {
-        contains: q,
-        mode: 'insensitive',
-      };
+      filters.push(ilike(films.title, q));
     }
 
     if (selected) {
-      whereOptions.id = {
-        notIn: selected,
-      };
+      filters.push(notInArray(films.id, selected));
     }
 
-    const queryResult = await this.deps.databaseService.film.findMany({
-      select: {
-        id: true,
-        title: true,
-      },
-      take: PAGE_LIMITS.default,
-      where: whereOptions,
-      orderBy: {
-        title: 'asc',
-      },
-    });
+    const queryResult = await this.deps.db
+      .select({ id: films.id, title: films.title })
+      .from(films)
+      .where(and(...filters))
+      .limit(PAGE_LIMITS.default)
+      .orderBy(asc(films.title));
 
     if (selected) {
-      const selectedFilms = await this.deps.databaseService.film.findMany({
-        select: {
-          id: true,
-          title: true,
-        },
-        where: {
-          id: {
-            in: selected,
-          },
-        },
-      });
+      const selectedFilms = await this.deps.db
+        .select({ id: films.id, title: films.title })
+        .from(films)
+        .where(inArray(films.id, selected));
 
       return [...queryResult, ...selectedFilms];
     }
@@ -344,20 +361,12 @@ export class FilmsRepository extends BaseRepository {
     return queryResult;
   }
 
-  delete(id: number, date: Date) {
-    return this.deps.databaseService.film.update({
-      where: {
-        id,
-      },
-      data: {
-        deletedAt: date,
-      },
-    });
+  async delete(id: number, date: string) {
+    await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
-  create(input: CreateFilmInput) {
+  create(input: Omit<CreateFilmInput, 'pendingFilmId'>) {
     const {
-      isDraft,
       castAndCrew,
       awards,
       genres,
@@ -365,87 +374,73 @@ export class FilmsRepository extends BaseRepository {
       studios,
       collections,
       trailers,
-      releaseDate,
-      description,
       seriesExtension,
       ...filmInput
     } = input;
 
-    const data: Prisma.FilmCreateInput = {
-      ...filmInput,
-      releaseDate: new Date(releaseDate).toISOString(),
-      draft: isDraft,
-      overview: description,
-    };
+    return this.deps.db.transaction(async (tr) => {
+      const [newFilm] = await tr.insert(films).values(filmInput).returning({ id: films.id });
 
-    if (castAndCrew.length) {
-      data.castAndCrew = {
-        create: castAndCrew,
-      };
-    }
+      const filmId = newFilm.id;
 
-    if (awards.length) {
-      data.awards = {
-        create: awards.map(({ personId, ...award }) => ({
-          ...award,
-          actorId: personId,
-          comment: award.comment ?? null,
-        })),
-      };
-    }
+      if (castAndCrew.length) {
+        const values = castAndCrew.map((person) => ({
+          ...person,
+          filmId,
+        }));
+        await tr.insert(filmsPeople).values(values);
+      }
 
-    if (genres.length) {
-      data.genres = {
-        create: genres.map((genreId) => ({ genreId })),
-      };
-    }
+      if (awards.length) {
+        const values = awards.map((award) => ({ ...award, filmId }));
 
-    if (countries.length) {
-      data.countries = {
-        create: countries.map((countryId) => ({ countryId })),
-      };
-    }
+        await tr.insert(filmAwardNominations).values(values);
+      }
 
-    if (studios.length) {
-      data.studios = {
-        create: studios.map((studioId) => ({ studioId })),
-      };
-    }
+      if (genres.length) {
+        const values = genres.map((genreId) => ({ genreId, filmId }));
 
-    if (collections.length) {
-      data.collections = {
-        create: collections.map((collectionId) => ({ collectionId })),
-      };
-    }
+        await tr.insert(filmsGenres).values(values);
+      }
 
-    if (trailers.length) {
-      data.trailers = {
-        create: trailers,
-      };
-    }
+      if (countries.length) {
+        const values = countries.map((countryId) => ({ countryId, filmId }));
 
-    if (seriesExtension) {
-      data.seriesExtension = {
-        create: {
+        await tr.insert(filmsCountries).values(values);
+      }
+
+      if (studios.length) {
+        const values = studios.map((studioId) => ({ studioId, filmId }));
+
+        await tr.insert(filmsStudios).values(values);
+      }
+
+      if (collections.length) {
+        const values = collections.map((collectionId) => ({ collectionId, filmId }));
+
+        await tr.insert(filmsCollections).values(values);
+      }
+
+      if (trailers.length) {
+        const values = trailers.map((trailer) => ({ ...trailer, filmId }));
+        await tr.insert(filmTrailers).values(values);
+      }
+
+      if (seriesExtension) {
+        await tr.insert(seriesExtensions).values({
           ...seriesExtension,
-          finishedAt: seriesExtension.finishedAt
-            ? new Date(seriesExtension.finishedAt).toISOString()
-            : null,
-        },
-      };
-    }
+          filmId,
+        });
+      }
 
-    return this.deps.databaseService.film.create({
-      data,
+      return filmId;
     });
   }
 
   getEditableFilm(id: number) {
-    return this.deps.databaseService.film.findUnique({
-      where: {
-        id,
-      },
-      select: {
+    return this.deps.db.query.films.findFirst({
+      where: eq(films.id, id),
+      columns: {
         title: true,
         type: true,
         style: true,
@@ -459,28 +454,30 @@ export class FilmsRepository extends BaseRepository {
         chapterKey: true,
         chapterOrder: true,
         draft: true,
+      },
+      with: {
         genres: {
-          select: {
+          columns: {
             genreId: true,
           },
         },
         studios: {
-          select: {
+          columns: {
             studioId: true,
           },
         },
         countries: {
-          select: {
+          columns: {
             countryId: true,
           },
         },
         collections: {
-          select: {
+          columns: {
             collectionId: true,
           },
         },
         castAndCrew: {
-          select: {
+          columns: {
             personId: true,
             comment: true,
             role: true,
@@ -488,7 +485,7 @@ export class FilmsRepository extends BaseRepository {
           },
         },
         awards: {
-          select: {
+          columns: {
             awardId: true,
             nominationId: true,
             comment: true,
@@ -496,124 +493,138 @@ export class FilmsRepository extends BaseRepository {
           },
         },
         trailers: {
-          select: {
+          columns: {
             order: true,
             url: true,
           },
         },
-        seriesExtension: true,
+        seriesExtensions: true,
       },
     });
   }
 
-  updateFilm(filmId: number, data: Prisma.FilmUpdateInput) {
-    return this.deps.databaseService.film.update({
-      where: {
-        id: filmId,
-      },
-      data,
+  updateFilm(filmId: number, data: UpdateFilmInput) {
+    const {
+      castAndCrew,
+      awards,
+      genres,
+      collections,
+      countries,
+      studios,
+      seriesExtension,
+      ...filmParams
+    } = data;
+
+    return this.deps.db.transaction(async (transaction) => {
+      if (Object.keys(filmParams).length) {
+        await transaction.update(films).set(filmParams).where(eq(films.id, filmId));
+      }
+
+      if (genres?.length) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmsGenres,
+          values: genres.map((genreId) => ({
+            genreId,
+            filmId,
+          })),
+        });
+      }
+
+      if (castAndCrew?.length) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmsPeople,
+          values: castAndCrew.map((person) => ({
+            ...person,
+            filmId,
+          })),
+        });
+      }
+
+      if (awards?.length) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmAwardNominations,
+          values: awards.map((award) => ({
+            ...award,
+            filmId,
+          })),
+        });
+      }
+
+      if (collections) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmsCollections,
+          values: collections.map((collectionId) => ({
+            collectionId,
+            filmId,
+          })),
+        });
+      }
+
+      if (countries) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmsCountries,
+          values: countries.map((countryId) => ({
+            countryId,
+            filmId,
+          })),
+        });
+      }
+
+      if (studios) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmsStudios,
+          values: studios.map((studioId) => ({
+            studioId,
+            filmId,
+          })),
+        });
+      }
+
+      if (seriesExtension) {
+        await this.deps.db
+          .update(seriesExtensions)
+          .set(seriesExtension)
+          .where(eq(seriesExtensions.filmId, filmId));
+      }
     });
   }
 
-  async updateFilmAwards(filmId: number, data: CreateFilmInput['awards']) {
-    await this.deps.databaseService.filmAwardNomination.deleteMany({ where: { filmId } });
+  async updateFilmRelations<T extends PgTableWithColumns<AnyTable>, V extends PgInsertValue<T>>({
+    transaction,
+    filmId,
+    table,
+    values,
+  }: UpdateRelationsParams<T, V>) {
+    await transaction.delete(table).where(eq(table.id, filmId));
 
-    return () => {
-      return this.deps.databaseService.filmAwardNomination.createMany({
-        data: data.map((award) => ({
-          ...award,
-          actorId: award.personId,
-          filmId,
-        })),
-      });
-    };
+    await transaction.insert(table).values(values);
   }
 
-  async updateFilmStudios(filmId: number, data: CreateFilmInput['studios']) {
-    await this.deps.databaseService.filmStudio.deleteMany({ where: { filmId } });
-
-    return () => {
-      return this.deps.databaseService.filmStudio.createMany({
-        data: data.map((studioId) => ({
-          studioId,
-          filmId,
-        })),
-      });
+  private mapSorting(key: string = 'createdAt', direction: SortingOrder = 'desc') {
+    const directions = {
+      asc,
+      desc,
     };
-  }
 
-  async updateFilmCountries(filmId: number, data: CreateFilmInput['countries']) {
-    await this.deps.databaseService.filmCountry.deleteMany({ where: { filmId } });
+    const fn = directions[direction];
 
-    return () => {
-      return this.deps.databaseService.filmCountry.createMany({
-        data: data.map((countryId) => ({
-          countryId,
-          filmId,
-        })),
-      });
-    };
-  }
-
-  async updateFilmCollections(filmId: number, data: CreateFilmInput['collections']) {
-    await this.deps.databaseService.filmCollection.deleteMany({ where: { filmId } });
-
-    return () => {
-      return this.deps.databaseService.filmCollection.createMany({
-        data: data.map((collectionId) => ({
-          collectionId,
-          filmId,
-        })),
-      });
-    };
-  }
-
-  async updateFilmGenres(filmId: number, data: CreateFilmInput['genres']) {
-    await this.deps.databaseService.filmGenre.deleteMany({ where: { filmId } });
-
-    return () => {
-      return this.deps.databaseService.filmGenre.createMany({
-        data: data.map((genreId) => ({
-          genreId,
-          filmId,
-        })),
-      });
-    };
-  }
-
-  async updateFilmTrailers(filmId: number, data: CreateFilmInput['trailers']) {
-    await this.deps.databaseService.filmTrailer.deleteMany({ where: { filmId } });
-
-    return () => {
-      return this.deps.databaseService.filmTrailer.createMany({
-        data: data.map((trailer) => ({
-          ...trailer,
-          filmId,
-        })),
-      });
-    };
-  }
-
-  async updateFilmCastAndCrew(filmId: number, data: CreateFilmInput['castAndCrew']) {
-    await this.deps.databaseService.filmPerson.deleteMany({ where: { filmId } });
-
-    return () => {
-      return this.deps.databaseService.filmPerson.createMany({
-        data: data.map((person) => ({
-          ...person,
-          filmId,
-        })),
-      });
-    };
-  }
-
-  updateSeriesExtension(
-    filmId: number,
-    data: Partial<NotNull<CreateFilmInput['seriesExtension']>>,
-  ) {
-    return this.deps.databaseService.seriesExtension.update({
-      where: { filmId },
-      data,
-    });
+    switch (key) {
+      case 'title':
+        return fn(films.title);
+      default:
+        return desc(films.createdAt);
+    }
   }
 }

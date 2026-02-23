@@ -64,8 +64,8 @@ function CollectionEventsContainer() {
         onEdit={(values) =>
           onOpen({
             ...values,
-            collectionId: values.collection.id,
-            titleFilmId: values.film?.id ?? 0,
+            collectionId: values.collectionId,
+            titleFilmId: values.titleFilmId ?? 0,
             isOneDayEvent: values.startDateCode === values.endDateCode,
           })
         }

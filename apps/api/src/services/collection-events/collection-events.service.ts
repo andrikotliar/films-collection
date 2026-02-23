@@ -16,26 +16,34 @@ export class CollectionEventsService {
 
     const events = await this.deps.collectionEventsRepository.getEvents(dateCode);
 
-    return events ?? [];
+    return events;
   }
 
-  createEvent(input: CreateCollectionEventInput) {
-    return this.deps.collectionEventsRepository.createEvent(input);
+  async createEvent(input: CreateCollectionEventInput) {
+    const [createdEvent] = await this.deps.collectionEventsRepository
+      .createEvent(input)
+      .returning();
+
+    return createdEvent;
   }
 
   async deleteEvent(id: number) {
-    return this.deps.collectionEventsRepository.deleteEvent(id);
+    await this.deps.collectionEventsRepository.deleteEvent(id);
   }
 
   async updateEvent(id: number, input: UpdateCollectionEventInput) {
-    return this.deps.collectionEventsRepository.updateEvent(id, input);
+    const [updatedEvent] = await this.deps.collectionEventsRepository
+      .updateEvent(id, input)
+      .returning();
+
+    return updatedEvent;
   }
 
   async getAllEvents() {
     const events = await this.deps.collectionEventsRepository.getAllEvents();
 
     const eventsWithCount = events.map(async (event) => {
-      const count = await this.deps.collectionsService.countFilmsByCollection(event.collection.id);
+      const count = await this.deps.collectionsService.countFilmsByCollection(event.collectionId);
 
       return {
         ...event,

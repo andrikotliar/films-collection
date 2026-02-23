@@ -46,11 +46,9 @@ export default createRouter([
       response: IdParamSchema,
     },
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('collectionEventsService')
-        .deleteEvent(request.params.id);
+      await app.container.resolve('collectionEventsService').deleteEvent(request.params.id);
 
-      return { data: { id: data.id } };
+      return { data: { id: request.params.id } };
     },
   }),
 

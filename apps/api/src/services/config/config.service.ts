@@ -4,14 +4,6 @@ import z from 'zod';
 const EnvSchema = z.object({
   SERVER_PORT: z.string().transform((value) => Number(value)),
   SERVER_HOST: z.string().optional(),
-  POSTGRES_USER: z.string().optional(),
-  POSTGRES_PASSWORD: z.string().optional(),
-  POSTGRES_DB: z.string().optional(),
-  POSTGRES_HOST: z.string().optional(),
-  POSTGRES_PORT: z
-    .string()
-    .transform((value) => Number(value))
-    .optional(),
   AUTH_SECRET: z.string(),
   COOKIE_SECRET: z.string(),
   CLOUDINARY_CLOUD_NAME: z.string(),

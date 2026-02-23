@@ -29,8 +29,8 @@ export const PersonResponseSchema = z.object({
   id: z.coerce.number(),
   name: z.string(),
   selected: z.boolean(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export const PeopleListResponseSchema = z.object({

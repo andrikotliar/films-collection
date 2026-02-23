@@ -1,32 +1,35 @@
 import type { Deps } from '~/shared';
 import type { StudioInput } from '@films-collection/shared';
+import { studios } from '~/database/schema';
+import { asc, eq } from 'drizzle-orm';
 
 export class StudiosRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   getAll() {
-    return this.deps.databaseService.studio.findMany({
-      select: { id: true, title: true },
-      orderBy: {
-        title: 'asc',
-      },
-    });
+    return this.deps.db
+      .select({ id: studios.id, title: studios.title })
+      .from(studios)
+      .orderBy(asc(studios.title));
   }
 
-  create(input: StudioInput) {
-    return this.deps.databaseService.studio.create({ data: input });
+  async create(input: StudioInput) {
+    const [studio] = await this.deps.db.insert(studios).values(input).returning();
+
+    return studio;
   }
 
-  delete(id: number) {
-    return this.deps.databaseService.studio.delete({ where: { id } });
+  async delete(id: number) {
+    await this.deps.db.delete(studios).where(eq(studios.id, id));
   }
 
-  update(id: number, input: StudioInput) {
-    return this.deps.databaseService.studio.update({
-      where: {
-        id,
-      },
-      data: input,
-    });
+  async update(id: number, input: StudioInput) {
+    const [studio] = await this.deps.db
+      .update(studios)
+      .set(input)
+      .where(eq(studios.id, id))
+      .returning();
+
+    return studio;
   }
 }

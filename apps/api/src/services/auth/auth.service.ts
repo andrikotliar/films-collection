@@ -63,7 +63,7 @@ export class AuthService {
       return null;
     }
 
-    return this.deps.usersService.setRefreshToken({ id: decodedToken.id, refreshToken: null });
+    return this.deps.usersService.setRefreshToken(decodedToken.id, null);
   }
 
   private createToken(payload: Record<string, unknown>, expTime: number) {

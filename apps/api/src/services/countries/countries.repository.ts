@@ -1,37 +1,29 @@
-import type { Deps } from '~/shared';
+import { getFirstValue, type Deps } from '~/shared';
 import type { CountryInput } from '@films-collection/shared';
+import { countries } from '~/database/schema';
+import { asc, eq } from 'drizzle-orm';
 
 export class CountriesRepository {
-  constructor(private readonly deps: Deps<'databaseService'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   getAll() {
-    return this.deps.databaseService.country.findMany({
-      select: {
-        id: true,
-        title: true,
-      },
-      orderBy: {
-        title: 'asc',
-      },
-    });
+    return this.deps.db
+      .select({ id: countries.id, title: countries.title })
+      .from(countries)
+      .orderBy(asc(countries.title));
   }
 
   create(input: CountryInput) {
-    return this.deps.databaseService.country.create({
-      data: input,
-    });
+    return getFirstValue(this.deps.db.insert(countries).values(input).returning());
   }
 
-  delete(id: number) {
-    return this.deps.databaseService.country.delete({ where: { id } });
+  async delete(id: number) {
+    await this.deps.db.delete(countries).where(eq(countries.id, id));
   }
 
   update(id: number, input: CountryInput) {
-    return this.deps.databaseService.country.update({
-      where: {
-        id,
-      },
-      data: input,
-    });
+    return getFirstValue(
+      this.deps.db.update(countries).set(input).where(eq(countries.id, id)).returning(),
+    );
   }
 }

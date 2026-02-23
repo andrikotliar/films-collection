@@ -14,29 +14,28 @@ export const UpdateCollectionEventInputSchema = CreateCollectionEventInputSchema
 export const CollectionEventResponseSchema = z.object({
   ...CreateCollectionEventInputSchema.shape,
   id: z.coerce.number(),
-  createdAt: z.date(),
-  updatedAt: z.date(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
 });
 
 export const CollectionEventsListResponseSchema = z.array(
   z.object({
     ...CollectionEventResponseSchema.omit({
-      titleFilmId: true,
-      collectionId: true,
       createdAt: true,
       updatedAt: true,
     }).shape,
-    filmsCount: z.coerce.number(),
-    collection: z.object({
-      id: z.coerce.number(),
-      title: z.string(),
-    }),
-    film: z
-      .object({
-        id: z.coerce.number(),
-        poster: z.string().nullable(),
-      })
-      .nullable(),
+  }),
+);
+
+export const CollectionCurrentEventsListResponseSchema = z.array(
+  z.object({
+    ...CollectionEventResponseSchema.pick({
+      id: true,
+      title: true,
+      yearFrom: true,
+      collectionId: true,
+    }).shape,
+    poster: z.string().nullable(),
   }),
 );
 

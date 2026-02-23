@@ -1,7 +1,10 @@
 import type { NominationInput } from '@films-collection/shared';
-import type { Prisma } from '@prisma/client';
+
+type CreateNominationInput = Omit<NominationInput, 'id'> & {
+  awardId: number;
+};
 
 export type GroupedNominations = {
-  create: Pick<Prisma.NominationUncheckedCreateInput, 'title' | 'shouldIncludeActor' | 'awardId'>[];
+  create: CreateNominationInput[];
   update: NominationInput[];
 };

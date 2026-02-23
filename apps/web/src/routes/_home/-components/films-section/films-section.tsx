@@ -23,7 +23,7 @@ export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
     );
   }
 
-  if (!data.films.length) {
+  if (!data.list.length) {
     return (
       <div className={styles.films_section}>
         <AdditionalInfoSection info={data.additionalInfo} />
@@ -50,7 +50,7 @@ export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
     <div className={styles.films_section}>
       <CurrentEvents />
       <AdditionalInfoSection info={data.additionalInfo} />
-      <FilmsGrid films={data.films} />
+      <FilmsGrid films={data.list} />
       <div className={styles.pagination_wrapper}>
         <Pagination
           total={data.total}
