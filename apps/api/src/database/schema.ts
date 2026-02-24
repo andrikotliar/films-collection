@@ -12,7 +12,6 @@ import {
   uniqueIndex,
   pgEnum,
 } from 'drizzle-orm/pg-core';
-import { sql } from 'drizzle-orm';
 
 export const collectionCategory = pgEnum('collection_category', [
   'GENERAL',
@@ -49,10 +48,12 @@ export const films = pgTable(
     chapterKey: text('chapter_key'),
     chapterOrder: integer('chapter_order'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     draft: boolean().default(false).notNull(),
     deletedAt: timestamp({ precision: 3, mode: 'string' }),
@@ -77,10 +78,12 @@ export const awards = pgTable(
     title: text().notNull(),
     description: text(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
   },
   (table) => [
@@ -96,10 +99,12 @@ export const collections = pgTable(
     description: text(),
     category: collectionCategory().default('GENERAL').notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
   },
   (table) => [
@@ -117,10 +122,12 @@ export const collectionEvents = pgTable(
     title: text().notNull(),
     collectionId: integer('collection_id').notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     yearFrom: integer('year_from').default(0).notNull(),
     titleFilmId: integer('title_film_id').notNull(),
@@ -153,10 +160,12 @@ export const filmsCollections = pgTable(
     collectionId: integer('collection_id').notNull(),
     order: integer(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
   },
   (table) => [
@@ -189,10 +198,12 @@ export const pendingFilms = pgTable(
     title: text().notNull(),
     priority: integer().default(1).notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     collectionId: integer(),
     rating: integer(),
@@ -215,11 +226,13 @@ export const filmTrailers = pgTable(
     order: integer().notNull(),
     filmId: integer('film_id').notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
     url: text().notNull(),
   },
   (table) => [
@@ -244,11 +257,13 @@ export const countries = pgTable(
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('countries_title_key').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -265,11 +280,13 @@ export const filmAwardNominations = pgTable(
     comment: text(),
     actorId: integer('actor_id'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('film_award_nominations_award_id_film_id_nomination_id_key').using(
@@ -312,11 +329,13 @@ export const filmAwardNominations = pgTable(
 export const filmChapterKeys = pgTable('film_chapter_keys', {
   key: text().primaryKey().notNull(),
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-    .default(sql`CURRENT_TIMESTAMP`)
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
     .notNull(),
   updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
     .notNull()
-    .default(sql`CURRENT_TIMESTAMP`),
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString()),
 });
 
 export const filmsCountries = pgTable(
@@ -326,11 +345,13 @@ export const filmsCountries = pgTable(
     filmId: integer('film_id').notNull(),
     countryId: integer('country_id').notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('films_countries_film_id_country_id_key').using(
@@ -362,11 +383,13 @@ export const filmsGenres = pgTable(
     filmId: integer('film_id').notNull(),
     genreId: integer('genre_id').notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('films_genres_film_id_genre_id_key').using(
@@ -398,11 +421,13 @@ export const filmsStudios = pgTable(
     filmId: integer('film_id').notNull(),
     studioId: integer('studio_id').notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('films_studios_film_id_studio_id_key').using(
@@ -433,11 +458,13 @@ export const genres = pgTable(
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('genres_title_key').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -454,11 +481,13 @@ export const nominations = pgTable(
       .references(() => awards.id),
     shouldIncludeActor: boolean('should_include_actor').default(false).notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('nominations_award_id_title_key').using(
@@ -485,11 +514,13 @@ export const seriesExtensions = pgTable(
     filmId: integer('film_id').notNull(),
     finishedAt: date('finished_at'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('series_extensions_film_id_key').using(
@@ -512,11 +543,13 @@ export const studios = pgTable(
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('studios_title_key').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -531,11 +564,13 @@ export const users = pgTable(
     password: text().notNull(),
     refreshToken: text('refresh_token'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     uniqueIndex('users_username_key').using(
@@ -555,11 +590,13 @@ export const filmsPeople = pgTable(
     details: text(),
     comment: text(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-      .default(sql`CURRENT_TIMESTAMP`)
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
       .notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()
-      .default(sql`CURRENT_TIMESTAMP`),
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString()),
   },
   (table) => [
     foreignKey({
@@ -583,11 +620,13 @@ export const people = pgTable('people', {
   id: serial().primaryKey().notNull(),
   name: text().notNull(),
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-    .default(sql`CURRENT_TIMESTAMP`)
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
     .notNull(),
   updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
     .notNull()
-    .default(sql`CURRENT_TIMESTAMP`),
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString()),
   selected: boolean().default(false).notNull(),
 });
 
@@ -596,10 +635,12 @@ export const pageContent = pgTable('page_content', {
   title: text().notNull(),
   content: text().notNull(),
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
-    .default(sql`CURRENT_TIMESTAMP`)
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
     .notNull(),
   updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-    .default(sql`CURRENT_TIMESTAMP`)
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
     .notNull(),
   pageKey: text('page_key').notNull(),
 });

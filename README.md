@@ -92,6 +92,18 @@ docker run --rm \
   /dump/db.dump
 ```
 
+Using connection URL string
+
+
+```shell
+docker run --rm \
+  -v "$PWD:/dump" \
+  postgres:17-bookworm \
+  pg_restore \
+    -d "postgresql://USER:PASSWORD@HOST:5432/DATABASE" \
+    -v /dump/db.dump
+```
+
 ## Migrations
 
 1. Update `apps/api/src/database/schema.ts` file.
