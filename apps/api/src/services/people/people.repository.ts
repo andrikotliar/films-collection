@@ -8,7 +8,7 @@ import {
 } from '@films-collection/shared';
 import { and, asc, count, eq, exists, ilike, inArray, notInArray, type SQL } from 'drizzle-orm';
 import { filmsPeople, people } from '~/database/schema';
-import { getFirstValue, type Deps } from '~/shared';
+import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared';
 
 export class PeopleRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -70,7 +70,7 @@ export class PeopleRepository {
     }
 
     if (q) {
-      filters.push(ilike(people.name, q.trim()));
+      filters.push(ilike(people.name, sqlSearchQuery(q)));
     } else {
       filters.push(eq(people.selected, true));
     }
@@ -127,7 +127,7 @@ export class PeopleRepository {
     const filters: SQL[] = [];
 
     if (queries.q) {
-      filters.push(ilike(people.name, queries.q));
+      filters.push(ilike(people.name, sqlSearchQuery(queries.q)));
     }
 
     if (queries.selected) {

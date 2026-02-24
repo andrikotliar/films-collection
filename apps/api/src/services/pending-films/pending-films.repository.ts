@@ -8,7 +8,7 @@ import {
 } from '@films-collection/shared';
 import { and, asc, count, desc, eq, ilike, inArray, type AnyColumn, type SQL } from 'drizzle-orm';
 import { pendingFilms } from '~/database/schema';
-import { getFirstValue, type Deps } from '~/shared';
+import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared';
 
 export class PendingFilmsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -87,7 +87,7 @@ export class PendingFilmsRepository {
     const filters: SQL[] = [];
 
     if (q) {
-      filters.push(ilike(pendingFilms.title, q.trim()));
+      filters.push(ilike(pendingFilms.title, sqlSearchQuery(q)));
     }
 
     if (priorities?.length) {
