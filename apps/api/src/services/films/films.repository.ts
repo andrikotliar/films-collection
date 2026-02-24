@@ -42,7 +42,7 @@ import type {
 
 type AnyTable = {
   name: string;
-  columns: { id: PgColumn; [key: string]: any };
+  columns: { filmId: PgColumn; [key: string]: any };
   schema: undefined;
   dialect: 'pg';
 };
@@ -607,7 +607,7 @@ export class FilmsRepository {
     table,
     values,
   }: UpdateRelationsParams<T, V>) {
-    await transaction.delete(table).where(eq(table.id, filmId));
+    await transaction.delete(table).where(eq(table.filmId, filmId));
 
     await transaction.insert(table).values(values);
   }
