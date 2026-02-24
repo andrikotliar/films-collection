@@ -1,4 +1,4 @@
-import { getFirstValue, type Deps } from '~/shared';
+import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -292,7 +292,7 @@ export class FilmsRepository {
           },
         },
       },
-      where: and(isNull(films.deletedAt), ilike(films.title, query)),
+      where: and(isNull(films.deletedAt), ilike(films.title, sqlSearchQuery(query))),
       limit: PAGE_LIMITS.default,
     });
   }
@@ -335,7 +335,7 @@ export class FilmsRepository {
     const filters: SQL[] = [isNull(films.deletedAt)];
 
     if (q) {
-      filters.push(ilike(films.title, q));
+      filters.push(ilike(films.title, sqlSearchQuery(q)));
     }
 
     if (selected) {
