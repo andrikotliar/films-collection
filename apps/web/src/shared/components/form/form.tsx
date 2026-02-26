@@ -15,6 +15,7 @@ import {
   FormFileInput,
   FormGroup,
   FormMonthDateSelector,
+  FormOrderSelect,
   FormRatingInput,
   FormSection,
   FormSelect,
@@ -97,3 +98,4 @@ Form.TextInput = FormTextInput;
 Form.Title = FormTitle;
 Form.Toggle = FormToggle;
 Form.VideoInput = FormVideoInput;
+Form.OrderSelect = FormOrderSelect;
