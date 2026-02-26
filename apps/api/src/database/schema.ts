@@ -45,7 +45,7 @@ export const films = pgTable(
     boxOffice: bigint('box_office', { mode: 'number' }).default(0).notNull(),
     rating: integer().default(1).notNull(),
     chapterKey: text('chapter_key'),
-    chapterOrder: numeric('chapter_order'),
+    chapterOrder: numeric('chapter_order', { mode: 'number' }),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())

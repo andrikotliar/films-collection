@@ -60,13 +60,8 @@ export class FilmsService {
     return this.deps.filmsRepository.findAndCountAdmin(queries);
   }
 
-  async getRelatedChapters(chapterKey: string) {
-    const chapters = await this.deps.filmsRepository.findChapters(chapterKey);
-
-    return chapters.map((chapter) => ({
-      ...chapter,
-      chapterOrder: !isNaN(Number(chapter.chapterOrder)) ? Number(chapter.chapterOrder) : null,
-    }));
+  getRelatedChapters(chapterKey: string) {
+    return this.deps.filmsRepository.findChapters(chapterKey);
   }
 
   getFilmsTotal() {
