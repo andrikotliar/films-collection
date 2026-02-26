@@ -11,6 +11,7 @@ import {
   boolean,
   uniqueIndex,
   pgEnum,
+  numeric,
 } from 'drizzle-orm/pg-core';
 
 export const collectionCategory = pgEnum('collection_category', [
@@ -40,13 +41,11 @@ export const films = pgTable(
     releaseDate: date('release_date').notNull(),
     duration: integer().default(0).notNull(),
     poster: text(),
-    // You can use { mode: "bigint" } if numbers are exceeding js number limitations
     budget: bigint({ mode: 'number' }).default(0).notNull(),
-    // You can use { mode: "bigint" } if numbers are exceeding js number limitations
     boxOffice: bigint('box_office', { mode: 'number' }).default(0).notNull(),
     rating: integer().default(1).notNull(),
     chapterKey: text('chapter_key'),
-    chapterOrder: integer('chapter_order'),
+    chapterOrder: numeric('chapter_order', { mode: 'number' }),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())

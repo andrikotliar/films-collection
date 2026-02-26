@@ -1,0 +1,1 @@
+ALTER TABLE "films" ALTER COLUMN "chapter_order" SET DATA TYPE numeric;

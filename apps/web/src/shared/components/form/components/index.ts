@@ -17,3 +17,4 @@ export * from './form-text-input/form-text-input';
 export * from './form-title/form-title';
 export * from './form-toggle/form-toggle';
 export * from './form-video-input/form-video-input';
+export * from './form-order-select/form-order-select';
