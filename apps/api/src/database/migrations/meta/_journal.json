@@ -15,6 +15,13 @@
       "when": 1771960088852,
       "tag": "0002_material_spencer_smythe",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1772010474754,
+      "tag": "0003_third_kate_bishop",
+      "breakpoints": true
     }
   ]
 }
