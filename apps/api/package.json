@@ -8,7 +8,7 @@
     "start": "node dist/server.js",
     "db:migration:gen": "drizzle-kit generate",
     "db:migration:apply": "drizzle-kit migrate",
-    "check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint . --quiet --ext .ts",
     "api:generate": "tsx src/scripts/generate-client.ts"
   },
