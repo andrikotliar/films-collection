@@ -2,7 +2,7 @@ import { convertCamelCaseToKebabCase } from '@films-collection/shared';
 import fs from 'node:fs';
 import path from 'node:path';
 import type z from 'zod';
-import { routers } from '~/routers';
+import { routers } from '~/modules';
 import type { Route, RouteSchema } from '~/shared';
 import { createAuxiliaryTypeStore, printNode, zodToTs } from 'zod-to-ts';
 

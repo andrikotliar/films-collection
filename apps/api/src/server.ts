@@ -11,7 +11,7 @@ import {
 } from 'fastify-type-provider-zod';
 import { RoutesPlugin, DatabasePlugin, DiContainerPlugin, type Database } from '~/plugins';
 import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
-import { ConfigService } from '~/services/config';
+import { ConfigService } from '~/modules/config';
 
 declare module 'fastify' {
   export interface FastifyInstance {
