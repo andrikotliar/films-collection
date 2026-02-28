@@ -2,7 +2,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { v2 as cloudinary, type UploadApiOptions } from 'cloudinary';
 import { UploadingError, type Deps } from '~/shared';
-import { destinationParams } from '~/services/files/configs';
+import { destinationParams } from '~/modules/files/configs';
 import type { FileUploadPayload } from '@films-collection/shared';
 
 export class FilesService {

@@ -9,7 +9,7 @@ import {
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapAdminListFilters, mapListFilters } from '~/services/films/helpers';
+import { mapAdminListFilters, mapListFilters } from '~/modules/films/helpers';
 import {
   and,
   asc,

@@ -2,7 +2,7 @@ import { compare } from 'bcrypt';
 import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC, type Deps } from '~/shared';
 import type { LoginInput } from '@films-collection/shared';
 import type { JWT } from '@fastify/jwt';
-import type { VerifiedTokenData } from '~/services/auth/types';
+import type { VerifiedTokenData } from '~/modules/auth/types';
 
 export class AuthService {
   constructor(private readonly deps: Deps<'usersService' | 'jwtService'>) {}

@@ -1,7 +1,7 @@
 import type { CreateAwardInput, NominationInput, UpdateAwardInput } from '@films-collection/shared';
 import { asc, eq, inArray } from 'drizzle-orm';
 import { awards, nominations } from '~/database/schema';
-import type { UpdateAwardParams } from '~/services/awards/types/update-award-params';
+import type { UpdateAwardParams } from '~/modules/awards/types/update-award-params';
 import { getFirstValue, type Deps } from '~/shared';
 
 export class AwardsRepository {

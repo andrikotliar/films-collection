@@ -1,19 +1,19 @@
-import { AuthService } from '~/services/auth';
-import { AwardsRepository, AwardsService } from '~/services/awards';
-import { ChapterKeysRepository, ChapterKeysService } from '~/services/chapter-keys';
-import { CollectionEventsRepository, CollectionEventsService } from '~/services/collection-events';
-import { CollectionsRepository, CollectionsService } from '~/services/collections';
-import { CountriesRepository, CountriesService } from '~/services/countries';
-import { FilesService } from '~/services/files';
-import { FilmsRepository, FilmsService } from '~/services/films';
-import { GenresRepository, GenresService } from '~/services/genres';
-import { InitialDataService } from '~/services/initial-data';
-import { PageContentRepository, PageContentService } from '~/services/page-content';
-import { PendingFilmsRepository, PendingFilmsService } from '~/services/pending-films';
-import { PeopleRepository, PeopleService } from '~/services/people';
-import { StudiosRepository, StudiosService } from '~/services/studios';
-import { UsersRepository, UsersService } from '~/services/users';
-import { ConfigService } from '~/services/config';
+import { AuthService } from '~/modules/auth';
+import { AwardsRepository, AwardsService } from '~/modules/awards';
+import { ChapterKeysRepository, ChapterKeysService } from '~/modules/chapter-keys';
+import { CollectionEventsRepository, CollectionEventsService } from '~/modules/collection-events';
+import { CollectionsRepository, CollectionsService } from '~/modules/collections';
+import { CountriesRepository, CountriesService } from '~/modules/countries';
+import { FilesService } from '~/modules/files';
+import { FilmsRepository, FilmsService } from '~/modules/films';
+import { GenresRepository, GenresService } from '~/modules/genres';
+import { InitialDataService } from '~/modules/initial-data';
+import { PageContentRepository, PageContentService } from '~/modules/page-content';
+import { PendingFilmsRepository, PendingFilmsService } from '~/modules/pending-films';
+import { PeopleRepository, PeopleService } from '~/modules/people';
+import { StudiosRepository, StudiosService } from '~/modules/studios';
+import { UsersRepository, UsersService } from '~/modules/users';
+import { ConfigService } from '~/modules/config';
 
 export const services = {
   authService: AuthService,

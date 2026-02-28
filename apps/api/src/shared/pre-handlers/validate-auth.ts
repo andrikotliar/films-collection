@@ -1,5 +1,5 @@
 import type { FastifyReply, FastifyRequest } from 'fastify';
-import type { VerifiedTokenData } from '~/services/auth';
+import type { VerifiedTokenData } from '~/modules/auth';
 import { CookieName } from '~/shared/enums';
 import { UnauthorizedException } from '~/shared/exceptions';
 import { getCookie } from '~/shared/helpers';

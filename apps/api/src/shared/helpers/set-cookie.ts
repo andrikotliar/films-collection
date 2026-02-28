@@ -1,5 +1,5 @@
 import type { FastifyReply } from 'fastify';
-import type { ConfigService } from '~/services/config';
+import type { ConfigService } from '~/modules/config';
 import { CookieName, type CookieNameId } from '~/shared';
 
 type Options = {
