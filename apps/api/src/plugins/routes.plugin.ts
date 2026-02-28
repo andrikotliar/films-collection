@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { initRouters } from '~/shared';
-import { routers } from '~/routers';
+import { routers } from '~/modules';
 import { convertCamelCaseToKebabCase } from '@films-collection/shared';
 
 export const RoutesPlugin = async (app: FastifyInstance) => {

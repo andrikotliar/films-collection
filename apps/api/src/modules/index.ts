@@ -67,7 +67,7 @@ export const services = {
   configService: ConfigService,
 };
 
-export const routes: Record<string, Route[]> = {
+export const routers: Record<string, Route[]> = {
   auth: authRouter,
   awards: awardsRouter,
   chapterKeys: chapterKeysRouter,
