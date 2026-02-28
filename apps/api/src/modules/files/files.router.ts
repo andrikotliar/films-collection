@@ -1,7 +1,7 @@
 import { BadRequestException, defineRoute, createRouter, validateAuth } from '~/shared';
 import { CreateFileResponseSchema, type FileUploadPayload } from '@films-collection/shared';
 
-export default createRouter([
+export const filesRouter = createRouter([
   defineRoute({
     method: 'POST',
     url: '/',

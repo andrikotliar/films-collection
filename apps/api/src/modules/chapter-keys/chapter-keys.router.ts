@@ -6,7 +6,7 @@ import {
 } from '@films-collection/shared';
 import z from 'zod';
 
-export default createRouter([
+export const chapterKeysRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/options',

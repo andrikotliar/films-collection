@@ -1,7 +1,7 @@
 import { InitialDataResponseSchema } from '@films-collection/shared';
 import { defineRoute, createRouter } from '~/shared';
 
-export default createRouter([
+export const initialDataRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/',

@@ -7,7 +7,7 @@ import {
   CollectionEventsListResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const collectionEventsRouter = createRouter([
   defineRoute({
     method: 'POST',
     url: '/',

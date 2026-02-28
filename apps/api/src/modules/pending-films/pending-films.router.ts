@@ -9,7 +9,7 @@ import {
   PendingFilmByIdResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const pendingFilmsRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/',

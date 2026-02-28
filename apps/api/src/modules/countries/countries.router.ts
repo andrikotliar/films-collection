@@ -6,7 +6,7 @@ import {
   CountryResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const countriesRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/',

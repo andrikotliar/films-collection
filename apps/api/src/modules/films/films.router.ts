@@ -17,7 +17,7 @@ import {
 } from '@films-collection/shared';
 import z from 'zod';
 
-export default createRouter([
+export const filmsRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/',

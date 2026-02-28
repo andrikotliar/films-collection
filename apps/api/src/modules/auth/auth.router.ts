@@ -16,7 +16,7 @@ import {
   LogoutResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const authRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/state',

@@ -6,7 +6,7 @@ import {
   GenreResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const genresRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/',

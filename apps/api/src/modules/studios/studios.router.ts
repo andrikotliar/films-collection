@@ -6,7 +6,7 @@ import {
   StudiosResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const studiosRouter = createRouter([
   defineRoute({
     method: 'GET',
     url: '/',

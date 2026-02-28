@@ -11,7 +11,7 @@ import {
   PageContentByIdResponseSchema,
 } from '@films-collection/shared';
 
-export default createRouter([
+export const pageContentRouter = createRouter([
   defineRoute({
     method: 'POST',
     url: '/',
