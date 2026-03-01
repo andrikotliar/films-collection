@@ -1,6 +1,6 @@
 import z from 'zod';
 import { PersonRole, TitleStyle, TitleType } from '~/enums';
-import { getArrayFromQuery } from '~/helpers';
+import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
 import { CountryResponseSchema } from '~/schemas/countries.schema';
@@ -230,7 +230,7 @@ export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
   });
 
 export const GetCompleteDataListQuerySchema = z.object({
-  newestOnly: z.boolean().optional(),
+  newestOnly: getBoolFromQuery.optional(),
 });
 
 export const CompleteDataListResponseSchema = z.object({
