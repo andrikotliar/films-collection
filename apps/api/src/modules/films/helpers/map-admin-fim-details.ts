@@ -10,10 +10,9 @@ import type {
   FilmTrailer,
   SeriesExtension,
 } from '~/database/schema';
+import type { Timestamps } from '~/modules/films/types';
 
-type Timestamps = 'createdAt' | 'updatedAt';
-
-type EditableFilm = Omit<Film, Timestamps | 'deletedAt' | 'id'> & {
+type EditableFilm = Omit<Film, Timestamps | 'id'> & {
   collections: Pick<FilmCollection, 'collectionId'>[];
   genres: Pick<FilmGenre, 'genreId'>[];
   countries: Pick<FilmCountry, 'countryId'>[];

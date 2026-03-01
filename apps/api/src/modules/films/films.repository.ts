@@ -16,10 +16,12 @@ import {
   count,
   desc,
   eq,
+  gte,
   ilike,
   inArray,
   isNull,
   notInArray,
+  sql,
   type SQL,
 } from 'drizzle-orm';
 import {
@@ -610,6 +612,86 @@ export class FilmsRepository {
     await transaction.delete(table).where(eq(table.filmId, filmId));
 
     await transaction.insert(table).values(values);
+  }
+
+  getCompleteData(newestOnly = true) {
+    return this.deps.db.query.films.findMany({
+      where: newestOnly ? gte(films.updatedAt, sql`NOW() - INTERVAL '7 days'`) : undefined,
+      orderBy: desc(films.updatedAt),
+      columns: {
+        title: true,
+        releaseDate: true,
+        duration: true,
+        overview: true,
+        budget: true,
+        boxOffice: true,
+        type: true,
+        style: true,
+      },
+      with: {
+        countries: {
+          with: {
+            country: {
+              columns: {
+                title: true,
+              },
+            },
+          },
+        },
+        genres: {
+          with: {
+            genre: {
+              columns: {
+                title: true,
+              },
+            },
+          },
+        },
+        studios: {
+          with: {
+            studio: {
+              columns: {
+                title: true,
+              },
+            },
+          },
+        },
+        castAndCrew: {
+          columns: {
+            role: true,
+            details: true,
+          },
+          with: {
+            person: {
+              columns: {
+                name: true,
+              },
+            },
+          },
+        },
+        awards: {
+          with: {
+            award: {
+              columns: {
+                title: true,
+              },
+            },
+            nomination: {
+              columns: {
+                title: true,
+              },
+            },
+          },
+        },
+        seriesExtensions: {
+          columns: {
+            episodesTotal: true,
+            seasonsTotal: true,
+            finishedAt: true,
+          },
+        },
+      },
+    });
   }
 
   private mapSorting(key: string = 'createdAt', direction: SortingOrder = 'desc') {

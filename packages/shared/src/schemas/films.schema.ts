@@ -229,10 +229,55 @@ export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
     seriesExtension: SeriesExtensionSchema.partial().nullable().optional(),
   });
 
+export const GetCompleteDataListQuerySchema = z.object({
+  newestOnly: z.boolean().optional(),
+});
+
+export const CompleteDataListResponseSchema = z.object({
+  title: z.string(),
+  releaseDate: z.string(),
+  type: z.string(),
+  style: z.string(),
+  duration: z.string(),
+  budget: z.string(),
+  boxOffice: z.string(),
+  overview: z.string(),
+  genres: z.array(z.string()),
+  countries: z.array(z.string()),
+  studios: z.array(z.string()),
+  awards: z.array(
+    z.object({
+      title: z.string(),
+      nominations: z.array(z.string()),
+    }),
+  ),
+  crew: z.array(
+    z.object({
+      role: z.string(),
+      name: z.string(),
+    }),
+  ),
+  cast: z.array(
+    z.object({
+      name: z.string(),
+      character: z.string(),
+    }),
+  ),
+  summary: z
+    .object({
+      episodesTotal: z.number(),
+      seasonsTotal: z.number(),
+      finishedAt: z.string().nullable(),
+    })
+    .optional(),
+});
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
+export type GetCompleteDataListQuery = z.infer<typeof GetCompleteDataListQuerySchema>;
 export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema>;
 export type GetAdminListQuery = z.infer<typeof GetAdminListQuerySchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
+export type CompleteDataListResponse = z.infer<typeof CompleteDataListResponseSchema>;

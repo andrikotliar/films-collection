@@ -6,8 +6,10 @@ import {
   convertEnumValueToLabel,
   type CreateFilmInput,
   type UpdateFilmInput,
+  type GetCompleteDataListQuery,
+  type CompleteDataListResponse,
 } from '@films-collection/shared';
-import { mapFilmDetails, mapAdminFilmDetails } from './helpers';
+import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
 export class FilmsService {
   constructor(
@@ -152,5 +154,10 @@ export class FilmsService {
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
     return this.getFilmDetails(filmId);
+  }
+
+  async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataListResponse[]> {
+    const list = await this.deps.filmsRepository.getCompleteData(queries.newestOnly);
+    return mapCompleteDataList(list);
   }
 }
