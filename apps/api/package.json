@@ -46,6 +46,6 @@
   "author": "Andrii Kotliar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrikotliar/films-collection/tree/main/server"
+    "url": "https://github.com/andrikotliar/films-collection/tree/main/apps/api"
   }
 }
