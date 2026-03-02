@@ -233,7 +233,7 @@ export const GetCompleteDataListQuerySchema = z.object({
   newestOnly: getBoolFromQuery.optional(),
 });
 
-export const CompleteDataListResponseSchema = z.object({
+export const CompleteDataListItemSchema = z.object({
   title: z.string(),
   releaseDate: z.string(),
   type: z.string(),
@@ -245,6 +245,14 @@ export const CompleteDataListResponseSchema = z.object({
   genres: z.array(z.string()),
   countries: z.array(z.string()),
   studios: z.array(z.string()),
+  chapterKey: z.string().optional(),
+  chapterOrder: z.number().optional(),
+  trailers: z.array(
+    z.object({
+      url: z.string(),
+      order: z.number(),
+    }),
+  ),
   awards: z.array(
     z.object({
       title: z.string(),
@@ -263,13 +271,33 @@ export const CompleteDataListResponseSchema = z.object({
       character: z.string(),
     }),
   ),
-  summary: z
+  seriesExtension: z
     .object({
       episodesTotal: z.number(),
       seasonsTotal: z.number(),
       finishedAt: z.string().nullable(),
     })
     .optional(),
+});
+
+export const CompleteDataResponseSchema = z.object({
+  list: z.array(CompleteDataListItemSchema),
+  baseData: z.object({
+    genres: z.array(z.string()),
+    countries: z.array(z.string()),
+    studios: z.array(z.string()),
+    awards: z.array(
+      z.object({
+        title: z.string(),
+        nominations: z.array(
+          z.object({
+            title: z.string(),
+            shouldIncludeActor: z.boolean(),
+          }),
+        ),
+      }),
+    ),
+  }),
 });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
@@ -280,4 +308,5 @@ export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema
 export type GetAdminListQuery = z.infer<typeof GetAdminListQuerySchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
-export type CompleteDataListResponse = z.infer<typeof CompleteDataListResponseSchema>;
+export type CompleteDataListItem = z.infer<typeof CompleteDataListItemSchema>;
+export type CompleteDataResponse = z.infer<typeof CompleteDataResponseSchema>;

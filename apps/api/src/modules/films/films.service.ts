@@ -7,7 +7,8 @@ import {
   type CreateFilmInput,
   type UpdateFilmInput,
   type GetCompleteDataListQuery,
-  type CompleteDataListResponse,
+  type CompleteDataResponse,
+  type ListOption,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -19,6 +20,9 @@ export class FilmsService {
       | 'awardsService'
       | 'collectionsService'
       | 'pendingFilmsService'
+      | 'genresService'
+      | 'countriesService'
+      | 'studiosService'
     >,
   ) {}
 
@@ -156,8 +160,28 @@ export class FilmsService {
     return this.getFilmDetails(filmId);
   }
 
-  async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataListResponse[]> {
-    const list = await this.deps.filmsRepository.getCompleteData(queries.newestOnly);
-    return mapCompleteDataList(list);
+  async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
+    const data = await this.deps.filmsRepository.getCompleteData(queries.newestOnly);
+
+    const genresOptions = await this.deps.genresService.getListOptions();
+    const countriesOptions = await this.deps.countriesService.getListOptions();
+    const studiosOptions = await this.deps.studiosService.getListOptions();
+    const awards = await this.deps.awardsService.getAwardsWithNominations();
+
+    const list = mapCompleteDataList(data);
+
+    return {
+      list,
+      baseData: {
+        genres: this.listOptionsToLabelsList(genresOptions),
+        countries: this.listOptionsToLabelsList(countriesOptions),
+        studios: this.listOptionsToLabelsList(studiosOptions),
+        awards,
+      },
+    };
+  }
+
+  private listOptionsToLabelsList(options: ListOption<number>[]) {
+    return options.map((option) => option.label);
   }
 }

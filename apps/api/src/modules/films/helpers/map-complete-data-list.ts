@@ -1,20 +1,17 @@
 import {
   convertEnumValueToLabel,
   getFormattedMoneyValue,
-  type CompleteDataListResponse,
+  type CompleteDataListItem,
 } from '@films-collection/shared';
 import sanitize from 'sanitize-html';
-import type { Film, FilmPerson, Person, SeriesExtension } from '~/database/schema';
+import type { Film, FilmPerson, FilmTrailer, Person, SeriesExtension } from '~/database/schema';
 import type { Timestamps } from '~/modules/films/types';
 
 type PropertyWithTitle = {
   title: string;
 };
 
-type CompleteDataFilm = Omit<
-  Film,
-  'rating' | 'chapterOrder' | 'chapterKey' | 'draft' | 'poster' | 'id' | Timestamps
-> & {
+type CompleteDataFilm = Omit<Film, 'rating' | 'draft' | 'poster' | 'id' | Timestamps> & {
   genres: Array<{ genre: PropertyWithTitle }>;
   studios: Array<{ studio: PropertyWithTitle }>;
   countries: Array<{ country: PropertyWithTitle }>;
@@ -28,6 +25,7 @@ type CompleteDataFilm = Omit<
     nomination: PropertyWithTitle;
   }>;
   seriesExtensions: Array<Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'>>;
+  trailers: Array<Omit<FilmTrailer, 'id' | Timestamps | 'filmId'>>;
 };
 
 type GroupedAwards = {
@@ -37,7 +35,7 @@ type GroupedAwards = {
   };
 };
 
-const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListResponse => {
+const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListItem => {
   const awards = film.awards.reduce((result, award) => {
     if (!result[award.award.title]) {
       result[award.award.title] = {
@@ -79,7 +77,10 @@ const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListResponse => 
     boxOffice: getFormattedMoneyValue(film.boxOffice),
     countries: film.countries.map((item) => item.country.title),
     studios: film.studios.map((item) => item.studio.title),
-    summary: film.seriesExtensions.length
+    chapterKey: film.chapterKey ?? undefined,
+    chapterOrder: film.chapterOrder ?? undefined,
+    trailers: film.trailers,
+    seriesExtension: film.seriesExtensions.length
       ? {
           seasonsTotal: film.seriesExtensions[0].seasonsTotal,
           episodesTotal: film.seriesExtensions[0].episodesTotal,
@@ -90,6 +91,6 @@ const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListResponse => 
   };
 };
 
-export const mapCompleteDataList = (films: CompleteDataFilm[]): CompleteDataListResponse[] => {
+export const mapCompleteDataList = (films: CompleteDataFilm[]): CompleteDataListItem[] => {
   return films.map(mapIndividualFilm);
 };

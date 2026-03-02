@@ -152,4 +152,20 @@ export class AwardsRepository {
       return updatedAward;
     });
   }
+
+  async getAwardsWithNominations() {
+    return this.deps.db.query.awards.findMany({
+      columns: {
+        title: true,
+      },
+      with: {
+        nominations: {
+          columns: {
+            title: true,
+            shouldIncludeActor: true,
+          },
+        },
+      },
+    });
+  }
 }

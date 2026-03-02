@@ -21,7 +21,7 @@ import {
   CreateFilmInputSchema,
   UpdateFilmInputSchema,
   GetCompleteDataListQuerySchema,
-  CompleteDataListResponseSchema,
+  CompleteDataResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -121,7 +121,7 @@ export const filmsRouter = createRouter([
     preHandler: [validateGetSignature],
     schema: {
       querystring: GetCompleteDataListQuerySchema,
-      response: z.array(CompleteDataListResponseSchema),
+      response: CompleteDataResponseSchema,
     },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getCompleteData(request.query);

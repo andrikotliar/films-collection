@@ -627,6 +627,8 @@ export class FilmsRepository {
         boxOffice: true,
         type: true,
         style: true,
+        chapterKey: true,
+        chapterOrder: true,
       },
       with: {
         countries: {
@@ -688,6 +690,12 @@ export class FilmsRepository {
             episodesTotal: true,
             seasonsTotal: true,
             finishedAt: true,
+          },
+        },
+        trailers: {
+          columns: {
+            url: true,
+            order: true,
           },
         },
       },
