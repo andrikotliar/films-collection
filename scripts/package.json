@@ -1,0 +1,25 @@
+{
+  "name": "@films-collection/scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export-films": "tsx src/export-films.ts"
+  },
+  "dependencies": {
+    "@films-collection/eslint-config": "workspace:^",
+    "@films-collection/shared": "workspace:^",
+    "dotenv": "^16.6.1",
+    "tsx": "^4.21.0",
+    "zod": "4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "winston": "^3.19.0"
+  },
+  "author": "Andrii Kotliar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrikotliar/films-collection/tree/main/scripts"
+  },
+  "packageManager": "pnpm@10.17.0"
+}
