@@ -1,4 +1,4 @@
-import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared';
+import { getFirstValue, getLatestEntriesFilter, sqlSearchQuery, type Deps } from '~/shared';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -16,12 +16,10 @@ import {
   count,
   desc,
   eq,
-  gte,
   ilike,
   inArray,
   isNull,
   notInArray,
-  sql,
   type SQL,
 } from 'drizzle-orm';
 import {
@@ -616,7 +614,7 @@ export class FilmsRepository {
 
   getCompleteData(newestOnly = true) {
     return this.deps.db.query.films.findMany({
-      where: newestOnly ? gte(films.updatedAt, sql`NOW() - INTERVAL '7 days'`) : undefined,
+      where: newestOnly ? getLatestEntriesFilter(films.updatedAt) : undefined,
       orderBy: desc(films.updatedAt),
       columns: {
         title: true,

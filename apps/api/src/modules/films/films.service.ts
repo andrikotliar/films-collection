@@ -8,9 +8,14 @@ import {
   type UpdateFilmInput,
   type GetCompleteDataListQuery,
   type CompleteDataResponse,
-  type ListOption,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
+
+type GenericOption = {
+  title: string;
+  updatedAt: string;
+  [key: string]: unknown;
+};
 
 export class FilmsService {
   constructor(
@@ -160,28 +165,51 @@ export class FilmsService {
     return this.getFilmDetails(filmId);
   }
 
-  async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
-    const data = await this.deps.filmsRepository.getCompleteData(queries.newestOnly);
-
-    const genresOptions = await this.deps.genresService.getListOptions();
-    const countriesOptions = await this.deps.countriesService.getListOptions();
-    const studiosOptions = await this.deps.studiosService.getListOptions();
+  async getCompleteData({ newestOnly }: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
+    const films = await this.deps.filmsRepository.getCompleteData(newestOnly);
+    const genres = await this.deps.genresService.getBaseListData();
+    const countries = await this.deps.countriesService.getBaseDataList();
+    const studios = await this.deps.studiosService.getBaseDataList();
     const awards = await this.deps.awardsService.getAwardsWithNominations();
 
-    const list = mapCompleteDataList(data);
-
     return {
-      list,
+      list: mapCompleteDataList(films),
       baseData: {
-        genres: this.listOptionsToLabelsList(genresOptions),
-        countries: this.listOptionsToLabelsList(countriesOptions),
-        studios: this.listOptionsToLabelsList(studiosOptions),
-        awards,
+        genres: this.listOptionsToLabelsList(this.getValidatedOptions(genres, newestOnly)),
+        countries: this.listOptionsToLabelsList(this.getValidatedOptions(countries, newestOnly)),
+        studios: this.listOptionsToLabelsList(this.getValidatedOptions(studios, newestOnly)),
+        awards: this.getValidatedOptions(awards, newestOnly),
       },
     };
   }
 
-  private listOptionsToLabelsList(options: ListOption<number>[]) {
-    return options.map((option) => option.label);
+  private getValidatedOptions<T extends GenericOption>(options: T[], newestOnly?: boolean): T[] {
+    if (!newestOnly) {
+      return options;
+    }
+
+    const now = new Date();
+    const cutoff = new Date(now);
+    cutoff.setDate(now.getDate() - 7);
+
+    const updatedOptions = options.filter((item) => {
+      const updatedDate = new Date(item.updatedAt);
+
+      if (isNaN(updatedDate.getTime())) {
+        return false;
+      }
+
+      return updatedDate >= cutoff && updatedDate <= now;
+    });
+
+    if (!updatedOptions.length) {
+      return [];
+    }
+
+    return options;
+  }
+
+  private listOptionsToLabelsList<T extends GenericOption>(options: T[]): string[] {
+    return options.map((option) => option.title);
   }
 }

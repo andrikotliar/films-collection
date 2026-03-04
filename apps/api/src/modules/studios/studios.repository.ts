@@ -8,7 +8,7 @@ export class StudiosRepository {
 
   getAll() {
     return this.deps.db
-      .select({ id: studios.id, title: studios.title })
+      .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
       .from(studios)
       .orderBy(asc(studios.title));
   }

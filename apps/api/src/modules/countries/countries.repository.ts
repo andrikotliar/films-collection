@@ -8,7 +8,7 @@ export class CountriesRepository {
 
   getAll() {
     return this.deps.db
-      .select({ id: countries.id, title: countries.title })
+      .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
       .from(countries)
       .orderBy(asc(countries.title));
   }
