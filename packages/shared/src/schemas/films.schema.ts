@@ -234,19 +234,21 @@ export const GetCompleteDataListQuerySchema = z.object({
 });
 
 export const CompleteDataListItemSchema = z.object({
-  title: z.string(),
-  releaseDate: z.string(),
-  type: z.string(),
-  style: z.string(),
-  duration: z.string(),
-  budget: z.string(),
-  boxOffice: z.string(),
-  overview: z.string(),
+  ...FilmResponseSchema.pick({
+    title: true,
+    releaseDate: true,
+    type: true,
+    duration: true,
+    budget: true,
+    boxOffice: true,
+    overview: true,
+    chapterKey: true,
+    chapterOrder: true,
+  }).shape,
   genres: z.array(z.string()),
+  style: z.enum(TitleStyle),
   countries: z.array(z.string()),
   studios: z.array(z.string()),
-  chapterKey: z.string().optional(),
-  chapterOrder: z.number().optional(),
   trailers: z.array(
     z.object({
       url: z.string(),
@@ -259,16 +261,11 @@ export const CompleteDataListItemSchema = z.object({
       nominations: z.array(z.string()),
     }),
   ),
-  crew: z.array(
+  castAndCrew: z.array(
     z.object({
+      name: z.string(),
       role: z.string(),
-      name: z.string(),
-    }),
-  ),
-  cast: z.array(
-    z.object({
-      name: z.string(),
-      character: z.string(),
+      details: z.string().nullable(),
     }),
   ),
   seriesExtension: z
