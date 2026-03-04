@@ -36,7 +36,7 @@ export const validateGetSignature = async (request: FastifyRequest): Promise<voi
   }
 
   const method = request.method.toUpperCase();
-  const path = request.url;
+  const path = request.url.split('?')[0];
 
   const payload = `${method}.${path}.${timestamp}`;
 
