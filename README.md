@@ -2,10 +2,6 @@
 
 A personal list of films with manually collected data. The app primarily focuses on representing basic film data and some of the author's subjective perspectives, such as ratings, collections, and comments.
 
-![Films Collection Main Page Preview](./preview.jpg)
-
-> ❗ DISCLAIMER: All media files, videos, and information are the intellectual property of their respective authors. All data has been sourced from open sources and is used for informational purposes only. The data was gathered manually without the use of scrapers or third-party APIs.
-
 ## Frontend
 
 ### Tech stack
@@ -88,6 +84,22 @@ pnpm api:generate
 
 ## Database
 
+### Data
+
+The `apps/api/data` directory contains JSON data with all essential information to seed the database. The data reflects current state of the films collection app and data is update once a week.
+
+To populate the database with the data, run the following command from the project's root:
+
+```shell
+pnpm db:init
+```
+
+To initialize the empty database without data, run the command:
+
+```shell
+pnpm db:init:empty
+```
+
 ### Backup database
 
 ```shell
@@ -103,22 +115,6 @@ docker run --rm \
 
 ```shell
 docker run --rm \
-  --network container:CONTAINER_ID \
-  -v "$PWD:/dump" \
-  postgres:17-bookworm \
-  pg_restore \
-  -p 5432 \
-  -h localhost \
-  -U USERNAME \
-  -d DATABASE \
-  /dump/db.dump
-```
-
-Using connection URL string
-
-
-```shell
-docker run --rm \
   -v "$PWD:/dump" \
   postgres:17-bookworm \
   pg_restore \
@@ -130,5 +126,5 @@ docker run --rm \
 
 1. Update `apps/api/src/database/schema.ts` file.
 2. Navigate to the `apps/api` folder.
-3. Run `pnpm db:migration:gen` to create migration file from the latest changes.
+3. Run `pnpm db:migration:gen --name specify_migration_name` to create migration file from the latest changes.
 4. Run `pnpm db:migration:apply` to apply changes to the database.
