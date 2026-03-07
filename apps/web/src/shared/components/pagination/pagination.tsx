@@ -1,4 +1,4 @@
-import styles from "./pagination.module.css";
+import styles from './pagination.module.css';
 import { useMemo } from 'react';
 import clsx from 'clsx';
 import { buildPagination } from '~/shared';
@@ -22,7 +22,7 @@ export const Pagination = ({
   const currentRangeEnd = total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
 
   const pages = useMemo(() => {
-    return buildPagination(currentPageIndex + 1, Math.round(total / perPageCounter));
+    return buildPagination(currentPageIndex + 1, Math.ceil(total / perPageCounter));
   }, [total, currentPageIndex, perPageCounter]);
 
   return (

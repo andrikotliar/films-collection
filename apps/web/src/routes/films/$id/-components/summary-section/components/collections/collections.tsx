@@ -16,6 +16,7 @@ export const Collections = ({ list }: CollectionsProps) => {
           search={{ collectionId: collection.id }}
           className={styles.collection_link}
           style={{ backgroundColor: getColorBaseOnFirstLetter(collection.title) }}
+          key={collection.id}
         >
           <span className={styles.hash}>#</span>
           <span>{collection.title}</span>

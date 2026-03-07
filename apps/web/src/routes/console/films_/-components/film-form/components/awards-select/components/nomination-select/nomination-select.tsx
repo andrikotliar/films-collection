@@ -96,7 +96,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       />
       {shouldShowActorSelect && (
         <Form.AsyncSelect
-          name={`awards.${index}.personId`}
+          name={`awards.${index}.actorId`}
           optionsLoader={api.people.search.list}
           label="Person"
           queryKey={index}

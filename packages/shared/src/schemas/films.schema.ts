@@ -28,11 +28,11 @@ export const CreateFilmInputSchema = z.object({
   studios: z.array(z.number()),
   countries: z.array(z.number()),
   collections: z.array(z.number()),
-  duration: z.coerce.number().min(1),
+  duration: z.coerce.number(),
   releaseDate: DateStringSchema,
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
-  overview: z.string().nullable(),
+  overview: z.string().optional().nullable(),
   chapterKey: z
     .string()
     .regex(/^[a-z-]+$/)
