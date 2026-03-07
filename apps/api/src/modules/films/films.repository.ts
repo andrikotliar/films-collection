@@ -516,9 +516,10 @@ export class FilmsRepository {
     } = data;
 
     return this.deps.db.transaction(async (transaction) => {
-      if (Object.keys(filmParams).length) {
-        await transaction.update(films).set(filmParams).where(eq(films.id, filmId));
-      }
+      await transaction
+        .update(films)
+        .set({ ...filmParams, updatedAt: new Date().toISOString() })
+        .where(eq(films.id, filmId));
 
       if (genres?.length) {
         await this.updateFilmRelations({
