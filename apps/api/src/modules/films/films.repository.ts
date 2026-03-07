@@ -594,10 +594,17 @@ export class FilmsRepository {
       }
 
       if (seriesExtension) {
-        await this.deps.db
-          .update(seriesExtensions)
-          .set(seriesExtension)
-          .where(eq(seriesExtensions.filmId, filmId));
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: seriesExtensions,
+          values: [
+            {
+              ...seriesExtension,
+              filmId,
+            },
+          ],
+        });
       }
     });
   }
@@ -710,7 +717,7 @@ export class FilmsRepository {
     });
   }
 
-  private mapSorting(key: string = 'createdAt', direction: SortingOrder = 'desc') {
+  private mapSorting(key: string = 'updatedAt', direction: SortingOrder = 'desc') {
     const directions = {
       asc,
       desc,
@@ -722,7 +729,7 @@ export class FilmsRepository {
       case 'title':
         return fn(films.title);
       default:
-        return desc(films.createdAt);
+        return desc(films.updatedAt);
     }
   }
 }
