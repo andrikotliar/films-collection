@@ -4,6 +4,7 @@
   justify-content: center;
   height: var(--screen-height);
   padding: 20px;
+  width: 100%;
 }
 
 .container {
