@@ -1,0 +1,180 @@
+{
+  "id": 177,
+  "title": "The Hunger Games",
+  "releaseDate": "2012-03-23",
+  "type": "FILM",
+  "duration": 142,
+  "budget": 78000000,
+  "boxOffice": 694000000,
+  "overview": null,
+  "chapterKey": "hunger-games",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lionsgate",
+      "id": 57
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=mfmrPu43DF8",
+      "order": 1,
+      "id": 203
+    }
+  ],
+  "awards": [
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Feature Film",
+          "id": 113
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Male Performance",
+          "id": 187
+        },
+        {
+          "title": "Best Female Performance",
+          "id": 196
+        },
+        {
+          "title": "Best On-Screen Transformation",
+          "id": 200
+        },
+        {
+          "title": "Best Fight",
+          "id": 194
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2174,
+      "name": "Gary Ross",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2174,
+      "name": "Gary Ross",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2175,
+      "name": "Suzanne Collins",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2176,
+      "name": "Billy Ray",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2177,
+      "name": "Nina Jacobson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2178,
+      "name": "Jon Kilik",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2179,
+      "name": "Tom Stern",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 547,
+      "name": "Jennifer Lawrence",
+      "role": "ACTOR",
+      "details": "Katniss Everdeen"
+    },
+    {
+      "id": 620,
+      "name": "Josh Hutcherson",
+      "role": "ACTOR",
+      "details": "Peeta Mellark"
+    },
+    {
+      "id": 722,
+      "name": "Liam Hemsworth",
+      "role": "ACTOR",
+      "details": "Gale Hawthorne"
+    },
+    {
+      "id": 1190,
+      "name": "Woody Harrelson",
+      "role": "ACTOR",
+      "details": "Haymitch Abernathy"
+    },
+    {
+      "id": 327,
+      "name": "Elizabeth Banks",
+      "role": "ACTOR",
+      "details": "Effie Trinket"
+    },
+    {
+      "id": 714,
+      "name": "Lenny Kravitz",
+      "role": "ACTOR",
+      "details": "Cinna"
+    },
+    {
+      "id": 1079,
+      "name": "Stanley Tucci",
+      "role": "ACTOR",
+      "details": "Caesar Flickerman"
+    },
+    {
+      "id": 1174,
+      "name": "Wes Bentley",
+      "role": "ACTOR",
+      "details": "Seneca Crane"
+    },
+    {
+      "id": 309,
+      "name": "Donald Sutherland",
+      "role": "ACTOR",
+      "details": "President Coriolanus Snow"
+    }
+  ]
+}

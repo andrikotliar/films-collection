@@ -6,8 +6,16 @@ import {
   convertEnumValueToLabel,
   type CreateFilmInput,
   type UpdateFilmInput,
+  type GetCompleteDataListQuery,
+  type CompleteDataResponse,
 } from '@films-collection/shared';
-import { mapFilmDetails, mapAdminFilmDetails } from './helpers';
+import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
+
+type GenericOption = {
+  id: number;
+  title: string;
+  updatedAt: string;
+};
 
 export class FilmsService {
   constructor(
@@ -17,6 +25,9 @@ export class FilmsService {
       | 'awardsService'
       | 'collectionsService'
       | 'pendingFilmsService'
+      | 'genresService'
+      | 'countriesService'
+      | 'studiosService'
     >,
   ) {}
 
@@ -152,5 +163,74 @@ export class FilmsService {
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
     return this.getFilmDetails(filmId);
+  }
+
+  async getCompleteData({ newestOnly }: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
+    const films = await this.deps.filmsRepository.getCompleteData(newestOnly);
+    const genres = await this.deps.genresService.getBaseListData();
+    const countries = await this.deps.countriesService.getBaseDataList();
+    const studios = await this.deps.studiosService.getBaseDataList();
+    const awards = await this.deps.awardsService.getAwardsWithNominations();
+    const people = await this.deps.peopleService.getAll();
+
+    return {
+      list: mapCompleteDataList(films),
+      baseData: {
+        genres: this.listOptionsToDto(this.getValidatedOptions(genres, newestOnly)),
+        countries: this.listOptionsToDto(this.getValidatedOptions(countries, newestOnly)),
+        studios: this.listOptionsToDto(this.getValidatedOptions(studios, newestOnly)),
+        people: this.getValidatedOptions(people, newestOnly).map((person) => ({
+          id: person.id,
+          name: person.name,
+        })),
+        awards: this.getValidatedOptions(awards, newestOnly).map((award) => ({
+          id: award.id,
+          title: award.title,
+          nominations: award.nominations.map((nomination) => ({
+            id: nomination.id,
+            title: nomination.title,
+            shouldIncludeActor: nomination.shouldIncludeActor,
+          })),
+        })),
+      },
+    };
+  }
+
+  private getValidatedOptions<T extends { updatedAt: string }>(
+    options: T[],
+    newestOnly?: boolean,
+  ): T[] {
+    if (!newestOnly) {
+      return options;
+    }
+
+    const now = new Date();
+    const cutoff = new Date(now);
+    cutoff.setDate(now.getDate() - 7);
+
+    const updatedOptions = options.filter((item) => {
+      const updatedDate = new Date(item.updatedAt);
+
+      if (isNaN(updatedDate.getTime())) {
+        return false;
+      }
+
+      return updatedDate >= cutoff && updatedDate <= now;
+    });
+
+    if (!updatedOptions.length) {
+      return [];
+    }
+
+    return options;
+  }
+
+  private listOptionsToDto<T extends GenericOption>(
+    options: T[],
+  ): Pick<GenericOption, 'id' | 'title'>[] {
+    return options.map((option) => ({
+      id: option.id,
+      title: option.title,
+    }));
   }
 }

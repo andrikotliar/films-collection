@@ -1,0 +1,226 @@
+{
+  "id": 167,
+  "title": "The Dark Knight",
+  "releaseDate": "2008-07-18",
+  "type": "FILM",
+  "duration": 152,
+  "budget": 185000000,
+  "boxOffice": 1000000000,
+  "overview": null,
+  "chapterKey": "dark-knight",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+      "order": 1,
+      "id": 193
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by an Actor in a Supporting Role",
+          "id": 21
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "id": 12
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best action/Adventure/thriller Film",
+          "id": 66
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best action Movie",
+          "id": 76
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Villain",
+          "id": 184
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1713,
+      "name": "Jonathan Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1385,
+      "name": "Wally Pfister",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "Bruce Wayne"
+    },
+    {
+      "id": 440,
+      "name": "Heath Ledger",
+      "role": "ACTOR",
+      "details": "Joker"
+    },
+    {
+      "id": 1,
+      "name": "Aaron Eckhart",
+      "role": "ACTOR",
+      "details": "Harvey Dent"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Alfred"
+    },
+    {
+      "id": 765,
+      "name": "Maggie Gyllenhaal",
+      "role": "ACTOR",
+      "details": "Rachel"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Gordon"
+    },
+    {
+      "id": 854,
+      "name": "Morgan Freeman",
+      "role": "ACTOR",
+      "details": "Lucius Fox"
+    },
+    {
+      "id": 214,
+      "name": "Cillian Murphy",
+      "role": "ACTOR",
+      "details": "Scarecrow"
+    }
+  ]
+}

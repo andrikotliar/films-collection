@@ -1,0 +1,142 @@
+{
+  "id": 246,
+  "title": "Flow",
+  "releaseDate": "2024-02-14",
+  "type": "FILM",
+  "duration": 85,
+  "budget": 4000000,
+  "boxOffice": 3000000,
+  "overview": "<p>An astonishing animated film by independent creators, made entirely in the free program Blender.</p><p>The film presents a post-apocalyptic world inhabited by both ordinary animals and creatures never seen before. A solitary black cat lives in an abandoned house—until a devastating flood destroys everything around it. Forced to leave its home, the cat sets out in search of a safe place.</p><p>During the journey, we watch as it encounters other inhabitants of this mysterious world.</p><p>Without a single line of dialogue, the film keeps viewers engaged every minute of its runtime.</p>",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "Belgium",
+      "id": 20
+    },
+    {
+      "title": "Latvia",
+      "id": 19
+    },
+    {
+      "title": "France",
+      "id": 4
+    }
+  ],
+  "studios": [
+    {
+      "title": "Sacrebleu Productions",
+      "id": 68
+    },
+    {
+      "title": "Dream Well Studio",
+      "id": 67
+    },
+    {
+      "title": "Take Five",
+      "id": 69
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=eD06LQzWFTc",
+      "order": 1,
+      "id": 281
+    }
+  ],
+  "awards": [
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Motion Picture - Animated",
+          "id": 217
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Independent Feature",
+          "id": 215
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2446,
+      "name": "Gints Zilbalodis",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2446,
+      "name": "Gints Zilbalodis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2447,
+      "name": "Matiss Kaza",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2448,
+      "name": "Ron Dyens",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2447,
+      "name": "Matiss Kaza",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2449,
+      "name": "Gregory Zalcman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2446,
+      "name": "Gints Zilbalodis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2450,
+      "name": "Rihards Zalupe",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2446,
+      "name": "Gints Zilbalodis",
+      "role": "COMPOSER",
+      "details": ""
+    },
+    {
+      "id": 2446,
+      "name": "Gints Zilbalodis",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

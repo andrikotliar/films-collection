@@ -11,6 +11,7 @@ export class GenresRepository {
       .select({
         id: genres.id,
         title: genres.title,
+        updatedAt: genres.updatedAt,
       })
       .from(genres)
       .orderBy(asc(genres.title));

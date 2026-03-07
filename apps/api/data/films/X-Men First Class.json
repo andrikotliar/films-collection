@@ -1,0 +1,168 @@
+{
+  "id": 234,
+  "title": "X-Men: First Class",
+  "releaseDate": "2011-06-03",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 140000000,
+  "boxOffice": 354000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=kyQKi5-k0UU",
+      "order": 1,
+      "id": 264
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2378,
+      "name": "Matthew Vaughn",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2324,
+      "name": "Ashley Edward Miller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2325,
+      "name": "Zack Stentz",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1834,
+      "name": "Jane Goldman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2378,
+      "name": "Matthew Vaughn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2370,
+      "name": "Bryan Singer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1399,
+      "name": "Henry Jackman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1798,
+      "name": "John Mathieson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 511,
+      "name": "James McAvoy",
+      "role": "ACTOR",
+      "details": "Charles Xavier"
+    },
+    {
+      "id": 823,
+      "name": "Michael Fassbender",
+      "role": "ACTOR",
+      "details": "Erik Lensherr"
+    },
+    {
+      "id": 670,
+      "name": "Kevin Bacon",
+      "role": "ACTOR",
+      "details": "Sebastian Shaw"
+    },
+    {
+      "id": 1005,
+      "name": "Rose Byrne",
+      "role": "ACTOR",
+      "details": "Moira MacTaggert"
+    },
+    {
+      "id": 547,
+      "name": "Jennifer Lawrence",
+      "role": "ACTOR",
+      "details": "Raven / Mystique"
+    },
+    {
+      "id": 520,
+      "name": "January Jones",
+      "role": "ACTOR",
+      "details": "Emma Frost"
+    },
+    {
+      "id": 870,
+      "name": "Nicholas Hoult",
+      "role": "ACTOR",
+      "details": "Hank / Beast"
+    },
+    {
+      "id": 160,
+      "name": "Caleb Landry Jones",
+      "role": "ACTOR",
+      "details": "Cassidy / Banshee"
+    },
+    {
+      "id": 743,
+      "name": "Lucas Till",
+      "role": "ACTOR",
+      "details": "Alex Summers / Havok"
+    }
+  ]
+}

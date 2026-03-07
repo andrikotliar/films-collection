@@ -1,0 +1,139 @@
+{
+  "id": 166,
+  "title": "The Chronicles of Narnia: The Prince Caspian",
+  "releaseDate": "2008-05-15",
+  "type": "FILM",
+  "duration": 150,
+  "budget": 225000000,
+  "boxOffice": 420000000,
+  "overview": null,
+  "chapterKey": "chronicles-of-narnia",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=9Q0Da4jlxBk",
+      "order": 1,
+      "id": 192
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1949,
+      "name": "Andrew Adamson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1949,
+      "name": "Andrew Adamson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2144,
+      "name": "Mark Johnson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2145,
+      "name": "Phillip Steuer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1905,
+      "name": "Harry Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1701,
+      "name": "Karl Walter Lindenlaub",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 105,
+      "name": "Ben Barnes",
+      "role": "ACTOR",
+      "details": "Prince Caspian"
+    },
+    {
+      "id": 402,
+      "name": "Georgie Henley",
+      "role": "ACTOR",
+      "details": "Lucy Pevensie"
+    },
+    {
+      "id": 1072,
+      "name": "Skandar Keynes",
+      "role": "ACTOR",
+      "details": "Edmund Pevensie"
+    },
+    {
+      "id": 1184,
+      "name": "William Moseley",
+      "role": "ACTOR",
+      "details": "Peter Pevensie"
+    },
+    {
+      "id": 67,
+      "name": "Anna Popplewell",
+      "role": "ACTOR",
+      "details": "Susan Pevensie"
+    },
+    {
+      "id": 1054,
+      "name": "Sergio Castellitto",
+      "role": "ACTOR",
+      "details": "Miraz"
+    },
+    {
+      "id": 920,
+      "name": "Peter Dinklage",
+      "role": "ACTOR",
+      "details": "Trumpkin"
+    }
+  ]
+}

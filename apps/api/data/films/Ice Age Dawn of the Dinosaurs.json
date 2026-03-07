@@ -1,0 +1,151 @@
+{
+  "id": 73,
+  "title": "Ice Age: Dawn of the Dinosaurs",
+  "releaseDate": "2009-07-01",
+  "type": "FILM",
+  "duration": 94,
+  "budget": 90000000,
+  "boxOffice": 886000000,
+  "overview": null,
+  "chapterKey": "ice-age",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Blue Sky Studios",
+      "id": 36
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Y_nSwh2WjAM",
+      "order": 1,
+      "id": 85
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1688,
+      "name": "Carlos Saldanha",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1683,
+      "name": "Michael Berg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1685,
+      "name": "Peter Ackerman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1689,
+      "name": "Mike Reiss",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1690,
+      "name": "Yoni Brenner",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1686,
+      "name": "Lori Forte",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1691,
+      "name": "John C. Donkin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 951,
+      "name": "Ray Romano",
+      "role": "ACTOR",
+      "details": "Manny"
+    },
+    {
+      "id": 936,
+      "name": "Queen Latifah",
+      "role": "ACTOR",
+      "details": "Ellie"
+    },
+    {
+      "id": 284,
+      "name": "Denis Leary",
+      "role": "ACTOR",
+      "details": "Diego"
+    },
+    {
+      "id": 586,
+      "name": "John Leguizamo",
+      "role": "ACTOR",
+      "details": "Sid"
+    },
+    {
+      "id": 621,
+      "name": "Josh Peck",
+      "role": "ACTOR",
+      "details": "Eddie"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Buck"
+    },
+    {
+      "id": 1049,
+      "name": "Seann William Scott",
+      "role": "ACTOR",
+      "details": "Crash"
+    },
+    {
+      "id": 202,
+      "name": "Chris Wedge",
+      "role": "ACTOR",
+      "details": "Scrat"
+    },
+    {
+      "id": 639,
+      "name": "Karen Disher",
+      "role": "ACTOR",
+      "details": "Scratte"
+    }
+  ]
+}

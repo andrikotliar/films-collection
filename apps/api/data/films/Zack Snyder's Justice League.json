@@ -1,0 +1,209 @@
+{
+  "id": 238,
+  "title": "Zack Snyder's Justice League",
+  "releaseDate": "2021-03-18",
+  "type": "FILM",
+  "duration": 242,
+  "budget": 300000000,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "HBO Max",
+      "id": 40
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ui37YKQ9AC4",
+      "order": 1,
+      "id": 268
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1386,
+      "name": "Zack Snyder",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1387,
+      "name": "Chris Terrio",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1388,
+      "name": "Deborah Snyder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1389,
+      "name": "Junkie XL",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1518,
+      "name": "Fabian Wagner",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 104,
+      "name": "Ben Affleck",
+      "role": "ACTOR",
+      "details": "Bruce Wayne / Batman"
+    },
+    {
+      "id": 443,
+      "name": "Henry Cavill",
+      "role": "ACTOR",
+      "details": "Clark Kent / Superman"
+    },
+    {
+      "id": 54,
+      "name": "Amy Adams",
+      "role": "ACTOR",
+      "details": "Lois Lane"
+    },
+    {
+      "id": 392,
+      "name": "Gal Gadot",
+      "role": "ACTOR",
+      "details": "Diana Prince / Wonder Woman"
+    },
+    {
+      "id": 365,
+      "name": "Ezra Miller",
+      "role": "ACTOR",
+      "details": "Barry Allen / The Flash"
+    },
+    {
+      "id": 528,
+      "name": "Jason Momoa",
+      "role": "ACTOR",
+      "details": "Arthur Curry / Aquaman"
+    },
+    {
+      "id": 948,
+      "name": "Ray Fisher",
+      "role": "ACTOR",
+      "details": "Victor Stone / Cyborg"
+    },
+    {
+      "id": 551,
+      "name": "Jeremy Irons",
+      "role": "ACTOR",
+      "details": "Alfred"
+    },
+    {
+      "id": 291,
+      "name": "Diane Lane",
+      "role": "ACTOR",
+      "details": "Martha Kent"
+    },
+    {
+      "id": 226,
+      "name": "Connie Nielsen",
+      "role": "ACTOR",
+      "details": "Queen Hippolyta"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "Commissioner Gordon"
+    },
+    {
+      "id": 213,
+      "name": "Ciaran Hinds",
+      "role": "ACTOR",
+      "details": "Steppenwolf"
+    },
+    {
+      "id": 950,
+      "name": "Ray Porter",
+      "role": "ACTOR",
+      "details": "Darkseid"
+    },
+    {
+      "id": 1021,
+      "name": "Ryan Zheng",
+      "role": "ACTOR",
+      "details": "Ryan Choi"
+    },
+    {
+      "id": 49,
+      "name": "Amber Heard",
+      "role": "ACTOR",
+      "details": "Mera"
+    },
+    {
+      "id": 568,
+      "name": "Joe Morton",
+      "role": "ACTOR",
+      "details": "Silas Stone"
+    },
+    {
+      "id": 567,
+      "name": "Joe Manganiello",
+      "role": "ACTOR",
+      "details": "Deathstroke"
+    },
+    {
+      "id": 1180,
+      "name": "Willem Dafoe",
+      "role": "ACTOR",
+      "details": "Vulko"
+    },
+    {
+      "id": 433,
+      "name": "Harry J. Lennix",
+      "role": "ACTOR",
+      "details": "General Swanwick / Martian Manhunter"
+    },
+    {
+      "id": 922,
+      "name": "Peter Guinness",
+      "role": "ACTOR",
+      "details": "DeSaad"
+    }
+  ]
+}

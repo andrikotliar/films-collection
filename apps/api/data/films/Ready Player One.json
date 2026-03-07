@@ -1,0 +1,162 @@
+{
+  "id": 122,
+  "title": "Ready Player One",
+  "releaseDate": "2018-03-29",
+  "type": "FILM",
+  "duration": 140,
+  "budget": 175000000,
+  "boxOffice": 582000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Amblin Entertainment",
+      "id": 39
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=cSp1dM2Vj48",
+      "order": 1,
+      "id": 136
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1375,
+      "name": "Steven Spielberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1912,
+      "name": "Zak Penn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1913,
+      "name": "Ernest Cline",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1914,
+      "name": "Donald De Line",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1915,
+      "name": "Dan Farah",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1705,
+      "name": "Janusz Kaminski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1154,
+      "name": "Tye Sheridan",
+      "role": "ACTOR",
+      "details": "Parzival / Wade"
+    },
+    {
+      "id": 888,
+      "name": "Olivia Cooke",
+      "role": "ACTOR",
+      "details": "Art3mis / Samantha"
+    },
+    {
+      "id": 110,
+      "name": "Ben Mendelsohn",
+      "role": "ACTOR",
+      "details": "Sorrento"
+    },
+    {
+      "id": 713,
+      "name": "Lena Waithe",
+      "role": "ACTOR",
+      "details": "Aech / Helen"
+    },
+    {
+      "id": 1099,
+      "name": "T.J. Miller",
+      "role": "ACTOR",
+      "details": "I-R0k"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Curator / Ogden Morrow"
+    },
+    {
+      "id": 788,
+      "name": "Mark Rylance",
+      "role": "ACTOR",
+      "details": "Anorak / Halliday"
+    },
+    {
+      "id": 928,
+      "name": "Philip Zhao",
+      "role": "ACTOR",
+      "details": "Sho"
+    },
+    {
+      "id": 1187,
+      "name": "Win Morisaki",
+      "role": "ACTOR",
+      "details": "Daito"
+    },
+    {
+      "id": 427,
+      "name": "Hannah John-Kamen",
+      "role": "ACTOR",
+      "details": "F'Nale Zandor"
+    }
+  ]
+}

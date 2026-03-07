@@ -2,13 +2,9 @@
 
 A personal list of films with manually collected data. The app primarily focuses on representing basic film data and some of the author's subjective perspectives, such as ratings, collections, and comments.
 
-![Films Collection Main Page Preview](./preview.jpg)
+## Frontend
 
-> ❗ DISCLAIMER: All media files, videos, and information are the intellectual property of their respective authors. All data has been sourced from open sources and is used for informational purposes only. The data was gathered manually without the use of scrapers or third-party APIs.
-
-## Tech Stack
-
-### Frontend
+### Tech stack
 
 - React
 - Vite
@@ -18,7 +14,17 @@ A personal list of films with manually collected data. The app primarily focuses
 - React Hook Form
 - Zod
 
-### Backend
+### API client
+
+The API client is automatically generated from the backend API endpoints. It's built on the dev server startup or can be manually built by running the command in the root of the project:
+
+```bash
+pnpm api:generate
+```
+
+## Backend
+
+### Tech stack
 
 - Fastify
 - PostgreSQL
@@ -26,6 +32,18 @@ A personal list of films with manually collected data. The app primarily focuses
 - Docker
 - Drizzle
 - Zod
+
+### Routers
+
+To build a typesafe router, use the `createRouter` and `defineRoute` helpers. The `defineRoute` helpers takes into account schemas to properly type request parameters (body, query string) and endpoint response. The response schema is required.
+
+This helpers simply process of generating the API client for the frontend.
+
+The client can be generated from the root of the `api` folder by running the command:
+
+```bash
+pnpm api:generate
+```
 
 ## Development server
 
@@ -64,7 +82,23 @@ A personal list of films with manually collected data. The app primarily focuses
 2. Open the app `http://localhost:5000`
 
 
-## Database backup and restore
+## Database
+
+### Data
+
+The `apps/api/data` directory contains JSON data with all essential information to seed the database. The data reflects current state of the films collection app and data is update once a week.
+
+To populate the database with the data, run the following command from the project's root:
+
+```shell
+pnpm db:init
+```
+
+To initialize the empty database without data, run the command:
+
+```shell
+pnpm db:init:empty
+```
 
 ### Backup database
 
@@ -77,23 +111,7 @@ docker run --rm \
   -f /dump/db.dump
 ```
 
-### Restore command
-
-```shell
-docker run --rm \
-  --network container:CONTAINER_ID \
-  -v "$PWD:/dump" \
-  postgres:17-bookworm \
-  pg_restore \
-  -p 5432 \
-  -h localhost \
-  -U USERNAME \
-  -d DATABASE \
-  /dump/db.dump
-```
-
-Using connection URL string
-
+### Restore database
 
 ```shell
 docker run --rm \
@@ -104,9 +122,9 @@ docker run --rm \
     -v /dump/db.dump
 ```
 
-## Migrations
+### Migrations
 
 1. Update `apps/api/src/database/schema.ts` file.
 2. Navigate to the `apps/api` folder.
-3. Run `pnpm db:migration:gen` to create migration file from the latest changes.
+3. Run `pnpm db:migration:gen --name specify_migration_name` to create migration file from the latest changes.
 4. Run `pnpm db:migration:apply` to apply changes to the database.

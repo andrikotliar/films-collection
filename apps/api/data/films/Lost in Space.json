@@ -1,0 +1,167 @@
+{
+  "id": 252,
+  "title": "Lost in Space",
+  "releaseDate": "2018-04-13",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Legendary Television",
+      "id": 75
+    },
+    {
+      "title": "Synthesis Entertainment",
+      "id": 76
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/fzmM0AB60QQ?si=W20LLwKc3qi1wQHr",
+      "order": 1,
+      "id": 288
+    },
+    {
+      "url": "https://youtu.be/Wo9iQRiyLUw?si=CHiaCNEoz1TMA1cV",
+      "order": 2,
+      "id": 289
+    },
+    {
+      "url": "https://youtu.be/4kHHN0cQS10?si=KcbIAcmw8f9iTBPD",
+      "order": 3,
+      "id": 290
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2489,
+      "name": "Irwin Allen",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2490,
+      "name": "Matt Sazama",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2491,
+      "name": "Burk Sharpless",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2497,
+      "name": "Christopher Lennertz",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2498,
+      "name": "Alexander Bornstein",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2499,
+      "name": "San McCurdy",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2500,
+      "name": "Joel Ransom",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2501,
+      "name": "C. Kim Miles",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2502,
+      "name": "Simon Chapman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2503,
+      "name": "Toby Stephens",
+      "role": "ACTOR",
+      "details": "John Robinson"
+    },
+    {
+      "id": 2504,
+      "name": "Molly Parker",
+      "role": "ACTOR",
+      "details": "Maureen Robinson"
+    },
+    {
+      "id": 2505,
+      "name": "Maxwell Jenkins",
+      "role": "ACTOR",
+      "details": "Will Robinson"
+    },
+    {
+      "id": 2506,
+      "name": "Taylor Russell",
+      "role": "ACTOR",
+      "details": "Judy Robinson"
+    },
+    {
+      "id": 2507,
+      "name": "Mina Sundwall",
+      "role": "ACTOR",
+      "details": "Penny Robinson"
+    },
+    {
+      "id": 2508,
+      "name": "Ignacio Serricchino",
+      "role": "ACTOR",
+      "details": "Don West"
+    },
+    {
+      "id": 2509,
+      "name": "Parker Posey",
+      "role": "ACTOR",
+      "details": "June Harris"
+    },
+    {
+      "id": 2510,
+      "name": "Brian Steele",
+      "role": "ACTOR",
+      "details": "The Robot"
+    }
+  ],
+  "seriesExtension": {
+    "id": 22,
+    "episodesTotal": 28,
+    "seasonsTotal": 3,
+    "finishedAt": "2021-12-01"
+  }
+}

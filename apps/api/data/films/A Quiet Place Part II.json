@@ -1,0 +1,129 @@
+{
+  "id": 8,
+  "title": "A Quiet Place Part II",
+  "releaseDate": "2021-05-28",
+  "type": "FILM",
+  "duration": 97,
+  "budget": 160000000,
+  "boxOffice": 297000000,
+  "overview": null,
+  "chapterKey": "quiet-place",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=BpdDN9d9Jio",
+      "order": 1,
+      "id": 8
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 585,
+      "name": "John Krasinski",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 585,
+      "name": "John Krasinski",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1275,
+      "name": "Michael Bay",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1276,
+      "name": "Andrew Form",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1277,
+      "name": "Brad Fuller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 585,
+      "name": "John Krasinski",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1280,
+      "name": "Polly Morgan",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 341,
+      "name": "Emily Blunt",
+      "role": "ACTOR",
+      "details": "Evelyn Abbott"
+    },
+    {
+      "id": 585,
+      "name": "John Krasinski",
+      "role": "ACTOR",
+      "details": "Lee Abbott"
+    },
+    {
+      "id": 843,
+      "name": "Millicent Simmonds",
+      "role": "ACTOR",
+      "details": "Regan Abbott"
+    },
+    {
+      "id": 877,
+      "name": "Noah Jupe",
+      "role": "ACTOR",
+      "details": "Marcus Abbott"
+    },
+    {
+      "id": 214,
+      "name": "Cillian Murphy",
+      "role": "ACTOR",
+      "details": "Emmett"
+    },
+    {
+      "id": 297,
+      "name": "Djimon Hounsou",
+      "role": "ACTOR",
+      "details": "Man on Island"
+    }
+  ]
+}

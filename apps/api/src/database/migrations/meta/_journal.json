@@ -6,21 +6,35 @@
       "idx": 1,
       "version": "7",
       "when": 1771784533664,
-      "tag": "0001_curly_lady_vermin",
+      "tag": "0001_set_default_updated_at",
       "breakpoints": true
     },
     {
       "idx": 2,
       "version": "7",
       "when": 1771960088852,
-      "tag": "0002_material_spencer_smythe",
+      "tag": "0002_default_columns_to_now",
       "breakpoints": true
     },
     {
       "idx": 3,
       "version": "7",
       "when": 1772010474754,
-      "tag": "0003_third_kate_bishop",
+      "tag": "0003_make_chapter_order_numeric",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1772715145166,
+      "tag": "0004_update_index_type",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1772715229872,
+      "tag": "0005_update_index_type_for_nominations_award_id_title_key",
       "breakpoints": true
     }
   ]

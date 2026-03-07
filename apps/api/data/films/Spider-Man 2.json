@@ -1,0 +1,158 @@
+{
+  "id": 134,
+  "title": "Spider-Man 2",
+  "releaseDate": "2004-06-30",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 200000000,
+  "boxOffice": 789000000,
+  "overview": null,
+  "chapterKey": "spider-man",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=1s9Yln0YwCw",
+      "order": 1,
+      "id": 151
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writer",
+          "id": 55
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1970,
+      "name": "Sam Raimi",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1973,
+      "name": "Alvin Sargent",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1972,
+      "name": "Laura Ziskin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1122,
+      "name": "Tobey Maguire",
+      "role": "ACTOR",
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "id": 36,
+      "name": "Alfred Molina",
+      "role": "ACTOR",
+      "details": "Doc Ock / Dr. Otto Octavius"
+    },
+    {
+      "id": 684,
+      "name": "Kirsten Dunst",
+      "role": "ACTOR",
+      "details": "Mary Jane Watson"
+    },
+    {
+      "id": 506,
+      "name": "James Franco",
+      "role": "ACTOR",
+      "details": "Harry Osborn"
+    },
+    {
+      "id": 1007,
+      "name": "Rosemary Harris",
+      "role": "ACTOR",
+      "details": "May Parker"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "J. Jonah Jameson"
+    }
+  ]
+}

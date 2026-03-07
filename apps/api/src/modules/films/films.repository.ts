@@ -1,4 +1,4 @@
-import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared';
+import { getFirstValue, getLatestEntriesFilter, sqlSearchQuery, type Deps } from '~/shared';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -516,9 +516,10 @@ export class FilmsRepository {
     } = data;
 
     return this.deps.db.transaction(async (transaction) => {
-      if (Object.keys(filmParams).length) {
-        await transaction.update(films).set(filmParams).where(eq(films.id, filmId));
-      }
+      await transaction
+        .update(films)
+        .set({ ...filmParams, updatedAt: new Date().toISOString() })
+        .where(eq(films.id, filmId));
 
       if (genres?.length) {
         await this.updateFilmRelations({
@@ -593,10 +594,17 @@ export class FilmsRepository {
       }
 
       if (seriesExtension) {
-        await this.deps.db
-          .update(seriesExtensions)
-          .set(seriesExtension)
-          .where(eq(seriesExtensions.filmId, filmId));
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: seriesExtensions,
+          values: [
+            {
+              ...seriesExtension,
+              filmId,
+            },
+          ],
+        });
       }
     });
   }
@@ -612,7 +620,104 @@ export class FilmsRepository {
     await transaction.insert(table).values(values);
   }
 
-  private mapSorting(key: string = 'createdAt', direction: SortingOrder = 'desc') {
+  getCompleteData(newestOnly = true) {
+    return this.deps.db.query.films.findMany({
+      where: newestOnly ? getLatestEntriesFilter(films.updatedAt) : undefined,
+      orderBy: desc(films.updatedAt),
+      columns: {
+        id: true,
+        title: true,
+        releaseDate: true,
+        duration: true,
+        overview: true,
+        budget: true,
+        boxOffice: true,
+        type: true,
+        style: true,
+        chapterKey: true,
+        chapterOrder: true,
+      },
+      with: {
+        countries: {
+          with: {
+            country: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
+          },
+        },
+        genres: {
+          with: {
+            genre: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
+          },
+        },
+        studios: {
+          with: {
+            studio: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
+          },
+        },
+        castAndCrew: {
+          columns: {
+            role: true,
+            details: true,
+          },
+          with: {
+            person: {
+              columns: {
+                id: true,
+                name: true,
+              },
+            },
+          },
+        },
+        awards: {
+          with: {
+            award: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
+            nomination: {
+              columns: {
+                id: true,
+                title: true,
+              },
+            },
+          },
+        },
+        seriesExtensions: {
+          columns: {
+            id: true,
+            episodesTotal: true,
+            seasonsTotal: true,
+            finishedAt: true,
+          },
+        },
+        trailers: {
+          columns: {
+            id: true,
+            url: true,
+            order: true,
+          },
+        },
+      },
+    });
+  }
+
+  private mapSorting(key: string = 'updatedAt', direction: SortingOrder = 'desc') {
     const directions = {
       asc,
       desc,
@@ -624,7 +729,7 @@ export class FilmsRepository {
       case 'title':
         return fn(films.title);
       default:
-        return desc(films.createdAt);
+        return desc(films.updatedAt);
     }
   }
 }

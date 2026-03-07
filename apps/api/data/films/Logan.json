@@ -1,0 +1,172 @@
+{
+  "id": 93,
+  "title": "Logan",
+  "releaseDate": "2017-03-03",
+  "type": "FILM",
+  "duration": 137,
+  "budget": 97000000,
+  "boxOffice": 619000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 9,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Div0iP65aZo",
+      "order": 1,
+      "id": 107
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Duo",
+          "id": 191
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1478,
+      "name": "James Mangold",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1795,
+      "name": "Scott Frank",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1478,
+      "name": "James Mangold",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1629,
+      "name": "Michael Green",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1797,
+      "name": "Simon Kinberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1798,
+      "name": "John Mathieson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Logan / X-24"
+    },
+    {
+      "id": 903,
+      "name": "Patrick Stewart",
+      "role": "ACTOR",
+      "details": "Charles"
+    },
+    {
+      "id": 237,
+      "name": "Dafne Keen",
+      "role": "ACTOR",
+      "details": "Laura"
+    },
+    {
+      "id": 138,
+      "name": "Boyd Holbrook",
+      "role": "ACTOR",
+      "details": "Pierce"
+    },
+    {
+      "id": 1086,
+      "name": "Stephen Merchant",
+      "role": "ACTOR",
+      "details": "Caliban"
+    },
+    {
+      "id": 330,
+      "name": "Elizabeth Rodriguez",
+      "role": "ACTOR",
+      "details": "Gabriela"
+    },
+    {
+      "id": 968,
+      "name": "Richard E. Grant",
+      "role": "ACTOR",
+      "details": "Dr. Rice"
+    },
+    {
+      "id": 355,
+      "name": "Eriq La Salle",
+      "role": "ACTOR",
+      "details": "Will Munson"
+    },
+    {
+      "id": 324,
+      "name": "Elise Neal",
+      "role": "ACTOR",
+      "details": "Kathryn Munson"
+    }
+  ]
+}

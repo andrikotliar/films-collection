@@ -1,0 +1,138 @@
+{
+  "id": 172,
+  "title": "The Fast and the Furious",
+  "releaseDate": "2001-06-22",
+  "type": "FILM",
+  "duration": 106,
+  "budget": 38000000,
+  "boxOffice": 207000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=2TAOizOnNPo",
+      "order": 1,
+      "id": 198
+    }
+  ],
+  "awards": [
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best On-Screen Team",
+          "id": 199
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2159,
+      "name": "Rob Cohen",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2160,
+      "name": "Gary Scott Thompson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2161,
+      "name": "Erik Bergq",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2162,
+      "name": "BT",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2163,
+      "name": "Ericson Core",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 911,
+      "name": "Paul Walker",
+      "role": "ACTOR",
+      "details": "Brian O'Conner"
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Dominic Toretto"
+    },
+    {
+      "id": 838,
+      "name": "Michelle Rodriguez",
+      "role": "ACTOR",
+      "details": "Letty"
+    },
+    {
+      "id": 613,
+      "name": "Jordana Brewster",
+      "role": "ACTOR",
+      "details": "Mia Toretto"
+    },
+    {
+      "id": 975,
+      "name": "Rick Yune",
+      "role": "ACTOR",
+      "details": "Johnny Tran"
+    },
+    {
+      "id": 178,
+      "name": "Chad Lindberg",
+      "role": "ACTOR",
+      "details": "Jesse"
+    },
+    {
+      "id": 804,
+      "name": "Matt Schulze",
+      "role": "ACTOR",
+      "details": "Vince"
+    }
+  ]
+}

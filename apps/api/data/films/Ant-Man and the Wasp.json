@@ -1,0 +1,139 @@
+{
+  "id": 14,
+  "title": "Ant-Man and the Wasp",
+  "releaseDate": "2018-07-06",
+  "type": "FILM",
+  "duration": 118,
+  "budget": 162000000,
+  "boxOffice": 595000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 21,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=UUkn-enk2RU",
+      "order": 1,
+      "id": 14
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1305,
+      "name": "Peyton Reed",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1311,
+      "name": "Chris McKenna",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1312,
+      "name": "Erik Sommers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 910,
+      "name": "Paul Rudd",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1313,
+      "name": "Stephen Broussard",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1314,
+      "name": "Dante Spinotti",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 910,
+      "name": "Paul Rudd",
+      "role": "ACTOR",
+      "details": "Scott Lang / Ant-Man"
+    },
+    {
+      "id": 361,
+      "name": "Evangeline Lilly",
+      "role": "ACTOR",
+      "details": "Hope Van Dyne / New Wasp"
+    },
+    {
+      "id": 828,
+      "name": "Michael Pena",
+      "role": "ACTOR",
+      "details": "Luis"
+    },
+    {
+      "id": 427,
+      "name": "Hannah John-Kamen",
+      "role": "ACTOR",
+      "details": "Ava / Ghost"
+    },
+    {
+      "id": 837,
+      "name": "Michelle Pfeiffer",
+      "role": "ACTOR",
+      "details": "Janet Van Dyne / First Wasp"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Dr. Bill Foster"
+    },
+    {
+      "id": 822,
+      "name": "Michael Douglas",
+      "role": "ACTOR",
+      "details": "Dr. Hank Pym"
+    }
+  ]
+}

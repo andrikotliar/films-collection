@@ -1,0 +1,103 @@
+{
+  "id": 249,
+  "title": "Die Hard",
+  "releaseDate": "1989-02-03",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 28000000,
+  "boxOffice": 143000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Gondon Company",
+      "id": 70
+    },
+    {
+      "title": "Silver Pictures",
+      "id": 71
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=gYWvwkXreaI",
+      "order": 1,
+      "id": 284
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1897,
+      "name": "John McTiernan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2465,
+      "name": "Jeb Stuart",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2466,
+      "name": "Steven E. de Souza",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1900,
+      "name": "Lawrence Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1901,
+      "name": "Joel Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1966,
+      "name": "Jan DE Bont",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2467,
+      "name": "Bruce Willis",
+      "role": "ACTOR",
+      "details": "John McClane"
+    },
+    {
+      "id": 2468,
+      "name": "Bonnie Bedelia",
+      "role": "ACTOR",
+      "details": "Holly Gennaro McClane"
+    },
+    {
+      "id": 22,
+      "name": "Alan Rickman",
+      "role": "ACTOR",
+      "details": "Haus Gruber"
+    }
+  ]
+}

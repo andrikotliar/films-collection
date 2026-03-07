@@ -1,0 +1,131 @@
+{
+  "id": 50,
+  "title": "Greenland",
+  "releaseDate": "2020-08-14",
+  "type": "FILM",
+  "duration": 119,
+  "budget": 35000000,
+  "boxOffice": 52000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Thunder Road",
+      "id": 28
+    },
+    {
+      "title": "Anton",
+      "id": 29
+    },
+    {
+      "title": "G-base",
+      "id": 30
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=RTODtIQQRpA",
+      "order": 1,
+      "id": 59
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1535,
+      "name": "Ric Roman Waugh",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1536,
+      "name": "Chris Sparling",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 404,
+      "name": "Gerard Butler",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1537,
+      "name": "Sébastien Raybaud",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1538,
+      "name": "Alan Siegel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1539,
+      "name": "David Buckley",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1540,
+      "name": "Dana Gonzales",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 404,
+      "name": "Gerard Butler",
+      "role": "ACTOR",
+      "details": "John Garrity"
+    },
+    {
+      "id": 853,
+      "name": "Morena Baccarin",
+      "role": "ACTOR",
+      "details": "Allison Garrity"
+    },
+    {
+      "id": 998,
+      "name": "Roger Dale Floyd",
+      "role": "ACTOR",
+      "details": "Nathan Garrity"
+    },
+    {
+      "id": 1043,
+      "name": "Scott Glenn",
+      "role": "ACTOR",
+      "details": "Dale"
+    },
+    {
+      "id": 272,
+      "name": "David Denman",
+      "role": "ACTOR",
+      "details": "Ralph Vento"
+    },
+    {
+      "id": 451,
+      "name": "Hope Davis",
+      "role": "ACTOR",
+      "details": "Judy Vento"
+    }
+  ]
+}

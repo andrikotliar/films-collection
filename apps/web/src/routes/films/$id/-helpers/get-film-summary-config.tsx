@@ -1,4 +1,4 @@
-import { getFormattedMoneyValue, getPluralWord, type api, type ApiResponse } from '~/shared';
+import { getPluralWord, type api, type ApiResponse } from '~/shared';
 import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
 import {
   BookIcon,
@@ -10,6 +10,7 @@ import {
   TvIcon,
   WalletIcon,
 } from 'lucide-react';
+import { getFormattedMoneyValue } from '@films-collection/shared';
 
 export type SummaryConfig = {
   id: string;

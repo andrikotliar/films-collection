@@ -1,0 +1,250 @@
+{
+  "id": 33,
+  "title": "Dark",
+  "releaseDate": "2017-12-01",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Germany",
+      "id": 5
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=rrwycJ08PSA",
+      "order": 1,
+      "id": 33
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=810CHvSdXOo",
+      "order": 2,
+      "id": 34
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cq2iTHoLrt0",
+      "order": 3,
+      "id": 35
+    }
+  ],
+  "awards": [
+    {
+      "id": 9,
+      "title": "Jupiter Award",
+      "nominations": [
+        {
+          "title": "Best German TV Actor",
+          "id": 208
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1419,
+      "name": "Baran bo Odar",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1420,
+      "name": "Jantje Friese",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1428,
+      "name": "Ben Frost",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1429,
+      "name": "Nikolaus Summerer",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 739,
+      "name": "Louis Hofmann",
+      "role": "ACTOR",
+      "details": "Jonas Kahnwald"
+    },
+    {
+      "id": 642,
+      "name": "Karoline Eichhorn",
+      "role": "ACTOR",
+      "details": "Charlotte Doppler"
+    },
+    {
+      "id": 733,
+      "name": "Lisa Vicari",
+      "role": "ACTOR",
+      "details": "Martha Nielsen"
+    },
+    {
+      "id": 769,
+      "name": "Maja Schöne",
+      "role": "ACTOR",
+      "details": "Hannah Kahnwald"
+    },
+    {
+      "id": 1081,
+      "name": "Stephan Kampwirth",
+      "role": "ACTOR",
+      "details": "Peter Doppler"
+    },
+    {
+      "id": 635,
+      "name": "Jördis Triebel",
+      "role": "ACTOR",
+      "details": "Katharina Nielsen"
+    },
+    {
+      "id": 56,
+      "name": "Andreas Pietschmann",
+      "role": "ACTOR",
+      "details": "The Stranger"
+    },
+    {
+      "id": 907,
+      "name": "Paul Lux",
+      "role": "ACTOR",
+      "details": "Bartosz Tiedemann"
+    },
+    {
+      "id": 856,
+      "name": "Moritz Jahn",
+      "role": "ACTOR",
+      "details": "Magnus Nielsen"
+    },
+    {
+      "id": 205,
+      "name": "Christian Hutcherson",
+      "role": "ACTOR",
+      "details": "Magnus Nielsen"
+    },
+    {
+      "id": 885,
+      "name": "Oliver Masucci",
+      "role": "ACTOR",
+      "details": "Ulrich Nielsen"
+    },
+    {
+      "id": 917,
+      "name": "Peter Benedict",
+      "role": "ACTOR",
+      "details": "Aleksander Tiedemann"
+    },
+    {
+      "id": 408,
+      "name": "Gina Stiebitz",
+      "role": "ACTOR",
+      "details": "Franziska Doppler"
+    },
+    {
+      "id": 281,
+      "name": "Deborah Kaufmann",
+      "role": "ACTOR",
+      "details": "Regina Tiedemann"
+    },
+    {
+      "id": 631,
+      "name": "Julika Jenkins",
+      "role": "ACTOR",
+      "details": "Claudia Tiedemann (1987)"
+    },
+    {
+      "id": 170,
+      "name": "Carlotta von Falkenhayn",
+      "role": "ACTOR",
+      "details": "Elisabeth Doppler"
+    },
+    {
+      "id": 294,
+      "name": "Dietrich Hollinderbäumer",
+      "role": "ACTOR",
+      "details": "Adam"
+    },
+    {
+      "id": 790,
+      "name": "Mark Waschke",
+      "role": "ACTOR",
+      "details": "Noah"
+    },
+    {
+      "id": 448,
+      "name": "Hermann Beyer",
+      "role": "ACTOR",
+      "details": "Helge Doppler"
+    },
+    {
+      "id": 732,
+      "name": "Lisa Kreuzer",
+      "role": "ACTOR",
+      "details": "Claudia Tiedemann"
+    },
+    {
+      "id": 69,
+      "name": "Anne Ratte-Polle",
+      "role": "ACTOR",
+      "details": "Ines Kahnwald (1986)"
+    },
+    {
+      "id": 1170,
+      "name": "Walter Kreye",
+      "role": "ACTOR",
+      "details": "Tronte Nielsen"
+    },
+    {
+      "id": 754,
+      "name": "Lydia Maria Makrides",
+      "role": "ACTOR",
+      "details": "Regina Tiedemann (1986)"
+    },
+    {
+      "id": 1137,
+      "name": "Tom Philipp",
+      "role": "ACTOR",
+      "details": "Helge Doppler (1953)"
+    },
+    {
+      "id": 809,
+      "name": "Max Schimmelpfennig",
+      "role": "ACTOR",
+      "details": "Young Noah"
+    }
+  ],
+  "seriesExtension": {
+    "id": 4,
+    "episodesTotal": 24,
+    "seasonsTotal": 3,
+    "finishedAt": "2020-06-27"
+  }
+}

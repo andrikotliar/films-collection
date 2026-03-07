@@ -1,0 +1,146 @@
+{
+  "id": 84,
+  "title": "Iron Man 3",
+  "releaseDate": "2013-05-03",
+  "type": "FILM",
+  "duration": 131,
+  "budget": 200000000,
+  "boxOffice": 1200000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 9,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Ke1Y3P9D0Bc",
+      "order": 1,
+      "id": 96
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "id": 42
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1723,
+      "name": "Shane Black",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1723,
+      "name": "Shane Black",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1724,
+      "name": "Drew Pearce",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1725,
+      "name": "John Toll",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 423,
+      "name": "Gwyneth Paltrow",
+      "role": "ACTOR",
+      "details": "Pepper Potts"
+    },
+    {
+      "id": 304,
+      "name": "Don Cheadle",
+      "role": "ACTOR",
+      "details": "Colonel James Rhodes"
+    },
+    {
+      "id": 421,
+      "name": "Guy Pearce",
+      "role": "ACTOR",
+      "details": "Aldrich Killian"
+    },
+    {
+      "id": 955,
+      "name": "Rebecca Hall",
+      "role": "ACTOR",
+      "details": "Maya Hansen"
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "ACTOR",
+      "details": "Happy Hogan"
+    },
+    {
+      "id": 109,
+      "name": "Ben Kingsley",
+      "role": "ACTOR",
+      "details": "Trevor Slattery"
+    }
+  ]
+}

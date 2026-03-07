@@ -1,0 +1,117 @@
+{
+  "id": 26,
+  "title": "Black Widow",
+  "releaseDate": "2021-07-09",
+  "type": "FILM",
+  "duration": 134,
+  "budget": 200000000,
+  "boxOffice": 379000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 16,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ybji16u608U",
+      "order": 1,
+      "id": 26
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1395,
+      "name": "Cate Shortland",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1396,
+      "name": "Eric Pearson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1397,
+      "name": "Lorne Balfe",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1398,
+      "name": "Gabriel Beristain",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "id": 375,
+      "name": "Florence Pugh",
+      "role": "ACTOR",
+      "details": "Yelena Belova / Black Widow"
+    },
+    {
+      "id": 940,
+      "name": "Rachel Weisz",
+      "role": "ACTOR",
+      "details": "Melina Vostokoff / Black Widow"
+    },
+    {
+      "id": 274,
+      "name": "David Harbour",
+      "role": "ACTOR",
+      "details": "Alexei Shostakov / Red Guardian"
+    },
+    {
+      "id": 882,
+      "name": "O-T Fagbenle",
+      "role": "ACTOR",
+      "details": "Rick Mason"
+    },
+    {
+      "id": 884,
+      "name": "Olga Kurylenko",
+      "role": "ACTOR",
+      "details": "Antonia Dreykov / Taskmaster"
+    },
+    {
+      "id": 953,
+      "name": "Ray Winstone",
+      "role": "ACTOR",
+      "details": "Dreykov"
+    }
+  ]
+}

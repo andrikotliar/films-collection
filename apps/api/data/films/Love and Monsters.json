@@ -1,0 +1,147 @@
+{
+  "id": 95,
+  "title": "Love and Monsters",
+  "releaseDate": "2020-10-16",
+  "type": "FILM",
+  "duration": 109,
+  "budget": 30000000,
+  "boxOffice": 1000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=1dzGhJ5QGsQ",
+      "order": 1,
+      "id": 109
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1811,
+      "name": "Michael Matthews",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1812,
+      "name": "Brian Duffield",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1813,
+      "name": "Matthew Robinson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1814,
+      "name": "Dan Cohen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1815,
+      "name": "Shawn Levy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1816,
+      "name": "Marcus Trumpp",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1817,
+      "name": "Lachlan Milne",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 316,
+      "name": "Dylan O'Brien",
+      "role": "ACTOR",
+      "details": "Joel"
+    },
+    {
+      "id": 559,
+      "name": "Jessica Henwick",
+      "role": "ACTOR",
+      "details": "Aimee"
+    },
+    {
+      "id": 830,
+      "name": "Michael Rooker",
+      "role": "ACTOR",
+      "details": "Clyde"
+    },
+    {
+      "id": 240,
+      "name": "Dan Ewing",
+      "role": "ACTOR",
+      "details": "Cap"
+    },
+    {
+      "id": 82,
+      "name": "Ariana Greenblatt",
+      "role": "ACTOR",
+      "details": "Minnow"
+    },
+    {
+      "id": 333,
+      "name": "Ellen Hollman",
+      "role": "ACTOR",
+      "details": "Dana"
+    },
+    {
+      "id": 1151,
+      "name": "Tre Hale",
+      "role": "ACTOR",
+      "details": "Rocko"
+    }
+  ]
+}

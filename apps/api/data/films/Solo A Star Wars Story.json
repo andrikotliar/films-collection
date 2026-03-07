@@ -1,0 +1,153 @@
+{
+  "id": 130,
+  "title": "Solo: A Star Wars Story",
+  "releaseDate": "2018-05-25",
+  "type": "FILM",
+  "duration": 135,
+  "budget": 375000000,
+  "boxOffice": 393000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Space Western",
+      "id": 17
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=jPEYpryMp2s",
+      "order": 1,
+      "id": 147
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1958,
+      "name": "Ron Howard",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1959,
+      "name": "Jonathan Kasdan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1709,
+      "name": "Lawrence Kasdan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1738,
+      "name": "Kathleen Kennedy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1923,
+      "name": "Allison Shearmur",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1922,
+      "name": "Simon Emanuel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1960,
+      "name": "Bradford Young",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 26,
+      "name": "Alden Ehrenreich",
+      "role": "ACTOR",
+      "details": "Han Solo"
+    },
+    {
+      "id": 611,
+      "name": "Joonas Suotamo",
+      "role": "ACTOR",
+      "details": "Chewbacca"
+    },
+    {
+      "id": 1190,
+      "name": "Woody Harrelson",
+      "role": "ACTOR",
+      "details": "Beckett"
+    },
+    {
+      "id": 339,
+      "name": "Emilia Clarke",
+      "role": "ACTOR",
+      "details": "Qi'ra"
+    },
+    {
+      "id": 308,
+      "name": "Donald Glover",
+      "role": "ACTOR",
+      "details": "Lando Calrissian"
+    },
+    {
+      "id": 1206,
+      "name": "Thandie Newton",
+      "role": "ACTOR",
+      "details": "Val"
+    },
+    {
+      "id": 930,
+      "name": "Phoebe Waller-Bridge",
+      "role": "ACTOR",
+      "details": "L3-37"
+    },
+    {
+      "id": 905,
+      "name": "Paul Bettany",
+      "role": "ACTOR",
+      "details": "Dryden Vos"
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "ACTOR",
+      "details": "Rio Durant"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 232,
+  "title": "X-Men: Apocalypse",
+  "releaseDate": "2016-05-27",
+  "type": "FILM",
+  "duration": 144,
+  "budget": 178000000,
+  "boxOffice": 544000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Jer8XjMrUB4",
+      "order": 1,
+      "id": 262
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2370,
+      "name": "Bryan Singer",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1797,
+      "name": "Simon Kinberg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2370,
+      "name": "Bryan Singer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2375,
+      "name": "John Ottman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2376,
+      "name": "Newton Thomas Sigel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 511,
+      "name": "James McAvoy",
+      "role": "ACTOR",
+      "details": "Professor Charles Xavier"
+    },
+    {
+      "id": 823,
+      "name": "Michael Fassbender",
+      "role": "ACTOR",
+      "details": "Erik Lehnsherr / Magneto"
+    },
+    {
+      "id": 547,
+      "name": "Jennifer Lawrence",
+      "role": "ACTOR",
+      "details": "Raven / Mystique"
+    },
+    {
+      "id": 870,
+      "name": "Nicholas Hoult",
+      "role": "ACTOR",
+      "details": "Hank McCoy / Beast"
+    },
+    {
+      "id": 896,
+      "name": "Oscar Isaac",
+      "role": "ACTOR",
+      "details": "En Sabah Nur / Apocalypse"
+    },
+    {
+      "id": 1005,
+      "name": "Rose Byrne",
+      "role": "ACTOR",
+      "details": "Moira Mactaggert"
+    },
+    {
+      "id": 360,
+      "name": "Evan Peters",
+      "role": "ACTOR",
+      "details": "Peter Maximoff / Quicksilver"
+    },
+    {
+      "id": 619,
+      "name": "Josh Helman",
+      "role": "ACTOR",
+      "details": "Col. William Stryker"
+    },
+    {
+      "id": 1077,
+      "name": "Sophie Turner",
+      "role": "ACTOR",
+      "details": "Jean Grey"
+    },
+    {
+      "id": 1154,
+      "name": "Tye Sheridan",
+      "role": "ACTOR",
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "id": 743,
+      "name": "Lucas Till",
+      "role": "ACTOR",
+      "details": "Alex Summers / Havok"
+    },
+    {
+      "id": 686,
+      "name": "Kodi Smit-McPhee",
+      "role": "ACTOR",
+      "details": "Kurt Wagner / Nightcrawler"
+    }
+  ]
+}

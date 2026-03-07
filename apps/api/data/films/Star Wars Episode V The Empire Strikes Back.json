@@ -1,0 +1,176 @@
+{
+  "id": 150,
+  "title": "Star Wars Episode V: The Empire Strikes Back",
+  "releaseDate": "1980-05-21",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 18000000,
+  "boxOffice": 248000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 7,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=JNwNXF9Y6kY",
+      "order": 1,
+      "id": 167
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 14
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2007,
+      "name": "Irvin Kershner",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2008,
+      "name": "Leight Brackett",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1709,
+      "name": "Lawrence Kasdan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1997,
+      "name": "Gary Kurtz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2009,
+      "name": "Peter Suschitzky",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 785,
+      "name": "Mark Hamill",
+      "role": "ACTOR",
+      "details": "Luke Skywalker"
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "Han Solo"
+    },
+    {
+      "id": 171,
+      "name": "Carrie Fisher",
+      "role": "ACTOR",
+      "details": "Leia"
+    },
+    {
+      "id": 130,
+      "name": "Billy Dee Williams",
+      "role": "ACTOR",
+      "details": "Lando Calrissian"
+    },
+    {
+      "id": 72,
+      "name": "Anthony Daniels",
+      "role": "ACTOR",
+      "details": "C-3PO"
+    },
+    {
+      "id": 276,
+      "name": "David Prowse",
+      "role": "ACTOR",
+      "details": "Darth Vader"
+    },
+    {
+      "id": 924,
+      "name": "Peter Mayhew",
+      "role": "ACTOR",
+      "details": "Chewbacca"
+    },
+    {
+      "id": 382,
+      "name": "Frank Oz",
+      "role": "ACTOR",
+      "details": "Yoda"
+    },
+    {
+      "id": 1249,
+      "name": "Jeremy Bulloch",
+      "role": "ACTOR",
+      "details": "Boba Fett"
+    }
+  ]
+}

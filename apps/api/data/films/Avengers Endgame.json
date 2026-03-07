@@ -1,0 +1,256 @@
+{
+  "id": 19,
+  "title": "Avengers: Endgame",
+  "releaseDate": "2019-04-26",
+  "type": "FILM",
+  "duration": 181,
+  "budget": 356000000,
+  "boxOffice": 2730000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 23,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+      "order": 1,
+      "id": 19
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "id": 42
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Editing",
+          "id": 48
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        },
+        {
+          "title": "Best action Movie",
+          "id": 76
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Best Hero",
+          "id": 183
+        },
+        {
+          "title": "Best Villain",
+          "id": 184
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1367,
+      "name": "Anthony Russo",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1368,
+      "name": "Joe Russo",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1372,
+      "name": "Trent Opaloch",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "id": 151,
+      "name": "Brie Larson",
+      "role": "ACTOR",
+      "details": "Carol Danvers / Captain Marvel"
+    },
+    {
+      "id": 141,
+      "name": "Bradley Cooper",
+      "role": "ACTOR",
+      "details": "Rocket"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 640,
+      "name": "Karen Gillan",
+      "role": "ACTOR",
+      "details": "Nebula"
+    },
+    {
+      "id": 361,
+      "name": "Evangeline Lilly",
+      "role": "ACTOR",
+      "details": "Hope van Dyne / The Wasp"
+    },
+    {
+      "id": 616,
+      "name": "Josh Brolin",
+      "role": "ACTOR",
+      "details": "Thanos"
+    },
+    {
+      "id": 329,
+      "name": "Elizabeth Olsen",
+      "role": "ACTOR",
+      "details": "Wanda Maximoff"
+    },
+    {
+      "id": 1133,
+      "name": "Tom Holland",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "id": 910,
+      "name": "Paul Rudd",
+      "role": "ACTOR",
+      "details": "Scott Lang / Ant-Man"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": "Bucky Barnes"
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "ACTOR",
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "id": 179,
+      "name": "Chadwick Boseman",
+      "role": "ACTOR",
+      "details": "T'Challa / Black Panther"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Bruce Banner / The Professor Hulk"
+    },
+    {
+      "id": 304,
+      "name": "Don Cheadle",
+      "role": "ACTOR",
+      "details": "James Rhodes / The War Machine"
+    }
+  ]
+}

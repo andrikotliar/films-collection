@@ -1,0 +1,170 @@
+{
+  "id": 144,
+  "title": "Star Wars Episode II: Attack of the Clones",
+  "releaseDate": "2002-05-16",
+  "type": "FILM",
+  "duration": 142,
+  "budget": 115000000,
+  "boxOffice": 649000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=gYbW1F_c9eM",
+      "order": 1,
+      "id": 161
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Costumes",
+          "id": 52
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Fight",
+          "id": 194
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1996,
+      "name": "Jonathan Hales",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1994,
+      "name": "Rick McCallum",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1995,
+      "name": "David Tattersall",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 363,
+      "name": "Ewan McGregor",
+      "role": "ACTOR",
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "id": 864,
+      "name": "Natalie Portman",
+      "role": "ACTOR",
+      "details": "Padme"
+    },
+    {
+      "id": 436,
+      "name": "Hayden Christensen",
+      "role": "ACTOR",
+      "details": "Anakin Skywalker"
+    },
+    {
+      "id": 209,
+      "name": "Christopher Lee",
+      "role": "ACTOR",
+      "details": "Count Dooku"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Mace Windu"
+    },
+    {
+      "id": 382,
+      "name": "Frank Oz",
+      "role": "ACTOR",
+      "details": "Yoda"
+    },
+    {
+      "id": 459,
+      "name": "Ian McDiarmid",
+      "role": "ACTOR",
+      "details": "Palpatine"
+    },
+    {
+      "id": 1107,
+      "name": "Temuera Morrison",
+      "role": "ACTOR",
+      "details": "Jango Fett"
+    },
+    {
+      "id": 563,
+      "name": "Jimmy Smits",
+      "role": "ACTOR",
+      "details": "Bail Organa"
+    },
+    {
+      "id": 72,
+      "name": "Anthony Daniels",
+      "role": "ACTOR",
+      "details": "C-3PO"
+    }
+  ]
+}

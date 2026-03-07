@@ -1,0 +1,117 @@
+{
+  "id": 63,
+  "title": "Hawkeye",
+  "releaseDate": "2021-11-24",
+  "type": "SERIES",
+  "duration": 57,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 31,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5VYb3B1ETlk",
+      "order": 1,
+      "id": 72
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1583,
+      "name": "Jonathan Igla",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1591,
+      "name": "Eric Steelberg",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1592,
+      "name": "James Whitaker",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "ACTOR",
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "id": 424,
+      "name": "Hailee Steinfeld",
+      "role": "ACTOR",
+      "details": "Kate Bishop"
+    },
+    {
+      "id": 1161,
+      "name": "Vera Farmiga",
+      "role": "ACTOR",
+      "details": " Eleanor Bishop"
+    },
+    {
+      "id": 1221,
+      "name": "Tony Dalton",
+      "role": "ACTOR",
+      "details": " Jack Duquesne"
+    },
+    {
+      "id": 1222,
+      "name": "Fra Fee",
+      "role": "ACTOR",
+      "details": "Kazi"
+    },
+    {
+      "id": 1223,
+      "name": "Alaqua Cox",
+      "role": "ACTOR",
+      "details": "Maya Lopez / Echo"
+    },
+    {
+      "id": 1165,
+      "name": "Vincent D'Onofrio",
+      "role": "ACTOR",
+      "details": "Kingpin"
+    }
+  ],
+  "seriesExtension": {
+    "id": 6,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "finishedAt": "2021-12-22"
+  }
+}

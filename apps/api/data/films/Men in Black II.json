@@ -1,0 +1,127 @@
+{
+  "id": 100,
+  "title": "Men in Black II",
+  "releaseDate": "2002-07-03",
+  "type": "FILM",
+  "duration": 88,
+  "budget": 140000000,
+  "boxOffice": 442000000,
+  "overview": null,
+  "chapterKey": "mib",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=p4NJHqoojOU",
+      "order": 1,
+      "id": 114
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1824,
+      "name": "Barry Sonnenfeld",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1830,
+      "name": "Robert Gordon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1831,
+      "name": "Barry Fanaro",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1826,
+      "name": "Walter F. Parkes",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1827,
+      "name": "Laurie MacDonald",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1832,
+      "name": "Greg Gardiner",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1142,
+      "name": "Tommy Lee Jones",
+      "role": "ACTOR",
+      "details": "K"
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "J"
+    },
+    {
+      "id": 979,
+      "name": "Rip Torn",
+      "role": "ACTOR",
+      "details": "Z"
+    },
+    {
+      "id": 698,
+      "name": "Lara Flynn Boyle",
+      "role": "ACTOR",
+      "details": "Serleena"
+    },
+    {
+      "id": 600,
+      "name": "Johnny Knoxville",
+      "role": "ACTOR",
+      "details": "Scrad / Charlie"
+    },
+    {
+      "id": 1004,
+      "name": "Rosario Dawson",
+      "role": "ACTOR",
+      "details": "Laura Vasquez"
+    }
+  ]
+}

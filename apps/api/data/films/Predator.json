@@ -1,0 +1,141 @@
+{
+  "id": 119,
+  "title": "Predator",
+  "releaseDate": "1987-06-12",
+  "type": "FILM",
+  "duration": 107,
+  "budget": 15000000,
+  "boxOffice": 98000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=_1wDBNHYDv8",
+      "order": 1,
+      "id": 133
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1897,
+      "name": "John McTiernan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1898,
+      "name": "Jim Thomas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1899,
+      "name": "John Thomas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1676,
+      "name": "John Davis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1900,
+      "name": "Lawrence Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1901,
+      "name": "Joel Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1902,
+      "name": "Donald McAlpine",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 87,
+      "name": "Arnold Schwarzenegger",
+      "role": "ACTOR",
+      "details": "Dutch"
+    },
+    {
+      "id": 168,
+      "name": "Carl Weathers",
+      "role": "ACTOR",
+      "details": "Dillon"
+    },
+    {
+      "id": 336,
+      "name": "Elpidia Carrillo",
+      "role": "ACTOR",
+      "details": "Anna"
+    },
+    {
+      "id": 122,
+      "name": "Bill Duke",
+      "role": "ACTOR",
+      "details": "Mac"
+    },
+    {
+      "id": 557,
+      "name": "Jesse Ventura",
+      "role": "ACTOR",
+      "details": "Blain"
+    },
+    {
+      "id": 1074,
+      "name": "Sonny Landham",
+      "role": "ACTOR",
+      "details": "Billy"
+    },
+    {
+      "id": 966,
+      "name": "Richard Chaves",
+      "role": "ACTOR",
+      "details": "Poncho"
+    },
+    {
+      "id": 679,
+      "name": "Kevin Peter Hall",
+      "role": "ACTOR",
+      "details": "Predator"
+    }
+  ]
+}

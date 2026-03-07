@@ -1,0 +1,103 @@
+{
+  "id": 164,
+  "title": "The Call of the Wild",
+  "releaseDate": "2020-02-21",
+  "type": "FILM",
+  "duration": 100,
+  "budget": 135000000,
+  "boxOffice": 110000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=h1LG9So2ZBk",
+      "order": 1,
+      "id": 190
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1662,
+      "name": "Chris Sanders",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1629,
+      "name": "Michael Green",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1478,
+      "name": "James Mangold",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1452,
+      "name": "Erwin Stoff",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1705,
+      "name": "Janusz Kaminski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "John Thornton"
+    },
+    {
+      "id": 893,
+      "name": "Omar Sy",
+      "role": "ACTOR",
+      "details": "Perrault"
+    },
+    {
+      "id": 241,
+      "name": "Dan Stevens",
+      "role": "ACTOR",
+      "details": "Hal"
+    }
+  ]
+}

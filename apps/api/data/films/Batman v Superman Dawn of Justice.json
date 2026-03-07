@@ -1,0 +1,151 @@
+{
+  "id": 24,
+  "title": "Batman v Superman: Dawn of Justice",
+  "releaseDate": "2016-03-25",
+  "type": "FILM",
+  "duration": 151,
+  "budget": 250000000,
+  "boxOffice": 874000000,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=bha24P9uw-E",
+      "order": 1,
+      "id": 24
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1386,
+      "name": "Zack Snyder",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1387,
+      "name": "Chris Terrio",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1379,
+      "name": "David S. Goyer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1388,
+      "name": "Deborah Snyder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1389,
+      "name": "Junkie XL",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1390,
+      "name": "Larry Fong",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 104,
+      "name": "Ben Affleck",
+      "role": "ACTOR",
+      "details": "Bruce Wayne / Batman"
+    },
+    {
+      "id": 443,
+      "name": "Henry Cavill",
+      "role": "ACTOR",
+      "details": "Clark Kent / Superman"
+    },
+    {
+      "id": 54,
+      "name": "Amy Adams",
+      "role": "ACTOR",
+      "details": "Lois Lane"
+    },
+    {
+      "id": 555,
+      "name": "Jesse Eisenberg",
+      "role": "ACTOR",
+      "details": "Lex Luthor"
+    },
+    {
+      "id": 291,
+      "name": "Diane Lane",
+      "role": "ACTOR",
+      "details": "Martha Kent"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Perry White"
+    },
+    {
+      "id": 551,
+      "name": "Jeremy Irons",
+      "role": "ACTOR",
+      "details": "Alfred Pennyworth"
+    },
+    {
+      "id": 450,
+      "name": "Holly Hunter",
+      "role": "ACTOR",
+      "details": "Senator Finch"
+    },
+    {
+      "id": 392,
+      "name": "Gal Gadot",
+      "role": "ACTOR",
+      "details": "Diana Prince / Wonder Woman"
+    }
+  ]
+}

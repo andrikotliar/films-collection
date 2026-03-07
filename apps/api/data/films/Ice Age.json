@@ -1,0 +1,109 @@
+{
+  "id": 72,
+  "title": "Ice Age",
+  "releaseDate": "2002-03-15",
+  "type": "FILM",
+  "duration": 81,
+  "budget": 59000000,
+  "boxOffice": 383000000,
+  "overview": null,
+  "chapterKey": "ice-age",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Blue Sky Studios",
+      "id": 36
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=i4noiCRJRoE",
+      "order": 1,
+      "id": 84
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 202,
+      "name": "Chris Wedge",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1683,
+      "name": "Michael Berg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1684,
+      "name": "Michael J. Wilson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1685,
+      "name": "Peter Ackerman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1686,
+      "name": "Lori Forte",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1687,
+      "name": "David Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 951,
+      "name": "Ray Romano",
+      "role": "ACTOR",
+      "details": "Manfred"
+    },
+    {
+      "id": 586,
+      "name": "John Leguizamo",
+      "role": "ACTOR",
+      "details": "Sid"
+    },
+    {
+      "id": 284,
+      "name": "Denis Leary",
+      "role": "ACTOR",
+      "details": "Diego"
+    },
+    {
+      "id": 415,
+      "name": "Goran Visnjic",
+      "role": "ACTOR",
+      "details": "Soto"
+    }
+  ]
+}

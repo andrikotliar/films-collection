@@ -238,7 +238,7 @@ export const filmTrailers = pgTable(
     uniqueIndex('film_trailers_film_id_url_key').using(
       'btree',
       table.filmId.asc().nullsLast().op('int4_ops'),
-      table.url.asc().nullsLast().op('int4_ops'),
+      table.url.asc().nullsLast().op('text_ops'),
     ),
     foreignKey({
       columns: [table.filmId],
@@ -492,7 +492,7 @@ export const nominations = pgTable(
     uniqueIndex('nominations_award_id_title_key').using(
       'btree',
       table.awardId.asc().nullsLast().op('int4_ops'),
-      table.title.asc().nullsLast().op('int4_ops'),
+      table.title.asc().nullsLast().op('text_ops'),
     ),
     foreignKey({
       columns: [table.awardId],

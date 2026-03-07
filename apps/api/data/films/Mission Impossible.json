@@ -1,0 +1,141 @@
+{
+  "id": 102,
+  "title": "Mission: Impossible",
+  "releaseDate": "1996-05-22",
+  "type": "FILM",
+  "duration": 110,
+  "budget": 80000000,
+  "boxOffice": 458000000,
+  "overview": null,
+  "chapterKey": "mission-impossible",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Ohws8y572KE",
+      "order": 1,
+      "id": 116
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1837,
+      "name": "Brian De Palma",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1702,
+      "name": "David Koepp",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1838,
+      "name": "Robert Towne",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1839,
+      "name": "Paula Wagner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1840,
+      "name": "Stephen H. Burum",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Ethan Hunt"
+    },
+    {
+      "id": 603,
+      "name": "Jon Voight",
+      "role": "ACTOR",
+      "details": "Jim Phelps"
+    },
+    {
+      "id": 347,
+      "name": "Emmanuelle Beart",
+      "role": "ACTOR",
+      "details": "Claire"
+    },
+    {
+      "id": 444,
+      "name": "Henry Czerny",
+      "role": "ACTOR",
+      "details": "Kittridge"
+    },
+    {
+      "id": 536,
+      "name": "Jean Reno",
+      "role": "ACTOR",
+      "details": "Krieger"
+    },
+    {
+      "id": 1166,
+      "name": "Ving Rhames",
+      "role": "ACTOR",
+      "details": "Luther"
+    },
+    {
+      "id": 689,
+      "name": "Kristin Scott Thomas",
+      "role": "ACTOR",
+      "details": "Sarah Davies"
+    },
+    {
+      "id": 1160,
+      "name": "Vanessa Redgrave",
+      "role": "ACTOR",
+      "details": "Max"
+    },
+    {
+      "id": 465,
+      "name": "Ingeborga Dapkunaite",
+      "role": "ACTOR",
+      "details": "Hannah"
+    }
+  ]
+}

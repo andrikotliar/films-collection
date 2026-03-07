@@ -1,0 +1,206 @@
+{
+  "id": 217,
+  "title": "Transformers",
+  "releaseDate": "2007-07-03",
+  "type": "FILM",
+  "duration": 143,
+  "budget": 150000000,
+  "boxOffice": 710000000,
+  "overview": null,
+  "chapterKey": "transformers",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Pictures",
+      "id": 15
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=dxQxgAfNzyE",
+      "order": 1,
+      "id": 247
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Best Summer Movie You Haven't Seen Yet",
+          "id": 204
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1275,
+      "name": "Michael Bay",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1851,
+      "name": "Alex Kurtzman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2330,
+      "name": "Lorenzo di Bonaventura",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2331,
+      "name": "Tom DeSanto",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1918,
+      "name": "Don Murphy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1971,
+      "name": "Ian Bryce",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2332,
+      "name": "Steve Jablonsky",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1866,
+      "name": "Mitchell Amundsen",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1065,
+      "name": "Shia LaBeouf",
+      "role": "ACTOR",
+      "details": "Sam Witwicky"
+    },
+    {
+      "id": 812,
+      "name": "Megan Fox",
+      "role": "ACTOR",
+      "details": "Mikaela Banes"
+    },
+    {
+      "id": 617,
+      "name": "Josh Duhamel",
+      "role": "ACTOR",
+      "details": "Captain Lennox"
+    },
+    {
+      "id": 1156,
+      "name": "Tyrese Gibson",
+      "role": "ACTOR",
+      "details": "Epps"
+    },
+    {
+      "id": 937,
+      "name": "Rachael Taylor",
+      "role": "ACTOR",
+      "details": "Maggie Madsen"
+    },
+    {
+      "id": 71,
+      "name": "Anthony Anderson",
+      "role": "ACTOR",
+      "details": "Glen Whitmann"
+    },
+    {
+      "id": 603,
+      "name": "Jon Voight",
+      "role": "ACTOR",
+      "details": "John Keller"
+    },
+    {
+      "id": 597,
+      "name": "John Turturro",
+      "role": "ACTOR",
+      "details": "Agent Simmons"
+    },
+    {
+      "id": 918,
+      "name": "Peter Cullen",
+      "role": "ACTOR",
+      "details": "Optimus Prime"
+    },
+    {
+      "id": 787,
+      "name": "Mark Ryan",
+      "role": "ACTOR",
+      "details": "Bumblebee"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Megatron"
+    },
+    {
+      "id": 961,
+      "name": "Reno Wilson",
+      "role": "ACTOR",
+      "details": "Frenzy"
+    },
+    {
+      "id": 181,
+      "name": "Charlie Adler",
+      "role": "ACTOR",
+      "details": "Starscream"
+    }
+  ]
+}

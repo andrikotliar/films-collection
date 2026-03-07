@@ -1,0 +1,137 @@
+{
+  "id": 200,
+  "title": "The Mitchells vs the Machines",
+  "releaseDate": "2021-04-23",
+  "type": "FILM",
+  "duration": 113,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Hong Kong",
+      "id": 16
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=_ak5dFt8Ar0",
+      "order": 1,
+      "id": 227
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 829,
+      "name": "Michael Rianda",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 829,
+      "name": "Michael Rianda",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2241,
+      "name": "Jeff Rowe",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1986,
+      "name": "Phil Lord",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1987,
+      "name": "Christopher Miller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2242,
+      "name": "Kurt Albrecht",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2243,
+      "name": "Mark Mothersbaugh",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 4,
+      "name": "Abbi Jacobson",
+      "role": "ACTOR",
+      "details": "Katie Mitchell"
+    },
+    {
+      "id": 257,
+      "name": "Danny McBride",
+      "role": "ACTOR",
+      "details": "Rick Mitchell"
+    },
+    {
+      "id": 810,
+      "name": "Maya Rudolph",
+      "role": "ACTOR",
+      "details": "Linda Mitchell"
+    },
+    {
+      "id": 829,
+      "name": "Michael Rianda",
+      "role": "ACTOR",
+      "details": "Aaron Mitchell"
+    },
+    {
+      "id": 887,
+      "name": "Olivia Colman",
+      "role": "ACTOR",
+      "details": "PAL"
+    },
+    {
+      "id": 350,
+      "name": "Eric Andre",
+      "role": "ACTOR",
+      "details": "Dr. Mark Bowman"
+    },
+    {
+      "id": 386,
+      "name": "Fred Armisen",
+      "role": "ACTOR",
+      "details": "Deborahbot 5000"
+    }
+  ]
+}

@@ -51,4 +51,8 @@ export class PeopleService {
       label: person.name,
     }));
   }
+
+  getAll() {
+    return this.deps.peopleRepository.getAll();
+  }
 }

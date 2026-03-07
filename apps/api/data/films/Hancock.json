@@ -1,0 +1,123 @@
+{
+  "id": 53,
+  "title": "Hancock",
+  "releaseDate": "2008-07-02",
+  "type": "FILM",
+  "duration": 92,
+  "budget": 150000000,
+  "boxOffice": 624000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=SkX1VuXLRSc",
+      "order": 1,
+      "id": 62
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1545,
+      "name": "Peter Berg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1546,
+      "name": "Vince Gilligan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1547,
+      "name": "Vincent Ngo",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1548,
+      "name": "Akiva Goldsman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1549,
+      "name": "James Lassiter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1550,
+      "name": "Michael Mann",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1552,
+      "name": "Tobias A. Schliessler",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "John Hancock"
+    },
+    {
+      "id": 186,
+      "name": "Charlize Theron",
+      "role": "ACTOR",
+      "details": "Mary"
+    },
+    {
+      "id": 524,
+      "name": "Jason Bateman",
+      "role": "ACTOR",
+      "details": "Ray"
+    },
+    {
+      "id": 318,
+      "name": "Eddie Marsan",
+      "role": "ACTOR",
+      "details": "Kenneth \"Red\" Parker"
+    }
+  ]
+}

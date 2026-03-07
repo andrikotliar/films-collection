@@ -8,7 +8,9 @@
     "start": "node dist/server.js",
     "db:migration:gen": "drizzle-kit generate",
     "db:migration:apply": "drizzle-kit migrate",
-    "check": "tsc --noEmit",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx src/scripts/seed-database",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint . --quiet --ext .ts",
     "api:generate": "tsx src/scripts/generate-client.ts"
   },
@@ -46,6 +48,6 @@
   "author": "Andrii Kotliar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrikotliar/films-collection/tree/main/server"
+    "url": "https://github.com/andrikotliar/films-collection/tree/main/apps/api"
   }
 }

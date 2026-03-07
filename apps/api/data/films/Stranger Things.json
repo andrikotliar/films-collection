@@ -1,0 +1,287 @@
+{
+  "id": 151,
+  "title": "Stranger Things",
+  "releaseDate": "2016-07-15",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
+      "order": 1,
+      "id": 168
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R1ZXOOLMJ8s",
+      "order": 2,
+      "id": 169
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6Am4v0C_z8c",
+      "order": 3,
+      "id": 170
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=a3thyAnShck",
+      "order": 4,
+      "id": 171
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor in a Television Series",
+          "id": 60
+        },
+        {
+          "title": "Best Supporting Actress in Streaming Presentation",
+          "id": 61
+        },
+        {
+          "title": "Best Streaming horror & thriller Series",
+          "id": 62
+        },
+        {
+          "title": "Best New Media Television Series",
+          "id": 63
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor in a drama Series",
+          "id": 86
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Stunt Coordination for a drama Series, Limited of Anthology Series or Movie",
+          "id": 148
+        },
+        {
+          "title": "Outstanding Sound Editing for a comedy or drama Series (One Hour)",
+          "id": 149
+        },
+        {
+          "title": "Outstanding Sound Mixing for a comedy or drama Series (One Hour)",
+          "id": 150
+        },
+        {
+          "title": "Outstanding Music Supervision",
+          "id": 151
+        },
+        {
+          "title": "Outstanding Prosthetic Makeup",
+          "id": 152
+        },
+        {
+          "title": "Outstanding Main Title Design",
+          "id": 153
+        },
+        {
+          "title": "Outstanding Original Main Title Theme Music",
+          "id": 154
+        },
+        {
+          "title": "Outstanding Casting for a drama Series",
+          "id": 155
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a drama Series",
+          "id": 156
+        },
+        {
+          "title": "Outstanding Sound Editing for a Series",
+          "id": 157
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2010,
+      "name": "Matt Duffer",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2011,
+      "name": "Ross Duffer",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2026,
+      "name": "Kyle Dixon",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2027,
+      "name": "Michael Stein",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2028,
+      "name": "Tim Ives",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2029,
+      "name": "Tod Campbell",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1817,
+      "name": "Lachlan Milne",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1519,
+      "name": "David Franco",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1188,
+      "name": "Winona Ryder",
+      "role": "ACTOR",
+      "details": "Joyce Byers"
+    },
+    {
+      "id": 274,
+      "name": "David Harbour",
+      "role": "ACTOR",
+      "details": "Jim Hopper"
+    },
+    {
+      "id": 371,
+      "name": "Finn Wolfhard",
+      "role": "ACTOR",
+      "details": "Mike Wheeler"
+    },
+    {
+      "id": 844,
+      "name": "Millie Bobby Brown",
+      "role": "ACTOR",
+      "details": "Eleven"
+    },
+    {
+      "id": 396,
+      "name": "Gaten Matarazzo",
+      "role": "ACTOR",
+      "details": "Dustin Henderson"
+    },
+    {
+      "id": 161,
+      "name": "Caleb McLaughlin",
+      "role": "ACTOR",
+      "details": "Lucas Sinclair"
+    },
+    {
+      "id": 862,
+      "name": "Natalia Dyer",
+      "role": "ACTOR",
+      "details": "Nancy Wheeler"
+    },
+    {
+      "id": 183,
+      "name": "Charlie Heaton",
+      "role": "ACTOR",
+      "details": "Jonathan Byers"
+    },
+    {
+      "id": 566,
+      "name": "Joe Keery",
+      "role": "ACTOR",
+      "details": "Steve Harrington"
+    },
+    {
+      "id": 878,
+      "name": "Noah Schnapp",
+      "role": "ACTOR",
+      "details": "Will Byers"
+    },
+    {
+      "id": 806,
+      "name": "Matthew Modine",
+      "role": "ACTOR",
+      "details": "Dr. Martin Brenner"
+    },
+    {
+      "id": 1250,
+      "name": "Sadie Sink",
+      "role": "ACTOR",
+      "details": "Max Mayfield"
+    },
+    {
+      "id": 1251,
+      "name": "Joseph Quinn",
+      "role": "ACTOR",
+      "details": "Eddie Munson"
+    },
+    {
+      "id": 1252,
+      "name": "Jamie Campbell Bower",
+      "role": "ACTOR",
+      "details": "Vecna"
+    },
+    {
+      "id": 1253,
+      "name": "Dacre Montgomery",
+      "role": "ACTOR",
+      "details": "Billy Hargrove"
+    }
+  ],
+  "seriesExtension": {
+    "id": 11,
+    "episodesTotal": 34,
+    "seasonsTotal": 4,
+    "finishedAt": "2022-07-01"
+  }
+}

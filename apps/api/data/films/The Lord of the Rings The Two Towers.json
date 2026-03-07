@@ -1,0 +1,280 @@
+{
+  "id": 190,
+  "title": "The Lord of the Rings: The Two Towers",
+  "releaseDate": "2002-12-18",
+  "type": "FILM",
+  "duration": 179,
+  "budget": 94000000,
+  "boxOffice": 926000000,
+  "overview": null,
+  "chapterKey": "middle-earth",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    }
+  ],
+  "studios": [
+    {
+      "title": "New Line Cinema",
+      "id": 56
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=LbfMDwc4azU",
+      "order": 1,
+      "id": 216
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound Editing",
+          "id": 29
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release",
+          "id": 54
+        },
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Costumes",
+          "id": 52
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Digital Acting Performance",
+          "id": 93
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Costume Design",
+          "id": 19
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Best On-Screen Team",
+          "id": 199
+        },
+        {
+          "title": "Best Virtual Performance",
+          "id": 202
+        },
+        {
+          "title": "Best action Sequence",
+          "id": 192
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2171,
+      "name": "Philippa Boyens",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2215,
+      "name": "Barrie M. Osborne",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1671,
+      "name": "Howard Shore",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1682,
+      "name": "Andrew Lesnie",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 323,
+      "name": "Elijah Wood",
+      "role": "ACTOR",
+      "details": "Frodo Baggins"
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Gandalf"
+    },
+    {
+      "id": 1044,
+      "name": "Sean Astin",
+      "role": "ACTOR",
+      "details": "Samwise Gamgee"
+    },
+    {
+      "id": 1163,
+      "name": "Viggo Mortensen",
+      "role": "ACTOR",
+      "details": "Aragorn"
+    },
+    {
+      "id": 595,
+      "name": "John Rhys-Davies",
+      "role": "ACTOR",
+      "details": "Gimli"
+    },
+    {
+      "id": 894,
+      "name": "Orlando Bloom",
+      "role": "ACTOR",
+      "details": "Legolas"
+    },
+    {
+      "id": 175,
+      "name": "Cate Blanchett",
+      "role": "ACTOR",
+      "details": "Galadriel"
+    },
+    {
+      "id": 209,
+      "name": "Christopher Lee",
+      "role": "ACTOR",
+      "details": "Saruman"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Elrond"
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Gollum"
+    },
+    {
+      "id": 641,
+      "name": "Karl Urban",
+      "role": "ACTOR",
+      "details": "Eomer"
+    },
+    {
+      "id": 1218,
+      "name": "Miranda Otto",
+      "role": "ACTOR",
+      "details": "Eowyn"
+    },
+    {
+      "id": 1045,
+      "name": "Sean Bean",
+      "role": "ACTOR",
+      "details": "Boromir"
+    },
+    {
+      "id": 127,
+      "name": "Billy Boyd",
+      "role": "ACTOR",
+      "details": "Pippin"
+    },
+    {
+      "id": 302,
+      "name": "Dominic Monaghan",
+      "role": "ACTOR",
+      "details": "Merry"
+    }
+  ]
+}

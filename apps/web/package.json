@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint . --quiet --ext .ts,.tsx"
   },
   "dependencies": {
@@ -51,6 +51,6 @@
   "author": "Andrii Kotliar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrikotliar/films-collection/tree/main/client"
+    "url": "https://github.com/andrikotliar/films-collection/tree/main/apps/web"
   }
 }

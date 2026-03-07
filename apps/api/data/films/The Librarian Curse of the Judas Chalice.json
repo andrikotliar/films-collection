@@ -1,0 +1,122 @@
+{
+  "id": 185,
+  "title": "The Librarian: Curse of the Judas Chalice",
+  "releaseDate": "2008-12-07",
+  "type": "FILM",
+  "duration": 95,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "librarian",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "TNT",
+      "id": 59
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=SfONecwHgHY",
+      "order": 1,
+      "id": 211
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Presentation on Television",
+          "id": 67
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2203,
+      "name": "Jonathan Frakes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2204,
+      "name": "Marco Schnabel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2205,
+      "name": "Phillip M. Goldfarb",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 879,
+      "name": "Noah Wyle",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2206,
+      "name": "Joseph LoDuca",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2207,
+      "name": "David Connell",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 879,
+      "name": "Noah Wyle",
+      "role": "ACTOR",
+      "details": "Flynn Carsen"
+    },
+    {
+      "id": 154,
+      "name": "Bruce Davison",
+      "role": "ACTOR",
+      "details": "Professor Lazlo / Vlad"
+    },
+    {
+      "id": 1078,
+      "name": "Stana Katic",
+      "role": "ACTOR",
+      "details": "Simone Renoir"
+    },
+    {
+      "id": 133,
+      "name": "Bob Newhart",
+      "role": "ACTOR",
+      "details": "Judson"
+    },
+    {
+      "id": 518,
+      "name": "Jane Curtin",
+      "role": "ACTOR",
+      "details": "Charlene"
+    }
+  ]
+}

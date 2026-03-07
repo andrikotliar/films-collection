@@ -1,0 +1,170 @@
+{
+  "id": 146,
+  "title": "Star Wars Episode I: The Phantom Menace",
+  "releaseDate": "1999-05-19",
+  "type": "FILM",
+  "duration": 136,
+  "budget": 115000000,
+  "boxOffice": 1020000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
+      "order": 1,
+      "id": 163
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Costumes",
+          "id": 52
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best action Sequence",
+          "id": 192
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1994,
+      "name": "Rick McCallum",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1995,
+      "name": "David Tattersall",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 724,
+      "name": "Liam Neeson",
+      "role": "ACTOR",
+      "details": "Qui-Gon Jinn"
+    },
+    {
+      "id": 363,
+      "name": "Ewan McGregor",
+      "role": "ACTOR",
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "id": 864,
+      "name": "Natalie Portman",
+      "role": "ACTOR",
+      "details": "Padme"
+    },
+    {
+      "id": 500,
+      "name": "Jake Lloyd",
+      "role": "ACTOR",
+      "details": "Anakin Skywalker"
+    },
+    {
+      "id": 459,
+      "name": "Ian McDiarmid",
+      "role": "ACTOR",
+      "details": "Senator Palpatine"
+    },
+    {
+      "id": 915,
+      "name": "Pernilla August",
+      "role": "ACTOR",
+      "details": "Shmi Skywalker"
+    },
+    {
+      "id": 16,
+      "name": "Ahmed Best",
+      "role": "ACTOR",
+      "details": "Jar Jar Binks"
+    },
+    {
+      "id": 72,
+      "name": "Anthony Daniels",
+      "role": "ACTOR",
+      "details": "C-3PO"
+    },
+    {
+      "id": 667,
+      "name": "Kenny Baker",
+      "role": "ACTOR",
+      "details": "R2-D2"
+    },
+    {
+      "id": 382,
+      "name": "Frank Oz",
+      "role": "ACTOR",
+      "details": "Yoda"
+    },
+    {
+      "id": 949,
+      "name": "Ray Park",
+      "role": "ACTOR",
+      "details": "Darth Maul"
+    }
+  ]
+}

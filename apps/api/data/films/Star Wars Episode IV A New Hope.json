@@ -1,0 +1,248 @@
+{
+  "id": 145,
+  "title": "Star Wars Episode IV: A New Hope",
+  "releaseDate": "1977-05-25",
+  "type": "FILM",
+  "duration": 121,
+  "budget": 11000000,
+  "boxOffice": 775000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 6,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=vZ734NWnAHA",
+      "order": 1,
+      "id": 162
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "id": 13
+        },
+        {
+          "title": "Best Costume Design",
+          "id": 19
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Film Editing",
+          "id": 15
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Costumes",
+          "id": 52
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        },
+        {
+          "title": "Outstanding Editing",
+          "id": 56
+        },
+        {
+          "title": "Outstanding Sound",
+          "id": 57
+        },
+        {
+          "title": "Outstanding Art Direction",
+          "id": 58
+        },
+        {
+          "title": "Outstanding Set Decoration",
+          "id": 59
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 14
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Original Score - Motion Picture",
+          "id": 120
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Lifetime Achievement",
+          "id": 195
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1997,
+      "name": "Gary Kurtz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1998,
+      "name": "Gilbert Taylor",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 785,
+      "name": "Mark Hamill",
+      "role": "ACTOR",
+      "details": "Luke Skywalker"
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "Han Solo"
+    },
+    {
+      "id": 171,
+      "name": "Carrie Fisher",
+      "role": "ACTOR",
+      "details": "Leia Organa"
+    },
+    {
+      "id": 919,
+      "name": "Peter Cushing",
+      "role": "ACTOR",
+      "details": "Moff Tarkin"
+    },
+    {
+      "id": 28,
+      "name": "Alec Guinness",
+      "role": "ACTOR",
+      "details": "Ben Obi-Wan Kenobi"
+    },
+    {
+      "id": 72,
+      "name": "Anthony Daniels",
+      "role": "ACTOR",
+      "details": "C-3PO"
+    },
+    {
+      "id": 667,
+      "name": "Kenny Baker",
+      "role": "ACTOR",
+      "details": "R2-D2"
+    },
+    {
+      "id": 924,
+      "name": "Peter Mayhew",
+      "role": "ACTOR",
+      "details": "Chewbacca"
+    },
+    {
+      "id": 276,
+      "name": "David Prowse",
+      "role": "ACTOR",
+      "details": "Darth Vader"
+    }
+  ]
+}

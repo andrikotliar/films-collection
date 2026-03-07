@@ -1,0 +1,150 @@
+{
+  "id": 222,
+  "title": "Tron: Legacy",
+  "releaseDate": "2010-12-17",
+  "type": "FILM",
+  "duration": 125,
+  "budget": 170000000,
+  "boxOffice": 400000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=L9szn1QQfas",
+      "order": 1,
+      "id": 252
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1867,
+      "name": "Joseph Kosinski",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2338,
+      "name": "Edward Kitsis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2339,
+      "name": "Adam Horowitz",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2340,
+      "name": "Sean Bailey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2341,
+      "name": "Steven Lisberger",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1454,
+      "name": "Jeffrey Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2342,
+      "name": "Daft Punk",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1874,
+      "name": "Claudio Miranda",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 539,
+      "name": "Jeff Bridges",
+      "role": "ACTOR",
+      "details": "Kevin Flynn / Clu"
+    },
+    {
+      "id": 393,
+      "name": "Garrett Hedlund",
+      "role": "ACTOR",
+      "details": "Sam Flynn"
+    },
+    {
+      "id": 890,
+      "name": "Olivia Wilde",
+      "role": "ACTOR",
+      "details": "Quorra"
+    },
+    {
+      "id": 153,
+      "name": "Bruce Boxleitner",
+      "role": "ACTOR",
+      "details": "Alan Bradley / Tron"
+    },
+    {
+      "id": 505,
+      "name": "James Frain",
+      "role": "ACTOR",
+      "details": "Jarvis"
+    },
+    {
+      "id": 102,
+      "name": "Beau Garrett",
+      "role": "ACTOR",
+      "details": "Gem"
+    },
+    {
+      "id": 832,
+      "name": "Michael Sheen",
+      "role": "ACTOR",
+      "details": "Castor / Zuse"
+    }
+  ]
+}

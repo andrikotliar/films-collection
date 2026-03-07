@@ -1,0 +1,141 @@
+{
+  "id": 96,
+  "title": "Madagascar",
+  "releaseDate": "2005-05-27",
+  "type": "FILM",
+  "duration": 86,
+  "budget": 75000000,
+  "boxOffice": 542000000,
+  "overview": null,
+  "chapterKey": "madagascar",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=orAqhC-Hp_o",
+      "order": 1,
+      "id": 110
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1818,
+      "name": "Eric Darnell",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1136,
+      "name": "Tom McGrath",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1819,
+      "name": "Mark Burton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1820,
+      "name": "Billy Frolick",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1818,
+      "name": "Eric Darnell",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1136,
+      "name": "Tom McGrath",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1821,
+      "name": "Mireille Soria",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 113,
+      "name": "Ben Stiller",
+      "role": "ACTOR",
+      "details": "Alex"
+    },
+    {
+      "id": 200,
+      "name": "Chris Rock",
+      "role": "ACTOR",
+      "details": "Marty"
+    },
+    {
+      "id": 277,
+      "name": "David Schwimmer",
+      "role": "ACTOR",
+      "details": "Melman"
+    },
+    {
+      "id": 490,
+      "name": "Jada Pinkett Smith",
+      "role": "ACTOR",
+      "details": "Gloria"
+    },
+    {
+      "id": 1025,
+      "name": "Sacha Baron Cohen",
+      "role": "ACTOR",
+      "details": "Julien"
+    },
+    {
+      "id": 1136,
+      "name": "Tom McGrath",
+      "role": "ACTOR",
+      "details": "Skipper"
+    },
+    {
+      "id": 196,
+      "name": "Chris Miller",
+      "role": "ACTOR",
+      "details": "Kowalski"
+    },
+    {
+      "id": 1260,
+      "name": "Cedric The Entertainer",
+      "role": "ACTOR",
+      "details": "Maurice"
+    }
+  ]
+}

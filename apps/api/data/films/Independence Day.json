@@ -1,0 +1,146 @@
+{
+  "id": 77,
+  "title": "Independence Day",
+  "releaseDate": "1996-07-03",
+  "type": "FILM",
+  "duration": 145,
+  "budget": 75000000,
+  "boxOffice": 817000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=kA2WzBi2grE",
+      "order": 1,
+      "id": 89
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1700,
+      "name": "Dean Devlin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1700,
+      "name": "Dean Devlin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1271,
+      "name": "David Arnold",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1701,
+      "name": "Karl Walter Lindenlaub",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Capt. Steven Hiller"
+    },
+    {
+      "id": 126,
+      "name": "Bill Pullman",
+      "role": "ACTOR",
+      "details": "President Thomas J. Whitmore"
+    },
+    {
+      "id": 542,
+      "name": "Jeff Goldblum",
+      "role": "ACTOR",
+      "details": "David Levinson"
+    },
+    {
+      "id": 622,
+      "name": "Judd Hirsch",
+      "role": "ACTOR",
+      "details": "Julius Levinson"
+    },
+    {
+      "id": 988,
+      "name": "Robert Loggia",
+      "role": "ACTOR",
+      "details": "General William Grey"
+    },
+    {
+      "id": 946,
+      "name": "Randy Quaid",
+      "role": "ACTOR",
+      "details": "Russell Casse"
+    }
+  ]
+}

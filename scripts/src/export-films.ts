@@ -1,0 +1,118 @@
+import { type CompleteDataResponse } from '@films-collection/shared';
+import crypto from 'node:crypto';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import type z from 'zod';
+import { ExportFilmScriptSchema, getEnvironment, logger } from '~/helpers';
+import type { ApiResult } from '~/types';
+import { okResponse } from '~/helpers/ok-response';
+
+const DATA_FOLDER = path.join(import.meta.dirname, '../../apps/api/data');
+
+const fetchData = async (
+  env: z.infer<typeof ExportFilmScriptSchema>,
+): Promise<ApiResult<CompleteDataResponse>> => {
+  try {
+    const timestamp = Date.now().toString();
+    const urlObject = new URL(env.FILMS_EXPORT_URL);
+    const method = 'GET';
+
+    const payload = `${method}.${urlObject.pathname}.${timestamp}`;
+
+    const signature = crypto
+      .createHmac('sha256', env.SIGNATURE_SECRET)
+      .update(payload)
+      .digest('hex');
+
+    const response = await fetch(env.FILMS_EXPORT_URL, {
+      method,
+      headers: {
+        'x-timestamp': timestamp,
+        'x-signature': signature,
+      },
+    });
+
+    if (!response.ok) {
+      const data = await response.text();
+      return {
+        ok: false,
+        error: JSON.stringify(data),
+      };
+    }
+
+    const data = await response.json();
+
+    return okResponse<CompleteDataResponse>(data);
+  } catch (e) {
+    return {
+      ok: false,
+      error: JSON.stringify(e),
+    };
+  }
+};
+
+type BaseDataItems = keyof CompleteDataResponse['baseData'];
+const baseDataItems: BaseDataItems[] = ['genres', 'countries', 'studios', 'awards', 'people'];
+
+const sanitizeFileName = (name: string) => {
+  return name
+    .replace(/[<>:"/\\|?*]+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+};
+
+const writeDataToFile = async (path: string, data: unknown) => {
+  await fs.writeFile(path, JSON.stringify(data, null, 2), 'utf-8');
+};
+
+const run = async () => {
+  if (!existsSync(DATA_FOLDER)) {
+    await fs.mkdir(DATA_FOLDER, { recursive: true });
+  }
+
+  const env = getEnvironment(ExportFilmScriptSchema);
+  const result = await fetchData(env);
+
+  if (!result.ok) {
+    logger.error(`Error fetching data ${result.error}`);
+    process.exit(1);
+  }
+
+  try {
+    for (const baseDataItem of baseDataItems) {
+      const filePath = `${DATA_FOLDER}/${baseDataItem}.json`;
+
+      const item = result.data.baseData[baseDataItem];
+
+      if (item.length) {
+        await writeDataToFile(filePath, result.data.baseData[baseDataItem]);
+      }
+    }
+
+    if (!result.data.list.length) {
+      process.exit(0);
+    }
+
+    const filmsFolder = path.join(DATA_FOLDER, 'films');
+
+    if (!existsSync(filmsFolder)) {
+      await fs.mkdir(filmsFolder);
+    }
+
+    for (const film of result.data.list) {
+      const filmPath = `${filmsFolder}/${sanitizeFileName(film.title)}.json`;
+      await writeDataToFile(filmPath, film);
+    }
+
+    process.exit(0);
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      logger.error(`Error writing data files ${error.message}`);
+    }
+
+    process.exit(1);
+  }
+};
+
+run().catch((error) => logger.error(`Export films failed ${error.message}`));

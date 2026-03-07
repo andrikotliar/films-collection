@@ -1,0 +1,151 @@
+{
+  "id": 49,
+  "title": "Ghost Rider",
+  "releaseDate": "2007-02-16",
+  "type": "FILM",
+  "duration": 110,
+  "budget": 110000000,
+  "boxOffice": 228000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Supernatural",
+      "id": 14
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Sony Pictures",
+      "id": 10
+    },
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=8M0lLJfNPds",
+      "order": 1,
+      "id": 58
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1529,
+      "name": "Mark Steven Johnson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1529,
+      "name": "Mark Steven Johnson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1531,
+      "name": "Steven Paul",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1532,
+      "name": "Michael De Luca",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1533,
+      "name": "Christopher Young",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1534,
+      "name": "Russell Boyd",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 873,
+      "name": "Nicolas Cage",
+      "role": "ACTOR",
+      "details": "Johnny Blaze / Ghost Rider"
+    },
+    {
+      "id": 359,
+      "name": "Eva Mendes",
+      "role": "ACTOR",
+      "details": "Roxanne Simpson"
+    },
+    {
+      "id": 921,
+      "name": "Peter Fonda",
+      "role": "ACTOR",
+      "details": "Mephistopheles"
+    },
+    {
+      "id": 1174,
+      "name": "Wes Bentley",
+      "role": "ACTOR",
+      "details": "Blackheart"
+    },
+    {
+      "id": 307,
+      "name": "Donal Logue",
+      "role": "ACTOR",
+      "details": "Mack"
+    },
+    {
+      "id": 706,
+      "name": "Laurence Breuls",
+      "role": "ACTOR",
+      "details": "Gressil"
+    },
+    {
+      "id": 248,
+      "name": "Daniel Frederiksen",
+      "role": "ACTOR",
+      "details": "Wallow"
+    },
+    {
+      "id": 802,
+      "name": "Mathew Wilkinson",
+      "role": "ACTOR",
+      "details": "Abigor"
+    },
+    {
+      "id": 146,
+      "name": "Brett Cullen",
+      "role": "ACTOR",
+      "details": "Barton Blaze"
+    },
+    {
+      "id": 1240,
+      "name": "Sam Elliott",
+      "role": "ACTOR",
+      "details": "Caretaker"
+    }
+  ]
+}

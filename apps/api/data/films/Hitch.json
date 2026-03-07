@@ -1,0 +1,134 @@
+{
+  "id": 65,
+  "title": "Hitch",
+  "releaseDate": "2005-02-11",
+  "type": "FILM",
+  "duration": 118,
+  "budget": 70000000,
+  "boxOffice": 368000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Romance",
+      "id": 8
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=pYrrEUgnT6s",
+      "order": 1,
+      "id": 77
+    }
+  ],
+  "awards": [
+    {
+      "id": 9,
+      "title": "Jupiter Award",
+      "nominations": [
+        {
+          "title": "Best International Actor",
+          "id": 209
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1656,
+      "name": "Andy Tennant",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1657,
+      "name": "Kevin Bisch",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1549,
+      "name": "James Lassiter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1658,
+      "name": "Teddy Zee",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1659,
+      "name": "George Fenton",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1660,
+      "name": "Alan Elliott",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1661,
+      "name": "Andrew Dunn",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Hitch"
+    },
+    {
+      "id": 359,
+      "name": "Eva Mendes",
+      "role": "ACTOR",
+      "details": "Sara"
+    },
+    {
+      "id": 676,
+      "name": "Kevin James",
+      "role": "ACTOR",
+      "details": "Albert"
+    },
+    {
+      "id": 50,
+      "name": "Amber Valletta",
+      "role": "ACTOR",
+      "details": "Allegra"
+    },
+    {
+      "id": 630,
+      "name": "Julie Ann Emery",
+      "role": "ACTOR",
+      "details": "Casey"
+    }
+  ]
+}

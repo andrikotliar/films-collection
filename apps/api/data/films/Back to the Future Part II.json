@@ -1,0 +1,122 @@
+{
+  "id": 21,
+  "title": "Back to the Future: Part II",
+  "releaseDate": "1989-11-22",
+  "type": "FILM",
+  "duration": 108,
+  "budget": 40000000,
+  "boxOffice": 332000000,
+  "overview": null,
+  "chapterKey": "back-to-the-future",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=MdENmefJRpw",
+      "order": 1,
+      "id": 21
+    }
+  ],
+  "awards": [
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1373,
+      "name": "Robert Zemeckis",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1374,
+      "name": "Bob Gale",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1374,
+      "name": "Bob Gale",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1376,
+      "name": "Neil Canton",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1377,
+      "name": "Dean Cundey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 824,
+      "name": "Michael J. Fox",
+      "role": "ACTOR",
+      "details": "Marty McFly"
+    },
+    {
+      "id": 210,
+      "name": "Christopher Lloyd",
+      "role": "ACTOR",
+      "details": "Dr. Emmett Brown"
+    },
+    {
+      "id": 710,
+      "name": "Lea Thompson",
+      "role": "ACTOR",
+      "details": "Lorraine Baines"
+    },
+    {
+      "id": 543,
+      "name": "Jeffrey Weisman",
+      "role": "ACTOR",
+      "details": "George McFly"
+    },
+    {
+      "id": 1114,
+      "name": "Thomas F. Wilson",
+      "role": "ACTOR",
+      "details": "Biff Tannen / Griff Tannen"
+    }
+  ]
+}

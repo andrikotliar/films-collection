@@ -1,0 +1,141 @@
+{
+  "id": 198,
+  "title": "The Maze Runner: The Death Cure",
+  "releaseDate": "2018-01-26",
+  "type": "FILM",
+  "duration": 143,
+  "budget": 62000000,
+  "boxOffice": 288000000,
+  "overview": null,
+  "chapterKey": "maze-runner",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=4-BTxXm8KSg",
+      "order": 1,
+      "id": 225
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2231,
+      "name": "Wes Ball",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2234,
+      "name": "T.S. Nowlin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2235,
+      "name": "Marty Bowen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1678,
+      "name": "Wyck Godfrey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2236,
+      "name": "Ellen Goldsmith-Vein",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2237,
+      "name": "Lee Stollman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2238,
+      "name": "John Paesano",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2240,
+      "name": "Gyula Pados",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 316,
+      "name": "Dylan O'Brien",
+      "role": "ACTOR",
+      "details": "Thomas"
+    },
+    {
+      "id": 655,
+      "name": "Kaya Scodelario",
+      "role": "ACTOR",
+      "details": "Teresa"
+    },
+    {
+      "id": 1113,
+      "name": "Thomas Brodie-Sangster",
+      "role": "ACTOR",
+      "details": "Newt"
+    },
+    {
+      "id": 680,
+      "name": "Ki Hong Lee",
+      "role": "ACTOR",
+      "details": "Minho"
+    },
+    {
+      "id": 18,
+      "name": "Aidan Gillen",
+      "role": "ACTOR",
+      "details": "Janson"
+    },
+    {
+      "id": 405,
+      "name": "Giancarlo Esposito",
+      "role": "ACTOR",
+      "details": "Jorge"
+    },
+    {
+      "id": 1003,
+      "name": "Rosa Salazar",
+      "role": "ACTOR",
+      "details": "Brenda"
+    },
+    {
+      "id": 1176,
+      "name": "Will Poulter",
+      "role": "ACTOR",
+      "details": "Gally"
+    }
+  ]
+}

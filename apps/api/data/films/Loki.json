@@ -1,0 +1,127 @@
+{
+  "id": 94,
+  "title": "Loki",
+  "releaseDate": "2021-06-09",
+  "type": "SERIES",
+  "duration": 50,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 26,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Disney+",
+      "id": 2
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=nW948Va-l10",
+      "order": 1,
+      "id": 108
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1799,
+      "name": "Michael Waldron",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1809,
+      "name": "Natalie Holt",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1810,
+      "name": "Autumn Durald Arkapaw",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1132,
+      "name": "Tom Hiddleston",
+      "role": "ACTOR",
+      "details": "Loki"
+    },
+    {
+      "id": 419,
+      "name": "Gugu Mbatha-Raw",
+      "role": "ACTOR",
+      "details": "Ravonna Renslayer"
+    },
+    {
+      "id": 1076,
+      "name": "Sophia Di Martino",
+      "role": "ACTOR",
+      "details": "Sylvie"
+    },
+    {
+      "id": 897,
+      "name": "Owen Wilson",
+      "role": "ACTOR",
+      "details": "Mobius"
+    },
+    {
+      "id": 1191,
+      "name": "Wunmi Mosaku",
+      "role": "ACTOR",
+      "details": "Hunter B-15"
+    },
+    {
+      "id": 704,
+      "name": "Lauren Revard",
+      "role": "ACTOR",
+      "details": "Miss Minutes"
+    },
+    {
+      "id": 968,
+      "name": "Richard E. Grant",
+      "role": "ACTOR",
+      "details": "Classic Loki"
+    },
+    {
+      "id": 484,
+      "name": "Jack Veal",
+      "role": "ACTOR",
+      "details": "Kid Loki"
+    },
+    {
+      "id": 608,
+      "name": "Jonathan Majors",
+      "role": "ACTOR",
+      "details": "He Who Remains"
+    }
+  ],
+  "seriesExtension": {
+    "id": 9,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "finishedAt": "2021-07-14"
+  }
+}

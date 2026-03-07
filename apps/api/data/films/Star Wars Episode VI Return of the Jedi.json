@@ -1,0 +1,180 @@
+{
+  "id": 149,
+  "title": "Star Wars Episode VI: Return of the Jedi",
+  "releaseDate": "1983-05-25",
+  "type": "FILM",
+  "duration": 131,
+  "budget": 32000000,
+  "boxOffice": 573000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 8,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5UfA_aKBGMc",
+      "order": 1,
+      "id": 166
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Costumes",
+          "id": 52
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2004,
+      "name": "Richard Marquand",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1709,
+      "name": "Lawrence Kasdan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2005,
+      "name": "Howard Kazanjian",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2006,
+      "name": "Alan Hume",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 785,
+      "name": "Mark Hamill",
+      "role": "ACTOR",
+      "details": "Luke Skywalker"
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "Han Solo"
+    },
+    {
+      "id": 171,
+      "name": "Carrie Fisher",
+      "role": "ACTOR",
+      "details": "Leia"
+    },
+    {
+      "id": 130,
+      "name": "Billy Dee Williams",
+      "role": "ACTOR",
+      "details": "Lando Calrissian"
+    },
+    {
+      "id": 72,
+      "name": "Anthony Daniels",
+      "role": "ACTOR",
+      "details": "C-3PO"
+    },
+    {
+      "id": 276,
+      "name": "David Prowse",
+      "role": "ACTOR",
+      "details": "Darth Vader"
+    },
+    {
+      "id": 382,
+      "name": "Frank Oz",
+      "role": "ACTOR",
+      "details": "Yoda"
+    },
+    {
+      "id": 1249,
+      "name": "Jeremy Bulloch",
+      "role": "ACTOR",
+      "details": "Boba Fett"
+    },
+    {
+      "id": 459,
+      "name": "Ian McDiarmid",
+      "role": "ACTOR",
+      "details": "The Emperor"
+    }
+  ]
+}

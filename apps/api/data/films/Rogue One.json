@@ -1,0 +1,170 @@
+{
+  "id": 124,
+  "title": "Rogue One",
+  "releaseDate": "2016-12-16",
+  "type": "FILM",
+  "duration": 133,
+  "budget": 200000000,
+  "boxOffice": 1060000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=frdj1zb9sMY",
+      "order": 1,
+      "id": 138
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1919,
+      "name": "Gareth Edwards",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1920,
+      "name": "Chris Weitz",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1921,
+      "name": "Tony Gilroy",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1922,
+      "name": "Simon Emanuel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1923,
+      "name": "Allison Shearmur",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1448,
+      "name": "Greig Fraser",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 369,
+      "name": "Felicity Jones",
+      "role": "ACTOR",
+      "details": "Jyn Erso"
+    },
+    {
+      "id": 293,
+      "name": "Diego Luna",
+      "role": "ACTOR",
+      "details": "Cassian Andor"
+    },
+    {
+      "id": 24,
+      "name": "Alan Tudyk",
+      "role": "ACTOR",
+      "details": "K-2SO"
+    },
+    {
+      "id": 310,
+      "name": "Donnie Yen",
+      "role": "ACTOR",
+      "details": "Chirrut Imwe"
+    },
+    {
+      "id": 1173,
+      "name": "Wen Jiang",
+      "role": "ACTOR",
+      "details": "Baze Malbus"
+    },
+    {
+      "id": 110,
+      "name": "Ben Mendelsohn",
+      "role": "ACTOR",
+      "details": "Orson Krennic"
+    },
+    {
+      "id": 420,
+      "name": "Guy Henry",
+      "role": "ACTOR",
+      "details": "Governor Tarkin"
+    },
+    {
+      "id": 377,
+      "name": "Forest Whitaker",
+      "role": "ACTOR",
+      "details": "Saw Gerrera"
+    },
+    {
+      "id": 762,
+      "name": "Mads Mikkelsen",
+      "role": "ACTOR",
+      "details": "Galen Erso"
+    },
+    {
+      "id": 1238,
+      "name": "Riz Ahmed",
+      "role": "ACTOR",
+      "details": "Bodhi Rook"
+    }
+  ]
+}

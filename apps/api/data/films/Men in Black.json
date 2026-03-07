@@ -1,0 +1,144 @@
+{
+  "id": 99,
+  "title": "Men in Black",
+  "releaseDate": "1997-07-02",
+  "type": "FILM",
+  "duration": 98,
+  "budget": 90000000,
+  "boxOffice": 589000000,
+  "overview": null,
+  "chapterKey": "mib",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=1Q4mhYF9aQQ",
+      "order": 1,
+      "id": 113
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1824,
+      "name": "Barry Sonnenfeld",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1825,
+      "name": "Ed Solomon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1826,
+      "name": "Walter F. Parkes",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1827,
+      "name": "Laurie MacDonald",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1829,
+      "name": "Don Peterman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1142,
+      "name": "Tommy Lee Jones",
+      "role": "ACTOR",
+      "details": "Agent Kay"
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Agent Jay"
+    },
+    {
+      "id": 727,
+      "name": "Linda Fiorentino",
+      "role": "ACTOR",
+      "details": "Laurel"
+    },
+    {
+      "id": 1165,
+      "name": "Vincent D'Onofrio",
+      "role": "ACTOR",
+      "details": "Edgar"
+    },
+    {
+      "id": 979,
+      "name": "Rip Torn",
+      "role": "ACTOR",
+      "details": "Z"
+    }
+  ]
+}

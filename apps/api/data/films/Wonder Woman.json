@@ -1,0 +1,170 @@
+{
+  "id": 228,
+  "title": "Wonder Woman",
+  "releaseDate": "2017-06-02",
+  "type": "FILM",
+  "duration": 141,
+  "budget": 120000000,
+  "boxOffice": 822000000,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
+      "order": 1,
+      "id": 258
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actress",
+          "id": 38
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best action Movie",
+          "id": 76
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2364,
+      "name": "Patty Jenkins",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2365,
+      "name": "Allan Heinberg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1388,
+      "name": "Deborah Snyder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1386,
+      "name": "Zack Snyder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2031,
+      "name": "Richard Suckle",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1320,
+      "name": "Rupert Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1522,
+      "name": "Matthew Jensen",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 392,
+      "name": "Gal Gadot",
+      "role": "ACTOR",
+      "details": "Diana"
+    },
+    {
+      "id": 198,
+      "name": "Chris Pine",
+      "role": "ACTOR",
+      "details": "Steve Trevor"
+    },
+    {
+      "id": 226,
+      "name": "Connie Nielsen",
+      "role": "ACTOR",
+      "details": "Hippolyta"
+    },
+    {
+      "id": 996,
+      "name": "Robin Wright",
+      "role": "ACTOR",
+      "details": "Antiope"
+    },
+    {
+      "id": 256,
+      "name": "Danny Huston",
+      "role": "ACTOR",
+      "details": "Ludendorff"
+    },
+    {
+      "id": 278,
+      "name": "David Thewlis",
+      "role": "ACTOR",
+      "details": "Sir Patrick"
+    },
+    {
+      "id": 1024,
+      "name": "Sa'd Taghmaoui",
+      "role": "ACTOR",
+      "details": "Sameer"
+    },
+    {
+      "id": 364,
+      "name": "Ewen Bremner",
+      "role": "ACTOR",
+      "details": "Charlie"
+    }
+  ]
+}

@@ -95,4 +95,8 @@ export class AwardsService {
   createNomination(awardId: number, input: NominationInput) {
     return this.deps.awardsRepository.createNomination(awardId, input);
   }
+
+  getAwardsWithNominations() {
+    return this.deps.awardsRepository.getAwardsWithNominations();
+  }
 }

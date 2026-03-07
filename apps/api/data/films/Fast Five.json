@@ -1,0 +1,147 @@
+{
+  "id": 41,
+  "title": "Fast Five",
+  "releaseDate": "2011-04-29",
+  "type": "FILM",
+  "duration": 130,
+  "budget": 125000000,
+  "boxOffice": 626000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=mw2AqdB5EVA",
+      "order": 1,
+      "id": 43
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1462,
+      "name": "Justin Lin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1466,
+      "name": "Stephen F. Windon",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Dominic Toretto"
+    },
+    {
+      "id": 911,
+      "name": "Paul Walker",
+      "role": "ACTOR",
+      "details": "Brian O'Conner"
+    },
+    {
+      "id": 613,
+      "name": "Jordana Brewster",
+      "role": "ACTOR",
+      "details": "Mia"
+    },
+    {
+      "id": 1156,
+      "name": "Tyrese Gibson",
+      "role": "ACTOR",
+      "details": "Roman"
+    },
+    {
+      "id": 746,
+      "name": "Ludacris",
+      "role": "ACTOR",
+      "details": "Tej"
+    },
+    {
+      "id": 804,
+      "name": "Matt Schulze",
+      "role": "ACTOR",
+      "details": "Vince"
+    },
+    {
+      "id": 1095,
+      "name": "Sung Kang",
+      "role": "ACTOR",
+      "details": "Han"
+    },
+    {
+      "id": 392,
+      "name": "Gal Gadot",
+      "role": "ACTOR",
+      "details": "Gisele"
+    },
+    {
+      "id": 564,
+      "name": "Joaquim de Almeida",
+      "role": "ACTOR",
+      "details": "Reyes"
+    },
+    {
+      "id": 314,
+      "name": "Dwayne Johnson",
+      "role": "ACTOR",
+      "details": "Hobbs"
+    },
+    {
+      "id": 337,
+      "name": "Elsa Pataky",
+      "role": "ACTOR",
+      "details": "Elena"
+    }
+  ]
+}

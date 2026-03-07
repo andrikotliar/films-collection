@@ -1,4 +1,10 @@
-import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
+import {
+  NotFoundException,
+  defineRoute,
+  createRouter,
+  validateAuth,
+  validateGetSignature,
+} from '~/shared';
 import {
   IdParamSchema,
   GetAdminListQuerySchema,
@@ -14,6 +20,8 @@ import {
   FilmResponseSchema,
   CreateFilmInputSchema,
   UpdateFilmInputSchema,
+  GetCompleteDataListQuerySchema,
+  CompleteDataResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 
@@ -102,6 +110,21 @@ export const filmsRouter = createRouter([
       const data = await app.container
         .resolve('filmsService')
         .getRelatedChapters(request.params.key);
+
+      return { data };
+    },
+  }),
+
+  defineRoute({
+    method: 'GET',
+    url: '/export',
+    preHandler: [validateGetSignature],
+    schema: {
+      querystring: GetCompleteDataListQuerySchema,
+      response: CompleteDataResponseSchema,
+    },
+    handler: async ({ request, app }) => {
+      const data = await app.container.resolve('filmsService').getCompleteData(request.query);
 
       return { data };
     },

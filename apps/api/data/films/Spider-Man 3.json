@@ -1,0 +1,163 @@
+{
+  "id": 135,
+  "title": "Spider-Man 3",
+  "releaseDate": "2007-05-04",
+  "type": "FILM",
+  "duration": 139,
+  "budget": 258000000,
+  "boxOffice": 895000000,
+  "overview": null,
+  "chapterKey": "spider-man",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=wPosLpgMtTY",
+      "order": 1,
+      "id": 152
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1970,
+      "name": "Sam Raimi",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1970,
+      "name": "Sam Raimi",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1974,
+      "name": "Ivan Raimi",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1973,
+      "name": "Alvin Sargent",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1972,
+      "name": "Laura Ziskin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1975,
+      "name": "Grant Curtis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1533,
+      "name": "Christopher Young",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1122,
+      "name": "Tobey Maguire",
+      "role": "ACTOR",
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "id": 684,
+      "name": "Kirsten Dunst",
+      "role": "ACTOR",
+      "details": "Mary Jane Watson"
+    },
+    {
+      "id": 506,
+      "name": "James Franco",
+      "role": "ACTOR",
+      "details": "New Goblin / Harry Osborn"
+    },
+    {
+      "id": 1115,
+      "name": "Thomas Haden Church",
+      "role": "ACTOR",
+      "details": "Sandman / Flint Marko"
+    },
+    {
+      "id": 1148,
+      "name": "Topher Grace",
+      "role": "ACTOR",
+      "details": "Venom / Eddie Brock"
+    },
+    {
+      "id": 157,
+      "name": "Bryce Dallas Howard",
+      "role": "ACTOR",
+      "details": "Gwen Stacy"
+    },
+    {
+      "id": 1007,
+      "name": "Rosemary Harris",
+      "role": "ACTOR",
+      "details": "May Parker"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "J. Jonah Jameson"
+    },
+    {
+      "id": 503,
+      "name": "James Cromwell",
+      "role": "ACTOR",
+      "details": "Captain Stacy"
+    },
+    {
+      "id": 315,
+      "name": "Dylan Baker",
+      "role": "ACTOR",
+      "details": "Dr. Curt Connors"
+    }
+  ]
+}

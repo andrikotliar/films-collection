@@ -1,0 +1,123 @@
+{
+  "id": 113,
+  "title": "Passengers",
+  "releaseDate": "2016-12-21",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 110000000,
+  "boxOffice": 303000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Romance",
+      "id": 8
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=7BWWWQzTpNU",
+      "order": 1,
+      "id": 127
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1880,
+      "name": "Morten Tyldum",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1440,
+      "name": "Jon Spaihts",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1881,
+      "name": "Stephen Hamel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1882,
+      "name": "Michael Maher",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1883,
+      "name": "Ori Marmur",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1470,
+      "name": "Thomas Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1884,
+      "name": "Rodrigo Prieto",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 547,
+      "name": "Jennifer Lawrence",
+      "role": "ACTOR",
+      "details": "Aurora Lane"
+    },
+    {
+      "id": 199,
+      "name": "Chris Pratt",
+      "role": "ACTOR",
+      "details": "Jim Preston"
+    },
+    {
+      "id": 832,
+      "name": "Michael Sheen",
+      "role": "ACTOR",
+      "details": "Arthur"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Gus Mancuso"
+    },
+    {
+      "id": 60,
+      "name": "Andy Garcia",
+      "role": "ACTOR",
+      "details": "Captain Norris"
+    }
+  ]
+}

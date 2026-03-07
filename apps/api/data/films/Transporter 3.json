@@ -1,0 +1,111 @@
+{
+  "id": 221,
+  "title": "Transporter 3",
+  "releaseDate": "2008-11-26",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 40000000,
+  "boxOffice": 109000000,
+  "overview": null,
+  "chapterKey": "transporter",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Europacorp",
+      "id": 27
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Pbh3CDBNIQA",
+      "order": 1,
+      "id": 251
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2336,
+      "name": "Oliver Megaton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2262,
+      "name": "Robert Mark Kamen",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2263,
+      "name": "Stephen Chasman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2335,
+      "name": "Alexandre Azaria",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2337,
+      "name": "Giovanni Fiore Coltellacci",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 531,
+      "name": "Jason Statham",
+      "role": "ACTOR",
+      "details": "Frank Martin"
+    },
+    {
+      "id": 865,
+      "name": "Natalya Rudakova",
+      "role": "ACTOR",
+      "details": "Valentina"
+    },
+    {
+      "id": 385,
+      "name": "François Berléand",
+      "role": "ACTOR",
+      "details": "Tarconi"
+    },
+    {
+      "id": 987,
+      "name": "Robert Knepper",
+      "role": "ACTOR",
+      "details": "Johnson"
+    }
+  ]
+}

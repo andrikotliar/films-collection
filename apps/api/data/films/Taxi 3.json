@@ -1,0 +1,125 @@
+{
+  "id": 156,
+  "title": "Taxi 3",
+  "releaseDate": "2003-01-29",
+  "type": "FILM",
+  "duration": 84,
+  "budget": 14000000,
+  "boxOffice": 64000000,
+  "overview": null,
+  "chapterKey": "taxi",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lionsgate",
+      "id": 57
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=XLP-rf3dHOQ",
+      "order": 1,
+      "id": 176
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2045,
+      "name": "Gérard Krawczyk",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2046,
+      "name": "DJ Kore",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2047,
+      "name": "DJ Skalp",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2048,
+      "name": "G'rard Sterin",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1037,
+      "name": "Samy Naceri",
+      "role": "ACTOR",
+      "details": "Daniel Morales"
+    },
+    {
+      "id": 390,
+      "name": "Frédéric Diefenthal",
+      "role": "ACTOR",
+      "details": "Emilien Coutant-Kerbalec"
+    },
+    {
+      "id": 118,
+      "name": "Bernard Farcy",
+      "role": "ACTOR",
+      "details": "Commissaire Gibert"
+    },
+    {
+      "id": 99,
+      "name": "Bai Ling",
+      "role": "ACTOR",
+      "details": "Qiu"
+    },
+    {
+      "id": 320,
+      "name": "Edouard Montoute",
+      "role": "ACTOR",
+      "details": "Alain"
+    },
+    {
+      "id": 537,
+      "name": "Jean-Christophe Bouvet",
+      "role": "ACTOR",
+      "details": "General Edmond Bertineau"
+    },
+    {
+      "id": 346,
+      "name": "Emma Wiklund",
+      "role": "ACTOR",
+      "details": "Petra"
+    },
+    {
+      "id": 779,
+      "name": "Marion Cotillard",
+      "role": "ACTOR",
+      "details": "Lilly Bertineau"
+    }
+  ]
+}

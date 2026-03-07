@@ -1,0 +1,127 @@
+{
+  "id": 133,
+  "title": "Spider-Man",
+  "releaseDate": "2002-05-03",
+  "type": "FILM",
+  "duration": 121,
+  "budget": 139000000,
+  "boxOffice": 825000000,
+  "overview": null,
+  "chapterKey": "spider-man",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=_yhFofFZGcc",
+      "order": 1,
+      "id": 150
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1970,
+      "name": "Sam Raimi",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1702,
+      "name": "David Koepp",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1971,
+      "name": "Ian Bryce",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1972,
+      "name": "Laura Ziskin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1321,
+      "name": "Don Burgess",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1122,
+      "name": "Tobey Maguire",
+      "role": "ACTOR",
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "id": 1180,
+      "name": "Willem Dafoe",
+      "role": "ACTOR",
+      "details": "Green Goblin / Norman Osborn"
+    },
+    {
+      "id": 684,
+      "name": "Kirsten Dunst",
+      "role": "ACTOR",
+      "details": "Mary Jane Watson"
+    },
+    {
+      "id": 506,
+      "name": "James Franco",
+      "role": "ACTOR",
+      "details": "Harry Osborn"
+    },
+    {
+      "id": 218,
+      "name": "Cliff Robertson",
+      "role": "ACTOR",
+      "details": "Ben Parker"
+    },
+    {
+      "id": 1007,
+      "name": "Rosemary Harris",
+      "role": "ACTOR",
+      "details": "May Parker"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "J. Jonah Jameson"
+    }
+  ]
+}

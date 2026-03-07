@@ -1,0 +1,190 @@
+{
+  "id": 140,
+  "title": "Star Trek",
+  "releaseDate": "2009-05-08",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 150000000,
+  "boxOffice": 386000000,
+  "overview": null,
+  "chapterKey": "star-trek",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Space Opera",
+      "id": 16
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Bad Robot Productions",
+      "id": 46
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=pKFUZ10Wmbw",
+      "order": 1,
+      "id": 157
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Makeup",
+          "id": 18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1851,
+      "name": "Alex Kurtzman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1990,
+      "name": "Deamon Lindelof",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1730,
+      "name": "Dan Mindel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 198,
+      "name": "Chris Pine",
+      "role": "ACTOR",
+      "details": "Kirk"
+    },
+    {
+      "id": 1198,
+      "name": "Zachary Quinto",
+      "role": "ACTOR",
+      "details": "Spock"
+    },
+    {
+      "id": 715,
+      "name": "Leonard Nimoy",
+      "role": "ACTOR",
+      "details": "Spock Prime"
+    },
+    {
+      "id": 351,
+      "name": "Eric Bana",
+      "role": "ACTOR",
+      "details": "Nero"
+    },
+    {
+      "id": 155,
+      "name": "Bruce Greenwood",
+      "role": "ACTOR",
+      "details": "Pike"
+    },
+    {
+      "id": 641,
+      "name": "Karl Urban",
+      "role": "ACTOR",
+      "details": "Bones"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Uhura"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Scotty"
+    },
+    {
+      "id": 578,
+      "name": "John Cho",
+      "role": "ACTOR",
+      "details": "Sulu"
+    },
+    {
+      "id": 76,
+      "name": "Anton Yelchin",
+      "role": "ACTOR",
+      "details": "Chekov"
+    },
+    {
+      "id": 107,
+      "name": "Ben Cross",
+      "role": "ACTOR",
+      "details": "Sarek"
+    },
+    {
+      "id": 1188,
+      "name": "Winona Ryder",
+      "role": "ACTOR",
+      "details": "Amanda Grayson"
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "George Kirk"
+    }
+  ]
+}

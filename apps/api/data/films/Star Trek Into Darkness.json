@@ -1,0 +1,163 @@
+{
+  "id": 142,
+  "title": "Star Trek: Into Darkness",
+  "releaseDate": "2013-05-17",
+  "type": "FILM",
+  "duration": 133,
+  "budget": 185000000,
+  "boxOffice": 467000000,
+  "overview": null,
+  "chapterKey": "star-trek",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Space Opera",
+      "id": 16
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Bad Robot Productions",
+      "id": 46
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=jJMYAJ3_0uw",
+      "order": 1,
+      "id": 159
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1851,
+      "name": "Alex Kurtzman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1990,
+      "name": "Deamon Lindelof",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1730,
+      "name": "Dan Mindel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 198,
+      "name": "Chris Pine",
+      "role": "ACTOR",
+      "details": "Kirk"
+    },
+    {
+      "id": 1198,
+      "name": "Zachary Quinto",
+      "role": "ACTOR",
+      "details": "Spock"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Uhura"
+    },
+    {
+      "id": 641,
+      "name": "Karl Urban",
+      "role": "ACTOR",
+      "details": "Bones"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Scotty"
+    },
+    {
+      "id": 578,
+      "name": "John Cho",
+      "role": "ACTOR",
+      "details": "Sulu"
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Khan"
+    },
+    {
+      "id": 76,
+      "name": "Anton Yelchin",
+      "role": "ACTOR",
+      "details": "Chekov"
+    },
+    {
+      "id": 155,
+      "name": "Bruce Greenwood",
+      "role": "ACTOR",
+      "details": "Pike"
+    },
+    {
+      "id": 925,
+      "name": "Peter Weller",
+      "role": "ACTOR",
+      "details": "Marcus"
+    },
+    {
+      "id": 39,
+      "name": "Alice Eve",
+      "role": "ACTOR",
+      "details": "Carol Marcus"
+    },
+    {
+      "id": 881,
+      "name": "Noel Clarke",
+      "role": "ACTOR",
+      "details": "Thomas Harewood"
+    }
+  ]
+}

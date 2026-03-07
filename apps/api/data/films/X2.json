@@ -1,0 +1,190 @@
+{
+  "id": 230,
+  "title": "X2",
+  "releaseDate": "2003-05-02",
+  "type": "FILM",
+  "duration": 133,
+  "budget": 110000000,
+  "boxOffice": 408000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 6,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=luHcOYS1HxQ",
+      "order": 1,
+      "id": 260
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Breakthrough Male Performance",
+          "id": 189
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2370,
+      "name": "Bryan Singer",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2371,
+      "name": "David Hayter",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2372,
+      "name": "Michael Dougherty",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2373,
+      "name": "Dan Harris",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2374,
+      "name": "Ralph Winter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2375,
+      "name": "John Ottman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2376,
+      "name": "Newton Thomas Sigel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 903,
+      "name": "Patrick Stewart",
+      "role": "ACTOR",
+      "details": "Professor Charles Xavier"
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Logan / Wolverine"
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Eric Lehnsherr / Magneto"
+    },
+    {
+      "id": 426,
+      "name": "Halle Berry",
+      "role": "ACTOR",
+      "details": "Ororo Munroe / Storm"
+    },
+    {
+      "id": 367,
+      "name": "Famke Janssen",
+      "role": "ACTOR",
+      "details": "Jean Grey"
+    },
+    {
+      "id": 510,
+      "name": "James Marsden",
+      "role": "ACTOR",
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "id": 66,
+      "name": "Anna Paquin",
+      "role": "ACTOR",
+      "details": "Rogue"
+    },
+    {
+      "id": 956,
+      "name": "Rebecca Romijn",
+      "role": "ACTOR",
+      "details": "Raven Darkholme / Mystique"
+    },
+    {
+      "id": 147,
+      "name": "Brian Cox",
+      "role": "ACTOR",
+      "details": "William Stryker"
+    },
+    {
+      "id": 21,
+      "name": "Alan Cumming",
+      "role": "ACTOR",
+      "details": "Kurt Wagner / Nightcrawler"
+    },
+    {
+      "id": 2,
+      "name": "Aaron Stanford",
+      "role": "ACTOR",
+      "details": "John Allerdyce / Pyro"
+    },
+    {
+      "id": 1063,
+      "name": "Shawn Ashmore",
+      "role": "ACTOR",
+      "details": "Bobby Drake / Ice Man"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 107,
+  "title": "Mission: Impossible - Rogue Nation",
+  "releaseDate": "2015-07-31",
+  "type": "FILM",
+  "duration": 131,
+  "budget": 150000000,
+  "boxOffice": 683000000,
+  "overview": null,
+  "chapterKey": "mission-impossible",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=gOW_azQbOjw",
+      "order": 1,
+      "id": 121
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1449,
+      "name": "Christopher McQuarrie",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1449,
+      "name": "Christopher McQuarrie",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1849,
+      "name": "Bryan Burk",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1853,
+      "name": "David Ellison",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1854,
+      "name": "Dana Goldberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1855,
+      "name": "Don Granger",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1856,
+      "name": "Joe Kraemer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1850,
+      "name": "Robert Elswit",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Ethan Hunt"
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "ACTOR",
+      "details": "William Brandt"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Benji Dunn"
+    },
+    {
+      "id": 954,
+      "name": "Rebecca Ferguson",
+      "role": "ACTOR",
+      "details": "Ilsa Faust"
+    },
+    {
+      "id": 1166,
+      "name": "Ving Rhames",
+      "role": "ACTOR",
+      "details": "Luther Stickell"
+    },
+    {
+      "id": 1047,
+      "name": "Sean Harris",
+      "role": "ACTOR",
+      "details": "Lane"
+    }
+  ]
+}

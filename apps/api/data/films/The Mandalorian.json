@@ -1,0 +1,191 @@
+{
+  "id": 193,
+  "title": "The Mandalorian",
+  "releaseDate": "2019-11-12",
+  "type": "SERIES",
+  "duration": 40,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 9,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Disney+",
+      "id": 2
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=OFlBh_eUsjA",
+      "order": 1,
+      "id": 219
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eW7Twd85m2g",
+      "order": 2,
+      "id": 220
+    }
+  ],
+  "awards": [
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
+          "id": 158
+        },
+        {
+          "title": "Outstanding Music Composition for a Series (Original Dramatic Score)",
+          "id": 159
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Program (Half-Hour)",
+          "id": 160
+        },
+        {
+          "title": "Outstanding Stunt Coordination for a drama Series Limited Series or Movie",
+          "id": 161
+        },
+        {
+          "title": "Outstanding Sound Editing for a comedy or drama Series (Half-Hour and Animation)",
+          "id": 162
+        },
+        {
+          "title": "Outstanding Sound Mixing for a comedy or drama Series (Half-Hour and Animation)",
+          "id": 163
+        },
+        {
+          "title": "Outstanding Special Visual Effects",
+          "id": 164
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2035,
+      "name": "Ludwig Göransson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2224,
+      "name": "Barry Baz Idoine",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1448,
+      "name": "Greig Fraser",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1522,
+      "name": "Matthew Jensen",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2225,
+      "name": "David Klein",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 913,
+      "name": "Pedro Pascal",
+      "role": "ACTOR",
+      "details": "The Mandalorian"
+    },
+    {
+      "id": 407,
+      "name": "Gina Carano",
+      "role": "ACTOR",
+      "details": "Cara Dune"
+    },
+    {
+      "id": 405,
+      "name": "Giancarlo Esposito",
+      "role": "ACTOR",
+      "details": "Moff Gideon"
+    },
+    {
+      "id": 168,
+      "name": "Carl Weathers",
+      "role": "ACTOR",
+      "details": "Greef Karga"
+    },
+    {
+      "id": 1107,
+      "name": "Temuera Morrison",
+      "role": "ACTOR",
+      "details": "Boba Fett"
+    },
+    {
+      "id": 847,
+      "name": "Ming-Na Wen",
+      "role": "ACTOR",
+      "details": "Fennec Shand"
+    },
+    {
+      "id": 1004,
+      "name": "Rosario Dawson",
+      "role": "ACTOR",
+      "details": "Ahsoka Tano"
+    },
+    {
+      "id": 1101,
+      "name": "Taika Waititi",
+      "role": "ACTOR",
+      "details": "IG-11"
+    },
+    {
+      "id": 871,
+      "name": "Nick Nolte",
+      "role": "ACTOR",
+      "details": "Kuiil"
+    },
+    {
+      "id": 1237,
+      "name": "Emily Swallow",
+      "role": "ACTOR",
+      "details": "The Armorer"
+    }
+  ],
+  "seriesExtension": {
+    "id": 15,
+    "episodesTotal": 16,
+    "seasonsTotal": 2,
+    "finishedAt": "2020-12-18"
+  }
+}

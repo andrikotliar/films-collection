@@ -1,0 +1,186 @@
+{
+  "id": 9,
+  "title": "Alien",
+  "releaseDate": "1979-05-25",
+  "type": "FILM",
+  "duration": 117,
+  "budget": 11000000,
+  "boxOffice": 106000000,
+  "overview": null,
+  "chapterKey": "alien",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=jQ5lPt9edzQ",
+      "order": 1,
+      "id": 9
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Sound Track",
+          "id": 98
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1281,
+      "name": "Ridley Scott",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1282,
+      "name": "Dan O'Bannon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1283,
+      "name": "Gordon Carroll",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1284,
+      "name": "David Giler",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1285,
+      "name": "Walter Hill",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1286,
+      "name": "Jerry Goldsmith",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1287,
+      "name": "Derek Vanlint",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1068,
+      "name": "Sigourney Weaver",
+      "role": "ACTOR",
+      "details": "Ripley"
+    },
+    {
+      "id": 1138,
+      "name": "Tom Skerritt",
+      "role": "ACTOR",
+      "details": "Dallas"
+    },
+    {
+      "id": 1162,
+      "name": "Veronica Cartwright",
+      "role": "ACTOR",
+      "details": "Lambert"
+    },
+    {
+      "id": 432,
+      "name": "Harry Dean Stanton",
+      "role": "ACTOR",
+      "details": "Brett"
+    },
+    {
+      "id": 584,
+      "name": "John Hurt",
+      "role": "ACTOR",
+      "details": "Kane"
+    },
+    {
+      "id": 458,
+      "name": "Ian Holm",
+      "role": "ACTOR",
+      "details": "Ash"
+    },
+    {
+      "id": 1194,
+      "name": "Yaphet Kotto",
+      "role": "ACTOR",
+      "details": "Parker"
+    },
+    {
+      "id": 135,
+      "name": "Bolaji Badejo",
+      "role": "ACTOR",
+      "details": "Alien"
+    }
+  ]
+}

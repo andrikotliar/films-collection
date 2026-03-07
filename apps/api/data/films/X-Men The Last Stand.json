@@ -1,0 +1,174 @@
+{
+  "id": 236,
+  "title": "X-Men: The Last Stand",
+  "releaseDate": "2006-05-26",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 210000000,
+  "boxOffice": 459000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 7,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=r8ZMvxzplwc",
+      "order": 1,
+      "id": 266
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2381,
+      "name": "Brett Ratner",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1797,
+      "name": "Simon Kinberg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1912,
+      "name": "Zak Penn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2374,
+      "name": "Ralph Winter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1314,
+      "name": "Dante Spinotti",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Logan / Wolverine"
+    },
+    {
+      "id": 426,
+      "name": "Halle Berry",
+      "role": "ACTOR",
+      "details": "Ororo Munroe / Storm"
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Erik Lehnsherr / Magneto"
+    },
+    {
+      "id": 903,
+      "name": "Patrick Stewart",
+      "role": "ACTOR",
+      "details": "Charles Xavier / Professor X"
+    },
+    {
+      "id": 367,
+      "name": "Famke Janssen",
+      "role": "ACTOR",
+      "details": "Jean Grey / Phoenix"
+    },
+    {
+      "id": 66,
+      "name": "Anna Paquin",
+      "role": "ACTOR",
+      "details": "Marie / Rogue"
+    },
+    {
+      "id": 663,
+      "name": "Kelsey Grammer",
+      "role": "ACTOR",
+      "details": "Dr. Henry 'Hank' McCoy / Beast"
+    },
+    {
+      "id": 510,
+      "name": "James Marsden",
+      "role": "ACTOR",
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "id": 1063,
+      "name": "Shawn Ashmore",
+      "role": "ACTOR",
+      "details": "Bobby Drake / Iceman"
+    },
+    {
+      "id": 2,
+      "name": "Aaron Stanford",
+      "role": "ACTOR",
+      "details": "John Allerdyce / Pyro"
+    },
+    {
+      "id": 1167,
+      "name": "Vinnie Jones",
+      "role": "ACTOR",
+      "details": "Cain Marko / Juggernaut"
+    },
+    {
+      "id": 334,
+      "name": "Ellen Page",
+      "role": "ACTOR",
+      "details": "Kitty Pryde / Shadowcat"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": 215,
+  "title": "Thor: The Dark World",
+  "releaseDate": "2013-11-08",
+  "type": "FILM",
+  "duration": 112,
+  "budget": 153000000,
+  "boxOffice": 645000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 8,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=npvJ9FTgZbM",
+      "order": 1,
+      "id": 245
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1491,
+      "name": "Alan Taylor",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2329,
+      "name": "Christopher Yost",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1525,
+      "name": "Kramer Morgenthau",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 864,
+      "name": "Natalie Portman",
+      "role": "ACTOR",
+      "details": "Jane Foster"
+    },
+    {
+      "id": 1132,
+      "name": "Tom Hiddleston",
+      "role": "ACTOR",
+      "details": "Loki"
+    },
+    {
+      "id": 73,
+      "name": "Anthony Hopkins",
+      "role": "ACTOR",
+      "details": "Odin"
+    },
+    {
+      "id": 207,
+      "name": "Christopher Eccleston",
+      "role": "ACTOR",
+      "details": "Malekith"
+    },
+    {
+      "id": 495,
+      "name": "Jaimie Alexander",
+      "role": "ACTOR",
+      "details": "Sif"
+    },
+    {
+      "id": 1197,
+      "name": "Zachary Levi",
+      "role": "ACTOR",
+      "details": "Fandral"
+    },
+    {
+      "id": 952,
+      "name": "Ray Stevenson",
+      "role": "ACTOR",
+      "details": "Volstagg"
+    },
+    {
+      "id": 1100,
+      "name": "Tadanobu Asano",
+      "role": "ACTOR",
+      "details": "Hogun"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Heimdall"
+    },
+    {
+      "id": 960,
+      "name": "Rene Russo",
+      "role": "ACTOR",
+      "details": "Frigga"
+    },
+    {
+      "id": 643,
+      "name": "Kat Dennings",
+      "role": "ACTOR",
+      "details": "Darcy Lewis"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": 136,
+  "title": "Spider-Man: Far from Home",
+  "releaseDate": "2019-07-02",
+  "type": "FILM",
+  "duration": 129,
+  "budget": 160000000,
+  "boxOffice": 1130000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 24,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Sony Pictures",
+      "id": 10
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
+      "order": 1,
+      "id": 153
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "id": 40
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1976,
+      "name": "Jon Watts",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1311,
+      "name": "Chris McKenna",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1312,
+      "name": "Erik Sommers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1977,
+      "name": "Amy Pascal",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1978,
+      "name": "Matthew J. Lloyd",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1133,
+      "name": "Tom Holland",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "id": 498,
+      "name": "Jake Gyllenhaal",
+      "role": "ACTOR",
+      "details": "Quentin Beck / Mysterio"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 780,
+      "name": "Marisa Tomei",
+      "role": "ACTOR",
+      "details": "May Parker"
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "ACTOR",
+      "details": "Happy Hogan"
+    },
+    {
+      "id": 1201,
+      "name": "Zendaya",
+      "role": "ACTOR",
+      "details": "MJ"
+    }
+  ]
+}

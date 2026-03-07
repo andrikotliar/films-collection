@@ -1,0 +1,145 @@
+{
+  "id": 101,
+  "title": "Miss Peregrine's Home for Peculiar Children",
+  "releaseDate": "2016-09-30",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 110000000,
+  "boxOffice": 296000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=tV_IhWE4LP0",
+      "order": 1,
+      "id": 115
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1833,
+      "name": "Tim Burton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1834,
+      "name": "Jane Goldman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1480,
+      "name": "Peter Chernin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1481,
+      "name": "Jenno Topping",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1835,
+      "name": "Mike Higham",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1836,
+      "name": "Matthew Margeson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1573,
+      "name": "Bruno Delbonnel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 357,
+      "name": "Eva Green",
+      "role": "ACTOR",
+      "details": "Miss Peregrine"
+    },
+    {
+      "id": 90,
+      "name": "Asa Butterfield",
+      "role": "ACTOR",
+      "details": "Jake"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Barron"
+    },
+    {
+      "id": 331,
+      "name": "Ella Purnell",
+      "role": "ACTOR",
+      "details": "Emma"
+    },
+    {
+      "id": 624,
+      "name": "Judi Dench",
+      "role": "ACTOR",
+      "details": "Miss Avocet"
+    },
+    {
+      "id": 43,
+      "name": "Allison Janney",
+      "role": "ACTOR",
+      "details": "Dr. Golan"
+    },
+    {
+      "id": 1108,
+      "name": "Terence Stamp",
+      "role": "ACTOR",
+      "details": "Abe"
+    },
+    {
+      "id": 370,
+      "name": "Finlay MacMillan",
+      "role": "ACTOR",
+      "details": "Enoch"
+    },
+    {
+      "id": 703,
+      "name": "Lauren McCrostie",
+      "role": "ACTOR",
+      "details": "Olive"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": 92,
+  "title": "Locke & Key",
+  "releaseDate": "2020-02-07",
+  "type": "SERIES",
+  "duration": 48,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=_EonRi0yQOE",
+      "order": 1,
+      "id": 104
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lxJdvbG2fPw",
+      "order": 2,
+      "id": 105
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PX-t1wYNtBs",
+      "order": 3,
+      "id": 106
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1765,
+      "name": "Meredith Averill",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1766,
+      "name": "Carlton Cuse",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1634,
+      "name": "Aron Eli Coleite",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1791,
+      "name": "Torin Borrowdale",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1792,
+      "name": "Tico Poulakakis",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1793,
+      "name": "Dylan Macleod",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1794,
+      "name": "Colin Hoult",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 260,
+      "name": "Darby Stanchfield",
+      "role": "ACTOR",
+      "details": "Nina Locke"
+    },
+    {
+      "id": 227,
+      "name": "Connor Jessup",
+      "role": "ACTOR",
+      "details": "Tyler Locke"
+    },
+    {
+      "id": 340,
+      "name": "Emilia Jones",
+      "role": "ACTOR",
+      "details": "Kinsey Locke"
+    },
+    {
+      "id": 487,
+      "name": "Jackson Robert Scott",
+      "role": "ACTOR",
+      "details": "Bode Locke"
+    },
+    {
+      "id": 926,
+      "name": "Petrice Jones",
+      "role": "ACTOR",
+      "details": "Scot Cavendish"
+    },
+    {
+      "id": 1064,
+      "name": "Sherri Saum",
+      "role": "ACTOR",
+      "details": "Ellie Whedon"
+    },
+    {
+      "id": 400,
+      "name": "Genevieve Kang",
+      "role": "ACTOR",
+      "details": "Jackie Veda"
+    },
+    {
+      "id": 1227,
+      "name": "Aaron Ashmore",
+      "role": "ACTOR",
+      "details": "Duncan Locke"
+    },
+    {
+      "id": 708,
+      "name": "Laysla De Oliveira",
+      "role": "ACTOR",
+      "details": "Dodge"
+    }
+  ],
+  "seriesExtension": {
+    "id": 8,
+    "episodesTotal": 30,
+    "seasonsTotal": 3,
+    "finishedAt": "2022-08-10"
+  }
+}

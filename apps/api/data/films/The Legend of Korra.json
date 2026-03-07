@@ -1,0 +1,204 @@
+{
+  "id": 184,
+  "title": "The Legend of Korra",
+  "releaseDate": "2012-04-14",
+  "type": "SERIES",
+  "duration": 23,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "last-airbender",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Nickelodeon Animation Studios",
+      "id": 22
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=NBNpGCIavwA",
+      "order": 1,
+      "id": 210
+    }
+  ],
+  "awards": [
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production",
+          "id": 180
+        },
+        {
+          "title": "Outstanding Achievement in Production Design in an Animated TV/Broadcast Production",
+          "id": 181
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 682,
+      "name": "Kiernan Shipka",
+      "role": "ACTOR",
+      "details": "Jinora"
+    },
+    {
+      "id": 1339,
+      "name": "Michael Dante DiMartino",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1340,
+      "name": "Bryan Konietzko",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1363,
+      "name": "Jeremy Zuckerman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 519,
+      "name": "Janet Varney",
+      "role": "ACTOR",
+      "details": "Korra"
+    },
+    {
+      "id": 898,
+      "name": "P.J. Byrne",
+      "role": "ACTOR",
+      "details": "Bolin"
+    },
+    {
+      "id": 273,
+      "name": "David Faustino",
+      "role": "ACTOR",
+      "details": "Mako"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "Tenzin"
+    },
+    {
+      "id": 1056,
+      "name": "Seychelle Gabriel",
+      "role": "ACTOR",
+      "details": "Asami Sato"
+    },
+    {
+      "id": 846,
+      "name": "Mindy Sterling",
+      "role": "ACTOR",
+      "details": "Lin Beifong"
+    },
+    {
+      "id": 736,
+      "name": "Logan Wells",
+      "role": "ACTOR",
+      "details": "Meelo"
+    },
+    {
+      "id": 589,
+      "name": "John Michael Higgins",
+      "role": "ACTOR",
+      "details": "Varrick"
+    },
+    {
+      "id": 261,
+      "name": "Darcy Rose Byrnes",
+      "role": "ACTOR",
+      "details": "Ikki"
+    },
+    {
+      "id": 972,
+      "name": "Richard Riehle",
+      "role": "ACTOR",
+      "details": "Bumi"
+    },
+    {
+      "id": 515,
+      "name": "James Remar",
+      "role": "ACTOR",
+      "details": "Tonraq"
+    },
+    {
+      "id": 13,
+      "name": "Adrian LaTourelle",
+      "role": "ACTOR",
+      "details": "Unalaq"
+    },
+    {
+      "id": 447,
+      "name": "Henry Rollins",
+      "role": "ACTOR",
+      "details": "Zaheer"
+    },
+    {
+      "id": 1089,
+      "name": "Steve Blum",
+      "role": "ACTOR",
+      "details": "Amon"
+    },
+    {
+      "id": 1200,
+      "name": "Zelda Williams",
+      "role": "ACTOR",
+      "details": "Kuvira"
+    },
+    {
+      "id": 606,
+      "name": "Jonathan Adams",
+      "role": "ACTOR",
+      "details": "Vaatu"
+    },
+    {
+      "id": 81,
+      "name": "April Stewart",
+      "role": "ACTOR",
+      "details": "Raava"
+    },
+    {
+      "id": 236,
+      "name": "D.B. Sweeney",
+      "role": "ACTOR",
+      "details": "Aang"
+    },
+    {
+      "id": 358,
+      "name": "Eva Marie Saint",
+      "role": "ACTOR",
+      "details": "Katara"
+    }
+  ],
+  "seriesExtension": {
+    "id": 14,
+    "episodesTotal": 52,
+    "seasonsTotal": 4,
+    "finishedAt": "2019-06-03"
+  }
+}

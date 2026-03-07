@@ -1,0 +1,186 @@
+{
+  "id": 38,
+  "title": "Edge of Tomorrow",
+  "releaseDate": "2014-06-06",
+  "type": "FILM",
+  "duration": 113,
+  "budget": 178000000,
+  "boxOffice": 370000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=vw61gCe2oqI",
+      "order": 1,
+      "id": 40
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 48
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Actress in an action Movie",
+          "id": 80
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1297,
+      "name": "Doug Liman",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1449,
+      "name": "Christopher McQuarrie",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1450,
+      "name": "Jez Butterworth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1451,
+      "name": "John-Henry Butterworth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1452,
+      "name": "Erwin Stoff",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1453,
+      "name": "Tom Lassally",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1454,
+      "name": "Jeffrey Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1455,
+      "name": "Dion Beebe",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Cage"
+    },
+    {
+      "id": 341,
+      "name": "Emily Blunt",
+      "role": "ACTOR",
+      "details": "Rita"
+    },
+    {
+      "id": 145,
+      "name": "Brendan Gleeson",
+      "role": "ACTOR",
+      "details": "General Brigham"
+    },
+    {
+      "id": 125,
+      "name": "Bill Paxton",
+      "role": "ACTOR",
+      "details": "Master Sergeant Farell"
+    },
+    {
+      "id": 605,
+      "name": "Jonas Armstrong",
+      "role": "ACTOR",
+      "details": "Skinner"
+    },
+    {
+      "id": 1147,
+      "name": "Tony Way",
+      "role": "ACTOR",
+      "details": "Kimmel"
+    },
+    {
+      "id": 681,
+      "name": "Kick Gurry",
+      "role": "ACTOR",
+      "details": "Griff"
+    },
+    {
+      "id": 384,
+      "name": "Franz Drameh",
+      "role": "ACTOR",
+      "details": "Ford"
+    },
+    {
+      "id": 312,
+      "name": "Dragomir Mrsic",
+      "role": "ACTOR",
+      "details": "Kuntz"
+    },
+    {
+      "id": 188,
+      "name": "Charlotte Riley",
+      "role": "ACTOR",
+      "details": "Nance"
+    },
+    {
+      "id": 800,
+      "name": "Masayoshi Haneda",
+      "role": "ACTOR",
+      "details": "Takeda"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import type { CreateAwardInput, NominationInput, UpdateAwardInput } from '@films-collection/shared';
 import { asc, eq, inArray } from 'drizzle-orm';
-import { awards, nominations } from '~/database/schema';
+import { awards, nominations, type Award } from '~/database/schema';
 import type { UpdateAwardParams } from '~/modules/awards/types/update-award-params';
 import { getFirstValue, type Deps } from '~/shared';
 
@@ -111,7 +111,8 @@ export class AwardsRepository {
     const [updatedNomination] = await this.deps.db
       .insert(nominations)
       .values({
-        ...data,
+        title: data.title,
+        shouldIncludeActor: data.shouldIncludeActor,
         awardId,
       })
       .returning();
@@ -127,6 +128,12 @@ export class AwardsRepository {
     deleteNominations,
   }: UpdateAwardParams) {
     return this.deps.db.transaction(async (tr) => {
+      const payload: Partial<Award> = { ...award };
+
+      if (createNominations.length || updateNominations.length || deleteNominations.length) {
+        payload.updatedAt = new Date().toISOString();
+      }
+
       const [updatedAward] = await tr
         .update(awards)
         .set(award)
@@ -150,6 +157,25 @@ export class AwardsRepository {
       }
 
       return updatedAward;
+    });
+  }
+
+  async getAwardsWithNominations() {
+    return this.deps.db.query.awards.findMany({
+      columns: {
+        id: true,
+        title: true,
+        updatedAt: true,
+      },
+      with: {
+        nominations: {
+          columns: {
+            id: true,
+            title: true,
+            shouldIncludeActor: true,
+          },
+        },
+      },
     });
   }
 }

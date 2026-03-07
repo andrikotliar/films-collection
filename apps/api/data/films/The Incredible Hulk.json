@@ -1,0 +1,121 @@
+{
+  "id": 181,
+  "title": "The Incredible Hulk",
+  "releaseDate": "2008-06-13",
+  "type": "FILM",
+  "duration": 112,
+  "budget": 150000000,
+  "boxOffice": 263000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=xbqNb2PFKKA",
+      "order": 1,
+      "id": 207
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1862,
+      "name": "Louis Leterrier",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1912,
+      "name": "Zak Penn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1289,
+      "name": "Gale Anne Hurd",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1698,
+      "name": "Craig Armstrong",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2184,
+      "name": "Peter Menzies Jr.",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 322,
+      "name": "Edward Norton",
+      "role": "ACTOR",
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "id": 734,
+      "name": "Liv Tyler",
+      "role": "ACTOR",
+      "details": "Betty Ross"
+    },
+    {
+      "id": 1120,
+      "name": "Tim Roth",
+      "role": "ACTOR",
+      "details": "Emil Blonsky / Abomination"
+    },
+    {
+      "id": 1182,
+      "name": "William Hurt",
+      "role": "ACTOR",
+      "details": "Thaddeus Ross"
+    },
+    {
+      "id": 1119,
+      "name": "Tim Blake Nelson",
+      "role": "ACTOR",
+      "details": "Samuel Sterns"
+    }
+  ]
+}

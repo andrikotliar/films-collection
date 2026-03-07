@@ -1,0 +1,127 @@
+{
+  "id": 117,
+  "title": "Pirates of the Caribbean: On Stranger Tides",
+  "releaseDate": "2011-05-20",
+  "type": "FILM",
+  "duration": 137,
+  "budget": 250000000,
+  "boxOffice": 1050000000,
+  "overview": null,
+  "chapterKey": "pirates-of-the-caribbean",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Jerry Bruckheimer Films",
+      "id": 44
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=t5AqJww06bw",
+      "order": 1,
+      "id": 131
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1895,
+      "name": "Rob Marshall",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1891,
+      "name": "Ted Elliott",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1892,
+      "name": "Terry Rossio",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1893,
+      "name": "Jerry Bruckheimer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1894,
+      "name": "Dariusz Wolski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 598,
+      "name": "Johnny Depp",
+      "role": "ACTOR",
+      "details": "Captain Jack Sparrow"
+    },
+    {
+      "id": 914,
+      "name": "Penelope Cruz",
+      "role": "ACTOR",
+      "details": "Angelica"
+    },
+    {
+      "id": 401,
+      "name": "Geoffrey Rush",
+      "role": "ACTOR",
+      "details": "Barbossa"
+    },
+    {
+      "id": 461,
+      "name": "Ian McShane",
+      "role": "ACTOR",
+      "details": "Blackbeard"
+    },
+    {
+      "id": 678,
+      "name": "Kevin McNally",
+      "role": "ACTOR",
+      "details": "Gibbs"
+    },
+    {
+      "id": 1030,
+      "name": "Sam Claflin",
+      "role": "ACTOR",
+      "details": "Philip"
+    },
+    {
+      "id": 93,
+      "name": "Astrid Berges-Frisbey",
+      "role": "ACTOR",
+      "details": "Syrena"
+    }
+  ]
+}

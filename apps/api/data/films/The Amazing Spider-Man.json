@@ -1,0 +1,151 @@
+{
+  "id": 159,
+  "title": "The Amazing Spider-Man",
+  "releaseDate": "2012-07-03",
+  "type": "FILM",
+  "duration": 136,
+  "budget": 230000000,
+  "boxOffice": 758000000,
+  "overview": null,
+  "chapterKey": "amazing-spider-man",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=-tnxzJ0SSOw",
+      "order": 1,
+      "id": 185
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2132,
+      "name": "Marc Webb",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2133,
+      "name": "James Vanderbilt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1973,
+      "name": "Alvin Sargent",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1561,
+      "name": "Steve Kloves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2134,
+      "name": "Matt Tolmach",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1972,
+      "name": "Laura Ziskin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1290,
+      "name": "James Horner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1747,
+      "name": "John Schwartzman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 57,
+      "name": "Andrew Garfield",
+      "role": "ACTOR",
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "id": 344,
+      "name": "Emma Stone",
+      "role": "ACTOR",
+      "details": "Gwen Stacy"
+    },
+    {
+      "id": 962,
+      "name": "Rhys Ifans",
+      "role": "ACTOR",
+      "details": "The Lizard / Dr. Curt Connors"
+    },
+    {
+      "id": 284,
+      "name": "Denis Leary",
+      "role": "ACTOR",
+      "details": "Captain Stacy"
+    },
+    {
+      "id": 793,
+      "name": "Martin Sheen",
+      "role": "ACTOR",
+      "details": "Uncle Ben"
+    },
+    {
+      "id": 1028,
+      "name": "Sally Field",
+      "role": "ACTOR",
+      "details": "Aunt May"
+    },
+    {
+      "id": 165,
+      "name": "Campbell Scott",
+      "role": "ACTOR",
+      "details": "Richard Parker"
+    },
+    {
+      "id": 338,
+      "name": "Embeth Davidtz",
+      "role": "ACTOR",
+      "details": "Mary Parker"
+    }
+  ]
+}

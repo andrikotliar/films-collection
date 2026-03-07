@@ -1,0 +1,163 @@
+{
+  "id": 98,
+  "title": "Man of Steel",
+  "releaseDate": "2013-06-14",
+  "type": "FILM",
+  "duration": 143,
+  "budget": 225000000,
+  "boxOffice": 668000000,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=T6DJcgm3wNY",
+      "order": 1,
+      "id": 112
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1386,
+      "name": "Zack Snyder",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1379,
+      "name": "David S. Goyer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1388,
+      "name": "Deborah Snyder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1465,
+      "name": "Amir Mokri",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 443,
+      "name": "Henry Cavill",
+      "role": "ACTOR",
+      "details": "Clark Kent / Kal-El"
+    },
+    {
+      "id": 54,
+      "name": "Amy Adams",
+      "role": "ACTOR",
+      "details": "Lois Lane"
+    },
+    {
+      "id": 831,
+      "name": "Michael Shannon",
+      "role": "ACTOR",
+      "details": "General Zod"
+    },
+    {
+      "id": 291,
+      "name": "Diane Lane",
+      "role": "ACTOR",
+      "details": "Martha Kent"
+    },
+    {
+      "id": 1015,
+      "name": "Russell Crowe",
+      "role": "ACTOR",
+      "details": "Jor-El"
+    },
+    {
+      "id": 75,
+      "name": "Antje Traue",
+      "role": "ACTOR",
+      "details": "Faora-Ul"
+    },
+    {
+      "id": 433,
+      "name": "Harry J. Lennix",
+      "role": "ACTOR",
+      "details": "General Swanwick"
+    },
+    {
+      "id": 974,
+      "name": "Richard Schiff",
+      "role": "ACTOR",
+      "details": "Dr. Emil Hamilton"
+    },
+    {
+      "id": 211,
+      "name": "Christopher Meloni",
+      "role": "ACTOR",
+      "details": "Colonel Nathan Hardy"
+    },
+    {
+      "id": 672,
+      "name": "Kevin Costner",
+      "role": "ACTOR",
+      "details": "Jonathan Kent"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Perry White"
+    }
+  ]
+}

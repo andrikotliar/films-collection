@@ -1,0 +1,170 @@
+{
+  "id": 147,
+  "title": "Star Wars Episode VIII: The Last Jedi",
+  "releaseDate": "2017-12-15",
+  "type": "FILM",
+  "duration": 152,
+  "budget": 317000000,
+  "boxOffice": 1330000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 11,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Q0CbN8sfihY",
+      "order": 1,
+      "id": 164
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Editing",
+          "id": 48
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1999,
+      "name": "Rian Johnson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1999,
+      "name": "Rian Johnson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1738,
+      "name": "Kathleen Kennedy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2000,
+      "name": "Ram Bergman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2001,
+      "name": "Steve Yedlin",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 238,
+      "name": "Daisy Ridley",
+      "role": "ACTOR",
+      "details": "Rey"
+    },
+    {
+      "id": 7,
+      "name": "Adam Driver",
+      "role": "ACTOR",
+      "details": "Kylo Ren"
+    },
+    {
+      "id": 574,
+      "name": "John Boyega",
+      "role": "ACTOR",
+      "details": "Finn"
+    },
+    {
+      "id": 785,
+      "name": "Mark Hamill",
+      "role": "ACTOR",
+      "details": "Luke Skywalker"
+    },
+    {
+      "id": 171,
+      "name": "Carrie Fisher",
+      "role": "ACTOR",
+      "details": "Leia"
+    },
+    {
+      "id": 896,
+      "name": "Oscar Isaac",
+      "role": "ACTOR",
+      "details": "Poe Dameron"
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Snoke"
+    },
+    {
+      "id": 753,
+      "name": "Lupita Nyung'o",
+      "role": "ACTOR",
+      "details": "Maz Kanata"
+    },
+    {
+      "id": 422,
+      "name": "Gwendoline Christie",
+      "role": "ACTOR",
+      "details": "Phasma"
+    },
+    {
+      "id": 299,
+      "name": "Domhnall Gleeson",
+      "role": "ACTOR",
+      "details": "General Hux"
+    },
+    {
+      "id": 701,
+      "name": "Laura Dern",
+      "role": "ACTOR",
+      "details": "Vice Admiral Holdo"
+    }
+  ]
+}

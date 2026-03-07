@@ -1,0 +1,587 @@
+{
+  "id": 64,
+  "title": "Heroes",
+  "releaseDate": "2006-09-25",
+  "type": "SERIES",
+  "duration": 45,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Tailwind Productions",
+      "id": 32
+    },
+    {
+      "title": "NBC Universal Television",
+      "id": 33
+    },
+    {
+      "title": "Universal Media Studios",
+      "id": 34
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=9AX6aXFdTkc",
+      "order": 1,
+      "id": 73
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9mNGxXpAmHc",
+      "order": 2,
+      "id": 74
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=i1VA_aWyrPI",
+      "order": 3,
+      "id": 75
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mTzPPIEUFEs",
+      "order": 4,
+      "id": 76
+    }
+  ],
+  "awards": [
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best International",
+          "id": 106
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Special Visual Effects for a Series",
+          "id": 138
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1593,
+      "name": "Tim Kring",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1594,
+      "name": "David Semel",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1595,
+      "name": "Allan Arkush",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1596,
+      "name": "Greg Beeman",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1597,
+      "name": "Ernest R. Dickerson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1598,
+      "name": "Paul Shapiro",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1599,
+      "name": "Donna Deitch",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1600,
+      "name": "Paul A. Edwards",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1601,
+      "name": "John Badham",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1602,
+      "name": "Terrence O'Hara",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1603,
+      "name": "Jeannot Szwarc",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1604,
+      "name": "Roxann Dawson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1605,
+      "name": "Kevin Bray",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1606,
+      "name": "Adam Kane",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1607,
+      "name": "Lesli Glatter",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1608,
+      "name": "Daniel Attias",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1609,
+      "name": "Greg Yaitanes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1610,
+      "name": "Sergio Mimica-Gezzan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1611,
+      "name": "David Von Ancken",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1612,
+      "name": "Anthony Hemingway",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1613,
+      "name": "Holly Dale",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1614,
+      "name": "Seith Mann",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1615,
+      "name": "Eric Laneuville",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1616,
+      "name": "Jim Chory",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1617,
+      "name": "Ed Bianchi",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1618,
+      "name": "David Straiton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1619,
+      "name": "Christopher Misiano",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1620,
+      "name": "S.J. Clarkson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1621,
+      "name": "Tucker Gates",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1622,
+      "name": "Nate Goodman",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1623,
+      "name": "Bryan Spicer",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1624,
+      "name": "Kevin Dowling",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1625,
+      "name": "Ron Underwood",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1626,
+      "name": "Michael Nankin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1593,
+      "name": "Tim Kring",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1627,
+      "name": "Jeph Loeb",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1628,
+      "name": "Bryan Fuller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1629,
+      "name": "Michael Green",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1630,
+      "name": "Natalie Chaidez",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1631,
+      "name": "Jesse Alexander",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1632,
+      "name": "Adam Armus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1633,
+      "name": "Kay Foster",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1634,
+      "name": "Aron Eli Coleite",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1635,
+      "name": "Joe Pokaski",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1636,
+      "name": "Christopher Zatta",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1637,
+      "name": "Chuck Kim",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1638,
+      "name": "J.J. Philbin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1639,
+      "name": "Joy Blake",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1640,
+      "name": "Melissa Blake",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1641,
+      "name": "Rob Fresco",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1642,
+      "name": "Mark Verheiden",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1643,
+      "name": "Oliver Grigsby",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1644,
+      "name": "Juan Carlos Coto",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1645,
+      "name": "Aury Wallington",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1646,
+      "name": "Misha Green",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1647,
+      "name": "Jim Martin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1648,
+      "name": "Lori Motyer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1649,
+      "name": "Lisa Coleman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1650,
+      "name": "Wendy Melvoin",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1651,
+      "name": "Nathaniel Goodman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1652,
+      "name": "Charlie Lieberman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1653,
+      "name": "John B. Aronson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1654,
+      "name": "Edward J. Pei",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1606,
+      "name": "Adam Kane",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1655,
+      "name": "John Newby",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 479,
+      "name": "Jack Coleman",
+      "role": "ACTOR",
+      "details": "Noah Bennet"
+    },
+    {
+      "id": 437,
+      "name": "Hayden Panettiere",
+      "role": "ACTOR",
+      "details": "Claire Bennet"
+    },
+    {
+      "id": 845,
+      "name": "Milo Ventimiglia",
+      "role": "ACTOR",
+      "details": "Peter Petrelli"
+    },
+    {
+      "id": 801,
+      "name": "Masi Oka",
+      "role": "ACTOR",
+      "details": "Hiro Nakamura"
+    },
+    {
+      "id": 1052,
+      "name": "Sendhil Ramamurthy",
+      "role": "ACTOR",
+      "details": "Mohinder Suresh"
+    },
+    {
+      "id": 417,
+      "name": "Greg Grunberg",
+      "role": "ACTOR",
+      "details": "Matt Parkman"
+    },
+    {
+      "id": 509,
+      "name": "James Kyson Lee",
+      "role": "ACTOR",
+      "details": "Ando Masahashi"
+    },
+    {
+      "id": 15,
+      "name": "Adrian Pasdar",
+      "role": "ACTOR",
+      "details": "Nathan Petrelli"
+    },
+    {
+      "id": 1198,
+      "name": "Zachary Quinto",
+      "role": "ACTOR",
+      "details": "Sylar"
+    },
+    {
+      "id": 37,
+      "name": "Ali Larter",
+      "role": "ACTOR",
+      "details": "Niki Sanders"
+    },
+    {
+      "id": 233,
+      "name": "Cristine Rose",
+      "role": "ACTOR",
+      "details": "Angela Petrelli"
+    },
+    {
+      "id": 92,
+      "name": "Ashley Crow",
+      "role": "ACTOR",
+      "details": "Sandra Bennet"
+    },
+    {
+      "id": 876,
+      "name": "Noah Gray-Cabey",
+      "role": "ACTOR",
+      "details": "Micah Sanders"
+    },
+    {
+      "id": 987,
+      "name": "Robert Knepper",
+      "role": "ACTOR",
+      "details": "Isaac Mendez"
+    },
+    {
+      "id": 266,
+      "name": "David Anders",
+      "role": "ACTOR",
+      "details": "Adam Monroe"
+    },
+    {
+      "id": 984,
+      "name": "Robert Forster",
+      "role": "ACTOR",
+      "details": "Arthur Petrelli"
+    },
+    {
+      "id": 771,
+      "name": "Malcolm McDowell",
+      "role": "ACTOR",
+      "details": "Daniel Linderman"
+    }
+  ],
+  "seriesExtension": {
+    "id": 7,
+    "episodesTotal": 77,
+    "seasonsTotal": 4,
+    "finishedAt": "2010-02-08"
+  }
+}

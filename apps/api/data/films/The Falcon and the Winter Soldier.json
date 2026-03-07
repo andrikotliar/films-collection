@@ -1,0 +1,148 @@
+{
+  "id": 171,
+  "title": "The Falcon and the Winter Soldier",
+  "releaseDate": "2021-03-19",
+  "type": "SERIES",
+  "duration": 50,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 28,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Disney+",
+      "id": 2
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=IWBsDaFWyTE",
+      "order": 1,
+      "id": 197
+    }
+  ],
+  "awards": [
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Hero",
+          "id": 183
+        },
+        {
+          "title": "Best Duo",
+          "id": 191
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2152,
+      "name": "Malcolm Spellman",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1521,
+      "name": "P.J. Dillon",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 74,
+      "name": "Anthony Mackie",
+      "role": "ACTOR",
+      "details": "Sam Wilson / Falcon / Captain America"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": "James \"Bucky\" Barnes / White Wolf"
+    },
+    {
+      "id": 1192,
+      "name": "Wyatt Russell",
+      "role": "ACTOR",
+      "details": "John Walker / Captain America / U.S. Agent"
+    },
+    {
+      "id": 354,
+      "name": "Erin Kellyman",
+      "role": "ACTOR",
+      "details": "Karli Morgenthau"
+    },
+    {
+      "id": 10,
+      "name": "Adepero Oduye",
+      "role": "ACTOR",
+      "details": "Sarah Wilson"
+    },
+    {
+      "id": 304,
+      "name": "Don Cheadle",
+      "role": "ACTOR",
+      "details": "James \"Rhodey\" Rhodes"
+    },
+    {
+      "id": 244,
+      "name": "Daniel Brühl",
+      "role": "ACTOR",
+      "details": "Helmut Zemo"
+    },
+    {
+      "id": 342,
+      "name": "Emily VanCamp",
+      "role": "ACTOR",
+      "details": "Sharon Carter / Power Broker"
+    },
+    {
+      "id": 374,
+      "name": "Florence Kasumba",
+      "role": "ACTOR",
+      "details": "Ayo"
+    },
+    {
+      "id": 626,
+      "name": "Julia Louis-Dreyfus",
+      "role": "ACTOR",
+      "details": "Valentina Allegra de Fontaine"
+    },
+    {
+      "id": 1399,
+      "name": "Henry Jackman",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "seriesExtension": {
+    "id": 13,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "finishedAt": "2021-04-23"
+  }
+}

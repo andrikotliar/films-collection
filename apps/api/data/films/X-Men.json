@@ -1,0 +1,182 @@
+{
+  "id": 231,
+  "title": "X-Men",
+  "releaseDate": "2000-07-14",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 75000000,
+  "boxOffice": 296000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=VNxwlx6etXI",
+      "order": 1,
+      "id": 261
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Costumes",
+          "id": 52
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2377,
+      "name": "Michael Kamen",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2370,
+      "name": "Bryan Singer",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2371,
+      "name": "David Hayter",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2374,
+      "name": "Ralph Winter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2376,
+      "name": "Newton Thomas Sigel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Logan / Wolverine"
+    },
+    {
+      "id": 903,
+      "name": "Patrick Stewart",
+      "role": "ACTOR",
+      "details": "Professor Charles Xavier"
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Eric Lensherr / Magneto"
+    },
+    {
+      "id": 367,
+      "name": "Famke Janssen",
+      "role": "ACTOR",
+      "details": "Jean Grey"
+    },
+    {
+      "id": 510,
+      "name": "James Marsden",
+      "role": "ACTOR",
+      "details": "Scott Summers / Cyclops"
+    },
+    {
+      "id": 426,
+      "name": "Halle Berry",
+      "role": "ACTOR",
+      "details": "Ororo Munroe / Storm"
+    },
+    {
+      "id": 66,
+      "name": "Anna Paquin",
+      "role": "ACTOR",
+      "details": "Rogue"
+    },
+    {
+      "id": 1155,
+      "name": "Tyler Mane",
+      "role": "ACTOR",
+      "details": "Sabretooth"
+    },
+    {
+      "id": 949,
+      "name": "Ray Park",
+      "role": "ACTOR",
+      "details": "Toad"
+    },
+    {
+      "id": 956,
+      "name": "Rebecca Romijn",
+      "role": "ACTOR",
+      "details": "Mystique"
+    },
+    {
+      "id": 154,
+      "name": "Bruce Davison",
+      "role": "ACTOR",
+      "details": "Senator Kelly"
+    }
+  ]
+}

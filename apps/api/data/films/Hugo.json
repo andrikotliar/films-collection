@@ -1,0 +1,178 @@
+{
+  "id": 69,
+  "title": "Hugo",
+  "releaseDate": "2011-11-23",
+  "type": "FILM",
+  "duration": 126,
+  "budget": 150000000,
+  "boxOffice": 186000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "France",
+      "id": 4
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Metropolitan Filmexport",
+      "id": 35
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Hv3obL9HqyY",
+      "order": 1,
+      "id": 81
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Cinematography",
+          "id": 4
+        },
+        {
+          "title": "Best Achievement in Sound Mixing",
+          "id": 11
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "id": 12
+        },
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        },
+        {
+          "title": "Best Achievement in Art Direction",
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Art Direction",
+          "id": 73
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1667,
+      "name": "Martin Scorsese",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1668,
+      "name": "John Logan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1669,
+      "name": "Graham King",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1670,
+      "name": "Timothy Headington",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1671,
+      "name": "Howard Shore",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1672,
+      "name": "Robert Richardson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 90,
+      "name": "Asa Butterfield",
+      "role": "ACTOR",
+      "details": "Hugo Cabret"
+    },
+    {
+      "id": 109,
+      "name": "Ben Kingsley",
+      "role": "ACTOR",
+      "details": "Georges M'li's"
+    },
+    {
+      "id": 1025,
+      "name": "Sacha Baron Cohen",
+      "role": "ACTOR",
+      "details": "Station Inspector"
+    },
+    {
+      "id": 193,
+      "name": "Chloë Grace Moretz",
+      "role": "ACTOR",
+      "details": "Isabelle"
+    }
+  ]
+}

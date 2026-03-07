@@ -1,0 +1,131 @@
+{
+  "id": 44,
+  "title": "Focus",
+  "releaseDate": "2015-02-27",
+  "type": "FILM",
+  "duration": 105,
+  "budget": 50000000,
+  "boxOffice": 159000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Argentina",
+      "id": 11
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=MxCRgtdAuBo",
+      "order": 1,
+      "id": 46
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1473,
+      "name": "Glenn Ficarra",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1474,
+      "name": "John Requa",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1473,
+      "name": "Glenn Ficarra",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1474,
+      "name": "John Requa",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1475,
+      "name": "Denise Di Novi",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1476,
+      "name": "Nick Urata",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1477,
+      "name": "Xavier Grobet",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Nicky"
+    },
+    {
+      "id": 775,
+      "name": "Margot Robbie",
+      "role": "ACTOR",
+      "details": "Jess"
+    },
+    {
+      "id": 14,
+      "name": "Adrian Martinez",
+      "role": "ACTOR",
+      "details": "Farhad"
+    },
+    {
+      "id": 403,
+      "name": "Gerald McRaney",
+      "role": "ACTOR",
+      "details": "Owens"
+    },
+    {
+      "id": 997,
+      "name": "Rodrigo Santoro",
+      "role": "ACTOR",
+      "details": "Rafael Garriga"
+    },
+    {
+      "id": 98,
+      "name": "B.D. Wong",
+      "role": "ACTOR",
+      "details": "Liyuan Tse"
+    }
+  ]
+}

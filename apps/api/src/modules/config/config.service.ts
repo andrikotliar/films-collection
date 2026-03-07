@@ -11,6 +11,7 @@ const EnvSchema = z.object({
   CLOUDINARY_API_SECRET: z.string(),
   NODE_ENV: z.string().optional(),
   DATABASE_URL: z.string(),
+  SIGNATURE_SECRET: z.string(),
 });
 
 export type EnvVariables = z.infer<typeof EnvSchema>;

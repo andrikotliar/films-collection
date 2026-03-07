@@ -1,0 +1,125 @@
+{
+  "id": 155,
+  "title": "Taxi 2",
+  "releaseDate": "2000-03-29",
+  "type": "FILM",
+  "duration": 88,
+  "budget": 10000000,
+  "boxOffice": 64000000,
+  "overview": null,
+  "chapterKey": "taxi",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lionsgate",
+      "id": 57
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=XkMZ75BwhCg",
+      "order": 1,
+      "id": 175
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2036,
+      "name": "Gérard Pirès",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2037,
+      "name": "Michele Petin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2038,
+      "name": "Laurent Petin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2041,
+      "name": "Olivier \"Akos\" Castelli",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2042,
+      "name": "Al Khemya",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2043,
+      "name": "One Shot",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2044,
+      "name": "Thierry Guilmaro",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1037,
+      "name": "Samy Naceri",
+      "role": "ACTOR",
+      "details": "Daniel Morales"
+    },
+    {
+      "id": 390,
+      "name": "Frédéric Diefenthal",
+      "role": "ACTOR",
+      "details": "Emilien Coutant-Kerbalec"
+    },
+    {
+      "id": 779,
+      "name": "Marion Cotillard",
+      "role": "ACTOR",
+      "details": "Lilly Bertineau"
+    },
+    {
+      "id": 346,
+      "name": "Emma Wiklund",
+      "role": "ACTOR",
+      "details": "Petra"
+    },
+    {
+      "id": 118,
+      "name": "Bernard Farcy",
+      "role": "ACTOR",
+      "details": "Commissaire Gibert"
+    }
+  ]
+}

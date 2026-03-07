@@ -1,0 +1,192 @@
+{
+  "id": 91,
+  "title": "Kung Fu Panda",
+  "releaseDate": "2008-06-06",
+  "type": "FILM",
+  "duration": 92,
+  "budget": 130000000,
+  "boxOffice": 632000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=NRc-ze7Wrxw",
+      "order": 1,
+      "id": 103
+    }
+  ],
+  "awards": [
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        },
+        {
+          "title": "Best Animated Effects",
+          "id": 172
+        },
+        {
+          "title": "Best Character Animation in a Feature Production",
+          "id": 173
+        },
+        {
+          "title": "Best Character Design in an Animated Feature Production",
+          "id": 174
+        },
+        {
+          "title": "Best Production Design in an Animated Feature Production",
+          "id": 175
+        },
+        {
+          "title": "Best Storyboarding in an Animated Feature Production",
+          "id": 176
+        },
+        {
+          "title": "Best Voice Acting in an Animated Feature Production",
+          "id": 177
+        },
+        {
+          "title": "Best Writing in an Animated Feature Production",
+          "id": 178
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1759,
+      "name": "Mark Osborne",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1760,
+      "name": "John Stevenson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1761,
+      "name": "Jonathan Aibel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1762,
+      "name": "Glenn Berger",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1763,
+      "name": "Melissa Cobb",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1764,
+      "name": "Yong Duk Jhun",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 478,
+      "name": "Jack Black",
+      "role": "ACTOR",
+      "details": "Po"
+    },
+    {
+      "id": 313,
+      "name": "Dustin Hoffman",
+      "role": "ACTOR",
+      "details": "Shifu"
+    },
+    {
+      "id": 63,
+      "name": "Angelina Jolie",
+      "role": "ACTOR",
+      "details": "Tigress"
+    },
+    {
+      "id": 461,
+      "name": "Ian McShane",
+      "role": "ACTOR",
+      "details": "Tai Lung"
+    },
+    {
+      "id": 485,
+      "name": "Jackie Chan",
+      "role": "ACTOR",
+      "details": "Monkey"
+    },
+    {
+      "id": 1055,
+      "name": "Seth Rogen",
+      "role": "ACTOR",
+      "details": "Mantis"
+    },
+    {
+      "id": 745,
+      "name": "Lucy Liu",
+      "role": "ACTOR",
+      "details": "Viper"
+    },
+    {
+      "id": 269,
+      "name": "David Cross",
+      "role": "ACTOR",
+      "details": "Crane"
+    },
+    {
+      "id": 944,
+      "name": "Randall Duk Kim",
+      "role": "ACTOR",
+      "details": "Oogway"
+    },
+    {
+      "id": 508,
+      "name": "James Hong",
+      "role": "ACTOR",
+      "details": "Mr. Ping"
+    }
+  ]
+}

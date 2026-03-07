@@ -1,0 +1,111 @@
+{
+  "id": 6,
+  "title": "2Fast 2Furious",
+  "releaseDate": "2003-06-06",
+  "type": "FILM",
+  "duration": 108,
+  "budget": 76000000,
+  "boxOffice": 236000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=F_VIM03DXWI",
+      "order": 1,
+      "id": 6
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1267,
+      "name": "John Singleton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1268,
+      "name": "Michael Brandt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1269,
+      "name": "Derek Haas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1271,
+      "name": "David Arnold",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1272,
+      "name": "Matthew F. Leonetti",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 911,
+      "name": "Paul Walker",
+      "role": "ACTOR",
+      "details": "Brian O'Conner"
+    },
+    {
+      "id": 1156,
+      "name": "Tyrese Gibson",
+      "role": "ACTOR",
+      "details": "Roman Pearce"
+    },
+    {
+      "id": 359,
+      "name": "Eva Mendes",
+      "role": "ACTOR",
+      "details": "Monica Fuentes"
+    },
+    {
+      "id": 222,
+      "name": "Cole Hauser",
+      "role": "ACTOR",
+      "details": "Carter Verone"
+    },
+    {
+      "id": 746,
+      "name": "Ludacris",
+      "role": "ACTOR",
+      "details": "Tej"
+    }
+  ]
+}

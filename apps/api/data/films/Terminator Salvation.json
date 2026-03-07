@@ -1,0 +1,133 @@
+{
+  "id": 157,
+  "title": "Terminator: Salvation",
+  "releaseDate": "2009-05-21",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 200000000,
+  "boxOffice": 371000000,
+  "overview": null,
+  "chapterKey": "terminator",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "The Halcyon Company",
+      "id": 51
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=-Czz-TcWCkA",
+      "order": 1,
+      "id": 177
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2052,
+      "name": "McG",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2053,
+      "name": "John Brancato",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2054,
+      "name": "Michael Ferris",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2055,
+      "name": "Derek Anderson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2056,
+      "name": "Moritz Borman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2057,
+      "name": "Shane Hurlbut",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "John Connor"
+    },
+    {
+      "id": 1034,
+      "name": "Sam Worthington",
+      "role": "ACTOR",
+      "details": "Marcus Wright"
+    },
+    {
+      "id": 852,
+      "name": "Moon Bloodgood",
+      "role": "ACTOR",
+      "details": "Blair Williams"
+    },
+    {
+      "id": 441,
+      "name": "Helena Bonham Carter",
+      "role": "ACTOR",
+      "details": "Dr. Serena Kogan"
+    },
+    {
+      "id": 76,
+      "name": "Anton Yelchin",
+      "role": "ACTOR",
+      "details": "Kyle Reese"
+    },
+    {
+      "id": 491,
+      "name": "Jadagrace",
+      "role": "ACTOR",
+      "details": "Star"
+    },
+    {
+      "id": 157,
+      "name": "Bryce Dallas Howard",
+      "role": "ACTOR",
+      "details": "Kate Connor"
+    }
+  ]
+}

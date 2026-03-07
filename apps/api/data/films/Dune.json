@@ -1,0 +1,195 @@
+{
+  "id": 37,
+  "title": "Dune",
+  "releaseDate": "2021-10-22",
+  "type": "FILM",
+  "duration": 155,
+  "budget": 165000000,
+  "boxOffice": 398000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=w0HgHet0sxg",
+      "order": 1,
+      "id": 39
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1443,
+      "name": "Denis Villeneuve",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1440,
+      "name": "Jon Spaihts",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1443,
+      "name": "Denis Villeneuve",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1444,
+      "name": "Eric Roth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1445,
+      "name": "Cale Boyter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1446,
+      "name": "Joseph M. Caracciolo Jr.",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1447,
+      "name": "Mary Parent",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1443,
+      "name": "Denis Villeneuve",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1448,
+      "name": "Greig Fraser",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1121,
+      "name": "Timothee Chalamet",
+      "role": "ACTOR",
+      "details": "Paul Atreides"
+    },
+    {
+      "id": 954,
+      "name": "Rebecca Ferguson",
+      "role": "ACTOR",
+      "details": "Lady Jessica"
+    },
+    {
+      "id": 896,
+      "name": "Oscar Isaac",
+      "role": "ACTOR",
+      "details": "Duke Leto Atreides"
+    },
+    {
+      "id": 528,
+      "name": "Jason Momoa",
+      "role": "ACTOR",
+      "details": "Duncan Idaho"
+    },
+    {
+      "id": 1080,
+      "name": "Stellan Skarsgard",
+      "role": "ACTOR",
+      "details": "Baron Vladimir Harkonnen"
+    },
+    {
+      "id": 270,
+      "name": "David Dastmalchian",
+      "role": "ACTOR",
+      "details": "Piter De Vries"
+    },
+    {
+      "id": 1201,
+      "name": "Zendaya",
+      "role": "ACTOR",
+      "details": "Chani"
+    },
+    {
+      "id": 616,
+      "name": "Josh Brolin",
+      "role": "ACTOR",
+      "details": "Gurney Halleck"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Glossu 'Beast' Rabban"
+    },
+    {
+      "id": 1085,
+      "name": "Stephen McKinley Henderson",
+      "role": "ACTOR",
+      "details": "Thufir Hawat"
+    },
+    {
+      "id": 1060,
+      "name": "Sharon Duncan-Brewster",
+      "role": "ACTOR",
+      "details": "Dr. Liet Kynes"
+    },
+    {
+      "id": 532,
+      "name": "Javier Bardem",
+      "role": "ACTOR",
+      "details": "Stilgar"
+    },
+    {
+      "id": 190,
+      "name": "Chen Chang",
+      "role": "ACTOR",
+      "details": "Dr. Wellington Yueh"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": 54,
+  "title": "Happy Feet",
+  "releaseDate": "2006-11-17",
+  "type": "FILM",
+  "duration": 108,
+  "budget": 100000000,
+  "boxOffice": 384000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Musical",
+      "id": 15
+    },
+    {
+      "title": "Romance",
+      "id": 8
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Village Roadshow Pictures",
+      "id": 31
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=hFUC5adf8FE",
+      "order": 1,
+      "id": 63
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Feature Film",
+          "id": 105
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1554,
+      "name": "Warren Coleman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1555,
+      "name": "John Collee",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1556,
+      "name": "Judy Morris",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1557,
+      "name": "Bill Miller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1558,
+      "name": "Doug Mitchell",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1559,
+      "name": "David Peers",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 323,
+      "name": "Elijah Wood",
+      "role": "ACTOR",
+      "details": "Mumble"
+    },
+    {
+      "id": 152,
+      "name": "Brittany Murphy",
+      "role": "ACTOR",
+      "details": "Gloria"
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Memphis"
+    },
+    {
+      "id": 874,
+      "name": "Nicole Kidman",
+      "role": "ACTOR",
+      "details": "Norma Jean"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Noah the Elder"
+    },
+    {
+      "id": 995,
+      "name": "Robin Williams",
+      "role": "ACTOR",
+      "details": "Lovelace"
+    }
+  ]
+}

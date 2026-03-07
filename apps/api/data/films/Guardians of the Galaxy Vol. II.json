@@ -1,0 +1,156 @@
+{
+  "id": 52,
+  "title": "Guardians of the Galaxy: Vol. II",
+  "releaseDate": "2017-05-05",
+  "type": "FILM",
+  "duration": 137,
+  "budget": 200000000,
+  "boxOffice": 864000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 12,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=wUn05hdkhjM",
+      "order": 1,
+      "id": 61
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1543,
+      "name": "Tyler Bates",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1544,
+      "name": "Henry Braham",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 199,
+      "name": "Chris Pratt",
+      "role": "ACTOR",
+      "details": "Peter Quill / Star-Lord"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Gamora"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Drax"
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Baby Groot"
+    },
+    {
+      "id": 141,
+      "name": "Bradley Cooper",
+      "role": "ACTOR",
+      "details": "Rocket"
+    },
+    {
+      "id": 830,
+      "name": "Michael Rooker",
+      "role": "ACTOR",
+      "details": "Yondu"
+    },
+    {
+      "id": 640,
+      "name": "Karen Gillan",
+      "role": "ACTOR",
+      "details": "Nebula"
+    },
+    {
+      "id": 934,
+      "name": "Pom Klementieff",
+      "role": "ACTOR",
+      "details": "Mantis"
+    },
+    {
+      "id": 1098,
+      "name": "Sylvester Stallone",
+      "role": "ACTOR",
+      "details": "Stakar Ogord"
+    },
+    {
+      "id": 692,
+      "name": "Kurt Russell",
+      "role": "ACTOR",
+      "details": "Ego"
+    },
+    {
+      "id": 328,
+      "name": "Elizabeth Debicki",
+      "role": "ACTOR",
+      "details": "Ayesha"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": 194,
+  "title": "The Martian",
+  "releaseDate": "2015-10-02",
+  "type": "FILM",
+  "duration": 142,
+  "budget": 108000000,
+  "boxOffice": 630000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ej3ioOneTy8",
+      "order": 1,
+      "id": 221
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Director",
+          "id": 23
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Motion Picture - Comedy or Musical",
+          "id": 122
+        },
+        {
+          "title": "Best Performance by an Actor in a Motion Picture - Comedy or Musical",
+          "id": 123
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1281,
+      "name": "Ridley Scott",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2226,
+      "name": "Drew Goddard",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1797,
+      "name": "Simon Kinberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1281,
+      "name": "Ridley Scott",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2227,
+      "name": "Michael Schaefer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2228,
+      "name": "Aditya Sood",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1513,
+      "name": "Mark Huffam",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1905,
+      "name": "Harry Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2229,
+      "name": "Danusz Wolski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 803,
+      "name": "Matt Damon",
+      "role": "ACTOR",
+      "details": "Mark Watney"
+    },
+    {
+      "id": 558,
+      "name": "Jessica Chastain",
+      "role": "ACTOR",
+      "details": "Melissa Lewis"
+    },
+    {
+      "id": 687,
+      "name": "Kristen Wiig",
+      "role": "ACTOR",
+      "details": "Annie Montrose"
+    },
+    {
+      "id": 540,
+      "name": "Jeff Daniels",
+      "role": "ACTOR",
+      "details": "Teddy Sanders"
+    },
+    {
+      "id": 828,
+      "name": "Michael Pena",
+      "role": "ACTOR",
+      "details": "Rick Martinez"
+    },
+    {
+      "id": 1045,
+      "name": "Sean Bean",
+      "role": "ACTOR",
+      "details": "Mitch Henderson"
+    },
+    {
+      "id": 645,
+      "name": "Kate Mara",
+      "role": "ACTOR",
+      "details": "Beth Johanssen"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": "Chris Beck"
+    },
+    {
+      "id": 20,
+      "name": "Aksel Hennie",
+      "role": "ACTOR",
+      "details": "Alex Vogel"
+    },
+    {
+      "id": 191,
+      "name": "Chiwetel Ejiofor",
+      "role": "ACTOR",
+      "details": "Vincent Kapoor"
+    },
+    {
+      "id": 116,
+      "name": "Benedict Wong",
+      "role": "ACTOR",
+      "details": "Bruce Ng"
+    },
+    {
+      "id": 760,
+      "name": "Mackenzie Davis",
+      "role": "ACTOR",
+      "details": "Mindy Park"
+    },
+    {
+      "id": 308,
+      "name": "Donald Glover",
+      "role": "ACTOR",
+      "details": "Rich Purnell"
+    }
+  ]
+}

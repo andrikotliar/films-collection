@@ -1,0 +1,139 @@
+{
+  "id": 192,
+  "title": "The Man from U.N.C.L.E.",
+  "releaseDate": "2015-08-14",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 75000000,
+  "boxOffice": 107000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=CzYRlISYE8Y",
+      "order": 1,
+      "id": 218
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2164,
+      "name": "Guy Ritchie",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2164,
+      "name": "Guy Ritchie",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2217,
+      "name": "Lionel Wigram",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2218,
+      "name": "Steve Clark-Hall",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1676,
+      "name": "John Davis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2164,
+      "name": "Guy Ritchie",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2217,
+      "name": "Lionel Wigram",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1989,
+      "name": "Daniel Pemberton",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1798,
+      "name": "John Mathieson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 443,
+      "name": "Henry Cavill",
+      "role": "ACTOR",
+      "details": "Napoleon Solo"
+    },
+    {
+      "id": 86,
+      "name": "Armie Hammer",
+      "role": "ACTOR",
+      "details": "Illya Kuryakin"
+    },
+    {
+      "id": 41,
+      "name": "Alicia Vikander",
+      "role": "ACTOR",
+      "details": "Gaby"
+    },
+    {
+      "id": 328,
+      "name": "Elizabeth Debicki",
+      "role": "ACTOR",
+      "details": "Victoria"
+    },
+    {
+      "id": 741,
+      "name": "Luca Calvani",
+      "role": "ACTOR",
+      "details": "Alexander"
+    },
+    {
+      "id": 452,
+      "name": "Hugh Grant",
+      "role": "ACTOR",
+      "details": "Waverly"
+    }
+  ]
+}

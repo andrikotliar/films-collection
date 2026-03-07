@@ -1,0 +1,210 @@
+{
+  "id": 80,
+  "title": "Indiana Jones and the Raiders of the Lost Ark",
+  "releaseDate": "1981-06-12",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 18000000,
+  "boxOffice": 390000000,
+  "overview": null,
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Rh_BJXG1-44",
+      "order": 1,
+      "id": 92
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "id": 13
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Film Editing",
+          "id": 15
+        },
+        {
+          "title": "Best Effects, Visual Effects",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        },
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Actress",
+          "id": 38
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Production Design/Art Direction",
+          "id": 108
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jupiter Award",
+      "nominations": [
+        {
+          "title": "Best International Actor",
+          "id": 209
+        },
+        {
+          "title": "Best International Film",
+          "id": 210
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1375,
+      "name": "Steven Spielberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1709,
+      "name": "Lawrence Kasdan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1704,
+      "name": "Frank Marshall",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1708,
+      "name": "Douglas Slocombe",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "Dr. Henry «Indiana» Jones, Jr."
+    },
+    {
+      "id": 638,
+      "name": "Karen Allen",
+      "role": "ACTOR",
+      "details": "Marion"
+    },
+    {
+      "id": 906,
+      "name": "Paul Freeman",
+      "role": "ACTOR",
+      "details": "Belloq"
+    },
+    {
+      "id": 1000,
+      "name": "Ronald Lacey",
+      "role": "ACTOR",
+      "details": "Toht"
+    },
+    {
+      "id": 595,
+      "name": "John Rhys-Davies",
+      "role": "ACTOR",
+      "details": "Sallah"
+    },
+    {
+      "id": 283,
+      "name": "Denholm Elliott",
+      "role": "ACTOR",
+      "details": "Brody"
+    }
+  ]
+}

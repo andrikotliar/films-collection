@@ -1,0 +1,162 @@
+{
+  "id": 255,
+  "title": "Guardians of the Galaxy Vol. 3",
+  "releaseDate": "2023-05-05",
+  "type": "FILM",
+  "duration": 150,
+  "budget": 250000000,
+  "boxOffice": 845000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 32,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    },
+    {
+      "title": "France",
+      "id": 4
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/u3V5KDHRQvk?si=BgrYQWnGZ8ceDowv",
+      "order": 1,
+      "id": 293
+    }
+  ],
+  "awards": [
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement for Character Animation in a Live Action Production",
+          "id": 232
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2524,
+      "name": "John Murphy",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1544,
+      "name": "Henry Braham",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 199,
+      "name": "Chris Pratt",
+      "role": "ACTOR",
+      "details": "Peter Quill/Star-Lord"
+    },
+    {
+      "id": 2525,
+      "name": "Chukwudi Iwuji",
+      "role": "ACTOR",
+      "details": "The High Evolutionary"
+    },
+    {
+      "id": 141,
+      "name": "Bradley Cooper",
+      "role": "ACTOR",
+      "details": "Rocket"
+    },
+    {
+      "id": 934,
+      "name": "Pom Klementieff",
+      "role": "ACTOR",
+      "details": "Mantis"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Drax"
+    },
+    {
+      "id": 640,
+      "name": "Karen Gillan",
+      "role": "ACTOR",
+      "details": "Nebula"
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Groot"
+    },
+    {
+      "id": 2526,
+      "name": "Sean Gunn",
+      "role": "ACTOR",
+      "details": "Kraglin"
+    },
+    {
+      "id": 2526,
+      "name": "Sean Gunn",
+      "role": "ACTOR",
+      "details": "Young Rocket"
+    },
+    {
+      "id": 1176,
+      "name": "Will Poulter",
+      "role": "ACTOR",
+      "details": "Adam Warlock"
+    }
+  ]
+}

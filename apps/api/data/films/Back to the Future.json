@@ -1,0 +1,140 @@
+{
+  "id": 20,
+  "title": "Back to the Future",
+  "releaseDate": "1985-07-03",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 19000000,
+  "boxOffice": 381000000,
+  "overview": null,
+  "chapterKey": "back-to-the-future",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=qvsgGtivCgs",
+      "order": 1,
+      "id": 20
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound Effects Editing",
+          "id": 2
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1373,
+      "name": "Robert Zemeckis",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1373,
+      "name": "Robert Zemeckis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1374,
+      "name": "Bob Gale",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1375,
+      "name": "Steven Spielberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1374,
+      "name": "Bob Gale",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1376,
+      "name": "Neil Canton",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1377,
+      "name": "Dean Cundey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 824,
+      "name": "Michael J. Fox",
+      "role": "ACTOR",
+      "details": "Marty McFly"
+    },
+    {
+      "id": 210,
+      "name": "Christopher Lloyd",
+      "role": "ACTOR",
+      "details": "Dr. Emmett Brown"
+    },
+    {
+      "id": 710,
+      "name": "Lea Thompson",
+      "role": "ACTOR",
+      "details": "Lorraine Baines"
+    },
+    {
+      "id": 232,
+      "name": "Crispin Glover",
+      "role": "ACTOR",
+      "details": "George McFly"
+    },
+    {
+      "id": 1114,
+      "name": "Thomas F. Wilson",
+      "role": "ACTOR",
+      "details": "Biff Tannen"
+    },
+    {
+      "id": 217,
+      "name": "Claudia Wells",
+      "role": "ACTOR",
+      "details": "Jennifer Parker"
+    }
+  ]
+}

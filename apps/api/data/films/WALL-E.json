@@ -1,0 +1,166 @@
+{
+  "id": 224,
+  "title": "WALL-E",
+  "releaseDate": "2008-06-27",
+  "type": "FILM",
+  "duration": 97,
+  "budget": 180000000,
+  "boxOffice": 533000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Romance",
+      "id": 8
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=alIq_wG9FNk",
+      "order": 1,
+      "id": 254
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2348,
+      "name": "Jim Reardon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1727,
+      "name": "Jim Morris",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1470,
+      "name": "Thomas Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1472,
+      "name": "Jeremy Lasky",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2349,
+      "name": "Danielle Feinberg",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 106,
+      "name": "Ben Burtt",
+      "role": "ACTOR",
+      "details": "WALL-E / M-O / AUTO"
+    },
+    {
+      "id": 325,
+      "name": "Elissa Knight",
+      "role": "ACTOR",
+      "details": "EVE"
+    },
+    {
+      "id": 541,
+      "name": "Jeff Garlin",
+      "role": "ACTOR",
+      "details": "Captain"
+    },
+    {
+      "id": 387,
+      "name": "Fred Willard",
+      "role": "ACTOR",
+      "details": "Shelby Forthright"
+    }
+  ]
+}

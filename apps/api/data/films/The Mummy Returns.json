@@ -1,0 +1,141 @@
+{
+  "id": 202,
+  "title": "The Mummy Returns",
+  "releaseDate": "2001-05-04",
+  "type": "FILM",
+  "duration": 130,
+  "budget": 98000000,
+  "boxOffice": 433000000,
+  "overview": null,
+  "chapterKey": "mummy",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=3yXjs7BUKYc",
+      "order": 1,
+      "id": 229
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2244,
+      "name": "Stephen Sommers",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2244,
+      "name": "Stephen Sommers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2245,
+      "name": "James Jacks",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2246,
+      "name": "Sean Daniel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1291,
+      "name": "Adrian Biddle",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 144,
+      "name": "Brendan Fraser",
+      "role": "ACTOR",
+      "details": "Rick O'Connell"
+    },
+    {
+      "id": 940,
+      "name": "Rachel Weisz",
+      "role": "ACTOR",
+      "details": "Evelyn Carnahan / Nefertiri"
+    },
+    {
+      "id": 583,
+      "name": "John Hannah",
+      "role": "ACTOR",
+      "details": "Jonathan"
+    },
+    {
+      "id": 88,
+      "name": "Arnold Vosloo",
+      "role": "ACTOR",
+      "details": "Imhotep"
+    },
+    {
+      "id": 883,
+      "name": "Oded Fehr",
+      "role": "ACTOR",
+      "details": "Ardeth Bay"
+    },
+    {
+      "id": 901,
+      "name": "Patricia Velasquez",
+      "role": "ACTOR",
+      "details": "Meela / Anck-Su-Namun"
+    },
+    {
+      "id": 388,
+      "name": "Freddie Boath",
+      "role": "ACTOR",
+      "details": "Alex"
+    },
+    {
+      "id": 45,
+      "name": "Alun Armstrong",
+      "role": "ACTOR",
+      "details": "Mr. Hafez"
+    },
+    {
+      "id": 314,
+      "name": "Dwayne Johnson",
+      "role": "ACTOR",
+      "details": "The Scorpion King"
+    },
+    {
+      "id": 1061,
+      "name": "Shaun Parkes",
+      "role": "ACTOR",
+      "details": "Izzy"
+    }
+  ]
+}

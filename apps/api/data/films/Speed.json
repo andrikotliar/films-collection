@@ -1,0 +1,138 @@
+{
+  "id": 132,
+  "title": "Speed",
+  "releaseDate": "1994-06-10",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 30000000,
+  "boxOffice": 350000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=8piqd2BWeGI",
+      "order": 1,
+      "id": 149
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actress",
+          "id": 38
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 48
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1966,
+      "name": "Jan DE Bont",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1967,
+      "name": "Graham Yost",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1263,
+      "name": "Mark Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1968,
+      "name": "Mark Mancina",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1969,
+      "name": "Andrzej Bartkowiak",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 657,
+      "name": "Keanu Reeves",
+      "role": "ACTOR",
+      "details": "Jack Traven"
+    },
+    {
+      "id": 285,
+      "name": "Dennis Hopper",
+      "role": "ACTOR",
+      "details": "Howard Payne"
+    },
+    {
+      "id": 1038,
+      "name": "Sandra Bullock",
+      "role": "ACTOR",
+      "details": "Annie"
+    },
+    {
+      "id": 540,
+      "name": "Jeff Daniels",
+      "role": "ACTOR",
+      "details": "Harry"
+    }
+  ]
+}

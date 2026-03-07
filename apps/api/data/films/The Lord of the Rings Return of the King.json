@@ -1,0 +1,372 @@
+{
+  "id": 188,
+  "title": "The Lord of the Rings: Return of the King",
+  "releaseDate": "2003-12-17",
+  "type": "FILM",
+  "duration": 201,
+  "budget": 94000000,
+  "boxOffice": 1120000000,
+  "overview": null,
+  "chapterKey": "middle-earth",
+  "chapterOrder": 6,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    }
+  ],
+  "studios": [
+    {
+      "title": "New Line Cinema",
+      "id": 56
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=y2rYRu8UW8M",
+      "order": 1,
+      "id": 214
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Picture",
+          "id": 22
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing, Adapted Screenplay",
+          "id": 24
+        },
+        {
+          "title": "Best Film Editing",
+          "id": 15
+        },
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "id": 13
+        },
+        {
+          "title": "Best Costume Design",
+          "id": 19
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Music (Original Score)",
+          "id": 25
+        },
+        {
+          "title": "Best Music (Original Song)",
+          "id": 17
+        },
+        {
+          "title": "Best Sound Mixing",
+          "id": 26
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release",
+          "id": 54
+        },
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Picture",
+          "id": 22
+        },
+        {
+          "title": "Best Acting Ensemble",
+          "id": 89
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Composer",
+          "id": 91
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Film",
+          "id": 114
+        },
+        {
+          "title": "Best Screenplay - Adapted",
+          "id": 110
+        },
+        {
+          "title": "Best Cinematography",
+          "id": 27
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Director - Motion Picture",
+          "id": 118
+        },
+        {
+          "title": "Best Original Score - Motion Picture",
+          "id": 120
+        },
+        {
+          "title": "Best Original Song - Motion Picture",
+          "id": 121
+        },
+        {
+          "title": "Best Motion Picture - drama",
+          "id": 119
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Best action Sequence",
+          "id": 192
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2171,
+      "name": "Philippa Boyens",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2214,
+      "name": "Stephen Sinclair",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2215,
+      "name": "Barrie M. Osborne",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1671,
+      "name": "Howard Shore",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1682,
+      "name": "Andrew Lesnie",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 323,
+      "name": "Elijah Wood",
+      "role": "ACTOR",
+      "details": "Frodo Baggins"
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Gandalf"
+    },
+    {
+      "id": 1044,
+      "name": "Sean Astin",
+      "role": "ACTOR",
+      "details": "Samwise Gamgee"
+    },
+    {
+      "id": 1163,
+      "name": "Viggo Mortensen",
+      "role": "ACTOR",
+      "details": "Aragorn"
+    },
+    {
+      "id": 595,
+      "name": "John Rhys-Davies",
+      "role": "ACTOR",
+      "details": "Gimli"
+    },
+    {
+      "id": 894,
+      "name": "Orlando Bloom",
+      "role": "ACTOR",
+      "details": "Legolas"
+    },
+    {
+      "id": 175,
+      "name": "Cate Blanchett",
+      "role": "ACTOR",
+      "details": "Galadriel"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Elrond"
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Gollum"
+    },
+    {
+      "id": 1247,
+      "name": "John Noble",
+      "role": "ACTOR",
+      "details": "Denethor"
+    },
+    {
+      "id": 127,
+      "name": "Billy Boyd",
+      "role": "ACTOR",
+      "details": "Pippin"
+    },
+    {
+      "id": 302,
+      "name": "Dominic Monaghan",
+      "role": "ACTOR",
+      "details": "Merry"
+    },
+    {
+      "id": 1224,
+      "name": "Bernard Hill",
+      "role": "ACTOR",
+      "details": "Theoden"
+    },
+    {
+      "id": 734,
+      "name": "Liv Tyler",
+      "role": "ACTOR",
+      "details": "Arwen"
+    },
+    {
+      "id": 1218,
+      "name": "Miranda Otto",
+      "role": "ACTOR",
+      "details": "Eowyn"
+    }
+  ]
+}

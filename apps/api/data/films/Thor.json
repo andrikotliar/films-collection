@@ -1,0 +1,150 @@
+{
+  "id": 213,
+  "title": "Thor",
+  "releaseDate": "2011-05-06",
+  "type": "FILM",
+  "duration": 114,
+  "budget": 150000000,
+  "boxOffice": 449000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 6,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=JOddp-nlNvQ",
+      "order": 1,
+      "id": 243
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Costumes",
+          "id": 52
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 666,
+      "name": "Kenneth Branagh",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2324,
+      "name": "Ashley Edward Miller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2325,
+      "name": "Zack Stentz",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2326,
+      "name": "Don Payne",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1571,
+      "name": "Patrick Doyle",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1861,
+      "name": "Haris Zambarloukos",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 864,
+      "name": "Natalie Portman",
+      "role": "ACTOR",
+      "details": "Jane Foster"
+    },
+    {
+      "id": 1132,
+      "name": "Tom Hiddleston",
+      "role": "ACTOR",
+      "details": "Loki"
+    },
+    {
+      "id": 73,
+      "name": "Anthony Hopkins",
+      "role": "ACTOR",
+      "details": "Odin"
+    },
+    {
+      "id": 1080,
+      "name": "Stellan Skarsgard",
+      "role": "ACTOR",
+      "details": "Erik Selvig"
+    },
+    {
+      "id": 643,
+      "name": "Kat Dennings",
+      "role": "ACTOR",
+      "details": "Darcy Lewis"
+    },
+    {
+      "id": 216,
+      "name": "Clark Gregg",
+      "role": "ACTOR",
+      "details": "Agent Coulson"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Heimdall"
+    }
+  ]
+}

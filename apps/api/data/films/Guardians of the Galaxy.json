@@ -1,0 +1,194 @@
+{
+  "id": 51,
+  "title": "Guardians of the Galaxy",
+  "releaseDate": "2014-08-01",
+  "type": "FILM",
+  "duration": 122,
+  "budget": 196000000,
+  "boxOffice": 773000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 11,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=d96cjJhvlMA",
+      "order": 1,
+      "id": 60
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "id": 42
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Hair & Makeup",
+          "id": 83
+        },
+        {
+          "title": "Best action Movie",
+          "id": 76
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1542,
+      "name": "Nicole Perlman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1543,
+      "name": "Tyler Bates",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1406,
+      "name": "Ben Davis",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 199,
+      "name": "Chris Pratt",
+      "role": "ACTOR",
+      "details": "Peter Quill / Star-Lord"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Gamora"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Drax"
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Groot"
+    },
+    {
+      "id": 141,
+      "name": "Bradley Cooper",
+      "role": "ACTOR",
+      "details": "Rocket"
+    },
+    {
+      "id": 711,
+      "name": "Lee Pace",
+      "role": "ACTOR",
+      "details": "Ronan"
+    },
+    {
+      "id": 830,
+      "name": "Michael Rooker",
+      "role": "ACTOR",
+      "details": "Yondu Udonta"
+    },
+    {
+      "id": 640,
+      "name": "Karen Gillan",
+      "role": "ACTOR",
+      "details": "Nebula"
+    },
+    {
+      "id": 297,
+      "name": "Djimon Hounsou",
+      "role": "ACTOR",
+      "details": "Korath"
+    },
+    {
+      "id": 576,
+      "name": "John C. Reilly",
+      "role": "ACTOR",
+      "details": "Corpsman Dey"
+    },
+    {
+      "id": 411,
+      "name": "Glenn Close",
+      "role": "ACTOR",
+      "details": "Nova Prime"
+    },
+    {
+      "id": 117,
+      "name": "Benicio Del Toro",
+      "role": "ACTOR",
+      "details": "The Collector"
+    }
+  ]
+}

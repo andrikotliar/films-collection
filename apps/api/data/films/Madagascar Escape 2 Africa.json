@@ -1,0 +1,159 @@
+{
+  "id": 97,
+  "title": "Madagascar: Escape 2 Africa",
+  "releaseDate": "2008-11-07",
+  "type": "FILM",
+  "duration": 89,
+  "budget": 150000000,
+  "boxOffice": 604000000,
+  "overview": null,
+  "chapterKey": "madagascar",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=hLVjIhPYq7s",
+      "order": 1,
+      "id": 111
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1818,
+      "name": "Eric Darnell",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1136,
+      "name": "Tom McGrath",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1822,
+      "name": "Etan Cohen",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1818,
+      "name": "Eric Darnell",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1136,
+      "name": "Tom McGrath",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1821,
+      "name": "Mireille Soria",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1823,
+      "name": "Mark Swift",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 113,
+      "name": "Ben Stiller",
+      "role": "ACTOR",
+      "details": "Alex"
+    },
+    {
+      "id": 200,
+      "name": "Chris Rock",
+      "role": "ACTOR",
+      "details": "Marty"
+    },
+    {
+      "id": 277,
+      "name": "David Schwimmer",
+      "role": "ACTOR",
+      "details": "Melman"
+    },
+    {
+      "id": 490,
+      "name": "Jada Pinkett Smith",
+      "role": "ACTOR",
+      "details": "Gloria"
+    },
+    {
+      "id": 1025,
+      "name": "Sacha Baron Cohen",
+      "role": "ACTOR",
+      "details": "Julien"
+    },
+    {
+      "id": 177,
+      "name": "Cedric the Entertainer",
+      "role": "ACTOR",
+      "details": "Maurice"
+    },
+    {
+      "id": 119,
+      "name": "Bernie Mac",
+      "role": "ACTOR",
+      "details": "Zuba"
+    },
+    {
+      "id": 27,
+      "name": "Alec Baldwin",
+      "role": "ACTOR",
+      "details": "Makunga"
+    },
+    {
+      "id": 1232,
+      "name": "Elisa Gabrielli",
+      "role": "ACTOR",
+      "details": "Nana"
+    },
+    {
+      "id": 1136,
+      "name": "Tom McGrath",
+      "role": "ACTOR",
+      "details": "Skipper"
+    },
+    {
+      "id": 1233,
+      "name": "Conrad Vernon",
+      "role": "ACTOR",
+      "details": "Mason"
+    }
+  ]
+}

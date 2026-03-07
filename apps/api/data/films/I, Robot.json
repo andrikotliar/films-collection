@@ -1,0 +1,135 @@
+{
+  "id": 70,
+  "title": "I, Robot",
+  "releaseDate": "2004-07-16",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 120000000,
+  "boxOffice": 347000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=rL6RRIOZyCM",
+      "order": 1,
+      "id": 82
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1673,
+      "name": "Alex Proyas",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1674,
+      "name": "Jeff Vintar",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1548,
+      "name": "Akiva Goldsman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1675,
+      "name": "Laurence Mark",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1676,
+      "name": "John Davis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1677,
+      "name": "Topher Dow",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1678,
+      "name": "Wyck Godfrey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1679,
+      "name": "Simon Duggan",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Del Spooner"
+    },
+    {
+      "id": 150,
+      "name": "Bridget Moynahan",
+      "role": "ACTOR",
+      "details": "Susan Calvin"
+    },
+    {
+      "id": 24,
+      "name": "Alan Tudyk",
+      "role": "ACTOR",
+      "details": "Sonny"
+    },
+    {
+      "id": 503,
+      "name": "James Cromwell",
+      "role": "ACTOR",
+      "details": "Dr. Alfred Lanning"
+    },
+    {
+      "id": 155,
+      "name": "Bruce Greenwood",
+      "role": "ACTOR",
+      "details": "Lawrence Robertson"
+    },
+    {
+      "id": 373,
+      "name": "Fiona Hogan",
+      "role": "ACTOR",
+      "details": "V.I.K.I."
+    }
+  ]
+}

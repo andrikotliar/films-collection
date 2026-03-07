@@ -11,3 +11,4 @@ export * from './get-first-value';
 export * from './nullable';
 export * from './throw-if-not-found';
 export * from './sql-search-query';
+export * from './get-latest-entries-filter';

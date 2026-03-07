@@ -1,0 +1,182 @@
+{
+  "id": 247,
+  "title": "Wild Robot",
+  "releaseDate": "2024-10-18",
+  "type": "FILM",
+  "duration": 102,
+  "budget": 78000000,
+  "boxOffice": 334000000,
+  "overview": "<p>Roz’s ship crashes in an unknown forest. All the other robots from her vessel are disabled, and her navigation system is damaged. She attempts to send a distress signal but is unsure whether it will reach her home.</p><p>A robot’s purpose is to help. She offers assistance to the local animals, but they all flee from her. Then she finds a lone duckling. During the crash, she destroyed its nest, and it is the only survivor. Raising this duckling becomes the robot’s new permanent mission.</p><p>Roz begins to care for it, which surprises the other forest inhabitants—especially the fox Fink, who decides to help her out of curiosity.</p><p>Roz faces a difficult journey of “motherhood” and of discovering the world around her.</p><p>DreamWorks Animation is known for some big releases like Shrek or How to Train Your Dragon, but last few years it haven't produced any noticeable titles. This move changes it, delivering interesting story with few interesting characters. </p>",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=67vbA5ZJdKQ",
+      "order": 1,
+      "id": 282
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 81
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Outstanding Achievement for Animated Effects in an Animated Feature",
+          "id": 218
+        },
+        {
+          "title": "Outstanding Achievement for Character Design in an Animated Feature",
+          "id": 220
+        },
+        {
+          "title": "Outstanding Achievement for Directing in an Animated Feature",
+          "id": 221
+        },
+        {
+          "title": "Outstanding Achievement for Music in an Animated Feature",
+          "id": 222
+        },
+        {
+          "title": "Outstanding Achievement for Production Design on an Animated Feature",
+          "id": 223
+        },
+        {
+          "title": "Outstanding Achievement for Voice Acting in an Animated Feature",
+          "id": 224
+        },
+        {
+          "title": "Outstanding Achievement for Editing in an Animated Feature",
+          "id": 225
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1662,
+      "name": "Chris Sanders",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1662,
+      "name": "Chris Sanders",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2451,
+      "name": "Jeff Hermann",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2452,
+      "name": "Kris Bowers",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2453,
+      "name": "Chris Stover",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 753,
+      "name": "Lupita Nyung'o",
+      "role": "ACTOR",
+      "details": "Roz"
+    },
+    {
+      "id": 913,
+      "name": "Pedro Pascal",
+      "role": "ACTOR",
+      "details": "Fink"
+    },
+    {
+      "id": 2454,
+      "name": "Kit Connor",
+      "role": "ACTOR",
+      "details": "Brightbill"
+    },
+    {
+      "id": 124,
+      "name": "Bill Nighy",
+      "role": "ACTOR",
+      "details": "Longneck"
+    },
+    {
+      "id": 2455,
+      "name": "Stephanie Hsu",
+      "role": "ACTOR",
+      "details": "Vontra"
+    },
+    {
+      "id": 2456,
+      "name": "Matt Berry",
+      "role": "ACTOR",
+      "details": "Paddler"
+    },
+    {
+      "id": 1166,
+      "name": "Ving Rhames",
+      "role": "ACTOR",
+      "details": "Thunderbolt"
+    },
+    {
+      "id": 785,
+      "name": "Mark Hamill",
+      "role": "ACTOR",
+      "details": "Thorn"
+    },
+    {
+      "id": 2457,
+      "name": "Catherine O'Hara",
+      "role": "ACTOR",
+      "details": "Pinktail"
+    }
+  ]
+}

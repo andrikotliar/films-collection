@@ -1,0 +1,131 @@
+{
+  "id": 237,
+  "title": "Your Name",
+  "releaseDate": "2016-08-26",
+  "type": "FILM",
+  "duration": 107,
+  "budget": 3480000,
+  "boxOffice": 358000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Anime",
+      "id": 20
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "Toho Animation",
+      "id": 63
+    },
+    {
+      "title": "Comix Wave Films",
+      "id": 64
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=xU47nhruN-Q",
+      "order": 1,
+      "id": 267
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2382,
+      "name": "Makoto Shinkai",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2382,
+      "name": "Makoto Shinkai",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2383,
+      "name": "Noritaka Kawaguchi",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2384,
+      "name": "Genki Kawamura",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2385,
+      "name": "Radwimps",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2382,
+      "name": "Makoto Shinkai",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1023,
+      "name": "Ryunosuke Kamiki",
+      "role": "ACTOR",
+      "details": "Taki Tachibana"
+    },
+    {
+      "id": 849,
+      "name": "Mone Kamishiraishi",
+      "role": "ACTOR",
+      "details": "Mitsuha Miyamizu"
+    },
+    {
+      "id": 1022,
+      "name": "Ryo Narita",
+      "role": "ACTOR",
+      "details": "Katsuhiko Teshigawara"
+    },
+    {
+      "id": 80,
+      "name": "Aoi Yuki",
+      "role": "ACTOR",
+      "details": "Sayaka Natori"
+    },
+    {
+      "id": 880,
+      "name": "Nobunaga Shimazaki",
+      "role": "ACTOR",
+      "details": "Tsukasa Fujii"
+    },
+    {
+      "id": 636,
+      "name": "Kaito Ishikawa",
+      "role": "ACTOR",
+      "details": "Shinta Takagi"
+    },
+    {
+      "id": 637,
+      "name": "Kanon Tani",
+      "role": "ACTOR",
+      "details": "Yotsuha Miyamizu"
+    }
+  ]
+}

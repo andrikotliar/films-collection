@@ -1,0 +1,125 @@
+{
+  "id": 212,
+  "title": "The Wolverine",
+  "releaseDate": "2013-07-26",
+  "type": "FILM",
+  "duration": 126,
+  "budget": 132000000,
+  "boxOffice": 415000000,
+  "overview": null,
+  "chapterKey": "x-men",
+  "chapterOrder": 8,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=toLpchTUYk8",
+      "order": 1,
+      "id": 242
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1478,
+      "name": "James Mangold",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2321,
+      "name": "Mark Bomback",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1795,
+      "name": "Scott Frank",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2322,
+      "name": "Hutch Parker",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2323,
+      "name": "Ross Emery",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Logan"
+    },
+    {
+      "id": 1103,
+      "name": "Tao Okamoto",
+      "role": "ACTOR",
+      "details": "Mariko Yashida"
+    },
+    {
+      "id": 449,
+      "name": "Hiroyuki Sanada",
+      "role": "ACTOR",
+      "details": "Shingen Yashida"
+    },
+    {
+      "id": 977,
+      "name": "Rila Fukushima",
+      "role": "ACTOR",
+      "details": "Yukio"
+    },
+    {
+      "id": 1096,
+      "name": "Svetlana Khodchenkova",
+      "role": "ACTOR",
+      "details": "Dr. Green / Viper"
+    }
+  ]
+}
