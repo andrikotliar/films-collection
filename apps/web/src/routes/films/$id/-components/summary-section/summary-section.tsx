@@ -34,10 +34,12 @@ export const SummarySection = ({ film }: SummarySectionProps) => {
       </div>
 
       <div className={clsx(styles.content, !film.poster && styles.content_no_poster)}>
-        <div className={styles.left_column}>
-          {film.poster && <Poster image={film.poster} title={film.title} />}
-          {film.trailers.length > 0 && <TrailersButton data={film.trailers} type={film.type} />}
-        </div>
+        {(film.poster || film.trailers.length > 0) && (
+          <div className={styles.left_column}>
+            {film.poster && <Poster image={film.poster} title={film.title} />}
+            {film.trailers.length > 0 && <TrailersButton data={film.trailers} type={film.type} />}
+          </div>
+        )}
 
         <div className={styles.right_column}>
           {filmConfig.map((item) => (
