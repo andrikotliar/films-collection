@@ -1,0 +1,183 @@
+{
+  "id": 39,
+  "title": "Eternals",
+  "releaseDate": "2021-11-05",
+  "type": "FILM",
+  "duration": 100,
+  "budget": 200000000,
+  "boxOffice": 281000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 30,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=x_me3xsvDgk",
+      "order": 1,
+      "id": 41
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1456,
+      "name": "Chloe Zhao",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1456,
+      "name": "Chloe Zhao",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1457,
+      "name": "Patrick Burleigh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1458,
+      "name": "Ryan Firpo",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1459,
+      "name": "Kaz Firpo",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1460,
+      "name": "Nate Moore",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1461,
+      "name": "Ramin Djawadi",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1406,
+      "name": "Ben Davis",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 971,
+      "name": "Richard Madden",
+      "role": "ACTOR",
+      "details": "Ikaris"
+    },
+    {
+      "id": 1029,
+      "name": "Salma Hayek",
+      "role": "ACTOR",
+      "details": "Ajak"
+    },
+    {
+      "id": 63,
+      "name": "Angelina Jolie",
+      "role": "ACTOR",
+      "details": "Thena"
+    },
+    {
+      "id": 685,
+      "name": "Kit Harington",
+      "role": "ACTOR",
+      "details": "Dane Whitman / Black Knight"
+    },
+    {
+      "id": 398,
+      "name": "Gemma Chan",
+      "role": "ACTOR",
+      "details": "Sersi"
+    },
+    {
+      "id": 100,
+      "name": "Barry Keoghan",
+      "role": "ACTOR",
+      "details": "Druig"
+    },
+    {
+      "id": 720,
+      "name": "Lia McHugh",
+      "role": "ACTOR",
+      "details": "Sprite"
+    },
+    {
+      "id": 149,
+      "name": "Brian Tyree Henry",
+      "role": "ACTOR",
+      "details": "Phastos"
+    },
+    {
+      "id": 691,
+      "name": "Kumail Nanjiani",
+      "role": "ACTOR",
+      "details": "Kingo"
+    },
+    {
+      "id": 705,
+      "name": "Lauren Ridloff",
+      "role": "ACTOR",
+      "details": "Makkari"
+    },
+    {
+      "id": 759,
+      "name": "Ma Dong Seok",
+      "role": "ACTOR",
+      "details": "Gilgamesh"
+    },
+    {
+      "id": 429,
+      "name": "Harish Patel",
+      "role": "ACTOR",
+      "details": "Karun"
+    }
+  ]
+}

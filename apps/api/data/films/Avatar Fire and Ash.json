@@ -1,0 +1,177 @@
+{
+  "id": 240,
+  "title": "Avatar: Fire and Ash",
+  "releaseDate": "2025-12-18",
+  "type": "FILM",
+  "duration": 198,
+  "budget": 400000000,
+  "boxOffice": 0,
+  "overview": "<p>The third installment of James Cameron’s epic film, immersing viewers in the astonishing world of Pandora.</p><p>Jake and his family continue to live with the Metkayina clan. Although a period of calm has set in, Jake keeps preparing for a new clash with the humans, since Quaritch survived the last battle and is determined with all his heart to complete his mission — to destroy Jake.</p><p>Spider, Miles’s son, has also remained with the Sully family, but Neytiri hates him. On top of that, Spider constantly risks suffocating if he forgets his extra oxygen mask or if it runs out.</p><p>Jake decides to send Spider to the human settlement allied with the Na’vi. Kiri strongly opposes this decision but cannot change it. To soften the blow, Jake, his entire family, and a clan of nomadic traders travel together to the settlement. However, on the way they are attacked by the Mangkwan clan led by the ruthless Tsahìk Varang. Their clan does not follow Eywa’s path and brings destruction wherever they go.</p><p>During the battle, Kiri, Spider, and Lo'Ak become lost in the forest, where Spider completely runs out of air. Kiri then connects with Eywa and enables Spider to breathe without an oxygen mask.</p><p>Quaritch’s forces find them there, but because of the conflict with the Mangkwan, Quaritch is forced to join forces with Jake to escape.</p><p>Eventually, Jake and his children manage to get away. However, Jake realizes they now face another problem: humans will learn that it is possible to breathe on Pandora without an oxygen mask, which poses a major threat to the Na’vi.</p><p>Naturally, Quaritch reports Spider’s case to his superiors, who become interested in studying the boy. Quaritch also decides to ally with Varang in order to capture both Jake and Spider.</p><p>Although the film repeats some elements from the previous installments and at times feels like it is standing still, it continues to maintain an exceptionally high standard of visual quality while expanding the franchise’s mythology.</p>",
+  "chapterKey": "avatar",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    },
+    {
+      "title": "TSG Entertainment",
+      "id": 24
+    },
+    {
+      "title": "Lightstorm Entertainment",
+      "id": 23
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=nb_fFj_0rq8",
+      "order": 1,
+      "id": 270
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1344,
+      "name": "Anthony Lioi",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1366,
+      "name": "Simon Franglen",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1310,
+      "name": "Russell Carpenter",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1294,
+      "name": "Jon Landau",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1034,
+      "name": "Sam Worthington",
+      "role": "ACTOR",
+      "details": "Jake"
+    },
+    {
+      "id": 1068,
+      "name": "Sigourney Weaver",
+      "role": "ACTOR",
+      "details": "Kiri"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Neytiri"
+    },
+    {
+      "id": 1084,
+      "name": "Stephen Lang",
+      "role": "ACTOR",
+      "details": "Quaritch"
+    },
+    {
+      "id": 2392,
+      "name": "Oona Chaplin",
+      "role": "ACTOR",
+      "details": "Varang"
+    },
+    {
+      "id": 648,
+      "name": "Kate Winslet",
+      "role": "ACTOR",
+      "details": "Ronal"
+    },
+    {
+      "id": 1207,
+      "name": "Cliff Curtis",
+      "role": "ACTOR",
+      "details": "Tonowari"
+    },
+    {
+      "id": 1215,
+      "name": "Edie Falco",
+      "role": "ACTOR",
+      "details": "General Ardmore"
+    },
+    {
+      "id": 571,
+      "name": "Joel David Moore",
+      "role": "ACTOR",
+      "details": "Norm"
+    },
+    {
+      "id": 2393,
+      "name": "Brendan Cowell",
+      "role": "ACTOR",
+      "details": "Scoresby"
+    },
+    {
+      "id": 2394,
+      "name": "Jemaine Clement",
+      "role": "ACTOR",
+      "details": "Dr. Garvin"
+    },
+    {
+      "id": 1209,
+      "name": "Britain Dalton",
+      "role": "ACTOR",
+      "details": "Lo'ak"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": 46,
+  "title": "Furious Seven",
+  "releaseDate": "2015-04-03",
+  "type": "FILM",
+  "duration": 137,
+  "budget": 190000000,
+  "boxOffice": 1520000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 7,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Skpu5HaVkOc",
+      "order": 1,
+      "id": 48
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best action/Adventure Film",
+          "id": 51
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Song",
+          "id": 82
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1315,
+      "name": "James Wan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1466,
+      "name": "Stephen F. Windon",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1484,
+      "name": "Marc Spicer",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Dominic Toretto"
+    },
+    {
+      "id": 911,
+      "name": "Paul Walker",
+      "role": "ACTOR",
+      "details": "Brian O'Conner"
+    },
+    {
+      "id": 531,
+      "name": "Jason Statham",
+      "role": "ACTOR",
+      "details": "Deckard Shaw"
+    },
+    {
+      "id": 838,
+      "name": "Michelle Rodriguez",
+      "role": "ACTOR",
+      "details": "Letty"
+    },
+    {
+      "id": 613,
+      "name": "Jordana Brewster",
+      "role": "ACTOR",
+      "details": "Mia"
+    },
+    {
+      "id": 1156,
+      "name": "Tyrese Gibson",
+      "role": "ACTOR",
+      "details": "Roman"
+    },
+    {
+      "id": 746,
+      "name": "Ludacris",
+      "role": "ACTOR",
+      "details": "Tej "
+    },
+    {
+      "id": 314,
+      "name": "Dwayne Johnson",
+      "role": "ACTOR",
+      "details": "Hobbs"
+    },
+    {
+      "id": 742,
+      "name": "Lucas Black",
+      "role": "ACTOR",
+      "details": "Sean Boswell"
+    },
+    {
+      "id": 692,
+      "name": "Kurt Russell",
+      "role": "ACTOR",
+      "details": "Mr. Nobody"
+    },
+    {
+      "id": 867,
+      "name": "Nathalie Emmanuel",
+      "role": "ACTOR",
+      "details": "Ramsey"
+    },
+    {
+      "id": 337,
+      "name": "Elsa Pataky",
+      "role": "ACTOR",
+      "details": "Elena"
+    }
+  ]
+}

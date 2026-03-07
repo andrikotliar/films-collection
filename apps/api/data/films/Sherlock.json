@@ -1,0 +1,203 @@
+{
+  "id": 127,
+  "title": "Sherlock",
+  "releaseDate": "2010-07-25",
+  "type": "SERIES",
+  "duration": 90,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Crime",
+      "id": 7
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "BBC One",
+      "id": 45
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=xK7S9mrFWL4",
+      "order": 1,
+      "id": 141
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vydmN9pzDzg",
+      "order": 2,
+      "id": 142
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9UcR9iKArd0",
+      "order": 3,
+      "id": 143
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FOXZgRTfSUA",
+      "order": 4,
+      "id": 144
+    }
+  ],
+  "awards": [
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Television Movie",
+          "id": 139
+        },
+        {
+          "title": "Outstanding Special Visual Effects in a Supporting Role",
+          "id": 140
+        },
+        {
+          "title": "Outstanding Lead Actor in a Miniseries or a Movie",
+          "id": 141
+        },
+        {
+          "title": "Outstanding Supporting Actor in a Miniseries or a Movie",
+          "id": 142
+        },
+        {
+          "title": "Outstanding Writing for a Miniseries or a Dramatic Special",
+          "id": 143
+        },
+        {
+          "title": "Outstanding Cinematography for a Miniseries or Movie",
+          "id": 144
+        },
+        {
+          "title": "Outstanding Music Composition for a Miniseries, Movie or a Special (Original Dramatic Score)",
+          "id": 145
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
+          "id": 146
+        },
+        {
+          "title": "Outstanding Sound Editing for a Miniseries, Movie or a Special",
+          "id": 147
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 783,
+      "name": "Mark Gatiss",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1933,
+      "name": "Steven Moffat",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1271,
+      "name": "David Arnold",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1947,
+      "name": "Michael Price",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1518,
+      "name": "Fabian Wagner",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1948,
+      "name": "Steve Lawes",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Sherlock Holmes"
+    },
+    {
+      "id": 792,
+      "name": "Martin Freeman",
+      "role": "ACTOR",
+      "details": "Dr. John Watson"
+    },
+    {
+      "id": 1158,
+      "name": "Una Stubbs",
+      "role": "ACTOR",
+      "details": "Mrs. Hudson"
+    },
+    {
+      "id": 1013,
+      "name": "Rupert Graves",
+      "role": "ACTOR",
+      "details": "DI Lestrade"
+    },
+    {
+      "id": 740,
+      "name": "Louise Brealey",
+      "role": "ACTOR",
+      "details": "Molly Hooper"
+    },
+    {
+      "id": 783,
+      "name": "Mark Gatiss",
+      "role": "ACTOR",
+      "details": "Mycroft Holmes"
+    },
+    {
+      "id": 58,
+      "name": "Andrew Scott",
+      "role": "ACTOR",
+      "details": "Jim Moriarty"
+    },
+    {
+      "id": 1230,
+      "name": "Lara Pulwer",
+      "role": "ACTOR",
+      "details": "Lara Pulwer"
+    },
+    {
+      "id": 47,
+      "name": "Amanda Abbington",
+      "role": "ACTOR",
+      "details": "Mary Watson"
+    }
+  ],
+  "seriesExtension": {
+    "id": 10,
+    "episodesTotal": 12,
+    "seasonsTotal": 4,
+    "finishedAt": "2017-01-15"
+  }
+}

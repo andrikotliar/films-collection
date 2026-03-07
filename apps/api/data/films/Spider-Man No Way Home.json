@@ -1,0 +1,163 @@
+{
+  "id": 139,
+  "title": "Spider-Man: No Way Home",
+  "releaseDate": "2021-12-17",
+  "type": "FILM",
+  "duration": 100,
+  "budget": 200000000,
+  "boxOffice": 1900000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 25,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Sony Pictures",
+      "id": 10
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=rt-2cxAiPJk",
+      "order": 1,
+      "id": 156
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1976,
+      "name": "Jon Watts",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1311,
+      "name": "Chris McKenna",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1312,
+      "name": "Erik Sommers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1977,
+      "name": "Amy Pascal",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1133,
+      "name": "Tom Holland",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "id": 1122,
+      "name": "Tobey Maguire",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man (Toby)"
+    },
+    {
+      "id": 57,
+      "name": "Andrew Garfield",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man (Andrew)"
+    },
+    {
+      "id": 1201,
+      "name": "Zendaya",
+      "role": "ACTOR",
+      "details": "MJ"
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Doctor Strange"
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "ACTOR",
+      "details": "Happy Hogan"
+    },
+    {
+      "id": 780,
+      "name": "Marisa Tomei",
+      "role": "ACTOR",
+      "details": "May Parker"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "J. Jonah Jameson"
+    },
+    {
+      "id": 1180,
+      "name": "Willem Dafoe",
+      "role": "ACTOR",
+      "details": "Norman Osborn / Green Goblin"
+    },
+    {
+      "id": 116,
+      "name": "Benedict Wong",
+      "role": "ACTOR",
+      "details": "Wong"
+    },
+    {
+      "id": 517,
+      "name": "Jamie Foxx",
+      "role": "ACTOR",
+      "details": "Max Dillon / Electro"
+    },
+    {
+      "id": 36,
+      "name": "Alfred Molina",
+      "role": "ACTOR",
+      "details": "Otto Octavius / Doctor Octopus"
+    },
+    {
+      "id": 489,
+      "name": "Jacob Batalon",
+      "role": "ACTOR",
+      "details": "Ned Leeds"
+    }
+  ]
+}

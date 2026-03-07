@@ -1,0 +1,140 @@
+{
+  "id": 201,
+  "title": "The Mummy",
+  "releaseDate": "1999-05-07",
+  "type": "FILM",
+  "duration": 125,
+  "budget": 80000000,
+  "boxOffice": 416000000,
+  "overview": null,
+  "chapterKey": "mummy",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=h3ptPtxWJRs",
+      "order": 1,
+      "id": 228
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2244,
+      "name": "Stephen Sommers",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2244,
+      "name": "Stephen Sommers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2245,
+      "name": "James Jacks",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2246,
+      "name": "Sean Daniel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1286,
+      "name": "Jerry Goldsmith",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1291,
+      "name": "Adrian Biddle",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 144,
+      "name": "Brendan Fraser",
+      "role": "ACTOR",
+      "details": "Rick O'Connell"
+    },
+    {
+      "id": 940,
+      "name": "Rachel Weisz",
+      "role": "ACTOR",
+      "details": "Evelyn Carnahan"
+    },
+    {
+      "id": 583,
+      "name": "John Hannah",
+      "role": "ACTOR",
+      "details": "Jonathan Carnahan"
+    },
+    {
+      "id": 88,
+      "name": "Arnold Vosloo",
+      "role": "ACTOR",
+      "details": "Imhotep"
+    },
+    {
+      "id": 675,
+      "name": "Kevin J. O'Connor",
+      "role": "ACTOR",
+      "details": "Beni Gabor"
+    },
+    {
+      "id": 607,
+      "name": "Jonathan Hyde",
+      "role": "ACTOR",
+      "details": "Dr. Allen Chamberlain"
+    },
+    {
+      "id": 883,
+      "name": "Oded Fehr",
+      "role": "ACTOR",
+      "details": "Ardeth Bay"
+    },
+    {
+      "id": 353,
+      "name": "Erick Avari",
+      "role": "ACTOR",
+      "details": "Dr. Terrence Bey"
+    }
+  ]
+}

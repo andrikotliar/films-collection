@@ -1,0 +1,139 @@
+{
+  "id": 15,
+  "title": "Aquaman",
+  "releaseDate": "2018-12-21",
+  "type": "FILM",
+  "duration": 143,
+  "budget": 160000000,
+  "boxOffice": 1150000000,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 6,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=WDkg3h8PCVU",
+      "order": 1,
+      "id": 15
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1315,
+      "name": "James Wan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1316,
+      "name": "David Leslie Johnson-McGoldrick",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1317,
+      "name": "Will Beall",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1318,
+      "name": "Peter Safran",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1319,
+      "name": "Rob Cowan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1320,
+      "name": "Rupert Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1321,
+      "name": "Don Burgess",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 528,
+      "name": "Jason Momoa",
+      "role": "ACTOR",
+      "details": "Arthur Curry / Aquaman"
+    },
+    {
+      "id": 49,
+      "name": "Amber Heard",
+      "role": "ACTOR",
+      "details": "Mera"
+    },
+    {
+      "id": 1180,
+      "name": "Willem Dafoe",
+      "role": "ACTOR",
+      "details": "Vulko"
+    },
+    {
+      "id": 904,
+      "name": "Patrick Wilson",
+      "role": "ACTOR",
+      "details": "King Orm"
+    },
+    {
+      "id": 874,
+      "name": "Nicole Kidman",
+      "role": "ACTOR",
+      "details": "Queen Atlanna"
+    },
+    {
+      "id": 298,
+      "name": "Dolph Lundgren",
+      "role": "ACTOR",
+      "details": "King Nereus"
+    },
+    {
+      "id": 1193,
+      "name": "Yahya Abdul-Mateen II",
+      "role": "ACTOR",
+      "details": "Black Manta"
+    },
+    {
+      "id": 1107,
+      "name": "Temuera Morrison",
+      "role": "ACTOR",
+      "details": "Tom Curry"
+    }
+  ]
+}

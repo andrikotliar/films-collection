@@ -1,0 +1,163 @@
+{
+  "id": 218,
+  "title": "Transformers: Dark of the Moon",
+  "releaseDate": "2011-06-29",
+  "type": "FILM",
+  "duration": 154,
+  "budget": 195000000,
+  "boxOffice": 1120000000,
+  "overview": null,
+  "chapterKey": "transformers",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Pictures",
+      "id": 15
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=bTIrEZM-cFE",
+      "order": 1,
+      "id": 248
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1275,
+      "name": "Michael Bay",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2333,
+      "name": "Ehren Kruger",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2330,
+      "name": "Lorenzo di Bonaventura",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2331,
+      "name": "Tom DeSanto",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1918,
+      "name": "Don Murphy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1971,
+      "name": "Ian Bryce",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2332,
+      "name": "Steve Jablonsky",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1465,
+      "name": "Amir Mokri",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1065,
+      "name": "Shia LaBeouf",
+      "role": "ACTOR",
+      "details": "Sam Witwicky"
+    },
+    {
+      "id": 1009,
+      "name": "Rosie Huntington-Whiteley",
+      "role": "ACTOR",
+      "details": "Carly"
+    },
+    {
+      "id": 617,
+      "name": "Josh Duhamel",
+      "role": "ACTOR",
+      "details": "Lennox"
+    },
+    {
+      "id": 597,
+      "name": "John Turturro",
+      "role": "ACTOR",
+      "details": "Simmons"
+    },
+    {
+      "id": 1156,
+      "name": "Tyrese Gibson",
+      "role": "ACTOR",
+      "details": "Epps"
+    },
+    {
+      "id": 902,
+      "name": "Patrick Dempsey",
+      "role": "ACTOR",
+      "details": "Dylan"
+    },
+    {
+      "id": 379,
+      "name": "Frances McDormand",
+      "role": "ACTOR",
+      "details": "Mearing"
+    },
+    {
+      "id": 588,
+      "name": "John Malkovich",
+      "role": "ACTOR",
+      "details": "Bruce Brazos"
+    },
+    {
+      "id": 918,
+      "name": "Peter Cullen",
+      "role": "ACTOR",
+      "details": "Optimus Prime"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Megatron"
+    },
+    {
+      "id": 715,
+      "name": "Leonard Nimoy",
+      "role": "ACTOR",
+      "details": "Sentinel Prime"
+    }
+  ]
+}

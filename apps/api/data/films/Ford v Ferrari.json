@@ -1,0 +1,139 @@
+{
+  "id": 45,
+  "title": "Ford v Ferrari",
+  "releaseDate": "2019-11-15",
+  "type": "FILM",
+  "duration": 152,
+  "budget": 98000000,
+  "boxOffice": 226000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Biography",
+      "id": 13
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=zyYgDtY2AMY",
+      "order": 1,
+      "id": 47
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1478,
+      "name": "James Mangold",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1450,
+      "name": "Jez Butterworth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1451,
+      "name": "John-Henry Butterworth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1479,
+      "name": "Jason Keller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1480,
+      "name": "Peter Chernin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1478,
+      "name": "James Mangold",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1481,
+      "name": "Jenno Topping",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1482,
+      "name": "Buck Sanders",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1483,
+      "name": "Phedon Papamichael",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 803,
+      "name": "Matt Damon",
+      "role": "ACTOR",
+      "details": "Carroll Shelby"
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "Ken Miles"
+    },
+    {
+      "id": 159,
+      "name": "Caitriona Balfe",
+      "role": "ACTOR",
+      "details": "Mollie Miles"
+    },
+    {
+      "id": 877,
+      "name": "Noah Jupe",
+      "role": "ACTOR",
+      "details": "Peter Miles"
+    },
+    {
+      "id": 1149,
+      "name": "Tracy Letts",
+      "role": "ACTOR",
+      "details": "Henry Ford II"
+    }
+  ]
+}

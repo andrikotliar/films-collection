@@ -1,0 +1,145 @@
+{
+  "id": 31,
+  "title": "Casino Royale",
+  "releaseDate": "2006-11-17",
+  "type": "FILM",
+  "duration": 144,
+  "budget": 150000000,
+  "boxOffice": 616000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Czech Republic",
+      "id": 9
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    },
+    {
+      "title": "Bahamas",
+      "id": 10
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=36mnx8dBbGE",
+      "order": 1,
+      "id": 31
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1407,
+      "name": "Martin Campbell",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1408,
+      "name": "Neal Purvis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1409,
+      "name": "Robert Wade",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1410,
+      "name": "Paul Haggis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1411,
+      "name": "Barbara Broccoli",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1412,
+      "name": "Michael G. Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1271,
+      "name": "David Arnold",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1413,
+      "name": "Phil Meheux",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 245,
+      "name": "Daniel Craig",
+      "role": "ACTOR",
+      "details": "James Bond"
+    },
+    {
+      "id": 357,
+      "name": "Eva Green",
+      "role": "ACTOR",
+      "details": "Vesper Lynd"
+    },
+    {
+      "id": 762,
+      "name": "Mads Mikkelsen",
+      "role": "ACTOR",
+      "details": "Le Chiffre"
+    },
+    {
+      "id": 624,
+      "name": "Judi Dench",
+      "role": "ACTOR",
+      "details": "M"
+    },
+    {
+      "id": 544,
+      "name": "Jeffrey Wright",
+      "role": "ACTOR",
+      "details": "Felix Leiter"
+    },
+    {
+      "id": 406,
+      "name": "Giancarlo Giannini",
+      "role": "ACTOR",
+      "details": "Rene Mathis"
+    }
+  ]
+}

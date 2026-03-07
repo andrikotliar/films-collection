@@ -1,0 +1,151 @@
+{
+  "id": 61,
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "releaseDate": "2004-06-04",
+  "type": "FILM",
+  "duration": 142,
+  "budget": 130000000,
+  "boxOffice": 797000000,
+  "overview": null,
+  "chapterKey": "harry-potter",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=lAxgztbYDbs",
+      "order": 1,
+      "id": 70
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1576,
+      "name": "Alfonso Cuaron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1561,
+      "name": "Steve Kloves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1562,
+      "name": "David Heyman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1560,
+      "name": "Chris Columbus",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1577,
+      "name": "Mark Radcliffe",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1578,
+      "name": "Michael Seresin",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 251,
+      "name": "Daniel Radcliffe",
+      "role": "ACTOR",
+      "details": "Harry Potter"
+    },
+    {
+      "id": 1014,
+      "name": "Rupert Grint",
+      "role": "ACTOR",
+      "details": "Ron Weasley"
+    },
+    {
+      "id": 345,
+      "name": "Emma Watson",
+      "role": "ACTOR",
+      "details": "Hermione Granger"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Sirius Black"
+    },
+    {
+      "id": 970,
+      "name": "Richard Harris",
+      "role": "ACTOR",
+      "details": "Albus Dumbledore"
+    },
+    {
+      "id": 981,
+      "name": "Robbie Coltrane",
+      "role": "ACTOR",
+      "details": "Rubeus Hagrid"
+    },
+    {
+      "id": 1130,
+      "name": "Tom Felton",
+      "role": "ACTOR",
+      "details": "Draco Malfoy"
+    },
+    {
+      "id": 22,
+      "name": "Alan Rickman",
+      "role": "ACTOR",
+      "details": "Severus Snape"
+    },
+    {
+      "id": 278,
+      "name": "David Thewlis",
+      "role": "ACTOR",
+      "details": "Professor Lupin"
+    },
+    {
+      "id": 1246,
+      "name": "Timothy Spall",
+      "role": "ACTOR",
+      "details": "Peter Pettigrew"
+    }
+  ]
+}

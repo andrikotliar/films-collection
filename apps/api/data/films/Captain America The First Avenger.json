@@ -1,0 +1,145 @@
+{
+  "id": 28,
+  "title": "Captain America: The First Avenger",
+  "releaseDate": "2011-07-22",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 140000000,
+  "boxOffice": 371000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=JerVrbLldXw",
+      "order": 1,
+      "id": 28
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1400,
+      "name": "Joe Johnston",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1401,
+      "name": "Shelly Johnson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Captain America / Steve Rogers"
+    },
+    {
+      "id": 438,
+      "name": "Hayley Atwell",
+      "role": "ACTOR",
+      "details": "Peggy Carter"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": "James Buchanan 'Bucky' Barnes"
+    },
+    {
+      "id": 1142,
+      "name": "Tommy Lee Jones",
+      "role": "ACTOR",
+      "details": "Colonel Chester Phillips"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Johann Schmidt / Red Skull"
+    },
+    {
+      "id": 300,
+      "name": "Dominic Cooper",
+      "role": "ACTOR",
+      "details": "Howard Stark"
+    },
+    {
+      "id": 964,
+      "name": "Richard Armitage",
+      "role": "ACTOR",
+      "details": "Heinz Kruger"
+    },
+    {
+      "id": 1079,
+      "name": "Stanley Tucci",
+      "role": "ACTOR",
+      "details": "Dr. Abraham Erskine"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 1123,
+      "name": "Toby Jones",
+      "role": "ACTOR",
+      "details": "Dr. Arnim Zola"
+    }
+  ]
+}

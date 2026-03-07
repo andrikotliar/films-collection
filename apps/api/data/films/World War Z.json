@@ -1,0 +1,152 @@
+{
+  "id": 229,
+  "title": "World War Z",
+  "releaseDate": "2013-06-21",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 190000000,
+  "boxOffice": 540000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Skydance Productions",
+      "id": 62
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Md6Dvxdr0AQ",
+      "order": 1,
+      "id": 259
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best thriller Film",
+          "id": 68
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Scared-As-S**t Performance",
+          "id": 207
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2366,
+      "name": "Marc Forster",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2367,
+      "name": "Matthew Michael Carnahan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2226,
+      "name": "Drew Goddard",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 140,
+      "name": "Brad Pitt",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2368,
+      "name": "Dede Gardner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2369,
+      "name": "Jeremy Kleiner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1278,
+      "name": "Marco Beltrami",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2334,
+      "name": "Ben Seresin",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 140,
+      "name": "Brad Pitt",
+      "role": "ACTOR",
+      "details": "Gerry Lane"
+    },
+    {
+      "id": 848,
+      "name": "Mireille Enos",
+      "role": "ACTOR",
+      "details": "Karin Lane"
+    },
+    {
+      "id": 254,
+      "name": "Daniella Kertesz",
+      "role": "ACTOR",
+      "details": "Segen"
+    },
+    {
+      "id": 501,
+      "name": "James Badge Dale",
+      "role": "ACTOR",
+      "details": "Captain Speke"
+    },
+    {
+      "id": 747,
+      "name": "Ludi Boeken",
+      "role": "ACTOR",
+      "details": "Jurgen Warmbrunn"
+    }
+  ]
+}

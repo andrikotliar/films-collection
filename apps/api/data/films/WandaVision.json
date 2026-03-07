@@ -1,0 +1,138 @@
+{
+  "id": 225,
+  "title": "WandaVision",
+  "releaseDate": "2021-01-15",
+  "type": "SERIES",
+  "duration": 39,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 27,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Disney+",
+      "id": 2
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=sj9J2ecsSpo",
+      "order": 1,
+      "id": 255
+    }
+  ],
+  "awards": [
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Show",
+          "id": 205
+        },
+        {
+          "title": "Best Performance in a Show",
+          "id": 206
+        },
+        {
+          "title": "Best Villain",
+          "id": 184
+        },
+        {
+          "title": "Best Fight",
+          "id": 194
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2350,
+      "name": "Jac Schaeffer",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2358,
+      "name": "Alex Kovacs",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2359,
+      "name": "Jess Hall",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 329,
+      "name": "Elizabeth Olsen",
+      "role": "ACTOR",
+      "details": "Wanda Maximoff / Scarlet Witch"
+    },
+    {
+      "id": 905,
+      "name": "Paul Bettany",
+      "role": "ACTOR",
+      "details": "Vision"
+    },
+    {
+      "id": 650,
+      "name": "Kathryn Hahn",
+      "role": "ACTOR",
+      "details": "Agatha Harkness"
+    },
+    {
+      "id": 1112,
+      "name": "Teyonah Parris",
+      "role": "ACTOR",
+      "details": "Monica Rambeau"
+    },
+    {
+      "id": 945,
+      "name": "Randall Park",
+      "role": "ACTOR",
+      "details": "Jimmy Woo"
+    },
+    {
+      "id": 643,
+      "name": "Kat Dennings",
+      "role": "ACTOR",
+      "details": "Darcy Lewis"
+    }
+  ],
+  "seriesExtension": {
+    "id": 19,
+    "episodesTotal": 9,
+    "seasonsTotal": 1,
+    "finishedAt": "2021-05-05"
+  }
+}

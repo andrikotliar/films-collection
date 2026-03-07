@@ -1,0 +1,224 @@
+{
+  "id": 148,
+  "title": "Star Wars Episode VII: The Force Awakens",
+  "releaseDate": "2015-12-18",
+  "type": "FILM",
+  "duration": 135,
+  "budget": 306000000,
+  "boxOffice": 2000000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 10,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=sGbxmsDFVnE",
+      "order": 1,
+      "id": 165
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Editing",
+          "id": 48
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1709,
+      "name": "Lawrence Kasdan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2002,
+      "name": "J. J. Abrams",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2003,
+      "name": "Michael Arndt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1738,
+      "name": "Kathleen Kennedy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2002,
+      "name": "J. J. Abrams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1849,
+      "name": "Bryan Burk",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1730,
+      "name": "Dan Mindel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 238,
+      "name": "Daisy Ridley",
+      "role": "ACTOR",
+      "details": "Rey"
+    },
+    {
+      "id": 7,
+      "name": "Adam Driver",
+      "role": "ACTOR",
+      "details": "Kylo Ren"
+    },
+    {
+      "id": 574,
+      "name": "John Boyega",
+      "role": "ACTOR",
+      "details": "Finn"
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "Han Solo"
+    },
+    {
+      "id": 785,
+      "name": "Mark Hamill",
+      "role": "ACTOR",
+      "details": "Luke Skywalker"
+    },
+    {
+      "id": 171,
+      "name": "Carrie Fisher",
+      "role": "ACTOR",
+      "details": "Leia"
+    },
+    {
+      "id": 896,
+      "name": "Oscar Isaac",
+      "role": "ACTOR",
+      "details": "Poe Dameron"
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Snoke"
+    },
+    {
+      "id": 924,
+      "name": "Peter Mayhew",
+      "role": "ACTOR",
+      "details": "Chewbacca"
+    },
+    {
+      "id": 422,
+      "name": "Gwendoline Christie",
+      "role": "ACTOR",
+      "details": "Captain Phasma"
+    },
+    {
+      "id": 299,
+      "name": "Domhnall Gleeson",
+      "role": "ACTOR",
+      "details": "General Hux"
+    },
+    {
+      "id": 72,
+      "name": "Anthony Daniels",
+      "role": "ACTOR",
+      "details": "C-3PO"
+    }
+  ]
+}

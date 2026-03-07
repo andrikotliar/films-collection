@@ -1,0 +1,111 @@
+{
+  "id": 207,
+  "title": "The Time Machine",
+  "releaseDate": "2002-03-08",
+  "type": "FILM",
+  "duration": 96,
+  "budget": 80000000,
+  "boxOffice": 124000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=90T7iLuzFgg",
+      "order": 1,
+      "id": 234
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2259,
+      "name": "Simon Wells",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1668,
+      "name": "John Logan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1826,
+      "name": "Walter F. Parkes",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2260,
+      "name": "David Valdes",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1896,
+      "name": "Klaus Badelt",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1902,
+      "name": "Donald McAlpine",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 421,
+      "name": "Guy Pearce",
+      "role": "ACTOR",
+      "details": "Alexander Hartdegen"
+    },
+    {
+      "id": 781,
+      "name": "Mark Addy",
+      "role": "ACTOR",
+      "details": "David Philby"
+    },
+    {
+      "id": 1067,
+      "name": "Sienna Guillory",
+      "role": "ACTOR",
+      "details": "Emma"
+    },
+    {
+      "id": 1225,
+      "name": "Samantha Mumba",
+      "role": "ACTOR",
+      "details": "Mara"
+    },
+    {
+      "id": 895,
+      "name": "Orlando Jones",
+      "role": "ACTOR",
+      "details": "Vox"
+    }
+  ]
+}

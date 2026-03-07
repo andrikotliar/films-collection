@@ -1,0 +1,153 @@
+{
+  "id": 173,
+  "title": "The Gentlemen",
+  "releaseDate": "2020-01-24",
+  "type": "FILM",
+  "duration": 113,
+  "budget": 22000000,
+  "boxOffice": 115000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "STX Films",
+      "id": 54
+    },
+    {
+      "title": "MIRAMAX",
+      "id": 55
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=vaN8BtA8OJk",
+      "order": 1,
+      "id": 199
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2164,
+      "name": "Guy Ritchie",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2164,
+      "name": "Guy Ritchie",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2165,
+      "name": "Ivan Atkinson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2166,
+      "name": "Bill Block",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2164,
+      "name": "Guy Ritchie",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2167,
+      "name": "Christopher Benstead",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2168,
+      "name": "Alan Stewart",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 805,
+      "name": "Matthew McConaughey",
+      "role": "ACTOR",
+      "details": "Michael Pearson"
+    },
+    {
+      "id": 184,
+      "name": "Charlie Hunnam",
+      "role": "ACTOR",
+      "details": "Ray"
+    },
+    {
+      "id": 834,
+      "name": "Michelle Dockery",
+      "role": "ACTOR",
+      "details": "Rosalind Pearson"
+    },
+    {
+      "id": 553,
+      "name": "Jeremy Strong",
+      "role": "ACTOR",
+      "details": "Matthew"
+    },
+    {
+      "id": 756,
+      "name": "Lyne Renée",
+      "role": "ACTOR",
+      "details": "Jackie"
+    },
+    {
+      "id": 223,
+      "name": "Colin Farrell",
+      "role": "ACTOR",
+      "details": "Coach"
+    },
+    {
+      "id": 445,
+      "name": "Henry Golding",
+      "role": "ACTOR",
+      "details": "Dry Eye"
+    },
+    {
+      "id": 1140,
+      "name": "Tom Wu",
+      "role": "ACTOR",
+      "details": "Lord George"
+    },
+    {
+      "id": 452,
+      "name": "Hugh Grant",
+      "role": "ACTOR",
+      "details": "Fletcher"
+    }
+  ]
+}

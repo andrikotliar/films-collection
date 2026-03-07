@@ -1,0 +1,111 @@
+{
+  "id": 75,
+  "title": "In Time",
+  "releaseDate": "2011-10-28",
+  "type": "FILM",
+  "duration": 109,
+  "budget": 40000000,
+  "boxOffice": 174000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=YRSBiTF3wNw",
+      "order": 1,
+      "id": 277
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1695,
+      "name": "Andrew Niccol",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1695,
+      "name": "Andrew Niccol",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1695,
+      "name": "Andrew Niccol",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1696,
+      "name": "Marc Abraham",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1697,
+      "name": "Eric Newman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1698,
+      "name": "Craig Armstrong",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1699,
+      "name": "Roger Deakins",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 634,
+      "name": "Justin Timberlake",
+      "role": "ACTOR",
+      "details": "Will Salas"
+    },
+    {
+      "id": 890,
+      "name": "Olivia Wilde",
+      "role": "ACTOR",
+      "details": "Rachel Salas"
+    },
+    {
+      "id": 1066,
+      "name": "Shyloh Oostwald",
+      "role": "ACTOR",
+      "details": "Maya"
+    },
+    {
+      "id": 599,
+      "name": "Johnny Galecki",
+      "role": "ACTOR",
+      "details": "Borel"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 126,
+  "title": "Shazam!",
+  "releaseDate": "2019-04-05",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 80000000,
+  "boxOffice": 356000000,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 7,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=go6GEIrcvFY",
+      "order": 1,
+      "id": 140
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1929,
+      "name": "David F. Sandberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1930,
+      "name": "Henry Gayden",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1318,
+      "name": "Peter Safran",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1931,
+      "name": "Benjamin Wallfisch",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1932,
+      "name": "Maxime Alexandre",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1197,
+      "name": "Zachary Levi",
+      "role": "ACTOR",
+      "details": "Shazam"
+    },
+    {
+      "id": 297,
+      "name": "Djimon Hounsou",
+      "role": "ACTOR",
+      "details": "The Wizard"
+    },
+    {
+      "id": 789,
+      "name": "Mark Strong",
+      "role": "ACTOR",
+      "details": "Dr. Thaddeus Sivana"
+    },
+    {
+      "id": 482,
+      "name": "Jack Dylan Grazer",
+      "role": "ACTOR",
+      "details": "Freddy Freeman"
+    },
+    {
+      "id": 811,
+      "name": "Meagan Good",
+      "role": "ACTOR",
+      "details": "Darla Dudley"
+    },
+    {
+      "id": 91,
+      "name": "Asher Angel",
+      "role": "ACTOR",
+      "details": "Billy Batson"
+    }
+  ]
+}

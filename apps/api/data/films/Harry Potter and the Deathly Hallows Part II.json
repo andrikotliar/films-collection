@@ -1,0 +1,166 @@
+{
+  "id": 57,
+  "title": "Harry Potter and the Deathly Hallows: Part II",
+  "releaseDate": "2011-07-15",
+  "type": "FILM",
+  "duration": 130,
+  "budget": 250000000,
+  "boxOffice": 1340000000,
+  "overview": null,
+  "chapterKey": "harry-potter",
+  "chapterOrder": 8,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5NYt1qirBWg",
+      "order": 1,
+      "id": 66
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1565,
+      "name": "David Yates",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1561,
+      "name": "Steve Kloves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1562,
+      "name": "David Heyman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1566,
+      "name": "David Barron",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1567,
+      "name": "J.K.Rowling",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1568,
+      "name": "Alexandre Desplat",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1569,
+      "name": "Eduardo Serra",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 251,
+      "name": "Daniel Radcliffe",
+      "role": "ACTOR",
+      "details": "Harry Potter"
+    },
+    {
+      "id": 1014,
+      "name": "Rupert Grint",
+      "role": "ACTOR",
+      "details": "Ron Weasley"
+    },
+    {
+      "id": 345,
+      "name": "Emma Watson",
+      "role": "ACTOR",
+      "details": "Hermione Granger"
+    },
+    {
+      "id": 942,
+      "name": "Ralph Fiennes",
+      "role": "ACTOR",
+      "details": "Lord Voldemort"
+    },
+    {
+      "id": 1130,
+      "name": "Tom Felton",
+      "role": "ACTOR",
+      "details": "Draco Malfoy"
+    },
+    {
+      "id": 22,
+      "name": "Alan Rickman",
+      "role": "ACTOR",
+      "details": "Severus Snape"
+    },
+    {
+      "id": 1228,
+      "name": "Maggie Smith",
+      "role": "ACTOR",
+      "details": "Professor Minerva McGonagall"
+    },
+    {
+      "id": 1229,
+      "name": "Matthew Lewis",
+      "role": "ACTOR",
+      "details": "Neville Longbottom"
+    },
+    {
+      "id": 981,
+      "name": "Robbie Coltrane",
+      "role": "ACTOR",
+      "details": "Rubeus Hagrid"
+    }
+  ]
+}

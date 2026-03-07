@@ -1,0 +1,192 @@
+{
+  "id": 141,
+  "title": "Star Trek: Beyond",
+  "releaseDate": "2016-07-22",
+  "type": "FILM",
+  "duration": 122,
+  "budget": 185000000,
+  "boxOffice": 343000000,
+  "overview": null,
+  "chapterKey": "star-trek",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Space Opera",
+      "id": 16
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Bad Robot Productions",
+      "id": 46
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=XRVD32rnzOw",
+      "order": 1,
+      "id": 158
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1462,
+      "name": "Justin Lin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1991,
+      "name": "Doug Jung",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1992,
+      "name": "Lindsey Weber",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1462,
+      "name": "Justin Lin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1466,
+      "name": "Stephen F. Windon",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 198,
+      "name": "Chris Pine",
+      "role": "ACTOR",
+      "details": "Captain James T. Kirk"
+    },
+    {
+      "id": 1198,
+      "name": "Zachary Quinto",
+      "role": "ACTOR",
+      "details": "Commander Spock"
+    },
+    {
+      "id": 641,
+      "name": "Karl Urban",
+      "role": "ACTOR",
+      "details": "Doctor 'Bones' McCoy"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Uhura"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Montgomery 'Scotty' Scott"
+    },
+    {
+      "id": 578,
+      "name": "John Cho",
+      "role": "ACTOR",
+      "details": "Sulu"
+    },
+    {
+      "id": 76,
+      "name": "Anton Yelchin",
+      "role": "ACTOR",
+      "details": "Chekov"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Krall"
+    },
+    {
+      "id": 1073,
+      "name": "Sofia Boutella",
+      "role": "ACTOR",
+      "details": "Jaylah"
+    },
+    {
+      "id": 570,
+      "name": "Joe Taslim",
+      "role": "ACTOR",
+      "details": "Manas"
+    },
+    {
+      "id": 755,
+      "name": "Lydia Wilson",
+      "role": "ACTOR",
+      "details": "Kalara"
+    },
+    {
+      "id": 282,
+      "name": "Deep Roy",
+      "role": "ACTOR",
+      "details": "Keenser"
+    },
+    {
+      "id": 815,
+      "name": "Melissa Roxburgh",
+      "role": "ACTOR",
+      "details": "Ensign Syl"
+    }
+  ]
+}

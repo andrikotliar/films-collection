@@ -1,0 +1,138 @@
+{
+  "id": 62,
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "releaseDate": "2001-11-16",
+  "type": "FILM",
+  "duration": 152,
+  "budget": 125000000,
+  "boxOffice": 975000000,
+  "overview": null,
+  "chapterKey": "harry-potter",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo",
+      "order": 1,
+      "id": 71
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Costumes",
+          "id": 52
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1560,
+      "name": "Chris Columbus",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1561,
+      "name": "Steve Kloves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1562,
+      "name": "David Heyman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1579,
+      "name": "John Seale",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 251,
+      "name": "Daniel Radcliffe",
+      "role": "ACTOR",
+      "details": "Harry Potter"
+    },
+    {
+      "id": 1014,
+      "name": "Rupert Grint",
+      "role": "ACTOR",
+      "details": "Ron Weasley"
+    },
+    {
+      "id": 345,
+      "name": "Emma Watson",
+      "role": "ACTOR",
+      "details": "Hermione Granger"
+    },
+    {
+      "id": 970,
+      "name": "Richard Harris",
+      "role": "ACTOR",
+      "details": "Albus Dumbledore"
+    },
+    {
+      "id": 981,
+      "name": "Robbie Coltrane",
+      "role": "ACTOR",
+      "details": "Rubeus Hagrid"
+    },
+    {
+      "id": 457,
+      "name": "Ian Hart",
+      "role": "ACTOR",
+      "details": "Quirinus Quirrell"
+    },
+    {
+      "id": 1130,
+      "name": "Tom Felton",
+      "role": "ACTOR",
+      "details": "Draco Malfoy"
+    },
+    {
+      "id": 22,
+      "name": "Alan Rickman",
+      "role": "ACTOR",
+      "details": "Severus Snape"
+    }
+  ]
+}

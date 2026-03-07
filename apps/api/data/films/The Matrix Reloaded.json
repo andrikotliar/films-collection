@@ -1,0 +1,139 @@
+{
+  "id": 195,
+  "title": "The Matrix Reloaded",
+  "releaseDate": "2003-05-15",
+  "type": "FILM",
+  "duration": 138,
+  "budget": 127000000,
+  "boxOffice": 742000000,
+  "overview": null,
+  "chapterKey": "matrix",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=kYzz0FSgpSU",
+      "order": 1,
+      "id": 222
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2230,
+      "name": "The Wachowski Brothers",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2230,
+      "name": "The Wachowski Brothers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1901,
+      "name": "Joel Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1743,
+      "name": "Don Davis",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 657,
+      "name": "Keanu Reeves",
+      "role": "ACTOR",
+      "details": "Neo"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Morpheus"
+    },
+    {
+      "id": 173,
+      "name": "Carrie-Anne Moss",
+      "role": "ACTOR",
+      "details": "Trinity"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Agent Smith"
+    },
+    {
+      "id": 413,
+      "name": "Gloria Foster",
+      "role": "ACTOR",
+      "details": "Oracle"
+    },
+    {
+      "id": 490,
+      "name": "Jada Pinkett Smith",
+      "role": "ACTOR",
+      "details": "Niobe"
+    },
+    {
+      "id": 850,
+      "name": "Monica Bellucci",
+      "role": "ACTOR",
+      "details": "Persephone"
+    },
+    {
+      "id": 695,
+      "name": "Lambert Wilson",
+      "role": "ACTOR",
+      "details": "The Merovaiingian"
+    },
+    {
+      "id": 944,
+      "name": "Randall Duk Kim",
+      "role": "ACTOR",
+      "details": "The Keymaker"
+    },
+    {
+      "id": 442,
+      "name": "Helmut Bakaitis",
+      "role": "ACTOR",
+      "details": "The Architect"
+    }
+  ]
+}

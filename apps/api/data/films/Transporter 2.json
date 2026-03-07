@@ -1,0 +1,129 @@
+{
+  "id": 220,
+  "title": "Transporter 2",
+  "releaseDate": "2005-09-02",
+  "type": "FILM",
+  "duration": 87,
+  "budget": 32000000,
+  "boxOffice": 85000000,
+  "overview": null,
+  "chapterKey": "transporter",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Europacorp",
+      "id": 27
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=sYJ5LDoWRT4",
+      "order": 1,
+      "id": 250
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1862,
+      "name": "Louis Leterrier",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2262,
+      "name": "Robert Mark Kamen",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2263,
+      "name": "Stephen Chasman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2335,
+      "name": "Alexandre Azaria",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1866,
+      "name": "Mitchell Amundsen",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 531,
+      "name": "Jason Statham",
+      "role": "ACTOR",
+      "details": "Frank Martin"
+    },
+    {
+      "id": 30,
+      "name": "Alessandro Gassman",
+      "role": "ACTOR",
+      "details": "Gianni Chellini"
+    },
+    {
+      "id": 50,
+      "name": "Amber Valletta",
+      "role": "ACTOR",
+      "details": "Audrey Billings"
+    },
+    {
+      "id": 646,
+      "name": "Kate Nauta",
+      "role": "ACTOR",
+      "details": "Lola"
+    },
+    {
+      "id": 806,
+      "name": "Matthew Modine",
+      "role": "ACTOR",
+      "details": "Jefferson Billings"
+    },
+    {
+      "id": 455,
+      "name": "Hunter Clary",
+      "role": "ACTOR",
+      "details": "Jack Billings"
+    },
+    {
+      "id": 385,
+      "name": "François Berléand",
+      "role": "ACTOR",
+      "details": "Inspector Tarconi"
+    }
+  ]
+}

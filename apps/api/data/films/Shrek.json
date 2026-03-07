@@ -1,0 +1,170 @@
+{
+  "id": 128,
+  "title": "Shrek",
+  "releaseDate": "2001-05-18",
+  "type": "FILM",
+  "duration": 90,
+  "budget": 60000000,
+  "boxOffice": 488000000,
+  "overview": null,
+  "chapterKey": "shrek",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=CwXOrWvPBPk",
+      "order": 1,
+      "id": 145
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release",
+          "id": 54
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Screenplay - Adapted",
+          "id": 110
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1949,
+      "name": "Andrew Adamson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1950,
+      "name": "Vicky Jenson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1891,
+      "name": "Ted Elliott",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1892,
+      "name": "Terry Rossio",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1951,
+      "name": "Joe Stillman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1952,
+      "name": "Roger S. H. Schulman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1953,
+      "name": "Aron Warner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1954,
+      "name": "John H. Williams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1955,
+      "name": "Jeffrey Katzenberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1905,
+      "name": "Harry Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 842,
+      "name": "Mike Myers",
+      "role": "ACTOR",
+      "details": "Shrek"
+    },
+    {
+      "id": 319,
+      "name": "Eddie Murphy",
+      "role": "ACTOR",
+      "details": "Donkey"
+    },
+    {
+      "id": 164,
+      "name": "Cameron Diaz",
+      "role": "ACTOR",
+      "details": "Fiona"
+    },
+    {
+      "id": 587,
+      "name": "John Lithgow",
+      "role": "ACTOR",
+      "details": "Lord Farquaad"
+    }
+  ]
+}

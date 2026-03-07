@@ -1,0 +1,166 @@
+{
+  "id": 197,
+  "title": "The Maze Runner",
+  "releaseDate": "2014-09-19",
+  "type": "FILM",
+  "duration": 113,
+  "budget": 34000000,
+  "boxOffice": 348000000,
+  "overview": null,
+  "chapterKey": "maze-runner",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=AwwbhhjQ9Xk",
+      "order": 1,
+      "id": 224
+    }
+  ],
+  "awards": [
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Breakthrough Performance",
+          "id": 203
+        },
+        {
+          "title": "Best Fight",
+          "id": 194
+        },
+        {
+          "title": "Best Hero",
+          "id": 183
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2231,
+      "name": "Wes Ball",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2232,
+      "name": "Noah Oppenheim",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2233,
+      "name": "Grant Pierce Myers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2234,
+      "name": "T.S. Nowlin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2235,
+      "name": "Marty Bowen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1678,
+      "name": "Wyck Godfrey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2236,
+      "name": "Ellen Goldsmith-Vein",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2237,
+      "name": "Lee Stollman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2238,
+      "name": "John Paesano",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2239,
+      "name": "Enrique Chediak",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 316,
+      "name": "Dylan O'Brien",
+      "role": "ACTOR",
+      "details": "Thomas"
+    },
+    {
+      "id": 655,
+      "name": "Kaya Scodelario",
+      "role": "ACTOR",
+      "details": "Teresa"
+    },
+    {
+      "id": 52,
+      "name": "Aml Ameen",
+      "role": "ACTOR",
+      "details": "Alby"
+    },
+    {
+      "id": 1113,
+      "name": "Thomas Brodie-Sangster",
+      "role": "ACTOR",
+      "details": "Newt"
+    },
+    {
+      "id": 680,
+      "name": "Ki Hong Lee",
+      "role": "ACTOR",
+      "details": "Minho"
+    },
+    {
+      "id": 1176,
+      "name": "Will Poulter",
+      "role": "ACTOR",
+      "details": "Gally"
+    },
+    {
+      "id": 900,
+      "name": "Patricia Clarkson",
+      "role": "ACTOR",
+      "details": "Ava Paige"
+    }
+  ]
+}

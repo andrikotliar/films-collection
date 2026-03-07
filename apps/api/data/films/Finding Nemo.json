@@ -1,0 +1,206 @@
+{
+  "id": 43,
+  "title": "Finding Nemo",
+  "releaseDate": "2003-05-30",
+  "type": "FILM",
+  "duration": 100,
+  "budget": 94000000,
+  "boxOffice": 940000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=wZdpNglLbt8",
+      "order": 1,
+      "id": 45
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1467,
+      "name": "Bob Peterson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1468,
+      "name": "David Reynolds",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1469,
+      "name": "Graham Walters",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1470,
+      "name": "Thomas Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1471,
+      "name": "Sharon Calahan",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1472,
+      "name": "Jeremy Lasky",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 33,
+      "name": "Alexander Gould",
+      "role": "ACTOR",
+      "details": "Nemo"
+    },
+    {
+      "id": 25,
+      "name": "Albert Brooks",
+      "role": "ACTOR",
+      "details": "Marlin"
+    },
+    {
+      "id": 332,
+      "name": "Ellen DeGeneres",
+      "role": "ACTOR",
+      "details": "Dory"
+    },
+    {
+      "id": 1180,
+      "name": "Willem Dafoe",
+      "role": "ACTOR",
+      "details": "Gill"
+    },
+    {
+      "id": 139,
+      "name": "Brad Garrett",
+      "role": "ACTOR",
+      "details": "Bloat"
+    },
+    {
+      "id": 43,
+      "name": "Allison Janney",
+      "role": "ACTOR",
+      "details": "Peach"
+    },
+    {
+      "id": 96,
+      "name": "Austin Pendleton",
+      "role": "ACTOR",
+      "details": "Gurgle"
+    },
+    {
+      "id": 1087,
+      "name": "Stephen Root",
+      "role": "ACTOR",
+      "details": "Bubbles"
+    },
+    {
+      "id": 1256,
+      "name": "Vicki Lewis",
+      "role": "ACTOR",
+      "details": "Deb"
+    },
+    {
+      "id": 1257,
+      "name": "Joe Ranft",
+      "role": "ACTOR",
+      "details": "Jacques"
+    },
+    {
+      "id": 401,
+      "name": "Geoffrey Rush",
+      "role": "ACTOR",
+      "details": "Nigel"
+    },
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "ACTOR",
+      "details": "Crush"
+    },
+    {
+      "id": 1259,
+      "name": "Barry Humphries",
+      "role": "ACTOR",
+      "details": "Bruce"
+    }
+  ]
+}

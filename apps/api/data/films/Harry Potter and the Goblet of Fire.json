@@ -1,0 +1,186 @@
+{
+  "id": 58,
+  "title": "Harry Potter and the Goblet of Fire",
+  "releaseDate": "2005-11-18",
+  "type": "FILM",
+  "duration": 157,
+  "budget": 150000000,
+  "boxOffice": 897000000,
+  "overview": null,
+  "chapterKey": "harry-potter",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=3EGojp4Hh6I",
+      "order": 1,
+      "id": 67
+    }
+  ],
+  "awards": [
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1570,
+      "name": "Mike Newell",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1561,
+      "name": "Steve Kloves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1562,
+      "name": "David Heyman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1571,
+      "name": "Patrick Doyle",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1564,
+      "name": "Roger Pratt",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 251,
+      "name": "Daniel Radcliffe",
+      "role": "ACTOR",
+      "details": "Harry Potter"
+    },
+    {
+      "id": 1014,
+      "name": "Rupert Grint",
+      "role": "ACTOR",
+      "details": "Ron Weasley"
+    },
+    {
+      "id": 345,
+      "name": "Emma Watson",
+      "role": "ACTOR",
+      "details": "Hermione Granger"
+    },
+    {
+      "id": 990,
+      "name": "Robert Pattinson",
+      "role": "ACTOR",
+      "details": "Cedric Diggory"
+    },
+    {
+      "id": 942,
+      "name": "Ralph Fiennes",
+      "role": "ACTOR",
+      "details": "Lord Voldemort"
+    },
+    {
+      "id": 970,
+      "name": "Richard Harris",
+      "role": "ACTOR",
+      "details": "Albus Dumbledore"
+    },
+    {
+      "id": 981,
+      "name": "Robbie Coltrane",
+      "role": "ACTOR",
+      "details": "Rubeus Hagrid"
+    },
+    {
+      "id": 22,
+      "name": "Alan Rickman",
+      "role": "ACTOR",
+      "details": "Severus Snape"
+    },
+    {
+      "id": 1130,
+      "name": "Tom Felton",
+      "role": "ACTOR",
+      "details": "Draco Malfoy"
+    },
+    {
+      "id": 1241,
+      "name": "David Tennant",
+      "role": "ACTOR",
+      "details": "Barty Crouch Junior"
+    },
+    {
+      "id": 1242,
+      "name": "Clemence Poesy",
+      "role": "ACTOR",
+      "details": "Fleur Delacour"
+    },
+    {
+      "id": 145,
+      "name": "Brendan Gleeson",
+      "role": "ACTOR",
+      "details": "Alastor Moody"
+    },
+    {
+      "id": 1228,
+      "name": "Maggie Smith",
+      "role": "ACTOR",
+      "details": "Minerva McGonagall"
+    },
+    {
+      "id": 1243,
+      "name": "Tolga Safer",
+      "role": "ACTOR",
+      "details": "Karkaroff's Aide"
+    },
+    {
+      "id": 1244,
+      "name": "Roger Lloyd Pack",
+      "role": "ACTOR",
+      "details": "Barty Crouch"
+    },
+    {
+      "id": 1245,
+      "name": "Frances de la Tour",
+      "role": "ACTOR",
+      "details": "Madame Olympe Maxime"
+    }
+  ]
+}

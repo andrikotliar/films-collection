@@ -1,0 +1,151 @@
+{
+  "id": 125,
+  "title": "Shang-Chi and the Legend of the Ten Rings",
+  "releaseDate": "2021-09-03",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 150000000,
+  "boxOffice": 430000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 29,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=COGg-Vjauwo",
+      "order": 1,
+      "id": 139
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1924,
+      "name": "Destin Daniel Cretton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1925,
+      "name": "Dave Callaham",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1924,
+      "name": "Destin Daniel Cretton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1926,
+      "name": "Andrew Lanham",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1927,
+      "name": "Jonathan Schwartz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1928,
+      "name": "Joel P. West",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1071,
+      "name": "Simu Liu",
+      "role": "ACTOR",
+      "details": "Shang-Chi"
+    },
+    {
+      "id": 1143,
+      "name": "Tony Chiu-Wai Leung",
+      "role": "ACTOR",
+      "details": "Wenwu / Mandarin"
+    },
+    {
+      "id": 97,
+      "name": "Awkwafina",
+      "role": "ACTOR",
+      "details": "Katy"
+    },
+    {
+      "id": 816,
+      "name": "Menger Zhang",
+      "role": "ACTOR",
+      "details": "Xialing"
+    },
+    {
+      "id": 839,
+      "name": "Michelle Yeoh",
+      "role": "ACTOR",
+      "details": "Ying Nan"
+    },
+    {
+      "id": 116,
+      "name": "Benedict Wong",
+      "role": "ACTOR",
+      "details": "Wong"
+    },
+    {
+      "id": 1120,
+      "name": "Tim Roth",
+      "role": "ACTOR",
+      "details": "Abomination / Emile Blonsky"
+    },
+    {
+      "id": 109,
+      "name": "Ben Kingsley",
+      "role": "ACTOR",
+      "details": "Trevor Slattery"
+    },
+    {
+      "id": 376,
+      "name": "Florian Munteanu",
+      "role": "ACTOR",
+      "details": "Razor Fist"
+    }
+  ]
+}

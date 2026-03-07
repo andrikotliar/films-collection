@@ -1,0 +1,129 @@
+{
+  "id": 11,
+  "title": "Alita: Battle Angel",
+  "releaseDate": "2019-02-14",
+  "type": "FILM",
+  "duration": 122,
+  "budget": 170000000,
+  "boxOffice": 400000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Cyberpunk",
+      "id": 19
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=w7pYhpJaJW8",
+      "order": 1,
+      "id": 11
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1292,
+      "name": "Robert Rodriguez",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1293,
+      "name": "Laeta Kalogridis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1294,
+      "name": "Jon Landau",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1295,
+      "name": "Tom Holkenborg",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1003,
+      "name": "Rosa Salazar",
+      "role": "ACTOR",
+      "details": "Alita"
+    },
+    {
+      "id": 206,
+      "name": "Christoph Waltz",
+      "role": "ACTOR",
+      "details": "Dr. Dyson Ido"
+    },
+    {
+      "id": 546,
+      "name": "Jennifer Connelly",
+      "role": "ACTOR",
+      "details": "Chiren"
+    },
+    {
+      "id": 767,
+      "name": "Mahershala Ali",
+      "role": "ACTOR",
+      "details": "Vector"
+    },
+    {
+      "id": 317,
+      "name": "Ed Skrein",
+      "role": "ACTOR",
+      "details": "Zapan"
+    },
+    {
+      "id": 486,
+      "name": "Jackie Earle Haley",
+      "role": "ACTOR",
+      "details": "Grewishka"
+    },
+    {
+      "id": 658,
+      "name": "Keean Johnson",
+      "role": "ACTOR",
+      "details": "Hugo"
+    }
+  ]
+}

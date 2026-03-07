@@ -1,0 +1,264 @@
+{
+  "id": 176,
+  "title": "The Hobbit: The Desolation of Smaug",
+  "releaseDate": "2013-12-13",
+  "type": "FILM",
+  "duration": 161,
+  "budget": 225000000,
+  "boxOffice": 960000000,
+  "overview": null,
+  "chapterKey": "middle-earth",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    }
+  ],
+  "studios": [
+    {
+      "title": "New Line Cinema",
+      "id": 56
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=fnaojlfdUbs",
+      "order": 1,
+      "id": 202
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2171,
+      "name": "Philippa Boyens",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1875,
+      "name": "Guillermo del Toro",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2172,
+      "name": "Carolynne Cunningham",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2173,
+      "name": "Zane Weiner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1671,
+      "name": "Howard Shore",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1682,
+      "name": "Andrew Lesnie",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Gendalf"
+    },
+    {
+      "id": 792,
+      "name": "Martin Freeman",
+      "role": "ACTOR",
+      "details": "Bilbo"
+    },
+    {
+      "id": 750,
+      "name": "Luke Evans",
+      "role": "ACTOR",
+      "details": "Bard"
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Smaug"
+    },
+    {
+      "id": 964,
+      "name": "Richard Armitage",
+      "role": "ACTOR",
+      "details": "Thorin"
+    },
+    {
+      "id": 361,
+      "name": "Evangeline Lilly",
+      "role": "ACTOR",
+      "details": "Tauriel"
+    },
+    {
+      "id": 664,
+      "name": "Ken Stott",
+      "role": "ACTOR",
+      "details": "Balin"
+    },
+    {
+      "id": 416,
+      "name": "Graham McTavish",
+      "role": "ACTOR",
+      "details": "Dwalin"
+    },
+    {
+      "id": 1183,
+      "name": "William Kircher",
+      "role": "ACTOR",
+      "details": "Bifur"
+    },
+    {
+      "id": 512,
+      "name": "James Nesbitt",
+      "role": "ACTOR",
+      "details": "Bofur"
+    },
+    {
+      "id": 1083,
+      "name": "Stephen Hunter",
+      "role": "ACTOR",
+      "details": "Bombur"
+    },
+    {
+      "id": 279,
+      "name": "Dean O'Gorman",
+      "role": "ACTOR",
+      "details": "Fili"
+    },
+    {
+      "id": 19,
+      "name": "Aidan Turner",
+      "role": "ACTOR",
+      "details": "Kili"
+    },
+    {
+      "id": 577,
+      "name": "John Callen",
+      "role": "ACTOR",
+      "details": "Oin"
+    },
+    {
+      "id": 923,
+      "name": "Peter Hambleton",
+      "role": "ACTOR",
+      "details": "Gloin"
+    },
+    {
+      "id": 538,
+      "name": "Jed Brophy",
+      "role": "ACTOR",
+      "details": "Nori"
+    },
+    {
+      "id": 784,
+      "name": "Mark Hadlow",
+      "role": "ACTOR",
+      "details": "Dori"
+    },
+    {
+      "id": 6,
+      "name": "Adam Brown",
+      "role": "ACTOR",
+      "details": "Ori"
+    },
+    {
+      "id": 458,
+      "name": "Ian Holm",
+      "role": "ACTOR",
+      "details": "Old Bilbo"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Elrond"
+    },
+    {
+      "id": 175,
+      "name": "Cate Blanchett",
+      "role": "ACTOR",
+      "details": "Galadriel"
+    },
+    {
+      "id": 894,
+      "name": "Orlando Bloom",
+      "role": "ACTOR",
+      "details": "Legolas"
+    },
+    {
+      "id": 711,
+      "name": "Lee Pace",
+      "role": "ACTOR",
+      "details": "Thranduil"
+    }
+  ]
+}

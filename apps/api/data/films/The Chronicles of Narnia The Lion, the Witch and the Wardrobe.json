@@ -1,0 +1,196 @@
+{
+  "id": 165,
+  "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+  "releaseDate": "2005-12-09",
+  "type": "FILM",
+  "duration": 145,
+  "budget": 180000000,
+  "boxOffice": 745000000,
+  "overview": null,
+  "chapterKey": "chronicles-of-narnia",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=lWKj41HZBzM",
+      "order": 1,
+      "id": 191
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Makeup",
+          "id": 18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Costumes",
+          "id": 52
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Family Film - Live action",
+          "id": 85
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Make Up/Hair",
+          "id": 109
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1949,
+      "name": "Andrew Adamson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2143,
+      "name": "Ann Peacock",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1949,
+      "name": "Andrew Adamson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2144,
+      "name": "Mark Johnson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2145,
+      "name": "Phillip Steuer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1905,
+      "name": "Harry Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1902,
+      "name": "Donald McAlpine",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 402,
+      "name": "Georgie Henley",
+      "role": "ACTOR",
+      "details": "Lucy Pevensie"
+    },
+    {
+      "id": 1072,
+      "name": "Skandar Keynes",
+      "role": "ACTOR",
+      "details": "Edmund Pevensie"
+    },
+    {
+      "id": 1184,
+      "name": "William Moseley",
+      "role": "ACTOR",
+      "details": "Peter Pevensie"
+    },
+    {
+      "id": 67,
+      "name": "Anna Popplewell",
+      "role": "ACTOR",
+      "details": "Susan Pevensie"
+    },
+    {
+      "id": 1118,
+      "name": "Tilda Swinton",
+      "role": "ACTOR",
+      "details": "White Witch"
+    },
+    {
+      "id": 511,
+      "name": "James McAvoy",
+      "role": "ACTOR",
+      "details": "Mr. Tumnus"
+    },
+    {
+      "id": 562,
+      "name": "Jim Broadbent",
+      "role": "ACTOR",
+      "details": "Professor Kirke"
+    },
+    {
+      "id": 724,
+      "name": "Liam Neeson",
+      "role": "ACTOR",
+      "details": "Aslan"
+    }
+  ]
+}

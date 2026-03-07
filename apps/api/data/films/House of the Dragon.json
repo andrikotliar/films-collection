@@ -1,0 +1,135 @@
+{
+  "id": 259,
+  "title": "House of the Dragon",
+  "releaseDate": "2022-08-21",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "HBO",
+      "id": 26
+    }
+  ],
+  "trailers": [],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2560,
+      "name": "Ryan J. Condal",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1461,
+      "name": "Ramin Djawadi",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2561,
+      "name": "Matt Smith",
+      "role": "ACTOR",
+      "details": "Prince Daemon Targaryen"
+    },
+    {
+      "id": 2562,
+      "name": "Fabien Frankel",
+      "role": "ACTOR",
+      "details": "Ser Criston Cole"
+    },
+    {
+      "id": 1092,
+      "name": "Steve Toussaint",
+      "role": "ACTOR",
+      "details": "Lord Corlys"
+    },
+    {
+      "id": 2563,
+      "name": "Emma D'Arcy",
+      "role": "ACTOR",
+      "details": "Queen Rhaenyra Targaryen"
+    },
+    {
+      "id": 888,
+      "name": "Olivia Cooke",
+      "role": "ACTOR",
+      "details": "Queen Alicent Hightower"
+    },
+    {
+      "id": 962,
+      "name": "Rhys Ifans",
+      "role": "ACTOR",
+      "details": "Ser Otto Hightower"
+    },
+    {
+      "id": 2564,
+      "name": "Matthew Needham",
+      "role": "ACTOR",
+      "details": "Lord Larys"
+    },
+    {
+      "id": 2565,
+      "name": "Jefferson Hall",
+      "role": "ACTOR",
+      "details": "Sen Tyland Lannister"
+    },
+    {
+      "id": 2566,
+      "name": "Ewan Mitchell",
+      "role": "ACTOR",
+      "details": "Prince Aemond Targaryen"
+    },
+    {
+      "id": 2567,
+      "name": "Paddy Considine",
+      "role": "ACTOR",
+      "details": "king Viserys I Targaryen"
+    },
+    {
+      "id": 2568,
+      "name": "Eve Best",
+      "role": "ACTOR",
+      "details": "Princess Rhaenys Targaryen"
+    },
+    {
+      "id": 2569,
+      "name": "Harry Collett",
+      "role": "ACTOR",
+      "details": "Prince Jacaerys 'Jace' Velaryon"
+    },
+    {
+      "id": 2570,
+      "name": "Phoebe Campbell",
+      "role": "ACTOR",
+      "details": "Lady Rhaena Targaryen"
+    }
+  ],
+  "seriesExtension": {
+    "id": 24,
+    "episodesTotal": 27,
+    "seasonsTotal": 2,
+    "finishedAt": "2024-08-04"
+  }
+}

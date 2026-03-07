@@ -1,0 +1,138 @@
+{
+  "id": 115,
+  "title": "Pirates of the Caribbean: At World's End",
+  "releaseDate": "2007-05-25",
+  "type": "FILM",
+  "duration": 168,
+  "budget": 300000000,
+  "boxOffice": 963000000,
+  "overview": null,
+  "chapterKey": "pirates-of-the-caribbean",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Jerry Bruckheimer Films",
+      "id": 44
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=HKSZtp_OGHY",
+      "order": 1,
+      "id": 129
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1890,
+      "name": "Gore Verbinski",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1891,
+      "name": "Ted Elliott",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1892,
+      "name": "Terry Rossio",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1893,
+      "name": "Jerry Bruckheimer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1894,
+      "name": "Dariusz Wolski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 598,
+      "name": "Johnny Depp",
+      "role": "ACTOR",
+      "details": "Captain Jack Sparrow"
+    },
+    {
+      "id": 401,
+      "name": "Geoffrey Rush",
+      "role": "ACTOR",
+      "details": "Captain Hector Barbossa"
+    },
+    {
+      "id": 894,
+      "name": "Orlando Bloom",
+      "role": "ACTOR",
+      "details": "Will Turner"
+    },
+    {
+      "id": 659,
+      "name": "Keira Knightley",
+      "role": "ACTOR",
+      "details": "Elizabeth Swann"
+    },
+    {
+      "id": 480,
+      "name": "Jack Davenport",
+      "role": "ACTOR",
+      "details": "Norrington"
+    },
+    {
+      "id": 1126,
+      "name": "Tom Hollander",
+      "role": "ACTOR",
+      "details": "Cutler Beckett"
+    },
+    {
+      "id": 124,
+      "name": "Bill Nighy",
+      "role": "ACTOR",
+      "details": "Davy Jones"
+    }
+  ]
+}

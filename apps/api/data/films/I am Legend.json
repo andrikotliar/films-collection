@@ -1,0 +1,150 @@
+{
+  "id": 71,
+  "title": "I am Legend",
+  "releaseDate": "2008-04-03",
+  "type": "FILM",
+  "duration": 101,
+  "budget": 150000000,
+  "boxOffice": 585000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Village Roadshow Pictures",
+      "id": 31
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=dtKMEAXyPkg",
+      "order": 1,
+      "id": 83
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actor",
+          "id": 44
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Male Performance",
+          "id": 187
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1680,
+      "name": "Francis Lawrence",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1681,
+      "name": "Mark Protosevich",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1548,
+      "name": "Akiva Goldsman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1548,
+      "name": "Akiva Goldsman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1549,
+      "name": "James Lassiter",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1562,
+      "name": "David Heyman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1682,
+      "name": "Andrew Lesnie",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Robert Neville"
+    },
+    {
+      "id": 38,
+      "name": "Alice Braga",
+      "role": "ACTOR",
+      "details": "Anna"
+    },
+    {
+      "id": 185,
+      "name": "Charlie Tahan",
+      "role": "ACTOR",
+      "details": "Ethan"
+    },
+    {
+      "id": 1027,
+      "name": "Salli Richardson-Whitfield",
+      "role": "ACTOR",
+      "details": "Zoe Neville"
+    },
+    {
+      "id": 1185,
+      "name": "Willow Smith",
+      "role": "ACTOR",
+      "details": "Marley Neville"
+    }
+  ]
+}

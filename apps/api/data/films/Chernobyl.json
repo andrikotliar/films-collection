@@ -1,0 +1,196 @@
+{
+  "id": 32,
+  "title": "Chernobyl",
+  "releaseDate": "2019-05-06",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "History",
+      "id": 12
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "HBO",
+      "id": 26
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=s9APLXM9Ei8",
+      "order": 1,
+      "id": 32
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
+          "id": 79
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Leading Actor",
+          "id": 102
+        },
+        {
+          "title": "Mini-Series",
+          "id": 103
+        },
+        {
+          "title": "Supporting Actor",
+          "id": 104
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Limited Series",
+          "id": 128
+        },
+        {
+          "title": "Outstanding Directing for a Limited Series",
+          "id": 129
+        },
+        {
+          "title": "Outstanding Writing for a Limited Series",
+          "id": 130
+        },
+        {
+          "title": "Outstanding Cinematography for a Limited Series or Movie",
+          "id": 131
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Period or fantasy Program (One Hour or More)",
+          "id": 132
+        },
+        {
+          "title": "Outstanding Music Composition for a Limited Series, Movie or Special (Original Dramatic Score)",
+          "id": 133
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
+          "id": 134
+        },
+        {
+          "title": "Outstanding Sound Mixing for a Limited Series or Movie",
+          "id": 135
+        },
+        {
+          "title": "Outstanding Sound Editing for a Limited Series, Movie or Special",
+          "id": 136
+        },
+        {
+          "title": "Outstanding Special Visual Effects in a Supporting Role,",
+          "id": 137
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1414,
+      "name": "Craig Mazin",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1417,
+      "name": "Hildur Guðnadóttir",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1418,
+      "name": "Jakob Ihre",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 521,
+      "name": "Jared Harris",
+      "role": "ACTOR",
+      "details": "Valery Legasov"
+    },
+    {
+      "id": 1080,
+      "name": "Stellan Skarsgard",
+      "role": "ACTOR",
+      "details": "Boris Shcherbina"
+    },
+    {
+      "id": 343,
+      "name": "Emily Watson",
+      "role": "ACTOR",
+      "details": "Ulana Khomyuk"
+    },
+    {
+      "id": 909,
+      "name": "Paul Ritter",
+      "role": "ACTOR",
+      "details": "Anatoly Dyatlov"
+    },
+    {
+      "id": 983,
+      "name": "Robert Emms",
+      "role": "ACTOR",
+      "details": "Leonid Toptunov"
+    },
+    {
+      "id": 1033,
+      "name": "Sam Troughton",
+      "role": "ACTOR",
+      "details": "Alexandr Akimov"
+    },
+    {
+      "id": 560,
+      "name": "Jessie Buckley",
+      "role": "ACTOR",
+      "details": "Lyudmilla Ignatenko"
+    },
+    {
+      "id": 9,
+      "name": "Adam Nagaitis",
+      "role": "ACTOR",
+      "details": "Vasily Ignatenko"
+    }
+  ],
+  "seriesExtension": {
+    "id": 3,
+    "episodesTotal": 5,
+    "seasonsTotal": 1,
+    "finishedAt": "2019-06-03"
+  }
+}

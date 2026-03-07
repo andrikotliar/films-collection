@@ -1,0 +1,184 @@
+{
+  "id": 257,
+  "title": "Hacksaw Ridge ",
+  "releaseDate": "2016-11-04",
+  "type": "FILM",
+  "duration": 139,
+  "budget": 40,
+  "boxOffice": 180,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Biography",
+      "id": 13
+    },
+    {
+      "title": "History",
+      "id": 12
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Summit Entertainment",
+      "id": 43
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/s2-1hz1juBI?si=uRJDxt4LqqzL8fCi",
+      "order": 1,
+      "id": 296
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Film Editing",
+          "id": 233
+        },
+        {
+          "title": "Best Achievement in Sound Mixing",
+          "id": 11
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best action Movie",
+          "id": 76
+        },
+        {
+          "title": "Best Actor in an Action Movie",
+          "id": 234
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 111
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2548,
+      "name": "Mel Gibson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2549,
+      "name": "Andrew Knight",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2550,
+      "name": "Terry Blavantik",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2551,
+      "name": "Paul Currie",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2552,
+      "name": "Bruce Davey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2553,
+      "name": "Bill Mechanic",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1301,
+      "name": "Brian Oliver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1320,
+      "name": "Rupert Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1679,
+      "name": "Simon Duggan",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 57,
+      "name": "Andrew Garfield",
+      "role": "ACTOR",
+      "details": "Desmond Doss"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Tom Doss"
+    },
+    {
+      "id": 1109,
+      "name": "Teresa Palmer",
+      "role": "ACTOR",
+      "details": "Dorothy Schutte"
+    },
+    {
+      "id": 2555,
+      "name": "Richard Pyros",
+      "role": "ACTOR",
+      "details": "Teach"
+    },
+    {
+      "id": 2556,
+      "name": "Jacob Warner",
+      "role": "ACTOR",
+      "details": "James Pinnick"
+    },
+    {
+      "id": 2557,
+      "name": "Milo Gibson",
+      "role": "ACTOR",
+      "details": "Lucky Ford"
+    },
+    {
+      "id": 1034,
+      "name": "Sam Worthington",
+      "role": "ACTOR",
+      "details": "Captain Glover"
+    }
+  ]
+}

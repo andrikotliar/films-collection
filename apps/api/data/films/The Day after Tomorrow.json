@@ -1,0 +1,180 @@
+{
+  "id": 169,
+  "title": "The Day after Tomorrow",
+  "releaseDate": "2004-05-24",
+  "type": "FILM",
+  "duration": 123,
+  "budget": 125000000,
+  "boxOffice": 544000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Disaster",
+      "id": 11
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Ku_IseK3xTc",
+      "order": 1,
+      "id": 195
+    }
+  ],
+  "awards": [
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best action Sequence",
+          "id": 192
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jupiter Award",
+      "nominations": [
+        {
+          "title": "Best International Film",
+          "id": 210
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2146,
+      "name": "Jeffrey Nachmanoff",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1263,
+      "name": "Mark Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1262,
+      "name": "Harald Kloser",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2147,
+      "name": "Ueli Steiger",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 286,
+      "name": "Dennis Quaid",
+      "role": "ACTOR",
+      "details": "Jack Hall"
+    },
+    {
+      "id": 498,
+      "name": "Jake Gyllenhaal",
+      "role": "ACTOR",
+      "details": "Sam Hall"
+    },
+    {
+      "id": 349,
+      "name": "Emmy Rossum",
+      "role": "ACTOR",
+      "details": "Laura Chapman"
+    },
+    {
+      "id": 262,
+      "name": "Dash Mihok",
+      "role": "ACTOR",
+      "details": "Jason Evans"
+    },
+    {
+      "id": 535,
+      "name": "Jay O. Sanders",
+      "role": "ACTOR",
+      "details": "Frank Harris"
+    },
+    {
+      "id": 1051,
+      "name": "Sela Ward",
+      "role": "ACTOR",
+      "details": "Dr. Lucy Hall"
+    },
+    {
+      "id": 95,
+      "name": "Austin Nichols",
+      "role": "ACTOR",
+      "details": "J.D."
+    },
+    {
+      "id": 84,
+      "name": "Arjay Smith",
+      "role": "ACTOR",
+      "details": "Brian Parks"
+    },
+    {
+      "id": 1102,
+      "name": "Tamlyn Tomita",
+      "role": "ACTOR",
+      "details": "Janet Tokada"
+    },
+    {
+      "id": 1041,
+      "name": "Sasha Roiz",
+      "role": "ACTOR",
+      "details": "Parker"
+    },
+    {
+      "id": 458,
+      "name": "Ian Holm",
+      "role": "ACTOR",
+      "details": "Terry Rapson"
+    }
+  ]
+}

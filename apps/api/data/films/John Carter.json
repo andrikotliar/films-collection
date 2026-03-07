@@ -1,0 +1,147 @@
+{
+  "id": 85,
+  "title": "John Carter",
+  "releaseDate": "2012-03-09",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 306000000,
+  "boxOffice": 284000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=nlvYKl1fjBI",
+      "order": 1,
+      "id": 97
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1726,
+      "name": "Mark Andrews",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1727,
+      "name": "Jim Morris",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1728,
+      "name": "Colin Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1729,
+      "name": "Lindsey Collins",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1730,
+      "name": "Dan Mindel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1106,
+      "name": "Taylor Kitsch",
+      "role": "ACTOR",
+      "details": "John Carter"
+    },
+    {
+      "id": 757,
+      "name": "Lynn Collins",
+      "role": "ACTOR",
+      "details": "Dejah Thoris"
+    },
+    {
+      "id": 1035,
+      "name": "Samantha Morton",
+      "role": "ACTOR",
+      "details": "Sola"
+    },
+    {
+      "id": 1180,
+      "name": "Willem Dafoe",
+      "role": "ACTOR",
+      "details": "Tars Tarkas"
+    },
+    {
+      "id": 1115,
+      "name": "Thomas Haden Church",
+      "role": "ACTOR",
+      "details": "Tal Hajus"
+    },
+    {
+      "id": 789,
+      "name": "Mark Strong",
+      "role": "ACTOR",
+      "details": "Matai Shang"
+    },
+    {
+      "id": 213,
+      "name": "Ciaran Hinds",
+      "role": "ACTOR",
+      "details": "Tardos Mors"
+    },
+    {
+      "id": 303,
+      "name": "Dominic West",
+      "role": "ACTOR",
+      "details": "Sab Than"
+    },
+    {
+      "id": 513,
+      "name": "James Purefoy",
+      "role": "ACTOR",
+      "details": "Kantos Kan"
+    }
+  ]
+}

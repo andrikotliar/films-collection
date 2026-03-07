@@ -1,0 +1,178 @@
+{
+  "id": 153,
+  "title": "TENET",
+  "releaseDate": "2020-08-26",
+  "type": "FILM",
+  "duration": 150,
+  "budget": 205000000,
+  "boxOffice": 364000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Syncopy",
+      "id": 47
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=AZGcmvrTX9M",
+      "order": 1,
+      "id": 173
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actor",
+          "id": 44
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2034,
+      "name": "Andy Thompson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2035,
+      "name": "Ludwig Göransson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1715,
+      "name": "Hoyte Van Hoytema",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 581,
+      "name": "John David Washington",
+      "role": "ACTOR",
+      "details": "Protagonist"
+    },
+    {
+      "id": 990,
+      "name": "Robert Pattinson",
+      "role": "ACTOR",
+      "details": "Neil"
+    },
+    {
+      "id": 328,
+      "name": "Elizabeth Debicki",
+      "role": "ACTOR",
+      "details": "Katherine Barton"
+    },
+    {
+      "id": 296,
+      "name": "Dimple Kapadia",
+      "role": "ACTOR",
+      "details": "Priya"
+    },
+    {
+      "id": 791,
+      "name": "Martin Donovan",
+      "role": "ACTOR",
+      "details": "Fay"
+    },
+    {
+      "id": 372,
+      "name": "Fiona Dourif",
+      "role": "ACTOR",
+      "details": "Wheeler"
+    },
+    {
+      "id": 666,
+      "name": "Kenneth Branagh",
+      "role": "ACTOR",
+      "details": "Andrei Sator"
+    }
+  ]
+}

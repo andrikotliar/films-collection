@@ -1,0 +1,151 @@
+{
+  "id": 112,
+  "title": "Pacific Rim",
+  "releaseDate": "2013-07-12",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 180000000,
+  "boxOffice": 411000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5guMumPFBag",
+      "order": 1,
+      "id": 126
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1875,
+      "name": "Guillermo del Toro",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1876,
+      "name": "Travis Beacham",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1875,
+      "name": "Guillermo del Toro",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1875,
+      "name": "Guillermo del Toro",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1877,
+      "name": "Thomas Tull",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1878,
+      "name": "Jon Jashni",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1447,
+      "name": "Mary Parent",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1461,
+      "name": "Ramin Djawadi",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1879,
+      "name": "Guillermo Navarro",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 184,
+      "name": "Charlie Hunnam",
+      "role": "ACTOR",
+      "details": "Raleigh Becket"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Stacker Pentecost"
+    },
+    {
+      "id": 978,
+      "name": "Rinko Kikuchi",
+      "role": "ACTOR",
+      "details": "Mako Mori"
+    },
+    {
+      "id": 182,
+      "name": "Charlie Day",
+      "role": "ACTOR",
+      "details": "Dr. Newton Geiszler"
+    },
+    {
+      "id": 158,
+      "name": "Burn Gorman",
+      "role": "ACTOR",
+      "details": "Herman Gottlieb"
+    },
+    {
+      "id": 808,
+      "name": "Max Martini",
+      "role": "ACTOR",
+      "details": "Herc Hansen"
+    },
+    {
+      "id": 986,
+      "name": "Robert Kazinsky",
+      "role": "ACTOR",
+      "details": "Chuck Hansen"
+    },
+    {
+      "id": 999,
+      "name": "Ron Perlman",
+      "role": "ACTOR",
+      "details": "Hannibal Chau"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": 108,
+  "title": "Monsters, Inc.",
+  "releaseDate": "2001-11-02",
+  "type": "FILM",
+  "duration": 92,
+  "budget": 115000000,
+  "boxOffice": 580000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=6tCxnHCqqxg",
+      "order": 1,
+      "id": 122
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Music (Original Song)",
+          "id": 17
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Character Animation",
+          "id": 179
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1857,
+      "name": "Pete Docter",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1258,
+      "name": "Andrew Stanton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1858,
+      "name": "Daniel Gerson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1859,
+      "name": "Darla K. Anderson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1860,
+      "name": "Randy Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 582,
+      "name": "John Goodman",
+      "role": "ACTOR",
+      "details": "Sullivan"
+    },
+    {
+      "id": 129,
+      "name": "Billy Crystal",
+      "role": "ACTOR",
+      "details": "Mike"
+    },
+    {
+      "id": 796,
+      "name": "Mary Gibbs",
+      "role": "ACTOR",
+      "details": "Boo"
+    },
+    {
+      "id": 1090,
+      "name": "Steve Buscemi",
+      "role": "ACTOR",
+      "details": "Randall"
+    },
+    {
+      "id": 502,
+      "name": "James Coburn",
+      "role": "ACTOR",
+      "details": "Waternoose"
+    },
+    {
+      "id": 549,
+      "name": "Jennifer Tilly",
+      "role": "ACTOR",
+      "details": "Celia"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": 81,
+  "title": "Indiana Jones and the Temple of Doom",
+  "releaseDate": "1984-05-23",
+  "type": "FILM",
+  "duration": 118,
+  "budget": 28000000,
+  "boxOffice": 333000000,
+  "overview": null,
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=WBdyLyijZhU",
+      "order": 1,
+      "id": 93
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jupiter Award",
+      "nominations": [
+        {
+          "title": "Best International Actor",
+          "id": 209
+        },
+        {
+          "title": "Best International Film",
+          "id": 210
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1375,
+      "name": "Steven Spielberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1710,
+      "name": "Willard Huyck",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1711,
+      "name": "Gloria Katz",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1707,
+      "name": "Robert Watts",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1708,
+      "name": "Douglas Slocombe",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 431,
+      "name": "Harrison Ford",
+      "role": "ACTOR",
+      "details": "Dr. Henry «Indiana» Jones, Jr."
+    },
+    {
+      "id": 644,
+      "name": "Kate Capshaw",
+      "role": "ACTOR",
+      "details": "Willie Scott"
+    },
+    {
+      "id": 656,
+      "name": "Ke Huy Quan",
+      "role": "ACTOR",
+      "details": "Short Round"
+    },
+    {
+      "id": 53,
+      "name": "Amrish Puri",
+      "role": "ACTOR",
+      "details": "Mola Ram"
+    },
+    {
+      "id": 1008,
+      "name": "Roshan Seth",
+      "role": "ACTOR",
+      "details": "Chattar Lal"
+    }
+  ]
+}

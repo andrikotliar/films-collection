@@ -1,0 +1,145 @@
+{
+  "id": 5,
+  "title": "2012",
+  "releaseDate": "2009-11-13",
+  "type": "FILM",
+  "duration": 158,
+  "budget": 200000000,
+  "boxOffice": 770000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Disaster",
+      "id": 11
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ce0N3TEcFw0",
+      "order": 1,
+      "id": 5
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1262,
+      "name": "Harald Kloser",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1261,
+      "name": "Roland Emmerich",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1262,
+      "name": "Harald Kloser",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1263,
+      "name": "Mark Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1264,
+      "name": "Larry J. Franco",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1262,
+      "name": "Harald Kloser",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1265,
+      "name": "Thomas Wander",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1266,
+      "name": "Dean Semler",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 580,
+      "name": "John Cusack",
+      "role": "ACTOR",
+      "details": "Jackson Curtis"
+    },
+    {
+      "id": 48,
+      "name": "Amanda Peet",
+      "role": "ACTOR",
+      "details": "Kate Curtis"
+    },
+    {
+      "id": 191,
+      "name": "Chiwetel Ejiofor",
+      "role": "ACTOR",
+      "details": "Adrian Helmsley"
+    },
+    {
+      "id": 1206,
+      "name": "Thandie Newton",
+      "role": "ACTOR",
+      "details": "Laura Wilson"
+    },
+    {
+      "id": 886,
+      "name": "Oliver Platt",
+      "role": "ACTOR",
+      "details": "Carl Anheuser"
+    },
+    {
+      "id": 1190,
+      "name": "Woody Harrelson",
+      "role": "ACTOR",
+      "details": "Charlie Frost"
+    },
+    {
+      "id": 255,
+      "name": "Danny Glover",
+      "role": "ACTOR",
+      "details": "President Thomas Wilson"
+    }
+  ]
+}

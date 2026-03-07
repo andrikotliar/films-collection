@@ -1,0 +1,127 @@
+{
+  "id": 88,
+  "title": "Jurassic Park III",
+  "releaseDate": "2001-07-18",
+  "type": "FILM",
+  "duration": 92,
+  "budget": 93000000,
+  "boxOffice": 368000000,
+  "overview": null,
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    },
+    {
+      "title": "Amblin Entertainment",
+      "id": 39
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=gjIaV6CU0wA",
+      "order": 1,
+      "id": 100
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1400,
+      "name": "Joe Johnston",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1740,
+      "name": "Peter Buchman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1741,
+      "name": "Alexander Payne",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1742,
+      "name": "Jim Taylor",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1382,
+      "name": "Larry Franco",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1738,
+      "name": "Kathleen Kennedy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1743,
+      "name": "Don Davis",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1401,
+      "name": "Shelly Johnson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1031,
+      "name": "Sam Neill",
+      "role": "ACTOR",
+      "details": "Dr. Alan Grant"
+    },
+    {
+      "id": 1181,
+      "name": "William H. Macy",
+      "role": "ACTOR",
+      "details": "Paul Kirby"
+    },
+    {
+      "id": 1157,
+      "name": "Téa Leoni",
+      "role": "ACTOR",
+      "details": "Amanda Kirby"
+    },
+    {
+      "id": 32,
+      "name": "Alessandro Nivola",
+      "role": "ACTOR",
+      "details": "Billy Brennan"
+    },
+    {
+      "id": 1152,
+      "name": "Trevor Morgan",
+      "role": "ACTOR",
+      "details": "Eric Kirby"
+    }
+  ]
+}

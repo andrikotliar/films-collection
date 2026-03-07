@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Action",
+    "id": 4
+  },
+  {
+    "title": "Adventures",
+    "id": 3
+  },
+  {
+    "title": "Anime",
+    "id": 20
+  },
+  {
+    "title": "Biography",
+    "id": 13
+  },
+  {
+    "title": "Comedy",
+    "id": 6
+  },
+  {
+    "title": "Crime",
+    "id": 7
+  },
+  {
+    "title": "Cyberpunk",
+    "id": 19
+  },
+  {
+    "title": "Disaster",
+    "id": 11
+  },
+  {
+    "title": "Drama",
+    "id": 5
+  },
+  {
+    "title": "Fantasy",
+    "id": 2
+  },
+  {
+    "title": "History",
+    "id": 12
+  },
+  {
+    "title": "Horror",
+    "id": 10
+  },
+  {
+    "title": "Musical",
+    "id": 15
+  },
+  {
+    "title": "Mystery",
+    "id": 21
+  },
+  {
+    "title": "Romance",
+    "id": 8
+  },
+  {
+    "title": "Sci-Fi",
+    "id": 1
+  },
+  {
+    "title": "Space Opera",
+    "id": 16
+  },
+  {
+    "title": "Space Western",
+    "id": 17
+  },
+  {
+    "title": "Sport",
+    "id": 18
+  },
+  {
+    "title": "Supernatural",
+    "id": 14
+  },
+  {
+    "title": "Thriller",
+    "id": 9
+  }
+]

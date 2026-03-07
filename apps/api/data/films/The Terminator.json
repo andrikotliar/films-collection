@@ -1,0 +1,122 @@
+{
+  "id": 206,
+  "title": "The Terminator",
+  "releaseDate": "1984-10-26",
+  "type": "FILM",
+  "duration": 107,
+  "budget": 6400000,
+  "boxOffice": 40000000,
+  "overview": null,
+  "chapterKey": "terminator",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Orion Pictures",
+      "id": 60
+    },
+    {
+      "title": "Cinema_84",
+      "id": 61
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=k64P4l2Wmeg",
+      "order": 1,
+      "id": 233
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2258,
+      "name": "Gale Ann Hurd",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2258,
+      "name": "Gale Ann Hurd",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2050,
+      "name": "Brad Fiedel",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2051,
+      "name": "Adam Greenberg",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 87,
+      "name": "Arnold Schwarzenegger",
+      "role": "ACTOR",
+      "details": "T-800"
+    },
+    {
+      "id": 820,
+      "name": "Michael Biehn",
+      "role": "ACTOR",
+      "details": "Kyle Reese"
+    },
+    {
+      "id": 728,
+      "name": "Linda Hamilton",
+      "role": "ACTOR",
+      "details": "Sarah Connor"
+    }
+  ]
+}

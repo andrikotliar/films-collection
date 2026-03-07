@@ -1,0 +1,163 @@
+{
+  "id": 30,
+  "title": "Captain Marvel",
+  "releaseDate": "2019-03-08",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 152000000,
+  "boxOffice": 1130000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+      "order": 1,
+      "id": 30
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1402,
+      "name": "Anna Boden",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1403,
+      "name": "Ryan Fleck",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1402,
+      "name": "Anna Boden",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1403,
+      "name": "Ryan Fleck",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1404,
+      "name": "Geneva Robertson-Dworet",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1405,
+      "name": "Pinar Toprak",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1406,
+      "name": "Ben Davis",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 151,
+      "name": "Brie Larson",
+      "role": "ACTOR",
+      "details": "Carol Danvers / Captain Marvel"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 110,
+      "name": "Ben Mendelsohn",
+      "role": "ACTOR",
+      "details": "Talos / Keller"
+    },
+    {
+      "id": 623,
+      "name": "Jude Law",
+      "role": "ACTOR",
+      "details": "Yon-Rogg"
+    },
+    {
+      "id": 70,
+      "name": "Annette Bening",
+      "role": "ACTOR",
+      "details": "Supreme Intelligence / Dr. Wendy Lawson"
+    },
+    {
+      "id": 700,
+      "name": "Lashana Lynch",
+      "role": "ACTOR",
+      "details": "Maria Rambeau"
+    },
+    {
+      "id": 216,
+      "name": "Clark Gregg",
+      "role": "ACTOR",
+      "details": "Agent Coulson"
+    },
+    {
+      "id": 1011,
+      "name": "Rune Temte",
+      "role": "ACTOR",
+      "details": "Bron-Char"
+    },
+    {
+      "id": 398,
+      "name": "Gemma Chan",
+      "role": "ACTOR",
+      "details": "Minn-Erva"
+    },
+    {
+      "id": 297,
+      "name": "Djimon Hounsou",
+      "role": "ACTOR",
+      "details": "Korath"
+    },
+    {
+      "id": 711,
+      "name": "Lee Pace",
+      "role": "ACTOR",
+      "details": "Ronan"
+    }
+  ]
+}

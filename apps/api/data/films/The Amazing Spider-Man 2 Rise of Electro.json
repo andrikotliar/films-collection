@@ -1,0 +1,157 @@
+{
+  "id": 160,
+  "title": "The Amazing Spider-Man 2: Rise of Electro",
+  "releaseDate": "2014-05-02",
+  "type": "FILM",
+  "duration": 142,
+  "budget": 200000000,
+  "boxOffice": 709000000,
+  "overview": null,
+  "chapterKey": "amazing-spider-man",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=nbp3Ra3Yp74",
+      "order": 1,
+      "id": 186
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2132,
+      "name": "Marc Webb",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1851,
+      "name": "Alex Kurtzman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2135,
+      "name": "Jeff Pinkner",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2134,
+      "name": "Matt Tolmach",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2136,
+      "name": "Pharrell Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2137,
+      "name": "Johnny Marr",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2138,
+      "name": "Mike Einziger",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1389,
+      "name": "Junkie XL",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2139,
+      "name": "Steve Mazzaro",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2140,
+      "name": "Andrew Kawczynski",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1730,
+      "name": "Dan Mindel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 57,
+      "name": "Andrew Garfield",
+      "role": "ACTOR",
+      "details": "Spider-Man / Peter Parker"
+    },
+    {
+      "id": 344,
+      "name": "Emma Stone",
+      "role": "ACTOR",
+      "details": "Gwen Stacy"
+    },
+    {
+      "id": 517,
+      "name": "Jamie Foxx",
+      "role": "ACTOR",
+      "details": "Electro / Max Dillon"
+    },
+    {
+      "id": 243,
+      "name": "Dane DeHaan",
+      "role": "ACTOR",
+      "details": "Green Goblin / Harry Osborn"
+    }
+  ]
+}

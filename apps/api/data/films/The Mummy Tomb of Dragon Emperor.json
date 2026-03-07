@@ -1,0 +1,135 @@
+{
+  "id": 203,
+  "title": "The Mummy: Tomb of Dragon Emperor",
+  "releaseDate": "2008-08-01",
+  "type": "FILM",
+  "duration": 112,
+  "budget": 145000000,
+  "boxOffice": 401000000,
+  "overview": null,
+  "chapterKey": "mummy",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5-4qSE2Ch0Y",
+      "order": 1,
+      "id": 230
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2159,
+      "name": "Rob Cohen",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2247,
+      "name": "Alfred Gough",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2248,
+      "name": "Miles Millar",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2244,
+      "name": "Stephen Sommers",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2246,
+      "name": "Sean Daniel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2249,
+      "name": "Randy Edelman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1679,
+      "name": "Simon Duggan",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 144,
+      "name": "Brendan Fraser",
+      "role": "ACTOR",
+      "details": "Rick O'Connell"
+    },
+    {
+      "id": 561,
+      "name": "Jet Li",
+      "role": "ACTOR",
+      "details": "Emperor"
+    },
+    {
+      "id": 776,
+      "name": "Maria Bello",
+      "role": "ACTOR",
+      "details": "Evelyn O'Connell"
+    },
+    {
+      "id": 583,
+      "name": "John Hannah",
+      "role": "ACTOR",
+      "details": "Jonathan Carnahan"
+    },
+    {
+      "id": 839,
+      "name": "Michelle Yeoh",
+      "role": "ACTOR",
+      "details": "Zi Yuan"
+    },
+    {
+      "id": 751,
+      "name": "Luke Ford",
+      "role": "ACTOR",
+      "details": "Alex O'Connell"
+    },
+    {
+      "id": 468,
+      "name": "Isabella Leong",
+      "role": "ACTOR",
+      "details": "Lin"
+    },
+    {
+      "id": 1017,
+      "name": "Russell Wong",
+      "role": "ACTOR",
+      "details": "Ming Guo"
+    }
+  ]
+}

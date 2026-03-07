@@ -1,0 +1,153 @@
+{
+  "id": 110,
+  "title": "Now You See Me",
+  "releaseDate": "2013-05-31",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 75000000,
+  "boxOffice": 352000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Crime",
+      "id": 7
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Summit Entertainment",
+      "id": 43
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=KzJNYYkkhzc",
+      "order": 1,
+      "id": 124
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1862,
+      "name": "Louis Leterrier",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1825,
+      "name": "Ed Solomon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1863,
+      "name": "Boaz Yakin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1864,
+      "name": "Edward Ricourt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1865,
+      "name": "Bobby Cohen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1851,
+      "name": "Alex Kurtzman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1866,
+      "name": "Mitchell Amundsen",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1390,
+      "name": "Larry Fong",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 555,
+      "name": "Jesse Eisenberg",
+      "role": "ACTOR",
+      "details": "J. Daniel Atlas"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Dylan Rhodes"
+    },
+    {
+      "id": 1190,
+      "name": "Woody Harrelson",
+      "role": "ACTOR",
+      "details": "Merritt McKinney"
+    },
+    {
+      "id": 470,
+      "name": "Isla Fisher",
+      "role": "ACTOR",
+      "details": "Henley Reeves"
+    },
+    {
+      "id": 264,
+      "name": "Dave Franco",
+      "role": "ACTOR",
+      "details": "Jack Wilder"
+    },
+    {
+      "id": 860,
+      "name": "Mélanie Laurent",
+      "role": "ACTOR",
+      "details": "Alma Dray"
+    },
+    {
+      "id": 854,
+      "name": "Morgan Freeman",
+      "role": "ACTOR",
+      "details": "Thaddeus Bradley"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Arthur Tressler"
+    }
+  ]
+}

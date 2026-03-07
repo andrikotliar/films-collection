@@ -1,0 +1,142 @@
+{
+  "id": 178,
+  "title": "The Hunger Games: Catching Fire",
+  "releaseDate": "2013-11-22",
+  "type": "FILM",
+  "duration": 146,
+  "budget": 130000000,
+  "boxOffice": 865000000,
+  "overview": null,
+  "chapterKey": "hunger-games",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lionsgate",
+      "id": 57
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=EAzGXqJSDJ8",
+      "order": 1,
+      "id": 204
+    }
+  ],
+  "awards": [
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Movie of the Year",
+          "id": 185
+        },
+        {
+          "title": "Best Male Performance",
+          "id": 187
+        },
+        {
+          "title": "Best Female Performance",
+          "id": 196
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1680,
+      "name": "Francis Lawrence",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2180,
+      "name": "Simon Beaufoy",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2003,
+      "name": "Michael Arndt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2177,
+      "name": "Nina Jacobson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2178,
+      "name": "Jon Kilik",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2181,
+      "name": "Jo Willems",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 547,
+      "name": "Jennifer Lawrence",
+      "role": "ACTOR",
+      "details": "Katniss Everdeen"
+    },
+    {
+      "id": 620,
+      "name": "Josh Hutcherson",
+      "role": "ACTOR",
+      "details": "Peeta Mellark"
+    },
+    {
+      "id": 722,
+      "name": "Liam Hemsworth",
+      "role": "ACTOR",
+      "details": "Gale Hawthorne"
+    },
+    {
+      "id": 1190,
+      "name": "Woody Harrelson",
+      "role": "ACTOR",
+      "details": "Haymitch Abernathy"
+    },
+    {
+      "id": 327,
+      "name": "Elizabeth Banks",
+      "role": "ACTOR",
+      "details": "Effie Trinket"
+    },
+    {
+      "id": 309,
+      "name": "Donald Sutherland",
+      "role": "ACTOR",
+      "details": "President Coriolanus Snow"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 254,
+  "title": "Arrival",
+  "releaseDate": "2016-11-10",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 47000000,
+  "boxOffice": 212000000,
+  "overview": "<p></p>",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lawa Bear Films",
+      "id": 77
+    },
+    {
+      "title": "FilmNation Entertainment",
+      "id": 78
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/tFMo3UJ4B4g?si=tyySWoDsIEcXMksI",
+      "order": 1,
+      "id": 292
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Adapted Screenplay",
+          "id": 231
+        },
+        {
+          "title": "Best Sci-Fi/Horror Movie",
+          "id": 70
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 107
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1443,
+      "name": "Denis Villeneuve",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2522,
+      "name": "Eric Heisserer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2523,
+      "name": "Johann Johannsson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1960,
+      "name": "Bradford Young",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 54,
+      "name": "Amy Adams",
+      "role": "ACTOR",
+      "details": "Louise Banks"
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "ACTOR",
+      "details": "lan Donnelly"
+    },
+    {
+      "id": 377,
+      "name": "Forest Whitaker",
+      "role": "ACTOR",
+      "details": "Colonel Weber"
+    }
+  ]
+}

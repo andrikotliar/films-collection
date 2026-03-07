@@ -1,0 +1,127 @@
+{
+  "id": 196,
+  "title": "The Matrix Revolutions",
+  "releaseDate": "2003-11-05",
+  "type": "FILM",
+  "duration": 129,
+  "budget": 110000000,
+  "boxOffice": 427000000,
+  "overview": null,
+  "chapterKey": "matrix",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=hMbexEPAOQI",
+      "order": 1,
+      "id": 223
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2230,
+      "name": "The Wachowski Brothers",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2230,
+      "name": "The Wachowski Brothers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1901,
+      "name": "Joel Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1743,
+      "name": "Don Davis",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 657,
+      "name": "Keanu Reeves",
+      "role": "ACTOR",
+      "details": "Neo"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Morpheus"
+    },
+    {
+      "id": 173,
+      "name": "Carrie-Anne Moss",
+      "role": "ACTOR",
+      "details": "Trinity"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Agent Smith"
+    },
+    {
+      "id": 490,
+      "name": "Jada Pinkett Smith",
+      "role": "ACTOR",
+      "details": "Niobe"
+    },
+    {
+      "id": 433,
+      "name": "Harry J. Lennix",
+      "role": "ACTOR",
+      "details": "Lock"
+    },
+    {
+      "id": 430,
+      "name": "Harold Perrineau",
+      "role": "ACTOR",
+      "details": "Link"
+    },
+    {
+      "id": 795,
+      "name": "Mary Alice",
+      "role": "ACTOR",
+      "details": "Oracle"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": 168,
+  "title": "The Dark Knight Rises",
+  "releaseDate": "2012-07-20",
+  "type": "FILM",
+  "duration": 165,
+  "budget": 250000000,
+  "boxOffice": 1000000000,
+  "overview": null,
+  "chapterKey": "dark-knight",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=GokKUqLcvD8",
+      "order": 1,
+      "id": 194
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1713,
+      "name": "Jonathan Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1385,
+      "name": "Wally Pfister",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "Bruce Wayne"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Commissioner Gordon"
+    },
+    {
+      "id": 1131,
+      "name": "Tom Hardy",
+      "role": "ACTOR",
+      "details": "Bane"
+    },
+    {
+      "id": 614,
+      "name": "Joseph Gordon-Levitt",
+      "role": "ACTOR",
+      "details": "Blake"
+    },
+    {
+      "id": 64,
+      "name": "Anne Hathaway",
+      "role": "ACTOR",
+      "details": "Selina"
+    },
+    {
+      "id": 779,
+      "name": "Marion Cotillard",
+      "role": "ACTOR",
+      "details": "Miranda"
+    },
+    {
+      "id": 854,
+      "name": "Morgan Freeman",
+      "role": "ACTOR",
+      "details": "Fox"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Alfred"
+    },
+    {
+      "id": 806,
+      "name": "Matthew Modine",
+      "role": "ACTOR",
+      "details": "Foley"
+    },
+    {
+      "id": 44,
+      "name": "Alon Aboutboul",
+      "role": "ACTOR",
+      "details": "Dr. Pavel"
+    },
+    {
+      "id": 110,
+      "name": "Ben Mendelsohn",
+      "role": "ACTOR",
+      "details": "Daggett"
+    },
+    {
+      "id": 158,
+      "name": "Burn Gorman",
+      "role": "ACTOR",
+      "details": "Stryver"
+    },
+    {
+      "id": 252,
+      "name": "Daniel Sunjata",
+      "role": "ACTOR",
+      "details": "Captain Jones"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": 2,
+  "title": "Avatar",
+  "releaseDate": "2009-12-18",
+  "type": "FILM",
+  "duration": 162,
+  "budget": 237000000,
+  "boxOffice": 2800000000,
+  "overview": null,
+  "chapterKey": "avatar",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=CM79GTEm2ps",
+      "order": 1,
+      "id": 2
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Cinematography",
+          "id": 4
+        },
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        },
+        {
+          "title": "Best Achievement in Art Direction",
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition",
+          "id": 43
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Actress",
+          "id": 38
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Cinematography",
+          "id": 27
+        },
+        {
+          "title": "Best Editing",
+          "id": 48
+        },
+        {
+          "title": "Best Art Direction",
+          "id": 73
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        },
+        {
+          "title": "Best action Movie",
+          "id": 76
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Director - Motion Picture",
+          "id": 118
+        },
+        {
+          "title": "Best Motion Picture - drama",
+          "id": 119
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1294,
+      "name": "Jon Landau",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1290,
+      "name": "James Horner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1338,
+      "name": "Mauro Fiore",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1034,
+      "name": "Sam Worthington",
+      "role": "ACTOR",
+      "details": "Jake Sully"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Neytiri"
+    },
+    {
+      "id": 1068,
+      "name": "Sigourney Weaver",
+      "role": "ACTOR",
+      "details": "Grace Augustine"
+    },
+    {
+      "id": 1084,
+      "name": "Stephen Lang",
+      "role": "ACTOR",
+      "details": "Miles Quaritch"
+    },
+    {
+      "id": 838,
+      "name": "Michelle Rodriguez",
+      "role": "ACTOR",
+      "details": "Trudy Chacon"
+    },
+    {
+      "id": 410,
+      "name": "Giovanni Ribisi",
+      "role": "ACTOR",
+      "details": "Parker Selfridge"
+    },
+    {
+      "id": 571,
+      "name": "Joel David Moore",
+      "role": "ACTOR",
+      "details": "Norm Spellman"
+    },
+    {
+      "id": 1175,
+      "name": "Wes Studi",
+      "role": "ACTOR",
+      "details": "Eytukan"
+    },
+    {
+      "id": 709,
+      "name": "Laz Alonso",
+      "role": "ACTOR",
+      "details": "Tsu'tey"
+    },
+    {
+      "id": 1239,
+      "name": "CCH Pounder",
+      "role": "ACTOR",
+      "details": "Mo'at"
+    }
+  ]
+}

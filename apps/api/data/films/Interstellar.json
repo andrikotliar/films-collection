@@ -1,0 +1,184 @@
+{
+  "id": 82,
+  "title": "Interstellar",
+  "releaseDate": "2014-11-07",
+  "type": "FILM",
+  "duration": 169,
+  "budget": 165000000,
+  "boxOffice": 677000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "order": 1,
+      "id": 94
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Sci-Fi/Horror Movie",
+          "id": 70
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1712,
+      "name": "Cristopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1713,
+      "name": "Jonathan Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1712,
+      "name": "Cristopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1712,
+      "name": "Cristopher Nolan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1714,
+      "name": "Lynda Obst",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1715,
+      "name": "Hoyte Van Hoytema",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 805,
+      "name": "Matthew McConaughey",
+      "role": "ACTOR",
+      "details": "Cooper"
+    },
+    {
+      "id": 558,
+      "name": "Jessica Chastain",
+      "role": "ACTOR",
+      "details": "Murph"
+    },
+    {
+      "id": 64,
+      "name": "Anne Hathaway",
+      "role": "ACTOR",
+      "details": "Brand"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Professor Brand"
+    },
+    {
+      "id": 803,
+      "name": "Matt Damon",
+      "role": "ACTOR",
+      "details": "Mann"
+    }
+  ]
+}

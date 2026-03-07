@@ -1,0 +1,124 @@
+{
+  "id": 143,
+  "title": "Star Wars Episode III: Revenge of the Sith",
+  "releaseDate": "2005-05-19",
+  "type": "FILM",
+  "duration": 140,
+  "budget": 113000000,
+  "boxOffice": 849000000,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    },
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5UnjrG_N8hU",
+      "order": 1,
+      "id": 160
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1993,
+      "name": "George Lucas",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1994,
+      "name": "Rick McCallum",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1995,
+      "name": "David Tattersall",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 363,
+      "name": "Ewan McGregor",
+      "role": "ACTOR",
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "id": 864,
+      "name": "Natalie Portman",
+      "role": "ACTOR",
+      "details": "Padme"
+    },
+    {
+      "id": 436,
+      "name": "Hayden Christensen",
+      "role": "ACTOR",
+      "details": "Anakin Skywalker"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Mace Windu"
+    },
+    {
+      "id": 459,
+      "name": "Ian McDiarmid",
+      "role": "ACTOR",
+      "details": "Palpatine"
+    }
+  ]
+}

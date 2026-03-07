@@ -1,0 +1,166 @@
+{
+  "id": 239,
+  "title": "Zootopia",
+  "releaseDate": "2016-03-04",
+  "type": "FILM",
+  "duration": 108,
+  "budget": 150000000,
+  "boxOffice": 1020000000,
+  "overview": null,
+  "chapterKey": "zootopia",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=jWM0ct-OLsM",
+      "order": 1,
+      "id": 269
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Feature Film",
+          "id": 113
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2386,
+      "name": "Byron Howard",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2387,
+      "name": "Rich Moore",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2388,
+      "name": "Jared Bush",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2389,
+      "name": "Phil Johnston",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2390,
+      "name": "Clark Spencer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2391,
+      "name": "Nathan Warner",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1703,
+      "name": "Brian Leach",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 409,
+      "name": "Ginnifer Goodwin",
+      "role": "ACTOR",
+      "details": "Judy Hopps"
+    },
+    {
+      "id": 524,
+      "name": "Jason Bateman",
+      "role": "ACTOR",
+      "details": "Nick Wilde"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Chief Bogo"
+    },
+    {
+      "id": 550,
+      "name": "Jenny Slate",
+      "role": "ACTOR",
+      "details": "Bellwether"
+    },
+    {
+      "id": 866,
+      "name": "Nate Torrence",
+      "role": "ACTOR",
+      "details": "Clawhauser"
+    },
+    {
+      "id": 136,
+      "name": "Bonnie Hunt",
+      "role": "ACTOR",
+      "details": "Bonnie Hopps"
+    },
+    {
+      "id": 306,
+      "name": "Don Lake",
+      "role": "ACTOR",
+      "details": "Stu Hopps"
+    }
+  ]
+}

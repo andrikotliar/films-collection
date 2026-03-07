@@ -1,0 +1,142 @@
+{
+  "id": 211,
+  "title": "The Witcher",
+  "releaseDate": "2019-12-20",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Poland",
+      "id": 7
+    },
+    {
+      "title": "Hungary",
+      "id": 17
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ndl1W4ltcmg",
+      "order": 1,
+      "id": 240
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2aMVzFlApa0",
+      "order": 2,
+      "id": 241
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2280,
+      "name": "Lauren Schmidt Hissrich",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 443,
+      "name": "Henry Cavill",
+      "role": "ACTOR",
+      "details": "Geralt of Rivia"
+    },
+    {
+      "id": 389,
+      "name": "Freya Allan",
+      "role": "ACTOR",
+      "details": "Ciri"
+    },
+    {
+      "id": 78,
+      "name": "Anya Chalotra",
+      "role": "ACTOR",
+      "details": "Yennefer"
+    },
+    {
+      "id": 858,
+      "name": "MyAnna Buring",
+      "role": "ACTOR",
+      "details": "Tissaia"
+    },
+    {
+      "id": 1186,
+      "name": "Wilson Radjou-Pujalte",
+      "role": "ACTOR",
+      "details": "Dara"
+    },
+    {
+      "id": 8,
+      "name": "Adam Levy",
+      "role": "ACTOR",
+      "details": "Mousesack"
+    },
+    {
+      "id": 699,
+      "name": "Lars Mikkelsen",
+      "role": "ACTOR",
+      "details": "Stregobor"
+    },
+    {
+      "id": 1010,
+      "name": "Royce Pierreson",
+      "role": "ACTOR",
+      "details": "Istredd"
+    },
+    {
+      "id": 565,
+      "name": "Jodhi May",
+      "role": "ACTOR",
+      "details": "Queen Calanthe"
+    },
+    {
+      "id": 1234,
+      "name": "Eamon Farren",
+      "role": "ACTOR",
+      "details": "Cahir"
+    },
+    {
+      "id": 1235,
+      "name": "Joey Batey",
+      "role": "ACTOR",
+      "details": "Jaskier"
+    },
+    {
+      "id": 1236,
+      "name": "Mahesh Jadu",
+      "role": "ACTOR",
+      "details": "Vilgefortz"
+    }
+  ],
+  "seriesExtension": {
+    "id": 18,
+    "episodesTotal": 16,
+    "seasonsTotal": 2,
+    "finishedAt": "2021-12-17"
+  }
+}

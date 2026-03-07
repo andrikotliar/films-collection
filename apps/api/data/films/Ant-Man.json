@@ -1,0 +1,162 @@
+{
+  "id": 13,
+  "title": "Ant-Man",
+  "releaseDate": "2015-07-17",
+  "type": "FILM",
+  "duration": 117,
+  "budget": 130000000,
+  "boxOffice": 519000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 14,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=pWdKf3MneyI",
+      "order": 1,
+      "id": 13
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "id": 42
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1305,
+      "name": "Peyton Reed",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1306,
+      "name": "Edgar Wright",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1307,
+      "name": "Joe Cornish",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1308,
+      "name": "Adam McKay",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 910,
+      "name": "Paul Rudd",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1310,
+      "name": "Russell Carpenter",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 910,
+      "name": "Paul Rudd",
+      "role": "ACTOR",
+      "details": "Scott Lang / Ant-Man"
+    },
+    {
+      "id": 822,
+      "name": "Michael Douglas",
+      "role": "ACTOR",
+      "details": "Dr. Hank Pym"
+    },
+    {
+      "id": 361,
+      "name": "Evangeline Lilly",
+      "role": "ACTOR",
+      "details": "Hope van Dyne"
+    },
+    {
+      "id": 229,
+      "name": "Corey Stoll",
+      "role": "ACTOR",
+      "details": "Darren Cross / Yellowjacket"
+    },
+    {
+      "id": 134,
+      "name": "Bobby Cannavale",
+      "role": "ACTOR",
+      "details": "Paxton"
+    },
+    {
+      "id": 828,
+      "name": "Michael Pena",
+      "role": "ACTOR",
+      "details": "Luis"
+    },
+    {
+      "id": 74,
+      "name": "Anthony Mackie",
+      "role": "ACTOR",
+      "details": "Sam Wilson / Falcon"
+    },
+    {
+      "id": 625,
+      "name": "Judy Greer",
+      "role": "ACTOR",
+      "details": "Maggie Lang"
+    },
+    {
+      "id": 5,
+      "name": "Abby Ryder Fortson",
+      "role": "ACTOR",
+      "details": "Cassie Lang"
+    }
+  ]
+}

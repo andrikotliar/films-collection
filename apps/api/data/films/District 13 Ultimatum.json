@@ -1,0 +1,125 @@
+{
+  "id": 35,
+  "title": "District 13: Ultimatum",
+  "releaseDate": "2009-02-18",
+  "type": "FILM",
+  "duration": 106,
+  "budget": 14000000,
+  "boxOffice": 14000000,
+  "overview": null,
+  "chapterKey": "b13",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Europacorp",
+      "id": 27
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=jDDFNpj9xBQ",
+      "order": 1,
+      "id": 37
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1436,
+      "name": "Patrick Alessandrin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1434,
+      "name": "Damien Roques",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1437,
+      "name": "Trak invasion",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1438,
+      "name": "Jean-François Hensgens",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 234,
+      "name": "Cyril Raffaelli",
+      "role": "ACTOR",
+      "details": "Damien Tomaso"
+    },
+    {
+      "id": 267,
+      "name": "David Belle",
+      "role": "ACTOR",
+      "details": "Leito"
+    },
+    {
+      "id": 929,
+      "name": "Philippe Torreton",
+      "role": "ACTOR",
+      "details": "The President"
+    },
+    {
+      "id": 247,
+      "name": "Daniel Duval",
+      "role": "ACTOR",
+      "details": "Walter Gassman"
+    },
+    {
+      "id": 335,
+      "name": "Elodie Yung",
+      "role": "ACTOR",
+      "details": "Tao"
+    },
+    {
+      "id": 758,
+      "name": "MC Jean Gab'1",
+      "role": "ACTOR",
+      "details": "Molko"
+    },
+    {
+      "id": 504,
+      "name": "James Deano",
+      "role": "ACTOR",
+      "details": "Karl le skin"
+    },
+    {
+      "id": 697,
+      "name": "Laouni Mouhid",
+      "role": "ACTOR",
+      "details": "Ali-K"
+    }
+  ]
+}

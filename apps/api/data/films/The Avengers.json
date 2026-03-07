@@ -1,0 +1,198 @@
+{
+  "id": 161,
+  "title": "The Avengers",
+  "releaseDate": "2012-05-04",
+  "type": "FILM",
+  "duration": 143,
+  "budget": 220000000,
+  "boxOffice": 1520000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 7,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=hIR8Ar-Z4hw",
+      "order": 1,
+      "id": 187
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Movie of the Year",
+          "id": 185
+        },
+        {
+          "title": "Best Villain",
+          "id": 184
+        },
+        {
+          "title": "Best Fight",
+          "id": 194
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2141,
+      "name": "Joss Whedon",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2141,
+      "name": "Joss Whedon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2142,
+      "name": "Seamus McGarvey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Bruce Banner / The Hulk"
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "ACTOR",
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "id": 1132,
+      "name": "Tom Hiddleston",
+      "role": "ACTOR",
+      "details": "Loki"
+    },
+    {
+      "id": 216,
+      "name": "Clark Gregg",
+      "role": "ACTOR",
+      "details": "Agent Phil Coulson"
+    },
+    {
+      "id": 221,
+      "name": "Cobie Smulders",
+      "role": "ACTOR",
+      "details": "Agent Maria Hill"
+    },
+    {
+      "id": 1080,
+      "name": "Stellan Skarsgard",
+      "role": "ACTOR",
+      "details": "Selvig"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 423,
+      "name": "Gwyneth Paltrow",
+      "role": "ACTOR",
+      "details": "Pepper Potts"
+    },
+    {
+      "id": 905,
+      "name": "Paul Bettany",
+      "role": "ACTOR",
+      "details": "Jarvis"
+    }
+  ]
+}

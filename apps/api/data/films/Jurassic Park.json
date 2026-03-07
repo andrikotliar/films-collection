@@ -1,0 +1,192 @@
+{
+  "id": 87,
+  "title": "Jurassic Park",
+  "releaseDate": "1993-06-11",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 63000000,
+  "boxOffice": 1030000000,
+  "overview": null,
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    },
+    {
+      "title": "Amblin Entertainment",
+      "id": 39
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=QWBKEmWWL38",
+      "order": 1,
+      "id": 99
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "id": 2
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jupiter Award",
+      "nominations": [
+        {
+          "title": "Best International Film",
+          "id": 210
+        },
+        {
+          "title": "Best International Director",
+          "id": 211
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1375,
+      "name": "Steven Spielberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1737,
+      "name": "Michael Crichton",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1702,
+      "name": "David Koepp",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1738,
+      "name": "Kathleen Kennedy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1739,
+      "name": "Gerald R. Molen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1377,
+      "name": "Dean Cundey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1031,
+      "name": "Sam Neill",
+      "role": "ACTOR",
+      "details": "Grant"
+    },
+    {
+      "id": 701,
+      "name": "Laura Dern",
+      "role": "ACTOR",
+      "details": "Ellie"
+    },
+    {
+      "id": 542,
+      "name": "Jeff Goldblum",
+      "role": "ACTOR",
+      "details": "Malcolm"
+    },
+    {
+      "id": 965,
+      "name": "Richard Attenborough",
+      "role": "ACTOR",
+      "details": "Hammond"
+    },
+    {
+      "id": 615,
+      "name": "Joseph Mazzello",
+      "role": "ACTOR",
+      "details": "Tim"
+    },
+    {
+      "id": 83,
+      "name": "Ariana Richards",
+      "role": "ACTOR",
+      "details": "Lex"
+    }
+  ]
+}

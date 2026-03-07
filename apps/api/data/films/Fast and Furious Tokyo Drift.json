@@ -1,0 +1,105 @@
+{
+  "id": 42,
+  "title": "Fast and Furious: Tokyo Drift",
+  "releaseDate": "2006-06-16",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 85000000,
+  "boxOffice": 158000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 6,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=p8HQ2JLlc4E",
+      "order": 1,
+      "id": 44
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1462,
+      "name": "Justin Lin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1466,
+      "name": "Stephen F. Windon",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 742,
+      "name": "Lucas Black",
+      "role": "ACTOR",
+      "details": "Sean Boswell"
+    },
+    {
+      "id": 868,
+      "name": "Nathalie Kelley",
+      "role": "ACTOR",
+      "details": "Neela"
+    },
+    {
+      "id": 1095,
+      "name": "Sung Kang",
+      "role": "ACTOR",
+      "details": "Han"
+    },
+    {
+      "id": 148,
+      "name": "Brian Tee",
+      "role": "ACTOR",
+      "details": "Twinkie"
+    },
+    {
+      "id": 137,
+      "name": "Bow Wow",
+      "role": "ACTOR",
+      "details": "Takashi"
+    }
+  ]
+}

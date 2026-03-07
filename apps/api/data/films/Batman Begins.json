@@ -1,0 +1,192 @@
+{
+  "id": 23,
+  "title": "Batman Begins",
+  "releaseDate": "2005-06-15",
+  "type": "FILM",
+  "duration": 140,
+  "budget": 150000000,
+  "boxOffice": 375000000,
+  "overview": null,
+  "chapterKey": "dark-knight",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=neY2xVmOfUM",
+      "order": 1,
+      "id": 23
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Hero",
+          "id": 183
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1379,
+      "name": "David S. Goyer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1382,
+      "name": "Larry Franco",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1385,
+      "name": "Wally Pfister",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "Bruce Wayne / Batman"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Alfred"
+    },
+    {
+      "id": 724,
+      "name": "Liam Neeson",
+      "role": "ACTOR",
+      "details": "Anri Ducard / Ra's al Ghul"
+    },
+    {
+      "id": 653,
+      "name": "Katie Holmes",
+      "role": "ACTOR",
+      "details": "Rachel Dawes"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Jim Gordon"
+    },
+    {
+      "id": 214,
+      "name": "Cillian Murphy",
+      "role": "ACTOR",
+      "details": "Dr. Jonathan Crane / The Scarecrow"
+    },
+    {
+      "id": 1139,
+      "name": "Tom Wilkinson",
+      "role": "ACTOR",
+      "details": "Carmine Falcone"
+    },
+    {
+      "id": 1018,
+      "name": "Rutger Hauer",
+      "role": "ACTOR",
+      "details": "Earle"
+    },
+    {
+      "id": 665,
+      "name": "Ken Watanabe",
+      "role": "ACTOR",
+      "details": "Ra's Al Ghul"
+    },
+    {
+      "id": 854,
+      "name": "Morgan Freeman",
+      "role": "ACTOR",
+      "details": "Lucius Fox"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": 89,
+  "title": "Jurassic World",
+  "releaseDate": "2015-06-12",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 150000000,
+  "boxOffice": 1670000000,
+  "overview": null,
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=RFinNxS5KN4",
+      "order": 1,
+      "id": 101
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor",
+          "id": 40
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best action Performance",
+          "id": 190
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1744,
+      "name": "Colin Trevorrow",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1364,
+      "name": "Rick Jaffa",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1745,
+      "name": "Derek Connolly",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1744,
+      "name": "Colin Trevorrow",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1704,
+      "name": "Frank Marshall",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1746,
+      "name": "Patrick Crowley",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1747,
+      "name": "John Schwartzman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 199,
+      "name": "Chris Pratt",
+      "role": "ACTOR",
+      "details": "Owen"
+    },
+    {
+      "id": 157,
+      "name": "Bryce Dallas Howard",
+      "role": "ACTOR",
+      "details": "Claire"
+    },
+    {
+      "id": 466,
+      "name": "Irrfan Khan",
+      "role": "ACTOR",
+      "details": "Masrani"
+    },
+    {
+      "id": 1165,
+      "name": "Vincent D'Onofrio",
+      "role": "ACTOR",
+      "details": "Hoskins"
+    },
+    {
+      "id": 1153,
+      "name": "Ty Simpkins",
+      "role": "ACTOR",
+      "details": "Gray"
+    },
+    {
+      "id": 872,
+      "name": "Nick Robinson",
+      "role": "ACTOR",
+      "details": "Zach"
+    },
+    {
+      "id": 893,
+      "name": "Omar Sy",
+      "role": "ACTOR",
+      "details": "Barry"
+    },
+    {
+      "id": 98,
+      "name": "B.D. Wong",
+      "role": "ACTOR",
+      "details": "Dr. Henry Wu"
+    },
+    {
+      "id": 702,
+      "name": "Lauren Lapkus",
+      "role": "ACTOR",
+      "details": "Vivian"
+    }
+  ]
+}

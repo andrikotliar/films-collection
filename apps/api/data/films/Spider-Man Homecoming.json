@@ -1,0 +1,150 @@
+{
+  "id": 137,
+  "title": "Spider-Man: Homecoming",
+  "releaseDate": "2017-07-07",
+  "type": "FILM",
+  "duration": 133,
+  "budget": 175000000,
+  "boxOffice": 880000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 18,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=n9DwoQ7HWvI",
+      "order": 1,
+      "id": 154
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor",
+          "id": 40
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1976,
+      "name": "Jon Watts",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1979,
+      "name": "Jonathan Goldstein",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1980,
+      "name": "John Francis Daley",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1976,
+      "name": "Jon Watts",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1981,
+      "name": "Christopher Ford",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1977,
+      "name": "Amy Pascal",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1982,
+      "name": "Salvatore Totino",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 825,
+      "name": "Michael Keaton",
+      "role": "ACTOR",
+      "details": "Adrian Toomes / Vulture"
+    },
+    {
+      "id": 1133,
+      "name": "Tom Holland",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 780,
+      "name": "Marisa Tomei",
+      "role": "ACTOR",
+      "details": "May Parker"
+    },
+    {
+      "id": 1201,
+      "name": "Zendaya",
+      "role": "ACTOR",
+      "details": "Michelle"
+    },
+    {
+      "id": 489,
+      "name": "Jacob Batalon",
+      "role": "ACTOR",
+      "details": "Ned"
+    }
+  ]
+}

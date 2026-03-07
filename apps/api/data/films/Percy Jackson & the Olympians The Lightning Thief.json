@@ -1,0 +1,171 @@
+{
+  "id": 114,
+  "title": "Percy Jackson & the Olympians: The Lightning Thief",
+  "releaseDate": "2010-02-12",
+  "type": "FILM",
+  "duration": 95,
+  "budget": 95000000,
+  "boxOffice": 226000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=xko1Mx5w4tg",
+      "order": 1,
+      "id": 128
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1560,
+      "name": "Chris Columbus",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1885,
+      "name": "Craig Titley",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1886,
+      "name": "Karen Rosenfelt",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1560,
+      "name": "Chris Columbus",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1887,
+      "name": "Michael Barnathan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1888,
+      "name": "Mark Redcliff",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1889,
+      "name": "Stephen Goldblatt",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 735,
+      "name": "Logan Lerman",
+      "role": "ACTOR",
+      "details": "Percy Jackson"
+    },
+    {
+      "id": 143,
+      "name": "Brandon T. Jackson",
+      "role": "ACTOR",
+      "details": "Grover"
+    },
+    {
+      "id": 34,
+      "name": "Alexandra Daddario",
+      "role": "ACTOR",
+      "details": "Annabeth"
+    },
+    {
+      "id": 496,
+      "name": "Jake Abel",
+      "role": "ACTOR",
+      "details": "Luke"
+    },
+    {
+      "id": 1045,
+      "name": "Sean Bean",
+      "role": "ACTOR",
+      "details": "Zeus"
+    },
+    {
+      "id": 932,
+      "name": "Pierce Brosnan",
+      "role": "ACTOR",
+      "details": "Mr. Brunner / Chiron"
+    },
+    {
+      "id": 1091,
+      "name": "Steve Coogan",
+      "role": "ACTOR",
+      "details": "Hades"
+    },
+    {
+      "id": 1004,
+      "name": "Rosario Dawson",
+      "role": "ACTOR",
+      "details": "Persephone"
+    },
+    {
+      "id": 813,
+      "name": "Melina Kanakaredes",
+      "role": "ACTOR",
+      "details": "Athena"
+    },
+    {
+      "id": 176,
+      "name": "Catherine Keener",
+      "role": "ACTOR",
+      "details": "Sally Jackson"
+    },
+    {
+      "id": 677,
+      "name": "Kevin McKidd",
+      "role": "ACTOR",
+      "details": "Poseidon"
+    }
+  ]
+}

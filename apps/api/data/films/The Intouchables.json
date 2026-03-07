@@ -1,0 +1,131 @@
+{
+  "id": 182,
+  "title": "The Intouchables",
+  "releaseDate": "2011-11-02",
+  "type": "FILM",
+  "duration": 112,
+  "budget": 11000000,
+  "boxOffice": 427000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Biography",
+      "id": 13
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "France",
+      "id": 4
+    }
+  ],
+  "studios": [
+    {
+      "title": "Gaumont",
+      "id": 58
+    },
+    {
+      "title": "TF1 Films Productions",
+      "id": 48
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=34WIbmXkewU",
+      "order": 1,
+      "id": 208
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2185,
+      "name": "Oliver Nakache",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2186,
+      "name": "Eric Toledano",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2187,
+      "name": "Olivier Nakache",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2186,
+      "name": "Eric Toledano",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2188,
+      "name": "Nicolas Duval Adassovsky",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2189,
+      "name": "Yann Zenou",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2190,
+      "name": "Laurent Zeitoun",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2191,
+      "name": "Ludovico Einaudi",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2192,
+      "name": "Mathieu Vadepied",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 380,
+      "name": "Francois Cluzet",
+      "role": "ACTOR",
+      "details": "Philippe"
+    },
+    {
+      "id": 893,
+      "name": "Omar Sy",
+      "role": "ACTOR",
+      "details": "Driss"
+    },
+    {
+      "id": 68,
+      "name": "Anne Le Ny",
+      "role": "ACTOR",
+      "details": "Yvonne"
+    },
+    {
+      "id": 94,
+      "name": "Audrey Fleurot",
+      "role": "ACTOR",
+      "details": "Magalie"
+    }
+  ]
+}

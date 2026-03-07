@@ -1,0 +1,123 @@
+{
+  "id": 121,
+  "title": "Raya and the Last Dragon",
+  "releaseDate": "2021-03-05",
+  "type": "FILM",
+  "duration": 107,
+  "budget": 100000000,
+  "boxOffice": 130000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=1VIZ89FEjYI",
+      "order": 1,
+      "id": 135
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1906,
+      "name": "Don Hall",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1907,
+      "name": "Carlos López Estrada",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1908,
+      "name": "Qui Nguyen",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1909,
+      "name": "Adele Lim",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1910,
+      "name": "Peter Del Vecho",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1911,
+      "name": "Rob Dressel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 662,
+      "name": "Kelly Marie Tran",
+      "role": "ACTOR",
+      "details": "Raya"
+    },
+    {
+      "id": 97,
+      "name": "Awkwafina",
+      "role": "ACTOR",
+      "details": "Sisu"
+    },
+    {
+      "id": 474,
+      "name": "Izaac Wang",
+      "role": "ACTOR",
+      "details": "Boun"
+    },
+    {
+      "id": 398,
+      "name": "Gemma Chan",
+      "role": "ACTOR",
+      "details": "Namaari"
+    },
+    {
+      "id": 246,
+      "name": "Daniel Dae Kim",
+      "role": "ACTOR",
+      "details": "Benja"
+    },
+    {
+      "id": 116,
+      "name": "Benedict Wong",
+      "role": "ACTOR",
+      "details": "Tong"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": 86,
+  "title": "Jumanji",
+  "releaseDate": "1995-12-15",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 65000000,
+  "boxOffice": 263000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Tristar",
+      "id": 38
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=5p18zqZmeiI",
+      "order": 1,
+      "id": 98
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1400,
+      "name": "Joe Johnston",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1731,
+      "name": "Greg Taylor",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1732,
+      "name": "Jonathan Hensleigh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1733,
+      "name": "Jim Strain",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1734,
+      "name": "Scott Kroopf",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1735,
+      "name": "William Teitler",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1290,
+      "name": "James Horner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1736,
+      "name": "Thomas E. Ackerman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 995,
+      "name": "Robin Williams",
+      "role": "ACTOR",
+      "details": "Alan Parrish"
+    },
+    {
+      "id": 136,
+      "name": "Bonnie Hunt",
+      "role": "ACTOR",
+      "details": "Sarah Whittle"
+    },
+    {
+      "id": 684,
+      "name": "Kirsten Dunst",
+      "role": "ACTOR",
+      "details": "Judy Shepherd"
+    },
+    {
+      "id": 142,
+      "name": "Bradley Pierce",
+      "role": "ACTOR",
+      "details": "Peter Shepherd"
+    },
+    {
+      "id": 607,
+      "name": "Jonathan Hyde",
+      "role": "ACTOR",
+      "details": "Van Pelt"
+    }
+  ]
+}

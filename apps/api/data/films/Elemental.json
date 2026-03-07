@@ -1,0 +1,129 @@
+{
+  "id": 253,
+  "title": "Elemental",
+  "releaseDate": "2023-07-07",
+  "type": "FILM",
+  "duration": 101,
+  "budget": 200000000,
+  "boxOffice": 496000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/-cT495xKvvs?si=JgxLj80YM00K-MI1",
+      "order": 1,
+      "id": 291
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2463,
+      "name": "Peter Sohn",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2511,
+      "name": "John Hoberg",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2512,
+      "name": "Katt Likkel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2513,
+      "name": "Brenda Hsueh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2514,
+      "name": "Denise Ream",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1470,
+      "name": "Thomas Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2515,
+      "name": "David Juan Bianchi",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2516,
+      "name": "Jean-Claude Kalache",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2517,
+      "name": "Leah Lewis",
+      "role": "ACTOR",
+      "details": "Ember"
+    },
+    {
+      "id": 2518,
+      "name": "Mamoudou Athie",
+      "role": "ACTOR",
+      "details": "Wade"
+    },
+    {
+      "id": 2519,
+      "name": "Ronnie Del Carmen",
+      "role": "ACTOR",
+      "details": "Bernie"
+    },
+    {
+      "id": 2520,
+      "name": "Shila Ommi",
+      "role": "ACTOR",
+      "details": "Cinder"
+    },
+    {
+      "id": 2521,
+      "name": "Wendi McLendon-Covey",
+      "role": "ACTOR",
+      "details": "Gale"
+    },
+    {
+      "id": 2457,
+      "name": "Catherine O'Hara",
+      "role": "ACTOR",
+      "details": "Brook"
+    }
+  ]
+}

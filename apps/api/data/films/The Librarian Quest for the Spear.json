@@ -1,0 +1,117 @@
+{
+  "id": 186,
+  "title": "The Librarian: Quest for the Spear",
+  "releaseDate": "2004-12-05",
+  "type": "FILM",
+  "duration": 90,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "librarian",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "TNT",
+      "id": 59
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=_LsPz8vCULE",
+      "order": 1,
+      "id": 212
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2208,
+      "name": "Peter Winther",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2209,
+      "name": "David Titcher",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2205,
+      "name": "Phillip M. Goldfarb",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2210,
+      "name": "Gary Hamilton",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2206,
+      "name": "Joseph LoDuca",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2211,
+      "name": "Alan Caso",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 879,
+      "name": "Noah Wyle",
+      "role": "ACTOR",
+      "details": "Flynn Carsen"
+    },
+    {
+      "id": 1075,
+      "name": "Sonya Walger",
+      "role": "ACTOR",
+      "details": "Nicole Noone"
+    },
+    {
+      "id": 133,
+      "name": "Bob Newhart",
+      "role": "ACTOR",
+      "details": "Judson"
+    },
+    {
+      "id": 694,
+      "name": "Kyle MacLachlan",
+      "role": "ACTOR",
+      "details": "Edward Wilde"
+    },
+    {
+      "id": 518,
+      "name": "Jane Curtin",
+      "role": "ACTOR",
+      "details": "Charlene"
+    },
+    {
+      "id": 891,
+      "name": "Olympia Dukakis",
+      "role": "ACTOR",
+      "details": "Margie Carsen"
+    }
+  ]
+}

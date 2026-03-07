@@ -1,0 +1,135 @@
+{
+  "id": 120,
+  "title": "Prince of Persia: The Sand of Time",
+  "releaseDate": "2010-05-10",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 150000000,
+  "boxOffice": 336000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=bZ7Li5w2I-k",
+      "order": 1,
+      "id": 134
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1570,
+      "name": "Mike Newell",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1863,
+      "name": "Boaz Yakin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1903,
+      "name": "Doug Miro",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1904,
+      "name": "Carlo Bernard",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1893,
+      "name": "Jerry Bruckheimer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1905,
+      "name": "Harry Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1579,
+      "name": "John Seale",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 498,
+      "name": "Jake Gyllenhaal",
+      "role": "ACTOR",
+      "details": "Dastan"
+    },
+    {
+      "id": 397,
+      "name": "Gemma Arterton",
+      "role": "ACTOR",
+      "details": "Tamina"
+    },
+    {
+      "id": 109,
+      "name": "Ben Kingsley",
+      "role": "ACTOR",
+      "details": "Nizam"
+    },
+    {
+      "id": 36,
+      "name": "Alfred Molina",
+      "role": "ACTOR",
+      "details": "Sheik Amar"
+    },
+    {
+      "id": 1092,
+      "name": "Steve Toussaint",
+      "role": "ACTOR",
+      "details": "Seso"
+    },
+    {
+      "id": 1124,
+      "name": "Toby Kebbell",
+      "role": "ACTOR",
+      "details": "Garsiv"
+    },
+    {
+      "id": 967,
+      "name": "Richard Coyle",
+      "role": "ACTOR",
+      "details": "Tus"
+    },
+    {
+      "id": 957,
+      "name": "Reece Ritchie",
+      "role": "ACTOR",
+      "details": "Bis"
+    }
+  ]
+}

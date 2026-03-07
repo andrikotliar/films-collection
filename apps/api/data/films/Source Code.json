@@ -1,0 +1,121 @@
+{
+  "id": 131,
+  "title": "Source Code",
+  "releaseDate": "2011-04-01",
+  "type": "FILM",
+  "duration": 93,
+  "budget": 32000000,
+  "boxOffice": 147000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Thriller",
+      "id": 9
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Summit Entertainment",
+      "id": 43
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=mnJegNyAb1w",
+      "order": 1,
+      "id": 148
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1961,
+      "name": "Duncan Jones",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1962,
+      "name": "Ben Ripley",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1263,
+      "name": "Mark Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1963,
+      "name": "Jordan Wynn",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1964,
+      "name": "Philippe Roussellet",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1965,
+      "name": "Chris Bacon",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1321,
+      "name": "Don Burgess",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 498,
+      "name": "Jake Gyllenhaal",
+      "role": "ACTOR",
+      "details": "Colter Stevens"
+    },
+    {
+      "id": 836,
+      "name": "Michelle Monaghan",
+      "role": "ACTOR",
+      "details": "Christina Warren"
+    },
+    {
+      "id": 1161,
+      "name": "Vera Farmiga",
+      "role": "ACTOR",
+      "details": "Colleen Goodwin"
+    },
+    {
+      "id": 544,
+      "name": "Jeffrey Wright",
+      "role": "ACTOR",
+      "details": "Dr. Rutledge"
+    },
+    {
+      "id": 817,
+      "name": "Michael Arden",
+      "role": "ACTOR",
+      "details": "Derek Frost"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": 10,
+  "title": "Aliens",
+  "releaseDate": "1986-07-18",
+  "type": "FILM",
+  "duration": 137,
+  "budget": 18000000,
+  "boxOffice": 131000000,
+  "overview": null,
+  "chapterKey": "alien",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=oSeQQlaCZgU",
+      "order": 1,
+      "id": 10
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound Effects Editing",
+          "id": 2
+        },
+        {
+          "title": "Best Effects, Visual Effects",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "id": 34
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Actress",
+          "id": 38
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "id": 40
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1289,
+      "name": "Gale Anne Hurd",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1290,
+      "name": "James Horner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1291,
+      "name": "Adrian Biddle",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1068,
+      "name": "Sigourney Weaver",
+      "role": "ACTOR",
+      "details": "Ripley"
+    },
+    {
+      "id": 172,
+      "name": "Carrie Henn",
+      "role": "ACTOR",
+      "details": "Newt"
+    },
+    {
+      "id": 820,
+      "name": "Michael Biehn",
+      "role": "ACTOR",
+      "details": "Corporal Hicks"
+    },
+    {
+      "id": 908,
+      "name": "Paul Reiser",
+      "role": "ACTOR",
+      "details": "Carter J. Burke"
+    },
+    {
+      "id": 696,
+      "name": "Lance Henriksen",
+      "role": "ACTOR",
+      "details": "Bishop"
+    },
+    {
+      "id": 125,
+      "name": "Bill Paxton",
+      "role": "ACTOR",
+      "details": "Private Hudson"
+    }
+  ]
+}

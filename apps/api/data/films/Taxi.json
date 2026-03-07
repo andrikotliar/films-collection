@@ -1,0 +1,117 @@
+{
+  "id": 154,
+  "title": "Taxi",
+  "releaseDate": "1998-04-04",
+  "type": "FILM",
+  "duration": 86,
+  "budget": 9000000,
+  "boxOffice": 44000000,
+  "overview": null,
+  "chapterKey": "taxi",
+  "chapterOrder": 1,
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "TF1 Films Productions",
+      "id": 48
+    },
+    {
+      "title": "ARP Selectio",
+      "id": 49
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=buQxF0eIeXI",
+      "order": 1,
+      "id": 174
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2036,
+      "name": "Gérard Pirès",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1431,
+      "name": "Luc Besson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2037,
+      "name": "Michele Petin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2038,
+      "name": "Laurent Petin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2039,
+      "name": "Akhenaton",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2040,
+      "name": "Jean-Pierre Sauvaire",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1037,
+      "name": "Samy Naceri",
+      "role": "ACTOR",
+      "details": "Daniel Morales"
+    },
+    {
+      "id": 390,
+      "name": "Frédéric Diefenthal",
+      "role": "ACTOR",
+      "details": "Emilien Coutant-Kerbalec"
+    },
+    {
+      "id": 779,
+      "name": "Marion Cotillard",
+      "role": "ACTOR",
+      "details": "Lilly Bertineau"
+    },
+    {
+      "id": 346,
+      "name": "Emma Wiklund",
+      "role": "ACTOR",
+      "details": "Petra"
+    },
+    {
+      "id": 118,
+      "name": "Bernard Farcy",
+      "role": "ACTOR",
+      "details": "Commissaire Gibert"
+    }
+  ]
+}

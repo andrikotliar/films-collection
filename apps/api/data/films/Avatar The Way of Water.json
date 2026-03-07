@@ -1,0 +1,185 @@
+{
+  "id": 18,
+  "title": "Avatar: The Way of Water",
+  "releaseDate": "2022-12-16",
+  "type": "FILM",
+  "duration": 192,
+  "budget": 350000000,
+  "boxOffice": 1400000000,
+  "overview": null,
+  "chapterKey": "avatar",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    },
+    {
+      "title": "Lightstorm Entertainment",
+      "id": 23
+    },
+    {
+      "title": "TSG Entertainment",
+      "id": 24
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=o5F8MOz_IDw",
+      "order": 1,
+      "id": 18
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1364,
+      "name": "Rick Jaffa",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1294,
+      "name": "Jon Landau",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1366,
+      "name": "Simon Franglen",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1310,
+      "name": "Russell Carpenter",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1034,
+      "name": "Sam Worthington",
+      "role": "ACTOR",
+      "details": "Jake Sully"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Neytiri"
+    },
+    {
+      "id": 1068,
+      "name": "Sigourney Weaver",
+      "role": "ACTOR",
+      "details": "Kiri"
+    },
+    {
+      "id": 1084,
+      "name": "Stephen Lang",
+      "role": "ACTOR",
+      "details": "Quaritch"
+    },
+    {
+      "id": 648,
+      "name": "Kate Winslet",
+      "role": "ACTOR",
+      "details": "Ronal"
+    },
+    {
+      "id": 1207,
+      "name": "Cliff Curtis",
+      "role": "ACTOR",
+      "details": "Tonowari"
+    },
+    {
+      "id": 571,
+      "name": "Joel David Moore",
+      "role": "ACTOR",
+      "details": "Norm"
+    },
+    {
+      "id": 1208,
+      "name": "Jamie Flatters",
+      "role": "ACTOR",
+      "details": "Neteyam"
+    },
+    {
+      "id": 1209,
+      "name": "Britain Dalton",
+      "role": "ACTOR",
+      "details": "Lo'Ak"
+    },
+    {
+      "id": 1210,
+      "name": "Trinity Jo-Li Bliss",
+      "role": "ACTOR",
+      "details": "Tuk"
+    },
+    {
+      "id": 1211,
+      "name": "Jack Champion",
+      "role": "ACTOR",
+      "details": "Spider"
+    },
+    {
+      "id": 1212,
+      "name": "Bailey Bass",
+      "role": "ACTOR",
+      "details": "Tsireya"
+    },
+    {
+      "id": 1213,
+      "name": "Filip Gelijo",
+      "role": "ACTOR",
+      "details": "Aonung"
+    },
+    {
+      "id": 1215,
+      "name": "Edie Falco",
+      "role": "ACTOR",
+      "details": "General Ardmore"
+    }
+  ]
+}

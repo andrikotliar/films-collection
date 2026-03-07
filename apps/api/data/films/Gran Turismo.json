@@ -1,0 +1,121 @@
+{
+  "id": 243,
+  "title": "Gran Turismo",
+  "releaseDate": "2023-08-25",
+  "type": "FILM",
+  "duration": 134,
+  "budget": 60000000,
+  "boxOffice": 122000000,
+  "overview": "<p>Gran Turismo is a well-known racing simulation video game. One day, the company behind the game offers players a chance to compete in a selection tournament, where the winner will earn the opportunity to enter a professional racing academy.</p><p>It is an engaging and dynamic story about a young man who has always dreamed of becoming a professional race driver and is one of the best Gran Turismo players. At last, he gets the chance to turn his dream into reality. However, many challenges await him, along with skepticism and disapproval from real professional racers.</p>",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Sport",
+      "id": 18
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=GVPzGBvPrzw&pp=ygUUZ3JhbiB0dXJpc21vIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 297
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2435,
+      "name": "Neill Blomkamp",
+      "role": "DIRECTOR",
+      "details": ""
+    },
+    {
+      "id": 2436,
+      "name": "Jason Hall",
+      "role": "WRITER",
+      "details": ""
+    },
+    {
+      "id": 2437,
+      "name": "Zach Baylin",
+      "role": "WRITER",
+      "details": ""
+    },
+    {
+      "id": 1397,
+      "name": "Lorne Balfe",
+      "role": "COMPOSER",
+      "details": ""
+    },
+    {
+      "id": 2140,
+      "name": "Andrew Kawczynski",
+      "role": "COMPOSER",
+      "details": ""
+    },
+    {
+      "id": 2438,
+      "name": "Jacques Jouffret",
+      "role": "CAMERAMAN",
+      "details": ""
+    },
+    {
+      "id": 2439,
+      "name": "Doug Belgrad",
+      "role": "PRODUCER",
+      "details": ""
+    },
+    {
+      "id": 2440,
+      "name": "Dana Brunetti",
+      "role": "PRODUCER",
+      "details": ""
+    },
+    {
+      "id": 274,
+      "name": "David Harbour",
+      "role": "ACTOR",
+      "details": "Jack Salter"
+    },
+    {
+      "id": 894,
+      "name": "Orlando Bloom",
+      "role": "ACTOR",
+      "details": "Danny Moore"
+    },
+    {
+      "id": 2558,
+      "name": " Archie Madekwe",
+      "role": "ACTOR",
+      "details": "Jann Mardenborough"
+    },
+    {
+      "id": 2559,
+      "name": "Darren Barnet",
+      "role": "ACTOR",
+      "details": "Matty Davis"
+    }
+  ]
+}

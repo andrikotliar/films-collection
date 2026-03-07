@@ -1,0 +1,170 @@
+{
+  "id": 3,
+  "title": "Iron Man",
+  "releaseDate": "2008-05-02",
+  "type": "FILM",
+  "duration": 126,
+  "budget": 140000000,
+  "boxOffice": 585000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=8hYlB38asDY",
+      "order": 1,
+      "id": 3
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Actor",
+          "id": 44
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1716,
+      "name": "Mark Fergus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1717,
+      "name": "Hawk Ostby",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1718,
+      "name": "Art Marcum",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1719,
+      "name": "Matt Holloway",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1461,
+      "name": "Ramin Djawadi",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1720,
+      "name": "Matthew Libatique",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 539,
+      "name": "Jeff Bridges",
+      "role": "ACTOR",
+      "details": "Obadiah Stane"
+    },
+    {
+      "id": 423,
+      "name": "Gwyneth Paltrow",
+      "role": "ACTOR",
+      "details": "Pepper Potts"
+    },
+    {
+      "id": 1110,
+      "name": "Terrence Howard",
+      "role": "ACTOR",
+      "details": "Rhodey"
+    },
+    {
+      "id": 717,
+      "name": "Leslie Bibb",
+      "role": "ACTOR",
+      "details": "Christine Everhart"
+    },
+    {
+      "id": 1062,
+      "name": "Shaun Toub",
+      "role": "ACTOR",
+      "details": "Yinsen"
+    },
+    {
+      "id": 368,
+      "name": "Faran Tahir",
+      "role": "ACTOR",
+      "details": "Raza"
+    },
+    {
+      "id": 216,
+      "name": "Clark Gregg",
+      "role": "ACTOR",
+      "details": "Agent Coulson"
+    }
+  ]
+}

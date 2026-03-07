@@ -1,0 +1,133 @@
+{
+  "id": 205,
+  "title": "The Sorcerer's Apprentice",
+  "releaseDate": "2010-07-14",
+  "type": "FILM",
+  "duration": 109,
+  "budget": 150000000,
+  "boxOffice": 215000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Jerry Bruckheimer Films",
+      "id": 44
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=v2uV0_1C4UM",
+      "order": 1,
+      "id": 232
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2254,
+      "name": "Jon Torteltaub",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1903,
+      "name": "Doug Miro",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1904,
+      "name": "Carlo Bernard",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2255,
+      "name": "Matt Lopez",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1893,
+      "name": "Jerry Bruckheimer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2256,
+      "name": "Trevor Rabin",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2257,
+      "name": "Bojan Bazelli",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 873,
+      "name": "Nicolas Cage",
+      "role": "ACTOR",
+      "details": "Balthazar"
+    },
+    {
+      "id": 533,
+      "name": "Jay Baruchel",
+      "role": "ACTOR",
+      "details": "Dave"
+    },
+    {
+      "id": 36,
+      "name": "Alfred Molina",
+      "role": "ACTOR",
+      "details": "Horvath"
+    },
+    {
+      "id": 1109,
+      "name": "Teresa Palmer",
+      "role": "ACTOR",
+      "details": "Becky"
+    },
+    {
+      "id": 1124,
+      "name": "Toby Kebbell",
+      "role": "ACTOR",
+      "details": "Drake Stone"
+    },
+    {
+      "id": 850,
+      "name": "Monica Bellucci",
+      "role": "ACTOR",
+      "details": "Veronica"
+    },
+    {
+      "id": 40,
+      "name": "Alice Krige",
+      "role": "ACTOR",
+      "details": "Morgana"
+    }
+  ]
+}

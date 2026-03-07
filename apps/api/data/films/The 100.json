@@ -1,0 +1,368 @@
+{
+  "id": 158,
+  "title": "The 100",
+  "releaseDate": "2014-03-19",
+  "type": "SERIES",
+  "duration": 43,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "The CW",
+      "id": 52
+    },
+    {
+      "title": "Warner Bros. Television",
+      "id": 9
+    },
+    {
+      "title": "CBS Television Studios",
+      "id": 53
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ia1Fbg96vL0",
+      "order": 1,
+      "id": 178
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IW7_ZzFZF-o",
+      "order": 2,
+      "id": 179
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uwxwHTu802M",
+      "order": 3,
+      "id": 180
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JQi2MAfpACI",
+      "order": 4,
+      "id": 181
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AGSfZ4xt4UY",
+      "order": 5,
+      "id": 182
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AVDyeT-GsX4",
+      "order": 6,
+      "id": 183
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VQaFKClCUpo",
+      "order": 7,
+      "id": 184
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Youth-Oriented Series on Television",
+          "id": 64
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2085,
+      "name": "Jason Rothenberg",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2125,
+      "name": "Tree Adams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2126,
+      "name": "Marc Dauer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2127,
+      "name": "Evan Frankfort",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2128,
+      "name": "Liz Phair",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2073,
+      "name": "Michael C. Blundell",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2129,
+      "name": "Gerald Packer",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2130,
+      "name": "Philip Linzey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2131,
+      "name": "Jim Stacey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1651,
+      "name": "Nathaniel Goodman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 326,
+      "name": "Eliza Taylor",
+      "role": "ACTOR",
+      "details": "Clarke Griffin"
+    },
+    {
+      "id": 777,
+      "name": "Marie Avgeropoulos",
+      "role": "ACTOR",
+      "details": "Octavia Blake"
+    },
+    {
+      "id": 132,
+      "name": "Bob Morley",
+      "role": "ACTOR",
+      "details": "Bellamy Blake"
+    },
+    {
+      "id": 729,
+      "name": "Lindsey Morgan",
+      "role": "ACTOR",
+      "details": "Raven Reyes"
+    },
+    {
+      "id": 969,
+      "name": "Richard Harmon",
+      "role": "ACTOR",
+      "details": "John Murphy"
+    },
+    {
+      "id": 899,
+      "name": "Paige Turco",
+      "role": "ACTOR",
+      "details": "Dr. Abigail Griffin"
+    },
+    {
+      "id": 446,
+      "name": "Henry Ian Cusick",
+      "role": "ACTOR",
+      "details": "Marcus Kane"
+    },
+    {
+      "id": 208,
+      "name": "Christopher Larkin",
+      "role": "ACTOR",
+      "details": "Monty Green"
+    },
+    {
+      "id": 523,
+      "name": "Jarod Joseph",
+      "role": "ACTOR",
+      "details": "Nathan Miller"
+    },
+    {
+      "id": 469,
+      "name": "Isaiah Washington",
+      "role": "ACTOR",
+      "details": "Thelonious Jaha"
+    },
+    {
+      "id": 1026,
+      "name": "Sachin Sahel",
+      "role": "ACTOR",
+      "details": "Dr. Eric Jackson"
+    },
+    {
+      "id": 1104,
+      "name": "Tasya Teles",
+      "role": "ACTOR",
+      "details": "Echo"
+    },
+    {
+      "id": 12,
+      "name": "Adina Porter",
+      "role": "ACTOR",
+      "details": "Indra"
+    },
+    {
+      "id": 749,
+      "name": "Luisa d'Oliveira",
+      "role": "ACTOR",
+      "details": "Emori"
+    },
+    {
+      "id": 189,
+      "name": "Chelsey Reist",
+      "role": "ACTOR",
+      "details": "Harper McIntyre"
+    },
+    {
+      "id": 976,
+      "name": "Ricky Whittle",
+      "role": "ACTOR",
+      "details": "Lincoln"
+    },
+    {
+      "id": 737,
+      "name": "Lola Flanery",
+      "role": "ACTOR",
+      "details": "Madi Griffin"
+    },
+    {
+      "id": 1059,
+      "name": "Shannon Kook",
+      "role": "ACTOR",
+      "details": "Jordan Green"
+    },
+    {
+      "id": 1105,
+      "name": "Tati Gabrielle",
+      "role": "ACTOR",
+      "details": "Gaia"
+    },
+    {
+      "id": 477,
+      "name": "JR Bourne",
+      "role": "ACTOR",
+      "details": "Sheidheda"
+    },
+    {
+      "id": 472,
+      "name": "Ivana Milicevic",
+      "role": "ACTOR",
+      "details": "Charmaine Diyoza"
+    },
+    {
+      "id": 1117,
+      "name": "Thomas McDonell",
+      "role": "ACTOR",
+      "details": "Finn Collins"
+    },
+    {
+      "id": 352,
+      "name": "Erica Cerra",
+      "role": "ACTOR",
+      "details": "A.L.I.E. / Dr. Becca Franco"
+    },
+    {
+      "id": 31,
+      "name": "Alessandro Juliani",
+      "role": "ACTOR",
+      "details": "Jacapo Sinclair"
+    },
+    {
+      "id": 1195,
+      "name": "Zach McGowan",
+      "role": "ACTOR",
+      "details": "King Roan"
+    },
+    {
+      "id": 46,
+      "name": "Alycia Debnam-Carey",
+      "role": "ACTOR",
+      "details": "Lexa"
+    },
+    {
+      "id": 819,
+      "name": "Michael Beach",
+      "role": "ACTOR",
+      "details": "Charles Pike"
+    },
+    {
+      "id": 362,
+      "name": "Eve Harlow",
+      "role": "ACTOR",
+      "details": "Maya Vie"
+    },
+    {
+      "id": 1048,
+      "name": "Sean Maguire",
+      "role": "ACTOR",
+      "details": "Russell Lightbourne"
+    },
+    {
+      "id": 593,
+      "name": "John Pyper-Ferguson",
+      "role": "ACTOR",
+      "details": "Bill Cadogan"
+    },
+    {
+      "id": 1039,
+      "name": "Sara Thompson",
+      "role": "ACTOR",
+      "details": "Josephine Lightbourne"
+    },
+    {
+      "id": 462,
+      "name": "Ian Pala",
+      "role": "ACTOR",
+      "details": "Dr. Gabriel Santiago"
+    },
+    {
+      "id": 869,
+      "name": "Neal McDonough",
+      "role": "ACTOR",
+      "details": "Anders"
+    },
+    {
+      "id": 525,
+      "name": "Jason Diaz",
+      "role": "ACTOR",
+      "details": "Levitt"
+    }
+  ],
+  "seriesExtension": {
+    "id": 12,
+    "episodesTotal": 100,
+    "seasonsTotal": 7,
+    "finishedAt": "2020-09-30"
+  }
+}

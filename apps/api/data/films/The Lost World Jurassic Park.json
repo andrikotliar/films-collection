@@ -1,0 +1,109 @@
+{
+  "id": 191,
+  "title": "The Lost World: Jurassic Park",
+  "releaseDate": "1997-05-23",
+  "type": "FILM",
+  "duration": 129,
+  "budget": 73000000,
+  "boxOffice": 619000000,
+  "overview": null,
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    },
+    {
+      "title": "Amblin Entertainment",
+      "id": 39
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=RxrvaneULkE",
+      "order": 1,
+      "id": 217
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1375,
+      "name": "Steven Spielberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1702,
+      "name": "David Koepp",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1739,
+      "name": "Gerald R. Molen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1728,
+      "name": "Colin Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1705,
+      "name": "Janusz Kaminski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 542,
+      "name": "Jeff Goldblum",
+      "role": "ACTOR",
+      "details": "Malcolm"
+    },
+    {
+      "id": 965,
+      "name": "Richard Attenborough",
+      "role": "ACTOR",
+      "details": "Hammond"
+    },
+    {
+      "id": 628,
+      "name": "Julianne Moore",
+      "role": "ACTOR",
+      "details": "Sarah Harding"
+    },
+    {
+      "id": 85,
+      "name": "Arliss Howard",
+      "role": "ACTOR",
+      "details": "Peter Ludlow"
+    }
+  ]
+}

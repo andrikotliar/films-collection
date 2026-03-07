@@ -1,0 +1,151 @@
+{
+  "id": 214,
+  "title": "Thor: Ragnarok",
+  "releaseDate": "2017-11-03",
+  "type": "FILM",
+  "duration": 130,
+  "budget": 180000000,
+  "boxOffice": 854000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 20,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+      "order": 1,
+      "id": 244
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1101,
+      "name": "Taika Waititi",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1396,
+      "name": "Eric Pearson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2327,
+      "name": "Craig Kyle",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2222,
+      "name": "Christopher L. Yost",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2243,
+      "name": "Mark Mothersbaugh",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2328,
+      "name": "Javier Aguirresarobe",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 1132,
+      "name": "Tom Hiddleston",
+      "role": "ACTOR",
+      "details": "Loki"
+    },
+    {
+      "id": 175,
+      "name": "Cate Blanchett",
+      "role": "ACTOR",
+      "details": "Hela"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Heimdall"
+    },
+    {
+      "id": 542,
+      "name": "Jeff Goldblum",
+      "role": "ACTOR",
+      "details": "Grandmaster"
+    },
+    {
+      "id": 1111,
+      "name": "Tessa Thompson",
+      "role": "ACTOR",
+      "details": "Valkyrie"
+    },
+    {
+      "id": 641,
+      "name": "Karl Urban",
+      "role": "ACTOR",
+      "details": "Skurge"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "id": 73,
+      "name": "Anthony Hopkins",
+      "role": "ACTOR",
+      "details": "Odin"
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Doctor Strange"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": 250,
+  "title": "Silo",
+  "releaseDate": "2023-05-05",
+  "type": "SERIES",
+  "duration": 49,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "AMC Studios",
+      "id": 72
+    },
+    {
+      "title": "Apple TV+",
+      "id": 73
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=8ZYhuvIv1pA",
+      "order": 1,
+      "id": 285
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CLJDR-vFUdY",
+      "order": 2,
+      "id": 286
+    }
+  ],
+  "awards": [
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Original Music, Fiction",
+          "id": 230
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1967,
+      "name": "Graham Yost",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2478,
+      "name": "Atli Orvarsson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2479,
+      "name": "Mark Patten",
+      "role": "CAMERAMAN",
+      "details": ""
+    },
+    {
+      "id": 2318,
+      "name": "Jean-Philippe Gossart",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 954,
+      "name": "Rebecca Ferguson",
+      "role": "ACTOR",
+      "details": "Juliette Nichols"
+    },
+    {
+      "id": 2480,
+      "name": "Common",
+      "role": "ACTOR",
+      "details": "Robert Sims"
+    },
+    {
+      "id": 2481,
+      "name": "Harriet Walter",
+      "role": "ACTOR",
+      "details": "Martha Wolken"
+    },
+    {
+      "id": 1219,
+      "name": "Tim Robbins",
+      "role": "ACTOR",
+      "details": "Bernard Holland"
+    },
+    {
+      "id": 2482,
+      "name": "Avi Nash",
+      "role": "ACTOR",
+      "details": "Lukas Kyle"
+    },
+    {
+      "id": 2483,
+      "name": "Remmie Milner",
+      "role": "ACTOR",
+      "details": "Shirley Campbell"
+    },
+    {
+      "id": 2484,
+      "name": "Shane McRae",
+      "role": "ACTOR",
+      "details": "Knox"
+    },
+    {
+      "id": 2485,
+      "name": "Billy Postlethwaite",
+      "role": "ACTOR",
+      "details": "Hank"
+    },
+    {
+      "id": 2486,
+      "name": "Steve Zahn",
+      "role": "ACTOR",
+      "details": "Solo"
+    }
+  ],
+  "seriesExtension": {
+    "id": 21,
+    "episodesTotal": 26,
+    "seasonsTotal": 2,
+    "finishedAt": "2025-01-17"
+  }
+}

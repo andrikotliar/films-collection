@@ -1,0 +1,159 @@
+{
+  "id": 106,
+  "title": "Mission: Impossible III",
+  "releaseDate": "2006-05-05",
+  "type": "FILM",
+  "duration": 125,
+  "budget": 150000000,
+  "boxOffice": 398000000,
+  "overview": null,
+  "chapterKey": "mission-impossible",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=rl2bysiyltg",
+      "order": 1,
+      "id": 120
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1851,
+      "name": "Alex Kurtzman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1852,
+      "name": "Roberto Orci",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1839,
+      "name": "Paula Wagner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1730,
+      "name": "Dan Mindel",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Ethan Hunt"
+    },
+    {
+      "id": 927,
+      "name": "Philip Seymour Hoffman",
+      "role": "ACTOR",
+      "details": "Owen Davian"
+    },
+    {
+      "id": 1166,
+      "name": "Ving Rhames",
+      "role": "ACTOR",
+      "details": "Luther"
+    },
+    {
+      "id": 128,
+      "name": "Billy Crudup",
+      "role": "ACTOR",
+      "details": "Musgrave"
+    },
+    {
+      "id": 836,
+      "name": "Michelle Monaghan",
+      "role": "ACTOR",
+      "details": "Julia"
+    },
+    {
+      "id": 610,
+      "name": "Jonathan Rhys Meyers",
+      "role": "ACTOR",
+      "details": "Declan"
+    },
+    {
+      "id": 668,
+      "name": "Keri Russell",
+      "role": "ACTOR",
+      "details": "Lindsey Farris"
+    },
+    {
+      "id": 766,
+      "name": "Maggie Q",
+      "role": "ACTOR",
+      "details": "Zhen"
+    },
+    {
+      "id": 1070,
+      "name": "Simon Pegg",
+      "role": "ACTOR",
+      "details": "Benji"
+    },
+    {
+      "id": 318,
+      "name": "Eddie Marsan",
+      "role": "ACTOR",
+      "details": "Brownway"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Theodore Brassel"
+    }
+  ]
+}

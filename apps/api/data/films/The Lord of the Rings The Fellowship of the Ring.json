@@ -1,0 +1,276 @@
+{
+  "id": 189,
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "releaseDate": "2001-12-19",
+  "type": "FILM",
+  "duration": 178,
+  "budget": 93000000,
+  "boxOffice": 871000000,
+  "overview": null,
+  "chapterKey": "middle-earth",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    }
+  ],
+  "studios": [
+    {
+      "title": "New Line Cinema",
+      "id": 56
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=aStYWD25fAQ",
+      "order": 1,
+      "id": 215
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Cinematography",
+          "id": 27
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release",
+          "id": 54
+        },
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Favorite Film Franchise",
+          "id": 92
+        },
+        {
+          "title": "Best Song",
+          "id": 82
+        },
+        {
+          "title": "Best Composer",
+          "id": 91
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Film",
+          "id": 114
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        },
+        {
+          "title": "Best Make Up/Hair",
+          "id": 109
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Breakthrough Male Performance",
+          "id": 189
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2171,
+      "name": "Philippa Boyens",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2169,
+      "name": "Peter Jackson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2216,
+      "name": "Tim Sanders",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2170,
+      "name": "Fran Walsh",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2215,
+      "name": "Barrie M. Osborne",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1671,
+      "name": "Howard Shore",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1682,
+      "name": "Andrew Lesnie",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 323,
+      "name": "Elijah Wood",
+      "role": "ACTOR",
+      "details": "Frodo Baggins"
+    },
+    {
+      "id": 460,
+      "name": "Ian McKellen",
+      "role": "ACTOR",
+      "details": "Gandalf"
+    },
+    {
+      "id": 1044,
+      "name": "Sean Astin",
+      "role": "ACTOR",
+      "details": "Samwise Gamgee"
+    },
+    {
+      "id": 1163,
+      "name": "Viggo Mortensen",
+      "role": "ACTOR",
+      "details": "Aragorn"
+    },
+    {
+      "id": 127,
+      "name": "Billy Boyd",
+      "role": "ACTOR",
+      "details": "Pereggrin"
+    },
+    {
+      "id": 302,
+      "name": "Dominic Monaghan",
+      "role": "ACTOR",
+      "details": "Meriadoc"
+    },
+    {
+      "id": 595,
+      "name": "John Rhys-Davies",
+      "role": "ACTOR",
+      "details": "Gimli"
+    },
+    {
+      "id": 894,
+      "name": "Orlando Bloom",
+      "role": "ACTOR",
+      "details": "Legolas"
+    },
+    {
+      "id": 1045,
+      "name": "Sean Bean",
+      "role": "ACTOR",
+      "details": "Boromir"
+    },
+    {
+      "id": 458,
+      "name": "Ian Holm",
+      "role": "ACTOR",
+      "details": "Bilbo Baggins"
+    },
+    {
+      "id": 209,
+      "name": "Christopher Lee",
+      "role": "ACTOR",
+      "details": "Saruman"
+    },
+    {
+      "id": 454,
+      "name": "Hugo Weaving",
+      "role": "ACTOR",
+      "details": "Elrond"
+    }
+  ]
+}

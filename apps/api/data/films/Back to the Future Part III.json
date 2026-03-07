@@ -1,0 +1,105 @@
+{
+  "id": 22,
+  "title": "Back to the Future: Part III",
+  "releaseDate": "1990-05-25",
+  "type": "FILM",
+  "duration": 118,
+  "budget": 40000000,
+  "boxOffice": 245000000,
+  "overview": null,
+  "chapterKey": "back-to-the-future",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=EYkguxpqsrg",
+      "order": 1,
+      "id": 22
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1373,
+      "name": "Robert Zemeckis",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1374,
+      "name": "Bob Gale",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1374,
+      "name": "Bob Gale",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1376,
+      "name": "Neil Canton",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1377,
+      "name": "Dean Cundey",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 824,
+      "name": "Michael J. Fox",
+      "role": "ACTOR",
+      "details": "Marty McFly"
+    },
+    {
+      "id": 210,
+      "name": "Christopher Lloyd",
+      "role": "ACTOR",
+      "details": "Dr. Emmett Brown"
+    },
+    {
+      "id": 799,
+      "name": "Mary Steenburgen",
+      "role": "ACTOR",
+      "details": "Clara Clayton"
+    },
+    {
+      "id": 1114,
+      "name": "Thomas F. Wilson",
+      "role": "ACTOR",
+      "details": "Biff Tannen / Griff Tannen"
+    }
+  ]
+}

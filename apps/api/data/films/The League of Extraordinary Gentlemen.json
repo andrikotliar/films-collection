@@ -1,0 +1,139 @@
+{
+  "id": 183,
+  "title": "The League of Extraordinary Gentlemen",
+  "releaseDate": "2003-07-11",
+  "type": "FILM",
+  "duration": 110,
+  "budget": 78000000,
+  "boxOffice": 179000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    },
+    {
+      "title": "Czech Republic",
+      "id": 9
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=_WWIiTlGyYQ",
+      "order": 1,
+      "id": 209
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2193,
+      "name": "Stephen Norrington",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2194,
+      "name": "James Robinson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1918,
+      "name": "Don Murphy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2195,
+      "name": "Trevor Jones",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2196,
+      "name": "Dan Laustsen",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1046,
+      "name": "Sean Connery",
+      "role": "ACTOR",
+      "details": "Allan Quatermain"
+    },
+    {
+      "id": 861,
+      "name": "Naseeruddin Shah",
+      "role": "ACTOR",
+      "details": "Captain Nemo"
+    },
+    {
+      "id": 916,
+      "name": "Peta Wilson",
+      "role": "ACTOR",
+      "details": "Mina Harker"
+    },
+    {
+      "id": 1144,
+      "name": "Tony Curran",
+      "role": "ACTOR",
+      "details": "Rodney Skinner"
+    },
+    {
+      "id": 1094,
+      "name": "Stuart Townsend",
+      "role": "ACTOR",
+      "details": "Dorian Gray"
+    },
+    {
+      "id": 1058,
+      "name": "Shane West",
+      "role": "ACTOR",
+      "details": "Tom Sawyer"
+    },
+    {
+      "id": 526,
+      "name": "Jason Flemyng",
+      "role": "ACTOR",
+      "details": "Dr. Henry Jekyll / Edward Hyde"
+    },
+    {
+      "id": 973,
+      "name": "Richard Roxburgh",
+      "role": "ACTOR",
+      "details": "M"
+    }
+  ]
+}

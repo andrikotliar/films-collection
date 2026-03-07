@@ -1,0 +1,129 @@
+{
+  "id": 40,
+  "title": "Fast & Furious",
+  "releaseDate": "2009-04-03",
+  "type": "FILM",
+  "duration": 107,
+  "budget": 85000000,
+  "boxOffice": 363000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Gl-d_UIhdBw",
+      "order": 1,
+      "id": 42
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1462,
+      "name": "Justin Lin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1465,
+      "name": "Amir Mokri",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Dominic Toretto"
+    },
+    {
+      "id": 911,
+      "name": "Paul Walker",
+      "role": "ACTOR",
+      "details": "Brian O'Conner"
+    },
+    {
+      "id": 613,
+      "name": "Jordana Brewster",
+      "role": "ACTOR",
+      "details": "Mia"
+    },
+    {
+      "id": 838,
+      "name": "Michelle Rodriguez",
+      "role": "ACTOR",
+      "details": "Letty"
+    },
+    {
+      "id": 591,
+      "name": "John Ortiz",
+      "role": "ACTOR",
+      "details": "Campos"
+    },
+    {
+      "id": 709,
+      "name": "Laz Alonso",
+      "role": "ACTOR",
+      "details": "Fenix"
+    },
+    {
+      "id": 392,
+      "name": "Gal Gadot",
+      "role": "ACTOR",
+      "details": "Gisele"
+    },
+    {
+      "id": 1095,
+      "name": "Sung Kang",
+      "role": "ACTOR",
+      "details": "Han"
+    }
+  ]
+}

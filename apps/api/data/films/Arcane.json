@@ -1,0 +1,149 @@
+{
+  "id": 16,
+  "title": "Arcane",
+  "releaseDate": "2021-11-06",
+  "type": "SERIES",
+  "duration": 40,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "France",
+      "id": 4
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    },
+    {
+      "title": "Riot Games",
+      "id": 21
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=3Svs_hl897c",
+      "order": 1,
+      "id": 16
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1322,
+      "name": "Pascal Charrue",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1323,
+      "name": "Arnaud Delord",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1336,
+      "name": "Alex Seaver",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1337,
+      "name": "Alexander Temple",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 424,
+      "name": "Hailee Steinfeld",
+      "role": "ACTOR",
+      "details": "Vi"
+    },
+    {
+      "id": 331,
+      "name": "Ella Purnell",
+      "role": "ACTOR",
+      "details": "Jinx"
+    },
+    {
+      "id": 669,
+      "name": "Kevin Alejandro",
+      "role": "ACTOR",
+      "details": "Jayce"
+    },
+    {
+      "id": 530,
+      "name": "Jason Spisak",
+      "role": "ACTOR",
+      "details": "Silco"
+    },
+    {
+      "id": 434,
+      "name": "Harry Lloyd",
+      "role": "ACTOR",
+      "details": "Viktor"
+    },
+    {
+      "id": 1125,
+      "name": "Toks Olagundoye",
+      "role": "ACTOR",
+      "details": "Mel Medarda"
+    },
+    {
+      "id": 476,
+      "name": "JB Blanc",
+      "role": "ACTOR",
+      "details": "Vander"
+    },
+    {
+      "id": 959,
+      "name": "Remy Hii",
+      "role": "ACTOR",
+      "details": "Marcus"
+    },
+    {
+      "id": 654,
+      "name": "Katie Leung",
+      "role": "ACTOR",
+      "details": "Caitlyn"
+    },
+    {
+      "id": 840,
+      "name": "Mick Wingert",
+      "role": "ACTOR",
+      "details": "Heimerdinger"
+    },
+    {
+      "id": 958,
+      "name": "Reed Shannon",
+      "role": "ACTOR",
+      "details": "Ekko"
+    }
+  ],
+  "seriesExtension": {
+    "id": 1,
+    "episodesTotal": 9,
+    "seasonsTotal": 1,
+    "finishedAt": "2021-11-20"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": 29,
+  "title": "Captain America: The Winter Soldier",
+  "releaseDate": "2014-04-04",
+  "type": "FILM",
+  "duration": 136,
+  "budget": 177000000,
+  "boxOffice": 714000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 10,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=7SlILk2WMTI",
+      "order": 1,
+      "id": 29
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1367,
+      "name": "Anthony Russo",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1368,
+      "name": "Joe Russo",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1399,
+      "name": "Henry Jackman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1372,
+      "name": "Trent Opaloch",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "id": 991,
+      "name": "Robert Redford",
+      "role": "ACTOR",
+      "details": "Alexander Pierce"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": "Bucky Barnes / Winter Soldier"
+    },
+    {
+      "id": 74,
+      "name": "Anthony Mackie",
+      "role": "ACTOR",
+      "details": "Sam Wilson / Falcon"
+    },
+    {
+      "id": 221,
+      "name": "Cobie Smulders",
+      "role": "ACTOR",
+      "details": "Maria Hill"
+    }
+  ]
+}

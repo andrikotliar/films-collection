@@ -1,0 +1,250 @@
+{
+  "id": 76,
+  "title": "Inception",
+  "releaseDate": "2010-07-16",
+  "type": "FILM",
+  "duration": 148,
+  "budget": 160000000,
+  "boxOffice": 828000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "order": 1,
+      "id": 88
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Cinematography",
+          "id": 4
+        },
+        {
+          "title": "Best Achievement in Sound Mixing",
+          "id": 11
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "id": 12
+        },
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing",
+          "id": 33
+        },
+        {
+          "title": "Best Music",
+          "id": 28
+        },
+        {
+          "title": "Best Special Effects",
+          "id": 41
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Cinematography",
+          "id": 27
+        },
+        {
+          "title": "Best Art Direction",
+          "id": 73
+        },
+        {
+          "title": "Best Editing",
+          "id": 48
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best action Movie",
+          "id": 76
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Scared-As-Shit Performance",
+          "id": 188
+        },
+        {
+          "title": "Breakthrough Male Performance",
+          "id": 189
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1381,
+      "name": "Emma Thomas",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1385,
+      "name": "Wally Pfister",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 716,
+      "name": "Leonardo DiCaprio",
+      "role": "ACTOR",
+      "details": "Cobb"
+    },
+    {
+      "id": 614,
+      "name": "Joseph Gordon-Levitt",
+      "role": "ACTOR",
+      "details": "Arthur"
+    },
+    {
+      "id": 334,
+      "name": "Ellen Page",
+      "role": "ACTOR",
+      "details": "Ariadne"
+    },
+    {
+      "id": 1131,
+      "name": "Tom Hardy",
+      "role": "ACTOR",
+      "details": "Eames"
+    },
+    {
+      "id": 665,
+      "name": "Ken Watanabe",
+      "role": "ACTOR",
+      "details": "Saito"
+    },
+    {
+      "id": 295,
+      "name": "Dileep Rao",
+      "role": "ACTOR",
+      "details": "Yusuf"
+    },
+    {
+      "id": 214,
+      "name": "Cillian Murphy",
+      "role": "ACTOR",
+      "details": "Robert Fischer"
+    },
+    {
+      "id": 779,
+      "name": "Marion Cotillard",
+      "role": "ACTOR",
+      "details": "Mal"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Miles"
+    }
+  ]
+}

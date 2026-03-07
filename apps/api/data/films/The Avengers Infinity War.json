@@ -1,0 +1,234 @@
+{
+  "id": 163,
+  "title": "The Avengers: Infinity War",
+  "releaseDate": "2018-04-27",
+  "type": "FILM",
+  "duration": 149,
+  "budget": 316000000,
+  "boxOffice": 2052000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 22,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+      "order": 1,
+      "id": 189
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1367,
+      "name": "Anthony Russo",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1368,
+      "name": "Joe Russo",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1369,
+      "name": "Christopher Markus",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1370,
+      "name": "Stephen McFeely",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1372,
+      "name": "Trent Opaloch",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "id": 304,
+      "name": "Don Cheadle",
+      "role": "ACTOR",
+      "details": "James Rhodes / War Machine"
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Doctor Strange"
+    },
+    {
+      "id": 1133,
+      "name": "Tom Holland",
+      "role": "ACTOR",
+      "details": "Peter Parker / Spider-Man"
+    },
+    {
+      "id": 179,
+      "name": "Chadwick Boseman",
+      "role": "ACTOR",
+      "details": "T'Challa / Black Panther"
+    },
+    {
+      "id": 1205,
+      "name": "Zoe Saldana",
+      "role": "ACTOR",
+      "details": "Gamora"
+    },
+    {
+      "id": 199,
+      "name": "Chris Pratt",
+      "role": "ACTOR",
+      "details": "Peter Quill / Star-Lord"
+    },
+    {
+      "id": 640,
+      "name": "Karen Gillan",
+      "role": "ACTOR",
+      "details": "Nebula"
+    },
+    {
+      "id": 1132,
+      "name": "Tom Hiddleston",
+      "role": "ACTOR",
+      "details": "Loki"
+    },
+    {
+      "id": 905,
+      "name": "Paul Bettany",
+      "role": "ACTOR",
+      "details": "Vision"
+    },
+    {
+      "id": 329,
+      "name": "Elizabeth Olsen",
+      "role": "ACTOR",
+      "details": "Wanda Maximoff / Scarlett Witch"
+    },
+    {
+      "id": 74,
+      "name": "Anthony Mackie",
+      "role": "ACTOR",
+      "details": "Sam Wilson / The Falcon"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": "Bucky Barnes / White Wolf"
+    },
+    {
+      "id": 934,
+      "name": "Pom Klementieff",
+      "role": "ACTOR",
+      "details": "Mantis"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Drax"
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Groot"
+    },
+    {
+      "id": 141,
+      "name": "Bradley Cooper",
+      "role": "ACTOR",
+      "details": "Rocket"
+    },
+    {
+      "id": 616,
+      "name": "Josh Brolin",
+      "role": "ACTOR",
+      "details": "Thanos"
+    }
+  ]
+}

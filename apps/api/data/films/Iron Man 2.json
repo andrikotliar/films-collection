@@ -1,0 +1,145 @@
+{
+  "id": 83,
+  "title": "Iron Man 2",
+  "releaseDate": "2010-05-07",
+  "type": "FILM",
+  "duration": 125,
+  "budget": 200000000,
+  "boxOffice": 624000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 4,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=BoohRoVA9WQ",
+      "order": 1,
+      "id": 95
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1721,
+      "name": "Justin Theroux",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1722,
+      "name": "John Debney",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1720,
+      "name": "Matthew Libatique",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 423,
+      "name": "Gwyneth Paltrow",
+      "role": "ACTOR",
+      "details": "Pepper Potts"
+    },
+    {
+      "id": 304,
+      "name": "Don Cheadle",
+      "role": "ACTOR",
+      "details": "James Rhodes / War Machine"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Whidow"
+    },
+    {
+      "id": 1032,
+      "name": "Sam Rockwell",
+      "role": "ACTOR",
+      "details": "Justin Hammer"
+    },
+    {
+      "id": 841,
+      "name": "Mickey Rourke",
+      "role": "ACTOR",
+      "details": "Ivan Vanko"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 216,
+      "name": "Clark Gregg",
+      "role": "ACTOR",
+      "details": "Agent Coulson"
+    },
+    {
+      "id": 596,
+      "name": "John Slattery",
+      "role": "ACTOR",
+      "details": "Howard Stark"
+    },
+    {
+      "id": 394,
+      "name": "Garry Shandling",
+      "role": "ACTOR",
+      "details": "Senator Stern"
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "ACTOR",
+      "details": "Happy Hogan"
+    }
+  ]
+}

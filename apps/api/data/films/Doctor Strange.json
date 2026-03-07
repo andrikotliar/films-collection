@@ -1,0 +1,142 @@
+{
+  "id": 36,
+  "title": "Doctor Strange",
+  "releaseDate": "2016-11-04",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 165000000,
+  "boxOffice": 678000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 19,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=HSzx-zryEgM",
+      "order": 1,
+      "id": 38
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "id": 42
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1439,
+      "name": "Scott Derrickson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1440,
+      "name": "Jon Spaihts",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1439,
+      "name": "Scott Derrickson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1441,
+      "name": "C. Robert Cargill",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1406,
+      "name": "Ben Davis",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 114,
+      "name": "Benedict Cumberbatch",
+      "role": "ACTOR",
+      "details": "Dr. Stephen Strange"
+    },
+    {
+      "id": 191,
+      "name": "Chiwetel Ejiofor",
+      "role": "ACTOR",
+      "details": "Mordo"
+    },
+    {
+      "id": 939,
+      "name": "Rachel McAdams",
+      "role": "ACTOR",
+      "details": "Dr. Christine Palmer"
+    },
+    {
+      "id": 116,
+      "name": "Benedict Wong",
+      "role": "ACTOR",
+      "details": "Wong"
+    },
+    {
+      "id": 762,
+      "name": "Mads Mikkelsen",
+      "role": "ACTOR",
+      "details": "Kaecilius"
+    },
+    {
+      "id": 1118,
+      "name": "Tilda Swinton",
+      "role": "ACTOR",
+      "details": "The Ancient One"
+    }
+  ]
+}

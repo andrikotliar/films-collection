@@ -1,0 +1,131 @@
+{
+  "id": 251,
+  "title": "The Batman",
+  "releaseDate": "2022-03-24",
+  "type": "FILM",
+  "duration": 176,
+  "budget": 185000000,
+  "boxOffice": 772000000,
+  "overview": "<p></p>",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    },
+    {
+      "title": "DC Films",
+      "id": 74
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=mqqft2x_Aa4",
+      "order": 1,
+      "id": 287
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2487,
+      "name": "Matt Reeves",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2487,
+      "name": "Matt Reeves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2182,
+      "name": "Peter Craig",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1870,
+      "name": "Dylan Clark",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2487,
+      "name": "Matt Reeves",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 990,
+      "name": "Robert Pattinson",
+      "role": "ACTOR",
+      "details": "Bruce Wayne/The Batman"
+    },
+    {
+      "id": 1204,
+      "name": "Zoe Kravitz",
+      "role": "ACTOR",
+      "details": "Selina Kyle"
+    },
+    {
+      "id": 544,
+      "name": "Jeffrey Wright",
+      "role": "ACTOR",
+      "details": "Lt. James Gordon"
+    },
+    {
+      "id": 223,
+      "name": "Colin Farrell",
+      "role": "ACTOR",
+      "details": "Oz/The Penguin"
+    },
+    {
+      "id": 2488,
+      "name": "Paul Dano",
+      "role": "ACTOR",
+      "details": "The Riddler"
+    },
+    {
+      "id": 597,
+      "name": "John Turturro",
+      "role": "ACTOR",
+      "details": "Carmine Falcone"
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Alfred"
+    }
+  ]
+}

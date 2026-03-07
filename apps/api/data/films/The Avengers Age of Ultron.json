@@ -1,0 +1,192 @@
+{
+  "id": 162,
+  "title": "The Avengers: Age of Ultron",
+  "releaseDate": "2015-05-01",
+  "type": "FILM",
+  "duration": 141,
+  "budget": 365000000,
+  "boxOffice": 1400000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 13,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=tmeOjFno6Do",
+      "order": 1,
+      "id": 188
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Costume Design",
+          "id": 19
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2141,
+      "name": "Joss Whedon",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2141,
+      "name": "Joss Whedon",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1406,
+      "name": "Ben Davis",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 982,
+      "name": "Robert Downey Jr.",
+      "role": "ACTOR",
+      "details": "Tony Stark / Iron Man"
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Steve Rogers / Captain America"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Natasha Romanoff / Black Widow"
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "ACTOR",
+      "details": "Clint Barton / Hawkeye"
+    },
+    {
+      "id": 516,
+      "name": "James Spader",
+      "role": "ACTOR",
+      "details": "Ultron"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 304,
+      "name": "Don Cheadle",
+      "role": "ACTOR",
+      "details": "James Rhodes"
+    },
+    {
+      "id": 3,
+      "name": "Aaron Taylor-Johnson",
+      "role": "ACTOR",
+      "details": "Pietro Maximoff"
+    },
+    {
+      "id": 329,
+      "name": "Elizabeth Olsen",
+      "role": "ACTOR",
+      "details": "Wanda Maximoff / Scarlett Witch"
+    },
+    {
+      "id": 905,
+      "name": "Paul Bettany",
+      "role": "ACTOR",
+      "details": "Jarvis / Vision"
+    },
+    {
+      "id": 221,
+      "name": "Cobie Smulders",
+      "role": "ACTOR",
+      "details": "Maria Hill"
+    },
+    {
+      "id": 74,
+      "name": "Anthony Mackie",
+      "role": "ACTOR",
+      "details": "Sam Wilson"
+    },
+    {
+      "id": 438,
+      "name": "Hayley Atwell",
+      "role": "ACTOR",
+      "details": "Peggy Carter"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Heimdall"
+    }
+  ]
+}

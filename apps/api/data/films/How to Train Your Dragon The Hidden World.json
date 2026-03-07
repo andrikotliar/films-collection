@@ -1,0 +1,109 @@
+{
+  "id": 68,
+  "title": "How to Train Your Dragon: The Hidden World",
+  "releaseDate": "2019-02-22",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 129000000,
+  "boxOffice": 443000000,
+  "overview": null,
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    },
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=SkcucKDrbOI",
+      "order": 1,
+      "id": 80
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1663,
+      "name": "Dean DeBlois",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1663,
+      "name": "Dean DeBlois",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1665,
+      "name": "Bonnie Amold",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1666,
+      "name": "Brad Lewis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 533,
+      "name": "Jay Baruchel",
+      "role": "ACTOR",
+      "details": "Hiccup"
+    },
+    {
+      "id": 51,
+      "name": "America Ferrera",
+      "role": "ACTOR",
+      "details": "Astrid"
+    },
+    {
+      "id": 366,
+      "name": "F. Murray Abraham",
+      "role": "ACTOR",
+      "details": "Grimmel"
+    },
+    {
+      "id": 230,
+      "name": "Craig Ferguson",
+      "role": "ACTOR",
+      "details": "Gobber"
+    },
+    {
+      "id": 685,
+      "name": "Kit Harington",
+      "role": "ACTOR",
+      "details": "Eret"
+    }
+  ]
+}

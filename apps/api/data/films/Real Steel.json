@@ -1,0 +1,129 @@
+{
+  "id": 123,
+  "title": "Real Steel",
+  "releaseDate": "2011-10-07",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 110000000,
+  "boxOffice": 300000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Pictures",
+      "id": 15
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=SwfmV3nn6QA",
+      "order": 1,
+      "id": 137
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1815,
+      "name": "Shawn Levy",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1916,
+      "name": "John Gatins",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1815,
+      "name": "Shawn Levy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1917,
+      "name": "Susan Montford",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1918,
+      "name": "Don Murphy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1828,
+      "name": "Danny Elfman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1338,
+      "name": "Mauro Fiore",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Charlie Kenton"
+    },
+    {
+      "id": 239,
+      "name": "Dakota Goyo",
+      "role": "ACTOR",
+      "details": "Max Kenton"
+    },
+    {
+      "id": 361,
+      "name": "Evangeline Lilly",
+      "role": "ACTOR",
+      "details": "Bailey Tallet"
+    },
+    {
+      "id": 74,
+      "name": "Anthony Mackie",
+      "role": "ACTOR",
+      "details": "Finn"
+    },
+    {
+      "id": 674,
+      "name": "Kevin Durand",
+      "role": "ACTOR",
+      "details": "Ricky"
+    },
+    {
+      "id": 451,
+      "name": "Hope Davis",
+      "role": "ACTOR",
+      "details": "Aunt Debra"
+    },
+    {
+      "id": 514,
+      "name": "James Rebhorn",
+      "role": "ACTOR",
+      "details": "Marvin"
+    }
+  ]
+}

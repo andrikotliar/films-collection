@@ -1,0 +1,134 @@
+{
+  "id": 187,
+  "title": "The Librarian: Return to King Solomon's Mines",
+  "releaseDate": "2006-12-03",
+  "type": "FILM",
+  "duration": 95,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "librarian",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "TNT",
+      "id": 59
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ansvc2Muxr0",
+      "order": 1,
+      "id": 213
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Presentation on Television",
+          "id": 67
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2203,
+      "name": "Jonathan Frakes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2204,
+      "name": "Marco Schnabel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2212,
+      "name": "Michael S. Murphey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 879,
+      "name": "Noah Wyle",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2206,
+      "name": "Joseph LoDuca",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2213,
+      "name": "Walt Lloyd",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 879,
+      "name": "Noah Wyle",
+      "role": "ACTOR",
+      "details": "Flynn Carsen"
+    },
+    {
+      "id": 391,
+      "name": "Gabrielle Anwar",
+      "role": "ACTOR",
+      "details": "Emily Davenport"
+    },
+    {
+      "id": 133,
+      "name": "Bob Newhart",
+      "role": "ACTOR",
+      "details": "Judson"
+    },
+    {
+      "id": 518,
+      "name": "Jane Curtin",
+      "role": "ACTOR",
+      "details": "Charlene"
+    },
+    {
+      "id": 353,
+      "name": "Erick Avari",
+      "role": "ACTOR",
+      "details": "General Samir"
+    },
+    {
+      "id": 425,
+      "name": "Hakeem Kae-Kazim",
+      "role": "ACTOR",
+      "details": "Jomo"
+    },
+    {
+      "id": 1199,
+      "name": "Zahn McClarnon",
+      "role": "ACTOR",
+      "details": "Tommy Yellow Hawk"
+    }
+  ]
+}

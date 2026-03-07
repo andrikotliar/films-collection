@@ -1,0 +1,160 @@
+{
+  "id": 152,
+  "title": "Suicide Squad",
+  "releaseDate": "2016-08-05",
+  "type": "FILM",
+  "duration": 123,
+  "budget": 175000000,
+  "boxOffice": 747000000,
+  "overview": null,
+  "chapterKey": "dceu",
+  "chapterOrder": 3,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DC Entertainment",
+      "id": 18
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=CmRih_VtVAs",
+      "order": 1,
+      "id": 172
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Makeup and Hairstyling",
+          "id": 20
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Actress in an action Movie",
+          "id": 80
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2030,
+      "name": "David Ayer",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2030,
+      "name": "David Ayer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2031,
+      "name": "Richard Suckle",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2032,
+      "name": "Steven Price",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2033,
+      "name": "Roman Vasyanov",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1178,
+      "name": "Will Smith",
+      "role": "ACTOR",
+      "details": "Deadshot"
+    },
+    {
+      "id": 775,
+      "name": "Margot Robbie",
+      "role": "ACTOR",
+      "details": "Harley Quinn"
+    },
+    {
+      "id": 1168,
+      "name": "Viola Davis",
+      "role": "ACTOR",
+      "details": "Amanda Waller"
+    },
+    {
+      "id": 522,
+      "name": "Jared Leto",
+      "role": "ACTOR",
+      "details": "The Joker"
+    },
+    {
+      "id": 494,
+      "name": "Jai Courtney",
+      "role": "ACTOR",
+      "details": "George Harkness / Captain Boomerang"
+    },
+    {
+      "id": 534,
+      "name": "Jay Hernandez",
+      "role": "ACTOR",
+      "details": "Diablo"
+    },
+    {
+      "id": 11,
+      "name": "Adewale Akinnuoye-Agbaje",
+      "role": "ACTOR",
+      "details": "Killer Croc"
+    },
+    {
+      "id": 166,
+      "name": "Cara Delevingne",
+      "role": "ACTOR",
+      "details": "June Moone / Enchantress"
+    },
+    {
+      "id": 572,
+      "name": "Joel Kinnaman",
+      "role": "ACTOR",
+      "details": "Rick Flag"
+    }
+  ]
+}

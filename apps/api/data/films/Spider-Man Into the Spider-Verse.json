@@ -1,0 +1,222 @@
+{
+  "id": 138,
+  "title": "Spider-Man: Into the Spider-Verse",
+  "releaseDate": "2018-12-14",
+  "type": "FILM",
+  "duration": 117,
+  "budget": 90000000,
+  "boxOffice": 371000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Sony Pictures Animation",
+      "id": 11
+    },
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    },
+    {
+      "title": "Marvel Entertainment",
+      "id": 5
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=g4Hbz2jLxvQ",
+      "order": 1,
+      "id": 155
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 10
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1983,
+      "name": "Bob Persichetti",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1984,
+      "name": "Peter Ramsey",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1985,
+      "name": "Rodney Rothman",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1986,
+      "name": "Phil Lord",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1985,
+      "name": "Rodney Rothman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1977,
+      "name": "Amy Pascal",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1986,
+      "name": "Phil Lord",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1987,
+      "name": "Christopher Miller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1988,
+      "name": "Christina Steinberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1989,
+      "name": "Daniel Pemberton",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1057,
+      "name": "Shameik Moore",
+      "role": "ACTOR",
+      "details": "Miles Morales"
+    },
+    {
+      "id": 499,
+      "name": "Jake Johnson",
+      "role": "ACTOR",
+      "details": "Peter B. Parker"
+    },
+    {
+      "id": 424,
+      "name": "Hailee Steinfeld",
+      "role": "ACTOR",
+      "details": "Gwen Stacy"
+    },
+    {
+      "id": 767,
+      "name": "Mahershala Ali",
+      "role": "ACTOR",
+      "details": "Uncle Aaron"
+    },
+    {
+      "id": 149,
+      "name": "Brian Tyree Henry",
+      "role": "ACTOR",
+      "details": "Jefferson Davis"
+    },
+    {
+      "id": 752,
+      "name": "Luna Lauren Velez",
+      "role": "ACTOR",
+      "details": "Rio Morales"
+    },
+    {
+      "id": 1204,
+      "name": "Zoe Kravitz",
+      "role": "ACTOR",
+      "details": "Mary Jane"
+    },
+    {
+      "id": 590,
+      "name": "John Mulaney",
+      "role": "ACTOR",
+      "details": "Spider-Ham"
+    },
+    {
+      "id": 683,
+      "name": "Kimiko Glenn",
+      "role": "ACTOR",
+      "details": "Peni Parker"
+    },
+    {
+      "id": 873,
+      "name": "Nicolas Cage",
+      "role": "ACTOR",
+      "details": "Spider-Man Noir"
+    },
+    {
+      "id": 725,
+      "name": "Liev Schreiber",
+      "role": "ACTOR",
+      "details": "Wilson Fisk"
+    },
+    {
+      "id": 650,
+      "name": "Kathryn Hahn",
+      "role": "ACTOR",
+      "details": "Doc Ock"
+    }
+  ]
+}

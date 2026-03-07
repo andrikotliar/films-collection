@@ -1,0 +1,153 @@
+{
+  "id": 12,
+  "title": "American Made",
+  "releaseDate": "2017-09-29",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 50000000,
+  "boxOffice": 135000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    },
+    {
+      "title": "Colombia",
+      "id": 8
+    }
+  ],
+  "studios": [
+    {
+      "title": "Cross Creek Pictures",
+      "id": 19
+    },
+    {
+      "title": "Imagine Entertainment",
+      "id": 20
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=AEBIJRAkujM",
+      "order": 1,
+      "id": 12
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1297,
+      "name": "Doug Liman",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1298,
+      "name": "Gary Spinelli",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1299,
+      "name": "Ray Angelic",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1300,
+      "name": "Doug Davison",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1301,
+      "name": "Brian Oliver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1302,
+      "name": "Kim Roth",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1304,
+      "name": "César Charlone",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Barry Seal"
+    },
+    {
+      "id": 299,
+      "name": "Domhnall Gleeson",
+      "role": "ACTOR",
+      "details": "Monty 'Schafer'"
+    },
+    {
+      "id": 1040,
+      "name": "Sarah Wright",
+      "role": "ACTOR",
+      "details": "Lucy Seal"
+    },
+    {
+      "id": 556,
+      "name": "Jesse Plemons",
+      "role": "ACTOR",
+      "details": "Sheriff Downing"
+    },
+    {
+      "id": 160,
+      "name": "Caleb Landry Jones",
+      "role": "ACTOR",
+      "details": "JB"
+    },
+    {
+      "id": 228,
+      "name": "Connor Trinneer",
+      "role": "ACTOR",
+      "details": "George W. Bush"
+    },
+    {
+      "id": 807,
+      "name": "Mauricio Mejía",
+      "role": "ACTOR",
+      "details": "Pablo Escobar"
+    },
+    {
+      "id": 29,
+      "name": "Alejandro Edda",
+      "role": "ACTOR",
+      "details": "Jorge Ochoa"
+    }
+  ]
+}

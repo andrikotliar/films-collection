@@ -1,0 +1,105 @@
+{
+  "id": 67,
+  "title": "How to Train Your Dragon 2",
+  "releaseDate": "2014-06-13",
+  "type": "FILM",
+  "duration": 102,
+  "budget": 145000000,
+  "boxOffice": 621000000,
+  "overview": null,
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=2BP38770KNo",
+      "order": 1,
+      "id": 79
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1663,
+      "name": "Dean DeBlois",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1663,
+      "name": "Dean DeBlois",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1665,
+      "name": "Bonnie Amold",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 533,
+      "name": "Jay Baruchel",
+      "role": "ACTOR",
+      "details": "Hiccup"
+    },
+    {
+      "id": 175,
+      "name": "Cate Blanchett",
+      "role": "ACTOR",
+      "details": "Valka"
+    },
+    {
+      "id": 404,
+      "name": "Gerard Butler",
+      "role": "ACTOR",
+      "details": "Stoick"
+    },
+    {
+      "id": 51,
+      "name": "America Ferrera",
+      "role": "ACTOR",
+      "details": "Astrid"
+    },
+    {
+      "id": 297,
+      "name": "Djimon Hounsou",
+      "role": "ACTOR",
+      "details": "Drago Bludvist"
+    },
+    {
+      "id": 685,
+      "name": "Kit Harington",
+      "role": "ACTOR",
+      "details": "Eret"
+    }
+  ]
+}

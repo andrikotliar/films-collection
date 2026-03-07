@@ -1,0 +1,187 @@
+{
+  "id": 227,
+  "title": "Warcraft",
+  "releaseDate": "2016-06-10",
+  "type": "FILM",
+  "duration": 123,
+  "budget": 160000000,
+  "boxOffice": 434000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    },
+    {
+      "title": "Legendary",
+      "id": 25
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=2Rxoz13Bthc",
+      "order": 1,
+      "id": 257
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1961,
+      "name": "Duncan Jones",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2361,
+      "name": "Charles Leavitt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1961,
+      "name": "Duncan Jones",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1380,
+      "name": "Charles Roven",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2362,
+      "name": "Alex Gartner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1877,
+      "name": "Thomas Tull",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1878,
+      "name": "Jon Jashni",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2363,
+      "name": "Stuart Fenegan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1461,
+      "name": "Ramin Djawadi",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1679,
+      "name": "Simon Duggan",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1150,
+      "name": "Travis Fimmel",
+      "role": "ACTOR",
+      "details": "Anduin Lothar"
+    },
+    {
+      "id": 912,
+      "name": "Paula Patton",
+      "role": "ACTOR",
+      "details": "Garona"
+    },
+    {
+      "id": 108,
+      "name": "Ben Foster",
+      "role": "ACTOR",
+      "details": "Medivh"
+    },
+    {
+      "id": 300,
+      "name": "Dominic Cooper",
+      "role": "ACTOR",
+      "details": "Llane Wrynn"
+    },
+    {
+      "id": 1124,
+      "name": "Toby Kebbell",
+      "role": "ACTOR",
+      "details": "Durotan / Antonidas"
+    },
+    {
+      "id": 111,
+      "name": "Ben Schnetzer",
+      "role": "ACTOR",
+      "details": "Khadgar"
+    },
+    {
+      "id": 986,
+      "name": "Robert Kazinsky",
+      "role": "ACTOR",
+      "details": "Orgrim"
+    },
+    {
+      "id": 215,
+      "name": "Clancy Brown",
+      "role": "ACTOR",
+      "details": "Blackhand"
+    },
+    {
+      "id": 253,
+      "name": "Daniel Wu",
+      "role": "ACTOR",
+      "details": "Gul'dan"
+    },
+    {
+      "id": 1019,
+      "name": "Ruth Negga",
+      "role": "ACTOR",
+      "details": "Lady Taria"
+    },
+    {
+      "id": 65,
+      "name": "Anna Galvin",
+      "role": "ACTOR",
+      "details": "Draka"
+    },
+    {
+      "id": 162,
+      "name": "Callum Keith Rennie",
+      "role": "ACTOR",
+      "details": "Moroes"
+    },
+    {
+      "id": 1220,
+      "name": "Burkely Duffield",
+      "role": "ACTOR",
+      "details": "Callan"
+    }
+  ]
+}

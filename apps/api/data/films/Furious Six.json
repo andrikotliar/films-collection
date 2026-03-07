@@ -1,0 +1,158 @@
+{
+  "id": 47,
+  "title": "Furious Six",
+  "releaseDate": "2013-05-24",
+  "type": "FILM",
+  "duration": 131,
+  "budget": 160000000,
+  "boxOffice": 789000000,
+  "overview": null,
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 5,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=dKi5XoeTN0k",
+      "order": 1,
+      "id": 49
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best action/Adventure Film",
+          "id": 51
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1462,
+      "name": "Justin Lin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1270,
+      "name": "Neal H. Moritz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1485,
+      "name": "Lucas Vidal",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1466,
+      "name": "Stephen F. Windon",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1164,
+      "name": "Vin Diesel",
+      "role": "ACTOR",
+      "details": "Dominic Toretto"
+    },
+    {
+      "id": 911,
+      "name": "Paul Walker",
+      "role": "ACTOR",
+      "details": "Brian O'Conner"
+    },
+    {
+      "id": 314,
+      "name": "Dwayne Johnson",
+      "role": "ACTOR",
+      "details": "Hobbs"
+    },
+    {
+      "id": 613,
+      "name": "Jordana Brewster",
+      "role": "ACTOR",
+      "details": "Mia"
+    },
+    {
+      "id": 838,
+      "name": "Michelle Rodriguez",
+      "role": "ACTOR",
+      "details": "Letty"
+    },
+    {
+      "id": 1156,
+      "name": "Tyrese Gibson",
+      "role": "ACTOR",
+      "details": "Roman"
+    },
+    {
+      "id": 1095,
+      "name": "Sung Kang",
+      "role": "ACTOR",
+      "details": "Han"
+    },
+    {
+      "id": 392,
+      "name": "Gal Gadot",
+      "role": "ACTOR",
+      "details": "Gisele"
+    },
+    {
+      "id": 746,
+      "name": "Ludacris",
+      "role": "ACTOR",
+      "details": "Tej"
+    },
+    {
+      "id": 750,
+      "name": "Luke Evans",
+      "role": "ACTOR",
+      "details": "Shaw"
+    },
+    {
+      "id": 337,
+      "name": "Elsa Pataky",
+      "role": "ACTOR",
+      "details": "Elena"
+    }
+  ]
+}

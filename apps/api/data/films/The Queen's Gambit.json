@@ -1,0 +1,146 @@
+{
+  "id": 204,
+  "title": "The Queen's Gambit",
+  "releaseDate": "2020-10-23",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Sport",
+      "id": 18
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=oZn3qSgmLqI",
+      "order": 1,
+      "id": 231
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Limited Series",
+          "id": 94
+        },
+        {
+          "title": "Best Actress in a Limited Series or a Movie Made for Television",
+          "id": 95
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television",
+          "id": 124
+        },
+        {
+          "title": "Best Performance by an Actress in a Limited Series, Anthology Series or a Motion Picture Made for Television",
+          "id": 125
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1795,
+      "name": "Scott Frank",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2252,
+      "name": "Carlos Rafael Rivera",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2253,
+      "name": "Steven Meizler",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 79,
+      "name": "Anya Taylor-Joy",
+      "role": "ACTOR",
+      "details": "Beth Harmon"
+    },
+    {
+      "id": 121,
+      "name": "Bill Camp",
+      "role": "ACTOR",
+      "details": "Mr. Shaibel"
+    },
+    {
+      "id": 774,
+      "name": "Marcin Dorocinski",
+      "role": "ACTOR",
+      "details": "Vasily Borgov"
+    },
+    {
+      "id": 778,
+      "name": "Marielle Heller",
+      "role": "ACTOR",
+      "details": "Alma Wheatley"
+    },
+    {
+      "id": 1113,
+      "name": "Thomas Brodie-Sangster",
+      "role": "ACTOR",
+      "details": "Benny Watts"
+    },
+    {
+      "id": 857,
+      "name": "Moses Ingram",
+      "role": "ACTOR",
+      "details": "Jolene"
+    },
+    {
+      "id": 435,
+      "name": "Harry Melling",
+      "role": "ACTOR",
+      "details": "Harry Beltik"
+    },
+    {
+      "id": 471,
+      "name": "Isla Johnston",
+      "role": "ACTOR",
+      "details": "Young Beth Harmon"
+    }
+  ],
+  "seriesExtension": {
+    "id": 16,
+    "episodesTotal": 7,
+    "seasonsTotal": 1,
+    "finishedAt": "2020-10-23"
+  }
+}

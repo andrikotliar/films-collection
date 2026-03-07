@@ -1,0 +1,175 @@
+{
+  "id": 209,
+  "title": "The Umbrella Academy",
+  "releaseDate": "2019-02-15",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=0DAmWHxeoKw",
+      "order": 1,
+      "id": 236
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SGgXLbZnr1Y",
+      "order": 2,
+      "id": 237
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=04Wns6ZHh6g",
+      "order": 3,
+      "id": 238
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2265,
+      "name": "Jeremy Slater",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2296,
+      "name": "Jeff Russo",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2297,
+      "name": "Perrine Virgile",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2298,
+      "name": "Neville Kidd",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2299,
+      "name": "Craig Wrobleski",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1134,
+      "name": "Tom Hopper",
+      "role": "ACTOR",
+      "details": "Luther Hargreeves"
+    },
+    {
+      "id": 268,
+      "name": "David Castañeda",
+      "role": "ACTOR",
+      "details": "Diego Hargreeves"
+    },
+    {
+      "id": 348,
+      "name": "Emmy Raver-Lampman",
+      "role": "ACTOR",
+      "details": "Allison Hargreeves"
+    },
+    {
+      "id": 992,
+      "name": "Robert Sheehan",
+      "role": "ACTOR",
+      "details": "Klaus Hargreeves"
+    },
+    {
+      "id": 17,
+      "name": "Aidan Gallagher",
+      "role": "ACTOR",
+      "details": "Number Five"
+    },
+    {
+      "id": 632,
+      "name": "Justin H. Min",
+      "role": "ACTOR",
+      "details": "Ben Hargreeves"
+    },
+    {
+      "id": 334,
+      "name": "Ellen Page",
+      "role": "ACTOR",
+      "details": "Vanya Hargreeves"
+    },
+    {
+      "id": 224,
+      "name": "Colm Feore",
+      "role": "ACTOR",
+      "details": "Reginald Hargreeves"
+    },
+    {
+      "id": 980,
+      "name": "Ritu Arya",
+      "role": "ACTOR",
+      "details": "Lila Pitts"
+    },
+    {
+      "id": 612,
+      "name": "Jordan Claire Robbins",
+      "role": "ACTOR",
+      "details": "Grace"
+    },
+    {
+      "id": 647,
+      "name": "Kate Walsh",
+      "role": "ACTOR",
+      "details": "The Handler"
+    },
+    {
+      "id": 163,
+      "name": "Cameron Britton",
+      "role": "ACTOR",
+      "details": "Hazel"
+    },
+    {
+      "id": 797,
+      "name": "Mary J. Blige",
+      "role": "ACTOR",
+      "details": "Cha-Cha"
+    },
+    {
+      "id": 1231,
+      "name": "Adam Godley",
+      "role": "ACTOR",
+      "details": "Pogo"
+    }
+  ],
+  "seriesExtension": {
+    "id": 17,
+    "episodesTotal": 30,
+    "seasonsTotal": 3,
+    "finishedAt": "2022-06-22"
+  }
+}

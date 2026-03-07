@@ -1,0 +1,155 @@
+{
+  "id": 90,
+  "title": "Klaus",
+  "releaseDate": "2019-11-08",
+  "type": "FILM",
+  "duration": 96,
+  "budget": 40000000,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "Spain",
+      "id": 13
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "The SPA Studios",
+      "id": 41
+    },
+    {
+      "title": "Atresmedia Cine",
+      "id": 42
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=taE3PwurhYM",
+      "order": 1,
+      "id": 102
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1748,
+      "name": "Sergio Pablos",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1749,
+      "name": "Carlos Martínez López",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1748,
+      "name": "Sergio Pablos",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1750,
+      "name": "Jim Mahone",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1751,
+      "name": "Zach Lewisy",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1753,
+      "name": "Sara Coca",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1754,
+      "name": "Gustavo Ferra",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1755,
+      "name": "Mikel Lejarzad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1756,
+      "name": "Mercedes Gamero",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1757,
+      "name": "Matthew Teevan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1758,
+      "name": "Alfonso G. Aguilar",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 529,
+      "name": "Jason Schwartzman",
+      "role": "ACTOR",
+      "details": "Jesper"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "Klaus"
+    },
+    {
+      "id": 947,
+      "name": "Rashida Jones",
+      "role": "ACTOR",
+      "details": "Alva"
+    },
+    {
+      "id": 1177,
+      "name": "Will Sasso",
+      "role": "ACTOR",
+      "details": "Mr. Ellingboe"
+    },
+    {
+      "id": 1254,
+      "name": "Joan Cusack",
+      "role": "ACTOR",
+      "details": "Mrs. Krum"
+    },
+    {
+      "id": 1255,
+      "name": "Norm MacDonald",
+      "role": "ACTOR",
+      "details": "Mogens"
+    }
+  ]
+}

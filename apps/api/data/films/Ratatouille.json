@@ -1,0 +1,188 @@
+{
+  "id": 248,
+  "title": "Ratatouille",
+  "releaseDate": "2007-10-12",
+  "type": "FILM",
+  "duration": 111,
+  "budget": 150000000,
+  "boxOffice": 623000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "France",
+      "id": 4
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=NgsQ8mVkN8w",
+      "order": 1,
+      "id": 283
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 81
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 117
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 126
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Best Character Animation in a Feature Production",
+          "id": 173
+        },
+        {
+          "title": "Best Character Design in an Animated Feature Production",
+          "id": 174
+        },
+        {
+          "title": "Best Directing in an Animated Feature Production",
+          "id": 226
+        },
+        {
+          "title": "Best Music in an Animated Feature Production",
+          "id": 227
+        },
+        {
+          "title": "Best Storyboarding in an Animated Feature Production",
+          "id": 176
+        },
+        {
+          "title": "Best Writing in an Animated Feature Production",
+          "id": 178
+        },
+        {
+          "title": "Best Production Design in an Animated Feature Production",
+          "id": 175
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1846,
+      "name": "Brad Bird",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1846,
+      "name": "Brad Bird",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2459,
+      "name": "Bradford Lewis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2460,
+      "name": "Patton Oswalt",
+      "role": "ACTOR",
+      "details": "Remy"
+    },
+    {
+      "id": 458,
+      "name": "Ian Holm",
+      "role": "ACTOR",
+      "details": "Skinner"
+    },
+    {
+      "id": 2461,
+      "name": "Lou Romano",
+      "role": "ACTOR",
+      "details": "Linguini"
+    },
+    {
+      "id": 2462,
+      "name": "Brian Dennehy",
+      "role": "ACTOR",
+      "details": "Django"
+    },
+    {
+      "id": 2463,
+      "name": "Peter Sohn",
+      "role": "ACTOR",
+      "details": "Emile"
+    },
+    {
+      "id": 2464,
+      "name": "Peter O'Toole",
+      "role": "ACTOR",
+      "details": "Anton Ego"
+    },
+    {
+      "id": 139,
+      "name": "Brad Garrett",
+      "role": "ACTOR",
+      "details": "Gusteau"
+    }
+  ]
+}

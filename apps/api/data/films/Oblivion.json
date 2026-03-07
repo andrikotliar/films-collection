@@ -1,0 +1,141 @@
+{
+  "id": 111,
+  "title": "Oblivion",
+  "releaseDate": "2013-04-19",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 160000000,
+  "boxOffice": 286000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=XmIIgE7eSak",
+      "order": 1,
+      "id": 125
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1867,
+      "name": "Joseph Kosinski",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1868,
+      "name": "Karl Gajdusek",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1869,
+      "name": "Michael deBruyn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1480,
+      "name": "Peter Chernin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1870,
+      "name": "Dylan Clark",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1871,
+      "name": "Duncan Henderson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1872,
+      "name": "M83",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1873,
+      "name": "Joseph Trapanese",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1874,
+      "name": "Claudio Miranda",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Jack"
+    },
+    {
+      "id": 854,
+      "name": "Morgan Freeman",
+      "role": "ACTOR",
+      "details": "Beech"
+    },
+    {
+      "id": 884,
+      "name": "Olga Kurylenko",
+      "role": "ACTOR",
+      "details": "Julia"
+    },
+    {
+      "id": 55,
+      "name": "Andrea Riseborough",
+      "role": "ACTOR",
+      "details": "Victoria"
+    },
+    {
+      "id": 875,
+      "name": "Nikolaj Coster-Waldau",
+      "role": "ACTOR",
+      "details": "Sykes"
+    },
+    {
+      "id": 814,
+      "name": "Melissa Leo",
+      "role": "ACTOR",
+      "details": "Sally"
+    },
+    {
+      "id": 1203,
+      "name": "Zoe Bell",
+      "role": "ACTOR",
+      "details": "Kara"
+    }
+  ]
+}

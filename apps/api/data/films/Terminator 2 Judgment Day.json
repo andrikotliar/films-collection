@@ -1,0 +1,196 @@
+{
+  "id": 1,
+  "title": "Terminator 2: Judgment Day",
+  "releaseDate": "1991-07-03",
+  "type": "FILM",
+  "duration": 137,
+  "budget": 94000000,
+  "boxOffice": 521000000,
+  "overview": null,
+  "chapterKey": "terminator",
+  "chapterOrder": 2,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Tristar",
+      "id": 38
+    },
+    {
+      "title": "Carolco Pictures",
+      "id": 50
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=-W8CegO_Ixw",
+      "order": 1,
+      "id": 1
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "id": 2
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "id": 40
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Special Visual Effects",
+          "id": 99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Best Female Performance",
+          "id": 196
+        },
+        {
+          "title": "Best Male Performance",
+          "id": 187
+        },
+        {
+          "title": "Best Breakthrough Performance",
+          "id": 197
+        },
+        {
+          "title": "Most Desirable Female",
+          "id": 198
+        },
+        {
+          "title": "Best action Sequence",
+          "id": 192
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2049,
+      "name": "William Wisher",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1288,
+      "name": "James Cameron",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2050,
+      "name": "Brad Fiedel",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2051,
+      "name": "Adam Greenberg",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 87,
+      "name": "Arnold Schwarzenegger",
+      "role": "ACTOR",
+      "details": "T-800"
+    },
+    {
+      "id": 321,
+      "name": "Edward Furlong",
+      "role": "ACTOR",
+      "details": "John Connor"
+    },
+    {
+      "id": 728,
+      "name": "Linda Hamilton",
+      "role": "ACTOR",
+      "details": "Sarah Connor"
+    },
+    {
+      "id": 989,
+      "name": "Robert Patrick",
+      "role": "ACTOR",
+      "details": "T-1000"
+    },
+    {
+      "id": 568,
+      "name": "Joe Morton",
+      "role": "ACTOR",
+      "details": "Miles Bennett Dyson"
+    }
+  ]
+}

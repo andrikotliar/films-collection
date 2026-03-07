@@ -1,0 +1,252 @@
+{
+  "id": 25,
+  "title": "Black Panther",
+  "releaseDate": "2018-02-16",
+  "type": "FILM",
+  "duration": 134,
+  "budget": 200000000,
+  "boxOffice": 1350000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 17,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+      "order": 1,
+      "id": 25
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures (Original Score)",
+          "id": 7
+        },
+        {
+          "title": "Best Achievement in Costume Design",
+          "id": 8
+        },
+        {
+          "title": "Best Achievement in Production Design",
+          "id": 9
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "id": 42
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Supporting Actress",
+          "id": 36
+        },
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Make-up",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 1
+        },
+        {
+          "title": "Best Production Design",
+          "id": 46
+        },
+        {
+          "title": "Best Costume Design",
+          "id": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Movie of the Year",
+          "id": 185
+        },
+        {
+          "title": "Best Performance in a Movie",
+          "id": 186
+        },
+        {
+          "title": "Best Hero",
+          "id": 183
+        },
+        {
+          "title": "Best Villain",
+          "id": 184
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1391,
+      "name": "Ryan Coogler",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1391,
+      "name": "Ryan Coogler",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1392,
+      "name": "Joe Robert Cole",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1393,
+      "name": "Ludwig Gцransson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1394,
+      "name": "Rachel Morrison",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 179,
+      "name": "Chadwick Boseman",
+      "role": "ACTOR",
+      "details": "T'Challa / Black Panther"
+    },
+    {
+      "id": 818,
+      "name": "Michael B. Jordan",
+      "role": "ACTOR",
+      "details": "Erik Killmonger"
+    },
+    {
+      "id": 753,
+      "name": "Lupita Nyung'o",
+      "role": "ACTOR",
+      "details": "Nakia"
+    },
+    {
+      "id": 242,
+      "name": "Danai Gurira",
+      "role": "ACTOR",
+      "details": "Okoye"
+    },
+    {
+      "id": 792,
+      "name": "Martin Freeman",
+      "role": "ACTOR",
+      "details": "Everett K. Ross"
+    },
+    {
+      "id": 249,
+      "name": "Daniel Kaluuya",
+      "role": "ACTOR",
+      "details": "W'Kabi"
+    },
+    {
+      "id": 719,
+      "name": "Letitia Wright",
+      "role": "ACTOR",
+      "details": "Shuri"
+    },
+    {
+      "id": 1189,
+      "name": "Winston Duke",
+      "role": "ACTOR",
+      "details": "M'Baku"
+    },
+    {
+      "id": 1088,
+      "name": "Sterling K. Brown",
+      "role": "ACTOR",
+      "details": "N'Jobu"
+    },
+    {
+      "id": 62,
+      "name": "Angela Bassett",
+      "role": "ACTOR",
+      "details": "Ramonda"
+    },
+    {
+      "id": 377,
+      "name": "Forest Whitaker",
+      "role": "ACTOR",
+      "details": "Zuri"
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Ulysses Klaue"
+    }
+  ]
+}

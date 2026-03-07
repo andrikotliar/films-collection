@@ -1,0 +1,156 @@
+{
+  "id": 256,
+  "title": "School Spirits",
+  "releaseDate": "2023-03-09",
+  "type": "SERIES",
+  "duration": 49,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Mystery",
+      "id": 21
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount+",
+      "id": 79
+    },
+    {
+      "title": "Awesomeness Studio",
+      "id": 80
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/ebOtolfNT_g?si=xZ84QdgQbh4DpLWe",
+      "order": 1,
+      "id": 294
+    },
+    {
+      "url": "https://youtu.be/CVxnBgdNp_w?si=tBh-mpz48TkIPT9D",
+      "order": 2,
+      "id": 295
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2527,
+      "name": "Megan Trinrud",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2528,
+      "name": "Nate Trinrud",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2534,
+      "name": "Anna Waronker",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2535,
+      "name": "Tyler Walzak",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2536,
+      "name": "Kamal Derkaoui",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2537,
+      "name": "Peyton List",
+      "role": "ACTOR",
+      "details": "Maddie Nears"
+    },
+    {
+      "id": 2538,
+      "name": "Kristian Ventura",
+      "role": "ACTOR",
+      "details": "Simon Elroy"
+    },
+    {
+      "id": 2539,
+      "name": "Spencer Macpherson",
+      "role": "ACTOR",
+      "details": "Xavier Baxter"
+    },
+    {
+      "id": 2540,
+      "name": "Kiara Pichardo",
+      "role": "ACTOR",
+      "details": "Nicole Herrera"
+    },
+    {
+      "id": 2541,
+      "name": "Milo Manheim",
+      "role": "ACTOR",
+      "details": "Wally Clark"
+    },
+    {
+      "id": 2542,
+      "name": "Sarah Yarkin",
+      "role": "ACTOR",
+      "details": "Rhonda"
+    },
+    {
+      "id": 2543,
+      "name": "Nick Pugliese",
+      "role": "ACTOR",
+      "details": "Charley"
+    },
+    {
+      "id": 2544,
+      "name": "Rainbow Wedell",
+      "role": "ACTOR",
+      "details": "Claire Zomer"
+    },
+    {
+      "id": 2545,
+      "name": "Josh Zuckerman",
+      "role": "ACTOR",
+      "details": "Mr. Martin"
+    },
+    {
+      "id": 2546,
+      "name": "Maria Dizzia",
+      "role": "ACTOR",
+      "details": "Sandra Nears"
+    },
+    {
+      "id": 2547,
+      "name": "Ian Tracey",
+      "role": "ACTOR",
+      "details": "Sheriff Baxter"
+    }
+  ],
+  "seriesExtension": {
+    "id": 23,
+    "episodesTotal": 24,
+    "seasonsTotal": 2,
+    "finishedAt": "2025-03-06"
+  }
+}
