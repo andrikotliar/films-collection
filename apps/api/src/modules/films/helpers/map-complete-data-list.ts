@@ -2,49 +2,56 @@ import { type CompleteDataListItem } from '@films-collection/shared';
 import type { Film, FilmPerson, FilmTrailer, Person, SeriesExtension } from '~/database/schema';
 import type { Timestamps } from '~/modules/films/types';
 
-type PropertyWithTitle = {
+type PropertyWithTitleAndId = {
+  id: number;
   title: string;
 };
 
-type CompleteDataFilm = Omit<Film, 'rating' | 'draft' | 'poster' | 'id' | Timestamps> & {
-  genres: Array<{ genre: PropertyWithTitle }>;
-  studios: Array<{ studio: PropertyWithTitle }>;
-  countries: Array<{ country: PropertyWithTitle }>;
+type CompleteDataFilm = Omit<Film, 'rating' | 'draft' | 'poster' | Timestamps> & {
+  genres: Array<{ genre: PropertyWithTitleAndId }>;
+  studios: Array<{ studio: PropertyWithTitleAndId }>;
+  countries: Array<{ country: PropertyWithTitleAndId }>;
   castAndCrew: Array<
     Pick<FilmPerson, 'role' | 'details'> & {
-      person: Pick<Person, 'name'>;
+      person: Pick<Person, 'id' | 'name'>;
     }
   >;
   awards: Array<{
-    award: PropertyWithTitle;
-    nomination: PropertyWithTitle;
+    award: PropertyWithTitleAndId;
+    nomination: PropertyWithTitleAndId;
   }>;
-  seriesExtensions: Array<Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'>>;
-  trailers: Array<Omit<FilmTrailer, 'id' | Timestamps | 'filmId'>>;
+  seriesExtensions: Array<Omit<SeriesExtension, Timestamps | 'filmId'>>;
+  trailers: Array<Omit<FilmTrailer, Timestamps | 'filmId'>>;
 };
 
 type GroupedAwards = {
-  [awardTitle: string]: {
+  [awardId: number]: {
+    id: number;
     title: string;
-    nominations: string[];
+    nominations: { id: number; title: string }[];
   };
 };
 
 const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListItem => {
   const awards = film.awards.reduce((result, award) => {
-    if (!result[award.award.title]) {
-      result[award.award.title] = {
+    if (!result[award.award.id]) {
+      result[award.award.id] = {
+        id: award.award.id,
         title: award.award.title,
         nominations: [],
       };
     }
 
-    result[award.award.title].nominations.push(award.nomination.title);
+    result[award.award.id].nominations.push({
+      id: award.nomination.id,
+      title: award.nomination.title,
+    });
 
     return result;
   }, {} as GroupedAwards);
 
   const castAndCrew = film.castAndCrew.map((person) => ({
+    id: person.person.id,
     name: person.person.name,
     role: person.role,
     details: person.details,
@@ -52,13 +59,23 @@ const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListItem => {
 
   return {
     ...film,
-    genres: film.genres.map((item) => item.genre.title),
-    countries: film.countries.map((item) => item.country.title),
-    studios: film.studios.map((item) => item.studio.title),
+    genres: film.genres.map((item) => ({
+      id: item.genre.id,
+      title: item.genre.title,
+    })),
+    countries: film.countries.map((item) => ({
+      id: item.country.id,
+      title: item.country.title,
+    })),
+    studios: film.studios.map((item) => ({
+      id: item.studio.id,
+      title: item.studio.title,
+    })),
     awards: Object.values(awards),
     castAndCrew,
     seriesExtension: film.seriesExtensions.length
       ? {
+          id: film.seriesExtensions[0].id,
           seasonsTotal: film.seriesExtensions[0].seasonsTotal,
           episodesTotal: film.seriesExtensions[0].episodesTotal,
           finishedAt: film.seriesExtensions[0].finishedAt?.split('T')[0] ?? null,

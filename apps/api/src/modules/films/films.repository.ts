@@ -617,6 +617,7 @@ export class FilmsRepository {
       where: newestOnly ? getLatestEntriesFilter(films.updatedAt) : undefined,
       orderBy: desc(films.updatedAt),
       columns: {
+        id: true,
         title: true,
         releaseDate: true,
         duration: true,
@@ -633,6 +634,7 @@ export class FilmsRepository {
           with: {
             country: {
               columns: {
+                id: true,
                 title: true,
               },
             },
@@ -642,6 +644,7 @@ export class FilmsRepository {
           with: {
             genre: {
               columns: {
+                id: true,
                 title: true,
               },
             },
@@ -651,6 +654,7 @@ export class FilmsRepository {
           with: {
             studio: {
               columns: {
+                id: true,
                 title: true,
               },
             },
@@ -664,6 +668,7 @@ export class FilmsRepository {
           with: {
             person: {
               columns: {
+                id: true,
                 name: true,
               },
             },
@@ -673,11 +678,13 @@ export class FilmsRepository {
           with: {
             award: {
               columns: {
+                id: true,
                 title: true,
               },
             },
             nomination: {
               columns: {
+                id: true,
                 title: true,
               },
             },
@@ -685,6 +692,7 @@ export class FilmsRepository {
         },
         seriesExtensions: {
           columns: {
+            id: true,
             episodesTotal: true,
             seasonsTotal: true,
             finishedAt: true,
@@ -692,6 +700,7 @@ export class FilmsRepository {
         },
         trailers: {
           columns: {
+            id: true,
             url: true,
             order: true,
           },

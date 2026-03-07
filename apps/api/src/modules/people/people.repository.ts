@@ -17,6 +17,17 @@ export class PeopleRepository {
     return getFirstValue(this.deps.db.select().from(people).where(eq(people.id, personId)));
   }
 
+  getAll() {
+    return this.deps.db
+      .select({
+        id: people.id,
+        name: people.name,
+        updatedAt: people.updatedAt,
+      })
+      .from(people)
+      .orderBy(asc(people.name));
+  }
+
   getList(queries: GetPeopleListQuery) {
     const filters = this.getListFilters(queries);
 

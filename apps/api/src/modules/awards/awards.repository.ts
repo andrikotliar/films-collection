@@ -163,12 +163,14 @@ export class AwardsRepository {
   async getAwardsWithNominations() {
     return this.deps.db.query.awards.findMany({
       columns: {
+        id: true,
         title: true,
         updatedAt: true,
       },
       with: {
         nominations: {
           columns: {
+            id: true,
             title: true,
             shouldIncludeActor: true,
           },

@@ -1,7 +1,7 @@
 import z from 'zod';
 import { PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
-import { AwardResponseSchema } from '~/schemas/awards.schema';
+import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
 import { CountryResponseSchema } from '~/schemas/countries.schema';
 import { GenreResponseSchema } from '~/schemas/genres.schema';
@@ -235,6 +235,7 @@ export const GetCompleteDataListQuerySchema = z.object({
 
 export const CompleteDataListItemSchema = z.object({
   ...FilmResponseSchema.pick({
+    id: true,
     title: true,
     releaseDate: true,
     type: true,
@@ -245,31 +246,29 @@ export const CompleteDataListItemSchema = z.object({
     chapterKey: true,
     chapterOrder: true,
   }).shape,
-  genres: z.array(z.string()),
+  genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
   style: z.enum(TitleStyle),
-  countries: z.array(z.string()),
-  studios: z.array(z.string()),
-  trailers: z.array(
-    z.object({
-      url: z.string(),
-      order: z.number(),
-    }),
-  ),
+  countries: z.array(CountryResponseSchema.pick({ title: true, id: true })),
+  studios: z.array(StudioResponseSchema.pick({ title: true, id: true })),
+  trailers: z.array(TrailerSchema.pick({ url: true, order: true, id: true })),
   awards: z.array(
     z.object({
+      id: z.number(),
       title: z.string(),
-      nominations: z.array(z.string()),
+      nominations: z.array(NominationResponseSchema.pick({ title: true, id: true })),
     }),
   ),
   castAndCrew: z.array(
     z.object({
+      id: z.number(),
       name: z.string(),
-      role: z.string(),
+      role: z.enum(PersonRole),
       details: z.string().nullable(),
     }),
   ),
   seriesExtension: z
     .object({
+      id: z.number(),
       episodesTotal: z.number(),
       seasonsTotal: z.number(),
       finishedAt: z.string().nullable(),
@@ -280,18 +279,14 @@ export const CompleteDataListItemSchema = z.object({
 export const CompleteDataResponseSchema = z.object({
   list: z.array(CompleteDataListItemSchema),
   baseData: z.object({
-    genres: z.array(z.string()),
-    countries: z.array(z.string()),
-    studios: z.array(z.string()),
+    genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
+    countries: z.array(CountryResponseSchema.pick({ title: true, id: true })),
+    studios: z.array(StudioResponseSchema.pick({ title: true, id: true })),
+    people: z.array(PersonResponseSchema.pick({ name: true, id: true })),
     awards: z.array(
       z.object({
-        title: z.string(),
-        nominations: z.array(
-          z.object({
-            title: z.string(),
-            shouldIncludeActor: z.boolean(),
-          }),
-        ),
+        ...AwardResponseSchema.pick({ id: true, title: true }).shape,
+        nominations: z.array(NominationResponseSchema.omit({ createdAt: true, updatedAt: true })),
       }),
     ),
   }),

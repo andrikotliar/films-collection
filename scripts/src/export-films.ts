@@ -53,7 +53,7 @@ const fetchData = async (
 };
 
 type BaseDataItems = keyof CompleteDataResponse['baseData'];
-const baseDataItems: BaseDataItems[] = ['genres', 'countries', 'studios', 'awards'];
+const baseDataItems: BaseDataItems[] = ['genres', 'countries', 'studios', 'awards', 'people'];
 
 const sanitizeFileName = (name: string) => {
   return name

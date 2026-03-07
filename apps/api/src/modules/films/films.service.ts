@@ -12,9 +12,9 @@ import {
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
 type GenericOption = {
+  id: number;
   title: string;
   updatedAt: string;
-  [key: string]: unknown;
 };
 
 export class FilmsService {
@@ -171,19 +171,35 @@ export class FilmsService {
     const countries = await this.deps.countriesService.getBaseDataList();
     const studios = await this.deps.studiosService.getBaseDataList();
     const awards = await this.deps.awardsService.getAwardsWithNominations();
+    const people = await this.deps.peopleService.getAll();
 
     return {
       list: mapCompleteDataList(films),
       baseData: {
-        genres: this.listOptionsToLabelsList(this.getValidatedOptions(genres, newestOnly)),
-        countries: this.listOptionsToLabelsList(this.getValidatedOptions(countries, newestOnly)),
-        studios: this.listOptionsToLabelsList(this.getValidatedOptions(studios, newestOnly)),
-        awards: this.getValidatedOptions(awards, newestOnly),
+        genres: this.listOptionsToDto(this.getValidatedOptions(genres, newestOnly)),
+        countries: this.listOptionsToDto(this.getValidatedOptions(countries, newestOnly)),
+        studios: this.listOptionsToDto(this.getValidatedOptions(studios, newestOnly)),
+        people: this.getValidatedOptions(people, newestOnly).map((person) => ({
+          id: person.id,
+          name: person.name,
+        })),
+        awards: this.getValidatedOptions(awards, newestOnly).map((award) => ({
+          id: award.id,
+          title: award.title,
+          nominations: award.nominations.map((nomination) => ({
+            id: nomination.id,
+            title: nomination.title,
+            shouldIncludeActor: nomination.shouldIncludeActor,
+          })),
+        })),
       },
     };
   }
 
-  private getValidatedOptions<T extends GenericOption>(options: T[], newestOnly?: boolean): T[] {
+  private getValidatedOptions<T extends { updatedAt: string }>(
+    options: T[],
+    newestOnly?: boolean,
+  ): T[] {
     if (!newestOnly) {
       return options;
     }
@@ -209,7 +225,12 @@ export class FilmsService {
     return options;
   }
 
-  private listOptionsToLabelsList<T extends GenericOption>(options: T[]): string[] {
-    return options.map((option) => option.title);
+  private listOptionsToDto<T extends GenericOption>(
+    options: T[],
+  ): Pick<GenericOption, 'id' | 'title'>[] {
+    return options.map((option) => ({
+      id: option.id,
+      title: option.title,
+    }));
   }
 }
