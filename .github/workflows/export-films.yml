@@ -49,7 +49,7 @@ jobs:
 
       - name: Merge Pull Request
         if: steps.cpr.outputs.pull-request-url != ''
-        uses: peter-evans/merge-pull-request@v2
+        uses: peter-evans/enable-pull-request-automerge@v2
         with:
           pull-request: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
