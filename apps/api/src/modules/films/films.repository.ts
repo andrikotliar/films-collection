@@ -512,6 +512,7 @@ export class FilmsRepository {
       countries,
       studios,
       seriesExtension,
+      trailers,
       ...filmParams
     } = data;
 
@@ -588,6 +589,18 @@ export class FilmsRepository {
           table: filmsStudios,
           values: studios.map((studioId) => ({
             studioId,
+            filmId,
+          })),
+        });
+      }
+
+      if (trailers) {
+        await this.updateFilmRelations({
+          transaction,
+          filmId,
+          table: filmTrailers,
+          values: trailers.map((trailer) => ({
+            ...trailer,
             filmId,
           })),
         });
