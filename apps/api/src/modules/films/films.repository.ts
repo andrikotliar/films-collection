@@ -558,7 +558,7 @@ export class FilmsRepository {
         });
       }
 
-      if (collections) {
+      if (collections?.length) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -570,7 +570,7 @@ export class FilmsRepository {
         });
       }
 
-      if (countries) {
+      if (countries?.length) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -582,7 +582,7 @@ export class FilmsRepository {
         });
       }
 
-      if (studios) {
+      if (studios?.length) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -594,7 +594,7 @@ export class FilmsRepository {
         });
       }
 
-      if (trailers) {
+      if (trailers?.length) {
         await this.updateFilmRelations({
           transaction,
           filmId,
