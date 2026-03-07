@@ -20,6 +20,8 @@ import {
   seriesExtensions,
   studios,
 } from '~/database/schema';
+import type { PgColumn, PgTableWithColumns, PgTransaction } from 'drizzle-orm/pg-core';
+import { max, sql } from 'drizzle-orm';
 
 const DATA_FOLDER = path.join(import.meta.dirname, '../../data');
 
@@ -29,6 +31,13 @@ type ContentResponse<T extends Record<string, unknown>> = {
 };
 
 type BaseDataKeys = keyof CompleteDataResponse['baseData'];
+
+type AnyTable = {
+  name: string;
+  columns: { id: PgColumn; [key: string]: any };
+  schema: undefined;
+  dialect: 'pg';
+};
 
 const loggerWrapper = (
   type: 'log' | 'error',
@@ -123,6 +132,20 @@ const getBaseDataConfig = (baseData: CompleteDataResponse['baseData']) => {
       table: people,
     },
   ];
+};
+
+const getMaxIdAndRestartAutoIncrement = async (
+  transaction: PgTransaction<any, any, any>,
+  table: PgTableWithColumns<AnyTable>,
+  tableName: string,
+) => {
+  const result = await transaction.select({ maxId: max(table.id) }).from(table);
+
+  const maxId = (result[0]?.maxId as number) ?? 0;
+
+  await transaction.execute(
+    sql.raw(`ALTER SEQUENCE "${tableName}_id_seq" RESTART WITH ${maxId + 1}`),
+  );
 };
 
 const run = async () => {
@@ -249,6 +272,14 @@ const run = async () => {
         }
       }
     }
+
+    await getMaxIdAndRestartAutoIncrement(tr, awards, 'awards');
+    await getMaxIdAndRestartAutoIncrement(tr, nominations, 'nominations');
+    await getMaxIdAndRestartAutoIncrement(tr, genres, 'genres');
+    await getMaxIdAndRestartAutoIncrement(tr, countries, 'countries');
+    await getMaxIdAndRestartAutoIncrement(tr, studios, 'studios');
+    await getMaxIdAndRestartAutoIncrement(tr, people, 'people');
+    await getMaxIdAndRestartAutoIncrement(tr, films, 'films');
   });
 
   logger.success('Seeding completed');
