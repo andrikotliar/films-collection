@@ -23,6 +23,9 @@ jobs:
         run: pnpm install
 
       - name: Run export-films script
+        env:
+          FILMS_EXPORT_URL: ${{ secrets.FILMS_EXPORT_URL }}
+          SIGNATURE_SECRET: ${{ secrets.SIGNATURE_SECRET }}
         run: pnpm tsx scripts/src/export-films.ts
 
       - name: Create Pull Request
