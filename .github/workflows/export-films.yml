@@ -25,13 +25,13 @@ jobs:
           version: 8
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --filter ./scripts
 
       - name: Run export-films script
         env:
           FILMS_EXPORT_URL: ${{ secrets.FILMS_EXPORT_URL }}
           SIGNATURE_SECRET: ${{ secrets.SIGNATURE_SECRET }}
-        run: pnpm tsx scripts/src/export-films.ts
+        run: pnpm --filter ./scripts run export-films
 
       - name: Create Pull Request
         id: cpr
