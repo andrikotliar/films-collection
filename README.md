@@ -128,3 +128,31 @@ docker run --rm \
 2. Navigate to the `apps/api` folder.
 3. Run `pnpm db:migration:gen --name specify_migration_name` to create migration file from the latest changes.
 4. Run `pnpm db:migration:apply` to apply changes to the database.
+
+### Localstack
+
+Start the localstack container
+
+```shell
+docker compose up s3_local -d
+```
+
+Create a bucket (AWS CLI should be installed):
+
+```shell
+aws --endpoint-url=http://localhost:45661 s3 mb s3://films-collection-assets
+```
+
+List bucket objects:
+
+```shell
+aws --endpoint-url=http://localhost:45661 s3 ls s3://films-collection-assets
+```
+
+Copy images to the bucket
+
+```shell
+aws --endpoint-url=http://localhost:45661 s3 sync _LOCAL_PATH_ s3://films-collection-assets
+```
+
+Public URL example: `http://localhost:45661/films-collection-assets/avatar.webp`
