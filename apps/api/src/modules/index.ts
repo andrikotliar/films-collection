@@ -35,6 +35,7 @@ import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people'
 import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios';
 import { UsersRepository, UsersService } from '~/modules/users';
 import { ConfigService } from '~/modules/config';
+import { AwsService } from '~/modules/aws/aws.service';
 
 export const services = {
   authService: AuthService,
@@ -65,6 +66,7 @@ export const services = {
   usersRepository: UsersRepository,
   usersService: UsersService,
   configService: ConfigService,
+  awsService: AwsService,
 };
 
 export const routers: Record<string, Route[]> = {
