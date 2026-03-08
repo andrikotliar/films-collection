@@ -1,7 +1,7 @@
 import { Columns2Icon } from 'lucide-react';
 import { ChapterLink } from '~/routes/films/$id/-components/chapters/components';
 import { Section } from '~/routes/films/$id/-components/section/section';
-import { ScrollableLine, type api, type ApiResponse } from '~/shared';
+import { getExternalImageUrl, ScrollableLine, type api, type ApiResponse } from '~/shared';
 
 type ChaptersProps = {
   data: ApiResponse<typeof api.films.get>['chapters'];
@@ -33,7 +33,7 @@ export const Chapters = ({ data, filmId }: ChaptersProps) => {
             chapter={index + 1}
             title={chapter.title}
             isActive={chapter.id === filmId}
-            poster={chapter.poster}
+            poster={getExternalImageUrl(chapter.poster)}
             key={chapter.id}
           />
         ))}
