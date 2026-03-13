@@ -9,9 +9,16 @@ import type { ApiResult } from '~/types';
 import { okResponse } from '~/helpers/ok-response';
 
 const DATA_FOLDER = path.join(import.meta.dirname, '../../apps/api/data');
+const NUMBER_REGEX = /^\d+$/;
+
+type QueryParams = {
+  intervalDays: number;
+  newestOnly: boolean;
+};
 
 const fetchData = async (
   env: z.infer<typeof ExportFilmScriptSchema>,
+  queries: QueryParams,
 ): Promise<ApiResult<CompleteDataResponse>> => {
   try {
     const timestamp = Date.now().toString();
@@ -25,7 +32,14 @@ const fetchData = async (
       .update(payload)
       .digest('hex');
 
-    const response = await fetch(env.FILMS_EXPORT_URL, {
+    const searchParams = new URLSearchParams();
+
+    searchParams.set('intervalDays', queries.intervalDays.toString());
+    searchParams.set('newestOnly', queries.newestOnly.toString());
+
+    const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
+
+    const response = await fetch(fullUrl, {
       method,
       headers: {
         'x-timestamp': timestamp,
@@ -66,13 +80,29 @@ const writeDataToFile = async (path: string, data: unknown) => {
   await fs.writeFile(path, JSON.stringify(data, null, 2), 'utf-8');
 };
 
+const getIntervalNumber = () => {
+  const intervalPosition = process.argv.findIndex((arg) => arg === '--interval');
+
+  if (intervalPosition < 0 || !NUMBER_REGEX.test(process.argv[intervalPosition + 1])) {
+    return 7;
+  }
+
+  return Number(process.argv[intervalPosition + 1]);
+};
+
 const run = async () => {
   if (!existsSync(DATA_FOLDER)) {
     await fs.mkdir(DATA_FOLDER, { recursive: true });
   }
 
+  const interval = getIntervalNumber();
+  const shouldFetchAllFilms = process.argv.includes('--all');
+
   const env = getEnvironment(ExportFilmScriptSchema);
-  const result = await fetchData(env);
+  const result = await fetchData(env, {
+    intervalDays: interval,
+    newestOnly: !shouldFetchAllFilms,
+  });
 
   if (!result.ok) {
     logger.error(`Error fetching data ${result.error}`);

@@ -231,6 +231,7 @@ export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
 
 export const GetCompleteDataListQuerySchema = z.object({
   newestOnly: getBoolFromQuery.optional(),
+  intervalDays: z.coerce.number().optional(),
 });
 
 export const CompleteDataListItemSchema = z.object({
