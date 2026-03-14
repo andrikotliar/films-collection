@@ -39,6 +39,8 @@ const fetchData = async (
 
     const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
 
+    logger.info(`Fetching data from ${fullUrl}`);
+
     const response = await fetch(fullUrl, {
       method,
       headers: {
@@ -83,6 +85,8 @@ const writeDataToFile = async (path: string, data: unknown) => {
 const getIntervalNumber = () => {
   const intervalPosition = process.argv.findIndex((arg) => arg === '--interval');
 
+  logger.info(`Interval position ${intervalPosition}`);
+
   if (intervalPosition < 0 || !NUMBER_REGEX.test(process.argv[intervalPosition + 1])) {
     return 7;
   }
@@ -97,6 +101,10 @@ const run = async () => {
 
   const interval = getIntervalNumber();
   const shouldFetchAllFilms = process.argv.includes('--all');
+
+  logger.info(
+    `Fetching films with interval ${interval} days, should fetch all films: ${shouldFetchAllFilms}`,
+  );
 
   const env = getEnvironment(ExportFilmScriptSchema);
   const result = await fetchData(env, {
