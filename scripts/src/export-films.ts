@@ -13,7 +13,7 @@ const NUMBER_REGEX = /^\d+$/;
 
 type QueryParams = {
   intervalDays: number;
-  newestOnly: string;
+  newestOnly: boolean;
 };
 
 const fetchData = async (
@@ -107,7 +107,7 @@ const run = async () => {
   const env = getEnvironment(ExportFilmScriptSchema);
   const result = await fetchData(env, {
     intervalDays: interval,
-    newestOnly: shouldFetchAllFilms ? '0' : '1',
+    newestOnly: shouldFetchAllFilms,
   });
 
   if (!result.ok) {

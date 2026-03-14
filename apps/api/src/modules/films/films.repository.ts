@@ -635,9 +635,6 @@ export class FilmsRepository {
   }
 
   getCompleteData(queries: GetCompleteDataListQuery) {
-    // TODO: remove this log after debugging
-    // eslint-disable-next-line no-console
-    console.log('queries', queries);
     return this.deps.db.query.films.findMany({
       where: queries.newestOnly
         ? getLatestEntriesFilter(films.updatedAt, queries.intervalDays)
