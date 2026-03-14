@@ -32,7 +32,14 @@ const fetchData = async (
       .update(payload)
       .digest('hex');
 
-    const fullUrl = `${env.FILMS_EXPORT_URL}?intervalDays=${queries.intervalDays}&newestOnly=${queries.newestOnly}`;
+    const searchParams = new URLSearchParams();
+
+    searchParams.set('intervalDays', queries.intervalDays.toString());
+    searchParams.set('newestOnly', String(queries.newestOnly).toLowerCase());
+
+    const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
+
+    logger.info(`Fetching data with url: ${fullUrl}`);
 
     const response = await fetch(fullUrl, {
       method,
