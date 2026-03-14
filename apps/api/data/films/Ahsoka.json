@@ -1,0 +1,142 @@
+{
+  "id": 260,
+  "title": "Ahsoka",
+  "releaseDate": "2023-08-22",
+  "type": "SERIES",
+  "duration": 50,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 8.5,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Space Opera",
+      "id": 16
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/J_1EXWNETiI?si=Duje2ZYzJW47JbDL",
+      "order": 1,
+      "id": 302
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actress in a Television Series",
+          "id": 243
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Fantasy/Sci-Fi Costumes",
+          "id": 240
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1342,
+      "name": "Dave Filoni",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2571,
+      "name": "Kevin Kiner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2572,
+      "name": "Erie Steelberg",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2573,
+      "name": "Stephan Pehrsson",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2224,
+      "name": "Barry Baz Idoine",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1004,
+      "name": "Rosario Dawson",
+      "role": "ACTOR",
+      "details": "Ahsoka Tano"
+    },
+    {
+      "id": 2574,
+      "name": "Natasha Liu Bordizzo",
+      "role": "ACTOR",
+      "details": "Sabine Wren"
+    },
+    {
+      "id": 952,
+      "name": "Ray Stevenson",
+      "role": "ACTOR",
+      "details": "Baylan Skoll"
+    },
+    {
+      "id": 1241,
+      "name": "David Tennant",
+      "role": "ACTOR",
+      "details": "Huyang"
+    },
+    {
+      "id": 2575,
+      "name": "Mary Elizabeth Winstead",
+      "role": "ACTOR",
+      "details": "Hera Syndulla"
+    },
+    {
+      "id": 2576,
+      "name": "Ivanna Sakhno",
+      "role": "ACTOR",
+      "details": "Hera Syndulla"
+    }
+  ],
+  "seriesExtension": {
+    "id": 25,
+    "episodesTotal": 8,
+    "seasonsTotal": 1,
+    "finishedAt": "2023-10-03"
+  }
+}
