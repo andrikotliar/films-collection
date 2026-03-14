@@ -38,14 +38,9 @@
   ],
   "trailers": [
     {
-      "url": "https://www.youtube.com/watch?v=_InqQJRqGW4",
-      "order": 1,
-      "id": 272
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ZAXA1DV4dtI",
-      "order": 2,
-      "id": 273
+      "url": "https://www.youtube.com/watch?v=B0liFT49BsE",
+      "order": 5,
+      "id": 276
     },
     {
       "url": "https://www.youtube.com/watch?v=TFJwUwnShnA",
@@ -53,14 +48,19 @@
       "id": 274
     },
     {
+      "url": "https://www.youtube.com/watch?v=ZAXA1DV4dtI",
+      "order": 2,
+      "id": 273
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_InqQJRqGW4",
+      "order": 1,
+      "id": 272
+    },
+    {
       "url": "https://www.youtube.com/watch?v=p_PJbmrX4uk",
       "order": 4,
       "id": 275
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=B0liFT49BsE",
-      "order": 5,
-      "id": 276
     }
   ],
   "awards": [

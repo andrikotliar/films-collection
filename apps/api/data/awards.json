@@ -380,6 +380,11 @@
         "id": 124,
         "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 242,
+        "title": "Best Television Series - Drama",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -580,6 +585,31 @@
       {
         "id": 143,
         "title": "Outstanding Writing for a Miniseries or a Dramatic Special",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 240,
+        "title": "Outstanding Fantasy/Sci-Fi Costumes",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 241,
+        "title": "Outstanding Period or Fantasy/Sci-Fi Makeup (Non-Prosthetic)",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 249,
+        "title": " Outstanding Writing for a Drama Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 250,
+        "title": "Outstanding Picture Editing for a Drama Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 251,
+        "title": "Outstanding Special Visual Effects in a Season or a Movie",
         "shouldIncludeActor": false
       }
     ]
@@ -933,6 +963,41 @@
         "id": 57,
         "title": "Outstanding Sound",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 238,
+        "title": "Best Fantasy Television Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 243,
+        "title": "Best Actress in a Television Series",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 244,
+        "title": "Best Science Fiction Television Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 245,
+        "title": "Best Actor in a Television Series",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 246,
+        "title": "Best Supporting Actor in a Television Series",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 247,
+        "title": "Best Television Home Media Release",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 248,
+        "title": "Best New Genre Television Series",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -1209,6 +1274,11 @@
       {
         "id": 101,
         "title": "Best Achievement in Special Visual Effects",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 239,
+        "title": "Make Up & Hair Design",
         "shouldIncludeActor": false
       }
     ]
