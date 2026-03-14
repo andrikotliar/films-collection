@@ -165,8 +165,8 @@ export class FilmsService {
     return this.getFilmDetails(filmId);
   }
 
-  async getCompleteData({ newestOnly }: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
-    const films = await this.deps.filmsRepository.getCompleteData(newestOnly);
+  async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
+    const films = await this.deps.filmsRepository.getCompleteData(queries);
     const genres = await this.deps.genresService.getBaseListData();
     const countries = await this.deps.countriesService.getBaseDataList();
     const studios = await this.deps.studiosService.getBaseDataList();
@@ -176,14 +176,14 @@ export class FilmsService {
     return {
       list: mapCompleteDataList(films),
       baseData: {
-        genres: this.listOptionsToDto(this.getValidatedOptions(genres, newestOnly)),
-        countries: this.listOptionsToDto(this.getValidatedOptions(countries, newestOnly)),
-        studios: this.listOptionsToDto(this.getValidatedOptions(studios, newestOnly)),
-        people: this.getValidatedOptions(people, newestOnly).map((person) => ({
+        genres: this.listOptionsToDto(this.getValidatedOptions(genres, queries.newestOnly)),
+        countries: this.listOptionsToDto(this.getValidatedOptions(countries, queries.newestOnly)),
+        studios: this.listOptionsToDto(this.getValidatedOptions(studios, queries.newestOnly)),
+        people: this.getValidatedOptions(people, queries.newestOnly).map((person) => ({
           id: person.id,
           name: person.name,
         })),
-        awards: this.getValidatedOptions(awards, newestOnly).map((award) => ({
+        awards: this.getValidatedOptions(awards, queries.newestOnly).map((award) => ({
           id: award.id,
           title: award.title,
           nominations: award.nominations.map((nomination) => ({

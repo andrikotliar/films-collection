@@ -23,7 +23,7 @@ export const CreateFilmInputSchema = z.object({
   type: z.enum(TitleType),
   style: z.enum(TitleStyle),
   rating: z.coerce.number().min(1).max(3),
-  poster: z.string().nullable(),
+  poster: z.string().optional().nullable(),
   genres: z.array(z.number()),
   studios: z.array(z.number()),
   countries: z.array(z.number()),
@@ -40,7 +40,7 @@ export const CreateFilmInputSchema = z.object({
   chapterOrder: z.coerce.number().nullable(),
   castAndCrew: z.array(
     z.object({
-      personId: z.coerce.number().min(1),
+      personId: z.coerce.number().min(1, 'Person cannot be empty'),
       comment: z.string().nullable(),
       role: z.enum(PersonRole),
       details: z.string().nullable(),
@@ -48,8 +48,8 @@ export const CreateFilmInputSchema = z.object({
   ),
   awards: z.array(
     z.object({
-      awardId: z.number().min(1),
-      nominationId: z.number().min(1),
+      awardId: z.number().min(1, 'Award cannot be empty'),
+      nominationId: z.number().min(1, 'Nomination cannot be empty'),
       comment: z.string().nullable(),
       actorId: z.number().nullable(),
     }),
@@ -231,6 +231,7 @@ export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
 
 export const GetCompleteDataListQuerySchema = z.object({
   newestOnly: getBoolFromQuery.optional(),
+  intervalDays: z.coerce.number().optional(),
 });
 
 export const CompleteDataListItemSchema = z.object({

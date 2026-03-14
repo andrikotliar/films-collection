@@ -1,0 +1,199 @@
+{
+  "id": 261,
+  "title": "Andor",
+  "releaseDate": "2022-09-21",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 4.5,
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/cKOegEuCcfw?si=rStV8mRHD-tMXzdf",
+      "order": 1,
+      "id": 303
+    },
+    {
+      "url": "https://youtu.be/duN-KQgOjYs?si=hfspYJejxBeHp3je",
+      "order": 2,
+      "id": 304
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Television Series",
+          "id": 244
+        },
+        {
+          "title": "Best Actor in a Television Series",
+          "id": 245
+        },
+        {
+          "title": "Best Supporting Actor in a Television Series",
+          "id": 246
+        },
+        {
+          "title": "Best Television Home Media Release",
+          "id": 247
+        },
+        {
+          "title": "Best New Genre Television Series",
+          "id": 248
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": " Outstanding Writing for a Drama Series",
+          "id": 249
+        },
+        {
+          "title": "Outstanding Fantasy/Sci-Fi Costumes",
+          "id": 240
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Period or fantasy Program (One Hour or More)",
+          "id": 132
+        },
+        {
+          "title": "Outstanding Picture Editing for a Drama Series",
+          "id": 250
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1921,
+      "name": "Tony Gilroy",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2577,
+      "name": "Nicholas Britell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2578,
+      "name": "Brandon Roberts",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2579,
+      "name": "Damian Garcia",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2580,
+      "name": "Adriano Goldman",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2587,
+      "name": "Christophe Nuyens",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2581,
+      "name": "Frank Lamm",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2479,
+      "name": "Mark Patten",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 293,
+      "name": "Diego Luna",
+      "role": "ACTOR",
+      "details": "Cassian Andor"
+    },
+    {
+      "id": 2582,
+      "name": "Denise Gough",
+      "role": "ACTOR",
+      "details": "Dedra Meero"
+    },
+    {
+      "id": 1080,
+      "name": "Stellan Skarsgard",
+      "role": "ACTOR",
+      "details": "Luthen Rael"
+    },
+    {
+      "id": 2583,
+      "name": "Kyle Soller",
+      "role": "ACTOR",
+      "details": "Syril Karn"
+    },
+    {
+      "id": 2584,
+      "name": "Adria Arjona",
+      "role": "ACTOR",
+      "details": "Bix Caleen"
+    },
+    {
+      "id": 2585,
+      "name": "Anton Lesser",
+      "role": "ACTOR",
+      "details": "Major Partagaz"
+    },
+    {
+      "id": 2586,
+      "name": "Genevieve O'Reilly",
+      "role": "ACTOR",
+      "details": "Mon Mothma"
+    }
+  ],
+  "seriesExtension": {
+    "id": 26,
+    "episodesTotal": 24,
+    "seasonsTotal": 2,
+    "finishedAt": "2025-05-13"
+  }
+}

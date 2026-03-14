@@ -1,5 +1,5 @@
 import styles from './nomination-select.module.css';
-import { useWatch } from 'react-hook-form';
+import { useFormContext, useWatch } from 'react-hook-form';
 import {
   api,
   FieldError,
@@ -21,6 +21,8 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
   const awards = useWatch<z.infer<typeof FilmFormSchema>, 'awards'>({
     name: 'awards',
   });
+
+  const { formState } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const currentAward = awards[index];
 
@@ -93,6 +95,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
         label="Nomination"
         onCreateOption={createNomination}
         isOptionsLoading={isNominationCreating}
+        error={formState.errors?.awards?.[index]?.nominationId?.message}
       />
       {shouldShowActorSelect && (
         <Form.AsyncSelect

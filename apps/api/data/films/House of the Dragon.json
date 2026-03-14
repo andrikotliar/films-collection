@@ -32,8 +32,68 @@
       "id": 26
     }
   ],
-  "trailers": [],
-  "awards": [],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=DotnJ7tTA34&pp=ygUkaG91c2Ugb2YgdGhlIGRyYWdvbiBzZWFzb24gMSB0cmFpbGVy",
+      "order": 1,
+      "id": 300
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YN2H_sKcmGw&pp=ygUkaG91c2Ugb2YgdGhlIGRyYWdvbiBzZWFzb24gMiB0cmFpbGVy",
+      "order": 2,
+      "id": 301
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Fantasy Television Series",
+          "id": 238
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Make Up & Hair Design",
+          "id": 239
+        },
+        {
+          "title": "Special, Visual & Graphic Effects",
+          "id": 236
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Television Series - Drama",
+          "id": 242
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Fantasy/Sci-Fi Costumes",
+          "id": 240
+        },
+        {
+          "title": "Outstanding Period or Fantasy/Sci-Fi Makeup (Non-Prosthetic)",
+          "id": 241
+        }
+      ]
+    }
+  ],
   "castAndCrew": [
     {
       "id": 2560,

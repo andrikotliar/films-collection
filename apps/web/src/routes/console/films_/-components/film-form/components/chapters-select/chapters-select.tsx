@@ -52,6 +52,7 @@ export const ChaptersSelect = () => {
         onClear={() => setValue('chapterOrder', null)}
         onCreateOption={mutateAsync}
         isOptionsLoading={isPending}
+        error={formState.errors.chapterKey?.message}
       />
       {isFilmsLoading && <Loader />}
       {chapterKey && <Form.OrderSelect list={films} name="chapterOrder" currentId={Number(id)} />}

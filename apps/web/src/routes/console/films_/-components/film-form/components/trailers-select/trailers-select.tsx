@@ -1,9 +1,11 @@
 import { SortableList, Form } from '~/shared';
 import { type DragEndEvent } from '@dnd-kit/core';
 import { useFieldArray, useFormContext } from 'react-hook-form';
+import type z from 'zod';
+import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 
 export const TrailersSelect = () => {
-  const { control, watch } = useFormContext();
+  const { control, watch, formState } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const {
     fields: trailers,
@@ -46,6 +48,7 @@ export const TrailersSelect = () => {
                 name={`trailers.${index}.url`}
                 label={`${trailerLabel} ${index + 1}`}
                 onRemove={() => removeTrailer(index)}
+                error={formState.errors?.trailers?.[index]?.url?.message}
               />
             </SortableList.Item>
           ))}

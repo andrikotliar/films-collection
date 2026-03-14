@@ -38,11 +38,6 @@
   ],
   "trailers": [
     {
-      "url": "https://www.youtube.com/watch?v=rrwycJ08PSA",
-      "order": 1,
-      "id": 33
-    },
-    {
       "url": "https://www.youtube.com/watch?v=810CHvSdXOo",
       "order": 2,
       "id": 34
@@ -51,6 +46,11 @@
       "url": "https://www.youtube.com/watch?v=cq2iTHoLrt0",
       "order": 3,
       "id": 35
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rrwycJ08PSA",
+      "order": 1,
+      "id": 33
     }
   ],
   "awards": [

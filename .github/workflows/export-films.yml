@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 20 * * 6' # Every Saturday at 8 PM UTC
   workflow_dispatch:
+    inputs:
+      days:
+        description: 'Days interval for latest entries filter'
+        required: false
+        default: '7'
+        type: string
 
 jobs:
   export-films:
@@ -24,6 +30,14 @@ jobs:
         with:
           version: 8
 
+      - name: Cache pnpm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
       - name: Install dependencies
         run: pnpm install --filter ./scripts
 
@@ -31,7 +45,8 @@ jobs:
         env:
           FILMS_EXPORT_URL: ${{ secrets.FILMS_EXPORT_URL }}
           SIGNATURE_SECRET: ${{ secrets.SIGNATURE_SECRET }}
-        run: pnpm --filter ./scripts run export-films
+          INPUT_DAYS: ${{ inputs.days }}
+        run: pnpm --filter ./scripts run export-films -- --interval $INPUT_DAYS
 
       - name: Create Pull Request
         id: cpr
@@ -45,17 +60,12 @@ jobs:
           add-paths: |
             apps/api/data/
           delete-branch: true
-
-      - name: Auto-approve PR
-        if: steps.cpr.outputs.pull-request-url != ''
-        uses: hmarr/auto-approve-action@v4
-        with:
-          github-token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Merge Pull Request
         if: steps.cpr.outputs.pull-request-url != ''
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
-          pull-request: ${{ steps.cpr.outputs.pull-request-number }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
-          github-token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}

@@ -5,11 +5,18 @@ export const getBoolFromQuery = z.preprocess((v) => {
     return v;
   }
 
-  if (v === 'true') {
-    return true;
-  }
+  if (typeof v === 'string') {
+    const lower = v.toLowerCase();
 
-  if (v === 'false') {
-    return false;
+    if (lower === 'true') {
+      return true;
+    }
+
+    if (lower === 'false') {
+      return false;
+    }
+
+    return undefined;
   }
-}, z.boolean());
+  return undefined;
+}, z.boolean().optional());

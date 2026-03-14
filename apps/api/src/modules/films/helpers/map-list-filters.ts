@@ -89,7 +89,7 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery, db: Database): S
       exists(
         db
           .select()
-          .from(filmsStudios)
+          .from(filmsCountries)
           .where(
             and(eq(films.id, filmsCountries.filmId), inArray(filmsCountries.countryId, countryIds)),
           ),

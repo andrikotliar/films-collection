@@ -1,8 +1,10 @@
 import styles from './films-section.module.css';
 import { FilmsNotFound, AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { Loader, Pagination, type api, type ApiResponse } from '~/shared';
+import { Button, Loader, Pagination, type api, type ApiResponse } from '~/shared';
 import { PAGE_LIMITS } from '@films-collection/shared';
+import { FilterIcon } from 'lucide-react';
+import { useSidebar } from '~/routes/_home/-context';
 
 type FilmsSectionProps = {
   data: ApiResponse<typeof api.films.list>;
@@ -14,6 +16,7 @@ const routeApi = getRouteApi('/_home/');
 export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
+  const { toggleFilter } = useSidebar();
 
   if (isLoading) {
     return (
@@ -50,6 +53,11 @@ export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
     <div className={styles.films_section}>
       <CurrentEvents />
       <AdditionalInfoSection info={data.additionalInfo} />
+      <div className={styles.filter_wrapper}>
+        <Button icon={<FilterIcon />} onClick={toggleFilter}>
+          Filters
+        </Button>
+      </div>
       <FilmsGrid films={data.list} />
       <div className={styles.pagination_wrapper}>
         <Pagination

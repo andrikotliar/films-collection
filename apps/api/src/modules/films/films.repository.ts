@@ -4,6 +4,7 @@ import {
   PAGE_LIMITS,
   type CreateFilmInput,
   type GetAdminListQuery,
+  type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
   type GetFilmsListQuery,
   type SortingOrder,
@@ -633,9 +634,11 @@ export class FilmsRepository {
     await transaction.insert(table).values(values);
   }
 
-  getCompleteData(newestOnly = true) {
+  getCompleteData(queries: GetCompleteDataListQuery) {
     return this.deps.db.query.films.findMany({
-      where: newestOnly ? getLatestEntriesFilter(films.updatedAt) : undefined,
+      where: queries.newestOnly
+        ? getLatestEntriesFilter(films.updatedAt, queries.intervalDays)
+        : undefined,
       orderBy: desc(films.updatedAt),
       columns: {
         id: true,
