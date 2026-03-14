@@ -54,13 +54,6 @@ jobs:
           delete-branch: true
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Auto-approve PR
-        if: steps.cpr.outputs.pull-request-url != ''
-        uses: hmarr/auto-approve-action@v4
-        with:
-          github-token: ${{ secrets.GH_TOKEN }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
-
       - name: Merge Pull Request
         if: steps.cpr.outputs.pull-request-url != ''
         uses: peter-evans/enable-pull-request-automerge@v2
