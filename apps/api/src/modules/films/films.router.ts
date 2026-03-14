@@ -125,6 +125,7 @@ export const filmsRouter = createRouter([
     },
     handler: async ({ request, app }) => {
       // TODO: remove this log after debugging
+      // eslint-disable-next-line no-console
       console.log('Received export request with query:', request.query);
       const data = await app.container.resolve('filmsService').getCompleteData(request.query);
 
