@@ -17,4 +17,4 @@ export const getBoolFromQuery = z.preprocess((v) => {
     }
   }
   return undefined;
-}, z.boolean());
+}, z.boolean().optional());

@@ -124,6 +124,8 @@ export const filmsRouter = createRouter([
       response: CompleteDataResponseSchema,
     },
     handler: async ({ request, app }) => {
+      // TODO: remove this log after debugging
+      console.log('Received export request with query:', request.query);
       const data = await app.container.resolve('filmsService').getCompleteData(request.query);
 
       return { data };

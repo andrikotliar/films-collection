@@ -85,8 +85,6 @@ const writeDataToFile = async (path: string, data: unknown) => {
 const getIntervalNumber = () => {
   const intervalPosition = process.argv.findIndex((arg) => arg === '--interval');
 
-  logger.info(`Interval position ${intervalPosition}`);
-
   if (intervalPosition < 0 || !NUMBER_REGEX.test(process.argv[intervalPosition + 1])) {
     return 7;
   }
