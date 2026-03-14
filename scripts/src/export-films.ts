@@ -39,8 +39,6 @@ const fetchData = async (
 
     const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
 
-    logger.info(`Fetching data with url: ${fullUrl}`);
-
     const response = await fetch(fullUrl, {
       method,
       headers: {
