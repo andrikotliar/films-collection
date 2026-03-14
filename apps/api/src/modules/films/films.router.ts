@@ -120,14 +120,16 @@ export const filmsRouter = createRouter([
     url: '/export',
     preHandler: [validateGetSignature],
     schema: {
-      querystring: GetCompleteDataListQuerySchema,
+      // querystring: GetCompleteDataListQuerySchema,
       response: CompleteDataResponseSchema,
     },
     handler: async ({ request, app }) => {
       // TODO: remove this log after debugging
       // eslint-disable-next-line no-console
       console.log('Received export request with query:', request.query);
-      const data = await app.container.resolve('filmsService').getCompleteData(request.query);
+      const data = await app.container
+        .resolve('filmsService')
+        .getCompleteData(request.query as any);
 
       return { data };
     },
