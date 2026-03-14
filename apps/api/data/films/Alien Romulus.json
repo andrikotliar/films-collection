@@ -1,0 +1,169 @@
+{
+  "id": 262,
+  "title": "Alien: Romulus ",
+  "releaseDate": "2024-08-16",
+  "type": "FILM",
+  "duration": 119,
+  "budget": 80000000,
+  "boxOffice": 350000000,
+  "overview": "<p></p>",
+  "chapterKey": "alien",
+  "chapterOrder": 1.5,
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    },
+    {
+      "title": "Cyberpunk",
+      "id": 19
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Hungary",
+      "id": 17
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    },
+    {
+      "title": "TSG Entertainment",
+      "id": 24
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/GTNMt84KT0k?si=ROPpf4zFQv9MKCB8",
+      "order": 1,
+      "id": 305
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2588,
+      "name": "Fede Alvarez",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2588,
+      "name": "Fede Alvarez",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2589,
+      "name": "Rodo Sayagues",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2590,
+      "name": "Cailee Spaeny",
+      "role": "ACTOR",
+      "details": "Rain"
+    },
+    {
+      "id": 2591,
+      "name": "David Jonsson",
+      "role": "ACTOR",
+      "details": "Andy"
+    },
+    {
+      "id": 2592,
+      "name": "Archie Renaux",
+      "role": "ACTOR",
+      "details": "Tyler"
+    },
+    {
+      "id": 2593,
+      "name": "Isabela Merced",
+      "role": "ACTOR",
+      "details": "Kay"
+    },
+    {
+      "id": 2594,
+      "name": "Spike Fearn",
+      "role": "ACTOR",
+      "details": "Bjorn"
+    },
+    {
+      "id": 2595,
+      "name": "Aileen Wu",
+      "role": "ACTOR",
+      "details": "Navaro"
+    },
+    {
+      "id": 2596,
+      "name": "Trevor Newlin",
+      "role": "ACTOR",
+      "details": "Xenomorph"
+    },
+    {
+      "id": 458,
+      "name": "Ian Holm",
+      "role": "ACTOR",
+      "details": "Rook"
+    },
+    {
+      "id": 1285,
+      "name": "Walter Hill",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2597,
+      "name": "Michael Pruss",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1281,
+      "name": "Ridley Scott",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1931,
+      "name": "Benjamin Wallfisch",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2598,
+      "name": "Galo Olivares",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}
