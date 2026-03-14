@@ -59,7 +59,7 @@ pnpm api:generate
 
 1. Node 20+
 2. Docker
-3. Cloudinary account
+3. AWS account
 
 ### Start dev server
 

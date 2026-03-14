@@ -39,7 +39,8 @@ services:
     volumes:
       - ./localstack-data:/var/lib/localstack
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./scripts/shell/localstack-bootstrap.sh:/etc/localstack/init/ready.d/localstack-bootstrap.sh
+      - ./scripts/docker/localstack/localstack-bootstrap.sh:/etc/localstack/init/ready.d/localstack-bootstrap.sh
+      - ./scripts/docker/localstack/cors.json:/aws-config/cors.json
       - ./posters:/posters:ro
 
 volumes:
