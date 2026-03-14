@@ -35,7 +35,7 @@ const fetchData = async (
     const searchParams = new URLSearchParams();
 
     searchParams.set('intervalDays', queries.intervalDays.toString());
-    searchParams.set('newestOnly', queries.newestOnly.toString());
+    searchParams.set('newestOnly', String(queries.newestOnly).toLowerCase());
 
     const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
 
