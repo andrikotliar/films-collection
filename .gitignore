@@ -36,4 +36,5 @@ target
 
 # Docker storage
 
-localstack-data
+localstack-data/
+posters/
