@@ -15,7 +15,8 @@ RUN pnpm --filter ./apps/api build
 RUN pnpm api:generate
 
 ARG VITE_IMAGES_URL
-RUN VITE_IMAGES_URL=$VITE_IMAGES_URL pnpm --filter ./apps/web build
+ENV VITE_IMAGES_URL=$VITE_IMAGES_URL
+RUN pnpm --filter ./apps/web build
 
 FROM node:24-alpine AS production
 
@@ -40,7 +41,6 @@ COPY --from=builder /app/pnpm-lock.yaml ./
 COPY --from=builder /app/pnpm-workspace.yaml ./
 
 ENV NODE_ENV=production
-ENV VITE_IMAGES_URL=${VITE_IMAGES_URL}
 EXPOSE 5000
 
 CMD ["sh", "-c", "pnpm start:prod"]
