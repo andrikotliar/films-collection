@@ -46,26 +46,6 @@
   ],
   "trailers": [
     {
-      "url": "https://www.youtube.com/watch?v=ia1Fbg96vL0",
-      "order": 1,
-      "id": 178
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=IW7_ZzFZF-o",
-      "order": 2,
-      "id": 179
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=uwxwHTu802M",
-      "order": 3,
-      "id": 180
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=JQi2MAfpACI",
-      "order": 4,
-      "id": 181
-    },
-    {
       "url": "https://www.youtube.com/watch?v=AGSfZ4xt4UY",
       "order": 5,
       "id": 182
@@ -76,9 +56,29 @@
       "id": 183
     },
     {
+      "url": "https://www.youtube.com/watch?v=IW7_ZzFZF-o",
+      "order": 2,
+      "id": 179
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JQi2MAfpACI",
+      "order": 4,
+      "id": 181
+    },
+    {
       "url": "https://www.youtube.com/watch?v=VQaFKClCUpo",
       "order": 7,
       "id": 184
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ia1Fbg96vL0",
+      "order": 1,
+      "id": 178
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uwxwHTu802M",
+      "order": 3,
+      "id": 180
     }
   ],
   "awards": [
