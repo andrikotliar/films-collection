@@ -37,7 +37,8 @@ jobs:
         env:
           FILMS_EXPORT_URL: ${{ secrets.FILMS_EXPORT_URL }}
           SIGNATURE_SECRET: ${{ secrets.SIGNATURE_SECRET }}
-        run: pnpm --filter ./scripts run export-films -- --interval ${{ github.event.inputs.days || '7' }}
+          INPUT_DAYS: ${{ inputs.days }}
+        run: pnpm --filter ./scripts run export-films -- --interval $INPUT_DAYS
 
       - name: Create Pull Request
         id: cpr
