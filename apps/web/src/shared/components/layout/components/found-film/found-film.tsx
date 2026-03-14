@@ -1,6 +1,6 @@
 import styles from './found-film.module.css';
 import { Link } from '@tanstack/react-router';
-import { getYearFromDate, type api, type ApiResponse } from '~/shared';
+import { getExternalImageUrl, getYearFromDate, type api, type ApiResponse } from '~/shared';
 import { Image } from '~/shared/components/image/image';
 
 type FoundFilmProps = {
@@ -21,7 +21,7 @@ export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
       onClick={onFilmOpen}
     >
       <div className={styles.poster_wrapper}>
-        <Image src={film.poster} alt={`Poster of the "${film.title}"`} />
+        <Image src={getExternalImageUrl(film.poster)} alt={`Poster of the "${film.title}"`} />
       </div>
       <div className={styles.info_wrapper}>
         <h3 className={styles.film_title}>{film.title}</h3>

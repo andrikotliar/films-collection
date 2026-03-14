@@ -4,12 +4,12 @@ import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import {
   api,
   Form,
-  getFileUploadFormData,
   getInitialDataQueryOptions,
   getObjectsDiff,
   isNewItem,
   LocalStorage,
   queryKeys,
+  titleToFileName,
 } from '~/shared';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
 import {
@@ -39,15 +39,23 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       let poster = data.poster;
 
       if (poster instanceof File) {
-        const formData = getFileUploadFormData({
-          title: data.title,
-          destination: 'posters',
-          file: poster,
+        const key = `posters/${titleToFileName(data.title)}`;
+        const uploadParams = await api.files.upload.url.create({
+          input: {
+            key,
+            fileType: poster.type,
+          },
         });
 
-        const posterData = await api.files.create({ input: formData });
+        await fetch(uploadParams.url, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': poster.type,
+          },
+          body: poster,
+        });
 
-        poster = posterData.url;
+        poster = key;
       }
 
       const input = {

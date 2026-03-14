@@ -1,4 +1,4 @@
-import { getYearFromDate, Image, type api, type ApiResponse } from '~/shared';
+import { getExternalImageUrl, getYearFromDate, Image, type api, type ApiResponse } from '~/shared';
 import styles from './films-grid.module.css';
 import { Link } from '@tanstack/react-router';
 
@@ -17,7 +17,7 @@ export const FilmsGrid = ({ films }: FilmsGridProps) => {
           key={film.id}
         >
           <div className={styles.cover}>
-            <Image src={film.poster} alt={film.title} />
+            <Image src={getExternalImageUrl(film.poster)} alt={film.title} />
           </div>
           <h3 className={styles.title}>{film.title}</h3>
           <p className={styles.year}>{getYearFromDate(film.releaseDate)}</p>

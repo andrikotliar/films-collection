@@ -4,6 +4,7 @@ import { ScrollableLine } from '~/shared/components/scrollable-line/scrollable-l
 import { getVirtualChapterValue } from '~/shared/components/order-select/helpers';
 import { Image } from '~/shared/components/image/image';
 import clsx from 'clsx';
+import { getExternalImageUrl } from '~/shared/helpers';
 
 type ListItem = {
   id: number;
@@ -74,7 +75,10 @@ export const OrderSelect = ({
                 </label>
               ) : (
                 <div className={styles.film}>
-                  <Image src={film.poster} className={styles.poster_select_image} />
+                  <Image
+                    src={getExternalImageUrl(film.poster)}
+                    className={styles.poster_select_image}
+                  />
                 </div>
               )}
               {!isCurrentFilmSelected && !isNextChapterSelected && (

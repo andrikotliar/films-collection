@@ -6,12 +6,14 @@ const EnvSchema = z.object({
   SERVER_HOST: z.string().optional(),
   AUTH_SECRET: z.string(),
   COOKIE_SECRET: z.string(),
-  CLOUDINARY_CLOUD_NAME: z.string(),
-  CLOUDINARY_API_KEY: z.string(),
-  CLOUDINARY_API_SECRET: z.string(),
   NODE_ENV: z.string().optional(),
   DATABASE_URL: z.string(),
   SIGNATURE_SECRET: z.string(),
+  AWS_REGION: z.string(),
+  AWS_ACCESS_KEY_ID: z.string(),
+  AWS_SECRET_ACCESS_KEY: z.string(),
+  S3_ENDPOINT: z.string().optional(),
+  S3_ASSETS_BUCKET: z.string(),
 });
 
 export type EnvVariables = z.infer<typeof EnvSchema>;

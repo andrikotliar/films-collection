@@ -22,6 +22,14 @@ The API client is automatically generated from the backend API endpoints. It's b
 pnpm api:generate
 ```
 
+### Images
+
+The `poster` column in the `films` table contains image paths. To display them on the frontend put images in any storage that can serve public URLs and support folders.
+
+Define `VITE_IMAGES_URL` in the `.env` file at the root of the `apps/web`. The variable should be a base public URL.
+
+Poster starts with the `posters` prefix and follows by the image name.
+
 ## Backend
 
 ### Tech stack
@@ -35,7 +43,7 @@ pnpm api:generate
 
 ### Routers
 
-To build a typesafe router, use the `createRouter` and `defineRoute` helpers. The `defineRoute` helpers takes into account schemas to properly type request parameters (body, query string) and endpoint response. The response schema is required.
+To build a type safe router, use the `createRouter` and `defineRoute` helpers. The `defineRoute` helpers takes into account schemas to properly type request parameters (body, query string) and endpoint response. The response schema is required.
 
 This helpers simply process of generating the API client for the frontend.
 
@@ -51,7 +59,7 @@ pnpm api:generate
 
 1. Node 20+
 2. Docker
-3. Cloudinary account
+3. AWS account
 
 ### Start dev server
 
@@ -128,3 +136,31 @@ docker run --rm \
 2. Navigate to the `apps/api` folder.
 3. Run `pnpm db:migration:gen --name specify_migration_name` to create migration file from the latest changes.
 4. Run `pnpm db:migration:apply` to apply changes to the database.
+
+### Localstack
+
+Start the localstack container
+
+```shell
+docker compose up s3_local -d
+```
+
+Create a bucket (AWS CLI should be installed):
+
+```shell
+aws --endpoint-url=http://localhost:45661 s3 mb s3://films-collection-assets
+```
+
+List bucket objects:
+
+```shell
+aws --endpoint-url=http://localhost:45661 s3 ls s3://films-collection-assets
+```
+
+Copy posters to the bucket
+
+```shell
+aws --endpoint-url=http://localhost:45661 s3 sync _LOCAL_PATH_ s3://films-collection-assets/posters
+```
+
+Public URL example: `http://localhost:45661/films-collection-assets/avatar.webp`

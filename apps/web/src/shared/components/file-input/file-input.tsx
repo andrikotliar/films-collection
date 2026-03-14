@@ -5,7 +5,7 @@ import { type ChangeEvent, type CSSProperties, useRef, useState } from 'react';
 import styles from './file-input.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
-import { type FormError } from '~/shared';
+import { getExternalImageUrl, type FormError } from '~/shared';
 import { FieldError } from '~/shared/components/field-error/field-error';
 
 export type FileInputProps = {
@@ -30,7 +30,9 @@ export const FileInput = ({
   error,
 }: FileInputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
-  const [imagePreview, setImagePreview] = useState<string | null>(defaultValue);
+  const [imagePreview, setImagePreview] = useState<string | null>(
+    getExternalImageUrl(defaultValue),
+  );
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];

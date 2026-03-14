@@ -33,3 +33,8 @@ target
 # Generated modules
 .tanstack
 **/generated
+
+# Docker storage
+
+localstack-data/
+posters/

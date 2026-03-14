@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router';
 import styles from './event-banner.module.css';
-import { getPluralWord, type api, type ApiResponse } from '~/shared';
+import { getPluralWord, getExternalImageUrl, type api, type ApiResponse } from '~/shared';
 import { Image } from '~/shared/components/image/image';
 import clsx from 'clsx';
 
@@ -23,7 +23,7 @@ export const EventBanner = ({ event, selectedEventId }: EventBannerProps) => {
       className={clsx(styles.event_banner_button, isSelected && styles.selected_event)}
     >
       <div className={styles.event_banner_inner}>
-        <Image src={event.poster} className={styles.poster_image} />
+        <Image src={getExternalImageUrl(event.poster)} className={styles.poster_image} />
       </div>
       <div className={styles.event_title}>
         {subTitle} {event.title}
