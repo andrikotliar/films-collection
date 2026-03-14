@@ -4,17 +4,19 @@ export const getBoolFromQuery = z.preprocess((v) => {
   if (typeof v === 'boolean') {
     return v;
   }
-  if (typeof v === 'number') {
-    return v === 1;
-  }
+
   if (typeof v === 'string') {
     const lower = v.toLowerCase();
-    if (lower === 'true' || lower === '1') {
+
+    if (lower === 'true') {
       return true;
     }
-    if (lower === 'false' || lower === '0') {
+
+    if (lower === 'false') {
       return false;
     }
+
+    return undefined;
   }
   return undefined;
-}, z.boolean());
+}, z.boolean().optional());

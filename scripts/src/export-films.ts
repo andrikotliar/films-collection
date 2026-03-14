@@ -13,7 +13,7 @@ const NUMBER_REGEX = /^\d+$/;
 
 type QueryParams = {
   intervalDays: number;
-  newestOnly: string;
+  newestOnly: boolean;
 };
 
 const fetchData = async (
@@ -85,8 +85,6 @@ const writeDataToFile = async (path: string, data: unknown) => {
 const getIntervalNumber = () => {
   const intervalPosition = process.argv.findIndex((arg) => arg === '--interval');
 
-  logger.info(`Interval position ${intervalPosition}`);
-
   if (intervalPosition < 0 || !NUMBER_REGEX.test(process.argv[intervalPosition + 1])) {
     return 7;
   }
@@ -109,7 +107,7 @@ const run = async () => {
   const env = getEnvironment(ExportFilmScriptSchema);
   const result = await fetchData(env, {
     intervalDays: interval,
-    newestOnly: shouldFetchAllFilms ? '0' : '1',
+    newestOnly: shouldFetchAllFilms,
   });
 
   if (!result.ok) {

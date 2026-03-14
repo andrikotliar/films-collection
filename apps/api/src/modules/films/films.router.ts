@@ -124,7 +124,9 @@ export const filmsRouter = createRouter([
       response: CompleteDataResponseSchema,
     },
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getCompleteData(request.query);
+      const data = await app.container
+        .resolve('filmsService')
+        .getCompleteData(request.query as any);
 
       return { data };
     },
