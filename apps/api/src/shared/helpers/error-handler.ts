@@ -1,19 +1,10 @@
 import type { FastifyError, FastifyReply, FastifyRequest } from 'fastify';
 import { ResponseCode } from '../enums';
-import { UploadingError } from '~/shared/exceptions';
 import { DrizzleQueryError } from 'drizzle-orm';
 
 export const errorHandler = (error: FastifyError, _: FastifyRequest, reply: FastifyReply) => {
   // eslint-disable-next-line
   console.error(error);
-
-  if (error instanceof UploadingError) {
-    return reply.code(error.statusCode).send({
-      code: error.name,
-      statusCode: error.statusCode,
-      message: error.message,
-    });
-  }
 
   if (error instanceof DrizzleQueryError) {
     return reply.code(ResponseCode.BAD_REQUEST).send(error.message);
