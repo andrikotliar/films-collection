@@ -1,17 +1,15 @@
+import z from 'zod';
 import styles from './filters.module.css';
-import { type Dispatch, type SetStateAction, useEffect } from 'react';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, FormProvider } from 'react-hook-form';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { getRouteApi } from '@tanstack/react-router';
 import { countObjectKeys, filterValues, type FilterItem, Button } from '~/shared';
 import { FilterOptions } from '~/routes/_home/-components/filters/components';
-import { zodResolver } from '@hookform/resolvers/zod';
-import z from 'zod';
+import { useSidebar } from '~/routes/_home/-context';
 
 type FiltersProps = {
   config: FilterItem[];
-  setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
-  updateFiltersCount: (value: number) => void;
 };
 
 const FiltersSchema = z.object({
@@ -29,17 +27,20 @@ const defaultValues: z.infer<typeof FiltersSchema> = {
   genreIds: [],
   countryIds: [],
   studioIds: [],
-  type: null,
-  style: null,
+  type: 'all',
+  style: 'all',
+  collectionId: -1,
 };
 
 const routeApi = getRouteApi('/_home/');
 
-export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: FiltersProps) => {
+export const Filters = ({ config }: FiltersProps) => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 
-  const filtersCount = countObjectKeys(routeSearch, ['skip', 'limit']);
+  const { hideFilter } = useSidebar();
+
+  const filtersCount = countObjectKeys(routeSearch, ['pageIndex']);
 
   const filtersForm = useForm({
     defaultValues: {
@@ -51,27 +52,15 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
 
   const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
-
     navigate({
       search: filledOptions,
     });
-
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
-
-    setIsFilterOpen(false);
+    hideFilter();
   };
-
-  useEffect(() => {
-    if (filtersCount > 0) {
-      updateFiltersCount(filtersCount);
-    } else {
-      filtersForm.reset(defaultValues);
-      updateFiltersCount(0);
-    }
-  }, [filtersCount]);
 
   const handleReset = () => {
     navigate({
@@ -79,8 +68,7 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
     });
     filtersForm.reset(defaultValues);
     window.scrollTo(0, 0);
-    updateFiltersCount(0);
-    setIsFilterOpen(false);
+    hideFilter();
   };
 
   return (
@@ -100,6 +88,11 @@ export const Filters = ({ config, setIsFilterOpen, updateFiltersCount }: Filters
               Reset
             </Button>
           )}
+          <div className={styles.close_button_wrapper}>
+            <Button type="button" onClick={hideFilter} variant="light">
+              Close
+            </Button>
+          </div>
         </div>
       </form>
     </FormProvider>

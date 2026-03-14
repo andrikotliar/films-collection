@@ -4,23 +4,19 @@ import { AsyncSelect, type AsyncSelectProps } from '~/shared/components/async-se
 
 export const FormAsyncSelect = ({
   name,
+  error: errorProp,
   ...props
 }: FormFieldProps<Omit<AsyncSelectProps, 'initialValue' | 'onSelect'>>) => {
   const { control, formState } = useFormContext();
 
-  const error = formState.errors[name];
+  const error = errorProp ?? formState.errors[name]?.message;
 
   return (
     <Controller
       control={control}
       name={name}
       render={({ field: { value, onChange } }) => (
-        <AsyncSelect
-          value={value}
-          onSelect={onChange}
-          error={error?.message as FormError}
-          {...props}
-        />
+        <AsyncSelect value={value} onSelect={onChange} error={error as FormError} {...props} />
       )}
     />
   );

@@ -3,7 +3,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import { getFilmsListQueryOptions, getInitialDataQueryOptions, useDocumentTitle } from '~/shared';
-import { FilmsSection, RootPageLayout, Sidebar } from './-components';
+import { FilmsSection, RootPageLayout, Sidebar, SidebarProvider } from './-components';
 
 export const Route = createFileRoute('/_home/')({
   validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
@@ -27,9 +27,11 @@ function RootPageContainer() {
   const { data, isFetching } = useSuspenseQuery(getFilmsListQueryOptions(routeSearch));
 
   return (
-    <RootPageLayout>
-      <Sidebar />
-      <FilmsSection data={data} isLoading={isFetching} />
-    </RootPageLayout>
+    <SidebarProvider>
+      <RootPageLayout>
+        <Sidebar />
+        <FilmsSection data={data} isLoading={isFetching} />
+      </RootPageLayout>
+    </SidebarProvider>
   );
 }

@@ -17,7 +17,7 @@ const defaultAward: z.infer<typeof FilmFormSchema>['awards'][number] = {
 };
 
 export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
-  const { control } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { control, formState } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -29,7 +29,12 @@ export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
       <Form.ArrayWrapper onCreate={() => append(defaultAward)}>
         {fields.map((field, index) => (
           <Form.ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
-            <Form.Select name={`awards.${index}.awardId`} options={awardOptions} label="Award" />
+            <Form.Select
+              name={`awards.${index}.awardId`}
+              options={awardOptions}
+              label="Award"
+              error={formState.errors?.awards?.[index]?.awardId?.message}
+            />
             <NominationSelect index={index} />
             <Form.TextInput name={`awards.${index}.comment`} label="Comment" />
           </Form.ArrayFieldWrapper>

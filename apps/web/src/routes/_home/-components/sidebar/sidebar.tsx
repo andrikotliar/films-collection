@@ -1,29 +1,13 @@
 import styles from './sidebar.module.css';
-import { useMemo, useState } from 'react';
-import { SlidersHorizontalIcon } from 'lucide-react';
+import { useMemo } from 'react';
 import clsx from 'clsx';
-import {
-  MOBILE_VIEW_BREAKPOINT_PX,
-  getFiltersConfig,
-  Loader,
-  getInitialDataQueryOptions,
-} from '~/shared';
+import { getFiltersConfig, Loader, getInitialDataQueryOptions } from '~/shared';
 import { Filters } from '../filters/filters';
 import { useQuery } from '@tanstack/react-query';
+import { useSidebar } from '~/routes/_home/-context';
 
 export const Sidebar = () => {
-  const [isFilterOpen, setIsFilterOpen] = useState(false);
-  const [filtersCount, setFiltersCount] = useState(0);
-
-  const updateFiltersCount = (count: number) => {
-    if (document.documentElement.clientWidth <= MOBILE_VIEW_BREAKPOINT_PX) {
-      setFiltersCount(count);
-    }
-  };
-
-  const toggleFilter = () => {
-    setIsFilterOpen((isOpen) => !isOpen);
-  };
+  const { isFilterOpen } = useSidebar();
 
   const { data, isLoading } = useQuery(getInitialDataQueryOptions());
 
@@ -44,23 +28,12 @@ export const Sidebar = () => {
   }
 
   return (
-    <>
-      <div
-        className={clsx(styles.sidebar_content, {
-          [styles.open]: isFilterOpen,
-        })}
-      >
-        <Filters
-          config={filtersConfig}
-          setIsFilterOpen={setIsFilterOpen}
-          updateFiltersCount={updateFiltersCount}
-        />
-      </div>
-      <button onClick={toggleFilter} className={styles.filter_button}>
-        <SlidersHorizontalIcon size={18} />
-        <span>Filters</span>
-        {filtersCount > 0 && <span className={styles.filter_button_badge}>{filtersCount}</span>}
-      </button>
-    </>
+    <div
+      className={clsx(styles.sidebar_content, {
+        [styles.open]: isFilterOpen,
+      })}
+    >
+      <Filters config={filtersConfig} />
+    </div>
   );
 };

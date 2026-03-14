@@ -13,7 +13,7 @@ const NUMBER_REGEX = /^\d+$/;
 
 type QueryParams = {
   intervalDays: number;
-  newestOnly: boolean;
+  newestOnly: string;
 };
 
 const fetchData = async (
@@ -32,12 +32,7 @@ const fetchData = async (
       .update(payload)
       .digest('hex');
 
-    const searchParams = new URLSearchParams();
-
-    searchParams.set('intervalDays', queries.intervalDays.toString());
-    searchParams.set('newestOnly', queries.newestOnly.toString());
-
-    const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
+    const fullUrl = `${env.FILMS_EXPORT_URL}?intervalDays=${queries.intervalDays}&newestOnly=${queries.newestOnly}`;
 
     const response = await fetch(fullUrl, {
       method,
@@ -101,7 +96,7 @@ const run = async () => {
   const env = getEnvironment(ExportFilmScriptSchema);
   const result = await fetchData(env, {
     intervalDays: interval,
-    newestOnly: !shouldFetchAllFilms,
+    newestOnly: shouldFetchAllFilms ? '0' : '1',
   });
 
   if (!result.ok) {

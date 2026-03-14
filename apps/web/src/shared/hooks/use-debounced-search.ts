@@ -18,7 +18,7 @@ export const useDebouncedSearch = (handler: SearchHandler) => {
     [handler],
   );
 
-  const debouncedSearch = debounce(handleSearch, 1000);
+  const debouncedSearch = debounce(handleSearch, 500);
 
   return debouncedSearch;
 };
