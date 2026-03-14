@@ -52,6 +52,7 @@ jobs:
           add-paths: |
             apps/api/data/
           delete-branch: true
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Auto-approve PR
         if: steps.cpr.outputs.pull-request-url != ''
