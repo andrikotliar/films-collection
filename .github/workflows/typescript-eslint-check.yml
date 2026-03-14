@@ -2,6 +2,10 @@ name: PR — TypeScript & ESLint checks
 
 on:
   pull_request:
+    paths:
+      - 'apps/**'
+      - 'packages/**'
+      - '.github/workflows/typescript-eslint-check.yml'
 
 jobs:
   checks:
