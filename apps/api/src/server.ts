@@ -23,7 +23,6 @@ declare module 'fastify' {
 const startServer = async () => {
   const app = fastify({
     logger: {
-      enabled: process.env.NODE_ENV === 'development',
       transport: {
         target: '@fastify/one-line-logger',
       },
