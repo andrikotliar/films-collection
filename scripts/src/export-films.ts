@@ -13,7 +13,7 @@ const NUMBER_REGEX = /^\d+$/;
 
 type QueryParams = {
   intervalDays: number;
-  newestOnly: boolean;
+  newestOnly: string;
 };
 
 const fetchData = async (
@@ -38,8 +38,6 @@ const fetchData = async (
     searchParams.set('newestOnly', String(queries.newestOnly).toLowerCase());
 
     const fullUrl = `${env.FILMS_EXPORT_URL}?${searchParams.toString()}`;
-
-    logger.info(`Fetching data with url: ${fullUrl}`);
 
     const response = await fetch(fullUrl, {
       method,
@@ -103,7 +101,7 @@ const run = async () => {
   const env = getEnvironment(ExportFilmScriptSchema);
   const result = await fetchData(env, {
     intervalDays: interval,
-    newestOnly: !shouldFetchAllFilms,
+    newestOnly: shouldFetchAllFilms ? '0' : '1',
   });
 
   if (!result.ok) {

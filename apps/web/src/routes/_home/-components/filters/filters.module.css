@@ -41,13 +41,26 @@
   text-transform: uppercase;
 }
 
-.header_button {
+.header_button,
+.close_button_wrapper {
   display: none;
 }
 
 @media (max-width: 785px) {
+  .filters {
+    border-radius: var(--rounded-default);
+  }
+
   .header_button {
     display: block;
     margin-left: auto;
+  }
+
+  .close_button_wrapper {
+    display: block;
+  }
+
+  .close_button_wrapper button {
+    width: 100%;
   }
 }

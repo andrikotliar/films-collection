@@ -11,8 +11,17 @@
   margin-top: auto;
 }
 
+.filter_wrapper {
+  display: none;
+}
+
 @media (max-width: 785px) {
-  .films_section {
-    padding-bottom: 80px;
+  .filter_wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .filter_wrapper button {
+    width: 100%;
   }
 }

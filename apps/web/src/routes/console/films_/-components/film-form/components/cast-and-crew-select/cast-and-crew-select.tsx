@@ -10,7 +10,7 @@ type CastAndCrewSelectProps = {
 };
 
 export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
-  const { control } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { control, formState } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -64,6 +64,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
               onCreateOption={(value) => mutateAsync({ value, index })}
               isOptionsLoading={isPending && variables.index === index}
               queryKey={index}
+              error={formState.errors?.castAndCrew?.[index]?.personId?.message}
             />
             <Form.Select
               name={`castAndCrew.${index}.role`}

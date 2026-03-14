@@ -1,5 +1,15 @@
-import type { InitialDataResponse } from '@films-collection/shared';
+import type { InitialDataResponse, ListOption } from '@films-collection/shared';
 import type { FilterItem } from '../types';
+
+const ALL_OPTION: ListOption<string> = {
+  value: 'all',
+  label: 'All',
+};
+
+const ALL_COLLECTIONS_OPTION: ListOption<number> = {
+  value: -1,
+  label: 'All Collections',
+};
 
 export const getFiltersConfig = (initialData: InitialDataResponse): FilterItem[] => {
   return [
@@ -7,14 +17,14 @@ export const getFiltersConfig = (initialData: InitialDataResponse): FilterItem[]
       title: 'Type',
       id: 'type',
       type: 'checkmark',
-      options: initialData.options.types,
+      options: [ALL_OPTION, ...initialData.options.types],
       inputType: 'radio',
     },
     {
       title: 'Style',
       id: 'style',
       type: 'checkmark',
-      options: initialData.options.styles,
+      options: [ALL_OPTION, ...initialData.options.styles],
       inputType: 'radio',
     },
     {
@@ -57,7 +67,7 @@ export const getFiltersConfig = (initialData: InitialDataResponse): FilterItem[]
       id: 'collectionId',
       type: 'checkmark',
       inputType: 'radio',
-      options: initialData.options.collections,
+      options: [ALL_COLLECTIONS_OPTION, ...initialData.options.collections],
     },
   ];
 };
