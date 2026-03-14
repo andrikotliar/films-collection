@@ -107,7 +107,7 @@ const run = async () => {
   const env = getEnvironment(ExportFilmScriptSchema);
   const result = await fetchData(env, {
     intervalDays: interval,
-    newestOnly: shouldFetchAllFilms,
+    newestOnly: !shouldFetchAllFilms,
   });
 
   if (!result.ok) {
