@@ -115,6 +115,13 @@ const run = async () => {
     process.exit(1);
   }
 
+  logger.info(`Films count: ${result.data.list.length}`);
+  logger.info(`Genres count: ${result.data.baseData.genres.length}`);
+  logger.info(`Countries count: ${result.data.baseData.countries.length}`);
+  logger.info(`Studios count: ${result.data.baseData.studios.length}`);
+  logger.info(`Awards count: ${result.data.baseData.awards.length}`);
+  logger.info(`People count: ${result.data.baseData.people.length}`);
+
   try {
     for (const baseDataItem of baseDataItems) {
       const filePath = `${DATA_FOLDER}/${baseDataItem}.json`;
