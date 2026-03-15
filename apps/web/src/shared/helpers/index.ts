@@ -30,3 +30,4 @@ export * from './get-objects-diff';
 export * from './get-embeddable-youtube-url';
 export * from './get-external-image-url';
 export * from './title-to-file-name';
+export * from './convert-image-to-webp';

@@ -3,6 +3,7 @@ import { useNavigate } from '@tanstack/react-router';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import {
   api,
+  convertImageToWebp,
   Form,
   getInitialDataQueryOptions,
   getObjectsDiff,
@@ -39,20 +40,22 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       let poster = data.poster;
 
       if (poster instanceof File) {
+        const transformedPoster = await convertImageToWebp(poster);
+
         const key = `posters/${titleToFileName(data.title)}`;
         const uploadParams = await api.files.upload.url.create({
           input: {
             key,
-            fileType: poster.type,
+            fileType: 'webp',
           },
         });
 
         await fetch(uploadParams.url, {
           method: 'PUT',
           headers: {
-            'Content-Type': poster.type,
+            'Content-Type': 'webp',
           },
-          body: poster,
+          body: transformedPoster,
         });
 
         poster = key;
