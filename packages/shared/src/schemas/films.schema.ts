@@ -246,6 +246,7 @@ export const CompleteDataListItemSchema = z.object({
     overview: true,
     chapterKey: true,
     chapterOrder: true,
+    poster: true,
   }).shape,
   genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
   style: z.enum(TitleStyle),

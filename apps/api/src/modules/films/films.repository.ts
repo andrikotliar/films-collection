@@ -652,6 +652,7 @@ export class FilmsRepository {
         style: true,
         chapterKey: true,
         chapterOrder: true,
+        poster: true,
       },
       with: {
         countries: {
