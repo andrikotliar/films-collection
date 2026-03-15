@@ -21,6 +21,10 @@
   flex-shrink: 0;
 }
 
+.label {
+  margin: 0 auto;
+}
+
 .sorting_button.small {
   padding: 5px 10px;
   border-radius: 6px;

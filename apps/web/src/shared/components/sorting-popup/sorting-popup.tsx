@@ -1,15 +1,14 @@
 import { type FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
-import { sortingDirectionOptions } from '~/shared';
+import { Button, sortingDirectionOptions } from '~/shared';
 import { SortingButton } from './components';
 import { BadgeCheckbox } from '../badge-checkbox/badge-checkbox';
-import { getDefaultLabel } from './helpers';
 import styles from './sorting-popup.module.css';
 import type { ListOption, SortingOrder } from '@films-collection/shared';
 
 export type SortingParams = {
-  orderKey: string;
-  order: SortingOrder;
+  orderKey?: string;
+  order?: SortingOrder;
 };
 
 type SortingPopupProps = {
@@ -23,8 +22,8 @@ type SortingPopupProps = {
 export const SortingPopup = ({
   fields,
   onSorting,
-  defaultOrderKey = 'createdAt',
-  defaultOrder = 'desc',
+  defaultOrderKey,
+  defaultOrder,
   buttonSize = 'small',
 }: SortingPopupProps) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
@@ -32,7 +31,7 @@ export const SortingPopup = ({
 
   const [selectedData, setSelectedData] = useState(() => {
     return {
-      label: getDefaultLabel(fields, defaultOrderKey),
+      label: 'Select sorting',
       order: defaultOrder,
     };
   });
@@ -58,6 +57,16 @@ export const SortingPopup = ({
 
     setSelectedData({ label, order });
     onSorting({ orderKey, order });
+
+    handleClose();
+  };
+
+  const handleClearSorting = () => {
+    setSelectedData({
+      label: 'Select sorting',
+      order: undefined,
+    });
+    onSorting({ orderKey: undefined, order: undefined });
 
     handleClose();
   };
@@ -106,9 +115,14 @@ export const SortingPopup = ({
               />
             ))}
           </div>
-          <button className={styles.apply_button} type="submit">
-            Apply
-          </button>
+          <div className={styles.buttons}>
+            <Button type="submit" size="small">
+              Apply
+            </Button>
+            <Button type="button" variant="light" size="small" onClick={handleClearSorting}>
+              Clear
+            </Button>
+          </div>
         </form>
       </PopupMenu>
     </>

@@ -4,15 +4,28 @@
   justify-content: center;
   align-items: center;
   color: var(--color-white);
-  padding: 10px 20px;
   border-radius: var(--rounded-default);
   transition: background-color 0.3s, color 0.2s;
   flex-shrink: 0;
   cursor: pointer;
 }
 
+.fit_width {
+  width: 100%;
+}
+
 .primary {
   background-color: var(--color-blue-primary);
+}
+
+.medium {
+  font-size: var(--text-base);
+  padding: 10px 20px;
+}
+
+.small {
+  font-size: var(--text-sm);
+  padding: 6px 12px;
 }
 
 .secondary {

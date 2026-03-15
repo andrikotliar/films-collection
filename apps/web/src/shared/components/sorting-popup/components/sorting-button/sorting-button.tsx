@@ -6,7 +6,7 @@ import type { SortingOrder } from '@films-collection/shared';
 
 type SortingButtonProps = {
   onClick: VoidFunction;
-  order: SortingOrder;
+  order?: SortingOrder;
   size: 'small' | 'large';
   children?: React.ReactNode;
 };
@@ -16,11 +16,9 @@ export const SortingButton = forwardRef<HTMLButtonElement, SortingButtonProps>(
     return (
       <button ref={ref} onClick={onClick} className={clsx(styles.sorting_button, styles[size])}>
         <span className={styles.label}>{children}</span>
-        {order === 'asc' ? (
-          <ArrowDownAZIcon className={styles.icon} />
-        ) : (
-          <ArrowUpAZIcon className={styles.icon} />
-        )}
+        {order === 'asc' && <ArrowDownAZIcon className={styles.icon} />}
+
+        {order === 'desc' && <ArrowUpAZIcon className={styles.icon} />}
       </button>
     );
   },

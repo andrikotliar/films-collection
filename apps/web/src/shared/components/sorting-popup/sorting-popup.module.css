@@ -2,20 +2,10 @@
   padding: 15px;
 }
 
-.apply_button {
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  background-color: var(--color-blue-primary);
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 5px;
-  transition: background-color 300ms;
-}
-
-.apply_button:hover {
-  background-color: var(--color-green-primary);
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .group_label {
