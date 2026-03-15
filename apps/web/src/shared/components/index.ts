@@ -38,3 +38,4 @@ export * from './priority-badge/priority-badge';
 export * from './centered-block/centered-block';
 export * from './scrollable-line/scrollable-line';
 export * from './error-screen/error-screen';
+export * from './camera-loader/camera-loader';
