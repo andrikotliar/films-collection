@@ -1,7 +1,6 @@
 import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
 import {
-  Panel,
   Pagination,
   useDocumentTitle,
   getPageContentAdminListQueryOptions,
@@ -66,21 +65,19 @@ function PageContainer() {
       <AddItemLink to="/console/page-content/$id" params={{ id: NEW_ITEM_ID }}>
         Add new page content
       </AddItemLink>
-      <Panel hasPaddings={false}>
-        <List
-          items={data.list}
-          onDelete={deletePageContent}
-          onEdit={handleEditItem}
-          description={(data) => {
-            return sanitize(data.shortContent, {
-              allowedTags: [],
-              allowedAttributes: {},
-            });
-          }}
-          isDeletingInProgress={isPending}
-          isFetching={isFetching}
-        />
-      </Panel>
+      <List
+        items={data.list}
+        onDelete={deletePageContent}
+        onEdit={handleEditItem}
+        description={(data) => {
+          return sanitize(data.shortContent, {
+            allowedTags: [],
+            allowedAttributes: {},
+          });
+        }}
+        isDeletingInProgress={isPending}
+        isFetching={isFetching}
+      />
       <Pagination
         total={data.count}
         onPageChange={handlePageChange}

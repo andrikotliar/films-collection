@@ -59,17 +59,24 @@ const updateMenuPosition = ({
     };
   }
 
-  const { height: menuHeight } = menuElement.getBoundingClientRect();
+  const { height: menuHeight, width: menuWidth } = menuElement.getBoundingClientRect();
 
-  const { left, bottom, top, width: buttonWidth } = triggerElement.getBoundingClientRect();
+  const {
+    left,
+    bottom,
+    top,
+    width: buttonWidth,
+    right: buttonRight,
+  } = triggerElement.getBoundingClientRect();
 
   const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
+  const isOverflowRight = left + menuWidth >= window.innerWidth;
   const isOverflowTop = top - menuHeight <= 0;
 
   const scrollHight = isFixed ? 0 : window.scrollY;
 
   const params: Styles = {
-    left,
+    left: isOverflowRight ? buttonRight - menuWidth : left,
   };
 
   if (shouldAdjustToTriggerWidth) {

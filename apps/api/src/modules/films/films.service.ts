@@ -1,6 +1,5 @@
 import { type Deps, throwIfNotFound } from '~/shared';
 import {
-  type GetAdminListQuery,
   type GetFilmsListQuery,
   type GetFilmOptionsQuery,
   convertEnumValueToLabel,
@@ -32,7 +31,11 @@ export class FilmsService {
   ) {}
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
-    const data = await this.deps.filmsRepository.findAndCount(queries);
+    const data = await this.deps.filmsRepository.findAndCount({
+      ...queries,
+      order: 'desc',
+      orderKey: 'releaseDate',
+    });
 
     const additionalInfo = await this.populateAdditionalData(queries);
 
@@ -67,8 +70,8 @@ export class FilmsService {
     }));
   }
 
-  getAdminList(queries: GetAdminListQuery) {
-    return this.deps.filmsRepository.findAndCountAdmin(queries);
+  getAdminList(queries: GetFilmsListQuery) {
+    return this.deps.filmsRepository.findAndCount({ ...queries, includeDrafts: true });
   }
 
   getRelatedChapters(chapterKey: string) {

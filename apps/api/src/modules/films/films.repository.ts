@@ -3,14 +3,12 @@ import {
   getSkipValue,
   PAGE_LIMITS,
   type CreateFilmInput,
-  type GetAdminListQuery,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
-  type GetFilmsListQuery,
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapAdminListFilters, mapListFilters } from '~/modules/films/helpers';
+import { mapListFilters, type FilmsListFilters } from '~/modules/films/helpers';
 import {
   and,
   asc,
@@ -75,8 +73,9 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
-  async findAndCount(queries: GetFilmsListQuery) {
+  async findAndCount(queries: FilmsListFilters) {
     const filters = mapListFilters(queries, this.deps.db);
+    const sorting = this.mapSorting(queries.orderKey, queries.order);
 
     const list = await this.deps.db
       .select()
@@ -84,7 +83,7 @@ export class FilmsRepository {
       .where(and(...filters))
       .limit(PAGE_LIMITS.filmsList)
       .offset(getSkipValue('filmsList', queries.pageIndex))
-      .orderBy(desc(films.releaseDate), asc(films.id));
+      .orderBy(sorting, asc(films.id));
 
     const total = await this.count(filters);
 
@@ -309,27 +308,6 @@ export class FilmsRepository {
       .from(films)
       .where(and(isNull(films.deletedAt), eq(films.chapterKey, chapterKey)))
       .orderBy(asc(films.chapterOrder));
-  }
-
-  async findAndCountAdmin(queries: GetAdminListQuery) {
-    const filters = mapAdminListFilters(queries);
-
-    const total = await this.count(filters);
-
-    const list = await this.deps.db
-      .select({
-        id: films.id,
-        title: films.title,
-        draft: films.draft,
-        poster: films.poster,
-      })
-      .from(films)
-      .where(and(...filters))
-      .limit(PAGE_LIMITS.default)
-      .offset(getSkipValue('default', queries.pageIndex))
-      .orderBy(this.mapSorting(queries.orderKey, queries.order), asc(films.id));
-
-    return { list, total };
   }
 
   async getFilmsListByQuery({ q, selected }: GetFilmOptionsQuery) {
@@ -734,7 +712,7 @@ export class FilmsRepository {
     });
   }
 
-  private mapSorting(key: string = 'updatedAt', direction: SortingOrder = 'desc') {
+  private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {
     const directions = {
       asc,
       desc,
@@ -745,6 +723,10 @@ export class FilmsRepository {
     switch (key) {
       case 'title':
         return fn(films.title);
+      case 'createdAt':
+        return fn(films.createdAt);
+      case 'releaseDate':
+        return fn(films.releaseDate);
       default:
         return desc(films.updatedAt);
     }

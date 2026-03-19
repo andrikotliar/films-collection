@@ -1,5 +1,11 @@
-export const filterValues = <T extends Record<string, any>>(values: T) => {
-  const filteredObject: Partial<T> = {};
+type CleanFilters<T> = {
+  [K in keyof T]: Exclude<T[K], 'all'>;
+};
+
+export const filterValues = <T extends Record<string, any>>(
+  values: T,
+): Partial<CleanFilters<T>> => {
+  const filteredObject: Partial<CleanFilters<T>> = {};
 
   for (const key in values) {
     if (values[key] === 'all' || values[key] === -1) {

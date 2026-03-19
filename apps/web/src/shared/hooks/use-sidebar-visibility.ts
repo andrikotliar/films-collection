@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { SidebarContext } from '~/routes/_home/-context';
 
-export const SidebarProvider = ({ children }: { children: React.ReactNode }) => {
+export const useSidebarVisibility = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const toggleFilter = () => {
@@ -16,9 +15,9 @@ export const SidebarProvider = ({ children }: { children: React.ReactNode }) => 
     setIsFilterOpen(false);
   };
 
-  return (
-    <SidebarContext.Provider value={{ isFilterOpen, toggleFilter, hideFilter }}>
-      {children}
-    </SidebarContext.Provider>
-  );
+  return {
+    isFilterOpen,
+    toggleFilter,
+    hideFilter,
+  };
 };

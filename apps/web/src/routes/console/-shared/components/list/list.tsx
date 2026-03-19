@@ -1,9 +1,10 @@
+import styles from './list.module.css';
+import clsx from 'clsx';
 import { useState } from 'react';
 import type { UseMutateAsyncFunction } from '@tanstack/react-query';
-import { ConfirmModal, Loader, Panel } from '~/shared';
+import { CameraLoader, ConfirmModal, Panel } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { ItemRow, type ItemRowProps } from '~/routes/console/-shared/components/item-row/item-row';
-import styles from './list.module.css';
 
 type ListProps<T extends DefaultListItem> = {
   items: T[];
@@ -28,29 +29,31 @@ export const List = <T extends DefaultListItem>({
 
   if (isFetching) {
     return (
-      <div>
-        <Loader size={40} />
+      <div className={clsx(styles.loader, styles.list_wrapper)}>
+        <CameraLoader />
       </div>
     );
   }
 
   if (items.length === 0) {
-    return <div className={styles.placeholder}>No items found</div>;
+    return <div className={clsx(styles.placeholder, styles.list_wrapper)}>No items found</div>;
   }
 
   return (
-    <Panel hasPaddings={false}>
-      {items.map((item) => (
-        <ItemRow key={item.id} data={item} onDelete={setItemToDelete} {...props} />
-      ))}
-      <ConfirmModal
-        data={itemToDelete}
-        onConfirm={handleDeleteItem}
-        onClose={() => setItemToDelete(null)}
-        confirmButtonTitle="Delete"
-        confirmButtonVariant="danger"
-        isPending={isDeletingInProgress}
-      />
-    </Panel>
+    <div className={styles.list_wrapper}>
+      <Panel hasPaddings={false}>
+        {items.map((item) => (
+          <ItemRow key={item.id} data={item} onDelete={setItemToDelete} {...props} />
+        ))}
+        <ConfirmModal
+          data={itemToDelete}
+          onConfirm={handleDeleteItem}
+          onClose={() => setItemToDelete(null)}
+          confirmButtonTitle="Delete"
+          confirmButtonVariant="danger"
+          isPending={isDeletingInProgress}
+        />
+      </Panel>
+    </div>
   );
 };

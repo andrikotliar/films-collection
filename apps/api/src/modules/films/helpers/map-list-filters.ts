@@ -23,7 +23,11 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   return between(column, value - MONEY_RANGE_MILLIONS, value + MONEY_RANGE_MILLIONS);
 };
 
-export const mapListFilters = (plainFilters: GetFilmsListQuery, db: Database): SQL[] => {
+export type FilmsListFilters = GetFilmsListQuery & {
+  includeDrafts?: boolean;
+};
+
+export const mapListFilters = (plainFilters: FilmsListFilters, db: Database): SQL[] => {
   const {
     genreIds,
     collectionId,
@@ -42,9 +46,14 @@ export const mapListFilters = (plainFilters: GetFilmsListQuery, db: Database): S
     style,
     budget,
     boxOffice,
+    includeDrafts,
   } = plainFilters;
 
-  const filters: SQL[] = [eq(films.draft, sql`false`), isNull(films.deletedAt)];
+  const filters: SQL[] = [isNull(films.deletedAt)];
+
+  if (!includeDrafts) {
+    filters.push(eq(films.draft, sql`false`));
+  }
 
   if (startDate) {
     filters.push(gte(films.releaseDate, startDate));

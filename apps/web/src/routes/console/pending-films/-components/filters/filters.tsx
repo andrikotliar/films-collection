@@ -78,39 +78,40 @@ export const Filters = () => {
   };
 
   return (
-    <>
+    <div className={styles.filters}>
+      <TextInput
+        type="text"
+        onChange={debouncedSearch}
+        defaultValue={searchParams.q}
+        className={styles.search}
+        placeholder="Search pending film"
+        icon={<SearchIcon />}
+      />
       <div className={styles.filters_row}>
-        <TextInput
-          type="text"
-          onChange={debouncedSearch}
-          defaultValue={searchParams.q}
-          className={styles.search}
-          placeholder="Search pending film"
-          icon={<SearchIcon />}
-        />
-        <SortingPopup
-          fields={sortingFields}
-          onSorting={handleApplySorting}
-          defaultOrder={searchParams.order}
-          defaultOrderKey={searchParams.orderKey}
-          buttonSize="large"
-        />
-      </div>
-      <div className={styles.priorities_filter}>
-        <FieldLabel>Filter by Priority:</FieldLabel>
-        <div className={styles.priorities}>
-          {priorityOptions.map((option) => (
-            <Checkbox
-              key={option.label}
-              type="checkbox"
-              label={option.label}
-              value={String(option.value)}
-              onChange={handleApplyPriorityFilter}
-              defaultChecked={searchParams.priorities?.includes(option.value)}
-            />
-          ))}
+        <div className={styles.priorities_filter}>
+          <FieldLabel>Filter by Priority:</FieldLabel>
+          <div className={styles.priorities}>
+            {priorityOptions.map((option) => (
+              <Checkbox
+                key={option.label}
+                type="checkbox"
+                label={option.label}
+                value={String(option.value)}
+                onChange={handleApplyPriorityFilter}
+                defaultChecked={searchParams.priorities?.includes(option.value)}
+              />
+            ))}
+          </div>
+        </div>
+        <div>
+          <SortingPopup
+            fields={sortingFields}
+            onSorting={handleApplySorting}
+            defaultOrder={searchParams.order ?? 'desc'}
+            defaultOrderKey={searchParams.orderKey ?? 'createdAt'}
+          />
         </div>
       </div>
-    </>
+    </div>
   );
 };

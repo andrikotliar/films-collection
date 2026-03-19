@@ -7,7 +7,6 @@ import {
 } from '~/shared';
 import {
   IdParamSchema,
-  GetAdminListQuerySchema,
   GetFilmOptionsQuerySchema,
   GetFilmRelatedChaptersSchema,
   GetFilmsListQuerySchema,
@@ -73,7 +72,7 @@ export const filmsRouter = createRouter([
     url: '/admin',
     preHandler: [validateAuth],
     schema: {
-      querystring: GetAdminListQuerySchema,
+      querystring: GetFilmsListQuerySchema,
       response: FilmsAdminListResponseSchema,
     },
     handler: async ({ request, app }) => {

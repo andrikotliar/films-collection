@@ -84,6 +84,9 @@ export const GetFilmsListQuerySchema = z.object({
   genreIds: getArrayFromQuery(z.coerce.number()).optional(),
   studioIds: getArrayFromQuery(z.coerce.number()).optional(),
   countryIds: getArrayFromQuery(z.coerce.number()).optional(),
+  q: z.string().optional().nullable(),
+  orderKey: z.string().optional(),
+  order: z.enum(['asc', 'desc']).optional(),
 });
 
 export const SearchFilmsQuerySchema = z.object({
@@ -98,15 +101,6 @@ export const GetFilmOptionsQuerySchema = z.object({
 export const GetFilmRelatedChaptersSchema = z.object({
   key: z.string(),
 });
-
-export const GetAdminListQuerySchema = z
-  .object({
-    q: z.string().optional().nullable(),
-    pageIndex: z.coerce.number().optional(),
-    orderKey: z.string().optional(),
-    order: z.enum(['asc', 'desc']).optional(),
-  })
-  .partial();
 
 const TrailerSchema = z.object({
   id: z.coerce.number(),
@@ -299,7 +293,6 @@ export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
 export type GetCompleteDataListQuery = z.infer<typeof GetCompleteDataListQuerySchema>;
 export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema>;
-export type GetAdminListQuery = z.infer<typeof GetAdminListQuerySchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
 export type CompleteDataListItem = z.infer<typeof CompleteDataListItemSchema>;

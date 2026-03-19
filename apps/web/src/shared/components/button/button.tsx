@@ -13,6 +13,8 @@ export type ButtonProps = {
   isDisabled?: boolean;
   isLoading?: boolean;
   children?: React.ReactNode;
+  size?: 'small' | 'medium';
+  fitWidth?: boolean;
 };
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
@@ -25,6 +27,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       variant = 'primary',
       isDisabled,
       isLoading = false,
+      size = 'medium',
+      fitWidth = false,
     },
     ref,
   ) => {
@@ -32,7 +36,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         onClick={onClick}
         type={type}
-        className={clsx(styles.button, styles[variant])}
+        className={clsx(styles.button, styles[variant], styles[size], fitWidth && styles.fit_width)}
         disabled={isDisabled || isLoading}
         ref={ref}
       >

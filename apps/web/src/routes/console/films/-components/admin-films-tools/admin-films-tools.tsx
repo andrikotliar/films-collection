@@ -1,10 +1,15 @@
-import { type SortingParams, SortingPopup, TextInput, useDebouncedSearch } from '~/shared';
+import { Button, type SortingParams, SortingPopup, TextInput, useDebouncedSearch } from '~/shared';
 import styles from './admin-films-tools.module.css';
 import { getRouteApi } from '@tanstack/react-router';
-import type { ListOption } from '@films-collection/shared';
-import { SearchIcon } from 'lucide-react';
+import { NEW_ITEM_ID, type ListOption } from '@films-collection/shared';
+import { FilterIcon, SearchIcon } from 'lucide-react';
+import { AddItemLink } from '~/routes/console/-shared';
 
 const sortingFields: ListOption<string>[] = [
+  {
+    label: 'Updated At',
+    value: 'updatedAt',
+  },
   {
     label: 'Created At',
     value: 'createdAt',
@@ -17,7 +22,11 @@ const sortingFields: ListOption<string>[] = [
 
 const routeApi = getRouteApi('/console/films');
 
-export const AdminFilmsTools = () => {
+type AdminFilmsToolsProps = {
+  onFilterOpen: () => void;
+};
+
+export const AdminFilmsTools = ({ onFilterOpen }: AdminFilmsToolsProps) => {
   const navigate = routeApi.useNavigate();
   const searchParams = routeApi.useSearch();
 
@@ -41,7 +50,17 @@ export const AdminFilmsTools = () => {
   };
 
   return (
-    <div className={styles.admin_films_tools}>
+    <div className={styles.wrapper}>
+      <div className={styles.top_buttons}>
+        <AddItemLink to="/console/films/$id" params={{ id: NEW_ITEM_ID }}>
+          Add new film
+        </AddItemLink>
+        <div className={styles.filter_button_wrapper}>
+          <Button icon={<FilterIcon />} onClick={onFilterOpen} fitWidth>
+            Filter
+          </Button>
+        </div>
+      </div>
       <TextInput
         placeholder="Search film"
         className={styles.search_input}
@@ -49,13 +68,14 @@ export const AdminFilmsTools = () => {
         defaultValue={searchParams.q ?? ''}
         icon={<SearchIcon />}
       />
-      <SortingPopup
-        fields={sortingFields}
-        onSorting={handleApplySorting}
-        buttonSize="large"
-        defaultOrderKey={searchParams.orderKey}
-        defaultOrder={searchParams.order}
-      />
+      <div className={styles.sorting}>
+        <SortingPopup
+          fields={sortingFields}
+          onSorting={handleApplySorting}
+          defaultOrderKey={searchParams.orderKey ?? 'updatedAt'}
+          defaultOrder={searchParams.order ?? 'desc'}
+        />
+      </div>
     </div>
   );
 };

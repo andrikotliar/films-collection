@@ -1,36 +1,27 @@
 import styles from './films-section.module.css';
-import { FilmsNotFound, AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
+import clsx from 'clsx';
+import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { Button, Loader, Pagination, type api, type ApiResponse } from '~/shared';
+import { Button, CameraLoader, getFilmsListQueryOptions, Pagination } from '~/shared';
 import { PAGE_LIMITS } from '@films-collection/shared';
 import { FilterIcon } from 'lucide-react';
-import { useSidebar } from '~/routes/_home/-context';
-
-type FilmsSectionProps = {
-  data: ApiResponse<typeof api.films.list>;
-  isLoading: boolean;
-};
+import { useSuspenseQuery } from '@tanstack/react-query';
 
 const routeApi = getRouteApi('/_home/');
 
-export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
+type FilmSectionProps = {
+  onFiltersOpen: () => void;
+};
+
+export const FilmsSection = ({ onFiltersOpen }: FilmSectionProps) => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
-  const { toggleFilter } = useSidebar();
+  const { data, isFetching } = useSuspenseQuery(getFilmsListQueryOptions(searchParams));
 
-  if (isLoading) {
+  if (isFetching) {
     return (
-      <div className={styles.films_section}>
-        <Loader />
-      </div>
-    );
-  }
-
-  if (!data.list.length) {
-    return (
-      <div className={styles.films_section}>
-        <AdditionalInfoSection info={data.additionalInfo} />
-        <FilmsNotFound />
+      <div className={clsx(styles.films_section, styles.loader_wrapper)}>
+        <CameraLoader />
       </div>
     );
   }
@@ -54,7 +45,7 @@ export const FilmsSection = ({ data, isLoading }: FilmsSectionProps) => {
       <CurrentEvents />
       <AdditionalInfoSection info={data.additionalInfo} />
       <div className={styles.filter_wrapper}>
-        <Button icon={<FilterIcon />} onClick={toggleFilter}>
+        <Button icon={<FilterIcon />} onClick={onFiltersOpen}>
           Filters
         </Button>
       </div>
