@@ -1,7 +1,7 @@
 import { imageNotFoundPlaceholder } from '~/assets';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { Image } from '~/shared/components/image/image';
-import { type ChangeEvent, type CSSProperties, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import styles from './file-input.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
@@ -11,8 +11,8 @@ import { FieldError } from '~/shared/components/field-error/field-error';
 export type FileInputProps = {
   label?: string;
   onChange: (file: File) => void;
-  width?: CSSProperties['width'];
-  height?: CSSProperties['height'];
+  width?: React.CSSProperties['width'];
+  height?: React.CSSProperties['height'];
   accept?: string;
   defaultValue?: string | null;
   onRemove?: VoidFunction;
@@ -34,7 +34,7 @@ export const FileInput = ({
     getExternalImageUrl(defaultValue),
   );
 
-  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
 
     if (file) {

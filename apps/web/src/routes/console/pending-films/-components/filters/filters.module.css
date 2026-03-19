@@ -1,8 +1,14 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
 .filters_row {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  margin-bottom: 15px;
   width: 100%;
 }
 
@@ -14,6 +20,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  flex-grow: 1;
   gap: 10px;
 }
 

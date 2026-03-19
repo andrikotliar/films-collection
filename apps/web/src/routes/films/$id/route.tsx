@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { getFilmQueryOptions, useDocumentTitle, useScrollToTop } from '~/shared';
+import { CameraLoader, getFilmQueryOptions, useDocumentTitle, useScrollToTop } from '~/shared';
 import {
   Awards,
   CastAndCrew,
@@ -18,6 +18,7 @@ export const Route = createFileRoute('/films/$id')({
     return context.queryClient.ensureQueryData(getFilmQueryOptions(Number(params.id)));
   },
   component: FilmPageContainer,
+  pendingComponent: () => <CameraLoader isFullPage />,
 });
 
 function FilmPageContainer() {

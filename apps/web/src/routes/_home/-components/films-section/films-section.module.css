@@ -11,6 +11,12 @@
   margin-top: auto;
 }
 
+.loader_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .filter_wrapper {
   display: none;
 }

@@ -1,9 +1,19 @@
 .wrapper {
-  width: 100px;
+  width: 80px;
 }
 
 .circle {
   animation: rotate 3s linear infinite;
+}
+
+.full_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: calc(100% - var(--header-height));
+  top: var(--header-height);
 }
 
 @keyframes rotate {

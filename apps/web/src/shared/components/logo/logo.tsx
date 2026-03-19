@@ -1,9 +1,8 @@
-import { type CSSProperties } from 'react';
 import { mainLogoSvg } from '~/assets';
 import { Image } from '~/shared/components/image/image';
 
 type LogoProps = {
-  width?: CSSProperties['width'];
+  width?: React.CSSProperties['width'];
 };
 
 export const Logo = ({ width = 30 }: LogoProps) => {

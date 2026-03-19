@@ -1,1 +1,1 @@
-export * from './admin-films-tools/admin-films-tools';
+export * from './films-list-content/films-list-content';

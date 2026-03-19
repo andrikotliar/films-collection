@@ -1,9 +1,20 @@
 import type z from 'zod';
+import { Suspense, useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
-import { getFilmsListQueryOptions, getInitialDataQueryOptions, useDocumentTitle } from '~/shared';
-import { FilmsSection, RootPageLayout, Sidebar, SidebarProvider } from './-components';
+import {
+  CameraLoader,
+  FiltersSidebar,
+  filterValues,
+  getFilmsListQueryOptions,
+  getFiltersConfig,
+  getInitialDataQueryOptions,
+  useDocumentTitle,
+  useSidebarVisibility,
+  type Filters,
+} from '~/shared';
+import { FilmsSection, RootPageLayout } from './-components';
 
 export const Route = createFileRoute('/_home/')({
   validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
@@ -23,15 +34,61 @@ function RootPageContainer() {
   useDocumentTitle();
 
   const routeSearch = Route.useSearch();
+  const navigate = Route.useNavigate();
+  const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility();
 
-  const { data, isFetching } = useSuspenseQuery(getFilmsListQueryOptions(routeSearch));
+  const { data: initialData, isFetching: isInitialDataLoading } = useSuspenseQuery(
+    getInitialDataQueryOptions(),
+  );
+
+  const filtersConfig = useMemo(() => {
+    if (!initialData) {
+      return [];
+    }
+
+    return getFiltersConfig(initialData);
+  }, [initialData]);
+
+  const submitFilter: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
+    const filledOptions = filterValues(data);
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        ...filledOptions,
+        pageIndex: 0,
+      }),
+    });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+    hideFilter();
+  };
+
+  const handleReset = () => {
+    navigate({
+      to: '/',
+    });
+    window.scrollTo(0, 0);
+    hideFilter();
+  };
 
   return (
-    <SidebarProvider>
-      <RootPageLayout>
-        <Sidebar />
-        <FilmsSection data={data} isLoading={isFetching} />
-      </RootPageLayout>
-    </SidebarProvider>
+    <RootPageLayout>
+      <FiltersSidebar
+        config={filtersConfig}
+        defaultValues={routeSearch}
+        isLoading={isInitialDataLoading}
+        isOpen={isFilterOpen}
+        onClose={hideFilter}
+        onSubmit={submitFilter}
+        onReset={handleReset}
+        height="calc(var(--screen-height) - 40px)"
+        topPosition="calc(var(--header-height) + 20px)"
+      />
+      <Suspense fallback={<CameraLoader />}>
+        <FilmsSection onFiltersOpen={toggleFilter} />
+      </Suspense>
+    </RootPageLayout>
   );
 }

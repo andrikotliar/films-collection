@@ -7,7 +7,10 @@ export const errorHandler = (error: FastifyError, _: FastifyRequest, reply: Fast
   console.error(error);
 
   if (error instanceof DrizzleQueryError) {
-    return reply.code(ResponseCode.BAD_REQUEST).send(error.message);
+    return reply.code(ResponseCode.BAD_REQUEST).send({
+      statusCode: ResponseCode.BAD_REQUEST,
+      message: error.cause?.message ?? 'Query error',
+    });
   }
 
   if (!error.statusCode || error.statusCode === ResponseCode.SERVER_ERROR) {

@@ -1,3 +1,15 @@
+.list_wrapper {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .placeholder {
   color: var(--color-gray-dark);
   font-size: 14px;
