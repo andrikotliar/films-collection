@@ -103,7 +103,7 @@ export const Filters = () => {
             ))}
           </div>
         </div>
-        <div>
+        <div className={styles.sorting}>
           <SortingPopup
             fields={sortingFields}
             onSorting={handleApplySorting}
