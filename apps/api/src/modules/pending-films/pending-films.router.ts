@@ -1,37 +1,17 @@
-import { NotFoundException, createRouter, defineRoute, validateAuth } from '~/shared';
-import {
-  IdParamSchema,
-  CreatePendingFilmInputSchema,
-  GetPendingFilmsListQuerySchema,
-  UpdatePendingFilmInputSchema,
-  PendingFilmsListResponseSchema,
-  PendingFilmResponseSchema,
-  PendingFilmByIdResponseSchema,
-} from '@films-collection/shared';
+import { pendingFilmsContract } from '@films-collection/api-client';
+import { NotFoundException, createRouter, validateAuth } from '~/shared';
 
-export const pendingFilmsRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/',
+export const pendingFilmsRouter = createRouter(pendingFilmsContract, {
+  getList: {
     preHandler: [validateAuth],
-    schema: {
-      querystring: GetPendingFilmsListQuerySchema,
-      response: PendingFilmsListResponseSchema,
-    },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('pendingFilmsService').getList(request.query);
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'GET',
-    url: '/:id',
+  },
+  getById: {
     preHandler: [validateAuth],
-    schema: {
-      params: IdParamSchema,
-      response: PendingFilmByIdResponseSchema,
-    },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
@@ -45,12 +25,9 @@ export const pendingFilmsRouter = createRouter([
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'POST',
-    url: '/',
+  },
+  create: {
     preHandler: [validateAuth],
-    schema: { body: CreatePendingFilmInputSchema, response: PendingFilmResponseSchema },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
@@ -58,16 +35,9 @@ export const pendingFilmsRouter = createRouter([
 
       return { data, status: 'CREATED' };
     },
-  }),
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
+  },
+  update: {
     preHandler: [validateAuth],
-    schema: {
-      params: IdParamSchema,
-      body: UpdatePendingFilmInputSchema,
-      response: PendingFilmResponseSchema,
-    },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pendingFilmsService')
@@ -75,16 +45,13 @@ export const pendingFilmsRouter = createRouter([
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
+  },
+  delete: {
     preHandler: [validateAuth],
-    schema: { params: IdParamSchema, response: IdParamSchema },
     handler: async ({ request, app }) => {
       await app.container.resolve('pendingFilmsService').deletePendingFilm(request.params.id);
 
       return { data: { id: request.params.id } };
     },
-  }),
-]);
+  },
+});

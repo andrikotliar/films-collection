@@ -1,7 +1,7 @@
 import type { FastifyInstance } from 'fastify';
 import z from 'zod';
 import { ResponseCode } from '~/shared/enums';
-import type { Route } from '~/shared/types';
+import type { Router } from '~/shared/helpers/create-router';
 
 const ErrorSchema = z.object({
   code: z.string().optional(),
@@ -9,7 +9,7 @@ const ErrorSchema = z.object({
   statusCode: z.number().optional(),
 });
 
-export const initRouters = (routes: Route[]) => {
+export const initRouters = (routes: Router['routes']) => {
   return async (app: FastifyInstance) => {
     for (const route of routes) {
       app.route({

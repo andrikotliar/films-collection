@@ -1,24 +1,8 @@
-import { NotFoundException, defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  IdParamSchema,
-  CreatePageContentInputSchema,
-  GetPageContentListQueriesSchema,
-  GetPageContentByPageUrlParamsSchema,
-  UpdatePageContentInputSchema,
-  PageContentResponseSchema,
-  PageContentsListResponseSchema,
-  PageContentByKeyResponseSchema,
-  PageContentByIdResponseSchema,
-} from '@films-collection/shared';
+import { pageContentContract } from '@films-collection/api-client';
+import { NotFoundException, createRouter, validateAuth } from '~/shared';
 
-export const pageContentRouter = createRouter([
-  defineRoute({
-    method: 'POST',
-    url: '/',
-    schema: {
-      body: CreatePageContentInputSchema,
-      response: PageContentResponseSchema,
-    },
+export const pageContentRouter = createRouter(pageContentContract, {
+  create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -27,28 +11,16 @@ export const pageContentRouter = createRouter([
 
       return { data, status: 'CREATED' };
     },
-  }),
-  defineRoute({
-    method: 'GET',
-    url: '/admin',
-    schema: {
-      querystring: GetPageContentListQueriesSchema,
-      response: PageContentsListResponseSchema,
-    },
+  },
+  getAdminList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('pageContentService').getList(request.query);
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'GET',
-    url: '/page/:pageKey',
-    schema: {
-      params: GetPageContentByPageUrlParamsSchema,
-      response: PageContentByKeyResponseSchema,
-    },
+  },
+  getByPageKey: {
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pageContentService')
@@ -62,14 +34,8 @@ export const pageContentRouter = createRouter([
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'GET',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: PageContentByIdResponseSchema,
-    },
+  },
+  getById: {
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('pageContentService')
@@ -77,15 +43,8 @@ export const pageContentRouter = createRouter([
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
-    schema: {
-      body: UpdatePageContentInputSchema,
-      params: IdParamSchema,
-      response: PageContentResponseSchema,
-    },
+  },
+  update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -94,19 +53,13 @@ export const pageContentRouter = createRouter([
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: IdParamSchema,
-    },
+  },
+  delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       await app.container.resolve('pageContentService').deletePageContent(request.params.id);
 
       return { data: { id: request.params.id } };
     },
-  }),
-]);
+  },
+});

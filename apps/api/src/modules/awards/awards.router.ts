@@ -1,54 +1,25 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  AwardResponseSchema,
-  AwardsListResponseSchema,
-  AwardWithNominationsResponseSchema,
-  buildListOptionSchema,
-  CreateAwardInputSchema,
-  IdParamSchema,
-  NominationInputSchema,
-  NominationResponseSchema,
-  NullableIdParamSchema,
-} from '@films-collection/shared';
-import z from 'zod';
+import { createRouter, validateAuth } from '~/shared';
+import { awardsContract } from '@films-collection/api-client';
 
-export const awardsRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/',
-    schema: {
-      response: AwardsListResponseSchema,
-    },
+export const awardsRouter = createRouter(awardsContract, {
+  getList: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('awardsService').getBaseDataList();
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'POST',
-    url: '/',
-    schema: {
-      body: CreateAwardInputSchema,
-      response: AwardResponseSchema,
-    },
+  create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('awardsService').createAward(request.body);
 
       return { data, status: 'CREATED' };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'POST',
-    url: '/:id/nominations',
-    schema: {
-      body: NominationInputSchema,
-      params: IdParamSchema,
-      response: NominationResponseSchema,
-    },
+  createNomination: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -57,20 +28,9 @@ export const awardsRouter = createRouter([
 
       return { data, status: 'CREATED' };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'GET',
-    url: '/:id/nominations',
-    schema: {
-      params: NullableIdParamSchema,
-      response: buildListOptionSchema(
-        z.number(),
-        z.object({
-          shouldIncludeActor: z.boolean(),
-        }),
-      ),
-    },
+  getNominations: {
     async handler({ request, app }) {
       if (!request.params.id) {
         return { data: [] };
@@ -82,30 +42,17 @@ export const awardsRouter = createRouter([
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'GET',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: AwardWithNominationsResponseSchema,
-    },
+  getById: {
     async handler({ request, app }) {
       const data = await app.container.resolve('awardsService').getAwardById(request.params.id);
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      body: CreateAwardInputSchema,
-      response: AwardResponseSchema,
-    },
+  update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -114,15 +61,9 @@ export const awardsRouter = createRouter([
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: IdParamSchema,
-    },
+  delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       await app.container.resolve('awardsService').deleteAward(request.params.id);
@@ -133,5 +74,5 @@ export const awardsRouter = createRouter([
         },
       };
     },
-  }),
-]);
+  },
+});

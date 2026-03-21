@@ -1,4 +1,3 @@
-import type { Route } from '~/shared';
 import { authRouter, AuthService } from '~/modules/auth';
 import { AwardsRepository, awardsRouter, AwardsService } from '~/modules/awards';
 import {
@@ -36,6 +35,7 @@ import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/stud
 import { UsersRepository, UsersService } from '~/modules/users';
 import { ConfigService } from '~/modules/config';
 import { AwsService } from '~/modules/aws/aws.service';
+import type { Router } from '~/shared';
 
 export const services = {
   authService: AuthService,
@@ -69,19 +69,19 @@ export const services = {
   awsService: AwsService,
 };
 
-export const routers: Record<string, Route[]> = {
-  auth: authRouter,
-  awards: awardsRouter,
-  chapterKeys: chapterKeysRouter,
-  collectionEvents: collectionEventsRouter,
-  collections: collectionsRouter,
-  countries: countriesRouter,
-  files: filesRouter,
-  films: filmsRouter,
-  genres: genresRouter,
-  initialData: initialDataRouter,
-  pageContent: pageContentRouter,
-  pendingFilms: pendingFilmsRouter,
-  people: peopleRouter,
-  studios: studiosRouter,
-};
+export const routers: Router[] = [
+  authRouter,
+  awardsRouter,
+  chapterKeysRouter,
+  collectionEventsRouter,
+  collectionsRouter,
+  countriesRouter,
+  filesRouter,
+  filmsRouter,
+  genresRouter,
+  initialDataRouter,
+  pageContentRouter,
+  pendingFilmsRouter,
+  peopleRouter,
+  studiosRouter,
+];

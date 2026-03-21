@@ -1,66 +1,36 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  CreateCollectionEventInputSchema,
-  UpdateCollectionEventInputSchema,
-  IdParamSchema,
-  CollectionEventResponseSchema,
-  CollectionEventsListResponseSchema,
-} from '@films-collection/shared';
+import { createRouter, validateAuth } from '~/shared';
+import { collectionEventsContract } from '@films-collection/api-client';
 
-export const collectionEventsRouter = createRouter([
-  defineRoute({
-    method: 'POST',
-    url: '/',
+export const collectionEventsRouter = createRouter(collectionEventsContract, {
+  create: {
     preHandler: [validateAuth],
-    schema: {
-      body: CreateCollectionEventInputSchema,
-      response: CollectionEventResponseSchema,
-    },
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('collectionEventsService').createEvent(request.body);
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'GET',
-    url: '/',
+  getAll: {
     preHandler: [validateAuth],
-    schema: {
-      response: CollectionEventsListResponseSchema,
-    },
     handler: async ({ app }) => {
       const data = await app.container.resolve('collectionEventsService').getAllEvents();
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
+  delete: {
     preHandler: [validateAuth],
-    schema: {
-      params: IdParamSchema,
-      response: IdParamSchema,
-    },
     handler: async ({ request, app }) => {
       await app.container.resolve('collectionEventsService').deleteEvent(request.params.id);
 
       return { data: { id: request.params.id } };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
+  update: {
     preHandler: [validateAuth],
-    schema: {
-      params: IdParamSchema,
-      body: UpdateCollectionEventInputSchema,
-      response: CollectionEventResponseSchema,
-    },
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('collectionEventsService')
@@ -68,5 +38,5 @@ export const collectionEventsRouter = createRouter([
 
       return { data };
     },
-  }),
-]);
+  },
+});

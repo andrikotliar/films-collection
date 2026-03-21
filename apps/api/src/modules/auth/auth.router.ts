@@ -2,27 +2,16 @@ import {
   clearCookies,
   getCookie,
   UnauthorizedException,
-  defineRoute,
   createRouter,
   setCookie,
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
   validateAuth,
 } from '~/shared';
-import {
-  AuthStateResponseSchema,
-  IdParamSchema,
-  LoginSchema,
-  LogoutResponseSchema,
-} from '@films-collection/shared';
+import { authContract } from '@films-collection/api-client';
 
-export const authRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/state',
-    schema: {
-      response: AuthStateResponseSchema,
-    },
+export const authRouter = createRouter(authContract, {
+  getState: {
     preHandler: [validateAuth],
     async handler() {
       return {
@@ -31,14 +20,8 @@ export const authRouter = createRouter([
         },
       };
     },
-  }),
-  defineRoute({
-    method: 'POST',
-    url: '/login',
-    schema: {
-      body: LoginSchema,
-      response: IdParamSchema,
-    },
+  },
+  login: {
     async handler({ request, reply, app }) {
       const data = await app.container.resolve('authService').login(request.body);
 
@@ -70,13 +53,8 @@ export const authRouter = createRouter([
         data: { id: data.id },
       };
     },
-  }),
-  defineRoute({
-    method: 'POST',
-    url: '/refresh',
-    schema: {
-      response: IdParamSchema,
-    },
+  },
+  refresh: {
     async handler({ request, reply, app }) {
       const token = getCookie(request, 'REFRESH_TOKEN');
 
@@ -114,13 +92,8 @@ export const authRouter = createRouter([
         data: { id: data.id },
       };
     },
-  }),
-  defineRoute({
-    method: 'POST',
-    url: '/logout',
-    schema: {
-      response: LogoutResponseSchema,
-    },
+  },
+  logout: {
     async handler({ request, reply, app }) {
       const accessToken = getCookie(request, 'ACCESS_TOKEN');
 
@@ -132,5 +105,5 @@ export const authRouter = createRouter([
 
       return { data: { status: 'ok' as const } };
     },
-  }),
-]);
+  },
+});
