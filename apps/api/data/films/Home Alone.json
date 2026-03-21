@@ -1,0 +1,108 @@
+{
+  "id": 263,
+  "title": "Home Alone",
+  "releaseDate": "1990-11-16",
+  "type": "FILM",
+  "duration": 103,
+  "budget": 18000000,
+  "boxOffice": 477000000,
+  "overview": null,
+  "chapterKey": "home-alone",
+  "chapterOrder": 1,
+  "poster": "posters/home_alone",
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/jEDaVHmw7r4?si=LbZ7BcBPZk2YP49c",
+      "order": 1,
+      "id": 306
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1560,
+      "name": "Chris Columbus",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2599,
+      "name": "John Hughes",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2599,
+      "name": "John Hughes",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1563,
+      "name": "John Williams",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2600,
+      "name": "Julio Macat",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2601,
+      "name": "Macaulay Culkin",
+      "role": "ACTOR",
+      "details": "Kevin"
+    },
+    {
+      "id": 2602,
+      "name": "Joe Pesci",
+      "role": "ACTOR",
+      "details": "Harry"
+    },
+    {
+      "id": 2603,
+      "name": "Daniel Stern",
+      "role": "ACTOR",
+      "details": "Marv"
+    },
+    {
+      "id": 2604,
+      "name": "John Heard",
+      "role": "ACTOR",
+      "details": "Peter"
+    },
+    {
+      "id": 2457,
+      "name": "Catherine O'Hara",
+      "role": "ACTOR",
+      "details": "Kate"
+    },
+    {
+      "id": 2605,
+      "name": "Roberts Blossom",
+      "role": "ACTOR",
+      "details": "Marley"
+    }
+  ]
+}

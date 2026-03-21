@@ -52,7 +52,46 @@
       "id": 270
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        },
+        {
+          "title": "Best Film Direction",
+          "id": 252
+        },
+        {
+          "title": "Best Film Screenwriting",
+          "id": 253
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "id": 101
+        }
+      ]
+    }
+  ],
   "castAndCrew": [
     {
       "id": 1288,
