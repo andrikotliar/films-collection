@@ -47,6 +47,9 @@ importers:
       '@fastify/static':
         specifier: ^8.2.0
         version: 8.3.0
+      '@films-collection/api-client':
+        specifier: workspace:^
+        version: link:../../packages/api-client
       '@films-collection/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
@@ -105,9 +108,6 @@ importers:
       typescript:
         specifier: ^5.6.2
         version: 5.9.3
-      zod-to-ts:
-        specifier: ^2.0.0
-        version: 2.0.0(typescript@5.9.3)(zod@4.1.11)
 
   apps/web:
     dependencies:
@@ -120,12 +120,12 @@ importers:
       '@dnd-kit/utilities':
         specifier: ^3.2.2
         version: 3.2.2(react@18.3.1)
+      '@films-collection/api-client':
+        specifier: workspace:^
+        version: link:../../packages/api-client
       '@films-collection/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
-      '@films-collection/fetch-wrapper':
-        specifier: workspace:^
-        version: link:../../packages/fetch-wrapper
       '@films-collection/shared':
         specifier: workspace:^
         version: link:../../packages/shared
@@ -221,6 +221,25 @@ importers:
         specifier: ^5.1.3
         version: 5.1.4(typescript@5.9.3)(vite@7.3.1(@types/node@20.19.33)(terser@5.46.0)(tsx@4.21.0)(yaml@2.8.2))
 
+  packages/api-client:
+    dependencies:
+      '@films-collection/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@films-collection/shared':
+        specifier: workspace:*
+        version: link:../shared
+      zod:
+        specifier: 4.1.11
+        version: 4.1.11
+    devDependencies:
+      '@types/node':
+        specifier: ^25.5.0
+        version: 25.5.0
+      tsc-alias:
+        specifier: ^1.8.16
+        version: 1.8.16
+
   packages/eslint-config:
     devDependencies:
       '@eslint/config-helpers':
@@ -238,12 +257,6 @@ importers:
       typescript-eslint:
         specifier: ^8.44.0
         version: 8.56.0(eslint@9.39.3)(typescript@5.9.3)
-
-  packages/fetch-wrapper:
-    dependencies:
-      '@films-collection/eslint-config':
-        specifier: workspace:^
-        version: link:../eslint-config
 
   packages/shared:
     dependencies:
@@ -2276,6 +2289,9 @@ packages:
 
   '@types/node@25.3.3':
     resolution: {integrity: sha512-DpzbrH7wIcBaJibpKo9nnSQL0MTRdnWttGyE5haGwK86xgMOkFLp7vEyfQPGLOJh5wNYiJ3V9PmUMDhV9u8kkQ==}
+
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
   '@types/pg@8.16.0':
     resolution: {integrity: sha512-RmhMd/wD+CF8Dfo+cVIy3RR5cl8CyfXQ0tGgW6XBL8L4LM/UTEbNXYRbLwU6w+CgrKBNbrQWt4FUtTfaU5jSYQ==}
@@ -4620,12 +4636,6 @@ packages:
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-
-  zod-to-ts@2.0.0:
-    resolution: {integrity: sha512-aHsUgIl+CQutKAxtRNeZslLCLXoeuSq+j5HU7q3kvi/c2KIAo6q4YjT7/lwFfACxLB923ELHYMkHmlxiqFy4lw==}
-    peerDependencies:
-      typescript: ^5.0.0
-      zod: ^3.25.0 || ^4.0.0
 
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
@@ -7006,7 +7016,7 @@ snapshots:
 
   '@types/bcrypt@5.0.2':
     dependencies:
-      '@types/node': 22.19.11
+      '@types/node': 25.3.3
 
   '@types/estree@0.0.39': {}
 
@@ -7039,9 +7049,13 @@ snapshots:
     dependencies:
       undici-types: 7.18.2
 
+  '@types/node@25.5.0':
+    dependencies:
+      undici-types: 7.18.2
+
   '@types/pg@8.16.0':
     dependencies:
-      '@types/node': 22.19.11
+      '@types/node': 25.3.3
       pg-protocol: 1.11.0
       pg-types: 2.2.0
 
@@ -9642,11 +9656,6 @@ snapshots:
   yaml@2.8.2: {}
 
   yocto-queue@0.1.0: {}
-
-  zod-to-ts@2.0.0(typescript@5.9.3)(zod@4.1.11):
-    dependencies:
-      typescript: 5.9.3
-      zod: 4.1.11
 
   zod@3.25.76: {}
 

@@ -8,15 +8,10 @@ COPY . .
 
 RUN pnpm install --frozen-lockfile
 
-RUN pnpm --filter ./packages/shared build
-RUN pnpm --filter ./packages/fetch-wrapper build
-RUN pnpm --filter ./apps/api build
-
-RUN pnpm api:generate
-
 ARG VITE_IMAGES_URL
 ENV VITE_IMAGES_URL=$VITE_IMAGES_URL
-RUN pnpm --filter ./apps/web build
+
+RUN pnpm build
 
 FROM node:24-alpine AS production
 

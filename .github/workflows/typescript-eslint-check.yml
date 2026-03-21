@@ -29,22 +29,16 @@ jobs:
         run: pnpm --filter ./packages/shared lint
 
       - name: TypeScript check — packages/shared
-        run: pnpm -w exec tsc --project packages/shared/tsconfig.json --noEmit
+        run: pnpm --filter ./packages/shared typecheck
 
       - name: Build shared
         run: pnpm --filter ./packages/shared build
 
-      - name: Build fetch wrapper
-        run: pnpm --filter ./packages/fetch-wrapper build
-
-      - name: Generate api client
-        run: pnpm run api:generate
-
       - name: TypeScript check — apps/api
-        run: pnpm -w exec tsc --project apps/api/tsconfig.json --noEmit
+        run: pnpm --filter ./apps/api typecheck
 
       - name: TypeScript check — apps/web
-        run: pnpm -w exec tsc --project apps/web/tsconfig.json --noEmit
+        run: pnpm --filter ./apps/web typecheck
 
       - name: ESLint check - apps/api
         run: pnpm --filter ./apps/api lint
