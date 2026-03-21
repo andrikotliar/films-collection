@@ -1,4 +1,4 @@
-import { HttpError } from './http-error';
+import { HttpError } from '~/exceptions';
 
 type FetchOptions = {
   queryParams?: Record<string, any>;
@@ -6,7 +6,7 @@ type FetchOptions = {
   params?: Record<string, any>;
 };
 
-type FetchWrapperOptions = {
+export type FetchWrapperOptions = {
   baseUrl: string;
   onError?: <T>(error: any, originalRequest: () => Promise<T>) => Promise<T>;
 };

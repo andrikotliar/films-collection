@@ -1,0 +1,27 @@
+{
+  "name": "@films-collection/api-client",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "zod": "4.1.11",
+    "@films-collection/shared": "workspace:*",
+    "@films-collection/eslint-config": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsc-alias": "^1.8.16"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc-alias",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ./src"
+  },
+  "packageManager": "pnpm@10.17.0"
+}
