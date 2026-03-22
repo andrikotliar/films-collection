@@ -1,5 +1,5 @@
 import { type api, type Input, getEmptyFormValues } from '~/shared';
 
-export const defaultPersonValues = getEmptyFormValues<Input<typeof api.people.create>>({
+export const defaultPersonValues = getEmptyFormValues<Input<typeof api.people.create.exec>>({
   name: '',
 });

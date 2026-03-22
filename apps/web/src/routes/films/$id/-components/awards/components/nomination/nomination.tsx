@@ -5,7 +5,9 @@ import { RouterLink, type api, type ApiResponse } from '~/shared';
 type NominationProps = {
   title: string;
   comment: string | null;
-  nominee: ApiResponse<typeof api.films.get>['awards'][number]['nominations'][number]['person'];
+  nominee: ApiResponse<
+    typeof api.films.getById.exec
+  >['awards'][number]['nominations'][number]['person'];
 };
 
 export const Nomination = ({ title, comment, nominee }: NominationProps) => {

@@ -13,7 +13,7 @@ import { Title } from '~/routes/films/$id/-components/summary-section/components
 import clsx from 'clsx';
 
 type SummarySectionProps = {
-  film: ApiResponse<typeof api.films.get>;
+  film: ApiResponse<typeof api.films.getById.exec>;
 };
 
 export const SummarySection = ({ film }: SummarySectionProps) => {

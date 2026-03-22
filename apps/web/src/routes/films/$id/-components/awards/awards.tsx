@@ -2,7 +2,7 @@ import { ScrollableLine, type api, type ApiResponse } from '~/shared';
 import { Award } from '~/routes/films/$id/-components/awards/components';
 
 type AwardsProps = {
-  data: ApiResponse<typeof api.films.get>['awards'];
+  data: ApiResponse<typeof api.films.getById.exec>['awards'];
 };
 
 export const Awards = ({ data }: AwardsProps) => {

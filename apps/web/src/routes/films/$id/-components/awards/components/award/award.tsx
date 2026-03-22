@@ -5,7 +5,7 @@ import { TrophyIcon } from 'lucide-react';
 import { Link } from '@tanstack/react-router';
 
 type AwardProps = {
-  data: ApiResponse<typeof api.films.get>['awards'][number];
+  data: ApiResponse<typeof api.films.getById.exec>['awards'][number];
 };
 
 export const Award = ({ data }: AwardProps) => {

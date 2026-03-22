@@ -1,12 +1,6 @@
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  api,
-  getEmptyFormValues,
-  getStudiosListQueryOptions,
-  queryKeys,
-  type Input,
-} from '~/shared';
+import { api, getEmptyFormValues, getStudiosListQueryOptions, type Input } from '~/shared';
 import {
   AddItemButton,
   ConsoleContentLayout,
@@ -16,7 +10,9 @@ import {
 } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/studios/-components';
 
-const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create>>({ title: '' });
+const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create.exec>>({
+  title: '',
+});
 
 export const Route = createFileRoute('/console/studios')({
   loader: async ({ context: { queryClient } }) => {
@@ -30,9 +26,9 @@ function PageContainer() {
   const { onOpen } = useFormModal();
 
   const { mutateAsync: deleteStudio, isPending: isDeletePending } = useMutation({
-    mutationFn: (id: number) => api.studios.remove({ params: { id } }),
+    mutationFn: (id: number) => api.studios.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.studios.list()],
+      invalidateQueries: [api.studios.getList.staticKey],
     },
   });
 

@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
 
       if (mutation.meta?.invalidateQueries) {
         for (const keys of mutation.meta.invalidateQueries) {
-          queryClient.invalidateQueries({ queryKey: keys.filter(Boolean) });
+          queryClient.invalidateQueries({ queryKey: Array.isArray(keys) ? keys : [keys] });
         }
       }
     },
@@ -56,7 +56,15 @@ declare module '@tanstack/react-router' {
 declare module '@tanstack/react-query' {
   interface Register {
     mutationMeta: {
-      invalidateQueries?: Array<readonly unknown[]>;
+      invalidateQueries?: Array<
+        | string
+        | string[]
+        | number
+        | number[]
+        | (string | number)[]
+        | Record<PropertyKey, unknown>
+        | Array<Record<PropertyKey, unknown>>
+      >;
       successMessage?: string;
       skipErrorToast?: boolean;
     };

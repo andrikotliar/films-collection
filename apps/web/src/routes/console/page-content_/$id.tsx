@@ -18,7 +18,7 @@ import { ALLOWED_HTML_TAGS } from '@films-collection/shared';
 import { PageContentFormSchema } from '~/routes/console/page-content_/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.get> | null) => {
+const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.getById.exec> | null) => {
   if (data) {
     return {
       id: data.id,
@@ -28,7 +28,7 @@ const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.get> | nu
     };
   }
 
-  return getEmptyFormValues<Input<typeof api.pageContent.create>>({
+  return getEmptyFormValues<Input<typeof api.pageContent.create.exec>>({
     title: '',
     pageKey: '',
     content: '',
@@ -53,7 +53,7 @@ function RouteComponent() {
   const { data } = useSuspenseQuery(getPageContentByIdQueryOptions(mixedId));
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.pageContent.create, api.pageContent.patch),
+    mutationFn: mutateEntity(api.pageContent.create.exec, api.pageContent.update.exec),
     onSuccess: () => {
       navigate({
         to: '/console/page-content',

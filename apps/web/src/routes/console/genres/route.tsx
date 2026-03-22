@@ -1,10 +1,4 @@
-import {
-  api,
-  getEmptyFormValues,
-  getGenresListQueryOptions,
-  queryKeys,
-  type Input,
-} from '~/shared';
+import { api, getEmptyFormValues, getGenresListQueryOptions, type Input } from '~/shared';
 import {
   AddItemButton,
   ConsoleContentLayout,
@@ -23,7 +17,7 @@ export const Route = createFileRoute('/console/genres')({
   component: withFormModal(GenresForm, PageContainer),
 });
 
-const genreDefaultValues = getEmptyFormValues<Input<typeof api.genres.create>>({
+const genreDefaultValues = getEmptyFormValues<Input<typeof api.genres.create.exec>>({
   title: '',
 });
 
@@ -32,9 +26,9 @@ function PageContainer() {
   const { onOpen } = useFormModal();
 
   const { mutateAsync: deleteGenre, isPending: isDeletePending } = useMutation({
-    mutationFn: (id: number) => api.genres.remove({ params: { id } }),
+    mutationFn: (id: number) => api.genres.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.genres.list(), queryKeys.initialData.list()],
+      invalidateQueries: [api.genres.getList.staticKey, api.initialData.get.staticKey],
     },
   });
 

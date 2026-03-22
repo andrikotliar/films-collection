@@ -1,12 +1,12 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
 export const getPageContentAdminListQueryOptions = (
-  queryParams: QueryParams<typeof api.pageContent.admin.list>,
+  queryParams: QueryParams<typeof api.pageContent.getAdminList.exec>,
 ) => {
   return queryOptions({
-    queryKey: queryKeys.pageContent.admin.list({ queryParams }),
-    queryFn: () => api.pageContent.admin.list({ queryParams }),
+    queryKey: [api.pageContent.getAdminList.staticKey, queryParams],
+    queryFn: () => api.pageContent.getAdminList.exec({ queryParams }),
   });
 };

@@ -39,7 +39,7 @@
   line-height: 1.5;
 }
 
-.remove_button {
+.delete.exec_button {
   position: absolute;
   top: 15px;
   right: 20px;

@@ -1,9 +1,9 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 
 export const getChapterKeysOptionsQueryOptions = () => {
   return queryOptions({
-    queryKey: queryKeys.chapterKeys.options.list(),
-    queryFn: api.chapterKeys.options.list,
+    queryKey: [api.chapterKeys.getOptions.staticKey],
+    queryFn: () => api.chapterKeys.getOptions.exec(),
   });
 };

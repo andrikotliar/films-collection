@@ -12,7 +12,7 @@ import { LoginSchema } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { useMutation } from '@tanstack/react-query';
 
-const defaultLoginValues: Input<typeof api.auth.login.create> = {
+const defaultLoginValues: Input<typeof api.auth.login.exec> = {
   username: '',
   password: '',
 };
@@ -22,8 +22,8 @@ export const LoginForm = () => {
 
   const navigate = useNavigate();
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: (input: Parameters<typeof api.auth.login.create>[0]['input']) => {
-      return api.auth.login.create({ input });
+    mutationFn: (input: Parameters<typeof api.auth.login.exec>[0]['input']) => {
+      return api.auth.login.exec({ input });
     },
     onSuccess: (result) => {
       if (result.id) {

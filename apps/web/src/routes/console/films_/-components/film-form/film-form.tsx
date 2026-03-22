@@ -9,7 +9,6 @@ import {
   getObjectsDiff,
   isNewItem,
   LocalStorage,
-  queryKeys,
   titleToFileName,
 } from '~/shared';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
@@ -43,7 +42,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         const transformedPoster = await convertImageToWebp(poster);
 
         const key = `posters/${titleToFileName(data.title)}`;
-        const uploadParams = await api.files.upload.url.create({
+        const uploadParams = await api.files.getUploadUrl.exec({
           input: {
             key,
             fileType: 'webp',
@@ -73,13 +72,13 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           return;
         }
 
-        return await api.films.admin.patch({
+        return await api.films.update.exec({
           params: { id: values.id },
           input: diff,
         });
       }
 
-      return await api.films.admin.create({
+      return await api.films.create.exec({
         input,
       });
     },
@@ -89,7 +88,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     },
     meta: {
       invalidateQueries: !isNewItem(values.id)
-        ? [queryKeys.films.get({ params: { id: values.id } })]
+        ? [[api.films.getById.staticKey, values.id]]
         : undefined,
     },
   });
@@ -98,7 +97,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     mutationFn: async ({ value, type }: CreateNewEntityInput) => {
       switch (type) {
         case 'collections': {
-          const result = await api.collections.create({
+          const result = await api.collections.create.exec({
             input: {
               title: value,
               category: 'GENERAL',
@@ -110,21 +109,21 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           };
         }
         case 'genres': {
-          const result = await api.genres.create({ input: { title: value } });
+          const result = await api.genres.create.exec({ input: { title: value } });
           return {
             value: result.id,
             label: result.title,
           };
         }
         case 'countries': {
-          const result = await api.countries.create({ input: { title: value } });
+          const result = await api.countries.create.exec({ input: { title: value } });
           return {
             value: result.id,
             label: result.title,
           };
         }
         case 'studios': {
-          const result = await api.studios.create({ input: { title: value } });
+          const result = await api.studios.create.exec({ input: { title: value } });
           return {
             value: result.id,
             label: result.title,
@@ -135,7 +134,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       }
     },
     meta: {
-      invalidateQueries: [queryKeys.initialData.list()],
+      invalidateQueries: [api.initialData.get.staticKey],
     },
   });
 

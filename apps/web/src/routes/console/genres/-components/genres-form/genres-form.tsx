@@ -1,4 +1,4 @@
-import { api, Form, mutateEntity, queryKeys, type FormComponentProps } from '~/shared';
+import { api, Form, mutateEntity, type FormComponentProps } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import type z from 'zod';
 import { GenreFormSchema } from '~/routes/console/genres/-schemas';
@@ -11,9 +11,9 @@ export const GenresForm = ({ values }: GenresFormProps) => {
   const { onClose } = useFormModal();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.genres.create, api.genres.patch),
+    mutationFn: mutateEntity(api.genres.create.exec, api.genres.update.exec),
     meta: {
-      invalidateQueries: [queryKeys.genres.list(), queryKeys.initialData.list()],
+      invalidateQueries: [api.genres.getList.staticKey, api.initialData.get.staticKey],
     },
   });
 

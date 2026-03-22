@@ -11,7 +11,6 @@ import {
   getFiltersConfig,
   getInitialDataQueryOptions,
   Pagination,
-  queryKeys,
 } from '~/shared';
 import styles from './films-list-content.module.css';
 import { useMemo, useState } from 'react';
@@ -29,9 +28,9 @@ export const FilmsListContent = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
-    mutationFn: (id: number) => api.films.admin.remove({ params: { id } }),
+    mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.films.admin.list()],
+      invalidateQueries: [api.films.getAdminList.staticKey],
     },
   });
 

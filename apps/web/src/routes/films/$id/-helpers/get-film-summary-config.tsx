@@ -20,7 +20,9 @@ export type SummaryConfig = {
   isHidden?: boolean;
 };
 
-export const getFilmSummaryConfig = (film: ApiResponse<typeof api.films.get>): SummaryConfig[] => {
+export const getFilmSummaryConfig = (
+  film: ApiResponse<typeof api.films.getById.exec>,
+): SummaryConfig[] => {
   const values: SummaryConfig[] = [
     {
       id: 'genres',

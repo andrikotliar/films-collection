@@ -1,11 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  getCollectionsListQueryOptions,
-  getEmptyFormValues,
-  api,
-  type Input,
-  queryKeys,
-} from '~/shared';
+import { getCollectionsListQueryOptions, getEmptyFormValues, api, type Input } from '~/shared';
 import {
   AddItemButton,
   ConsoleContentLayout,
@@ -18,7 +12,7 @@ import type z from 'zod';
 import type { CollectionFormSchema } from '~/routes/console/collections/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create>>({
+const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create.exec>>({
   title: '',
   category: 'GENERAL',
 });
@@ -35,9 +29,9 @@ function PageContainer() {
   const { onOpen } = useFormModal<z.infer<typeof CollectionFormSchema>>();
 
   const { mutateAsync: deleteCollection, isPending: isDeleting } = useMutation({
-    mutationFn: (id: number) => api.collections.remove({ params: { id } }),
+    mutationFn: (id: number) => api.collections.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.collections.list()],
+      invalidateQueries: [api.collections.getList.staticKey],
     },
   });
 

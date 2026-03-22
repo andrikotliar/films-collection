@@ -1,9 +1,9 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 
 export const getGenresListQueryOptions = () => {
   return queryOptions({
-    queryKey: queryKeys.genres.list(),
-    queryFn: api.genres.list,
+    queryKey: [api.genres.getList],
+    queryFn: () => api.genres.getList.exec(),
   });
 };

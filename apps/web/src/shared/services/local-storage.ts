@@ -28,7 +28,7 @@ export const LocalStorage = {
   },
 
   removeItem(key: LocalStorageKey): void {
-    localStorage.removeItem(key);
+    localStorage.delete.execItem(key);
   },
 
   clearStorage(): void {

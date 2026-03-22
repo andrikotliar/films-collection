@@ -6,7 +6,7 @@ import { Video } from '~/routes/films/$id/-components/summary-section/components
 import { getEmbeddableYoutubeUrl, type api, type ApiResponse } from '~/shared';
 
 type TrailersPlaylistProps = {
-  trailers: ApiResponse<typeof api.films.get>['trailers'];
+  trailers: ApiResponse<typeof api.films.getById.exec>['trailers'];
   previewLabel: string;
 };
 

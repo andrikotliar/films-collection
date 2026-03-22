@@ -1,10 +1,4 @@
-import {
-  api,
-  getCountriesListQueryOptions,
-  getEmptyFormValues,
-  queryKeys,
-  type Input,
-} from '~/shared';
+import { api, getCountriesListQueryOptions, getEmptyFormValues, type Input } from '~/shared';
 import {
   AddItemButton,
   ConsoleContentLayout,
@@ -16,7 +10,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { CountryForm } from '~/routes/console/countries/-components';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create>>({
+const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create.exec>>({
   title: '',
 });
 
@@ -32,9 +26,9 @@ function PageContainer() {
   const { onOpen } = useFormModal();
 
   const { mutateAsync: deleteCountry, isPending: isDeletePending } = useMutation({
-    mutationFn: (id: number) => api.countries.remove({ params: { id } }),
+    mutationFn: (id: number) => api.countries.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.countries.list(), queryKeys.initialData.list()],
+      invalidateQueries: [api.countries.getList.staticKey, api.initialData.get.staticKey],
     },
   });
 

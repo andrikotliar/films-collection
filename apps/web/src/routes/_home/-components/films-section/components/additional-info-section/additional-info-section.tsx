@@ -2,7 +2,7 @@ import type { api, ApiResponse } from '~/shared';
 import { InfoBlock } from '../info-block/info-block';
 
 type FilmsSectionProps = {
-  info: ApiResponse<typeof api.films.list>['additionalInfo'];
+  info: ApiResponse<typeof api.films.getList.exec>['additionalInfo'];
 };
 
 export const AdditionalInfoSection = ({ info }: FilmsSectionProps) => {

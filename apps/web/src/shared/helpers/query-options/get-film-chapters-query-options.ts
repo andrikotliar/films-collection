@@ -1,10 +1,10 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 
 export const getFilmChaptersQueryOptions = (chapterKey: string | null) => {
   return queryOptions({
-    queryKey: queryKeys.films.chapters.get({ params: { key: chapterKey ?? '' } }),
-    queryFn: () => api.films.chapters.get({ params: { key: chapterKey ?? '' } }),
+    queryKey: [api.films.getRelatedChapters.staticKey, chapterKey],
+    queryFn: () => api.films.getRelatedChapters.exec({ params: { key: chapterKey ?? '' } }),
     enabled: chapterKey !== null,
   });
 };

@@ -22,7 +22,7 @@ export const InfoBlock = ({ label, title, description }: InfoBlockProps) => {
         <h2 className={styles.title}>{title}</h2>
         {description && <p className={styles.description}>{description}</p>}
       </div>
-      <button className={styles.remove_button} onClick={handleClearFilter}>
+      <button className={styles.delete_button} onClick={handleClearFilter}>
         <XCircleIcon size={20} />
       </button>
     </div>

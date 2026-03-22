@@ -4,7 +4,7 @@ import type { ApiResponse } from '~/shared/types';
 import type { api } from '~/shared/services';
 
 type SearchMenuContentProps = {
-  films: ApiResponse<typeof api.films.search.list>;
+  films: ApiResponse<typeof api.films.search.exec>;
   onFilmOpen: VoidFunction;
 };
 

@@ -1,10 +1,10 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 
 export const getCollectionEventsQueryOptions = () => {
   return queryOptions({
-    queryKey: queryKeys.collectionEvents.list(),
-    queryFn: api.collectionEvents.list,
+    queryKey: [api.collectionEvents.getAll.staticKey],
+    queryFn: () => api.collectionEvents.getAll.exec(),
     retry: false,
   });
 };
