@@ -1,5 +1,17 @@
 import type { GetFilmsListQuery } from '@films-collection/shared';
-import { and, between, eq, exists, gte, inArray, isNull, lte, sql, type SQL } from 'drizzle-orm';
+import {
+  and,
+  between,
+  eq,
+  exists,
+  gte,
+  ilike,
+  inArray,
+  isNull,
+  lte,
+  sql,
+  type SQL,
+} from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
 import {
   filmAwardNominations,
@@ -12,6 +24,7 @@ import {
   seriesExtensions,
 } from '~/database/schema';
 import type { Database } from '~/plugins';
+import { sqlSearchQuery } from '~/shared';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -47,6 +60,7 @@ export const mapListFilters = (plainFilters: FilmsListFilters, db: Database): SQ
     budget,
     boxOffice,
     includeDrafts,
+    q,
   } = plainFilters;
 
   const filters: SQL[] = [isNull(films.deletedAt)];
@@ -201,6 +215,10 @@ export const mapListFilters = (plainFilters: FilmsListFilters, db: Database): SQ
 
   if (boxOffice) {
     filters.push(getMoneyRangeFilter(films.boxOffice, boxOffice));
+  }
+
+  if (q) {
+    filters.push(ilike(films.title, sqlSearchQuery(q)));
   }
 
   return filters;
