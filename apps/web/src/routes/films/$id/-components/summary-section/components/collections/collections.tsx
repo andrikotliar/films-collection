@@ -4,7 +4,7 @@ import { Link } from '@tanstack/react-router';
 import { getColorBaseOnFirstLetter } from '~/routes/films/$id/-components/summary-section/helpers';
 
 type CollectionsProps = {
-  list: ApiResponse<typeof api.films.get>['collections'];
+  list: ApiResponse<typeof api.films.getById.exec>['collections'];
 };
 
 export const Collections = ({ list }: CollectionsProps) => {

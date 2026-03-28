@@ -1,13 +1,6 @@
 import styles from './nomination-select.module.css';
 import { useFormContext, useWatch } from 'react-hook-form';
-import {
-  api,
-  FieldError,
-  Form,
-  getNominationsByAwardQueryOptions,
-  Loader,
-  queryKeys,
-} from '~/shared';
+import { api, FieldError, Form, getNominationsByAwardQueryOptions, Loader } from '~/shared';
 import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
@@ -30,7 +23,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
 
   const { mutateAsync: createPerson, isPending } = useMutation({
     mutationFn: async (value: string) => {
-      const createdPerson = await api.people.create({
+      const createdPerson = await api.people.create.exec({
         input: { name: value },
       });
 
@@ -40,13 +33,15 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       };
     },
     meta: {
-      invalidateQueries: [queryKeys.people.list()],
+      invalidateQueries: {
+        queryKey: api.people.getList.staticKey,
+      },
     },
   });
 
   const { mutateAsync: createNomination, isPending: isNominationCreating } = useMutation({
     mutationFn: async (value: string) => {
-      const createdNomination = await api.awards.nominations.create({
+      const createdNomination = await api.awards.createNomination.exec({
         input: {
           id: -1,
           title: value,
@@ -63,9 +58,9 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       };
     },
     meta: {
-      invalidateQueries: [
-        queryKeys.awards.nominations.get({ params: { id: currentAward.awardId } }),
-      ],
+      invalidateQueries: {
+        queryKey: [api.awards.getNominations.staticKey, currentAward.awardId],
+      },
     },
   });
 
@@ -100,7 +95,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       {shouldShowActorSelect && (
         <Form.AsyncSelect
           name={`awards.${index}.actorId`}
-          optionsLoader={api.people.search.list}
+          optionsLoader={api.people.search.exec}
           label="Person"
           queryKey={index}
           onCreateOption={createPerson}

@@ -2,7 +2,7 @@ import type { ListOption } from '@films-collection/shared';
 import type { api } from '~/shared/services';
 import type { QueryParams } from '~/shared/types/extract-params';
 
-type FilterIds = keyof QueryParams<typeof api.films.list>;
+type FilterIds = keyof QueryParams<typeof api.films.getList.exec>;
 
 export type CheckboxFilter = {
   id: FilterIds;

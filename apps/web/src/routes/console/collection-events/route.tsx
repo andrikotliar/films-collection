@@ -4,7 +4,6 @@ import {
   getDateMonthLabel,
   getCollectionEventsQueryOptions,
   api,
-  queryKeys,
   type FormModalValues,
   getDefaultDateCode,
   getEmptyFormValues,
@@ -46,10 +45,15 @@ function CollectionEventsContainer() {
 
   const { mutateAsync: deleteEvent, isPending: isDeleting } = useMutation({
     mutationFn: (id: number) => {
-      return api.collectionEvents.remove({ params: { id } });
+      return api.collectionEvents.delete.exec({ params: { id } });
     },
     meta: {
-      invalidateQueries: [queryKeys.collectionEvents.list(), queryKeys.initialData.list()],
+      invalidateQueries: [
+        {
+          queryKey: api.collectionEvents.getAll.staticKey,
+        },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 

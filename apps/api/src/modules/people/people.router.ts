@@ -1,69 +1,34 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  IdParamSchema,
-  CreatePersonSchema,
-  GetPeopleListQuerySchema,
-  SearchPersonSchema,
-  UpdatePersonInputSchema,
-  buildListOptionSchema,
-  PeopleListResponseSchema,
-  PersonResponseSchema,
-} from '@films-collection/shared';
-import z from 'zod';
+import { createRouter, validateAuth } from '~/shared';
+import { peopleContract } from '@films-collection/api-client';
 
-export const peopleRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/',
-    schema: {
-      querystring: GetPeopleListQuerySchema,
-      response: PeopleListResponseSchema,
-    },
+export const peopleRouter = createRouter(peopleContract, {
+  getList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').getList(request.query);
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'GET',
-    url: '/search',
-    schema: {
-      querystring: SearchPersonSchema,
-      response: buildListOptionSchema(z.number()),
-    },
+  search: {
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').searchPerson(request.query);
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'POST',
-    url: '/',
-    schema: {
-      body: CreatePersonSchema,
-      response: PersonResponseSchema,
-    },
+  create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('peopleService').createPerson(request.body);
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      body: UpdatePersonInputSchema,
-      response: PersonResponseSchema,
-    },
+  update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -72,20 +37,14 @@ export const peopleRouter = createRouter([
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: IdParamSchema,
-    },
+  delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       await app.container.resolve('peopleService').deletePerson(request.params.id);
 
       return { data: { id: request.params.id } };
     },
-  }),
-]);
+  },
+});

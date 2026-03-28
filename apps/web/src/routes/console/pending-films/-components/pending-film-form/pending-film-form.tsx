@@ -6,7 +6,6 @@ import {
   getInitialDataQueryOptions,
   mutateEntity,
   priorityOptions,
-  queryKeys,
   type FormComponentProps,
   type StatusColor,
 } from '~/shared';
@@ -22,9 +21,12 @@ export const PendingFilmForm = ({ values }: PendingFilmFormProps) => {
   const { onClose } = useFormModal();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.pendingFilms.create, api.pendingFilms.patch),
+    mutationFn: mutateEntity(api.pendingFilms.create.exec, api.pendingFilms.update.exec),
     meta: {
-      invalidateQueries: [queryKeys.pendingFilms.list()],
+      invalidateQueries: [
+        { queryKey: api.pendingFilms.getList.staticKey },
+        { queryKey: [api.pendingFilms.getById.staticKey, values.id] },
+      ],
     },
   });
 

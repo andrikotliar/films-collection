@@ -1,6 +1,6 @@
 import { getEmptyFormValues, type api, type ApiResponse } from '~/shared';
 
-export const getFormDefaultValues = (data: ApiResponse<typeof api.awards.get> | null) => {
+export const getFormDefaultValues = (data: ApiResponse<typeof api.awards.getById.exec> | null) => {
   if (data) {
     return {
       id: data.id,

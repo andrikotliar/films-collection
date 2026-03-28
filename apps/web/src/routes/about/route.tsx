@@ -5,6 +5,7 @@ import {
   useScrollToTop,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
+import { useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/about')({
   loader: async ({ context: { queryClient } }) => {
@@ -17,7 +18,7 @@ function AboutPageContainer() {
   useDocumentTitle('About');
   useScrollToTop([]);
 
-  const article = Route.useLoaderData();
+  const { data: article } = useSuspenseQuery(getPageContentByKeyQueryOptions('about'));
 
   return (
     <ArticleContent>

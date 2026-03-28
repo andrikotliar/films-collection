@@ -1,12 +1,6 @@
 import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  Pagination,
-  useDocumentTitle,
-  getPageContentAdminListQueryOptions,
-  api,
-  queryKeys,
-} from '~/shared';
+import { Pagination, useDocumentTitle, getPageContentAdminListQueryOptions, api } from '~/shared';
 import { AddItemLink, ConsoleContentLayout, List } from '~/routes/console/-shared';
 import {
   GetPageContentListQueriesSchema,
@@ -34,9 +28,9 @@ function PageContainer() {
   const { data, isFetching } = useSuspenseQuery(getPageContentAdminListQueryOptions(searchParams));
 
   const { mutateAsync: deletePageContent, isPending } = useMutation({
-    mutationFn: (id: number) => api.pageContent.remove({ params: { id } }),
+    mutationFn: (id: number) => api.pageContent.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.pageContent.admin.list()],
+      invalidateQueries: { queryKey: api.pageContent.getAdminList.staticKey },
     },
   });
 

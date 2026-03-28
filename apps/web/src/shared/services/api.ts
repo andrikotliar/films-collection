@@ -1,15 +1,14 @@
 import { LocalStorage } from '~/shared/services/local-storage';
 import { redirect } from '@tanstack/react-router';
-import { createFetchWrapper, HttpError } from '@films-collection/fetch-wrapper';
+import { createApiClient, HttpError } from '@films-collection/api-client';
 import type { ErrorCode } from '@films-collection/shared';
-import { createApi, keys } from '~/generated';
 
 const TOKEN_ERRORS: Extract<ErrorCode, 'TOKEN_EXPIRED' | 'TOKEN_MISSED'>[] = [
   'TOKEN_EXPIRED',
   'TOKEN_MISSED',
 ];
 
-export const fetchWrapper = createFetchWrapper({
+export const api = createApiClient({
   baseUrl: '/api',
   onError: async (error, originalRequest) => {
     if (error.response?.statusCode === 401) {
@@ -43,6 +42,3 @@ export const fetchWrapper = createFetchWrapper({
     );
   },
 });
-
-export const api = createApi(fetchWrapper);
-export const queryKeys = keys;

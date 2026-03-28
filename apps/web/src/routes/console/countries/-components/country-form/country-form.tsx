@@ -1,4 +1,4 @@
-import { api, Form, mutateEntity, queryKeys, type FormComponentProps } from '~/shared';
+import { api, Form, mutateEntity, type FormComponentProps } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import type z from 'zod';
 import { useFormModal } from '~/routes/console/-shared';
@@ -9,9 +9,12 @@ type CountryFormProps = FormComponentProps<z.infer<typeof CountryFormSchema>>;
 
 export const CountryForm = ({ values }: CountryFormProps) => {
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.countries.create, api.countries.patch),
+    mutationFn: mutateEntity(api.countries.create.exec, api.countries.update.exec),
     meta: {
-      invalidateQueries: [queryKeys.countries.list(), queryKeys.initialData.list()],
+      invalidateQueries: [
+        { queryKey: api.countries.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
   const { onClose } = useFormModal();

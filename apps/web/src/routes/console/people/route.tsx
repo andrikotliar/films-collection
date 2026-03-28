@@ -3,7 +3,6 @@ import {
   getEmptyFormValues,
   getPeopleAdminListQueryOptions,
   Pagination,
-  queryKeys,
   type Input,
 } from '~/shared';
 import {
@@ -18,7 +17,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { GetPeopleListQuerySchema, PAGE_LIMITS } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create>>({
+const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create.exec>>({
   name: '',
   selected: false,
 });
@@ -47,15 +46,15 @@ function RouteComponent() {
     navigate({
       search: (values) => ({
         ...values,
-        page: pageIndex,
+        pageIndex,
       }),
     });
   };
 
   const { mutateAsync: deletePerson, isPending: isDeleting } = useMutation({
-    mutationFn: (id: number) => api.people.remove({ params: { id } }),
+    mutationFn: (id: number) => api.people.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.people.list()],
+      invalidateQueries: { queryKey: api.people.getList.staticKey },
     },
   });
 

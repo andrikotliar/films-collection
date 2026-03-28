@@ -5,7 +5,7 @@ import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 
 type AwardFormProps = {
-  values: Input<typeof api.awards.create>;
+  values: Input<typeof api.awards.create.exec>;
 };
 
 const AwardFormSchema = CreateAwardInputSchema.extend({
@@ -16,11 +16,21 @@ export const AwardForm = ({ values }: AwardFormProps) => {
   const navigate = useNavigate();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.awards.create, api.awards.patch),
+    mutationFn: mutateEntity(api.awards.create.exec, api.awards.update.exec),
     onSuccess: () => {
       navigate({
         to: '/console/awards',
       });
+    },
+    meta: {
+      invalidateQueries: [
+        {
+          queryKey: api.awards.getById.staticKey,
+        },
+        {
+          queryKey: api.initialData.get.staticKey,
+        },
+      ],
     },
   });
 

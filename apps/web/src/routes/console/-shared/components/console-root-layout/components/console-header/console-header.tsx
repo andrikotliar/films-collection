@@ -20,7 +20,7 @@ export const ConsoleHeader = () => {
   const navigate = useNavigate();
 
   const { mutate: logout } = useMutation({
-    mutationFn: api.auth.logout.create,
+    mutationFn: api.auth.logout.exec,
     onSuccess: () => {
       LocalStorage.removeItem('authenticated');
       navigate({ to: '/login' });
@@ -49,7 +49,7 @@ export const ConsoleHeader = () => {
         />
       )}
       <div className={styles.console_header_title}>Films Collection Console</div>
-      <button className={styles.logout_button} onClick={() => logout({})}>
+      <button className={styles.logout_button} onClick={() => logout()}>
         <LogOutIcon size={18} />
       </button>
       <PopupMenu

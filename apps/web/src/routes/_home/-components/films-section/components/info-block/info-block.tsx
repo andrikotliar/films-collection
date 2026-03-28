@@ -1,6 +1,7 @@
 import styles from './info-block.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
+import { Button } from '~/shared';
 
 type InfoBlockProps = {
   label: string;
@@ -22,9 +23,7 @@ export const InfoBlock = ({ label, title, description }: InfoBlockProps) => {
         <h2 className={styles.title}>{title}</h2>
         {description && <p className={styles.description}>{description}</p>}
       </div>
-      <button className={styles.remove_button} onClick={handleClearFilter}>
-        <XCircleIcon size={20} />
-      </button>
+      <Button onClick={handleClearFilter} icon={<XCircleIcon size={20} />} variant="ghost" />
     </div>
   );
 };

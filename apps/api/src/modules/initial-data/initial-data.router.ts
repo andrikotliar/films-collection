@@ -1,17 +1,12 @@
-import { InitialDataResponseSchema } from '@films-collection/shared';
-import { defineRoute, createRouter } from '~/shared';
+import { initialDataContract } from '@films-collection/api-client';
+import { createRouter } from '~/shared';
 
-export const initialDataRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/',
-    schema: {
-      response: InitialDataResponseSchema,
-    },
+export const initialDataRouter = createRouter(initialDataContract, {
+  get: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('initialDataService').getOptions();
 
       return { data };
     },
-  }),
-]);
+  },
+});

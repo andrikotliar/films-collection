@@ -4,7 +4,6 @@ import {
   getEmptyFormValues,
   getPendingFilmsListQueryOptions,
   Pagination,
-  queryKeys,
   type Input,
 } from '~/shared';
 import { Filters, PendingFilmForm } from './-components';
@@ -18,7 +17,7 @@ import {
 import { GetPendingFilmsListQuerySchema, NEW_ITEM_ID, PAGE_LIMITS } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const defaultPendingFilm = getEmptyFormValues<Input<typeof api.pendingFilms.create>>({
+const defaultPendingFilm = getEmptyFormValues<Input<typeof api.pendingFilms.create.exec>>({
   title: '',
   priority: 1,
   collectionId: null,
@@ -46,9 +45,9 @@ function PageContainer() {
   const { data, isFetching } = useSuspenseQuery(getPendingFilmsListQueryOptions(searchParams));
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: (id: number) => api.pendingFilms.remove({ params: { id } }),
+    mutationFn: (id: number) => api.pendingFilms.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [queryKeys.pendingFilms.list()],
+      invalidateQueries: { queryKey: api.pendingFilms.getList.staticKey },
     },
   });
 

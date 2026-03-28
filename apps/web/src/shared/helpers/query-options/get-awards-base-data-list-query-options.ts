@@ -1,9 +1,9 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 
 export const getAwardsBaseDataListQueryOptions = () => {
   return queryOptions({
-    queryKey: queryKeys.awards.list(),
-    queryFn: api.awards.list,
+    queryKey: [api.awards.getList.staticKey],
+    queryFn: () => api.awards.getList.exec(),
   });
 };

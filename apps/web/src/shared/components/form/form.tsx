@@ -26,6 +26,7 @@ import {
   FormToggle,
   FormVideoInput,
 } from '~/shared/components/form/components';
+import { useEffect } from 'react';
 
 type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema extends z.ZodType> = {
   onSubmit: (data: TDefaultValues) => Promise<unknown>;
@@ -54,10 +55,12 @@ export const Form = <
   onReset,
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
-    defaultValues,
-    // TODO: fix types for zod schema
     resolver: zodResolver(schema as any),
   });
+
+  useEffect(() => {
+    form.reset(defaultValues);
+  }, [defaultValues]);
 
   return (
     <FormProvider {...form}>

@@ -1,12 +1,12 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api, queryKeys } from '~/shared/services';
+import { api } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
 export const getFilmsAdminListQueryOptions = (
-  queryParams: QueryParams<typeof api.films.admin.list>,
+  queryParams: QueryParams<typeof api.films.getAdminList.exec>,
 ) => {
   return queryOptions({
-    queryKey: queryKeys.films.admin.list({ queryParams }),
-    queryFn: () => api.films.admin.list({ queryParams }),
+    queryKey: [api.films.getAdminList.staticKey, queryParams],
+    queryFn: () => api.films.getAdminList.exec({ queryParams }),
   });
 };

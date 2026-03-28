@@ -13,7 +13,7 @@ const nominationDefaultValues = {
 export const NominationsForm = () => {
   const [nominationIndex, setNominationIndex] = useState<number | null>(null);
 
-  const { control } = useFormContext<Input<typeof api.awards.create>>();
+  const { control } = useFormContext<Input<typeof api.awards.create.exec>>();
 
   const { fields, append, remove } = useFieldArray({
     name: 'nominations',

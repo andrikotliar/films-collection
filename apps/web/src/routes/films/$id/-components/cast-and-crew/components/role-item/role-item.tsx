@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { personRoleToTitle, RouterLink, type api, type ApiResponse } from '~/shared';
 
 type RoleItemProps = {
-  data: ApiResponse<typeof api.films.get>['castAndCrew'][number];
+  data: ApiResponse<typeof api.films.getById.exec>['castAndCrew'][number];
 };
 
 export const RoleItem = ({ data }: RoleItemProps) => {

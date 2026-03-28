@@ -14,14 +14,6 @@ A personal list of films with manually collected data. The app primarily focuses
 - React Hook Form
 - Zod
 
-### API client
-
-The API client is automatically generated from the backend API endpoints. It's built on the dev server startup or can be manually built by running the command in the root of the project:
-
-```bash
-pnpm api:generate
-```
-
 ### Images
 
 The `poster` column in the `films` table contains image paths. To display them on the frontend put images in any storage that can serve public URLs and support folders.
@@ -44,14 +36,6 @@ Poster starts with the `posters` prefix and follows by the image name.
 ### Routers
 
 To build a type safe router, use the `createRouter` and `defineRoute` helpers. The `defineRoute` helpers takes into account schemas to properly type request parameters (body, query string) and endpoint response. The response schema is required.
-
-This helpers simply process of generating the API client for the frontend.
-
-The client can be generated from the root of the `api` folder by running the command:
-
-```bash
-pnpm api:generate
-```
 
 ## Development server
 

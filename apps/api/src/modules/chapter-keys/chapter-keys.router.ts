@@ -1,36 +1,20 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  buildListOptionSchema,
-  ChapterKeyResponseSchema,
-  CreateChapterKeyInputSchema,
-} from '@films-collection/shared';
-import z from 'zod';
+import { createRouter, validateAuth } from '~/shared';
+import { chapterKeysContract } from '@films-collection/api-client';
 
-export const chapterKeysRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/options',
-    schema: {
-      response: buildListOptionSchema(z.string()),
-    },
+export const chapterKeysRouter = createRouter(chapterKeysContract, {
+  getOptions: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('chapterKeysService').getListOptions();
 
       return { data };
     },
-  }),
-  defineRoute({
-    method: 'POST',
-    url: '/',
-    schema: {
-      body: CreateChapterKeyInputSchema,
-      response: ChapterKeyResponseSchema,
-    },
+  },
+  create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('chapterKeysService').addKey(request.body);
 
       return { data };
     },
-  }),
-]);
+  },
+});

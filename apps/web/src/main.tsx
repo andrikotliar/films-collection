@@ -3,8 +3,17 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
 import { MutationCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { routeTree } from './routeTree.gen';
 import { toaster, NotFound, Toaster, ErrorScreen, PageLoader } from '~/shared';
+
+const getQueryKey = (value: string | number | (string | number)[]) => {
+  if (Array.isArray(value)) {
+    return value;
+  }
+
+  return [value];
+};
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -20,9 +29,16 @@ const queryClient = new QueryClient({
       }
 
       if (mutation.meta?.invalidateQueries) {
-        for (const keys of mutation.meta.invalidateQueries) {
-          queryClient.invalidateQueries({ queryKey: keys.filter(Boolean) });
+        const options = mutation.meta.invalidateQueries;
+
+        if (Array.isArray(options)) {
+          for (const option of options) {
+            queryClient.invalidateQueries({ queryKey: getQueryKey(option.queryKey) });
+          }
+          return;
         }
+
+        queryClient.invalidateQueries({ queryKey: getQueryKey(options.queryKey) });
       }
     },
     onError: (error, _vars, _ctv, mutation) => {
@@ -47,6 +63,10 @@ const router = createRouter({
   context: { queryClient },
 });
 
+type InvalidateQueryOption = {
+  queryKey: string | number | (string | number)[];
+};
+
 declare module '@tanstack/react-router' {
   interface Register {
     router: typeof router;
@@ -56,7 +76,7 @@ declare module '@tanstack/react-router' {
 declare module '@tanstack/react-query' {
   interface Register {
     mutationMeta: {
-      invalidateQueries?: Array<readonly unknown[]>;
+      invalidateQueries?: InvalidateQueryOption | InvalidateQueryOption[];
       successMessage?: string;
       skipErrorToast?: boolean;
     };
@@ -68,6 +88,7 @@ createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
       <Toaster />
+      <ReactQueryDevtools buttonPosition="bottom-left" />
     </QueryClientProvider>
   </StrictMode>,
 );

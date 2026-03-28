@@ -5,7 +5,7 @@ import { Image } from '~/shared/components/image/image';
 import clsx from 'clsx';
 
 type EventBannerProps = {
-  event: ApiResponse<typeof api.initialData.list>['events'][number];
+  event: ApiResponse<typeof api.initialData.get.exec>['events'][number];
   selectedEventId?: number | null;
 };
 

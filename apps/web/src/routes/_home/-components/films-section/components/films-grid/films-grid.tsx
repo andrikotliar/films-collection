@@ -4,7 +4,7 @@ import { Link } from '@tanstack/react-router';
 import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
 
 type FilmsGridProps = {
-  films: ApiResponse<typeof api.films.list>['list'];
+  films: ApiResponse<typeof api.films.getList.exec>['list'];
 };
 
 export const FilmsGrid = ({ films }: FilmsGridProps) => {

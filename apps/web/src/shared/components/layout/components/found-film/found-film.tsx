@@ -4,7 +4,7 @@ import { getExternalImageUrl, getYearFromDate, type api, type ApiResponse } from
 import { Image } from '~/shared/components/image/image';
 
 type FoundFilmProps = {
-  film: ApiResponse<typeof api.films.search.list>[number];
+  film: ApiResponse<typeof api.films.search.exec>[number];
   onFilmOpen: VoidFunction;
 };
 

@@ -3,13 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "api:generate": "pnpm --filter ./packages/shared run build && pnpm --filter ./apps/api run api:generate",
-    "build": "pnpm --filter ./packages/shared run build && pnpm --filter ./packages/fetch-wrapper run build && pnpm --filter ./apps/api run build && pnpm api:generate && pnpm --filter ./apps/web run build",
+    "build": "pnpm run build:packages && pnpm run build:apps",
+    "build:apps": "pnpm -r --filter \"./apps/*\" run build",
     "build:container": "docker compose -f docker-compose.yml up -d --build",
+    "build:packages": "pnpm -r --filter \"./packages/*\" run build",
     "db:start": "docker compose up database -d",
     "db:init": "pnpm --filter ./apps/api run db:push && pnpm --filter ./apps/api run db:seed",
     "db:init:empty": "pnpm --filter ./apps/api run db:push",
-    "dev": "pnpm api:generate && pnpm run -r --parallel --aggregate-output dev",
+    "dev": "pnpm run -r --parallel --aggregate-output dev",
     "start:prod": "cd apps/api && pnpm db:migration:apply && pnpm start"
   },
   "devDependencies": {

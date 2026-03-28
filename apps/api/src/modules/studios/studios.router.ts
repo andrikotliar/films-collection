@@ -1,48 +1,25 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  IdParamSchema,
-  StudioInputSchema,
-  StudioResponseSchema,
-  StudiosResponseSchema,
-} from '@films-collection/shared';
+import { createRouter, validateAuth } from '~/shared';
+import { studiosContract } from '@films-collection/api-client';
 
-export const studiosRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/',
-    schema: {
-      response: StudiosResponseSchema,
-    },
+export const studiosRouter = createRouter(studiosContract, {
+  getList: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('studiosService').getBaseDataList();
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'POST',
-    url: '/',
-    schema: {
-      body: StudioInputSchema,
-      response: StudioResponseSchema,
-    },
+  create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('studiosService').createStudio(request.body);
 
       return { data, status: 'CREATED' };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
-    schema: {
-      body: StudioInputSchema,
-      params: IdParamSchema,
-      response: StudioResponseSchema,
-    },
+  update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -51,15 +28,9 @@ export const studiosRouter = createRouter([
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: IdParamSchema,
-    },
+  delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       await app.container.resolve('studiosService').deleteStudio(request.params.id);
@@ -68,5 +39,5 @@ export const studiosRouter = createRouter([
         data: { id: request.params.id },
       };
     },
-  }),
-]);
+  },
+});

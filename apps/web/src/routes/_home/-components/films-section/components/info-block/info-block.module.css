@@ -1,6 +1,8 @@
 .info_block {
   position: relative;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 20px;
   border: var(--border-default);
   border-radius: var(--rounded-default);
@@ -39,7 +41,7 @@
   line-height: 1.5;
 }
 
-.remove_button {
+.delete.exec_button {
   position: absolute;
   top: 15px;
   right: 20px;

@@ -4,7 +4,7 @@ import { Section } from '~/routes/films/$id/-components/section/section';
 import { getExternalImageUrl, ScrollableLine, type api, type ApiResponse } from '~/shared';
 
 type ChaptersProps = {
-  data: ApiResponse<typeof api.films.get>['chapters'];
+  data: ApiResponse<typeof api.films.getById.exec>['chapters'];
   filmId: number;
 };
 

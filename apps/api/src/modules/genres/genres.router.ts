@@ -1,49 +1,25 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import {
-  IdParamSchema,
-  GenreInputSchema,
-  GenresListResponseSchema,
-  GenreResponseSchema,
-} from '@films-collection/shared';
+import { createRouter, validateAuth } from '~/shared';
+import { genresContract } from '@films-collection/api-client';
 
-export const genresRouter = createRouter([
-  defineRoute({
-    method: 'GET',
-    url: '/',
-    schema: {
-      response: GenresListResponseSchema,
-    },
+export const genresRouter = createRouter(genresContract, {
+  getList: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('genresService').getBaseListData();
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'POST',
-    url: '/',
-    schema: {
-      body: GenreInputSchema,
-      response: GenreResponseSchema,
-    },
-
+  create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('genresService').createGenre(request.body);
 
       return { data, status: 'CREATED' };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'PATCH',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      body: GenreInputSchema,
-      response: GenreResponseSchema,
-    },
+  update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
@@ -52,15 +28,9 @@ export const genresRouter = createRouter([
 
       return { data };
     },
-  }),
+  },
 
-  defineRoute({
-    method: 'DELETE',
-    url: '/:id',
-    schema: {
-      params: IdParamSchema,
-      response: IdParamSchema,
-    },
+  delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       await app.container.resolve('genresService').deleteGenre(request.params.id);
@@ -69,5 +39,5 @@ export const genresRouter = createRouter([
         data: { id: request.params.id },
       };
     },
-  }),
-]);
+  },
+});

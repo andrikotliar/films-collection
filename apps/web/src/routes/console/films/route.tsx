@@ -2,6 +2,7 @@ import {
   useDocumentTitle,
   getFilmsAdminListQueryOptions,
   getInitialDataQueryOptions,
+  useScrollToTop,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
@@ -24,6 +25,7 @@ export const Route = createFileRoute('/console/films')({
 
 function PageContainer() {
   useDocumentTitle('Admin list');
+  useScrollToTop([]);
 
   return (
     <ConsoleContentLayout title="Films" backPath="/console" isFullWidth>

@@ -6,7 +6,9 @@ type ListItem = {
   [key: string]: unknown;
 };
 
-export const buildListOptions = (list: ListItem[]): ListOption[] => {
+export const buildListOptions = <T extends ListItem>(
+  list: T[],
+): Array<ListOption & Omit<T, 'id' | 'title'>> => {
   return list.map(({ id, title, ...rest }) => ({
     label: title,
     value: id,

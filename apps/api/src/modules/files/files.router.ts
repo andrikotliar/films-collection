@@ -1,19 +1,13 @@
-import { defineRoute, createRouter, validateAuth } from '~/shared';
-import { UploadFileResponseSchema, UploadFilePayloadSchema } from '@films-collection/shared';
+import { createRouter, validateAuth } from '~/shared';
+import { filesContract } from '@films-collection/api-client';
 
-export const filesRouter = createRouter([
-  defineRoute({
-    method: 'POST',
-    url: '/upload/url',
+export const filesRouter = createRouter(filesContract, {
+  getUploadUrl: {
     preHandler: [validateAuth],
-    schema: {
-      body: UploadFilePayloadSchema,
-      response: UploadFileResponseSchema,
-    },
     handler: async ({ request, app }) => {
       const url = await app.container.resolve('filesService').getUploadUrl(request.body);
 
       return { data: { url } };
     },
-  }),
-]);
+  },
+});
