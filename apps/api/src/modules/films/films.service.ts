@@ -71,7 +71,12 @@ export class FilmsService {
   }
 
   getAdminList(queries: GetFilmsListQuery) {
-    return this.deps.filmsRepository.findAndCount({ ...queries, includeDrafts: true });
+    return this.deps.filmsRepository.findAndCount({
+      ...queries,
+      includeDrafts: true,
+      orderKey: queries.orderKey ?? 'updatedAt',
+      order: queries.order ?? 'desc',
+    });
   }
 
   getRelatedChapters(chapterKey: string) {
