@@ -22,6 +22,7 @@ RUN corepack enable
 COPY pnpm-workspace.yaml package.json pnpm-lock.yaml ./
 COPY apps/api/package.json ./apps/api/package.json
 COPY packages/shared/package.json ./packages/shared/package.json
+COPY packages/api-client/package.json ./packages/api-client/package.json
 
 RUN pnpm install --prod --filter api...
 
@@ -30,6 +31,7 @@ COPY --from=builder /app/apps/api/src/database/migrations ./apps/api/src/databas
 COPY --from=builder /app/apps/api/drizzle.config.ts ./apps/api/drizzle.config.ts
 COPY --from=builder /app/apps/api/dist ./apps/api/dist
 COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
+COPY --from=builder /app/packages/api-client/dist ./packages/api-client/dist
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./
 COPY --from=builder /app/pnpm-lock.yaml ./
