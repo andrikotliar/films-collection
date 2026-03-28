@@ -1,6 +1,8 @@
 .info_block {
   position: relative;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 20px;
   border: var(--border-default);
   border-radius: var(--rounded-default);
