@@ -3,7 +3,7 @@ import { api } from '~/shared/services';
 
 export const getGenresListQueryOptions = () => {
   return queryOptions({
-    queryKey: [api.genres.getList],
+    queryKey: [api.genres.getList.staticKey],
     queryFn: () => api.genres.getList.exec(),
   });
 };

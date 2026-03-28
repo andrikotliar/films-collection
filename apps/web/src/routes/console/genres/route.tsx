@@ -28,7 +28,10 @@ function PageContainer() {
   const { mutateAsync: deleteGenre, isPending: isDeletePending } = useMutation({
     mutationFn: (id: number) => api.genres.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.genres.getList.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        { queryKey: api.genres.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 

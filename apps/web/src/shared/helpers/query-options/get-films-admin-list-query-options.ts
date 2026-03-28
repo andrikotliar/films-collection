@@ -6,7 +6,7 @@ export const getFilmsAdminListQueryOptions = (
   queryParams: QueryParams<typeof api.films.getAdminList.exec>,
 ) => {
   return queryOptions({
-    queryKey: [api.films.getAdminList.staticKey],
+    queryKey: [api.films.getAdminList.staticKey, queryParams],
     queryFn: () => api.films.getAdminList.exec({ queryParams }),
   });
 };

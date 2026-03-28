@@ -87,9 +87,18 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       navigate({ to: '/console/films' });
     },
     meta: {
-      invalidateQueries: !isNewItem(values.id)
-        ? [[api.films.getById.staticKey, values.id]]
-        : undefined,
+      invalidateQueries: [
+        {
+          queryKey: [api.films.getAdminList.staticKey],
+        },
+        ...(!isNewItem(values.id)
+          ? [
+              {
+                queryKey: [api.films.getById.staticKey, values.id],
+              },
+            ]
+          : []),
+      ],
     },
   });
 
@@ -134,7 +143,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       }
     },
     meta: {
-      invalidateQueries: [api.initialData.get.staticKey],
+      invalidateQueries: { queryKey: api.initialData.get.staticKey },
     },
   });
 

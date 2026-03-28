@@ -7,7 +7,7 @@ export const getPendingFilmsListQueryOptions = (
   queryParams: PendingFilmsListParams['queryParams'],
 ) => {
   return queryOptions({
-    queryKey: [api.pendingFilms.getList],
+    queryKey: [api.pendingFilms.getList.staticKey, queryParams],
     queryFn: () => api.pendingFilms.getList.exec({ queryParams }),
   });
 };

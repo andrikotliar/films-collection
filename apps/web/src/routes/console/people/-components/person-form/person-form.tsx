@@ -15,7 +15,7 @@ export const PersonForm = ({ values }: PersonFormProps) => {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.people.create.exec, api.people.update.exec),
     meta: {
-      invalidateQueries: [api.people.getList.staticKey],
+      invalidateQueries: { queryKey: api.people.getList.staticKey },
     },
   });
   const { onClose } = useFormModal();

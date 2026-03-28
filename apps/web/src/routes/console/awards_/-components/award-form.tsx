@@ -22,6 +22,16 @@ export const AwardForm = ({ values }: AwardFormProps) => {
         to: '/console/awards',
       });
     },
+    meta: {
+      invalidateQueries: [
+        {
+          queryKey: api.awards.getById.staticKey,
+        },
+        {
+          queryKey: api.initialData.get.staticKey,
+        },
+      ],
+    },
   });
 
   return (

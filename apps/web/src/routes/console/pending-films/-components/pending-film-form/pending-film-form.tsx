@@ -23,7 +23,10 @@ export const PendingFilmForm = ({ values }: PendingFilmFormProps) => {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.pendingFilms.create.exec, api.pendingFilms.update.exec),
     meta: {
-      invalidateQueries: [api.pendingFilms.getList.staticKey],
+      invalidateQueries: [
+        { queryKey: api.pendingFilms.getList.staticKey },
+        { queryKey: [api.pendingFilms.getById.staticKey, values.id] },
+      ],
     },
   });
 

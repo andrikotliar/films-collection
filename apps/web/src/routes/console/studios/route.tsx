@@ -28,7 +28,7 @@ function PageContainer() {
   const { mutateAsync: deleteStudio, isPending: isDeletePending } = useMutation({
     mutationFn: (id: number) => api.studios.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.studios.getList.staticKey],
+      invalidateQueries: { queryKey: api.studios.getList.staticKey },
     },
   });
 

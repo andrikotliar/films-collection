@@ -6,7 +6,7 @@ export const getPeopleAdminListQueryOptions = (
   queryParams: QueryParams<typeof api.people.getList.exec>,
 ) => {
   return queryOptions({
-    queryKey: [api.people.getList.staticKey],
+    queryKey: [api.people.getList.staticKey, queryParams],
     queryFn: () => api.people.getList.exec({ queryParams }),
   });
 };

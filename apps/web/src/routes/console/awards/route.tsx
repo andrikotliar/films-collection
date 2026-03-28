@@ -18,7 +18,7 @@ function PageContainer() {
   const { mutateAsync: deleteAward, isPending: isDeleting } = useMutation({
     mutationFn: (id: number) => api.awards.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.awards.getList.staticKey],
+      invalidateQueries: { queryKey: api.awards.getList.staticKey },
     },
   });
 

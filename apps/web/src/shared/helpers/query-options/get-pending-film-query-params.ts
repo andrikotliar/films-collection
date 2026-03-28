@@ -3,7 +3,7 @@ import { api } from '~/shared/services';
 
 export const getPendingFilmQueryOptions = (pendingFilmId?: string) => {
   return queryOptions({
-    queryKey: [api.pendingFilms.getById, pendingFilmId],
+    queryKey: [api.pendingFilms.getById.staticKey, pendingFilmId],
     queryFn: () => {
       if (pendingFilmId) {
         return api.pendingFilms.getById.exec({ params: { id: +pendingFilmId } });

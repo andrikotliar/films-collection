@@ -33,7 +33,9 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       };
     },
     meta: {
-      invalidateQueries: [api.people.getList.staticKey],
+      invalidateQueries: {
+        queryKey: api.people.getList.staticKey,
+      },
     },
   });
 
@@ -56,7 +58,9 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
       };
     },
     meta: {
-      invalidateQueries: [[api.awards.getNominations.staticKey, currentAward.awardId]],
+      invalidateQueries: {
+        queryKey: [api.awards.getNominations.staticKey, currentAward.awardId],
+      },
     },
   });
 

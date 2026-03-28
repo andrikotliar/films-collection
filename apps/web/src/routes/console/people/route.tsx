@@ -46,7 +46,7 @@ function RouteComponent() {
     navigate({
       search: (values) => ({
         ...values,
-        page: pageIndex,
+        pageIndex,
       }),
     });
   };
@@ -54,7 +54,7 @@ function RouteComponent() {
   const { mutateAsync: deletePerson, isPending: isDeleting } = useMutation({
     mutationFn: (id: number) => api.people.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.people.getList.staticKey],
+      invalidateQueries: { queryKey: api.people.getList.staticKey },
     },
   });
 

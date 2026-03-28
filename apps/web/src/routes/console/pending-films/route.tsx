@@ -47,7 +47,7 @@ function PageContainer() {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: (id: number) => api.pendingFilms.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.pendingFilms.getList.staticKey],
+      invalidateQueries: { queryKey: api.pendingFilms.getList.staticKey },
     },
   });
 

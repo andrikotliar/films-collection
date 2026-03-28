@@ -30,7 +30,7 @@ function PageContainer() {
   const { mutateAsync: deletePageContent, isPending } = useMutation({
     mutationFn: (id: number) => api.pageContent.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.pageContent.getAdminList.staticKey],
+      invalidateQueries: { queryKey: api.pageContent.getAdminList.staticKey },
     },
   });
 

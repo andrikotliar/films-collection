@@ -48,7 +48,12 @@ function CollectionEventsContainer() {
       return api.collectionEvents.delete.exec({ params: { id } });
     },
     meta: {
-      invalidateQueries: [api.collectionEvents.getAll.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        {
+          queryKey: api.collectionEvents.getAll.staticKey,
+        },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 

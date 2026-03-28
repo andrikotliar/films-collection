@@ -13,7 +13,10 @@ export const StudioForm = ({ values }: StudioFormProps) => {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.studios.create.exec, api.studios.update.exec),
     meta: {
-      invalidateQueries: [api.studios.getList.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        { queryKey: api.studios.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 

@@ -12,6 +12,7 @@ import {
   SummarySection,
 } from '~/routes/films/$id/-components';
 import { AwardIcon, FileTextIcon, UsersIcon } from 'lucide-react';
+import { useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/films/$id')({
   loader: async ({ context, params }) => {
@@ -23,7 +24,7 @@ export const Route = createFileRoute('/films/$id')({
 
 function FilmPageContainer() {
   const { id } = Route.useParams();
-  const film = Route.useLoaderData();
+  const { data: film } = useSuspenseQuery(getFilmQueryOptions(Number(id)));
 
   useScrollToTop([id]);
   useDocumentTitle(film.title);

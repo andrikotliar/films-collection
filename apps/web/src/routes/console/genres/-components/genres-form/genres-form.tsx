@@ -13,7 +13,10 @@ export const GenresForm = ({ values }: GenresFormProps) => {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.genres.create.exec, api.genres.update.exec),
     meta: {
-      invalidateQueries: [api.genres.getList.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        { queryKey: api.genres.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 

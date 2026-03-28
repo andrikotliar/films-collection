@@ -11,7 +11,10 @@ export const CountryForm = ({ values }: CountryFormProps) => {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.countries.create.exec, api.countries.update.exec),
     meta: {
-      invalidateQueries: [api.countries.getList.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        { queryKey: api.countries.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
   const { onClose } = useFormModal();

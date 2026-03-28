@@ -20,7 +20,10 @@ export const CollectionForm = ({ values }: CollectionFormProps) => {
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.collections.create.exec, api.collections.update.exec),
     meta: {
-      invalidateQueries: [api.collections.getList.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        { queryKey: api.collections.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 

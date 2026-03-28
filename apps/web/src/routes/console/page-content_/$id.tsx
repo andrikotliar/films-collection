@@ -59,6 +59,14 @@ function RouteComponent() {
         to: '/console/page-content',
       });
     },
+    meta: {
+      invalidateQueries:
+        !isNewItem(mixedId) && data?.pageKey
+          ? {
+              queryKey: [api.pageContent.getByPageKey.staticKey, data.pageKey],
+            }
+          : undefined,
+    },
   });
 
   const handleSubmit = async (values: z.infer<typeof PageContentFormSchema>) => {

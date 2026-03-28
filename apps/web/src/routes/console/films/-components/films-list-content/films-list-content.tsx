@@ -30,7 +30,7 @@ export const FilmsListContent = () => {
   const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
     mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.films.getAdminList.staticKey],
+      invalidateQueries: { queryKey: api.films.getAdminList.staticKey },
     },
   });
 
@@ -113,7 +113,7 @@ export const FilmsListContent = () => {
         />
         <Pagination
           total={data.total}
-          perPageCounter={PAGE_LIMITS.default}
+          perPageCounter={PAGE_LIMITS.filmsList}
           onPageChange={handlePageChange}
           currentPageIndex={searchParams.pageIndex}
           totalLabel="films"

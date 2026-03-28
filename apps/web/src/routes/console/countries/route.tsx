@@ -28,7 +28,10 @@ function PageContainer() {
   const { mutateAsync: deleteCountry, isPending: isDeletePending } = useMutation({
     mutationFn: (id: number) => api.countries.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [api.countries.getList.staticKey, api.initialData.get.staticKey],
+      invalidateQueries: [
+        { queryKey: api.countries.getList.staticKey },
+        { queryKey: api.initialData.get.staticKey },
+      ],
     },
   });
 
