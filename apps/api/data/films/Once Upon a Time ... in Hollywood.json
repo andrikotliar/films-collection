@@ -1,0 +1,189 @@
+{
+  "id": 265,
+  "title": "Once Upon a Time ... in Hollywood ",
+  "releaseDate": "2019-07-26",
+  "type": "FILM",
+  "duration": 161,
+  "budget": 90000000,
+  "boxOffice": 394000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/once_upon_a_time_in_hollywood_",
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "China",
+      "id": 14
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/ELeMaP8EPAA?si=CSoB5uwE18PB-_-s",
+      "order": 1,
+      "id": 308
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by an Actor in a Supporting Role",
+          "id": 21
+        },
+        {
+          "title": "Best Achievement in Production Design",
+          "id": 9
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Production Design",
+          "id": 46
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Picture",
+          "id": 88
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 87
+        },
+        {
+          "title": "Best Original Screenplay",
+          "id": 254
+        },
+        {
+          "title": "Best Production Design",
+          "id": 77
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "id": 112
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Motion Picture - Musical or Comedy",
+          "id": 255
+        },
+        {
+          "title": "Best Performance by an Actor in a Supporting Role in a Motion Picture",
+          "id": 256
+        },
+        {
+          "title": "Best Screenplay - Motion Picture",
+          "id": 257
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 716,
+      "name": "Leonardo DiCaprio",
+      "role": "ACTOR",
+      "details": "Rick Dalton"
+    },
+    {
+      "id": 140,
+      "name": "Brad Pitt",
+      "role": "ACTOR",
+      "details": "Cliff Booth"
+    },
+    {
+      "id": 775,
+      "name": "Margot Robbie",
+      "role": "ACTOR",
+      "details": "Sharon Tate"
+    },
+    {
+      "id": 2607,
+      "name": "Margaret Qualley",
+      "role": "ACTOR",
+      "details": "Pussycat"
+    },
+    {
+      "id": 1562,
+      "name": "David Heyman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2608,
+      "name": "Shannon McIntosh",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1672,
+      "name": "Robert Richardson",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}
