@@ -9,11 +9,19 @@ const ErrorSchema = z.object({
   statusCode: z.number().optional(),
 });
 
+const getRouteUrl = (value: string) => {
+  if (value.startsWith('/')) {
+    return value;
+  }
+
+  return `/${value}`;
+};
+
 export const initRouters = (routes: Router['routes']) => {
   return async (app: FastifyInstance) => {
     for (const route of routes) {
       app.route({
-        url: route.url,
+        url: getRouteUrl(route.url),
         method: route.method,
         schema: {
           ...route.schema,
