@@ -14,5 +14,5 @@ awslocal s3api put-bucket-cors \
 
 if [ -d "$POSTERS_DIR" ]; then
   echo "Syncing files..."
-  awslocal s3 sync "$POSTERS_DIR" "s3://$BUCKET/posters --quiet"
+  awslocal s3 sync "$POSTERS_DIR" "s3://$BUCKET/posters" --quiet
 fi
