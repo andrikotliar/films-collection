@@ -11,9 +11,10 @@ import {
   getFiltersConfig,
   getInitialDataQueryOptions,
   Pagination,
+  useSidebarVisibility,
 } from '~/shared';
 import styles from './films-list-content.module.css';
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 
 const routeApi = getRouteApi('/console/films');
 
@@ -25,7 +26,7 @@ export const FilmsListContent = () => {
     getInitialDataQueryOptions(),
   );
 
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
   const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
     mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
@@ -70,7 +71,7 @@ export const FilmsListContent = () => {
         pageIndex: 0,
       }),
     });
-    setIsSidebarOpen(false);
+    hideFilter();
   };
 
   const handleReset = () => {
@@ -81,7 +82,7 @@ export const FilmsListContent = () => {
       },
     });
     window.scrollTo(0, 0);
-    setIsSidebarOpen(false);
+    hideFilter();
   };
 
   const filtersConfig = useMemo(() => {
@@ -92,8 +93,8 @@ export const FilmsListContent = () => {
     <div className={styles.content}>
       <FiltersSidebar
         isLoading={isInitialDataFetching}
-        isOpen={isSidebarOpen}
-        onClose={() => setIsSidebarOpen(false)}
+        isOpen={isFilterOpen}
+        onToggle={toggleFilter}
         onSubmit={filterFilms}
         onReset={handleReset}
         defaultValues={searchParams}
@@ -102,7 +103,7 @@ export const FilmsListContent = () => {
         topPosition="calc(var(--header-height) + 60px)"
       />
       <div className={styles.right_column}>
-        <AdminFilmsTools onFilterOpen={() => setIsSidebarOpen(true)} />
+        <AdminFilmsTools />
         <List
           items={data.list}
           onDelete={handleDeleteFilm}

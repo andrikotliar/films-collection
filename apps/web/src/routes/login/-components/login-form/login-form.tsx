@@ -29,7 +29,7 @@ export const LoginForm = () => {
       if (result.id) {
         LocalStorage.setItem('authenticated', true);
 
-        if (search.from) {
+        if (search.from && search.from.includes('console')) {
           navigate({ to: search.from });
           return;
         }

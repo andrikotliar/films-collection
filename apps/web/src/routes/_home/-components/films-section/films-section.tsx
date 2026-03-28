@@ -2,18 +2,13 @@ import styles from './films-section.module.css';
 import clsx from 'clsx';
 import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { Button, CameraLoader, getFilmsListQueryOptions, Pagination } from '~/shared';
+import { CameraLoader, getFilmsListQueryOptions, Pagination } from '~/shared';
 import { PAGE_LIMITS } from '@films-collection/shared';
-import { FilterIcon } from 'lucide-react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 
 const routeApi = getRouteApi('/_home/');
 
-type FilmSectionProps = {
-  onFiltersOpen: () => void;
-};
-
-export const FilmsSection = ({ onFiltersOpen }: FilmSectionProps) => {
+export const FilmsSection = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
   const { data, isFetching } = useSuspenseQuery(getFilmsListQueryOptions(searchParams));
@@ -44,11 +39,6 @@ export const FilmsSection = ({ onFiltersOpen }: FilmSectionProps) => {
     <div className={styles.films_section}>
       <CurrentEvents />
       <AdditionalInfoSection info={data.additionalInfo} />
-      <div className={styles.filter_wrapper}>
-        <Button icon={<FilterIcon />} onClick={onFiltersOpen}>
-          Filters
-        </Button>
-      </div>
       <FilmsGrid films={data.list} />
       <div className={styles.pagination_wrapper}>
         <Pagination

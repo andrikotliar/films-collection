@@ -79,15 +79,15 @@ function RootPageContainer() {
         config={filtersConfig}
         defaultValues={routeSearch}
         isLoading={isInitialDataLoading}
-        isOpen={isFilterOpen}
-        onClose={hideFilter}
         onSubmit={submitFilter}
         onReset={handleReset}
         height="calc(var(--screen-height) - 40px)"
         topPosition="calc(var(--header-height) + 20px)"
+        isOpen={isFilterOpen}
+        onToggle={toggleFilter}
       />
       <Suspense fallback={<CameraLoader />}>
-        <FilmsSection onFiltersOpen={toggleFilter} />
+        <FilmsSection />
       </Suspense>
     </RootPageLayout>
   );

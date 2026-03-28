@@ -3,7 +3,7 @@ import styles from './filters.module.css';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, FormProvider } from 'react-hook-form';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { countObjectKeys, type FilterItem, Button } from '~/shared';
+import { type FilterItem, Button } from '~/shared';
 import { FilterOptions } from './components';
 import { TitleType, TitleStyle } from '@films-collection/shared';
 
@@ -23,6 +23,7 @@ type FilterValues = z.infer<typeof FiltersSchema>;
 export type FiltersProps = {
   config: FilterItem[];
   defaultValues?: Partial<FilterValues>;
+  filtersCount: number;
   onSubmit: (data: FilterValues) => void;
   onReset?: () => void;
 };
@@ -41,9 +42,8 @@ export const Filters = ({
   defaultValues: defaultValuesProp = {},
   onSubmit,
   onReset,
+  filtersCount,
 }: FiltersProps) => {
-  const filtersCount = countObjectKeys(defaultValuesProp, ['pageIndex']);
-
   const filtersForm = useForm({
     defaultValues: {
       ...defaultValues,

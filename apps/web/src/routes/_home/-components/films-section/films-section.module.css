@@ -16,18 +16,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.filter_wrapper {
-  display: none;
-}
-
-@media (max-width: 785px) {
-  .filter_wrapper {
-    display: block;
-    width: 100%;
-  }
-
-  .filter_wrapper button {
-    width: 100%;
-  }
-}

@@ -4,14 +4,10 @@ export const useSidebarVisibility = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const toggleFilter = () => {
-    const nextIsOpen = !isFilterOpen;
-
-    document.body.style.overflow = nextIsOpen ? 'hidden' : '';
-    setIsFilterOpen(nextIsOpen);
+    setIsFilterOpen((isOpen) => !isOpen);
   };
 
   const hideFilter = () => {
-    document.body.style.overflow = '';
     setIsFilterOpen(false);
   };
 
