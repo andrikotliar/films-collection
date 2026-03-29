@@ -17,6 +17,7 @@ import {
   CastAndCrewSelect,
   ChaptersSelect,
   FilmValuesWatcher,
+  MoneyInput,
   SeriesExtension,
   TrailersSelect,
   TranslateDescription,
@@ -205,8 +206,8 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       />
       <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
       <Form.DatePicker name="releaseDate" label="Release Date" />
-      <Form.TextInput name="budget" label="Budget" type="number" min="0" />
-      <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
+      <MoneyInput name="budget" label="Budget" />
+      <MoneyInput name="boxOffice" label="Box Office" />
       <TranslateDescription />
       <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
       <AwardsSelect awardOptions={initialOptions.options.awards} />
