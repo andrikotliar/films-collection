@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editor_container {
+  position: relative;
+}
+
+.translation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  border-radius: var(--rounded-default);
+  font-size: var(--text-xl);
+  background-color: rgb(213, 213, 213, 0.6);
+}
+
+.loader span:nth-child(1) {
+  animation: loading 0.6s ease-in-out alternate infinite;
+}
+
+.loader span:nth-child(2) {
+  animation: loading 0.6s ease-in-out alternate 0.2s infinite;
+}
+
+.loader span:nth-child(3) {
+  animation: loading 0.6s ease-in-out alternate 0.3s infinite;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

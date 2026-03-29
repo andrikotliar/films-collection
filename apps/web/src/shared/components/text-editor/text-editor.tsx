@@ -1,4 +1,4 @@
-import styles from "./text-editor.module.css";
+import styles from './text-editor.module.css';
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { type FormError } from '~/shared';
@@ -16,16 +16,19 @@ export type TextEditorProps = {
 };
 
 export const TextEditor = ({ label, error, content = '', onChange }: TextEditorProps) => {
-  const editor = useEditor({
-    extensions,
-    content,
-    editorProps: {
-      attributes: {
-        class: styles.editor,
+  const editor = useEditor(
+    {
+      extensions,
+      content,
+      editorProps: {
+        attributes: {
+          class: styles.editor,
+        },
       },
+      onUpdate: (props) => onChange(props.editor.getHTML()),
     },
-    onUpdate: (props) => onChange(props.editor.getHTML()),
-  });
+    [content],
+  );
 
   return (
     <div className={styles.editor_wrapper}>

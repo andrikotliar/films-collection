@@ -120,4 +120,15 @@ export const filmsRouter = createRouter(filmsContract, {
       return { data };
     },
   },
+
+  translateDescription: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const translatedText = await app.container
+        .resolve('filmsService')
+        .translateDescription(request.body);
+
+      return { data: { translatedText } };
+    },
+  },
 });

@@ -36,6 +36,7 @@ import { UsersRepository, UsersService } from '~/modules/users';
 import { ConfigService } from '~/modules/config';
 import { AwsService } from '~/modules/aws/aws.service';
 import type { Router } from '~/shared';
+import { AiService } from '~/modules/ai/ai.service';
 
 export const services = {
   authService: AuthService,
@@ -67,6 +68,7 @@ export const services = {
   usersService: UsersService,
   configService: ConfigService,
   awsService: AwsService,
+  aiService: AiService,
 };
 
 export const routers: Router[] = [
