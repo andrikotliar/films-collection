@@ -19,6 +19,7 @@ import {
   FilmValuesWatcher,
   SeriesExtension,
   TrailersSelect,
+  TranslateDescription,
 } from '~/routes/console/films_/-components/film-form/components';
 
 type FilmFormProps = {
@@ -206,7 +207,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       <Form.DatePicker name="releaseDate" label="Release Date" />
       <Form.TextInput name="budget" label="Budget" type="number" min="0" />
       <Form.TextInput name="boxOffice" label="Box Office" type="number" min="0" />
-      <Form.TextEditor name="overview" label="Description" />
+      <TranslateDescription />
       <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
       <AwardsSelect awardOptions={initialOptions.options.awards} />
       <TrailersSelect />

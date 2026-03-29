@@ -7,6 +7,7 @@ import {
   type UpdateFilmInput,
   type GetCompleteDataListQuery,
   type CompleteDataResponse,
+  type TranslateDescriptionInput,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -27,6 +28,7 @@ export class FilmsService {
       | 'genresService'
       | 'countriesService'
       | 'studiosService'
+      | 'aiService'
     >,
   ) {}
 
@@ -202,6 +204,10 @@ export class FilmsService {
         })),
       },
     };
+  }
+
+  translateDescription(input: TranslateDescriptionInput) {
+    return this.deps.aiService.translateToLangPrompt(input.text, input.langParams);
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

@@ -14,6 +14,8 @@ import {
   UpdateFilmInputSchema,
   GetCompleteDataListQuerySchema,
   CompleteDataResponseSchema,
+  TranslateDescriptionInputSchema,
+  TranslateDescriptionResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -106,6 +108,14 @@ export const filmsContract = defineContracts('films', {
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
+    },
+  },
+  translateDescription: {
+    method: 'POST',
+    url: 'admin/translate',
+    schema: {
+      body: TranslateDescriptionInputSchema,
+      response: TranslateDescriptionResponseSchema,
     },
   },
 });

@@ -288,6 +288,18 @@ export const CompleteDataResponseSchema = z.object({
   }),
 });
 
+export const TranslateDescriptionInputSchema = z.object({
+  text: z.string(),
+  langParams: z.object({
+    from: z.string(),
+    to: z.string(),
+  }),
+});
+
+export const TranslateDescriptionResponseSchema = z.object({
+  translatedText: z.string(),
+});
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
@@ -297,3 +309,4 @@ export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
 export type CompleteDataListItem = z.infer<typeof CompleteDataListItemSchema>;
 export type CompleteDataResponse = z.infer<typeof CompleteDataResponseSchema>;
+export type TranslateDescriptionInput = z.infer<typeof TranslateDescriptionInputSchema>;

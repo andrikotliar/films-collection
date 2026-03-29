@@ -64,6 +64,12 @@
   z-index: 1;
 }
 
+.select_button:disabled + .displayed_value {
+  color: var(--color-gray-dark);
+  z-index: 2;
+  user-select: none;
+}
+
 .select_button:not(:placeholder-shown) + .displayed_value {
   opacity: 0;
 }
