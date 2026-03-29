@@ -3,11 +3,11 @@ import { useMemo } from 'react';
 import {
   isNewItem,
   Panel,
-  LocalStorage,
   getInitialDataQueryOptions,
   getPendingFilmQueryOptions,
   getAdminFilmDetailsQueryOptions,
   getMixedId,
+  getFilmDraftsQueryOptions,
 } from '~/shared';
 import { ConsoleContentLayout } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
@@ -16,6 +16,7 @@ import z from 'zod';
 import { NEW_ITEM_ID } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import { getDraftIdFromMixedId } from '~/routes/console/films_/-helpers';
 
 const ConsoleFilmQueriesSchema = z
   .object({
@@ -42,6 +43,8 @@ export const Route = createFileRoute('/console/films_/$id')({
     if (!isNewItem(params.id)) {
       await queryClient.ensureQueryData(getAdminFilmDetailsQueryOptions(Number(params.id)));
     }
+
+    await queryClient.ensureQueryData(getFilmDraftsQueryOptions(getDraftIdFromMixedId(params.id)));
   },
   component: PageContainer,
 });
@@ -56,33 +59,22 @@ function PageContainer() {
   const pageTitle = isNewItem(id) ? 'Create film' : `Edit film ${film?.title}`;
 
   const defaultValues = useMemo<z.infer<typeof FilmFormSchema>>(() => {
-    const localValues = LocalStorage.getItem<z.infer<typeof FilmFormSchema>>(`film_${id}`);
-
     if (film) {
-      if (!localValues) {
-        return {
-          ...film,
-          id: Number(id),
-        };
-      }
-
-      return localValues;
+      return {
+        ...film,
+        id: Number(id),
+      };
     }
 
     if (pendingFilm) {
       return {
         ...filmDefaultFormValues,
-        ...localValues,
         id: NEW_ITEM_ID,
         pendingFilmId: pendingFilm.id,
         title: pendingFilm.title,
         rating: pendingFilm.rating ?? filmDefaultFormValues.rating,
         collections: pendingFilm.collectionId ? [pendingFilm.collectionId] : [],
       };
-    }
-
-    if (localValues) {
-      return localValues;
     }
 
     return {

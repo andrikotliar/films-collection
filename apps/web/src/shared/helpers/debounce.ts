@@ -6,5 +6,8 @@ export const debounce = <T extends (...args: any) => any>(callback: T, timeout: 
     timer = setTimeout(() => {
       callback(...args);
     }, timeout);
+    return () => {
+      clearTimeout(timer);
+    };
   };
 };

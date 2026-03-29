@@ -131,4 +131,49 @@ export const filmsRouter = createRouter(filmsContract, {
       return { data: { translatedText } };
     },
   },
+
+  createDraft: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .createDraft(request.params.id, request.body);
+
+      return {
+        data,
+        status: 'CREATED',
+      };
+    },
+  },
+
+  updateDraft: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .updateDraft(request.params.id, request.body);
+
+      return {
+        data,
+      };
+    },
+  },
+
+  getFilmDrafts: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container.resolve('filmsService').getDrafts(request.params.id);
+
+      return { data };
+    },
+  },
+
+  deleteDraft: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      await app.container.resolve('filmsService').deleteDraft(request.params.id);
+
+      return { data: { id: request.params.id } };
+    },
+  },
 });

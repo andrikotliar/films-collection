@@ -43,6 +43,13 @@
       "when": 1774790499423,
       "tag": "0006_remove_comments",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1774791162331,
+      "tag": "0007_add_films_drafts_table",
+      "breakpoints": true
     }
   ]
 }

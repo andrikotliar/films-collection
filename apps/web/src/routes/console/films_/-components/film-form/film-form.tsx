@@ -16,12 +16,15 @@ import {
   AwardsSelect,
   CastAndCrewSelect,
   ChaptersSelect,
+  Drafts,
   FilmValuesWatcher,
   MoneyInput,
   SeriesExtension,
   TrailersSelect,
   TranslateDescription,
 } from '~/routes/console/films_/-components/film-form/components';
+import { useState } from 'react';
+import type { FilmDraftResponse } from '@films-collection/shared';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -35,6 +38,7 @@ type CreateNewEntityInput = {
 export const FilmForm = ({ values }: FilmFormProps) => {
   const navigate = useNavigate();
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
+  const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
 
   const { mutateAsync: handleSubmit, isPending } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
@@ -160,6 +164,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       }}
       isLoading={isPending}
     >
+      <Drafts onSelectDraft={setSelectedDraft} />
       <Form.TextInput name="title" label="Title" />
       <Form.CheckboxesGroup
         label="Type"
@@ -214,7 +219,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       <TrailersSelect />
       <ChaptersSelect />
       <Form.Checkbox name="draft" type="checkbox" label="Draft" />
-      <FilmValuesWatcher id={values.id} />
+      <FilmValuesWatcher selectedDraft={selectedDraft} onDraftCreated={setSelectedDraft} />
     </Form>
   );
 };
