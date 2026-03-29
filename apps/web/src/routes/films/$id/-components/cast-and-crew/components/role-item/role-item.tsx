@@ -41,7 +41,6 @@ export const RoleItem = ({ data }: RoleItemProps) => {
                 </>
               )}
             </div>
-            {person.comment && <span className={styles.person_small_text}>({person.comment})</span>}
           </li>
         ))}
       </ul>

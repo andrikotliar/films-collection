@@ -13,7 +13,6 @@ const defaultAward: z.infer<typeof FilmFormSchema>['awards'][number] = {
   actorId: null,
   awardId: 0,
   nominationId: 0,
-  comment: null,
 };
 
 export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
@@ -36,7 +35,6 @@ export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
               error={formState.errors?.awards?.[index]?.awardId?.message}
             />
             <NominationSelect index={index} />
-            <Form.TextInput name={`awards.${index}.comment`} label="Comment" />
           </Form.ArrayFieldWrapper>
         ))}
       </Form.ArrayWrapper>

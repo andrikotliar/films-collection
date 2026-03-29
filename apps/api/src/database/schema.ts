@@ -276,7 +276,6 @@ export const filmAwardNominations = pgTable(
     awardId: integer('award_id').notNull(),
     nominationId: integer('nomination_id').notNull(),
     filmId: integer('film_id').notNull(),
-    comment: text(),
     actorId: integer('actor_id'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .defaultNow()
@@ -587,7 +586,6 @@ export const filmsPeople = pgTable(
     filmId: integer('film_id').notNull(),
     role: personRole().notNull(),
     details: text(),
-    comment: text(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())

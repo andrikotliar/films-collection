@@ -45,10 +45,6 @@
   margin-left: 5px;
 }
 
-.person_comment {
-  color: var(--color-gray-dark);
-}
-
 @media (width < 520px) {
   .role_item {
     padding: 15px;

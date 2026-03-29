@@ -36,6 +36,13 @@
       "when": 1772715229872,
       "tag": "0005_update_index_type_for_nominations_award_id_title_key",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1774790499423,
+      "tag": "0006_remove_comments",
+      "breakpoints": true
     }
   ]
 }

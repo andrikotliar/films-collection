@@ -17,12 +17,7 @@ export const Award = ({ data }: AwardProps) => {
       </Link>
       <div className={styles.nominations_wrapper}>
         {data.nominations.map((nomination) => (
-          <Nomination
-            title={nomination.title}
-            comment={nomination.comment}
-            nominee={nomination.person}
-            key={nomination.title}
-          />
+          <Nomination title={nomination.title} nominee={nomination.person} key={nomination.title} />
         ))}
       </div>
     </div>

@@ -21,7 +21,6 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
     append(
       {
         personId: 0,
-        comment: null,
         role: 'ACTOR',
         details: null,
       },
@@ -73,7 +72,6 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
               label="Role"
             />
             <Form.TextInput name={`castAndCrew.${index}.details`} label="Details" />
-            <Form.TextInput name={`castAndCrew.${index}.comment`} label="Comment" />
           </Form.ArrayFieldWrapper>
         ))}
       </Form.ArrayWrapper>

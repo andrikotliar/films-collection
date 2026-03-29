@@ -41,7 +41,6 @@ export const CreateFilmInputSchema = z.object({
   castAndCrew: z.array(
     z.object({
       personId: z.coerce.number().min(1, 'Person cannot be empty'),
-      comment: z.string().nullable(),
       role: z.enum(PersonRole),
       details: z.string().nullable(),
     }),
@@ -50,7 +49,6 @@ export const CreateFilmInputSchema = z.object({
     z.object({
       awardId: z.number().min(1, 'Award cannot be empty'),
       nominationId: z.number().min(1, 'Nomination cannot be empty'),
-      comment: z.string().nullable(),
       actorId: z.number().nullable(),
     }),
   ),
@@ -141,7 +139,6 @@ export const FilmResponseSchema = z.object({
       nominations: z.array(
         z.object({
           title: z.string(),
-          comment: z.string().nullable(),
           person: PersonResponseSchema.pick({ id: true, name: true }).nullable(),
         }),
       ),
@@ -161,7 +158,6 @@ export const FilmResponseSchema = z.object({
         z.object({
           id: z.coerce.number(),
           name: z.string(),
-          comment: z.string().nullable(),
           details: z.string().nullable(),
         }),
       ),
