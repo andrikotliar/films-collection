@@ -5,7 +5,6 @@ import type {
   Collection,
   Country,
   Film,
-  FilmAwardNomination,
   FilmPerson,
   FilmTrailer,
   Genre,
@@ -24,17 +23,15 @@ type ExtendedFilm = Omit<Film, 'style' | Timestamps> & {
   countries: Array<{ country: PickBaseData<Country> }>;
   collections: Array<{ collection: PickBaseData<Collection> }>;
   castAndCrew: Array<
-    Pick<FilmPerson, 'role' | 'comment' | 'details'> & {
+    Pick<FilmPerson, 'role' | 'details'> & {
       person: Pick<Person, 'id' | 'name'>;
     }
   >;
-  awards: Array<
-    Pick<FilmAwardNomination, 'comment'> & {
-      award: Pick<Award, 'id' | 'title'>;
-      nomination: Pick<Nomination, 'id' | 'title'>;
-      person: Pick<Person, 'id' | 'name'> | null;
-    }
-  >;
+  awards: Array<{
+    award: Pick<Award, 'id' | 'title'>;
+    nomination: Pick<Nomination, 'id' | 'title'>;
+    person: Pick<Person, 'id' | 'name'> | null;
+  }>;
   seriesExtensions: Array<Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'>>;
   trailers: FilmTrailer[];
 };
@@ -47,14 +44,13 @@ export const mapFilmDetails = (
   film: ExtendedFilm,
   chapters: Array<Pick<Film, 'id' | 'title' | 'poster' | 'chapterOrder'>> | null,
 ): z.infer<typeof FilmResponseSchema> => {
-  const castAndCrew = film.castAndCrew.reduce((result, { role, details, comment, person }) => {
+  const castAndCrew = film.castAndCrew.reduce((result, { role, details, person }) => {
     if (!result[role]) {
       result[role] = { role, people: [] };
     }
 
     result[role].people.push({
       ...person,
-      comment,
       details,
     });
 
@@ -71,7 +67,6 @@ export const mapFilmDetails = (
 
     result[award.award.id].nominations.push({
       title: award.nomination.title,
-      comment: award.comment,
       person: award.person,
     });
 

@@ -149,7 +149,6 @@ export class FilmsRepository {
           columns: {
             role: true,
             details: true,
-            comment: true,
           },
           with: {
             person: {
@@ -180,9 +179,6 @@ export class FilmsRepository {
                 name: true,
               },
             },
-          },
-          columns: {
-            comment: true,
           },
         },
         collections: {
@@ -252,7 +248,6 @@ export class FilmsRepository {
           columns: {
             role: true,
             details: true,
-            comment: true,
           },
           with: {
             person: {
@@ -267,7 +262,6 @@ export class FilmsRepository {
           columns: {
             awardId: true,
             nominationId: true,
-            comment: true,
           },
           with: {
             person: true,
@@ -458,7 +452,6 @@ export class FilmsRepository {
         castAndCrew: {
           columns: {
             personId: true,
-            comment: true,
             role: true,
             details: true,
           },
@@ -467,7 +460,6 @@ export class FilmsRepository {
           columns: {
             awardId: true,
             nominationId: true,
-            comment: true,
             actorId: true,
           },
         },
