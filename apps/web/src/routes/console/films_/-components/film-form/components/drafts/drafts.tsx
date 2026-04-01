@@ -2,8 +2,7 @@ import type { FilmDraftResponse } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useParams } from '@tanstack/react-router';
 import { useState } from 'react';
-import { getDraftIdFromMixedId } from '~/routes/console/films_/-helpers';
-import { api, Button, ConfirmModal, getFilmDraftsQueryOptions, Modal } from '~/shared';
+import { api, Button, ConfirmModal, getFilmDraftsQueryOptions, Modal, Panel } from '~/shared';
 import styles from './drafts.module.css';
 import { useFormContext } from 'react-hook-form';
 import { TrashIcon } from 'lucide-react';
@@ -14,7 +13,7 @@ type DraftsProps = {
 
 export const Drafts = ({ onSelectDraft }: DraftsProps) => {
   const params = useParams({ from: '/console/films_/$id' });
-  const { data } = useSuspenseQuery(getFilmDraftsQueryOptions(getDraftIdFromMixedId(params.id)));
+  const { data } = useSuspenseQuery(getFilmDraftsQueryOptions(params.id));
   const [contentToView, setContentToView] = useState<FilmDraftResponse | null>(null);
   const [draftToDelete, setDraftToDelete] = useState<FilmDraftResponse | null>(null);
   const { reset } = useFormContext();
@@ -42,12 +41,15 @@ export const Drafts = ({ onSelectDraft }: DraftsProps) => {
   };
 
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.title}>Current film contains drafts:</div>
-      <div>
+    <Panel>
+      <div className={styles.title}>Drafts</div>
+      <div className={styles.wrapper}>
         {data.map((draft) => (
           <div className={styles.row} key={draft.id}>
-            <div>Last modified: {draft.updatedAt}</div>
+            <div>
+              <div className={styles.row_title}>{draft.content.title ?? 'No title'}</div>
+              <div className={styles.row_date}>Last modified: {draft.updatedAt}</div>
+            </div>
             <div className={styles.row_buttons}>
               <Button variant="light" size="small" onClick={() => setContentToView(draft)}>
                 View
@@ -85,6 +87,6 @@ export const Drafts = ({ onSelectDraft }: DraftsProps) => {
         onConfirm={(data) => mutate(data)}
         isPending={isPending}
       />
-    </div>
+    </Panel>
   );
 };

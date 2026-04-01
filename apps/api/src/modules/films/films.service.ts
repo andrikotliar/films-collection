@@ -10,7 +10,6 @@ import {
   type TranslateDescriptionInput,
   type CreateFilmDraftInput,
   type FilmDraftResponse,
-  NEW_FILM_DRAFT_ID,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -99,7 +98,7 @@ export class FilmsService {
   }
 
   async createFilm(input: CreateFilmInput) {
-    const { pendingFilmId, ...payload } = input;
+    const { pendingFilmId, tempDraftId, ...payload } = input;
 
     const newFilmId = await this.deps.filmsRepository.create(payload);
 
@@ -107,7 +106,9 @@ export class FilmsService {
       await this.deps.pendingFilmsService.deletePendingFilm(pendingFilmId);
     }
 
-    await this.deps.filmsRepository.deleteAllDraftsOfFilm(NEW_FILM_DRAFT_ID);
+    if (tempDraftId) {
+      await this.deps.filmsRepository.deleteDraft(tempDraftId);
+    }
 
     return await this.getFilmDetails(newFilmId);
   }
@@ -177,7 +178,7 @@ export class FilmsService {
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
-    await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId);
+    await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
     return this.getFilmDetails(filmId);
   }
 
@@ -216,7 +217,7 @@ export class FilmsService {
     return this.deps.aiService.translateToLangPrompt(input.text, input.langParams);
   }
 
-  createDraft(filmId: number, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
+  createDraft(filmId: string, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
     return throwIfNotFound(this.deps.filmsRepository.createDraft(filmId, input));
   }
 
@@ -224,7 +225,7 @@ export class FilmsService {
     return throwIfNotFound(this.deps.filmsRepository.updateDraft(id, input.content));
   }
 
-  getDrafts(filmId: number): Promise<FilmDraftResponse[]> {
+  getDrafts(filmId: string): Promise<FilmDraftResponse[]> {
     return this.deps.filmsRepository.getDrafts(filmId);
   }
 

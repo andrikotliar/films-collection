@@ -2,7 +2,6 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';
 import {
   isNewItem,
-  Panel,
   getInitialDataQueryOptions,
   getPendingFilmQueryOptions,
   getAdminFilmDetailsQueryOptions,
@@ -16,7 +15,6 @@ import z from 'zod';
 import { NEW_ITEM_ID } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
-import { getDraftIdFromMixedId } from '~/routes/console/films_/-helpers';
 
 const ConsoleFilmQueriesSchema = z
   .object({
@@ -44,7 +42,7 @@ export const Route = createFileRoute('/console/films_/$id')({
       await queryClient.ensureQueryData(getAdminFilmDetailsQueryOptions(Number(params.id)));
     }
 
-    await queryClient.ensureQueryData(getFilmDraftsQueryOptions(getDraftIdFromMixedId(params.id)));
+    await queryClient.ensureQueryData(getFilmDraftsQueryOptions(params.id));
   },
   component: PageContainer,
 });
@@ -85,9 +83,7 @@ function PageContainer() {
 
   return (
     <ConsoleContentLayout title={pageTitle} backPath="/console/films">
-      <Panel>
-        <FilmForm values={defaultValues} />
-      </Panel>
+      <FilmForm values={defaultValues} />
     </ConsoleContentLayout>
   );
 }

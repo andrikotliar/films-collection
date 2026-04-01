@@ -4,7 +4,6 @@ export const PAGE_LIMITS = {
   filmsSearch: 10,
 };
 export const NEW_ITEM_ID = 'new';
-export const NEW_FILM_DRAFT_ID = 100_000;
 export const ALLOWED_HTML_TAGS = [
   'div',
   'p',

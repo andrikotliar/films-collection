@@ -340,7 +340,7 @@ export class FilmsRepository {
     await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
-  create(input: Omit<CreateFilmInput, 'pendingFilmId'>) {
+  create(input: Omit<CreateFilmInput, 'pendingFilmId' | 'tempDraftId'>) {
     const {
       castAndCrew,
       awards,
@@ -706,7 +706,7 @@ export class FilmsRepository {
     });
   }
 
-  createDraft(filmId: number, input: CreateFilmDraftInput) {
+  createDraft(filmId: string, input: CreateFilmDraftInput) {
     return getFirstValue(
       this.deps.db
         .insert(filmsDrafts)
@@ -730,7 +730,7 @@ export class FilmsRepository {
     );
   }
 
-  getDrafts(filmId: number) {
+  getDrafts(filmId: string) {
     return this.deps.db
       .select()
       .from(filmsDrafts)
@@ -742,7 +742,7 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.id, id));
   }
 
-  deleteAllDraftsOfFilm(filmId: number) {
+  deleteAllDraftsOfFilm(filmId: string) {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 

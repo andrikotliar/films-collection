@@ -1,7 +1,7 @@
 import { imageNotFoundPlaceholder } from '~/assets';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { Image } from '~/shared/components/image/image';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './file-input.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
@@ -30,9 +30,7 @@ export const FileInput = ({
   error,
 }: FileInputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
-  const [imagePreview, setImagePreview] = useState<string | null>(
-    getExternalImageUrl(defaultValue),
-  );
+  const [imagePreview, setImagePreview] = useState<string | null>(null);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
@@ -51,6 +49,12 @@ export const FileInput = ({
       inputRef.current.value = '';
     }
   };
+
+  useEffect(() => {
+    if (!imagePreview) {
+      setImagePreview(getExternalImageUrl(defaultValue));
+    }
+  }, [defaultValue]);
 
   return (
     <div className={styles.root} style={{ width }}>

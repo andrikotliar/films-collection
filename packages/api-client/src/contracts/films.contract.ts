@@ -18,6 +18,7 @@ import {
   TranslateDescriptionResponseSchema,
   CreateFilmDraftInputSchema,
   FilmDraftInputResponse,
+  FilmDraftFilmIdParamsSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -122,9 +123,9 @@ export const filmsContract = defineContracts('films', {
   },
   createDraft: {
     method: 'POST',
-    url: 'admin/:id/draft',
+    url: 'admin/:filmId/draft',
     schema: {
-      params: IdParamSchema,
+      params: FilmDraftFilmIdParamsSchema,
       body: CreateFilmDraftInputSchema,
       response: FilmDraftInputResponse,
     },
@@ -140,9 +141,9 @@ export const filmsContract = defineContracts('films', {
   },
   getFilmDrafts: {
     method: 'GET',
-    url: 'admin/:id/draft',
+    url: 'admin/:filmId/draft',
     schema: {
-      params: IdParamSchema,
+      params: FilmDraftFilmIdParamsSchema,
       response: z.array(FilmDraftInputResponse),
     },
   },

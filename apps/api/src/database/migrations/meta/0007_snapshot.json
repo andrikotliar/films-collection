@@ -1,5 +1,5 @@
 {
-  "id": "face640a-3701-4afc-a577-922c56a82130",
+  "id": "565b62c8-3b0e-4d86-a337-c9c62e1a6abb",
   "prevId": "80b2b848-14d6-4c4c-9193-3907231e9adf",
   "version": "7",
   "dialect": "postgresql",
@@ -919,7 +919,7 @@
         },
         "film_id": {
           "name": "film_id",
-          "type": "integer",
+          "type": "text",
           "primaryKey": false,
           "notNull": true
         },

@@ -137,7 +137,7 @@ export const filmsRouter = createRouter(filmsContract, {
     handler: async ({ request, app }) => {
       const data = await app.container
         .resolve('filmsService')
-        .createDraft(request.params.id, request.body);
+        .createDraft(request.params.filmId, request.body);
 
       return {
         data,
@@ -162,7 +162,7 @@ export const filmsRouter = createRouter(filmsContract, {
   getFilmDrafts: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getDrafts(request.params.id);
+      const data = await app.container.resolve('filmsService').getDrafts(request.params.filmId);
 
       return { data };
     },

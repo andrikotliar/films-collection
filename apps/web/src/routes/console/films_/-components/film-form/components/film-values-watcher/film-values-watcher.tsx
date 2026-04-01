@@ -5,15 +5,18 @@ import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
 import type z from 'zod';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useParams } from '@tanstack/react-router';
-import { getDraftIdFromMixedId } from '~/routes/console/films_/-helpers';
-import { filmDefaultFormValues } from '~/routes/console/films_/-configs';
 
 type FilmValuesWatcher = {
   selectedDraft: FilmDraftResponse | null;
+  formDefaultValues: z.infer<typeof FilmFormSchema>;
   onDraftCreated: (draft: FilmDraftResponse) => void;
 };
 
-export const FilmValuesWatcher = ({ selectedDraft, onDraftCreated }: FilmValuesWatcher) => {
+export const FilmValuesWatcher = ({
+  selectedDraft,
+  onDraftCreated,
+  formDefaultValues,
+}: FilmValuesWatcher) => {
   const { watch } = useFormContext<z.infer<typeof FilmFormSchema>>();
   const params = useParams({ from: '/console/films_/$id' });
 
@@ -40,7 +43,7 @@ export const FilmValuesWatcher = ({ selectedDraft, onDraftCreated }: FilmValuesW
         return;
       }
 
-      const diff = getObjectsDiff({ ...filmDefaultFormValues, isDraft: false }, content);
+      const diff = getObjectsDiff(formDefaultValues, content);
       const countChangedParams = diff ? countObjectKeys(diff) : 0;
 
       if (!countChangedParams) {
@@ -50,11 +53,11 @@ export const FilmValuesWatcher = ({ selectedDraft, onDraftCreated }: FilmValuesW
       api.films.createDraft
         .exec({
           input: { content },
-          params: { id: getDraftIdFromMixedId(params.id) },
+          params: { filmId: params.id },
         })
         .then(onDraftCreated);
     }, 2000),
-    [selectedDraft, params.id],
+    [selectedDraft, formDefaultValues, params.id],
   );
 
   useEffect(() => {

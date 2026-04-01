@@ -645,7 +645,7 @@ export const pageContent = pgTable('page_content', {
 
 export const filmsDrafts = pgTable('films_drafts', {
   id: serial().primaryKey().notNull(),
-  filmId: integer('film_id').notNull(),
+  filmId: text('film_id').notNull(),
   content: jsonb().$type<Record<string, any>>().notNull(),
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
     .defaultNow()

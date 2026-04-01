@@ -1,6 +1,6 @@
 import type { ListOption } from '@films-collection/shared';
-import { useState } from 'react';
-import { api, Button, Form, Select, toaster } from '~/shared';
+import { useRef, useState } from 'react';
+import { api, Button, Form, Select, toaster, type EditorRef } from '~/shared';
 import styles from './translate-description.module.css';
 import { LanguagesIcon } from 'lucide-react';
 import { useFormContext } from 'react-hook-form';
@@ -29,6 +29,7 @@ const toOptions: ListOption<string>[] = [
 ];
 
 export const TranslateDescription = () => {
+  const editorRef = useRef<EditorRef | null>(null);
   const [translateParams, setTranslateParams] = useState<TranslateParams>({
     from: 'Ukrainian',
     to: 'English',
@@ -76,13 +77,14 @@ export const TranslateDescription = () => {
       });
 
       setValue('overview', result.translatedText);
+      editorRef.current?.setContent(result.translatedText);
     },
   });
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.editor_container}>
-        <Form.TextEditor name="overview" label="Description" />
+        <Form.TextEditor name="overview" label="Description" ref={editorRef} />
         {isPending && (
           <div className={styles.overlay}>
             <div className={styles.loader}>
