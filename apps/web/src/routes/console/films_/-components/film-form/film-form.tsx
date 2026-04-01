@@ -8,7 +8,7 @@ import {
   getInitialDataQueryOptions,
   getObjectsDiff,
   isNewItem,
-  LocalStorage,
+  Panel,
   titleToFileName,
 } from '~/shared';
 import { FilmFormSchema } from '~/routes/console/films_/-schemas';
@@ -16,12 +16,15 @@ import {
   AwardsSelect,
   CastAndCrewSelect,
   ChaptersSelect,
+  Drafts,
   FilmValuesWatcher,
   MoneyInput,
   SeriesExtension,
   TrailersSelect,
   TranslateDescription,
 } from '~/routes/console/films_/-components/film-form/components';
+import { useState } from 'react';
+import type { FilmDraftResponse } from '@films-collection/shared';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -35,6 +38,7 @@ type CreateNewEntityInput = {
 export const FilmForm = ({ values }: FilmFormProps) => {
   const navigate = useNavigate();
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
+  const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
 
   const { mutateAsync: handleSubmit, isPending } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
@@ -81,11 +85,13 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       }
 
       return await api.films.create.exec({
-        input,
+        input: {
+          ...input,
+          tempDraftId: selectedDraft?.id,
+        },
       });
     },
     onSuccess: () => {
-      LocalStorage.removeItem(`film_${values.id}`);
       navigate({ to: '/console/films' });
     },
     meta: {
@@ -160,61 +166,69 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       }}
       isLoading={isPending}
     >
-      <Form.TextInput name="title" label="Title" />
-      <Form.CheckboxesGroup
-        label="Type"
-        name="type"
-        options={initialOptions.options.types}
-        type="radio"
+      <Drafts onSelectDraft={setSelectedDraft} />
+      <Panel isFlexContainer>
+        <Form.TextInput name="title" label="Title" />
+        <Form.CheckboxesGroup
+          label="Type"
+          name="type"
+          options={initialOptions.options.types}
+          type="radio"
+        />
+        <Form.CheckboxesGroup
+          label="Styles"
+          name="style"
+          options={initialOptions.options.styles}
+          type="radio"
+        />
+        <Form.RatingInput name="rating" label="Rating" size={3} />
+        <Form.FileInput label="Poster" name="poster" />
+        <TrailersSelect />
+        <SeriesExtension />
+        <Form.Select
+          label="Genres"
+          name="genres"
+          options={initialOptions.options.genres}
+          isMulti
+          onCreateOption={(value) => createNewEntity({ value, type: 'genres' })}
+        />
+        <Form.Select
+          label="Countries"
+          name="countries"
+          options={initialOptions.options.countries}
+          onCreateOption={(value) => createNewEntity({ value, type: 'countries' })}
+          isMulti
+        />
+        <Form.Select
+          label="Studios"
+          name="studios"
+          options={initialOptions.options.studios}
+          onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
+          isMulti
+        />
+        <Form.Select
+          label="Collections"
+          name="collections"
+          options={initialOptions.options.collections}
+          onCreateOption={(value) => createNewEntity({ value, type: 'collections' })}
+          isMulti
+        />
+        <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
+        <Form.DatePicker name="releaseDate" label="Release Date" />
+        <MoneyInput name="budget" label="Budget" />
+        <MoneyInput name="boxOffice" label="Box Office" />
+        <TranslateDescription />
+        <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
+        <AwardsSelect awardOptions={initialOptions.options.awards} />
+
+        <ChaptersSelect />
+        <Form.Checkbox name="draft" type="checkbox" label="Draft" />
+      </Panel>
+      <FilmValuesWatcher
+        selectedDraft={selectedDraft}
+        onDraftCreated={setSelectedDraft}
+        formDefaultValues={values}
       />
-      <Form.CheckboxesGroup
-        label="Styles"
-        name="style"
-        options={initialOptions.options.styles}
-        type="radio"
-      />
-      <Form.RatingInput name="rating" label="Rating" size={3} />
-      <Form.FileInput label="Poster" name="poster" />
-      <SeriesExtension />
-      <Form.Select
-        label="Genres"
-        name="genres"
-        options={initialOptions.options.genres}
-        isMulti
-        onCreateOption={(value) => createNewEntity({ value, type: 'genres' })}
-      />
-      <Form.Select
-        label="Countries"
-        name="countries"
-        options={initialOptions.options.countries}
-        onCreateOption={(value) => createNewEntity({ value, type: 'countries' })}
-        isMulti
-      />
-      <Form.Select
-        label="Studios"
-        name="studios"
-        options={initialOptions.options.studios}
-        onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
-        isMulti
-      />
-      <Form.Select
-        label="Collections"
-        name="collections"
-        options={initialOptions.options.collections}
-        onCreateOption={(value) => createNewEntity({ value, type: 'collections' })}
-        isMulti
-      />
-      <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
-      <Form.DatePicker name="releaseDate" label="Release Date" />
-      <MoneyInput name="budget" label="Budget" />
-      <MoneyInput name="boxOffice" label="Box Office" />
-      <TranslateDescription />
-      <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
-      <AwardsSelect awardOptions={initialOptions.options.awards} />
-      <TrailersSelect />
-      <ChaptersSelect />
-      <Form.Checkbox name="draft" type="checkbox" label="Draft" />
-      <FilmValuesWatcher id={values.id} />
     </Form>
   );
 };

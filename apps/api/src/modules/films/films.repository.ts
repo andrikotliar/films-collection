@@ -2,6 +2,7 @@ import { getFirstValue, getLatestEntriesFilter, sqlSearchQuery, type Deps } from
 import {
   getSkipValue,
   PAGE_LIMITS,
+  type CreateFilmDraftInput,
   type CreateFilmInput,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
@@ -26,6 +27,7 @@ import {
   films,
   filmsCollections,
   filmsCountries,
+  filmsDrafts,
   filmsGenres,
   filmsPeople,
   filmsStudios,
@@ -338,7 +340,7 @@ export class FilmsRepository {
     await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
-  create(input: Omit<CreateFilmInput, 'pendingFilmId'>) {
+  create(input: Omit<CreateFilmInput, 'pendingFilmId' | 'tempDraftId'>) {
     const {
       castAndCrew,
       awards,
@@ -702,6 +704,46 @@ export class FilmsRepository {
         },
       },
     });
+  }
+
+  createDraft(filmId: string, input: CreateFilmDraftInput) {
+    return getFirstValue(
+      this.deps.db
+        .insert(filmsDrafts)
+        .values({
+          filmId,
+          content: input.content,
+        })
+        .returning(),
+    );
+  }
+
+  updateDraft(id: number, content: Record<string, unknown>) {
+    return getFirstValue(
+      this.deps.db
+        .update(filmsDrafts)
+        .set({
+          content,
+        })
+        .where(eq(filmsDrafts.id, id))
+        .returning(),
+    );
+  }
+
+  getDrafts(filmId: string) {
+    return this.deps.db
+      .select()
+      .from(filmsDrafts)
+      .where(eq(filmsDrafts.filmId, filmId))
+      .orderBy(desc(filmsDrafts.updatedAt));
+  }
+
+  deleteDraft(id: number) {
+    return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.id, id));
+  }
+
+  deleteAllDraftsOfFilm(filmId: string) {
+    return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

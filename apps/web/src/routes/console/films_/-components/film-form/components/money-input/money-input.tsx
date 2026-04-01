@@ -40,10 +40,10 @@ export const MoneyInput = ({ name, label }: MoneyInputProps) => {
       <Form.TextInput type="number" name={name} label={label} min="0" />
       <div className={styles.auto_fill}>
         <Button variant="light" onClick={() => handleMultiplier(1_000_000)}>
-          + 1 million
+          × 1 million
         </Button>
         <Button variant="light" onClick={() => handleMultiplier(1_000_000_000)}>
-          + 1 billion
+          × 1 billion
         </Button>
       </div>
     </div>

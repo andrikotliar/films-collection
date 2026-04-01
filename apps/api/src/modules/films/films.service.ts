@@ -8,6 +8,8 @@ import {
   type GetCompleteDataListQuery,
   type CompleteDataResponse,
   type TranslateDescriptionInput,
+  type CreateFilmDraftInput,
+  type FilmDraftResponse,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -96,12 +98,16 @@ export class FilmsService {
   }
 
   async createFilm(input: CreateFilmInput) {
-    const { pendingFilmId, ...payload } = input;
+    const { pendingFilmId, tempDraftId, ...payload } = input;
 
     const newFilmId = await this.deps.filmsRepository.create(payload);
 
     if (pendingFilmId) {
       await this.deps.pendingFilmsService.deletePendingFilm(pendingFilmId);
+    }
+
+    if (tempDraftId) {
+      await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
     return await this.getFilmDetails(newFilmId);
@@ -172,6 +178,7 @@ export class FilmsService {
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
+    await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
     return this.getFilmDetails(filmId);
   }
 
@@ -208,6 +215,22 @@ export class FilmsService {
 
   translateDescription(input: TranslateDescriptionInput) {
     return this.deps.aiService.translateToLangPrompt(input.text, input.langParams);
+  }
+
+  createDraft(filmId: string, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
+    return throwIfNotFound(this.deps.filmsRepository.createDraft(filmId, input));
+  }
+
+  updateDraft(id: number, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
+    return throwIfNotFound(this.deps.filmsRepository.updateDraft(id, input.content));
+  }
+
+  getDrafts(filmId: string): Promise<FilmDraftResponse[]> {
+    return this.deps.filmsRepository.getDrafts(filmId);
+  }
+
+  deleteDraft(id: number) {
+    return this.deps.filmsRepository.deleteDraft(id);
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

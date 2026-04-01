@@ -12,6 +12,7 @@ import {
   uniqueIndex,
   pgEnum,
   numeric,
+  jsonb,
 } from 'drizzle-orm/pg-core';
 
 export const collectionCategory = pgEnum('collection_category', [
@@ -640,6 +641,20 @@ export const pageContent = pgTable('page_content', {
     .$onUpdate(() => new Date().toISOString())
     .notNull(),
   pageKey: text('page_key').notNull(),
+});
+
+export const filmsDrafts = pgTable('films_drafts', {
+  id: serial().primaryKey().notNull(),
+  filmId: text('film_id').notNull(),
+  content: jsonb().$type<Record<string, any>>().notNull(),
+  createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
+    .notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
+    .notNull(),
 });
 
 export type Film = typeof films.$inferSelect;

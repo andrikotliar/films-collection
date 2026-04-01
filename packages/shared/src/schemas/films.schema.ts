@@ -60,6 +60,7 @@ export const CreateFilmInputSchema = z.object({
   ),
   draft: z.boolean(),
   pendingFilmId: z.coerce.number().nullable().optional(),
+  tempDraftId: z.coerce.number().optional(),
   seriesExtension: SeriesExtensionSchema.nullable(),
 });
 
@@ -296,6 +297,22 @@ export const TranslateDescriptionResponseSchema = z.object({
   translatedText: z.string(),
 });
 
+export const CreateFilmDraftInputSchema = z.object({
+  content: z.any(),
+});
+
+export const FilmDraftInputResponse = z.object({
+  id: z.number(),
+  filmId: z.string(),
+  content: z.any(),
+  createdAt: z.string(),
+  updatedAt: z.string(),
+});
+
+export const FilmDraftFilmIdParamsSchema = z.object({
+  filmId: z.string(),
+});
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
@@ -306,3 +323,6 @@ export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
 export type CompleteDataListItem = z.infer<typeof CompleteDataListItemSchema>;
 export type CompleteDataResponse = z.infer<typeof CompleteDataResponseSchema>;
 export type TranslateDescriptionInput = z.infer<typeof TranslateDescriptionInputSchema>;
+export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
+export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
+export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
