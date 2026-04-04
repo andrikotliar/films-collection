@@ -1,0 +1,120 @@
+{
+  "id": 266,
+  "title": "Superman",
+  "releaseDate": "2025-07-11",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 225000000,
+  "boxOffice": 618000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/superman",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DC Studios",
+      "id": 82
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0&pp=ygUQc3VwZXJtYW4gdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 309
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2609,
+      "name": "David Corenswet",
+      "role": "ACTOR",
+      "details": "Superman"
+    },
+    {
+      "id": 2611,
+      "name": "Rachel Brosnahan",
+      "role": "ACTOR",
+      "details": "Lois Lane"
+    },
+    {
+      "id": 870,
+      "name": "Nicholas Hoult",
+      "role": "ACTOR",
+      "details": "Lex Luthor"
+    },
+    {
+      "id": 2612,
+      "name": "Edi Gathegi",
+      "role": "ACTOR",
+      "details": "Mr. Terrific"
+    },
+    {
+      "id": 2613,
+      "name": "Nathan Fillion",
+      "role": "ACTOR",
+      "details": "Guy Gardner"
+    },
+    {
+      "id": 2593,
+      "name": "Isabela Merced",
+      "role": "ACTOR",
+      "details": "Hawkgirl"
+    },
+    {
+      "id": 2614,
+      "name": "Maria Gabriela de Faria",
+      "role": "ACTOR",
+      "details": "The Engineer"
+    },
+    {
+      "id": 1541,
+      "name": "James Gunn",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2615,
+      "name": "David Fleming",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2524,
+      "name": "John Murphy",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1544,
+      "name": "Henry Braham",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

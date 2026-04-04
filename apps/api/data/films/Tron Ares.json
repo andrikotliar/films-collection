@@ -1,0 +1,155 @@
+{
+  "id": 268,
+  "title": "Tron: Ares",
+  "releaseDate": "2025-09-10",
+  "type": "FILM",
+  "duration": 119,
+  "budget": 220000000,
+  "boxOffice": 142000000,
+  "overview": null,
+  "chapterKey": "tron",
+  "chapterOrder": 1,
+  "poster": "posters/tron_ares",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Cyberpunk",
+      "id": 19
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=YShVEXb7-ic&pp=ygURdHJvbiBhcmVzIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 311
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Film Music",
+          "id": 259
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2626,
+      "name": "Joachim Ronning",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2627,
+      "name": "Jesse Wigutow",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 522,
+      "name": "Jared Leto",
+      "role": "ACTOR",
+      "details": "Ares"
+    },
+    {
+      "id": 2628,
+      "name": "Greta Lee",
+      "role": "ACTOR",
+      "details": "Eve Kim"
+    },
+    {
+      "id": 539,
+      "name": "Jeff Bridges",
+      "role": "ACTOR",
+      "details": "Kevin Flynn"
+    },
+    {
+      "id": 360,
+      "name": "Evan Peters",
+      "role": "ACTOR",
+      "details": "Julian Dillinger"
+    },
+    {
+      "id": 2629,
+      "name": "Jodie Turner-Smith",
+      "role": "ACTOR",
+      "details": "Athena"
+    },
+    {
+      "id": 2630,
+      "name": "Gillian Anderson",
+      "role": "ACTOR",
+      "details": "Elisabeth Dillinger"
+    },
+    {
+      "id": 2340,
+      "name": "Sean Bailey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 522,
+      "name": "Jared Leto",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2341,
+      "name": "Steven Lisberger",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2631,
+      "name": "Emma Ludbrook",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1454,
+      "name": "Jeffrey Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2632,
+      "name": "Nine Inch Nails",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2633,
+      "name": "Jeff Cronenweth",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

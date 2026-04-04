@@ -1,0 +1,139 @@
+{
+  "id": 267,
+  "title": "Predator: Badlands",
+  "releaseDate": "2025-11-07",
+  "type": "FILM",
+  "duration": 106,
+  "budget": 105000000,
+  "boxOffice": 184000000,
+  "overview": null,
+  "chapterKey": "predator",
+  "chapterOrder": 1,
+  "poster": "posters/predator_badlands",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=43R9l7EkJwE&pp=ygUQYmFkbGFuZHMgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 310
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actress in a Film",
+          "id": 258
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2617,
+      "name": "Dan Trachtenberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2618,
+      "name": "Patrick Aison",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2616,
+      "name": "Elle Fanning",
+      "role": "ACTOR",
+      "details": "Thia / Tessa"
+    },
+    {
+      "id": 2619,
+      "name": "Dimitrius Schuster-Koloamatangi",
+      "role": "ACTOR",
+      "details": "Dek"
+    },
+    {
+      "id": 1676,
+      "name": "John Davis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2621,
+      "name": "Brent O'Connor",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2622,
+      "name": "Ben Rosenblatt",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2623,
+      "name": "Marc Toberoff",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2624,
+      "name": "Sarah Schachner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1931,
+      "name": "Benjamin Wallfisch",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2625,
+      "name": "Jeff Cutter",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}
