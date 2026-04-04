@@ -1,0 +1,161 @@
+{
+  "id": 270,
+  "title": "The Fantastic Four: First Steps",
+  "releaseDate": "2025-07-25",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 200000000,
+  "boxOffice": 522000000,
+  "overview": "<p>Earth-828. A team of 4 researchers: Reed Richards, Sue Storm, Ben Grimm, and Johnny Storm are hit by cosmic radiation in space and gain superpowers. Reed can stretch like rubber, Sue can become invisible and create energy barriers, Johnny is engulfed in fire and can fly, while Ben's skin has turned to stone.</p><p></p><p>They become the superheroes of their dimension and the main defenders of Earth, known as the Fantastic Four.</p><p></p><p>One day, an alien named Shalla-Bal, known as the Silver Surfer, visits Earth. She is the herald of Galactus - the immortal devourer of planets. Earth has become his next target. The Fantastic Four set out to Galactus's ship in an attempt to negotiate with him. However, Galactus determines that Sue is pregnant with Reed's child, and this child is destined to become an immensely powerful being in the future. Galactus wants this child as his successor in exchange for leaving Earth alone.</p><p></p><p>The Fantastic Four refuse him, and now they must find a way to stop Galactus.</p>",
+  "chapterKey": "mcu",
+  "chapterOrder": 1.5,
+  "poster": "posters/the_fantastic_four_first_steps",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "New Zealand",
+      "id": 15
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=18QQWa5MEcs&pp=ygUWZmFudGFzdGljIGZvdXIgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 314
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Film Production Design",
+          "id": 260
+        },
+        {
+          "title": "Best Cinematic Adaptation Film",
+          "id": 261
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1504,
+      "name": "Matt Shakman",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2360,
+      "name": "Josh Friedman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1396,
+      "name": "Eric Pearson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2639,
+      "name": "Jeff Kaplan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2640,
+      "name": "Ian Springer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 913,
+      "name": "Pedro Pascal",
+      "role": "ACTOR",
+      "details": "Reed Richards/Mister Fantastic"
+    },
+    {
+      "id": 1159,
+      "name": "Vanessa Kirby",
+      "role": "ACTOR",
+      "details": "Sue Storm/Invisible Woman"
+    },
+    {
+      "id": 2641,
+      "name": "Ebon Moss-Bachrach",
+      "role": "ACTOR",
+      "details": "Ben Grimm/The Thing"
+    },
+    {
+      "id": 1251,
+      "name": "Joseph Quinn",
+      "role": "ACTOR",
+      "details": "Johnny Storm/Human Torch"
+    },
+    {
+      "id": 2642,
+      "name": "Ralph Ineson",
+      "role": "ACTOR",
+      "details": "Galactus"
+    },
+    {
+      "id": 2643,
+      "name": "Julia Garner",
+      "role": "ACTOR",
+      "details": "Shalla-Bal/Silver Surfer"
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2359,
+      "name": "Jess Hall",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

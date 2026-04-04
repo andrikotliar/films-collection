@@ -7,8 +7,8 @@
   "budget": 170000000,
   "boxOffice": 400000000,
   "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "chapterKey": "tron",
+  "chapterOrder": 0.5,
   "poster": "posters/tron.webp",
   "genres": [
     {
@@ -35,9 +35,9 @@
   ],
   "trailers": [
     {
-      "url": "https://www.youtube.com/watch?v=L9szn1QQfas",
+      "url": "https://www.youtube.com/watch?v=P78pl1FUXfA&pp=ygUTdHJvbiBsZWdhY3kgdHJhaWxlcg%3D%3D",
       "order": 1,
-      "id": 252
+      "id": 312
     }
   ],
   "awards": [

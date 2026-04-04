@@ -7,8 +7,8 @@
   "budget": 15000000,
   "boxOffice": 98000000,
   "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "chapterKey": "predator",
+  "chapterOrder": 0.5,
   "poster": "posters/predator.webp",
   "genres": [
     {

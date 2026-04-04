@@ -1,0 +1,128 @@
+{
+  "id": 269,
+  "title": "Thunderbolts",
+  "releaseDate": "2025-05-02",
+  "type": "FILM",
+  "duration": 127,
+  "budget": 180000000,
+  "boxOffice": 382000000,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 33,
+  "poster": "posters/thunderbolts",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=-sAOWhvheK8&pp=ygUUdGh1bmRlcmJvbHRzIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 313
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2634,
+      "name": "Jake Schreier",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1396,
+      "name": "Eric Pearson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2635,
+      "name": "Joanna Calo",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 375,
+      "name": "Florence Pugh",
+      "role": "ACTOR",
+      "details": "Yelena Belova"
+    },
+    {
+      "id": 1050,
+      "name": "Sebastian Stan",
+      "role": "ACTOR",
+      "details": " Bucky Barnes"
+    },
+    {
+      "id": 626,
+      "name": "Julia Louis-Dreyfus",
+      "role": "ACTOR",
+      "details": "Valentina Allegra de Fontaine"
+    },
+    {
+      "id": 2636,
+      "name": "Lewis Pullman",
+      "role": "ACTOR",
+      "details": "Robert Reynolds"
+    },
+    {
+      "id": 274,
+      "name": "David Harbour",
+      "role": "ACTOR",
+      "details": "Alexei Shostakov"
+    },
+    {
+      "id": 1192,
+      "name": "Wyatt Russell",
+      "role": "ACTOR",
+      "details": "John Walker"
+    },
+    {
+      "id": 427,
+      "name": "Hannah John-Kamen",
+      "role": "ACTOR",
+      "details": "Ava Starr"
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2637,
+      "name": "Son Lux",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2638,
+      "name": "Andrew Droz Palermo",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

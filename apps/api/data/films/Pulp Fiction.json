@@ -1,0 +1,177 @@
+{
+  "id": 271,
+  "title": "Pulp Fiction",
+  "releaseDate": "1994-10-14",
+  "type": "FILM",
+  "duration": 154,
+  "budget": 8000000,
+  "boxOffice": 214000000,
+  "overview": "<p>The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p>",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/pulp_fiction",
+  "genres": [
+    {
+      "title": "Crime",
+      "id": 7
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "MIRAMAX",
+      "id": 55
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=s7EdQ4FqbhY&pp=ygUUcHVscCBmaWN0aW9uIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 315
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Writing, Screenplay Written Directly for the Screen",
+          "id": 262
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best action/Adventure/thriller Film",
+          "id": 66
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Actor in a Supporting Role",
+          "id": 263
+        },
+        {
+          "title": "Best Screenplay - Original",
+          "id": 264
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Screenplay - Motion Picture",
+          "id": 257
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Movie",
+          "id": 182
+        },
+        {
+          "title": "Best Dance Sequence",
+          "id": 265
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2646,
+      "name": "John Travolta",
+      "role": "ACTOR",
+      "details": "Vincent Vega"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Jules Winnfield"
+    },
+    {
+      "id": 2647,
+      "name": "Uma Thurman",
+      "role": "ACTOR",
+      "details": "Mia Wallace"
+    },
+    {
+      "id": 2467,
+      "name": "Bruce Willis",
+      "role": "ACTOR",
+      "details": "Butch Coolidge"
+    },
+    {
+      "id": 1166,
+      "name": "Ving Rhames",
+      "role": "ACTOR",
+      "details": "Marsellus Wallace"
+    },
+    {
+      "id": 1120,
+      "name": "Tim Roth",
+      "role": "ACTOR",
+      "details": "Pumpkin"
+    },
+    {
+      "id": 2644,
+      "name": "Amanda Plummer",
+      "role": "ACTOR",
+      "details": "Honey Bunny"
+    },
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "ACTOR",
+      "details": "Jimmie Dimmick"
+    },
+    {
+      "id": 2648,
+      "name": "Lawrence Bender",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2649,
+      "name": "Andrzej Sekula",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

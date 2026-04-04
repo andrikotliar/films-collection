@@ -1,0 +1,166 @@
+{
+  "id": 272,
+  "title": "TMNT",
+  "releaseDate": "2007-03-23",
+  "type": "FILM",
+  "duration": 87,
+  "budget": 34000000,
+  "boxOffice": 95000000,
+  "overview": "After the Teenage Mutant Ninja Turtles defeated their main enemy, Shredder, their lives changed significantly. Leonardo set off to train alone in an unknown direction. Donatello is providing technical support online, while Michelangelo got a job as an entertainer at children's parties, pretending to be in a turtle costume. Raphael continues to patrol the city at night, taking down criminals. Now he wears metal armor to conceal himself. However, soon the brothers will have to unite again in the face of a new global threat.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/tmnt",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "Hong Kong",
+      "id": 16
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Imagi Animation Studios",
+      "id": 83
+    },
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Hhrw0JAvIvI&pp=ygURdG1udCAyMDA3IHRyYWlsZXLSBwkJ2QoBhyohjO8%3D",
+      "order": 1,
+      "id": 316
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2650,
+      "name": "Kevin Munroe",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2650,
+      "name": "Kevin Munroe",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2651,
+      "name": "James Arnold Taylor",
+      "role": "ACTOR",
+      "details": "Leonardo"
+    },
+    {
+      "id": 2652,
+      "name": "Mitchell Whitfield",
+      "role": "ACTOR",
+      "details": "Donatello"
+    },
+    {
+      "id": 2653,
+      "name": "Mikey Kelley",
+      "role": "ACTOR",
+      "details": "Michelangelo"
+    },
+    {
+      "id": 2654,
+      "name": "Nolan North",
+      "role": "ACTOR",
+      "details": "Raphael"
+    },
+    {
+      "id": 707,
+      "name": "Laurence Fishburne",
+      "role": "ACTOR",
+      "details": "Narrator"
+    },
+    {
+      "id": 2655,
+      "name": "Ziyi Zhang",
+      "role": "ACTOR",
+      "details": "Karai"
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Casey"
+    },
+    {
+      "id": 2656,
+      "name": "Sarah Michelle Gellar",
+      "role": "ACTOR",
+      "details": "April O'Neil"
+    },
+    {
+      "id": 770,
+      "name": "Mako",
+      "role": "ACTOR",
+      "details": "Splinter"
+    },
+    {
+      "id": 2657,
+      "name": "Kevin Smith",
+      "role": "ACTOR",
+      "details": null
+    },
+    {
+      "id": 903,
+      "name": "Patrick Stewart",
+      "role": "ACTOR",
+      "details": "Winters"
+    },
+    {
+      "id": 2658,
+      "name": "Thomas K. Gray",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2659,
+      "name": "Galen Walker",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2660,
+      "name": "Paul Wang",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1896,
+      "name": "Klaus Badelt",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2661,
+      "name": "Steve Lumley",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}
