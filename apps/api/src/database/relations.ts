@@ -19,6 +19,8 @@ import {
   studios,
   seriesExtensions,
   filmsPeople,
+  users,
+  usersSessions,
 } from './schema';
 
 export const filmsRelations = relations(films, ({ one, many }) => ({
@@ -181,4 +183,8 @@ export const filmsPeopleRelations = relations(filmsPeople, ({ one }) => ({
     fields: [filmsPeople.filmId],
     references: [films.id],
   }),
+}));
+
+export const usersRelations = relations(users, ({ many }) => ({
+  sessions: many(usersSessions),
 }));

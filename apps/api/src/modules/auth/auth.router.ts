@@ -23,7 +23,9 @@ export const authRouter = createRouter(authContract, {
   },
   login: {
     async handler({ request, reply, app }) {
-      const data = await app.container.resolve('authService').login(request.body);
+      const data = await app.container
+        .resolve('authService')
+        .login({ ...request.body, userAgent: request.headers['user-agent'] });
 
       if (!data) {
         throw new UnauthorizedException({
@@ -32,7 +34,6 @@ export const authRouter = createRouter(authContract, {
         });
       }
 
-      await app.container.resolve('usersService').setRefreshToken(data.id, data.refreshToken);
       const configService = app.container.resolve('configService');
 
       setCookie(reply, {
@@ -49,6 +50,13 @@ export const authRouter = createRouter(authContract, {
         configService,
       });
 
+      setCookie(reply, {
+        name: 'SESSION_ID',
+        value: data.sessionId,
+        maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
+        configService,
+      });
+
       return {
         data: { id: data.id },
       };
@@ -57,12 +65,13 @@ export const authRouter = createRouter(authContract, {
   refresh: {
     async handler({ request, reply, app }) {
       const token = getCookie(request, 'REFRESH_TOKEN');
+      const sessionId = getCookie(request, 'SESSION_ID');
 
-      if (!token) {
+      if (!token || !sessionId) {
         throw new UnauthorizedException();
       }
 
-      const data = await app.container.resolve('authService').refreshTokens(token);
+      const data = await app.container.resolve('authService').refreshTokens(token, sessionId);
 
       if (!data) {
         throw new UnauthorizedException({
@@ -86,8 +95,6 @@ export const authRouter = createRouter(authContract, {
         configService,
       });
 
-      await app.container.resolve('usersService').setRefreshToken(data.id, data.refreshToken);
-
       return {
         data: { id: data.id },
       };
@@ -96,12 +103,13 @@ export const authRouter = createRouter(authContract, {
   logout: {
     async handler({ request, reply, app }) {
       const accessToken = getCookie(request, 'ACCESS_TOKEN');
+      const sessionId = getCookie(request, 'SESSION_ID');
 
-      if (accessToken) {
-        await app.container.resolve('authService').logout(accessToken, request.server.jwt);
+      if (accessToken && sessionId) {
+        await app.container.resolve('authService').logout(accessToken, sessionId);
       }
 
-      clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
+      clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN', 'SESSION_ID']);
 
       return { data: { status: 'ok' as const } };
     },

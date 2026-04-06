@@ -6,8 +6,9 @@ import { getCookie } from '~/shared/helpers';
 
 export const validateAuth = async (request: FastifyRequest, reply: FastifyReply) => {
   const token = getCookie(request, 'ACCESS_TOKEN');
+  const sessionId = getCookie(request, 'SESSION_ID');
 
-  if (!token) {
+  if (!token || !sessionId) {
     throw new UnauthorizedException({
       code: 'TOKEN_MISSED',
       message: 'Malformed credentials',
@@ -30,9 +31,11 @@ export const validateAuth = async (request: FastifyRequest, reply: FastifyReply)
     throw new UnauthorizedException();
   }
 
-  const user = await request.server.container.resolve('usersService').getUser(payload.id);
+  const userSession = await request.server.container
+    .resolve('usersService')
+    .getUserSession(payload.id, sessionId);
 
-  if (!user) {
+  if (!userSession) {
     throw new UnauthorizedException({
       message: 'User not found',
     });
