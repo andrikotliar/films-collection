@@ -13,6 +13,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from '@tanstack/react-router';
 import { useMutation } from '@tanstack/react-query';
 
+const menuItems = Object.values(consoleMenuConfig);
+
 export const ConsoleHeader = () => {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +61,7 @@ export const ConsoleHeader = () => {
         menuMargin={20}
       >
         <div className={styles.console_menu}>
-          {consoleMenuConfig.map((item) => (
+          {menuItems.map((item) => (
             <Link
               key={item.id}
               to={item.route}

@@ -1,11 +1,24 @@
-.root_menu {
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.section_title {
+  font-family: 'Roboto-Condensed';
+  font-size: var(--text-2xl);
+  margin-bottom: 10px;
+}
+
+.menu {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 20px;
   width: 100%;
 }
 
-.root_menu_item {
+.menu_item {
   color: var(--color-white);
   display: flex;
   flex-direction: column;
@@ -26,15 +39,15 @@
   transition: box-shadow 300ms;
 }
 
-.root_menu_item:hover {
+.menu_item:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-.root_menu_icon {
+.menu_icon {
   font-size: 50px;
 }
 
-.root_menu_icon svg {
+.menu_icon svg {
   width: 40px;
   height: 40px;
 }
