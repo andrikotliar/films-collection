@@ -85,7 +85,7 @@ export const consoleMenuConfig = {
     color: 'color-gray-dark',
   },
   sessions: {
-    id: 'studios',
+    id: 'sessions',
     route: '/console',
     title: 'Sessions',
     icon: <KeyRoundIcon />,
