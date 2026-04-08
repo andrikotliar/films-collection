@@ -16,6 +16,7 @@ import {
   FormGroup,
   FormMonthDateSelector,
   FormOrderSelect,
+  FormPasswordInput,
   FormRatingInput,
   FormSection,
   FormSelect,
@@ -28,8 +29,12 @@ import {
 } from '~/shared/components/form/components';
 import { useEffect } from 'react';
 
+type FormResetHandler<TDefaultValues extends Record<PropertyKey, unknown>> = (
+  values: TDefaultValues,
+) => void;
+
 type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema extends z.ZodType> = {
-  onSubmit: (data: TDefaultValues) => Promise<unknown>;
+  onSubmit: (data: TDefaultValues, resetForm: FormResetHandler<TDefaultValues>) => Promise<unknown>;
   defaultValues?: DefaultValues<TDefaultValues>;
   schema: TSchema;
   isLoading?: boolean;
@@ -37,7 +42,7 @@ type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema exte
   title?: string;
   submitIcon?: React.ReactNode;
   children?: React.ReactNode;
-  onReset?: (formReset: (values: TDefaultValues) => void) => void;
+  onReset?: (formReset: FormResetHandler<TDefaultValues>) => void;
 };
 
 export const Form = <
@@ -64,7 +69,10 @@ export const Form = <
 
   return (
     <FormProvider {...form}>
-      <form className={styles.flex_wrapper} onSubmit={form.handleSubmit(onSubmit)}>
+      <form
+        className={styles.flex_wrapper}
+        onSubmit={form.handleSubmit((data) => onSubmit(data, form.reset))}
+      >
         {title && <FormTitle>{title}</FormTitle>}
         {children}
         <div className={styles.actions}>
@@ -102,3 +110,4 @@ Form.Title = FormTitle;
 Form.Toggle = FormToggle;
 Form.VideoInput = FormVideoInput;
 Form.OrderSelect = FormOrderSelect;
+Form.PasswordInput = FormPasswordInput;

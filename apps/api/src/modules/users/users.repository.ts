@@ -1,7 +1,6 @@
 import { and, eq } from 'drizzle-orm';
-import { users, usersSessions, type UserSession } from '~/database/schema';
+import { users, usersSessions, type User, type UserSession } from '~/database/schema';
 import { getFirstValue, type Deps } from '~/shared';
-import crypto from 'node:crypto';
 
 export class UsersRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -21,10 +20,24 @@ export class UsersRepository {
     );
   }
 
+  update(id: number, payload: Partial<User>) {
+    return getFirstValue(
+      this.deps.db
+        .update(users)
+        .set(payload)
+        .where(eq(users.id, id))
+        .returning({ id: users.id, username: users.username }),
+    );
+  }
+
   findByUsernameWithPassword(username: string) {
     return getFirstValue(
       this.deps.db.select().from(users).where(eq(users.username, username)).limit(1),
     );
+  }
+
+  findByUserIdWithPassword(id: number) {
+    return getFirstValue(this.deps.db.select().from(users).where(eq(users.id, id)).limit(1));
   }
 
   updateSession(userId: number, sessionId: string, payload: Partial<UserSession>) {
@@ -38,14 +51,11 @@ export class UsersRepository {
       });
   }
 
-  createSession(payload: Pick<UserSession, 'deviceInfo' | 'refreshToken' | 'userId'>) {
+  createSession(payload: UserSession) {
     return getFirstValue(
       this.deps.db
         .insert(usersSessions)
-        .values({
-          ...payload,
-          sessionId: crypto.randomUUID(),
-        })
+        .values(payload)
         .returning({ sessionId: usersSessions.sessionId }),
     );
   }
@@ -64,5 +74,20 @@ export class UsersRepository {
     return this.deps.db
       .delete(usersSessions)
       .where(and(eq(usersSessions.userId, userId), eq(usersSessions.sessionId, sessionId)));
+  }
+
+  getSessions(userId: number) {
+    return this.deps.db
+      .select({
+        deviceInfo: usersSessions.deviceInfo,
+        lastActivityAt: usersSessions.lastActivityAt,
+        id: usersSessions.id,
+      })
+      .from(usersSessions)
+      .where(eq(usersSessions.userId, userId));
+  }
+
+  terminateSession(id: number) {
+    return this.deps.db.delete(usersSessions).where(eq(usersSessions.id, id));
   }
 }

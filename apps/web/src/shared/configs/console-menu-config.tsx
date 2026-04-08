@@ -8,6 +8,7 @@ import {
   LibraryIcon,
   MapIcon,
   NewspaperIcon,
+  RectangleEllipsisIcon,
   TrophyIcon,
   UserIcon,
   VideotapeIcon,
@@ -86,10 +87,17 @@ export const consoleMenuConfig = {
   },
   sessions: {
     id: 'sessions',
-    route: '/console',
+    route: '/console/sessions',
     title: 'Sessions',
     icon: <KeyRoundIcon />,
     color: 'color-purple-light',
+  },
+  password: {
+    id: 'password',
+    route: '/console/password',
+    title: 'Password',
+    icon: <RectangleEllipsisIcon />,
+    color: 'color-lime-primary',
   },
 } satisfies Record<string, MenuConfigItem>;
 
@@ -113,6 +121,6 @@ export const consoleMenuGroups: ConsoleMenuGroup[] = [
   },
   {
     title: 'Account',
-    itemIds: ['sessions'],
+    itemIds: ['sessions', 'password'],
   },
 ];

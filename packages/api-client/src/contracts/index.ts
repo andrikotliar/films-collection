@@ -12,3 +12,4 @@ export * from './page-content.contract';
 export * from './pending-films.contract';
 export * from './people.contract';
 export * from './studios.contract';
+export * from './users.contract';

@@ -666,6 +666,7 @@ export const usersSessions = pgTable(
     sessionId: varchar('session_id').notNull(),
     refreshToken: varchar('refresh_token'),
     deviceInfo: jsonb('device_info').$type<DeviceInfo>(),
+    lastActivityAt: timestamp('last_activity_at', { precision: 3, mode: 'string' }),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())
@@ -703,4 +704,5 @@ export type FilmCollection = typeof filmsCollections.$inferSelect;
 export type FilmGenre = typeof filmsGenres.$inferInsert;
 export type FilmStudio = typeof filmsStudios.$inferInsert;
 export type FilmCountry = typeof filmsCountries.$inferInsert;
+export type User = typeof users.$inferInsert;
 export type UserSession = typeof usersSessions.$inferInsert;

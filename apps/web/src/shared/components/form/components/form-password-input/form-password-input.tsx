@@ -1,5 +1,5 @@
 import { useFormContext } from 'react-hook-form';
-import { PasswordInput, type PasswordInputProps } from './password-input';
+import { PasswordInput, type PasswordInputProps } from '../../../password-input/password-input';
 import type { FormFieldProps } from '~/shared/types';
 
 export const FormPasswordInput = ({ name, ...props }: FormFieldProps<PasswordInputProps>) => {

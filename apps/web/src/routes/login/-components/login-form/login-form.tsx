@@ -1,12 +1,4 @@
-import {
-  FormPasswordInput,
-  Logo,
-  Form,
-  CenteredBlock,
-  api,
-  type Input,
-  LocalStorage,
-} from '~/shared';
+import { Logo, Form, CenteredBlock, api, type Input, LocalStorage } from '~/shared';
 import { LogInIcon } from 'lucide-react';
 import { LoginSchema } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
@@ -52,7 +44,7 @@ export const LoginForm = () => {
         <Logo width={120} />
       </CenteredBlock>
       <Form.TextInput name="username" label="Username" />
-      <FormPasswordInput name="password" label="Password" />
+      <Form.PasswordInput name="password" label="Password" />
     </Form>
   );
 };

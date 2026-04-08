@@ -32,7 +32,7 @@ import {
 } from '~/modules/pending-films';
 import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people';
 import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios';
-import { UsersRepository, UsersService } from '~/modules/users';
+import { UsersRepository, usersRouter, UsersService } from '~/modules/users';
 import { ConfigService } from '~/modules/config';
 import { AwsService } from '~/modules/aws/aws.service';
 import type { Router } from '~/shared';
@@ -86,4 +86,5 @@ export const routers: Router[] = [
   pendingFilmsRouter,
   peopleRouter,
   studiosRouter,
+  usersRouter,
 ];

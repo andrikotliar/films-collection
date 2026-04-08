@@ -14,6 +14,11 @@ A personal list of films with manually collected data. The app primarily focuses
 - React Hook Form
 - Zod
 
+
+### API client
+
+The `@films-collections/api-client` package provides the API client based on the API clients. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
+
 ### Images
 
 The `poster` column in the `films` table contains image paths. To display them on the frontend put images in any storage that can serve public URLs and support folders.
@@ -35,7 +40,7 @@ Poster starts with the `posters` prefix and follows by the image name.
 
 ### Routers
 
-To build a type safe router, use the `createRouter` and `defineRoute` helpers. The `defineRoute` helpers takes into account schemas to properly type request parameters (body, query string) and endpoint response. The response schema is required.
+To build a type safe router, use the `createRouter` helper. Before creating a router, create a router contract in the `packages/api-client` package. The contract should contain URL, method and schema. To define a correct, type-safe contract, use the `defineContracts` helper.
 
 ## Development server
 
