@@ -34,7 +34,7 @@ type FormResetHandler<TDefaultValues extends Record<PropertyKey, unknown>> = (
 ) => void;
 
 type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema extends z.ZodType> = {
-  onSubmit: (data: TDefaultValues, resetForm: FormResetHandler<TDefaultValues>) => Promise<unknown>;
+  onSubmit: (data: TDefaultValues) => Promise<unknown>;
   defaultValues?: DefaultValues<TDefaultValues>;
   schema: TSchema;
   isLoading?: boolean;
@@ -69,10 +69,7 @@ export const Form = <
 
   return (
     <FormProvider {...form}>
-      <form
-        className={styles.flex_wrapper}
-        onSubmit={form.handleSubmit((data) => onSubmit(data, form.reset))}
-      >
+      <form className={styles.flex_wrapper} onSubmit={form.handleSubmit(onSubmit)}>
         {title && <FormTitle>{title}</FormTitle>}
         {children}
         <div className={styles.actions}>
