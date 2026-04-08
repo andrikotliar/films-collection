@@ -50,6 +50,20 @@
       "when": 1774874587599,
       "tag": "0007_add_films_drafts_table",
       "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1775495329224,
+      "tag": "0008_add_user_sessions",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1775582411726,
+      "tag": "0009_add_last_activity_at_column_to_user_sessions",
+      "breakpoints": true
     }
   ]
 }

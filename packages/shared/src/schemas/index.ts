@@ -14,3 +14,4 @@ export * from './page-content.schema';
 export * from './pending-films.schema';
 export * from './people.schema';
 export * from './studios.schema';
+export * from './users.schema';

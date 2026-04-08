@@ -1,3 +1,4 @@
+import type { DeviceInfo } from '@films-collection/shared';
 import {
   pgTable,
   index,
@@ -13,6 +14,7 @@ import {
   pgEnum,
   numeric,
   jsonb,
+  varchar,
 } from 'drizzle-orm/pg-core';
 
 export const collectionCategory = pgEnum('collection_category', [
@@ -561,7 +563,6 @@ export const users = pgTable(
     id: serial().primaryKey().notNull(),
     username: text().notNull(),
     password: text().notNull(),
-    refreshToken: text('refresh_token'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())
@@ -657,6 +658,35 @@ export const filmsDrafts = pgTable('films_drafts', {
     .notNull(),
 });
 
+export const usersSessions = pgTable(
+  'users_sessions',
+  {
+    id: serial().primaryKey().notNull(),
+    userId: integer('user_id').notNull(),
+    sessionId: varchar('session_id').notNull(),
+    refreshToken: varchar('refresh_token'),
+    deviceInfo: jsonb('device_info').$type<DeviceInfo>(),
+    lastActivityAt: timestamp('last_activity_at', { precision: 3, mode: 'string' }),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
+  },
+  (table) => [
+    foreignKey({
+      columns: [table.userId],
+      foreignColumns: [users.id],
+      name: 'users_sessions_user_id_fkey',
+    })
+      .onDelete('cascade')
+      .onUpdate('cascade'),
+  ],
+);
+
 export type Film = typeof films.$inferSelect;
 export type Genre = typeof genres.$inferSelect;
 export type Person = typeof people.$inferSelect;
@@ -674,3 +704,5 @@ export type FilmCollection = typeof filmsCollections.$inferSelect;
 export type FilmGenre = typeof filmsGenres.$inferInsert;
 export type FilmStudio = typeof filmsStudios.$inferInsert;
 export type FilmCountry = typeof filmsCountries.$inferInsert;
+export type User = typeof users.$inferInsert;
+export type UserSession = typeof usersSessions.$inferInsert;

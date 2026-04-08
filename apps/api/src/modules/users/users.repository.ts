@@ -1,5 +1,5 @@
-import { eq } from 'drizzle-orm';
-import { users } from '~/database/schema';
+import { and, eq } from 'drizzle-orm';
+import { users, usersSessions, type User, type UserSession } from '~/database/schema';
 import { getFirstValue, type Deps } from '~/shared';
 
 export class UsersRepository {
@@ -11,11 +11,22 @@ export class UsersRepository {
         .select({
           id: users.id,
           username: users.username,
-          refreshToken: users.refreshToken,
+          refreshToken: usersSessions.refreshToken,
         })
         .from(users)
+        .leftJoin(usersSessions, eq(usersSessions.userId, users.id))
         .where(eq(users.id, id))
         .limit(1),
+    );
+  }
+
+  update(id: number, payload: Partial<User>) {
+    return getFirstValue(
+      this.deps.db
+        .update(users)
+        .set(payload)
+        .where(eq(users.id, id))
+        .returning({ id: users.id, username: users.username }),
     );
   }
 
@@ -25,10 +36,58 @@ export class UsersRepository {
     );
   }
 
-  updateById(id: number, data: Partial<typeof users.$inferInsert>) {
-    return this.deps.db.update(users).set(data).where(eq(users.id, id)).returning({
-      id: users.id,
-      refreshToken: users.refreshToken,
-    });
+  findByUserIdWithPassword(id: number) {
+    return getFirstValue(this.deps.db.select().from(users).where(eq(users.id, id)).limit(1));
+  }
+
+  updateSession(userId: number, sessionId: string, payload: Partial<UserSession>) {
+    return this.deps.db
+      .update(usersSessions)
+      .set(payload)
+      .where(and(eq(usersSessions.userId, userId), eq(usersSessions.sessionId, sessionId)))
+      .returning({
+        userId: usersSessions.userId,
+        refreshToken: usersSessions.refreshToken,
+      });
+  }
+
+  createSession(payload: UserSession) {
+    return getFirstValue(
+      this.deps.db
+        .insert(usersSessions)
+        .values(payload)
+        .returning({ sessionId: usersSessions.sessionId }),
+    );
+  }
+
+  getUserSession(userId: number, sessionId: string) {
+    return getFirstValue(
+      this.deps.db
+        .select({ refreshToken: usersSessions.refreshToken, userId: usersSessions.userId })
+        .from(usersSessions)
+        .where(and(eq(usersSessions.userId, userId), eq(usersSessions.sessionId, sessionId)))
+        .limit(1),
+    );
+  }
+
+  removeSession(userId: number, sessionId: string) {
+    return this.deps.db
+      .delete(usersSessions)
+      .where(and(eq(usersSessions.userId, userId), eq(usersSessions.sessionId, sessionId)));
+  }
+
+  getSessions(userId: number) {
+    return this.deps.db
+      .select({
+        deviceInfo: usersSessions.deviceInfo,
+        lastActivityAt: usersSessions.lastActivityAt,
+        id: usersSessions.id,
+      })
+      .from(usersSessions)
+      .where(eq(usersSessions.userId, userId));
+  }
+
+  terminateSession(id: number) {
+    return this.deps.db.delete(usersSessions).where(eq(usersSessions.id, id));
   }
 }

@@ -16,6 +16,7 @@ import {
   FormGroup,
   FormMonthDateSelector,
   FormOrderSelect,
+  FormPasswordInput,
   FormRatingInput,
   FormSection,
   FormSelect,
@@ -28,6 +29,10 @@ import {
 } from '~/shared/components/form/components';
 import { useEffect } from 'react';
 
+type FormResetHandler<TDefaultValues extends Record<PropertyKey, unknown>> = (
+  values: TDefaultValues,
+) => void;
+
 type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema extends z.ZodType> = {
   onSubmit: (data: TDefaultValues) => Promise<unknown>;
   defaultValues?: DefaultValues<TDefaultValues>;
@@ -37,7 +42,7 @@ type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema exte
   title?: string;
   submitIcon?: React.ReactNode;
   children?: React.ReactNode;
-  onReset?: (formReset: (values: TDefaultValues) => void) => void;
+  onReset?: (formReset: FormResetHandler<TDefaultValues>) => void;
 };
 
 export const Form = <
@@ -102,3 +107,4 @@ Form.Title = FormTitle;
 Form.Toggle = FormToggle;
 Form.VideoInput = FormVideoInput;
 Form.OrderSelect = FormOrderSelect;
+Form.PasswordInput = FormPasswordInput;

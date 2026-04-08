@@ -3,6 +3,7 @@ import { createRouter, validateAuth } from '~/shared';
 
 export const collectionsRouter = createRouter(collectionsContract, {
   getList: {
+    preHandler: [validateAuth],
     handler: async ({ app }) => {
       const data = await app.container.resolve('collectionsService').getGeneralDataList();
 

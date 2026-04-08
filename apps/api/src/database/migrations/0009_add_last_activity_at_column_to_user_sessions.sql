@@ -1,0 +1,1 @@
+ALTER TABLE "users_sessions" ADD COLUMN "last_activity_at" timestamp(3);

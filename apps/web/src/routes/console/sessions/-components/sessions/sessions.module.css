@@ -1,0 +1,24 @@
+.session {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: var(--border-default);
+}
+
+.session:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.title {
+  font-size: var(--text-lg);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time {
+  color: var(--color-gray-dark);
+  font-size: var(--text-sm);
+}
