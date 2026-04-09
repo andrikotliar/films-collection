@@ -58,12 +58,12 @@ type KebabKeysToCamelCase<T> = {
   [K in keyof T as K extends string ? KebabToCamel<K> : K]: T[K];
 };
 
-const clearUrl = (value: string) => {
-  if (value.startsWith('/')) {
-    return value.slice(1);
+const getUrl = (value: string) => {
+  if (!value.length || value.startsWith('/')) {
+    return value;
   }
 
-  return value;
+  return `/${value}`;
 };
 
 export const createApiClient = (fetchOptions: FetchWrapperOptions) => {
@@ -74,7 +74,7 @@ export const createApiClient = (fetchOptions: FetchWrapperOptions) => {
     const camelCasePrefix = kebabToCamelCase(contract.prefix);
     client[camelCasePrefix] = {};
     for (const [methodKey, methodContract] of Object.entries(contract.routes)) {
-      const apiPath = `/${contract.prefix}/${clearUrl(methodContract.url)}`;
+      const apiPath = `/${contract.prefix}${getUrl(methodContract.url)}`;
 
       client[camelCasePrefix][methodKey] = {
         staticKey: `${camelCasePrefix}.${methodKey}`,

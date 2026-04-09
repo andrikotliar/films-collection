@@ -1,17 +1,10 @@
 import styles from './console-header.module.css';
 import { LayoutGridIcon, LogOutIcon } from 'lucide-react';
 import clsx from 'clsx';
-import {
-  api,
-  Button,
-  consoleMenuConfig,
-  defineCssProperties,
-  LocalStorage,
-  PopupMenu,
-} from '~/shared';
+import { api, Button, consoleMenuConfig, defineCssProperties, PopupMenu } from '~/shared';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from '@tanstack/react-router';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 const menuItems = Object.values(consoleMenuConfig);
 
@@ -20,11 +13,12 @@ export const ConsoleHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
 
   const { mutate: logout } = useMutation({
     mutationFn: api.auth.logout.exec,
     onSuccess: () => {
-      LocalStorage.removeItem('authenticated');
+      queryClient.removeQueries({ queryKey: [api.auth.getState.staticKey] });
       navigate({ to: '/login' });
     },
   });

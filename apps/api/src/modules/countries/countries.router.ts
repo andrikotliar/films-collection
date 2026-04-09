@@ -3,6 +3,7 @@ import { createRouter, validateAuth } from '~/shared';
 
 export const countriesRouter = createRouter(countriesContract, {
   getList: {
+    preHandler: [validateAuth],
     handler: async ({ app }) => {
       const data = await app.container.resolve('countriesService').getBaseDataList();
 

@@ -46,7 +46,13 @@ export class AuthService {
   }
 
   async refreshTokens(token: string, sessionId: string) {
-    const verifiedToken = this.deps.jwtService.verify<VerifiedTokenData>(token);
+    let verifiedToken: VerifiedTokenData | null;
+
+    try {
+      verifiedToken = this.deps.jwtService.verify<VerifiedTokenData>(token);
+    } catch {
+      return null;
+    }
 
     if (!verifiedToken) {
       return null;

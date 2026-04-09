@@ -40,3 +40,9 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+@media (width > 785px) {
+  .hide_filter_wrapper {
+    display: none;
+  }
+}
