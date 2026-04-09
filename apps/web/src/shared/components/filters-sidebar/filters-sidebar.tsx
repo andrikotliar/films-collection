@@ -36,7 +36,7 @@ export const FiltersSidebar = ({
         return;
       }
 
-      if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
+      if (Math.round(window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
         sidebarButtonRef.current.style.transform = `translate(50%, ${100}px)`;
         sidebarButtonRef.current.dataset.hidden = 'true';
         return;
