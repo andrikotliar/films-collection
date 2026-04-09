@@ -1,4 +1,4 @@
-import { Logo, Form, CenteredBlock, api, type Input, LocalStorage } from '~/shared';
+import { Logo, Form, CenteredBlock, api, type Input } from '~/shared';
 import { LogInIcon } from 'lucide-react';
 import { LoginSchema } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
@@ -19,14 +19,12 @@ export const LoginForm = () => {
     },
     onSuccess: (result) => {
       if (result.id) {
-        LocalStorage.setItem('authenticated', true);
-
         if (search.from && search.from.includes('console')) {
-          navigate({ to: search.from });
+          navigate({ to: search.from, replace: true });
           return;
         }
 
-        navigate({ to: '/console' });
+        navigate({ to: '/console', replace: true });
       }
     },
   });

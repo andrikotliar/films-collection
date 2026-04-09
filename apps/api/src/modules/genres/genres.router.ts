@@ -3,6 +3,7 @@ import { genresContract } from '@films-collection/api-client';
 
 export const genresRouter = createRouter(genresContract, {
   getList: {
+    preHandler: [validateAuth],
     handler: async ({ app }) => {
       const data = await app.container.resolve('genresService').getBaseListData();
 

@@ -1,12 +1,12 @@
-import { getAuthState } from '~/shared';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { ConsoleRootLayout } from '~/routes/console/-shared';
+import { getAuthStateQueryOptions } from '~/shared';
 
 export const Route = createFileRoute('/console')({
-  beforeLoad: async () => {
-    const isAuthenticated = getAuthState();
-
-    if (!isAuthenticated) {
+  beforeLoad: async ({ context: { queryClient } }) => {
+    try {
+      await queryClient.ensureQueryData(getAuthStateQueryOptions());
+    } catch {
       throw redirect({ to: '/login', search: { from: window.location.pathname } });
     }
   },

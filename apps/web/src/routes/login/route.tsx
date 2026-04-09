@@ -1,7 +1,7 @@
-import { getAuthState } from '~/shared';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { LoginForm, LoginLayout } from './-components';
 import z from 'zod';
+import { api, getAuthStateQueryOptions } from '~/shared';
 
 const SearchParamsSchema = z.object({
   from: z.string().optional(),
@@ -12,12 +12,14 @@ export const Route = createFileRoute('/login')({
     return SearchParamsSchema.parse(search);
   },
   loaderDeps: ({ search }) => search,
-  beforeLoad: () => {
-    const isAuthenticated = getAuthState();
-
-    if (isAuthenticated) {
-      throw redirect({ to: '/console' });
+  beforeLoad: async ({ context: { queryClient } }) => {
+    try {
+      await queryClient.fetchQuery(getAuthStateQueryOptions());
+    } catch {
+      queryClient.removeQueries({ queryKey: [api.auth.getState.staticKey] });
+      return;
     }
+    throw redirect({ to: '/console' });
   },
   component: PageContainer,
 });

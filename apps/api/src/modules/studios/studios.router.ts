@@ -3,6 +3,7 @@ import { studiosContract } from '@films-collection/api-client';
 
 export const studiosRouter = createRouter(studiosContract, {
   getList: {
+    preHandler: [validateAuth],
     handler: async ({ app }) => {
       const data = await app.container.resolve('studiosService').getBaseDataList();
 
