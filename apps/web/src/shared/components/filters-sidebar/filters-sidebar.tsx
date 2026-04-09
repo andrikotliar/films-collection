@@ -37,13 +37,13 @@ export const FiltersSidebar = ({
       }
 
       if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
-        sidebarButtonRef.current.style.transform = `translateY(${100}px)`;
+        sidebarButtonRef.current.style.transform = `translate(50%, ${100}px)`;
         sidebarButtonRef.current.dataset.hidden = 'true';
         return;
       }
 
       if (sidebarButtonRef.current.dataset.hidden === 'true') {
-        sidebarButtonRef.current.style.transform = `translateY(0)`;
+        sidebarButtonRef.current.style.transform = `translate(50%, 0)`;
         sidebarButtonRef.current.dataset.hidden = 'false';
       }
     };
@@ -67,6 +67,7 @@ export const FiltersSidebar = ({
     <>
       <button onClick={onToggle} className={styles.sidebar_button} ref={sidebarButtonRef}>
         <SlidersHorizontalIcon size={18} />
+        <span>Filters</span>
         {filtersCount > 0 && <span className={styles.sidebar_button_count}>{filtersCount}</span>}
       </button>
       <div
@@ -78,7 +79,7 @@ export const FiltersSidebar = ({
           '--sidebar-top-position': topPosition,
         })}
       >
-        <Filters filtersCount={filtersCount} {...filtersProps} />
+        <Filters filtersCount={filtersCount} onHideFilter={onToggle} {...filtersProps} />
       </div>
     </>
   );

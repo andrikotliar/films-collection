@@ -26,6 +26,7 @@ export type FiltersProps = {
   filtersCount: number;
   onSubmit: (data: FilterValues) => void;
   onReset?: () => void;
+  onHideFilter?: () => void;
 };
 
 const defaultValues: FilterValues = {
@@ -43,6 +44,7 @@ export const Filters = ({
   onSubmit,
   onReset,
   filtersCount,
+  onHideFilter,
 }: FiltersProps) => {
   const filtersForm = useForm({
     defaultValues: {
@@ -73,6 +75,13 @@ export const Filters = ({
             <Button onClick={resetForm} icon={<RefreshCcwIcon />} variant="secondary">
               Reset
             </Button>
+          )}
+          {onHideFilter && (
+            <div className={styles.hide_filter_wrapper}>
+              <Button onClick={onHideFilter} variant="light" fitWidth>
+                Hide filter
+              </Button>
+            </div>
           )}
         </div>
       </form>
