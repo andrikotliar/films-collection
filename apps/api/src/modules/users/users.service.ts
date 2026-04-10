@@ -8,7 +8,7 @@ import {
 } from '~/shared';
 import crypto from 'node:crypto';
 import type { VerifiedTokenData } from '~/modules/auth';
-import type { UpdateUserPasswordInput } from '@films-collection/shared';
+import type { UpdateUserPasswordInput, UserSessionResponse } from '@films-collection/shared';
 import { compare, hash } from 'bcrypt';
 
 export class UsersService {
@@ -45,11 +45,11 @@ export class UsersService {
     );
   }
 
-  deleteSession(userId: number, sessionId: string) {
-    return this.deps.usersRepository.removeSession(userId, sessionId);
+  deleteSession(sessionId: string) {
+    return this.deps.usersRepository.removeSession(sessionId);
   }
 
-  getUserSessions(token: string) {
+  async getUserSessions(token: string, sessionId: string): Promise<UserSessionResponse[]> {
     const tokenData = this.deps.jwtService.decode<VerifiedTokenData>(token);
 
     if (!tokenData) {
@@ -58,7 +58,14 @@ export class UsersService {
       });
     }
 
-    return this.deps.usersRepository.getSessions(tokenData.id);
+    const sessions = await this.deps.usersRepository.getSessions(tokenData.id);
+
+    return sessions.map((session) => ({
+      id: session.id,
+      deviceInfo: session.deviceInfo,
+      lastActivityAt: session.lastActivityAt,
+      isCurrent: session.sessionId === sessionId,
+    }));
   }
 
   terminateSession(id: number) {
