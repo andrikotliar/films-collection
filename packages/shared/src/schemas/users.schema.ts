@@ -9,6 +9,7 @@ export const UserSessionSchema = z.object({
   id: z.number(),
   deviceInfo: DeviceInfoSchema.nullable(),
   lastActivityAt: z.string().nullable(),
+  isCurrent: z.boolean(),
 });
 
 export const UpdateUserPasswordInputSchema = z.object({
@@ -22,5 +23,5 @@ export const UpdateUserPasswordInputSchema = z.object({
 });
 
 export type DeviceInfo = z.infer<typeof DeviceInfoSchema>;
-export type UserSession = z.infer<typeof UserSessionSchema>;
+export type UserSessionResponse = z.infer<typeof UserSessionSchema>;
 export type UpdateUserPasswordInput = z.infer<typeof UpdateUserPasswordInputSchema>;

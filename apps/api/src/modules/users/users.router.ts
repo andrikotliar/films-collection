@@ -6,12 +6,13 @@ export const usersRouter = createRouter(usersContracts, {
     preHandler: [validateAuth],
     async handler({ request, app }) {
       const token = getCookie(request, 'ACCESS_TOKEN');
+      const sessionId = getCookie(request, 'SESSION_ID');
 
-      if (!token) {
-        throw new UnauthorizedException();
+      if (!token || !sessionId) {
+        throw new UnauthorizedException({ code: 'TOKEN_MISSED' });
       }
 
-      const data = await app.container.resolve('usersService').getUserSessions(token);
+      const data = await app.container.resolve('usersService').getUserSessions(token, sessionId);
 
       return { data };
     },
@@ -31,7 +32,9 @@ export const usersRouter = createRouter(usersContracts, {
     async handler({ request, app }) {
       const token = getCookie(request, 'ACCESS_TOKEN');
       if (!token) {
-        throw new UnauthorizedException();
+        throw new UnauthorizedException({
+          code: 'TOKEN_MISSED',
+        });
       }
 
       const data = await app.container.resolve('usersService').updatePassword(token, request.body);

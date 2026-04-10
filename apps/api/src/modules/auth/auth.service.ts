@@ -51,6 +51,7 @@ export class AuthService {
     try {
       verifiedToken = this.deps.jwtService.verify<VerifiedTokenData>(token);
     } catch {
+      await this.deps.usersService.deleteSession(sessionId);
       return null;
     }
 
@@ -88,7 +89,7 @@ export class AuthService {
       return null;
     }
 
-    return this.deps.usersService.deleteSession(decodedToken.id, sessionId);
+    return this.deps.usersService.deleteSession(sessionId);
   }
 
   private createToken(payload: Record<string, unknown>, expTime: number) {

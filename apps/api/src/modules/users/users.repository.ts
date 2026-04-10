@@ -1,4 +1,4 @@
-import { and, eq } from 'drizzle-orm';
+import { and, eq, desc } from 'drizzle-orm';
 import { users, usersSessions, type User, type UserSession } from '~/database/schema';
 import { getFirstValue, type Deps } from '~/shared';
 
@@ -70,10 +70,8 @@ export class UsersRepository {
     );
   }
 
-  removeSession(userId: number, sessionId: string) {
-    return this.deps.db
-      .delete(usersSessions)
-      .where(and(eq(usersSessions.userId, userId), eq(usersSessions.sessionId, sessionId)));
+  removeSession(sessionId: string) {
+    return this.deps.db.delete(usersSessions).where(eq(usersSessions.sessionId, sessionId));
   }
 
   getSessions(userId: number) {
@@ -82,9 +80,11 @@ export class UsersRepository {
         deviceInfo: usersSessions.deviceInfo,
         lastActivityAt: usersSessions.lastActivityAt,
         id: usersSessions.id,
+        sessionId: usersSessions.sessionId,
       })
       .from(usersSessions)
-      .where(eq(usersSessions.userId, userId));
+      .where(eq(usersSessions.userId, userId))
+      .orderBy(desc(usersSessions.lastActivityAt));
   }
 
   terminateSession(id: number) {

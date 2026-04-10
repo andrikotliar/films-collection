@@ -37,15 +37,17 @@ export const Sessions = () => {
             <div>
               <div className={styles.title}>
                 OS: {session.deviceInfo?.os ?? 'Unknown'} – Browser:{' '}
-                {session.deviceInfo?.browser ?? 'Unknown'}
+                {session.deviceInfo?.browser ?? 'Unknown'} {session.isCurrent ? '(Current)' : ''}
               </div>
               <div className={styles.time}>
                 Last activity: {getLastActivity(session.lastActivityAt)}
               </div>
             </div>
-            <Button size="small" onClick={() => setSelectedSession(session)}>
-              Terminate session
-            </Button>
+            {!session.isCurrent && (
+              <Button size="small" onClick={() => setSelectedSession(session)}>
+                Terminate session
+              </Button>
+            )}
           </div>
         ))}
       </Panel>
