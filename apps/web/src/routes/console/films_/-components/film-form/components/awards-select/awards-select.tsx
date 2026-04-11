@@ -3,7 +3,7 @@ import { Form } from '~/shared';
 import { NominationSelect } from './components';
 import type { ListOption } from '@films-collection/shared';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 
 type AwardsSelectProps = {
   awardOptions: ListOption<number>[];

@@ -3,7 +3,7 @@ import { useFormContext, useWatch } from 'react-hook-form';
 import { api, FieldError, Form, getNominationsByAwardQueryOptions, Loader } from '~/shared';
 import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 import { autoDetectShouldIncludeActor } from '~/routes/console/films_/-components/film-form/components/awards-select/helpers';
 
 type NominationSelectProps = {

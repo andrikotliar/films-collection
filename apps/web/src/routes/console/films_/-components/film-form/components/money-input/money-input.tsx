@@ -2,7 +2,7 @@ import { Button, Form, toaster } from '~/shared';
 import styles from './money-input.module.css';
 import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 
 type MoneyInputProps = {
   label: string;

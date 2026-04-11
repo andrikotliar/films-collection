@@ -5,7 +5,7 @@ import styles from './translate-description.module.css';
 import { LanguagesIcon } from 'lucide-react';
 import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 import sanitize from 'sanitize-html';
 import { useMutation } from '@tanstack/react-query';
 

@@ -2,10 +2,10 @@ import { type MenuConfigItem } from '../types';
 import {
   BuildingIcon,
   CalendarIcon,
-  CalendarSyncIcon,
   ClapperboardIcon,
   KeyRoundIcon,
   LibraryIcon,
+  ListStartIcon,
   MapIcon,
   NewspaperIcon,
   RectangleEllipsisIcon,
@@ -71,11 +71,11 @@ export const consoleMenuConfig = {
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
   },
-  pendingFilms: {
-    id: 'pending-films',
-    route: '/console/pending-films',
-    title: 'Pending Films',
-    icon: <CalendarSyncIcon />,
+  queue: {
+    id: 'queue',
+    route: '/console/queue',
+    title: 'Films Queue',
+    icon: <ListStartIcon />,
     color: 'color-orange-primary',
   },
   studios: {
@@ -109,7 +109,7 @@ type ConsoleMenuGroup = {
 export const consoleMenuGroups: ConsoleMenuGroup[] = [
   {
     title: 'Films',
-    itemIds: ['films', 'pendingFilms'],
+    itemIds: ['films', 'queue'],
   },
   {
     title: 'Base info',

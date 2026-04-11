@@ -9,7 +9,7 @@ import {
   getFilmChaptersQueryOptions,
   Loader,
 } from '~/shared';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 import { useParams } from '@tanstack/react-router';
 import type { ListOption } from '@films-collection/shared';
 

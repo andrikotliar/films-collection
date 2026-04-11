@@ -1,5 +1,5 @@
 import z from 'zod';
-import { PersonRole, TitleStyle, TitleType } from '~/enums';
+import { FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
@@ -58,9 +58,9 @@ export const CreateFilmInputSchema = z.object({
       url: z.string(),
     }),
   ),
-  draft: z.boolean(),
   pendingFilmId: z.coerce.number().nullable().optional(),
   tempDraftId: z.coerce.number().optional(),
+  status: z.enum(FilmStatus).optional(),
   seriesExtension: SeriesExtensionSchema.nullable(),
 });
 
@@ -126,7 +126,6 @@ export const FilmResponseSchema = z.object({
   releaseDate: z.string(),
   budget: z.coerce.number().nullable(),
   boxOffice: z.coerce.number().nullable(),
-  draft: z.boolean(),
   chapterKey: z.string().nullable(),
   genres: z.array(GenreResponseSchema.omit({ createdAt: true, updatedAt: true })),
   studios: z.array(StudioResponseSchema.omit({ createdAt: true, updatedAt: true })),
@@ -203,7 +202,7 @@ export const FilmsSearchResponseSchema = z.array(
 );
 
 export const FilmsAdminListResponseSchema = z.object({
-  list: z.array(FilmResponseSchema.pick({ id: true, title: true, draft: true, poster: true })),
+  list: z.array(FilmResponseSchema.pick({ id: true, title: true, poster: true })),
   total: z.coerce.number(),
 });
 
@@ -214,7 +213,6 @@ export const FilmChaptersResponseSchema = z.array(
 export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
   .omit({
     seriesExtension: true,
-    pendingFilmId: true,
   })
   .extend({
     seriesExtension: SeriesExtensionSchema.partial().nullable().optional(),
@@ -313,6 +311,18 @@ export const FilmDraftFilmIdParamsSchema = z.object({
   filmId: z.string(),
 });
 
+export const GetIncompleteFilmsQuerySchema = z.object({
+  q: z.string().optional().nullable(),
+  orderKey: z.string().optional(),
+  order: z.enum(['asc', 'desc']).optional(),
+  status: z.enum(FilmStatus),
+  pageIndex: z.coerce.number().min(0).optional(),
+});
+
+export const IncompleteFilmsListResponseSchema = z.array(
+  FilmResponseSchema.pick({ id: true, title: true, poster: true, trailers: true }),
+);
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
@@ -326,3 +336,4 @@ export type TranslateDescriptionInput = z.infer<typeof TranslateDescriptionInput
 export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
+export type GetIncompleteFilmsQuery = z.infer<typeof GetIncompleteFilmsQuerySchema>;

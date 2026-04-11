@@ -1,17 +1,5 @@
 import type { GetFilmsListQuery } from '@films-collection/shared';
-import {
-  and,
-  between,
-  eq,
-  exists,
-  gte,
-  ilike,
-  inArray,
-  isNull,
-  lte,
-  sql,
-  type SQL,
-} from 'drizzle-orm';
+import { and, between, eq, exists, gte, ilike, inArray, isNull, lte, type SQL } from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
 import {
   filmAwardNominations,
@@ -22,6 +10,7 @@ import {
   filmsPeople,
   filmsStudios,
   seriesExtensions,
+  type filmStatus,
 } from '~/database/schema';
 import type { Database } from '~/plugins';
 import { sqlSearchQuery } from '~/shared';
@@ -36,11 +25,11 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   return between(column, value - MONEY_RANGE_MILLIONS, value + MONEY_RANGE_MILLIONS);
 };
 
-export type FilmsListFilters = GetFilmsListQuery & {
-  includeDrafts?: boolean;
+type PlainFilters = GetFilmsListQuery & {
+  status?: (typeof filmStatus.enumValues)[number];
 };
 
-export const mapListFilters = (plainFilters: FilmsListFilters, db: Database): SQL[] => {
+export const mapListFilters = (plainFilters: PlainFilters, db: Database): SQL[] => {
   const {
     genreIds,
     collectionId,
@@ -59,15 +48,11 @@ export const mapListFilters = (plainFilters: FilmsListFilters, db: Database): SQ
     style,
     budget,
     boxOffice,
-    includeDrafts,
     q,
+    status = 'ADDED',
   } = plainFilters;
 
-  const filters: SQL[] = [isNull(films.deletedAt)];
-
-  if (!includeDrafts) {
-    filters.push(eq(films.draft, sql`false`));
-  }
+  const filters: SQL[] = [isNull(films.deletedAt), eq(films.status, status)];
 
   if (startDate) {
     filters.push(gte(films.releaseDate, startDate));

@@ -10,6 +10,7 @@ import {
   type TranslateDescriptionInput,
   type CreateFilmDraftInput,
   type FilmDraftResponse,
+  type GetIncompleteFilmsQuery,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -26,7 +27,6 @@ export class FilmsService {
       | 'peopleService'
       | 'awardsService'
       | 'collectionsService'
-      | 'pendingFilmsService'
       | 'genresService'
       | 'countriesService'
       | 'studiosService'
@@ -77,7 +77,6 @@ export class FilmsService {
   getAdminList(queries: GetFilmsListQuery) {
     return this.deps.filmsRepository.findAndCount({
       ...queries,
-      includeDrafts: true,
       orderKey: queries.orderKey ?? 'updatedAt',
       order: queries.order ?? 'desc',
     });
@@ -98,13 +97,9 @@ export class FilmsService {
   }
 
   async createFilm(input: CreateFilmInput) {
-    const { pendingFilmId, tempDraftId, ...payload } = input;
+    const { tempDraftId, ...payload } = input;
 
     const newFilmId = await this.deps.filmsRepository.create(payload);
-
-    if (pendingFilmId) {
-      await this.deps.pendingFilmsService.deletePendingFilm(pendingFilmId);
-    }
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
@@ -231,6 +226,10 @@ export class FilmsService {
 
   deleteDraft(id: number) {
     return this.deps.filmsRepository.deleteDraft(id);
+  }
+
+  getIncompleteFilmsList(query: GetIncompleteFilmsQuery) {
+    return this.deps.filmsRepository.getIncompleteFilmsByStatus(query);
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

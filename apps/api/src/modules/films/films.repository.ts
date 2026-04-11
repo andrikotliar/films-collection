@@ -6,10 +6,12 @@ import {
   type CreateFilmInput,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
+  type GetFilmsListQuery,
+  type GetIncompleteFilmsQuery,
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapListFilters, type FilmsListFilters } from '~/modules/films/helpers';
+import { mapListFilters } from '~/modules/films/helpers';
 import {
   and,
   asc,
@@ -75,7 +77,7 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
-  async findAndCount(queries: FilmsListFilters) {
+  async findAndCount(queries: GetFilmsListQuery) {
     const filters = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order);
 
@@ -105,7 +107,6 @@ export class FilmsRepository {
         rating: true,
         chapterKey: true,
         type: true,
-        draft: true,
         chapterOrder: true,
         overview: true,
       },
@@ -197,7 +198,7 @@ export class FilmsRepository {
           orderBy: asc(filmTrailers.order),
         },
       },
-      where: and(eq(films.id, id), isNull(films.deletedAt)),
+      where: and(eq(films.id, id), isNull(films.deletedAt), eq(films.status, 'ADDED')),
     });
   }
 
@@ -211,7 +212,6 @@ export class FilmsRepository {
         style: true,
         poster: true,
         rating: true,
-        draft: true,
         budget: true,
         boxOffice: true,
         duration: true,
@@ -288,7 +288,11 @@ export class FilmsRepository {
           },
         },
       },
-      where: and(isNull(films.deletedAt), ilike(films.title, sqlSearchQuery(query))),
+      where: and(
+        isNull(films.deletedAt),
+        ilike(films.title, sqlSearchQuery(query)),
+        eq(films.status, 'ADDED'),
+      ),
       limit: PAGE_LIMITS.default,
     });
   }
@@ -340,7 +344,7 @@ export class FilmsRepository {
     await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
-  create(input: Omit<CreateFilmInput, 'pendingFilmId' | 'tempDraftId'>) {
+  create(input: Omit<CreateFilmInput, 'tempDraftId'>) {
     const {
       castAndCrew,
       awards,
@@ -428,7 +432,6 @@ export class FilmsRepository {
         overview: true,
         chapterKey: true,
         chapterOrder: true,
-        draft: true,
       },
       with: {
         genres: {
@@ -744,6 +747,26 @@ export class FilmsRepository {
 
   deleteAllDraftsOfFilm(filmId: string) {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
+  }
+
+  getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
+    const filters = mapListFilters(query, this.deps.db);
+    const sorting = this.mapSorting(query.orderKey ?? 'updatedAt', query.order ?? 'desc');
+
+    return this.deps.db.query.films.findMany({
+      columns: {
+        id: true,
+        title: true,
+        poster: true,
+      },
+      where: and(...filters),
+      limit: PAGE_LIMITS.default,
+      offset: getSkipValue('default', query.pageIndex),
+      orderBy: sorting,
+      with: {
+        trailers: true,
+      },
+    });
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

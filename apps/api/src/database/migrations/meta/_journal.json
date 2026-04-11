@@ -64,6 +64,13 @@
       "when": 1775582411726,
       "tag": "0009_add_last_activity_at_column_to_user_sessions",
       "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1775847067521,
+      "tag": "0010_add_films_status_column",
+      "breakpoints": true
     }
   ]
 }

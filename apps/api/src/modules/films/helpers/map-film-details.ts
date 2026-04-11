@@ -17,7 +17,7 @@ import { sortGroupedPeople } from '~/modules/films/helpers/sort-grouped-people';
 import type { GroupedAwards, GroupedPeople, PickBaseData, Timestamps } from '~/modules/films/types';
 import { nullable } from '~/shared';
 
-type ExtendedFilm = Omit<Film, 'style' | Timestamps> & {
+type ExtendedFilm = Omit<Film, 'style' | 'status' | Timestamps> & {
   genres: Array<{ genre: PickBaseData<Genre> }>;
   studios: Array<{ studio: PickBaseData<Studio> }>;
   countries: Array<{ country: PickBaseData<Country> }>;

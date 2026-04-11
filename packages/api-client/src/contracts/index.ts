@@ -9,7 +9,6 @@ export * from './films.contract';
 export * from './genres.contract';
 export * from './initial-data.contract';
 export * from './page-content.contract';
-export * from './pending-films.contract';
 export * from './people.contract';
 export * from './studios.contract';
 export * from './users.contract';

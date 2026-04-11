@@ -12,3 +12,4 @@ export * from './throw-if-not-found';
 export * from './sql-search-query';
 export * from './get-latest-entries-filter';
 export * from './get-device-info';
+export * from './get-request-user';
