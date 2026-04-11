@@ -1,0 +1,126 @@
+{
+  "id": 273,
+  "title": "La Palma",
+  "releaseDate": "2024-12-12",
+  "type": "SERIES",
+  "duration": 50,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": "A Norwegian family arrives on the island of La Palma for a vacation, which will soon turn into chaos, as local scientists have determined that an ancient volcano is about to awaken, threatening to destroy the island and potentially leading to an unprecedented disaster for the nearby area.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/la_palma",
+  "genres": [
+    {
+      "title": "Disaster",
+      "id": 11
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Norway",
+      "id": 18
+    }
+  ],
+  "studios": [
+    {
+      "title": "Fantefilm",
+      "id": 84
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/2zFVoLQyWjc?si=e6lud8MEaHFQtKpM",
+      "order": 1,
+      "id": 317
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2662,
+      "name": " Kasper Barfoed",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2663,
+      "name": "Lars Gudmestad",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2664,
+      "name": "Herald Rosenlow-Eag",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2665,
+      "name": "Thea Sofie Loch Naess",
+      "role": "ACTOR",
+      "details": "Marie Ekdal"
+    },
+    {
+      "id": 2666,
+      "name": "Anders Baasmo",
+      "role": "ACTOR",
+      "details": "Fredrik"
+    },
+    {
+      "id": 2667,
+      "name": "Alma Günter",
+      "role": "ACTOR",
+      "details": "Sara"
+    },
+    {
+      "id": 2668,
+      "name": " Ingrid Bolso Berdal",
+      "role": "ACTOR",
+      "details": "Jennifer"
+    },
+    {
+      "id": 2669,
+      "name": "Bernard Storm Lager",
+      "role": "ACTOR",
+      "details": "Tobias"
+    },
+    {
+      "id": 2670,
+      "name": "Amund Harboe",
+      "role": "ACTOR",
+      "details": "Erik"
+    },
+    {
+      "id": 2671,
+      "name": "Jenny Evensen",
+      "role": "ACTOR",
+      "details": "Charlie"
+    },
+    {
+      "id": 2672,
+      "name": "Jorge de Juan",
+      "role": "ACTOR",
+      "details": "Alvaro"
+    },
+    {
+      "id": 2673,
+      "name": "Johannes Ringen",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2674,
+      "name": "Jan Richter-Friis",
+      "role": "CAMERAMAN",
+      "details": ""
+    }
+  ],
+  "seriesExtension": {
+    "id": 27,
+    "episodesTotal": 4,
+    "seasonsTotal": 1,
+    "finishedAt": "2024-12-12"
+  }
+}
