@@ -1,0 +1,104 @@
+{
+  "id": 274,
+  "title": "Wish Dragon",
+  "releaseDate": "2021-06-11",
+  "type": "FILM",
+  "duration": 98,
+  "budget": 0,
+  "boxOffice": 21000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/wish_dragon",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "China",
+      "id": 14
+    },
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Thailand",
+      "id": 21
+    },
+    {
+      "title": "Czech Republic",
+      "id": 9
+    }
+  ],
+  "studios": [
+    {
+      "title": "Base Animation",
+      "id": 85
+    },
+    {
+      "title": "Sony Pictures Animation",
+      "id": 11
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/uWIRyU5fuzU?si=gG8SimdifFUMgftp",
+      "order": 1,
+      "id": 318
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2675,
+      "name": "Chris Appelhans",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2675,
+      "name": "Chris Appelhans",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2676,
+      "name": "Jimmy Wong",
+      "role": "ACTOR",
+      "details": "Din"
+    },
+    {
+      "id": 578,
+      "name": "John Cho",
+      "role": "ACTOR",
+      "details": "Long"
+    },
+    {
+      "id": 2677,
+      "name": "Constance Wu",
+      "role": "ACTOR",
+      "details": "Mom"
+    },
+    {
+      "id": 2574,
+      "name": "Natasha Liu Bordizzo",
+      "role": "ACTOR",
+      "details": "Li Na"
+    },
+    {
+      "id": 2678,
+      "name": "Philip Klein",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ]
+}
