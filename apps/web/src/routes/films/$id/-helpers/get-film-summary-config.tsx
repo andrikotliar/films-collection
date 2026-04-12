@@ -36,7 +36,7 @@ export const getFilmSummaryConfig = (
       icon: <CalendarIcon />,
       content: (
         <Dates
-          releaseDate={film.releaseDate.toString()}
+          releaseDate={film.releaseDate ? film.releaseDate.toString() : null}
           finishedAt={film.seriesExtension?.finishedAt?.toString()}
         />
       ),

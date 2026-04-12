@@ -71,6 +71,13 @@
       "when": 1775847067521,
       "tag": "0010_add_films_status_column",
       "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1776009579440,
+      "tag": "0011_pending_films_cleanup",
+      "breakpoints": true
     }
   ]
 }

@@ -2,7 +2,7 @@ import styles from './dates.module.css';
 import { ReleaseDate } from '../release-date/release-date';
 
 type DatesProps = {
-  releaseDate: string;
+  releaseDate: string | null;
   finishedAt?: string;
 };
 

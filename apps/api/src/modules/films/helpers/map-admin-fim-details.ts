@@ -37,7 +37,7 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     countries: mapInnerId(film.countries, 'countryId'),
     studios: mapInnerId(film.studios, 'studioId'),
     collections: mapInnerId(film.collections, 'collectionId'),
-    releaseDate: film.releaseDate.split('T')[0],
+    releaseDate: film.releaseDate ? film.releaseDate.split('T')[0] : null,
     awards: film.awards.map((award) => ({
       ...award,
       personId: award.actorId,
