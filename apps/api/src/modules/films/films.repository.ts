@@ -621,10 +621,14 @@ export class FilmsRepository {
   }
 
   getCompleteData(queries: GetCompleteDataListQuery) {
+    const filters: SQL[] = [eq(films.status, 'ADDED')];
+
+    if (queries.intervalDays) {
+      filters.push(getLatestEntriesFilter(films.updatedAt, queries.intervalDays));
+    }
+
     return this.deps.db.query.films.findMany({
-      where: queries.newestOnly
-        ? getLatestEntriesFilter(films.updatedAt, queries.intervalDays)
-        : undefined,
+      where: and(...filters),
       orderBy: desc(films.updatedAt),
       columns: {
         id: true,

@@ -76,7 +76,7 @@ export const consoleMenuConfig = {
   upcomingFilms: {
     id: 'upcoming',
     route: '/console/queue/upcoming',
-    title: 'Watched Films',
+    title: 'Upcoming Films',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
   },

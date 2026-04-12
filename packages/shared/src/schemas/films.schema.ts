@@ -58,7 +58,6 @@ export const CreateFilmInputSchema = z.object({
       url: z.string(),
     }),
   ),
-  pendingFilmId: z.coerce.number().nullable().optional(),
   tempDraftId: z.coerce.number().optional(),
   status: z.enum(FilmStatus).optional(),
   seriesExtension: SeriesExtensionSchema.nullable(),

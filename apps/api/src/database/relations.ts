@@ -5,7 +5,6 @@ import {
   collectionEvents,
   collections,
   filmsCollections,
-  pendingFilms,
   filmTrailers,
   awards,
   filmAwardNominations,
@@ -57,7 +56,6 @@ export const collectionEventsRelations = relations(collectionEvents, ({ one }) =
 export const collectionsRelations = relations(collections, ({ many }) => ({
   collectionEvents: many(collectionEvents),
   films: many(filmsCollections),
-  pendingFilms: many(pendingFilms),
 }));
 
 export const filmsCollectionsRelations = relations(filmsCollections, ({ one }) => ({
@@ -67,13 +65,6 @@ export const filmsCollectionsRelations = relations(filmsCollections, ({ one }) =
   }),
   collection: one(collections, {
     fields: [filmsCollections.collectionId],
-    references: [collections.id],
-  }),
-}));
-
-export const pendingFilmsRelations = relations(pendingFilms, ({ one }) => ({
-  collection: one(collections, {
-    fields: [pendingFilms.collectionId],
     references: [collections.id],
   }),
 }));
