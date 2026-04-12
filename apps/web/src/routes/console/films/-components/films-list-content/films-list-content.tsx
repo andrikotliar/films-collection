@@ -1,10 +1,9 @@
 import { PAGE_LIMITS } from '@films-collection/shared';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { getRouteApi } from '@tanstack/react-router';
-import { List } from '~/routes/console/-shared';
+import { List, useDeleteFilm } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components/admin-films-tools/admin-films-tools';
 import {
-  api,
   FiltersSidebar,
   filterValues,
   getFilmsAdminListQueryOptions,
@@ -28,12 +27,7 @@ export const FilmsListContent = () => {
 
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
-  const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
-    mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
-    meta: {
-      invalidateQueries: { queryKey: api.films.getAdminList.staticKey },
-    },
-  });
+  const { mutateAsync: handleDeleteFilm, isPending } = useDeleteFilm();
 
   const handlePageChange = (pageIndex: number) => {
     navigate({

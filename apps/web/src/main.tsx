@@ -5,7 +5,14 @@ import { createRouter, RouterProvider } from '@tanstack/react-router';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { routeTree } from './routeTree.gen';
-import { NotFound, Toaster, ErrorScreen, PageLoader, queryClient } from '~/shared';
+import {
+  NotFound,
+  Toaster,
+  ErrorScreen,
+  PageLoader,
+  queryClient,
+  type InvalidateQueryOption,
+} from '~/shared';
 
 const router = createRouter({
   routeTree,
@@ -18,10 +25,6 @@ const router = createRouter({
   defaultPendingMinMs: 0,
   context: { queryClient },
 });
-
-type InvalidateQueryOption = {
-  queryKey: string | number | (string | number)[];
-};
 
 declare module '@tanstack/react-router' {
   interface Register {

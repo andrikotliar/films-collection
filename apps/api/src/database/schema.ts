@@ -33,6 +33,7 @@ export const personRole = pgEnum('person_role', [
 ]);
 export const titleStyle = pgEnum('title_style', ['LIVE_ACTION', 'ANIMATION']);
 export const titleType = pgEnum('title_type', ['FILM', 'SERIES']);
+export const filmStatus = pgEnum('film_status', ['ADDED', 'WATCHED', 'PLANNED', 'UPCOMING']);
 
 export const films = pgTable(
   'films',
@@ -57,7 +58,7 @@ export const films = pgTable(
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())
       .notNull(),
-    draft: boolean().default(false).notNull(),
+    status: filmStatus().default('PLANNED').notNull(),
     deletedAt: timestamp({ precision: 3, mode: 'string' }),
     overview: text(),
   },

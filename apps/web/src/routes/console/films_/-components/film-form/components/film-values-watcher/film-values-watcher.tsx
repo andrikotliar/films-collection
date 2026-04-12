@@ -1,7 +1,7 @@
 import { api, countObjectKeys, debounce, getObjectsDiff } from '~/shared';
 import { useCallback, useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 import type z from 'zod';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useParams } from '@tanstack/react-router';

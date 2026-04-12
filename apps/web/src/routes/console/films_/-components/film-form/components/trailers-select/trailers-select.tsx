@@ -2,7 +2,7 @@ import { SortableList, Form } from '~/shared';
 import { type DragEndEvent } from '@dnd-kit/core';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 
 export const TrailersSelect = () => {
   const { control, watch, formState } = useFormContext<z.infer<typeof FilmFormSchema>>();

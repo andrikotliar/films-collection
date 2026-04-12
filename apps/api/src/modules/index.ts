@@ -25,11 +25,6 @@ import {
   pageContentRouter,
   PageContentService,
 } from '~/modules/page-content';
-import {
-  PendingFilmsRepository,
-  pendingFilmsRouter,
-  PendingFilmsService,
-} from '~/modules/pending-films';
 import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people';
 import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios';
 import { UsersRepository, usersRouter, UsersService } from '~/modules/users';
@@ -58,8 +53,6 @@ export const services = {
   initialDataService: InitialDataService,
   pageContentRepository: PageContentRepository,
   pageContentService: PageContentService,
-  pendingFilmsRepository: PendingFilmsRepository,
-  pendingFilmsService: PendingFilmsService,
   peopleRepository: PeopleRepository,
   peopleService: PeopleService,
   studiosRepository: StudiosRepository,
@@ -83,7 +76,6 @@ export const routers: Router[] = [
   genresRouter,
   initialDataRouter,
   pageContentRouter,
-  pendingFilmsRouter,
   peopleRouter,
   studiosRouter,
   usersRouter,

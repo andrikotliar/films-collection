@@ -12,3 +12,4 @@ export * from './form-field-props';
 export * from './extract-params';
 export * from './entity';
 export * from './component';
+export * from './invalidate-query-option';

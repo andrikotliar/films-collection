@@ -12,7 +12,7 @@ import type {
 } from '~/database/schema';
 import type { Timestamps } from '~/modules/films/types';
 
-type EditableFilm = Omit<Film, Timestamps | 'id'> & {
+type EditableFilm = Omit<Film, Timestamps | 'id' | 'status'> & {
   collections: Pick<FilmCollection, 'collectionId'>[];
   genres: Pick<FilmGenre, 'genreId'>[];
   countries: Pick<FilmCountry, 'countryId'>[];
@@ -23,7 +23,10 @@ type EditableFilm = Omit<Film, Timestamps | 'id'> & {
   seriesExtensions: SeriesExtension[];
 };
 
-const mapInnerId = <T extends Record<string, number>>(entities: T[], key: keyof T): number[] => {
+export const mapInnerId = <T extends Record<string, number>>(
+  entities: T[],
+  key: keyof T,
+): number[] => {
   return entities.map((item) => item[key]);
 };
 

@@ -3,11 +3,10 @@ import {
   BadRequestException,
   NotFoundException,
   throwIfNotFound,
-  UnauthorizedException,
   type Deps,
+  type RequestUser,
 } from '~/shared';
 import crypto from 'node:crypto';
-import type { VerifiedTokenData } from '~/modules/auth';
 import type { UpdateUserPasswordInput, UserSessionResponse } from '@films-collection/shared';
 import { compare, hash } from 'bcrypt';
 
@@ -49,22 +48,14 @@ export class UsersService {
     return this.deps.usersRepository.removeSession(sessionId);
   }
 
-  async getUserSessions(token: string, sessionId: string): Promise<UserSessionResponse[]> {
-    const tokenData = this.deps.jwtService.decode<VerifiedTokenData>(token);
-
-    if (!tokenData) {
-      throw new UnauthorizedException({
-        message: 'Token does not provided the correct user information',
-      });
-    }
-
-    const sessions = await this.deps.usersRepository.getSessions(tokenData.id);
+  async getUserSessions(user: RequestUser): Promise<UserSessionResponse[]> {
+    const sessions = await this.deps.usersRepository.getSessions(user.id);
 
     return sessions.map((session) => ({
       id: session.id,
       deviceInfo: session.deviceInfo,
       lastActivityAt: session.lastActivityAt,
-      isCurrent: session.sessionId === sessionId,
+      isCurrent: session.sessionId === user.sessionId,
     }));
   }
 
@@ -72,14 +63,8 @@ export class UsersService {
     return this.deps.usersRepository.terminateSession(id);
   }
 
-  async updatePassword(token: string, payload: UpdateUserPasswordInput) {
-    const tokenData = this.deps.jwtService.decode<VerifiedTokenData>(token);
-
-    if (!tokenData) {
-      throw new UnauthorizedException();
-    }
-
-    const user = await this.deps.usersRepository.findByUserIdWithPassword(tokenData.id);
+  async updatePassword(userId: number, payload: UpdateUserPasswordInput) {
+    const user = await this.deps.usersRepository.findByUserIdWithPassword(userId);
 
     if (!user) {
       throw new NotFoundException({ message: 'Error finding user to update data' });
@@ -94,7 +79,7 @@ export class UsersService {
     const hashedPassword = await hash(payload.newPassword, 10);
 
     const data = await throwIfNotFound(
-      this.deps.usersRepository.update(tokenData.id, {
+      this.deps.usersRepository.update(user.id, {
         password: hashedPassword,
       }),
     );

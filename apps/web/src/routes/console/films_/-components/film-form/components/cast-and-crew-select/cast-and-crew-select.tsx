@@ -2,7 +2,7 @@ import { useFieldArray, useFormContext } from 'react-hook-form';
 import { Form, api } from '~/shared';
 import type { ListOption } from '@films-collection/shared';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-schemas';
+import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
 import { useMutation } from '@tanstack/react-query';
 
 type CastAndCrewSelectProps = {
