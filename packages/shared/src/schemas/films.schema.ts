@@ -313,8 +313,6 @@ export const FilmDraftFilmIdParamsSchema = z.object({
 
 export const GetIncompleteFilmsQuerySchema = z.object({
   q: z.string().optional().nullable(),
-  orderKey: z.string().optional(),
-  order: z.enum(['asc', 'desc']).optional(),
   status: z.enum(FilmStatus),
   pageIndex: z.coerce.number().min(0).optional(),
 });

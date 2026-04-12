@@ -762,7 +762,6 @@ export class FilmsRepository {
 
   async getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
     const filters = mapListFilters(query, this.deps.db);
-    const sorting = this.mapSorting(query.orderKey ?? 'updatedAt', query.order ?? 'desc');
 
     const list = await this.deps.db.query.films.findMany({
       columns: {
@@ -777,7 +776,7 @@ export class FilmsRepository {
       where: and(...filters),
       limit: PAGE_LIMITS.default,
       offset: getSkipValue('default', query.pageIndex),
-      orderBy: sorting,
+      orderBy: asc(films.createdAt),
       with: {
         trailers: {
           columns: {
