@@ -1,20 +1,32 @@
 import type { Enum, FilmStatus } from '@films-collection/shared';
 import { useMutation } from '@tanstack/react-query';
-import { useNavigate } from '@tanstack/react-router';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
-import { api, convertImageToWebp, getObjectsDiff, isNewItem, titleToFileName } from '~/shared';
+import {
+  api,
+  convertImageToWebp,
+  getObjectsDiff,
+  isNewItem,
+  titleToFileName,
+  type ApiResponse,
+  type InvalidateQueryOption,
+} from '~/shared';
 
 type ManageFilmParams = {
   tempDraftId?: number;
   values: z.infer<typeof FilmFormSchema>;
   status?: Enum<typeof FilmStatus>;
-  onSuccess?: (data: z.infer<typeof FilmFormSchema>) => void;
+  onSuccess?: (data?: ApiResponse<typeof api.films.create.exec>) => void;
+  invalidateQueries?: InvalidateQueryOption | InvalidateQueryOption[];
 };
 
-export const useManageFilm = ({ values, tempDraftId, status }: ManageFilmParams) => {
-  const navigate = useNavigate();
-
+export const useManageFilm = ({
+  values,
+  tempDraftId,
+  status,
+  onSuccess,
+  invalidateQueries,
+}: ManageFilmParams) => {
   return useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
       let poster = data.poster;
@@ -67,22 +79,9 @@ export const useManageFilm = ({ values, tempDraftId, status }: ManageFilmParams)
         },
       });
     },
-    onSuccess: () => {
-      navigate({ to: '/console/films' });
-    },
+    onSuccess,
     meta: {
-      invalidateQueries: [
-        {
-          queryKey: [api.films.getAdminList.staticKey],
-        },
-        ...(!isNewItem(values.id)
-          ? [
-              {
-                queryKey: [api.films.getById.staticKey, values.id],
-              },
-            ]
-          : []),
-      ],
+      invalidateQueries,
     },
   });
 };

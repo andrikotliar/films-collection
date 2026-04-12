@@ -1,6 +1,6 @@
 import type z from 'zod';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
-import { api, Form, getInitialDataQueryOptions, Panel } from '~/shared';
+import { api, Form, getInitialDataQueryOptions, isNewItem, Panel } from '~/shared';
 import { FilmFormSchema, useManageFilm } from '~/routes/console/-shared';
 import {
   AwardsSelect,
@@ -15,6 +15,7 @@ import {
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
+import { useNavigate } from '@tanstack/react-router';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -28,10 +29,27 @@ type CreateNewEntityInput = {
 export const FilmForm = ({ values }: FilmFormProps) => {
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
+  const navigate = useNavigate();
 
   const { mutateAsync: handleSubmit, isPending } = useManageFilm({
     values,
     tempDraftId: selectedDraft?.id,
+    onSuccess: () => {
+      navigate({ to: '/console/films' });
+    },
+    status: 'ADDED',
+    invalidateQueries: [
+      {
+        queryKey: [api.films.getAdminList.staticKey],
+      },
+      ...(!isNewItem(values.id)
+        ? [
+            {
+              queryKey: [api.films.getById.staticKey, values.id],
+            },
+          ]
+        : []),
+    ],
   });
 
   const { mutateAsync: createNewEntity } = useMutation({

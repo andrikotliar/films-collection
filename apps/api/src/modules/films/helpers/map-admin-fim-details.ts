@@ -23,7 +23,10 @@ type EditableFilm = Omit<Film, Timestamps | 'id' | 'status'> & {
   seriesExtensions: SeriesExtension[];
 };
 
-const mapInnerId = <T extends Record<string, number>>(entities: T[], key: keyof T): number[] => {
+export const mapInnerId = <T extends Record<string, number>>(
+  entities: T[],
+  key: keyof T,
+): number[] => {
   return entities.map((item) => item[key]);
 };
 

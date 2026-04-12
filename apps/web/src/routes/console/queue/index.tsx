@@ -1,19 +1,13 @@
 import { GetIncompleteFilmsQuerySchema } from '@films-collection/shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import {
-  AddItemButton,
-  filmDefaultFormValues,
-  List,
-  useDeleteFilm,
-  useFormModal,
-  withFormModal,
-} from '~/routes/console/-shared';
-import { PartialFilmForm } from '~/routes/console/queue/-components';
+import { withFormModal } from '~/routes/console/-shared';
+import { PartialFilmForm, QueuePage } from '~/routes/console/queue/-components';
 import { getIncompleteFilmsListQueryOptions } from '~/shared';
 
-const WatchedFilmsForm = (props: Omit<React.ComponentProps<typeof PartialFilmForm>, 'status'>) => {
-  return <PartialFilmForm status="WATCHED" {...props} />;
+const FilmForm = (
+  props: Omit<React.ComponentProps<typeof PartialFilmForm>, 'status' | 'title'>,
+) => {
+  return <PartialFilmForm status="WATCHED" title="Watched Film" {...props} />;
 };
 
 export const Route = createFileRoute('/console/queue/')({
@@ -29,27 +23,9 @@ export const Route = createFileRoute('/console/queue/')({
       }),
     );
   },
-  component: withFormModal(WatchedFilmsForm, RouteComponent),
+  component: withFormModal(FilmForm, RouteComponent),
 });
 
 function RouteComponent() {
-  const search = Route.useSearch();
-  const { data } = useSuspenseQuery(
-    getIncompleteFilmsListQueryOptions({
-      ...search,
-      status: 'WATCHED',
-    }),
-  );
-  const { onOpen } = useFormModal();
-
-  const { mutateAsync, isPending } = useDeleteFilm();
-
-  return (
-    <>
-      <AddItemButton onClick={() => onOpen(filmDefaultFormValues)}>
-        Create watched film
-      </AddItemButton>
-      <List items={data} isFetching={isPending} onDelete={mutateAsync} onEdit={onOpen} />
-    </>
-  );
+  return <QueuePage status="WATCHED" addItemTitle="Add watched film" pageRoute="/console/queue/" />;
 }

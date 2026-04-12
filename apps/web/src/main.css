@@ -9,6 +9,8 @@
   --color-green-dark: hsl(180, 100%, 20%);
   --color-green-invisible: hsl(180, 90%, 85%);
 
+  --color-blue-green-primary: hsl(195 47% 63%);
+
   --color-lime-primary: hsl(80 72% 50%);
 
   --color-yellow-primary: hsl(40, 100%, 50%);
@@ -31,6 +33,8 @@
   --color-red-primary: hsl(0, 60%, 50%);
   --color-red-light: hsl(0, 100%, 70%);
   --color-red-extra-light: hsl(0, 100%, 95%);
+
+  --color-brown-light: hsl(47 47% 63%);
 
   --color-purple-primary: hsl(280, 30%, 50%);
   --color-purple-light: hsl(270, 60%, 80%);

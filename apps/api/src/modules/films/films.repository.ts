@@ -4,6 +4,8 @@ import {
   PAGE_LIMITS,
   type CreateFilmDraftInput,
   type CreateFilmInput,
+  type Enum,
+  type FilmStatus,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
   type GetFilmsListQuery,
@@ -94,7 +96,7 @@ export class FilmsRepository {
     return { list, total };
   }
 
-  findById(id: number) {
+  findById(id: number, status: Enum<typeof FilmStatus> = 'ADDED') {
     return this.deps.db.query.films.findFirst({
       columns: {
         id: true,
@@ -198,7 +200,7 @@ export class FilmsRepository {
           orderBy: asc(filmTrailers.order),
         },
       },
-      where: and(eq(films.id, id), isNull(films.deletedAt), eq(films.status, 'ADDED')),
+      where: and(eq(films.id, id), isNull(films.deletedAt), eq(films.status, status)),
     });
   }
 
@@ -358,7 +360,10 @@ export class FilmsRepository {
     } = input;
 
     return this.deps.db.transaction(async (tr) => {
-      const [newFilm] = await tr.insert(films).values(filmInput).returning({ id: films.id });
+      const [newFilm] = await tr
+        .insert(films)
+        .values(filmInput)
+        .returning({ id: films.id, status: films.status });
 
       const filmId = newFilm.id;
 
@@ -412,7 +417,7 @@ export class FilmsRepository {
         });
       }
 
-      return filmId;
+      return { filmId, status: newFilm.status };
     });
   }
 
@@ -493,10 +498,11 @@ export class FilmsRepository {
     } = data;
 
     return this.deps.db.transaction(async (transaction) => {
-      await transaction
+      const [updatedFilm] = await transaction
         .update(films)
         .set({ ...filmParams, updatedAt: new Date().toISOString() })
-        .where(eq(films.id, filmId));
+        .where(eq(films.id, filmId))
+        .returning({ id: films.id, status: films.status });
 
       if (genres?.length) {
         await this.updateFilmRelations({
@@ -595,6 +601,11 @@ export class FilmsRepository {
           ],
         });
       }
+
+      return {
+        filmId: updatedFilm.id,
+        status: updatedFilm.status,
+      };
     });
   }
 
@@ -749,24 +760,42 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
-  getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
+  async getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
     const filters = mapListFilters(query, this.deps.db);
     const sorting = this.mapSorting(query.orderKey ?? 'updatedAt', query.order ?? 'desc');
 
-    return this.deps.db.query.films.findMany({
+    const list = await this.deps.db.query.films.findMany({
       columns: {
         id: true,
         title: true,
         poster: true,
+        releaseDate: true,
+        type: true,
+        style: true,
+        status: true,
       },
       where: and(...filters),
       limit: PAGE_LIMITS.default,
       offset: getSkipValue('default', query.pageIndex),
       orderBy: sorting,
       with: {
-        trailers: true,
+        trailers: {
+          columns: {
+            url: true,
+            order: true,
+          },
+        },
+        collections: {
+          columns: {
+            collectionId: true,
+          },
+        },
       },
     });
+
+    const count = await this.count(filters);
+
+    return { list, count };
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

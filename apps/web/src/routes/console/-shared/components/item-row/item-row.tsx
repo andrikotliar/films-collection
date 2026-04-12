@@ -1,9 +1,15 @@
-import styles from "./item-row.module.css";
+import styles from './item-row.module.css';
 import { Button, PriorityBadge } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
 
 type ActionHandler<T extends DefaultListItem> = (data: T) => void;
+
+export type AdditionalHandler<T extends DefaultListItem> = {
+  id: string;
+  icon: React.ReactNode;
+  action: (data: T) => void;
+};
 
 export type ItemRowProps<T extends DefaultListItem> = {
   data: T;
@@ -13,6 +19,7 @@ export type ItemRowProps<T extends DefaultListItem> = {
   onCreate?: ActionHandler<T>;
   onDelete: ActionHandler<T>;
   onEdit: ActionHandler<T>;
+  additionalHandlers?: Array<AdditionalHandler<T>>;
 };
 
 export const ItemRow = <T extends DefaultListItem>({
@@ -23,6 +30,7 @@ export const ItemRow = <T extends DefaultListItem>({
   onEdit,
   onCreate,
   onView,
+  additionalHandlers,
 }: ItemRowProps<T>) => {
   return (
     <div className={styles.item_row}>
@@ -39,6 +47,14 @@ export const ItemRow = <T extends DefaultListItem>({
             <Button onClick={() => onCreate(data)} variant="ghost" icon={<PlusSquareIcon />} />
           )}
           <Button onClick={() => onEdit(data)} variant="ghost" icon={<PencilIcon />} />
+          {additionalHandlers?.map((handler) => (
+            <Button
+              key={handler.id}
+              onClick={() => handler.action(data)}
+              variant="ghost"
+              icon={handler.icon}
+            />
+          ))}
           <Button onClick={() => onDelete(data)} variant="ghost" icon={<Trash2Icon />} />
         </div>
       </div>

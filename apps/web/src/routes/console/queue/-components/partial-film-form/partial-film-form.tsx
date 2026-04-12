@@ -11,17 +11,24 @@ import {
   TrailersSelect,
   TranslateDescription,
 } from '~/routes/console/films_/-components/film-form/components';
-import { Form, getInitialDataQueryOptions, type FormComponentProps } from '~/shared';
+import { api, Form, getInitialDataQueryOptions, type FormComponentProps } from '~/shared';
 
 type PartialFilmFormProps = FormComponentProps<
   z.infer<typeof FilmFormSchema>,
   {
     status: Enum<typeof FilmStatus>;
+    title: string;
   }
 >;
 
-export const PartialFilmForm = ({ values, status }: PartialFilmFormProps) => {
-  const { mutateAsync, isPending } = useManageFilm({ values, status });
+export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps) => {
+  const { mutateAsync, isPending } = useManageFilm({
+    values,
+    status,
+    invalidateQueries: {
+      queryKey: [api.films.getAdminIncompleteFilmsList.staticKey],
+    },
+  });
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
 
   const { onClose } = useFormModal();
@@ -37,7 +44,7 @@ export const PartialFilmForm = ({ values, status }: PartialFilmFormProps) => {
       defaultValues={values}
       schema={FilmFormSchema}
       isLoading={isPending}
-      title={getFormTitle(values, 'Film')}
+      title={getFormTitle(values, title)}
     >
       <Form.TextInput name="title" label="Title" />
       <Form.CheckboxesGroup
@@ -60,6 +67,7 @@ export const PartialFilmForm = ({ values, status }: PartialFilmFormProps) => {
         options={initialOptions.options.collections}
         isMulti
       />
+      <Form.DatePicker name="releaseDate" />
       <TranslateDescription />
     </Form>
   );

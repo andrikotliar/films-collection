@@ -1,15 +1,17 @@
 import { type MenuConfigItem } from '../types';
 import {
   BuildingIcon,
+  CalendarClockIcon,
   CalendarIcon,
   ClapperboardIcon,
   KeyRoundIcon,
   LibraryIcon,
-  ListStartIcon,
   MapIcon,
   NewspaperIcon,
   RectangleEllipsisIcon,
+  TimerIcon,
   TrophyIcon,
+  TvMinimal,
   UserIcon,
   VideotapeIcon,
 } from 'lucide-react';
@@ -57,6 +59,27 @@ export const consoleMenuConfig = {
     icon: <ClapperboardIcon />,
     color: 'color-blue-primary',
   },
+  watchedFilms: {
+    id: 'watched',
+    route: '/console/queue',
+    title: 'Watched Films',
+    icon: <TvMinimal />,
+    color: 'color-blue-green-primary',
+  },
+  plannedFilms: {
+    id: 'planned',
+    route: '/console/queue/planned',
+    title: 'Planned Films',
+    icon: <TimerIcon />,
+    color: 'color-brown-light',
+  },
+  upcomingFilms: {
+    id: 'upcoming',
+    route: '/console/queue/upcoming',
+    title: 'Watched Films',
+    icon: <CalendarClockIcon />,
+    color: 'color-orange-primary',
+  },
   genres: {
     id: 'genres',
     route: '/console/genres',
@@ -70,13 +93,6 @@ export const consoleMenuConfig = {
     title: 'Pages Content',
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
-  },
-  queue: {
-    id: 'queue',
-    route: '/console/queue',
-    title: 'Films Queue',
-    icon: <ListStartIcon />,
-    color: 'color-orange-primary',
   },
   studios: {
     id: 'studios',
@@ -109,7 +125,7 @@ type ConsoleMenuGroup = {
 export const consoleMenuGroups: ConsoleMenuGroup[] = [
   {
     title: 'Films',
-    itemIds: ['films', 'queue'],
+    itemIds: ['films', 'watchedFilms', 'plannedFilms', 'upcomingFilms'],
   },
   {
     title: 'Base info',

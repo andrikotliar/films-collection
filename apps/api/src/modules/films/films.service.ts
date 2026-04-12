@@ -11,8 +11,11 @@ import {
   type CreateFilmDraftInput,
   type FilmDraftResponse,
   type GetIncompleteFilmsQuery,
+  type Enum,
+  type FilmStatus,
+  type IncompleteFilmsListResponse,
 } from '@films-collection/shared';
-import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
+import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList, mapInnerId } from './helpers';
 
 type GenericOption = {
   id: number;
@@ -46,8 +49,8 @@ export class FilmsService {
     return { list: data.list, total: data.total, additionalInfo };
   }
 
-  async getFilmDetails(id: number) {
-    const film = await this.deps.filmsRepository.findById(id);
+  async getFilmDetails(id: number, status: Enum<typeof FilmStatus> = 'ADDED') {
+    const film = await this.deps.filmsRepository.findById(id, status);
 
     if (!film) {
       return null;
@@ -99,13 +102,13 @@ export class FilmsService {
   async createFilm(input: CreateFilmInput) {
     const { tempDraftId, ...payload } = input;
 
-    const newFilmId = await this.deps.filmsRepository.create(payload);
+    const { filmId, status } = await this.deps.filmsRepository.create(payload);
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
-    return await this.getFilmDetails(newFilmId);
+    return await this.getFilmDetails(filmId, status);
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
@@ -172,9 +175,9 @@ export class FilmsService {
   }
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
-    await this.deps.filmsRepository.updateFilm(filmId, input);
+    const { status } = await this.deps.filmsRepository.updateFilm(filmId, input);
     await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
-    return this.getFilmDetails(filmId);
+    return this.getFilmDetails(filmId, status);
   }
 
   async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
@@ -228,8 +231,17 @@ export class FilmsService {
     return this.deps.filmsRepository.deleteDraft(id);
   }
 
-  getIncompleteFilmsList(query: GetIncompleteFilmsQuery) {
-    return this.deps.filmsRepository.getIncompleteFilmsByStatus(query);
+  async getIncompleteFilmsList(
+    query: GetIncompleteFilmsQuery,
+  ): Promise<IncompleteFilmsListResponse> {
+    const { list, count } = await this.deps.filmsRepository.getIncompleteFilmsByStatus(query);
+
+    const mappedList = list.map((film) => ({
+      ...film,
+      collections: mapInnerId(film.collections, 'collectionId'),
+    }));
+
+    return { list: mappedList, count };
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

@@ -319,9 +319,24 @@ export const GetIncompleteFilmsQuerySchema = z.object({
   pageIndex: z.coerce.number().min(0).optional(),
 });
 
-export const IncompleteFilmsListResponseSchema = z.array(
-  FilmResponseSchema.pick({ id: true, title: true, poster: true, trailers: true }),
-);
+export const IncompleteFilmsListResponseSchema = z.object({
+  list: z.array(
+    CreateFilmInputSchema.pick({
+      title: true,
+      poster: true,
+      trailers: true,
+      collections: true,
+      releaseDate: true,
+      type: true,
+      style: true,
+      overview: true,
+    }).extend({
+      id: z.number(),
+      status: z.enum(FilmStatus),
+    }),
+  ),
+  count: z.number(),
+});
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
@@ -337,3 +352,4 @@ export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
 export type GetIncompleteFilmsQuery = z.infer<typeof GetIncompleteFilmsQuerySchema>;
+export type IncompleteFilmsListResponse = z.infer<typeof IncompleteFilmsListResponseSchema>;
