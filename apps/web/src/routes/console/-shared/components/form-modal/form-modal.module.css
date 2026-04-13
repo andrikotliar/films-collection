@@ -6,8 +6,7 @@
   position: relative;
   max-width: 800px;
   max-height: 90%;
-  height: 100%;
-  overflow: hidden;
+  overflow-y: auto;
   border-radius: var(--rounded-default);
 }
 
