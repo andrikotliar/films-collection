@@ -2,6 +2,7 @@ import type { Enum, FilmStatus } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import type z from 'zod';
 import {
+  filmDefaultFormValues,
   FilmFormSchema,
   getFormTitle,
   useFormModal,
@@ -41,7 +42,7 @@ export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps)
   return (
     <Form
       onSubmit={submit}
-      defaultValues={values}
+      defaultValues={{ ...filmDefaultFormValues, ...values }}
       schema={FilmFormSchema}
       isLoading={isPending}
       title={getFormTitle(values, title)}

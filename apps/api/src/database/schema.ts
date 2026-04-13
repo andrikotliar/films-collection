@@ -42,7 +42,7 @@ export const films = pgTable(
     title: text().notNull(),
     type: titleType().default('FILM').notNull(),
     style: titleStyle().default('LIVE_ACTION').notNull(),
-    releaseDate: date('release_date').notNull(),
+    releaseDate: date('release_date'),
     duration: integer().default(0).notNull(),
     poster: text(),
     budget: bigint({ mode: 'number' }).default(0).notNull(),
@@ -176,31 +176,6 @@ export const filmsCollections = pgTable(
     })
       .onUpdate('cascade')
       .onDelete('cascade'),
-  ],
-);
-
-export const pendingFilms = pgTable(
-  'pending_films',
-  {
-    id: serial().primaryKey().notNull(),
-    title: text().notNull(),
-    priority: integer().default(1).notNull(),
-    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
-    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-      .defaultNow()
-      .$onUpdate(() => new Date().toISOString())
-      .notNull(),
-    collectionId: integer(),
-    rating: integer(),
-  },
-  (table) => [
-    foreignKey({
-      columns: [table.collectionId],
-      foreignColumns: [collections.id],
-      name: 'pending_films_collectionId_fkey',
-    })
-      .onUpdate('cascade')
-      .onDelete('set null'),
   ],
 );
 
