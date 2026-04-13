@@ -281,6 +281,10 @@ export class FilmsService {
     return options;
   }
 
+  generateFilmDescription(filmTitle: string) {
+    return this.deps.aiService.generateFilmDescription(filmTitle);
+  }
+
   private listOptionsToDto<T extends GenericOption>(
     options: T[],
   ): Pick<GenericOption, 'id' | 'title'>[] {

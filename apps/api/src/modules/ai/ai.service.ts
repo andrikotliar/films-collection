@@ -1,4 +1,5 @@
 import OpenAI from 'openai';
+import type { ResponsesModel } from 'openai/resources/shared';
 import type { Deps } from '~/shared';
 
 type LangParams = {
@@ -9,15 +10,18 @@ type LangParams = {
 export class AiService {
   private client: OpenAI | null = null;
 
-  constructor(private readonly deps: Deps<'configService'>) {
+  constructor(deps: Deps<'configService'>) {
     this.client = new OpenAI({ apiKey: deps.configService.getKey('OPENAI_API_KEY') });
   }
 
-  public async createResponse(prompt: string): Promise<string> {
+  public async createResponse(
+    prompt: string,
+    model: ResponsesModel = 'gpt-4o-mini',
+  ): Promise<string> {
     const client = this.getClient();
 
     const response = await client.responses.create({
-      model: 'gpt-4o-mini',
+      model,
       input: prompt,
     });
 
@@ -28,6 +32,18 @@ export class AiService {
     return this.createResponse(
       `Translate the following ${langParams.from} text to ${langParams.to}: ${text}`,
     );
+  }
+
+  public async generateFilmDescription(filmTitle: string) {
+    const text = await this.createResponse(
+      `Get IMDb rating for the film "${filmTitle}" and create a short description for it. The description should be concise and written in simple language. Format the result text by template - Rating: VALUE. Description: TEXT`,
+      'gpt-4.1-mini',
+    );
+
+    return {
+      title: filmTitle,
+      text,
+    };
   }
 
   private getClient() {

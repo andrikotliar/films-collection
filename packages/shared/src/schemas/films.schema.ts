@@ -339,6 +339,15 @@ export const IncompleteFilmsListResponseSchema = z.object({
   count: z.number(),
 });
 
+export const GenerateFilmDescriptionInputSchema = z.object({
+  filmTitle: z.string(),
+});
+
+export const GeneratedFilmDescriptionResponseSchema = z.object({
+  title: z.string(),
+  text: z.string(),
+});
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
