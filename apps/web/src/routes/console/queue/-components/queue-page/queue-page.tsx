@@ -2,7 +2,6 @@ import { filmStatusOrder, PAGE_LIMITS, type Enum, type FilmStatus } from '@films
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { SquareArrowRightIcon, SearchIcon } from 'lucide-react';
-import { useState } from 'react';
 import sanitize from 'sanitize-html';
 import {
   AddItemButton,
@@ -12,14 +11,11 @@ import {
   useFormModal,
 } from '~/routes/console/-shared';
 import type { AdditionalHandler } from '~/routes/console/-shared/components/item-row/item-row';
-import { GenerateDescriptionForm } from '~/routes/console/queue/-components/generate-description-form/generate-description-form';
 import { QueueFilters } from '~/routes/console/queue/-components/queue-filters/queue-filters';
 import type { FileRouteTypes } from '~/routeTree.gen';
 import {
   api,
-  Button,
   getIncompleteFilmsListQueryOptions,
-  Modal,
   Pagination,
   queryClient,
   TextInput,
@@ -27,7 +23,6 @@ import {
   useDebouncedSearch,
   type ApiResponse,
 } from '~/shared';
-import styles from './queue-page.module.css';
 
 type QueuePageProps = {
   status: Enum<typeof FilmStatus>;
@@ -76,16 +71,9 @@ const listHandlers: Array<
   },
 ];
 
-export const QueuePage = ({
-  status,
-  addItemTitle,
-  pageRoute,
-  shouldShowGenButton = false,
-}: QueuePageProps) => {
+export const QueuePage = ({ status, addItemTitle, pageRoute }: QueuePageProps) => {
   const navigate = useNavigate({ from: pageRoute });
   const search = useSearch({ from: pageRoute });
-
-  const [isDescriptionModalOpen, setIsDescriptionModalOpen] = useState(false);
 
   const { data, isFetching } = useSuspenseQuery(
     getIncompleteFilmsListQueryOptions({
@@ -122,14 +110,7 @@ export const QueuePage = ({
 
   return (
     <>
-      <div className={styles.buttons}>
-        <AddItemButton onClick={() => onOpen(filmDefaultFormValues)}>{addItemTitle}</AddItemButton>
-        {shouldShowGenButton && (
-          <Button variant="secondary" onClick={() => setIsDescriptionModalOpen(true)}>
-            Generate description
-          </Button>
-        )}
-      </div>
+      <AddItemButton onClick={() => onOpen(filmDefaultFormValues)}>{addItemTitle}</AddItemButton>
       <TextInput
         placeholder="Search film"
         onChange={handleSearch}
@@ -158,28 +139,6 @@ export const QueuePage = ({
         currentPageIndex={search.pageIndex}
         totalLabel="films"
       />
-      <Modal
-        isOpen={isDescriptionModalOpen}
-        onClose={() => setIsDescriptionModalOpen(false)}
-        className={styles.modal}
-      >
-        <Modal.Content className={styles.content}>
-          <GenerateDescriptionForm
-            onAcceptDescription={(data) => {
-              setIsDescriptionModalOpen(false);
-              onOpen({
-                ...filmDefaultFormValues,
-                title: data.title,
-                overview: data.text,
-              });
-            }}
-          />
-          <Modal.CloseButton
-            onClick={() => setIsDescriptionModalOpen(false)}
-            className={styles.close_button}
-          />
-        </Modal.Content>
-      </Modal>
     </>
   );
 };

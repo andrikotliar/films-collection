@@ -1,6 +1,6 @@
-export const countObjectKeys = (
-  params: { [key: string]: any },
-  filterKeys?: string[],
+export const countObjectKeys = <T extends Record<string, any>>(
+  params: T,
+  filterKeys?: (keyof T)[],
 ) => {
   const keys = Object.keys(params);
 

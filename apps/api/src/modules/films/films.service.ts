@@ -281,8 +281,8 @@ export class FilmsService {
     return options;
   }
 
-  generateFilmDescription(filmTitle: string) {
-    return this.deps.aiService.generateFilmDescription(filmTitle);
+  generateFilmDescription(searchString: string) {
+    return this.deps.aiService.generateFilmDescription(searchString);
   }
 
   private listOptionsToDto<T extends GenericOption>(

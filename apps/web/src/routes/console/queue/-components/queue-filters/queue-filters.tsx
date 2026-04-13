@@ -6,6 +6,7 @@ import type { FileRouteTypes } from '~/routeTree.gen';
 import {
   Button,
   Checkbox,
+  countObjectKeys,
   getInitialDataQueryOptions,
   Select,
   type api,
@@ -41,6 +42,8 @@ export const QueueFilters = ({ pageRoute }: QueueFiltersProps) => {
   const navigate = useNavigate({ from: pageRoute });
   const search = useSearch({ from: pageRoute });
   const { data } = useSuspenseQuery(getInitialDataQueryOptions());
+
+  const filtersCount = countObjectKeys(search, ['pageIndex', 'q', 'status']);
 
   const collectionFilter = useMemo(() => {
     if (!search.type || search.type !== 'SERIES') {
@@ -102,9 +105,11 @@ export const QueueFilters = ({ pageRoute }: QueueFiltersProps) => {
           />
         )}
       </div>
-      <Button onClick={resetFilters} variant="ghost" icon={<XIcon />}>
-        Clear filters
-      </Button>
+      {filtersCount > 0 && (
+        <Button onClick={resetFilters} variant="ghost" icon={<XIcon />}>
+          Clear filters
+        </Button>
+      )}
     </div>
   );
 };
