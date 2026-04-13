@@ -38,7 +38,7 @@ export const TextEditor = forwardRef<EditorRef, TextEditorProps>(
     }));
 
     useEffect(() => {
-      if (editor && !editor.getText().length && content.length) {
+      if (editor && !editor.getText().length && content?.length) {
         editor.commands.setContent(content);
       }
     }, [editor, content]);
