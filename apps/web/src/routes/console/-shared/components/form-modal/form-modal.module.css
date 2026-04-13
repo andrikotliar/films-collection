@@ -6,7 +6,9 @@
   position: relative;
   max-width: 800px;
   max-height: 90%;
-  overflow-y: auto;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--rounded-default);
 }
 
 .close_button {
