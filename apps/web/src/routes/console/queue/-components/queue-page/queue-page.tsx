@@ -2,6 +2,7 @@ import { filmStatusOrder, PAGE_LIMITS, type Enum, type FilmStatus } from '@films
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { SquareArrowRightIcon, SearchIcon } from 'lucide-react';
+import sanitize from 'sanitize-html';
 import {
   AddItemButton,
   filmDefaultFormValues,
@@ -118,6 +119,9 @@ export const QueuePage = ({ status, addItemTitle, pageRoute }: QueuePageProps) =
         items={data.list}
         isFetching={isPending}
         onDelete={mutateAsync}
+        description={(data) =>
+          data.overview ? sanitize(data.overview, { allowedTags: [] }) : null
+        }
         onEdit={onOpen}
         onCreate={(data) => {
           navigate({ to: '/console/films/$id', params: { id: data.id.toString() } });

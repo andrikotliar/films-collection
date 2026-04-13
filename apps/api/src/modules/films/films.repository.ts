@@ -776,6 +776,7 @@ export class FilmsRepository {
         type: true,
         style: true,
         status: true,
+        overview: true,
       },
       where: and(...filters),
       limit: PAGE_LIMITS.default,
