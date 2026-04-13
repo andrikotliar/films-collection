@@ -1,19 +1,23 @@
 import { Link, useLocation } from '@tanstack/react-router';
 import styles from './queue-navigation.module.css';
 import clsx from 'clsx';
+import { CalendarClockIcon, ClockIcon, TvIcon } from 'lucide-react';
 
 const navigation = [
   {
     link: '/console/queue',
     title: 'Watched films',
+    icon: <TvIcon size={20} />,
   },
   {
     link: '/console/queue/planned',
     title: 'Planned films',
+    icon: <ClockIcon size={20} />,
   },
   {
     link: '/console/queue/upcoming',
     title: 'Upcoming films',
+    icon: <CalendarClockIcon size={20} />,
   },
 ];
 
@@ -27,7 +31,8 @@ export const QueueNavigation = () => {
           key={item.link}
           to={item.link}
         >
-          {item.title}
+          {item.icon}
+          <span>{item.title}</span>
         </Link>
       ))}
     </div>

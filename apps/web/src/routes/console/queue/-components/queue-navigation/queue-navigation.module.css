@@ -1,21 +1,21 @@
 .navigation {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .link {
-  padding: 10px 20px;
-  border: var(--border-default);
-  border-radius: var(--rounded-sm);
-  background-color: var(--color-white);
-  transition: background-color 200ms, border-color 200ms, color 200ms;
+  font-size: var(--text-sm);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 200ms;
+  line-height: 1;
 }
 
 .link:hover,
 .active_link {
-  color: var(--color-white);
-  background-color: var(--color-blue-primary);
-  border-color: var(--color-blue-primary);
+  color: var(--color-blue-primary);
 }
 
 .active_link {
