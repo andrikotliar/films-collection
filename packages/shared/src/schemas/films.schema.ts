@@ -339,11 +339,10 @@ export const IncompleteFilmsListResponseSchema = z.object({
 });
 
 export const GenerateFilmDescriptionInputSchema = z.object({
-  filmTitle: z.string(),
+  request: z.string(),
 });
 
 export const GeneratedFilmDescriptionResponseSchema = z.object({
-  title: z.string(),
   text: z.string(),
 });
 

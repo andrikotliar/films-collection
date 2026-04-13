@@ -2,7 +2,7 @@ import type { ListOption } from '@films-collection/shared';
 import { useRef, useState } from 'react';
 import { api, Button, Form, Select, toaster, type EditorRef } from '~/shared';
 import styles from './translate-description.module.css';
-import { LanguagesIcon } from 'lucide-react';
+import { LanguagesIcon, PenIcon } from 'lucide-react';
 import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
@@ -51,6 +51,11 @@ export const TranslateDescription = () => {
     }));
   };
 
+  const updateOverview = (text: string) => {
+    setValue('overview', text);
+    editorRef.current?.setContent(text);
+  };
+
   const { mutate, isPending } = useMutation({
     mutationFn: async () => {
       const values = getValues();
@@ -76,24 +81,47 @@ export const TranslateDescription = () => {
         },
       });
 
-      setValue('overview', result.translatedText);
-      editorRef.current?.setContent(result.translatedText);
+      updateOverview(result.translatedText);
     },
   });
+
+  const { mutate: generateDescription, isPending: isTextGenerationInProgress } = useMutation({
+    mutationFn: async () => {
+      const values = getValues();
+
+      if (!values.title.length) {
+        toaster.error('Provide tile before description generation request');
+        return;
+      }
+
+      const response = await api.films.generateDescription.exec({
+        input: { request: values.title },
+      });
+
+      updateOverview(response.text);
+    },
+  });
+
+  const isInProgress = isPending || isTextGenerationInProgress;
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.editor_container}>
         <Form.TextEditor name="overview" label="Description" ref={editorRef} />
-        {isPending && (
+        {isInProgress && (
           <div className={styles.overlay}>
             <div className={styles.loader}>
-              Translating <span>.</span>
+              Working <span>.</span>
               <span>.</span>
               <span>.</span>
             </div>
           </div>
         )}
+      </div>
+      <div>
+        <Button icon={<PenIcon />} onClick={() => generateDescription()} isDisabled={isInProgress}>
+          Generate description
+        </Button>
       </div>
       <div className={styles.translation}>
         <Select
@@ -108,7 +136,7 @@ export const TranslateDescription = () => {
           type="button"
           icon={<LanguagesIcon />}
           onClick={() => mutate()}
-          isDisabled={isPending}
+          isDisabled={isInProgress}
         >
           Translate
         </Button>

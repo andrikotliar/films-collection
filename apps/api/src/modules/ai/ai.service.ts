@@ -34,16 +34,13 @@ export class AiService {
     );
   }
 
-  public async generateFilmDescription(filmTitle: string) {
+  public async generateFilmDescription(searchString: string) {
     const text = await this.createResponse(
-      `Get IMDb rating for the film "${filmTitle}" and create a short description for it. The description should be concise and written in simple language. Format the result text by template - Rating: VALUE. Description: TEXT`,
+      `Write a short description for the movie ${searchString}. The description should be concise and written in simple language.`,
       'gpt-4.1-mini',
     );
 
-    return {
-      title: filmTitle,
-      text,
-    };
+    return text;
   }
 
   private getClient() {

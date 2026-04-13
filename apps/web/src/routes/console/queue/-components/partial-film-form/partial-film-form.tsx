@@ -60,6 +60,7 @@ export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps)
         options={initialOptions.options.styles}
         type="radio"
       />
+      <TranslateDescription />
       <Form.FileInput label="Poster" name="poster" />
       <TrailersSelect />
       <Form.Select
@@ -68,8 +69,7 @@ export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps)
         options={initialOptions.options.collections}
         isMulti
       />
-      <Form.DatePicker name="releaseDate" />
-      <TranslateDescription />
+      <Form.DatePicker name="releaseDate" label="Release Date" />
     </Form>
   );
 };
