@@ -16,6 +16,7 @@ const FiltersSchema = z.object({
   startDate: z.string().optional(),
   endDate: z.string().optional(),
   collectionId: z.coerce.number().optional(),
+  pageIndex: z.number().optional(),
 });
 
 type FilterValues = z.infer<typeof FiltersSchema>;
