@@ -143,6 +143,17 @@ export const filmsRouter = createRouter(filmsContract, {
     },
   },
 
+  generateDescription: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .generateFilmDescription(request.body.filmTitle);
+
+      return { data };
+    },
+  },
+
   createDraft: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

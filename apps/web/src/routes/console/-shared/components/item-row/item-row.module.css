@@ -41,3 +41,7 @@
   color: var(--color-gray-dark);
   margin-top: 5px;
 }
+
+.description:empty {
+  margin-top: 0;
+}

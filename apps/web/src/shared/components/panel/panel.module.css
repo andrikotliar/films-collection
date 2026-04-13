@@ -14,3 +14,8 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.scrollable {
+  overflow-y: auto;
+  height: 100%;
+}

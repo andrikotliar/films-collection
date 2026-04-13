@@ -169,7 +169,15 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    await this.deps.filmsRepository.delete(id, new Date().toISOString());
+    const film = await throwIfNotFound(this.deps.filmsRepository.getFilmStatus(id));
+
+    if (film.status !== 'ADDED') {
+      await this.deps.filmsRepository.hardDelete(id);
+
+      return { id };
+    }
+
+    await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
     return { id };
   }
@@ -271,6 +279,10 @@ export class FilmsService {
     }
 
     return options;
+  }
+
+  generateFilmDescription(filmTitle: string) {
+    return this.deps.aiService.generateFilmDescription(filmTitle);
   }
 
   private listOptionsToDto<T extends GenericOption>(

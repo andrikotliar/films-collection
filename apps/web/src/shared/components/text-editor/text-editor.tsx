@@ -5,7 +5,7 @@ import { type FormError } from '~/shared';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 import { MenuBar } from './components';
-import { forwardRef, useImperativeHandle } from 'react';
+import { forwardRef, useEffect, useImperativeHandle } from 'react';
 
 const extensions = [StarterKit];
 
@@ -36,6 +36,12 @@ export const TextEditor = forwardRef<EditorRef, TextEditorProps>(
     useImperativeHandle(ref, () => ({
       setContent: (content: string) => editor?.commands.setContent(content),
     }));
+
+    useEffect(() => {
+      if (editor && !editor.getText().length && content?.length) {
+        editor.commands.setContent(content);
+      }
+    }, [editor, content]);
 
     return (
       <div className={styles.editor_wrapper}>

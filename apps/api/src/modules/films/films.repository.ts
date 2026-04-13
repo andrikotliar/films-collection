@@ -342,8 +342,12 @@ export class FilmsRepository {
     return queryResult;
   }
 
-  async delete(id: number, date: string) {
+  async softDelete(id: number, date: string) {
     await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
+  }
+
+  async hardDelete(id: number) {
+    await this.deps.db.delete(films).where(eq(films.id, id));
   }
 
   create(input: Omit<CreateFilmInput, 'tempDraftId'>) {
@@ -776,11 +780,12 @@ export class FilmsRepository {
         type: true,
         style: true,
         status: true,
+        overview: true,
       },
       where: and(...filters),
       limit: PAGE_LIMITS.default,
       offset: getSkipValue('default', query.pageIndex),
-      orderBy: asc(films.createdAt),
+      orderBy: [asc(films.createdAt), desc(films.id)],
       with: {
         trailers: {
           columns: {
@@ -799,6 +804,16 @@ export class FilmsRepository {
     const count = await this.count(filters);
 
     return { list, count };
+  }
+
+  getFilmStatus(id: number) {
+    return getFirstValue(
+      this.deps.db
+        .select({ id: films.id, status: films.status })
+        .from(films)
+        .where(eq(films.id, id))
+        .limit(1),
+    );
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

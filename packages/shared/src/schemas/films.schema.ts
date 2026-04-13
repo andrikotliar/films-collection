@@ -314,6 +314,9 @@ export const GetIncompleteFilmsQuerySchema = z.object({
   q: z.string().optional().nullable(),
   status: z.enum(FilmStatus),
   pageIndex: z.coerce.number().min(0).optional(),
+  type: z.enum(TitleType).optional(),
+  style: z.enum(TitleStyle).optional(),
+  collectionId: z.coerce.number().optional(),
 });
 
 export const IncompleteFilmsListResponseSchema = z.object({
@@ -333,6 +336,15 @@ export const IncompleteFilmsListResponseSchema = z.object({
     }),
   ),
   count: z.number(),
+});
+
+export const GenerateFilmDescriptionInputSchema = z.object({
+  filmTitle: z.string(),
+});
+
+export const GeneratedFilmDescriptionResponseSchema = z.object({
+  title: z.string(),
+  text: z.string(),
 });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;

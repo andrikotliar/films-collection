@@ -14,7 +14,7 @@ export type AdditionalHandler<T extends DefaultListItem> = {
 export type ItemRowProps<T extends DefaultListItem> = {
   data: T;
   titleKey?: keyof T;
-  description?: (data: T) => string;
+  description?: (data: T) => string | null;
   onView?: ActionHandler<T>;
   onCreate?: ActionHandler<T>;
   onDelete: ActionHandler<T>;

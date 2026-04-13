@@ -32,6 +32,7 @@ function RouteComponent() {
       status="PLANNED"
       addItemTitle="Add planned film"
       pageRoute="/console/queue/planned"
+      shouldShowGenButton
     />
   );
 }
