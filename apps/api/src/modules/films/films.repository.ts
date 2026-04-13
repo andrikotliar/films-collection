@@ -781,7 +781,7 @@ export class FilmsRepository {
       where: and(...filters),
       limit: PAGE_LIMITS.default,
       offset: getSkipValue('default', query.pageIndex),
-      orderBy: asc(films.createdAt),
+      orderBy: [asc(films.createdAt), desc(films.id)],
       with: {
         trailers: {
           columns: {

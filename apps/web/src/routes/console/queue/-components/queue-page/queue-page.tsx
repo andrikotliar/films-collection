@@ -11,6 +11,7 @@ import {
   useFormModal,
 } from '~/routes/console/-shared';
 import type { AdditionalHandler } from '~/routes/console/-shared/components/item-row/item-row';
+import { QueueFilters } from '~/routes/console/queue/-components/queue-filters/queue-filters';
 import type { FileRouteTypes } from '~/routeTree.gen';
 import {
   api,
@@ -73,7 +74,7 @@ export const QueuePage = ({ status, addItemTitle, pageRoute }: QueuePageProps) =
   const navigate = useNavigate({ from: pageRoute });
   const search = useSearch({ from: pageRoute });
 
-  const { data } = useSuspenseQuery(
+  const { data, isFetching } = useSuspenseQuery(
     getIncompleteFilmsListQueryOptions({
       ...search,
       status,
@@ -115,14 +116,16 @@ export const QueuePage = ({ status, addItemTitle, pageRoute }: QueuePageProps) =
         defaultValue={search.q ?? ''}
         icon={<SearchIcon />}
       />
+      <QueueFilters pageRoute={pageRoute} />
       <List
         items={data.list}
-        isFetching={isPending}
+        isFetching={isFetching}
+        isDeletingInProgress={isPending}
         onDelete={mutateAsync}
         description={(data) =>
           data.overview ? sanitize(data.overview, { allowedTags: [] }) : null
         }
-        onEdit={onOpen}
+        onEdit={(values) => onOpen({ ...filmDefaultFormValues, ...values })}
         onCreate={(data) => {
           navigate({ to: '/console/films/$id', params: { id: data.id.toString() } });
         }}
