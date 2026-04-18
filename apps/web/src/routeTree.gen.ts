@@ -27,10 +27,7 @@ import { Route as ConsoleCountriesRouteRouteImport } from './routes/console/coun
 import { Route as ConsoleCollectionsRouteRouteImport } from './routes/console/collections/route'
 import { Route as ConsoleCollectionEventsRouteRouteImport } from './routes/console/collection-events/route'
 import { Route as ConsoleAwardsRouteRouteImport } from './routes/console/awards/route'
-import { Route as ConsoleQueueIndexRouteImport } from './routes/console/queue/index'
 import { Route as ConsoleRootIndexRouteImport } from './routes/console/_root/index'
-import { Route as ConsoleQueueUpcomingRouteImport } from './routes/console/queue/upcoming'
-import { Route as ConsoleQueuePlannedRouteImport } from './routes/console/queue/planned'
 import { Route as ConsolePageContentIdRouteImport } from './routes/console/page-content_/$id'
 import { Route as ConsoleFilmsIdRouteImport } from './routes/console/films_/$id'
 import { Route as ConsoleAwardsIdRouteImport } from './routes/console/awards_/$id'
@@ -126,25 +123,10 @@ const ConsoleAwardsRouteRoute = ConsoleAwardsRouteRouteImport.update({
   path: '/awards',
   getParentRoute: () => ConsoleRouteRoute,
 } as any)
-const ConsoleQueueIndexRoute = ConsoleQueueIndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => ConsoleQueueRouteRoute,
-} as any)
 const ConsoleRootIndexRoute = ConsoleRootIndexRouteImport.update({
   id: '/_root/',
   path: '/',
   getParentRoute: () => ConsoleRouteRoute,
-} as any)
-const ConsoleQueueUpcomingRoute = ConsoleQueueUpcomingRouteImport.update({
-  id: '/upcoming',
-  path: '/upcoming',
-  getParentRoute: () => ConsoleQueueRouteRoute,
-} as any)
-const ConsoleQueuePlannedRoute = ConsoleQueuePlannedRouteImport.update({
-  id: '/planned',
-  path: '/planned',
-  getParentRoute: () => ConsoleQueueRouteRoute,
 } as any)
 const ConsolePageContentIdRoute = ConsolePageContentIdRouteImport.update({
   id: '/page-content_/$id',
@@ -176,7 +158,7 @@ export interface FileRoutesByFullPath {
   '/console/page-content': typeof ConsolePageContentRouteRoute
   '/console/password': typeof ConsolePasswordRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
-  '/console/queue': typeof ConsoleQueueRouteRouteWithChildren
+  '/console/queue': typeof ConsoleQueueRouteRoute
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/films/$id': typeof FilmsIdRouteRoute
@@ -184,10 +166,7 @@ export interface FileRoutesByFullPath {
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
   '/console/films/$id': typeof ConsoleFilmsIdRoute
   '/console/page-content/$id': typeof ConsolePageContentIdRoute
-  '/console/queue/planned': typeof ConsoleQueuePlannedRoute
-  '/console/queue/upcoming': typeof ConsoleQueueUpcomingRoute
   '/console/': typeof ConsoleRootIndexRoute
-  '/console/queue/': typeof ConsoleQueueIndexRoute
 }
 export interface FileRoutesByTo {
   '/about': typeof AboutRouteRoute
@@ -202,6 +181,7 @@ export interface FileRoutesByTo {
   '/console/page-content': typeof ConsolePageContentRouteRoute
   '/console/password': typeof ConsolePasswordRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
+  '/console/queue': typeof ConsoleQueueRouteRoute
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/films/$id': typeof FilmsIdRouteRoute
@@ -209,10 +189,7 @@ export interface FileRoutesByTo {
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
   '/console/films/$id': typeof ConsoleFilmsIdRoute
   '/console/page-content/$id': typeof ConsolePageContentIdRoute
-  '/console/queue/planned': typeof ConsoleQueuePlannedRoute
-  '/console/queue/upcoming': typeof ConsoleQueueUpcomingRoute
   '/console': typeof ConsoleRootIndexRoute
-  '/console/queue': typeof ConsoleQueueIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -229,7 +206,7 @@ export interface FileRoutesById {
   '/console/page-content': typeof ConsolePageContentRouteRoute
   '/console/password': typeof ConsolePasswordRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
-  '/console/queue': typeof ConsoleQueueRouteRouteWithChildren
+  '/console/queue': typeof ConsoleQueueRouteRoute
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/films/$id': typeof FilmsIdRouteRoute
@@ -237,10 +214,7 @@ export interface FileRoutesById {
   '/console/awards_/$id': typeof ConsoleAwardsIdRoute
   '/console/films_/$id': typeof ConsoleFilmsIdRoute
   '/console/page-content_/$id': typeof ConsolePageContentIdRoute
-  '/console/queue/planned': typeof ConsoleQueuePlannedRoute
-  '/console/queue/upcoming': typeof ConsoleQueueUpcomingRoute
   '/console/_root/': typeof ConsoleRootIndexRoute
-  '/console/queue/': typeof ConsoleQueueIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -266,10 +240,7 @@ export interface FileRouteTypes {
     | '/console/awards/$id'
     | '/console/films/$id'
     | '/console/page-content/$id'
-    | '/console/queue/planned'
-    | '/console/queue/upcoming'
     | '/console/'
-    | '/console/queue/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/about'
@@ -284,6 +255,7 @@ export interface FileRouteTypes {
     | '/console/page-content'
     | '/console/password'
     | '/console/people'
+    | '/console/queue'
     | '/console/sessions'
     | '/console/studios'
     | '/films/$id'
@@ -291,10 +263,7 @@ export interface FileRouteTypes {
     | '/console/awards/$id'
     | '/console/films/$id'
     | '/console/page-content/$id'
-    | '/console/queue/planned'
-    | '/console/queue/upcoming'
     | '/console'
-    | '/console/queue'
   id:
     | '__root__'
     | '/about'
@@ -318,10 +287,7 @@ export interface FileRouteTypes {
     | '/console/awards_/$id'
     | '/console/films_/$id'
     | '/console/page-content_/$id'
-    | '/console/queue/planned'
-    | '/console/queue/upcoming'
     | '/console/_root/'
-    | '/console/queue/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -461,33 +427,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsoleAwardsRouteRouteImport
       parentRoute: typeof ConsoleRouteRoute
     }
-    '/console/queue/': {
-      id: '/console/queue/'
-      path: '/'
-      fullPath: '/console/queue/'
-      preLoaderRoute: typeof ConsoleQueueIndexRouteImport
-      parentRoute: typeof ConsoleQueueRouteRoute
-    }
     '/console/_root/': {
       id: '/console/_root/'
       path: '/'
       fullPath: '/console/'
       preLoaderRoute: typeof ConsoleRootIndexRouteImport
       parentRoute: typeof ConsoleRouteRoute
-    }
-    '/console/queue/upcoming': {
-      id: '/console/queue/upcoming'
-      path: '/upcoming'
-      fullPath: '/console/queue/upcoming'
-      preLoaderRoute: typeof ConsoleQueueUpcomingRouteImport
-      parentRoute: typeof ConsoleQueueRouteRoute
-    }
-    '/console/queue/planned': {
-      id: '/console/queue/planned'
-      path: '/planned'
-      fullPath: '/console/queue/planned'
-      preLoaderRoute: typeof ConsoleQueuePlannedRouteImport
-      parentRoute: typeof ConsoleQueueRouteRoute
     }
     '/console/page-content_/$id': {
       id: '/console/page-content_/$id'
@@ -513,21 +458,6 @@ declare module '@tanstack/react-router' {
   }
 }
 
-interface ConsoleQueueRouteRouteChildren {
-  ConsoleQueuePlannedRoute: typeof ConsoleQueuePlannedRoute
-  ConsoleQueueUpcomingRoute: typeof ConsoleQueueUpcomingRoute
-  ConsoleQueueIndexRoute: typeof ConsoleQueueIndexRoute
-}
-
-const ConsoleQueueRouteRouteChildren: ConsoleQueueRouteRouteChildren = {
-  ConsoleQueuePlannedRoute: ConsoleQueuePlannedRoute,
-  ConsoleQueueUpcomingRoute: ConsoleQueueUpcomingRoute,
-  ConsoleQueueIndexRoute: ConsoleQueueIndexRoute,
-}
-
-const ConsoleQueueRouteRouteWithChildren =
-  ConsoleQueueRouteRoute._addFileChildren(ConsoleQueueRouteRouteChildren)
-
 interface ConsoleRouteRouteChildren {
   ConsoleAwardsRouteRoute: typeof ConsoleAwardsRouteRoute
   ConsoleCollectionEventsRouteRoute: typeof ConsoleCollectionEventsRouteRoute
@@ -538,7 +468,7 @@ interface ConsoleRouteRouteChildren {
   ConsolePageContentRouteRoute: typeof ConsolePageContentRouteRoute
   ConsolePasswordRouteRoute: typeof ConsolePasswordRouteRoute
   ConsolePeopleRouteRoute: typeof ConsolePeopleRouteRoute
-  ConsoleQueueRouteRoute: typeof ConsoleQueueRouteRouteWithChildren
+  ConsoleQueueRouteRoute: typeof ConsoleQueueRouteRoute
   ConsoleSessionsRouteRoute: typeof ConsoleSessionsRouteRoute
   ConsoleStudiosRouteRoute: typeof ConsoleStudiosRouteRoute
   ConsoleAwardsIdRoute: typeof ConsoleAwardsIdRoute
@@ -557,7 +487,7 @@ const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
   ConsolePageContentRouteRoute: ConsolePageContentRouteRoute,
   ConsolePasswordRouteRoute: ConsolePasswordRouteRoute,
   ConsolePeopleRouteRoute: ConsolePeopleRouteRoute,
-  ConsoleQueueRouteRoute: ConsoleQueueRouteRouteWithChildren,
+  ConsoleQueueRouteRoute: ConsoleQueueRouteRoute,
   ConsoleSessionsRouteRoute: ConsoleSessionsRouteRoute,
   ConsoleStudiosRouteRoute: ConsoleStudiosRouteRoute,
   ConsoleAwardsIdRoute: ConsoleAwardsIdRoute,

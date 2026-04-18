@@ -1,7 +1,8 @@
-import type { Enum, FilmStatus } from '@films-collection/shared';
+import { filmStatusOptions } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import type z from 'zod';
 import {
+  DescriptionEditor,
   filmDefaultFormValues,
   FilmFormSchema,
   getFormTitle,
@@ -9,23 +10,16 @@ import {
   useManageFilm,
 } from '~/routes/console/-shared';
 import {
+  SeriesExtension,
   TrailersSelect,
-  TranslateDescription,
 } from '~/routes/console/films_/-components/film-form/components';
 import { api, Form, getInitialDataQueryOptions, type FormComponentProps } from '~/shared';
 
-type PartialFilmFormProps = FormComponentProps<
-  z.infer<typeof FilmFormSchema>,
-  {
-    status: Enum<typeof FilmStatus>;
-    title: string;
-  }
->;
+type PartialFilmFormProps = FormComponentProps<z.infer<typeof FilmFormSchema>>;
 
-export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps) => {
+export const PartialFilmForm = ({ values }: PartialFilmFormProps) => {
   const { mutateAsync, isPending } = useManageFilm({
     values,
-    status,
     invalidateQueries: {
       queryKey: [api.films.getAdminIncompleteFilmsList.staticKey],
     },
@@ -45,9 +39,11 @@ export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps)
       defaultValues={{ ...filmDefaultFormValues, ...values }}
       schema={FilmFormSchema}
       isLoading={isPending}
-      title={getFormTitle(values, title)}
+      title={getFormTitle(values, 'Film')}
     >
       <Form.TextInput name="title" label="Title" />
+      <Form.Select name="status" options={filmStatusOptions} label="Status" />
+      <Form.DatePicker name="releaseDate" label="Release Date" />
       <Form.CheckboxesGroup
         label="Type"
         name="type"
@@ -60,7 +56,8 @@ export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps)
         options={initialOptions.options.styles}
         type="radio"
       />
-      <TranslateDescription />
+      <SeriesExtension shouldShowDateSelector={false} />
+      <DescriptionEditor />
       <Form.FileInput label="Poster" name="poster" />
       <TrailersSelect />
       <Form.Select
@@ -69,7 +66,6 @@ export const PartialFilmForm = ({ values, status, title }: PartialFilmFormProps)
         options={initialOptions.options.collections}
         isMulti
       />
-      <Form.DatePicker name="releaseDate" label="Release Date" />
     </Form>
   );
 };

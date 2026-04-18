@@ -78,6 +78,13 @@
       "when": 1776009579440,
       "tag": "0011_pending_films_cleanup",
       "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1776522546050,
+      "tag": "0012_update_film_status_enum",
+      "breakpoints": true
     }
   ]
 }

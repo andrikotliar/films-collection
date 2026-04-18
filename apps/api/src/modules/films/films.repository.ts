@@ -5,6 +5,7 @@ import {
   type CreateFilmDraftInput,
   type CreateFilmInput,
   type Enum,
+  type ExtendedFilmStatus,
   type FilmStatus,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
@@ -13,7 +14,7 @@ import {
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapListFilters } from '~/modules/films/helpers';
+import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers';
 import {
   and,
   asc,
@@ -768,8 +769,28 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
-  async getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
-    const filters = mapListFilters(query, this.deps.db);
+  private transformIncompleteFilmsStatus(
+    status: Enum<typeof ExtendedFilmStatus>,
+  ): Partial<PlainFilmFilters> {
+    const today = new Date().toISOString();
+
+    if (status === 'UPCOMING') {
+      return {
+        status: 'PLANNED',
+        startDateAfter: today,
+      };
+    }
+
+    return {
+      status,
+      endDate: today,
+    };
+  }
+
+  async getIncompleteFilmsByStatus({ status, ...query }: GetIncompleteFilmsQuery) {
+    const transformedFilters = this.transformIncompleteFilmsStatus(status);
+
+    const filters = mapListFilters({ ...query, ...transformedFilters }, this.deps.db);
 
     const list = await this.deps.db.query.films.findMany({
       columns: {
@@ -793,6 +814,13 @@ export class FilmsRepository {
             order: true,
           },
         },
+        seriesExtensions: {
+          columns: {
+            seasonsTotal: true,
+            episodesTotal: true,
+            finishedAt: true,
+          },
+        },
         collections: {
           columns: {
             collectionId: true,
@@ -801,9 +829,14 @@ export class FilmsRepository {
       },
     });
 
+    const mappedList = list.map((item) => ({
+      ...item,
+      seriesExtension: item.seriesExtensions[0] ?? null,
+    }));
+
     const count = await this.count(filters);
 
-    return { list, count };
+    return { list: mappedList, count };
   }
 
   getFilmStatus(id: number) {

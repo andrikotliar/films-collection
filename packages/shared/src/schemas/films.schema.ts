@@ -1,5 +1,5 @@
 import z from 'zod';
-import { FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
+import { ExtendedFilmStatus, FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
@@ -15,7 +15,7 @@ const DateStringSchema = z
 const SeriesExtensionSchema = z.object({
   episodesTotal: z.coerce.number(),
   seasonsTotal: z.coerce.number(),
-  finishedAt: DateStringSchema.nullable(),
+  finishedAt: DateStringSchema.nullable().optional(),
 });
 
 export const CreateFilmInputSchema = z.object({
@@ -312,7 +312,7 @@ export const FilmDraftFilmIdParamsSchema = z.object({
 
 export const GetIncompleteFilmsQuerySchema = z.object({
   q: z.string().optional().nullable(),
-  status: z.enum(FilmStatus),
+  status: z.enum(ExtendedFilmStatus).optional().default('WATCHED'),
   pageIndex: z.coerce.number().min(0).optional(),
   type: z.enum(TitleType).optional(),
   style: z.enum(TitleStyle).optional(),
@@ -330,6 +330,7 @@ export const IncompleteFilmsListResponseSchema = z.object({
       type: true,
       style: true,
       overview: true,
+      seriesExtension: true,
     }).extend({
       id: z.number(),
       status: z.enum(FilmStatus),

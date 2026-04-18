@@ -33,7 +33,7 @@ export const personRole = pgEnum('person_role', [
 ]);
 export const titleStyle = pgEnum('title_style', ['LIVE_ACTION', 'ANIMATION']);
 export const titleType = pgEnum('title_type', ['FILM', 'SERIES']);
-export const filmStatus = pgEnum('film_status', ['ADDED', 'WATCHED', 'PLANNED', 'UPCOMING']);
+export const filmStatus = pgEnum('film_status', ['ADDED', 'WATCHED', 'PLANNED']);
 
 export const films = pgTable(
   'films',

@@ -36,7 +36,7 @@ export class AiService {
 
   public async generateFilmDescription(searchString: string) {
     const text = await this.createResponse(
-      `Write a short description for the movie ${searchString}. The description should be concise and written in simple language.`,
+      `Write a short description for ${searchString.toLowerCase()}. The text should describe the plot in a way it's clearly understandable what the picture about without abstract and general terms.`,
       'gpt-4.1-mini',
     );
 

@@ -11,6 +11,26 @@ export type PaginationProps = {
   totalLabel?: string;
 };
 
+type RangeParams = {
+  currentPageIndex: number;
+  total: number;
+  perPageCounter: number;
+};
+
+const getCurrentRangeEnd = ({ currentPageIndex, total, perPageCounter }: RangeParams) => {
+  if (total >= perPageCounter) {
+    const value = (currentPageIndex + 1) * perPageCounter;
+
+    if (value > total) {
+      return total;
+    }
+
+    return value;
+  }
+
+  return total;
+};
+
 export const Pagination = ({
   total,
   onPageChange,
@@ -19,7 +39,7 @@ export const Pagination = ({
   totalLabel = 'items',
 }: PaginationProps) => {
   const pagesCount = Math.ceil(total / perPageCounter);
-  const currentRangeEnd = total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
+  const currentRangeEnd = getCurrentRangeEnd({ total, currentPageIndex, perPageCounter });
 
   const pages = useMemo(() => {
     return buildPagination(currentPageIndex + 1, Math.ceil(total / perPageCounter));

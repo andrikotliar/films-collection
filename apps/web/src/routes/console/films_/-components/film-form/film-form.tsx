@@ -1,7 +1,7 @@
 import type z from 'zod';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { api, Form, getInitialDataQueryOptions, isNewItem, Panel } from '~/shared';
-import { FilmFormSchema, useManageFilm } from '~/routes/console/-shared';
+import { DescriptionEditor, FilmFormSchema, useManageFilm } from '~/routes/console/-shared';
 import {
   AwardsSelect,
   CastAndCrewSelect,
@@ -11,7 +11,6 @@ import {
   MoneyInput,
   SeriesExtension,
   TrailersSelect,
-  TranslateDescription,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
@@ -37,7 +36,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     onSuccess: () => {
       navigate({ to: '/console/films' });
     },
-    status: 'ADDED',
     invalidateQueries: [
       {
         queryKey: [api.films.getAdminList.staticKey],
@@ -159,7 +157,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <Form.DatePicker name="releaseDate" label="Release Date" />
         <MoneyInput name="budget" label="Budget" />
         <MoneyInput name="boxOffice" label="Box Office" />
-        <TranslateDescription />
+        <DescriptionEditor />
         <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
 
