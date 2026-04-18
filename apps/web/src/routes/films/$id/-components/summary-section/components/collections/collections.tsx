@@ -12,7 +12,7 @@ export const Collections = ({ list }: CollectionsProps) => {
     <div className={styles.collections}>
       {list.map((collection) => (
         <Link
-          to="/"
+          to="/films"
           search={{ collectionId: collection.id }}
           className={styles.collection_link}
           style={{ backgroundColor: getColorBaseOnFirstLetter(collection.title) }}

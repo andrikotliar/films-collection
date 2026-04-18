@@ -1,7 +1,7 @@
 import { getExternalImageUrl, getYearFromDate, Image, type api, type ApiResponse } from '~/shared';
 import styles from './films-grid.module.css';
 import { Link } from '@tanstack/react-router';
-import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
+import { FilmsNotFound } from '~/routes/films/_list/-components/films-section/components/films-not-found/films-not-found';
 
 type FilmsGridProps = {
   films: ApiResponse<typeof api.films.getList.exec>['list'];

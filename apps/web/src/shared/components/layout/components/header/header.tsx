@@ -1,4 +1,4 @@
-import styles from "./header.module.css";
+import styles from './header.module.css';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';
@@ -28,11 +28,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.header_container}>
         <div className={styles.left_column}>
-          <Link
-            to="/"
-            search={location.pathname === '/' ? location.search : undefined}
-            className={styles.logo_wrapper}
-          >
+          <Link to="/" className={styles.logo_wrapper}>
             <Logo />
           </Link>
         </div>

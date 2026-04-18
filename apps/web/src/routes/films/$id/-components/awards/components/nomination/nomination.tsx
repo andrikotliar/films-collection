@@ -16,7 +16,7 @@ export const Nomination = ({ title, nominee }: NominationProps) => {
         <div>{title}</div>
         {nominee && (
           <RouterLink
-            to="/"
+            to="/films"
             search={{ personId: nominee.id, personRole: PersonRole.ACTOR }}
             className={styles.nominee_link}
           >

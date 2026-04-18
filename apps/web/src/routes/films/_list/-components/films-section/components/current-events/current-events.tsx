@@ -1,11 +1,13 @@
 import styles from './current-events.module.css';
-import { EventBanner } from '~/routes/_home/-components/films-section/components/event-banner/event-banner';
-import { Link, useSearch } from '@tanstack/react-router';
+import { getRouteApi, Link } from '@tanstack/react-router';
 import { getInitialDataQueryOptions } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
+import { EventBanner } from '~/routes/films/_list/-components/films-section/components/event-banner/event-banner';
+
+const routeApi = getRouteApi('/films/_list');
 
 export const CurrentEvents = () => {
-  const search = useSearch({ from: '/_home/' });
+  const search = routeApi.useSearch();
 
   const { data: initialData } = useQuery(getInitialDataQueryOptions());
 
@@ -16,7 +18,7 @@ export const CurrentEvents = () => {
   return (
     <div className={styles.events_track}>
       {search.collectionId && (
-        <Link className={styles.all_films_link} to="/">
+        <Link className={styles.all_films_link} to="/films">
           <div className={styles.all_films_link_inner}>{initialData?.filmsTotal ?? ''}</div>
           <div className={styles.all_films_link_title}>All films</div>
         </Link>

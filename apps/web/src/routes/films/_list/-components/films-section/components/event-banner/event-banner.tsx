@@ -18,7 +18,7 @@ export const EventBanner = ({ event, selectedEventId }: EventBannerProps) => {
 
   return (
     <Link
-      to="/"
+      to="/films"
       search={{ collectionId: event.collectionId }}
       className={clsx(styles.event_banner_button, isSelected && styles.selected_event)}
     >
