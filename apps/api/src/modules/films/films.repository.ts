@@ -21,8 +21,10 @@ import {
   count,
   desc,
   eq,
+  gt,
   ilike,
   inArray,
+  isNotNull,
   isNull,
   notInArray,
   type SQL,
@@ -82,6 +84,21 @@ export class FilmsRepository {
 
   async countAddedFilms() {
     return this.count([eq(films.status, 'ADDED')]);
+  }
+
+  async getUpcomingFilms() {
+    const today = new Date().toISOString();
+
+    return this.deps.db
+      .select({ id: films.id, title: films.title, releaseDate: films.releaseDate })
+      .from(films)
+      .where(
+        and(
+          eq(films.status, 'PLANNED'),
+          gt(films.releaseDate, today),
+          isNotNull(films.releaseDate),
+        ),
+      );
   }
 
   async findAndCount(queries: GetFilmsListQuery) {

@@ -1,5 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { CurrentEvents, FilmsBanner, Layout, Row } from '~/routes/_home/-components';
+import {
+  CurrentEvents,
+  FilmsBanner,
+  Layout,
+  Row,
+  UpcomingFilmsWidget,
+} from '~/routes/_home/-components';
 import { getInitialDataQueryOptions, useDocumentTitle } from '~/shared';
 
 export const Route = createFileRoute('/_home/')({
@@ -17,6 +23,7 @@ function RootPageContainer() {
       <CurrentEvents />
       <Row>
         <FilmsBanner />
+        <UpcomingFilmsWidget />
       </Row>
     </Layout>
   );

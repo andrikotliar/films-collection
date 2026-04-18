@@ -3,3 +3,4 @@ export * from './films-banner/films-banner';
 export * from './data-section/data-section';
 export * from './row/row';
 export * from './current-events/current-events';
+export * from './upcoming-films-widget/upcoming-films-widget';

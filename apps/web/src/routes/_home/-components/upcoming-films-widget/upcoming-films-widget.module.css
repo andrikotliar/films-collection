@@ -1,0 +1,21 @@
+.film {
+  border-bottom: 1px solid var(--color-gray-light);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.film:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-size: var(--text-xs);
+}

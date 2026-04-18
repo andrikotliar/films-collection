@@ -351,6 +351,8 @@ export const GetFilmsCountResponse = z.object({
   count: z.number(),
 });
 
+export const GetUpcomingFilmsResponse = z.array(FilmResponseSchema.pick({ id: true, title: true, releaseDate: true }).extend({ inDays: z.number() }))
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;

@@ -1,4 +1,4 @@
-export const getFormattedDate = (value?: string): string | null => {
+export const getFormattedDate = (value?: string | null): string | null => {
   if (!value) {
     return null;
   }

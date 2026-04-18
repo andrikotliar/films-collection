@@ -254,6 +254,15 @@ export class FilmsService {
     return { list: mappedList, count };
   }
 
+  async getUpcomingFilms() {
+    const films = await this.deps.filmsRepository.getUpcomingFilms();
+
+    return films.map((film) => ({
+      ...film,
+      inDays: this.getDaysDiffFromToday(film.releaseDate!),
+    }));
+  }
+
   private getValidatedOptions<T extends { updatedAt: string }>(
     options: T[],
     newestOnly?: boolean,
@@ -297,6 +306,19 @@ export class FilmsService {
     this.filmsCount = count;
 
     return { count };
+  }
+
+  private getDaysDiffFromToday(dateString: string) {
+    const now = new Date();
+    const target = new Date(dateString);
+
+    now.setHours(0, 0, 0, 0);
+    target.setHours(0, 0, 0, 0);
+
+    const diffMs = target.getTime() - now.getTime();
+    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
+
+    return diffDays;
   }
 
   private listOptionsToDto<T extends GenericOption>(
