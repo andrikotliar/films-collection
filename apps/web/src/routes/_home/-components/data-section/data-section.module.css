@@ -9,14 +9,21 @@
   border: 1px solid var(--color-gray-primary);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid var(--color-gray-primary);
+  background-color: var(--color-blue-invisible);
+}
+
 .title {
   font-size: var(--text-sm);
   color: var(--color-gray-dark);
   text-transform: uppercase;
   font-family: 'Roboto-Condensed';
-  padding: 10px;
-  border-bottom: 1px solid var(--color-gray-primary);
-  background-color: var(--color-blue-invisible);
 }
 
 .content {
