@@ -58,14 +58,7 @@ export const PartialFilmForm = ({ values }: PartialFilmFormProps) => {
       />
       <SeriesExtension shouldShowDateSelector={false} />
       <DescriptionEditor />
-      <Form.FileInput label="Poster" name="poster" />
       <TrailersSelect />
-      <Form.Select
-        label="Collections"
-        name="collections"
-        options={initialOptions.options.collections}
-        isMulti
-      />
     </Form>
   );
 };
