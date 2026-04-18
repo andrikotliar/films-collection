@@ -1,6 +1,6 @@
 import styles from './films-section.module.css';
 import clsx from 'clsx';
-import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
+import { AdditionalInfoSection, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import { CameraLoader, getFilmsListQueryOptions, Pagination } from '~/shared';
 import { PAGE_LIMITS } from '@films-collection/shared';
@@ -36,7 +36,6 @@ export const FilmsSection = () => {
 
   return (
     <div className={styles.films_section}>
-      <CurrentEvents />
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.list} />
       <div className={styles.pagination_wrapper}>

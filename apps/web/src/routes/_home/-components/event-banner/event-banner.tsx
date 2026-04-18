@@ -1,17 +1,13 @@
 import { Link } from '@tanstack/react-router';
 import styles from './event-banner.module.css';
-import { getPluralWord, getExternalImageUrl, type api, type ApiResponse } from '~/shared';
-import { Image } from '~/shared/components/image/image';
-import clsx from 'clsx';
+import { getPluralWord, getExternalImageUrl, type api, type ApiResponse, Image } from '~/shared';
 
 type EventBannerProps = {
   event: ApiResponse<typeof api.initialData.get.exec>['events'][number];
-  selectedEventId?: number | null;
 };
 
-export const EventBanner = ({ event, selectedEventId }: EventBannerProps) => {
+export const EventBanner = ({ event }: EventBannerProps) => {
   const year = new Date().getFullYear();
-  const isSelected = selectedEventId === event.collectionId;
   const subTitle = event.yearFrom
     ? `${year - event.yearFrom} ${getPluralWord('year', event.yearFrom)} since`
     : null;
@@ -20,7 +16,7 @@ export const EventBanner = ({ event, selectedEventId }: EventBannerProps) => {
     <Link
       to="/films"
       search={{ collectionId: event.collectionId }}
-      className={clsx(styles.event_banner_button, isSelected && styles.selected_event)}
+      className={styles.event_banner_button}
     >
       <div className={styles.event_banner_inner}>
         <Image src={getExternalImageUrl(event.poster)} className={styles.poster_image} />

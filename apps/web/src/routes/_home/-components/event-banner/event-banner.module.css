@@ -4,15 +4,13 @@
 }
 
 .event_banner_inner {
-  --shadow-weight: 2px;
-  --shadow-color: var(--color-blue-primary);
   position: relative;
   width: 80px;
   height: 80px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--color-white);
-  box-shadow: 0 0 0 var(--shadow-weight) var(--shadow-color);
+  box-shadow: 0 0 0 2px var(--color-blue-primary);
 }
 
 .event_banner_inner::after {
@@ -41,9 +39,4 @@
 
 .event_banner_button:hover .event_title {
   color: var(--color-blue-primary);
-}
-
-.selected_event .event_banner_inner {
-  --shadow-weight: 4px;
-  --shadow-color: var(--color-green-primary);
 }
