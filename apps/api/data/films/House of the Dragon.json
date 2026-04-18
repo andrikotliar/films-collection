@@ -7,8 +7,8 @@
   "budget": 0,
   "boxOffice": 0,
   "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "chapterKey": "got",
+  "chapterOrder": 0.5,
   "poster": "posters/house_of_the_dragon.webp",
   "genres": [
     {

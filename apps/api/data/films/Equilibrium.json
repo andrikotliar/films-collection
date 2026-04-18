@@ -1,0 +1,116 @@
+{
+  "id": 275,
+  "title": "Equilibrium",
+  "releaseDate": "2002-12-06",
+  "type": "FILM",
+  "duration": 107,
+  "budget": 20000000,
+  "boxOffice": 5000000,
+  "overview": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/equilibrium",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Dimension Films",
+      "id": 86
+    },
+    {
+      "title": "Blue Tulip Productions",
+      "id": 87
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=raleKODYeg0&pp=ygUTZXF1aWxpYnJpdW0gdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 319
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2679,
+      "name": "Kurt Wimmer",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2679,
+      "name": "Kurt Wimmer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "John Preston"
+    },
+    {
+      "id": 1045,
+      "name": "Sean Bean",
+      "role": "ACTOR",
+      "details": " Partridge"
+    },
+    {
+      "id": 2680,
+      "name": "Dominic Purcell",
+      "role": "ACTOR",
+      "details": " Seamus"
+    },
+    {
+      "id": 2681,
+      "name": "John Keogh",
+      "role": "ACTOR",
+      "details": "Chemist"
+    },
+    {
+      "id": 2682,
+      "name": " Sean Pertwee",
+      "role": "ACTOR",
+      "details": "Father"
+    },
+    {
+      "id": 343,
+      "name": "Emily Watson",
+      "role": "ACTOR",
+      "details": "Mary O'Brien"
+    },
+    {
+      "id": 2683,
+      "name": "Lucas Foster",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1896,
+      "name": "Klaus Badelt",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1455,
+      "name": "Dion Beebe",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}
