@@ -53,6 +53,7 @@ export const ConsoleHeader = () => {
         onClose={() => setIsMenuOpen(false)}
         triggerRef={buttonRef}
         menuMargin={20}
+        positionState="fixed"
       >
         <div className={styles.console_menu}>
           {menuItems.map((item) => (

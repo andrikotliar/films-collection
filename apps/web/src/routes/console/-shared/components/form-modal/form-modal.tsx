@@ -19,7 +19,7 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
   return (
     <Modal isOpen onClose={onClose} className={styles.wrapper} isAllowedClickOutside={false}>
       <Modal.Content className={styles.content}>
-        <Panel isScrollable>
+        <Panel>
           <FormComponent values={values} />
         </Panel>
         <Modal.CloseButton onClick={onClose} className={styles.close_button} />

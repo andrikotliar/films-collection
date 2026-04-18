@@ -7,6 +7,9 @@ export const getIncompleteFilmsListQueryOptions = (
 ) => {
   return queryOptions({
     queryKey: [api.films.getAdminIncompleteFilmsList.staticKey, queryParams],
-    queryFn: async () => api.films.getAdminIncompleteFilmsList.exec({ queryParams }),
+    queryFn: async () =>
+      api.films.getAdminIncompleteFilmsList.exec({
+        queryParams,
+      }),
   });
 };

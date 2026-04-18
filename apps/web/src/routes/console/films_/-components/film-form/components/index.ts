@@ -4,6 +4,5 @@ export * from './trailers-select/trailers-select';
 export * from './film-values-watcher/film-values-watcher';
 export * from './chapters-select/chapters-select';
 export * from './series-extension/series-extension';
-export * from './translate-description/translate-description';
 export * from './money-input/money-input';
 export * from './drafts/drafts';

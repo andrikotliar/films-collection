@@ -1,5 +1,17 @@
 import type { GetFilmsListQuery } from '@films-collection/shared';
-import { and, between, eq, exists, gte, ilike, inArray, isNull, lte, type SQL } from 'drizzle-orm';
+import {
+  and,
+  between,
+  eq,
+  exists,
+  gt,
+  gte,
+  ilike,
+  inArray,
+  isNull,
+  lte,
+  type SQL,
+} from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
 import {
   filmAwardNominations,
@@ -25,11 +37,12 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   return between(column, value - MONEY_RANGE_MILLIONS, value + MONEY_RANGE_MILLIONS);
 };
 
-type PlainFilters = GetFilmsListQuery & {
+export type PlainFilmFilters = GetFilmsListQuery & {
   status?: (typeof filmStatus.enumValues)[number];
+  startDateAfter?: string;
 };
 
-export const mapListFilters = (plainFilters: PlainFilters, db: Database): SQL[] => {
+export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQL[] => {
   const {
     genreIds,
     collectionId,
@@ -50,12 +63,17 @@ export const mapListFilters = (plainFilters: PlainFilters, db: Database): SQL[] 
     boxOffice,
     q,
     status = 'ADDED',
+    startDateAfter,
   } = plainFilters;
 
   const filters: SQL[] = [isNull(films.deletedAt), eq(films.status, status)];
 
-  if (startDate) {
+  if (startDate && !startDateAfter) {
     filters.push(gte(films.releaseDate, startDate));
+  }
+
+  if (startDateAfter) {
+    filters.push(gt(films.releaseDate, startDateAfter));
   }
 
   if (endDate) {

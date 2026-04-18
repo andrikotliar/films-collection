@@ -5,3 +5,4 @@ export * from './add-item-button/add-item-button';
 export * from './console-root-layout/console-root-layout';
 export * from './console-content-layout/console-content-layout';
 export * from './form-modal-provider/form-modal-provider';
+export * from './description-editor/description-editor';

@@ -9,9 +9,7 @@ import {
   MapIcon,
   NewspaperIcon,
   RectangleEllipsisIcon,
-  TimerIcon,
   TrophyIcon,
-  TvMinimal,
   UserIcon,
   VideotapeIcon,
 } from 'lucide-react';
@@ -59,24 +57,10 @@ export const consoleMenuConfig = {
     icon: <ClapperboardIcon />,
     color: 'color-blue-primary',
   },
-  watchedFilms: {
-    id: 'watched',
+  pendingFilms: {
+    id: 'pendingFilms',
     route: '/console/queue',
-    title: 'Watched Films',
-    icon: <TvMinimal />,
-    color: 'color-blue-green-primary',
-  },
-  plannedFilms: {
-    id: 'planned',
-    route: '/console/queue/planned',
-    title: 'Planned Films',
-    icon: <TimerIcon />,
-    color: 'color-brown-light',
-  },
-  upcomingFilms: {
-    id: 'upcoming',
-    route: '/console/queue/upcoming',
-    title: 'Upcoming Films',
+    title: 'Pending Films',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
   },
@@ -125,7 +109,7 @@ type ConsoleMenuGroup = {
 export const consoleMenuGroups: ConsoleMenuGroup[] = [
   {
     title: 'Films',
-    itemIds: ['films', 'watchedFilms', 'plannedFilms', 'upcomingFilms'],
+    itemIds: ['films', 'pendingFilms'],
   },
   {
     title: 'Base info',
