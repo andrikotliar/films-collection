@@ -24,7 +24,6 @@ export const Route = createFileRoute('/films/_list')({
     search,
   }),
   loader: async ({ context, deps }) => {
-    await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
     await context.queryClient.ensureQueryData(getFilmsListQueryOptions(deps.search));
   },
   component: RootPageContainer,
