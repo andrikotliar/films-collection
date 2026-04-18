@@ -24,6 +24,8 @@ type GenericOption = {
 };
 
 export class FilmsService {
+  private filmsCount = 0;
+
   constructor(
     private readonly deps: Deps<
       | 'filmsRepository'
@@ -89,10 +91,6 @@ export class FilmsService {
     return this.deps.filmsRepository.findChapters(chapterKey);
   }
 
-  getFilmsTotal() {
-    return this.deps.filmsRepository.count();
-  }
-
   async getEditableFilm(id: number) {
     const film = await throwIfNotFound(this.deps.filmsRepository.getEditableFilm(id));
 
@@ -107,6 +105,8 @@ export class FilmsService {
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
+
+    this.filmsCount = 0;
 
     return await this.getFilmDetails(filmId, status);
   }
@@ -176,6 +176,8 @@ export class FilmsService {
 
       return { id };
     }
+
+    this.filmsCount = 0;
 
     await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
@@ -283,6 +285,18 @@ export class FilmsService {
 
   generateFilmDescription(searchString: string) {
     return this.deps.aiService.generateFilmDescription(searchString);
+  }
+
+  async getFilmsCount() {
+    if (this.filmsCount) {
+      return { count: this.filmsCount };
+    }
+
+    const count = await this.deps.filmsRepository.countAddedFilms();
+
+    this.filmsCount = count;
+
+    return { count };
   }
 
   private listOptionsToDto<T extends GenericOption>(

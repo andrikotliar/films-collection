@@ -16,7 +16,6 @@ export const InitialDataResponseSchema = z.object({
     selectedPeople: buildListOptionSchema(z.coerce.number()),
   }),
   events: CollectionCurrentEventsListResponseSchema,
-  filmsTotal: z.coerce.number(),
 });
 
 export type InitialDataResponse = z.infer<typeof InitialDataResponseSchema>;

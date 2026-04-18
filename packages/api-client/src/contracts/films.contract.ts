@@ -23,6 +23,7 @@ import {
   IncompleteFilmsListResponseSchema,
   GenerateFilmDescriptionInputSchema,
   GeneratedFilmDescriptionResponseSchema,
+  GetFilmsCountResponse,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -58,6 +59,13 @@ export const filmsContract = defineContracts('films', {
     schema: {
       querystring: GetFilmsListQuerySchema,
       response: FilmsAdminListResponseSchema,
+    },
+  },
+  getCount: {
+    method: 'GET',
+    url: 'count',
+    schema: {
+      response: GetFilmsCountResponse,
     },
   },
   getAdminIncompleteFilmsList: {

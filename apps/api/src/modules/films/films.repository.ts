@@ -80,6 +80,10 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
+  async countAddedFilms() {
+    return this.count([eq(films.status, 'ADDED')]);
+  }
+
   async findAndCount(queries: GetFilmsListQuery) {
     const filters = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order);
