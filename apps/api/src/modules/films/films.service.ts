@@ -14,8 +14,10 @@ import {
   type Enum,
   type FilmStatus,
   type IncompleteFilmsListResponse,
+  type GetDashboardDataResponse,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList, mapInnerId } from './helpers';
+import type { VerifiedTokenData } from '~/modules/auth';
 
 type GenericOption = {
   id: number;
@@ -32,10 +34,12 @@ export class FilmsService {
       | 'peopleService'
       | 'awardsService'
       | 'collectionsService'
+      | 'collectionEventsService'
       | 'genresService'
       | 'countriesService'
       | 'studiosService'
       | 'aiService'
+      | 'jwtService'
     >,
   ) {}
 
@@ -261,6 +265,48 @@ export class FilmsService {
       ...film,
       inDays: this.getDaysDiffFromToday(film.releaseDate!),
     }));
+  }
+
+  async getPlannedFilms() {
+    const films = await this.deps.filmsRepository.getPlannedFilms();
+
+    return films.map(({ seriesExtensions, ...film }) => ({
+      ...film,
+      seriesExtension: seriesExtensions[0] ?? null,
+    }));
+  }
+
+  private getIsAuthenticated(token?: string): boolean {
+    if (!token) {
+      return false;
+    }
+
+    try {
+      const data = this.deps.jwtService.verify<VerifiedTokenData>(token);
+      return !!data.id;
+    } catch {
+      return false;
+    }
+  }
+
+  async getDashboardData(accessToken?: string): Promise<GetDashboardDataResponse> {
+    const isAuthenticated = this.getIsAuthenticated(accessToken);
+
+    const data: GetDashboardDataResponse = {
+      events: [],
+      upcomingFilms: [],
+      latestAddedFilms: [],
+    };
+
+    if (isAuthenticated) {
+      data.plannedFilms = await this.getPlannedFilms();
+    }
+
+    data.upcomingFilms = await this.getUpcomingFilms();
+    data.events = await this.deps.collectionEventsService.findTodayEvents();
+    data.latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
+
+    return data;
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

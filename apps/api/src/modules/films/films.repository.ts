@@ -21,11 +21,13 @@ import {
   count,
   desc,
   eq,
+  exists,
   gt,
   ilike,
   inArray,
   isNotNull,
   isNull,
+  lte,
   notInArray,
   type SQL,
 } from 'drizzle-orm';
@@ -84,21 +86,6 @@ export class FilmsRepository {
 
   async countAddedFilms() {
     return this.count([eq(films.status, 'ADDED')]);
-  }
-
-  async getUpcomingFilms() {
-    const today = new Date().toISOString();
-
-    return this.deps.db
-      .select({ id: films.id, title: films.title, releaseDate: films.releaseDate })
-      .from(films)
-      .where(
-        and(
-          eq(films.status, 'PLANNED'),
-          gt(films.releaseDate, today),
-          isNotNull(films.releaseDate),
-        ),
-      );
   }
 
   async findAndCount(queries: GetFilmsListQuery) {
@@ -868,6 +855,61 @@ export class FilmsRepository {
         .where(eq(films.id, id))
         .limit(1),
     );
+  }
+
+  getPlannedFilms() {
+    const today = new Date().toISOString();
+
+    return this.deps.db.query.films.findMany({
+      columns: {
+        id: true,
+        title: true,
+        overview: true,
+      },
+      with: {
+        seriesExtensions: true,
+      },
+      where: and(eq(films.status, 'PLANNED'), lte(films.releaseDate, today)),
+      limit: 10,
+      orderBy: desc(films.releaseDate),
+    });
+  }
+
+  async getUpcomingFilms() {
+    const today = new Date().toISOString();
+
+    return this.deps.db.query.films.findMany({
+      columns: {
+        id: true,
+        title: true,
+        releaseDate: true,
+      },
+      where: and(
+        eq(films.status, 'PLANNED'),
+        gt(films.releaseDate, today),
+        isNotNull(films.releaseDate),
+        exists(
+          this.deps.db
+            .select({ id: filmTrailers.id })
+            .from(filmTrailers)
+            .where(eq(filmTrailers.filmId, films.id)),
+        ),
+      ),
+      limit: 10,
+      orderBy: asc(films.releaseDate),
+      with: {
+        trailers: true,
+      },
+    });
+  }
+
+  async getLatestFilms() {
+    return this.deps.db
+      .select({ id: films.id, poster: films.title })
+      .from(films)
+      .where(and(eq(films.status, 'ADDED'), isNotNull(films.poster)))
+      .limit(10)
+      .orderBy(desc(films.createdAt));
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

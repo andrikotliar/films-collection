@@ -31,8 +31,6 @@ export class InitialDataService {
     const roles = convertEnumValuesToOption(personRole.enumValues);
     const collectionCategories = convertEnumValuesToOption(collectionCategory.enumValues);
 
-    const events = await this.deps.collectionEventsService.findTodayEvents();
-
     return {
       options: {
         collections,
@@ -46,7 +44,6 @@ export class InitialDataService {
         collectionCategories,
         selectedPeople,
       },
-      events,
     };
   }
 }

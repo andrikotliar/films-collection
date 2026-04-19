@@ -24,7 +24,7 @@ import {
   GenerateFilmDescriptionInputSchema,
   GeneratedFilmDescriptionResponseSchema,
   GetFilmsCountResponse,
-  GetUpcomingFilmsResponse,
+  GetDashboardDataResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -62,11 +62,11 @@ export const filmsContract = defineContracts('films', {
       response: FilmsAdminListResponseSchema,
     },
   },
-  getUpcomingFilms: {
+  getDashboard: {
     method: 'GET',
-    url: 'upcoming',
+    url: 'dashboard',
     schema: {
-      response: GetUpcomingFilmsResponse,
+      response: GetDashboardDataResponseSchema,
     },
   },
   getCount: {

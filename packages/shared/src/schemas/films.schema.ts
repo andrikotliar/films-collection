@@ -2,6 +2,7 @@ import z from 'zod';
 import { ExtendedFilmStatus, FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
+import { CollectionCurrentEventsListResponseSchema } from '~/schemas/collection-events.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
 import { CountryResponseSchema } from '~/schemas/countries.schema';
 import { GenreResponseSchema } from '~/schemas/genres.schema';
@@ -351,7 +352,20 @@ export const GetFilmsCountResponse = z.object({
   count: z.number(),
 });
 
-export const GetUpcomingFilmsResponse = z.array(FilmResponseSchema.pick({ id: true, title: true, releaseDate: true }).extend({ inDays: z.number() }))
+export const GetDashboardDataResponseSchema = z.object({
+  latestAddedFilms: z.array(FilmResponseSchema.pick({ id: true, poster: true })),
+  upcomingFilms: z.array(
+    FilmResponseSchema.pick({ id: true, title: true, releaseDate: true, trailers: true }).extend({
+      inDays: z.number(),
+    }),
+  ),
+  events: CollectionCurrentEventsListResponseSchema,
+  plannedFilms: z
+    .array(
+      FilmResponseSchema.pick({ id: true, title: true, overview: true, seriesExtension: true }),
+    )
+    .optional(),
+});
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
@@ -368,3 +382,4 @@ export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
 export type GetIncompleteFilmsQuery = z.infer<typeof GetIncompleteFilmsQuerySchema>;
 export type IncompleteFilmsListResponse = z.infer<typeof IncompleteFilmsListResponseSchema>;
+export type GetDashboardDataResponse = z.infer<typeof GetDashboardDataResponseSchema>;
