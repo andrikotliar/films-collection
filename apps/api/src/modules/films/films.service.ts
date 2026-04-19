@@ -289,6 +289,20 @@ export class FilmsService {
     }
   }
 
+  async findReleasedToday(): Promise<GetDashboardDataResponse['releasedToday']> {
+    const data = await this.deps.filmsRepository.findReleasedToday();
+
+    const currentYear = new Date().getFullYear();
+
+    return data.map((film) => {
+      const releaseYear = new Date(film.releaseDate!).getFullYear();
+      return {
+        ...film,
+        yearsCount: currentYear - releaseYear,
+      };
+    });
+  }
+
   async getDashboardData(accessToken?: string): Promise<GetDashboardDataResponse> {
     const isAuthenticated = this.getIsAuthenticated(accessToken);
 
@@ -296,6 +310,7 @@ export class FilmsService {
       events: [],
       upcomingFilms: [],
       latestAddedFilms: [],
+      releasedToday: [],
     };
 
     if (isAuthenticated) {
@@ -305,6 +320,7 @@ export class FilmsService {
     data.upcomingFilms = await this.getUpcomingFilms();
     data.events = await this.deps.collectionEventsService.findTodayEvents();
     data.latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
+    data.releasedToday = await this.findReleasedToday();
 
     return data;
   }

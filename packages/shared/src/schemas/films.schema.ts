@@ -365,6 +365,9 @@ export const GetDashboardDataResponseSchema = z.object({
       FilmResponseSchema.pick({ id: true, title: true, overview: true, seriesExtension: true }),
     )
     .optional(),
+  releasedToday: z.array(
+    FilmResponseSchema.pick({ id: true, poster: true }).extend({ yearsCount: z.number() }),
+  ),
 });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;

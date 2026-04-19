@@ -29,6 +29,7 @@ import {
   isNull,
   lte,
   notInArray,
+  sql,
   type SQL,
 } from 'drizzle-orm';
 import {
@@ -905,11 +906,25 @@ export class FilmsRepository {
 
   async getLatestFilms() {
     return this.deps.db
-      .select({ id: films.id, poster: films.title })
+      .select({ id: films.id, poster: films.poster })
       .from(films)
-      .where(and(eq(films.status, 'ADDED'), isNotNull(films.poster)))
+      .where(and(eq(films.status, 'ADDED'), isNotNull(films.poster), sql`LENGTH(poster) > 0`))
       .limit(10)
       .orderBy(desc(films.createdAt));
+  }
+
+  findReleasedToday() {
+    return this.deps.db
+      .select({ id: films.id, poster: films.poster, releaseDate: films.releaseDate })
+      .from(films)
+      .where(
+        and(
+          eq(films.status, 'ADDED'),
+          isNotNull(films.releaseDate),
+          sql`EXTRACT(MONTH FROM release_date) = EXTRACT(MONTH FROM CURRENT_DATE)`,
+          sql`EXTRACT(DAY FROM release_date) = EXTRACT(DAY FROM CURRENT_DATE)`,
+        ),
+      );
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {
