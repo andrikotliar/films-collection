@@ -1,18 +1,19 @@
 import styles from './current-events.module.css';
-import { getInitialDataQueryOptions } from '~/shared';
-import { useQuery } from '@tanstack/react-query';
+import { type api, type ApiResponse } from '~/shared';
 import { EventBanner } from '~/routes/_home/-components/event-banner/event-banner';
 
-export const CurrentEvents = () => {
-  const { data: initialData } = useQuery(getInitialDataQueryOptions());
+type CurrentEventsProps = {
+  events: ApiResponse<typeof api.films.getDashboard.exec>['events'];
+};
 
-  if (!initialData?.events.length) {
+export const CurrentEvents = ({ events }: CurrentEventsProps) => {
+  if (!events.length) {
     return null;
   }
 
   return (
     <div className={styles.events_track}>
-      {initialData.events.map((event) => (
+      {events.map((event) => (
         <EventBanner event={event} key={event.id} />
       ))}
     </div>

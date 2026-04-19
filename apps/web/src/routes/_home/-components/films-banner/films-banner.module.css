@@ -3,7 +3,7 @@
   display: block;
   border-radius: var(--rounded-default);
   overflow: hidden;
-  height: 350px;
+  height: 300px;
 }
 
 .wrapper::before {

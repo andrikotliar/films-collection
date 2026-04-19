@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  height: 100%;
+}
+
+.film {
+  flex-shrink: 0;
+  border-radius: var(--rounded-default);
+  overflow: hidden;
+  width: 130px;
+  height: 220px;
+}
