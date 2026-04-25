@@ -1,0 +1,105 @@
+{
+  "id": 365,
+  "title": "Moon Knight",
+  "releaseDate": "2022-04-30",
+  "type": "SERIES",
+  "duration": 50,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 31.5,
+  "poster": "posters/moon_knight",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/x7Krla_UxRg?si=Fbr4nlwC_urrnx7T",
+      "order": 1,
+      "id": 325
+    }
+  ],
+  "awards": [
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Sound Editing for a Limited or Anthology Series, Movie or Special",
+          "id": 266
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2684,
+      "name": "Jaremy Slater",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 896,
+      "name": "Oscar Isaac",
+      "role": "ACTOR",
+      "details": "Marc Spector/Steven Grant"
+    },
+    {
+      "id": 2685,
+      "name": "Ethan Hawke",
+      "role": "ACTOR",
+      "details": "Arthur Harrow"
+    },
+    {
+      "id": 2687,
+      "name": "May Calamawy",
+      "role": "ACTOR",
+      "details": "Layla El-Faouly"
+    },
+    {
+      "id": 2688,
+      "name": "Hasham Nazik",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1520,
+      "name": "Gregory Middleton",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2638,
+      "name": "Andrew Droz Palermo",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "seriesExtension": {
+    "id": 63,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "finishedAt": null
+  }
+}
