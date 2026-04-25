@@ -4,14 +4,26 @@ import {
   CurrentEvents,
   FilmsBanner,
   Layout,
-  Main,
-  PostersBlock,
+  Row,
   UpcomingFilmsWidget,
 } from '~/routes/_home/-components';
-import { getDashboardQueryOptions, getPluralWord, PageTitle, useDocumentTitle } from '~/shared';
+import {
+  getAuthStateQueryOptions,
+  getDashboardQueryOptions,
+  getInitialDataQueryOptions,
+  PageTitle,
+  useDocumentTitle,
+} from '~/shared';
 
 export const Route = createFileRoute('/_home/')({
   loader: async ({ context }) => {
+    await context.queryClient.ensureQueryData(getAuthStateQueryOptions()).catch(() => {
+      return {
+        isAuthenticated: false,
+      };
+    });
+
+    await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
     await context.queryClient.ensureQueryData(getDashboardQueryOptions());
   },
   component: RootPageContainer,
@@ -26,16 +38,10 @@ function RootPageContainer() {
     <Layout>
       <PageTitle>Dashboard</PageTitle>
       <CurrentEvents events={data.events} />
-      <Main>
+      <Row>
         <FilmsBanner />
-        <UpcomingFilmsWidget items={data.upcomingFilms} />
-        <PostersBlock items={data.latestAddedFilms} title="New films in the list" />
-        <PostersBlock
-          items={data.releasedToday}
-          title="Released in this day"
-          description={(item) => `${item.yearsCount} ${getPluralWord('year', item.yearsCount)} ago`}
-        />
-      </Main>
+      </Row>
+      <UpcomingFilmsWidget items={data.upcomingFilms} />
     </Layout>
   );
 }

@@ -10,7 +10,7 @@ export const FilmsBanner = () => {
 
   return (
     <div>
-      <Link to="/films" className={styles.wrapper}>
+      <Link to="/films" className={styles.films_banner}>
         <Image src={mainPageBanner} />
         <div className={styles.text}>
           <div className={styles.title}>

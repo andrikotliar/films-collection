@@ -22,7 +22,7 @@ export const UpcomingFilmsWidget = ({ items }: UpcomingFilmsWidgetProps) => {
     return null;
   }
   return (
-    <DataSection title="Upcoming films" isLoading={false}>
+    <DataSection title="Upcoming films">
       <div className={styles.row}>
         {items.map((film) => {
           const embeddableUrlData = getEmbeddableYoutubeUrl(film.trailers[0].url, {
@@ -34,11 +34,13 @@ export const UpcomingFilmsWidget = ({ items }: UpcomingFilmsWidgetProps) => {
           return (
             <button
               key={film.id}
-              className={styles.film}
               onClick={() => setSelectedUrl(embeddableUrlData.value)}
+              className={styles.film}
             >
-              <Image src={embeddableUrlData.preview} className={styles.video_preview} />
-              <PlayIcon className={styles.play_icon} size={40} />
+              <div className={styles.video}>
+                <Image src={embeddableUrlData.preview} className={styles.video_preview} />
+                <PlayIcon className={styles.play_icon} size={40} />
+              </div>
               <div className={styles.text}>
                 <div className={styles.title}>{film.title}</div>
                 <div className={styles.date}>

@@ -1,13 +1,13 @@
-.wrapper {
+.films_banner {
   position: relative;
   display: block;
   border-radius: var(--rounded-default);
   overflow: hidden;
-  height: 100%;
-  min-width: 600px;
+  font-size: 0;
+  max-width: 450px;
 }
 
-.wrapper::before {
+.films_banner::before {
   content: '';
   position: absolute;
   top: 0;
@@ -19,7 +19,7 @@
   z-index: 2;
 }
 
-.wrapper img {
+.films_banner img {
   transition: transform 300ms;
 }
 
@@ -39,6 +39,7 @@
 }
 
 .count {
+  font-size: var(--text-base);
   color: var(--color-gray-invisible);
 }
 
