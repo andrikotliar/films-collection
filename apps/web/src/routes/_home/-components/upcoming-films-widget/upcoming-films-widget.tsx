@@ -25,7 +25,11 @@ export const UpcomingFilmsWidget = ({ items }: UpcomingFilmsWidgetProps) => {
     <DataSection title="Upcoming films" isLoading={false}>
       <div className={styles.row}>
         {items.map((film) => {
-          const embeddableUrlData = getEmbeddableYoutubeUrl(film.trailers[0].url);
+          const embeddableUrlData = getEmbeddableYoutubeUrl(film.trailers[0].url, {
+            rel: '0',
+            showinfo: '0',
+            autoplay: '1',
+          });
 
           return (
             <div key={film.id} className={styles.film}>
@@ -33,10 +37,10 @@ export const UpcomingFilmsWidget = ({ items }: UpcomingFilmsWidgetProps) => {
                 className={styles.video}
                 onClick={() => setSelectedUrl(embeddableUrlData.value)}
               >
-                <Image src={embeddableUrlData.preview} />
+                <Image src={embeddableUrlData.preview} className={styles.video_preview} />
                 <PlayIcon className={styles.play_icon} size={40} />
               </button>
-              <div>
+              <div className={styles.text}>
                 <div className={styles.title}>{film.title}</div>
                 <div className={styles.date}>
                   In {film.inDays} {getPluralWord('day', film.inDays)}

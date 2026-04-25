@@ -9,14 +9,16 @@ export const FilmsBanner = () => {
   const { data } = useQuery(getFilmsCountQueryOptions());
 
   return (
-    <Link to="/films" className={styles.wrapper}>
-      <Image src={mainPageBanner} />
-      <div className={styles.text}>
-        <div className={styles.title}>
-          All films <ArrowRightIcon />
+    <div>
+      <Link to="/films" className={styles.wrapper}>
+        <Image src={mainPageBanner} />
+        <div className={styles.text}>
+          <div className={styles.title}>
+            All films <ArrowRightIcon />
+          </div>
+          {data?.count !== undefined && <div className={styles.count}>{data.count} titles</div>}
         </div>
-        {data?.count !== undefined && <div className={styles.count}>{data.count} titles</div>}
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 };

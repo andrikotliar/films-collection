@@ -13,9 +13,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 10px;
-  border-bottom: 1px solid var(--color-gray-primary);
-  background-color: var(--color-blue-invisible);
+  padding: 10px 10px 0;
 }
 
 .title {

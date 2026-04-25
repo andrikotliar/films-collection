@@ -42,3 +42,4 @@ export * from './camera-loader/camera-loader';
 export * from './page-loader/page-loader';
 export * from './filters/filters';
 export * from './filters-sidebar/filters-sidebar';
+export * from './page-title/page-title';

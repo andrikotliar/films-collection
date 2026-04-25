@@ -3,17 +3,26 @@ import { DataSection } from '~/routes/_home/-components/data-section/data-sectio
 import { getExternalImageUrl, Image } from '~/shared';
 import styles from './posters-block.module.css';
 
-type Item = {
+type Item<T extends Record<string, any>> = T & {
   id: number;
   poster: string | null;
 };
 
-type PostersBlockProps = {
-  items: Item[];
+type PostersBlockProps<T extends Record<string, any>> = {
+  items: Item<T>[];
   title: string;
+  description?: (item: Item<T>) => string;
 };
 
-export const PostersBlock = ({ items, title }: PostersBlockProps) => {
+export const PostersBlock = <T extends Record<string, any>>({
+  items,
+  title,
+  description,
+}: PostersBlockProps<T>) => {
+  if (!items.length) {
+    return null;
+  }
+
   return (
     <DataSection title={title}>
       <div className={styles.wrapper}>
@@ -25,6 +34,11 @@ export const PostersBlock = ({ items, title }: PostersBlockProps) => {
             className={styles.film}
           >
             <Image src={getExternalImageUrl(item.poster)} />
+            {typeof description === 'function' && (
+              <p className={styles.description}>
+                <span>{description(item)}</span>
+              </p>
+            )}
           </Link>
         ))}
       </div>

@@ -1,5 +1,4 @@
-import { ConsoleTitle } from '~/routes/console/-shared/components/console-content-layout/components';
-import { BackLink } from '~/shared';
+import { BackLink, PageTitle } from '~/shared';
 import type { FileRoutesByTo } from '~/routeTree.gen';
 import styles from './console-content-layout.module.css';
 import clsx from 'clsx';
@@ -20,7 +19,7 @@ export const ConsoleContentLayout = ({
   return (
     <div className={clsx(styles.console_content_layout, !isFullWidth && styles.container)}>
       {backPath && <BackLink path={backPath}>Back</BackLink>}
-      <ConsoleTitle>{title}</ConsoleTitle>
+      <PageTitle>{title}</PageTitle>
       {children}
     </div>
   );
