@@ -32,21 +32,20 @@ export const UpcomingFilmsWidget = ({ items }: UpcomingFilmsWidgetProps) => {
           });
 
           return (
-            <div key={film.id} className={styles.film}>
-              <button
-                className={styles.video}
-                onClick={() => setSelectedUrl(embeddableUrlData.value)}
-              >
-                <Image src={embeddableUrlData.preview} className={styles.video_preview} />
-                <PlayIcon className={styles.play_icon} size={40} />
-              </button>
+            <button
+              key={film.id}
+              className={styles.film}
+              onClick={() => setSelectedUrl(embeddableUrlData.value)}
+            >
+              <Image src={embeddableUrlData.preview} className={styles.video_preview} />
+              <PlayIcon className={styles.play_icon} size={40} />
               <div className={styles.text}>
                 <div className={styles.title}>{film.title}</div>
                 <div className={styles.date}>
                   In {film.inDays} {getPluralWord('day', film.inDays)}
                 </div>
               </div>
-            </div>
+            </button>
           );
         })}
       </div>

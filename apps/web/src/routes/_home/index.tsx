@@ -28,13 +28,13 @@ function RootPageContainer() {
       <CurrentEvents events={data.events} />
       <Main>
         <FilmsBanner />
+        <UpcomingFilmsWidget items={data.upcomingFilms} />
         <PostersBlock items={data.latestAddedFilms} title="New films in the list" />
         <PostersBlock
           items={data.releasedToday}
           title="Released in this day"
           description={(item) => `${item.yearsCount} ${getPluralWord('year', item.yearsCount)} ago`}
         />
-        <UpcomingFilmsWidget items={data.upcomingFilms} />
       </Main>
     </Layout>
   );
