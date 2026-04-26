@@ -910,8 +910,15 @@ export class FilmsRepository {
     return this.deps.db
       .select({ id: films.id, poster: films.poster })
       .from(films)
-      .where(and(eq(films.status, 'ADDED'), isNotNull(films.poster), sql`LENGTH(poster) > 0`))
-      .limit(10)
+      .where(
+        and(
+          eq(films.status, 'ADDED'),
+          isNotNull(films.poster),
+          sql`LENGTH(poster) > 0`,
+          isNull(films.deletedAt),
+        ),
+      )
+      .limit(20)
       .orderBy(desc(films.createdAt));
   }
 
@@ -939,7 +946,7 @@ export class FilmsRepository {
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.id))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
-      .where(eq(films.status, 'ADDED'))
+      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
       .groupBy(genres.id, genres.title);
   }
 
@@ -953,7 +960,7 @@ export class FilmsRepository {
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
-      .where(eq(films.status, 'ADDED'))
+      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
       .groupBy(collections.id, collections.title);
   }
 

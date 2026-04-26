@@ -319,8 +319,8 @@ export class FilmsService {
       upcomingFilms,
       latestAddedFilms,
       releasedToday,
-      genresCount,
-      collectionsCount,
+      genresCount: this.sortByCountDesc(genresCount),
+      collectionsCount: this.sortByCountDesc(collectionsCount),
       filmsCount: filmsCountData.count,
     };
 
@@ -396,5 +396,9 @@ export class FilmsService {
       id: option.id,
       title: option.title,
     }));
+  }
+
+  private sortByCountDesc<T extends { [key: string]: any; count: string }>(items: T[]) {
+    return items.toSorted((itemA, itemB) => Number(itemB.count) - Number(itemA.count));
   }
 }

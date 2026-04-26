@@ -1,0 +1,65 @@
+.counts_block {
+  border: var(--border-default);
+  border-radius: var(--rounded-default);
+  background-color: var(--color-white);
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.title {
+  color: var(--color-blue-primary);
+  font-size: var(--text-xl);
+  font-family: 'Roboto-Condensed', sans-serif;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: var(--color-white);
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0 10px 10px;
+}
+
+.link {
+  border: var(--border-default);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  border-radius: var(--rounded-sm);
+  background-color: var(--color-gray-invisible);
+  transition: background-color 300ms;
+}
+
+.link:hover {
+  background-color: var(--color-gray-light);
+}
+
+.right_column {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.link_title {
+  font-size: var(--text-lg);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.link_count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--text-xs);
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 50%;
+}

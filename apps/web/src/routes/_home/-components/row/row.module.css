@@ -3,3 +3,7 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.row > div {
+  flex: 1 1 300px;
+}
