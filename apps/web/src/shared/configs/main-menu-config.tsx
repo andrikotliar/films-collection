@@ -1,5 +1,5 @@
 import type { MenuConfigItem } from '../types';
-import { FolderCogIcon, HomeIcon, InfoIcon, LibraryBigIcon, PieChartIcon } from 'lucide-react';
+import { FolderCogIcon, HomeIcon, InfoIcon, LibraryBigIcon } from 'lucide-react';
 
 export const mainMenu: MenuConfigItem[] = [
   {
@@ -13,12 +13,6 @@ export const mainMenu: MenuConfigItem[] = [
     title: 'Films',
     route: '/films',
     icon: <LibraryBigIcon />,
-  },
-  {
-    id: 'stats',
-    title: 'Statistic',
-    route: '/statistic',
-    icon: <PieChartIcon />,
   },
   {
     id: 'about',
