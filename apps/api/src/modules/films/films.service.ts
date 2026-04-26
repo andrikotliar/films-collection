@@ -306,21 +306,27 @@ export class FilmsService {
   async getDashboardData(accessToken?: string): Promise<GetDashboardDataResponse> {
     const isAuthenticated = this.getIsAuthenticated(accessToken);
 
+    const genresCount = await this.deps.filmsRepository.aggregateFilmGenres();
+    const collectionsCount = await this.deps.filmsRepository.aggregateFilmCollections();
+    const upcomingFilms = await this.getUpcomingFilms();
+    const events = await this.deps.collectionEventsService.findTodayEvents();
+    const latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
+    const releasedToday = await this.findReleasedToday();
+    const filmsCountData = await this.getFilmsCount();
+
     const data: GetDashboardDataResponse = {
-      events: [],
-      upcomingFilms: [],
-      latestAddedFilms: [],
-      releasedToday: [],
+      events,
+      upcomingFilms,
+      latestAddedFilms,
+      releasedToday,
+      genresCount,
+      collectionsCount,
+      filmsCount: filmsCountData.count,
     };
 
     if (isAuthenticated) {
       data.plannedFilms = await this.getPlannedFilms();
     }
-
-    data.upcomingFilms = await this.getUpcomingFilms();
-    data.events = await this.deps.collectionEventsService.findTodayEvents();
-    data.latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
-    data.releasedToday = await this.findReleasedToday();
 
     return data;
   }

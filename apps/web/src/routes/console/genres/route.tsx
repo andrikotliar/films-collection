@@ -31,6 +31,7 @@ function PageContainer() {
       invalidateQueries: [
         { queryKey: api.genres.getList.staticKey },
         { queryKey: api.initialData.get.staticKey },
+        { queryKey: api.films.getDashboard.staticKey },
       ],
     },
   });

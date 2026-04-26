@@ -1,13 +1,14 @@
 import { Link } from '@tanstack/react-router';
-import { getFilmsCountQueryOptions, Image } from '~/shared';
+import { Image } from '~/shared';
 import mainPageBanner from '~/assets/banners/main_page_banner.webp';
 import styles from './films-banner.module.css';
-import { useQuery } from '@tanstack/react-query';
 import { ArrowRightIcon } from 'lucide-react';
 
-export const FilmsBanner = () => {
-  const { data } = useQuery(getFilmsCountQueryOptions());
+type FilmsBannerProps = {
+  count: number;
+};
 
+export const FilmsBanner = ({ count }: FilmsBannerProps) => {
   return (
     <div>
       <Link to="/films" className={styles.films_banner}>
@@ -16,7 +17,7 @@ export const FilmsBanner = () => {
           <div className={styles.title}>
             All films <ArrowRightIcon />
           </div>
-          {data?.count !== undefined && <div className={styles.count}>{data.count} titles</div>}
+          <div className={styles.count}>{count} titles</div>
         </div>
       </Link>
     </div>

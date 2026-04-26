@@ -10,7 +10,6 @@ import {
 import {
   getAuthStateQueryOptions,
   getDashboardQueryOptions,
-  getInitialDataQueryOptions,
   PageTitle,
   useDocumentTitle,
 } from '~/shared';
@@ -23,7 +22,6 @@ export const Route = createFileRoute('/_home/')({
       };
     });
 
-    await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
     await context.queryClient.ensureQueryData(getDashboardQueryOptions());
   },
   component: RootPageContainer,
@@ -39,7 +37,7 @@ function RootPageContainer() {
       <PageTitle>Dashboard</PageTitle>
       <CurrentEvents events={data.events} />
       <Row>
-        <FilmsBanner />
+        <FilmsBanner count={data.filmsCount} />
       </Row>
       <UpcomingFilmsWidget items={data.upcomingFilms} />
     </Layout>

@@ -41,7 +41,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         queryKey: [api.films.getAdminList.staticKey],
       },
       {
-        queryKey: [api.films.getCount.staticKey],
+        queryKey: [api.films.getDashboard.staticKey],
       },
       ...(!isNewItem(values.id)
         ? [

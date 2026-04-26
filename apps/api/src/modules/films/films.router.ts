@@ -32,14 +32,6 @@ export const filmsRouter = createRouter(filmsContract, {
     },
   },
 
-  getCount: {
-    handler: async ({ app }) => {
-      const data = await app.container.resolve('filmsService').getFilmsCount();
-
-      return { data };
-    },
-  },
-
   getAdminList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

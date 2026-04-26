@@ -53,6 +53,7 @@ function CollectionEventsContainer() {
           queryKey: api.collectionEvents.getAll.staticKey,
         },
         { queryKey: api.initialData.get.staticKey },
+        { queryKey: api.films.getDashboard.staticKey },
       ],
     },
   });

@@ -5,5 +5,6 @@ export const getDashboardQueryOptions = () => {
   return queryOptions({
     queryKey: [api.films.getDashboard.staticKey],
     queryFn: () => api.films.getDashboard.exec(),
+    staleTime: Infinity,
   });
 };

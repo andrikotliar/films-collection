@@ -348,10 +348,6 @@ export const GeneratedFilmDescriptionResponseSchema = z.object({
   text: z.string(),
 });
 
-export const GetFilmsCountResponse = z.object({
-  count: z.number(),
-});
-
 export const GetDashboardDataResponseSchema = z.object({
   latestAddedFilms: z.array(FilmResponseSchema.pick({ id: true, poster: true })),
   upcomingFilms: z.array(
@@ -368,6 +364,11 @@ export const GetDashboardDataResponseSchema = z.object({
   releasedToday: z.array(
     FilmResponseSchema.pick({ id: true, poster: true }).extend({ yearsCount: z.number() }),
   ),
+  genresCount: z.array(z.object({ genreId: z.number(), title: z.string(), count: z.string() })),
+  collectionsCount: z.array(
+    z.object({ collectionId: z.number(), title: z.string(), count: z.string() }),
+  ),
+  filmsCount: z.number(),
 });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;

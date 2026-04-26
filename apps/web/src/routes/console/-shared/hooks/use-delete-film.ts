@@ -8,7 +8,7 @@ export const useDeleteFilm = () => {
       invalidateQueries: [
         { queryKey: api.films.getAdminList.staticKey },
         { queryKey: api.films.getAdminIncompleteFilmsList.staticKey },
-        { queryKey: api.films.getCount.staticKey },
+        { queryKey: api.films.getDashboard.staticKey },
       ],
     },
   });

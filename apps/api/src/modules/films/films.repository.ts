@@ -33,6 +33,7 @@ import {
   type SQL,
 } from 'drizzle-orm';
 import {
+  collections,
   filmAwardNominations,
   films,
   filmsCollections,
@@ -42,6 +43,7 @@ import {
   filmsPeople,
   filmsStudios,
   filmTrailers,
+  genres,
   seriesExtensions,
 } from '~/database/schema';
 import type {
@@ -925,6 +927,34 @@ export class FilmsRepository {
           sql`EXTRACT(DAY FROM release_date) = EXTRACT(DAY FROM CURRENT_DATE)`,
         ),
       );
+  }
+
+  aggregateFilmGenres() {
+    return this.deps.db
+      .select({
+        title: genres.title,
+        genreId: genres.id,
+        count: sql<string>`count(*)`,
+      })
+      .from(filmsGenres)
+      .innerJoin(films, eq(films.id, filmsGenres.id))
+      .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
+      .where(eq(films.status, 'ADDED'))
+      .groupBy(genres.id, genres.title);
+  }
+
+  aggregateFilmCollections() {
+    return this.deps.db
+      .select({
+        title: collections.title,
+        collectionId: collections.id,
+        count: sql<string>`count(*)`,
+      })
+      .from(filmsCollections)
+      .innerJoin(films, eq(films.id, filmsCollections.filmId))
+      .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
+      .where(eq(films.status, 'ADDED'))
+      .groupBy(collections.id, collections.title);
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {
