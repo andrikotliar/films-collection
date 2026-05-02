@@ -922,7 +922,7 @@ export class FilmsRepository {
       .orderBy(desc(films.createdAt));
   }
 
-  findWeekAnniversaries() {
+  findMonthAnniversaries() {
     return this.deps.db
       .select({
         id: films.id,
@@ -936,7 +936,7 @@ export class FilmsRepository {
           eq(films.status, 'ADDED'),
           isNotNull(films.releaseDate),
           isNull(films.deletedAt),
-          sql`EXTRACT(WEEK FROM release_date) = EXTRACT(WEEK FROM CURRENT_DATE)`,
+          sql`EXTRACT(MONTH FROM release_date) = EXTRACT(MONTH FROM CURRENT_DATE)`,
         ),
       )
       .limit(20)

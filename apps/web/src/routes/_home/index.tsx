@@ -66,8 +66,8 @@ function RootPageContainer() {
       <UpcomingFilmsWidget items={data.upcomingFilms} />
       <PostersBlock items={data.latestAddedFilms} title="New films in the list" />
       <PostersBlock
-        items={data.weekAnniversaries}
-        title="Week anniversaries"
+        items={data.monthAnniversaries}
+        title="Month anniversaries"
         description={(item) =>
           `Released ${item.yearsCount} ${getPluralWord(
             'year',

@@ -361,7 +361,7 @@ export const GetDashboardDataResponseSchema = z.object({
       FilmResponseSchema.pick({ id: true, title: true, overview: true, seriesExtension: true }),
     )
     .optional(),
-  weekAnniversaries: z.array(
+  monthAnniversaries: z.array(
     FilmResponseSchema.pick({ id: true, poster: true, title: true, releaseDate: true }).extend({
       yearsCount: z.number(),
     }),

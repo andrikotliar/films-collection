@@ -289,8 +289,8 @@ export class FilmsService {
     }
   }
 
-  async findWeekAnniversaries(): Promise<GetDashboardDataResponse['weekAnniversaries']> {
-    const data = await this.deps.filmsRepository.findWeekAnniversaries();
+  async findMonthAnniversaries(): Promise<GetDashboardDataResponse['monthAnniversaries']> {
+    const data = await this.deps.filmsRepository.findMonthAnniversaries();
 
     const currentYear = new Date().getFullYear();
 
@@ -312,14 +312,14 @@ export class FilmsService {
     const upcomingFilms = await this.getUpcomingFilms();
     const events = await this.deps.collectionEventsService.findTodayEvents();
     const latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
-    const weekAnniversaries = await this.findWeekAnniversaries();
+    const monthAnniversaries = await this.findMonthAnniversaries();
     const filmsCountData = await this.getFilmsCount();
 
     const data: GetDashboardDataResponse = {
       events,
       upcomingFilms,
       latestAddedFilms,
-      weekAnniversaries,
+      monthAnniversaries,
       genresCount: this.sortByCountDesc(genresCount),
       collectionsCount: this.sortByCountDesc(collectionsCount),
       filmsCount: filmsCountData.count,
