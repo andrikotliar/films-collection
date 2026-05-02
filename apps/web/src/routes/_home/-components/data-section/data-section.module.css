@@ -1,0 +1,10 @@
+.data_section {
+  overflow: hidden;
+}
+
+.title {
+  font-size: var(--text-2xl);
+  color: var(--color-blue-primary);
+  font-family: 'Roboto-Condensed';
+  margin-bottom: 10px;
+}

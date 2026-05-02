@@ -1,4 +1,11 @@
-export const getFormattedDate = (value?: string): string | null => {
+type Options = {
+  hideYear: boolean;
+};
+
+export const getFormattedDate = (
+  value?: string | null,
+  options?: Partial<Options>,
+): string | null => {
   if (!value) {
     return null;
   }
@@ -10,6 +17,10 @@ export const getFormattedDate = (value?: string): string | null => {
     day: 'numeric',
     year: 'numeric',
   });
+
+  if (options?.hideYear) {
+    return formattedDate.split(',')[0];
+  }
 
   return formattedDate;
 };

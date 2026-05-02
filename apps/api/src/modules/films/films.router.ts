@@ -1,5 +1,11 @@
 import { filmsContract } from '@films-collection/api-client';
-import { NotFoundException, createRouter, validateAuth, validateGetSignature } from '~/shared';
+import {
+  NotFoundException,
+  createRouter,
+  getCookie,
+  validateAuth,
+  validateGetSignature,
+} from '~/shared';
 
 export const filmsRouter = createRouter(filmsContract, {
   getList: {
@@ -30,6 +36,16 @@ export const filmsRouter = createRouter(filmsContract, {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getAdminList(request.query);
+
+      return { data };
+    },
+  },
+
+  getDashboard: {
+    handler: async ({ request, app }) => {
+      const accessToken = getCookie(request, 'ACCESS_TOKEN');
+
+      const data = await app.container.resolve('filmsService').getDashboardData(accessToken);
 
       return { data };
     },

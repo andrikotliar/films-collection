@@ -11,7 +11,7 @@ type AwardProps = {
 export const Award = ({ data }: AwardProps) => {
   return (
     <div className={styles.award_wrapper}>
-      <Link to="/" search={{ awardId: data.award.id }} className={styles.award}>
+      <Link to="/films" search={{ awardId: data.award.id }} className={styles.award}>
         <TrophyIcon className={styles.award_icon} />
         <span className={styles.award_title}>{data.award.title}</span>
       </Link>

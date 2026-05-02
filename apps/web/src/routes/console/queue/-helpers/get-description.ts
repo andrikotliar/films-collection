@@ -35,5 +35,5 @@ export const getDescription = (
     return null;
   }
 
-  return description.join('.');
+  return description.join('. ');
 };

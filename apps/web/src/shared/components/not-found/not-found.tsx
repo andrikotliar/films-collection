@@ -21,7 +21,7 @@ export const NotFound = ({ title = DEFAULT_TITLE, message = DEFAULT_MESSAGE }: N
           <button className={styles.link} onClick={() => history.back()}>
             Back to previous page
           </button>
-          <Link className={styles.link} to="/">
+          <Link className={styles.link} to="/films">
             Go to home page
           </Link>
         </div>

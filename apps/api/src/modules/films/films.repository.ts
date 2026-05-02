@@ -21,13 +21,19 @@ import {
   count,
   desc,
   eq,
+  exists,
+  gt,
   ilike,
   inArray,
+  isNotNull,
   isNull,
+  lte,
   notInArray,
+  sql,
   type SQL,
 } from 'drizzle-orm';
 import {
+  collections,
   filmAwardNominations,
   films,
   filmsCollections,
@@ -37,6 +43,7 @@ import {
   filmsPeople,
   filmsStudios,
   filmTrailers,
+  genres,
   seriesExtensions,
 } from '~/database/schema';
 import type {
@@ -78,6 +85,10 @@ export class FilmsRepository {
     const result = await getFirstValue(this.deps.db.select({ count: count() }).from(films));
 
     return result?.count ?? 0;
+  }
+
+  async countAddedFilms() {
+    return this.count([eq(films.status, 'ADDED'), isNull(films.deletedAt)]);
   }
 
   async findAndCount(queries: GetFilmsListQuery) {
@@ -847,6 +858,117 @@ export class FilmsRepository {
         .where(eq(films.id, id))
         .limit(1),
     );
+  }
+
+  getPlannedFilms() {
+    const today = new Date().toISOString();
+
+    return this.deps.db.query.films.findMany({
+      columns: {
+        id: true,
+        title: true,
+        overview: true,
+      },
+      with: {
+        seriesExtensions: true,
+      },
+      where: and(eq(films.status, 'PLANNED'), lte(films.releaseDate, today)),
+      limit: 10,
+      orderBy: desc(films.releaseDate),
+    });
+  }
+
+  async getUpcomingFilms() {
+    const today = new Date().toISOString();
+
+    return this.deps.db.query.films.findMany({
+      columns: {
+        id: true,
+        title: true,
+        releaseDate: true,
+      },
+      where: and(
+        eq(films.status, 'PLANNED'),
+        gt(films.releaseDate, today),
+        isNotNull(films.releaseDate),
+        exists(
+          this.deps.db
+            .select({ id: filmTrailers.id })
+            .from(filmTrailers)
+            .where(eq(filmTrailers.filmId, films.id)),
+        ),
+      ),
+      limit: 10,
+      orderBy: asc(films.releaseDate),
+      with: {
+        trailers: true,
+      },
+    });
+  }
+
+  async getLatestFilms() {
+    return this.deps.db
+      .select({ id: films.id, poster: films.poster, title: films.title })
+      .from(films)
+      .where(
+        and(
+          eq(films.status, 'ADDED'),
+          isNotNull(films.poster),
+          sql`LENGTH(poster) > 0`,
+          isNull(films.deletedAt),
+        ),
+      )
+      .limit(20)
+      .orderBy(desc(films.createdAt));
+  }
+
+  findMonthAnniversaries() {
+    return this.deps.db
+      .select({
+        id: films.id,
+        poster: films.poster,
+        releaseDate: films.releaseDate,
+        title: films.title,
+      })
+      .from(films)
+      .where(
+        and(
+          eq(films.status, 'ADDED'),
+          isNotNull(films.releaseDate),
+          isNull(films.deletedAt),
+          sql`EXTRACT(MONTH FROM release_date) = EXTRACT(MONTH FROM CURRENT_DATE)`,
+        ),
+      )
+      .limit(20)
+      .orderBy(asc(films.releaseDate));
+  }
+
+  aggregateFilmGenres() {
+    return this.deps.db
+      .select({
+        title: genres.title,
+        id: genres.id,
+        count: sql<string>`count(*)`,
+      })
+      .from(filmsGenres)
+      .innerJoin(films, eq(films.id, filmsGenres.filmId))
+      .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
+      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
+      .groupBy(genres.id, genres.title);
+  }
+
+  aggregateFilmCollections() {
+    return this.deps.db
+      .select({
+        title: collections.title,
+        id: collections.id,
+        count: sql<string>`count(*)`,
+      })
+      .from(filmsCollections)
+      .innerJoin(films, eq(films.id, filmsCollections.filmId))
+      .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
+      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
+      .groupBy(collections.id, collections.title);
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {
