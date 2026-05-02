@@ -3,7 +3,7 @@ import styles from './event-banner.module.css';
 import { getPluralWord, getExternalImageUrl, type api, type ApiResponse, Image } from '~/shared';
 
 type EventBannerProps = {
-  event: ApiResponse<typeof api.initialData.get.exec>['events'][number];
+  event: ApiResponse<typeof api.films.getDashboard.exec>['events'][number];
 };
 
 export const EventBanner = ({ event }: EventBannerProps) => {
