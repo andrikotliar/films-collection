@@ -15,6 +15,8 @@ import { PartialFilmForm } from '~/routes/console/queue/-components';
 import {
   getAuthStateQueryOptions,
   getDashboardQueryOptions,
+  getFormattedDate,
+  getPluralWord,
   PageTitle,
   useDocumentTitle,
 } from '~/shared';
@@ -61,8 +63,18 @@ function RootPageContainer() {
           })}
         />
       </Row>
-      <PostersBlock items={data.latestAddedFilms} title="New films in the list" />
       <UpcomingFilmsWidget items={data.upcomingFilms} />
+      <PostersBlock items={data.latestAddedFilms} title="New films in the list" />
+      <PostersBlock
+        items={data.weekAnniversaries}
+        title="Week anniversaries"
+        description={(item) =>
+          `Released ${item.yearsCount} ${getPluralWord(
+            'year',
+            item.yearsCount,
+          )} ago at ${getFormattedDate(item.releaseDate, { hideYear: true })}`
+        }
+      />
     </Layout>
   );
 }
