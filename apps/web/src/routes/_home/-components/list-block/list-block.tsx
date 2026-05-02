@@ -47,6 +47,7 @@ export const ListBlock = <T extends Record<string, unknown>>({
                     variant="ghost"
                     onClick={() => actionItem.action(item)}
                     icon={actionItem.icon}
+                    key={actionItem.id}
                   />
                 ))}
               </div>
