@@ -85,6 +85,13 @@
       "when": 1776522546050,
       "tag": "0012_update_film_status_enum",
       "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1777750807812,
+      "tag": "0013_add_new_film_statuses",
+      "breakpoints": true
     }
   ]
 }

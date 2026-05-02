@@ -2,9 +2,6 @@ export const FilmStatus = {
   ADDED: 'ADDED',
   WATCHED: 'WATCHED',
   PLANNED: 'PLANNED',
-} as const;
-
-export const ExtendedFilmStatus = {
-  ...FilmStatus,
+  PENDING: 'PENDING',
   UPCOMING: 'UPCOMING',
 } as const;
