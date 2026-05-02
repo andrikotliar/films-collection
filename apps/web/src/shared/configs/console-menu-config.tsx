@@ -70,7 +70,7 @@ export const consoleMenuConfig = {
     route: '/console/films',
     title: 'Upcoming Films',
     icon: <ClockIcon />,
-    color: 'color-orange-primary',
+    color: 'color-brown-light',
   },
   genres: {
     id: 'genres',
@@ -117,7 +117,7 @@ type ConsoleMenuGroup = {
 export const consoleMenuGroups: ConsoleMenuGroup[] = [
   {
     title: 'Films',
-    itemIds: ['films', 'pendingFilms'],
+    itemIds: ['films', 'pendingFilms', 'upcomingFilms'],
   },
   {
     title: 'Base info',
