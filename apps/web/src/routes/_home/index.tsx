@@ -5,10 +5,13 @@ import {
   CurrentEvents,
   FilmsBanner,
   Layout,
+  PlannedFilmsWidget,
   PostersBlock,
   Row,
   UpcomingFilmsWidget,
 } from '~/routes/_home/-components';
+import { FormModalProvider } from '~/routes/console/-shared';
+import { PartialFilmForm } from '~/routes/console/queue/-components';
 import {
   getAuthStateQueryOptions,
   getDashboardQueryOptions,
@@ -40,18 +43,21 @@ function RootPageContainer() {
       <CurrentEvents events={data.events} />
       <Row>
         <FilmsBanner count={data.filmsCount} />
+        <FormModalProvider form={PartialFilmForm}>
+          <PlannedFilmsWidget items={data.plannedFilms} />
+        </FormModalProvider>
         <CountsBlock
           items={data.genresCount}
           title="Genres"
           getSearch={(item) => ({
-            genreIds: [item.genreId],
+            genreIds: [item.id],
           })}
         />
         <CountsBlock
           items={data.collectionsCount}
           title="Collections"
           getSearch={(item) => ({
-            collectionId: item.collectionId,
+            collectionId: item.id,
           })}
         />
       </Row>

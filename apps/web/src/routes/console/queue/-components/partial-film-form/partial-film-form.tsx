@@ -20,9 +20,14 @@ type PartialFilmFormProps = FormComponentProps<z.infer<typeof FilmFormSchema>>;
 export const PartialFilmForm = ({ values }: PartialFilmFormProps) => {
   const { mutateAsync, isPending } = useManageFilm({
     values,
-    invalidateQueries: {
-      queryKey: [api.films.getAdminIncompleteFilmsList.staticKey],
-    },
+    invalidateQueries: [
+      {
+        queryKey: [api.films.getAdminIncompleteFilmsList.staticKey],
+      },
+      {
+        queryKey: [api.films.getDashboard.staticKey],
+      },
+    ],
   });
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
 

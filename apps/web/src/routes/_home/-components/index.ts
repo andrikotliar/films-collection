@@ -6,3 +6,5 @@ export * from './upcoming-films-widget/upcoming-films-widget';
 export * from './posters-block/posters-block';
 export * from './row/row';
 export * from './counts-block/counts-block';
+export * from './list-block/list-block';
+export * from './planned-films-widget/planned-films-widget';
