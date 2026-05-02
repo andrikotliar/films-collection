@@ -1,6 +1,7 @@
 import { Link } from '@tanstack/react-router';
 import styles from './counts-block.module.css';
 import { ChevronRightIcon } from 'lucide-react';
+import { Section } from '~/routes/_home/-components/section/section';
 
 type Item<T extends Record<string, any>> = T & {
   title: string;
@@ -19,8 +20,7 @@ export const CountsBlock = <T extends Record<string, any>>({
   getSearch,
 }: CountsBlockProps<T>) => {
   return (
-    <div className={styles.counts_block}>
-      <div className={styles.title}>{title}</div>
+    <Section title={title}>
       <div className={styles.items}>
         {items.map((item) => (
           <Link key={item.id} to="/films" search={getSearch(item)} className={styles.link}>
@@ -32,6 +32,6 @@ export const CountsBlock = <T extends Record<string, any>>({
           </Link>
         ))}
       </div>
-    </div>
+    </Section>
   );
 };

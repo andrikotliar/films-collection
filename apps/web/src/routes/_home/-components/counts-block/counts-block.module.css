@@ -1,21 +1,3 @@
-.counts_block {
-  border: var(--border-default);
-  border-radius: var(--rounded-default);
-  background-color: var(--color-white);
-  max-height: 350px;
-  overflow-y: auto;
-}
-
-.title {
-  color: var(--color-blue-primary);
-  font-size: var(--text-xl);
-  font-family: 'Roboto-Condensed', sans-serif;
-  position: sticky;
-  top: 0;
-  padding: 10px;
-  background-color: var(--color-white);
-}
-
 .items {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
