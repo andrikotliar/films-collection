@@ -23,7 +23,11 @@
   font-weight: bold;
 }
 
+.film:hover .title {
+  color: var(--color-blue-primary);
+}
+
 .description span {
+  color: var(--color-gray-dark);
   font-size: var(--text-sm);
-  color: var(--color-white);
 }
