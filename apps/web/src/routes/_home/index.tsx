@@ -16,7 +16,7 @@ import {
 } from '~/shared';
 import { FilmsSection, RootPageLayout } from './-components';
 
-export const Route = createFileRoute('/films/_list')({
+export const Route = createFileRoute('/_home/')({
   validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
     return GetFilmsListQuerySchema.parse(search);
   },
@@ -66,7 +66,7 @@ function RootPageContainer() {
 
   const handleReset = () => {
     navigate({
-      to: '/films',
+      to: '/',
     });
     window.scrollTo(0, 0);
     hideFilter();

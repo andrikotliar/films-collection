@@ -22,4 +22,3 @@ export * from './get-auth-state-query-options';
 export * from './get-film-drafts-query-options';
 export * from './get-user-sessions';
 export * from './get-incomplete-films-list-query-options';
-export * from './get-dashboard-query-options';

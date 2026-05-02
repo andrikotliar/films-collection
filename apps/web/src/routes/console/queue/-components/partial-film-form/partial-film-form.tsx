@@ -24,9 +24,6 @@ export const PartialFilmForm = ({ values }: PartialFilmFormProps) => {
       {
         queryKey: [api.films.getAdminIncompleteFilmsList.staticKey],
       },
-      {
-        queryKey: [api.films.getDashboard.staticKey],
-      },
     ],
   });
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());

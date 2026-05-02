@@ -31,14 +31,9 @@ function PageContainer() {
   const { mutateAsync: deleteCollection, isPending: isDeleting } = useMutation({
     mutationFn: (id: number) => api.collections.delete.exec({ params: { id } }),
     meta: {
-      invalidateQueries: [
-        {
-          queryKey: api.collections.getList.staticKey,
-        },
-        {
-          queryKey: api.films.getDashboard.staticKey,
-        },
-      ],
+      invalidateQueries: {
+        queryKey: api.collections.getList.staticKey,
+      },
     },
   });
 

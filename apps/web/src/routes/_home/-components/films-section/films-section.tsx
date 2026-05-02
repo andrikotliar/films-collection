@@ -6,7 +6,7 @@ import { CameraLoader, getFilmsListQueryOptions, Pagination } from '~/shared';
 import { PAGE_LIMITS } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 
-const routeApi = getRouteApi('/films/_list');
+const routeApi = getRouteApi('/_home/');
 
 export const FilmsSection = () => {
   const searchParams = routeApi.useSearch();
