@@ -10,16 +10,14 @@ type FilmsBannerProps = {
 
 export const FilmsBanner = ({ count }: FilmsBannerProps) => {
   return (
-    <div>
-      <Link to="/films" className={styles.films_banner}>
-        <Image src={mainPageBanner} />
-        <div className={styles.text}>
-          <div className={styles.title}>
-            All films <ArrowRightIcon />
-          </div>
-          <div className={styles.count}>{count} titles</div>
+    <Link to="/films" className={styles.films_banner}>
+      <Image src={mainPageBanner} />
+      <div className={styles.text}>
+        <div className={styles.title}>
+          All films <ArrowRightIcon />
         </div>
-      </Link>
-    </div>
+        <div className={styles.count}>{count} titles</div>
+      </div>
+    </Link>
   );
 };

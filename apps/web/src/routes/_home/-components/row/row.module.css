@@ -4,6 +4,6 @@
   gap: 20px;
 }
 
-.row > div {
+.row > * {
   flex: 1 1 300px;
 }
