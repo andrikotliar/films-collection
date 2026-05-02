@@ -7,34 +7,23 @@
 
 .film {
   flex-shrink: 0;
-  border-radius: var(--rounded-default);
-  overflow: hidden;
   width: 130px;
-  position: relative;
 }
 
-.description {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.film_image {
   width: 100%;
-  padding: 10px;
+  height: 200px;
+  border-radius: var(--rounded-default);
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: var(--text-sm);
+  font-weight: bold;
 }
 
 .description span {
   font-size: var(--text-sm);
   color: var(--color-white);
-  position: relative;
-  z-index: 1;
-}
-
-.description::after {
-  content: '';
-  width: 100%;
-  height: calc(100% + 50px);
-  background-image: linear-gradient(to top, var(--color-black), transparent);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
 }

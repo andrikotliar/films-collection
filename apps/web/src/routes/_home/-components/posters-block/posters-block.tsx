@@ -33,7 +33,10 @@ export const PostersBlock = <T extends Record<string, any>>({
             key={item.id}
             className={styles.film}
           >
-            <Image src={getExternalImageUrl(item.poster)} />
+            <div className={styles.film_image}>
+              <Image src={getExternalImageUrl(item.poster)} />
+            </div>
+            <div className={styles.title}>{item.title}</div>
             {typeof description === 'function' && (
               <p className={styles.description}>
                 <span>{description(item)}</span>
