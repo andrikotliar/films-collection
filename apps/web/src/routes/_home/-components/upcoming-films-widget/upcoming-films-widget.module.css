@@ -1,5 +1,6 @@
 .row {
   display: flex;
+  align-items: flex-start;
   gap: 20px;
   overflow-x: auto;
   height: 100%;
