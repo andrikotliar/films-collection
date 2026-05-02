@@ -944,7 +944,7 @@ export class FilmsRepository {
         count: sql<string>`count(*)`,
       })
       .from(filmsGenres)
-      .innerJoin(films, eq(films.id, filmsGenres.id))
+      .innerJoin(films, eq(films.id, filmsGenres.filmId))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
       .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
       .groupBy(genres.id, genres.title);
