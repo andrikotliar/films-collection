@@ -21,9 +21,6 @@ import {
   FilmDraftFilmIdParamsSchema,
   GetIncompleteFilmsQuerySchema,
   IncompleteFilmsListResponseSchema,
-  GenerateFilmDescriptionInputSchema,
-  GeneratedFilmDescriptionResponseSchema,
-  GetDashboardDataResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -59,13 +56,6 @@ export const filmsContract = defineContracts('films', {
     schema: {
       querystring: GetFilmsListQuerySchema,
       response: FilmsAdminListResponseSchema,
-    },
-  },
-  getDashboard: {
-    method: 'GET',
-    url: 'dashboard',
-    schema: {
-      response: GetDashboardDataResponseSchema,
     },
   },
   getAdminIncompleteFilmsList: {
@@ -139,14 +129,6 @@ export const filmsContract = defineContracts('films', {
     schema: {
       body: TranslateDescriptionInputSchema,
       response: TranslateDescriptionResponseSchema,
-    },
-  },
-  generateDescription: {
-    method: 'POST',
-    url: 'admin/generate/description',
-    schema: {
-      body: GenerateFilmDescriptionInputSchema,
-      response: GeneratedFilmDescriptionResponseSchema,
     },
   },
   createDraft: {

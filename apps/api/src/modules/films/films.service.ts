@@ -14,10 +14,8 @@ import {
   type Enum,
   type FilmStatus,
   type IncompleteFilmsListResponse,
-  type GetDashboardDataResponse,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList, mapInnerId } from './helpers';
-import type { VerifiedTokenData } from '~/modules/auth';
 
 type GenericOption = {
   id: number;
@@ -26,8 +24,6 @@ type GenericOption = {
 };
 
 export class FilmsService {
-  private filmsCount = 0;
-
   constructor(
     private readonly deps: Deps<
       | 'filmsRepository'
@@ -110,8 +106,6 @@ export class FilmsService {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
-    this.filmsCount = 0;
-
     return await this.getFilmDetails(filmId, status);
   }
 
@@ -180,8 +174,6 @@ export class FilmsService {
 
       return { id };
     }
-
-    this.filmsCount = 0;
 
     await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
@@ -258,80 +250,6 @@ export class FilmsService {
     return { list: mappedList, count };
   }
 
-  async getUpcomingFilms() {
-    const films = await this.deps.filmsRepository.getUpcomingFilms();
-
-    return films.map((film) => ({
-      ...film,
-      inDays: this.getDaysDiffFromToday(film.releaseDate!),
-    }));
-  }
-
-  async getPlannedFilms() {
-    const films = await this.deps.filmsRepository.getPlannedFilms();
-
-    return films.map(({ seriesExtensions, ...film }) => ({
-      ...film,
-      seriesExtension: seriesExtensions[0] ?? null,
-    }));
-  }
-
-  private getIsAuthenticated(token?: string): boolean {
-    if (!token) {
-      return false;
-    }
-
-    try {
-      const data = this.deps.jwtService.verify<VerifiedTokenData>(token);
-      return !!data.id;
-    } catch {
-      return false;
-    }
-  }
-
-  async findMonthAnniversaries(): Promise<GetDashboardDataResponse['monthAnniversaries']> {
-    const data = await this.deps.filmsRepository.findMonthAnniversaries();
-
-    const currentYear = new Date().getFullYear();
-
-    return data.map((film) => {
-      const releaseYear = new Date(film.releaseDate!).getFullYear();
-      return {
-        ...film,
-        releaseDate: film.releaseDate,
-        yearsCount: currentYear - releaseYear,
-      };
-    });
-  }
-
-  async getDashboardData(accessToken?: string): Promise<GetDashboardDataResponse> {
-    const isAuthenticated = this.getIsAuthenticated(accessToken);
-
-    const genresCount = await this.deps.filmsRepository.aggregateFilmGenres();
-    const collectionsCount = await this.deps.filmsRepository.aggregateFilmCollections();
-    const upcomingFilms = await this.getUpcomingFilms();
-    const events = await this.deps.collectionEventsService.findTodayEvents();
-    const latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
-    const monthAnniversaries = await this.findMonthAnniversaries();
-    const filmsCountData = await this.getFilmsCount();
-
-    const data: GetDashboardDataResponse = {
-      events,
-      upcomingFilms,
-      latestAddedFilms,
-      monthAnniversaries,
-      genresCount: this.sortByCountDesc(genresCount),
-      collectionsCount: this.sortByCountDesc(collectionsCount),
-      filmsCount: filmsCountData.count,
-    };
-
-    if (isAuthenticated) {
-      data.plannedFilms = await this.getPlannedFilms();
-    }
-
-    return data;
-  }
-
   private getValidatedOptions<T extends { updatedAt: string }>(
     options: T[],
     newestOnly?: boolean,
@@ -361,35 +279,6 @@ export class FilmsService {
     return options;
   }
 
-  generateFilmDescription(searchString: string) {
-    return this.deps.aiService.generateFilmDescription(searchString);
-  }
-
-  async getFilmsCount() {
-    if (this.filmsCount) {
-      return { count: this.filmsCount };
-    }
-
-    const count = await this.deps.filmsRepository.countAddedFilms();
-
-    this.filmsCount = count;
-
-    return { count };
-  }
-
-  private getDaysDiffFromToday(dateString: string) {
-    const now = new Date();
-    const target = new Date(dateString);
-
-    now.setHours(0, 0, 0, 0);
-    target.setHours(0, 0, 0, 0);
-
-    const diffMs = target.getTime() - now.getTime();
-    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
-
-    return diffDays;
-  }
-
   private listOptionsToDto<T extends GenericOption>(
     options: T[],
   ): Pick<GenericOption, 'id' | 'title'>[] {
@@ -397,9 +286,5 @@ export class FilmsService {
       id: option.id,
       title: option.title,
     }));
-  }
-
-  private sortByCountDesc<T extends { [key: string]: any; count: string }>(items: T[]) {
-    return items.toSorted((itemA, itemB) => Number(itemB.count) - Number(itemA.count));
   }
 }

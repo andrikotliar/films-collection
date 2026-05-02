@@ -21,13 +21,9 @@ import {
   count,
   desc,
   eq,
-  exists,
-  gt,
   ilike,
   inArray,
-  isNotNull,
   isNull,
-  lte,
   notInArray,
   sql,
   type SQL,
@@ -858,89 +854,6 @@ export class FilmsRepository {
         .where(eq(films.id, id))
         .limit(1),
     );
-  }
-
-  getPlannedFilms() {
-    const today = new Date().toISOString();
-
-    return this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        overview: true,
-      },
-      with: {
-        seriesExtensions: true,
-      },
-      where: and(eq(films.status, 'PLANNED'), lte(films.releaseDate, today)),
-      limit: 10,
-      orderBy: desc(films.releaseDate),
-    });
-  }
-
-  async getUpcomingFilms() {
-    const today = new Date().toISOString();
-
-    return this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        releaseDate: true,
-      },
-      where: and(
-        eq(films.status, 'PLANNED'),
-        gt(films.releaseDate, today),
-        isNotNull(films.releaseDate),
-        exists(
-          this.deps.db
-            .select({ id: filmTrailers.id })
-            .from(filmTrailers)
-            .where(eq(filmTrailers.filmId, films.id)),
-        ),
-      ),
-      limit: 10,
-      orderBy: asc(films.releaseDate),
-      with: {
-        trailers: true,
-      },
-    });
-  }
-
-  async getLatestFilms() {
-    return this.deps.db
-      .select({ id: films.id, poster: films.poster, title: films.title })
-      .from(films)
-      .where(
-        and(
-          eq(films.status, 'ADDED'),
-          isNotNull(films.poster),
-          sql`LENGTH(poster) > 0`,
-          isNull(films.deletedAt),
-        ),
-      )
-      .limit(20)
-      .orderBy(desc(films.createdAt));
-  }
-
-  findMonthAnniversaries() {
-    return this.deps.db
-      .select({
-        id: films.id,
-        poster: films.poster,
-        releaseDate: films.releaseDate,
-        title: films.title,
-      })
-      .from(films)
-      .where(
-        and(
-          eq(films.status, 'ADDED'),
-          isNotNull(films.releaseDate),
-          isNull(films.deletedAt),
-          sql`EXTRACT(MONTH FROM release_date) = EXTRACT(MONTH FROM CURRENT_DATE)`,
-        ),
-      )
-      .limit(20)
-      .orderBy(asc(films.releaseDate));
   }
 
   aggregateFilmGenres() {
