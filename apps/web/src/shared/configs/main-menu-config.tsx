@@ -1,17 +1,11 @@
 import type { MenuConfigItem } from '../types';
-import { FolderCogIcon, HomeIcon, InfoIcon, LibraryBigIcon } from 'lucide-react';
+import { FolderCogIcon, InfoIcon, LibraryBigIcon } from 'lucide-react';
 
 export const mainMenu: MenuConfigItem[] = [
   {
-    id: 'dashboard',
-    title: 'Dashboard',
-    route: '/',
-    icon: <HomeIcon />,
-  },
-  {
     id: 'films',
     title: 'Films',
-    route: '/films',
+    route: '/',
     icon: <LibraryBigIcon />,
   },
   {
