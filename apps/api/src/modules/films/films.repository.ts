@@ -88,7 +88,7 @@ export class FilmsRepository {
   }
 
   async countAddedFilms() {
-    return this.count([eq(films.status, 'ADDED')]);
+    return this.count([eq(films.status, 'ADDED'), isNull(films.deletedAt)]);
   }
 
   async findAndCount(queries: GetFilmsListQuery) {
@@ -908,7 +908,7 @@ export class FilmsRepository {
 
   async getLatestFilms() {
     return this.deps.db
-      .select({ id: films.id, poster: films.poster })
+      .select({ id: films.id, poster: films.poster, title: films.title })
       .from(films)
       .where(
         and(
@@ -922,25 +922,32 @@ export class FilmsRepository {
       .orderBy(desc(films.createdAt));
   }
 
-  findReleasedToday() {
+  findWeekAnniversaries() {
     return this.deps.db
-      .select({ id: films.id, poster: films.poster, releaseDate: films.releaseDate })
+      .select({
+        id: films.id,
+        poster: films.poster,
+        releaseDate: films.releaseDate,
+        title: films.title,
+      })
       .from(films)
       .where(
         and(
           eq(films.status, 'ADDED'),
           isNotNull(films.releaseDate),
-          sql`EXTRACT(MONTH FROM release_date) = EXTRACT(MONTH FROM CURRENT_DATE)`,
-          sql`EXTRACT(DAY FROM release_date) = EXTRACT(DAY FROM CURRENT_DATE)`,
+          isNull(films.deletedAt),
+          sql`EXTRACT(WEEK FROM release_date) = EXTRACT(WEEK FROM CURRENT_DATE)`,
         ),
-      );
+      )
+      .limit(20)
+      .orderBy(asc(films.releaseDate));
   }
 
   aggregateFilmGenres() {
     return this.deps.db
       .select({
         title: genres.title,
-        genreId: genres.id,
+        id: genres.id,
         count: sql<string>`count(*)`,
       })
       .from(filmsGenres)
@@ -954,7 +961,7 @@ export class FilmsRepository {
     return this.deps.db
       .select({
         title: collections.title,
-        collectionId: collections.id,
+        id: collections.id,
         count: sql<string>`count(*)`,
       })
       .from(filmsCollections)

@@ -349,7 +349,7 @@ export const GeneratedFilmDescriptionResponseSchema = z.object({
 });
 
 export const GetDashboardDataResponseSchema = z.object({
-  latestAddedFilms: z.array(FilmResponseSchema.pick({ id: true, poster: true })),
+  latestAddedFilms: z.array(FilmResponseSchema.pick({ id: true, poster: true, title: true })),
   upcomingFilms: z.array(
     FilmResponseSchema.pick({ id: true, title: true, releaseDate: true, trailers: true }).extend({
       inDays: z.number(),
@@ -361,13 +361,13 @@ export const GetDashboardDataResponseSchema = z.object({
       FilmResponseSchema.pick({ id: true, title: true, overview: true, seriesExtension: true }),
     )
     .optional(),
-  releasedToday: z.array(
-    FilmResponseSchema.pick({ id: true, poster: true }).extend({ yearsCount: z.number() }),
+  weekAnniversaries: z.array(
+    FilmResponseSchema.pick({ id: true, poster: true, title: true, releaseDate: true }).extend({
+      yearsCount: z.number(),
+    }),
   ),
-  genresCount: z.array(z.object({ genreId: z.number(), title: z.string(), count: z.string() })),
-  collectionsCount: z.array(
-    z.object({ collectionId: z.number(), title: z.string(), count: z.string() }),
-  ),
+  genresCount: z.array(z.object({ id: z.number(), title: z.string(), count: z.string() })),
+  collectionsCount: z.array(z.object({ id: z.number(), title: z.string(), count: z.string() })),
   filmsCount: z.number(),
 });
 
