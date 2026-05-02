@@ -19,6 +19,7 @@ export const ConsoleHeader = () => {
     mutationFn: api.auth.logout.exec,
     onSuccess: () => {
       queryClient.removeQueries({ queryKey: [api.auth.getState.staticKey] });
+      queryClient.invalidateQueries({ queryKey: [api.films.getDashboard.staticKey] });
       navigate({ to: '/login' });
     },
   });
