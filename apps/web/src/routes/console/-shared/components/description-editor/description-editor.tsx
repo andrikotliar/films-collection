@@ -49,25 +49,6 @@ export const DescriptionEditor = () => {
     },
   });
 
-  const { mutate: generateDescription, isPending: isTextGenerationInProgress } = useMutation({
-    mutationFn: async () => {
-      const values = getValues();
-
-      if (!values.title.length) {
-        toaster.error('Provide title before description generation request');
-        return;
-      }
-
-      const response = await api.films.generateDescription.exec({
-        input: { request: `${values.type} "${values.title}"` },
-      });
-
-      updateOverview(response.text);
-    },
-  });
-
-  const isInProgress = isPending || isTextGenerationInProgress;
-
   return (
     <div className={styles.editor_container}>
       <Form.TextEditor
@@ -76,16 +57,12 @@ export const DescriptionEditor = () => {
         ref={editorRef}
         menuOptions={[
           {
-            title: 'Generate description',
-            action: () => generateDescription(),
-          },
-          {
             title: 'Translate text',
             action: () => translateText(),
           },
         ]}
       />
-      {isInProgress && (
+      {isPending && (
         <div className={styles.overlay}>
           <div className={styles.loader}>
             Working <span>.</span>
