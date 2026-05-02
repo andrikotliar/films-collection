@@ -5,7 +5,6 @@ import {
   type CreateFilmDraftInput,
   type CreateFilmInput,
   type Enum,
-  type ExtendedFilmStatus,
   type FilmStatus,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
@@ -14,7 +13,7 @@ import {
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers';
+import { mapListFilters } from '~/modules/films/helpers';
 import {
   and,
   asc,
@@ -83,10 +82,6 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
-  async countAddedFilms() {
-    return this.count([eq(films.status, 'ADDED'), isNull(films.deletedAt)]);
-  }
-
   async findAndCount(queries: GetFilmsListQuery) {
     const filters = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order);
@@ -104,7 +99,7 @@ export class FilmsRepository {
     return { list, total };
   }
 
-  findById(id: number, status: Enum<typeof FilmStatus> = 'ADDED') {
+  findById(id: number, status: Enum<typeof FilmStatus> = 'WATCHED') {
     return this.deps.db.query.films.findFirst({
       columns: {
         id: true,
@@ -301,7 +296,7 @@ export class FilmsRepository {
       where: and(
         isNull(films.deletedAt),
         ilike(films.title, sqlSearchQuery(query)),
-        eq(films.status, 'ADDED'),
+        eq(films.status, 'WATCHED'),
       ),
       limit: PAGE_LIMITS.default,
     });
@@ -633,7 +628,7 @@ export class FilmsRepository {
   }
 
   getCompleteData(queries: GetCompleteDataListQuery) {
-    const filters: SQL[] = [eq(films.status, 'ADDED')];
+    const filters: SQL[] = [eq(films.status, 'WATCHED')];
 
     if (queries.intervalDays) {
       filters.push(getLatestEntriesFilter(films.updatedAt, queries.intervalDays));
@@ -776,28 +771,8 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
-  private transformIncompleteFilmsStatus(
-    status: Enum<typeof ExtendedFilmStatus>,
-  ): Partial<PlainFilmFilters> {
-    const today = new Date().toISOString();
-
-    if (status === 'UPCOMING') {
-      return {
-        status: 'PLANNED',
-        startDateAfter: today,
-      };
-    }
-
-    return {
-      status,
-      endDate: today,
-    };
-  }
-
-  async getIncompleteFilmsByStatus({ status, ...query }: GetIncompleteFilmsQuery) {
-    const transformedFilters = this.transformIncompleteFilmsStatus(status);
-
-    const filters = mapListFilters({ ...query, ...transformedFilters }, this.deps.db);
+  async getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
+    const filters = mapListFilters(query, this.deps.db);
 
     const list = await this.deps.db.query.films.findMany({
       columns: {
@@ -866,7 +841,7 @@ export class FilmsRepository {
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.filmId))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
-      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
+      .where(and(eq(films.status, 'WATCHED'), isNull(films.deletedAt)))
       .groupBy(genres.id, genres.title);
   }
 
@@ -880,7 +855,7 @@ export class FilmsRepository {
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
-      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
+      .where(and(eq(films.status, 'WATCHED'), isNull(films.deletedAt)))
       .groupBy(collections.id, collections.title);
   }
 

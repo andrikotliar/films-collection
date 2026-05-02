@@ -51,7 +51,7 @@ export class FilmsService {
     return { list: data.list, total: data.total, additionalInfo };
   }
 
-  async getFilmDetails(id: number, status: Enum<typeof FilmStatus> = 'ADDED') {
+  async getFilmDetails(id: number, status: Enum<typeof FilmStatus> = 'WATCHED') {
     const film = await this.deps.filmsRepository.findById(id, status);
 
     if (!film) {
@@ -169,7 +169,7 @@ export class FilmsService {
   async deleteFilm(id: number) {
     const film = await throwIfNotFound(this.deps.filmsRepository.getFilmStatus(id));
 
-    if (film.status !== 'ADDED') {
+    if (film.status !== 'WATCHED') {
       await this.deps.filmsRepository.hardDelete(id);
 
       return { id };

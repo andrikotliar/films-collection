@@ -92,6 +92,13 @@
       "when": 1777750807812,
       "tag": "0013_add_new_film_statuses",
       "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1777753107344,
+      "tag": "0014_chenge_default_status",
+      "breakpoints": true
     }
   ]
 }

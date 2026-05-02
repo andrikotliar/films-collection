@@ -61,7 +61,7 @@ export const films = pgTable(
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())
       .notNull(),
-    status: filmStatus().default('PLANNED').notNull(),
+    status: filmStatus().default('PENDING').notNull(),
     deletedAt: timestamp({ precision: 3, mode: 'string' }),
     overview: text(),
   },

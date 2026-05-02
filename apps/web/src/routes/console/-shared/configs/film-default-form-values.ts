@@ -25,5 +25,5 @@ export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
   awards: [],
   trailers: [],
   seriesExtension: null,
-  status: 'ADDED',
+  status: 'WATCHED',
 };

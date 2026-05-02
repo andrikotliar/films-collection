@@ -4,6 +4,7 @@ import {
   CalendarClockIcon,
   CalendarIcon,
   ClapperboardIcon,
+  ClockIcon,
   KeyRoundIcon,
   LibraryIcon,
   MapIcon,
@@ -59,9 +60,16 @@ export const consoleMenuConfig = {
   },
   pendingFilms: {
     id: 'pendingFilms',
-    route: '/console/queue',
+    route: '/console/films',
     title: 'Pending Films',
     icon: <CalendarClockIcon />,
+    color: 'color-orange-primary',
+  },
+  upcomingFilms: {
+    id: 'upcomingFilms',
+    route: '/console/films',
+    title: 'Upcoming Films',
+    icon: <ClockIcon />,
     color: 'color-orange-primary',
   },
   genres: {

@@ -1,5 +1,5 @@
 import z from 'zod';
-import { ExtendedFilmStatus, FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
+import { FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
@@ -312,7 +312,7 @@ export const FilmDraftFilmIdParamsSchema = z.object({
 
 export const GetIncompleteFilmsQuerySchema = z.object({
   q: z.string().optional().nullable(),
-  status: z.enum(ExtendedFilmStatus).optional().default('WATCHED'),
+  status: z.enum(FilmStatus).optional().default('PENDING'),
   pageIndex: z.coerce.number().min(0).optional(),
   type: z.enum(TitleType).optional(),
   style: z.enum(TitleStyle).optional(),

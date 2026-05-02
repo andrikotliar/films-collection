@@ -62,7 +62,7 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQ
     budget,
     boxOffice,
     q,
-    status = 'ADDED',
+    status = 'WATCHED',
     startDateAfter,
   } = plainFilters;
 
