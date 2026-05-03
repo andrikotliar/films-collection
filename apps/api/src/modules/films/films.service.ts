@@ -11,8 +11,6 @@ import {
   type CreateFilmDraftInput,
   type FilmDraftResponse,
   type GetIncompleteFilmsQuery,
-  type Enum,
-  type FilmStatus,
   type IncompleteFilmsListResponse,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList, mapInnerId } from './helpers';
@@ -51,8 +49,8 @@ export class FilmsService {
     return { list: data.list, total: data.total, additionalInfo };
   }
 
-  async getFilmDetails(id: number, status: Enum<typeof FilmStatus> = 'WATCHED') {
-    const film = await this.deps.filmsRepository.findById(id, status);
+  async getFilmDetails(id: number) {
+    const film = await this.deps.filmsRepository.findById(id);
 
     if (!film) {
       return null;
@@ -100,13 +98,13 @@ export class FilmsService {
   async createFilm(input: CreateFilmInput) {
     const { tempDraftId, ...payload } = input;
 
-    const { filmId, status } = await this.deps.filmsRepository.create(payload);
+    const { filmId } = await this.deps.filmsRepository.create(payload);
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
-    return await this.getFilmDetails(filmId, status);
+    return await this.getFilmDetails(filmId);
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
@@ -167,23 +165,16 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    const film = await throwIfNotFound(this.deps.filmsRepository.getFilmStatus(id));
-
-    if (film.status !== 'WATCHED') {
-      await this.deps.filmsRepository.hardDelete(id);
-
-      return { id };
-    }
-
+    await throwIfNotFound(this.deps.filmsRepository.getFilmStatus(id));
     await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
     return { id };
   }
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
-    const { status } = await this.deps.filmsRepository.updateFilm(filmId, input);
+    await this.deps.filmsRepository.updateFilm(filmId, input);
     await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
-    return this.getFilmDetails(filmId, status);
+    return this.getFilmDetails(filmId);
   }
 
   async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {

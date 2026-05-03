@@ -40,6 +40,7 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
 export type PlainFilmFilters = GetFilmsListQuery & {
   status?: (typeof filmStatus.enumValues)[number];
   startDateAfter?: string;
+  draft?: boolean;
 };
 
 export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQL[] => {
@@ -62,11 +63,11 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQ
     budget,
     boxOffice,
     q,
-    status = 'WATCHED',
     startDateAfter,
+    draft = false,
   } = plainFilters;
 
-  const filters: SQL[] = [isNull(films.deletedAt), eq(films.status, status)];
+  const filters: SQL[] = [isNull(films.deletedAt), eq(films.draft, draft)];
 
   if (startDate && !startDateAfter) {
     filters.push(gte(films.releaseDate, startDate));

@@ -4,8 +4,6 @@ import {
   PAGE_LIMITS,
   type CreateFilmDraftInput,
   type CreateFilmInput,
-  type Enum,
-  type FilmStatus,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
   type GetFilmsListQuery,
@@ -99,7 +97,7 @@ export class FilmsRepository {
     return { list, total };
   }
 
-  findById(id: number, status: Enum<typeof FilmStatus> = 'WATCHED') {
+  findById(id: number) {
     return this.deps.db.query.films.findFirst({
       columns: {
         id: true,
@@ -203,7 +201,7 @@ export class FilmsRepository {
           orderBy: asc(filmTrailers.order),
         },
       },
-      where: and(eq(films.id, id), isNull(films.deletedAt), eq(films.status, status)),
+      where: and(eq(films.id, id), eq(films.draft, true), isNull(films.deletedAt)),
     });
   }
 
@@ -349,10 +347,6 @@ export class FilmsRepository {
     await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
-  async hardDelete(id: number) {
-    await this.deps.db.delete(films).where(eq(films.id, id));
-  }
-
   create(input: Omit<CreateFilmInput, 'tempDraftId'>) {
     const {
       castAndCrew,
@@ -444,6 +438,7 @@ export class FilmsRepository {
         overview: true,
         chapterKey: true,
         chapterOrder: true,
+        draft: true,
       },
       with: {
         genres: {
