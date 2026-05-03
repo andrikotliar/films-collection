@@ -1,0 +1,1 @@
+ALTER TABLE "films" RENAME COLUMN "deletedAt" TO "deleted_at";

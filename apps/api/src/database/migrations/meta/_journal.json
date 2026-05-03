@@ -99,6 +99,13 @@
       "when": 1777753107344,
       "tag": "0014_chenge_default_status",
       "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1777838172124,
+      "tag": "0015_rename_deleted_at_column",
+      "breakpoints": true
     }
   ]
 }
