@@ -60,14 +60,14 @@ export const consoleMenuConfig = {
   },
   pendingFilms: {
     id: 'pendingFilms',
-    route: '/console/films',
+    route: '/console/pending-films',
     title: 'Pending Films',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
   },
   upcomingFilms: {
     id: 'upcomingFilms',
-    route: '/console/films',
+    route: '/console/upcoming-films',
     title: 'Upcoming Films',
     icon: <ClockIcon />,
     color: 'color-brown-light',

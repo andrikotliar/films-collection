@@ -14,9 +14,11 @@ import { Route as ConsoleRouteRouteImport } from './routes/console/route'
 import { Route as AboutRouteRouteImport } from './routes/about/route'
 import { Route as HomeIndexRouteImport } from './routes/_home/index'
 import { Route as FilmsIdRouteRouteImport } from './routes/films/$id/route'
+import { Route as ConsoleUpcomingFilmsRouteRouteImport } from './routes/console/upcoming-films/route'
 import { Route as ConsoleStudiosRouteRouteImport } from './routes/console/studios/route'
 import { Route as ConsoleSessionsRouteRouteImport } from './routes/console/sessions/route'
 import { Route as ConsolePeopleRouteRouteImport } from './routes/console/people/route'
+import { Route as ConsolePendingFilmsRouteRouteImport } from './routes/console/pending-films/route'
 import { Route as ConsolePasswordRouteRouteImport } from './routes/console/password/route'
 import { Route as ConsolePageContentRouteRouteImport } from './routes/console/page-content/route'
 import { Route as ConsoleGenresRouteRouteImport } from './routes/console/genres/route'
@@ -55,6 +57,12 @@ const FilmsIdRouteRoute = FilmsIdRouteRouteImport.update({
   path: '/films/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ConsoleUpcomingFilmsRouteRoute =
+  ConsoleUpcomingFilmsRouteRouteImport.update({
+    id: '/upcoming-films',
+    path: '/upcoming-films',
+    getParentRoute: () => ConsoleRouteRoute,
+  } as any)
 const ConsoleStudiosRouteRoute = ConsoleStudiosRouteRouteImport.update({
   id: '/studios',
   path: '/studios',
@@ -70,6 +78,12 @@ const ConsolePeopleRouteRoute = ConsolePeopleRouteRouteImport.update({
   path: '/people',
   getParentRoute: () => ConsoleRouteRoute,
 } as any)
+const ConsolePendingFilmsRouteRoute =
+  ConsolePendingFilmsRouteRouteImport.update({
+    id: '/pending-films',
+    path: '/pending-films',
+    getParentRoute: () => ConsoleRouteRoute,
+  } as any)
 const ConsolePasswordRouteRoute = ConsolePasswordRouteRouteImport.update({
   id: '/password',
   path: '/password',
@@ -144,9 +158,11 @@ export interface FileRoutesByFullPath {
   '/console/genres': typeof ConsoleGenresRouteRoute
   '/console/page-content': typeof ConsolePageContentRouteRoute
   '/console/password': typeof ConsolePasswordRouteRoute
+  '/console/pending-films': typeof ConsolePendingFilmsRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
+  '/console/upcoming-films': typeof ConsoleUpcomingFilmsRouteRoute
   '/films/$id': typeof FilmsIdRouteRoute
   '/': typeof HomeIndexRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -165,9 +181,11 @@ export interface FileRoutesByTo {
   '/console/genres': typeof ConsoleGenresRouteRoute
   '/console/page-content': typeof ConsolePageContentRouteRoute
   '/console/password': typeof ConsolePasswordRouteRoute
+  '/console/pending-films': typeof ConsolePendingFilmsRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
+  '/console/upcoming-films': typeof ConsoleUpcomingFilmsRouteRoute
   '/films/$id': typeof FilmsIdRouteRoute
   '/': typeof HomeIndexRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -188,9 +206,11 @@ export interface FileRoutesById {
   '/console/genres': typeof ConsoleGenresRouteRoute
   '/console/page-content': typeof ConsolePageContentRouteRoute
   '/console/password': typeof ConsolePasswordRouteRoute
+  '/console/pending-films': typeof ConsolePendingFilmsRouteRoute
   '/console/people': typeof ConsolePeopleRouteRoute
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
+  '/console/upcoming-films': typeof ConsoleUpcomingFilmsRouteRoute
   '/films/$id': typeof FilmsIdRouteRoute
   '/_home/': typeof HomeIndexRoute
   '/console/awards_/$id': typeof ConsoleAwardsIdRoute
@@ -212,9 +232,11 @@ export interface FileRouteTypes {
     | '/console/genres'
     | '/console/page-content'
     | '/console/password'
+    | '/console/pending-films'
     | '/console/people'
     | '/console/sessions'
     | '/console/studios'
+    | '/console/upcoming-films'
     | '/films/$id'
     | '/'
     | '/console/awards/$id'
@@ -233,9 +255,11 @@ export interface FileRouteTypes {
     | '/console/genres'
     | '/console/page-content'
     | '/console/password'
+    | '/console/pending-films'
     | '/console/people'
     | '/console/sessions'
     | '/console/studios'
+    | '/console/upcoming-films'
     | '/films/$id'
     | '/'
     | '/console/awards/$id'
@@ -255,9 +279,11 @@ export interface FileRouteTypes {
     | '/console/genres'
     | '/console/page-content'
     | '/console/password'
+    | '/console/pending-films'
     | '/console/people'
     | '/console/sessions'
     | '/console/studios'
+    | '/console/upcoming-films'
     | '/films/$id'
     | '/_home/'
     | '/console/awards_/$id'
@@ -311,6 +337,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FilmsIdRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/console/upcoming-films': {
+      id: '/console/upcoming-films'
+      path: '/upcoming-films'
+      fullPath: '/console/upcoming-films'
+      preLoaderRoute: typeof ConsoleUpcomingFilmsRouteRouteImport
+      parentRoute: typeof ConsoleRouteRoute
+    }
     '/console/studios': {
       id: '/console/studios'
       path: '/studios'
@@ -330,6 +363,13 @@ declare module '@tanstack/react-router' {
       path: '/people'
       fullPath: '/console/people'
       preLoaderRoute: typeof ConsolePeopleRouteRouteImport
+      parentRoute: typeof ConsoleRouteRoute
+    }
+    '/console/pending-films': {
+      id: '/console/pending-films'
+      path: '/pending-films'
+      fullPath: '/console/pending-films'
+      preLoaderRoute: typeof ConsolePendingFilmsRouteRouteImport
       parentRoute: typeof ConsoleRouteRoute
     }
     '/console/password': {
@@ -428,9 +468,11 @@ interface ConsoleRouteRouteChildren {
   ConsoleGenresRouteRoute: typeof ConsoleGenresRouteRoute
   ConsolePageContentRouteRoute: typeof ConsolePageContentRouteRoute
   ConsolePasswordRouteRoute: typeof ConsolePasswordRouteRoute
+  ConsolePendingFilmsRouteRoute: typeof ConsolePendingFilmsRouteRoute
   ConsolePeopleRouteRoute: typeof ConsolePeopleRouteRoute
   ConsoleSessionsRouteRoute: typeof ConsoleSessionsRouteRoute
   ConsoleStudiosRouteRoute: typeof ConsoleStudiosRouteRoute
+  ConsoleUpcomingFilmsRouteRoute: typeof ConsoleUpcomingFilmsRouteRoute
   ConsoleAwardsIdRoute: typeof ConsoleAwardsIdRoute
   ConsoleFilmsIdRoute: typeof ConsoleFilmsIdRoute
   ConsolePageContentIdRoute: typeof ConsolePageContentIdRoute
@@ -446,9 +488,11 @@ const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
   ConsoleGenresRouteRoute: ConsoleGenresRouteRoute,
   ConsolePageContentRouteRoute: ConsolePageContentRouteRoute,
   ConsolePasswordRouteRoute: ConsolePasswordRouteRoute,
+  ConsolePendingFilmsRouteRoute: ConsolePendingFilmsRouteRoute,
   ConsolePeopleRouteRoute: ConsolePeopleRouteRoute,
   ConsoleSessionsRouteRoute: ConsoleSessionsRouteRoute,
   ConsoleStudiosRouteRoute: ConsoleStudiosRouteRoute,
+  ConsoleUpcomingFilmsRouteRoute: ConsoleUpcomingFilmsRouteRoute,
   ConsoleAwardsIdRoute: ConsoleAwardsIdRoute,
   ConsoleFilmsIdRoute: ConsoleFilmsIdRoute,
   ConsolePageContentIdRoute: ConsolePageContentIdRoute,

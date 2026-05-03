@@ -18,50 +18,73 @@ const SeriesExtensionSchema = z.object({
   finishedAt: DateStringSchema.nullable().optional(),
 });
 
-export const CreateFilmInputSchema = z.object({
-  title: z.string().nonempty(),
-  type: z.enum(TitleType),
-  style: z.enum(TitleStyle),
-  rating: z.coerce.number().min(1).max(3),
-  poster: z.string().optional().nullable(),
-  genres: z.array(z.number()),
-  studios: z.array(z.number()),
-  countries: z.array(z.number()),
-  collections: z.array(z.number()),
-  duration: z.coerce.number(),
-  releaseDate: DateStringSchema.nullable(),
-  budget: z.coerce.number(),
-  boxOffice: z.coerce.number(),
-  overview: z.string().optional().nullable(),
-  chapterKey: z
-    .string()
-    .regex(/^[a-z-]+$/)
-    .nullable(),
-  chapterOrder: z.coerce.number().nullable(),
-  castAndCrew: z.array(
-    z.object({
-      personId: z.coerce.number().min(1, 'Person cannot be empty'),
-      role: z.enum(PersonRole),
-      details: z.string().nullable(),
-    }),
-  ),
-  awards: z.array(
-    z.object({
-      awardId: z.number().min(1, 'Award cannot be empty'),
-      nominationId: z.number().min(1, 'Nomination cannot be empty'),
-      actorId: z.number().nullable(),
-    }),
-  ),
-  trailers: z.array(
-    z.object({
-      order: z.number(),
-      url: z.string(),
-    }),
-  ),
-  tempDraftId: z.coerce.number().optional(),
-  status: z.enum(FilmStatus).optional(),
-  seriesExtension: SeriesExtensionSchema.nullable(),
-});
+export const CreateFilmInputSchema = z
+  .object({
+    title: z.string().nonempty(),
+    type: z.enum(TitleType),
+    style: z.enum(TitleStyle),
+    rating: z.coerce.number().min(1).max(3),
+    poster: z.string().optional().nullable(),
+    genres: z.array(z.number()),
+    studios: z.array(z.number()),
+    countries: z.array(z.number()),
+    collections: z.array(z.number()),
+    duration: z.coerce.number(),
+    releaseDate: DateStringSchema.nullable(),
+    budget: z.coerce.number(),
+    boxOffice: z.coerce.number(),
+    overview: z.string().optional().nullable(),
+    chapterKey: z
+      .string()
+      .regex(/^[a-z-]+$/)
+      .nullable(),
+    chapterOrder: z.coerce.number().nullable(),
+    castAndCrew: z.array(
+      z.object({
+        personId: z.coerce.number().min(1, 'Person cannot be empty'),
+        role: z.enum(PersonRole),
+        details: z.string().nullable(),
+      }),
+    ),
+    awards: z.array(
+      z.object({
+        awardId: z.number().min(1, 'Award cannot be empty'),
+        nominationId: z.number().min(1, 'Nomination cannot be empty'),
+        actorId: z.number().nullable(),
+      }),
+    ),
+    trailers: z.array(
+      z.object({
+        order: z.number(),
+        url: z.string(),
+      }),
+    ),
+    tempDraftId: z.coerce.number().optional(),
+    status: z.enum(FilmStatus).optional(),
+    seriesExtension: SeriesExtensionSchema.nullable(),
+  })
+  .superRefine((schema, ctx) => {
+    if (schema.status === 'UPCOMING') {
+      if (!schema.poster) {
+        ctx.addIssue({
+          code: 'custom',
+          origin: 'string',
+          input: schema,
+          message: 'Poster is required for upcoming films',
+        });
+      }
+
+      if (!schema.trailers.length) {
+        ctx.addIssue({
+          code: 'too_small',
+          origin: 'array',
+          input: schema,
+          minimum: 1,
+          message: 'Trailers is required for upcoming films',
+        });
+      }
+    }
+  });
 
 export const GetFilmsListQuerySchema = z.object({
   pageIndex: z.coerce.number().min(0).optional(),
@@ -312,7 +335,7 @@ export const FilmDraftFilmIdParamsSchema = z.object({
 
 export const GetIncompleteFilmsQuerySchema = z.object({
   q: z.string().optional().nullable(),
-  status: z.enum(FilmStatus).optional().default('PENDING'),
+  status: z.enum(FilmStatus).optional(),
   pageIndex: z.coerce.number().min(0).optional(),
   type: z.enum(TitleType).optional(),
   style: z.enum(TitleStyle).optional(),

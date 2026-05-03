@@ -1,3 +1,4 @@
+import type { Enum, FilmStatus } from '@films-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
@@ -16,6 +17,7 @@ type ManageFilmParams = {
   values: z.infer<typeof FilmFormSchema>;
   onSuccess?: (data?: ApiResponse<typeof api.films.create.exec>) => void;
   invalidateQueries?: InvalidateQueryOption | InvalidateQueryOption[];
+  status?: Enum<typeof FilmStatus>;
 };
 
 export const useManageFilm = ({
@@ -23,6 +25,7 @@ export const useManageFilm = ({
   tempDraftId,
   onSuccess,
   invalidateQueries,
+  status,
 }: ManageFilmParams) => {
   return useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
@@ -53,6 +56,7 @@ export const useManageFilm = ({
       const input = {
         ...data,
         poster,
+        status: status ?? data.status,
       };
 
       if (!isNewItem(values.id)) {

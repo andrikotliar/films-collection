@@ -33,6 +33,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   const { mutateAsync: handleSubmit, isPending } = useManageFilm({
     values,
     tempDraftId: selectedDraft?.id,
+    status: 'WATCHED',
     onSuccess: () => {
       navigate({ to: '/console/films' });
     },
