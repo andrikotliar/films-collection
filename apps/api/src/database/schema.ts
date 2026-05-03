@@ -65,7 +65,7 @@ export const films = pgTable(
     deletedAt: timestamp('deleted_at', { precision: 3, mode: 'string' }),
     overview: text(),
     synopsis: text(),
-    draft: boolean().default(false),
+    draft: boolean().notNull().default(false),
   },
   (table) => [
     index('films_title_idx').using('btree', table.title.asc().nullsLast().op('text_ops')),

@@ -1,0 +1,1 @@
+ALTER TABLE "films" ALTER COLUMN "draft" SET NOT NULL;
