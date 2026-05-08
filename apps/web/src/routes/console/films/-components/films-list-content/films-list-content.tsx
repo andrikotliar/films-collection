@@ -99,7 +99,7 @@ export const FilmsListContent = () => {
         onReset={handleReset}
         defaultValues={searchParams}
         config={filtersConfig}
-        height="calc(var(--screen-height) - 190px)"
+        height="calc(var(--screen-height) - 80px)"
         topPosition="calc(var(--header-height) + 60px)"
       />
       <div className={styles.right_column}>
