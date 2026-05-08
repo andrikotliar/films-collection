@@ -1,5 +1,5 @@
 import z from 'zod';
-import { PersonRole, TitleStyle, TitleType } from '~/enums';
+import { DraftLevel, PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
@@ -85,6 +85,10 @@ export const GetFilmsListQuerySchema = z.object({
   q: z.string().optional().nullable(),
   orderKey: z.string().optional(),
   order: z.enum(['asc', 'desc']).optional(),
+});
+
+export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
+  draftLevels: z.array(z.enum(DraftLevel)).optional(),
 });
 
 export const SearchFilmsQuerySchema = z.object({
@@ -336,3 +340,4 @@ export type TranslateDescriptionInput = z.infer<typeof TranslateDescriptionInput
 export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
+export type GetAdminListQueryParams = z.infer<typeof GetAdminListQuerySchema>;

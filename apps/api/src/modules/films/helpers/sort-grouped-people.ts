@@ -1,7 +1,7 @@
-import type { PersonRole } from '~/database/schema';
+import type { TPersonRole } from '@films-collection/shared';
 import type { GroupedPeople } from '~/modules/films/types';
 
-const rolesOrder: Record<PersonRole, number> = {
+const rolesOrder: Record<TPersonRole, number> = {
   CREATOR: 1,
   DIRECTOR: 2,
   WRITER: 3,

@@ -1,4 +1,10 @@
-import type { GetFilmsListQuery } from '@films-collection/shared';
+import {
+  DraftLevel,
+  enumValues,
+  type GetAdminListQueryParams,
+  type GetFilmsListQuery,
+  type TDraftLevel,
+} from '@films-collection/shared';
 import {
   and,
   between,
@@ -24,7 +30,6 @@ import {
   filmsPeople,
   filmsStudios,
   seriesExtensions,
-  type filmStatus,
 } from '~/database/schema';
 import type { Database } from '~/plugins';
 import { sqlSearchQuery } from '~/shared';
@@ -41,24 +46,26 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
 
 type DraftLevel = 'all' | 'upcoming' | 'none';
 
-export type PlainFilmFilters = GetFilmsListQuery & {
-  status?: (typeof filmStatus.enumValues)[number];
-  startDateAfter?: string;
-  draftLevel?: DraftLevel;
-};
+export type PlainFilmFilters = GetFilmsListQuery & GetAdminListQueryParams;
 
-const getDraftFilter = (level: DraftLevel): SQL | undefined => {
-  if (level === 'all') {
+type SqlOrUndefined = SQL | undefined;
+
+const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
+  if (levels.length === enumValues(DraftLevel).length) {
     return undefined;
   }
 
-  const draftSql = eq(films.draft, false);
+  const levelsSet = new Set(levels);
 
-  if (level === 'upcoming') {
-    return or(draftSql, gt(films.releaseDate, sql`CURRENT_DATE`));
+  const isDraftIncluded = levelsSet.has(DraftLevel.PENDING);
+
+  const query: SqlOrUndefined[] = [eq(films.draft, isDraftIncluded)];
+
+  if (levelsSet.has(DraftLevel.UPCOMING)) {
+    query.push(gt(films.releaseDate, sql`CURRENT_DATE`));
   }
 
-  return draftSql;
+  return or(...query);
 };
 
 export const mapListFilters = (
@@ -84,18 +91,13 @@ export const mapListFilters = (
     budget,
     boxOffice,
     q,
-    startDateAfter,
-    draftLevel = 'none',
+    draftLevels = [],
   } = plainFilters;
 
-  const filters: (SQL | undefined)[] = [isNull(films.deletedAt), getDraftFilter(draftLevel)];
+  const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
 
-  if (startDate && !startDateAfter) {
+  if (startDate) {
     filters.push(gte(films.releaseDate, startDate));
-  }
-
-  if (startDateAfter) {
-    filters.push(gt(films.releaseDate, startDateAfter));
   }
 
   if (endDate) {

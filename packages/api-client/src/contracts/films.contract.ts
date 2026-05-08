@@ -20,6 +20,7 @@ import {
   FilmDraftInputResponse,
   FilmDraftFilmIdParamsSchema,
   FilmTrailersResponseSchema,
+  GetAdminListQuerySchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -53,7 +54,7 @@ export const filmsContract = defineContracts('films', {
     method: 'GET',
     url: 'admin',
     schema: {
-      querystring: GetFilmsListQuerySchema,
+      querystring: GetAdminListQuerySchema,
       response: FilmsAdminListResponseSchema,
     },
   },

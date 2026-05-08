@@ -1,4 +1,11 @@
-import type { DeviceInfo } from '@films-collection/shared';
+import {
+  CollectionCategory,
+  type DeviceInfo,
+  enumValues,
+  PersonRole,
+  TitleStyle,
+  TitleType,
+} from '@films-collection/shared';
 import {
   pgTable,
   index,
@@ -17,22 +24,14 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core';
 
-export const collectionCategory = pgEnum('collection_category', [
-  'GENERAL',
-  'CINEMATIC_UNIVERSE',
-  'TOP',
-]);
-export const personRole = pgEnum('person_role', [
-  'DIRECTOR',
-  'WRITER',
-  'PRODUCER',
-  'COMPOSER',
-  'CAMERAMAN',
-  'CREATOR',
-  'ACTOR',
-]);
-export const titleStyle = pgEnum('title_style', ['LIVE_ACTION', 'ANIMATION']);
-export const titleType = pgEnum('title_type', ['FILM', 'SERIES']);
+export const collectionCategory = pgEnum(
+  'collection_category',
+  enumValues(CollectionCategory) as [string],
+);
+export const personRole = pgEnum('person_role', enumValues(PersonRole) as [string]);
+export const titleStyle = pgEnum('title_style', enumValues(TitleStyle) as [string]);
+export const titleType = pgEnum('title_type', enumValues(TitleType) as [string]);
+// TODO: remove after status cleanup
 export const filmStatus = pgEnum('film_status', [
   'ADDED',
   'WATCHED',
@@ -606,7 +605,6 @@ export type Film = typeof films.$inferSelect;
 export type Genre = typeof genres.$inferSelect;
 export type Person = typeof people.$inferSelect;
 export type FilmPerson = typeof filmsPeople.$inferSelect;
-export type PersonRole = (typeof personRole.enumValues)[number];
 export type FilmAwardNomination = typeof filmAwardNominations.$inferSelect;
 export type Award = typeof awards.$inferSelect;
 export type Nomination = typeof nominations.$inferSelect;

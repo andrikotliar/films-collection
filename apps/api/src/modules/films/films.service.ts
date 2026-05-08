@@ -10,6 +10,9 @@ import {
   type TranslateDescriptionInput,
   type CreateFilmDraftInput,
   type FilmDraftResponse,
+  type GetAdminListQueryParams,
+  DraftLevel,
+  enumValues,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -40,7 +43,7 @@ export class FilmsService {
       ...queries,
       order: 'desc',
       orderKey: 'releaseDate',
-      draftLevel: 'upcoming',
+      draftLevels: [DraftLevel.PUBLISHED, DraftLevel.UPCOMING],
     });
 
     const additionalInfo = await this.populateAdditionalData(queries);
@@ -82,12 +85,12 @@ export class FilmsService {
     }));
   }
 
-  getAdminList(queries: GetFilmsListQuery) {
+  getAdminList(queries: GetAdminListQueryParams) {
     return this.deps.filmsRepository.findAndCount({
       ...queries,
       orderKey: queries.orderKey ?? 'updatedAt',
       order: queries.order ?? 'desc',
-      draftLevel: 'all',
+      draftLevels: queries.draftLevels ?? enumValues(DraftLevel),
     });
   }
 

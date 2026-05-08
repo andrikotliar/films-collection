@@ -1,11 +1,12 @@
-import type { Award, FilmPerson, Nomination, Person, PersonRole } from '~/database/schema';
+import type { TPersonRole } from '@films-collection/shared';
+import type { Award, FilmPerson, Nomination, Person } from '~/database/schema';
 
 export type PickBaseData<T extends { id: number; title: string }> = Pick<T, 'id' | 'title'>;
 export type Timestamps = 'createdAt' | 'updatedAt' | 'deletedAt';
 export type GroupedPerson = Pick<Person, 'id' | 'name'> & Pick<FilmPerson, 'details'>;
 export type GroupedPeople = {
-  [position in PersonRole]: {
-    role: PersonRole;
+  [position in TPersonRole]: {
+    role: TPersonRole;
     people: GroupedPerson[];
   };
 };
