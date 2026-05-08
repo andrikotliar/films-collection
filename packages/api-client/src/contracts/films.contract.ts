@@ -19,8 +19,6 @@ import {
   CreateFilmDraftInputSchema,
   FilmDraftInputResponse,
   FilmDraftFilmIdParamsSchema,
-  GetIncompleteFilmsQuerySchema,
-  IncompleteFilmsListResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -56,14 +54,6 @@ export const filmsContract = defineContracts('films', {
     schema: {
       querystring: GetFilmsListQuerySchema,
       response: FilmsAdminListResponseSchema,
-    },
-  },
-  getAdminIncompleteFilmsList: {
-    method: 'GET',
-    url: 'admin/incomplete',
-    schema: {
-      querystring: GetIncompleteFilmsQuerySchema,
-      response: IncompleteFilmsListResponseSchema,
     },
   },
   getEditableFilm: {

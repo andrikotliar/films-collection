@@ -7,7 +7,6 @@ import {
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
   type GetFilmsListQuery,
-  type GetIncompleteFilmsQuery,
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
@@ -18,10 +17,12 @@ import {
   count,
   desc,
   eq,
+  gt,
   ilike,
   inArray,
   isNull,
   notInArray,
+  or,
   sql,
   type SQL,
 } from 'drizzle-orm';
@@ -63,7 +64,7 @@ type UpdateRelationsParams<T extends PgTableWithColumns<AnyTable>, V extends PgI
 export class FilmsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  async count(filters?: SQL[]) {
+  async count(filters?: (SQL | undefined)[]) {
     if (filters) {
       const result = await getFirstValue(
         this.deps.db
@@ -294,7 +295,7 @@ export class FilmsRepository {
       where: and(
         isNull(films.deletedAt),
         ilike(films.title, sqlSearchQuery(query)),
-        eq(films.status, 'WATCHED'),
+        eq(films.draft, false),
       ),
       limit: PAGE_LIMITS.default,
     });
@@ -361,10 +362,7 @@ export class FilmsRepository {
     } = input;
 
     return this.deps.db.transaction(async (tr) => {
-      const [newFilm] = await tr
-        .insert(films)
-        .values(filmInput)
-        .returning({ id: films.id, status: films.status });
+      const [newFilm] = await tr.insert(films).values(filmInput).returning({ id: films.id });
 
       const filmId = newFilm.id;
 
@@ -418,7 +416,7 @@ export class FilmsRepository {
         });
       }
 
-      return { filmId, status: newFilm.status };
+      return { filmId };
     });
   }
 
@@ -504,7 +502,7 @@ export class FilmsRepository {
         .update(films)
         .set({ ...filmParams, updatedAt: new Date().toISOString() })
         .where(eq(films.id, filmId))
-        .returning({ id: films.id, status: films.status });
+        .returning({ id: films.id });
 
       if (genres?.length) {
         await this.updateFilmRelations({
@@ -606,7 +604,6 @@ export class FilmsRepository {
 
       return {
         filmId: updatedFilm.id,
-        status: updatedFilm.status,
       };
     });
   }
@@ -623,7 +620,7 @@ export class FilmsRepository {
   }
 
   getCompleteData(queries: GetCompleteDataListQuery) {
-    const filters: SQL[] = [eq(films.status, 'WATCHED')];
+    const filters: SQL[] = [eq(films.draft, false)];
 
     if (queries.intervalDays) {
       filters.push(getLatestEntriesFilter(films.updatedAt, queries.intervalDays));
@@ -766,92 +763,37 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
-  async getIncompleteFilmsByStatus(query: GetIncompleteFilmsQuery) {
-    const filters = mapListFilters(query, this.deps.db);
-
-    const list = await this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        poster: true,
-        releaseDate: true,
-        type: true,
-        style: true,
-        status: true,
-        overview: true,
-      },
-      where: and(...filters),
-      limit: PAGE_LIMITS.default,
-      offset: getSkipValue('default', query.pageIndex),
-      orderBy: [asc(films.createdAt), desc(films.id)],
-      with: {
-        trailers: {
-          columns: {
-            url: true,
-            order: true,
-          },
-        },
-        seriesExtensions: {
-          columns: {
-            seasonsTotal: true,
-            episodesTotal: true,
-            finishedAt: true,
-          },
-        },
-        collections: {
-          columns: {
-            collectionId: true,
-          },
-        },
-      },
-    });
-
-    const mappedList = list.map((item) => ({
-      ...item,
-      seriesExtension: item.seriesExtensions[0] ?? null,
-    }));
-
-    const count = await this.count(filters);
-
-    return { list: mappedList, count };
-  }
-
-  getFilmStatus(id: number) {
-    return getFirstValue(
-      this.deps.db
-        .select({ id: films.id, status: films.status })
-        .from(films)
-        .where(eq(films.id, id))
-        .limit(1),
-    );
-  }
-
   aggregateFilmGenres() {
     return this.deps.db
       .select({
-        title: genres.title,
         id: genres.id,
-        count: sql<string>`count(*)`,
+        count: count(),
       })
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.filmId))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
-      .where(and(eq(films.status, 'WATCHED'), isNull(films.deletedAt)))
+      .where(this.getPublicFilmsFilter())
       .groupBy(genres.id, genres.title);
   }
 
   aggregateFilmCollections() {
     return this.deps.db
       .select({
-        title: collections.title,
         id: collections.id,
-        count: sql<string>`count(*)`,
+        count: count(),
       })
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
-      .where(and(eq(films.status, 'WATCHED'), isNull(films.deletedAt)))
+      .where(this.getPublicFilmsFilter())
       .groupBy(collections.id, collections.title);
+  }
+
+  private getPublicFilmsFilter() {
+    return and(
+      isNull(films.deletedAt),
+      or(eq(films.draft, false), gt(films.releaseDate, sql`CURRENT_DATE`)),
+    );
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

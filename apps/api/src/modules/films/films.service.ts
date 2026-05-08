@@ -10,10 +10,8 @@ import {
   type TranslateDescriptionInput,
   type CreateFilmDraftInput,
   type FilmDraftResponse,
-  type GetIncompleteFilmsQuery,
-  type IncompleteFilmsListResponse,
 } from '@films-collection/shared';
-import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList, mapInnerId } from './helpers';
+import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
 type GenericOption = {
   id: number;
@@ -165,7 +163,6 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    await throwIfNotFound(this.deps.filmsRepository.getFilmStatus(id));
     await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
     return { id };
@@ -226,19 +223,6 @@ export class FilmsService {
 
   deleteDraft(id: number) {
     return this.deps.filmsRepository.deleteDraft(id);
-  }
-
-  async getIncompleteFilmsList(
-    query: GetIncompleteFilmsQuery,
-  ): Promise<IncompleteFilmsListResponse> {
-    const { list, count } = await this.deps.filmsRepository.getIncompleteFilmsByStatus(query);
-
-    const mappedList = list.map((film) => ({
-      ...film,
-      collections: mapInnerId(film.collections, 'collectionId'),
-    }));
-
-    return { list: mappedList, count };
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(
