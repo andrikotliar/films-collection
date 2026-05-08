@@ -166,7 +166,10 @@ export const FilmResponseSchema = z.object({
 
 export const FilmsListResponseSchema = z.object({
   list: z.array(
-    FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true }),
+    FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true }).extend({
+      upcoming: z.boolean(),
+      inDays: z.number().nullable(),
+    }),
   ),
   total: z.coerce.number(),
   additionalInfo: z
@@ -201,7 +204,9 @@ export const FilmsSearchResponseSchema = z.array(
 );
 
 export const FilmsAdminListResponseSchema = z.object({
-  list: z.array(FilmResponseSchema.pick({ id: true, title: true, poster: true })),
+  list: z.array(
+    FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ draft: z.boolean() }),
+  ),
   total: z.coerce.number(),
 });
 
@@ -308,6 +313,14 @@ export const FilmDraftInputResponse = z.object({
 
 export const FilmDraftFilmIdParamsSchema = z.object({
   filmId: z.string(),
+});
+
+export const FilmTrailersResponseSchema = z.object({
+  trailers: z.array(
+    z.object({
+      url: z.string(),
+    }),
+  ),
 });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;

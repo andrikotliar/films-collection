@@ -111,6 +111,7 @@ export const FilmsListContent = () => {
           isDeletingInProgress={isPending}
           onView={handleViewFilm}
           isFetching={isFetching}
+          viewActionAvailable={(item) => !item.draft}
         />
         <Pagination
           total={data.total}

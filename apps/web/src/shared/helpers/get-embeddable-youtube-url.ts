@@ -20,7 +20,13 @@ const EMBEDDABLE_URL_PREFIX = 'https://www.youtube-nocookie.com/embed';
 const YOUTUBE_VIDEO_BASE_URL = 'https://img.youtube.com/vi';
 const VIDEO_IMAGE = 'hqdefault.jpg';
 
-type EmbeddableUrlQueryParams = Record<string, string>;
+type BoolNum = '0' | '1';
+
+type EmbeddableUrlQueryParams = Partial<{
+  rel: BoolNum;
+  showinfo: BoolNum;
+  autoplay: BoolNum;
+}>;
 
 const getValidatedUrl = (value: string): ValidationResult => {
   try {

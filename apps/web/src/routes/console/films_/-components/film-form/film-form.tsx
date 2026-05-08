@@ -65,9 +65,15 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         poster = key;
       }
 
+      const today = Date.now();
+      const releaseDateMs = data.releaseDate ? new Date(data.releaseDate).getTime() : 0;
+
+      const isDraft = releaseDateMs > today || data.draft;
+
       const input = {
         ...data,
         poster,
+        draft: isDraft,
       };
 
       if (!isNewItem(values.id)) {
@@ -221,6 +227,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <AwardsSelect awardOptions={initialOptions.options.awards} />
 
         <ChaptersSelect />
+        <Form.Checkbox name="draft" label="Draft" type="checkbox" />
       </Panel>
       <FilmValuesWatcher
         selectedDraft={selectedDraft}

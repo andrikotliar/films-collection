@@ -19,6 +19,7 @@ import {
   CreateFilmDraftInputSchema,
   FilmDraftInputResponse,
   FilmDraftFilmIdParamsSchema,
+  FilmTrailersResponseSchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -86,6 +87,14 @@ export const filmsContract = defineContracts('films', {
     schema: {
       params: IdParamSchema,
       response: FilmResponseSchema,
+    },
+  },
+  getTrailers: {
+    method: 'GET',
+    url: ':id/trailers',
+    schema: {
+      params: IdParamSchema,
+      response: FilmTrailersResponseSchema,
     },
   },
   create: {

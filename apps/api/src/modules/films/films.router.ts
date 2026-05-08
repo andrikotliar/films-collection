@@ -35,17 +35,6 @@ export const filmsRouter = createRouter(filmsContract, {
     },
   },
 
-  getAdminIncompleteFilmsList: {
-    preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getIncompleteFilmsList(request.query);
-
-      return { data };
-    },
-  },
-
   getEditableFilm: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
@@ -88,6 +77,16 @@ export const filmsRouter = createRouter(filmsContract, {
       }
 
       return { data };
+    },
+  },
+
+  getTrailers: {
+    handler: async ({ request, app }) => {
+      const trailers = await app.container
+        .resolve('filmsService')
+        .getFilmTrailers(request.params.id);
+
+      return { data: { trailers } };
     },
   },
 

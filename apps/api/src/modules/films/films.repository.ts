@@ -6,11 +6,10 @@ import {
   type CreateFilmInput,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
-  type GetFilmsListQuery,
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapListFilters } from '~/modules/films/helpers';
+import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers';
 import {
   and,
   asc,
@@ -81,7 +80,7 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
-  async findAndCount(queries: GetFilmsListQuery) {
+  async findAndCount(queries: PlainFilmFilters) {
     const filters = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order);
 
@@ -98,7 +97,7 @@ export class FilmsRepository {
     return { list, total };
   }
 
-  findById(id: number) {
+  findById(id: number, level: 'public' | 'admin' = 'public') {
     return this.deps.db.query.films.findFirst({
       columns: {
         id: true,
@@ -202,7 +201,7 @@ export class FilmsRepository {
           orderBy: asc(filmTrailers.order),
         },
       },
-      where: and(eq(films.id, id), eq(films.draft, true), isNull(films.deletedAt)),
+      where: and(eq(films.id, id), eq(films.draft, level === 'admin'), isNull(films.deletedAt)),
     });
   }
 
@@ -787,6 +786,13 @@ export class FilmsRepository {
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
       .where(this.getPublicFilmsFilter())
       .groupBy(collections.id, collections.title);
+  }
+
+  getTrailersByFilmId(id: number) {
+    return this.deps.db
+      .select({ url: filmTrailers.url })
+      .from(filmTrailers)
+      .where(and(eq(filmTrailers.filmId, id)));
   }
 
   private getPublicFilmsFilter() {

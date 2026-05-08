@@ -40,15 +40,22 @@ export class FilmsService {
       ...queries,
       order: 'desc',
       orderKey: 'releaseDate',
+      draftLevel: 'upcoming',
     });
 
     const additionalInfo = await this.populateAdditionalData(queries);
 
-    return { list: data.list, total: data.total, additionalInfo };
+    const mappedList = data.list.map((film) => ({
+      ...film,
+      upcoming: film.draft,
+      inDays: film.draft && film.releaseDate ? this.getDaysDiffFromToday(film.releaseDate) : null,
+    }));
+
+    return { list: mappedList, total: data.total, additionalInfo };
   }
 
-  async getFilmDetails(id: number) {
-    const film = await this.deps.filmsRepository.findById(id);
+  async getFilmDetails(id: number, level: 'admin' | 'public' = 'public') {
+    const film = await this.deps.filmsRepository.findById(id, level);
 
     if (!film) {
       return null;
@@ -80,6 +87,7 @@ export class FilmsService {
       ...queries,
       orderKey: queries.orderKey ?? 'updatedAt',
       order: queries.order ?? 'desc',
+      draftLevel: 'all',
     });
   }
 
@@ -102,7 +110,7 @@ export class FilmsService {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
-    return await this.getFilmDetails(filmId);
+    return await this.getFilmDetails(filmId, 'admin');
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
@@ -225,6 +233,10 @@ export class FilmsService {
     return this.deps.filmsRepository.deleteDraft(id);
   }
 
+  getFilmTrailers(id: number) {
+    return this.deps.filmsRepository.getTrailersByFilmId(id);
+  }
+
   private getValidatedOptions<T extends { updatedAt: string }>(
     options: T[],
     newestOnly?: boolean,
@@ -261,5 +273,19 @@ export class FilmsService {
       id: option.id,
       title: option.title,
     }));
+  }
+
+  private getDaysDiffFromToday(dateString: string) {
+    const now = new Date();
+    const target = new Date(dateString);
+
+    // Reset time to midnight for accurate "day" diff
+    now.setHours(0, 0, 0, 0);
+    target.setHours(0, 0, 0, 0);
+
+    const diffMs = target.getTime() - now.getTime();
+    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
+
+    return diffDays;
   }
 }

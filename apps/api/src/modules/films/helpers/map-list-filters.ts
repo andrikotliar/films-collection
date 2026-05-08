@@ -48,7 +48,11 @@ export type PlainFilmFilters = GetFilmsListQuery & {
 };
 
 const getDraftFilter = (level: DraftLevel): SQL | undefined => {
-  const draftSql = eq(films.draft, level === 'all');
+  if (level === 'all') {
+    return undefined;
+  }
+
+  const draftSql = eq(films.draft, false);
 
   if (level === 'upcoming') {
     return or(draftSql, gt(films.releaseDate, sql`CURRENT_DATE`));
