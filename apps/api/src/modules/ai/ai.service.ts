@@ -30,7 +30,7 @@ export class AiService {
 
   public async translateToLangPrompt(text: string, langParams: LangParams): Promise<string> {
     return this.createResponse(
-      `Translate the following ${langParams.from} text to ${langParams.to}: ${text}`,
+      `Translate the following ${langParams.from} text to ${langParams.to}: ${text}. The response should contain only the translated text. Doesn't add any extra words of unnecessary symbols, no matter the text length.`,
     );
   }
 
