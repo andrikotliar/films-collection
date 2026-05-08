@@ -1,7 +1,16 @@
 import type z from 'zod';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
-import { api, Form, getInitialDataQueryOptions, isNewItem, Panel } from '~/shared';
-import { DescriptionEditor, FilmFormSchema, useManageFilm } from '~/routes/console/-shared';
+import {
+  api,
+  convertImageToWebp,
+  Form,
+  getInitialDataQueryOptions,
+  getObjectsDiff,
+  isNewItem,
+  Panel,
+  titleToFileName,
+} from '~/shared';
+import { DescriptionEditor, FilmFormSchema } from '~/routes/console/-shared';
 import {
   AwardsSelect,
   CastAndCrewSelect,
@@ -30,25 +39,74 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
 
-  const { mutateAsync: handleSubmit, isPending } = useManageFilm({
-    values,
-    tempDraftId: selectedDraft?.id,
-    status: 'WATCHED',
+  const { isPending, mutateAsync: handleSubmit } = useMutation({
+    mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
+      let poster = data.poster;
+
+      if (poster instanceof File) {
+        const transformedPoster = await convertImageToWebp(poster);
+
+        const key = `posters/${titleToFileName(data.title)}`;
+        const uploadParams = await api.files.getUploadUrl.exec({
+          input: {
+            key,
+            fileType: 'webp',
+          },
+        });
+
+        await fetch(uploadParams.url, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'webp',
+          },
+          body: transformedPoster,
+        });
+
+        poster = key;
+      }
+
+      const input = {
+        ...data,
+        poster,
+      };
+
+      if (!isNewItem(values.id)) {
+        const diff = getObjectsDiff(values, input);
+
+        if (!diff) {
+          return;
+        }
+
+        return await api.films.update.exec({
+          params: { id: values.id },
+          input: diff,
+        });
+      }
+
+      return await api.films.create.exec({
+        input: {
+          ...input,
+          tempDraftId: selectedDraft?.id,
+        },
+      });
+    },
     onSuccess: () => {
       navigate({ to: '/console/films' });
     },
-    invalidateQueries: [
-      {
-        queryKey: [api.films.getAdminList.staticKey],
-      },
-      ...(!isNewItem(values.id)
-        ? [
-            {
-              queryKey: [api.films.getById.staticKey, values.id],
-            },
-          ]
-        : []),
-    ],
+    meta: {
+      invalidateQueries: [
+        {
+          queryKey: [api.films.getAdminList.staticKey],
+        },
+        ...(!isNewItem(values.id)
+          ? [
+              {
+                queryKey: [api.films.getById.staticKey, values.id],
+              },
+            ]
+          : []),
+      ],
+    },
   });
 
   const { mutateAsync: createNewEntity } = useMutation({

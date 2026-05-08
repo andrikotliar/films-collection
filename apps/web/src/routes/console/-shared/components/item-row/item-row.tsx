@@ -1,5 +1,5 @@
 import styles from './item-row.module.css';
-import { Button, PriorityBadge } from '~/shared';
+import { Button } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
 
@@ -35,10 +35,7 @@ export const ItemRow = <T extends DefaultListItem>({
   return (
     <div className={styles.item_row}>
       <div className={styles.item_row_content}>
-        <div className={styles.left_column}>
-          {data.priority && <PriorityBadge value={data.priority} />}
-          <div>{data[titleKey]}</div>
-        </div>
+        <div>{data[titleKey]}</div>
         <div className={styles.right_column}>
           {typeof onView === 'function' && (
             <Button onClick={() => onView(data)} variant="ghost" icon={<EyeIcon />} />

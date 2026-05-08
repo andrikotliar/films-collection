@@ -6,17 +6,20 @@ import { QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { routeTree } from './routeTree.gen';
 import {
-  NotFound,
   Toaster,
   ErrorScreen,
   PageLoader,
   queryClient,
   type InvalidateQueryOption,
 } from '~/shared';
+import { HttpError } from '@films-collection/api-client';
 
 const router = createRouter({
   routeTree,
-  defaultNotFoundComponent: () => <NotFound />,
+  defaultNotFoundComponent: () => {
+    const error = new HttpError(404, 'Not found', {});
+    return <ErrorScreen error={error} />;
+  },
   defaultErrorComponent: ({ error }) => {
     return <ErrorScreen error={error} />;
   },
