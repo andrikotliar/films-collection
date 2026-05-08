@@ -1,5 +1,5 @@
 import z from 'zod';
-import { FilmStatus, PersonRole, TitleStyle, TitleType } from '~/enums';
+import { PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
@@ -59,7 +59,6 @@ export const CreateFilmInputSchema = z.object({
     }),
   ),
   tempDraftId: z.coerce.number().optional(),
-  status: z.enum(FilmStatus).optional(),
   seriesExtension: SeriesExtensionSchema.nullable(),
   draft: z.boolean(),
 });
@@ -311,35 +310,6 @@ export const FilmDraftFilmIdParamsSchema = z.object({
   filmId: z.string(),
 });
 
-export const GetIncompleteFilmsQuerySchema = z.object({
-  q: z.string().optional().nullable(),
-  status: z.enum(FilmStatus).optional(),
-  pageIndex: z.coerce.number().min(0).optional(),
-  type: z.enum(TitleType).optional(),
-  style: z.enum(TitleStyle).optional(),
-  collectionId: z.coerce.number().optional(),
-});
-
-export const IncompleteFilmsListResponseSchema = z.object({
-  list: z.array(
-    CreateFilmInputSchema.pick({
-      title: true,
-      poster: true,
-      trailers: true,
-      collections: true,
-      releaseDate: true,
-      type: true,
-      style: true,
-      overview: true,
-      seriesExtension: true,
-    }).extend({
-      id: z.number(),
-      status: z.enum(FilmStatus),
-    }),
-  ),
-  count: z.number(),
-});
-
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
@@ -353,5 +323,3 @@ export type TranslateDescriptionInput = z.infer<typeof TranslateDescriptionInput
 export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
-export type GetIncompleteFilmsQuery = z.infer<typeof GetIncompleteFilmsQuerySchema>;
-export type IncompleteFilmsListResponse = z.infer<typeof IncompleteFilmsListResponseSchema>;

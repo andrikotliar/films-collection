@@ -10,6 +10,8 @@ import {
   inArray,
   isNull,
   lte,
+  or,
+  sql,
   type SQL,
 } from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
@@ -37,13 +39,28 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   return between(column, value - MONEY_RANGE_MILLIONS, value + MONEY_RANGE_MILLIONS);
 };
 
+type DraftLevel = 'all' | 'upcoming' | 'none';
+
 export type PlainFilmFilters = GetFilmsListQuery & {
   status?: (typeof filmStatus.enumValues)[number];
   startDateAfter?: string;
-  draft?: boolean;
+  draftLevel?: DraftLevel;
 };
 
-export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQL[] => {
+const getDraftFilter = (level: DraftLevel): SQL | undefined => {
+  const draftSql = eq(films.draft, level === 'all');
+
+  if (level === 'upcoming') {
+    return or(draftSql, gt(films.releaseDate, sql`CURRENT_DATE`));
+  }
+
+  return draftSql;
+};
+
+export const mapListFilters = (
+  plainFilters: PlainFilmFilters,
+  db: Database,
+): (SQL | undefined)[] => {
   const {
     genreIds,
     collectionId,
@@ -64,10 +81,10 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQ
     boxOffice,
     q,
     startDateAfter,
-    draft = false,
+    draftLevel = 'none',
   } = plainFilters;
 
-  const filters: SQL[] = [isNull(films.deletedAt), eq(films.draft, draft)];
+  const filters: (SQL | undefined)[] = [isNull(films.deletedAt), getDraftFilter(draftLevel)];
 
   if (startDate && !startDateAfter) {
     filters.push(gte(films.releaseDate, startDate));
