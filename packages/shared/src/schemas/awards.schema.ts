@@ -1,4 +1,5 @@
 import z from 'zod';
+import { getListResponseSchema } from '~/helpers';
 
 export const NominationInputSchema = z.object({
   id: z.coerce.number(),
@@ -22,7 +23,7 @@ export const AwardResponseSchema = z.object({
   updatedAt: z.string(),
 });
 
-export const AwardsListResponseSchema = z.array(
+export const AwardsListResponseSchema = getListResponseSchema(
   AwardResponseSchema.pick({
     id: true,
     title: true,

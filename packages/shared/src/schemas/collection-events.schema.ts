@@ -1,4 +1,5 @@
 import z from 'zod';
+import { getListResponseSchema } from '~/helpers';
 
 export const CreateCollectionEventInputSchema = z.object({
   title: z.string(),
@@ -18,7 +19,7 @@ export const CollectionEventResponseSchema = z.object({
   updatedAt: z.string(),
 });
 
-export const CollectionEventsListResponseSchema = z.array(
+export const CollectionEventsListResponseSchema = getListResponseSchema(
   z.object({
     ...CollectionEventResponseSchema.omit({
       createdAt: true,

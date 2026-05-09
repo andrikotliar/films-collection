@@ -1,6 +1,6 @@
 import z from 'zod';
 import { DraftLevel, PersonRole, TitleStyle, TitleType } from '~/enums';
-import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
+import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';
 import { CollectionResponseSchema } from '~/schemas/collections.schema';
 import { CountryResponseSchema } from '~/schemas/countries.schema';
@@ -168,40 +168,41 @@ export const FilmResponseSchema = z.object({
   ),
 });
 
-export const FilmsListResponseSchema = z.object({
-  list: z.array(
+export const FilmsListResponseSchema = getListResponseSchema(
+  z.array(
     FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true }).extend({
       upcoming: z.boolean(),
       inDays: z.number().nullable(),
     }),
   ),
-  total: z.coerce.number(),
-  additionalInfo: z
-    .object({
-      type: z.enum(['crew']),
-      data: z.object({
-        role: z.string(),
-        name: z.string(),
-      }),
-    })
-    .nullable()
-    .or(
-      z
-        .object({
-          type: z.enum(['collection']),
-          data: CollectionResponseSchema,
-        })
-        .nullable(),
-    )
-    .or(
-      z
-        .object({
-          type: z.enum(['award']),
-          data: AwardResponseSchema.omit({ createdAt: true, updatedAt: true }),
-        })
-        .nullable(),
-    ),
-});
+  z.object({
+    additionalInfo: z
+      .object({
+        type: z.enum(['crew']),
+        data: z.object({
+          role: z.string(),
+          name: z.string(),
+        }),
+      })
+      .nullable()
+      .or(
+        z
+          .object({
+            type: z.enum(['collection']),
+            data: CollectionResponseSchema,
+          })
+          .nullable(),
+      )
+      .or(
+        z
+          .object({
+            type: z.enum(['award']),
+            data: AwardResponseSchema.omit({ createdAt: true, updatedAt: true }),
+          })
+          .nullable(),
+      ),
+  }),
+);
 
 export const FilmsSearchResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true, genres: true }),

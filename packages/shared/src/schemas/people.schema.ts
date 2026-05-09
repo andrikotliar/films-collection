@@ -1,6 +1,6 @@
 import z from 'zod';
 import { PersonRole } from '~/enums';
-import { getArrayFromQuery, getBoolFromQuery } from '~/helpers';
+import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers';
 
 export const CreatePersonSchema = z.object({
   name: z.string(),
@@ -33,10 +33,9 @@ export const PersonResponseSchema = z.object({
   updatedAt: z.string(),
 });
 
-export const PeopleListResponseSchema = z.object({
-  list: z.array(PersonResponseSchema.pick({ id: true, name: true, selected: true })),
-  total: z.coerce.number(),
-});
+export const PeopleListResponseSchema = getListResponseSchema(
+  z.array(PersonResponseSchema.pick({ id: true, name: true, selected: true })),
+);
 
 export type GetPeopleListQuery = z.infer<typeof GetPeopleListQuerySchema>;
 export type CreatePersonInput = z.infer<typeof CreatePersonSchema>;
