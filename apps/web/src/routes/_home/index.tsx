@@ -5,16 +5,17 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import {
   CameraLoader,
+  countObjectKeys,
+  Filters,
   FiltersSidebar,
   filterValues,
   getFilmsListQueryOptions,
-  getFiltersConfig,
   getInitialDataQueryOptions,
   useDocumentTitle,
   useSidebarVisibility,
-  type Filters,
 } from '~/shared';
 import { FilmsSection, RootPageLayout } from './-components';
+import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
 
 export const Route = createFileRoute('/_home/')({
   validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
@@ -72,19 +73,35 @@ function RootPageContainer() {
     hideFilter();
   };
 
+  const initialFilters = useMemo(() => {
+    return {
+      ...filterDefaultValues,
+      ...routeSearch,
+    };
+  }, [routeSearch]);
+
+  const filtersCount = countObjectKeys(routeSearch, ['pageIndex']);
+
   return (
     <RootPageLayout>
       <FiltersSidebar
-        config={filtersConfig}
-        defaultValues={routeSearch}
+        filtersCount={filtersCount}
         isLoading={isInitialDataLoading}
-        onSubmit={submitFilter}
-        onReset={handleReset}
         height="calc(var(--screen-height) - 40px)"
         topPosition="calc(var(--header-height) + 20px)"
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-      />
+      >
+        <Filters
+          defaultValues={initialFilters}
+          resetValues={filterDefaultValues}
+          onSubmit={submitFilter}
+          schema={FiltersSchema}
+          onReset={handleReset}
+          filtersCount={filtersCount}
+          config={filtersConfig}
+        />
+      </FiltersSidebar>
       <Suspense fallback={<CameraLoader />}>
         <FilmsSection />
       </Suspense>

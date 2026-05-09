@@ -1,10 +1,10 @@
 import { Form, type FilterItem } from '~/shared';
 
-type FilterOptionsProps = {
-  filter: FilterItem;
+type FilterOptionsProps<T extends Record<string, any>> = {
+  filter: FilterItem<T>;
 };
 
-export const FilterOptions = ({ filter }: FilterOptionsProps) => {
+export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterOptionsProps<T>) => {
   switch (filter.type) {
     case 'checkmark':
       return (

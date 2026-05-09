@@ -1,5 +1,12 @@
-import type { InitialDataResponse, ListOption } from '@films-collection/shared';
-import type { FilterItem } from '../types';
+import {
+  GetFilmsListQuerySchema,
+  TitleStyle,
+  TitleType,
+  type InitialDataResponse,
+  type ListOption,
+} from '@films-collection/shared';
+import z from 'zod';
+import type { FilterItem } from '~/shared';
 
 const ALL_OPTION: ListOption<string> = {
   value: 'all',
@@ -11,7 +18,25 @@ const ALL_COLLECTIONS_OPTION: ListOption<number> = {
   label: 'All Collections',
 };
 
-export const getFiltersConfig = (initialData: InitialDataResponse): FilterItem[] => {
+export const FiltersSchema = GetFilmsListQuerySchema.extend({
+  type: z.enum({ ...TitleType, all: 'all' }),
+  style: z.enum({ ...TitleStyle, all: 'all' }),
+});
+
+type FilterValues = z.infer<typeof FiltersSchema>;
+
+export const filterDefaultValues: FilterValues = {
+  genreIds: [],
+  countryIds: [],
+  studioIds: [],
+  type: 'all',
+  style: 'all',
+  collectionId: -1,
+};
+
+export const getFiltersConfig = (
+  initialData: InitialDataResponse,
+): Array<FilterItem<FilterValues>> => {
   return [
     {
       title: 'Type',

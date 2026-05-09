@@ -1,8 +1,7 @@
 import styles from './filters-sidebar.module.css';
 import clsx from 'clsx';
-import { Filters, type FiltersProps } from '~/shared/components/filters/filters';
 import { Loader } from '~/shared/components/loader/loader';
-import { countObjectKeys, defineCssProperties } from '~/shared/helpers';
+import { defineCssProperties } from '~/shared/helpers';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '~/shared/constants';
@@ -13,7 +12,9 @@ type SidebarProps = {
   isLoading: boolean;
   height: string;
   topPosition: string;
-} & Omit<FiltersProps, 'filtersCount'>;
+  children: React.ReactNode;
+  filtersCount: number;
+};
 
 export const FiltersSidebar = ({
   isOpen,
@@ -21,10 +22,10 @@ export const FiltersSidebar = ({
   isLoading,
   height,
   topPosition,
-  ...filtersProps
+  filtersCount,
+  children,
 }: SidebarProps) => {
   const sidebarButtonRef = useRef<HTMLButtonElement>(null);
-  const filtersCount = countObjectKeys(filtersProps.defaultValues ?? {}, ['pageIndex']);
 
   useEffect(() => {
     if (window.innerWidth > MOBILE_VIEW_BREAKPOINT_PX) {
@@ -79,7 +80,7 @@ export const FiltersSidebar = ({
           '--sidebar-top-position': topPosition,
         })}
       >
-        <Filters filtersCount={filtersCount} onHideFilter={onToggle} {...filtersProps} />
+        {children}
       </div>
     </>
   );

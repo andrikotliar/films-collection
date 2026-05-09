@@ -1,20 +1,22 @@
 import { PAGE_LIMITS } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { getRouteApi } from '@tanstack/react-router';
-import { List } from '~/routes/console/-shared';
+import { filmDefaultFormValues, List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components/admin-films-tools/admin-films-tools';
 import {
   api,
+  countObjectKeys,
+  Filters,
   FiltersSidebar,
   filterValues,
   getFilmsAdminListQueryOptions,
-  getFiltersConfig,
   getInitialDataQueryOptions,
   Pagination,
   useSidebarVisibility,
 } from '~/shared';
 import styles from './films-list-content.module.css';
 import { useMemo } from 'react';
+import { FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
 
 const routeApi = getRouteApi('/console/films');
 
@@ -62,7 +64,7 @@ export const FilmsListContent = () => {
     });
   };
 
-  const filterFilms: React.ComponentProps<typeof FiltersSidebar>['onSubmit'] = (data) => {
+  const filterFilms: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
     const appliedFilters = filterValues(data);
 
     navigate({
@@ -89,19 +91,37 @@ export const FilmsListContent = () => {
     return getFiltersConfig(initialData);
   }, [initialData]);
 
+  const initialFilters = useMemo(() => {
+    return {
+      ...filmDefaultFormValues,
+      ...searchParams,
+    };
+  }, [searchParams]);
+
+  const filtersCount = countObjectKeys(searchParams, ['pageIndex']);
+
   return (
     <div className={styles.content}>
       <FiltersSidebar
         isLoading={isInitialDataFetching}
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-        onSubmit={filterFilms}
-        onReset={handleReset}
-        defaultValues={searchParams}
-        config={filtersConfig}
         height="calc(var(--screen-height) - 80px)"
         topPosition="calc(var(--header-height) + 60px)"
-      />
+        filtersCount={filtersCount}
+      >
+        <Filters
+          config={filtersConfig}
+          defaultValues={initialFilters}
+          onSubmit={filterFilms}
+          schema={FiltersSchema}
+          filtersCount={filtersCount}
+          onReset={(reset) => {
+            reset(filmDefaultFormValues);
+            handleReset();
+          }}
+        />
+      </FiltersSidebar>
       <div className={styles.right_column}>
         <AdminFilmsTools />
         <List
