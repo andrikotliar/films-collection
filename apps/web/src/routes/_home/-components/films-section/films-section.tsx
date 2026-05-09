@@ -1,9 +1,8 @@
 import styles from './films-section.module.css';
 import clsx from 'clsx';
-import { AdditionalInfoSection, FilmsGrid } from './components';
+import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import { CameraLoader, getFilmsListQueryOptions, IconLink, PageTitle, Pagination } from '~/shared';
-import { PAGE_LIMITS } from '@films-collection/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { InfoIcon, SettingsIcon } from 'lucide-react';
 
@@ -44,6 +43,7 @@ export const FilmsSection = () => {
           <IconLink icon={<SettingsIcon />} to="/console" />
         </div>
       </div>
+      <CurrentEvents events={data.events} />
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.list} />
       <div className={styles.pagination_wrapper}>
@@ -51,7 +51,7 @@ export const FilmsSection = () => {
           total={data.total}
           onPageChange={handlePageNavigation}
           currentPageIndex={searchParams.pageIndex}
-          perPageCounter={PAGE_LIMITS.filmsList}
+          perPageCounter={data.pageLimit}
           totalLabel="films"
         />
       </div>
