@@ -1,11 +1,5 @@
 import { filmsContract } from '@films-collection/api-client';
-import {
-  NotFoundException,
-  createRouter,
-  getCookie,
-  validateAuth,
-  validateGetSignature,
-} from '~/shared';
+import { NotFoundException, createRouter, validateAuth, validateGetSignature } from '~/shared';
 
 export const filmsRouter = createRouter(filmsContract, {
   getList: {
@@ -36,27 +30,6 @@ export const filmsRouter = createRouter(filmsContract, {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getAdminList(request.query);
-
-      return { data };
-    },
-  },
-
-  getDashboard: {
-    handler: async ({ request, app }) => {
-      const accessToken = getCookie(request, 'ACCESS_TOKEN');
-
-      const data = await app.container.resolve('filmsService').getDashboardData(accessToken);
-
-      return { data };
-    },
-  },
-
-  getAdminIncompleteFilmsList: {
-    preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getIncompleteFilmsList(request.query);
 
       return { data };
     },
@@ -104,6 +77,16 @@ export const filmsRouter = createRouter(filmsContract, {
       }
 
       return { data };
+    },
+  },
+
+  getTrailers: {
+    handler: async ({ request, app }) => {
+      const trailers = await app.container
+        .resolve('filmsService')
+        .getFilmTrailers(request.params.id);
+
+      return { data: { trailers } };
     },
   },
 
@@ -156,17 +139,6 @@ export const filmsRouter = createRouter(filmsContract, {
         .translateDescription(request.body);
 
       return { data: { translatedText } };
-    },
-  },
-
-  generateDescription: {
-    preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const text = await app.container
-        .resolve('filmsService')
-        .generateFilmDescription(request.body.request);
-
-      return { data: { text } };
     },
   },
 

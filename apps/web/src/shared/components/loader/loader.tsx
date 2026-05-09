@@ -1,4 +1,4 @@
-import styles from "./loader.module.css";
+import styles from './loader.module.css';
 import clsx from 'clsx';
 import { LoaderCircle } from 'lucide-react';
 

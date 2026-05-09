@@ -7,7 +7,7 @@ import {
   getMixedId,
   getFilmDraftsQueryOptions,
 } from '~/shared';
-import { ConsoleContentLayout, filmDefaultFormValues } from '~/routes/console/-shared';
+import { filmDefaultFormValues } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
 import type z from 'zod';
 import { useSuspenseQuery } from '@tanstack/react-query';
@@ -29,13 +29,15 @@ export const Route = createFileRoute('/console/films_/$id')({
     await queryClient.ensureQueryData(getFilmDraftsQueryOptions(params.id));
   },
   component: PageContainer,
+  staticData: {
+    title: 'Films',
+    backPath: '/console/films',
+  },
 });
 
 function PageContainer() {
   const { id } = Route.useParams();
   const { data: film } = useSuspenseQuery(getAdminFilmDetailsQueryOptions(getMixedId(id)));
-
-  const pageTitle = isNewItem(id) ? 'Create film' : `Edit film ${film?.title}`;
 
   const defaultValues = useMemo<z.infer<typeof FilmFormSchema>>(() => {
     if (film) {
@@ -49,8 +51,8 @@ function PageContainer() {
   }, [id, film]);
 
   return (
-    <ConsoleContentLayout title={pageTitle} backPath="/console/films">
+    <div>
       <FilmForm values={defaultValues} />
-    </ConsoleContentLayout>
+    </div>
   );
 }

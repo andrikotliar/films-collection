@@ -1,63 +1,41 @@
-import z from 'zod';
+import type z from 'zod';
 import styles from './filters.module.css';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm, FormProvider } from 'react-hook-form';
+import { useForm, FormProvider, type DefaultValues } from 'react-hook-form';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { type FilterItem, Button } from '~/shared';
 import { FilterOptions } from './components';
-import { TitleType, TitleStyle } from '@films-collection/shared';
 
-const FiltersSchema = z.object({
-  genreIds: z.array(z.coerce.number()),
-  countryIds: z.array(z.coerce.number()),
-  studioIds: z.array(z.coerce.number()),
-  type: z.enum({ ...TitleType, all: 'all' }),
-  style: z.enum({ ...TitleStyle, all: 'all' }),
-  startDate: z.string().optional(),
-  endDate: z.string().optional(),
-  collectionId: z.coerce.number().optional(),
-  pageIndex: z.number().optional(),
-});
-
-type FilterValues = z.infer<typeof FiltersSchema>;
-
-export type FiltersProps = {
-  config: FilterItem[];
-  defaultValues?: Partial<FilterValues>;
+export type FiltersProps<
+  TDefaultValues extends Record<string, unknown>,
+  TSchema extends z.ZodType,
+> = {
+  config: FilterItem<TDefaultValues>[];
+  defaultValues: DefaultValues<TDefaultValues>;
+  resetValues: TDefaultValues;
   filtersCount: number;
-  onSubmit: (data: FilterValues) => void;
+  onSubmit: (data: TDefaultValues) => void;
   onReset?: () => void;
-  onHideFilter?: () => void;
+  schema: TSchema;
 };
 
-const defaultValues: FilterValues = {
-  genreIds: [],
-  countryIds: [],
-  studioIds: [],
-  type: 'all',
-  style: 'all',
-  collectionId: -1,
-};
-
-export const Filters = ({
+export const Filters = <TDefaultValues extends Record<string, unknown>, TSchema extends z.ZodType>({
   config,
-  defaultValues: defaultValuesProp = {},
+  defaultValues,
   onSubmit,
   onReset,
   filtersCount,
-  onHideFilter,
-}: FiltersProps) => {
-  const filtersForm = useForm({
-    defaultValues: {
-      ...defaultValues,
-      ...defaultValuesProp,
-    },
-    resolver: zodResolver(FiltersSchema),
+  schema,
+  resetValues,
+}: FiltersProps<TDefaultValues, TSchema>) => {
+  const filtersForm = useForm<TDefaultValues>({
+    defaultValues,
+    resolver: zodResolver(schema as any),
   });
 
   const resetForm = () => {
+    filtersForm.reset(resetValues);
     onReset?.();
-    filtersForm.reset(defaultValues);
   };
 
   return (
@@ -76,13 +54,6 @@ export const Filters = ({
             <Button onClick={resetForm} icon={<RefreshCcwIcon />} variant="secondary">
               Reset
             </Button>
-          )}
-          {onHideFilter && (
-            <div className={styles.hide_filter_wrapper}>
-              <Button onClick={onHideFilter} variant="light" fitWidth>
-                Hide filter
-              </Button>
-            </div>
           )}
         </div>
       </form>

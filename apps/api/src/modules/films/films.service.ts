@@ -10,14 +10,12 @@ import {
   type TranslateDescriptionInput,
   type CreateFilmDraftInput,
   type FilmDraftResponse,
-  type GetIncompleteFilmsQuery,
-  type Enum,
-  type FilmStatus,
-  type IncompleteFilmsListResponse,
-  type GetDashboardDataResponse,
+  type GetAdminListQueryParams,
+  DraftLevel,
+  enumValues,
+  PAGE_LIMITS,
 } from '@films-collection/shared';
-import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList, mapInnerId } from './helpers';
-import type { VerifiedTokenData } from '~/modules/auth';
+import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
 type GenericOption = {
   id: number;
@@ -43,20 +41,49 @@ export class FilmsService {
     >,
   ) {}
 
+  private async getAllFilmsCount() {
+    if (this.filmsCount) {
+      return this.filmsCount;
+    }
+
+    const count = await this.deps.filmsRepository.countPublishedFilms();
+
+    this.filmsCount = count;
+
+    return count;
+  }
+
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
       order: 'desc',
       orderKey: 'releaseDate',
+      draftLevels: [DraftLevel.PUBLISHED, DraftLevel.UPCOMING],
     });
 
     const additionalInfo = await this.populateAdditionalData(queries);
+    const allFilmsCount = await this.getAllFilmsCount();
 
-    return { list: data.list, total: data.total, additionalInfo };
+    const mappedList = data.list.map((film) => ({
+      ...film,
+      upcoming: film.draft,
+      inDays: film.draft && film.releaseDate ? this.getDaysDiffFromToday(film.releaseDate) : null,
+    }));
+
+    const events = await this.deps.collectionEventsService.findTodayEvents();
+
+    return {
+      list: mappedList,
+      total: data.total,
+      additionalInfo,
+      events,
+      pageLimit: PAGE_LIMITS.filmsList,
+      allFilmsCount,
+    };
   }
 
-  async getFilmDetails(id: number, status: Enum<typeof FilmStatus> = 'ADDED') {
-    const film = await this.deps.filmsRepository.findById(id, status);
+  async getFilmDetails(id: number, level: 'admin' | 'public' = 'public') {
+    const film = await this.deps.filmsRepository.findById(id, level);
 
     if (!film) {
       return null;
@@ -83,11 +110,12 @@ export class FilmsService {
     }));
   }
 
-  getAdminList(queries: GetFilmsListQuery) {
+  getAdminList(queries: GetAdminListQueryParams) {
     return this.deps.filmsRepository.findAndCount({
       ...queries,
       orderKey: queries.orderKey ?? 'updatedAt',
       order: queries.order ?? 'desc',
+      draftLevels: queries.draftLevels ?? enumValues(DraftLevel),
     });
   }
 
@@ -104,15 +132,17 @@ export class FilmsService {
   async createFilm(input: CreateFilmInput) {
     const { tempDraftId, ...payload } = input;
 
-    const { filmId, status } = await this.deps.filmsRepository.create(payload);
+    const { filmId } = await this.deps.filmsRepository.create(payload);
+
+    if (this.filmsCount) {
+      this.filmsCount = 0;
+    }
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
-    this.filmsCount = 0;
-
-    return await this.getFilmDetails(filmId, status);
+    return await this.getFilmDetails(filmId, 'admin');
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
@@ -173,25 +203,15 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    const film = await throwIfNotFound(this.deps.filmsRepository.getFilmStatus(id));
-
-    if (film.status !== 'ADDED') {
-      await this.deps.filmsRepository.hardDelete(id);
-
-      return { id };
-    }
-
-    this.filmsCount = 0;
-
     await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
     return { id };
   }
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
-    const { status } = await this.deps.filmsRepository.updateFilm(filmId, input);
+    await this.deps.filmsRepository.updateFilm(filmId, input);
     await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
-    return this.getFilmDetails(filmId, status);
+    return this.getFilmDetails(filmId);
   }
 
   async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
@@ -205,9 +225,11 @@ export class FilmsService {
     return {
       list: mapCompleteDataList(films),
       baseData: {
-        genres: this.listOptionsToDto(this.getValidatedOptions(genres, queries.newestOnly)),
-        countries: this.listOptionsToDto(this.getValidatedOptions(countries, queries.newestOnly)),
-        studios: this.listOptionsToDto(this.getValidatedOptions(studios, queries.newestOnly)),
+        genres: this.listOptionsToDto(this.getValidatedOptions(genres.list, queries.newestOnly)),
+        countries: this.listOptionsToDto(
+          this.getValidatedOptions(countries.list, queries.newestOnly),
+        ),
+        studios: this.listOptionsToDto(this.getValidatedOptions(studios.list, queries.newestOnly)),
         people: this.getValidatedOptions(people, queries.newestOnly).map((person) => ({
           id: person.id,
           name: person.name,
@@ -245,91 +267,8 @@ export class FilmsService {
     return this.deps.filmsRepository.deleteDraft(id);
   }
 
-  async getIncompleteFilmsList(
-    query: GetIncompleteFilmsQuery,
-  ): Promise<IncompleteFilmsListResponse> {
-    const { list, count } = await this.deps.filmsRepository.getIncompleteFilmsByStatus(query);
-
-    const mappedList = list.map((film) => ({
-      ...film,
-      collections: mapInnerId(film.collections, 'collectionId'),
-    }));
-
-    return { list: mappedList, count };
-  }
-
-  async getUpcomingFilms() {
-    const films = await this.deps.filmsRepository.getUpcomingFilms();
-
-    return films.map((film) => ({
-      ...film,
-      inDays: this.getDaysDiffFromToday(film.releaseDate!),
-    }));
-  }
-
-  async getPlannedFilms() {
-    const films = await this.deps.filmsRepository.getPlannedFilms();
-
-    return films.map(({ seriesExtensions, ...film }) => ({
-      ...film,
-      seriesExtension: seriesExtensions[0] ?? null,
-    }));
-  }
-
-  private getIsAuthenticated(token?: string): boolean {
-    if (!token) {
-      return false;
-    }
-
-    try {
-      const data = this.deps.jwtService.verify<VerifiedTokenData>(token);
-      return !!data.id;
-    } catch {
-      return false;
-    }
-  }
-
-  async findMonthAnniversaries(): Promise<GetDashboardDataResponse['monthAnniversaries']> {
-    const data = await this.deps.filmsRepository.findMonthAnniversaries();
-
-    const currentYear = new Date().getFullYear();
-
-    return data.map((film) => {
-      const releaseYear = new Date(film.releaseDate!).getFullYear();
-      return {
-        ...film,
-        releaseDate: film.releaseDate,
-        yearsCount: currentYear - releaseYear,
-      };
-    });
-  }
-
-  async getDashboardData(accessToken?: string): Promise<GetDashboardDataResponse> {
-    const isAuthenticated = this.getIsAuthenticated(accessToken);
-
-    const genresCount = await this.deps.filmsRepository.aggregateFilmGenres();
-    const collectionsCount = await this.deps.filmsRepository.aggregateFilmCollections();
-    const upcomingFilms = await this.getUpcomingFilms();
-    const events = await this.deps.collectionEventsService.findTodayEvents();
-    const latestAddedFilms = await this.deps.filmsRepository.getLatestFilms();
-    const monthAnniversaries = await this.findMonthAnniversaries();
-    const filmsCountData = await this.getFilmsCount();
-
-    const data: GetDashboardDataResponse = {
-      events,
-      upcomingFilms,
-      latestAddedFilms,
-      monthAnniversaries,
-      genresCount: this.sortByCountDesc(genresCount),
-      collectionsCount: this.sortByCountDesc(collectionsCount),
-      filmsCount: filmsCountData.count,
-    };
-
-    if (isAuthenticated) {
-      data.plannedFilms = await this.getPlannedFilms();
-    }
-
-    return data;
+  getFilmTrailers(id: number) {
+    return this.deps.filmsRepository.getTrailersByFilmId(id);
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(
@@ -361,35 +300,6 @@ export class FilmsService {
     return options;
   }
 
-  generateFilmDescription(searchString: string) {
-    return this.deps.aiService.generateFilmDescription(searchString);
-  }
-
-  async getFilmsCount() {
-    if (this.filmsCount) {
-      return { count: this.filmsCount };
-    }
-
-    const count = await this.deps.filmsRepository.countAddedFilms();
-
-    this.filmsCount = count;
-
-    return { count };
-  }
-
-  private getDaysDiffFromToday(dateString: string) {
-    const now = new Date();
-    const target = new Date(dateString);
-
-    now.setHours(0, 0, 0, 0);
-    target.setHours(0, 0, 0, 0);
-
-    const diffMs = target.getTime() - now.getTime();
-    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
-
-    return diffDays;
-  }
-
   private listOptionsToDto<T extends GenericOption>(
     options: T[],
   ): Pick<GenericOption, 'id' | 'title'>[] {
@@ -399,7 +309,17 @@ export class FilmsService {
     }));
   }
 
-  private sortByCountDesc<T extends { [key: string]: any; count: string }>(items: T[]) {
-    return items.toSorted((itemA, itemB) => Number(itemB.count) - Number(itemA.count));
+  private getDaysDiffFromToday(dateString: string) {
+    const now = new Date();
+    const target = new Date(dateString);
+
+    // Reset time to midnight for accurate "day" diff
+    now.setHours(0, 0, 0, 0);
+    target.setHours(0, 0, 0, 0);
+
+    const diffMs = target.getTime() - now.getTime();
+    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
+
+    return diffDays;
   }
 }

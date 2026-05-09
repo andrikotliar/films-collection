@@ -1,43 +1,43 @@
 import type { ListOption } from '@films-collection/shared';
-import type { api } from '~/shared/services';
-import type { QueryParams } from '~/shared/types/extract-params';
 
-type FilterIds = keyof QueryParams<typeof api.films.getList.exec>;
+type OnlyStringKey<T> = Extract<keyof T, string>;
 
-export type CheckboxFilter = {
-  id: FilterIds;
+export type CheckboxFilter<T extends Record<string, any>> = {
+  id: OnlyStringKey<T>;
   type: 'checkmark';
   options: ListOption<string | number>[];
   inputType: 'checkbox' | 'radio';
 };
 
-export type DateFilterInput = {
-  id: string;
+export type DateFilterInput<T extends Record<string, any>> = {
+  id: OnlyStringKey<T>;
   label: string;
 };
 
-export type DateFilter = {
+export type DateFilter<T extends Record<string, any>> = {
   type: 'daterange';
   inputs: {
-    start: DateFilterInput;
-    end: DateFilterInput;
+    start: DateFilterInput<T>;
+    end: DateFilterInput<T>;
   };
 };
 
-export type NestedFiltersOption = {
-  id: FilterIds;
+export type NestedFiltersOption<T extends Record<string, any>> = {
+  id: OnlyStringKey<T>;
   label: string;
-  icon?: React.ReactNode;
 };
 
-export type NestedFilters = {
+export type NestedFilters<T extends Record<string, any>> = {
   id: string;
-  type: 'nested';
-  options: NestedFiltersOption[];
+  type: 'boolean';
+  options: NestedFiltersOption<T>[];
 };
 
-export type FilterTypes = CheckboxFilter | DateFilter | NestedFilters;
+export type FilterTypes<T extends Record<string, any>> =
+  | CheckboxFilter<T>
+  | DateFilter<T>
+  | NestedFilters<T>;
 
-export type FilterItem = {
+export type FilterItem<T extends Record<string, any>> = {
   title: string;
-} & FilterTypes;
+} & FilterTypes<T>;

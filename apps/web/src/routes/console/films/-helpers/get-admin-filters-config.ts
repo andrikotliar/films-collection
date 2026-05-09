@@ -1,0 +1,52 @@
+import { convertEnumValuesToOption, DraftLevel, enumValues } from '@films-collection/shared';
+import z from 'zod';
+import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
+import type { api, ApiResponse, FilterItem } from '~/shared';
+
+const AdminOnlyFiltersSchema = z.object({
+  noDescription: z.boolean().nullable(),
+  draftLevels: z.array(z.enum(DraftLevel)),
+});
+
+export const AdminFiltersSchema = z.object({
+  ...FiltersSchema.shape,
+  ...AdminOnlyFiltersSchema.shape,
+});
+
+type AdminFilterValues = z.infer<typeof AdminFiltersSchema>;
+type AdminOnlyFilterValues = z.infer<typeof AdminOnlyFiltersSchema>;
+
+export const defaultAdminFilters: AdminFilterValues = {
+  ...filterDefaultValues,
+  noDescription: false,
+  draftLevels: [],
+};
+
+export const getAdminFiltersConfig = (
+  initialData: ApiResponse<typeof api.initialData.get.exec>,
+): Array<FilterItem<AdminFilterValues>> => {
+  const baseFilters = getFiltersConfig(initialData);
+
+  const adminFilters: Array<FilterItem<AdminOnlyFilterValues>> = [
+    {
+      id: 'draftLevels',
+      type: 'checkmark',
+      title: 'Draft levels',
+      options: convertEnumValuesToOption(enumValues(DraftLevel)),
+      inputType: 'checkbox',
+    },
+    {
+      id: 'mixed',
+      title: 'Content',
+      type: 'boolean',
+      options: [
+        {
+          id: 'noDescription',
+          label: 'Missing description',
+        },
+      ],
+    },
+  ];
+
+  return [...adminFilters, ...baseFilters];
+};

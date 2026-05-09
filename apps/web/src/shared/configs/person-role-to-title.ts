@@ -1,6 +1,6 @@
-import type { Enum, PersonRole } from '@films-collection/shared';
+import type { TPersonRole } from '@films-collection/shared';
 
-export const personRoleToTitle: Record<Enum<typeof PersonRole>, string> = {
+export const personRoleToTitle: Record<TPersonRole, string> = {
   DIRECTOR: 'Directed by',
   CREATOR: 'Created by',
   WRITER: 'Written by',

@@ -13,7 +13,7 @@ import {
   getMixedId,
   mutateEntity,
 } from '~/shared';
-import { ConsoleContentLayout, getFormTitle } from '~/routes/console/-shared';
+
 import { ALLOWED_HTML_TAGS } from '@films-collection/shared';
 import { PageContentFormSchema } from '~/routes/console/page-content_/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
@@ -42,6 +42,10 @@ export const Route = createFileRoute('/console/page-content_/$id')({
     }
   },
   component: RouteComponent,
+  staticData: {
+    title: 'Page Content',
+    backPath: '/console/page-content',
+  },
 });
 
 function RouteComponent() {
@@ -82,10 +86,7 @@ function RouteComponent() {
   };
 
   return (
-    <ConsoleContentLayout
-      title={getFormTitle({ id: mixedId }, 'Page content')}
-      backPath="/console/page-content"
-    >
+    <div>
       <Panel>
         <Form
           onSubmit={handleSubmit}
@@ -98,6 +99,6 @@ function RouteComponent() {
           <Form.TextInput name="pageKey" label="Page Key" />
         </Form>
       </Panel>
-    </ConsoleContentLayout>
+    </div>
   );
 }

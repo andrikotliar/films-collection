@@ -11,6 +11,23 @@ export const RootMenu = () => {
           <div className={styles.menu}>
             {group.itemIds.map((itemId) => {
               const menuItem = consoleMenuConfig[itemId];
+
+              if (menuItem.type === 'button') {
+                return (
+                  <button
+                    className={styles.menu_item}
+                    style={defineCssProperties({
+                      '--console-link-color': `var(--${menuItem.color})`,
+                    })}
+                    onClick={menuItem.action}
+                    key={itemId}
+                  >
+                    <div className={styles.menu_icon}>{menuItem.icon}</div>
+                    {menuItem.title}
+                  </button>
+                );
+              }
+
               return (
                 <Link
                   key={itemId}

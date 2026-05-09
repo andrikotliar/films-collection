@@ -85,6 +85,41 @@
       "when": 1776522546050,
       "tag": "0012_update_film_status_enum",
       "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1777750807812,
+      "tag": "0013_add_new_film_statuses",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1777753107344,
+      "tag": "0014_chenge_default_status",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1777838172124,
+      "tag": "0015_rename_deleted_at_column",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1777838690159,
+      "tag": "0016_add_draft_and_synopsis",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1777839296929,
+      "tag": "0017_make_draft_not_null",
+      "breakpoints": true
     }
   ]
 }

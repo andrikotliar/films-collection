@@ -1,5 +1,5 @@
-import { getFirstValue, type Deps } from '~/shared';
-import type { CountryInput } from '@films-collection/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared';
+import { PAGE_LIMITS, type CountryInput } from '@films-collection/shared';
 import { countries } from '~/database/schema';
 import { asc, eq } from 'drizzle-orm';
 
@@ -10,7 +10,8 @@ export class CountriesRepository {
     return this.deps.db
       .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
       .from(countries)
-      .orderBy(asc(countries.title));
+      .orderBy(asc(countries.title))
+      .limit(PAGE_LIMITS.default);
   }
 
   create(input: CountryInput) {
@@ -25,5 +26,9 @@ export class CountriesRepository {
     return getFirstValue(
       this.deps.db.update(countries).set(input).where(eq(countries.id, id)).returning(),
     );
+  }
+
+  count() {
+    return getCount(this.deps.db, countries);
   }
 }

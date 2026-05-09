@@ -30,17 +30,8 @@ export class AiService {
 
   public async translateToLangPrompt(text: string, langParams: LangParams): Promise<string> {
     return this.createResponse(
-      `Translate the following ${langParams.from} text to ${langParams.to}: ${text}`,
+      `Translate the following ${langParams.from} text to ${langParams.to}: ${text}. The response should contain only the translated text. Doesn't add any extra words of unnecessary symbols, no matter the text length.`,
     );
-  }
-
-  public async generateFilmDescription(searchString: string) {
-    const text = await this.createResponse(
-      `Write a short description for ${searchString.toLowerCase()}. The text should describe the plot in a way it's clearly understandable what the picture about without abstract and general terms.`,
-      'gpt-4.1-mini',
-    );
-
-    return text;
   }
 
   private getClient() {

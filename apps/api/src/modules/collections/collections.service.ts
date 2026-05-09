@@ -1,6 +1,10 @@
-import { buildListOptions, throwIfNotFound, type Deps } from '~/shared';
+import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared';
 
-import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
+import {
+  PAGE_LIMITS,
+  type CreateCollectionInput,
+  type UpdateCollectionInput,
+} from '@films-collection/shared';
 
 export class CollectionsService {
   constructor(private readonly deps: Deps<'collectionsRepository'>) {}
@@ -16,7 +20,10 @@ export class CollectionsService {
   }
 
   async getGeneralDataList() {
-    return this.deps.collectionsRepository.getAll();
+    const list = await this.deps.collectionsRepository.getAll();
+    const total = await this.deps.collectionsRepository.count();
+
+    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }
 
   createCollection(input: CreateCollectionInput) {

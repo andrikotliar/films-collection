@@ -1,4 +1,5 @@
 import z from 'zod';
+import { getListResponseSchema } from '~/helpers';
 
 export const GetPageContentByPageUrlParamsSchema = z.object({
   pageKey: z.string(),
@@ -27,14 +28,13 @@ export const PageContentResponseSchema = z.object({
   updatedAt: z.string(),
 });
 
-export const PageContentsListResponseSchema = z.object({
-  list: z.array(
+export const PageContentsListResponseSchema = getListResponseSchema(
+  z.array(
     PageContentResponseSchema.omit({ createdAt: true, updatedAt: true }).extend({
       shortContent: z.string(),
     }),
   ),
-  count: z.coerce.number(),
-});
+);
 
 export const PageContentByKeyResponseSchema = PageContentResponseSchema.pick({
   id: true,

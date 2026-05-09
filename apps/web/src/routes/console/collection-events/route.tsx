@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
 import {
   getDateMonthLabel,
   getCollectionEventsQueryOptions,
@@ -9,13 +9,7 @@ import {
   getEmptyFormValues,
 } from '~/shared';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
-import {
-  AddItemButton,
-  ConsoleContentLayout,
-  List,
-  useFormModal,
-  withFormModal,
-} from '~/routes/console/-shared';
+import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 
 const getCollectionEventDefaultValues = () => {
   const defaultDateCode = getDefaultDateCode();
@@ -36,14 +30,15 @@ export const Route = createFileRoute('/console/collection-events')({
   loader: ({ context }) => {
     return context.queryClient.ensureQueryData(getCollectionEventsQueryOptions());
   },
+  staticData: {
+    title: 'Collections Events',
+    backPath: '/console',
+  },
 });
 
-function CollectionEventsContainer() {
-  const { onOpen } = useFormModal<FormModalValues<typeof CollectionEventForm>>();
-
-  const { data, isFetching } = useSuspenseQuery(getCollectionEventsQueryOptions());
-
-  const { mutateAsync: deleteEvent, isPending: isDeleting } = useMutation({
+const getDeleteMutationOptions = () => {
+  return mutationOptions({
+    mutationKey: [api.collectionEvents.delete.staticKey],
     mutationFn: (id: number) => {
       return api.collectionEvents.delete.exec({ params: { id } });
     },
@@ -53,31 +48,31 @@ function CollectionEventsContainer() {
           queryKey: api.collectionEvents.getAll.staticKey,
         },
         { queryKey: api.initialData.get.staticKey },
-        { queryKey: api.films.getDashboard.staticKey },
       ],
     },
   });
+};
+
+function CollectionEventsContainer() {
+  const { onOpen } = useFormModal<FormModalValues<typeof CollectionEventForm>>();
+
+  const { data, isFetching } = useSuspenseQuery(getCollectionEventsQueryOptions());
 
   return (
-    <ConsoleContentLayout title="Collection Events" backPath="/console">
-      <AddItemButton onClick={() => onOpen(getCollectionEventDefaultValues())}>
-        Create event
-      </AddItemButton>
-      <List
-        items={data}
-        onDelete={deleteEvent}
-        onEdit={(values) =>
-          onOpen({
-            ...values,
-            collectionId: values.collectionId,
-            titleFilmId: values.titleFilmId ?? 0,
-            isOneDayEvent: values.startDateCode === values.endDateCode,
-          })
-        }
-        isDeletingInProgress={isDeleting}
-        description={getDateMonthLabel}
-        isFetching={isFetching}
-      />
-    </ConsoleContentLayout>
+    <List
+      data={data}
+      getDeleteMutationOptions={getDeleteMutationOptions}
+      onEdit={(values) =>
+        onOpen({
+          ...values,
+          collectionId: values.collectionId,
+          titleFilmId: values.titleFilmId ?? 0,
+          isOneDayEvent: values.startDateCode === values.endDateCode,
+        })
+      }
+      description={getDateMonthLabel}
+      isFetching={isFetching}
+      onCreate={() => onOpen(getCollectionEventDefaultValues())}
+    />
   );
 }

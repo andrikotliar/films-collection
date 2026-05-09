@@ -4,12 +4,15 @@ import { FormGroup } from '~/shared/components/form/components/form-group/form-g
 import { MIN_DATE } from '~/shared/constants';
 import type { DateFilter } from '~/shared/types';
 
-type FormDateRangeProps = {
-  inputs: DateFilter['inputs'];
+type FormDateRangeProps<T extends Record<string, any>> = {
+  inputs: DateFilter<T>['inputs'];
   title: string;
 };
 
-export const FormDateRange = ({ inputs, title }: FormDateRangeProps) => {
+export const FormDateRange = <T extends Record<string, any>>({
+  inputs,
+  title,
+}: FormDateRangeProps<T>) => {
   const { getValues } = useFormContext();
   const formValues = getValues();
 

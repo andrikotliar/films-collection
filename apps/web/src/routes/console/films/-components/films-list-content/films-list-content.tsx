@@ -1,21 +1,35 @@
-import { PAGE_LIMITS } from '@films-collection/shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
 import { getRouteApi } from '@tanstack/react-router';
-import { List, useDeleteFilm } from '~/routes/console/-shared';
+import { List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components/admin-films-tools/admin-films-tools';
 import {
+  api,
+  countObjectKeys,
+  Filters,
   FiltersSidebar,
   filterValues,
   getFilmsAdminListQueryOptions,
-  getFiltersConfig,
   getInitialDataQueryOptions,
-  Pagination,
   useSidebarVisibility,
 } from '~/shared';
 import styles from './films-list-content.module.css';
 import { useMemo } from 'react';
+import {
+  AdminFiltersSchema,
+  defaultAdminFilters,
+  getAdminFiltersConfig,
+} from '~/routes/console/films/-helpers';
 
 const routeApi = getRouteApi('/console/films');
+
+const getDeleteMutationOptions = () => {
+  return mutationOptions({
+    mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
+    meta: {
+      invalidateQueries: [{ queryKey: api.films.getAdminList.staticKey }],
+    },
+  });
+};
 
 export const FilmsListContent = () => {
   const searchParams = routeApi.useSearch();
@@ -26,8 +40,6 @@ export const FilmsListContent = () => {
   );
 
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
-
-  const { mutateAsync: handleDeleteFilm, isPending } = useDeleteFilm();
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -56,7 +68,7 @@ export const FilmsListContent = () => {
     });
   };
 
-  const filterFilms: React.ComponentProps<typeof FiltersSidebar>['onSubmit'] = (data) => {
+  const filterFilms: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
     const appliedFilters = filterValues(data);
 
     navigate({
@@ -80,8 +92,17 @@ export const FilmsListContent = () => {
   };
 
   const filtersConfig = useMemo(() => {
-    return getFiltersConfig(initialData);
+    return getAdminFiltersConfig(initialData);
   }, [initialData]);
+
+  const initialFilters = useMemo(() => {
+    return {
+      ...defaultAdminFilters,
+      ...searchParams,
+    };
+  }, [searchParams]);
+
+  const filtersCount = countObjectKeys(searchParams, ['pageIndex']);
 
   return (
     <div className={styles.content}>
@@ -89,29 +110,32 @@ export const FilmsListContent = () => {
         isLoading={isInitialDataFetching}
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-        onSubmit={filterFilms}
-        onReset={handleReset}
-        defaultValues={searchParams}
-        config={filtersConfig}
-        height="calc(var(--screen-height) - 190px)"
-        topPosition="calc(var(--header-height) + 60px)"
-      />
+        height="calc(var(--screen-height) - 100px)"
+        topPosition="calc(var(--header-height) + 80px)"
+        filtersCount={filtersCount}
+      >
+        <Filters
+          config={filtersConfig}
+          defaultValues={initialFilters}
+          resetValues={defaultAdminFilters}
+          onSubmit={filterFilms}
+          schema={AdminFiltersSchema}
+          filtersCount={filtersCount}
+          onReset={handleReset}
+        />
+      </FiltersSidebar>
       <div className={styles.right_column}>
         <AdminFilmsTools />
         <List
-          items={data.list}
-          onDelete={handleDeleteFilm}
+          data={data}
+          getDeleteMutationOptions={getDeleteMutationOptions}
           onEdit={handleEditFilm}
-          isDeletingInProgress={isPending}
           onView={handleViewFilm}
           isFetching={isFetching}
-        />
-        <Pagination
-          total={data.total}
-          perPageCounter={PAGE_LIMITS.filmsList}
+          viewActionAvailable={(item) => !item.draft}
+          onNavigateToForm="/console/films/$id"
+          createItemTitle="New film"
           onPageChange={handlePageChange}
-          currentPageIndex={searchParams.pageIndex}
-          totalLabel="films"
         />
       </div>
     </div>

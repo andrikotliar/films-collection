@@ -1,7 +1,11 @@
-import type { CreateCollectionInput, UpdateCollectionInput } from '@films-collection/shared';
+import {
+  PAGE_LIMITS,
+  type CreateCollectionInput,
+  type UpdateCollectionInput,
+} from '@films-collection/shared';
 import { asc, count, eq } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema';
-import { getFirstValue, type Deps } from '~/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared';
 
 export class CollectionsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -18,7 +22,12 @@ export class CollectionsRepository {
         category: collections.category,
       })
       .from(collections)
-      .orderBy(asc(collections.title));
+      .orderBy(asc(collections.title))
+      .limit(PAGE_LIMITS.default);
+  }
+
+  count() {
+    return getCount(this.deps.db, collections);
   }
 
   create(input: CreateCollectionInput) {

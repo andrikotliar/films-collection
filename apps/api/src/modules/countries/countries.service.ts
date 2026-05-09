@@ -1,5 +1,5 @@
-import { buildListOptions, throwIfNotFound, type Deps } from '~/shared';
-import type { CountryInput } from '@films-collection/shared';
+import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared';
+import { PAGE_LIMITS, type CountryInput } from '@films-collection/shared';
 
 export class CountriesService {
   constructor(private readonly deps: Deps<'countriesRepository'>) {}
@@ -10,8 +10,11 @@ export class CountriesService {
     return buildListOptions(countries);
   }
 
-  getBaseDataList() {
-    return this.deps.countriesRepository.getAll();
+  async getBaseDataList() {
+    const list = await this.deps.countriesRepository.getAll();
+    const total = await this.deps.countriesRepository.count();
+
+    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }
 
   createCountry(input: CountryInput) {

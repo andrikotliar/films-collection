@@ -45,7 +45,7 @@ export class PageContentRepository {
 
     return {
       list,
-      count: countResult?.count ?? 0,
+      total: countResult?.count ?? 0,
     };
   }
 

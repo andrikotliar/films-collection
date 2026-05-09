@@ -1,10 +1,10 @@
 import { Form, type FilterItem } from '~/shared';
 
-type FilterOptionsProps = {
-  filter: FilterItem;
+type FilterOptionsProps<T extends Record<string, any>> = {
+  filter: FilterItem<T>;
 };
 
-export const FilterOptions = ({ filter }: FilterOptionsProps) => {
+export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterOptionsProps<T>) => {
   switch (filter.type) {
     case 'checkmark':
       return (
@@ -24,17 +24,11 @@ export const FilterOptions = ({ filter }: FilterOptionsProps) => {
     case 'daterange':
       return <Form.DateRange title={filter.title} inputs={filter.inputs} />;
 
-    case 'nested':
+    case 'boolean':
       return (
         <Form.Group title={filter.title}>
           {filter.options.map((option) => (
-            <Form.Checkbox
-              type="checkbox"
-              label={option.label}
-              name={option.id}
-              key={option.id}
-              rightIcon={option.icon}
-            />
+            <Form.Checkbox type="checkbox" label={option.label} name={option.id} key={option.id} />
           ))}
         </Form.Group>
       );

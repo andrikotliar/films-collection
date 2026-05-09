@@ -1,10 +1,16 @@
 import styles from './console-header.module.css';
-import { LayoutGridIcon, LogOutIcon } from 'lucide-react';
+import { ArrowLeftIcon, LayoutGridIcon } from 'lucide-react';
 import clsx from 'clsx';
-import { api, Button, consoleMenuConfig, defineCssProperties, PopupMenu } from '~/shared';
+import {
+  Button,
+  consoleMenuConfig,
+  defineCssProperties,
+  IconLink,
+  PageTitle,
+  PopupMenu,
+} from '~/shared';
 import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation, useNavigate } from '@tanstack/react-router';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { Link, useLocation, useMatches } from '@tanstack/react-router';
 
 const menuItems = Object.values(consoleMenuConfig);
 
@@ -12,24 +18,22 @@ export const ConsoleHeader = () => {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  const navigate = useNavigate();
-  const queryClient = useQueryClient();
-
-  const { mutate: logout } = useMutation({
-    mutationFn: api.auth.logout.exec,
-    onSuccess: () => {
-      queryClient.removeQueries({ queryKey: [api.auth.getState.staticKey] });
-      queryClient.invalidateQueries({ queryKey: [api.films.getDashboard.staticKey] });
-      navigate({ to: '/login' });
-    },
-  });
+  const matches = useMatches();
 
   useEffect(() => {
     setIsMenuOpen(false);
   }, [location.pathname]);
 
+  const routeMatch = matches.at(-1);
+
   return (
     <div className={styles.console_header}>
+      <div className={styles.title_column}>
+        {routeMatch?.staticData.backPath && (
+          <IconLink icon={<ArrowLeftIcon />} to={routeMatch?.staticData.backPath} />
+        )}
+        <PageTitle>{routeMatch?.staticData.title ?? 'Console'}</PageTitle>
+      </div>
       {location.pathname !== '/console' && (
         <Button
           icon={
@@ -45,10 +49,6 @@ export const ConsoleHeader = () => {
           ref={buttonRef}
         />
       )}
-      <div className={styles.console_header_title}>Films Collection Console</div>
-      <button className={styles.logout_button} onClick={() => logout()}>
-        <LogOutIcon size={18} />
-      </button>
       <PopupMenu
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
@@ -57,19 +57,37 @@ export const ConsoleHeader = () => {
         positionState="fixed"
       >
         <div className={styles.console_menu}>
-          {menuItems.map((item) => (
-            <Link
-              key={item.id}
-              to={item.route}
-              className={styles.console_link}
-              style={defineCssProperties({
-                '--console-float-menu-color': `var(--${item.color})`,
-              })}
-            >
-              {item.icon}
-              {item.title}
-            </Link>
-          ))}
+          {menuItems.map((item) => {
+            if (item.type === 'button') {
+              return (
+                <button
+                  className={styles.console_link}
+                  style={defineCssProperties({
+                    '--console-float-menu-color': `var(--${item.color})`,
+                  })}
+                  onClick={item.action}
+                  key={item.id}
+                >
+                  {item.icon}
+                  {item.title}
+                </button>
+              );
+            }
+
+            return (
+              <Link
+                key={item.id}
+                to={item.route}
+                className={styles.console_link}
+                style={defineCssProperties({
+                  '--console-float-menu-color': `var(--${item.color})`,
+                })}
+              >
+                {item.icon}
+                {item.title}
+              </Link>
+            );
+          })}
         </div>
       </PopupMenu>
     </div>

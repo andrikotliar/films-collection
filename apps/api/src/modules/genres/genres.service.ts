@@ -1,5 +1,5 @@
-import { buildListOptions, throwIfNotFound, type Deps } from '~/shared';
-import type { GenreInput } from '@films-collection/shared';
+import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared';
+import { PAGE_LIMITS, type GenreInput } from '@films-collection/shared';
 
 export class GenresService {
   constructor(private readonly deps: Deps<'genresRepository'>) {}
@@ -10,8 +10,11 @@ export class GenresService {
     return buildListOptions(sortedGenres);
   }
 
-  getBaseListData() {
-    return this.deps.genresRepository.getAll();
+  async getBaseListData() {
+    const list = await this.deps.genresRepository.getAll();
+    const total = await this.deps.genresRepository.count();
+
+    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }
 
   createGenre(input: GenreInput) {

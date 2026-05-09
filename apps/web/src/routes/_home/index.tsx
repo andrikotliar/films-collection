@@ -1,35 +1,31 @@
-import { useSuspenseQuery } from '@tanstack/react-query';
+import type z from 'zod';
+import { Suspense, useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import {
-  CountsBlock,
-  CurrentEvents,
-  FilmsBanner,
-  Layout,
-  PlannedFilmsWidget,
-  PostersBlock,
-  Row,
-  UpcomingFilmsWidget,
-} from '~/routes/_home/-components';
-import { FormModalProvider } from '~/routes/console/-shared';
-import { PartialFilmForm } from '~/routes/console/queue/-components';
-import {
-  getAuthStateQueryOptions,
-  getDashboardQueryOptions,
-  getFormattedDate,
-  getPluralWord,
-  PageTitle,
+  CameraLoader,
+  countObjectKeys,
+  Filters,
+  FiltersSidebar,
+  filterValues,
+  getFilmsListQueryOptions,
+  getInitialDataQueryOptions,
   useDocumentTitle,
+  useSidebarVisibility,
 } from '~/shared';
+import { FilmsSection, RootPageLayout } from './-components';
+import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
 
 export const Route = createFileRoute('/_home/')({
-  loader: async ({ context }) => {
-    await context.queryClient.ensureQueryData(getAuthStateQueryOptions()).catch(() => {
-      return {
-        isAuthenticated: false,
-      };
-    });
-
-    await context.queryClient.ensureQueryData(getDashboardQueryOptions());
+  validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
+    return GetFilmsListQuerySchema.parse(search);
+  },
+  loaderDeps: ({ search }) => ({
+    search,
+  }),
+  loader: async ({ context, deps }) => {
+    await context.queryClient.ensureQueryData(getFilmsListQueryOptions(deps.search));
   },
   component: RootPageContainer,
 });
@@ -37,44 +33,78 @@ export const Route = createFileRoute('/_home/')({
 function RootPageContainer() {
   useDocumentTitle();
 
-  const { data } = useSuspenseQuery(getDashboardQueryOptions());
+  const routeSearch = Route.useSearch();
+  const navigate = Route.useNavigate();
+  const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility();
+
+  const { data: initialData, isFetching: isInitialDataLoading } = useSuspenseQuery(
+    getInitialDataQueryOptions(),
+  );
+
+  const filtersConfig = useMemo(() => {
+    if (!initialData) {
+      return [];
+    }
+
+    return getFiltersConfig(initialData);
+  }, [initialData]);
+
+  const submitFilter: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
+    const filledOptions = filterValues(data);
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        ...filledOptions,
+        pageIndex: 0,
+      }),
+    });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+    hideFilter();
+  };
+
+  const handleReset = () => {
+    navigate({
+      to: '/',
+    });
+    window.scrollTo(0, 0);
+    hideFilter();
+  };
+
+  const initialFilters = useMemo(() => {
+    return {
+      ...filterDefaultValues,
+      ...routeSearch,
+    };
+  }, [routeSearch]);
+
+  const filtersCount = countObjectKeys(routeSearch, ['pageIndex']);
 
   return (
-    <Layout>
-      <PageTitle>Dashboard</PageTitle>
-      <CurrentEvents events={data.events} />
-      <Row>
-        <FilmsBanner count={data.filmsCount} />
-        <FormModalProvider form={PartialFilmForm}>
-          <PlannedFilmsWidget items={data.plannedFilms} />
-        </FormModalProvider>
-        <CountsBlock
-          items={data.genresCount}
-          title="Genres"
-          getSearch={(item) => ({
-            genreIds: [item.id],
-          })}
+    <RootPageLayout>
+      <FiltersSidebar
+        filtersCount={filtersCount}
+        isLoading={isInitialDataLoading}
+        height="calc(var(--screen-height) - 40px)"
+        topPosition="calc(var(--header-height) + 20px)"
+        isOpen={isFilterOpen}
+        onToggle={toggleFilter}
+      >
+        <Filters
+          defaultValues={initialFilters}
+          resetValues={filterDefaultValues}
+          onSubmit={submitFilter}
+          schema={FiltersSchema}
+          onReset={handleReset}
+          filtersCount={filtersCount}
+          config={filtersConfig}
         />
-        <CountsBlock
-          items={data.collectionsCount}
-          title="Collections"
-          getSearch={(item) => ({
-            collectionId: item.id,
-          })}
-        />
-      </Row>
-      <UpcomingFilmsWidget items={data.upcomingFilms} />
-      <PostersBlock items={data.latestAddedFilms} title="New films in the list" />
-      <PostersBlock
-        items={data.monthAnniversaries}
-        title="Month anniversaries"
-        description={(item) =>
-          `Released ${item.yearsCount} ${getPluralWord(
-            'year',
-            item.yearsCount,
-          )} ago at ${getFormattedDate(item.releaseDate, { hideYear: true })}`
-        }
-      />
-    </Layout>
+      </FiltersSidebar>
+      <Suspense fallback={<CameraLoader />}>
+        <FilmsSection />
+      </Suspense>
+    </RootPageLayout>
   );
 }

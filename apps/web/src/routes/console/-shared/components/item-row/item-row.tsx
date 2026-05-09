@@ -1,5 +1,5 @@
 import styles from './item-row.module.css';
-import { Button, PriorityBadge } from '~/shared';
+import { Button } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
 import { EyeIcon, PencilIcon, PlusSquareIcon, Trash2Icon } from 'lucide-react';
 
@@ -20,6 +20,11 @@ export type ItemRowProps<T extends DefaultListItem> = {
   onDelete: ActionHandler<T>;
   onEdit: ActionHandler<T>;
   additionalHandlers?: Array<AdditionalHandler<T>>;
+  viewActionAvailable?: (item: T) => boolean;
+};
+
+const defaultViewActionAvailableFn = <T extends DefaultListItem>(_item: T) => {
+  return true;
 };
 
 export const ItemRow = <T extends DefaultListItem>({
@@ -31,16 +36,14 @@ export const ItemRow = <T extends DefaultListItem>({
   onCreate,
   onView,
   additionalHandlers,
+  viewActionAvailable = defaultViewActionAvailableFn,
 }: ItemRowProps<T>) => {
   return (
     <div className={styles.item_row}>
       <div className={styles.item_row_content}>
-        <div className={styles.left_column}>
-          {data.priority && <PriorityBadge value={data.priority} />}
-          <div>{data[titleKey]}</div>
-        </div>
+        <div>{data[titleKey]}</div>
         <div className={styles.right_column}>
-          {typeof onView === 'function' && (
+          {typeof onView === 'function' && viewActionAvailable(data) && (
             <Button onClick={() => onView(data)} variant="ghost" icon={<EyeIcon />} />
           )}
           {typeof onCreate === 'function' && (

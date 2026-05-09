@@ -13,3 +13,5 @@ export * from './sql-search-query';
 export * from './get-latest-entries-filter';
 export * from './get-device-info';
 export * from './get-request-user';
+export * from './list-response';
+export * from './get-count';

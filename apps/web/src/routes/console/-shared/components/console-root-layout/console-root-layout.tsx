@@ -6,7 +6,9 @@ export const ConsoleRootLayout = () => {
   return (
     <div className={styles.console_layout}>
       <ConsoleHeader />
-      <Outlet />
+      <div className={styles.console_content}>
+        <Outlet />
+      </div>
     </div>
   );
 };

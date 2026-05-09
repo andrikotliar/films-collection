@@ -19,11 +19,8 @@ import {
   CreateFilmDraftInputSchema,
   FilmDraftInputResponse,
   FilmDraftFilmIdParamsSchema,
-  GetIncompleteFilmsQuerySchema,
-  IncompleteFilmsListResponseSchema,
-  GenerateFilmDescriptionInputSchema,
-  GeneratedFilmDescriptionResponseSchema,
-  GetDashboardDataResponseSchema,
+  FilmTrailersResponseSchema,
+  GetAdminListQuerySchema,
 } from '@films-collection/shared';
 import z from 'zod';
 import { defineContracts } from '~/helpers';
@@ -57,23 +54,8 @@ export const filmsContract = defineContracts('films', {
     method: 'GET',
     url: 'admin',
     schema: {
-      querystring: GetFilmsListQuerySchema,
+      querystring: GetAdminListQuerySchema,
       response: FilmsAdminListResponseSchema,
-    },
-  },
-  getDashboard: {
-    method: 'GET',
-    url: 'dashboard',
-    schema: {
-      response: GetDashboardDataResponseSchema,
-    },
-  },
-  getAdminIncompleteFilmsList: {
-    method: 'GET',
-    url: 'admin/incomplete',
-    schema: {
-      querystring: GetIncompleteFilmsQuerySchema,
-      response: IncompleteFilmsListResponseSchema,
     },
   },
   getEditableFilm: {
@@ -108,6 +90,14 @@ export const filmsContract = defineContracts('films', {
       response: FilmResponseSchema,
     },
   },
+  getTrailers: {
+    method: 'GET',
+    url: ':id/trailers',
+    schema: {
+      params: IdParamSchema,
+      response: FilmTrailersResponseSchema,
+    },
+  },
   create: {
     method: 'POST',
     url: 'admin',
@@ -139,14 +129,6 @@ export const filmsContract = defineContracts('films', {
     schema: {
       body: TranslateDescriptionInputSchema,
       response: TranslateDescriptionResponseSchema,
-    },
-  },
-  generateDescription: {
-    method: 'POST',
-    url: 'admin/generate/description',
-    schema: {
-      body: GenerateFilmDescriptionInputSchema,
-      response: GeneratedFilmDescriptionResponseSchema,
     },
   },
   createDraft: {

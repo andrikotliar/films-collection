@@ -1,4 +1,10 @@
-import type { GetFilmsListQuery } from '@films-collection/shared';
+import {
+  DraftLevel,
+  enumValues,
+  type GetAdminListQueryParams,
+  type GetFilmsListQuery,
+  type TDraftLevel,
+} from '@films-collection/shared';
 import {
   and,
   between,
@@ -10,6 +16,8 @@ import {
   inArray,
   isNull,
   lte,
+  or,
+  sql,
   type SQL,
 } from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
@@ -22,7 +30,6 @@ import {
   filmsPeople,
   filmsStudios,
   seriesExtensions,
-  type filmStatus,
 } from '~/database/schema';
 import type { Database } from '~/plugins';
 import { sqlSearchQuery } from '~/shared';
@@ -37,12 +44,34 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   return between(column, value - MONEY_RANGE_MILLIONS, value + MONEY_RANGE_MILLIONS);
 };
 
-export type PlainFilmFilters = GetFilmsListQuery & {
-  status?: (typeof filmStatus.enumValues)[number];
-  startDateAfter?: string;
+type DraftLevel = 'all' | 'upcoming' | 'none';
+
+export type PlainFilmFilters = GetFilmsListQuery & GetAdminListQueryParams;
+
+type SqlOrUndefined = SQL | undefined;
+
+const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
+  if (levels.length === enumValues(DraftLevel).length) {
+    return undefined;
+  }
+
+  const levelsSet = new Set(levels);
+
+  const isDraftIncluded = levelsSet.has(DraftLevel.PENDING);
+
+  const query: SqlOrUndefined[] = [eq(films.draft, isDraftIncluded)];
+
+  if (levelsSet.has(DraftLevel.UPCOMING)) {
+    query.push(gt(films.releaseDate, sql`CURRENT_DATE`));
+  }
+
+  return or(...query);
 };
 
-export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQL[] => {
+export const mapListFilters = (
+  plainFilters: PlainFilmFilters,
+  db: Database,
+): (SQL | undefined)[] => {
   const {
     genreIds,
     collectionId,
@@ -62,18 +91,14 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQ
     budget,
     boxOffice,
     q,
-    status = 'ADDED',
-    startDateAfter,
+    draftLevels = [],
+    noDescription,
   } = plainFilters;
 
-  const filters: SQL[] = [isNull(films.deletedAt), eq(films.status, status)];
+  const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
 
-  if (startDate && !startDateAfter) {
+  if (startDate) {
     filters.push(gte(films.releaseDate, startDate));
-  }
-
-  if (startDateAfter) {
-    filters.push(gt(films.releaseDate, startDateAfter));
   }
 
   if (endDate) {
@@ -222,6 +247,10 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): SQ
 
   if (q) {
     filters.push(ilike(films.title, sqlSearchQuery(q)));
+  }
+
+  if (noDescription) {
+    filters.push(or(isNull(films.overview), sql`LENGTH(overview) <= 7`));
   }
 
   return filters;

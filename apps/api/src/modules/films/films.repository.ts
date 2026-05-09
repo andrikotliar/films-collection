@@ -4,13 +4,8 @@ import {
   PAGE_LIMITS,
   type CreateFilmDraftInput,
   type CreateFilmInput,
-  type Enum,
-  type ExtendedFilmStatus,
-  type FilmStatus,
   type GetCompleteDataListQuery,
   type GetFilmOptionsQuery,
-  type GetFilmsListQuery,
-  type GetIncompleteFilmsQuery,
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
@@ -21,14 +16,12 @@ import {
   count,
   desc,
   eq,
-  exists,
   gt,
   ilike,
   inArray,
-  isNotNull,
   isNull,
-  lte,
   notInArray,
+  or,
   sql,
   type SQL,
 } from 'drizzle-orm';
@@ -70,7 +63,7 @@ type UpdateRelationsParams<T extends PgTableWithColumns<AnyTable>, V extends PgI
 export class FilmsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  async count(filters?: SQL[]) {
+  async count(filters?: (SQL | undefined)[]) {
     if (filters) {
       const result = await getFirstValue(
         this.deps.db
@@ -87,11 +80,11 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
-  async countAddedFilms() {
-    return this.count([eq(films.status, 'ADDED'), isNull(films.deletedAt)]);
+  async countPublishedFilms() {
+    return this.count([eq(films.draft, false), isNull(films.deletedAt)]);
   }
 
-  async findAndCount(queries: GetFilmsListQuery) {
+  async findAndCount(queries: PlainFilmFilters) {
     const filters = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order);
 
@@ -108,7 +101,7 @@ export class FilmsRepository {
     return { list, total };
   }
 
-  findById(id: number, status: Enum<typeof FilmStatus> = 'ADDED') {
+  findById(id: number, level: 'public' | 'admin' = 'public') {
     return this.deps.db.query.films.findFirst({
       columns: {
         id: true,
@@ -212,7 +205,7 @@ export class FilmsRepository {
           orderBy: asc(filmTrailers.order),
         },
       },
-      where: and(eq(films.id, id), isNull(films.deletedAt), eq(films.status, status)),
+      where: and(eq(films.id, id), eq(films.draft, level === 'admin'), isNull(films.deletedAt)),
     });
   }
 
@@ -305,7 +298,7 @@ export class FilmsRepository {
       where: and(
         isNull(films.deletedAt),
         ilike(films.title, sqlSearchQuery(query)),
-        eq(films.status, 'ADDED'),
+        eq(films.draft, false),
       ),
       limit: PAGE_LIMITS.default,
     });
@@ -358,10 +351,6 @@ export class FilmsRepository {
     await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
-  async hardDelete(id: number) {
-    await this.deps.db.delete(films).where(eq(films.id, id));
-  }
-
   create(input: Omit<CreateFilmInput, 'tempDraftId'>) {
     const {
       castAndCrew,
@@ -376,10 +365,7 @@ export class FilmsRepository {
     } = input;
 
     return this.deps.db.transaction(async (tr) => {
-      const [newFilm] = await tr
-        .insert(films)
-        .values(filmInput)
-        .returning({ id: films.id, status: films.status });
+      const [newFilm] = await tr.insert(films).values(filmInput).returning({ id: films.id });
 
       const filmId = newFilm.id;
 
@@ -433,7 +419,7 @@ export class FilmsRepository {
         });
       }
 
-      return { filmId, status: newFilm.status };
+      return { filmId };
     });
   }
 
@@ -453,6 +439,7 @@ export class FilmsRepository {
         overview: true,
         chapterKey: true,
         chapterOrder: true,
+        draft: true,
       },
       with: {
         genres: {
@@ -518,7 +505,7 @@ export class FilmsRepository {
         .update(films)
         .set({ ...filmParams, updatedAt: new Date().toISOString() })
         .where(eq(films.id, filmId))
-        .returning({ id: films.id, status: films.status });
+        .returning({ id: films.id });
 
       if (genres?.length) {
         await this.updateFilmRelations({
@@ -620,7 +607,6 @@ export class FilmsRepository {
 
       return {
         filmId: updatedFilm.id,
-        status: updatedFilm.status,
       };
     });
   }
@@ -637,7 +623,7 @@ export class FilmsRepository {
   }
 
   getCompleteData(queries: GetCompleteDataListQuery) {
-    const filters: SQL[] = [eq(films.status, 'ADDED')];
+    const filters: SQL[] = [eq(films.draft, false)];
 
     if (queries.intervalDays) {
       filters.push(getLatestEntriesFilter(films.updatedAt, queries.intervalDays));
@@ -780,195 +766,44 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
-  private transformIncompleteFilmsStatus(
-    status: Enum<typeof ExtendedFilmStatus>,
-  ): Partial<PlainFilmFilters> {
-    const today = new Date().toISOString();
-
-    if (status === 'UPCOMING') {
-      return {
-        status: 'PLANNED',
-        startDateAfter: today,
-      };
-    }
-
-    return {
-      status,
-      endDate: today,
-    };
-  }
-
-  async getIncompleteFilmsByStatus({ status, ...query }: GetIncompleteFilmsQuery) {
-    const transformedFilters = this.transformIncompleteFilmsStatus(status);
-
-    const filters = mapListFilters({ ...query, ...transformedFilters }, this.deps.db);
-
-    const list = await this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        poster: true,
-        releaseDate: true,
-        type: true,
-        style: true,
-        status: true,
-        overview: true,
-      },
-      where: and(...filters),
-      limit: PAGE_LIMITS.default,
-      offset: getSkipValue('default', query.pageIndex),
-      orderBy: [asc(films.createdAt), desc(films.id)],
-      with: {
-        trailers: {
-          columns: {
-            url: true,
-            order: true,
-          },
-        },
-        seriesExtensions: {
-          columns: {
-            seasonsTotal: true,
-            episodesTotal: true,
-            finishedAt: true,
-          },
-        },
-        collections: {
-          columns: {
-            collectionId: true,
-          },
-        },
-      },
-    });
-
-    const mappedList = list.map((item) => ({
-      ...item,
-      seriesExtension: item.seriesExtensions[0] ?? null,
-    }));
-
-    const count = await this.count(filters);
-
-    return { list: mappedList, count };
-  }
-
-  getFilmStatus(id: number) {
-    return getFirstValue(
-      this.deps.db
-        .select({ id: films.id, status: films.status })
-        .from(films)
-        .where(eq(films.id, id))
-        .limit(1),
-    );
-  }
-
-  getPlannedFilms() {
-    const today = new Date().toISOString();
-
-    return this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        overview: true,
-      },
-      with: {
-        seriesExtensions: true,
-      },
-      where: and(eq(films.status, 'PLANNED'), lte(films.releaseDate, today)),
-      limit: 10,
-      orderBy: desc(films.releaseDate),
-    });
-  }
-
-  async getUpcomingFilms() {
-    const today = new Date().toISOString();
-
-    return this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        releaseDate: true,
-      },
-      where: and(
-        eq(films.status, 'PLANNED'),
-        gt(films.releaseDate, today),
-        isNotNull(films.releaseDate),
-        exists(
-          this.deps.db
-            .select({ id: filmTrailers.id })
-            .from(filmTrailers)
-            .where(eq(filmTrailers.filmId, films.id)),
-        ),
-      ),
-      limit: 10,
-      orderBy: asc(films.releaseDate),
-      with: {
-        trailers: true,
-      },
-    });
-  }
-
-  async getLatestFilms() {
-    return this.deps.db
-      .select({ id: films.id, poster: films.poster, title: films.title })
-      .from(films)
-      .where(
-        and(
-          eq(films.status, 'ADDED'),
-          isNotNull(films.poster),
-          sql`LENGTH(poster) > 0`,
-          isNull(films.deletedAt),
-        ),
-      )
-      .limit(20)
-      .orderBy(desc(films.createdAt));
-  }
-
-  findMonthAnniversaries() {
-    return this.deps.db
-      .select({
-        id: films.id,
-        poster: films.poster,
-        releaseDate: films.releaseDate,
-        title: films.title,
-      })
-      .from(films)
-      .where(
-        and(
-          eq(films.status, 'ADDED'),
-          isNotNull(films.releaseDate),
-          isNull(films.deletedAt),
-          sql`EXTRACT(MONTH FROM release_date) = EXTRACT(MONTH FROM CURRENT_DATE)`,
-        ),
-      )
-      .limit(20)
-      .orderBy(asc(films.releaseDate));
-  }
-
   aggregateFilmGenres() {
     return this.deps.db
       .select({
-        title: genres.title,
         id: genres.id,
-        count: sql<string>`count(*)`,
+        count: count(),
       })
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.filmId))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
-      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
+      .where(this.getPublicFilmsFilter())
       .groupBy(genres.id, genres.title);
   }
 
   aggregateFilmCollections() {
     return this.deps.db
       .select({
-        title: collections.title,
         id: collections.id,
-        count: sql<string>`count(*)`,
+        count: count(),
       })
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
-      .where(and(eq(films.status, 'ADDED'), isNull(films.deletedAt)))
+      .where(this.getPublicFilmsFilter())
       .groupBy(collections.id, collections.title);
+  }
+
+  getTrailersByFilmId(id: number) {
+    return this.deps.db
+      .select({ url: filmTrailers.url })
+      .from(filmTrailers)
+      .where(and(eq(filmTrailers.filmId, id)));
+  }
+
+  private getPublicFilmsFilter() {
+    return and(
+      isNull(films.deletedAt),
+      or(eq(films.draft, false), gt(films.releaseDate, sql`CURRENT_DATE`)),
+    );
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

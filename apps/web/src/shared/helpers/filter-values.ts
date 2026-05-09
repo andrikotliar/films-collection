@@ -15,7 +15,8 @@ export const filterValues = <T extends Record<string, any>>(
     if (
       (Array.isArray(values[key]) && values[key].length) ||
       (typeof values[key] === 'string' && values[key].length) ||
-      typeof values[key] === 'number'
+      typeof values[key] === 'number' ||
+      (typeof values[key] === 'boolean' && values[key])
     ) {
       filteredObject[key] = values[key];
     }

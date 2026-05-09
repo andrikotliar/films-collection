@@ -1,5 +1,5 @@
-import type { Deps } from '~/shared';
-import type { StudioInput } from '@films-collection/shared';
+import { getCount, type Deps } from '~/shared';
+import { PAGE_LIMITS, type StudioInput } from '@films-collection/shared';
 import { studios } from '~/database/schema';
 import { asc, eq } from 'drizzle-orm';
 
@@ -10,7 +10,8 @@ export class StudiosRepository {
     return this.deps.db
       .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
       .from(studios)
-      .orderBy(asc(studios.title));
+      .orderBy(asc(studios.title))
+      .limit(PAGE_LIMITS.default);
   }
 
   async create(input: StudioInput) {
@@ -31,5 +32,9 @@ export class StudiosRepository {
       .returning();
 
     return studio;
+  }
+
+  count() {
+    return getCount(this.deps.db, studios);
   }
 }

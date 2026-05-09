@@ -1,7 +1,16 @@
 import type z from 'zod';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
-import { api, Form, getInitialDataQueryOptions, isNewItem, Panel } from '~/shared';
-import { DescriptionEditor, FilmFormSchema, useManageFilm } from '~/routes/console/-shared';
+import {
+  api,
+  convertImageToWebp,
+  Form,
+  getInitialDataQueryOptions,
+  getObjectsDiff,
+  isNewItem,
+  Panel,
+  titleToFileName,
+} from '~/shared';
+import { DescriptionEditor, FilmFormSchema } from '~/routes/console/-shared';
 import {
   AwardsSelect,
   CastAndCrewSelect,
@@ -30,27 +39,80 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
 
-  const { mutateAsync: handleSubmit, isPending } = useManageFilm({
-    values,
-    tempDraftId: selectedDraft?.id,
+  const { isPending, mutateAsync: handleSubmit } = useMutation({
+    mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
+      let poster = data.poster;
+
+      if (poster instanceof File) {
+        const transformedPoster = await convertImageToWebp(poster);
+
+        const key = `posters/${titleToFileName(data.title)}`;
+        const uploadParams = await api.files.getUploadUrl.exec({
+          input: {
+            key,
+            fileType: 'webp',
+          },
+        });
+
+        await fetch(uploadParams.url, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'webp',
+          },
+          body: transformedPoster,
+        });
+
+        poster = key;
+      }
+
+      const today = Date.now();
+      const releaseDateMs = data.releaseDate ? new Date(data.releaseDate).getTime() : 0;
+
+      const isDraft = releaseDateMs > today || data.draft;
+
+      const input = {
+        ...data,
+        poster,
+        draft: isDraft,
+      };
+
+      if (!isNewItem(values.id)) {
+        const diff = getObjectsDiff(values, input);
+
+        if (!diff) {
+          return;
+        }
+
+        return await api.films.update.exec({
+          params: { id: values.id },
+          input: diff,
+        });
+      }
+
+      return await api.films.create.exec({
+        input: {
+          ...input,
+          tempDraftId: selectedDraft?.id,
+        },
+      });
+    },
     onSuccess: () => {
       navigate({ to: '/console/films' });
     },
-    invalidateQueries: [
-      {
-        queryKey: [api.films.getAdminList.staticKey],
-      },
-      {
-        queryKey: [api.films.getDashboard.staticKey],
-      },
-      ...(!isNewItem(values.id)
-        ? [
-            {
-              queryKey: [api.films.getById.staticKey, values.id],
-            },
-          ]
-        : []),
-    ],
+    meta: {
+      invalidateQueries: [
+        {
+          queryKey: [api.films.getAdminList.staticKey],
+        },
+        ...(!isNewItem(values.id)
+          ? [
+              {
+                queryKey: [api.films.getById.staticKey, values.id],
+              },
+            ]
+          : []),
+      ],
+    },
   });
 
   const { mutateAsync: createNewEntity } = useMutation({
@@ -165,6 +227,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <AwardsSelect awardOptions={initialOptions.options.awards} />
 
         <ChaptersSelect />
+        <Form.Checkbox name="draft" label="Draft" type="checkbox" />
       </Panel>
       <FilmValuesWatcher
         selectedDraft={selectedDraft}

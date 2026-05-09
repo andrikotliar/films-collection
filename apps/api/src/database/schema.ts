@@ -1,4 +1,10 @@
-import type { DeviceInfo } from '@films-collection/shared';
+import {
+  CollectionCategory,
+  type DeviceInfo,
+  PersonRole,
+  TitleStyle,
+  TitleType,
+} from '@films-collection/shared';
 import {
   pgTable,
   index,
@@ -17,23 +23,18 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core';
 
-export const collectionCategory = pgEnum('collection_category', [
-  'GENERAL',
-  'CINEMATIC_UNIVERSE',
-  'TOP',
+export const collectionCategory = pgEnum('collection_category', CollectionCategory);
+export const personRole = pgEnum('person_role', PersonRole);
+export const titleStyle = pgEnum('title_style', TitleStyle);
+export const titleType = pgEnum('title_type', TitleType);
+// TODO: remove after status cleanup
+export const filmStatus = pgEnum('film_status', [
+  'ADDED',
+  'WATCHED',
+  'PLANNED',
+  'PENDING',
+  'UPCOMING',
 ]);
-export const personRole = pgEnum('person_role', [
-  'DIRECTOR',
-  'WRITER',
-  'PRODUCER',
-  'COMPOSER',
-  'CAMERAMAN',
-  'CREATOR',
-  'ACTOR',
-]);
-export const titleStyle = pgEnum('title_style', ['LIVE_ACTION', 'ANIMATION']);
-export const titleType = pgEnum('title_type', ['FILM', 'SERIES']);
-export const filmStatus = pgEnum('film_status', ['ADDED', 'WATCHED', 'PLANNED']);
 
 export const films = pgTable(
   'films',
@@ -55,9 +56,11 @@ export const films = pgTable(
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())
       .notNull(),
-    status: filmStatus().default('PLANNED').notNull(),
-    deletedAt: timestamp({ precision: 3, mode: 'string' }),
+    status: filmStatus().default('PENDING').notNull(),
+    deletedAt: timestamp('deleted_at', { precision: 3, mode: 'string' }),
     overview: text(),
+    synopsis: text(),
+    draft: boolean().notNull().default(false),
   },
   (table) => [
     index('films_title_idx').using('btree', table.title.asc().nullsLast().op('text_ops')),
@@ -598,7 +601,6 @@ export type Film = typeof films.$inferSelect;
 export type Genre = typeof genres.$inferSelect;
 export type Person = typeof people.$inferSelect;
 export type FilmPerson = typeof filmsPeople.$inferSelect;
-export type PersonRole = (typeof personRole.enumValues)[number];
 export type FilmAwardNomination = typeof filmAwardNominations.$inferSelect;
 export type Award = typeof awards.$inferSelect;
 export type Nomination = typeof nominations.$inferSelect;
