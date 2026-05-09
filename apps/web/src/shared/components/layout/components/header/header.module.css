@@ -8,50 +8,15 @@
   height: var(--header-height);
   border-bottom: var(--border-default);
   z-index: 800;
-}
-
-.header_container {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-default);
-  gap: 20px;
-  height: 100%;
+  gap: 60px;
 }
 
 .logo_wrapper {
-  display: flex;
-  text-align: center;
-}
-
-.logo {
-  width: var(--icon-size);
-}
-
-.left_column {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.menu_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: var(--icon-size);
-  height: var(--icon-size);
-  border-radius: var(--rounded-default);
-  border: 1px solid transparent;
-  cursor: pointer;
-}
-
-.menu_button:focus-visible {
-  outline: auto;
-}
-
-.menu_icon {
-  pointer-events: none;
+  font-size: 0;
 }
 
 .search_wrapper {
