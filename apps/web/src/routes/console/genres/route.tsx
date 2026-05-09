@@ -32,12 +32,12 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data: genres, isFetching } = useSuspenseQuery(getGenresListQueryOptions());
+  const { data, isFetching } = useSuspenseQuery(getGenresListQueryOptions());
   const { onOpen } = useFormModal();
 
   return (
     <List
-      data={{ list: genres }}
+      data={data}
       getDeleteMutationOptions={getDeleteMutationOptions}
       onEdit={onOpen}
       onCreate={() => onOpen(genreDefaultValues)}

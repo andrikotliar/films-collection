@@ -176,35 +176,34 @@ export const FilmsListResponseSchema = getListResponseSchema(
       inDays: z.number().nullable(),
     }),
   ),
-  z.object({
-    events: CollectionCurrentEventsListResponseSchema,
-    additionalInfo: z
-      .object({
-        type: z.enum(['crew']),
-        data: z.object({
-          role: z.string(),
-          name: z.string(),
-        }),
-      })
-      .nullable()
-      .or(
-        z
-          .object({
-            type: z.enum(['collection']),
-            data: CollectionResponseSchema,
-          })
-          .nullable(),
-      )
-      .or(
-        z
-          .object({
-            type: z.enum(['award']),
-            data: AwardResponseSchema.omit({ createdAt: true, updatedAt: true }),
-          })
-          .nullable(),
-      ),
-  }),
-);
+).extend({
+  events: CollectionCurrentEventsListResponseSchema,
+  additionalInfo: z
+    .object({
+      type: z.enum(['crew']),
+      data: z.object({
+        role: z.string(),
+        name: z.string(),
+      }),
+    })
+    .nullable()
+    .or(
+      z
+        .object({
+          type: z.enum(['collection']),
+          data: CollectionResponseSchema,
+        })
+        .nullable(),
+    )
+    .or(
+      z
+        .object({
+          type: z.enum(['award']),
+          data: AwardResponseSchema.omit({ createdAt: true, updatedAt: true }),
+        })
+        .nullable(),
+    ),
+});
 
 export const FilmsSearchResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true, genres: true }),

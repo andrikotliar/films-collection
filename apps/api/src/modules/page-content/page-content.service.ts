@@ -57,10 +57,7 @@ export class PageContentService {
     const data = await this.deps.pageContentRepository.getList(queries);
 
     if (!data.list.length) {
-      return {
-        list: [],
-        count: 0,
-      };
+      return listResponse({ list: [], total: 0, pageLimit: PAGE_LIMITS.default });
     }
 
     const mappedList = data.list.map((pageContent) => {

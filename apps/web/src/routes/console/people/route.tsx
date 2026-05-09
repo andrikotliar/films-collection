@@ -41,7 +41,7 @@ function RouteComponent() {
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
 
-  const { data: people, isFetching } = useSuspenseQuery(getPeopleAdminListQueryOptions(search));
+  const { data, isFetching } = useSuspenseQuery(getPeopleAdminListQueryOptions(search));
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
@@ -56,7 +56,7 @@ function RouteComponent() {
     <>
       <Filters />
       <List
-        data={people}
+        data={data}
         titleKey="name"
         getDeleteMutationOptions={getDeleteMutationOptions}
         onEdit={onOpen}

@@ -20,12 +20,14 @@ export const CollectionEventResponseSchema = z.object({
 });
 
 export const CollectionEventsListResponseSchema = getListResponseSchema(
-  z.object({
-    ...CollectionEventResponseSchema.omit({
-      createdAt: true,
-      updatedAt: true,
-    }).shape,
-  }),
+  z.array(
+    z.object({
+      ...CollectionEventResponseSchema.omit({
+        createdAt: true,
+        updatedAt: true,
+      }).shape,
+    }),
+  ),
 );
 
 export const CollectionCurrentEventsListResponseSchema = z.array(

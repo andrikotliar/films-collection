@@ -38,7 +38,7 @@ function PageContainer() {
 
   return (
     <List
-      data={{ list: data }}
+      data={data}
       getDeleteMutationOptions={getDeleteMutationOptions}
       onEdit={(data) => handleOnEdit(data.id)}
       isFetching={isFetching}

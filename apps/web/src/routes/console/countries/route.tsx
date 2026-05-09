@@ -32,12 +32,12 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data: countries, isFetching } = useSuspenseQuery(getCountriesListQueryOptions());
+  const { data, isFetching } = useSuspenseQuery(getCountriesListQueryOptions());
   const { onOpen } = useFormModal();
 
   return (
     <List
-      data={{ list: countries }}
+      data={data}
       getDeleteMutationOptions={getDeleteMutationOptions}
       onEdit={onOpen}
       isFetching={isFetching}

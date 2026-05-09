@@ -60,7 +60,7 @@ function CollectionEventsContainer() {
 
   return (
     <List
-      data={{ list: data }}
+      data={data}
       getDeleteMutationOptions={getDeleteMutationOptions}
       onEdit={(values) =>
         onOpen({

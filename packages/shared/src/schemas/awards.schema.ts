@@ -24,10 +24,12 @@ export const AwardResponseSchema = z.object({
 });
 
 export const AwardsListResponseSchema = getListResponseSchema(
-  AwardResponseSchema.pick({
-    id: true,
-    title: true,
-  }),
+  z.array(
+    AwardResponseSchema.pick({
+      id: true,
+      title: true,
+    }),
+  ),
 );
 
 export const AwardWithNominationsResponseSchema = z
