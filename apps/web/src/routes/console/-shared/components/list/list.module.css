@@ -32,6 +32,14 @@
 }
 
 .placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-gray-dark);
   font-size: 14px;
+  padding: 50px;
+}
+
+.pagination_wrapper {
+  margin-top: 20px;
 }

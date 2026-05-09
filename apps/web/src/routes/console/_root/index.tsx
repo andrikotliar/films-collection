@@ -14,9 +14,5 @@ export const Route = createFileRoute('/console/_root/')({
 });
 
 function RouteComponent() {
-  return (
-    <div>
-      <RootMenu />
-    </div>
-  );
+  return <RootMenu />;
 }

@@ -63,11 +63,6 @@ export const List = <T extends DefaultListItem>({
       </div>
     );
   }
-
-  if (data.list.length === 0) {
-    return <div className={clsx(styles.placeholder, styles.list_wrapper)}>No items found</div>;
-  }
-
   const shouldShowHeader = !!onNavigateToForm || !!onCreate;
 
   return (
@@ -93,6 +88,9 @@ export const List = <T extends DefaultListItem>({
         </div>
       )}
       <Panel hasPaddings={false}>
+        {data.list.length === 0 && (
+          <div className={clsx(styles.placeholder, styles.list_wrapper)}>No items found</div>
+        )}
         {data.list.map((item) => (
           <ItemRow key={item.id} data={item} onDelete={setItemToDelete} {...props} />
         ))}
@@ -106,12 +104,14 @@ export const List = <T extends DefaultListItem>({
         />
       </Panel>
       {typeof onPageChange === 'function' && (
-        <Pagination
-          total={data.total ?? 0}
-          perPageCounter={data.pageLimit ?? PAGE_LIMITS.default}
-          onPageChange={onPageChange}
-          currentPageIndex={location.search.pageIndex ?? 0}
-        />
+        <div className={styles.pagination_wrapper}>
+          <Pagination
+            total={data.total ?? 0}
+            perPageCounter={data.pageLimit ?? PAGE_LIMITS.default}
+            onPageChange={onPageChange}
+            currentPageIndex={location.search.pageIndex ?? 0}
+          />
+        </div>
       )}
     </div>
   );
