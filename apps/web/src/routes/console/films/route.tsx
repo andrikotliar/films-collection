@@ -5,7 +5,7 @@ import {
   useScrollToTop,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
-import { ConsoleContentLayout } from '~/routes/console/-shared';
+
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import { FilmsListContent } from '~/routes/console/films/-components';
 
@@ -21,15 +21,15 @@ export const Route = createFileRoute('/console/films')({
     await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
   },
   component: PageContainer,
+  staticData: {
+    title: 'Films',
+    backPath: '/console',
+  },
 });
 
 function PageContainer() {
   useDocumentTitle('Admin list');
   useScrollToTop([]);
 
-  return (
-    <ConsoleContentLayout title="Films" backPath="/console" isFullWidth>
-      <FilmsListContent />
-    </ConsoleContentLayout>
-  );
+  return <FilmsListContent />;
 }

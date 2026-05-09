@@ -1,7 +1,6 @@
-import { PAGE_LIMITS } from '@films-collection/shared';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
 import { getRouteApi } from '@tanstack/react-router';
-import { filmDefaultFormValues, List } from '~/routes/console/-shared';
+import { List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components/admin-films-tools/admin-films-tools';
 import {
   api,
@@ -11,14 +10,22 @@ import {
   filterValues,
   getFilmsAdminListQueryOptions,
   getInitialDataQueryOptions,
-  Pagination,
   useSidebarVisibility,
 } from '~/shared';
 import styles from './films-list-content.module.css';
 import { useMemo } from 'react';
-import { FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
+import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
 
 const routeApi = getRouteApi('/console/films');
+
+const getDeleteMutationOptions = () => {
+  return mutationOptions({
+    mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
+    meta: {
+      invalidateQueries: [{ queryKey: api.films.getAdminList.staticKey }],
+    },
+  });
+};
 
 export const FilmsListContent = () => {
   const searchParams = routeApi.useSearch();
@@ -29,13 +36,6 @@ export const FilmsListContent = () => {
   );
 
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
-
-  const { mutateAsync: handleDeleteFilm, isPending } = useMutation({
-    mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
-    meta: {
-      invalidateQueries: [{ queryKey: api.films.getAdminList.staticKey }],
-    },
-  });
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -93,7 +93,7 @@ export const FilmsListContent = () => {
 
   const initialFilters = useMemo(() => {
     return {
-      ...filmDefaultFormValues,
+      ...filterDefaultValues,
       ...searchParams,
     };
   }, [searchParams]);
@@ -106,39 +106,32 @@ export const FilmsListContent = () => {
         isLoading={isInitialDataFetching}
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-        height="calc(var(--screen-height) - 80px)"
-        topPosition="calc(var(--header-height) + 60px)"
+        height="calc(var(--screen-height) - 100px)"
+        topPosition="calc(var(--header-height) + 80px)"
         filtersCount={filtersCount}
       >
         <Filters
           config={filtersConfig}
           defaultValues={initialFilters}
+          resetValues={filterDefaultValues}
           onSubmit={filterFilms}
           schema={FiltersSchema}
           filtersCount={filtersCount}
-          onReset={(reset) => {
-            reset(filmDefaultFormValues);
-            handleReset();
-          }}
+          onReset={handleReset}
         />
       </FiltersSidebar>
       <div className={styles.right_column}>
         <AdminFilmsTools />
         <List
-          items={data.list}
-          onDelete={handleDeleteFilm}
+          data={data}
+          getDeleteMutationOptions={getDeleteMutationOptions}
           onEdit={handleEditFilm}
-          isDeletingInProgress={isPending}
           onView={handleViewFilm}
           isFetching={isFetching}
           viewActionAvailable={(item) => !item.draft}
-        />
-        <Pagination
-          total={data.total}
-          perPageCounter={PAGE_LIMITS.filmsList}
+          onNavigateToForm="/console/films/$id"
+          createItemTitle="New film"
           onPageChange={handlePageChange}
-          currentPageIndex={searchParams.pageIndex}
-          totalLabel="films"
         />
       </div>
     </div>

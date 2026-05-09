@@ -1,9 +1,20 @@
 import type { FileRoutesByTo } from '~/routeTree.gen';
 
-export type MenuConfigItem = {
+type BaseConfig = {
   id: string;
-  route: keyof FileRoutesByTo;
   title: string;
   icon: React.ReactNode;
   color?: string;
 };
+
+type LinkConfig = BaseConfig & {
+  route: keyof FileRoutesByTo;
+  type: 'link';
+};
+
+type ButtonConfig = BaseConfig & {
+  action: VoidFunction;
+  type: 'button';
+};
+
+export type MenuConfigItem = LinkConfig | ButtonConfig;

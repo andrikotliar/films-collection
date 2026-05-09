@@ -1,9 +1,8 @@
 import { type SortingParams, SortingPopup, TextInput, useDebouncedSearch } from '~/shared';
 import styles from './admin-films-tools.module.css';
 import { getRouteApi } from '@tanstack/react-router';
-import { NEW_ITEM_ID, type ListOption } from '@films-collection/shared';
+import { type ListOption } from '@films-collection/shared';
 import { SearchIcon } from 'lucide-react';
-import { AddItemLink } from '~/routes/console/-shared';
 
 const sortingFields: ListOption<string>[] = [
   {
@@ -47,9 +46,6 @@ export const AdminFilmsTools = () => {
 
   return (
     <div className={styles.wrapper}>
-      <AddItemLink to="/console/films/$id" params={{ id: NEW_ITEM_ID }}>
-        Add new film
-      </AddItemLink>
       <TextInput
         placeholder="Search film"
         className={styles.search_input}

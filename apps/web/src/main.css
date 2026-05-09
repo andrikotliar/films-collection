@@ -27,6 +27,7 @@
   --color-gray-light: hsl(0, 0%, 95%);
   --color-gray-extra-light: hsl(0, 0%, 97%);
   --color-gray-invisible: hsl(0, 0%, 99%);
+  --color-gray-light-dark: hsl(0, 0%, 92%);
   --color-gray-dark: hsl(0, 0%, 50%);
   --color-gray-extra-dark: hsl(0, 0%, 20%);
 
@@ -48,6 +49,7 @@
   --padding-default: 20px;
   --header-height: 60px;
   --screen-height: calc(100vh - var(--header-height));
+  --max-layout-width: 2000px;
 
   --transition-timing: 300ms;
 
