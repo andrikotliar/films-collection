@@ -24,6 +24,8 @@ type GenericOption = {
 };
 
 export class FilmsService {
+  private filmsCount = 0;
+
   constructor(
     private readonly deps: Deps<
       | 'filmsRepository'
@@ -39,6 +41,18 @@ export class FilmsService {
     >,
   ) {}
 
+  private async getAllFilmsCount() {
+    if (this.filmsCount) {
+      return this.filmsCount;
+    }
+
+    const count = await this.deps.filmsRepository.countPublishedFilms();
+
+    this.filmsCount = count;
+
+    return count;
+  }
+
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
@@ -48,6 +62,7 @@ export class FilmsService {
     });
 
     const additionalInfo = await this.populateAdditionalData(queries);
+    const allFilmsCount = await this.getAllFilmsCount();
 
     const mappedList = data.list.map((film) => ({
       ...film,
@@ -63,6 +78,7 @@ export class FilmsService {
       additionalInfo,
       events,
       pageLimit: PAGE_LIMITS.filmsList,
+      allFilmsCount,
     };
   }
 
@@ -117,6 +133,10 @@ export class FilmsService {
     const { tempDraftId, ...payload } = input;
 
     const { filmId } = await this.deps.filmsRepository.create(payload);
+
+    if (this.filmsCount) {
+      this.filmsCount = 0;
+    }
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);

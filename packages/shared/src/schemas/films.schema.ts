@@ -178,6 +178,7 @@ export const FilmsListResponseSchema = getListResponseSchema(
   ),
 ).extend({
   events: CollectionCurrentEventsListResponseSchema,
+  allFilmsCount: z.number(),
   additionalInfo: z
     .object({
       type: z.enum(['crew']),

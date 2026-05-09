@@ -80,6 +80,10 @@ export class FilmsRepository {
     return result?.count ?? 0;
   }
 
+  async countPublishedFilms() {
+    return this.count([eq(films.draft, false), isNull(films.deletedAt)]);
+  }
+
   async findAndCount(queries: PlainFilmFilters) {
     const filters = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order);
