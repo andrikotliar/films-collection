@@ -1,8 +1,13 @@
-import type { CreateAwardInput, NominationInput, UpdateAwardInput } from '@films-collection/shared';
+import {
+  PAGE_LIMITS,
+  type CreateAwardInput,
+  type NominationInput,
+  type UpdateAwardInput,
+} from '@films-collection/shared';
 import { asc, eq, inArray } from 'drizzle-orm';
 import { awards, nominations, type Award } from '~/database/schema';
 import type { UpdateAwardParams } from '~/modules/awards/types/update-award-params';
-import { getFirstValue, type Deps } from '~/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared';
 
 export class AwardsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -40,7 +45,12 @@ export class AwardsRepository {
     return this.deps.db
       .select({ id: awards.id, title: awards.title })
       .from(awards)
-      .orderBy(asc(awards.title));
+      .orderBy(asc(awards.title))
+      .limit(PAGE_LIMITS.default);
+  }
+
+  count() {
+    return getCount(this.deps.db, awards);
   }
 
   getListOptions() {

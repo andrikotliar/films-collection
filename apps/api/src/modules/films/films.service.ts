@@ -13,6 +13,7 @@ import {
   type GetAdminListQueryParams,
   DraftLevel,
   enumValues,
+  PAGE_LIMITS,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
 
@@ -54,7 +55,15 @@ export class FilmsService {
       inDays: film.draft && film.releaseDate ? this.getDaysDiffFromToday(film.releaseDate) : null,
     }));
 
-    return { list: mappedList, total: data.total, additionalInfo };
+    const events = await this.deps.collectionEventsService.findTodayEvents();
+
+    return {
+      list: mappedList,
+      total: data.total,
+      additionalInfo,
+      events,
+      pageLimit: PAGE_LIMITS.filmsList,
+    };
   }
 
   async getFilmDetails(id: number, level: 'admin' | 'public' = 'public') {
@@ -196,9 +205,11 @@ export class FilmsService {
     return {
       list: mapCompleteDataList(films),
       baseData: {
-        genres: this.listOptionsToDto(this.getValidatedOptions(genres, queries.newestOnly)),
-        countries: this.listOptionsToDto(this.getValidatedOptions(countries, queries.newestOnly)),
-        studios: this.listOptionsToDto(this.getValidatedOptions(studios, queries.newestOnly)),
+        genres: this.listOptionsToDto(this.getValidatedOptions(genres.list, queries.newestOnly)),
+        countries: this.listOptionsToDto(
+          this.getValidatedOptions(countries.list, queries.newestOnly),
+        ),
+        studios: this.listOptionsToDto(this.getValidatedOptions(studios.list, queries.newestOnly)),
         people: this.getValidatedOptions(people, queries.newestOnly).map((person) => ({
           id: person.id,
           name: person.name,

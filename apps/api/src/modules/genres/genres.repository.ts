@@ -1,5 +1,5 @@
-import { getFirstValue, type Deps } from '~/shared';
-import type { GenreInput } from '@films-collection/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared';
+import { PAGE_LIMITS, type GenreInput } from '@films-collection/shared';
 import { genres } from '~/database/schema';
 import { asc, eq } from 'drizzle-orm';
 
@@ -14,7 +14,8 @@ export class GenresRepository {
         updatedAt: genres.updatedAt,
       })
       .from(genres)
-      .orderBy(asc(genres.title));
+      .orderBy(asc(genres.title))
+      .limit(PAGE_LIMITS.default);
   }
 
   create(input: GenreInput) {
@@ -29,5 +30,9 @@ export class GenresRepository {
     return getFirstValue(
       this.deps.db.update(genres).set(input).where(eq(genres.id, id)).returning(),
     );
+  }
+
+  count() {
+    return getCount(this.deps.db, genres);
   }
 }

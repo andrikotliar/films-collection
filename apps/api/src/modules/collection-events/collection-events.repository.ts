@@ -1,7 +1,8 @@
-import { getFirstValue, type Deps } from '~/shared';
-import type {
-  CreateCollectionEventInput,
-  UpdateCollectionEventInput,
+import { getCount, getFirstValue, type Deps } from '~/shared';
+import {
+  PAGE_LIMITS,
+  type CreateCollectionEventInput,
+  type UpdateCollectionEventInput,
 } from '@films-collection/shared';
 import { collectionEvents, films } from '~/database/schema';
 import { and, asc, between, eq, gt, gte, lte, or, sql } from 'drizzle-orm';
@@ -56,7 +57,12 @@ export class CollectionEventsRepository {
         collectionId: collectionEvents.collectionId,
       })
       .from(collectionEvents)
-      .orderBy(asc(collectionEvents.startDateCode));
+      .orderBy(asc(collectionEvents.startDateCode))
+      .limit(PAGE_LIMITS.default);
+  }
+
+  count() {
+    return getCount(this.deps.db, collectionEvents);
   }
 
   createEvent(data: CreateCollectionEventInput) {

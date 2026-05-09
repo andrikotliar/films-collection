@@ -1,5 +1,6 @@
-import { throwIfNotFound, type Deps } from '~/shared';
+import { listResponse, throwIfNotFound, type Deps } from '~/shared';
 import {
+  PAGE_LIMITS,
   type CreatePersonInput,
   type GetPeopleListQuery,
   type ListOption,
@@ -14,7 +15,7 @@ export class PeopleService {
     const list = await this.deps.peopleRepository.getList(queries);
     const total = await this.deps.peopleRepository.count(queries);
 
-    return { list, total };
+    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }
 
   getPersonById(personId: number) {

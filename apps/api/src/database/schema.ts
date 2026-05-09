@@ -1,7 +1,6 @@
 import {
   CollectionCategory,
   type DeviceInfo,
-  enumValues,
   PersonRole,
   TitleStyle,
   TitleType,
@@ -24,13 +23,10 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core';
 
-export const collectionCategory = pgEnum(
-  'collection_category',
-  enumValues(CollectionCategory) as [string],
-);
-export const personRole = pgEnum('person_role', enumValues(PersonRole) as [string]);
-export const titleStyle = pgEnum('title_style', enumValues(TitleStyle) as [string]);
-export const titleType = pgEnum('title_type', enumValues(TitleType) as [string]);
+export const collectionCategory = pgEnum('collection_category', CollectionCategory);
+export const personRole = pgEnum('person_role', PersonRole);
+export const titleStyle = pgEnum('title_style', TitleStyle);
+export const titleType = pgEnum('title_type', TitleType);
 // TODO: remove after status cleanup
 export const filmStatus = pgEnum('film_status', [
   'ADDED',

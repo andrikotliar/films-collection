@@ -1,11 +1,12 @@
-import type {
-  CreateCollectionEventInput,
-  UpdateCollectionEventInput,
+import {
+  PAGE_LIMITS,
+  type CreateCollectionEventInput,
+  type UpdateCollectionEventInput,
 } from '@films-collection/shared';
-import type { Deps } from '~/shared';
+import { listResponse, type Deps } from '~/shared';
 
 export class CollectionEventsService {
-  constructor(private readonly deps: Deps<'collectionEventsRepository' | 'collectionsService'>) {}
+  constructor(private readonly deps: Deps<'collectionEventsRepository'>) {}
 
   async findTodayEvents() {
     const currentDate = new Date();
@@ -40,17 +41,9 @@ export class CollectionEventsService {
   }
 
   async getAllEvents() {
-    const events = await this.deps.collectionEventsRepository.getAllEvents();
+    const list = await this.deps.collectionEventsRepository.getAllEvents();
+    const total = await this.deps.collectionEventsRepository.count();
 
-    const eventsWithCount = events.map(async (event) => {
-      const count = await this.deps.collectionsService.countFilmsByCollection(event.collectionId);
-
-      return {
-        ...event,
-        filmsCount: count,
-      };
-    });
-
-    return await Promise.all(eventsWithCount);
+    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }
 }

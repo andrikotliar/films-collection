@@ -1,7 +1,8 @@
 import sanitize from 'sanitize-html';
-import { throwIfNotFound, type Deps } from '~/shared';
+import { listResponse, throwIfNotFound, type Deps } from '~/shared';
 import {
   ALLOWED_HTML_TAGS,
+  PAGE_LIMITS,
   type CreatePageContentInput,
   type GetPageContentListQueries,
   type UpdatePageContentInput,
@@ -76,10 +77,7 @@ export class PageContentService {
       };
     });
 
-    return {
-      list: mappedList,
-      count: data.count,
-    };
+    return listResponse({ list: mappedList, total: data.total, pageLimit: PAGE_LIMITS.default });
   }
 
   async deletePageContent(id: number) {
