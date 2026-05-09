@@ -6,12 +6,12 @@ import {
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 
-import { GetFilmsListQuerySchema } from '@films-collection/shared';
+import { GetAdminListQuerySchema } from '@films-collection/shared';
 import { FilmsListContent } from '~/routes/console/films/-components';
 
 export const Route = createFileRoute('/console/films')({
   validateSearch: (search) => {
-    return GetFilmsListQuerySchema.parse(search);
+    return GetAdminListQuerySchema.parse(search);
   },
   loaderDeps: ({ search }) => ({
     search,

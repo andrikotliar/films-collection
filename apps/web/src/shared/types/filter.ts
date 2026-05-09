@@ -25,12 +25,11 @@ export type DateFilter<T extends Record<string, any>> = {
 export type NestedFiltersOption<T extends Record<string, any>> = {
   id: OnlyStringKey<T>;
   label: string;
-  icon?: React.ReactNode;
 };
 
 export type NestedFilters<T extends Record<string, any>> = {
   id: string;
-  type: 'nested';
+  type: 'boolean';
   options: NestedFiltersOption<T>[];
 };
 

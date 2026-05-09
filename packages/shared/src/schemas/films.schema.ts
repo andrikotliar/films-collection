@@ -89,7 +89,8 @@ export const GetFilmsListQuerySchema = z.object({
 });
 
 export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
-  draftLevels: z.array(z.enum(DraftLevel)).optional(),
+  draftLevels: getArrayFromQuery(z.enum(DraftLevel)).optional(),
+  noDescription: getBoolFromQuery,
 });
 
 export const SearchFilmsQuerySchema = z.object({

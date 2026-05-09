@@ -14,7 +14,11 @@ import {
 } from '~/shared';
 import styles from './films-list-content.module.css';
 import { useMemo } from 'react';
-import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
+import {
+  AdminFiltersSchema,
+  defaultAdminFilters,
+  getAdminFiltersConfig,
+} from '~/routes/console/films/-helpers';
 
 const routeApi = getRouteApi('/console/films');
 
@@ -88,12 +92,12 @@ export const FilmsListContent = () => {
   };
 
   const filtersConfig = useMemo(() => {
-    return getFiltersConfig(initialData);
+    return getAdminFiltersConfig(initialData);
   }, [initialData]);
 
   const initialFilters = useMemo(() => {
     return {
-      ...filterDefaultValues,
+      ...defaultAdminFilters,
       ...searchParams,
     };
   }, [searchParams]);
@@ -113,9 +117,9 @@ export const FilmsListContent = () => {
         <Filters
           config={filtersConfig}
           defaultValues={initialFilters}
-          resetValues={filterDefaultValues}
+          resetValues={defaultAdminFilters}
           onSubmit={filterFilms}
-          schema={FiltersSchema}
+          schema={AdminFiltersSchema}
           filtersCount={filtersCount}
           onReset={handleReset}
         />

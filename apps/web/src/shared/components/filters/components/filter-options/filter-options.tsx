@@ -24,17 +24,11 @@ export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterO
     case 'daterange':
       return <Form.DateRange title={filter.title} inputs={filter.inputs} />;
 
-    case 'nested':
+    case 'boolean':
       return (
         <Form.Group title={filter.title}>
           {filter.options.map((option) => (
-            <Form.Checkbox
-              type="checkbox"
-              label={option.label}
-              name={option.id}
-              key={option.id}
-              rightIcon={option.icon}
-            />
+            <Form.Checkbox type="checkbox" label={option.label} name={option.id} key={option.id} />
           ))}
         </Form.Group>
       );

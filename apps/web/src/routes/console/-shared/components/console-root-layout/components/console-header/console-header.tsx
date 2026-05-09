@@ -66,6 +66,7 @@ export const ConsoleHeader = () => {
                     '--console-float-menu-color': `var(--${item.color})`,
                   })}
                   onClick={item.action}
+                  key={item.id}
                 >
                   {item.icon}
                   {item.title}

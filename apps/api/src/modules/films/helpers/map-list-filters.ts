@@ -92,6 +92,7 @@ export const mapListFilters = (
     boxOffice,
     q,
     draftLevels = [],
+    noDescription,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
@@ -246,6 +247,10 @@ export const mapListFilters = (
 
   if (q) {
     filters.push(ilike(films.title, sqlSearchQuery(q)));
+  }
+
+  if (noDescription) {
+    filters.push(or(isNull(films.overview), sql`LENGTH(overview) <= 7`));
   }
 
   return filters;
