@@ -1,0 +1,101 @@
+{
+  "id": 366,
+  "title": "Obi-Wan Kenobi",
+  "releaseDate": "2022-05-27",
+  "type": "SERIES",
+  "duration": 45,
+  "budget": 0,
+  "boxOffice": 0,
+  "overview": null,
+  "chapterKey": "star-wars",
+  "chapterOrder": 4.25,
+  "poster": "posters/obiwan_kenobi",
+  "genres": [
+    {
+      "title": "Space Opera",
+      "id": 16
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/3Yh_6_zItPU?si=cHmYEgHsifMIwjW5",
+      "order": 1,
+      "id": 326
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Streaming Limited Event Series",
+          "id": 267
+        },
+        {
+          "title": "Best Supporting Actress in a Streaming Series",
+          "id": 268
+        },
+        {
+          "title": "Best Guest Performance in a Streaming Series",
+          "id": 269
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 363,
+      "name": "Ewan McGregor",
+      "role": "ACTOR",
+      "details": "Obi-Wan Kenobi"
+    },
+    {
+      "id": 857,
+      "name": "Moses Ingram",
+      "role": "ACTOR",
+      "details": "Inquisitor Reva"
+    },
+    {
+      "id": 2689,
+      "name": "Vivien Lyra Blair",
+      "role": "ACTOR",
+      "details": "Princess Leia Organa"
+    },
+    {
+      "id": 436,
+      "name": "Hayden Christensen",
+      "role": "ACTOR",
+      "details": "Darth Vader"
+    },
+    {
+      "id": 2690,
+      "name": "Joby Harold",
+      "role": "CREATOR",
+      "details": null
+    }
+  ],
+  "seriesExtension": {
+    "id": 68,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "finishedAt": null
+  }
+}
