@@ -36,6 +36,7 @@ export const RootMenu = () => {
                   style={defineCssProperties({
                     '--console-link-color': `var(--${menuItem.color})`,
                   })}
+                  search={'search' in menuItem ? menuItem.search : undefined}
                 >
                   <div className={styles.menu_icon}>{menuItem.icon}</div>
                   {menuItem.title}

@@ -16,6 +16,7 @@ import {
   UserIcon,
   VideotapeIcon,
 } from 'lucide-react';
+import { DraftLevel } from '@films-collection/shared';
 
 export const consoleMenuConfig = {
   people: {
@@ -69,6 +70,9 @@ export const consoleMenuConfig = {
   pendingFilms: {
     id: 'pendingFilms',
     route: '/console/films',
+    search: {
+      draftLevels: [DraftLevel.PENDING],
+    },
     title: 'Pending Films',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
@@ -78,6 +82,9 @@ export const consoleMenuConfig = {
     id: 'upcomingFilms',
     route: '/console/films',
     title: 'Upcoming Films',
+    search: {
+      draftLevels: [DraftLevel.UPCOMING],
+    },
     icon: <ClockIcon />,
     color: 'color-brown-light',
     type: 'link',
