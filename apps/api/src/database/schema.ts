@@ -49,7 +49,6 @@ export const films = pgTable(
       .$onUpdate(() => new Date().toISOString())
       .notNull(),
     deletedAt: timestamp('deleted_at', { precision: 3, mode: 'string' }),
-    overview: text(),
     synopsis: text(),
     draft: boolean().notNull().default(false),
   },
