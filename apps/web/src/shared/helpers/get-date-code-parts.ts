@@ -1,6 +1,6 @@
 export const getDateCodeParts = (dateCode: number): number[] => {
-  const floatDateCode = dateCode / 100;
-  const dateCodeParts = floatDateCode.toString().split('.').map(Number);
+  const month = Math.floor(dateCode / 100);
+  const day = dateCode % 100;
 
-  return dateCodeParts;
+  return [month, day];
 };

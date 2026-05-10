@@ -1,4 +1,10 @@
-import { getFirstValue, getLatestEntriesFilter, sqlSearchQuery, type Deps } from '~/shared';
+import {
+  getFirstValue,
+  getLatestEntriesFilter,
+  sqlSearchQuery,
+  thisDateReleaseSql,
+  type Deps,
+} from '~/shared';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -19,6 +25,7 @@ import {
   gt,
   ilike,
   inArray,
+  isNotNull,
   isNull,
   notInArray,
   or,
@@ -115,7 +122,7 @@ export class FilmsRepository {
         chapterKey: true,
         type: true,
         chapterOrder: true,
-        overview: true,
+        synopsis: true,
       },
       with: {
         genres: {
@@ -436,7 +443,7 @@ export class FilmsRepository {
         releaseDate: true,
         budget: true,
         boxOffice: true,
-        overview: true,
+        synopsis: true,
         chapterKey: true,
         chapterOrder: true,
         draft: true,
@@ -637,7 +644,7 @@ export class FilmsRepository {
         title: true,
         releaseDate: true,
         duration: true,
-        overview: true,
+        synopsis: true,
         budget: true,
         boxOffice: true,
         type: true,
@@ -797,6 +804,22 @@ export class FilmsRepository {
       .select({ url: filmTrailers.url })
       .from(filmTrailers)
       .where(and(eq(filmTrailers.filmId, id)));
+  }
+
+  async getAnniversaries() {
+    const list = await this.deps.db
+      .select({ poster: films.poster })
+      .from(films)
+      .where(
+        and(
+          eq(films.draft, false),
+          isNull(films.deletedAt),
+          isNotNull(films.poster),
+          thisDateReleaseSql(),
+        ),
+      );
+
+    return list;
   }
 
   private getPublicFilmsFilter() {

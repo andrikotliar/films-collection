@@ -12,7 +12,7 @@ import type {
 } from '~/database/schema';
 import type { Timestamps } from '~/modules/films/types';
 
-type EditableFilm = Omit<Film, Timestamps | 'id' | 'status' | 'synopsis'> & {
+type EditableFilm = Omit<Film, Timestamps | 'id' | 'status' | 'overview'> & {
   collections: Pick<FilmCollection, 'collectionId'>[];
   genres: Pick<FilmGenre, 'genreId'>[];
   countries: Pick<FilmCountry, 'countryId'>[];

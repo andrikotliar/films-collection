@@ -33,7 +33,7 @@ export const CreateFilmInputSchema = z.object({
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
-  overview: z.string().optional().nullable(),
+  synopsis: z.string().nullable(),
   chapterKey: z
     .string()
     .regex(/^[a-z-]+$/)
@@ -86,6 +86,7 @@ export const GetFilmsListQuerySchema = z.object({
   q: z.string().optional().nullable(),
   orderKey: z.string().optional(),
   order: z.enum(['asc', 'desc']).optional(),
+  releasedThisDay: getBoolFromQuery.optional(),
 });
 
 export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
@@ -126,7 +127,7 @@ export const FilmResponseSchema = z.object({
   ...ChapterSchema.shape,
   type: z.enum(TitleType),
   duration: z.coerce.number(),
-  overview: z.string().nullable(),
+  synopsis: z.string().nullable(),
   rating: z.coerce.number(),
   releaseDate: z.string().nullable(),
   budget: z.coerce.number().nullable(),
@@ -180,6 +181,7 @@ export const FilmsListResponseSchema = getListResponseSchema(
 ).extend({
   events: CollectionCurrentEventsListResponseSchema,
   allFilmsCount: z.number(),
+  anniversaryPoster: z.string().nullable(),
   additionalInfo: z
     .object({
       type: z.enum(['crew']),
@@ -244,7 +246,7 @@ export const CompleteDataListItemSchema = z.object({
     duration: true,
     budget: true,
     boxOffice: true,
-    overview: true,
+    synopsis: true,
     chapterKey: true,
     chapterOrder: true,
     poster: true,

@@ -1,6 +1,6 @@
 import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
+import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { Form } from '~/shared';
 
 type SeriesExtensionProps = {

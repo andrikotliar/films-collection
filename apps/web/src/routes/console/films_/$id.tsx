@@ -11,7 +11,7 @@ import { filmDefaultFormValues } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
 import type z from 'zod';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
+import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 
 export const Route = createFileRoute('/console/films_/$id')({
   loaderDeps: ({ search }) => {

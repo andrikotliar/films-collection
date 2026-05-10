@@ -32,7 +32,7 @@ import {
   seriesExtensions,
 } from '~/database/schema';
 import type { Database } from '~/plugins';
-import { sqlSearchQuery } from '~/shared';
+import { sqlSearchQuery, thisDateReleaseSql } from '~/shared';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -62,6 +62,11 @@ const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
   const query: SqlOrUndefined[] = [eq(films.draft, isDraftIncluded)];
 
   if (levelsSet.has(DraftLevel.UPCOMING)) {
+    const releaseDateQuery = gt(films.releaseDate, sql`CURRENT_DATE`);
+
+    if (levelsSet.size === 1) {
+      return releaseDateQuery;
+    }
     query.push(gt(films.releaseDate, sql`CURRENT_DATE`));
   }
 
@@ -93,6 +98,7 @@ export const mapListFilters = (
     q,
     draftLevels = [],
     noDescription,
+    releasedThisDay,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
@@ -250,7 +256,11 @@ export const mapListFilters = (
   }
 
   if (noDescription) {
-    filters.push(or(isNull(films.overview), sql`LENGTH(overview) <= 7`));
+    filters.push(or(isNull(films.synopsis), sql`LENGTH(synopsis) = 0`));
+  }
+
+  if (releasedThisDay) {
+    filters.push(thisDateReleaseSql());
   }
 
   return filters;

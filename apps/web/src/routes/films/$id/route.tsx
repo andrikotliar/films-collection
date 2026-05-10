@@ -34,9 +34,9 @@ function FilmPageContainer() {
       <NavigationRow />
       <SummarySection film={film} />
       <ContentLayout>
-        {film.overview && film.overview.length > 50 && (
+        {film.synopsis && film.synopsis.length > 0 && (
           <Section title="Description" icon={<FileTextIcon />}>
-            <Description rawHtml={film.overview} />
+            <Description>{film.synopsis}</Description>
           </Section>
         )}
         {film.awards.length > 0 && (

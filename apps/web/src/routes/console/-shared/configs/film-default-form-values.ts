@@ -1,6 +1,6 @@
 import type z from 'zod';
 import { NEW_ITEM_ID } from '@films-collection/shared';
-import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
+import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { getTodayString } from '~/shared';
 
 export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
@@ -18,7 +18,7 @@ export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
   studios: [],
   collections: [],
   countries: [],
-  overview: null,
+  synopsis: null,
   chapterKey: null,
   chapterOrder: null,
   castAndCrew: [],

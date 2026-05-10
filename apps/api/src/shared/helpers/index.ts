@@ -15,3 +15,4 @@ export * from './get-device-info';
 export * from './get-request-user';
 export * from './list-response';
 export * from './get-count';
+export * from './this-date-release-sql';

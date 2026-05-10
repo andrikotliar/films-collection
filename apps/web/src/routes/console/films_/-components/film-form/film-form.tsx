@@ -10,7 +10,6 @@ import {
   Panel,
   titleToFileName,
 } from '~/shared';
-import { DescriptionEditor, FilmFormSchema } from '~/routes/console/-shared';
 import {
   AwardsSelect,
   CastAndCrewSelect,
@@ -20,10 +19,12 @@ import {
   MoneyInput,
   SeriesExtension,
   TrailersSelect,
+  DescriptionEditor,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useNavigate } from '@tanstack/react-router';
+import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;

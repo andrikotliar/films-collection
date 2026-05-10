@@ -16,6 +16,7 @@ import {
   PAGE_LIMITS,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
+import type { Film } from '~/database/schema';
 
 type GenericOption = {
   id: number;
@@ -23,8 +24,17 @@ type GenericOption = {
   updatedAt: string;
 };
 
+type AnniversaryCache = {
+  date: string | null;
+  film: Pick<Film, 'poster'> | null;
+};
+
 export class FilmsService {
   private filmsCount = 0;
+  private anniversary: AnniversaryCache = {
+    film: null,
+    date: null,
+  };
 
   constructor(
     private readonly deps: Deps<
@@ -53,6 +63,24 @@ export class FilmsService {
     return count;
   }
 
+  private async getAnniversaryFilm() {
+    const date = new Date();
+    const dateParams = `${date.getDate()}${date.getMonth()}${date.getFullYear()}`;
+
+    if (this.anniversary.date === dateParams) {
+      return this.anniversary.film;
+    }
+
+    const list = await this.deps.filmsRepository.getAnniversaries();
+
+    this.anniversary = {
+      date: dateParams,
+      film: list[0] ?? null,
+    };
+
+    return this.anniversary.film;
+  }
+
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
@@ -71,6 +99,7 @@ export class FilmsService {
     }));
 
     const events = await this.deps.collectionEventsService.findTodayEvents();
+    const anniversary = await this.getAnniversaryFilm();
 
     return {
       list: mappedList,
@@ -78,6 +107,7 @@ export class FilmsService {
       additionalInfo,
       events,
       pageLimit: PAGE_LIMITS.filmsList,
+      anniversaryPoster: anniversary?.poster ?? null,
       allFilmsCount,
     };
   }
