@@ -3,6 +3,6 @@ packages:
   - packages/*
   - scripts
 
-onlyBuiltDependencies:
-  - bcrypt
-  - esbuild
+allowBuilds:
+  bcrypt: true
+  esbuild: true
