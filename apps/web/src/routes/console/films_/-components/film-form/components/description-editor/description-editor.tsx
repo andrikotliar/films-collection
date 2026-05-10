@@ -35,7 +35,7 @@ export const DescriptionEditor = () => {
 
   return (
     <div className={styles.editor_container}>
-      <Form.TextArea name="synopsis" label="Description" />
+      <Form.TextArea name="synopsis" label="Description" isLoading={isPending} />
       <Button
         icon={<LanguagesIcon />}
         onClick={() => translateText()}
@@ -45,15 +45,6 @@ export const DescriptionEditor = () => {
       >
         Translate description
       </Button>
-      {isPending && (
-        <div className={styles.overlay}>
-          <div className={styles.loader}>
-            Working <span>.</span>
-            <span>.</span>
-            <span>.</span>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

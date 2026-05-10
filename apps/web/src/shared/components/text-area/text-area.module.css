@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.text_area_wrapper {
+  color: var(--color-black);
+  position: relative;
+}
+
 .text_area {
   font-size: inherit;
   font-family: inherit;
@@ -15,6 +20,17 @@
   transition: border-color 300ms;
   resize: vertical;
   min-height: 150px;
+  width: 100%;
+}
+
+.loader_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-light);
+  border-radius: var(--rounded-default);
 }
 
 .text_area:hover {
