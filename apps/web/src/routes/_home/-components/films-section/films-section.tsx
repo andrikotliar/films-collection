@@ -43,7 +43,11 @@ export const FilmsSection = () => {
           <IconLink icon={<SettingsIcon />} to="/console" />
         </div>
       </div>
-      <CurrentEvents events={data.events} total={data.allFilmsCount} />
+      <CurrentEvents
+        events={data.events}
+        total={data.allFilmsCount}
+        anniversaryPoster={data.anniversaryPoster}
+      />
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.list} />
       <div className={styles.pagination_wrapper}>

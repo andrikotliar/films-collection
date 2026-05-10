@@ -32,7 +32,7 @@ import {
   seriesExtensions,
 } from '~/database/schema';
 import type { Database } from '~/plugins';
-import { sqlSearchQuery } from '~/shared';
+import { sqlSearchQuery, thisDateReleaseSql } from '~/shared';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -98,6 +98,7 @@ export const mapListFilters = (
     q,
     draftLevels = [],
     noDescription,
+    releasedThisDay,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
@@ -256,6 +257,10 @@ export const mapListFilters = (
 
   if (noDescription) {
     filters.push(or(isNull(films.synopsis), sql`LENGTH(synopsis) = 0`));
+  }
+
+  if (releasedThisDay) {
+    filters.push(thisDateReleaseSql());
   }
 
   return filters;

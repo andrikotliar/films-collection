@@ -86,6 +86,7 @@ export const GetFilmsListQuerySchema = z.object({
   q: z.string().optional().nullable(),
   orderKey: z.string().optional(),
   order: z.enum(['asc', 'desc']).optional(),
+  releasedThisDay: getBoolFromQuery.optional(),
 });
 
 export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
@@ -180,6 +181,7 @@ export const FilmsListResponseSchema = getListResponseSchema(
 ).extend({
   events: CollectionCurrentEventsListResponseSchema,
   allFilmsCount: z.number(),
+  anniversaryPoster: z.string().nullable(),
   additionalInfo: z
     .object({
       type: z.enum(['crew']),
