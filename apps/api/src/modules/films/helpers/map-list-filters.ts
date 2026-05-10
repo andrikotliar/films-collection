@@ -250,7 +250,7 @@ export const mapListFilters = (
   }
 
   if (noDescription) {
-    filters.push(or(isNull(films.overview), sql`LENGTH(overview) <= 7`));
+    filters.push(or(isNull(films.synopsis), sql`LENGTH(synopsis) = 0`));
   }
 
   return filters;

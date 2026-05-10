@@ -33,7 +33,7 @@ export const CreateFilmInputSchema = z.object({
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
-  overview: z.string().optional().nullable(),
+  synopsis: z.string().nullable(),
   chapterKey: z
     .string()
     .regex(/^[a-z-]+$/)
@@ -126,7 +126,7 @@ export const FilmResponseSchema = z.object({
   ...ChapterSchema.shape,
   type: z.enum(TitleType),
   duration: z.coerce.number(),
-  overview: z.string().nullable(),
+  synopsis: z.string().nullable(),
   rating: z.coerce.number(),
   releaseDate: z.string().nullable(),
   budget: z.coerce.number().nullable(),
@@ -244,7 +244,7 @@ export const CompleteDataListItemSchema = z.object({
     duration: true,
     budget: true,
     boxOffice: true,
-    overview: true,
+    synopsis: true,
     chapterKey: true,
     chapterOrder: true,
     poster: true,

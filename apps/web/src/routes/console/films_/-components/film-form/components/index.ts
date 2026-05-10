@@ -6,3 +6,4 @@ export * from './chapters-select/chapters-select';
 export * from './series-extension/series-extension';
 export * from './money-input/money-input';
 export * from './drafts/drafts';
+export * from './description-editor/description-editor';

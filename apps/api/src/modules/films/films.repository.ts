@@ -115,7 +115,7 @@ export class FilmsRepository {
         chapterKey: true,
         type: true,
         chapterOrder: true,
-        overview: true,
+        synopsis: true,
       },
       with: {
         genres: {
@@ -436,7 +436,7 @@ export class FilmsRepository {
         releaseDate: true,
         budget: true,
         boxOffice: true,
-        overview: true,
+        synopsis: true,
         chapterKey: true,
         chapterOrder: true,
         draft: true,
@@ -637,7 +637,7 @@ export class FilmsRepository {
         title: true,
         releaseDate: true,
         duration: true,
-        overview: true,
+        synopsis: true,
         budget: true,
         boxOffice: true,
         type: true,

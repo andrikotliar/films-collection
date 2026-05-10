@@ -1,35 +1,19 @@
-import { useRef } from 'react';
-import { api, Form, toaster, type EditorRef } from '~/shared';
+import { api, Button, Form, toaster } from '~/shared';
 import styles from './description-editor.module.css';
 import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/-shared/schemas';
-import sanitize from 'sanitize-html';
 import { useMutation } from '@tanstack/react-query';
+import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
+import { LanguagesIcon } from 'lucide-react';
 
 export const DescriptionEditor = () => {
-  const editorRef = useRef<EditorRef | null>(null);
-
   const { setValue, getValues } = useFormContext<z.infer<typeof FilmFormSchema>>();
-
-  const updateOverview = (text: string) => {
-    setValue('overview', text);
-    editorRef.current?.setContent(text);
-  };
 
   const { mutate: translateText, isPending } = useMutation({
     mutationFn: async () => {
       const values = getValues();
 
-      if (!values.overview) {
-        toaster.warning('Description is empty. Skip translation');
-
-        return;
-      }
-
-      const sanitizedText = sanitize(values.overview, { allowedTags: [] });
-
-      if (!sanitizedText.length) {
+      if (!values.synopsis) {
         toaster.warning('Description is empty. Skip translation');
 
         return;
@@ -37,7 +21,7 @@ export const DescriptionEditor = () => {
 
       const result = await api.films.translateDescription.exec({
         input: {
-          text: sanitizedText,
+          text: values.synopsis,
           langParams: {
             from: 'Ukrainian',
             to: 'English',
@@ -45,23 +29,22 @@ export const DescriptionEditor = () => {
         },
       });
 
-      updateOverview(result.translatedText);
+      setValue('synopsis', result.translatedText);
     },
   });
 
   return (
     <div className={styles.editor_container}>
-      <Form.TextEditor
-        name="overview"
-        label="Description"
-        ref={editorRef}
-        menuOptions={[
-          {
-            title: 'Translate text',
-            action: () => translateText(),
-          },
-        ]}
-      />
+      <Form.TextArea name="synopsis" label="Description" />
+      <Button
+        icon={<LanguagesIcon />}
+        onClick={() => translateText()}
+        size="small"
+        variant="light"
+        isDisabled={isPending}
+      >
+        Translate description
+      </Button>
       {isPending && (
         <div className={styles.overlay}>
           <div className={styles.loader}>
