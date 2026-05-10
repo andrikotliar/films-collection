@@ -27,14 +27,6 @@ export const collectionCategory = pgEnum('collection_category', CollectionCatego
 export const personRole = pgEnum('person_role', PersonRole);
 export const titleStyle = pgEnum('title_style', TitleStyle);
 export const titleType = pgEnum('title_type', TitleType);
-// TODO: remove after status cleanup
-export const filmStatus = pgEnum('film_status', [
-  'ADDED',
-  'WATCHED',
-  'PLANNED',
-  'PENDING',
-  'UPCOMING',
-]);
 
 export const films = pgTable(
   'films',
@@ -56,7 +48,6 @@ export const films = pgTable(
       .defaultNow()
       .$onUpdate(() => new Date().toISOString())
       .notNull(),
-    status: filmStatus().default('PENDING').notNull(),
     deletedAt: timestamp('deleted_at', { precision: 3, mode: 'string' }),
     overview: text(),
     synopsis: text(),

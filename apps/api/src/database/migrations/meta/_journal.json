@@ -113,6 +113,13 @@
       "when": 1777839296929,
       "tag": "0017_make_draft_not_null",
       "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1778433496307,
+      "tag": "0018_remove-status",
+      "breakpoints": true
     }
   ]
 }
