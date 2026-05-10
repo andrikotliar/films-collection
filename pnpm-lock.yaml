@@ -50,9 +50,6 @@ importers:
       '@films-collection/api-client':
         specifier: workspace:^
         version: link:../../packages/api-client
-      '@films-collection/eslint-config':
-        specifier: workspace:^
-        version: link:../../packages/eslint-config
       '@films-collection/shared':
         specifier: workspace:^
         version: link:../../packages/shared
@@ -90,6 +87,9 @@ importers:
         specifier: 4.1.11
         version: 4.1.11
     devDependencies:
+      '@films-collection/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
       '@types/bcrypt':
         specifier: ^5.0.2
         version: 5.0.2
@@ -126,9 +126,6 @@ importers:
       '@films-collection/api-client':
         specifier: workspace:^
         version: link:../../packages/api-client
-      '@films-collection/eslint-config':
-        specifier: workspace:^
-        version: link:../../packages/eslint-config
       '@films-collection/shared':
         specifier: workspace:^
         version: link:../../packages/shared
@@ -172,6 +169,9 @@ importers:
         specifier: 4.1.11
         version: 4.1.11
     devDependencies:
+      '@films-collection/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
       '@tanstack/react-query-devtools':
         specifier: ^5.95.2
         version: 5.95.2(@tanstack/react-query@5.97.0(react@18.3.1))(react@18.3.1)
