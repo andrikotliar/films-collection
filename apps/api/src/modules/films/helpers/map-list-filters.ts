@@ -62,6 +62,11 @@ const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
   const query: SqlOrUndefined[] = [eq(films.draft, isDraftIncluded)];
 
   if (levelsSet.has(DraftLevel.UPCOMING)) {
+    const releaseDateQuery = gt(films.releaseDate, sql`CURRENT_DATE`);
+
+    if (levelsSet.size === 1) {
+      return releaseDateQuery;
+    }
     query.push(gt(films.releaseDate, sql`CURRENT_DATE`));
   }
 
