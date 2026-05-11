@@ -241,7 +241,7 @@ export class FilmsService {
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
     await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
-    return this.getFilmDetails(filmId);
+    return this.getFilmDetails(filmId, 'admin');
   }
 
   async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
