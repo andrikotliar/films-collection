@@ -17,12 +17,14 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
   }
 
   return (
-    <Modal isOpen onClose={onClose} className={styles.wrapper} isAllowedClickOutside={false}>
-      <Modal.Content className={styles.content}>
-        <Panel>
-          <FormComponent values={values} />
-        </Panel>
-        <Modal.CloseButton onClick={onClose} className={styles.close_button} />
+    <Modal isOpen onClose={onClose} isAllowedClickOutside={false}>
+      <Modal.Content>
+        <div className={styles.content}>
+          <Panel>
+            <FormComponent values={values} />
+          </Panel>
+        </div>
+        <Modal.CloseButton onClick={onClose} />
       </Modal.Content>
     </Modal>
   );

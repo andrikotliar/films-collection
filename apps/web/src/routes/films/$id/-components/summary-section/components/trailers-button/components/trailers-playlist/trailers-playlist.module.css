@@ -4,6 +4,7 @@
   overflow: hidden;
   border-radius: var(--rounded-default);
   background-color: black;
+  width: 80%;
 }
 
 .video_column {

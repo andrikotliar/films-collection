@@ -66,18 +66,13 @@ export const Drafts = ({ onSelectDraft }: DraftsProps) => {
           </div>
         ))}
       </div>
-      <Modal
-        isOpen={contentToView !== null}
-        onClose={() => setContentToView(null)}
-        className={styles.modal}
-      >
-        <Modal.Content className={styles.content}>
-          <div className={styles.modal_title}>Last modified: {contentToView?.updatedAt}</div>
-          <pre>{JSON.stringify(contentToView?.content, null, 2)}</pre>
-          <Modal.CloseButton
-            onClick={() => setContentToView(null)}
-            className={styles.close_button}
-          />
+      <Modal isOpen={contentToView !== null} onClose={() => setContentToView(null)}>
+        <Modal.Content>
+          <div className={styles.content}>
+            <div className={styles.modal_title}>Last modified: {contentToView?.updatedAt}</div>
+            <pre>{JSON.stringify(contentToView?.content, null, 2)}</pre>
+          </div>
+          <Modal.CloseButton onClick={() => setContentToView(null)} />
         </Modal.Content>
       </Modal>
       <ConfirmModal

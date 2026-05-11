@@ -3,16 +3,9 @@
 }
 
 .content {
-  position: relative;
   max-width: 800px;
   max-height: 90%;
   overflow-y: auto;
   border-radius: var(--rounded-default);
   background-color: var(--color-white);
-}
-
-.close_button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
 }

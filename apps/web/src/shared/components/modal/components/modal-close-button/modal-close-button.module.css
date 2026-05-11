@@ -6,4 +6,9 @@
   height: 30px;
   padding: 0;
   cursor: pointer;
+  position: absolute;
+  top: var(--close-button-top-position, 10px);
+  right: var(--close-button-right-position, 10px);
+  background-color: var(--color-white);
+  border-radius: 8px;
 }

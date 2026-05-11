@@ -12,10 +12,12 @@ export const TrailerWindow = ({ filmId, onClose }: TrailerWindowProps) => {
 
   return (
     <Modal isOpen={!!filmId} onClose={onClose}>
-      <Modal.Content className={styles.trailer_content}>
-        {isLoading && <Loader shouldInheritColor />}
-        {!data && !isLoading && <div className={styles.empty}>Trailer not found</div>}
-        {data && <iframe src={data} allow="autoplay" allowFullScreen />}
+      <Modal.Content>
+        <div className={styles.trailer_content}>
+          {isLoading && <Loader shouldInheritColor />}
+          {!data && !isLoading && <div className={styles.empty}>Trailer not found</div>}
+          {data && <iframe src={data} allow="autoplay" allowFullScreen />}
+        </div>
       </Modal.Content>
     </Modal>
   );

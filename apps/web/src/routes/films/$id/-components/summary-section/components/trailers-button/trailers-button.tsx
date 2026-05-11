@@ -29,10 +29,10 @@ export const TrailersButton = ({ data, type }: TrailersButtonProps) => {
         <PlayIcon className={styles.play_icon} />
         <span className={styles.play_button_label}>Trailer{data.length > 1 && 's'}</span>
       </button>
-      <Modal isOpen={isModalOpen} onClose={handleClose} className={styles.trailers_modal}>
-        <Modal.Content className={styles.trailers_modal_content}>
+      <Modal isOpen={isModalOpen} onClose={handleClose}>
+        <Modal.Content>
           <TrailersPlaylist trailers={data} previewLabel={previewLabel} />
-          <Modal.CloseButton onClick={handleClose} className={styles.trailer_close_button} />
+          <Modal.CloseButton onClick={handleClose} />
         </Modal.Content>
       </Modal>
     </>
