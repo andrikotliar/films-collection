@@ -109,6 +109,12 @@ export class FilmsRepository {
   }
 
   findById(id: number, level: 'public' | 'admin' = 'public') {
+    const filters = [eq(films.id, id), isNull(films.deletedAt)];
+
+    if (level === 'public') {
+      filters.push(eq(films.draft, false));
+    }
+
     return this.deps.db.query.films.findFirst({
       columns: {
         id: true,
@@ -212,7 +218,7 @@ export class FilmsRepository {
           orderBy: asc(filmTrailers.order),
         },
       },
-      where: and(eq(films.id, id), eq(films.draft, level === 'admin'), isNull(films.deletedAt)),
+      where: and(...filters),
     });
   }
 
