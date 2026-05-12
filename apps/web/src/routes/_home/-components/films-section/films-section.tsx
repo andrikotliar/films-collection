@@ -2,9 +2,8 @@ import styles from './films-section.module.css';
 import clsx from 'clsx';
 import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { CameraLoader, getFilmsListQueryOptions, IconLink, PageTitle, Pagination } from '~/shared';
+import { CameraLoader, getFilmsListQueryOptions, PageTitle, Pagination } from '~/shared';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { InfoIcon, SettingsIcon } from 'lucide-react';
 
 const routeApi = getRouteApi('/_home/');
 
@@ -38,10 +37,6 @@ export const FilmsSection = () => {
     <div className={styles.films_section}>
       <div className={styles.header}>
         <PageTitle>Films Collection</PageTitle>
-        <div className={styles.navigation}>
-          <IconLink icon={<InfoIcon />} to="/about" />
-          <IconLink icon={<SettingsIcon />} to="/console" />
-        </div>
       </div>
       <CurrentEvents
         events={data.events}

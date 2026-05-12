@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: var(--border-default);
+  user-select: none;
+}
+
+.link:not(.active_link):hover {
+  background-color: var(--color-gray-light);
+}
+
+.active_link {
+  color: var(--color-white);
+  background-color: var(--color-blue-primary);
+  pointer-events: none;
+}
+
+.standalone:last-child {
+  border-bottom: 0;
+}
