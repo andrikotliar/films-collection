@@ -1,4 +1,4 @@
-# Films Collection
+# Films Collection - Protection run
 
 A personal list of films with manually collected data. The app primarily focuses on representing basic film data and some of the author's subjective perspectives, such as ratings and collections.
 
