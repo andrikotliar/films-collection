@@ -5,7 +5,7 @@
   position: sticky;
   top: var(--header-height);
   background-color: var(--color-blue-invisible);
-  z-index: 10;
+  z-index: 100;
 }
 
 .title_column {

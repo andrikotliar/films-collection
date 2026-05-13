@@ -1,17 +1,22 @@
 import { getCount, getFirstValue, type Deps } from '~/shared';
-import { PAGE_LIMITS, type CountryInput } from '@films-collection/shared';
+import { type CountryInput } from '@films-collection/shared';
 import { countries } from '~/database/schema';
 import { asc, eq } from 'drizzle-orm';
 
 export class CountriesRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll() {
-    return this.deps.db
+  getAll(limit?: number) {
+    const query = this.deps.db
       .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
       .from(countries)
-      .orderBy(asc(countries.title))
-      .limit(PAGE_LIMITS.default);
+      .orderBy(asc(countries.title));
+
+    if (limit) {
+      query.limit(limit);
+    }
+
+    return query;
   }
 
   create(input: CountryInput) {

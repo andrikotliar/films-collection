@@ -1,8 +1,4 @@
-import {
-  PAGE_LIMITS,
-  type CreateCollectionInput,
-  type UpdateCollectionInput,
-} from '@films-collection/shared';
+import { type CreateCollectionInput, type UpdateCollectionInput } from '@films-collection/shared';
 import { asc, count, eq } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema';
 import { getCount, getFirstValue, type Deps } from '~/shared';
@@ -14,16 +10,21 @@ export class CollectionsRepository {
     return getFirstValue(this.deps.db.select().from(collections).where(eq(collections.id, id)));
   }
 
-  getAll() {
-    return this.deps.db
+  getAll(limit?: number) {
+    const query = this.deps.db
       .select({
         id: collections.id,
         title: collections.title,
         category: collections.category,
       })
       .from(collections)
-      .orderBy(asc(collections.title))
-      .limit(PAGE_LIMITS.default);
+      .orderBy(asc(collections.title));
+
+    if (limit) {
+      query.limit(limit);
+    }
+
+    return query;
   }
 
   count() {

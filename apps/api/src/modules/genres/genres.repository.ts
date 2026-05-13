@@ -1,21 +1,26 @@
 import { getCount, getFirstValue, type Deps } from '~/shared';
-import { PAGE_LIMITS, type GenreInput } from '@films-collection/shared';
+import { type GenreInput } from '@films-collection/shared';
 import { genres } from '~/database/schema';
 import { asc, eq } from 'drizzle-orm';
 
 export class GenresRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll() {
-    return this.deps.db
+  getAll(limit?: number) {
+    const query = this.deps.db
       .select({
         id: genres.id,
         title: genres.title,
         updatedAt: genres.updatedAt,
       })
       .from(genres)
-      .orderBy(asc(genres.title))
-      .limit(PAGE_LIMITS.default);
+      .orderBy(asc(genres.title));
+
+    if (limit) {
+      query.limit(limit);
+    }
+
+    return query;
   }
 
   create(input: GenreInput) {
