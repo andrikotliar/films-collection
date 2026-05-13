@@ -1,17 +1,22 @@
 import { getCount, type Deps } from '~/shared';
-import { PAGE_LIMITS, type StudioInput } from '@films-collection/shared';
+import { type StudioInput } from '@films-collection/shared';
 import { studios } from '~/database/schema';
 import { asc, eq } from 'drizzle-orm';
 
 export class StudiosRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll() {
-    return this.deps.db
+  getAll(limit?: number) {
+    const query = this.deps.db
       .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
       .from(studios)
-      .orderBy(asc(studios.title))
-      .limit(PAGE_LIMITS.default);
+      .orderBy(asc(studios.title));
+
+    if (limit) {
+      query.limit(limit);
+    }
+
+    return query;
   }
 
   async create(input: StudioInput) {
