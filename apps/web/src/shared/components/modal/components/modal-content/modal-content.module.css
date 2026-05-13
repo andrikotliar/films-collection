@@ -3,5 +3,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 10px;
+  max-width: var(--modal-content-max-width, 600px);
+  max-height: var(--modal-content-max-height, 600px);
+  width: 100%;
 }
 
+.content.withPaddings {
+  padding: 20px;
+}
+
+.content.light {
+  background-color: var(--color-white);
+}
+
+.content.dark {
+  background-color: var(--color-black);
+}
