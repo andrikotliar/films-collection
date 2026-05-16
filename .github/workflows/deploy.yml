@@ -27,7 +27,7 @@ jobs:
           version: 10
 
       - name: Install dependencies
-        run: pnpm i -g drizzle-kit drizzle-orm esbuild pg 
+        run: pnpm i -g drizzle-kit drizzle-orm esbuild pg dotenv
 
       - name: Run production migrations
         working-directory: apps/api
