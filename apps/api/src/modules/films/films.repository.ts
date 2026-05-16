@@ -821,6 +821,7 @@ export class FilmsRepository {
           eq(films.draft, false),
           isNull(films.deletedAt),
           isNotNull(films.poster),
+          sql`LENGTH(poster) > 0`,
           thisDateReleaseSql(),
         ),
       );

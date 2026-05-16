@@ -17,6 +17,7 @@ import {
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
 import type { Film } from '~/database/schema.js';
+import { InMemoryCacheService } from '~/modules/cache/cache.service.js';
 
 type GenericOption = {
   id: number;
@@ -30,11 +31,13 @@ type AnniversaryCache = {
 };
 
 export class FilmsService {
-  private filmsCount = 0;
-  private anniversary: AnniversaryCache = {
-    film: null,
-    date: null,
-  };
+  private cache = new InMemoryCacheService<{ filmsCount: number; anniversary: AnniversaryCache }>({
+    filmsCount: 0,
+    anniversary: {
+      film: null,
+      date: null,
+    },
+  });
 
   constructor(
     private readonly deps: Deps<
@@ -51,34 +54,30 @@ export class FilmsService {
     >,
   ) {}
 
-  private async getAllFilmsCount() {
-    if (this.filmsCount) {
-      return this.filmsCount;
-    }
-
-    const count = await this.deps.filmsRepository.countPublishedFilms();
-
-    this.filmsCount = count;
-
-    return count;
+  private getAllFilmsCount() {
+    return this.cache.getOrSet('filmsCount', () => this.deps.filmsRepository.countPublishedFilms());
   }
 
   private async getAnniversaryFilm() {
     const date = new Date();
     const dateParams = `${date.getDate()}${date.getMonth()}${date.getFullYear()}`;
 
-    if (this.anniversary.date === dateParams) {
-      return this.anniversary.film;
+    const anniversaryCache = this.cache.get('anniversary');
+
+    if (anniversaryCache?.date === dateParams) {
+      return anniversaryCache.film;
     }
 
     const list = await this.deps.filmsRepository.getAnniversaries();
 
-    this.anniversary = {
-      date: dateParams,
-      film: list[0] ?? null,
-    };
+    const film = list[0] ?? null;
 
-    return this.anniversary.film;
+    this.cache.set('anniversary', {
+      date: dateParams,
+      film,
+    });
+
+    return film;
   }
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
@@ -92,10 +91,16 @@ export class FilmsService {
     const additionalInfo = await this.populateAdditionalData(queries);
     const allFilmsCount = await this.getAllFilmsCount();
 
+    const todayCode = this.getDateCode(new Date());
+
     const mappedList = data.list.map((film) => ({
       ...film,
       upcoming: film.draft,
       inDays: film.draft && film.releaseDate ? this.getDaysDiffFromToday(film.releaseDate) : null,
+      releasedYears:
+        film.releaseDate && todayCode === this.getDateCode(new Date(film.releaseDate))
+          ? this.countReleasedYear(film.releaseDate)
+          : null,
     }));
 
     const events = await this.deps.collectionEventsService.findTodayEvents();
@@ -160,9 +165,7 @@ export class FilmsService {
 
     const { filmId } = await this.deps.filmsRepository.create(payload);
 
-    if (this.filmsCount) {
-      this.filmsCount = 0;
-    }
+    this.cache.resetValue('filmsCount');
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
@@ -347,5 +350,19 @@ export class FilmsService {
     const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
 
     return diffDays;
+  }
+
+  private getDateCode(date: Date) {
+    const day = date.getDate();
+    const month = date.getMonth();
+
+    return day + month;
+  }
+
+  private countReleasedYear(dateString: string) {
+    const releaseYear = new Date(dateString).getFullYear();
+    const nowYear = new Date().getFullYear();
+
+    return nowYear - releaseYear;
   }
 }
