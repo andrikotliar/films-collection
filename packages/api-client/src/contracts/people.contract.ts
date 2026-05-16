@@ -9,7 +9,7 @@ import {
   PersonResponseSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const peopleContract = defineContracts('people', {
   getList: {

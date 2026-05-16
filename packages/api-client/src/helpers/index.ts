@@ -1,2 +1,2 @@
-export * from './fetch-wrapper';
-export * from './define-contracts';
+export * from './fetch-wrapper.js';
+export * from './define-contracts.js';

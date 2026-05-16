@@ -1,17 +1,17 @@
-import { authContract } from './auth.contract';
-import { awardsContract } from './awards.contract';
-import { chapterKeysContract } from './chapter-keys.contract';
-import { collectionEventsContract } from './collection-events.contract';
-import { collectionsContract } from './collections.contract';
-import { countriesContract } from './countries.contract';
-import { filesContract } from './files.contract';
-import { filmsContract } from './films.contract';
-import { genresContract } from './genres.contract';
-import { initialDataContract } from './initial-data.contract';
-import { pageContentContract } from './page-content.contract';
-import { peopleContract } from './people.contract';
-import { studiosContract } from './studios.contract';
-import { usersContracts } from './users.contract';
+import { authContract } from './auth.contract.js';
+import { awardsContract } from './awards.contract.js';
+import { chapterKeysContract } from './chapter-keys.contract.js';
+import { collectionEventsContract } from './collection-events.contract.js';
+import { collectionsContract } from './collections.contract.js';
+import { countriesContract } from './countries.contract.js';
+import { filesContract } from './files.contract.js';
+import { filmsContract } from './films.contract.js';
+import { genresContract } from './genres.contract.js';
+import { initialDataContract } from './initial-data.contract.js';
+import { pageContentContract } from './page-content.contract.js';
+import { peopleContract } from './people.contract.js';
+import { studiosContract } from './studios.contract.js';
+import { usersContracts } from './users.contract.js';
 
 export const contracts = {
   authContract,

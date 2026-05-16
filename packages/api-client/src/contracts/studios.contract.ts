@@ -4,7 +4,7 @@ import {
   StudioResponseSchema,
   StudiosResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const studiosContract = defineContracts('studios', {
   getList: {

@@ -4,7 +4,7 @@ import {
   GenresListResponseSchema,
   GenreResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const genresContract = defineContracts('genres', {
   getList: {

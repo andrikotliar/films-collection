@@ -4,7 +4,7 @@ import {
   LoginSchema,
   LogoutResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const authContract = defineContracts('auth', {
   getState: {

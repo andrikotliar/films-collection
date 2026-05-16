@@ -1,4 +1,4 @@
-import { HttpError } from '~/exceptions';
+import { HttpError } from '~/exceptions/index.js';
 
 type FetchOptions = {
   queryParams?: Record<string, any>;

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { getListResponseSchema } from '~/helpers';
+import { getListResponseSchema } from '~/helpers/index.js';
 
 export const CountryInputSchema = z.object({
   title: z.string(),

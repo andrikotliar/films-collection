@@ -23,7 +23,7 @@ import {
   GetAdminListQuerySchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const filmsContract = defineContracts('films', {
   getList: {

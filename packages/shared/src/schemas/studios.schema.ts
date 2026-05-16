@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { getListResponseSchema } from '~/helpers';
+import { getListResponseSchema } from '~/helpers/index.js';
 
 export const StudioInputSchema = z.object({
   title: z.string(),

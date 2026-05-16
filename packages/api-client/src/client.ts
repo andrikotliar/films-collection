@@ -1,8 +1,8 @@
 import { kebabToCamelCase } from '@films-collection/shared';
 import type { z } from 'zod';
-import { contracts } from '~/contracts';
-import { createFetchWrapper, type FetchWrapperOptions } from '~/helpers';
-import type { ApiContract } from '~/types';
+import { contracts } from '~/contracts/index.js';
+import { createFetchWrapper, type FetchWrapperOptions } from '~/helpers/index.js';
+import type { ApiContract } from '~/types/index.js';
 
 type Contracts = typeof contracts;
 
