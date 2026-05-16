@@ -6,4 +6,7 @@ export default createConfig({
       tsconfigRootDir: import.meta.dirname,
     },
   },
+  rules: {
+    '@typescript-eslint/no-empty-object-type': 'off',
+  },
 });

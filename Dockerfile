@@ -6,39 +6,24 @@ RUN corepack enable
 
 COPY . .
 
-RUN pnpm install --frozen-lockfile
-
 ARG VITE_IMAGES_URL
 ENV VITE_IMAGES_URL=$VITE_IMAGES_URL
 
+RUN pnpm install --frozen-lockfile
+
 RUN pnpm build
+
+RUN pnpm deploy --filter api --prod /app/deploy
 
 FROM node:24-alpine AS production
 
 WORKDIR /app
 
-RUN corepack enable
-
-COPY pnpm-workspace.yaml package.json pnpm-lock.yaml ./
-COPY apps/api/package.json ./apps/api/package.json
-COPY packages/shared/package.json ./packages/shared/package.json
-COPY packages/api-client/package.json ./packages/api-client/package.json
-
-RUN pnpm install --prod --filter api...
-
-COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
-COPY --from=builder /app/apps/api/src/database/migrations ./apps/api/src/database/migrations
-COPY --from=builder /app/apps/api/drizzle.config.ts ./apps/api/drizzle.config.ts
-COPY --from=builder /app/apps/api/dist ./apps/api/dist
-COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
-COPY --from=builder /app/packages/api-client/dist ./packages/api-client/dist
-COPY --from=builder /app/packages/eslint-config ./packages/eslint-config
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./
-COPY --from=builder /app/pnpm-lock.yaml ./
-COPY --from=builder /app/pnpm-workspace.yaml ./
+COPY --from=builder /app/deploy ./
+COPY --from=builder /app/entrypoint.sh ./
+RUN chmod +x entrypoint.sh
 
 ENV NODE_ENV=production
 EXPOSE 5000
 
-CMD ["sh", "-c", "pnpm start:prod"]
+CMD ["node", "dist/server.js"]
