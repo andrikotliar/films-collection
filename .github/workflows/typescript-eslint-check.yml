@@ -35,7 +35,6 @@ jobs:
       - name: TypeScript check — packages/shared
         run: pnpm --filter ./packages/shared typecheck
 
-
       - name: TypeScript check — apps/api
         run: pnpm --filter ./apps/api typecheck
 
