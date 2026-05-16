@@ -5,7 +5,7 @@ import { VideoInput, type VideoInputProps } from '~/shared/components/video-inpu
 export const FormVideoInput = ({
   name,
   ...props
-}: FormFieldProps<Omit<VideoInputProps, 'externalWatchedValue'>>) => {
+}: FormFieldProps<Omit<VideoInputProps, 'externalWatchedValue' | 'ref'>>) => {
   const { register, formState, watch } = useFormContext();
 
   const { errors } = formState;

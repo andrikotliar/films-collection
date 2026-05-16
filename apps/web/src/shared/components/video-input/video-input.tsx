@@ -6,14 +6,15 @@ import { Trash2Icon } from 'lucide-react';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { TextInput, type TextInputProps } from '~/shared/components/text-input/text-input';
 import { getEmbeddableYoutubeUrl } from '~/shared/helpers';
+import type { RefCallBack } from 'react-hook-form';
 
 export type VideoInputProps = {
   label?: string;
   error?: string | string[];
   externalWatchedValue?: string;
   onRemove?: VoidFunction;
-  ref?: React.RefObject<HTMLInputElement | null>;
-} & Omit<TextInputProps, 'type' | 'label'>;
+  ref?: RefCallBack;
+} & Omit<TextInputProps, 'type' | 'label' | 'ref'>;
 
 export const VideoInput = ({
   onBlur,

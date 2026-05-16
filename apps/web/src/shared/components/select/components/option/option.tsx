@@ -6,7 +6,7 @@ type OptionProps = {
   onSelect: (value: ListOption, isActive: boolean) => void;
   data: ListOption<any>;
   selectedValues: (string | number)[];
-  ref?: React.RefObject<HTMLButtonElement | null>;
+  ref?: React.RefCallback<HTMLButtonElement>;
 };
 
 export const Option = ({ onSelect, data, selectedValues, ref }: OptionProps) => {
