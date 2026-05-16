@@ -1,14 +1,12 @@
-import type z from 'zod';
-import type { ApiContract, ContractDefinition, RouteSchema } from '~/types';
+import type { ApiContract, ContractDefinition } from '~/types';
 
 export const defineContracts = <
-  TRoutes extends Record<string, ApiContract<TSchema>>,
-  TPrefix extends string = string,
-  TSchema extends RouteSchema = { response: z.ZodType },
+  const TPrefix extends string,
+  const TRoutes extends Record<string, ApiContract<any>>,
 >(
   prefix: TPrefix,
   routes: TRoutes,
-): ContractDefinition<TRoutes, TPrefix, TSchema> => ({
+): ContractDefinition<TPrefix, TRoutes> => ({
   prefix,
   routes,
 });

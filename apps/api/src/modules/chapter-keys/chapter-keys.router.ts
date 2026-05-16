@@ -1,7 +1,7 @@
 import { createRouter, validateAuth } from '~/shared';
-import { chapterKeysContract } from '@films-collection/api-client';
+import { contracts } from '@films-collection/api-client';
 
-export const chapterKeysRouter = createRouter(chapterKeysContract, {
+export const chapterKeysRouter = createRouter(contracts.chapterKeysContract, {
   getOptions: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('chapterKeysService').getListOptions();

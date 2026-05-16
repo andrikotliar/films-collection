@@ -1,7 +1,7 @@
 import { createRouter, validateAuth } from '~/shared';
-import { genresContract } from '@films-collection/api-client';
+import { contracts } from '@films-collection/api-client';
 
-export const genresRouter = createRouter(genresContract, {
+export const genresRouter = createRouter(contracts.genresContract, {
   getList: {
     preHandler: [validateAuth],
     handler: async ({ app }) => {

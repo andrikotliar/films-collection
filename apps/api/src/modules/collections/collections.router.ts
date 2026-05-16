@@ -1,7 +1,7 @@
-import { collectionsContract } from '@films-collection/api-client';
+import { contracts } from '@films-collection/api-client';
 import { createRouter, validateAuth } from '~/shared';
 
-export const collectionsRouter = createRouter(collectionsContract, {
+export const collectionsRouter = createRouter(contracts.collectionsContract, {
   getList: {
     preHandler: [validateAuth],
     handler: async ({ app }) => {
