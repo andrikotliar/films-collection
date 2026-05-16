@@ -1,4 +1,4 @@
-import { convertEnumValueToLabel } from './convert-enum-value-to-label';
+import { convertEnumValueToLabel } from './convert-enum-value-to-label.js';
 
 export const convertEnumValuesToOption = <T extends string>(values: T[]) => {
   return values.map((value) => ({

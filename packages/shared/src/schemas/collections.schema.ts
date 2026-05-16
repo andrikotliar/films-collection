@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { CollectionCategory } from '~/enums';
+import { CollectionCategory } from '~/enums/collection-category.enum.js';
 import { getListResponseSchema } from '~/helpers/index.js';
 
 export const CreateCollectionInputSchema = z.object({
