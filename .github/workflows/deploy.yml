@@ -32,7 +32,7 @@ jobs:
 
       - name: Run production migrations
         working-directory: apps/api
-        run: drizzle-kit migrate --config drizzle.config.ts
+        run: pnpm drizzle-kit migrate --config drizzle.config.ts
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STR }}
 
