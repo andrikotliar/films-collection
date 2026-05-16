@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 import ReactVite from '@vitejs/plugin-react';
-import TsConfigPaths from 'vite-tsconfig-paths';
 import { tanstackRouter } from '@tanstack/router-plugin/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
@@ -17,13 +16,15 @@ export default defineConfig({
     outDir: '../api/dist/public',
     emptyOutDir: true,
   },
+  resolve: {
+    tsconfigPaths: true,
+  },
   plugins: [
     tanstackRouter({
       autoCodeSplitting: true,
       routeFileIgnorePrefix: '-',
     }),
     ReactVite(),
-    TsConfigPaths(),
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {

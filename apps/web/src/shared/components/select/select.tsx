@@ -276,7 +276,9 @@ export const Select = ({
               data={option}
               onSelect={handleSelectValue}
               selectedValues={selectedValues}
-              ref={(button) => (optionsRef.current[index] = button!)}
+              ref={(button) => {
+                optionsRef.current[index] = button!;
+              }}
             />
           ))}
           {internalOptions.length === 0 && <NotFound />}

@@ -3,7 +3,7 @@ import { type FormComponentProps, Modal } from '~/shared';
 type FormModalProps<T extends Record<PropertyKey, unknown>> = {
   onClose: VoidFunction;
   values: T | null;
-  form: (props: FormComponentProps<T>) => JSX.Element;
+  form: (props: FormComponentProps<T>) => React.ReactElement;
 };
 
 export const FormModal = <T extends Record<PropertyKey, unknown>>({

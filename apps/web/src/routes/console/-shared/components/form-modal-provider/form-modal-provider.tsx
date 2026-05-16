@@ -4,7 +4,7 @@ import { FormModalContext } from '~/routes/console/-shared/context';
 import type { FormComponentProps, Entity } from '~/shared';
 
 type FormModalProviderProps<T extends Entity> = {
-  form: (props: FormComponentProps<T>) => JSX.Element;
+  form: (props: FormComponentProps<T>) => React.ReactElement;
   children?: React.ReactNode;
 };
 

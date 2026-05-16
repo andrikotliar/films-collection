@@ -21,7 +21,7 @@ type UpdateMenuPositionProps = {
 
 export type FloatingElementProps = {
   isOpen: boolean;
-  triggerRef: React.RefObject<HTMLElement>;
+  triggerRef: React.RefObject<HTMLElement | null>;
   /**
    * Defines from where calculate position depending on triggerRef
    * @default left

@@ -1,16 +1,12 @@
-import { forwardRef } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';
-import {
-  TextEditor,
-  type EditorRef,
-  type TextEditorProps,
-} from '~/shared/components/text-editor/text-editor';
+import { TextEditor, type TextEditorProps } from '~/shared/components/text-editor/text-editor';
 import type { FormError, FormFieldProps } from '~/shared/types';
 
-export const FormTextEditor = forwardRef<
-  EditorRef,
-  FormFieldProps<Pick<TextEditorProps, 'label' | 'menuOptions'>>
->(({ name, ...props }, ref) => {
+export const FormTextEditor = ({
+  name,
+  ref,
+  ...props
+}: FormFieldProps<Pick<TextEditorProps, 'label' | 'menuOptions' | 'ref'>>) => {
   const { formState, control } = useFormContext();
 
   const error = formState.errors[name]?.message;
@@ -30,4 +26,4 @@ export const FormTextEditor = forwardRef<
       )}
     />
   );
-});
+};
