@@ -13,7 +13,7 @@ type CurrentEventsProps = {
 export const CurrentEvents = ({ events, total, anniversaryPoster }: CurrentEventsProps) => {
   const search = useSearch({ from: '/_home/' });
 
-  if (!events.length) {
+  if (!events.length && !anniversaryPoster) {
     return null;
   }
 

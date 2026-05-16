@@ -175,6 +175,7 @@ export const FilmsListResponseSchema = getListResponseSchema(
     FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true }).extend({
       upcoming: z.boolean(),
       inDays: z.number().nullable(),
+      releasedYears: z.number().nullable(),
     }),
   ),
 ).extend({

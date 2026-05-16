@@ -13,8 +13,22 @@ import { PlayIcon } from 'lucide-react';
 import { useState } from 'react';
 import { TrailerWindow } from '~/routes/_home/-components/films-section/components/trailer-window/trailer-window';
 
+type Film = ApiResponse<typeof api.films.getList.exec>['list'][number];
+
 type FilmsGridProps = {
   films: ApiResponse<typeof api.films.getList.exec>['list'];
+};
+
+const getYearValue = (film: Film) => {
+  if (film.releasedYears) {
+    return `Anniversary: ${film.releasedYears} years (${getYearFromDate(film.releaseDate)})`;
+  }
+
+  if (film.inDays) {
+    return `In ${film.inDays} ${getPluralWord('day', film.inDays)}`;
+  }
+
+  return getYearFromDate(film.releaseDate);
 };
 
 export const FilmsGrid = ({ films }: FilmsGridProps) => {
@@ -43,11 +57,7 @@ export const FilmsGrid = ({ films }: FilmsGridProps) => {
             )}
           </div>
           <h3 className={styles.title}>{film.title}</h3>
-          <p className={styles.year}>
-            {film.inDays
-              ? `In ${film.inDays} ${getPluralWord('day', film.inDays)}`
-              : getYearFromDate(film.releaseDate)}
-          </p>
+          <p className={styles.year}>{getYearValue(film)}</p>
         </Link>
       ))}
       <TrailerWindow filmId={selectedFilmId} onClose={() => setSelectedFilmId(null)} />
