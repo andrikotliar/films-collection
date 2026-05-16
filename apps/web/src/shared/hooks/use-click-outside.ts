@@ -1,9 +1,9 @@
-import { type RefObject, useCallback, useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 
 type Options = {
   isOpen: boolean;
-  triggerElementRef: RefObject<HTMLElement>;
-  containerRef: RefObject<HTMLDivElement>;
+  triggerElementRef: React.RefObject<HTMLElement | null>;
+  containerRef: React.RefObject<HTMLDivElement | null>;
   isEnabled?: boolean;
   closeHandler: VoidFunction;
 };

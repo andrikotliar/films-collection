@@ -8,7 +8,7 @@ import { mainMenuConfig } from '~/shared/configs';
 type AppMenuProps = {
   isOpen: boolean;
   onClose: VoidFunction;
-  menuButtonRef: React.RefObject<HTMLButtonElement>;
+  menuButtonRef: React.RefObject<HTMLButtonElement | null>;
 };
 
 export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {

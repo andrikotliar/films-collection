@@ -1,5 +1,4 @@
 import styles from './button.module.css';
-import { forwardRef } from 'react';
 import clsx from 'clsx';
 import { Loader } from '~/shared/components/loader/loader';
 
@@ -15,39 +14,36 @@ export type ButtonProps = {
   children?: React.ReactNode;
   size?: 'small' | 'medium';
   fitWidth?: boolean;
+  ref?: React.RefObject<HTMLButtonElement | null>;
 };
 
-export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  (
-    {
-      children,
-      icon,
-      onClick,
-      type = 'button',
-      variant = 'primary',
-      isDisabled,
-      isLoading = false,
-      size = 'medium',
-      fitWidth = false,
-    },
-    ref,
-  ) => {
-    return (
-      <button
-        onClick={onClick}
-        type={type}
-        className={clsx(styles.button, styles[variant], styles[size], fitWidth && styles.fit_width)}
-        disabled={isDisabled || isLoading}
-        ref={ref}
-      >
-        {isLoading && (
-          <div className={styles.icon}>
-            <Loader size={20} shouldInheritColor />
-          </div>
-        )}
-        {icon && !isLoading && <div className={styles.icon}>{icon}</div>}
-        {children}
-      </button>
-    );
-  },
-);
+export const Button = ({
+  children,
+  icon,
+  onClick,
+  type = 'button',
+  variant = 'primary',
+  isDisabled,
+  isLoading = false,
+  size = 'medium',
+  fitWidth = false,
+  ref,
+}: ButtonProps) => {
+  return (
+    <button
+      onClick={onClick}
+      type={type}
+      className={clsx(styles.button, styles[variant], styles[size], fitWidth && styles.fit_width)}
+      disabled={isDisabled || isLoading}
+      ref={ref}
+    >
+      {isLoading && (
+        <div className={styles.icon}>
+          <Loader size={20} shouldInheritColor />
+        </div>
+      )}
+      {icon && !isLoading && <div className={styles.icon}>{icon}</div>}
+      {children}
+    </button>
+  );
+};

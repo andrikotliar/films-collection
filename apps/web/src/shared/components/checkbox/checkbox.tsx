@@ -1,6 +1,5 @@
 import { CheckIcon } from 'lucide-react';
 import styles from './checkbox.module.css';
-import { type ComponentProps, forwardRef } from 'react';
 import type { StatusColor } from '~/shared/types';
 import clsx from 'clsx';
 
@@ -9,7 +8,8 @@ export type CheckboxProps = {
   label: string;
   rightIcon?: React.ReactNode;
   theme?: StatusColor;
-} & Omit<ComponentProps<'input'>, 'type'>;
+  ref?: React.RefObject<HTMLInputElement | null>;
+} & Omit<React.ComponentProps<'input'>, 'type'>;
 
 const colorToClassName: Record<StatusColor, string> = {
   blue: styles.blueTheme,
@@ -19,19 +19,24 @@ const colorToClassName: Record<StatusColor, string> = {
   green: styles.greenTheme,
 };
 
-export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
-  ({ type = 'checkbox', theme = 'blue', label, rightIcon, ...checkboxInputProps }, ref) => {
-    return (
-      <label className={clsx(styles.checkbox, colorToClassName[theme])}>
-        <input ref={ref} type={type} {...checkboxInputProps} />
-        <div className={styles.icon_wrapper}>
-          <CheckIcon className={styles.icon} />
-        </div>
-        <div className={styles.title}>
-          {label}
-          {rightIcon}
-        </div>
-      </label>
-    );
-  },
-);
+export const Checkbox = ({
+  type = 'checkbox',
+  theme = 'blue',
+  label,
+  rightIcon,
+  ref,
+  ...checkboxInputProps
+}: CheckboxProps) => {
+  return (
+    <label className={clsx(styles.checkbox, colorToClassName[theme])}>
+      <input ref={ref} type={type} {...checkboxInputProps} />
+      <div className={styles.icon_wrapper}>
+        <CheckIcon className={styles.icon} />
+      </div>
+      <div className={styles.title}>
+        {label}
+        {rightIcon}
+      </div>
+    </label>
+  );
+};

@@ -5,7 +5,7 @@ import { type FormError } from '~/shared';
 import { FieldLabel } from '../field-label/field-label';
 import { FieldError } from '../field-error/field-error';
 import { MenuBar } from './components';
-import { forwardRef, useEffect, useImperativeHandle } from 'react';
+import { useEffect, useImperativeHandle } from 'react';
 import type { EditorMenuOption } from '~/shared/components/text-editor/components/menu-bar-additional-options/menu-bar-additional-options';
 
 const extensions = [StarterKit];
@@ -16,44 +16,50 @@ export type TextEditorProps = {
   content?: string;
   onChange: (content: string) => void;
   menuOptions?: EditorMenuOption[];
+  ref?: React.RefObject<EditorRef | null>;
 };
 
 export type EditorRef = {
   setContent: (content: string) => boolean | undefined;
 };
 
-export const TextEditor = forwardRef<EditorRef, TextEditorProps>(
-  ({ label, error, content = '', onChange, menuOptions }, ref) => {
-    const editor = useEditor({
-      extensions,
-      content,
-      editorProps: {
-        attributes: {
-          class: styles.editor,
-        },
+export const TextEditor = ({
+  label,
+  error,
+  content = '',
+  onChange,
+  menuOptions,
+  ref,
+}: TextEditorProps) => {
+  const editor = useEditor({
+    extensions,
+    content,
+    editorProps: {
+      attributes: {
+        class: styles.editor,
       },
-      onUpdate: (props) => onChange(props.editor.getHTML()),
-    });
+    },
+    onUpdate: (props) => onChange(props.editor.getHTML()),
+  });
 
-    useEffect(() => {
-      if (editor && content?.length && !editor.getText().length) {
-        editor.commands.setContent(content);
-      }
-    }, [content, editor]);
+  useEffect(() => {
+    if (editor && content?.length && !editor.getText().length) {
+      editor.commands.setContent(content);
+    }
+  }, [content, editor]);
 
-    useImperativeHandle(ref, () => ({
-      setContent: (content: string) => editor?.commands.setContent(content),
-    }));
+  useImperativeHandle(ref, () => ({
+    setContent: (content: string) => editor?.commands.setContent(content),
+  }));
 
-    return (
-      <div className={styles.editor_wrapper}>
-        {label && <FieldLabel>{label}</FieldLabel>}
-        <div>
-          <MenuBar editor={editor} menuOptions={menuOptions} />
-          <EditorContent editor={editor} />
-        </div>
-        <FieldError error={error} />
+  return (
+    <div className={styles.editor_wrapper}>
+      {label && <FieldLabel>{label}</FieldLabel>}
+      <div>
+        <MenuBar editor={editor} menuOptions={menuOptions} />
+        <EditorContent editor={editor} />
       </div>
-    );
-  },
-);
+      <FieldError error={error} />
+    </div>
+  );
+};
