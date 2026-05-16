@@ -3,17 +3,16 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useDocumentTitle, getPageContentAdminListQueryOptions, api } from '~/shared';
 import { List } from '~/routes/console/-shared';
 import { GetPageContentListQueriesSchema } from '@films-collection/shared';
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/page-content')({
   validateSearch: (search) => {
     return GetPageContentListQueriesSchema.parse(search);
   },
-  loaderDeps: ({ search }) => ({
-    search,
-  }),
-  loader: ({ context, deps }) => {
-    return context.queryClient.ensureQueryData(getPageContentAdminListQueryOptions(deps.search));
+  loader: ({ context, location }) => {
+    return context.queryClient.ensureQueryData(
+      getPageContentAdminListQueryOptions(location.search),
+    );
   },
   component: PageContainer,
   staticData: {
@@ -34,7 +33,7 @@ const getDeleteMutationOptions = () => {
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useSuspenseQuery(getPageContentAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(getPageContentAdminListQueryOptions(searchParams));
 
   useDocumentTitle('Page Content');
 

@@ -1,4 +1,4 @@
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { api, getEmptyFormValues, getStudiosListQueryOptions, type Input } from '~/shared';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
@@ -29,7 +29,7 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useSuspenseQuery(getStudiosListQueryOptions());
+  const { data, isFetching } = useQuery(getStudiosListQueryOptions());
   const { onOpen } = useFormModal();
 
   return (

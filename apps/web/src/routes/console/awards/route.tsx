@@ -1,4 +1,4 @@
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { List } from '~/routes/console/-shared';
 import { api, getAwardsBaseDataListQueryOptions } from '~/shared';
@@ -25,7 +25,7 @@ const getDeleteMutationOptions = () => {
 
 function PageContainer() {
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useSuspenseQuery(getAwardsBaseDataListQueryOptions());
+  const { data, isFetching } = useQuery(getAwardsBaseDataListQueryOptions());
 
   const handleOnEdit = (id: number) => {
     navigate({

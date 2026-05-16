@@ -13,11 +13,8 @@ export const Route = createFileRoute('/console/films')({
   validateSearch: (search) => {
     return GetAdminListQuerySchema.parse(search);
   },
-  loaderDeps: ({ search }) => ({
-    search,
-  }),
-  loader: async ({ context, deps }) => {
-    await context.queryClient.ensureQueryData(getFilmsAdminListQueryOptions(deps.search));
+  loader: async ({ context, location }) => {
+    await context.queryClient.ensureQueryData(getFilmsAdminListQueryOptions(location.search));
     await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
   },
   component: PageContainer,

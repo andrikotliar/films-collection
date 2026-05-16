@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 import {
   getDateMonthLabel,
   getCollectionEventsQueryOptions,
@@ -56,7 +56,7 @@ const getDeleteMutationOptions = () => {
 function CollectionEventsContainer() {
   const { onOpen } = useFormModal<FormModalValues<typeof CollectionEventForm>>();
 
-  const { data, isFetching } = useSuspenseQuery(getCollectionEventsQueryOptions());
+  const { data, isFetching } = useQuery(getCollectionEventsQueryOptions());
 
   return (
     <List

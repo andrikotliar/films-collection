@@ -2,7 +2,7 @@ import { api, getCountriesListQueryOptions, getEmptyFormValues, type Input } fro
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { CountryForm } from '~/routes/console/countries/-components';
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 
 const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create.exec>>({
   title: '',
@@ -32,7 +32,7 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useSuspenseQuery(getCountriesListQueryOptions());
+  const { data, isFetching } = useQuery(getCountriesListQueryOptions());
   const { onOpen } = useFormModal();
 
   return (

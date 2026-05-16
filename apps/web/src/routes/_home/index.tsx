@@ -21,11 +21,8 @@ export const Route = createFileRoute('/_home/')({
   validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
     return GetFilmsListQuerySchema.parse(search);
   },
-  loaderDeps: ({ search }) => ({
-    search,
-  }),
-  loader: async ({ context, deps }) => {
-    await context.queryClient.ensureQueryData(getFilmsListQueryOptions(deps.search));
+  loader: async ({ context, location }) => {
+    await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
   },
   component: RootPageContainer,
 });

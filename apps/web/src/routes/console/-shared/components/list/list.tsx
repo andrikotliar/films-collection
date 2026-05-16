@@ -20,11 +20,13 @@ type GetDeleteMutationOptions = () => UseMutationOptions<
 >;
 
 type ListProps<T extends DefaultListItem> = {
-  data: {
-    list: T[];
-    total?: number;
-    pageLimit?: number;
-  };
+  data:
+    | {
+        list: T[];
+        total?: number;
+        pageLimit?: number;
+      }
+    | undefined;
   getDeleteMutationOptions: GetDeleteMutationOptions;
   isFetching?: boolean;
   createItemTitle?: string;
@@ -63,6 +65,11 @@ export const List = <T extends DefaultListItem>({
       </div>
     );
   }
+
+  if (!data) {
+    return <div className={clsx(styles.placeholder, styles.list_wrapper)}>No items found</div>;
+  }
+
   const shouldShowHeader = !!onNavigateToForm || !!onCreate;
 
   return (

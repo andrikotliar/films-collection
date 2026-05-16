@@ -4,7 +4,7 @@ import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { CollectionForm } from '~/routes/console/collections/-components';
 import type z from 'zod';
 import type { CollectionFormSchema } from '~/routes/console/collections/-schemas';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
 
 const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create.exec>>({
   title: '',
@@ -34,7 +34,7 @@ const getDeleteMutationsOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useSuspenseQuery(getCollectionsListQueryOptions());
+  const { data, isFetching } = useQuery(getCollectionsListQueryOptions());
   const { onOpen } = useFormModal<z.infer<typeof CollectionFormSchema>>();
 
   return (

@@ -1,4 +1,4 @@
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import { getRouteApi } from '@tanstack/react-router';
 import { List } from '~/routes/console/-shared';
 import { AdminFilmsTools } from '~/routes/console/films/-components/admin-films-tools/admin-films-tools';
@@ -34,7 +34,7 @@ const getDeleteMutationOptions = () => {
 export const FilmsListContent = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
-  const { data, isFetching } = useSuspenseQuery(getFilmsAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(getFilmsAdminListQueryOptions(searchParams));
   const { data: initialData, isFetching: isInitialDataFetching } = useSuspenseQuery(
     getInitialDataQueryOptions(),
   );
