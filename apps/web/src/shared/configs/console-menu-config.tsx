@@ -72,6 +72,8 @@ export const consoleMenuConfig = {
     route: '/console/films',
     search: {
       draftLevels: [DraftLevel.PENDING],
+      order: 'asc',
+      orderKey: 'createdAt',
     },
     title: 'Pending Films',
     icon: <CalendarClockIcon />,
