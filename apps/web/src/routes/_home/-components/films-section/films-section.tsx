@@ -3,14 +3,15 @@ import clsx from 'clsx';
 import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import { CameraLoader, getFilmsListQueryOptions, PageTitle, Pagination } from '~/shared';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
+import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
 
 const routeApi = getRouteApi('/_home/');
 
 export const FilmsSection = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
-  const { data, isFetching } = useSuspenseQuery(getFilmsListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(getFilmsListQueryOptions(searchParams));
 
   if (isFetching) {
     return (
@@ -18,6 +19,10 @@ export const FilmsSection = () => {
         <CameraLoader />
       </div>
     );
+  }
+
+  if (!data) {
+    return <FilmsNotFound />;
   }
 
   const handlePageNavigation = (pageIndex: number) => {

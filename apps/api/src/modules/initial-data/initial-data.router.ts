@@ -1,7 +1,7 @@
-import { initialDataContract } from '@films-collection/api-client';
+import { contracts } from '@films-collection/api-client';
 import { createRouter } from '~/shared';
 
-export const initialDataRouter = createRouter(initialDataContract, {
+export const initialDataRouter = createRouter(contracts.initialDataContract, {
   get: {
     handler: async ({ app }) => {
       const data = await app.container.resolve('initialDataService').getOptions();

@@ -82,6 +82,7 @@ export const ConsoleHeader = () => {
                 style={defineCssProperties({
                   '--console-float-menu-color': `var(--${item.color})`,
                 })}
+                search={'search' in item ? item.search : undefined}
               >
                 {item.icon}
                 {item.title}

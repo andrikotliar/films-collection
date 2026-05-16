@@ -138,7 +138,6 @@ export const FilmResponseSchema = z.object({
   countries: z.array(CountryResponseSchema.omit({ createdAt: true, updatedAt: true })),
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   trailers: z.array(TrailerSchema),
-  chapters: z.array(ChapterSchema),
   awards: z.array(
     z.object({
       award: AwardResponseSchema.pick({ id: true, title: true }),

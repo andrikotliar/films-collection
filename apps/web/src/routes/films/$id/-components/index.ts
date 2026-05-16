@@ -1,7 +1,6 @@
 export * from './film-page-layout/film-page-layout';
 export * from './content-layout/content-layout';
 export * from './summary-section/summary-section';
-export * from './description/description';
 export * from './release-date/release-date';
 export * from './data-link/data-link';
 export * from './links-group/links-group';
@@ -9,6 +8,4 @@ export * from './links-group-wrapper/links-group-wrapper';
 export * from './dates/dates';
 export * from './cast-and-crew/cast-and-crew';
 export * from './awards/awards';
-export * from './chapters/chapters';
 export * from './navigation-row/navigation-row';
-export * from './section/section';

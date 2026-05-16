@@ -119,11 +119,7 @@ export class FilmsService {
       return null;
     }
 
-    const chapters = film.chapterKey
-      ? await this.deps.filmsRepository.findChapters(film.chapterKey)
-      : null;
-
-    const mappedFilm = mapFilmDetails(film, chapters);
+    const mappedFilm = mapFilmDetails(film);
 
     return mappedFilm;
   }

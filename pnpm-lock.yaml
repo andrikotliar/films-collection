@@ -3,6 +3,7 @@ lockfileVersion: '9.0'
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
+  injectWorkspacePackages: true
 
 importers:
 
@@ -15,7 +16,7 @@ importers:
         specifier: ^9.36.0
         version: 9.39.3
       typescript:
-        specifier: ^5.9.2
+        specifier: ^5.9.3
         version: 5.9.3
       typescript-eslint:
         specifier: ^8.44.0
@@ -199,9 +200,6 @@ importers:
       eslint:
         specifier: ^9.36.0
         version: 9.39.3
-      eslint-js:
-        specifier: 0.0.1-security
-        version: 0.0.1-security
       eslint-plugin-react-hooks:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.39.3)
@@ -2937,9 +2935,6 @@ packages:
   escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
-
-  eslint-js@0.0.1-security:
-    resolution: {integrity: sha512-APZDW0vzzcd3k1fBByzjtPu4PBdRJ1OEFN83GrSY9UOiVMkcBKSU+E8PQJMZNcn+e3RpMey1J3hTuE544S3LhQ==}
 
   eslint-plugin-react-hooks@5.2.0:
     resolution: {integrity: sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==}
@@ -7787,8 +7782,6 @@ snapshots:
   escape-html@1.0.3: {}
 
   escape-string-regexp@4.0.0: {}
-
-  eslint-js@0.0.1-security: {}
 
   eslint-plugin-react-hooks@5.2.0(eslint@9.39.3):
     dependencies:

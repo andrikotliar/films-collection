@@ -8,6 +8,10 @@
   align-items: flex-start;
 }
 
+.role_item:first-child {
+  border-top: var(--border-default);
+}
+
 .role_item:last-child {
   border: 0;
 }

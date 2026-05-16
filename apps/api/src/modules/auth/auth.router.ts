@@ -8,9 +8,9 @@ import {
   REFRESH_TOKEN_MAX_AGE_SEC,
   validateAuth,
 } from '~/shared';
-import { authContract } from '@films-collection/api-client';
+import { contracts } from '@films-collection/api-client';
 
-export const authRouter = createRouter(authContract, {
+export const authRouter = createRouter(contracts.authContract, {
   getState: {
     preHandler: [validateAuth],
     async handler() {

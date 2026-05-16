@@ -17,7 +17,7 @@ import { sortGroupedPeople } from '~/modules/films/helpers/sort-grouped-people';
 import type { GroupedAwards, GroupedPeople, PickBaseData, Timestamps } from '~/modules/films/types';
 import { nullable } from '~/shared';
 
-type ExtendedFilm = Omit<Film, 'style' | 'draft' | 'overview' | Timestamps> & {
+type ExtendedFilm = Omit<Film, 'style' | 'draft' | Timestamps> & {
   genres: Array<{ genre: PickBaseData<Genre> }>;
   studios: Array<{ studio: PickBaseData<Studio> }>;
   countries: Array<{ country: PickBaseData<Country> }>;
@@ -40,10 +40,7 @@ const mapNestedRelations = <T extends Record<string, unknown>>(values: T[], sele
   return values.map((item) => item[selector]);
 };
 
-export const mapFilmDetails = (
-  film: ExtendedFilm,
-  chapters: Array<Pick<Film, 'id' | 'title' | 'poster' | 'chapterOrder'>> | null,
-): z.infer<typeof FilmResponseSchema> => {
+export const mapFilmDetails = (film: ExtendedFilm): z.infer<typeof FilmResponseSchema> => {
   const castAndCrew = film.castAndCrew.reduce((result, { role, details, person }) => {
     if (!result[role]) {
       result[role] = { role, people: [] };
@@ -84,6 +81,5 @@ export const mapFilmDetails = (
     castAndCrew: sortGroupedPeople(castAndCrew),
     awards: Object.values(awards),
     seriesExtension: nullable(film.seriesExtensions[0]),
-    chapters: chapters ?? [],
   };
 };

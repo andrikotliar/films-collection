@@ -2,7 +2,7 @@ import { api, getEmptyFormValues, getGenresListQueryOptions, type Input } from '
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GenresForm } from '~/routes/console/genres/-components';
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/genres')({
   loader: async ({ context: { queryClient } }) => {
@@ -32,7 +32,7 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useSuspenseQuery(getGenresListQueryOptions());
+  const { data, isFetching } = useQuery(getGenresListQueryOptions());
   const { onOpen } = useFormModal();
 
   return (

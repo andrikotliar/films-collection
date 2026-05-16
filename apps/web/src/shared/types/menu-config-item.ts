@@ -9,6 +9,7 @@ type BaseConfig = {
 
 type LinkConfig = BaseConfig & {
   route: keyof FileRoutesByTo;
+  search?: Record<string, any>;
   type: 'link';
 };
 

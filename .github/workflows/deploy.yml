@@ -21,6 +21,20 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v6
 
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 10
+
+      - name: Install dependencies
+        run: pnpm i -g drizzle-kit drizzle-orm esbuild pg 
+
+      - name: Run production migrations
+        working-directory: apps/api
+        run: drizzle-kit migrate --config drizzle.config.ts
+        env:
+          DATABASE_URL: ${{ secrets.DB_CONNECTION_STR }}
+
       - name: Set up Flyctl
         uses: superfly/flyctl-actions/setup-flyctl@master
 

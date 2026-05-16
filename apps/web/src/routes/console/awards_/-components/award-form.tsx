@@ -28,6 +28,9 @@ export const AwardForm = ({ values }: AwardFormProps) => {
           queryKey: api.awards.getById.staticKey,
         },
         {
+          queryKey: api.awards.getList.staticKey,
+        },
+        {
           queryKey: api.initialData.get.staticKey,
         },
       ],

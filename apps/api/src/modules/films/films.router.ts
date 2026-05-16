@@ -1,7 +1,7 @@
-import { filmsContract } from '@films-collection/api-client';
+import { contracts } from '@films-collection/api-client';
 import { NotFoundException, createRouter, validateAuth, validateGetSignature } from '~/shared';
 
-export const filmsRouter = createRouter(filmsContract, {
+export const filmsRouter = createRouter(contracts.filmsContract, {
   getList: {
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilteredFilms(request.query);

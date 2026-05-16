@@ -42,7 +42,7 @@ export type Router = {
 };
 
 export const createRouter = <
-  C extends ContractDefinition<Record<string, ApiContract<S>>>,
+  C extends ContractDefinition<string, Record<string, ApiContract<S>>>,
   S extends RouteSchema = { response: z.ZodType },
 >(
   contract: C,

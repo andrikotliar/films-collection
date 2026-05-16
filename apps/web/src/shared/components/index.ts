@@ -39,3 +39,4 @@ export * from './page-loader/page-loader';
 export * from './filters/filters';
 export * from './filters-sidebar/filters-sidebar';
 export * from './page-title/page-title';
+export * from './drawer/drawer';

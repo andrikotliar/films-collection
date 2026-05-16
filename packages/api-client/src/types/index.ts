@@ -1,10 +1,15 @@
 import type { z } from 'zod';
 
-export type RouteSchema = {
-  body?: z.ZodType;
-  querystring?: z.ZodType;
-  params?: z.ZodType;
-  response: z.ZodType;
+export type RouteSchema<
+  TBody extends z.ZodType | undefined = undefined,
+  TQuery extends z.ZodType | undefined = undefined,
+  TParams extends z.ZodType | undefined = undefined,
+  TResponse extends z.ZodType = z.ZodType,
+> = {
+  body?: TBody;
+  querystring?: TQuery;
+  params?: TParams;
+  response: TResponse;
 };
 
 export type ApiContract<S extends RouteSchema = { response: z.ZodType }> = {
@@ -14,9 +19,8 @@ export type ApiContract<S extends RouteSchema = { response: z.ZodType }> = {
 };
 
 export type ContractDefinition<
-  TRoutes extends Record<string, ApiContract<TSchema>>,
-  TPrefix extends string = string,
-  TSchema extends RouteSchema = { response: z.ZodType },
+  TPrefix extends string,
+  TRoutes extends Record<string, ApiContract<any>>,
 > = {
   prefix: TPrefix;
   routes: TRoutes;

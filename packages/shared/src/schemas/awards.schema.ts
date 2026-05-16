@@ -8,7 +8,7 @@ export const NominationInputSchema = z.object({
 });
 
 export const CreateAwardInputSchema = z.object({
-  title: z.string(),
+  title: z.string().regex(/(Award|Awards)$/),
   description: z.string().nullable(),
   nominations: z.array(NominationInputSchema),
 });

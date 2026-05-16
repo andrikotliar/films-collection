@@ -1,5 +1,4 @@
-import styles from './form-modal.module.css';
-import { type FormComponentProps, Modal, Panel } from '~/shared';
+import { type FormComponentProps, Modal } from '~/shared';
 
 type FormModalProps<T extends Record<PropertyKey, unknown>> = {
   onClose: VoidFunction;
@@ -17,12 +16,10 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
   }
 
   return (
-    <Modal isOpen onClose={onClose} className={styles.wrapper} isAllowedClickOutside={false}>
-      <Modal.Content className={styles.content}>
-        <Panel>
-          <FormComponent values={values} />
-        </Panel>
-        <Modal.CloseButton onClick={onClose} className={styles.close_button} />
+    <Modal isOpen onClose={onClose} isAllowedClickOutside={false}>
+      <Modal.Content size="form">
+        <FormComponent values={values} />
+        <Modal.CloseButton onClick={onClose} />
       </Modal.Content>
     </Modal>
   );

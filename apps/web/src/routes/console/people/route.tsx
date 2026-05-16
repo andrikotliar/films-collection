@@ -3,7 +3,7 @@ import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { Filters, PersonForm } from '~/routes/console/people/-components';
 import { createFileRoute } from '@tanstack/react-router';
 import { GetPeopleListQuerySchema } from '@films-collection/shared';
-import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { mutationOptions, useQuery } from '@tanstack/react-query';
 
 const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create.exec>>({
   name: '',
@@ -23,11 +23,8 @@ export const Route = createFileRoute('/console/people')({
   validateSearch: (search) => {
     return GetPeopleListQuerySchema.parse(search);
   },
-  loaderDeps: ({ search }) => ({
-    search,
-  }),
-  loader: async ({ context: { queryClient }, deps: { search } }) => {
-    return await queryClient.ensureQueryData(getPeopleAdminListQueryOptions(search));
+  loader: async ({ context: { queryClient }, location }) => {
+    return await queryClient.ensureQueryData(getPeopleAdminListQueryOptions(location.search));
   },
   component: withFormModal(PersonForm, RouteComponent),
   staticData: {
@@ -41,7 +38,7 @@ function RouteComponent() {
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
 
-  const { data, isFetching } = useSuspenseQuery(getPeopleAdminListQueryOptions(search));
+  const { data, isFetching } = useQuery(getPeopleAdminListQueryOptions(search));
 
   const handleChangePage = (pageIndex: number) => {
     navigate({
