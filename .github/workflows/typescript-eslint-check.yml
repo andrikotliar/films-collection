@@ -32,8 +32,14 @@ jobs:
       - name: Build packages
         run: pnpm --filter "./packages/*" run build
 
+      - name: Install API dependencies
+        run: pnpm --filter ./apps/api install
+
       - name: TypeScript check — apps/api
         run: pnpm --filter ./apps/api typecheck
+
+      - name: Install web dependencies
+        run: pnpm --filter ./apps/web install
 
       - name: TypeScript check — apps/web
         run: pnpm --filter ./apps/web typecheck
