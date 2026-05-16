@@ -30,9 +30,9 @@ import {
   filmsPeople,
   filmsStudios,
   seriesExtensions,
-} from '~/database/schema';
-import type { Database } from '~/plugins';
-import { sqlSearchQuery, thisDateReleaseSql } from '~/shared';
+} from '~/database/schema.js';
+import type { Database } from '~/plugins/index.js';
+import { sqlSearchQuery, thisDateReleaseSql } from '~/shared/index.js';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 

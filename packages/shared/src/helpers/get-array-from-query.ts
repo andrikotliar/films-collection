@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const getArrayFromQuery = <T extends z.ZodType<any, any>>(item: T) =>
   z

@@ -20,7 +20,7 @@ import {
   filmsPeople,
   users,
   usersSessions,
-} from './schema';
+} from './schema.js';
 
 export const filmsRelations = relations(films, ({ one, many }) => ({
   chapterKey: one(filmChapterKeys, {

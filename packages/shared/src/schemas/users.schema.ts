@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const DeviceInfoSchema = z.object({
   os: z.string(),

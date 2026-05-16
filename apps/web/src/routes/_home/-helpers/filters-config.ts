@@ -5,7 +5,7 @@ import {
   type InitialDataResponse,
   type ListOption,
 } from '@films-collection/shared';
-import z from 'zod';
+import { z } from 'zod';
 import type { FilterItem } from '~/shared';
 
 const ALL_OPTION: ListOption<string> = {

@@ -1,7 +1,7 @@
 import { type CreateCollectionInput, type UpdateCollectionInput } from '@films-collection/shared';
 import { asc, count, eq } from 'drizzle-orm';
-import { collections, filmsCollections } from '~/database/schema';
-import { getCount, getFirstValue, type Deps } from '~/shared';
+import { collections, filmsCollections } from '~/database/schema.js';
+import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
 
 export class CollectionsRepository {
   constructor(private readonly deps: Deps<'db'>) {}

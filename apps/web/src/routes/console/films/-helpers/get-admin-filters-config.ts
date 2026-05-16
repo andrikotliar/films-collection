@@ -1,5 +1,5 @@
 import { convertEnumValuesToOption, DraftLevel, enumValues } from '@films-collection/shared';
-import z from 'zod';
+import { z } from 'zod';
 import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
 import type { api, ApiResponse, FilterItem } from '~/shared';
 

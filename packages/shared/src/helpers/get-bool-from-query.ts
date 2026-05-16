@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const getBoolFromQuery = z.preprocess((v) => {
   if (typeof v === 'boolean') {

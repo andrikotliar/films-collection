@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import z from 'zod';
+import { z } from 'zod';
 
 const EnvSchema = z.object({
   SERVER_PORT: z.string().transform((value) => Number(value)),

@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 import { buildListOptionSchema } from '~/schemas/list-options.schema';
 
 export const InitialDataResponseSchema = z.object({

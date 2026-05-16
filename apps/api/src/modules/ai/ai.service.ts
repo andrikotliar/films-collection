@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import type { ResponsesModel } from 'openai/resources/shared';
-import type { Deps } from '~/shared';
+import type { Deps } from '~/shared/index.js';
 
 type LangParams = {
   from: string;

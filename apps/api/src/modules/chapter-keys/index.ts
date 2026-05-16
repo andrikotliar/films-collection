@@ -1,3 +1,3 @@
-export * from './chapter-keys.router';
-export * from './chapter-keys.repository';
-export * from './chapter-keys.service';
+export * from './chapter-keys.router.js';
+export * from './chapter-keys.repository.js';
+export * from './chapter-keys.service.js';

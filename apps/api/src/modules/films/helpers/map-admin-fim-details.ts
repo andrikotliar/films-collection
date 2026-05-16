@@ -9,8 +9,8 @@ import type {
   FilmStudio,
   FilmTrailer,
   SeriesExtension,
-} from '~/database/schema';
-import type { Timestamps } from '~/modules/films/types';
+} from '~/database/schema.js';
+import type { Timestamps } from '~/modules/films/types.js';
 
 type EditableFilm = Omit<Film, Timestamps | 'id'> & {
   collections: Pick<FilmCollection, 'collectionId'>[];

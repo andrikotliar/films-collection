@@ -1,3 +1,3 @@
-export * from './unauthorized';
-export * from './not-found';
-export * from './bad-request';
+export * from './unauthorized.js';
+export * from './not-found.js';
+export * from './bad-request.js';

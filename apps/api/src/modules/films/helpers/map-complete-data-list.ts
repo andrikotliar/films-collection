@@ -1,6 +1,6 @@
 import { type CompleteDataListItem } from '@films-collection/shared';
-import type { Film, FilmPerson, FilmTrailer, Person, SeriesExtension } from '~/database/schema';
-import type { Timestamps } from '~/modules/films/types';
+import type { Film, FilmPerson, FilmTrailer, Person, SeriesExtension } from '~/database/schema.js';
+import type { Timestamps } from '~/modules/films/types.js';
 
 type PropertyWithTitleAndId = {
   id: number;

@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import type { FastifyRequest } from 'fastify';
-import { UnauthorizedException } from '~/shared/exceptions';
+import { UnauthorizedException } from '~/shared/exceptions/index.js';
 
 const HEADER_SIGNATURE = 'x-signature';
 const HEADER_TIMESTAMP = 'x-timestamp';

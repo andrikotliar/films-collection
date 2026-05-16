@@ -1,3 +1,3 @@
-export * from './error-params';
-export * from './auto-fields';
-export * from './dependencies';
+export * from './error-params.js';
+export * from './auto-fields.js';
+export * from './dependencies.js';

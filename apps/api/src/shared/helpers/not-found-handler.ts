@@ -1,5 +1,5 @@
 import type { FastifyReply, FastifyRequest } from 'fastify';
-import { ResponseCode } from '~/shared/enums';
+import { ResponseCode } from '~/shared/enums/index.js';
 
 export const notFoundHandler = (request: FastifyRequest, reply: FastifyReply) => {
   if (request.url.startsWith('/api')) {

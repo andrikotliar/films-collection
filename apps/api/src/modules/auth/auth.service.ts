@@ -4,9 +4,9 @@ import {
   getDeviceInfo,
   REFRESH_TOKEN_MAX_AGE_SEC,
   type Deps,
-} from '~/shared';
+} from '~/shared/index.js';
 import type { LoginInput } from '@films-collection/shared';
-import type { VerifiedTokenData } from '~/modules/auth/types';
+import type { VerifiedTokenData } from '~/modules/auth/types.js';
 
 export class AuthService {
   constructor(private readonly deps: Deps<'usersService' | 'jwtService'>) {}

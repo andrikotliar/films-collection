@@ -22,7 +22,7 @@ import {
   FilmTrailersResponseSchema,
   GetAdminListQuerySchema,
 } from '@films-collection/shared';
-import z from 'zod';
+import { z } from 'zod';
 import { defineContracts } from '~/helpers';
 
 export const filmsContract = defineContracts('films', {

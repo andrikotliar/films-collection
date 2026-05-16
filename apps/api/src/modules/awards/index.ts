@@ -1,3 +1,3 @@
-export * from './awards.router';
-export * from './awards.repository';
-export * from './awards.service';
+export * from './awards.router.js';
+export * from './awards.repository.js';
+export * from './awards.service.js';

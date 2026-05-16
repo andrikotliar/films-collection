@@ -1,6 +1,6 @@
 import type { FastifyError, FastifyReply, FastifyRequest } from 'fastify';
-import { ResponseCode } from '../enums';
 import { DrizzleQueryError } from 'drizzle-orm';
+import { ResponseCode } from '~/shared/enums/response-code.js';
 
 export const errorHandler = (error: FastifyError, _: FastifyRequest, reply: FastifyReply) => {
   // eslint-disable-next-line

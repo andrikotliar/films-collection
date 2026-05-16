@@ -1,6 +1,6 @@
-import { getCount, getFirstValue, type Deps } from '~/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
 import { type GenreInput } from '@films-collection/shared';
-import { genres } from '~/database/schema';
+import { genres } from '~/database/schema.js';
 import { asc, eq } from 'drizzle-orm';
 
 export class GenresRepository {

@@ -2,13 +2,13 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["DOM", "ESNext"],
-    "baseUrl": "./src",
+    "rootDir": ".",
     "outDir": "dist",
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": false,
     "paths": {
-      "~/*": ["*"]
+      "~/*": ["./src/*"]
     }
   },
   "tsc-alias": {

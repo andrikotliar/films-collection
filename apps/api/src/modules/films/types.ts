@@ -1,5 +1,5 @@
 import type { TPersonRole } from '@films-collection/shared';
-import type { Award, FilmPerson, Nomination, Person } from '~/database/schema';
+import type { Award, FilmPerson, Nomination, Person } from '~/database/schema.js';
 
 export type PickBaseData<T extends { id: number; title: string }> = Pick<T, 'id' | 'title'>;
 export type Timestamps = 'createdAt' | 'updatedAt' | 'deletedAt';

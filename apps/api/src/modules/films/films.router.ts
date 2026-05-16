@@ -1,5 +1,10 @@
 import { contracts } from '@films-collection/api-client';
-import { NotFoundException, createRouter, validateAuth, validateGetSignature } from '~/shared';
+import {
+  NotFoundException,
+  createRouter,
+  validateAuth,
+  validateGetSignature,
+} from '~/shared/index.js';
 
 export const filmsRouter = createRouter(contracts.filmsContract, {
   getList: {

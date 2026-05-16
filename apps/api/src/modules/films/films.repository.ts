@@ -4,7 +4,7 @@ import {
   sqlSearchQuery,
   thisDateReleaseSql,
   type Deps,
-} from '~/shared';
+} from '~/shared/index.js';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -15,7 +15,7 @@ import {
   type SortingOrder,
   type UpdateFilmInput,
 } from '@films-collection/shared';
-import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers';
+import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers/index.js';
 import {
   and,
   asc,
@@ -45,7 +45,7 @@ import {
   filmTrailers,
   genres,
   seriesExtensions,
-} from '~/database/schema';
+} from '~/database/schema.js';
 import type {
   PgColumn,
   PgInsertValue,

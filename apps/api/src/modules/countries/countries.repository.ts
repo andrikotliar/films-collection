@@ -1,6 +1,6 @@
-import { getCount, getFirstValue, type Deps } from '~/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
 import { type CountryInput } from '@films-collection/shared';
-import { countries } from '~/database/schema';
+import { countries } from '~/database/schema.js';
 import { asc, eq } from 'drizzle-orm';
 
 export class CountriesRepository {

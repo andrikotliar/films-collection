@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
-import { initRouters } from '~/shared';
-import { routers } from '~/modules';
+import { initRouters } from '~/shared/index.js';
+import { routers } from '~/modules/index.js';
 
 export const RoutesPlugin = async (app: FastifyInstance) => {
   for (const router of routers) {

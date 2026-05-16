@@ -3,7 +3,7 @@ import {
   ChapterKeyResponseSchema,
   CreateChapterKeyInputSchema,
 } from '@films-collection/shared';
-import z from 'zod';
+import { z } from 'zod';
 import { defineContracts } from '~/helpers';
 
 export const chapterKeysContract = defineContracts('chapter-keys', {

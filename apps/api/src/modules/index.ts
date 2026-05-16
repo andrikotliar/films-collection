@@ -1,37 +1,41 @@
-import { authRouter, AuthService } from '~/modules/auth';
-import { AwardsRepository, awardsRouter, AwardsService } from '~/modules/awards';
+import { authRouter, AuthService } from '~/modules/auth/index.js';
+import { AwardsRepository, awardsRouter, AwardsService } from '~/modules/awards/index.js';
 import {
   ChapterKeysRepository,
   chapterKeysRouter,
   ChapterKeysService,
-} from '~/modules/chapter-keys';
+} from '~/modules/chapter-keys/index.js';
 import {
   CollectionEventsRepository,
   collectionEventsRouter,
   CollectionEventsService,
-} from '~/modules/collection-events';
+} from '~/modules/collection-events/index.js';
 import {
   CollectionsRepository,
   collectionsRouter,
   CollectionsService,
-} from '~/modules/collections';
-import { CountriesRepository, countriesRouter, CountriesService } from '~/modules/countries';
-import { filesRouter, FilesService } from '~/modules/files';
-import { FilmsRepository, filmsRouter, FilmsService } from '~/modules/films';
-import { GenresRepository, genresRouter, GenresService } from '~/modules/genres';
-import { initialDataRouter, InitialDataService } from '~/modules/initial-data';
+} from '~/modules/collections/index.js';
+import {
+  CountriesRepository,
+  countriesRouter,
+  CountriesService,
+} from '~/modules/countries/index.js';
+import { filesRouter, FilesService } from '~/modules/files/index.js';
+import { FilmsRepository, filmsRouter, FilmsService } from '~/modules/films/index.js';
+import { GenresRepository, genresRouter, GenresService } from '~/modules/genres/index.js';
+import { initialDataRouter, InitialDataService } from '~/modules/initial-data/index.js';
 import {
   PageContentRepository,
   pageContentRouter,
   PageContentService,
-} from '~/modules/page-content';
-import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people';
-import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios';
-import { UsersRepository, usersRouter, UsersService } from '~/modules/users';
-import { ConfigService } from '~/modules/config';
-import { AwsService } from '~/modules/aws/aws.service';
-import type { Router } from '~/shared';
-import { AiService } from '~/modules/ai/ai.service';
+} from '~/modules/page-content/index.js';
+import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people/index.js';
+import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios/index.js';
+import { UsersRepository, usersRouter, UsersService } from '~/modules/users/index.js';
+import { ConfigService } from '~/modules/config/index.js';
+import { AwsService } from '~/modules/aws/index.js';
+import type { Router } from '~/shared/index.js';
+import { AiService } from '~/modules/ai/index.js';
 
 export const services = {
   authService: AuthService,

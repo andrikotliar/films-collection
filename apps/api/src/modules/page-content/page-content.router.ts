@@ -1,5 +1,5 @@
 import { contracts } from '@films-collection/api-client';
-import { NotFoundException, createRouter, validateAuth } from '~/shared';
+import { NotFoundException, createRouter, validateAuth } from '~/shared/index.js';
 
 export const pageContentRouter = createRouter(contracts.pageContentContract, {
   create: {

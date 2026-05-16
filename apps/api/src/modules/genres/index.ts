@@ -1,3 +1,3 @@
-export * from './genres.router';
-export * from './genres.repository';
-export * from './genres.service';
+export * from './genres.router.js';
+export * from './genres.repository.js';
+export * from './genres.service.js';

@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 import { DraftLevel, PersonRole, TitleStyle, TitleType } from '~/enums';
 import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers';
 import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema';

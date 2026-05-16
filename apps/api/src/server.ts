@@ -9,9 +9,9 @@ import {
   serializerCompiler,
   validatorCompiler,
 } from 'fastify-type-provider-zod';
-import { RoutesPlugin, DatabasePlugin, DiContainerPlugin, type Database } from '~/plugins';
-import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared';
-import { ConfigService } from '~/modules/config';
+import { RoutesPlugin, DatabasePlugin, DiContainerPlugin, type Database } from '~/plugins/index.js';
+import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared/index.js';
+import { ConfigService } from '~/modules/config/index.js';
 
 declare module 'fastify' {
   export interface FastifyInstance {

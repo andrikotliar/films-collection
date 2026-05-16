@@ -8,7 +8,7 @@ import {
   PeopleListResponseSchema,
   PersonResponseSchema,
 } from '@films-collection/shared';
-import z from 'zod';
+import { z } from 'zod';
 import { defineContracts } from '~/helpers';
 
 export const peopleContract = defineContracts('people', {

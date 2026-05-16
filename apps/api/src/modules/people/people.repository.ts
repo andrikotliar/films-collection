@@ -7,8 +7,8 @@ import {
   type UpdatePersonInput,
 } from '@films-collection/shared';
 import { and, asc, count, eq, exists, ilike, inArray, notInArray, type SQL } from 'drizzle-orm';
-import { filmsPeople, people } from '~/database/schema';
-import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared';
+import { filmsPeople, people } from '~/database/schema.js';
+import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared/index.js';
 
 export class PeopleRepository {
   constructor(private readonly deps: Deps<'db'>) {}

@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export function buildListOptionSchema<T extends z.ZodTypeAny, P extends z.ZodRawShape>(
   schema: T,

@@ -1,5 +1,5 @@
-import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared';
-import type { GroupedNominations } from './types';
+import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
+import type { GroupedNominations } from './types.js';
 import { PAGE_LIMITS, type CreateAwardInput, type NominationInput } from '@films-collection/shared';
 
 const NEW_NOMINATION_ID = -1;

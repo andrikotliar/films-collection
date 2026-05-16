@@ -1,5 +1,5 @@
 import type { TPersonRole } from '@films-collection/shared';
-import type { GroupedPeople } from '~/modules/films/types';
+import type { GroupedPeople } from '~/modules/films/types.js';
 
 const rolesOrder: Record<TPersonRole, number> = {
   CREATOR: 1,

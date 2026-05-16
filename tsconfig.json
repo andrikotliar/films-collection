@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
-    "module": "ESNext",
+    "module": "nodenext",
     "moduleDetection": "force",
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "useDefineForClassFields": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,

@@ -1,4 +1,4 @@
-import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared';
+import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
 
 import {
   PAGE_LIMITS,

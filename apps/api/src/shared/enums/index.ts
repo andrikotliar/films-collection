@@ -1,2 +1,2 @@
-export * from './response-code';
-export * from './cookie-name';
+export * from './response-code.js';
+export * from './cookie-name.js';
