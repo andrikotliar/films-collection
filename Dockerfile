@@ -20,8 +20,6 @@ FROM node:24-alpine AS production
 WORKDIR /app
 
 COPY --from=builder /app/deploy ./
-COPY --from=builder /app/entrypoint.sh ./
-RUN chmod +x entrypoint.sh
 
 ENV NODE_ENV=production
 EXPOSE 5000
