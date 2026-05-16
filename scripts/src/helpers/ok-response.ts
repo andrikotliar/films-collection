@@ -1,4 +1,4 @@
-import type { SuccessResult } from '~/types';
+import type { SuccessResult } from '~/types.js';
 
 export const okResponse = <T>(data: unknown): SuccessResult<T> => ({
   ok: true,
