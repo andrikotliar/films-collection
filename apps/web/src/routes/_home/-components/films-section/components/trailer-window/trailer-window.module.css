@@ -1,10 +1,8 @@
 .trailer_content {
   color: var(--color-white);
   aspect-ratio: 16 / 9;
-  border-radius: 10px;
-  overflow: hidden;
-  width: 90%;
   background-color: var(--color-black);
+  font-size: 0;
 }
 
 .trailer_content iframe {

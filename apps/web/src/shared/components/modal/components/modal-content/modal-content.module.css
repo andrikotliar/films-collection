@@ -1,12 +1,8 @@
 .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   border-radius: 10px;
-  max-width: var(--modal-content-max-width, 600px);
-  max-height: var(--modal-content-max-height, 600px);
   width: 100%;
+  overflow: auto;
 }
 
 .content.withPaddings {
@@ -19,4 +15,23 @@
 
 .content.dark {
   background-color: var(--color-black);
+}
+
+.content.form {
+  max-width: 600px;
+  max-height: 100%;
+}
+
+.content.video {
+  max-width: 80%;
+}
+
+.content.message {
+  max-width: 300px;
+}
+
+@media (width < 580px) {
+  .content.video {
+    max-width: 90%;
+  }
 }

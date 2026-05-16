@@ -32,7 +32,7 @@ export const ConfirmModal = <T,>({
 
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <Modal.Content className={styles.content}>
+      <Modal.Content size="message">
         <h2 className={styles.title}>{title}</h2>
         {description && <p className={styles.description}>{description}</p>}
         <div className={styles.buttons}>

@@ -27,10 +27,6 @@
   text-transform: uppercase;
 }
 
-.trailers_modal_content {
-  width: 80%;
-}
-
 @media (width < 1360px) {
   .trailers_modal_content {
     width: 100%;

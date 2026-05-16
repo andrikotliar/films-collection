@@ -30,7 +30,7 @@ export const TrailersButton = ({ data, type }: TrailersButtonProps) => {
         <span className={styles.play_button_label}>Trailer{data.length > 1 && 's'}</span>
       </button>
       <Modal isOpen={isModalOpen} onClose={handleClose}>
-        <Modal.Content>
+        <Modal.Content withPaddings={false} size="video" theme="dark">
           <TrailersPlaylist trailers={data} previewLabel={previewLabel} />
           <Modal.CloseButton onClick={handleClose} />
         </Modal.Content>

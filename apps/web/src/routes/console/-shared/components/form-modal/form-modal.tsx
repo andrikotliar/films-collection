@@ -17,7 +17,7 @@ export const FormModal = <T extends Record<PropertyKey, unknown>>({
 
   return (
     <Modal isOpen onClose={onClose} isAllowedClickOutside={false}>
-      <Modal.Content size={{ maxWidth: '800px' }}>
+      <Modal.Content size="form">
         <FormComponent values={values} />
         <Modal.CloseButton onClick={onClose} />
       </Modal.Content>
