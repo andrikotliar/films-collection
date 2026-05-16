@@ -9,7 +9,7 @@ COPY . .
 ARG VITE_IMAGES_URL
 ENV VITE_IMAGES_URL=$VITE_IMAGES_URL
 
-RUN pnpm install --frozen-lockfile
+RUN pnpm install --frozen-lockfile --prod=false
 
 RUN pnpm build
 

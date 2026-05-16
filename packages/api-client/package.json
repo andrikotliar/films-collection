@@ -13,13 +13,14 @@
     }
   },
   "dependencies": {
-    "zod": "4.1.11",
+    "@films-collection/eslint-config": "workspace:*",
     "@films-collection/shared": "workspace:*",
-    "@films-collection/eslint-config": "workspace:*"
+    "zod": "4.1.11"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
-    "tsc-alias": "^1.8.16"
+    "tsc-alias": "^1.8.16",
+    "typescript": "5.9.3"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && tsc-alias",
