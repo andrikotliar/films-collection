@@ -1,3 +1,3 @@
-export * from './people.router';
-export * from './people.repository';
-export * from './people.service';
+export * from './people.router.js';
+export * from './people.repository.js';
+export * from './people.service.js';

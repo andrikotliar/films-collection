@@ -1,5 +1,5 @@
-import z from 'zod';
-import { getListResponseSchema } from '~/helpers';
+import { z } from 'zod';
+import { getListResponseSchema } from '~/helpers/index.js';
 
 export const GenreInputSchema = z.object({
   title: z.string(),

@@ -1,4 +1,4 @@
-import type { ApiContract, ContractDefinition } from '~/types';
+import type { ApiContract, ContractDefinition } from '~/types/index.js';
 
 export const defineContracts = <
   const TPrefix extends string,

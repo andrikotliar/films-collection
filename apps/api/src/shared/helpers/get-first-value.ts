@@ -1,4 +1,4 @@
-import { nullable } from '~/shared/helpers/nullable';
+import { nullable } from '~/shared/helpers/nullable.js';
 
 export const getFirstValue = async <T>(promise: Promise<T[]>): Promise<T | null> => {
   const result = await promise;

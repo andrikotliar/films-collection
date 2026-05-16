@@ -1,3 +1,3 @@
-export * from './page-content.router';
-export * from './page-content.repository';
-export * from './page-content.service';
+export * from './page-content.router.js';
+export * from './page-content.repository.js';
+export * from './page-content.service.js';

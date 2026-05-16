@@ -1,3 +1,3 @@
-export * from './films.router';
-export * from './films.repository';
-export * from './films.service';
+export * from './films.router.js';
+export * from './films.repository.js';
+export * from './films.service.js';

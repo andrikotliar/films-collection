@@ -7,7 +7,7 @@ import {
   ACCESS_TOKEN_MAX_AGE_SEC,
   REFRESH_TOKEN_MAX_AGE_SEC,
   validateAuth,
-} from '~/shared';
+} from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
 
 export const authRouter = createRouter(contracts.authContract, {

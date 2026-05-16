@@ -1,2 +1,2 @@
-export * from './initial-data.router';
-export * from './initial-data.service';
+export * from './initial-data.router.js';
+export * from './initial-data.service.js';

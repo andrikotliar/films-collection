@@ -1,3 +1,3 @@
-export * from './users.repository';
-export * from './users.service';
-export * from './users.router';
+export * from './users.repository.js';
+export * from './users.service.js';
+export * from './users.router.js';

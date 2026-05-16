@@ -1,3 +1,3 @@
-export * from './collections.router';
-export * from './collections.repository';
-export * from './collections.service';
+export * from './collections.router.js';
+export * from './collections.repository.js';
+export * from './collections.service.js';

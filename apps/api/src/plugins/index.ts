@@ -1,3 +1,3 @@
-export * from './routes.plugin';
-export * from './database.plugin';
-export * from './services.plugin';
+export * from './routes.plugin.js';
+export * from './database.plugin.js';
+export * from './services.plugin.js';

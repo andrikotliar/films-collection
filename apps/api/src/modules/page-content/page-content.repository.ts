@@ -1,4 +1,4 @@
-import { getFirstValue, type Deps } from '~/shared';
+import { getFirstValue, type Deps } from '~/shared/index.js';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -6,7 +6,7 @@ import {
   type GetPageContentListQueries,
   type UpdatePageContentInput,
 } from '@films-collection/shared';
-import { pageContent } from '~/database/schema';
+import { pageContent } from '~/database/schema.js';
 import { count, desc, eq } from 'drizzle-orm';
 
 export class PageContentRepository {

@@ -4,7 +4,7 @@ import {
   CountriesListResponseSchema,
   CountryResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const countriesContract = defineContracts('countries', {
   getList: {

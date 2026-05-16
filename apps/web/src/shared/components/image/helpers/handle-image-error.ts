@@ -1,8 +1,4 @@
-import { ReactEventHandler } from 'react';
-
-type HandleImageError = (
-  imageSource: string,
-) => ReactEventHandler<HTMLImageElement>;
+type HandleImageError = (imageSource: string) => React.ReactEventHandler<HTMLImageElement>;
 
 export const handleImageError: HandleImageError = (imageSource) => {
   return (event) => {

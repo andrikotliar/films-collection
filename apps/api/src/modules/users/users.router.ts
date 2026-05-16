@@ -1,5 +1,5 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, getRequestUser, validateAuth } from '~/shared';
+import { createRouter, getRequestUser, validateAuth } from '~/shared/index.js';
 
 export const usersRouter = createRouter(contracts.usersContracts, {
   getSessions: {

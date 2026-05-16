@@ -1,6 +1,6 @@
-import z from 'zod';
-import { PersonRole } from '~/enums';
-import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers';
+import { z } from 'zod';
+import { PersonRole } from '~/enums/index.js';
+import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers/index.js';
 
 export const CreatePersonSchema = z.object({
   name: z.string(),

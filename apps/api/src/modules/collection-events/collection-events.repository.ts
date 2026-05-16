@@ -1,10 +1,10 @@
-import { getCount, getFirstValue, type Deps } from '~/shared';
+import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
 import {
   PAGE_LIMITS,
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
-import { collectionEvents, films } from '~/database/schema';
+import { collectionEvents, films } from '~/database/schema.js';
 import { and, asc, between, eq, gt, gte, lte, or, sql } from 'drizzle-orm';
 
 export class CollectionEventsRepository {

@@ -1,3 +1,3 @@
-export * from './collection-events.router';
-export * from './collection-events.repository';
-export * from './collection-events.service';
+export * from './collection-events.router.js';
+export * from './collection-events.repository.js';
+export * from './collection-events.service.js';

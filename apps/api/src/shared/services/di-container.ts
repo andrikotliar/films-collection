@@ -3,7 +3,7 @@ import type {
   ExtendedServiceKeys,
   ServiceKeys,
   ServicesMap,
-} from '~/shared/types';
+} from '~/shared/types/index.js';
 
 type DependencyValue<K extends ServiceKeys> = {
   service: ServicesMap[K] | null;
@@ -30,7 +30,7 @@ export class DiContainer {
     const serviceData = this.getService(key);
 
     if (!serviceData) {
-      throw new Error(`Service ${key} is not registered`);
+      throw new Error(`Service ${String(key)} is not registered`);
     }
 
     if (serviceData.instance) {
@@ -52,7 +52,7 @@ export class DiContainer {
     });
 
     if (!serviceData.service) {
-      throw new Error(`Service ${key} doesn't exist`);
+      throw new Error(`Service ${String(key)} doesn't exist`);
     }
 
     const instance = new serviceData.service(proxy) as InstanceType<ServicesMap[K]>;

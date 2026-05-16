@@ -1,11 +1,11 @@
-import type { UserSession } from '~/database/schema';
+import type { UserSession } from '~/database/schema.js';
 import {
   BadRequestException,
   NotFoundException,
   throwIfNotFound,
   type Deps,
   type RequestUser,
-} from '~/shared';
+} from '~/shared/index.js';
 import crypto from 'node:crypto';
 import type { UpdateUserPasswordInput, UserSessionResponse } from '@films-collection/shared';
 import { compare, hash } from 'bcrypt';

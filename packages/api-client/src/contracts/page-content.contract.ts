@@ -9,7 +9,7 @@ import {
   PageContentByKeyResponseSchema,
   PageContentByIdResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const pageContentContract = defineContracts('page-content', {
   create: {

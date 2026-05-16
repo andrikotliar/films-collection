@@ -3,7 +3,7 @@ import {
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
-import { listResponse, type Deps } from '~/shared';
+import { listResponse, type Deps } from '~/shared/index.js';
 
 export class CollectionEventsService {
   constructor(private readonly deps: Deps<'collectionEventsRepository'>) {}

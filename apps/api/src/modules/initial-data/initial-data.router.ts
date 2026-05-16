@@ -1,5 +1,5 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter } from '~/shared';
+import { createRouter } from '~/shared/index.js';
 
 export const initialDataRouter = createRouter(contracts.initialDataContract, {
   get: {

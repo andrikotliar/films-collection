@@ -1,5 +1,5 @@
 import { InitialDataResponseSchema } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const initialDataContract = defineContracts('initial-data', {
   get: {

@@ -1,4 +1,4 @@
-import { buildListOptions, listResponse, type Deps } from '~/shared';
+import { buildListOptions, listResponse, type Deps } from '~/shared/index.js';
 import { PAGE_LIMITS, type StudioInput } from '@films-collection/shared';
 
 export class StudiosService {

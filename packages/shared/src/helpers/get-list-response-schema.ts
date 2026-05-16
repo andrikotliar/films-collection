@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const getListResponseSchema = <T extends z.ZodType>(dataSchema: T) => {
   return z.object({

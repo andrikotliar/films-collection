@@ -2,7 +2,7 @@ import path from 'node:path';
 import { styleText } from 'node:util';
 import fs from 'node:fs/promises';
 import type { CompleteDataResponse, CompleteDataListItem } from '@films-collection/shared';
-import { database } from '~/plugins';
+import { database } from '~/plugins/database.plugin.js';
 import {
   awards,
   countries,
@@ -19,7 +19,7 @@ import {
   people,
   seriesExtensions,
   studios,
-} from '~/database/schema';
+} from '~/database/schema.js';
 import type { PgColumn, PgTableWithColumns, PgTransaction } from 'drizzle-orm/pg-core';
 import { max, sql } from 'drizzle-orm';
 

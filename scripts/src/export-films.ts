@@ -4,9 +4,9 @@ import path from 'node:path';
 import fs from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import type z from 'zod';
-import { ExportFilmScriptSchema, getEnvironment, logger } from '~/helpers';
-import type { ApiResult } from '~/types';
-import { okResponse } from '~/helpers/ok-response';
+import { ExportFilmScriptSchema, getEnvironment, logger } from '~/helpers/index.js';
+import type { ApiResult } from '~/types.js';
+import { okResponse } from '~/helpers/ok-response.js';
 
 const DATA_FOLDER = path.join(import.meta.dirname, '../../apps/api/data');
 const NUMBER_REGEX = /^\d+$/;

@@ -1,6 +1,6 @@
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { LoginForm, LoginLayout } from './-components';
-import z from 'zod';
+import { z } from 'zod';
 import { getAuthStateQueryOptions } from '~/shared';
 
 const SearchParamsSchema = z.object({

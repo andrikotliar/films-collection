@@ -1,6 +1,6 @@
 import type { JWT } from '@fastify/jwt';
-import type { Database } from '~/plugins';
-import type { services } from '~/modules';
+import type { Database } from '~/plugins/index.js';
+import type { services } from '~/modules/index.js';
 
 export type ServicesMap = typeof services;
 export type ServiceKeys = keyof ServicesMap;

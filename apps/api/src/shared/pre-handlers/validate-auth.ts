@@ -1,8 +1,8 @@
 import type { FastifyReply, FastifyRequest } from 'fastify';
-import type { VerifiedTokenData } from '~/modules/auth';
-import { CookieName } from '~/shared/enums';
-import { UnauthorizedException } from '~/shared/exceptions';
-import { getCookie } from '~/shared/helpers';
+import type { VerifiedTokenData } from '~/modules/auth/index.js';
+import { CookieName } from '~/shared/enums/index.js';
+import { UnauthorizedException } from '~/shared/exceptions/index.js';
+import { getCookie } from '~/shared/helpers/index.js';
 
 export const validateAuth = async (request: FastifyRequest, reply: FastifyReply) => {
   const token = getCookie(request, 'ACCESS_TOKEN');

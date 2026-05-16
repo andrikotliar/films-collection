@@ -5,7 +5,7 @@ import {
   CollectionEventResponseSchema,
   CollectionEventsListResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers';
+import { defineContracts } from '~/helpers/index.js';
 
 export const collectionEventsContract = defineContracts('collection-events', {
   create: {

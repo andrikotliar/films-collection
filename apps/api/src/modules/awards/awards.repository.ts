@@ -5,9 +5,9 @@ import {
   type UpdateAwardInput,
 } from '@films-collection/shared';
 import { asc, eq, inArray } from 'drizzle-orm';
-import { awards, nominations, type Award } from '~/database/schema';
-import type { UpdateAwardParams } from '~/modules/awards/types/update-award-params';
-import { getCount, getFirstValue, type Deps } from '~/shared';
+import { awards, nominations, type Award } from '~/database/schema.js';
+import type { UpdateAwardParams } from '~/modules/awards/types.js';
+import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
 
 export class AwardsRepository {
   constructor(private readonly deps: Deps<'db'>) {}

@@ -1,5 +1,5 @@
-import { FastifyRequest } from 'fastify';
-import { CookieName, CookieNameId } from '../enums';
+import type { FastifyRequest } from 'fastify';
+import { CookieName, type CookieNameId } from '~/shared/enums/cookie-name.js';
 
 export const getCookie = (request: FastifyRequest, cookieId: CookieNameId) => {
   const cookieName = CookieName[cookieId];

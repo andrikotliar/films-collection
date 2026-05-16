@@ -1,6 +1,6 @@
 import type { FastifyReply } from 'fastify';
-import type { ConfigService } from '~/modules/config';
-import { CookieName, type CookieNameId } from '~/shared';
+import type { ConfigService } from '~/modules/config/index.js';
+import { CookieName, type CookieNameId } from '~/shared/index.js';
 
 type Options = {
   value: string;

@@ -1,5 +1,5 @@
 import sanitize from 'sanitize-html';
-import { listResponse, throwIfNotFound, type Deps } from '~/shared';
+import { listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
 import {
   ALLOWED_HTML_TAGS,
   PAGE_LIMITS,

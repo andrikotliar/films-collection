@@ -1,7 +1,7 @@
 import type { ApiContract, ContractDefinition, RouteSchema } from '@films-collection/api-client';
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import type z from 'zod';
-import type { ResponseStatus } from '~/shared/enums';
+import type { ResponseStatus } from '~/shared/enums/index.js';
 
 type InferZod<S, R = undefined> = S extends z.ZodType ? z.infer<S> : R;
 

@@ -12,10 +12,15 @@ import type {
   Person,
   SeriesExtension,
   Studio,
-} from '~/database/schema';
-import { sortGroupedPeople } from '~/modules/films/helpers/sort-grouped-people';
-import type { GroupedAwards, GroupedPeople, PickBaseData, Timestamps } from '~/modules/films/types';
-import { nullable } from '~/shared';
+} from '~/database/schema.js';
+import { sortGroupedPeople } from '~/modules/films/helpers/sort-grouped-people.js';
+import type {
+  GroupedAwards,
+  GroupedPeople,
+  PickBaseData,
+  Timestamps,
+} from '~/modules/films/types.js';
+import { nullable } from '~/shared/index.js';
 
 type ExtendedFilm = Omit<Film, 'style' | 'draft' | Timestamps> & {
   genres: Array<{ genre: PickBaseData<Genre> }>;

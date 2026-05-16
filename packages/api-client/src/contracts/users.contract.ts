@@ -3,8 +3,8 @@ import {
   UpdateUserPasswordInputSchema,
   UserSessionSchema,
 } from '@films-collection/shared';
-import z from 'zod';
-import { defineContracts } from '~/helpers';
+import { z } from 'zod';
+import { defineContracts } from '~/helpers/index.js';
 
 export const usersContracts = defineContracts('users', {
   getSessions: {

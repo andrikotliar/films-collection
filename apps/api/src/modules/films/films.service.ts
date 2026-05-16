@@ -1,4 +1,4 @@
-import { type Deps, throwIfNotFound } from '~/shared';
+import { type Deps, throwIfNotFound } from '~/shared/index.js';
 import {
   type GetFilmsListQuery,
   type GetFilmOptionsQuery,
@@ -15,8 +15,8 @@ import {
   enumValues,
   PAGE_LIMITS,
 } from '@films-collection/shared';
-import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers';
-import type { Film } from '~/database/schema';
+import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
+import type { Film } from '~/database/schema.js';
 
 type GenericOption = {
   id: number;

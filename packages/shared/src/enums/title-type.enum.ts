@@ -1,4 +1,4 @@
-import type { Enum } from '~/types';
+import type { Enum } from '~/types/enum.type.js';
 
 export const TitleType = {
   FILM: 'FILM',

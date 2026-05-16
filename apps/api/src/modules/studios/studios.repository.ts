@@ -1,6 +1,6 @@
-import { getCount, type Deps } from '~/shared';
+import { getCount, type Deps } from '~/shared/index.js';
 import { type StudioInput } from '@films-collection/shared';
-import { studios } from '~/database/schema';
+import { studios } from '~/database/schema.js';
 import { asc, eq } from 'drizzle-orm';
 
 export class StudiosRepository {

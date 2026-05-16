@@ -1,4 +1,4 @@
-import { createRouter, validateAuth } from '~/shared';
+import { createRouter, validateAuth } from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
 
 export const filesRouter = createRouter(contracts.filesContract, {

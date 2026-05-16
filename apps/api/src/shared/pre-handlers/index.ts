@@ -1,2 +1,2 @@
-export * from './validate-auth';
-export * from './validate-get-signature';
+export * from './validate-auth.js';
+export * from './validate-get-signature.js';

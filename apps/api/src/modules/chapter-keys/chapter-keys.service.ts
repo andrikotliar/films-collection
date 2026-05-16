@@ -1,4 +1,4 @@
-import { type Deps, throwIfNotFound } from '~/shared';
+import { type Deps, throwIfNotFound } from '~/shared/index.js';
 import type { CreateChapterKeyInput, ListOption } from '@films-collection/shared';
 
 export class ChapterKeysService {
