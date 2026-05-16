@@ -1,24 +1,25 @@
-import { Nomination } from '~/routes/films/$id/-components/awards/components/nomination/nomination';
 import styles from './award.module.css';
-import { type api, type ApiResponse } from '~/shared';
-import { TrophyIcon } from 'lucide-react';
-import { Link } from '@tanstack/react-router';
+import { Button, IconLink, type api, type ApiResponse } from '~/shared';
+import { InfoIcon, LinkIcon, TrophyIcon } from 'lucide-react';
 
 type AwardProps = {
-  data: ApiResponse<typeof api.films.getById.exec>['awards'][number];
+  data: ApiResponse<typeof api.films.getById.exec>['awards'][number]['award'];
+  onSelect: VoidFunction;
+  nominationsCount: number;
 };
 
-export const Award = ({ data }: AwardProps) => {
+export const Award = ({ data, onSelect, nominationsCount }: AwardProps) => {
   return (
-    <div className={styles.award_wrapper}>
-      <Link to="/" search={{ awardId: data.award.id }} className={styles.award}>
+    <div className={styles.award}>
+      <div className={styles.column}>
         <TrophyIcon className={styles.award_icon} />
-        <span className={styles.award_title}>{data.award.title}</span>
-      </Link>
-      <div className={styles.nominations_wrapper}>
-        {data.nominations.map((nomination) => (
-          <Nomination title={nomination.title} nominee={nomination.person} key={nomination.title} />
-        ))}
+        <div>
+          {data.title} ({nominationsCount})
+        </div>
+      </div>
+      <div className={styles.column}>
+        <IconLink to="/" search={{ awardId: data.id }} icon={<LinkIcon size={18} />} />
+        <Button variant="ghost" onClick={onSelect} icon={<InfoIcon />} />
       </div>
     </div>
   );

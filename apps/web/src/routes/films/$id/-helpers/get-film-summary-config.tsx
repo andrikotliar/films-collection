@@ -5,6 +5,7 @@ import {
   BuildingIcon,
   CalendarIcon,
   ClockIcon,
+  FileTextIcon,
   GlobeIcon,
   HandCoinsIcon,
   TvIcon,
@@ -111,6 +112,13 @@ export const getFilmSummaryConfig = (
         </LinksGroupWrapper>
       ),
       isHidden: film.type !== 'SERIES',
+    },
+    {
+      id: 'synopsis',
+      title: 'Synopsis',
+      icon: <FileTextIcon />,
+      content: film.synopsis,
+      isHidden: !film.synopsis || film.synopsis.length === 0,
     },
   ];
 

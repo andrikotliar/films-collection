@@ -1,3 +1,7 @@
+.navigation_row {
+  margin-bottom: 20px;
+}
+
 @media (width < 1280px) {
   .navigation_row {
     padding: 0 20px;

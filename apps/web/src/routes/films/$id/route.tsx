@@ -3,15 +3,11 @@ import { CameraLoader, getFilmQueryOptions, useDocumentTitle, useScrollToTop } f
 import {
   Awards,
   CastAndCrew,
-  Chapters,
   ContentLayout,
-  Description,
   FilmPageLayout,
   NavigationRow,
-  Section,
   SummarySection,
 } from '~/routes/films/$id/-components';
-import { AwardIcon, FileTextIcon, UsersIcon } from 'lucide-react';
 import { useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/films/$id')({
@@ -29,27 +25,15 @@ function FilmPageContainer() {
   useScrollToTop([id]);
   useDocumentTitle(film.title);
 
+  const hasExtendedData = film.awards.length !== 0 || film.castAndCrew.length !== 0;
+
   return (
     <FilmPageLayout>
       <NavigationRow />
-      <SummarySection film={film} />
+      <SummarySection film={film} hasExtendedData={hasExtendedData} />
       <ContentLayout>
-        {film.synopsis && film.synopsis.length > 0 && (
-          <Section title="Description" icon={<FileTextIcon />}>
-            <Description>{film.synopsis}</Description>
-          </Section>
-        )}
-        {film.awards.length > 0 && (
-          <Section title="Awards" icon={<AwardIcon />}>
-            <Awards data={film.awards} />
-          </Section>
-        )}
-        {film.castAndCrew.length !== 0 && (
-          <Section title="Cast and Crew" icon={<UsersIcon />}>
-            <CastAndCrew data={film.castAndCrew} />
-          </Section>
-        )}
-        {film.chapters.length > 0 && <Chapters data={film.chapters} filmId={film.id} />}
+        {film.awards.length > 0 && <Awards data={film.awards} />}
+        {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
       </ContentLayout>
     </FilmPageLayout>
   );

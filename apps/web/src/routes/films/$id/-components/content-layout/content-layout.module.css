@@ -1,17 +1,15 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  border-radius: 0 0 var(--rounded-default) var(--rounded-default);
+  background-color: var(--color-white);
+  border: var(--border-default);
+  border-top: 0;
+  overflow: hidden;
+  position: relative;
 }
 
-@media (max-width: 1280px) {
+@media (width < 1280px) {
   .content {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .content {
-    gap: 20px;
+    border-radius: 0;
+    border: 0;
   }
 }

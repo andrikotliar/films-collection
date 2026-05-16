@@ -7,6 +7,20 @@
   z-index: 2;
 }
 
+.extended_data {
+  position: relative;
+  border-radius: var(--rounded-default) var(--rounded-default) 0 0;
+}
+
+.extended_data::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-top: 5px dashed var(--color-white);
+}
+
 .summary_layout::before {
   content: '';
   position: absolute;
@@ -53,7 +67,7 @@
 }
 
 .left_column {
-  --left-column-width: 350px;
+  --left-column-width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
