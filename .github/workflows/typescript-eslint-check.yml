@@ -20,11 +20,14 @@ jobs:
           corepack enable
           corepack prepare pnpm@10 --activate
 
+      - name: Install package dependencies
+        run: pnpm --filter "./packages/*" install
+
       - name: Build packages
         run: pnpm --filter "./packages/*" run build
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install app dependencies
+        run: pnpm --filter "./apps/*" install
 
       - name: ESLint check - packages/shared
         run: pnpm --filter ./packages/shared lint
