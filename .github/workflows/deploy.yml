@@ -27,11 +27,12 @@ jobs:
           version: 10
 
       - name: Install dependencies
-        run: pnpm i -g drizzle-kit drizzle-orm esbuild pg 
+        working-directory: apps/api
+        run: pnpm install --frozen-lockfile
 
       - name: Run production migrations
         working-directory: apps/api
-        run: drizzle-kit migrate --config drizzle.config.ts
+        run: pnpm drizzle-kit migrate --config drizzle.config.ts
         env:
           DATABASE_URL: ${{ secrets.DB_CONNECTION_STR }}
 
