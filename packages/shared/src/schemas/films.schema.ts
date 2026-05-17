@@ -92,6 +92,9 @@ export const GetFilmsListQuerySchema = z.object({
 export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
   draftLevels: getArrayFromQuery(z.enum(DraftLevel)).optional(),
   noDescription: getBoolFromQuery,
+  noCrewOrCast: getBoolFromQuery,
+  noBoxOffice: getBoolFromQuery,
+  noTrailers: getBoolFromQuery,
 });
 
 export const SearchFilmsQuerySchema = z.object({

@@ -110,6 +110,9 @@ export const FilmForm = ({ values }: FilmFormProps) => {
               {
                 queryKey: [api.films.getById.staticKey, values.id],
               },
+              {
+                queryKey: [api.films.getEditableFilm.staticKey, values.id],
+              },
             ]
           : []),
       ],
