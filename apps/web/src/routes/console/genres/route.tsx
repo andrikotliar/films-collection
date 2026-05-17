@@ -3,10 +3,13 @@ import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GenresForm } from '~/routes/console/genres/-components';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
+import { CommonListQuerySchema } from '@films-collection/shared';
+import { useCallback } from 'react';
 
 export const Route = createFileRoute('/console/genres')({
-  loader: async ({ context: { queryClient } }) => {
-    return await queryClient.ensureQueryData(getGenresListQueryOptions());
+  validateSearch: (search) => CommonListQuerySchema.parse(search),
+  loader: async ({ context: { queryClient }, location }) => {
+    return await queryClient.ensureQueryData(getGenresListQueryOptions(location.search));
   },
   component: withFormModal(GenresForm, PageContainer),
   staticData: {
@@ -32,17 +35,39 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useQuery(getGenresListQueryOptions());
+  const search = Route.useSearch();
+  const { data, isFetching } = useQuery(getGenresListQueryOptions(search));
   const { onOpen } = useFormModal();
+  const navigate = Route.useNavigate();
+
+  const handlePageChange = (index: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex: index,
+      }),
+    });
+  };
+
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        q: value,
+      }),
+    });
+  }, []);
 
   return (
     <List
       data={data}
+      onSearch={handleSearch}
       getDeleteMutationOptions={getDeleteMutationOptions}
       onEdit={onOpen}
       onCreate={() => onOpen(genreDefaultValues)}
       createItemTitle="New genre"
       isFetching={isFetching}
+      onPageChange={handlePageChange}
     />
   );
 }

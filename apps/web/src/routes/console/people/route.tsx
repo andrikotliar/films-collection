@@ -6,19 +6,11 @@ import {
   filterValues,
   getEmptyFormValues,
   getPeopleAdminListQueryOptions,
-  TextInput,
-  useDebouncedSearch,
   useSidebarVisibility,
   type FilterItem,
   type Input,
 } from '~/shared';
-import {
-  Column,
-  ContentWithSidebar,
-  List,
-  useFormModal,
-  withFormModal,
-} from '~/routes/console/-shared';
+import { ContentWithSidebar, List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { PersonForm } from '~/routes/console/people/-components';
 import { createFileRoute } from '@tanstack/react-router';
 import {
@@ -28,9 +20,8 @@ import {
   enumValues,
 } from '@films-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
-import { SearchIcon } from 'lucide-react';
 import type { z } from 'zod';
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 
 const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create.exec>>({
   name: '',
@@ -108,14 +99,14 @@ function RouteComponent() {
     });
   };
 
-  const handleSearch = useDebouncedSearch((value) => {
+  const handleSearch = useCallback((value: string) => {
     navigate({
       search: (values) => ({
         ...values,
         q: value,
       }),
     });
-  });
+  }, []);
 
   const appliedFilters = countObjectKeys(search, ['pageIndex', 'q']);
 
@@ -161,24 +152,17 @@ function RouteComponent() {
           onReset={handleReset}
         />
       </FiltersSidebar>
-      <Column>
-        <TextInput
-          placeholder="Search person"
-          defaultValue={search.q ?? ''}
-          onChange={handleSearch}
-          icon={<SearchIcon />}
-        />
-        <List
-          data={data}
-          titleKey="name"
-          getDeleteMutationOptions={getDeleteMutationOptions}
-          onEdit={onOpen}
-          isFetching={isFetching}
-          onPageChange={handleChangePage}
-          onCreate={() => onOpen(personDefaultValues)}
-          createItemTitle="New crew or cast member"
-        />
-      </Column>
+      <List
+        data={data}
+        titleKey="name"
+        onSearch={handleSearch}
+        getDeleteMutationOptions={getDeleteMutationOptions}
+        onEdit={onOpen}
+        isFetching={isFetching}
+        onPageChange={handleChangePage}
+        onCreate={() => onOpen(personDefaultValues)}
+        createItemTitle="New crew or cast member"
+      />
     </ContentWithSidebar>
   );
 }

@@ -15,8 +15,7 @@ export class CountriesService {
   }
 
   async getBaseDataList(queries: CommonListQueryParams) {
-    const list = await this.deps.countriesRepository.getList(queries);
-    const total = await this.deps.countriesRepository.count();
+    const { list, total } = await this.deps.countriesRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }

@@ -6,7 +6,7 @@ import {
   type NominationInput,
   type UpdateAwardInput,
 } from '@films-collection/shared';
-import { and, asc, eq, inArray } from 'drizzle-orm';
+import { and, asc, eq, inArray, type SQL } from 'drizzle-orm';
 import { awards, nominations, type Award } from '~/database/schema.js';
 import type { UpdateAwardParams } from '~/modules/awards/types.js';
 import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
@@ -43,20 +43,24 @@ export class AwardsRepository {
     );
   }
 
-  getBaseDataList(queries: CommonListQueryParams) {
+  async getBaseDataList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, awards);
 
-    return this.deps.db
+    const list = await this.deps.db
       .select({ id: awards.id, title: awards.title })
       .from(awards)
       .where(and(...filters))
       .orderBy(asc(awards.title))
       .limit(PAGE_LIMITS.default)
       .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
-  count() {
-    return getCount(this.deps.db, awards);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, awards, filters);
   }
 
   getListOptions() {

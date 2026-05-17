@@ -13,8 +13,7 @@ export class AwardsService {
   constructor(private readonly deps: Deps<'awardsRepository'>) {}
 
   async getBaseDataList(queries: CommonListQueryParams) {
-    const list = await this.deps.awardsRepository.getBaseDataList(queries);
-    const total = await this.deps.awardsRepository.count();
+    const { list, total } = await this.deps.awardsRepository.getBaseDataList(queries);
 
     return listResponse({
       list,

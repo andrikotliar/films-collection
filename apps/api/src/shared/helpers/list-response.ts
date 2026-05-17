@@ -1,9 +1,9 @@
-type ListResponse<T> = {
-  list: T;
+type ListResponse<T extends Record<string, unknown>> = {
+  list: T[];
   total: number;
   pageLimit: number;
 };
 
-export const listResponse = <T>(data: ListResponse<T>) => {
+export const listResponse = <T extends Record<string, unknown>>(data: ListResponse<T>) => {
   return data;
 };

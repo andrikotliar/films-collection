@@ -9,18 +9,18 @@ import {
   countObjectKeys,
   api,
   FiltersSidebar,
+  type SortingParams,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
-import { GetAdminListQuerySchema } from '@films-collection/shared';
+import { GetAdminListQuerySchema, type ListOption } from '@films-collection/shared';
 import { mutationOptions, useQuery, useSuspenseQuery } from '@tanstack/react-query';
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import {
   AdminFiltersSchema,
   defaultAdminFilters,
   getAdminFiltersConfig,
 } from '~/routes/console/films/-helpers';
-import { Column, ContentWithSidebar, List } from '~/routes/console/-shared';
-import { AdminFilmsTools } from '~/routes/console/films/-components';
+import { ContentWithSidebar, List } from '~/routes/console/-shared';
 
 export const Route = createFileRoute('/console/films')({
   validateSearch: (search) => {
@@ -45,6 +45,21 @@ const getDeleteMutationOptions = () => {
     },
   });
 };
+
+const sortingFields: ListOption<string>[] = [
+  {
+    label: 'Updated At',
+    value: 'updatedAt',
+  },
+  {
+    label: 'Created At',
+    value: 'createdAt',
+  },
+  {
+    label: 'Title',
+    value: 'title',
+  },
+];
 
 function PageContainer() {
   useDocumentTitle('Admin list');
@@ -122,6 +137,25 @@ function PageContainer() {
 
   const filtersCount = countObjectKeys(searchParams, ['pageIndex']);
 
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (params) => ({
+        ...params,
+        pageIndex: 0,
+        q: value,
+      }),
+    });
+  }, []);
+
+  const handleApplySorting = useCallback((sorting: SortingParams) => {
+    navigate({
+      search: (params) => ({
+        ...params,
+        ...sorting,
+      }),
+    });
+  }, []);
+
   return (
     <ContentWithSidebar>
       <FiltersSidebar
@@ -142,20 +176,22 @@ function PageContainer() {
           onReset={handleReset}
         />
       </FiltersSidebar>
-      <Column>
-        <AdminFilmsTools />
-        <List
-          data={data}
-          getDeleteMutationOptions={getDeleteMutationOptions}
-          onEdit={handleEditFilm}
-          onView={handleViewFilm}
-          isFetching={isFetching}
-          viewActionAvailable={(item) => !item.draft}
-          onNavigateToForm="/console/films/$id"
-          createItemTitle="New film"
-          onPageChange={handlePageChange}
-        />
-      </Column>
+      <List
+        data={data}
+        getDeleteMutationOptions={getDeleteMutationOptions}
+        onEdit={handleEditFilm}
+        onView={handleViewFilm}
+        onSearch={handleSearch}
+        isFetching={isFetching}
+        viewActionAvailable={(item) => !item.draft}
+        onNavigateToForm="/console/films/$id"
+        createItemTitle="New film"
+        onPageChange={handlePageChange}
+        sorting={{
+          fields: sortingFields,
+          apply: handleApplySorting,
+        }}
+      />
     </ContentWithSidebar>
   );
 }

@@ -42,8 +42,7 @@ export class CollectionEventsService {
   }
 
   async getList(queries: CommonListQueryParams) {
-    const list = await this.deps.collectionEventsRepository.getList(queries);
-    const total = await this.deps.collectionEventsRepository.count();
+    const { list, total } = await this.deps.collectionEventsRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }

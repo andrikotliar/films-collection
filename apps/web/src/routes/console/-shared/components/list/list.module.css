@@ -1,5 +1,8 @@
 .list_wrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   flex-grow: 1;
   width: 100%;
 }
@@ -29,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 .placeholder {
@@ -40,6 +44,6 @@
   padding: 50px;
 }
 
-.pagination_wrapper {
-  margin-top: 20px;
+.sorting {
+  margin-left: auto;
 }

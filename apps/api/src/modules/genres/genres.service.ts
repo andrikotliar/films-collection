@@ -11,8 +11,7 @@ export class GenresService {
   }
 
   async getBaseListData(queries: CommonListQueryParams) {
-    const list = await this.deps.genresRepository.getList(queries);
-    const total = await this.deps.genresRepository.count();
+    const { list, total } = await this.deps.genresRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }

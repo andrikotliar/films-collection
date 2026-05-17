@@ -7,7 +7,7 @@ import {
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
 import { collectionEvents, films } from '~/database/schema.js';
-import { and, asc, between, eq, gt, gte, lte, or, sql } from 'drizzle-orm';
+import { and, asc, between, eq, gt, gte, lte, or, sql, type SQL } from 'drizzle-orm';
 
 export class CollectionEventsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -47,9 +47,9 @@ export class CollectionEventsRepository {
       );
   }
 
-  getList(queries: CommonListQueryParams) {
+  async getList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, collectionEvents);
-    return this.deps.db
+    const list = await this.deps.db
       .select({
         id: collectionEvents.id,
         title: collectionEvents.title,
@@ -64,10 +64,14 @@ export class CollectionEventsRepository {
       .orderBy(asc(collectionEvents.startDateCode))
       .limit(PAGE_LIMITS.default)
       .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
-  count() {
-    return getCount(this.deps.db, collectionEvents);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, collectionEvents, filters);
   }
 
   createEvent(data: CreateCollectionEventInput) {

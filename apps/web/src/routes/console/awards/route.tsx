@@ -1,11 +1,14 @@
+import { CommonListQuerySchema } from '@films-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
+import { useCallback } from 'react';
 import { List } from '~/routes/console/-shared';
 import { api, getAwardsBaseDataListQueryOptions } from '~/shared';
 
 export const Route = createFileRoute('/console/awards')({
-  loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getAwardsBaseDataListQueryOptions());
+  validateSearch: (search) => CommonListQuerySchema.parse(search),
+  loader: async ({ context: { queryClient }, location }) => {
+    await queryClient.ensureQueryData(getAwardsBaseDataListQueryOptions(location.search));
   },
   component: PageContainer,
   staticData: {
@@ -24,8 +27,9 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
+  const search = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useQuery(getAwardsBaseDataListQueryOptions());
+  const { data, isFetching } = useQuery(getAwardsBaseDataListQueryOptions(search));
 
   const handleOnEdit = (id: number) => {
     navigate({
@@ -36,14 +40,34 @@ function PageContainer() {
     });
   };
 
+  const handlePageChange = (index: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex: index,
+      }),
+    });
+  };
+
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        q: value,
+      }),
+    });
+  }, []);
+
   return (
     <List
       data={data}
+      onSearch={handleSearch}
       getDeleteMutationOptions={getDeleteMutationOptions}
       onEdit={(data) => handleOnEdit(data.id)}
       isFetching={isFetching}
       onNavigateToForm="/console/awards/$id"
       createItemTitle="New award"
+      onPageChange={handlePageChange}
     />
   );
 }

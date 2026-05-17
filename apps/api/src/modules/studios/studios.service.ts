@@ -15,8 +15,7 @@ export class StudiosService {
   }
 
   async getBaseDataList(queries: CommonListQueryParams) {
-    const list = await this.deps.studiosRepository.getList(queries);
-    const total = await this.deps.studiosRepository.count();
+    const { list, total } = await this.deps.studiosRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }

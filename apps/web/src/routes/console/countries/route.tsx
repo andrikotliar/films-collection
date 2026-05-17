@@ -3,14 +3,15 @@ import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { CountryForm } from '~/routes/console/countries/-components';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
+import { useCallback } from 'react';
 
 const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create.exec>>({
   title: '',
 });
 
 export const Route = createFileRoute('/console/countries')({
-  loader: async ({ context: { queryClient } }) => {
-    return await queryClient.ensureQueryData(getCountriesListQueryOptions());
+  loader: async ({ context: { queryClient }, location }) => {
+    return await queryClient.ensureQueryData(getCountriesListQueryOptions(location.search));
   },
   component: withFormModal(CountryForm, PageContainer),
   staticData: {
@@ -32,8 +33,28 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useQuery(getCountriesListQueryOptions());
+  const search = Route.useSearch();
+  const { data, isFetching } = useQuery(getCountriesListQueryOptions(search));
   const { onOpen } = useFormModal();
+  const navigate = Route.useNavigate();
+
+  const handlePageChange = (index: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex: index,
+      }),
+    });
+  };
+
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        q: value,
+      }),
+    });
+  }, []);
 
   return (
     <List
@@ -42,6 +63,8 @@ function PageContainer() {
       onEdit={onOpen}
       isFetching={isFetching}
       onCreate={() => onOpen(countryDefaultValues)}
+      onSearch={handleSearch}
+      onPageChange={handlePageChange}
     />
   );
 }

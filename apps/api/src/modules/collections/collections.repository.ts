@@ -5,7 +5,7 @@ import {
   type CreateCollectionInput,
   type UpdateCollectionInput,
 } from '@films-collection/shared';
-import { and, asc, count, eq } from 'drizzle-orm';
+import { and, asc, count, eq, type SQL } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema.js';
 import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 
@@ -27,9 +27,9 @@ export class CollectionsRepository {
       .orderBy(asc(collections.title));
   }
 
-  getList(queries: CommonListQueryParams) {
+  async getList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, collections);
-    return this.deps.db
+    const list = await this.deps.db
       .select({
         id: collections.id,
         title: collections.title,
@@ -40,10 +40,14 @@ export class CollectionsRepository {
       .orderBy(asc(collections.title))
       .limit(PAGE_LIMITS.default)
       .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
-  count() {
-    return getCount(this.deps.db, collections);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, collections, filters);
   }
 
   create(input: CreateCollectionInput) {

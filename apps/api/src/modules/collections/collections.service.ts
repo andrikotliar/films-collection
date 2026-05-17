@@ -21,8 +21,7 @@ export class CollectionsService {
   }
 
   async getGeneralDataList(queries: CommonListQueryParams) {
-    const list = await this.deps.collectionsRepository.getList(queries);
-    const total = await this.deps.collectionsRepository.count();
+    const { list, total } = await this.deps.collectionsRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }
