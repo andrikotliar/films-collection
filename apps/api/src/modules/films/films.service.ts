@@ -245,9 +245,9 @@ export class FilmsService {
 
   async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
     const films = await this.deps.filmsRepository.getCompleteData(queries);
-    const genres = await this.deps.genresService.getBaseListData();
-    const countries = await this.deps.countriesService.getBaseDataList();
-    const studios = await this.deps.studiosService.getBaseDataList();
+    const genres = await this.deps.genresService.getBaseListData({});
+    const countries = await this.deps.countriesService.getBaseDataList({});
+    const studios = await this.deps.studiosService.getBaseDataList({});
     const awards = await this.deps.awardsService.getAwardsWithNominations();
     const people = await this.deps.peopleService.getAll();
 
