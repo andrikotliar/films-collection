@@ -1,22 +1,33 @@
-import { getCount, type Deps } from '~/shared/index.js';
-import { type StudioInput } from '@films-collection/shared';
+import { getCount, mapCommonFilters, type Deps } from '~/shared/index.js';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type StudioInput,
+} from '@films-collection/shared';
 import { studios } from '~/database/schema.js';
-import { asc, eq } from 'drizzle-orm';
+import { and, asc, eq } from 'drizzle-orm';
 
 export class StudiosRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll(limit?: number) {
-    const query = this.deps.db
+  getAll() {
+    return this.deps.db
       .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
       .from(studios)
       .orderBy(asc(studios.title));
+  }
 
-    if (limit) {
-      query.limit(limit);
-    }
+  getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, studios);
 
-    return query;
+    return this.deps.db
+      .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
+      .from(studios)
+      .where(and(...filters))
+      .orderBy(asc(studios.title))
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
   }
 
   async create(input: StudioInput) {

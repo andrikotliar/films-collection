@@ -1,22 +1,33 @@
-import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
-import { type CountryInput } from '@films-collection/shared';
+import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type CountryInput,
+} from '@films-collection/shared';
 import { countries } from '~/database/schema.js';
-import { asc, eq } from 'drizzle-orm';
+import { and, asc, eq } from 'drizzle-orm';
 
 export class CountriesRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll(limit?: number) {
-    const query = this.deps.db
+  getAll() {
+    return this.deps.db
       .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
       .from(countries)
       .orderBy(asc(countries.title));
+  }
 
-    if (limit) {
-      query.limit(limit);
-    }
+  getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, countries);
 
-    return query;
+    return this.deps.db
+      .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
+      .from(countries)
+      .where(and(...filters))
+      .orderBy(asc(countries.title))
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
   }
 
   create(input: CountryInput) {

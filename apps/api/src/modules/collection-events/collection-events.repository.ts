@@ -1,6 +1,8 @@
-import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
+import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 import {
+  getSkipValue,
   PAGE_LIMITS,
+  type CommonListQueryParams,
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
@@ -45,7 +47,8 @@ export class CollectionEventsRepository {
       );
   }
 
-  getAllEvents() {
+  getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, collectionEvents);
     return this.deps.db
       .select({
         id: collectionEvents.id,
@@ -57,8 +60,10 @@ export class CollectionEventsRepository {
         collectionId: collectionEvents.collectionId,
       })
       .from(collectionEvents)
+      .where(and(...filters))
       .orderBy(asc(collectionEvents.startDateCode))
-      .limit(PAGE_LIMITS.default);
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
   }
 
   count() {

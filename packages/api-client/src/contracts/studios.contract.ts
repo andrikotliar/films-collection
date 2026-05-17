@@ -1,4 +1,5 @@
 import {
+  CommonListQuerySchema,
   IdParamSchema,
   StudioInputSchema,
   StudioResponseSchema,
@@ -11,6 +12,7 @@ export const studiosContract = defineContracts('studios', {
     method: 'GET',
     url: '',
     schema: {
+      querystring: CommonListQuerySchema,
       response: StudiosResponseSchema,
     },
   },

@@ -3,6 +3,7 @@ import {
   CountryInputSchema,
   CountriesListResponseSchema,
   CountryResponseSchema,
+  CommonListQuerySchema,
 } from '@films-collection/shared';
 import { defineContracts } from '~/helpers/index.js';
 
@@ -11,6 +12,7 @@ export const countriesContract = defineContracts('countries', {
     method: 'GET',
     url: '',
     schema: {
+      querystring: CommonListQuerySchema,
       response: CountriesListResponseSchema,
     },
   },

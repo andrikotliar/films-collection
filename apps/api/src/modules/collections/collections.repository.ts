@@ -1,7 +1,13 @@
-import { type CreateCollectionInput, type UpdateCollectionInput } from '@films-collection/shared';
-import { asc, count, eq } from 'drizzle-orm';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type CreateCollectionInput,
+  type UpdateCollectionInput,
+} from '@films-collection/shared';
+import { and, asc, count, eq } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema.js';
-import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
+import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 
 export class CollectionsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -10,8 +16,8 @@ export class CollectionsRepository {
     return getFirstValue(this.deps.db.select().from(collections).where(eq(collections.id, id)));
   }
 
-  getAll(limit?: number) {
-    const query = this.deps.db
+  getAll() {
+    return this.deps.db
       .select({
         id: collections.id,
         title: collections.title,
@@ -19,12 +25,21 @@ export class CollectionsRepository {
       })
       .from(collections)
       .orderBy(asc(collections.title));
+  }
 
-    if (limit) {
-      query.limit(limit);
-    }
-
-    return query;
+  getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, collections);
+    return this.deps.db
+      .select({
+        id: collections.id,
+        title: collections.title,
+        category: collections.category,
+      })
+      .from(collections)
+      .where(and(...filters))
+      .orderBy(asc(collections.title))
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
   }
 
   count() {

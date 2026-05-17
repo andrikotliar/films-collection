@@ -1,5 +1,9 @@
 import { buildListOptions, listResponse, type Deps } from '~/shared/index.js';
-import { PAGE_LIMITS, type StudioInput } from '@films-collection/shared';
+import {
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type StudioInput,
+} from '@films-collection/shared';
 
 export class StudiosService {
   constructor(private readonly deps: Deps<'studiosRepository'>) {}
@@ -10,8 +14,8 @@ export class StudiosService {
     return buildListOptions(sortedGenres);
   }
 
-  async getBaseDataList() {
-    const list = await this.deps.studiosRepository.getAll();
+  async getBaseDataList(queries: CommonListQueryParams) {
+    const list = await this.deps.studiosRepository.getList(queries);
     const total = await this.deps.studiosRepository.count();
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
