@@ -11,8 +11,9 @@ export const GetPeopleListQuerySchema = z
   .object({
     pageIndex: z.coerce.number(),
     q: z.string().optional().nullable(),
-    role: z.enum(PersonRole),
+    role: z.enum(PersonRole).nullable(),
     selected: getBoolFromQuery.optional(),
+    notAssigned: getBoolFromQuery.optional(),
   })
   .partial();
 

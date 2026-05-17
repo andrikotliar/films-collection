@@ -36,7 +36,7 @@ export const getAdminFiltersConfig = (
       inputType: 'checkbox',
     },
     {
-      id: 'mixed',
+      id: 'noDescription',
       title: 'Content',
       type: 'boolean',
       options: [

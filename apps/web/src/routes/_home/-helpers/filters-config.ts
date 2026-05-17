@@ -60,6 +60,7 @@ export const getFiltersConfig = (
       options: initialData.options.genres,
     },
     {
+      id: 'startDate',
       title: 'Date Range',
       inputs: {
         start: {

@@ -128,8 +128,8 @@ function PageContainer() {
         isLoading={isInitialDataFetching}
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-        height="calc(var(--screen-height) - 100px)"
-        topPosition="calc(var(--header-height) + 80px)"
+        heightReducer="100px"
+        topPositionMargin="80px"
         filtersCount={filtersCount}
       >
         <Filters
