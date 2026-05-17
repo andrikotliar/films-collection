@@ -28,6 +28,7 @@ import {
   FormVideoInput,
 } from '~/shared/components/form/components';
 import { useEffect } from 'react';
+import clsx from 'clsx';
 
 type FormResetHandler<TDefaultValues extends Record<PropertyKey, unknown>> = (
   values: TDefaultValues,
@@ -43,6 +44,7 @@ type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema exte
   submitIcon?: React.ReactNode;
   children?: React.ReactNode;
   onReset?: (formReset: FormResetHandler<TDefaultValues>) => void;
+  islandActions?: boolean;
 };
 
 export const Form = <
@@ -58,6 +60,7 @@ export const Form = <
   title,
   submitIcon = <SaveIcon />,
   onReset,
+  islandActions = false,
 }: FormProps<TDefaultValues, TSchema>) => {
   const form = useForm<TDefaultValues>({
     resolver: zodResolver(schema as any),
@@ -72,7 +75,7 @@ export const Form = <
       <form className={styles.flex_wrapper} onSubmit={form.handleSubmit(onSubmit)}>
         {title && <FormTitle>{title}</FormTitle>}
         {children}
-        <div className={styles.actions}>
+        <div className={clsx(styles.actions, islandActions && styles.island_actions)}>
           {onReset && (
             <Button variant="secondary" onClick={() => onReset(form.reset)} icon={<RotateCwIcon />}>
               Reset
