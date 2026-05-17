@@ -4,8 +4,10 @@ import { createRouter, validateAuth } from '~/shared/index.js';
 export const collectionsRouter = createRouter(contracts.collectionsContract, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app }) => {
-      const data = await app.container.resolve('collectionsService').getGeneralDataList();
+    handler: async ({ app, request }) => {
+      const data = await app.container
+        .resolve('collectionsService')
+        .getGeneralDataList(request.query);
 
       return { data };
     },

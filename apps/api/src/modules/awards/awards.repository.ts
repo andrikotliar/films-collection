@@ -1,13 +1,15 @@
 import {
+  getSkipValue,
   PAGE_LIMITS,
+  type CommonListQueryParams,
   type CreateAwardInput,
   type NominationInput,
   type UpdateAwardInput,
 } from '@films-collection/shared';
-import { asc, eq, inArray } from 'drizzle-orm';
+import { and, asc, eq, inArray, type SQL } from 'drizzle-orm';
 import { awards, nominations, type Award } from '~/database/schema.js';
 import type { UpdateAwardParams } from '~/modules/awards/types.js';
-import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
+import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 
 export class AwardsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -41,16 +43,24 @@ export class AwardsRepository {
     );
   }
 
-  getBaseDataList() {
-    return this.deps.db
+  async getBaseDataList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, awards);
+
+    const list = await this.deps.db
       .select({ id: awards.id, title: awards.title })
       .from(awards)
+      .where(and(...filters))
       .orderBy(asc(awards.title))
-      .limit(PAGE_LIMITS.default);
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
-  count() {
-    return getCount(this.deps.db, awards);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, awards, filters);
   }
 
   getListOptions() {

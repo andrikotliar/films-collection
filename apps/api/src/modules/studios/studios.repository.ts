@@ -1,22 +1,37 @@
-import { getCount, type Deps } from '~/shared/index.js';
-import { type StudioInput } from '@films-collection/shared';
+import { getCount, mapCommonFilters, type Deps } from '~/shared/index.js';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type StudioInput,
+} from '@films-collection/shared';
 import { studios } from '~/database/schema.js';
-import { asc, eq } from 'drizzle-orm';
+import { and, asc, eq, type SQL } from 'drizzle-orm';
 
 export class StudiosRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll(limit?: number) {
-    const query = this.deps.db
+  getAll() {
+    return this.deps.db
       .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
       .from(studios)
       .orderBy(asc(studios.title));
+  }
 
-    if (limit) {
-      query.limit(limit);
-    }
+  async getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, studios);
 
-    return query;
+    const list = await this.deps.db
+      .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
+      .from(studios)
+      .where(and(...filters))
+      .orderBy(asc(studios.title))
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
   async create(input: StudioInput) {
@@ -39,7 +54,7 @@ export class StudiosRepository {
     return studio;
   }
 
-  count() {
-    return getCount(this.deps.db, studios);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, studios, filters);
   }
 }

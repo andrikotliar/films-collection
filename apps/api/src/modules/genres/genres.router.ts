@@ -4,8 +4,8 @@ import { contracts } from '@films-collection/api-client';
 export const genresRouter = createRouter(contracts.genresContract, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app }) => {
-      const data = await app.container.resolve('genresService').getBaseListData();
+    handler: async ({ app, request }) => {
+      const data = await app.container.resolve('genresService').getBaseListData(request.query);
 
       return { data };
     },

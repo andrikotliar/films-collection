@@ -16,13 +16,19 @@ export const TextArea = ({
   error,
   isLoading = false,
   ref,
+  disabled,
   ...textAreaProps
 }: TextAreaProps) => {
   return (
     <label className={styles.wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <div className={styles.text_area_wrapper}>
-        <textarea className={styles.text_area} ref={ref} {...textAreaProps} />
+        <textarea
+          className={styles.text_area}
+          ref={ref}
+          disabled={disabled || isLoading}
+          {...textAreaProps}
+        />
         {isLoading && (
           <div className={styles.loader_wrapper}>
             <Loader size={30} shouldInheritColor />

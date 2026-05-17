@@ -1,14 +1,63 @@
-import { api, getEmptyFormValues, getPeopleAdminListQueryOptions, type Input } from '~/shared';
-import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
-import { Filters, PersonForm } from '~/routes/console/people/-components';
+import {
+  api,
+  countObjectKeys,
+  Filters,
+  FiltersSidebar,
+  filterValues,
+  getEmptyFormValues,
+  getPeopleAdminListQueryOptions,
+  useSidebarVisibility,
+  type FilterItem,
+  type Input,
+} from '~/shared';
+import { ContentWithSidebar, List, useFormModal, withFormModal } from '~/routes/console/-shared';
+import { PersonForm } from '~/routes/console/people/-components';
 import { createFileRoute } from '@tanstack/react-router';
-import { GetPeopleListQuerySchema } from '@films-collection/shared';
+import {
+  convertEnumValuesToOption,
+  GetPeopleListQuerySchema,
+  PersonRole,
+  enumValues,
+} from '@films-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
+import type { z } from 'zod';
+import { useCallback, useMemo } from 'react';
 
 const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create.exec>>({
   name: '',
   selected: false,
 });
+
+const filtersConfig: Array<FilterItem<z.infer<typeof GetPeopleListQuerySchema>>> = [
+  {
+    id: 'selected',
+    title: 'Content',
+    type: 'boolean',
+    options: [
+      {
+        id: 'selected',
+        label: 'Selected',
+      },
+      {
+        id: 'notAssigned',
+        label: 'Not assigned',
+      },
+    ],
+  },
+  {
+    id: 'role',
+    title: 'Role',
+    type: 'checkmark',
+    options: convertEnumValuesToOption(enumValues(PersonRole)),
+    inputType: 'radio',
+  },
+];
+
+const defaultFilters: z.infer<typeof GetPeopleListQuerySchema> = {
+  selected: false,
+  notAssigned: false,
+  role: null,
+};
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
@@ -37,6 +86,7 @@ function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
+  const { isFilterOpen, toggleFilter } = useSidebarVisibility();
 
   const { data, isFetching } = useQuery(getPeopleAdminListQueryOptions(search));
 
@@ -49,12 +99,63 @@ function RouteComponent() {
     });
   };
 
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (values) => ({
+        ...values,
+        q: value,
+      }),
+    });
+  }, []);
+
+  const appliedFilters = countObjectKeys(search, ['pageIndex', 'q']);
+
+  const initialFilters = useMemo(() => {
+    return {
+      ...defaultFilters,
+      ...search,
+    };
+  }, [search]);
+
+  const filterPeople = (data: z.infer<typeof GetPeopleListQuerySchema>) => {
+    const appliedFilters = filterValues(data);
+    navigate({
+      search: (values) => ({
+        ...values,
+        ...appliedFilters,
+      }),
+    });
+  };
+
+  const handleReset = () => {
+    navigate({
+      to: '/console/people',
+    });
+  };
+
   return (
-    <>
-      <Filters />
+    <ContentWithSidebar>
+      <FiltersSidebar
+        isOpen={isFilterOpen}
+        onToggle={toggleFilter}
+        filtersCount={appliedFilters}
+        heightReducer="100px"
+        topPositionMargin="80px"
+      >
+        <Filters
+          defaultValues={initialFilters}
+          config={filtersConfig}
+          schema={GetPeopleListQuerySchema}
+          filtersCount={appliedFilters}
+          resetValues={defaultFilters}
+          onSubmit={filterPeople}
+          onReset={handleReset}
+        />
+      </FiltersSidebar>
       <List
         data={data}
         titleKey="name"
+        onSearch={handleSearch}
         getDeleteMutationOptions={getDeleteMutationOptions}
         onEdit={onOpen}
         isFetching={isFetching}
@@ -62,6 +163,6 @@ function RouteComponent() {
         onCreate={() => onOpen(personDefaultValues)}
         createItemTitle="New crew or cast member"
       />
-    </>
+    </ContentWithSidebar>
   );
 }

@@ -2,8 +2,8 @@
   width: 300px;
   flex-shrink: 0;
   position: sticky;
-  top: var(--sidebar-top-position);
-  height: var(--sidebar-height);
+  top: calc(var(--header-height) + var(--sidebar-top-position-margin, 0));
+  height: calc(var(--screen-height) - var(--sidebar-height-reducer, 0));
   border: var(--border-default);
   border-radius: var(--rounded-default);
   overflow: hidden;
@@ -36,6 +36,10 @@
 }
 
 .sidebar_button {
+  display: none;
+}
+
+.close_icon_wrapper {
   display: none;
 }
 
@@ -87,5 +91,12 @@
     background-color: var(--color-orange-primary);
     border-radius: 50%;
     font-size: var(--text-xs);
+  }
+
+  .close_icon_wrapper {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }
 }

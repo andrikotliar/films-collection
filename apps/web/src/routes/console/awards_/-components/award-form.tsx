@@ -1,4 +1,4 @@
-import { api, Form, FormIdParamSchema, mutateEntity, type Input } from '~/shared';
+import { api, Form, FormIdParamSchema, mutateEntity, Panel, type Input } from '~/shared';
 import { NominationsForm } from '~/routes/console/awards_/-components/nominations-form/nominations-form';
 import { CreateAwardInputSchema } from '@films-collection/shared';
 import { useMutation } from '@tanstack/react-query';
@@ -43,10 +43,13 @@ export const AwardForm = ({ values }: AwardFormProps) => {
       defaultValues={values}
       schema={AwardFormSchema}
       isLoading={isPending}
+      islandActions
     >
-      <Form.TextInput name="title" label="Title" />
-      <Form.TextArea name="description" label="Description" />
-      <NominationsForm />
+      <Panel isFlexContainer>
+        <Form.TextInput name="title" label="Title" />
+        <Form.TextArea name="description" label="Description" />
+        <NominationsForm />
+      </Panel>
     </Form>
   );
 };

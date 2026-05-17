@@ -4,6 +4,7 @@ import {
   UpdateCollectionInputSchema,
   CollectionsListResponseSchema,
   CollectionResponseSchema,
+  CommonListQuerySchema,
 } from '@films-collection/shared';
 import { defineContracts } from '~/helpers/index.js';
 
@@ -12,6 +13,7 @@ export const collectionsContract = defineContracts('collections', {
     method: 'GET',
     url: '',
     schema: {
+      querystring: CommonListQuerySchema,
       response: CollectionsListResponseSchema,
     },
   },

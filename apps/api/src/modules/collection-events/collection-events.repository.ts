@@ -1,11 +1,13 @@
-import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
+import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 import {
+  getSkipValue,
   PAGE_LIMITS,
+  type CommonListQueryParams,
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
 import { collectionEvents, films } from '~/database/schema.js';
-import { and, asc, between, eq, gt, gte, lte, or, sql } from 'drizzle-orm';
+import { and, asc, between, eq, gt, gte, lte, or, sql, type SQL } from 'drizzle-orm';
 
 export class CollectionEventsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
@@ -45,8 +47,9 @@ export class CollectionEventsRepository {
       );
   }
 
-  getAllEvents() {
-    return this.deps.db
+  async getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, collectionEvents);
+    const list = await this.deps.db
       .select({
         id: collectionEvents.id,
         title: collectionEvents.title,
@@ -57,12 +60,18 @@ export class CollectionEventsRepository {
         collectionId: collectionEvents.collectionId,
       })
       .from(collectionEvents)
+      .where(and(...filters))
       .orderBy(asc(collectionEvents.startDateCode))
-      .limit(PAGE_LIMITS.default);
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
-  count() {
-    return getCount(this.deps.db, collectionEvents);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, collectionEvents, filters);
   }
 
   createEvent(data: CreateCollectionEventInput) {

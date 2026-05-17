@@ -11,10 +11,10 @@ export const collectionEventsRouter = createRouter(contracts.collectionEventsCon
     },
   },
 
-  getAll: {
+  getList: {
     preHandler: [validateAuth],
-    handler: async ({ app }) => {
-      const data = await app.container.resolve('collectionEventsService').getAllEvents();
+    handler: async ({ app, request }) => {
+      const data = await app.container.resolve('collectionEventsService').getList(request.query);
 
       return { data };
     },

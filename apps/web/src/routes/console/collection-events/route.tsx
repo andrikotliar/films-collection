@@ -10,6 +10,7 @@ import {
 } from '~/shared';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
+import { useCallback } from 'react';
 
 const getCollectionEventDefaultValues = () => {
   const defaultDateCode = getDefaultDateCode();
@@ -27,8 +28,8 @@ const getCollectionEventDefaultValues = () => {
 
 export const Route = createFileRoute('/console/collection-events')({
   component: withFormModal(CollectionEventForm, CollectionEventsContainer),
-  loader: ({ context }) => {
-    return context.queryClient.ensureQueryData(getCollectionEventsQueryOptions());
+  loader: ({ context, location }) => {
+    return context.queryClient.ensureQueryData(getCollectionEventsQueryOptions(location.search));
   },
   staticData: {
     title: 'Collections Events',
@@ -45,7 +46,7 @@ const getDeleteMutationOptions = () => {
     meta: {
       invalidateQueries: [
         {
-          queryKey: api.collectionEvents.getAll.staticKey,
+          queryKey: api.collectionEvents.getList.staticKey,
         },
         { queryKey: api.initialData.get.staticKey },
       ],
@@ -55,8 +56,27 @@ const getDeleteMutationOptions = () => {
 
 function CollectionEventsContainer() {
   const { onOpen } = useFormModal<FormModalValues<typeof CollectionEventForm>>();
+  const search = Route.useSearch();
+  const navigate = Route.useNavigate();
+  const { data, isFetching } = useQuery(getCollectionEventsQueryOptions(search));
 
-  const { data, isFetching } = useQuery(getCollectionEventsQueryOptions());
+  const handlePageChange = (index: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex: index,
+      }),
+    });
+  };
+
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        q: value,
+      }),
+    });
+  }, []);
 
   return (
     <List
@@ -73,6 +93,8 @@ function CollectionEventsContainer() {
       description={getDateMonthLabel}
       isFetching={isFetching}
       onCreate={() => onOpen(getCollectionEventDefaultValues())}
+      onSearch={handleSearch}
+      onPageChange={handlePageChange}
     />
   );
 }

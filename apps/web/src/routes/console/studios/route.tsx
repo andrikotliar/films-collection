@@ -3,14 +3,15 @@ import { createFileRoute } from '@tanstack/react-router';
 import { api, getEmptyFormValues, getStudiosListQueryOptions, type Input } from '~/shared';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/studios/-components';
+import { useCallback } from 'react';
 
 const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create.exec>>({
   title: '',
 });
 
 export const Route = createFileRoute('/console/studios')({
-  loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getStudiosListQueryOptions());
+  loader: async ({ context: { queryClient }, location }) => {
+    await queryClient.ensureQueryData(getStudiosListQueryOptions(location.search));
   },
   component: withFormModal(StudioForm, PageContainer),
   staticData: {
@@ -29,8 +30,28 @@ const getDeleteMutationOptions = () => {
 };
 
 function PageContainer() {
-  const { data, isFetching } = useQuery(getStudiosListQueryOptions());
+  const search = Route.useSearch();
+  const { data, isFetching } = useQuery(getStudiosListQueryOptions(search));
   const { onOpen } = useFormModal();
+  const navigate = Route.useNavigate();
+
+  const handlePageChange = (index: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex: index,
+      }),
+    });
+  };
+
+  const handleSearch = useCallback((value: string) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        q: value,
+      }),
+    });
+  }, []);
 
   return (
     <List
@@ -40,6 +61,8 @@ function PageContainer() {
       isFetching={isFetching}
       onCreate={() => onOpen(studioInitialValues)}
       createItemTitle="New studio"
+      onSearch={handleSearch}
+      onPageChange={handlePageChange}
     />
   );
 }

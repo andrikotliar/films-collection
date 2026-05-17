@@ -16,6 +16,8 @@ import {
   inArray,
   isNull,
   lte,
+  notExists,
+  notInArray,
   or,
   sql,
   type SQL,
@@ -29,6 +31,7 @@ import {
   filmsGenres,
   filmsPeople,
   filmsStudios,
+  filmTrailers,
   seriesExtensions,
 } from '~/database/schema.js';
 import type { Database } from '~/plugins/index.js';
@@ -99,6 +102,9 @@ export const mapListFilters = (
     draftLevels = [],
     noDescription,
     releasedThisDay,
+    noBoxOffice,
+    noCrewOrCast,
+    noTrailers,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
@@ -257,6 +263,20 @@ export const mapListFilters = (
 
   if (noDescription) {
     filters.push(or(isNull(films.synopsis), sql`LENGTH(synopsis) = 0`));
+  }
+
+  if (noBoxOffice && type !== 'SERIES') {
+    filters.push(and(eq(films.boxOffice, 0), notInArray(films.type, ['SERIES'])));
+  }
+
+  if (noCrewOrCast) {
+    filters.push(notExists(db.select().from(filmsPeople).where(eq(films.id, filmsPeople.filmId))));
+  }
+
+  if (noTrailers) {
+    filters.push(
+      notExists(db.select().from(filmTrailers).where(eq(films.id, filmTrailers.filmId))),
+    );
   }
 
   if (releasedThisDay) {

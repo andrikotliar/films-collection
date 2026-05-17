@@ -1,5 +1,6 @@
 import {
   PAGE_LIMITS,
+  type CommonListQueryParams,
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
@@ -40,9 +41,8 @@ export class CollectionEventsService {
     return updatedEvent;
   }
 
-  async getAllEvents() {
-    const list = await this.deps.collectionEventsRepository.getAllEvents();
-    const total = await this.deps.collectionEventsRepository.count();
+  async getList(queries: CommonListQueryParams) {
+    const { list, total } = await this.deps.collectionEventsRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }

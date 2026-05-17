@@ -84,8 +84,8 @@ function RootPageContainer() {
       <FiltersSidebar
         filtersCount={filtersCount}
         isLoading={isInitialDataLoading}
-        height="calc(var(--screen-height) - 40px)"
-        topPosition="calc(var(--header-height) + 20px)"
+        heightReducer="40px"
+        topPositionMargin="20px"
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
       >

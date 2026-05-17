@@ -520,7 +520,7 @@ export class FilmsRepository {
         .where(eq(films.id, filmId))
         .returning({ id: films.id });
 
-      if (genres?.length) {
+      if (genres) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -532,7 +532,7 @@ export class FilmsRepository {
         });
       }
 
-      if (castAndCrew?.length) {
+      if (castAndCrew) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -544,7 +544,7 @@ export class FilmsRepository {
         });
       }
 
-      if (awards?.length) {
+      if (awards) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -556,7 +556,7 @@ export class FilmsRepository {
         });
       }
 
-      if (collections?.length) {
+      if (collections) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -568,7 +568,7 @@ export class FilmsRepository {
         });
       }
 
-      if (countries?.length) {
+      if (countries) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -580,7 +580,7 @@ export class FilmsRepository {
         });
       }
 
-      if (studios?.length) {
+      if (studios) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -592,7 +592,7 @@ export class FilmsRepository {
         });
       }
 
-      if (trailers?.length) {
+      if (trailers) {
         await this.updateFilmRelations({
           transaction,
           filmId,
@@ -632,7 +632,9 @@ export class FilmsRepository {
   }: UpdateRelationsParams<T, V>) {
     await transaction.delete(table).where(eq(table.filmId, filmId));
 
-    await transaction.insert(table).values(values);
+    if (values.length) {
+      await transaction.insert(table).values(values);
+    }
   }
 
   getCompleteData(queries: GetCompleteDataListQuery) {

@@ -110,6 +110,9 @@ export const FilmForm = ({ values }: FilmFormProps) => {
               {
                 queryKey: [api.films.getById.staticKey, values.id],
               },
+              {
+                queryKey: [api.films.getEditableFilm.staticKey, values.id],
+              },
             ]
           : []),
       ],
@@ -171,6 +174,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }}
       isLoading={isPending}
+      islandActions
     >
       <Drafts onSelectDraft={setSelectedDraft} />
       <Panel isFlexContainer>

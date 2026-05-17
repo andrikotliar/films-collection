@@ -6,7 +6,18 @@ import {
   type SearchPersonQuery,
   type UpdatePersonInput,
 } from '@films-collection/shared';
-import { and, asc, count, eq, exists, ilike, inArray, notInArray, type SQL } from 'drizzle-orm';
+import {
+  and,
+  asc,
+  count,
+  eq,
+  exists,
+  ilike,
+  inArray,
+  notExists,
+  notInArray,
+  type SQL,
+} from 'drizzle-orm';
 import { filmsPeople, people } from '~/database/schema.js';
 import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared/index.js';
 
@@ -152,6 +163,15 @@ export class PeopleRepository {
         .where(and(eq(filmsPeople.personId, people.id), eq(filmsPeople.role, queries.role)));
 
       filters.push(exists(subquery));
+    }
+
+    if (queries.notAssigned) {
+      const subquery = this.deps.db
+        .select()
+        .from(filmsPeople)
+        .where(and(eq(filmsPeople.personId, people.id)));
+
+      filters.push(notExists(subquery));
     }
 
     return filters;

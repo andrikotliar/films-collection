@@ -86,19 +86,18 @@ function RouteComponent() {
   };
 
   return (
-    <div>
-      <Panel>
-        <Form
-          onSubmit={handleSubmit}
-          defaultValues={getDefaultFormValues(data)}
-          schema={PageContentFormSchema}
-          isLoading={isPending}
-        >
-          <Form.TextInput name="title" label="Title" />
-          <Form.TextEditor name="content" label="Content" />
-          <Form.TextInput name="pageKey" label="Page Key" />
-        </Form>
+    <Form
+      onSubmit={handleSubmit}
+      defaultValues={getDefaultFormValues(data)}
+      schema={PageContentFormSchema}
+      isLoading={isPending}
+      islandActions
+    >
+      <Panel isFlexContainer>
+        <Form.TextInput name="title" label="Title" />
+        <Form.TextEditor name="content" label="Content" />
+        <Form.TextInput name="pageKey" label="Page Key" />
       </Panel>
-    </div>
+    </Form>
   );
 }

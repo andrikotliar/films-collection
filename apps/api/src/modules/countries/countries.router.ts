@@ -4,8 +4,8 @@ import { createRouter, validateAuth } from '~/shared/index.js';
 export const countriesRouter = createRouter(contracts.countriesContract, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app }) => {
-      const data = await app.container.resolve('countriesService').getBaseDataList();
+    handler: async ({ app, request }) => {
+      const data = await app.container.resolve('countriesService').getBaseDataList(request.query);
 
       return { data };
     },

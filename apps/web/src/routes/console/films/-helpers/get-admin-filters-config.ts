@@ -6,6 +6,9 @@ import type { api, ApiResponse, FilterItem } from '~/shared';
 const AdminOnlyFiltersSchema = z.object({
   noDescription: z.boolean().nullable(),
   draftLevels: z.array(z.enum(DraftLevel)),
+  noCrewOrCast: z.boolean().nullable(),
+  noBoxOffice: z.boolean().nullable(),
+  noTrailers: z.boolean().nullable(),
 });
 
 export const AdminFiltersSchema = z.object({
@@ -19,6 +22,9 @@ type AdminOnlyFilterValues = z.infer<typeof AdminOnlyFiltersSchema>;
 export const defaultAdminFilters: AdminFilterValues = {
   ...filterDefaultValues,
   noDescription: false,
+  noBoxOffice: false,
+  noTrailers: false,
+  noCrewOrCast: false,
   draftLevels: [],
 };
 
@@ -36,13 +42,25 @@ export const getAdminFiltersConfig = (
       inputType: 'checkbox',
     },
     {
-      id: 'mixed',
+      id: 'noDescription',
       title: 'Content',
       type: 'boolean',
       options: [
         {
           id: 'noDescription',
           label: 'Missing description',
+        },
+        {
+          id: 'noBoxOffice',
+          label: 'Missing box office',
+        },
+        {
+          id: 'noTrailers',
+          label: 'Missing trailers',
+        },
+        {
+          id: 'noCrewOrCast',
+          label: 'Missing crew or cast data',
         },
       ],
     },

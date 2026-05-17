@@ -1,13 +1,12 @@
-import { queryOptions, useSuspenseQuery } from '@tanstack/react-query';
+import { queryOptions } from '@tanstack/react-query';
 import { api } from '~/shared/services';
+import type { QueryParams } from '~/shared/types';
 
-export const getStudiosListQueryOptions = () => {
+export const getStudiosListQueryOptions = (
+  queryParams: QueryParams<typeof api.studios.getList.exec>,
+) => {
   return queryOptions({
-    queryKey: [api.studios.getList.staticKey],
-    queryFn: () => api.studios.getList.exec(),
+    queryKey: [api.studios.getList.staticKey, queryParams],
+    queryFn: () => api.studios.getList.exec({ queryParams }),
   });
-};
-
-export const useSuspenseStudiosList = () => {
-  return useSuspenseQuery(getStudiosListQueryOptions());
 };

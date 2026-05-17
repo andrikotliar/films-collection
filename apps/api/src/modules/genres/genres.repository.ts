@@ -1,13 +1,18 @@
-import { getCount, getFirstValue, type Deps } from '~/shared/index.js';
-import { type GenreInput } from '@films-collection/shared';
+import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
+import {
+  getSkipValue,
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type GenreInput,
+} from '@films-collection/shared';
 import { genres } from '~/database/schema.js';
-import { asc, eq } from 'drizzle-orm';
+import { and, asc, eq, type SQL } from 'drizzle-orm';
 
 export class GenresRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
-  getAll(limit?: number) {
-    const query = this.deps.db
+  getAll() {
+    return this.deps.db
       .select({
         id: genres.id,
         title: genres.title,
@@ -15,12 +20,26 @@ export class GenresRepository {
       })
       .from(genres)
       .orderBy(asc(genres.title));
+  }
 
-    if (limit) {
-      query.limit(limit);
-    }
+  async getList(queries: CommonListQueryParams) {
+    const filters = mapCommonFilters(queries, genres);
 
-    return query;
+    const list = await this.deps.db
+      .select({
+        id: genres.id,
+        title: genres.title,
+        updatedAt: genres.updatedAt,
+      })
+      .from(genres)
+      .where(and(...filters))
+      .orderBy(asc(genres.title))
+      .limit(PAGE_LIMITS.default)
+      .offset(getSkipValue('default', queries.pageIndex));
+
+    const total = await this.count(filters);
+
+    return { list, total };
   }
 
   create(input: GenreInput) {
@@ -37,7 +56,7 @@ export class GenresRepository {
     );
   }
 
-  count() {
-    return getCount(this.deps.db, genres);
+  count(filters?: SQL[]) {
+    return getCount(this.deps.db, genres, filters);
   }
 }

@@ -1,5 +1,9 @@
 import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
-import { PAGE_LIMITS, type CountryInput } from '@films-collection/shared';
+import {
+  PAGE_LIMITS,
+  type CommonListQueryParams,
+  type CountryInput,
+} from '@films-collection/shared';
 
 export class CountriesService {
   constructor(private readonly deps: Deps<'countriesRepository'>) {}
@@ -10,9 +14,8 @@ export class CountriesService {
     return buildListOptions(countries);
   }
 
-  async getBaseDataList() {
-    const list = await this.deps.countriesRepository.getAll();
-    const total = await this.deps.countriesRepository.count();
+  async getBaseDataList(queries: CommonListQueryParams) {
+    const { list, total } = await this.deps.countriesRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
   }

@@ -22,7 +22,7 @@ export const CollectionEventForm = ({ values }: CollectionEventFormProps) => {
     mutationFn: mutateEntity(api.collectionEvents.create.exec, api.collectionEvents.update.exec),
     meta: {
       invalidateQueries: [
-        { queryKey: api.collectionEvents.getAll.staticKey },
+        { queryKey: api.collectionEvents.getList.staticKey },
         { queryKey: api.initialData.get.staticKey },
       ],
     },

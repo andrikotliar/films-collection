@@ -3,6 +3,7 @@ import {
   AwardsListResponseSchema,
   AwardWithNominationsResponseSchema,
   buildListOptionSchema,
+  CommonListQuerySchema,
   CreateAwardInputSchema,
   IdParamSchema,
   NominationInputSchema,
@@ -17,6 +18,7 @@ export const awardsContract = defineContracts('awards', {
     method: 'GET',
     url: '',
     schema: {
+      querystring: CommonListQuerySchema,
       response: AwardsListResponseSchema,
     },
   },

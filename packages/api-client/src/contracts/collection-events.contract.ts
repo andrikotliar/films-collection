@@ -4,6 +4,7 @@ import {
   IdParamSchema,
   CollectionEventResponseSchema,
   CollectionEventsListResponseSchema,
+  CommonListQuerySchema,
 } from '@films-collection/shared';
 import { defineContracts } from '~/helpers/index.js';
 
@@ -16,10 +17,11 @@ export const collectionEventsContract = defineContracts('collection-events', {
       response: CollectionEventResponseSchema,
     },
   },
-  getAll: {
+  getList: {
     method: 'GET',
     url: '',
     schema: {
+      querystring: CommonListQuerySchema,
       response: CollectionEventsListResponseSchema,
     },
   },

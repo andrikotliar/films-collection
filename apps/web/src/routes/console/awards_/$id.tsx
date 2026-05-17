@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
-import { getAwardQueryOptions, getMixedId, Panel } from '~/shared';
+import { getAwardQueryOptions, getMixedId } from '~/shared';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 
@@ -26,9 +26,5 @@ function PageContainer() {
     return getFormDefaultValues(data);
   }, [data]);
 
-  return (
-    <Panel>
-      <AwardForm values={defaultValues} />
-    </Panel>
-  );
+  return <AwardForm values={defaultValues} />;
 }
