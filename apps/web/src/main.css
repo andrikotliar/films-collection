@@ -117,6 +117,11 @@ input {
   font-family: inherit;
 }
 
+html {
+  container-type: scroll-state;
+  container-name: scroller;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   overflow-y: scroll;

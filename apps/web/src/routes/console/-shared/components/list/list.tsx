@@ -1,30 +1,16 @@
 import styles from './list.module.css';
-import { useState } from 'react';
-import { useMutation, type UseMutationOptions } from '@tanstack/react-query';
-import {
-  CameraLoader,
-  ConfirmModal,
-  Pagination,
-  Panel,
-  SortingPopup,
-  type SortingParams,
-} from '~/shared';
+import { Pagination, SortingPopup, type SortingParams } from '~/shared';
 import { type DefaultListItem } from '~/routes/console/-shared';
-import { ItemRow, type ItemRowProps } from '~/routes/console/-shared/components/item-row/item-row';
 import type { FileRoutesByTo } from '~/routeTree.gen';
 import { Link, useLocation } from '@tanstack/react-router';
 import { PlusIcon } from 'lucide-react';
 import { NEW_ITEM_ID, PAGE_LIMITS, type ListOption } from '@films-collection/shared';
-import { ListSearch } from '~/routes/console/-shared/components/list-search/list-search';
-
-type GetDeleteMutationOptions = () => UseMutationOptions<
-  {
-    id: number;
-  },
-  Error,
-  number,
-  unknown
->;
+import {
+  ListSearch,
+  type ItemRowProps,
+  ListContent,
+} from '~/routes/console/-shared/components/list/components';
+import type { GetDeleteMutationOptions } from '~/routes/console/-shared/components/list/types';
 
 type ListData<T extends DefaultListItem> = {
   list: T[];
@@ -51,7 +37,6 @@ type ListProps<T extends DefaultListItem> = {
 
 export const List = <T extends DefaultListItem>({
   data,
-  getDeleteMutationOptions,
   isFetching = true,
   onCreate,
   onNavigateToForm,
@@ -63,16 +48,6 @@ export const List = <T extends DefaultListItem>({
 }: ListProps<T>) => {
   const location = useLocation();
 
-  const [itemToDelete, setItemToDelete] = useState<T | null>(null);
-
-  const { mutateAsync: onDelete, isPending: isDeletingInProgress } = useMutation(
-    getDeleteMutationOptions(),
-  );
-
-  const handleDeleteItem = async (data: T) => {
-    await onDelete(data.id);
-    setItemToDelete(null);
-  };
   const shouldShowHeader = !!onNavigateToForm || !!onCreate;
 
   return (
@@ -109,20 +84,7 @@ export const List = <T extends DefaultListItem>({
             )}
           </div>
         )}
-
-        <Panel hasPaddings={false}>
-          {isFetching && (
-            <div className={styles.loader}>
-              <CameraLoader />
-            </div>
-          )}
-          {(!data || data?.list.length === 0) && (
-            <div className={styles.placeholder}>No items found</div>
-          )}
-          {data?.list.map((item) => (
-            <ItemRow key={item.id} data={item} onDelete={setItemToDelete} {...props} />
-          ))}
-        </Panel>
+        <ListContent isFetching={isFetching} list={data?.list} {...props} />
       </div>
       {typeof onPageChange === 'function' && (
         <div className={styles.pagination_wrapper}>
@@ -134,14 +96,6 @@ export const List = <T extends DefaultListItem>({
           />
         </div>
       )}
-      <ConfirmModal
-        data={itemToDelete}
-        onConfirm={handleDeleteItem}
-        onClose={() => setItemToDelete(null)}
-        confirmButtonTitle="Delete"
-        confirmButtonVariant="danger"
-        isPending={isDeletingInProgress}
-      />
     </div>
   );
 };

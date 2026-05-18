@@ -135,7 +135,7 @@ function PageContainer() {
     };
   }, [searchParams]);
 
-  const filtersCount = countObjectKeys(searchParams, ['pageIndex']);
+  const filtersCount = countObjectKeys(searchParams, ['pageIndex', 'order', 'orderKey', 'q']);
 
   const handleSearch = useCallback((value: string) => {
     navigate({
