@@ -28,22 +28,6 @@
   color: var(--color-blue-primary);
 }
 
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-
-.placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-gray-dark);
-  font-size: 14px;
-  padding: 50px;
-}
-
 .sorting {
   margin-left: auto;
 }
