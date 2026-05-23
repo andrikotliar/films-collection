@@ -1,0 +1,123 @@
+{
+  "id": 370,
+  "title": "Kung Fu Panda 2",
+  "releaseDate": "2011-05-26",
+  "type": "FILM",
+  "duration": 90,
+  "budget": 150000000,
+  "boxOffice": 665000000,
+  "synopsis": null,
+  "chapterKey": "kungfu-panda",
+  "chapterOrder": 1,
+  "poster": "posters/kung_fu_panda_2",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/FQ63rqSRrEI?si=dh2tXn-0iRQoChe8",
+      "order": 1,
+      "id": 344
+    }
+  ],
+  "awards": [
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Directing in a Feature Production",
+          "id": 271
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2709,
+      "name": "Jennifer Yuh Nelson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1761,
+      "name": "Jonathan Aibel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1762,
+      "name": "Glenn Berger",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 478,
+      "name": "Jack Black",
+      "role": "ACTOR",
+      "details": "Po"
+    },
+    {
+      "id": 63,
+      "name": "Angelina Jolie",
+      "role": "ACTOR",
+      "details": "Tigress"
+    },
+    {
+      "id": 313,
+      "name": "Dustin Hoffman",
+      "role": "ACTOR",
+      "details": "Shifu"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Shen"
+    },
+    {
+      "id": 1763,
+      "name": "Melissa Cobb",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1551,
+      "name": "John Powell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2710,
+      "name": "Damon O'Beirne",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

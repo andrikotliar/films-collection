@@ -1,0 +1,140 @@
+{
+  "id": 372,
+  "title": "9",
+  "releaseDate": "2009-09-09",
+  "type": "FILM",
+  "duration": 79,
+  "budget": 30000000,
+  "boxOffice": 48000000,
+  "synopsis": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/9",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Steampunk",
+      "id": 23
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Luxemburg",
+      "id": 24
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Focus Features",
+      "id": 90
+    },
+    {
+      "title": "Relativity Media",
+      "id": 91
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/UY7Tge7ftxM?si=-r0TvkGCHOn2yW0q",
+      "order": 1,
+      "id": 346
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2713,
+      "name": "Shane Acker",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2714,
+      "name": "Pamela Pettler",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2715,
+      "name": "Christopher Plummer",
+      "role": "ACTOR",
+      "details": "#1"
+    },
+    {
+      "id": 2716,
+      "name": "Martin Landau",
+      "role": "ACTOR",
+      "details": "#2"
+    },
+    {
+      "id": 576,
+      "name": "John C. Reilly",
+      "role": "ACTOR",
+      "details": "#5"
+    },
+    {
+      "id": 232,
+      "name": "Crispin Glover",
+      "role": "ACTOR",
+      "details": "#6"
+    },
+    {
+      "id": 546,
+      "name": "Jennifer Connelly",
+      "role": "ACTOR",
+      "details": "#7"
+    },
+    {
+      "id": 2717,
+      "name": "Fred Tatasciore",
+      "role": "ACTOR",
+      "details": "#8"
+    },
+    {
+      "id": 323,
+      "name": "Elijah Wood",
+      "role": "ACTOR",
+      "details": "#9"
+    },
+    {
+      "id": 1833,
+      "name": "Tim Burton",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2718,
+      "name": "Dana Ginsburg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2719,
+      "name": "Jim Lemley",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2720,
+      "name": "Deborah Lurie",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ]
+}

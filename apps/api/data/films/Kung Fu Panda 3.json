@@ -1,0 +1,96 @@
+{
+  "id": 371,
+  "title": "Kung Fu Panda 3",
+  "releaseDate": "2016-01-29",
+  "type": "FILM",
+  "duration": 95,
+  "budget": 145000000,
+  "boxOffice": 521000000,
+  "synopsis": null,
+  "chapterKey": "kungfu-panda",
+  "chapterOrder": 2,
+  "poster": "posters/kung_fu_panda_3",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [],
+  "studios": [],
+  "trailers": [
+    {
+      "url": "https://youtu.be/yqN7nHM1YTA?si=lwARh7SsRn1b1WhL",
+      "order": 1,
+      "id": 345
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2711,
+      "name": "Alessandro Carloni",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2709,
+      "name": "Jennifer Yuh Nelson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1761,
+      "name": "Jonathan Aibel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1762,
+      "name": "Glenn Berger",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 478,
+      "name": "Jack Black",
+      "role": "ACTOR",
+      "details": "Po"
+    },
+    {
+      "id": 2712,
+      "name": "Bryan Cranston",
+      "role": "ACTOR",
+      "details": "Li"
+    },
+    {
+      "id": 313,
+      "name": "Dustin Hoffman",
+      "role": "ACTOR",
+      "details": "Shifu"
+    },
+    {
+      "id": 475,
+      "name": "J.K. Simmons",
+      "role": "ACTOR",
+      "details": "Kai"
+    },
+    {
+      "id": 1763,
+      "name": "Melissa Cobb",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ]
+}

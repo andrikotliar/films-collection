@@ -1,0 +1,146 @@
+{
+  "id": 368,
+  "title": "Constantine",
+  "releaseDate": "2005-02-18",
+  "type": "FILM",
+  "duration": 121,
+  "budget": 100000000,
+  "boxOffice": 231000000,
+  "synopsis": "Constantine is a demon hunter who tries to atone for his sins by helping people.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/constantine",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Germany",
+      "id": 5
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Village Roadshow Pictures",
+      "id": 31
+    },
+    {
+      "title": "DC Comics",
+      "id": 89
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/DEa508Xmmio?si=Wvg0btHE8SpI5K95",
+      "order": 1,
+      "id": 341
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1680,
+      "name": "Francis Lawrence",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2699,
+      "name": "Kevin Brodbin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2700,
+      "name": "Frank А. Cappello",
+      "role": "WRITER",
+      "details": ""
+    },
+    {
+      "id": 657,
+      "name": "Keanu Reeves",
+      "role": "ACTOR",
+      "details": "John Constantine"
+    },
+    {
+      "id": 940,
+      "name": "Rachel Weisz",
+      "role": "ACTOR",
+      "details": "Angela Dodson"
+    },
+    {
+      "id": 1065,
+      "name": "Shia LaBeouf",
+      "role": "ACTOR",
+      "details": "Chas"
+    },
+    {
+      "id": 297,
+      "name": "Djimon Hounsou",
+      "role": "ACTOR",
+      "details": "Midnite"
+    },
+    {
+      "id": 1118,
+      "name": "Tilda Swinton",
+      "role": "ACTOR",
+      "details": "Gabriel"
+    },
+    {
+      "id": 2701,
+      "name": "Peter Stormare",
+      "role": "ACTOR",
+      "details": "Satan"
+    },
+    {
+      "id": 1548,
+      "name": "Akiva Goldsman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1796,
+      "name": "Lauren Shuler Donner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1896,
+      "name": "Klaus Badelt",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1464,
+      "name": "Brian Tyler",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2702,
+      "name": "Phillippe Rousselot",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

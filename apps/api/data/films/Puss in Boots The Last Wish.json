@@ -1,0 +1,123 @@
+{
+  "id": 369,
+  "title": "Puss in Boots: The Last Wish",
+  "releaseDate": "2022-12-21",
+  "type": "FILM",
+  "duration": 102,
+  "budget": 110000000,
+  "boxOffice": 480000000,
+  "synopsis": "Puss in Boots used 8 out of 9 lives and now Death is hunting him. He starts looking for a magical place where he can make a wish and get anything.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/puss_in_boots_the_last_wish",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/RqrXhwS33yc?si=G_O_8vcL528IfDa4",
+      "order": 1,
+      "id": 342
+    }
+  ],
+  "awards": [
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Outstanding Achievement for Storyboarding in an Animated Feature",
+          "id": 270
+        },
+        {
+          "title": "Outstanding Achievement for Editing in an Animated Feature",
+          "id": 225
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2703,
+      "name": "Joel Crawford",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2708,
+      "name": "Paul Fisher",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2704,
+      "name": "Tommy Swerdlow",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 77,
+      "name": "Antonio Banderas",
+      "role": "ACTOR",
+      "details": "Puss in Boots"
+    },
+    {
+      "id": 1029,
+      "name": "Salma Hayek",
+      "role": "ACTOR",
+      "details": "Kitty Softpaws"
+    },
+    {
+      "id": 2705,
+      "name": "Harvey Guillen",
+      "role": "ACTOR",
+      "details": "Perrito"
+    },
+    {
+      "id": 2706,
+      "name": "Wagner Moura",
+      "role": "ACTOR",
+      "details": "Wolf"
+    },
+    {
+      "id": 1823,
+      "name": "Mark Swift",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2707,
+      "name": "Heitor Pereira",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ]
+}

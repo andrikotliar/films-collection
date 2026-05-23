@@ -1,0 +1,123 @@
+{
+  "id": 373,
+  "title": "10 Cloverfield Lane",
+  "releaseDate": "2016-03-11",
+  "type": "FILM",
+  "duration": 103,
+  "budget": 15000000,
+  "boxOffice": 110000000,
+  "synopsis": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/10_cloverfield_lane",
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    },
+    {
+      "title": "Bad Robot Productions",
+      "id": 46
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/saHzng8fxLs?si=FIsef3fvIaXoQDUw",
+      "order": 1,
+      "id": 347
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best thriller Film",
+          "id": 68
+        },
+        {
+          "title": "Best Actress",
+          "id": 38
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2617,
+      "name": "Dan Trachtenberg",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2721,
+      "name": "Josh Campbell",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2722,
+      "name": "Matt Stucken",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2723,
+      "name": "Damien Chazelle",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2150,
+      "name": "Gregory Goodman",
+      "role": "ACTOR",
+      "details": "Howard"
+    },
+    {
+      "id": 2575,
+      "name": "Mary Elizabeth Winstead",
+      "role": "ACTOR",
+      "details": "Michelle"
+    },
+    {
+      "id": 1843,
+      "name": "J.J. Abrams",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2724,
+      "name": "Beare McCreary",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2625,
+      "name": "Jeff Cutter",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}
