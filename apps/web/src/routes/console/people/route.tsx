@@ -86,7 +86,7 @@ function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
-  const { isFilterOpen, toggleFilter } = useSidebarVisibility();
+  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
   const { data, isFetching } = useQuery(getPeopleAdminListQueryOptions(search));
 
@@ -125,12 +125,14 @@ function RouteComponent() {
         ...appliedFilters,
       }),
     });
+    hideFilter();
   };
 
   const handleReset = () => {
     navigate({
       to: '/console/people',
     });
+    hideFilter();
   };
 
   return (
