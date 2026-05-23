@@ -21,18 +21,24 @@ export const Route = createFileRoute('/console/films_/$id')({
   },
   loader: async ({ context: { queryClient }, params }) => {
     await queryClient.ensureQueryData(getInitialDataQueryOptions());
+    await queryClient.ensureQueryData(getFilmDraftsQueryOptions(params.id));
 
     if (!isNewItem(params.id)) {
-      await queryClient.ensureQueryData(getAdminFilmDetailsQueryOptions(Number(params.id)));
+      return await queryClient.ensureQueryData(getAdminFilmDetailsQueryOptions(Number(params.id)));
     }
-
-    await queryClient.ensureQueryData(getFilmDraftsQueryOptions(params.id));
   },
   component: PageContainer,
   staticData: {
     title: 'Films',
     backPath: '/console/films',
   },
+  head: ({ loaderData }) => ({
+    meta: [
+      {
+        title: `${loaderData?.title ?? 'New film'} - Films Collection`,
+      },
+    ],
+  }),
 });
 
 function PageContainer() {

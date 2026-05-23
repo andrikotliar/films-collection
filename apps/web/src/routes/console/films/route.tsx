@@ -1,9 +1,7 @@
 import {
   Filters,
-  useDocumentTitle,
   getFilmsAdminListQueryOptions,
   getInitialDataQueryOptions,
-  useScrollToTop,
   useSidebarVisibility,
   filterValues,
   countObjectKeys,
@@ -35,6 +33,13 @@ export const Route = createFileRoute('/console/films')({
     title: 'Films',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Films - Films Collection',
+      },
+    ],
+  }),
 });
 
 const getDeleteMutationOptions = () => {
@@ -62,9 +67,6 @@ const sortingFields: ListOption<string>[] = [
 ];
 
 function PageContainer() {
-  useDocumentTitle('Admin list');
-  useScrollToTop([]);
-
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, isFetching } = useQuery(getFilmsAdminListQueryOptions(searchParams));

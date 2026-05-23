@@ -18,6 +18,13 @@ export const Route = createFileRoute('/console/password')({
     title: 'Change Password',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Password - Films Collection',
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

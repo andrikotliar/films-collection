@@ -80,6 +80,13 @@ export const Route = createFileRoute('/console/people')({
     title: 'Crew and Cast',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Crew and Cast - Films Collection',
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

@@ -11,7 +11,6 @@ import {
   filterValues,
   getFilmsListQueryOptions,
   getInitialDataQueryOptions,
-  useDocumentTitle,
   useSidebarVisibility,
 } from '~/shared';
 import { FilmsSection, RootPageLayout } from './-components';
@@ -22,14 +21,19 @@ export const Route = createFileRoute('/_home/')({
     return GetFilmsListQuerySchema.parse(search);
   },
   loader: async ({ context, location }) => {
-    await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
+    return await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
   },
   component: RootPageContainer,
+  head: ({ loaderData }) => ({
+    meta: [
+      {
+        title: `Films Collection (${loaderData?.allFilmsCount} films)`,
+      },
+    ],
+  }),
 });
 
 function RootPageContainer() {
-  useDocumentTitle();
-
   const routeSearch = Route.useSearch();
   const navigate = Route.useNavigate();
   const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility();

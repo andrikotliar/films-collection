@@ -18,6 +18,13 @@ export const Route = createFileRoute('/console/countries')({
     title: 'Countries',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Countries - Films Collection',
+      },
+    ],
+  }),
 });
 
 const getDeleteMutationOptions = () => {

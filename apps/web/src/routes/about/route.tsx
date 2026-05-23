@@ -1,9 +1,4 @@
-import {
-  ArticleContent,
-  getPageContentByKeyQueryOptions,
-  useDocumentTitle,
-  useScrollToTop,
-} from '~/shared';
+import { ArticleContent, getPageContentByKeyQueryOptions } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
 
@@ -12,12 +7,12 @@ export const Route = createFileRoute('/about')({
     return await queryClient.ensureQueryData(getPageContentByKeyQueryOptions('about'));
   },
   component: AboutPageContainer,
+  head: () => ({
+    meta: [{ title: 'About - Films Collection' }],
+  }),
 });
 
 function AboutPageContainer() {
-  useDocumentTitle('About');
-  useScrollToTop([]);
-
   const { data: article } = useSuspenseQuery(getPageContentByKeyQueryOptions('about'));
 
   return (
