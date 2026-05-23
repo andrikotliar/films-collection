@@ -34,9 +34,11 @@ export const ListContent = <T extends DefaultListItem>({
 
   if (isFetching) {
     return (
-      <div className={styles.loader}>
-        <CameraLoader />
-      </div>
+      <Panel>
+        <div className={styles.loader}>
+          <CameraLoader />
+        </div>
+      </Panel>
     );
   }
 
