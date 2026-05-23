@@ -1,0 +1,130 @@
+{
+  "id": 367,
+  "title": "Chappie",
+  "releaseDate": "2015-03-06",
+  "type": "FILM",
+  "duration": 120,
+  "budget": 49000000,
+  "boxOffice": 102000000,
+  "synopsis": null,
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/chappie",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Mexico",
+      "id": 22
+    },
+    {
+      "title": "South Africa",
+      "id": 23
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/l6bmTNadhJE?si=fBCFWRX8pg6uvU7R",
+      "order": 1,
+      "id": 339
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2435,
+      "name": "Neill Blomkamp",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2435,
+      "name": "Neill Blomkamp",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2691,
+      "name": "Terri Tatchell",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2692,
+      "name": "Sharlto Copley",
+      "role": "ACTOR",
+      "details": "Chappie"
+    },
+    {
+      "id": 2693,
+      "name": "Dev Patel",
+      "role": "ACTOR",
+      "details": "Deon Wilson"
+    },
+    {
+      "id": 2694,
+      "name": "Ninja",
+      "role": "ACTOR",
+      "details": "Ninja"
+    },
+    {
+      "id": 2695,
+      "name": "Yo-Landi Visser",
+      "role": "ACTOR",
+      "details": "Yo-Landi"
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Vincent Moore"
+    },
+    {
+      "id": 2435,
+      "name": "Neill Blomkamp",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1797,
+      "name": "Simon Kinberg",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1372,
+      "name": "Trent Opaloch",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

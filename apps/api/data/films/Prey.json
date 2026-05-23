@@ -1,0 +1,113 @@
+{
+  "id": 441,
+  "title": "Prey",
+  "releaseDate": "2022-07-21",
+  "type": "FILM",
+  "duration": 100,
+  "budget": 65000000,
+  "boxOffice": 0,
+  "synopsis": null,
+  "chapterKey": "predator",
+  "chapterOrder": 0.75,
+  "poster": "posters/prey",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    },
+    {
+      "title": "Davis Entertainment",
+      "id": 88
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/kyzYLxCMFAY?si=1ftxgAHulimPI4gS",
+      "order": 1,
+      "id": 340
+    }
+  ],
+  "awards": [
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Sound Editing for a Limited or Anthology Series, Movie or Special",
+          "id": 266
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2617,
+      "name": "Dan Trachtenberg",
+      "role": "ACTOR",
+      "details": null
+    },
+    {
+      "id": 2618,
+      "name": "Patrick Aison",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2696,
+      "name": "Amber Midthunder",
+      "role": "ACTOR",
+      "details": "Naru"
+    },
+    {
+      "id": 2697,
+      "name": "Dane DiLiegro",
+      "role": "ACTOR",
+      "details": "Predator"
+    },
+    {
+      "id": 2624,
+      "name": "Sarah Schachner",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2625,
+      "name": "Jeff Cutter",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1676,
+      "name": "John Davis",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2698,
+      "name": "Jhane Myers",
+      "role": "PRODUCER",
+      "details": null
+    }
+  ]
+}
