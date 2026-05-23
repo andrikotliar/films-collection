@@ -83,10 +83,6 @@ function PageContainer() {
         pageIndex,
       }),
     });
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
   };
 
   const handleEditFilm = (data: { id: number }) => {
