@@ -22,18 +22,17 @@ import {
   count,
   desc,
   eq,
-  gt,
   ilike,
   inArray,
   isNotNull,
   isNull,
   notInArray,
-  or,
   sql,
   type SQL,
 } from 'drizzle-orm';
 import {
   collections,
+  countries,
   filmAwardNominations,
   films,
   filmsCollections,
@@ -785,6 +784,7 @@ export class FilmsRepository {
     return this.deps.db
       .select({
         id: genres.id,
+        title: genres.title,
         count: count(),
       })
       .from(filmsGenres)
@@ -798,6 +798,7 @@ export class FilmsRepository {
     return this.deps.db
       .select({
         id: collections.id,
+        title: collections.title,
         count: count(),
       })
       .from(filmsCollections)
@@ -805,6 +806,42 @@ export class FilmsRepository {
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
       .where(this.getPublicFilmsFilter())
       .groupBy(collections.id, collections.title);
+  }
+
+  aggregateFilmCountries() {
+    return this.deps.db
+      .select({
+        id: countries.id,
+        title: countries.title,
+        count: count(),
+      })
+      .from(filmsCountries)
+      .innerJoin(films, eq(films.id, filmsCountries.filmId))
+      .innerJoin(countries, eq(countries.id, filmsCountries.countryId))
+      .where(this.getPublicFilmsFilter())
+      .groupBy(countries.id, countries.title);
+  }
+
+  aggregateFilmStudios() {
+    return this.deps.db
+      .select({
+        id: countries.id,
+        title: countries.title,
+        count: count(),
+      })
+      .from(filmsCountries)
+      .innerJoin(films, eq(films.id, filmsCountries.filmId))
+      .innerJoin(countries, eq(countries.id, filmsCountries.countryId))
+      .where(this.getPublicFilmsFilter())
+      .groupBy(countries.id, countries.title);
+  }
+
+  aggregateFilmTypesAndStyles() {
+    return this.deps.db
+      .select({ type: films.type, style: films.style, count: count() })
+      .from(films)
+      .where(this.getPublicFilmsFilter())
+      .groupBy(films.type, films.style);
   }
 
   getTrailersByFilmId(id: number) {
@@ -831,11 +868,8 @@ export class FilmsRepository {
     return list;
   }
 
-  private getPublicFilmsFilter() {
-    return and(
-      isNull(films.deletedAt),
-      or(eq(films.draft, false), gt(films.releaseDate, sql`CURRENT_DATE`)),
-    );
+  private getPublicFilmsFilter(additionalFilters: SQL[] = []) {
+    return and(isNull(films.deletedAt), eq(films.draft, false), ...additionalFilters);
   }
 
   private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {

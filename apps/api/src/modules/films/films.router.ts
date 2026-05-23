@@ -31,6 +31,14 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
     },
   },
 
+  getFilmStats: {
+    handler: async ({ request, app }) => {
+      const data = await app.container.resolve('filmsService').getStats(request.query);
+
+      return { data };
+    },
+  },
+
   getAdminList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

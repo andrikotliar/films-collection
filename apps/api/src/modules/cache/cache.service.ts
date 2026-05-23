@@ -9,8 +9,8 @@ export class InMemoryCacheService<TStore extends Record<string, unknown>> {
     }
   }
 
-  get<K extends keyof TStore>(key: K): TStore[K] | undefined {
-    return this.store.get(key) as TStore[K] | undefined;
+  get<K extends keyof TStore>(key: K): TStore[K] {
+    return this.store.get(key) as TStore[K];
   }
 
   async getOrSet<K extends keyof TStore>(
@@ -32,10 +32,6 @@ export class InMemoryCacheService<TStore extends Record<string, unknown>> {
 
   set<K extends keyof TStore>(key: K, value: TStore[K]) {
     this.store.set(key, value);
-  }
-
-  delete<K extends keyof TStore>(key: K) {
-    this.store.delete(key);
   }
 
   reset() {

@@ -14,6 +14,8 @@ import {
   DraftLevel,
   enumValues,
   PAGE_LIMITS,
+  type FilmStatsResponse,
+  type GetFilmStatsQueryParams,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
 import type { Film } from '~/database/schema.js';
@@ -31,12 +33,22 @@ type AnniversaryCache = {
 };
 
 export class FilmsService {
-  private cache = new InMemoryCacheService<{ filmsCount: number; anniversary: AnniversaryCache }>({
+  private readonly cache = new InMemoryCacheService<
+    {
+      filmsCount: number;
+      anniversary: AnniversaryCache;
+    } & FilmStatsResponse
+  >({
     filmsCount: 0,
     anniversary: {
       film: null,
       date: null,
     },
+    genres: [],
+    collections: [],
+    countries: [],
+    studios: [],
+    types: [],
   });
 
   constructor(
@@ -64,7 +76,7 @@ export class FilmsService {
 
     const anniversaryCache = this.cache.get('anniversary');
 
-    if (anniversaryCache?.date === dateParams) {
+    if (anniversaryCache.date === dateParams) {
       return anniversaryCache.film;
     }
 
@@ -166,6 +178,7 @@ export class FilmsService {
     const { filmId } = await this.deps.filmsRepository.create(payload);
 
     this.cache.resetValue('filmsCount');
+    this.clearStatsCache();
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
@@ -240,6 +253,7 @@ export class FilmsService {
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
     await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
+    this.clearStatsCache();
     return this.getFilmDetails(filmId, 'admin');
   }
 
@@ -298,6 +312,75 @@ export class FilmsService {
 
   getFilmTrailers(id: number) {
     return this.deps.filmsRepository.getTrailersByFilmId(id);
+  }
+
+  private async mapFilmTypesAndStyles() {
+    const data = await this.deps.filmsRepository.aggregateFilmTypesAndStyles();
+
+    return data.map((item, index) => ({
+      id: index + 1,
+      title: `${item.type}_${item.style}`,
+      count: item.count,
+    }));
+  }
+
+  private aggregate(key: keyof FilmStatsResponse) {
+    switch (key) {
+      case 'collections':
+        return this.deps.filmsRepository.aggregateFilmCollections();
+      case 'genres':
+        return this.deps.filmsRepository.aggregateFilmGenres();
+      case 'countries':
+        return this.deps.filmsRepository.aggregateFilmCountries();
+      case 'studios':
+        return this.deps.filmsRepository.aggregateFilmStudios();
+      case 'types':
+        return this.mapFilmTypesAndStyles();
+    }
+  }
+
+  private async getStatsBlock(key: keyof FilmStatsResponse) {
+    const cachedValue = this.cache.get(key);
+
+    if (cachedValue.length) {
+      return cachedValue;
+    }
+
+    const liveData = await this.aggregate(key);
+
+    this.cache.set(key, liveData);
+
+    return liveData;
+  }
+
+  async getStats({ blocks }: GetFilmStatsQueryParams): Promise<FilmStatsResponse> {
+    const result: FilmStatsResponse = {
+      genres: [],
+      collections: [],
+      countries: [],
+      studios: [],
+      types: [],
+    };
+
+    for await (const block of blocks) {
+      result[block] = await this.getStatsBlock(block);
+    }
+
+    return result;
+  }
+
+  private clearStatsCache() {
+    const cacheKeys: Array<keyof FilmStatsResponse> = [
+      'collections',
+      'countries',
+      'genres',
+      'studios',
+      'types',
+    ];
+
+    for (const key of cacheKeys) {
+      this.cache.resetValue(key);
+    }
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

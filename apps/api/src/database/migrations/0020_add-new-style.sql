@@ -1,0 +1,1 @@
+ALTER TYPE "public"."title_style" ADD VALUE 'ANIME';

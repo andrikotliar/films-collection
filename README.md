@@ -17,7 +17,7 @@ A personal list of films with manually collected data. The app primarily focuses
 
 ### API client
 
-The `@films-collections/api-client` package provides the API client based on the API clients. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
+The `@films-collections/api-client` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
 
 ### Images
 
