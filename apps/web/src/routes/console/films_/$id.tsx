@@ -56,9 +56,5 @@ function PageContainer() {
     return filmDefaultFormValues;
   }, [id, film]);
 
-  return (
-    <div>
-      <FilmForm values={defaultValues} />
-    </div>
-  );
+  return <FilmForm values={defaultValues} />;
 }

@@ -8,6 +8,7 @@ import {
   api,
   FiltersSidebar,
   type SortingParams,
+  useSearchContext,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GetAdminListQuerySchema, type ListOption } from '@films-collection/shared';
@@ -74,6 +75,8 @@ function PageContainer() {
     getInitialDataQueryOptions(),
   );
 
+  const { setSearchValue, clearSearchValue } = useSearchContext();
+
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
   const handlePageChange = (pageIndex: number) => {
@@ -83,6 +86,7 @@ function PageContainer() {
         pageIndex,
       }),
     });
+    setSearchValue({ ...searchParams, pageIndex });
   };
 
   const handleEditFilm = (data: { id: number }) => {
@@ -102,13 +106,16 @@ function PageContainer() {
   const filterFilms: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
     const appliedFilters = filterValues(data);
 
+    const searchParams = {
+      ...appliedFilters,
+      pageIndex: 0,
+    };
+
     navigate({
-      search: () => ({
-        ...appliedFilters,
-        pageIndex: 0,
-      }),
+      search: searchParams,
     });
     hideFilter();
+    setSearchValue(searchParams);
   };
 
   const handleReset = () => {
@@ -118,8 +125,8 @@ function PageContainer() {
         pageIndex: 0,
       },
     });
-    window.scrollTo(0, 0);
     hideFilter();
+    clearSearchValue('/console/films');
   };
 
   const filtersConfig = useMemo(() => {

@@ -8,6 +8,7 @@ import {
   IconLink,
   PageTitle,
   PopupMenu,
+  useSearchContext,
 } from '~/shared';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useMatches } from '@tanstack/react-router';
@@ -19,6 +20,7 @@ export const ConsoleHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const matches = useMatches();
+  const { getSearchValue } = useSearchContext();
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -30,7 +32,11 @@ export const ConsoleHeader = () => {
     <div className={styles.console_header}>
       <div className={styles.title_column}>
         {routeMatch?.staticData.backPath && (
-          <IconLink icon={<ArrowLeftIcon />} to={routeMatch?.staticData.backPath} />
+          <IconLink
+            icon={<ArrowLeftIcon />}
+            to={routeMatch.staticData.backPath}
+            search={getSearchValue(routeMatch.staticData.backPath)}
+          />
         )}
         <PageTitle>{routeMatch?.staticData.title ?? 'Console'}</PageTitle>
       </div>
