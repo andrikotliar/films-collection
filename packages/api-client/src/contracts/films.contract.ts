@@ -21,6 +21,8 @@ import {
   FilmDraftFilmIdParamsSchema,
   FilmTrailersResponseSchema,
   GetAdminListQuerySchema,
+  GetFilmStatsQuerySchema,
+  FilmStatsResponseSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
 import { defineContracts } from '~/helpers/index.js';
@@ -48,6 +50,14 @@ export const filmsContract = defineContracts('films', {
     schema: {
       querystring: GetFilmOptionsQuerySchema,
       response: buildListOptionSchema(z.number()),
+    },
+  },
+  getFilmStats: {
+    method: 'GET',
+    url: 'stats',
+    schema: {
+      querystring: GetFilmStatsQuerySchema,
+      response: FilmStatsResponseSchema,
     },
   },
   getAdminList: {

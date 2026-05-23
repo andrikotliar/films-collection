@@ -336,6 +336,24 @@ export const FilmTrailersResponseSchema = z.object({
   ),
 });
 
+export const GetFilmStatsQuerySchema = z.object({
+  blocks: getArrayFromQuery(z.enum(['genres', 'countries', 'collections', 'studios', 'types'])),
+});
+
+const StatsSchema = z.object({
+  id: z.number(),
+  title: z.string(),
+  count: z.number(),
+});
+
+export const FilmStatsResponseSchema = z.object({
+  genres: z.array(StatsSchema),
+  countries: z.array(StatsSchema),
+  collections: z.array(StatsSchema),
+  studios: z.array(StatsSchema),
+  types: z.array(StatsSchema),
+});
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
@@ -350,3 +368,5 @@ export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
 export type GetAdminListQueryParams = z.infer<typeof GetAdminListQuerySchema>;
+export type GetFilmStatsQueryParams = z.infer<typeof GetFilmStatsQuerySchema>;
+export type FilmStatsResponse = z.infer<typeof FilmStatsResponseSchema>;
