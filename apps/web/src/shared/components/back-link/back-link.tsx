@@ -6,11 +6,12 @@ import type { FileRoutesByTo } from '~/routeTree.gen';
 type BackLinkProps = {
   path: keyof FileRoutesByTo;
   children: React.ReactNode;
+  search?: Record<string, any>;
 };
 
-export const BackLink = ({ path, children }: BackLinkProps) => {
+export const BackLink = ({ path, children, search }: BackLinkProps) => {
   return (
-    <Link to={path} className={styles.back_link}>
+    <Link to={path} className={styles.back_link} search={search}>
       <ArrowLeftIcon />
       <span>{children}</span>
     </Link>

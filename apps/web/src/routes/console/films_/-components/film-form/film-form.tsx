@@ -9,6 +9,7 @@ import {
   isNewItem,
   Panel,
   titleToFileName,
+  useSearchContext,
 } from '~/shared';
 import {
   AwardsSelect,
@@ -39,6 +40,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
+  const { getSearchValue } = useSearchContext();
 
   const { isPending, mutateAsync: handleSubmit } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
@@ -98,7 +100,8 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       });
     },
     onSuccess: () => {
-      navigate({ to: '/console/films' });
+      const searchParams = getSearchValue('/console/films');
+      navigate({ to: '/console/films', search: searchParams });
     },
     meta: {
       invalidateQueries: [

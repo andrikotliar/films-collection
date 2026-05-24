@@ -11,6 +11,13 @@ export const Route = createFileRoute('/console/_root/')({
   staticData: {
     title: 'Console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Console - Films Collection',
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

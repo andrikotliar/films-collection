@@ -1,6 +1,7 @@
 import styles from './role-item.module.css';
 import clsx from 'clsx';
-import { personRoleToTitle, RouterLink, type api, type ApiResponse } from '~/shared';
+import { RoleTitle } from '~/routes/films/$id/-components/cast-and-crew/components/role-title/role-title';
+import { RouterLink, type api, type ApiResponse } from '~/shared';
 
 type RoleItemProps = {
   data: ApiResponse<typeof api.films.getById.exec>['castAndCrew'][number];
@@ -16,7 +17,7 @@ export const RoleItem = ({ data }: RoleItemProps) => {
         isActorRole ? styles.role_item_actor : styles.role_item_default,
       )}
     >
-      <h3 className={styles.label}>{personRoleToTitle[data.role]}</h3>
+      <RoleTitle role={data.role} />
       <ul
         className={clsx(
           styles.list_wrapper,

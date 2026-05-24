@@ -21,6 +21,7 @@ export const Route = createFileRoute('/login')({
     throw redirect({ to: '/console' });
   },
   component: PageContainer,
+  head: () => ({ meta: [{ title: 'Login - Films Collection' }] }),
 });
 
 function PageContainer() {

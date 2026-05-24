@@ -8,20 +8,8 @@
   align-items: flex-start;
 }
 
-.role_item:first-child {
-  border-top: var(--border-default);
-}
-
 .role_item:last-child {
   border: 0;
-}
-
-.label {
-  font-family: 'Roboto-Condensed';
-  text-transform: uppercase;
-  font-size: var(--text-sm);
-  width: 170px;
-  flex-shrink: 0;
 }
 
 .list_wrapper {

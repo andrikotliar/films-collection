@@ -1,6 +1,6 @@
 import type { DefaultListItem } from '~/routes/console/-shared/types';
 import styles from './list-content.module.css';
-import { CameraLoader, ConfirmModal, Panel } from '~/shared';
+import { ConfirmModal, Panel } from '~/shared';
 import {
   ItemRow,
   type ItemRowProps,
@@ -8,6 +8,7 @@ import {
 import { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import type { GetDeleteMutationOptions } from '~/routes/console/-shared/components/list/types';
+import { ListSkeleton } from '~/routes/console/-shared/components/list/components/list-skeleton/list-skeleton';
 
 type ListContentProps<T extends DefaultListItem> = {
   list?: T[];
@@ -33,11 +34,7 @@ export const ListContent = <T extends DefaultListItem>({
   };
 
   if (isFetching) {
-    return (
-      <div className={styles.loader}>
-        <CameraLoader />
-      </div>
-    );
+    return <ListSkeleton />;
   }
 
   if (!list) {

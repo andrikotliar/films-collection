@@ -35,6 +35,13 @@ export const Route = createFileRoute('/console/collection-events')({
     title: 'Collections Events',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Collection Events - Films Collection',
+      },
+    ],
+  }),
 });
 
 const getDeleteMutationOptions = () => {

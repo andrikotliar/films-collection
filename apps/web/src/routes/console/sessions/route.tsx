@@ -12,6 +12,13 @@ export const Route = createFileRoute('/console/sessions')({
     title: 'Sessions',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Sessions - Films Collection',
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

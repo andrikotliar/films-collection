@@ -1,14 +1,16 @@
+import clsx from 'clsx';
 import styles from './summary-block.module.css';
 
 type SummaryBlockProps = {
   label: string;
   icon: React.ReactNode;
   children: React.ReactNode;
+  hasPadding?: boolean;
 };
 
-export const SummaryBlock = ({ label, icon, children }: SummaryBlockProps) => {
+export const SummaryBlock = ({ label, icon, children, hasPadding = true }: SummaryBlockProps) => {
   return (
-    <div className={styles.summary_block}>
+    <div className={clsx(styles.summary_block, hasPadding && styles.with_padding)}>
       {label && (
         <div className={styles.label}>
           <div className={styles.icon}>{icon}</div> <span>{label}</span>

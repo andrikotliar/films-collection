@@ -1,11 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { CameraLoader, getFilmQueryOptions, useDocumentTitle, useScrollToTop } from '~/shared';
+import { getFilmQueryOptions } from '~/shared';
 import {
   Awards,
   CastAndCrew,
   ContentLayout,
   FilmPageLayout,
   NavigationRow,
+  PageSkeleton,
   SummarySection,
 } from '~/routes/films/$id/-components';
 import { useSuspenseQuery } from '@tanstack/react-query';
@@ -15,15 +16,15 @@ export const Route = createFileRoute('/films/$id')({
     return context.queryClient.ensureQueryData(getFilmQueryOptions(Number(params.id)));
   },
   component: FilmPageContainer,
-  pendingComponent: () => <CameraLoader isFullPage />,
+  pendingComponent: PageSkeleton,
+  head: ({ loaderData }) => ({
+    meta: [{ title: `${loaderData?.title} - Films Collection` }],
+  }),
 });
 
 function FilmPageContainer() {
   const { id } = Route.useParams();
   const { data: film } = useSuspenseQuery(getFilmQueryOptions(Number(id)));
-
-  useScrollToTop([id]);
-  useDocumentTitle(film.title);
 
   const hasExtendedData = film.awards.length !== 0 || film.castAndCrew.length !== 0;
 

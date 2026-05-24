@@ -8,13 +8,20 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getAwardQueryOptions(getMixedId(params.id)));
+    return await queryClient.ensureQueryData(getAwardQueryOptions(getMixedId(params.id)));
   },
   component: PageContainer,
   staticData: {
     title: 'Awards',
     backPath: '/console/awards',
   },
+  head: ({ loaderData }) => ({
+    meta: [
+      {
+        title: `${loaderData?.title} - Films Collection`,
+      },
+    ],
+  }),
 });
 
 function PageContainer() {

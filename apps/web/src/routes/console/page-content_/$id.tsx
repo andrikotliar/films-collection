@@ -38,7 +38,7 @@ const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.getById.e
 export const Route = createFileRoute('/console/page-content_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
     if (!isNewItem(params.id)) {
-      await queryClient.ensureQueryData(getPageContentByIdQueryOptions(+params.id));
+      return await queryClient.ensureQueryData(getPageContentByIdQueryOptions(+params.id));
     }
   },
   component: RouteComponent,
@@ -46,6 +46,13 @@ export const Route = createFileRoute('/console/page-content_/$id')({
     title: 'Page Content',
     backPath: '/console/page-content',
   },
+  head: ({ loaderData }) => ({
+    meta: [
+      {
+        title: `${loaderData?.title ?? 'New content'} - Films Collection`,
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

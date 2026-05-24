@@ -80,13 +80,20 @@ export const Route = createFileRoute('/console/people')({
     title: 'Crew and Cast',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Crew and Cast - Films Collection',
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
-  const { isFilterOpen, toggleFilter } = useSidebarVisibility();
+  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
   const { data, isFetching } = useQuery(getPeopleAdminListQueryOptions(search));
 
@@ -125,12 +132,14 @@ function RouteComponent() {
         ...appliedFilters,
       }),
     });
+    hideFilter();
   };
 
   const handleReset = () => {
     navigate({
       to: '/console/people',
     });
+    hideFilter();
   };
 
   return (

@@ -1,5 +1,5 @@
+import { EventPoster } from '~/routes/_home/-components/films-section/components/current-events/components/event-poster/event-poster';
 import { getPluralWord, type api, type ApiResponse } from '~/shared';
-import { EventPoster } from '~/routes/_home/-components/films-section/components/event-poster/event-poster';
 
 type EventBannerProps = {
   event: ApiResponse<typeof api.films.getList.exec>['events'][number];

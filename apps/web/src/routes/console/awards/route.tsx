@@ -15,6 +15,13 @@ export const Route = createFileRoute('/console/awards')({
     title: 'Awards',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Awards - Films Collection',
+      },
+    ],
+  }),
 });
 
 const getDeleteMutationOptions = () => {

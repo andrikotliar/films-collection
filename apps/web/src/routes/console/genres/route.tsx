@@ -16,6 +16,13 @@ export const Route = createFileRoute('/console/genres')({
     title: 'Genres',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Genres - Films Collection',
+      },
+    ],
+  }),
 });
 
 const genreDefaultValues = getEmptyFormValues<Input<typeof api.genres.create.exec>>({

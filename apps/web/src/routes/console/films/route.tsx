@@ -1,15 +1,14 @@
 import {
   Filters,
-  useDocumentTitle,
   getFilmsAdminListQueryOptions,
   getInitialDataQueryOptions,
-  useScrollToTop,
   useSidebarVisibility,
   filterValues,
   countObjectKeys,
   api,
   FiltersSidebar,
   type SortingParams,
+  useSearchContext,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GetAdminListQuerySchema, type ListOption } from '@films-collection/shared';
@@ -35,6 +34,13 @@ export const Route = createFileRoute('/console/films')({
     title: 'Films',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Films - Films Collection',
+      },
+    ],
+  }),
 });
 
 const getDeleteMutationOptions = () => {
@@ -62,15 +68,14 @@ const sortingFields: ListOption<string>[] = [
 ];
 
 function PageContainer() {
-  useDocumentTitle('Admin list');
-  useScrollToTop([]);
-
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, isFetching } = useQuery(getFilmsAdminListQueryOptions(searchParams));
   const { data: initialData, isFetching: isInitialDataFetching } = useSuspenseQuery(
     getInitialDataQueryOptions(),
   );
+
+  const { setSearchValue, clearSearchValue } = useSearchContext();
 
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
@@ -81,10 +86,7 @@ function PageContainer() {
         pageIndex,
       }),
     });
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    setSearchValue({ ...searchParams, pageIndex });
   };
 
   const handleEditFilm = (data: { id: number }) => {
@@ -104,13 +106,16 @@ function PageContainer() {
   const filterFilms: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
     const appliedFilters = filterValues(data);
 
+    const searchParams = {
+      ...appliedFilters,
+      pageIndex: 0,
+    };
+
     navigate({
-      search: () => ({
-        ...appliedFilters,
-        pageIndex: 0,
-      }),
+      search: searchParams,
     });
     hideFilter();
+    setSearchValue(searchParams);
   };
 
   const handleReset = () => {
@@ -120,8 +125,8 @@ function PageContainer() {
         pageIndex: 0,
       },
     });
-    window.scrollTo(0, 0);
     hideFilter();
+    clearSearchValue('/console/films');
   };
 
   const filtersConfig = useMemo(() => {

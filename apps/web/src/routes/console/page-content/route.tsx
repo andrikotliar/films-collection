@@ -1,6 +1,6 @@
 import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
-import { useDocumentTitle, getPageContentAdminListQueryOptions, api } from '~/shared';
+import { getPageContentAdminListQueryOptions, api } from '~/shared';
 import { List } from '~/routes/console/-shared';
 import { GetPageContentListQueriesSchema } from '@films-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
@@ -19,6 +19,13 @@ export const Route = createFileRoute('/console/page-content')({
     title: 'Page Content',
     backPath: '/console',
   },
+  head: () => ({
+    meta: [
+      {
+        title: 'Pages Content - Films Collection',
+      },
+    ],
+  }),
 });
 
 const getDeleteMutationOptions = () => {
@@ -34,8 +41,6 @@ function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, isFetching } = useQuery(getPageContentAdminListQueryOptions(searchParams));
-
-  useDocumentTitle('Page Content');
 
   const handlePageChange = (pageIndex: number) => {
     navigate({

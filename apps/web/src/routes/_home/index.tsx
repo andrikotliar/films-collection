@@ -1,17 +1,15 @@
 import type z from 'zod';
-import { Suspense, useMemo } from 'react';
+import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import {
-  CameraLoader,
   countObjectKeys,
   Filters,
   FiltersSidebar,
   filterValues,
   getFilmsListQueryOptions,
   getInitialDataQueryOptions,
-  useDocumentTitle,
   useSidebarVisibility,
 } from '~/shared';
 import { FilmsSection, RootPageLayout } from './-components';
@@ -22,14 +20,19 @@ export const Route = createFileRoute('/_home/')({
     return GetFilmsListQuerySchema.parse(search);
   },
   loader: async ({ context, location }) => {
-    await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
+    return await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
   },
   component: RootPageContainer,
+  head: ({ loaderData }) => ({
+    meta: [
+      {
+        title: `Films Collection (${loaderData?.allFilmsCount} films)`,
+      },
+    ],
+  }),
 });
 
 function RootPageContainer() {
-  useDocumentTitle();
-
   const routeSearch = Route.useSearch();
   const navigate = Route.useNavigate();
   const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility();
@@ -99,9 +102,7 @@ function RootPageContainer() {
           config={filtersConfig}
         />
       </FiltersSidebar>
-      <Suspense fallback={<CameraLoader />}>
-        <FilmsSection />
-      </Suspense>
+      <FilmsSection />
     </RootPageLayout>
   );
 }
