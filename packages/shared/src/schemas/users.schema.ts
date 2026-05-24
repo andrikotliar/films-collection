@@ -22,6 +22,20 @@ export const UpdateUserPasswordInputSchema = z.object({
     ),
 });
 
+export const UpdateUserTranslationPreferencesSchema = z.object({
+  from: z.string(),
+  to: z.string(),
+});
+
+export const UserDataResponseSchema = z.object({
+  id: z.number(),
+  username: z.string(),
+  translationPreferences: UpdateUserTranslationPreferencesSchema.nullable(),
+});
+
 export type DeviceInfo = z.infer<typeof DeviceInfoSchema>;
 export type UserSessionResponse = z.infer<typeof UserSessionSchema>;
 export type UpdateUserPasswordInput = z.infer<typeof UpdateUserPasswordInputSchema>;
+export type UpdateUserTranslationPreferences = z.infer<
+  typeof UpdateUserTranslationPreferencesSchema
+>;

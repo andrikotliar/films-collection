@@ -1,4 +1,4 @@
-import { type Deps, throwIfNotFound } from '~/shared/index.js';
+import { BadRequestException, type Deps, throwIfNotFound } from '~/shared/index.js';
 import {
   type GetFilmsListQuery,
   type GetFilmOptionsQuery,
@@ -63,6 +63,7 @@ export class FilmsService {
       | 'studiosService'
       | 'aiService'
       | 'jwtService'
+      | 'usersService'
     >,
   ) {}
 
@@ -290,8 +291,19 @@ export class FilmsService {
     };
   }
 
-  translateDescription(input: TranslateDescriptionInput) {
-    return this.deps.aiService.translateToLangPrompt(input.text, input.langParams);
+  async translateDescription(userId: number, input: TranslateDescriptionInput) {
+    const userPreferences = await this.deps.usersService.getUserTranslationPreferences(userId);
+
+    if (!userPreferences.translationPreferences) {
+      throw new BadRequestException({
+        message: 'Translation preferences is not set, update them in the user settings',
+      });
+    }
+
+    return this.deps.aiService.translateToLangPrompt(
+      input.text,
+      userPreferences.translationPreferences,
+    );
   }
 
   createDraft(filmId: string, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {

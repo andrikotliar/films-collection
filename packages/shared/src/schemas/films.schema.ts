@@ -302,10 +302,6 @@ export const CompleteDataResponseSchema = z.object({
 
 export const TranslateDescriptionInputSchema = z.object({
   text: z.string(),
-  langParams: z.object({
-    from: z.string(),
-    to: z.string(),
-  }),
 });
 
 export const TranslateDescriptionResponseSchema = z.object({

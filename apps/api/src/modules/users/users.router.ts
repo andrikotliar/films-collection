@@ -35,4 +35,30 @@ export const usersRouter = createRouter(contracts.usersContracts, {
       };
     },
   },
+  updateTranslationPreferences: {
+    preHandler: [validateAuth],
+    async handler({ request, app }) {
+      const user = getRequestUser(request);
+
+      const data = await app.container
+        .resolve('usersService')
+        .updateTranslationPreferences(user.id, request.body);
+
+      return {
+        data: { id: data.userId },
+      };
+    },
+  },
+  getUser: {
+    preHandler: [validateAuth],
+    async handler({ request, app }) {
+      const user = getRequestUser(request);
+
+      const data = await app.container.resolve('usersService').getDisplayData(user.id);
+
+      return {
+        data,
+      };
+    },
+  },
 });

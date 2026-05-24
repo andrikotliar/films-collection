@@ -22,10 +22,6 @@ export const DescriptionEditor = () => {
       const result = await api.films.translateDescription.exec({
         input: {
           text: values.synopsis,
-          langParams: {
-            from: 'Ukrainian',
-            to: 'English',
-          },
         },
       });
 
