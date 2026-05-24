@@ -1,13 +1,16 @@
 import type { UserSession } from '~/database/schema.js';
 import {
   BadRequestException,
-  NotFoundException,
   throwIfNotFound,
   type Deps,
   type RequestUser,
 } from '~/shared/index.js';
 import crypto from 'node:crypto';
-import type { UpdateUserPasswordInput, UserSessionResponse } from '@films-collection/shared';
+import type {
+  UpdateUserPasswordInput,
+  UpdateUserTranslationPreferences,
+  UserSessionResponse,
+} from '@films-collection/shared';
 import { compare, hash } from 'bcrypt';
 
 export class UsersService {
@@ -63,12 +66,22 @@ export class UsersService {
     return this.deps.usersRepository.terminateSession(id);
   }
 
-  async updatePassword(userId: number, payload: UpdateUserPasswordInput) {
-    const user = await this.deps.usersRepository.findByUserIdWithPassword(userId);
+  async updateTranslationPreferences(userId: number, payload: UpdateUserTranslationPreferences) {
+    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
 
-    if (!user) {
-      throw new NotFoundException({ message: 'Error finding user to update data' });
-    }
+    const data = await throwIfNotFound(
+      this.deps.usersRepository.update(user.id, {
+        translationPreferences: payload,
+      }),
+    );
+
+    return {
+      userId: data.id,
+    };
+  }
+
+  async updatePassword(userId: number, payload: UpdateUserPasswordInput) {
+    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
 
     const isPasswordCorrect = await compare(payload.actualPassword, user.password);
 
@@ -87,5 +100,13 @@ export class UsersService {
     return {
       userId: data.id,
     };
+  }
+
+  getUserTranslationPreferences(userId: number) {
+    return throwIfNotFound(this.deps.usersRepository.getTranslationPreferences(userId));
+  }
+
+  getDisplayData(userId: number) {
+    return throwIfNotFound(this.deps.usersRepository.getDisplayData(userId));
   }
 }

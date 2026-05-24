@@ -1,6 +1,8 @@
 import {
   IdParamSchema,
   UpdateUserPasswordInputSchema,
+  UpdateUserTranslationPreferencesSchema,
+  UserDataResponseSchema,
   UserSessionSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
@@ -23,11 +25,26 @@ export const usersContracts = defineContracts('users', {
     },
   },
   updatePassword: {
-    url: '',
+    url: '/password',
     method: 'PATCH',
     schema: {
       body: UpdateUserPasswordInputSchema,
       response: IdParamSchema,
+    },
+  },
+  updateTranslationPreferences: {
+    url: '/translation',
+    method: 'PATCH',
+    schema: {
+      body: UpdateUserTranslationPreferencesSchema,
+      response: IdParamSchema,
+    },
+  },
+  getUser: {
+    url: '',
+    method: 'GET',
+    schema: {
+      response: UserDataResponseSchema,
     },
   },
 });

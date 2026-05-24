@@ -134,6 +134,13 @@
       "when": 1779549384982,
       "tag": "0020_add-new-style",
       "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1779621595058,
+      "tag": "0021_add-translation-preferences-column",
+      "breakpoints": true
     }
   ]
 }

@@ -11,8 +11,8 @@ import {
   LogOutIcon,
   MapIcon,
   NewspaperIcon,
-  RectangleEllipsisIcon,
   TrophyIcon,
+  UserCogIcon,
   UserIcon,
   VideotapeIcon,
 } from 'lucide-react';
@@ -123,11 +123,11 @@ export const consoleMenuConfig = {
     color: 'color-purple-light',
     type: 'link',
   },
-  password: {
-    id: 'password',
-    route: '/console/password',
-    title: 'Password',
-    icon: <RectangleEllipsisIcon />,
+  user: {
+    id: 'user',
+    route: '/console/user',
+    title: 'user',
+    icon: <UserCogIcon />,
     color: 'color-lime-primary',
     type: 'link',
   },
@@ -165,6 +165,6 @@ export const consoleMenuGroups: ConsoleMenuGroup[] = [
   },
   {
     title: 'Account',
-    itemIds: ['sessions', 'password', 'logout'],
+    itemIds: ['sessions', 'user', 'logout'],
   },
 ];

@@ -481,6 +481,7 @@ export const users = pgTable(
     id: serial().primaryKey().notNull(),
     username: text().notNull(),
     password: text().notNull(),
+    translationPreferences: jsonb().$type<{ from: string; to: string }>(),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()

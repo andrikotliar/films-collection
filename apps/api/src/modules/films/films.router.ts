@@ -2,6 +2,7 @@ import { contracts } from '@films-collection/api-client';
 import {
   NotFoundException,
   createRouter,
+  getRequestUser,
   validateAuth,
   validateGetSignature,
 } from '~/shared/index.js';
@@ -147,9 +148,11 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
   translateDescription: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
+      const user = getRequestUser(request);
+
       const translatedText = await app.container
         .resolve('filmsService')
-        .translateDescription(request.body);
+        .translateDescription(user.id, request.body);
 
       return { data: { translatedText } };
     },
