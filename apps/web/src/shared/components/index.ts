@@ -41,3 +41,4 @@ export * from './filters-sidebar/filters-sidebar';
 export * from './page-title/page-title';
 export * from './drawer/drawer';
 export * from './search-provider/search-provider';
+export * from './skeleton-block/skeleton-block';
