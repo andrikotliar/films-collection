@@ -26,7 +26,7 @@ type ExtendedFilm = Omit<Film, 'style' | 'draft' | Timestamps> & {
   genres: Array<{ genre: PickBaseData<Genre> }>;
   studios: Array<{ studio: PickBaseData<Studio> }>;
   countries: Array<{ country: PickBaseData<Country> }>;
-  collections: Array<{ collection: PickBaseData<Collection> }>;
+  collections: Array<{ collection: Pick<Collection, 'id' | 'title' | 'category'> }>;
   castAndCrew: Array<
     Pick<FilmPerson, 'role' | 'details'> & {
       person: Pick<Person, 'id' | 'name'>;
@@ -75,6 +75,12 @@ export const mapFilmDetails = (film: ExtendedFilm): z.infer<typeof FilmResponseS
     return result;
   }, {} as GroupedAwards);
 
+  const collections = film.collections.map(({ collection }) => ({
+    id: collection.id,
+    title: collection.title,
+    category: collection.category,
+  }));
+
   return {
     ...film,
     budget: film.budget ? Number(film.budget) : null,
@@ -82,7 +88,7 @@ export const mapFilmDetails = (film: ExtendedFilm): z.infer<typeof FilmResponseS
     genres: mapNestedRelations(film.genres, 'genre'),
     countries: mapNestedRelations(film.countries, 'country'),
     studios: mapNestedRelations(film.studios, 'studio'),
-    collections: mapNestedRelations(film.collections, 'collection'),
+    collections,
     castAndCrew: sortGroupedPeople(castAndCrew),
     awards: Object.values(awards),
     seriesExtension: nullable(film.seriesExtensions[0]),

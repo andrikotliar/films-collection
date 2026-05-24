@@ -28,17 +28,17 @@ export const CreateFilmInputSchema = z.object({
   genres: z.array(z.number()),
   studios: z.array(z.number()),
   countries: z.array(z.number()),
-  collections: z.array(z.number()),
+  collections: z.array(
+    z.object({
+      collectionId: z.number(),
+      order: z.number(),
+    }),
+  ),
   duration: z.coerce.number(),
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
   synopsis: z.string().nullable(),
-  chapterKey: z
-    .string()
-    .regex(/^[a-z-]+$/)
-    .nullable(),
-  chapterOrder: z.coerce.number().nullable(),
   castAndCrew: z.array(
     z.object({
       personId: z.coerce.number().min(1, 'Person cannot be empty'),
@@ -139,7 +139,7 @@ export const FilmResponseSchema = z.object({
   genres: z.array(GenreResponseSchema.omit({ createdAt: true, updatedAt: true })),
   studios: z.array(StudioResponseSchema.omit({ createdAt: true, updatedAt: true })),
   countries: z.array(CountryResponseSchema.omit({ createdAt: true, updatedAt: true })),
-  collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
+  collections: z.array(CollectionResponseSchema.pick({ id: true, title: true, category: true })),
   trailers: z.array(TrailerSchema),
   awards: z.array(
     z.object({

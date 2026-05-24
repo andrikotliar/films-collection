@@ -3,6 +3,7 @@ import type { Enum } from '~/types/enum.type.js';
 export const CollectionCategory = {
   GENERAL: 'GENERAL',
   CINEMATIC_UNIVERSE: 'CINEMATIC_UNIVERSE',
+  CHAPTER: 'CHAPTER',
   TOP: 'TOP',
 } as const;
 

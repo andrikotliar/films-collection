@@ -92,7 +92,7 @@ export class FilmsRepository {
 
   async findAndCount(queries: PlainFilmFilters) {
     const filters = mapListFilters(queries, this.deps.db);
-    const sorting = this.mapSorting(queries.orderKey, queries.order);
+    const sorting = this.mapSorting(queries.orderKey, queries.order, queries);
 
     const list = await this.deps.db
       .select()
@@ -210,6 +210,7 @@ export class FilmsRepository {
               columns: {
                 id: true,
                 title: true,
+                category: true,
               },
             },
           },
@@ -414,7 +415,11 @@ export class FilmsRepository {
       }
 
       if (collections.length) {
-        const values = collections.map((collectionId) => ({ collectionId, filmId }));
+        const values = collections.map((collection) => ({
+          collectionId: collection.collectionId,
+          filmId,
+          order: collection.order,
+        }));
 
         await tr.insert(filmsCollections).values(values);
       }
@@ -472,6 +477,7 @@ export class FilmsRepository {
         collections: {
           columns: {
             collectionId: true,
+            order: true,
           },
         },
         castAndCrew: {
@@ -560,9 +566,10 @@ export class FilmsRepository {
           transaction,
           filmId,
           table: filmsCollections,
-          values: collections.map((collectionId) => ({
-            collectionId,
+          values: collections.map((collection) => ({
+            collectionId: collection.collectionId,
             filmId,
+            order: collection.order,
           })),
         });
       }
@@ -872,7 +879,11 @@ export class FilmsRepository {
     return and(isNull(films.deletedAt), eq(films.draft, false), ...additionalFilters);
   }
 
-  private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {
+  private mapSorting(
+    key: string = 'releaseDate',
+    direction: SortingOrder = 'desc',
+    queries?: PlainFilmFilters,
+  ) {
     const directions = {
       asc,
       desc,
@@ -881,6 +892,21 @@ export class FilmsRepository {
     const fn = directions[direction];
 
     switch (key) {
+      case 'collectionOrder':
+        if (!queries?.collectionId) {
+          return fn(films.releaseDate);
+        }
+        return asc(
+          this.deps.db
+            .select({ order: filmsCollections.order })
+            .from(filmsCollections)
+            .where(
+              and(
+                eq(films.id, filmsCollections.filmId),
+                eq(filmsCollections.collectionId, queries.collectionId),
+              ),
+            ),
+        );
       case 'title':
         return fn(films.title);
       case 'createdAt':

@@ -141,6 +141,13 @@
       "when": 1779621595058,
       "tag": "0021_add-translation-preferences-column",
       "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1779637462752,
+      "tag": "0022_add-new-collection-category",
+      "breakpoints": true
     }
   ]
 }

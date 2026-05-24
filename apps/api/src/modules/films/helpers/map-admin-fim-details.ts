@@ -13,7 +13,7 @@ import type {
 import type { Timestamps } from '~/modules/films/types.js';
 
 type EditableFilm = Omit<Film, Timestamps | 'id'> & {
-  collections: Pick<FilmCollection, 'collectionId'>[];
+  collections: Pick<FilmCollection, 'collectionId' | 'order'>[];
   genres: Pick<FilmGenre, 'genreId'>[];
   countries: Pick<FilmCountry, 'countryId'>[];
   studios: Pick<FilmStudio, 'studioId'>[];
@@ -36,7 +36,7 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     genres: mapInnerId(film.genres, 'genreId'),
     countries: mapInnerId(film.countries, 'countryId'),
     studios: mapInnerId(film.studios, 'studioId'),
-    collections: mapInnerId(film.collections, 'collectionId'),
+    collections: film.collections,
     releaseDate: film.releaseDate ? film.releaseDate.split('T')[0] : null,
     awards: film.awards.map((award) => ({
       ...award,

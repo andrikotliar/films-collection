@@ -5,7 +5,7 @@ import {
   type CreateCollectionInput,
   type UpdateCollectionInput,
 } from '@films-collection/shared';
-import { and, asc, count, eq, type SQL } from 'drizzle-orm';
+import { and, asc, count, eq, ne, type SQL } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema.js';
 import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 
@@ -24,6 +24,18 @@ export class CollectionsRepository {
         category: collections.category,
       })
       .from(collections)
+      .orderBy(asc(collections.title));
+  }
+
+  getCollectionOptions() {
+    return this.deps.db
+      .select({
+        id: collections.id,
+        title: collections.title,
+        category: collections.category,
+      })
+      .from(collections)
+      .where(ne(collections.category, 'CHAPTER'))
       .orderBy(asc(collections.title));
   }
 

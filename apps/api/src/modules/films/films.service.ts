@@ -97,7 +97,7 @@ export class FilmsService {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
       order: 'desc',
-      orderKey: 'releaseDate',
+      orderKey: queries.collectionId ? 'collectionOrder' : 'releaseDate',
       draftLevels: [DraftLevel.PUBLISHED, DraftLevel.UPCOMING],
     });
 

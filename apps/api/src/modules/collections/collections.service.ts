@@ -15,7 +15,7 @@ export class CollectionsService {
   }
 
   async getListOptions() {
-    const collections = await this.deps.collectionsRepository.getAll();
+    const collections = await this.deps.collectionsRepository.getCollectionOptions();
 
     return buildListOptions(collections);
   }
