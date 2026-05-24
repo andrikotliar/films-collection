@@ -1,10 +1,9 @@
 import type z from 'zod';
-import { Suspense, useMemo } from 'react';
+import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import {
-  CameraLoader,
   countObjectKeys,
   Filters,
   FiltersSidebar,
@@ -103,9 +102,7 @@ function RootPageContainer() {
           config={filtersConfig}
         />
       </FiltersSidebar>
-      <Suspense fallback={<CameraLoader />}>
-        <FilmsSection />
-      </Suspense>
+      <FilmsSection />
     </RootPageLayout>
   );
 }

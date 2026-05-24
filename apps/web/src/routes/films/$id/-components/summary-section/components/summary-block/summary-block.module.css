@@ -26,9 +26,12 @@
 
 .row {
   background-color: rgb(255 255 255 / 0.1);
-  padding: 11px 15px;
   border-radius: var(--rounded-default);
   width: 100%;
+}
+
+.summary_block.with_padding .row {
+  padding: 11px 15px;
 }
 
 @media (max-width: 480px) {

@@ -1,8 +1,10 @@
-import { EventBanner } from '~/routes/_home/-components/films-section/components/event-banner/event-banner';
 import styles from './current-events.module.css';
 import { type api, type ApiResponse } from '~/shared';
 import { Link, useSearch } from '@tanstack/react-router';
-import { EventPoster } from '~/routes/_home/-components/films-section/components/event-poster/event-poster';
+import {
+  EventBanner,
+  EventPoster,
+} from '~/routes/_home/-components/films-section/components/current-events/components';
 
 type CurrentEventsProps = {
   events: ApiResponse<typeof api.films.getList.exec>['events'];

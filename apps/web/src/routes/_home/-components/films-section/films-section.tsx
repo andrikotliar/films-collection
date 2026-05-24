@@ -1,8 +1,7 @@
 import styles from './films-section.module.css';
-import clsx from 'clsx';
-import { AdditionalInfoSection, CurrentEvents, FilmsGrid } from './components';
+import { AdditionalInfoSection, CurrentEvents, FilmsGrid, FilmsGridSkeleton } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { CameraLoader, getFilmsListQueryOptions, PageTitle, Pagination } from '~/shared';
+import { getFilmsListQueryOptions, PageTitle, Pagination } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
 
@@ -15,8 +14,8 @@ export const FilmsSection = () => {
 
   if (isFetching) {
     return (
-      <div className={clsx(styles.films_section, styles.loader_wrapper)}>
-        <CameraLoader />
+      <div className={styles.films_section}>
+        <FilmsGridSkeleton />
       </div>
     );
   }
@@ -31,10 +30,6 @@ export const FilmsSection = () => {
         ...prev,
         pageIndex,
       }),
-    });
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
     });
   };
 
