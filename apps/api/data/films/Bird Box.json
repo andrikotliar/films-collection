@@ -1,0 +1,141 @@
+{
+  "id": 374,
+  "title": "Bird Box",
+  "releaseDate": "2018-12-21",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 19000000,
+  "boxOffice": 0,
+  "synopsis": "One day, creatures that cannot be fed upon overran the Earth. A gaze induces madness, and people inflict fatal wounds upon themselves. Now humanity must move about with their eyes closed and search for places of refuge.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "poster": "posters/bird_box",
+  "genres": [
+    {
+      "title": "Mystery",
+      "id": 21
+    },
+    {
+      "title": "Horror",
+      "id": 10
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/o2AsIXSh2xo?si=viMBsYH8QtQyKU1m",
+      "order": 1,
+      "id": 348
+    }
+  ],
+  "awards": [
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Most Frightened Performance",
+          "id": 272
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2725,
+      "name": "Susane Bier",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2726,
+      "name": "Erik Heisserer",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2727,
+      "name": "Josh Malerman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1038,
+      "name": "Sandra Bullock",
+      "role": "ACTOR",
+      "details": "Malorie"
+    },
+    {
+      "id": 2728,
+      "name": "Trevante Rhodes",
+      "role": "ACTOR",
+      "details": "Tom"
+    },
+    {
+      "id": 588,
+      "name": "John Malkovich",
+      "role": "ACTOR",
+      "details": "Douglas"
+    },
+    {
+      "id": 2729,
+      "name": "Sarah Paulson",
+      "role": "ACTOR",
+      "details": "Jessica"
+    },
+    {
+      "id": 2730,
+      "name": "Jacki Weaver",
+      "role": "ACTOR",
+      "details": "Cheryl"
+    },
+    {
+      "id": 1870,
+      "name": "Dylan Clark",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2731,
+      "name": "Clayton Townsend",
+      "role": "PRODUCER",
+      "details": ""
+    },
+    {
+      "id": 2732,
+      "name": "Trent Reznor",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2733,
+      "name": "Atticus Ross",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1982,
+      "name": "Salvatore Totino",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ]
+}

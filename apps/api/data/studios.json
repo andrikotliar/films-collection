@@ -84,6 +84,10 @@
     "id": 19
   },
   {
+    "title": "DC Comics",
+    "id": 89
+  },
+  {
     "title": "DC Entertainment",
     "id": 18
   },
@@ -94,6 +98,10 @@
   {
     "title": "DC Studios",
     "id": 82
+  },
+  {
+    "title": "Davis Entertainment",
+    "id": 88
   },
   {
     "title": "Dimension Films",
@@ -110,241 +118,5 @@
   {
     "title": "DreamWorks Animation",
     "id": 16
-  },
-  {
-    "title": "DreamWorks Pictures",
-    "id": 15
-  },
-  {
-    "title": "Europacorp",
-    "id": 27
-  },
-  {
-    "title": "Fantefilm",
-    "id": 84
-  },
-  {
-    "title": "FilmNation Entertainment",
-    "id": 78
-  },
-  {
-    "title": "G-base",
-    "id": 30
-  },
-  {
-    "title": "Gaumont",
-    "id": 58
-  },
-  {
-    "title": "Gondon Company",
-    "id": 70
-  },
-  {
-    "title": "HBO",
-    "id": 26
-  },
-  {
-    "title": "HBO Max",
-    "id": 40
-  },
-  {
-    "title": "Hughes Entertainment",
-    "id": 81
-  },
-  {
-    "title": "Imagi Animation Studios",
-    "id": 83
-  },
-  {
-    "title": "Imagine Entertainment",
-    "id": 20
-  },
-  {
-    "title": "Jerry Bruckheimer Films",
-    "id": 44
-  },
-  {
-    "title": "Lawa Bear Films",
-    "id": 77
-  },
-  {
-    "title": "Legendary",
-    "id": 25
-  },
-  {
-    "title": "Legendary Television",
-    "id": 75
-  },
-  {
-    "title": "Lightstorm Entertainment",
-    "id": 23
-  },
-  {
-    "title": "Lionsgate",
-    "id": 57
-  },
-  {
-    "title": "Lucasfilm",
-    "id": 37
-  },
-  {
-    "title": "MIRAMAX",
-    "id": 55
-  },
-  {
-    "title": "Marvel Entertainment",
-    "id": 5
-  },
-  {
-    "title": "Marvel Studios",
-    "id": 4
-  },
-  {
-    "title": "Metropolitan Filmexport",
-    "id": 35
-  },
-  {
-    "title": "NBC Universal Television",
-    "id": 33
-  },
-  {
-    "title": "Netflix",
-    "id": 17
-  },
-  {
-    "title": "New Line Cinema",
-    "id": 56
-  },
-  {
-    "title": "Nickelodeon Animation Studios",
-    "id": 22
-  },
-  {
-    "title": "Orion Pictures",
-    "id": 60
-  },
-  {
-    "title": "Paramount Pictures",
-    "id": 14
-  },
-  {
-    "title": "Paramount+",
-    "id": 79
-  },
-  {
-    "title": "Pixar Animation",
-    "id": 3
-  },
-  {
-    "title": "Riot Games",
-    "id": 21
-  },
-  {
-    "title": "STX Films",
-    "id": 54
-  },
-  {
-    "title": "Sacrebleu Productions",
-    "id": 68
-  },
-  {
-    "title": "Silver Pictures",
-    "id": 71
-  },
-  {
-    "title": "Skydance Productions",
-    "id": 62
-  },
-  {
-    "title": "Sony Pictures",
-    "id": 10
-  },
-  {
-    "title": "Sony Pictures Animation",
-    "id": 11
-  },
-  {
-    "title": "Summit Entertainment",
-    "id": 43
-  },
-  {
-    "title": "Syncopy",
-    "id": 47
-  },
-  {
-    "title": "Synthesis Entertainment",
-    "id": 76
-  },
-  {
-    "title": "TF1 Films Productions",
-    "id": 48
-  },
-  {
-    "title": "TNT",
-    "id": 59
-  },
-  {
-    "title": "TSG Entertainment",
-    "id": 24
-  },
-  {
-    "title": "Tailwind Productions",
-    "id": 32
-  },
-  {
-    "title": "Take Five",
-    "id": 69
-  },
-  {
-    "title": "The CW",
-    "id": 52
-  },
-  {
-    "title": "The Halcyon Company",
-    "id": 51
-  },
-  {
-    "title": "The SPA Studios",
-    "id": 41
-  },
-  {
-    "title": "Thunder Road",
-    "id": 28
-  },
-  {
-    "title": "Toho Animation",
-    "id": 63
-  },
-  {
-    "title": "Tristar",
-    "id": 38
-  },
-  {
-    "title": "Universal Media Studios",
-    "id": 34
-  },
-  {
-    "title": "Universal Pictures",
-    "id": 13
-  },
-  {
-    "title": "Vancouver Media",
-    "id": 65
-  },
-  {
-    "title": "Village Roadshow Pictures",
-    "id": 31
-  },
-  {
-    "title": "Walt Disney Pictures",
-    "id": 1
-  },
-  {
-    "title": "Warner Bros. Pictures",
-    "id": 8
-  },
-  {
-    "title": "Warner Bros. Television",
-    "id": 9
   }
 ]
