@@ -2,7 +2,15 @@ import type { FilmDraftResponse } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useParams } from '@tanstack/react-router';
 import { useState } from 'react';
-import { api, Button, ConfirmModal, getFilmDraftsQueryOptions, Modal, Panel } from '~/shared';
+import {
+  api,
+  Button,
+  ConfirmModal,
+  getFilmDraftsQueryOptions,
+  Modal,
+  Panel,
+  queryKey,
+} from '~/shared';
 import styles from './drafts.module.css';
 import { useFormContext } from 'react-hook-form';
 import { TrashIcon } from 'lucide-react';
@@ -20,13 +28,13 @@ export const Drafts = ({ onSelectDraft }: DraftsProps) => {
 
   const { mutate, isPending } = useMutation({
     mutationFn: async (data: FilmDraftResponse) => {
-      await api.films.deleteDraft.exec({ params: { id: data.id } });
+      await api.films.deleteDraft({ params: { id: data.id } });
       setDraftToDelete(null);
       onSelectDraft(null);
     },
     meta: {
       invalidateQueries: {
-        queryKey: api.films.getFilmDrafts.staticKey,
+        queryKey: queryKey('films.getFilmDrafts'),
       },
     },
   });

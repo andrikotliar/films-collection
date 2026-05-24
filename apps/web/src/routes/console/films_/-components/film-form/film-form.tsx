@@ -8,6 +8,7 @@ import {
   getObjectsDiff,
   isNewItem,
   Panel,
+  queryKey,
   titleToFileName,
   useSearchContext,
 } from '~/shared';
@@ -50,7 +51,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         const transformedPoster = await convertImageToWebp(poster);
 
         const key = `posters/${titleToFileName(data.title)}`;
-        const uploadParams = await api.files.getUploadUrl.exec({
+        const uploadParams = await api.files.getUploadUrl({
           input: {
             key,
             fileType: 'webp',
@@ -86,13 +87,13 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           return;
         }
 
-        return await api.films.update.exec({
+        return await api.films.update({
           params: { id: values.id },
           input: diff,
         });
       }
 
-      return await api.films.create.exec({
+      return await api.films.create({
         input: {
           ...input,
           tempDraftId: selectedDraft?.id,
@@ -106,15 +107,15 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     meta: {
       invalidateQueries: [
         {
-          queryKey: [api.films.getAdminList.staticKey],
+          queryKey: [queryKey('films.getAdminList')],
         },
         ...(!isNewItem(values.id)
           ? [
               {
-                queryKey: [api.films.getById.staticKey, values.id],
+                queryKey: [queryKey('films.getById'), values.id],
               },
               {
-                queryKey: [api.films.getEditableFilm.staticKey, values.id],
+                queryKey: [queryKey('films.getEditableFilm'), values.id],
               },
             ]
           : []),
@@ -126,7 +127,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     mutationFn: async ({ value, type }: CreateNewEntityInput) => {
       switch (type) {
         case 'collections': {
-          const result = await api.collections.create.exec({
+          const result = await api.collections.create({
             input: {
               title: value,
               category: 'GENERAL',
@@ -138,21 +139,21 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           };
         }
         case 'genres': {
-          const result = await api.genres.create.exec({ input: { title: value } });
+          const result = await api.genres.create({ input: { title: value } });
           return {
             value: result.id,
             label: result.title,
           };
         }
         case 'countries': {
-          const result = await api.countries.create.exec({ input: { title: value } });
+          const result = await api.countries.create({ input: { title: value } });
           return {
             value: result.id,
             label: result.title,
           };
         }
         case 'studios': {
-          const result = await api.studios.create.exec({ input: { title: value } });
+          const result = await api.studios.create({ input: { title: value } });
           return {
             value: result.id,
             label: result.title,
@@ -163,7 +164,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       }
     },
     meta: {
-      invalidateQueries: { queryKey: api.initialData.get.staticKey },
+      invalidateQueries: { queryKey: queryKey('initialData.get') },
     },
   });
 

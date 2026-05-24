@@ -1,11 +1,17 @@
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { api, getEmptyFormValues, getStudiosListQueryOptions, type Input } from '~/shared';
+import {
+  api,
+  getEmptyFormValues,
+  getStudiosListQueryOptions,
+  queryKey,
+  type Input,
+} from '~/shared';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/studios/-components';
 import { useCallback } from 'react';
 
-const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create.exec>>({
+const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create>>({
   title: '',
 });
 
@@ -29,9 +35,9 @@ export const Route = createFileRoute('/console/studios')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.studios.delete.exec({ params: { id } }),
+    mutationFn: (id: number) => api.studios.delete({ params: { id } }),
     meta: {
-      invalidateQueries: { queryKey: api.studios.getList.staticKey },
+      invalidateQueries: { queryKey: queryKey('studios.getList') },
     },
   });
 };

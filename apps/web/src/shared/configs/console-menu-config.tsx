@@ -1,4 +1,4 @@
-import { api, queryClient, router } from '~/shared/services';
+import { api, queryClient, queryKey, router } from '~/shared/services';
 import { type MenuConfigItem } from '../types';
 import {
   BuildingIcon,
@@ -126,7 +126,7 @@ export const consoleMenuConfig = {
   user: {
     id: 'user',
     route: '/console/user',
-    title: 'user',
+    title: 'User',
     icon: <UserCogIcon />,
     color: 'color-lime-primary',
     type: 'link',
@@ -137,8 +137,8 @@ export const consoleMenuConfig = {
     icon: <LogOutIcon />,
     color: 'color-red-light',
     action: async () => {
-      await api.auth.logout.exec();
-      queryClient.removeQueries({ queryKey: [api.auth.getState.staticKey] });
+      await api.auth.logout();
+      queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
       router.navigate({ to: '/login' });
     },
     type: 'button',

@@ -1,11 +1,17 @@
-import { api, getCountriesListQueryOptions, getEmptyFormValues, type Input } from '~/shared';
+import {
+  api,
+  getCountriesListQueryOptions,
+  getEmptyFormValues,
+  queryKey,
+  type Input,
+} from '~/shared';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { CountryForm } from '~/routes/console/countries/-components';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { useCallback } from 'react';
 
-const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create.exec>>({
+const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create>>({
   title: '',
 });
 
@@ -29,11 +35,11 @@ export const Route = createFileRoute('/console/countries')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.countries.delete.exec({ params: { id } }),
+    mutationFn: (id: number) => api.countries.delete({ params: { id } }),
     meta: {
       invalidateQueries: [
-        { queryKey: api.countries.getList.staticKey },
-        { queryKey: api.initialData.get.staticKey },
+        { queryKey: queryKey('countries.getList') },
+        { queryKey: queryKey('initialData.get') },
       ],
     },
   });

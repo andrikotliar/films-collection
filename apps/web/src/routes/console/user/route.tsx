@@ -48,8 +48,8 @@ function RouteComponent() {
   const { data } = useSuspenseQuery(getUserDataQueryOptions());
 
   const { mutateAsync: updatePassword } = useMutation({
-    mutationFn: (input: Input<typeof api.users.updatePassword.exec>) => {
-      return api.users.updatePassword.exec({
+    mutationFn: (input: Input<typeof api.users.updatePassword>) => {
+      return api.users.updatePassword({
         input,
       });
     },
@@ -59,8 +59,8 @@ function RouteComponent() {
   });
 
   const { mutateAsync: updateTranslationPreferences } = useMutation({
-    mutationFn: (input: Input<typeof api.users.updateTranslationPreferences.exec>) => {
-      return api.users.updateTranslationPreferences.exec({
+    mutationFn: (input: Input<typeof api.users.updateTranslationPreferences>) => {
+      return api.users.updateTranslationPreferences({
         input,
       });
     },

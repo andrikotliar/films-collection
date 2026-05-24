@@ -9,6 +9,7 @@ import {
   FiltersSidebar,
   type SortingParams,
   useSearchContext,
+  queryKey,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GetAdminListQuerySchema, type ListOption } from '@films-collection/shared';
@@ -45,9 +46,9 @@ export const Route = createFileRoute('/console/films')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.films.delete.exec({ params: { id } }),
+    mutationFn: (id: number) => api.films.delete({ params: { id } }),
     meta: {
-      invalidateQueries: [{ queryKey: api.films.getAdminList.staticKey }],
+      invalidateQueries: [{ queryKey: queryKey('films.getAdminList') }],
     },
   });
 };

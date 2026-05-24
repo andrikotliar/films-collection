@@ -29,7 +29,7 @@ export const defaultAdminFilters: AdminFilterValues = {
 };
 
 export const getAdminFiltersConfig = (
-  initialData: ApiResponse<typeof api.initialData.get.exec>,
+  initialData: ApiResponse<typeof api.initialData.get>,
 ): Array<FilterItem<AdminFilterValues>> => {
   const baseFilters = getFiltersConfig(initialData);
 

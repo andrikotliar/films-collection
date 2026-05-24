@@ -1,10 +1,10 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 
 export const getAuthStateQueryOptions = (staleTime?: number) => {
   return queryOptions({
-    queryKey: [api.auth.getState.staticKey],
-    queryFn: () => api.auth.getState.exec(),
+    queryKey: [queryKey('auth.getState')],
+    queryFn: api.auth.getState,
     staleTime,
   });
 };

@@ -7,6 +7,7 @@ import {
   type FormModalValues,
   getDefaultDateCode,
   getEmptyFormValues,
+  queryKey,
 } from '~/shared';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
@@ -46,16 +47,15 @@ export const Route = createFileRoute('/console/collection-events')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationKey: [api.collectionEvents.delete.staticKey],
     mutationFn: (id: number) => {
-      return api.collectionEvents.delete.exec({ params: { id } });
+      return api.collectionEvents.delete({ params: { id } });
     },
     meta: {
       invalidateQueries: [
         {
-          queryKey: api.collectionEvents.getList.staticKey,
+          queryKey: queryKey('collectionEvents.getList'),
         },
-        { queryKey: api.initialData.get.staticKey },
+        { queryKey: queryKey('initialData.get') },
       ],
     },
   });

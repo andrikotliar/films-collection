@@ -3,7 +3,7 @@ import { Award, Nominations } from '~/routes/films/$id/-components/awards/compon
 import styles from './awards.module.css';
 import { useState } from 'react';
 
-type Awards = ApiResponse<typeof api.films.getById.exec>['awards'];
+type Awards = ApiResponse<typeof api.films.getById>['awards'];
 
 type AwardsProps = {
   data: Awards;

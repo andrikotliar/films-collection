@@ -4,7 +4,7 @@ import { RoleTitle } from '~/routes/films/$id/-components/cast-and-crew/componen
 import { RouterLink, type api, type ApiResponse } from '~/shared';
 
 type RoleItemProps = {
-  data: ApiResponse<typeof api.films.getById.exec>['castAndCrew'][number];
+  data: ApiResponse<typeof api.films.getById>['castAndCrew'][number];
 };
 
 export const RoleItem = ({ data }: RoleItemProps) => {

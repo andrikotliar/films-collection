@@ -13,10 +13,10 @@ import { PlayIcon } from 'lucide-react';
 import { useState } from 'react';
 import { TrailerWindow } from '~/routes/_home/-components/films-section/components/trailer-window/trailer-window';
 
-type Film = ApiResponse<typeof api.films.getList.exec>['list'][number];
+type Film = ApiResponse<typeof api.films.getList>['list'][number];
 
 type FilmsGridProps = {
-  films: ApiResponse<typeof api.films.getList.exec>['list'];
+  films: ApiResponse<typeof api.films.getList>['list'];
 };
 
 const getYearValue = (film: Film) => {

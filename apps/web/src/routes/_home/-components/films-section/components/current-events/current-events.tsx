@@ -7,7 +7,7 @@ import {
 } from '~/routes/_home/-components/films-section/components/current-events/components';
 
 type CurrentEventsProps = {
-  events: ApiResponse<typeof api.films.getList.exec>['events'];
+  events: ApiResponse<typeof api.films.getList>['events'];
   total: number;
   anniversaryPoster: string | null;
 };

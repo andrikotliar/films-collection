@@ -1,11 +1,11 @@
-import { api, Form, FormIdParamSchema, mutateEntity, Panel, type Input } from '~/shared';
+import { api, Form, FormIdParamSchema, mutateEntity, Panel, queryKey, type Input } from '~/shared';
 import { NominationsForm } from '~/routes/console/awards_/-components/nominations-form/nominations-form';
 import { CreateAwardInputSchema } from '@films-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 
 type AwardFormProps = {
-  values: Input<typeof api.awards.create.exec>;
+  values: Input<typeof api.awards.create>;
 };
 
 const AwardFormSchema = CreateAwardInputSchema.extend({
@@ -16,7 +16,7 @@ export const AwardForm = ({ values }: AwardFormProps) => {
   const navigate = useNavigate();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.awards.create.exec, api.awards.update.exec),
+    mutationFn: mutateEntity(api.awards.create, api.awards.update),
     onSuccess: () => {
       navigate({
         to: '/console/awards',
@@ -25,13 +25,13 @@ export const AwardForm = ({ values }: AwardFormProps) => {
     meta: {
       invalidateQueries: [
         {
-          queryKey: api.awards.getById.staticKey,
+          queryKey: queryKey('awards.getById'),
         },
         {
-          queryKey: api.awards.getList.staticKey,
+          queryKey: queryKey('awards.getList'),
         },
         {
-          queryKey: api.initialData.get.staticKey,
+          queryKey: queryKey('initialData.get'),
         },
       ],
     },

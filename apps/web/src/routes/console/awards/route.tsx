@@ -3,7 +3,7 @@ import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useCallback } from 'react';
 import { List } from '~/routes/console/-shared';
-import { api, getAwardsBaseDataListQueryOptions } from '~/shared';
+import { api, getAwardsBaseDataListQueryOptions, queryKey } from '~/shared';
 
 export const Route = createFileRoute('/console/awards')({
   validateSearch: (search) => CommonListQuerySchema.parse(search),
@@ -26,9 +26,9 @@ export const Route = createFileRoute('/console/awards')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.awards.delete.exec({ params: { id } }),
+    mutationFn: (id: number) => api.awards.delete({ params: { id } }),
     meta: {
-      invalidateQueries: { queryKey: api.awards.getList.staticKey },
+      invalidateQueries: { queryKey: queryKey('awards.getList') },
     },
   });
 };

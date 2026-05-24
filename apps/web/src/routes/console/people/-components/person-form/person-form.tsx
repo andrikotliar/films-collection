@@ -1,4 +1,11 @@
-import { type FormComponentProps, api, Form, FormIdParamSchema, mutateEntity } from '~/shared';
+import {
+  type FormComponentProps,
+  api,
+  Form,
+  FormIdParamSchema,
+  mutateEntity,
+  queryKey,
+} from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import type z from 'zod';
 import { CreatePersonSchema } from '@films-collection/shared';
@@ -13,9 +20,9 @@ export type PersonFormProps = FormComponentProps<z.infer<typeof PersonFormSchema
 
 export const PersonForm = ({ values }: PersonFormProps) => {
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.people.create.exec, api.people.update.exec),
+    mutationFn: mutateEntity(api.people.create, api.people.update),
     meta: {
-      invalidateQueries: { queryKey: api.people.getList.staticKey },
+      invalidateQueries: { queryKey: queryKey('people.getList') },
     },
   });
   const { onClose } = useFormModal();
