@@ -1,9 +1,9 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 
 export const getUserDataQueryOptions = () => {
   return queryOptions({
-    queryKey: [api.users.getUser.staticKey],
-    queryFn: () => api.users.getUser.exec(),
+    queryKey: [queryKey('users.getUser')],
+    queryFn: api.users.getUser,
   });
 };

@@ -3,7 +3,7 @@ import styles from './nominations.module.css';
 import { RouterLink, type api, type ApiResponse } from '~/shared';
 
 type NominationsProps = {
-  data: ApiResponse<typeof api.films.getById.exec>['awards'][number];
+  data: ApiResponse<typeof api.films.getById>['awards'][number];
 };
 
 export const Nominations = ({ data }: NominationsProps) => {

@@ -6,6 +6,7 @@ import {
   filterValues,
   getEmptyFormValues,
   getPeopleAdminListQueryOptions,
+  queryKey,
   useSidebarVisibility,
   type FilterItem,
   type Input,
@@ -23,7 +24,7 @@ import { mutationOptions, useQuery } from '@tanstack/react-query';
 import type { z } from 'zod';
 import { useCallback, useMemo } from 'react';
 
-const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create.exec>>({
+const personDefaultValues = getEmptyFormValues<Input<typeof api.people.create>>({
   name: '',
   selected: false,
 });
@@ -61,9 +62,9 @@ const defaultFilters: z.infer<typeof GetPeopleListQuerySchema> = {
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.people.delete.exec({ params: { id } }),
+    mutationFn: (id: number) => api.people.delete({ params: { id } }),
     meta: {
-      invalidateQueries: { queryKey: api.people.getList.staticKey },
+      invalidateQueries: { queryKey: queryKey('people.getList') },
     },
   });
 };

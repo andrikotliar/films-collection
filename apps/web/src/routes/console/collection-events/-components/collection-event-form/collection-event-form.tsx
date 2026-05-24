@@ -6,6 +6,7 @@ import {
   type FormComponentProps,
   getInitialDataQueryOptions,
   mutateEntity,
+  queryKey,
 } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { Dates } from '~/routes/console/collection-events/-components';
@@ -19,11 +20,11 @@ export const CollectionEventForm = ({ values }: CollectionEventFormProps) => {
   const { onClose } = useFormModal();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.collectionEvents.create.exec, api.collectionEvents.update.exec),
+    mutationFn: mutateEntity(api.collectionEvents.create, api.collectionEvents.update),
     meta: {
       invalidateQueries: [
-        { queryKey: api.collectionEvents.getList.staticKey },
-        { queryKey: api.initialData.get.staticKey },
+        { queryKey: queryKey('collectionEvents.getList') },
+        { queryKey: queryKey('initialData.get') },
       ],
     },
   });
@@ -55,7 +56,7 @@ export const CollectionEventForm = ({ values }: CollectionEventFormProps) => {
       <Dates />
       <Form.AsyncSelect
         name="titleFilmId"
-        optionsLoader={api.films.getOptions.exec}
+        optionsLoader={api.films.getOptions}
         label="Title film"
         queryKey="collectionEventFilmId"
       />

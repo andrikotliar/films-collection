@@ -30,7 +30,7 @@ export const ChaptersSelect = () => {
         throw new Error('Chapter Key cannot be empty');
       }
 
-      const result = await api.chapterKeys.create.exec({
+      const result = await api.chapterKeys.create({
         input: {
           key: value,
         },

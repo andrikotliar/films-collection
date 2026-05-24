@@ -42,7 +42,7 @@ export const api = createApiClient({
 
         return originalRequest();
       } catch (_error) {
-        queryClient.removeQueries({ queryKey: [api.auth.getState.staticKey] });
+        queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
         throw redirect({ to: '/login' });
       }
     }
@@ -54,3 +54,11 @@ export const api = createApiClient({
     );
   },
 });
+
+type Paths<T> = T extends object
+  ? {
+      [K in keyof T & string]: K | `${K}.${Paths<T[K]>}`;
+    }[keyof T & string]
+  : never;
+
+export const queryKey = <TKey extends Paths<typeof api>>(key: TKey): TKey => key;

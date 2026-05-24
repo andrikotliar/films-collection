@@ -1,13 +1,13 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
 export const getCollectionEventsQueryOptions = (
-  queryParams: QueryParams<typeof api.collectionEvents.getList.exec>,
+  queryParams: QueryParams<typeof api.collectionEvents.getList>,
 ) => {
   return queryOptions({
-    queryKey: [api.collectionEvents.getList.staticKey, queryParams],
-    queryFn: () => api.collectionEvents.getList.exec({ queryParams }),
+    queryKey: [queryKey('collectionEvents.getList'), queryParams],
+    queryFn: () => api.collectionEvents.getList({ queryParams }),
     retry: false,
   });
 };

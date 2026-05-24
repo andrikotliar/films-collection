@@ -1,9 +1,9 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 
 export const getUserSessionsQueryOptions = () => {
   return queryOptions({
-    queryKey: [api.users.getSessions.staticKey],
-    queryFn: () => api.users.getSessions.exec(),
+    queryKey: [queryKey('users.getSessions')],
+    queryFn: api.users.getSessions,
   });
 };

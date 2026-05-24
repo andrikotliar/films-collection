@@ -2,7 +2,7 @@ import { EventPoster } from '~/routes/_home/-components/films-section/components
 import { getPluralWord, type api, type ApiResponse } from '~/shared';
 
 type EventBannerProps = {
-  event: ApiResponse<typeof api.films.getList.exec>['events'][number];
+  event: ApiResponse<typeof api.films.getList>['events'][number];
   selectedEventId?: number;
 };
 

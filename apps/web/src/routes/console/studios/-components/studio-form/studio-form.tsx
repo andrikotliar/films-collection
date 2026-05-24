@@ -1,4 +1,4 @@
-import { api, Form, mutateEntity, type FormComponentProps } from '~/shared';
+import { api, Form, mutateEntity, queryKey, type FormComponentProps } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import type z from 'zod';
 import { StudioFormSchema } from '~/routes/console/studios/-schemas';
@@ -11,11 +11,11 @@ export const StudioForm = ({ values }: StudioFormProps) => {
   const { onClose } = useFormModal();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.studios.create.exec, api.studios.update.exec),
+    mutationFn: mutateEntity(api.studios.create, api.studios.update),
     meta: {
       invalidateQueries: [
-        { queryKey: api.studios.getList.staticKey },
-        { queryKey: api.initialData.get.staticKey },
+        { queryKey: queryKey('studios.getList') },
+        { queryKey: queryKey('initialData.get') },
       ],
     },
   });

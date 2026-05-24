@@ -3,7 +3,7 @@ import { Button, IconLink, type api, type ApiResponse } from '~/shared';
 import { InfoIcon, LinkIcon, TrophyIcon } from 'lucide-react';
 
 type AwardProps = {
-  data: ApiResponse<typeof api.films.getById.exec>['awards'][number]['award'];
+  data: ApiResponse<typeof api.films.getById>['awards'][number]['award'];
   onSelect: VoidFunction;
   nominationsCount: number;
 };

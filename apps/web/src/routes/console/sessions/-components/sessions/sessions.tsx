@@ -8,6 +8,7 @@ import {
   Panel,
   api,
   type ApiResponse,
+  queryKey,
 } from '~/shared';
 import { useState } from 'react';
 
@@ -15,16 +16,16 @@ export const Sessions = () => {
   const { data } = useSuspenseQuery(getUserSessionsQueryOptions());
 
   const [selectedSession, setSelectedSession] = useState<
-    ApiResponse<typeof api.users.getSessions.exec>[number] | null
+    ApiResponse<typeof api.users.getSessions>[number] | null
   >(null);
 
   const { mutateAsync, isPending } = useMutation({
     mutationFn: async (id: number) => {
-      await api.users.terminateSession.exec({ params: { id } });
+      await api.users.terminateSession({ params: { id } });
     },
     meta: {
       invalidateQueries: {
-        queryKey: api.users.getSessions.staticKey,
+        queryKey: queryKey('users.getSessions'),
       },
     },
   });

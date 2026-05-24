@@ -12,19 +12,18 @@ type BuildExecOptions<S> = (S extends { body: infer B } ? { input: InferSchema<B
   (S extends { querystring: infer Q } ? { queryParams: InferSchema<Q> } : {}) &
   (S extends { params: infer P } ? { params: InferSchema<P> } : {});
 
-type ExecOptions<S> = keyof BuildExecOptions<S> extends never ? void : BuildExecOptions<S>;
+type ExecOptions<S> = keyof BuildExecOptions<S> extends never ? undefined : BuildExecOptions<S>;
 
 type ApiClient = {
   [K in keyof Contracts as Contracts[K]['prefix']]: {
     [MK in keyof Contracts[K]['routes']]: Contracts[K]['routes'][MK] extends {
       schema: infer S;
     }
-      ? {
-          staticKey: string;
-          exec: (
+      ? ExecOptions<S> extends undefined
+        ? () => Promise<S extends { response: infer R } ? z.infer<R> : unknown>
+        : (
             options: ExecOptions<S>,
-          ) => Promise<S extends { response: infer R } ? z.infer<R> : unknown>;
-        }
+          ) => Promise<S extends { response: infer R } ? z.infer<R> : unknown>
       : never;
   };
 };
@@ -55,11 +54,8 @@ export const createApiClient = (fetchOptions: FetchWrapperOptions) => {
     for (const [methodKey, methodContract] of Object.entries(contract.routes)) {
       const apiPath = `/${contract.prefix}${getUrl(methodContract.url)}`;
 
-      client[camelCasePrefix][methodKey] = {
-        staticKey: `${camelCasePrefix}.${methodKey}`,
-        exec: (options: Record<string, unknown>) =>
-          request<ApiContract['schema']['response']>(methodContract.method, apiPath, options),
-      };
+      client[camelCasePrefix][methodKey] = (options: Record<string, unknown>) =>
+        request<ApiContract['schema']['response']>(methodContract.method, apiPath, options);
     }
   }
 

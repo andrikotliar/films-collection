@@ -22,7 +22,7 @@ export type SummaryConfig = {
 };
 
 export const getFilmSummaryConfig = (
-  film: ApiResponse<typeof api.films.getById.exec>,
+  film: ApiResponse<typeof api.films.getById>,
 ): SummaryConfig[] => {
   const values: SummaryConfig[] = [
     {

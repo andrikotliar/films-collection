@@ -19,7 +19,7 @@ export const DescriptionEditor = () => {
         return;
       }
 
-      const result = await api.films.translateDescription.exec({
+      const result = await api.films.translateDescription({
         input: {
           text: values.synopsis,
         },

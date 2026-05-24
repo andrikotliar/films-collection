@@ -1,12 +1,12 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
 export const getStudiosListQueryOptions = (
-  queryParams: QueryParams<typeof api.studios.getList.exec>,
+  queryParams: QueryParams<typeof api.studios.getList>,
 ) => {
   return queryOptions({
-    queryKey: [api.studios.getList.staticKey, queryParams],
-    queryFn: () => api.studios.getList.exec({ queryParams }),
+    queryKey: [queryKey('studios.getList'), queryParams],
+    queryFn: () => api.studios.getList({ queryParams }),
   });
 };

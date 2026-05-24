@@ -12,13 +12,14 @@ import {
   type Input,
   getMixedId,
   mutateEntity,
+  queryKey,
 } from '~/shared';
 
 import { ALLOWED_HTML_TAGS } from '@films-collection/shared';
 import { PageContentFormSchema } from '~/routes/console/page-content_/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
-const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.getById.exec> | null) => {
+const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.getById> | null) => {
   if (data) {
     return {
       id: data.id,
@@ -28,7 +29,7 @@ const getDefaultFormValues = (data: ApiResponse<typeof api.pageContent.getById.e
     };
   }
 
-  return getEmptyFormValues<Input<typeof api.pageContent.create.exec>>({
+  return getEmptyFormValues<Input<typeof api.pageContent.create>>({
     title: '',
     pageKey: '',
     content: '',
@@ -64,7 +65,7 @@ function RouteComponent() {
   const { data } = useSuspenseQuery(getPageContentByIdQueryOptions(mixedId));
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.pageContent.create.exec, api.pageContent.update.exec),
+    mutationFn: mutateEntity(api.pageContent.create, api.pageContent.update),
     onSuccess: () => {
       navigate({
         to: '/console/page-content',
@@ -74,7 +75,7 @@ function RouteComponent() {
       invalidateQueries:
         !isNewItem(mixedId) && data?.pageKey
           ? {
-              queryKey: [api.pageContent.getByPageKey.staticKey, data.pageKey],
+              queryKey: [queryKey('pageContent.getByPageKey'), data.pageKey],
             }
           : undefined,
     },

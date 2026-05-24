@@ -32,7 +32,7 @@ export const FilmValuesWatcher = ({
           return;
         }
 
-        api.films.updateDraft.exec({
+        api.films.updateDraft({
           params: {
             id: selectedDraft.id,
           },
@@ -50,8 +50,8 @@ export const FilmValuesWatcher = ({
         return;
       }
 
-      api.films.createDraft
-        .exec({
+      api.films
+        .createDraft({
           input: { content },
           params: { filmId: params.id },
         })

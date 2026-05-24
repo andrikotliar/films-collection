@@ -6,7 +6,7 @@ import { TrailersPlaylist } from '~/routes/films/$id/-components/summary-section
 import type { Enum, TitleType } from '@films-collection/shared';
 
 type TrailersButtonProps = {
-  data: ApiResponse<typeof api.films.getById.exec>['trailers'];
+  data: ApiResponse<typeof api.films.getById>['trailers'];
   type: Enum<typeof TitleType>;
 };
 

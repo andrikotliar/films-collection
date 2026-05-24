@@ -1,11 +1,11 @@
 import { queryOptions } from '@tanstack/react-query';
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 
 export const getFilmDraftsQueryOptions = (filmId: string) => {
   return queryOptions({
-    queryKey: [api.films.getFilmDrafts.staticKey, filmId],
+    queryKey: [queryKey('films.getFilmDrafts'), filmId],
     queryFn: async () => {
-      return api.films.getFilmDrafts.exec({ params: { filmId } });
+      return api.films.getFilmDrafts({ params: { filmId } });
     },
   });
 };

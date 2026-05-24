@@ -1,10 +1,10 @@
-import { api } from '~/shared/services';
+import { api, queryKey } from '~/shared/services';
 import { queryOptions } from '@tanstack/react-query';
 
 export const getInitialDataQueryOptions = () => {
   return queryOptions({
-    queryKey: [api.initialData.get.staticKey],
-    queryFn: () => api.initialData.get.exec(),
+    queryKey: [queryKey('initialData.get')],
+    queryFn: api.initialData.get,
     staleTime: Infinity,
   });
 };

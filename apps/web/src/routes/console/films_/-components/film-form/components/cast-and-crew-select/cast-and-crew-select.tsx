@@ -38,7 +38,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
       if (!value.length) {
         throw new Error('Name cannot be empty');
       }
-      const result = await api.people.create.exec({
+      const result = await api.people.create({
         input: {
           name: value,
         },
@@ -59,7 +59,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
             <Form.AsyncSelect
               name={`castAndCrew.${index}.personId`}
               label="Person"
-              optionsLoader={api.people.search.exec}
+              optionsLoader={api.people.search}
               onCreateOption={(value) => mutateAsync({ value, index })}
               isOptionsLoading={isPending && variables.index === index}
               queryKey={index}

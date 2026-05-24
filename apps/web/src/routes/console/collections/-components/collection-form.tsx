@@ -5,6 +5,7 @@ import {
   api,
   getInitialDataQueryOptions,
   mutateEntity,
+  queryKey,
 } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import { useMutation, useQuery } from '@tanstack/react-query';
@@ -18,11 +19,11 @@ export const CollectionForm = ({ values }: CollectionFormProps) => {
   const { onClose } = useFormModal();
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: mutateEntity(api.collections.create.exec, api.collections.update.exec),
+    mutationFn: mutateEntity(api.collections.create, api.collections.update),
     meta: {
       invalidateQueries: [
-        { queryKey: api.collections.getList.staticKey },
-        { queryKey: api.initialData.get.staticKey },
+        { queryKey: queryKey('collections.getList') },
+        { queryKey: queryKey('initialData.get') },
       ],
     },
   });

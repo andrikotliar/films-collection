@@ -1,6 +1,6 @@
 import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
-import { getPageContentAdminListQueryOptions, api } from '~/shared';
+import { getPageContentAdminListQueryOptions, api, queryKey } from '~/shared';
 import { List } from '~/routes/console/-shared';
 import { GetPageContentListQueriesSchema } from '@films-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
@@ -30,9 +30,9 @@ export const Route = createFileRoute('/console/page-content')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.pageContent.delete.exec({ params: { id } }),
+    mutationFn: (id: number) => api.pageContent.delete({ params: { id } }),
     meta: {
-      invalidateQueries: { queryKey: api.pageContent.getAdminList.staticKey },
+      invalidateQueries: { queryKey: queryKey('pageContent.getAdminList') },
     },
   });
 };

@@ -8,7 +8,7 @@ type EventPosterProps = {
   posterPath: string | null;
   title: string;
   subTitle?: string | null;
-  search: QueryParams<typeof api.films.getList.exec>;
+  search: QueryParams<typeof api.films.getList>;
 };
 
 export const EventPoster = ({
