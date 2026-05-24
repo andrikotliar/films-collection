@@ -10,7 +10,9 @@ type SearchContextType = {
 export const SearchContext = createContext<SearchContextType>({
   setSearchValue: () => {},
   clearSearchValue: () => {},
-  getSearchValue: () => {},
+  getSearchValue: () => {
+    return undefined;
+  },
 });
 
 export const useSearchContext = () => useContext(SearchContext);
