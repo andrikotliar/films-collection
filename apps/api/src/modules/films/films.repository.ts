@@ -838,21 +838,19 @@ export class FilmsRepository {
   }
 
   getByCollectionId(collectionId: number) {
-    return this.deps.db.query.films.findMany({
-      columns: {
-        id: true,
-        title: true,
-        poster: true,
-      },
-      with: {
-        collections: {
-          columns: {
-            order: true,
-          },
-          where: eq(filmsCollections.collectionId, collectionId),
-        },
-      },
-    });
+    return this.deps.db
+      .select({
+        id: films.id,
+        title: films.title,
+        poster: films.poster,
+        order: filmsCollections.order,
+      })
+      .from(films)
+      .innerJoin(
+        filmsCollections,
+        and(eq(films.id, filmsCollections.filmId), eq(filmsCollections.collectionId, collectionId)),
+      )
+      .orderBy(asc(filmsCollections.order));
   }
 
   async getAnniversaries() {

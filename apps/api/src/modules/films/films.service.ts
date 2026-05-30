@@ -187,10 +187,7 @@ export class FilmsService {
   async getFilmsByCollection(collectionId: number) {
     const films = await this.deps.filmsRepository.getByCollectionId(collectionId);
 
-    return films.map(({ collections, ...film }) => ({
-      ...film,
-      order: collections[0].order,
-    }));
+    return films;
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {

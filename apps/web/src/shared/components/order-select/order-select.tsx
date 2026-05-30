@@ -8,7 +8,7 @@ import { getExternalImageUrl } from '~/shared/helpers';
 
 type ListItem = {
   id: number;
-  chapterOrder: number | null;
+  order: number | null;
   poster: string | null;
 };
 
@@ -27,7 +27,7 @@ export const OrderSelect = ({
   currentId,
   onChange,
 }: OrderSelectProps) => {
-  const startingVirtualChapter = getVirtualChapterValue(0, list[0]?.chapterOrder);
+  const startingVirtualChapter = getVirtualChapterValue(0, list[0]?.order);
 
   return (
     <div className={styles.films}>
@@ -43,12 +43,9 @@ export const OrderSelect = ({
           </label>
         )}
         {list.map((film, index) => {
-          const virtualChapter = getVirtualChapterValue(
-            film.chapterOrder,
-            list[index + 1]?.chapterOrder,
-          );
+          const virtualChapter = getVirtualChapterValue(film.order, list[index + 1]?.order);
 
-          const isNextChapterSelected = list[index + 1]?.chapterOrder === value;
+          const isNextChapterSelected = list[index + 1]?.order === value;
           const isFirstChapterSelected = list[0].id === currentId;
           const isCurrentFilmSelected = film.id === currentId;
 
@@ -68,10 +65,10 @@ export const OrderSelect = ({
                 <label className={clsx(styles.film, styles.position_select)}>
                   <input
                     type="radio"
-                    onChange={() => onChange(film.chapterOrder ?? 0)}
-                    checked={film.chapterOrder === value}
+                    onChange={() => onChange(film.order ?? 0)}
+                    checked={film.order === value}
                   />
-                  <span className={styles.chapter_number}>{film.chapterOrder}</span>
+                  <span className={styles.chapter_number}>{film.order}</span>
                 </label>
               ) : (
                 <div className={styles.film}>

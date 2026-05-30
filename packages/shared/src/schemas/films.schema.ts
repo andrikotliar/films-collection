@@ -31,7 +31,9 @@ export const CreateFilmInputSchema = z.object({
   collections: z.array(
     z.object({
       collectionId: z.number(),
-      order: z.number(),
+      order: z.number().min(0.1, {
+        error: 'Order is required for the collection',
+      }),
     }),
   ),
   duration: z.coerce.number(),
