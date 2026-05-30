@@ -44,6 +44,7 @@ import {
   filmTrailers,
   genres,
   seriesExtensions,
+  type FilmCollection,
 } from '~/database/schema.js';
 import type {
   PgColumn,
@@ -51,6 +52,7 @@ import type {
   PgTableWithColumns,
   PgTransaction,
 } from 'drizzle-orm/pg-core';
+import type { Timestamps } from '~/modules/films/types.js';
 
 type AnyTable = {
   name: string;
@@ -92,7 +94,7 @@ export class FilmsRepository {
 
   async findAndCount(queries: PlainFilmFilters) {
     const filters = mapListFilters(queries, this.deps.db);
-    const sorting = this.mapSorting(queries.orderKey, queries.order);
+    const sorting = this.mapSorting(queries.orderKey, queries.order, queries);
 
     const list = await this.deps.db
       .select()
@@ -125,9 +127,7 @@ export class FilmsRepository {
         budget: true,
         boxOffice: true,
         rating: true,
-        chapterKey: true,
         type: true,
-        chapterOrder: true,
         synopsis: true,
       },
       with: {
@@ -210,6 +210,7 @@ export class FilmsRepository {
               columns: {
                 id: true,
                 title: true,
+                category: true,
               },
             },
           },
@@ -235,8 +236,6 @@ export class FilmsRepository {
         boxOffice: true,
         duration: true,
         releaseDate: true,
-        chapterKey: true,
-        chapterOrder: true,
       },
       with: {
         genres: {
@@ -314,19 +313,6 @@ export class FilmsRepository {
       ),
       limit: PAGE_LIMITS.default,
     });
-  }
-
-  findChapters(chapterKey: string) {
-    return this.deps.db
-      .select({
-        id: films.id,
-        poster: films.poster,
-        title: films.title,
-        chapterOrder: films.chapterOrder,
-      })
-      .from(films)
-      .where(and(isNull(films.deletedAt), eq(films.chapterKey, chapterKey)))
-      .orderBy(asc(films.chapterOrder));
   }
 
   async getFilmsListByQuery({ q, selected }: GetFilmOptionsQuery) {
@@ -414,7 +400,11 @@ export class FilmsRepository {
       }
 
       if (collections.length) {
-        const values = collections.map((collectionId) => ({ collectionId, filmId }));
+        const values = collections.map((collection) => ({
+          collectionId: collection.collectionId,
+          filmId,
+          order: collection.order,
+        }));
 
         await tr.insert(filmsCollections).values(values);
       }
@@ -449,8 +439,6 @@ export class FilmsRepository {
         budget: true,
         boxOffice: true,
         synopsis: true,
-        chapterKey: true,
-        chapterOrder: true,
         draft: true,
       },
       with: {
@@ -472,6 +460,7 @@ export class FilmsRepository {
         collections: {
           columns: {
             collectionId: true,
+            order: true,
           },
         },
         castAndCrew: {
@@ -560,9 +549,10 @@ export class FilmsRepository {
           transaction,
           filmId,
           table: filmsCollections,
-          values: collections.map((collectionId) => ({
-            collectionId,
+          values: collections.map((collection) => ({
+            collectionId: collection.collectionId,
             filmId,
+            order: collection.order,
           })),
         });
       }
@@ -656,8 +646,6 @@ export class FilmsRepository {
         boxOffice: true,
         type: true,
         style: true,
-        chapterKey: true,
-        chapterOrder: true,
         poster: true,
       },
       with: {
@@ -851,6 +839,22 @@ export class FilmsRepository {
       .where(and(eq(filmTrailers.filmId, id)));
   }
 
+  getByCollectionId(collectionId: number) {
+    return this.deps.db
+      .select({
+        id: films.id,
+        title: films.title,
+        poster: films.poster,
+        order: filmsCollections.order,
+      })
+      .from(films)
+      .innerJoin(
+        filmsCollections,
+        and(eq(films.id, filmsCollections.filmId), eq(filmsCollections.collectionId, collectionId)),
+      )
+      .orderBy(asc(filmsCollections.order));
+  }
+
   async getAnniversaries() {
     const list = await this.deps.db
       .select({ poster: films.poster })
@@ -872,7 +876,21 @@ export class FilmsRepository {
     return and(isNull(films.deletedAt), eq(films.draft, false), ...additionalFilters);
   }
 
-  private mapSorting(key: string = 'releaseDate', direction: SortingOrder = 'desc') {
+  linkFilmToCollection(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
+    return this.deps.db.insert(filmsCollections).values(input);
+  }
+
+  unlinkCollection(collectionId: number) {
+    return this.deps.db
+      .delete(filmsCollections)
+      .where(eq(filmsCollections.collectionId, collectionId));
+  }
+
+  private mapSorting(
+    key: string = 'releaseDate',
+    direction: SortingOrder = 'desc',
+    queries?: PlainFilmFilters,
+  ) {
     const directions = {
       asc,
       desc,
@@ -881,6 +899,21 @@ export class FilmsRepository {
     const fn = directions[direction];
 
     switch (key) {
+      case 'collectionOrder':
+        if (!queries?.collectionId) {
+          return fn(films.releaseDate);
+        }
+        return asc(
+          this.deps.db
+            .select({ order: filmsCollections.order })
+            .from(filmsCollections)
+            .where(
+              and(
+                eq(films.id, filmsCollections.filmId),
+                eq(filmsCollections.collectionId, queries.collectionId),
+              ),
+            ),
+        );
       case 'title':
         return fn(films.title);
       case 'createdAt':

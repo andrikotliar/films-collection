@@ -18,8 +18,9 @@ import {
   type GetFilmStatsQueryParams,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
-import type { Film } from '~/database/schema.js';
+import type { Film, FilmCollection } from '~/database/schema.js';
 import { InMemoryCacheService } from '~/modules/cache/cache.service.js';
+import type { Timestamps } from '~/modules/films/types.js';
 
 type GenericOption = {
   id: number;
@@ -97,7 +98,7 @@ export class FilmsService {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
       order: 'desc',
-      orderKey: 'releaseDate',
+      orderKey: queries.collectionId ? 'collectionOrder' : 'releaseDate',
       draftLevels: [DraftLevel.PUBLISHED, DraftLevel.UPCOMING],
     });
 
@@ -163,10 +164,6 @@ export class FilmsService {
     });
   }
 
-  getRelatedChapters(chapterKey: string) {
-    return this.deps.filmsRepository.findChapters(chapterKey);
-  }
-
   async getEditableFilm(id: number) {
     const film = await throwIfNotFound(this.deps.filmsRepository.getEditableFilm(id));
 
@@ -186,6 +183,12 @@ export class FilmsService {
     }
 
     return await this.getFilmDetails(filmId, 'admin');
+  }
+
+  async getFilmsByCollection(collectionId: number) {
+    const films = await this.deps.filmsRepository.getByCollectionId(collectionId);
+
+    return films;
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {
@@ -379,6 +382,14 @@ export class FilmsService {
     }
 
     return result;
+  }
+
+  linkCollectionToFilms(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
+    return this.deps.filmsRepository.linkFilmToCollection(input);
+  }
+
+  unlinkCollection(collectionId: number) {
+    return this.deps.filmsRepository.unlinkCollection(collectionId);
   }
 
   private clearStatsCache() {

@@ -16,6 +16,7 @@ import { useCallback } from 'react';
 const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create>>({
   title: '',
   category: 'GENERAL',
+  films: [],
 });
 
 export const Route = createFileRoute('/console/collections')({
@@ -75,7 +76,7 @@ function PageContainer() {
     <List
       data={data}
       getDeleteMutationOptions={getDeleteMutationsOptions}
-      onEdit={onOpen}
+      onEdit={(data) => onOpen({ ...data, films: [] })}
       isFetching={isFetching}
       onCreate={() => onOpen(collectionFormDefaultValues)}
       createItemTitle="New collection"

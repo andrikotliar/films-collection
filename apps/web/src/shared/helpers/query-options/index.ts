@@ -1,12 +1,10 @@
 export * from './get-award-query-options';
 export * from './get-nominations-by-award-query-options';
 export * from './get-awards-base-data-list-query-options';
-export * from './get-chapter-keys-options-query-options';
 export * from './get-collection-events-query-options';
 export * from './get-collections-list-query-options';
 export * from './get-countries-list-query-options';
 export * from './get-film-query-options';
-export * from './get-film-chapters-query-options';
 export * from './get-films-admin-list-query-options';
 export * from './get-films-list-query-options';
 export * from './get-films-search-query-options';
@@ -23,3 +21,4 @@ export * from './get-film-drafts-query-options';
 export * from './get-user-sessions';
 export * from './get-film-trailers-query-options';
 export * from './get-user-data-query-options';
+export * from './get-films-by-collection-query-options';

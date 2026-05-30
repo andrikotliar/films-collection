@@ -19,7 +19,7 @@ export type SelectProps = {
   isDisabled?: boolean;
   placeholder?: string;
   isOptionsLoading?: boolean;
-  onSelect: (value: any) => void;
+  onSelect: (value: any, option?: ListOption) => void;
   onOptionsSearch?: (value: string | null) => void;
   onCreateOption?: (value: string) => Promise<ListOption<any>>;
   onClear?: VoidFunction;
@@ -103,19 +103,19 @@ export const Select = ({
       handleFinishSelection(append ? option : undefined);
 
       if (!isMulti) {
-        onSelect(option.value);
+        onSelect(option.value, option);
         return;
       }
 
       if (isActive) {
         const newValues = selectedValues.filter((v) => v !== option.value);
-        onSelect(newValues);
+        onSelect(newValues, option);
         return;
       }
 
       const newValues = [...selectedValues, option.value];
 
-      onSelect(newValues);
+      onSelect(newValues, option);
     },
     [onSelect, selectedValues, handleFinishSelection],
   );

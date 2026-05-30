@@ -5,6 +5,14 @@ import { getListResponseSchema } from '~/helpers/index.js';
 export const CreateCollectionInputSchema = z.object({
   title: z.string(),
   category: z.enum(CollectionCategory),
+  description: z.string().optional(),
+  films: z.array(
+    z.object({
+      filmId: z.number(),
+      order: z.number().min(0.1, 'Order is required'),
+      title: z.string(),
+    }),
+  ),
 });
 
 export const UpdateCollectionInputSchema = CreateCollectionInputSchema.partial();

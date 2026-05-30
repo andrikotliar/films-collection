@@ -1,6 +1,5 @@
 export * from './auth.schema.js';
 export * from './awards.schema.js';
-export * from './chapter-keys.schema.js';
 export * from './collection-events.schema.js';
 export * from './collections.schema.js';
 export * from './countries.schema.js';
