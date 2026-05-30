@@ -41,8 +41,6 @@ export const films = pgTable(
     budget: bigint({ mode: 'number' }).default(0).notNull(),
     boxOffice: bigint('box_office', { mode: 'number' }).default(0).notNull(),
     rating: integer().default(1).notNull(),
-    chapterKey: text('chapter_key'),
-    chapterOrder: numeric('chapter_order', { mode: 'number' }),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()
@@ -54,13 +52,6 @@ export const films = pgTable(
   },
   (table) => [
     index('films_title_idx').using('btree', table.title.asc().nullsLast().op('text_ops')),
-    foreignKey({
-      columns: [table.chapterKey],
-      foreignColumns: [filmChapterKeys.key],
-      name: 'films_chapter_key_fkey',
-    })
-      .onUpdate('cascade')
-      .onDelete('set null'),
   ],
 );
 
@@ -268,15 +259,6 @@ export const filmAwardNominations = pgTable(
       .onDelete('cascade'),
   ],
 );
-
-export const filmChapterKeys = pgTable('film_chapter_keys', {
-  key: text().primaryKey().notNull(),
-  createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
-  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-    .notNull()
-    .defaultNow()
-    .$onUpdate(() => new Date().toISOString()),
-});
 
 export const filmsCountries = pgTable(
   'films_countries',
