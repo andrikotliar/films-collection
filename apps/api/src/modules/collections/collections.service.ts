@@ -20,6 +20,12 @@ export class CollectionsService {
     return buildListOptions(collections);
   }
 
+  async getAllCollections() {
+    const collections = await this.deps.collectionsRepository.getAll();
+
+    return buildListOptions(collections);
+  }
+
   async getGeneralDataList(queries: CollectionListQueryParams) {
     const { list, total } = await this.deps.collectionsRepository.getList(queries);
 

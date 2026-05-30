@@ -5,7 +5,10 @@ import {
   CollectionsListResponseSchema,
   CollectionResponseSchema,
   CommonListQuerySchema,
+  buildListOptionSchema,
+  CollectionCategory,
 } from '@films-collection/shared';
+import z from 'zod';
 import { defineContracts } from '~/helpers/index.js';
 
 export const collectionsContract = defineContracts('collections', {
@@ -40,6 +43,18 @@ export const collectionsContract = defineContracts('collections', {
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
+    },
+  },
+  getAll: {
+    method: 'GET',
+    url: 'all',
+    schema: {
+      response: buildListOptionSchema(
+        z.number(),
+        z.object({
+          category: z.enum(CollectionCategory),
+        }),
+      ),
     },
   },
 });
