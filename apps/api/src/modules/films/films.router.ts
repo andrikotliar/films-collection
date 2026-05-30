@@ -58,17 +58,6 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
     },
   },
 
-  getRelatedChapters: {
-    preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getRelatedChapters(request.params.key);
-
-      return { data };
-    },
-  },
-
   export: {
     preHandler: [validateGetSignature],
     handler: async ({ request, app }) => {
@@ -200,6 +189,17 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
       await app.container.resolve('filmsService').deleteDraft(request.params.id);
 
       return { data: { id: request.params.id } };
+    },
+  },
+
+  getByCollection: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .getFilmsByCollection(request.params.id);
+
+      return { data };
     },
   },
 });

@@ -163,10 +163,6 @@ export class FilmsService {
     });
   }
 
-  getRelatedChapters(chapterKey: string) {
-    return this.deps.filmsRepository.findChapters(chapterKey);
-  }
-
   async getEditableFilm(id: number) {
     const film = await throwIfNotFound(this.deps.filmsRepository.getEditableFilm(id));
 
@@ -186,6 +182,15 @@ export class FilmsService {
     }
 
     return await this.getFilmDetails(filmId, 'admin');
+  }
+
+  async getFilmsByCollection(collectionId: number) {
+    const films = await this.deps.filmsRepository.getByCollectionId(collectionId);
+
+    return films.map(({ collections, ...film }) => ({
+      ...film,
+      order: collections[0].order,
+    }));
   }
 
   private async populateAdditionalData(query: GetFilmsListQuery) {

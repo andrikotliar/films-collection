@@ -1,14 +1,12 @@
 import {
   IdParamSchema,
   GetFilmOptionsQuerySchema,
-  GetFilmRelatedChaptersSchema,
   GetFilmsListQuerySchema,
   SearchFilmsQuerySchema,
   buildListOptionSchema,
   FilmsListResponseSchema,
   FilmsSearchResponseSchema,
   FilmsAdminListResponseSchema,
-  FilmChaptersResponseSchema,
   FilmResponseSchema,
   CreateFilmInputSchema,
   UpdateFilmInputSchema,
@@ -23,6 +21,7 @@ import {
   GetAdminListQuerySchema,
   GetFilmStatsQuerySchema,
   FilmStatsResponseSchema,
+  FilmsByCollectionResponseSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
 import { defineContracts } from '~/helpers/index.js';
@@ -74,14 +73,6 @@ export const filmsContract = defineContracts('films', {
     schema: {
       params: IdParamSchema,
       response: CreateFilmInputSchema,
-    },
-  },
-  getRelatedChapters: {
-    method: 'GET',
-    url: 'chapters/:key',
-    schema: {
-      params: GetFilmRelatedChaptersSchema,
-      response: FilmChaptersResponseSchema,
     },
   },
   export: {
@@ -173,6 +164,14 @@ export const filmsContract = defineContracts('films', {
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
+    },
+  },
+  getByCollection: {
+    method: 'GET',
+    url: 'collection/:id',
+    schema: {
+      params: IdParamSchema,
+      response: FilmsByCollectionResponseSchema,
     },
   },
 });

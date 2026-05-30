@@ -22,7 +22,7 @@ import type {
 } from '~/modules/films/types.js';
 import { nullable } from '~/shared/index.js';
 
-type ExtendedFilm = Omit<Film, 'style' | 'draft' | Timestamps> & {
+type ExtendedFilm = Omit<Film, 'style' | 'draft' | 'chapterKey' | 'chapterOrder' | Timestamps> & {
   genres: Array<{ genre: PickBaseData<Genre> }>;
   studios: Array<{ studio: PickBaseData<Studio> }>;
   countries: Array<{ country: PickBaseData<Country> }>;

@@ -7,7 +7,6 @@ import {
   awards,
   countries,
   filmAwardNominations,
-  filmChapterKeys,
   films,
   filmsCountries,
   filmsGenres,
@@ -186,13 +185,6 @@ const run = async () => {
         awards,
         ...filmDetails
       } = film;
-
-      if (filmDetails.chapterKey) {
-        await tr
-          .insert(filmChapterKeys)
-          .values({ key: filmDetails.chapterKey })
-          .onConflictDoNothing();
-      }
 
       const [createdFilm] = await tr
         .insert(films)

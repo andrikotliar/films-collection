@@ -106,10 +106,6 @@ export const GetFilmOptionsQuerySchema = z.object({
   selected: getArrayFromQuery(z.coerce.number()).optional(),
 });
 
-export const GetFilmRelatedChaptersSchema = z.object({
-  key: z.string(),
-});
-
 const TrailerSchema = z.object({
   id: z.coerce.number(),
   filmId: z.coerce.number(),
@@ -119,15 +115,10 @@ const TrailerSchema = z.object({
   updatedAt: z.string(),
 });
 
-const ChapterSchema = z.object({
+export const FilmResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
   poster: z.string().nullable(),
-  chapterOrder: z.coerce.number().nullable(),
-});
-
-export const FilmResponseSchema = z.object({
-  ...ChapterSchema.shape,
   type: z.enum(TitleType),
   duration: z.coerce.number(),
   synopsis: z.string().nullable(),
@@ -135,7 +126,6 @@ export const FilmResponseSchema = z.object({
   releaseDate: z.string().nullable(),
   budget: z.coerce.number().nullable(),
   boxOffice: z.coerce.number().nullable(),
-  chapterKey: z.string().nullable(),
   genres: z.array(GenreResponseSchema.omit({ createdAt: true, updatedAt: true })),
   studios: z.array(StudioResponseSchema.omit({ createdAt: true, updatedAt: true })),
   countries: z.array(CountryResponseSchema.omit({ createdAt: true, updatedAt: true })),
@@ -223,10 +213,6 @@ export const FilmsAdminListResponseSchema = z.object({
   total: z.coerce.number(),
 });
 
-export const FilmChaptersResponseSchema = z.array(
-  FilmResponseSchema.pick({ id: true, title: true, poster: true, chapterOrder: true }),
-);
-
 export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
   .omit({
     seriesExtension: true,
@@ -250,8 +236,6 @@ export const CompleteDataListItemSchema = z.object({
     budget: true,
     boxOffice: true,
     synopsis: true,
-    chapterKey: true,
-    chapterOrder: true,
     poster: true,
   }).shape,
   genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
@@ -350,11 +334,14 @@ export const FilmStatsResponseSchema = z.object({
   types: z.array(StatsSchema),
 });
 
+export const FilmsByCollectionResponseSchema = z.array(
+  FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ order: z.number() }),
+);
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
 export type GetCompleteDataListQuery = z.infer<typeof GetCompleteDataListQuerySchema>;
-export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
 export type CompleteDataListItem = z.infer<typeof CompleteDataListItemSchema>;

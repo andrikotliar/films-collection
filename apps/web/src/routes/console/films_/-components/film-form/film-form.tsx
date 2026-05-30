@@ -15,13 +15,13 @@ import {
 import {
   AwardsSelect,
   CastAndCrewSelect,
-  ChaptersSelect,
   Drafts,
   FilmValuesWatcher,
   MoneyInput,
   SeriesExtension,
   TrailersSelect,
   DescriptionEditor,
+  CollectionsSelect,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
@@ -220,13 +220,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
           isMulti
         />
-        <Form.Select
-          label="Collections"
-          name="collections"
-          options={initialOptions.options.collections}
-          onCreateOption={(value) => createNewEntity({ value, type: 'collections' })}
-          isMulti
-        />
+        <CollectionsSelect options={initialOptions.options.collections} />
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <Form.DatePicker name="releaseDate" label="Release Date" />
         <MoneyInput name="budget" label="Budget" />
@@ -234,8 +228,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <DescriptionEditor />
         <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
-
-        <ChaptersSelect />
         <Form.Checkbox name="draft" label="Draft" type="checkbox" />
       </Panel>
       <FilmValuesWatcher

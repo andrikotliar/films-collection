@@ -7,7 +7,10 @@ type PropertyWithTitleAndId = {
   title: string;
 };
 
-type CompleteDataFilm = Omit<Film, 'rating' | 'draft' | Timestamps> & {
+type CompleteDataFilm = Omit<
+  Film,
+  'rating' | 'draft' | 'chapterKey' | 'chapterOrder' | Timestamps
+> & {
   genres: Array<{ genre: PropertyWithTitleAndId }>;
   studios: Array<{ studio: PropertyWithTitleAndId }>;
   countries: Array<{ country: PropertyWithTitleAndId }>;

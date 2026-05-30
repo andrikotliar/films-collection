@@ -125,9 +125,7 @@ export class FilmsRepository {
         budget: true,
         boxOffice: true,
         rating: true,
-        chapterKey: true,
         type: true,
-        chapterOrder: true,
         synopsis: true,
       },
       with: {
@@ -236,8 +234,6 @@ export class FilmsRepository {
         boxOffice: true,
         duration: true,
         releaseDate: true,
-        chapterKey: true,
-        chapterOrder: true,
       },
       with: {
         genres: {
@@ -315,19 +311,6 @@ export class FilmsRepository {
       ),
       limit: PAGE_LIMITS.default,
     });
-  }
-
-  findChapters(chapterKey: string) {
-    return this.deps.db
-      .select({
-        id: films.id,
-        poster: films.poster,
-        title: films.title,
-        chapterOrder: films.chapterOrder,
-      })
-      .from(films)
-      .where(and(isNull(films.deletedAt), eq(films.chapterKey, chapterKey)))
-      .orderBy(asc(films.chapterOrder));
   }
 
   async getFilmsListByQuery({ q, selected }: GetFilmOptionsQuery) {
@@ -454,8 +437,6 @@ export class FilmsRepository {
         budget: true,
         boxOffice: true,
         synopsis: true,
-        chapterKey: true,
-        chapterOrder: true,
         draft: true,
       },
       with: {
@@ -663,8 +644,6 @@ export class FilmsRepository {
         boxOffice: true,
         type: true,
         style: true,
-        chapterKey: true,
-        chapterOrder: true,
         poster: true,
       },
       with: {
@@ -856,6 +835,24 @@ export class FilmsRepository {
       .select({ url: filmTrailers.url })
       .from(filmTrailers)
       .where(and(eq(filmTrailers.filmId, id)));
+  }
+
+  getByCollectionId(collectionId: number) {
+    return this.deps.db.query.films.findMany({
+      columns: {
+        id: true,
+        title: true,
+        poster: true,
+      },
+      with: {
+        collections: {
+          columns: {
+            order: true,
+          },
+          where: eq(filmsCollections.collectionId, collectionId),
+        },
+      },
+    });
   }
 
   async getAnniversaries() {
