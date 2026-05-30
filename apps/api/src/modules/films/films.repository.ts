@@ -724,6 +724,20 @@ export class FilmsRepository {
             order: true,
           },
         },
+        collections: {
+          columns: {
+            order: true,
+          },
+          with: {
+            collection: {
+              columns: {
+                title: true,
+                id: true,
+                category: true,
+              },
+            },
+          },
+        },
       },
     });
   }

@@ -2,7 +2,7 @@ import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/sh
 
 import {
   PAGE_LIMITS,
-  type CommonListQueryParams,
+  type CollectionListQueryParams,
   type CreateCollectionInput,
   type UpdateCollectionInput,
 } from '@films-collection/shared';
@@ -20,10 +20,14 @@ export class CollectionsService {
     return buildListOptions(collections);
   }
 
-  async getGeneralDataList(queries: CommonListQueryParams) {
+  async getGeneralDataList(queries: CollectionListQueryParams) {
     const { list, total } = await this.deps.collectionsRepository.getList(queries);
 
     return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
+  }
+
+  getChapterRelatedCollections() {
+    return this.deps.collectionsRepository.getChapterRelatedCollections();
   }
 
   async createCollection(input: CreateCollectionInput) {
