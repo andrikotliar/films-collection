@@ -16,6 +16,10 @@
   font-family: 'Roboto-Condensed', sans-serif;
 }
 
+.chapter_link {
+  background-image: linear-gradient(45deg, var(--color-gray-light-dark), var(--color-white));
+}
+
 .hash {
   font-size: var(--text-xl);
 }
