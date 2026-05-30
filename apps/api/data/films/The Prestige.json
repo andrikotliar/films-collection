@@ -1,0 +1,111 @@
+{
+  "id": 377,
+  "title": "The Prestige",
+  "releaseDate": "2006-10-20",
+  "type": "FILM",
+  "duration": 120,
+  "budget": 40000000,
+  "boxOffice": 109000000,
+  "synopsis": null,
+  "poster": "posters/the_prestige",
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Steampunk",
+      "id": 23
+    },
+    {
+      "title": "Mystery",
+      "id": 21
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Touchstone Pictures",
+      "id": 92
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=RLtaA9fFNXU&pp=ygUQcHJlc3RpZ2UgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 352
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1378,
+      "name": "Christopher Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1713,
+      "name": "Jonathan Nolan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 453,
+      "name": "Hugh Jackman",
+      "role": "ACTOR",
+      "details": "Robert Angier"
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "Alfred Borden"
+    },
+    {
+      "id": 821,
+      "name": "Michael Caine",
+      "role": "ACTOR",
+      "details": "Cutter"
+    },
+    {
+      "id": 2748,
+      "name": "Piper Perabo",
+      "role": "ACTOR",
+      "details": "Julia McCullough"
+    },
+    {
+      "id": 955,
+      "name": "Rebecca Hall",
+      "role": "ACTOR",
+      "details": "Sarah"
+    },
+    {
+      "id": 1042,
+      "name": "Scarlett Johansson",
+      "role": "ACTOR",
+      "details": "Olivia Wenscombe"
+    }
+  ],
+  "collections": []
+}
