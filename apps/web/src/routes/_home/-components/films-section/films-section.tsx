@@ -44,7 +44,7 @@ export const FilmsSection = () => {
         anniversaryPoster={data.anniversaryPoster}
       />
       <AdditionalInfoSection info={data.additionalInfo} />
-      <FilmsGrid films={data.list} />
+      <FilmsGrid films={data.list} isCollection={!!searchParams.collectionId} />
       <div className={styles.pagination_wrapper}>
         <Pagination
           total={data.total}

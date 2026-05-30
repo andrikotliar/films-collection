@@ -17,6 +17,7 @@ type Film = ApiResponse<typeof api.films.getList>['list'][number];
 
 type FilmsGridProps = {
   films: ApiResponse<typeof api.films.getList>['list'];
+  isCollection: boolean;
 };
 
 const getYearValue = (film: Film) => {
@@ -31,7 +32,7 @@ const getYearValue = (film: Film) => {
   return getYearFromDate(film.releaseDate);
 };
 
-export const FilmsGrid = ({ films }: FilmsGridProps) => {
+export const FilmsGrid = ({ films, isCollection }: FilmsGridProps) => {
   const [selectedFilmId, setSelectedFilmId] = useState<number | null>(null);
   if (!films.length) {
     return <FilmsNotFound />;
@@ -39,7 +40,7 @@ export const FilmsGrid = ({ films }: FilmsGridProps) => {
 
   return (
     <div className={styles.grid}>
-      {films.map((film) => (
+      {films.map((film, index) => (
         <Link
           className={styles.film_link}
           to="/films/$id"
@@ -48,6 +49,7 @@ export const FilmsGrid = ({ films }: FilmsGridProps) => {
           disabled={film.upcoming}
         >
           <div className={styles.cover}>
+            {isCollection && <div className={styles.counter}>{index + 1}</div>}
             {film.upcoming && <div className={styles.upcoming}>Upcoming</div>}
             <Image src={getExternalImageUrl(film.poster)} alt={film.title} />
             {film.upcoming && (

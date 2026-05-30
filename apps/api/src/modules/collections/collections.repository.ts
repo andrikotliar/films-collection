@@ -1,11 +1,12 @@
 import {
+  CollectionCategory,
   getSkipValue,
   PAGE_LIMITS,
-  type CommonListQueryParams,
+  type CollectionListQueryParams,
   type CreateCollectionInput,
   type UpdateCollectionInput,
 } from '@films-collection/shared';
-import { and, asc, count, eq, type SQL } from 'drizzle-orm';
+import { and, asc, count, eq, ne, inArray, type SQL } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema.js';
 import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 
@@ -27,7 +28,19 @@ export class CollectionsRepository {
       .orderBy(asc(collections.title));
   }
 
-  async getList(queries: CommonListQueryParams) {
+  getCollectionOptions() {
+    return this.deps.db
+      .select({
+        id: collections.id,
+        title: collections.title,
+        category: collections.category,
+      })
+      .from(collections)
+      .where(ne(collections.category, 'CHAPTER'))
+      .orderBy(asc(collections.title));
+  }
+
+  async getList(queries: CollectionListQueryParams) {
     const filters = mapCommonFilters(queries, collections);
     const list = await this.deps.db
       .select({
@@ -44,6 +57,24 @@ export class CollectionsRepository {
     const total = await this.count(filters);
 
     return { list, total };
+  }
+
+  getChapterRelatedCollections() {
+    return this.deps.db
+      .select({
+        id: collections.id,
+        title: collections.title,
+        category: collections.category,
+        updatedAt: collections.updatedAt,
+      })
+      .from(collections)
+      .where(
+        inArray(collections.category, [
+          CollectionCategory.CHAPTER,
+          CollectionCategory.CINEMATIC_UNIVERSE,
+        ]),
+      )
+      .orderBy(asc(collections.title));
   }
 
   count(filters?: SQL[]) {

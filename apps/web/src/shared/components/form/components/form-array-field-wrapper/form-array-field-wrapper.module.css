@@ -5,7 +5,7 @@
   padding: 15px;
   border: var(--border-default);
   border-radius: var(--rounded-default);
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .inputs {
@@ -13,4 +13,5 @@
   flex-direction: column;
   gap: 15px;
   flex-grow: 1;
+  overflow: auto;
 }

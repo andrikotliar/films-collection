@@ -5,5 +5,6 @@ export const getFilmQueryOptions = (filmId: number) => {
   return queryOptions({
     queryKey: [queryKey('films.getById'), filmId],
     queryFn: () => api.films.getById({ params: { id: filmId } }),
+    staleTime: Infinity,
   });
 };

@@ -1,11 +1,6 @@
 import { authRouter, AuthService } from '~/modules/auth/index.js';
 import { AwardsRepository, awardsRouter, AwardsService } from '~/modules/awards/index.js';
 import {
-  ChapterKeysRepository,
-  chapterKeysRouter,
-  ChapterKeysService,
-} from '~/modules/chapter-keys/index.js';
-import {
   CollectionEventsRepository,
   collectionEventsRouter,
   CollectionEventsService,
@@ -41,8 +36,6 @@ export const services = {
   authService: AuthService,
   awardsRepository: AwardsRepository,
   awardsService: AwardsService,
-  chapterKeysRepository: ChapterKeysRepository,
-  chapterKeysService: ChapterKeysService,
   collectionEventsRepository: CollectionEventsRepository,
   collectionEventsService: CollectionEventsService,
   collectionsRepository: CollectionsRepository,
@@ -71,7 +64,6 @@ export const services = {
 export const routers: Router[] = [
   authRouter,
   awardsRouter,
-  chapterKeysRouter,
   collectionEventsRouter,
   collectionsRouter,
   countriesRouter,

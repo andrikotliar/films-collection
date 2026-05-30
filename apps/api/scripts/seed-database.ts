@@ -5,10 +5,11 @@ import type { CompleteDataResponse, CompleteDataListItem } from '@films-collecti
 import { database } from '~/plugins/database.plugin.js';
 import {
   awards,
+  collections,
   countries,
   filmAwardNominations,
-  filmChapterKeys,
   films,
+  filmsCollections,
   filmsCountries,
   filmsGenres,
   filmsPeople,
@@ -86,6 +87,7 @@ const getBaseData = async (): Promise<CompleteDataResponse['baseData']> => {
     studios: [],
     awards: [],
     people: [],
+    collections: [],
   };
 
   for (const item of filteredData) {
@@ -130,6 +132,10 @@ const getBaseDataConfig = (baseData: CompleteDataResponse['baseData']) => {
     {
       data: baseData.people,
       table: people,
+    },
+    {
+      data: baseData.collections,
+      table: collections,
     },
   ];
 };
@@ -184,15 +190,9 @@ const run = async () => {
         trailers,
         castAndCrew,
         awards,
+        collections,
         ...filmDetails
       } = film;
-
-      if (filmDetails.chapterKey) {
-        await tr
-          .insert(filmChapterKeys)
-          .values({ key: filmDetails.chapterKey })
-          .onConflictDoNothing();
-      }
 
       const [createdFilm] = await tr
         .insert(films)
@@ -261,6 +261,16 @@ const run = async () => {
         }
       }
 
+      if (collections.length) {
+        await tr.insert(filmsCollections).values(
+          collections.map((collection) => ({
+            filmId,
+            collectionId: collection.id,
+            order: collection.order,
+          })),
+        );
+      }
+
       if (castAndCrew) {
         for (const person of castAndCrew) {
           await tr.insert(filmsPeople).values({
@@ -279,6 +289,7 @@ const run = async () => {
     await getMaxIdAndRestartAutoIncrement(tr, countries, 'countries');
     await getMaxIdAndRestartAutoIncrement(tr, studios, 'studios');
     await getMaxIdAndRestartAutoIncrement(tr, people, 'people');
+    await getMaxIdAndRestartAutoIncrement(tr, collections, 'collections');
     await getMaxIdAndRestartAutoIncrement(tr, films, 'films');
   });
 

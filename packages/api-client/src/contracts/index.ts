@@ -1,6 +1,5 @@
 import { authContract } from './auth.contract.js';
 import { awardsContract } from './awards.contract.js';
-import { chapterKeysContract } from './chapter-keys.contract.js';
 import { collectionEventsContract } from './collection-events.contract.js';
 import { collectionsContract } from './collections.contract.js';
 import { countriesContract } from './countries.contract.js';
@@ -16,7 +15,6 @@ import { usersContracts } from './users.contract.js';
 export const contracts = {
   authContract,
   awardsContract,
-  chapterKeysContract,
   collectionEventsContract,
   collectionsContract,
   countriesContract,

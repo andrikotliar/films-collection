@@ -28,17 +28,19 @@ export const CreateFilmInputSchema = z.object({
   genres: z.array(z.number()),
   studios: z.array(z.number()),
   countries: z.array(z.number()),
-  collections: z.array(z.number()),
+  collections: z.array(
+    z.object({
+      collectionId: z.number(),
+      order: z.number().min(0.1, {
+        error: 'Order is required for the collection',
+      }),
+    }),
+  ),
   duration: z.coerce.number(),
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
   synopsis: z.string().nullable(),
-  chapterKey: z
-    .string()
-    .regex(/^[a-z-]+$/)
-    .nullable(),
-  chapterOrder: z.coerce.number().nullable(),
   castAndCrew: z.array(
     z.object({
       personId: z.coerce.number().min(1, 'Person cannot be empty'),
@@ -106,10 +108,6 @@ export const GetFilmOptionsQuerySchema = z.object({
   selected: getArrayFromQuery(z.coerce.number()).optional(),
 });
 
-export const GetFilmRelatedChaptersSchema = z.object({
-  key: z.string(),
-});
-
 const TrailerSchema = z.object({
   id: z.coerce.number(),
   filmId: z.coerce.number(),
@@ -119,15 +117,10 @@ const TrailerSchema = z.object({
   updatedAt: z.string(),
 });
 
-const ChapterSchema = z.object({
+export const FilmResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
   poster: z.string().nullable(),
-  chapterOrder: z.coerce.number().nullable(),
-});
-
-export const FilmResponseSchema = z.object({
-  ...ChapterSchema.shape,
   type: z.enum(TitleType),
   duration: z.coerce.number(),
   synopsis: z.string().nullable(),
@@ -135,11 +128,10 @@ export const FilmResponseSchema = z.object({
   releaseDate: z.string().nullable(),
   budget: z.coerce.number().nullable(),
   boxOffice: z.coerce.number().nullable(),
-  chapterKey: z.string().nullable(),
   genres: z.array(GenreResponseSchema.omit({ createdAt: true, updatedAt: true })),
   studios: z.array(StudioResponseSchema.omit({ createdAt: true, updatedAt: true })),
   countries: z.array(CountryResponseSchema.omit({ createdAt: true, updatedAt: true })),
-  collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
+  collections: z.array(CollectionResponseSchema.pick({ id: true, title: true, category: true })),
   trailers: z.array(TrailerSchema),
   awards: z.array(
     z.object({
@@ -223,10 +215,6 @@ export const FilmsAdminListResponseSchema = z.object({
   total: z.coerce.number(),
 });
 
-export const FilmChaptersResponseSchema = z.array(
-  FilmResponseSchema.pick({ id: true, title: true, poster: true, chapterOrder: true }),
-);
-
 export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
   .omit({
     seriesExtension: true,
@@ -250,8 +238,6 @@ export const CompleteDataListItemSchema = z.object({
     budget: true,
     boxOffice: true,
     synopsis: true,
-    chapterKey: true,
-    chapterOrder: true,
     poster: true,
   }).shape,
   genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
@@ -274,6 +260,13 @@ export const CompleteDataListItemSchema = z.object({
       details: z.string().nullable(),
     }),
   ),
+  collections: z.array(
+    z.object({
+      id: z.number(),
+      title: z.string(),
+      order: z.number(),
+    }),
+  ),
   seriesExtension: z
     .object({
       id: z.number(),
@@ -291,6 +284,7 @@ export const CompleteDataResponseSchema = z.object({
     countries: z.array(CountryResponseSchema.pick({ title: true, id: true })),
     studios: z.array(StudioResponseSchema.pick({ title: true, id: true })),
     people: z.array(PersonResponseSchema.pick({ name: true, id: true })),
+    collections: z.array(CollectionResponseSchema.pick({ title: true, id: true, category: true })),
     awards: z.array(
       z.object({
         ...AwardResponseSchema.pick({ id: true, title: true }).shape,
@@ -350,11 +344,14 @@ export const FilmStatsResponseSchema = z.object({
   types: z.array(StatsSchema),
 });
 
+export const FilmsByCollectionResponseSchema = z.array(
+  FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ order: z.number() }),
+);
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
 export type GetCompleteDataListQuery = z.infer<typeof GetCompleteDataListQuerySchema>;
-export type GetFilmRelatedChapters = z.infer<typeof GetFilmRelatedChaptersSchema>;
 export type CreateFilmInput = z.infer<typeof CreateFilmInputSchema>;
 export type UpdateFilmInput = z.infer<typeof UpdateFilmInputSchema>;
 export type CompleteDataListItem = z.infer<typeof CompleteDataListItemSchema>;
