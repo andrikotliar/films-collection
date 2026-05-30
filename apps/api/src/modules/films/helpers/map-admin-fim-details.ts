@@ -12,7 +12,7 @@ import type {
 } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';
 
-type EditableFilm = Omit<Film, Timestamps | 'chapterKey' | 'chapterOrder' | 'id'> & {
+type EditableFilm = Omit<Film, Timestamps | 'id'> & {
   collections: Pick<FilmCollection, 'collectionId' | 'order'>[];
   genres: Pick<FilmGenre, 'genreId'>[];
   countries: Pick<FilmCountry, 'countryId'>[];
