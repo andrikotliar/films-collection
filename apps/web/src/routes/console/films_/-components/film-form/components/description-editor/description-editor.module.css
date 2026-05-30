@@ -38,6 +38,12 @@
   animation: loading 0.6s ease-in-out alternate 0.3s infinite;
 }
 
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 @keyframes loading {
   0% {
     opacity: 0;
