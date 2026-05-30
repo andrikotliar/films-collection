@@ -76,6 +76,21 @@
   fill: var(--color-white);
 }
 
+.counter {
+  font-size: var(--text-sm);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+}
+
 @media (max-width: 1920px) {
   .grid {
     --cols: 8;
