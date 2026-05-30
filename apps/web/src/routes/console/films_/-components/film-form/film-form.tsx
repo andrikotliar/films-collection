@@ -34,7 +34,7 @@ type FilmFormProps = {
 
 type CreateNewEntityInput = {
   value: string;
-  type: 'genres' | 'countries' | 'studios' | 'collections';
+  type: 'genres' | 'countries' | 'studios';
 };
 
 export const FilmForm = ({ values }: FilmFormProps) => {
@@ -126,18 +126,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   const { mutateAsync: createNewEntity } = useMutation({
     mutationFn: async ({ value, type }: CreateNewEntityInput) => {
       switch (type) {
-        case 'collections': {
-          const result = await api.collections.create({
-            input: {
-              title: value,
-              category: 'GENERAL',
-            },
-          });
-          return {
-            value: result.id,
-            label: result.title,
-          };
-        }
         case 'genres': {
           const result = await api.genres.create({ input: { title: value } });
           return {

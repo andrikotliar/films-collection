@@ -74,6 +74,7 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
         input: {
           title,
           category,
+          films: [],
         },
       });
 
