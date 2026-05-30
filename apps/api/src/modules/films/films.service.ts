@@ -18,8 +18,9 @@ import {
   type GetFilmStatsQueryParams,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
-import type { Film } from '~/database/schema.js';
+import type { Film, FilmCollection } from '~/database/schema.js';
 import { InMemoryCacheService } from '~/modules/cache/cache.service.js';
+import type { Timestamps } from '~/modules/films/types.js';
 
 type GenericOption = {
   id: number;
@@ -381,6 +382,14 @@ export class FilmsService {
     }
 
     return result;
+  }
+
+  linkCollectionToFilms(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
+    return this.deps.filmsRepository.linkFilmToCollection(input);
+  }
+
+  unlinkCollection(collectionId: number) {
+    return this.deps.filmsRepository.unlinkCollection(collectionId);
   }
 
   private clearStatsCache() {

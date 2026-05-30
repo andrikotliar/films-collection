@@ -44,6 +44,7 @@ import {
   filmTrailers,
   genres,
   seriesExtensions,
+  type FilmCollection,
 } from '~/database/schema.js';
 import type {
   PgColumn,
@@ -51,6 +52,7 @@ import type {
   PgTableWithColumns,
   PgTransaction,
 } from 'drizzle-orm/pg-core';
+import type { Timestamps } from '~/modules/films/types.js';
 
 type AnyTable = {
   name: string;
@@ -872,6 +874,16 @@ export class FilmsRepository {
 
   private getPublicFilmsFilter(additionalFilters: SQL[] = []) {
     return and(isNull(films.deletedAt), eq(films.draft, false), ...additionalFilters);
+  }
+
+  linkFilmToCollection(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
+    return this.deps.db.insert(filmsCollections).values(input);
+  }
+
+  unlinkCollection(collectionId: number) {
+    return this.deps.db
+      .delete(filmsCollections)
+      .where(eq(filmsCollections.collectionId, collectionId));
   }
 
   private mapSorting(
