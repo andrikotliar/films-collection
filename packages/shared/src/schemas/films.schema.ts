@@ -260,6 +260,13 @@ export const CompleteDataListItemSchema = z.object({
       details: z.string().nullable(),
     }),
   ),
+  collections: z.array(
+    z.object({
+      id: z.number(),
+      title: z.string(),
+      order: z.number(),
+    }),
+  ),
   seriesExtension: z
     .object({
       id: z.number(),
@@ -277,6 +284,7 @@ export const CompleteDataResponseSchema = z.object({
     countries: z.array(CountryResponseSchema.pick({ title: true, id: true })),
     studios: z.array(StudioResponseSchema.pick({ title: true, id: true })),
     people: z.array(PersonResponseSchema.pick({ name: true, id: true })),
+    collections: z.array(CollectionResponseSchema.pick({ title: true, id: true, category: true })),
     awards: z.array(
       z.object({
         ...AwardResponseSchema.pick({ id: true, title: true }).shape,
