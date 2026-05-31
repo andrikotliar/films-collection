@@ -4,6 +4,7 @@ import {
   api,
   convertImageToWebp,
   Form,
+  getAllCollectionOptionsQueryOptions,
   getInitialDataQueryOptions,
   getObjectsDiff,
   isNewItem,
@@ -39,6 +40,7 @@ type CreateNewEntityInput = {
 
 export const FilmForm = ({ values }: FilmFormProps) => {
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
+  const { data: collectionOptions } = useSuspenseQuery(getAllCollectionOptionsQueryOptions());
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
   const { getSearchValue } = useSearchContext();
@@ -208,7 +210,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
           isMulti
         />
-        <CollectionsSelect options={initialOptions.options.collections} />
+        <CollectionsSelect options={collectionOptions} />
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <Form.DatePicker name="releaseDate" label="Release Date" />
         <MoneyInput name="budget" label="Budget" />

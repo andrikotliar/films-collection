@@ -6,6 +6,7 @@ import {
   getAdminFilmDetailsQueryOptions,
   getMixedId,
   getFilmDraftsQueryOptions,
+  getAllCollectionOptionsQueryOptions,
 } from '~/shared';
 import { filmDefaultFormValues } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
@@ -22,6 +23,7 @@ export const Route = createFileRoute('/console/films_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
     await queryClient.ensureQueryData(getInitialDataQueryOptions());
     await queryClient.ensureQueryData(getFilmDraftsQueryOptions(params.id));
+    await queryClient.ensureQueryData(getAllCollectionOptionsQueryOptions());
 
     if (!isNewItem(params.id)) {
       return await queryClient.ensureQueryData(getAdminFilmDetailsQueryOptions(Number(params.id)));

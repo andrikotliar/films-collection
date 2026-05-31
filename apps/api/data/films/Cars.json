@@ -1,0 +1,162 @@
+{
+  "id": 376,
+  "title": "Cars",
+  "releaseDate": "2006-06-09",
+  "type": "FILM",
+  "duration": 116,
+  "budget": 120000000,
+  "boxOffice": 462000000,
+  "synopsis": "",
+  "poster": "posters/cars",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=W_H7_tDHFE8&pp=ygUMY2FycyB0cmFpbGVy",
+      "order": 1,
+      "id": 351
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 81
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 126
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Best Music in an Animated Feature Production",
+          "id": 227
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2741,
+      "name": "John Lasseter",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1257,
+      "name": "Joe Ranft",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2742,
+      "name": "Dan Fogelman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2741,
+      "name": "John Lasseter",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1257,
+      "name": "Joe Ranft",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2743,
+      "name": "Kiel Murray",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2744,
+      "name": "Phil Lorin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2745,
+      "name": "Jorgen Klubien",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 897,
+      "name": "Owen Wilson",
+      "role": "ACTOR",
+      "details": "Lightning McQueen"
+    },
+    {
+      "id": 2746,
+      "name": "Paul Newman",
+      "role": "ACTOR",
+      "details": "Doc Hudson"
+    },
+    {
+      "id": 136,
+      "name": "Bonnie Hunt",
+      "role": "ACTOR",
+      "details": "Sally Carrera"
+    },
+    {
+      "id": 2747,
+      "name": "Larry the Cable Guy",
+      "role": "ACTOR",
+      "details": "Mater"
+    }
+  ],
+  "collections": []
+}

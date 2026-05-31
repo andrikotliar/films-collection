@@ -41,4 +41,13 @@ export const collectionsRouter = createRouter(contracts.collectionsContract, {
       return { data: { id: request.params.id } };
     },
   },
+
+  getAll: {
+    preHandler: [validateAuth],
+    handler: async ({ app }) => {
+      const data = await app.container.resolve('collectionsService').getAllCollections();
+
+      return { data };
+    },
+  },
 });

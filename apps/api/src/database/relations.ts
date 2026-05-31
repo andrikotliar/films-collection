@@ -1,6 +1,5 @@
 import { relations } from 'drizzle-orm/relations';
 import {
-  filmChapterKeys,
   films,
   collectionEvents,
   collections,
@@ -22,11 +21,7 @@ import {
   usersSessions,
 } from './schema.js';
 
-export const filmsRelations = relations(films, ({ one, many }) => ({
-  chapterKey: one(filmChapterKeys, {
-    fields: [films.chapterKey],
-    references: [filmChapterKeys.key],
-  }),
+export const filmsRelations = relations(films, ({ many }) => ({
   collectionEvents: many(collectionEvents),
   collections: many(filmsCollections),
   trailers: many(filmTrailers),
@@ -36,10 +31,6 @@ export const filmsRelations = relations(films, ({ one, many }) => ({
   studios: many(filmsStudios),
   seriesExtensions: many(seriesExtensions),
   castAndCrew: many(filmsPeople),
-}));
-
-export const filmChapterKeysRelations = relations(filmChapterKeys, ({ many }) => ({
-  films: many(films),
 }));
 
 export const collectionEventsRelations = relations(collectionEvents, ({ one }) => ({

@@ -1,0 +1,125 @@
+{
+  "id": 375,
+  "title": "Bird Box Barcelona",
+  "releaseDate": "2023-07-14",
+  "type": "FILM",
+  "duration": 112,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": null,
+  "poster": "posters/bird_box_barcelona",
+  "genres": [
+    {
+      "title": "Horror",
+      "id": 10
+    },
+    {
+      "title": "Mystery",
+      "id": 21
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "Spain",
+      "id": 13
+    },
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=zdDN_mflfSY",
+      "order": 1,
+      "id": 350
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2734,
+      "name": "Alex Pastor",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2735,
+      "name": "David Pastor",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2734,
+      "name": "Alex Pastor",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2735,
+      "name": "David Pastor",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2736,
+      "name": "Mario Casas",
+      "role": "ACTOR",
+      "details": " Sebastian"
+    },
+    {
+      "id": 2737,
+      "name": "Georgina Campbell",
+      "role": "ACTOR",
+      "details": " Claire"
+    },
+    {
+      "id": 2738,
+      "name": "Zeltia Montes",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2739,
+      "name": "Daniel Aranyo",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 1463,
+      "name": "Chris Morgan",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2740,
+      "name": "Nuria Valls",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1870,
+      "name": "Dylan Clark",
+      "role": "PRODUCER",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 93,
+      "title": "The Bird Box",
+      "order": 1
+    }
+  ]
+}
