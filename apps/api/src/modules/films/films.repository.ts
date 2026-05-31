@@ -165,7 +165,6 @@ export class FilmsRepository {
           columns: {
             seasonsTotal: true,
             episodesTotal: true,
-            finishedAt: true,
           },
         },
         castAndCrew: {
@@ -714,7 +713,6 @@ export class FilmsRepository {
             id: true,
             episodesTotal: true,
             seasonsTotal: true,
-            finishedAt: true,
           },
         },
         trailers: {

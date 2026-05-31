@@ -37,7 +37,7 @@ type ExtendedFilm = Omit<Film, 'style' | 'draft' | Timestamps> & {
     nomination: Pick<Nomination, 'id' | 'title'>;
     person: Pick<Person, 'id' | 'name'> | null;
   }>;
-  seriesExtensions: Array<Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal' | 'finishedAt'>>;
+  seriesExtensions: Array<Pick<SeriesExtension, 'seasonsTotal' | 'episodesTotal'>>;
   trailers: FilmTrailer[];
 };
 

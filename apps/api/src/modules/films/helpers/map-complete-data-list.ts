@@ -103,7 +103,6 @@ const mapIndividualFilm = (film: CompleteDataFilm): CompleteDataListItem => {
           id: film.seriesExtensions[0].id,
           seasonsTotal: film.seriesExtensions[0].seasonsTotal,
           episodesTotal: film.seriesExtensions[0].episodesTotal,
-          finishedAt: film.seriesExtensions[0].finishedAt?.split('T')[0] ?? null,
         }
       : undefined,
   };
