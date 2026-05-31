@@ -1,0 +1,1 @@
+ALTER TABLE "series_extensions" DROP COLUMN "finished_at";
