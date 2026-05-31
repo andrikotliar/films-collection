@@ -419,7 +419,6 @@ export const seriesExtensions = pgTable(
     episodesTotal: integer('episodes_total').default(1).notNull(),
     seasonsTotal: integer('seasons_total').default(1).notNull(),
     filmId: integer('film_id').notNull(),
-    finishedAt: date('finished_at'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .notNull()

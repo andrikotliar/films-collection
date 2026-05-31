@@ -3,11 +3,7 @@ import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { Form } from '~/shared';
 
-type SeriesExtensionProps = {
-  shouldShowDateSelector?: boolean;
-};
-
-export const SeriesExtension = ({ shouldShowDateSelector = true }: SeriesExtensionProps) => {
+export const SeriesExtension = () => {
   const { watch } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const titleType = watch('type');
@@ -20,9 +16,6 @@ export const SeriesExtension = ({ shouldShowDateSelector = true }: SeriesExtensi
     <>
       <Form.TextInput type="number" name="seriesExtension.seasonsTotal" label="Seasons total" />
       <Form.TextInput type="number" name="seriesExtension.episodesTotal" label="Episodes total" />
-      {shouldShowDateSelector && (
-        <Form.DatePicker name="seriesExtension.finishedAt" label="Series finished at" />
-      )}
     </>
   );
 };

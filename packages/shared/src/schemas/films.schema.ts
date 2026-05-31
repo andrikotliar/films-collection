@@ -16,7 +16,6 @@ const DateStringSchema = z
 const SeriesExtensionSchema = z.object({
   episodesTotal: z.coerce.number(),
   seasonsTotal: z.coerce.number(),
-  finishedAt: DateStringSchema.nullable().optional(),
 });
 
 export const CreateFilmInputSchema = z.object({
@@ -148,7 +147,6 @@ export const FilmResponseSchema = z.object({
     .object({
       episodesTotal: z.coerce.number(),
       seasonsTotal: z.coerce.number(),
-      finishedAt: z.string().nullable(),
     })
     .nullable(),
   castAndCrew: z.array(
@@ -272,7 +270,6 @@ export const CompleteDataListItemSchema = z.object({
       id: z.number(),
       episodesTotal: z.number(),
       seasonsTotal: z.number(),
-      finishedAt: z.string().nullable(),
     })
     .optional(),
 });

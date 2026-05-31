@@ -1,5 +1,5 @@
 import { getPluralWord, type api, type ApiResponse } from '~/shared';
-import { LinksGroupWrapper, DataLink, LinksGroup, Dates } from '../-components';
+import { LinksGroupWrapper, DataLink, LinksGroup, ReleaseDate } from '../-components';
 import {
   BookIcon,
   BuildingIcon,
@@ -33,14 +33,9 @@ export const getFilmSummaryConfig = (
     },
     {
       id: 'releaseDate',
-      title: film.type === 'SERIES' ? 'Ongoing dates' : 'Release Date',
+      title: 'Release Date',
       icon: <CalendarIcon />,
-      content: (
-        <Dates
-          releaseDate={film.releaseDate ? film.releaseDate.toString() : null}
-          finishedAt={film.seriesExtension?.finishedAt?.toString()}
-        />
-      ),
+      content: <ReleaseDate value={film.releaseDate} />,
     },
     {
       id: 'duration',
