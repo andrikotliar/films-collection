@@ -65,7 +65,7 @@ export const DescriptionEditor = () => {
 
   return (
     <div className={styles.editor_container}>
-      <Form.TextArea name="synopsis" label="Description" isLoading={isPending} />
+      <Form.TextArea name="synopsis" label="Description" isLoading={isPending || isGenerating} />
       <div className={styles.buttons}>
         <Button
           icon={<LanguagesIcon />}
