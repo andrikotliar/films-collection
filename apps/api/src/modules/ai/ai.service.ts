@@ -42,8 +42,9 @@ export class AiService {
     const prompt = `
 Write a short description for ${this.getReadableType(params.type, params.style)} ${params.title} 
 that was released ${params.releaseDate}.
-The text should describe the main plot of the film.
-It should be at least 60% unique, but not too abstract.
+The text should describe the main plot of the film, the core idea, introduction to the plot.
+Avoid abstract sentences (e.g. they went on a journey to find the answer to the question). 
+The description should not include the title but can describe main characters. Write it if you tell a story. 
 The length of the text should be less then 300 characters.
 The response should contain only the generated text without extra symbols or extra words.
     `;

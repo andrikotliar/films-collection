@@ -46,9 +46,6 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
       ? {
           episodesTotal: film.seriesExtensions[0].episodesTotal,
           seasonsTotal: film.seriesExtensions[0].seasonsTotal,
-          finishedAt: film.seriesExtensions[0].finishedAt
-            ? film.seriesExtensions[0].finishedAt.split('T')[0]
-            : null,
         }
       : null,
   };

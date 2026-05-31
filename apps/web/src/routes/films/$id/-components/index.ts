@@ -5,7 +5,6 @@ export * from './release-date/release-date';
 export * from './data-link/data-link';
 export * from './links-group/links-group';
 export * from './links-group-wrapper/links-group-wrapper';
-export * from './dates/dates';
 export * from './cast-and-crew/cast-and-crew';
 export * from './awards/awards';
 export * from './navigation-row/navigation-row';
