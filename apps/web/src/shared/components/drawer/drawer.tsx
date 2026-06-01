@@ -47,7 +47,7 @@ export const Drawer = ({
     >
       {children}
       <div className={styles.close_button_wrapper}>
-        <Button variant="ghost" icon={<XIcon />} onClick={handleClose} />
+        <Button variant="ghost" icon={<XIcon />} onClick={handleClose} inheritColor />
       </div>
     </div>
   );

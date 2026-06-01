@@ -42,11 +42,14 @@ export const FilmsGrid = ({ films, isCollection }: FilmsGridProps) => {
     <div className={styles.grid}>
       {films.map((film, index) => (
         <Link
+          to="/"
           className={styles.film_link}
-          to="/films/$id"
-          params={{ id: String(film.id) }}
           key={film.id}
           disabled={film.upcoming}
+          search={(prev) => ({
+            ...prev,
+            filmId: film.id,
+          })}
         >
           <div className={styles.cover}>
             {isCollection && <div className={styles.counter}>{index + 1}</div>}

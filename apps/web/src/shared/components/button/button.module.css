@@ -73,6 +73,10 @@
   background-color: var(--color-gray-light);
 }
 
+.inherit_color {
+  color: inherit;
+}
+
 @media (hover: hover) {
   .button:not(:disabled):hover {
     box-shadow: 0 0 0 1px var(--color-black);

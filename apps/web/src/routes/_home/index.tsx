@@ -80,7 +80,7 @@ function RootPageContainer() {
     };
   }, [routeSearch]);
 
-  const filtersCount = countObjectKeys(routeSearch, ['pageIndex']);
+  const filtersCount = countObjectKeys(routeSearch, ['pageIndex', 'filmId']);
 
   return (
     <RootPageLayout>
