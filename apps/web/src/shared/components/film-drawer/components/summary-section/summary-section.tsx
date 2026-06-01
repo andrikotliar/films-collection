@@ -25,8 +25,8 @@ export const SummarySection = ({ film, hasExtendedData }: SummarySectionProps) =
       })}
     >
       <div className={styles.title_row}>
-        <Title>{film.title}</Title>
         <Rating value={film.rating} />
+        <Title>{film.title}</Title>
       </div>
 
       <div className={clsx(styles.content, !poster && styles.content_no_poster)}>

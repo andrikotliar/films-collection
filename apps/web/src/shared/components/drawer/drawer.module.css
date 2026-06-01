@@ -1,6 +1,7 @@
 .drawer_wrapper {
   position: absolute;
   top: 0;
+  right: 0;
   overflow-y: auto;
   width: 100%;
   height: 100%;
@@ -9,6 +10,8 @@
   transition: transform 300ms;
   color: inherit;
   z-index: 10;
+  user-select: none;
+  animation: slide-left 300ms ease;
 }
 .drawer_wrapper.wide {
   max-width: 1080px;
@@ -18,44 +21,30 @@
   max-width: 400px;
 }
 
-.drawer_wrapper.left {
-  left: 0;
-  animation: slide-right 300ms ease;
-}
-
-.drawer_wrapper.right {
-  right: 0;
-  animation: slide-left 300ms ease;
-}
-
-.close_button_wrapper {
+.close_button {
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 200;
 }
 
-.left.is_closing {
-  transform: translateX(-120%);
+.is_closing {
+  transform: translateX(120%);
 }
 
-.right.is_closing {
-  transform: translateX(120%);
+.drawer_wrapper.wide .close_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.drawer_wrapper.narrow .close_icon {
+  width: 24px;
+  height: 24px;
 }
 
 @keyframes slide-left {
   0% {
     transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slide-right {
-  0% {
-    transform: translateX(-100%);
   }
 
   100% {

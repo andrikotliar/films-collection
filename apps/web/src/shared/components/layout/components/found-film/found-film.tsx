@@ -13,12 +13,10 @@ export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
 
   return (
     <Link
-      to="/films/$id"
-      params={{
-        id: film.id.toString(),
-      }}
+      to={location.pathname}
       className={styles.film_link}
       onClick={onFilmOpen}
+      search={(prev) => ({ ...prev, filmId: film.id })}
     >
       <div className={styles.poster_wrapper}>
         <Image src={getExternalImageUrl(film.poster)} alt={`Poster of the "${film.title}"`} />
