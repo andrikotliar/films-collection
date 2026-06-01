@@ -8,7 +8,7 @@ import { FilmsNotFound } from '~/routes/_home/-components/films-section/componen
 const routeApi = getRouteApi('/_home/');
 
 export const FilmsSection = () => {
-  const { filmId: _, ...searchParams } = routeApi.useSearch();
+  const searchParams = routeApi.useSearch({ select: ({ filmId: _, ...params }) => params });
   const navigate = routeApi.useNavigate();
   const { data, isFetching } = useQuery(getFilmsListQueryOptions(searchParams));
 
