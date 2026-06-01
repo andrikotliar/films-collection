@@ -8,6 +8,7 @@
   box-shadow: var(--shadow-sm);
   transition: transform 300ms;
   color: inherit;
+  z-index: 10;
 }
 .drawer_wrapper.wide {
   max-width: 1080px;
