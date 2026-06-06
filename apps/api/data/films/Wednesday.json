@@ -1,0 +1,158 @@
+{
+  "id": 439,
+  "title": "Wednesday",
+  "releaseDate": "2022-12-23",
+  "type": "SERIES",
+  "duration": 45,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "\"Wednesday\" follows the iconic character Wednesday Addams as she navigates her teenage years at Nevermore Academy. While honing her psychic abilities, she becomes embroiled in a murder mystery that threatens her school. Balancing friendships, family legacy, and her own dark humor, Wednesday discovers her place in the world.",
+  "poster": "posters/wednesday",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    },
+    {
+      "title": "MGM Television",
+      "id": 94
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=03u4xyj0TH4&pp=ygUad2VkbmVzZGF5IHNlYXNvbiAyIHRyYWlsZXI%3D",
+      "order": 2,
+      "id": 361
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Di310WS8zLk&pp=ygUad2VkbmVzZGF5IHNlYXNvbiAxIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 360
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Fantasy Television Series",
+          "id": 238
+        },
+        {
+          "title": "Best Younger Performer in a Television Series",
+          "id": 279
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Contemporary Costumes for a Series",
+          "id": 280
+        },
+        {
+          "title": "Outstanding Original Main Title Theme Music",
+          "id": 154
+        },
+        {
+          "title": "Outstanding Contemporary Makeup (Non-Prosthetic)",
+          "id": 281
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Contemporary Program (One Hour or More)",
+          "id": 282
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2247,
+      "name": "Alfred Gough",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2248,
+      "name": "Miles Millar",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 1833,
+      "name": "Tim Burton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2779,
+      "name": "Jenna Ortega",
+      "role": "ACTOR",
+      "details": "Wednesday Addams"
+    },
+    {
+      "id": 2780,
+      "name": "Emma Myers",
+      "role": "ACTOR",
+      "details": "Enid Sinclair"
+    },
+    {
+      "id": 2781,
+      "name": "Hunter Doohan",
+      "role": "ACTOR",
+      "details": "Tyler Galpin"
+    },
+    {
+      "id": 2782,
+      "name": "Joy Sunday",
+      "role": "ACTOR",
+      "details": "Bianca Barclay"
+    },
+    {
+      "id": 2783,
+      "name": "Victor Dorobantu",
+      "role": "ACTOR",
+      "details": "Thing"
+    },
+    {
+      "id": 2784,
+      "name": "Isaac Ordonez",
+      "role": "ACTOR",
+      "details": "Pugsley Addams"
+    },
+    {
+      "id": 2785,
+      "name": "Luis Guzman",
+      "role": "ACTOR",
+      "details": "Gomez Addams"
+    },
+    {
+      "id": 2786,
+      "name": "Catherine Zeta-Jones",
+      "role": "ACTOR",
+      "details": "Morticia Addams"
+    }
+  ],
+  "collections": [],
+  "seriesExtension": {
+    "id": 75,
+    "episodesTotal": 15,
+    "seasonsTotal": 2
+  }
+}

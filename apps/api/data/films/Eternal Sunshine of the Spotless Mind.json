@@ -1,0 +1,150 @@
+{
+  "id": 381,
+  "title": "Eternal Sunshine of the Spotless Mind",
+  "releaseDate": "2004-03-19",
+  "type": "FILM",
+  "duration": 0,
+  "budget": 20000000,
+  "boxOffice": 73000000,
+  "synopsis": "After a painful breakup, Joel discovers that his ex-girlfriend Clementine has erased all memories of their relationship. In a desperate attempt to forget her, he undergoes the same procedure. As his memories fade, he realizes he still loves her and fights to hold onto their moments together, challenging the very nature of love and memory.",
+  "poster": "posters/eternal_sunshine_of_the_spotless_mind",
+  "genres": [
+    {
+      "title": "Romance",
+      "id": 8
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Focus Features",
+      "id": 90
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=07-QBnEkgXU&pp=ygUtRXRlcm5hbCBTdW5zaGluZSBvZiB0aGUgU3BvdGxlc3MgTWluZCB0cmFpbGVy",
+      "order": 1,
+      "id": 366
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Writing, Original Screenplay",
+          "id": 295
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film",
+          "id": 35
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Screenplay - Original",
+          "id": 264
+        },
+        {
+          "title": "Best Editing",
+          "id": 111
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2810,
+      "name": "Michel Gondry",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2811,
+      "name": "Charlie Kaufman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2812,
+      "name": "Jim Carrey",
+      "role": "ACTOR",
+      "details": "Joel Barish"
+    },
+    {
+      "id": 648,
+      "name": "Kate Winslet",
+      "role": "ACTOR",
+      "details": "Clementine Kruczynski"
+    },
+    {
+      "id": 323,
+      "name": "Elijah Wood",
+      "role": "ACTOR",
+      "details": "Patrick"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Stan"
+    },
+    {
+      "id": 684,
+      "name": "Kirsten Dunst",
+      "role": "ACTOR",
+      "details": "Mary"
+    },
+    {
+      "id": 2813,
+      "name": "Anthony Bregman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2814,
+      "name": "Steve Golin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2815,
+      "name": "Jon Brion",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2268,
+      "name": "Ellen Kuras",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

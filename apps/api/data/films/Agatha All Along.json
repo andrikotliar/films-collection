@@ -1,0 +1,141 @@
+{
+  "id": 537,
+  "title": "Agatha All Along",
+  "releaseDate": "2024-09-18",
+  "type": "SERIES",
+  "duration": 40,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "In \"Agatha All Along,\" set in a retro-inspired town, Agatha Harkness uncovers a hidden world of magic and intrigue. As secrets from her past resurface, she grapples with her dual identity while uniting a diverse group of misfits. Together, they face looming dark forces that threaten their idyllic lives.",
+  "poster": "posters/agatha_all_along",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Television",
+      "id": 93
+    },
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Disney+",
+      "id": 2
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=R9pXbNz6Vbw&pp=ygUYYWdhdGhhIGFsbCBhbG9uZyB0cmFpbGVy",
+      "order": 1,
+      "id": 353
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Superhero Television Series",
+          "id": 273
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2350,
+      "name": "Jac Schaeffer",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 650,
+      "name": "Kathryn Hahn",
+      "role": "ACTOR",
+      "details": "Agatha Harkness"
+    },
+    {
+      "id": 2749,
+      "name": "Joe Locke",
+      "role": "ACTOR",
+      "details": "Billy Maximoff"
+    },
+    {
+      "id": 2750,
+      "name": "Sasheer Zamata",
+      "role": "ACTOR",
+      "details": "Jennifer Kale"
+    },
+    {
+      "id": 2751,
+      "name": "Ali Ahn",
+      "role": "ACTOR",
+      "details": "Alice Wu-Gulliver"
+    },
+    {
+      "id": 2752,
+      "name": "Patti LuPone",
+      "role": "ACTOR",
+      "details": "Lilia Calderu"
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2753,
+      "name": "Michael Paraskevas",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2754,
+      "name": "Caleb Heymann",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2755,
+      "name": "Isiah Donte Lee",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2756,
+      "name": "Jon Chema",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 34.5
+    }
+  ],
+  "seriesExtension": {
+    "id": 72,
+    "episodesTotal": 9,
+    "seasonsTotal": 1
+  }
+}
