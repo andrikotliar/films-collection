@@ -1,6 +1,6 @@
 .link {
-  color: var(--color-blue-primary);
-  transition: color 0.3s;
+  display: inline-block;
+  font-size: var(--text-base);
   -webkit-user-drag: none;
 }
 

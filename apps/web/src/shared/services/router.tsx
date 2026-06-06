@@ -17,4 +17,5 @@ export const router = createRouter({
   defaultPendingMs: 0,
   defaultPendingMinMs: 0,
   context: { queryClient },
+  scrollRestoration: true,
 });

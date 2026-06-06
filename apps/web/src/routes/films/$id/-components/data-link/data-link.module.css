@@ -1,8 +1,0 @@
-.link {
-  display: inline-block;
-  font-size: var(--text-base);
-}
-
-.link:hover {
-  text-decoration: underline;
-}

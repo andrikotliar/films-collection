@@ -1,4 +1,3 @@
-import type z from 'zod';
 import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
@@ -16,11 +15,12 @@ import { FilmsSection, RootPageLayout } from './-components';
 import { filterDefaultValues, FiltersSchema, getFiltersConfig } from '~/routes/_home/-helpers';
 
 export const Route = createFileRoute('/_home/')({
-  validateSearch: (search: z.infer<typeof GetFilmsListQuerySchema>) => {
+  validateSearch: (search) => {
     return GetFilmsListQuerySchema.parse(search);
   },
   loader: async ({ context, location }) => {
-    return await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
+    const { filmId: _, ...search } = location.search as Record<string, any>;
+    return await context.queryClient.ensureQueryData(getFilmsListQueryOptions(search));
   },
   component: RootPageContainer,
   head: ({ loaderData }) => ({
@@ -80,7 +80,7 @@ function RootPageContainer() {
     };
   }, [routeSearch]);
 
-  const filtersCount = countObjectKeys(routeSearch, ['pageIndex']);
+  const filtersCount = countObjectKeys(routeSearch, ['pageIndex', 'filmId']);
 
   return (
     <RootPageLayout>

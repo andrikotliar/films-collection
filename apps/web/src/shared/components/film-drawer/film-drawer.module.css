@@ -1,0 +1,10 @@
+.film_drawer_wrapper {
+  position: fixed;
+  top: var(--header-height);
+  right: 0;
+  height: var(--screen-height);
+  color: var(--color-white);
+  z-index: 200;
+  max-width: 1080px;
+  width: 100%;
+}

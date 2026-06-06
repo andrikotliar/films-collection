@@ -125,6 +125,11 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   overflow-y: scroll;
+  overflow-x: hidden;
   position: relative;
   background-color: var(--color-blue-invisible);
+}
+
+body:has(.no-doc-scroll) {
+  overflow: hidden;
 }

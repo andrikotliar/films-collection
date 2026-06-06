@@ -38,6 +38,7 @@ export class UsersService {
 
   async createUserSession(payload: Pick<UserSession, 'deviceInfo' | 'refreshToken' | 'userId'>) {
     const now = new Date();
+    await this.deps.usersRepository.clearStaledSessions(payload.userId);
     return throwIfNotFound(
       this.deps.usersRepository.createSession({
         ...payload,

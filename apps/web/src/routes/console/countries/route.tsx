@@ -10,12 +10,14 @@ import { createFileRoute } from '@tanstack/react-router';
 import { CountryForm } from '~/routes/console/countries/-components';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { useCallback } from 'react';
+import { CommonListQuerySchema } from '@films-collection/shared';
 
 const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create>>({
   title: '',
 });
 
 export const Route = createFileRoute('/console/countries')({
+  validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
     return await queryClient.ensureQueryData(getCountriesListQueryOptions(location.search));
   },

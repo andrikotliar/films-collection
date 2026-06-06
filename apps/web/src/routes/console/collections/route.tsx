@@ -12,6 +12,7 @@ import type z from 'zod';
 import type { CollectionFormSchema } from '~/routes/console/collections/-schemas';
 import { useQuery } from '@tanstack/react-query';
 import { useCallback } from 'react';
+import { CommonListQuerySchema } from '@films-collection/shared';
 
 const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create>>({
   title: '',
@@ -20,6 +21,7 @@ const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collecti
 });
 
 export const Route = createFileRoute('/console/collections')({
+  validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
     await queryClient.ensureQueryData(getCollectionsListQueryOptions(location.search));
   },
