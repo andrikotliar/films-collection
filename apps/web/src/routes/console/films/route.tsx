@@ -8,7 +8,6 @@ import {
   api,
   FiltersSidebar,
   type SortingParams,
-  useSearchContext,
   queryKey,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
@@ -78,8 +77,6 @@ function PageContainer() {
     getInitialDataQueryOptions(),
   );
 
-  const { setSearchValue, clearSearchValue } = useSearchContext();
-
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
   const handlePageChange = (pageIndex: number) => {
@@ -89,13 +86,13 @@ function PageContainer() {
         pageIndex,
       }),
     });
-    setSearchValue({ ...searchParams, pageIndex });
   };
 
   const handleEditFilm = (data: { id: number }) => {
     navigate({
       to: '/console/films/$id',
       params: { id: data.id.toString() },
+      search: searchParams,
     });
   };
 
@@ -120,7 +117,6 @@ function PageContainer() {
       search: searchParams,
     });
     hideFilter();
-    setSearchValue(searchParams);
   };
 
   const handleReset = () => {
@@ -131,7 +127,6 @@ function PageContainer() {
       },
     });
     hideFilter();
-    clearSearchValue('/console/films');
   };
 
   const filtersConfig = useMemo(() => {

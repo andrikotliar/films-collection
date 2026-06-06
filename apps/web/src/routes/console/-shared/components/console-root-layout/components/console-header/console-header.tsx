@@ -8,7 +8,6 @@ import {
   IconLink,
   PageTitle,
   PopupMenu,
-  useSearchContext,
 } from '~/shared';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useMatches } from '@tanstack/react-router';
@@ -20,7 +19,6 @@ export const ConsoleHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const matches = useMatches();
-  const { getSearchValue } = useSearchContext();
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -35,7 +33,7 @@ export const ConsoleHeader = () => {
           <IconLink
             icon={<ArrowLeftIcon />}
             to={routeMatch.staticData.backPath}
-            search={getSearchValue(routeMatch.staticData.backPath)}
+            search={routeMatch?.staticData.preserveSearch ? location.search : undefined}
           />
         )}
         <PageTitle>{routeMatch?.staticData.title ?? 'Console'}</PageTitle>

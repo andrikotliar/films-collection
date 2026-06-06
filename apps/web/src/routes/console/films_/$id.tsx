@@ -13,8 +13,10 @@ import { FilmForm } from '~/routes/console/films_/-components';
 import type z from 'zod';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
+import { GetAdminListQuerySchema } from '@films-collection/shared';
 
 export const Route = createFileRoute('/console/films_/$id')({
+  validateSearch: (search) => GetAdminListQuerySchema.parse(search),
   loaderDeps: ({ search }) => {
     return {
       search,
@@ -33,6 +35,7 @@ export const Route = createFileRoute('/console/films_/$id')({
   staticData: {
     title: 'Films',
     backPath: '/console/films',
+    preserveSearch: true,
   },
   head: ({ loaderData }) => ({
     meta: [
