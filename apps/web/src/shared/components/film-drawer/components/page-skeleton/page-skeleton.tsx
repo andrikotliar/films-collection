@@ -72,8 +72,8 @@ export const PageSkeleton = () => {
     <FilmPageLayout>
       <div className={styles.top_section}>
         <div className={styles.title_row}>
-          <SkeletonBlock width="40%" height="45px" />
           <SkeletonBlock width="94px" height="28px" />
+          <SkeletonBlock width="40%" height="45px" />
         </div>
         <div className={styles.content}>
           <div className={styles.left_column}>

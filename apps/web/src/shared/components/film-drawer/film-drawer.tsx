@@ -21,15 +21,7 @@ export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  if (isLoading) {
-    return <PageSkeleton />;
-  }
-
-  if (!film) {
-    return;
-  }
-
-  const hasExtendedData = film.awards.length !== 0 || film.castAndCrew.length !== 0;
+  const hasExtendedData = film?.awards.length !== 0 || film.castAndCrew.length !== 0;
 
   const closeDrawer = () => {
     navigate({
@@ -41,13 +33,17 @@ export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
   return (
     <div className={styles.film_drawer_wrapper}>
       <Drawer isOpen onClose={closeDrawer}>
-        <FilmPageLayout>
-          <SummarySection film={film} hasExtendedData={hasExtendedData} />
-          <ContentLayout>
-            {film.awards.length > 0 && <Awards data={film.awards} />}
-            {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
-          </ContentLayout>
-        </FilmPageLayout>
+        {isLoading && <PageSkeleton />}
+
+        {film && (
+          <FilmPageLayout>
+            <SummarySection film={film} hasExtendedData={hasExtendedData} />
+            <ContentLayout>
+              {film.awards.length > 0 && <Awards data={film.awards} />}
+              {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
+            </ContentLayout>
+          </FilmPageLayout>
+        )}
       </Drawer>
     </div>
   );
