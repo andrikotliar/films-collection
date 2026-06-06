@@ -12,6 +12,7 @@ import {
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { useCallback } from 'react';
+import { CommonListQuerySchema } from '@films-collection/shared';
 
 const getCollectionEventDefaultValues = () => {
   const defaultDateCode = getDefaultDateCode();
@@ -28,6 +29,7 @@ const getCollectionEventDefaultValues = () => {
 };
 
 export const Route = createFileRoute('/console/collection-events')({
+  validateSearch: (search) => CommonListQuerySchema.parse(search),
   component: withFormModal(CollectionEventForm, CollectionEventsContainer),
   loader: ({ context, location }) => {
     return context.queryClient.ensureQueryData(getCollectionEventsQueryOptions(location.search));

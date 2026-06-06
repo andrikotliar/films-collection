@@ -10,12 +10,14 @@ import {
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/studios/-components';
 import { useCallback } from 'react';
+import { CommonListQuerySchema } from '@films-collection/shared';
 
 const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create>>({
   title: '',
 });
 
 export const Route = createFileRoute('/console/studios')({
+  validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
     await queryClient.ensureQueryData(getStudiosListQueryOptions(location.search));
   },
