@@ -19,7 +19,7 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
   const drawerWrapperRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const dragStartX = useRef(0);
-  const drawerStartRight = useRef(0);
+  const dragStartY = useRef(0);
 
   if (!isOpen) {
     return null;
@@ -40,9 +40,8 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
 
     isDragging.current = true;
 
-    const currentRight = parseInt(getComputedStyle(drawerWrapperRef.current).right, 10);
     dragStartX.current = e.clientX;
-    drawerStartRight.current = isNaN(currentRight) ? 0 : currentRight;
+    dragStartY.current = e.clientY;
   };
 
   const handleMouseMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -52,12 +51,13 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
     }
 
     const deltaX = e.clientX - dragStartX.current;
+    const deltaY = e.clientY - dragStartY.current;
 
-    if (deltaX <= 0) {
+    if (deltaX <= 0 || Math.abs(deltaY) > 10) {
       return;
     }
 
-    drawerWrapperRef.current.style.right = `${drawerStartRight.current - deltaX}px`;
+    drawerWrapperRef.current.style.transform = `translateX(${deltaX}px)`;
   };
 
   const handleMouseUp = () => {
@@ -65,16 +65,15 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
       return;
     }
 
-    const currentRight = parseInt(getComputedStyle(drawerWrapperRef.current).right, 10);
-    const windowWidth = drawerWrapperRef.current.clientWidth;
-
-    if (windowWidth - Math.abs(currentRight) <= 600) {
-      handleClose();
-      return;
-    }
+    const matrix = new DOMMatrix(getComputedStyle(drawerWrapperRef.current).transform);
+    const translateX = matrix.m41;
 
     isDragging.current = false;
-    drawerWrapperRef.current.style.right = '0';
+    drawerWrapperRef.current.style.transform = '';
+
+    if (translateX > 200) {
+      handleClose();
+    }
   };
 
   return (

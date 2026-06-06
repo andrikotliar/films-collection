@@ -1,6 +1,7 @@
 .link {
   display: inline-block;
   font-size: var(--text-base);
+  -webkit-user-drag: none;
 }
 
 .link:hover {

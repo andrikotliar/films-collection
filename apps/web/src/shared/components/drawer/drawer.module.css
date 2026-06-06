@@ -7,7 +7,6 @@
   height: 100%;
   background-color: var(--color-white);
   box-shadow: var(--shadow-sm);
-  transition: transform 300ms;
   color: inherit;
   z-index: 10;
   user-select: none;
@@ -29,6 +28,7 @@
 }
 
 .is_closing {
+  transition: 300ms;
   transform: translateX(120%);
 }
 
