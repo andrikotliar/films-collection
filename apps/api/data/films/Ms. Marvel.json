@@ -1,0 +1,127 @@
+{
+  "id": 541,
+  "title": "Ms. Marvel",
+  "releaseDate": "2022-06-08",
+  "type": "SERIES",
+  "duration": 50,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "Ms. Marvel follows Kamala Khan, a Pakistani-American teenager navigating her identity as both a young woman and a superhero. With her fascination for the Avengers, she discovers her own extraordinary abilities after finding a mysterious bangle. As she learns to embrace her powers, she confronts challenges in her community and family.",
+  "poster": "posters/ms_marvel",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=m9EX0f6V11Y&pp=ygUSTXMuIE1hcnZlbCB0cmFpbGVy",
+      "order": 1,
+      "id": 357
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor in a Streaming Series",
+          "id": 274
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Emmy Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Motion Design",
+          "id": 275
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1804,
+      "name": "Bisha K. Ali",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2764,
+      "name": "Iman Vellani",
+      "role": "ACTOR",
+      "details": " Kamala Khan"
+    },
+    {
+      "id": 2765,
+      "name": "Matt Lintz",
+      "role": "ACTOR",
+      "details": "Bruno"
+    },
+    {
+      "id": 2766,
+      "name": "Zenobia Shroff",
+      "role": "ACTOR",
+      "details": "Muneeba"
+    },
+    {
+      "id": 2767,
+      "name": "Yasmeen Fletcher",
+      "role": "ACTOR",
+      "details": "Nakia"
+    },
+    {
+      "id": 2768,
+      "name": "Laura Karpman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2769,
+      "name": "Carmen Cabana",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2770,
+      "name": "Robrecht Heyvaert",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2771,
+      "name": "Jules O'Loughlin",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 33.125
+    }
+  ],
+  "seriesExtension": {
+    "id": 74,
+    "episodesTotal": 6,
+    "seasonsTotal": 1
+  }
+}

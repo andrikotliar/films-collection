@@ -1,0 +1,105 @@
+{
+  "id": 382,
+  "title": "The Book of Eli",
+  "releaseDate": "2010-01-15",
+  "type": "FILM",
+  "duration": 118,
+  "budget": 80000000,
+  "boxOffice": 157000000,
+  "synopsis": "In a post-apocalyptic world, a lone traveler named Eli protects the last known copy of the Bible, believing it holds the key to humanity's salvation. As he navigates desolate landscapes and encounters dangerous foes, Eli's unwavering faith drives him to fulfill his mission, even as dark forces seek to seize the sacred text for their own gain.",
+  "poster": "posters/the_book_of_eli",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Alcon Entertainment",
+      "id": 96
+    },
+    {
+      "title": "Silver Pictures",
+      "id": 71
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=zSMHmtaoXtI&pp=ygUXVGhlIEJvb2sgb2YgRWxpIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 367
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2816,
+      "name": "Albert Hughes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2817,
+      "name": "Allen Hughes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2818,
+      "name": "Gary Whitta",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 287,
+      "name": "Denzel Washington",
+      "role": "ACTOR",
+      "details": "Eli"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Carnegie"
+    },
+    {
+      "id": 2819,
+      "name": "Mila Kunis",
+      "role": "ACTOR",
+      "details": "Solara"
+    },
+    {
+      "id": 2733,
+      "name": "Atticus Ross",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2820,
+      "name": "Leopold Ross",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2821,
+      "name": "Claudia Sarne",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1321,
+      "name": "Don Burgess",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

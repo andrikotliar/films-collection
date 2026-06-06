@@ -1,0 +1,143 @@
+{
+  "id": 378,
+  "title": "Netflix's One Piece",
+  "releaseDate": "2023-08-31",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "In a vibrant world of pirates and treasures, a young dreamer named Monkey D. Luffy sets sail to find the legendary One Piece and become the Pirate King. Joined by a quirky crew, including a skilled swordsman and a clever navigator, they face rival pirates, powerful foes, and their own ambitions in a thrilling quest for adventure and friendship.",
+  "poster": "posters/netflixs_one_piece",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    },
+    {
+      "title": "South Africa",
+      "id": 23
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    },
+    {
+      "title": "Tomorrow Studios",
+      "id": 95
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/Ades3pQbeh8?si=WonSS_TUw_YBG-33",
+      "order": 1,
+      "id": 362
+    },
+    {
+      "url": "https://youtu.be/S-XxKVxZ2fU?si=hQYvQZHuDdj8I3_t",
+      "order": 2,
+      "id": 363
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2787,
+      "name": "Joe Tracz",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2788,
+      "name": "lan Stokes",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 2789,
+      "name": "Inaki Godoy",
+      "role": "ACTOR",
+      "details": "Monkey D. Luffy"
+    },
+    {
+      "id": 2790,
+      "name": "Emily Rudd",
+      "role": "ACTOR",
+      "details": "Nami"
+    },
+    {
+      "id": 2791,
+      "name": "Mackenyu",
+      "role": "ACTOR",
+      "details": "Roronoa Zoro"
+    },
+    {
+      "id": 2792,
+      "name": "Jacob Romero",
+      "role": "ACTOR",
+      "details": "Usopp"
+    },
+    {
+      "id": 2798,
+      "name": "Taz Skylar",
+      "role": "ACTOR",
+      "details": "Sanji"
+    },
+    {
+      "id": 2793,
+      "name": "Vincent Regan",
+      "role": "ACTOR",
+      "details": "Garp"
+    },
+    {
+      "id": 2794,
+      "name": "Charitha Chandran",
+      "role": "ACTOR",
+      "details": "Miss Wednesday"
+    },
+    {
+      "id": 2795,
+      "name": "Callum Kerr",
+      "role": "ACTOR",
+      "details": "Smoker"
+    },
+    {
+      "id": 2796,
+      "name": "Mikaela Hoover",
+      "role": "ACTOR",
+      "details": "Tony Tony Chopper (voice)"
+    },
+    {
+      "id": 2797,
+      "name": "McKinley Belcher Ill",
+      "role": "ACTOR",
+      "details": "Arlong"
+    }
+  ],
+  "collections": [],
+  "seriesExtension": {
+    "id": 76,
+    "episodesTotal": 16,
+    "seasonsTotal": 2
+  }
+}

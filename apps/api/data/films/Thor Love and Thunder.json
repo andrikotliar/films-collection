@@ -1,0 +1,127 @@
+{
+  "id": 540,
+  "title": "Thor: Love and Thunder",
+  "releaseDate": "2022-07-08",
+  "type": "FILM",
+  "duration": 118,
+  "budget": 250000000,
+  "boxOffice": 761000000000,
+  "synopsis": "Thor embarks on a quest to find inner peace after the events of \"Avengers: Endgame.\" However, his journey is interrupted by Gorr the God Butcher, who seeks vengeance against the gods. Teaming up with old allies, including Jane Foster, Thor must confront new threats and rediscover his purpose.",
+  "poster": "posters/thor_love_and_thunder",
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=tgB1wUcmbbw&pp=ygUddGhvciBsb3ZlIGFuZCB0aHVuZGVyIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 356
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1101,
+      "name": "Taika Waititi",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1101,
+      "name": "Taika Waititi",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2761,
+      "name": "Jennifer Kaytin Robinson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Thor"
+    },
+    {
+      "id": 864,
+      "name": "Natalie Portman",
+      "role": "ACTOR",
+      "details": "Jane Foster/The Mighty Thor"
+    },
+    {
+      "id": 203,
+      "name": "Christian Bale",
+      "role": "ACTOR",
+      "details": "Gorr"
+    },
+    {
+      "id": 1015,
+      "name": "Russell Crowe",
+      "role": "ACTOR",
+      "details": "Zeus"
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2762,
+      "name": "Brad Winderbaum",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2763,
+      "name": "Nami Melumad",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2224,
+      "name": "Barry Baz Idoine",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 33.25
+    }
+  ]
+}

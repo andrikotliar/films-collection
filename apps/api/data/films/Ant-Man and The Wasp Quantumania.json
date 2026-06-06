@@ -1,0 +1,141 @@
+{
+  "id": 539,
+  "title": "Ant-Man and The Wasp: Quantumania",
+  "releaseDate": "2023-02-17",
+  "type": "FILM",
+  "duration": 124,
+  "budget": 200000000,
+  "boxOffice": 476000000,
+  "synopsis": "Scott Lang and Hope van Dyne embark on a perilous journey into the Quantum Realm, uncovering secrets that could reshape their world. Joined by family and allies, they face a formidable new villain, Kang, testing their strength and resolve in an epic battle for the future.",
+  "poster": "posters/antman_and_the_wasp_quantumania",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ZlNFpri-Y40&pp=ygUpQW50LU1hbiBhbmQgVGhlIFdhc3A6IFF1YW50dW1hbmlhIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 355
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1305,
+      "name": "Peyton Reed",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2759,
+      "name": "Jeff Loveness",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 910,
+      "name": "Paul Rudd",
+      "role": "ACTOR",
+      "details": "Scott Lang/Ant-Man"
+    },
+    {
+      "id": 361,
+      "name": "Evangeline Lilly",
+      "role": "ACTOR",
+      "details": " Hope Van Dyne/The Wasp"
+    },
+    {
+      "id": 822,
+      "name": "Michael Douglas",
+      "role": "ACTOR",
+      "details": " Dr. Hank Pym"
+    },
+    {
+      "id": 837,
+      "name": "Michelle Pfeiffer",
+      "role": "ACTOR",
+      "details": "Janet Van Dyne"
+    },
+    {
+      "id": 608,
+      "name": "Jonathan Majors",
+      "role": "ACTOR",
+      "details": "Kang the Conqueror"
+    },
+    {
+      "id": 2760,
+      "name": "Kathryn Newton",
+      "role": "ACTOR",
+      "details": "Cassie Lang"
+    },
+    {
+      "id": 229,
+      "name": "Corey Stoll",
+      "role": "ACTOR",
+      "details": "M.O.D.O.K."
+    },
+    {
+      "id": 1313,
+      "name": "Stephen Broussard",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1303,
+      "name": "Christophe Beck",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 33.5
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 379,
+  "title": "1899",
+  "releaseDate": "2022-11-17",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "In the year 1899, a group of European immigrants embarks on a transatlantic voyage aboard a mysterious ship, seeking new beginnings in America. As they navigate the treacherous seas, strange events unfold, revealing dark secrets and intertwining fates, pushing them to confront their pasts and unravel the enigma lurking among them.",
+  "poster": "posters/1899",
+  "genres": [
+    {
+      "title": "Thriller",
+      "id": 9
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "title": "Netflix",
+      "id": 17
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ulOOON_KYHs&pp=ygUMMTg5OSB0cmFpbGVy",
+      "order": 1,
+      "id": 364
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1419,
+      "name": "Baran bo Odar",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2799,
+      "name": "Emily Beecham",
+      "role": "ACTOR",
+      "details": "Maura Franklin"
+    },
+    {
+      "id": 2800,
+      "name": "Aneurin Barnard",
+      "role": "ACTOR",
+      "details": "Daniel Solace"
+    },
+    {
+      "id": 56,
+      "name": "Andreas Pietschmann",
+      "role": "ACTOR",
+      "details": " Eyk Larsen"
+    },
+    {
+      "id": 1428,
+      "name": "Ben Frost",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1429,
+      "name": "Nikolaus Summerer",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [],
+  "seriesExtension": {
+    "id": 77,
+    "episodesTotal": 8,
+    "seasonsTotal": 1
+  }
+}
