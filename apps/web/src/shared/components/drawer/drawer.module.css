@@ -17,7 +17,7 @@
 }
 
 .drawer_wrapper.narrow {
-  max-width: 400px;
+  max-width: 320px;
 }
 
 .close_button {
@@ -29,7 +29,7 @@
 
 .is_closing {
   transition: 300ms;
-  transform: translateX(120%);
+  transform: translateX(120%) !important;
 }
 
 .drawer_wrapper.wide .close_icon {

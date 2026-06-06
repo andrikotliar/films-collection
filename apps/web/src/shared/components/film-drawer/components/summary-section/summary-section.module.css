@@ -88,3 +88,9 @@
     flex-direction: column;
   }
 }
+
+@media (width < 520px) {
+  .summary_layout {
+    padding: 30px 15px;
+  }
+}

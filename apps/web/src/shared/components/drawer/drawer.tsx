@@ -19,7 +19,6 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
   const drawerWrapperRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const dragStartX = useRef(0);
-  const dragStartY = useRef(0);
 
   if (!isOpen) {
     return null;
@@ -41,7 +40,16 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
     isDragging.current = true;
 
     dragStartX.current = e.clientX;
-    dragStartY.current = e.clientY;
+  };
+
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    if (!drawerWrapperRef.current) {
+      return;
+    }
+
+    isDragging.current = true;
+
+    dragStartX.current = e.touches[0].clientX;
   };
 
   const handleMouseMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -51,9 +59,23 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
     }
 
     const deltaX = e.clientX - dragStartX.current;
-    const deltaY = e.clientY - dragStartY.current;
 
-    if (deltaX <= 0 || Math.abs(deltaY) > 10) {
+    if (deltaX <= 0) {
+      return;
+    }
+
+    drawerWrapperRef.current.style.transform = `translateX(${deltaX}px)`;
+  };
+
+  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+    e.stopPropagation();
+    if (!drawerWrapperRef.current || !isDragging.current) {
+      return;
+    }
+
+    const deltaX = e.touches[0].clientX - dragStartX.current;
+
+    if (deltaX <= 0) {
       return;
     }
 
@@ -68,21 +90,30 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
     const matrix = new DOMMatrix(getComputedStyle(drawerWrapperRef.current).transform);
     const translateX = matrix.m41;
 
-    isDragging.current = false;
-    drawerWrapperRef.current.style.transform = '';
-
     if (translateX > 200) {
       handleClose();
+      return;
     }
+
+    isDragging.current = false;
+    drawerWrapperRef.current.style.transform = '';
   };
 
   return (
     <div
-      className={clsx(styles.drawer_wrapper, styles[size], isClosing && styles.is_closing)}
-      onPointerDown={handleMouseDown}
-      onPointerUp={handleMouseUp}
-      onPointerMove={handleMouseMove}
-      onPointerLeave={handleMouseUp}
+      className={clsx(
+        styles.drawer_wrapper,
+        styles[size],
+        isClosing && styles.is_closing,
+        window.innerWidth <= 1080 && 'no-doc-scroll',
+      )}
+      onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseUp}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleMouseUp}
+      onTouchMove={handleTouchMove}
       ref={drawerWrapperRef}
     >
       {children}
