@@ -12,9 +12,16 @@ type DrawerProps = {
   isOpen: boolean;
   position?: Position;
   onClose: VoidFunction;
+  textColor?: 'white' | 'black';
 };
 
-export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps) => {
+export const Drawer = ({
+  children,
+  size = 'wide',
+  isOpen,
+  onClose,
+  textColor = 'black',
+}: DrawerProps) => {
   const [isClosing, setIsClosing] = useState(false);
   const drawerWrapperRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
@@ -115,6 +122,7 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
       onTouchEnd={handleMouseUp}
       onTouchMove={handleTouchMove}
       ref={drawerWrapperRef}
+      style={{ color: textColor }}
     >
       {children}
       <button className={styles.close_button} onClick={handleClose}>
