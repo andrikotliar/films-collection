@@ -1,0 +1,230 @@
+{
+  "id": 380,
+  "title": "Coco",
+  "releaseDate": "2017-11-22",
+  "type": "FILM",
+  "duration": 104,
+  "budget": 175000000,
+  "boxOffice": 823000000,
+  "synopsis": "In a vibrant Mexican village, a young boy named Miguel dreams of becoming a musician despite his family's ban on music. Accidentally transported to the Land of the Dead, he meets his ancestors, including the charming trickster Hector. Together, they uncover family secrets and celebrate the importance of remembering loved ones.",
+  "poster": "posters/coco",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Mexico",
+      "id": 22
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Rvr68u6k5sI&pp=ygUMY29jbyB0cmFpbGVy",
+      "order": 1,
+      "id": 365
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures (Original Song)",
+          "id": 283
+        },
+        {
+          "title": "Best Animated Feature Film",
+          "id": 284
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Music",
+          "id": 45
+        },
+        {
+          "title": "Best Animated Film",
+          "id": 50
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 81
+        },
+        {
+          "title": "Best Song",
+          "id": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Feature Film",
+          "id": 105
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Motion Picture - Animated",
+          "id": 217
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Outstanding Achievement for Animated Effects in an Animated Production",
+          "id": 285
+        },
+        {
+          "title": "Outstanding Achievement for Character Animation in an Animated Feature Production",
+          "id": 286
+        },
+        {
+          "title": "Outstanding Achievement for Character Design in an Animated Feature Production",
+          "id": 287
+        },
+        {
+          "title": "Outstanding Achievement for Directing in an Animated Feature Production",
+          "id": 288
+        },
+        {
+          "title": "Outstanding Achievement for Music in an Animated Feature Production",
+          "id": 289
+        },
+        {
+          "title": "Outstanding Achievement for Storyboarding in an Animated Feature Production",
+          "id": 290
+        },
+        {
+          "title": "Outstanding Achievement for Voice Acting in an Animated Feature Production",
+          "id": 291
+        },
+        {
+          "title": "Outstanding Achievement for Writing in an Animated Feature Production",
+          "id": 292
+        },
+        {
+          "title": "Outstanding Achievement for Editorial in an Animated Feature Production",
+          "id": 293
+        },
+        {
+          "title": "Outstanding Achievement for Production Design in an Animated Feature Production",
+          "id": 294
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2801,
+      "name": "Adrian Molina",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2802,
+      "name": "Lee Unkrich",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2801,
+      "name": "Adrian Molina",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2803,
+      "name": "Matthew Aldrich",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2804,
+      "name": "Anthony Gonzalez",
+      "role": "ACTOR",
+      "details": "Miguel"
+    },
+    {
+      "id": 2805,
+      "name": "Gael Garcia Bernal",
+      "role": "ACTOR",
+      "details": "Hector"
+    },
+    {
+      "id": 2806,
+      "name": "Benjamin Bratt",
+      "role": "ACTOR",
+      "details": " Ernesto de la Cruz"
+    },
+    {
+      "id": 2807,
+      "name": "Alanna Ubach",
+      "role": "ACTOR",
+      "details": " Mamá Imelda"
+    },
+    {
+      "id": 2808,
+      "name": "Renee Victor",
+      "role": "ACTOR",
+      "details": "Abuelita"
+    },
+    {
+      "id": 2809,
+      "name": "Jaime Camil",
+      "role": "ACTOR",
+      "details": "Papá"
+    },
+    {
+      "id": 1859,
+      "name": "Darla K. Anderson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "collections": []
+}
