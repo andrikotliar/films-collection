@@ -58,10 +58,6 @@ function RootPageContainer() {
         pageIndex: 0,
       }),
     });
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
     hideFilter();
   };
 
@@ -69,7 +65,6 @@ function RootPageContainer() {
     navigate({
       to: '/',
     });
-    window.scrollTo(0, 0);
     hideFilter();
   };
 

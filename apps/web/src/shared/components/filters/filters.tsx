@@ -36,11 +36,17 @@ export const Filters = <TDefaultValues extends Record<string, unknown>, TSchema 
   const resetForm = () => {
     filtersForm.reset(resetValues);
     onReset?.();
+    window.scrollTo(0, 0);
+  };
+
+  const handleSubmit = (data: TDefaultValues) => {
+    onSubmit(data);
+    window.scrollTo(0, 0);
   };
 
   return (
     <FormProvider {...filtersForm}>
-      <form onSubmit={filtersForm.handleSubmit(onSubmit)} className={styles.filters}>
+      <form onSubmit={filtersForm.handleSubmit(handleSubmit)} className={styles.filters}>
         <div className={styles.filter_groups}>
           {config.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
