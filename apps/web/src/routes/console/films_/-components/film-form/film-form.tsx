@@ -168,7 +168,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       isLoading={isPending}
       islandActions
     >
-      <Drafts onSelectDraft={setSelectedDraft} />
+      <Drafts selectedDraft={selectedDraft} onSelectDraft={setSelectedDraft} />
       <Panel isFlexContainer>
         <Form.TextInput name="title" label="Title" />
         <Form.CheckboxesGroup

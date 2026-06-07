@@ -1,7 +1,8 @@
 import styles from './nomination-select.module.css';
-import { useFormContext, useWatch } from 'react-hook-form';
+import { useFieldArray, useFormContext, useWatch } from 'react-hook-form';
 import {
   api,
+  Button,
   FieldError,
   Form,
   getNominationsByAwardQueryOptions,
@@ -12,6 +13,8 @@ import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { autoDetectShouldIncludeActor } from '~/routes/console/films_/-components/film-form/components/awards-select/helpers';
+import { PlusIcon, TrashIcon } from 'lucide-react';
+import { useMemo } from 'react';
 
 type NominationSelectProps = {
   index: number;
@@ -22,11 +25,30 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
     name: 'awards',
   });
 
-  const { formState } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { control } = useFormContext<z.infer<typeof FilmFormSchema>>();
+
+  const { append, fields, remove } = useFieldArray({
+    control,
+    name: `awards.${index}.nominations`,
+  });
 
   const currentAward = awards[index];
 
   const { data, isLoading } = useQuery(getNominationsByAwardQueryOptions(currentAward.awardId));
+
+  const includeActorsMap = useMemo(() => {
+    const map: Record<number, boolean> = {};
+
+    if (!data) {
+      return map;
+    }
+
+    for (const nomination of data) {
+      map[nomination.value] = nomination.shouldIncludeActor;
+    }
+
+    return map;
+  }, [data]);
 
   const { mutateAsync: createPerson, isPending } = useMutation({
     mutationFn: async (value: string) => {
@@ -83,32 +105,39 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
     return <FieldError error="Selected award does not have nominations" />;
   }
 
-  const selectedNomination = data.find(
-    (nomination) => nomination.value === Number(currentAward.nominationId),
-  );
-
-  const shouldShowActorSelect = selectedNomination?.shouldIncludeActor ?? false;
-
   return (
     <div className={styles.wrapper}>
-      <Form.Select
-        name={`awards.${index}.nominationId`}
-        options={data}
-        label="Nomination"
-        onCreateOption={createNomination}
-        isOptionsLoading={isNominationCreating}
-        error={formState.errors?.awards?.[index]?.nominationId?.message}
-      />
-      {shouldShowActorSelect && (
-        <Form.AsyncSelect
-          name={`awards.${index}.actorId`}
-          optionsLoader={api.people.search}
-          label="Person"
-          queryKey={index}
-          onCreateOption={createPerson}
-          isOptionsLoading={isPending}
-        />
-      )}
+      {fields.map((nomination, nominationIndex) => (
+        <div key={nomination.id} className={styles.nomination_row}>
+          <div className={styles.selects}>
+            <Form.Select
+              options={data}
+              label="Nomination"
+              name={`awards.${index}.nominations.${nominationIndex}.nominationId`}
+              onCreateOption={createNomination}
+              isOptionsLoading={isNominationCreating}
+            />
+            {includeActorsMap[currentAward.nominations[nominationIndex]?.nominationId] && (
+              <Form.AsyncSelect
+                name={`awards.${index}.nominations.${nominationIndex}.actorId`}
+                optionsLoader={api.people.search}
+                label="Person"
+                queryKey={index}
+                onCreateOption={createPerson}
+                isOptionsLoading={isPending}
+              />
+            )}
+          </div>
+          <Button icon={<TrashIcon />} variant="ghost" onClick={() => remove(nominationIndex)} />
+        </div>
+      ))}
+      <Button
+        variant="ghost"
+        onClick={() => append({ nominationId: 0, actorId: null })}
+        icon={<PlusIcon />}
+      >
+        Add nomination
+      </Button>
     </div>
   );
 };

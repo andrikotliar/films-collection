@@ -211,4 +211,21 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
       return { data: { text: data } };
     },
   },
+
+  getAdminFilmById: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .getFilmDetails(request.params.id, 'admin');
+
+      if (!data) {
+        throw new NotFoundException({
+          message: `Film with the ${request.params.id} not found`,
+        });
+      }
+
+      return { data };
+    },
+  },
 });

@@ -50,8 +50,14 @@ export const CreateFilmInputSchema = z.object({
   awards: z.array(
     z.object({
       awardId: z.number().min(1, 'Award cannot be empty'),
-      nominationId: z.number().min(1, 'Nomination cannot be empty'),
-      actorId: z.number().nullable(),
+      nominations: z
+        .array(
+          z.object({
+            nominationId: z.number().min(1, 'Nomination cannot be empty'),
+            actorId: z.number().nullable(),
+          }),
+        )
+        .min(1, 'Award should contain nominations'),
     }),
   ),
   trailers: z.array(

@@ -8,7 +8,7 @@ import {
   PageSkeleton,
   SummarySection,
 } from '~/shared/components/film-drawer/components';
-import { getFilmQueryOptions } from '~/shared/helpers';
+import { getAdminFilmQueryOptions, getFilmQueryOptions } from '~/shared/helpers';
 import { useLocation, useNavigate } from '@tanstack/react-router';
 import styles from './film-drawer.module.css';
 
@@ -16,10 +16,20 @@ type FilmDrawerProps = {
   filmId: number;
 };
 
+const getQueryOptions = (isConsole: boolean, filmId: number) => {
+  if (isConsole) {
+    return getAdminFilmQueryOptions(filmId);
+  }
+
+  return getFilmQueryOptions(filmId);
+};
+
 export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
-  const { data: film, isLoading } = useQuery(getFilmQueryOptions(filmId));
-  const navigate = useNavigate();
   const location = useLocation();
+  const { data: film, isLoading } = useQuery(
+    getQueryOptions(location.pathname.startsWith('/console'), filmId),
+  );
+  const navigate = useNavigate();
 
   const hasExtendedData = film?.awards.length !== 0 || film.castAndCrew.length !== 0;
 

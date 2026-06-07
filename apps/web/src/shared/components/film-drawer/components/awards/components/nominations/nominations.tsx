@@ -9,9 +9,9 @@ type NominationsProps = {
 export const Nominations = ({ data }: NominationsProps) => {
   return (
     <div className={styles.nominations_wrapper}>
-      <div className={styles.title}>{data.award.title}</div>
+      <div className={styles.title}>Won {data.award.title} in nominations:</div>
       {data.nominations.map((nomination) => (
-        <div className={styles.nomination}>
+        <div className={styles.nomination} key={nomination.title}>
           <div>
             <div>{nomination.title}</div>
             {nomination.person && (

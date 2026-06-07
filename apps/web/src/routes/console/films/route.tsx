@@ -188,7 +188,6 @@ function PageContainer() {
         onView={handleViewFilm}
         onSearch={handleSearch}
         isFetching={isFetching}
-        viewActionAvailable={(item) => !item.draft}
         onNavigateToForm="/console/films/$id"
         createItemTitle="New film"
         onPageChange={handlePageChange}
