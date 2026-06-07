@@ -333,18 +333,13 @@ export const GetFilmStatsQuerySchema = z.object({
   blocks: getArrayFromQuery(z.enum(['genres', 'countries', 'collections', 'studios', 'types'])),
 });
 
-const StatsSchema = z.object({
-  id: z.number(),
-  title: z.string(),
-  count: z.number(),
-});
-
 export const FilmStatsResponseSchema = z.object({
-  genres: z.array(StatsSchema),
-  countries: z.array(StatsSchema),
-  collections: z.array(StatsSchema),
-  studios: z.array(StatsSchema),
-  types: z.array(StatsSchema),
+  genres: z.object<Record<string, number>>(),
+  countries: z.object<Record<string, number>>(),
+  collections: z.object<Record<string, number>>(),
+  studios: z.object<Record<string, number>>(),
+  types: z.object<Record<string, number>>(),
+  styles: z.object<Record<string, number>>(),
 });
 
 export const FilmsByCollectionResponseSchema = z.array(

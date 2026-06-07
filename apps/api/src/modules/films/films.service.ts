@@ -45,11 +45,12 @@ export class FilmsService {
       film: null,
       date: null,
     },
-    genres: [],
-    collections: [],
-    countries: [],
-    studios: [],
-    types: [],
+    genres: {},
+    collections: {},
+    countries: {},
+    studios: {},
+    types: {},
+    styles: {},
   });
 
   constructor(
@@ -335,28 +336,36 @@ export class FilmsService {
     return this.deps.filmsRepository.getTrailersByFilmId(id);
   }
 
-  private async mapFilmTypesAndStyles() {
-    const data = await this.deps.filmsRepository.aggregateFilmTypesAndStyles();
+  private async mapAggregatedValues(
+    getValues: () => Promise<Array<{ title: string; count: number }>>,
+  ) {
+    const result: Record<string, number> = {};
 
-    return data.map((item, index) => ({
-      id: index + 1,
-      title: `${item.type}_${item.style}`,
-      count: item.count,
-    }));
+    const values = await getValues();
+
+    for (const item of values) {
+      result[item.title] = item.count;
+    }
+
+    return result;
   }
 
   private aggregate(key: keyof FilmStatsResponse) {
     switch (key) {
       case 'collections':
-        return this.deps.filmsRepository.aggregateFilmCollections();
+        return this.mapAggregatedValues(this.deps.filmsRepository.aggregateFilmCollections);
       case 'genres':
-        return this.deps.filmsRepository.aggregateFilmGenres();
+        return this.mapAggregatedValues(this.deps.filmsRepository.aggregateFilmGenres);
       case 'countries':
-        return this.deps.filmsRepository.aggregateFilmCountries();
+        return this.mapAggregatedValues(this.deps.filmsRepository.aggregateFilmCountries);
       case 'studios':
-        return this.deps.filmsRepository.aggregateFilmStudios();
+        return this.mapAggregatedValues(this.deps.filmsRepository.aggregateFilmStudios);
       case 'types':
-        return this.mapFilmTypesAndStyles();
+        return this.mapAggregatedValues(this.deps.filmsRepository.aggregateFilmTypes);
+      case 'styles':
+        return this.mapAggregatedValues(this.deps.filmsRepository.aggregateFilmTypes);
+      default:
+        throw new BadRequestException({ message: 'Unknown stats type' });
     }
   }
 
@@ -376,11 +385,12 @@ export class FilmsService {
 
   async getStats({ blocks }: GetFilmStatsQueryParams): Promise<FilmStatsResponse> {
     const result: FilmStatsResponse = {
-      genres: [],
-      collections: [],
-      countries: [],
-      studios: [],
-      types: [],
+      genres: {},
+      collections: {},
+      countries: {},
+      studios: {},
+      types: {},
+      styles: {},
     };
 
     for await (const block of blocks) {

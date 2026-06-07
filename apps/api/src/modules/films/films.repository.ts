@@ -849,12 +849,20 @@ export class FilmsRepository {
       .groupBy(countries.id, countries.title);
   }
 
-  aggregateFilmTypesAndStyles() {
+  aggregateFilmTypes() {
     return this.deps.db
-      .select({ type: films.type, style: films.style, count: count() })
+      .select({ title: films.type, count: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
-      .groupBy(films.type, films.style);
+      .groupBy(films.type);
+  }
+
+  aggregateFilmStyles() {
+    return this.deps.db
+      .select({ title: films.style, count: count() })
+      .from(films)
+      .where(this.getPublicFilmsFilter())
+      .groupBy(films.style);
   }
 
   getTrailersByFilmId(id: number) {
