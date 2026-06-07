@@ -1,4 +1,4 @@
-import { and, eq, desc } from 'drizzle-orm';
+import { and, eq, desc, sql } from 'drizzle-orm';
 import { users, usersSessions, type User, type UserSession } from '~/database/schema.js';
 import { getFirstValue, type Deps } from '~/shared/index.js';
 
@@ -111,5 +111,11 @@ export class UsersRepository {
         .from(users)
         .where(eq(users.id, userId)),
     );
+  }
+
+  async clearStaledSessions(userId: number) {
+    await this.deps.db
+      .delete(usersSessions)
+      .where(and(sql`updated_at < NOW() - INTERVAL '10 days'`, eq(usersSessions.userId, userId)));
   }
 }

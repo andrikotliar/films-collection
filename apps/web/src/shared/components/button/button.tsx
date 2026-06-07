@@ -15,6 +15,7 @@ export type ButtonProps = {
   size?: 'small' | 'medium';
   fitWidth?: boolean;
   ref?: React.RefObject<HTMLButtonElement | null>;
+  inheritColor?: boolean;
 };
 
 export const Button = ({
@@ -28,12 +29,19 @@ export const Button = ({
   size = 'medium',
   fitWidth = false,
   ref,
+  inheritColor = false,
 }: ButtonProps) => {
   return (
     <button
       onClick={onClick}
       type={type}
-      className={clsx(styles.button, styles[variant], styles[size], fitWidth && styles.fit_width)}
+      className={clsx(
+        styles.button,
+        styles[variant],
+        styles[size],
+        fitWidth && styles.fit_width,
+        inheritColor && styles.inherit_color,
+      )}
       disabled={isDisabled || isLoading}
       ref={ref}
     >

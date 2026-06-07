@@ -4,6 +4,22 @@
   gap: 15px;
 }
 
-.selected_nominee {
-  margin-top: 10px;
+.nomination_row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  border-bottom: var(--border-default);
+  padding-bottom: 20px;
+}
+
+.nomination_row:nth-last-child(2) {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.selects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }

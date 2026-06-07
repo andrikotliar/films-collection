@@ -1,6 +1,7 @@
 .link {
   color: var(--color-blue-primary);
   transition: color 0.3s;
+  -webkit-user-drag: none;
 }
 
 .link:hover {

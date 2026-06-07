@@ -11,7 +11,6 @@ import {
   Panel,
   queryKey,
   titleToFileName,
-  useSearchContext,
 } from '~/shared';
 import {
   AwardsSelect,
@@ -26,7 +25,7 @@ import {
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
-import { useNavigate } from '@tanstack/react-router';
+import { useNavigate, useSearch } from '@tanstack/react-router';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 
 type FilmFormProps = {
@@ -43,7 +42,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
   const { data: collectionOptions } = useSuspenseQuery(getAllCollectionOptionsQueryOptions());
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
-  const { getSearchValue } = useSearchContext();
+  const searchParams = useSearch({ from: '/console/films_/$id' });
 
   const { isPending, mutateAsync: handleSubmit } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
@@ -103,7 +102,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       });
     },
     onSuccess: () => {
-      const searchParams = getSearchValue('/console/films');
       navigate({ to: '/console/films', search: searchParams });
     },
     meta: {
@@ -170,7 +168,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       isLoading={isPending}
       islandActions
     >
-      <Drafts onSelectDraft={setSelectedDraft} />
+      <Drafts selectedDraft={selectedDraft} onSelectDraft={setSelectedDraft} />
       <Panel isFlexContainer>
         <Form.TextInput name="title" label="Title" />
         <Form.CheckboxesGroup

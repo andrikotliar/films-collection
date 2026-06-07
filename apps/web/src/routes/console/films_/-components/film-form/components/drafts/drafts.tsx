@@ -10,16 +10,18 @@ import {
   Modal,
   Panel,
   queryKey,
+  toaster,
 } from '~/shared';
 import styles from './drafts.module.css';
 import { useFormContext } from 'react-hook-form';
 import { TrashIcon } from 'lucide-react';
 
 type DraftsProps = {
+  selectedDraft: FilmDraftResponse | null;
   onSelectDraft: (draft: FilmDraftResponse | null) => void;
 };
 
-export const Drafts = ({ onSelectDraft }: DraftsProps) => {
+export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
   const params = useParams({ from: '/console/films_/$id' });
   const { data } = useSuspenseQuery(getFilmDraftsQueryOptions(params.id));
   const [contentToView, setContentToView] = useState<FilmDraftResponse | null>(null);
@@ -28,9 +30,13 @@ export const Drafts = ({ onSelectDraft }: DraftsProps) => {
 
   const { mutate, isPending } = useMutation({
     mutationFn: async (data: FilmDraftResponse) => {
+      if (selectedDraft?.id === data.id) {
+        toaster.error("Can't delete draft for the current session");
+        return;
+      }
+
       await api.films.deleteDraft({ params: { id: data.id } });
       setDraftToDelete(null);
-      onSelectDraft(null);
     },
     meta: {
       invalidateQueries: {

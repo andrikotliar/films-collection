@@ -8,7 +8,6 @@ import {
   api,
   FiltersSidebar,
   type SortingParams,
-  useSearchContext,
   queryKey,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
@@ -69,14 +68,14 @@ const sortingFields: ListOption<string>[] = [
 ];
 
 function PageContainer() {
-  const searchParams = Route.useSearch();
+  const searchParams = Route.useSearch({
+    select: ({ filmId: _, ...params }) => params,
+  });
   const navigate = Route.useNavigate();
   const { data, isFetching } = useQuery(getFilmsAdminListQueryOptions(searchParams));
   const { data: initialData, isFetching: isInitialDataFetching } = useSuspenseQuery(
     getInitialDataQueryOptions(),
   );
-
-  const { setSearchValue, clearSearchValue } = useSearchContext();
 
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
 
@@ -87,20 +86,22 @@ function PageContainer() {
         pageIndex,
       }),
     });
-    setSearchValue({ ...searchParams, pageIndex });
   };
 
   const handleEditFilm = (data: { id: number }) => {
     navigate({
       to: '/console/films/$id',
       params: { id: data.id.toString() },
+      search: searchParams,
     });
   };
 
   const handleViewFilm = (data: { id: number }) => {
     navigate({
-      to: '/films/$id',
-      params: { id: data.id.toString() },
+      search: (prev) => ({
+        ...prev,
+        filmId: data.id,
+      }),
     });
   };
 
@@ -116,7 +117,6 @@ function PageContainer() {
       search: searchParams,
     });
     hideFilter();
-    setSearchValue(searchParams);
   };
 
   const handleReset = () => {
@@ -127,7 +127,6 @@ function PageContainer() {
       },
     });
     hideFilter();
-    clearSearchValue('/console/films');
   };
 
   const filtersConfig = useMemo(() => {
@@ -189,7 +188,6 @@ function PageContainer() {
         onView={handleViewFilm}
         onSearch={handleSearch}
         isFetching={isFetching}
-        viewActionAvailable={(item) => !item.draft}
         onNavigateToForm="/console/films/$id"
         createItemTitle="New film"
         onPageChange={handlePageChange}

@@ -10,9 +10,8 @@ type AwardsSelectProps = {
 };
 
 const defaultAward: z.infer<typeof FilmFormSchema>['awards'][number] = {
-  actorId: null,
   awardId: 0,
-  nominationId: 0,
+  nominations: [],
 };
 
 export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
@@ -25,7 +24,7 @@ export const AwardsSelect = ({ awardOptions }: AwardsSelectProps) => {
 
   return (
     <Form.Section label="Awards">
-      <Form.ArrayWrapper onCreate={() => append(defaultAward)}>
+      <Form.ArrayWrapper onCreate={() => append(defaultAward)} createButtonLabel="Add award">
         {fields.map((field, index) => (
           <Form.ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
             <Form.Select

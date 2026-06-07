@@ -184,4 +184,12 @@ export const filmsContract = defineContracts('films', {
       response: DescriptionResponseSchema,
     },
   },
+  getAdminFilmById: {
+    method: 'GET',
+    url: 'admin/film/:id',
+    schema: {
+      params: IdParamSchema,
+      response: FilmResponseSchema,
+    },
+  },
 });
