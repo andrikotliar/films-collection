@@ -82,7 +82,7 @@ export const Drawer = ({
 
     const deltaX = e.touches[0].clientX - dragStartX.current;
 
-    if (deltaX <= 0) {
+    if (deltaX <= 20) {
       return;
     }
 
@@ -97,7 +97,7 @@ export const Drawer = ({
     const matrix = new DOMMatrix(getComputedStyle(drawerWrapperRef.current).transform);
     const translateX = matrix.m41;
 
-    if (translateX > 200) {
+    if (translateX > 20) {
       handleClose();
       return;
     }
