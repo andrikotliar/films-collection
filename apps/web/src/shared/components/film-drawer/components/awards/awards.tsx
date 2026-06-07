@@ -1,4 +1,4 @@
-import { Drawer, type api, type ApiResponse } from '~/shared';
+import { type api, type ApiResponse } from '~/shared';
 import { Award, Nominations } from './components';
 import styles from './awards.module.css';
 import { useState } from 'react';
@@ -20,13 +20,13 @@ export const Awards = ({ data }: AwardsProps) => {
             data={award.award}
             key={award.award.id}
             nominationsCount={award.nominations.length}
-            onSelect={() => setSelectedAward(award)}
+            onSelect={() =>
+              setSelectedAward((a) => (a?.award.id !== award.award.id ? award : null))
+            }
           />
         ))}
       </div>
-      <Drawer isOpen={selectedAward !== null} onClose={() => setSelectedAward(null)} size="narrow">
-        {selectedAward && <Nominations data={selectedAward} />}
-      </Drawer>
+      {selectedAward && <Nominations data={selectedAward} />}
     </>
   );
 };

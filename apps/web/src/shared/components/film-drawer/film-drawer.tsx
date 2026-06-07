@@ -8,18 +8,27 @@ import {
   PageSkeleton,
   SummarySection,
 } from '~/shared/components/film-drawer/components';
-import { getFilmQueryOptions } from '~/shared/helpers';
+import { getAdminFilmQueryOptions, getFilmQueryOptions } from '~/shared/helpers';
 import { useLocation, useNavigate } from '@tanstack/react-router';
-import styles from './film-drawer.module.css';
 
 type FilmDrawerProps = {
   filmId: number;
 };
 
+const getQueryOptions = (isConsole: boolean, filmId: number) => {
+  if (isConsole) {
+    return getAdminFilmQueryOptions(filmId);
+  }
+
+  return getFilmQueryOptions(filmId);
+};
+
 export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
-  const { data: film, isLoading } = useQuery(getFilmQueryOptions(filmId));
-  const navigate = useNavigate();
   const location = useLocation();
+  const { data: film, isLoading } = useQuery(
+    getQueryOptions(location.pathname.startsWith('/console'), filmId),
+  );
+  const navigate = useNavigate();
 
   const hasExtendedData = film?.awards.length !== 0 || film.castAndCrew.length !== 0;
 
@@ -31,20 +40,18 @@ export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
   };
 
   return (
-    <div className={styles.film_drawer_wrapper}>
-      <Drawer isOpen onClose={closeDrawer}>
-        {isLoading && <PageSkeleton />}
+    <Drawer isOpen onClose={closeDrawer} textColor="white">
+      {isLoading && <PageSkeleton />}
 
-        {film && (
-          <FilmPageLayout>
-            <SummarySection film={film} hasExtendedData={hasExtendedData} />
-            <ContentLayout>
-              {film.awards.length > 0 && <Awards data={film.awards} />}
-              {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
-            </ContentLayout>
-          </FilmPageLayout>
-        )}
-      </Drawer>
-    </div>
+      {film && (
+        <FilmPageLayout>
+          <SummarySection film={film} hasExtendedData={hasExtendedData} />
+          <ContentLayout>
+            {film.awards.length > 0 && <Awards data={film.awards} />}
+            {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
+          </ContentLayout>
+        </FilmPageLayout>
+      )}
+    </Drawer>
   );
 };

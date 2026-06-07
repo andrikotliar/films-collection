@@ -45,6 +45,11 @@ export const Pagination = ({
     return buildPagination(currentPageIndex + 1, Math.ceil(total / perPageCounter));
   }, [total, currentPageIndex, perPageCounter]);
 
+  const handlePageChange = (pageIndex: number) => {
+    onPageChange(pageIndex);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className={styles.pagination}>
       {pagesCount > 1 && (
@@ -64,7 +69,7 @@ export const Pagination = ({
                   [styles.active]: currentPageIndex + 1 === page,
                 })}
                 key={index}
-                onClick={() => onPageChange(page - 1)}
+                onClick={() => handlePageChange(page - 1)}
               >
                 {page}
               </button>

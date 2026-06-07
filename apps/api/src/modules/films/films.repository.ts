@@ -375,9 +375,17 @@ export class FilmsRepository {
       }
 
       if (awards.length) {
-        const values = awards.map((award) => ({ ...award, filmId }));
+        const values = awards.map((award) => {
+          const nominations = award.nominations;
 
-        await tr.insert(filmAwardNominations).values(values);
+          return nominations.map((nomination) => ({
+            ...nomination,
+            awardId: award.awardId,
+            filmId,
+          }));
+        });
+
+        await tr.insert(filmAwardNominations).values(values.flat());
       }
 
       if (genres.length) {
@@ -532,14 +540,19 @@ export class FilmsRepository {
       }
 
       if (awards) {
+        const values = awards.map((award) => {
+          return award.nominations.map((nomination) => ({
+            ...nomination,
+            awardId: award.awardId,
+            filmId,
+          }));
+        });
+
         await this.updateFilmRelations({
           transaction,
           filmId,
           table: filmAwardNominations,
-          values: awards.map((award) => ({
-            ...award,
-            filmId,
-          })),
+          values: values.flat(),
         });
       }
 

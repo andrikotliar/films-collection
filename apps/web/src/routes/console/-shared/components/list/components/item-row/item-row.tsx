@@ -20,11 +20,6 @@ export type ItemRowProps<T extends DefaultListItem> = {
   onDelete: ActionHandler<T>;
   onEdit: ActionHandler<T>;
   additionalHandlers?: Array<AdditionalHandler<T>>;
-  viewActionAvailable?: (item: T) => boolean;
-};
-
-const defaultViewActionAvailableFn = <T extends DefaultListItem>(_item: T) => {
-  return true;
 };
 
 export const ItemRow = <T extends DefaultListItem>({
@@ -36,14 +31,13 @@ export const ItemRow = <T extends DefaultListItem>({
   onCreate,
   onView,
   additionalHandlers,
-  viewActionAvailable = defaultViewActionAvailableFn,
 }: ItemRowProps<T>) => {
   return (
     <div className={styles.item_row}>
       <div className={styles.item_row_content}>
         <div>{data[titleKey]}</div>
         <div className={styles.right_column}>
-          {typeof onView === 'function' && viewActionAvailable(data) && (
+          {typeof onView === 'function' && (
             <Button onClick={() => onView(data)} variant="ghost" icon={<EyeIcon />} />
           )}
           {typeof onCreate === 'function' && (

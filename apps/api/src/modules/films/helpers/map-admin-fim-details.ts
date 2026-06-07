@@ -31,6 +31,19 @@ export const mapInnerId = <T extends Record<string, number>>(
 };
 
 export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
+  const groupedAwards = film.awards.reduce((groups, award) => {
+    if (!groups[award.awardId]) {
+      groups[award.awardId] = [];
+    }
+
+    groups[award.awardId].push({
+      nominationId: award.nominationId,
+      actorId: award.actorId,
+    });
+
+    return groups;
+  }, {} as Record<number, CreateFilmInput['awards'][number]['nominations']>);
+
   return {
     ...film,
     genres: mapInnerId(film.genres, 'genreId'),
@@ -38,9 +51,9 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     studios: mapInnerId(film.studios, 'studioId'),
     collections: film.collections,
     releaseDate: film.releaseDate ? film.releaseDate.split('T')[0] : null,
-    awards: film.awards.map((award) => ({
-      ...award,
-      personId: award.actorId,
+    awards: Object.keys(groupedAwards).map((key) => ({
+      awardId: Number(key),
+      nominations: groupedAwards[Number(key)],
     })),
     seriesExtension: film.seriesExtensions.length
       ? {
