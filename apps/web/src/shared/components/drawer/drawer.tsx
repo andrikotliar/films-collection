@@ -15,6 +15,8 @@ type DrawerProps = {
   textColor?: 'white' | 'black';
 };
 
+const BLOCKING_CLASS_NAME = 'no-doc-scroll';
+
 export const Drawer = ({
   children,
   size = 'wide',
@@ -26,6 +28,9 @@ export const Drawer = ({
   const drawerWrapperRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const dragStartX = useRef(0);
+  const [blockingClass, setBlockingClass] = useState(
+    window.innerWidth <= 1080 ? BLOCKING_CLASS_NAME : undefined,
+  );
 
   if (!isOpen) {
     return null;
@@ -33,6 +38,7 @@ export const Drawer = ({
 
   const handleClose = () => {
     setIsClosing(true);
+    setBlockingClass(undefined);
     setTimeout(() => {
       onClose();
       setIsClosing(false);
@@ -50,7 +56,9 @@ export const Drawer = ({
   };
 
   const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
-    if (!drawerWrapperRef.current) {
+    const path = e.nativeEvent.composedPath();
+
+    if (!drawerWrapperRef.current || !path.includes(drawerWrapperRef.current)) {
       return;
     }
 
@@ -97,7 +105,7 @@ export const Drawer = ({
     const matrix = new DOMMatrix(getComputedStyle(drawerWrapperRef.current).transform);
     const translateX = matrix.m41;
 
-    if (translateX > 20) {
+    if (translateX > drawerWrapperRef.current.clientWidth / 2) {
       handleClose();
       return;
     }
@@ -112,7 +120,7 @@ export const Drawer = ({
         styles.drawer_wrapper,
         styles[size],
         isClosing && styles.is_closing,
-        window.innerWidth <= 1080 && 'no-doc-scroll',
+        window.innerWidth <= 1080 && blockingClass,
       )}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}

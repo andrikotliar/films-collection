@@ -105,6 +105,7 @@
   .track {
     width: 100%;
     flex-direction: row;
+    padding: 10px;
   }
 
   .trailer_button {
