@@ -66,6 +66,18 @@
   border-bottom: 0;
 }
 
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.star_icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--color-gray-light-dark);
+  stroke: var(--color-gray-light-dark);
+}
+
 @media (width <= 920px) {
   .content {
     flex-direction: column;
@@ -90,6 +102,9 @@
 }
 
 @media (width <= 520px) {
+  .top_section {
+    padding: 30px 15px;
+  }
   .role_item {
     flex-direction: column;
     gap: 10px;

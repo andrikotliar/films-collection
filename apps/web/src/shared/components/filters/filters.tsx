@@ -5,6 +5,7 @@ import { useForm, FormProvider, type DefaultValues } from 'react-hook-form';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { type FilterItem, Button } from '~/shared';
 import { FilterOptions } from './components';
+import { useEffect } from 'react';
 
 export type FiltersProps<
   TDefaultValues extends Record<string, unknown>,
@@ -43,6 +44,10 @@ export const Filters = <TDefaultValues extends Record<string, unknown>, TSchema 
     onSubmit(data);
     window.scrollTo(0, 0);
   };
+
+  useEffect(() => {
+    filtersForm.reset(defaultValues);
+  }, [defaultValues]);
 
   return (
     <FormProvider {...filtersForm}>

@@ -103,6 +103,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     },
     onSuccess: () => {
       navigate({ to: '/console/films', search: searchParams });
+      window.scrollTo(0, 0);
     },
     meta: {
       invalidateQueries: [
