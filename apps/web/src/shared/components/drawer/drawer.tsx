@@ -1,7 +1,9 @@
 import clsx from 'clsx';
 import styles from './drawer.module.css';
 import { XIcon } from 'lucide-react';
-import { useRef, useState } from 'react';
+import { useLayoutEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
+import { BLOCKING_SCROLL_CLASS_NAME } from '~/shared/constants';
 
 type Size = 'narrow' | 'wide';
 type Position = 'left' | 'right';
@@ -12,36 +14,54 @@ type DrawerProps = {
   isOpen: boolean;
   position?: Position;
   onClose: VoidFunction;
-  textColor?: 'white' | 'black';
 };
 
-const BLOCKING_CLASS_NAME = 'no-doc-scroll';
+const setDraggingClass = (element: HTMLDivElement) => {
+  element.classList.add(styles.is_dragging);
+  element.classList.remove(styles.is_settling);
+};
 
-export const Drawer = ({
-  children,
-  size = 'wide',
-  isOpen,
-  onClose,
-  textColor = 'black',
-}: DrawerProps) => {
-  const [isClosing, setIsClosing] = useState(false);
+const removeDraggingClass = (element: HTMLDivElement) => {
+  element.classList.remove(styles.is_dragging);
+  element.classList.add(styles.is_settling);
+};
+
+const setClosingClass = (element: HTMLDivElement | null) => {
+  if (!element) {
+    return;
+  }
+
+  element.classList.remove(BLOCKING_SCROLL_CLASS_NAME);
+  element.classList.add(styles.is_settling);
+  element.classList.add(styles.is_closing);
+};
+
+export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps) => {
   const drawerWrapperRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const dragStartX = useRef(0);
-  const [blockingClass, setBlockingClass] = useState(
-    window.innerWidth <= 1080 ? BLOCKING_CLASS_NAME : undefined,
-  );
+  const dragStartY = useRef(0);
+
+  useLayoutEffect(() => {
+    const drawer = drawerWrapperRef.current;
+    if (!drawer) return;
+
+    drawer.style.transform = 'translateX(100%)';
+
+    requestAnimationFrame(() => {
+      drawer.classList.add(styles.is_settling);
+      drawer.style.transform = 'translateX(0)';
+    });
+  }, []);
 
   if (!isOpen) {
     return null;
   }
 
   const handleClose = () => {
-    setIsClosing(true);
-    setBlockingClass(undefined);
+    setClosingClass(drawerWrapperRef.current);
     setTimeout(() => {
       onClose();
-      setIsClosing(false);
     }, 600);
   };
 
@@ -49,6 +69,8 @@ export const Drawer = ({
     if (!drawerWrapperRef.current) {
       return;
     }
+
+    setDraggingClass(drawerWrapperRef.current);
 
     isDragging.current = true;
 
@@ -62,9 +84,12 @@ export const Drawer = ({
       return;
     }
 
+    setDraggingClass(drawerWrapperRef.current);
+
     isDragging.current = true;
 
     dragStartX.current = e.touches[0].clientX;
+    dragStartY.current = e.touches[0].clientY;
   };
 
   const handleMouseMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -89,12 +114,28 @@ export const Drawer = ({
     }
 
     const deltaX = e.touches[0].clientX - dragStartX.current;
+    const deltaY = e.touches[0].clientY - dragStartY.current;
 
-    if (deltaX <= 20) {
+    if (Math.abs(deltaY) > 8 && Math.abs(deltaY) > Math.abs(deltaX)) {
+      return;
+    }
+
+    if (deltaX < 0 || Math.abs(deltaX) < Math.abs(deltaY)) {
       return;
     }
 
     drawerWrapperRef.current.style.transform = `translateX(${deltaX}px)`;
+  };
+
+  const handleMouseLeave = () => {
+    if (!drawerWrapperRef.current) {
+      return;
+    }
+
+    removeDraggingClass(drawerWrapperRef.current);
+
+    isDragging.current = false;
+    drawerWrapperRef.current.style.transform = '';
   };
 
   const handleMouseUp = () => {
@@ -104,6 +145,7 @@ export const Drawer = ({
 
     const matrix = new DOMMatrix(getComputedStyle(drawerWrapperRef.current).transform);
     const translateX = matrix.m41;
+    removeDraggingClass(drawerWrapperRef.current);
 
     if (translateX > drawerWrapperRef.current.clientWidth / 2) {
       handleClose();
@@ -114,28 +156,25 @@ export const Drawer = ({
     drawerWrapperRef.current.style.transform = '';
   };
 
-  return (
+  return createPortal(
     <div
-      className={clsx(
-        styles.drawer_wrapper,
-        styles[size],
-        isClosing && styles.is_closing,
-        window.innerWidth <= 1080 && blockingClass,
-      )}
+      className={clsx(styles.drawer_wrapper, styles[size], BLOCKING_SCROLL_CLASS_NAME)}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseUp}
+      onMouseLeave={handleMouseLeave}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleMouseUp}
       onTouchMove={handleTouchMove}
       ref={drawerWrapperRef}
-      style={{ color: textColor }}
     >
+      <div className={styles.close_button_holder}>
+        <button className={styles.close_button} onClick={handleClose}>
+          <XIcon />
+        </button>
+      </div>
       {children}
-      <button className={styles.close_button} onClick={handleClose}>
-        <XIcon className={styles.close_icon} />
-      </button>
-    </div>
+    </div>,
+    document.body,
   );
 };

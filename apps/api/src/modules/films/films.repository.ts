@@ -93,18 +93,18 @@ export class FilmsRepository {
   }
 
   async findAndCount(queries: PlainFilmFilters) {
-    const filters = mapListFilters(queries, this.deps.db);
+    const { filters, drafts } = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order, queries);
 
     const list = await this.deps.db
       .select()
       .from(films)
-      .where(and(...filters))
+      .where(and(...filters, drafts))
       .limit(PAGE_LIMITS.filmsList)
       .offset(getSkipValue('filmsList', queries.pageIndex))
       .orderBy(sorting, asc(films.id));
 
-    const total = await this.count(filters);
+    const total = await this.count([...filters, eq(films.draft, false)]);
 
     return { list, total };
   }

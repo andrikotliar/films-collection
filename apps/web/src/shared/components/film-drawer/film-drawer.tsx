@@ -40,7 +40,7 @@ export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
   };
 
   return (
-    <Drawer isOpen onClose={closeDrawer} textColor="white">
+    <Drawer isOpen onClose={closeDrawer}>
       {isLoading && <PageSkeleton />}
 
       {film && (
