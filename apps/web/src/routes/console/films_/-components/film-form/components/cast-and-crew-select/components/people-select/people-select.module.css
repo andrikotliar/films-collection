@@ -8,8 +8,9 @@
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  padding-top: 10px;
-  border-top: var(--border-default);
+  background-color: var(--color-blue-invisible);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .left_column {
