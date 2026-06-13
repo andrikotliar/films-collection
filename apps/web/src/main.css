@@ -134,3 +134,19 @@ body {
 body:has(.no-doc-scroll) {
   overflow: hidden;
 }
+
+.is-dragging {
+  transition: none !important;
+}
+
+.is-settling {
+  transition: transform 300ms ease;
+}
+
+.is-closing-right {
+  transform: translateX(120%) !important;
+}
+
+.is-closing-left {
+  transform: translateX(-120%) !important;
+}
