@@ -36,7 +36,6 @@ export const CreateFilmInputSchema = z.object({
     }),
   ),
   duration: z.coerce.number(),
-  runtimeRange: z.array(z.number()).min(2).max(2),
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
