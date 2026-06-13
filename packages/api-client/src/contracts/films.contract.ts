@@ -19,7 +19,6 @@ import {
   FilmDraftFilmIdParamsSchema,
   FilmTrailersResponseSchema,
   GetAdminListQuerySchema,
-  GetFilmStatsQuerySchema,
   FilmStatsResponseSchema,
   FilmsByCollectionResponseSchema,
   GenerateDescriptionInputSchema,
@@ -57,7 +56,6 @@ export const filmsContract = defineContracts('films', {
     method: 'GET',
     url: 'stats',
     schema: {
-      querystring: GetFilmStatsQuerySchema,
       response: FilmStatsResponseSchema,
     },
   },

@@ -19,3 +19,4 @@ export * from './form-toggle/form-toggle';
 export * from './form-video-input/form-video-input';
 export * from './form-order-select/form-order-select';
 export * from './form-password-input/form-password-input';
+export * from './form-range-input/form-range-input';

@@ -44,6 +44,7 @@ import {
   filmTrailers,
   genres,
   seriesExtensions,
+  studios,
   type FilmCollection,
 } from '~/database/schema.js';
 import type {
@@ -838,15 +839,15 @@ export class FilmsRepository {
   aggregateFilmStudios() {
     return this.deps.db
       .select({
-        id: countries.id,
-        title: countries.title,
+        id: studios.id,
+        title: studios.title,
         count: count(),
       })
-      .from(filmsCountries)
-      .innerJoin(films, eq(films.id, filmsCountries.filmId))
-      .innerJoin(countries, eq(countries.id, filmsCountries.countryId))
+      .from(filmsStudios)
+      .innerJoin(films, eq(films.id, filmsStudios.filmId))
+      .innerJoin(studios, eq(studios.id, filmsStudios.studioId))
       .where(this.getPublicFilmsFilter())
-      .groupBy(countries.id, countries.title);
+      .groupBy(studios.id, studios.title);
   }
 
   aggregateFilmTypes() {

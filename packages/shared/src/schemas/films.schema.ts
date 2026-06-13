@@ -36,6 +36,7 @@ export const CreateFilmInputSchema = z.object({
     }),
   ),
   duration: z.coerce.number(),
+  runtimeRange: z.array(z.number()).min(2).max(2),
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number(),
   boxOffice: z.coerce.number(),
@@ -94,6 +95,7 @@ export const GetFilmsListQuerySchema = z.object({
   orderKey: z.string().optional(),
   order: z.enum(['asc', 'desc']).optional(),
   releasedThisDay: getBoolFromQuery.optional(),
+  runtimeRange: getArrayFromQuery(z.coerce.number()).optional(),
 });
 
 export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
@@ -334,12 +336,12 @@ export const GetFilmStatsQuerySchema = z.object({
 });
 
 export const FilmStatsResponseSchema = z.object({
-  genres: z.object<Record<string, number>>(),
-  countries: z.object<Record<string, number>>(),
-  collections: z.object<Record<string, number>>(),
-  studios: z.object<Record<string, number>>(),
-  types: z.object<Record<string, number>>(),
-  styles: z.object<Record<string, number>>(),
+  genres: z.any(),
+  countries: z.any(),
+  collections: z.any(),
+  studios: z.any(),
+  types: z.any(),
+  styles: z.any(),
 });
 
 export const FilmsByCollectionResponseSchema = z.array(
@@ -370,5 +372,4 @@ export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
 export type GetAdminListQueryParams = z.infer<typeof GetAdminListQuerySchema>;
-export type GetFilmStatsQueryParams = z.infer<typeof GetFilmStatsQuerySchema>;
 export type FilmStatsResponse = z.infer<typeof FilmStatsResponseSchema>;

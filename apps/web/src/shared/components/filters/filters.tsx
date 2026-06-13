@@ -44,13 +44,19 @@ export const Filters = <TDefaultValues extends Record<string, unknown>, TSchema 
     window.scrollTo(0, 0);
   };
 
+  const values = filtersForm.watch();
+
   return (
     <FormProvider {...filtersForm}>
       <form onSubmit={filtersForm.handleSubmit(handleSubmit)} className={styles.filters}>
         <div className={styles.filter_groups}>
-          {config.map((filter) => (
-            <FilterOptions filter={filter} key={filter.title} />
-          ))}
+          {config.map((filter) => {
+            if (filter.dependsOn && values[filter.dependsOn.filter] !== filter.dependsOn.value) {
+              return null;
+            }
+
+            return <FilterOptions filter={filter} key={filter.title} />;
+          })}
         </div>
         <div className={styles.controls}>
           <Button icon={<SearchIcon />} type="submit">

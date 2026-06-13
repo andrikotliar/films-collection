@@ -1,10 +1,16 @@
 import type { ListOption } from '@films-collection/shared';
+import type { AsyncSelectProps } from '~/shared/components/async-select/async-select';
 
 type OnlyStringKey<T> = Extract<keyof T, string>;
 
 type BaseFilter<T extends Record<string, any>> = {
   id: OnlyStringKey<T>;
   title: string;
+  stats?: Record<string, number>;
+  dependsOn?: {
+    filter: keyof T;
+    value: any;
+  };
 };
 
 export type CheckboxFilter<T extends Record<string, any>> = BaseFilter<T> & {
@@ -36,7 +42,51 @@ export type NestedFilters<T extends Record<string, any>> = BaseFilter<T> & {
   options: NestedFiltersOption<T>[];
 };
 
+export type SelectFilter<T extends Record<string, any>> = BaseFilter<T> & {
+  type: 'select';
+  options: ListOption[];
+};
+
+export type AsyncComboSelectFilter<T extends Record<string, any>> = BaseFilter<T> & {
+  type: 'combo-select';
+  dependency: {
+    id: OnlyStringKey<T>;
+    label: string;
+    options: ListOption<any>[];
+  };
+  selector: {
+    id: OnlyStringKey<T>;
+    label: string;
+    loader: AsyncSelectProps['optionsLoader'];
+    queryKey: string;
+    isMultiple?: boolean;
+  };
+};
+
+export type NumberFilter<T extends Record<string, any>> = BaseFilter<T> & {
+  type: 'number';
+  min?: number;
+  max?: number;
+};
+
+export type RatingFilter<T extends Record<string, any>> = BaseFilter<T> & {
+  type: 'rating';
+  size: number;
+};
+
+export type RangeFilter<T extends Record<string, any>> = BaseFilter<T> & {
+  type: 'range';
+  min: number;
+  max: number;
+  step: number;
+};
+
 export type FilterItem<T extends Record<string, any>> =
   | CheckboxFilter<T>
+  | NumberFilter<T>
+  | SelectFilter<T>
+  | RangeFilter<T>
   | DateFilter<T>
-  | NestedFilters<T>;
+  | RatingFilter<T>
+  | NestedFilters<T>
+  | AsyncComboSelectFilter<T>;

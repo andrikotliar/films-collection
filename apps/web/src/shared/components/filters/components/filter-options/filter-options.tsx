@@ -1,4 +1,6 @@
 import { Form, type FilterItem } from '~/shared';
+import styles from './filter-options.module.css';
+import { ComboSelect } from '~/shared/components/filters/components/combo-select/combo-select';
 
 type FilterOptionsProps<T extends Record<string, any>> = {
   filter: FilterItem<T>;
@@ -10,13 +12,17 @@ export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterO
       return (
         <Form.Group title={filter.title}>
           {filter.options.map((option) => (
-            <Form.Checkbox
-              type={filter.inputType}
-              label={option.label}
-              value={option.value}
-              name={filter.id}
-              key={option.value}
-            />
+            <div key={option.value} className={styles.filter_option_row}>
+              <Form.Checkbox
+                type={filter.inputType}
+                label={option.label}
+                value={option.value}
+                name={filter.id}
+              />
+              {filter.stats?.[option.label] !== undefined && (
+                <div className={styles.stat_item}>{filter.stats[option.label]}</div>
+              )}
+            </div>
           ))}
         </Form.Group>
       );
@@ -30,6 +36,37 @@ export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterO
           {filter.options.map((option) => (
             <Form.Checkbox type="checkbox" label={option.label} name={option.id} key={option.id} />
           ))}
+        </Form.Group>
+      );
+
+    case 'rating':
+      return (
+        <Form.Group title={filter.title}>
+          <Form.RatingInput name={filter.id} size={filter.size} />
+        </Form.Group>
+      );
+
+    case 'number':
+      return (
+        <Form.Group title={filter.title}>
+          <Form.TextInput name={filter.id} type="number" min={filter.min} max={filter.max} />
+        </Form.Group>
+      );
+
+    case 'combo-select':
+      return <ComboSelect filter={filter} />;
+
+    case 'select':
+      return (
+        <Form.Group title={filter.title}>
+          <Form.Select options={filter.options} name={filter.id} />
+        </Form.Group>
+      );
+
+    case 'range':
+      return (
+        <Form.Group title={filter.title}>
+          <Form.RangeInput name={filter.id} {...filter} />
         </Form.Group>
       );
 

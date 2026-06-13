@@ -105,6 +105,7 @@ export const mapListFilters = (
     noBoxOffice,
     noCrewOrCast,
     noTrailers,
+    runtimeRange,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
@@ -180,8 +181,12 @@ export const mapListFilters = (
     filters.push(eq(films.rating, rating));
   }
 
-  if (duration) {
+  if (duration && !runtimeRange) {
     filters.push(eq(films.duration, duration));
+  }
+
+  if (runtimeRange) {
+    filters.push(between(films.duration, runtimeRange[0], runtimeRange[1]));
   }
 
   if (seasonsTotal) {

@@ -23,3 +23,4 @@ export * from './get-film-trailers-query-options';
 export * from './get-user-data-query-options';
 export * from './get-films-by-collection-query-options';
 export * from './get-all-collection-options-query-options';
+export * from './get-films-stats-query-options';
