@@ -140,7 +140,6 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
           Add nomination
         </Button>
       </div>
-      ß
     </div>
   );
 };
