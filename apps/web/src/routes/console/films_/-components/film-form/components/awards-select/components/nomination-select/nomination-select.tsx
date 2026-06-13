@@ -122,7 +122,10 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
                 name={`awards.${index}.nominations.${nominationIndex}.actorId`}
                 optionsLoader={api.people.search}
                 label="Person"
-                queryKey={index}
+                queryKey={[
+                  queryKey('awards.getNominations'),
+                  currentAward.nominations[nominationIndex]?.actorId,
+                ]}
                 onCreateOption={createPerson}
                 isOptionsLoading={isPending}
               />
@@ -131,13 +134,15 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
           <Button icon={<TrashIcon />} variant="ghost" onClick={() => remove(nominationIndex)} />
         </div>
       ))}
-      <Button
-        variant="ghost"
-        onClick={() => append({ nominationId: 0, actorId: null })}
-        icon={<PlusIcon />}
-      >
-        Add nomination
-      </Button>
+      <div>
+        <Button
+          variant="ghost"
+          onClick={() => append({ nominationId: 0, actorId: null })}
+          icon={<PlusIcon />}
+        >
+          Add nomination
+        </Button>
+      </div>
     </div>
   );
 };

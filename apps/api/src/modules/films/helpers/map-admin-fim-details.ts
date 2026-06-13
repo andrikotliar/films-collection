@@ -1,4 +1,4 @@
-import type { CreateFilmInput } from '@films-collection/shared';
+import type { CreateFilmInput, Enum, PersonRole } from '@films-collection/shared';
 import type {
   Film,
   FilmAwardNomination,
@@ -11,6 +11,7 @@ import type {
   SeriesExtension,
 } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';
+import { getTypedKeys } from '~/shared/index.js';
 
 type EditableFilm = Omit<Film, Timestamps | 'id'> & {
   collections: Pick<FilmCollection, 'collectionId' | 'order'>[];
@@ -44,6 +45,19 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     return groups;
   }, {} as Record<number, CreateFilmInput['awards'][number]['nominations']>);
 
+  const groupedPeople = film.castAndCrew.reduce((groups, item) => {
+    if (!groups[item.role]) {
+      groups[item.role] = [];
+    }
+
+    groups[item.role].push({
+      personId: item.personId,
+      details: item.details,
+    });
+
+    return groups;
+  }, {} as Record<Enum<typeof PersonRole>, CreateFilmInput['castAndCrew'][number]['people']>);
+
   return {
     ...film,
     genres: mapInnerId(film.genres, 'genreId'),
@@ -51,6 +65,12 @@ export const mapAdminFilmDetails = (film: EditableFilm): CreateFilmInput => {
     studios: mapInnerId(film.studios, 'studioId'),
     collections: film.collections,
     releaseDate: film.releaseDate ? film.releaseDate.split('T')[0] : null,
+    castAndCrew: getTypedKeys(groupedPeople).map((key) => {
+      return {
+        role: key,
+        people: groupedPeople[key],
+      };
+    }),
     awards: Object.keys(groupedAwards).map((key) => ({
       awardId: Number(key),
       nominations: groupedAwards[Number(key)],

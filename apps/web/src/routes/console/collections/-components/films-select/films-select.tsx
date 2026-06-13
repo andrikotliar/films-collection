@@ -29,7 +29,7 @@ export const FilmsSelect = () => {
       <div className={styles.select_wrapper}>
         <AsyncSelect
           optionsLoader={api.films.getOptions}
-          queryKey="collectionFormFilmId"
+          queryKey={['collectionFormFilmId']}
           onSelect={(value: number, option) => {
             if (fields.find((film) => film.filmId === value)) {
               toaster.warning(`${option?.label} is already added`);

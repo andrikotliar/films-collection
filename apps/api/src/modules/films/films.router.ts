@@ -33,8 +33,8 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
   },
 
   getFilmStats: {
-    handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getStats(request.query);
+    handler: async ({ app }) => {
+      const data = await app.container.resolve('filmsService').getStats();
 
       return { data };
     },

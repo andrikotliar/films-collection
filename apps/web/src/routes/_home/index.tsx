@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import {
   countObjectKeys,
@@ -8,6 +8,7 @@ import {
   FiltersSidebar,
   filterValues,
   getFilmsListQueryOptions,
+  getFilmsStatsQueryOptions,
   getInitialDataQueryOptions,
   useSidebarVisibility,
 } from '~/shared';
@@ -26,7 +27,9 @@ export const Route = createFileRoute('/_home/')({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: `Films Collection (${loaderData?.allFilmsCount} films)`,
+        title: loaderData?.allFilmsCount
+          ? `Films Collection (${loaderData?.allFilmsCount} films)`
+          : 'Films Collection',
       },
     ],
   }),
@@ -41,13 +44,15 @@ function RootPageContainer() {
     getInitialDataQueryOptions(),
   );
 
+  const { data: stats } = useQuery(getFilmsStatsQueryOptions());
+
   const filtersConfig = useMemo(() => {
     if (!initialData) {
       return [];
     }
 
-    return getFiltersConfig(initialData);
-  }, [initialData]);
+    return getFiltersConfig(initialData, stats);
+  }, [initialData, stats]);
 
   const submitFilter: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
     const filledOptions = filterValues(data);

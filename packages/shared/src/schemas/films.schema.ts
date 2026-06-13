@@ -42,9 +42,15 @@ export const CreateFilmInputSchema = z.object({
   synopsis: z.string().nullable(),
   castAndCrew: z.array(
     z.object({
-      personId: z.coerce.number().min(1, 'Person cannot be empty'),
       role: z.enum(PersonRole),
-      details: z.string().nullable(),
+      people: z
+        .array(
+          z.object({
+            personId: z.coerce.number().min(1, 'Person cannot be empty'),
+            details: z.string().nullable(),
+          }),
+        )
+        .min(1, 'Cast and Crew should contain people'),
     }),
   ),
   awards: z.array(
@@ -94,6 +100,7 @@ export const GetFilmsListQuerySchema = z.object({
   orderKey: z.string().optional(),
   order: z.enum(['asc', 'desc']).optional(),
   releasedThisDay: getBoolFromQuery.optional(),
+  runtimeRange: getArrayFromQuery(z.coerce.number()).optional(),
 });
 
 export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
@@ -333,18 +340,13 @@ export const GetFilmStatsQuerySchema = z.object({
   blocks: getArrayFromQuery(z.enum(['genres', 'countries', 'collections', 'studios', 'types'])),
 });
 
-const StatsSchema = z.object({
-  id: z.number(),
-  title: z.string(),
-  count: z.number(),
-});
-
 export const FilmStatsResponseSchema = z.object({
-  genres: z.array(StatsSchema),
-  countries: z.array(StatsSchema),
-  collections: z.array(StatsSchema),
-  studios: z.array(StatsSchema),
-  types: z.array(StatsSchema),
+  genres: z.any(),
+  countries: z.any(),
+  collections: z.any(),
+  studios: z.any(),
+  types: z.any(),
+  styles: z.any(),
 });
 
 export const FilmsByCollectionResponseSchema = z.array(
@@ -375,5 +377,4 @@ export type CreateFilmDraftInput = z.infer<typeof CreateFilmDraftInputSchema>;
 export type FilmDraftResponse = z.infer<typeof FilmDraftInputResponse>;
 export type FilmDraftFilmIdParams = z.infer<typeof FilmDraftFilmIdParamsSchema>;
 export type GetAdminListQueryParams = z.infer<typeof GetAdminListQuerySchema>;
-export type GetFilmStatsQueryParams = z.infer<typeof GetFilmStatsQuerySchema>;
 export type FilmStatsResponse = z.infer<typeof FilmStatsResponseSchema>;

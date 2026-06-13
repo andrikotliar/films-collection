@@ -1,4 +1,4 @@
-import { BadRequestException, type Deps, throwIfNotFound } from '~/shared/index.js';
+import { BadRequestException, type Deps, getTypedKeys, throwIfNotFound } from '~/shared/index.js';
 import {
   type GetFilmsListQuery,
   type GetFilmOptionsQuery,
@@ -15,7 +15,6 @@ import {
   enumValues,
   PAGE_LIMITS,
   type FilmStatsResponse,
-  type GetFilmStatsQueryParams,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
 import type { Film, FilmCollection } from '~/database/schema.js';
@@ -45,11 +44,12 @@ export class FilmsService {
       film: null,
       date: null,
     },
-    genres: [],
-    collections: [],
-    countries: [],
-    studios: [],
-    types: [],
+    genres: {},
+    collections: {},
+    countries: {},
+    studios: {},
+    types: {},
+    styles: {},
   });
 
   constructor(
@@ -335,35 +335,65 @@ export class FilmsService {
     return this.deps.filmsRepository.getTrailersByFilmId(id);
   }
 
-  private async mapFilmTypesAndStyles() {
-    const data = await this.deps.filmsRepository.aggregateFilmTypesAndStyles();
+  private async mapAggregatedValues(
+    getValues: () => Promise<Array<{ title: string; count: number }>>,
+    convertEnums: boolean = false,
+  ) {
+    const result: Record<string, number> = {};
 
-    return data.map((item, index) => ({
-      id: index + 1,
-      title: `${item.type}_${item.style}`,
-      count: item.count,
-    }));
+    const values = await getValues();
+
+    for (const item of values) {
+      if (convertEnums) {
+        const title = convertEnumValueToLabel(item.title);
+
+        result[title] = item.count;
+      } else {
+        result[item.title] = item.count;
+      }
+    }
+
+    return result;
   }
 
   private aggregate(key: keyof FilmStatsResponse) {
+    const convertEnumsFlag = true;
     switch (key) {
       case 'collections':
-        return this.deps.filmsRepository.aggregateFilmCollections();
+        return this.mapAggregatedValues(
+          this.deps.filmsRepository.aggregateFilmCollections.bind(this.deps.filmsRepository),
+        );
       case 'genres':
-        return this.deps.filmsRepository.aggregateFilmGenres();
+        return this.mapAggregatedValues(
+          this.deps.filmsRepository.aggregateFilmGenres.bind(this.deps.filmsRepository),
+        );
       case 'countries':
-        return this.deps.filmsRepository.aggregateFilmCountries();
+        return this.mapAggregatedValues(
+          this.deps.filmsRepository.aggregateFilmCountries.bind(this.deps.filmsRepository),
+        );
       case 'studios':
-        return this.deps.filmsRepository.aggregateFilmStudios();
+        return this.mapAggregatedValues(
+          this.deps.filmsRepository.aggregateFilmStudios.bind(this.deps.filmsRepository),
+        );
       case 'types':
-        return this.mapFilmTypesAndStyles();
+        return this.mapAggregatedValues(
+          this.deps.filmsRepository.aggregateFilmTypes.bind(this.deps.filmsRepository),
+          convertEnumsFlag,
+        );
+      case 'styles':
+        return this.mapAggregatedValues(
+          this.deps.filmsRepository.aggregateFilmStyles.bind(this.deps.filmsRepository),
+          convertEnumsFlag,
+        );
+      default:
+        throw new BadRequestException({ message: 'Unknown stats type' });
     }
   }
 
   private async getStatsBlock(key: keyof FilmStatsResponse) {
     const cachedValue = this.cache.get(key);
 
-    if (cachedValue.length) {
+    if (Object.keys(cachedValue).length) {
       return cachedValue;
     }
 
@@ -374,20 +404,23 @@ export class FilmsService {
     return liveData;
   }
 
-  async getStats({ blocks }: GetFilmStatsQueryParams): Promise<FilmStatsResponse> {
-    const result: FilmStatsResponse = {
-      genres: [],
-      collections: [],
-      countries: [],
-      studios: [],
-      types: [],
+  async getStats(): Promise<FilmStatsResponse> {
+    const blocks: FilmStatsResponse = {
+      genres: {},
+      collections: {},
+      countries: {},
+      studios: {},
+      types: {},
+      styles: {},
     };
 
-    for await (const block of blocks) {
-      result[block] = await this.getStatsBlock(block);
+    for await (const block of getTypedKeys(blocks)) {
+      const data = await this.getStatsBlock(block);
+
+      blocks[block] = data;
     }
 
-    return result;
+    return blocks;
   }
 
   linkCollectionToFilms(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
@@ -468,7 +501,7 @@ export class FilmsService {
     const day = date.getDate();
     const month = date.getMonth();
 
-    return day + month;
+    return `${day}${month}`;
   }
 
   private countReleasedYear(dateString: string) {

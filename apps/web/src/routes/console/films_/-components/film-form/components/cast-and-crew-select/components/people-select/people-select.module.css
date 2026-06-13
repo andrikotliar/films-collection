@@ -1,21 +1,21 @@
-.wrapper {
+.people {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.nomination_row {
+.row {
   display: flex;
-  gap: 20px;
   align-items: flex-start;
+  gap: 10px;
   background-color: var(--color-blue-invisible);
   padding: 10px;
   border-radius: 5px;
 }
 
-.selects {
+.left_column {
   display: flex;
+  gap: 15px;
   flex-direction: column;
-  gap: 10px;
-  width: 100%;
+  flex-grow: 1;
 }

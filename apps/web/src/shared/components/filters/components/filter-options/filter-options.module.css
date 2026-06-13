@@ -1,0 +1,21 @@
+.filter_option_row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.stat_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xs);
+  width: 40px;
+  height: 22px;
+  background-color: var(--color-gray-light);
+  border-radius: 50px;
+}
+
+.filter_option_row:has(input:checked) .stat_item {
+  background-color: var(--color-blue-primary);
+  color: var(--color-white);
+}

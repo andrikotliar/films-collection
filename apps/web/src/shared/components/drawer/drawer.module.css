@@ -1,9 +1,11 @@
 .drawer_wrapper {
+  --drawer-close-button-size: 0;
+  --drawer-max-width: 0;
+
   position: fixed;
   top: var(--header-height);
-  right: 0;
   overflow-y: auto;
-  max-width: 1080px;
+  max-width: var(--drawer-max-width);
   width: 100%;
   height: var(--screen-height);
   background-color: var(--color-white);
@@ -11,19 +13,13 @@
   z-index: 200;
   user-select: none;
 }
-.drawer_wrapper.wide {
-  max-width: 1080px;
+
+.left {
+  left: 0;
 }
 
-.drawer_wrapper.narrow {
-  max-width: 320px;
-}
-
-.close_button_holder {
-  position: sticky;
-  top: 0;
-  z-index: 200;
-  height: 0;
+.right {
+  right: 0;
 }
 
 .close_button {
@@ -33,26 +29,23 @@
   background-color: var(--color-white);
   border-bottom-left-radius: 10px;
   margin-left: auto;
+  width: var(--drawer-close-button-size);
+  height: var(--drawer-close-button-size);
 }
 
-.is_dragging {
-  transition: none !important;
+.wide {
+  --drawer-max-width: 1080px;
+  --drawer-close-button-size: 40px;
 }
 
-.is_settling {
-  transition: transform 300ms ease;
+.narrow {
+  --drawer-max-width: 320px;
+  --drawer-close-button-size: 24px;
 }
 
-.is_closing {
-  transform: translateX(120%) !important;
-}
-
-.drawer_wrapper.wide .close_button {
-  width: 40px;
-  height: 40px;
-}
-
-.drawer_wrapper.narrow .close_button {
-  width: 24px;
-  height: 24px;
+.close_button_holder {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  height: 0;
 }

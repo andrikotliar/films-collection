@@ -2,11 +2,12 @@ import {
   GetFilmsListQuerySchema,
   TitleStyle,
   TitleType,
+  type FilmStatsResponse,
   type InitialDataResponse,
   type ListOption,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import type { FilterItem } from '~/shared';
+import { api, queryKey, type FilterItem } from '~/shared';
 
 const ALL_OPTION: ListOption<string> = {
   value: 'all',
@@ -36,6 +37,7 @@ export const filterDefaultValues: FilterValues = {
 
 export const getFiltersConfig = (
   initialData: InitialDataResponse,
+  stats?: FilmStatsResponse,
 ): Array<FilterItem<FilterValues>> => {
   return [
     {
@@ -44,6 +46,25 @@ export const getFiltersConfig = (
       type: 'checkmark',
       options: [ALL_OPTION, ...initialData.options.types],
       inputType: 'radio',
+      stats: stats?.types,
+    },
+    {
+      title: 'Seasons total',
+      id: 'seasonsTotal',
+      type: 'number',
+      dependsOn: {
+        filter: 'type',
+        value: TitleType.SERIES,
+      },
+    },
+    {
+      title: 'Episodes total',
+      id: 'episodesTotal',
+      type: 'number',
+      dependsOn: {
+        filter: 'type',
+        value: TitleType.SERIES,
+      },
     },
     {
       title: 'Style',
@@ -51,6 +72,7 @@ export const getFiltersConfig = (
       type: 'checkmark',
       options: [ALL_OPTION, ...initialData.options.styles],
       inputType: 'radio',
+      stats: stats?.styles,
     },
     {
       title: 'Genres',
@@ -58,6 +80,13 @@ export const getFiltersConfig = (
       type: 'checkmark',
       inputType: 'checkbox',
       options: initialData.options.genres,
+      stats: stats?.genres,
+    },
+    {
+      title: 'Rating',
+      id: 'rating',
+      type: 'rating',
+      size: 3,
     },
     {
       id: 'startDate',
@@ -80,6 +109,7 @@ export const getFiltersConfig = (
       type: 'checkmark',
       inputType: 'checkbox',
       options: initialData.options.countries,
+      stats: stats?.countries,
     },
     {
       title: 'Studio',
@@ -87,6 +117,7 @@ export const getFiltersConfig = (
       type: 'checkmark',
       inputType: 'checkbox',
       options: initialData.options.studios,
+      stats: stats?.studios,
     },
     {
       title: 'Collections',
@@ -94,6 +125,38 @@ export const getFiltersConfig = (
       type: 'checkmark',
       inputType: 'radio',
       options: [ALL_COLLECTIONS_OPTION, ...initialData.options.collections],
+      stats: stats?.collections,
+    },
+    {
+      title: 'People by role',
+      id: 'personId',
+      type: 'combo-select',
+      dependency: {
+        id: 'personRole',
+        label: 'Role',
+        options: initialData.options.roles,
+      },
+      selector: {
+        id: 'personId',
+        isMultiple: false,
+        loader: api.people.search,
+        queryKey: [queryKey('people.search')],
+        label: 'Person',
+      },
+    },
+    {
+      id: 'runtimeRange',
+      type: 'range',
+      title: 'Runtime, min',
+      min: 0,
+      max: 300,
+      step: 10,
+    },
+    {
+      id: 'awardId',
+      type: 'select',
+      title: 'Award',
+      options: initialData.options.awards,
     },
   ];
 };

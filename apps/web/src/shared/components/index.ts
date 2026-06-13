@@ -41,3 +41,4 @@ export * from './page-title/page-title';
 export * from './drawer/drawer';
 export * from './skeleton-block/skeleton-block';
 export * from './section-title/section-title';
+export * from './range-input/range-input';
