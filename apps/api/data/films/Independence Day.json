@@ -6,9 +6,7 @@
   "duration": 145,
   "budget": 75000000,
   "boxOffice": 817000000,
-  "synopsis": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "On July 2, a massive alien mothership enters Earth's orbit, deploying smaller ships that wreak havoc across the globe. As cities fall, an unlikely band of heroes—including a resourceful pilot, a determined scientist, and the President—unite to devise a plan to fight back and reclaim their planet from the extraterrestrial invaders.",
   "poster": "posters/independence_day.webp",
   "genres": [
     {
@@ -143,5 +141,6 @@
       "role": "ACTOR",
       "details": "Russell Casse"
     }
-  ]
+  ],
+  "collections": []
 }

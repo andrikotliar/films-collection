@@ -1,0 +1,198 @@
+{
+  "id": 390,
+  "title": "Inside Out",
+  "releaseDate": "2015-06-19",
+  "type": "FILM",
+  "duration": 95,
+  "budget": 175000000,
+  "boxOffice": 859000000,
+  "synopsis": "In a young girl named Riley's mind, five emotions—Joy, Sadness, Fear, Anger, and Disgust—manage her feelings as she navigates life. When Joy and Sadness accidentally end up in the vast recesses of her mind, they must work together to return to Headquarters, learning the importance of all emotions along the way.",
+  "poster": "posters/inside_out",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=yRUAzGQ3nSY&pp=ygUSaW5zaWRlIG91dCB0cmFpbGVy",
+      "order": 1,
+      "id": 376
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature Film of the Year",
+          "id": 296
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 81
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 117
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Outstanding Achievement in Character Animation in a Feature Production",
+          "id": 297
+        },
+        {
+          "title": "Outstanding Achievement in Directing in an Animated Feature Production",
+          "id": 298
+        },
+        {
+          "title": "Outstanding Achievement in Music in an Animated Feature Production",
+          "id": 299
+        },
+        {
+          "title": "Outstanding Achievement in Production Design in an Animated Feature Production",
+          "id": 300
+        },
+        {
+          "title": "Outstanding Achievement in Storyboarding in an Animated Feature Production",
+          "id": 301
+        },
+        {
+          "title": "Outstanding Achievement in Voice Acting in an Animated Feature Production",
+          "id": 302
+        },
+        {
+          "title": "Outstanding Achievement in Writing in an Animated Feature Production",
+          "id": 303
+        },
+        {
+          "title": "Outstanding Achievement in Editorial in an Animated Feature Production",
+          "id": 304
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1857,
+      "name": "Pete Docter",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1857,
+      "name": "Pete Docter",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2861,
+      "name": "Meg LeFauve",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2862,
+      "name": "Josh Cooley",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2863,
+      "name": "Amy Poehler",
+      "role": "ACTOR",
+      "details": "Joy"
+    },
+    {
+      "id": 2860,
+      "name": "Phyllis Smith",
+      "role": "ACTOR",
+      "details": "Sadness"
+    },
+    {
+      "id": 2864,
+      "name": "Richard Kind",
+      "role": "ACTOR",
+      "details": "Bing Bong"
+    },
+    {
+      "id": 2865,
+      "name": "Bill Hader",
+      "role": "ACTOR",
+      "details": "Fear"
+    },
+    {
+      "id": 2866,
+      "name": "Lewis Black",
+      "role": "ACTOR",
+      "details": "Anger"
+    },
+    {
+      "id": 2867,
+      "name": " Mindy Kaling",
+      "role": "ACTOR",
+      "details": "Disgust"
+    },
+    {
+      "id": 2868,
+      "name": "Kaitlyn Dias",
+      "role": "ACTOR",
+      "details": "Riley"
+    },
+    {
+      "id": 2869,
+      "name": "Jonas Rivera",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 97,
+      "title": "Inside Out",
+      "order": 1
+    }
+  ]
+}

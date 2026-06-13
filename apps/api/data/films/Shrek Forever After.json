@@ -1,0 +1,121 @@
+{
+  "id": 386,
+  "title": "Shrek Forever After",
+  "releaseDate": "2010-05-21",
+  "type": "FILM",
+  "duration": 90,
+  "budget": 165000000,
+  "boxOffice": 752000000,
+  "synopsis": "Tired of domestic life, Shrek makes a deal with Rumpelstiltskin to regain his wild, carefree days. However, his wish leads to a twisted alternate reality where he never existed. With the help of his friends, including Fiona and Donkey, Shrek must confront his choices and fight to restore his original life before it's too late.",
+  "poster": "posters/shrek_forever_after",
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "France",
+      "id": 4
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Animation",
+      "id": 16
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Ma9oseKpj9g&pp=ygUbc2hyZWsgZm9yZXZlciBhZnRlciB0cmFpbGVy",
+      "order": 1,
+      "id": 372
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2835,
+      "name": "Mike Mitchell",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2836,
+      "name": "Josh Klausner",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2837,
+      "name": "Darren Lemke",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 842,
+      "name": "Mike Myers",
+      "role": "ACTOR",
+      "details": "Shrek"
+    },
+    {
+      "id": 319,
+      "name": "Eddie Murphy",
+      "role": "ACTOR",
+      "details": "Donkey"
+    },
+    {
+      "id": 164,
+      "name": "Cameron Diaz",
+      "role": "ACTOR",
+      "details": "Fiona"
+    },
+    {
+      "id": 77,
+      "name": "Antonio Banderas",
+      "role": "ACTOR",
+      "details": "Puss in Boots"
+    },
+    {
+      "id": 2838,
+      "name": "Walt Dohrn",
+      "role": "ACTOR",
+      "details": " Rumpelstiltskin"
+    },
+    {
+      "id": 2839,
+      "name": "Teresa Cheng",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2840,
+      "name": "Gina Shay",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1905,
+      "name": "Harry Gregson-Williams",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 79,
+      "title": "Shrek",
+      "order": 3
+    }
+  ]
+}

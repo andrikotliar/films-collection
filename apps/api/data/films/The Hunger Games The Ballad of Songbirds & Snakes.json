@@ -1,0 +1,109 @@
+{
+  "id": 387,
+  "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+  "releaseDate": "2023-11-17",
+  "type": "FILM",
+  "duration": 154,
+  "budget": 100000000,
+  "boxOffice": 361000000,
+  "synopsis": "In a dystopian future, a young Coriolanus Snow is tasked with mentoring a tribute from District 12 during the early Hunger Games. As he navigates the brutal competition, he forms an unexpected bond with his spirited tribute, Lucy Gray Baird. Choices made in this deadly arena will shape his ruthless destiny.",
+  "poster": "posters/the_hunger_games_the_ballad_of_songbirds_snakes",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lionsgate",
+      "id": 57
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=RDE6Uz73A7g&pp=ygU5VGhlIEh1bmdlciBHYW1lczogVGhlIEJhbGxhZCBvZiBTb25nYmlyZHMgJiBTbmFrZXN0cmFpbGVy",
+      "order": 1,
+      "id": 373
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1680,
+      "name": "Francis Lawrence",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2841,
+      "name": "Michael Lesslie",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2003,
+      "name": "Michael Arndt",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2842,
+      "name": "Tom Blyth",
+      "role": "ACTOR",
+      "details": " Coriolanus Snow"
+    },
+    {
+      "id": 2843,
+      "name": "Fionnula Flanagan",
+      "role": "ACTOR",
+      "details": "Grandma'am"
+    },
+    {
+      "id": 2844,
+      "name": "Hunter Schafer",
+      "role": "ACTOR",
+      "details": "Tigris"
+    },
+    {
+      "id": 2845,
+      "name": "Ashley Liao",
+      "role": "ACTOR",
+      "details": "Clemensia Dovecote"
+    },
+    {
+      "id": 1384,
+      "name": "James Newton Howard",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2181,
+      "name": "Jo Willems",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 65,
+      "title": "The Hunger Games",
+      "order": 0.5
+    }
+  ]
+}

@@ -6,9 +6,7 @@
   "duration": 125,
   "budget": 170000000,
   "boxOffice": 400000000,
-  "overview": null,
-  "chapterKey": "tron",
-  "chapterOrder": 0.5,
+  "synopsis": "Sam Flynn, son of legendary programmer Kevin Flynn, discovers a hidden digital world when he investigates his father's mysterious disappearance. Trapped in a futuristic realm, he encounters Quorra, a fierce warrior, and together they battle the sinister forces controlling the grid while seeking a way to escape and find Kevin.",
   "poster": "posters/tron.webp",
   "genres": [
     {
@@ -146,6 +144,13 @@
       "name": "Michael Sheen",
       "role": "ACTOR",
       "details": "Castor / Zuse"
+    }
+  ],
+  "collections": [
+    {
+      "id": 91,
+      "title": "Tron",
+      "order": 0.5
     }
   ]
 }

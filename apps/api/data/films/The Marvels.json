@@ -1,0 +1,123 @@
+{
+  "id": 388,
+  "title": "The Marvels",
+  "releaseDate": "2023-11-10",
+  "type": "FILM",
+  "duration": 105,
+  "budget": 220000000,
+  "boxOffice": 206000000,
+  "synopsis": "When Carol Danvers teams up with Kamala Khan and Monica Rambeau, they discover their powers are mysteriously intertwined. As they confront a new cosmic threat, the trio must learn to work together, unlocking their true potential. United by their shared mission, they face challenges that test their courage and friendship.",
+  "poster": "posters/the_marvels",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 374
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2846,
+      "name": "Nia DaCosta",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2846,
+      "name": "Nia DaCosta",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2352,
+      "name": "Megan McDonnell",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1803,
+      "name": "Elissa Karasik",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 151,
+      "name": "Brie Larson",
+      "role": "ACTOR",
+      "details": "Carol Danvers"
+    },
+    {
+      "id": 1112,
+      "name": "Teyonah Parris",
+      "role": "ACTOR",
+      "details": "Monica Rambeau"
+    },
+    {
+      "id": 2764,
+      "name": "Iman Vellani",
+      "role": "ACTOR",
+      "details": "Kamala Khan / Ms. Marvel"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": "Nick Fury"
+    },
+    {
+      "id": 2847,
+      "name": "Zawe Ashton",
+      "role": "ACTOR",
+      "details": "Dar-Benn"
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2768,
+      "name": "Laura Karpman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2848,
+      "name": "Sean Bobbitt",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 34.375
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "duration": 120,
   "budget": 40000000,
   "boxOffice": 109000000,
-  "synopsis": null,
+  "synopsis": "In 19th-century London, two rival magicians, Robert Angier and Alfred Borden, engage in a fierce battle to outdo each other. Their obsession with creating the ultimate illusion leads to deception, betrayal, and tragedy. As secrets unravel, the line between reality and illusion blurs, revealing the sacrifices made for greatness.",
   "poster": "posters/the_prestige",
   "genres": [
     {
@@ -25,12 +25,12 @@
   "style": "LIVE_ACTION",
   "countries": [
     {
-      "title": "UK",
-      "id": 2
-    },
-    {
       "title": "USA",
       "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
     }
   ],
   "studios": [

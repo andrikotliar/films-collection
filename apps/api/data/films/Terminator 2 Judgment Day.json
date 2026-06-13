@@ -6,9 +6,7 @@
   "duration": 137,
   "budget": 94000000,
   "boxOffice": 521000000,
-  "synopsis": null,
-  "chapterKey": "terminator",
-  "chapterOrder": 2,
+  "synopsis": "In a post-apocalyptic future, a young boy named John Connor is targeted by a relentless cyborg assassin sent from the future to kill him. To protect him, a reprogrammed Terminator is sent back in time. Together, they must evade both the deadly cyborg and a new, advanced model, while striving to secure humanity's survival.",
   "poster": "posters/terminator_2.webp",
   "genres": [
     {
@@ -192,6 +190,13 @@
       "name": "Joe Morton",
       "role": "ACTOR",
       "details": "Miles Bennett Dyson"
+    }
+  ],
+  "collections": [
+    {
+      "id": 83,
+      "title": "Terminator",
+      "order": 2
     }
   ]
 }

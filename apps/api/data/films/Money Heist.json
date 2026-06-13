@@ -6,9 +6,7 @@
   "duration": 60,
   "budget": 0,
   "boxOffice": 0,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "A mastermind known as the Professor recruits a group of skilled criminals, each with a unique expertise, to execute an ambitious heist on the Royal Mint of Spain. As they navigate police tactics and their own personal conflicts, tension builds, leading to unexpected twists and deepening relationships.",
   "poster": "posters/money_heist.webp",
   "genres": [
     {
@@ -208,10 +206,10 @@
       "details": "Moscú"
     }
   ],
+  "collections": [],
   "seriesExtension": {
     "id": 20,
     "episodesTotal": 41,
-    "seasonsTotal": 5,
-    "finishedAt": "2021-12-03"
+    "seasonsTotal": 5
   }
 }

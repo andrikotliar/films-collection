@@ -6,9 +6,7 @@
   "duration": 79,
   "budget": 30000000,
   "boxOffice": 48000000,
-  "synopsis": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "In a post-apocalyptic world, a small group of sentient creatures, each marked by numbers, fights for survival against a relentless machine that has wiped out humanity. As 9, the leader, unites his companions, they must uncover the truth behind their creation and face their fears to save what's left of their world.",
   "poster": "posters/9",
   "genres": [
     {
@@ -27,16 +25,16 @@
       "id": 1
     },
     {
+      "title": "UK",
+      "id": 2
+    },
+    {
       "title": "Canada",
       "id": 3
     },
     {
       "title": "Luxemburg",
       "id": 24
-    },
-    {
-      "title": "UK",
-      "id": 2
     }
   ],
   "studios": [
@@ -136,5 +134,6 @@
       "role": "COMPOSER",
       "details": null
     }
-  ]
+  ],
+  "collections": []
 }

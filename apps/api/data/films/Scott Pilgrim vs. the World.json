@@ -1,0 +1,159 @@
+{
+  "id": 389,
+  "title": "Scott Pilgrim vs. the World",
+  "releaseDate": "2010-08-13",
+  "type": "FILM",
+  "duration": 112,
+  "budget": 60000000,
+  "boxOffice": 51000000,
+  "synopsis": "Scott, a slacker and bassist, falls for the enigmatic Ramona Flowers. To win her heart, he must battle her seven evil exes in a series of bizarre and comedic showdowns. As he confronts each rival, Scott learns about love, growth, and himself, navigating the challenges of romance in a vibrant, video game-inspired world.",
+  "poster": "posters/scott_pilgrim_vs_the_world",
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Romance",
+      "id": 8
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=7wd5KEaOtm4&pp=ygUjU2NvdHQgUGlsZ3JpbSB2cy4gdGhlIFdvcmxkIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 375
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1306,
+      "name": "Edgar Wright",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2849,
+      "name": "Michael Bacall",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1306,
+      "name": "Edgar Wright",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2850,
+      "name": "Michael Cera",
+      "role": "ACTOR",
+      "details": "Scott Pilgrim"
+    },
+    {
+      "id": 2851,
+      "name": "Kieran Culkin",
+      "role": "ACTOR",
+      "details": "Wallace Wells"
+    },
+    {
+      "id": 2575,
+      "name": "Mary Elizabeth Winstead",
+      "role": "ACTOR",
+      "details": "Ramona Flowers"
+    },
+    {
+      "id": 2854,
+      "name": "Anna Kendrick",
+      "role": "ACTOR",
+      "details": "Stacey Pilgrim"
+    },
+    {
+      "id": 151,
+      "name": "Brie Larson",
+      "role": "ACTOR",
+      "details": "Natalie V. \"Envy\" Adams"
+    },
+    {
+      "id": 2855,
+      "name": "Satya Bhabha ",
+      "role": "ACTOR",
+      "details": "Matthew Patel"
+    },
+    {
+      "id": 194,
+      "name": "Chris Evans",
+      "role": "ACTOR",
+      "details": "Lucas Lee"
+    },
+    {
+      "id": 2856,
+      "name": "Brandon Routh",
+      "role": "ACTOR",
+      "details": "Todd Ingram"
+    },
+    {
+      "id": 763,
+      "name": "Mae Whitman",
+      "role": "ACTOR",
+      "details": "Roxanne \"Roxy\" Richter"
+    },
+    {
+      "id": 2857,
+      "name": "Keita Saito",
+      "role": "ACTOR",
+      "details": "Ken Katayanagi"
+    },
+    {
+      "id": 2858,
+      "name": "Shota Saito",
+      "role": "ACTOR",
+      "details": "Kyle Katayanagi"
+    },
+    {
+      "id": 529,
+      "name": "Jason Schwartzman",
+      "role": "ACTOR",
+      "details": "Gideon \"G-Man\" Graves"
+    },
+    {
+      "id": 2859,
+      "name": "Nigel Godrich",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1296,
+      "name": "Bill Pope",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

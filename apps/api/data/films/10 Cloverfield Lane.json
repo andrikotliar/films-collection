@@ -6,9 +6,7 @@
   "duration": 103,
   "budget": 15000000,
   "boxOffice": 110000000,
-  "synopsis": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "After a car accident, Michelle wakes up in an underground bunker, held captive by the paranoid Howard, who claims the outside world has been devastated by a chemical attack. As she uncovers the truth, tensions rise between the three inhabitants, forcing Michelle to decide whether to accept their protection or escape into the unknown.",
   "poster": "posters/10_cloverfield_lane",
   "genres": [
     {
@@ -119,5 +117,6 @@
       "role": "CAMERAMAN",
       "details": null
     }
-  ]
+  ],
+  "collections": []
 }

@@ -6,9 +6,7 @@
   "duration": 127,
   "budget": 180000000,
   "boxOffice": 382000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 33,
+  "synopsis": "In a world teetering on the brink of chaos, a group of anti-heroes, led by the cunning John Walker, is recruited for a covert mission. Each member battles personal demons while striving for redemption. As they confront a powerful enemy threatening global security, alliances are tested, and true motives emerge.",
   "poster": "posters/thunderbolts",
   "genres": [
     {
@@ -23,12 +21,12 @@
       "id": 1
     },
     {
-      "title": "Australia",
-      "id": 12
-    },
-    {
       "title": "Canada",
       "id": 3
+    },
+    {
+      "title": "Australia",
+      "id": 12
     }
   ],
   "studios": [
@@ -123,6 +121,13 @@
       "name": "Andrew Droz Palermo",
       "role": "CAMERAMAN",
       "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 35
     }
   ]
 }

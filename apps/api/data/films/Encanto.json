@@ -1,0 +1,162 @@
+{
+  "id": 391,
+  "title": "Encanto",
+  "releaseDate": "2021-11-24",
+  "type": "FILM",
+  "duration": 102,
+  "budget": 50000000,
+  "boxOffice": 261000000,
+  "synopsis": "In a vibrant Colombian village, Mirabel stands out as the only member of the magical Madrigal family without a special gift. When the magic that blesses her family begins to fade, she embarks on a quest to save it. Along the way, she uncovers her family's secrets and learns the importance of acceptance and love.",
+  "poster": "posters/encanto",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/CaimKeDcudo?si=Hri-K_c2sxfW34Xg",
+      "order": 1,
+      "id": 385
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature Film",
+          "id": 284
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Feature Film",
+          "id": 105
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Motion Picture - Animated",
+          "id": 217
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement for Character Animation in an Animated Feature",
+          "id": 219
+        },
+        {
+          "title": "Outstanding Achievement for Music in an Animated Feature",
+          "id": 222
+        },
+        {
+          "title": "Outstanding Achievement for Storyboarding in an Animated Feature",
+          "id": 270
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2870,
+      "name": "Jared Brush",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2386,
+      "name": "Byron Howard",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2871,
+      "name": "Charise Castro Smith",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2388,
+      "name": "Jared Bush",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2872,
+      "name": "Stephanie Beatriz",
+      "role": "ACTOR",
+      "details": "Mirabel"
+    },
+    {
+      "id": 2873,
+      "name": "Maria Cecilia Botero",
+      "role": "ACTOR",
+      "details": "Abuela Alma"
+    },
+    {
+      "id": 586,
+      "name": "John Leguizamo",
+      "role": "ACTOR",
+      "details": "Bruno"
+    },
+    {
+      "id": 2874,
+      "name": "Mauro Castillo",
+      "role": "ACTOR",
+      "details": "Felix"
+    },
+    {
+      "id": 2875,
+      "name": "Jess Darrow",
+      "role": "ACTOR",
+      "details": "Luisa"
+    },
+    {
+      "id": 2395,
+      "name": "Yvett Merino",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2390,
+      "name": "Clark Spencer",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2876,
+      "name": "Germaine Franko",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "collections": []
+}
