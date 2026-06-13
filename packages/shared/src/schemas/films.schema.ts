@@ -42,9 +42,15 @@ export const CreateFilmInputSchema = z.object({
   synopsis: z.string().nullable(),
   castAndCrew: z.array(
     z.object({
-      personId: z.coerce.number().min(1, 'Person cannot be empty'),
       role: z.enum(PersonRole),
-      details: z.string().nullable(),
+      people: z
+        .array(
+          z.object({
+            personId: z.coerce.number().min(1, 'Person cannot be empty'),
+            details: z.string().nullable(),
+          }),
+        )
+        .min(1, 'Cast and Crew should contain people'),
     }),
   ),
   awards: z.array(

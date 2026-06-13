@@ -1,16 +1,16 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import { Form, api } from '~/shared';
+import { Form } from '~/shared';
 import type { ListOption } from '@films-collection/shared';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { useMutation } from '@tanstack/react-query';
+import { PeopleSelect } from '~/routes/console/films_/-components/film-form/components/cast-and-crew-select/components';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption<string>[];
 };
 
 export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
-  const { control, formState } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { control } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -20,58 +20,25 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
   const handleAddNewPerson = () => {
     append(
       {
-        personId: 0,
         role: 'ACTOR',
-        details: null,
+        people: [],
       },
       { shouldFocus: false },
     );
   };
-
-  const { mutateAsync, isPending, variables } = useMutation({
-    mutationFn: async ({
-      value,
-    }: {
-      value: string;
-      index: number;
-    }): Promise<ListOption<number>> => {
-      if (!value.length) {
-        throw new Error('Name cannot be empty');
-      }
-      const result = await api.people.create({
-        input: {
-          name: value,
-        },
-      });
-
-      return {
-        value: result.id,
-        label: result.name,
-      };
-    },
-  });
 
   return (
     <Form.Section label="Cast and Crew">
       <Form.ArrayWrapper onCreate={handleAddNewPerson} createButtonLabel="Create person">
         {fields.map((field, index) => (
           <Form.ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
-            <Form.AsyncSelect
-              name={`castAndCrew.${index}.personId`}
-              label="Person"
-              optionsLoader={api.people.search}
-              onCreateOption={(value) => mutateAsync({ value, index })}
-              isOptionsLoading={isPending && variables.index === index}
-              queryKey={index}
-              error={formState.errors?.castAndCrew?.[index]?.personId?.message}
-            />
             <Form.Select
               name={`castAndCrew.${index}.role`}
               options={positionOptions}
               isSearchable={false}
               label="Role"
             />
-            <Form.TextInput name={`castAndCrew.${index}.details`} label="Details" />
+            <PeopleSelect index={index} />
           </Form.ArrayFieldWrapper>
         ))}
       </Form.ArrayWrapper>

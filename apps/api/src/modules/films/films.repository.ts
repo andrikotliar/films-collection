@@ -368,11 +368,16 @@ export class FilmsRepository {
       const filmId = newFilm.id;
 
       if (castAndCrew.length) {
-        const values = castAndCrew.map((person) => ({
-          ...person,
-          filmId,
-        }));
-        await tr.insert(filmsPeople).values(values);
+        const values = castAndCrew.map((item) => {
+          const people = item.people;
+
+          return people.map((person) => ({
+            ...person,
+            filmId,
+            role: item.role,
+          }));
+        });
+        await tr.insert(filmsPeople).values(values.flat());
       }
 
       if (awards.length) {
@@ -529,14 +534,19 @@ export class FilmsRepository {
       }
 
       if (castAndCrew) {
+        const values = castAndCrew.map((item) => {
+          return item.people.map((person) => ({
+            ...person,
+            filmId,
+            role: item.role,
+          }));
+        });
+
         await this.updateFilmRelations({
           transaction,
           filmId,
           table: filmsPeople,
-          values: castAndCrew.map((person) => ({
-            ...person,
-            filmId,
-          })),
+          values: values.flat(),
         });
       }
 
