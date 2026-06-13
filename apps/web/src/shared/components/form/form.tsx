@@ -17,6 +17,7 @@ import {
   FormMonthDateSelector,
   FormOrderSelect,
   FormPasswordInput,
+  FormRangeInput,
   FormRatingInput,
   FormSection,
   FormSelect,
@@ -111,3 +112,4 @@ Form.Toggle = FormToggle;
 Form.VideoInput = FormVideoInput;
 Form.OrderSelect = FormOrderSelect;
 Form.PasswordInput = FormPasswordInput;
+Form.RangeInput = FormRangeInput;

@@ -1,0 +1,10 @@
+import { queryOptions } from '@tanstack/react-query';
+import { api, queryKey } from '~/shared/services';
+
+export const getFilmsStatsQueryOptions = () => {
+  return queryOptions({
+    queryKey: [queryKey('films.getFilmStats')],
+    queryFn: api.films.getFilmStats,
+    staleTime: Infinity,
+  });
+};
