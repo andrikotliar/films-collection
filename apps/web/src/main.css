@@ -134,3 +134,15 @@ body {
 body:has(.no-doc-scroll) {
   overflow: hidden;
 }
+
+.is-dragging {
+  transition: none !important;
+}
+
+.is-settling {
+  transition: transform 300ms ease;
+}
+
+.is-closing {
+  transform: translateX(120%) !important;
+}

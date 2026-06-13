@@ -42,15 +42,3 @@
   z-index: 200;
   height: 0;
 }
-
-.is_dragging {
-  transition: none !important;
-}
-
-.is_settling {
-  transition: transform 300ms ease;
-}
-
-.is_closing {
-  transform: translateX(120%) !important;
-}
