@@ -120,6 +120,7 @@ input {
 html {
   container-type: scroll-state;
   container-name: scroller;
+  scrollbar-gutter: stable;
 }
 
 body {

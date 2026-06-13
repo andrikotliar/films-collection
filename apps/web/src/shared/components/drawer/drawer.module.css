@@ -10,7 +10,6 @@
   box-shadow: var(--shadow-sm);
   z-index: 200;
   user-select: none;
-  animation: slide-left 300ms ease;
 }
 .drawer_wrapper.wide {
   max-width: 1080px;
@@ -20,34 +19,40 @@
   max-width: 320px;
 }
 
-.close_button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.close_button_holder {
+  position: sticky;
+  top: 0;
   z-index: 200;
+  height: 0;
+}
+
+.close_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  border-bottom-left-radius: 10px;
+  margin-left: auto;
+}
+
+.is_dragging {
+  transition: none !important;
+}
+
+.is_settling {
+  transition: transform 300ms ease;
 }
 
 .is_closing {
-  transition: 300ms;
   transform: translateX(120%) !important;
 }
 
-.drawer_wrapper.wide .close_icon {
+.drawer_wrapper.wide .close_button {
   width: 40px;
   height: 40px;
 }
 
-.drawer_wrapper.narrow .close_icon {
+.drawer_wrapper.narrow .close_button {
   width: 24px;
   height: 24px;
-}
-
-@keyframes slide-left {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
 }

@@ -39,6 +39,15 @@ import { sqlSearchQuery, thisDateReleaseSql } from '~/shared/index.js';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
+export type PlainFilmFilters = GetFilmsListQuery & GetAdminListQueryParams;
+
+type SqlOrUndefined = SQL | undefined;
+
+type MappedFilters = {
+  filters: SqlOrUndefined[];
+  drafts: SqlOrUndefined;
+};
+
 const getMoneyRangeFilter = (column: PgColumn, value: number) => {
   if (value < MONEY_RANGE_MILLIONS) {
     return between(column, 0, value + MONEY_RANGE_MILLIONS);
@@ -48,10 +57,6 @@ const getMoneyRangeFilter = (column: PgColumn, value: number) => {
 };
 
 type DraftLevel = 'all' | 'upcoming' | 'none';
-
-export type PlainFilmFilters = GetFilmsListQuery & GetAdminListQueryParams;
-
-type SqlOrUndefined = SQL | undefined;
 
 const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
   if (levels.length === enumValues(DraftLevel).length) {
@@ -76,10 +81,7 @@ const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
   return or(...query);
 };
 
-export const mapListFilters = (
-  plainFilters: PlainFilmFilters,
-  db: Database,
-): (SQL | undefined)[] => {
+export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): MappedFilters => {
   const {
     genreIds,
     collectionId,
@@ -108,7 +110,7 @@ export const mapListFilters = (
     runtimeRange,
   } = plainFilters;
 
-  const filters: SqlOrUndefined[] = [isNull(films.deletedAt), getDraftFilter(draftLevels)];
+  const filters: SqlOrUndefined[] = [isNull(films.deletedAt)];
 
   if (startDate) {
     filters.push(gte(films.releaseDate, startDate));
@@ -288,5 +290,5 @@ export const mapListFilters = (
     filters.push(thisDateReleaseSql());
   }
 
-  return filters;
+  return { filters, drafts: getDraftFilter(draftLevels) };
 };

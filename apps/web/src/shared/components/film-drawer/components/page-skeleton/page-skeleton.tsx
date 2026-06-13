@@ -9,6 +9,7 @@ import {
   FileTextIcon,
   GlobeIcon,
   HandCoinsIcon,
+  StarIcon,
   WalletIcon,
 } from 'lucide-react';
 import { SummaryBlock } from '../summary-section/components';
@@ -72,8 +73,12 @@ export const PageSkeleton = () => {
     <FilmPageLayout>
       <div className={styles.top_section}>
         <div className={styles.title_row}>
-          <SkeletonBlock width="94px" height="28px" />
-          <SkeletonBlock width="40%" height="45px" />
+          <div className={styles.stars}>
+            <StarIcon className={styles.star_icon} />
+            <StarIcon className={styles.star_icon} />
+            <StarIcon className={styles.star_icon} />
+          </div>
+          <SkeletonBlock width="60%" height="40px" />
         </div>
         <div className={styles.content}>
           <div className={styles.left_column}>
