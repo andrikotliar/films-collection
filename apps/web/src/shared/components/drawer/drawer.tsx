@@ -14,10 +14,15 @@ type DrawerProps = {
   isOpen: boolean;
   position?: Position;
   onClose: VoidFunction;
-  textColor?: 'white' | 'black';
 };
 
-export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps) => {
+export const Drawer = ({
+  children,
+  size = 'wide',
+  isOpen,
+  onClose,
+  position = 'right',
+}: DrawerProps) => {
   const {
     drawerRef,
     handleClose,
@@ -27,7 +32,7 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
     handleMouseLeave,
     handleTouchStart,
     handleTouchMove,
-  } = useDrawer(onClose);
+  } = useDrawer({ closeHandler: onClose, position });
 
   if (!isOpen) {
     return null;
@@ -35,7 +40,12 @@ export const Drawer = ({ children, size = 'wide', isOpen, onClose }: DrawerProps
 
   return createPortal(
     <div
-      className={clsx(styles.drawer_wrapper, styles[size], BLOCKING_SCROLL_CLASS_NAME)}
+      className={clsx(
+        styles.drawer_wrapper,
+        styles[position],
+        styles[size],
+        BLOCKING_SCROLL_CLASS_NAME,
+      )}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onMouseMove={handleMouseMove}

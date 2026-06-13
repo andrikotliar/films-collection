@@ -143,6 +143,10 @@ body:has(.no-doc-scroll) {
   transition: transform 300ms ease;
 }
 
-.is-closing {
+.is-closing-right {
   transform: translateX(120%) !important;
+}
+
+.is-closing-left {
+  transform: translateX(-120%) !important;
 }

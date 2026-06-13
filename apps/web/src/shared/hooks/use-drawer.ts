@@ -1,9 +1,32 @@
 import { useLayoutEffect, useRef } from 'react';
 import { BLOCKING_SCROLL_CLASS_NAME } from '~/shared/constants';
 
+type DrawerPosition = 'left' | 'right';
+type StopMoveConditionHandler = (x: number, y: number) => boolean;
+
+type UseDrawerProps = {
+  closeHandler: VoidFunction;
+  position: DrawerPosition;
+};
+
 const DRAGGING_CLASS_NAME = 'is-dragging';
 const SETTLING_CLASS_NAME = 'is-settling';
-const CLOSING_CLASS_NAME = 'is-closing';
+const CLOSING_CLASS_NAME_LEFT = 'is-closing-left';
+const CLOSING_CLASS_NAME_RIGHT = 'is-closing-right';
+
+const positionToClassName: Record<DrawerPosition, string> = {
+  left: CLOSING_CLASS_NAME_LEFT,
+  right: CLOSING_CLASS_NAME_RIGHT,
+};
+
+const positionToStopMoveCondition: Record<DrawerPosition, StopMoveConditionHandler> = {
+  right: (x, y) => {
+    return x < 0 || Math.abs(x) < Math.abs(y);
+  },
+  left: (x, y) => {
+    return x > 0 || Math.abs(x) < Math.abs(y);
+  },
+};
 
 const setDraggingClass = (element: HTMLDivElement) => {
   element.classList.add(DRAGGING_CLASS_NAME);
@@ -15,17 +38,17 @@ const removeDraggingClass = (element: HTMLDivElement) => {
   element.classList.add(SETTLING_CLASS_NAME);
 };
 
-const setClosingClass = (element: HTMLDivElement | null) => {
+const setClosingClass = (element: HTMLDivElement | null, position: DrawerPosition) => {
   if (!element) {
     return;
   }
 
   element.classList.remove(BLOCKING_SCROLL_CLASS_NAME);
   element.classList.add(SETTLING_CLASS_NAME);
-  element.classList.add(CLOSING_CLASS_NAME);
+  element.classList.add(positionToClassName[position]);
 };
 
-export const useDrawer = (onClose: VoidFunction) => {
+export const useDrawer = ({ closeHandler, position }: UseDrawerProps) => {
   const drawerWrapperRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const dragStartX = useRef(0);
@@ -35,7 +58,9 @@ export const useDrawer = (onClose: VoidFunction) => {
     const drawer = drawerWrapperRef.current;
     if (!drawer) return;
 
-    drawer.style.transform = 'translateX(100%)';
+    const numPrefix = position === 'left' ? '-' : '';
+
+    drawer.style.transform = `translateX(${numPrefix}100%)`;
 
     requestAnimationFrame(() => {
       drawer.classList.add(SETTLING_CLASS_NAME);
@@ -44,9 +69,9 @@ export const useDrawer = (onClose: VoidFunction) => {
   }, []);
 
   const handleClose = () => {
-    setClosingClass(drawerWrapperRef.current);
+    setClosingClass(drawerWrapperRef.current, position);
     setTimeout(() => {
-      onClose();
+      closeHandler();
     }, 600);
   };
 
@@ -74,7 +99,9 @@ export const useDrawer = (onClose: VoidFunction) => {
       return;
     }
 
-    if (deltaX < 0 || Math.abs(deltaX) < Math.abs(deltaY)) {
+    const conditionHandler = positionToStopMoveCondition[position];
+
+    if (conditionHandler(deltaX, deltaY)) {
       return;
     }
 
@@ -125,7 +152,7 @@ export const useDrawer = (onClose: VoidFunction) => {
     const translateX = matrix.m41;
     removeDraggingClass(drawerWrapperRef.current);
 
-    if (translateX > drawerWrapperRef.current.clientWidth / 2) {
+    if (Math.abs(translateX) > drawerWrapperRef.current.clientWidth / 2) {
       handleClose();
       return;
     }

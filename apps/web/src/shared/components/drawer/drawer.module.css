@@ -4,7 +4,6 @@
 
   position: fixed;
   top: var(--header-height);
-  right: 0;
   overflow-y: auto;
   max-width: var(--drawer-max-width);
   width: 100%;
@@ -13,6 +12,14 @@
   box-shadow: var(--shadow-sm);
   z-index: 200;
   user-select: none;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
 }
 
 .close_button {
