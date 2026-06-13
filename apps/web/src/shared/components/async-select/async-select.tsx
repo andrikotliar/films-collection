@@ -11,7 +11,7 @@ type QueryParams = {
 
 export type AsyncSelectProps = {
   optionsLoader: (params: { queryParams: QueryParams }) => Promise<ListOption<any>[]>;
-  queryKey: string | number;
+  queryKey: Array<unknown>;
 } & Omit<SelectProps, 'onOptionsSearch' | 'options'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
@@ -26,7 +26,7 @@ export const AsyncSelect = ({
   const [searchString, setSearchString] = useState<string | null>(null);
 
   const { data: options, isFetching } = useQuery({
-    queryKey: [optionsLoader.name, queryKey, searchString] as const,
+    queryKey: [queryKey, searchString] as const,
     queryFn: async () => {
       const selectedValues = value ? getSelectValue(value) : [];
 

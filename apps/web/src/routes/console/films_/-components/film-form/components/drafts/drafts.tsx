@@ -61,7 +61,9 @@ export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
         {data.map((draft) => (
           <div className={styles.row} key={draft.id}>
             <div>
-              <div className={styles.row_title}>{draft.content.title ?? 'No title'}</div>
+              <div className={styles.row_title}>
+                {draft.content.title?.length ? draft.content.title : 'No title'}
+              </div>
               <div className={styles.row_date}>Last modified: {draft.updatedAt}</div>
             </div>
             <div className={styles.row_buttons}>

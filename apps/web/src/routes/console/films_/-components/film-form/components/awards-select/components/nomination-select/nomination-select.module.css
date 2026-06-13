@@ -8,13 +8,9 @@
   display: flex;
   gap: 20px;
   align-items: flex-start;
-  border-bottom: var(--border-default);
-  padding-bottom: 20px;
-}
-
-.nomination_row:nth-last-child(2) {
-  padding-bottom: 0;
-  border-bottom: 0;
+  background-color: var(--color-blue-invisible);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .selects {

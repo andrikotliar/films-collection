@@ -4,7 +4,7 @@ import { PlusIcon, TrashIcon } from 'lucide-react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { api, Button, FieldError, Form } from '~/shared';
+import { api, Button, FieldError, Form, queryKey } from '~/shared';
 import styles from './people-select.module.css';
 
 type PeopleSelectProps = {
@@ -54,9 +54,9 @@ export const PeopleSelect = ({ index }: PeopleSelectProps) => {
                 name={`castAndCrew.${index}.people.${personIndex}.personId`}
                 label="Person"
                 optionsLoader={api.people.search}
-                onCreateOption={(value) => mutateAsync({ value, index })}
-                isOptionsLoading={isPending && variables.index === index}
-                queryKey={index}
+                onCreateOption={(value) => mutateAsync({ value, index: personIndex })}
+                isOptionsLoading={isPending && variables.index === personIndex}
+                queryKey={[queryKey('people.search'), values[index]?.people[personIndex]?.personId]}
               />
               {values[index].role === 'ACTOR' && (
                 <Form.TextInput
@@ -65,7 +65,7 @@ export const PeopleSelect = ({ index }: PeopleSelectProps) => {
                 />
               )}
             </div>
-            <Button icon={<TrashIcon />} variant="ghost" onClick={() => remove(index)} />
+            <Button icon={<TrashIcon />} variant="ghost" onClick={() => remove(personIndex)} />
           </div>
           <FieldError
             error={formState.errors.castAndCrew?.[index]?.people?.[personIndex]?.personId?.message}
