@@ -1,0 +1,112 @@
+{
+  "id": 392,
+  "title": "Baby Driver",
+  "releaseDate": "2017-06-28",
+  "type": "FILM",
+  "duration": 113,
+  "budget": 34000000,
+  "boxOffice": 227000000,
+  "synopsis": "A talented young getaway driver named Baby relies on music to combat his tinnitus and enhance his skills. After meeting a captivating waitress, he dreams of a normal life. However, he's drawn back into the criminal world by a ruthless kingpin, leading to high-stakes heists and a race against time to escape his past.",
+  "poster": "posters/baby_driver",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": "Tristar",
+      "id": 38
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/zTvJJnoWIPk?si=B1LD_uMqGkaP_-Ci",
+      "order": 1,
+      "id": 386
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 72
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 111
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1306,
+      "name": "Edgar Wright",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1306,
+      "name": "Edgar Wright",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2877,
+      "name": "Ansel Elgort",
+      "role": "ACTOR",
+      "details": "Baby"
+    },
+    {
+      "id": 2878,
+      "name": "Jon Bernthal",
+      "role": "ACTOR",
+      "details": "Griff"
+    },
+    {
+      "id": 2879,
+      "name": "Jon Hamm",
+      "role": "ACTOR",
+      "details": "Buddy"
+    },
+    {
+      "id": 2880,
+      "name": "Eiza Gonzalez",
+      "role": "ACTOR",
+      "details": "Darling"
+    },
+    {
+      "id": 2881,
+      "name": "Lily James",
+      "role": "ACTOR",
+      "details": "Debora"
+    }
+  ],
+  "collections": []
+}

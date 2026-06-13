@@ -6,9 +6,7 @@
   "duration": 121,
   "budget": 139000000,
   "boxOffice": 825000000,
-  "synopsis": null,
-  "chapterKey": "spider-man",
-  "chapterOrder": 1,
+  "synopsis": "In New York City, shy high school student Peter Parker is bitten by a radioactive spider, granting him incredible powers. Embracing his new identity as a superhero, he battles the menacing Green Goblin, all while grappling with love for Mary Jane Watson and the burdens of responsibility that come with his abilities.",
   "poster": "posters/raimi_spider_man_1.webp",
   "genres": [
     {
@@ -123,6 +121,13 @@
       "name": "J.K. Simmons",
       "role": "ACTOR",
       "details": "J. Jonah Jameson"
+    }
+  ],
+  "collections": [
+    {
+      "id": 80,
+      "title": "Raimi's Spider-Man",
+      "order": 1
     }
   ]
 }

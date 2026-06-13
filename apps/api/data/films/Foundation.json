@@ -1,0 +1,103 @@
+{
+  "id": 385,
+  "title": "Foundation",
+  "releaseDate": "2021-09-24",
+  "type": "SERIES",
+  "duration": 60,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "In a distant future, mathematician Hari Seldon predicts the fall of the Galactic Empire and seeks to preserve knowledge through a foundation of scientists and scholars. As political turmoil rises, Seldon’s followers, including the determined Gaal and the enigmatic Brother Day, confront power struggles to ensure humanity's survival amidst chaos.",
+  "poster": "posters/foundation",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Ireland",
+      "id": 25
+    }
+  ],
+  "studios": [
+    {
+      "title": "Skydance Televison",
+      "id": 97
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/2t0BGkVQMuQ?si=gdFqTbFmOHvAW2Ft",
+      "order": 2,
+      "id": 371
+    },
+    {
+      "url": "https://youtu.be/X4QYV5GTz7c?si=r980Ln0UEsFP5_9f",
+      "order": 1,
+      "id": 370
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2829,
+      "name": "Ian Goldberg",
+      "role": "CREATOR",
+      "details": null
+    },
+    {
+      "id": 521,
+      "name": "Jared Harris",
+      "role": "ACTOR",
+      "details": "Hari Seldon"
+    },
+    {
+      "id": 2830,
+      "name": "Lou Lobell",
+      "role": "ACTOR",
+      "details": "Gaal Dornick"
+    },
+    {
+      "id": 711,
+      "name": "Lee Pace",
+      "role": "ACTOR",
+      "details": "Brother Day"
+    },
+    {
+      "id": 2831,
+      "name": "Terrence Mann",
+      "role": "ACTOR",
+      "details": "Brother Dusk"
+    },
+    {
+      "id": 2832,
+      "name": "Laura Birn",
+      "role": "ACTOR",
+      "details": "Demerzel"
+    },
+    {
+      "id": 2833,
+      "name": "Cassian Bilton",
+      "role": "ACTOR",
+      "details": "Brother Dawn"
+    },
+    {
+      "id": 2834,
+      "name": "Leah Harvey",
+      "role": "ACTOR",
+      "details": "Salvor Hardin"
+    }
+  ],
+  "collections": [],
+  "seriesExtension": {
+    "id": 78,
+    "episodesTotal": 20,
+    "seasonsTotal": 2
+  }
+}

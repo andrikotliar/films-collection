@@ -6,9 +6,7 @@
   "duration": 60,
   "budget": 0,
   "boxOffice": 0,
-  "overview": null,
-  "chapterKey": "got",
-  "chapterOrder": 1,
+  "synopsis": "In the land of Westeros, noble families vie for control of the Iron Throne amidst political intrigue and betrayal. Eddard Stark, the honorable ruler of the North, uncovers dark secrets as he navigates courtly machinations. Meanwhile, Daenerys Targaryen seeks to reclaim her birthright, determined to rise from ashes to power.",
   "poster": "posters/got.webp",
   "genres": [
     {
@@ -430,10 +428,16 @@
       "details": "Tormund Giantsbane"
     }
   ],
+  "collections": [
+    {
+      "id": 50,
+      "title": "Game of Thrones",
+      "order": 2
+    }
+  ],
   "seriesExtension": {
     "id": 5,
     "episodesTotal": 73,
-    "seasonsTotal": 8,
-    "finishedAt": "2019-05-19"
+    "seasonsTotal": 8
   }
 }

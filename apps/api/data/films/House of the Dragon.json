@@ -6,9 +6,7 @@
   "duration": 60,
   "budget": 0,
   "boxOffice": 0,
-  "overview": null,
-  "chapterKey": "got",
-  "chapterOrder": 0.5,
+  "synopsis": "Set in the Targaryen dynasty, the story unfolds as King Viserys I faces internal strife and power struggles within his family. Tensions escalate between his daughter Rhaenyra, the rightful heir, and her half-brother Aegon, igniting a bitter civil war. Dragons soar as loyalties shift and ambition leads to betrayal.",
   "poster": "posters/house_of_the_dragon.webp",
   "genres": [
     {
@@ -187,10 +185,16 @@
       "details": "Lady Rhaena Targaryen"
     }
   ],
+  "collections": [
+    {
+      "id": 50,
+      "title": "Game of Thrones",
+      "order": 1
+    }
+  ],
   "seriesExtension": {
     "id": 24,
     "episodesTotal": 27,
-    "seasonsTotal": 2,
-    "finishedAt": "2024-08-04"
+    "seasonsTotal": 2
   }
 }

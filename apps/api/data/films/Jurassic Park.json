@@ -6,9 +6,7 @@
   "duration": 127,
   "budget": 63000000,
   "boxOffice": 1030000000,
-  "synopsis": null,
-  "chapterKey": "jurassic-park",
-  "chapterOrder": 1,
+  "synopsis": "In a bold experiment, billionaire John Hammond creates a theme park featuring genetically resurrected dinosaurs. He invites paleontologist Dr. Alan Grant, his colleague Dr. Ellie Sattler, and mathematician Ian Malcolm for a preview. Chaos ensues when dinosaurs escape, forcing the group to survive and find a way off the island.",
   "poster": "posters/jurassic_park_1.webp",
   "genres": [
     {
@@ -188,6 +186,13 @@
       "name": "Ariana Richards",
       "role": "ACTOR",
       "details": "Lex"
+    }
+  ],
+  "collections": [
+    {
+      "id": 68,
+      "title": "Jurassic Part",
+      "order": 1
     }
   ]
 }

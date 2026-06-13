@@ -1,0 +1,119 @@
+{
+  "id": 384,
+  "title": "The Last Samurai",
+  "releaseDate": "2003-12-05",
+  "type": "FILM",
+  "duration": 154,
+  "budget": 140000000,
+  "boxOffice": 454000000,
+  "synopsis": "In 1876, disillusioned American Civil War veteran Nathan Algren is recruited to train the Japanese army. As he immerses himself in the samurai culture, he befriends their leader, Katsumoto. Caught between tradition and modernization, Algren finds purpose in a struggle that challenges his values and ignites a fierce loyalty to the samurai way.",
+  "poster": "posters/the_last_samurai",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/YX265wacZcY?si=L5eWVlnRpZVsPZnj",
+      "order": 1,
+      "id": 369
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2825,
+      "name": "Edward Zwick",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1668,
+      "name": "John Logan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2825,
+      "name": "Edward Zwick",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2826,
+      "name": "Marshall Herskovitz",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 665,
+      "name": "Ken Watanabe",
+      "role": "ACTOR",
+      "details": "Katsumoto"
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "ACTOR",
+      "details": "Nathan Algren"
+    },
+    {
+      "id": 2827,
+      "name": "William Atherton",
+      "role": "ACTOR",
+      "details": "Winchester Rep"
+    },
+    {
+      "id": 1129,
+      "name": "Tom Cruise",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2825,
+      "name": "Edward Zwick",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2828,
+      "name": "Tom Engelman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2826,
+      "name": "Marshall Herskovitz",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1725,
+      "name": "John Toll",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

@@ -6,9 +6,7 @@
   "duration": 45,
   "budget": 0,
   "boxOffice": 0,
-  "synopsis": null,
-  "chapterKey": "star-wars",
-  "chapterOrder": 4.25,
+  "synopsis": "Set ten years after the fall of the Jedi Order, the once-mighty Jedi Master faces a haunting past while hiding on Tatooine. Tasked with protecting a young Luke Skywalker, he confronts dark forces and old enemies, ultimately grappling with his own purpose and redemption in a galaxy shrouded in chaos.",
   "poster": "posters/obiwan_kenobi",
   "genres": [
     {
@@ -92,10 +90,16 @@
       "details": null
     }
   ],
+  "collections": [
+    {
+      "id": 22,
+      "title": "Star Wars Universe",
+      "order": 5
+    }
+  ],
   "seriesExtension": {
     "id": 68,
     "episodesTotal": 6,
-    "seasonsTotal": 1,
-    "finishedAt": null
+    "seasonsTotal": 1
   }
 }

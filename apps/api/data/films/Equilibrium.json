@@ -6,9 +6,7 @@
   "duration": 107,
   "budget": 20000000,
   "boxOffice": 5000000,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "In a dystopian future where emotions are suppressed by mandatory drug use, a high-ranking government enforcer named John Preston discovers the power of feeling after missing a dose. As he embraces passion and rebellion, he must confront his own beliefs and lead a coup against the oppressive regime to reclaim humanity's lost emotions.",
   "poster": "posters/equilibrium",
   "genres": [
     {
@@ -112,5 +110,6 @@
       "role": "CAMERAMAN",
       "details": null
     }
-  ]
+  ],
+  "collections": []
 }

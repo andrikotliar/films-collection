@@ -6,9 +6,7 @@
   "duration": 49,
   "budget": 0,
   "boxOffice": 0,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "In a dystopian future, a massive underground community struggles to survive in a decaying silo. When Jules discovers buried secrets about their world, she challenges the strict rules that govern their lives. As she uncovers unsettling truths, her quest for freedom puts her life and the fragile society at risk.",
   "poster": "posters/silo.webp",
   "genres": [
     {
@@ -41,12 +39,17 @@
     {
       "url": "https://www.youtube.com/watch?v=8ZYhuvIv1pA",
       "order": 1,
-      "id": 285
+      "id": 381
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BLBvbMtjyAQ",
+      "order": 3,
+      "id": 383
     },
     {
       "url": "https://www.youtube.com/watch?v=CLJDR-vFUdY",
       "order": 2,
-      "id": 286
+      "id": 382
     }
   ],
   "awards": [
@@ -141,10 +144,10 @@
       "details": "Solo"
     }
   ],
+  "collections": [],
   "seriesExtension": {
-    "id": 21,
-    "episodesTotal": 26,
-    "seasonsTotal": 2,
-    "finishedAt": "2025-01-17"
+    "id": 79,
+    "episodesTotal": 36,
+    "seasonsTotal": 3
   }
 }

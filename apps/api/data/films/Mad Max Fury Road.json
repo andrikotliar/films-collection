@@ -1,0 +1,230 @@
+{
+  "id": 383,
+  "title": "Mad Max: Fury Road",
+  "releaseDate": "2015-05-15",
+  "type": "FILM",
+  "duration": 120,
+  "budget": 150000000,
+  "boxOffice": 380000000,
+  "synopsis": "In a post-apocalyptic wasteland, a lone drifter named Max teams up with Furiosa, a fierce warrior, to rescue captive women from a tyrannical warlord. As they forge a path through endless desert, they face relentless adversaries in high-octane battles. Their quest becomes one of survival and liberation amid chaos.",
+  "poster": "posters/mad_max_fury_road",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    },
+    {
+      "title": "Village Roadshow Pictures",
+      "id": 31
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/hEJnMQG9ev8?si=S_Jx21_Vhhm8lNFm",
+      "order": 1,
+      "id": 368
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Film Editing",
+          "id": 233
+        },
+        {
+          "title": "Best Achievement in Costume Design",
+          "id": 8
+        },
+        {
+          "title": "Best Achievement in Makeup and Hairstyling",
+          "id": 20
+        },
+        {
+          "title": "Best Achievement in Sound Mixing",
+          "id": 11
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "id": 12
+        },
+        {
+          "title": "Best Achievement in Production Design",
+          "id": 9
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Actress",
+          "id": 38
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Director",
+          "id": 90
+        },
+        {
+          "title": "Best Art Direction",
+          "id": 73
+        },
+        {
+          "title": "Best Editing",
+          "id": 72
+        },
+        {
+          "title": "Best Costume Design",
+          "id": 78
+        },
+        {
+          "title": "Best Hair & Makeup",
+          "id": 83
+        },
+        {
+          "title": "Best Visual Effects",
+          "id": 75
+        },
+        {
+          "title": "Best action Movie",
+          "id": 76
+        },
+        {
+          "title": "Best Actor in an Action Movie",
+          "id": 234
+        },
+        {
+          "title": "Best Actress in an action Movie",
+          "id": 80
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 111
+        },
+        {
+          "title": "Best Production Design",
+          "id": 97
+        },
+        {
+          "title": "Best Costume Design",
+          "id": 116
+        },
+        {
+          "title": "Make Up & Hair Design",
+          "id": 239
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2822,
+      "name": "Brendan McCarthy",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2823,
+      "name": "Nick Lathouris",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1131,
+      "name": "Tom Hardy",
+      "role": "ACTOR",
+      "details": "Max Rockatansky"
+    },
+    {
+      "id": 186,
+      "name": "Charlize Theron",
+      "role": "ACTOR",
+      "details": "lmperator Furiosa"
+    },
+    {
+      "id": 870,
+      "name": "Nicholas Hoult",
+      "role": "ACTOR",
+      "details": "Nux"
+    },
+    {
+      "id": 2824,
+      "name": "Hugh Keays-Byrne",
+      "role": "ACTOR",
+      "details": "Immortan Joe"
+    },
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1558,
+      "name": "Doug Mitchell",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1295,
+      "name": "Tom Holkenborg",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1579,
+      "name": "John Seale",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}
