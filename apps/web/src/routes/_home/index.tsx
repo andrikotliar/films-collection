@@ -27,7 +27,9 @@ export const Route = createFileRoute('/_home/')({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: `Films Collection (${loaderData?.allFilmsCount} films)`,
+        title: loaderData?.allFilmsCount
+          ? `Films Collection (${loaderData?.allFilmsCount} films)`
+          : 'Films Collection',
       },
     ],
   }),

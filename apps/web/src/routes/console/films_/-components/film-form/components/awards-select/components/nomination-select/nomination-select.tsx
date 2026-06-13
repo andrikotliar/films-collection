@@ -131,13 +131,16 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
           <Button icon={<TrashIcon />} variant="ghost" onClick={() => remove(nominationIndex)} />
         </div>
       ))}
-      <Button
-        variant="ghost"
-        onClick={() => append({ nominationId: 0, actorId: null })}
-        icon={<PlusIcon />}
-      >
-        Add nomination
-      </Button>
+      <div>
+        <Button
+          variant="ghost"
+          onClick={() => append({ nominationId: 0, actorId: null })}
+          icon={<PlusIcon />}
+        >
+          Add nomination
+        </Button>
+      </div>
+      ß
     </div>
   );
 };
