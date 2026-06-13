@@ -501,7 +501,7 @@ export class FilmsService {
     const day = date.getDate();
     const month = date.getMonth();
 
-    return day + month;
+    return `${day}${month}`;
   }
 
   private countReleasedYear(dateString: string) {

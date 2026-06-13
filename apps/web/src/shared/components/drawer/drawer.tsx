@@ -14,6 +14,7 @@ type DrawerProps = {
   isOpen: boolean;
   position?: Position;
   onClose: VoidFunction;
+  textColor?: 'white' | 'black';
 };
 
 export const Drawer = ({
