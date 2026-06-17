@@ -21,12 +21,14 @@ export class AiService {
   public async createResponse(
     prompt: string,
     model: ResponsesModel = 'gpt-4o-mini',
+    temperature?: number,
   ): Promise<string> {
     const client = this.getClient();
 
     const response = await client.responses.create({
       model,
       input: prompt,
+      temperature,
     });
 
     return response.output_text;
@@ -39,92 +41,66 @@ export class AiService {
   }
 
   public async generateDescription(params: DescriptionParams) {
-    const firstRoundPrompt = `
-You are extracting factual story setup information.
+    const prompt = `
+Write a factual setup description for the following film or series.
 
-Film:
+Input:
 
-Title: ${params.title}
-Type: ${this.getReadableType(params.type, params.style)}
-Release year: ${params.releaseDate}
-
-Extract only information from the beginning of the story and the first major conflict.
-
-Rules:
-
-- Do not describe the ending or later twists.
-- Ignore themes, symbolism, messages, character growth, and franchise lore unless they directly affect the setup.
-- If this is a sequel, focus only on the unique setup of this installment.
-- Prefer concrete events over abstract ideas.
-- Use specific nouns and actions.
-- If some information is uncertain, return null.
-
-Return valid JSON with exactly this structure:
-
-{
-  "protagonist": "",
-  "initial_situation": "",
-  "inciting_incident": "",
-  "immediate_goal": "",
-  "antagonistic_force": "",
-  "unique_elements": ["", ""]
-}
-
-Field descriptions:
-
-- protagonist: Who the story mainly follows.
-- initial_situation: Their situation before the conflict begins.
-- inciting_incident: The event that disrupts that situation.
-- immediate_goal: What they try to accomplish as a direct result.
-- antagonistic_force: The person, group, creature, or circumstance opposing them.
-- unique_elements: Distinctive details that help identify this film from others.
-
-Output only valid JSON.
-`;
-
-    const firstRoundResponse = await this.createResponse(firstRoundPrompt);
-
-    const secondRoundPrompt = `
-Write a concise plot setup description using the extracted data below.
-
-Data:
-${firstRoundResponse}
+* Title: ${params.title}
+* Type: ${this.getReadableType(params.type, params.style)}
+* Release year: ${params.releaseDate}
 
 Requirements:
 
-- Describe only the setup and first major conflict.
-- Explain what happens in concrete terms.
-- Mention the protagonist's immediate goal.
-- Include one or more unique elements that distinguish this story.
-- Do not mention the ending, later twists, themes, symbolism, or character arcs.
-- Avoid promotional language and abstract phrases.
+* Describe only the beginning of the story and the first major conflict.
+* Focus on concrete events and circumstances.
+* Explain:
 
-Do NOT use phrases such as:
+  1. the protagonist's initial situation,
+  2. what disrupts it,
+  3. the immediate objective that follows.
+* Mention at least one distinctive element that helps identify this specific installment.
+* If this is a sequel, describe the unique setup of this installment rather than the overall franchise premise.
+* Do not reveal the ending, later twists, or major discoveries.
+* Do not summarize the entire plot.
+* Treat the events as real occurrences observed by a neutral witness.
 
-- ancient evil
-- dark forces
-- destiny
-- the truth
-- humanity
-- powerful foes
-- race against time
-- catastrophic events
-- everything changes forever
-- must save the world
-- struggles with their fate
+Style rules:
 
-Write as if these are real events observed from inside the story world. Do not acknowledge that this is a film.
+* Use 2–3 concise sentences.
+* Maximum 300 characters.
+* Use specific nouns and actions.
+* Prefer observable facts over interpretation.
+* Do not infer emotions, motivations, themes, symbolism, messages, or character development.
+* Avoid promotional, dramatic, or literary wording.
+* Do not use adjectives unless they are necessary to identify a person, place, or object.
 
-The result:
+Do NOT use phrases or wording similar to:
 
-- must be under 300 characters,
-- must not include the title,
-- must consist only of the final description text.
+* must confront
+* struggles with
+* determined to
+* forced to
+* drawn into
+* haunted by
+* turmoil of the past
+* destiny
+* fate
+* dark forces
+* ancient evil
+* powerful foes
+* race against time
+* save humanity
+* save the world
+* uncover the truth
+* everything changes forever
 
-Output only the description.    
+The description should allow someone familiar with films to recognize this title from the setup alone.
+
+Output only the final description text. Do not include the title, quotation marks, explanations, prefixes, or any additional text.
 `;
 
-    return this.createResponse(secondRoundPrompt);
+    return this.createResponse(prompt, 'gpt-4.1', 0.2);
   }
 
   private getReadableType(type: TTitleType, style: TTitleStyle) {
