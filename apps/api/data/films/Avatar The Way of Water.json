@@ -6,9 +6,7 @@
   "duration": 192,
   "budget": 350000000,
   "boxOffice": 1400000000,
-  "overview": null,
-  "chapterKey": "avatar",
-  "chapterOrder": 2,
+  "synopsis": null,
   "poster": "posters/avatar_2.webp",
   "genres": [
     {
@@ -181,6 +179,13 @@
       "name": "Edie Falco",
       "role": "ACTOR",
       "details": "General Ardmore"
+    }
+  ],
+  "collections": [
+    {
+      "id": 31,
+      "title": "Avatar Universe",
+      "order": 2
     }
   ]
 }

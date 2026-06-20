@@ -6,9 +6,7 @@
   "duration": 147,
   "budget": 250000000,
   "boxOffice": 1150000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 15,
+  "synopsis": null,
   "poster": "posters/captain_america_3.webp",
   "genres": [
     {
@@ -188,6 +186,13 @@
       "name": "Frank Grillo",
       "role": "ACTOR",
       "details": "Brock Rumlow"
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 16
     }
   ]
 }

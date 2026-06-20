@@ -6,9 +6,7 @@
   "duration": 40,
   "budget": 0,
   "boxOffice": 0,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": null,
   "poster": "posters/arcane.webp",
   "genres": [
     {
@@ -141,10 +139,10 @@
       "details": "Ekko"
     }
   ],
+  "collections": [],
   "seriesExtension": {
     "id": 1,
     "episodesTotal": 9,
-    "seasonsTotal": 1,
-    "finishedAt": "2021-11-20"
+    "seasonsTotal": 1
   }
 }

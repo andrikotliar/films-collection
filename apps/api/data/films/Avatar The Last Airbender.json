@@ -6,9 +6,7 @@
   "duration": 23,
   "budget": 0,
   "boxOffice": 0,
-  "overview": null,
-  "chapterKey": "last-airbender",
-  "chapterOrder": 1,
+  "synopsis": null,
   "poster": "posters/atla.webp",
   "genres": [
     {
@@ -198,10 +196,16 @@
       "details": "Suki"
     }
   ],
+  "collections": [
+    {
+      "id": 69,
+      "title": "The Legend of Aang",
+      "order": 1
+    }
+  ],
   "seriesExtension": {
     "id": 2,
     "episodesTotal": 61,
-    "seasonsTotal": 3,
-    "finishedAt": "2008-07-19"
+    "seasonsTotal": 3
   }
 }

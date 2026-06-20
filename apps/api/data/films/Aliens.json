@@ -6,9 +6,7 @@
   "duration": 137,
   "budget": 18000000,
   "boxOffice": 131000000,
-  "overview": null,
-  "chapterKey": "alien",
-  "chapterOrder": 2,
+  "synopsis": null,
   "poster": "posters/alien_2.webp",
   "genres": [
     {
@@ -178,6 +176,13 @@
       "name": "Bill Paxton",
       "role": "ACTOR",
       "details": "Private Hudson"
+    }
+  ],
+  "collections": [
+    {
+      "id": 56,
+      "title": "Alien",
+      "order": 2
     }
   ]
 }

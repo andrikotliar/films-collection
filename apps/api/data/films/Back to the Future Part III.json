@@ -6,9 +6,7 @@
   "duration": 118,
   "budget": 40000000,
   "boxOffice": 245000000,
-  "overview": null,
-  "chapterKey": "back-to-the-future",
-  "chapterOrder": 3,
+  "synopsis": null,
   "poster": "posters/back_to_the_future_3.webp",
   "genres": [
     {
@@ -101,6 +99,13 @@
       "name": "Thomas F. Wilson",
       "role": "ACTOR",
       "details": "Biff Tannen / Griff Tannen"
+    }
+  ],
+  "collections": [
+    {
+      "id": 59,
+      "title": "Back to the Future",
+      "order": 3
     }
   ]
 }

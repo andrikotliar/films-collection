@@ -6,9 +6,7 @@
   "duration": 107,
   "budget": 15000000,
   "boxOffice": 98000000,
-  "overview": null,
-  "chapterKey": "predator",
-  "chapterOrder": 0.5,
+  "synopsis": null,
   "poster": "posters/predator.webp",
   "genres": [
     {
@@ -137,6 +135,13 @@
       "name": "Kevin Peter Hall",
       "role": "ACTOR",
       "details": "Predator"
+    }
+  ],
+  "collections": [
+    {
+      "id": 90,
+      "title": "Predator",
+      "order": 0.5
     }
   ]
 }

@@ -6,9 +6,7 @@
   "duration": 118,
   "budget": 162000000,
   "boxOffice": 595000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 21,
+  "synopsis": null,
   "poster": "posters/ant_man_2.webp",
   "genres": [
     {
@@ -135,6 +133,13 @@
       "name": "Michael Douglas",
       "role": "ACTOR",
       "details": "Dr. Hank Pym"
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 22
     }
   ]
 }

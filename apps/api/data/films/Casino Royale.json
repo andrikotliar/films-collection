@@ -6,9 +6,7 @@
   "duration": 144,
   "budget": 150000000,
   "boxOffice": 616000000,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": null,
   "poster": "posters/casino_royale.webp",
   "genres": [
     {
@@ -23,20 +21,20 @@
   "style": "LIVE_ACTION",
   "countries": [
     {
-      "title": "UK",
-      "id": 2
-    },
-    {
       "title": "USA",
       "id": 1
     },
     {
-      "title": "Czech Republic",
-      "id": 9
+      "title": "UK",
+      "id": 2
     },
     {
       "title": "Germany",
       "id": 5
+    },
+    {
+      "title": "Czech Republic",
+      "id": 9
     },
     {
       "title": "Bahamas",
@@ -142,5 +140,6 @@
       "role": "ACTOR",
       "details": "Rene Mathis"
     }
-  ]
+  ],
+  "collections": []
 }

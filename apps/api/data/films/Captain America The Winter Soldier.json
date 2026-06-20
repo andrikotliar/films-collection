@@ -6,9 +6,7 @@
   "duration": 136,
   "budget": 177000000,
   "boxOffice": 714000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 10,
+  "synopsis": null,
   "poster": "posters/captain_america_2.webp",
   "genres": [
     {
@@ -129,6 +127,13 @@
       "name": "Cobie Smulders",
       "role": "ACTOR",
       "details": "Maria Hill"
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 11
     }
   ]
 }

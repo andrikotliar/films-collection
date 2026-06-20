@@ -6,9 +6,7 @@
   "duration": 124,
   "budget": 140000000,
   "boxOffice": 371000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 1,
+  "synopsis": null,
   "poster": "posters/captain_america_1.webp",
   "genres": [
     {
@@ -141,6 +139,13 @@
       "name": "Toby Jones",
       "role": "ACTOR",
       "details": "Dr. Arnim Zola"
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 1
     }
   ]
 }
