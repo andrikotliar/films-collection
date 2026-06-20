@@ -311,10 +311,6 @@ export class FilmsService {
     );
   }
 
-  async generateDescription(params: Pick<Film, 'title' | 'type' | 'style' | 'releaseDate'>) {
-    return this.deps.aiService.generateDescription(params);
-  }
-
   createDraft(filmId: string, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
     return throwIfNotFound(this.deps.filmsRepository.createDraft(filmId, input));
   }

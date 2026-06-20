@@ -21,8 +21,6 @@ import {
   GetAdminListQuerySchema,
   FilmStatsResponseSchema,
   FilmsByCollectionResponseSchema,
-  GenerateDescriptionInputSchema,
-  DescriptionResponseSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
 import { defineContracts } from '~/helpers/index.js';
@@ -172,14 +170,6 @@ export const filmsContract = defineContracts('films', {
     schema: {
       params: IdParamSchema,
       response: FilmsByCollectionResponseSchema,
-    },
-  },
-  generateDescription: {
-    method: 'POST',
-    url: 'admin/generate/description',
-    schema: {
-      body: GenerateDescriptionInputSchema,
-      response: DescriptionResponseSchema,
     },
   },
   getAdminFilmById: {

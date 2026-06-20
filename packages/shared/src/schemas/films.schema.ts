@@ -353,17 +353,6 @@ export const FilmsByCollectionResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ order: z.number() }),
 );
 
-export const GenerateDescriptionInputSchema = z.object({
-  title: z.string(),
-  type: z.enum(TitleType),
-  style: z.enum(TitleStyle),
-  releaseDate: z.string(),
-});
-
-export const DescriptionResponseSchema = z.object({
-  text: z.string(),
-});
-
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;

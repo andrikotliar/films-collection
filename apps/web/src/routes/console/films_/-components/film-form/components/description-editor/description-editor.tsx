@@ -4,7 +4,7 @@ import { useFormContext } from 'react-hook-form';
 import type z from 'zod';
 import { useMutation } from '@tanstack/react-query';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { LanguagesIcon, NotebookPenIcon } from 'lucide-react';
+import { LanguagesIcon } from 'lucide-react';
 
 export const DescriptionEditor = () => {
   const { setValue, getValues } = useFormContext<z.infer<typeof FilmFormSchema>>();
@@ -29,43 +29,9 @@ export const DescriptionEditor = () => {
     },
   });
 
-  const { mutate: generateText, isPending: isGenerating } = useMutation({
-    mutationFn: async () => {
-      const values = getValues();
-
-      const now = new Date().toISOString().split('T')[0];
-      const releaseDate = values.releaseDate
-        ? new Date(values.releaseDate).toISOString().split('T')[0]
-        : null;
-
-      if (!releaseDate || now === releaseDate) {
-        toaster.error('Specify release date');
-
-        return;
-      }
-
-      if (!values.title) {
-        toaster.error('Specify title');
-
-        return;
-      }
-
-      const result = await api.films.generateDescription({
-        input: {
-          title: values.title,
-          style: values.style,
-          type: values.type,
-          releaseDate,
-        },
-      });
-
-      setValue('synopsis', result.text);
-    },
-  });
-
   return (
     <div className={styles.editor_container}>
-      <Form.TextArea name="synopsis" label="Description" isLoading={isPending || isGenerating} />
+      <Form.TextArea name="synopsis" label="Description" isLoading={isPending} />
       <div className={styles.buttons}>
         <Button
           icon={<LanguagesIcon />}
@@ -75,15 +41,6 @@ export const DescriptionEditor = () => {
           isDisabled={isPending}
         >
           Translate description
-        </Button>
-        <Button
-          icon={<NotebookPenIcon />}
-          onClick={() => generateText()}
-          size="small"
-          variant="light"
-          isDisabled={isGenerating}
-        >
-          Generate description
         </Button>
       </div>
     </div>
