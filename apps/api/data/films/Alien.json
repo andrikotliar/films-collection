@@ -6,9 +6,7 @@
   "duration": 117,
   "budget": 11000000,
   "boxOffice": 106000000,
-  "overview": null,
-  "chapterKey": "alien",
-  "chapterOrder": 1,
+  "synopsis": null,
   "poster": "posters/alien_1.webp",
   "genres": [
     {
@@ -182,6 +180,13 @@
       "name": "Bolaji Badejo",
       "role": "ACTOR",
       "details": "Alien"
+    }
+  ],
+  "collections": [
+    {
+      "id": 56,
+      "title": "Alien",
+      "order": 1
     }
   ]
 }

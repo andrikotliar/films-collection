@@ -6,9 +6,7 @@
   "duration": 151,
   "budget": 250000000,
   "boxOffice": 874000000,
-  "overview": null,
-  "chapterKey": "dceu",
-  "chapterOrder": 2,
+  "synopsis": null,
   "poster": "posters/batman_v_superman.webp",
   "genres": [
     {
@@ -147,6 +145,13 @@
       "name": "Gal Gadot",
       "role": "ACTOR",
       "details": "Diana Prince / Wonder Woman"
+    }
+  ],
+  "collections": [
+    {
+      "id": 11,
+      "title": "DC Extended Universe",
+      "order": 3
     }
   ]
 }

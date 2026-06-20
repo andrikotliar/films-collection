@@ -6,9 +6,7 @@
   "duration": 162,
   "budget": 237000000,
   "boxOffice": 2800000000,
-  "overview": null,
-  "chapterKey": "avatar",
-  "chapterOrder": 1,
+  "synopsis": null,
   "poster": "posters/avatar.webp",
   "genres": [
     {
@@ -268,6 +266,13 @@
       "name": "CCH Pounder",
       "role": "ACTOR",
       "details": "Mo'at"
+    }
+  ],
+  "collections": [
+    {
+      "id": 31,
+      "title": "Avatar Universe",
+      "order": 1
     }
   ]
 }

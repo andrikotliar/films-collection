@@ -6,9 +6,7 @@
   "duration": 181,
   "budget": 356000000,
   "boxOffice": 2730000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 23,
+  "synopsis": null,
   "poster": "posters/avengers_4.webp",
   "genres": [
     {
@@ -252,6 +250,13 @@
       "name": "Don Cheadle",
       "role": "ACTOR",
       "details": "James Rhodes / The War Machine"
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 24
     }
   ]
 }

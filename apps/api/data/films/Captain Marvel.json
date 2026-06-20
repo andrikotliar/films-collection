@@ -6,9 +6,7 @@
   "duration": 124,
   "budget": 152000000,
   "boxOffice": 1130000000,
-  "overview": null,
-  "chapterKey": "mcu",
-  "chapterOrder": 2,
+  "synopsis": null,
   "poster": "posters/captain_marvel.webp",
   "genres": [
     {
@@ -39,9 +37,9 @@
   ],
   "trailers": [
     {
-      "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+      "url": "https://www.youtube.com/watch?v=Z1BCujX3pw8&pp=ygUWY2FwdGFpbiBtYXJ2ZWwgdHJhaWxlcg%3D%3D",
       "order": 1,
-      "id": 30
+      "id": 387
     }
   ],
   "awards": [],
@@ -159,6 +157,13 @@
       "name": "Lee Pace",
       "role": "ACTOR",
       "details": "Ronan"
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 3
     }
   ]
 }

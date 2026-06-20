@@ -6,9 +6,7 @@
   "duration": 97,
   "budget": 160000000,
   "boxOffice": 297000000,
-  "overview": null,
-  "chapterKey": "quiet-place",
-  "chapterOrder": 2,
+  "synopsis": null,
   "poster": "posters/quiet_place_2.webp",
   "genres": [
     {
@@ -125,6 +123,13 @@
       "name": "Djimon Hounsou",
       "role": "ACTOR",
       "details": "Man on Island"
+    }
+  ],
+  "collections": [
+    {
+      "id": 78,
+      "title": "The Quiet Place",
+      "order": 2
     }
   ]
 }

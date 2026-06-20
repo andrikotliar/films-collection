@@ -6,9 +6,7 @@
   "duration": 140,
   "budget": 150000000,
   "boxOffice": 375000000,
-  "overview": null,
-  "chapterKey": "dark-knight",
-  "chapterOrder": 1,
+  "synopsis": null,
   "poster": "posters/batman_1.webp",
   "genres": [
     {
@@ -188,6 +186,13 @@
       "name": "Morgan Freeman",
       "role": "ACTOR",
       "details": "Lucius Fox"
+    }
+  ],
+  "collections": [
+    {
+      "id": 61,
+      "title": "The Dark Knight",
+      "order": 1
     }
   ]
 }
