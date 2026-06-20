@@ -1,4 +1,3 @@
-import type { TTitleStyle, TTitleType } from '@films-collection/shared';
 import OpenAI from 'openai';
 import type { ResponsesModel } from 'openai/resources/shared';
 import type { Deps } from '~/shared/index.js';
@@ -35,13 +34,6 @@ export class AiService {
     return this.createResponse(
       `Translate the following ${langParams.from} text to ${langParams.to}: ${text}. The response should contain only the translated text. Doesn't add any extra words of unnecessary symbols, no matter the text length.`,
     );
-  }
-
-  private getReadableType(type: TTitleType, style: TTitleStyle) {
-    const starting = style === 'ANIMATION' ? 'animated' : '';
-    const ending = type === 'FILM' ? 'film' : 'TV show';
-
-    return `${starting} ${ending}`;
   }
 
   private getClient() {
