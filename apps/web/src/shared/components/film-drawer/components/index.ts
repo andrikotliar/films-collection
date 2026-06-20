@@ -8,3 +8,4 @@ export * from './links-group-wrapper/links-group-wrapper';
 export * from './cast-and-crew/cast-and-crew';
 export * from './awards/awards';
 export * from './page-skeleton/page-skeleton';
+export * from './description/description';
