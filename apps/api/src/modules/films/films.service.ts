@@ -155,13 +155,21 @@ export class FilmsService {
     }));
   }
 
-  getAdminList(queries: GetAdminListQueryParams) {
-    return this.deps.filmsRepository.findAndCount({
-      ...queries,
-      orderKey: queries.orderKey ?? 'updatedAt',
-      order: queries.order ?? 'desc',
-      draftLevels: queries.draftLevels ?? enumValues(DraftLevel),
-    });
+  async getAdminList(queries: GetAdminListQueryParams) {
+    const data = await this.deps.filmsRepository.findAndCount(
+      {
+        ...queries,
+        orderKey: queries.orderKey ?? 'updatedAt',
+        order: queries.order ?? 'desc',
+        draftLevels: queries.draftLevels ?? enumValues(DraftLevel),
+      },
+      'admin',
+    );
+
+    return {
+      ...data,
+      pageLimit: PAGE_LIMITS.filmsList,
+    };
   }
 
   async getEditableFilm(id: number) {

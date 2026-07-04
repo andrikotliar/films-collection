@@ -223,7 +223,8 @@ export const FilmsAdminListResponseSchema = z.object({
   list: z.array(
     FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ draft: z.boolean() }),
   ),
-  total: z.coerce.number(),
+  total: z.number(),
+  pageLimit: z.number(),
 });
 
 export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()
