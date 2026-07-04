@@ -1,6 +1,7 @@
 import {
   DraftLevel,
   enumValues,
+  TitleType,
   type GetAdminListQueryParams,
   type GetFilmsListQuery,
   type TDraftLevel,
@@ -108,6 +109,7 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
     noCrewOrCast,
     noTrailers,
     runtimeRange,
+    incompleteBoxOffice,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt)];
@@ -288,6 +290,12 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
 
   if (releasedThisDay) {
     filters.push(thisDateReleaseSql());
+  }
+
+  if (incompleteBoxOffice) {
+    filters.push(
+      sql`type <> ${TitleType.SERIES} AND draft = false and (box_office = 0 OR (EXTRACT(DAY FROM updated_at - release_date) < 90) AND release_date < NOW())`,
+    );
   }
 
   return { filters, drafts: getDraftFilter(draftLevels) };

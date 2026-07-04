@@ -109,6 +109,7 @@ export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
   noCrewOrCast: getBoolFromQuery,
   noBoxOffice: getBoolFromQuery,
   noTrailers: getBoolFromQuery,
+  incompleteBoxOffice: getBoolFromQuery,
 });
 
 export const SearchFilmsQuerySchema = z.object({
@@ -223,7 +224,8 @@ export const FilmsAdminListResponseSchema = z.object({
   list: z.array(
     FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ draft: z.boolean() }),
   ),
-  total: z.coerce.number(),
+  total: z.number(),
+  pageLimit: z.number(),
 });
 
 export const UpdateFilmInputSchema = CreateFilmInputSchema.partial()

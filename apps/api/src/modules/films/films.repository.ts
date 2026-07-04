@@ -69,6 +69,8 @@ type UpdateRelationsParams<T extends PgTableWithColumns<AnyTable>, V extends PgI
   values: V[];
 };
 
+type FilterLevel = 'public' | 'admin';
+
 export class FilmsRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
@@ -93,7 +95,7 @@ export class FilmsRepository {
     return this.count([eq(films.draft, false), isNull(films.deletedAt)]);
   }
 
-  async findAndCount(queries: PlainFilmFilters) {
+  async findAndCount(queries: PlainFilmFilters, level: FilterLevel = 'public') {
     const { filters, drafts } = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order, queries);
 
@@ -105,12 +107,15 @@ export class FilmsRepository {
       .offset(getSkipValue('filmsList', queries.pageIndex))
       .orderBy(sorting, asc(films.id));
 
-    const total = await this.count([...filters, eq(films.draft, false)]);
+    const total = await this.count([
+      ...filters,
+      level === 'admin' ? drafts : eq(films.draft, false),
+    ]);
 
     return { list, total };
   }
 
-  findById(id: number, level: 'public' | 'admin' = 'public') {
+  findById(id: number, level: FilterLevel = 'public') {
     const where = [eq(films.id, id), isNull(films.deletedAt)];
 
     if (level === 'public') {

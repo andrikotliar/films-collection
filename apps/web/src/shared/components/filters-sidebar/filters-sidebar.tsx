@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import { Loader } from '~/shared/components/loader/loader';
 import { defineCssProperties } from '~/shared/helpers';
 import { SlidersHorizontalIcon, XIcon } from 'lucide-react';
-import { Button } from '~/shared/components/button/button';
 
 type SidebarProps = {
   isOpen: boolean;
@@ -49,9 +48,9 @@ export const FiltersSidebar = ({
         })}
       >
         {children}
-        <div className={styles.close_icon_wrapper}>
-          <Button icon={<XIcon />} onClick={onToggle} variant="ghost" />
-        </div>
+        <button onClick={onToggle} className={styles.close_icon_wrapper}>
+          <XIcon />
+        </button>
       </div>
     </>
   );

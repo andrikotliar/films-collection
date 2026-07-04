@@ -1,36 +1,17 @@
+import { IconLink } from '~/shared/components/icon-link/icon-link';
 import styles from './app-menu.module.css';
-import clsx from 'clsx';
-import { useRef } from 'react';
-import { useClickOutside, useCloseOnScroll } from '~/shared/hooks';
-import { Menu } from '~/shared/components/menu/menu';
-import { mainMenuConfig } from '~/shared/configs';
+import { useLocation } from '@tanstack/react-router';
+import { HomeIcon, InfoIcon } from 'lucide-react';
 
-type AppMenuProps = {
-  isOpen: boolean;
-  onClose: VoidFunction;
-  menuButtonRef: React.RefObject<HTMLButtonElement | null>;
-};
-
-export const AppMenu = ({ isOpen, onClose, menuButtonRef }: AppMenuProps) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  useClickOutside({
-    isOpen,
-    closeHandler: onClose,
-    triggerElementRef: menuButtonRef,
-    containerRef,
-  });
-
-  useCloseOnScroll(onClose);
-
+export const AppMenu = () => {
+  const location = useLocation();
   return (
-    <div
-      className={clsx(styles.app_menu, {
-        [styles.open_app_menu]: isOpen,
-      })}
-      ref={containerRef}
-    >
-      <Menu config={mainMenuConfig} isStandalone />
+    <div className={styles.menu_wrapper}>
+      {location.pathname === '/' ? (
+        <IconLink icon={<InfoIcon />} to="/about" />
+      ) : (
+        <IconLink icon={<HomeIcon />} to="/" />
+      )}
     </div>
   );
 };

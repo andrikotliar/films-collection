@@ -97,8 +97,8 @@ export class FilmsService {
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
-      order: 'desc',
-      orderKey: queries.collectionId ? 'collectionOrder' : 'releaseDate',
+      order: queries.order ?? 'desc',
+      orderKey: queries.collectionId ? 'collectionOrder' : queries.orderKey ?? 'releaseDate',
       draftLevels: [DraftLevel.PUBLISHED, DraftLevel.UPCOMING],
     });
 
@@ -155,13 +155,21 @@ export class FilmsService {
     }));
   }
 
-  getAdminList(queries: GetAdminListQueryParams) {
-    return this.deps.filmsRepository.findAndCount({
-      ...queries,
-      orderKey: queries.orderKey ?? 'updatedAt',
-      order: queries.order ?? 'desc',
-      draftLevels: queries.draftLevels ?? enumValues(DraftLevel),
-    });
+  async getAdminList(queries: GetAdminListQueryParams) {
+    const data = await this.deps.filmsRepository.findAndCount(
+      {
+        ...queries,
+        orderKey: queries.orderKey ?? 'updatedAt',
+        order: queries.order ?? 'desc',
+        draftLevels: queries.draftLevels ?? enumValues(DraftLevel),
+      },
+      'admin',
+    );
+
+    return {
+      ...data,
+      pageLimit: PAGE_LIMITS.filmsList,
+    };
   }
 
   async getEditableFilm(id: number) {
