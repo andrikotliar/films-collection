@@ -13,10 +13,11 @@ export type SortingParams = {
 };
 
 type SortingPopupProps = {
-  fields: ListOption<string>[];
+  fields: ListOption<string, { isNotSelectable?: boolean }>[];
   defaultOrderKey: string;
   defaultOrder: SortingOrder;
   onSorting: (params: SortingParams) => void;
+  isDisabled?: boolean;
 };
 
 export const SortingPopup = ({
@@ -24,9 +25,12 @@ export const SortingPopup = ({
   onSorting,
   defaultOrderKey,
   defaultOrder,
+  isDisabled = false,
 }: SortingPopupProps) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
+
+  const availableToSelectFields = fields.filter((field) => !field.isNotSelectable);
 
   const [selectedData, setSelectedData] = useState(() => {
     return {
@@ -64,6 +68,7 @@ export const SortingPopup = ({
         icon={selectedData.order === 'asc' ? <ArrowUpAZIcon /> : <ArrowDownAZIcon />}
         fitWidth
         size="small"
+        isDisabled={isDisabled}
       >
         <div className={styles.button_content}>
           <span className={styles.button_label}>Sorted by:</span> {selectedData.label}
@@ -76,7 +81,7 @@ export const SortingPopup = ({
         shouldAdjustToTriggerWidth={false}
         className={styles.sorting_popup_wrapper}
       >
-        {fields.map((field) => {
+        {availableToSelectFields.map((field) => {
           const isActiveField = defaultOrderKey === field.value;
 
           return (

@@ -22,3 +22,7 @@
   display: flex;
   gap: 20px;
 }
+
+.sorting {
+  margin-left: auto;
+}

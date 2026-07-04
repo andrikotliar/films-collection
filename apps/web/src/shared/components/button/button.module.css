@@ -70,6 +70,9 @@
 .button:disabled {
   color: var(--color-gray-dark);
   cursor: default;
+}
+
+.button:not(.ghost):disabled {
   background-color: var(--color-gray-light);
 }
 
@@ -78,17 +81,17 @@
 }
 
 @media (hover: hover) {
-  .button:not(:disabled):hover {
-    box-shadow: 0 0 0 1px var(--color-black);
-  }
-
-  .active:hover {
+  .active:not(:disabled):hover {
     background-color: var(--color-blue-primary);
   }
 
-  .ghost:hover {
+  .ghost:not(:disabled):hover {
     color: var(--color-blue-primary);
     background-color: transparent;
     box-shadow: none !important;
+  }
+
+  .button:not(:disabled):hover {
+    box-shadow: 0 0 0 1px var(--color-black);
   }
 }

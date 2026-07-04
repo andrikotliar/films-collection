@@ -97,8 +97,8 @@ export class FilmsService {
   async getFilteredFilms(queries: GetFilmsListQuery) {
     const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
-      order: 'desc',
-      orderKey: queries.collectionId ? 'collectionOrder' : 'releaseDate',
+      order: queries.order ?? 'desc',
+      orderKey: queries.collectionId ? 'collectionOrder' : queries.orderKey ?? 'releaseDate',
       draftLevels: [DraftLevel.PUBLISHED, DraftLevel.UPCOMING],
     });
 
