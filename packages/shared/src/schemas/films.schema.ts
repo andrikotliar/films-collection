@@ -109,6 +109,7 @@ export const GetAdminListQuerySchema = GetFilmsListQuerySchema.extend({
   noCrewOrCast: getBoolFromQuery,
   noBoxOffice: getBoolFromQuery,
   noTrailers: getBoolFromQuery,
+  incompleteBoxOffice: getBoolFromQuery,
 });
 
 export const SearchFilmsQuerySchema = z.object({

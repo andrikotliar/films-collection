@@ -9,6 +9,7 @@ const AdminOnlyFiltersSchema = z.object({
   noCrewOrCast: z.boolean().nullable(),
   noBoxOffice: z.boolean().nullable(),
   noTrailers: z.boolean().nullable(),
+  incompleteBoxOffice: z.boolean().nullable(),
 });
 
 export const AdminFiltersSchema = z.object({
@@ -25,6 +26,7 @@ export const defaultAdminFilters: AdminFilterValues = {
   noBoxOffice: false,
   noTrailers: false,
   noCrewOrCast: false,
+  incompleteBoxOffice: false,
   draftLevels: [],
 };
 
@@ -61,6 +63,10 @@ export const getAdminFiltersConfig = (
         {
           id: 'noCrewOrCast',
           label: 'Missing crew or cast data',
+        },
+        {
+          id: 'incompleteBoxOffice',
+          label: 'Incomplete box office',
         },
       ],
     },
