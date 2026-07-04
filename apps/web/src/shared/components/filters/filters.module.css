@@ -42,8 +42,8 @@
   text-transform: uppercase;
 }
 
-@media (width > 785px) {
-  .hide_filter_wrapper {
-    display: none;
+@media (width <= 785px) {
+  .controls {
+    padding-right: 60px;
   }
 }

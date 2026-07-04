@@ -1,9 +1,10 @@
 import styles from './films-section.module.css';
 import { AdditionalInfoSection, CurrentEvents, FilmsGrid, FilmsGridSkeleton } from './components';
 import { getRouteApi } from '@tanstack/react-router';
-import { getFilmsListQueryOptions, PageTitle, Pagination } from '~/shared';
+import { getFilmsListQueryOptions, IconLink, PageTitle, Pagination } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
+import { SettingsIcon } from 'lucide-react';
 
 const routeApi = getRouteApi('/_home/');
 
@@ -37,6 +38,7 @@ export const FilmsSection = () => {
     <div className={styles.films_section}>
       <div className={styles.header}>
         <PageTitle>Films Collection</PageTitle>
+        <IconLink icon={<SettingsIcon />} to="/console" />
       </div>
       <CurrentEvents
         events={data.events}
