@@ -40,6 +40,10 @@
     "id": 42
   },
   {
+    "title": "Avatar Studio",
+    "id": 98
+  },
+  {
     "title": "Awesomeness Studio",
     "id": 80
   },
@@ -114,9 +118,5 @@
   {
     "title": "Disney+",
     "id": 2
-  },
-  {
-    "title": "Dream Well Studio",
-    "id": 67
   }
 ]
