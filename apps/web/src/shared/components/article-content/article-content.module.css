@@ -1,8 +1,12 @@
 .content {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: var(--padding-default);
   line-height: 1.5;
+  text-align: justify;
+  min-height: var(--screen-height);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-sm);
 }
 
 .content h1 {

@@ -110,6 +110,11 @@ export const FilmsSection = () => {
         <PageTitle>Films Collection</PageTitle>
         <IconLink icon={<SettingsIcon />} to="/console" />
       </div>
+      <CurrentEvents
+        events={data.events}
+        total={data.allFilmsCount}
+        anniversaryPoster={data.anniversaryPoster}
+      />
       <div className={styles.sorting}>
         <SortingPopup
           fields={sortingFields}
@@ -119,11 +124,6 @@ export const FilmsSection = () => {
           isDisabled={searchParams.collectionId !== undefined}
         />
       </div>
-      <CurrentEvents
-        events={data.events}
-        total={data.allFilmsCount}
-        anniversaryPoster={data.anniversaryPoster}
-      />
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.list} isCollection={!!searchParams.collectionId} />
       <div className={styles.pagination_wrapper}>
