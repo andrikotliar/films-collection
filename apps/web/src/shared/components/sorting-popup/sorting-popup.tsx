@@ -32,12 +32,10 @@ export const SortingPopup = ({
 
   const availableToSelectFields = fields.filter((field) => !field.isNotSelectable);
 
-  const [selectedData, setSelectedData] = useState(() => {
-    return {
-      label: getDefaultLabel(fields, defaultOrderKey),
-      order: defaultOrder,
-    };
-  });
+  const selectedData = {
+    label: getDefaultLabel(fields, defaultOrderKey),
+    order: defaultOrder,
+  };
 
   const handleClose = () => {
     setIsOpen(false);
@@ -50,10 +48,6 @@ export const SortingPopup = ({
   const handleSorting = (field: ListOption<string>, order: SortingOrder) => {
     onSorting({
       orderKey: field.value,
-      order,
-    });
-    setSelectedData({
-      label: field.label,
       order,
     });
     handleClose();
