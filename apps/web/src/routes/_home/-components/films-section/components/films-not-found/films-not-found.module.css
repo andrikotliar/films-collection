@@ -1,5 +1,5 @@
 .films_not_found {
-  color: #777;
+  color: var(--color-gray-dark);
   font-size: 18px;
   font-weight: bold;
   width: 100%;
@@ -8,6 +8,6 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  background-color: #f2f2f2;
+  background-color: var(--color-gray-light);
   border-radius: var(--rounded-default);
 }

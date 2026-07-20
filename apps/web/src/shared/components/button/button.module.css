@@ -30,7 +30,7 @@
 
 .secondary {
   color: var(--color-black);
-  background-color: #ddd;
+  background-color: var(--color-gray-primary);
 }
 
 .ghost {
