@@ -1,7 +1,7 @@
 .filters {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: calc(100% - 60px);
   overflow: hidden;
   background-color: var(--color-white);
 }
@@ -31,7 +31,7 @@
   gap: 20px;
   padding: 10px 20px;
   border-bottom: var(--border-default);
-  background-color: #f2f2f2;
+  background-color: var(--color-gray-light);
   font-size: 16px;
   font-weight: normal;
   text-align: center;
@@ -40,6 +40,13 @@
 .header_title {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.search_wrapper {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
 }
 
 @media (width <= 785px) {
