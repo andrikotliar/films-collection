@@ -1,12 +1,22 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { Form } from '~/shared';
-import type { ListOption } from '@films-collection/shared';
+import type { Enum, ListOption, PersonRole } from '@films-collection/shared';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { PeopleSelect } from '~/routes/console/films_/-components/film-form/components/cast-and-crew-select/components';
 
 type CastAndCrewSelectProps = {
   positionOptions: ListOption<string>[];
+};
+
+const rolesNextSelect: Record<Enum<typeof PersonRole>, Enum<typeof PersonRole>> = {
+  CREATOR: 'ACTOR',
+  DIRECTOR: 'WRITER',
+  WRITER: 'PRODUCER',
+  PRODUCER: 'ACTOR',
+  ACTOR: 'COMPOSER',
+  COMPOSER: 'CAMERAMAN',
+  CAMERAMAN: 'DIRECTOR',
 };
 
 export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
@@ -18,9 +28,11 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
   });
 
   const handleAddNewPerson = () => {
+    const prevField = fields.at(-1);
+    const nextRole = prevField ? rolesNextSelect[prevField.role] : 'DIRECTOR';
     append(
       {
-        role: 'ACTOR',
+        role: nextRole,
         people: [],
       },
       { shouldFocus: false },
