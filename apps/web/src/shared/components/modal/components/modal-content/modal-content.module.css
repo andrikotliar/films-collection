@@ -9,6 +9,12 @@
   padding: 20px;
 }
 
+.content.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .content.light {
   background-color: var(--color-white);
 }

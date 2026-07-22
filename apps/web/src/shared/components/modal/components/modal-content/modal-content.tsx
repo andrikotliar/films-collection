@@ -9,6 +9,7 @@ type ModalContentProps = {
   theme?: Theme;
   withPaddings?: boolean;
   size?: Size;
+  flex?: boolean;
 };
 
 export const ModalContent = ({
@@ -16,6 +17,7 @@ export const ModalContent = ({
   theme = 'light',
   withPaddings = true,
   size = 'form',
+  flex,
 }: ModalContentProps) => {
   return (
     <div
@@ -24,6 +26,7 @@ export const ModalContent = ({
         styles[theme],
         styles[size],
         withPaddings && styles.withPaddings,
+        flex && styles.flex,
       )}
       onClick={(e) => e.stopPropagation()}
     >

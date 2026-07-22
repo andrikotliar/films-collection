@@ -8,10 +8,10 @@ import { CreateNewItemButton, NotFound, Option, SelectedOption, TriggerButton } 
 import { getSelectValue } from './helpers';
 import type { ListOption } from '@films-collection/shared';
 
-export type SelectProps = {
+export type SelectProps<T extends ListOption<any>> = {
   label?: string;
   error?: FormError;
-  options: ListOption<any>[];
+  options: T[];
   value?: string | string[] | number | number[] | null;
   isMulti?: boolean;
   isClearable?: boolean;
@@ -19,13 +19,13 @@ export type SelectProps = {
   isDisabled?: boolean;
   placeholder?: string;
   isOptionsLoading?: boolean;
-  onSelect: (value: any, option?: ListOption) => void;
+  onSelect: (value: any, option?: T) => void;
   onOptionsSearch?: (value: string | null) => void;
-  onCreateOption?: (value: string) => Promise<ListOption<any>>;
+  onCreateOption?: (value: string) => Promise<T>;
   onClear?: VoidFunction;
 };
 
-export const Select = ({
+export const Select = <T extends ListOption<any>>({
   options,
   label,
   error,
@@ -40,7 +40,7 @@ export const Select = ({
   onOptionsSearch,
   onCreateOption,
   onClear,
-}: SelectProps) => {
+}: SelectProps<T>) => {
   const selectedValues = useMemo(() => {
     return getSelectValue(value);
   }, [value]);
@@ -86,7 +86,7 @@ export const Select = ({
   };
 
   const handleFinishSelection = useCallback(
-    (newOption?: ListOption) => {
+    (newOption?: T) => {
       setIsDropdownOpen(false);
       const resetOptions = [...options];
       if (newOption) {
@@ -99,7 +99,7 @@ export const Select = ({
   );
 
   const handleSelectValue = useCallback(
-    (option: ListOption, isActive: boolean, append?: boolean) => {
+    (option: T, isActive: boolean, append?: boolean) => {
       handleFinishSelection(append ? option : undefined);
 
       if (!isMulti) {

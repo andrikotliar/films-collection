@@ -2,14 +2,19 @@ import styles from './option.module.css';
 import clsx from 'clsx';
 import type { ListOption } from '@films-collection/shared';
 
-type OptionProps = {
-  onSelect: (value: ListOption, isActive: boolean) => void;
-  data: ListOption<any>;
+type OptionProps<T extends ListOption> = {
+  onSelect: (value: T, isActive: boolean) => void;
+  data: T;
   selectedValues: (string | number)[];
   ref?: React.RefCallback<HTMLButtonElement>;
 };
 
-export const Option = ({ onSelect, data, selectedValues, ref }: OptionProps) => {
+export const Option = <T extends ListOption>({
+  onSelect,
+  data,
+  selectedValues,
+  ref,
+}: OptionProps<T>) => {
   const isActive = selectedValues.includes(data.value);
 
   return (
