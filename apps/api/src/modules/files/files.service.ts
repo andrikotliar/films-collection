@@ -3,9 +3,9 @@ import type { UploadFilePayloadSchema } from '@films-collection/shared';
 import type z from 'zod';
 
 export class FilesService {
-  constructor(private readonly deps: Deps<'awsService'>) {}
+  constructor(private readonly deps: Deps<'storageService'>) {}
 
   getUploadUrl(payload: z.infer<typeof UploadFilePayloadSchema>) {
-    return this.deps.awsService.getUploadUrl(payload);
+    return this.deps.storageService.getUploadUrl(payload);
   }
 }
