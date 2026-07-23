@@ -1,12 +1,13 @@
 import type { FormError, FormFieldProps } from '~/shared/types';
 import { Controller, useFormContext } from 'react-hook-form';
 import { Select, type SelectProps } from '~/shared/components/select/select';
+import type { ListOption } from '@films-collection/shared';
 
-export const FormSelect = ({
+export const FormSelect = <T extends ListOption<any>>({
   name,
   error: errorProp,
   ...props
-}: FormFieldProps<Omit<SelectProps, 'onSelect' | 'initialValue'>>) => {
+}: FormFieldProps<Omit<SelectProps<T>, 'onSelect' | 'initialValue'>>) => {
   const { control, formState } = useFormContext();
 
   const { errors } = formState;
