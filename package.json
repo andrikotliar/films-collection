@@ -11,7 +11,7 @@
     "db:init": "pnpm --filter ./apps/api run db:push && pnpm --filter ./apps/api run db:seed",
     "db:init:empty": "pnpm --filter ./apps/api run db:push",
     "dev": "pnpm run -r --parallel --aggregate-output dev",
-    "start:prod": "cd apps/api && pnpm db:migration:apply && pnpm start"
+    "start:prod": "cd apps/api && pnpm db:migrate && pnpm start"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

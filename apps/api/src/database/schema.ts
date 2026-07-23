@@ -551,7 +551,11 @@ export const usersSessions = pgTable(
     sessionId: varchar('session_id').notNull(),
     refreshToken: varchar('refresh_token'),
     deviceInfo: jsonb('device_info').$type<DeviceInfo>(),
-    lastActivityAt: timestamp('last_activity_at', { precision: 3, mode: 'string' }),
+    lastActivityAt: timestamp('last_activity_at', {
+      precision: 3,
+      mode: 'string',
+      withTimezone: true,
+    }),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()
