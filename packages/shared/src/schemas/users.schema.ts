@@ -1,8 +1,25 @@
 import { z } from 'zod';
 
 export const DeviceInfoSchema = z.object({
-  os: z.string(),
-  browser: z.string(),
+  browser: z
+    .object({
+      name: z.string(),
+      version: z.string(),
+    })
+    .partial(),
+  device: z
+    .object({
+      model: z.string(),
+      vendor: z.string(),
+      type: z.string(),
+    })
+    .partial(),
+  os: z
+    .object({
+      name: z.string(),
+      version: z.string(),
+    })
+    .partial(),
 });
 
 export const UserSessionSchema = z.object({

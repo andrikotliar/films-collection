@@ -14,7 +14,7 @@ export const getLastActivity = (isoDate: string | null) => {
 
   const seconds = Math.floor(diffMs / 1000);
   if (seconds < 60) {
-    return `${seconds} second${seconds !== 1 ? 's' : ''} ago`;
+    return `Less than 1 minute ago`;
   }
 
   const minutes = Math.floor(seconds / 60);
