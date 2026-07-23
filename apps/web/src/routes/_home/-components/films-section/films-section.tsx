@@ -27,10 +27,6 @@ const sortingFields: ListOption<string, { isNotSelectable?: boolean }>[] = [
     value: 'releaseDate',
   },
   {
-    label: 'Created At',
-    value: 'createdAt',
-  },
-  {
     label: 'Updated At',
     value: 'updatedAt',
   },
