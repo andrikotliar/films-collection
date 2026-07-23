@@ -9,20 +9,20 @@ type QueryParams = {
   selected?: any[];
 };
 
-export type AsyncSelectProps = {
-  optionsLoader: (params: { queryParams: QueryParams }) => Promise<ListOption<any>[]>;
+export type AsyncSelectProps<T extends ListOption<any>> = {
+  optionsLoader: (params: { queryParams: QueryParams }) => Promise<T[]>;
   queryKey: Array<unknown>;
-} & Omit<SelectProps, 'onOptionsSearch' | 'options'>;
+} & Omit<SelectProps<T>, 'onOptionsSearch' | 'options'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
 
-export const AsyncSelect = ({
+export const AsyncSelect = <T extends ListOption<any>>({
   optionsLoader,
   value,
   isOptionsLoading,
   queryKey,
   ...props
-}: AsyncSelectProps) => {
+}: AsyncSelectProps<T>) => {
   const [searchString, setSearchString] = useState<string | null>(null);
 
   const { data: options, isFetching } = useQuery({

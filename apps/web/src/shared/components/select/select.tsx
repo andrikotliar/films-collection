@@ -217,6 +217,7 @@ export const Select = <T extends ListOption<any>>({
   );
 
   const handleClickAddItem = async () => {
+    setIsDropdownOpen(false);
     const value = inputRef?.current?.value ?? '';
 
     const createdOption = await onCreateOption?.(value);

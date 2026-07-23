@@ -6,3 +6,4 @@ export * from './use-debounced-search';
 export * from './use-resize-observer';
 export * from './use-sidebar-visibility';
 export * from './use-drawer';
+export * from './use-async-modal';
