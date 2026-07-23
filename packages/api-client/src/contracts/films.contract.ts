@@ -21,6 +21,7 @@ import {
   GetAdminListQuerySchema,
   FilmStatsResponseSchema,
   FilmsByCollectionResponseSchema,
+  DeleteFilmDrafts,
 } from '@films-collection/shared';
 import { z } from 'zod';
 import { defineContracts } from '~/helpers/index.js';
@@ -178,6 +179,14 @@ export const filmsContract = defineContracts('films', {
     schema: {
       params: IdParamSchema,
       response: FilmResponseSchema,
+    },
+  },
+  deleteAllFilmDrafts: {
+    method: 'DELETE',
+    url: 'admin/film/:filmId/drafts',
+    schema: {
+      params: FilmDraftFilmIdParamsSchema,
+      response: DeleteFilmDrafts,
     },
   },
 });

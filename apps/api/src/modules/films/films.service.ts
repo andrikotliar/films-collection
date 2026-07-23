@@ -427,6 +427,10 @@ export class FilmsService {
     return blocks;
   }
 
+  async deleteAllFilmDrafts(filmId: string) {
+    return this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId);
+  }
+
   linkCollectionToFilms(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
     return this.deps.filmsRepository.linkFilmToCollection(input);
   }
