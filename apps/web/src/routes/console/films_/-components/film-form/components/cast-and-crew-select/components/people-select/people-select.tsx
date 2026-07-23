@@ -72,20 +72,18 @@ export const PeopleSelect = ({ index }: PeopleSelectProps) => {
           />
         </div>
       ))}
-      <div>
-        <Button
-          variant="ghost"
-          icon={<PlusIcon />}
-          onClick={() =>
-            append({
-              personId: 0,
-              details: null,
-            })
-          }
-        >
-          Add person
-        </Button>
-      </div>
+      <Button
+        variant="ghost"
+        icon={<PlusIcon />}
+        onClick={() =>
+          append({
+            personId: 0,
+            details: null,
+          })
+        }
+      >
+        Add person
+      </Button>
     </div>
   );
 };

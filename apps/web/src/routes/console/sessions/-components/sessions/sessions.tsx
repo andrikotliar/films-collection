@@ -11,6 +11,26 @@ import {
   queryKey,
 } from '~/shared';
 import { useState } from 'react';
+import { LaptopMinimalIcon, RadioIcon, SmartphoneIcon, TabletIcon } from 'lucide-react';
+
+const deviceTypeToIcon = {
+  mobile: <SmartphoneIcon />,
+  table: <TabletIcon />,
+};
+
+const getDeviceIcon = (data: ApiResponse<typeof api.users.getSessions>[number]['deviceInfo']) => {
+  if (!data?.device?.type) {
+    return <LaptopMinimalIcon />;
+  }
+
+  const icon = deviceTypeToIcon[data.device.type as keyof typeof deviceTypeToIcon];
+
+  if (!icon) {
+    return <LaptopMinimalIcon />;
+  }
+
+  return icon;
+};
 
 export const Sessions = () => {
   const { data } = useSuspenseQuery(getUserSessionsQueryOptions());
@@ -36,19 +56,47 @@ export const Sessions = () => {
         {data.map((session) => (
           <div className={styles.session} key={session.id}>
             <div>
-              <div className={styles.title}>
-                OS: {session.deviceInfo?.os ?? 'Unknown'} – Browser:{' '}
-                {session.deviceInfo?.browser ?? 'Unknown'} {session.isCurrent ? '(Current)' : ''}
+              <div className={styles.device}>
+                <div className={styles.icons}>
+                  <div>{getDeviceIcon(session.deviceInfo)} </div>
+                  {session.isCurrent && (
+                    <div title="Current session">
+                      <RadioIcon className={styles.live_device} />
+                    </div>
+                  )}
+                </div>
+                <div>
+                  {session.deviceInfo?.device?.vendor ? (
+                    <div className={styles.device_title}>
+                      {session.deviceInfo.device.vendor} {session.deviceInfo.device.model}
+                    </div>
+                  ) : (
+                    <div className={styles.device_title}>Unknown device</div>
+                  )}
+                  {session.deviceInfo?.browser?.name && (
+                    <div className={styles.additional_info}>
+                      <span>
+                        {session.deviceInfo.browser.name} {session.deviceInfo.browser.version}
+                      </span>
+                      {session.deviceInfo.os.name && (
+                        <span>
+                          {' '}
+                          / {session.deviceInfo.os.name} {session.deviceInfo.os.version}
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </div>
               </div>
-              <div className={styles.time}>
-                Last activity: {getLastActivity(session.lastActivityAt)}
-              </div>
+              <div className={styles.time}>{getLastActivity(session.lastActivityAt)}</div>
             </div>
-            {!session.isCurrent && (
-              <Button size="small" onClick={() => setSelectedSession(session)}>
-                Terminate session
-              </Button>
-            )}
+            <div>
+              {!session.isCurrent && (
+                <Button size="small" onClick={() => setSelectedSession(session)}>
+                  Terminate session
+                </Button>
+              )}
+            </div>
           </div>
         ))}
       </Panel>

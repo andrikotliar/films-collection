@@ -123,8 +123,8 @@ docker run --rm \
 
 1. Update `apps/api/src/database/schema.ts` file.
 2. Navigate to the `apps/api` folder.
-3. Run `pnpm db:migration:gen --name specify_migration_name` to create migration file from the latest changes.
-4. Run `pnpm db:migration:apply` to apply changes to the database.
+3. Run `pnpm db:gen --name specify_migration_name` to create migration file from the latest changes.
+4. Run `pnpm db:migrate` to apply changes to the database.
 
 ### Localstack
 

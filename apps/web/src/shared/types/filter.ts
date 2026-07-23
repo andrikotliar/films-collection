@@ -57,7 +57,7 @@ export type AsyncComboSelectFilter<T extends Record<string, any>> = BaseFilter<T
   selector: {
     id: OnlyStringKey<T>;
     label: string;
-    loader: AsyncSelectProps['optionsLoader'];
+    loader: AsyncSelectProps<ListOption>['optionsLoader'];
     queryKey: string[];
     isMultiple?: boolean;
   };

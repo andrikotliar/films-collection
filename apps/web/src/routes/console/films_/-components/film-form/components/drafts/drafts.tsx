@@ -14,7 +14,7 @@ import {
 } from '~/shared';
 import styles from './drafts.module.css';
 import { useFormContext } from 'react-hook-form';
-import { TrashIcon } from 'lucide-react';
+import { Trash2Icon, TrashIcon } from 'lucide-react';
 
 type DraftsProps = {
   selectedDraft: FilmDraftResponse | null;
@@ -26,6 +26,7 @@ export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
   const { data } = useSuspenseQuery(getFilmDraftsQueryOptions(params.id));
   const [contentToView, setContentToView] = useState<FilmDraftResponse | null>(null);
   const [draftToDelete, setDraftToDelete] = useState<FilmDraftResponse | null>(null);
+  const [askDeleteAllDrafts, setAskDeleteAllDrafts] = useState<boolean | null>(null);
   const { reset } = useFormContext();
 
   const { mutate, isPending } = useMutation({
@@ -45,6 +46,17 @@ export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
     },
   });
 
+  const { mutate: deleteAllDrafts, isPending: isDraftsDeleting } = useMutation({
+    mutationFn: async () => {
+      await api.films.deleteAllFilmDrafts({ params: { filmId: params.id } });
+    },
+    meta: {
+      invalidateQueries: {
+        queryKey: queryKey('films.getFilmDrafts'),
+      },
+    },
+  });
+
   if (!data.length) {
     return null;
   }
@@ -56,7 +68,10 @@ export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
 
   return (
     <Panel>
-      <div className={styles.title}>Drafts</div>
+      <div className={styles.header}>
+        <div className={styles.title}>Drafts</div>
+        <Button icon={<Trash2Icon />} variant="ghost" onClick={() => setAskDeleteAllDrafts(true)} />
+      </div>
       <div className={styles.wrapper}>
         {data.map((draft) => (
           <div className={styles.row} key={draft.id}>
@@ -97,6 +112,13 @@ export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
         title="Confirm draft deletion"
         onConfirm={(data) => mutate(data)}
         isPending={isPending}
+      />
+      <ConfirmModal
+        data={askDeleteAllDrafts}
+        onClose={() => setAskDeleteAllDrafts(null)}
+        title="Delete all drafts?"
+        onConfirm={() => deleteAllDrafts()}
+        isPending={isDraftsDeleting}
       />
     </Panel>
   );

@@ -219,4 +219,13 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
       return { data };
     },
   },
+
+  deleteAllFilmDrafts: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      await app.container.resolve('filmsService').deleteAllFilmDrafts(request.params.filmId);
+
+      return { data: { ok: true } };
+    },
+  },
 });

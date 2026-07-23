@@ -169,6 +169,13 @@
       "when": 1780248289346,
       "tag": "0025_remove-finished-at",
       "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1784809638909,
+      "tag": "0026_use-timestamp-with-timezone-in-sessions",
+      "breakpoints": true
     }
   ]
 }

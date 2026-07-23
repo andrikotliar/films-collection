@@ -1,10 +1,25 @@
-import { CollectionCategory, type ListOption } from '@films-collection/shared';
+import {
+  CollectionCategory,
+  convertEnumValuesToOption,
+  enumValues,
+  type Enum,
+  type ListOption,
+} from '@films-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { FilmOrderSelect } from '~/routes/console/films_/-components/film-form/components/collections-select/components';
-import { api, FieldError, Form, toaster, type ApiResponse } from '~/shared';
+import {
+  api,
+  FieldError,
+  FieldLabel,
+  Form,
+  Modal,
+  Select,
+  useAsyncModal,
+  type ApiResponse,
+} from '~/shared';
 
 type CollectionsSelectProps = {
   options: ApiResponse<typeof api.initialData.get>['options']['collections'];
@@ -15,33 +30,13 @@ const defaultCollection: z.infer<typeof FilmFormSchema>['collections'][number] =
   order: 0,
 };
 
-const chapterPrefixes = ['G', 'C', 'U', 'T'] as const;
-
-const checkIsValidCollectionName = (value: string) => {
-  const prefix = value.charAt(0) as (typeof chapterPrefixes)[number];
-  const divider = value.charAt(1);
-
-  if (divider !== ':') {
-    return false;
-  }
-
-  return chapterPrefixes.includes(prefix);
-};
-
-const parsePrefix = (prefix: (typeof chapterPrefixes)[number]) => {
-  switch (prefix) {
-    case 'C':
-      return CollectionCategory.CHAPTER;
-    case 'T':
-      return CollectionCategory.TOP;
-    case 'U':
-      return CollectionCategory.CINEMATIC_UNIVERSE;
-    default:
-      return CollectionCategory.GENERAL;
-  }
-};
+const collectionCategoryOptions = convertEnumValuesToOption(enumValues(CollectionCategory));
 
 export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
+  const { params, isAsyncModalOpen, openAsyncModal, closeAsyncModal } = useAsyncModal<
+    string,
+    Enum<typeof CollectionCategory>
+  >();
   const { control, formState, watch } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
   const { fields, append, remove } = useFieldArray({
@@ -52,23 +47,12 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
   const collections = watch('collections');
 
   const { mutateAsync, isPending } = useMutation({
-    mutationFn: async (value: string): Promise<ListOption<number>> => {
-      const isValidName = checkIsValidCollectionName(value);
-
-      if (!isValidName) {
-        toaster.error(
-          'Collection name should follow the name convention: [Prefix]:[Name], where Prefix: G - general collection; U - cinematic universe; C - chapters; 4) T - top',
-        );
-        throw new Error('Invalid collection name');
+    mutationFn: async (title: string): Promise<ListOption<number>> => {
+      if (!title.length) {
+        throw new Error('Collection title cannot be empty');
       }
 
-      if (!value.length) {
-        throw new Error('Chapter Key cannot be empty');
-      }
-
-      const [prefix, title] = value.split(':');
-
-      const category = parsePrefix(prefix as (typeof chapterPrefixes)[number]);
+      const category = await openAsyncModal(title);
 
       const result = await api.collections.create({
         input: {
@@ -111,6 +95,18 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
           </Form.ArrayFieldWrapper>
         ))}
       </Form.ArrayWrapper>
+      <Modal isOpen={isAsyncModalOpen} onClose={closeAsyncModal} isAllowedClickOutside={false}>
+        {params && (
+          <Modal.Content flex>
+            <FieldLabel>Category for collection: {params.data}</FieldLabel>
+            <Select
+              options={collectionCategoryOptions}
+              onSelect={params.resolve}
+              isSearchable={false}
+            />
+          </Modal.Content>
+        )}
+      </Modal>
     </Form.Section>
   );
 };

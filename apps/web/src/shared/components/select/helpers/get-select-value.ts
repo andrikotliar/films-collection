@@ -1,6 +1,7 @@
+import type { ListOption } from '@films-collection/shared';
 import { type SelectProps } from '~/shared/components/select/select';
 
-export const getSelectValue = (value: SelectProps['value']) => {
+export const getSelectValue = <T extends ListOption<any>>(value: SelectProps<T>['value']) => {
   if (Array.isArray(value)) {
     return value;
   }

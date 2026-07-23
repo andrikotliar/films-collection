@@ -28,7 +28,7 @@ import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people/
 import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios/index.js';
 import { UsersRepository, usersRouter, UsersService } from '~/modules/users/index.js';
 import { ConfigService } from '~/modules/config/index.js';
-import { AwsService } from '~/modules/aws/index.js';
+import { StorageService } from '~/modules/storage/index.js';
 import type { Router } from '~/shared/index.js';
 import { AiService } from '~/modules/ai/index.js';
 
@@ -57,7 +57,7 @@ export const services = {
   usersRepository: UsersRepository,
   usersService: UsersService,
   configService: ConfigService,
-  awsService: AwsService,
+  storageService: StorageService,
   aiService: AiService,
 };
 

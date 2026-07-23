@@ -1,12 +1,13 @@
 import type { FormError, FormFieldProps } from '~/shared/types';
 import { Controller, useFormContext } from 'react-hook-form';
 import { AsyncSelect, type AsyncSelectProps } from '~/shared/components/async-select/async-select';
+import type { ListOption } from '@films-collection/shared';
 
-export const FormAsyncSelect = ({
+export const FormAsyncSelect = <T extends ListOption<any>>({
   name,
   error: errorProp,
   ...props
-}: FormFieldProps<Omit<AsyncSelectProps, 'initialValue' | 'onSelect'>>) => {
+}: FormFieldProps<Omit<AsyncSelectProps<T>, 'initialValue' | 'onSelect'>>) => {
   const { control, formState } = useFormContext();
 
   const error = errorProp ?? formState.errors[name]?.message;

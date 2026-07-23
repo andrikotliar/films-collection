@@ -1,0 +1,1 @@
+ALTER TABLE "users_sessions" ALTER COLUMN "last_activity_at" SET DATA TYPE timestamp(3) with time zone;

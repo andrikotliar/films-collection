@@ -41,7 +41,7 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
 
   return (
     <Form.Section label="Cast and Crew">
-      <Form.ArrayWrapper onCreate={handleAddNewPerson} createButtonLabel="Create person">
+      <Form.ArrayWrapper onCreate={handleAddNewPerson} createButtonLabel="Add role">
         {fields.map((field, index) => (
           <Form.ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
             <Form.Select

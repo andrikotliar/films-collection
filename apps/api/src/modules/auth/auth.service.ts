@@ -31,10 +31,16 @@ export class AuthService {
 
     const { accessToken, refreshToken } = this.createAuthTokens(user.id);
 
+    const deviceInfo = getDeviceInfo(userAgent);
+
     const { sessionId } = await this.deps.usersService.createUserSession({
       userId: user.id,
       refreshToken,
-      deviceInfo: getDeviceInfo(userAgent),
+      deviceInfo: {
+        browser: deviceInfo.browser,
+        os: deviceInfo.os,
+        device: deviceInfo.device,
+      },
     });
 
     return {

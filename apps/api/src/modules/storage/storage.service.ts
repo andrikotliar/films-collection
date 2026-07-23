@@ -4,7 +4,7 @@ import type { UploadFilePayloadSchema } from '@films-collection/shared';
 import type z from 'zod';
 import type { Deps } from '~/shared/index.js';
 
-export class AwsService {
+export class StorageService {
   private s3Client: S3Client | null = null;
 
   constructor(private readonly deps: Deps<'configService'>) {}

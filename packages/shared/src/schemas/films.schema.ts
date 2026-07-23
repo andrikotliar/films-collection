@@ -355,6 +355,10 @@ export const FilmsByCollectionResponseSchema = z.array(
   FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ order: z.number() }),
 );
 
+export const DeleteFilmDrafts = z.object({
+  ok: z.boolean(),
+});
+
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;
 export type SearchFilmsQuery = z.infer<typeof SearchFilmsQuerySchema>;
 export type GetFilmOptionsQuery = z.infer<typeof GetFilmOptionsQuerySchema>;
