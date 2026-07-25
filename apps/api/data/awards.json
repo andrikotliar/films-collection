@@ -132,6 +132,16 @@
         "id": 207,
         "title": "Best Scared-As-S**t Performance",
         "shouldIncludeActor": true
+      },
+      {
+        "id": 265,
+        "title": "Best Dance Sequence",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 272,
+        "title": "Most Frightened Performance",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -324,6 +334,46 @@
         "id": 17,
         "title": "Best Music (Original Song)",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 262,
+        "title": "Best Writing, Screenplay Written Directly for the Screen",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 283,
+        "title": "Best Achievement in Music Written for Motion Pictures (Original Song)",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 284,
+        "title": "Best Animated Feature Film",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 295,
+        "title": "Best Writing, Original Screenplay",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 296,
+        "title": "Best Animated Feature Film of the Year",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 305,
+        "title": "Best Actor in a Leading Role",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 306,
+        "title": "Best Writing, Screenplay Based on Material Previously Produced or Published",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 310,
+        "title": "Best Achievement in Music Written for Motion Pictures, Original Score",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -384,6 +434,36 @@
       {
         "id": 242,
         "title": "Best Television Series - Drama",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 255,
+        "title": "Best Motion Picture - Musical or Comedy",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 256,
+        "title": "Best Performance by an Actor in a Supporting Role in a Motion Picture",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 257,
+        "title": "Best Screenplay - Motion Picture",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 278,
+        "title": "Best Performance by an Actress in a Supporting Role in Any Motion Picture",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 307,
+        "title": "Best Performance by an Actor in a Motion Picture - Dram",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 311,
+        "title": "Best Animated Feature Film",
         "shouldIncludeActor": false
       }
     ]
@@ -611,166 +691,30 @@
         "id": 251,
         "title": "Outstanding Special Visual Effects in a Season or a Movie",
         "shouldIncludeActor": false
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Critics Choice Movie Awards",
-    "nominations": [
+      },
       {
-        "id": 231,
-        "title": "Best Adapted Screenplay",
+        "id": 266,
+        "title": "Outstanding Sound Editing for a Limited or Anthology Series, Movie or Special",
         "shouldIncludeActor": false
       },
       {
-        "id": 84,
-        "title": "Best Score",
+        "id": 275,
+        "title": "Outstanding Motion Design",
         "shouldIncludeActor": false
       },
       {
-        "id": 82,
-        "title": "Best Song",
+        "id": 280,
+        "title": "Outstanding Contemporary Costumes for a Series",
         "shouldIncludeActor": false
       },
       {
-        "id": 74,
-        "title": "Best Sound",
+        "id": 281,
+        "title": "Outstanding Contemporary Makeup (Non-Prosthetic)",
         "shouldIncludeActor": false
       },
       {
-        "id": 87,
-        "title": "Best Supporting Actor",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 79,
-        "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 86,
-        "title": "Best Supporting Actor in a drama Series",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 75,
-        "title": "Best Visual Effects",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 96,
-        "title": "Best Young Actress",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 76,
-        "title": "Best action Movie",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 92,
-        "title": "Favorite Film Franchise",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 234,
-        "title": "Best Actor in an Action Movie",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 214,
-        "title": " Best stunt design",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 89,
-        "title": "Best Acting Ensemble",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 95,
-        "title": "Best Actress in a Limited Series or a Movie Made for Television",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 80,
-        "title": "Best Actress in an action Movie",
-        "shouldIncludeActor": true
-      },
-      {
-        "id": 81,
-        "title": "Best Animated Feature",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 73,
-        "title": "Best Art Direction",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 71,
-        "title": "Best Cinematography",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 91,
-        "title": "Best Composer",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 78,
-        "title": "Best Costume Design",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 93,
-        "title": "Best Digital Acting Performance",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 90,
-        "title": "Best Director",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 72,
-        "title": "Best Editing",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 85,
-        "title": "Best Family Film - Live action",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 212,
-        "title": "Best Foreign Language Series",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 83,
-        "title": "Best Hair & Makeup",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 94,
-        "title": "Best Limited Series",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 88,
-        "title": "Best Picture",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 77,
-        "title": "Best Production Design",
-        "shouldIncludeActor": false
-      },
-      {
-        "id": 70,
-        "title": "Best Sci-Fi/Horror Movie",
+        "id": 282,
+        "title": "Outstanding Production Design for a Narrative Contemporary Program (One Hour or More)",
         "shouldIncludeActor": false
       }
     ]
@@ -998,6 +942,66 @@
         "id": 248,
         "title": "Best New Genre Television Series",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 252,
+        "title": "Best Film Direction",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 253,
+        "title": "Best Film Screenwriting",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 258,
+        "title": "Best Actress in a Film",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 259,
+        "title": "Best Film Music",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 260,
+        "title": "Best Film Production Design",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 261,
+        "title": "Best Cinematic Adaptation Film",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 267,
+        "title": "Best Streaming Limited Event Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 268,
+        "title": "Best Supporting Actress in a Streaming Series",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 269,
+        "title": "Best Guest Performance in a Streaming Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 273,
+        "title": "Best Superhero Television Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 274,
+        "title": "Best Performance by a Younger Actor in a Streaming Series",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 279,
+        "title": "Best Younger Performer in a Television Series",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -1149,6 +1153,116 @@
         "id": 224,
         "title": "Outstanding Achievement for Voice Acting in an Animated Feature",
         "shouldIncludeActor": true
+      },
+      {
+        "id": 270,
+        "title": "Outstanding Achievement for Storyboarding in an Animated Feature",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 271,
+        "title": "Directing in a Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 285,
+        "title": "Outstanding Achievement for Animated Effects in an Animated Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 286,
+        "title": "Outstanding Achievement for Character Animation in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 287,
+        "title": "Outstanding Achievement for Character Design in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 288,
+        "title": "Outstanding Achievement for Directing in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 289,
+        "title": "Outstanding Achievement for Music in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 290,
+        "title": "Outstanding Achievement for Storyboarding in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 291,
+        "title": "Outstanding Achievement for Voice Acting in an Animated Feature Production",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 292,
+        "title": "Outstanding Achievement for Writing in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 293,
+        "title": "Outstanding Achievement for Editorial in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 294,
+        "title": "Outstanding Achievement for Production Design in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 297,
+        "title": "Outstanding Achievement in Character Animation in a Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 298,
+        "title": "Outstanding Achievement in Directing in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 299,
+        "title": "Outstanding Achievement in Music in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 300,
+        "title": "Outstanding Achievement in Production Design in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 301,
+        "title": "Outstanding Achievement in Storyboarding in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 302,
+        "title": "Outstanding Achievement in Voice Acting in an Animated Feature Production",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 303,
+        "title": "Outstanding Achievement in Writing in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 304,
+        "title": "Outstanding Achievement in Editorial in an Animated Feature Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 312,
+        "title": "Character Animation in a Live Action Production",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 313,
+        "title": "Outstanding Achievement in Character Animation in a Live Action Production",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -1280,6 +1394,192 @@
         "id": 239,
         "title": "Make Up & Hair Design",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 263,
+        "title": "Best Actor in a Supporting Role",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 264,
+        "title": "Best Screenplay - Original",
+        "shouldIncludeActor": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Critics Choice Movie Awards",
+    "nominations": [
+      {
+        "id": 231,
+        "title": "Best Adapted Screenplay",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 92,
+        "title": "Favorite Film Franchise",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 76,
+        "title": "Best action Movie",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 96,
+        "title": "Best Young Actress",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 75,
+        "title": "Best Visual Effects",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 277,
+        "title": "Best Supporting Actress",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 86,
+        "title": "Best Supporting Actor in a drama Series",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 79,
+        "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 87,
+        "title": "Best Supporting Actor",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 74,
+        "title": "Best Sound",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 82,
+        "title": "Best Song",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 84,
+        "title": "Best Score",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 70,
+        "title": "Best Sci-Fi/Horror Movie",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 77,
+        "title": "Best Production Design",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 88,
+        "title": "Best Picture",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 254,
+        "title": "Best Original Screenplay",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 94,
+        "title": "Best Limited Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 83,
+        "title": "Best Hair & Makeup",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 212,
+        "title": "Best Foreign Language Series",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 85,
+        "title": "Best Family Film - Live action",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 72,
+        "title": "Best Editing",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 90,
+        "title": "Best Director",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 93,
+        "title": "Best Digital Acting Performance",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 78,
+        "title": "Best Costume Design",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 91,
+        "title": "Best Composer",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 71,
+        "title": "Best Cinematography",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 73,
+        "title": "Best Art Direction",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 81,
+        "title": "Best Animated Feature",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 80,
+        "title": "Best Actress in an action Movie",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 95,
+        "title": "Best Actress in a Limited Series or a Movie Made for Television",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 234,
+        "title": "Best Actor in an Action Movie",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 308,
+        "title": "Best Actor",
+        "shouldIncludeActor": true
+      },
+      {
+        "id": 89,
+        "title": "Best Acting Ensemble",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 214,
+        "title": " Best stunt design",
+        "shouldIncludeActor": true
       }
     ]
   }

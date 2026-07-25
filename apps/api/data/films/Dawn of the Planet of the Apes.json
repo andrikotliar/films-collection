@@ -1,0 +1,170 @@
+{
+  "id": 400,
+  "title": "Dawn of the Planet of the Apes",
+  "releaseDate": "2014-07-11",
+  "type": "FILM",
+  "duration": 130,
+  "budget": 170000000,
+  "boxOffice": 710000000,
+  "synopsis": null,
+  "poster": "posters/dawn_of_the_planet_of_the_apes",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/3sHMCRaS3ao?si=lZ8T0NFz-OXpP9lJ",
+      "order": 1,
+      "id": 398
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 75
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement in Character Animation in a Live Action Production",
+          "id": 313
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2487,
+      "name": "Matt Reeves",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2321,
+      "name": "Mark Bomback",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1364,
+      "name": "Rick Jaffa",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1480,
+      "name": "Peter Chernin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1870,
+      "name": "Dylan Clark",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1364,
+      "name": "Rick Jaffa",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Caesar"
+    },
+    {
+      "id": 2913,
+      "name": "Jason Clarke",
+      "role": "ACTOR",
+      "details": "Malcolm"
+    },
+    {
+      "id": 395,
+      "name": "Gary Oldman",
+      "role": "ACTOR",
+      "details": "Dreyfus"
+    },
+    {
+      "id": 668,
+      "name": "Keri Russell",
+      "role": "ACTOR",
+      "details": "Ellie"
+    },
+    {
+      "id": 1124,
+      "name": "Toby Kebbell",
+      "role": "ACTOR",
+      "details": "Koba"
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1578,
+      "name": "Michael Seresin",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 100,
+      "title": "The Planet of the Apes",
+      "order": 2
+    }
+  ]
+}

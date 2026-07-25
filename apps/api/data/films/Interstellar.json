@@ -6,9 +6,7 @@
   "duration": 169,
   "budget": 165000000,
   "boxOffice": 677000000,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": null,
   "poster": "posters/interstellar.webp",
   "genres": [
     {
@@ -180,6 +178,13 @@
       "name": "Matt Damon",
       "role": "ACTOR",
       "details": "Mann"
+    },
+    {
+      "id": 1121,
+      "name": "Timothee Chalamet",
+      "role": "ACTOR",
+      "details": "Tom"
     }
-  ]
+  ],
+  "collections": []
 }

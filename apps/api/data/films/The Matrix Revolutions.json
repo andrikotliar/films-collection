@@ -6,9 +6,7 @@
   "duration": 129,
   "budget": 110000000,
   "boxOffice": 427000000,
-  "overview": null,
-  "chapterKey": "matrix",
-  "chapterOrder": 3,
+  "synopsis": "Neo has to go to the very center of the machine world to join forces with them, destroy Agent Smith, and in return, the machines must leave Zion and allow the people to continue living in it.",
   "poster": "posters/matrix_3.webp",
   "genres": [
     {
@@ -123,6 +121,13 @@
       "name": "Mary Alice",
       "role": "ACTOR",
       "details": "Oracle"
+    }
+  ],
+  "collections": [
+    {
+      "id": 72,
+      "title": "The Matrix",
+      "order": 3
     }
   ]
 }

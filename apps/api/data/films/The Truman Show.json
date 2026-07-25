@@ -1,0 +1,138 @@
+{
+  "id": 394,
+  "title": "The Truman Show",
+  "releaseDate": "1998-06-05",
+  "type": "FILM",
+  "duration": 103,
+  "budget": 60000000,
+  "boxOffice": 264000000,
+  "synopsis": "Truman lives his ordinary life, not even realizing that he is in a daily show 24/7 and everyone around him is just an actor, and only he does not know what life is like outside the filming studio. But over time, he has more and more questions and doubts. He will have to find out what is really going on.",
+  "poster": "posters/the_truman_show",
+  "genres": [
+    {
+      "title": "Comedy",
+      "id": 6
+    },
+    {
+      "title": "Drama",
+      "id": 5
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=dlnmQbPGuls&pp=ygUTdHJ1bWFuIHNob3cgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 391
+    }
+  ],
+  "awards": [
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Writer",
+          "id": 55
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Screenplay - Original",
+          "id": 264
+        },
+        {
+          "title": "Best Cinematography",
+          "id": 115
+        },
+        {
+          "title": "Best Production Design",
+          "id": 97
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2887,
+      "name": "Peter Weir",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1695,
+      "name": "Andrew Niccol",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2888,
+      "name": "Edward S. Feldman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1695,
+      "name": "Andrew Niccol",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2889,
+      "name": "Scott Rudin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2890,
+      "name": "Adam Schroeder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2812,
+      "name": "Jim Carrey",
+      "role": "ACTOR",
+      "details": " Truman Burbank"
+    },
+    {
+      "id": 2891,
+      "name": "Laura Linney",
+      "role": "ACTOR",
+      "details": "Meryl Burbank/Hannah Gill"
+    },
+    {
+      "id": 2892,
+      "name": "Noah Emmerich",
+      "role": "ACTOR",
+      "details": " Marlon/Louis Coltrane"
+    },
+    {
+      "id": 2893,
+      "name": "Ed Harris",
+      "role": "ACTOR",
+      "details": "Christof"
+    }
+  ],
+  "collections": []
+}

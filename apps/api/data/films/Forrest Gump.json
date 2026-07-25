@@ -1,0 +1,184 @@
+{
+  "id": 393,
+  "title": "Forrest Gump",
+  "releaseDate": "1994-07-06",
+  "type": "FILM",
+  "duration": 142,
+  "budget": 55000000,
+  "boxOffice": 678000000,
+  "synopsis": null,
+  "poster": "posters/forrest_gump",
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Romance",
+      "id": 8
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Paramount Pictures",
+      "id": 14
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/Mj9IA9tTfio?si=JUY9ozRyGPhg0C6u",
+      "order": 1,
+      "id": 389
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Picture",
+          "id": 22
+        },
+        {
+          "title": "Best Actor in a Leading Role",
+          "id": 305
+        },
+        {
+          "title": "Best Director",
+          "id": 23
+        },
+        {
+          "title": "Best Writing, Screenplay Based on Material Previously Produced or Published",
+          "id": 306
+        },
+        {
+          "title": "Best Film Editing",
+          "id": 15
+        },
+        {
+          "title": "Best Effects, Visual Effects",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best fantasy Film",
+          "id": 49
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 39
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Special Effects",
+          "id": 100
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Director - Motion Picture",
+          "id": 118
+        },
+        {
+          "title": "Best Performance by an Actor in a Motion Picture - Dram",
+          "id": 307
+        },
+        {
+          "title": "Best Motion Picture - drama",
+          "id": 119
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1373,
+      "name": "Robert Zemeckis",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1444,
+      "name": "Eric Roth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2884,
+      "name": "Wendy Finerman",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2302,
+      "name": "Steve Starkey",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2885,
+      "name": "Steve Tisch",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2882,
+      "name": "Tom Hanks",
+      "role": "ACTOR",
+      "details": "Forrest Gump"
+    },
+    {
+      "id": 996,
+      "name": "Robin Wright",
+      "role": "ACTOR",
+      "details": "Jenny Curran"
+    },
+    {
+      "id": 2886,
+      "name": "Mykelti Williamson",
+      "role": "ACTOR",
+      "details": "Benjamin Buford Blue"
+    },
+    {
+      "id": 2883,
+      "name": "Gary Sinise",
+      "role": "ACTOR",
+      "details": "Lieutenant Dan Taylor"
+    },
+    {
+      "id": 1371,
+      "name": "Alan Silvestri",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1321,
+      "name": "Don Burgess",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

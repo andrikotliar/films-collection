@@ -6,9 +6,7 @@
   "duration": 116,
   "budget": 132000000,
   "boxOffice": 604000000,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "Ray lives his ordinary life, working and having to take care of the children from his ex-wife while she is away with her new husband. Everything goes awry when one day lightning strikes the ground in the same place all over the world. Giant three-legged alien machines rise from the ground, starting to destroy everything around. Now Ray and the children will have to constantly run in search of a safe place.",
   "poster": "posters/war_of_the_worlds.webp",
   "genres": [
     {
@@ -143,5 +141,6 @@
       "role": "ACTOR",
       "details": "Harlan Ogilvy"
     }
-  ]
+  ],
+  "collections": []
 }
