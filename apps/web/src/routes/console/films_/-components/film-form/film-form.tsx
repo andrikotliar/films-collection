@@ -210,13 +210,13 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           isMulti
         />
         <CollectionsSelect options={collectionOptions} />
-        <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <Form.DatePicker name="releaseDate" label="Release Date" />
+        <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <MoneyInput name="budget" label="Budget" />
         <MoneyInput name="boxOffice" label="Box Office" />
         <DescriptionEditor />
-        <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
+        <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <Form.Checkbox name="draft" label="Draft" type="checkbox" />
       </Panel>
       <FilmValuesWatcher
