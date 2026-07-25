@@ -1,0 +1,115 @@
+{
+  "id": 398,
+  "title": "Molly's Game",
+  "releaseDate": "2018-01-05",
+  "type": "FILM",
+  "duration": 140,
+  "budget": 30000000,
+  "boxOffice": 59000000,
+  "synopsis": null,
+  "poster": "posters/mollys_game",
+  "genres": [
+    {
+      "title": "Crime",
+      "id": 7
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "China",
+      "id": 14
+    }
+  ],
+  "studios": [
+    {
+      "title": "STX Entertainment",
+      "id": 99
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=Vu4UPet8Nyc&pp=ygUUdHJhaWxlciBtb2xseSdzIGdhbWU%3D",
+      "order": 1,
+      "id": 396
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2905,
+      "name": "Aaron Sorkin",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2905,
+      "name": "Aaron Sorkin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1263,
+      "name": "Mark Gordon",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2907,
+      "name": "Matt Jackson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1977,
+      "name": "Amy Pascal",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 558,
+      "name": "Jessica Chastain",
+      "role": "ACTOR",
+      "details": "Molly Bloom"
+    },
+    {
+      "id": 463,
+      "name": "Idris Elba",
+      "role": "ACTOR",
+      "details": "Charlie Jaffey"
+    },
+    {
+      "id": 672,
+      "name": "Kevin Costner",
+      "role": "ACTOR",
+      "details": "Larry Bloom"
+    },
+    {
+      "id": 2850,
+      "name": "Michael Cera",
+      "role": "ACTOR",
+      "details": "Player X"
+    },
+    {
+      "id": 1989,
+      "name": "Daniel Pemberton",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1279,
+      "name": "Charlotte Bruus Christensen",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

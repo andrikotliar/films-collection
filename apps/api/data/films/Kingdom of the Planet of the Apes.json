@@ -1,0 +1,144 @@
+{
+  "id": 402,
+  "title": "Kingdom of the Planet of the Apes",
+  "releaseDate": "2024-05-10",
+  "type": "FILM",
+  "duration": 145,
+  "budget": 160000000,
+  "boxOffice": 397000000,
+  "synopsis": null,
+  "poster": "posters/kingdom_of_the_planet_of_the_apes",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century Studio",
+      "id": 7
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/XtFI7SNtVpY?si=HgRqsV6SpSJwbfTA",
+      "order": 1,
+      "id": 400
+    }
+  ],
+  "awards": [
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement for Character Animation in a Live Action Production",
+          "id": 232
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2231,
+      "name": "Wes Ball",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2360,
+      "name": "Josh Friedman",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2915,
+      "name": "Joe Hartwick Jr.",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1364,
+      "name": "Rick Jaffa",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2916,
+      "name": "Jason Reed",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2231,
+      "name": "Wes Ball",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2917,
+      "name": "Owen Teague",
+      "role": "ACTOR",
+      "details": "Noa"
+    },
+    {
+      "id": 389,
+      "name": "Freya Allan",
+      "role": "ACTOR",
+      "details": "Mae"
+    },
+    {
+      "id": 674,
+      "name": "Kevin Durand",
+      "role": "ACTOR",
+      "details": "Praximus Caesar"
+    },
+    {
+      "id": 2918,
+      "name": "Peter Macon",
+      "role": "ACTOR",
+      "details": "Raka"
+    },
+    {
+      "id": 2238,
+      "name": "John Paesano",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2240,
+      "name": "Gyula Pados",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 100,
+      "title": "The Planet of the Apes",
+      "order": 4
+    }
+  ]
+}

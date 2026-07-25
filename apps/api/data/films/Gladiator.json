@@ -1,0 +1,208 @@
+{
+  "id": 396,
+  "title": "Gladiator",
+  "releaseDate": "2000-05-05",
+  "type": "FILM",
+  "duration": 155,
+  "budget": 103000000,
+  "boxOffice": 465000000,
+  "synopsis": "Maximus faithfully served his king until the king was betrayed by his own heir, Commodus. By Commodus's order, Maximus was to be executed, but he survived, and when he returned home, his family was also killed. He wanted revenge, but he was enslaved. Eventually, he was sold and became a gladiator, which brought him closer to revenge.",
+  "poster": "posters/gladiator",
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Malta",
+      "id": 26
+    },
+    {
+      "title": "Morocco",
+      "id": 27
+    }
+  ],
+  "studios": [
+    {
+      "title": "DreamWorks Pictures",
+      "id": 15
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=P5ieIbInFpg&pp=ygURdHJhaWxlciBnbGFkaWF0b3I%3D",
+      "order": 1,
+      "id": 393
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Picture",
+          "id": 22
+        },
+        {
+          "title": "Best Actor in a Leading Role",
+          "id": 305
+        },
+        {
+          "title": "Best Costume Design",
+          "id": 19
+        },
+        {
+          "title": "Best Sound",
+          "id": 14
+        },
+        {
+          "title": "Best Effects, Visual Effects",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Picture",
+          "id": 88
+        },
+        {
+          "title": "Best Actor",
+          "id": 308
+        },
+        {
+          "title": "Best Supporting Actor",
+          "id": 87
+        },
+        {
+          "title": "Best Score",
+          "id": 84
+        },
+        {
+          "title": "Best Cinematography",
+          "id": 71
+        },
+        {
+          "title": "Best Production Design",
+          "id": 77
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Film",
+          "id": 114
+        },
+        {
+          "title": "Best Cinematography",
+          "id": 115
+        },
+        {
+          "title": "Best Production Design",
+          "id": 97
+        },
+        {
+          "title": "Best Editing",
+          "id": 111
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1281,
+      "name": "Ridley Scott",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2897,
+      "name": "David Franzoni",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1668,
+      "name": "John Logan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2898,
+      "name": "William Nicholson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2897,
+      "name": "David Franzoni",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2899,
+      "name": "Branko Lustig",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2900,
+      "name": "Douglas Wick",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1015,
+      "name": "Russell Crowe",
+      "role": "ACTOR",
+      "details": "Maximus"
+    },
+    {
+      "id": 2901,
+      "name": "Joaquin Phoenix",
+      "role": "ACTOR",
+      "details": "Commodus"
+    },
+    {
+      "id": 226,
+      "name": "Connie Nielsen",
+      "role": "ACTOR",
+      "details": "Lucilla"
+    },
+    {
+      "id": 2902,
+      "name": "Oliver Reed",
+      "role": "ACTOR",
+      "details": " Proximo"
+    },
+    {
+      "id": 970,
+      "name": "Richard Harris",
+      "role": "ACTOR",
+      "details": "Marcus Aurelius"
+    }
+  ],
+  "collections": []
+}

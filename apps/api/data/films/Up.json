@@ -1,0 +1,172 @@
+{
+  "id": 397,
+  "title": "Up",
+  "releaseDate": "2009-05-29",
+  "type": "FILM",
+  "duration": 96,
+  "budget": 175000000,
+  "boxOffice": 735000000,
+  "synopsis": "Carl Fredricksen wants to fulfill an old dream that he didn't manage to realize with his late wife - to embark on a unique journey. He ties a large number of balloons to his house, allowing him to lift his home into the air. By coincidence, a young scout named Russell finds himself on his porch, and now he has to go on an adventure with the grumpy Carl to an island filled with mythical creatures.",
+  "poster": "posters/up",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=HWEW_qTLSEE&pp=ygUKdXAgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 395
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures, Original Score",
+          "id": 310
+        },
+        {
+          "title": "Best Animated Feature Film of the Year",
+          "id": 296
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Score",
+          "id": 84
+        },
+        {
+          "title": "Best Animated Feature",
+          "id": 81
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Animated Film",
+          "id": 117
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Original Score - Motion Picture",
+          "id": 120
+        },
+        {
+          "title": "Best Animated Feature Film",
+          "id": 311
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Best Animated Feature",
+          "id": 171
+        },
+        {
+          "title": "Directing in a Feature Production",
+          "id": 271
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 1857,
+      "name": "Pete Docter",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1467,
+      "name": "Bob Peterson",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1467,
+      "name": "Bob Peterson",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1857,
+      "name": "Pete Docter",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2869,
+      "name": "Jonas Rivera",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2903,
+      "name": "Edward Asner",
+      "role": "ACTOR",
+      "details": "Carl Fredricksen"
+    },
+    {
+      "id": 2715,
+      "name": "Christopher Plummer",
+      "role": "ACTOR",
+      "details": "Charles Muntz"
+    },
+    {
+      "id": 2904,
+      "name": "Jordan Nagai",
+      "role": "ACTOR",
+      "details": "Russell"
+    },
+    {
+      "id": 1467,
+      "name": "Bob Peterson",
+      "role": "ACTOR",
+      "details": "Dug / Alpha"
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "collections": []
+}

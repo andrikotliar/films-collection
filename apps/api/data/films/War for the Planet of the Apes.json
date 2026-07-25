@@ -1,0 +1,160 @@
+{
+  "id": 401,
+  "title": "War for the Planet of the Apes",
+  "releaseDate": "2017-07-14",
+  "type": "FILM",
+  "duration": 140,
+  "budget": 150000000,
+  "boxOffice": 490000000,
+  "synopsis": null,
+  "poster": "posters/war_for_the_planet_of_the_apes",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    }
+  ],
+  "studios": [
+    {
+      "title": "20th Century FOX",
+      "id": 6
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/JDcAlo8i2y8?si=-hHyWhZ_-hWjoTAk",
+      "order": 1,
+      "id": 399
+    }
+  ],
+  "awards": [
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Visual Effects",
+          "id": 75
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Annie Awards",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement for Character Animation in a Live Action Production",
+          "id": 232
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2487,
+      "name": "Matt Reeves",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2321,
+      "name": "Mark Bomback",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2487,
+      "name": "Matt Reeves",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1480,
+      "name": "Peter Chernin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1870,
+      "name": "Dylan Clark",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1364,
+      "name": "Rick Jaffa",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1365,
+      "name": "Amanda Silver",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 61,
+      "name": "Andy Serkis",
+      "role": "ACTOR",
+      "details": "Caesar"
+    },
+    {
+      "id": 1190,
+      "name": "Woody Harrelson",
+      "role": "ACTOR",
+      "details": "The Colonel"
+    },
+    {
+      "id": 2486,
+      "name": "Steve Zahn",
+      "role": "ACTOR",
+      "details": "Bad Ape"
+    },
+    {
+      "id": 2909,
+      "name": "Karin Konoval",
+      "role": "ACTOR",
+      "details": "Maurice"
+    },
+    {
+      "id": 2914,
+      "name": "Amiah Miller",
+      "role": "ACTOR",
+      "details": "Nova"
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1578,
+      "name": "Michael Seresin",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 100,
+      "title": "The Planet of the Apes",
+      "order": 3
+    }
+  ]
+}

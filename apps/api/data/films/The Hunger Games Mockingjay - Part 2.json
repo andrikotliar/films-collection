@@ -6,9 +6,7 @@
   "duration": 137,
   "budget": 160000000,
   "boxOffice": 658000000,
-  "overview": null,
-  "chapterKey": "hunger-games",
-  "chapterOrder": 4,
+  "synopsis": "Katniss, Peeta, Gale, and the other soldiers advance through the Capitol with the goal of reaching Snow and his followers. Katniss has one goal - to kill Snow and finally take her revenge. But gradually she begins to realize that the new leader of the uprising, Alma Coin, is weaving her own intrigues and is no better than Snow, so she will have to be decisive in this battle for survival.",
   "poster": "posters/hunger_games_4.webp",
   "genres": [
     {
@@ -27,16 +25,16 @@
       "id": 1
     },
     {
-      "title": "Germany",
-      "id": 5
-    },
-    {
       "title": "Canada",
       "id": 3
     },
     {
       "title": "France",
       "id": 4
+    },
+    {
+      "title": "Germany",
+      "id": 5
     }
   ],
   "studios": [
@@ -184,6 +182,13 @@
       "name": "Julianne Moore",
       "role": "ACTOR",
       "details": "President Alma Coin"
+    }
+  ],
+  "collections": [
+    {
+      "id": 65,
+      "title": "The Hunger Games",
+      "order": 4
     }
   ]
 }
