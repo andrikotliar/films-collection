@@ -47,7 +47,7 @@ export const PeopleSelect = ({ index }: PeopleSelectProps) => {
   return (
     <div className={styles.people}>
       {fields.map((field, personIndex) => (
-        <div key={field.id}>
+        <div key={field.id} className={styles.person}>
           <div className={styles.row}>
             <div className={styles.left_column}>
               <Form.AsyncSelect

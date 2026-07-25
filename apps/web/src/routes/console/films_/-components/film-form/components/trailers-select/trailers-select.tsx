@@ -40,7 +40,7 @@ export const TrailersSelect = () => {
 
   return (
     <Form.Section label={`Trailers (${trailers.length})`}>
-      <Form.ArrayWrapper onCreate={handleAddNewTrailer}>
+      <Form.ArrayWrapper onCreate={handleAddNewTrailer} createButtonLabel="Add trailer">
         <SortableList items={trailers} onDragEnd={handleDragEnd}>
           {trailers.map((trailer, index) => (
             <SortableList.Item id={trailer.id} key={trailer.id}>

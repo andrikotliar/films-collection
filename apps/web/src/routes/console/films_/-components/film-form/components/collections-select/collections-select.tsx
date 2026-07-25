@@ -74,7 +74,10 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
 
   return (
     <Form.Section label="Collections">
-      <Form.ArrayWrapper onCreate={() => append(defaultCollection)}>
+      <Form.ArrayWrapper
+        onCreate={() => append(defaultCollection)}
+        createButtonLabel="Add collection"
+      >
         {fields.map((field, index) => (
           <Form.ArrayFieldWrapper onRemove={() => remove(index)} key={field.id}>
             <Form.Select

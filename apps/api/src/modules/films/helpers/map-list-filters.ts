@@ -16,6 +16,7 @@ import {
   ilike,
   inArray,
   isNull,
+  lt,
   lte,
   notExists,
   notInArray,
@@ -77,6 +78,9 @@ const getDraftFilter = (levels: Array<TDraftLevel>): SqlOrUndefined => {
       return releaseDateQuery;
     }
     query.push(gt(films.releaseDate, sql`CURRENT_DATE`));
+  } else {
+    query.push(lt(films.releaseDate, sql`CURRENT_DATE`));
+    return and(...query);
   }
 
   return or(...query);

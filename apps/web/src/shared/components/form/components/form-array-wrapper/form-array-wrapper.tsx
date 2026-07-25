@@ -17,7 +17,7 @@ export const FormArrayWrapper = ({
     <div className={styles.wrapper}>
       {children}
       <div>
-        <Button onClick={onCreate} icon={<PlusIcon />} variant="ghost">
+        <Button onClick={onCreate} icon={<PlusIcon />} variant="secondary">
           {createButtonLabel}
         </Button>
       </div>
