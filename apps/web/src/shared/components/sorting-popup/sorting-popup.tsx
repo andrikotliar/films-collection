@@ -59,7 +59,7 @@ export const SortingPopup = ({
         onClick={handleToggle}
         ref={sortingPopupButton}
         variant="ghost"
-        icon={selectedData.order === 'asc' ? <ArrowUpAZIcon /> : <ArrowDownAZIcon />}
+        icon={selectedData.order === 'asc' ? <ArrowDownAZIcon /> : <ArrowUpAZIcon />}
         fitWidth
         size="small"
         isDisabled={isDisabled}

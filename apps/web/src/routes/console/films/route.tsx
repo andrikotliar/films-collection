@@ -60,6 +60,10 @@ const sortingFields: ListOption<string>[] = [
     value: 'updatedAt',
   },
   {
+    label: 'Release Date',
+    value: 'releaseDate',
+  },
+  {
     label: 'Title',
     value: 'title',
   },
