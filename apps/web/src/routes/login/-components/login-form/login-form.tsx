@@ -39,7 +39,7 @@ export const LoginForm = () => {
       submitButtonText="Login"
     >
       <CenteredBlock>
-        <Logo width={120} />
+        <Logo size={120} />
       </CenteredBlock>
       <Form.TextInput name="username" label="Username" />
       <Form.PasswordInput name="password" label="Password" />

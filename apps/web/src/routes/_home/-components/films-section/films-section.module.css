@@ -13,9 +13,12 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
+}
+
+.mobile_logo {
+  display: none;
 }
 
 .navigation {
@@ -25,4 +28,14 @@
 
 .sorting {
   margin-left: auto;
+}
+
+@media (width <= 785px) {
+  .mobile_logo {
+    display: flex;
+  }
+
+  .header {
+    margin: auto;
+  }
 }

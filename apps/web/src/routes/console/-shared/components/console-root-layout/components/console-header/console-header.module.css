@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 20px;
   position: sticky;
-  top: var(--header-height);
+  top: 0;
   background-color: var(--color-blue-invisible);
   z-index: 100;
 }

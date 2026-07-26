@@ -18,6 +18,11 @@
   background-color: var(--color-blue-primary);
 }
 
+.large {
+  font-size: var(--text-xl);
+  padding: 10px 20px;
+}
+
 .medium {
   font-size: var(--text-base);
   padding: 10px 20px;
@@ -61,6 +66,12 @@
   justify-content: center;
   width: 20px;
   height: 20px;
+}
+
+.large .icon,
+.large .icon svg {
+  width: 40px;
+  height: 40px;
 }
 
 .loader {

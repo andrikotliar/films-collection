@@ -1,5 +1,5 @@
 import { HeadContent, Outlet, useSearch } from '@tanstack/react-router';
-import { Header } from './components';
+import { AppNavigation } from './components';
 
 import styles from './layout.module.css';
 import { FilmDrawer } from '~/shared/components/film-drawer/film-drawer';
@@ -10,7 +10,7 @@ export const Layout = () => {
     <>
       <HeadContent />
       <div className={styles.app}>
-        <Header />
+        <AppNavigation />
         <Outlet />
       </div>
       {search.filmId && <FilmDrawer filmId={search.filmId} />}

@@ -47,6 +47,7 @@
   align-items: center;
   height: 60px;
   padding: 0 10px;
+  background-color: var(--color-blue-invisible);
 }
 
 @media (width <= 785px) {

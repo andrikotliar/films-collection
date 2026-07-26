@@ -1,7 +1,0 @@
-.menu_wrapper {
-  width: var(--icon-size);
-  height: var(--icon-size);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

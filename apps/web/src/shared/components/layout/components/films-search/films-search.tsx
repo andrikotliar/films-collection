@@ -1,5 +1,5 @@
 import styles from './films-search.module.css';
-import { type ChangeEvent, useCallback, useRef, useState } from 'react';
+import { type ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { debounce, getFilmsSearchQueryOptions } from '~/shared';
 import { SearchMenuContent } from '../search-menu-content/search-menu-content';
 import { SearchIcon } from 'lucide-react';
@@ -7,7 +7,11 @@ import { Loader } from '~/shared/components/loader/loader';
 import { PopupMenu } from '~/shared/components/popup-menu/popup-menu';
 import { useQuery } from '@tanstack/react-query';
 
-export const FilmsSearch = () => {
+type FilmsSearchProps = {
+  onClose: VoidFunction;
+};
+
+export const FilmsSearch = ({ onClose }: FilmsSearchProps) => {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchString, setSearchString] = useState<string | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,7 +54,12 @@ export const FilmsSearch = () => {
   const handleFinishInteraction = () => {
     handleCloseSearchDropdown();
     handleClearSearch();
+    onClose();
   };
+
+  useEffect(() => {
+    searchInputRef?.current?.focus();
+  }, []);
 
   return (
     <div className={styles.films_search}>

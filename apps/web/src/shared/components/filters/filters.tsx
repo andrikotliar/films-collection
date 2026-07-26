@@ -97,6 +97,10 @@ export const Filters = <TDefaultValues extends Record<string, unknown>, TSchema 
     filterSearchIndex[value] = filteredConfig;
   });
 
+  useEffect(() => {
+    setFilteredConfig(config);
+  }, [config]);
+
   return (
     <FormProvider {...filtersForm}>
       <div className={styles.search_wrapper}>

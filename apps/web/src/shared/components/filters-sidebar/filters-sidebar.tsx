@@ -18,8 +18,8 @@ export const FiltersSidebar = ({
   isOpen,
   onToggle,
   isLoading = false,
-  heightReducer,
-  topPositionMargin,
+  heightReducer = '0px',
+  topPositionMargin = '0px',
   filtersCount = 0,
   children,
 }: SidebarProps) => {
@@ -34,8 +34,7 @@ export const FiltersSidebar = ({
   return (
     <>
       <button onClick={onToggle} className={styles.sidebar_button}>
-        <SlidersHorizontalIcon size={18} />
-        <span>Filters</span>
+        <SlidersHorizontalIcon className={styles.sidebar_button_icon} />
         {filtersCount > 0 && <span className={styles.sidebar_button_count}>{filtersCount}</span>}
       </button>
       <div

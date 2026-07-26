@@ -2,8 +2,8 @@
   width: 300px;
   flex-shrink: 0;
   position: sticky;
-  top: calc(var(--header-height) + var(--sidebar-top-position-margin, 0));
-  height: calc(var(--screen-height) - var(--sidebar-height-reducer, 0));
+  top: var(--sidebar-top-position-margin, 0);
+  height: calc(100vh - 40px - var(--sidebar-height-reducer, 0));
   border: var(--border-default);
   border-radius: var(--rounded-default);
   overflow: hidden;
@@ -70,16 +70,17 @@
     align-items: center;
     gap: 10px;
     position: fixed;
-    bottom: 20px;
+    bottom: 18px;
     right: 50%;
-    background-color: var(--color-blue-primary);
-    padding: 10px 15px;
-    z-index: 9;
-    color: var(--color-white);
-    box-shadow: var(--shadow-sm);
+    z-index: 201;
     transform: translateX(50%);
     transition: transform 300ms;
     border-radius: 5px;
+  }
+
+  .sidebar_button_icon {
+    width: 24px;
+    height: 24px;
   }
 
   .sidebar_button_count {
@@ -105,11 +106,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-}
-
-@container scroller (scroll-state(scrollable: y)) and (not scroll-state(scrollable: bottom)) {
-  .sidebar_button {
-    transform: translate(50%, 100px);
   }
 }
