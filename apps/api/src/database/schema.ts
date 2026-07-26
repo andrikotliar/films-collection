@@ -41,6 +41,7 @@ export const films = pgTable(
     budget: bigint({ mode: 'number' }).default(0).notNull(),
     boxOffice: bigint('box_office', { mode: 'number' }).default(0).notNull(),
     rating: integer().default(1).notNull(),
+    addedAt: timestamp('added_at', { precision: 3, mode: 'string', withTimezone: true }),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()

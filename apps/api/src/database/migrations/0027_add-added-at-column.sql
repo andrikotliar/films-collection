@@ -1,0 +1,1 @@
+ALTER TABLE "films" ADD COLUMN "added_at" timestamp(3) with time zone;

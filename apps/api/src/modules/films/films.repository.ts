@@ -368,7 +368,10 @@ export class FilmsRepository {
     } = input;
 
     return this.deps.db.transaction(async (tr) => {
-      const [newFilm] = await tr.insert(films).values(filmInput).returning({ id: films.id });
+      const [newFilm] = await tr
+        .insert(films)
+        .values({ ...filmInput, addedAt: filmInput.draft ? null : new Date().toISOString() })
+        .returning({ id: films.id });
 
       const filmId = newFilm.id;
 
@@ -520,9 +523,10 @@ export class FilmsRepository {
     } = data;
 
     return this.deps.db.transaction(async (transaction) => {
+      const now = new Date().toISOString();
       const [updatedFilm] = await transaction
         .update(films)
-        .set({ ...filmParams, updatedAt: new Date().toISOString() })
+        .set({ ...filmParams, updatedAt: now, addedAt: filmParams.draft ? null : now })
         .where(eq(films.id, filmId))
         .returning({ id: films.id });
 
