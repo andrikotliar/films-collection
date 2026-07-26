@@ -12,7 +12,7 @@ export type ButtonProps = {
   isDisabled?: boolean;
   isLoading?: boolean;
   children?: React.ReactNode;
-  size?: 'small' | 'medium';
+  size?: 'small' | 'medium' | 'large';
   fitWidth?: boolean;
   ref?: React.RefObject<HTMLButtonElement | null>;
   inheritColor?: boolean;

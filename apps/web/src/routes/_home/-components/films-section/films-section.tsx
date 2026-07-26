@@ -3,7 +3,7 @@ import { AdditionalInfoSection, CurrentEvents, FilmsGrid, FilmsGridSkeleton } fr
 import { getRouteApi } from '@tanstack/react-router';
 import {
   getFilmsListQueryOptions,
-  IconLink,
+  Logo,
   PageTitle,
   Pagination,
   SortingPopup,
@@ -11,7 +11,6 @@ import {
 } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
-import { SettingsIcon } from 'lucide-react';
 import type { ListOption, SortingOrder } from '@films-collection/shared';
 
 type SortingValues = {
@@ -103,8 +102,10 @@ export const FilmsSection = () => {
   return (
     <div className={styles.films_section}>
       <div className={styles.header}>
+        <div className={styles.mobile_logo}>
+          <Logo />
+        </div>
         <PageTitle>Films Collection</PageTitle>
-        <IconLink icon={<SettingsIcon />} to="/console" />
       </div>
       <CurrentEvents
         events={data.events}

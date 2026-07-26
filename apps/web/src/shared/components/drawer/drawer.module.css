@@ -3,14 +3,14 @@
   --drawer-max-width: 0;
 
   position: fixed;
-  top: var(--header-height);
+  top: 0;
   overflow-y: auto;
   max-width: var(--drawer-max-width);
   width: 100%;
-  height: var(--screen-height);
+  height: 100vh;
   background-color: var(--color-white);
   box-shadow: var(--shadow-sm);
-  z-index: 200;
+  z-index: 202;
   user-select: none;
 }
 

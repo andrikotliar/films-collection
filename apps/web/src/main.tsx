@@ -33,7 +33,7 @@ createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
       <Toaster />
-      <ReactQueryDevtools buttonPosition="bottom-left" />
+      <ReactQueryDevtools buttonPosition="bottom-right" />
     </QueryClientProvider>
   </StrictMode>,
 );

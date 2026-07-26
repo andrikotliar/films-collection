@@ -2,12 +2,12 @@ import { mainLogoSvg } from '~/assets';
 import { Image } from '~/shared/components/image/image';
 
 type LogoProps = {
-  width?: React.CSSProperties['width'];
+  size?: number;
 };
 
-export const Logo = ({ width = 30 }: LogoProps) => {
+export const Logo = ({ size = 30 }: LogoProps) => {
   return (
-    <div style={{ width }}>
+    <div style={{ width: size, height: size }}>
       <Image src={mainLogoSvg} shouldFitContainer />
     </div>
   );

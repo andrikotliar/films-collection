@@ -5,9 +5,11 @@
   padding: 40px;
   min-height: var(--screen-height);
   background-color: var(--color-gray-extra-light);
+  width: 100%;
 }
 
 .login_layout_content {
   max-width: 380px;
   width: 100%;
+  flex-shrink: 0;
 }

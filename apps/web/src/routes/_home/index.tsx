@@ -84,11 +84,12 @@ function RootPageContainer() {
 
   return (
     <RootPageLayout>
+      <FilmsSection />
       <FiltersSidebar
         filtersCount={filtersCount}
         isLoading={isInitialDataLoading}
-        heightReducer="40px"
         topPositionMargin="20px"
+        heightReducer="0px"
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
       >
@@ -102,7 +103,6 @@ function RootPageContainer() {
           config={filtersConfig}
         />
       </FiltersSidebar>
-      <FilmsSection />
     </RootPageLayout>
   );
 }

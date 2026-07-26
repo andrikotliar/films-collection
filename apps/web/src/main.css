@@ -53,6 +53,7 @@
 
   --transition-timing: 300ms;
 
+  --text-xxs: 0.665rem;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -118,8 +119,6 @@ input {
 }
 
 html {
-  container-type: scroll-state;
-  container-name: scroller;
   scrollbar-gutter: stable;
 }
 

@@ -11,5 +11,6 @@ export const getFilmsSearchQueryOptions = (searchString: string | null) => {
 
       return await api.films.search({ queryParams: { q: searchString } });
     },
+    enabled: !!searchString?.length,
   });
 };

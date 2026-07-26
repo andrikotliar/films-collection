@@ -171,7 +171,7 @@ function PageContainer() {
         isLoading={isInitialDataFetching}
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-        heightReducer="100px"
+        heightReducer="60px"
         topPositionMargin="80px"
         filtersCount={filtersCount}
       >
