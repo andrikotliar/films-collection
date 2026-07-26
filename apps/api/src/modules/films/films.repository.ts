@@ -316,7 +316,7 @@ export class FilmsRepository {
         ilike(films.title, sqlSearchQuery(query)),
         eq(films.draft, false),
       ),
-      limit: PAGE_LIMITS.default,
+      limit: PAGE_LIMITS.filmsSearch,
     });
   }
 
