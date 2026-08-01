@@ -1,7 +1,6 @@
 import { type api, type ApiResponse } from '~/shared';
-import { Award, Nominations } from './components';
+import { Award } from './components';
 import styles from './awards.module.css';
-import { useState } from 'react';
 
 type Awards = ApiResponse<typeof api.films.getById>['awards'];
 
@@ -10,23 +9,12 @@ type AwardsProps = {
 };
 
 export const Awards = ({ data }: AwardsProps) => {
-  const [selectedAward, setSelectedAward] = useState<Awards[number] | null>(null);
-
   return (
-    <>
-      <div className={styles.awards}>
-        {data.map((award) => (
-          <Award
-            data={award.award}
-            key={award.award.id}
-            nominationsCount={award.nominations.length}
-            onSelect={() =>
-              setSelectedAward((a) => (a?.award.id !== award.award.id ? award : null))
-            }
-          />
-        ))}
-      </div>
-      {selectedAward && <Nominations data={selectedAward} />}
-    </>
+    <div className={styles.awards}>
+      <div className={styles.title}>Awards</div>
+      {data.map((award) => (
+        <Award data={award} />
+      ))}
+    </div>
   );
 };
