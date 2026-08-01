@@ -6,9 +6,7 @@
   "duration": 109,
   "budget": 40000000,
   "boxOffice": 174000000,
-  "overview": null,
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "In the future, time is the main currency. Each person is born with a built-in clock that starts working after they reach adulthood. To earn hours for living, most are forced to work hard, while the wealthy can live almost forever. Will Salas receives a lot of time from a wealthy man who wanted to end his life, and now he will have to hide from the time patrol that controls the illegal use of time.",
   "poster": "posters/time.webp",
   "genres": [
     {
@@ -108,5 +106,6 @@
       "role": "ACTOR",
       "details": "Borel"
     }
-  ]
+  ],
+  "collections": []
 }

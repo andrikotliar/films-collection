@@ -1,0 +1,139 @@
+{
+  "id": 525,
+  "title": "Avatar Aang: The Last Airbender",
+  "releaseDate": "2026-07-25",
+  "type": "FILM",
+  "duration": 99,
+  "budget": 0,
+  "boxOffice": 0,
+  "synopsis": "A few years passed after the end of the Hundred Years' War. Aang travels between the Air Temples to find relics of his people and preserve them. One day he encounters a group of non-benders who wish to steal a scroll. After a lengthy battle, they succeed. Aang learns that they seek the scepter of the lost Avatar from the Air Nomads, which can give them the power to control the elements. To outpace them, he heads to the city indicated on the map and finds another airbender named Taga, frozen in an air dome, as Aang once was. Tagah promises that they can locate the scepter and revive the Air Nation. Aang likes this idea and gathers his former team of Katara, Sokka, Toph, and Zuko to head to the secret location where the scepter is kept.",
+  "poster": "posters/avatar_aang_the_last_airbender",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Avatar Studio",
+      "id": 98
+    },
+    {
+      "title": "Nickelodeon Animation Studios",
+      "id": 22
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/7b20GRFZBFE?si=3CROZSIjbg_jMs_l",
+      "order": 1,
+      "id": 388
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2919,
+      "name": "Lauren Montgomery ",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1351,
+      "name": "Tim Hedrick",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2329,
+      "name": "Christopher Yost",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2920,
+      "name": "Maryann Garger",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2921,
+      "name": "Latifa Ouaou",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1340,
+      "name": "Bryan Konietzko",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1339,
+      "name": "Michael Dante DiMartino",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2922,
+      "name": "Eric Nam",
+      "role": "ACTOR",
+      "details": "Aang"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Tagah"
+    },
+    {
+      "id": 2923,
+      "name": "Jessica Matten",
+      "role": "ACTOR",
+      "details": "Katara"
+    },
+    {
+      "id": 2924,
+      "name": "Roman Zaragoza",
+      "role": "ACTOR",
+      "details": "Sokka"
+    },
+    {
+      "id": 2925,
+      "name": "Dionne Quan",
+      "role": "ACTOR",
+      "details": "Toph"
+    },
+    {
+      "id": 2926,
+      "name": "Steven Yeun",
+      "role": "ACTOR",
+      "details": "Zuko"
+    },
+    {
+      "id": 1363,
+      "name": "Jeremy Zuckerman",
+      "role": "COMPOSER",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 69,
+      "title": "The Legend of Aang",
+      "order": 1.5
+    }
+  ]
+}
