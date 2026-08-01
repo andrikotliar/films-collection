@@ -6,7 +6,6 @@ type OnlyStringKey<T> = Extract<keyof T, string>;
 type BaseFilter<T extends Record<string, any>> = {
   id: OnlyStringKey<T>;
   title: string;
-  stats?: Record<string, number>;
   dependsOn?: {
     filter: keyof T;
     value: any;
