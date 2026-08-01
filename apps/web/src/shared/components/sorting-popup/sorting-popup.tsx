@@ -18,6 +18,7 @@ type SortingPopupProps = {
   defaultOrder: SortingOrder;
   onSorting: (params: SortingParams) => void;
   isDisabled?: boolean;
+  buttonWrapperClassName?: string;
 };
 
 export const SortingPopup = ({
@@ -26,6 +27,7 @@ export const SortingPopup = ({
   defaultOrderKey,
   defaultOrder,
   isDisabled = false,
+  buttonWrapperClassName,
 }: SortingPopupProps) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -55,19 +57,21 @@ export const SortingPopup = ({
 
   return (
     <>
-      <Button
-        onClick={handleToggle}
-        ref={sortingPopupButton}
-        variant="ghost"
-        icon={selectedData.order === 'asc' ? <ArrowDownAZIcon /> : <ArrowUpAZIcon />}
-        fitWidth
-        size="small"
-        isDisabled={isDisabled}
-      >
-        <div className={styles.button_content}>
-          <span className={styles.button_label}>Sorted by:</span> {selectedData.label}
-        </div>
-      </Button>
+      <div className={buttonWrapperClassName}>
+        <Button
+          onClick={handleToggle}
+          ref={sortingPopupButton}
+          variant="ghost"
+          icon={selectedData.order === 'asc' ? <ArrowDownAZIcon /> : <ArrowUpAZIcon />}
+          fitWidth
+          size="small"
+          isDisabled={isDisabled}
+        >
+          <div className={styles.button_content}>
+            <span className={styles.button_label}>Sorted by:</span> {selectedData.label}
+          </div>
+        </Button>
+      </div>
       <PopupMenu
         isOpen={isOpen}
         triggerRef={sortingPopupButton}

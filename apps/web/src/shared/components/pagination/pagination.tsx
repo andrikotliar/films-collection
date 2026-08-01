@@ -9,6 +9,7 @@ export type PaginationProps = {
   onPageChange: (pageIndex: number) => void;
   perPageCounter: number;
   totalLabel?: string;
+  wrapperClassName?: string;
 };
 
 type RangeParams = {
@@ -37,6 +38,7 @@ export const Pagination = ({
   currentPageIndex = 0,
   perPageCounter,
   totalLabel = 'items',
+  wrapperClassName,
 }: PaginationProps) => {
   const pagesCount = Math.ceil(total / perPageCounter);
   const currentRangeEnd = getCurrentRangeEnd({ total, currentPageIndex, perPageCounter });
@@ -51,7 +53,7 @@ export const Pagination = ({
   };
 
   return (
-    <div className={styles.pagination}>
+    <div className={clsx(styles.pagination, wrapperClassName)}>
       {pagesCount > 1 && (
         <div className={styles.pages}>
           {pages.map((page, index) => {

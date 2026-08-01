@@ -116,26 +116,24 @@ export const FilmsSection = () => {
         total={data.allFilmsCount}
         anniversaryPoster={data.anniversaryPoster}
       />
-      <div className={styles.sorting}>
-        <SortingPopup
-          fields={sortingFields}
-          onSorting={handleSorting}
-          defaultOrder={sortingValues.order}
-          defaultOrderKey={sortingValues.orderKey}
-          isDisabled={searchParams.collectionId !== undefined}
-        />
-      </div>
+      <SortingPopup
+        fields={sortingFields}
+        onSorting={handleSorting}
+        defaultOrder={sortingValues.order}
+        defaultOrderKey={sortingValues.orderKey}
+        isDisabled={searchParams.collectionId !== undefined}
+        buttonWrapperClassName={styles.sorting}
+      />
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.list} isCollection={!!searchParams.collectionId} />
-      <div className={styles.pagination_wrapper}>
-        <Pagination
-          total={data.total}
-          onPageChange={handlePageNavigation}
-          currentPageIndex={searchParams.pageIndex}
-          perPageCounter={data.pageLimit}
-          totalLabel="films"
-        />
-      </div>
+      <Pagination
+        total={data.total}
+        onPageChange={handlePageNavigation}
+        currentPageIndex={searchParams.pageIndex}
+        perPageCounter={data.pageLimit}
+        totalLabel="films"
+        wrapperClassName={styles.pagination_wrapper}
+      />
     </div>
   );
 };
