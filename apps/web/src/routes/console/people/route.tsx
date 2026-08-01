@@ -94,7 +94,7 @@ function RouteComponent() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
   const { onOpen } = useFormModal();
-  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
+  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility('/console/people');
 
   const { data, isFetching } = useQuery(getPeopleAdminListQueryOptions(search));
 
@@ -148,8 +148,7 @@ function RouteComponent() {
       <FiltersSidebar
         isOpen={isFilterOpen}
         onToggle={toggleFilter}
-        filtersCount={appliedFilters}
-        heightReducer="100px"
+        heightReducer="60px"
         topPositionMargin="80px"
       >
         <Filters

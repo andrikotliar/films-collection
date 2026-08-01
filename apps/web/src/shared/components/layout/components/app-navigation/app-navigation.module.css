@@ -70,6 +70,10 @@
 }
 
 @media (width <= 785px) {
+  .hidden_menu {
+    display: none;
+  }
+
   .app_navigation_layout {
     position: fixed;
     width: 100%;

@@ -16,11 +16,12 @@ import {
 } from 'lucide-react';
 import { DraftLevel } from '@films-collection/shared';
 
-export const consoleMenuConfig = {
+export const consoleMenuConfig: Record<string, MenuConfigItem> = {
   people: {
     id: 'people',
     route: '/console/people',
     title: 'Actors / Creators',
+    shortTitle: 'People',
     icon: <UserIcon />,
     color: 'color-blue-dark',
   },
@@ -42,6 +43,7 @@ export const consoleMenuConfig = {
     id: 'collection-events',
     route: '/console/collection-events',
     title: 'Collection Events',
+    shortTitle: 'Events',
     icon: <CalendarIcon />,
     color: 'color-orange-light',
   },
@@ -68,6 +70,7 @@ export const consoleMenuConfig = {
       orderKey: 'createdAt',
     },
     title: 'Pending Films',
+    shortTitle: 'Pending',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
   },
@@ -75,6 +78,7 @@ export const consoleMenuConfig = {
     id: 'upcomingFilms',
     route: '/console/films',
     title: 'Upcoming Films',
+    shortTitle: 'Upcoming',
     search: {
       draftLevels: [DraftLevel.UPCOMING],
     },
@@ -92,6 +96,7 @@ export const consoleMenuConfig = {
     id: 'page-content',
     route: '/console/page-content',
     title: 'Pages Content',
+    shortTitle: 'Content',
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
   },
@@ -116,7 +121,7 @@ export const consoleMenuConfig = {
     icon: <UserCogIcon />,
     color: 'color-lime-primary',
   },
-} satisfies Record<string, MenuConfigItem>;
+};
 
 type ConsoleMenuGroup = {
   title: string;
