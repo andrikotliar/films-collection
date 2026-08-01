@@ -6,9 +6,7 @@
   "duration": 116,
   "budget": 47000000,
   "boxOffice": 212000000,
-  "overview": "<p></p>",
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "One day, spacecraft land in several corners of the world. They are not hostile and do not send any signals. Scientists and military begin to study them. Among those invited to this research are one of the most outstanding linguists, Louise Banks, and physicist Ian Donnelly. Louise's task is to investigate the aliens' writing and find a way to communicate with them. The aliens draw various symbols before humans, and Louise begins her research in an attempt to understand their language.",
   "poster": "posters/arrival.webp",
   "genres": [
     {
@@ -19,12 +17,12 @@
   "style": "LIVE_ACTION",
   "countries": [
     {
-      "title": "Canada",
-      "id": 3
-    },
-    {
       "title": "USA",
       "id": 1
+    },
+    {
+      "title": "Canada",
+      "id": 3
     }
   ],
   "studios": [
@@ -113,5 +111,6 @@
       "role": "ACTOR",
       "details": "Colonel Weber"
     }
-  ]
+  ],
+  "collections": []
 }

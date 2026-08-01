@@ -6,9 +6,7 @@
   "duration": 85,
   "budget": 4000000,
   "boxOffice": 3000000,
-  "synopsis": "An post-apocalyptic world is inhabited by both ordinary animals and creatures never seen before. A solitary black cat lives in an abandoned house—until a devastating flood destroys everything around it. Forced to leave its home, the cat sets out in search of a safe place.",
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "In a post-apocalyptic world, a black cat lives its peaceful life in an abandoned house until a massive flood forces it to embark on a journey in search of a safe place to live.",
   "poster": "posters/flow.webp",
   "genres": [
     {
@@ -23,16 +21,16 @@
   "style": "ANIMATION",
   "countries": [
     {
-      "title": "Belgium",
-      "id": 20
+      "title": "France",
+      "id": 4
     },
     {
       "title": "Latvia",
       "id": 19
     },
     {
-      "title": "France",
-      "id": 4
+      "title": "Belgium",
+      "id": 20
     }
   ],
   "studios": [
@@ -139,5 +137,6 @@
       "role": "CAMERAMAN",
       "details": null
     }
-  ]
+  ],
+  "collections": []
 }

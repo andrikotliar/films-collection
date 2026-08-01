@@ -6,9 +6,7 @@
   "duration": 108,
   "budget": 150000000,
   "boxOffice": 1600000000,
-  "synopsis": "After a failed chase of a smuggler, Judy Hopps discovers that a snake has slithered into the city. Amphibians are forbidden to be in Zootopia, so Judy, along with Nick, sets out to find the snake and gradually uncovers the dark side of the city's creation.",
-  "chapterKey": "zootopia",
-  "chapterOrder": 2,
+  "synopsis": "Judy and Nick continue to work as partners in the police, but they often mess up assignments because Judy is always getting into trouble. This leads her into a situation involving a snake infiltrating Zootopia. The presence of reptiles is forbidden in the city. At first, she tries to catch it as a criminal, but the more she learns about the city's past, the more she realizes that it's not so simple with the expulsion of reptiles and the return of the snake.",
   "poster": "posters/zootopia_2.webp",
   "genres": [
     {
@@ -107,6 +105,13 @@
       "name": "David Straithairn",
       "role": "ACTOR",
       "details": "Milton Lunxley"
+    }
+  ],
+  "collections": [
+    {
+      "id": 87,
+      "title": "Zootopia",
+      "order": 2
     }
   ]
 }

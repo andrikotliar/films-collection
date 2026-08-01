@@ -6,9 +6,7 @@
   "duration": 50,
   "budget": 0,
   "boxOffice": 0,
-  "overview": "A Norwegian family arrives on the island of La Palma for a vacation, which will soon turn into chaos, as local scientists have determined that an ancient volcano is about to awaken, threatening to destroy the island and potentially leading to an unprecedented disaster for the nearby area.",
-  "chapterKey": null,
-  "chapterOrder": null,
+  "synopsis": "A family arrives for a vacation on the island of La Palma, and soon the tranquility of the city will be disrupted by an approaching disaster. An ancient volcano has awakened, and its eruption could lead to the complete destruction of the island. When everyone on the island learns about this, panic ensues in an attempt to leave the island as quickly as possible.",
   "poster": "posters/la_palma",
   "genres": [
     {
@@ -117,10 +115,10 @@
       "details": ""
     }
   ],
+  "collections": [],
   "seriesExtension": {
     "id": 27,
     "episodesTotal": 4,
-    "seasonsTotal": 1,
-    "finishedAt": "2024-12-12"
+    "seasonsTotal": 1
   }
 }
