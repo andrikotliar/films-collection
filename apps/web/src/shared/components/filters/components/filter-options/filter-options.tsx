@@ -1,5 +1,4 @@
 import { Form, type FilterItem } from '~/shared';
-import styles from './filter-options.module.css';
 import { ComboSelect } from '~/shared/components/filters/components/combo-select/combo-select';
 
 type FilterOptionsProps<T extends Record<string, any>> = {
@@ -12,17 +11,12 @@ export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterO
       return (
         <Form.Group title={filter.title}>
           {filter.options.map((option) => (
-            <div key={option.value} className={styles.filter_option_row}>
-              <Form.Checkbox
-                type={filter.inputType}
-                label={option.label}
-                value={option.value}
-                name={filter.id}
-              />
-              {filter.stats?.[option.label] !== undefined && (
-                <div className={styles.stat_item}>{filter.stats[option.label]}</div>
-              )}
-            </div>
+            <Form.Checkbox
+              type={filter.inputType}
+              label={option.label}
+              value={option.value}
+              name={filter.id}
+            />
           ))}
         </Form.Group>
       );

@@ -1,6 +1,6 @@
 import styles from './films-search.module.css';
 import { type ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
-import { debounce, getFilmsSearchQueryOptions } from '~/shared';
+import { debounce, getFilmsSearchQueryOptions, useCloseOnEscape } from '~/shared';
 import { SearchMenuContent } from '../search-menu-content/search-menu-content';
 import { SearchIcon } from 'lucide-react';
 import { Loader } from '~/shared/components/loader/loader';
@@ -60,6 +60,8 @@ export const FilmsSearch = ({ onClose }: FilmsSearchProps) => {
   useEffect(() => {
     searchInputRef?.current?.focus();
   }, []);
+
+  useCloseOnEscape(true, onClose);
 
   return (
     <div className={styles.films_search}>

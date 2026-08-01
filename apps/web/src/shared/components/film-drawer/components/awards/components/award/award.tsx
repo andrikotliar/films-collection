@@ -1,25 +1,35 @@
+import { Link } from '@tanstack/react-router';
 import styles from './award.module.css';
-import { Button, IconLink, type api, type ApiResponse } from '~/shared';
-import { InfoIcon, LinkIcon, TrophyIcon } from 'lucide-react';
+import { getPluralWord, RouterLink, type api, type ApiResponse } from '~/shared';
 
 type AwardProps = {
-  data: ApiResponse<typeof api.films.getById>['awards'][number]['award'];
-  onSelect: VoidFunction;
-  nominationsCount: number;
+  data: ApiResponse<typeof api.films.getById>['awards'][number];
 };
 
-export const Award = ({ data, onSelect, nominationsCount }: AwardProps) => {
+export const Award = ({ data }: AwardProps) => {
   return (
     <div className={styles.award}>
-      <div className={styles.column}>
-        <TrophyIcon className={styles.award_icon} />
-        <div>
-          {data.title} ({nominationsCount})
+      <Link className={styles.header} to="/" search={{ awardId: data.award.id }}>
+        <div className={styles.title}>{data.award.title}</div>{' '}
+        <div className={styles.stats}>
+          Won <span className={styles.num}>{data.nominations.length}</span>{' '}
+          {getPluralWord('nomination', data.nominations.length)}
         </div>
-      </div>
-      <div className={styles.column}>
-        <IconLink to="/" search={{ awardId: data.id }} icon={<LinkIcon size={18} />} />
-        <Button variant="ghost" onClick={onSelect} icon={<InfoIcon />} />
+      </Link>
+      <div className={styles.nominations}>
+        {data.nominations.map((nomination) => (
+          <div key={nomination.title} className={styles.nomination}>
+            {nomination.title}
+            {nomination.person && (
+              <>
+                <span>—</span>
+                <RouterLink to="/" search={{ personId: nomination.person.id, personRole: 'ACTOR' }}>
+                  {nomination.person.name}
+                </RouterLink>
+              </>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );

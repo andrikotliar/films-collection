@@ -5,7 +5,7 @@ import { getAuthStateQueryOptions } from '~/shared';
 
 export const Route = createFileRoute('/console/_root/')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getAuthStateQueryOptions());
+    await queryClient.fetchQuery(getAuthStateQueryOptions());
   },
   component: RouteComponent,
   staticData: {

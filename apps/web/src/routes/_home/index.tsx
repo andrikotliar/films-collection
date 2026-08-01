@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
-import { useQuery, useSuspenseQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { GetFilmsListQuerySchema } from '@films-collection/shared';
 import {
   countObjectKeys,
@@ -8,7 +8,6 @@ import {
   FiltersSidebar,
   filterValues,
   getFilmsListQueryOptions,
-  getFilmsStatsQueryOptions,
   getInitialDataQueryOptions,
   useSidebarVisibility,
 } from '~/shared';
@@ -38,21 +37,19 @@ export const Route = createFileRoute('/_home/')({
 function RootPageContainer() {
   const routeSearch = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility();
+  const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility('/');
 
   const { data: initialData, isFetching: isInitialDataLoading } = useSuspenseQuery(
     getInitialDataQueryOptions(),
   );
-
-  const { data: stats } = useQuery(getFilmsStatsQueryOptions());
 
   const filtersConfig = useMemo(() => {
     if (!initialData) {
       return [];
     }
 
-    return getFiltersConfig(initialData, stats);
-  }, [initialData, stats]);
+    return getFiltersConfig(initialData);
+  }, [initialData]);
 
   const submitFilter: React.ComponentProps<typeof Filters>['onSubmit'] = (data) => {
     const filledOptions = filterValues(data);
@@ -86,7 +83,6 @@ function RootPageContainer() {
     <RootPageLayout>
       <FilmsSection />
       <FiltersSidebar
-        filtersCount={filtersCount}
         isLoading={isInitialDataLoading}
         topPositionMargin="20px"
         heightReducer="0px"

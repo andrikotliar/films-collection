@@ -1,24 +1,24 @@
-import { useState } from 'react';
+import type { FilterId } from '~/shared/context';
+import { useFilterContext } from '~/shared/hooks/use-filter-context';
 
-export const useSidebarVisibility = () => {
-  const [isFilterOpen, setIsFilterOpen] = useState(false);
-
+export const useSidebarVisibility = (filterId: FilterId) => {
+  const { filterId: filterIdContextValue, openFilter } = useFilterContext();
   const toggleFilter = () => {
-    const isOpen = !isFilterOpen;
+    const isOpen = filterId === filterIdContextValue;
 
     document.body.style.overflow = isOpen ? 'hidden' : '';
 
-    setIsFilterOpen(isOpen);
+    openFilter(isOpen ? null : filterId);
   };
 
   const hideFilter = () => {
-    setIsFilterOpen(false);
+    openFilter(null);
 
     document.body.style.overflow = '';
   };
 
   return {
-    isFilterOpen,
+    isFilterOpen: filterIdContextValue === filterId,
     toggleFilter,
     hideFilter,
   };

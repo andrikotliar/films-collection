@@ -1,4 +1,4 @@
-import { Logo, Form, CenteredBlock, api, type Input } from '~/shared';
+import { Logo, Form, CenteredBlock, api, type Input, LOGIN_BLOCK_KEY } from '~/shared';
 import { LogInIcon } from 'lucide-react';
 import { LoginSchema } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
@@ -19,6 +19,7 @@ export const LoginForm = () => {
     },
     onSuccess: (result) => {
       if (result.id) {
+        localStorage.setItem(LOGIN_BLOCK_KEY, 'true');
         if (search.from && search.from.includes('console')) {
           navigate({ to: search.from, replace: true });
           return;

@@ -1,4 +1,3 @@
-import { api, queryClient, queryKey, router } from '~/shared/services';
 import { type MenuConfigItem } from '../types';
 import {
   BuildingIcon,
@@ -8,7 +7,6 @@ import {
   ClockIcon,
   KeyRoundIcon,
   LibraryIcon,
-  LogOutIcon,
   MapIcon,
   NewspaperIcon,
   TrophyIcon,
@@ -18,14 +16,14 @@ import {
 } from 'lucide-react';
 import { DraftLevel } from '@films-collection/shared';
 
-export const consoleMenuConfig = {
+export const consoleMenuConfig: Record<string, MenuConfigItem> = {
   people: {
     id: 'people',
     route: '/console/people',
     title: 'Actors / Creators',
+    shortTitle: 'People',
     icon: <UserIcon />,
     color: 'color-blue-dark',
-    type: 'link',
   },
   awards: {
     id: 'awards',
@@ -33,7 +31,6 @@ export const consoleMenuConfig = {
     title: 'Awards',
     icon: <TrophyIcon />,
     color: 'color-yellow-primary',
-    type: 'link',
   },
   collections: {
     id: 'collections',
@@ -41,15 +38,14 @@ export const consoleMenuConfig = {
     title: 'Collections',
     icon: <LibraryIcon />,
     color: 'color-red-light',
-    type: 'link',
   },
   collectionEvents: {
     id: 'collection-events',
     route: '/console/collection-events',
     title: 'Collection Events',
+    shortTitle: 'Events',
     icon: <CalendarIcon />,
     color: 'color-orange-light',
-    type: 'link',
   },
   countries: {
     id: 'countries',
@@ -57,7 +53,6 @@ export const consoleMenuConfig = {
     title: 'Countries',
     icon: <MapIcon />,
     color: 'color-green-primary',
-    type: 'link',
   },
   films: {
     id: 'films',
@@ -65,7 +60,6 @@ export const consoleMenuConfig = {
     title: 'Films',
     icon: <ClapperboardIcon />,
     color: 'color-blue-primary',
-    type: 'link',
   },
   pendingFilms: {
     id: 'pendingFilms',
@@ -76,20 +70,20 @@ export const consoleMenuConfig = {
       orderKey: 'createdAt',
     },
     title: 'Pending Films',
+    shortTitle: 'Pending',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
-    type: 'link',
   },
   upcomingFilms: {
     id: 'upcomingFilms',
     route: '/console/films',
     title: 'Upcoming Films',
+    shortTitle: 'Upcoming',
     search: {
       draftLevels: [DraftLevel.UPCOMING],
     },
     icon: <ClockIcon />,
     color: 'color-brown-light',
-    type: 'link',
   },
   genres: {
     id: 'genres',
@@ -97,15 +91,14 @@ export const consoleMenuConfig = {
     title: 'Genres',
     icon: <VideotapeIcon />,
     color: 'color-purple-primary',
-    type: 'link',
   },
   pageContent: {
     id: 'page-content',
     route: '/console/page-content',
     title: 'Pages Content',
+    shortTitle: 'Content',
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
-    type: 'link',
   },
   studios: {
     id: 'studios',
@@ -113,7 +106,6 @@ export const consoleMenuConfig = {
     title: 'Studios',
     icon: <BuildingIcon />,
     color: 'color-gray-dark',
-    type: 'link',
   },
   sessions: {
     id: 'sessions',
@@ -121,7 +113,6 @@ export const consoleMenuConfig = {
     title: 'Sessions',
     icon: <KeyRoundIcon />,
     color: 'color-purple-light',
-    type: 'link',
   },
   user: {
     id: 'user',
@@ -129,21 +120,8 @@ export const consoleMenuConfig = {
     title: 'User',
     icon: <UserCogIcon />,
     color: 'color-lime-primary',
-    type: 'link',
   },
-  logout: {
-    id: 'logout',
-    title: 'Log Out',
-    icon: <LogOutIcon />,
-    color: 'color-red-light',
-    action: async () => {
-      await api.auth.logout();
-      queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
-      router.navigate({ to: '/login' });
-    },
-    type: 'button',
-  },
-} satisfies Record<string, MenuConfigItem>;
+};
 
 type ConsoleMenuGroup = {
   title: string;
@@ -165,6 +143,6 @@ export const consoleMenuGroups: ConsoleMenuGroup[] = [
   },
   {
     title: 'Account',
-    itemIds: ['sessions', 'user', 'logout'],
+    itemIds: ['sessions', 'user'],
   },
 ];

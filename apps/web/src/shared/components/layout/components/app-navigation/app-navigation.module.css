@@ -8,7 +8,7 @@
   z-index: 200;
   width: 60px;
   flex-shrink: 0;
-  height: 100vh;
+  height: 100dvh;
   padding: 20px 0;
 }
 
@@ -50,7 +50,7 @@
   height: 30px;
 }
 
-.console_link {
+.bottom_item {
   margin-top: auto;
 }
 
@@ -65,7 +65,15 @@
   display: none;
 }
 
+.filter_button {
+  display: none;
+}
+
 @media (width <= 785px) {
+  .hidden_menu {
+    display: none;
+  }
+
   .app_navigation_layout {
     position: fixed;
     width: 100%;
@@ -103,7 +111,7 @@
     display: none;
   }
 
-  .console_link {
+  .bottom_item {
     margin-top: 0;
   }
 
@@ -115,5 +123,9 @@
   .close_modal_button {
     top: initial;
     bottom: 20px;
+  }
+
+  .filter_button {
+    display: flex;
   }
 }

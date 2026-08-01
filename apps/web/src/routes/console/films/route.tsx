@@ -60,6 +60,10 @@ const sortingFields: ListOption<string>[] = [
     value: 'updatedAt',
   },
   {
+    label: 'Latest added',
+    value: 'addedAt',
+  },
+  {
     label: 'Release Date',
     value: 'releaseDate',
   },
@@ -81,7 +85,7 @@ function PageContainer() {
 
   const { onOpen: handleOptionQuickForm } = useFormModal();
 
-  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility();
+  const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility('/console/films');
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -173,7 +177,6 @@ function PageContainer() {
         onToggle={toggleFilter}
         heightReducer="60px"
         topPositionMargin="80px"
-        filtersCount={filtersCount}
       >
         <Filters
           config={filtersConfig}
