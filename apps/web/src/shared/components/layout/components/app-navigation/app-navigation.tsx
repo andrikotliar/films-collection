@@ -61,7 +61,7 @@ export const AppNavigation = () => {
         ))}
         {pagesWithFilter.includes(location.pathname) && (
           <button
-            className={styles.navigation_item}
+            className={clsx(styles.navigation_item, styles.filter_button)}
             onClick={() => openFilter(location.pathname as keyof FileRoutesByTo)}
           >
             <SlidersHorizontalIcon className={styles.navigation_item_icon} />

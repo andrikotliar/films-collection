@@ -65,6 +65,10 @@
   display: none;
 }
 
+.filter_button {
+  display: none;
+}
+
 @media (width <= 785px) {
   .app_navigation_layout {
     position: fixed;
@@ -115,5 +119,9 @@
   .close_modal_button {
     top: initial;
     bottom: 20px;
+  }
+
+  .filter_button {
+    display: flex;
   }
 }
