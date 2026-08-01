@@ -38,7 +38,7 @@ export const Route = createFileRoute('/_home/')({
 function RootPageContainer() {
   const routeSearch = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility();
+  const { isFilterOpen, hideFilter, toggleFilter } = useSidebarVisibility('/');
 
   const { data: initialData, isFetching: isInitialDataLoading } = useSuspenseQuery(
     getInitialDataQueryOptions(),
@@ -86,7 +86,6 @@ function RootPageContainer() {
     <RootPageLayout>
       <FilmsSection />
       <FiltersSidebar
-        filtersCount={filtersCount}
         isLoading={isInitialDataLoading}
         topPositionMargin="20px"
         heightReducer="0px"

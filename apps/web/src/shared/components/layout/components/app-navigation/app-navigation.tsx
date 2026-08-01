@@ -1,12 +1,21 @@
 import styles from './app-navigation.module.css';
 import { Link, useLocation } from '@tanstack/react-router';
 import clsx from 'clsx';
-import { HomeIcon, InfoIcon, SearchIcon, SettingsIcon, XIcon } from 'lucide-react';
+import {
+  HomeIcon,
+  InfoIcon,
+  SearchIcon,
+  SettingsIcon,
+  SlidersHorizontalIcon,
+  XIcon,
+} from 'lucide-react';
 import { useState } from 'react';
+import type { FileRoutesByTo } from '~/routeTree.gen';
 import { Button } from '~/shared/components/button/button';
 import { FilmsSearch } from '~/shared/components/layout/components/films-search/films-search';
 import { Logo } from '~/shared/components/logo/logo';
 import { Modal } from '~/shared/components/modal/modal';
+import { useFilterContext } from '~/shared/hooks';
 import type { NavLink } from '~/shared/types';
 
 const navigationConfig: NavLink[] = [
@@ -29,6 +38,7 @@ const pagesWithFilter = ['/', '/console/films'];
 export const AppNavigation = () => {
   const location = useLocation();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const { openFilter } = useFilterContext();
 
   return (
     <div className={styles.app_navigation_layout}>
@@ -49,9 +59,14 @@ export const AppNavigation = () => {
             <span className={styles.navigation_item_title}>{link.title}</span>
           </Link>
         ))}
-        <div className={clsx(styles.navigation_item, styles.mobile_filter_placeholder)}>
-          {!pagesWithFilter.includes(location.pathname) && <Logo size={30} />}
-        </div>
+        {pagesWithFilter.includes(location.pathname) && (
+          <button
+            className={styles.navigation_item}
+            onClick={() => openFilter(location.pathname as keyof FileRoutesByTo)}
+          >
+            <SlidersHorizontalIcon className={styles.navigation_item_icon} />
+          </button>
+        )}
         <button className={styles.navigation_item} onClick={() => setIsSearchOpen(true)}>
           <SearchIcon className={styles.navigation_item_icon} />
           <span className={styles.navigation_item_title}>Search</span>
