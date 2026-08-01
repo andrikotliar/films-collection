@@ -523,10 +523,19 @@ export class FilmsRepository {
     } = data;
 
     return this.deps.db.transaction(async (transaction) => {
+      const existingFilmData = await transaction
+        .select({ draft: films.draft, addedAt: films.addedAt })
+        .from(films)
+        .where(eq(films.id, filmId));
+
       const now = new Date().toISOString();
+      const previousDraftValues = existingFilmData[0]?.draft;
+      const addedAtValue =
+        previousDraftValues !== filmParams.draft ? now : existingFilmData[0].addedAt;
+
       const [updatedFilm] = await transaction
         .update(films)
-        .set({ ...filmParams, updatedAt: now, addedAt: filmParams.draft ? null : now })
+        .set({ ...filmParams, updatedAt: now, addedAt: addedAtValue })
         .where(eq(films.id, filmId))
         .returning({ id: films.id });
 
@@ -973,6 +982,8 @@ export class FilmsRepository {
         return fn(films.createdAt);
       case 'releaseDate':
         return fn(films.releaseDate);
+      case 'addedAt':
+        return fn(films.addedAt);
       default:
         return desc(films.updatedAt);
     }
