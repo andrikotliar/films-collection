@@ -1,4 +1,3 @@
-import { api, queryClient, queryKey, router } from '~/shared/services';
 import { type MenuConfigItem } from '../types';
 import {
   BuildingIcon,
@@ -8,7 +7,6 @@ import {
   ClockIcon,
   KeyRoundIcon,
   LibraryIcon,
-  LogOutIcon,
   MapIcon,
   NewspaperIcon,
   TrophyIcon,
@@ -25,7 +23,6 @@ export const consoleMenuConfig = {
     title: 'Actors / Creators',
     icon: <UserIcon />,
     color: 'color-blue-dark',
-    type: 'link',
   },
   awards: {
     id: 'awards',
@@ -33,7 +30,6 @@ export const consoleMenuConfig = {
     title: 'Awards',
     icon: <TrophyIcon />,
     color: 'color-yellow-primary',
-    type: 'link',
   },
   collections: {
     id: 'collections',
@@ -41,7 +37,6 @@ export const consoleMenuConfig = {
     title: 'Collections',
     icon: <LibraryIcon />,
     color: 'color-red-light',
-    type: 'link',
   },
   collectionEvents: {
     id: 'collection-events',
@@ -49,7 +44,6 @@ export const consoleMenuConfig = {
     title: 'Collection Events',
     icon: <CalendarIcon />,
     color: 'color-orange-light',
-    type: 'link',
   },
   countries: {
     id: 'countries',
@@ -57,7 +51,6 @@ export const consoleMenuConfig = {
     title: 'Countries',
     icon: <MapIcon />,
     color: 'color-green-primary',
-    type: 'link',
   },
   films: {
     id: 'films',
@@ -65,7 +58,6 @@ export const consoleMenuConfig = {
     title: 'Films',
     icon: <ClapperboardIcon />,
     color: 'color-blue-primary',
-    type: 'link',
   },
   pendingFilms: {
     id: 'pendingFilms',
@@ -78,7 +70,6 @@ export const consoleMenuConfig = {
     title: 'Pending Films',
     icon: <CalendarClockIcon />,
     color: 'color-orange-primary',
-    type: 'link',
   },
   upcomingFilms: {
     id: 'upcomingFilms',
@@ -89,7 +80,6 @@ export const consoleMenuConfig = {
     },
     icon: <ClockIcon />,
     color: 'color-brown-light',
-    type: 'link',
   },
   genres: {
     id: 'genres',
@@ -97,7 +87,6 @@ export const consoleMenuConfig = {
     title: 'Genres',
     icon: <VideotapeIcon />,
     color: 'color-purple-primary',
-    type: 'link',
   },
   pageContent: {
     id: 'page-content',
@@ -105,7 +94,6 @@ export const consoleMenuConfig = {
     title: 'Pages Content',
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
-    type: 'link',
   },
   studios: {
     id: 'studios',
@@ -113,7 +101,6 @@ export const consoleMenuConfig = {
     title: 'Studios',
     icon: <BuildingIcon />,
     color: 'color-gray-dark',
-    type: 'link',
   },
   sessions: {
     id: 'sessions',
@@ -121,7 +108,6 @@ export const consoleMenuConfig = {
     title: 'Sessions',
     icon: <KeyRoundIcon />,
     color: 'color-purple-light',
-    type: 'link',
   },
   user: {
     id: 'user',
@@ -129,19 +115,6 @@ export const consoleMenuConfig = {
     title: 'User',
     icon: <UserCogIcon />,
     color: 'color-lime-primary',
-    type: 'link',
-  },
-  logout: {
-    id: 'logout',
-    title: 'Log Out',
-    icon: <LogOutIcon />,
-    color: 'color-red-light',
-    action: async () => {
-      await api.auth.logout();
-      queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
-      router.navigate({ to: '/login' });
-    },
-    type: 'button',
   },
 } satisfies Record<string, MenuConfigItem>;
 
@@ -165,6 +138,6 @@ export const consoleMenuGroups: ConsoleMenuGroup[] = [
   },
   {
     title: 'Account',
-    itemIds: ['sessions', 'user', 'logout'],
+    itemIds: ['sessions', 'user'],
   },
 ];

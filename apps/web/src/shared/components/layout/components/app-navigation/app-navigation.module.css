@@ -50,7 +50,7 @@
   height: 30px;
 }
 
-.console_link {
+.bottom_item {
   margin-top: auto;
 }
 
@@ -107,7 +107,7 @@
     display: none;
   }
 
-  .console_link {
+  .bottom_item {
     margin-top: 0;
   }
 

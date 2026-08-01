@@ -1,9 +1,11 @@
+import { useQueryClient } from '@tanstack/react-query';
 import styles from './app-navigation.module.css';
-import { Link, useLocation } from '@tanstack/react-router';
+import { Link, useLocation, useNavigate } from '@tanstack/react-router';
 import clsx from 'clsx';
 import {
   HomeIcon,
   InfoIcon,
+  LogOutIcon,
   SearchIcon,
   SettingsIcon,
   SlidersHorizontalIcon,
@@ -16,6 +18,7 @@ import { FilmsSearch } from '~/shared/components/layout/components/films-search/
 import { Logo } from '~/shared/components/logo/logo';
 import { Modal } from '~/shared/components/modal/modal';
 import { useFilterContext } from '~/shared/hooks';
+import { api, queryKey } from '~/shared/services';
 import type { NavLink } from '~/shared/types';
 
 const navigationConfig: NavLink[] = [
@@ -39,6 +42,14 @@ export const AppNavigation = () => {
   const location = useLocation();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const { openFilter } = useFilterContext();
+  const navigate = useNavigate();
+  const queryClient = useQueryClient();
+
+  const logout = async () => {
+    await api.auth.logout();
+    queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
+    navigate({ to: '/login' });
+  };
 
   return (
     <div className={styles.app_navigation_layout}>
@@ -71,17 +82,24 @@ export const AppNavigation = () => {
           <SearchIcon className={styles.navigation_item_icon} />
           <span className={styles.navigation_item_title}>Search</span>
         </button>
-        <Link
-          to="/console"
-          className={clsx(
-            styles.navigation_item,
-            styles.console_link,
-            location.pathname.includes('/console') && styles.navigation_item_active,
-          )}
-        >
-          <SettingsIcon className={styles.navigation_item_icon} />
-          <span className={styles.navigation_item_title}>Console</span>
-        </Link>
+        {location.pathname.includes('/console') ? (
+          <button className={clsx(styles.navigation_item, styles.bottom_item)} onClick={logout}>
+            <LogOutIcon className={styles.navigation_item_icon} />
+            <span className={styles.navigation_item_title}>Log Out</span>
+          </button>
+        ) : (
+          <Link
+            to="/console"
+            className={clsx(
+              styles.navigation_item,
+              styles.bottom_item,
+              location.pathname.includes('/console') && styles.navigation_item_active,
+            )}
+          >
+            <SettingsIcon className={styles.navigation_item_icon} />
+            <span className={styles.navigation_item_title}>Console</span>
+          </Link>
+        )}
       </div>
       <Modal
         isOpen={isSearchOpen}

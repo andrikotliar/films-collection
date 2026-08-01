@@ -2,6 +2,7 @@ import { redirect } from '@tanstack/react-router';
 import { createApiClient, HttpError } from '@films-collection/api-client';
 import type { ErrorCode } from '@films-collection/shared';
 import { queryClient } from '~/shared/services/query-client';
+import { LOGIN_BLOCK_KEY } from '~/shared/constants';
 
 const TOKEN_ERRORS: Extract<ErrorCode, 'TOKEN_EXPIRED' | 'TOKEN_MISSED'>[] = [
   'TOKEN_EXPIRED',
@@ -42,6 +43,7 @@ export const api = createApiClient({
 
         return originalRequest();
       } catch (_error) {
+        localStorage.removeItem(LOGIN_BLOCK_KEY);
         queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
         throw redirect({ to: '/login' });
       }
