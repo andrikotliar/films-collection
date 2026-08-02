@@ -80,8 +80,11 @@ const baseDataItems: BaseDataItems[] = [
 
 const sanitizeFileName = (name: string) => {
   return name
-    .replace(/[<>:"/\\|?*]+/g, '')
+    .toLowerCase()
+    .replace(/[<>:,\-"/\\|?*]+/g, '')
     .replace(/\s+/g, ' ')
+    .replace(/\s/g, '_')
+    .replace('&', 'and')
     .trim();
 };
 
