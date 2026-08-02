@@ -1,24 +1,9 @@
 .console_layout {
   display: flex;
-  align-items: flex-start;
-  width: 100%;
-  flex-grow: 1;
-}
-
-.console_main {
-  width: 100%;
+  flex-direction: column;
   max-width: 1080px;
+  width: 100%;
   margin: 0 auto;
-}
-
-.console_header {
-  display: flex;
-  gap: 10px;
-  padding: 20px;
-  position: sticky;
-  top: 0;
-  background-color: var(--color-blue-invisible);
-  z-index: 100;
 }
 
 .console_content {
