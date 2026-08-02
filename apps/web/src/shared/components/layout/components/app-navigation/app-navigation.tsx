@@ -52,14 +52,7 @@ export const AppNavigation = () => {
   };
 
   return (
-    <div
-      className={clsx(
-        styles.app_navigation_layout,
-        location.pathname !== '/console' &&
-          location.pathname.includes('/console') &&
-          styles.hidden_menu,
-      )}
-    >
+    <div className={styles.app_navigation_layout}>
       <div className={styles.inner}>
         <div className={styles.desktop_logo}>
           <Logo size={40} />

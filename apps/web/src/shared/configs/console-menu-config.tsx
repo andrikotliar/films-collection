@@ -17,43 +17,6 @@ import {
 import { DraftLevel } from '@films-collection/shared';
 
 export const consoleMenuConfig: Record<string, MenuConfigItem> = {
-  people: {
-    id: 'people',
-    route: '/console/people',
-    title: 'Actors / Creators',
-    shortTitle: 'People',
-    icon: <UserIcon />,
-    color: 'color-blue-dark',
-  },
-  awards: {
-    id: 'awards',
-    route: '/console/awards',
-    title: 'Awards',
-    icon: <TrophyIcon />,
-    color: 'color-yellow-primary',
-  },
-  collections: {
-    id: 'collections',
-    route: '/console/collections',
-    title: 'Collections',
-    icon: <LibraryIcon />,
-    color: 'color-red-light',
-  },
-  collectionEvents: {
-    id: 'collection-events',
-    route: '/console/collection-events',
-    title: 'Collection Events',
-    shortTitle: 'Events',
-    icon: <CalendarIcon />,
-    color: 'color-orange-light',
-  },
-  countries: {
-    id: 'countries',
-    route: '/console/countries',
-    title: 'Countries',
-    icon: <MapIcon />,
-    color: 'color-green-primary',
-  },
   films: {
     id: 'films',
     route: '/console/films',
@@ -85,6 +48,35 @@ export const consoleMenuConfig: Record<string, MenuConfigItem> = {
     icon: <ClockIcon />,
     color: 'color-brown-light',
   },
+  collectionEvents: {
+    id: 'collection-events',
+    route: '/console/collection-events',
+    title: 'Collection Events',
+    shortTitle: 'Events',
+    icon: <CalendarIcon />,
+    color: 'color-orange-light',
+  },
+  awards: {
+    id: 'awards',
+    route: '/console/awards',
+    title: 'Awards',
+    icon: <TrophyIcon />,
+    color: 'color-yellow-primary',
+  },
+  collections: {
+    id: 'collections',
+    route: '/console/collections',
+    title: 'Collections',
+    icon: <LibraryIcon />,
+    color: 'color-red-light',
+  },
+  countries: {
+    id: 'countries',
+    route: '/console/countries',
+    title: 'Countries',
+    icon: <MapIcon />,
+    color: 'color-green-primary',
+  },
   genres: {
     id: 'genres',
     route: '/console/genres',
@@ -106,6 +98,14 @@ export const consoleMenuConfig: Record<string, MenuConfigItem> = {
     title: 'Studios',
     icon: <BuildingIcon />,
     color: 'color-gray-dark',
+  },
+  people: {
+    id: 'people',
+    route: '/console/people',
+    title: 'Actors / Creators',
+    shortTitle: 'People',
+    icon: <UserIcon />,
+    color: 'color-blue-dark',
   },
   sessions: {
     id: 'sessions',
