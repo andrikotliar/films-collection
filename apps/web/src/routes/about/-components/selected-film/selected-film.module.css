@@ -1,0 +1,65 @@
+.film {
+  position: relative;
+  display: flex;
+  max-width: 400px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: opacity 300ms;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--font-condensed);
+  text-transform: uppercase;
+  font-size: var(--text-lg);
+  margin-bottom: 10px;
+  background-color: var(--color-red-light);
+  width: 100%;
+  font-family: var(--font-condensed);
+  color: var(--color-white);
+  padding: 10px;
+  text-align: center;
+}
+
+.badge {
+  font-family: var(--font-condensed);
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  text-transform: uppercase;
+}
+
+.badge_label,
+.badge_num {
+  padding: 0 10px;
+  background-color: var(--color-yellow-primary);
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.badge_label {
+  font-size: var(--text-lg);
+}
+
+.badge_num {
+  font-size: var(--text-2xl);
+  padding: 0 10px;
+  background-color: var(--color-yellow-primary);
+  width: 40px;
+}
+
+.opaque {
+  opacity: 20%;
+}
+
+@media (width <= 1080px) {
+  .film {
+    max-width: 300px;
+  }
+}

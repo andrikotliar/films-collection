@@ -228,4 +228,14 @@ export const filmsRouter = createRouter(contracts.filmsContract, {
       return { data: { ok: true } };
     },
   },
+
+  getFilmByCollectionName: {
+    handler: async ({ request, app }) => {
+      const data = await app.container
+        .resolve('filmsService')
+        .getFilmByCollectionName(request.query.title);
+
+      return { data };
+    },
+  },
 });
