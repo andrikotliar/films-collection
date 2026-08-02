@@ -439,6 +439,10 @@ export class FilmsService {
     return this.deps.filmsRepository.unlinkCollection(collectionId);
   }
 
+  getFilmByCollectionName(title: string) {
+    return throwIfNotFound(this.deps.filmsRepository.getFilmByCollectionTitleAndDay(title));
+  }
+
   private clearStatsCache() {
     const cacheKeys: Array<keyof FilmStatsResponse> = [
       'collections',

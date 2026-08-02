@@ -6,10 +6,8 @@ type ArticleContentProps = ComponentProps<'article'>;
 
 export const ArticleContent = ({ children, className, ...props }: ArticleContentProps) => {
   return (
-    <div className={styles.wrapper}>
-      <article className={clsx(styles.content, className)} {...props}>
-        {children}
-      </article>
-    </div>
+    <article className={clsx(styles.content, className)} {...props}>
+      {children}
+    </article>
   );
 };

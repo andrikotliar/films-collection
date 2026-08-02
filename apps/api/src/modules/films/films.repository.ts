@@ -822,6 +822,32 @@ export class FilmsRepository {
     return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
+  getFilmByCollectionTitleAndDay(title: string) {
+    const now = new Date();
+    const dayOfMonth = now.getDate();
+    const digit = Math.abs(dayOfMonth) % 10;
+    const orderValue = digit === 0 ? 10 : digit;
+
+    return getFirstValue(
+      this.deps.db
+        .select({
+          id: films.id,
+          title: films.title,
+          poster: films.poster,
+          order: filmsCollections.order,
+        })
+        .from(films)
+        .innerJoin(
+          filmsCollections,
+          and(eq(filmsCollections.filmId, films.id), eq(filmsCollections.order, orderValue)),
+        )
+        .innerJoin(
+          collections,
+          and(eq(collections.id, filmsCollections.collectionId), eq(collections.title, title)),
+        ),
+    );
+  }
+
   aggregateFilmGenres() {
     return this.deps.db
       .select({
