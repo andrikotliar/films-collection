@@ -14,8 +14,7 @@ import {
   mutateEntity,
   queryKey,
 } from '~/shared';
-
-import { ALLOWED_HTML_TAGS } from '@films-collection/shared';
+import { SANITIZE_CONFIG } from '@films-collection/shared';
 import { PageContentFormSchema } from '~/routes/console/page-content_/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 
@@ -82,10 +81,7 @@ function RouteComponent() {
   });
 
   const handleSubmit = async (values: z.infer<typeof PageContentFormSchema>) => {
-    const sanitizedContent = sanitize(values.content, {
-      allowedTags: ALLOWED_HTML_TAGS,
-      allowedAttributes: {},
-    });
+    const sanitizedContent = sanitize(values.content, SANITIZE_CONFIG);
 
     await mutateAsync({
       ...values,

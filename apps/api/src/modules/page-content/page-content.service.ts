@@ -1,7 +1,7 @@
 import sanitize from 'sanitize-html';
 import { listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
 import {
-  ALLOWED_HTML_TAGS,
+  SANITIZE_CONFIG,
   PAGE_LIMITS,
   type CreatePageContentInput,
   type GetPageContentListQueries,
@@ -22,10 +22,7 @@ export class PageContentService {
   }
 
   createPageContent(input: CreatePageContentInput) {
-    const sanitizedContent = sanitize(input.content, {
-      allowedTags: ALLOWED_HTML_TAGS,
-      allowedAttributes: {},
-    });
+    const sanitizedContent = sanitize(input.content, SANITIZE_CONFIG);
 
     return throwIfNotFound(
       this.deps.pageContentRepository.createPageContent({
@@ -37,10 +34,7 @@ export class PageContentService {
 
   updatePageContent(id: number, input: UpdatePageContentInput) {
     if (input.content) {
-      const sanitizedContent = sanitize(input.content, {
-        allowedTags: ALLOWED_HTML_TAGS,
-        allowedAttributes: {},
-      });
+      const sanitizedContent = sanitize(input.content, SANITIZE_CONFIG);
 
       return throwIfNotFound(
         this.deps.pageContentRepository.updatePageContent(id, {

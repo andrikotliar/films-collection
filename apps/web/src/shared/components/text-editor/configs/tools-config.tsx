@@ -8,6 +8,7 @@ import {
   Heading5Icon,
   Heading6Icon,
   ItalicIcon,
+  LinkIcon,
   ListIcon,
   ListOrdered,
   QuoteIcon,
@@ -93,5 +94,27 @@ export const toolsConfig: ToolsConfigItem[] = [
     key: 'blockquote',
     icon: <QuoteIcon />,
     action: (editor) => editor.chain().focus().toggleBlockquote().run(),
+  },
+  {
+    key: 'link',
+    icon: <LinkIcon />,
+    action: (editor) => {
+      const previousUrl = editor.getAttributes('link').href;
+      const url = window.prompt('URL', previousUrl);
+
+      if (url === null) {
+        return false;
+      }
+
+      if (url === '') {
+        return editor.chain().focus().extendMarkRange('link').unsetLink().run();
+      }
+
+      try {
+        return editor.chain().focus().extendMarkRange('link').setLink({ href: url }).run();
+      } catch {
+        return false;
+      }
+    },
   },
 ];
