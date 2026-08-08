@@ -4,19 +4,28 @@ export const PAGE_LIMITS = {
   filmsSearch: 10,
 };
 export const NEW_ITEM_ID = 'new';
-export const ALLOWED_HTML_TAGS = [
-  'div',
-  'p',
-  'b',
-  'strong',
-  'h1',
-  'h2',
-  'h3',
-  'h4',
-  'h5',
-  'h6',
-  'i',
-  'ul',
-  'ol',
-  'blockquote',
-];
+
+export const SANITIZE_CONFIG = {
+  allowedTags: [
+    'div',
+    'p',
+    'b',
+    'strong',
+    'h1',
+    'h2',
+    'h3',
+    'h4',
+    'h5',
+    'h6',
+    'i',
+    'ul',
+    'ol',
+    'blockquote',
+    'a',
+  ],
+  allowedAttributes: {
+    a: ['href', 'target', 'rel'],
+  },
+  allowedSchemes: ['http', 'https'],
+  allowProtocolRelative: false,
+};
