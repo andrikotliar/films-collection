@@ -30,8 +30,8 @@ const main = async () => {
   const result = `// Auto-generated files, don't modify
 export const colors = ${JSON.stringify(values, null, 2)} as const;
 
-export type Colors = keyof typeof colors;   
-  `;
+export type Colors = keyof typeof colors;
+`;
 
   await fs.writeFile(OUTPUT_PATH, result, 'utf-8');
 };
