@@ -1,0 +1,163 @@
+{
+  "id": 544,
+  "title": "Spider-Man: Brand New Day",
+  "releaseDate": "2026-07-31",
+  "type": "FILM",
+  "duration": 145,
+  "budget": 225000000,
+  "boxOffice": 927000000,
+  "synopsis": "After Doctor Strange's spell, Peter tries to live his life alone. He diligently plays the role of Spider-Man, becoming a folk hero. From time to time, he follows the lives of Michelle and Ned on social media. Occasionally, he interferes with Frank Castle, known as Punisher, in his role as a hero. But everything radically changes when a mysterious criminal appears in the city, capable of seizing people's consciousness and searching for something in the Department that deals with people with superpowers. Problems escalate when Peter's spider mutation begins to change.",
+  "poster": "posters/spiderman_brand_new_day",
+  "genres": [
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Canada",
+      "id": 3
+    },
+    {
+      "title": "Germany",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "title": "Marvel Studios",
+      "id": 4
+    },
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://youtu.be/8TZMtslA3UY?si=Fx6u-POix2Uy8TcV",
+      "order": 1,
+      "id": 377
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1924,
+      "name": "Destin Daniel Cretton",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1311,
+      "name": "Chris McKenna",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1312,
+      "name": "Erik Sommers",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1530,
+      "name": "Avi Arad",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1309,
+      "name": "Kevin Feige",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1133,
+      "name": "Tom Holland",
+      "role": "ACTOR",
+      "details": "Spiderman/Peter Parker"
+    },
+    {
+      "id": 1201,
+      "name": "Zendaya",
+      "role": "ACTOR",
+      "details": "MJ"
+    },
+    {
+      "id": 786,
+      "name": "Mark Ruffalo",
+      "role": "ACTOR",
+      "details": "Bruce Banner / Hulk"
+    },
+    {
+      "id": 2878,
+      "name": "Jon Bernthal",
+      "role": "ACTOR",
+      "details": "Frank Castle / Punisher"
+    },
+    {
+      "id": 489,
+      "name": "Jacob Batalon",
+      "role": "ACTOR",
+      "details": "Ned Leeds"
+    },
+    {
+      "id": 1250,
+      "name": "Sadie Sink",
+      "role": "ACTOR",
+      "details": "Jean Grey"
+    },
+    {
+      "id": 375,
+      "name": "Florence Pugh",
+      "role": "ACTOR",
+      "details": "Yelena Belova"
+    },
+    {
+      "id": 2927,
+      "name": "Liza Colon-Zayas",
+      "role": "ACTOR",
+      "details": "Detective Jean DeWolff"
+    },
+    {
+      "id": 2928,
+      "name": "Trammel Tillman",
+      "role": "ACTOR",
+      "details": "William Metzger"
+    },
+    {
+      "id": 1442,
+      "name": "Michael Giacchino",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2929,
+      "name": "Brett Pawlak",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 25,
+      "title": "Marvel Cinematic Universe",
+      "order": 36
+    }
+  ]
+}
