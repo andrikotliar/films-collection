@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as StatsRouteRouteImport } from './routes/stats/route'
 import { Route as LoginRouteRouteImport } from './routes/login/route'
 import { Route as ConsoleRouteRouteImport } from './routes/console/route'
 import { Route as AboutRouteRouteImport } from './routes/about/route'
@@ -29,6 +30,11 @@ import { Route as ConsolePageContentIdRouteImport } from './routes/console/page-
 import { Route as ConsoleFilmsIdRouteImport } from './routes/console/films_/$id'
 import { Route as ConsoleAwardsIdRouteImport } from './routes/console/awards_/$id'
 
+const StatsRouteRoute = StatsRouteRouteImport.update({
+  id: '/stats',
+  path: '/stats',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LoginRouteRoute = LoginRouteRouteImport.update({
   id: '/login',
   path: '/login',
@@ -130,6 +136,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRouteRoute
   '/console': typeof ConsoleRouteRouteWithChildren
   '/login': typeof LoginRouteRoute
+  '/stats': typeof StatsRouteRoute
   '/console/awards': typeof ConsoleAwardsRouteRoute
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/collections': typeof ConsoleCollectionsRouteRoute
@@ -150,6 +157,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/about': typeof AboutRouteRoute
   '/login': typeof LoginRouteRoute
+  '/stats': typeof StatsRouteRoute
   '/console/awards': typeof ConsoleAwardsRouteRoute
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/collections': typeof ConsoleCollectionsRouteRoute
@@ -172,6 +180,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRouteRoute
   '/console': typeof ConsoleRouteRouteWithChildren
   '/login': typeof LoginRouteRoute
+  '/stats': typeof StatsRouteRoute
   '/console/awards': typeof ConsoleAwardsRouteRoute
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/collections': typeof ConsoleCollectionsRouteRoute
@@ -195,6 +204,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/console'
     | '/login'
+    | '/stats'
     | '/console/awards'
     | '/console/collection-events'
     | '/console/collections'
@@ -215,6 +225,7 @@ export interface FileRouteTypes {
   to:
     | '/about'
     | '/login'
+    | '/stats'
     | '/console/awards'
     | '/console/collection-events'
     | '/console/collections'
@@ -236,6 +247,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/console'
     | '/login'
+    | '/stats'
     | '/console/awards'
     | '/console/collection-events'
     | '/console/collections'
@@ -258,11 +270,19 @@ export interface RootRouteChildren {
   AboutRouteRoute: typeof AboutRouteRoute
   ConsoleRouteRoute: typeof ConsoleRouteRouteWithChildren
   LoginRouteRoute: typeof LoginRouteRoute
+  StatsRouteRoute: typeof StatsRouteRoute
   HomeIndexRoute: typeof HomeIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/stats': {
+      id: '/stats'
+      path: '/stats'
+      fullPath: '/stats'
+      preLoaderRoute: typeof StatsRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/login': {
       id: '/login'
       path: '/login'
@@ -443,6 +463,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRouteRoute: AboutRouteRoute,
   ConsoleRouteRoute: ConsoleRouteRouteWithChildren,
   LoginRouteRoute: LoginRouteRoute,
+  StatsRouteRoute: StatsRouteRoute,
   HomeIndexRoute: HomeIndexRoute,
 }
 export const routeTree = rootRouteImport

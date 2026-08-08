@@ -853,7 +853,7 @@ export class FilmsRepository {
       .select({
         id: genres.id,
         title: genres.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.filmId))
@@ -867,7 +867,7 @@ export class FilmsRepository {
       .select({
         id: collections.id,
         title: collections.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
@@ -881,7 +881,7 @@ export class FilmsRepository {
       .select({
         id: countries.id,
         title: countries.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsCountries)
       .innerJoin(films, eq(films.id, filmsCountries.filmId))
@@ -895,7 +895,7 @@ export class FilmsRepository {
       .select({
         id: studios.id,
         title: studios.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsStudios)
       .innerJoin(films, eq(films.id, filmsStudios.filmId))
@@ -906,7 +906,7 @@ export class FilmsRepository {
 
   aggregateFilmTypes() {
     return this.deps.db
-      .select({ title: films.type, count: count() })
+      .select({ title: films.type, value: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
       .groupBy(films.type);
@@ -914,7 +914,7 @@ export class FilmsRepository {
 
   aggregateFilmStyles() {
     return this.deps.db
-      .select({ title: films.style, count: count() })
+      .select({ title: films.style, value: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
       .groupBy(films.style);
