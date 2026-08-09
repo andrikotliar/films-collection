@@ -1010,6 +1010,8 @@ export class FilmsRepository {
         return fn(films.releaseDate);
       case 'addedAt':
         return fn(films.addedAt);
+      case 'boxOffice':
+        return fn(films.boxOffice);
       default:
         return desc(films.updatedAt);
     }
