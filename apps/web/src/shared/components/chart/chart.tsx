@@ -58,7 +58,7 @@ export const Chart = ({
               >
                 {row.title}
               </div>
-              <div className={styles.data_line_value}>{row.value}%</div>
+              <div className={styles.data_line_value}>{row.value}</div>
             </div>
           </div>
         ))}
