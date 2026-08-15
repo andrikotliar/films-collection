@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react';
 import { createSlicePath } from '~/shared/components/donut-chart/helpers/create-slice-path';
 import { generateColors } from '~/shared/components/donut-chart/helpers/generate-colors';
 import styles from './donut-chart.module.css';
-import { convertEnumValueToLabel } from '@films-collection/shared';
 import clsx from 'clsx';
 
 type Item = {
@@ -61,8 +60,7 @@ export const DonutChart = ({
       const angle = (item.value / totalByValues) * 360;
 
       const slice: Slice = {
-        value: item.value,
-        title: convertEnumValueToLabel(item.title),
+        ...item,
         color: colors[index],
         startAngle: currentAngle,
         endAngle: currentAngle + angle,

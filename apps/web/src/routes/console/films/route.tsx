@@ -49,7 +49,10 @@ const getDeleteMutationOptions = () => {
   return mutationOptions({
     mutationFn: (id: number) => api.films.delete({ params: { id } }),
     meta: {
-      invalidateQueries: [{ queryKey: queryKey('films.getAdminList') }],
+      invalidateQueries: [
+        { queryKey: queryKey('films.getAdminList') },
+        { queryKey: queryKey('films.getList') },
+      ],
     },
   });
 };

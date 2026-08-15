@@ -190,6 +190,13 @@
       "when": 1786818506113,
       "tag": "0028_add-articles-table",
       "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1786832811507,
+      "tag": "0029_remove-page-content-tables",
+      "breakpoints": true
     }
   ]
 }

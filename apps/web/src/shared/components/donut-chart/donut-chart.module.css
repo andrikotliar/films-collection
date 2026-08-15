@@ -31,7 +31,6 @@
 
 .info_title {
   font-size: var(--text-sm);
-  text-transform: uppercase;
   white-space: nowrap;
 }
 

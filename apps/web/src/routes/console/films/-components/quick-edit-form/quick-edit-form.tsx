@@ -1,6 +1,6 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
-import { useFormModal } from '~/routes/console/-shared';
+import { useFormModal, validateLanguage } from '~/routes/console/-shared';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { DescriptionEditor } from '~/routes/console/films_/-components/film-form/components';
 import {
@@ -9,6 +9,7 @@ import {
   Form,
   getAdminFilmDetailsQueryOptions,
   getObjectsDiff,
+  getUserDataQueryOptions,
   Loader,
   queryKey,
   type FormComponentProps,
@@ -18,6 +19,7 @@ type QuickEditFormProps = FormComponentProps<{ id: number }>;
 
 export const QuickEditForm = ({ values }: QuickEditFormProps) => {
   const { data, isLoading } = useQuery(getAdminFilmDetailsQueryOptions(values.id));
+  const { data: user } = useQuery(getUserDataQueryOptions());
 
   const { onClose: closeQuickEditForm } = useFormModal();
 
@@ -28,6 +30,8 @@ export const QuickEditForm = ({ values }: QuickEditFormProps) => {
       if (!diff) {
         return;
       }
+
+      validateLanguage(diff.synopsis, user);
 
       return await api.films.update({
         params: { id: values.id },

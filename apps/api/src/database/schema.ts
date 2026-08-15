@@ -521,18 +521,6 @@ export const people = pgTable('people', {
   selected: boolean().default(false).notNull(),
 });
 
-export const pageContent = pgTable('page_content', {
-  id: serial().primaryKey().notNull(),
-  title: text().notNull(),
-  content: text().notNull(),
-  createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
-  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
-    .defaultNow()
-    .$onUpdate(() => new Date().toISOString())
-    .notNull(),
-  pageKey: text('page_key').notNull(),
-});
-
 export const articles = pgTable('articles', {
   id: serial().primaryKey().notNull(),
   title: text().notNull(),
