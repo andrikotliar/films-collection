@@ -10,7 +10,7 @@ import {
 } from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
 
-export const authRouter = createRouter(contracts.authContract, {
+export const authRouter = createRouter(contracts.auth, {
   getState: {
     preHandler: [validateAuth],
     async handler() {

@@ -11,26 +11,26 @@ import {
   NullableIdParamSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const awardsContract = defineContracts('awards', {
-  getList: {
+export const awardsContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: CommonListQuerySchema,
       response: AwardsListResponseSchema,
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: CreateAwardInputSchema,
       response: AwardResponseSchema,
     },
-  },
-  createNomination: {
+  }),
+  createNomination: createContract({
     method: 'POST',
     url: ':id/nominations',
     schema: {
@@ -38,8 +38,8 @@ export const awardsContract = defineContracts('awards', {
       body: NominationInputSchema,
       response: NominationResponseSchema,
     },
-  },
-  getNominations: {
+  }),
+  getNominations: createContract({
     method: 'GET',
     url: ':id/nominations',
     schema: {
@@ -51,16 +51,16 @@ export const awardsContract = defineContracts('awards', {
         }),
       ),
     },
-  },
-  getById: {
+  }),
+  getById: createContract({
     method: 'GET',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: AwardWithNominationsResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -68,13 +68,13 @@ export const awardsContract = defineContracts('awards', {
       body: CreateAwardInputSchema,
       response: AwardResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-});
+  }),
+};

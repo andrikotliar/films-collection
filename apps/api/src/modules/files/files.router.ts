@@ -1,7 +1,7 @@
 import { createRouter, validateAuth } from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
 
-export const filesRouter = createRouter(contracts.filesContract, {
+export const filesRouter = createRouter(contracts.files, {
   getUploadUrl: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

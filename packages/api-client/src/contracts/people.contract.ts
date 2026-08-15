@@ -9,34 +9,34 @@ import {
   PersonResponseSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const peopleContract = defineContracts('people', {
-  getList: {
+export const peopleContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: GetPeopleListQuerySchema,
       response: PeopleListResponseSchema,
     },
-  },
-  search: {
+  }),
+  search: createContract({
     method: 'GET',
     url: 'search',
     schema: {
       querystring: SearchPersonSchema,
       response: buildListOptionSchema(z.number()),
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: CreatePersonSchema,
       response: PersonResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -44,13 +44,13 @@ export const peopleContract = defineContracts('people', {
       body: UpdatePersonInputSchema,
       response: PersonResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-});
+  }),
+};

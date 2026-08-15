@@ -5,26 +5,26 @@ import {
   CountryResponseSchema,
   CommonListQuerySchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const countriesContract = defineContracts('countries', {
-  getList: {
+export const countriesContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: CommonListQuerySchema,
       response: CountriesListResponseSchema,
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: CountryInputSchema,
       response: CountryResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -32,13 +32,13 @@ export const countriesContract = defineContracts('countries', {
       body: CountryInputSchema,
       response: CountryResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-});
+  }),
+};

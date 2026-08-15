@@ -1,7 +1,7 @@
 import { contracts } from '@films-collection/api-client';
 import { NotFoundException, createRouter, validateAuth } from '~/shared/index.js';
 
-export const pageContentRouter = createRouter(contracts.pageContentContract, {
+export const pageContentRouter = createRouter(contracts.pageContent, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {

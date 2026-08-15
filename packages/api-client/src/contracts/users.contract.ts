@@ -6,45 +6,45 @@ import {
   UserSessionSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const usersContracts = defineContracts('users', {
-  getSessions: {
+export const usersContracts = {
+  getSessions: createContract({
     url: 'sessions',
     method: 'GET',
     schema: {
       response: z.array(UserSessionSchema),
     },
-  },
-  terminateSession: {
+  }),
+  terminateSession: createContract({
     url: 'session/:id',
     method: 'DELETE',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-  updatePassword: {
+  }),
+  updatePassword: createContract({
     url: '/password',
     method: 'PATCH',
     schema: {
       body: UpdateUserPasswordInputSchema,
       response: IdParamSchema,
     },
-  },
-  updateTranslationPreferences: {
+  }),
+  updateTranslationPreferences: createContract({
     url: '/translation',
     method: 'PATCH',
     schema: {
       body: UpdateUserTranslationPreferencesSchema,
       response: IdParamSchema,
     },
-  },
-  getUser: {
+  }),
+  getUser: createContract({
     url: '',
     method: 'GET',
     schema: {
       response: UserDataResponseSchema,
     },
-  },
-});
+  }),
+};
