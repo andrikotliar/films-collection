@@ -1,28 +1,26 @@
 import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
-import { getPageContentAdminListQueryOptions, api, queryKey } from '~/shared';
+import { getArticlesAdminListQueryOptions, api, queryKey } from '~/shared';
 import { List } from '~/routes/console/-shared';
-import { GetPageContentListQueriesSchema } from '@films-collection/shared';
+import { GetArticlesListQueriesSchema } from '@films-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 
-export const Route = createFileRoute('/console/page-content')({
+export const Route = createFileRoute('/console/articles')({
   validateSearch: (search) => {
-    return GetPageContentListQueriesSchema.parse(search);
+    return GetArticlesListQueriesSchema.parse(search);
   },
   loader: ({ context, location }) => {
-    return context.queryClient.ensureQueryData(
-      getPageContentAdminListQueryOptions(location.search),
-    );
+    return context.queryClient.ensureQueryData(getArticlesAdminListQueryOptions(location.search));
   },
   component: PageContainer,
   staticData: {
-    title: 'Page Content',
+    title: 'Articles',
     backPath: '/console',
   },
   head: () => ({
     meta: [
       {
-        title: 'Pages Content - Films Collection',
+        title: 'Articles - Films Collection',
       },
     ],
   }),
@@ -30,9 +28,9 @@ export const Route = createFileRoute('/console/page-content')({
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
-    mutationFn: (id: number) => api.pageContent.delete({ params: { id } }),
+    mutationFn: (id: number) => api.articles.delete({ params: { id } }),
     meta: {
-      invalidateQueries: { queryKey: queryKey('pageContent.getAdminList') },
+      invalidateQueries: { queryKey: queryKey('articles.getAdminList') },
     },
   });
 };
@@ -40,7 +38,7 @@ const getDeleteMutationOptions = () => {
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useQuery(getPageContentAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(getArticlesAdminListQueryOptions(searchParams));
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -53,7 +51,7 @@ function PageContainer() {
 
   const handleEditItem = (data: { id: number }) => {
     navigate({
-      to: '/console/page-content/$id',
+      to: '/console/articles/$id',
       params: {
         id: data.id.toString(),
       },
@@ -73,7 +71,7 @@ function PageContainer() {
       }}
       isFetching={isFetching}
       onPageChange={handlePageChange}
-      onNavigateToForm="/console/page-content/$id"
+      onNavigateToForm="/console/articles/$id"
     />
   );
 }

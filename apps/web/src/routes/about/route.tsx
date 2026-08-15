@@ -6,9 +6,7 @@ import {
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
-import { AboutPageLayout } from '~/routes/about/-components/about-page-layout/about-page-layout';
-import { AboutPageContent } from '~/routes/about/-components/about-page-content/about-page-content';
-import { SelectedFilm } from '~/routes/about/-components/selected-film/selected-film';
+import { Content, SelectedFilm, Layout } from '~/routes/about/-components';
 
 export const Route = createFileRoute('/about')({
   loader: async ({ context: { queryClient } }) => {
@@ -26,14 +24,14 @@ function AboutPageContainer() {
   const { data: film } = useSuspenseQuery(getFilmByCollectionNameAndOrderQueryOptions('Top 10'));
 
   return (
-    <AboutPageLayout>
+    <Layout>
       <PageTitle>{article.title}</PageTitle>
-      <AboutPageContent>
+      <Content>
         <ArticleContent>
           <div dangerouslySetInnerHTML={{ __html: article.content }} />
         </ArticleContent>
         <SelectedFilm data={film} />
-      </AboutPageContent>
-    </AboutPageLayout>
+      </Content>
+    </Layout>
   );
 }
