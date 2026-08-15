@@ -335,20 +335,26 @@ export class FilmsService {
     return this.deps.filmsRepository.getTrailersByFilmId(id);
   }
 
-  private aggregate(key: (typeof statBlocks)[number]) {
+  private async aggregate(key: (typeof statBlocks)[number]) {
     switch (key) {
       case 'collections':
-        return this.deps.filmsRepository.aggregateFilmCollections();
+        return await this.deps.filmsRepository.aggregateFilmCollections();
       case 'genres':
-        return this.deps.filmsRepository.aggregateFilmGenres();
+        return await this.deps.filmsRepository.aggregateFilmGenres();
       case 'countries':
-        return this.deps.filmsRepository.aggregateFilmCountries();
+        return await this.deps.filmsRepository.aggregateFilmCountries();
       case 'studios':
-        return this.deps.filmsRepository.aggregateFilmStudios();
+        return await this.deps.filmsRepository.aggregateFilmStudios();
       case 'types':
-        return this.deps.filmsRepository.aggregateFilmTypes();
+        return (await this.deps.filmsRepository.aggregateFilmTypes()).map((item) => ({
+          ...item,
+          title: convertEnumValueToLabel(item.title),
+        }));
       case 'styles':
-        return this.deps.filmsRepository.aggregateFilmStyles();
+        return (await this.deps.filmsRepository.aggregateFilmStyles()).map((item) => ({
+          ...item,
+          title: convertEnumValueToLabel(item.title),
+        }));
       default:
         throw new BadRequestException({ message: 'Unknown stats type' });
     }
