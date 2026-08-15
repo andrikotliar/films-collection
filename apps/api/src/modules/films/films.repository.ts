@@ -6,6 +6,7 @@ import {
   type Deps,
 } from '~/shared/index.js';
 import {
+  CollectionCategory,
   getSkipValue,
   PAGE_LIMITS,
   type CreateFilmDraftInput,
@@ -26,6 +27,8 @@ import {
   inArray,
   isNotNull,
   isNull,
+  lt,
+  ne,
   notInArray,
   sql,
   type SQL,
@@ -873,7 +876,7 @@ export class FilmsRepository {
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
-      .where(this.getPublicFilmsFilter())
+      .where(this.getPublicFilmsFilter([ne(collections.category, CollectionCategory.CHAPTER)]))
       .groupBy(collections.id, collections.title)
       .orderBy(collections.title);
   }
@@ -967,7 +970,13 @@ export class FilmsRepository {
   }
 
   private getPublicFilmsFilter(additionalFilters: SQL[] = []) {
-    return and(isNull(films.deletedAt), eq(films.draft, false), ...additionalFilters);
+    const today = new Date().toISOString();
+    return and(
+      isNull(films.deletedAt),
+      eq(films.draft, false),
+      lt(films.releaseDate, today),
+      ...additionalFilters,
+    );
   }
 
   linkFilmToCollection(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
