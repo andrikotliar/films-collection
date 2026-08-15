@@ -1,0 +1,178 @@
+{
+  "id": 404,
+  "title": "Django Unchained",
+  "releaseDate": "2012-12-25",
+  "type": "FILM",
+  "duration": 165,
+  "budget": 100000000,
+  "boxOffice": 426000000,
+  "synopsis": "Django becomes free from slavery and now his goal is to reach Calvin J. Candie to free his wife from slavery, with the help of the aristocrat Dr. King Schultz, who has his own objectives in this story.",
+  "poster": "posters/django_unchained",
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Western",
+      "id": 24
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=0fUCuvNlOCg&pp=ygUYZGphbmdvIHVuY2hhaW5lZCB0cmFpbGVy",
+      "order": 1,
+      "id": 401
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by an Actor in a Supporting Role",
+          "id": 21
+        },
+        {
+          "title": "Best Writing, Original Screenplay",
+          "id": 295
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saturn Awards",
+      "nominations": [
+        {
+          "title": "Best Writing",
+          "id": 33
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Original Screenplay",
+          "id": 254
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "id": 112
+        },
+        {
+          "title": "Best Original Screenplay",
+          "id": 314
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Performance by an Actor in a Supporting Role in a Motion Picture",
+          "id": 256
+        },
+        {
+          "title": "Best Screenplay - Motion Picture",
+          "id": 257
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best WTF Moment",
+          "id": 315
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2606,
+      "name": "Quentin Tarantino",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2930,
+      "name": "Reginald Hudlin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2931,
+      "name": "Pilar Savone",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2932,
+      "name": "Stacey Sher",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 517,
+      "name": "Jamie Foxx",
+      "role": "ACTOR",
+      "details": " Django"
+    },
+    {
+      "id": 206,
+      "name": "Christoph Waltz",
+      "role": "ACTOR",
+      "details": " Dr. King Schultz"
+    },
+    {
+      "id": 716,
+      "name": "Leonardo DiCaprio",
+      "role": "ACTOR",
+      "details": " Calvin J. Candie"
+    },
+    {
+      "id": 2933,
+      "name": "Kerry Washington",
+      "role": "ACTOR",
+      "details": " Broomhilda von Shaft"
+    },
+    {
+      "id": 1036,
+      "name": "Samuel L. Jackson",
+      "role": "ACTOR",
+      "details": " Stephen"
+    }
+  ],
+  "collections": []
+}
