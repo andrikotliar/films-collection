@@ -1,0 +1,160 @@
+{
+  "id": 405,
+  "title": "The Social Network",
+  "releaseDate": "2010-10-01",
+  "type": "FILM",
+  "duration": 120,
+  "budget": 40000000,
+  "boxOffice": 225000000,
+  "synopsis": "The story of the creation of the legendary social network Facebook by Harvard student and programmer Mark Zuckerberg. We will learn how Mark came up with this idea, how he interacted with his best friend and first investor Eduardo Saverin, and what it led to.",
+  "poster": "posters/the_social_network",
+  "genres": [
+    {
+      "title": "Drama",
+      "id": 5
+    },
+    {
+      "title": "Biography",
+      "id": 13
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=lB95KLmpLR4&pp=ygUWc29jaWFsIG5ldHdvcmsgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 402
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Writing, Adapted Screenplay",
+          "id": 24
+        },
+        {
+          "title": "Best Achievement in Film Editing",
+          "id": 233
+        },
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures, Original Score",
+          "id": 310
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Director",
+          "id": 90
+        },
+        {
+          "title": "Best Screenplay, Adapted",
+          "id": 318
+        },
+        {
+          "title": "Best Score",
+          "id": 84
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Director",
+          "id": 316
+        },
+        {
+          "title": "Best Screenplay (Adapted)",
+          "id": 317
+        },
+        {
+          "title": "Best Editing",
+          "id": 111
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2934,
+      "name": "David Fincher",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2905,
+      "name": "Aaron Sorkin",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2440,
+      "name": "Dana Brunetti",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2935,
+      "name": "Ceán Chaffin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1532,
+      "name": "Michael De Luca",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2889,
+      "name": "Scott Rudin",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 555,
+      "name": "Jesse Eisenberg",
+      "role": "ACTOR",
+      "details": " Mark Zuckerberg"
+    },
+    {
+      "id": 57,
+      "name": "Andrew Garfield",
+      "role": "ACTOR",
+      "details": "Eduardo Saverin"
+    },
+    {
+      "id": 86,
+      "name": "Armie Hammer",
+      "role": "ACTOR",
+      "details": "Cameron Winklevoss / Tyler Winklevoss"
+    },
+    {
+      "id": 634,
+      "name": "Justin Timberlake",
+      "role": "ACTOR",
+      "details": "Sean Parker"
+    }
+  ],
+  "collections": []
+}
