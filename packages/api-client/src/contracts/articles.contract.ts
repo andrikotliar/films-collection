@@ -28,7 +28,7 @@ export const articlesContract = {
       response: ArticlesListResponseSchema,
     },
   }),
-  getByPageKey: createContract({
+  getBySlug: createContract({
     method: 'GET',
     url: 'content/:slug',
     schema: {

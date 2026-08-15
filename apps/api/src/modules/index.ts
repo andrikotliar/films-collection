@@ -19,11 +19,7 @@ import { filesRouter, FilesService } from '~/modules/files/index.js';
 import { FilmsRepository, filmsRouter, FilmsService } from '~/modules/films/index.js';
 import { GenresRepository, genresRouter, GenresService } from '~/modules/genres/index.js';
 import { initialDataRouter, InitialDataService } from '~/modules/initial-data/index.js';
-import {
-  PageContentRepository,
-  pageContentRouter,
-  PageContentService,
-} from '~/modules/page-content/index.js';
+import { ArticlesRepository, articlesRouter, ArticlesService } from '~/modules/articles/index.js';
 import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people/index.js';
 import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios/index.js';
 import { UsersRepository, usersRouter, UsersService } from '~/modules/users/index.js';
@@ -48,8 +44,8 @@ export const services = {
   genresRepository: GenresRepository,
   genresService: GenresService,
   initialDataService: InitialDataService,
-  pageContentRepository: PageContentRepository,
-  pageContentService: PageContentService,
+  articlesRepository: ArticlesRepository,
+  articlesService: ArticlesService,
   peopleRepository: PeopleRepository,
   peopleService: PeopleService,
   studiosRepository: StudiosRepository,
@@ -71,7 +67,7 @@ export const routers: Router[] = [
   filmsRouter,
   genresRouter,
   initialDataRouter,
-  pageContentRouter,
+  articlesRouter,
   peopleRouter,
   studiosRouter,
   usersRouter,
