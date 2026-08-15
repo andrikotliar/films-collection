@@ -38,6 +38,10 @@ const sortingFields: ListOption<string, { isNotSelectable?: boolean }>[] = [
     value: 'title',
   },
   {
+    label: 'Box Office',
+    value: 'boxOffice',
+  },
+  {
     label: 'Collection order',
     value: 'collectionId',
     isNotSelectable: true,

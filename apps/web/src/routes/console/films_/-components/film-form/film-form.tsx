@@ -1,5 +1,5 @@
 import type z from 'zod';
-import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
+import { useMutation, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import {
   api,
   convertImageToWebp,
@@ -7,10 +7,12 @@ import {
   getAllCollectionOptionsQueryOptions,
   getInitialDataQueryOptions,
   getObjectsDiff,
+  getUserDataQueryOptions,
   isNewItem,
   Panel,
   queryKey,
   titleToFileName,
+  toaster,
 } from '~/shared';
 import {
   AwardsSelect,
@@ -40,12 +42,29 @@ type CreateNewEntityInput = {
 export const FilmForm = ({ values }: FilmFormProps) => {
   const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
   const { data: collectionOptions } = useSuspenseQuery(getAllCollectionOptionsQueryOptions());
+  const { data: user } = useQuery(getUserDataQueryOptions());
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
   const searchParams = useSearch({ from: '/console/films_/$id' });
 
   const { isPending, mutateAsync: handleSubmit } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
+      if (!user) {
+        toaster.error('User is not defined, reload the page');
+        return;
+      }
+
+      if (data.synopsis?.length && user.translationPreferences?.toValidation) {
+        const regex = new RegExp(user.translationPreferences.toValidation);
+        const correctLang = regex.test(data.synopsis);
+
+        if (!correctLang) {
+          throw new Error(
+            `Synopsis is written in wrong language. Translate to ${user.translationPreferences.to}`,
+          );
+        }
+      }
+
       let poster = data.poster;
 
       if (poster instanceof File) {

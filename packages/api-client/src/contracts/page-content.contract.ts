@@ -9,42 +9,42 @@ import {
   PageContentByKeyResponseSchema,
   PageContentByIdResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const pageContentContract = defineContracts('page-content', {
-  create: {
+export const pageContentContract = {
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: CreatePageContentInputSchema,
       response: PageContentResponseSchema,
     },
-  },
-  getAdminList: {
+  }),
+  getAdminList: createContract({
     method: 'GET',
     url: 'admin',
     schema: {
       querystring: GetPageContentListQueriesSchema,
       response: PageContentsListResponseSchema,
     },
-  },
-  getByPageKey: {
+  }),
+  getByPageKey: createContract({
     method: 'GET',
     url: 'page/:pageKey',
     schema: {
       params: GetPageContentByPageUrlParamsSchema,
       response: PageContentByKeyResponseSchema,
     },
-  },
-  getById: {
+  }),
+  getById: createContract({
     method: 'GET',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: PageContentByIdResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -52,13 +52,13 @@ export const pageContentContract = defineContracts('page-content', {
       params: IdParamSchema,
       response: PageContentResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-});
+  }),
+};

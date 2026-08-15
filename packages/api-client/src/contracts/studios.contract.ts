@@ -5,26 +5,26 @@ import {
   StudioResponseSchema,
   StudiosResponseSchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const studiosContract = defineContracts('studios', {
-  getList: {
+export const studiosContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: CommonListQuerySchema,
       response: StudiosResponseSchema,
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: StudioInputSchema,
       response: StudioResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -32,13 +32,13 @@ export const studiosContract = defineContracts('studios', {
       body: StudioInputSchema,
       response: StudioResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-});
+  }),
+};

@@ -41,7 +41,9 @@ export const UpdateUserPasswordInputSchema = z.object({
 
 export const UpdateUserTranslationPreferencesSchema = z.object({
   from: z.string(),
+  fromValidation: z.string().optional(),
   to: z.string(),
+  toValidation: z.string().optional(),
 });
 
 export const UserDataResponseSchema = z.object({

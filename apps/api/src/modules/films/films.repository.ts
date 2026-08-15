@@ -6,6 +6,7 @@ import {
   type Deps,
 } from '~/shared/index.js';
 import {
+  CollectionCategory,
   getSkipValue,
   PAGE_LIMITS,
   type CreateFilmDraftInput,
@@ -26,6 +27,8 @@ import {
   inArray,
   isNotNull,
   isNull,
+  lt,
+  ne,
   notInArray,
   sql,
   type SQL,
@@ -853,13 +856,14 @@ export class FilmsRepository {
       .select({
         id: genres.id,
         title: genres.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.filmId))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
       .where(this.getPublicFilmsFilter())
-      .groupBy(genres.id, genres.title);
+      .groupBy(genres.id, genres.title)
+      .orderBy(asc(genres.title));
   }
 
   aggregateFilmCollections() {
@@ -867,13 +871,14 @@ export class FilmsRepository {
       .select({
         id: collections.id,
         title: collections.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
-      .where(this.getPublicFilmsFilter())
-      .groupBy(collections.id, collections.title);
+      .where(this.getPublicFilmsFilter([ne(collections.category, CollectionCategory.CHAPTER)]))
+      .groupBy(collections.id, collections.title)
+      .orderBy(collections.title);
   }
 
   aggregateFilmCountries() {
@@ -881,13 +886,14 @@ export class FilmsRepository {
       .select({
         id: countries.id,
         title: countries.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsCountries)
       .innerJoin(films, eq(films.id, filmsCountries.filmId))
       .innerJoin(countries, eq(countries.id, filmsCountries.countryId))
       .where(this.getPublicFilmsFilter())
-      .groupBy(countries.id, countries.title);
+      .groupBy(countries.id, countries.title)
+      .orderBy(countries.title);
   }
 
   aggregateFilmStudios() {
@@ -895,29 +901,32 @@ export class FilmsRepository {
       .select({
         id: studios.id,
         title: studios.title,
-        count: count(),
+        value: count(),
       })
       .from(filmsStudios)
       .innerJoin(films, eq(films.id, filmsStudios.filmId))
       .innerJoin(studios, eq(studios.id, filmsStudios.studioId))
       .where(this.getPublicFilmsFilter())
-      .groupBy(studios.id, studios.title);
+      .groupBy(studios.id, studios.title)
+      .orderBy(studios.title);
   }
 
   aggregateFilmTypes() {
     return this.deps.db
-      .select({ title: films.type, count: count() })
+      .select({ title: films.type, value: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
-      .groupBy(films.type);
+      .groupBy(films.type)
+      .orderBy(films.type);
   }
 
   aggregateFilmStyles() {
     return this.deps.db
-      .select({ title: films.style, count: count() })
+      .select({ title: films.style, value: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
-      .groupBy(films.style);
+      .groupBy(films.style)
+      .orderBy(films.style);
   }
 
   getTrailersByFilmId(id: number) {
@@ -961,7 +970,13 @@ export class FilmsRepository {
   }
 
   private getPublicFilmsFilter(additionalFilters: SQL[] = []) {
-    return and(isNull(films.deletedAt), eq(films.draft, false), ...additionalFilters);
+    const today = new Date().toISOString();
+    return and(
+      isNull(films.deletedAt),
+      eq(films.draft, false),
+      lt(films.releaseDate, today),
+      ...additionalFilters,
+    );
   }
 
   linkFilmToCollection(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
@@ -1010,6 +1025,8 @@ export class FilmsRepository {
         return fn(films.releaseDate);
       case 'addedAt':
         return fn(films.addedAt);
+      case 'boxOffice':
+        return fn(films.boxOffice);
       default:
         return desc(films.updatedAt);
     }

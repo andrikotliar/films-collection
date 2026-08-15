@@ -9,26 +9,26 @@ import {
   CollectionCategory,
 } from '@films-collection/shared';
 import z from 'zod';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const collectionsContract = defineContracts('collections', {
-  getList: {
+export const collectionsContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: CommonListQuerySchema,
       response: CollectionsListResponseSchema,
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: CreateCollectionInputSchema,
       response: CollectionResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -36,16 +36,16 @@ export const collectionsContract = defineContracts('collections', {
       body: UpdateCollectionInputSchema,
       response: CollectionResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-  getAll: {
+  }),
+  getAll: createContract({
     method: 'GET',
     url: 'all',
     schema: {
@@ -56,5 +56,5 @@ export const collectionsContract = defineContracts('collections', {
         }),
       ),
     },
-  },
-});
+  }),
+};

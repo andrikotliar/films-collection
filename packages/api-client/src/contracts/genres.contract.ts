@@ -5,26 +5,26 @@ import {
   GenreResponseSchema,
   CommonListQuerySchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const genresContract = defineContracts('genres', {
-  getList: {
+export const genresContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: CommonListQuerySchema,
       response: GenresListResponseSchema,
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: GenreInputSchema,
       response: GenreResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -32,13 +32,13 @@ export const genresContract = defineContracts('genres', {
       body: GenreInputSchema,
       response: GenreResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-});
+  }),
+};

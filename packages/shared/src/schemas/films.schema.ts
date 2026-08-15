@@ -343,12 +343,13 @@ export const GetFilmStatsQuerySchema = z.object({
 });
 
 export const FilmStatsResponseSchema = z.object({
-  genres: z.any(),
-  countries: z.any(),
-  collections: z.any(),
-  studios: z.any(),
-  types: z.any(),
-  styles: z.any(),
+  stats: z.array(
+    z.object({
+      block: z.string(),
+      stats: z.array(z.object({ title: z.string(), value: z.number() })),
+    }),
+  ),
+  filmsTotal: z.number(),
 });
 
 export const FilmsByCollectionResponseSchema = z.array(

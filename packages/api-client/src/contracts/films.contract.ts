@@ -26,89 +26,89 @@ import {
   GetFilmByCollectionNameResponse,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const filmsContract = defineContracts('films', {
-  getList: {
+export const filmsContract = {
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: GetFilmsListQuerySchema,
       response: FilmsListResponseSchema,
     },
-  },
-  search: {
+  }),
+  search: createContract({
     method: 'GET',
     url: 'search',
     schema: {
       querystring: SearchFilmsQuerySchema,
       response: FilmsSearchResponseSchema,
     },
-  },
-  getOptions: {
+  }),
+  getOptions: createContract({
     method: 'GET',
     url: 'options',
     schema: {
       querystring: GetFilmOptionsQuerySchema,
       response: buildListOptionSchema(z.number()),
     },
-  },
-  getFilmStats: {
+  }),
+  getFilmStats: createContract({
     method: 'GET',
     url: 'stats',
     schema: {
       response: FilmStatsResponseSchema,
     },
-  },
-  getAdminList: {
+  }),
+  getAdminList: createContract({
     method: 'GET',
     url: 'admin',
     schema: {
       querystring: GetAdminListQuerySchema,
       response: FilmsAdminListResponseSchema,
     },
-  },
-  getEditableFilm: {
+  }),
+  getEditableFilm: createContract({
     method: 'GET',
     url: 'admin/:id',
     schema: {
       params: IdParamSchema,
       response: CreateFilmInputSchema,
     },
-  },
-  export: {
+  }),
+  export: createContract({
     method: 'GET',
     url: 'export',
     schema: {
       querystring: GetCompleteDataListQuerySchema,
       response: CompleteDataResponseSchema,
     },
-  },
-  getById: {
+  }),
+  getById: createContract({
     method: 'GET',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: FilmResponseSchema,
     },
-  },
-  getTrailers: {
+  }),
+  getTrailers: createContract({
     method: 'GET',
     url: ':id/trailers',
     schema: {
       params: IdParamSchema,
       response: FilmTrailersResponseSchema,
     },
-  },
-  create: {
+  }),
+  create: createContract({
     method: 'POST',
     url: 'admin',
     schema: {
       body: CreateFilmInputSchema,
       response: FilmResponseSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: 'admin/:id',
     schema: {
@@ -116,24 +116,24 @@ export const filmsContract = defineContracts('films', {
       params: IdParamSchema,
       response: FilmResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: 'admin/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-  translateDescription: {
+  }),
+  translateDescription: createContract({
     method: 'POST',
     url: 'admin/translate',
     schema: {
       body: TranslateDescriptionInputSchema,
       response: TranslateDescriptionResponseSchema,
     },
-  },
-  createDraft: {
+  }),
+  createDraft: createContract({
     method: 'POST',
     url: 'admin/:filmId/draft',
     schema: {
@@ -141,8 +141,8 @@ export const filmsContract = defineContracts('films', {
       body: CreateFilmDraftInputSchema,
       response: FilmDraftInputResponse,
     },
-  },
-  updateDraft: {
+  }),
+  updateDraft: createContract({
     method: 'PATCH',
     url: 'admin/draft/:id',
     schema: {
@@ -150,53 +150,53 @@ export const filmsContract = defineContracts('films', {
       body: CreateFilmDraftInputSchema,
       response: FilmDraftInputResponse,
     },
-  },
-  getFilmDrafts: {
+  }),
+  getFilmDrafts: createContract({
     method: 'GET',
     url: 'admin/:filmId/draft',
     schema: {
       params: FilmDraftFilmIdParamsSchema,
       response: z.array(FilmDraftInputResponse),
     },
-  },
-  deleteDraft: {
+  }),
+  deleteDraft: createContract({
     method: 'DELETE',
     url: 'admin/draft/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-  getByCollection: {
+  }),
+  getByCollection: createContract({
     method: 'GET',
     url: 'collection/:id',
     schema: {
       params: IdParamSchema,
       response: FilmsByCollectionResponseSchema,
     },
-  },
-  getAdminFilmById: {
+  }),
+  getAdminFilmById: createContract({
     method: 'GET',
     url: 'admin/film/:id',
     schema: {
       params: IdParamSchema,
       response: FilmResponseSchema,
     },
-  },
-  deleteAllFilmDrafts: {
+  }),
+  deleteAllFilmDrafts: createContract({
     method: 'DELETE',
     url: 'admin/film/:filmId/drafts',
     schema: {
       params: FilmDraftFilmIdParamsSchema,
       response: DeleteFilmDrafts,
     },
-  },
-  getFilmByCollectionName: {
+  }),
+  getFilmByCollectionName: createContract({
     method: 'GET',
     url: 'collection',
     schema: {
       querystring: GetFilmByCollectionNameSchema,
       response: GetFilmByCollectionNameResponse,
     },
-  },
-});
+  }),
+};

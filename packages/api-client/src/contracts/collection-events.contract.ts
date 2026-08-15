@@ -6,34 +6,34 @@ import {
   CollectionEventsListResponseSchema,
   CommonListQuerySchema,
 } from '@films-collection/shared';
-import { defineContracts } from '~/helpers/index.js';
+import { createContract } from '~/helpers/index.js';
 
-export const collectionEventsContract = defineContracts('collection-events', {
-  create: {
+export const collectionEventsContract = {
+  create: createContract({
     method: 'POST',
     url: '',
     schema: {
       body: CreateCollectionEventInputSchema,
       response: CollectionEventResponseSchema,
     },
-  },
-  getList: {
+  }),
+  getList: createContract({
     method: 'GET',
     url: '',
     schema: {
       querystring: CommonListQuerySchema,
       response: CollectionEventsListResponseSchema,
     },
-  },
-  delete: {
+  }),
+  delete: createContract({
     method: 'DELETE',
     url: ':id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
-  },
-  update: {
+  }),
+  update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
@@ -41,5 +41,5 @@ export const collectionEventsContract = defineContracts('collection-events', {
       body: UpdateCollectionEventInputSchema,
       response: CollectionEventResponseSchema,
     },
-  },
-});
+  }),
+};

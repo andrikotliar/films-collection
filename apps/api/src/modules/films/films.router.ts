@@ -7,7 +7,7 @@ import {
   validateGetSignature,
 } from '~/shared/index.js';
 
-export const filmsRouter = createRouter(contracts.filmsContract, {
+export const filmsRouter = createRouter(contracts.films, {
   getList: {
     handler: async ({ request, app }) => {
       const data = await app.container.resolve('filmsService').getFilteredFilms(request.query);
