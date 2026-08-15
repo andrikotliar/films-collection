@@ -1,7 +1,7 @@
 import {
   ArticleContent,
   getFilmByCollectionNameAndOrderQueryOptions,
-  getPageContentByKeyQueryOptions,
+  getArticlesBySlugQueryOptions,
   PageTitle,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
@@ -12,7 +12,7 @@ import { SelectedFilm } from '~/routes/about/-components/selected-film/selected-
 
 export const Route = createFileRoute('/about')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getPageContentByKeyQueryOptions('about'));
+    await queryClient.ensureQueryData(getArticlesBySlugQueryOptions('about'));
     await queryClient.ensureQueryData(getFilmByCollectionNameAndOrderQueryOptions('Top 10'));
   },
   component: AboutPageContainer,
@@ -22,7 +22,7 @@ export const Route = createFileRoute('/about')({
 });
 
 function AboutPageContainer() {
-  const { data: article } = useSuspenseQuery(getPageContentByKeyQueryOptions('about'));
+  const { data: article } = useSuspenseQuery(getArticlesBySlugQueryOptions('about'));
   const { data: film } = useSuspenseQuery(getFilmByCollectionNameAndOrderQueryOptions('Top 10'));
 
   return (
