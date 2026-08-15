@@ -12,7 +12,6 @@ import {
   Panel,
   queryKey,
   titleToFileName,
-  toaster,
 } from '~/shared';
 import {
   AwardsSelect,
@@ -29,6 +28,7 @@ import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
+import { validateLanguage } from '~/routes/console/-shared';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -49,21 +49,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
   const { isPending, mutateAsync: handleSubmit } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
-      if (!user) {
-        toaster.error('User is not defined, reload the page');
-        return;
-      }
-
-      if (data.synopsis?.length && user.translationPreferences?.toValidation) {
-        const regex = new RegExp(user.translationPreferences.toValidation);
-        const correctLang = regex.test(data.synopsis);
-
-        if (!correctLang) {
-          throw new Error(
-            `Synopsis is written in wrong language. Translate to ${user.translationPreferences.to}`,
-          );
-        }
-      }
+      validateLanguage(data.synopsis, user);
 
       let poster = data.poster;
 
