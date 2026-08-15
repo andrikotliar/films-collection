@@ -533,6 +533,18 @@ export const pageContent = pgTable('page_content', {
   pageKey: text('page_key').notNull(),
 });
 
+export const articles = pgTable('articles', {
+  id: serial().primaryKey().notNull(),
+  title: text().notNull(),
+  content: text().notNull(),
+  slug: text('slug').notNull().unique(),
+  createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
+    .notNull(),
+});
+
 export const filmsDrafts = pgTable('films_drafts', {
   id: serial().primaryKey().notNull(),
   filmId: text('film_id').notNull(),
