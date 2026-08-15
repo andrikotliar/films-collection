@@ -38,7 +38,7 @@ export class FilmsService {
   private readonly cache = new InMemoryCacheService<{
     filmsCount: number;
     anniversary: AnniversaryCache;
-    statistic: FilmStatsResponse;
+    statistic: FilmStatsResponse['stats'];
   }>({
     filmsCount: 0,
     anniversary: {
@@ -356,12 +356,13 @@ export class FilmsService {
 
   async getStats(): Promise<FilmStatsResponse> {
     const cachedValue = this.cache.get('statistic');
+    const filmsTotal = await this.getAllFilmsCount();
 
     if (cachedValue.length) {
-      return cachedValue;
+      return { stats: cachedValue, filmsTotal };
     }
 
-    const result: FilmStatsResponse = [];
+    const result: FilmStatsResponse['stats'] = [];
 
     for await (const block of statBlocks) {
       const stats = await this.aggregate(block);
@@ -371,7 +372,7 @@ export class FilmsService {
 
     this.cache.set('statistic', result);
 
-    return result;
+    return { stats: result, filmsTotal };
   }
 
   async deleteAllFilmDrafts(filmId: string) {
