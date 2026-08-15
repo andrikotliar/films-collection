@@ -1,13 +1,11 @@
 import { contracts } from '@films-collection/api-client';
 import { NotFoundException, createRouter, validateAuth } from '~/shared/index.js';
 
-export const pageContentRouter = createRouter(contracts.pageContent, {
+export const articlesRouter = createRouter(contracts.articles, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('pageContentService')
-        .createPageContent(request.body);
+      const data = await app.container.resolve('articlesService').create(request.body);
 
       return { data, status: 'CREATED' };
     },
@@ -15,20 +13,18 @@ export const pageContentRouter = createRouter(contracts.pageContent, {
   getAdminList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('pageContentService').getList(request.query);
+      const data = await app.container.resolve('articlesService').getList(request.query);
 
       return { data };
     },
   },
-  getByPageKey: {
+  getBySlug: {
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('pageContentService')
-        .getPageContentByKey(request.params.pageKey);
+      const data = await app.container.resolve('articlesService').getBySlug(request.params.slug);
 
       if (!data) {
         throw new NotFoundException({
-          message: `Content for key <${request.params.pageKey}> not found!`,
+          message: `Content for key <${request.params.slug}> not found!`,
         });
       }
 
@@ -37,9 +33,7 @@ export const pageContentRouter = createRouter(contracts.pageContent, {
   },
   getById: {
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('pageContentService')
-        .getPageContent(request.params.id);
+      const data = await app.container.resolve('articlesService').get(request.params.id);
 
       return { data };
     },
@@ -48,8 +42,8 @@ export const pageContentRouter = createRouter(contracts.pageContent, {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.container
-        .resolve('pageContentService')
-        .updatePageContent(request.params.id, request.body);
+        .resolve('articlesService')
+        .update(request.params.id, request.body);
 
       return { data };
     },
@@ -57,7 +51,7 @@ export const pageContentRouter = createRouter(contracts.pageContent, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('pageContentService').deletePageContent(request.params.id);
+      await app.container.resolve('articlesService').delete(request.params.id);
 
       return { data: { id: request.params.id } };
     },

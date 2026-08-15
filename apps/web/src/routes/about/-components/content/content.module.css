@@ -1,11 +1,11 @@
-.about_page_content {
+.content {
   display: flex;
   gap: 40px;
   align-items: flex-start;
 }
 
 @media (width <= 1080px) {
-  .about_page_content {
+  .content {
     flex-direction: column;
     gap: 20px;
   }

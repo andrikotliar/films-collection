@@ -3,15 +3,15 @@ import { isNewItem } from '~/shared/helpers/is-new-item';
 import { api, queryKey } from '~/shared/services';
 import type { MixedId } from '~/shared/types';
 
-export const getPageContentByIdQueryOptions = (id: MixedId) => {
+export const getArticleByIdQueryOptions = (id: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('pageContent.getById'), id],
+    queryKey: [queryKey('articles.getById'), id],
     queryFn: () => {
       if (isNewItem(id)) {
         return null;
       }
 
-      return api.pageContent.getById({ params: { id } });
+      return api.articles.getById({ params: { id } });
     },
     enabled: !!id,
     gcTime: 0,

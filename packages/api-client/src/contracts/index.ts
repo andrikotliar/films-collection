@@ -8,7 +8,7 @@ import { filesContract } from './files.contract.js';
 import { filmsContract } from './films.contract.js';
 import { genresContract } from './genres.contract.js';
 import { initialDataContract } from './initial-data.contract.js';
-import { pageContentContract } from './page-content.contract.js';
+import { articlesContract } from './articles.contract.js';
 import { peopleContract } from './people.contract.js';
 import { studiosContract } from './studios.contract.js';
 import { usersContracts } from './users.contract.js';
@@ -23,7 +23,7 @@ export const contracts = {
   films: createContractsGroup('films', filmsContract),
   genres: createContractsGroup('genres', genresContract),
   initialData: createContractsGroup('initial-data', initialDataContract),
-  pageContent: createContractsGroup('page-content', pageContentContract),
+  articles: createContractsGroup('articles', articlesContract),
   people: createContractsGroup('people', peopleContract),
   studios: createContractsGroup('studios', studiosContract),
   users: createContractsGroup('users', usersContracts),

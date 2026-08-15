@@ -84,11 +84,10 @@ export const consoleMenuConfig: Record<string, MenuConfigItem> = {
     icon: <VideotapeIcon />,
     color: 'color-purple-primary',
   },
-  pageContent: {
-    id: 'page-content',
-    route: '/console/page-content',
-    title: 'Pages Content',
-    shortTitle: 'Content',
+  articles: {
+    id: 'articles',
+    route: '/console/articles',
+    title: 'Articles',
     icon: <NewspaperIcon />,
     color: 'color-green-dark',
   },
@@ -139,7 +138,7 @@ export const consoleMenuGroups: ConsoleMenuGroup[] = [
   },
   {
     title: 'Content',
-    itemIds: ['collectionEvents', 'pageContent'],
+    itemIds: ['collectionEvents', 'articles'],
   },
   {
     title: 'Account',
