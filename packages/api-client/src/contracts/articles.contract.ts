@@ -1,39 +1,39 @@
 import {
   IdParamSchema,
-  CreatePageContentInputSchema,
-  GetPageContentListQueriesSchema,
-  GetPageContentByPageUrlParamsSchema,
-  UpdatePageContentInputSchema,
-  PageContentResponseSchema,
-  PageContentsListResponseSchema,
-  PageContentByKeyResponseSchema,
-  PageContentByIdResponseSchema,
+  CreateArticleSchema,
+  GetArticlesListQueriesSchema,
+  GetArticleBySlugSchema,
+  UpdateArticleSchema,
+  ArticleResponseSchema,
+  ArticlesListResponseSchema,
+  ArticleBySlugResponseSchema,
+  ArticleByIdResponseSchema,
 } from '@films-collection/shared';
 import { createContract } from '~/helpers/index.js';
 
-export const pageContentContract = {
+export const articlesContract = {
   create: createContract({
     method: 'POST',
     url: '',
     schema: {
-      body: CreatePageContentInputSchema,
-      response: PageContentResponseSchema,
+      body: CreateArticleSchema,
+      response: ArticleResponseSchema,
     },
   }),
   getAdminList: createContract({
     method: 'GET',
     url: 'admin',
     schema: {
-      querystring: GetPageContentListQueriesSchema,
-      response: PageContentsListResponseSchema,
+      querystring: GetArticlesListQueriesSchema,
+      response: ArticlesListResponseSchema,
     },
   }),
   getByPageKey: createContract({
     method: 'GET',
-    url: 'page/:pageKey',
+    url: 'content/:slug',
     schema: {
-      params: GetPageContentByPageUrlParamsSchema,
-      response: PageContentByKeyResponseSchema,
+      params: GetArticleBySlugSchema,
+      response: ArticleBySlugResponseSchema,
     },
   }),
   getById: createContract({
@@ -41,16 +41,16 @@ export const pageContentContract = {
     url: ':id',
     schema: {
       params: IdParamSchema,
-      response: PageContentByIdResponseSchema,
+      response: ArticleByIdResponseSchema,
     },
   }),
   update: createContract({
     method: 'PATCH',
     url: ':id',
     schema: {
-      body: UpdatePageContentInputSchema,
+      body: UpdateArticleSchema,
       params: IdParamSchema,
-      response: PageContentResponseSchema,
+      response: ArticleResponseSchema,
     },
   }),
   delete: createContract({
