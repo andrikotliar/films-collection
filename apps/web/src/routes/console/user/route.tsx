@@ -11,6 +11,7 @@ import {
   Form,
   getUserDataQueryOptions,
   Panel,
+  queryKey,
   SectionTitle,
   toaster,
   type Input,
@@ -67,6 +68,11 @@ function RouteComponent() {
     onSuccess: () => {
       toaster.success('Preferences successfully updated');
     },
+    meta: {
+      invalidateQueries: {
+        queryKey: queryKey('users.getUser'),
+      },
+    },
   });
 
   const translationPreferences = useMemo(() => {
@@ -91,7 +97,9 @@ function RouteComponent() {
           onSubmit={updateTranslationPreferences}
         >
           <Form.TextInput name="from" label="From language" />
+          <Form.TextInput name="fromValidation" label="Validation pattern" />
           <Form.TextInput name="to" label="To language" />
+          <Form.TextInput name="toValidation" label="Validation pattern" />
         </Form>
       </Panel>
       <SectionTitle>Update password</SectionTitle>
