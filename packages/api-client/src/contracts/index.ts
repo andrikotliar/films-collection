@@ -12,6 +12,7 @@ import { articlesContract } from './articles.contract.js';
 import { peopleContract } from './people.contract.js';
 import { studiosContract } from './studios.contract.js';
 import { usersContracts } from './users.contract.js';
+import { hobbiesContract } from '~/contracts/hobbies.contract.js';
 
 export const contracts = {
   auth: createContractsGroup('auth', authContract),
@@ -27,4 +28,5 @@ export const contracts = {
   people: createContractsGroup('people', peopleContract),
   studios: createContractsGroup('studios', studiosContract),
   users: createContractsGroup('users', usersContracts),
+  hobbies: createContractsGroup('hobbies', hobbiesContract),
 } as const;

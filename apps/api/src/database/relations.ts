@@ -19,6 +19,8 @@ import {
   filmsPeople,
   users,
   usersSessions,
+  hobbies,
+  hobbyItems,
 } from './schema.js';
 
 export const filmsRelations = relations(films, ({ many }) => ({
@@ -169,4 +171,8 @@ export const filmsPeopleRelations = relations(filmsPeople, ({ one }) => ({
 
 export const usersRelations = relations(users, ({ many }) => ({
   sessions: many(usersSessions),
+}));
+
+export const hobbiesRelations = relations(hobbies, ({ many }) => ({
+  items: many(hobbyItems),
 }));

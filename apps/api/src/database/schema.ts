@@ -646,3 +646,4 @@ export type FilmStudio = typeof filmsStudios.$inferInsert;
 export type FilmCountry = typeof filmsCountries.$inferInsert;
 export type User = typeof users.$inferInsert;
 export type UserSession = typeof usersSessions.$inferInsert;
+export type Hobby = typeof hobbies.$inferInsert;

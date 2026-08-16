@@ -27,6 +27,7 @@ import { ConfigService } from '~/modules/config/index.js';
 import { StorageService } from '~/modules/storage/index.js';
 import type { Router } from '~/shared/index.js';
 import { AiService } from '~/modules/ai/index.js';
+import { HobbiesRepository, hobbiesRouter, HobbiesService } from '~/modules/hobbies/index.js';
 
 export const services = {
   authService: AuthService,
@@ -55,6 +56,8 @@ export const services = {
   configService: ConfigService,
   storageService: StorageService,
   aiService: AiService,
+  hobbiesRepository: HobbiesRepository,
+  hobbiesService: HobbiesService,
 };
 
 export const routers: Router[] = [
@@ -71,4 +74,5 @@ export const routers: Router[] = [
   peopleRouter,
   studiosRouter,
   usersRouter,
+  hobbiesRouter,
 ];
