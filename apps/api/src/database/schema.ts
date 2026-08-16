@@ -1,6 +1,7 @@
 import {
   CollectionCategory,
   type DeviceInfo,
+  HobbyItemType,
   PersonRole,
   TitleStyle,
   TitleType,
@@ -21,12 +22,14 @@ import {
   numeric,
   jsonb,
   varchar,
+  uuid,
 } from 'drizzle-orm/pg-core';
 
 export const collectionCategory = pgEnum('collection_category', CollectionCategory);
 export const personRole = pgEnum('person_role', PersonRole);
 export const titleStyle = pgEnum('title_style', TitleStyle);
 export const titleType = pgEnum('title_type', TitleType);
+export const hobbyItemType = pgEnum('hobby_item_type', HobbyItemType);
 
 export const films = pgTable(
   'films',
@@ -571,6 +574,57 @@ export const usersSessions = pgTable(
     })
       .onDelete('cascade')
       .onUpdate('cascade'),
+  ],
+);
+
+export const hobbies = pgTable('hobbies', {
+  id: uuid().defaultRandom().notNull(),
+  title: text().notNull(),
+});
+
+export const hobbyItems = pgTable(
+  'hobby_items',
+  {
+    id: uuid().defaultRandom().notNull(),
+    title: text().notNull(),
+    type: hobbyItemType().notNull().default(HobbyItemType.BOOK),
+    description: text().notNull(),
+    hobbyId: uuid('hobby_id').notNull(),
+  },
+  (table) => [
+    foreignKey({
+      columns: [table.hobbyId],
+      foreignColumns: [hobbies.id],
+      name: 'hobby_items_hobby_id_fkey',
+    })
+      .onDelete('cascade')
+      .onUpdate('cascade'),
+  ],
+);
+
+export const hobbyItemsCollections = pgTable(
+  'hobby_items_collections',
+  {
+    id: uuid().defaultRandom().notNull(),
+    hobbyId: uuid('hobby_id').notNull(),
+    collectionId: integer('collection_id').notNull(),
+  },
+  (table) => [
+    uniqueIndex('hobby_items_collections_hobby_id_collection_id_key').using(
+      'btree',
+      table.hobbyId.asc().nullsLast().op('uuid_ops'),
+      table.collectionId.asc().nullsLast().op('int4_ops'),
+    ),
+    foreignKey({
+      name: 'hobby_items_collections_hobby_id_fkey',
+      columns: [table.hobbyId],
+      foreignColumns: [hobbies.id],
+    }),
+    foreignKey({
+      name: 'hobby_items_collections_collection_id_fkey',
+      columns: [table.collectionId],
+      foreignColumns: [collections.id],
+    }),
   ],
 );
 
