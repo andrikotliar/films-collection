@@ -1,11 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "lib": ["DOM", "ESNext"],
-    "noEmit": true,
-    "paths": {
-      "@films-collection/shared": ["../shared/src/index.ts"]
-    }
+    "lib": ["DOM", "ESNext"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
