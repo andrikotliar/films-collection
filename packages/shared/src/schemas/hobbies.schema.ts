@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { getListResponseSchema } from '~/helpers/index.js';
 
 export const HobbyMutationSchema = z.object({
   title: z.string(),
@@ -9,7 +10,7 @@ export const HobbyResponseSchema = z.object({
   title: z.string(),
 });
 
-export const HobbiesListResponseSchema = z.array(HobbyResponseSchema);
+export const HobbiesListResponseSchema = getListResponseSchema(HobbyResponseSchema);
 
 export const HobbyItemResponseSchema = z.object({
   id: z.uuid(),

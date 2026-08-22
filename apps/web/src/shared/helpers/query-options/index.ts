@@ -25,3 +25,4 @@ export * from './films/get-films-by-collection-query-options';
 export * from './collections/get-all-collection-options-query-options';
 export * from './films/get-films-stats-query-options';
 export * from './films/get-film-by-collection-name-and-order-query-options';
+export * from './hobbies/get-hobbies-list-query-options';

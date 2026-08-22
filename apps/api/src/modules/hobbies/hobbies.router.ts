@@ -1,11 +1,16 @@
 import { contracts } from '@films-collection/api-client';
+import { PAGE_LIMITS } from '@films-collection/shared';
 import { createRouter, validateAuth } from '~/shared/index.js';
 
 export const hobbiesRouter = createRouter(contracts.hobbies, {
   getHobbiesList: {
     handler: async () => {
       return {
-        data: [],
+        data: {
+          list: [] as any,
+          total: 0,
+          pageLimit: PAGE_LIMITS.hobbyItems,
+        },
       };
     },
   },
