@@ -81,6 +81,7 @@ export const GetFilmsListQuerySchema = z.object({
   pageIndex: z.coerce.number().min(0).optional(),
   startDate: z.string().optional(),
   endDate: z.string().optional(),
+  year: z.coerce.number().optional(),
   collectionId: z.coerce.number().optional(),
   duration: z.coerce.number().optional(),
   rating: z.coerce.number().optional(),

@@ -13,10 +13,10 @@ const rolesNextSelect: Record<Enum<typeof PersonRole>, Enum<typeof PersonRole>> 
   CREATOR: 'ACTOR',
   DIRECTOR: 'WRITER',
   WRITER: 'PRODUCER',
-  PRODUCER: 'ACTOR',
-  ACTOR: 'COMPOSER',
+  PRODUCER: 'COMPOSER',
   COMPOSER: 'CAMERAMAN',
-  CAMERAMAN: 'DIRECTOR',
+  CAMERAMAN: 'ACTOR',
+  ACTOR: 'DIRECTOR',
 };
 
 export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) => {
@@ -33,7 +33,12 @@ export const CastAndCrewSelect = ({ positionOptions }: CastAndCrewSelectProps) =
     append(
       {
         role: nextRole,
-        people: [],
+        people: [
+          {
+            personId: -1,
+            details: null,
+          },
+        ],
       },
       { shouldFocus: false },
     );
