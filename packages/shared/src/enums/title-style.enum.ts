@@ -1,4 +1,4 @@
-import type { Enum } from '~/types/enum.type.js';
+import type { Enum } from '../types/enum.type.js';
 
 export const TitleStyle = {
   LIVE_ACTION: 'LIVE_ACTION',

@@ -1,13 +1,13 @@
 import { z } from 'zod';
-import { DraftLevel, PersonRole, TitleStyle, TitleType } from '~/enums/index.js';
-import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers/index.js';
-import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema.js';
-import { CollectionCurrentEventsListResponseSchema } from '~/schemas/collection-events.schema.js';
-import { CollectionResponseSchema } from '~/schemas/collections.schema.js';
-import { CountryResponseSchema } from '~/schemas/countries.schema.js';
-import { GenreResponseSchema } from '~/schemas/genres.schema.js';
-import { PersonResponseSchema } from '~/schemas/people.schema.js';
-import { StudioResponseSchema } from '~/schemas/studios.schema.js';
+import { DraftLevel, PersonRole, TitleStyle, TitleType } from '../enums/index.js';
+import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '../helpers/index.js';
+import { AwardResponseSchema, NominationResponseSchema } from './awards.schema.js';
+import { CollectionCurrentEventsListResponseSchema } from './collection-events.schema.js';
+import { CollectionResponseSchema } from './collections.schema.js';
+import { CountryResponseSchema } from './countries.schema.js';
+import { GenreResponseSchema } from './genres.schema.js';
+import { PersonResponseSchema } from './people.schema.js';
+import { StudioResponseSchema } from './studios.schema.js';
 
 const DateStringSchema = z
   .string()

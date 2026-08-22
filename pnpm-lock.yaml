@@ -246,9 +246,6 @@ importers:
       '@types/node':
         specifier: ^25.5.0
         version: 25.5.0
-      tsc-alias:
-        specifier: ^1.8.16
-        version: 1.8.16
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -283,9 +280,6 @@ importers:
       '@types/node':
         specifier: ^25.0.1
         version: 25.3.0
-      tsc-alias:
-        specifier: ^1.8.16
-        version: 1.8.16
       typescript:
         specifier: 5.9.3
         version: 5.9.3

@@ -1,8 +1,8 @@
 import { getTypedEntries } from '@films-collection/shared';
 import type { z } from 'zod';
-import { contracts } from '~/contracts/index.js';
-import { createFetchWrapper, type FetchWrapperOptions } from '~/helpers/index.js';
-import type { ApiContract, ContractSchema } from '~/types/index.js';
+import { contracts } from './contracts/index.js';
+import { createFetchWrapper, type FetchWrapperOptions } from './helpers/index.js';
+import type { ApiContract, ContractSchema } from './types/index.js';
 
 type Contracts = typeof contracts;
 

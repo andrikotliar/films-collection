@@ -1,4 +1,4 @@
-import type { Enum } from '~/types/enum.type.js';
+import type { Enum } from '../types/enum.type.js';
 
 export const DraftLevel = {
   PUBLISHED: 'PUBLISHED',

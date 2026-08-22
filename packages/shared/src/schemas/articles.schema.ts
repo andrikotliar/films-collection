@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { getListResponseSchema } from '~/helpers/index.js';
+import { getListResponseSchema } from '../helpers/index.js';
 
 export const GetArticleBySlugSchema = z.object({
   slug: z.string(),
