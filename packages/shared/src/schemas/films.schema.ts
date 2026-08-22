@@ -37,8 +37,8 @@ export const CreateFilmInputSchema = z.object({
   ),
   duration: z.coerce.number(),
   releaseDate: DateStringSchema.nullable(),
-  budget: z.coerce.number(),
-  boxOffice: z.coerce.number(),
+  budget: z.coerce.number().max(900_000),
+  boxOffice: z.coerce.number().max(4_000_000_000),
   synopsis: z.string().nullable(),
   castAndCrew: z.array(
     z.object({
