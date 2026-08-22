@@ -6,7 +6,7 @@ import {
   type ListOption,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { api, queryKey, type FilterItem } from '~/shared';
+import { api, generateYearsSelectOptions, queryKey, type FilterItem } from '~/shared';
 
 const ALL_OPTION: ListOption<string> = {
   value: 'all',
@@ -82,6 +82,12 @@ export const getFiltersConfig = (
       id: 'rating',
       type: 'rating',
       size: 3,
+    },
+    {
+      title: 'Year',
+      id: 'year',
+      type: 'select',
+      options: generateYearsSelectOptions(),
     },
     {
       id: 'startDate',

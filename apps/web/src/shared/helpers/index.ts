@@ -30,3 +30,4 @@ export * from './get-external-image-url';
 export * from './title-to-file-name';
 export * from './convert-image-to-webp';
 export * from './get-last-activity';
+export * from './generate-years-select-options';
