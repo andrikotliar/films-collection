@@ -1,0 +1,121 @@
+{
+  "id": 407,
+  "title": "Ghost in the Shell",
+  "releaseDate": "1996-03-29",
+  "type": "FILM",
+  "duration": 83,
+  "budget": 3000000,
+  "boxOffice": 1000000,
+  "synopsis": null,
+  "poster": "posters/ghost_in_the_shell",
+  "genres": [
+    {
+      "title": "Cyberpunk",
+      "id": 19
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "Kondansha",
+      "id": 102
+    },
+    {
+      "title": "Bandai Visual Company",
+      "id": 103
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=rU6Matng9MU&pp=ygUeZ2hvc3QgaW50aGUgc2hlbGwgMTk5NSB0cmFpbGVy",
+      "order": 1,
+      "id": 405
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2946,
+      "name": "Mamoru Oshii",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2947,
+      "name": "Kazunori Itô",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2951,
+      "name": "Laurence Guinness",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2952,
+      "name": "Mitsuhisa Ishikawa",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2953,
+      "name": "Ken Iyadomi",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2954,
+      "name": "Ken Matsumoto",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2955,
+      "name": "Yoshimasa Mizuo",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2948,
+      "name": "Atsuko Tanaka",
+      "role": "ACTOR",
+      "details": "Motoko Kusanagi"
+    },
+    {
+      "id": 2949,
+      "name": "Akio Otsuka",
+      "role": "ACTOR",
+      "details": "Batou"
+    },
+    {
+      "id": 2950,
+      "name": "Iemasa Kayumi",
+      "role": "ACTOR",
+      "details": "Puppetmaster"
+    },
+    {
+      "id": 2956,
+      "name": "Kenji Kawai",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2957,
+      "name": "Hisao Shirai",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

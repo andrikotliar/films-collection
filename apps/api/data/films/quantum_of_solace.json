@@ -1,0 +1,137 @@
+{
+  "id": 409,
+  "title": "Quantum of Solace",
+  "releaseDate": "2008-11-14",
+  "type": "FILM",
+  "duration": 106,
+  "budget": 200000000,
+  "boxOffice": 589000000,
+  "synopsis": null,
+  "poster": "posters/quantum_of_solace",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Italy",
+      "id": 28
+    }
+  ],
+  "studios": [
+    {
+      "title": " Metro-Goldwyn-Mayer",
+      "id": 104
+    },
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=BBqYaFEWBxI&pp=ygURUXVhbnR1bSBvZiBTb2xhY2U%3D",
+      "order": 1,
+      "id": 407
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2366,
+      "name": "Marc Forster",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2958,
+      "name": "Paul Haggis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1408,
+      "name": "Neal Purvis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1409,
+      "name": "Robert Wade",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1411,
+      "name": "Barbara Broccoli",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1412,
+      "name": "Michael G. Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 245,
+      "name": "Daniel Craig",
+      "role": "ACTOR",
+      "details": "James Bond"
+    },
+    {
+      "id": 884,
+      "name": "Olga Kurylenko",
+      "role": "ACTOR",
+      "details": " Camille"
+    },
+    {
+      "id": 2959,
+      "name": "Mathieu Amalric",
+      "role": "ACTOR",
+      "details": " Dominic Greene"
+    },
+    {
+      "id": 624,
+      "name": "Judi Dench",
+      "role": "ACTOR",
+      "details": "M"
+    },
+    {
+      "id": 406,
+      "name": "Giancarlo Giannini",
+      "role": "ACTOR",
+      "details": " Rene Mathis"
+    },
+    {
+      "id": 1271,
+      "name": "David Arnold",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2960,
+      "name": "Roberto Schaefer",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 103,
+      "title": "007",
+      "order": 2
+    }
+  ]
+}

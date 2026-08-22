@@ -1,0 +1,103 @@
+{
+  "id": 408,
+  "title": "Furiosa: A Mad Max Saga",
+  "releaseDate": "2024-05-24",
+  "type": "FILM",
+  "duration": 148,
+  "budget": 168000000,
+  "boxOffice": 174000000,
+  "synopsis": null,
+  "poster": "posters/furiosa_a_mad_max_saga",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    },
+    {
+      "title": "Sci-Fi",
+      "id": 1
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Australia",
+      "id": 12
+    }
+  ],
+  "studios": [
+    {
+      "title": "Warner Bros. Pictures",
+      "id": 8
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=XJMuhwVlca4&pp=ygUXZnVyaW9zYTogYSBtYWQgbWF4IHNhZ2HSBwkJEwwBhyohjO8%3D",
+      "order": 1,
+      "id": 406
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2823,
+      "name": "Nick Lathouris",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1553,
+      "name": "George Miller",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1558,
+      "name": "Doug Mitchell",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 79,
+      "name": "Anya Taylor-Joy",
+      "role": "ACTOR",
+      "details": "Furiosa"
+    },
+    {
+      "id": 195,
+      "name": "Chris Hemsworth",
+      "role": "ACTOR",
+      "details": "Dementus"
+    },
+    {
+      "id": 1295,
+      "name": "Tom Holkenborg",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1679,
+      "name": "Simon Duggan",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}
