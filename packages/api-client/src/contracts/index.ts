@@ -1,4 +1,4 @@
-import { createContractsGroup } from '~/helpers/define-contracts.js';
+import { createContractsGroup } from '../helpers/define-contracts.js';
 import { authContract } from './auth.contract.js';
 import { awardsContract } from './awards.contract.js';
 import { collectionEventsContract } from './collection-events.contract.js';

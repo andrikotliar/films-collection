@@ -11,7 +11,7 @@ import {
   NullableIdParamSchema,
 } from '@films-collection/shared';
 import { z } from 'zod';
-import { createContract } from '~/helpers/index.js';
+import { createContract } from '../helpers/index.js';
 
 export const awardsContract = {
   getList: createContract({

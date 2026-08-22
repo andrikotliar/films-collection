@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { CollectionCategory } from '~/enums/collection-category.enum.js';
-import { getListResponseSchema } from '~/helpers/index.js';
-import { CommonListQuerySchema } from '~/schemas/common.schema.js';
+import { CollectionCategory } from '../enums/collection-category.enum.js';
+import { getListResponseSchema } from '../helpers/index.js';
+import { CommonListQuerySchema } from './common.schema.js';
 
 export const CreateCollectionInputSchema = z.object({
   title: z.string(),
