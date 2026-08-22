@@ -1,0 +1,111 @@
+{
+  "id": 406,
+  "title": "Founder",
+  "releaseDate": "2017-01-20",
+  "type": "FILM",
+  "duration": 115,
+  "budget": 25000000,
+  "boxOffice": 24000000,
+  "synopsis": "The story of how Ray Kroc, after facing problems with the sale of kitchen appliances, stumbles upon a popular local restaurant run by the McDonald brothers and offers them to expand their business. After they agree, Ray gradually starts taking control of the new business for himself.",
+  "poster": "posters/founder",
+  "genres": [
+    {
+      "title": "Biography",
+      "id": 13
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": " The Weinstein Company",
+      "id": 101
+    },
+    {
+      "title": "FilmNation Entertainment",
+      "id": 78
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=AX2uz2XYkbo&pp=ygUPZm91bmRlciB0cmFpbGVy",
+      "order": 1,
+      "id": 404
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2938,
+      "name": "John Lee Hancock",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2939,
+      "name": "Robert Siegel",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 552,
+      "name": "Jeremy Renner",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2940,
+      "name": "Aaron Ryder",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2941,
+      "name": "Don Handfield",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 825,
+      "name": "Michael Keaton",
+      "role": "ACTOR",
+      "details": " Ray Kroc"
+    },
+    {
+      "id": 2942,
+      "name": " Nick Offerman",
+      "role": "ACTOR",
+      "details": " Dick McDonald"
+    },
+    {
+      "id": 2943,
+      "name": " John Carroll Lynch",
+      "role": "ACTOR",
+      "details": "Mac McDonald"
+    },
+    {
+      "id": 2944,
+      "name": " Linda Cardellini",
+      "role": "ACTOR",
+      "details": "Joan Smith"
+    },
+    {
+      "id": 2945,
+      "name": "Carter Burwell",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1747,
+      "name": "John Schwartzman",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": []
+}

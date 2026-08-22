@@ -16,8 +16,20 @@
     "id": 2420
   },
   {
+    "name": " John Carroll Lynch",
+    "id": 2943
+  },
+  {
     "name": " Kasper Barfoed",
     "id": 2662
+  },
+  {
+    "name": " Linda Cardellini",
+    "id": 2944
+  },
+  {
+    "name": " Marco Barricelli",
+    "id": 2978
   },
   {
     "name": " Mindy Kaling",
@@ -30,6 +42,10 @@
   {
     "name": " Nathalie Baye",
     "id": 2896
+  },
+  {
+    "name": " Nick Offerman",
+    "id": 2942
   },
   {
     "name": " Sean Pertwee",
@@ -54,6 +70,10 @@
   {
     "name": "Aaron Moorhead",
     "id": 1802
+  },
+  {
+    "name": "Aaron Ryder",
+    "id": 2940
   },
   {
     "name": "Aaron Sorkin",
@@ -202,6 +222,10 @@
   {
     "name": "Akhenaton",
     "id": 2039
+  },
+  {
+    "name": "Akio Otsuka",
+    "id": 2949
   },
   {
     "name": "Akiva Goldsman",
@@ -608,6 +632,10 @@
     "id": 55
   },
   {
+    "name": "Andrea Warren",
+    "id": 2972
+  },
+  {
     "name": "Andreas Pietschmann",
     "id": 56
   },
@@ -944,6 +972,10 @@
     "id": 2478
   },
   {
+    "name": "Atsuko Tanaka",
+    "id": 2948
+  },
+  {
     "name": "Atticus Ross",
     "id": 2733
   },
@@ -1114,6 +1146,10 @@
   {
     "name": "Ben Stiller",
     "id": 113
+  },
+  {
+    "name": "Ben Whishaw",
+    "id": 2964
   },
   {
     "name": "Benedict Cumberbatch",
@@ -1714,6 +1750,14 @@
   {
     "name": "Carrie-Anne Moss",
     "id": 173
+  },
+  {
+    "name": "Carter Burwell",
+    "id": 2945
+  },
+  {
+    "name": "Cary Joji Fukunaga",
+    "id": 2966
   },
   {
     "name": "Cassian Bilton",
@@ -2354,6 +2398,10 @@
   {
     "name": "Dan O'Bannon",
     "id": 1282
+  },
+  {
+    "name": "Dan Romer",
+    "id": 2973
   },
   {
     "name": "Dan Stevens",
@@ -3008,6 +3056,10 @@
     "id": 1906
   },
   {
+    "name": "Don Handfield",
+    "id": 2941
+  },
+  {
     "name": "Don Lake",
     "id": 306
   },
@@ -3392,6 +3444,10 @@
     "id": 343
   },
   {
+    "name": "Emma Berman",
+    "id": 2976
+  },
+  {
     "name": "Emma D'Arcy",
     "id": 2563
   },
@@ -3430,6 +3486,10 @@
   {
     "name": "Emmy Rossum",
     "id": 349
+  },
+  {
+    "name": "Enrico Casarosa",
+    "id": 2969
   },
   {
     "name": "Enrique Arce",
@@ -4368,6 +4428,10 @@
     "id": 449
   },
   {
+    "name": "Hisao Shirai",
+    "id": 2957
+  },
+  {
     "name": "Holly Dale",
     "id": 1613
   },
@@ -4486,6 +4550,10 @@
   {
     "name": "Idris Elba",
     "id": 463
+  },
+  {
+    "name": "Iemasa Kayumi",
+    "id": 2950
   },
   {
     "name": "Ignacio Serricchino",
@@ -4674,6 +4742,10 @@
   {
     "name": "Jacob Romero",
     "id": 2792
+  },
+  {
+    "name": "Jacob Tremblay",
+    "id": 2975
   },
   {
     "name": "Jacob Warner",
@@ -5224,6 +5296,10 @@
     "id": 1627
   },
   {
+    "name": "Jeremy Allen White",
+    "id": 2936
+  },
+  {
     "name": "Jeremy Bulloch",
     "id": 1249
   },
@@ -5290,6 +5366,10 @@
   {
     "name": "Jesse Alexander",
     "id": 1631
+  },
+  {
+    "name": "Jesse Andrews",
+    "id": 2970
   },
   {
     "name": "Jesse Eisenberg",
@@ -5374,6 +5454,10 @@
   {
     "name": "Jim Chory",
     "id": 1616
+  },
+  {
+    "name": "Jim Gaffigan",
+    "id": 2979
   },
   {
     "name": "Jim Hecht",
@@ -5704,6 +5788,10 @@
     "id": 2741
   },
   {
+    "name": "John Lee Hancock",
+    "id": 2938
+  },
+  {
     "name": "John Leguizamo",
     "id": 586
   },
@@ -5962,6 +6050,10 @@
   {
     "name": "Jonathan Schwartz",
     "id": 1927
+  },
+  {
+    "name": "Jonny Coyne",
+    "id": 2937
   },
   {
     "name": "Joonas Suotamo",
@@ -6372,6 +6464,10 @@
     "id": 1459
   },
   {
+    "name": "Kazunori Itô",
+    "id": 2947
+  },
+  {
     "name": "Ke Huy Quan",
     "id": 656
   },
@@ -6404,12 +6500,24 @@
     "id": 663
   },
   {
+    "name": "Ken Iyadomi",
+    "id": 2953
+  },
+  {
+    "name": "Ken Matsumoto",
+    "id": 2954
+  },
+  {
     "name": "Ken Stott",
     "id": 664
   },
   {
     "name": "Ken Watanabe",
     "id": 665
+  },
+  {
+    "name": "Kenji Kawai",
+    "id": 2956
   },
   {
     "name": "Kenneth Branagh",
@@ -6534,6 +6642,10 @@
   {
     "name": "Kim Shumway",
     "id": 2093
+  },
+  {
+    "name": "Kim White",
+    "id": 2974
   },
   {
     "name": "Kimi Lee",
@@ -6768,6 +6880,10 @@
     "id": 707
   },
   {
+    "name": "Laurence Guinness",
+    "id": 2951
+  },
+  {
     "name": "Laurence Mark",
     "id": 1675
   },
@@ -6926,6 +7042,10 @@
   {
     "name": "Lindsey Weber",
     "id": 1992
+  },
+  {
+    "name": "Linus Sandgren",
+    "id": 2967
   },
   {
     "name": "Lionel Wigram",
@@ -7128,6 +7248,10 @@
     "id": 757
   },
   {
+    "name": "Léa Seydoux",
+    "id": 2963
+  },
+  {
     "name": "M83",
     "id": 1872
   },
@@ -7210,6 +7334,10 @@
   {
     "name": "Malcolm Spellman",
     "id": 2152
+  },
+  {
+    "name": "Mamoru Oshii",
+    "id": 2946
   },
   {
     "name": "Mamoudou Athie",
@@ -7542,6 +7670,10 @@
   {
     "name": "Mathew Wilkinson",
     "id": 802
+  },
+  {
+    "name": "Mathieu Amalric",
+    "id": 2959
   },
   {
     "name": "Mathieu Vadepied",
@@ -8104,6 +8236,10 @@
     "id": 1835
   },
   {
+    "name": "Mike Jones",
+    "id": 2971
+  },
+  {
     "name": "Mike Mitchell",
     "id": 2835
   },
@@ -8212,6 +8348,10 @@
     "id": 2652
   },
   {
+    "name": "Mitsuhisa Ishikawa",
+    "id": 2952
+  },
+  {
     "name": "Mollie Bickley St. John",
     "id": 1331
   },
@@ -8274,6 +8414,10 @@
   {
     "name": "Nami Melumad",
     "id": 2763
+  },
+  {
+    "name": "Naomie Harris",
+    "id": 2962
   },
   {
     "name": "Naseeruddin Shah",
@@ -8768,6 +8912,10 @@
     "id": 1410
   },
   {
+    "name": "Paul Haggis",
+    "id": 2958
+  },
+  {
     "name": "Paul Harris Boardman",
     "id": 2149
   },
@@ -9156,6 +9304,10 @@
     "id": 2000
   },
   {
+    "name": "Rami Malek",
+    "id": 2968
+  },
+  {
     "name": "Ramin Djawadi",
     "id": 1461
   },
@@ -9504,6 +9656,10 @@
     "id": 992
   },
   {
+    "name": "Robert Siegel",
+    "id": 2939
+  },
+  {
     "name": "Robert Towne",
     "id": 1838
   },
@@ -9522,6 +9678,10 @@
   {
     "name": "Roberto Orci",
     "id": 1852
+  },
+  {
+    "name": "Roberto Schaefer",
+    "id": 2960
   },
   {
     "name": "Roberts Blossom",
@@ -9808,6 +9968,10 @@
     "id": 1527
   },
   {
+    "name": "Sam Mendes",
+    "id": 2961
+  },
+  {
     "name": "Sam Neill",
     "id": 1031
   },
@@ -9906,6 +10070,10 @@
   {
     "name": "Satya Bhabha ",
     "id": 2855
+  },
+  {
+    "name": "Saverio Raimondo",
+    "id": 2977
   },
   {
     "name": "Scarlett Johansson",
@@ -11326,6 +11494,10 @@
   {
     "name": "Yoni Brenner",
     "id": 1690
+  },
+  {
+    "name": "Yoshimasa Mizuo",
+    "id": 2955
   },
   {
     "name": "Yvett Merino",

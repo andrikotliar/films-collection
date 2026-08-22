@@ -1,0 +1,180 @@
+{
+  "id": 412,
+  "title": "No Time to Die",
+  "releaseDate": "2021-10-08",
+  "type": "FILM",
+  "duration": 163,
+  "budget": 250000000,
+  "boxOffice": 774000000,
+  "synopsis": null,
+  "poster": "posters/no_time_to_die",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    }
+  ],
+  "studios": [
+    {
+      "title": " Metro-Goldwyn-Mayer",
+      "id": 104
+    },
+    {
+      "title": "Universal Pictures",
+      "id": 13
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=BIhNsAtPbPI&pp=ygUWbm8gdGltZSB0byBkaWUgdHJhaWxlcg%3D%3D",
+      "order": 1,
+      "id": 410
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures (Original Song)",
+          "id": 283
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best Song",
+          "id": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAFTA Award",
+      "nominations": [
+        {
+          "title": "Best Editing",
+          "id": 111
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Original Song - Motion Picture",
+          "id": 121
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2966,
+      "name": "Cary Joji Fukunaga",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1408,
+      "name": "Neal Purvis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1409,
+      "name": "Robert Wade",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2966,
+      "name": "Cary Joji Fukunaga",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 930,
+      "name": "Phoebe Waller-Bridge",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1411,
+      "name": "Barbara Broccoli",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1412,
+      "name": "Michael G. Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1383,
+      "name": "Hans Zimmer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2967,
+      "name": "Linus Sandgren",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 245,
+      "name": "Daniel Craig",
+      "role": "ACTOR",
+      "details": " James Bond"
+    },
+    {
+      "id": 2963,
+      "name": "Léa Seydoux",
+      "role": "ACTOR",
+      "details": " Madeleine"
+    },
+    {
+      "id": 2968,
+      "name": "Rami Malek",
+      "role": "ACTOR",
+      "details": " Lyutsifer Safin"
+    },
+    {
+      "id": 700,
+      "name": "Lashana Lynch",
+      "role": "ACTOR",
+      "details": "Nomi"
+    },
+    {
+      "id": 942,
+      "name": "Ralph Fiennes",
+      "role": "ACTOR",
+      "details": "M"
+    },
+    {
+      "id": 2964,
+      "name": "Ben Whishaw",
+      "role": "ACTOR",
+      "details": "Q"
+    }
+  ],
+  "collections": []
+}
