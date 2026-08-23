@@ -1,5 +1,5 @@
 {
-  "id": "a7cbab06-ad13-45df-a06c-3a20312f3ccc",
+  "id": "05073534-26e1-41e7-919a-6b885b5ae231",
   "prevId": "ab676ffb-714d-4c6a-a869-30d2136f6a55",
   "version": "7",
   "dialect": "postgresql",
@@ -1293,10 +1293,9 @@
       "columns": {
         "id": {
           "name": "id",
-          "type": "uuid",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "gen_random_uuid()"
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
         },
         "title": {
           "name": "title",
@@ -1319,10 +1318,9 @@
       "columns": {
         "id": {
           "name": "id",
-          "type": "uuid",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "gen_random_uuid()"
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
         },
         "title": {
           "name": "title",
@@ -1345,7 +1343,13 @@
         },
         "hobby_id": {
           "name": "hobby_id",
-          "type": "uuid",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "release_year": {
+          "name": "release_year",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         }
@@ -1378,14 +1382,13 @@
       "columns": {
         "id": {
           "name": "id",
-          "type": "uuid",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "gen_random_uuid()"
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
         },
-        "hobby_id": {
-          "name": "hobby_id",
-          "type": "uuid",
+        "hobby_item_id": {
+          "name": "hobby_item_id",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
@@ -1397,15 +1400,15 @@
         }
       },
       "indexes": {
-        "hobby_items_collections_hobby_id_collection_id_key": {
-          "name": "hobby_items_collections_hobby_id_collection_id_key",
+        "hobby_items_collections_hobby_item_id_collection_id_key": {
+          "name": "hobby_items_collections_hobby_item_id_collection_id_key",
           "columns": [
             {
-              "expression": "hobby_id",
+              "expression": "hobby_item_id",
               "isExpression": false,
               "asc": true,
               "nulls": "last",
-              "opclass": "uuid_ops"
+              "opclass": "int4_ops"
             },
             {
               "expression": "collection_id",
@@ -1422,12 +1425,12 @@
         }
       },
       "foreignKeys": {
-        "hobby_items_collections_hobby_id_fkey": {
-          "name": "hobby_items_collections_hobby_id_fkey",
+        "hobby_items_collections_hobby_item_id_fkey": {
+          "name": "hobby_items_collections_hobby_item_id_fkey",
           "tableFrom": "hobby_items_collections",
-          "tableTo": "hobbies",
+          "tableTo": "hobby_items",
           "columnsFrom": [
-            "hobby_id"
+            "hobby_item_id"
           ],
           "columnsTo": [
             "id"
@@ -1441,6 +1444,88 @@
           "tableTo": "collections",
           "columnsFrom": [
             "collection_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.hobby_items_people": {
+      "name": "hobby_items_people",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "hobby_item_id": {
+          "name": "hobby_item_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "person_id": {
+          "name": "person_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "hobby_items_people_hobby_item_id_collection_id_key": {
+          "name": "hobby_items_people_hobby_item_id_collection_id_key",
+          "columns": [
+            {
+              "expression": "hobby_item_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last",
+              "opclass": "int4_ops"
+            },
+            {
+              "expression": "person_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last",
+              "opclass": "int4_ops"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "hobby_items_people_hobby_item_id_fkey": {
+          "name": "hobby_items_people_hobby_item_id_fkey",
+          "tableFrom": "hobby_items_people",
+          "tableTo": "hobby_items",
+          "columnsFrom": [
+            "hobby_item_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "hobby_items_people_collection_id_fkey": {
+          "name": "hobby_items_people_collection_id_fkey",
+          "tableFrom": "hobby_items_people",
+          "tableTo": "people",
+          "columnsFrom": [
+            "person_id"
           ],
           "columnsTo": [
             "id"

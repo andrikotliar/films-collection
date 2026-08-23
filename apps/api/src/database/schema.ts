@@ -22,7 +22,6 @@ import {
   numeric,
   jsonb,
   varchar,
-  uuid,
 } from 'drizzle-orm/pg-core';
 
 export const collectionCategory = pgEnum('collection_category', CollectionCategory);
@@ -578,18 +577,18 @@ export const usersSessions = pgTable(
 );
 
 export const hobbies = pgTable('hobbies', {
-  id: uuid().defaultRandom().notNull(),
+  id: serial().primaryKey().notNull(),
   title: text().notNull(),
 });
 
 export const hobbyItems = pgTable(
   'hobby_items',
   {
-    id: uuid().defaultRandom().notNull(),
+    id: serial().primaryKey().notNull(),
     title: text().notNull(),
     type: hobbyItemType().notNull().default(HobbyItemType.BOOK),
     description: text().notNull(),
-    hobbyId: uuid('hobby_id').notNull(),
+    hobbyId: integer('hobby_id').notNull(),
     releaseYear: integer('release_year').notNull(),
   },
   (table) => [
@@ -606,14 +605,14 @@ export const hobbyItems = pgTable(
 export const hobbyItemsCollections = pgTable(
   'hobby_items_collections',
   {
-    id: uuid().defaultRandom().notNull(),
-    hobbyItemId: uuid('hobby_item_id').notNull(),
+    id: serial().primaryKey().notNull(),
+    hobbyItemId: integer('hobby_item_id').notNull(),
     collectionId: integer('collection_id').notNull(),
   },
   (table) => [
     uniqueIndex('hobby_items_collections_hobby_item_id_collection_id_key').using(
       'btree',
-      table.hobbyItemId.asc().nullsLast().op('uuid_ops'),
+      table.hobbyItemId.asc().nullsLast().op('int4_ops'),
       table.collectionId.asc().nullsLast().op('int4_ops'),
     ),
     foreignKey({
@@ -632,14 +631,14 @@ export const hobbyItemsCollections = pgTable(
 export const hobbyItemsPeople = pgTable(
   'hobby_items_people',
   {
-    id: uuid().defaultRandom().notNull(),
-    hobbyItemId: uuid('hobby_item_id').notNull(),
+    id: serial().primaryKey().notNull(),
+    hobbyItemId: integer('hobby_item_id').notNull(),
     personId: integer('person_id').notNull(),
   },
   (table) => [
     uniqueIndex('hobby_items_people_hobby_item_id_collection_id_key').using(
       'btree',
-      table.hobbyItemId.asc().nullsLast().op('uuid_ops'),
+      table.hobbyItemId.asc().nullsLast().op('int4_ops'),
       table.personId.asc().nullsLast().op('int4_ops'),
     ),
     foreignKey({
