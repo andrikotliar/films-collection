@@ -1,16 +1,12 @@
 import { contracts } from '@films-collection/api-client';
-import { PAGE_LIMITS } from '@films-collection/shared';
 import { createRouter, validateAuth } from '~/shared/index.js';
 
 export const hobbiesRouter = createRouter(contracts.hobbies, {
   getHobbiesList: {
-    handler: async () => {
+    handler: async ({ app }) => {
+      const data = await app.container.resolve('hobbiesService').getHobbiesList();
       return {
-        data: {
-          list: [] as any,
-          total: 0,
-          pageLimit: PAGE_LIMITS.hobbyItems,
-        },
+        data,
       };
     },
   },
@@ -33,15 +29,20 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
   },
   updateHobby: {
     preHandler: [validateAuth],
-    handler: async () => {
+    handler: async ({ app, request }) => {
+      const data = await app.container
+        .resolve('hobbiesService')
+        .update(request.params.id, request.body);
+
       return {
-        data: {} as any,
+        data,
       };
     },
   },
   deleteHobby: {
     preHandler: [validateAuth],
-    handler: async ({ request }) => {
+    handler: async ({ request, app }) => {
+      await app.container.resolve('hobbiesService').delete(request.params.id);
       return {
         data: { id: request.params.id },
       };

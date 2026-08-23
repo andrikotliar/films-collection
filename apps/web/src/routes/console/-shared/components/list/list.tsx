@@ -32,6 +32,7 @@ type ListProps<T extends DefaultListItem> = {
   onPageChange?: (pageIndex: number) => void;
   onSearch?: (value: string) => void;
   onNavigateToForm?: keyof FileRoutesByTo;
+  navigationParameter?: string;
   sorting?: SortingProps;
 } & Omit<ItemRowProps<T>, 'data' | 'onDelete'>;
 

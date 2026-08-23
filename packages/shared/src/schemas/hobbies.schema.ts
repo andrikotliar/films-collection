@@ -2,18 +2,18 @@ import { z } from 'zod';
 import { getListResponseSchema } from '../helpers/index.js';
 
 export const HobbyMutationSchema = z.object({
-  title: z.string(),
+  title: z.string().min(3).trim(),
 });
 
 export const HobbyResponseSchema = z.object({
-  id: z.uuid(),
+  id: z.number(),
   title: z.string(),
 });
 
-export const HobbiesListResponseSchema = getListResponseSchema(HobbyResponseSchema);
+export const HobbiesListResponseSchema = getListResponseSchema(z.array(HobbyResponseSchema));
 
 export const HobbyItemResponseSchema = z.object({
-  id: z.uuid(),
+  id: z.number(),
   title: z.string(),
   description: z.string(),
 });

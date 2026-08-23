@@ -9,7 +9,11 @@ export class HobbiesRepository {
     return this.deps.db.select({ id: hobbies.id, title: hobbies.title }).from(hobbies);
   }
 
-  get(id: string) {
+  countHobbies() {
+    return this.deps.db.$count(hobbies);
+  }
+
+  get(id: number) {
     return this.deps.db.query.hobbies.findFirst({
       where: eq(hobbies.id, id),
       columns: {
@@ -34,7 +38,7 @@ export class HobbiesRepository {
       .returning({ id: hobbies.id, title: hobbies.title });
   }
 
-  update(id: string, input: Hobby) {
+  update(id: number, input: Partial<Hobby>) {
     return this.deps.db
       .update(hobbies)
       .set(input)
@@ -42,7 +46,7 @@ export class HobbiesRepository {
       .returning({ id: hobbies.id, title: hobbies.title });
   }
 
-  async delete(id: string) {
+  async delete(id: number) {
     await this.deps.db.delete(hobbies).where(eq(hobbies.id, id));
   }
 }

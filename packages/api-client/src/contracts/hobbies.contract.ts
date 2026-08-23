@@ -37,6 +37,7 @@ export const hobbiesContract = {
     url: ':id',
     method: 'PATCH',
     schema: {
+      params: IdParamSchema,
       body: HobbyMutationSchema,
       response: HobbyResponseSchema,
     },
