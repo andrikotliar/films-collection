@@ -590,6 +590,7 @@ export const hobbyItems = pgTable(
     type: hobbyItemType().notNull().default(HobbyItemType.BOOK),
     description: text().notNull(),
     hobbyId: uuid('hobby_id').notNull(),
+    releaseYear: integer('release_year').notNull(),
   },
   (table) => [
     foreignKey({
@@ -606,24 +607,50 @@ export const hobbyItemsCollections = pgTable(
   'hobby_items_collections',
   {
     id: uuid().defaultRandom().notNull(),
-    hobbyId: uuid('hobby_id').notNull(),
+    hobbyItemId: uuid('hobby_item_id').notNull(),
     collectionId: integer('collection_id').notNull(),
   },
   (table) => [
-    uniqueIndex('hobby_items_collections_hobby_id_collection_id_key').using(
+    uniqueIndex('hobby_items_collections_hobby_item_id_collection_id_key').using(
       'btree',
-      table.hobbyId.asc().nullsLast().op('uuid_ops'),
+      table.hobbyItemId.asc().nullsLast().op('uuid_ops'),
       table.collectionId.asc().nullsLast().op('int4_ops'),
     ),
     foreignKey({
-      name: 'hobby_items_collections_hobby_id_fkey',
-      columns: [table.hobbyId],
-      foreignColumns: [hobbies.id],
+      name: 'hobby_items_collections_hobby_item_id_fkey',
+      columns: [table.hobbyItemId],
+      foreignColumns: [hobbyItems.id],
     }),
     foreignKey({
       name: 'hobby_items_collections_collection_id_fkey',
       columns: [table.collectionId],
       foreignColumns: [collections.id],
+    }),
+  ],
+);
+
+export const hobbyItemsPeople = pgTable(
+  'hobby_items_people',
+  {
+    id: uuid().defaultRandom().notNull(),
+    hobbyItemId: uuid('hobby_item_id').notNull(),
+    personId: integer('person_id').notNull(),
+  },
+  (table) => [
+    uniqueIndex('hobby_items_people_hobby_item_id_collection_id_key').using(
+      'btree',
+      table.hobbyItemId.asc().nullsLast().op('uuid_ops'),
+      table.personId.asc().nullsLast().op('int4_ops'),
+    ),
+    foreignKey({
+      name: 'hobby_items_people_hobby_item_id_fkey',
+      columns: [table.hobbyItemId],
+      foreignColumns: [hobbyItems.id],
+    }),
+    foreignKey({
+      name: 'hobby_items_people_collection_id_fkey',
+      columns: [table.personId],
+      foreignColumns: [people.id],
     }),
   ],
 );

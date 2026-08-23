@@ -3,7 +3,6 @@
   "compilerOptions": {
     "paths": {
       "~/*": ["./src/*"],
-      "@films-collection/shared": ["../../packages/shared/src/index.ts"],
       "@films-collection/api-client": ["../../packages/api-client/src/index.ts"]
     }
   },

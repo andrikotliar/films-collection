@@ -204,6 +204,13 @@
       "when": 1786896676082,
       "tag": "0030_add-hobbies-tables",
       "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1787493931768,
+      "tag": "0031_extend-hobby-items",
+      "breakpoints": true
     }
   ]
 }

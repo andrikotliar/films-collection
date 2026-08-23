@@ -176,3 +176,7 @@ export const usersRelations = relations(users, ({ many }) => ({
 export const hobbiesRelations = relations(hobbies, ({ many }) => ({
   items: many(hobbyItems),
 }));
+
+export const hobbyItemsRelations = relations(hobbyItems, ({ many }) => ({
+  authors: many(people),
+}));
