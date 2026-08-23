@@ -1,5 +1,13 @@
 [
   {
+    "title": " Metro-Goldwyn-Mayer",
+    "id": 104
+  },
+  {
+    "title": " The Weinstein Company",
+    "id": 101
+  },
+  {
     "title": "20th Century FOX",
     "id": 6
   },
@@ -48,12 +56,20 @@
     "id": 80
   },
   {
+    "title": "B24",
+    "id": 105
+  },
+  {
     "title": "BBC One",
     "id": 45
   },
   {
     "title": "Bad Robot Productions",
     "id": 46
+  },
+  {
+    "title": "Bandai Visual Company",
+    "id": 103
   },
   {
     "title": "Base Animation",
@@ -102,21 +118,5 @@
   {
     "title": "DC Films",
     "id": 74
-  },
-  {
-    "title": "DC Studios",
-    "id": 82
-  },
-  {
-    "title": "Davis Entertainment",
-    "id": 88
-  },
-  {
-    "title": "Dimension Films",
-    "id": 86
-  },
-  {
-    "title": "Disney+",
-    "id": 2
   }
 ]

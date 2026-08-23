@@ -1,13 +1,11 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@films-collection/shared": ["../../packages/shared/src/index.ts"],
+      "@films-collection/api-client": ["../../packages/api-client/src/index.ts"]
     }
-  },
-  "tsc-alias": {
-    "resolveFullPaths": true
   },
   "include": ["src", "drizzle.config.ts", "scripts"],
   "exclude": ["node_modules", "dist"]

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { buildListOptionSchema } from '~/schemas/list-options.schema.js';
+import { buildListOptionSchema } from './list-options.schema.js';
 
 export const InitialDataResponseSchema = z.object({
   options: z.object({

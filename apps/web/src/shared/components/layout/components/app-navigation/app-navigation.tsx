@@ -3,7 +3,7 @@ import styles from './app-navigation.module.css';
 import { Link, useLocation, useNavigate } from '@tanstack/react-router';
 import clsx from 'clsx';
 import {
-  ChartBarIcon,
+  ChartPieIcon,
   HomeIcon,
   InfoIcon,
   LogOutIcon,
@@ -31,7 +31,7 @@ const navigationConfig: NavLink[] = [
   },
   {
     id: 'stats',
-    icon: <ChartBarIcon className={styles.navigation_item_icon} />,
+    icon: <ChartPieIcon className={styles.navigation_item_icon} />,
     title: 'Stats',
     path: '/stats',
   },

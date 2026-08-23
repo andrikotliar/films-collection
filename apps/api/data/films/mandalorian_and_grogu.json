@@ -1,0 +1,141 @@
+{
+  "id": 533,
+  "title": "Mandalorian and Grogu",
+  "releaseDate": "2026-05-22",
+  "type": "FILM",
+  "duration": 132,
+  "budget": 165000000,
+  "boxOffice": 345000000,
+  "synopsis": "The Mandalorian and his partner Grogu are working for the New Republic, completing various tasks to capture Imperial commanders. He receives a mission to find one of the commanders whose face is unknown, but the Hutt twins can provide information about him in exchange for the return of their nephew, Ratta the Hutt, who is supposedly captive on the planet Shakari.",
+  "poster": "posters/mandalorian_and_grogu",
+  "genres": [
+    {
+      "title": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Lucasfilm",
+      "id": 37
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=IHWlvwu8t1w",
+      "order": 1,
+      "id": 333
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1342,
+      "name": "Dave Filoni",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2223,
+      "name": "Noah Kloor",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1971,
+      "name": "Ian Bryce",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 601,
+      "name": "Jon Favreau",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1342,
+      "name": "Dave Filoni",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1738,
+      "name": "Kathleen Kennedy",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 913,
+      "name": "Pedro Pascal",
+      "role": "ACTOR",
+      "details": " The Mandalorian"
+    },
+    {
+      "id": 1068,
+      "name": "Sigourney Weaver",
+      "role": "ACTOR",
+      "details": "Colonel Ward"
+    },
+    {
+      "id": 1089,
+      "name": "Steve Blum",
+      "role": "ACTOR",
+      "details": " Zeb Orrelios"
+    },
+    {
+      "id": 2936,
+      "name": "Jeremy Allen White",
+      "role": "ACTOR",
+      "details": "Rota"
+    },
+    {
+      "id": 2937,
+      "name": "Jonny Coyne",
+      "role": "ACTOR",
+      "details": " Lord Janu"
+    },
+    {
+      "id": 2035,
+      "name": "Ludwig Göransson",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2225,
+      "name": "David Klein",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 22,
+      "title": "Star Wars Universe",
+      "order": 11.5
+    }
+  ]
+}

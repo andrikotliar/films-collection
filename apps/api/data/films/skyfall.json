@@ -1,0 +1,180 @@
+{
+  "id": 410,
+  "title": "Skyfall",
+  "releaseDate": "2012-11-09",
+  "type": "FILM",
+  "duration": 143,
+  "budget": 200000000,
+  "boxOffice": 1100000000,
+  "synopsis": null,
+  "poster": "posters/skyfall",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "China",
+      "id": 14
+    },
+    {
+      "title": "Turkey",
+      "id": 29
+    }
+  ],
+  "studios": [
+    {
+      "title": " Metro-Goldwyn-Mayer",
+      "id": 104
+    },
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=6kw1UVovByw&pp=ygUPc2t5ZmFsbCB0cmFpbGVy",
+      "order": 1,
+      "id": 408
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures, Original Song",
+          "id": 319
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "id": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Critics Choice Movie Awards",
+      "nominations": [
+        {
+          "title": "Best action Movie",
+          "id": 76
+        },
+        {
+          "title": "Best Actor in an Action Movie",
+          "id": 234
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "MTV Movie & TV Awards",
+      "nominations": [
+        {
+          "title": "Best Latino Actor",
+          "id": 320
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2961,
+      "name": "Sam Mendes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1408,
+      "name": "Neal Purvis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1409,
+      "name": "Robert Wade",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1668,
+      "name": "John Logan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1411,
+      "name": "Barbara Broccoli",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1412,
+      "name": "Michael G. Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 245,
+      "name": "Daniel Craig",
+      "role": "ACTOR",
+      "details": " James Bond"
+    },
+    {
+      "id": 624,
+      "name": "Judi Dench",
+      "role": "ACTOR",
+      "details": "M"
+    },
+    {
+      "id": 532,
+      "name": "Javier Bardem",
+      "role": "ACTOR",
+      "details": "Silva"
+    },
+    {
+      "id": 942,
+      "name": "Ralph Fiennes",
+      "role": "ACTOR",
+      "details": "Gareth Mallory"
+    },
+    {
+      "id": 2962,
+      "name": "Naomie Harris",
+      "role": "ACTOR",
+      "details": "Eve"
+    },
+    {
+      "id": 1470,
+      "name": "Thomas Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1699,
+      "name": "Roger Deakins",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 103,
+      "title": "007",
+      "order": 3
+    }
+  ]
+}

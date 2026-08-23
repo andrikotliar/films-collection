@@ -1,18 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "lib": ["DOM", "ESNext"],
-    "rootDir": "./src",
-    "outDir": "dist",
-    "declaration": true,
-    "declarationMap": true,
-    "emitDeclarationOnly": false,
-    "paths": {
-      "~/*": ["./src/*"]
-    }
-  },
-  "tsc-alias": {
-    "resolveFullPaths": true
+    "lib": ["DOM", "ESNext"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

@@ -1,17 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "dist",
-    "paths": {
-      "~/*": ["./src/*"]
-    },
-    "declaration": true,
-    "declarationMap": true,
-    "emitDeclarationOnly": false
-  },
-  "tsc-alias": {
-    "resolveFullPaths": true
+    "noEmit": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

@@ -1,0 +1,194 @@
+{
+  "id": 411,
+  "title": "Spectre",
+  "releaseDate": "2015-11-06",
+  "type": "FILM",
+  "duration": 148,
+  "budget": 245000000,
+  "boxOffice": 880000000,
+  "synopsis": null,
+  "poster": "posters/spectre",
+  "genres": [
+    {
+      "title": "Action",
+      "id": 4
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "UK",
+      "id": 2
+    },
+    {
+      "title": "Mexico",
+      "id": 22
+    },
+    {
+      "title": "Italy",
+      "id": 28
+    },
+    {
+      "title": "Moroco",
+      "id": 30
+    },
+    {
+      "title": "Austria",
+      "id": 31
+    }
+  ],
+  "studios": [
+    {
+      "title": "B24",
+      "id": 105
+    },
+    {
+      "title": "Columbia Pictures",
+      "id": 12
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=ujmoYyEyDP8&pp=ygUPc3BlY3RyZSB0cmFpbGVy",
+      "order": 1,
+      "id": 409
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Oscar Awards",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures, Original Song",
+          "id": 319
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Golden Globe Awards",
+      "nominations": [
+        {
+          "title": "Best Original Song - Motion Picture",
+          "id": 121
+        }
+      ]
+    }
+  ],
+  "castAndCrew": [
+    {
+      "id": 2961,
+      "name": "Sam Mendes",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 1668,
+      "name": "John Logan",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1408,
+      "name": "Neal Purvis",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1409,
+      "name": "Robert Wade",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1450,
+      "name": "Jez Butterworth",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 1411,
+      "name": "Barbara Broccoli",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 1412,
+      "name": "Michael G. Wilson",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 245,
+      "name": "Daniel Craig",
+      "role": "ACTOR",
+      "details": " James Bond"
+    },
+    {
+      "id": 206,
+      "name": "Christoph Waltz",
+      "role": "ACTOR",
+      "details": " Blofeld"
+    },
+    {
+      "id": 2963,
+      "name": "Léa Seydoux",
+      "role": "ACTOR",
+      "details": "Madeleine"
+    },
+    {
+      "id": 942,
+      "name": "Ralph Fiennes",
+      "role": "ACTOR",
+      "details": "M"
+    },
+    {
+      "id": 850,
+      "name": "Monica Bellucci",
+      "role": "ACTOR",
+      "details": " Lucia"
+    },
+    {
+      "id": 2964,
+      "name": "Ben Whishaw",
+      "role": "ACTOR",
+      "details": "Q"
+    },
+    {
+      "id": 2962,
+      "name": "Naomie Harris",
+      "role": "ACTOR",
+      "details": " Moneypenny"
+    },
+    {
+      "id": 263,
+      "name": "Dave Bautista",
+      "role": "ACTOR",
+      "details": "Hinx"
+    },
+    {
+      "id": 1470,
+      "name": "Thomas Newman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 1715,
+      "name": "Hoyte Van Hoytema",
+      "role": "CAMERAMAN",
+      "details": null
+    }
+  ],
+  "collections": [
+    {
+      "id": 103,
+      "title": "007",
+      "order": 4
+    }
+  ]
+}

@@ -5,8 +5,8 @@
   "type": "FILM",
   "duration": 118,
   "budget": 250000000,
-  "boxOffice": 761000000000,
-  "synopsis": "Thor embarks on a quest to find inner peace after the events of \"Avengers: Endgame.\" However, his journey is interrupted by Gorr the God Butcher, who seeks vengeance against the gods. Teaming up with old allies, including Jane Foster, Thor must confront new threats and rediscover his purpose.",
+  "boxOffice": 761000000,
+  "synopsis": null,
   "poster": "posters/thor_love_and_thunder",
   "genres": [
     {

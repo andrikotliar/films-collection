@@ -1,13 +1,13 @@
 import { z } from 'zod';
-import { DraftLevel, PersonRole, TitleStyle, TitleType } from '~/enums/index.js';
-import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '~/helpers/index.js';
-import { AwardResponseSchema, NominationResponseSchema } from '~/schemas/awards.schema.js';
-import { CollectionCurrentEventsListResponseSchema } from '~/schemas/collection-events.schema.js';
-import { CollectionResponseSchema } from '~/schemas/collections.schema.js';
-import { CountryResponseSchema } from '~/schemas/countries.schema.js';
-import { GenreResponseSchema } from '~/schemas/genres.schema.js';
-import { PersonResponseSchema } from '~/schemas/people.schema.js';
-import { StudioResponseSchema } from '~/schemas/studios.schema.js';
+import { DraftLevel, PersonRole, TitleStyle, TitleType } from '../enums/index.js';
+import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '../helpers/index.js';
+import { AwardResponseSchema, NominationResponseSchema } from './awards.schema.js';
+import { CollectionCurrentEventsListResponseSchema } from './collection-events.schema.js';
+import { CollectionResponseSchema } from './collections.schema.js';
+import { CountryResponseSchema } from './countries.schema.js';
+import { GenreResponseSchema } from './genres.schema.js';
+import { PersonResponseSchema } from './people.schema.js';
+import { StudioResponseSchema } from './studios.schema.js';
 
 const DateStringSchema = z
   .string()
@@ -37,8 +37,8 @@ export const CreateFilmInputSchema = z.object({
   ),
   duration: z.coerce.number(),
   releaseDate: DateStringSchema.nullable(),
-  budget: z.coerce.number(),
-  boxOffice: z.coerce.number(),
+  budget: z.coerce.number().max(900_000_000),
+  boxOffice: z.coerce.number().max(4_000_000_000),
   synopsis: z.string().nullable(),
   castAndCrew: z.array(
     z.object({
@@ -81,6 +81,7 @@ export const GetFilmsListQuerySchema = z.object({
   pageIndex: z.coerce.number().min(0).optional(),
   startDate: z.string().optional(),
   endDate: z.string().optional(),
+  year: z.coerce.number().optional(),
   collectionId: z.coerce.number().optional(),
   duration: z.coerce.number().optional(),
   rating: z.coerce.number().optional(),

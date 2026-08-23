@@ -114,6 +114,7 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
     noTrailers,
     runtimeRange,
     incompleteBoxOffice,
+    year,
   } = plainFilters;
 
   const filters: SqlOrUndefined[] = [isNull(films.deletedAt)];
@@ -300,6 +301,10 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
     filters.push(
       sql`type <> ${TitleType.SERIES} AND draft = false and (box_office = 0 OR (EXTRACT(DAY FROM updated_at - release_date) < 90) AND release_date < NOW())`,
     );
+  }
+
+  if (year && !startDate && !endDate) {
+    filters.push(sql`EXTRACT(YEAR from release_date) = ${year}`);
   }
 
   return { filters, drafts: getDraftFilter(draftLevels) };

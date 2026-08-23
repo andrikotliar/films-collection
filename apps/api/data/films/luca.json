@@ -1,0 +1,133 @@
+{
+  "id": 413,
+  "title": "Luca",
+  "releaseDate": "2021-06-18",
+  "type": "FILM",
+  "duration": 95,
+  "budget": 0,
+  "boxOffice": 51000000,
+  "synopsis": "Luca is a boy from the underwater world who is very curious about life on the surface. When he comes onto land, he takes on a fully human appearance. On land, he meets another boy named Alberto. Together, they make their way to the city where they befriend a girl named Giulia. She invites them to join her team to help her win a contest taking place in the city. Meanwhile, Luca's parents have already started searching for him.",
+  "poster": "posters/luca",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Fantasy",
+      "id": 2
+    }
+  ],
+  "style": "ANIMATION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    },
+    {
+      "title": "Walt Disney Pictures",
+      "id": 1
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=mYfJxlgR2jw&pp=ygUMbHVjYSB0cmFpbGVy",
+      "order": 1,
+      "id": 411
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2969,
+      "name": "Enrico Casarosa",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2970,
+      "name": "Jesse Andrews",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2971,
+      "name": "Mike Jones",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2972,
+      "name": "Andrea Warren",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2973,
+      "name": "Dan Romer",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2515,
+      "name": "David Juan Bianchi",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2974,
+      "name": "Kim White",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2975,
+      "name": "Jacob Tremblay",
+      "role": "ACTOR",
+      "details": " Luca Paguro"
+    },
+    {
+      "id": 482,
+      "name": "Jack Dylan Grazer",
+      "role": "ACTOR",
+      "details": " Alberto Scorfano"
+    },
+    {
+      "id": 2976,
+      "name": "Emma Berman",
+      "role": "ACTOR",
+      "details": " Giulia Marcovaldo"
+    },
+    {
+      "id": 2977,
+      "name": "Saverio Raimondo",
+      "role": "ACTOR",
+      "details": " Ercole Visconti"
+    },
+    {
+      "id": 810,
+      "name": "Maya Rudolph",
+      "role": "ACTOR",
+      "details": " Daniela Paguro"
+    },
+    {
+      "id": 2978,
+      "name": " Marco Barricelli",
+      "role": "ACTOR",
+      "details": "Massimo Marcovaldo"
+    },
+    {
+      "id": 2979,
+      "name": "Jim Gaffigan",
+      "role": "ACTOR",
+      "details": "Lorenzo Paguro"
+    }
+  ],
+  "collections": []
+}
