@@ -6,7 +6,7 @@ import {
   HobbyByIdResponseSchema,
   HobbyByIdQueriesSchema,
 } from '@films-collection/shared';
-import { createContract } from '~/helpers/define-contracts.js';
+import { createContract } from '../helpers/define-contracts.js';
 
 export const hobbiesContract = {
   getHobbiesList: createContract({
