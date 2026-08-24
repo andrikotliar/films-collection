@@ -21,12 +21,10 @@ import type { ServiceInstances } from '~/shared/types/dependencies.js';
 import { CookieName } from '~/shared/enums/cookie-name.js';
 import { errorHandler } from '~/shared/helpers/error-handler.js';
 import { notFoundHandler } from '~/shared/helpers/not-found-handler.js';
-import type { ApiModule } from '~/shared/helpers/create-api-module.js';
 import { appModule } from '~/modules/app.module.js';
 
 declare module 'fastify' {
   export interface FastifyInstance {
-    apiModules: ApiModule<any>[];
     db: Database;
     services: ServiceInstances;
   }
