@@ -1,74 +1,40 @@
-import { authRouter, AuthService } from '~/modules/auth/index.js';
-import { AwardsRepository, awardsRouter, AwardsService } from '~/modules/awards/index.js';
-import {
-  CollectionEventsRepository,
-  collectionEventsRouter,
-  CollectionEventsService,
-} from '~/modules/collection-events/index.js';
-import {
-  CollectionsRepository,
-  collectionsRouter,
-  CollectionsService,
-} from '~/modules/collections/index.js';
-import {
-  CountriesRepository,
-  countriesRouter,
-  CountriesService,
-} from '~/modules/countries/index.js';
-import { filesRouter, FilesService } from '~/modules/files/index.js';
-import { FilmsRepository, filmsRouter, FilmsService } from '~/modules/films/index.js';
-import { GenresRepository, genresRouter, GenresService } from '~/modules/genres/index.js';
-import { initialDataRouter, InitialDataService } from '~/modules/initial-data/index.js';
-import { ArticlesRepository, articlesRouter, ArticlesService } from '~/modules/articles/index.js';
-import { PeopleRepository, peopleRouter, PeopleService } from '~/modules/people/index.js';
-import { StudiosRepository, studiosRouter, StudiosService } from '~/modules/studios/index.js';
-import { UsersRepository, usersRouter, UsersService } from '~/modules/users/index.js';
-import { ConfigService } from '~/modules/config/index.js';
-import { StorageService } from '~/modules/storage/index.js';
-import type { Router } from '~/shared/index.js';
-import { AiService } from '~/modules/ai/index.js';
+import { registerModules } from '~/shared/helpers/register-modules.js';
+import { AuthModule } from './auth/auth.module.js';
+import { AiModule } from './ai/ai.module.js';
+import { ArticlesModule } from './articles/articles.module.js';
+import { AwardsModule } from './awards/awards.module.js';
+import { CacheModule } from './cache/cache.module.js';
+import { CollectionEventsModule } from './collection-events/collection-events.module.js';
+import { CollectionsModule } from './collections/collections.module.js';
+import { ConfigModule } from './config/config.module.js';
+import { CountriesModule } from './countries/countries.module.js';
+import { FilesModule } from './files/files.module.js';
+import { FilmsModule } from './films/films.module.js';
+import { GenresModule } from './genres/genres.module.js';
+import { InitialDataModule } from './initial-data/initial-data.module.js';
+import { PeopleModule } from './people/people.module.js';
+import { StorageModule } from './storage/storage.module.js';
+import { StudiosModule } from './studios/studios.module.js';
+import { UsersModule } from './users/users.module.js';
 
-export const services = {
-  authService: AuthService,
-  awardsRepository: AwardsRepository,
-  awardsService: AwardsService,
-  collectionEventsRepository: CollectionEventsRepository,
-  collectionEventsService: CollectionEventsService,
-  collectionsRepository: CollectionsRepository,
-  collectionsService: CollectionsService,
-  countriesRepository: CountriesRepository,
-  countriesService: CountriesService,
-  filesService: FilesService,
-  filmsRepository: FilmsRepository,
-  filmsService: FilmsService,
-  genresRepository: GenresRepository,
-  genresService: GenresService,
-  initialDataService: InitialDataService,
-  articlesRepository: ArticlesRepository,
-  articlesService: ArticlesService,
-  peopleRepository: PeopleRepository,
-  peopleService: PeopleService,
-  studiosRepository: StudiosRepository,
-  studiosService: StudiosService,
-  usersRepository: UsersRepository,
-  usersService: UsersService,
-  configService: ConfigService,
-  storageService: StorageService,
-  aiService: AiService,
-};
+export const apiModules = registerModules(
+  AiModule,
+  AuthModule,
+  ArticlesModule,
+  AwardsModule,
+  CacheModule,
+  CollectionEventsModule,
+  CollectionsModule,
+  ConfigModule,
+  CountriesModule,
+  FilesModule,
+  FilmsModule,
+  GenresModule,
+  InitialDataModule,
+  PeopleModule,
+  StorageModule,
+  StudiosModule,
+  UsersModule,
+);
 
-export const routers: Router[] = [
-  authRouter,
-  awardsRouter,
-  collectionEventsRouter,
-  collectionsRouter,
-  countriesRouter,
-  filesRouter,
-  filmsRouter,
-  genresRouter,
-  initialDataRouter,
-  articlesRouter,
-  peopleRouter,
-  studiosRouter,
-  usersRouter,
-];
+export type ApiModules = typeof apiModules;

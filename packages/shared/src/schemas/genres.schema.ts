@@ -17,3 +17,4 @@ export const GenresListResponseSchema = getListResponseSchema(
 );
 
 export type GenreInput = z.infer<typeof GenreInputSchema>;
+export type GenresListResponse = z.infer<typeof GenresListResponseSchema>;

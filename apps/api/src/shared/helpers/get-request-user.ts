@@ -1,5 +1,5 @@
 import type { FastifyRequest } from 'fastify';
-import { UnauthorizedException } from '~/shared/exceptions/index.js';
+import { UnauthorizedException } from '~/shared/exceptions/unauthorized.js';
 
 export type RequestUser = {
   id: number;

@@ -1,16 +1,16 @@
 import type { FastifyReply } from 'fastify';
-import type { ConfigService } from '~/modules/config/index.js';
-import { CookieName, type CookieNameId } from '~/shared/index.js';
+import { CookieName, type CookieNameId } from '~/shared/enums/cookie-name.js';
+import type { Deps } from '~/shared/types/dependencies.js';
 
 type Options = {
   value: string;
   name: CookieNameId;
   maxAge: number;
-  configService: ConfigService;
+  deps: Deps<'ConfigService'>;
 };
 
 export const setCookie = (reply: FastifyReply, options: Options) => {
-  const isDevelopment = options.configService.getKey('NODE_ENV') === 'development';
+  const isDevelopment = options.deps.ConfigService.getKey('NODE_ENV') === 'development';
 
   const cookieName = CookieName[options.name];
 

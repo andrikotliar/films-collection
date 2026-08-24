@@ -1,5 +1,5 @@
-import { FastifyReply } from 'fastify';
-import { CookieName, CookieNameId } from '~/shared/index.js';
+import type { FastifyReply } from 'fastify';
+import { CookieName, type CookieNameId } from '~/shared/enums/cookie-name.js';
 
 type Cookies = CookieNameId;
 

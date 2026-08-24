@@ -9,13 +9,16 @@ import {
 import { and, asc, eq, inArray, type SQL } from 'drizzle-orm';
 import { awards, nominations, type Award } from '~/database/schema.js';
 import type { UpdateAwardParams } from '~/modules/awards/types.js';
-import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
+import { getCount } from '~/shared/helpers/get-count.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
+import type { Deps } from '~/shared/types/dependencies.js';
 
 export class AwardsRepository {
-  constructor(private readonly deps: Deps<'db'>) {}
+  constructor(private readonly deps: Deps<'Database'>) {}
 
   getById(id: number) {
-    return this.deps.db.query.awards.findFirst({
+    return this.deps.Database.query.awards.findFirst({
       columns: {
         id: true,
         title: true,
@@ -32,12 +35,11 @@ export class AwardsRepository {
 
   getBaseData(awardId: number) {
     return getFirstValue(
-      this.deps.db
-        .select({
-          id: awards.id,
-          title: awards.title,
-          description: awards.description,
-        })
+      this.deps.Database.select({
+        id: awards.id,
+        title: awards.title,
+        description: awards.description,
+      })
         .from(awards)
         .where(eq(awards.id, awardId)),
     );
@@ -46,8 +48,7 @@ export class AwardsRepository {
   async getBaseDataList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, awards);
 
-    const list = await this.deps.db
-      .select({ id: awards.id, title: awards.title })
+    const list = await this.deps.Database.select({ id: awards.id, title: awards.title })
       .from(awards)
       .where(and(...filters))
       .orderBy(asc(awards.title))
@@ -60,30 +61,28 @@ export class AwardsRepository {
   }
 
   count(filters?: SQL[]) {
-    return getCount(this.deps.db, awards, filters);
+    return getCount(this.deps.Database, awards, filters);
   }
 
   getListOptions() {
-    return this.deps.db
-      .select({ id: awards.id, title: awards.title })
+    return this.deps.Database.select({ id: awards.id, title: awards.title })
       .from(awards)
       .orderBy(asc(awards.title));
   }
 
   getNominationsByAward(awardId: number) {
-    return this.deps.db
-      .select({
-        id: nominations.id,
-        title: nominations.title,
-        shouldIncludeActor: nominations.shouldIncludeActor,
-      })
+    return this.deps.Database.select({
+      id: nominations.id,
+      title: nominations.title,
+      shouldIncludeActor: nominations.shouldIncludeActor,
+    })
       .from(nominations)
       .where(eq(nominations.awardId, awardId))
       .orderBy(asc(nominations.title));
   }
 
   createAward({ nominations: nominationsPayload, ...award }: CreateAwardInput) {
-    return this.deps.db.transaction(async (tr) => {
+    return this.deps.Database.transaction(async (tr) => {
       const [newAward] = await tr.insert(awards).values(award).returning();
 
       if (nominationsPayload.length) {
@@ -101,8 +100,7 @@ export class AwardsRepository {
   }
 
   async updateAward(id: number, input: Omit<UpdateAwardInput, 'nominations'>) {
-    const [updatedAward] = await this.deps.db
-      .update(awards)
+    const [updatedAward] = await this.deps.Database.update(awards)
       .set(input)
       .where(eq(awards.id, id))
       .returning();
@@ -111,25 +109,23 @@ export class AwardsRepository {
   }
 
   deleteAward(id: number) {
-    return this.deps.db.delete(awards).where(eq(awards.id, id));
+    return this.deps.Database.delete(awards).where(eq(awards.id, id));
   }
 
   deleteNominations(ids: number[]) {
-    return this.deps.db.delete(nominations).where(inArray(nominations.id, ids));
+    return this.deps.Database.delete(nominations).where(inArray(nominations.id, ids));
   }
 
   getAwardNominationIds(awardId: number) {
-    return this.deps.db
-      .select({
-        id: nominations.id,
-      })
+    return this.deps.Database.select({
+      id: nominations.id,
+    })
       .from(nominations)
       .where(eq(nominations.awardId, awardId));
   }
 
   async createNomination(awardId: number, data: NominationInput) {
-    const [updatedNomination] = await this.deps.db
-      .insert(nominations)
+    const [updatedNomination] = await this.deps.Database.insert(nominations)
       .values({
         title: data.title,
         shouldIncludeActor: data.shouldIncludeActor,
@@ -147,7 +143,7 @@ export class AwardsRepository {
     createNominations,
     deleteNominations,
   }: UpdateAwardParams) {
-    return this.deps.db.transaction(async (tr) => {
+    return this.deps.Database.transaction(async (tr) => {
       const payload: Partial<Award> = { ...award };
 
       if (createNominations.length || updateNominations.length || deleteNominations.length) {
@@ -181,7 +177,7 @@ export class AwardsRepository {
   }
 
   async getAwardsWithNominations() {
-    return this.deps.db.query.awards.findMany({
+    return this.deps.Database.query.awards.findMany({
       columns: {
         id: true,
         title: true,

@@ -42,3 +42,4 @@ export type GetPeopleListQuery = z.infer<typeof GetPeopleListQuerySchema>;
 export type CreatePersonInput = z.infer<typeof CreatePersonSchema>;
 export type UpdatePersonInput = z.infer<typeof UpdatePersonInputSchema>;
 export type SearchPersonQuery = z.infer<typeof SearchPersonSchema>;
+export type PeopleListResponse = z.infer<typeof PeopleListResponseSchema>;

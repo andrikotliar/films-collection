@@ -1,11 +1,13 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, validateAuth } from '~/shared/index.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const countriesRouter = createRouter(contracts.countries, {
   getList: {
     preHandler: [validateAuth],
     handler: async ({ app, request }) => {
-      const data = await app.container.resolve('countriesService').getBaseDataList(request.query);
+      const service = app.service('CountriesService');
+      const data = await app.service('countriesService').getBaseDataList(request.query);
 
       return { data };
     },

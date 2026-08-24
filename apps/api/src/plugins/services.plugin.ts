@@ -1,17 +1,16 @@
 import type { FastifyInstance } from 'fastify';
 import fastifyPlugin from 'fastify-plugin';
-import { DiContainer } from '~/shared/index.js';
-import { services } from '~/modules/index.js';
+import { DiContainer } from '~/shared/services/di-container.js';
 
 export const diContainerDecorator = async (app: FastifyInstance) => {
   const container = new DiContainer();
 
-  container.setInstance('db', app.db);
-  container.setInstance('jwtService', app.jwt);
+  container.setInstance('Database', app.db);
+  container.setInstance('Jwt', app.jwt);
 
-  container.registerServices(services);
+  container.registerServicesFromModules(app.apiModules);
 
-  app.decorate('container', container);
+  app.decorate('service', container.resolve);
 };
 
 export const DiContainerPlugin = fastifyPlugin(diContainerDecorator);

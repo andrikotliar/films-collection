@@ -1,5 +1,7 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, getRequestUser, validateAuth } from '~/shared/index.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { getRequestUser } from '~/shared/helpers/get-request-user.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const usersRouter = createRouter(contracts.users, {
   getSessions: {

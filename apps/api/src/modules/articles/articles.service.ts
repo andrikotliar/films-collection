@@ -1,31 +1,33 @@
 import sanitize from 'sanitize-html';
-import { listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
 import {
   SANITIZE_CONFIG,
   PAGE_LIMITS,
   type CreateArticleInput,
   type ArticlesListQueries,
   type UpdateArticleInput,
+  type ArticlesListResponse,
 } from '@films-collection/shared';
+import type { Deps } from '~/shared/types/dependencies.js';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 
 const MAX_WORDS_LIMIT = 30;
 
 export class ArticlesService {
-  constructor(private readonly deps: Deps<'articlesRepository'>) {}
+  constructor(private readonly deps: Deps<'ArticlesRepository'>) {}
 
   get(id: number) {
-    return throwIfNotFound(this.deps.articlesRepository.get(id));
+    return throwIfNotFound(this.deps.ArticlesRepository.get(id));
   }
 
   getBySlug(key: string) {
-    return throwIfNotFound(this.deps.articlesRepository.getBySlug(key));
+    return throwIfNotFound(this.deps.ArticlesRepository.getBySlug(key));
   }
 
   create(input: CreateArticleInput) {
     const sanitizedContent = sanitize(input.content, SANITIZE_CONFIG);
 
     return throwIfNotFound(
-      this.deps.articlesRepository.create({
+      this.deps.ArticlesRepository.create({
         ...input,
         content: sanitizedContent,
       }),
@@ -37,21 +39,21 @@ export class ArticlesService {
       const sanitizedContent = sanitize(input.content, SANITIZE_CONFIG);
 
       return throwIfNotFound(
-        this.deps.articlesRepository.update(id, {
+        this.deps.ArticlesRepository.update(id, {
           ...input,
           content: sanitizedContent,
         }),
       );
     }
 
-    return throwIfNotFound(this.deps.articlesRepository.update(id, input));
+    return throwIfNotFound(this.deps.ArticlesRepository.update(id, input));
   }
 
-  async getList(queries: ArticlesListQueries) {
-    const data = await this.deps.articlesRepository.list(queries);
+  async getList(queries: ArticlesListQueries): Promise<ArticlesListResponse> {
+    const data = await this.deps.ArticlesRepository.list(queries);
 
     if (!data.list.length) {
-      return listResponse({ list: [], total: 0, pageLimit: PAGE_LIMITS.default });
+      return { list: [], total: 0, pageLimit: PAGE_LIMITS.default };
     }
 
     const mappedList = data.list.map((article) => {
@@ -68,10 +70,10 @@ export class ArticlesService {
       };
     });
 
-    return listResponse({ list: mappedList, total: data.total, pageLimit: PAGE_LIMITS.default });
+    return { list: mappedList, total: data.total, pageLimit: PAGE_LIMITS.default };
   }
 
   async delete(id: number) {
-    await this.deps.articlesRepository.delete(id);
+    await this.deps.ArticlesRepository.delete(id);
   }
 }

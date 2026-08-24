@@ -11,7 +11,7 @@ import type {
   SeriesExtension,
 } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';
-import { getTypedKeys } from '~/shared/index.js';
+import { getTypedKeys } from '~/shared/helpers/get-typed-keys.js';
 
 type EditableFilm = Omit<Film, Timestamps | 'addedAt' | 'id'> & {
   collections: Pick<FilmCollection, 'collectionId' | 'order'>[];

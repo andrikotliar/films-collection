@@ -17,3 +17,4 @@ export const StudiosResponseSchema = getListResponseSchema(
 );
 
 export type StudioInput = z.infer<typeof StudioInputSchema>;
+export type StudiosListResponse = z.infer<typeof StudiosResponseSchema>;

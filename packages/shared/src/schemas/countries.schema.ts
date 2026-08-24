@@ -17,3 +17,4 @@ export const CountriesListResponseSchema = getListResponseSchema(
 );
 
 export type CountryInput = z.infer<typeof CountryInputSchema>;
+export type CountriesListResponse = z.infer<typeof CountriesListResponseSchema>;

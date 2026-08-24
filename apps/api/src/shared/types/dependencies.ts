@@ -1,16 +1,25 @@
 import type { JWT } from '@fastify/jwt';
+import type { ApiModules } from '~/modules/index.js';
 import type { Database } from '~/plugins/index.js';
-import type { services } from '~/modules/index.js';
 
-export type ServicesMap = typeof services;
-export type ServiceKeys = keyof ServicesMap;
+type UnionKeys<T> = T extends unknown ? keyof T : never;
+type UnionValue<T, K extends PropertyKey> = T extends Record<K, infer V> ? V : never;
+
+type Services = ApiModules[number]['services'];
+
+export type ServiceKeys = UnionKeys<Services>;
+
+export type ServicesMap = {
+  [K in ServiceKeys]: UnionValue<Services, K>;
+};
+
 export type ServiceInstances = {
-  [K in ServiceKeys]: InstanceType<ServicesMap[K]>;
+  [K in ServiceKeys]: InstanceType<UnionValue<Services, K>>;
 };
 
 export type ExtendedServiceInstances = ServiceInstances & {
-  db: Database;
-  jwtService: JWT;
+  Database: Database;
+  Jwt: JWT;
 };
 
 export type ExtendedServiceKeys = keyof ExtendedServiceInstances;

@@ -9,14 +9,25 @@ import {
   serializerCompiler,
   validatorCompiler,
 } from 'fastify-type-provider-zod';
-import { RoutesPlugin, DatabasePlugin, DiContainerPlugin, type Database } from '~/plugins/index.js';
-import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared/index.js';
-import { ConfigService } from '~/modules/config/index.js';
+import {
+  RoutesPlugin,
+  DatabasePlugin,
+  type Database,
+  // ModulesPlugin,
+  DiContainerPlugin,
+} from '~/plugins/index.js';
+import { ConfigService } from '~/modules/config/config.service.js';
+import type { ServiceInstances, ServiceKeys } from '~/shared/types/dependencies.js';
+import { CookieName } from '~/shared/enums/cookie-name.js';
+import { errorHandler } from '~/shared/helpers/error-handler.js';
+import { notFoundHandler } from '~/shared/helpers/not-found-handler.js';
+// import { type ApiModules, apiModules } from '~/modules/index.js';
 
 declare module 'fastify' {
   export interface FastifyInstance {
+    apiModules: any;
     db: Database;
-    container: DiContainer;
+    service: <K extends ServiceKeys>(key: K) => ServiceInstances[K];
   }
 }
 
@@ -33,6 +44,8 @@ const startServer = async () => {
   app.setSerializerCompiler(serializerCompiler);
 
   let configService: ConfigService | null = new ConfigService();
+
+  // app.register(ModulesPlugin, { modules: apiModules });
 
   app.register(CookiePlugin, {
     secret: configService.getKey('COOKIE_SECRET'),

@@ -1,14 +1,11 @@
-import {
-  clearCookies,
-  getCookie,
-  UnauthorizedException,
-  createRouter,
-  setCookie,
-  ACCESS_TOKEN_MAX_AGE_SEC,
-  REFRESH_TOKEN_MAX_AGE_SEC,
-  validateAuth,
-} from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
+import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC } from '~/shared/constants/index.js';
+import { UnauthorizedException } from '~/shared/exceptions/unauthorized.js';
+import { clearCookies } from '~/shared/helpers/clear-cookies.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { getCookie } from '~/shared/helpers/get-cookie.js';
+import { setCookie } from '~/shared/helpers/set-cookie.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const authRouter = createRouter(contracts.auth, {
   getState: {
@@ -36,25 +33,27 @@ export const authRouter = createRouter(contracts.auth, {
 
       const configService = app.container.resolve('configService');
 
+      const deps = { ConfigService: configService };
+
       setCookie(reply, {
         name: 'ACCESS_TOKEN',
         value: data.accessToken,
         maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
-        configService,
+        deps,
       });
 
       setCookie(reply, {
         name: 'REFRESH_TOKEN',
         value: data.refreshToken,
         maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-        configService,
+        deps,
       });
 
       setCookie(reply, {
         name: 'SESSION_ID',
         value: data.sessionId,
         maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-        configService,
+        deps,
       });
 
       return {

@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { ResponseCode } from '~/shared/enums/index.js';
+import { ResponseCode } from '~/shared/enums/response-code.js';
 import type { Router } from '~/shared/helpers/create-router.js';
 
 const ErrorSchema = z.object({

@@ -1,15 +1,12 @@
 import { compare } from 'bcrypt';
-import {
-  ACCESS_TOKEN_MAX_AGE_SEC,
-  getDeviceInfo,
-  REFRESH_TOKEN_MAX_AGE_SEC,
-  type Deps,
-} from '~/shared/index.js';
 import type { LoginInput } from '@films-collection/shared';
 import type { VerifiedTokenData } from '~/modules/auth/types.js';
+import type { Deps } from '~/shared/types/dependencies.js';
+import { getDeviceInfo } from '~/shared/helpers/get-device-info.js';
+import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC } from '~/shared/constants/index.js';
 
 export class AuthService {
-  constructor(private readonly deps: Deps<'usersService' | 'jwtService'>) {}
+  constructor(private readonly deps: Deps<'UsersService' | 'Jwt'>) {}
 
   async login({
     username,
@@ -18,7 +15,7 @@ export class AuthService {
   }: LoginInput & {
     userAgent?: string;
   }) {
-    const user = await this.deps.usersService.getUserByUsername(username);
+    const user = await this.deps.UsersService.getUserByUsername(username);
     if (!user) {
       return null;
     }
@@ -33,7 +30,7 @@ export class AuthService {
 
     const deviceInfo = getDeviceInfo(userAgent);
 
-    const { sessionId } = await this.deps.usersService.createUserSession({
+    const { sessionId } = await this.deps.UsersService.createUserSession({
       userId: user.id,
       refreshToken,
       deviceInfo: {
@@ -55,9 +52,9 @@ export class AuthService {
     let verifiedToken: VerifiedTokenData | null;
 
     try {
-      verifiedToken = this.deps.jwtService.verify<VerifiedTokenData>(token);
+      verifiedToken = this.deps.Jwt.verify<VerifiedTokenData>(token);
     } catch {
-      await this.deps.usersService.deleteSession(sessionId);
+      await this.deps.UsersService.deleteSession(sessionId);
       return null;
     }
 
@@ -65,7 +62,7 @@ export class AuthService {
       return null;
     }
 
-    const userSession = await this.deps.usersService.getUserSession(verifiedToken.id, sessionId);
+    const userSession = await this.deps.UsersService.getUserSession(verifiedToken.id, sessionId);
 
     if (!userSession) {
       return null;
@@ -79,7 +76,7 @@ export class AuthService {
 
     const { accessToken, refreshToken } = this.createAuthTokens(userSession.userId);
 
-    await this.deps.usersService.setRefreshToken(verifiedToken.id, sessionId, refreshToken);
+    await this.deps.UsersService.setRefreshToken(verifiedToken.id, sessionId, refreshToken);
 
     return {
       accessToken,
@@ -89,17 +86,17 @@ export class AuthService {
   }
 
   logout(token: string, sessionId: string) {
-    const decodedToken = this.deps.jwtService.decode<VerifiedTokenData>(token);
+    const decodedToken = this.deps.Jwt.decode<VerifiedTokenData>(token);
 
     if (!decodedToken) {
       return null;
     }
 
-    return this.deps.usersService.deleteSession(sessionId);
+    return this.deps.UsersService.deleteSession(sessionId);
   }
 
   private createToken(payload: Record<string, unknown>, expTime: number) {
-    return this.deps.jwtService.sign(payload, { expiresIn: expTime });
+    return this.deps.Jwt.sign(payload, { expiresIn: expTime });
   }
 
   private createAuthTokens(userId: number) {

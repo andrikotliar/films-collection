@@ -1,6 +1,7 @@
 import { and, eq, desc, sql } from 'drizzle-orm';
 import { users, usersSessions, type User, type UserSession } from '~/database/schema.js';
-import { getFirstValue, type Deps } from '~/shared/index.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import type { Deps } from '~/shared/types/dependencies.js';
 
 export class UsersRepository {
   constructor(private readonly deps: Deps<'db'>) {}

@@ -1,34 +1,36 @@
-import { buildListOptions, listResponse, type Deps } from '~/shared/index.js';
 import {
   PAGE_LIMITS,
   type CommonListQueryParams,
   type StudioInput,
+  type StudiosListResponse,
 } from '@films-collection/shared';
+import { buildListOptions } from '~/shared/helpers/build-list-options.js';
+import type { Deps } from '~/shared/types/dependencies.js';
 
 export class StudiosService {
-  constructor(private readonly deps: Deps<'studiosRepository'>) {}
+  constructor(private readonly deps: Deps<'StudiosRepository'>) {}
 
   async getListOptions() {
-    const sortedGenres = await this.deps.studiosRepository.getAll();
+    const sortedGenres = await this.deps.StudiosRepository.getAll();
 
     return buildListOptions(sortedGenres);
   }
 
-  async getBaseDataList(queries: CommonListQueryParams) {
-    const { list, total } = await this.deps.studiosRepository.getList(queries);
+  async getBaseDataList(queries: CommonListQueryParams): Promise<StudiosListResponse> {
+    const { list, total } = await this.deps.StudiosRepository.getList(queries);
 
-    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
+    return { list, total, pageLimit: PAGE_LIMITS.default };
   }
 
   createStudio(input: StudioInput) {
-    return this.deps.studiosRepository.create(input);
+    return this.deps.StudiosRepository.create(input);
   }
 
   deleteStudio(id: number) {
-    return this.deps.studiosRepository.delete(id);
+    return this.deps.StudiosRepository.delete(id);
   }
 
   updateStudio(id: number, input: StudioInput) {
-    return this.deps.studiosRepository.update(id, input);
+    return this.deps.StudiosRepository.update(id, input);
   }
 }

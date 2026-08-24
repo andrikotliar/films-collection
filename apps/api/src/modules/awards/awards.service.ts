@@ -1,61 +1,64 @@
-import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
+import type { Deps } from '~/shared/types/dependencies.js';
 import type { GroupedNominations } from './types.js';
 import {
   PAGE_LIMITS,
+  type AwardsListResponse,
   type CommonListQueryParams,
   type CreateAwardInput,
   type NominationInput,
 } from '@films-collection/shared';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
+import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 
 const NEW_NOMINATION_ID = -1;
 
 export class AwardsService {
-  constructor(private readonly deps: Deps<'awardsRepository'>) {}
+  constructor(private readonly deps: Deps<'AwardsRepository'>) {}
 
-  async getBaseDataList(queries: CommonListQueryParams) {
-    const { list, total } = await this.deps.awardsRepository.getBaseDataList(queries);
+  async getBaseDataList(queries: CommonListQueryParams): Promise<AwardsListResponse> {
+    const { list, total } = await this.deps.AwardsRepository.getBaseDataList(queries);
 
-    return listResponse({
+    return {
       list,
       total,
       pageLimit: PAGE_LIMITS.default,
-    });
+    };
   }
 
   getAwardById(id: number) {
-    return throwIfNotFound(this.deps.awardsRepository.getById(id));
+    return throwIfNotFound(this.deps.AwardsRepository.getById(id));
   }
 
   getBaseAwardData(id: number) {
-    return this.deps.awardsRepository.getBaseData(id);
+    return this.deps.AwardsRepository.getBaseData(id);
   }
 
   async getListOptions() {
-    const awards = await this.deps.awardsRepository.getListOptions();
+    const awards = await this.deps.AwardsRepository.getListOptions();
 
     return buildListOptions(awards);
   }
 
   async getNominationsListOptions(awardId: number) {
-    const nominations = await this.deps.awardsRepository.getNominationsByAward(awardId);
+    const nominations = await this.deps.AwardsRepository.getNominationsByAward(awardId);
 
     return buildListOptions(nominations);
   }
 
   createAward(input: CreateAwardInput) {
-    return this.deps.awardsRepository.createAward(input);
+    return this.deps.AwardsRepository.createAward(input);
   }
 
   async deleteAward(id: number) {
     const award = await throwIfNotFound(this.getAwardById(id));
 
     if (award.nominations.length) {
-      await this.deps.awardsRepository.deleteNominations(
+      await this.deps.AwardsRepository.deleteNominations(
         award.nominations.map((nomination) => nomination.id),
       );
     }
 
-    return this.deps.awardsRepository.deleteAward(id);
+    return this.deps.AwardsRepository.deleteAward(id);
   }
 
   async updateAward(awardId: number, input: CreateAwardInput) {
@@ -64,10 +67,10 @@ export class AwardsService {
     await throwIfNotFound(this.getAwardById(awardId));
 
     if (!nominations.length) {
-      return await this.deps.awardsRepository.updateAward(awardId, award);
+      return await this.deps.AwardsRepository.updateAward(awardId, award);
     }
 
-    const awardNominations = await this.deps.awardsRepository.getAwardNominationIds(awardId);
+    const awardNominations = await this.deps.AwardsRepository.getAwardNominationIds(awardId);
 
     const nominationIds = awardNominations.map((nomination) => nomination.id);
     const inputNominationIds = nominations.map((nomination) => nomination.id);
@@ -94,7 +97,7 @@ export class AwardsService {
       },
     );
 
-    return await this.deps.awardsRepository.updateAwardWithNominations({
+    return await this.deps.AwardsRepository.updateAwardWithNominations({
       award,
       awardId,
       updateNominations: groupedNominations.update,
@@ -104,10 +107,10 @@ export class AwardsService {
   }
 
   createNomination(awardId: number, input: NominationInput) {
-    return this.deps.awardsRepository.createNomination(awardId, input);
+    return this.deps.AwardsRepository.createNomination(awardId, input);
   }
 
   getAwardsWithNominations() {
-    return this.deps.awardsRepository.getAwardsWithNominations();
+    return this.deps.AwardsRepository.getAwardsWithNominations();
   }
 }
