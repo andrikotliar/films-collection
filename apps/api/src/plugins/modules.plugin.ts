@@ -1,9 +1,9 @@
 import type { FastifyPluginAsync } from 'fastify';
 import fastifyPlugin from 'fastify-plugin';
-// import type { ApiModules } from '~/modules/index.js';
+import type { ApiModule } from '~/shared/helpers/create-api-module.js';
 
 type ModulesPluginOptions = {
-  modules: any;
+  modules: ApiModule<any>[];
 };
 
 const ModulesPluginBase: FastifyPluginAsync<ModulesPluginOptions> = async (app, { modules }) => {

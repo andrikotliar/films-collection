@@ -1,4 +1,3 @@
-import { registerModules } from '~/shared/helpers/register-modules.js';
 import { AuthModule } from './auth/auth.module.js';
 import { AiModule } from './ai/ai.module.js';
 import { ArticlesModule } from './articles/articles.module.js';
@@ -17,7 +16,7 @@ import { StorageModule } from './storage/storage.module.js';
 import { StudiosModule } from './studios/studios.module.js';
 import { UsersModule } from './users/users.module.js';
 
-export const apiModules = registerModules(
+export const appModule = [
   AiModule,
   AuthModule,
   ArticlesModule,
@@ -35,6 +34,22 @@ export const apiModules = registerModules(
   StorageModule,
   StudiosModule,
   UsersModule,
-);
+];
 
-export type ApiModules = typeof apiModules;
+export type ApiServices = typeof AiModule.services &
+  typeof AuthModule.services &
+  typeof ArticlesModule.services &
+  typeof AwardsModule.services &
+  typeof CacheModule.services &
+  typeof CollectionEventsModule.services &
+  typeof CollectionsModule.services &
+  typeof ConfigModule.services &
+  typeof CountriesModule.services &
+  typeof FilesModule.services &
+  typeof FilmsModule.services &
+  typeof GenresModule.services &
+  typeof InitialDataModule.services &
+  typeof PeopleModule.services &
+  typeof StorageModule.services &
+  typeof StudiosModule.services &
+  typeof UsersModule.services;

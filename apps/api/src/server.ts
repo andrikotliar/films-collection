@@ -13,21 +13,22 @@ import {
   RoutesPlugin,
   DatabasePlugin,
   type Database,
-  // ModulesPlugin,
+  ModulesPlugin,
   DiContainerPlugin,
 } from '~/plugins/index.js';
 import { ConfigService } from '~/modules/config/config.service.js';
-import type { ServiceInstances, ServiceKeys } from '~/shared/types/dependencies.js';
+import type { ServiceInstances } from '~/shared/types/dependencies.js';
 import { CookieName } from '~/shared/enums/cookie-name.js';
 import { errorHandler } from '~/shared/helpers/error-handler.js';
 import { notFoundHandler } from '~/shared/helpers/not-found-handler.js';
-// import { type ApiModules, apiModules } from '~/modules/index.js';
+import type { ApiModule } from '~/shared/helpers/create-api-module.js';
+import { appModule } from '~/modules/app.module.js';
 
 declare module 'fastify' {
   export interface FastifyInstance {
-    apiModules: any;
+    apiModules: ApiModule<any>[];
     db: Database;
-    service: <K extends ServiceKeys>(key: K) => ServiceInstances[K];
+    services: ServiceInstances;
   }
 }
 
@@ -45,7 +46,7 @@ const startServer = async () => {
 
   let configService: ConfigService | null = new ConfigService();
 
-  // app.register(ModulesPlugin, { modules: apiModules });
+  app.register(ModulesPlugin, { modules: appModule });
 
   app.register(CookiePlugin, {
     secret: configService.getKey('COOKIE_SECRET'),

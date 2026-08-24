@@ -1,6 +1,7 @@
 import type { FastifyInstance } from 'fastify';
 import fastifyPlugin from 'fastify-plugin';
 import { DiContainer } from '~/shared/services/di-container.js';
+import type { ServiceInstances, ServiceKeys } from '~/shared/types/dependencies.js';
 
 export const diContainerDecorator = async (app: FastifyInstance) => {
   const container = new DiContainer();
@@ -10,7 +11,11 @@ export const diContainerDecorator = async (app: FastifyInstance) => {
 
   container.registerServicesFromModules(app.apiModules);
 
-  app.decorate('service', container.resolve);
+  const servicesProxy = new Proxy({} as ServiceInstances, {
+    get: (_, key: ServiceKeys) => container.resolve(key),
+  });
+
+  app.decorate('services', servicesProxy);
 };
 
 export const DiContainerPlugin = fastifyPlugin(diContainerDecorator);

@@ -1,5 +1,5 @@
 import { getTypedEntries } from '@films-collection/shared';
-import type { ApiModules } from '~/modules/index.js';
+import type { ApiModule } from '~/shared/helpers/create-api-module.js';
 import type {
   ExtendedServiceInstances,
   ExtendedServiceKeys,
@@ -15,13 +15,13 @@ type DependencyValue<K extends ServiceKeys> = {
 export class DiContainer {
   private readonly servicesMap = new Map<ServiceKeys, DependencyValue<ServiceKeys>>();
 
-  registerServicesFromModules(modules: ApiModules) {
+  registerServicesFromModules(modules: ApiModule<any>[]) {
     const services = modules.flatMap((module) =>
       getTypedEntries(module.services).map(([key, value]) => ({ key, value })),
     );
 
     services.forEach((service) => {
-      this.servicesMap.set(service.key, {
+      this.servicesMap.set(service.key as ServiceKeys, {
         service: service.value,
         instance: null,
       });
