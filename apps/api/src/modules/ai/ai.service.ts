@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import type { ResponsesModel } from 'openai/resources/shared';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 
 type LangParams = {
   from: string;
@@ -10,7 +10,7 @@ type LangParams = {
 export class AiService {
   private client: OpenAI | null = null;
 
-  constructor({ ConfigService }: Deps<'ConfigService'>) {
+  constructor({ ConfigService }: Inject<'ConfigService'>) {
     this.client = new OpenAI({ apiKey: ConfigService.getKey('OPENAI_API_KEY') });
   }
 

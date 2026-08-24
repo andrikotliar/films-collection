@@ -6,12 +6,12 @@ import {
 } from '@films-collection/shared';
 import { studios } from '~/database/schema.js';
 import { and, asc, eq, type SQL } from 'drizzle-orm';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 
 export class StudiosRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Inject<'Database'>) {}
 
   getAll() {
     return this.deps.Database.select({

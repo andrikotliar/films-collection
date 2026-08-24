@@ -1,10 +1,10 @@
 import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
 import { collectionCategory, personRole, titleStyle, titleType } from '~/database/schema.js';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 
 export class InitialDataService {
   constructor(
-    private readonly deps: Deps<
+    private readonly deps: Inject<
       | 'CollectionsService'
       | 'GenresService'
       | 'CountriesService'

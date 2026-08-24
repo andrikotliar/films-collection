@@ -6,13 +6,13 @@ import type {
   UserSessionResponse,
 } from '@films-collection/shared';
 import { compare, hash } from 'bcrypt';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import type { RequestUser } from '~/shared/helpers/get-request-user.js';
 import { BadRequestException } from '~/shared/exceptions/bad-request.js';
 
 export class UsersService {
-  constructor(private readonly deps: Deps<'UsersRepository' | 'Jwt'>) {}
+  constructor(private readonly deps: Inject<'UsersRepository' | 'Jwt'>) {}
 
   getUser(userId: number) {
     return this.deps.UsersRepository.findById(userId);

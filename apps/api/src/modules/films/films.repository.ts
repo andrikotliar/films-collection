@@ -50,7 +50,7 @@ import type {
   PgTransaction,
 } from 'drizzle-orm/pg-core';
 import type { Timestamps } from '~/modules/films/types.js';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
 import { getLatestEntriesFilter } from '~/shared/helpers/get-latest-entries-filter.js';
@@ -73,7 +73,7 @@ type UpdateRelationsParams<T extends PgTableWithColumns<AnyTable>, V extends PgI
 type FilterLevel = 'public' | 'admin';
 
 export class FilmsRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Inject<'Database'>) {}
 
   async count(filters?: (SQL | undefined)[]) {
     if (filters) {

@@ -21,10 +21,10 @@ import {
 import { filmsPeople, people } from '~/database/schema.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 
 export class PeopleRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Inject<'Database'>) {}
 
   async findPersonById(personId: number) {
     return getFirstValue(this.deps.Database.select().from(people).where(eq(people.id, personId)));

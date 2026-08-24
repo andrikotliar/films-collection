@@ -2,12 +2,12 @@ import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import type { UploadFilePayloadSchema } from '@films-collection/shared';
 import type z from 'zod';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 
 export class StorageService {
   private s3Client: S3Client | null = null;
 
-  constructor(private readonly deps: Deps<'ConfigService'>) {}
+  constructor(private readonly deps: Inject<'ConfigService'>) {}
 
   initClient() {
     const endpoint = this.deps.ConfigService.getKey('S3_ENDPOINT');

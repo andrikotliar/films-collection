@@ -1,12 +1,12 @@
 import type { FastifyReply } from 'fastify';
 import { CookieName, type CookieNameId } from '~/shared/enums/cookie-name.js';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 
 type Options = {
   value: string;
   name: CookieNameId;
   maxAge: number;
-  deps: Deps<'ConfigService'>;
+  deps: Inject<'ConfigService'>;
 };
 
 export const setCookie = (reply: FastifyReply, options: Options) => {

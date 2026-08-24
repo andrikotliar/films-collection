@@ -7,13 +7,13 @@ import {
 } from '@films-collection/shared';
 import { collectionEvents, films } from '~/database/schema.js';
 import { and, asc, between, eq, gt, gte, lte, or, sql, type SQL } from 'drizzle-orm';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 
 export class CollectionEventsRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Inject<'Database'>) {}
 
   async getEventById(id: number) {
     return getFirstValue(

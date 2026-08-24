@@ -1,4 +1,4 @@
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import type { GroupedNominations } from './types.js';
 import {
   PAGE_LIMITS,
@@ -13,7 +13,7 @@ import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 const NEW_NOMINATION_ID = -1;
 
 export class AwardsService {
-  constructor(private readonly deps: Deps<'AwardsRepository'>) {}
+  constructor(private readonly deps: Inject<'AwardsRepository'>) {}
 
   async getBaseDataList(queries: CommonListQueryParams): Promise<AwardsListResponse> {
     const { list, total } = await this.deps.AwardsRepository.getBaseDataList(queries);

@@ -7,13 +7,13 @@ import {
   type UpdateArticleInput,
   type ArticlesListResponse,
 } from '@films-collection/shared';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 
 const MAX_WORDS_LIMIT = 30;
 
 export class ArticlesService {
-  constructor(private readonly deps: Deps<'ArticlesRepository'>) {}
+  constructor(private readonly deps: Inject<'ArticlesRepository'>) {}
 
   get(id: number) {
     return throwIfNotFound(this.deps.ArticlesRepository.get(id));

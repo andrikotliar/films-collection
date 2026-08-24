@@ -1,12 +1,12 @@
 import { compare } from 'bcrypt';
 import type { LoginInput } from '@films-collection/shared';
 import type { VerifiedTokenData } from '~/modules/auth/types.js';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { getDeviceInfo } from '~/shared/helpers/get-device-info.js';
 import { ACCESS_TOKEN_MAX_AGE_SEC, REFRESH_TOKEN_MAX_AGE_SEC } from '~/shared/constants/index.js';
 
 export class AuthService {
-  constructor(private readonly deps: Deps<'UsersService' | 'Jwt'>) {}
+  constructor(private readonly deps: Inject<'UsersService' | 'Jwt'>) {}
 
   async login({
     username,

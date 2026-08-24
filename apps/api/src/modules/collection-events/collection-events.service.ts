@@ -5,10 +5,12 @@ import {
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
 } from '@films-collection/shared';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 
 export class CollectionEventsService {
-  constructor(private readonly deps: Deps<'CollectionEventsRepository' | 'InMemoryCacheService'>) {
+  constructor(
+    private readonly deps: Inject<'CollectionEventsRepository' | 'InMemoryCacheService'>,
+  ) {
     deps.InMemoryCacheService.setDefaultValue('todayEvents', {
       dateCode: 0,
       events: null,

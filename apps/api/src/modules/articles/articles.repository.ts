@@ -7,11 +7,11 @@ import {
 } from '@films-collection/shared';
 import { articles } from '~/database/schema.js';
 import { count, desc, eq } from 'drizzle-orm';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 
 export class ArticlesRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Inject<'Database'>) {}
 
   get(id: number) {
     return getFirstValue(

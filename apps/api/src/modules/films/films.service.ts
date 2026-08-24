@@ -18,7 +18,7 @@ import {
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
 import type { FilmCollection } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';
-import type { Deps } from '~/shared/types/dependencies.js';
+import type { Inject } from '~/shared/types/inject.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import { BadRequestException } from '~/shared/exceptions/bad-request.js';
 
@@ -32,7 +32,7 @@ const statBlocks = ['genres', 'collections', 'countries', 'studios', 'types', 's
 
 export class FilmsService {
   constructor(
-    private readonly deps: Deps<
+    private readonly deps: Inject<
       | 'FilmsRepository'
       | 'PeopleService'
       | 'AwardsService'
