@@ -5,9 +5,8 @@ import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 export const countriesRouter = createRouter(contracts.countries, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app, request }) => {
-      const service = app.service('CountriesService');
-      const data = await app.service('countriesService').getBaseDataList(request.query);
+    handler: async ({ services: { CountriesService }, request }) => {
+      const data = await CountriesService.getBaseDataList(request.query);
 
       return { data };
     },
@@ -15,8 +14,8 @@ export const countriesRouter = createRouter(contracts.countries, {
 
   create: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container.resolve('countriesService').createCountry(request.body);
+    handler: async ({ request, services: { CountriesService } }) => {
+      const data = await CountriesService.createCountry(request.body);
 
       return { data };
     },
@@ -24,10 +23,8 @@ export const countriesRouter = createRouter(contracts.countries, {
 
   update: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('countriesService')
-        .updateCountry(request.params.id, request.body);
+    handler: async ({ request, services: { CountriesService } }) => {
+      const data = await CountriesService.updateCountry(request.params.id, request.body);
 
       return { data };
     },
@@ -35,8 +32,8 @@ export const countriesRouter = createRouter(contracts.countries, {
 
   delete: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      await app.container.resolve('countriesService').deleteCountry(request.params.id);
+    handler: async ({ request, services: { CountriesService } }) => {
+      await CountriesService.deleteCountry(request.params.id);
 
       return {
         data: { id: request.params.id },

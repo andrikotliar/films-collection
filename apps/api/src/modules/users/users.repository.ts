@@ -1,10 +1,10 @@
 import { and, eq, desc, sql } from 'drizzle-orm';
 import { users, usersSessions, type User, type UserSession } from '~/database/schema.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class UsersRepository {
-  constructor(private readonly deps: Inject<'db'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   findById(id: number) {
     return getFirstValue(

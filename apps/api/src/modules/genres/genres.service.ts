@@ -6,10 +6,10 @@ import {
 } from '@films-collection/shared';
 import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class GenresService {
-  constructor(private readonly deps: Inject<'GenresRepository'>) {}
+  constructor(private readonly deps: Deps<'GenresRepository'>) {}
 
   async getListOptions() {
     const sortedGenres = await this.deps.GenresRepository.getAll();

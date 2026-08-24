@@ -6,13 +6,13 @@ import {
 } from '@films-collection/shared';
 import { genres } from '~/database/schema.js';
 import { and, asc, eq, type SQL } from 'drizzle-orm';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 
 export class GenresRepository {
-  constructor(private readonly deps: Inject<'Database'>) {}
+  constructor(private readonly deps: Deps<'Database'>) {}
 
   getAll() {
     return this.deps.Database.select({

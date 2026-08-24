@@ -5,10 +5,10 @@ import {
   type StudiosListResponse,
 } from '@films-collection/shared';
 import { buildListOptions } from '~/shared/helpers/build-list-options.js';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class StudiosService {
-  constructor(private readonly deps: Inject<'StudiosRepository'>) {}
+  constructor(private readonly deps: Deps<'StudiosRepository'>) {}
 
   async getListOptions() {
     const sortedGenres = await this.deps.StudiosRepository.getAll();

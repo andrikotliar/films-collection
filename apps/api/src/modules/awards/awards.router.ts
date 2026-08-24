@@ -5,8 +5,8 @@ import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 export const awardsRouter = createRouter(contracts.awards, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app, request }) => {
-      const data = await app.container.resolve('awardsService').getBaseDataList(request.query);
+    handler: async ({ request, services: { AwardsService } }) => {
+      const data = await AwardsService.getBaseDataList(request.query);
 
       return { data };
     },
@@ -14,8 +14,8 @@ export const awardsRouter = createRouter(contracts.awards, {
 
   create: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container.resolve('awardsService').createAward(request.body);
+    handler: async ({ request, services: { AwardsService } }) => {
+      const data = await AwardsService.createAward(request.body);
 
       return { data, status: 'CREATED' };
     },
@@ -23,32 +23,28 @@ export const awardsRouter = createRouter(contracts.awards, {
 
   createNomination: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('awardsService')
-        .createNomination(request.params.id, request.body);
+    handler: async ({ request, services: { AwardsService } }) => {
+      const data = await AwardsService.createNomination(request.params.id, request.body);
 
       return { data, status: 'CREATED' };
     },
   },
 
   getNominations: {
-    async handler({ request, app }) {
+    async handler({ request, services: { AwardsService } }) {
       if (!request.params.id) {
         return { data: [] };
       }
 
-      const data = await app.container
-        .resolve('awardsService')
-        .getNominationsListOptions(request.params.id);
+      const data = await AwardsService.getNominationsListOptions(request.params.id);
 
       return { data };
     },
   },
 
   getById: {
-    async handler({ request, app }) {
-      const data = await app.container.resolve('awardsService').getAwardById(request.params.id);
+    async handler({ request, services: { AwardsService } }) {
+      const data = await AwardsService.getAwardById(request.params.id);
 
       return { data };
     },
@@ -56,10 +52,8 @@ export const awardsRouter = createRouter(contracts.awards, {
 
   update: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('awardsService')
-        .updateAward(request.params.id, request.body);
+    handler: async ({ request, services: { AwardsService } }) => {
+      const data = await AwardsService.updateAward(request.params.id, request.body);
 
       return { data };
     },
@@ -67,8 +61,8 @@ export const awardsRouter = createRouter(contracts.awards, {
 
   delete: {
     preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      await app.container.resolve('awardsService').deleteAward(request.params.id);
+    handler: async ({ request, services: { AwardsService } }) => {
+      await AwardsService.deleteAward(request.params.id);
 
       return {
         data: {

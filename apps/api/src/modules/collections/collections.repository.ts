@@ -11,10 +11,10 @@ import { collections, filmsCollections } from '~/database/schema.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class CollectionsRepository {
-  constructor(private readonly deps: Inject<'Database'>) {}
+  constructor(private readonly deps: Deps<'Database'>) {}
 
   getCollectionById(id: number) {
     return getFirstValue(

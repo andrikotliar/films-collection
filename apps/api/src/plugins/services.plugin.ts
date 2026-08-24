@@ -1,19 +1,17 @@
 import type { FastifyInstance } from 'fastify';
 import fastifyPlugin from 'fastify-plugin';
+import { services, type ApiServices } from '~/modules/app.module.js';
 import { DiContainer } from '~/shared/services/di-container.js';
-import type { ServiceInstances, ServiceKeys } from '~/shared/types/dependencies.js';
 
 export const diContainerDecorator = async (app: FastifyInstance) => {
-  const container = new DiContainer();
+  const container = new DiContainer({ ...services, Database: app.db, Jwt: app.jwt });
 
-  container.setInstance('Database', app.db);
-  container.setInstance('Jwt', app.jwt);
-
-  container.registerServicesFromModules(app.apiModules);
-
-  const servicesProxy = new Proxy({} as ServiceInstances, {
-    get: (_, key: ServiceKeys) => container.resolve(key),
-  });
+  const servicesProxy = new Proxy(
+    {} as { [K in keyof ApiServices]: InstanceType<ApiServices[K]> },
+    {
+      get: (_, key: keyof ApiServices) => container.resolve(key),
+    },
+  );
 
   app.decorate('services', servicesProxy);
 };

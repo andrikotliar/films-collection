@@ -8,10 +8,10 @@ import {
   type UpdatePersonInput,
 } from '@films-collection/shared';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class PeopleService {
-  constructor(private readonly deps: Inject<'PeopleRepository'>) {}
+  constructor(private readonly deps: Deps<'PeopleRepository'>) {}
 
   async getList(queries: GetPeopleListQuery): Promise<PeopleListResponse> {
     const list = await this.deps.PeopleRepository.getList(queries);

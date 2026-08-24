@@ -7,10 +7,10 @@ import {
 } from '@films-collection/shared';
 import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
-import type { Inject } from '~/shared/types/inject.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class CollectionsService {
-  constructor(private readonly deps: Inject<'CollectionsRepository' | 'FilmsService'>) {}
+  constructor(private readonly deps: Deps<'CollectionsRepository' | 'FilmsService'>) {}
 
   async getCollectionById(id: number) {
     return this.deps.CollectionsRepository.getCollectionById(id);

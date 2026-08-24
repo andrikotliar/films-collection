@@ -1,38 +1,32 @@
 import { getTypedEntries } from '@films-collection/shared';
-import type { ApiModule } from '~/shared/helpers/create-api-module.js';
-import type {
-  ExtendedServiceInstances,
-  ExtendedServiceKeys,
-  ServiceKeys,
-  ServicesMap,
-} from '~/shared/types/dependencies.js';
 
-type DependencyValue<K extends ServiceKeys> = {
-  service: ServicesMap[K] | null;
-  instance: InstanceType<ServicesMap[K]> | null;
+type DependencyValue<K extends PropertyKey, TServicesMap extends Record<PropertyKey, any>> = {
+  service: TServicesMap[K] | null;
+  instance: InstanceType<TServicesMap[K]> | null;
 };
 
-export class DiContainer {
-  private readonly servicesMap = new Map<ServiceKeys, DependencyValue<ServiceKeys>>();
+export class DiContainer<TServicesMap extends Record<PropertyKey, any>> {
+  private readonly servicesMap = new Map<
+    keyof TServicesMap,
+    DependencyValue<keyof TServicesMap, TServicesMap>
+  >();
 
-  registerServicesFromModules(modules: ApiModule<any>[]) {
-    const services = modules.flatMap((module) =>
-      getTypedEntries(module.services).map(([key, value]) => ({ key, value })),
-    );
-
-    services.forEach((service) => {
-      this.servicesMap.set(service.key as ServiceKeys, {
-        service: service.value,
+  constructor(services: Partial<TServicesMap>) {
+    getTypedEntries(services).forEach(([key, service]) => {
+      this.servicesMap.set(key, {
+        service: service ?? null,
         instance: null,
       });
     });
   }
 
-  private getService<K extends ServiceKeys>(key: K): DependencyValue<K> | undefined {
-    return this.servicesMap.get(key) as DependencyValue<K> | undefined;
+  private getService<K extends keyof TServicesMap>(
+    key: K,
+  ): DependencyValue<K, TServicesMap> | undefined {
+    return this.servicesMap.get(key) as DependencyValue<K, TServicesMap> | undefined;
   }
 
-  resolve<K extends ServiceKeys>(key: K): InstanceType<ServicesMap[K]> {
+  resolve<K extends keyof TServicesMap>(key: K): InstanceType<TServicesMap[K]> {
     const serviceData = this.getService(key);
 
     if (!serviceData) {
@@ -43,8 +37,8 @@ export class DiContainer {
       return serviceData.instance;
     }
 
-    const proxy = new Proxy({} as ExtendedServiceInstances, {
-      get: (_target, key: ServiceKeys) => {
+    const proxy = new Proxy({} as { [K in keyof TServicesMap]: InstanceType<TServicesMap[K]> }, {
+      get: (_target, key: keyof TServicesMap) => {
         const dependency = this.servicesMap.get(key);
 
         if (!dependency) {
@@ -61,7 +55,7 @@ export class DiContainer {
       throw new Error(`Service ${String(key)} doesn't exist`);
     }
 
-    const instance = new serviceData.service(proxy) as InstanceType<ServicesMap[K]>;
+    const instance = new serviceData.service(proxy) as InstanceType<TServicesMap[K]>;
 
     this.servicesMap.set(key, {
       service: serviceData.service,
@@ -69,12 +63,5 @@ export class DiContainer {
     });
 
     return instance;
-  }
-
-  setInstance(key: ExtendedServiceKeys, instance: any) {
-    this.servicesMap.set(key as any, {
-      service: null,
-      instance,
-    });
   }
 }
