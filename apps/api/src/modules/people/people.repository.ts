@@ -24,18 +24,19 @@ import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class PeopleRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   async findPersonById(personId: number) {
-    return getFirstValue(this.deps.Database.select().from(people).where(eq(people.id, personId)));
+    return getFirstValue(this.deps.db.select().from(people).where(eq(people.id, personId)));
   }
 
   getAll() {
-    return this.deps.Database.select({
-      id: people.id,
-      name: people.name,
-      updatedAt: people.updatedAt,
-    })
+    return this.deps.db
+      .select({
+        id: people.id,
+        name: people.name,
+        updatedAt: people.updatedAt,
+      })
       .from(people)
       .orderBy(asc(people.name));
   }
@@ -43,11 +44,12 @@ export class PeopleRepository {
   getList(queries: GetPeopleListQuery) {
     const filters = this.getListFilters(queries);
 
-    const baseQuery = this.deps.Database.select({
-      id: people.id,
-      name: people.name,
-      selected: people.selected,
-    })
+    const baseQuery = this.deps.db
+      .select({
+        id: people.id,
+        name: people.name,
+        selected: people.selected,
+      })
       .from(people)
       .limit(PAGE_LIMITS.default)
       .offset(getSkipValue('default', queries.pageIndex))
@@ -63,9 +65,11 @@ export class PeopleRepository {
   async count(queries?: GetPeopleListQuery) {
     const filters = this.getListFilters(queries);
 
-    const baseQuery = this.deps.Database.select({
-      count: count(),
-    }).from(people);
+    const baseQuery = this.deps.db
+      .select({
+        count: count(),
+      })
+      .from(people);
 
     if (filters.length) {
       const result = await baseQuery.where(and(...filters));
@@ -79,7 +83,7 @@ export class PeopleRepository {
   }
 
   async createPerson(input: CreatePersonInput) {
-    return getFirstValue(this.deps.Database.insert(people).values(input).returning());
+    return getFirstValue(this.deps.db.insert(people).values(input).returning());
   }
 
   async searchPerson({ q, selected }: SearchPersonQuery) {
@@ -95,20 +99,22 @@ export class PeopleRepository {
       filters.push(eq(people.selected, true));
     }
 
-    const queryResult = await this.deps.Database.select({
-      id: people.id,
-      name: people.name,
-    })
+    const queryResult = await this.deps.db
+      .select({
+        id: people.id,
+        name: people.name,
+      })
       .from(people)
       .where(and(...filters))
       .limit(PAGE_LIMITS.default)
       .orderBy(asc(people.name), asc(people.id));
 
     if (selected) {
-      const selectedPeople = await this.deps.Database.select({
-        id: people.id,
-        name: people.name,
-      })
+      const selectedPeople = await this.deps.db
+        .select({
+          id: people.id,
+          name: people.name,
+        })
         .from(people)
         .where(inArray(people.id, selected))
         .orderBy(asc(people.name), asc(people.id));
@@ -121,16 +127,17 @@ export class PeopleRepository {
 
   async update(id: number, input: UpdatePersonInput) {
     return getFirstValue(
-      this.deps.Database.update(people).set(input).where(eq(people.id, id)).returning(),
+      this.deps.db.update(people).set(input).where(eq(people.id, id)).returning(),
     );
   }
 
   async delete(id: number) {
-    await this.deps.Database.delete(people).where(eq(people.id, id));
+    await this.deps.db.delete(people).where(eq(people.id, id));
   }
 
   getSelected() {
-    return this.deps.Database.select({ id: people.id, name: people.name })
+    return this.deps.db
+      .select({ id: people.id, name: people.name })
       .from(people)
       .where(eq(people.selected, true))
       .orderBy(asc(people.name));
@@ -152,7 +159,8 @@ export class PeopleRepository {
     }
 
     if (queries.role) {
-      const subquery = this.deps.Database.select()
+      const subquery = this.deps.db
+        .select()
         .from(filmsPeople)
         .where(and(eq(filmsPeople.personId, people.id), eq(filmsPeople.role, queries.role)));
 
@@ -160,7 +168,8 @@ export class PeopleRepository {
     }
 
     if (queries.notAssigned) {
-      const subquery = this.deps.Database.select()
+      const subquery = this.deps.db
+        .select()
         .from(filmsPeople)
         .where(and(eq(filmsPeople.personId, people.id)));
 

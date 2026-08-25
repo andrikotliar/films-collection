@@ -1,13 +1,14 @@
 import { contracts } from '@films-collection/api-client';
 import { NotFoundException } from '~/shared/exceptions/not-found.js';
 import { createRouter } from '~/shared/helpers/create-router.js';
+import { getRequestUser } from '~/shared/helpers/get-request-user.js';
 import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 import { validateGetSignature } from '~/shared/pre-handlers/validate-get-signature.js';
 
 export const filmsRouter = createRouter(contracts.films, {
   getList: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getFilteredFilms(request.query);
+      const data = await app.resolve('filmsService').getFilteredFilms(request.query);
 
       return { data };
     },
@@ -15,7 +16,7 @@ export const filmsRouter = createRouter(contracts.films, {
 
   search: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').searchFilm(request.query.q);
+      const data = await app.resolve('filmsService').searchFilm(request.query.q);
 
       return { data };
     },
@@ -23,7 +24,7 @@ export const filmsRouter = createRouter(contracts.films, {
 
   getOptions: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getFilmOptions(request.query);
+      const data = await app.resolve('filmsService').getFilmOptions(request.query);
 
       return { data };
     },
@@ -31,7 +32,7 @@ export const filmsRouter = createRouter(contracts.films, {
 
   getFilmStats: {
     handler: async ({ app }) => {
-      const data = await app.container.resolve('filmsService').getStats();
+      const data = await app.resolve('filmsService').getStats();
 
       return { data };
     },
@@ -40,7 +41,7 @@ export const filmsRouter = createRouter(contracts.films, {
   getAdminList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getAdminList(request.query);
+      const data = await app.resolve('filmsService').getAdminList(request.query);
 
       return { data };
     },
@@ -49,7 +50,7 @@ export const filmsRouter = createRouter(contracts.films, {
   getEditableFilm: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getEditableFilm(request.params.id);
+      const data = await app.resolve('filmsService').getEditableFilm(request.params.id);
 
       return { data };
     },
@@ -58,9 +59,7 @@ export const filmsRouter = createRouter(contracts.films, {
   export: {
     preHandler: [validateGetSignature],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getCompleteData(request.query as any);
+      const data = await app.resolve('filmsService').getCompleteData(request.query as any);
 
       return { data };
     },
@@ -68,7 +67,7 @@ export const filmsRouter = createRouter(contracts.films, {
 
   getById: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getFilmDetails(request.params.id);
+      const data = await app.resolve('filmsService').getFilmDetails(request.params.id);
 
       if (!data) {
         throw new NotFoundException({
@@ -82,9 +81,7 @@ export const filmsRouter = createRouter(contracts.films, {
 
   getTrailers: {
     handler: async ({ request, app }) => {
-      const trailers = await app.container
-        .resolve('filmsService')
-        .getFilmTrailers(request.params.id);
+      const trailers = await app.resolve('filmsService').getFilmTrailers(request.params.id);
 
       return { data: { trailers } };
     },
@@ -93,7 +90,7 @@ export const filmsRouter = createRouter(contracts.films, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').createFilm(request.body);
+      const data = await app.resolve('filmsService').createFilm(request.body);
 
       if (!data) {
         throw new NotFoundException({
@@ -108,9 +105,7 @@ export const filmsRouter = createRouter(contracts.films, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .updateFilm(request.params.id, request.body);
+      const data = await app.resolve('filmsService').updateFilm(request.params.id, request.body);
 
       if (!data) {
         throw new NotFoundException({
@@ -125,7 +120,7 @@ export const filmsRouter = createRouter(contracts.films, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').deleteFilm(request.params.id);
+      const data = await app.resolve('filmsService').deleteFilm(request.params.id);
 
       return { data };
     },
@@ -136,7 +131,7 @@ export const filmsRouter = createRouter(contracts.films, {
     handler: async ({ request, app }) => {
       const user = getRequestUser(request);
 
-      const translatedText = await app.container
+      const translatedText = await app
         .resolve('filmsService')
         .translateDescription(user.id, request.body);
 
@@ -147,7 +142,7 @@ export const filmsRouter = createRouter(contracts.films, {
   createDraft: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
+      const data = await app
         .resolve('filmsService')
         .createDraft(request.params.filmId, request.body);
 
@@ -161,9 +156,7 @@ export const filmsRouter = createRouter(contracts.films, {
   updateDraft: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .updateDraft(request.params.id, request.body);
+      const data = await app.resolve('filmsService').updateDraft(request.params.id, request.body);
 
       return {
         data,
@@ -174,7 +167,7 @@ export const filmsRouter = createRouter(contracts.films, {
   getFilmDrafts: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('filmsService').getDrafts(request.params.filmId);
+      const data = await app.resolve('filmsService').getDrafts(request.params.filmId);
 
       return { data };
     },
@@ -183,7 +176,7 @@ export const filmsRouter = createRouter(contracts.films, {
   deleteDraft: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('filmsService').deleteDraft(request.params.id);
+      await app.resolve('filmsService').deleteDraft(request.params.id);
 
       return { data: { id: request.params.id } };
     },
@@ -192,9 +185,7 @@ export const filmsRouter = createRouter(contracts.films, {
   getByCollection: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getFilmsByCollection(request.params.id);
+      const data = await app.resolve('filmsService').getFilmsByCollection(request.params.id);
 
       return { data };
     },
@@ -203,9 +194,7 @@ export const filmsRouter = createRouter(contracts.films, {
   getAdminFilmById: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getFilmDetails(request.params.id, 'admin');
+      const data = await app.resolve('filmsService').getFilmDetails(request.params.id, 'admin');
 
       if (!data) {
         throw new NotFoundException({
@@ -220,7 +209,7 @@ export const filmsRouter = createRouter(contracts.films, {
   deleteAllFilmDrafts: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('filmsService').deleteAllFilmDrafts(request.params.filmId);
+      await app.resolve('filmsService').deleteAllFilmDrafts(request.params.filmId);
 
       return { data: { ok: true } };
     },
@@ -228,9 +217,7 @@ export const filmsRouter = createRouter(contracts.films, {
 
   getFilmByCollectionName: {
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('filmsService')
-        .getFilmByCollectionName(request.query.title);
+      const data = await app.resolve('filmsService').getFilmByCollectionName(request.query.title);
 
       return { data };
     },

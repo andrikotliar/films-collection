@@ -13,7 +13,7 @@ export const StudioResponseSchema = z.object({
 });
 
 export const StudiosResponseSchema = getListResponseSchema(
-  z.array(StudioResponseSchema.omit({ createdAt: true, updatedAt: true })),
+  z.array(StudioResponseSchema.omit({ createdAt: true })),
 );
 
 export type StudioInput = z.infer<typeof StudioInputSchema>;

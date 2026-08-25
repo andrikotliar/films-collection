@@ -33,27 +33,27 @@ const statBlocks = ['genres', 'collections', 'countries', 'studios', 'types', 's
 export class FilmsService {
   constructor(
     private readonly deps: Deps<
-      | 'FilmsRepository'
-      | 'PeopleService'
-      | 'AwardsService'
-      | 'CollectionsService'
-      | 'CollectionEventsService'
-      | 'GenresService'
-      | 'CountriesService'
-      | 'StudiosService'
-      | 'AiService'
-      | 'UsersService'
-      | 'InMemoryCacheService'
+      | 'filmsRepository'
+      | 'peopleService'
+      | 'awardsService'
+      | 'collectionsService'
+      | 'collectionEventsService'
+      | 'genresService'
+      | 'countriesService'
+      | 'studiosService'
+      | 'aiService'
+      | 'usersService'
+      | 'inMemoryCacheService'
     >,
   ) {
-    deps.InMemoryCacheService.setDefaultValue('filmsCount', 0);
-    deps.InMemoryCacheService.setDefaultValue('anniversary', { film: null, date: null });
-    deps.InMemoryCacheService.setDefaultValue('statistic', []);
+    deps.inMemoryCacheService.setDefaultValue('filmsCount', 0);
+    deps.inMemoryCacheService.setDefaultValue('anniversary', { film: null, date: null });
+    deps.inMemoryCacheService.setDefaultValue('statistic', []);
   }
 
   private getAllFilmsCount() {
-    return this.deps.InMemoryCacheService.getOrSet('filmsCount', () =>
-      this.deps.FilmsRepository.countPublishedFilms(),
+    return this.deps.inMemoryCacheService.getOrSet('filmsCount', () =>
+      this.deps.filmsRepository.countPublishedFilms(),
     );
   }
 
@@ -61,17 +61,17 @@ export class FilmsService {
     const date = new Date();
     const dateParams = `${date.getDate()}${date.getMonth()}${date.getFullYear()}`;
 
-    const anniversaryCache = this.deps.InMemoryCacheService.get('anniversary');
+    const anniversaryCache = this.deps.inMemoryCacheService.get('anniversary');
 
     if (anniversaryCache.date === dateParams) {
       return anniversaryCache.film;
     }
 
-    const list = await this.deps.FilmsRepository.getAnniversaries();
+    const list = await this.deps.filmsRepository.getAnniversaries();
 
     const film = list[0] ?? null;
 
-    this.deps.InMemoryCacheService.set('anniversary', {
+    this.deps.inMemoryCacheService.set('anniversary', {
       date: dateParams,
       film,
     });
@@ -80,7 +80,7 @@ export class FilmsService {
   }
 
   async getFilteredFilms(queries: GetFilmsListQuery) {
-    const data = await this.deps.FilmsRepository.findAndCount({
+    const data = await this.deps.filmsRepository.findAndCount({
       ...queries,
       order: queries.order ?? 'desc',
       orderKey: queries.collectionId ? 'collectionOrder' : queries.orderKey ?? 'releaseDate',
@@ -102,7 +102,7 @@ export class FilmsService {
           : null,
     }));
 
-    const events = await this.deps.CollectionEventsService.findTodayEvents();
+    const events = await this.deps.collectionEventsService.findTodayEvents();
     const anniversary = await this.getAnniversaryFilm();
 
     return {
@@ -117,7 +117,7 @@ export class FilmsService {
   }
 
   async getFilmDetails(id: number, level: 'admin' | 'public' = 'public') {
-    const film = await this.deps.FilmsRepository.findById(id, level);
+    const film = await this.deps.filmsRepository.findById(id, level);
 
     if (!film) {
       return null;
@@ -132,7 +132,7 @@ export class FilmsService {
     if (!searchString) {
       return [];
     }
-    const films = await this.deps.FilmsRepository.searchByTitle(searchString);
+    const films = await this.deps.filmsRepository.searchByTitle(searchString);
 
     return films.map((film) => ({
       ...film,
@@ -141,7 +141,7 @@ export class FilmsService {
   }
 
   async getAdminList(queries: GetAdminListQueryParams) {
-    const data = await this.deps.FilmsRepository.findAndCount(
+    const data = await this.deps.filmsRepository.findAndCount(
       {
         ...queries,
         orderKey: queries.orderKey ?? 'updatedAt',
@@ -158,7 +158,7 @@ export class FilmsService {
   }
 
   async getEditableFilm(id: number) {
-    const film = await throwIfNotFound(this.deps.FilmsRepository.getEditableFilm(id));
+    const film = await throwIfNotFound(this.deps.filmsRepository.getEditableFilm(id));
 
     return mapAdminFilmDetails(film);
   }
@@ -166,20 +166,20 @@ export class FilmsService {
   async createFilm(input: CreateFilmInput) {
     const { tempDraftId, ...payload } = input;
 
-    const { filmId } = await this.deps.FilmsRepository.create(payload);
+    const { filmId } = await this.deps.filmsRepository.create(payload);
 
-    this.deps.InMemoryCacheService.resetValue('filmsCount');
-    this.deps.InMemoryCacheService.resetValue('statistic');
+    this.deps.inMemoryCacheService.resetValue('filmsCount');
+    this.deps.inMemoryCacheService.resetValue('statistic');
 
     if (tempDraftId) {
-      await this.deps.FilmsRepository.deleteDraft(tempDraftId);
+      await this.deps.filmsRepository.deleteDraft(tempDraftId);
     }
 
     return await this.getFilmDetails(filmId, 'admin');
   }
 
   async getFilmsByCollection(collectionId: number) {
-    const films = await this.deps.FilmsRepository.getByCollectionId(collectionId);
+    const films = await this.deps.filmsRepository.getByCollectionId(collectionId);
 
     return films;
   }
@@ -188,7 +188,7 @@ export class FilmsService {
     const { personId, personRole, collectionId, awardId } = query;
 
     if (personId && personRole) {
-      const crewMember = await this.deps.PeopleService.getPersonById(personId);
+      const crewMember = await this.deps.peopleService.getPersonById(personId);
 
       if (!crewMember) {
         return null;
@@ -204,7 +204,7 @@ export class FilmsService {
     }
 
     if (collectionId) {
-      const collection = await this.deps.CollectionsService.getCollectionById(collectionId);
+      const collection = await this.deps.collectionsService.getCollectionById(collectionId);
 
       if (!collection) {
         return null;
@@ -217,7 +217,7 @@ export class FilmsService {
     }
 
     if (awardId) {
-      const award = await this.deps.AwardsService.getBaseAwardData(awardId);
+      const award = await this.deps.awardsService.getBaseAwardData(awardId);
 
       if (!award) {
         return null;
@@ -233,7 +233,7 @@ export class FilmsService {
   }
 
   async getFilmOptions(queries: GetFilmOptionsQuery) {
-    const films = await this.deps.FilmsRepository.getFilmsListByQuery(queries);
+    const films = await this.deps.filmsRepository.getFilmsListByQuery(queries);
 
     return films.map((film) => ({
       label: film.title,
@@ -242,26 +242,26 @@ export class FilmsService {
   }
 
   async deleteFilm(id: number) {
-    await this.deps.FilmsRepository.softDelete(id, new Date().toISOString());
+    await this.deps.filmsRepository.softDelete(id, new Date().toISOString());
 
     return { id };
   }
 
   async updateFilm(filmId: number, input: UpdateFilmInput) {
-    await this.deps.FilmsRepository.updateFilm(filmId, input);
-    await this.deps.FilmsRepository.deleteAllDraftsOfFilm(filmId.toString());
-    this.deps.InMemoryCacheService.resetValue('statistic');
+    await this.deps.filmsRepository.updateFilm(filmId, input);
+    await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
+    this.deps.inMemoryCacheService.resetValue('statistic');
     return this.getFilmDetails(filmId, 'admin');
   }
 
   async getCompleteData(queries: GetCompleteDataListQuery): Promise<CompleteDataResponse> {
-    const films = await this.deps.FilmsRepository.getCompleteData(queries);
-    const genres = await this.deps.GenresService.getBaseListData({});
-    const countries = await this.deps.CountriesService.getBaseDataList({});
-    const studios = await this.deps.StudiosService.getBaseDataList({});
-    const awards = await this.deps.AwardsService.getAwardsWithNominations();
-    const people = await this.deps.PeopleService.getAll();
-    const collections = await this.deps.CollectionsService.getChapterRelatedCollections();
+    const films = await this.deps.filmsRepository.getCompleteData(queries);
+    const genres = await this.deps.genresService.getBaseListData({});
+    const countries = await this.deps.countriesService.getBaseDataList({});
+    const studios = await this.deps.studiosService.getBaseDataList({});
+    const awards = await this.deps.awardsService.getAwardsWithNominations();
+    const people = await this.deps.peopleService.getAll();
+    const collections = await this.deps.collectionsService.getChapterRelatedCollections();
 
     return {
       list: mapCompleteDataList(films),
@@ -290,7 +290,7 @@ export class FilmsService {
   }
 
   async translateDescription(userId: number, input: TranslateDescriptionInput) {
-    const userPreferences = await this.deps.UsersService.getUserTranslationPreferences(userId);
+    const userPreferences = await this.deps.usersService.getUserTranslationPreferences(userId);
 
     if (!userPreferences.translationPreferences) {
       throw new BadRequestException({
@@ -298,49 +298,49 @@ export class FilmsService {
       });
     }
 
-    return this.deps.AiService.translateToLangPrompt(
+    return this.deps.aiService.translateToLangPrompt(
       input.text,
       userPreferences.translationPreferences,
     );
   }
 
   createDraft(filmId: string, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
-    return throwIfNotFound(this.deps.FilmsRepository.createDraft(filmId, input));
+    return throwIfNotFound(this.deps.filmsRepository.createDraft(filmId, input));
   }
 
   updateDraft(id: number, input: CreateFilmDraftInput): Promise<FilmDraftResponse> {
-    return throwIfNotFound(this.deps.FilmsRepository.updateDraft(id, input.content));
+    return throwIfNotFound(this.deps.filmsRepository.updateDraft(id, input.content));
   }
 
   getDrafts(filmId: string): Promise<FilmDraftResponse[]> {
-    return this.deps.FilmsRepository.getDrafts(filmId);
+    return this.deps.filmsRepository.getDrafts(filmId);
   }
 
   deleteDraft(id: number) {
-    return this.deps.FilmsRepository.deleteDraft(id);
+    return this.deps.filmsRepository.deleteDraft(id);
   }
 
   getFilmTrailers(id: number) {
-    return this.deps.FilmsRepository.getTrailersByFilmId(id);
+    return this.deps.filmsRepository.getTrailersByFilmId(id);
   }
 
   private async aggregate(key: (typeof statBlocks)[number]) {
     switch (key) {
       case 'collections':
-        return await this.deps.FilmsRepository.aggregateFilmCollections();
+        return await this.deps.filmsRepository.aggregateFilmCollections();
       case 'genres':
-        return await this.deps.FilmsRepository.aggregateFilmGenres();
+        return await this.deps.filmsRepository.aggregateFilmGenres();
       case 'countries':
-        return await this.deps.FilmsRepository.aggregateFilmCountries();
+        return await this.deps.filmsRepository.aggregateFilmCountries();
       case 'studios':
-        return await this.deps.FilmsRepository.aggregateFilmStudios();
+        return await this.deps.filmsRepository.aggregateFilmStudios();
       case 'types':
-        return (await this.deps.FilmsRepository.aggregateFilmTypes()).map((item) => ({
+        return (await this.deps.filmsRepository.aggregateFilmTypes()).map((item) => ({
           ...item,
           title: convertEnumValueToLabel(item.title),
         }));
       case 'styles':
-        return (await this.deps.FilmsRepository.aggregateFilmStyles()).map((item) => ({
+        return (await this.deps.filmsRepository.aggregateFilmStyles()).map((item) => ({
           ...item,
           title: convertEnumValueToLabel(item.title),
         }));
@@ -350,7 +350,7 @@ export class FilmsService {
   }
 
   async getStats(): Promise<FilmStatsResponse> {
-    const cachedValue = this.deps.InMemoryCacheService.get('statistic');
+    const cachedValue = this.deps.inMemoryCacheService.get('statistic');
     const filmsTotal = await this.getAllFilmsCount();
 
     if (cachedValue.length) {
@@ -365,25 +365,25 @@ export class FilmsService {
       result.push({ block, stats });
     }
 
-    this.deps.InMemoryCacheService.set('statistic', result);
+    this.deps.inMemoryCacheService.set('statistic', result);
 
     return { stats: result, filmsTotal };
   }
 
   async deleteAllFilmDrafts(filmId: string) {
-    return this.deps.FilmsRepository.deleteAllDraftsOfFilm(filmId);
+    return this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId);
   }
 
   linkCollectionToFilms(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
-    return this.deps.FilmsRepository.linkFilmToCollection(input);
+    return this.deps.filmsRepository.linkFilmToCollection(input);
   }
 
   unlinkCollection(collectionId: number) {
-    return this.deps.FilmsRepository.unlinkCollection(collectionId);
+    return this.deps.filmsRepository.unlinkCollection(collectionId);
   }
 
   getFilmByCollectionName(title: string) {
-    return throwIfNotFound(this.deps.FilmsRepository.getFilmByCollectionTitleAndDay(title));
+    return throwIfNotFound(this.deps.filmsRepository.getFilmByCollectionTitleAndDay(title));
   }
 
   private getValidatedOptions<T extends { updatedAt: string }>(

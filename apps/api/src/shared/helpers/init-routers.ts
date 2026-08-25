@@ -37,7 +37,7 @@ export const initRouters = (routes: Router['routes']) => {
         },
         preHandler: route.preHandler,
         handler: async (request: any, reply) => {
-          const result = await route.handler({ request, reply, services: app.services });
+          const result = await route.handler({ request, reply, app });
 
           const code = result.status ? ResponseCode[result.status] : ResponseCode.OK;
 

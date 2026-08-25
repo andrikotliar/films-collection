@@ -3,9 +3,9 @@ import type z from 'zod';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class FilesService {
-  constructor(private readonly deps: Deps<'StorageService'>) {}
+  constructor(private readonly deps: Deps<'storageService'>) {}
 
   getUploadUrl(payload: z.infer<typeof UploadFilePayloadSchema>) {
-    return this.deps.StorageService.getUploadUrl(payload);
+    return this.deps.storageService.getUploadUrl(payload);
   }
 }

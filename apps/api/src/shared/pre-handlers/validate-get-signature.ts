@@ -40,9 +40,7 @@ export const validateGetSignature = async (request: FastifyRequest): Promise<voi
 
   const payload = `${method}.${path}.${timestamp}`;
 
-  const signatureSecret = request.server.container
-    .resolve('configService')
-    .getKey('SIGNATURE_SECRET');
+  const signatureSecret = request.server.resolve('configService').getKey('SIGNATURE_SECRET');
 
   const expectedSignature = crypto
     .createHmac('sha256', signatureSecret)

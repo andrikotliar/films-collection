@@ -12,33 +12,33 @@ import type { RequestUser } from '~/shared/helpers/get-request-user.js';
 import { BadRequestException } from '~/shared/exceptions/bad-request.js';
 
 export class UsersService {
-  constructor(private readonly deps: Deps<'UsersRepository' | 'Jwt'>) {}
+  constructor(private readonly deps: Deps<'usersRepository' | 'jwt'>) {}
 
   getUser(userId: number) {
-    return this.deps.UsersRepository.findById(userId);
+    return this.deps.usersRepository.findById(userId);
   }
 
   async getUserByUsername(username: string) {
-    return this.deps.UsersRepository.findByUsernameWithPassword(username);
+    return this.deps.usersRepository.findByUsernameWithPassword(username);
   }
 
   async setRefreshToken(userId: number, sessionId: string, token: string | null) {
     const now = new Date();
-    return this.deps.UsersRepository.updateSession(userId, sessionId, {
+    return this.deps.usersRepository.updateSession(userId, sessionId, {
       refreshToken: token,
       lastActivityAt: now.toISOString(),
     });
   }
 
   async getUserSession(userId: number, sessionId: string) {
-    return this.deps.UsersRepository.getUserSession(userId, sessionId);
+    return this.deps.usersRepository.getUserSession(userId, sessionId);
   }
 
   async createUserSession(payload: Pick<UserSession, 'deviceInfo' | 'refreshToken' | 'userId'>) {
     const now = new Date();
-    await this.deps.UsersRepository.clearStaledSessions(payload.userId);
+    await this.deps.usersRepository.clearStaledSessions(payload.userId);
     return throwIfNotFound(
-      this.deps.UsersRepository.createSession({
+      this.deps.usersRepository.createSession({
         ...payload,
         sessionId: crypto.randomUUID(),
         lastActivityAt: now.toISOString(),
@@ -47,11 +47,11 @@ export class UsersService {
   }
 
   deleteSession(sessionId: string) {
-    return this.deps.UsersRepository.removeSession(sessionId);
+    return this.deps.usersRepository.removeSession(sessionId);
   }
 
   async getUserSessions(user: RequestUser): Promise<UserSessionResponse[]> {
-    const sessions = await this.deps.UsersRepository.getSessions(user.id);
+    const sessions = await this.deps.usersRepository.getSessions(user.id);
 
     return sessions.map((session) => ({
       id: session.id,
@@ -62,14 +62,14 @@ export class UsersService {
   }
 
   terminateSession(id: number) {
-    return this.deps.UsersRepository.terminateSession(id);
+    return this.deps.usersRepository.terminateSession(id);
   }
 
   async updateTranslationPreferences(userId: number, payload: UpdateUserTranslationPreferences) {
-    const user = await throwIfNotFound(this.deps.UsersRepository.findByUserIdWithPassword(userId));
+    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
 
     const data = await throwIfNotFound(
-      this.deps.UsersRepository.update(user.id, {
+      this.deps.usersRepository.update(user.id, {
         translationPreferences: payload,
       }),
     );
@@ -80,7 +80,7 @@ export class UsersService {
   }
 
   async updatePassword(userId: number, payload: UpdateUserPasswordInput) {
-    const user = await throwIfNotFound(this.deps.UsersRepository.findByUserIdWithPassword(userId));
+    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
 
     const isPasswordCorrect = await compare(payload.actualPassword, user.password);
 
@@ -91,7 +91,7 @@ export class UsersService {
     const hashedPassword = await hash(payload.newPassword, 10);
 
     const data = await throwIfNotFound(
-      this.deps.UsersRepository.update(user.id, {
+      this.deps.usersRepository.update(user.id, {
         password: hashedPassword,
       }),
     );
@@ -102,10 +102,10 @@ export class UsersService {
   }
 
   getUserTranslationPreferences(userId: number) {
-    return throwIfNotFound(this.deps.UsersRepository.getTranslationPreferences(userId));
+    return throwIfNotFound(this.deps.usersRepository.getTranslationPreferences(userId));
   }
 
   getDisplayData(userId: number) {
-    return throwIfNotFound(this.deps.UsersRepository.getDisplayData(userId));
+    return throwIfNotFound(this.deps.usersRepository.getDisplayData(userId));
   }
 }

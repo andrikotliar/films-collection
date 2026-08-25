@@ -5,25 +5,25 @@ import type { Deps } from '~/shared/types/deps.js';
 export class InitialDataService {
   constructor(
     private readonly deps: Deps<
-      | 'CollectionsService'
-      | 'GenresService'
-      | 'CountriesService'
-      | 'StudiosService'
-      | 'CollectionEventsService'
-      | 'AwardsService'
-      | 'FilmsService'
-      | 'PeopleService'
+      | 'collectionsService'
+      | 'genresService'
+      | 'countriesService'
+      | 'studiosService'
+      | 'collectionEventsService'
+      | 'awardsService'
+      | 'filmsService'
+      | 'peopleService'
     >,
   ) {}
 
   async getOptions(): Promise<InitialDataResponse> {
     const [collections, genres, countries, studios, awards, selectedPeople] = await Promise.all([
-      this.deps.CollectionsService.getListOptions(),
-      this.deps.GenresService.getListOptions(),
-      this.deps.CountriesService.getListOptions(),
-      this.deps.StudiosService.getListOptions(),
-      this.deps.AwardsService.getListOptions(),
-      this.deps.PeopleService.getSelectedListOptions(),
+      this.deps.collectionsService.getListOptions(),
+      this.deps.genresService.getListOptions(),
+      this.deps.countriesService.getListOptions(),
+      this.deps.studiosService.getListOptions(),
+      this.deps.awardsService.getListOptions(),
+      this.deps.peopleService.getSelectedListOptions(),
     ]);
 
     const types = convertEnumValuesToOption(titleType.enumValues);

@@ -15,6 +15,7 @@ import { CollectionsRepository } from '~/modules/collections/collections.reposit
 import { collectionsRouter } from '~/modules/collections/collections.router.js';
 import { CollectionsService } from '~/modules/collections/collections.service.js';
 import { ConfigService } from '~/modules/config/config.service.js';
+import { CookiesService } from '~/modules/cookies/cookies.service.js';
 import { CountriesRepository } from '~/modules/countries/countries.repository.js';
 import { countriesRouter } from '~/modules/countries/countries.router.js';
 import { CountriesService } from '~/modules/countries/countries.service.js';
@@ -40,33 +41,34 @@ import { usersRouter } from '~/modules/users/users.router.js';
 import { UsersService } from '~/modules/users/users.service.js';
 
 export const services = {
-  AiService,
-  AuthService,
-  AwardsRepository,
-  AwardsService,
-  ArticlesRepository,
-  ArticlesService,
-  InMemoryCacheService,
-  CollectionEventsRepository,
-  CollectionEventsService,
-  CollectionsRepository,
-  CollectionsService,
-  ConfigService,
-  CountriesRepository,
-  CountriesService,
-  FilesService,
-  FilmsRepository,
-  FilmsService,
-  GenresRepository,
-  GenresService,
-  InitialDataService,
-  PeopleRepository,
-  PeopleService,
-  StorageService,
-  StudiosRepository,
-  StudiosService,
-  UsersRepository,
-  UsersService,
+  aiService: AiService,
+  authService: AuthService,
+  awardsRepository: AwardsRepository,
+  awardsService: AwardsService,
+  articlesRepository: ArticlesRepository,
+  articlesService: ArticlesService,
+  inMemoryCacheService: InMemoryCacheService,
+  collectionEventsRepository: CollectionEventsRepository,
+  collectionEventsService: CollectionEventsService,
+  collectionsRepository: CollectionsRepository,
+  collectionsService: CollectionsService,
+  configService: ConfigService,
+  countriesRepository: CountriesRepository,
+  countriesService: CountriesService,
+  filesService: FilesService,
+  filmsRepository: FilmsRepository,
+  filmsService: FilmsService,
+  genresRepository: GenresRepository,
+  genresService: GenresService,
+  initialDataService: InitialDataService,
+  peopleRepository: PeopleRepository,
+  peopleService: PeopleService,
+  storageService: StorageService,
+  studiosRepository: StudiosRepository,
+  studiosService: StudiosService,
+  usersRepository: UsersRepository,
+  usersService: UsersService,
+  cookiesService: CookiesService,
 };
 
 export const routes = [

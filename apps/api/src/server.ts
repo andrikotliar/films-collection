@@ -19,7 +19,7 @@ import type { ServiceInstances } from '~/shared/types/deps.js';
 declare module 'fastify' {
   export interface FastifyInstance {
     db: Database;
-    services: ServiceInstances;
+    resolve: <K extends keyof ServiceInstances>(key: K) => ServiceInstances[K];
   }
 }
 

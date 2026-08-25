@@ -27,7 +27,10 @@ export class DiContainer<TServicesMap extends Record<PropertyKey, any>> {
   }
 
   resolve<K extends keyof TServicesMap>(key: K): InstanceType<TServicesMap[K]> {
+    console.log(key);
     const serviceData = this.getService(key);
+
+    console.log(serviceData);
 
     if (!serviceData) {
       throw new Error(`Service ${String(key)} is not registered`);

@@ -13,21 +13,21 @@ import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 const MAX_WORDS_LIMIT = 30;
 
 export class ArticlesService {
-  constructor(private readonly deps: Deps<'ArticlesRepository'>) {}
+  constructor(private readonly deps: Deps<'articlesRepository'>) {}
 
   get(id: number) {
-    return throwIfNotFound(this.deps.ArticlesRepository.get(id));
+    return throwIfNotFound(this.deps.articlesRepository.get(id));
   }
 
   getBySlug(key: string) {
-    return throwIfNotFound(this.deps.ArticlesRepository.getBySlug(key));
+    return throwIfNotFound(this.deps.articlesRepository.getBySlug(key));
   }
 
   create(input: CreateArticleInput) {
     const sanitizedContent = sanitize(input.content, SANITIZE_CONFIG);
 
     return throwIfNotFound(
-      this.deps.ArticlesRepository.create({
+      this.deps.articlesRepository.create({
         ...input,
         content: sanitizedContent,
       }),
@@ -39,18 +39,18 @@ export class ArticlesService {
       const sanitizedContent = sanitize(input.content, SANITIZE_CONFIG);
 
       return throwIfNotFound(
-        this.deps.ArticlesRepository.update(id, {
+        this.deps.articlesRepository.update(id, {
           ...input,
           content: sanitizedContent,
         }),
       );
     }
 
-    return throwIfNotFound(this.deps.ArticlesRepository.update(id, input));
+    return throwIfNotFound(this.deps.articlesRepository.update(id, input));
   }
 
   async getList(queries: ArticlesListQueries): Promise<ArticlesListResponse> {
-    const data = await this.deps.ArticlesRepository.list(queries);
+    const data = await this.deps.articlesRepository.list(queries);
 
     if (!data.list.length) {
       return { list: [], total: 0, pageLimit: PAGE_LIMITS.default };
@@ -74,6 +74,6 @@ export class ArticlesService {
   }
 
   async delete(id: number) {
-    await this.deps.ArticlesRepository.delete(id);
+    await this.deps.articlesRepository.delete(id);
   }
 }

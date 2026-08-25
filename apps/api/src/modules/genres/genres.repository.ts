@@ -12,14 +12,15 @@ import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 
 export class GenresRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   getAll() {
-    return this.deps.Database.select({
-      id: genres.id,
-      title: genres.title,
-      updatedAt: genres.updatedAt,
-    })
+    return this.deps.db
+      .select({
+        id: genres.id,
+        title: genres.title,
+        updatedAt: genres.updatedAt,
+      })
       .from(genres)
       .orderBy(asc(genres.title));
   }
@@ -27,11 +28,12 @@ export class GenresRepository {
   async getList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, genres);
 
-    const list = await this.deps.Database.select({
-      id: genres.id,
-      title: genres.title,
-      updatedAt: genres.updatedAt,
-    })
+    const list = await this.deps.db
+      .select({
+        id: genres.id,
+        title: genres.title,
+        updatedAt: genres.updatedAt,
+      })
       .from(genres)
       .where(and(...filters))
       .orderBy(asc(genres.title))
@@ -44,20 +46,20 @@ export class GenresRepository {
   }
 
   create(input: GenreInput) {
-    return getFirstValue(this.deps.Database.insert(genres).values(input).returning());
+    return getFirstValue(this.deps.db.insert(genres).values(input).returning());
   }
 
   async delete(id: number) {
-    await this.deps.Database.delete(genres).where(eq(genres.id, id));
+    await this.deps.db.delete(genres).where(eq(genres.id, id));
   }
 
   update(id: number, input: GenreInput) {
     return getFirstValue(
-      this.deps.Database.update(genres).set(input).where(eq(genres.id, id)).returning(),
+      this.deps.db.update(genres).set(input).where(eq(genres.id, id)).returning(),
     );
   }
 
   count(filters?: SQL[]) {
-    return getCount(this.deps.Database, genres, filters);
+    return getCount(this.deps.db, genres, filters);
   }
 }

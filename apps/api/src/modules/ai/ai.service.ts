@@ -10,8 +10,8 @@ type LangParams = {
 export class AiService {
   private client: OpenAI | null = null;
 
-  constructor({ ConfigService }: Deps<'ConfigService'>) {
-    this.client = new OpenAI({ apiKey: ConfigService.getKey('OPENAI_API_KEY') });
+  constructor({ configService }: Deps<'configService'>) {
+    this.client = new OpenAI({ apiKey: configService.getKey('OPENAI_API_KEY') });
   }
 
   public async createResponse(

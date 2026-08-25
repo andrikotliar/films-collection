@@ -12,14 +12,15 @@ import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 
 export class CountriesRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   getAll() {
-    return this.deps.Database.select({
-      id: countries.id,
-      title: countries.title,
-      updatedAt: countries.updatedAt,
-    })
+    return this.deps.db
+      .select({
+        id: countries.id,
+        title: countries.title,
+        updatedAt: countries.updatedAt,
+      })
       .from(countries)
       .orderBy(asc(countries.title));
   }
@@ -27,11 +28,12 @@ export class CountriesRepository {
   async getList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, countries);
 
-    const list = await this.deps.Database.select({
-      id: countries.id,
-      title: countries.title,
-      updatedAt: countries.updatedAt,
-    })
+    const list = await this.deps.db
+      .select({
+        id: countries.id,
+        title: countries.title,
+        updatedAt: countries.updatedAt,
+      })
       .from(countries)
       .where(and(...filters))
       .orderBy(asc(countries.title))
@@ -44,20 +46,20 @@ export class CountriesRepository {
   }
 
   create(input: CountryInput) {
-    return getFirstValue(this.deps.Database.insert(countries).values(input).returning());
+    return getFirstValue(this.deps.db.insert(countries).values(input).returning());
   }
 
   async delete(id: number) {
-    await this.deps.Database.delete(countries).where(eq(countries.id, id));
+    await this.deps.db.delete(countries).where(eq(countries.id, id));
   }
 
   update(id: number, input: CountryInput) {
     return getFirstValue(
-      this.deps.Database.update(countries).set(input).where(eq(countries.id, id)).returning(),
+      this.deps.db.update(countries).set(input).where(eq(countries.id, id)).returning(),
     );
   }
 
   count(filters?: SQL[]) {
-    return getCount(this.deps.Database, countries, filters);
+    return getCount(this.deps.db, countries, filters);
   }
 }

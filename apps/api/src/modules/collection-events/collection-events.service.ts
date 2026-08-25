@@ -8,8 +8,8 @@ import {
 import type { Deps } from '~/shared/types/deps.js';
 
 export class CollectionEventsService {
-  constructor(private readonly deps: Deps<'CollectionEventsRepository' | 'InMemoryCacheService'>) {
-    deps.InMemoryCacheService.setDefaultValue('todayEvents', {
+  constructor(private readonly deps: Deps<'collectionEventsRepository' | 'inMemoryCacheService'>) {
+    deps.inMemoryCacheService.setDefaultValue('todayEvents', {
       dateCode: 0,
       events: null,
     });
@@ -26,29 +26,29 @@ export class CollectionEventsService {
   }
 
   private resetCachedEvent(startCode: number, endCode: number) {
-    const cachedData = this.deps.InMemoryCacheService.get('todayEvents');
+    const cachedData = this.deps.inMemoryCacheService.get('todayEvents');
 
     if (
       cachedData?.dateCode &&
       cachedData.dateCode >= startCode &&
       cachedData.dateCode <= endCode
     ) {
-      this.deps.InMemoryCacheService.resetValue('todayEvents');
+      this.deps.inMemoryCacheService.resetValue('todayEvents');
     }
   }
 
   async findTodayEvents() {
     const dateCode = this.getTodayCode();
 
-    const cachedData = this.deps.InMemoryCacheService.get('todayEvents');
+    const cachedData = this.deps.inMemoryCacheService.get('todayEvents');
 
     if (dateCode === cachedData?.dateCode && cachedData.events) {
       return cachedData.events;
     }
 
-    const events = await this.deps.CollectionEventsRepository.getEvents(dateCode);
+    const events = await this.deps.collectionEventsRepository.getEvents(dateCode);
 
-    this.deps.InMemoryCacheService.set('todayEvents', {
+    this.deps.inMemoryCacheService.set('todayEvents', {
       dateCode,
       events,
     });
@@ -57,9 +57,9 @@ export class CollectionEventsService {
   }
 
   async createEvent(input: CreateCollectionEventInput) {
-    const [createdEvent] = await this.deps.CollectionEventsRepository.createEvent(
-      input,
-    ).returning();
+    const [createdEvent] = await this.deps.collectionEventsRepository
+      .createEvent(input)
+      .returning();
 
     this.resetCachedEvent(createdEvent.startDateCode, createdEvent.endDateCode);
 
@@ -67,14 +67,13 @@ export class CollectionEventsService {
   }
 
   async deleteEvent(id: number) {
-    await this.deps.CollectionEventsRepository.deleteEvent(id);
+    await this.deps.collectionEventsRepository.deleteEvent(id);
   }
 
   async updateEvent(id: number, input: UpdateCollectionEventInput) {
-    const [updatedEvent] = await this.deps.CollectionEventsRepository.updateEvent(
-      id,
-      input,
-    ).returning();
+    const [updatedEvent] = await this.deps.collectionEventsRepository
+      .updateEvent(id, input)
+      .returning();
 
     this.resetCachedEvent(updatedEvent.startDateCode, updatedEvent.endDateCode);
 
@@ -82,7 +81,7 @@ export class CollectionEventsService {
   }
 
   async getList(queries: CommonListQueryParams): Promise<CollectionEventsListResponse> {
-    const { list, total } = await this.deps.CollectionEventsRepository.getList(queries);
+    const { list, total } = await this.deps.collectionEventsRepository.getList(queries);
 
     return { list, total, pageLimit: PAGE_LIMITS.default };
   }

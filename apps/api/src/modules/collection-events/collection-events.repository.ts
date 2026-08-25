@@ -13,22 +13,23 @@ import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 
 export class CollectionEventsRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   async getEventById(id: number) {
     return getFirstValue(
-      this.deps.Database.select().from(collectionEvents).where(eq(collectionEvents.id, id)),
+      this.deps.db.select().from(collectionEvents).where(eq(collectionEvents.id, id)),
     );
   }
 
   getEvents(dateCode: number) {
-    return this.deps.Database.select({
-      id: collectionEvents.id,
-      title: collectionEvents.title,
-      yearFrom: collectionEvents.yearFrom,
-      collectionId: collectionEvents.collectionId,
-      poster: films.poster,
-    })
+    return this.deps.db
+      .select({
+        id: collectionEvents.id,
+        title: collectionEvents.title,
+        yearFrom: collectionEvents.yearFrom,
+        collectionId: collectionEvents.collectionId,
+        poster: films.poster,
+      })
       .from(collectionEvents)
       .innerJoin(films, eq(films.id, collectionEvents.titleFilmId))
       .where(
@@ -51,15 +52,16 @@ export class CollectionEventsRepository {
 
   async getList(queries: CommonListQueryParams) {
     const filters = mapCommonFilters(queries, collectionEvents);
-    const list = await this.deps.Database.select({
-      id: collectionEvents.id,
-      title: collectionEvents.title,
-      yearFrom: collectionEvents.yearFrom,
-      startDateCode: collectionEvents.startDateCode,
-      endDateCode: collectionEvents.endDateCode,
-      titleFilmId: collectionEvents.titleFilmId,
-      collectionId: collectionEvents.collectionId,
-    })
+    const list = await this.deps.db
+      .select({
+        id: collectionEvents.id,
+        title: collectionEvents.title,
+        yearFrom: collectionEvents.yearFrom,
+        startDateCode: collectionEvents.startDateCode,
+        endDateCode: collectionEvents.endDateCode,
+        titleFilmId: collectionEvents.titleFilmId,
+        collectionId: collectionEvents.collectionId,
+      })
       .from(collectionEvents)
       .where(and(...filters))
       .orderBy(asc(collectionEvents.startDateCode))
@@ -72,18 +74,18 @@ export class CollectionEventsRepository {
   }
 
   count(filters?: SQL[]) {
-    return getCount(this.deps.Database, collectionEvents, filters);
+    return getCount(this.deps.db, collectionEvents, filters);
   }
 
   createEvent(data: CreateCollectionEventInput) {
-    return this.deps.Database.insert(collectionEvents).values(data);
+    return this.deps.db.insert(collectionEvents).values(data);
   }
 
   updateEvent(id: number, data: UpdateCollectionEventInput) {
-    return this.deps.Database.update(collectionEvents).set(data).where(eq(collectionEvents.id, id));
+    return this.deps.db.update(collectionEvents).set(data).where(eq(collectionEvents.id, id));
   }
 
   deleteEvent(id: number) {
-    return this.deps.Database.delete(collectionEvents).where(eq(collectionEvents.id, id));
+    return this.deps.db.delete(collectionEvents).where(eq(collectionEvents.id, id));
   }
 }

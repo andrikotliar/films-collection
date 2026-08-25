@@ -11,21 +11,21 @@ import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class PeopleService {
-  constructor(private readonly deps: Deps<'PeopleRepository'>) {}
+  constructor(private readonly deps: Deps<'peopleRepository'>) {}
 
   async getList(queries: GetPeopleListQuery): Promise<PeopleListResponse> {
-    const list = await this.deps.PeopleRepository.getList(queries);
-    const total = await this.deps.PeopleRepository.count(queries);
+    const list = await this.deps.peopleRepository.getList(queries);
+    const total = await this.deps.peopleRepository.count(queries);
 
     return { list, total, pageLimit: PAGE_LIMITS.default };
   }
 
   getPersonById(personId: number) {
-    return throwIfNotFound(this.deps.PeopleRepository.findPersonById(personId));
+    return throwIfNotFound(this.deps.peopleRepository.findPersonById(personId));
   }
 
   async searchPerson(queries: SearchPersonQuery) {
-    const data = await this.deps.PeopleRepository.searchPerson(queries);
+    const data = await this.deps.peopleRepository.searchPerson(queries);
 
     return data.map((person) => ({
       label: person.name,
@@ -34,20 +34,20 @@ export class PeopleService {
   }
 
   createPerson(input: CreatePersonInput) {
-    return throwIfNotFound(this.deps.PeopleRepository.createPerson(input));
+    return throwIfNotFound(this.deps.peopleRepository.createPerson(input));
   }
 
   async updatePerson(id: number, input: UpdatePersonInput) {
-    await throwIfNotFound(this.deps.PeopleRepository.findPersonById(id));
-    return throwIfNotFound(this.deps.PeopleRepository.update(id, input));
+    await throwIfNotFound(this.deps.peopleRepository.findPersonById(id));
+    return throwIfNotFound(this.deps.peopleRepository.update(id, input));
   }
 
   async deletePerson(id: number) {
-    await this.deps.PeopleRepository.delete(id);
+    await this.deps.peopleRepository.delete(id);
   }
 
   async getSelectedListOptions(): Promise<ListOption<number>[]> {
-    const people = await this.deps.PeopleRepository.getSelected();
+    const people = await this.deps.peopleRepository.getSelected();
 
     return people.map((person) => ({
       value: person.id,
@@ -56,6 +56,6 @@ export class PeopleService {
   }
 
   getAll() {
-    return this.deps.PeopleRepository.getAll();
+    return this.deps.peopleRepository.getAll();
   }
 }

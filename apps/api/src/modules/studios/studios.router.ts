@@ -5,8 +5,8 @@ import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 export const studiosRouter = createRouter(contracts.studios, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app, request }) => {
-      const data = await app.container.resolve('studiosService').getBaseDataList(request.query);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('studiosService').getBaseDataList(request.query);
 
       return { data };
     },
@@ -15,7 +15,7 @@ export const studiosRouter = createRouter(contracts.studios, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('studiosService').createStudio(request.body);
+      const data = await app.resolve('studiosService').createStudio(request.body);
 
       return { data, status: 'CREATED' };
     },
@@ -24,7 +24,7 @@ export const studiosRouter = createRouter(contracts.studios, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
+      const data = await app
         .resolve('studiosService')
         .updateStudio(request.params.id, request.body);
 
@@ -35,7 +35,7 @@ export const studiosRouter = createRouter(contracts.studios, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('studiosService').deleteStudio(request.params.id);
+      await app.resolve('studiosService').deleteStudio(request.params.id);
 
       return {
         data: { id: request.params.id },

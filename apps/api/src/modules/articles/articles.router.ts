@@ -6,23 +6,23 @@ import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 export const articlesRouter = createRouter(contracts.articles, {
   create: {
     preHandler: [validateAuth],
-    handler: async ({ request, services: { ArticlesService } }) => {
-      const data = await ArticlesService.create(request.body);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('articlesService').create(request.body);
 
       return { data, status: 'CREATED' };
     },
   },
   getAdminList: {
     preHandler: [validateAuth],
-    handler: async ({ request, services: { ArticlesService } }) => {
-      const data = await ArticlesService.getList(request.query);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('articlesService').getList(request.query);
 
       return { data };
     },
   },
   getBySlug: {
-    handler: async ({ request, services: { ArticlesService } }) => {
-      const data = await ArticlesService.getBySlug(request.params.slug);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('articlesService').getBySlug(request.params.slug);
 
       if (!data) {
         throw new NotFoundException({
@@ -34,24 +34,24 @@ export const articlesRouter = createRouter(contracts.articles, {
     },
   },
   getById: {
-    handler: async ({ request, services: { ArticlesService } }) => {
-      const data = await ArticlesService.get(request.params.id);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('articlesService').get(request.params.id);
 
       return { data };
     },
   },
   update: {
     preHandler: [validateAuth],
-    handler: async ({ request, services: { ArticlesService } }) => {
-      const data = await ArticlesService.update(request.params.id, request.body);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('articlesService').update(request.params.id, request.body);
 
       return { data };
     },
   },
   delete: {
     preHandler: [validateAuth],
-    handler: async ({ request, services: { ArticlesService } }) => {
-      await ArticlesService.delete(request.params.id);
+    handler: async ({ request, app }) => {
+      await app.resolve('articlesService').delete(request.params.id);
 
       return { data: { id: request.params.id } };
     },

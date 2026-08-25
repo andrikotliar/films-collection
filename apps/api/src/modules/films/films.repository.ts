@@ -73,12 +73,13 @@ type UpdateRelationsParams<T extends PgTableWithColumns<AnyTable>, V extends PgI
 type FilterLevel = 'public' | 'admin';
 
 export class FilmsRepository {
-  constructor(private readonly deps: Deps<'Database'>) {}
+  constructor(private readonly deps: Deps<'db'>) {}
 
   async count(filters?: (SQL | undefined)[]) {
     if (filters) {
       const result = await getFirstValue(
-        this.deps.Database.select({ count: count() })
+        this.deps.db
+          .select({ count: count() })
           .from(films)
           .where(and(...filters)),
       );
@@ -86,7 +87,7 @@ export class FilmsRepository {
       return result?.count ?? 0;
     }
 
-    const result = await getFirstValue(this.deps.Database.select({ count: count() }).from(films));
+    const result = await getFirstValue(this.deps.db.select({ count: count() }).from(films));
 
     return result?.count ?? 0;
   }
@@ -96,10 +97,11 @@ export class FilmsRepository {
   }
 
   async findAndCount(queries: PlainFilmFilters, level: FilterLevel = 'public') {
-    const { filters, drafts } = mapListFilters(queries, this.deps.Database);
+    const { filters, drafts } = mapListFilters(queries, this.deps.db);
     const sorting = this.mapSorting(queries.orderKey, queries.order, queries);
 
-    const list = await this.deps.Database.select()
+    const list = await this.deps.db
+      .select()
       .from(films)
       .where(and(...filters, drafts))
       .limit(PAGE_LIMITS.filmsList)
@@ -121,7 +123,7 @@ export class FilmsRepository {
       where.push(eq(films.draft, false));
     }
 
-    return this.deps.Database.query.films.findFirst({
+    return this.deps.db.query.films.findFirst({
       where: and(...where),
       columns: {
         id: true,
@@ -227,7 +229,7 @@ export class FilmsRepository {
   }
 
   findByIdAdmin(id: number) {
-    return this.deps.Database.query.films.findFirst({
+    return this.deps.db.query.films.findFirst({
       where: and(eq(films.id, id), isNull(films.deletedAt)),
       columns: {
         id: true,
@@ -296,7 +298,7 @@ export class FilmsRepository {
   }
 
   searchByTitle(query: string) {
-    return this.deps.Database.query.films.findMany({
+    return this.deps.db.query.films.findMany({
       columns: {
         id: true,
         title: true,
@@ -330,14 +332,16 @@ export class FilmsRepository {
       filters.push(notInArray(films.id, selected));
     }
 
-    const queryResult = await this.deps.Database.select({ id: films.id, title: films.title })
+    const queryResult = await this.deps.db
+      .select({ id: films.id, title: films.title })
       .from(films)
       .where(and(...filters))
       .limit(PAGE_LIMITS.default)
       .orderBy(asc(films.title));
 
     if (selected) {
-      const selectedFilms = await this.deps.Database.select({ id: films.id, title: films.title })
+      const selectedFilms = await this.deps.db
+        .select({ id: films.id, title: films.title })
         .from(films)
         .where(inArray(films.id, selected));
 
@@ -348,7 +352,7 @@ export class FilmsRepository {
   }
 
   async softDelete(id: number, date: string) {
-    await this.deps.Database.update(films).set({ deletedAt: date }).where(eq(films.id, id));
+    await this.deps.db.update(films).set({ deletedAt: date }).where(eq(films.id, id));
   }
 
   create(input: Omit<CreateFilmInput, 'tempDraftId'>) {
@@ -364,7 +368,7 @@ export class FilmsRepository {
       ...filmInput
     } = input;
 
-    return this.deps.Database.transaction(async (tr) => {
+    return this.deps.db.transaction(async (tr) => {
       const [newFilm] = await tr
         .insert(films)
         .values({ ...filmInput, addedAt: filmInput.draft ? null : new Date().toISOString() })
@@ -444,7 +448,7 @@ export class FilmsRepository {
   }
 
   getEditableFilm(id: number) {
-    return this.deps.Database.query.films.findFirst({
+    return this.deps.db.query.films.findFirst({
       where: eq(films.id, id),
       columns: {
         title: true,
@@ -519,7 +523,7 @@ export class FilmsRepository {
       ...filmParams
     } = data;
 
-    return this.deps.Database.transaction(async (transaction) => {
+    return this.deps.db.transaction(async (transaction) => {
       const existingFilmData = await transaction
         .select({ draft: films.draft, addedAt: films.addedAt })
         .from(films)
@@ -671,7 +675,7 @@ export class FilmsRepository {
       filters.push(getLatestEntriesFilter(films.updatedAt, queries.intervalDays));
     }
 
-    return this.deps.Database.query.films.findMany({
+    return this.deps.db.query.films.findMany({
       where: and(...filters),
       orderBy: desc(films.updatedAt),
       columns: {
@@ -781,7 +785,8 @@ export class FilmsRepository {
 
   createDraft(filmId: string, input: CreateFilmDraftInput) {
     return getFirstValue(
-      this.deps.Database.insert(filmsDrafts)
+      this.deps.db
+        .insert(filmsDrafts)
         .values({
           filmId,
           content: input.content,
@@ -792,7 +797,8 @@ export class FilmsRepository {
 
   updateDraft(id: number, content: Record<string, unknown>) {
     return getFirstValue(
-      this.deps.Database.update(filmsDrafts)
+      this.deps.db
+        .update(filmsDrafts)
         .set({
           content,
         })
@@ -802,18 +808,19 @@ export class FilmsRepository {
   }
 
   getDrafts(filmId: string) {
-    return this.deps.Database.select()
+    return this.deps.db
+      .select()
       .from(filmsDrafts)
       .where(eq(filmsDrafts.filmId, filmId))
       .orderBy(desc(filmsDrafts.updatedAt));
   }
 
   deleteDraft(id: number) {
-    return this.deps.Database.delete(filmsDrafts).where(eq(filmsDrafts.id, id));
+    return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.id, id));
   }
 
   deleteAllDraftsOfFilm(filmId: string) {
-    return this.deps.Database.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
+    return this.deps.db.delete(filmsDrafts).where(eq(filmsDrafts.filmId, filmId));
   }
 
   getFilmByCollectionTitleAndDay(title: string) {
@@ -823,12 +830,13 @@ export class FilmsRepository {
     const orderValue = digit === 0 ? 10 : digit;
 
     return getFirstValue(
-      this.deps.Database.select({
-        id: films.id,
-        title: films.title,
-        poster: films.poster,
-        order: filmsCollections.order,
-      })
+      this.deps.db
+        .select({
+          id: films.id,
+          title: films.title,
+          poster: films.poster,
+          order: filmsCollections.order,
+        })
         .from(films)
         .innerJoin(
           filmsCollections,
@@ -842,11 +850,12 @@ export class FilmsRepository {
   }
 
   aggregateFilmGenres() {
-    return this.deps.Database.select({
-      id: genres.id,
-      title: genres.title,
-      value: count(),
-    })
+    return this.deps.db
+      .select({
+        id: genres.id,
+        title: genres.title,
+        value: count(),
+      })
       .from(filmsGenres)
       .innerJoin(films, eq(films.id, filmsGenres.filmId))
       .innerJoin(genres, eq(genres.id, filmsGenres.genreId))
@@ -856,11 +865,12 @@ export class FilmsRepository {
   }
 
   aggregateFilmCollections() {
-    return this.deps.Database.select({
-      id: collections.id,
-      title: collections.title,
-      value: count(),
-    })
+    return this.deps.db
+      .select({
+        id: collections.id,
+        title: collections.title,
+        value: count(),
+      })
       .from(filmsCollections)
       .innerJoin(films, eq(films.id, filmsCollections.filmId))
       .innerJoin(collections, eq(collections.id, filmsCollections.collectionId))
@@ -870,11 +880,12 @@ export class FilmsRepository {
   }
 
   aggregateFilmCountries() {
-    return this.deps.Database.select({
-      id: countries.id,
-      title: countries.title,
-      value: count(),
-    })
+    return this.deps.db
+      .select({
+        id: countries.id,
+        title: countries.title,
+        value: count(),
+      })
       .from(filmsCountries)
       .innerJoin(films, eq(films.id, filmsCountries.filmId))
       .innerJoin(countries, eq(countries.id, filmsCountries.countryId))
@@ -884,11 +895,12 @@ export class FilmsRepository {
   }
 
   aggregateFilmStudios() {
-    return this.deps.Database.select({
-      id: studios.id,
-      title: studios.title,
-      value: count(),
-    })
+    return this.deps.db
+      .select({
+        id: studios.id,
+        title: studios.title,
+        value: count(),
+      })
       .from(filmsStudios)
       .innerJoin(films, eq(films.id, filmsStudios.filmId))
       .innerJoin(studios, eq(studios.id, filmsStudios.studioId))
@@ -898,7 +910,8 @@ export class FilmsRepository {
   }
 
   aggregateFilmTypes() {
-    return this.deps.Database.select({ title: films.type, value: count() })
+    return this.deps.db
+      .select({ title: films.type, value: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
       .groupBy(films.type)
@@ -906,7 +919,8 @@ export class FilmsRepository {
   }
 
   aggregateFilmStyles() {
-    return this.deps.Database.select({ title: films.style, value: count() })
+    return this.deps.db
+      .select({ title: films.style, value: count() })
       .from(films)
       .where(this.getPublicFilmsFilter())
       .groupBy(films.style)
@@ -914,18 +928,20 @@ export class FilmsRepository {
   }
 
   getTrailersByFilmId(id: number) {
-    return this.deps.Database.select({ url: filmTrailers.url })
+    return this.deps.db
+      .select({ url: filmTrailers.url })
       .from(filmTrailers)
       .where(and(eq(filmTrailers.filmId, id)));
   }
 
   getByCollectionId(collectionId: number) {
-    return this.deps.Database.select({
-      id: films.id,
-      title: films.title,
-      poster: films.poster,
-      order: filmsCollections.order,
-    })
+    return this.deps.db
+      .select({
+        id: films.id,
+        title: films.title,
+        poster: films.poster,
+        order: filmsCollections.order,
+      })
       .from(films)
       .innerJoin(
         filmsCollections,
@@ -935,7 +951,8 @@ export class FilmsRepository {
   }
 
   async getAnniversaries() {
-    const list = await this.deps.Database.select({ poster: films.poster })
+    const list = await this.deps.db
+      .select({ poster: films.poster })
       .from(films)
       .where(
         and(
@@ -961,13 +978,13 @@ export class FilmsRepository {
   }
 
   linkFilmToCollection(input: Omit<FilmCollection, Timestamps | 'id'>[]) {
-    return this.deps.Database.insert(filmsCollections).values(input);
+    return this.deps.db.insert(filmsCollections).values(input);
   }
 
   unlinkCollection(collectionId: number) {
-    return this.deps.Database.delete(filmsCollections).where(
-      eq(filmsCollections.collectionId, collectionId),
-    );
+    return this.deps.db
+      .delete(filmsCollections)
+      .where(eq(filmsCollections.collectionId, collectionId));
   }
 
   private mapSorting(
@@ -988,7 +1005,8 @@ export class FilmsRepository {
           return fn(films.releaseDate);
         }
         return asc(
-          this.deps.Database.select({ order: filmsCollections.order })
+          this.deps.db
+            .select({ order: filmsCollections.order })
             .from(filmsCollections)
             .where(
               and(

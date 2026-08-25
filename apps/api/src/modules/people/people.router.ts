@@ -6,7 +6,7 @@ export const peopleRouter = createRouter(contracts.people, {
   getList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('peopleService').getList(request.query);
+      const data = await app.resolve('peopleService').getList(request.query);
 
       return { data };
     },
@@ -14,7 +14,7 @@ export const peopleRouter = createRouter(contracts.people, {
 
   search: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('peopleService').searchPerson(request.query);
+      const data = await app.resolve('peopleService').searchPerson(request.query);
 
       return { data };
     },
@@ -23,7 +23,7 @@ export const peopleRouter = createRouter(contracts.people, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('peopleService').createPerson(request.body);
+      const data = await app.resolve('peopleService').createPerson(request.body);
 
       return { data };
     },
@@ -32,9 +32,7 @@ export const peopleRouter = createRouter(contracts.people, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('peopleService')
-        .updatePerson(request.params.id, request.body);
+      const data = await app.resolve('peopleService').updatePerson(request.params.id, request.body);
 
       return { data };
     },
@@ -43,7 +41,7 @@ export const peopleRouter = createRouter(contracts.people, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('peopleService').deletePerson(request.params.id);
+      await app.resolve('peopleService').deletePerson(request.params.id);
 
       return { data: { id: request.params.id } };
     },

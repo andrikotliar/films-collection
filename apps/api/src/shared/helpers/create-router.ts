@@ -1,8 +1,7 @@
 import type { ApiContract, ContractDefinition, RouteSchema } from '@films-collection/api-client';
-import type { FastifyReply, FastifyRequest } from 'fastify';
+import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import type z from 'zod';
 import type { ResponseStatus } from '~/shared/enums/response-code.js';
-import type { ServiceInstances } from '~/shared/types/deps.js';
 
 type InferZod<S, R = undefined> = S extends z.ZodType ? z.infer<S> : R;
 
@@ -17,7 +16,7 @@ type InferResponse<S extends RouteSchema> = InferZod<S['response'], unknown>;
 type HandlerContext<S extends RouteSchema> = {
   request: FastifyRequest<InferRequest<S>>;
   reply: FastifyReply;
-  services: ServiceInstances;
+  app: FastifyInstance;
 };
 
 type PreHandler = (request: FastifyRequest, reply: FastifyReply) => void;
