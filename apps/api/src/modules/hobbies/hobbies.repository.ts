@@ -1,6 +1,6 @@
 import { eq } from 'drizzle-orm';
 import { hobbies, type Hobby } from '~/database/schema.js';
-import type { Deps } from '~/shared/index.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class HobbiesRepository {
   constructor(private readonly deps: Deps<'db'>) {}

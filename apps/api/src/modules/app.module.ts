@@ -27,6 +27,9 @@ import { FilmsService } from '~/modules/films/films.service.js';
 import { GenresRepository } from '~/modules/genres/genres.repository.js';
 import { genresRouter } from '~/modules/genres/genres.router.js';
 import { GenresService } from '~/modules/genres/genres.service.js';
+import { HobbiesRepository } from '~/modules/hobbies/hobbies.repository.js';
+import { hobbiesRouter } from '~/modules/hobbies/hobbies.router.js';
+import { HobbiesService } from '~/modules/hobbies/hobbies.service.js';
 import { initialDataRouter } from '~/modules/initial-data/initial-data.router.js';
 import { InitialDataService } from '~/modules/initial-data/initial-data.service.js';
 import { PeopleRepository } from '~/modules/people/people.repository.js';
@@ -69,6 +72,8 @@ export const services = {
   usersRepository: UsersRepository,
   usersService: UsersService,
   cookiesService: CookiesService,
+  hobbiesRepository: HobbiesRepository,
+  hobbiesService: HobbiesService,
 };
 
 export const routes = [
@@ -85,6 +90,7 @@ export const routes = [
   peopleRouter,
   studiosRouter,
   usersRouter,
+  hobbiesRouter,
 ];
 
 export type ApiServices = typeof services;

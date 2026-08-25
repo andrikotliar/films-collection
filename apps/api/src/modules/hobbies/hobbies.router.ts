@@ -1,10 +1,11 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, validateAuth } from '~/shared/index.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const hobbiesRouter = createRouter(contracts.hobbies, {
   getHobbiesList: {
     handler: async ({ app }) => {
-      const data = await app.container.resolve('hobbiesService').getHobbiesList();
+      const data = await app.resolve('hobbiesService').getHobbiesList();
       return {
         data,
       };
@@ -20,7 +21,7 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
   createHobby: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('hobbiesService').create(request.body);
+      const data = await app.resolve('hobbiesService').create(request.body);
 
       return {
         data,
@@ -30,9 +31,7 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
   updateHobby: {
     preHandler: [validateAuth],
     handler: async ({ app, request }) => {
-      const data = await app.container
-        .resolve('hobbiesService')
-        .update(request.params.id, request.body);
+      const data = await app.resolve('hobbiesService').update(request.params.id, request.body);
 
       return {
         data,
@@ -42,7 +41,7 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
   deleteHobby: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('hobbiesService').delete(request.params.id);
+      await app.resolve('hobbiesService').delete(request.params.id);
       return {
         data: { id: request.params.id },
       };

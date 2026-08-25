@@ -25,3 +25,5 @@ export const HobbyByIdQueriesSchema = z
 export const HobbyByIdResponseSchema = HobbyResponseSchema.extend({
   items: z.array(HobbyResponseSchema),
 });
+
+export type HobbiesListResponse = z.infer<typeof HobbiesListResponseSchema>;
