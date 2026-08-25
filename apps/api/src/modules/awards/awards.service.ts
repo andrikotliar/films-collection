@@ -1,25 +1,28 @@
-import { buildListOptions, listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
+import type { Deps } from '~/shared/types/deps.js';
 import type { GroupedNominations } from './types.js';
 import {
   PAGE_LIMITS,
+  type AwardsListResponse,
   type CommonListQueryParams,
   type CreateAwardInput,
   type NominationInput,
 } from '@films-collection/shared';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
+import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 
 const NEW_NOMINATION_ID = -1;
 
 export class AwardsService {
   constructor(private readonly deps: Deps<'awardsRepository'>) {}
 
-  async getBaseDataList(queries: CommonListQueryParams) {
+  async getBaseDataList(queries: CommonListQueryParams): Promise<AwardsListResponse> {
     const { list, total } = await this.deps.awardsRepository.getBaseDataList(queries);
 
-    return listResponse({
+    return {
       list,
       total,
       pageLimit: PAGE_LIMITS.default,
-    });
+    };
   }
 
   getAwardById(id: number) {

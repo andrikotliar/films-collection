@@ -37,7 +37,8 @@ import {
   seriesExtensions,
 } from '~/database/schema.js';
 import type { Database } from '~/plugins/index.js';
-import { sqlSearchQuery, thisDateReleaseSql } from '~/shared/index.js';
+import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
+import { thisDateReleaseSql } from '~/shared/helpers/this-date-release-sql.js';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 

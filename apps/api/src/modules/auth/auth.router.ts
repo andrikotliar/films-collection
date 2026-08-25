@@ -1,14 +1,7 @@
-import {
-  clearCookies,
-  getCookie,
-  UnauthorizedException,
-  createRouter,
-  setCookie,
-  ACCESS_TOKEN_MAX_AGE_SEC,
-  REFRESH_TOKEN_MAX_AGE_SEC,
-  validateAuth,
-} from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
+import { UnauthorizedException } from '~/shared/exceptions/unauthorized.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const authRouter = createRouter(contracts.auth, {
   getState: {
@@ -23,9 +16,10 @@ export const authRouter = createRouter(contracts.auth, {
   },
   login: {
     async handler({ request, reply, app }) {
-      const data = await app.container
-        .resolve('authService')
-        .login({ ...request.body, userAgent: request.headers['user-agent'] });
+      const data = await app.resolve('authService').login({
+        ...request.body,
+        userAgent: request.headers['user-agent'],
+      });
 
       if (!data) {
         throw new UnauthorizedException({
@@ -34,28 +28,11 @@ export const authRouter = createRouter(contracts.auth, {
         });
       }
 
-      const configService = app.container.resolve('configService');
+      const cookiesService = app.resolve('cookiesService').inject(reply);
 
-      setCookie(reply, {
-        name: 'ACCESS_TOKEN',
-        value: data.accessToken,
-        maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
-        configService,
-      });
-
-      setCookie(reply, {
-        name: 'REFRESH_TOKEN',
-        value: data.refreshToken,
-        maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-        configService,
-      });
-
-      setCookie(reply, {
-        name: 'SESSION_ID',
-        value: data.sessionId,
-        maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-        configService,
-      });
+      cookiesService.setCookie('ACCESS_TOKEN', data.accessToken);
+      cookiesService.setCookie('REFRESH_TOKEN', data.refreshToken);
+      cookiesService.setCookie('SESSION_ID', data.sessionId);
 
       return {
         data: { id: data.id },
@@ -64,14 +41,16 @@ export const authRouter = createRouter(contracts.auth, {
   },
   refresh: {
     async handler({ request, reply, app }) {
-      const token = getCookie(request, 'REFRESH_TOKEN');
-      const sessionId = getCookie(request, 'SESSION_ID');
+      const cookiesService = app.resolve('cookiesService').inject(reply);
+
+      const token = cookiesService.getCookieFromRequest(request, 'REFRESH_TOKEN');
+      const sessionId = cookiesService.getCookieFromRequest(request, 'SESSION_ID');
 
       if (!token || !sessionId) {
         throw new UnauthorizedException();
       }
 
-      const data = await app.container.resolve('authService').refreshTokens(token, sessionId);
+      const data = await app.resolve('authService').refreshTokens(token, sessionId);
 
       if (!data) {
         throw new UnauthorizedException({
@@ -79,21 +58,8 @@ export const authRouter = createRouter(contracts.auth, {
         });
       }
 
-      const configService = app.container.resolve('configService');
-
-      setCookie(reply, {
-        name: 'ACCESS_TOKEN',
-        value: data.accessToken,
-        maxAge: ACCESS_TOKEN_MAX_AGE_SEC,
-        configService,
-      });
-
-      setCookie(reply, {
-        name: 'REFRESH_TOKEN',
-        value: data.refreshToken,
-        maxAge: REFRESH_TOKEN_MAX_AGE_SEC,
-        configService,
-      });
+      cookiesService.setCookie('ACCESS_TOKEN', data.accessToken);
+      cookiesService.setCookie('REFRESH_TOKEN', data.refreshToken);
 
       return {
         data: { id: data.id },
@@ -102,14 +68,16 @@ export const authRouter = createRouter(contracts.auth, {
   },
   logout: {
     async handler({ request, reply, app }) {
-      const accessToken = getCookie(request, 'ACCESS_TOKEN');
-      const sessionId = getCookie(request, 'SESSION_ID');
+      const cookiesService = app.resolve('cookiesService').inject(reply);
+
+      const accessToken = cookiesService.getCookieFromRequest(request, 'ACCESS_TOKEN');
+      const sessionId = cookiesService.getCookieFromRequest(request, 'SESSION_ID');
 
       if (accessToken && sessionId) {
-        await app.container.resolve('authService').logout(accessToken, sessionId);
+        await app.resolve('authService').logout(accessToken, sessionId);
       }
 
-      clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN', 'SESSION_ID']);
+      cookiesService.clearCookies(['ACCESS_TOKEN', 'REFRESH_TOKEN', 'SESSION_ID']);
 
       return { data: { status: 'ok' as const } };
     },

@@ -1,4 +1,3 @@
-import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -7,13 +6,21 @@ import {
 } from '@films-collection/shared';
 import { countries } from '~/database/schema.js';
 import { and, asc, eq, type SQL } from 'drizzle-orm';
+import type { Deps } from '~/shared/types/deps.js';
+import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import { getCount } from '~/shared/helpers/get-count.js';
 
 export class CountriesRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
   getAll() {
     return this.deps.db
-      .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
+      .select({
+        id: countries.id,
+        title: countries.title,
+        updatedAt: countries.updatedAt,
+      })
       .from(countries)
       .orderBy(asc(countries.title));
   }
@@ -22,7 +29,11 @@ export class CountriesRepository {
     const filters = mapCommonFilters(queries, countries);
 
     const list = await this.deps.db
-      .select({ id: countries.id, title: countries.title, updatedAt: countries.updatedAt })
+      .select({
+        id: countries.id,
+        title: countries.title,
+        updatedAt: countries.updatedAt,
+      })
       .from(countries)
       .where(and(...filters))
       .orderBy(asc(countries.title))

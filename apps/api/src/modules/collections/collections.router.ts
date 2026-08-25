@@ -1,13 +1,12 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, validateAuth } from '~/shared/index.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const collectionsRouter = createRouter(contracts.collections, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app, request }) => {
-      const data = await app.container
-        .resolve('collectionsService')
-        .getGeneralDataList(request.query);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('collectionsService').getGeneralDataList(request.query);
 
       return { data };
     },
@@ -16,7 +15,7 @@ export const collectionsRouter = createRouter(contracts.collections, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('collectionsService').createCollection(request.body);
+      const data = await app.resolve('collectionsService').createCollection(request.body);
 
       return { data };
     },
@@ -25,7 +24,7 @@ export const collectionsRouter = createRouter(contracts.collections, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
+      const data = await app
         .resolve('collectionsService')
         .updateCollection(request.params.id, request.body);
 
@@ -36,7 +35,7 @@ export const collectionsRouter = createRouter(contracts.collections, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('collectionsService').deleteCollection(request.params.id);
+      await app.resolve('collectionsService').deleteCollection(request.params.id);
 
       return { data: { id: request.params.id } };
     },
@@ -45,7 +44,7 @@ export const collectionsRouter = createRouter(contracts.collections, {
   getAll: {
     preHandler: [validateAuth],
     handler: async ({ app }) => {
-      const data = await app.container.resolve('collectionsService').getAllCollections();
+      const data = await app.resolve('collectionsService').getAllCollections();
 
       return { data };
     },

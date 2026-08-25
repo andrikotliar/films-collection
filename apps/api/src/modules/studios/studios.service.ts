@@ -1,9 +1,11 @@
-import { buildListOptions, listResponse, type Deps } from '~/shared/index.js';
 import {
   PAGE_LIMITS,
   type CommonListQueryParams,
   type StudioInput,
+  type StudiosListResponse,
 } from '@films-collection/shared';
+import { buildListOptions } from '~/shared/helpers/build-list-options.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class StudiosService {
   constructor(private readonly deps: Deps<'studiosRepository'>) {}
@@ -14,10 +16,10 @@ export class StudiosService {
     return buildListOptions(sortedGenres);
   }
 
-  async getBaseDataList(queries: CommonListQueryParams) {
+  async getBaseDataList(queries: CommonListQueryParams): Promise<StudiosListResponse> {
     const { list, total } = await this.deps.studiosRepository.getList(queries);
 
-    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
+    return { list, total, pageLimit: PAGE_LIMITS.default };
   }
 
   createStudio(input: StudioInput) {

@@ -44,3 +44,4 @@ export const CollectionCurrentEventsListResponseSchema = z.array(
 
 export type CreateCollectionEventInput = z.infer<typeof CreateCollectionEventInputSchema>;
 export type UpdateCollectionEventInput = z.infer<typeof UpdateCollectionEventInputSchema>;
+export type CollectionEventsListResponse = z.infer<typeof CollectionEventsListResponseSchema>;

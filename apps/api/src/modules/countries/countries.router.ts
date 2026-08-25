@@ -1,11 +1,12 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, validateAuth } from '~/shared/index.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const countriesRouter = createRouter(contracts.countries, {
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app, request }) => {
-      const data = await app.container.resolve('countriesService').getBaseDataList(request.query);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('countriesService').getBaseDataList(request.query);
 
       return { data };
     },
@@ -14,7 +15,7 @@ export const countriesRouter = createRouter(contracts.countries, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('countriesService').createCountry(request.body);
+      const data = await app.resolve('countriesService').createCountry(request.body);
 
       return { data };
     },
@@ -23,7 +24,7 @@ export const countriesRouter = createRouter(contracts.countries, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
+      const data = await app
         .resolve('countriesService')
         .updateCountry(request.params.id, request.body);
 
@@ -34,7 +35,7 @@ export const countriesRouter = createRouter(contracts.countries, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('countriesService').deleteCountry(request.params.id);
+      await app.resolve('countriesService').deleteCountry(request.params.id);
 
       return {
         data: { id: request.params.id },

@@ -2,7 +2,7 @@ import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import type { UploadFilePayloadSchema } from '@films-collection/shared';
 import type z from 'zod';
-import type { Deps } from '~/shared/index.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class StorageService {
   private s3Client: S3Client | null = null;

@@ -1,4 +1,4 @@
-import type { ErrorParams } from '~/shared/types/index.js';
+import type { ErrorParams } from '~/shared/types/error-params.js';
 
 export class NotFoundException extends Error {
   public code: ErrorParams['code'];

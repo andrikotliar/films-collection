@@ -1,4 +1,4 @@
-import { NotFoundException } from '~/shared/exceptions/index.js';
+import { NotFoundException } from '~/shared/exceptions/not-found.js';
 
 export const throwIfNotFound = async <T extends Promise<Record<string, any> | null | undefined>>(
   promise: T,

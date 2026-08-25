@@ -1,11 +1,12 @@
-import { createRouter, validateAuth } from '~/shared/index.js';
 import { contracts } from '@films-collection/api-client';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const collectionEventsRouter = createRouter(contracts.collectionEvents, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('collectionEventsService').createEvent(request.body);
+      const data = await app.resolve('collectionEventsService').createEvent(request.body);
 
       return { data };
     },
@@ -13,8 +14,8 @@ export const collectionEventsRouter = createRouter(contracts.collectionEvents, {
 
   getList: {
     preHandler: [validateAuth],
-    handler: async ({ app, request }) => {
-      const data = await app.container.resolve('collectionEventsService').getList(request.query);
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('collectionEventsService').getList(request.query);
 
       return { data };
     },
@@ -23,7 +24,7 @@ export const collectionEventsRouter = createRouter(contracts.collectionEvents, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('collectionEventsService').deleteEvent(request.params.id);
+      await app.resolve('collectionEventsService').deleteEvent(request.params.id);
 
       return { data: { id: request.params.id } };
     },
@@ -32,7 +33,7 @@ export const collectionEventsRouter = createRouter(contracts.collectionEvents, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
+      const data = await app
         .resolve('collectionEventsService')
         .updateEvent(request.params.id, request.body);
 

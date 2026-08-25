@@ -20,7 +20,7 @@ import type {
   PickBaseData,
   Timestamps,
 } from '~/modules/films/types.js';
-import { nullable } from '~/shared/index.js';
+import { nullable } from '~/shared/helpers/nullable.js';
 
 type ExtendedFilm = Omit<Film, 'style' | 'draft' | 'addedAt' | Timestamps> & {
   genres: Array<{ genre: PickBaseData<Genre> }>;

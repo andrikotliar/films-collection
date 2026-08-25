@@ -1,21 +1,23 @@
-import { listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
 import {
   PAGE_LIMITS,
   type CreatePersonInput,
   type GetPeopleListQuery,
   type ListOption,
+  type PeopleListResponse,
   type SearchPersonQuery,
   type UpdatePersonInput,
 } from '@films-collection/shared';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class PeopleService {
   constructor(private readonly deps: Deps<'peopleRepository'>) {}
 
-  async getList(queries: GetPeopleListQuery) {
+  async getList(queries: GetPeopleListQuery): Promise<PeopleListResponse> {
     const list = await this.deps.peopleRepository.getList(queries);
     const total = await this.deps.peopleRepository.count(queries);
 
-    return listResponse({ list, total, pageLimit: PAGE_LIMITS.default });
+    return { list, total, pageLimit: PAGE_LIMITS.default };
   }
 
   getPersonById(personId: number) {

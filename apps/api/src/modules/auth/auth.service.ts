@@ -1,15 +1,12 @@
 import { compare } from 'bcrypt';
-import {
-  ACCESS_TOKEN_MAX_AGE_SEC,
-  getDeviceInfo,
-  REFRESH_TOKEN_MAX_AGE_SEC,
-  type Deps,
-} from '~/shared/index.js';
 import type { LoginInput } from '@films-collection/shared';
 import type { VerifiedTokenData } from '~/modules/auth/types.js';
+import type { Deps } from '~/shared/types/deps.js';
+import { getDeviceInfo } from '~/shared/helpers/get-device-info.js';
+import { maxAgesConfig } from '~/shared/configs/max-ages-config.js';
 
 export class AuthService {
-  constructor(private readonly deps: Deps<'usersService' | 'jwtService'>) {}
+  constructor(private readonly deps: Deps<'usersService' | 'jwt'>) {}
 
   async login({
     username,
@@ -55,7 +52,7 @@ export class AuthService {
     let verifiedToken: VerifiedTokenData | null;
 
     try {
-      verifiedToken = this.deps.jwtService.verify<VerifiedTokenData>(token);
+      verifiedToken = this.deps.jwt.verify<VerifiedTokenData>(token);
     } catch {
       await this.deps.usersService.deleteSession(sessionId);
       return null;
@@ -89,7 +86,7 @@ export class AuthService {
   }
 
   logout(token: string, sessionId: string) {
-    const decodedToken = this.deps.jwtService.decode<VerifiedTokenData>(token);
+    const decodedToken = this.deps.jwt.decode<VerifiedTokenData>(token);
 
     if (!decodedToken) {
       return null;
@@ -99,12 +96,12 @@ export class AuthService {
   }
 
   private createToken(payload: Record<string, unknown>, expTime: number) {
-    return this.deps.jwtService.sign(payload, { expiresIn: expTime });
+    return this.deps.jwt.sign(payload, { expiresIn: expTime });
   }
 
   private createAuthTokens(userId: number) {
-    const accessToken = this.createToken({ id: userId }, ACCESS_TOKEN_MAX_AGE_SEC);
-    const refreshToken = this.createToken({ id: userId }, REFRESH_TOKEN_MAX_AGE_SEC);
+    const accessToken = this.createToken({ id: userId }, maxAgesConfig.access_token);
+    const refreshToken = this.createToken({ id: userId }, maxAgesConfig.refresh_token);
 
     return {
       accessToken,

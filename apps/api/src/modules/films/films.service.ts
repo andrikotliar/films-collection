@@ -1,4 +1,3 @@
-import { BadRequestException, type Deps, throwIfNotFound } from '~/shared/index.js';
 import {
   type GetFilmsListQuery,
   type GetFilmOptionsQuery,
@@ -17,9 +16,11 @@ import {
   type FilmStatsResponse,
 } from '@films-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
-import type { Film, FilmCollection } from '~/database/schema.js';
-import { InMemoryCacheService } from '~/modules/cache/cache.service.js';
+import type { FilmCollection } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';
+import type { Deps } from '~/shared/types/deps.js';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
+import { BadRequestException } from '~/shared/exceptions/bad-request.js';
 
 type GenericOption = {
   id: number;
@@ -27,27 +28,9 @@ type GenericOption = {
   updatedAt: string;
 };
 
-type AnniversaryCache = {
-  date: string | null;
-  film: Pick<Film, 'poster'> | null;
-};
-
 const statBlocks = ['genres', 'collections', 'countries', 'studios', 'types', 'styles'] as const;
 
 export class FilmsService {
-  private readonly cache = new InMemoryCacheService<{
-    filmsCount: number;
-    anniversary: AnniversaryCache;
-    statistic: FilmStatsResponse['stats'];
-  }>({
-    filmsCount: 0,
-    anniversary: {
-      film: null,
-      date: null,
-    },
-    statistic: [],
-  });
-
   constructor(
     private readonly deps: Deps<
       | 'filmsRepository'
@@ -59,20 +42,26 @@ export class FilmsService {
       | 'countriesService'
       | 'studiosService'
       | 'aiService'
-      | 'jwtService'
       | 'usersService'
+      | 'inMemoryCacheService'
     >,
-  ) {}
+  ) {
+    deps.inMemoryCacheService.setDefaultValue('filmsCount', 0);
+    deps.inMemoryCacheService.setDefaultValue('anniversary', { film: null, date: null });
+    deps.inMemoryCacheService.setDefaultValue('statistic', []);
+  }
 
   private getAllFilmsCount() {
-    return this.cache.getOrSet('filmsCount', () => this.deps.filmsRepository.countPublishedFilms());
+    return this.deps.inMemoryCacheService.getOrSet('filmsCount', () =>
+      this.deps.filmsRepository.countPublishedFilms(),
+    );
   }
 
   private async getAnniversaryFilm() {
     const date = new Date();
     const dateParams = `${date.getDate()}${date.getMonth()}${date.getFullYear()}`;
 
-    const anniversaryCache = this.cache.get('anniversary');
+    const anniversaryCache = this.deps.inMemoryCacheService.get('anniversary');
 
     if (anniversaryCache.date === dateParams) {
       return anniversaryCache.film;
@@ -82,7 +71,7 @@ export class FilmsService {
 
     const film = list[0] ?? null;
 
-    this.cache.set('anniversary', {
+    this.deps.inMemoryCacheService.set('anniversary', {
       date: dateParams,
       film,
     });
@@ -179,8 +168,8 @@ export class FilmsService {
 
     const { filmId } = await this.deps.filmsRepository.create(payload);
 
-    this.cache.resetValue('filmsCount');
-    this.cache.resetValue('statistic');
+    this.deps.inMemoryCacheService.resetValue('filmsCount');
+    this.deps.inMemoryCacheService.resetValue('statistic');
 
     if (tempDraftId) {
       await this.deps.filmsRepository.deleteDraft(tempDraftId);
@@ -261,7 +250,7 @@ export class FilmsService {
   async updateFilm(filmId: number, input: UpdateFilmInput) {
     await this.deps.filmsRepository.updateFilm(filmId, input);
     await this.deps.filmsRepository.deleteAllDraftsOfFilm(filmId.toString());
-    this.cache.resetValue('statistic');
+    this.deps.inMemoryCacheService.resetValue('statistic');
     return this.getFilmDetails(filmId, 'admin');
   }
 
@@ -361,7 +350,7 @@ export class FilmsService {
   }
 
   async getStats(): Promise<FilmStatsResponse> {
-    const cachedValue = this.cache.get('statistic');
+    const cachedValue = this.deps.inMemoryCacheService.get('statistic');
     const filmsTotal = await this.getAllFilmsCount();
 
     if (cachedValue.length) {
@@ -376,7 +365,7 @@ export class FilmsService {
       result.push({ block, stats });
     }
 
-    this.cache.set('statistic', result);
+    this.deps.inMemoryCacheService.set('statistic', result);
 
     return { stats: result, filmsTotal };
   }

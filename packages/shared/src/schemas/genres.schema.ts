@@ -13,7 +13,8 @@ export const GenreResponseSchema = z.object({
 });
 
 export const GenresListResponseSchema = getListResponseSchema(
-  z.array(GenreResponseSchema.pick({ id: true, title: true })),
+  z.array(GenreResponseSchema.pick({ id: true, title: true, updatedAt: true })),
 );
 
 export type GenreInput = z.infer<typeof GenreInputSchema>;
+export type GenresListResponse = z.infer<typeof GenresListResponseSchema>;

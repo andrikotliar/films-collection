@@ -1,6 +1,6 @@
-import { type Deps } from '~/shared/index.js';
 import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
 import { collectionCategory, personRole, titleStyle, titleType } from '~/database/schema.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class InitialDataService {
   constructor(

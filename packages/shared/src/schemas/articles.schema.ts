@@ -51,3 +51,4 @@ export type ArticleBySlugParams = z.infer<typeof GetArticleBySlugSchema>;
 export type ArticlesListQueries = z.infer<typeof GetArticlesListQueriesSchema>;
 export type CreateArticleInput = z.infer<typeof CreateArticleSchema>;
 export type UpdateArticleInput = z.infer<typeof UpdateArticleSchema>;
+export type ArticlesListResponse = z.infer<typeof ArticlesListResponseSchema>;

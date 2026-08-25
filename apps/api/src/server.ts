@@ -9,14 +9,17 @@ import {
   serializerCompiler,
   validatorCompiler,
 } from 'fastify-type-provider-zod';
-import { RoutesPlugin, DatabasePlugin, DiContainerPlugin, type Database } from '~/plugins/index.js';
-import { CookieName, errorHandler, notFoundHandler, type DiContainer } from '~/shared/index.js';
-import { ConfigService } from '~/modules/config/index.js';
+import { RoutesPlugin, DatabasePlugin, type Database, DiContainerPlugin } from '~/plugins/index.js';
+import { ConfigService } from '~/modules/config/config.service.js';
+import { CookieName } from '~/shared/enums/cookie-name.js';
+import { errorHandler } from '~/shared/helpers/error-handler.js';
+import { notFoundHandler } from '~/shared/helpers/not-found-handler.js';
+import type { ServiceInstances } from '~/shared/types/deps.js';
 
 declare module 'fastify' {
   export interface FastifyInstance {
     db: Database;
-    container: DiContainer;
+    resolve: <K extends keyof ServiceInstances>(key: K) => ServiceInstances[K];
   }
 }
 

@@ -1,12 +1,14 @@
 import sanitize from 'sanitize-html';
-import { listResponse, throwIfNotFound, type Deps } from '~/shared/index.js';
 import {
   SANITIZE_CONFIG,
   PAGE_LIMITS,
   type CreateArticleInput,
   type ArticlesListQueries,
   type UpdateArticleInput,
+  type ArticlesListResponse,
 } from '@films-collection/shared';
+import type { Deps } from '~/shared/types/deps.js';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 
 const MAX_WORDS_LIMIT = 30;
 
@@ -47,11 +49,11 @@ export class ArticlesService {
     return throwIfNotFound(this.deps.articlesRepository.update(id, input));
   }
 
-  async getList(queries: ArticlesListQueries) {
+  async getList(queries: ArticlesListQueries): Promise<ArticlesListResponse> {
     const data = await this.deps.articlesRepository.list(queries);
 
     if (!data.list.length) {
-      return listResponse({ list: [], total: 0, pageLimit: PAGE_LIMITS.default });
+      return { list: [], total: 0, pageLimit: PAGE_LIMITS.default };
     }
 
     const mappedList = data.list.map((article) => {
@@ -68,7 +70,7 @@ export class ArticlesService {
       };
     });
 
-    return listResponse({ list: mappedList, total: data.total, pageLimit: PAGE_LIMITS.default });
+    return { list: mappedList, total: data.total, pageLimit: PAGE_LIMITS.default };
   }
 
   async delete(id: number) {
