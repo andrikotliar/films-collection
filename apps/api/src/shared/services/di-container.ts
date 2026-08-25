@@ -13,10 +13,20 @@ export class DiContainer<TServicesMap extends Record<PropertyKey, any>> {
 
   constructor(services: Partial<TServicesMap>) {
     getTypedEntries(services).forEach(([key, service]) => {
-      this.servicesMap.set(key, {
-        service: service ?? null,
+      const dependencyValue: DependencyValue<keyof TServicesMap, TServicesMap> = {
+        service: null,
         instance: null,
-      });
+      };
+
+      if (typeof service === 'function') {
+        dependencyValue.service = service as TServicesMap[keyof TServicesMap];
+      }
+
+      if (typeof service === 'object') {
+        dependencyValue.instance = service as InstanceType<TServicesMap[keyof TServicesMap]>;
+      }
+
+      this.servicesMap.set(key, dependencyValue);
     });
   }
 
@@ -27,10 +37,7 @@ export class DiContainer<TServicesMap extends Record<PropertyKey, any>> {
   }
 
   resolve<K extends keyof TServicesMap>(key: K): InstanceType<TServicesMap[K]> {
-    console.log(key);
     const serviceData = this.getService(key);
-
-    console.log(serviceData);
 
     if (!serviceData) {
       throw new Error(`Service ${String(key)} is not registered`);
