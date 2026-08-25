@@ -1,11 +1,4 @@
 import {
-  getFirstValue,
-  getLatestEntriesFilter,
-  sqlSearchQuery,
-  thisDateReleaseSql,
-  type Deps,
-} from '~/shared/index.js';
-import {
   CollectionCategory,
   getSkipValue,
   PAGE_LIMITS,
@@ -57,6 +50,11 @@ import type {
   PgTransaction,
 } from 'drizzle-orm/pg-core';
 import type { Timestamps } from '~/modules/films/types.js';
+import type { Deps } from '~/shared/types/deps.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
+import { getLatestEntriesFilter } from '~/shared/helpers/get-latest-entries-filter.js';
+import { thisDateReleaseSql } from '~/shared/helpers/this-date-release-sql.js';
 
 type AnyTable = {
   name: string;

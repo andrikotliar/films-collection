@@ -8,7 +8,10 @@ import {
 } from '@films-collection/shared';
 import { and, asc, count, eq, ne, inArray, type SQL } from 'drizzle-orm';
 import { collections, filmsCollections } from '~/database/schema.js';
-import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
+import { getCount } from '~/shared/helpers/get-count.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class CollectionsRepository {
   constructor(private readonly deps: Deps<'db'>) {}

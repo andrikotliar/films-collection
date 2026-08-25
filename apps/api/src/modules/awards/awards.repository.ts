@@ -9,7 +9,10 @@ import {
 import { and, asc, eq, inArray, type SQL } from 'drizzle-orm';
 import { awards, nominations, type Award } from '~/database/schema.js';
 import type { UpdateAwardParams } from '~/modules/awards/types.js';
-import { getCount, getFirstValue, mapCommonFilters, type Deps } from '~/shared/index.js';
+import { getCount } from '~/shared/helpers/get-count.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class AwardsRepository {
   constructor(private readonly deps: Deps<'db'>) {}

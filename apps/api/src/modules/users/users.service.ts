@@ -1,10 +1,4 @@
 import type { UserSession } from '~/database/schema.js';
-import {
-  BadRequestException,
-  throwIfNotFound,
-  type Deps,
-  type RequestUser,
-} from '~/shared/index.js';
 import crypto from 'node:crypto';
 import type {
   UpdateUserPasswordInput,
@@ -12,9 +6,13 @@ import type {
   UserSessionResponse,
 } from '@films-collection/shared';
 import { compare, hash } from 'bcrypt';
+import type { Deps } from '~/shared/types/deps.js';
+import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
+import type { RequestUser } from '~/shared/helpers/get-request-user.js';
+import { BadRequestException } from '~/shared/exceptions/bad-request.js';
 
 export class UsersService {
-  constructor(private readonly deps: Deps<'usersRepository' | 'jwtService'>) {}
+  constructor(private readonly deps: Deps<'usersRepository' | 'jwt'>) {}
 
   getUser(userId: number) {
     return this.deps.usersRepository.findById(userId);

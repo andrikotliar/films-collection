@@ -19,7 +19,9 @@ import {
   type SQL,
 } from 'drizzle-orm';
 import { filmsPeople, people } from '~/database/schema.js';
-import { getFirstValue, sqlSearchQuery, type Deps } from '~/shared/index.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
+import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
+import type { Deps } from '~/shared/types/deps.js';
 
 export class PeopleRepository {
   constructor(private readonly deps: Deps<'db'>) {}

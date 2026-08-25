@@ -44,3 +44,4 @@ export const CollectionListQuerySchema = CommonListQuerySchema.extend({
 export type CreateCollectionInput = z.infer<typeof CreateCollectionInputSchema>;
 export type UpdateCollectionInput = z.infer<typeof UpdateCollectionInputSchema>;
 export type CollectionListQueryParams = z.infer<typeof CollectionListQuerySchema>;
+export type CollectionsListResponse = z.infer<typeof CollectionsListResponseSchema>;

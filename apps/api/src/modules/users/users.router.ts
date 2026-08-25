@@ -1,12 +1,14 @@
 import { contracts } from '@films-collection/api-client';
-import { createRouter, getRequestUser, validateAuth } from '~/shared/index.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { getRequestUser } from '~/shared/helpers/get-request-user.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const usersRouter = createRouter(contracts.users, {
   getSessions: {
     preHandler: [validateAuth],
     async handler({ request, app }) {
       const user = getRequestUser(request);
-      const data = await app.container.resolve('usersService').getUserSessions(user);
+      const data = await app.resolve('usersService').getUserSessions(user);
 
       return { data };
     },
@@ -14,7 +16,7 @@ export const usersRouter = createRouter(contracts.users, {
   terminateSession: {
     preHandler: [validateAuth],
     async handler({ request, app }) {
-      await app.container.resolve('usersService').terminateSession(request.params.id);
+      await app.resolve('usersService').terminateSession(request.params.id);
 
       return {
         data: { id: request.params.id },
@@ -26,9 +28,7 @@ export const usersRouter = createRouter(contracts.users, {
     async handler({ request, app }) {
       const user = getRequestUser(request);
 
-      const data = await app.container
-        .resolve('usersService')
-        .updatePassword(user.id, request.body);
+      const data = await app.resolve('usersService').updatePassword(user.id, request.body);
 
       return {
         data: { id: data.userId },
@@ -40,7 +40,7 @@ export const usersRouter = createRouter(contracts.users, {
     async handler({ request, app }) {
       const user = getRequestUser(request);
 
-      const data = await app.container
+      const data = await app
         .resolve('usersService')
         .updateTranslationPreferences(user.id, request.body);
 
@@ -54,7 +54,7 @@ export const usersRouter = createRouter(contracts.users, {
     async handler({ request, app }) {
       const user = getRequestUser(request);
 
-      const data = await app.container.resolve('usersService').getDisplayData(user.id);
+      const data = await app.resolve('usersService').getDisplayData(user.id);
 
       return {
         data,

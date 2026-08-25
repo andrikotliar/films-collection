@@ -1,4 +1,3 @@
-import { getCount, mapCommonFilters, type Deps } from '~/shared/index.js';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -7,13 +6,20 @@ import {
 } from '@films-collection/shared';
 import { studios } from '~/database/schema.js';
 import { and, asc, eq, type SQL } from 'drizzle-orm';
+import type { Deps } from '~/shared/types/deps.js';
+import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
+import { getCount } from '~/shared/helpers/get-count.js';
 
 export class StudiosRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
   getAll() {
     return this.deps.db
-      .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
+      .select({
+        id: studios.id,
+        title: studios.title,
+        updatedAt: studios.updatedAt,
+      })
       .from(studios)
       .orderBy(asc(studios.title));
   }
@@ -22,7 +28,11 @@ export class StudiosRepository {
     const filters = mapCommonFilters(queries, studios);
 
     const list = await this.deps.db
-      .select({ id: studios.id, title: studios.title, updatedAt: studios.updatedAt })
+      .select({
+        id: studios.id,
+        title: studios.title,
+        updatedAt: studios.updatedAt,
+      })
       .from(studios)
       .where(and(...filters))
       .orderBy(asc(studios.title))

@@ -48,3 +48,4 @@ export const NominationResponseSchema = z.object({
 export type CreateAwardInput = z.infer<typeof CreateAwardInputSchema>;
 export type NominationInput = z.infer<typeof NominationInputSchema>;
 export type UpdateAwardInput = z.infer<typeof UpdateAwardInputSchema>;
+export type AwardsListResponse = z.infer<typeof AwardsListResponseSchema>;

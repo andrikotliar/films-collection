@@ -1,11 +1,13 @@
 import { contracts } from '@films-collection/api-client';
-import { NotFoundException, createRouter, validateAuth } from '~/shared/index.js';
+import { NotFoundException } from '~/shared/exceptions/not-found.js';
+import { createRouter } from '~/shared/helpers/create-router.js';
+import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
 export const articlesRouter = createRouter(contracts.articles, {
   create: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('articlesService').create(request.body);
+      const data = await app.resolve('articlesService').create(request.body);
 
       return { data, status: 'CREATED' };
     },
@@ -13,14 +15,14 @@ export const articlesRouter = createRouter(contracts.articles, {
   getAdminList: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('articlesService').getList(request.query);
+      const data = await app.resolve('articlesService').getList(request.query);
 
       return { data };
     },
   },
   getBySlug: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('articlesService').getBySlug(request.params.slug);
+      const data = await app.resolve('articlesService').getBySlug(request.params.slug);
 
       if (!data) {
         throw new NotFoundException({
@@ -33,7 +35,7 @@ export const articlesRouter = createRouter(contracts.articles, {
   },
   getById: {
     handler: async ({ request, app }) => {
-      const data = await app.container.resolve('articlesService').get(request.params.id);
+      const data = await app.resolve('articlesService').get(request.params.id);
 
       return { data };
     },
@@ -41,9 +43,7 @@ export const articlesRouter = createRouter(contracts.articles, {
   update: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      const data = await app.container
-        .resolve('articlesService')
-        .update(request.params.id, request.body);
+      const data = await app.resolve('articlesService').update(request.params.id, request.body);
 
       return { data };
     },
@@ -51,7 +51,7 @@ export const articlesRouter = createRouter(contracts.articles, {
   delete: {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
-      await app.container.resolve('articlesService').delete(request.params.id);
+      await app.resolve('articlesService').delete(request.params.id);
 
       return { data: { id: request.params.id } };
     },

@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import type { FastifyRequest } from 'fastify';
-import { UnauthorizedException } from '~/shared/exceptions/index.js';
+import { UnauthorizedException } from '~/shared/exceptions/unauthorized.js';
 
 const HEADER_SIGNATURE = 'x-signature';
 const HEADER_TIMESTAMP = 'x-timestamp';
@@ -40,9 +40,7 @@ export const validateGetSignature = async (request: FastifyRequest): Promise<voi
 
   const payload = `${method}.${path}.${timestamp}`;
 
-  const signatureSecret = request.server.container
-    .resolve('configService')
-    .getKey('SIGNATURE_SECRET');
+  const signatureSecret = request.server.resolve('configService').getKey('SIGNATURE_SECRET');
 
   const expectedSignature = crypto
     .createHmac('sha256', signatureSecret)

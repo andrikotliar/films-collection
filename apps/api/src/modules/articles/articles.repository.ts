@@ -1,4 +1,3 @@
-import { getFirstValue, type Deps } from '~/shared/index.js';
 import {
   getSkipValue,
   PAGE_LIMITS,
@@ -8,6 +7,8 @@ import {
 } from '@films-collection/shared';
 import { articles } from '~/database/schema.js';
 import { count, desc, eq } from 'drizzle-orm';
+import type { Deps } from '~/shared/types/deps.js';
+import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 
 export class ArticlesRepository {
   constructor(private readonly deps: Deps<'db'>) {}

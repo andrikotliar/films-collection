@@ -13,7 +13,8 @@ export const CountryResponseSchema = z.object({
 });
 
 export const CountriesListResponseSchema = getListResponseSchema(
-  z.array(CountryResponseSchema.pick({ id: true, title: true })),
+  z.array(CountryResponseSchema.pick({ id: true, title: true, updatedAt: true })),
 );
 
 export type CountryInput = z.infer<typeof CountryInputSchema>;
+export type CountriesListResponse = z.infer<typeof CountriesListResponseSchema>;

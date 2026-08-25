@@ -1,12 +1,13 @@
 import type { FastifyReply, FastifyRequest } from 'fastify';
-import type { VerifiedTokenData } from '~/modules/auth/index.js';
-import { CookieName } from '~/shared/enums/index.js';
-import { UnauthorizedException } from '~/shared/exceptions/index.js';
-import { getCookie } from '~/shared/helpers/index.js';
+import type { VerifiedTokenData } from '~/modules/auth/types.js';
+import { CookieName } from '~/shared/enums/cookie-name.js';
+import { UnauthorizedException } from '~/shared/exceptions/unauthorized.js';
 
 export const validateAuth = async (request: FastifyRequest, reply: FastifyReply) => {
-  const token = getCookie(request, 'ACCESS_TOKEN');
-  const sessionId = getCookie(request, 'SESSION_ID');
+  const cookiesService = request.server.resolve('cookiesService');
+
+  const token = cookiesService.getCookieFromRequest(request, 'ACCESS_TOKEN');
+  const sessionId = cookiesService.getCookieFromRequest(request, 'SESSION_ID');
 
   if (!token || !sessionId) {
     request.user = {};
@@ -35,7 +36,7 @@ export const validateAuth = async (request: FastifyRequest, reply: FastifyReply)
     throw new UnauthorizedException();
   }
 
-  const userSession = await request.server.container
+  const userSession = await request.server
     .resolve('usersService')
     .getUserSession(payload.id, sessionId);
 
