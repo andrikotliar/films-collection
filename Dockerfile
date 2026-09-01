@@ -6,12 +6,9 @@ RUN corepack enable
 
 COPY . .
 
-ARG VITE_IMAGES_URL
-ENV VITE_IMAGES_URL=$VITE_IMAGES_URL
-
 RUN pnpm install --frozen-lockfile --prod=false
 
-RUN pnpm build
+RUN pnpm build:api
 
 RUN pnpm deploy --filter api --prod /app/deploy
 

@@ -62,21 +62,7 @@ To build a type safe router, use the `createRouter` helper. Before creating a ro
 
 ## Build project
 
-### Local mode
-
-1. Run `pnpm build` in the project's root. The script builds the backend to the `./apps/api/dist` directory and frontend to the `./apps/api/dist/public`
-
-2. Run `node apps/api/dist/server.js` to start the application
-
-3. Open the app `http://localhost:5000`
-
-### Container mode
-
-1. Fill the `.env` file in the `apps/api` folder based on the `.env.sample`
-
-1. Run `pnpm build:container`. It will build the app and spin up the database.
-
-2. Open the app `http://localhost:5000`
+Run `pnpm build` in the project's root. The script builds the backend to the `./apps/api/dist` directory and frontend to the `./apps/web/dist`
 
 
 ## Database
