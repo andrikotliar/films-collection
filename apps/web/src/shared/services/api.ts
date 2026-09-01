@@ -31,7 +31,7 @@ const refreshToken = async () => {
 };
 
 export const api = createApiClient({
-  baseUrl: '/api',
+  baseUrl: import.meta.env.VITE_SERVER_API_URL,
   onError: async (error, originalRequest) => {
     if (error.response?.statusCode === 401 && !window.location.pathname.includes('login')) {
       try {

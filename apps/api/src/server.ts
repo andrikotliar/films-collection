@@ -1,9 +1,8 @@
-import path from 'path';
 import fastify from 'fastify';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
 import MultipartPlugin from '@fastify/multipart';
-import StaticPlugin from '@fastify/static';
+import CorsPlugin from '@fastify/cors';
 import {
   type ZodTypeProvider,
   serializerCompiler,
@@ -37,6 +36,11 @@ const startServer = async () => {
 
   let configService: ConfigService | null = new ConfigService();
 
+  app.register(CorsPlugin, {
+    origin: configService.getKey('CLIENT_URL'),
+    credentials: true,
+  });
+
   app.register(CookiePlugin, {
     secret: configService.getKey('COOKIE_SECRET'),
   });
@@ -54,10 +58,6 @@ const startServer = async () => {
       fileSize: 5_000_000,
       files: 1,
     },
-  });
-
-  app.register(StaticPlugin, {
-    root: path.join(import.meta.dirname, '/public'),
   });
 
   app.register(RoutesPlugin, { prefix: '/api' });
