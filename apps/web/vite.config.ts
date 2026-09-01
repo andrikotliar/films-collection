@@ -8,12 +8,9 @@ export default defineConfig({
     port: 8080,
     host: true,
     open: true,
-    proxy: {
-      '/api': 'http://localhost:5000',
-    },
   },
   build: {
-    outDir: '../api/dist/public',
+    outDir: './dist',
     emptyOutDir: true,
   },
   resolve: {
