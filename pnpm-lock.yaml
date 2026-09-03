@@ -42,9 +42,9 @@ importers:
       '@fastify/one-line-logger':
         specifier: ^2.0.2
         version: 2.1.0
-      '@films-collection/api-client':
+      '@films-collection/contracts':
         specifier: workspace:*
-        version: link:../../packages/api-client
+        version: link:../../packages/api-contracts
       '@films-collection/shared':
         specifier: workspace:*
         version: link:../../packages/shared
@@ -124,9 +124,9 @@ importers:
       '@dnd-kit/utilities':
         specifier: ^3.2.2
         version: 3.2.2(react@19.2.6)
-      '@films-collection/api-client':
+      '@films-collection/contracts':
         specifier: workspace:^
-        version: link:../../packages/api-client
+        version: link:../../packages/api-contracts
       '@films-collection/shared':
         specifier: workspace:^
         version: link:../../packages/shared
@@ -228,7 +228,7 @@ importers:
         specifier: ^6.1.1
         version: 6.1.1(typescript@5.9.3)(vite@8.0.13(@types/node@20.19.33)(esbuild@0.27.3)(terser@5.46.0)(tsx@4.21.0)(yaml@2.8.2))
 
-  packages/api-client:
+  packages/api-contracts:
     dependencies:
       '@films-collection/eslint-config':
         specifier: workspace:*

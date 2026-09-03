@@ -24,7 +24,7 @@
     "@fastify/jwt": "^9.0.1",
     "@fastify/multipart": "^9.0.3",
     "@fastify/one-line-logger": "^2.0.2",
-    "@films-collection/api-client": "workspace:*",
+    "@films-collection/contracts": "workspace:*",
     "@films-collection/shared": "workspace:*",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.6.1",

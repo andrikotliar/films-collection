@@ -15,9 +15,9 @@ A personal list of films with manually collected data. The app primarily focuses
 - Zod
 
 
-### API client
+### API contracts
 
-The `@films-collections/api-client` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
+The `@films-collections/contract` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
 
 ### Images
 
@@ -40,7 +40,7 @@ Poster starts with the `posters` prefix and follows by the image name.
 
 ### Routers
 
-To build a type safe router, use the `createRouter` helper. Before creating a router, create a router contract in the `packages/api-client` package. The contract should contain URL, method and schema. To define a correct, type-safe contract, use the `defineContracts` helper.
+To build a type safe router, use the `createRouter` helper. Before creating a router, create a router contract in the `packages/api-contracts` package. The contract should contain URL, method and schema. To define a correct, type-safe contract, use the `defineContracts` helper.
 
 ## Development server
 
