@@ -8,7 +8,7 @@ on:
     paths:
       - 'apps/api/**'
       - 'packages/shared/**'
-      - 'packages/api-client/**'
+      - 'packages/api-contracts/**'
       - '.github/workflows/deploy.yml'
 
 jobs:

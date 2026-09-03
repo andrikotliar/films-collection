@@ -1,4 +1,4 @@
-import { contracts } from '@films-collection/api-client';
+import { contracts } from '@films-collection/contracts';
 import { NotFoundException } from '~/shared/exceptions/not-found.js';
 import { createRouter } from '~/shared/helpers/create-router.js';
 import { getRequestUser } from '~/shared/helpers/get-request-user.js';

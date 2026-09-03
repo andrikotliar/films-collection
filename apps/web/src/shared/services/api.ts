@@ -1,5 +1,5 @@
 import { redirect } from '@tanstack/react-router';
-import { createApiClient, HttpError } from '@films-collection/api-client';
+import { createApiClient, HttpError } from '@films-collection/contracts';
 import type { ErrorCode } from '@films-collection/shared';
 import { queryClient } from '~/shared/services/query-client';
 import { LOGIN_BLOCK_KEY } from '~/shared/constants';
