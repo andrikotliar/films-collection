@@ -1,7 +1,6 @@
 import {
   CollectionCategory,
   type DeviceInfo,
-  HobbyItemType,
   PersonRole,
   TitleStyle,
   TitleType,
@@ -28,7 +27,6 @@ export const collectionCategory = pgEnum('collection_category', CollectionCatego
 export const personRole = pgEnum('person_role', PersonRole);
 export const titleStyle = pgEnum('title_style', TitleStyle);
 export const titleType = pgEnum('title_type', TitleType);
-export const hobbyItemType = pgEnum('hobby_item_type', HobbyItemType);
 
 export const films = pgTable(
   'films',
@@ -586,7 +584,6 @@ export const hobbyItems = pgTable(
   {
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
-    type: hobbyItemType().notNull().default(HobbyItemType.BOOK),
     description: text().notNull(),
     hobbyId: integer('hobby_id').notNull(),
     releaseYear: integer('release_year').notNull(),

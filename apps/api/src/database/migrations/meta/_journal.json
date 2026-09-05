@@ -204,6 +204,13 @@
       "when": 1787494588056,
       "tag": "0030_add-hobbies-related-tables",
       "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1788630417035,
+      "tag": "0031_remove-type-column",
+      "breakpoints": true
     }
   ]
 }
