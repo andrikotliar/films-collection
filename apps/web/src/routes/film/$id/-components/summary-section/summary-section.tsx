@@ -2,8 +2,8 @@ import styles from './summary-section.module.css';
 import { useMemo } from 'react';
 import { defineCssProperties, getExternalImageUrl, type api, type ApiResponse } from '~/shared';
 import { Collections, Poster, Rating, SummaryBlock, TrailersButton, Title } from './components';
-import { getFilmSummaryConfig } from '../../helpers';
 import clsx from 'clsx';
+import { getFilmSummaryConfig } from '~/routes/film/$id/-helpers';
 
 type SummarySectionProps = {
   film: ApiResponse<typeof api.films.getById>;

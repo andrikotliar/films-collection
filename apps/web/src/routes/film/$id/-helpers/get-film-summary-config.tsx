@@ -1,5 +1,5 @@
 import { getPluralWord, type api, type ApiResponse } from '~/shared';
-import { LinksGroupWrapper, DataLink, LinksGroup, ReleaseDate } from '../components';
+import { LinksGroupWrapper, DataLink, LinksGroup, ReleaseDate } from '../-components';
 import {
   BookIcon,
   BuildingIcon,
