@@ -54,10 +54,6 @@
   width: 40px;
 }
 
-.opaque {
-  opacity: 20%;
-}
-
 @media (width <= 1080px) {
   .film {
     max-width: 300px;

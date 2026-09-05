@@ -49,7 +49,7 @@ const sortingFields: ListOption<string, { isNotSelectable?: boolean }>[] = [
 ];
 
 export const FilmsSection = () => {
-  const searchParams = routeApi.useSearch({ select: ({ filmId: _, ...params }) => params });
+  const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
   const { data, isFetching } = useQuery(getFilmsListQueryOptions(searchParams));
 
