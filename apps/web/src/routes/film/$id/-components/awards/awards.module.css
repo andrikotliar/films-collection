@@ -4,6 +4,7 @@
   gap: 15px;
   background-color: var(--color-yellow-extra-light);
   padding: 20px;
+  min-height: 300px;
 }
 
 .title {

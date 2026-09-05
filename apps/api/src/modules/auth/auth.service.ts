@@ -1,4 +1,3 @@
-import { compare } from 'bcrypt';
 import type { LoginInput } from '@films-collection/shared';
 import type { VerifiedTokenData } from '~/modules/auth/types.js';
 import type { Deps } from '~/shared/types/deps.js';
@@ -6,7 +5,7 @@ import { getDeviceInfo } from '~/shared/helpers/get-device-info.js';
 import { maxAgesConfig } from '~/shared/configs/max-ages-config.js';
 
 export class AuthService {
-  constructor(private readonly deps: Deps<'usersService' | 'jwt'>) {}
+  constructor(private readonly deps: Deps<'usersService' | 'jwt' | 'hashService'>) {}
 
   async login({
     username,
@@ -20,7 +19,7 @@ export class AuthService {
       return null;
     }
 
-    const isPasswordValid = await compare(password, user.password);
+    const isPasswordValid = this.deps.hashService.verify(password, user.password);
 
     if (!isPasswordValid) {
       return null;

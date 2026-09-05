@@ -2,15 +2,14 @@ import styles from './summary-section.module.css';
 import { useMemo } from 'react';
 import { defineCssProperties, getExternalImageUrl, type api, type ApiResponse } from '~/shared';
 import { Collections, Poster, Rating, SummaryBlock, TrailersButton, Title } from './components';
-import { getFilmSummaryConfig } from '../../helpers';
 import clsx from 'clsx';
+import { getFilmSummaryConfig } from '~/routes/film/$id/-helpers';
 
 type SummarySectionProps = {
   film: ApiResponse<typeof api.films.getById>;
-  hasExtendedData: boolean;
 };
 
-export const SummarySection = ({ film, hasExtendedData }: SummarySectionProps) => {
+export const SummarySection = ({ film }: SummarySectionProps) => {
   const filmConfig = useMemo(() => {
     return getFilmSummaryConfig(film);
   }, [film]);
@@ -19,14 +18,14 @@ export const SummarySection = ({ film, hasExtendedData }: SummarySectionProps) =
 
   return (
     <div
-      className={clsx(styles.summary_layout, hasExtendedData && styles.extended_data)}
+      className={styles.summary_layout}
       style={defineCssProperties({
         '--bg-url': `url(${poster})`,
       })}
     >
       <div className={styles.title_row}>
-        <Rating value={film.rating} />
         <Title>{film.title}</Title>
+        <Rating value={film.rating} />
       </div>
 
       <div className={clsx(styles.content, !poster && styles.content_no_poster)}>

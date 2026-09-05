@@ -1,18 +1,11 @@
 .summary_layout {
   position: relative;
-  padding: 30px;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  border-radius: 10px;
   z-index: 2;
-}
-
-.extended_data::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  border-top: 5px dashed var(--color-white);
+  box-shadow: var(--shadow-sm);
 }
 
 .summary_layout::before {
@@ -79,18 +72,33 @@
 
 .title_row {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (width <= 1300px) {
+  .summary_layout {
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 80px;
+    margin-top: -64px;
+  }
 }
 
 @media (width < 920px) {
   .content:not(.content_no_poster) {
     flex-direction: column;
   }
+  .title_row {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
 }
 
 @media (width < 520px) {
   .summary_layout {
-    padding: 30px 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
   }
 }

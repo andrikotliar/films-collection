@@ -1,5 +1,6 @@
 import type { api, ApiResponse } from '~/shared';
 import { RoleItem } from './components';
+import { ContentLayout } from '~/routes/film/$id/-components/content-layout/content-layout';
 
 type CastAndCrewProps = {
   data: ApiResponse<typeof api.films.getById>['castAndCrew'];
@@ -7,10 +8,10 @@ type CastAndCrewProps = {
 
 export const CastAndCrew = ({ data }: CastAndCrewProps) => {
   return (
-    <div>
+    <ContentLayout>
       {data.map((personData) => (
         <RoleItem data={personData} key={personData.role} />
       ))}
-    </div>
+    </ContentLayout>
   );
 };

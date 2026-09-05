@@ -1,0 +1,12 @@
+.content {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (width <= 1300px) {
+  .content {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
