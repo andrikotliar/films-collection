@@ -9,11 +9,13 @@ const TOKEN_ERRORS: Extract<ErrorCode, 'TOKEN_EXPIRED' | 'TOKEN_MISSED'>[] = [
   'TOKEN_MISSED',
 ];
 
+const baseUrl = import.meta.env.VITE_SERVER_API_URL;
+
 let refreshPromise: Promise<void> | null = null;
 
 const refreshToken = async () => {
   if (!refreshPromise) {
-    refreshPromise = fetch('/api/auth/refresh', {
+    refreshPromise = fetch(`${baseUrl}/auth/refresh`, {
       method: 'POST',
       credentials: 'include',
     })
@@ -31,7 +33,7 @@ const refreshToken = async () => {
 };
 
 export const api = createApiClient({
-  baseUrl: import.meta.env.VITE_SERVER_API_URL,
+  baseUrl,
   onError: async (error, originalRequest) => {
     if (error.response?.statusCode === 401 && !window.location.pathname.includes('login')) {
       try {
