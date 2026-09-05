@@ -67,7 +67,12 @@ export const filmsRouter = createRouter(contracts.films, {
 
   getById: {
     handler: async ({ request, app }) => {
-      const data = await app.resolve('filmsService').getFilmDetails(request.params.id);
+      const accessToken = app
+        .resolve('cookiesService')
+        .getCookieFromRequest(request, 'ACCESS_TOKEN');
+      const data = await app
+        .resolve('filmsService')
+        .getFilmDetails(request.params.id, accessToken ? 'admin' : 'public');
 
       if (!data) {
         throw new NotFoundException({
@@ -186,21 +191,6 @@ export const filmsRouter = createRouter(contracts.films, {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.resolve('filmsService').getFilmsByCollection(request.params.id);
-
-      return { data };
-    },
-  },
-
-  getAdminFilmById: {
-    preHandler: [validateAuth],
-    handler: async ({ request, app }) => {
-      const data = await app.resolve('filmsService').getFilmDetails(request.params.id, 'admin');
-
-      if (!data) {
-        throw new NotFoundException({
-          message: `Film with the ${request.params.id} not found`,
-        });
-      }
 
       return { data };
     },
