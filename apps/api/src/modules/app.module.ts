@@ -30,6 +30,7 @@ import { GenresService } from '~/modules/genres/genres.service.js';
 import { HobbiesRepository } from '~/modules/hobbies/hobbies.repository.js';
 import { hobbiesRouter } from '~/modules/hobbies/hobbies.router.js';
 import { HobbiesService } from '~/modules/hobbies/hobbies.service.js';
+import { HashService } from '~/modules/hash/hash.service.js';
 import { initialDataRouter } from '~/modules/initial-data/initial-data.router.js';
 import { InitialDataService } from '~/modules/initial-data/initial-data.service.js';
 import { PeopleRepository } from '~/modules/people/people.repository.js';
@@ -74,6 +75,7 @@ export const services = {
   cookiesService: CookiesService,
   hobbiesRepository: HobbiesRepository,
   hobbiesService: HobbiesService,
+  hashService: HashService,
 };
 
 export const routes = [

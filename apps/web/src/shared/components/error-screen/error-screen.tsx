@@ -1,4 +1,4 @@
-import { HttpError } from '@films-collection/api-client';
+import { HttpError } from '@films-collection/contracts';
 import { onlineManager } from '@tanstack/react-query';
 import { Status } from '~/shared/components/error-screen/components';
 

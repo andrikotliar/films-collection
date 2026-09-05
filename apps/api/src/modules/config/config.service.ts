@@ -15,6 +15,7 @@ const EnvSchema = z.object({
   S3_ENDPOINT: z.string().optional(),
   S3_ASSETS_BUCKET: z.string(),
   OPENAI_API_KEY: z.string(),
+  CLIENT_URL: z.url(),
 });
 
 export type EnvVariables = z.infer<typeof EnvSchema>;

@@ -8,11 +8,3 @@ export const getFilmQueryOptions = (filmId: number) => {
     staleTime: Infinity,
   });
 };
-
-export const getAdminFilmQueryOptions = (filmId: number) => {
-  return queryOptions({
-    queryKey: ['filmQuery', queryKey('films.getAdminFilmById'), filmId],
-    queryFn: () => api.films.getAdminFilmById({ params: { id: filmId } }),
-    staleTime: Infinity,
-  });
-};

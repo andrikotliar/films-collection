@@ -77,9 +77,7 @@ const sortingFields: ListOption<string>[] = [
 ];
 
 function PageContainer() {
-  const searchParams = Route.useSearch({
-    select: ({ filmId: _, ...params }) => params,
-  });
+  const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
   const { data, isFetching } = useQuery(getFilmsAdminListQueryOptions(searchParams));
   const { data: initialData, isFetching: isInitialDataFetching } = useSuspenseQuery(
@@ -109,10 +107,10 @@ function PageContainer() {
 
   const handleViewFilm = (data: { id: number }) => {
     navigate({
-      search: (prev) => ({
-        ...prev,
-        filmId: data.id,
-      }),
+      to: '/film/$id',
+      params: {
+        id: data.id.toString(),
+      },
     });
   };
 

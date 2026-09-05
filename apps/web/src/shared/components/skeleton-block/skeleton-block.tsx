@@ -2,11 +2,11 @@ import { defineCssProperties } from '~/shared/helpers';
 import styles from './skeleton-block.module.css';
 
 type SkeletonBlockProps = {
-  width: string;
+  width?: string;
   height: string;
 };
 
-export const SkeletonBlock = ({ width, height }: SkeletonBlockProps) => {
+export const SkeletonBlock = ({ width = '100%', height }: SkeletonBlockProps) => {
   return (
     <div
       className={styles.skeleton}

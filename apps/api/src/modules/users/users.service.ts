@@ -5,14 +5,13 @@ import type {
   UpdateUserTranslationPreferences,
   UserSessionResponse,
 } from '@films-collection/shared';
-import { compare, hash } from 'bcrypt';
 import type { Deps } from '~/shared/types/deps.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import type { RequestUser } from '~/shared/helpers/get-request-user.js';
 import { BadRequestException } from '~/shared/exceptions/bad-request.js';
 
 export class UsersService {
-  constructor(private readonly deps: Deps<'usersRepository' | 'jwt'>) {}
+  constructor(private readonly deps: Deps<'usersRepository' | 'jwt' | 'hashService'>) {}
 
   getUser(userId: number) {
     return this.deps.usersRepository.findById(userId);
@@ -82,13 +81,13 @@ export class UsersService {
   async updatePassword(userId: number, payload: UpdateUserPasswordInput) {
     const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
 
-    const isPasswordCorrect = await compare(payload.actualPassword, user.password);
+    const isPasswordCorrect = this.deps.hashService.verify(payload.actualPassword, user.password);
 
     if (!isPasswordCorrect) {
       throw new BadRequestException({ message: 'Incorrect actual password' });
     }
 
-    const hashedPassword = await hash(payload.newPassword, 10);
+    const hashedPassword = this.deps.hashService.hash(payload.newPassword);
 
     const data = await throwIfNotFound(
       this.deps.usersRepository.update(user.id, {

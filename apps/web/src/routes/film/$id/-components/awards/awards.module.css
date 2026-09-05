@@ -1,0 +1,14 @@
+.awards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--color-yellow-extra-light);
+  padding: 20px;
+  min-height: 300px;
+}
+
+.title {
+  color: var(--color-orange-primary);
+  font-family: 'Roboto-Condensed', sans-serif;
+  font-size: var(--text-2xl);
+}

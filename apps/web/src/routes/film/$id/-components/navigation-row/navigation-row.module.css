@@ -1,0 +1,8 @@
+@media (width <= 1300px) {
+  .row {
+    color: var(--color-white);
+    position: relative;
+    z-index: 10;
+    padding: 0 20px;
+  }
+}

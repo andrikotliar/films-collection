@@ -1,0 +1,30 @@
+{
+  "name": "@films-collection/contracts",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@films-collection/eslint-config": "workspace:*",
+    "@films-collection/shared": "workspace:*",
+    "zod": "4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.dev.json",
+    "lint": "eslint ./src"
+  },
+  "packageManager": "pnpm@10.17.0"
+}

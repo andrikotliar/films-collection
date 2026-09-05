@@ -15,9 +15,9 @@ A personal list of films with manually collected data. The app primarily focuses
 - Zod
 
 
-### API client
+### API contracts
 
-The `@films-collections/api-client` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
+The `@films-collections/contract` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
 
 ### Images
 
@@ -40,7 +40,7 @@ Poster starts with the `posters` prefix and follows by the image name.
 
 ### Routers
 
-To build a type safe router, use the `createRouter` helper. Before creating a router, create a router contract in the `packages/api-client` package. The contract should contain URL, method and schema. To define a correct, type-safe contract, use the `defineContracts` helper.
+To build a type safe router, use the `createRouter` helper. Before creating a router, create a router contract in the `packages/api-contracts` package. The contract should contain URL, method and schema. To define a correct, type-safe contract, use the `defineContracts` helper.
 
 ## Development server
 
@@ -62,21 +62,7 @@ To build a type safe router, use the `createRouter` helper. Before creating a ro
 
 ## Build project
 
-### Local mode
-
-1. Run `pnpm build` in the project's root. The script builds the backend to the `./apps/api/dist` directory and frontend to the `./apps/api/dist/public`
-
-2. Run `node apps/api/dist/server.js` to start the application
-
-3. Open the app `http://localhost:5000`
-
-### Container mode
-
-1. Fill the `.env` file in the `apps/api` folder based on the `.env.sample`
-
-1. Run `pnpm build:container`. It will build the app and spin up the database.
-
-2. Open the app `http://localhost:5000`
+Run `pnpm build` in the project's root. The script builds the backend to the `./apps/api/dist` directory and frontend to the `./apps/web/dist`
 
 
 ## Database

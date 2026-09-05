@@ -1,4 +1,4 @@
-import { contracts } from '@films-collection/api-client';
+import { contracts } from '@films-collection/contracts';
 import { createRouter } from '~/shared/helpers/create-router.js';
 import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 

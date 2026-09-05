@@ -16,6 +16,7 @@ export const FilterOptions = <T extends Record<string, any>>({ filter }: FilterO
               label={option.label}
               value={option.value}
               name={filter.id}
+              key={option.value}
             />
           ))}
         </Form.Group>

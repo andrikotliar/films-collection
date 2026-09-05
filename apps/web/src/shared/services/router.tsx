@@ -1,4 +1,4 @@
-import { HttpError } from '@films-collection/api-client';
+import { HttpError } from '@films-collection/contracts';
 import { createRouter } from '@tanstack/react-router';
 import { routeTree } from '~/routeTree.gen';
 import { ErrorScreen, PageLoader } from '~/shared/components';

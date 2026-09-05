@@ -3,11 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "export-films": "tsx src/export-films.ts"
+    "export-films": "tsx src/export-films.ts",
+    "gen-pass": "tsx src/generate-password.ts"
   },
   "dependencies": {
     "@films-collection/eslint-config": "workspace:^",
     "@films-collection/shared": "workspace:^",
+    "clipboardy": "^5.3.2",
     "dotenv": "^16.6.1",
     "tsx": "^4.21.0",
     "zod": "4.1.11"
