@@ -4,7 +4,6 @@ packages:
   - scripts
 
 allowBuilds:
-  bcrypt: true
   esbuild: true
 
 verifyDepsBeforeRun: false
