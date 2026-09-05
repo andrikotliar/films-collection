@@ -110,23 +110,21 @@ export const FilmsSection = () => {
   return (
     <div className={styles.films_section}>
       <div className={styles.header}>
-        <div className={styles.mobile_logo}>
-          <Logo />
-        </div>
+        <Logo size={50} className={styles.mobile_logo} />
         <PageTitle>Films Collection</PageTitle>
+        <SortingPopup
+          fields={sortingFields}
+          onSorting={handleSorting}
+          defaultOrder={sortingValues.order}
+          defaultOrderKey={sortingValues.orderKey}
+          isDisabled={searchParams.collectionId !== undefined}
+          buttonWrapperClassName={styles.sorting}
+        />
       </div>
       <CurrentEvents
         events={data.events}
         total={data.allFilmsCount}
         anniversaryPoster={data.anniversaryPoster}
-      />
-      <SortingPopup
-        fields={sortingFields}
-        onSorting={handleSorting}
-        defaultOrder={sortingValues.order}
-        defaultOrderKey={sortingValues.orderKey}
-        isDisabled={searchParams.collectionId !== undefined}
-        buttonWrapperClassName={styles.sorting}
       />
       <AdditionalInfoSection info={data.additionalInfo} />
       <FilmsGrid films={data.list} isCollection={!!searchParams.collectionId} />
