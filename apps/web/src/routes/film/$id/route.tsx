@@ -6,6 +6,7 @@ import {
   Description,
   FilmPageLayout,
   NavigationRow,
+  PageSkeleton,
   SummarySection,
 } from '~/routes/film/$id/-components';
 import { getFilmQueryOptions } from '~/shared';
@@ -15,6 +16,7 @@ export const Route = createFileRoute('/film/$id')({
     await context.queryClient.ensureQueryData(getFilmQueryOptions(Number(params.id)));
   },
   component: RouteComponent,
+  pendingComponent: PageSkeleton,
 });
 
 function RouteComponent() {

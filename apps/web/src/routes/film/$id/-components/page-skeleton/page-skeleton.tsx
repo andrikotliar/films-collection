@@ -1,12 +1,11 @@
 import { SkeletonBlock } from '~/shared/components/skeleton-block/skeleton-block';
 import styles from './page-skeleton.module.css';
-import type { SummaryConfig } from '../../helpers';
+import type { SummaryConfig } from '../../-helpers';
 import {
   BookIcon,
   BuildingIcon,
   CalendarIcon,
   ClockIcon,
-  FileTextIcon,
   GlobeIcon,
   HandCoinsIcon,
   StarIcon,
@@ -16,6 +15,8 @@ import { SummaryBlock } from '../summary-section/components';
 import { FilmPageLayout } from '../film-page-layout/film-page-layout';
 import { PersonRole } from '@films-collection/shared';
 import { RoleTitle } from '../cast-and-crew/components';
+import { NavigationRow } from '~/routes/film/$id/-components/navigation-row/navigation-row';
+import clsx from 'clsx';
 
 const skeletonSummaryConfig: SummaryConfig[] = [
   {
@@ -60,25 +61,20 @@ const skeletonSummaryConfig: SummaryConfig[] = [
     icon: <HandCoinsIcon />,
     content: <SkeletonBlock width="100%" height="41px" />,
   },
-  {
-    id: 'synopsis',
-    title: 'Synopsis',
-    icon: <FileTextIcon />,
-    content: <SkeletonBlock width="100%" height="60px" />,
-  },
 ];
 
 export const PageSkeleton = () => {
   return (
     <FilmPageLayout>
+      <NavigationRow />
       <div className={styles.top_section}>
         <div className={styles.title_row}>
+          <SkeletonBlock width="60%" height="40px" />
           <div className={styles.stars}>
             <StarIcon className={styles.star_icon} />
             <StarIcon className={styles.star_icon} />
             <StarIcon className={styles.star_icon} />
           </div>
-          <SkeletonBlock width="60%" height="40px" />
         </div>
         <div className={styles.content}>
           <div className={styles.left_column}>
@@ -102,7 +98,10 @@ export const PageSkeleton = () => {
           </div>
         </div>
       </div>
-      <div className={styles.bottom_section}>
+      <div className={clsx(styles.section, styles.description)}>
+        <SkeletonBlock height="50px" />
+      </div>
+      <div className={styles.section}>
         {Object.values(PersonRole).map((role) => (
           <div className={styles.role_item} key={role}>
             <RoleTitle role={role} />
