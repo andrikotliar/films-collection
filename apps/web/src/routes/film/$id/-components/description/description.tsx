@@ -1,3 +1,4 @@
+import { ContentLayout } from '~/routes/film/$id/-components/content-layout/content-layout';
 import styles from './description.module.css';
 
 type DescriptionProps = {
@@ -5,5 +6,9 @@ type DescriptionProps = {
 };
 
 export const Description = ({ value }: DescriptionProps) => {
-  return <div className={styles.description}>{value}</div>;
+  return (
+    <ContentLayout>
+      <div className={styles.description}>{value}</div>
+    </ContentLayout>
+  );
 };

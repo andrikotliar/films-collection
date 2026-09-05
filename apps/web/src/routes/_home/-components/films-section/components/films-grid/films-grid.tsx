@@ -7,7 +7,7 @@ import {
   type ApiResponse,
 } from '~/shared';
 import styles from './films-grid.module.css';
-import { Link } from '@tanstack/react-router';
+import { Link, useLocation } from '@tanstack/react-router';
 import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
 import { PlayIcon } from 'lucide-react';
 import { useState } from 'react';
@@ -34,6 +34,8 @@ const getYearValue = (film: Film) => {
 
 export const FilmsGrid = ({ films, isCollection }: FilmsGridProps) => {
   const [selectedFilmId, setSelectedFilmId] = useState<number | null>(null);
+  const location = useLocation();
+
   if (!films.length) {
     return <FilmsNotFound />;
   }
@@ -47,6 +49,7 @@ export const FilmsGrid = ({ films, isCollection }: FilmsGridProps) => {
           key={film.id}
           disabled={film.upcoming}
           params={{ id: film.id.toString() }}
+          search={location.search}
         >
           <div className={styles.cover}>
             {isCollection && <div className={styles.counter}>{index + 1}</div>}
