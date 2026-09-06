@@ -26,6 +26,7 @@ export const ConsoleHeader = () => {
   }, [location.pathname]);
 
   const routeMatch = matches.at(-1);
+  const loaderData = routeMatch?.loaderData as Record<string, string | number> | undefined;
 
   return (
     <div className={styles.console_header}>
@@ -37,7 +38,7 @@ export const ConsoleHeader = () => {
             search={routeMatch?.staticData.preserveSearch ? location.search : undefined}
           />
         )}
-        <PageTitle>{routeMatch?.staticData.title ?? 'Console'}</PageTitle>
+        <PageTitle>{loaderData?.title ?? routeMatch?.staticData.title ?? 'Console'}</PageTitle>
       </div>
       {location.pathname !== '/console' && (
         <Button
