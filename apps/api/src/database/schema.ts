@@ -587,6 +587,7 @@ export const hobbyItems = pgTable(
     description: text().notNull(),
     hobbyId: integer('hobby_id').notNull(),
     releaseYear: integer('release_year').notNull(),
+    imageUrl: text('image_url'),
   },
   (table) => [
     foreignKey({
@@ -670,3 +671,4 @@ export type FilmCountry = typeof filmsCountries.$inferInsert;
 export type User = typeof users.$inferInsert;
 export type UserSession = typeof usersSessions.$inferInsert;
 export type Hobby = typeof hobbies.$inferInsert;
+export type HobbyItem = typeof hobbyItems.$inferInsert;
