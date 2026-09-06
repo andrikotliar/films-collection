@@ -21,7 +21,7 @@ export type SelectProps<T extends ListOption<any>> = {
   isOptionsLoading?: boolean;
   onSelect: (value: any, option?: T) => void;
   onOptionsSearch?: (value: string | null) => void;
-  onCreateOption?: (value: string) => Promise<T>;
+  onCreateOption?: (value: string) => Promise<T> | T;
   onClear?: VoidFunction;
 };
 

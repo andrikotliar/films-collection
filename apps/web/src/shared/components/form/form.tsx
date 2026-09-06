@@ -36,7 +36,7 @@ type FormResetHandler<TDefaultValues extends Record<PropertyKey, unknown>> = (
 ) => void;
 
 type FormProps<TDefaultValues extends Record<PropertyKey, unknown>, TSchema extends z.ZodType> = {
-  onSubmit: (data: TDefaultValues) => Promise<unknown>;
+  onSubmit: (data: TDefaultValues) => Promise<unknown> | unknown;
   defaultValues?: DefaultValues<TDefaultValues>;
   schema: TSchema;
   isLoading?: boolean;
