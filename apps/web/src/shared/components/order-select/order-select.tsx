@@ -9,7 +9,7 @@ import { getExternalImageUrl } from '~/shared/helpers';
 type ListItem = {
   id: number;
   order: number | null;
-  poster: string | null;
+  imageUrl: string | null;
 };
 
 export type OrderSelectProps = {
@@ -30,11 +30,11 @@ export const OrderSelect = ({
   const startingVirtualChapter = getVirtualChapterValue(0, list[0]?.order);
 
   return (
-    <div className={styles.films}>
+    <div className={styles.wrapper}>
       <FieldLabel>{label}</FieldLabel>
       <ScrollableLine>
         {list.length === 0 && (
-          <label className={clsx(styles.film, styles.position_select)}>
+          <label className={clsx(styles.item, styles.position_select)}>
             <input
               type="radio"
               onChange={() => onChange(startingVirtualChapter)}
@@ -42,17 +42,17 @@ export const OrderSelect = ({
             />
           </label>
         )}
-        {list.map((film, index) => {
-          const virtualChapter = getVirtualChapterValue(film.order, list[index + 1]?.order);
+        {list.map((item, index) => {
+          const virtualChapter = getVirtualChapterValue(item.order, list[index + 1]?.order);
 
           const isNextChapterSelected = list[index + 1]?.order === value;
           const isFirstChapterSelected = list[0].id === currentId;
-          const isCurrentFilmSelected = film.id === currentId;
+          const isCurrentFilmSelected = item.id === currentId;
 
           return (
-            <div key={film.id} className={styles.chapter_section}>
+            <div key={item.id} className={styles.chapter_section}>
               {index === 0 && !isFirstChapterSelected && (
-                <label className={clsx(styles.film, styles.position_select)}>
+                <label className={clsx(styles.item, styles.position_select)}>
                   <input
                     type="radio"
                     onChange={() => onChange(startingVirtualChapter)}
@@ -62,24 +62,24 @@ export const OrderSelect = ({
                 </label>
               )}
               {isCurrentFilmSelected ? (
-                <label className={clsx(styles.film, styles.position_select)}>
+                <label className={clsx(styles.item, styles.position_select)}>
                   <input
                     type="radio"
-                    onChange={() => onChange(film.order ?? 0)}
-                    checked={film.order === value}
+                    onChange={() => onChange(item.order ?? 0)}
+                    checked={item.order === value}
                   />
-                  <span className={styles.chapter_number}>{film.order}</span>
+                  <span className={styles.chapter_number}>{item.order}</span>
                 </label>
               ) : (
-                <div className={styles.film}>
+                <div className={styles.item}>
                   <Image
-                    src={getExternalImageUrl(film.poster)}
+                    src={getExternalImageUrl(item.imageUrl)}
                     className={styles.poster_select_image}
                   />
                 </div>
               )}
               {!isCurrentFilmSelected && !isNextChapterSelected && (
-                <label className={clsx(styles.film, styles.position_select)}>
+                <label className={clsx(styles.item, styles.position_select)}>
                   <input
                     type="radio"
                     onChange={() => onChange(virtualChapter)}

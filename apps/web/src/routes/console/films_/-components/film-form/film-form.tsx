@@ -5,6 +5,7 @@ import {
   convertImageToWebp,
   Form,
   getAllCollectionOptionsQueryOptions,
+  getFilmsByCollectionQueryOptions,
   getInitialDataQueryOptions,
   getObjectsDiff,
   getUserDataQueryOptions,
@@ -22,13 +23,12 @@ import {
   SeriesExtension,
   TrailersSelect,
   DescriptionEditor,
-  CollectionsSelect,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { validateLanguage } from '~/routes/console/-shared';
+import { validateLanguage, CollectionsSelect } from '~/routes/console/-shared';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -56,7 +56,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
       if (poster instanceof File) {
         const transformedPoster = await convertImageToWebp(poster);
 
-        const key = `posters/${titleToFileName(data.title)}`;
+        const key = `posters/${titleToFileName(data.title)}.webp`;
         const uploadParams = await api.files.getUploadUrl({
           input: {
             key,
@@ -214,7 +214,10 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
           isMulti
         />
-        <CollectionsSelect options={collectionOptions} />
+        <CollectionsSelect
+          options={collectionOptions}
+          getCurrentCollection={getFilmsByCollectionQueryOptions}
+        />
         <Form.DatePicker name="releaseDate" label="Release Date" />
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <MoneyInput name="budget" label="Budget" />
