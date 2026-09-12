@@ -1,4 +1,8 @@
-import type { HobbiesListResponse } from '@films-collection/shared';
+import type {
+  HobbyItemInput,
+  HobbiesListResponse,
+  HobbyItemResponse,
+} from '@films-collection/shared';
 import type { Hobby } from '~/database/schema.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
@@ -22,7 +26,40 @@ export class HobbiesService {
     return { list, total, pageLimit: 0 };
   }
 
+  async getHobby(id: number) {
+    return throwIfNotFound(this.deps.hobbiesRepository.get(id));
+  }
+
+  async createHobbyItem(input: HobbyItemInput, hobbyId: number): Promise<HobbyItemResponse> {
+    const hobbyItemId = await this.deps.hobbiesRepository.createHobbyItem(input, hobbyId);
+
+    return this.getHobbyItemById(hobbyItemId);
+  }
+
+  async getHobbyItemById(id: number): Promise<HobbyItemResponse> {
+    const item = await throwIfNotFound(this.deps.hobbiesRepository.getHobbyItemById(id));
+
+    return {
+      ...item,
+      collections: item.collections.map(({ collection }) => collection),
+      authors: item.authors.map(({ person }) => person),
+    };
+  }
+
   delete(id: number) {
     return this.deps.hobbiesRepository.delete(id);
+  }
+
+  deleteItem(id: number) {
+    return this.deps.hobbiesRepository.deleteItem(id);
+  }
+
+  async getItemsByCollection(collectionId: number) {
+    const items = await this.deps.hobbiesRepository.getHobbiesItemsByCollection(collectionId);
+
+    return items.map((item) => ({
+      ...item.hobbyItem,
+      order: item.order,
+    }));
   }
 }

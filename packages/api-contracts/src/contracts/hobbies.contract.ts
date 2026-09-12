@@ -5,6 +5,10 @@ import {
   IdParamSchema,
   HobbyByIdResponseSchema,
   HobbyByIdQueriesSchema,
+  HobbyItemParamsSchema,
+  HobbyItemResponseSchema,
+  HobbyItemInputSchema,
+  HobbyItemsByCollectionIdResponseSchema,
 } from '@films-collection/shared';
 import { createContract } from '../helpers/define-contracts.js';
 
@@ -48,6 +52,31 @@ export const hobbiesContract = {
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
+    },
+  }),
+  deleteHobbyItem: createContract({
+    url: ':id/item/:itemId',
+    method: 'DELETE',
+    schema: {
+      params: HobbyItemParamsSchema,
+      response: IdParamSchema,
+    },
+  }),
+  createHobbyItem: createContract({
+    url: ':id/item',
+    method: 'POST',
+    schema: {
+      params: IdParamSchema,
+      body: HobbyItemInputSchema,
+      response: HobbyItemResponseSchema,
+    },
+  }),
+  getHobbiesByCollection: createContract({
+    url: 'collection/:id',
+    method: 'GET',
+    schema: {
+      params: IdParamSchema,
+      response: HobbyItemsByCollectionIdResponseSchema,
     },
   }),
 };

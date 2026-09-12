@@ -12,9 +12,10 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
     },
   },
   getHobby: {
-    handler: async () => {
+    handler: async ({ app, request }) => {
+      const data = await app.resolve('hobbiesService').getHobby(request.params.id);
       return {
-        data: {} as any,
+        data,
       };
     },
   },
@@ -45,6 +46,32 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
       return {
         data: { id: request.params.id },
       };
+    },
+  },
+  deleteHobbyItem: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      await app.resolve('hobbiesService').deleteItem(request.params.itemId);
+      return {
+        data: { id: request.params.id },
+      };
+    },
+  },
+  createHobbyItem: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app
+        .resolve('hobbiesService')
+        .createHobbyItem(request.body, request.params.id);
+      return { data };
+    },
+  },
+  getHobbiesByCollection: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('hobbiesService').getItemsByCollection(request.params.id);
+
+      return { data };
     },
   },
 });

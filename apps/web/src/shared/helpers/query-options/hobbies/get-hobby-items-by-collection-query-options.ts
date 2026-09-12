@@ -3,20 +3,14 @@ import { isNewItem } from '~/shared/helpers/is-new-item';
 import { api, queryKey } from '~/shared/services';
 import type { MixedId } from '~/shared/types';
 
-export const getFilmsByCollectionQueryOptions = (collectionId: MixedId) => {
+export const getHobbyItemsByCollectionQueryOptions = (collectionId: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('films.getByCollection'), collectionId],
+    queryKey: [queryKey('hobbies.getHobbiesByCollection'), collectionId],
     queryFn: async () => {
       if (isNewItem(collectionId)) {
         return;
       }
-
-      const films = await api.films.getByCollection({ params: { id: collectionId } });
-
-      return films.map((film) => ({
-        ...film,
-        imageUrl: film.poster,
-      }));
+      return await api.hobbies.getHobbiesByCollection({ params: { id: collectionId } });
     },
     enabled: !!collectionId && !isNewItem(collectionId),
   });
