@@ -1,0 +1,181 @@
+{
+  "id": 414,
+  "title": "Inside Out 2",
+  "releaseDate": "2024-06-14",
+  "type": "FILM",
+  "duration": 96,
+  "budget": 200000000,
+  "boxOffice": 1690000000,
+  "synopsis": "Riley is growing up, and the emotions in her mind gain access to a new part - self-awareness, where memories and feelings are stored. Soon, new emotions appear: Envy, Melancholy, Embarrassment, Nostalgia, and the most significant among them - Anxiety. The new emotions bring significant changes to Riley's personality and behavior.",
+  "poster": "posters/inside_out_2",
+  "genres": [
+    {
+      "title": "Adventures",
+      "id": 3
+    },
+    {
+      "title": "Comedy",
+      "id": 6
+    }
+  ],
+  "style": "LIVE_ACTION",
+  "countries": [
+    {
+      "title": "USA",
+      "id": 1
+    },
+    {
+      "title": "Japan",
+      "id": 6
+    }
+  ],
+  "studios": [
+    {
+      "title": "Pixar Animation",
+      "id": 3
+    }
+  ],
+  "trailers": [
+    {
+      "url": "https://www.youtube.com/watch?v=LEjhY15eCx0&pp=ygUUaW5zaWRlIG91dCAyIHRyYWlsZXI%3D",
+      "order": 1,
+      "id": 412
+    }
+  ],
+  "awards": [],
+  "castAndCrew": [
+    {
+      "id": 2980,
+      "name": "Kelsey Mann",
+      "role": "DIRECTOR",
+      "details": null
+    },
+    {
+      "id": 2861,
+      "name": "Meg LeFauve",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2981,
+      "name": "Dave Holstain",
+      "role": "WRITER",
+      "details": null
+    },
+    {
+      "id": 2982,
+      "name": "Mark Nielsen",
+      "role": "PRODUCER",
+      "details": null
+    },
+    {
+      "id": 2983,
+      "name": "Andrea Datzman",
+      "role": "COMPOSER",
+      "details": null
+    },
+    {
+      "id": 2984,
+      "name": "Adam Habib",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2985,
+      "name": "Jonathan Pytko",
+      "role": "CAMERAMAN",
+      "details": null
+    },
+    {
+      "id": 2863,
+      "name": "Amy Poehler",
+      "role": "ACTOR",
+      "details": "Joy"
+    },
+    {
+      "id": 2986,
+      "name": "Maya Hawke",
+      "role": "ACTOR",
+      "details": " Anxiety"
+    },
+    {
+      "id": 2987,
+      "name": "Kensington Tallman",
+      "role": "ACTOR",
+      "details": " Riley"
+    },
+    {
+      "id": 2988,
+      "name": "Liza Lapira",
+      "role": "ACTOR",
+      "details": " Disgust"
+    },
+    {
+      "id": 2989,
+      "name": "Tony Hale",
+      "role": "ACTOR",
+      "details": "Fear"
+    },
+    {
+      "id": 2866,
+      "name": "Lewis Black",
+      "role": "ACTOR",
+      "details": "Anger"
+    },
+    {
+      "id": 2860,
+      "name": "Phyllis Smith",
+      "role": "ACTOR",
+      "details": " Sadness"
+    },
+    {
+      "id": 2990,
+      "name": "Ayo Edebiri",
+      "role": "ACTOR",
+      "details": " Envy"
+    },
+    {
+      "id": 2991,
+      "name": "Paul Walter Hauser",
+      "role": "ACTOR",
+      "details": " Embarrassment"
+    },
+    {
+      "id": 2992,
+      "name": "Lilimar",
+      "role": "ACTOR",
+      "details": "Valentina"
+    },
+    {
+      "id": 2993,
+      "name": "Grace Lu",
+      "role": "ACTOR",
+      "details": "Grace"
+    },
+    {
+      "id": 2994,
+      "name": "Adèle Exarchopoulos",
+      "role": "ACTOR",
+      "details": "Ennui"
+    },
+    {
+      "id": 2995,
+      "name": "Ron Funches",
+      "role": "ACTOR",
+      "details": "Bloofy"
+    },
+    {
+      "id": 2996,
+      "name": "James Austin Johnson",
+      "role": "ACTOR",
+      "details": "Pouchy"
+    }
+  ],
+  "collections": [
+    {
+      "id": 97,
+      "title": "Inside Out",
+      "order": 2
+    }
+  ]
+}
