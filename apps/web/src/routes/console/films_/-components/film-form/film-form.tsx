@@ -217,6 +217,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <CollectionsSelect
           options={collectionOptions}
           getCurrentCollection={getFilmsByCollectionQueryOptions}
+          currentItemId={values.id}
         />
         <Form.DatePicker name="releaseDate" label="Release Date" />
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />

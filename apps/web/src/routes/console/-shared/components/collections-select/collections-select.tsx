@@ -23,6 +23,7 @@ type CollectionsSelectProps<T extends DataParams> = {
   options: ListOption<number>[];
   defaultCategory?: Enum<typeof CollectionCategory>;
   getCurrentCollection: (collectionId: MixedId) => ItemOrderSelectProps<T>['queryOptions'];
+  currentItemId: MixedId;
 };
 
 type FormValueSlice = {
@@ -43,6 +44,7 @@ export const CollectionsSelect = <T extends DataParams>({
   options,
   defaultCategory,
   getCurrentCollection,
+  currentItemId,
 }: CollectionsSelectProps<T>) => {
   const { params, isAsyncModalOpen, openAsyncModal, closeAsyncModal } = useAsyncModal<
     string,
@@ -103,6 +105,7 @@ export const CollectionsSelect = <T extends DataParams>({
               <ItemOrderSelect
                 name={`collections.${index}.order`}
                 queryOptions={getCurrentCollection(collections[index].collectionId)}
+                currentItemId={currentItemId}
               />
             )}
             <FieldError error={formState.errors?.collections?.[index]?.order?.message} />

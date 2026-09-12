@@ -5,6 +5,7 @@ import { getVirtualChapterValue } from '~/shared/components/order-select/helpers
 import { Image } from '~/shared/components/image/image';
 import clsx from 'clsx';
 import { getExternalImageUrl } from '~/shared/helpers';
+import type { MixedId } from '~/shared/types';
 
 type ListItem = {
   id: number;
@@ -16,7 +17,7 @@ export type OrderSelectProps = {
   label?: string;
   list: ListItem[];
   value: number;
-  currentId?: number;
+  currentId?: MixedId;
   onChange: (value?: number) => void;
 };
 
