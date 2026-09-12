@@ -606,6 +606,7 @@ export const hobbyItemsCollections = pgTable(
     id: serial().primaryKey().notNull(),
     hobbyItemId: integer('hobby_item_id').notNull(),
     collectionId: integer('collection_id').notNull(),
+    order: integer('order'),
   },
   (table) => [
     uniqueIndex('hobby_items_collections_hobby_item_id_collection_id_key').using(

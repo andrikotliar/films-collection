@@ -201,29 +201,8 @@
     {
       "idx": 30,
       "version": "7",
-      "when": 1787494588056,
+      "when": 1789225284221,
       "tag": "0030_add-hobbies-related-tables",
-      "breakpoints": true
-    },
-    {
-      "idx": 31,
-      "version": "7",
-      "when": 1788630417035,
-      "tag": "0031_remove-type-column",
-      "breakpoints": true
-    },
-    {
-      "idx": 32,
-      "version": "7",
-      "when": 1788716780354,
-      "tag": "0032_add-image-url-column-to-hobby-items",
-      "breakpoints": true
-    },
-    {
-      "idx": 33,
-      "version": "7",
-      "when": 1788718765645,
-      "tag": "0033_remove-redundant-category-type",
       "breakpoints": true
     }
   ]

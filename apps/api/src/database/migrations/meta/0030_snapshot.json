@@ -1,5 +1,5 @@
 {
-  "id": "05073534-26e1-41e7-919a-6b885b5ae231",
+  "id": "87eb5718-9742-4550-92f5-b71194dd1f87",
   "prevId": "ab676ffb-714d-4c6a-a869-30d2136f6a55",
   "version": "7",
   "dialect": "postgresql",
@@ -1328,13 +1328,6 @@
           "primaryKey": false,
           "notNull": true
         },
-        "type": {
-          "name": "type",
-          "type": "hobby_item_type",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "'BOOK'"
-        },
         "description": {
           "name": "description",
           "type": "text",
@@ -1352,6 +1345,12 @@
           "type": "integer",
           "primaryKey": false,
           "notNull": true
+        },
+        "image_url": {
+          "name": "image_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
         }
       },
       "indexes": {},
@@ -1397,6 +1396,12 @@
           "type": "integer",
           "primaryKey": false,
           "notNull": true
+        },
+        "order": {
+          "name": "order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
         }
       },
       "indexes": {
@@ -1983,16 +1988,7 @@
         "GENERAL",
         "CINEMATIC_UNIVERSE",
         "CHAPTER",
-        "TOP",
-        "HOBBY_ITEM_CHAPTER"
-      ]
-    },
-    "public.hobby_item_type": {
-      "name": "hobby_item_type",
-      "schema": "public",
-      "values": [
-        "BOOK",
-        "BOARD_GAME"
+        "TOP"
       ]
     },
     "public.person_role": {

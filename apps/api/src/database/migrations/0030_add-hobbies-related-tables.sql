@@ -1,5 +1,3 @@
-CREATE TYPE "public"."hobby_item_type" AS ENUM('BOOK', 'BOARD_GAME');--> statement-breakpoint
-ALTER TYPE "public"."collection_category" ADD VALUE 'HOBBY_ITEM_CHAPTER';--> statement-breakpoint
 CREATE TABLE "hobbies" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"title" text NOT NULL
@@ -8,16 +6,17 @@ CREATE TABLE "hobbies" (
 CREATE TABLE "hobby_items" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"title" text NOT NULL,
-	"type" "hobby_item_type" DEFAULT 'BOOK' NOT NULL,
 	"description" text NOT NULL,
 	"hobby_id" integer NOT NULL,
-	"release_year" integer NOT NULL
+	"release_year" integer NOT NULL,
+	"image_url" text
 );
 --> statement-breakpoint
 CREATE TABLE "hobby_items_collections" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"hobby_item_id" integer NOT NULL,
-	"collection_id" integer NOT NULL
+	"collection_id" integer NOT NULL,
+	"order" integer
 );
 --> statement-breakpoint
 CREATE TABLE "hobby_items_people" (
