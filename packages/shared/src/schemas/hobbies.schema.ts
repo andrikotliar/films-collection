@@ -43,16 +43,14 @@ export const HobbyItemInputSchema = z.object({
   title: z.string(),
   description: z.string(),
   releaseYear: z.coerce.number(),
-  collections: z
-    .array(
-      z.object({
-        collectionId: z.number(),
-        order: z.number().min(0.1, {
-          error: 'Order is required for the collection',
-        }),
+  collections: z.array(
+    z.object({
+      collectionId: z.number(),
+      order: z.number().min(0.1, {
+        error: 'Order is required for the collection',
       }),
-    )
-    .min(1),
+    }),
+  ),
   people: z.array(z.number()).min(1),
   imageUrl: z.string().nullable().optional(),
 });
