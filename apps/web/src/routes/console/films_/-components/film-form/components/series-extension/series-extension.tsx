@@ -8,7 +8,7 @@ export const SeriesExtension = () => {
 
   const titleType = watch('type');
 
-  if (titleType !== 'SERIES') {
+  if (!titleType.includes('SERIES')) {
     return null;
   }
 
