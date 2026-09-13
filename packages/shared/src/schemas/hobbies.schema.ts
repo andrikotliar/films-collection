@@ -5,11 +5,13 @@ import { CollectionResponseSchema } from './collections.schema.js';
 
 export const HobbyMutationSchema = z.object({
   title: z.string().min(3).trim(),
+  imageUrl: z.string().nullable().optional(),
 });
 
 export const HobbyResponseSchema = z.object({
   id: z.number(),
   title: z.string(),
+  imageUrl: z.string().nullable(),
 });
 
 export const HobbiesListResponseSchema = getListResponseSchema(z.array(HobbyResponseSchema));

@@ -2,7 +2,6 @@ import type z from 'zod';
 import { useMutation, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import {
   api,
-  convertImageToWebp,
   Form,
   getAllCollectionOptionsQueryOptions,
   getFilmsByCollectionQueryOptions,
@@ -12,7 +11,7 @@ import {
   isNewItem,
   Panel,
   queryKey,
-  titleToFileName,
+  uploadImage,
 } from '~/shared';
 import {
   AwardsSelect,
@@ -51,29 +50,11 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
       validateLanguage(data.synopsis, user);
 
-      let poster = data.poster;
-
-      if (poster instanceof File) {
-        const transformedPoster = await convertImageToWebp(poster);
-
-        const key = `posters/${titleToFileName(data.title)}.webp`;
-        const uploadParams = await api.files.getUploadUrl({
-          input: {
-            key,
-            fileType: 'webp',
-          },
-        });
-
-        await fetch(uploadParams.url, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'webp',
-          },
-          body: transformedPoster,
-        });
-
-        poster = key;
-      }
+      const poster = await uploadImage({
+        image: data.poster,
+        title: data.title,
+        folder: 'posters',
+      });
 
       const today = Date.now();
       const releaseDateMs = data.releaseDate ? new Date(data.releaseDate).getTime() : 0;

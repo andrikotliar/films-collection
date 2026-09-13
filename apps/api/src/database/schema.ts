@@ -577,6 +577,7 @@ export const usersSessions = pgTable(
 export const hobbies = pgTable('hobbies', {
   id: serial().primaryKey().notNull(),
   title: text().notNull(),
+  imageUrl: text(),
 });
 
 export const hobbyItems = pgTable(

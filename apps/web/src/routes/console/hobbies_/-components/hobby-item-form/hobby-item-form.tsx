@@ -6,14 +6,13 @@ import { CollectionsSelect, getFormTitle, useFormModal } from '~/routes/console/
 import { HobbyItemFormSchema } from '~/routes/console/hobbies_/-schemas/hobby-item-schema';
 import {
   api,
-  convertImageToWebp,
   Form,
   getAllCollectionOptionsQueryOptions,
   getHobbyItemsByCollectionQueryOptions,
   getObjectsDiff,
   isNewItem,
   queryKey,
-  titleToFileName,
+  uploadImage,
   type FormComponentProps,
 } from '~/shared';
 
@@ -30,34 +29,15 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
   const hobbyItemMutation = useMutation({
     mutationFn: async (input: z.infer<typeof HobbyItemFormSchema>) => {
       const { id: hobbyItemId, ...data } = input;
-      let imageUrl = input.imageUrl;
       const currentRoute = matches.at(-1);
       const loaderData = currentRoute?.loaderData as Record<string, string | number>;
       const pageTitle = loaderData.title;
 
-      if (imageUrl instanceof File) {
-        const transformedPoster = await convertImageToWebp(imageUrl);
-
-        const folder = pageTitle ? titleToFileName(String(pageTitle)) : 'hobby_items';
-
-        const key = `${folder}/${titleToFileName(input.title)}.webp`;
-        const uploadParams = await api.files.getUploadUrl({
-          input: {
-            key,
-            fileType: 'webp',
-          },
-        });
-
-        await fetch(uploadParams.url, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'webp',
-          },
-          body: transformedPoster,
-        });
-
-        imageUrl = key;
-      }
+      const imageUrl = await uploadImage({
+        image: data.imageUrl,
+        title: input.title,
+        folder: pageTitle ? String(pageTitle) : 'hobby_items',
+      });
 
       const finalInput = {
         ...data,

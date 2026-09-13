@@ -13,7 +13,9 @@ export class HobbiesRepository {
   constructor(private readonly deps: Deps<'db'>) {}
 
   list() {
-    return this.deps.db.select({ id: hobbies.id, title: hobbies.title }).from(hobbies);
+    return this.deps.db
+      .select({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl })
+      .from(hobbies);
   }
 
   countHobbies() {
@@ -43,7 +45,7 @@ export class HobbiesRepository {
     return this.deps.db
       .insert(hobbies)
       .values(input)
-      .returning({ id: hobbies.id, title: hobbies.title });
+      .returning({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl });
   }
 
   update(id: number, input: Partial<Hobby>) {
@@ -51,7 +53,7 @@ export class HobbiesRepository {
       .update(hobbies)
       .set(input)
       .where(eq(hobbies.id, id))
-      .returning({ id: hobbies.id, title: hobbies.title });
+      .returning({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl });
   }
 
   async delete(id: number) {
@@ -150,6 +152,7 @@ export class HobbiesRepository {
       columns: {
         id: true,
         title: true,
+        imageUrl: true,
       },
       with: {
         items: {
