@@ -7,7 +7,6 @@ import 'dotenv/config';
 
 export const database = drizzle(process.env.DATABASE_URL!, {
   schema: { ...schema, ...relations },
-  logger: true,
 });
 
 const databaseDecorator = async (app: FastifyInstance) => {
