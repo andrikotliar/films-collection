@@ -1,4 +1,4 @@
-import { getExternalImageUrl, PageTitle, Image, BackLink } from '~/shared';
+import { getExternalImageUrl, PageTitle, Image, BackLink, getPluralWord } from '~/shared';
 import styles from './hobby-title.module.css';
 
 type HobbyTitleProps = {
@@ -17,7 +17,9 @@ export const HobbyTitle = ({ children, imageUrl, total = 0 }: HobbyTitleProps) =
         </div>
         <div>
           <PageTitle>{children}</PageTitle>
-          <div>{total} items</div>
+          <div>
+            {total} {getPluralWord('item', total)}
+          </div>
         </div>
       </div>
     </div>
