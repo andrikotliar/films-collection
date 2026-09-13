@@ -86,8 +86,8 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
   },
   getHobbyAdmin: {
     preHandler: [validateAuth],
-    handler: async () => {
-      const data = {} as any;
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('hobbiesService').getAdminHobby(request.params.id);
 
       return { data };
     },

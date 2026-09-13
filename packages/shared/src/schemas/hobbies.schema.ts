@@ -57,7 +57,7 @@ export const HobbyItemInputSchema = z.object({
 export const HobbyItemUpdateInputSchema = HobbyItemInputSchema.partial();
 
 export const HobbyByIdAdminResponseSchema = HobbyResponseSchema.extend({
-  items: z.array(HobbyItemInputSchema),
+  items: z.array(HobbyItemInputSchema.extend({ id: z.number() })),
 });
 
 export const HobbyItemsByCollectionIdResponseSchema = z.array(

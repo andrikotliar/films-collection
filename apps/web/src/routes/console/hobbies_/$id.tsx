@@ -3,7 +3,8 @@ import { createFileRoute } from '@tanstack/react-router';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { HobbyItemForm } from '~/routes/console/hobbies_/-components';
 import { getDefaultHobbyItem } from '~/routes/console/hobbies_/-configs';
-import { api, getHobbyWithItemsQueryOptions, getInitialDataQueryOptions } from '~/shared';
+import { api } from '~/shared';
+import { getHobbyAdminQueryOptions } from '~/shared/helpers/query-options/hobbies/get-hobby-admin-query-options';
 
 const getDeleteHobbyItemMutations = (hobbyId: number) => {
   return () => {
@@ -16,8 +17,7 @@ const getDeleteHobbyItemMutations = (hobbyId: number) => {
 
 export const Route = createFileRoute('/console/hobbies_/$id')({
   loader: async ({ context, params }) => {
-    await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
-    return context.queryClient.ensureQueryData(getHobbyWithItemsQueryOptions(params.id));
+    return context.queryClient.ensureQueryData(getHobbyAdminQueryOptions(+params.id));
   },
   component: withFormModal(HobbyItemForm, RouteComponent),
   head: ({ loaderData }) => ({
@@ -35,7 +35,7 @@ export const Route = createFileRoute('/console/hobbies_/$id')({
 
 function RouteComponent() {
   const params = Route.useParams();
-  const { data, isLoading } = useSuspenseQuery(getHobbyWithItemsQueryOptions(params.id));
+  const { data, isLoading } = useSuspenseQuery(getHobbyAdminQueryOptions(+params.id));
 
   const { onOpen } = useFormModal();
 

@@ -78,8 +78,11 @@ export class HobbiesService {
       ...data,
       items: data.items.map((item) => ({
         ...item,
-        people: item.authors.map((person) => person.id),
-        collections: [],
+        people: item.authors.map((person) => person.personId),
+        collections: item.collections.map((collection) => ({
+          collectionId: collection.collectionId,
+          order: collection.order ?? 0,
+        })),
       })),
     };
   }
