@@ -21,13 +21,12 @@ import {
   MoneyInput,
   SeriesExtension,
   TrailersSelect,
-  DescriptionEditor,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { validateLanguage, CollectionsSelect } from '~/routes/console/-shared';
+import { validateLanguage, CollectionsSelect, DescriptionEditor } from '~/routes/console/-shared';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -204,7 +203,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <MoneyInput name="budget" label="Budget" />
         <MoneyInput name="boxOffice" label="Box Office" />
-        <DescriptionEditor />
+        <DescriptionEditor name="synopsis" label="Description" />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
         <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <Form.Checkbox name="draft" label="Draft" type="checkbox" />
