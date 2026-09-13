@@ -1,5 +1,5 @@
 import styles from './found-film.module.css';
-import { Link } from '@tanstack/react-router';
+import { Link, useLocation } from '@tanstack/react-router';
 import { getExternalImageUrl, getYearFromDate, type api, type ApiResponse } from '~/shared';
 import { Image } from '~/shared/components/image/image';
 
@@ -10,13 +10,14 @@ type FoundFilmProps = {
 
 export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
   const genres = film.genres.map((genre) => genre.title).join(', ');
+  const location = useLocation();
 
   return (
     <Link
-      to="/film/$id"
-      params={{ id: film.id.toString() }}
+      to={location.pathname}
       className={styles.film_link}
       onClick={onFilmOpen}
+      search={{ filmId: film.id }}
     >
       <div className={styles.poster_wrapper}>
         <Image src={getExternalImageUrl(film.poster)} alt={`Poster of the "${film.title}"`} />

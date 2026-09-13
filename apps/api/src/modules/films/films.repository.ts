@@ -235,7 +235,6 @@ export class FilmsRepository {
         id: true,
         title: true,
         type: true,
-        style: true,
         poster: true,
         rating: true,
         budget: true,
@@ -453,7 +452,6 @@ export class FilmsRepository {
       columns: {
         title: true,
         type: true,
-        style: true,
         rating: true,
         poster: true,
         duration: true,
@@ -687,7 +685,6 @@ export class FilmsRepository {
         budget: true,
         boxOffice: true,
         type: true,
-        style: true,
         poster: true,
       },
       with: {
@@ -916,15 +913,6 @@ export class FilmsRepository {
       .where(this.getPublicFilmsFilter())
       .groupBy(films.type)
       .orderBy(films.type);
-  }
-
-  aggregateFilmStyles() {
-    return this.deps.db
-      .select({ title: films.style, value: count() })
-      .from(films)
-      .where(this.getPublicFilmsFilter())
-      .groupBy(films.style)
-      .orderBy(films.style);
   }
 
   getTrailersByFilmId(id: number) {

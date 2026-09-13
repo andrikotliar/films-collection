@@ -1,8 +1,8 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import type z from 'zod';
-import { useFormModal, validateLanguage } from '~/routes/console/-shared';
+import { DescriptionEditor, useFormModal, validateLanguage } from '~/routes/console/-shared';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { DescriptionEditor } from '~/routes/console/films_/-components/film-form/components';
+
 import {
   api,
   FieldError,
@@ -64,7 +64,7 @@ export const QuickEditForm = ({ values }: QuickEditFormProps) => {
       isLoading={isPending}
     >
       <Form.TextInput name="title" />
-      <DescriptionEditor />
+      <DescriptionEditor name="synopsis" label="Description" />
       <Form.RatingInput name="rating" size={3} />
       <Form.Checkbox label="Draft" name="draft" type="checkbox" />
     </Form>

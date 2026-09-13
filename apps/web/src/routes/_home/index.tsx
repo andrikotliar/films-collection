@@ -19,7 +19,8 @@ export const Route = createFileRoute('/_home/')({
     return GetFilmsListQuerySchema.parse(search);
   },
   loader: async ({ context, location }) => {
-    return await context.queryClient.ensureQueryData(getFilmsListQueryOptions(location.search));
+    const { filmId: _, ...search } = location.search as Record<string, any>;
+    return await context.queryClient.ensureQueryData(getFilmsListQueryOptions(search));
   },
   component: RootPageContainer,
   head: ({ loaderData }) => ({
@@ -76,7 +77,7 @@ function RootPageContainer() {
     };
   }, [routeSearch]);
 
-  const filtersCount = countObjectKeys(routeSearch, ['pageIndex']);
+  const filtersCount = countObjectKeys(routeSearch, ['pageIndex', 'filmId']);
 
   return (
     <RootPageLayout>

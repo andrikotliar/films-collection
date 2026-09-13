@@ -11,7 +11,7 @@ export const DataLink = ({ basePath, query, children }: DataLinkProps) => {
   return (
     <Link
       to={basePath}
-      search={query}
+      search={({ filmId: _, ...rest }) => ({ ...rest, ...query })}
       className={styles.link}
       onClick={() => window.scrollTo(0, 0)}
     >

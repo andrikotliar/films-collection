@@ -2,6 +2,9 @@
   display: flex;
   gap: 40px;
   align-items: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
 }
 
 @media (width <= 1080px) {

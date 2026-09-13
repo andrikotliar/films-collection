@@ -116,7 +116,7 @@ function RouteComponent() {
     });
   }, []);
 
-  const appliedFilters = countObjectKeys(search, ['pageIndex', 'q']);
+  const appliedFilters = countObjectKeys(search, ['pageIndex', 'q', 'filmId']);
 
   const initialFilters = useMemo(() => {
     return {

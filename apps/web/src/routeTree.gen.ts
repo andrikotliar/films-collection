@@ -15,7 +15,6 @@ import { Route as ConsoleRouteRouteImport } from './routes/console/route'
 import { Route as AboutRouteRouteImport } from './routes/about/route'
 import { Route as HomeIndexRouteImport } from './routes/_home/index'
 import { Route as AboutIdRouteImport } from './routes/about_/$id'
-import { Route as FilmIdRouteRouteImport } from './routes/film/$id/route'
 import { Route as ConsoleUserRouteRouteImport } from './routes/console/user/route'
 import { Route as ConsoleStudiosRouteRouteImport } from './routes/console/studios/route'
 import { Route as ConsoleSessionsRouteRouteImport } from './routes/console/sessions/route'
@@ -62,11 +61,6 @@ const HomeIndexRoute = HomeIndexRouteImport.update({
 const AboutIdRoute = AboutIdRouteImport.update({
   id: '/about_/$id',
   path: '/about/$id',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const FilmIdRouteRoute = FilmIdRouteRouteImport.update({
-  id: '/film/$id',
-  path: '/film/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ConsoleUserRouteRoute = ConsoleUserRouteRouteImport.update({
@@ -173,7 +167,6 @@ export interface FileRoutesByFullPath {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
-  '/film/$id': typeof FilmIdRouteRoute
   '/about/$id': typeof AboutIdRoute
   '/': typeof HomeIndexRoute
   '/console/articles/$id': typeof ConsoleArticlesIdRoute
@@ -198,7 +191,6 @@ export interface FileRoutesByTo {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
-  '/film/$id': typeof FilmIdRouteRoute
   '/about/$id': typeof AboutIdRoute
   '/': typeof HomeIndexRoute
   '/console/articles/$id': typeof ConsoleArticlesIdRoute
@@ -225,7 +217,6 @@ export interface FileRoutesById {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
-  '/film/$id': typeof FilmIdRouteRoute
   '/about_/$id': typeof AboutIdRoute
   '/_home/': typeof HomeIndexRoute
   '/console/articles_/$id': typeof ConsoleArticlesIdRoute
@@ -253,7 +244,6 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
-    | '/film/$id'
     | '/about/$id'
     | '/'
     | '/console/articles/$id'
@@ -278,7 +268,6 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
-    | '/film/$id'
     | '/about/$id'
     | '/'
     | '/console/articles/$id'
@@ -304,7 +293,6 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
-    | '/film/$id'
     | '/about_/$id'
     | '/_home/'
     | '/console/articles_/$id'
@@ -319,7 +307,6 @@ export interface RootRouteChildren {
   ConsoleRouteRoute: typeof ConsoleRouteRouteWithChildren
   LoginRouteRoute: typeof LoginRouteRoute
   StatsRouteRoute: typeof StatsRouteRoute
-  FilmIdRouteRoute: typeof FilmIdRouteRoute
   AboutIdRoute: typeof AboutIdRoute
   HomeIndexRoute: typeof HomeIndexRoute
 }
@@ -366,13 +353,6 @@ declare module '@tanstack/react-router' {
       path: '/about/$id'
       fullPath: '/about/$id'
       preLoaderRoute: typeof AboutIdRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/film/$id': {
-      id: '/film/$id'
-      path: '/film/$id'
-      fullPath: '/film/$id'
-      preLoaderRoute: typeof FilmIdRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/console/user': {
@@ -546,7 +526,6 @@ const rootRouteChildren: RootRouteChildren = {
   ConsoleRouteRoute: ConsoleRouteRouteWithChildren,
   LoginRouteRoute: LoginRouteRoute,
   StatsRouteRoute: StatsRouteRoute,
-  FilmIdRouteRoute: FilmIdRouteRoute,
   AboutIdRoute: AboutIdRoute,
   HomeIndexRoute: HomeIndexRoute,
 }

@@ -1,5 +1,5 @@
 import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
-import { collectionCategory, personRole, titleStyle, titleType } from '~/database/schema.js';
+import { collectionCategory, personRole, titleType } from '~/database/schema.js';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class InitialDataService {
@@ -27,7 +27,6 @@ export class InitialDataService {
     ]);
 
     const types = convertEnumValuesToOption(titleType.enumValues);
-    const styles = convertEnumValuesToOption(titleStyle.enumValues);
     const roles = convertEnumValuesToOption(personRole.enumValues);
     const collectionCategories = convertEnumValuesToOption(collectionCategory.enumValues);
 
@@ -38,7 +37,6 @@ export class InitialDataService {
         countries,
         studios,
         types,
-        styles,
         roles,
         awards,
         collectionCategories,

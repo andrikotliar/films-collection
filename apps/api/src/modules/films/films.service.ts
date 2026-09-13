@@ -28,7 +28,7 @@ type GenericOption = {
   updatedAt: string;
 };
 
-const statBlocks = ['genres', 'collections', 'countries', 'studios', 'types', 'styles'] as const;
+const statBlocks = ['genres', 'collections', 'countries', 'studios', 'types'] as const;
 
 export class FilmsService {
   constructor(
@@ -336,11 +336,6 @@ export class FilmsService {
         return await this.deps.filmsRepository.aggregateFilmStudios();
       case 'types':
         return (await this.deps.filmsRepository.aggregateFilmTypes()).map((item) => ({
-          ...item,
-          title: convertEnumValueToLabel(item.title),
-        }));
-      case 'styles':
-        return (await this.deps.filmsRepository.aggregateFilmStyles()).map((item) => ({
           ...item,
           title: convertEnumValueToLabel(item.title),
         }));

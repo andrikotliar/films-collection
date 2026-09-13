@@ -8,7 +8,7 @@ type SelectedFilmProps = {
 
 export const SelectedFilm = ({ data }: SelectedFilmProps) => {
   return (
-    <Link to="/film/$id" params={{ id: data.id.toString() }} className={styles.film}>
+    <Link to="/about" search={{ filmId: data.id }} className={styles.film}>
       <h2 className={styles.label}>Selected film</h2>
       <Image src={getExternalImageUrl(data.poster)} />
       <div className={styles.badge}>

@@ -1,19 +1,22 @@
 import { api, Button, Form, toaster } from '~/shared';
 import styles from './description-editor.module.css';
 import { useFormContext } from 'react-hook-form';
-import type z from 'zod';
 import { useMutation } from '@tanstack/react-query';
-import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { LanguagesIcon } from 'lucide-react';
 
-export const DescriptionEditor = () => {
-  const { setValue, getValues } = useFormContext<z.infer<typeof FilmFormSchema>>();
+type DescriptionEditorProps = {
+  name: string;
+  label: string;
+};
+
+export const DescriptionEditor = ({ name, label }: DescriptionEditorProps) => {
+  const { setValue, getValues } = useFormContext();
 
   const { mutate: translateText, isPending } = useMutation({
     mutationFn: async () => {
       const values = getValues();
 
-      if (!values.synopsis) {
+      if (!values[name]) {
         toaster.warning('Description is empty. Skip translation');
 
         return;
@@ -21,17 +24,17 @@ export const DescriptionEditor = () => {
 
       const result = await api.films.translateDescription({
         input: {
-          text: values.synopsis,
+          text: values[name],
         },
       });
 
-      setValue('synopsis', result.translatedText);
+      setValue(name, result.translatedText);
     },
   });
 
   return (
     <div className={styles.editor_container}>
-      <Form.TextArea name="synopsis" label="Description" isLoading={isPending} />
+      <Form.TextArea name={name} label={label} isLoading={isPending} />
       <div className={styles.buttons}>
         <Button
           icon={<LanguagesIcon />}
@@ -40,7 +43,7 @@ export const DescriptionEditor = () => {
           variant="light"
           isDisabled={isPending}
         >
-          Translate description
+          Translate {label}
         </Button>
       </div>
     </div>

@@ -12,7 +12,7 @@ export const HobbiesList = () => {
 
   return (
     <div>
-      <h2>Explore more my hobbies</h2>
+      <h2>Explore my other collections</h2>
       <div className={styles.grid}>
         {data.list.map((hobby) => (
           <Link

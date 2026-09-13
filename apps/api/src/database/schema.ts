@@ -2,7 +2,6 @@ import {
   CollectionCategory,
   type DeviceInfo,
   PersonRole,
-  TitleStyle,
   TitleType,
 } from '@films-collection/shared';
 import {
@@ -25,7 +24,6 @@ import {
 
 export const collectionCategory = pgEnum('collection_category', CollectionCategory);
 export const personRole = pgEnum('person_role', PersonRole);
-export const titleStyle = pgEnum('title_style', TitleStyle);
 export const titleType = pgEnum('title_type', TitleType);
 
 export const films = pgTable(
@@ -34,7 +32,6 @@ export const films = pgTable(
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
     type: titleType().default('FILM').notNull(),
-    style: titleStyle().default('LIVE_ACTION').notNull(),
     releaseDate: date('release_date'),
     duration: integer().default(0).notNull(),
     poster: text(),

@@ -7,7 +7,6 @@ export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
   id: NEW_ITEM_ID,
   title: '',
   type: 'FILM',
-  style: 'LIVE_ACTION',
   poster: '',
   rating: 1,
   budget: 0,

@@ -1,5 +1,5 @@
 import { getPluralWord, type api, type ApiResponse } from '~/shared';
-import { LinksGroupWrapper, DataLink, LinksGroup, ReleaseDate } from '../-components';
+import { LinksGroupWrapper, DataLink, LinksGroup, ReleaseDate } from '../components';
 import {
   BookIcon,
   BuildingIcon,
@@ -18,6 +18,10 @@ export type SummaryConfig = {
   content: React.ReactNode;
   icon: React.ReactNode;
   isHidden?: boolean;
+};
+
+const isSeries = (film: ApiResponse<typeof api.films.getById>) => {
+  return film.type === 'SERIES' || film.type === 'ANIMATED_SERIES';
 };
 
 export const getFilmSummaryConfig = (
@@ -67,7 +71,7 @@ export const getFilmSummaryConfig = (
           {getFormattedMoneyValue(film.budget)}
         </DataLink>
       ),
-      isHidden: film.type === 'SERIES',
+      isHidden: isSeries(film),
     },
     {
       id: 'boxOffice',
@@ -78,7 +82,7 @@ export const getFilmSummaryConfig = (
           {getFormattedMoneyValue(film.boxOffice)}
         </DataLink>
       ),
-      isHidden: film.type === 'SERIES',
+      isHidden: isSeries(film),
     },
     {
       id: 'seriesStats',
@@ -105,7 +109,7 @@ export const getFilmSummaryConfig = (
           </DataLink>
         </LinksGroupWrapper>
       ),
-      isHidden: film.type !== 'SERIES',
+      isHidden: !isSeries(film),
     },
   ];
 

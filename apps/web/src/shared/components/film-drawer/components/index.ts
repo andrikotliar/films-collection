@@ -9,4 +9,3 @@ export * from './cast-and-crew/cast-and-crew';
 export * from './awards/awards';
 export * from './page-skeleton/page-skeleton';
 export * from './description/description';
-export * from './navigation-row/navigation-row';

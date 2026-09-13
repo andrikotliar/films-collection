@@ -2,7 +2,12 @@ import { CollectionCategory, type ListOption } from '@films-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useMatches, useParams } from '@tanstack/react-router';
 import type z from 'zod';
-import { CollectionsSelect, getFormTitle, useFormModal } from '~/routes/console/-shared';
+import {
+  CollectionsSelect,
+  DescriptionEditor,
+  getFormTitle,
+  useFormModal,
+} from '~/routes/console/-shared';
 import { HobbyItemFormSchema } from '~/routes/console/hobbies_/-schemas/hobby-item-schema';
 import {
   api,
@@ -105,10 +110,10 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
       title={getFormTitle(values, 'hobby item')}
       defaultValues={values}
       schema={HobbyItemFormSchema}
-      isLoading={false}
+      isLoading={hobbyItemMutation.isPending}
     >
       <Form.TextInput name="title" label="Title" />
-      <Form.TextArea name="description" label="Description" />
+      <DescriptionEditor name="description" label="Description" />
       <Form.TextInput type="number" name="releaseYear" label="Release year" />
       <Form.FileInput name="imageUrl" label="Image" />
       <CollectionsSelect
