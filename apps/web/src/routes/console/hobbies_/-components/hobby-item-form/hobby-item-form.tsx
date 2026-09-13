@@ -96,7 +96,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
     },
     meta: {
       invalidateQueries: {
-        queryKey: queryKey('hobbies.getHobby', hobbyId),
+        queryKey: queryKey('hobbies.getHobbyAdmin', +hobbyId),
       },
     },
   });
