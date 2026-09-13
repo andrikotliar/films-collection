@@ -49,4 +49,12 @@ export const collectionsRouter = createRouter(contracts.collections, {
       return { data };
     },
   },
+
+  getHobbyRelated: {
+    handler: async ({ app, request }) => {
+      const data = await app.resolve('collectionsService').getOptionsByHobbyId(request.params.id);
+
+      return { data };
+    },
+  },
 });

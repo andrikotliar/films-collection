@@ -13,7 +13,7 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
   },
   getHobby: {
     handler: async ({ app, request }) => {
-      const data = await app.resolve('hobbiesService').getHobby(request.params.id);
+      const data = await app.resolve('hobbiesService').getHobby(request.params.id, request.query);
       return {
         data,
       };

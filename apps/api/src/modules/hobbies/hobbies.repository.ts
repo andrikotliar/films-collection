@@ -1,5 +1,9 @@
-import type { HobbyItemInput, HobbyItemUpdateInput } from '@films-collection/shared';
-import { eq } from 'drizzle-orm';
+import type {
+  HobbyItemInput,
+  HobbyItemUpdateInput,
+  HobbyByIdQueries,
+} from '@films-collection/shared';
+import { eq, desc, type SQL, ilike, and, inArray } from 'drizzle-orm';
 import {
   hobbies,
   hobbyItems,
@@ -7,6 +11,7 @@ import {
   hobbyItemsPeople,
   type Hobby,
 } from '~/database/schema.js';
+import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class HobbiesRepository {
@@ -15,19 +20,41 @@ export class HobbiesRepository {
   list() {
     return this.deps.db
       .select({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl })
-      .from(hobbies);
+      .from(hobbies)
+      .orderBy(desc(hobbies.updatedAt));
   }
 
   countHobbies() {
     return this.deps.db.$count(hobbies);
   }
 
-  get(id: number) {
-    return this.deps.db.query.hobbies.findFirst({
+  async get(id: number, queryParams: HobbyByIdQueries) {
+    const itemsWhere: SQL[] = [];
+
+    if (queryParams.collectionId) {
+      itemsWhere.push(
+        inArray(
+          hobbyItems.id,
+          this.deps.db
+            .select({
+              id: hobbyItemsCollections.hobbyItemId,
+            })
+            .from(hobbyItemsCollections)
+            .where(eq(hobbyItemsCollections.collectionId, queryParams.collectionId)),
+        ),
+      );
+    }
+
+    if (queryParams.q) {
+      itemsWhere.push(ilike(hobbyItems.title, sqlSearchQuery(queryParams.q)));
+    }
+
+    return await this.deps.db.query.hobbies.findFirst({
       where: eq(hobbies.id, id),
       columns: {
         title: true,
         id: true,
+        imageUrl: true,
       },
       with: {
         items: {
@@ -35,7 +62,23 @@ export class HobbiesRepository {
             id: true,
             title: true,
             description: true,
+            releaseYear: true,
+            imageUrl: true,
           },
+          with: {
+            authors: {
+              with: {
+                person: {
+                  columns: {
+                    id: true,
+                    name: true,
+                  },
+                },
+              },
+            },
+          },
+          orderBy: desc(hobbyItems.createdAt),
+          where: itemsWhere.length ? and(...itemsWhere) : undefined,
         },
       },
     });

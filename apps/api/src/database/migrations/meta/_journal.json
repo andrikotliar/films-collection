@@ -211,6 +211,20 @@
       "when": 1789295621766,
       "tag": "0031_add-image-url-column-to-hobby",
       "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1789300088812,
+      "tag": "0032_add-on-delete-params-to-hobbies",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1789300207913,
+      "tag": "0033_add-timestampts-to-hobby-related-tables",
+      "breakpoints": true
     }
   ]
 }

@@ -578,6 +578,11 @@ export const hobbies = pgTable('hobbies', {
   id: serial().primaryKey().notNull(),
   title: text().notNull(),
   imageUrl: text(),
+  createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
+    .notNull(),
 });
 
 export const hobbyItems = pgTable(
@@ -589,6 +594,11 @@ export const hobbyItems = pgTable(
     hobbyId: integer('hobby_id').notNull(),
     releaseYear: integer('release_year').notNull(),
     imageUrl: text('image_url'),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
   },
   (table) => [
     foreignKey({
@@ -608,6 +618,11 @@ export const hobbyItemsCollections = pgTable(
     hobbyItemId: integer('hobby_item_id').notNull(),
     collectionId: integer('collection_id').notNull(),
     order: integer('order'),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
   },
   (table) => [
     uniqueIndex('hobby_items_collections_hobby_item_id_collection_id_key').using(
@@ -619,12 +634,12 @@ export const hobbyItemsCollections = pgTable(
       name: 'hobby_items_collections_hobby_item_id_fkey',
       columns: [table.hobbyItemId],
       foreignColumns: [hobbyItems.id],
-    }),
+    }).onDelete('cascade'),
     foreignKey({
       name: 'hobby_items_collections_collection_id_fkey',
       columns: [table.collectionId],
       foreignColumns: [collections.id],
-    }),
+    }).onDelete('cascade'),
   ],
 );
 
@@ -634,6 +649,11 @@ export const hobbyItemsPeople = pgTable(
     id: serial().primaryKey().notNull(),
     hobbyItemId: integer('hobby_item_id').notNull(),
     personId: integer('person_id').notNull(),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
   },
   (table) => [
     uniqueIndex('hobby_items_people_hobby_item_id_collection_id_key').using(
@@ -645,12 +665,12 @@ export const hobbyItemsPeople = pgTable(
       name: 'hobby_items_people_hobby_item_id_fkey',
       columns: [table.hobbyItemId],
       foreignColumns: [hobbyItems.id],
-    }),
+    }).onDelete('cascade'),
     foreignKey({
       name: 'hobby_items_people_collection_id_fkey',
       columns: [table.personId],
       foreignColumns: [people.id],
-    }),
+    }).onDelete('cascade'),
   ],
 );
 

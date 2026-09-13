@@ -14,6 +14,7 @@ import {
   FieldLabel,
   Form,
   Modal,
+  queryKey,
   Select,
   useAsyncModal,
   type MixedId,
@@ -81,6 +82,17 @@ export const CollectionsSelect = <T extends DataParams>({
       };
     },
     meta: {
+      invalidateQueries: [
+        {
+          queryKey: queryKey('collections.getList'),
+        },
+        {
+          queryKey: queryKey('collections.getAll'),
+        },
+        {
+          queryKey: queryKey('collections.getHobbyRelated'),
+        },
+      ],
       skipErrorToast: true,
     },
   });

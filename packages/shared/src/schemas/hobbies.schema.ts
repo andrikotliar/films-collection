@@ -21,16 +21,17 @@ export const HobbyItemResponseSchema = z.object({
   title: z.string(),
   description: z.string(),
   releaseYear: z.number(),
+  imageUrl: z.string().optional().nullable(),
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   authors: z.array(PersonResponseSchema.pick({ id: true, name: true })),
 });
 
 export const HobbyByIdQueriesSchema = z
-  .object({ pageIndex: z.number(), q: z.string(), collectionId: z.number() })
+  .object({ q: z.string(), collectionId: z.coerce.number() })
   .partial();
 
 export const HobbyByIdResponseSchema = HobbyResponseSchema.extend({
-  items: z.array(HobbyResponseSchema),
+  items: z.array(HobbyItemResponseSchema.omit({ collections: true })),
 });
 
 export const HobbyItemParamsSchema = z.object({
@@ -76,3 +77,5 @@ export type HobbyItemInput = z.infer<typeof HobbyItemInputSchema>;
 export type HobbyItemUpdateInput = z.infer<typeof HobbyItemUpdateInputSchema>;
 export type HobbyItemResponse = z.infer<typeof HobbyItemResponseSchema>;
 export type HobbyByIdAdminResponse = z.infer<typeof HobbyByIdAdminResponseSchema>;
+export type HobbyByIdResponse = z.infer<typeof HobbyByIdResponseSchema>;
+export type HobbyByIdQueries = z.infer<typeof HobbyByIdQueriesSchema>;
