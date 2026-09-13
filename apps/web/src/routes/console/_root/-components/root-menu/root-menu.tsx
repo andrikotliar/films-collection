@@ -1,6 +1,7 @@
 import styles from './root-menu.module.css';
 import { Link } from '@tanstack/react-router';
 import { consoleMenuConfig, consoleMenuGroups, defineCssProperties } from '~/shared';
+import { colors } from '~/shared/configs/css-colors';
 
 export const RootMenu = () => {
   return (
@@ -18,7 +19,9 @@ export const RootMenu = () => {
                   to={menuItem.route}
                   className={styles.menu_item}
                   style={defineCssProperties({
-                    '--console-link-color': `var(--${menuItem.color})`,
+                    '--console-link-color': menuItem.color
+                      ? colors[menuItem.color]
+                      : colors.colorGrayPrimary,
                   })}
                   search={'search' in menuItem ? menuItem.search : undefined}
                 >

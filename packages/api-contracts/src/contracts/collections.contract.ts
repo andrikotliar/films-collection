@@ -57,4 +57,12 @@ export const collectionsContract = {
       ),
     },
   }),
+  getHobbyRelated: createContract({
+    method: 'GET',
+    url: 'hobby/:id',
+    schema: {
+      params: IdParamSchema,
+      response: buildListOptionSchema(z.number()),
+    },
+  }),
 };

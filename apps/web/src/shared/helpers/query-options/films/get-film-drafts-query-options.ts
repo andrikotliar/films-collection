@@ -3,7 +3,7 @@ import { api, queryKey } from '~/shared/services';
 
 export const getFilmDraftsQueryOptions = (filmId: string) => {
   return queryOptions({
-    queryKey: [queryKey('films.getFilmDrafts'), filmId],
+    queryKey: queryKey('films.getFilmDrafts', filmId),
     queryFn: async () => {
       return api.films.getFilmDrafts({ params: { filmId } });
     },

@@ -3,7 +3,7 @@ import { api, queryKey } from '~/shared/services';
 
 export const getNominationsByAwardQueryOptions = (awardId: number | null) => {
   return queryOptions({
-    queryKey: [queryKey('awards.getNominations'), awardId],
+    queryKey: queryKey('awards.getNominations', awardId),
     queryFn: () => api.awards.getNominations({ params: { id: awardId } }),
     enabled: Boolean(awardId),
   });

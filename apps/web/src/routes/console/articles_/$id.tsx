@@ -76,7 +76,7 @@ function RouteComponent() {
         !isNewItem(mixedId) && data?.slug
           ? [
               {
-                queryKey: [queryKey('articles.getBySlug'), data.slug],
+                queryKey: queryKey('articles.getBySlug', data.slug),
               },
               { queryKey: queryKey('articles.getAdminList') },
             ]

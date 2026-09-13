@@ -11,6 +11,7 @@ import {
 } from '~/shared';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useMatches } from '@tanstack/react-router';
+import { colors } from '~/shared/configs/css-colors';
 
 const menuItems = Object.values(consoleMenuConfig);
 
@@ -25,6 +26,7 @@ export const ConsoleHeader = () => {
   }, [location.pathname]);
 
   const routeMatch = matches.at(-1);
+  const loaderData = routeMatch?.loaderData as Record<string, string | number> | undefined;
 
   return (
     <div className={styles.console_header}>
@@ -36,7 +38,7 @@ export const ConsoleHeader = () => {
             search={routeMatch?.staticData.preserveSearch ? location.search : undefined}
           />
         )}
-        <PageTitle>{routeMatch?.staticData.title ?? 'Console'}</PageTitle>
+        <PageTitle>{loaderData?.title ?? routeMatch?.staticData.title ?? 'Console'}</PageTitle>
       </div>
       {location.pathname !== '/console' && (
         <Button
@@ -67,7 +69,9 @@ export const ConsoleHeader = () => {
               to={item.route}
               className={styles.console_link}
               style={defineCssProperties({
-                '--console-float-menu-color': `var(--${item.color})`,
+                '--console-float-menu-color': item.color
+                  ? colors[item.color]
+                  : colors.colorGrayPrimary,
               })}
               search={'search' in item ? item.search : undefined}
             >

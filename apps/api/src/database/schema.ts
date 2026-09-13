@@ -574,6 +574,106 @@ export const usersSessions = pgTable(
   ],
 );
 
+export const hobbies = pgTable('hobbies', {
+  id: serial().primaryKey().notNull(),
+  title: text().notNull(),
+  imageUrl: text(),
+  createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
+    .notNull(),
+});
+
+export const hobbyItems = pgTable(
+  'hobby_items',
+  {
+    id: serial().primaryKey().notNull(),
+    title: text().notNull(),
+    description: text().notNull(),
+    hobbyId: integer('hobby_id').notNull(),
+    releaseYear: integer('release_year').notNull(),
+    imageUrl: text('image_url'),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
+  },
+  (table) => [
+    foreignKey({
+      columns: [table.hobbyId],
+      foreignColumns: [hobbies.id],
+      name: 'hobby_items_hobby_id_fkey',
+    })
+      .onDelete('cascade')
+      .onUpdate('cascade'),
+  ],
+);
+
+export const hobbyItemsCollections = pgTable(
+  'hobby_items_collections',
+  {
+    id: serial().primaryKey().notNull(),
+    hobbyItemId: integer('hobby_item_id').notNull(),
+    collectionId: integer('collection_id').notNull(),
+    order: integer('order'),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
+  },
+  (table) => [
+    uniqueIndex('hobby_items_collections_hobby_item_id_collection_id_key').using(
+      'btree',
+      table.hobbyItemId.asc().nullsLast().op('int4_ops'),
+      table.collectionId.asc().nullsLast().op('int4_ops'),
+    ),
+    foreignKey({
+      name: 'hobby_items_collections_hobby_item_id_fkey',
+      columns: [table.hobbyItemId],
+      foreignColumns: [hobbyItems.id],
+    }).onDelete('cascade'),
+    foreignKey({
+      name: 'hobby_items_collections_collection_id_fkey',
+      columns: [table.collectionId],
+      foreignColumns: [collections.id],
+    }).onDelete('cascade'),
+  ],
+);
+
+export const hobbyItemsPeople = pgTable(
+  'hobby_items_people',
+  {
+    id: serial().primaryKey().notNull(),
+    hobbyItemId: integer('hobby_item_id').notNull(),
+    personId: integer('person_id').notNull(),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
+  },
+  (table) => [
+    uniqueIndex('hobby_items_people_hobby_item_id_collection_id_key').using(
+      'btree',
+      table.hobbyItemId.asc().nullsLast().op('int4_ops'),
+      table.personId.asc().nullsLast().op('int4_ops'),
+    ),
+    foreignKey({
+      name: 'hobby_items_people_hobby_item_id_fkey',
+      columns: [table.hobbyItemId],
+      foreignColumns: [hobbyItems.id],
+    }).onDelete('cascade'),
+    foreignKey({
+      name: 'hobby_items_people_collection_id_fkey',
+      columns: [table.personId],
+      foreignColumns: [people.id],
+    }).onDelete('cascade'),
+  ],
+);
+
 export type Film = typeof films.$inferSelect;
 export type Genre = typeof genres.$inferSelect;
 export type Person = typeof people.$inferSelect;
@@ -592,3 +692,5 @@ export type FilmStudio = typeof filmsStudios.$inferInsert;
 export type FilmCountry = typeof filmsCountries.$inferInsert;
 export type User = typeof users.$inferInsert;
 export type UserSession = typeof usersSessions.$inferInsert;
+export type Hobby = typeof hobbies.$inferInsert;
+export type HobbyItem = typeof hobbyItems.$inferInsert;

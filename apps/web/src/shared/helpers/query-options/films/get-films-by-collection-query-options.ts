@@ -5,13 +5,18 @@ import type { MixedId } from '~/shared/types';
 
 export const getFilmsByCollectionQueryOptions = (collectionId: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('films.getByCollection'), collectionId],
-    queryFn: () => {
+    queryKey: queryKey('films.getByCollection', collectionId),
+    queryFn: async () => {
       if (isNewItem(collectionId)) {
         return;
       }
 
-      return api.films.getByCollection({ params: { id: collectionId } });
+      const films = await api.films.getByCollection({ params: { id: collectionId } });
+
+      return films.map((film) => ({
+        ...film,
+        imageUrl: film.poster,
+      }));
     },
     enabled: !!collectionId && !isNewItem(collectionId),
   });

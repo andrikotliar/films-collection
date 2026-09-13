@@ -42,7 +42,7 @@ export const QuickEditForm = ({ values }: QuickEditFormProps) => {
     meta: {
       invalidateQueries: [
         { queryKey: queryKey('films.getAdminList') },
-        { queryKey: [queryKey('films.getEditableFilm'), values.id] },
+        { queryKey: queryKey('films.getEditableFilm', values.id) },
       ],
     },
   });

@@ -23,7 +23,7 @@ export const ComboSelect = <T extends Record<string, any>>({ filter }: ComboSele
         <Form.AsyncSelect
           name={filter.selector.id}
           optionsLoader={filter.selector.loader}
-          queryKey={filter.selector.queryKey}
+          queryKeyParams={{ key: filter.selector.queryKey }}
           label={filter.selector.label}
           isMulti={filter.selector.isMultiple}
         />

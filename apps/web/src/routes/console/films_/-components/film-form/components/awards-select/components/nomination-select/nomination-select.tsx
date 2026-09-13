@@ -88,7 +88,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
     },
     meta: {
       invalidateQueries: {
-        queryKey: [queryKey('awards.getNominations'), currentAward.awardId],
+        queryKey: queryKey('awards.getNominations', currentAward.awardId),
       },
     },
   });
@@ -122,10 +122,10 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
                 name={`awards.${index}.nominations.${nominationIndex}.actorId`}
                 optionsLoader={api.people.search}
                 label="Person"
-                queryKey={[
-                  queryKey('awards.getNominations'),
-                  currentAward.nominations[nominationIndex]?.actorId,
-                ]}
+                queryKeyParams={{
+                  key: queryKey('awards.getNominations')[0],
+                  values: currentAward.nominations[nominationIndex]?.actorId,
+                }}
                 onCreateOption={createPerson}
                 isOptionsLoading={isPending}
               />

@@ -31,3 +31,4 @@ export * from './title-to-file-name';
 export * from './convert-image-to-webp';
 export * from './get-last-activity';
 export * from './generate-years-select-options';
+export * from './upload-image';

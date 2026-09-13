@@ -1,0 +1,1 @@
+ALTER TABLE "hobbies" ADD COLUMN "imageUrl" text;

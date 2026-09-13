@@ -197,6 +197,34 @@
       "when": 1786832811507,
       "tag": "0029_remove-page-content-tables",
       "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1789225284221,
+      "tag": "0030_add-hobbies-related-tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1789295621766,
+      "tag": "0031_add-image-url-column-to-hobby",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1789300088812,
+      "tag": "0032_add-on-delete-params-to-hobbies",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1789300207913,
+      "tag": "0033_add-timestampts-to-hobby-related-tables",
+      "breakpoints": true
     }
   ]
 }

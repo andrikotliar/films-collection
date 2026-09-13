@@ -46,7 +46,7 @@ export const api = createApiClient({
         return originalRequest();
       } catch (_error) {
         localStorage.removeItem(LOGIN_BLOCK_KEY);
-        queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
+        queryClient.removeQueries({ queryKey: queryKey('auth.getState') });
         throw redirect({ to: '/login' });
       }
     }
@@ -65,4 +65,7 @@ type Paths<T> = T extends object
     }[keyof T & string]
   : never;
 
-export const queryKey = <TKey extends Paths<typeof api>>(key: TKey): TKey => key;
+export const queryKey = <TKey extends Paths<typeof api>>(
+  key: TKey,
+  ...args: any
+): [TKey, ...any[]] => [key, ...args];

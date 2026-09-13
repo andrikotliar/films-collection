@@ -171,7 +171,7 @@ export const FilmResponseSchema = z.object({
         z.object({
           id: z.coerce.number(),
           name: z.string(),
-          details: z.string().nullable(),
+          details: z.string().trim().nullable(),
         }),
       ),
     }),

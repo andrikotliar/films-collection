@@ -54,7 +54,7 @@ export const AppNavigation = () => {
 
   const logout = async () => {
     await api.auth.logout();
-    queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
+    queryClient.removeQueries({ queryKey: queryKey('auth.getState') });
     navigate({ to: '/login' });
   };
 

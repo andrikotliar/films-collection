@@ -7,37 +7,51 @@ import {
 } from '@films-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import { useFieldArray, useFormContext } from 'react-hook-form';
-import type z from 'zod';
-import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { FilmOrderSelect } from '~/routes/console/films_/-components/film-form/components/collections-select/components';
+import { ItemOrderSelect, type DataParams, type ItemOrderSelectProps } from './components';
 import {
   api,
   FieldError,
   FieldLabel,
   Form,
   Modal,
+  queryKey,
   Select,
   useAsyncModal,
-  type ApiResponse,
+  type MixedId,
 } from '~/shared';
 
-type CollectionsSelectProps = {
-  options: ApiResponse<typeof api.initialData.get>['options']['collections'];
+type CollectionsSelectProps<T extends DataParams> = {
+  options: ListOption<number>[];
+  defaultCategory?: Enum<typeof CollectionCategory>;
+  getCurrentCollection: (collectionId: MixedId) => ItemOrderSelectProps<T>['queryOptions'];
+  currentItemId: MixedId;
 };
 
-const defaultCollection: z.infer<typeof FilmFormSchema>['collections'][number] = {
+type FormValueSlice = {
+  collections: {
+    collectionId: number;
+    order: number;
+  }[];
+};
+
+const defaultCollection = {
   collectionId: 0,
   order: 0,
 };
 
 const collectionCategoryOptions = convertEnumValuesToOption(enumValues(CollectionCategory));
 
-export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
+export const CollectionsSelect = <T extends DataParams>({
+  options,
+  defaultCategory,
+  getCurrentCollection,
+  currentItemId,
+}: CollectionsSelectProps<T>) => {
   const { params, isAsyncModalOpen, openAsyncModal, closeAsyncModal } = useAsyncModal<
     string,
     Enum<typeof CollectionCategory>
   >();
-  const { control, formState, watch } = useFormContext<z.infer<typeof FilmFormSchema>>();
+  const { control, formState, watch } = useFormContext<FormValueSlice>();
 
   const { fields, append, remove } = useFieldArray({
     control,
@@ -52,7 +66,7 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
         throw new Error('Collection title cannot be empty');
       }
 
-      const category = await openAsyncModal(title);
+      const category = defaultCategory ?? (await openAsyncModal(title));
 
       const result = await api.collections.create({
         input: {
@@ -68,6 +82,17 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
       };
     },
     meta: {
+      invalidateQueries: [
+        {
+          queryKey: queryKey('collections.getList'),
+        },
+        {
+          queryKey: queryKey('collections.getAll'),
+        },
+        {
+          queryKey: queryKey('collections.getHobbyRelated'),
+        },
+      ],
       skipErrorToast: true,
     },
   });
@@ -89,9 +114,10 @@ export const CollectionsSelect = ({ options }: CollectionsSelectProps) => {
               onCreateOption={mutateAsync}
             />
             {collections[index].collectionId !== 0 && (
-              <FilmOrderSelect
+              <ItemOrderSelect
                 name={`collections.${index}.order`}
-                currentCollection={collections[index]}
+                queryOptions={getCurrentCollection(collections[index].collectionId)}
+                currentItemId={currentItemId}
               />
             )}
             <FieldError error={formState.errors?.collections?.[index]?.order?.message} />

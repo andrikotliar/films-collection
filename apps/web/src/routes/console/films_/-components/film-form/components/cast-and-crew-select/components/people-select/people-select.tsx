@@ -56,7 +56,10 @@ export const PeopleSelect = ({ index }: PeopleSelectProps) => {
                 optionsLoader={api.people.search}
                 onCreateOption={(value) => mutateAsync({ value, index: personIndex })}
                 isOptionsLoading={isPending && variables.index === personIndex}
-                queryKey={[queryKey('people.search'), values[index]?.people[personIndex]?.personId]}
+                queryKeyParams={{
+                  key: queryKey('people.search')[0],
+                  values: values[index]?.people[personIndex]?.personId,
+                }}
               />
               {values[index].role === 'ACTOR' && (
                 <Form.TextInput

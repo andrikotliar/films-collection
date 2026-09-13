@@ -3,7 +3,7 @@ import { api, queryKey } from '~/shared/services';
 
 export const getUserDataQueryOptions = () => {
   return queryOptions({
-    queryKey: [queryKey('users.getUser')],
+    queryKey: queryKey('users.getUser'),
     queryFn: api.users.getUser,
   });
 };

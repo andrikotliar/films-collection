@@ -5,7 +5,7 @@ import type { MixedId } from '~/shared/types';
 
 export const getAwardQueryOptions = (id: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('awards.getById')],
+    queryKey: queryKey('awards.getById'),
     queryFn: () => {
       if (isNewItem(id)) {
         return null;

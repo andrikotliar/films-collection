@@ -19,6 +19,10 @@ import {
   filmsPeople,
   users,
   usersSessions,
+  hobbies,
+  hobbyItems,
+  hobbyItemsCollections,
+  hobbyItemsPeople,
 } from './schema.js';
 
 export const filmsRelations = relations(films, ({ many }) => ({
@@ -47,6 +51,7 @@ export const collectionEventsRelations = relations(collectionEvents, ({ one }) =
 export const collectionsRelations = relations(collections, ({ many }) => ({
   collectionEvents: many(collectionEvents),
   films: many(filmsCollections),
+  hobbyItems: many(hobbyItemsCollections),
 }));
 
 export const filmsCollectionsRelations = relations(filmsCollections, ({ one }) => ({
@@ -102,6 +107,7 @@ export const nominationsRelations = relations(nominations, ({ one, many }) => ({
 export const peopleRelations = relations(people, ({ many }) => ({
   awards: many(filmAwardNominations),
   films: many(filmsPeople),
+  hobbyItems: many(hobbyItemsPeople),
 }));
 
 export const filmsCountriesRelations = relations(filmsCountries, ({ one }) => ({
@@ -169,4 +175,39 @@ export const filmsPeopleRelations = relations(filmsPeople, ({ one }) => ({
 
 export const usersRelations = relations(users, ({ many }) => ({
   sessions: many(usersSessions),
+}));
+
+export const hobbiesRelations = relations(hobbies, ({ many }) => ({
+  items: many(hobbyItems),
+}));
+
+export const hobbyItemsRelations = relations(hobbyItems, ({ one, many }) => ({
+  hobby: one(hobbies, {
+    fields: [hobbyItems.hobbyId],
+    references: [hobbies.id],
+  }),
+  collections: many(hobbyItemsCollections),
+  authors: many(hobbyItemsPeople),
+}));
+
+export const hobbyItemsCollectionsRelations = relations(hobbyItemsCollections, ({ one }) => ({
+  hobbyItem: one(hobbyItems, {
+    fields: [hobbyItemsCollections.hobbyItemId],
+    references: [hobbyItems.id],
+  }),
+  collection: one(collections, {
+    fields: [hobbyItemsCollections.collectionId],
+    references: [collections.id],
+  }),
+}));
+
+export const hobbyItemsPeopleRelations = relations(hobbyItemsPeople, ({ one }) => ({
+  hobbyItem: one(hobbyItems, {
+    fields: [hobbyItemsPeople.hobbyItemId],
+    references: [hobbyItems.id],
+  }),
+  person: one(people, {
+    fields: [hobbyItemsPeople.personId],
+    references: [people.id],
+  }),
 }));

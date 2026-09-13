@@ -11,24 +11,46 @@ type QueryParams = {
 
 export type AsyncSelectProps<T extends ListOption<any>> = {
   optionsLoader: (params: { queryParams: QueryParams }) => Promise<T[]>;
-  queryKey: Array<unknown>;
+  queryKeyParams: { key: string; values?: unknown };
 } & Omit<SelectProps<T>, 'onOptionsSearch' | 'options'>;
 
 const RETRY_ATTEMPTS_COUNT = 1;
+
+const extractSelectedValue = <T extends ListOption<any>>(value?: unknown) => {
+  if (!value) {
+    return [];
+  }
+
+  if (typeof value === 'number') {
+    if (value < 1) {
+      return [];
+    }
+
+    return getSelectValue(value);
+  }
+
+  if (Array.isArray(value) && value.length) {
+    const noEmptyValues = value.filter((v) => v > 0);
+
+    return getSelectValue(noEmptyValues);
+  }
+
+  return getSelectValue(value as SelectProps<T>['value']);
+};
 
 export const AsyncSelect = <T extends ListOption<any>>({
   optionsLoader,
   value,
   isOptionsLoading,
-  queryKey,
+  queryKeyParams,
   ...props
 }: AsyncSelectProps<T>) => {
   const [searchString, setSearchString] = useState<string | null>(null);
 
   const { data: options, isFetching } = useQuery({
-    queryKey: [queryKey, searchString] as const,
-    queryFn: async () => {
-      const selectedValues = value ? getSelectValue(value) : [];
+    queryKey: [queryKeyParams.key, queryKeyParams.values, searchString] as const,
+    queryFn: async ({ queryKey }) => {
+      const selectedValues = extractSelectedValue(queryKey[1]);
 
       const queryParams: QueryParams = {
         selected: selectedValues,

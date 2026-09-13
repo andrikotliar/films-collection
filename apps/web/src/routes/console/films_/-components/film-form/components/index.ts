@@ -6,4 +6,3 @@ export * from './series-extension/series-extension';
 export * from './money-input/money-input';
 export * from './drafts/drafts';
 export * from './description-editor/description-editor';
-export * from './collections-select/collections-select';

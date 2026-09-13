@@ -4,7 +4,7 @@ import type { QueryParams } from '~/shared/types';
 
 export const getGenresListQueryOptions = (queryParams: QueryParams<typeof api.genres.getList>) => {
   return queryOptions({
-    queryKey: [queryKey('genres.getList'), queryParams],
+    queryKey: queryKey('genres.getList', queryParams),
     queryFn: () => api.genres.getList({ queryParams }),
   });
 };

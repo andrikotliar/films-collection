@@ -2,16 +2,16 @@ import type z from 'zod';
 import { useMutation, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import {
   api,
-  convertImageToWebp,
   Form,
   getAllCollectionOptionsQueryOptions,
+  getFilmsByCollectionQueryOptions,
   getInitialDataQueryOptions,
   getObjectsDiff,
   getUserDataQueryOptions,
   isNewItem,
   Panel,
   queryKey,
-  titleToFileName,
+  uploadImage,
 } from '~/shared';
 import {
   AwardsSelect,
@@ -22,13 +22,12 @@ import {
   SeriesExtension,
   TrailersSelect,
   DescriptionEditor,
-  CollectionsSelect,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
 import type { FilmDraftResponse } from '@films-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { validateLanguage } from '~/routes/console/-shared';
+import { validateLanguage, CollectionsSelect } from '~/routes/console/-shared';
 
 type FilmFormProps = {
   values: z.infer<typeof FilmFormSchema>;
@@ -51,29 +50,11 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
       validateLanguage(data.synopsis, user);
 
-      let poster = data.poster;
-
-      if (poster instanceof File) {
-        const transformedPoster = await convertImageToWebp(poster);
-
-        const key = `posters/${titleToFileName(data.title)}`;
-        const uploadParams = await api.files.getUploadUrl({
-          input: {
-            key,
-            fileType: 'webp',
-          },
-        });
-
-        await fetch(uploadParams.url, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'webp',
-          },
-          body: transformedPoster,
-        });
-
-        poster = key;
-      }
+      const poster = await uploadImage({
+        image: data.poster,
+        title: data.title,
+        folder: 'posters',
+      });
 
       const today = Date.now();
       const releaseDateMs = data.releaseDate ? new Date(data.releaseDate).getTime() : 0;
@@ -113,15 +94,15 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     meta: {
       invalidateQueries: [
         {
-          queryKey: [queryKey('films.getAdminList')],
+          queryKey: queryKey('films.getAdminList'),
         },
         ...(!isNewItem(values.id)
           ? [
               {
-                queryKey: [queryKey('films.getById'), values.id],
+                queryKey: queryKey('films.getById', values.id),
               },
               {
-                queryKey: [queryKey('films.getEditableFilm'), values.id],
+                queryKey: queryKey('films.getEditableFilm', values.id),
               },
             ]
           : []),
@@ -214,7 +195,11 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           onCreateOption={(value) => createNewEntity({ value, type: 'studios' })}
           isMulti
         />
-        <CollectionsSelect options={collectionOptions} />
+        <CollectionsSelect
+          options={collectionOptions}
+          getCurrentCollection={getFilmsByCollectionQueryOptions}
+          currentItemId={values.id}
+        />
         <Form.DatePicker name="releaseDate" label="Release Date" />
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <MoneyInput name="budget" label="Budget" />
