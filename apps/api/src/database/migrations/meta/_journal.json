@@ -225,6 +225,13 @@
       "when": 1789300207913,
       "tag": "0033_add-timestampts-to-hobby-related-tables",
       "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1789319238396,
+      "tag": "0034_remove-style-column",
+      "breakpoints": true
     }
   ]
 }

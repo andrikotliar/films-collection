@@ -163,12 +163,6 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           options={initialOptions.options.types}
           type="radio"
         />
-        <Form.CheckboxesGroup
-          label="Styles"
-          name="style"
-          options={initialOptions.options.styles}
-          type="radio"
-        />
         <Form.RatingInput name="rating" label="Rating" size={3} />
         <Form.FileInput label="Poster" name="poster" />
         <TrailersSelect />

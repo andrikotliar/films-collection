@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { DraftLevel, PersonRole, TitleStyle, TitleType } from '../enums/index.js';
+import { DraftLevel, PersonRole, TitleType } from '../enums/index.js';
 import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '../helpers/index.js';
 import { AwardResponseSchema, NominationResponseSchema } from './awards.schema.js';
 import { CollectionCurrentEventsListResponseSchema } from './collection-events.schema.js';
@@ -21,7 +21,6 @@ const SeriesExtensionSchema = z.object({
 export const CreateFilmInputSchema = z.object({
   title: z.string().nonempty(),
   type: z.enum(TitleType),
-  style: z.enum(TitleStyle),
   rating: z.coerce.number().min(1).max(3),
   poster: z.string().optional().nullable(),
   genres: z.array(z.number()),
@@ -92,7 +91,6 @@ export const GetFilmsListQuerySchema = z.object({
   budget: z.coerce.number().optional(),
   boxOffice: z.coerce.number().optional(),
   type: z.enum(TitleType).optional(),
-  style: z.enum(TitleStyle).optional(),
   personRole: z.enum(PersonRole).optional(),
   genreIds: getArrayFromQuery(z.coerce.number()).optional(),
   studioIds: getArrayFromQuery(z.coerce.number()).optional(),
@@ -255,7 +253,6 @@ export const CompleteDataListItemSchema = z.object({
     poster: true,
   }).shape,
   genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
-  style: z.enum(TitleStyle),
   countries: z.array(CountryResponseSchema.pick({ title: true, id: true })),
   studios: z.array(StudioResponseSchema.pick({ title: true, id: true })),
   trailers: z.array(TrailerSchema.pick({ url: true, order: true, id: true })),

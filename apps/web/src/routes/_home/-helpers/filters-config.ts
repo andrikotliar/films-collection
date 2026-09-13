@@ -1,6 +1,5 @@
 import {
   GetFilmsListQuerySchema,
-  TitleStyle,
   TitleType,
   type InitialDataResponse,
   type ListOption,
@@ -20,7 +19,6 @@ const ALL_COLLECTIONS_OPTION: ListOption<number> = {
 
 export const FiltersSchema = GetFilmsListQuerySchema.extend({
   type: z.enum({ ...TitleType, all: 'all' }),
-  style: z.enum({ ...TitleStyle, all: 'all' }),
 });
 
 type FilterValues = z.infer<typeof FiltersSchema>;
@@ -30,7 +28,6 @@ export const filterDefaultValues: FilterValues = {
   countryIds: [],
   studioIds: [],
   type: 'all',
-  style: 'all',
   collectionId: -1,
 };
 
@@ -62,13 +59,6 @@ export const getFiltersConfig = (
         filter: 'type',
         value: TitleType.SERIES,
       },
-    },
-    {
-      title: 'Style',
-      id: 'style',
-      type: 'checkmark',
-      options: [ALL_OPTION, ...initialData.options.styles],
-      inputType: 'radio',
     },
     {
       title: 'Genres',

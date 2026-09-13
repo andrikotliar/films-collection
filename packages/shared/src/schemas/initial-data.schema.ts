@@ -8,7 +8,6 @@ export const InitialDataResponseSchema = z.object({
     countries: buildListOptionSchema(z.coerce.number()),
     studios: buildListOptionSchema(z.coerce.number()),
     types: buildListOptionSchema(z.string()),
-    styles: buildListOptionSchema(z.string()),
     roles: buildListOptionSchema(z.string()),
     awards: buildListOptionSchema(z.coerce.number()),
     collectionCategories: buildListOptionSchema(z.string()),

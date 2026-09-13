@@ -103,7 +103,6 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
     personId,
     personRole,
     awardId,
-    style,
     budget,
     boxOffice,
     q,
@@ -130,10 +129,6 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
 
   if (type) {
     filters.push(eq(films.type, type));
-  }
-
-  if (style) {
-    filters.push(eq(films.style, style));
   }
 
   if (genreIds) {
