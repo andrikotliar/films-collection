@@ -175,6 +175,14 @@ export const filmsContract = {
       response: FilmsByCollectionResponseSchema,
     },
   }),
+  getAdminFilmById: createContract({
+    method: 'GET',
+    url: 'admin/film/:id',
+    schema: {
+      params: IdParamSchema,
+      response: FilmResponseSchema,
+    },
+  }),
   deleteAllFilmDrafts: createContract({
     method: 'DELETE',
     url: 'admin/film/:filmId/drafts',
