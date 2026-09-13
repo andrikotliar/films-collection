@@ -6,7 +6,7 @@ export const getCountriesListQueryOptions = (
   queryParams: QueryParams<typeof api.countries.getList>,
 ) => {
   return queryOptions({
-    queryKey: [queryKey('countries.getList'), queryParams],
+    queryKey: queryKey('countries.getList', queryParams),
     queryFn: () => api.countries.getList({ queryParams }),
   });
 };

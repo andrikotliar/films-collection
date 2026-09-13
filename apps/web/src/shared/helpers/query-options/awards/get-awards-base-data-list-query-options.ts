@@ -6,7 +6,7 @@ export const getAwardsBaseDataListQueryOptions = (
   queryParams: QueryParams<typeof api.awards.getList>,
 ) => {
   return queryOptions({
-    queryKey: [queryKey('awards.getList'), queryParams],
+    queryKey: queryKey('awards.getList', queryParams),
     queryFn: () => api.awards.getList({ queryParams }),
   });
 };

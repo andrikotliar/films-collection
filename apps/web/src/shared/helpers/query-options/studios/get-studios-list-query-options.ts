@@ -6,7 +6,7 @@ export const getStudiosListQueryOptions = (
   queryParams: QueryParams<typeof api.studios.getList>,
 ) => {
   return queryOptions({
-    queryKey: [queryKey('studios.getList'), queryParams],
+    queryKey: queryKey('studios.getList', queryParams),
     queryFn: () => api.studios.getList({ queryParams }),
   });
 };

@@ -3,7 +3,7 @@ import { api, queryKey } from '~/shared/services';
 
 export const getHobbiesListQueryOptions = () => {
   return queryOptions({
-    queryKey: [queryKey('hobbies.getHobbiesList')],
+    queryKey: queryKey('hobbies.getHobbiesList'),
     queryFn: () => api.hobbies.getHobbiesList(),
   });
 };

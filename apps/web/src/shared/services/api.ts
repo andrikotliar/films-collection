@@ -46,7 +46,7 @@ export const api = createApiClient({
         return originalRequest();
       } catch (_error) {
         localStorage.removeItem(LOGIN_BLOCK_KEY);
-        queryClient.removeQueries({ queryKey: [queryKey('auth.getState')] });
+        queryClient.removeQueries({ queryKey: queryKey('auth.getState') });
         throw redirect({ to: '/login' });
       }
     }

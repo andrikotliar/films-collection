@@ -4,7 +4,7 @@ import { api, queryKey } from '~/shared/services';
 
 export const getFilmTrailersQueryOptions = (id: number | null) => {
   return queryOptions({
-    queryKey: [queryKey('films.getTrailers'), id],
+    queryKey: queryKey('films.getTrailers', id),
     queryFn: async () => {
       if (!id) {
         return null;

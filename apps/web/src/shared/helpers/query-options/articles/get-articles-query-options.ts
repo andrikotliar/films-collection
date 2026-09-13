@@ -5,7 +5,7 @@ import type { MixedId } from '~/shared/types';
 
 export const getArticleByIdQueryOptions = (id: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('articles.getById'), id],
+    queryKey: queryKey('articles.getById', id),
     queryFn: () => {
       if (isNewItem(id)) {
         return null;

@@ -142,7 +142,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
         isMulti
         name="people"
         optionsLoader={api.people.search}
-        queryKey={[queryKey('people.search')]}
+        queryKey={queryKey('people.search')}
         onCreateOption={createPersonMutation.mutateAsync}
         isOptionsLoading={createPersonMutation.isPending}
       />

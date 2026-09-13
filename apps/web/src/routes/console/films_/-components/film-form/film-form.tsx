@@ -113,15 +113,15 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     meta: {
       invalidateQueries: [
         {
-          queryKey: [queryKey('films.getAdminList')],
+          queryKey: queryKey('films.getAdminList'),
         },
         ...(!isNewItem(values.id)
           ? [
               {
-                queryKey: [queryKey('films.getById'), values.id],
+                queryKey: queryKey('films.getById', values.id),
               },
               {
-                queryKey: [queryKey('films.getEditableFilm'), values.id],
+                queryKey: queryKey('films.getEditableFilm', values.id),
               },
             ]
           : []),

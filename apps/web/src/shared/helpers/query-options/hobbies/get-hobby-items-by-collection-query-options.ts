@@ -5,7 +5,7 @@ import type { MixedId } from '~/shared/types';
 
 export const getHobbyItemsByCollectionQueryOptions = (collectionId: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('hobbies.getHobbiesByCollection'), collectionId],
+    queryKey: queryKey('hobbies.getHobbiesByCollection', collectionId),
     queryFn: async () => {
       if (isNewItem(collectionId)) {
         return;

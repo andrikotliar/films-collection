@@ -138,7 +138,7 @@ export const getFiltersConfig = (
         id: 'personId',
         isMultiple: false,
         loader: api.people.search,
-        queryKey: [queryKey('people.search')],
+        queryKey: queryKey('people.search'),
         label: 'Person',
       },
     },

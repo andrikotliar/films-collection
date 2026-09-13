@@ -5,7 +5,7 @@ import type { MixedId } from '~/shared/types';
 
 export const getAdminFilmDetailsQueryOptions = (id: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('films.getEditableFilm'), id],
+    queryKey: queryKey('films.getEditableFilm', id),
     queryFn: () => {
       if (isNewItem(id)) {
         return null;

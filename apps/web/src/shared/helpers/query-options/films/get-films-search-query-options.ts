@@ -3,7 +3,7 @@ import { queryOptions } from '@tanstack/react-query';
 
 export const getFilmsSearchQueryOptions = (searchString: string | null) => {
   return queryOptions({
-    queryKey: [queryKey('films.search'), searchString],
+    queryKey: queryKey('films.search', searchString),
     queryFn: async () => {
       if (!searchString) {
         return null;

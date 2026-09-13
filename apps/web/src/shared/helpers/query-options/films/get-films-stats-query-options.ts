@@ -3,7 +3,7 @@ import { api, queryKey } from '~/shared/services';
 
 export const getFilmsStatsQueryOptions = () => {
   return queryOptions({
-    queryKey: [queryKey('films.getFilmStats')],
+    queryKey: queryKey('films.getFilmStats'),
     queryFn: api.films.getFilmStats,
     staleTime: Infinity,
   });

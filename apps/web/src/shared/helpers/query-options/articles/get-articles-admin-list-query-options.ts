@@ -6,7 +6,7 @@ export const getArticlesAdminListQueryOptions = (
   queryParams: QueryParams<typeof api.articles.getAdminList>,
 ) => {
   return queryOptions({
-    queryKey: [queryKey('articles.getAdminList'), queryParams],
+    queryKey: queryKey('articles.getAdminList', queryParams),
     queryFn: () => api.articles.getAdminList({ queryParams }),
   });
 };

@@ -88,7 +88,7 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
     },
     meta: {
       invalidateQueries: {
-        queryKey: [queryKey('awards.getNominations'), currentAward.awardId],
+        queryKey: queryKey('awards.getNominations', currentAward.awardId),
       },
     },
   });

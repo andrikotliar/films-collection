@@ -5,7 +5,7 @@ import type { MixedId } from '~/shared/types';
 
 export const getFilmsByCollectionQueryOptions = (collectionId: MixedId) => {
   return queryOptions({
-    queryKey: [queryKey('films.getByCollection'), collectionId],
+    queryKey: queryKey('films.getByCollection', collectionId),
     queryFn: async () => {
       if (isNewItem(collectionId)) {
         return;
