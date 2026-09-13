@@ -27,7 +27,9 @@ function AboutPageContainer() {
 
   return (
     <Layout>
-      <PageTitle>{article.title}</PageTitle>
+      <Content>
+        <PageTitle>{article.title}</PageTitle>
+      </Content>
       <Content>
         <ArticleContent>
           <div dangerouslySetInnerHTML={{ __html: article.content }} />
