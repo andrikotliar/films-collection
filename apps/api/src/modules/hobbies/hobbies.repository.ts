@@ -1,4 +1,4 @@
-import type { HobbyItemInput } from '@films-collection/shared';
+import type { HobbyItemInput, HobbyItemUpdateInput } from '@films-collection/shared';
 import { eq } from 'drizzle-orm';
 import {
   hobbies,
@@ -141,6 +141,55 @@ export class HobbiesRepository {
           },
         },
       },
+    });
+  }
+
+  getHobbyAdmin(id: number) {
+    return this.deps.db.query.hobbies.findFirst({
+      where: eq(hobbies.id, id),
+      columns: {
+        id: true,
+        title: true,
+      },
+      with: {
+        items: {
+          with: {
+            authors: true,
+            collections: true,
+          },
+        },
+      },
+    });
+  }
+
+  async updateHobbyItem(id: number, input: HobbyItemUpdateInput): Promise<void> {
+    await this.deps.db.transaction(async (tr) => {
+      const { collections, people, ...hobbyItem } = input;
+
+      await tr.update(hobbyItems).set(hobbyItem).where(eq(hobbyItems.id, id));
+
+      if (collections) {
+        await tr.delete(hobbyItemsCollections).where(eq(hobbyItemsCollections.hobbyItemId, id));
+
+        await tr.insert(hobbyItemsCollections).values(
+          collections.map((item) => ({
+            hobbyItemId: id,
+            collectionId: item.collectionId,
+            order: item.order,
+          })),
+        );
+      }
+
+      if (people) {
+        await tr.delete(hobbyItemsPeople).where(eq(hobbyItemsPeople.hobbyItemId, id));
+
+        await tr.insert(hobbyItemsPeople).values(
+          people.map((person) => ({
+            hobbyItemId: id,
+            personId: person,
+          })),
+        );
+      }
     });
   }
 }

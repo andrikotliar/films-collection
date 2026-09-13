@@ -2,6 +2,8 @@ import type {
   HobbyItemInput,
   HobbiesListResponse,
   HobbyItemResponse,
+  HobbyItemUpdateInput,
+  HobbyByIdAdminResponse,
 } from '@films-collection/shared';
 import type { Hobby } from '~/database/schema.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
@@ -61,5 +63,24 @@ export class HobbiesService {
       ...item.hobbyItem,
       order: item.order,
     }));
+  }
+
+  async updateHobbyItem(id: number, input: HobbyItemUpdateInput) {
+    await this.deps.hobbiesRepository.updateHobbyItem(id, input);
+
+    return this.getHobbyItemById(id);
+  }
+
+  async getAdminHobby(id: number): Promise<HobbyByIdAdminResponse> {
+    const data = await throwIfNotFound(this.deps.hobbiesRepository.getHobbyAdmin(id));
+
+    return {
+      ...data,
+      items: data.items.map((item) => ({
+        ...item,
+        people: item.authors.map((person) => person.id),
+        collections: [],
+      })),
+    };
   }
 }

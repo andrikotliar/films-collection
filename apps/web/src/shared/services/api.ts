@@ -65,4 +65,7 @@ type Paths<T> = T extends object
     }[keyof T & string]
   : never;
 
-export const queryKey = <TKey extends Paths<typeof api>>(key: TKey): TKey => key;
+export const queryKey = <TKey extends Paths<typeof api>>(
+  key: TKey,
+  ...args: any
+): [TKey, ...any[]] => [key, ...args];

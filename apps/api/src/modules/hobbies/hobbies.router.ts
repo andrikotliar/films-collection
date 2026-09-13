@@ -74,4 +74,22 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
       return { data };
     },
   },
+  updateHobbyItem: {
+    preHandler: [validateAuth],
+    handler: async ({ request, app }) => {
+      const data = await app
+        .resolve('hobbiesService')
+        .updateHobbyItem(request.params.itemId, request.body);
+
+      return { data };
+    },
+  },
+  getHobbyAdmin: {
+    preHandler: [validateAuth],
+    handler: async () => {
+      const data = {} as any;
+
+      return { data };
+    },
+  },
 });

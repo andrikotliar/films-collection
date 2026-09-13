@@ -44,7 +44,7 @@ function RouteComponent() {
       data={{ list: data.items }}
       getDeleteMutationOptions={getDeleteHobbyItemMutations(Number(params.id))}
       isFetching={isLoading}
-      onEdit={() => {}}
+      onEdit={onOpen}
       onCreate={() => onOpen(getDefaultHobbyItem())}
       createItemTitle="Create hobby item"
     />

@@ -54,6 +54,12 @@ export const HobbyItemInputSchema = z.object({
   imageUrl: z.string().nullable().optional(),
 });
 
+export const HobbyItemUpdateInputSchema = HobbyItemInputSchema.partial();
+
+export const HobbyByIdAdminResponseSchema = HobbyResponseSchema.extend({
+  items: z.array(HobbyItemInputSchema),
+});
+
 export const HobbyItemsByCollectionIdResponseSchema = z.array(
   z.object({
     id: z.number(),
@@ -65,4 +71,6 @@ export const HobbyItemsByCollectionIdResponseSchema = z.array(
 
 export type HobbiesListResponse = z.infer<typeof HobbiesListResponseSchema>;
 export type HobbyItemInput = z.infer<typeof HobbyItemInputSchema>;
+export type HobbyItemUpdateInput = z.infer<typeof HobbyItemUpdateInputSchema>;
 export type HobbyItemResponse = z.infer<typeof HobbyItemResponseSchema>;
+export type HobbyByIdAdminResponse = z.infer<typeof HobbyByIdAdminResponseSchema>;

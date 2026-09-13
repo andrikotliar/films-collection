@@ -10,13 +10,14 @@ import {
   Form,
   getAllCollectionOptionsQueryOptions,
   getHobbyItemsByCollectionQueryOptions,
+  getObjectsDiff,
   isNewItem,
   queryKey,
   titleToFileName,
   type FormComponentProps,
 } from '~/shared';
 
-type HobbyItemFormProps = FormComponentProps<any>;
+type HobbyItemFormProps = FormComponentProps<z.infer<typeof HobbyItemFormSchema>>;
 
 export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
   const { data: collectionOptions } = useSuspenseQuery(getAllCollectionOptionsQueryOptions());
@@ -58,8 +59,26 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
         imageUrl = key;
       }
 
+      const finalInput = {
+        ...data,
+        imageUrl,
+      };
+
       if (!isNewItem(hobbyItemId)) {
-        return;
+        const { id: _, ...defaultValues } = values;
+        const diff = getObjectsDiff(defaultValues, finalInput);
+
+        if (!diff) {
+          return;
+        }
+
+        return await api.hobbies.updateHobbyItem({
+          params: {
+            id: +hobbyId,
+            itemId: hobbyItemId,
+          },
+          input: diff,
+        });
       }
 
       return await api.hobbies.createHobbyItem({
@@ -77,7 +96,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
     },
     meta: {
       invalidateQueries: {
-        queryKey: [queryKey('hobbies.getHobby'), hobbyId],
+        queryKey: queryKey('hobbies.getHobby', hobbyId),
       },
     },
   });
