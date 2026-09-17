@@ -25,7 +25,14 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
-        globPatterns: ['fonts/*', 'images/**/*', 'placeholders/**/*'],
+        globPatterns: [
+          'fonts/*',
+          'images/**/*',
+          'placeholders/**/*',
+          'index.html',
+          'icons/**/*',
+          'favicon.png',
+        ],
       },
       manifest: {
         name: 'Films Collection',
