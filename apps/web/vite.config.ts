@@ -26,12 +26,13 @@ export default defineConfig({
       registerType: 'autoUpdate',
       workbox: {
         globPatterns: [
+          'assets/**/*',
           'fonts/*',
           'images/**/*',
-          'placeholders/**/*',
+          'favicon.png',
           'index.html',
           'icons/**/*',
-          'favicon.png',
+          'placeholders/**/*',
         ],
       },
       manifest: {
