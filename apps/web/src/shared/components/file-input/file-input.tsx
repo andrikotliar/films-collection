@@ -1,4 +1,3 @@
-import { imageNotFoundPlaceholder } from '~/assets';
 import { FieldLabel } from '~/shared/components/field-label/field-label';
 import { Image } from '~/shared/components/image/image';
 import { useEffect, useRef, useState } from 'react';
@@ -73,7 +72,7 @@ export const FileInput = ({
           ref={inputRef}
         />
         <Image
-          errorImageSrc={imageNotFoundPlaceholder}
+          errorImageSrc="/placeholder/image-not-found-placeholder_v2.webp"
           src={imagePreview}
           className={styles.image}
         />
