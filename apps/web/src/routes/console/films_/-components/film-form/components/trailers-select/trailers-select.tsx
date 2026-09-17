@@ -16,7 +16,7 @@ export const TrailersSelect = () => {
 
   const type = watch('type');
 
-  const trailerLabel = type.includes('SERIES') ? 'Season' : 'Trailer #';
+  const trailerLabel = type?.includes('SERIES') ? 'Season' : 'Trailer #';
 
   const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event;

@@ -11,6 +11,7 @@ import {
   HobbyItemsByCollectionIdResponseSchema,
   HobbyItemUpdateInputSchema,
   HobbyByIdAdminResponseSchema,
+  HobbyByTitleParamsSchema,
 } from '@films-collection/shared';
 import { createContract } from '../helpers/define-contracts.js';
 
@@ -97,6 +98,14 @@ export const hobbiesContract = {
       params: IdParamSchema,
       querystring: HobbyByIdQueriesSchema,
       response: HobbyByIdAdminResponseSchema,
+    },
+  }),
+  getHobbyByTitle: createContract({
+    url: '/title/:title',
+    method: 'GET',
+    schema: {
+      params: HobbyByTitleParamsSchema,
+      response: HobbyByIdResponseSchema,
     },
   }),
 };

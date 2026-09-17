@@ -31,7 +31,9 @@ export class HobbiesService {
   }
 
   async getHobby(id: number, queryParams: HobbyByIdQueries): Promise<HobbyByIdResponse> {
-    const hobby = await throwIfNotFound(this.deps.hobbiesRepository.get(id, queryParams));
+    const hobby = await throwIfNotFound(
+      this.deps.hobbiesRepository.get({ id, title: undefined }, queryParams),
+    );
 
     return {
       ...hobby,
@@ -93,6 +95,20 @@ export class HobbiesService {
           collectionId: collection.collectionId,
           order: collection.order ?? 0,
         })),
+      })),
+    };
+  }
+
+  async getHobbyByTitle(title: string) {
+    const hobby = await throwIfNotFound(
+      this.deps.hobbiesRepository.get({ id: undefined, title }, {}),
+    );
+
+    return {
+      ...hobby,
+      items: hobby.items.map((hobby) => ({
+        ...hobby,
+        authors: hobby.authors.map((author) => author.person),
       })),
     };
   }

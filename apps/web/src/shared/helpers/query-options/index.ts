@@ -24,6 +24,7 @@ export * from './genres/get-genres-list-query-options';
 export * from './hobbies/get-hobbies-list-query-options';
 export * from './hobbies/get-hobby-with-items-query-options';
 export * from './hobbies/get-hobby-items-by-collection-query-options';
+export * from './hobbies/get-hobby-by-title-query-options';
 export * from './initial-data/get-initial-data-query-options';
 export * from './people/get-people-admin-list-query-options';
 export * from './studios/get-studios-list-query-options';

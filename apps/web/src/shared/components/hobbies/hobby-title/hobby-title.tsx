@@ -1,4 +1,4 @@
-import { getExternalImageUrl, PageTitle, Image, BackLink, getPluralWord } from '~/shared';
+import { getExternalImageUrl, PageTitle, Image, getPluralWord } from '~/shared';
 import styles from './hobby-title.module.css';
 
 type HobbyTitleProps = {
@@ -10,7 +10,6 @@ type HobbyTitleProps = {
 export const HobbyTitle = ({ children, imageUrl, total = 0 }: HobbyTitleProps) => {
   return (
     <div className={styles.wrapper}>
-      <BackLink path="/about">Back to about</BackLink>
       <div className={styles.row}>
         <div className={styles.image}>
           <Image src={getExternalImageUrl(imageUrl)} />

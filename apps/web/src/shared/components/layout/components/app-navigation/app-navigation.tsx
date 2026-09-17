@@ -3,37 +3,35 @@ import styles from './app-navigation.module.css';
 import { Link, useLocation, useNavigate } from '@tanstack/react-router';
 import clsx from 'clsx';
 import {
-  ChartPieIcon,
-  HomeIcon,
+  BookIcon,
+  ClapperboardIcon,
   InfoIcon,
   LogOutIcon,
-  SearchIcon,
+  PlayingCardsFanIcon,
   SettingsIcon,
-  SlidersHorizontalIcon,
-  XIcon,
 } from 'lucide-react';
-import { useState } from 'react';
-import type { FileRoutesByTo } from '~/routeTree.gen';
-import { Button } from '~/shared/components/button/button';
-import { FilmsSearch } from '~/shared/components/layout/components/films-search/films-search';
 import { Logo } from '~/shared/components/logo/logo';
-import { Modal } from '~/shared/components/modal/modal';
-import { useFilterContext } from '~/shared/hooks';
 import { api, queryKey } from '~/shared/services';
 import type { NavLink } from '~/shared/types';
 
 const navigationConfig: NavLink[] = [
   {
-    id: 'home',
-    icon: <HomeIcon className={styles.navigation_item_icon} />,
-    title: 'Home',
+    id: 'films',
+    icon: <ClapperboardIcon className={styles.navigation_item_icon} />,
+    title: 'Films',
     path: '/',
   },
   {
-    id: 'stats',
-    icon: <ChartPieIcon className={styles.navigation_item_icon} />,
-    title: 'Stats',
-    path: '/stats',
+    id: 'books',
+    icon: <BookIcon className={styles.navigation_item_icon} />,
+    title: 'Books',
+    path: '/books',
+  },
+  {
+    id: 'board-games',
+    icon: <PlayingCardsFanIcon className={styles.navigation_item_icon} />,
+    title: 'BG',
+    path: '/board-games',
   },
   {
     id: 'about',
@@ -43,12 +41,8 @@ const navigationConfig: NavLink[] = [
   },
 ];
 
-const pagesWithFilter = ['/', '/console/films'];
-
 export const AppNavigation = () => {
   const location = useLocation();
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const { openFilter } = useFilterContext();
   const navigate = useNavigate();
   const queryClient = useQueryClient();
 
@@ -77,18 +71,6 @@ export const AppNavigation = () => {
             <span className={styles.navigation_item_title}>{link.title}</span>
           </Link>
         ))}
-        {pagesWithFilter.includes(location.pathname) && (
-          <button
-            className={clsx(styles.navigation_item, styles.filter_button)}
-            onClick={() => openFilter(location.pathname as keyof FileRoutesByTo)}
-          >
-            <SlidersHorizontalIcon className={styles.navigation_item_icon} />
-          </button>
-        )}
-        <button className={styles.navigation_item} onClick={() => setIsSearchOpen(true)}>
-          <SearchIcon className={styles.navigation_item_icon} />
-          <span className={styles.navigation_item_title}>Search</span>
-        </button>
         {location.pathname.includes('/console') ? (
           <button className={clsx(styles.navigation_item, styles.bottom_item)} onClick={logout}>
             <LogOutIcon className={styles.navigation_item_icon} />
@@ -108,22 +90,6 @@ export const AppNavigation = () => {
           </Link>
         )}
       </div>
-      <Modal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        isAllowedClickOutside={false}
-      >
-        <FilmsSearch onClose={() => setIsSearchOpen(false)} />
-        <div className={styles.close_modal_button}>
-          <Button
-            icon={<XIcon />}
-            variant="ghost"
-            inheritColor
-            size="large"
-            onClick={() => setIsSearchOpen(false)}
-          />
-        </div>
-      </Modal>
     </div>
   );
 };

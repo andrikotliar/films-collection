@@ -7,11 +7,13 @@ import {
   PageTitle,
   Pagination,
   SortingPopup,
+  TextInput,
+  useDebouncedSearch,
   type SortingParams,
 } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
-import { FilmsNotFound } from '~/routes/_home/-components/films-section/components/films-not-found/films-not-found';
 import type { ListOption, SortingOrder } from '@films-collection/shared';
+import { SearchIcon } from 'lucide-react';
 
 type SortingValues = {
   order: SortingOrder;
@@ -53,17 +55,24 @@ export const FilmsSection = () => {
   const navigate = routeApi.useNavigate();
   const { data, isFetching } = useQuery(getFilmsListQueryOptions(searchParams));
 
-  if (isFetching) {
-    return (
-      <div className={styles.films_section}>
-        <FilmsGridSkeleton />
-      </div>
-    );
-  }
+  const handleSearch = useDebouncedSearch((value) => {
+    if (!value.length) {
+      navigate({
+        search: (prev) => ({
+          ...prev,
+          q: undefined,
+        }),
+      });
+      return;
+    }
 
-  if (!data) {
-    return <FilmsNotFound />;
-  }
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        q: value,
+      }),
+    });
+  });
 
   const handlePageNavigation = (pageIndex: number) => {
     navigate({
@@ -110,32 +119,53 @@ export const FilmsSection = () => {
   return (
     <div className={styles.films_section}>
       <div className={styles.header}>
-        <Logo size={50} className={styles.mobile_logo} />
-        <PageTitle>Films Collection</PageTitle>
-        <SortingPopup
-          fields={sortingFields}
-          onSorting={handleSorting}
-          defaultOrder={sortingValues.order}
-          defaultOrderKey={sortingValues.orderKey}
-          isDisabled={searchParams.collectionId !== undefined}
-          buttonWrapperClassName={styles.sorting}
-        />
+        <div className={styles.title}>
+          <Logo className={styles.mobile_logo} />
+          <PageTitle>Films Collection</PageTitle>
+        </div>
+        <div className={styles.controls}>
+          <TextInput
+            icon={<SearchIcon />}
+            placeholder="Search films"
+            className={styles.search}
+            onChange={handleSearch}
+            isClearable
+          />
+          <SortingPopup
+            fields={sortingFields}
+            onSorting={handleSorting}
+            defaultOrder={sortingValues.order}
+            defaultOrderKey={sortingValues.orderKey}
+            isDisabled={searchParams.collectionId !== undefined}
+            buttonWrapperClassName={styles.sorting}
+          />
+        </div>
       </div>
-      <CurrentEvents
-        events={data.events}
-        total={data.allFilmsCount}
-        anniversaryPoster={data.anniversaryPoster}
-      />
-      <AdditionalInfoSection info={data.additionalInfo} />
-      <FilmsGrid films={data.list} isCollection={!!searchParams.collectionId} />
-      <Pagination
-        total={data.total}
-        onPageChange={handlePageNavigation}
-        currentPageIndex={searchParams.pageIndex}
-        perPageCounter={data.pageLimit}
-        totalLabel="films"
-        wrapperClassName={styles.pagination_wrapper}
-      />
+      {data && (
+        <>
+          <CurrentEvents
+            events={data.events}
+            total={data.allFilmsCount}
+            anniversaryPoster={data.anniversaryPoster}
+          />
+          <AdditionalInfoSection info={data.additionalInfo} />
+        </>
+      )}
+      {isFetching ? (
+        <FilmsGridSkeleton />
+      ) : (
+        <FilmsGrid films={data?.list ?? []} isCollection={!!searchParams.collectionId} />
+      )}
+      {data && data.total > 0 && (
+        <Pagination
+          total={data.total}
+          onPageChange={handlePageNavigation}
+          currentPageIndex={searchParams.pageIndex}
+          perPageCounter={data.pageLimit}
+          totalLabel="films"
+          wrapperClassName={styles.pagination_wrapper}
+        />
+      )}
     </div>
   );
 };

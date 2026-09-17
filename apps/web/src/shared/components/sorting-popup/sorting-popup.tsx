@@ -67,9 +67,7 @@ export const SortingPopup = ({
           size="small"
           isDisabled={isDisabled}
         >
-          <div className={styles.button_content}>
-            <span className={styles.button_label}>Sorted by:</span> {selectedData.label}
-          </div>
+          <div className={styles.button_content}>{selectedData.label}</div>
         </Button>
       </div>
       <PopupMenu

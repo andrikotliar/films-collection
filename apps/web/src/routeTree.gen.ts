@@ -12,9 +12,10 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as StatsRouteRouteImport } from './routes/stats/route'
 import { Route as LoginRouteRouteImport } from './routes/login/route'
 import { Route as ConsoleRouteRouteImport } from './routes/console/route'
+import { Route as BooksRouteRouteImport } from './routes/books/route'
+import { Route as BoardGamesRouteRouteImport } from './routes/board-games/route'
 import { Route as AboutRouteRouteImport } from './routes/about/route'
 import { Route as HomeIndexRouteImport } from './routes/_home/index'
-import { Route as AboutIdRouteImport } from './routes/about_/$id'
 import { Route as ConsoleUserRouteRouteImport } from './routes/console/user/route'
 import { Route as ConsoleStudiosRouteRouteImport } from './routes/console/studios/route'
 import { Route as ConsoleSessionsRouteRouteImport } from './routes/console/sessions/route'
@@ -48,6 +49,16 @@ const ConsoleRouteRoute = ConsoleRouteRouteImport.update({
   path: '/console',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BooksRouteRoute = BooksRouteRouteImport.update({
+  id: '/books',
+  path: '/books',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BoardGamesRouteRoute = BoardGamesRouteRouteImport.update({
+  id: '/board-games',
+  path: '/board-games',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRouteRoute = AboutRouteRouteImport.update({
   id: '/about',
   path: '/about',
@@ -56,11 +67,6 @@ const AboutRouteRoute = AboutRouteRouteImport.update({
 const HomeIndexRoute = HomeIndexRouteImport.update({
   id: '/_home/',
   path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutIdRoute = AboutIdRouteImport.update({
-  id: '/about_/$id',
-  path: '/about/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ConsoleUserRouteRoute = ConsoleUserRouteRouteImport.update({
@@ -152,6 +158,8 @@ const ConsoleArticlesIdRoute = ConsoleArticlesIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/about': typeof AboutRouteRoute
+  '/board-games': typeof BoardGamesRouteRoute
+  '/books': typeof BooksRouteRoute
   '/console': typeof ConsoleRouteRouteWithChildren
   '/login': typeof LoginRouteRoute
   '/stats': typeof StatsRouteRoute
@@ -167,7 +175,6 @@ export interface FileRoutesByFullPath {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
-  '/about/$id': typeof AboutIdRoute
   '/': typeof HomeIndexRoute
   '/console/articles/$id': typeof ConsoleArticlesIdRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -177,6 +184,8 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/about': typeof AboutRouteRoute
+  '/board-games': typeof BoardGamesRouteRoute
+  '/books': typeof BooksRouteRoute
   '/login': typeof LoginRouteRoute
   '/stats': typeof StatsRouteRoute
   '/console/articles': typeof ConsoleArticlesRouteRoute
@@ -191,7 +200,6 @@ export interface FileRoutesByTo {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
-  '/about/$id': typeof AboutIdRoute
   '/': typeof HomeIndexRoute
   '/console/articles/$id': typeof ConsoleArticlesIdRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -202,6 +210,8 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/about': typeof AboutRouteRoute
+  '/board-games': typeof BoardGamesRouteRoute
+  '/books': typeof BooksRouteRoute
   '/console': typeof ConsoleRouteRouteWithChildren
   '/login': typeof LoginRouteRoute
   '/stats': typeof StatsRouteRoute
@@ -217,7 +227,6 @@ export interface FileRoutesById {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
-  '/about_/$id': typeof AboutIdRoute
   '/_home/': typeof HomeIndexRoute
   '/console/articles_/$id': typeof ConsoleArticlesIdRoute
   '/console/awards_/$id': typeof ConsoleAwardsIdRoute
@@ -229,6 +238,8 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/about'
+    | '/board-games'
+    | '/books'
     | '/console'
     | '/login'
     | '/stats'
@@ -244,7 +255,6 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
-    | '/about/$id'
     | '/'
     | '/console/articles/$id'
     | '/console/awards/$id'
@@ -254,6 +264,8 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/about'
+    | '/board-games'
+    | '/books'
     | '/login'
     | '/stats'
     | '/console/articles'
@@ -268,7 +280,6 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
-    | '/about/$id'
     | '/'
     | '/console/articles/$id'
     | '/console/awards/$id'
@@ -278,6 +289,8 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/about'
+    | '/board-games'
+    | '/books'
     | '/console'
     | '/login'
     | '/stats'
@@ -293,7 +306,6 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
-    | '/about_/$id'
     | '/_home/'
     | '/console/articles_/$id'
     | '/console/awards_/$id'
@@ -304,10 +316,11 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   AboutRouteRoute: typeof AboutRouteRoute
+  BoardGamesRouteRoute: typeof BoardGamesRouteRoute
+  BooksRouteRoute: typeof BooksRouteRoute
   ConsoleRouteRoute: typeof ConsoleRouteRouteWithChildren
   LoginRouteRoute: typeof LoginRouteRoute
   StatsRouteRoute: typeof StatsRouteRoute
-  AboutIdRoute: typeof AboutIdRoute
   HomeIndexRoute: typeof HomeIndexRoute
 }
 
@@ -334,6 +347,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsoleRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/books': {
+      id: '/books'
+      path: '/books'
+      fullPath: '/books'
+      preLoaderRoute: typeof BooksRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/board-games': {
+      id: '/board-games'
+      path: '/board-games'
+      fullPath: '/board-games'
+      preLoaderRoute: typeof BoardGamesRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -346,13 +373,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof HomeIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about_/$id': {
-      id: '/about_/$id'
-      path: '/about/$id'
-      fullPath: '/about/$id'
-      preLoaderRoute: typeof AboutIdRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/console/user': {
@@ -523,10 +543,11 @@ const ConsoleRouteRouteWithChildren = ConsoleRouteRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   AboutRouteRoute: AboutRouteRoute,
+  BoardGamesRouteRoute: BoardGamesRouteRoute,
+  BooksRouteRoute: BooksRouteRoute,
   ConsoleRouteRoute: ConsoleRouteRouteWithChildren,
   LoginRouteRoute: LoginRouteRoute,
   StatsRouteRoute: StatsRouteRoute,
-  AboutIdRoute: AboutIdRoute,
   HomeIndexRoute: HomeIndexRoute,
 }
 export const routeTree = rootRouteImport

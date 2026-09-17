@@ -4,6 +4,7 @@ import { FieldError } from '../field-error/field-error';
 import { FieldLabel } from '../field-label/field-label';
 import { type FormError } from '~/shared';
 import type { RefCallBack } from 'react-hook-form';
+import { XIcon } from 'lucide-react';
 
 export type TextInputProps = {
   type?: 'text' | 'number' | 'password';
@@ -11,6 +12,7 @@ export type TextInputProps = {
   error?: FormError;
   icon?: React.ReactNode;
   ref?: React.RefObject<HTMLInputElement | null> | RefCallBack;
+  isClearable?: boolean;
 } & Omit<React.ComponentProps<'input'>, 'type' | 'name'>;
 
 export const TextInput = ({
@@ -20,6 +22,7 @@ export const TextInput = ({
   error,
   icon,
   ref,
+  isClearable,
   ...props
 }: TextInputProps) => {
   return (
@@ -31,10 +34,18 @@ export const TextInput = ({
           type={type}
           className={clsx(styles.text_input, {
             [styles.with_icon]: icon !== undefined,
+            [styles.with_clear_button]: isClearable,
           })}
           {...props}
         />
-        <div className={styles.icon_wrapper}>{icon}</div>
+        <div className={styles.icons_bar}>
+          {isClearable && (
+            <button className={clsx(styles.icon_wrapper, styles.clear_button)}>
+              <XIcon />
+            </button>
+          )}
+          <div className={styles.icon_wrapper}>{icon}</div>
+        </div>
       </div>
       <FieldError error={error} />
     </label>

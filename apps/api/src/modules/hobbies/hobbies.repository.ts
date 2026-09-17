@@ -28,7 +28,10 @@ export class HobbiesRepository {
     return this.deps.db.$count(hobbies);
   }
 
-  async get(id: number, queryParams: HobbyByIdQueries) {
+  async get(
+    { id, title }: { id: number; title: undefined } | { id: undefined; title: string },
+    queryParams: HobbyByIdQueries,
+  ) {
     const itemsWhere: SQL[] = [];
 
     if (queryParams.collectionId) {
@@ -49,8 +52,18 @@ export class HobbiesRepository {
       itemsWhere.push(ilike(hobbyItems.title, sqlSearchQuery(queryParams.q)));
     }
 
+    let where!: SQL;
+
+    if (id && !title) {
+      where = eq(hobbies.id, id);
+    }
+
+    if (title && !id) {
+      where = eq(hobbies.title, title);
+    }
+
     return await this.deps.db.query.hobbies.findFirst({
-      where: eq(hobbies.id, id),
+      where,
       columns: {
         title: true,
         id: true,

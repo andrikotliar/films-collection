@@ -70,6 +70,10 @@ export const HobbyItemsByCollectionIdResponseSchema = z.array(
   }),
 );
 
+export const HobbyByTitleParamsSchema = z.object({
+  title: z.string(),
+});
+
 export type HobbiesListResponse = z.infer<typeof HobbiesListResponseSchema>;
 export type HobbyItemInput = z.infer<typeof HobbyItemInputSchema>;
 export type HobbyItemUpdateInput = z.infer<typeof HobbyItemUpdateInputSchema>;
