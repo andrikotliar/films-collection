@@ -1,7 +1,6 @@
 import {
   IdParamSchema,
-  UpdateUserPasswordInputSchema,
-  UpdateUserTranslationPreferencesSchema,
+  UpdateUserSchema,
   UserDataResponseSchema,
   UserSessionSchema,
 } from '@hobbies-collection/shared';
@@ -24,24 +23,16 @@ export const usersContracts = {
       response: IdParamSchema,
     },
   }),
-  updatePassword: createContract({
-    url: '/users/password',
+  update: createContract({
+    url: '/users/me',
     method: 'PATCH',
     schema: {
-      body: UpdateUserPasswordInputSchema,
-      response: IdParamSchema,
-    },
-  }),
-  updateTranslationPreferences: createContract({
-    url: '/users/translation',
-    method: 'PATCH',
-    schema: {
-      body: UpdateUserTranslationPreferencesSchema,
+      body: UpdateUserSchema,
       response: IdParamSchema,
     },
   }),
   getUser: createContract({
-    url: '/users',
+    url: '/users/me',
     method: 'GET',
     schema: {
       response: UserDataResponseSchema,

@@ -40,9 +40,9 @@ export const UpdateUserPasswordInputSchema = z.object({
 });
 
 export const UpdateUserTranslationPreferencesSchema = z.object({
-  from: z.string(),
+  from: z.string().min(1),
   fromValidation: z.string().optional(),
-  to: z.string(),
+  to: z.string().min(1),
   toValidation: z.string().optional(),
 });
 
@@ -52,9 +52,13 @@ export const UserDataResponseSchema = z.object({
   translationPreferences: UpdateUserTranslationPreferencesSchema.nullable(),
 });
 
+export const UpdateUserSchema = z
+  .object({
+    password: UpdateUserPasswordInputSchema,
+    translation: UpdateUserTranslationPreferencesSchema,
+  })
+  .partial();
+
 export type DeviceInfo = z.infer<typeof DeviceInfoSchema>;
 export type UserSessionResponse = z.infer<typeof UserSessionSchema>;
-export type UpdateUserPasswordInput = z.infer<typeof UpdateUserPasswordInputSchema>;
-export type UpdateUserTranslationPreferences = z.infer<
-  typeof UpdateUserTranslationPreferencesSchema
->;
+export type UpdateUserInput = z.infer<typeof UpdateUserSchema>;

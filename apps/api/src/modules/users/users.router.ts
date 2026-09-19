@@ -23,29 +23,15 @@ export const usersRouter = createRouter(contracts.users, {
       };
     },
   },
-  updatePassword: {
+  update: {
     preHandler: [validateAuth],
     async handler({ request, app }) {
       const user = getRequestUser(request);
 
-      const data = await app.resolve('usersService').updatePassword(user.id, request.body);
+      const data = await app.resolve('usersService').update(user.id, request.body);
 
       return {
-        data: { id: data.userId },
-      };
-    },
-  },
-  updateTranslationPreferences: {
-    preHandler: [validateAuth],
-    async handler({ request, app }) {
-      const user = getRequestUser(request);
-
-      const data = await app
-        .resolve('usersService')
-        .updateTranslationPreferences(user.id, request.body);
-
-      return {
-        data: { id: data.userId },
+        data,
       };
     },
   },

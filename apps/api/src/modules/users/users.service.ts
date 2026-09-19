@@ -1,10 +1,6 @@
-import type { UserSession } from '~/database/schema.js';
+import type { User, UserSession } from '~/database/schema.js';
 import crypto from 'node:crypto';
-import type {
-  UpdateUserPasswordInput,
-  UpdateUserTranslationPreferences,
-  UserSessionResponse,
-} from '@hobbies-collection/shared';
+import type { UpdateUserInput, UserSessionResponse } from '@hobbies-collection/shared';
 import type { Deps } from '~/shared/types/deps.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import type { RequestUser } from '~/shared/helpers/get-request-user.js';
@@ -64,23 +60,10 @@ export class UsersService {
     return this.deps.usersRepository.terminateSession(id);
   }
 
-  async updateTranslationPreferences(userId: number, payload: UpdateUserTranslationPreferences) {
-    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
-
-    const data = await throwIfNotFound(
-      this.deps.usersRepository.update(user.id, {
-        translationPreferences: payload,
-      }),
-    );
-
-    return {
-      userId: data.id,
-    };
-  }
-
-  async updatePassword(userId: number, payload: UpdateUserPasswordInput) {
-    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
-
+  private async updatePassword(
+    user: User,
+    payload: Exclude<UpdateUserInput['password'], undefined>,
+  ): Promise<void> {
     const isPasswordCorrect = this.deps.hashService.verify(payload.actualPassword, user.password);
 
     if (!isPasswordCorrect) {
@@ -89,15 +72,27 @@ export class UsersService {
 
     const hashedPassword = this.deps.hashService.hash(payload.newPassword);
 
-    const data = await throwIfNotFound(
+    await throwIfNotFound(
       this.deps.usersRepository.update(user.id, {
         password: hashedPassword,
       }),
     );
+  }
 
-    return {
-      userId: data.id,
-    };
+  async update(userId: number, data: UpdateUserInput) {
+    const user = await throwIfNotFound(this.deps.usersRepository.findByUserIdWithPassword(userId));
+
+    if (data.password) {
+      await this.updatePassword(user, data.password);
+    }
+
+    if (data.translation) {
+      await this.deps.usersRepository.update(user.id, {
+        translationPreferences: data.translation,
+      });
+    }
+
+    return { id: user.id };
   }
 
   getUserTranslationPreferences(userId: number) {
