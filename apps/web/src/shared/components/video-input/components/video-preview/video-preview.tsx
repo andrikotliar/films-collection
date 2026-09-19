@@ -1,6 +1,7 @@
 import styles from './video-preview.module.css';
 import { Image } from '~/shared/components/image/image';
 import { PlayIcon } from 'lucide-react';
+import { imagePaths } from '~/shared/configs';
 
 type VideoPreviewProps = {
   imageUrl: string;
@@ -11,7 +12,7 @@ export const VideoPreview = ({ imageUrl, videoUrl }: VideoPreviewProps) => {
   if (!videoUrl.length) {
     return (
       <div className={styles.preview_wrapper}>
-        <Image src="/placeholder/video-not-found-placeholder_v2.webp" />
+        <Image src={imagePaths.placeholders.videoNotFound} />
       </div>
     );
   }

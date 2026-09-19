@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import styles from './file-input.module.css';
 import { Trash2Icon, UploadIcon } from 'lucide-react';
 import { Button } from '~/shared/components/button/button';
-import { getExternalImageUrl, type FormError } from '~/shared';
+import { getExternalImageUrl, imagePaths, type FormError } from '~/shared';
 import { FieldError } from '~/shared/components/field-error/field-error';
 
 export type FileInputProps = {
@@ -72,7 +72,7 @@ export const FileInput = ({
           ref={inputRef}
         />
         <Image
-          errorImageSrc="/placeholder/image-not-found-placeholder_v2.webp"
+          errorImageSrc={imagePaths.placeholders.imageNotFound}
           src={imagePreview}
           className={styles.image}
         />

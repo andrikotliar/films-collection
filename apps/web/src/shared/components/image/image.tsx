@@ -1,6 +1,7 @@
 import styles from './image.module.css';
 import clsx from 'clsx';
 import { handleImageError } from './helpers';
+import { imagePaths } from '~/shared/configs';
 
 type ImageProps = {
   src?: string | null;
@@ -12,7 +13,7 @@ type ImageProps = {
 export const Image = ({
   src,
   className,
-  errorImageSrc = '/placeholder/image-not-found-placeholder_v2.webp',
+  errorImageSrc = imagePaths.placeholders.imageNotFound,
   shouldFitContainer = false,
   ref,
   ...props

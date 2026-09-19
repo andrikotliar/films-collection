@@ -1,6 +1,7 @@
 import { HttpError } from '@hobbies-collection/contracts';
 import { onlineManager } from '@tanstack/react-query';
 import { Status } from '~/shared/components/error-screen/components';
+import { imagePaths } from '~/shared/configs';
 
 type ErrorScreenProps = {
   error: unknown;
@@ -12,7 +13,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
       <Status
         title="No internet connection"
         message="Fix a connection issue and reload the page"
-        imageSrc="/images/errors/no-internet.webp"
+        imageSrc={imagePaths.errors.noInternetError}
         isRecoverable
       />
     );
@@ -24,7 +25,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
         <Status
           title="Not found"
           message="The page with given URL doesn't exist or is under construction"
-          imageSrc="/images/errors/not-found-error.webp"
+          imageSrc={imagePaths.errors.notFoundError}
         />
       );
     }
@@ -32,7 +33,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
       <Status
         title="Internal Server Error"
         message="Server returned incorrect response. Reload the page"
-        imageSrc="/images/errors/server-error.webp"
+        imageSrc={imagePaths.errors.serverError}
         isRecoverable
       />
     );
@@ -42,7 +43,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
     <Status
       title="App crashed"
       message={error.message}
-      imageSrc="/images/errors/app-error.webp"
+      imageSrc={imagePaths.errors.appError}
       isRecoverable
     />;
   }
@@ -51,7 +52,7 @@ export const ErrorScreen = ({ error }: ErrorScreenProps) => {
     <Status
       title="Unknown error"
       message="The app currently is not working"
-      imageSrc="/images/errors/unknown-error.webp"
+      imageSrc={imagePaths.errors.unknownError}
       isRecoverable
     />
   );
