@@ -1,6 +1,3 @@
-import path from 'node:path';
-import { styleText } from 'node:util';
-import fs from 'node:fs/promises';
 import type { CompleteDataResponse, CompleteDataListItem } from '@hobbies-collection/shared';
 import { database } from '~/plugins/database.plugin.js';
 import {
@@ -21,102 +18,24 @@ import {
   seriesExtensions,
   studios,
 } from '~/database/schema.js';
-import type { PgColumn, PgTableWithColumns, PgTransaction } from 'drizzle-orm/pg-core';
-import { max, sql } from 'drizzle-orm';
+import { getItems } from './helpers/get-items.js';
+import { getBaseDataValues } from './helpers/get-base-data-values.js';
+import { logger } from './helpers/logger.js';
+import { getMaxIdAndRestartAutoIncrement } from './helpers/get-max-id-and-restart-autoincrement.js';
 
-const DATA_FOLDER = path.join(import.meta.dirname, '../../data');
-
-type ContentResponse<T extends Record<string, unknown>> = {
-  filePath: string;
-  data: T;
+const folders = {
+  films: '/data/films',
+  common: '/data/common',
 };
 
-type BaseDataKeys = keyof CompleteDataResponse['baseData'];
+const seedFilms = async () => {
+  const filmsList = await getItems<CompleteDataListItem>(folders.films);
+  const baseData = await getBaseDataValues<CompleteDataResponse['baseData']>([
+    folders.common,
+    folders.films,
+  ]);
 
-type AnyTable = {
-  name: string;
-  columns: { id: PgColumn; [key: string]: any };
-  schema: undefined;
-  dialect: 'pg';
-};
-
-const loggerWrapper = (
-  type: 'log' | 'error',
-  message: string,
-  color: Parameters<typeof styleText>[0],
-) => {
-  // eslint-disable-next-line
-  console[type](styleText(color, message));
-};
-
-const logger = {
-  info: (message: string) => loggerWrapper('log', message, 'cyan'),
-  error: (message: string) => loggerWrapper('error', message, 'redBright'),
-  success: (message: string) => loggerWrapper('log', message, 'greenBright'),
-};
-
-const readContent = async <T extends Record<string, unknown>>(
-  path: string,
-): Promise<ContentResponse<T> | null> => {
-  try {
-    const content = await fs.readFile(path, 'utf-8');
-
-    const data = JSON.parse(content) as T;
-    return {
-      filePath: path,
-      data,
-    };
-  } catch (error: any) {
-    logger.error(`[Reading file failed]: (${path}): ${error.message}`);
-    return null;
-  }
-};
-
-const getBaseData = async (): Promise<CompleteDataResponse['baseData']> => {
-  const entries = await fs.readdir(DATA_FOLDER);
-
-  const jsonFiles = entries.filter((entry) => entry.endsWith('.json'));
-
-  const promises = jsonFiles.map(async (file) => readContent(path.join(DATA_FOLDER, file)));
-  const data = await Promise.all(promises);
-  const filteredData = data.filter((item) => item !== null);
-
-  const result: CompleteDataResponse['baseData'] = {
-    genres: [],
-    countries: [],
-    studios: [],
-    awards: [],
-    people: [],
-    collections: [],
-  };
-
-  for (const item of filteredData) {
-    const key = path.basename(item.filePath).replace('.json', '') as BaseDataKeys;
-
-    result[key] = item.data as any;
-  }
-
-  return result;
-};
-
-const getFilms = async () => {
-  const filmsFolder = path.join(DATA_FOLDER, 'films');
-  const entries = await fs.readdir(filmsFolder);
-
-  const promises = entries.map(async (file) => {
-    const result = await readContent<CompleteDataListItem>(path.join(filmsFolder, file));
-
-    return result ? result.data : null;
-  });
-
-  const data = await Promise.all(promises);
-  const filteredData = data.filter((item) => item !== null);
-
-  return filteredData;
-};
-
-const getBaseDataConfig = (baseData: CompleteDataResponse['baseData']) => {
-  return [
+  const filmsDataConfig = [
     {
       data: baseData.genres,
       table: genres,
@@ -138,30 +57,10 @@ const getBaseDataConfig = (baseData: CompleteDataResponse['baseData']) => {
       table: collections,
     },
   ];
-};
-
-const getMaxIdAndRestartAutoIncrement = async (
-  transaction: PgTransaction<any, any, any>,
-  table: PgTableWithColumns<AnyTable>,
-  tableName: string,
-) => {
-  const result = await transaction.select({ maxId: max(table.id) }).from(table);
-
-  const maxId = (result[0]?.maxId as number) ?? 0;
-
-  await transaction.execute(
-    sql.raw(`ALTER SEQUENCE "${tableName}_id_seq" RESTART WITH ${maxId + 1}`),
-  );
-};
-
-const run = async () => {
-  const filmsList = await getFilms();
-  const baseData = await getBaseData();
-  const config = getBaseDataConfig(baseData);
 
   await database.transaction(async (tr) => {
-    logger.info('Seeding base data');
-    for (const configItem of config) {
+    logger.info('Seeding films base data');
+    for (const configItem of filmsDataConfig) {
       await tr.insert(configItem.table).values(configItem.data);
     }
 
@@ -293,11 +192,14 @@ const run = async () => {
     await getMaxIdAndRestartAutoIncrement(tr, films, 'films');
   });
 
-  logger.success('Seeding completed');
-  process.exit(0);
+  logger.success('Seeding films completed');
+};
+
+const run = async () => {
+  await seedFilms();
 };
 
 run().catch((error) => {
-  logger.error(`[Seeding Error]: ${error.message}`);
+  console.log(error);
   process.exit(1);
 });
