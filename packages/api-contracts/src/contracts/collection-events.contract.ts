@@ -11,7 +11,7 @@ import { createContract } from '../helpers/index.js';
 export const collectionEventsContract = {
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/collection-events',
     schema: {
       body: CreateCollectionEventInputSchema,
       response: CollectionEventResponseSchema,
@@ -19,7 +19,7 @@ export const collectionEventsContract = {
   }),
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/collection-events',
     schema: {
       querystring: CommonListQuerySchema,
       response: CollectionEventsListResponseSchema,
@@ -27,7 +27,7 @@ export const collectionEventsContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/collection-events/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
@@ -35,7 +35,7 @@ export const collectionEventsContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/collection-events/:id',
     schema: {
       params: IdParamSchema,
       body: UpdateCollectionEventInputSchema,

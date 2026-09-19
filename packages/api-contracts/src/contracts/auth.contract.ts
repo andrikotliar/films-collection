@@ -9,14 +9,14 @@ import { createContract } from '../helpers/index.js';
 export const authContract = {
   getState: createContract({
     method: 'GET',
-    url: 'state',
+    url: '/auth/state',
     schema: {
       response: AuthStateResponseSchema,
     },
   }),
   login: createContract({
     method: 'POST',
-    url: 'login',
+    url: '/auth/login',
     schema: {
       body: LoginSchema,
       response: IdParamSchema,
@@ -24,14 +24,14 @@ export const authContract = {
   }),
   refresh: createContract({
     method: 'POST',
-    url: 'refresh',
+    url: '/auth/refresh',
     schema: {
       response: IdParamSchema,
     },
   }),
   logout: createContract({
     method: 'POST',
-    url: 'logout',
+    url: '/auth/logout',
     schema: {
       response: LogoutResponseSchema,
     },

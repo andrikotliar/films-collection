@@ -14,7 +14,7 @@ import { createContract } from '../helpers/index.js';
 export const collectionsContract = {
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/collections',
     schema: {
       querystring: CommonListQuerySchema,
       response: CollectionsListResponseSchema,
@@ -22,7 +22,7 @@ export const collectionsContract = {
   }),
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/collections',
     schema: {
       body: CreateCollectionInputSchema,
       response: CollectionResponseSchema,
@@ -30,7 +30,7 @@ export const collectionsContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/collections/:id',
     schema: {
       params: IdParamSchema,
       body: UpdateCollectionInputSchema,
@@ -39,7 +39,7 @@ export const collectionsContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/collections/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
@@ -47,7 +47,7 @@ export const collectionsContract = {
   }),
   getAll: createContract({
     method: 'GET',
-    url: 'all',
+    url: '/collections/all',
     schema: {
       response: buildListOptionSchema(
         z.number(),
@@ -59,7 +59,7 @@ export const collectionsContract = {
   }),
   getHobbyRelated: createContract({
     method: 'GET',
-    url: 'hobby/:id',
+    url: '/collections/hobby/:id',
     schema: {
       params: IdParamSchema,
       response: buildListOptionSchema(z.number()),

@@ -14,7 +14,7 @@ import { createContract } from '../helpers/index.js';
 export const articlesContract = {
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/articles',
     schema: {
       body: CreateArticleSchema,
       response: ArticleResponseSchema,
@@ -22,7 +22,7 @@ export const articlesContract = {
   }),
   getAdminList: createContract({
     method: 'GET',
-    url: 'admin',
+    url: '/articles/admin',
     schema: {
       querystring: GetArticlesListQueriesSchema,
       response: ArticlesListResponseSchema,
@@ -30,7 +30,7 @@ export const articlesContract = {
   }),
   getBySlug: createContract({
     method: 'GET',
-    url: 'content/:slug',
+    url: '/articles/content/:slug',
     schema: {
       params: GetArticleBySlugSchema,
       response: ArticleBySlugResponseSchema,
@@ -38,7 +38,7 @@ export const articlesContract = {
   }),
   getById: createContract({
     method: 'GET',
-    url: ':id',
+    url: '/articles/:id',
     schema: {
       params: IdParamSchema,
       response: ArticleByIdResponseSchema,
@@ -46,7 +46,7 @@ export const articlesContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/articles/:id',
     schema: {
       body: UpdateArticleSchema,
       params: IdParamSchema,
@@ -55,7 +55,7 @@ export const articlesContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/articles/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,

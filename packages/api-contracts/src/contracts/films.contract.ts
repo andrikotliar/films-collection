@@ -31,7 +31,7 @@ import { createContract } from '../helpers/index.js';
 export const filmsContract = {
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/films',
     schema: {
       querystring: GetFilmsListQuerySchema,
       response: FilmsListResponseSchema,
@@ -39,7 +39,7 @@ export const filmsContract = {
   }),
   search: createContract({
     method: 'GET',
-    url: 'search',
+    url: '/films/search',
     schema: {
       querystring: SearchFilmsQuerySchema,
       response: FilmsSearchResponseSchema,
@@ -47,7 +47,7 @@ export const filmsContract = {
   }),
   getOptions: createContract({
     method: 'GET',
-    url: 'options',
+    url: '/films/options',
     schema: {
       querystring: GetFilmOptionsQuerySchema,
       response: buildListOptionSchema(z.number()),
@@ -55,14 +55,14 @@ export const filmsContract = {
   }),
   getFilmStats: createContract({
     method: 'GET',
-    url: 'stats',
+    url: '/films/stats',
     schema: {
       response: FilmStatsResponseSchema,
     },
   }),
   getAdminList: createContract({
     method: 'GET',
-    url: 'admin',
+    url: '/films/admin',
     schema: {
       querystring: GetAdminListQuerySchema,
       response: FilmsAdminListResponseSchema,
@@ -70,7 +70,7 @@ export const filmsContract = {
   }),
   getEditableFilm: createContract({
     method: 'GET',
-    url: 'admin/:id',
+    url: '/films/admin/:id',
     schema: {
       params: IdParamSchema,
       response: CreateFilmInputSchema,
@@ -78,7 +78,7 @@ export const filmsContract = {
   }),
   export: createContract({
     method: 'GET',
-    url: 'export',
+    url: '/films/export',
     schema: {
       querystring: GetCompleteDataListQuerySchema,
       response: CompleteDataResponseSchema,
@@ -86,7 +86,7 @@ export const filmsContract = {
   }),
   getById: createContract({
     method: 'GET',
-    url: ':id',
+    url: '/films/:id',
     schema: {
       params: IdParamSchema,
       response: FilmResponseSchema,
@@ -94,7 +94,7 @@ export const filmsContract = {
   }),
   getTrailers: createContract({
     method: 'GET',
-    url: ':id/trailers',
+    url: '/films/:id/trailers',
     schema: {
       params: IdParamSchema,
       response: FilmTrailersResponseSchema,
@@ -102,7 +102,7 @@ export const filmsContract = {
   }),
   create: createContract({
     method: 'POST',
-    url: 'admin',
+    url: '/films/admin',
     schema: {
       body: CreateFilmInputSchema,
       response: FilmResponseSchema,
@@ -110,7 +110,7 @@ export const filmsContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: 'admin/:id',
+    url: '/films/admin/:id',
     schema: {
       body: UpdateFilmInputSchema,
       params: IdParamSchema,
@@ -119,7 +119,7 @@ export const filmsContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: 'admin/:id',
+    url: '/films/admin/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
@@ -127,7 +127,7 @@ export const filmsContract = {
   }),
   translateDescription: createContract({
     method: 'POST',
-    url: 'admin/translate',
+    url: '/films/admin/translate',
     schema: {
       body: TranslateDescriptionInputSchema,
       response: TranslateDescriptionResponseSchema,
@@ -135,7 +135,7 @@ export const filmsContract = {
   }),
   createDraft: createContract({
     method: 'POST',
-    url: 'admin/:filmId/draft',
+    url: '/films/admin/:filmId/draft',
     schema: {
       params: FilmDraftFilmIdParamsSchema,
       body: CreateFilmDraftInputSchema,
@@ -144,7 +144,7 @@ export const filmsContract = {
   }),
   updateDraft: createContract({
     method: 'PATCH',
-    url: 'admin/draft/:id',
+    url: '/films/admin/draft/:id',
     schema: {
       params: IdParamSchema,
       body: CreateFilmDraftInputSchema,
@@ -153,7 +153,7 @@ export const filmsContract = {
   }),
   getFilmDrafts: createContract({
     method: 'GET',
-    url: 'admin/:filmId/draft',
+    url: '/films/admin/:filmId/draft',
     schema: {
       params: FilmDraftFilmIdParamsSchema,
       response: z.array(FilmDraftInputResponse),
@@ -161,7 +161,7 @@ export const filmsContract = {
   }),
   deleteDraft: createContract({
     method: 'DELETE',
-    url: 'admin/draft/:id',
+    url: '/films/admin/draft/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
@@ -169,7 +169,7 @@ export const filmsContract = {
   }),
   getByCollection: createContract({
     method: 'GET',
-    url: 'collection/:id',
+    url: '/films/collection/:id',
     schema: {
       params: IdParamSchema,
       response: FilmsByCollectionResponseSchema,
@@ -177,7 +177,7 @@ export const filmsContract = {
   }),
   getAdminFilmById: createContract({
     method: 'GET',
-    url: 'admin/film/:id',
+    url: '/films/admin/film/:id',
     schema: {
       params: IdParamSchema,
       response: FilmResponseSchema,
@@ -185,7 +185,7 @@ export const filmsContract = {
   }),
   deleteAllFilmDrafts: createContract({
     method: 'DELETE',
-    url: 'admin/film/:filmId/drafts',
+    url: '/films/admin/film/:filmId/drafts',
     schema: {
       params: FilmDraftFilmIdParamsSchema,
       response: DeleteFilmDrafts,
@@ -193,7 +193,7 @@ export const filmsContract = {
   }),
   getFilmByCollectionName: createContract({
     method: 'GET',
-    url: 'collection',
+    url: '/films/collection',
     schema: {
       querystring: GetFilmByCollectionNameSchema,
       response: GetFilmByCollectionNameResponse,

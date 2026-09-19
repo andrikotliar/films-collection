@@ -16,7 +16,7 @@ import { createContract } from '../helpers/index.js';
 export const awardsContract = {
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/awards',
     schema: {
       querystring: CommonListQuerySchema,
       response: AwardsListResponseSchema,
@@ -24,7 +24,7 @@ export const awardsContract = {
   }),
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/awards',
     schema: {
       body: CreateAwardInputSchema,
       response: AwardResponseSchema,
@@ -32,7 +32,7 @@ export const awardsContract = {
   }),
   createNomination: createContract({
     method: 'POST',
-    url: ':id/nominations',
+    url: '/awards/:id/nominations',
     schema: {
       params: IdParamSchema,
       body: NominationInputSchema,
@@ -41,7 +41,7 @@ export const awardsContract = {
   }),
   getNominations: createContract({
     method: 'GET',
-    url: ':id/nominations',
+    url: '/awards/:id/nominations',
     schema: {
       params: NullableIdParamSchema,
       response: buildListOptionSchema(
@@ -54,7 +54,7 @@ export const awardsContract = {
   }),
   getById: createContract({
     method: 'GET',
-    url: ':id',
+    url: '/awards/:id',
     schema: {
       params: IdParamSchema,
       response: AwardWithNominationsResponseSchema,
@@ -62,7 +62,7 @@ export const awardsContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/awards/:id',
     schema: {
       params: IdParamSchema,
       body: CreateAwardInputSchema,
@@ -71,7 +71,7 @@ export const awardsContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/awards/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,

@@ -1,4 +1,4 @@
-import type { ApiContract, ContractDefinition, RouteSchema } from '@hobbies-collection/contracts';
+import type { ApiContract, RouteSchema } from '@hobbies-collection/contracts';
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import type z from 'zod';
 import type { ResponseStatus } from '~/shared/enums/response-code.js';
@@ -30,31 +30,28 @@ type ApiRouteHandler<S extends RouteSchema = { response: z.ZodType }> = (
   ctx: HandlerContext<S>,
 ) => Promise<HandlerReturn<S>>;
 
-export type Router = {
-  prefix: string;
-  routes: Array<{
-    method: string;
-    url: string;
-    schema: RouteSchema;
-    preHandler?: PreHandler[];
-    handler: ApiRouteHandler;
-  }>;
+export type Route = {
+  method: string;
+  url: string;
+  schema: RouteSchema;
+  preHandler?: PreHandler[];
+  handler: ApiRouteHandler;
 };
 
 export const createRouter = <
-  C extends ContractDefinition<string, Record<string, ApiContract<S>>>,
+  C extends Record<string, ApiContract<S>>,
   S extends RouteSchema = { response: z.ZodType },
 >(
   contract: C,
   routes: {
-    [K in keyof C['routes']]: {
+    [K in keyof C]: {
       preHandler?: PreHandler[];
-      handler: ApiRouteHandler<C['routes'][K]['schema']>;
+      handler: ApiRouteHandler<C[K]['schema']>;
     };
   },
-): Router => {
-  const mappedRoutes = Object.entries(contract.routes).map(([key, value]) => {
-    const routeConfig = routes[key as keyof C['routes']];
+): Route[] => {
+  const mappedRoutes = Object.entries(contract).map(([key, value]) => {
+    const routeConfig = routes[key as keyof C];
 
     return {
       method: value.method,
@@ -65,8 +62,5 @@ export const createRouter = <
     };
   });
 
-  return {
-    prefix: contract.prefix,
-    routes: mappedRoutes,
-  };
+  return mappedRoutes;
 };

@@ -10,14 +10,14 @@ import { createContract } from '../helpers/index.js';
 
 export const usersContracts = {
   getSessions: createContract({
-    url: 'sessions',
+    url: '/users/sessions',
     method: 'GET',
     schema: {
       response: z.array(UserSessionSchema),
     },
   }),
   terminateSession: createContract({
-    url: 'session/:id',
+    url: '/users/session/:id',
     method: 'DELETE',
     schema: {
       params: IdParamSchema,
@@ -25,7 +25,7 @@ export const usersContracts = {
     },
   }),
   updatePassword: createContract({
-    url: '/password',
+    url: '/users/password',
     method: 'PATCH',
     schema: {
       body: UpdateUserPasswordInputSchema,
@@ -33,7 +33,7 @@ export const usersContracts = {
     },
   }),
   updateTranslationPreferences: createContract({
-    url: '/translation',
+    url: '/users/translation',
     method: 'PATCH',
     schema: {
       body: UpdateUserTranslationPreferencesSchema,
@@ -41,7 +41,7 @@ export const usersContracts = {
     },
   }),
   getUser: createContract({
-    url: '',
+    url: '/users',
     method: 'GET',
     schema: {
       response: UserDataResponseSchema,

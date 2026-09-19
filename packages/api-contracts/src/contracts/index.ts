@@ -1,4 +1,3 @@
-import { createContractsGroup } from '../helpers/define-contracts.js';
 import { authContract } from './auth.contract.js';
 import { awardsContract } from './awards.contract.js';
 import { collectionEventsContract } from './collection-events.contract.js';
@@ -15,18 +14,18 @@ import { usersContracts } from './users.contract.js';
 import { hobbiesContract } from './hobbies.contract.js';
 
 export const contracts = {
-  auth: createContractsGroup('auth', authContract),
-  awards: createContractsGroup('awards', awardsContract),
-  collectionEvents: createContractsGroup('collection-events', collectionEventsContract),
-  collections: createContractsGroup('collections', collectionsContract),
-  countries: createContractsGroup('countries', countriesContract),
-  files: createContractsGroup('files', filesContract),
-  films: createContractsGroup('films', filmsContract),
-  genres: createContractsGroup('genres', genresContract),
-  initialData: createContractsGroup('initial-data', initialDataContract),
-  articles: createContractsGroup('articles', articlesContract),
-  people: createContractsGroup('people', peopleContract),
-  studios: createContractsGroup('studios', studiosContract),
-  users: createContractsGroup('users', usersContracts),
-  hobbies: createContractsGroup('hobbies', hobbiesContract),
+  auth: authContract,
+  awards: awardsContract,
+  collectionEvents: collectionEventsContract,
+  collections: collectionsContract,
+  countries: countriesContract,
+  files: filesContract,
+  films: filmsContract,
+  genres: genresContract,
+  initialData: initialDataContract,
+  articles: articlesContract,
+  people: peopleContract,
+  studios: studiosContract,
+  users: usersContracts,
+  hobbies: hobbiesContract,
 } as const;

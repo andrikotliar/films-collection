@@ -1,15 +1,4 @@
-import type { ApiContract, ContractDefinition, ContractSchema } from '../types/index.js';
-
-export const createContractsGroup = <
-  const TPrefix extends string,
-  const TRoutes extends Record<string, ApiContract<ContractSchema>>,
->(
-  prefix: TPrefix,
-  routes: TRoutes,
-): ContractDefinition<TPrefix, TRoutes> => ({
-  prefix,
-  routes,
-});
+import type { ApiContract, ContractSchema } from '../types/index.js';
 
 export const createContract = <T extends ContractSchema>(
   contract: ApiContract<T>,

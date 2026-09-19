@@ -10,7 +10,7 @@ import { createContract } from '../helpers/index.js';
 export const genresContract = {
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/genres',
     schema: {
       querystring: CommonListQuerySchema,
       response: GenresListResponseSchema,
@@ -18,7 +18,7 @@ export const genresContract = {
   }),
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/genres',
     schema: {
       body: GenreInputSchema,
       response: GenreResponseSchema,
@@ -26,7 +26,7 @@ export const genresContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/genres/:id',
     schema: {
       params: IdParamSchema,
       body: GenreInputSchema,
@@ -35,7 +35,7 @@ export const genresContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/genres/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,

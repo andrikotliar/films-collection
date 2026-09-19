@@ -10,7 +10,7 @@ import { createContract } from '../helpers/index.js';
 export const studiosContract = {
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/studios',
     schema: {
       querystring: CommonListQuerySchema,
       response: StudiosResponseSchema,
@@ -18,7 +18,7 @@ export const studiosContract = {
   }),
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/studios',
     schema: {
       body: StudioInputSchema,
       response: StudioResponseSchema,
@@ -26,7 +26,7 @@ export const studiosContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/studios/:id',
     schema: {
       params: IdParamSchema,
       body: StudioInputSchema,
@@ -35,7 +35,7 @@ export const studiosContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/studios/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,

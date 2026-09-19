@@ -16,7 +16,7 @@ type ExecOptions<S> = keyof BuildExecOptions<S> extends never ? undefined : Buil
 
 type ApiClient = {
   [K in keyof Contracts]: {
-    [MK in keyof Contracts[K]['routes']]: Contracts[K]['routes'][MK] extends {
+    [MK in keyof Contracts[K]]: Contracts[K][MK] extends {
       schema: infer S;
     }
       ? ExecOptions<S> extends undefined
@@ -28,27 +28,17 @@ type ApiClient = {
   };
 };
 
-const getUrl = (value: string) => {
-  if (!value.length || value.startsWith('/')) {
-    return value;
-  }
-
-  return `/${value}`;
-};
-
 export const createApiClient = (fetchOptions: FetchWrapperOptions) => {
   const client: Record<string, any> = {};
   const request = createFetchWrapper(fetchOptions);
 
   for (const [prefix, contract] of getTypedEntries(contracts)) {
     client[prefix] = {};
-    for (const [methodKey, methodContract] of Object.entries(contract.routes)) {
-      const apiPath = `/${contract.prefix}${getUrl(methodContract.url)}`;
-
+    for (const [methodKey, methodContract] of Object.entries(contract)) {
       client[prefix][methodKey] = (options: Record<string, unknown>) =>
         request<ApiContract<ContractSchema>['schema']['response']>(
           methodContract.method,
-          apiPath,
+          methodContract.url,
           options,
         );
     }

@@ -14,7 +14,7 @@ import { createContract } from '../helpers/index.js';
 export const peopleContract = {
   getList: createContract({
     method: 'GET',
-    url: '',
+    url: '/people',
     schema: {
       querystring: GetPeopleListQuerySchema,
       response: PeopleListResponseSchema,
@@ -22,7 +22,7 @@ export const peopleContract = {
   }),
   search: createContract({
     method: 'GET',
-    url: 'search',
+    url: '/people/search',
     schema: {
       querystring: SearchPersonSchema,
       response: buildListOptionSchema(z.number()),
@@ -30,7 +30,7 @@ export const peopleContract = {
   }),
   create: createContract({
     method: 'POST',
-    url: '',
+    url: '/people',
     schema: {
       body: CreatePersonSchema,
       response: PersonResponseSchema,
@@ -38,7 +38,7 @@ export const peopleContract = {
   }),
   update: createContract({
     method: 'PATCH',
-    url: ':id',
+    url: '/people/:id',
     schema: {
       params: IdParamSchema,
       body: UpdatePersonInputSchema,
@@ -47,7 +47,7 @@ export const peopleContract = {
   }),
   delete: createContract({
     method: 'DELETE',
-    url: ':id',
+    url: '/people/:id',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,

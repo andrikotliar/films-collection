@@ -78,7 +78,7 @@ export const services = {
   hashService: HashService,
 };
 
-export const routes = [
+export const routers = [
   articlesRouter,
   authRouter,
   awardsRouter,
