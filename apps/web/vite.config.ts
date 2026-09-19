@@ -24,6 +24,17 @@ export default defineConfig({
     ReactVite(),
     VitePWA({
       registerType: 'autoUpdate',
+      workbox: {
+        globPatterns: [
+          'assets/**/*',
+          'fonts/*',
+          'images/**/*',
+          'favicon.png',
+          'index.html',
+          'icons/**/*',
+          'placeholders/**/*',
+        ],
+      },
       manifest: {
         name: 'Films Collection',
         short_name: 'Films',
