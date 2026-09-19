@@ -9,7 +9,12 @@ import type { ApiResult } from '~/types.js';
 import { okResponse } from '~/helpers/ok-response.js';
 
 const DATA_FOLDER = path.join(import.meta.dirname, '../../apps/api/data');
+const COMMON_VALUES_FOLDER = path.join(DATA_FOLDER, 'common/values');
+const FILMS_VALUES_FOLDER = path.join(DATA_FOLDER, 'films/values');
+const FILMS_ITEMS_FOLDER = path.join(DATA_FOLDER, 'films/items');
 const NUMBER_REGEX = /^\d+$/;
+
+const commonData = ['collections', 'genres', 'people'];
 
 type QueryParams = {
   intervalDays: number;
@@ -53,7 +58,7 @@ const fetchData = async (
       const data = await response.text();
       return {
         ok: false,
-        error: JSON.stringify(data),
+        error: JSON.stringify({ status: response.status, data, statusText: response.statusText }),
       };
     }
 
@@ -77,6 +82,14 @@ const baseDataItems: BaseDataItems[] = [
   'people',
   'collections',
 ];
+
+const getDestinationFolder = (item: BaseDataItems) => {
+  if (commonData.includes(item)) {
+    return COMMON_VALUES_FOLDER;
+  }
+
+  return FILMS_VALUES_FOLDER;
+};
 
 const sanitizeFileName = (name: string) => {
   return name
@@ -134,7 +147,7 @@ const run = async () => {
 
   try {
     for (const baseDataItem of baseDataItems) {
-      const filePath = `${DATA_FOLDER}/${baseDataItem}.json`;
+      const filePath = `${getDestinationFolder(baseDataItem)}/${baseDataItem}.json`;
 
       const item = result.data.baseData[baseDataItem];
 
@@ -147,7 +160,7 @@ const run = async () => {
       process.exit(0);
     }
 
-    const filmsFolder = path.join(DATA_FOLDER, 'films');
+    const filmsFolder = path.join(FILMS_ITEMS_FOLDER);
 
     if (!existsSync(filmsFolder)) {
       await fs.mkdir(filmsFolder);
