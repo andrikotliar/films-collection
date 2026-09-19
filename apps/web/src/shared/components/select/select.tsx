@@ -6,7 +6,7 @@ import { PopupMenu } from '~/shared/components/popup-menu/popup-menu';
 import { FieldError } from '~/shared/components/field-error/field-error';
 import { CreateNewItemButton, NotFound, Option, SelectedOption, TriggerButton } from './components';
 import { getSelectValue } from './helpers';
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 
 export type SelectProps<T extends ListOption<any>> = {
   label?: string;

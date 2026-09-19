@@ -1,5 +1,5 @@
 {
-  "name": "@films-collection/eslint-config",
+  "name": "@hobbies-collection/eslint-config",
   "private": true,
   "main": "create-config.js",
   "type": "module",

@@ -1,6 +1,6 @@
 import { Logo, Form, CenteredBlock, api, type Input, LOGIN_BLOCK_KEY } from '~/shared';
 import { LogInIcon } from 'lucide-react';
-import { LoginSchema } from '@films-collection/shared';
+import { LoginSchema } from '@hobbies-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { useMutation } from '@tanstack/react-query';
 

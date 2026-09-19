@@ -2,7 +2,7 @@ import type {
   HobbyItemInput,
   HobbyItemUpdateInput,
   HobbyByIdQueries,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { eq, desc, type SQL, ilike, and, inArray } from 'drizzle-orm';
 import {
   hobbies,

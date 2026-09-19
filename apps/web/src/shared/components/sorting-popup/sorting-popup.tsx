@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
 import { Button, sortingDirectionOptions } from '~/shared';
 import styles from './sorting-popup.module.css';
-import type { ListOption, SortingOrder } from '@films-collection/shared';
+import type { ListOption, SortingOrder } from '@hobbies-collection/shared';
 import { getDefaultLabel } from '~/shared/components/sorting-popup/helpers';
 import { ArrowDownAZIcon, ArrowUpAZIcon } from 'lucide-react';
 import clsx from 'clsx';

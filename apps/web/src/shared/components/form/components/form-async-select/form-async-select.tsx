@@ -1,7 +1,7 @@
 import type { FormError, FormFieldProps } from '~/shared/types';
 import { Controller, useFormContext } from 'react-hook-form';
 import { AsyncSelect, type AsyncSelectProps } from '~/shared/components/async-select/async-select';
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 
 export const FormAsyncSelect = <T extends ListOption<any>>({
   name,

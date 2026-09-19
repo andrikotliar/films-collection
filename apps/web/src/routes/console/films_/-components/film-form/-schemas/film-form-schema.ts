@@ -1,4 +1,4 @@
-import { CreateFilmInputSchema } from '@films-collection/shared';
+import { CreateFilmInputSchema } from '@hobbies-collection/shared';
 import { z } from 'zod';
 import { FormIdParamSchema } from '~/shared';
 

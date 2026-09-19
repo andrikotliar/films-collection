@@ -6,7 +6,7 @@ import type {
   HobbyItemUpdateInput,
   HobbyByIdAdminResponse,
   HobbyByIdQueries,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import type { Hobby } from '~/database/schema.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';

@@ -2,7 +2,7 @@ import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
 import { getArticlesAdminListQueryOptions, api, queryKey } from '~/shared';
 import { List } from '~/routes/console/-shared';
-import { GetArticlesListQueriesSchema } from '@films-collection/shared';
+import { GetArticlesListQueriesSchema } from '@hobbies-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/articles')({

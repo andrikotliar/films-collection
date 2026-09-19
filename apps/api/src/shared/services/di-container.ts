@@ -1,4 +1,4 @@
-import { getTypedEntries } from '@films-collection/shared';
+import { getTypedEntries } from '@hobbies-collection/shared';
 
 type DependencyValue<K extends PropertyKey, TServicesMap extends Record<PropertyKey, any>> = {
   service: TServicesMap[K] | null;

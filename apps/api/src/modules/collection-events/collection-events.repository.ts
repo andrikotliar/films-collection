@@ -4,7 +4,7 @@ import {
   type CommonListQueryParams,
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { collectionEvents, films } from '~/database/schema.js';
 import { and, asc, between, eq, gt, gte, lte, or, sql, type SQL } from 'drizzle-orm';
 import type { Deps } from '~/shared/types/deps.js';

@@ -1,4 +1,4 @@
-import { UploadFileResponseSchema, UploadFilePayloadSchema } from '@films-collection/shared';
+import { UploadFileResponseSchema, UploadFilePayloadSchema } from '@hobbies-collection/shared';
 import { createContract } from '../helpers/index.js';
 
 export const filesContract = {

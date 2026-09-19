@@ -1,4 +1,4 @@
-import type { ApiContract, ContractDefinition, RouteSchema } from '@films-collection/contracts';
+import type { ApiContract, ContractDefinition, RouteSchema } from '@hobbies-collection/contracts';
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import type z from 'zod';
 import type { ResponseStatus } from '~/shared/enums/response-code.js';

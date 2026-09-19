@@ -5,7 +5,7 @@ import {
   type CreateAwardInput,
   type NominationInput,
   type UpdateAwardInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { and, asc, eq, inArray, type SQL } from 'drizzle-orm';
 import { awards, nominations, type Award } from '~/database/schema.js';
 import type { UpdateAwardParams } from '~/modules/awards/types.js';

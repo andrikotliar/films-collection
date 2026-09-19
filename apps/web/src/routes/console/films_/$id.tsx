@@ -13,7 +13,7 @@ import { FilmForm } from '~/routes/console/films_/-components';
 import type z from 'zod';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
-import { GetAdminListQuerySchema } from '@films-collection/shared';
+import { GetAdminListQuerySchema } from '@hobbies-collection/shared';
 
 export const Route = createFileRoute('/console/films_/$id')({
   validateSearch: (search) => GetAdminListQuerySchema.parse(search),

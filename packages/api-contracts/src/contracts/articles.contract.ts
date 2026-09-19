@@ -8,7 +8,7 @@ import {
   ArticlesListResponseSchema,
   ArticleBySlugResponseSchema,
   ArticleByIdResponseSchema,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { createContract } from '../helpers/index.js';
 
 export const articlesContract = {

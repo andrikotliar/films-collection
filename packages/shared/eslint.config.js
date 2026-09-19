@@ -1,4 +1,4 @@
-import createConfig from '@films-collection/eslint-config';
+import createConfig from '@hobbies-collection/eslint-config';
 
 export default createConfig({
   languageOptions: {

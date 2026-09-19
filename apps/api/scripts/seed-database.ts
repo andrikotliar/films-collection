@@ -1,7 +1,7 @@
 import path from 'node:path';
 import { styleText } from 'node:util';
 import fs from 'node:fs/promises';
-import type { CompleteDataResponse, CompleteDataListItem } from '@films-collection/shared';
+import type { CompleteDataResponse, CompleteDataListItem } from '@hobbies-collection/shared';
 import { database } from '~/plugins/database.plugin.js';
 import {
   awards,

@@ -34,7 +34,7 @@ const run = async () => {
   const passwordInput = process.argv[2];
 
   if (!passwordInput) {
-    logger.error('Usage: pnpm --filter @films-collection/scripts gen-pass <PASSWORD>');
+    logger.error('Usage: pnpm --filter @hobbies-collection/scripts gen-pass <PASSWORD>');
     process.exit(1);
   }
 

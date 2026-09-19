@@ -14,7 +14,7 @@ import {
   mutateEntity,
   queryKey,
 } from '~/shared';
-import { SANITIZE_CONFIG } from '@films-collection/shared';
+import { SANITIZE_CONFIG } from '@hobbies-collection/shared';
 import { ArticleFormSchema } from '~/routes/console/articles_/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { generateSlug } from '~/routes/console/articles_/-helpers';

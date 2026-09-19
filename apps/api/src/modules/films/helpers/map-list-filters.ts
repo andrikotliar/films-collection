@@ -5,7 +5,7 @@ import {
   type GetAdminListQueryParams,
   type GetFilmsListQuery,
   type TDraftLevel,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import {
   and,
   between,

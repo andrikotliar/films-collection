@@ -10,7 +10,7 @@ import {
   TvIcon,
   WalletIcon,
 } from 'lucide-react';
-import { getFormattedMoneyValue } from '@films-collection/shared';
+import { getFormattedMoneyValue } from '@hobbies-collection/shared';
 
 export type SummaryConfig = {
   id: string;

@@ -1,7 +1,7 @@
 import type {
   CollectionCurrentEventsListResponseSchema,
   FilmStatsResponse,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import type { z } from 'zod';
 import type { Film } from '~/database/schema.js';
 

@@ -1,4 +1,4 @@
-import { type CompleteDataResponse } from '@films-collection/shared';
+import { type CompleteDataResponse } from '@hobbies-collection/shared';
 import crypto from 'node:crypto';
 import path from 'node:path';
 import fs from 'node:fs/promises';

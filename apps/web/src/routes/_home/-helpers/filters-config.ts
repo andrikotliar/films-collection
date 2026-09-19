@@ -3,7 +3,7 @@ import {
   TitleType,
   type InitialDataResponse,
   type ListOption,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { z } from 'zod';
 import { api, generateYearsSelectOptions, queryKey, type FilterItem } from '~/shared';
 

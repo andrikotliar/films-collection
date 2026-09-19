@@ -1,4 +1,4 @@
-import { InitialDataResponseSchema } from '@films-collection/shared';
+import { InitialDataResponseSchema } from '@hobbies-collection/shared';
 import { createContract } from '../helpers/index.js';
 
 export const initialDataContract = {

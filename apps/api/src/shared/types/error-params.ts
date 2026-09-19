@@ -1,4 +1,4 @@
-import type { ErrorCode } from '@films-collection/shared';
+import type { ErrorCode } from '@hobbies-collection/shared';
 
 export type ErrorParams = {
   code?: ErrorCode;

@@ -1,4 +1,4 @@
-import { HobbyMutationSchema } from '@films-collection/shared';
+import { HobbyMutationSchema } from '@hobbies-collection/shared';
 import z from 'zod';
 import { FormIdParamSchema } from '~/shared';
 

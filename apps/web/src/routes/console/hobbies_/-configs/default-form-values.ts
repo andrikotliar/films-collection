@@ -1,4 +1,4 @@
-import { NEW_ITEM_ID } from '@films-collection/shared';
+import { NEW_ITEM_ID } from '@hobbies-collection/shared';
 import type { api, Input } from '~/shared';
 
 export const getDefaultHobbyItem = (): Input<typeof api.hobbies.createHobbyItem> & {

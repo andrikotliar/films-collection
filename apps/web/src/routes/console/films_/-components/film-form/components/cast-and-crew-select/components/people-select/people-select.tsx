@@ -1,4 +1,4 @@
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import { PlusIcon, TrashIcon } from 'lucide-react';
 import { useFieldArray, useFormContext } from 'react-hook-form';

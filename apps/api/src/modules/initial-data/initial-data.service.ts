@@ -1,4 +1,4 @@
-import { convertEnumValuesToOption, type InitialDataResponse } from '@films-collection/shared';
+import { convertEnumValuesToOption, type InitialDataResponse } from '@hobbies-collection/shared';
 import { collectionCategory, personRole, titleType } from '~/database/schema.js';
 import type { Deps } from '~/shared/types/deps.js';
 

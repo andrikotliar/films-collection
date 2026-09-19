@@ -1,4 +1,4 @@
-import type { LoginInput } from '@films-collection/shared';
+import type { LoginInput } from '@hobbies-collection/shared';
 import type { VerifiedTokenData } from '~/modules/auth/types.js';
 import type { Deps } from '~/shared/types/deps.js';
 import { getDeviceInfo } from '~/shared/helpers/get-device-info.js';

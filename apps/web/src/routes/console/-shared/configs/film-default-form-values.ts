@@ -1,5 +1,5 @@
 import type z from 'zod';
-import { NEW_ITEM_ID } from '@films-collection/shared';
+import { NEW_ITEM_ID } from '@hobbies-collection/shared';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { getTodayString } from '~/shared';
 

@@ -1,4 +1,4 @@
-import { getTypedEntries } from '@films-collection/shared';
+import { getTypedEntries } from '@hobbies-collection/shared';
 import type { z } from 'zod';
 import { contracts } from '../contracts/index.js';
 import { createFetchWrapper, type FetchWrapperOptions } from '../helpers/index.js';

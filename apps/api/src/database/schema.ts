@@ -3,7 +3,7 @@ import {
   type DeviceInfo,
   PersonRole,
   TitleType,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import {
   pgTable,
   index,

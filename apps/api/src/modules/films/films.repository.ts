@@ -8,7 +8,7 @@ import {
   type GetFilmOptionsQuery,
   type SortingOrder,
   type UpdateFilmInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers/index.js';
 import {
   and,

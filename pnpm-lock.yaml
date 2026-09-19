@@ -42,10 +42,10 @@ importers:
       '@fastify/one-line-logger':
         specifier: ^2.0.2
         version: 2.1.0
-      '@films-collection/contracts':
+      '@hobbies-collection/contracts':
         specifier: workspace:*
         version: link:../../packages/api-contracts
-      '@films-collection/shared':
+      '@hobbies-collection/shared':
         specifier: workspace:*
         version: link:../../packages/shared
       dotenv:
@@ -82,7 +82,7 @@ importers:
         specifier: 4.1.11
         version: 4.1.11
     devDependencies:
-      '@films-collection/eslint-config':
+      '@hobbies-collection/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
       '@types/node':
@@ -118,10 +118,10 @@ importers:
       '@dnd-kit/utilities':
         specifier: ^3.2.2
         version: 3.2.2(react@19.2.6)
-      '@films-collection/contracts':
+      '@hobbies-collection/contracts':
         specifier: workspace:^
         version: link:../../packages/api-contracts
-      '@films-collection/shared':
+      '@hobbies-collection/shared':
         specifier: workspace:^
         version: link:../../packages/shared
       '@hookform/resolvers':
@@ -167,7 +167,7 @@ importers:
         specifier: 4.1.11
         version: 4.1.11
     devDependencies:
-      '@films-collection/eslint-config':
+      '@hobbies-collection/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
       '@tanstack/react-query-devtools':
@@ -224,10 +224,10 @@ importers:
 
   packages/api-contracts:
     dependencies:
-      '@films-collection/eslint-config':
+      '@hobbies-collection/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@films-collection/shared':
+      '@hobbies-collection/shared':
         specifier: workspace:*
         version: link:../shared
       zod:
@@ -261,7 +261,7 @@ importers:
 
   packages/shared:
     dependencies:
-      '@films-collection/eslint-config':
+      '@hobbies-collection/eslint-config':
         specifier: workspace:^
         version: link:../eslint-config
       zod:
@@ -277,10 +277,10 @@ importers:
 
   scripts:
     dependencies:
-      '@films-collection/eslint-config':
+      '@hobbies-collection/eslint-config':
         specifier: workspace:^
         version: link:../packages/eslint-config
-      '@films-collection/shared':
+      '@hobbies-collection/shared':
         specifier: workspace:^
         version: link:../packages/shared
       clipboardy:

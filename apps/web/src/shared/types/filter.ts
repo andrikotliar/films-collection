@@ -1,4 +1,4 @@
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 import type { AsyncSelectProps } from '~/shared/components/async-select/async-select';
 
 type OnlyStringKey<T> = Extract<keyof T, string>;

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "noEmit": true,
     "paths": {
-      "@films-collection/shared": ["../shared/src/index.ts"]
+      "@hobbies-collection/shared": ["../shared/src/index.ts"]
     }
   }
 }

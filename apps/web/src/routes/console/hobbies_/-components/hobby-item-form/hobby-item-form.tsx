@@ -1,4 +1,4 @@
-import { CollectionCategory, type ListOption } from '@films-collection/shared';
+import { CollectionCategory, type ListOption } from '@hobbies-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useMatches, useParams } from '@tanstack/react-router';
 import type z from 'zod';

@@ -1,4 +1,4 @@
-import type { Enum, PersonRole } from '@films-collection/shared';
+import type { Enum, PersonRole } from '@hobbies-collection/shared';
 import styles from './role-title.module.css';
 import { personRoleToTitle } from '~/shared';
 

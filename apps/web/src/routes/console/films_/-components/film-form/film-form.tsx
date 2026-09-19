@@ -23,7 +23,7 @@ import {
   TrailersSelect,
 } from '~/routes/console/films_/-components/film-form/components';
 import { useState } from 'react';
-import type { FilmDraftResponse } from '@films-collection/shared';
+import type { FilmDraftResponse } from '@hobbies-collection/shared';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 import { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { validateLanguage, CollectionsSelect, DescriptionEditor } from '~/routes/console/-shared';

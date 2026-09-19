@@ -11,8 +11,8 @@
     "verbatimModuleSyntax": true,
     "paths": {
       "~/*": ["./src/*"],
-      "@films-collection/shared": ["../../packages/shared/src/index.ts"],
-      "@films-collection/contracts": ["../../packages/api-contracts/src/index.ts"]
+      "@hobbies-collection/shared": ["../../packages/shared/src/index.ts"],
+      "@hobbies-collection/contracts": ["../../packages/api-contracts/src/index.ts"]
     }
   },
   "include": ["src", "vite.config.ts", "scripts"],

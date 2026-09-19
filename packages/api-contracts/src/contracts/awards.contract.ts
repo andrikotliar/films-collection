@@ -9,7 +9,7 @@ import {
   NominationInputSchema,
   NominationResponseSchema,
   NullableIdParamSchema,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { z } from 'zod';
 import { createContract } from '../helpers/index.js';
 

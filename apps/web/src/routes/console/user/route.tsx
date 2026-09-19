@@ -1,7 +1,7 @@
 import {
   UpdateUserPasswordInputSchema,
   UpdateUserTranslationPreferencesSchema,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';

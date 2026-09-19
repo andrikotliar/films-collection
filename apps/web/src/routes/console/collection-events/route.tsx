@@ -12,7 +12,7 @@ import {
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { useCallback } from 'react';
-import { CommonListQuerySchema } from '@films-collection/shared';
+import { CommonListQuerySchema } from '@hobbies-collection/shared';
 
 const getCollectionEventDefaultValues = () => {
   const defaultDateCode = getDefaultDateCode();

@@ -3,7 +3,7 @@ import { useCallback, useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import type z from 'zod';
-import type { FilmDraftResponse } from '@films-collection/shared';
+import type { FilmDraftResponse } from '@hobbies-collection/shared';
 import { useParams } from '@tanstack/react-router';
 
 type FilmValuesWatcher = {

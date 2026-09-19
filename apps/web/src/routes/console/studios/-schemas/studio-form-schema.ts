@@ -1,4 +1,4 @@
-import { StudioInputSchema } from '@films-collection/shared';
+import { StudioInputSchema } from '@hobbies-collection/shared';
 import { FormIdParamSchema } from '~/shared';
 
 export const StudioFormSchema = StudioInputSchema.extend({

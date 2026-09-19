@@ -3,7 +3,7 @@ import {
   type CommonListQueryParams,
   type StudioInput,
   type StudiosListResponse,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 import type { Deps } from '~/shared/types/deps.js';
 

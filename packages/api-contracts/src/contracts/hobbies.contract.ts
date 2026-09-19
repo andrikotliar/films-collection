@@ -12,7 +12,7 @@ import {
   HobbyItemUpdateInputSchema,
   HobbyByIdAdminResponseSchema,
   HobbyByTitleParamsSchema,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { createContract } from '../helpers/define-contracts.js';
 
 export const hobbiesContract = {

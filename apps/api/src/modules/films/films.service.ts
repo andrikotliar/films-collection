@@ -14,7 +14,7 @@ import {
   enumValues,
   PAGE_LIMITS,
   type FilmStatsResponse,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
 import type { FilmCollection } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';

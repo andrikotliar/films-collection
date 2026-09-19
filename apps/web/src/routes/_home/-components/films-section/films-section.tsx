@@ -12,7 +12,7 @@ import {
   type SortingParams,
 } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
-import type { ListOption, SortingOrder } from '@films-collection/shared';
+import type { ListOption, SortingOrder } from '@hobbies-collection/shared';
 import { SearchIcon } from 'lucide-react';
 
 type SortingValues = {
