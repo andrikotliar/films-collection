@@ -1,7 +1,7 @@
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
 import { ResponseCode } from '~/shared/enums/response-code.js';
-import type { Router } from '~/shared/helpers/create-router.js';
+import type { Route } from '~/shared/helpers/create-router.js';
 
 const ErrorSchema = z.object({
   code: z.string().optional(),
@@ -17,7 +17,7 @@ const getRouteUrl = (value: string) => {
   return `/${value}`;
 };
 
-export const initRouters = (routes: Router['routes']) => {
+export const initRouters = (routes: Route[]) => {
   return async (app: FastifyInstance) => {
     for (const route of routes) {
       app.route({
