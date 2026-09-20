@@ -17,6 +17,7 @@ import {
   getObjectsDiff,
   isNewItem,
   queryKey,
+  titleToFileName,
   uploadImage,
   type FormComponentProps,
 } from '~/shared';
@@ -41,7 +42,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
       const imagePath = await uploadImage({
         image: data.imagePath,
         title: input.title,
-        folder: pageTitle ? String(pageTitle) : 'hobby_items',
+        folder: pageTitle ? titleToFileName(String(pageTitle)) : 'hobby_items',
       });
 
       const finalInput = {
