@@ -5,4 +5,5 @@ export type NavLink = {
   title: string;
   path: keyof FileRoutesByTo;
   icon?: React.ReactNode;
+  isActive?: boolean;
 };
