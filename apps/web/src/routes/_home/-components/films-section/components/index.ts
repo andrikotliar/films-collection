@@ -2,3 +2,4 @@ export * from './additional-info-section/additional-info-section';
 export * from './films-grid/films-grid';
 export * from './current-events/current-events';
 export * from './films-grid-skeleton/films-grid-skeleton';
+export * from './navigation/navigation';

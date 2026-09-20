@@ -1,10 +1,14 @@
 import styles from './films-section.module.css';
-import { AdditionalInfoSection, CurrentEvents, FilmsGrid, FilmsGridSkeleton } from './components';
+import {
+  AdditionalInfoSection,
+  CurrentEvents,
+  FilmsGrid,
+  FilmsGridSkeleton,
+  Navigation,
+} from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import {
   getFilmsListQueryOptions,
-  Logo,
-  PageTitle,
   Pagination,
   SortingPopup,
   TextInput,
@@ -119,10 +123,7 @@ export const FilmsSection = () => {
   return (
     <div className={styles.films_section}>
       <div className={styles.header}>
-        <div className={styles.title}>
-          <Logo className={styles.mobile_logo} />
-          <PageTitle>Films Collection</PageTitle>
-        </div>
+        <Navigation />
         <div className={styles.controls}>
           <TextInput
             icon={<SearchIcon />}

@@ -9,13 +9,13 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as StatsRouteRouteImport } from './routes/stats/route'
 import { Route as LoginRouteRouteImport } from './routes/login/route'
 import { Route as ConsoleRouteRouteImport } from './routes/console/route'
 import { Route as BooksRouteRouteImport } from './routes/books/route'
 import { Route as BoardGamesRouteRouteImport } from './routes/board-games/route'
 import { Route as AboutRouteRouteImport } from './routes/about/route'
 import { Route as HomeIndexRouteImport } from './routes/_home/index'
+import { Route as FilmsStatsRouteRouteImport } from './routes/films/stats/route'
 import { Route as ConsoleUserRouteRouteImport } from './routes/console/user/route'
 import { Route as ConsoleStudiosRouteRouteImport } from './routes/console/studios/route'
 import { Route as ConsoleSessionsRouteRouteImport } from './routes/console/sessions/route'
@@ -34,11 +34,6 @@ import { Route as ConsoleFilmsIdRouteImport } from './routes/console/films_/$id'
 import { Route as ConsoleAwardsIdRouteImport } from './routes/console/awards_/$id'
 import { Route as ConsoleArticlesIdRouteImport } from './routes/console/articles_/$id'
 
-const StatsRouteRoute = StatsRouteRouteImport.update({
-  id: '/stats',
-  path: '/stats',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const LoginRouteRoute = LoginRouteRouteImport.update({
   id: '/login',
   path: '/login',
@@ -67,6 +62,11 @@ const AboutRouteRoute = AboutRouteRouteImport.update({
 const HomeIndexRoute = HomeIndexRouteImport.update({
   id: '/_home/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FilmsStatsRouteRoute = FilmsStatsRouteRouteImport.update({
+  id: '/films/stats',
+  path: '/films/stats',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ConsoleUserRouteRoute = ConsoleUserRouteRouteImport.update({
@@ -162,7 +162,6 @@ export interface FileRoutesByFullPath {
   '/books': typeof BooksRouteRoute
   '/console': typeof ConsoleRouteRouteWithChildren
   '/login': typeof LoginRouteRoute
-  '/stats': typeof StatsRouteRoute
   '/console/articles': typeof ConsoleArticlesRouteRoute
   '/console/awards': typeof ConsoleAwardsRouteRoute
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
@@ -175,6 +174,7 @@ export interface FileRoutesByFullPath {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
+  '/films/stats': typeof FilmsStatsRouteRoute
   '/': typeof HomeIndexRoute
   '/console/articles/$id': typeof ConsoleArticlesIdRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -187,7 +187,6 @@ export interface FileRoutesByTo {
   '/board-games': typeof BoardGamesRouteRoute
   '/books': typeof BooksRouteRoute
   '/login': typeof LoginRouteRoute
-  '/stats': typeof StatsRouteRoute
   '/console/articles': typeof ConsoleArticlesRouteRoute
   '/console/awards': typeof ConsoleAwardsRouteRoute
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
@@ -200,6 +199,7 @@ export interface FileRoutesByTo {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
+  '/films/stats': typeof FilmsStatsRouteRoute
   '/': typeof HomeIndexRoute
   '/console/articles/$id': typeof ConsoleArticlesIdRoute
   '/console/awards/$id': typeof ConsoleAwardsIdRoute
@@ -214,7 +214,6 @@ export interface FileRoutesById {
   '/books': typeof BooksRouteRoute
   '/console': typeof ConsoleRouteRouteWithChildren
   '/login': typeof LoginRouteRoute
-  '/stats': typeof StatsRouteRoute
   '/console/articles': typeof ConsoleArticlesRouteRoute
   '/console/awards': typeof ConsoleAwardsRouteRoute
   '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
@@ -227,6 +226,7 @@ export interface FileRoutesById {
   '/console/sessions': typeof ConsoleSessionsRouteRoute
   '/console/studios': typeof ConsoleStudiosRouteRoute
   '/console/user': typeof ConsoleUserRouteRoute
+  '/films/stats': typeof FilmsStatsRouteRoute
   '/_home/': typeof HomeIndexRoute
   '/console/articles_/$id': typeof ConsoleArticlesIdRoute
   '/console/awards_/$id': typeof ConsoleAwardsIdRoute
@@ -242,7 +242,6 @@ export interface FileRouteTypes {
     | '/books'
     | '/console'
     | '/login'
-    | '/stats'
     | '/console/articles'
     | '/console/awards'
     | '/console/collection-events'
@@ -255,6 +254,7 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
+    | '/films/stats'
     | '/'
     | '/console/articles/$id'
     | '/console/awards/$id'
@@ -267,7 +267,6 @@ export interface FileRouteTypes {
     | '/board-games'
     | '/books'
     | '/login'
-    | '/stats'
     | '/console/articles'
     | '/console/awards'
     | '/console/collection-events'
@@ -280,6 +279,7 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
+    | '/films/stats'
     | '/'
     | '/console/articles/$id'
     | '/console/awards/$id'
@@ -293,7 +293,6 @@ export interface FileRouteTypes {
     | '/books'
     | '/console'
     | '/login'
-    | '/stats'
     | '/console/articles'
     | '/console/awards'
     | '/console/collection-events'
@@ -306,6 +305,7 @@ export interface FileRouteTypes {
     | '/console/sessions'
     | '/console/studios'
     | '/console/user'
+    | '/films/stats'
     | '/_home/'
     | '/console/articles_/$id'
     | '/console/awards_/$id'
@@ -320,19 +320,12 @@ export interface RootRouteChildren {
   BooksRouteRoute: typeof BooksRouteRoute
   ConsoleRouteRoute: typeof ConsoleRouteRouteWithChildren
   LoginRouteRoute: typeof LoginRouteRoute
-  StatsRouteRoute: typeof StatsRouteRoute
+  FilmsStatsRouteRoute: typeof FilmsStatsRouteRoute
   HomeIndexRoute: typeof HomeIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/stats': {
-      id: '/stats'
-      path: '/stats'
-      fullPath: '/stats'
-      preLoaderRoute: typeof StatsRouteRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/login': {
       id: '/login'
       path: '/login'
@@ -373,6 +366,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof HomeIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/films/stats': {
+      id: '/films/stats'
+      path: '/films/stats'
+      fullPath: '/films/stats'
+      preLoaderRoute: typeof FilmsStatsRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/console/user': {
@@ -547,7 +547,7 @@ const rootRouteChildren: RootRouteChildren = {
   BooksRouteRoute: BooksRouteRoute,
   ConsoleRouteRoute: ConsoleRouteRouteWithChildren,
   LoginRouteRoute: LoginRouteRoute,
-  StatsRouteRoute: StatsRouteRoute,
+  FilmsStatsRouteRoute: FilmsStatsRouteRoute,
   HomeIndexRoute: HomeIndexRoute,
 }
 export const routeTree = rootRouteImport

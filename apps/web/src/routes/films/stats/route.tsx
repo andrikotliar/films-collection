@@ -1,17 +1,18 @@
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { ChartsGrid } from '~/routes/stats/-components/charts-grid/charts-grid';
-import { StatsLayout } from '~/routes/stats/-components/stats-layout/stats-layout';
-import { getFilmsStatsQueryOptions, PageTitle } from '~/shared';
+import { Navigation } from '~/routes/_home/-components/films-section/components';
+import { ChartsGrid } from '~/routes/films/stats/-components/charts-grid/charts-grid';
+import { StatsLayout } from '~/routes/films/stats/-components/stats-layout/stats-layout';
+import { getFilmsStatsQueryOptions } from '~/shared';
 import { DonutChart } from '~/shared/components/donut-chart/donut-chart';
 
-export const Route = createFileRoute('/stats')({
+export const Route = createFileRoute('/films/stats')({
   component: RouteComponent,
   loader: async ({ context }) => {
     await context.queryClient.ensureQueryData(getFilmsStatsQueryOptions());
   },
   head: () => ({
-    meta: [{ title: 'Statistic - Films Collection' }],
+    meta: [{ title: 'Films Statistic - Films Collection' }],
   }),
 });
 
@@ -20,7 +21,7 @@ function RouteComponent() {
 
   return (
     <StatsLayout>
-      <PageTitle>Statistic</PageTitle>
+      <Navigation />
       <ChartsGrid>
         {data.stats.map((category) => (
           <DonutChart
