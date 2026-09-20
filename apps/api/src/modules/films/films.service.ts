@@ -111,7 +111,7 @@ export class FilmsService {
       additionalInfo,
       events,
       pageLimit: PAGE_LIMITS.filmsList,
-      anniversaryPoster: anniversary?.poster ?? null,
+      anniversaryImagePath: anniversary?.imagePath ?? null,
       allFilmsCount,
     };
   }

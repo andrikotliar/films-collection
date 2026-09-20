@@ -22,7 +22,7 @@ export const CreateFilmInputSchema = z.object({
   title: z.string().nonempty(),
   type: z.enum(TitleType),
   rating: z.coerce.number().min(1).max(3),
-  poster: z.string().optional().nullable(),
+  imagePath: z.string().optional().nullable(),
   genres: z.array(z.number()),
   studios: z.array(z.number()),
   countries: z.array(z.number()),
@@ -132,7 +132,7 @@ const TrailerSchema = z.object({
 export const FilmResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
-  poster: z.string().nullable(),
+  imagePath: z.string().nullable(),
   type: z.enum(TitleType),
   duration: z.coerce.number(),
   synopsis: z.string().nullable(),
@@ -178,7 +178,7 @@ export const FilmResponseSchema = z.object({
 
 export const FilmsListResponseSchema = getListResponseSchema(
   z.array(
-    FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true }).extend({
+    FilmResponseSchema.pick({ id: true, title: true, imagePath: true, releaseDate: true }).extend({
       upcoming: z.boolean(),
       inDays: z.number().nullable(),
       releasedYears: z.number().nullable(),
@@ -187,7 +187,7 @@ export const FilmsListResponseSchema = getListResponseSchema(
 ).extend({
   events: CollectionCurrentEventsListResponseSchema,
   allFilmsCount: z.number(),
-  anniversaryPoster: z.string().nullable(),
+  anniversaryImagePath: z.string().nullable(),
   additionalInfo: z
     .object({
       type: z.enum(['crew']),
@@ -216,12 +216,20 @@ export const FilmsListResponseSchema = getListResponseSchema(
 });
 
 export const FilmsSearchResponseSchema = z.array(
-  FilmResponseSchema.pick({ id: true, title: true, poster: true, releaseDate: true, genres: true }),
+  FilmResponseSchema.pick({
+    id: true,
+    title: true,
+    imagePath: true,
+    releaseDate: true,
+    genres: true,
+  }),
 );
 
 export const FilmsAdminListResponseSchema = z.object({
   list: z.array(
-    FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ draft: z.boolean() }),
+    FilmResponseSchema.pick({ id: true, title: true, imagePath: true }).extend({
+      draft: z.boolean(),
+    }),
   ),
   total: z.number(),
   pageLimit: z.number(),
@@ -250,7 +258,7 @@ export const CompleteDataListItemSchema = z.object({
     budget: true,
     boxOffice: true,
     synopsis: true,
-    poster: true,
+    imagePath: true,
   }).shape,
   genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),
   countries: z.array(CountryResponseSchema.pick({ title: true, id: true })),
@@ -351,7 +359,7 @@ export const FilmStatsResponseSchema = z.object({
 });
 
 export const FilmsByCollectionResponseSchema = z.array(
-  FilmResponseSchema.pick({ id: true, title: true, poster: true }).extend({ order: z.number() }),
+  FilmResponseSchema.pick({ id: true, title: true, imagePath: true }).extend({ order: z.number() }),
 );
 
 export const DeleteFilmDrafts = z.object({
@@ -363,7 +371,7 @@ export const GetFilmByCollectionNameSchema = z.object({ title: z.string() });
 export const GetFilmByCollectionNameResponse = FilmResponseSchema.pick({
   id: true,
   title: true,
-  poster: true,
+  imagePath: true,
 }).extend({ order: z.number() });
 
 export type GetFilmsListQuery = z.infer<typeof GetFilmsListQuerySchema>;

@@ -3,16 +3,16 @@ import styles from './hobby-title.module.css';
 
 type HobbyTitleProps = {
   children?: React.ReactNode;
-  imageUrl?: string | null;
+  imagePath?: string | null;
   total: number;
 };
 
-export const HobbyTitle = ({ children, imageUrl, total = 0 }: HobbyTitleProps) => {
+export const HobbyTitle = ({ children, imagePath, total = 0 }: HobbyTitleProps) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.row}>
         <div className={styles.image}>
-          <Image src={getExternalImageUrl(imageUrl)} />
+          <Image src={getExternalImageUrl(imagePath)} />
         </div>
         <div>
           <PageTitle>{children}</PageTitle>

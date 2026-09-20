@@ -38,7 +38,7 @@ export const CollectionCurrentEventsListResponseSchema = z.array(
       yearFrom: true,
       collectionId: true,
     }).shape,
-    poster: z.string().nullable(),
+    imagePath: z.string().nullable(),
   }),
 );
 

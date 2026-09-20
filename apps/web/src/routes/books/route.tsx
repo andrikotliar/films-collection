@@ -14,7 +14,7 @@ function RouteComponent() {
 
   return (
     <HobbyContainer>
-      <HobbyTitle imageUrl={data.imageUrl} total={data.items.length}>
+      <HobbyTitle imagePath={data.imagePath} total={data.items.length}>
         {data.title} Collection
       </HobbyTitle>
       <HobbyItemsGrid items={data.items} />

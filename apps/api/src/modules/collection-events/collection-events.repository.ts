@@ -28,7 +28,7 @@ export class CollectionEventsRepository {
         title: collectionEvents.title,
         yearFrom: collectionEvents.yearFrom,
         collectionId: collectionEvents.collectionId,
-        poster: films.poster,
+        imagePath: films.imagePath,
       })
       .from(collectionEvents)
       .innerJoin(films, eq(films.id, collectionEvents.titleFilmId))

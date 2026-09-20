@@ -16,7 +16,7 @@ export const EventBanner = ({ event, selectedEventId }: EventBannerProps) => {
   return (
     <EventPoster
       isSelected={isSelected}
-      posterPath={event.poster}
+      posterPath={event.imagePath}
       title={event.title}
       subTitle={subTitle}
       search={{ collectionId: event.collectionId }}

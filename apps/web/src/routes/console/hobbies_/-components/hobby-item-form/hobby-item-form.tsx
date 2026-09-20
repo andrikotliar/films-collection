@@ -38,15 +38,15 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
       const loaderData = currentRoute?.loaderData as Record<string, string | number>;
       const pageTitle = loaderData.title;
 
-      const imageUrl = await uploadImage({
-        image: data.imageUrl,
+      const imagePath = await uploadImage({
+        image: data.imagePath,
         title: input.title,
         folder: pageTitle ? String(pageTitle) : 'hobby_items',
       });
 
       const finalInput = {
         ...data,
-        imageUrl,
+        imagePath,
       };
 
       if (!isNewItem(hobbyItemId)) {
@@ -69,7 +69,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
       return await api.hobbies.createHobbyItem({
         input: {
           ...data,
-          imageUrl,
+          imagePath,
         },
         params: {
           id: +hobbyId,
@@ -115,7 +115,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
       <Form.TextInput name="title" label="Title" />
       <DescriptionEditor name="description" label="Description" />
       <Form.TextInput type="number" name="releaseYear" label="Release year" />
-      <Form.FileInput name="imageUrl" label="Image" />
+      <Form.FileInput name="imagePath" label="Image" />
       <CollectionsSelect
         options={collectionOptions}
         getCurrentCollection={getHobbyItemsByCollectionQueryOptions}

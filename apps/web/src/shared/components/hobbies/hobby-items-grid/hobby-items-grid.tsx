@@ -11,7 +11,7 @@ export const HobbyItemsGrid = ({ items }: HobbyItemsGridProps) => {
       {items.map((item) => (
         <div key={item.id} className={styles.item}>
           <div className={styles.image_wrapper}>
-            <Image src={getExternalImageUrl(item.imageUrl)} />
+            <Image src={getExternalImageUrl(item.imagePath)} />
           </div>
           <div className={styles.data}>
             <div className={styles.title}>{item.title}</div>

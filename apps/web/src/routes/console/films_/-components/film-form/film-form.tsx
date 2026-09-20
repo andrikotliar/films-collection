@@ -49,8 +49,8 @@ export const FilmForm = ({ values }: FilmFormProps) => {
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
       validateLanguage(data.synopsis, user);
 
-      const poster = await uploadImage({
-        image: data.poster,
+      const imagePath = await uploadImage({
+        image: data.imagePath,
         title: data.title,
         folder: 'posters',
       });
@@ -62,7 +62,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
       const input = {
         ...data,
-        poster,
+        imagePath,
         draft: isDraft,
       };
 
@@ -164,7 +164,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
           type="radio"
         />
         <Form.RatingInput name="rating" label="Rating" size={3} />
-        <Form.FileInput label="Poster" name="poster" />
+        <Form.FileInput label="Poster" name="imagePath" />
         <TrailersSelect />
         <SeriesExtension />
         <Form.Select

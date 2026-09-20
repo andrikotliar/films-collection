@@ -4,5 +4,5 @@ import { FormIdParamSchema } from '~/shared';
 
 export const HobbyItemFormSchema = HobbyItemInputSchema.extend({
   id: FormIdParamSchema,
-  imageUrl: z.union([z.string(), z.file()]).nullable().optional(),
+  imagePath: z.union([z.string(), z.file()]).nullable().optional(),
 });

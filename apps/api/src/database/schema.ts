@@ -34,7 +34,7 @@ export const films = pgTable(
     type: titleType().default('FILM').notNull(),
     releaseDate: date('release_date'),
     duration: integer().default(0).notNull(),
-    poster: text(),
+    imagePath: text('image_path'),
     budget: bigint({ mode: 'number' }).default(0).notNull(),
     boxOffice: bigint('box_office', { mode: 'number' }).default(0).notNull(),
     rating: integer().default(1).notNull(),
@@ -574,7 +574,7 @@ export const usersSessions = pgTable(
 export const hobbies = pgTable('hobbies', {
   id: serial().primaryKey().notNull(),
   title: text().notNull(),
-  imageUrl: text(),
+  imagePath: text('image_path'),
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
   updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
     .defaultNow()
@@ -590,7 +590,7 @@ export const hobbyItems = pgTable(
     description: text().notNull(),
     hobbyId: integer('hobby_id').notNull(),
     releaseYear: integer('release_year').notNull(),
-    imageUrl: text('image_url'),
+    imagePath: text('image_path'),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()

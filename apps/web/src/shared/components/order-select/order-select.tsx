@@ -10,7 +10,7 @@ import type { MixedId } from '~/shared/types';
 type ListItem = {
   id: number;
   order: number | null;
-  imageUrl: string | null;
+  imagePath: string | null;
 };
 
 export type OrderSelectProps = {
@@ -74,7 +74,7 @@ export const OrderSelect = ({
               ) : (
                 <div className={styles.item}>
                   <Image
-                    src={getExternalImageUrl(item.imageUrl)}
+                    src={getExternalImageUrl(item.imagePath)}
                     className={styles.poster_select_image}
                   />
                 </div>

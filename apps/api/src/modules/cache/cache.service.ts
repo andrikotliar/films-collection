@@ -13,7 +13,7 @@ type Store = {
   filmsCount: number;
   anniversary: {
     date: string | null;
-    film: Pick<Film, 'poster'> | null;
+    film: Pick<Film, 'imagePath'> | null;
   };
   statistic: FilmStatsResponse['stats'];
 };

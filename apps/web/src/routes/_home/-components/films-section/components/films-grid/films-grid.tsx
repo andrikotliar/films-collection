@@ -55,7 +55,7 @@ export const FilmsGrid = ({ films, isCollection }: FilmsGridProps) => {
           <div className={styles.cover}>
             {isCollection && <div className={styles.counter}>{index + 1}</div>}
             {film.upcoming && <div className={styles.upcoming}>Upcoming</div>}
-            <Image src={getExternalImageUrl(film.poster)} alt={film.title} />
+            <Image src={getExternalImageUrl(film.imagePath)} alt={film.title} />
             {film.upcoming && (
               <button className={styles.play_button} onClick={() => setSelectedFilmId(film.id)}>
                 <PlayIcon />

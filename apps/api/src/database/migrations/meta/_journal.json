@@ -232,6 +232,13 @@
       "when": 1789319238396,
       "tag": "0034_remove-style-column",
       "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1789919020073,
+      "tag": "0035_rename-image-columns-to-image-path",
+      "breakpoints": true
     }
   ]
 }

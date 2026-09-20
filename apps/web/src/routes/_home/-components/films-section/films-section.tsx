@@ -147,7 +147,7 @@ export const FilmsSection = () => {
           <CurrentEvents
             events={data.events}
             total={data.allFilmsCount}
-            anniversaryPoster={data.anniversaryPoster}
+            anniversaryPoster={data.anniversaryImagePath}
           />
           <AdditionalInfoSection info={data.additionalInfo} />
         </>

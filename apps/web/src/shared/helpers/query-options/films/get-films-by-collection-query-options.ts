@@ -11,12 +11,7 @@ export const getFilmsByCollectionQueryOptions = (collectionId: MixedId) => {
         return;
       }
 
-      const films = await api.films.getByCollection({ params: { id: collectionId } });
-
-      return films.map((film) => ({
-        ...film,
-        imageUrl: film.poster,
-      }));
+      return await api.films.getByCollection({ params: { id: collectionId } });
     },
     enabled: !!collectionId && !isNewItem(collectionId),
   });

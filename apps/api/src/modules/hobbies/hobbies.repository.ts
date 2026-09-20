@@ -19,7 +19,7 @@ export class HobbiesRepository {
 
   list() {
     return this.deps.db
-      .select({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl })
+      .select({ id: hobbies.id, title: hobbies.title, imagePath: hobbies.imagePath })
       .from(hobbies)
       .orderBy(desc(hobbies.updatedAt));
   }
@@ -67,7 +67,7 @@ export class HobbiesRepository {
       columns: {
         title: true,
         id: true,
-        imageUrl: true,
+        imagePath: true,
       },
       with: {
         items: {
@@ -76,7 +76,7 @@ export class HobbiesRepository {
             title: true,
             description: true,
             releaseYear: true,
-            imageUrl: true,
+            imagePath: true,
           },
           with: {
             authors: {
@@ -101,7 +101,7 @@ export class HobbiesRepository {
     return this.deps.db
       .insert(hobbies)
       .values(input)
-      .returning({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl });
+      .returning({ id: hobbies.id, title: hobbies.title, imagePath: hobbies.imagePath });
   }
 
   update(id: number, input: Partial<Hobby>) {
@@ -109,7 +109,7 @@ export class HobbiesRepository {
       .update(hobbies)
       .set(input)
       .where(eq(hobbies.id, id))
-      .returning({ id: hobbies.id, title: hobbies.title, imageUrl: hobbies.imageUrl });
+      .returning({ id: hobbies.id, title: hobbies.title, imagePath: hobbies.imagePath });
   }
 
   async delete(id: number) {
@@ -195,7 +195,7 @@ export class HobbiesRepository {
           columns: {
             id: true,
             title: true,
-            imageUrl: true,
+            imagePath: true,
           },
         },
       },
@@ -208,7 +208,7 @@ export class HobbiesRepository {
       columns: {
         id: true,
         title: true,
-        imageUrl: true,
+        imagePath: true,
       },
       with: {
         items: {
