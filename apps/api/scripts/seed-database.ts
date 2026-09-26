@@ -200,6 +200,6 @@ const run = async () => {
 };
 
 run().catch((error) => {
-  console.log(error);
+  logger.error(error);
   process.exit(1);
 });
