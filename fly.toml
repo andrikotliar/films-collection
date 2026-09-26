@@ -1,4 +1,4 @@
-app = 'hobbies-collection-app'
+app = 'films-collection-app'
 primary_region = 'fra'
 
 [build]
