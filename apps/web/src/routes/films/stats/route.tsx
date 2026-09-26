@@ -1,11 +1,11 @@
-// import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { Navigation } from '~/routes/_home/-components/films-section/components';
 import { ChartsGrid } from '~/routes/films/stats/-components/charts-grid/charts-grid';
 import { StatsLayout } from '~/routes/films/stats/-components/stats-layout/stats-layout';
 import { getFilmsStatsQueryOptions } from '~/shared';
-import { Chart } from '@tanstack/charts/react/tooltip';
-import { getChartsConfig } from '~/routes/films/stats/-configs/charts-config';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { DonutChart } from '~/shared/components/donut-chart/donut-chart';
+import { useMemo } from 'react';
 
 export const Route = createFileRoute('/films/stats')({
   component: RouteComponent,
@@ -17,16 +17,28 @@ export const Route = createFileRoute('/films/stats')({
   }),
 });
 
-const { countries } = getChartsConfig();
-
 function RouteComponent() {
-  // const { data } = useSuspenseQuery(getFilmsStatsQueryOptions());
+  const { data } = useSuspenseQuery(getFilmsStatsQueryOptions());
+
+  const charts = useMemo(() => {
+    return Object.keys(data.stats).map((key) => ({
+      block: key,
+      stats: data.stats[key as keyof typeof data.stats],
+    }));
+  }, [data]);
 
   return (
     <StatsLayout>
       <Navigation />
       <ChartsGrid>
-        <Chart definition={countries} height={480} ariaLabel="Test" />
+        {charts.map((category) => (
+          <DonutChart
+            data={category.stats}
+            title={category.block}
+            total={data.filmsTotal}
+            key={category.block}
+          />
+        ))}
       </ChartsGrid>
     </StatsLayout>
   );

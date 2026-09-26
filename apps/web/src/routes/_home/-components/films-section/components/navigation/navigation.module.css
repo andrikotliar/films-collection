@@ -16,6 +16,7 @@
   padding: 5px 10px;
   border-radius: 3px;
   transition: background-color 300ms;
+  text-align: center;
 }
 
 .link:not(.link_active):hover {
@@ -25,4 +26,14 @@
 .link_active {
   background-color: var(--color-blue-primary);
   color: var(--color-white);
+}
+
+@media (width <= 380px) {
+  .wrapper {
+    width: 100%;
+  }
+  .link {
+    flex-grow: 1;
+    font-size: var(--text-xs);
+  }
 }

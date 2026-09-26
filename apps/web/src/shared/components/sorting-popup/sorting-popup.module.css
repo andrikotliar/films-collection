@@ -54,3 +54,9 @@
   cursor: default;
   pointer-events: none;
 }
+
+@media (width <= 380px) {
+  .button_content {
+    display: none;
+  }
+}

@@ -8,16 +8,18 @@ import {
 } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import {
+  countObjectKeys,
   getFilmsListQueryOptions,
   Pagination,
   SortingPopup,
   TextInput,
   useDebouncedSearch,
+  useSidebarVisibility,
   type SortingParams,
 } from '~/shared';
 import { useQuery } from '@tanstack/react-query';
 import type { ListOption, SortingOrder } from '@hobbies-collection/shared';
-import { SearchIcon } from 'lucide-react';
+import { FilterIcon, SearchIcon } from 'lucide-react';
 
 type SortingValues = {
   order: SortingOrder;
@@ -58,6 +60,7 @@ export const FilmsSection = () => {
   const searchParams = routeApi.useSearch({ select: ({ filmId: _, ...params }) => params });
   const navigate = routeApi.useNavigate();
   const { data, isFetching } = useQuery(getFilmsListQueryOptions(searchParams));
+  const { toggleFilter } = useSidebarVisibility('/');
 
   const handleSearch = useDebouncedSearch((value) => {
     if (!value.length) {
@@ -120,6 +123,8 @@ export const FilmsSection = () => {
 
   const sortingValues = getSortingValues();
 
+  const countFilter = countObjectKeys(searchParams, ['pageIndex', 'order', 'orderKey']);
+
   return (
     <div className={styles.films_section}>
       <div className={styles.header}>
@@ -140,6 +145,10 @@ export const FilmsSection = () => {
             isDisabled={searchParams.collectionId !== undefined}
             buttonWrapperClassName={styles.sorting}
           />
+          <button className={styles.mobile_filter} onClick={toggleFilter}>
+            <FilterIcon />
+            <div className={styles.mobile_filter_count}>{countFilter}</div>
+          </button>
         </div>
       </div>
       {data && (
