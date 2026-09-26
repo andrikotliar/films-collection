@@ -15,7 +15,7 @@ type Store = {
     date: string | null;
     film: Pick<Film, 'imagePath'> | null;
   };
-  statistic: FilmStatsResponse['stats'];
+  statistic: FilmStatsResponse['stats'] | null;
 };
 
 export class InMemoryCacheService {

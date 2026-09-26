@@ -48,7 +48,7 @@ export class FilmsService {
   ) {
     deps.inMemoryCacheService.setDefaultValue('filmsCount', 0);
     deps.inMemoryCacheService.setDefaultValue('anniversary', { film: null, date: null });
-    deps.inMemoryCacheService.setDefaultValue('statistic', []);
+    deps.inMemoryCacheService.setDefaultValue('statistic', null);
   }
 
   private getAllFilmsCount() {
@@ -348,16 +348,22 @@ export class FilmsService {
     const cachedValue = this.deps.inMemoryCacheService.get('statistic');
     const filmsTotal = await this.getAllFilmsCount();
 
-    if (cachedValue.length) {
+    if (cachedValue) {
       return { stats: cachedValue, filmsTotal };
     }
 
-    const result: FilmStatsResponse['stats'] = [];
+    const result: FilmStatsResponse['stats'] = {
+      types: [],
+      countries: [],
+      collections: [],
+      studios: [],
+      genres: [],
+    };
 
     for await (const block of statBlocks) {
       const stats = await this.aggregate(block);
 
-      result.push({ block, stats });
+      result[block] = stats;
     }
 
     this.deps.inMemoryCacheService.set('statistic', result);
