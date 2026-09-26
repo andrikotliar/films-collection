@@ -1,15 +1,15 @@
 {
-  "name": "films-collection",
+  "name": "hobbies-collection",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "pnpm run build:packages && pnpm run build:apps",
     "build:apps": "pnpm -r --filter \"./apps/*\" run build",
     "build:packages": "pnpm -r --filter \"./packages/*\" run build",
-    "build:api": "pnpm run build:packages && pnpm --filter @films-collection/api build",
+    "build:api": "pnpm run build:packages && pnpm --filter @hobbies-collection/api build",
     "db:start": "docker compose up database -d",
-    "db:init": "pnpm --filter @films-collection/api run db:push && pnpm --filter @films-collection/api run db:seed",
-    "db:init:empty": "pnpm --filter @films-collection/api run db:push",
+    "db:init": "pnpm --filter @hobbies-collection/api run db:push && pnpm --filter @hobbies-collection/api run db:seed",
+    "db:init:empty": "pnpm --filter @hobbies-collection/api run db:push",
     "dev": "pnpm run -r --parallel --aggregate-output dev"
   },
   "devDependencies": {

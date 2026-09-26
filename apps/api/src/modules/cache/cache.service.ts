@@ -1,7 +1,7 @@
 import type {
   CollectionCurrentEventsListResponseSchema,
   FilmStatsResponse,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import type { z } from 'zod';
 import type { Film } from '~/database/schema.js';
 
@@ -13,9 +13,9 @@ type Store = {
   filmsCount: number;
   anniversary: {
     date: string | null;
-    film: Pick<Film, 'poster'> | null;
+    film: Pick<Film, 'imagePath'> | null;
   };
-  statistic: FilmStatsResponse['stats'];
+  statistic: FilmStatsResponse['stats'] | null;
 };
 
 export class InMemoryCacheService {

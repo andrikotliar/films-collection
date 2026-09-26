@@ -1,4 +1,4 @@
-import type { FilmDraftResponse } from '@films-collection/shared';
+import type { FilmDraftResponse } from '@hobbies-collection/shared';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useParams } from '@tanstack/react-router';
 import { useState } from 'react';

@@ -1,7 +1,7 @@
 import type { FormError, FormFieldProps } from '~/shared/types';
 import { Controller, useFormContext } from 'react-hook-form';
 import { Select, type SelectProps } from '~/shared/components/select/select';
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 
 export const FormSelect = <T extends ListOption<any>>({
   name,

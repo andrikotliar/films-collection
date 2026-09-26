@@ -3,7 +3,7 @@ import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GenresForm } from '~/routes/console/genres/-components';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
-import { CommonListQuerySchema } from '@films-collection/shared';
+import { CommonListQuerySchema } from '@hobbies-collection/shared';
 import { useCallback } from 'react';
 
 export const Route = createFileRoute('/console/genres')({

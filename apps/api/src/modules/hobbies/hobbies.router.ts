@@ -1,4 +1,4 @@
-import { contracts } from '@films-collection/contracts';
+import { contracts } from '@hobbies-collection/contracts';
 import { createRouter } from '~/shared/helpers/create-router.js';
 import { validateAuth } from '~/shared/pre-handlers/validate-auth.js';
 
@@ -88,6 +88,13 @@ export const hobbiesRouter = createRouter(contracts.hobbies, {
     preHandler: [validateAuth],
     handler: async ({ request, app }) => {
       const data = await app.resolve('hobbiesService').getAdminHobby(request.params.id);
+
+      return { data };
+    },
+  },
+  getHobbyByTitle: {
+    handler: async ({ request, app }) => {
+      const data = await app.resolve('hobbiesService').getHobbyByTitle(request.params.title);
 
       return { data };
     },

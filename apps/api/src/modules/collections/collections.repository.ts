@@ -5,7 +5,7 @@ import {
   type CollectionListQueryParams,
   type CreateCollectionInput,
   type UpdateCollectionInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { and, asc, count, eq, ne, inArray, type SQL, exists } from 'drizzle-orm';
 import {
   collections,

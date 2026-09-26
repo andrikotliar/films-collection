@@ -1,4 +1,4 @@
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 
 export const getDefaultLabel = (fields: ListOption<string>[], selectedSortingField?: string) => {
   if (!selectedSortingField) {

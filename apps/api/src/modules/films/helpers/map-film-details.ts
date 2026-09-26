@@ -1,4 +1,4 @@
-import type { FilmResponseSchema } from '@films-collection/shared';
+import type { FilmResponseSchema } from '@hobbies-collection/shared';
 import type z from 'zod';
 import type {
   Award,

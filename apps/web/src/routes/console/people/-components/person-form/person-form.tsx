@@ -8,7 +8,7 @@ import {
 } from '~/shared';
 import { getFormTitle } from '~/routes/console/-shared/helpers';
 import type z from 'zod';
-import { CreatePersonSchema } from '@films-collection/shared';
+import { CreatePersonSchema } from '@hobbies-collection/shared';
 import { useFormModal } from '~/routes/console/-shared/context';
 import { useMutation } from '@tanstack/react-query';
 

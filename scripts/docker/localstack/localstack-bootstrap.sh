@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-BUCKET=films-collection-assets
+BUCKET=hobbies-collection-assets
 POSTERS_DIR=/posters
 
 echo "Creating bucket..."

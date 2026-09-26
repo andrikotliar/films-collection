@@ -6,7 +6,7 @@ import {
   type PeopleListResponse,
   type SearchPersonQuery,
   type UpdatePersonInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import type { Deps } from '~/shared/types/deps.js';
 

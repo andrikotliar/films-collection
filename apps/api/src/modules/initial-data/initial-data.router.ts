@@ -1,4 +1,4 @@
-import { contracts } from '@films-collection/contracts';
+import { contracts } from '@hobbies-collection/contracts';
 import { createRouter } from '~/shared/helpers/create-router.js';
 
 export const initialDataRouter = createRouter(contracts.initialData, {

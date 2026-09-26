@@ -11,19 +11,20 @@ import {
   HobbyItemsByCollectionIdResponseSchema,
   HobbyItemUpdateInputSchema,
   HobbyByIdAdminResponseSchema,
-} from '@films-collection/shared';
+  HobbyByTitleParamsSchema,
+} from '@hobbies-collection/shared';
 import { createContract } from '../helpers/define-contracts.js';
 
 export const hobbiesContract = {
   getHobbiesList: createContract({
-    url: '',
+    url: '/hobbies',
     method: 'GET',
     schema: {
       response: HobbiesListResponseSchema,
     },
   }),
   getHobby: createContract({
-    url: ':id',
+    url: '/hobbies/:id',
     method: 'GET',
     schema: {
       params: IdParamSchema,
@@ -32,7 +33,7 @@ export const hobbiesContract = {
     },
   }),
   createHobby: createContract({
-    url: '',
+    url: '/hobbies',
     method: 'POST',
     schema: {
       body: HobbyMutationSchema,
@@ -40,7 +41,7 @@ export const hobbiesContract = {
     },
   }),
   updateHobby: createContract({
-    url: ':id',
+    url: '/hobbies/:id',
     method: 'PATCH',
     schema: {
       params: IdParamSchema,
@@ -49,7 +50,7 @@ export const hobbiesContract = {
     },
   }),
   deleteHobby: createContract({
-    url: ':id',
+    url: '/hobbies/:id',
     method: 'DELETE',
     schema: {
       params: IdParamSchema,
@@ -57,7 +58,7 @@ export const hobbiesContract = {
     },
   }),
   deleteHobbyItem: createContract({
-    url: ':id/item/:itemId',
+    url: '/hobbies/:id/item/:itemId',
     method: 'DELETE',
     schema: {
       params: HobbyItemParamsSchema,
@@ -65,7 +66,7 @@ export const hobbiesContract = {
     },
   }),
   createHobbyItem: createContract({
-    url: ':id/item',
+    url: '/hobbies/:id/item',
     method: 'POST',
     schema: {
       params: IdParamSchema,
@@ -74,7 +75,7 @@ export const hobbiesContract = {
     },
   }),
   getHobbiesByCollection: createContract({
-    url: 'collection/:id',
+    url: '/hobbies/collection/:id',
     method: 'GET',
     schema: {
       params: IdParamSchema,
@@ -82,7 +83,7 @@ export const hobbiesContract = {
     },
   }),
   updateHobbyItem: createContract({
-    url: ':id/item:/:itemId',
+    url: '/hobbies/:id/item:/:itemId',
     method: 'PATCH',
     schema: {
       params: HobbyItemParamsSchema,
@@ -91,12 +92,20 @@ export const hobbiesContract = {
     },
   }),
   getHobbyAdmin: createContract({
-    url: ':id/admin',
+    url: '/hobbies/:id/admin',
     method: 'GET',
     schema: {
       params: IdParamSchema,
       querystring: HobbyByIdQueriesSchema,
       response: HobbyByIdAdminResponseSchema,
+    },
+  }),
+  getHobbyByTitle: createContract({
+    url: '/hobbies//title/:title',
+    method: 'GET',
+    schema: {
+      params: HobbyByTitleParamsSchema,
+      response: HobbyByIdResponseSchema,
     },
   }),
 };

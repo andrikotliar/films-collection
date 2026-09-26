@@ -61,7 +61,7 @@ export const VideoInput = ({
     <div className={styles.wrapper}>
       {label && <FieldLabel>{label}</FieldLabel>}
       <div className={styles.container}>
-        <VideoPreview imageUrl={videoData.preview} videoUrl={videoData.value} />
+        <VideoPreview imagePath={videoData.preview} videoUrl={videoData.value} />
         <div className={styles.tools}>
           <TextInput
             ref={ref}

@@ -1,5 +1,5 @@
 {
-  "name": "@films-collection/contracts",
+  "name": "@hobbies-collection/contracts",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,8 @@
     }
   },
   "dependencies": {
-    "@films-collection/eslint-config": "workspace:*",
-    "@films-collection/shared": "workspace:*",
+    "@hobbies-collection/eslint-config": "workspace:*",
+    "@hobbies-collection/shared": "workspace:*",
     "zod": "4.1.11"
   },
   "devDependencies": {

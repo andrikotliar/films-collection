@@ -4,7 +4,7 @@ import {
   enumValues,
   type Enum,
   type ListOption,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { ItemOrderSelect, type DataParams, type ItemOrderSelectProps } from './components';

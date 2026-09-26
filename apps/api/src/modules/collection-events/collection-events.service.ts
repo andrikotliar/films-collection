@@ -4,7 +4,7 @@ import {
   type CommonListQueryParams,
   type CreateCollectionEventInput,
   type UpdateCollectionEventInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class CollectionEventsService {

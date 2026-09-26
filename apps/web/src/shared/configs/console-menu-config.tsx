@@ -15,7 +15,7 @@ import {
   UserIcon,
   VideotapeIcon,
 } from 'lucide-react';
-import { DraftLevel } from '@films-collection/shared';
+import { DraftLevel } from '@hobbies-collection/shared';
 
 export const consoleMenuConfig: Record<string, MenuConfigItem> = {
   films: {

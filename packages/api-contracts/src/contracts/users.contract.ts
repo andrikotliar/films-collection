@@ -1,47 +1,38 @@
 import {
   IdParamSchema,
-  UpdateUserPasswordInputSchema,
-  UpdateUserTranslationPreferencesSchema,
+  UpdateUserSchema,
   UserDataResponseSchema,
   UserSessionSchema,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { z } from 'zod';
 import { createContract } from '../helpers/index.js';
 
 export const usersContracts = {
   getSessions: createContract({
-    url: 'sessions',
+    url: '/users/sessions',
     method: 'GET',
     schema: {
       response: z.array(UserSessionSchema),
     },
   }),
   terminateSession: createContract({
-    url: 'session/:id',
+    url: '/users/session/:id',
     method: 'DELETE',
     schema: {
       params: IdParamSchema,
       response: IdParamSchema,
     },
   }),
-  updatePassword: createContract({
-    url: '/password',
+  update: createContract({
+    url: '/users/me',
     method: 'PATCH',
     schema: {
-      body: UpdateUserPasswordInputSchema,
-      response: IdParamSchema,
-    },
-  }),
-  updateTranslationPreferences: createContract({
-    url: '/translation',
-    method: 'PATCH',
-    schema: {
-      body: UpdateUserTranslationPreferencesSchema,
+      body: UpdateUserSchema,
       response: IdParamSchema,
     },
   }),
   getUser: createContract({
-    url: '',
+    url: '/users/me',
     method: 'GET',
     schema: {
       response: UserDataResponseSchema,

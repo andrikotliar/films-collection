@@ -4,7 +4,7 @@ import {
   type CreateArticleInput,
   type ArticlesListQueries,
   type UpdateArticleInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { articles } from '~/database/schema.js';
 import { count, desc, eq } from 'drizzle-orm';
 import type { Deps } from '~/shared/types/deps.js';

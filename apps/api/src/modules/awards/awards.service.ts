@@ -6,7 +6,7 @@ import {
   type CommonListQueryParams,
   type CreateAwardInput,
   type NominationInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 

@@ -1,4 +1,4 @@
-import type { CreateFilmInput, Enum, PersonRole } from '@films-collection/shared';
+import type { CreateFilmInput, Enum, PersonRole } from '@hobbies-collection/shared';
 import type {
   Film,
   FilmAwardNomination,

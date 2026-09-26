@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 import { SummaryBlock } from '../summary-section/components';
 import { FilmPageLayout } from '../film-page-layout/film-page-layout';
-import { PersonRole } from '@films-collection/shared';
+import { PersonRole } from '@hobbies-collection/shared';
 import { RoleTitle } from '../cast-and-crew/components';
 
 const skeletonSummaryConfig: SummaryConfig[] = [

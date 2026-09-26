@@ -3,7 +3,7 @@ import {
   type CommonListQueryParams,
   type CountriesListResponse,
   type CountryInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { buildListOptions } from '~/shared/helpers/build-list-options.js';
 import { throwIfNotFound } from '~/shared/helpers/throw-if-not-found.js';
 import type { Deps } from '~/shared/types/deps.js';

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "paths": {
       "~/*": ["./src/*"],
-      "@films-collection/shared": ["../packages/shared/src/index.ts"]
+      "@hobbies-collection/shared": ["../packages/shared/src/index.ts"]
     },
     "declaration": true,
     "declarationMap": true,

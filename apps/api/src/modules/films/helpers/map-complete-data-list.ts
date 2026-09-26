@@ -1,4 +1,8 @@
-import { CollectionCategory, type CompleteDataListItem, type Enum } from '@films-collection/shared';
+import {
+  CollectionCategory,
+  type CompleteDataListItem,
+  type Enum,
+} from '@hobbies-collection/shared';
 import type {
   Collection,
   Film,

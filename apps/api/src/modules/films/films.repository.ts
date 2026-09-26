@@ -8,7 +8,7 @@ import {
   type GetFilmOptionsQuery,
   type SortingOrder,
   type UpdateFilmInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { mapListFilters, type PlainFilmFilters } from '~/modules/films/helpers/index.js';
 import {
   and,
@@ -128,7 +128,7 @@ export class FilmsRepository {
       columns: {
         id: true,
         title: true,
-        poster: true,
+        imagePath: true,
         releaseDate: true,
         duration: true,
         budget: true,
@@ -235,7 +235,7 @@ export class FilmsRepository {
         id: true,
         title: true,
         type: true,
-        poster: true,
+        imagePath: true,
         rating: true,
         budget: true,
         boxOffice: true,
@@ -301,7 +301,7 @@ export class FilmsRepository {
       columns: {
         id: true,
         title: true,
-        poster: true,
+        imagePath: true,
         releaseDate: true,
       },
       with: {
@@ -453,7 +453,7 @@ export class FilmsRepository {
         title: true,
         type: true,
         rating: true,
-        poster: true,
+        imagePath: true,
         duration: true,
         releaseDate: true,
         budget: true,
@@ -685,7 +685,7 @@ export class FilmsRepository {
         budget: true,
         boxOffice: true,
         type: true,
-        poster: true,
+        imagePath: true,
       },
       with: {
         countries: {
@@ -831,7 +831,7 @@ export class FilmsRepository {
         .select({
           id: films.id,
           title: films.title,
-          poster: films.poster,
+          imagePath: films.imagePath,
           order: filmsCollections.order,
         })
         .from(films)
@@ -927,7 +927,7 @@ export class FilmsRepository {
       .select({
         id: films.id,
         title: films.title,
-        poster: films.poster,
+        imagePath: films.imagePath,
         order: filmsCollections.order,
       })
       .from(films)
@@ -940,14 +940,14 @@ export class FilmsRepository {
 
   async getAnniversaries() {
     const list = await this.deps.db
-      .select({ poster: films.poster })
+      .select({ imagePath: films.imagePath })
       .from(films)
       .where(
         and(
           eq(films.draft, false),
           isNull(films.deletedAt),
-          isNotNull(films.poster),
-          sql`LENGTH(poster) > 0`,
+          isNotNull(films.imagePath),
+          sql`LENGTH(image_path) > 0`,
           thisDateReleaseSql(),
         ),
       );

@@ -10,7 +10,7 @@ import {
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { StudioForm } from '~/routes/console/studios/-components';
 import { useCallback } from 'react';
-import { CommonListQuerySchema } from '@films-collection/shared';
+import { CommonListQuerySchema } from '@hobbies-collection/shared';
 
 const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create>>({
   title: '',

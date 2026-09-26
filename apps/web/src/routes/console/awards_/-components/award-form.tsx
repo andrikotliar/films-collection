@@ -1,6 +1,6 @@
 import { api, Form, FormIdParamSchema, mutateEntity, Panel, queryKey, type Input } from '~/shared';
 import { NominationsForm } from '~/routes/console/awards_/-components/nominations-form/nominations-form';
-import { CreateAwardInputSchema } from '@films-collection/shared';
+import { CreateAwardInputSchema } from '@hobbies-collection/shared';
 import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 

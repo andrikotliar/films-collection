@@ -19,7 +19,7 @@ import {
   GetPeopleListQuerySchema,
   PersonRole,
   enumValues,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import type { z } from 'zod';
 import { useCallback, useMemo } from 'react';

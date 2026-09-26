@@ -2,7 +2,7 @@ import type { api, ApiResponse } from '~/shared';
 import styles from './collections.module.css';
 import { Link } from '@tanstack/react-router';
 import { getColorBaseOnFirstLetter } from '../../helpers';
-import { CollectionCategory, type Enum } from '@films-collection/shared';
+import { CollectionCategory, type Enum } from '@hobbies-collection/shared';
 import { FilmIcon } from 'lucide-react';
 import clsx from 'clsx';
 

@@ -10,7 +10,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { CountryForm } from '~/routes/console/countries/-components';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { useCallback } from 'react';
-import { CommonListQuerySchema } from '@films-collection/shared';
+import { CommonListQuerySchema } from '@hobbies-collection/shared';
 
 const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.create>>({
   title: '',

@@ -1,4 +1,4 @@
-import type { ListOption, SortingOrder } from '@films-collection/shared';
+import type { ListOption, SortingOrder } from '@hobbies-collection/shared';
 
 export type SortingDirectionOption = ListOption<SortingOrder>;
 

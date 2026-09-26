@@ -1,4 +1,4 @@
-import type { CreateAwardInput, NominationInput } from '@films-collection/shared';
+import type { CreateAwardInput, NominationInput } from '@hobbies-collection/shared';
 
 export type GroupedNominations = {
   create: CreateNominationInput[];

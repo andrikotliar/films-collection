@@ -3,7 +3,7 @@
   "compilerOptions": {
     "paths": {
       "~/*": ["./src/*"],
-      "@films-collection/contracts": ["../../packages/api-contracts/src/index.ts"]
+      "@hobbies-collection/contracts": ["../../packages/api-contracts/src/index.ts"]
     }
   },
   "include": ["src", "drizzle.config.ts", "scripts"],

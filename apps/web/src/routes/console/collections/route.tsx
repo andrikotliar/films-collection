@@ -12,7 +12,7 @@ import type z from 'zod';
 import type { CollectionFormSchema } from '~/routes/console/collections/-schemas';
 import { useQuery } from '@tanstack/react-query';
 import { useCallback } from 'react';
-import { CommonListQuerySchema } from '@films-collection/shared';
+import { CommonListQuerySchema } from '@hobbies-collection/shared';
 
 const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collections.create>>({
   title: '',

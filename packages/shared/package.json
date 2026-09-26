@@ -1,5 +1,5 @@
 {
-  "name": "@films-collection/shared",
+  "name": "@hobbies-collection/shared",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -20,7 +20,7 @@
   },
   "packageManager": "pnpm@10.17.0",
   "dependencies": {
-    "@films-collection/eslint-config": "workspace:^",
+    "@hobbies-collection/eslint-config": "workspace:^",
     "zod": "4.1.11"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
-# Films Collection
+# Hobbies Collection
 
-A personal list of films with manually collected data. The app primarily focuses on representing basic film data and some of the author's subjective perspectives, such as ratings and collections.
+A personal list of films, books and board games with manually collected data.
 
 ## Frontend
 
@@ -14,18 +14,24 @@ A personal list of films with manually collected data. The app primarily focuses
 - React Hook Form
 - Zod
 
-
 ### API contracts
 
-The `@films-collections/contract` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
+The `@hobbies-collections/contract` package provides the API contracts and the fetch wrapper. The client is generated at runtime from contracts and is fully type-safe and reflects the backend API routes.
 
 ### Images
 
-The `poster` column in the `films` table contains image paths. To display them on the frontend put images in any storage that can serve public URLs and support folders.
+The `image_path` column in tables contains object keys. To display them on the frontend put images in any storage that can serve public URLs and support folders.
 
 Define `VITE_IMAGES_URL` in the `.env` file at the root of the `apps/web`. The variable should be a base public URL.
 
-Poster starts with the `posters` prefix and follows by the image name.
+Name images in a way they are defined in the seed data:
+
+```json
+{
+  "title": "Avatar",
+  "image_path": "posters/avatar.webp",
+}
+```
 
 ## Backend
 
@@ -69,7 +75,7 @@ Run `pnpm build` in the project's root. The script builds the backend to the `./
 
 ### Data
 
-The `apps/api/data` directory contains JSON data with all essential information to seed the database. The data reflects current state of the films collection app and data is update once a week.
+The `apps/api/data` directory contains JSON data with all essential information to seed the database. The data reflects current state of the hobbies collection app and data is update once a week.
 
 To populate the database with the data, run the following command from the project's root:
 
@@ -123,19 +129,19 @@ docker compose up s3_local -d
 Create a bucket (AWS CLI should be installed):
 
 ```shell
-aws --endpoint-url=http://localhost:45661 s3 mb s3://films-collection-assets
+aws --endpoint-url=http://localhost:45661 s3 mb s3://hobbies-collection-assets
 ```
 
 List bucket objects:
 
 ```shell
-aws --endpoint-url=http://localhost:45661 s3 ls s3://films-collection-assets
+aws --endpoint-url=http://localhost:45661 s3 ls s3://hobbies-collection-assets
 ```
 
 Copy posters to the bucket
 
 ```shell
-aws --endpoint-url=http://localhost:45661 s3 sync _LOCAL_PATH_ s3://films-collection-assets/posters
+aws --endpoint-url=http://localhost:45661 s3 sync _LOCAL_PATH_ s3://hobbies-collection-assets/posters
 ```
 
-Public URL example: `http://localhost:45661/films-collection-assets/avatar.webp`
+Public URL example: `http://localhost:45661/hobbies-collection-assets/avatar.webp`

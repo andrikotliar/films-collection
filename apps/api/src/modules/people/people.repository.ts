@@ -5,7 +5,7 @@ import {
   type GetPeopleListQuery,
   type SearchPersonQuery,
   type UpdatePersonInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import {
   and,
   asc,

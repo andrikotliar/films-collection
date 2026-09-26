@@ -26,11 +26,3 @@ export type ApiContract<S extends ContractSchema> = {
   url: string;
   schema: Exact<S, ContractSchema>;
 };
-
-export type ContractDefinition<
-  TPrefix extends string,
-  TRoutes extends Record<string, ApiContract<ContractSchema>>,
-> = {
-  prefix: TPrefix;
-  routes: TRoutes;
-};

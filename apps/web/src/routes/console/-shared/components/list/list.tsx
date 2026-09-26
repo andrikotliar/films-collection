@@ -4,7 +4,7 @@ import { type DefaultListItem } from '~/routes/console/-shared';
 import type { FileRoutesByTo } from '~/routeTree.gen';
 import { Link, useLocation } from '@tanstack/react-router';
 import { PlusIcon } from 'lucide-react';
-import { NEW_ITEM_ID, PAGE_LIMITS, type ListOption } from '@films-collection/shared';
+import { NEW_ITEM_ID, PAGE_LIMITS, type ListOption } from '@hobbies-collection/shared';
 import {
   ListSearch,
   type ItemRowProps,

@@ -1,4 +1,4 @@
-import { NEW_ITEM_ID } from '@films-collection/shared';
+import { NEW_ITEM_ID } from '@hobbies-collection/shared';
 import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';

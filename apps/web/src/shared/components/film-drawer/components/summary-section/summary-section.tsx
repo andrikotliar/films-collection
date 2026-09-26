@@ -15,7 +15,7 @@ export const SummarySection = ({ film, hasExtendedData }: SummarySectionProps) =
     return getFilmSummaryConfig(film);
   }, [film]);
 
-  const poster = getExternalImageUrl(film.poster);
+  const poster = getExternalImageUrl(film.imagePath);
 
   return (
     <div

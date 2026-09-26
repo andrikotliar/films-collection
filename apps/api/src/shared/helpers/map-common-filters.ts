@@ -1,4 +1,4 @@
-import type { CommonListQueryParams } from '@films-collection/shared';
+import type { CommonListQueryParams } from '@hobbies-collection/shared';
 import { ilike, type SQL } from 'drizzle-orm';
 import type { PgColumn, PgTableWithColumns } from 'drizzle-orm/pg-core';
 import { sqlSearchQuery } from '~/shared/helpers/sql-search-query.js';

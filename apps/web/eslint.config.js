@@ -1,7 +1,7 @@
 import globals from 'globals';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
-import createConfig from '@films-collection/eslint-config';
+import createConfig from '@hobbies-collection/eslint-config';
 
 export default createConfig({
   languageOptions: {

@@ -3,7 +3,7 @@ import {
   PAGE_LIMITS,
   type CommonListQueryParams,
   type StudioInput,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { studios } from '~/database/schema.js';
 import { and, asc, eq, type SQL } from 'drizzle-orm';
 import type { Deps } from '~/shared/types/deps.js';

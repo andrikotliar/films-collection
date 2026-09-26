@@ -1,4 +1,4 @@
-import { CreateCollectionEventInputSchema } from '@films-collection/shared';
+import { CreateCollectionEventInputSchema } from '@hobbies-collection/shared';
 import { z } from 'zod';
 import { FormIdParamSchema } from '~/shared';
 

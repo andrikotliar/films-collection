@@ -1,10 +1,10 @@
-import { UploadFileResponseSchema, UploadFilePayloadSchema } from '@films-collection/shared';
+import { UploadFileResponseSchema, UploadFilePayloadSchema } from '@hobbies-collection/shared';
 import { createContract } from '../helpers/index.js';
 
 export const filesContract = {
   getUploadUrl: createContract({
     method: 'POST',
-    url: 'upload/url',
+    url: '/files/upload/url',
     schema: {
       body: UploadFilePayloadSchema,
       response: UploadFileResponseSchema,

@@ -1,4 +1,4 @@
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 import styles from './form-checkboxes-group.module.css';
 import { useFormContext } from 'react-hook-form';
 import { FieldError, FieldLabel, type CheckboxProps } from '~/shared';

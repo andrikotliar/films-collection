@@ -11,7 +11,7 @@ import {
   queryKey,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
-import { GetAdminListQuerySchema, type ListOption } from '@films-collection/shared';
+import { GetAdminListQuerySchema, type ListOption } from '@hobbies-collection/shared';
 import { mutationOptions, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import { useCallback, useMemo } from 'react';
 import {

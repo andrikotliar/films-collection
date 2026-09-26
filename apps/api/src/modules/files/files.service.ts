@@ -1,4 +1,4 @@
-import type { UploadFilePayloadSchema } from '@films-collection/shared';
+import type { UploadFilePayloadSchema } from '@hobbies-collection/shared';
 import type z from 'zod';
 import type { Deps } from '~/shared/types/deps.js';
 

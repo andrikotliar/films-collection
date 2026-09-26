@@ -1,5 +1,5 @@
 {
-  "name": "@films-collection/scripts",
+  "name": "@hobbies-collection/scripts",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,8 +7,8 @@
     "gen-pass": "tsx src/generate-password.ts"
   },
   "dependencies": {
-    "@films-collection/eslint-config": "workspace:^",
-    "@films-collection/shared": "workspace:^",
+    "@hobbies-collection/eslint-config": "workspace:^",
+    "@hobbies-collection/shared": "workspace:^",
     "clipboardy": "^5.3.2",
     "dotenv": "^16.6.1",
     "tsx": "^4.21.0",

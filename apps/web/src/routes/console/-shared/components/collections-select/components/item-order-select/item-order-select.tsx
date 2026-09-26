@@ -2,7 +2,7 @@ import { useQuery, type UseQueryOptions } from '@tanstack/react-query';
 import { FieldError, Form, Loader, type MixedId } from '~/shared';
 
 export type DataParams = {
-  imageUrl: string | null;
+  imagePath: string | null;
   id: number;
   order: number | null;
 };

@@ -5,13 +5,13 @@ import { CollectionResponseSchema } from './collections.schema.js';
 
 export const HobbyMutationSchema = z.object({
   title: z.string().min(3).trim(),
-  imageUrl: z.string().nullable().optional(),
+  imagePath: z.string().nullable().optional(),
 });
 
 export const HobbyResponseSchema = z.object({
   id: z.number(),
   title: z.string(),
-  imageUrl: z.string().nullable(),
+  imagePath: z.string().nullable(),
 });
 
 export const HobbiesListResponseSchema = getListResponseSchema(z.array(HobbyResponseSchema));
@@ -21,7 +21,7 @@ export const HobbyItemResponseSchema = z.object({
   title: z.string(),
   description: z.string(),
   releaseYear: z.number(),
-  imageUrl: z.string().optional().nullable(),
+  imagePath: z.string().optional().nullable(),
   collections: z.array(CollectionResponseSchema.pick({ id: true, title: true })),
   authors: z.array(PersonResponseSchema.pick({ id: true, name: true })),
 });
@@ -52,7 +52,7 @@ export const HobbyItemInputSchema = z.object({
     }),
   ),
   people: z.array(z.number()).min(1),
-  imageUrl: z.string().nullable().optional(),
+  imagePath: z.string().nullable().optional(),
 });
 
 export const HobbyItemUpdateInputSchema = HobbyItemInputSchema.partial();
@@ -65,10 +65,14 @@ export const HobbyItemsByCollectionIdResponseSchema = z.array(
   z.object({
     id: z.number(),
     title: z.string(),
-    imageUrl: z.string().nullable(),
+    imagePath: z.string().nullable(),
     order: z.number().nullable(),
   }),
 );
+
+export const HobbyByTitleParamsSchema = z.object({
+  title: z.string(),
+});
 
 export type HobbiesListResponse = z.infer<typeof HobbiesListResponseSchema>;
 export type HobbyItemInput = z.infer<typeof HobbyItemInputSchema>;

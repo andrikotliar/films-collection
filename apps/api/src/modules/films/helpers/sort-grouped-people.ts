@@ -1,4 +1,4 @@
-import type { TPersonRole } from '@films-collection/shared';
+import type { TPersonRole } from '@hobbies-collection/shared';
 import type { GroupedPeople } from '~/modules/films/types.js';
 
 const rolesOrder: Record<TPersonRole, number> = {

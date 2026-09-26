@@ -1,4 +1,4 @@
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 import { MIN_YEAR } from '~/shared/constants';
 
 export const generateYearsSelectOptions = (): ListOption<number>[] => {

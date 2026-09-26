@@ -1,6 +1,6 @@
 import styles from './option.module.css';
 import clsx from 'clsx';
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 
 type OptionProps<T extends ListOption> = {
   onSelect: (value: T, isActive: boolean) => void;

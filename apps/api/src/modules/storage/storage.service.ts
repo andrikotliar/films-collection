@@ -1,6 +1,6 @@
 import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
-import type { UploadFilePayloadSchema } from '@films-collection/shared';
+import type { UploadFilePayloadSchema } from '@hobbies-collection/shared';
 import type z from 'zod';
 import type { Deps } from '~/shared/types/deps.js';
 

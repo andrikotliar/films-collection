@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { PopupMenu } from '../popup-menu/popup-menu';
 import { Button, sortingDirectionOptions } from '~/shared';
 import styles from './sorting-popup.module.css';
-import type { ListOption, SortingOrder } from '@films-collection/shared';
+import type { ListOption, SortingOrder } from '@hobbies-collection/shared';
 import { getDefaultLabel } from '~/shared/components/sorting-popup/helpers';
 import { ArrowDownAZIcon, ArrowUpAZIcon } from 'lucide-react';
 import clsx from 'clsx';
@@ -67,9 +67,7 @@ export const SortingPopup = ({
           size="small"
           isDisabled={isDisabled}
         >
-          <div className={styles.button_content}>
-            <span className={styles.button_label}>Sorted by:</span> {selectedData.label}
-          </div>
+          <div className={styles.button_content}>{selectedData.label}</div>
         </Button>
       </div>
       <PopupMenu

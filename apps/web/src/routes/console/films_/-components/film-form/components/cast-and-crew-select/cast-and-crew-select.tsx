@@ -1,6 +1,6 @@
 import { useFieldArray, useFormContext } from 'react-hook-form';
 import { Form } from '~/shared';
-import type { Enum, ListOption, PersonRole } from '@films-collection/shared';
+import type { Enum, ListOption, PersonRole } from '@hobbies-collection/shared';
 import type z from 'zod';
 import type { FilmFormSchema } from '~/routes/console/films_/-components/film-form/-schemas';
 import { PeopleSelect } from '~/routes/console/films_/-components/film-form/components/cast-and-crew-select/components';

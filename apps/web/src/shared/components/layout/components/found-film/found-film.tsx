@@ -20,7 +20,7 @@ export const FoundFilm = ({ film, onFilmOpen }: FoundFilmProps) => {
       search={{ filmId: film.id }}
     >
       <div className={styles.poster_wrapper}>
-        <Image src={getExternalImageUrl(film.poster)} alt={`Poster of the "${film.title}"`} />
+        <Image src={getExternalImageUrl(film.imagePath)} alt={`Poster of the "${film.title}"`} />
       </div>
       <div className={styles.info_wrapper}>
         <h3 className={styles.film_title}>{film.title}</h3>

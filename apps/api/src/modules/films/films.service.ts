@@ -14,7 +14,7 @@ import {
   enumValues,
   PAGE_LIMITS,
   type FilmStatsResponse,
-} from '@films-collection/shared';
+} from '@hobbies-collection/shared';
 import { mapFilmDetails, mapAdminFilmDetails, mapCompleteDataList } from './helpers/index.js';
 import type { FilmCollection } from '~/database/schema.js';
 import type { Timestamps } from '~/modules/films/types.js';
@@ -48,7 +48,7 @@ export class FilmsService {
   ) {
     deps.inMemoryCacheService.setDefaultValue('filmsCount', 0);
     deps.inMemoryCacheService.setDefaultValue('anniversary', { film: null, date: null });
-    deps.inMemoryCacheService.setDefaultValue('statistic', []);
+    deps.inMemoryCacheService.setDefaultValue('statistic', null);
   }
 
   private getAllFilmsCount() {
@@ -111,7 +111,7 @@ export class FilmsService {
       additionalInfo,
       events,
       pageLimit: PAGE_LIMITS.filmsList,
-      anniversaryPoster: anniversary?.poster ?? null,
+      anniversaryImagePath: anniversary?.imagePath ?? null,
       allFilmsCount,
     };
   }
@@ -348,16 +348,22 @@ export class FilmsService {
     const cachedValue = this.deps.inMemoryCacheService.get('statistic');
     const filmsTotal = await this.getAllFilmsCount();
 
-    if (cachedValue.length) {
+    if (cachedValue) {
       return { stats: cachedValue, filmsTotal };
     }
 
-    const result: FilmStatsResponse['stats'] = [];
+    const result: FilmStatsResponse['stats'] = {
+      types: [],
+      countries: [],
+      collections: [],
+      studios: [],
+      genres: [],
+    };
 
     for await (const block of statBlocks) {
       const stats = await this.aggregate(block);
 
-      result.push({ block, stats });
+      result[block] = stats;
     }
 
     this.deps.inMemoryCacheService.set('statistic', result);

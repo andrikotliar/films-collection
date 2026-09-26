@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getSelectValue } from '~/shared/components/select/helpers';
 import { Select, type SelectProps } from '~/shared/components/select/select';
-import type { ListOption } from '@films-collection/shared';
+import type { ListOption } from '@hobbies-collection/shared';
 
 type QueryParams = {
   q?: string;

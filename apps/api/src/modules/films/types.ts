@@ -1,4 +1,4 @@
-import type { TPersonRole } from '@films-collection/shared';
+import type { TPersonRole } from '@hobbies-collection/shared';
 import type { Award, FilmPerson, Nomination, Person } from '~/database/schema.js';
 
 export type PickBaseData<T extends { id: number; title: string }> = Pick<T, 'id' | 'title'>;

@@ -1,4 +1,4 @@
-import type { TPersonRole } from '@films-collection/shared';
+import type { TPersonRole } from '@hobbies-collection/shared';
 
 export const personRoleToTitle: Record<TPersonRole, string> = {
   DIRECTOR: 'Directed by',

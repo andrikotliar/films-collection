@@ -16,11 +16,11 @@ export const HobbyForm = ({ values }: HobbyFormProps) => {
   const { onClose } = useFormModal();
 
   const submit = async (data: z.infer<typeof HobbyFormSchema>) => {
-    const { title, imageUrl, id } = data;
+    const { title, imagePath, id } = data;
 
-    const url = await uploadImage({ image: imageUrl, title, folder: 'hobbies' });
+    const url = await uploadImage({ image: imagePath, title, folder: 'hobbies' });
 
-    await mutateAsync({ title, imageUrl: url, id });
+    await mutateAsync({ title, imagePath: url, id });
     onClose();
   };
 
@@ -33,7 +33,7 @@ export const HobbyForm = ({ values }: HobbyFormProps) => {
       title={getFormTitle(values, 'Hobby')}
     >
       <Form.TextInput name="title" label="Title" />
-      <Form.FileInput name="imageUrl" label="Image" width="80%" height={300} />
+      <Form.FileInput name="imagePath" label="Image" width="80%" height={300} />
     </Form>
   );
 };
