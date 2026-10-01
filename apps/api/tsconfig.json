@@ -2,8 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "~/*": ["./src/*"],
-      "@hobbies-collection/contracts": ["../../packages/api-contracts/src/index.ts"]
+      "~/*": ["./src/*"]
     }
   },
   "include": ["src", "drizzle.config.ts", "scripts"],

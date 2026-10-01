@@ -36,8 +36,8 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: 'Films Collection',
-        short_name: 'Films',
+        name: 'Hobbies Collection',
+        short_name: 'Hobbies',
         background_color: '#fff',
         theme_color: '#fff',
         display: 'standalone',

@@ -21,7 +21,7 @@
   "author": "Andrii Kotliar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrikotliar/films-collection/tree/main/scripts"
+    "url": "https://github.com/andrikotliar/hobbies-collection/tree/main/scripts"
   },
   "packageManager": "pnpm@10.17.0"
 }

@@ -16,7 +16,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "dev": "tsc -w -p tsconfig.build.json"
   },
   "packageManager": "pnpm@10.17.0",
   "dependencies": {

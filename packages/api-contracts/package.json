@@ -23,8 +23,9 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "typecheck": "tsc -p tsconfig.dev.json",
-    "lint": "eslint ./src"
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "eslint ./src",
+    "dev": "tsc -w -p tsconfig.build.json"
   },
   "packageManager": "pnpm@10.17.0"
 }
