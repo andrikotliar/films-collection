@@ -2,7 +2,7 @@ import { queryOptions } from '@tanstack/react-query';
 import { api, queryKey } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
-export const getStudiosListQueryOptions = (
+export const buildGetStudiosListQueryOptions = (
   queryParams: QueryParams<typeof api.studios.getList>,
 ) => {
   return queryOptions({

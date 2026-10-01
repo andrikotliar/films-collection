@@ -2,7 +2,7 @@ import { queryOptions } from '@tanstack/react-query';
 import { api, queryKey } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
-export const getPeopleAdminListQueryOptions = (
+export const buildGetPeopleAdminListQueryOptions = (
   queryParams: QueryParams<typeof api.people.getList>,
 ) => {
   return queryOptions({

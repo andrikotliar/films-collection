@@ -2,7 +2,7 @@ import { queryOptions } from '@tanstack/react-query';
 import { api, queryKey } from '~/shared/services';
 import type { QueryParams } from '~/shared/types';
 
-export const getCountriesListQueryOptions = (
+export const buildGetCountriesListQueryOptions = (
   queryParams: QueryParams<typeof api.countries.getList>,
 ) => {
   return queryOptions({
