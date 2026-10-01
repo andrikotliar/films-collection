@@ -3,7 +3,7 @@ import { mutationOptions, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { HobbyForm } from '~/routes/console/hobbies/-components';
-import { api, getHobbiesListQueryOptions, queryKey } from '~/shared';
+import { api, buildMetaTitle, buildGetHobbiesListQueryOptions, queryKey } from '~/shared';
 
 const getDeleteMutationOptions = () => {
   return mutationOptions({
@@ -16,7 +16,7 @@ const getDeleteMutationOptions = () => {
 
 export const Route = createFileRoute('/console/hobbies')({
   loader: async ({ context }) => {
-    await context.queryClient.ensureQueryData(getHobbiesListQueryOptions());
+    await context.queryClient.ensureQueryData(buildGetHobbiesListQueryOptions());
   },
   component: withFormModal(HobbyForm, RouteComponent),
   staticData: {
@@ -26,7 +26,7 @@ export const Route = createFileRoute('/console/hobbies')({
   head: () => ({
     meta: [
       {
-        title: 'Hobbies - Films Collection',
+        title: buildMetaTitle('Hobbies'),
       },
     ],
   }),
@@ -34,7 +34,7 @@ export const Route = createFileRoute('/console/hobbies')({
 
 function RouteComponent() {
   const { onOpen } = useFormModal();
-  const { data } = useSuspenseQuery(getHobbiesListQueryOptions());
+  const { data } = useSuspenseQuery(buildGetHobbiesListQueryOptions());
 
   const navigate = useNavigate();
 

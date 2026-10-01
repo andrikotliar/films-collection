@@ -2,8 +2,9 @@ import { mutationOptions, useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import {
   api,
+  buildMetaTitle,
   getEmptyFormValues,
-  getStudiosListQueryOptions,
+  buildGetStudiosListQueryOptions,
   queryKey,
   type Input,
 } from '~/shared';
@@ -19,7 +20,7 @@ const studioInitialValues = getEmptyFormValues<Input<typeof api.studios.create>>
 export const Route = createFileRoute('/console/studios')({
   validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
-    await queryClient.ensureQueryData(getStudiosListQueryOptions(location.search));
+    await queryClient.ensureQueryData(buildGetStudiosListQueryOptions(location.search));
   },
   component: withFormModal(StudioForm, PageContainer),
   staticData: {
@@ -29,7 +30,7 @@ export const Route = createFileRoute('/console/studios')({
   head: () => ({
     meta: [
       {
-        title: 'Studios - Films Collection',
+        title: buildMetaTitle('Studios'),
       },
     ],
   }),
@@ -46,7 +47,7 @@ const getDeleteMutationOptions = () => {
 
 function PageContainer() {
   const search = Route.useSearch();
-  const { data, isFetching } = useQuery(getStudiosListQueryOptions(search));
+  const { data, isFetching } = useQuery(buildGetStudiosListQueryOptions(search));
   const { onOpen } = useFormModal();
   const navigate = Route.useNavigate();
 

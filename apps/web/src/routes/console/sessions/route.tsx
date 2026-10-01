@@ -1,13 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router';
-
 import { Sessions } from '~/routes/console/sessions/-components';
-import { getUserSessionsQueryOptions } from '~/shared';
+import { buildMetaTitle, buildGetUserSessionsQueryOptions } from '~/shared';
 
 export const Route = createFileRoute('/console/sessions')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getUserSessionsQueryOptions());
+    await queryClient.ensureQueryData(buildGetUserSessionsQueryOptions());
   },
-  component: RouteComponent,
+  component: Sessions,
   staticData: {
     title: 'Sessions',
     backPath: '/console',
@@ -15,12 +14,8 @@ export const Route = createFileRoute('/console/sessions')({
   head: () => ({
     meta: [
       {
-        title: 'Sessions - Films Collection',
+        title: buildMetaTitle('Sessions'),
       },
     ],
   }),
 });
-
-function RouteComponent() {
-  return <Sessions />;
-}

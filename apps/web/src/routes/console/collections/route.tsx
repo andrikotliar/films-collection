@@ -1,10 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router';
 import {
-  getCollectionsListQueryOptions,
+  buildGetCollectionsListQueryOptions,
   getEmptyFormValues,
   api,
   type Input,
   queryKey,
+  buildMetaTitle,
 } from '~/shared';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { CollectionForm } from '~/routes/console/collections/-components';
@@ -23,7 +24,7 @@ const collectionFormDefaultValues = getEmptyFormValues<Input<typeof api.collecti
 export const Route = createFileRoute('/console/collections')({
   validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
-    await queryClient.ensureQueryData(getCollectionsListQueryOptions(location.search));
+    await queryClient.ensureQueryData(buildGetCollectionsListQueryOptions(location.search));
   },
   component: withFormModal(CollectionForm, PageContainer),
   staticData: {
@@ -33,7 +34,7 @@ export const Route = createFileRoute('/console/collections')({
   head: () => ({
     meta: [
       {
-        title: 'Collections - Films Collection',
+        title: buildMetaTitle('Collections'),
       },
     ],
   }),
@@ -52,7 +53,7 @@ const getDeleteMutationsOptions = () => {
 
 function PageContainer() {
   const search = Route.useSearch();
-  const { data, isFetching } = useQuery(getCollectionsListQueryOptions(search));
+  const { data, isFetching } = useQuery(buildGetCollectionsListQueryOptions(search));
   const { onOpen } = useFormModal<z.infer<typeof CollectionFormSchema>>();
   const navigate = Route.useNavigate();
 

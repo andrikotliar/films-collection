@@ -1,4 +1,4 @@
-import { getHobbyRelatedCollectionsQueryOptions, Select, TextInput } from '~/shared';
+import { buildGetHobbyRelatedCollectionsQueryOptions, Select, TextInput } from '~/shared';
 import styles from './hobby-item-filters.module.css';
 import { useSuspenseQuery } from '@tanstack/react-query';
 
@@ -20,7 +20,7 @@ export const HobbyItemFilters = <T extends PartialFilters>({
   onSearch,
   search,
 }: HobbyItemFiltersProps<T>) => {
-  const { data } = useSuspenseQuery(getHobbyRelatedCollectionsQueryOptions(hobbyId));
+  const { data } = useSuspenseQuery(buildGetHobbyRelatedCollectionsQueryOptions(hobbyId));
 
   return (
     <div className={styles.wrapper}>

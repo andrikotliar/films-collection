@@ -33,3 +33,4 @@ export * from './get-last-activity';
 export * from './generate-years-select-options';
 export * from './upload-image';
 export * from './is-record';
+export * from './build-meta-title';

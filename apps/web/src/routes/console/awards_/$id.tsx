@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { createFileRoute } from '@tanstack/react-router';
-import { getAwardQueryOptions, getMixedId } from '~/shared';
+import { buildMetaTitle, buildGetAwardQueryOptions, getMixedId } from '~/shared';
 import { AwardForm } from './-components';
 import { getFormDefaultValues } from './-helpers';
 
@@ -8,7 +8,7 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 
 export const Route = createFileRoute('/console/awards_/$id')({
   loader: async ({ params, context: { queryClient } }) => {
-    return await queryClient.ensureQueryData(getAwardQueryOptions(getMixedId(params.id)));
+    return await queryClient.ensureQueryData(buildGetAwardQueryOptions(getMixedId(params.id)));
   },
   component: PageContainer,
   staticData: {
@@ -18,7 +18,7 @@ export const Route = createFileRoute('/console/awards_/$id')({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: `${loaderData?.title} - Films Collection`,
+        title: buildMetaTitle(loaderData?.title ?? 'Awards'),
       },
     ],
   }),
@@ -27,7 +27,7 @@ export const Route = createFileRoute('/console/awards_/$id')({
 function PageContainer() {
   const { id } = Route.useParams();
 
-  const { data } = useSuspenseQuery(getAwardQueryOptions(getMixedId(id)));
+  const { data } = useSuspenseQuery(buildGetAwardQueryOptions(getMixedId(id)));
 
   const defaultValues = useMemo(() => {
     return getFormDefaultValues(data);

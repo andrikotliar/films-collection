@@ -9,7 +9,7 @@ import {
 import { getRouteApi } from '@tanstack/react-router';
 import {
   countObjectKeys,
-  getFilmsListQueryOptions,
+  buildGetFilmsListQueryOptions,
   Pagination,
   SortingPopup,
   TextInput,
@@ -59,7 +59,7 @@ const sortingFields: ListOption<string, { isNotSelectable?: boolean }>[] = [
 export const FilmsSection = () => {
   const searchParams = routeApi.useSearch({ select: ({ filmId: _, ...params }) => params });
   const navigate = routeApi.useNavigate();
-  const { data, isFetching } = useQuery(getFilmsListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(buildGetFilmsListQueryOptions(searchParams));
   const { toggleFilter } = useSidebarVisibility('/');
 
   const handleSearch = useDebouncedSearch((value) => {

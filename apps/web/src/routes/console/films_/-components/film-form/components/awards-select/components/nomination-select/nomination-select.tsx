@@ -5,7 +5,7 @@ import {
   Button,
   FieldError,
   Form,
-  getNominationsByAwardQueryOptions,
+  buildGetNominationsByAwardQueryOptions,
   Loader,
   queryKey,
 } from '~/shared';
@@ -34,7 +34,9 @@ export const NominationSelect = ({ index }: NominationSelectProps) => {
 
   const currentAward = awards[index];
 
-  const { data, isLoading } = useQuery(getNominationsByAwardQueryOptions(currentAward.awardId));
+  const { data, isLoading } = useQuery(
+    buildGetNominationsByAwardQueryOptions(currentAward.awardId),
+  );
 
   const includeActorsMap = useMemo(() => {
     const map: Record<number, boolean> = {};

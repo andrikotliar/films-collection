@@ -1,11 +1,12 @@
 import {
   api,
+  buildMetaTitle,
   countObjectKeys,
   Filters,
   FiltersSidebar,
   filterValues,
   getEmptyFormValues,
-  getPeopleAdminListQueryOptions,
+  buildGetPeopleAdminListQueryOptions,
   queryKey,
   useSidebarVisibility,
   type FilterItem,
@@ -74,7 +75,7 @@ export const Route = createFileRoute('/console/people')({
     return GetPeopleListQuerySchema.parse(search);
   },
   loader: async ({ context: { queryClient }, location }) => {
-    return await queryClient.ensureQueryData(getPeopleAdminListQueryOptions(location.search));
+    return await queryClient.ensureQueryData(buildGetPeopleAdminListQueryOptions(location.search));
   },
   component: withFormModal(PersonForm, RouteComponent),
   staticData: {
@@ -84,7 +85,7 @@ export const Route = createFileRoute('/console/people')({
   head: () => ({
     meta: [
       {
-        title: 'Crew and Cast - Films Collection',
+        title: buildMetaTitle('Crew and Cast'),
       },
     ],
   }),
@@ -96,7 +97,7 @@ function RouteComponent() {
   const { onOpen } = useFormModal();
   const { isFilterOpen, toggleFilter, hideFilter } = useSidebarVisibility('/console/people');
 
-  const { data, isFetching } = useQuery(getPeopleAdminListQueryOptions(search));
+  const { data, isFetching } = useQuery(buildGetPeopleAdminListQueryOptions(search));
 
   const handleChangePage = (pageIndex: number) => {
     navigate({

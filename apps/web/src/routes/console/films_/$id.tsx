@@ -2,11 +2,12 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';
 import {
   isNewItem,
-  getInitialDataQueryOptions,
-  getAdminFilmDetailsQueryOptions,
+  buildGetInitialDataQueryOptions,
+  buildGetAdminFilmDetailsQueryOptions,
   getMixedId,
-  getFilmDraftsQueryOptions,
-  getAllCollectionOptionsQueryOptions,
+  buildGetFilmDraftsQueryOptions,
+  buildGetAllCollectionOptionsQueryOptions,
+  buildMetaTitle,
 } from '~/shared';
 import { filmDefaultFormValues } from '~/routes/console/-shared';
 import { FilmForm } from '~/routes/console/films_/-components';
@@ -23,12 +24,14 @@ export const Route = createFileRoute('/console/films_/$id')({
     };
   },
   loader: async ({ context: { queryClient }, params }) => {
-    await queryClient.ensureQueryData(getInitialDataQueryOptions());
-    await queryClient.ensureQueryData(getFilmDraftsQueryOptions(params.id));
-    await queryClient.ensureQueryData(getAllCollectionOptionsQueryOptions());
+    await queryClient.ensureQueryData(buildGetInitialDataQueryOptions());
+    await queryClient.ensureQueryData(buildGetFilmDraftsQueryOptions(params.id));
+    await queryClient.ensureQueryData(buildGetAllCollectionOptionsQueryOptions());
 
     if (!isNewItem(params.id)) {
-      return await queryClient.ensureQueryData(getAdminFilmDetailsQueryOptions(Number(params.id)));
+      return await queryClient.ensureQueryData(
+        buildGetAdminFilmDetailsQueryOptions(Number(params.id)),
+      );
     }
   },
   component: PageContainer,
@@ -40,7 +43,7 @@ export const Route = createFileRoute('/console/films_/$id')({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: `${loaderData?.title ?? 'New film'} - Films Collection`,
+        title: buildMetaTitle(loaderData?.title ?? 'New film'),
       },
     ],
   }),
@@ -48,7 +51,7 @@ export const Route = createFileRoute('/console/films_/$id')({
 
 function PageContainer() {
   const { id } = Route.useParams();
-  const { data: film } = useSuspenseQuery(getAdminFilmDetailsQueryOptions(getMixedId(id)));
+  const { data: film } = useSuspenseQuery(buildGetAdminFilmDetailsQueryOptions(getMixedId(id)));
 
   const defaultValues = useMemo<z.infer<typeof FilmFormSchema>>(() => {
     if (film) {

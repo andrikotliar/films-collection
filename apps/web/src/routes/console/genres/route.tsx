@@ -1,4 +1,11 @@
-import { api, getEmptyFormValues, getGenresListQueryOptions, queryKey, type Input } from '~/shared';
+import {
+  api,
+  buildMetaTitle,
+  getEmptyFormValues,
+  buildGetGenresListQueryOptions,
+  queryKey,
+  type Input,
+} from '~/shared';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GenresForm } from '~/routes/console/genres/-components';
@@ -9,7 +16,7 @@ import { useCallback } from 'react';
 export const Route = createFileRoute('/console/genres')({
   validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
-    return await queryClient.ensureQueryData(getGenresListQueryOptions(location.search));
+    return await queryClient.ensureQueryData(buildGetGenresListQueryOptions(location.search));
   },
   component: withFormModal(GenresForm, PageContainer),
   staticData: {
@@ -19,7 +26,7 @@ export const Route = createFileRoute('/console/genres')({
   head: () => ({
     meta: [
       {
-        title: 'Genres - Films Collection',
+        title: buildMetaTitle('Genres'),
       },
     ],
   }),
@@ -43,7 +50,7 @@ const getDeleteMutationOptions = () => {
 
 function PageContainer() {
   const search = Route.useSearch();
-  const { data, isFetching } = useQuery(getGenresListQueryOptions(search));
+  const { data, isFetching } = useQuery(buildGetGenresListQueryOptions(search));
   const { onOpen } = useFormModal();
   const navigate = Route.useNavigate();
 

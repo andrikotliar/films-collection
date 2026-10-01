@@ -4,7 +4,7 @@ import {
   Button,
   ConfirmModal,
   getLastActivity,
-  getUserSessionsQueryOptions,
+  buildGetUserSessionsQueryOptions,
   Panel,
   api,
   type ApiResponse,
@@ -33,7 +33,7 @@ const getDeviceIcon = (data: ApiResponse<typeof api.users.getSessions>[number]['
 };
 
 export const Sessions = () => {
-  const { data } = useSuspenseQuery(getUserSessionsQueryOptions());
+  const { data } = useSuspenseQuery(buildGetUserSessionsQueryOptions());
 
   const [selectedSession, setSelectedSession] = useState<
     ApiResponse<typeof api.users.getSessions>[number] | null

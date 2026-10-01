@@ -1,7 +1,7 @@
+import { z } from 'zod';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { LoginForm, LoginLayout } from './-components';
-import { z } from 'zod';
-import { LOGIN_BLOCK_KEY } from '~/shared';
+import { buildMetaTitle, LOGIN_BLOCK_KEY } from '~/shared';
 
 const SearchParamsSchema = z.object({
   from: z.string().optional(),
@@ -20,7 +20,7 @@ export const Route = createFileRoute('/login')({
     }
   },
   component: PageContainer,
-  head: () => ({ meta: [{ title: 'Login - Films Collection' }] }),
+  head: () => ({ meta: [{ title: buildMetaTitle('Login') }] }),
 });
 
 function PageContainer() {

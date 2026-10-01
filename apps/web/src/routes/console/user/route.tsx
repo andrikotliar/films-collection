@@ -8,13 +8,14 @@ import { useMemo } from 'react';
 import z from 'zod';
 import {
   Form,
-  getUserDataQueryOptions,
+  buildGetUserDataQueryOptions,
   Panel,
   queryKey,
   SectionTitle,
   toaster,
   api,
   type Input,
+  buildMetaTitle,
 } from '~/shared';
 
 const UserFormSchema = z
@@ -59,7 +60,7 @@ const defaultValues: UserFormValues = {
 export const Route = createFileRoute('/console/user')({
   component: RouteComponent,
   beforeLoad: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getUserDataQueryOptions());
+    await queryClient.ensureQueryData(buildGetUserDataQueryOptions());
   },
   staticData: {
     title: 'User Preferences',
@@ -68,14 +69,14 @@ export const Route = createFileRoute('/console/user')({
   head: () => ({
     meta: [
       {
-        title: 'User Preferences - Films Collection',
+        title: buildMetaTitle('User Preferences'),
       },
     ],
   }),
 });
 
 function RouteComponent() {
-  const { data } = useSuspenseQuery(getUserDataQueryOptions());
+  const { data } = useSuspenseQuery(buildGetUserDataQueryOptions());
 
   const { mutateAsync, isPending } = useMutation({
     mutationFn: (values: UserFormValues) => {

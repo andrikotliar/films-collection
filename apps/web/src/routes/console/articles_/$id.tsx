@@ -5,7 +5,7 @@ import {
   Form,
   Panel,
   isNewItem,
-  getArticleByIdQueryOptions,
+  buildGetArticleByIdQueryOptions,
   type ApiResponse,
   api,
   getEmptyFormValues,
@@ -13,13 +13,14 @@ import {
   getMixedId,
   mutateEntity,
   queryKey,
+  buildMetaTitle,
 } from '~/shared';
 import { SANITIZE_CONFIG } from '@hobbies-collection/shared';
 import { ArticleFormSchema } from '~/routes/console/articles_/-schemas';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { generateSlug } from '~/routes/console/articles_/-helpers';
 
-const getDefaultFormValues = (data: ApiResponse<typeof api.articles.getById> | null) => {
+const buildGetDefaultFormValues = (data: ApiResponse<typeof api.articles.getById> | null) => {
   if (data) {
     return {
       id: data.id,
@@ -39,7 +40,7 @@ const getDefaultFormValues = (data: ApiResponse<typeof api.articles.getById> | n
 export const Route = createFileRoute('/console/articles_/$id')({
   loader: async ({ context: { queryClient }, params }) => {
     if (!isNewItem(params.id)) {
-      return await queryClient.ensureQueryData(getArticleByIdQueryOptions(+params.id));
+      return await queryClient.ensureQueryData(buildGetArticleByIdQueryOptions(+params.id));
     }
   },
   component: RouteComponent,
@@ -50,7 +51,7 @@ export const Route = createFileRoute('/console/articles_/$id')({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: `${loaderData?.title ?? 'New article'} - Films Collection`,
+        title: buildMetaTitle(loaderData?.title ?? 'New article'),
       },
     ],
   }),
@@ -62,7 +63,7 @@ function RouteComponent() {
 
   const mixedId = getMixedId(params.id);
 
-  const { data } = useSuspenseQuery(getArticleByIdQueryOptions(mixedId));
+  const { data } = useSuspenseQuery(buildGetArticleByIdQueryOptions(mixedId));
 
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.articles.create, api.articles.update),
@@ -97,7 +98,7 @@ function RouteComponent() {
   return (
     <Form
       onSubmit={handleSubmit}
-      defaultValues={getDefaultFormValues(data)}
+      defaultValues={buildGetDefaultFormValues(data)}
       schema={ArticleFormSchema}
       isLoading={isPending}
       islandActions

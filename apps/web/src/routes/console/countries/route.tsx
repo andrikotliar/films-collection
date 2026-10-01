@@ -1,6 +1,7 @@
 import {
   api,
-  getCountriesListQueryOptions,
+  buildMetaTitle,
+  buildGetCountriesListQueryOptions,
   getEmptyFormValues,
   queryKey,
   type Input,
@@ -19,7 +20,7 @@ const countryDefaultValues = getEmptyFormValues<Input<typeof api.countries.creat
 export const Route = createFileRoute('/console/countries')({
   validateSearch: (search) => CommonListQuerySchema.parse(search),
   loader: async ({ context: { queryClient }, location }) => {
-    return await queryClient.ensureQueryData(getCountriesListQueryOptions(location.search));
+    return await queryClient.ensureQueryData(buildGetCountriesListQueryOptions(location.search));
   },
   component: withFormModal(CountryForm, PageContainer),
   staticData: {
@@ -29,7 +30,7 @@ export const Route = createFileRoute('/console/countries')({
   head: () => ({
     meta: [
       {
-        title: 'Countries - Films Collection',
+        title: buildMetaTitle('Countries'),
       },
     ],
   }),
@@ -49,7 +50,7 @@ const getDeleteMutationOptions = () => {
 
 function PageContainer() {
   const search = Route.useSearch();
-  const { data, isFetching } = useQuery(getCountriesListQueryOptions(search));
+  const { data, isFetching } = useQuery(buildGetCountriesListQueryOptions(search));
   const { onOpen } = useFormModal();
   const navigate = Route.useNavigate();
 

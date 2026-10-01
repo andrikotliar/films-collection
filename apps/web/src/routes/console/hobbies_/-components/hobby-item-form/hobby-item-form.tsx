@@ -12,8 +12,8 @@ import { HobbyItemFormSchema } from '~/routes/console/hobbies_/-schemas/hobby-it
 import {
   api,
   Form,
-  getAllCollectionOptionsQueryOptions,
-  getHobbyItemsByCollectionQueryOptions,
+  buildGetAllCollectionOptionsQueryOptions,
+  buildGetHobbyItemsByCollectionQueryOptions,
   getObjectsDiff,
   isNewItem,
   queryKey,
@@ -25,7 +25,7 @@ import {
 type HobbyItemFormProps = FormComponentProps<z.infer<typeof HobbyItemFormSchema>>;
 
 export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
-  const { data: collectionOptions } = useSuspenseQuery(getAllCollectionOptionsQueryOptions());
+  const { data: collectionOptions } = useSuspenseQuery(buildGetAllCollectionOptionsQueryOptions());
   const { id: hobbyId } = useParams({ from: '/console/hobbies_/$id' });
 
   const { onClose } = useFormModal();
@@ -119,7 +119,7 @@ export const HobbyItemForm = ({ values }: HobbyItemFormProps) => {
       <Form.FileInput name="imagePath" label="Image" />
       <CollectionsSelect
         options={collectionOptions}
-        getCurrentCollection={getHobbyItemsByCollectionQueryOptions}
+        getCurrentCollection={buildGetHobbyItemsByCollectionQueryOptions}
         defaultCategory={CollectionCategory.CHAPTER}
         currentItemId={values.id}
       />

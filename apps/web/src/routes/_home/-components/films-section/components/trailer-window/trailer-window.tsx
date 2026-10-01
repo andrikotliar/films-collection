@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getFilmTrailersQueryOptions, Loader, Modal } from '~/shared';
+import { buildGetFilmTrailersQueryOptions, Loader, Modal } from '~/shared';
 import styles from './trailer-window.module.css';
 
 type TrailerWindowProps = {
@@ -8,7 +8,7 @@ type TrailerWindowProps = {
 };
 
 export const TrailerWindow = ({ filmId, onClose }: TrailerWindowProps) => {
-  const { data, isLoading } = useQuery(getFilmTrailersQueryOptions(filmId));
+  const { data, isLoading } = useQuery(buildGetFilmTrailersQueryOptions(filmId));
 
   return (
     <Modal isOpen={!!filmId} onClose={onClose}>

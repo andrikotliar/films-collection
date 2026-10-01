@@ -1,7 +1,7 @@
 import {
   Filters,
-  getFilmsAdminListQueryOptions,
-  getInitialDataQueryOptions,
+  buildGetFilmsAdminListQueryOptions,
+  buildGetInitialDataQueryOptions,
   useSidebarVisibility,
   filterValues,
   countObjectKeys,
@@ -9,6 +9,7 @@ import {
   FiltersSidebar,
   type SortingParams,
   queryKey,
+  buildMetaTitle,
 } from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { GetAdminListQuerySchema, type ListOption } from '@hobbies-collection/shared';
@@ -28,8 +29,8 @@ export const Route = createFileRoute('/console/films')({
     return GetAdminListQuerySchema.parse(search);
   },
   loader: async ({ context, location }) => {
-    await context.queryClient.ensureQueryData(getFilmsAdminListQueryOptions(location.search));
-    await context.queryClient.ensureQueryData(getInitialDataQueryOptions());
+    await context.queryClient.ensureQueryData(buildGetFilmsAdminListQueryOptions(location.search));
+    await context.queryClient.ensureQueryData(buildGetInitialDataQueryOptions());
   },
   component: withFormModal(QuickEditForm, PageContainer),
   staticData: {
@@ -39,7 +40,7 @@ export const Route = createFileRoute('/console/films')({
   head: () => ({
     meta: [
       {
-        title: 'Films - Films Collection',
+        title: buildMetaTitle('Films'),
       },
     ],
   }),
@@ -81,9 +82,9 @@ function PageContainer() {
     select: ({ filmId: _, ...params }) => params,
   });
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useQuery(getFilmsAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(buildGetFilmsAdminListQueryOptions(searchParams));
   const { data: initialData, isFetching: isInitialDataFetching } = useSuspenseQuery(
-    getInitialDataQueryOptions(),
+    buildGetInitialDataQueryOptions(),
   );
 
   const { onOpen: handleOptionQuickForm } = useFormModal();

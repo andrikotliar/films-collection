@@ -1,6 +1,6 @@
 import sanitize from 'sanitize-html';
 import { createFileRoute } from '@tanstack/react-router';
-import { getArticlesAdminListQueryOptions, api, queryKey } from '~/shared';
+import { buildGetArticlesAdminListQueryOptions, api, queryKey, buildMetaTitle } from '~/shared';
 import { List } from '~/routes/console/-shared';
 import { GetArticlesListQueriesSchema } from '@hobbies-collection/shared';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
@@ -10,7 +10,9 @@ export const Route = createFileRoute('/console/articles')({
     return GetArticlesListQueriesSchema.parse(search);
   },
   loader: ({ context, location }) => {
-    return context.queryClient.ensureQueryData(getArticlesAdminListQueryOptions(location.search));
+    return context.queryClient.ensureQueryData(
+      buildGetArticlesAdminListQueryOptions(location.search),
+    );
   },
   component: PageContainer,
   staticData: {
@@ -20,7 +22,7 @@ export const Route = createFileRoute('/console/articles')({
   head: () => ({
     meta: [
       {
-        title: 'Articles - Films Collection',
+        title: buildMetaTitle('Articles'),
       },
     ],
   }),
@@ -38,7 +40,7 @@ const getDeleteMutationOptions = () => {
 function PageContainer() {
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useQuery(getArticlesAdminListQueryOptions(searchParams));
+  const { data, isFetching } = useQuery(buildGetArticlesAdminListQueryOptions(searchParams));
 
   const handlePageChange = (pageIndex: number) => {
     navigate({

@@ -4,7 +4,7 @@ import {
   api,
   Form,
   type FormComponentProps,
-  getInitialDataQueryOptions,
+  buildGetInitialDataQueryOptions,
   mutateEntity,
   queryKey,
 } from '~/shared';
@@ -16,7 +16,7 @@ import { useFormModal } from '~/routes/console/-shared';
 type CollectionEventFormProps = FormComponentProps<z.infer<typeof CollectionEventFormSchema>>;
 
 export const CollectionEventForm = ({ values }: CollectionEventFormProps) => {
-  const { data } = useSuspenseQuery(getInitialDataQueryOptions());
+  const { data } = useSuspenseQuery(buildGetInitialDataQueryOptions());
   const { onClose } = useFormModal();
 
   const { mutateAsync, isPending } = useMutation({

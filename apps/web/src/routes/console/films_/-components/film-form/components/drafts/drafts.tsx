@@ -6,7 +6,7 @@ import {
   api,
   Button,
   ConfirmModal,
-  getFilmDraftsQueryOptions,
+  buildGetFilmDraftsQueryOptions,
   Modal,
   Panel,
   queryKey,
@@ -23,7 +23,7 @@ type DraftsProps = {
 
 export const Drafts = ({ selectedDraft, onSelectDraft }: DraftsProps) => {
   const params = useParams({ from: '/console/films_/$id' });
-  const { data } = useSuspenseQuery(getFilmDraftsQueryOptions(params.id));
+  const { data } = useSuspenseQuery(buildGetFilmDraftsQueryOptions(params.id));
   const [contentToView, setContentToView] = useState<FilmDraftResponse | null>(null);
   const [draftToDelete, setDraftToDelete] = useState<FilmDraftResponse | null>(null);
   const [askDeleteAllDrafts, setAskDeleteAllDrafts] = useState<boolean | null>(null);

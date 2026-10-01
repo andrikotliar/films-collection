@@ -1,16 +1,21 @@
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { getHobbyByTitleQueryOptions, HobbyContainer, HobbyItemsGrid, HobbyTitle } from '~/shared';
+import {
+  buildGetHobbyByTitleQueryOptions,
+  HobbyContainer,
+  HobbyItemsGrid,
+  HobbyTitle,
+} from '~/shared';
 
 export const Route = createFileRoute('/books')({
   loader: async ({ context }) => {
-    await context.queryClient.ensureQueryData(getHobbyByTitleQueryOptions('Books'));
+    await context.queryClient.ensureQueryData(buildGetHobbyByTitleQueryOptions('Books'));
   },
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  const { data } = useSuspenseQuery(getHobbyByTitleQueryOptions('Books'));
+  const { data } = useSuspenseQuery(buildGetHobbyByTitleQueryOptions('Books'));
 
   return (
     <HobbyContainer>

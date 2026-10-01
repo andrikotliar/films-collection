@@ -1,20 +1,25 @@
-import { ArticleContent, getArticlesBySlugQueryOptions, PageTitle } from '~/shared';
+import {
+  ArticleContent,
+  buildMetaTitle,
+  buildGetArticlesBySlugQueryOptions,
+  PageTitle,
+} from '~/shared';
 import { createFileRoute } from '@tanstack/react-router';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { Content, Layout } from '~/routes/about/-components';
 
 export const Route = createFileRoute('/about')({
   loader: async ({ context: { queryClient } }) => {
-    await queryClient.ensureQueryData(getArticlesBySlugQueryOptions('about'));
+    await queryClient.ensureQueryData(buildGetArticlesBySlugQueryOptions('about'));
   },
   component: AboutPageContainer,
   head: () => ({
-    meta: [{ title: 'About - Films Collection' }],
+    meta: [{ title: buildMetaTitle('About') }],
   }),
 });
 
 function AboutPageContainer() {
-  const { data: article } = useSuspenseQuery(getArticlesBySlugQueryOptions('about'));
+  const { data: article } = useSuspenseQuery(buildGetArticlesBySlugQueryOptions('about'));
 
   return (
     <Layout>

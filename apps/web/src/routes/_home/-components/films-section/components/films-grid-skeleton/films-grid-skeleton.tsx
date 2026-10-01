@@ -1,11 +1,11 @@
-import { PageTitle, SkeletonBlock } from '~/shared';
+import { APP_TITLE, PageTitle, SkeletonBlock } from '~/shared';
 import styles from './films-grid-skeleton.module.css';
 
 export const FilmsGridSkeleton = () => {
   return (
     <>
       <div>
-        <PageTitle>Films Collection</PageTitle>
+        <PageTitle>{APP_TITLE}</PageTitle>
       </div>
       <div className={styles.grid}>
         {Array.from({ length: 48 }, (_, index) => (

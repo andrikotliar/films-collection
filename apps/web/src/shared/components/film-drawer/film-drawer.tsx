@@ -9,7 +9,7 @@ import {
   PageSkeleton,
   SummarySection,
 } from '~/shared/components/film-drawer/components';
-import { getAdminFilmQueryOptions, getFilmQueryOptions } from '~/shared/helpers';
+import { buildGetAdminFilmQueryOptions, buildGetFilmQueryOptions } from '~/shared/helpers';
 import { useLocation, useNavigate } from '@tanstack/react-router';
 
 type FilmDrawerProps = {
@@ -18,10 +18,10 @@ type FilmDrawerProps = {
 
 const getQueryOptions = (isConsole: boolean, filmId: number) => {
   if (isConsole) {
-    return getAdminFilmQueryOptions(filmId);
+    return buildGetAdminFilmQueryOptions(filmId);
   }
 
-  return getFilmQueryOptions(filmId);
+  return buildGetFilmQueryOptions(filmId);
 };
 
 export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {

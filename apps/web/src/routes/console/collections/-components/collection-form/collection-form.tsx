@@ -3,8 +3,8 @@ import {
   type FormComponentProps,
   Form,
   api,
-  getFilmsByCollectionQueryOptions,
-  getInitialDataQueryOptions,
+  buildGetFilmsByCollectionQueryOptions,
+  buildGetInitialDataQueryOptions,
   mutateEntity,
   queryKey,
 } from '~/shared';
@@ -17,9 +17,9 @@ import { FilmsSelect } from '~/routes/console/collections/-components/films-sele
 type CollectionFormProps = FormComponentProps<z.infer<typeof CollectionFormSchema>>;
 
 export const CollectionForm = ({ values }: CollectionFormProps) => {
-  const { data } = useQuery(getInitialDataQueryOptions());
+  const { data } = useQuery(buildGetInitialDataQueryOptions());
   const { onClose } = useFormModal();
-  const { data: films = [] } = useQuery(getFilmsByCollectionQueryOptions(values.id));
+  const { data: films = [] } = useQuery(buildGetFilmsByCollectionQueryOptions(values.id));
 
   const { mutateAsync, isPending } = useMutation({
     mutationFn: mutateEntity(api.collections.create, api.collections.update),

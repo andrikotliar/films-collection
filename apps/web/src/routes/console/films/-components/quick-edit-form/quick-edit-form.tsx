@@ -7,9 +7,9 @@ import {
   api,
   FieldError,
   Form,
-  getAdminFilmDetailsQueryOptions,
+  buildGetAdminFilmDetailsQueryOptions,
   getObjectsDiff,
-  getUserDataQueryOptions,
+  buildGetUserDataQueryOptions,
   Loader,
   queryKey,
   type FormComponentProps,
@@ -18,8 +18,8 @@ import {
 type QuickEditFormProps = FormComponentProps<{ id: number }>;
 
 export const QuickEditForm = ({ values }: QuickEditFormProps) => {
-  const { data, isLoading } = useQuery(getAdminFilmDetailsQueryOptions(values.id));
-  const { data: user } = useQuery(getUserDataQueryOptions());
+  const { data, isLoading } = useQuery(buildGetAdminFilmDetailsQueryOptions(values.id));
+  const { data: user } = useQuery(buildGetUserDataQueryOptions());
 
   const { onClose: closeQuickEditForm } = useFormModal();
 

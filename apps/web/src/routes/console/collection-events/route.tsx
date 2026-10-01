@@ -2,12 +2,13 @@ import { createFileRoute } from '@tanstack/react-router';
 import { mutationOptions, useQuery } from '@tanstack/react-query';
 import {
   getDateMonthLabel,
-  getCollectionEventsQueryOptions,
+  buildGetCollectionEventsQueryOptions,
   api,
   type FormModalValues,
   getDefaultDateCode,
   getEmptyFormValues,
   queryKey,
+  buildMetaTitle,
 } from '~/shared';
 import { CollectionEventForm } from '~/routes/console/collection-events/-components';
 import { List, useFormModal, withFormModal } from '~/routes/console/-shared';
@@ -32,7 +33,9 @@ export const Route = createFileRoute('/console/collection-events')({
   validateSearch: (search) => CommonListQuerySchema.parse(search),
   component: withFormModal(CollectionEventForm, CollectionEventsContainer),
   loader: ({ context, location }) => {
-    return context.queryClient.ensureQueryData(getCollectionEventsQueryOptions(location.search));
+    return context.queryClient.ensureQueryData(
+      buildGetCollectionEventsQueryOptions(location.search),
+    );
   },
   staticData: {
     title: 'Collections Events',
@@ -41,7 +44,7 @@ export const Route = createFileRoute('/console/collection-events')({
   head: () => ({
     meta: [
       {
-        title: 'Collection Events - Films Collection',
+        title: buildMetaTitle('Collection Events'),
       },
     ],
   }),
@@ -67,7 +70,7 @@ function CollectionEventsContainer() {
   const { onOpen } = useFormModal<FormModalValues<typeof CollectionEventForm>>();
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
-  const { data, isFetching } = useQuery(getCollectionEventsQueryOptions(search));
+  const { data, isFetching } = useQuery(buildGetCollectionEventsQueryOptions(search));
 
   const handlePageChange = (index: number) => {
     navigate({

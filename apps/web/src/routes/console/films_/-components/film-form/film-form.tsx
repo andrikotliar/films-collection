@@ -3,11 +3,11 @@ import { useMutation, useQuery, useSuspenseQuery } from '@tanstack/react-query';
 import {
   api,
   Form,
-  getAllCollectionOptionsQueryOptions,
-  getFilmsByCollectionQueryOptions,
-  getInitialDataQueryOptions,
+  buildGetAllCollectionOptionsQueryOptions,
+  buildGetFilmsByCollectionQueryOptions,
+  buildGetInitialDataQueryOptions,
   getObjectsDiff,
-  getUserDataQueryOptions,
+  buildGetUserDataQueryOptions,
   isNewItem,
   Panel,
   queryKey,
@@ -38,9 +38,9 @@ type CreateNewEntityInput = {
 };
 
 export const FilmForm = ({ values }: FilmFormProps) => {
-  const { data: initialOptions } = useSuspenseQuery(getInitialDataQueryOptions());
-  const { data: collectionOptions } = useSuspenseQuery(getAllCollectionOptionsQueryOptions());
-  const { data: user } = useQuery(getUserDataQueryOptions());
+  const { data: initialOptions } = useSuspenseQuery(buildGetInitialDataQueryOptions());
+  const { data: collectionOptions } = useSuspenseQuery(buildGetAllCollectionOptionsQueryOptions());
+  const { data: user } = useQuery(buildGetUserDataQueryOptions());
   const [selectedDraft, setSelectedDraft] = useState<FilmDraftResponse | null>(null);
   const navigate = useNavigate();
   const searchParams = useSearch({ from: '/console/films_/$id' });
@@ -190,7 +190,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         />
         <CollectionsSelect
           options={collectionOptions}
-          getCurrentCollection={getFilmsByCollectionQueryOptions}
+          getCurrentCollection={buildGetFilmsByCollectionQueryOptions}
           currentItemId={values.id}
         />
         <Form.DatePicker name="releaseDate" label="Release Date" />
