@@ -48,7 +48,7 @@ export const FilmDrawer = ({ filmId }: FilmDrawerProps) => {
         <FilmPageLayout>
           <SummarySection film={film} hasExtendedData={hasExtendedData} />
           <ContentLayout>
-            {film.synopsis && <Description value={film.synopsis} />}
+            {film.description && <Description value={film.description} />}
             {film.castAndCrew.length !== 0 && <CastAndCrew data={film.castAndCrew} />}
             {film.awards.length > 0 && <Awards data={film.awards} />}
           </ContentLayout>

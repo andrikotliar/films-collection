@@ -14,4 +14,3 @@ export * from './people.schema.js';
 export * from './studios.schema.js';
 export * from './users.schema.js';
 export * from './common.schema.js';
-export * from './hobbies.schema.js';

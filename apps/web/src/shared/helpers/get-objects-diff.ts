@@ -1,4 +1,10 @@
-export const getObjectsDiff = (prev: any, next: any): any => {
+export const getObjectsDiff = <
+  TPrev extends Record<string, any>,
+  TNext extends Record<string, any>,
+>(
+  prev: TPrev | null | undefined,
+  next: TNext | null | undefined,
+): Partial<TNext> | null | undefined => {
   if (Object.is(prev, next)) {
     return undefined;
   }
@@ -41,11 +47,11 @@ export const getObjectsDiff = (prev: any, next: any): any => {
   const keys = new Set([...Object.keys(prev), ...Object.keys(next)]);
 
   for (const key of keys) {
-    const diff = getObjectsDiff(prev[key], next[key]);
+    const diff = getObjectsDiff(prev[key as keyof TPrev], next[key]);
     if (diff !== undefined) {
       result[key] = diff;
     }
   }
 
-  return Object.keys(result).length ? result : undefined;
+  return Object.keys(result).length ? (result as Partial<TNext>) : undefined;
 };

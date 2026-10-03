@@ -61,8 +61,8 @@ const skeletonSummaryConfig: SummaryConfig[] = [
     content: <SkeletonBlock width="100%" height="41px" />,
   },
   {
-    id: 'synopsis',
-    title: 'Synopsis',
+    id: 'description',
+    title: 'Description',
     icon: <FileTextIcon />,
     content: <SkeletonBlock width="100%" height="60px" />,
   },

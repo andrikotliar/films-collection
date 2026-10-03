@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { DraftLevel, PersonRole, TitleType } from '../enums/index.js';
+import { DraftLevel, PersonRole, FilmType } from '../enums/index.js';
 import { getArrayFromQuery, getBoolFromQuery, getListResponseSchema } from '../helpers/index.js';
 import { AwardResponseSchema, NominationResponseSchema } from './awards.schema.js';
 import { CollectionCurrentEventsListResponseSchema } from './collection-events.schema.js';
@@ -20,7 +20,7 @@ const SeriesExtensionSchema = z.object({
 
 export const CreateFilmInputSchema = z.object({
   title: z.string().nonempty(),
-  type: z.enum(TitleType),
+  type: z.enum(FilmType),
   rating: z.coerce.number().min(1).max(3),
   imagePath: z.string().optional().nullable(),
   genres: z.array(z.number()),
@@ -38,7 +38,7 @@ export const CreateFilmInputSchema = z.object({
   releaseDate: DateStringSchema.nullable(),
   budget: z.coerce.number().max(900_000_000),
   boxOffice: z.coerce.number().max(4_000_000_000),
-  synopsis: z.string().nullable(),
+  description: z.string().nullable(),
   castAndCrew: z.array(
     z.object({
       role: z.enum(PersonRole),
@@ -90,7 +90,7 @@ export const GetFilmsListQuerySchema = z.object({
   awardId: z.coerce.number().optional(),
   budget: z.coerce.number().optional(),
   boxOffice: z.coerce.number().optional(),
-  type: z.enum(TitleType).optional(),
+  type: z.enum(FilmType).optional(),
   personRole: z.enum(PersonRole).optional(),
   genreIds: getArrayFromQuery(z.coerce.number()).optional(),
   studioIds: getArrayFromQuery(z.coerce.number()).optional(),
@@ -133,9 +133,9 @@ export const FilmResponseSchema = z.object({
   id: z.coerce.number(),
   title: z.string(),
   imagePath: z.string().nullable(),
-  type: z.enum(TitleType),
+  type: z.enum(FilmType),
   duration: z.coerce.number(),
-  synopsis: z.string().nullable(),
+  description: z.string().nullable(),
   rating: z.coerce.number(),
   releaseDate: z.string().nullable(),
   budget: z.coerce.number().nullable(),
@@ -257,7 +257,7 @@ export const CompleteDataListItemSchema = z.object({
     duration: true,
     budget: true,
     boxOffice: true,
-    synopsis: true,
+    description: true,
     imagePath: true,
   }).shape,
   genres: z.array(GenreResponseSchema.pick({ title: true, id: true })),

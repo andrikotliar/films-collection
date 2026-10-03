@@ -1,7 +1,7 @@
 import {
   DraftLevel,
   enumValues,
-  TitleType,
+  FilmType,
   type GetAdminListQueryParams,
   type GetFilmsListQuery,
   type TDraftLevel,
@@ -272,7 +272,7 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
   }
 
   if (noDescription) {
-    filters.push(or(isNull(films.synopsis), sql`LENGTH(synopsis) = 0`));
+    filters.push(or(isNull(films.description), sql`LENGTH(description) = 0`));
   }
 
   if (noBoxOffice && type !== 'SERIES') {
@@ -295,7 +295,7 @@ export const mapListFilters = (plainFilters: PlainFilmFilters, db: Database): Ma
 
   if (incompleteBoxOffice) {
     filters.push(
-      sql`type <> ${TitleType.SERIES} AND draft = false and (box_office = 0 OR (EXTRACT(DAY FROM updated_at - release_date) < 90) AND release_date < NOW())`,
+      sql`type <> ${FilmType.SERIES} AND draft = false and (box_office = 0 OR (EXTRACT(DAY FROM updated_at - release_date) < 90) AND release_date < NOW())`,
     );
   }
 

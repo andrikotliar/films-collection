@@ -47,7 +47,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
 
   const { isPending, mutateAsync: handleSubmit } = useMutation({
     mutationFn: async (data: z.infer<typeof FilmFormSchema>) => {
-      validateLanguage(data.synopsis, user);
+      validateLanguage(data.description, user);
 
       const imagePath = await uploadImage({
         image: data.imagePath,
@@ -197,7 +197,7 @@ export const FilmForm = ({ values }: FilmFormProps) => {
         <Form.TextInput name="duration" type="number" label="Runtime (min)" min="0" />
         <MoneyInput name="budget" label="Budget" />
         <MoneyInput name="boxOffice" label="Box Office" />
-        <DescriptionEditor name="synopsis" label="Description" />
+        <DescriptionEditor name="description" label="Description" />
         <AwardsSelect awardOptions={initialOptions.options.awards} />
         <CastAndCrewSelect positionOptions={initialOptions.options.roles} />
         <Form.Checkbox name="draft" label="Draft" type="checkbox" />

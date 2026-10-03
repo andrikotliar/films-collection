@@ -19,10 +19,12 @@ import {
   filmsPeople,
   users,
   usersSessions,
-  hobbies,
-  hobbyItems,
-  hobbyItemsCollections,
-  hobbyItemsPeople,
+  booksCollections,
+  booksAuthors,
+  books,
+  booksGenres,
+  boardGames,
+  boardGamesCreators,
 } from './schema.js';
 
 export const filmsRelations = relations(films, ({ many }) => ({
@@ -51,7 +53,7 @@ export const collectionEventsRelations = relations(collectionEvents, ({ one }) =
 export const collectionsRelations = relations(collections, ({ many }) => ({
   collectionEvents: many(collectionEvents),
   films: many(filmsCollections),
-  hobbyItems: many(hobbyItemsCollections),
+  books: many(booksCollections),
 }));
 
 export const filmsCollectionsRelations = relations(filmsCollections, ({ one }) => ({
@@ -107,7 +109,8 @@ export const nominationsRelations = relations(nominations, ({ one, many }) => ({
 export const peopleRelations = relations(people, ({ many }) => ({
   awards: many(filmAwardNominations),
   films: many(filmsPeople),
-  hobbyItems: many(hobbyItemsPeople),
+  books: many(booksAuthors),
+  boardGames: many(boardGames),
 }));
 
 export const filmsCountriesRelations = relations(filmsCountries, ({ one }) => ({
@@ -177,37 +180,48 @@ export const usersRelations = relations(users, ({ many }) => ({
   sessions: many(usersSessions),
 }));
 
-export const hobbiesRelations = relations(hobbies, ({ many }) => ({
-  items: many(hobbyItems),
+export const booksRelations = relations(books, ({ many }) => ({
+  authors: many(people),
+  genres: many(genres),
+  collections: many(collections),
 }));
 
-export const hobbyItemsRelations = relations(hobbyItems, ({ one, many }) => ({
-  hobby: one(hobbies, {
-    fields: [hobbyItems.hobbyId],
-    references: [hobbies.id],
+export const booksAuthorsRelations = relations(booksAuthors, ({ one }) => ({
+  author: one(people, {
+    fields: [booksAuthors.authorId],
+    references: [people.id],
   }),
-  collections: many(hobbyItemsCollections),
-  authors: many(hobbyItemsPeople),
+  book: one(books, {
+    fields: [booksAuthors.bookId],
+    references: [books.id],
+  }),
 }));
 
-export const hobbyItemsCollectionsRelations = relations(hobbyItemsCollections, ({ one }) => ({
-  hobbyItem: one(hobbyItems, {
-    fields: [hobbyItemsCollections.hobbyItemId],
-    references: [hobbyItems.id],
+export const booksGenresRelations = relations(booksGenres, ({ one }) => ({
+  genre: one(genres, {
+    fields: [booksGenres.genreId],
+    references: [genres.id],
   }),
+  book: one(books, {
+    fields: [booksGenres.bookId],
+    references: [books.id],
+  }),
+}));
+
+export const booksCollectionsRelations = relations(booksCollections, ({ one }) => ({
   collection: one(collections, {
-    fields: [hobbyItemsCollections.collectionId],
+    fields: [booksCollections.collectionId],
     references: [collections.id],
   }),
+  book: one(books, {
+    fields: [booksCollections.bookId],
+    references: [books.id],
+  }),
 }));
 
-export const hobbyItemsPeopleRelations = relations(hobbyItemsPeople, ({ one }) => ({
-  hobbyItem: one(hobbyItems, {
-    fields: [hobbyItemsPeople.hobbyItemId],
-    references: [hobbyItems.id],
-  }),
-  person: one(people, {
-    fields: [hobbyItemsPeople.personId],
+export const boardGamesCreatorsRelations = relations(boardGamesCreators, ({ one }) => ({
+  creator: one(people, {
+    fields: [boardGamesCreators.creatorId],
     references: [people.id],
   }),
 }));

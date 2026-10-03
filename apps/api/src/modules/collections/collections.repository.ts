@@ -6,13 +6,8 @@ import {
   type CreateCollectionInput,
   type UpdateCollectionInput,
 } from '@hobbies-collection/shared';
-import { and, asc, count, eq, ne, inArray, type SQL, exists } from 'drizzle-orm';
-import {
-  collections,
-  filmsCollections,
-  hobbyItems,
-  hobbyItemsCollections,
-} from '~/database/schema.js';
+import { and, asc, count, eq, ne, inArray, type SQL } from 'drizzle-orm';
+import { collections, filmsCollections } from '~/database/schema.js';
 import { getCount } from '~/shared/helpers/get-count.js';
 import { getFirstValue } from '~/shared/helpers/get-first-value.js';
 import { mapCommonFilters } from '~/shared/helpers/map-common-filters.js';
@@ -116,26 +111,5 @@ export class CollectionsRepository {
       .where(eq(filmsCollections.collectionId, collectionId));
 
     return result.count;
-  }
-
-  async getHobbyRelatedCollections(hobbyId: number) {
-    return this.deps.db
-      .select()
-      .from(collections)
-      .where(
-        exists(
-          this.deps.db
-            .select()
-            .from(hobbyItemsCollections)
-            .innerJoin(
-              hobbyItems,
-              and(
-                eq(hobbyItems.id, hobbyItemsCollections.hobbyItemId),
-                eq(hobbyItems.hobbyId, hobbyId),
-              ),
-            )
-            .where(eq(hobbyItemsCollections.collectionId, collections.id)),
-        ),
-      );
   }
 }

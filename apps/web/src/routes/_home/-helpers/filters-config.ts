@@ -1,6 +1,6 @@
 import {
   GetFilmsListQuerySchema,
-  TitleType,
+  FilmType,
   type InitialDataResponse,
   type ListOption,
 } from '@hobbies-collection/shared';
@@ -18,7 +18,7 @@ const ALL_COLLECTIONS_OPTION: ListOption<number> = {
 };
 
 export const FiltersSchema = GetFilmsListQuerySchema.extend({
-  type: z.enum({ ...TitleType, all: 'all' }),
+  type: z.enum({ ...FilmType, all: 'all' }),
 });
 
 type FilterValues = z.infer<typeof FiltersSchema>;
@@ -48,7 +48,7 @@ export const getFiltersConfig = (
       type: 'number',
       dependsOn: {
         filter: 'type',
-        value: TitleType.SERIES,
+        value: FilmType.SERIES,
       },
     },
     {
@@ -57,7 +57,7 @@ export const getFiltersConfig = (
       type: 'number',
       dependsOn: {
         filter: 'type',
-        value: TitleType.SERIES,
+        value: FilmType.SERIES,
       },
     },
     {

@@ -31,11 +31,16 @@ export const QuickEditForm = ({ values }: QuickEditFormProps) => {
         return;
       }
 
-      validateLanguage(diff.synopsis, user);
+      if (diff.description) {
+        validateLanguage(diff.description, user);
+      }
 
       return await api.films.update({
         params: { id: values.id },
-        input: diff,
+        input: {
+          ...diff,
+          imagePath: typeof diff.imagePath === 'string' ? diff.imagePath : undefined,
+        },
       });
     },
     onSuccess: closeQuickEditForm,
@@ -64,7 +69,7 @@ export const QuickEditForm = ({ values }: QuickEditFormProps) => {
       isLoading={isPending}
     >
       <Form.TextInput name="title" />
-      <DescriptionEditor name="synopsis" label="Description" />
+      <DescriptionEditor name="description" label="Description" />
       <Form.RatingInput name="rating" size={3} />
       <Form.Checkbox label="Draft" name="draft" type="checkbox" />
     </Form>

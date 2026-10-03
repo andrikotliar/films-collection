@@ -246,6 +246,13 @@
       "when": 1789919020073,
       "tag": "0035_rename-image-columns-to-image-path",
       "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1791023591230,
+      "tag": "0036_add-books-and-board-games",
+      "breakpoints": true
     }
   ]
 }

@@ -3,11 +3,11 @@ import { Modal, type api, type ApiResponse } from '~/shared';
 import { useState } from 'react';
 import { PlayIcon } from 'lucide-react';
 import { TrailersPlaylist } from './components';
-import type { Enum, TitleType } from '@hobbies-collection/shared';
+import type { Enum, FilmType } from '@hobbies-collection/shared';
 
 type TrailersButtonProps = {
   data: ApiResponse<typeof api.films.getById>['trailers'];
-  type: Enum<typeof TitleType>;
+  type: Enum<typeof FilmType>;
 };
 
 export const TrailersButton = ({ data, type }: TrailersButtonProps) => {

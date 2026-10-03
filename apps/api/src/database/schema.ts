@@ -2,7 +2,7 @@ import {
   CollectionCategory,
   type DeviceInfo,
   PersonRole,
-  TitleType,
+  FilmType,
 } from '@hobbies-collection/shared';
 import {
   pgTable,
@@ -20,18 +20,19 @@ import {
   numeric,
   jsonb,
   varchar,
+  unique,
 } from 'drizzle-orm/pg-core';
 
 export const collectionCategory = pgEnum('collection_category', CollectionCategory);
 export const personRole = pgEnum('person_role', PersonRole);
-export const titleType = pgEnum('title_type', TitleType);
+export const filmType = pgEnum('title_type', FilmType);
 
 export const films = pgTable(
   'films',
   {
     id: serial().primaryKey().notNull(),
     title: text().notNull(),
-    type: titleType().default('FILM').notNull(),
+    type: filmType().default('FILM').notNull(),
     releaseDate: date('release_date'),
     duration: integer().default(0).notNull(),
     imagePath: text('image_path'),
@@ -45,7 +46,7 @@ export const films = pgTable(
       .$onUpdate(() => new Date().toISOString())
       .notNull(),
     deletedAt: timestamp('deleted_at', { precision: 3, mode: 'string' }),
-    synopsis: text(),
+    description: text(),
     draft: boolean().notNull().default(false),
   },
   (table) => [
@@ -571,10 +572,13 @@ export const usersSessions = pgTable(
   ],
 );
 
-export const hobbies = pgTable('hobbies', {
-  id: serial().primaryKey().notNull(),
-  title: text().notNull(),
-  imagePath: text('image_path'),
+export const books = pgTable('books', {
+  id: serial('id').primaryKey().notNull(),
+  title: text('title').notNull(),
+  description: text('description').notNull(),
+  publicationYear: integer('publication_year').notNull(),
+  pagesNumber: integer('pages_number').notNull(),
+  rating: integer('rating').notNull().default(1),
   createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
   updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
     .defaultNow()
@@ -582,15 +586,16 @@ export const hobbies = pgTable('hobbies', {
     .notNull(),
 });
 
-export const hobbyItems = pgTable(
-  'hobby_items',
+export const booksAuthors = pgTable(
+  'books_authors',
   {
-    id: serial().primaryKey().notNull(),
-    title: text().notNull(),
-    description: text().notNull(),
-    hobbyId: integer('hobby_id').notNull(),
-    releaseYear: integer('release_year').notNull(),
-    imagePath: text('image_path'),
+    id: serial('id').primaryKey().notNull(),
+    bookId: integer('book_id')
+      .notNull()
+      .references(() => books.id),
+    authorId: integer('author_id')
+      .notNull()
+      .references(() => people.id),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()
@@ -599,22 +604,29 @@ export const hobbyItems = pgTable(
   },
   (table) => [
     foreignKey({
-      columns: [table.hobbyId],
-      foreignColumns: [hobbies.id],
-      name: 'hobby_items_hobby_id_fkey',
-    })
-      .onDelete('cascade')
-      .onUpdate('cascade'),
+      name: 'book_authors_book_id_fkey',
+      columns: [table.bookId],
+      foreignColumns: [books.id],
+    }).onDelete('cascade'),
+    foreignKey({
+      name: 'book_authors_author_id_fkey',
+      columns: [table.authorId],
+      foreignColumns: [people.id],
+    }).onDelete('cascade'),
+    unique('book_author_unique').on(table.bookId, table.authorId),
   ],
 );
 
-export const hobbyItemsCollections = pgTable(
-  'hobby_items_collections',
+export const booksGenres = pgTable(
+  'books_genres',
   {
-    id: serial().primaryKey().notNull(),
-    hobbyItemId: integer('hobby_item_id').notNull(),
-    collectionId: integer('collection_id').notNull(),
-    order: integer('order'),
+    id: serial('id').primaryKey().notNull(),
+    bookId: integer('book_id')
+      .notNull()
+      .references(() => books.id),
+    genreId: integer('genre_id')
+      .notNull()
+      .references(() => genres.id),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()
@@ -622,30 +634,76 @@ export const hobbyItemsCollections = pgTable(
       .notNull(),
   },
   (table) => [
-    uniqueIndex('hobby_items_collections_hobby_item_id_collection_id_key').using(
-      'btree',
-      table.hobbyItemId.asc().nullsLast().op('int4_ops'),
-      table.collectionId.asc().nullsLast().op('int4_ops'),
-    ),
     foreignKey({
-      name: 'hobby_items_collections_hobby_item_id_fkey',
-      columns: [table.hobbyItemId],
-      foreignColumns: [hobbyItems.id],
+      name: 'book_genres_book_id_fkey',
+      columns: [table.bookId],
+      foreignColumns: [books.id],
     }).onDelete('cascade'),
     foreignKey({
-      name: 'hobby_items_collections_collection_id_fkey',
+      name: 'book_genres_genre_id_fkey',
+      columns: [table.genreId],
+      foreignColumns: [genres.id],
+    }).onDelete('cascade'),
+    unique('book_genres_unique').on(table.bookId, table.genreId),
+  ],
+);
+
+export const booksCollections = pgTable(
+  'books_collections',
+  {
+    id: serial('id').primaryKey().notNull(),
+    bookId: integer('book_id')
+      .notNull()
+      .references(() => books.id),
+    collectionId: integer('collection_id')
+      .notNull()
+      .references(() => collections.id),
+    createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+      .defaultNow()
+      .$onUpdate(() => new Date().toISOString())
+      .notNull(),
+  },
+  (table) => [
+    foreignKey({
+      name: 'book_collections_book_id_fkey',
+      columns: [table.bookId],
+      foreignColumns: [books.id],
+    }).onDelete('cascade'),
+    foreignKey({
+      name: 'book_collections_collection_id_fkey',
       columns: [table.collectionId],
       foreignColumns: [collections.id],
     }).onDelete('cascade'),
+    unique('book_collections_unique').on(table.bookId, table.collectionId),
   ],
 );
 
-export const hobbyItemsPeople = pgTable(
-  'hobby_items_people',
+export const boardGames = pgTable('board_games', {
+  id: serial('id').primaryKey().notNull(),
+  title: text('title').notNull(),
+  description: text('description').notNull(),
+  mainGameId: integer('main_game_id'),
+  gamesPlayed: integer('games_played').default(0),
+  releasedYear: integer('released_year').notNull(),
+  rating: integer('rating').notNull().default(1),
+  createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
+    .defaultNow()
+    .$onUpdate(() => new Date().toISOString())
+    .notNull(),
+});
+
+export const boardGamesCreators = pgTable(
+  'board_games_creators',
   {
-    id: serial().primaryKey().notNull(),
-    hobbyItemId: integer('hobby_item_id').notNull(),
-    personId: integer('person_id').notNull(),
+    id: serial('id').primaryKey().notNull(),
+    boardGameId: integer('board_game_id')
+      .notNull()
+      .references(() => boardGames.id),
+    creatorId: integer('creator_id')
+      .notNull()
+      .references(() => people.id),
     createdAt: timestamp('created_at', { precision: 3, mode: 'string' }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { precision: 3, mode: 'string' })
       .defaultNow()
@@ -653,19 +711,14 @@ export const hobbyItemsPeople = pgTable(
       .notNull(),
   },
   (table) => [
-    uniqueIndex('hobby_items_people_hobby_item_id_collection_id_key').using(
-      'btree',
-      table.hobbyItemId.asc().nullsLast().op('int4_ops'),
-      table.personId.asc().nullsLast().op('int4_ops'),
-    ),
     foreignKey({
-      name: 'hobby_items_people_hobby_item_id_fkey',
-      columns: [table.hobbyItemId],
-      foreignColumns: [hobbyItems.id],
+      name: 'board_games_creators_board_game_id_fkey',
+      columns: [table.boardGameId],
+      foreignColumns: [boardGames.id],
     }).onDelete('cascade'),
     foreignKey({
-      name: 'hobby_items_people_collection_id_fkey',
-      columns: [table.personId],
+      name: 'board_games_creators_creator_id_fkey',
+      columns: [table.creatorId],
       foreignColumns: [people.id],
     }).onDelete('cascade'),
   ],
@@ -684,10 +737,10 @@ export type Collection = typeof collections.$inferSelect;
 export type SeriesExtension = typeof seriesExtensions.$inferSelect;
 export type FilmTrailer = typeof filmTrailers.$inferSelect;
 export type FilmCollection = typeof filmsCollections.$inferSelect;
-export type FilmGenre = typeof filmsGenres.$inferInsert;
-export type FilmStudio = typeof filmsStudios.$inferInsert;
-export type FilmCountry = typeof filmsCountries.$inferInsert;
+export type FilmGenre = typeof filmsGenres.$inferSelect;
+export type FilmStudio = typeof filmsStudios.$inferSelect;
+export type FilmCountry = typeof filmsCountries.$inferSelect;
 export type User = typeof users.$inferSelect;
-export type UserSession = typeof usersSessions.$inferInsert;
-export type Hobby = typeof hobbies.$inferInsert;
-export type HobbyItem = typeof hobbyItems.$inferInsert;
+export type UserSession = typeof usersSessions.$inferSelect;
+export type Book = typeof books.$inferSelect;
+export type BoardGame = typeof boardGames.$inferSelect;

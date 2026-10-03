@@ -1,10 +1,10 @@
 import type { api, ApiResponse } from '~/shared';
 
 export const validateLanguage = (
-  synopsis: string | null,
+  description: string | null,
   user?: ApiResponse<typeof api.users.getUser>,
 ) => {
-  if (!synopsis?.length) {
+  if (!description?.length) {
     return;
   }
 
@@ -17,7 +17,7 @@ export const validateLanguage = (
   }
 
   const regex = new RegExp(user.translationPreferences.toValidation);
-  const correctLang = regex.test(synopsis);
+  const correctLang = regex.test(description);
 
   if (correctLang) {
     return;

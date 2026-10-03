@@ -1,5 +1,5 @@
 import { convertEnumValuesToOption, type InitialDataResponse } from '@hobbies-collection/shared';
-import { collectionCategory, personRole, titleType } from '~/database/schema.js';
+import { collectionCategory, personRole, filmType } from '~/database/schema.js';
 import type { Deps } from '~/shared/types/deps.js';
 
 export class InitialDataService {
@@ -26,7 +26,7 @@ export class InitialDataService {
       this.deps.peopleService.getSelectedListOptions(),
     ]);
 
-    const types = convertEnumValuesToOption(titleType.enumValues);
+    const types = convertEnumValuesToOption(filmType.enumValues);
     const roles = convertEnumValuesToOption(personRole.enumValues);
     const collectionCategories = convertEnumValuesToOption(collectionCategory.enumValues);
 

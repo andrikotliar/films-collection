@@ -82,9 +82,7 @@ export class CollectionsService {
     return this.deps.collectionsRepository.countFilmsByCollection(id);
   }
 
-  async getOptionsByHobbyId(hobbyId: number) {
-    const collections = await this.deps.collectionsRepository.getHobbyRelatedCollections(hobbyId);
-
-    return buildListOptions(collections);
+  async getOptionsByHobbyId(_hobbyId: number) {
+    return buildListOptions([]);
   }
 }

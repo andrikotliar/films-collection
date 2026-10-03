@@ -6,9 +6,9 @@ import { Form } from '~/shared';
 export const SeriesExtension = () => {
   const { watch } = useFormContext<z.infer<typeof FilmFormSchema>>();
 
-  const titleType = watch('type');
+  const filmType = watch('type');
 
-  if (!titleType?.includes('SERIES')) {
+  if (!filmType?.includes('SERIES')) {
     return null;
   }
 

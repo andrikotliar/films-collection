@@ -1,9 +1,68 @@
 {
-  "id": "d1ff6054-f763-4b40-99ca-d98335fcc1d2",
-  "prevId": "d577d840-f9ad-42a7-b86c-a4d8b9355783",
+  "id": "b715b1f3-097e-4098-a3a4-9352d3fb962e",
+  "prevId": "52602db6-52ff-431d-a617-bdbf10fa6e33",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
+    "public.articles": {
+      "name": "articles",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "articles_slug_unique": {
+          "name": "articles_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "slug"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
     "public.awards": {
       "name": "awards",
       "schema": "",
@@ -31,14 +90,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -62,6 +121,560 @@
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.board_games": {
+      "name": "board_games",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "main_game_id": {
+          "name": "main_game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "games_played": {
+          "name": "games_played",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "default": 0
+        },
+        "released_year": {
+          "name": "released_year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "rating": {
+          "name": "rating",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 1
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.board_games_creators": {
+      "name": "board_games_creators",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "board_game_id": {
+          "name": "board_game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "creator_id": {
+          "name": "creator_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "board_games_creators_board_game_id_board_games_id_fk": {
+          "name": "board_games_creators_board_game_id_board_games_id_fk",
+          "tableFrom": "board_games_creators",
+          "tableTo": "board_games",
+          "columnsFrom": [
+            "board_game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "board_games_creators_creator_id_people_id_fk": {
+          "name": "board_games_creators_creator_id_people_id_fk",
+          "tableFrom": "board_games_creators",
+          "tableTo": "people",
+          "columnsFrom": [
+            "creator_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "board_games_creators_board_game_id_fkey": {
+          "name": "board_games_creators_board_game_id_fkey",
+          "tableFrom": "board_games_creators",
+          "tableTo": "board_games",
+          "columnsFrom": [
+            "board_game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "board_games_creators_creator_id_fkey": {
+          "name": "board_games_creators_creator_id_fkey",
+          "tableFrom": "board_games_creators",
+          "tableTo": "people",
+          "columnsFrom": [
+            "creator_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.books": {
+      "name": "books",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "publication_year": {
+          "name": "publication_year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "pages_number": {
+          "name": "pages_number",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "rating": {
+          "name": "rating",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 1
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.books_authors": {
+      "name": "books_authors",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "book_id": {
+          "name": "book_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "author_id": {
+          "name": "author_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "books_authors_book_id_books_id_fk": {
+          "name": "books_authors_book_id_books_id_fk",
+          "tableFrom": "books_authors",
+          "tableTo": "books",
+          "columnsFrom": [
+            "book_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "books_authors_author_id_people_id_fk": {
+          "name": "books_authors_author_id_people_id_fk",
+          "tableFrom": "books_authors",
+          "tableTo": "people",
+          "columnsFrom": [
+            "author_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "book_authors_book_id_fkey": {
+          "name": "book_authors_book_id_fkey",
+          "tableFrom": "books_authors",
+          "tableTo": "books",
+          "columnsFrom": [
+            "book_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "book_authors_author_id_fkey": {
+          "name": "book_authors_author_id_fkey",
+          "tableFrom": "books_authors",
+          "tableTo": "people",
+          "columnsFrom": [
+            "author_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "book_author_unique": {
+          "name": "book_author_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "book_id",
+            "author_id"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.books_collections": {
+      "name": "books_collections",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "book_id": {
+          "name": "book_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "collection_id": {
+          "name": "collection_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "books_collections_book_id_books_id_fk": {
+          "name": "books_collections_book_id_books_id_fk",
+          "tableFrom": "books_collections",
+          "tableTo": "books",
+          "columnsFrom": [
+            "book_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "books_collections_collection_id_collections_id_fk": {
+          "name": "books_collections_collection_id_collections_id_fk",
+          "tableFrom": "books_collections",
+          "tableTo": "collections",
+          "columnsFrom": [
+            "collection_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "book_collections_book_id_fkey": {
+          "name": "book_collections_book_id_fkey",
+          "tableFrom": "books_collections",
+          "tableTo": "books",
+          "columnsFrom": [
+            "book_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "book_collections_collection_id_fkey": {
+          "name": "book_collections_collection_id_fkey",
+          "tableFrom": "books_collections",
+          "tableTo": "collections",
+          "columnsFrom": [
+            "collection_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "book_collections_unique": {
+          "name": "book_collections_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "book_id",
+            "collection_id"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.books_genres": {
+      "name": "books_genres",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "book_id": {
+          "name": "book_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "genre_id": {
+          "name": "genre_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "books_genres_book_id_books_id_fk": {
+          "name": "books_genres_book_id_books_id_fk",
+          "tableFrom": "books_genres",
+          "tableTo": "books",
+          "columnsFrom": [
+            "book_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "books_genres_genre_id_genres_id_fk": {
+          "name": "books_genres_genre_id_genres_id_fk",
+          "tableFrom": "books_genres",
+          "tableTo": "genres",
+          "columnsFrom": [
+            "genre_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "book_genres_book_id_fkey": {
+          "name": "book_genres_book_id_fkey",
+          "tableFrom": "books_genres",
+          "tableTo": "books",
+          "columnsFrom": [
+            "book_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "book_genres_genre_id_fkey": {
+          "name": "book_genres_genre_id_fkey",
+          "tableFrom": "books_genres",
+          "tableTo": "genres",
+          "columnsFrom": [
+            "genre_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "book_genres_unique": {
+          "name": "book_genres_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "book_id",
+            "genre_id"
+          ]
+        }
+      },
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false
@@ -93,14 +706,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "year_from": {
           "name": "year_from",
@@ -188,7 +801,6 @@
         "category": {
           "name": "category",
           "type": "collection_category",
-          "typeSchema": "public",
           "primaryKey": false,
           "notNull": true,
           "default": "'GENERAL'"
@@ -198,14 +810,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -254,14 +866,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -317,12 +929,6 @@
           "primaryKey": false,
           "notNull": true
         },
-        "comment": {
-          "name": "comment",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
         "actor_id": {
           "name": "actor_id",
           "type": "integer",
@@ -334,14 +940,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -436,39 +1042,6 @@
       "checkConstraints": {},
       "isRLSEnabled": false
     },
-    "public.film_chapter_keys": {
-      "name": "film_chapter_keys",
-      "schema": "",
-      "columns": {
-        "key": {
-          "name": "key",
-          "type": "text",
-          "primaryKey": true,
-          "notNull": true
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
-        },
-        "updated_at": {
-          "name": "updated_at",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {},
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {},
-      "policies": {},
-      "checkConstraints": {},
-      "isRLSEnabled": false
-    },
     "public.film_trailers": {
       "name": "film_trailers",
       "schema": "",
@@ -496,14 +1069,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "url": {
           "name": "url",
@@ -528,7 +1101,7 @@
               "isExpression": false,
               "asc": true,
               "nulls": "last",
-              "opclass": "int4_ops"
+              "opclass": "text_ops"
             }
           ],
           "isUnique": true,
@@ -577,24 +1150,15 @@
         "type": {
           "name": "type",
           "type": "title_type",
-          "typeSchema": "public",
           "primaryKey": false,
           "notNull": true,
           "default": "'FILM'"
-        },
-        "style": {
-          "name": "style",
-          "type": "title_style",
-          "typeSchema": "public",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "'LIVE_ACTION'"
         },
         "release_date": {
           "name": "release_date",
           "type": "date",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "duration": {
           "name": "duration",
@@ -603,8 +1167,8 @@
           "notNull": true,
           "default": 0
         },
-        "poster": {
-          "name": "poster",
+        "image_path": {
+          "name": "image_path",
           "type": "text",
           "primaryKey": false,
           "notNull": false
@@ -630,15 +1194,9 @@
           "notNull": true,
           "default": 1
         },
-        "chapter_key": {
-          "name": "chapter_key",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "chapter_order": {
-          "name": "chapter_order",
-          "type": "integer",
+        "added_at": {
+          "name": "added_at",
+          "type": "timestamp(3) with time zone",
           "primaryKey": false,
           "notNull": false
         },
@@ -647,14 +1205,26 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
+        },
+        "deleted_at": {
+          "name": "deleted_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
         },
         "draft": {
           "name": "draft",
@@ -662,18 +1232,6 @@
           "primaryKey": false,
           "notNull": true,
           "default": false
-        },
-        "deletedAt": {
-          "name": "deletedAt",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "overview": {
-          "name": "overview",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
         }
       },
       "indexes": {
@@ -694,21 +1252,7 @@
           "with": {}
         }
       },
-      "foreignKeys": {
-        "films_chapter_key_fkey": {
-          "name": "films_chapter_key_fkey",
-          "tableFrom": "films",
-          "tableTo": "film_chapter_keys",
-          "columnsFrom": [
-            "chapter_key"
-          ],
-          "columnsTo": [
-            "key"
-          ],
-          "onDelete": "set null",
-          "onUpdate": "cascade"
-        }
-      },
+      "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {},
       "policies": {},
@@ -739,23 +1283,23 @@
         },
         "order": {
           "name": "order",
-          "type": "integer",
+          "type": "numeric",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "created_at": {
           "name": "created_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -844,14 +1388,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -913,6 +1457,51 @@
       "checkConstraints": {},
       "isRLSEnabled": false
     },
+    "public.films_drafts": {
+      "name": "films_drafts",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "film_id": {
+          "name": "film_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "content": {
+          "name": "content",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
     "public.films_genres": {
       "name": "films_genres",
       "schema": "",
@@ -940,14 +1529,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1034,7 +1623,6 @@
         "role": {
           "name": "role",
           "type": "person_role",
-          "typeSchema": "public",
           "primaryKey": false,
           "notNull": true
         },
@@ -1044,25 +1632,19 @@
           "primaryKey": false,
           "notNull": false
         },
-        "comment": {
-          "name": "comment",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
         "created_at": {
           "name": "created_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {},
@@ -1127,14 +1709,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1217,14 +1799,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1286,14 +1868,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1312,7 +1894,7 @@
               "isExpression": false,
               "asc": true,
               "nulls": "last",
-              "opclass": "int4_ops"
+              "opclass": "text_ops"
             }
           ],
           "isUnique": true,
@@ -1355,129 +1937,6 @@
       "checkConstraints": {},
       "isRLSEnabled": false
     },
-    "public.page_content": {
-      "name": "page_content",
-      "schema": "",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "serial",
-          "primaryKey": true,
-          "notNull": true
-        },
-        "title": {
-          "name": "title",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "content": {
-          "name": "content",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
-        },
-        "updated_at": {
-          "name": "updated_at",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
-        },
-        "page_key": {
-          "name": "page_key",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {},
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {},
-      "policies": {},
-      "checkConstraints": {},
-      "isRLSEnabled": false
-    },
-    "public.pending_films": {
-      "name": "pending_films",
-      "schema": "",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "serial",
-          "primaryKey": true,
-          "notNull": true
-        },
-        "title": {
-          "name": "title",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "priority": {
-          "name": "priority",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true,
-          "default": 1
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
-        },
-        "updated_at": {
-          "name": "updated_at",
-          "type": "timestamp(3)",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
-        },
-        "collectionId": {
-          "name": "collectionId",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "rating": {
-          "name": "rating",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": false
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {
-        "pending_films_collectionId_fkey": {
-          "name": "pending_films_collectionId_fkey",
-          "tableFrom": "pending_films",
-          "tableTo": "collections",
-          "columnsFrom": [
-            "collectionId"
-          ],
-          "columnsTo": [
-            "id"
-          ],
-          "onDelete": "set null",
-          "onUpdate": "cascade"
-        }
-      },
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {},
-      "policies": {},
-      "checkConstraints": {},
-      "isRLSEnabled": false
-    },
     "public.people": {
       "name": "people",
       "schema": "",
@@ -1499,14 +1958,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "selected": {
           "name": "selected",
@@ -1554,25 +2013,19 @@
           "primaryKey": false,
           "notNull": true
         },
-        "finished_at": {
-          "name": "finished_at",
-          "type": "date",
-          "primaryKey": false,
-          "notNull": false
-        },
         "created_at": {
           "name": "created_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1635,14 +2088,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1692,9 +2145,9 @@
           "primaryKey": false,
           "notNull": true
         },
-        "refresh_token": {
-          "name": "refresh_token",
-          "type": "text",
+        "translationPreferences": {
+          "name": "translationPreferences",
+          "type": "jsonb",
           "primaryKey": false,
           "notNull": false
         },
@@ -1703,14 +2156,14 @@
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         },
         "updated_at": {
           "name": "updated_at",
           "type": "timestamp(3)",
           "primaryKey": false,
           "notNull": true,
-          "default": "CURRENT_TIMESTAMP"
+          "default": "now()"
         }
       },
       "indexes": {
@@ -1737,6 +2190,83 @@
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false
+    },
+    "public.users_sessions": {
+      "name": "users_sessions",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "user_id": {
+          "name": "user_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "session_id": {
+          "name": "session_id",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "refresh_token": {
+          "name": "refresh_token",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "device_info": {
+          "name": "device_info",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "last_activity_at": {
+          "name": "last_activity_at",
+          "type": "timestamp(3) with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "users_sessions_user_id_fkey": {
+          "name": "users_sessions_user_id_fkey",
+          "tableFrom": "users_sessions",
+          "tableTo": "users",
+          "columnsFrom": [
+            "user_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "cascade"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
     }
   },
   "enums": {
@@ -1746,7 +2276,18 @@
       "values": [
         "GENERAL",
         "CINEMATIC_UNIVERSE",
+        "CHAPTER",
         "TOP"
+      ]
+    },
+    "public.title_type": {
+      "name": "title_type",
+      "schema": "public",
+      "values": [
+        "FILM",
+        "SERIES",
+        "ANIMATION",
+        "ANIMATED_SERIES"
       ]
     },
     "public.person_role": {
@@ -1760,22 +2301,6 @@
         "CAMERAMAN",
         "CREATOR",
         "ACTOR"
-      ]
-    },
-    "public.title_style": {
-      "name": "title_style",
-      "schema": "public",
-      "values": [
-        "LIVE_ACTION",
-        "ANIMATION"
-      ]
-    },
-    "public.title_type": {
-      "name": "title_type",
-      "schema": "public",
-      "values": [
-        "FILM",
-        "SERIES"
       ]
     }
   },

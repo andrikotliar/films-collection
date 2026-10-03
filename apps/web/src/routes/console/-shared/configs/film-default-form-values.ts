@@ -17,7 +17,7 @@ export const filmDefaultFormValues: z.infer<typeof FilmFormSchema> = {
   studios: [],
   collections: [],
   countries: [],
-  synopsis: null,
+  description: null,
   castAndCrew: [],
   awards: [],
   trailers: [],

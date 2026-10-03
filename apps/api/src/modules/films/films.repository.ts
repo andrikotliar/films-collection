@@ -135,7 +135,7 @@ export class FilmsRepository {
         boxOffice: true,
         rating: true,
         type: true,
-        synopsis: true,
+        description: true,
       },
       with: {
         genres: {
@@ -458,7 +458,7 @@ export class FilmsRepository {
         releaseDate: true,
         budget: true,
         boxOffice: true,
-        synopsis: true,
+        description: true,
         draft: true,
       },
       with: {
@@ -681,7 +681,7 @@ export class FilmsRepository {
         title: true,
         releaseDate: true,
         duration: true,
-        synopsis: true,
+        description: true,
         budget: true,
         boxOffice: true,
         type: true,
