@@ -160,7 +160,7 @@ const seedFilms = async () => {
         }
       }
 
-      if (collections.length) {
+      if (collections?.length) {
         await tr.insert(filmsCollections).values(
           collections.map((collection) => ({
             filmId,
@@ -197,9 +197,11 @@ const seedFilms = async () => {
 
 const run = async () => {
   await seedFilms();
+  process.exit(0);
 };
 
 run().catch((error) => {
-  logger.error(error);
+  // eslint-disable-next-line
+  console.log(error);
   process.exit(1);
 });
