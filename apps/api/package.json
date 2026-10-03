@@ -12,6 +12,7 @@
     "db:gen": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:seed": "tsx scripts/seed-database",
+    "gen:pwd": "tsx scripts/create-password",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --quiet --ext .ts"
   },
