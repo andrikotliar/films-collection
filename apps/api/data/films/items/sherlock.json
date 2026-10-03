@@ -7,7 +7,7 @@
   "budget": 0,
   "boxOffice": 0,
   "synopsis": "Sherlock Holmes in modern Britain investigates unusual murder cases. He is a private detective, a bit eccentric, but the best in his field. His apartment neighbor is former military doctor John Watson, who becomes very interested in Sherlock's cases and blogs about them while participating in his investigations.",
-  "poster": "posters/sherlock.webp",
+  "imagePath": "posters/sherlock.webp",
   "genres": [
     {
       "title": "Crime",

@@ -7,7 +7,7 @@
   "budget": 160000000,
   "boxOffice": 1150000000,
   "synopsis": null,
-  "poster": "posters/aquaman.webp",
+  "imagePath": "posters/aquaman.webp",
   "genres": [
     {
       "title": "Fantasy",

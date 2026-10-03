@@ -7,7 +7,7 @@
   "budget": 0,
   "boxOffice": 0,
   "synopsis": "A family arrives for a vacation on the island of La Palma, and soon the tranquility of the city will be disrupted by an approaching disaster. An ancient volcano has awakened, and its eruption could lead to the complete destruction of the island. When everyone on the island learns about this, panic ensues in an attempt to leave the island as quickly as possible.",
-  "poster": "posters/la_palma",
+  "imagePath": "posters/la_palma",
   "genres": [
     {
       "title": "Disaster",

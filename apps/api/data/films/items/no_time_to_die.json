@@ -7,7 +7,7 @@
   "budget": 250000000,
   "boxOffice": 774000000,
   "synopsis": null,
-  "poster": "posters/no_time_to_die",
+  "imagePath": "posters/no_time_to_die",
   "genres": [
     {
       "title": "Action",

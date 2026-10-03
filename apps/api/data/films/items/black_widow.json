@@ -7,7 +7,7 @@
   "budget": 200000000,
   "boxOffice": 379000000,
   "synopsis": null,
-  "poster": "posters/black_widow.webp",
+  "imagePath": "posters/black_widow.webp",
   "genres": [
     {
       "title": "Adventures",

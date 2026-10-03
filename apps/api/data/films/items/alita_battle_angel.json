@@ -7,7 +7,7 @@
   "budget": 170000000,
   "boxOffice": 400000000,
   "synopsis": null,
-  "poster": "posters/alita.webp",
+  "imagePath": "posters/alita.webp",
   "genres": [
     {
       "title": "Cyberpunk",

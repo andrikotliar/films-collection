@@ -9,7 +9,7 @@
   "overview": null,
   "chapterKey": "mcu",
   "chapterOrder": 20,
-  "poster": "posters/thor_3.webp",
+  "imagePath": "posters/thor_3.webp",
   "genres": [
     {
       "title": "Sci-Fi",

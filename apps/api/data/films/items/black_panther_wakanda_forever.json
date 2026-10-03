@@ -7,7 +7,7 @@
   "budget": 250000000,
   "boxOffice": 859000000,
   "synopsis": "The world mourns the loss of King T'Challa while facing new threats. Queen Ramonda, Shuri, and their allies must protect Wakanda's secrets from invading forces and confront the water-dwelling nation of Talokan.",
-  "poster": "posters/black_panther_wakanda_forever",
+  "imagePath": "posters/black_panther_wakanda_forever",
   "genres": [
     {
       "title": "Action",

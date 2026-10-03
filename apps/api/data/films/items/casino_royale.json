@@ -7,7 +7,7 @@
   "budget": 150000000,
   "boxOffice": 616000000,
   "synopsis": null,
-  "poster": "posters/casino_royale.webp",
+  "imagePath": "posters/casino_royale.webp",
   "genres": [
     {
       "title": "Action",

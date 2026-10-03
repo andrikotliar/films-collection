@@ -7,7 +7,7 @@
   "budget": 25000000,
   "boxOffice": 24000000,
   "synopsis": "The story of how Ray Kroc, after facing problems with the sale of kitchen appliances, stumbles upon a popular local restaurant run by the McDonald brothers and offers them to expand their business. After they agree, Ray gradually starts taking control of the new business for himself.",
-  "poster": "posters/founder",
+  "imagePath": "posters/founder",
   "genres": [
     {
       "title": "Biography",

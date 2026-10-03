@@ -9,7 +9,7 @@
   "overview": null,
   "chapterKey": "x-men",
   "chapterOrder": 2,
-  "poster": "posters/x_men_6.webp",
+  "imagePath": "posters/x_men_6.webp",
   "genres": [
     {
       "title": "Sci-Fi",

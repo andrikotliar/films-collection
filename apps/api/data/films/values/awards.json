@@ -142,6 +142,16 @@
         "id": 272,
         "title": "Most Frightened Performance",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 315,
+        "title": "Best WTF Moment",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 320,
+        "title": "Best Latino Actor",
+        "shouldIncludeActor": true
       }
     ]
   },
@@ -373,6 +383,11 @@
       {
         "id": 310,
         "title": "Best Achievement in Music Written for Motion Pictures, Original Score",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 319,
+        "title": "Best Achievement in Music Written for Motion Pictures, Original Song",
         "shouldIncludeActor": false
       }
     ]
@@ -1404,6 +1419,21 @@
         "id": 264,
         "title": "Best Screenplay - Original",
         "shouldIncludeActor": false
+      },
+      {
+        "id": 314,
+        "title": "Best Original Screenplay",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 316,
+        "title": "Best Director",
+        "shouldIncludeActor": false
+      },
+      {
+        "id": 317,
+        "title": "Best Screenplay (Adapted)",
+        "shouldIncludeActor": false
       }
     ]
   },
@@ -1580,6 +1610,11 @@
         "id": 214,
         "title": " Best stunt design",
         "shouldIncludeActor": true
+      },
+      {
+        "id": 318,
+        "title": "Best Screenplay, Adapted",
+        "shouldIncludeActor": false
       }
     ]
   }

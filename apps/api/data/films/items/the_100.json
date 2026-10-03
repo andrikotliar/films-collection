@@ -7,7 +7,7 @@
   "budget": 0,
   "boxOffice": 0,
   "synopsis": "In the future, humanity has survived a large-scale nuclear war. The last survivors live on a space station. If someone breaks the rules, they are simply thrown overboard. One day, scientists on the ship gather one hundred violators and send them to Earth to see if they can survive there.",
-  "poster": "posters/hundred.webp",
+  "imagePath": "posters/hundred.webp",
   "genres": [
     {
       "title": "Sci-Fi",
